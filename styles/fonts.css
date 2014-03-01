@@ -53,3 +53,11 @@
 .icon-18f-logo:before {
   content: "e";
 }
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Georgia, Helvetica, Arial, sans-serif;
+}

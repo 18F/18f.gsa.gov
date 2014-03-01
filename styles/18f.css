@@ -14,6 +14,8 @@
   background-color: rgba(0,0,0,.25);
   color: #FFFFFF;
   text-align: center;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .jumbotron > .container-fluid {
