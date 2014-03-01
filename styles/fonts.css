@@ -53,6 +53,9 @@
 .icon-18f-logo:before {
   content: "e";
 }
+.icon-camera:before {
+  content: "f";
+}
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
