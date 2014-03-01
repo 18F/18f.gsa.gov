@@ -54,3 +54,8 @@
   width: 100%;
   text-align: center;
 }
+
+.emphasis {
+  color: #9e005d;
+  font-weight: bold;
+}
