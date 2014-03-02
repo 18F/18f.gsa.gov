@@ -1,29 +1,10 @@
 .jumbotron {
-  background-color: #04273F;
+  background-color: #03253e;
   padding: 0;
   margin: 0;
-  height: 500px;
-  position: relative;
+  height: 720px;
+  background-image: url(../images/bg-moon-buzz.jpg); background-size: cover; background-position: center top;
 }
-
-.jumbotron .container-fluid {
-  position: absolute;
-  top: 230px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  background-color: rgba(0,0,0,.25);
-}
-
-.container-fluid h2 {
-  margin:0 auto;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 70px;
-  font-weight: 400;
-  max-width: 860px;
-}
-
 .jumbotron > img {
   height: 150px;
   width: 150px;
@@ -31,44 +12,55 @@
   top: 50px;
   left: 50px;
 }
-
-.jumbotron.blog {
-  height: auto;
-  background-color: #cbe9ff;  
-  padding:20px 0 30px 0;
+@media (max-width: 992px) {.jumbotron > img {height: 100px; width: 100px; top: 20px; left: 20px;}}
+@media (max-width: 360px) {.jumbotron > img {height: 75px; width: 75px;}
 }
-.jumbotron.blog .row {
-  padding:15px 0;
+.jumbotron .container-fluid {
+  position: absolute;
+  top: 430px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: rgba(0,0,0,.3);
 }
-.jumbotron.blog h4 {
-  padding: 0 15px;
-  font-size: 20px;
-  font-weight: bold;
+.jumbotron .container-fluid > h2 {
+  margin:0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 400;
+  max-width: 860px;
 }
-.jumbotron.blog h4 > a {color:#990066; text-decoration: none;}
-.jumbotron.blog h4 > a:hover {color:#ff3399; text-decoration: underline;}
-
-.blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em;}
-.blog-md a {text-decoration: none; font-weight: 600;}
-.blog-md a:hover {text-decoration: underline;}
-.blog-snippet {line-height: 2em;}
-
-.jumbotron.footer {
-  border-top: 5px solid #1188ff;
-  height: auto;
-  padding: 40px;
-  color: #ffffff;
-  margin-bottom: 0;
+@media (max-width: 860px) {.jumbotron .container-fluid > h2 {font-size: 4em;}}
+@media (max-width: 550px) {.jumbotron .container-fluid > h2 {font-size: 3em;}}
+@media (max-width: 360px) {
+  .jumbotron { height:480px; }
+  .jumbotron .container-fluid {top:200px;}
 }
 
-.footer div > img {
-  height: 100px;
+.photo-credit {
+  color:#fff;
+  font-size: 1.1em;
+  margin-top:-40px;
+  margin-left:15px;
+  height: 40px;
+  position: relative;
+  z-index: 1000;
 }
+.photo-credit i {vertical-align: middle;}
+.photo-credit .icon-camera {font-size: 30px; margin-right:10px;}
+.photo-credit a {color:#fff; text-decoration:none;}
+.photo-credit a:hover {color:#f39; text-decoration:none;}
 
-.footer a { color:#ffffff; text-decoration: none;}
-.footer a:hover { text-decoration: underline;}
-
-.mantra {margin-top:40px; margin-bottom:40px;}
+.mantra {
+  margin-top:40px; 
+  margin-bottom:40px; 
+  background-image:url(../images/lightbulb.png);
+  background-size: 10%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 992px) {.mantra {background:none;}}
 .mantra h3 {
   text-align: center;
   font-size: 30px;
@@ -80,6 +72,45 @@
   padding-top:20px; padding:bottom:20px; margin:0;
 }
 
+.emphasis {
+  color: #906;
+  font-weight: 700;
+}
+
+.blog {
+  height: auto;
+  background-color: #cef;  
+  padding:20px 0 30px 0;
+}
+.blog .row { padding:15px 0; }
+.blog h4 {
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.blog h4 > a {color:#906; text-decoration: none;}
+.blog h4 > a:hover {color:#f39; text-decoration: underline;}
+
+.blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em;}
+.blog-md a {text-decoration: none; font-weight: 600;}
+.blog-md a:hover {text-decoration: underline;}
+.blog-snippet {line-height: 2em;}
+
+.footer {
+  border-top: 5px solid #18f;
+  background-color: #03253e;
+  height: auto;
+  color: #fff;
+  padding-top: 20px; padding-bottom: 20px;
+}
+.footer div { padding-top: 10px; padding-bottom: 10px;}
+.footer div > img { height: 100px; }
+.footer a { color:#fff; text-decoration: none;}
+.footer a:hover { text-decoration: underline;}
+.footer .propaganda {float: right;}
+@media (max-width: 790px) {.footer .propaganda {float:none;}}
+
+/* changed to background image
 .mid-icon {
   font-size: 300px;
   color: #1188ff;
@@ -98,8 +129,4 @@
     height: 110px;
   }
 }
-
-.emphasis {
-  color: #990066;
-  font-weight: 700;
-}
+*/
