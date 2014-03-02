@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-a, a:hover {
+a {
   color:#1188ff;
   text-decoration: underline;
 }
+a:hover {color:#ff3399;}

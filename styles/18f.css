@@ -6,21 +6,22 @@
   position: relative;
 }
 
-.jumbotron h2 {
+.jumbotron .container-fluid {
   position: absolute;
   top: 230px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
   background-color: rgba(0,0,0,.25);
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 70px;
-  font-weight: 400;
 }
 
-.jumbotron > .container-fluid {
-  padding: 0;
+.container-fluid h2 {
+  margin:0 auto;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 70px;
+  font-weight: 400;
+  max-width: 860px;
 }
 
 .jumbotron > img {
@@ -34,13 +35,23 @@
 .jumbotron.blog {
   height: auto;
   background-color: #cbe9ff;  
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 0;
+  padding:20px 0 30px 0;
+}
+.jumbotron.blog .row {
+  padding:15px 0;
 }
 .jumbotron.blog h4 {
-  padding:10px 15px 5px 15px;
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
+.jumbotron.blog h4 > a {color:#990066; text-decoration: none;}
+.jumbotron.blog h4 > a:hover {color:#ff3399; text-decoration: underline;}
+
+.blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em;}
+.blog-md a {text-decoration: none; font-weight: 600;}
+.blog-md a:hover {text-decoration: underline;}
+.blog-snippet {line-height: 2em;}
 
 .jumbotron.footer {
   border-top: 5px solid #1188ff;
@@ -62,7 +73,7 @@
   text-align: center;
   font-size: 30px;
   font-weight: 400;
-  padding-top:20px; padding-bottom: 20px; margin:0;
+  padding-top: 15px; padding-bottom: 15px; margin:0;
 }
 .mantra p {
   font-size: 13px;
