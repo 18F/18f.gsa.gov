@@ -107,7 +107,7 @@
 .blog h4 > a:hover {color:#f39; text-decoration: underline;}
 
 .blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em;}
-.blog-md a {text-decoration: none; font-weight: 600;}
+.blog-md a {text-decoration: none; font-weight: 700;}
 .blog-md a:hover {text-decoration: underline;}
 .blog-snippet {line-height: 2em;}
 
