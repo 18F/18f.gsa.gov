@@ -3,7 +3,10 @@
   padding: 0;
   margin: 0;
   height: 720px;
-  background-image: url(../images/bg-moon-buzz.jpg); background-size: cover; background-position: center top;
+  background-image: url(../images/bg-moon-buzz.jpg); 
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center top;  /* Internet Explorer 7/8 */
 }
 .jumbotron > img {
   height: 150px;
