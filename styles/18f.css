@@ -164,6 +164,9 @@
 .slidesjs-navigation,
 .slidesjs-pagination,
 .photo-credit {display:none;}
+.photo-credit {
+  text-shadow: 1px 1px 2px #000;
+}
 #slideshow {
   position: relative;
   z-index: 1;
