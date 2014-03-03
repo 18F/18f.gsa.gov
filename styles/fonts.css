@@ -53,11 +53,23 @@
 .icon-18f-logo:before {
   content: "e";
 }
+.icon-camera:before {
+  content: "f";
+}
 
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.7em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', Georgia, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
+
+a {
+  color:#18f;
+  text-decoration: underline;
+}
+a:hover {color:#f39;}
