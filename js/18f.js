@@ -28,8 +28,8 @@ $(document).ready(function () {
         var post = result.response.posts[i];
         $('#blog' + i + ' .blog-title').html(post.title);
         $('#blog' + i + ' .blog-title').attr('href', post.post_url);
-        // $('#blog' + i + ' .blog-date').html(post.date);
-        $('#blog' + i + ' .blog-snippet').html(post.body);
+        $('#blog' + i + ' .blog-text').html(post.body);
+        $('#blog' + i + ' .readmore').attr('href', post.post_url);
         var tagHtml = '';
         for (j in post.tags) {
           if (j != 0) {
@@ -40,11 +40,12 @@ $(document).ready(function () {
         $('#blog' + i + ' .blog-tags').html(tagHtml);
         var d = new Date(post.timestamp * 1000);
         var date = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
-        $("#blog" + i + ' .blog-date').html(date);
+        $('#blog' + i + ' .blog-date').html(date);
         $('#blog' + i).show();
       }
       $(".blog-snippet").dotdotdot({
-        watch: "window"
+        watch: "window",
+        after: "a.readmore"
       });
     },
     error: function (e) {
