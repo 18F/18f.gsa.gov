@@ -25,8 +25,7 @@ $(document).ready(function () {
       $("#blog-loading").hide();
       for (i in result.response.posts) {
         // render post to the page
-        var post = result.response.posts[i]
-        console.log(post);
+        var post = result.response.posts[i];
         $('#blog' + i + ' .blog-title').html(post.title);
         $('#blog' + i + ' .blog-title').attr('href', post.post_url);
         // $('#blog' + i + ' .blog-date').html(post.date);
