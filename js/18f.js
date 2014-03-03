@@ -1,5 +1,3 @@
-var slideshowInit;
-
 $(document).ready(function() {
   // load posts from tumblr
   var blog = 'peacecorps.tumblr.com';
