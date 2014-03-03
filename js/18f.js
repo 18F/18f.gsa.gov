@@ -8,10 +8,10 @@ $(document).ready(function() {
     dataType: 'jsonp',
     jsonpCallback: 'jsonp',
     success: function (result) {
+      $("#blog-loading").hide();
       for (i in result.response.posts) {
         // render post to the page
         var post = result.response.posts[i]
-        console.log(post);
         $('#blog' + i + ' .blog-title').html(post.title);
         $('#blog' + i + ' .blog-title').attr('href', post.post_url);
         $('#blog' + i + ' .blog-date').html(post.date);
@@ -29,7 +29,66 @@ $(document).ready(function() {
       $(".blog-snippet").dotdotdot();
     },
     error: function (e) {
-      // An error occurred contacting tumblr
+      $("#blog-loading .error").show();
     }
   });
+
+
+  var $slideshow = $('#slideshow')
+  var $slides = $('#slideshow').find('img');
+  var $photo_credit = $('.photo-credit');
+  var $wrapper = $('.slideshow-wrapper');
+  console.log('width: ' + $wrapper.width())
+  console.log('height: ' + $wrapper.height())
+
+  $slideshow.slidesjs({
+    width: $wrapper.width(),
+    height: $wrapper.height(),
+    start: Math.floor((Math.random()*$slides.length)+1),
+    effect: {
+      fade: {
+        speed: 800
+      }
+    },
+    play: {
+      active: false,
+      auto: true,
+      effect: 'fade'
+    },
+    interval: 2000,
+    callback: {
+      loaded: function(number) {
+        var $slide = $($slides[number-1]);
+        var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
+        $photo_credit.html(caption).fadeIn();
+      },
+      start: function(number) {
+        $photo_credit.fadeOut();
+      },
+      complete: function(number) {
+        // var $slide = $slides.get(number-1)
+        var $slide = $($slides[number-1]);
+        var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
+        $photo_credit.html(caption).fadeIn();
+      }
+    }
+  });
+
+  var slideshowResize = function() {
+    var $wrapper = $('.slideshow-wrapper');
+    var h = $wrapper.height();
+    var w = $wrapper.width();
+
+    $slideshow.width(w).height(h);
+    $slideshow.find('.slide').css('min-height',h)
+    $slideshow.find('.slide').css('min-width',w)
+    return true;
+  }
+
+  slideshowResize();
+
+  $(window).resize(function() {
+    slideshowResize();
+  });
 });
+
