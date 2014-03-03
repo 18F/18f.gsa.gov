@@ -33,13 +33,24 @@ $(document).ready(function() {
     }
   });
 
-
+  // SLIDESHOW
   var $slideshow = $('#slideshow')
+  var $slideshow_container = $('.slidesjs-container')
   var $slides = $('#slideshow').find('img');
   var $photo_credit = $('.photo-credit');
   var $wrapper = $('.slideshow-wrapper');
-  console.log('width: ' + $wrapper.width())
-  console.log('height: ' + $wrapper.height())
+
+  var slideshowResize = function() {
+    var $wrapper = $('.slideshow-wrapper');
+    var h = $wrapper.height();
+    var w = $wrapper.width();
+
+    $slideshow.width(w).height(h);
+    $slideshow_container.width(w).height(h)
+    $slideshow.find('.slide').css('min-height',h)
+    $slideshow.find('.slide').css('min-width',w)
+    return true;
+  }
 
   $slideshow.slidesjs({
     width: $wrapper.width(),
@@ -66,29 +77,20 @@ $(document).ready(function() {
         $photo_credit.fadeOut();
       },
       complete: function(number) {
-        // var $slide = $slides.get(number-1)
         var $slide = $($slides[number-1]);
         var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
         $photo_credit.html(caption).fadeIn();
+        slideshowResize();
       }
     }
   });
-
-  var slideshowResize = function() {
-    var $wrapper = $('.slideshow-wrapper');
-    var h = $wrapper.height();
-    var w = $wrapper.width();
-
-    $slideshow.width(w).height(h);
-    $slideshow.find('.slide').css('min-height',h)
-    $slideshow.find('.slide').css('min-width',w)
-    return true;
-  }
 
   slideshowResize();
 
   $(window).resize(function() {
     slideshowResize();
   });
+
+  // END SLIDESHOW
 });
 
