@@ -103,7 +103,11 @@
 .blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em; padding-bottom: 10px;}
 .blog-md a {text-decoration: none; font-weight: 700;}
 .blog-md a:hover {text-decoration: underline;}
-.blog-snippet {line-height: 2em;}
+.blog-snippet {
+  line-height: 2em;
+  height: 8em;
+  overflow: none;
+}
 
 .footer {
   border-top: 5px solid #18f;
