@@ -18,7 +18,10 @@
   z-index: 20;
 }
 @media (max-width: 992px) {.jumbotron > img {height: 100px; width: 100px; top: 20px; left: 20px;}}
-@media (max-width: 360px) {.jumbotron > img {height: 75px; width: 75px;}
+@media (max-width: 360px) {
+  .jumbotron > img {
+    height: 75px; width: 75px;
+  }
 }
 .jumbotron .container-fluid {
   position: absolute;
@@ -49,8 +52,8 @@
   .jumbotron .container-fluid > h2 {font-size: 3em;}
 }
 @media (max-width: 360px) {
-  .jumbotron { height:480px; }
-  .jumbotron .container-fluid {top:200px;}
+  .jumbotron { height:400px; }
+  .jumbotron .container-fluid {top:120px;}
 }
 
 .photo-credit {
