@@ -56,16 +56,35 @@
 .photo-credit {
   color:#fff;
   font-size: 1.1em;
-  margin-top:-40px;
-  margin-left:15px;
+  margin-top: -40px;
+  margin-left: 15px;
   height: 40px;
   position: relative;
   z-index: 1000;
+  overflow: none;
 }
-.photo-credit i {vertical-align: middle;}
-.photo-credit .icon-camera {font-size: 30px; margin-right:10px;}
-.photo-credit a {color:#fff; text-decoration:none;}
-.photo-credit a:hover {color:#f39; text-decoration:none;}
+.photo-credit i {
+  vertical-align: middle;
+}
+.photo-credit .icon-camera {
+  font-size: 30px; margin-right:10px;
+}
+.photo-credit a {
+  color:#fff; text-decoration:none;
+}
+.photo-credit a:hover {
+  color:#f39; text-decoration:none;
+}
+@media (max-width: 550px) {
+  .photo-credit {
+    margin-top: -30px;
+    font-size: 0.8em;
+    height: 1em;
+  }
+  .photo-credit .icon-camera {
+    font-size: 20px;
+  }
+}
 
 .mantra {
   margin-top:40px;
