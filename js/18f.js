@@ -26,6 +26,7 @@ $(document).ready(function() {
         $('#blog' + i + ' .blog-tags').html(tagHtml);
         $('#blog' + i).show();
       }
+      $(".blog-snippet").dotdotdot();
     },
     error: function (e) {
       // An error occurred contacting tumblr
