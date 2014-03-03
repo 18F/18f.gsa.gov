@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // load posts from tumblr
   var blog = 'peacecorps.tumblr.com';
   $.ajax({
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
   // SLIDESHOW
-  var slideshowInit = function() {
+  var slideshowInit = function () {
     var $slideshow = $('#slideshow');
     var $slideshow_wrapper = $('.slideshow-wrapper');
     var $slides = $slideshow.find('.slide');
@@ -52,8 +52,8 @@ $(document).ready(function() {
   // END SLIDESHOW
 
   // linear fade-ins
-  $('.fadeIn').each(function(e) { 
-    $(this).addClass('fade-'+e)
-    var t = setTimeout("$('.fade-"+e+"').fadeIn(500)",500*e)
+  $('.fadeIn').each(function (e) { 
+    $(this).addClass('fade-'+e);
+    var t = setTimeout("$('.fade-"+e+"').fadeIn(500)",500*e);
   });
 });
