@@ -35,65 +35,25 @@ $(document).ready(function() {
     }
   });
 
+
   // SLIDESHOW
-  var $slideshow = $('#slideshow');
-  var $slides = $('#slideshow').find('img.slide');
-  var $photo_credit = $('.photo-credit');
-  var $wrapper = $('.slideshow-wrapper');
-
-  var slideshowResize = function() {
-    var $wrapper = $('.slideshow-wrapper');
-    var h = $wrapper.height();
-    var w = $wrapper.width();
-
-    $slideshow.width(w).height(h);
-    $('.slidesjs-container').width(w).height(h);
-    $('.slidesjs-control').width(w).height(h);
-    $slideshow.find('.slide').css('min-height',h);
-    // $slideshow.find('.slide').css('min-width',w);
-
-    return true;
+  var slideshowInit = function() {
+    var $slideshow = $('#slideshow');
+    var $slideshow_wrapper = $('.slideshow-wrapper');
+    var $slides = $slideshow.find('.slide');
+    var $photo_credit = $('.photo-credit');
+    var num = Math.floor((Math.random()*$slides.length)+1);
+    var $slide = $($slides[num-1]); // get random slide
+    var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
+    $slideshow_wrapper.append($slide);
+    $photo_credit.html(caption).fadeIn();
   }
-
-  $slideshow.slidesjs({
-    width: $wrapper.width(),
-    height: $wrapper.height(),
-    start: Math.floor((Math.random()*$slides.length)+1),
-    effect: {
-      fade: {
-        speed: 400
-      }
-    },
-    play: {
-      active: false,
-      auto: true,
-      effect: 'fade'
-    },
-    interval: 4000,
-    callback: {
-      loaded: function(number) {
-        var $slide = $($slides[number-1]);
-        var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
-        $photo_credit.html(caption).fadeIn();
-      },
-      start: function(number) {
-        $photo_credit.fadeOut();
-      },
-      complete: function(number) {
-        var $slide = $($slides[number-1]);
-        var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
-        $photo_credit.html(caption).fadeIn();
-        slideshowResize();
-      }
-    }
-  });
-
-  slideshowResize();
-
-  $(window).resize(function() {
-    slideshowResize();
-  });
-
+  slideshowInit();
   // END SLIDESHOW
-});
 
+  // linear fade-ins
+  $('.fadeIn').each(function(e) { 
+    $(this).addClass('fade-'+e)
+    var t = setTimeout("$('.fade-"+e+"').fadeIn(500)",500*e)
+  });
+});
