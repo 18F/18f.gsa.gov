@@ -96,6 +96,10 @@
 .blog h4 > a {color:#906; text-decoration: none;}
 .blog h4 > a:hover {color:#f39; text-decoration: underline;}
 
+.blog .blog-entry {
+  display: none;
+}
+
 .blog-md {font-size: 13px; font-weight: 400; line-height: 1.5em; padding-bottom: 10px;}
 .blog-md a {text-decoration: none; font-weight: 700;}
 .blog-md a:hover {text-decoration: underline;}
