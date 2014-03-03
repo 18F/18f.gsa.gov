@@ -26,7 +26,9 @@ $(document).ready(function() {
         $('#blog' + i + ' .blog-tags').html(tagHtml);
         $('#blog' + i).show();
       }
-      $(".blog-snippet").dotdotdot();
+      $(".blog-snippet").dotdotdot({
+        watch: "window"
+      });
     },
     error: function (e) {
       $("#blog-loading .error").show();
