@@ -12,19 +12,22 @@
     <link href="styles/18f.min.css" rel="stylesheet">
       <!-- <link href="styles/fonts.css" rel="stylesheet"> -->
       <!-- <link href="styles/18f.css" rel="stylesheet"> -->
+      <!-- <link href="styles/flexslider.css" rel="stylesheet"> -->
   </head>
   <body>
     <!-- begin slideshow -->
     <div class="jumbotron 18f-hero slideshow-wrapper">
       <div id="slideshow">
-        <img class="slide" src="images/slideshow/buzz.jpg" alt="Source: NASA GRIN GPN-2001-000013" />
-        <img class="slide" src="images/slideshow/hoover.jpg" alt="Source: http://www.flickr.com/photos/tyrian123/" />
-        <img class="slide" src="images/slideshow/buzz-footprint.jpg" alt="Source: NASA GRIN GPN-2001-000014" />
-        <!-- <img class="slide" src="images/slideshow/wilbur.jpg" alt="Source: Library of Congress Prints and Photographs Division" /> -->
+        <div class="slide" style="background-image: url(images/slideshow/buzz.jpg); background-position: center top;" alt="Source: NASA GRIN GPN-2001-000013"></div>
+        <div class="slide" style="background-image: url(images/slideshow/hoover-optimized.jpg)" alt="Source: <a href='http://www.flickr.com/photos/tyrian123/' target='_blank'>www.flickr.com/photos/tyrian123</a>"></div>
+        <div class="slide" style="background-image: url(images/slideshow/buzz-footprint.jpg)" alt="Source: NASA GRIN GPN-2001-000014"></div>
+          <!--
+            <div class="slide" style="background-image: url(images/slideshow/wilbur.jpg)" alt="Source: Library of Congress Prints and Photographs Division"></div>
+          -->
       </div>
-      <img src="images/logo-18f.png" alt="18F logo"/>
-      <div class="container-fluid">
-        <h2>
+      <img src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
+      <div class="container-fluid fadeIn">
+        <h2 class="">
           Delivering on the promise of American ingenuity.
         </h2>
       </div>
@@ -148,7 +151,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
       <!-- // <script src="js/bootstrap.min.js"></script> -->
       <!-- // <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script> -->
-      <!-- // <script src="js/jquery.slides.js"></script> -->
+      <!-- // <script src="js/jquery.flexslider.js"></script> -->
       <!-- // <script src="js/18f.js"></script> -->
     <script src="js/18f.min.js"></script>
   </body>
