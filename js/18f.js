@@ -8,10 +8,10 @@ $(document).ready(function() {
     dataType: 'jsonp',
     jsonpCallback: 'jsonp',
     success: function (result) {
+      $("#blog-loading").hide();
       for (i in result.response.posts) {
         // render post to the page
         var post = result.response.posts[i]
-        console.log(post);
         $('#blog' + i + ' .blog-title').html(post.title);
         $('#blog' + i + ' .blog-title').attr('href', post.post_url);
         $('#blog' + i + ' .blog-date').html(post.date);
@@ -29,7 +29,7 @@ $(document).ready(function() {
       $(".blog-snippet").dotdotdot();
     },
     error: function (e) {
-      // An error occurred contacting tumblr
+      $("#blog-loading .error").show();
     }
   });
 });

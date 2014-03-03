@@ -24,7 +24,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
-  background-color: rgba(0,0,0,.3);
+  background-color: #03253e; /* For browsers that don't support opacity */
+  background-color: rgba(0,0,0,.4);
 }
 .jumbotron .container-fluid > h2 {
   margin:0 auto;
@@ -97,6 +98,17 @@
 .blog h4 > a:hover {color:#f39; text-decoration: underline;}
 
 .blog .blog-entry {
+  display: none;
+}
+
+#blog-loading h4 {
+  text-align: center;
+  padding: 20px;
+  color: #606060;
+}
+#blog-loading .error {
+  text-align: center;
+  color: #906;
   display: none;
 }
 
