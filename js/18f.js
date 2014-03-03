@@ -18,7 +18,7 @@ $(document).ready(function () {
         $('#blog' + i + ' .blog-snippet').html(post.body);
         var tagHtml = '';
         for (j in post.tags) {
-          if (j !== 0) {
+          if (j != 0) {
             tagHtml += ', ';
           }
           tagHtml += '<a href="http://' + blog + '/tagged/' + encodeURIComponent(post.tags[j]) + '">' + post.tags[j] + '</a>';
