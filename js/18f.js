@@ -1,7 +1,8 @@
 $(document).ready(function() {
   // load posts from tumblr
+  var blog = 'peacecorps.tumblr.com';
   $.ajax({
-    url: 'http://api.tumblr.com/v2/blog/peacecorps.tumblr.com/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
+    url: 'http://api.tumblr.com/v2/blog/' + blog + '/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
     type: 'GET',
     contentType: 'application/json',
     dataType: 'jsonp',
@@ -20,7 +21,7 @@ $(document).ready(function() {
           if (j !== 0) {
             tagHtml += ', ';
           }
-          tagHtml += '<a href="' + '#' + '">' + post.tags[j] + '</a>';
+          tagHtml += '<a href="http://' + blog + '/tagged/' + encodeURIComponent(post.tags[j]) + '">' + post.tags[j] + '</a>';
         }
         $('#blog' + i + ' .blog-tags').html(tagHtml);
         $('#blog' + i).show();
