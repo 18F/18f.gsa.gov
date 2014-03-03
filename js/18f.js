@@ -34,9 +34,8 @@ $(document).ready(function() {
   });
 
   // SLIDESHOW
-  var $slideshow = $('#slideshow')
-  var $slideshow_container = $('.slidesjs-container')
-  var $slides = $('#slideshow').find('img');
+  var $slideshow = $('#slideshow');
+  var $slides = $('#slideshow').find('img.slide');
   var $photo_credit = $('.photo-credit');
   var $wrapper = $('.slideshow-wrapper');
 
@@ -46,9 +45,10 @@ $(document).ready(function() {
     var w = $wrapper.width();
 
     $slideshow.width(w).height(h);
-    $slideshow_container.width(w).height(h);
+    $('.slidesjs-container').width(w).height(h);
+    $('.slidesjs-control').width(w).height(h);
     $slideshow.find('.slide').css('min-height',h);
-    $slideshow.find('.slide').css('min-width',w);
+    // $slideshow.find('.slide').css('min-width',w);
 
     return true;
   }
@@ -59,7 +59,7 @@ $(document).ready(function() {
     start: Math.floor((Math.random()*$slides.length)+1),
     effect: {
       fade: {
-        speed: 800
+        speed: 400
       }
     },
     play: {
@@ -67,7 +67,7 @@ $(document).ready(function() {
       auto: true,
       effect: 'fade'
     },
-    interval: 2000,
+    interval: 4000,
     callback: {
       loaded: function(number) {
         var $slide = $($slides[number-1]);
