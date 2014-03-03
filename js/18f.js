@@ -2,7 +2,7 @@ $(document).ready(function() {
   // load posts from tumblr
   var blog = 'peacecorps.tumblr.com';
   $.ajax({
-    url: 'http://api.tumblr.com/v2/blog/' + blog + '/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
+    url: '//api.tumblr.com/v2/blog/' + blog + '/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
     type: 'GET',
     contentType: 'application/json',
     dataType: 'jsonp',
