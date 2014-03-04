@@ -198,7 +198,7 @@
   text-decoration: underline;
 }
 .blog-snippet {
-  height: auto;
+  max-height: 8em;
   overflow: hidden;
 }
 
