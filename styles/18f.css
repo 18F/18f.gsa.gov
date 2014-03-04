@@ -64,7 +64,7 @@
   height: 40px;
   position: relative;
   z-index: 1000;
-  overflow: none;
+  overflow: hidden;
 }
 .photo-credit i {
   vertical-align: middle;
@@ -107,7 +107,8 @@
 .mantra h3 > strong {color: #906;}
 .mantra p {
   font-size: 15px;
-  padding-top:20px; padding:bottom:20px; margin:0;
+  padding-top:20px;
+  margin:0;
 }
 
 .blog {
@@ -143,7 +144,7 @@
 .blog-snippet {
   line-height: 2em;
   height: 8em;
-  overflow: none;
+  overflow: hidden;
 }
 
 .footer {

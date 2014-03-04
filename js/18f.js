@@ -61,7 +61,7 @@ $(document).ready(function () {
     var $photo_credit = $('.photo-credit');
     var num = Math.floor((Math.random()*$slides.length)+1);
     var $slide = $($slides[num-1]); // get random slide
-    var caption = '<i class="icon-camera"></i> <span>'+$slide.attr('alt')+'</span>';
+    var caption = '<i class="icon-camera"></i> <span>' + $slide.data('caption') + '</span>';
     $slideshow_wrapper.append($slide);
     $photo_credit.html(caption).fadeIn();
   }
