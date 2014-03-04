@@ -1,5 +1,7 @@
 .jumbotron {
   background-color: #03253e;
+  /*background-color: #a4c5dd;*/
+  /*background-color: #1188ff;*/
   padding: 0;
   margin: 0;
   height: 720px;
@@ -169,10 +171,15 @@
   background-size: cover;
   -moz-background-size: cover;  /* Firefox 3.6 */
   background-position: center;  /* Internet Explorer 7/8 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 .photo-credit {
   text-shadow: 1px 1px 2px #000;
 }
 .slideshow-wrapper { overflow: hidden; }
-
+.slideshow-wrapper .slide { z-index: 1; }
+.slideshow-wrapper .fadeOut { z-index: 2; }
 .fadeIn { display: none; }

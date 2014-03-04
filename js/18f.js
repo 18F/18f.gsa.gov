@@ -53,20 +53,6 @@ $(document).ready(function () {
     }
   });
 
-  // SLIDESHOW
-  var slideshowInit = function () {
-    var $slideshow = $('#slideshow');
-    var $slideshow_wrapper = $('.slideshow-wrapper');
-    var $slides = $slideshow.find('.slide');
-    var $photo_credit = $('.photo-credit');
-    var num = Math.floor((Math.random()*$slides.length)+1);
-    var $slide = $($slides[num-1]); // get random slide
-    var caption = '<i class="icon-camera"></i> <span>' + $slide.data('caption') + '</span>';
-    $slideshow_wrapper.append($slide);
-    $photo_credit.html(caption).fadeIn();
-  }
-  slideshowInit();
-  // END SLIDESHOW
 
   // linear fade-ins
   $('.fadeIn').each(function (e) { 
