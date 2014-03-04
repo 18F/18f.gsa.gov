@@ -38,6 +38,7 @@
   font-size: 70px;
   font-weight: 400;
   max-width: 860px;
+  text-shadow: 1px 1px 6px #000;
 }
 @media (max-width: 992px) {
   .jumbotron { height: 650px; }
