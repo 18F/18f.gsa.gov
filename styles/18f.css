@@ -107,7 +107,8 @@
 .mantra h3 > strong {color: #906;}
 .mantra p {
   font-size: 15px;
-  padding-top:20px; padding:bottom:20px; margin:0;
+  padding-top:20px;
+  margin:0;
 }
 
 .blog {
