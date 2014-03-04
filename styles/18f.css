@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   height: 720px;
-  /*background-image: url(http://farm8.staticflickr.com/7374/9753507372_d5aa73abcc_o.jpg);*/
   background-size: cover;
   -moz-background-size: cover;  /* Firefox 3.6 */
   background-position: center;  /* Internet Explorer 7/8 */
@@ -82,7 +81,7 @@
   .photo-credit {
     margin-top: -30px;
     font-size: 0.8em;
-    height: 1em;
+    height: 2em;
   }
   .photo-credit .icon-camera {
     font-size: 20px;
