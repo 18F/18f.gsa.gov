@@ -64,7 +64,7 @@
   height: 40px;
   position: relative;
   z-index: 1000;
-  overflow: none;
+  overflow: hidden;
 }
 .photo-credit i {
   vertical-align: middle;
@@ -144,7 +144,7 @@
 .blog-snippet {
   line-height: 2em;
   height: 8em;
-  overflow: none;
+  overflow: hidden;
 }
 
 .footer {
