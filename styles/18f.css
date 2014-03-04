@@ -124,6 +124,7 @@
 
 .blog .blog-entry {
   display: none;
+  padding: 10px 0;
 }
 
 #blog-loading h4 {
