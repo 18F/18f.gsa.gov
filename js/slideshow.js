@@ -57,11 +57,23 @@ var Slideshow = (function($){
     TIMER = setTimeout('Slideshow.cycle();',TIMEOUT);
   };
 
+  var checkArrow = function (e) {
+    e = e || window.event;
+
+    if (e.keyCode == '39') {
+      cycle();
+    }
+  }
+
   return {
       init : init,
-      cycle : cycle
+      cycle : cycle,
+      checkArrow : checkArrow
   };
 
 })(jQuery);
 
 Slideshow.init();
+
+document.onkeydown = Slideshow.checkArrow;
+
