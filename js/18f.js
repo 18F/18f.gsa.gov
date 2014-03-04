@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // load posts from tumblr
-  var blog = 'peacecorps.tumblr.com';
+  var blog = '18fblog.tumblr.com';
   var months = [
     'January',
     'February',
