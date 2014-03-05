@@ -62,12 +62,19 @@ $(document).ready(function () {
 
   // team hover effect
   $('.bio').mouseenter(function () {
-    var $img = $(this).find('img');
+    var $img = $(this).find('.team-img');
     $img.data('original',$img.attr('src'));
-    $img.attr('src',$img.data('color'));
+    $(this).append('<img class="hover-img img-circle" src="' + $img.data('color') + '" />');
+    var $hover_img = $(this).find('.hover-img');
+    $hover_img.width($img.width()).height($img.height());
+  $hover_img.animate({
+      opacity: 1
+    }, 'fast');
   }).mouseleave(function () {
-    var $img = $(this).find('img');
-    $img.attr('src',$img.data('original'));
+    var $img = $(this).find('.team-img');
+    $(this).find('.hover-img').fadeOut('slow',function () {
+      $(this).remove();
+    });
   });
 
 });

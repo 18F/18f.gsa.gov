@@ -296,6 +296,7 @@
   font-weight: 700;
   font-size: 15px;
 }
+.bio .hover-img { position: absolute; left: 15px; top: 0; opacity: 0; }
 .bio a i, .no-decoration { text-decoration: none !important; color: #000 !important; }
 .bio a { text-decoration: none; }
 .bio h4 { color: #e53013;}
