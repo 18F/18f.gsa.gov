@@ -325,4 +325,7 @@
   .bio .name {
     top: 80px;
   }
+  .bio .no-decoration {
+    font-size: 1.4em;
+  }
 }
