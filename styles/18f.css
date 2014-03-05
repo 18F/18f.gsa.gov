@@ -317,6 +317,11 @@
     top: 100px;
   }
 }
+@media (max-width: 768px) {
+  .bio .no-decoration {
+    font-size: 2.0em;
+  }
+}
 @media (max-width: 360px) {
   .bio .img-circle {
     width: 75px;
@@ -326,6 +331,6 @@
     top: 80px;
   }
   .bio .no-decoration {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 }
