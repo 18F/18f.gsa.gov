@@ -1,7 +1,5 @@
 .jumbotron {
   background-color: #03253e;
-  /*background-color: #a4c5dd;*/
-  /*background-color: #1188ff;*/
   padding: 0;
   margin: 0;
   height: 720px;
@@ -31,21 +29,22 @@
 }
 .jumbotron .container-fluid {
   position: absolute;
-  top: 430px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  background-color: #03253e; /* For browsers that don't support opacity */
-  background-color: rgba(0,0,0,.4);
+  top: 360px;
+  max-width: 860px;
   z-index: 20;
 }
-.jumbotron .container-fluid > h2 {
-  margin:0 auto;
-  text-align: center;
+.jumbotron .container-fluid > h1 {
+  text-align: left;
   color: #fff;
-  font-size: 70px;
-  font-weight: 400;
-  max-width: 860px;
+  font-size: 4.2em;
+  text-shadow: 1px 1px 6px #000;
+  padding: 30px 50px;
+  background-color: #03253e; /* For browsers that don't support opacity */
+  background-color: rgba(0,0,0,.4);
+}
+.jumbotron .container-fluid > h3 {
+  color: #fff;
+  font-size: 40px;
   text-shadow: 1px 1px 6px #000;
 }
 @media (max-width: 992px) {
@@ -53,10 +52,11 @@
     height: 650px; 
   }
   .jumbotron .container-fluid {
-    top:330px;
+    top:280px;
   }
-  .jumbotron .container-fluid > h2 {
+  .jumbotron .container-fluid > h1 {
     font-size: 4em;
+    padding:20px;
   }
 }
 @media (max-width: 550px) {
@@ -64,31 +64,61 @@
     height: 480px; 
   }
   .jumbotron .container-fluid {
-    top:200px;
-  }
-  .jumbotron .container-fluid > h2 {
-    font-size: 2.8em;
+    top: 170px;
+    padding: 0;
+}
+  .jumbotron .container-fluid > h1 {
+    font-size: 3em;
   }
 }
 @media (max-width: 360px) {
   .jumbotron { 
     height:400px; 
   }
-  .jumbotron .container-fluid > h2 {
-    font-size: 2.1em; 
+  .jumbotron .container-fluid > h1 {
+    font-size: 30px; 
     line-height: 1.2em;
+    padding: 20px;
   } 
+}
+@media (min-width:551px) {
+  .jumbotron .container-fluid {
+      margin-left: -15px;
+  }
+}
+
+.jumbotron.header {
+  height: 100px;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-color: #e53013;
+}
+.jumbotron.header .container-fluid {
+  position: absolute;
+  top: 0px;
+  padding: 13px 50px;
+  background-color: #03253e; /* For browsers that don't support opacity */
+  background-color: rgba(0,0,0,.4);
+  z-index: 20;
+}
+@media (max-width: 550px) {
+  .jumbotron.header {
+    height: 60px;
+  }
+  .jumbotron.header .container-fluid {
+    padding: 0 20px;
+  }
+  .jumbotron.header .container-fluid > h3 {
+    font-size:2em;
+  }
 }
 
 .photo-credit {
   color:#fff;
-  font-size: 1.1em;
-  margin-top: -40px;
-  margin-left: 15px;
-  height: 40px;
-  position: relative;
-  z-index: 1000;
-  overflow: hidden;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px #000;
+  padding: 17px 20px 15px 50px;
+  background-color: rgba(0,0,0,.4);
 }
 .photo-credit i {
   vertical-align: middle;
@@ -102,26 +132,32 @@
   text-decoration:none;
 }
 .photo-credit a:hover {
-  color:#f39; 
+  color:#e53013; 
   text-decoration:none;
+}
+@media (max-width: 992px) {
+  .photo-credit {
+    padding: 17px 20px;
+  }
 }
 @media (max-width: 550px) {
   .photo-credit {
-    margin-top: -30px;
-    font-size: 0.8em;
-    height: 2em;
+    font-size: .8em;
+    line-height: 1em;
+    display: block;
+    padding: 10px 20px;
+    margin-top: -10px;
   }
   .photo-credit .icon-camera {
     font-size: 20px;
   }
 }
-
 .mantra {
-  margin-top:40px;
-  margin-bottom:40px;
-  background-image:url(../images/lightbulb.png);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url(../images/lightbulb.png);
   background-size: 10%;
-  background-position: 50% 50%;
+  background-position: 90% 50%;
   background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
@@ -129,30 +165,24 @@
     background:none;
   }
 }
-.mantra h3 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-  padding-top: 15px; 
-  padding-bottom: 15px; 
+.mantra h2 {
   margin:0;
 }
 @media (max-width: 360px) {
-  .mantra h3 {
+  .mantra h2 {
     font-size: 1.7em;
   }
 }
-.mantra h3 > strong {
-  color: #906;}
+.mantra h2 > strong {
+  color: #e53013;}
 .mantra p {
   font-size: 14px;
   padding-top:20px;
   margin:0;
 }
 
-.blog {
+.blog, .team {
   height: auto;
-  background-color: #cef;
   padding:20px 0 30px 0;
 }
 .blog h4 {
@@ -160,11 +190,11 @@
   font-weight: 700;
 }
 .blog h4 > a {
-  color:#906; 
+  color:#e53013; 
   text-decoration: none;
 }
 .blog h4 > a:hover {
-  color:#f39; 
+  color:#e53013; 
   text-decoration: underline;
 }
 
@@ -180,7 +210,7 @@
 }
 #blog-loading .error {
   text-align: center;
-  color: #906;
+  color: #e53013;
   display: none;
 }
 
@@ -238,7 +268,7 @@
   SLIDESHOW
 */
 #slideshow,
-.photo-credit {display:none;}
+/* .photo-credit { display:none; } -- conflicts with above styles. need it? */
 .slide {
   height: 100%;
   background-size: cover;
@@ -248,9 +278,6 @@
   left: 0;
   top: 0;
   width: 100%;
-}
-.photo-credit {
-  text-shadow: 1px 1px 2px #000;
 }
 .slideshow-wrapper { overflow: hidden; }
 .slideshow-wrapper .slide { z-index: 1; }
