@@ -59,4 +59,15 @@ $(document).ready(function () {
     $(this).addClass('fade-'+e);
     var t = setTimeout("$('.fade-"+e+"').fadeIn(500)",500*e);
   });
+
+  // team hover effect
+  $('.bio').mouseenter(function () {
+    var $img = $(this).find('img');
+    $img.data('original',$img.attr('src'));
+    $img.attr('src',$img.data('color'));
+  }).mouseleave(function () {
+    var $img = $(this).find('img');
+    $img.attr('src',$img.data('original'));
+  });
+
 });
