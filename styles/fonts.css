@@ -65,7 +65,15 @@
 .icon-email:before {
   content: "h";
 }
-
+.icon-lastfm:before {
+  content: "i";
+}
+.icon-linkedin:before {
+  content: "j";
+}
+.icon-anchor:before {
+  content: "k";
+}
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -81,7 +89,7 @@ a {
   color:#18f;
   text-decoration: underline;
 }
-a:hover {color:#f39;}
+a:hover {color:#e53013;}
 
 /* SPINNER */
 .icon-spin {
