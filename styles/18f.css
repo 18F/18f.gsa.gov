@@ -89,8 +89,6 @@
 
 .jumbotron.header {
   height: 100px;
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   background-color: #e53013;
 }
 .jumbotron.header .container-fluid {
@@ -152,13 +150,19 @@
     font-size: 20px;
   }
 }
+
+.section {
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
 .mantra {
-  margin-top: 40px;
-  margin-bottom: 40px;
   background-image: url(../images/lightbulb.png);
   background-size: 10%;
   background-position: 90% 50%;
   background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 @media (max-width: 992px) {
   .mantra {
@@ -181,10 +185,6 @@
   margin:0;
 }
 
-.blog, .team {
-  height: auto;
-  padding:20px 0 30px 0;
-}
 .blog h4 {
   font-size: 20px;
   font-weight: 700;
@@ -267,8 +267,7 @@
 /*
   SLIDESHOW
 */
-#slideshow,
-/* .photo-credit { display:none; } -- conflicts with above styles. need it? */
+/* #slideshow, .photo-credit { display:none; } -- conflicts with above styles. need it? */
 .slide {
   height: 100%;
   background-size: cover;
