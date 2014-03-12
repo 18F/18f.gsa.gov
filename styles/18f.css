@@ -267,7 +267,10 @@
 /*
   SLIDESHOW
 */
-/* #slideshow, .photo-credit { display:none; } -- conflicts with above styles. need it? */
+#slideshow {
+  /* fade that fool in */
+  display: none;
+}
 .slide {
   height: 100%;
   background-size: cover;
@@ -333,4 +336,11 @@
   .bio .no-decoration {
     font-size: 1.5em;
   }
+}
+#preloader {
+  position: absolute;
+  left: -20000em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
