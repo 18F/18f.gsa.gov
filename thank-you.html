@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
+<!--
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssso        osssssssssso/-.```.-/osssssssssss:            -ossssss
+sssssssssssssssssssssssssssssssssssss++++++-  osssssssso-  `-///-`  -osssssssss-  -+++++++++-ossssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/ossssso/` .ossssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/sssssss/` `ossssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osssssssso-  .:///:.  -osssssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssssss+:`   ````   -/ossssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssss/.` .:++oooo+/-` `:ossssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osssso-  -+osssssssssso/` `/sssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossso. `/ssssssssssssssso-  /ssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osss-  /ssssssssssssssssso. `osss-            -sssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osss  `sssssssssssssssssss/  /sss-  -+++++++++-sssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osss  .sssssssssssssssssss/  :sss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osss.  ossssssssssssssssss-  +sss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  osss+` .ossssssssssssssss:  -ssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossss+` `/ossssssssssss+-  -sssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssso:` `:+oooooooo/-  .+ssssss-  osssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssss-  ossssssso/.` ``....`  `-+ssssssss-  osssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssso++ssssssssssso+/::-:://osssssssssss+++ssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                  We like talking to rockstars. Contact us at rockstars@gsa.gov
+-->
+
+    <link href="styles/bootstrap-3.1.1.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <!-- <link href="styles/18f.min.css" rel="stylesheet"> -->
+    <link href="styles/fonts.css" rel="stylesheet">
+    <link href="styles/18f.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+      <link href="styles/ie.css" rel="stylesheet">
+    <![endif]-->
+  <meta http-equiv="refresh" content="20;URL='./index.html'" />
+  </head>
+  <body>
+  <div class="container section">
+    <div class="row">
+      <div class="col-md-2"><i class="icon-18f-logo" style="font-size:7em; color:#18f;"></i></div>
+      <div class="col-md-10">
+        <h1>Thank you!</h1>
+        <p class="lead">We hope you'll keep in touch.</p>
+      </div>
+    </div>
+    <div class="row">
+<style>
+.lead {line-height:2em;}
+.lead i {font-size:175%; vertical-align: middle; color:#18f;}
+</style>
+      <div class="col-md-10 col-md-push-2">
+        <h3>Follow us here:</h3>
+        <p class="lead">
+        <i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a><br/>
+        <i class="icon-github2"></i> <a href="https://github.com/18f">Github / 18F</a><br/>
+        </p>
+        <p>You will be automatically redirected to the homepage in 20 seconds, or <a href="./index.html">click here to go there now</a>.
+    </div>
+  </div>
+  </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--     // <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script>
+    // <script src="js/skrollr/src/skrollr.js"></script>
+    // <script src="js/slideshow.js"></script>
+    // <script src="js/18f.js"></script> -->
+    <script src="js/18f.min.js"></script>
+<!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-48605964-1', 'gsa.gov');
+      ga('send', 'pageview');
+    </script>
+<!-- IE Form Placeholders -->
+    <script>
+    $(function() {
+    if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+        if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+          $(this).val('').removeClass('hasPlaceholder');
+        }
+      }).blur(function () {
+        if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+          $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+        }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form').submit(function () {
+        $(this).find('.hasPlaceholder').each(function() { $(this).val(''); });
+      });
+    }
+    });
+    </script>
+  </body>
+</html>
