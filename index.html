@@ -86,8 +86,8 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   </head>
   <body>
     <!-- begin slideshow -->
-    <div class="jumbotron 18f-hero slideshow-wrapper">
-      <img src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
+    <div class="jumbotron slideshow-wrapper">
+      <img id="logo" src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
       <div class="container-fluid fadeIn">
         <h1>
           Building the 21st century digital government.
@@ -102,7 +102,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
         <div class="slide" style="background-image: url(images/slideshow/nasa-ibm-704.jpg); background-position: 10% 20%;" data-caption="<a href='http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001881.html'>IBM Electronic Data Processing Machine (NASA)</a>"></div>
       </div>
     </div>
-    <div class="container mantra">
+    <div class="container section mantra">
       <div class="row">
         <div class="col-md-8">
           <h2>
@@ -117,7 +117,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
         </div>
       </div>
     </div>
-    <div id="blog" class="jumbotron header blog">
+    <div id="blog" class="jumbotron header">
       <div class="container-fluid">
         <h3>
           &lt; news /&gt;
@@ -125,7 +125,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
       </div>
     </div>
     <div class="blog">
-      <div class="container">
+      <div class="container section">
         <div id="blog-loading">
           <div class="row">
             <div class="col-md-12">
@@ -191,219 +191,240 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
         </div>
       </div>
     </div>
-    <div id="team" class="jumbotron header team">
+    <div id="team" class="jumbotron header">
       <div class="container-fluid">
         <h3>
           &lt; team /&gt;
         </h3>
       </div>
     </div>
-    <div class="team">
-      <div class="container">
-        <div class="row">
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/gray-bw.jpg" data-color="images/team/gray.jpg" alt="Photo of Gray Brooks">
-            <h4>Gray Brooks</h4>
-            <span class="title">API Agent</span><br />
-            <a href="http://github.com/gbinal" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/gbinal" target="_blank" class="hidden-xs">github.com/gbinal</a><br class="hidden-xs" />
-            <a href="http://twitter.com/gbinal" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/gbinal" target="_blank" class="hidden-xs">twitter.com/gbinal</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/dave-bw.jpg" data-color="images/team/dave.jpg" alt="Photo of Dave Caraway">
-            <h4>Dave Caraway</h4>
-            <span class="title">Counter Agent</span><br />
-            <a href="http://github.com/dwcaraway" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/dwcaraway" target="_blank" class="hidden-xs">github.com/dwcaraway</a><br class="hidden-xs" />
-            <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="hidden-xs">linkedin.com/pub/david-caraway</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/garren-bw.jpg" data-color="images/team/garren.jpg" alt="Photo of Garren Givens">
-            <h4>Garren Givens</h4>
-            <span class="title">Free Agent</span><br />
-            <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="hidden-xs">linkedin.com/in/ggivens</a><br class="hidden-xs" />
-            <a href="http://angel.co/garren" target="_blank" class="no-decoration">
-              <i class="icon-anchor"></i>
-            </a>
-            <a href="http://angel.co/garren" target="_blank" class="hidden-xs">angel.co/garren</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/greg-bw.jpg" data-color="images/team/greg.jpg" alt="Photo of Greg Godbout">
-            <h4>Greg Godbout</h4>
-            <span class="title">Cleaning Agent</span><br />
-            <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="hidden-xs">linkedin.com/pub/greg-godbout</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
+    <div class="container section">
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/gray-bw.jpg" data-color="images/team/gray.jpg" alt="Photo of Gray Brooks">
+          <h4>Gray Brooks</h4>
+          <span class="title">API Agent</span><br />
+          <a href="http://github.com/gbinal" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/gbinal" target="_blank" class="hidden-xs">github.com/gbinal</a><br class="hidden-xs" />
+          <a href="http://twitter.com/gbinal" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/gbinal" target="_blank" class="hidden-xs">twitter.com/gbinal</a><br class="hidden-xs" />
         </div>
-        <div class="row">
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/justin-bw.jpg" data-color="images/team/justin.jpg" alt="Photo of Justin Grevich">
-            <h4>Justin Grevich</h4>
-            <span class="title">Service Agent</span><br />
-            <a href="http://github.com/jgrevich" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/jgrevich" target="_blank" class="hidden-xs">github.com/jgrevich</a><br class="hidden-xs" />
-            <a href="http://linkedin.com/in/jgrevich" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://linkedin.com/in/jgrevich" target="_blank" class="hidden-xs">linkedin.com/in/jgrevich</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/hillary-bw.jpg" data-color="images/team/hillary.jpg" alt="Photo of Hillary Hartley">
-            <h4>Hillary Hartley</h4>
-            <span class="title">Change Agent</span><br />
-            <a href="http://about.me/hlh" target="_blank" class="no-decoration">
-              <i class="icon-anchor"></i>
-            </a>
-            <a href="http://about.me/hlh" target="_blank" class="hidden-xs">about.me/hlh</a><br class="hidden-xs" />
-            <a href="http://twitter.com/hillary" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/hillary" target="_blank" class="hidden-xs">twitter.com/hillary</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/noah-bw.jpg" data-color="images/team/noah.jpg" alt="Photo of Noah Kunin">
-            <h4>Noah Kunin</h4>
-            <span class="title">User Agent</span><br />
-            <a href="http://github.com/noahkunin" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/noahkunin" target="_blank" class="hidden-xs">github.com/noahkunin</a><br class="hidden-xs" />
-            <a href="http://twitter.com/noahkunin" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/noahkunin" target="_blank" class="hidden-xs">twitter.com/noahkunin</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/joe-bw.jpg" data-color="images/team/joe.jpg" alt="Photo of Joe Polastre">
-            <h4>Joe Polastre, PhD</h4>
-            <span class="title">Travel Agent</span><br />
-            <a href="http://github.com/polastre" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/polastre" target="_blank" class="hidden-xs">github.com/polastre</a><br class="hidden-xs" />
-            <a href="http://linkedin.com/in/polastre" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://linkedin.com/in/polastre" target="_blank" class="hidden-xs">linkedin.com/in/polastre</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/dave-bw.jpg" data-color="images/team/dave.jpg" alt="Photo of Dave Caraway">
+          <h4>Dave Caraway</h4>
+          <span class="title">Counter Agent</span><br />
+          <a href="http://github.com/dwcaraway" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/dwcaraway" target="_blank" class="hidden-xs">github.com/dwcaraway</a><br class="hidden-xs" />
+          <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="hidden-xs">linkedin.com/pub/david-caraway</a><br class="hidden-xs" />
         </div>
-        <div class="row">
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/robert-bw.jpg" data-color="images/team/robert.jpg" alt="Photo of Robert Read">
-            <h4>Robert Read, PhD</h4>
-            <span class="title">A-gentleman</span><br />
-            <a href="http://publicinvention.blogspot.com" target="_blank" class="no-decoration">
-              <i class="icon-anchor"></i>
-            </a>
-            <a href="http://publicinvention.blogspot.com" target="_blank" class="hidden-xs">publicinvention.blogspot.com</a><br class="hidden-xs" />
-            <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="hidden-xs">linkedin.com/pub/robert-read</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/alison-bw.jpg" data-color="images/team/alison.jpg" alt="Photo of Alison Rowland">
-            <h4>Alison Rowland</h4>
-            <span class="title">Agent Shmagent</span><br />
-            <a href="http://github.com/arowla" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/arowla" target="_blank" class="hidden-xs">github.com/arowla</a><br class="hidden-xs" />
-            <a href="http://twitter.com/arowla" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/arowla" target="_blank" class="hidden-xs">twitter.com/arowla</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/aaron-bw.jpg" data-color="images/team/aaron.jpg" alt="Photo of Aaron Snow">
-            <h4>Aaron Snow</h4>
-            <span class="title">Reagent</span><br />
-            <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="hidden-xs">linkedin.com/in/aaronsnow</a><br class="hidden-xs" />
-            <a href="http://angel.co/aaronsnow" target="_blank" class="no-decoration">
-              <i class="icon-anchor"></i>
-            </a>
-            <a href="http://angel.co/aaronsnow" target="_blank" class="hidden-xs">angel.co/aaronsnow</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-4 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/amos-bw.jpg" data-color="images/team/amos.jpg" alt="Photo of Amos Stone">
-            <h4>J. Amos Stone</h4>
-            <span class="title">Agent</span><br />
-            <a href="http://github.com/amoose" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/amoose" target="_blank" class="hidden-xs">github.com/amoose</a><br class="hidden-xs" />
-            <a href="http://twitter.com/infamousamos" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/infamousamos" target="_blank" class="hidden-xs">twitter.com/infamousamos</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/garren-bw.jpg" data-color="images/team/garren.jpg" alt="Photo of Garren Givens">
+          <h4>Garren Givens</h4>
+          <span class="title">Free Agent</span><br />
+          <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="hidden-xs">linkedin.com/in/ggivens</a><br class="hidden-xs" />
+          <a href="http://angel.co/garren" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://angel.co/garren" target="_blank" class="hidden-xs">angel.co/garren</a><br class="hidden-xs" />
         </div>
-        <div class="row">
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/lena-bw.jpg" data-color="images/team/lena.jpg" alt="Photo of Lena Trudeau">
-            <h4>Lena Trudeau</h4>
-            <span class="title">Agent 99</span><br />
-            <a href="http://twitter.com/ltrudeau" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/ltrudeau" target="_blank" class="hidden-xs">twitter.com/ltrudeau</a><br class="hidden-xs" />
-            <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="no-decoration">
-              <i class="icon-linkedin"></i>
-            </a>
-            <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="hidden-xs">linkedin.com/in/ltrudeau</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/raphy-bw.jpg" data-color="images/team/raphy.jpg" alt="Photo of Raphael Villas">
-            <h4>Raphael Villas</h4>
-            <span class="title">Agent onGover()</span><br />
-            <a href="http://github.com/phirefly" target="_blank" class="no-decoration">
-              <i class="icon-github2"></i>
-            </a>
-            <a href="http://github.com/phirefly" target="_blank" class="hidden-xs">github.com/phirefly</a><br class="hidden-xs" />
-            <a href="http://twitter.com/phirefly" target="_blank" class="no-decoration">
-              <i class="icon-twitter"></i>
-            </a>
-            <a href="http://twitter.com/phirefly" target="_blank" class="hidden-xs">twitter.com/phirefly</a><br class="hidden-xs" />
-          </div>
-          <!--  -->
-          <!-- END OF TEAM -->
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/greg-bw.jpg" data-color="images/team/greg.jpg" alt="Photo of Greg Godbout">
+          <h4>Greg Godbout</h4>
+          <span class="title">Cleaning Agent</span><br />
+          <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="hidden-xs">linkedin.com/pub/greg-godbout</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/justin-bw.jpg" data-color="images/team/justin.jpg" alt="Photo of Justin Grevich">
+          <h4>Justin Grevich</h4>
+          <span class="title">Service Agent</span><br />
+          <a href="http://github.com/jgrevich" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/jgrevich" target="_blank" class="hidden-xs">github.com/jgrevich</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/jgrevich" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/jgrevich" target="_blank" class="hidden-xs">linkedin.com/in/jgrevich</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/hillary-bw.jpg" data-color="images/team/hillary.jpg" alt="Photo of Hillary Hartley">
+          <h4>Hillary Hartley</h4>
+          <span class="title">Change Agent</span><br />
+          <a href="http://about.me/hlh" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://about.me/hlh" target="_blank" class="hidden-xs">about.me/hlh</a><br class="hidden-xs" />
+          <a href="http://twitter.com/hillary" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/hillary" target="_blank" class="hidden-xs">twitter.com/hillary</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/noah-bw.jpg" data-color="images/team/noah.jpg" alt="Photo of Noah Kunin">
+          <h4>Noah Kunin</h4>
+          <span class="title">User Agent</span><br />
+          <a href="http://github.com/noahkunin" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/noahkunin" target="_blank" class="hidden-xs">github.com/noahkunin</a><br class="hidden-xs" />
+          <a href="http://twitter.com/noahkunin" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/noahkunin" target="_blank" class="hidden-xs">twitter.com/noahkunin</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/joe-bw.jpg" data-color="images/team/joe.jpg" alt="Photo of Joe Polastre">
+          <h4>Joe Polastre, PhD</h4>
+          <span class="title">Travel Agent</span><br />
+          <a href="http://github.com/polastre" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/polastre" target="_blank" class="hidden-xs">github.com/polastre</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/polastre" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/polastre" target="_blank" class="hidden-xs">linkedin.com/in/polastre</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/robert-bw.jpg" data-color="images/team/robert.jpg" alt="Photo of Robert Read">
+          <h4>Robert Read, PhD</h4>
+          <span class="title">A-gentleman</span><br />
+          <a href="http://publicinvention.blogspot.com" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://publicinvention.blogspot.com" target="_blank" class="hidden-xs">publicinvention.blogspot.com</a><br class="hidden-xs" />
+          <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="hidden-xs">linkedin.com/pub/robert-read</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/alison-bw.jpg" data-color="images/team/alison.jpg" alt="Photo of Alison Rowland">
+          <h4>Alison Rowland</h4>
+          <span class="title">Agent Shmagent</span><br />
+          <a href="http://github.com/arowla" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/arowla" target="_blank" class="hidden-xs">github.com/arowla</a><br class="hidden-xs" />
+          <a href="http://twitter.com/arowla" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/arowla" target="_blank" class="hidden-xs">twitter.com/arowla</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/aaron-bw.jpg" data-color="images/team/aaron.jpg" alt="Photo of Aaron Snow">
+          <h4>Aaron Snow</h4>
+          <span class="title">Reagent</span><br />
+          <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="hidden-xs">linkedin.com/in/aaronsnow</a><br class="hidden-xs" />
+          <a href="http://angel.co/aaronsnow" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://angel.co/aaronsnow" target="_blank" class="hidden-xs">angel.co/aaronsnow</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-4 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/amos-bw.jpg" data-color="images/team/amos.jpg" alt="Photo of Amos Stone">
+          <h4>J. Amos Stone</h4>
+          <span class="title">Agent</span><br />
+          <a href="http://github.com/amoose" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/amoose" target="_blank" class="hidden-xs">github.com/amoose</a><br class="hidden-xs" />
+          <a href="http://twitter.com/infamousamos" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/infamousamos" target="_blank" class="hidden-xs">twitter.com/infamousamos</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/lena-bw.jpg" data-color="images/team/lena.jpg" alt="Photo of Lena Trudeau">
+          <h4>Lena Trudeau</h4>
+          <span class="title">Agent 99</span><br />
+          <a href="http://twitter.com/ltrudeau" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/ltrudeau" target="_blank" class="hidden-xs">twitter.com/ltrudeau</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="hidden-xs">linkedin.com/in/ltrudeau</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/raphy-bw.jpg" data-color="images/team/raphy.jpg" alt="Photo of Raphael Villas">
+          <h4>Raphael Villas</h4>
+          <span class="title">Agent onGover()</span><br />
+          <a href="http://github.com/phirefly" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/phirefly" target="_blank" class="hidden-xs">github.com/phirefly</a><br class="hidden-xs" />
+          <a href="http://twitter.com/phirefly" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/phirefly" target="_blank" class="hidden-xs">twitter.com/phirefly</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <!-- END OF TEAM -->
+      </div>
+    </div>
+    <div id="contact" class="jumbotron header">
+      <div class="container-fluid">
+        <h3>
+          &lt; contact /&gt;
+        </h3>
+      </div>
+    </div>
+    <div class="container section">
+      <div class="row">
+        <div class="col-md-7 col-md-push-5">
+          <p class="lead">Leave us your name and email if you'd like more information about the way we work.<p>
+          <p class="small">Your privacy and security are important to us, and we'll never share your information. Please see <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a> for more information.</p>
+        </div>
+        <div class="col-md-4 col-md-pull-7">
+          <form action="http://hydra.gsa.gov/cgi-bin/listserv.pl" method="post" id="contact-form">
+          <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="thank-you.html" type="hidden" name="redirect" /><input checked="checked" name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
+          <div class="form-group"><input class="form-control input-lg" type="text" placeholder="Your Name" name="realname" /></div>
+          <div class="form-group"><input class="form-control input-lg" type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
+          <input type="submit" class="btn btn-success btn-lg btn-block" value="Sign Up for More Information" />
+          </form>
         </div>
       </div>
     </div>
@@ -436,7 +457,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
     // <script src="js/slideshow.js"></script>
     // <script src="js/18f.js"></script> -->
     <script src="js/18f.min.js"></script>
-
+<!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -444,6 +465,28 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-48605964-1', 'gsa.gov');
       ga('send', 'pageview');
+    </script>
+<!-- IE Form Placeholders -->
+    <script>
+    $(function() {
+    if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+        if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+          $(this).val('').removeClass('hasPlaceholder');
+        }
+      }).blur(function () {
+        if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+          $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+        }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form').submit(function () {
+        $(this).find('.hasPlaceholder').each(function() { $(this).val(''); });
+      });
+    }
+    });
     </script>
   </body>
 </html>
