@@ -337,3 +337,6 @@
     font-size: 1.5em;
   }
 }
+
+/* IE */
+.hasPlaceholder {color: #777;}
