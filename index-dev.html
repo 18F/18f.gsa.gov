@@ -4,6 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
+    <!-- Twitter Card data -->
+    <meta name="twitter:site" content="@18f">
+    <meta name="twitter:title" content="18F - Digital Service Delivery for the Federal Government">
+    <meta name="twitter:description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="18F" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://18f.gsa.gov/" />
+    <meta property="og:image" content="http://18f.gsa.gov/images/logo-18f.png" />
+    <meta property="og:description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves." /> 
+    <meta property="og:site_name" content="18F - Digital Service Delivery for the Federal Government" />
     <title>18F Digital Services Delivery</title>
 <!--
 ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
@@ -62,7 +74,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
     <link href="styles/bootstrap-3.1.1.min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
-<!--    <link href="styles/18f.min.css" rel="stylesheet"> -->
+    <!-- <link href="styles/18f.min.css" rel="stylesheet"> -->
     <link href="styles/fonts.css" rel="stylesheet">
     <link href="styles/18f.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -74,35 +86,38 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   </head>
   <body>
     <!-- begin slideshow -->
-    <div class="jumbotron 18f-hero slideshow-wrapper">
-      <div id="slideshow">
-        <div class="slide" style="background-image: url(http://farm4.staticflickr.com/3733/9903236524_31a22e2d61_h.jpg); background-position: 25% 40%;" data-caption="<a href='http://www.flickr.com/photos/photogism/9903236524'>New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)</a>"></div>
-        <div class="slide" style="background-image: url(https://farm3.staticflickr.com/2885/9396316654_7205608942_h.jpg); background-position: left top;" data-caption="<a href='http://www.flickr.com/photos/departmentofenergy/9396316654/'>National Renewable Energy Laboratory (ENERGY.GOV)</a>"></div>
-      </div>
-      <img src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
+    <div class="jumbotron slideshow-wrapper">
+      <img id="logo" src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
       <div class="container-fluid fadeIn">
         <h1>
           Building the 21st century digital government.
         </h1>
         <span class="photo-credit"></span>
       </div>
+      <div id="slideshow">
+        <div class="slide" style="background-image: url(images/slideshow/flickr-bay-bridges.jpg); background-position: 25% 40%;" data-caption="<a href='http://www.flickr.com/photos/photogism/9903236524'>New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)</a>"></div>
+        <div class="slide" style="background-image: url(images/slideshow/energy-olympus-supercomputer.jpg); background-position: 50% 50%;" data-caption="<a href='http://energy.gov/articles/photo-week-olympus-supercomputer'>The Olympus Supercomputer (ENERGY.GOV)</a>"></div>
+        <div class="slide" style="background-image: url(images/slideshow/flickr-wh-science-fair.jpg); background-position: right bottom;" data-caption="<a href='http://www.flickr.com/photos/whitehouse/6857502764'>White House Science Fair (White House)</a>"></div>
+        <div class="slide" style="background-image: url(images/slideshow/flickr-wind-technology.jpg); background-position: left top;" data-caption="<a href='http://www.flickr.com/photos/departmentofenergy/9396316654/'>National Renewable Energy Laboratory (ENERGY.GOV)</a>"></div>
+        <div class="slide" style="background-image: url(images/slideshow/nasa-ibm-704.jpg); background-position: 10% 20%;" data-caption="<a href='http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001881.html'>IBM Electronic Data Processing Machine (NASA)</a>"></div>
+      </div>
     </div>
-    <div class="container mantra">
+    <div class="container section mantra">
       <div class="row">
         <div class="col-md-8">
           <h2>
             <strong>Delivery</strong> is the strategy.
           </h2>
           <p>
-            <strong>18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.</strong> We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the <a href="http://gsa.gov">General Services Administration</a>, encompasses the <a href="http://wh.gov/innovationfellows">Presidential Innovation Fellows</a> program and a rockstar digital delivery team.
+            <strong>18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.</strong> We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the <a href="http://gsa.gov">General Services Administration</a>, encompasses the <a href="http://wh.gov/innovationfellows">Presidential Innovation Fellows</a> program and an in-house digital delivery team.
           </p>
           <p>
-            18F is a startup within GSA &mdash; the agency responsible for government procurement &mdash; giving us the power to make small changes with big effect. We’re doers, recruited from industry and the most innovative corners of public service, who are passionate about <a href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)#Definition">&quot;hacking&quot;</a> bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people. <strong>We make easy things easy, and hard things possible.</strong>
+            18F is a startup within GSA &mdash; the agency responsible for government procurement &mdash; giving us the power to make small changes with big effect. We’re doers, recruited from industry and the most innovative corners of public service, who are passionate about &quot;hacking&quot; bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people. <strong>We make easy things easy, and hard things possible.</strong>
           </p>
         </div>
       </div>
     </div>
-    <div class="jumbotron header blog">
+    <div id="blog" class="jumbotron header">
       <div class="container-fluid">
         <h3>
           &lt; news /&gt;
@@ -110,7 +125,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
       </div>
     </div>
     <div class="blog">
-      <div class="container">
+      <div class="container section">
         <div id="blog-loading">
           <div class="row">
             <div class="col-md-12">
@@ -176,6 +191,220 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
         </div>
       </div>
     </div>
+    <div id="team" class="jumbotron header">
+      <div class="container-fluid">
+        <h3>
+          &lt; team /&gt;
+        </h3>
+      </div>
+    </div>
+    <div class="container section">
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/gray-bw.jpg" data-color="images/team/gray.jpg" alt="Photo of Gray Brooks">
+          <h4>Gray Brooks</h4>
+          <span class="title">API Agent</span><br />
+          <a href="http://github.com/gbinal" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/gbinal" target="_blank" class="hidden-xs">github.com/gbinal</a><br class="hidden-xs" />
+          <a href="http://twitter.com/gbinal" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/gbinal" target="_blank" class="hidden-xs">twitter.com/gbinal</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/dave-bw.jpg" data-color="images/team/dave.jpg" alt="Photo of Dave Caraway">
+          <h4>Dave Caraway</h4>
+          <span class="title">Counter Agent</span><br />
+          <a href="http://github.com/dwcaraway" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/dwcaraway" target="_blank" class="hidden-xs">github.com/dwcaraway</a><br class="hidden-xs" />
+          <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/david-caraway/3a/649/a46" target="_blank" class="hidden-xs">linkedin.com/pub/david-caraway</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/garren-bw.jpg" data-color="images/team/garren.jpg" alt="Photo of Garren Givens">
+          <h4>Garren Givens</h4>
+          <span class="title">Free Agent</span><br />
+          <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://www.linkedin.com/in/ggivens" target="_blank" class="hidden-xs">linkedin.com/in/ggivens</a><br class="hidden-xs" />
+          <a href="http://angel.co/garren" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://angel.co/garren" target="_blank" class="hidden-xs">angel.co/garren</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/greg-bw.jpg" data-color="images/team/greg.jpg" alt="Photo of Greg Godbout">
+          <h4>Greg Godbout</h4>
+          <span class="title">Cleaning Agent</span><br />
+          <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/greg-godbout/2a/854/228" target="_blank" class="hidden-xs">linkedin.com/pub/greg-godbout</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/justin-bw.jpg" data-color="images/team/justin.jpg" alt="Photo of Justin Grevich">
+          <h4>Justin Grevich</h4>
+          <span class="title">Service Agent</span><br />
+          <a href="http://github.com/jgrevich" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/jgrevich" target="_blank" class="hidden-xs">github.com/jgrevich</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/jgrevich" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/jgrevich" target="_blank" class="hidden-xs">linkedin.com/in/jgrevich</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/hillary-bw.jpg" data-color="images/team/hillary.jpg" alt="Photo of Hillary Hartley">
+          <h4>Hillary Hartley</h4>
+          <span class="title">Change Agent</span><br />
+          <a href="http://about.me/hlh" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://about.me/hlh" target="_blank" class="hidden-xs">about.me/hlh</a><br class="hidden-xs" />
+          <a href="http://twitter.com/hillary" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/hillary" target="_blank" class="hidden-xs">twitter.com/hillary</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/noah-bw.jpg" data-color="images/team/noah.jpg" alt="Photo of Noah Kunin">
+          <h4>Noah Kunin</h4>
+          <span class="title">User Agent</span><br />
+          <a href="http://github.com/noahkunin" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/noahkunin" target="_blank" class="hidden-xs">github.com/noahkunin</a><br class="hidden-xs" />
+          <a href="http://twitter.com/noahkunin" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/noahkunin" target="_blank" class="hidden-xs">twitter.com/noahkunin</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/joe-bw.jpg" data-color="images/team/joe.jpg" alt="Photo of Joe Polastre">
+          <h4>Joe Polastre, PhD</h4>
+          <span class="title">Travel Agent</span><br />
+          <a href="http://github.com/polastre" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/polastre" target="_blank" class="hidden-xs">github.com/polastre</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/polastre" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/polastre" target="_blank" class="hidden-xs">linkedin.com/in/polastre</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/robert-bw.jpg" data-color="images/team/robert.jpg" alt="Photo of Robert Read">
+          <h4>Robert Read, PhD</h4>
+          <span class="title">A-gentleman</span><br />
+          <a href="http://publicinvention.blogspot.com" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://publicinvention.blogspot.com" target="_blank" class="hidden-xs">publicinvention.blogspot.com</a><br class="hidden-xs" />
+          <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://www.linkedin.com/pub/robert-read/0/987/878/" target="_blank" class="hidden-xs">linkedin.com/pub/robert-read</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/alison-bw.jpg" data-color="images/team/alison.jpg" alt="Photo of Alison Rowland">
+          <h4>Alison Rowland</h4>
+          <span class="title">Agent Shmagent</span><br />
+          <a href="http://github.com/arowla" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/arowla" target="_blank" class="hidden-xs">github.com/arowla</a><br class="hidden-xs" />
+          <a href="http://twitter.com/arowla" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/arowla" target="_blank" class="hidden-xs">twitter.com/arowla</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/aaron-bw.jpg" data-color="images/team/aaron.jpg" alt="Photo of Aaron Snow">
+          <h4>Aaron Snow</h4>
+          <span class="title">Reagent</span><br />
+          <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/aaronsnow" target="_blank" class="hidden-xs">linkedin.com/in/aaronsnow</a><br class="hidden-xs" />
+          <a href="http://angel.co/aaronsnow" target="_blank" class="no-decoration">
+            <i class="icon-anchor"></i>
+          </a>
+          <a href="http://angel.co/aaronsnow" target="_blank" class="hidden-xs">angel.co/aaronsnow</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-4 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/amos-bw.jpg" data-color="images/team/amos.jpg" alt="Photo of Amos Stone">
+          <h4>J. Amos Stone</h4>
+          <span class="title">Agent</span><br />
+          <a href="http://github.com/amoose" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/amoose" target="_blank" class="hidden-xs">github.com/amoose</a><br class="hidden-xs" />
+          <a href="http://twitter.com/infamousamos" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/infamousamos" target="_blank" class="hidden-xs">twitter.com/infamousamos</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+      </div>
+      <div class="row">
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/lena-bw.jpg" data-color="images/team/lena.jpg" alt="Photo of Lena Trudeau">
+          <h4>Lena Trudeau</h4>
+          <span class="title">Agent 99</span><br />
+          <a href="http://twitter.com/ltrudeau" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/ltrudeau" target="_blank" class="hidden-xs">twitter.com/ltrudeau</a><br class="hidden-xs" />
+          <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="no-decoration">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="http://linkedin.com/in/ltrudeau" target="_blank" class="hidden-xs">linkedin.com/in/ltrudeau</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <div class="col-md-3 col-sm-6 col-xs-6 bio">
+          <img class="img-circle team-img" src="images/team/raphy-bw.jpg" data-color="images/team/raphy.jpg" alt="Photo of Raphael Villas">
+          <h4>Raphael Villas</h4>
+          <span class="title">Agent onGover()</span><br />
+          <a href="http://github.com/phirefly" target="_blank" class="no-decoration">
+            <i class="icon-github2"></i>
+          </a>
+          <a href="http://github.com/phirefly" target="_blank" class="hidden-xs">github.com/phirefly</a><br class="hidden-xs" />
+          <a href="http://twitter.com/phirefly" target="_blank" class="no-decoration">
+            <i class="icon-twitter"></i>
+          </a>
+          <a href="http://twitter.com/phirefly" target="_blank" class="hidden-xs">twitter.com/phirefly</a><br class="hidden-xs" />
+        </div>
+        <!--  -->
+        <!-- END OF TEAM -->
+      </div>
+    </div>
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -193,19 +422,19 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
             <a href="https://github.com/presidential-innovation-fellows"><i class="icon-github2"></i> github.com/presidential-innovation-fellows</a>
           </div>
           <div class="col-sm-4">
-            <a href="https://github.com/18f"><img class="propaganda" src="images/always-be-shipping.png" alt="Always Be Shipping."></a>
+            <a href="https://github.com/18f"><img class="propaganda" src="images/always-be-shipping_orange.png" alt="Always Be Shipping."></a>
           </div>
         </div>
       </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!--// <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script>
+<!--     // <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script>
     // <script src="js/skrollr/src/skrollr.js"></script>
     // <script src="js/slideshow.js"></script>
     // <script src="js/18f.js"></script> -->
     <script src="js/18f.min.js"></script>
-    
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
