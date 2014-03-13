@@ -67,7 +67,7 @@ $(document).ready(function () {
     $(this).append('<img class="hover-img img-circle" src="' + $img.data('color') + '" />');
     var $hover_img = $(this).find('.hover-img');
     $hover_img.width($img.width()).height($img.height());
-  $hover_img.animate({
+    $hover_img.animate({
       opacity: 1
     }, 'fast');
   }).mouseleave(function () {
@@ -77,4 +77,11 @@ $(document).ready(function () {
     });
   });
 
+  // img preloader
+  $('body').append('<div id="preloader"></div>');
+  $('.bio').find('img').each( function() {
+    var src = $(this).data('color');
+    var $pre = $('#preloader');
+    $pre.append("<img src='" + src + "' />");
+  });
 });

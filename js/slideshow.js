@@ -19,14 +19,10 @@ var Slideshow = (function($){
     }
   }
 
-  var init = function (){
+  var init = function () {
     var num = Math.floor((Math.random()*_$deck.length)+1); // get random slide
     display(num);
     TIMER = setTimeout('Slideshow.cycle();',TIMEOUT);
-    // TEMPORARY
-    $('.jumbotron > img').click(function() {
-      Slideshow.cycle();
-    });
   };
 
   var display = function (num) {
