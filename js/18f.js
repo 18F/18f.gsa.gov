@@ -84,4 +84,12 @@ $(document).ready(function () {
     var $pre = $('#preloader');
     $pre.append("<img src='" + src + "' />");
   });
+
+  // slider preloader
+  $('#slideshow .slide').each( function() {
+    var src = ($(this).css('background-image'));
+    src = src.replace('url(','').replace(')','');
+    var $pre = $('#preloader');
+    $pre.append("<img src='" + src + "' />");
+  });
 });
