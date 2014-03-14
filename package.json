@@ -1,0 +1,14 @@
+{
+  "name": "18f.gsa.gov",
+  "version": "0.0.1",
+  "description": "18f.gsa.gov",
+  "author": "18f",
+  "devDependencies": {
+    "clean-css": "2.1.x",
+    "uglify-js": "2.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/18f/18f.gsa.gov.git"
+  }
+}
