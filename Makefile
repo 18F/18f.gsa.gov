@@ -1,12 +1,9 @@
-all: js css
+all: gulp
 
-js:
-	uglifyjs js/jquery-dotdotdot/src/js/jquery.dotdotdot.js js/18f.js js/slideshow.js --comments -c -m -o js/18f.min.js
+gulp:
+	./node_modules/gulp/bin/gulp.js
 
-css:
-	cat styles/fonts.css styles/18f.css | cleancss -c -o styles/18f.min.css
+watch:
+	./node_modules/gulp/bin/gulp.js watch
 
-clean:
-	rm js/18f.min.js
-
-.PHONY: clean js css
+.PHONY: gulp
