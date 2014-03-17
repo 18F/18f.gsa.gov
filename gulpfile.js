@@ -25,7 +25,7 @@ gulp.task('scripts', function() {
 
 // Clean
 gulp.task('clean', function() {
-  return gulp.src(['styles/18f.min.css', 'js.18f.min.js'], {read: false})
+  return gulp.src(['styles/18f.min.css', 'js/18f.min.js'], {read: false})
     .pipe(clean());
 });
 
