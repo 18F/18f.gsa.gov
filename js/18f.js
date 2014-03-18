@@ -31,7 +31,6 @@ $(document).ready(function () {
       if (!($("#linkModal").hasClass('in'))) {
         return;
       }
-      console.log(countdown);
       countdown--;
       $("#linkModal .targetTime").html(countdown);
       if (countdown > 0) {
