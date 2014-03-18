@@ -254,11 +254,11 @@
 .footer a:hover { 
   text-decoration: underline;
 }
-.footer .propaganda {
+.footer .tagline {
   float: right;
 }
 @media (max-width: 790px) {
-  .footer .propaganda {
+  .footer .tagline {
     float:none;
     }
   }
