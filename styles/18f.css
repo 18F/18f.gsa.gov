@@ -343,6 +343,10 @@
     font-size: 1.5em;
   }
 }
+a.btn {
+  text-decoration: none;
+}
+
 #preloader {
   position: absolute;
   left: -20000em;

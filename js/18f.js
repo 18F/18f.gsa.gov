@@ -15,6 +15,37 @@ $(document).ready(function () {
     'November',
     'December'
   ];
+
+  // leaving the site modal
+  var leaveSite = function (e) {
+    if (e.preventDefault) e.preventDefault();
+    var link = $(e.currentTarget).attr('href');
+    $("#linkModal .targetLink").attr('href',link);
+    $("#linkModal .targetLink").html(link);
+    $("#linkModal .btn-primary").attr('href', link);
+    var countdown = 5;
+    $("#linkModal .targetTime").html(countdown);
+    $("#linkModal").modal('show');    
+    var doCountdown = function () {
+      // abort if the modal has been closed
+      if (!($("#linkModal").hasClass('in'))) {
+        return;
+      }
+      console.log(countdown);
+      countdown--;
+      $("#linkModal .targetTime").html(countdown);
+      if (countdown > 0) {
+        setTimeout(doCountdown, 1000);
+      } else {
+        $("#linkRedirect").html("Here we go!");
+        window.location = link;
+      }
+    };
+    setTimeout(doCountdown, 1000);
+  };
+  $(".link").click(leaveSite);
+
+  // get tumblr posts
   $.ajax({
     url: '//api.tumblr.com/v2/blog/' + blog + '/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
     type: 'GET',
@@ -35,7 +66,7 @@ $(document).ready(function () {
           if (j != 0) {
             tagHtml += ', ';
           }
-          tagHtml += '<a href="http://' + blog + '/tagged/' + encodeURIComponent(post.tags[j]) + '">' + post.tags[j] + '</a>';
+          tagHtml += '<a href="http://' + blog + '/tagged/' + encodeURIComponent(post.tags[j]) + '" class="link">' + post.tags[j] + '</a>';
         }
         $('#blog' + i + ' .blog-tags').html(tagHtml);
         var d = new Date(post.timestamp * 1000);
@@ -47,6 +78,7 @@ $(document).ready(function () {
         watch: "window",
         after: "a.readmore"
       });
+      $(".link").click(leaveSite);
     },
     error: function (e) {
       $("#blog-loading .error").show();
@@ -84,4 +116,6 @@ $(document).ready(function () {
     var $pre = $('#preloader');
     $pre.append("<img src='" + src + "' />");
   });
+
+
 });
