@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     clean = require('gulp-clean'),
     concat = require('gulp-concat');
 
-var scripts = ['js/jquery-dotdotdot/src/js/jquery.dotdotdot.js', 'js/18f.js', 'js/slideshow.js'];
+var scripts = ['js/jquery-dotdotdot/src/js/jquery.dotdotdot.js', 'js/18f.js', 'js/slideshow.js', 'js/federated-analytics.js'];
 var styles = ['styles/fonts.css', 'styles/18f.css'];
 
 // CSS
