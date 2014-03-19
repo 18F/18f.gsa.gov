@@ -70,6 +70,3 @@ var Slideshow = (function($){
 })(jQuery);
 
 Slideshow.init();
-
-document.onkeydown = Slideshow.checkArrow;
-
