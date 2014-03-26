@@ -43,6 +43,9 @@ $(document).ready(function () {
     setTimeout(doCountdown, 1000);
   };
   $(".link").click(leaveSite);
+  $('.photo-credit').mouseenter(function () { // little hack to bind leaveSite to photo-credit
+    $(".link").click(leaveSite);
+  });
 
   // get tumblr posts
   $.ajax({
