@@ -155,6 +155,9 @@
   margin-top:40px;
   margin-bottom:40px;
 }
+.section .small {
+  line-height: 1.6em;
+}
 
 .mantra {
   background-image: url(../images/lightbulb.png);
@@ -254,11 +257,11 @@
 .footer a:hover { 
   text-decoration: underline;
 }
-.footer .propaganda {
+.footer .tagline {
   float: right;
 }
 @media (max-width: 790px) {
-  .footer .propaganda {
+  .footer .tagline {
     float:none;
     }
   }
@@ -337,6 +340,10 @@
     font-size: 1.5em;
   }
 }
+a.btn {
+  text-decoration: none;
+}
+
 #preloader {
   position: absolute;
   left: -20000em;
@@ -344,3 +351,6 @@
   height: 1px;
   overflow: hidden;
 }
+
+/* IE */
+.hasPlaceholder {color: #777;}
