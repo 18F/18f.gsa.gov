@@ -1,0 +1,3 @@
+baseurl: ''
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: redcarpet
