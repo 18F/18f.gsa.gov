@@ -111,11 +111,12 @@ title: 18F Digital Services Delivery
 			<div class="col-md-3 col-sm-6 col-xs-6 bio">
 			  <img class="img-circle team-img" src="images/team/{{ post.photo }}-bw.jpg" data-color="images/team/{{ post.photo }}.jpg" alt="Photo of {{ post.firstname }} {{ post.lastname }}">
 			  <h4>{{ post.firstname }} {{ post.lastname }}{% if post.suffix %}, {{ post.suffix }}{% endif %}</h4>
-			  {{ if site.github == true && post.github }}
+			  {% if site.use_github == 'true' and post.github %}
 			  <a href="https://github.com/{{ post.github }}" target="18f-team" class="no-decoration link">
 				<i class="icon-github2"></i>
 			  </a>
 			  <a href="https://github.com/{{ post.github }}" target="18f-team" class="hidden-xs link">github.com/{{ post.github }}</a><br class="hidden-xs link" />
+			  {% endif %}
 			</div>
 			{% cycle '', '', '', '</div><div class="row">' %}
 		{% endif %}
