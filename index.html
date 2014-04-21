@@ -103,6 +103,7 @@ title: 18F Digital Services Delivery
 </div>
 <div class="container section">
 
+<div class="row">
 {% for category in site.categories %}
 	{% for posts in category %}
 	  {% for post in posts %}
@@ -116,13 +117,15 @@ title: 18F Digital Services Delivery
 			  </a>
 			  <a href="https://github.com/{{ post.github }}" target="18f-team" class="hidden-xs link">github.com/{{ post.github }}</a><br class="hidden-xs link" />
 			</div>
+			{% cycle '', '', '', '</div><div class="row">' %}
 		{% endif %}
 	  {% endfor %}
 	{% endfor %}
 {% endfor %}
+</div>
 
 
-  </div>
+	</div>
 </div>
 
 {% include contact.html %}
