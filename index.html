@@ -269,51 +269,5 @@ title: 18F Digital Services Delivery
 	<!-- END OF TEAM -->
   </div>
 </div>
-<div id="contact" class="jumbotron header">
-  <div class="container-fluid">
-	<h3>
-	  &lt; contact /&gt;
-	</h3>
-  </div>
-</div>
-<div class="container section">
-  <div class="row">
-	<div class="col-md-7 col-md-push-5">
-	  <p class="lead">Leave us your name and email if you'd like more information about the way we work.<p>
-	  <p class="small">Your privacy and security are important to us, and we'll never share your information. Please see <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a> for more information.</p>
-	</div>
-	<div class="col-md-4 col-md-pull-7">
-	  <form action="http://hydra.gsa.gov/cgi-bin/listserv.pl" method="post" id="contact-form">
-	  <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you.html" type="hidden" name="redirect" /><input checked="checked" name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-	  <div class="form-group"><input class="form-control input-lg" type="text" placeholder="Your Name" name="realname" /></div>
-	  <div class="form-group"><input class="form-control input-lg" type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
-	  <input type="submit" class="btn btn-success btn-lg btn-block" value="Sign Up for More Information" />
-	  </form>
-	</div>
-	<!--  -->
-	<div class="col-md-3 col-sm-6 col-xs-6 bio">&nbsp;</div>
-	<!-- END OF TEAM -->
-  </div>
-</div>
-<div class="footer">
-  <div class="container">
-	<div class="row">
-	  <div class="col-sm-2"><img src="images/logo-gsa.png" alt="GSA logo"></div>
-	  <div class="col-sm-2">
-		<h4>Contact Us</h4>
-		<a href="mailto:18f@gsa.gov"><i class="icon-email"></i> 18F@gsa.gov</a>
-		<br/>
-		<a href="https://twitter.com/18F" class="link"><i class="icon-twitter"></i> @18F</a>
-	  </div>
-	  <div class="col-sm-4">
-		<h4>Fork Our Code</h4>
-		<a href="https://github.com/18f" class="link"><i class="icon-github2"></i> github.com/18F</a>
-		<br/>
-		<a href="https://github.com/presidential-innovation-fellows" class="link"><i class="icon-github2"></i> github.com/presidential-innovation-fellows</a>
-	  </div>
-	  <div class="col-sm-4">
-		<a href="https://github.com/18f" class="link"><img class="tagline" src="images/always-be-shipping_orange.png" alt="Always Be Shipping."></a>
-	  </div>
-	</div>
-  </div>
-</div>
+
+{% include contact.html %}
