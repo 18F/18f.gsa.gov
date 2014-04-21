@@ -1,0 +1,3 @@
+**18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.** We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the [General Services Administration](http://gsa.gov), encompasses the [Presidential Innovation Fellows](http://wh.gov/innovationfellows) program and an in-house digital delivery team.
+
+We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about driving efficiency, transparency, and savings for government agencies and the American people. **We make easy things easy, and hard things possible.**
