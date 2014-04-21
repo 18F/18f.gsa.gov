@@ -106,7 +106,7 @@ title: 18F Digital Services Delivery
 <div class="row">
 {% for category in site.categories %}
 	{% for posts in category %}
-	  {% for post in posts %}
+	  {% for post in posts reversed %}
 		{% if post.category == 'team' %}
 			<div class="col-md-3 col-sm-6 col-xs-6 bio">
 			  <img class="img-circle team-img" src="images/team/{{ post.photo }}-bw.jpg" data-color="images/team/{{ post.photo }}.jpg" alt="Photo of {{ post.firstname }} {{ post.lastname }}">
