@@ -26,73 +26,73 @@ title: 18F Digital Services Delivery
 	</h3>
   </div>
 </div>
-<div class="blog">
-  <div class="container section">
-	<div id="blog-loading">
-	  <div class="row">
-		<div class="col-md-12">
-		  <h4>
-			Loading latest 18F posts... <i class="icon-spin icon-spinner"></i>
-		  </h4>
-		  <p class="error">
-			Oops, something went wrong while trying to load the freshest 18F news.  Try reloading the page, or <a href="mailto:18f@gsa.gov">email us</a> about the problem.
-		  </p>
-		</div>
-	  </div>
-	</div>
-	<div id="blog0" class="blog-entry">
-	  <div class="row">
-		<div class="col-md-12">
-		  <h4><a href="#" class="blog-title"></a></h4>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="col-md-3 blog-md">
-		  Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-		</div>
-		<div class="col-md-9 blog-snippet">
-		  <span class="blog-text"></span>
-		  <a href="" class="readmore link">more&nbsp;&raquo;</a>
-		</div>
-	  </div>
-	</div>
-	<div id="blog1" class="blog-entry">
-	  <div class="row">
-		<div class="col-md-12">
-		  <h4><a href="#" class="blog-title"></a></h4>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="col-md-3 blog-md">
-		  Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-		</div>
-		<div class="col-md-9 blog-snippet">
-		  <span class="blog-text"></span>
-		  <a href="" class="readmore link">more&nbsp;&raquo;</a>
-		</div>
-	  </div>
-	</div>
-	<div id="blog2" class="blog-entry">
-	  <div class="row">
-		<div class="col-md-12">
-		  <h4><a href="#" class="blog-title"></a></h4>
-		</div>
-	  </div>
-	  <div class="row">
-		<div class="col-md-3 blog-md">
-		  Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-		</div>
-		<div class="col-md-9 blog-snippet">
-		  <span class="blog-text"></span>
-		  <a href="" class="readmore link">more&nbsp;&raquo;</a>
-		</div>
-	  </div>
-	</div>
-	<div class="row">
-	  <div class="col-md-12 text-center"><h5><a href="http://18fblog.tumblr.com/" class="link">Read all blog entries.</a></h5></div>
-	</div>
-  </div>
-</div>
+   <div class="blog">
+      <div class="container section">
+        <div id="blog-loading">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>
+                Loading latest 18F posts... <i class="icon-spin icon-spinner"></i>
+              </h4>
+              <p class="error">
+                Oops, something went wrong while trying to load the freshest 18F news.  Try reloading the page, or <a href="mailto:18f@gsa.gov">email us</a> about the problem.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="blog0" class="blog-entry">
+          <div class="row">
+            <div class="col-md-12">
+              <h4><a href="#" class="blog-title"></a></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 blog-md">
+              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+            </div>
+            <div class="col-md-9 blog-snippet">
+              <span class="blog-text"></span>
+              <a href="" class="readmore link">more&nbsp;&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <div id="blog1" class="blog-entry">
+          <div class="row">
+            <div class="col-md-12">
+              <h4><a href="#" class="blog-title"></a></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 blog-md">
+              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+            </div>
+            <div class="col-md-9 blog-snippet">
+              <span class="blog-text"></span>
+              <a href="" class="readmore link">more&nbsp;&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <div id="blog2" class="blog-entry">
+          <div class="row">
+            <div class="col-md-12">
+              <h4><a href="#" class="blog-title"></a></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 blog-md">
+              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+            </div>
+            <div class="col-md-9 blog-snippet">
+              <span class="blog-text"></span>
+              <a href="" class="readmore link">more&nbsp;&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center"><h5><a href="http://18fblog.tumblr.com/" class="link">Read all blog entries.</a></h5></div>
+        </div>
+      </div>
+    </div>
 
 <div id="team" class="jumbotron header">
   <div class="container-fluid">
@@ -104,25 +104,21 @@ title: 18F Digital Services Delivery
 <div class="container section">
 
 <div class="row">
-{% for category in site.categories %}
-	{% for posts in category %}
-	  {% for post in posts reversed %}
-		{% if post.category == 'team' %}
-			<div class="col-md-3 col-sm-6 col-xs-6 bio">
-			  <img class="img-circle team-img" src="images/team/{{ post.photo }}-bw.jpg" data-color="images/team/{{ post.photo }}.jpg" alt="Photo of {{ post.firstname }} {{ post.lastname }}">
-			  <h4>{{ post.firstname }} {{ post.lastname }}{% if post.suffix %}, {{ post.suffix }}{% endif %}</h4>
-			  {% if site.use_github == 'true' and post.github %}
-			  <a href="https://github.com/{{ post.github }}" target="18f-team" class="no-decoration link">
-				<i class="icon-github2"></i>
-			  </a>
-			  <a href="https://github.com/{{ post.github }}" target="18f-team" class="hidden-xs link">github.com/{{ post.github }}</a><br class="hidden-xs link" />
-			  {% endif %}
-			</div>
-			{% cycle '', '', '', '</div><div class="row">' %}
-		{% endif %}
-	  {% endfor %}
-	{% endfor %}
+
+{% for post in site.categories.team reversed %}
+	<div class="col-md-3 col-sm-6 col-xs-6 bio">
+	  <img class="img-circle team-img" src="images/team/{{ post.photo }}-bw.jpg" data-color="images/team/{{ post.photo }}.jpg" alt="Photo of {{ post.firstname }} {{ post.lastname }}">
+	  <h4>{{ post.firstname }} {{ post.lastname }}{% if post.suffix %}, {{ post.suffix }}{% endif %}</h4>
+	  {% if site.use_github == 'true' and post.github %}
+	  <a href="https://github.com/{{ post.github }}" target="18f-team" class="no-decoration link">
+		<i class="icon-github2"></i>
+	  </a>
+	  <a href="https://github.com/{{ post.github }}" target="18f-team" class="hidden-xs link">github.com/{{ post.github }}</a><br class="hidden-xs link" />
+	  {% endif %}
+	</div>
+	{% cycle '', '', '', '</div><div class="row">' %}
 {% endfor %}
+
 </div>
 
 
