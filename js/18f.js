@@ -15,6 +15,9 @@ $(document).ready(function () {
     'November',
     'December'
   ];
+
+  
+  // get tumblr posts
   $.ajax({
     url: '//api.tumblr.com/v2/blog/' + blog + '/posts/text?notes_info=true&limit=3&filter=text&api_key=cA9agkd1WdAsFUFL5iq1Wnn0m4Dmcv5vf5otES3Ou08r2D3Ldu',
     type: 'GET',
