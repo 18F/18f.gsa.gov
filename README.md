@@ -2,6 +2,7 @@
 ===========
 
 To get started...
+
 1. Pull down the repo `git clone git@github.com:18F/18f.gsa.gov.git`
 2. From the root of the site, install the necessary git submodules with `git submodule init` and node packages with `npm install`
 3. Install an [http-server](https://www.npmjs.org/package/http-server) with `npm install http-server -g`
