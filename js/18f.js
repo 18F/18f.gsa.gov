@@ -17,7 +17,7 @@ $(document).ready(function () {
   ];
 
   // leaving the site modal
-  var leaveSite = function (e) {
+/*  var leaveSite = function (e) {
     if (e.preventDefault) e.preventDefault();
     var link = $(e.currentTarget).attr('href');
     $("#linkModal .targetLink").attr('href',link);
@@ -45,7 +45,7 @@ $(document).ready(function () {
   $(".link").click(leaveSite);
   $('.photo-credit').mouseenter(function () { // little hack to bind leaveSite to photo-credit
     $(".link").click(leaveSite);
-  });
+  });*/
 
   // get tumblr posts
   $.ajax({
@@ -80,7 +80,7 @@ $(document).ready(function () {
         watch: "window",
         after: "a.readmore"
       });
-      $(".link").click(leaveSite);
+      //$(".link").click(leaveSite);
     },
     error: function (e) {
       $("#blog-loading .error").show();
