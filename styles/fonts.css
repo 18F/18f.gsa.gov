@@ -86,10 +86,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color:#18f;
+  color:#06d;
   text-decoration: underline;
 }
-a:hover {color:#e53013;}
+a:hover {color:#c21;}
 
 /* SPINNER */
 .icon-spin {

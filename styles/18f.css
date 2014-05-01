@@ -89,7 +89,7 @@
 
 .jumbotron.header {
   height: 100px;
-  background-color: #e53013;
+  background-color: #c21;
 }
 .jumbotron.header .container-fluid {
   position: absolute;
@@ -130,7 +130,7 @@
   text-decoration:none;
 }
 .photo-credit a:hover {
-  color:#e53013; 
+  color:#c21; 
   text-decoration:none;
 }
 @media (max-width: 992px) {
@@ -160,7 +160,7 @@
 }
 
 .mantra {
-  background-image: url(../images/lightbulb.png);
+  /*background-image: url(../images/lightbulb.png);*/
   background-size: 10%;
   background-position: 90% 50%;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@
   }
 }
 .mantra h2 > strong {
-  color: #e53013;}
+  color: #c21;}
 .mantra p {
   font-size: 14px;
   padding-top:20px;
@@ -193,11 +193,11 @@
   font-weight: 700;
 }
 .blog h4 > a {
-  color:#e53013; 
+  color:#c21; 
   text-decoration: none;
 }
 .blog h4 > a:hover {
-  color:#e53013; 
+  color:#c21; 
   text-decoration: underline;
 }
 
@@ -213,7 +213,7 @@
 }
 #blog-loading .error {
   text-align: center;
-  color: #e53013;
+  color: #c21;
   display: none;
 }
 
@@ -266,7 +266,29 @@
     }
   }
 
-
+/* 
+RESPONSIVE EMBEDS
+*/
+.responsive-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden; 
+}
+.responsive-container iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+@media (max-width: 992px) { 
+  .wrap { 
+    margin-bottom: 3em; 
+    }
+  }
+  
 /*
   SLIDESHOW
 */
@@ -304,7 +326,7 @@
 .bio .hover-img { position: absolute; left: 15px; top: 0; opacity: 0; }
 .bio a i, .no-decoration { text-decoration: none !important; color: #000 !important; }
 .bio a { text-decoration: none; }
-.bio h4 { color: #e53013;}
+.bio h4 { color: #c21;}
 @media (max-width: 992px) {
   .bio .img-circle {
     height: 225px;
