@@ -37,6 +37,7 @@ Contributing
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+**Note:** We work off the `devel` branch, so be sure to pull that branch and submit your pull request to `devel` not `master`.
 
 
 Licensing
