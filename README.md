@@ -3,6 +3,9 @@
 Building the 21st century digital government.
 
 
+**CONTRIBUTORS TAKE NOTE:** We work off the `devel` branch, so be sure to pull that branch and submit your pull request to `devel` not `master`.
+
+
 Getting Started
 --
 1. Pull down the repo `git clone git@github.com:18F/18f.gsa.gov.git`
@@ -36,8 +39,6 @@ Contributing
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-**Note:** We work off the `devel` branch, so be sure to pull that branch and submit your pull request to `devel` not `master`.
 
 
 Licensing
