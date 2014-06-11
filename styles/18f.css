@@ -362,6 +362,9 @@ RESPONSIVE EMBEDS
   .bio .no-decoration {
     font-size: 1.5em;
   }
+  .bio.col-xs-6 {
+    min-height: 145px;
+  }
 }
 a.btn {
   text-decoration: none;
