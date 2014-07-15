@@ -125,7 +125,7 @@ $(function() {
 if (window._ie) {
   console.log("Oh hi there! By all means, poke around.");
   console.log("");
-  console.log("If you find a bug or want to talk, we're at 18f@gsa.gov and track issues on https://github.com/18f/18f.gsa.gov/issues.");
+  console.log("If you find a bug or want to talk, we're at 18f@gsa.gov and track issues on https://github.com/18f/18f.gsa.gov/issues");
   console.log("And check us out on GitHub generally! We're an open source team. https://github.com/18f");
 }
 
@@ -139,6 +139,6 @@ else {
   };
   console.log("%cOh hi there! Please poke around.", styles.big);
   console.log(" ");
-  console.log("%cIf you find a bug or want to talk, we're at %c18f@gsa.gov%c and track issues on %chttps://github.com/18f/18f.gsa.gov/issues.", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
+  console.log("%cIf you find a bug or want to talk, we're at %c18f@gsa.gov%c and track issues on %chttps://github.com/18f/18f.gsa.gov/issues", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
   console.log("%cAnd check us out on GitHub generally! We're an %copen source team%c. %chttps://github.com/18f", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
 }
