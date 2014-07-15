@@ -422,6 +422,21 @@ We're always looking for curious people with diverse skill-sets. Let's talk at 1
         </div>
       </div>
     </div>
+
+    <!-- some fun little IE detection, used to guide console formatting -->
+    <script type="text/javascript">window._ie9 = false;</script>
+    <!--[if IE 9 ]>
+      <script type="text/javascript">window._ie9 = true;</script>
+    <![endif]-->
+
+    <!-- IE10 JS targeting, from http://stackoverflow.com/a/17099988 -->
+    <!-- IE11 JS targeting, from http://stackoverflow.com/a/17447695 -->
+    <script type="text/javascript">
+      window._ie10 = ("onpropertychange" in document && !!window.matchMedia);
+      window._ie11 = !!navigator.userAgent.match(/Trident\/7.0; rv 11/);
+      window._ie = window._ie9 || window._ie10 || window._ie11;
+    </script>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- // <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script> -->
