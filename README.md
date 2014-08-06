@@ -41,22 +41,10 @@ Contributing
 5. Create new Pull Request (PR to `devel` not `master`)
 
 
-Licensing
---
+### Public domain
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a>
-  <br /><br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="http://18f.gsa.gov">
-    <span property="dct:title">18F</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">18f.gsa.gov</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="US" about="http://18f.gsa.gov">
-  United States</span>.
-</p>
+This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
+
+> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+>
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
