@@ -1,45 +1,53 @@
-18f.gsa.gov
-===========
-Building the 21st century digital government.
+## 18f.gsa.gov
+
+[Building the 21st century digital government.](https://18f.gsa.gov/)
+
+### Setup
+
+This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`):
+
+```bash
+gem install jekyll
+```
+
+We use [jQuery.dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) through a git submodule:
+
+```bash
+git submodule init
+```
+
+We use [gulp](https://www.npmjs.org/package/gulp) to compile JS/CSS assets:
+
+```bash
+npm install
+```
+
+If you ever change any JS/CSS assets, recompile them with:
+
+```bash
+make
+```
+
+### Running the site
+
+Launch with Jekyll:
+
+```bash
+jekyll serve
+```
+
+The site will be visible at `http://localhost:4000`.
 
 
-**CONTRIBUTORS TAKE NOTE:** We work off the `devel` branch, so be sure to pull that branch and submit your pull request to `devel` not `master`.
+### Tips
+
+* Update your git submodules with `git submodule update --init`
+* You can monitor your asset folders and automatically generate compiled versions by running `make watch`.
 
 
-Getting Started
---
-1. Pull down the repo `git clone git@github.com:18F/18f.gsa.gov.git`
-2. From the root of the site, install the necessary git submodules with `git submodule init` and node packages with `npm install`
-3. Run `make` to compile your JavaScript and CSS assets.
-4. Install an [http-server](https://www.npmjs.org/package/http-server) with `npm install http-server -g` if you don't already have one
-5. Launch your web server, eg. `http-server`
+### Contributing
 
-
-
-Tips
---
-- Update your git submodules with `git submodule update --init`
-- Monitor your asset folders and automatically generate compiled versions by running `make watch`
-
-
-
-Dependencies
---
-
-* [Node package manager](http://howtonode.org/introduction-to-npm)
-* A Webserver ([http-server](https://www.npmjs.org/package/http-server), [Apache](http://httpd.apache.org/), [Jekyll](http://jekyllrb.com/), etc.)
-
-
-
-
-Contributing
---
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request (PR to `devel` not `master`)
-
+We work on `devel`, not `master`. Make a feature branch from `devel` and send a pull request to that branch.
 
 ### Public domain
 
