@@ -1,504 +1,337 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
-    <!-- Twitter Card data -->
-    <meta name="twitter:site" content="@18f">
-    <meta name="twitter:title" content="18F - Digital Service Delivery for the Federal Government">
-    <meta name="twitter:description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
-    <!-- Open Graph data -->
-    <meta property="og:title" content="18F" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://18f.gsa.gov/" />
-    <meta property="og:image" content="http://18f.gsa.gov/images/logo-18f.png" />
-    <meta property="og:image:secure_url" content="https://18f.gsa.gov/images/logo-18f.png" />
-    <meta property="og:description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves." />
-    <meta property="og:site_name" content="18F - Digital Service Delivery for the Federal Government" />
-    <title>18F Digital Services Delivery</title>
+---
+layout: default
+permalink: /
+---
 
-    <!-- 128x128 -->
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-    <link rel="icon" type="image/png" href="favicon.png" />
+<!-- begin slideshow -->
+<div class="jumbotron slideshow-wrapper">
+  <img id="logo" src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
 
-    <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicons/18f-center-57.png">
-    <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicons/18f-center-72.png">
-    <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicons/18f-center-114.png">
-    <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicons/18f-center-144.png">
-<!--
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssso        osssssssssso/-.```.-/osssssssssss:            -ossssss
-sssssssssssssssssssssssssssssssssssss++++++-  osssssssso-  `-///-`  -osssssssss-  -+++++++++-ossssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/ossssso/` .ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/sssssss/` `ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssssso-  .:///:.  -osssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssss+:`   ````   -/ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssss/.` .:++oooo+/-` `:ossssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssso-  -+osssssssssso/` `/sssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossso. `/ssssssssssssssso-  /ssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss-  /ssssssssssssssssso. `osss-            -sssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss  `sssssssssssssssssss/  /sss-  -+++++++++-sssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss  .sssssssssssssssssss/  :sss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss.  ossssssssssssssssss-  +sss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss+` .ossssssssssssssss:  -ssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossss+` `/ossssssssssss+-  -sssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssso:` `:+oooooooo/-  .+ssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso/.` ``....`  `-+ssssssss-  osssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssso++ssssssssssso+/::-:://osssssssssss+++ssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  <div class="container-fluid fadeIn">
+    <h1>
+      Building the 21st century digital government.
+    </h1>
+    <span class="photo-credit"></span>
+  </div>
 
-Hi there! Great job on pulling back the curtain.
-We're always looking for curious people with diverse skill-sets. Let's talk at 18f@gsa.gov
+  <div id="slideshow" class="fadeIn">
+    <div class="slide" style="background-image: url(images/slideshow/flickr-bay-bridges.jpg); background-position: 25% 40%;" data-caption="<a href='http://www.flickr.com/photos/photogism/9903236524' class='link'>New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)</a>"></div>
+    <div class="slide" style="background-image: url(images/slideshow/energy-olympus-supercomputer.jpg); background-position: 50% 50%;" data-caption="<a href='http://energy.gov/articles/photo-week-olympus-supercomputer' class='link'>The Olympus Supercomputer (ENERGY.GOV)</a>"></div>
+    <div class="slide" style="background-image: url(images/slideshow/flickr-wind-technology.jpg); background-position: left top;" data-caption="<a href='http://www.flickr.com/photos/departmentofenergy/9396316654/' class='link'>National Renewable Energy Laboratory (ENERGY.GOV)</a>"></div>
+  </div>
+</div>
+<!-- end slideshow -->
 
--->
-
-    <link href="styles/bootstrap-3.1.1.min.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
-    <link href="styles/18f.min.css" rel="stylesheet">
-    <!-- <link href="styles/fonts.css" rel="stylesheet"> -->
-    <!-- <link href="styles/18f.css" rel="stylesheet"> -->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.js"></script>
-      <link href="styles/ie.css" rel="stylesheet">
-    <![endif]-->
-  </head>
-  <body>
-    <!-- begin slideshow -->
-    <div class="jumbotron slideshow-wrapper">
-      <img id="logo" src="images/logo-18f.png" alt="18F logo" class="fadeIn" />
-      <div class="container-fluid fadeIn">
-        <h1>
-          Building the 21st century digital government.
-        </h1>
-        <span class="photo-credit"></span>
-      </div>
-      <div id="slideshow" class="fadeIn">
-        <div class="slide" style="background-image: url(images/slideshow/flickr-bay-bridges.jpg); background-position: 25% 40%;" data-caption="<a href='http://www.flickr.com/photos/photogism/9903236524' class='link'>New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)</a>"></div>
-        <div class="slide" style="background-image: url(images/slideshow/energy-olympus-supercomputer.jpg); background-position: 50% 50%;" data-caption="<a href='http://energy.gov/articles/photo-week-olympus-supercomputer' class='link'>The Olympus Supercomputer (ENERGY.GOV)</a>"></div>
-        <div class="slide" style="background-image: url(images/slideshow/flickr-wind-technology.jpg); background-position: left top;" data-caption="<a href='http://www.flickr.com/photos/departmentofenergy/9396316654/' class='link'>National Renewable Energy Laboratory (ENERGY.GOV)</a>"></div>
-      </div>
+<div class="container section mantra">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>
+        <strong>Delivery</strong> is the strategy.
+      </h2>
+      <p>
+        <strong>18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.</strong> We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the <a href="http://gsa.gov">General Services Administration</a>, encompasses the <a href="http://wh.gov/innovationfellows">Presidential Innovation Fellows</a> program and an in-house digital delivery team.
+      </p>
+      <p>
+         We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about driving efficiency, transparency, and savings for government agencies and the American people. <strong>We make easy things easy, and hard things possible.</strong>
+      </p>
     </div>
-    <!-- end slideshow -->
-    <div class="container section mantra">
+  </div>
+</div>
+
+<div id="blog" class="jumbotron header">
+  <div class="container-fluid">
+    <h3>
+      &lt; news /&gt;
+    </h3>
+  </div>
+</div>
+
+<div class="blog">
+  <div class="container section">
+    <div id="blog-loading">
       <div class="row">
-        <div class="col-md-8">
-          <h2>
-            <strong>Delivery</strong> is the strategy.
-          </h2>
-          <p>
-            <strong>18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.</strong> We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the <a href="http://gsa.gov">General Services Administration</a>, encompasses the <a href="http://wh.gov/innovationfellows">Presidential Innovation Fellows</a> program and an in-house digital delivery team.
-          </p>
-          <p>
-             We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about driving efficiency, transparency, and savings for government agencies and the American people. <strong>We make easy things easy, and hard things possible.</strong>
+        <div class="col-md-12">
+          <h4>
+            Loading latest 18F posts... <i class="icon-spin icon-spinner"></i>
+          </h4>
+          <p class="error">
+            Oops, something went wrong while trying to load the freshest 18F news.  Try reloading the page, or <a href="mailto:18f@gsa.gov">email us</a> about the problem.
           </p>
         </div>
       </div>
     </div>
-    <div id="blog" class="jumbotron header">
-      <div class="container-fluid">
-        <h3>
-          &lt; news /&gt;
-        </h3>
-      </div>
-    </div>
-    <div class="blog">
-      <div class="container section">
-        <div id="blog-loading">
-          <div class="row">
-            <div class="col-md-12">
-              <h4>
-                Loading latest 18F posts... <i class="icon-spin icon-spinner"></i>
-              </h4>
-              <p class="error">
-                Oops, something went wrong while trying to load the freshest 18F news.  Try reloading the page, or <a href="mailto:18f@gsa.gov">email us</a> about the problem.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="blog0" class="blog-entry">
-          <div class="row">
-            <div class="col-md-12">
-              <h4><a href="#" class="blog-title"></a></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 blog-md">
-              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-            </div>
-            <div class="col-md-9 blog-snippet">
-              <span class="blog-text"></span>
-              <a href="" class="readmore">more&nbsp;&raquo;</a>
-            </div>
-          </div>
-        </div>
-        <div id="blog1" class="blog-entry">
-          <div class="row">
-            <div class="col-md-12">
-              <h4><a href="#" class="blog-title"></a></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 blog-md">
-              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-            </div>
-            <div class="col-md-9 blog-snippet">
-              <span class="blog-text"></span>
-              <a href="" class="readmore">more&nbsp;&raquo;</a>
-            </div>
-          </div>
-        </div>
-        <div id="blog2" class="blog-entry">
-          <div class="row">
-            <div class="col-md-12">
-              <h4><a href="#" class="blog-title"></a></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 blog-md">
-              Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
-            </div>
-            <div class="col-md-9 blog-snippet">
-              <span class="blog-text"></span>
-              <a href="" class="readmore">more&nbsp;&raquo;</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center"><h5><a href="http://18fblog.tumblr.com/">Read all blog entries.</a></h5></div>
-        </div>
-      </div>
-    </div>
-    <div id="team" class="jumbotron header">
-      <div class="container-fluid">
-        <h3>
-          &lt; team /&gt;
-        </h3>
-      </div>
-    </div>
-    <div class="container section">
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/jamie-bw.jpg" data-color="images/team/jamie.jpg" alt="Photo of Jamie Albrecht">
-          <h4>Jamie Albrecht</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/sarah-bw.jpg" data-color="images/team/sarah.jpg" alt="Photo of Sarah Allen">
-          <h4>Sarah Allen</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/leah-bw.jpg" data-color="images/team/leah.jpg" alt="Photo of Leah Bannon">
-          <h4>Leah Bannon</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/david-bw.jpg" data-color="images/team/david.jpg" alt="Photo of Dave Best">
-          <h4>Dave Best</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/brethauer-bw.jpg" data-color="images/team/brethauer.jpg" alt="Photo of Nick Brethauer">
-          <h4>Nick Brethauer</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/nick-bw.jpg" data-color="images/team/nick.jpg" alt="Photo of Nick Bristow">
-          <h4>Nick Bristow</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/gray-bw.jpg" data-color="images/team/gray.jpg" alt="Photo of Gray Brooks">
-          <h4>Gray Brooks</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/chrisc-bw.jpg" data-color="images/team/chrisc.jpg" alt="Photo of Chris Cairns">
-          <h4>Chris Cairns</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/dave-bw.jpg" data-color="images/team/dave.jpg" alt="Photo of Dave Caraway">
-          <h4>Dave Caraway</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/kaitlin-bw.jpg" data-color="images/team/kaitlin.jpg" alt="Photo of Kaitlin Devine">
-          <h4>Kaitlin Devine</h4>
-        </div>
-        <!--  -->
-          <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/catherine-bw.jpg" data-color="images/team/catherine.jpg" alt="Photo of Catherine Devlin">
-          <h4>Catherine Devlin</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/garren-bw.jpg" data-color="images/team/garren.jpg" alt="Photo of Garren Givens">
-          <h4>Garren Givens</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/greg-bw.jpg" data-color="images/team/greg.jpg" alt="Photo of Greg Godbout">
-          <h4>Greg Godbout</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/yoz-bw.jpg" data-color="images/team/yoz.jpg" alt="Photo of Yoz Grahame">
-          <h4>Yoz Grahame</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/justin-bw.jpg" data-color="images/team/justin.jpg" alt="Photo of Justin Grevich">
-          <h4>Justin Grevich</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/hillary-bw.jpg" data-color="images/team/hillary.jpg" alt="Photo of Hillary Hartley">
-          <h4>Hillary Hartley</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/sean-bw.jpg" data-color="images/team/sean.jpg" alt="Photo of Sean Herron">
-          <h4>Sean Herron</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/mhz-bw.jpg" data-color="images/team/mhz.jpg" alt="Photo of Michelle Hertzfeld">
-          <h4>Michelle Hertzfeld</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/michelle-bw.jpg" data-color="images/team/michelle.jpg" alt="Photo of Michelle Hood">
-          <h4>Michelle Hood</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/stacy-bw.jpg" data-color="images/team/stacy.jpg" alt="Photo of Stacy Kane">
-          <h4>Stacy Kane</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/noah-bw.jpg" data-color="images/team/noah.jpg" alt="Photo of Noah Kunin">
-          <h4>Noah Kunin</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-            <img class="img-circle team-img" src="images/team/sasha-bw.jpg" data-color="images/team/sasha.jpg" alt="Photo of Sasha Magee">
-            <h4>Sasha Magee</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/majma-bw.jpg" data-color="images/team/majma.jpg" alt="Photo of Raphael Majma">
-          <h4>Raphael Majma</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/manger-bw.jpg" data-color="images/team/manger.jpg" alt="Photo of Noah Manger">
-          <h4>Noah Manger</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/eric-bw.jpg" data-color="images/team/eric.jpg" alt="Photo of Eric Mill">
-          <h4>Eric Mill</h4>
-        </div>
-        <!-- -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/ric-bw.jpg" data-color="images/team/ric.jpg" alt="Photo of Ric Miller">
-          <h4>Ric Miller</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/nienhuis-bw.jpg" data-color="images/team/nienhuis.jpg" alt="Photo of Robert Read">
-          <h4>Kristin Nienhuis</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/papazian-bw.jpg" data-color="images/team/papazian.jpg" alt="Photo of Robert Read">
-          <h4>Chris Papazian</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/joe-bw.jpg" data-color="images/team/joe.jpg" alt="Photo of Joe Polastre">
-          <h4>Joe Polastre, PhD</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/robert-bw.jpg" data-color="images/team/robert.jpg" alt="Photo of Robert Read">
-          <h4>Robert Read, PhD</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/alison-bw.jpg" data-color="images/team/alison.jpg" alt="Photo of Alison Rowland">
-          <h4>Alison Rowland</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/josh-bw.jpg" data-color="images/team/josh.jpg" alt="Photo of Josh Ruihley">
-          <h4>Josh Ruihley</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/aaron-bw.jpg" data-color="images/team/aaron.jpg" alt="Photo of Aaron Snow">
-          <h4>Aaron Snow</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/amos-bw.jpg" data-color="images/team/amos.jpg" alt="Photo of Amos Stone">
-          <h4>Amos Stone</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/raphy-bw.jpg" data-color="images/team/raphy.jpg" alt="Photo of Raphael Villas">
-          <h4>Raphael Villas</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/yuda-bw.jpg" data-color="images/team/yuda.jpg" alt="Photo of John Yuda">
-          <h4>John Yuda</h4>
-        </div>
-        <!--  -->
-        <div class="col-md-3 col-sm-6 col-xs-6 bio">
-          <img class="img-circle team-img" src="images/team/victor-bw.jpg" data-color="images/team/victor.jpg" alt="Photo of Victor Diaz Zapanta">
-          <h4>Victor Diaz Zapanta</h4>
-        </div>
-    </div>
-        <!--  -->
-        <!-- END OF TEAM -->
-      </div>
-    </div>
-    <div id="contact" class="jumbotron header">
-      <div class="container-fluid">
-        <h3>
-          &lt; contact /&gt;
-        </h3>
-      </div>
-    </div>
-    <div class="container section">
+    <div id="blog0" class="blog-entry">
       <div class="row">
-        <div class="col-md-7 col-md-push-5">
-          <p class="lead">Leave us your name and email if you'd like more information about the way we work.<p>
-          <p class="small">Your privacy and security are important to us, and we'll never share your information. Please see <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a> for more information.</p>
-        </div>
-        <div class="col-md-4 col-md-pull-7">
-          <form action="http://hydra.gsa.gov/cgi-bin/listserv.pl" method="post" id="contact-form">
-          <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you.html" type="hidden" name="redirect" /><input checked="checked" name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-          <div class="form-group"><input class="form-control input-lg" type="text" placeholder="Your Name" name="realname" /></div>
-          <div class="form-group"><input class="form-control input-lg" type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
-          <input type="submit" class="btn btn-success btn-lg btn-block" value="Sign Up for More Information" />
-          </form>
+        <div class="col-md-12">
+          <h4><a href="#" class="blog-title"></a></h4>
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2"><img src="images/logo-gsa.png" alt="GSA logo"></div>
-          <div class="col-sm-2">
-            <h4>Contact Us</h4>
-            <a href="mailto:18f@gsa.gov"><i class="icon-email"></i> 18F@gsa.gov</a>
-            <br/>
-            <a href="https://twitter.com/18F"><i class="icon-twitter"></i> @18F</a>
-          </div>
-          <div class="col-sm-4">
-            <h4>Fork Our Code</h4>
-            <a href="https://github.com/18f"><i class="icon-github2"></i> github.com/18F</a>
-            <br/>
-            <a href="https://github.com/presidential-innovation-fellows"><i class="icon-github2"></i> github.com/presidential-innovation-fellows</a>
-            <br/>
-            <a href="./developer/">Developer resources</a>
-          </div>
-          <div class="col-sm-2">
-          	<h4>Policies</h4>
-          	<a href="./linking-policy.html">Linking policy</a>
-          	<br/>
-          	<a href="https://github.com/18F/open-source-policy">Open Source Policy</a>
-          </div>
-          <div class="col-sm-2">
-            <a href="https://github.com/18f"><img class="tagline" src="images/always-be-shipping_orange.png" alt="Always Be Shipping."></a>
-          </div>
+      <div class="row">
+        <div class="col-md-3 blog-md">
+          Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+        </div>
+        <div class="col-md-9 blog-snippet">
+          <span class="blog-text"></span>
+          <a href="" class="readmore">more&nbsp;&raquo;</a>
         </div>
       </div>
     </div>
 
-    <!-- some fun little IE detection, used to guide console formatting -->
-    <script type="text/javascript">window._ie9 = false;</script>
-    <!--[if IE 9 ]>
-      <script type="text/javascript">window._ie9 = true;</script>
-    <![endif]-->
+    <div id="blog1" class="blog-entry">
+      <div class="row">
+        <div class="col-md-12">
+          <h4><a href="#" class="blog-title"></a></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 blog-md">
+          Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+        </div>
+        <div class="col-md-9 blog-snippet">
+          <span class="blog-text"></span>
+          <a href="" class="readmore">more&nbsp;&raquo;</a>
+        </div>
+      </div>
+    </div>
+    <div id="blog2" class="blog-entry">
+      <div class="row">
+        <div class="col-md-12">
+          <h4><a href="#" class="blog-title"></a></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 blog-md">
+          Posted on <span class="blog-date"></span>.<br/>Tagged: <span class="blog-tags"></span>
+        </div>
+        <div class="col-md-9 blog-snippet">
+          <span class="blog-text"></span>
+          <a href="" class="readmore">more&nbsp;&raquo;</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><h5><a href="http://18fblog.tumblr.com/">Read all blog entries.</a></h5></div>
+    </div>
+  </div>
+</div>
 
-    <!-- IE10 JS targeting, from http://stackoverflow.com/a/17099988 -->
-    <!-- IE11 JS targeting, from http://stackoverflow.com/a/17447695 -->
-    <script type="text/javascript">
-      window._ie10 = ("onpropertychange" in document && !!window.matchMedia);
-      window._ie11 = !!navigator.userAgent.match(/Trident\/7.0; rv 11/);
-      window._ie = window._ie9 || window._ie10 || window._ie11;
-    </script>
+<div id="team" class="jumbotron header">
+  <div class="container-fluid">
+    <h3>
+      &lt; team /&gt;
+    </h3>
+  </div>
+</div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- // <script src="js/jquery-dotdotdot/src/js/jquery.dotdotdot.js"></script> -->
-    <!-- // <script src="js/slideshow.js"></script> -->
-    <!-- // <script src="js/bootstrap-3.1.1.js"></script> -->
-    <!-- // <script src="js/18f.js"></script> -->
-    <script src="js/18f.min.js"></script>
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-48605964-1', 'gsa.gov');
-      ga('send', 'pageview');
-    </script>
-    <!-- Browser Warning -->
-    <script type="text/javascript">
-      var $buoop = {vs:{i:8,f:10,o:12,s:5}};
-      $buoop.ol = window.onload;
-      window.onload=function(){
-      try {if ($buoop.ol) $buoop.ol();}catch (e) {}
-      var e = document.createElement("script");
-      e.setAttribute("type", "text/javascript");
-      e.setAttribute("src", "//browser-update.org/update.js");
-      document.body.appendChild(e);
-      }
-    </script>
-  </body>
-</html>
+<div class="container section">
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/jamie-bw.jpg" data-color="images/team/jamie.jpg" alt="Photo of Jamie Albrecht">
+    <h4>Jamie Albrecht</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/sarah-bw.jpg" data-color="images/team/sarah.jpg" alt="Photo of Sarah Allen">
+    <h4>Sarah Allen</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/leah-bw.jpg" data-color="images/team/leah.jpg" alt="Photo of Leah Bannon">
+    <h4>Leah Bannon</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/david-bw.jpg" data-color="images/team/david.jpg" alt="Photo of Dave Best">
+    <h4>Dave Best</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/brethauer-bw.jpg" data-color="images/team/brethauer.jpg" alt="Photo of Nick Brethauer">
+    <h4>Nick Brethauer</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/nick-bw.jpg" data-color="images/team/nick.jpg" alt="Photo of Nick Bristow">
+    <h4>Nick Bristow</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/gray-bw.jpg" data-color="images/team/gray.jpg" alt="Photo of Gray Brooks">
+    <h4>Gray Brooks</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/chrisc-bw.jpg" data-color="images/team/chrisc.jpg" alt="Photo of Chris Cairns">
+    <h4>Chris Cairns</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/dave-bw.jpg" data-color="images/team/dave.jpg" alt="Photo of Dave Caraway">
+    <h4>Dave Caraway</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/kaitlin-bw.jpg" data-color="images/team/kaitlin.jpg" alt="Photo of Kaitlin Devine">
+    <h4>Kaitlin Devine</h4>
+  </div>
+  <!--  -->
+    <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/catherine-bw.jpg" data-color="images/team/catherine.jpg" alt="Photo of Catherine Devlin">
+    <h4>Catherine Devlin</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/garren-bw.jpg" data-color="images/team/garren.jpg" alt="Photo of Garren Givens">
+    <h4>Garren Givens</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/greg-bw.jpg" data-color="images/team/greg.jpg" alt="Photo of Greg Godbout">
+    <h4>Greg Godbout</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/yoz-bw.jpg" data-color="images/team/yoz.jpg" alt="Photo of Yoz Grahame">
+    <h4>Yoz Grahame</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/justin-bw.jpg" data-color="images/team/justin.jpg" alt="Photo of Justin Grevich">
+    <h4>Justin Grevich</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/hillary-bw.jpg" data-color="images/team/hillary.jpg" alt="Photo of Hillary Hartley">
+    <h4>Hillary Hartley</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/sean-bw.jpg" data-color="images/team/sean.jpg" alt="Photo of Sean Herron">
+    <h4>Sean Herron</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/mhz-bw.jpg" data-color="images/team/mhz.jpg" alt="Photo of Michelle Hertzfeld">
+    <h4>Michelle Hertzfeld</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/michelle-bw.jpg" data-color="images/team/michelle.jpg" alt="Photo of Michelle Hood">
+    <h4>Michelle Hood</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/stacy-bw.jpg" data-color="images/team/stacy.jpg" alt="Photo of Stacy Kane">
+    <h4>Stacy Kane</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/noah-bw.jpg" data-color="images/team/noah.jpg" alt="Photo of Noah Kunin">
+    <h4>Noah Kunin</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+      <img class="img-circle team-img" src="images/team/sasha-bw.jpg" data-color="images/team/sasha.jpg" alt="Photo of Sasha Magee">
+      <h4>Sasha Magee</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/majma-bw.jpg" data-color="images/team/majma.jpg" alt="Photo of Raphael Majma">
+    <h4>Raphael Majma</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/manger-bw.jpg" data-color="images/team/manger.jpg" alt="Photo of Noah Manger">
+    <h4>Noah Manger</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/eric-bw.jpg" data-color="images/team/eric.jpg" alt="Photo of Eric Mill">
+    <h4>Eric Mill</h4>
+  </div>
+  <!-- -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/ric-bw.jpg" data-color="images/team/ric.jpg" alt="Photo of Ric Miller">
+    <h4>Ric Miller</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/nienhuis-bw.jpg" data-color="images/team/nienhuis.jpg" alt="Photo of Robert Read">
+    <h4>Kristin Nienhuis</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/papazian-bw.jpg" data-color="images/team/papazian.jpg" alt="Photo of Robert Read">
+    <h4>Chris Papazian</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/joe-bw.jpg" data-color="images/team/joe.jpg" alt="Photo of Joe Polastre">
+    <h4>Joe Polastre, PhD</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/robert-bw.jpg" data-color="images/team/robert.jpg" alt="Photo of Robert Read">
+    <h4>Robert Read, PhD</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/alison-bw.jpg" data-color="images/team/alison.jpg" alt="Photo of Alison Rowland">
+    <h4>Alison Rowland</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/josh-bw.jpg" data-color="images/team/josh.jpg" alt="Photo of Josh Ruihley">
+    <h4>Josh Ruihley</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/aaron-bw.jpg" data-color="images/team/aaron.jpg" alt="Photo of Aaron Snow">
+    <h4>Aaron Snow</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/amos-bw.jpg" data-color="images/team/amos.jpg" alt="Photo of Amos Stone">
+    <h4>Amos Stone</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/raphy-bw.jpg" data-color="images/team/raphy.jpg" alt="Photo of Raphael Villas">
+    <h4>Raphael Villas</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/yuda-bw.jpg" data-color="images/team/yuda.jpg" alt="Photo of John Yuda">
+    <h4>John Yuda</h4>
+  </div>
+  <!--  -->
+  <div class="col-md-3 col-sm-6 col-xs-6 bio">
+    <img class="img-circle team-img" src="images/team/victor-bw.jpg" data-color="images/team/victor.jpg" alt="Photo of Victor Diaz Zapanta">
+    <h4>Victor Diaz Zapanta</h4>
+  </div>
+</div>
+
+
+<div id="contact" class="jumbotron header">
+  <div class="container-fluid">
+    <h3>
+      &lt; contact /&gt;
+    </h3>
+  </div>
+</div>
+
+<div class="container section">
+  <div class="row">
+    <div class="col-md-7 col-md-push-5">
+      <p class="lead">Leave us your name and email if you'd like more information about the way we work.</p>
+      <p class="small">Your privacy and security are important to us, and we'll never share your information. Please see <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a> for more information.</p>
+    </div>
+    <div class="col-md-4 col-md-pull-7">
+      <form action="http://hydra.gsa.gov/cgi-bin/listserv.pl" method="post" id="contact-form">
+      <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you.html" type="hidden" name="redirect" /><input checked="checked" name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
+      <div class="form-group"><input class="form-control input-lg" type="text" placeholder="Your Name" name="realname" /></div>
+      <div class="form-group"><input class="form-control input-lg" type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
+      <input type="submit" class="btn btn-success btn-lg btn-block" value="Sign Up for More Information" />
+      </form>
+    </div>
+  </div>
+</div>
