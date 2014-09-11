@@ -10,23 +10,8 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 gem install jekyll
 ```
 
-We use [jQuery.dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) through a git submodule:
+Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
 
-```bash
-git submodule init
-```
-
-We use [gulp](https://www.npmjs.org/package/gulp) to compile JS/CSS assets:
-
-```bash
-npm install
-```
-
-If you ever change any JS/CSS assets, recompile them with:
-
-```bash
-make
-```
 
 ### Running the site
 
