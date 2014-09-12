@@ -47,13 +47,13 @@ You can daemonize the webhook by using `forever`:
 npm install -g forever
 ```
 
-and then running the webhook with it:
+then `cd` to any stable checkout of the app, and run the webhook with it:
 
 ```
-forever -l deploy/hookshot.log -a start deploy/hookshot.js
+forever -l /home/site/hookshot.log -a start hookshot.js
 ```
 
-Stop webhook with `forever stop deploy/hookshot.js` and restart with `forever restart deploy/hookshot.js`.
+Stop webhook with `forever stop hookshot.js` and restart with `forever restart hookshot.js`.
 
 
 ### Public domain
