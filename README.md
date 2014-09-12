@@ -30,7 +30,7 @@ You don't need to worry about this in development. But on the staging and produc
 Install Node however you want. We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged. Install with:
 
 ```bash
-npm install -g https://github.com/VesQ/hookshot/tarball/master
+npm install https://github.com/VesQ/hookshot/tarball/master
 ```
 
 Run the hookshot script to listen on port 3000 for incoming pushes:
