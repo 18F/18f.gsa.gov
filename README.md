@@ -27,33 +27,52 @@ The site will be visible at `http://localhost:4000`.
 
 You don't need to worry about this for normal development. But on the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
 
-Install Node however you want. We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged. Install with:
+Install Node however you want. We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged.
+
+Install dependencies with:
 
 ```bash
 npm install https://github.com/VesQ/hookshot/tarball/master
-```
-
-Run the hookshot script to listen on port 3000 for incoming pushes:
-
-```
-node deploy/hookshot.js
-```
-
-You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
-
-You can daemonize the webhook by using `forever`:
-
-```
+npm install minimist
 npm install -g forever
 ```
 
-then `cd` to `/deploy` in any stable checkout of the app, and run:
+18F's web server uses the `hookshot` command to listen for hooks on either of two ports.
 
-```
-forever -l /home/site/hookshot.log -a start hookshot.js
+```bash
+hookshot -r refs/heads/staging -p 3000 "echo 'HOOKS' && cd /home/eric/18f/18f.gsa.gov && git pull && jekyll build > build.out"
 ```
 
-Stop webhook with `forever stop hookshot.js` and restart with `forever restart hookshot.js`.
+
+From `/deploy`, run the hook with the appropriate port and command. It can be helpful to have `forever` and your command both log to the same file.
+
+In development, you might use:
+
+```bash
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+You can stop and restart your hooks by supplying the same arguments you gave.
+
+```bash
+forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+
+On our web server, 18F runs two separate staging and production hooks:
+
+```bash
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+```bash
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+
+
+You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
 
 
 ### Public domain
