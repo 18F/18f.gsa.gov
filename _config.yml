@@ -5,3 +5,4 @@ exclude:
 - README.md
 - LICENSE.md
 - CONTRIBUTING.md
+- todo.txt
