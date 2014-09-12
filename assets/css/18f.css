@@ -160,7 +160,7 @@
 }
 
 .mantra {
-  background-image: url(../images/lightbulb.png);
+  background-image: url(/assets/images/lightbulb.png);
   background-size: 10%;
   background-position: 90% 50%;
   background-repeat: no-repeat;
