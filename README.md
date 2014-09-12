@@ -23,6 +23,15 @@ jekyll serve
 
 The site will be visible at `http://localhost:4000`.
 
+### Automatic deployment
+
+You don't need to worry about this in development. But on the staging and production server, this project uses [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
+
+We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged. Install with:
+
+```bash
+npm install -g https://github.com/VesQ/hookshot/tarball/master
+```
 
 ### Public domain
 
