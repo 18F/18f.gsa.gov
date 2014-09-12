@@ -2,7 +2,9 @@
 
 [Building the 21st century digital government.](https://18f.gsa.gov/)
 
-### Setup
+**Contributors:** We work on `staging`, and submit PRs to `staging`. When we want to deploy to production, a pull request is initiated (by the site admins) between `staging` and `production`.
+
+### Getting started
 
 This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`):
 
@@ -12,9 +14,6 @@ gem install jekyll
 
 Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
 
-
-### Running the site
-
 Launch with Jekyll:
 
 ```bash
@@ -23,16 +22,6 @@ jekyll serve
 
 The site will be visible at `http://localhost:4000`.
 
-
-### Tips
-
-* Update your git submodules with `git submodule update --init`
-* You can monitor your asset folders and automatically generate compiled versions by running `make watch`.
-
-
-### Contributing
-
-We work on `devel`, not `master`. Make a feature branch from `devel` and send a pull request to that branch.
 
 ### Public domain
 
