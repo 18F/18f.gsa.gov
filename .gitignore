@@ -1,3 +1,5 @@
 _site
 .DS_Store
 /todo.txt
+*.log
+node_modules

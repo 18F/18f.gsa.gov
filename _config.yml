@@ -1,0 +1,8 @@
+excerpt_separator: <!-- more -->
+exclude:
+- node_modules
+- deploy
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- todo.txt
