@@ -25,13 +25,36 @@ The site will be visible at `http://localhost:4000`.
 
 ### Automatic deployment
 
-You don't need to worry about this in development. But on the staging and production server, this project uses [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
+You don't need to worry about this in development. But on the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
 
-We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged. Install with:
+Install Node however you want. We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged. Install with:
 
 ```bash
 npm install -g https://github.com/VesQ/hookshot/tarball/master
 ```
+
+Run the hookshot script to listen on port 3000 for incoming pushes:
+
+```
+node deploy/hookshot.js
+```
+
+You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
+
+You can daemonize the webhook by using `forever`:
+
+```
+npm install -g forever
+```
+
+and then running the webhook with it:
+
+```
+forever -l deploy/hookshot.log -a start deploy/hookshot.js
+```
+
+Stop webhook with `forever stop deploy/hookshot.js` and restart with `forever restart deploy/hookshot.js`.
+
 
 ### Public domain
 
