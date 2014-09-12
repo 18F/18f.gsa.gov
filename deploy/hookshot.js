@@ -5,7 +5,7 @@ var hookshot = require("hookshot");
 // TODO: hard to use this in dev, would be nice to factor this out somewhere
 var staging = "/home/site/staging/current";
 var production = "/home/site/production/current";
-var command = "git pull >> /home/site/hookshot.log";
+var command = "git pull && jekyll build >> /home/site/hookshot.log";
 
 // debug - uncomment for dev, comment before committing (great practice, I know)
 // staging = "/home/eric/18f/18f.gsa.gov"
