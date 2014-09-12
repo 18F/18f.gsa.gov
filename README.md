@@ -44,22 +44,32 @@ hookshot -r refs/heads/staging -p 3000 "echo 'HOOKS' && cd /home/eric/18f/18f.gs
 ```
 
 
-From `/deploy`, run the hook with the appropriate port and command. 18F uses:
+From `/deploy`, run the hook with the appropriate port and command. It can be helpful to have `forever` and your command both log to the same file.
+
+In development, you might use:
 
 ```bash
-forever -l /home/site/hookshot.log -a start hookshot.js -p 3000
-
-cd /home/site/staging/current && git pull && jekyll build >> /home/site/hookshot.log
-
-cd /home/eric/18f/18f.gsa.gov && git pull && jekyll build >> build.out
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
-You can stop and restart your hook with:
+You can stop and restart your hooks by supplying the same arguments you gave.
 
 ```bash
-forever stop hookshot.js
-forever restart hookshot.js
+forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
 ```
+
+
+On our web server, 18F runs two separate staging and production hooks:
+
+```bash
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+```bash
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
 
 
 You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
