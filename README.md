@@ -47,7 +47,7 @@ You can daemonize the webhook by using `forever`:
 npm install -g forever
 ```
 
-then `cd` to any stable checkout of the app, and run the webhook with it:
+then `cd` to `/deploy` in any stable checkout of the app, and run:
 
 ```
 forever -l /home/site/hookshot.log -a start hookshot.js
