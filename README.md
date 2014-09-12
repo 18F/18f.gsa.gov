@@ -59,17 +59,47 @@ forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.
 forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
+On our web server, 18F runs two separate hooks.
 
-On our web server, 18F runs two separate staging and production hooks:
+#### Staging hook
+
+Starting:
 
 ```bash
 forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
+Restarting:
+
+```bash
+forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+Stopping:
+
+```bash
+forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+#### Production hook
+
+Starting:
+
 ```bash
 forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
+Restarting:
+
+```bash
+forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
+
+Stopping:
+
+```bash
+forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
+```
 
 
 You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
