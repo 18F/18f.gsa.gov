@@ -63,19 +63,19 @@ On our web server, 18F runs two separate hooks.
 
 #### Staging hook
 
-Starting:
+Starting (from the project root):
 
 ```bash
 forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
-Restarting:
+Restarting (anywhere):
 
 ```bash
 forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
-Stopping:
+Stopping (anywhere):
 
 ```bash
 forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
@@ -83,19 +83,19 @@ forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current 
 
 #### Production hook
 
-Starting:
+Starting (from the project root):
 
 ```bash
 forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
-Restarting:
+Restarting (anywhere):
 
 ```bash
 forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
 ```
 
-Stopping:
+Stopping (anywhere):
 
 ```bash
 forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
