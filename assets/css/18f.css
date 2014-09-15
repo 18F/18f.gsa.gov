@@ -202,7 +202,6 @@
 }
 
 .blog .blog-entry {
-  display: none;
   padding: 10px 0;
 }
 
@@ -289,7 +288,12 @@ RESPONSIVE EMBEDS
     margin-bottom: 3em;
     }
   }
-
+/*
+  BLOG
+*/
+body.blog .container img {
+  width: 100%;
+}
 /*
   SLIDESHOW
 */
