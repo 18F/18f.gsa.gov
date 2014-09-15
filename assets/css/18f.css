@@ -289,7 +289,12 @@ RESPONSIVE EMBEDS
     margin-bottom: 3em;
     }
   }
-
+/*
+  BLOG
+*/
+body.blog .container img {
+  width: 100%;
+}
 /*
   SLIDESHOW
 */
