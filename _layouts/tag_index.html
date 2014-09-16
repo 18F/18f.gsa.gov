@@ -1,0 +1,19 @@
+---
+layout: bare
+---
+
+<h1 class="tag">{{ page.title }}</h1>
+<ul class="posts">
+{% for post in site.posts %}
+	{% for tag in post.tags %}
+		{% if tag == page.tag %}
+	    <div>{{ post.date | date_to_html_string }}</div>
+	    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	    <div class="blog-snippet">	
+			{{ post.content | strip_html }}
+		</div>
+	    <div class="tags">Filed under {{ post.tags | tag_links }}</div>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+</ul>
