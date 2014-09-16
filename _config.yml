@@ -9,3 +9,5 @@ exclude:
 
 sass:
   sass_dir: assets/_sass
+
+permalink: pretty
