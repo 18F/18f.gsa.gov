@@ -6,22 +6,22 @@ $(document).ready(function () {
     var t = setTimeout("$('.fade-"+e+"').fadeIn(500)",500*e);
   });
 
-  // team hover effect
-  $('.bio').mouseenter(function () {
-    var $img = $(this).find('.team-img');
-    $img.data('original',$img.attr('src'));
-    $(this).append('<img class="hover-img img-circle" src="' + $img.data('color') + '" />');
-    var $hover_img = $(this).find('.hover-img');
-    $hover_img.width($img.width()).height($img.height());
-    $hover_img.animate({
-      opacity: 1
-    }, 'fast');
-  }).mouseleave(function () {
-    var $img = $(this).find('.team-img');
-    $(this).find('.hover-img').fadeOut('slow',function () {
-      $(this).remove();
-    });
-  });
+  // // team hover effect
+  // $('.bio').mouseenter(function () {
+  //   var $img = $(this).find('.team-img');
+  //   $img.data('original',$img.attr('src'));
+  //   $(this).append('<img class="hover-img img-circle" src="' + $img.data('color') + '" />');
+  //   var $hover_img = $(this).find('.hover-img');
+  //   $hover_img.width($img.width()).height($img.height());
+  //   $hover_img.animate({
+  //     opacity: 1
+  //   }, 'fast');
+  // }).mouseleave(function () {
+  //   var $img = $(this).find('.team-img');
+  //   $(this).find('.hover-img').fadeOut('slow',function () {
+  //     $(this).remove();
+  //   });
+  // });
 
   // img preloader
   $('body').append('<div id="preloader"></div>');

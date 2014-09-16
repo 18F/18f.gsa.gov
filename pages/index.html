@@ -113,9 +113,9 @@ permalink: /
   </div>
   <div class="container">
     {% for member in site.data.team %}
-    <div class="col-md-3 col-sm-6 col-xs-6 bio">
-      <img class="img-circle team-img" src="/assets/images/team/{{member.name}}-bw.jpg" data-color="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
-      <h4>{{ member.full_name }}</h4>
+    <div class="bio">
+      <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}" id="clipping">
+      <h1>{{ member.full_name }}</h1></a>
     </div>
     {% endfor %}
   </div>
