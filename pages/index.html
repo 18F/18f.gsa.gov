@@ -105,22 +105,21 @@ permalink: /
   </div>
 </section>
 
-<div id="team" class="jumbotron header">
-  <div class="container-fluid">
-    <h3>
-      &lt; team /&gt;
-    </h3>
+<section class="team">
+  <div class="header">
+    <div class="container-fluid">
+      <h1>&lt; team /&gt;</h1>
+    </div>
   </div>
-</div>
-
-<div class="container section">
-  {% for member in site.data.team %}
-  <div class="col-md-3 col-sm-6 col-xs-6 bio">
-    <img class="img-circle team-img" src="/assets/images/team/{{member.name}}-bw.jpg" data-color="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
-    <h4>{{ member.full_name }}</h4>
+  <div class="container section">
+    {% for member in site.data.team %}
+    <div class="col-md-3 col-sm-6 col-xs-6 bio">
+      <img class="img-circle team-img" src="/assets/images/team/{{member.name}}-bw.jpg" data-color="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
+      <h4>{{ member.full_name }}</h4>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+</section
 
 
 <div id="contact" class="jumbotron header">
