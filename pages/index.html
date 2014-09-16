@@ -13,7 +13,7 @@ permalink: /
 <!-- begin slideshow -->
 <section class="splash">
   <img src="/assets/images/logo-18f.png" alt="18F logo" class="logo fadeIn" />
-  <h1>Building the 21st century digital government.</h1>
+  <h1 class="fadeIn">Building the 21st century digital government.</h1>
   <ul role="presentation" class="slideshow">
       <li>
         <figure>
@@ -63,28 +63,25 @@ permalink: /
       <h1>&lt; news /&gt;</h1>
     </div>
   </div>
-  <div class="container">
+  <article class="container blog-entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.posts limit:3 %}
-    <div class="blog-entry">
-      <div class="row">
-        <div class="col-md-12">
-          <h4><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a></h4>
-        </div>
-        <div class="col-md-3 blog-md">
-          <span class="blog-date">{{ post.date }}</span><br>
-          <span class="blog-tags"><a href="">{{ post.tags | array_to_sentence_string }} </a></span>
-          <span class="blog-authors">{{ post.authors }}</span>
-        </div>
-        <div class="col-md-9 blog-snippet">
-          {{ post.excerpt }}<a href="{{ post.url }}">Continue reading...</a>
-        </div><!-- col-md-9 -->
-      </div><!-- row -->
-    </div><!-- blog-entry -->
+      <div class="blog-title">
+        <h1 itemprop="headline"><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a></h1>
+      </div>
+      <div class="blog-meta">
+        <p>Posted on <span class="blog-date"><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date_to_long_string }}</time></span>.</p>
+        <p>Tagged <span class="blog-tags" itemprop="keywords"><a href="">{{ post.tags | array_to_sentence_string }}</a></span>.</p>
+      </div>
+      <div class="blog-snippet">
+        <span class="blog-authors" itemprop="author">{{ post.authors }}</span>
+        <p itemprop="articleBody">{{ post.excerpt }}</p>
+        <p><a href="{{ post.url }}">Continue reading...</a></p>
+      </div>
     {% endfor %}
-    <div class="row">
-      <div class="col-md-12 text-center"><h5><a href="http://18fblog.tumblr.com/">Read all blog entries.</a></h5></div>
-    </div>
-  </div>
+      <div class="blog-all">
+        <a href="http://18fblog.tumblr.com/">Read all blog entries.</a>
+      </div>
+  </article>
 </section>
 
 <section class="team">

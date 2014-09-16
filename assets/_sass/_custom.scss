@@ -83,6 +83,10 @@
   	background-color: #03253e; /* For browsers that don't support opacity */
   	background-color: rgba(0,0,0,.4);
 }
+%section-padding {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
 // Utility
 //********************************************************
@@ -103,7 +107,6 @@
     font-family: $base-font-family;
 	}
 }
-
 .logo {
   height: 150px;
   width: 150px;
@@ -200,7 +203,7 @@
 	background-position: 90% 50%;
 	background-repeat: no-repeat;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 60px;
 	@include media(max-width 992px) {
 		background:none;
 	}
@@ -214,16 +217,16 @@
 		}
 	}
 	p {
-		font-size: 14px;
+		font-size: .9em;
+		line-height: 1.8;
   		padding-top: 20px;
   		margin: 0;
   		width: 70%;
 	}
 }
 
-// News
+// Section Titles
 //********************************************************
-
 .header {
   	height: 100px;
   	background-color: #c21;
@@ -251,55 +254,90 @@
 }
 
 
-.blog h4 {
-	font-size: 20px;
-  	font-weight: 700;
-	> a {
-		color:#c21;
-		text-decoration: none;
-		&:hover {
-	  		color:#c21;
-	  		text-decoration: underline;
+// News
+//********************************************************
+.blog-entry {
+	@extend %section-padding;
+	h1 {
+		font-size: 22px;
+	  	font-weight: 700;
+		> a {
+			color: $red;
+			text-decoration: none;
+			&:hover, &:focus {
+		  		text-decoration: underline;
+			}
 		}
+	}
+	p {
+		font-size: 0.9em;
+		padding: 0; margin: 0;
+		+ p {
+			margin-bottom: 0.5em;
+		}
+	}
+}
+.blog-title {
+	@include span-columns(12);
+	padding: 15px 0 5px 0;
+}
+.blog-meta {
+	@include span-columns(3);
+	a {
+		font-weight: 700;
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $base-link-color;
+		}
+	}
+}
+.blog-snippet {
+	@include span-columns(9);
+	@include omega();
+	max-height: 8em;
+	overflow: hidden;
+}
+.blog-all {
+	@include span-columns(12);
+	text-align: center;
+	margin-top: 1.7em;
+	a {
+		font-family: $header-font-family;
+		font-weight: 700;
 	}
 }
 
 
-.blog .blog-entry {
-  padding: 10px 0;
-}
 
 #blog-loading h4 {
-  text-align: center;
-  padding: 20px;
-  color: #606060;
-}
-#blog-loading .error {
-  text-align: center;
-  color: #c21;
-  display: none;
+	text-align: center;
+	padding: 20px;
+	color: #606060;
+	.error {
+		text-align: center;
+		color: #c21;
+		display: none;
+	}
 }
 .blog-md {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.5em;
-  padding-bottom: 10px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	a {
+		text-decoration: none;
+		font-weight: 700;
+		&:hover, &:focus {
+			text-decoration: underline;
+	  	}
+	}
 }
-.blog-md a {
-  text-decoration: none;
-  font-weight: 700;
-}
-.blog-md a:hover {
-  text-decoration: underline;
-}
-.blog-snippet {
-  max-height: 8em;
-  overflow: hidden;
-}
+
+
 
 // Bio
 //********************************************************
-
 .bio { 
 	@include span-columns(3 of 12);
 	margin: 1.0em 0 1.0em 1.5%; 
@@ -371,20 +409,14 @@
 
 // Contact
 //********************************************************
-%contact-padding {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
 .contact-form {
 	@include span-columns(4);
-	@extend %contact-padding;
+	@extend %section-padding;
 }
-
 .contact-words {
 	@include span-columns(7);
 	@include shift(1);
-	@extend %contact-padding;
+	@extend %section-padding;
 	p {
 		font-size: 1.4em;
 		&:last-of-type {
@@ -399,7 +431,6 @@
 
 // Footer
 //********************************************************
-
 .footer {
 	border-top: 5px solid #18f;
 	background-color: #03253e;
