@@ -367,9 +367,7 @@
         	-webkit-filter: grayscale(100%);
         	-moz-filter: grayscale(100%);
         	filter: grayscale(100%);
-        	-webkit-transition: -webkit-filter 400ms ease;
-        	-moz-transitions: -moz-filter 400ms ease;
-        	transition: filter 400ms ease;
+			@include transition(0.3s linear);
         	@include media(max-width 992px) {
         		height: 225px;
     			width: 225px;
