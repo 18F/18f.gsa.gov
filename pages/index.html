@@ -111,7 +111,7 @@ permalink: /
       <h1>&lt; team /&gt;</h1>
     </div>
   </div>
-  <div class="container section">
+  <div class="container">
     {% for member in site.data.team %}
     <div class="col-md-3 col-sm-6 col-xs-6 bio">
       <img class="img-circle team-img" src="/assets/images/team/{{member.name}}-bw.jpg" data-color="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
@@ -119,19 +119,18 @@ permalink: /
     </div>
     {% endfor %}
   </div>
-</section
+</section>
 
 
-<div id="contact" class="jumbotron header">
-  <div class="container-fluid">
-    <h3>
-      &lt; contact /&gt;
-    </h3>
+<section class="contact">
+  <div class="header">
+    <div class="container-fluid">
+      <h1>
+        &lt; contact /&gt;
+      </h1>
+    </div>
   </div>
-</div>
-
-<div class="container section">
-  <div class="row">
+  <div class="container">
     <div class="col-md-7 col-md-push-5">
       <p class="lead">Leave us your name and email if you'd like more information about the way we work.</p>
       <p class="small">Your privacy and security are important to us, and we'll never share your information. Please see <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a> for more information.</p>
@@ -145,4 +144,4 @@ permalink: /
       </form>
     </div>
   </div>
-</div>
+</section>
