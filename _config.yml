@@ -6,3 +6,6 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - todo.txt
+
+sass:
+  sass_dir: assets/_sass
