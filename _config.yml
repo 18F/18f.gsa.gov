@@ -11,3 +11,5 @@ sass:
   sass_dir: assets/_sass
 
 permalink: pretty
+tag_dir: tags
+tag_title_prefix: "Tagged: "
