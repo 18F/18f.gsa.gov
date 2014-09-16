@@ -325,7 +325,21 @@
         	-webkit-filter: grayscale(100%);
         	-moz-filter: grayscale(100%);
         	filter: grayscale(100%);
-        	-webkit-transition : -webkit-filter 400ms ease;
+        	-webkit-transition: -webkit-filter 400ms ease;
+        	-moz-transitions: -moz-filter 400ms ease;
+        	transition: filter 400ms ease;
+        	@include media(max-width 992px) {
+        		height: 225px;
+    			width: 225px;
+        	}
+        	@include media(max-width 550px) {
+        		height: 120px;
+    			width: 120px;
+        	}
+        	@include media(max-width 360px) {
+        		width: 75px;
+   				height: 75px;
+        	}
     	}
 		&:hover img, &:focus img  {
 	        -webkit-filter: none;
@@ -343,42 +357,13 @@
 }
 
 
-
-@media (max-width: 992px) {
-  .bio .img-circle {
-    height: 225px;
-    width: 225px;
-  }
-  .bio .name {
-    top: 120px;
-  }
-}
-@media (max-width: 550px) {
-  .bio .img-circle {
-    height: 120px;
-    width: 120px;
-  }
-  .bio .name {
-    top: 100px;
-  }
-}
 @media (max-width: 768px) {
   .bio .no-decoration {
     font-size: 2.0em;
   }
 }
 @media (max-width: 360px) {
-  .bio .img-circle {
-    width: 75px;
-    height: 75px;
-  }
-  .bio .name {
-    top: 80px;
-  }
   .bio .no-decoration {
     font-size: 1.5em;
-  }
-  .bio.col-xs-6 {
-    min-height: 145px;
   }
 }
