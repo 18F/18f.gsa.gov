@@ -252,17 +252,18 @@
 
 
 .blog h4 {
-  font-size: 20px;
-  font-weight: 700;
+	font-size: 20px;
+  	font-weight: 700;
+	> a {
+		color:#c21;
+		text-decoration: none;
+		&:hover {
+	  		color:#c21;
+	  		text-decoration: underline;
+		}
+	}
 }
-.blog h4 > a {
-  color:#c21;
-  text-decoration: none;
-}
-.blog h4 > a:hover {
-  color:#c21;
-  text-decoration: underline;
-}
+
 
 .blog .blog-entry {
   padding: 10px 0;
@@ -366,4 +367,74 @@
   .bio .no-decoration {
     font-size: 1.5em;
   }
+}
+
+// Contact
+//********************************************************
+%contact-padding {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contact-form {
+	@include span-columns(4);
+	@extend %contact-padding;
+}
+
+.contact-words {
+	@include span-columns(7);
+	@include shift(1);
+	@extend %contact-padding;
+	p {
+		font-size: 1.4em;
+		&:last-of-type {
+			font-size: $small-text;
+		}
+	}
+}
+.button {
+	@include button($green);
+	width: 100%;
+}
+
+// Footer
+//********************************************************
+
+.footer {
+	border-top: 5px solid #18f;
+	background-color: #03253e;
+	height: auto;
+	color: #fff;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	h1 {
+		font-size: 1.2em;
+		padding-bottom: 0.3em;
+	}
+	.container > div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		@include span-columns(2);
+		&:nth-of-type(3) {
+			@include span-columns(4);
+		}
+	}
+	img {
+		max-width: 100%;
+  		max-height: 100px;
+	}
+	a {
+		color:#fff;
+		font-size: 0.9em;
+  		text-decoration: none;
+  		&:hover, &:focus {
+  			text-decoration: underline;
+  		}
+	}
+	.tagline {
+		float: right;
+		@include media(max-width 790px) {
+			float: none;
+		}
+	}
 }

@@ -24,12 +24,12 @@ $(document).ready(function () {
   // });
 
   // img preloader
-  $('body').append('<div id="preloader"></div>');
-  $('.bio').find('img').each( function() {
-    var src = $(this).data('color');
-    var $pre = $('#preloader');
-    $pre.append("<img src='" + src + "' />");
-  });
+  // $('body').append('<div id="preloader"></div>');
+  // $('.bio').find('img').each( function() {
+  //   var src = $(this).data('color');
+  //   var $pre = $('#preloader');
+  //   $pre.append("<img src='" + src + "' />");
+  // });
 
   // slider preloader
   $('#slideshow .slide').each( function() {
