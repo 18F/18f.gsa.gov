@@ -40,5 +40,8 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-48605964-1', 'gsa.gov');
   ga('send', 'pageview');
+
+  // anonymize user IPs (chops off the last IP triplet)
+  ga('set', 'anonymizeIp', true);
 </script>
 
