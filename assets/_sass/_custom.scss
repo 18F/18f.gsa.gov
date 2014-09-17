@@ -300,6 +300,7 @@
 	@include omega();
 	max-height: 8em;
 	overflow: hidden;
+	width: 100%;
 }
 .blog-all {
 	@include span-columns(12);
