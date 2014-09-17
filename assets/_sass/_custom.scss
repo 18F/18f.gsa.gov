@@ -94,12 +94,14 @@
 	@include outer-container;
 }
 .lead {
-	line-height: 2em;
-	i {
-		font-size: 175%;
-		vertical-align: middle;
-		color: $blue;
-	}
+	font-size: 1.4em;
+	line-height: 1.6em;
+	padding-top: 1em;
+	// i {
+	// 	font-size: 175%;
+	// 	vertical-align: middle;
+	// 	color: $blue;
+	// }
 }
 
 // Splash
@@ -445,6 +447,21 @@
 //********************************************************
 .bare {
 	@extend %section-padding;
+	h2 {
+		font-size: 1.85em;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	h3 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.4em;
+		padding-bottom: 4px;
+	}
+	p {
+		margin-bottom: 1.1em;
+	}
+
 }
 .bare-logo {
 	@include span-columns(2);
