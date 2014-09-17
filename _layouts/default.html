@@ -3,42 +3,12 @@
 <head>
 {% include head.html %}
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
 
 {{ content }}
 
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2"><img src="/assets/images/logo-gsa.png" alt="GSA logo"></div>
-      <div class="col-sm-2">
-        <h4>Contact Us</h4>
-        <a href="mailto:18f@gsa.gov"><i class="icon-email"></i> 18F@gsa.gov</a>
-        <br/>
-        <a href="https://twitter.com/18F"><i class="icon-twitter"></i> @18F</a>
-      </div>
-      <div class="col-sm-4">
-        <h4>Fork Our Code</h4>
-        <a href="https://github.com/18f"><i class="icon-github2"></i> github.com/18F</a>
-        <br/>
-        <a href="https://github.com/presidential-innovation-fellows"><i class="icon-github2"></i> github.com/presidential-innovation-fellows</a>
-        <br/>
-        <a href="./developer/">Developer resources</a>
-      </div>
-      <div class="col-sm-2">
-        <h4>Policies</h4>
-        <a href="./linking-policy.html">Linking policy</a>
-        <br/>
-        <a href="https://github.com/18F/open-source-policy">Open Source Policy</a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://github.com/18f"><img class="tagline" src="/assets/images/always-be-shipping_orange.png" alt="Always Be Shipping."></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 {% include footer.html %}
+{% include scripts.html %}
+
 </body>
 </html>

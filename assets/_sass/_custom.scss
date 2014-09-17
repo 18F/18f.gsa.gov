@@ -1,0 +1,472 @@
+//********************************************************
+// 18F SITE CUSTOM SASS
+//********************************************************
+
+// Mixins
+//********************************************************
+
+// Slideshow
+// thanks to http://www.fabriziocalderan.it/css3slideshow/
+@mixin slideshow($settings) { 
+    $images     : map-get($settings, images); 
+    $duration   : map-get($settings, duration);
+    $transition : map-get($settings, transition);
+    $easing     : map-get($settings, easing);
+    $repeat     : map-get($settings, repeat);
+    
+    // total duration (in seconds) 
+    $totalDuration      : $images * $duration;
+    $animationSettings  : CSS3slideshow #{$totalDuration} #{$easing} 0s #{$repeat};
+    $vendorsList        : (-webkit-, -moz-, -o-, '');
+
+    position   : relative;
+    list-style : none;
+
+    li {
+        position : absolute;
+        z-index  : $images; 
+        top      : 0;
+        left     : 0;
+        @each $vendor in $vendorsList {
+            #{$vendor}animation: #{$animationSettings};
+        }  
+
+        @for $i from 2 through $images {
+
+            &:nth-child(#{$i}) { 
+                z-index: #{$images - $i + 1}; 
+                @each $vendor in $vendorsList {
+                    #{$vendor}animation-delay: #{$duration * ($i - 1)};
+                }
+            }
+
+        }
+    }
+
+    // &:hover {
+    //     li {
+    //         @each $vendor in $vendorsList {
+    //             #{$vendor}animation-play-state: paused;
+    //         }  
+    //     }
+    // }
+
+    @at-root {
+
+        $endEffect: 100% / $images;
+        $timeEffect: round(($transition * 100% / $totalDuration) * 100)/100;
+        $startEffect: $endEffect - $timeEffect;
+
+        @include setKeyframes(CSS3slideshow) {
+          #{$startEffect}, 100% { opacity: 1; }
+          #{$endEffect}, #{100% - $timeEffect} { opacity: 0; }
+        }        
+
+    } 
+  
+}
+
+@mixin setKeyframes($animationName) {
+
+    @-webkit-keyframes #{$animationName} { @content; }
+    @-moz-keyframes #{$animationName}    { @content; }
+    @-o-keyframes #{$animationName}      { @content; }
+    @keyframes #{$animationName}         { @content; }
+
+}
+
+// Extends
+//********************************************************
+%heading-text-style {
+	color: #fff;
+  	text-shadow: 1px 1px 6px #000;
+  	background-color: #03253e; /* For browsers that don't support opacity */
+  	background-color: rgba(0,0,0,.4);
+}
+%section-padding {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+// Utility
+//********************************************************
+.container {
+	@include outer-container;
+}
+
+// Splash
+//********************************************************
+.usa {
+	@include span-columns(12);
+	background-color: rgba(0,0,0,0.75);
+	text-align: center;
+    height: 20px;
+    font-size: 0.75em;
+    color: $light-gray;
+    p {
+    	font-family: $base-font-family;
+	}
+	img {
+		padding-top: 3px;
+	}
+}
+.logo {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 20;
+	@include media(max-width 992px) {
+		height: 100px;
+		width: 100px;
+		top: 20px;
+		left: 20px;
+	}
+	@include media(max-width 360px) {
+		height: 75px;
+		width: 75px;
+	}
+}
+.splash {
+	@include span-columns(12);
+	height: 740px; 	// to force content below the absolutely-positioned slideshow
+					// may need to replace with JS
+					// at the very least, will need to adjust with media queries
+	.slideshow {
+	@include span-columns(12 of 12);
+    @include slideshow((
+        images     : 3,                 // Amount of images in the slideshow
+        duration   : 7.5s,              // Time of visibility of each image 
+        transition : 3s,                // Transition time (with transition < duration)
+        easing     : ease,              // Easing type
+        repeat     : infinite           // 1,2,3, ... , infinite
+    ));
+	    figure {
+	    	margin: 0; padding: 0;
+	    }
+	}
+	h1 {
+		position: absolute;
+	  	top: 360px;
+	  	max-width: 860px;
+	  	z-index: 20;	
+	  	text-align: left;
+  		font-size: 3.6em;
+  		padding: 30px 50px;
+	  	@extend %heading-text-style;
+	}
+	figcaption {
+		position: absolute;
+	  	top: 526px;
+	  	max-width: 860px;
+	  	z-index: 20;
+		color:#fff;
+	  	font-size: 1em;
+	  	text-shadow: 1px 1px 2px #000;
+	  	padding: 17px 20px 15px 50px;
+	  	background-color: rgba(0,0,0,.4);
+  		i {
+  			vertical-align: middle;
+  		}
+  		.icon-camera {
+	  		font-size: 30px;
+	  		margin-right:10px;
+	  		@include media(max-width 550px) {
+	  			font-size: 20px;
+	  		}
+  		}
+  		a {
+	  		color:#fff;
+	  		text-decoration:none;
+				&:hover, &:focus {
+				color:#c21;
+		  		text-decoration:none;
+			}
+		}
+  	}
+  	@include media(max-width 992px) {
+    	padding: 17px 20px;
+  	}
+  	@include media(max-width 550px) {
+  		font-size: .8em;
+    	line-height: 1em;
+    	display: block;
+    	padding: 10px 20px;
+    	margin-top: -10px;
+  	}
+}
+
+// Mantra
+//********************************************************
+.mantra {
+	@include span-columns(12);
+	background-image: url(/assets/images/lightbulb.png);
+	background-size: 10%;
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	@include media(max-width 992px) {
+		background:none;
+	}
+	h1 {
+		margin: 0;
+		> strong {
+			color: #c21;
+		}
+		@include media(max-width 360px) {
+			font-size: 1.7em;
+		}
+	}
+	p {
+		font-size: .9em;
+		line-height: 1.8;
+  		padding-top: 20px;
+  		margin: 0;
+  		width: 70%;
+	}
+}
+
+// Section Titles
+//********************************************************
+.header {
+  	height: 100px;
+  	background-color: #c21;
+  	position: relative;
+	font-size: 1.2em;
+  	@extend %heading-text-style;
+  	@include media(max-width 550px) {
+  	height: 60px
+  }
+}
+.container-fluid {
+  	position: absolute;
+  	top: 0px;
+  	height: 100px;
+  	padding: 30px 50px;
+  	background-color: #03253e; /* For browsers that don't support opacity */
+  	background-color: rgba(0,0,0,.4);
+  	z-index: 20;
+  	@include media(max-width 550px) {
+  		padding: 0 20px;
+  		h3 {
+  			font-size:2em;
+  		}
+  	}
+}
+
+
+// News
+//********************************************************
+.blog-entry {
+	@extend %section-padding;
+	h1 {
+		font-size: 22px;
+	  	font-weight: 700;
+		> a {
+			color: $red;
+			text-decoration: none;
+			&:hover, &:focus {
+		  		text-decoration: underline;
+			}
+		}
+	}
+	p {
+		font-size: 0.9em;
+		padding: 0; margin: 0;
+		+ p {
+			margin-bottom: 0.5em;
+		}
+	}
+}
+.blog-title {
+	@include span-columns(12);
+	padding: 15px 0 5px 0;
+}
+.blog-meta {
+	@include span-columns(3);
+	a {
+		font-weight: 700;
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $base-link-color;
+		}
+	}
+}
+.blog-snippet {
+	@include span-columns(9);
+	@include omega();
+	max-height: 8em;
+	overflow: hidden;
+}
+.blog-all {
+	@include span-columns(12);
+	text-align: center;
+	margin-top: 1.7em;
+	a {
+		font-family: $header-font-family;
+		font-weight: 700;
+	}
+}
+
+
+
+#blog-loading h4 {
+	text-align: center;
+	padding: 20px;
+	color: #606060;
+	.error {
+		text-align: center;
+		color: #c21;
+		display: none;
+	}
+}
+.blog-md {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	a {
+		text-decoration: none;
+		font-weight: 700;
+		&:hover, &:focus {
+			text-decoration: underline;
+	  	}
+	}
+}
+
+
+
+// Bio
+//********************************************************
+.bio { 
+	@include span-columns(3 of 12);
+	margin: 1.0em 0 1.0em 1.5%; 
+	position: relative; 
+	strong {
+		float: left; clear: both;
+	}
+	h1 {
+		clear: both; 
+		margin: 8px 0 2px 0;
+		color: #c21;
+		font-size: 1.2em;
+	}
+	a i, .no-decoration {
+		text-decoration: none !important; color: #000 !important;
+	}
+	a {	
+		text-decoration: none; 
+		img {
+			margin: 1.0em auto;
+			float: left;
+			width: 200px;
+			height: 200px;
+        	-webkit-filter: grayscale(100%);
+        	-moz-filter: grayscale(100%);
+        	filter: grayscale(100%);
+			@include transition(0.3s linear);
+        	@include media(max-width 992px) {
+        		height: 225px;
+    			width: 225px;
+        	}
+        	@include media(max-width 550px) {
+        		height: 120px;
+    			width: 120px;
+        	}
+        	@include media(max-width 360px) {
+        		width: 75px;
+   				height: 75px;
+        	}
+    	}
+		&:hover img, &:focus img  {
+	        -webkit-filter: none;
+	        -moz-filter: none;
+	        filter: none;
+	    }
+	}
+}
+.bio-clip {
+    background: url(#clipping) no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .bio .no-decoration {
+    font-size: 2.0em;
+  }
+}
+@media (max-width: 360px) {
+  .bio .no-decoration {
+    font-size: 1.5em;
+  }
+}
+
+// Contact
+//********************************************************
+.contact-form {
+	@include span-columns(4);
+	@extend %section-padding;
+}
+.contact-words {
+	@include span-columns(7);
+	@include shift(1);
+	@extend %section-padding;
+	p {
+		font-size: 1.4em;
+		&:last-of-type {
+			font-size: $small-text;
+		}
+	}
+}
+.button {
+	@include button($green);
+	width: 100%;
+}
+
+// Footer
+//********************************************************
+.footer {
+	border-top: 5px solid #18f;
+	background-color: #03253e;
+	height: auto;
+	color: #fff;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	h1 {
+		font-size: 1.2em;
+		padding-bottom: 0.3em;
+	}
+	.container > div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		@include span-columns(2);
+		&:nth-of-type(3) {
+			@include span-columns(4);
+		}
+	}
+	img {
+		max-width: 100%;
+  		max-height: 100px;
+	}
+	a {
+		color:#fff;
+		font-size: 0.9em;
+  		text-decoration: none;
+  		&:hover, &:focus {
+  			text-decoration: underline;
+  		}
+	}
+	.tagline {
+		float: right;
+		@include media(max-width 790px) {
+			float: none;
+		}
+	}
+}
