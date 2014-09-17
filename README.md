@@ -1,9 +1,13 @@
 ## 18f.gsa.gov
 
-[Building the 21st century digital government.](https://18f.gsa.gov/)
+**[Building the 21st century digital government.](https://18f.gsa.gov/)**
 
-**Contributors:** We work on `staging`, and submit PRs to `staging`. When we want to deploy to production, a pull request is initiated (by the site admins) between `staging` and `production`.
+* The `staging` branch is **automatically deployed** to our [staging site](http://staging.18f.us).
+* The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
+**All development and pull requests should be done against the `staging` branch.**
+
+Deployments to production will be done using PRs from `staging` to `production`.
 
 ### Getting started
 
