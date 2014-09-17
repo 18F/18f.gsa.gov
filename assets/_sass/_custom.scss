@@ -479,6 +479,25 @@
 	@include omega();
 }
 
+// Full Blog Postings and Archives
+//********************************************************
+
+.blog-posting {
+	h1 + p {
+		padding-top: 10px;
+	}
+}
+.blog-follow-us {
+	@include span-columns(12);
+	padding-top: 15px;
+	h1 {
+		font-size: 1.3em;
+	}
+	ul {
+		font-size: 1.1em;
+		padding-top: 4px;
+	}
+}
 
 // Footer
 //********************************************************
