@@ -31,22 +31,35 @@ The site will be visible at `http://localhost:4000`.
 
 You don't need to worry about this for normal development. But on the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
 
-Install Node however you want. We use a fork of `hookshot` with a bugfix, until [this pull request](https://github.com/coreh/hookshot/pull/5) is merged.
+This project includes [fabric tasks](http://www.fabfile.org/) for easy remote stop/start/restart of the hook processes on the 18F website.
 
-Install dependencies with:
+You will need:
+
+* authorized access to the 18F site server
+* an `18f-site` entry in your `$HOME/.ssh/config` with the necessary credentials
+* to `pip install fabric`, and have your active `python` when running it be 2.X
+
+With that, you can start, stop, and restart the staging and production hooks like so:
+
+```
+fab stop
+fab start
+fab restart
+```
+
+Provide `--set env=production` to any of those commands to apply it to the production hook.
+
+#### Setting it up yourself
+
+Install the Node dependencies with:
 
 ```bash
-npm install https://github.com/VesQ/hookshot/tarball/master
+npm install hookshot
 npm install minimist
 npm install -g forever
 ```
 
 18F's web server uses the `hookshot` command to listen for hooks on either of two ports.
-
-```bash
-hookshot -r refs/heads/staging -p 3000 "echo 'HOOKS' && cd /home/eric/18f/18f.gsa.gov && git pull && jekyll build > build.out"
-```
-
 
 From `/deploy`, run the hook with the appropriate port and command. It can be helpful to have `forever` and your command both log to the same file.
 
@@ -64,47 +77,6 @@ forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.g
 ```
 
 On our web server, 18F runs two separate hooks.
-
-#### Staging hook
-
-Starting (from the project root):
-
-```bash
-forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-Restarting (anywhere):
-
-```bash
-forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-Stopping (anywhere):
-
-```bash
-forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-#### Production hook
-
-Starting (from the project root):
-
-```bash
-forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-Restarting (anywhere):
-
-```bash
-forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-Stopping (anywhere):
-
-```bash
-forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
 
 You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
 
