@@ -1,6 +1,6 @@
-## 18f.gsa.gov
+## 18F's Homepage
 
-**[Building the 21st century digital government.](https://18f.gsa.gov/)**
+This repository contains 18F's website, https://18f.gsa.gov.
 
 * The `staging` branch is **automatically deployed** to our [staging site](http://staging.18f.us).
 * The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
