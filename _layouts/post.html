@@ -1,40 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	{% include head.html %}
-</head>
-<body class="blog" itemscope itemtype="http://schema.org/WebPage">
+---
+layout: bare
+---
 
-<div class="container section">
+<section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div class="row">
-    <div class="col-md-2">
-      <a href="/" style="text-decoration:none;">
-        <i class="icon-18f-logo" style="font-size:7em; color:#18f;"></i>
-      </a>
-    </div>
+<h1>{{page.title}}</h1>
+{{ page.content }}
 
-    <div class="col-md-10">
-		<h1>{{page.title}}</h1>
-		{{ page.content }}
-	</div><!-- col-md-10 -->
-</div><!-- row -->
-<div class="row">
-    <style>
-    .lead {line-height:2em;}
-    .lead i {font-size:175%; vertical-align: middle; color:#18f;}
-    </style>
+</section>
 
-    <div class="col-md-10 col-md-push-2">
-      <h3>Follow us here:</h3>
-      <p class="lead">
-      <i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a><br/>
-      <i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a><br/>
-      </p>
-    </div>
-  </div>
-  </div><!-- container-->
-</body>
 
-{% include footer.html %}
-</html>
+<aside class="blog-follow-us">
+  <h1>Follow us here:</h1>
+    <ul>
+      <li><i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
+      <li><i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
+    </ul>
+</aside>
