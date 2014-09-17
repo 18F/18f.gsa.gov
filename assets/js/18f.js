@@ -1,8 +1,4 @@
 
-$(document).ready(function () {
-
-});
-
 // IE Form Placeholders
 $(function() {
   if(!$.support.placeholder) {
@@ -31,8 +27,8 @@ $(function() {
 if (window._ie) {
   console.log("Oh hi there! By all means, poke around.");
   console.log("");
-  console.log("If you find a bug or want to talk, we're at 18f@gsa.gov and track issues on https://github.com/18f/18f.gsa.gov/issues");
-  console.log("And check us out on GitHub generally! We're an open source team. https://github.com/18f");
+  console.log("If you find a bug or want to talk, we're at 18f@gsa.gov and track issues on https://github.com/18F/18f.gsa.gov/issues");
+  console.log("And check us out on GitHub generally! We're an open source team. https://github.com/18F");
 }
 
 // otherwise, let's get fancy
