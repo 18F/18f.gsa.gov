@@ -88,10 +88,18 @@
 	padding-bottom: 40px;
 }
 
-// Utility
+// Utility and Site-Wide
 //********************************************************
 .container {
 	@include outer-container;
+}
+.lead {
+	line-height: 2em;
+	i {
+		font-size: 175%;
+		vertical-align: middle;
+		color: $blue;
+	}
 }
 
 // Splash
@@ -337,8 +345,6 @@
 	}
 }
 
-
-
 // Team
 //********************************************************
 .team {
@@ -434,6 +440,28 @@
 	@include button($green);
 	width: 100%;
 }
+
+// Bare Template
+//********************************************************
+.bare {
+	@extend %section-padding;
+}
+.bare-logo {
+	@include span-columns(2);
+	a {
+		text-decoration: none;
+		i {
+			font-size: 6em;
+			color: $blue;
+		}
+	}
+	margin-top: -6px;
+}
+.bare-content {
+	@include span-columns(9);
+	@include omega();
+}
+
 
 // Footer
 //********************************************************
