@@ -130,7 +130,7 @@
 }
 .splash {
 	@include span-columns(12);
-	height: 740px; 	// to force content below the absolutely-positioned slideshow
+	height: 705px; 	// to force content below the absolutely-positioned slideshow
 					// may need to replace with JS
 					// at the very least, will need to adjust with media queries
 	.slideshow {
@@ -201,12 +201,11 @@
 //********************************************************
 .mantra {
 	@include span-columns(12);
+	@extend %section-padding; //standard padding for all sections
 	background-image: url(/assets/images/lightbulb.png);
 	background-size: 10%;
 	background-position: 90% 50%;
 	background-repeat: no-repeat;
-	padding-top: 20px;
-	padding-bottom: 60px;
 	@include media(max-width 992px) {
 		background:none;
 	}
@@ -260,7 +259,8 @@
 // News
 //********************************************************
 .blog-entry {
-	@extend %section-padding;
+	@extend %section-padding; //standard padding for all sections
+	padding-top: 25px; //compensates for padding in top row of news section
 	h1 {
 		font-size: 22px;
 	  	font-weight: 700;
@@ -339,19 +339,24 @@
 
 
 
-// Bio
+// Team
 //********************************************************
+.team {
+	@extend %section-padding; //standard padding for all sections
+	padding-top: 20px; //compensates for padding in top row of team section
+}
 .bio { 
 	@include span-columns(3 of 12);
 	margin: 1.0em 0 1.0em 1.5%; 
 	position: relative; 
 	strong {
-		float: left; clear: both;
+		float: left; 
+		clear: both;
 	}
 	h1 {
 		clear: both; 
 		margin: 8px 0 2px 0;
-		color: #c21;
+		color: $red;
 		font-size: 1.2em;
 	}
 	a i, .no-decoration {
