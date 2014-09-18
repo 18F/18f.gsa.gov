@@ -6,11 +6,12 @@ module Jekyll
       @base = base
       @dir = dir
       @name = 'index.html'
+      @tag_title_prefix = site.config['tag_title_prefix']
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
       self.data['tag'] = tag
-      self.data['title'] = "Posts Tagged &ldquo;"+tag+"&rdquo;"
+      self.data['title'] = @tag_title_prefix+" "+tag
     end
   end
 
@@ -19,7 +20,7 @@ module Jekyll
     
     def generate(site)
       if site.layouts.key? 'tag_index'
-        dir = site.tag_dir
+        dir = site.config['tag_dir']
         site.tags.keys.each do |tag|
           write_tag_index(site, File.join(dir, tag), tag)
         end
