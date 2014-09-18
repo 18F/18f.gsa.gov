@@ -88,22 +88,6 @@
 	padding-bottom: 40px;
 }
 
-// Utility and Site-Wide
-//********************************************************
-.container {
-	@include outer-container;
-}
-.lead {
-	font-size: 1.4em;
-	line-height: 1.6em;
-	padding-top: 1em;
-	// i {
-	// 	font-size: 175%;
-	// 	vertical-align: middle;
-	// 	color: $blue;
-	// }
-}
-
 // Breakpoint variables
 //********************************************************
  //////laptop or non-huge desktop-ish
@@ -120,6 +104,26 @@ $tiny: new-breakpoint(max-width 590px);
 	@include media($small) {
     	padding-left: 1%;
     	padding-right: 1%;
+	}
+}
+.bare {
+	@include media($tiny) {
+    	padding-left: 1%;
+    	padding-right: 1%;
+	}
+}
+
+// Utility and Site-Wide
+//********************************************************
+.container {
+	@include outer-container;
+}
+.lead {
+	font-size: 1.4em;
+	line-height: 1.6em;
+	padding-top: 1em;
+	@include media($smallest) {
+		font-size: 1.2em;
 	}
 }
 
@@ -519,17 +523,23 @@ $tiny: new-breakpoint(max-width 590px);
 		font-size: 1.85em;
 		padding-top: 40px;
 		padding-bottom: 20px;
+		@include media($smallest) {
+			font-size: 1.65em;
+			padding-top: 10px;
+		}
 	}
 	h3 {
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
 		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1.2em;
+		}
 	}
 	p {
 		margin-bottom: 1.1em;
 	}
-
 }
 .bare-logo {
 	@include span-columns(2);
@@ -539,12 +549,26 @@ $tiny: new-breakpoint(max-width 590px);
 			font-size: 6em;
 			color: $blue;
 		}
+		@include media($smallest) {
+			i {
+				font-size: 5em;
+			}
+		}
+		@include media($tiny) {
+			@include span-columns(12);
+		}
 	}
 	margin-top: -6px;
 }
 .bare-content {
 	@include span-columns(9);
 	@include omega();
+	@include media($smallest) {
+		@include span-columns(10);
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+	}
 }
 
 // Dashboard
