@@ -12,3 +12,4 @@ sass:
 
 permalink: pretty
 tag_dir: tags
+tag_title_prefix: "#"
