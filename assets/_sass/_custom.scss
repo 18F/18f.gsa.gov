@@ -266,7 +266,7 @@
 }
 
 
-// News
+// News and blog pages
 //********************************************************
 .blog-entry {
 	@extend %section-padding; //standard padding for all sections
@@ -305,13 +305,22 @@
 		}
 	}
 }
+.tag-index { 
+	.blog-title h1 {
+		padding-bottom: 8px;
+	}
+	.blog-meta p {
+		margin-bottom: 0.5em;
+		line-height: 1.2em;
+	}
+}
 .blog-snippet {
 	@include span-columns(9);
 	@include omega();
 	max-height: 8em;
 	overflow: hidden;
 }
-.blog-all {
+.blog-all, .blog-continue {
 	@include span-columns(12);
 	text-align: center;
 	margin-top: 1.7em;
@@ -320,7 +329,27 @@
 		font-weight: 700;
 	}
 }
+.blog-continue {
+	text-align: right;
+	margin-top: 0px;
+}
 
+.blog-posting {
+	h1 + p {
+		padding-top: 10px;
+	}
+}
+.blog-follow-us {
+	@include span-columns(12);
+	padding-top: 15px;
+	h1 {
+		font-size: 1.3em;
+	}
+	ul {
+		font-size: 1.1em;
+		padding-top: 4px;
+	}
+}
 
 
 #blog-loading h4 {
@@ -528,25 +557,6 @@
 	margin-top: 10px;
 	font-size: .8em;
 	display: inline-block;
-}
-
-// Full Blog Postings and Archives
-//********************************************************
-.blog-posting {
-	h1 + p {
-		padding-top: 10px;
-	}
-}
-.blog-follow-us {
-	@include span-columns(12);
-	padding-top: 15px;
-	h1 {
-		font-size: 1.3em;
-	}
-	ul {
-		font-size: 1.1em;
-		padding-top: 4px;
-	}
 }
 
 // Footer
