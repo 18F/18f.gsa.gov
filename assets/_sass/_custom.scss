@@ -351,31 +351,6 @@
 	}
 }
 
-
-#blog-loading h4 {
-	text-align: center;
-	padding: 20px;
-	color: #606060;
-	.error {
-		text-align: center;
-		color: #c21;
-		display: none;
-	}
-}
-.blog-md {
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 1.5em;
-	padding-bottom: 10px;
-	a {
-		text-decoration: none;
-		font-weight: 700;
-		&:hover, &:focus {
-			text-decoration: underline;
-	  	}
-	}
-}
-
 // Team
 //********************************************************
 .team {
