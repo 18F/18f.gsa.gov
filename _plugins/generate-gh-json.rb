@@ -8,22 +8,27 @@ module Jekyll
       @projects = site.data['projects']
       @gh_url = 'https://api.github.com/repos/' + @gh_org
       @gh_data = {}
+      binding.pry
       i = 0
       for project in @projects
         if rate() >= 1
           name = project['name']
           data = self.fetch(name.to_str)
-          @gh_data['issues'] = data['open_issues']
-          @gh_data['stars'] = data['stargazers_count']
-          @gh_data['forks'] = data['forks_count']
+          @gh_data[name] = {}
+          @gh_data[name]['issues'] = data['open_issues']
+          @gh_data[name]['stars'] = data['stargazers_count']
+          @gh_data[name]['forks'] = data['forks_count']
           i += 1
         else
-          @gh_data['issues'] = site.data['projects'][i]['github-data']['issues']
-          @gh_data['stars'] = site.data['projects'][i]['github-data']['stars']
-          @gh_data['forks'] = site.data['projects'][i]['github-data']['forks']
-          i += 1
+          timediff =  Time.now - Time.at(site.data['test']['generated_time'])
+          diff_min = 60 - (timediff / 60)
+          binding.pry
+          abort('You maxed out the GitHub API rate limit! How could you!? try again in ' + diff_min.to_s + ' minutes.')
         end
-        site.data['projects'][i]['github-data'] = @gh_data
+        @gh_data['generated_time'] = Time.now
+        binding.pry
+        File.open('_data/github.yml', 'w') { |f| f.write @gh_data.to_yaml }
+        # site.data['projects'][i]['github-data'] = @gh_data
       end
     end
 
@@ -32,12 +37,10 @@ module Jekyll
       http = Curl::Easy.new(url)
       http.headers["User-Agent"] = "18f-dash"
       http.perform
-      binding.pry
       data = JSON.parse(http.body_str)
     end
 
     def rate()
-      binding.pry
       url = @gh_url + '/rate_limit'
       http = Curl::Easy.new(url)
       http.headers["User-Agent"] = "18f-dash"
