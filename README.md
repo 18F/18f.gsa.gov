@@ -27,59 +27,11 @@ jekyll serve
 
 The site will be visible at `http://localhost:4000`.
 
-### Automatic deployment
+## Deployment
 
-You don't need to worry about this for normal development. But on the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
+You don't need to worry about deployment stuff for normal development -- any pushes to `staging` and `production` branches will auto-deploy.
 
-This project includes [fabric tasks](http://www.fabfile.org/) for easy remote stop/start/restart of the hook processes on the 18F website.
-
-You will need:
-
-* authorized access to the 18F site server
-* an `18f-site` entry in your `$HOME/.ssh/config` with the necessary credentials
-* to `pip install fabric`, and have your active `python` when running it be 2.X
-
-With that, you can start, stop, and restart the staging and production hooks like so:
-
-```
-fab stop
-fab start
-fab restart
-```
-
-Provide `--set env=production` to any of those commands to apply it to the production hook.
-
-#### Setting it up yourself
-
-Install the Node dependencies with:
-
-```bash
-npm install hookshot
-npm install minimist
-npm install -g forever
-```
-
-18F's web server uses the `hookshot` command to listen for hooks on either of two ports.
-
-From `/deploy`, run the hook with the appropriate port and command. It can be helpful to have `forever` and your command both log to the same file.
-
-In development, you might use:
-
-```bash
-forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-You can stop and restart your hooks by supplying the same arguments you gave.
-
-```bash
-forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
-forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
-```
-
-On our web server, 18F runs two separate hooks.
-
-You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
-
+But to dig into our deployment setup and code, visit [`deploy/`](deploy) for more details.
 
 ### Public domain
 
