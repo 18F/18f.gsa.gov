@@ -13,18 +13,24 @@ permalink: /dashboard/
       <div><h1>Partners</h1></div>
       <div><h1>Description</h1></div>
     </header>
-    {% for project in site.data.projects.projects %}
+
+    {% for project in site.data.projects %}
+      {% if project.status != 'Hold' %}
+        <pre>{{project}}</pre>
+
       <article class="dashboard-projects-content">
         <div>
-          <h1>{{project[0]}}</h1>
-          <p class="status">{{project[5]}}</p>
+          <h1>{{project.project}}</h1>
+          <p class="status">{{project.status}}</p>
+          <p class="issues">Open issues: {{project.issues}}<p>
         </div>
-        <div><p>{{project[4]}}</p></div>
+        <div><p>{{project.client}}</p></div>
         <div>
-          <p>{{project[3]}}</p>
-          <p><i class="icon-github2"></i> <a href="{{project[2]}}">{{project[2]}}</a></p>
+          <p>{{project.description}}</p>
+          <p><i class="icon-github2"></i> <a href="{{project[2]}}">{{project.github}}</a></p>
         </div>
       </article>
+      {% endif %}
     {% endfor %}
   </section>
 </section>

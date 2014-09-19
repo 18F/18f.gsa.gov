@@ -1,0 +1,90 @@
+- project: MyRA
+  name: myra
+  github: https://github.com/18F/myra.git
+  description: Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).
+  client: U.S. Department of Treasury
+  status: Development
+
+- project: FOIA
+  name: foia
+  github: https://github.com/18F/foia.git
+  description: Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).
+  client: U.S. Department of Justice
+  status: Development
+
+- project: FBOpen
+  name: fbopen 
+  github: https://github.com/18F/fbpoen.git
+  description: 
+  client: 
+  status: Hold
+
+- project: FOIA Hub
+  name: foia-hub
+  github: https://github.com/18F/foia-hub.git
+  description:
+  client: U.S. Department of Justice
+  status: Development
+
+- project: Midas
+  name: midas 
+  github: https://github.com/18F/midas.git
+  description: 
+  client: Department of State
+  status: Alpha
+
+- project: openFEC
+  name: openFEC 
+  github: https://github.com/18F/openFEC.git
+  description:
+  client: Federal Elections Commission
+  status: Development
+
+- project: API All The X
+  name: API-All-the-X
+  github: https://github.com/18F/API-All-the-X.git
+  description:
+  client:
+  status: Development
+
+- project: Answers"
+  name: answers
+  github: https://github.com/18F/answers.git
+  description:
+  client: U.S. Department of Treasury
+  status: Development
+
+- project: My USA
+  name: myusa
+  github: https://github.com/18F/myusa.git
+  description:
+  client: U.S. Department of Treasury
+  status: Development
+
+- project: CAP (Communicart)
+  name: C2
+  github: https://github.com/18F/C2.git
+  description:
+  client: General Services Administration
+  status: Alpha
+
+- project: Agile Assisted Acquisitions
+  name: aaa
+  github: https://github.com/18F/aaa.git
+  description:
+  client: U.S. Department of Treasury
+  status: Development
+
+- project: Dashboard
+  name: dashboard 
+  github: https://github.com/18F/dashboard.git
+  description:
+  client:
+  status: Development
+
+- project: DOI Extractives
+  name: doi-extractives-data
+  github: https://github.com/18F/doi-extractives-data.git
+  description:
+  client: Department of the Interior
+  status: Alpha
