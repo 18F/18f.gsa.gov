@@ -71,19 +71,6 @@
 
 }
 
-// Extends
-//********************************************************
-%heading-text-style {
-	color: #fff;
-  	text-shadow: 1px 1px 6px #000;
-  	background-color: #03253e; /* For browsers that don't support opacity */
-  	background-color: rgba(0,0,0,.4);
-}
-%section-padding {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
 // Breakpoint variables
 //********************************************************
 //$biggest: new-breakpoint(min-width 1430px); //untested
@@ -92,8 +79,8 @@ $small: new-breakpoint(max-width 1130px);
 $smaller: new-breakpoint(max-width 995px);
 $smallest: new-breakpoint(max-width 785px);
 $tiny: new-breakpoint(max-width 590px);
-$tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
-//$tiniest: new-breakpoint(max-width ???px); //untested
+$tinier: new-breakpoint(max-width 480px); //only used in hero unit
+$tiniest: new-breakpoint(max-width 390px);
 
 // Media queries - site-wide
 //********************************************************
@@ -107,6 +94,24 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	@include media($tiny) {
     	padding-left: 1%;
     	padding-right: 1%;
+	}
+}
+
+
+// Extends
+//********************************************************
+%heading-text-style {
+	color: #fff;
+  	text-shadow: 1px 1px 6px #000;
+  	background-color: #03253e; /* For browsers that don't support opacity */
+  	background-color: rgba(0,0,0,.4);
+}
+%section-padding {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	@include media($tiniest) {
+			padding-top: 25px;
+			padding-bottom: 25px;
 	}
 }
 
@@ -133,11 +138,20 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
     height: 20px;
     font-size: 0.75em;
     color: $light-gray;
+    padding-top: 1.5px;
     p {
     	font-family: $base-font-family;
 	}
 	img {
-		padding-top: 3px;
+		height: 8px;
+	}
+	@include media($tinier) {
+    	font-size: 0.6em;
+   		height: 16px;
+    	padding-top: 0.5px;
+		img {
+			height: 6px;
+		}
 	}
 }
 .logo {
@@ -157,8 +171,12 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
   		height: 75px;
 		width: 75px;
   	}
+  	@include media($tiny) {
+		top: 73px;
+  	}
   	@include media($tinier) {
-		top: 56px;
+		top: 66px;
+		left: 0px;
   	}
 }
 .splash {
@@ -194,7 +212,7 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	  		font-size: 0.8em;
 	  	}
 	  	@include media($tiny) {
-	  		top: 20px;
+	  		top: 40px;
 	  		font-size: 0.6em;
 	  	}
 	  	h1 {
@@ -219,7 +237,9 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	  			padding: 20px 20px 20px 110px;
 	  		}
 	  		@include media ($tinier) {
-	  			display: none;
+		  		width: 270px;
+	  			font-size: 2em;
+	  			padding: 20px 0px 13px 90px;
 	  		}
 		  	@extend %heading-text-style;
 		}
@@ -236,7 +256,7 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 				margin-top: 102px;
 			}
 			@include media($tinier) {
-				margin-top: -20px;
+				margin-top: -40px;
 			}
 		}
   		i {
@@ -244,6 +264,9 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
   			padding: 17px 20px 15px 50px;
 	  		@include media($small) {
 	  			padding-left: 20px;
+	  		}
+	  		@include media($tinier) {
+	  			padding-left: 5px;
 	  		}
   		}
   		.icon-camera {
@@ -256,6 +279,9 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	  			font-size: 12px;
 	  			margin-right: 0px;
 	  			padding-right: 5px;
+	  		}
+	  		@include media($tinier) {
+	  			font-size: 9px;
 	  		}
   		}
   		a {
@@ -290,9 +316,12 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 		> strong {
 			color: $red;
 		}
+		@include media($tiniest) {
+			font-size: 01.8em;
+		}
 	}
 	p {
-		font-size: .9em;
+		font-size: 0.9em;
 		line-height: 1.8;
   		padding-top: 20px;
   		margin: 0;
@@ -300,6 +329,11 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
   		@include media($tiny) {
   			width: 100%;
   		}
+		@include media($tiniest) {
+			font-size: 0.8em;
+			line-height: 1.6;
+  			padding-top: 13px;
+		}
 	}
 }
 
@@ -314,15 +348,25 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
   	@include media($smallest) {
   		height: 80px;
   	}
+  	@include media($tiniest) {
+  		height: 60px;
+  		h1 {
+  			font-size: 1.6em;
+  		}
+  	}
 }
 .container-fluid {
   	position: absolute;
   	top: 0px;
   	height: 100px;
+  	padding: 30px 50px;
   	@include media($smallest) {
   		height: 80px;
   	}
-  	padding: 30px 50px;
+  	@include media($tiniest) {
+  		height: 60px;
+  		padding: 20px 20px;
+  	}
   	background-color: #03253e; /* For browsers that don't support opacity */
   	background-color: rgba(0,0,0,.4);
   	z-index: 20;
@@ -355,15 +399,26 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	@include media($smaller) {
 		p {
 			font-size: 0.8em;
-		+ p {
-			margin-bottom: 0.35em;
+			+ p {
+				margin-bottom: 0.35em;
+			}
 		}
+	}
+	@include media($tiniest) {
+		padding-top: 5px;
+		p {
+			line-height: 1.2em;
 		}
 	}
 }
 .blog-title {
 	@include span-columns(12);
 	padding: 15px 0 5px 0;
+	@include media($tiniest) {
+		padding-top: 13px;
+		padding-bottom: 3px;
+		line-height: 1em;
+	}
 }
 .blog-meta {
 	@include span-columns(3);
@@ -374,6 +429,12 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 			text-decoration: underline;
 			color: $base-link-color;
 		}
+	}
+	@include media($tiniest) {
+		@include span-columns(12);
+		padding-bottom: 6px;
+		font-weight: 700;
+		line-height: 0.9em;
 	}
 }
 .tag-index { 
@@ -390,6 +451,10 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	@include omega();
 	max-height: 8em;
 	overflow: hidden;
+	@include media($tiniest) {
+		@include span-columns(12);
+		max-height: 12em;
+	}
 }
 .blog-all, .blog-continue {
 	@include span-columns(12);
@@ -427,9 +492,14 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 .team {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 20px; //compensates for padding in top row of team section
+	@include media($tiniest) {
+		padding-top: 15px;
+	}
 }
 .bio { 
 	@include span-columns(3 of 12);
+	margin: 1.0em 0 1.0em 1.5%; 
+	position: relative; 
 	@include media($smaller) {
 		@include span-columns(4 of 12);
 		@include omega();
@@ -444,8 +514,9 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 		@include omega();
 		padding-left: 1.5%;
 	}
-	margin: 1.0em 0 1.0em 1.5%; 
-	position: relative; 
+	@include media($tiniest) {
+		margin: 0.5em 0 0.5em 1.5%; 
+	}
 	strong {
 		float: left; 
 		clear: both;
@@ -460,6 +531,9 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 		}
 		@include media($tiny) {
 			font-size: 0.75em;
+		}
+		@include media($tiniest) {
+			font-size: 0.6em;
 		}
 	}
 	a i, .no-decoration {
@@ -489,6 +563,10 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
     			width: 100px;
     			margin: 0.3em auto;
         	}
+        	@include media($tiniest) {
+        		height: 85px;
+    			width: 85px;
+        	}
     	}
 		&:hover img, &:focus img  {
 	        -webkit-filter: none;
@@ -503,18 +581,6 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
     -moz-border-radius: 50%;
     border-radius: 50%;
     overflow: hidden;
-}
-
-
-@media (max-width: 768px) {
-  .bio .no-decoration {
-    font-size: 2.0em;
-  }
-}
-@media (max-width: 360px) {
-  .bio .no-decoration {
-    font-size: 1.5em;
-  }
 }
 
 // Contact
@@ -569,6 +635,17 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 	@include media($tinier) {
 		@include span-columns(12);
 		@include shift(0);
+	}
+	@include media($tiniest) {
+		p {
+			font-size: 1.2em;
+			line-height: 1.2em;
+			margin-bottom: 7px;
+			&:last-of-type {
+				font-size: ($small-text) * 0.8;
+				line-height: 1.1em;
+			}
+		}
 	}
 }
 .button {
@@ -702,6 +779,10 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 			font-size: 1em;
 			padding-bottom: 0.1em;
 		}
+		@include media($tiniest) {
+			font-size: 1em;
+			padding-bottom: 0.2em;
+		}
 	}
 	.container > div {
 		padding-top: 10px;
@@ -713,6 +794,13 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
 		@include media($tiny) {
 			@include span-columns(10);
 			@include shift(2);
+			&:nth-of-type(3) {
+				@include span-columns(10);
+			}
+		}
+		@include media($tiniest) {
+			@include span-columns(10);
+			@include shift(1);
 			&:nth-of-type(3) {
 				@include span-columns(10);
 			}
@@ -731,6 +819,10 @@ $tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
   		}
 		@include media($smallest) {
 			font-size: 0.8em;
+		}
+		@include media($tiniest) {
+			text-decoration: underline;
+			font-size: 0.75em;
 		}
 	}
 	.tagline {
