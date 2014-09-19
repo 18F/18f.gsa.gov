@@ -5,8 +5,7 @@
 // Mixins
 //********************************************************
 
-// Slideshow
-// thanks to http://www.fabriziocalderan.it/css3slideshow/
+// Slideshow, thanks to http://www.fabriziocalderan.it/css3slideshow/
 @mixin slideshow($settings) { 
     $images     : map-get($settings, images); 
     $duration   : map-get($settings, duration);
@@ -24,7 +23,7 @@
 
     li {
         position : absolute;
-        z-index  : $images; 
+        z-index  : $images;
         top      : 0;
         left     : 0;
         @each $vendor in $vendorsList {
@@ -42,14 +41,6 @@
 
         }
     }
-
-    // &:hover {
-    //     li {
-    //         @each $vendor in $vendorsList {
-    //             #{$vendor}animation-play-state: paused;
-    //         }  
-    //     }
-    // }
 
     @at-root {
 
@@ -90,13 +81,14 @@
 
 // Breakpoint variables
 //********************************************************
- //////laptop or non-huge desktop-ish
-$biggest: new-breakpoint(min-width 1430px); //untested
- //////laptop or non-huge desktop-ish - BASE SIZE
+//$biggest: new-breakpoint(min-width 1430px); //untested
+ //////BASE SIZE HERE//////
 $small: new-breakpoint(max-width 1130px);
 $smaller: new-breakpoint(max-width 995px);
 $smallest: new-breakpoint(max-width 785px);
 $tiny: new-breakpoint(max-width 590px);
+$tinier: new-breakpoint(max-width 480px);
+//$tiniest: new-breakpoint(max-width ???px); //untested
 
 // Media queries - site-wide
 //********************************************************
@@ -150,24 +142,23 @@ $tiny: new-breakpoint(max-width 590px);
 	top: 50px;
 	left: 50px;
 	z-index: 20;
-	// @include media(max-width 992px) {
-	// 	height: 100px;
-	// 	width: 100px;
-	// 	top: 20px;
-	// 	left: 20px;
-	// }
-	// @include media(max-width 360px) {
-	// 	height: 75px;
-	// 	width: 75px;
-	// }
+  	@include media($smaller) {
+  		height: 100px;
+		width: 100px;
+		top: 40px;
+		left: 20px;
+  	}
+  	@include media($smallest) {
+  		height: 75px;
+		width: 75px;
+  	}
+  	@include media($tinier) {
+		top: 56px;
+  	}
 }
 .splash {
 	@include span-columns(12);
-	height: 705px; 	// to force content below the absolutely-positioned slideshow
-					// may need to replace with JS
-					// at the very least, will need to adjust with media queries
 	.slideshow {
-	@include span-columns(12 of 12);
     @include slideshow((
         images     : 3,                 // Amount of images in the slideshow
         duration   : 7.5s,              // Time of visibility of each image 
@@ -179,55 +170,96 @@ $tiny: new-breakpoint(max-width 590px);
 	    	margin: 0; padding: 0;
 	    }
 	}
-	h1 {
-		position: absolute;
-	  	top: 360px;
-	  	max-width: 860px;
-	  	z-index: 20;	
-	  	text-align: left;
-  		font-size: 3.6em;
-  		padding: 30px 50px;
-	  	@extend %heading-text-style;
-	}
 	figcaption {
 		position: absolute;
-	  	top: 526px;
-	  	max-width: 860px;
+	  	top: 350px;
 	  	z-index: 20;
 		color:#fff;
 	  	font-size: 1em;
 	  	text-shadow: 1px 1px 2px #000;
-	  	padding: 17px 20px 15px 50px;
-	  	background-color: rgba(0,0,0,.4);
+	  	@include media($small) {
+	  		top: 275px;
+	  	}
+	  	@include media($smaller) { 
+	  		top: 200px;
+	  		font-size: 0.9em;
+	  	}
+	  	@include media($smallest) {
+	  		top: 145px;
+	  		font-size: 0.8em;
+	  	}
+	  	@include media($tiny) {
+	  		top: 20px;
+	  		font-size: 0.6em;
+	  	}
+	  	h1 {
+			position: absolute;
+		  	width: 860px;
+		  	text-align: left;
+	  		font-size: 3.6em;
+	  		padding: 30px 50px;
+	  		@include media($smaller) {
+		  		width: 610px;
+	  			font-size: 3.2em;
+	  			padding: 30px 20px;
+	  		}
+	  		@include media($smallest) {
+		  		width: 530px;
+	  			font-size: 3em;
+	  			padding: 20px 20px;
+	  		}
+	  		@include media($tiny) {
+		  		width: 500px;
+	  			font-size: 3em;
+	  			padding: 20px 20px 20px 110px;
+	  		}
+	  		@include media ($tinier) {
+	  			display: none;
+	  		}
+		  	@extend %heading-text-style;
+		}
+		> div {
+			background-color: rgba(0,0,0,.4);
+			margin-top: 186px;
+			@include media($smaller) {
+				margin-top: 160px;
+			}
+			@include media($smallest) {
+				margin-top: 124px;
+			}
+			@include media($tiny) {
+				margin-top: 102px;
+			}
+			@include media($tinier) {
+				margin-top: -20px;
+			}
+		}
   		i {
   			vertical-align: middle;
+  			padding: 17px 20px 15px 20px;
   		}
   		.icon-camera {
 	  		font-size: 30px;
-	  		margin-right:10px;
-	  		@include media(max-width 550px) {
+	  		margin-right: 10px;
+	  		@include media($smaller) {
 	  			font-size: 20px;
+	  		}
+	  		@include media($tiny) {
+	  			font-size: 12px;
+	  			margin-right: 0px;
+	  			padding-right: 5px;
 	  		}
   		}
   		a {
-	  		color:#fff;
-	  		text-decoration:none;
+	  		padding: 17px 20px 20px 0;
+	  		color: #fff;
+	  		text-decoration: none;
 				&:hover, &:focus {
-				color:#c21;
-		  		text-decoration:none;
+				color: $red;
+		  		text-decoration: none;
 			}
 		}
   	}
-  	// @include media(max-width 992px) {
-   //  	padding: 17px 20px;
-  	// }
-  	// @include media(max-width 550px) {
-  	// 	font-size: .8em;
-   //  	line-height: 1em;
-   //  	display: block;
-   //  	padding: 10px 20px;
-   //  	margin-top: -10px;
-  	// }
 }
 
 // Mantra
@@ -250,9 +282,6 @@ $tiny: new-breakpoint(max-width 590px);
 		> strong {
 			color: $red;
 		}
-		// @include media(max-width 360px) {
-		// 	font-size: 1.7em;
-		// }
 	}
 	p {
 		font-size: .9em;
@@ -277,9 +306,6 @@ $tiny: new-breakpoint(max-width 590px);
   	@include media($smallest) {
   		height: 80px;
   	}
-  // 	@include media(max-width 550px) {
-  // 	height: 60px
-  // }
 }
 .container-fluid {
   	position: absolute;
@@ -292,12 +318,6 @@ $tiny: new-breakpoint(max-width 590px);
   	background-color: #03253e; /* For browsers that don't support opacity */
   	background-color: rgba(0,0,0,.4);
   	z-index: 20;
-  	// @include media(max-width 550px) {
-  	// 	padding: 0 20px;
-  	// 	h3 {
-  	// 		font-size:2em;
-  	// 	}
-  	// }
 }
 
 
@@ -461,10 +481,6 @@ $tiny: new-breakpoint(max-width 590px);
     			width: 100px;
     			margin: 0.3em auto;
         	}
-       //  	@include media(max-width 360px) {
-       //  		width: 75px;
-   				// height: 75px;
-       //  	}
     	}
 		&:hover img, &:focus img  {
 	        -webkit-filter: none;
