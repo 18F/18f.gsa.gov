@@ -37,15 +37,4 @@
 
 <!-- Pushes content div below slideshow -->
 <script>
-//Initial load of page
-$(document).ready(sizeContent);
-
-//Every resize of window
-$(window).resize(sizeContent);
-
-//Dynamically assign height
-function sizeContent() {
-    var newHeight = $("#slide").height() - 10 + "px";
-    $("#hero").css("height", newHeight);
-}
 </script>
