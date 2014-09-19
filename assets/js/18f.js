@@ -36,3 +36,15 @@ var $buoop = {vs:{i:8,f:10,o:12,s:5}};
   e.setAttribute("src", "//browser-update.org/update.js");
   document.body.appendChild(e);
 }
+
+//Initial load of page
+window.onload=function() { sizeContent() };
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+//Dynamically assign height
+function sizeContent() {
+    var newHeight = $("#slide").height() - 10 + "px";
+    $("#hero").css("height", newHeight);
+}
