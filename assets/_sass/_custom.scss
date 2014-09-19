@@ -79,8 +79,8 @@ $small: new-breakpoint(max-width 1130px);
 $smaller: new-breakpoint(max-width 995px);
 $smallest: new-breakpoint(max-width 785px);
 $tiny: new-breakpoint(max-width 590px);
-$tinier: new-breakpoint(max-width 480px); //so far, only used in hero unit
-$tiniest: new-breakpoint(max-width 350px); //untested
+$tinier: new-breakpoint(max-width 480px); //only used in hero unit
+$tiniest: new-breakpoint(max-width 390px);
 
 // Media queries - site-wide
 //********************************************************
@@ -178,9 +178,6 @@ $tiniest: new-breakpoint(max-width 350px); //untested
 		top: 66px;
 		left: 0px;
   	}
-  	// @include media($tiniest) {
-  	// 	left: 0px;
-  	// }
 }
 .splash {
 	@include span-columns(12);
@@ -585,18 +582,6 @@ $tiniest: new-breakpoint(max-width 350px); //untested
     border-radius: 50%;
     overflow: hidden;
 }
-
-
-// @media (max-width: 768px) {
-//   .bio .no-decoration {
-//     font-size: 2.0em;
-//   }
-// }
-// @media (max-width: 360px) {
-//   .bio .no-decoration {
-//     font-size: 1.5em;
-//   }
-// }
 
 // Contact
 //********************************************************
