@@ -236,7 +236,10 @@ $tinier: new-breakpoint(max-width 480px);
 		}
   		i {
   			vertical-align: middle;
-  			padding: 17px 20px 15px 20px;
+  			padding: 17px 20px 15px 50px;
+	  		@include media($small) {
+	  			padding-left: 20px;
+	  		}
   		}
   		.icon-camera {
 	  		font-size: 30px;
