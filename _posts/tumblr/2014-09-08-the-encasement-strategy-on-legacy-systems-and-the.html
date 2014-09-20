@@ -6,9 +6,10 @@ tags:
 - API
 - how we work
 tumblr_url: http://18fblog.tumblr.com/post/96977653581/the-encasement-strategy-on-legacy-systems-and-the
-author:
-- Robert L. Read
-- illustrations by Michelle Hertzfeld
+authors:
+- robert
+- mhz
+image: /assets/images/blog/encasement/encasement1.png
 ---
 <p><em>By Robert L. Read, PhD with illustrations by Michelle Hertzfeld</em></p>
 
@@ -18,7 +19,7 @@ author:
 
 <p>Legacy systems make everyone that has to touch them queasy, from the software engineers to the managers. But most especially there comes a time when the system no longer serves the most important constituent of all, the customer. This not only contributes to inefficiency, but can sometimes have detrimental effects on the users of a system.</p>
 
-<p><img src="https://lh5.googleusercontent.com/CeNGRXezcW67Tu99k2r2Z1onrz1g3CubJHuoPH8cp53qlVJyBdIa0dHI1ovCeMITRJZz3XiVcMALF1CtXfKXqnr-q3-ss8-Hv2aRJ-y8R0QUowJKwI0ip8PmGEDZBkiZ" alt="legacy software can be toxic to customers and stakeholders"/></p>
+<p><img src="/assets/images/blog/encasement/encasement1.png" alt="legacy software can be toxic to customers and stakeholders"/></p>
 
 <p>Like Chernobyl, these systems are toxic; but unlike a power plant, what they once produced is not fungible with other sources. There is often no replacement for the legacy system.</p>
 
@@ -26,7 +27,7 @@ author:
 
 <p>An API is an <em>inter-face</em>, a face, a façade or a wall <em>between</em>. It allows the user blissful ignorance of what precisely is behind the wall. You need only worry about what comes and goes through the gate. What lies beyond—whether it’s magic, or a red-hot mass of legacy code—is no longer the user’s concern.The customers on the user side of the API are protected from the toxins, leaving the engineers to deal with implementation.</p>
 
-<p><img src="https://lh5.googleusercontent.com/UHlfI41pWjbNvUky_TE0HGWCQN-0goKjZym9_x60KyNkZDs9noJIH4akZhio-bDyuvtek15srpDPEo-2XZGlqvJ8wmykOpfv31ILFwuKoVt1HbaT8RYe622rA5iARlsF" alt=""/></p>
+<p><img src="/assets/images/blog/encasement/encasement2.png" alt=""/></p>
 
 <p>There is something magical about this basic act of defining an interface. To paraphrase <a href="https://bfi.org/about-fuller">Buckminster Fuller</a>, to <em>define</em> is <em>divine</em>. It creates something simple and understandable from nothing, something you can grab onto, something solid.</p>
 
@@ -34,7 +35,7 @@ author:
 
 <p>Sometimes, such an API can be constructed based on a clear engineering understanding of the internals of the legacy system. This is the best approach; however, it may be impractical if the knowledge and understanding of the system has been lost. In such a case, programmers are wont to resort to reverse engineering solutions, as I did <a href="https://github.com/18F/gsa-advantage-scrape">recently</a>. Any system which offers a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface">GUI</a> (graphical user interface) to users can be reverse engineered to construct a programmatic interface on top of that interface. We generally call this <a href="http://en.wikipedia.org/wiki/Web_scraping">scraping</a> the GUI, and it isn&#8217;t pretty. It leads to the absurd architectural diagram of a GUI on top of an API on top of a GUI on top of a miasma. But it gets the job done, and that is what a pragmatic software engineer must care about: serving the customer.</p>
 
-<p><img src="https://lh4.googleusercontent.com/01RXwNcX4yFd_3jffLIUXkarLB5IjuH3XvApseProG1-GpbVOJ2haY8fEtQQyqAKdTvQVa0Sp6gsoShR7VCG82aTfjZvwSddZCALd76I1by8dvcWfLFX6NdYGqUzeXpu" alt="build an API and an interface to scrape information from a legacy system"/></p>
+<p><img src="/assets/images/blog/encasement/encasement3.png" alt="build an API and an interface to scrape information from a legacy system"/></p>
 
 <p>Once a valuable API is defined, there is a wall between decisions about how to effectively use the API that completely divorces them from decisions about what to do with the code that implements the API. Efforts to rewrite the legacy system may proceed mostly independent of the efforts to build functionality that uses the API. Or, efforts to rewrite it may not proceed at all—the Encasement Strategy.</p>
 
