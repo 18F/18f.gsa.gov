@@ -2,9 +2,9 @@
 
 Quick file overview:
 
-* [`18f-site.conf`](deploy/18f-site.conf) - Our nginx config for the production and staging site. Not synced to version control automatically, but we'll try to keep them in sync.
-* [`fabfile.py`](deploy/fabfile.py) - Fabric deployment script to start/stop/restart our webhook processes. Could be extended to deploy and sync our nginx config, and restart nginx.
-* [`hookshot.js`](deploy/hookshot.js) - Tiny webhook app, runs a command when a branch is updated. Uses [`hookshot`](https://github.com/coreh/hookshot) to do the heavy lifting. Daemonized on our server using [`forever`](https://github.com/nodejitsu/forever).
+* [`18f-site.conf`](18f-site.conf) - Our nginx config for the production and staging site. Not synced to version control automatically, but we'll try to keep them in sync.
+* [`fabfile.py`](fabfile.py) - Fabric deployment script to start/stop/restart our webhook processes. Could be extended to deploy and sync our nginx config, and restart nginx.
+* [`hookshot.js`](hookshot.js) - Tiny webhook app, runs a command when a branch is updated. Uses [`hookshot`](https://github.com/coreh/hookshot) to do the heavy lifting. Daemonized on our server using [`forever`](https://github.com/nodejitsu/forever).
 
 ### Automatic deployment
 
