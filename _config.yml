@@ -13,3 +13,10 @@ sass:
 permalink: pretty
 tag_dir: tags
 tag_title_prefix: "#"
+
+# use where a full URL is appropriate (e.g. OG tags)
+url: https://18f.gsa.gov
+
+# metadata
+title: 18F Digital Services Delivery
+description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
