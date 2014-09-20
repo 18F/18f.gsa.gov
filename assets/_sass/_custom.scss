@@ -6,14 +6,14 @@
 //********************************************************
 
 // Slideshow, thanks to http://www.fabriziocalderan.it/css3slideshow/
-@mixin slideshow($settings) { 
-    $images     : map-get($settings, images); 
+@mixin slideshow($settings) {
+    $images     : map-get($settings, images);
     $duration   : map-get($settings, duration);
     $transition : map-get($settings, transition);
     $easing     : map-get($settings, easing);
     $repeat     : map-get($settings, repeat);
-    
-    // total duration (in seconds) 
+
+    // total duration (in seconds)
     $totalDuration      : $images * $duration;
     $animationSettings  : CSS3slideshow #{$totalDuration} #{$easing} 0s #{$repeat};
     $vendorsList        : (-webkit-, -moz-, -o-, '');
@@ -33,12 +33,12 @@
 
         img {
         	width : 100%
-        }  
+        }
 
         @for $i from 2 through $images {
 
-            &:nth-child(#{$i}) { 
-                z-index: #{$images - $i + 1}; 
+            &:nth-child(#{$i}) {
+                z-index: #{$images - $i + 1};
                 @each $vendor in $vendorsList {
                     #{$vendor}animation-delay: #{$duration * ($i - 1)};
                 }
@@ -56,10 +56,10 @@
         @include setKeyframes(CSS3slideshow) {
           #{$startEffect}, 100% { opacity: 1; }
           #{$endEffect}, #{100% - $timeEffect} { opacity: 0; }
-        }        
+        }
 
-    } 
-  
+    }
+
 }
 
 @mixin setKeyframes($animationName) {
@@ -184,7 +184,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	.slideshow {
     @include slideshow((
         images     : 3,                 // Amount of images in the slideshow
-        duration   : 7.5s,              // Time of visibility of each image 
+        duration   : 7.5s,              // Time of visibility of each image
         transition : 3s,                // Transition time (with transition < duration)
         easing     : ease,              // Easing type
         repeat     : infinite           // 1,2,3, ... , infinite
@@ -203,7 +203,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	  	@include media($small) {
 	  		top: 275px;
 	  	}
-	  	@include media($smaller) { 
+	  	@include media($smaller) {
 	  		top: 200px;
 	  		font-size: 0.9em;
 	  	}
@@ -437,7 +437,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 0.9em;
 	}
 }
-.tag-index { 
+.tag-index {
 	.blog-title h1 {
 		padding-bottom: 8px;
 	}
@@ -487,6 +487,20 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+.blog-entry, .blog-posting {
+  .authors {
+    font-style: italic;
+    font-size: 120%;
+    img {
+      margin-bottom: -5px;
+      margin-left: 7px;
+      margin-right: 5px;
+      height: 25px;
+      display: none;
+    }
+  }
+}
+
 // Team
 //********************************************************
 .team {
@@ -496,10 +510,10 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-top: 15px;
 	}
 }
-.bio { 
+.bio {
 	@include span-columns(3 of 12);
-	margin: 1.0em 0 1.0em 1.5%; 
-	position: relative; 
+	margin: 1.0em 0 1.0em 1.5%;
+	position: relative;
 	@include media($smaller) {
 		@include span-columns(4 of 12);
 		@include omega();
@@ -515,14 +529,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 1.5%;
 	}
 	@include media($tiniest) {
-		margin: 0.5em 0 0.5em 1.5%; 
+		margin: 0.5em 0 0.5em 1.5%;
 	}
 	strong {
-		float: left; 
+		float: left;
 		clear: both;
 	}
 	h1 {
-		clear: both; 
+		clear: both;
 		margin: 8px 0 2px 0;
 		color: $red;
 		font-size: 1.2em;
@@ -539,8 +553,8 @@ $tiniest: new-breakpoint(max-width 390px);
 	a i, .no-decoration {
 		text-decoration: none !important; color: #000 !important;
 	}
-	a {	
-		text-decoration: none; 
+	a {
+		text-decoration: none;
 		img {
 			margin: 1.0em auto;
 			float: left;

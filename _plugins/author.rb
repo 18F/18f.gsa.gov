@@ -10,7 +10,10 @@ module Jekyll
       teammate = team.find {|t| t['name'] == @author}
 
       if teammate
-        "<span class=\"author #{teammate['name']}\">#{teammate['full_name']}</span>"
+        "<span class=\"author #{teammate['name']}\">" +
+          "<img src=\"/assets/images/team/#{teammate['name']}.jpg\" />" +
+          "#{teammate['full_name']}" +
+        "</span>"
       else
         @author
       end
