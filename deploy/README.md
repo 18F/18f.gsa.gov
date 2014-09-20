@@ -10,7 +10,9 @@ Quick file overview:
 
 On the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
 
-This project includes [fabric tasks](http://www.fabfile.org/) for easy remote stop/start/restart of the hook processes on the 18F website.
+Ideally, these webhooks just run forever and never need to be maintained!
+
+But just in case, this project includes [fabric tasks](http://www.fabfile.org/) for easy remote stop/start/restart of the hook processes on the 18F website.
 
 You will need:
 
