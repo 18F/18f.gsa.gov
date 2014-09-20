@@ -15,7 +15,7 @@ module Jekyll
           "#{teammate['full_name']}" +
         "</span>"
       else
-        @author
+        raise Exception.new("No teammate found by that name: #{@author}")
       end
     end
   end
