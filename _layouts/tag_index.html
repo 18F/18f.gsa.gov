@@ -21,7 +21,7 @@ layout: bare
                 Posted on
                 <time class="blog-date" datetime="{{post.date}}" itemprop="datePublished">
                   {{ post.date | date_to_string }}
-                </time>.
+                </time>
               </p>
               <p>
                 Tagged /
@@ -34,8 +34,8 @@ layout: bare
               </p>
             </div>
 
-            <div class="blog-snippet">
-              <p itemprop="articleBody">{{ post.excerpt }}</p>
+            <div class="blog-snippet" itemprop="articleBody">
+              {{ post.excerpt }}
             </div>
 
             <div class="blog-continue">
