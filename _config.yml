@@ -23,3 +23,7 @@ url: https://18f.gsa.gov
 # metadata
 title: 18F Digital Services Delivery
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+
+# blog archive at /news
+paginate: 5
+paginate_path: "news/page/:num"
