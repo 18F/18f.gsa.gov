@@ -32,6 +32,8 @@ Provide `--set env=production` to any of those commands to apply it to the produ
 
 #### Setting it up yourself
 
+These instructions can be applied locally (for development) or on the server (for deployment).
+
 Install the Node dependencies with:
 
 ```bash
