@@ -23,7 +23,6 @@ module Jekyll
         else
           timediff =  Time.now - Time.at(site.data['github']['generated_time'])
           diff_min = 60 - (timediff / 60)
-          binding.pry
           puts('You maxed out the GitHub API rate limit! How could you!? try again in ' + diff_min.to_s + ' minutes.')
         end
         
