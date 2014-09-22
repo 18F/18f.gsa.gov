@@ -1,75 +1,6 @@
 //********************************************************
-// 18F SITE CUSTOM SASS
+// 18F.gsa.gov CUSTOM SASS
 //********************************************************
-
-// Mixins
-//********************************************************
-
-// Slideshow, thanks to http://www.fabriziocalderan.it/css3slideshow/
-@mixin slideshow($settings) {
-    $images     : map-get($settings, images);
-    $duration   : map-get($settings, duration);
-    $transition : map-get($settings, transition);
-    $easing     : map-get($settings, easing);
-    $repeat     : map-get($settings, repeat);
-
-    // total duration (in seconds)
-    $totalDuration      : $images * $duration;
-    $animationSettings  : CSS3slideshow #{$totalDuration} #{$easing} 0s #{$repeat};
-    $vendorsList        : (-webkit-, -moz-, -o-, '');
-
-    position   : relative;
-    list-style : none;
-
-    li {
-        position : absolute;
-        z-index  : $images;
-        top      : 0;
-        left     : 0;
-        width    : 100%;
-        @each $vendor in $vendorsList {
-            #{$vendor}animation: #{$animationSettings};
-        }
-
-        img {
-        	width : 100%
-        }
-
-        @for $i from 2 through $images {
-
-            &:nth-child(#{$i}) {
-                z-index: #{$images - $i + 1};
-                @each $vendor in $vendorsList {
-                    #{$vendor}animation-delay: #{$duration * ($i - 1)};
-                }
-            }
-
-        }
-    }
-
-    @at-root {
-
-        $endEffect: 100% / $images;
-        $timeEffect: round(($transition * 100% / $totalDuration) * 100)/100;
-        $startEffect: $endEffect - $timeEffect;
-
-        @include setKeyframes(CSS3slideshow) {
-          #{$startEffect}, 100% { opacity: 1; }
-          #{$endEffect}, #{100% - $timeEffect} { opacity: 0; }
-        }
-
-    }
-
-}
-
-@mixin setKeyframes($animationName) {
-
-    @-webkit-keyframes #{$animationName} { @content; }
-    @-moz-keyframes #{$animationName}    { @content; }
-    @-o-keyframes #{$animationName}      { @content; }
-    @keyframes #{$animationName}         { @content; }
-
-}
 
 // Breakpoint variables
 //********************************************************
@@ -82,21 +13,20 @@ $tiny: new-breakpoint(max-width 590px);
 $tinier: new-breakpoint(max-width 480px); //only used in hero unit
 $tiniest: new-breakpoint(max-width 390px);
 
-// Media queries - site-wide
+// Site-wide media queries
 //********************************************************
 .mantra, .blog-entry, .team, .footer, .contact-box {
 	@include media($small) {
-    	padding-left: 1%;
-    	padding-right: 1%;
+    	padding-left: 2%;
+    	padding-right: 2%;
 	}
 }
 .bare {
 	@include media($tiny) {
-    	padding-left: 1%;
-    	padding-right: 1%;
+    	padding-left: 2%;
+    	padding-right: 2%;
 	}
 }
-
 
 // Extends
 //********************************************************
@@ -115,7 +45,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-// Utility and Site-Wide
+// Utility and site-wide classes
 //********************************************************
 .container {
 	@include outer-container;
@@ -154,6 +84,35 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
+.rslides { //thanks to http://responsiveslides.com/
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+  	li {
+  		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 0;
+		top: 0;
+		&:first-child {
+			position: relative;
+  			display: block;
+  			float: left;
+		}
+  	}
+  	img {
+  		display: block;
+  		height: auto;
+  		float: left;
+  		width: 100%;
+  		border: 0;
+  	}
+  	
+  }
 .logo {
 	height: 150px;
 	width: 150px;
@@ -181,19 +140,43 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .splash {
 	@include span-columns(12);
-	.slideshow {
-    @include slideshow((
-        images     : 3,                 // Amount of images in the slideshow
-        duration   : 7.5s,              // Time of visibility of each image
-        transition : 3s,                // Transition time (with transition < duration)
-        easing     : ease,              // Easing type
-        repeat     : infinite           // 1,2,3, ... , infinite
-    ));
-	    figure {
-	    	margin: 0; padding: 0;
-	    }
+	h1 {
+		position: absolute;
+		top: 370px;
+	  	width: 860px;
+	  	text-align: left;
+  		font-size: 3.6em;
+  		padding: 30px 50px;
+		z-index: 10;
+	  	@include media($small) {
+			top: 295px;
+	  	}
+  		@include media($smaller) {
+			top: 208px;
+	  		width: 100%;
+  			font-size: 3.2em;
+  			padding: 30px 20px;
+  		}
+  		@include media($smallest) {
+			top: 145px;
+  			font-size: 3em;
+  			padding: 20px 20px;
+  		}
+  		@include media($tiny) {
+			top: 40px;
+	  		width: 450px;
+  			font-size: 2em;
+  			padding: 20px 20px 20px 110px;
+  		}
+  		@include media ($tinier) {
+			top: 50px;
+  			width: 100%;
+  			padding: 13px 0px 13px 90px;
+  			font-size: 1.6em;
+  		}
+	  	@extend %heading-text-style;
 	}
-	figcaption {
+	.caption {
 		position: absolute;
 	  	top: 350px;
 	  	z-index: 20;
@@ -205,64 +188,28 @@ $tiniest: new-breakpoint(max-width 390px);
 	  	}
 	  	@include media($smaller) {
 	  		top: 200px;
+			margin-top: 160px;
 	  		font-size: 0.9em;
 	  	}
 	  	@include media($smallest) {
 	  		top: 145px;
+			margin-top: 124px;
 	  		font-size: 0.8em;
 	  	}
 	  	@include media($tiny) {
-	  		top: 40px;
+	  		top: 63px;
+			margin-top: 102px;
 	  		font-size: 0.6em;
 	  	}
-	  	h1 {
-			position: absolute;
-		  	width: 860px;
-		  	text-align: left;
-	  		font-size: 3.6em;
-	  		padding: 30px 50px;
-	  		@include media($smaller) {
-		  		width: 610px;
-	  			font-size: 3.2em;
-	  			padding: 30px 20px;
-	  		}
-	  		@include media($smallest) {
-		  		width: 530px;
-	  			font-size: 3em;
-	  			padding: 20px 20px;
-	  		}
-	  		@include media($tiny) {
-		  		width: 500px;
-	  			font-size: 3em;
-	  			padding: 20px 20px 20px 110px;
-	  		}
-	  		@include media ($tinier) {
-		  		width: 270px;
-	  			font-size: 2em;
-	  			padding: 20px 0px 13px 90px;
-	  		}
-		  	@extend %heading-text-style;
+		@include media($tinier) {
+			margin-top: -63px;
 		}
-		> div {
-			background-color: rgba(0,0,0,.4);
-			margin-top: 186px;
-			@include media($smaller) {
-				margin-top: 160px;
-			}
-			@include media($smallest) {
-				margin-top: 124px;
-			}
-			@include media($tiny) {
-				margin-top: 102px;
-			}
-			@include media($tinier) {
-				margin-top: -40px;
-			}
-		}
+		background-color: rgba(0,0,0,.4);
+		margin-top: 186px;
   		i {
   			vertical-align: middle;
   			padding: 17px 20px 15px 50px;
-	  		@include media($small) {
+	  		@include media($smaller) {
 	  			padding-left: 20px;
 	  		}
 	  		@include media($tinier) {
@@ -293,7 +240,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		  		text-decoration: none;
 			}
 		}
-  	}
+	}
 }
 
 // Mantra
