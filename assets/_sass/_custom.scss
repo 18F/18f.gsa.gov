@@ -17,14 +17,14 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .mantra, .blog-entry, .team, .footer, .contact-box {
 	@include media($small) {
-    	padding-left: 4%;
-    	padding-right: 4%;
+    	padding-left: 5%;
+    	padding-right: 5%;
 	}
 }
 .bare {
 	@include media($tiny) {
-    	padding-left: 4%;
-    	padding-right: 4%;
+    	padding-left: 5%;
+    	padding-right: 5%;
 	}
 }
 
@@ -276,11 +276,6 @@ $tiniest: new-breakpoint(max-width 390px);
   		@include media($tiny) {
   			width: 100%;
   		}
-		@include media($tiniest) {
-			font-size: 0.8em;
-			line-height: 1.6;
-  			padding-top: 13px;
-		}
 	}
 }
 
@@ -343,20 +338,6 @@ $tiniest: new-breakpoint(max-width 390px);
 			margin-bottom: 0.5em;
 		}
 	}
-	@include media($smaller) {
-		p {
-			font-size: 0.8em;
-			+ p {
-				margin-bottom: 0.35em;
-			}
-		}
-	}
-	// @include media($tiniest) {
-	// 	padding-top: 5px;
-	// 	p {
-	// 		line-height: 1.2em;
-	// 	}
-	// }
 }
 .blog-title {
 	@include span-columns(12);
@@ -501,7 +482,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 0.75em;
 		}
 		@include media($tiniest) {
-			font-size: 0.6em;
+			font-size: 0.55em;
 		}
 	}
 	a i, .no-decoration {
