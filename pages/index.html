@@ -6,7 +6,7 @@ permalink: /
 <aside class="usa">
   <div class="container">
     <p>
-      An official website of the United States Government <img src="/assets/images/us_flag_small.png">
+      An official website of the United States Government <img alt="US flag" src="/assets/images/us_flag_small.png">
     </p>
   </div>
 </aside>
@@ -102,7 +102,7 @@ permalink: /
       <div class="blog-snippet">
         <p itemprop="articleBody">{{ post.excerpt }}</p>
 
-        <p><a href="{{ post.url }}">Continue reading...</a></p>
+        <p><a href="{{ post.url }}">Continue reading this post...</a></p>
       </div>
     {% endfor %}
 
@@ -141,8 +141,8 @@ permalink: /
     <div class="contact-form">
       <form action="/listserv" method="post" id="contact-form">
       <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you.html" type="hidden" name="redirect" /><input checked="checked" name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-      <div class="form-group"><input type="text" placeholder="Your Name" name="realname" /></div>
-      <div class="form-group"><input type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
+      <div class="form-group"><label><input type="text" placeholder="Your Name" name="realname" /></label></div>
+      <div class="form-group"><label><input type="text" placeholder="your@email-address.com" id="email" name="email" /></label></div>
       <input type="submit" class="button" value="Sign Up for More Information" />
       </form>
     </div>
