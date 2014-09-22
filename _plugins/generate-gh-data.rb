@@ -1,4 +1,3 @@
-require 'pry'
 require 'curb'
 module Jekyll
   class GitHubGenerator < Generator
