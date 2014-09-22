@@ -99,9 +99,8 @@ permalink: /
           </span>
         </p>
       </div>
-      <div class="blog-snippet">
-        <p itemprop="articleBody">{{ post.excerpt }}</p>
-
+      <div class="blog-snippet" itemprop="articleBody">
+        {{ post.excerpt }}
         <p><a href="{{ post.url }}">Continue reading...</a></p>
       </div>
     {% endfor %}

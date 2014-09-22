@@ -449,11 +449,12 @@ $tiniest: new-breakpoint(max-width 390px);
 .blog-snippet {
 	@include span-columns(9);
 	@include omega();
-	// max-height: 8em;
-	// overflow: hidden;
 	@include media($tiniest) {
 		@include span-columns(12);
 		max-height: 12em;
+	}
+	p.authors {
+		margin-bottom: 0.4em;
 	}
 }
 .blog-all, .blog-continue {
