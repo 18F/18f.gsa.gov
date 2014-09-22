@@ -1,0 +1,7 @@
+---
+layout: bare
+permalink: /blog/
+---
+{% for post in paginator.posts %}
+	{{post.content}}
+{% endfor %}
