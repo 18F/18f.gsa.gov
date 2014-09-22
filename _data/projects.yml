@@ -1,90 +1,133 @@
+---
 - project: MyRA
   name: myra
   github: https://github.com/18F/myra.git
-  description: Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).
+  description: Individual and employer landing pages for the U.S. Department of the
+    Treasury’s new retirement savings program, myRA (“My Retirement Account”).
   client: U.S. Department of Treasury
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: FOIA
   name: foia
   github: https://github.com/18F/foia.git
-  description: Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).
+  description: Individual and employer landing pages for the U.S. Department of the
+    Treasury’s new retirement savings program, myRA (“My Retirement Account”).
   client: U.S. Department of Justice
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: FBOpen
-  name: fbopen 
+  name: fbopen
   github: https://github.com/18F/fbpoen.git
   description: 
   client: 
   status: Hold
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: FOIA Hub
   name: foia-hub
   github: https://github.com/18F/foia-hub.git
-  description:
+  description: 
   client: U.S. Department of Justice
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: Midas
-  name: midas 
+  name: midas
   github: https://github.com/18F/midas.git
   description: 
   client: Department of State
   status: Alpha
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: openFEC
-  name: openFEC 
+  name: openFEC
   github: https://github.com/18F/openFEC.git
-  description:
+  description: 
   client: Federal Elections Commission
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: API All The X
   name: API-All-the-X
   github: https://github.com/18F/API-All-the-X.git
-  description:
-  client:
+  description: 
+  client: 
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: Answers"
   name: answers
   github: https://github.com/18F/answers.git
-  description:
+  description: 
   client: U.S. Department of Treasury
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: My USA
   name: myusa
   github: https://github.com/18F/myusa.git
-  description:
+  description: 
   client: U.S. Department of Treasury
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: CAP (Communicart)
   name: C2
   github: https://github.com/18F/C2.git
-  description:
+  description: 
   client: General Services Administration
   status: Alpha
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: Agile Assisted Acquisitions
   name: aaa
   github: https://github.com/18F/aaa.git
-  description:
+  description: 
   client: U.S. Department of Treasury
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: Dashboard
-  name: dashboard 
+  name: dashboard
   github: https://github.com/18F/dashboard.git
-  description:
-  client:
+  description: 
+  client: 
   status: Development
-
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00
 - project: DOI Extractives
   name: doi-extractives-data
   github: https://github.com/18F/doi-extractives-data.git
-  description:
+  description: 
   client: Department of the Interior
   status: Alpha
+  issues: 10
+  stars: 9
+  forks: 8
+  last_checked: 2014-09-22 15:38:57.000000000 -04:00

@@ -10,22 +10,26 @@ module Jekyll
       @gh_data = {}
       i = 0
       for project in @projects
-        if rate() >= 1
+        timediff =  Time.now - Time.at(@projects[i]['last_checked'])
+        diff_min = 60 - (timediff / 60)
+        if ( diff_min / 60 ) >= 60
           name = project['name']
           data = self.fetch(name.to_str)
-          @gh_data[name] = {}
-          @gh_data[name]['issues'] = data['open_issues']
-          @gh_data[name]['stars'] = data['stargazers_count']
-          @gh_data[name]['forks'] = data['forks_count']
-          i += 1
-          @gh_data['generated_time'] = Time.now
-          File.open('_data/github.yml', 'w') { |f| f.write @gh_data.to_yaml }
+          project['issues'] = data['open_issues']
+          project['stars'] = data['stargazers_count']
+          project['forks'] = data['forks_count']
+          @projects[i]['generated_time'] = Time.now.to_i
+          @projects[i] = project
         else
-          timediff =  Time.now - Time.at(site.data['github']['generated_time'])
-          diff_min = 60 - (timediff / 60)
+          project['issues'] = @projects[i]['issues']
+          project['stars'] = @projects[i]['stars']
+          project['forks'] = @projects[i]['forks']
+          project['last_checked'] = @projects[i]['last_checked']
+          @projects[i] = project
           puts('You maxed out the GitHub API rate limit! How could you!? try again in ' + diff_min.to_s + ' minutes.')
         end
-        
+        i += 1
+        File.open('_data/projects.yml', 'w') { |f| f.write @projects.to_yaml }        
         # site.data['projects'][i]['github-data'] = @gh_data
       end
     end

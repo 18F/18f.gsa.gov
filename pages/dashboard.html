@@ -14,22 +14,25 @@ permalink: /dashboard/
       <div><h1>Description</h1></div>
     </header>
 
+    <aside>
+      Data last generated: {{ site.data.github.generated_time }}
+    </aside>
     {% for project in site.data.projects %}
       {% if project.status != 'Hold' %}
-        <pre>{{project}}</pre>
-
-      <article class="dashboard-projects-content">
-        <div>
-          <h1>{{project.project}}</h1>
-          <p class="status">{{project.status}}</p>
-          <p class="issues">Open issues: {{project.issues}}<p>
-        </div>
-        <div><p>{{project.client}}</p></div>
-        <div>
-          <p>{{project.description}}</p>
-          <p><i class="icon-github2"></i> <a href="{{project[2]}}">{{project.github}}</a></p>
-        </div>
-      </article>
+        <article class="dashboard-projects-content">
+          <div>
+            <h1>{{project.project}}</h1>
+            <p class="status">{{ project.status }}</p>
+            <p class="issues">Open issues: {{ project.issues }}<p>
+            <p class="stars">Stars: {{ project.stars }}<p>
+            <p class="forks">Forks: {{ project.forks }}<p>
+          </div>
+          <div><p>{{project.client}}</p></div>
+          <div>
+            <p>{{project.description}}</p>
+            <p><i class="icon-github2"></i> <a href="{{project[2]}}">{{project.github}}</a></p>
+          </div>
+        </article>
       {% endif %}
     {% endfor %}
   </section>
