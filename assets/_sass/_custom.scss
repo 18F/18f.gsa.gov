@@ -576,6 +576,9 @@ $tiniest: new-breakpoint(max-width 390px);
         		height: 100px;
     			width: 100px;
     			margin: 0.3em auto;
+	        	-webkit-filter: none;
+	        	-moz-filter: none;
+	        	filter: none;
         	}
         	@include media($tiniest) {
         		height: 85px;
