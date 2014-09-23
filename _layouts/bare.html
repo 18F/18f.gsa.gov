@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<section class="container bare">
+
+  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/">
+      <i class="icon-18f-logo"></i>
+    </a>
+  </div>
+
+  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+    {{ content }}
+  </div>
+
+</section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+</html>

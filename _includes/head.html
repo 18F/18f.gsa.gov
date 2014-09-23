@@ -1,0 +1,82 @@
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- Twitter and OpenGraph data
+================================================== -->
+<meta name="twitter:site" content="@18F">
+<meta name="twitter:creator" content="@18F">
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}" />
+
+<!-- title, description, and image may change per-page, per-post -->
+{% if page.title %}
+  <title>18F &mdash; {{ page.title }}</title>
+  <meta property="og:title" content="{{ page.title }}" />
+{% else %}
+  <title>{{ site.title }}</title>
+  <meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}" />
+{% else %}
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}" />
+{% endif %}
+
+<!-- use large summary card for posts with images, normal summary otherwise -->
+{% if page.image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+{% else %}
+  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{{ site.url }}/images/logo-18f.png" />
+{% endif %}
+
+
+<!-- Favicons
+================================================== -->
+<!-- 128x128 -->
+<link rel="shortcut icon" type="image/ico" href="/assets/images/favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon.png" />
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/18f-center-57.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/18f-center-72.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/18f-center-114.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/18f-center-144.png">
+
+<!-- CSS
+================================================== -->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="/assets/css/fonts.css" rel="stylesheet">
+<link href="/assets/css/normalize.css" rel="stylesheet">
+<link href="/assets/css/styles.css" rel="stylesheet">
+
+<!-- JS
+================================================== -->
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/responsiveslides.min.js"></script>
+
+<!-- IE
+================================================== -->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/assets/js/ie8/html5shiv.js"></script>
+  <script src="/assets/js/ie8/respond.js"></script>
+  <link href="/assets/css/ie8/ie.css" rel="stylesheet">
+<![endif]-->
+
+{% include ascii.html %}

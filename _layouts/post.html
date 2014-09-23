@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<section class="container bare">
+
+  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/">
+      <i class="icon-18f-logo"></i>
+    </a>
+  </div>
+
+  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+    <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+      <h1>{{page.title}}</h1>
+
+      {{ content }}
+    </section>
+
+    <aside class="blog-follow-us">
+      <h1>Follow us here:</h1>
+      <ul>
+        <li><i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
+        <li><i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
+      </ul>
+    </aside>
+  </div>
+
+</section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+</html>

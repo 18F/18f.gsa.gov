@@ -1,0 +1,30 @@
+---
+layout: bare
+title: Dashboard
+permalink: /dashboard/
+---
+
+<section class="dashboard">
+  <h1>{{page.title}}</h1>
+  <p class="lead">We are building digital services for the American people. Follow our progress and get involved here.</p>
+  <section class="dashboard-projects">
+    <header class="dashboard-projects-headings">
+      <div><h1>Project</h1></div>
+      <div><h1>Partners</h1></div>
+      <div><h1>Description</h1></div>
+    </header>
+    {% for project in site.data.projects.projects %}
+      <article class="dashboard-projects-content">
+        <div>
+          <h1>{{project[0]}}</h1>
+          <p class="status">{{project[5]}}</p>
+        </div>
+        <div><p>{{project[4]}}</p></div>
+        <div>
+          <p>{{project[3]}}</p>
+          <p><i class="icon-github2"></i> <a href="{{project[2]}}">{{project[2]}}</a></p>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</section>

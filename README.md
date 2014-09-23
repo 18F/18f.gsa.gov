@@ -1,45 +1,50 @@
-18f.gsa.gov
-===========
-Building the 21st century digital government.
+## 18F's Homepage
 
+This repository contains 18F's website, https://18f.gsa.gov.
 
-**CONTRIBUTORS TAKE NOTE:** We work off the `devel` branch, so be sure to pull that branch and submit your pull request to `devel` not `master`.
+* The `staging` branch is **automatically deployed** to our [staging site](http://staging.18f.us).
+* The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
+**All development and pull requests should be done against the `staging` branch.**
 
-Getting Started
---
-1. Pull down the repo `git clone git@github.com:18F/18f.gsa.gov.git`
-2. From the root of the site, install the necessary git submodules with `git submodule init` and node packages with `npm install`
-3. Run `make` to compile your JavaScript and CSS assets.
-4. Install an [http-server](https://www.npmjs.org/package/http-server) with `npm install http-server -g` if you don't already have one
-5. Launch your web server, eg. `http-server`
+Deployments to production will be done by site admins, using PRs from `staging` to `production`.
 
+### Adding yourself to the site
 
+If you're a new teammate, add yourself to the website by:
 
-Tips
---
-- Update your git submodules with `git submodule update --init`
-- Monitor your asset folders and automatically generate compiled versions by running `make watch`
+1. Either fork the repository, or make a new branch inside the repo if you have write permissions.
+2. Add your name to [`data/team.yml`](data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines.
+3. Add a 250x250 JPG of yourself to [`assets/images/team`](assets/images/team). The filename must be your unique team handle, e.g. `eric.jpg`.
+4. (Optional) Verify that your photo and name looks right by [running the site locally](#developing-the-site).
+5. Submit a pull request from your fork or branch to this repository's `staging` branch.
+6. When your PR is merged, your face and name should appear automatically on [our staging site](http://staging.18f.us).
 
+A site admin will take care of deploying you to the [live site](https://18f.gsa.gov). Feel free to poke them if they don't get around to it in a timely fashion!
 
+### Developing the site
 
-Dependencies
---
+This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`):
 
-* [Node package manager](http://howtonode.org/introduction-to-npm)
-* A Webserver ([http-server](https://www.npmjs.org/package/http-server), [Apache](http://httpd.apache.org/), [Jekyll](http://jekyllrb.com/), etc.)
+```bash
+gem install jekyll
+```
 
+Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
 
+Launch with Jekyll:
 
+```bash
+jekyll serve
+```
 
-Contributing
---
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request (PR to `devel` not `master`)
+The site will be visible at `http://localhost:4000`.
 
+### Deploying the site
+
+You don't need to worry about deployment stuff for normal development -- any pushes to `staging` and `production` branches will auto-deploy.
+
+But to dig into our deployment setup and code, visit [`deploy/`](deploy) for more details.
 
 ### Public domain
 
