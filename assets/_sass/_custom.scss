@@ -502,9 +502,12 @@ $tiniest: new-breakpoint(max-width 390px);
 			float: left;
 			width: 200px;
 			height: 200px;
-        	-webkit-filter: grayscale(100%);
-        	-moz-filter: grayscale(100%);
-        	filter: grayscale(100%);
+
+      -webkit-filter: grayscale(100%);
+    	-moz-filter: grayscale(100%);
+    	filter: grayscale(100%);
+      filter: url(/assets/bw.svg#greyscale);
+
 			@include transition(0.3s linear);
         	@include media($smaller) {
         		height: 225px;
