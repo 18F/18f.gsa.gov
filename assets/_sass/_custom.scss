@@ -111,7 +111,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		width: 100%;
   		border: 0;
   	}
-  	
+
   }
 .logo {
 	height: 150px;
@@ -408,8 +408,9 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-top: 10px;
 	}
 	ul {
-		list-style: disc inside;
-		padding-bottom: 1.1em;
+	  list-style: inherit;
+    padding-bottom: 1.1em;
+    margin-left: 1em;
 	}
 	ol {
 		list-style: decimal inside;
