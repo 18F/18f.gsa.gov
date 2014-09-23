@@ -19,8 +19,8 @@ else {
   };
   console.log("%cOh hi there! Please poke around.", styles.big);
   console.log(" ");
-  console.log("%cIf you find a bug or want to talk, we're at %c18f@gsa.gov%c and track issues on %chttps://github.com/18f/18f.gsa.gov/issues", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
-  console.log("%cAnd check us out on GitHub generally! We're an %copen source team%c. %chttps://github.com/18f", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
+  console.log("%cIf you find a bug or want to talk, we're at %c18f@gsa.gov%c and track issues on %chttps://github.com/18F/18f.gsa.gov/issues", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
+  console.log("%cAnd check us out on GitHub generally! We're an %copen source team%c. %chttps://github.com/18F", styles.medium, styles.medium_bold, styles.medium, styles.medium_link);
 }
 
 
