@@ -1,78 +1,31 @@
 //********************************************************
-// 18F SITE CUSTOM SASS
+// 18F.gsa.gov CUSTOM SASS
 //********************************************************
 
-// Mixins
+// Breakpoint variables
 //********************************************************
+//$biggest: new-breakpoint(min-width 1430px); //untested
+ //////BASE SIZE HERE//////
+$small: new-breakpoint(max-width 1130px);
+$smaller: new-breakpoint(max-width 995px);
+$smallest: new-breakpoint(max-width 785px);
+$tiny: new-breakpoint(max-width 590px);
+$tinier: new-breakpoint(max-width 480px); //only used in hero unit
+$tiniest: new-breakpoint(max-width 390px);
 
-// Slideshow
-// thanks to http://www.fabriziocalderan.it/css3slideshow/
-@mixin slideshow($settings) { 
-    $images     : map-get($settings, images); 
-    $duration   : map-get($settings, duration);
-    $transition : map-get($settings, transition);
-    $easing     : map-get($settings, easing);
-    $repeat     : map-get($settings, repeat);
-    
-    // total duration (in seconds) 
-    $totalDuration      : $images * $duration;
-    $animationSettings  : CSS3slideshow #{$totalDuration} #{$easing} 0s #{$repeat};
-    $vendorsList        : (-webkit-, -moz-, -o-, '');
-
-    position   : relative;
-    list-style : none;
-
-    li {
-        position : absolute;
-        z-index  : $images; 
-        top      : 0;
-        left     : 0;
-        @each $vendor in $vendorsList {
-            #{$vendor}animation: #{$animationSettings};
-        }  
-
-        @for $i from 2 through $images {
-
-            &:nth-child(#{$i}) { 
-                z-index: #{$images - $i + 1}; 
-                @each $vendor in $vendorsList {
-                    #{$vendor}animation-delay: #{$duration * ($i - 1)};
-                }
-            }
-
-        }
-    }
-
-    // &:hover {
-    //     li {
-    //         @each $vendor in $vendorsList {
-    //             #{$vendor}animation-play-state: paused;
-    //         }  
-    //     }
-    // }
-
-    @at-root {
-
-        $endEffect: 100% / $images;
-        $timeEffect: round(($transition * 100% / $totalDuration) * 100)/100;
-        $startEffect: $endEffect - $timeEffect;
-
-        @include setKeyframes(CSS3slideshow) {
-          #{$startEffect}, 100% { opacity: 1; }
-          #{$endEffect}, #{100% - $timeEffect} { opacity: 0; }
-        }        
-
-    } 
-  
+// Site-wide media queries
+//********************************************************
+.mantra, .blog-entry, .team, .footer, .contact-box {
+	@include media($small) {
+    	padding-left: 5%;
+    	padding-right: 5%;
+	}
 }
-
-@mixin setKeyframes($animationName) {
-
-    @-webkit-keyframes #{$animationName} { @content; }
-    @-moz-keyframes #{$animationName}    { @content; }
-    @-o-keyframes #{$animationName}      { @content; }
-    @keyframes #{$animationName}         { @content; }
-
+.bare {
+	@include media($tiny) {
+    	padding-left: 5%;
+    	padding-right: 5%;
+	}
 }
 
 // Extends
@@ -86,12 +39,24 @@
 %section-padding {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	@include media($tiniest) {
+			padding-top: 25px;
+			padding-bottom: 25px;
+	}
 }
 
-// Utility
+// Utility and site-wide classes
 //********************************************************
 .container {
 	@include outer-container;
+}
+.lead {
+	font-size: 1.4em;
+	line-height: 1.6em;
+	padding-top: 1em;
+	@include media($smallest) {
+		font-size: 1.2em;
+	}
 }
 
 // Splash
@@ -103,13 +68,51 @@
     height: 20px;
     font-size: 0.75em;
     color: $light-gray;
+    padding-top: 1.5px;
     p {
     	font-family: $base-font-family;
 	}
 	img {
-		padding-top: 3px;
+		height: 8px;
+	}
+	@include media($tinier) {
+    	font-size: 0.6em;
+   		height: 16px;
+    	padding-top: 0.5px;
+		img {
+			height: 6px;
+		}
 	}
 }
+.rslides { //thanks to http://responsiveslides.com/
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+  	li {
+  		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 0;
+		top: 0;
+		&:first-child {
+			position: relative;
+  			display: block;
+  			float: left;
+		}
+  	}
+  	img {
+  		display: block;
+  		height: auto;
+  		float: left;
+  		width: 100%;
+  		border: 0;
+  	}
+
+  }
 .logo {
 	height: 150px;
 	width: 150px;
@@ -117,114 +120,162 @@
 	top: 50px;
 	left: 50px;
 	z-index: 20;
-	@include media(max-width 992px) {
-		height: 100px;
+  	@include media($smaller) {
+  		height: 100px;
 		width: 100px;
-		top: 20px;
+		top: 40px;
 		left: 20px;
-	}
-	@include media(max-width 360px) {
-		height: 75px;
+  	}
+  	@include media($smallest) {
+  		height: 75px;
 		width: 75px;
-	}
+  	}
+  	@include media($tiny) {
+		top: 73px;
+  	}
+  	@include media($tinier) {
+		top: 66px;
+		left: 0px;
+  	}
 }
 .splash {
 	@include span-columns(12);
-	height: 740px; 	// to force content below the absolutely-positioned slideshow
-					// may need to replace with JS
-					// at the very least, will need to adjust with media queries
-	.slideshow {
-	@include span-columns(12 of 12);
-    @include slideshow((
-        images     : 3,                 // Amount of images in the slideshow
-        duration   : 7.5s,              // Time of visibility of each image 
-        transition : 3s,                // Transition time (with transition < duration)
-        easing     : ease,              // Easing type
-        repeat     : infinite           // 1,2,3, ... , infinite
-    ));
-	    figure {
-	    	margin: 0; padding: 0;
-	    }
-	}
 	h1 {
 		position: absolute;
-	  	top: 360px;
-	  	max-width: 860px;
-	  	z-index: 20;	
+		top: 370px;
+	  	width: 860px;
 	  	text-align: left;
   		font-size: 3.6em;
   		padding: 30px 50px;
+		z-index: 10;
+	  	@include media($small) {
+			top: 295px;
+	  	}
+  		@include media($smaller) {
+			top: 208px;
+	  		width: 100%;
+  			font-size: 3.2em;
+  			padding: 30px 20px;
+  		}
+  		@include media($smallest) {
+			top: 145px;
+  			font-size: 3em;
+  			padding: 20px 20px;
+  		}
+  		@include media($tiny) {
+			top: 40px;
+	  		width: 450px;
+  			font-size: 2em;
+  			padding: 20px 20px 20px 110px;
+  		}
+  		@include media ($tinier) {
+			top: 50px;
+  			width: 100%;
+  			padding: 13px 0px 13px 90px;
+  			font-size: 1.6em;
+  		}
 	  	@extend %heading-text-style;
 	}
-	figcaption {
+	.caption {
 		position: absolute;
-	  	top: 526px;
-	  	max-width: 860px;
+	  	top: 350px;
 	  	z-index: 20;
 		color:#fff;
 	  	font-size: 1em;
 	  	text-shadow: 1px 1px 2px #000;
-	  	padding: 17px 20px 15px 50px;
-	  	background-color: rgba(0,0,0,.4);
+	  	@include media($small) {
+	  		top: 275px;
+	  	}
+	  	@include media($smaller) {
+	  		top: 200px;
+			margin-top: 160px;
+	  		font-size: 0.9em;
+	  	}
+	  	@include media($smallest) {
+	  		top: 145px;
+			margin-top: 124px;
+	  		font-size: 0.8em;
+	  	}
+	  	@include media($tiny) {
+	  		top: 63px;
+			margin-top: 102px;
+	  		font-size: 0.6em;
+	  	}
+		@include media($tinier) {
+			margin-top: -63px;
+		}
+		background-color: rgba(0,0,0,.4);
+		margin-top: 186px;
   		i {
   			vertical-align: middle;
+  			padding: 17px 20px 15px 50px;
+	  		@include media($smaller) {
+	  			padding-left: 20px;
+	  		}
+	  		@include media($tinier) {
+	  			padding-left: 5px;
+	  		}
   		}
   		.icon-camera {
 	  		font-size: 30px;
-	  		margin-right:10px;
-	  		@include media(max-width 550px) {
+	  		margin-right: 10px;
+	  		@include media($smaller) {
 	  			font-size: 20px;
+	  		}
+	  		@include media($tiny) {
+	  			font-size: 12px;
+	  			margin-right: 0px;
+	  			padding-right: 5px;
+	  		}
+	  		@include media($tinier) {
+	  			font-size: 9px;
 	  		}
   		}
   		a {
-	  		color:#fff;
-	  		text-decoration:none;
+	  		padding: 17px 20px 20px 0;
+	  		color: #fff;
+	  		text-decoration: none;
 				&:hover, &:focus {
-				color:#c21;
-		  		text-decoration:none;
+				color: $red;
+		  		text-decoration: none;
 			}
 		}
-  	}
-  	@include media(max-width 992px) {
-    	padding: 17px 20px;
-  	}
-  	@include media(max-width 550px) {
-  		font-size: .8em;
-    	line-height: 1em;
-    	display: block;
-    	padding: 10px 20px;
-    	margin-top: -10px;
-  	}
+	}
 }
 
 // Mantra
 //********************************************************
 .mantra {
 	@include span-columns(12);
+	@extend %section-padding; //standard top and bottom padding for all sections
 	background-image: url(/assets/images/lightbulb.png);
 	background-size: 10%;
 	background-position: 90% 50%;
+	@include media($smaller) {
+		background-position: 87% 50%;
+	}
 	background-repeat: no-repeat;
-	padding-top: 20px;
-	padding-bottom: 60px;
-	@include media(max-width 992px) {
-		background:none;
+	@include media($tiny) {
+		background: none;
 	}
 	h1 {
 		margin: 0;
 		> strong {
-			color: #c21;
+			color: $red;
 		}
-		@include media(max-width 360px) {
-			font-size: 1.7em;
+		@include media($tiniest) {
+			font-size: 01.8em;
 		}
 	}
 	p {
-		font-size: .9em;
+		font-size: 0.9em;
 		line-height: 1.8;
   		padding-top: 20px;
   		margin: 0;
   		width: 70%;
+  		@include media($tiny) {
+  			width: 100%;
+  		}
 	}
 }
 
@@ -232,35 +283,43 @@
 //********************************************************
 .header {
   	height: 100px;
-  	background-color: #c21;
+  	background-color: $red;
   	position: relative;
 	font-size: 1.2em;
   	@extend %heading-text-style;
-  	@include media(max-width 550px) {
-  	height: 60px
-  }
+  	@include media($smallest) {
+  		height: 80px;
+  	}
+  	@include media($tiniest) {
+  		height: 60px;
+  		h1 {
+  			font-size: 1.6em;
+  		}
+  	}
 }
 .container-fluid {
   	position: absolute;
   	top: 0px;
   	height: 100px;
   	padding: 30px 50px;
+  	@include media($smallest) {
+  		height: 80px;
+  	}
+  	@include media($tiniest) {
+  		height: 60px;
+  		padding: 20px 20px;
+  	}
   	background-color: #03253e; /* For browsers that don't support opacity */
   	background-color: rgba(0,0,0,.4);
   	z-index: 20;
-  	@include media(max-width 550px) {
-  		padding: 0 20px;
-  		h3 {
-  			font-size:2em;
-  		}
-  	}
 }
 
 
-// News
+// News and blog pages
 //********************************************************
 .blog-entry {
-	@extend %section-padding;
+	@extend %section-padding; //standard padding for all sections
+	padding-top: 25px; //compensates for padding in top row of news section
 	h1 {
 		font-size: 22px;
 	  	font-weight: 700;
@@ -275,14 +334,20 @@
 	p {
 		font-size: 0.9em;
 		padding: 0; margin: 0;
+		line-height: 1.8;
 		+ p {
-			margin-bottom: 0.5em;
+			margin-bottom: 0.4em;
 		}
 	}
 }
 .blog-title {
 	@include span-columns(12);
 	padding: 15px 0 5px 0;
+	@include media($tiniest) {
+		padding-top: 13px;
+		padding-bottom: 3px;
+		line-height: 1em;
+	}
 }
 .blog-meta {
 	@include span-columns(3);
@@ -294,14 +359,37 @@
 			color: $base-link-color;
 		}
 	}
+	@include media($tiniest) {
+		@include span-columns(12);
+		padding-bottom: 6px;
+		font-weight: 700;
+		line-height: 0.9em;
+	}
+	p {
+		margin-bottom: 0.6em;
+		line-height: 1.2em;
+	}
+}
+.tag-index {
+	.blog-title h1 {
+		padding-bottom: 8px;
+	}
+	.blog-meta p {
+		margin-bottom: 0.5em;
+		line-height: 1.2em;
+	}
 }
 .blog-snippet {
 	@include span-columns(9);
 	@include omega();
-	max-height: 8em;
-	overflow: hidden;
+	@include media($tiniest) {
+		@include span-columns(12);
+	}
+	p.authors {
+		margin-bottom: 0.4em;
+	}
 }
-.blog-all {
+.blog-all, .blog-continue {
 	@include span-columns(12);
 	text-align: center;
 	margin-top: 1.7em;
@@ -310,75 +398,136 @@
 		font-weight: 700;
 	}
 }
-
-
-
-#blog-loading h4 {
-	text-align: center;
-	padding: 20px;
-	color: #606060;
-	.error {
-		text-align: center;
-		color: #c21;
-		display: none;
-	}
-}
-.blog-md {
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 1.5em;
-	padding-bottom: 10px;
-	a {
-		text-decoration: none;
-		font-weight: 700;
-		&:hover, &:focus {
-			text-decoration: underline;
-	  	}
-	}
+.blog-continue {
+	text-align: right;
+	margin-top: 0px;
 }
 
+.blog-posting {
+	h1 + p {
+		padding-top: 10px;
+	}
+	ul {
+	  	list-style: inherit;
+    	padding-bottom: 1.1em;
+    	margin-left: 1em;
+	}
+	ol {
+	  	list-style: inherit;
+    	padding-bottom: 1.1em;
+    	margin-left: 1em;
+	}
+}
+.blog-follow-us {
+	@include span-columns(12);
+	padding-top: 15px;
+	h1 {
+		font-size: 1.3em;
+	}
+	ul {
+		font-size: 1.1em;
+		padding-top: 4px;
+	}
+}
 
+.blog-entry, .blog-posting {
+  .authors {
+    font-style: italic;
+    img {
+      margin-bottom: -5px;
+      margin-left: 7px;
+      margin-right: 5px;
+      height: 25px;
+      display: none;
+    }
+  }
+}
 
-// Bio
+// Team
 //********************************************************
-.bio { 
+.team {
+	@extend %section-padding; //standard padding for all sections
+	padding-top: 20px; //compensates for padding in top row of team section
+	@include media($tiniest) {
+		padding-top: 15px;
+	}
+}
+.bio {
 	@include span-columns(3 of 12);
-	margin: 1.0em 0 1.0em 1.5%; 
-	position: relative; 
+	margin: 1.0em 0 1.0em 1.5%;
+	position: relative;
+	@include media($smaller) {
+		@include span-columns(4 of 12);
+		@include omega();
+		padding-left: 1.5%;
+	}
+	@include media($smallest) {
+		@include span-columns(3 of 12);
+		@include omega();
+	}
+	@include media($tiny) {
+		@include span-columns(4 of 12);
+		@include omega();
+		padding-left: 1.5%;
+	}
+	@include media($tiniest) {
+		margin: 0.5em 0 0.5em 1.5%;
+	}
 	strong {
-		float: left; clear: both;
+		float: left;
+		clear: both;
 	}
 	h1 {
-		clear: both; 
+		clear: both;
 		margin: 8px 0 2px 0;
-		color: #c21;
+		color: $red;
 		font-size: 1.2em;
+		@include media($smallest) {
+			font-size: 1em;
+		}
+		@include media($tiny) {
+			font-size: 0.75em;
+		}
+		@include media($tiniest) {
+			font-size: 0.55em;
+		}
 	}
 	a i, .no-decoration {
 		text-decoration: none !important; color: #000 !important;
 	}
-	a {	
-		text-decoration: none; 
+	a {
+		text-decoration: none;
 		img {
 			margin: 1.0em auto;
 			float: left;
 			width: 200px;
 			height: 200px;
-        	-webkit-filter: grayscale(100%);
-        	-moz-filter: grayscale(100%);
-        	filter: grayscale(100%);
+
+      -webkit-filter: grayscale(100%);
+    	-moz-filter: grayscale(100%);
+    	filter: grayscale(100%);
+      filter: url(/assets/bw.svg#greyscale);
+
 			@include transition(0.3s linear);
-        	@include media(max-width 992px) {
+        	@include media($smaller) {
         		height: 225px;
     			width: 225px;
         	}
-        	@include media(max-width 550px) {
+        	@include media($smallest) {
         		height: 120px;
     			width: 120px;
         	}
-        	@include media(max-width 360px) {
-        		width: 75px;
-   				height: 75px;
+        	@include media($tiny) {
+        		height: 100px;
+    			width: 100px;
+    			margin: 0.3em auto;
+	        	-webkit-filter: none;
+	        	-moz-filter: none;
+	        	filter: none;
+        	}
+        	@include media($tiniest) {
+        		height: 85px;
+    			width: 85px;
         	}
     	}
 		&:hover img, &:focus img  {
@@ -396,23 +545,22 @@
     overflow: hidden;
 }
 
-
-@media (max-width: 768px) {
-  .bio .no-decoration {
-    font-size: 2.0em;
-  }
-}
-@media (max-width: 360px) {
-  .bio .no-decoration {
-    font-size: 1.5em;
-  }
-}
-
 // Contact
 //********************************************************
 .contact-form {
 	@include span-columns(4);
 	@extend %section-padding;
+	@include media($small) {
+		@include span-columns(5);
+	}
+	@include media($smallest) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+	@include media($tinier) {
+		@include span-columns(12);
+		@include shift(0);
+	}
 }
 .contact-words {
 	@include span-columns(7);
@@ -424,24 +572,179 @@
 			font-size: $small-text;
 		}
 	}
+	@include media($small) {
+		@include span-columns(6);
+		@include shift(0);
+	}
+	@include media($smaller) {
+		p {
+			font-size: 1.3em;
+			&:last-of-type {
+				font-size: ($small-text) * 0.9;
+				line-height: 1.2em;
+			}
+		}
+	}
+	@include media($smallest) {
+		@include span-columns(8);
+		@include shift(2);
+		padding-top: 0;
+	}
+	@include media($tiny) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+	@include media($tinier) {
+		@include span-columns(12);
+		@include shift(0);
+	}
+	@include media($tiniest) {
+		p {
+			font-size: 1.2em;
+			line-height: 1.2em;
+			margin-bottom: 7px;
+			&:last-of-type {
+				font-size: ($small-text) * 0.8;
+				line-height: 1.1em;
+			}
+		}
+	}
 }
 .button {
 	@include button($green);
 	width: 100%;
 }
 
+// Bare Template
+//********************************************************
+.bare {
+	@extend %section-padding;
+	h2 {
+		font-size: 1.85em;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		@include media($smallest) {
+			font-size: 1.65em;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.4em;
+		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1.2em;
+		}
+	}
+	p {
+		margin-bottom: 1.1em;
+	}
+}
+.bare-logo {
+	@include span-columns(2);
+	a {
+		text-decoration: none;
+		i {
+			font-size: 6em;
+			color: $blue;
+		}
+		@include media($smallest) {
+			i {
+				font-size: 5em;
+			}
+		}
+		@include media($tiny) {
+			@include span-columns(12);
+		}
+	}
+	margin-top: -6px;
+}
+.bare-content {
+	@include span-columns(9);
+	@include omega();
+	@include media($smallest) {
+		@include span-columns(10);
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+	}
+}
+
+// Dashboard
+//********************************************************
+%dashboard-table-layout {
+	> div:nth-of-type(1) {
+		@include span-columns(3);
+	}
+	> div:nth-of-type(2) {
+		@include span-columns(3);
+	}
+	> div:nth-of-type(3) {
+		@include span-columns(6);
+	}
+}
+
+.dashboard-projects-headings {
+	@extend %dashboard-table-layout;
+	h1 {
+		font-size: 1.2em;
+		color: $medium-gray;
+	}
+}
+.dashboard-projects-content {
+	@extend %dashboard-table-layout;
+	padding-top: 10px;
+	border-top: 1px solid $light-gray;
+	clear:both;
+	h1 {
+		font-size: 1.2em;
+	}
+	i {
+		color: $medium-blue;
+	}
+	p {
+		line-height: 1.2em;
+		margin-bottom: 8px;
+	}
+	p + p {
+		font-size: 0.9em;
+		margin-bottom: 20px;
+	}
+}
+.status {
+	background-color: lighten($blue, 10%);
+	border: $medium-blue;
+	padding: 5px;
+	color: white;
+	margin-top: 10px;
+	font-size: .8em;
+	display: inline-block;
+}
+
 // Footer
 //********************************************************
 .footer {
-	border-top: 5px solid #18f;
-	background-color: #03253e;
+	border-top: 5px solid $blue;
+	background-color: $dark-blue;
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
+	@include media($smallest) {
+		padding-top: 40px;
+	}
 	padding-bottom: 20px;
 	h1 {
 		font-size: 1.2em;
 		padding-bottom: 0.3em;
+		@include media($smallest) {
+			font-size: 1em;
+			padding-bottom: 0.1em;
+		}
+		@include media($tiniest) {
+			font-size: 1em;
+			padding-bottom: 0.2em;
+		}
 	}
 	.container > div {
 		padding-top: 10px;
@@ -449,6 +752,20 @@
 		@include span-columns(2);
 		&:nth-of-type(3) {
 			@include span-columns(4);
+		}
+		@include media($tiny) {
+			@include span-columns(10);
+			@include shift(2);
+			&:nth-of-type(3) {
+				@include span-columns(10);
+			}
+		}
+		@include media($tiniest) {
+			@include span-columns(10);
+			@include shift(1);
+			&:nth-of-type(3) {
+				@include span-columns(10);
+			}
 		}
 	}
 	img {
@@ -462,10 +779,17 @@
   		&:hover, &:focus {
   			text-decoration: underline;
   		}
+		@include media($smallest) {
+			font-size: 0.8em;
+		}
+		@include media($tiniest) {
+			text-decoration: underline;
+			font-size: 0.75em;
+		}
 	}
 	.tagline {
 		float: right;
-		@include media(max-width 790px) {
+		@include media($tiny) {
 			float: none;
 		}
 	}

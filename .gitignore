@@ -1,6 +1,6 @@
-_site
+/_site
 .DS_Store
 /todo.txt
 *.log
-node_modules
-.sass-cache/
+/node_modules
+/.sass-cache/

@@ -1,0 +1,100 @@
+{
+  "projects": [
+    [
+        "myRA",
+        "myra",
+        "https://github.com/18F/myra.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Treasury",
+        "Development"
+    ],
+    [
+        "FOIA", 
+        "foia", 
+        "https://github.com/18F/foia.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Justice",
+        "Development"
+    ],
+    [
+        "FOIA Hub", 
+        "foia-hub",
+         "https://github.com/18F/foia-hub.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Justice",
+        "Development"
+    ],
+    [
+        "Midas", 
+        "midas", 
+        "https://github.com/18F/midas.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "Department of State",
+        "Alpha"
+    ],
+    [
+        "openFEC", 
+        "openFEC", 
+        "https://github.com/18F/openFEC.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "Federal Election Commission",
+        "Development"
+    ],
+    [
+        "API All The X", 
+        "API-All-the-X", 
+        "https://github.com/18F/API-All-the-X.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "18F project",
+        "Development"
+    ],
+    [
+        "Answers", 
+        "answers", 
+        "https://github.com/18F/answers.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Treasury",
+        "Development"
+    ],
+    [
+        "myUSA",
+        "myusa", 
+        "https://github.com/18F/myusa.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Treasury",
+        "Development"
+    ],
+    [
+        "CAP (Communicart)", 
+        "C2", 
+        "https://github.com/18F/C2.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "General Services Administration",
+        "Alpha"
+    ],
+    [
+        "Agile Assisted Acquisitions", 
+        "aaa", 
+        "https://github.com/18F/aaa.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of Treasury",
+        "Development"
+    ],
+    [
+        "Dashboard", 
+        "dashboard", 
+        "https://github.com/18F/dashboard.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "18F internal project",
+        "Development"
+    ],
+    [
+        "USEITI", 
+        "doi-extractives-data", 
+        "https://github.com/18F/doi-extractives-data.git",
+        "Individual and employer landing pages for the U.S. Department of the Treasury’s new retirement savings program, myRA (“My Retirement Account”).",
+        "U.S. Department of the Interior",
+        "Alpha"
+    ]
+  ]
+}

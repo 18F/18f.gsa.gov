@@ -1,33 +1,23 @@
-<!-- some fun little IE detection, used to guide console formatting -->
+<!--
+  IE detection, used to guide console formatting in subsequent include
+-->
 <script type="text/javascript">window._ie9 = false;</script>
 <!--[if IE 9 ]>
   <script type="text/javascript">window._ie9 = true;</script>
 <![endif]-->
 
-<!-- IE10 JS targeting, from http://stackoverflow.com/a/17099988 -->
-<!-- IE11 JS targeting, from http://stackoverflow.com/a/17447695 -->
+<!--
+ IE10 JS targeting: http://stackoverflow.com/a/17099988
+ IE11 JS targeting: http://stackoverflow.com/a/17447695
+-->
 <script type="text/javascript">
   window._ie10 = ("onpropertychange" in document && !!window.matchMedia);
   window._ie11 = !!navigator.userAgent.match(/Trident\/7.0; rv 11/);
   window._ie = window._ie9 || window._ie10 || window._ie11;
 </script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
-<script src="/assets/js/jquery.dotdotdot.min.js"></script>
+<!-- Browser warning, console message -->
 <script src="/assets/js/18f.js"></script>
-
-<!-- Browser Warning -->
-<script type="text/javascript">
-  var $buoop = {vs:{i:8,f:10,o:12,s:5}};
-  $buoop.ol = window.onload;
-  window.onload=function(){
-  try {if ($buoop.ol) $buoop.ol();}catch (e) {}
-  var e = document.createElement("script");
-  e.setAttribute("type", "text/javascript");
-  e.setAttribute("src", "//browser-update.org/update.js");
-  document.body.appendChild(e);
-  }
-</script>
 
 <!-- Google Analytics -->
 <script>
