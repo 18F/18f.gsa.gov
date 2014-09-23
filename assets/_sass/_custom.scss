@@ -334,8 +334,9 @@ $tiniest: new-breakpoint(max-width 390px);
 	p {
 		font-size: 0.9em;
 		padding: 0; margin: 0;
+		line-height: 1.8;
 		+ p {
-			margin-bottom: 0.5em;
+			margin-bottom: 0.4em;
 		}
 	}
 }
@@ -363,6 +364,10 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-bottom: 6px;
 		font-weight: 700;
 		line-height: 0.9em;
+	}
+	p {
+		margin-bottom: 0.6em;
+		line-height: 1.2em;
 	}
 }
 .tag-index {
