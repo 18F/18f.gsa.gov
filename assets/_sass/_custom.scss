@@ -404,6 +404,10 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .blog-posting {
+  time {
+    display: block;
+    margin-bottom: 10px;
+  }
 	h1 + p {
 		padding-top: 10px;
 	}
