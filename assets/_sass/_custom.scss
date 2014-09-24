@@ -408,9 +408,20 @@ $tiniest: new-breakpoint(max-width 390px);
     display: block;
     margin-bottom: 10px;
   }
-	h1 + p {
+  h1 {
+    font-weight: normal;
+    line-height: 45px;
+  }
+	p.authors {
 		padding-top: 10px;
 	}
+  a.title {
+    color: #333;
+    text-decoration: none
+  }
+  a.title:hover {
+    color: #0068d0;
+  }
 	ul {
 	  	list-style: inherit;
     	padding-bottom: 1.1em;
