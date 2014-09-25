@@ -404,8 +404,27 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .blog-posting {
-	h1 + p {
-		padding-top: 10px;
+	h1 {
+	    font-weight: normal;
+	    margin-bottom: 20px;
+	    + p {
+			padding-top: 10px;
+		}
+		a {
+		    color: #333;
+		    text-decoration: none;
+		  	&:hover, &:focus {
+		    	color: #0068d0;
+		    }
+		}
+	}
+	.blog-tags a {
+		font-weight: 700;
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $base-link-color;
+		}
 	}
 	ul {
 	  	list-style: inherit;

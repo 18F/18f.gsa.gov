@@ -2,7 +2,7 @@
 
 This repository contains 18F's website, https://18f.gsa.gov.
 
-* The `staging` branch is **automatically deployed** to our [staging site](http://staging.18f.us).
+* The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.us).
 * The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
 **All development and pull requests should be done against the `staging` branch.**
@@ -14,11 +14,11 @@ Deployments to production will be done by site admins, using PRs from `staging` 
 If you're a new teammate, add yourself to the website by:
 
 1. Either fork the repository, or make a new branch inside the repo if you have write permissions.
-2. Add your name to [`data/team.yml`](data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines.
+2. Add your name to [`_data/team.yml`](_data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines.
 3. Add a 250x250 JPG of yourself to [`assets/images/team`](assets/images/team). The filename must be your unique team handle, e.g. `eric.jpg`.
 4. (Optional) Verify that your photo and name looks right by [running the site locally](#developing-the-site).
 5. Submit a pull request from your fork or branch to this repository's `staging` branch.
-6. When your PR is merged, your face and name should appear automatically on [our staging site](http://staging.18f.us).
+6. When your PR is merged, your face and name should appear automatically on [our staging site](https://staging.18f.us).
 
 A site admin will take care of deploying you to the [live site](https://18f.gsa.gov). Feel free to poke them if they don't get around to it in a timely fashion!
 
