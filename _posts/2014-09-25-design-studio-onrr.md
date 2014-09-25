@@ -3,6 +3,8 @@ layout: post
 
 title: "User-centered design at 18F: a design studio for natural resource revenues"
 
+image: /assets/blog/eiti/eiti1.jpg
+
 description: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
 
 excerpt: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
@@ -56,17 +58,17 @@ Next, following a round of introductions, we dove right into the collaborative d
 
 **Creating user personas.** Based on the participants’ previous research on users, the group developed [user personas](http://www.usability.gov/how-to-and-tools/methods/personas.html) to serve as examples of the types of people who would interact with the website. We did this by brainstorming possible user goals, behavior patterns, skills, attitudes and environments, and then condensing these into representative groups through [affinity mapping](http://en.wikipedia.org/wiki/Affinity_diagram). The resulting personas give users actual characteristics — names, faces and narratives. This helps our design studio participants (and our 18F team designers!) shift focus away from meeting specific requirements and deliverables, and onto meeting the needs of the users.
 
-![photo: team creating personas](/assets/images/blog/eiti/eiti1.jpg)
+![photo: team creating personas](/assets/blog/eiti/eiti1.jpg)
 _Building user personas_
 
 **Sketching.** Next came rapid rounds of sketching. Participants chose a specific user persona to design for, and each individual was asked to produce 5 sketches in 8 minutes depicting how to meet that user’s needs. After the buzzer told everyone to put their pens down, all participants presented and critiqued each other’s sketches. To do this, we focused on: 1) “Does the design satisfy the goals of the user persona?” and 2) “What assumptions does the design make that we want or need to test?”
 
-![photo: critiquing sketches](/assets/images/blog/eiti/eiti2.jpg)
+![photo: critiquing sketches](/assets/blog/eiti/eiti2.jpg)
 _Critiquing the first round of sketches_
 
 We didn’t focus on whether the design was pretty or technically feasible; we simply wanted to generate ideas we knew would delight our user personas. This process — sketching, presenting, and critiquing — was repeated until the group converged on a clear set of winning designs.
 
-![photo: wall of sketches](/assets/images/blog/eiti/eiti3.jpg)
+![photo: wall of sketches](/assets/blog/eiti/eiti3.jpg)
 _Second round of sketches producing some clear winners!_
 
 ## What’s next?
