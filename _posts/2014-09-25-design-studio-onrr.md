@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: User-centered design at 18F: a design studio for natural resource revenues
+title: "User-centered design at 18F: a design studio for natural resource revenues"
 
 description: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
 
