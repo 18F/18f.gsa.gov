@@ -404,12 +404,19 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .blog-posting {
-  time {
-    display: block;
-    margin-bottom: 10px;
-  }
-	h1 + p {
-		padding-top: 10px;
+	h1 {
+	    font-weight: normal;
+	    margin-bottom: 20px;
+	    + p {
+			padding-top: 10px;
+		}
+		a {
+		    color: #333;
+		    text-decoration: none;
+		  	&:hover, &:focus {
+		    	color: #0068d0;
+		    }
+		}
 	}
 	ul {
 	  	list-style: inherit;
