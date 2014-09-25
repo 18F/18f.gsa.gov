@@ -5,8 +5,6 @@ title: "User-centered design at 18F: a design studio for natural resource revenu
 
 description: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
 
-excerpt: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
-
 authors:
 - chrisc
 - mhz
@@ -24,7 +22,7 @@ tags:
 
 On July 28, 18F kicked off a new project with the [Department of the Interior’s Office of Natural Resources Revenue](http://www.onrr.gov/) (ONRR). 
 
-Later this year, ONRR will be launching a new website — originally prototyped by Round 2 [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/meet-the-fellows) Michelle Hertzfeld — to facilitate national and international conversation around U.S. extractive industries revenue. It will serve as a valuable resource for data and information about U.S. extractive industries on Federal land, and will also provide interactive visualizations that can be readily understood and accessed by the public for reuse through other media and applications.
+Later this year, ONRR will be launching a new website — originally prototyped by Round 2 [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/meet-the-fellows) Michelle Hertzfeld — to facilitate national and international conversation around U.S. extractive industries revenue. It will serve as a valuable resource for data and information about U.S. extractive industries on Federal land, and will also provide interactive visualizations that can be readily understood and accessed by the public for reuse through other media and applications.<!-- more -->
 
 This will all be a part of the U.S. implementation of a global transparency standard for natural resource governance called the [Extractive Industries Transparency Initiative](http://eiti.org/) (EITI). EITI is a global coalition of governments, companies, and civil society working together to improve openness and accountable management of revenues from natural resources including but not limited to oil, natural gas, and coal. The U.S. is the first G7 country to sign-on to and implement the new EITI standard. To learn more about the U.S. process for implementing the EITI standard, check out the [USEITI homepage](http://www.doi.gov/EITI/index.cfm).
 
