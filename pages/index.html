@@ -100,10 +100,12 @@ permalink: /
   </div>
   <div class="container team">
     {% for member in site.data.team %}
-    <div class="bio">
-      <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}" id="clipping">
-      <h1>{{ member.full_name }}</h1></a>
-    </div>
+      {% unless member.hidden %}
+        <div class="bio">
+          <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}" id="clipping">
+          <h1>{{ member.full_name }}</h1></a>
+        </div>
+      {% endunless %}
     {% endfor %}
   </div>
 </section>
