@@ -418,6 +418,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		    }
 		}
 	}
+	.blog-tags a {
+		font-weight: 700;
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $base-link-color;
+		}
+	}
 	ul {
 	  	list-style: inherit;
     	padding-bottom: 1.1em;
