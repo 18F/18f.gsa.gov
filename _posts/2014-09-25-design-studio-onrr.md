@@ -1,6 +1,26 @@
-#User-centered design at 18F: a design studio for natural resource revenues
+---
+layout: post
 
-_By Chris Cairns, Michelle Hertzfeld and Nick Bristow_
+title: User-centered design at 18F: a design studio for natural resource revenues
+
+description: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
+
+excerpt: "We recently kicked off a new project with the Department of the Interior’s Office of Natural Resources Revenue (ONRR). Three weeks into the project, we decided to hold a design studio to solve the problem of how to convey complex revenue data. We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the U.S. outer continental shelf) as it relates to our system. What is a design studio, you ask..."
+
+authors:
+- chrisc
+- mhz
+- nick
+
+tags:
+- our projects
+- open data
+- how we work
+- workshop
+---
+<p class="authors">
+  by {% author chrisc %}, {% author mhz %}, and {% author nick %}
+</p>
 
 On July 28, 18F kicked off a new project with the [Department of the Interior’s Office of Natural Resources Revenue](http://www.onrr.gov/) (ONRR). 
 
@@ -13,7 +33,7 @@ This will all be a part of the U.S. implementation of a global transparency stan
 * members of the general public who want to learn about U.S. extractive industries revenue and how these revenues impact them on a local level;
 * researchers and data scientists who want access to the raw data for analysis purposes.
 
-Over the course of a project, we often conduct one or more workshops. **Three weeks into the USEITI project, we decided to hold a design studio to solve the problem of how to convey complex revenue data.** We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the[ U.S. outer continental shelf](http://en.wikipedia.org/wiki/Outer_Continental_Shelf)) as it relates to our system.
+Over the course of a project, we often conduct one or more workshops. **Three weeks into the USEITI project, we decided to hold a design studio to solve the problem of how to convey complex revenue data.** We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the [U.S. outer continental shelf](http://en.wikipedia.org/wiki/Outer_Continental_Shelf)) as it relates to our system.
 
 ## What’s a design studio?
   
