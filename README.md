@@ -2,7 +2,7 @@
 
 This repository contains 18F's website, https://18f.gsa.gov.
 
-* The `staging` branch is **automatically deployed** to our [staging site](http://staging.18f.us).
+* The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.us).
 * The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
 **All development and pull requests should be done against the `staging` branch.**
@@ -18,7 +18,7 @@ If you're a new teammate, add yourself to the website by:
 3. Add a 250x250 JPG of yourself to [`assets/images/team`](assets/images/team). The filename must be your unique team handle, e.g. `eric.jpg`.
 4. (Optional) Verify that your photo and name looks right by [running the site locally](#developing-the-site).
 5. Submit a pull request from your fork or branch to this repository's `staging` branch.
-6. When your PR is merged, your face and name should appear automatically on [our staging site](http://staging.18f.us).
+6. When your PR is merged, your face and name should appear automatically on [our staging site](https://staging.18f.us).
 
 A site admin will take care of deploying you to the [live site](https://18f.gsa.gov). Feel free to poke them if they don't get around to it in a timely fashion!
 
