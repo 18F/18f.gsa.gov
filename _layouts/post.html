@@ -15,11 +15,8 @@
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-      <time>{{ page.date | date: "%B %-d, %Y" }} </time>
-      <a href="{{ page.url }}" class="title">
-        <h1>{{ page.title }}</h1>
-      </a>
-
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <time datetime="{{ post.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
       {{ content }}
     </section>
 
