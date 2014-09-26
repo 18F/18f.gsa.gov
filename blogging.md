@@ -4,22 +4,22 @@ This document describes 18F's blogging process (both policy and technical). 18F'
 
 Our blog uses Jekyll as a blogging framework, with substantial customizations and integrations added by the 18F team. (In other words, it won't run on GitHub Pages.)
 
-### Blogging process
+### Overview of our blogging process
 
 The process for writing and publishing an 18F blog post goes generally like this:
 
 1. (Optional) Propose a blog post internally (not in this repo), and discuss what it might look like.
-2. Draft a blog post internally (not in this repo), ideally in Markdown, and present it internally.
-3. When the blog post is ready to review for publication, create a new branch in this repository and add it as a Markdown document.
-4. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch.
-5. Nudge the powers that be to merge your pull request, which automatically deploy your post on the staging site.
-6. Nudge the powers that be to merge your post from `staging` to `production`, which will deploy the post automatically to the live site.
+2. Draft a blog post (not in this repo) and present it internally.
+3. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document (see more details below).
+4. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch (mor e details below).
+5. Nudge the powers that be to merge your pull request. This automatically deploys your post on the staging site.
+6. Nudge the powers that be to merge your post from `staging` to `production`. This deploys the post automatically to the live site.
 
 The rest of this document covers #3 and #4, creating a new blog post file in this repo and filing a pull request.
 
 ### Creating a new blog post file
 
-Draft posts (that are _ready for publication review_) should be placed into [`_posts/`](_posts), using a filename that includes the publication date and a unique slug.
+Put draft posts that are _ready for publication review_ in [`_posts/`](_posts). Use a filename that matches the examples in that folder. There should be a publication date and a unique slug.
 
 For example, this filename:
 
@@ -33,9 +33,9 @@ Will yield a publication URL of:
 https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/
 ```
 
-### Starting with metadata
+#### Start with metadata
 
-Begin the new file by adding "YAML front-matter" that will specify the post's title, authors, tags, banner image, and excerpt/description.
+Begin the new file by adding "YAML front-matter." This is where the post's title, authors, tags, banner image, and excerpt/description live.
 
 Robert Read's [blog post on legacy systems](_posts/2014-09-08-the-encasement-strategy-on-legacy-systems-and-the.html) begins with metadata like this:
 
@@ -65,15 +65,15 @@ Here's what each field means:
 
 * `title` - The plain-text title of your post. Surround with quotation marks. This will be displayed prominently above the post, will show up in browser tabs, and will be included in "share text" when the link appears on Twitter, Facebook, and other social media platforms.
 * `image` - The main image of your post. A relative link, with a leading `/`. This will appear in social media platforms when the post is shared. It can be a different image than those which appear embedded in your post.
-* `description` - A short plain-text description of your post. Surround with quotation marks. No Markdown or HTML allowed. This does not need to be an excerpt, but is better as a sentence or two that may appear next to your post on social media and other places which fetch article metadata.
-* `authors` - A list of handles of teammates involved in authoring the post. They must all be lowercase, and must appear in [`_data/team.yml`](_data/team.yml) They do not necessarily have to be the same teammates that appear in the post's byline.
+* `description` - A short plain-text description of your post. Surround with quotation marks. No Markdown or HTML allowed. This does not need to be an excerpt, but instead can be a sentence or two that you feel represents your post well. It may appear next to your post on social media and other places which fetch article metadata.
+* `authors` - A list of handles of teammates involved in authoring the post. They must all be lowercase, and must match a name that appears in [`_data/team.yml`](_data/team.yml) They do not necessarily have to be the same teammates that appear in the post's byline.
 * `tags` - A list of tags to associate with the post. These will appear, linked, next to the post and will take readers to other posts that have this tag. Sentences (e.g. "how we work") are fine &mdash; there is no need to jam phrases into one word
 
-### Adding and formatting the blog post body
+#### Add blog post body
 
-The excerpt and byline are handled in the body of your post.
+The **excerpt** and **byline** are handled in the body of your post.
 
-The first thing in your post should be the byline, in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
+**Byline.** The first thing in your post should be the byline, in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
 
 [Robert's encasement post](_posts/2014-09-08-the-encasement-strategy-on-legacy-systems-and-the.html) uses this byline:
 
@@ -85,7 +85,7 @@ The first thing in your post should be the byline, in a `<p>` tag with a class o
 
 After this, enter the body of your post, ideally in Markdown.
 
-Excerpts are noted by using a magic HTML comment, `<!-- more -->`, after the point in your post you wish the excerpt to stop. Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Excerpts can include Markdown and HTML.
+**Excerpt.** Please add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, approximately the first few sentences or the first paragraph are good legnths to excerpt. Excerpts can include Markdown and HTML.
 
 The [EITI team's design studio post](_posts/2014-09-25-design-studio-onrr.md) uses this excerpt:
 
@@ -95,7 +95,7 @@ On July 28, 18F kicked off a new project with the [Department of the Interior’
 Later this year, ONRR will be launching a new website — originally prototyped by Round 2 [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/meet-the-fellows) Michelle Hertzfeld — to facilitate national and international conversation around U.S. extractive industries revenue. It will serve as a valuable resource for data and information about U.S. extractive industries on Federal land, and will also provide interactive visualizations that can be readily understood and accessed by the public for reuse through other media and applications.<!-- more -->
 ```
 
-### Linking to blog post assets
+#### Link blog post assets
 
 Unless there's an extremely compelling reason, **blog post resources should be committed to this repository**. This includes images, JavaScript, additional CSS, whatever.
 
