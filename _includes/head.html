@@ -12,31 +12,31 @@
 <!-- RSS feeds
 ================================================== -->
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed/" />
 
 <!-- Twitter and OpenGraph data
 ================================================== -->
 <meta name="twitter:site" content="@18F">
 <meta name="twitter:creator" content="@18F">
-<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:site_name" content="{{ site.title | xml_escape }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.url }}" />
 
 <!-- title, description, and image may change per-page, per-post -->
 {% if page.title %}
   <title>18F &mdash; {{ page.title }}</title>
-  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title | xml_escape }}" />
 {% else %}
   <title>{{ site.title }}</title>
-  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:title" content="{{ site.title | xml_escape }}" />
 {% endif %}
 
 {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  <meta property="og:description" content="{{ page.description }}" />
+  <meta name="description" content="{{ page.description | xml_escape }}">
+  <meta property="og:description" content="{{ page.description | xml_escape }}" />
 {% else %}
-  <meta name="description" content="{{ site.description }}">
-  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="description" content="{{ site.description | xml_escape }}">
+  <meta property="og:description" content="{{ site.description | xml_escape }}" />
 {% endif %}
 
 <!-- use large summary card for posts with images, normal summary otherwise -->
