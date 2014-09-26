@@ -64,7 +64,7 @@ tags:
 Here's what each field means:
 
 * `title` - The plain-text title of your post. Surround with quotation marks. This will be displayed prominently above the post, will show up in browser tabs, and will be included in "share text" when the link appears on Twitter, Facebook, and other social media platforms.
-* `image` - The main image of your post. This will appear in social media platforms when the post is shared. It can be a different image than those which appear embedded in your post.
+* `image` - The main image of your post. A relative link, with a leading `/`. This will appear in social media platforms when the post is shared. It can be a different image than those which appear embedded in your post.
 * `description` - A short plain-text description of your post. Surround with quotation marks. No Markdown or HTML allowed. This does not need to be an excerpt, but is better as a sentence or two that may appear next to your post on social media and other places which fetch article metadata.
 * `authors` - A list of handles of teammates involved in authoring the post. They must all be lowercase, and must appear in [`_data/team.yml`](_data/team.yml) They do not necessarily have to be the same teammates that appear in the post's byline.
 * `tags` - A list of tags to associate with the post. These will appear, linked, next to the post and will take readers to other posts that have this tag. Sentences (e.g. "how we work") are fine &mdash; there is no need to jam phrases into one word
@@ -117,8 +117,14 @@ assets/blog/eiti/
 assets/blog/eiti/eiti1.jpg
 ```
 
-* **Use relative links in posts**, with title attributes, like this:
+* **Use relative links in posts**, with a leading slash and a title attribute, like this:
 
 ```markdown
 ![photo: team creating personas](/assets/blog/eiti/eiti1.jpg)
+```
+
+or in HTML:
+
+```html
+<img src="/assets/blog/eiti/eiti1.jpg" title="photo: team creating personas" />
 ```
