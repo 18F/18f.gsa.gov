@@ -10,16 +10,14 @@ The process for writing and publishing an 18F blog post goes generally like this
 
 1. (Optional) Propose a blog post internally (not in this repo), and discuss what it might look like.
 2. Draft a blog post (not in this repo) and present it internally.
-3. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document (see more details below).
-4. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch (mor e details below).
+3. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document **(more details below)**.
+4. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch.
 5. Nudge the powers that be to merge your pull request. This automatically deploys your post on the staging site.
 6. Nudge the powers that be to merge your post from `staging` to `production`. This deploys the post automatically to the live site.
 
-The rest of this document covers #3 and #4, creating a new blog post file in this repo and filing a pull request.
-
 ### Creating a new blog post file
 
-Put draft posts that are _ready for publication review_ in [`_posts/`](_posts). Use a filename that matches the examples in that folder. There should be a publication date and a unique slug.
+Put draft posts that are ready for publication review in [`_posts/`](_posts). Use a filename that matches the example below. There should be a publication date and a unique slug.
 
 For example, this filename:
 
@@ -73,7 +71,7 @@ Here's what each field means:
 
 The **excerpt** and **byline** are handled in the body of your post.
 
-**Byline.** The first thing in your post should be the byline, in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
+**Byline.** The first paragraph in your post should be the byline. Place it in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
 
 [Robert's encasement post](_posts/2014-09-08-the-encasement-strategy-on-legacy-systems-and-the.html) uses this byline:
 
@@ -83,13 +81,13 @@ The **excerpt** and **byline** are handled in the body of your post.
 </p>
 ```
 
-After this, enter the body of your post, ideally in Markdown.
+After this, you can add the body of your post, ideally in Markdown.
 
-**Excerpt.** Please add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, approximately the first few sentences or the first paragraph are good legnths to excerpt. Excerpts can include Markdown and HTML.
+**Excerpt.** Add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, the first few sentences or the first paragraph of your posts are good legnths to use as your excerpt. Excerpts can include Markdown and HTML.
 
 The [EITI team's design studio post](_posts/2014-09-25-design-studio-onrr.md) uses this excerpt:
 
-```markdown
+```
 On July 28, 18F kicked off a new project with the [Department of the Interior’s Office of Natural Resources Revenue](http://www.onrr.gov/) (ONRR).
 
 Later this year, ONRR will be launching a new website — originally prototyped by Round 2 [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/meet-the-fellows) Michelle Hertzfeld — to facilitate national and international conversation around U.S. extractive industries revenue. It will serve as a valuable resource for data and information about U.S. extractive industries on Federal land, and will also provide interactive visualizations that can be readily understood and accessed by the public for reuse through other media and applications.<!-- more -->
