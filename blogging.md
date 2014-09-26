@@ -43,11 +43,11 @@ Robert Read's [blog post on legacy systems](_posts/2014-09-08-the-encasement-str
 ---
 layout: post
 
-title: 'The Encasement Strategy: On Legacy Systems and the Importance of APIs'
+title: "The Encasement Strategy: On Legacy Systems and the Importance of APIs"
 
 image: /assets/images/blog/encasement/encasement1.png
 
-description: In 1986 a nuclear reactor known as Chernobyl released harmful radioactivity which spread over much of the western USSR and Europe. The core of this reactor remains a glowing, ineradicable mass of deadly radioactive lava in the middle of a large Exclusion Zone unfit for human habitation.
+description: "In 1986 a nuclear reactor known as Chernobyl released harmful radioactivity which spread over much of the western USSR and Europe. The core of this reactor remains a glowing, ineradicable mass of deadly radioactive lava in the middle of a large Exclusion Zone unfit for human habitation."
 
 authors:
 - robert
@@ -63,9 +63,9 @@ tags:
 
 Here's what each field means:
 
-* `title` - The title of your post. This will be displayed prominently above the post, will show up in browser tabs, and will be included in "share text" when the link appears on Twitter, Facebook, and other social media platforms.
+* `title` - The plain-text title of your post. Surround with quotation marks. This will be displayed prominently above the post, will show up in browser tabs, and will be included in "share text" when the link appears on Twitter, Facebook, and other social media platforms.
 * `image` - The main image of your post. This will appear in social media platforms when the post is shared. It can be a different image than those which appear embedded in your post.
-* `description` - A short **plain-text** description of your post. No Markdown or HTML allowed. This does not need to be an excerpt, but is better as a sentence or two that may appear next to your post on social media and other places which fetch article metadata.
+* `description` - A short plain-text description of your post. Surround with quotation marks. No Markdown or HTML allowed. This does not need to be an excerpt, but is better as a sentence or two that may appear next to your post on social media and other places which fetch article metadata.
 * `authors` - A list of handles of teammates involved in authoring the post. They must all be lowercase, and must appear in [`_data/team.yml`](_data/team.yml) They do not necessarily have to be the same teammates that appear in the post's byline.
 * `tags` - A list of tags to associate with the post. These will appear, linked, next to the post and will take readers to other posts that have this tag. Sentences (e.g. "how we work") are fine &mdash; there is no need to jam phrases into one word
 
