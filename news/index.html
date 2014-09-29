@@ -4,6 +4,7 @@ layout: bare
 <section>
   <h1># news</h1>
   <div class="container blog-entry {{tag}}" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
     {% for post in paginator.posts %}
           <article class="tag-index">
             <div class="blog-title">
@@ -29,7 +30,7 @@ layout: bare
             </div>
 
             <div class="blog-snippet">
-              <p itemprop="articleBody">{{ post.description }}</p>
+              <p itemprop="articleBody">{{ post.excerpt | strip_html }}</p>
             </div>
 
             <div class="blog-continue">
