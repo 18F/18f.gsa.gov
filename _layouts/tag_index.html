@@ -35,7 +35,7 @@ layout: bare
             </div>
 
             <div class="blog-snippet" itemprop="articleBody">
-              {{ post.excerpt }}
+              <p>{{ post.excerpt | strip_html }}</p>
             </div>
 
             <div class="blog-continue">

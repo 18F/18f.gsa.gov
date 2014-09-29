@@ -15,8 +15,17 @@
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-      <h1>{{page.title}}</h1>
-
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <time datetime="{{ post.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
+      <p>
+        Tagged /
+        <span class="blog-tags" itemprop="keywords">
+          {% for tag in page.tags %}
+            <a href="/{{site.tag_dir}}/{{ tag }}">{{ tag }}</a>
+            /
+          {% endfor %}
+        </span>
+      </p>
       {{ content }}
     </section>
 

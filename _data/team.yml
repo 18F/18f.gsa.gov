@@ -44,6 +44,8 @@
   full_name: Stacy Kane
 - name: noah
   full_name: Noah Kunin
+- name: diego
+  full_name: Diego Lapiduz
 - name: sasha
   full_name: Sasha Magee
 - name: majma
@@ -72,7 +74,12 @@
   full_name: Amos Stone
 - name: raphy
   full_name: Raphael Villas
+- name: lindsay
+  full_name: Lindsay Young
 - name: yuda
   full_name: John Yuda
 - name: victor
   full_name: Victor Diaz Zapanta
+- name: jane
+  full_name: jane avriette
+  hidden: true
