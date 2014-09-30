@@ -8,16 +8,20 @@ image: /assets/blog/midas-oct-hacking/coding.jpg
 description: "We're building the future of government, but we need your help! Join us for a session of coding or UX design. Feel free to come for the afternoon or evening session or both! You can work solo, in pairs or groups that will form when we get there. "
 
 authors:
-- ultrasaurus
+- sarah
 
 tags:
 - open source
 - how we work
 ---
-![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
+<p class="authors">
+  by {% author sarah %} from the Midas team
+</p>
 **Do you know JavaScript?  or do you have UX or visual design skills?**
 
 **One evening can make an impact!**
+
+![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
 
 18F invites designers and developers from inside and outside of government to [join us](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885) for a flurry of coding and sketching.
 
