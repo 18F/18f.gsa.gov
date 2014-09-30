@@ -3,7 +3,7 @@ layout: post
 
 title: "18F Open Source Hack Series: Midas"
 
-image: /assets/images/blog/oct-midas-hack/coding.png
+image: /assets/blog/midas-oct-hacking/coding.jpg
 
 description: "We're building the future of government, but we need your help! Join us for a session of coding or UX design. Feel free to come for the afternoon or evening session or both! You can work solo, in pairs or groups that will form when we get there. "
 
@@ -19,6 +19,8 @@ tags:
 **One evening can make an impact!**
 
 18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.
+
+![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
 
  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world.
 
