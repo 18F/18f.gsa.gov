@@ -51,6 +51,6 @@ We're building the future of government, but we need your help!  We have a stabl
 [Sign up by Thurs., Oct 2 to reserve your spot!](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885)
 
 
-![Designing at the Whitebaord](/assets/blog/midas-oct-hacking/whiteboard.jpg)
+![Designing at the Whitebaord](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
 
 
