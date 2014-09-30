@@ -80,7 +80,7 @@ permalink: /
         </p>
       </div>
       <div class="blog-snippet" itemprop="articleBody">
-        {{ post.excerpt }}
+        <p>{{ post.excerpt |strip_html }}</p>
         <p><a href="{{ post.url }}">Continue reading...</a></p>
       </div>
     {% endfor %}

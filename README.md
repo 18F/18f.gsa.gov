@@ -22,6 +22,10 @@ If you're a new teammate, add yourself to the website by:
 
 A site admin will take care of deploying you to the [live site](https://18f.gsa.gov). Feel free to poke them if they don't get around to it in a timely fashion!
 
+### Publishing a blog post
+
+For a guide to how 18F manages blogging, and technical guidelines for getting your blog post into the site, see the **[18F Blogging Guide](blogging.md)**.
+
 ### Developing the site
 
 This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`):
