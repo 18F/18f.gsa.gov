@@ -14,13 +14,12 @@ tags:
 - open source
 - how we work
 ---
+![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
 **Do you know JavaScript?  or do you have UX or visual design skills?**
 
 **One evening can make an impact!**
 
-18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.
-
-![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
+18F invites designers and developers from inside and outside of government to [join us](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885) for a flurry of coding and sketching.
 
  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world.
 
@@ -48,5 +47,10 @@ We're building the future of government, but we need your help!  We have a stabl
 * [Node.js](http://nodejs.org/)
 * [Backbone](http://backbonejs.org/)
 * [Sails.js](http://sailsjs.org/)
+
+[Sign up by Thurs., Oct 2 to reserve your spot!](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885)
+
+
+![Designing at the Whitebaord](/assets/blog/midas-oct-hacking/whiteboard.jpg)
 
 
