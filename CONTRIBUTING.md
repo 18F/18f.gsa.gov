@@ -1,4 +1,4 @@
-**CONTRIBUTORS TAKE NOTE:** We work off the `devel` branch, so be sure to base your work on `devel`, not `master`.
+**CONTRIBUTORS TAKE NOTE:** We work off the `staging` branch, so be sure to base your work on `staging` -- we don't event have a `master` branch.
 
 ## Public domain
 
