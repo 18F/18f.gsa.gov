@@ -4,3 +4,5 @@
 *.log
 /node_modules
 /.sass-cache/
+.rvmrc
+
