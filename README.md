@@ -50,6 +50,14 @@ You don't need to worry about deployment stuff for normal development -- any pus
 
 But to dig into our deployment setup and code, visit [`deploy/`](deploy) for more details.
 
+**Legacy deploy**
+
+While we wait on a DNS change, the following can be used to update the live site on the old server, while logged in as the `ubuntu` user:
+
+```bash
+cd /var/www/18f.gsa.gov-new && git pull && sudo jekyll build && sudo chown -R ubuntu:ubuntu _site && sudo chmod -R 755 _site
+```
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
