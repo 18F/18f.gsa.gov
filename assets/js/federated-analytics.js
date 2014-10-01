@@ -31,7 +31,7 @@ var GSA_CPwrapGA = (function () {
 
 		var domainHash;
 		var dlh = document.location.hostname;
-		
+
         var oCONFIG = {
 				// System parameters - don't change without discussion with CP
             VERSION : 'v1.74 131022 : Fix for multiple PUA loop',
@@ -49,7 +49,7 @@ var GSA_CPwrapGA = (function () {
 			ANONYMIZE_IP		: true,	// only change to false in rare circumustances where GeoIP location accuracy is critical
 			YOUTUBE 			: false
 		};
-        
+
 			// Object for centralized control of all Custom Variables reported in this sript file.
 			// Since GSA code only ever sets page level CVs, scope is always 3
         var oCVs = {
@@ -58,54 +58,54 @@ var GSA_CPwrapGA = (function () {
             version		: { key : 'Code Ver',slot : 35, scope : 3
           }
         }
-        
+
         /**
          *  Sets up _gas and configures accounts, domains, etc,
          * In effect, ensures functions are compiled before being called
          * @private
          */
         var _init = function () {
-            
+
 			_setParams();
-							
+
             oCONFIG.HOST_DOMAIN_OR = oCONFIG.HOST_DOMAIN_OR.replace(/^www\./i, '');
-			
+
             var ary = setHashAndPeriod(oCONFIG.HOST_DOMAIN_OR);
             oCONFIG.LEADING_PERIOD = ary[1];
-            
+
 
             // ver 1.73 allows QS UA ids: _gas.push(['GSA_CP1._setAccount', oCONFIG.GWT_UAID]);
 			for (var i=0;i<oCONFIG.GWT_UAID.length;i++) {
 				_gas.push(['GSA_CP' + (i+1) + '._setAccount', oCONFIG.GWT_UAID[i]]);
 			}
-			
+
 			if (oCONFIG.PARALLEL_UA && !oCONFIG.DEBUG_MODE)
 				for (i=oCONFIG.GWT_UAID.length;i<oCONFIG.PARALLEL_UA.length + oCONFIG.GWT_UAID.length;i++) {
 					_gas.push(['GSA_CP' + (i+1) + '._setAccount', oCONFIG.PARALLEL_UA[i-1]]);
 				}
-			
+
             if (oCONFIG.ANONYMIZE_IP) {
 				_gaq.push (['_gat._anonymizeIp']);
 			}
             _gas.push(['_setDomainName', oCONFIG.LEADING_PERIOD + oCONFIG.HOST_DOMAIN_OR]);
-			
+
 			setGAcookieTimeouts();
-            
+
             if (ary[0]) {
                 _gas.push(['_setAllowHash', false]);
             }
-            
+
             _gas.push(['_gasTrackOutboundLinks']);
-			
+
 			if (oCONFIG.EXTS) {
 				_gas.push(['_gasTrackDownloads',{'extensions': oCONFIG.EXTS.split(',')}]);
 			} else {
 				_gas.push(['_gasTrackDownloads']);
 			}
-			
+
             _gas.push(['_gasTrackMailto']);
 			if (oCONFIG.YOUTUBE) {
-				_gas.push(['_gasTrackYoutube', {percentages: [33, 66, 90], force:true}]); 
+				_gas.push(['_gasTrackYoutube', {percentages: [33, 66, 90], force:true}]);
 			}
 
 			// Filter out sub-domain links tracked as Outbound
@@ -116,7 +116,7 @@ var GSA_CPwrapGA = (function () {
 					}
 				}
 			]);
-				
+
             // Add hook to _trackPageview to standardize search parameters
             _gas.push(['_addHook', '_trackPageview', function (pageName) {
                         var re = new RegExp('([?&])(' + oCONFIG.SEARCH_PARAMS + ')(=[^&]*)', 'i');
@@ -126,10 +126,10 @@ var GSA_CPwrapGA = (function () {
                         return [pageName];
                     }
                 ]);
-            
+
         };
-        
-		
+
+
         /**
          *  Sets the cookie timeouts if values have been set in oCONFIG at the top of this file
          *
@@ -140,8 +140,8 @@ var GSA_CPwrapGA = (function () {
             if (oCONFIG.VISITOR_TIMEOUT > -1) _gaq.push(['_setVisitorCookieTimeout', oCONFIG.VISITOR_TIMEOUT*1000*60*60*24*30.416667]);	// Specified in months - GA uses 30.416.. as the number of days/month
             if (oCONFIG.CAMPAIGN_TIMEOUT > -1) _gaq.push(['_setCampaignCookieTimeout', oCONFIG.CAMPAIGN_TIMEOUT*1000*60*60*24*30.416667]);	// Specified in months
 		}
-		
-		
+
+
         /**
          *  Returns the domain and top-level domain  - eg example.com, example.ca example.co.uk, example.com.au or ipaddress
          *
@@ -150,25 +150,25 @@ var GSA_CPwrapGA = (function () {
          */
         var getDomainNameGovMil = function (strURL) {
             strURL = strURL || dlh;
-            
+
             // extract the host name since full url may have been provided
             strURL = strURL.match(/^(?:https?:\/\/)?([^\/:]+)/)[1]; // this cannot error unless running as file://
-            
+
             if (strURL.match(/(\d+\.){3}(\d+)/) || strURL.search(/\./) == -1)
                 return strURL; // ipaddress
-            
-            
+
+
             try {
                 if (/\.(gov|mil)$/i.test(strURL)) { // Customized for .gov and .mil
                     strURL = strURL.match(/\.([^.]+\.(gov|mil)$)/i)[1];
                 } else {
                     strURL = strURL.match(/(([^.\/]+\.[^.\/]{2,3}\.[^.\/]{2})|(([^.\/]+\.)[^.\/]{2,4}))(\/.*)?$/)[1];
                 }
-                
+
             } catch (e) {}
             return strURL.toLowerCase();
         };
-        
+
         /**
          *  Returns the GA hash for the Cookie domain passed
          *
@@ -176,7 +176,7 @@ var GSA_CPwrapGA = (function () {
          * @param {string} strCookieDomain -  the hostname used for the cookie domain
          */
         var getDomainHash = function (strCookieDomain) {
-            
+
             var fromGaJs_h = function (e) {
                 return undefined == e || "-" == e || "" == e;
             };
@@ -199,7 +199,7 @@ var GSA_CPwrapGA = (function () {
             };
             return fromGaJs_s(strCookieDomain);
         };
-        
+
         /**
          *  Returns an array [bool, str] where bool indicates value for setAllowHash and str is either blank or a leading period
          *
@@ -209,16 +209,16 @@ var GSA_CPwrapGA = (function () {
         var setHashAndPeriod = function (strCookieDomain) {
             var utmaCookies = document.cookie.match(/__utma=[^.]+/g);
             var retVals = [false, '']; // setAllowHash = false and leading period = ''
-            
+
 				// if no cookies found
             if (!utmaCookies)
                 return retVals;
-            
+
             domainHash = getDomainHash(strCookieDomain);
-			
+
             for (var elm = 0; elm < utmaCookies.length ; elm++) {
                 utmaCookies[elm] = utmaCookies[elm].substr(7); // strip __utma= leaving only the hash
-                
+
                 // look for the cookie with the matching domain hash
                 var hashFound = (domainHash == utmaCookies[elm]);
                 // if found, there's a hash and we're done
@@ -229,14 +229,14 @@ var GSA_CPwrapGA = (function () {
                     hashFound = (getDomainHash('.' + strCookieDomain) == utmaCookies[elm]);
                     retVals[1] = hashFound ? '.' : '';
                 }
-                
+
                 // if not found, check for setAllowHashFalse - aka hash = 1
                 retVals[0] = retVals[0] || ('1' == utmaCookies[elm]); // true if hash == 1
             }
-            
+
             return retVals;
         };
-		
+
         /**
          *  Sets the Custom Variables for Agency and sub-Agency based on the agency and sub_agency objects in oCVs
          *
@@ -246,46 +246,46 @@ var GSA_CPwrapGA = (function () {
             setCustomVar(oCONFIG.AGENCY, oCVs.agency); // Page level variable sent only to GSA account
             setCustomVar(oCONFIG.SUB_AGENCY, oCVs.sub_agency); // Page level variable sent only to GSA account
         }
-                  /**           
+                  /**
          *  Single generic method to set all custom vars based on single control object for all CVs - see oCVs near the top of the file
          *	To keep the cookies synchronized, first check that agency is not already using the slot for a Vistor Level Varialbe
 		 *  If it is, even a PLCV will remove the value from their cookie.  In that case we don't set the variable.
-		 
+
          * @private
          * @param {string} value -  the only argument set outside of oCVs
          * @param {object} oCV -  the object in oCVs for a particular variable
          */
         var setCustomVar = function (value, oCV) {
 			if (!value) return;
-			
+
 			var pageTracker = _gat._getTrackerByName(); // Gets the default tracker.
 			var visitorCustomVarValue = pageTracker._getVisitorCustomVar(oCV.slot);
-			
+
 			if (!visitorCustomVarValue)
 				_gas.push(['_setCustomVar', oCV.slot, oCV.key, value, oCV.scope]); // Record version in Page Level (oCV.scope ) Custom Variable specified in oCV.slot
         }
-        
+
         /**
          * Reports a page view and detects if page is a 404 Page not found
          * @public
          */
         this.onEveryPage = function () {
-            
+
             var pageName = document.location.pathname + document.location.search + document.location.hash;
-            
+
             // ... Page Not Found
             // Track as a pageview because we need to see if it's a landing page.
             if (document.title.search(/404|not found/i) !== -1) {
                 var vpv404 = '/vpv404/' + pageName;
                 pageName = vpv404.replace(/\/\//g, '/') + '/' + document.referrer;
             }
-            
+
             setCustomVar(oCONFIG.VERSION, oCVs.version)
 			setAgencyVars();
             _gas.push(['_trackPageview', pageName]);
         };
-		
-        
+
+
         /**
          * Retrieves the params from the script block src
          * @private
@@ -298,15 +298,15 @@ var GSA_CPwrapGA = (function () {
 				var tag = tags[i];
 				if (/federated-analytics.*\.js/i.test(tag.src)) src = tag;
 			}
-			
+
 			if (src) {
 				src = src.src.split(/[?&]/);
 				src.shift();
 				for (var i = 0; i < src.length; i++) {
-				
+
 					var param = src[i].split('=');
 					src[0] = src[0].toLowerCase();
-					
+
 						// params in the query string
 					if ('agency' == param[0]) {
 						oCONFIG.AGENCY = param[1].toUpperCase();
@@ -334,7 +334,7 @@ var GSA_CPwrapGA = (function () {
 						oCONFIG.ANONYMIZE_IP = ('true' == param[1]) ? true : !('false' == param[1]);
 					} else if ('yt' == param[0]) {
 						oCONFIG.YOUTUBE = ('true' == param[1]) ? true : !('false' == param[1]);
-					} else if ('sdor' == param[0]) {	// subdomain override 
+					} else if ('sdor' == param[0]) {	// subdomain override
 							// default is false - tracking will be at the sub-domain level
 						if (('true' == param[1]) ? true : !('false' == param[1])) {
 							// getDomainNameGovMil() returns domain name, not sub-domains and with no leading period e.g.  returns usa.gov on http://xyz.usa.gov
@@ -345,17 +345,17 @@ var GSA_CPwrapGA = (function () {
 					}
 				}
 			}
-			
+
 				// Defaults for Agency and Sub-Agency.  Others are in the oCONFIG object
 			oCONFIG.AGENCY = oCONFIG.AGENCY || 'unspecified:' + oCONFIG.HOST_DOMAIN_OR;
 			oCONFIG.SUB_AGENCY = oCONFIG.SUB_AGENCY || ('' + dlh);
-			
+
 			oCONFIG.SUB_AGENCY = oCONFIG.AGENCY + ' - ' + oCONFIG.SUB_AGENCY
 
 			oCONFIG.CAMPAIGN_TIMEOUT = Math.min(oCONFIG.CAMPAIGN_TIMEOUT, oCONFIG.VISITOR_TIMEOUT);
 		}
         _init();
-        
+
     });
 
 // -- End of federated-analytics.js ----
@@ -373,7 +373,7 @@ var GSA_CPwrapGA = (function () {
  * @author Eduardo Cereto <eduardocereto@gmail.com>
  * Licensed under the GPLv3 license.
  */
-(function(window, undefined) {  
+(function(window, undefined) {
 /**
  * GAS - Google Analytics on Steroids
  *
@@ -1304,18 +1304,13 @@ if (typeof window._gat === 'undefined') {
         var ga = document.createElement('script');
         ga.type = 'text/javascript';
         ga.async = true;
-        ga.src = (
-            'https:' === document.location.protocol ?
-                'https://ssl' :
-                'http://www'
-        ) +
-            '.google-analytics.com/ga.js';
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     }());
 }
 
-})(window);   
+})(window);
 
 // -- gasEnd--
 
@@ -1325,7 +1320,7 @@ _gas.push(function () {
         this._DOMReady(function () {
                 try {
                     var oGSA_CPwrapGA = new GSA_CPwrapGA();
-                    
+
                     if (!document._gsaDelayGA)
                         oGSA_CPwrapGA.onEveryPage();
                 } catch (e) {
@@ -1333,7 +1328,7 @@ _gas.push(function () {
                         console.log(e.message);
 						console.log(e.stack.toString());
                     } catch (e) {}
-                    
+
                 }
             });
     });
