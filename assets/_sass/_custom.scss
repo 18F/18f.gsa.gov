@@ -418,6 +418,9 @@ $tiniest: new-breakpoint(max-width 390px);
 		    }
 		}
 	}
+	a:hover, a:focus {
+		text-decoration: none;
+	}
 	.blog-tags a {
 		font-weight: 700;
 		text-decoration: none;
@@ -437,9 +440,27 @@ $tiniest: new-breakpoint(max-width 390px);
     	margin-left: 1em;
 	}
 }
+.blog-pagination {
+	margin-top: 30px;
+	h1 {
+		font-size: 1em;
+	}
+	> div {
+		@include span-columns(6);
+	}
+	> div:last-of-type {
+		text-align: right;
+	}
+	a {
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
 .blog-follow-us {
 	@include span-columns(12);
-	padding-top: 15px;
+	padding-top: 30px;
 	h1 {
 		font-size: 1.3em;
 	}
