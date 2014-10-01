@@ -49,6 +49,7 @@ We're building the future of government, but we need your help!  We have a stabl
 **Designers, UX or usability folks:** We have a lot of issues tagged [design](https://github.com/18F/midas/labels/design). You can work on mockups or detailed deisgn suggestions.  If we have enough people we could even do some informal usability test sessions!
 
 **Developers** Check out our [contribution guide](https://github.com/18F/midas/blob/devel/CONTRIBUTING.md) -- all of our code is [public domain](https://github.com/18F/midas/blob/devel/LICENSE.md).  For coders, we'd love some experts to join us, but open source is also a great place to learn and hone your skills.  Here's a list of some of the tech we use:
+
 * [Node.js](http://nodejs.org/)
 * [Backbone](http://backbonejs.org/)
 * [Sails.js](http://sailsjs.org/)
