@@ -83,5 +83,5 @@
 - name: jane
   full_name: jane avriette
   hidden: true
-  full_name: Ben Willman
-- name: ben
+- full_name: Ben Willman
+  name: ben
