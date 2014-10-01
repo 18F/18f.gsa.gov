@@ -34,6 +34,13 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 gem install jekyll
 ```
 
+Install the latest versions of Sass and Bourbon:
+
+```bash
+gem install bourbon
+gem install sass
+```
+
 Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
 
 Launch with Jekyll:
