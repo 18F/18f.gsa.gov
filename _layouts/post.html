@@ -29,6 +29,18 @@
       {{ content }}
     </section>
 
+    {% if page.previous or page.next %}
+        <div class="pagination">
+            {% if page.previous %}
+                Previous Post: <a class="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            {% endif %}
+
+            {% if page.next %}
+                Next Post: <a class="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+            {% endif %}
+        </div>
+    {% endif %}
+
     <aside class="blog-follow-us">
       <h1>Follow us here:</h1>
       <ul>
