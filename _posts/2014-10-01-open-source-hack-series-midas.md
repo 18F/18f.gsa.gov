@@ -24,10 +24,6 @@ tags:
 
 **One evening can make an impact!**
 
-![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
-
-18F invites designers and developers from inside and outside of government to [join us](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885) for a flurry of coding and sketching.
-
 18F invites designers and developers from inside and outside of government to [join us](http://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885) for a flurry of coding and sketching.
 
  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world.
