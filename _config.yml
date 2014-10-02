@@ -10,6 +10,8 @@ exclude:
 - CONTRIBUTING.md
 - todo.txt
 
+gems: [jekyll-sitemap]
+
 sass:
   sass_dir: assets/_sass
 
