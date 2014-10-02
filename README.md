@@ -28,10 +28,12 @@ For a guide to how 18F manages blogging, and technical guidelines for getting yo
 
 ### Developing the site
 
-This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`):
+This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`), Bourbon, and Jekyll Sitemap:
 
 ```bash
 gem install jekyll
+gem install bourbon
+gem install jekyll-sitemap
 ```
 
 Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
