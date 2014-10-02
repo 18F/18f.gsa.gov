@@ -1,2 +1,6 @@
+# All comers welcome!
+
+Sitemap: https://18f.gsa.gov/sitemap.xml
+
 User-agent: *
 Allow: *
