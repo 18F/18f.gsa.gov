@@ -1,2 +1,3 @@
 User-agent: *
 Allow: *
+Sitemap: https://18f.gsa.gov/sitemap.xml
