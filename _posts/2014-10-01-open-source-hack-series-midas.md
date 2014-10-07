@@ -15,6 +15,7 @@ authors:
 tags:
 - open source
 - how we work
+- midas
 ---
 <p class="authors">
   by {% author sarah %} from the Midas team
@@ -58,6 +59,6 @@ We're building the future of government, but we need your help!  We have a stabl
 
 
 ![Designing at the
-Whitebaord](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
+Whiteboard](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
 
 
