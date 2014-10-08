@@ -1,15 +1,4 @@
 ---
 permalink: /api/team/
 ---
-{
-	"team": {
-		"members": [
-			{% for member in site.data.team %}
-			{ 
-				"name": "{{ member.name }}",
-				"full_name": "{{ member.full_name}}"
-			}{% if member != site.data.team.last %},{% endif %}
-			{% endfor %}
-		]
-	}
-}
+{{ site.data.team | jsonify }}
