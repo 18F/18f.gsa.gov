@@ -1,4 +1,0 @@
----
-permalink: /api/team/
----
-{{ site.data.team | jsonify }}
