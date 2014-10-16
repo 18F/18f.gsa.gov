@@ -1,34 +1,32 @@
 require 'pry'
 module Jekyll
 
-  class DataAPI < Page
-    def initialize(site, base, dir, data)
+  class JSONFile < Jekyll::StaticFile
+    def initialize(site, base, dir, name)
       @site = site
       @base = base
       @dir = dir
-      @data = data
-      # @name = 'data.json'
-      # @tag_title_prefix = site.config['tag_title_prefix']
+      @name = name
     end
   end
-
   class APIGenerator < Generator
     safe true
 
     def generate(site)
-      dir = '_site/api'
+      dir = '/api' || site.config['api_dir']
+      Dir.mkdir(site.dest+dir) if !Dir.exists?(site.dest+dir)
+      Dir.mkdir(site.dest+dir+'/data') if !Dir.exists?(site.dest+dir+'/data')
+      dir = dir+'/data/'
       site.data.keys.each do |datum|
-        write_data_api(site, File.join(dir, datum), datum)
+        write_data_api(site, dir, datum)
+        new_static = JSONFile.new(site, site.dest, '/api/data/', datum+'.json')
+        site.keep_files << 'api/data/'+datum+'.json'
       end
     end
 
     def write_data_api(site, dir, datum)
-      index = DataAPI.new(site, site.source, dir, datum)
       data_set = site.data[datum]
-      binding.pry
-      File.open(dir+'.json', 'w+') { |file| file.write(data_set.to_json)}
-      binding.pry
+      File.open(site.dest+dir+datum+'.json', 'w') { |file| file.write(data_set.to_json)}
     end
   end
-
 end
