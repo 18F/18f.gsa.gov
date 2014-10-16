@@ -42,6 +42,9 @@
   full_name: Michelle Hood
 - name: stacy
   full_name: Stacy Kane
+- name: jackie
+  full_name: Jackie Kazil
+  hidden: true
 - name: noah
   full_name: Noah Kunin
 - name: diego
