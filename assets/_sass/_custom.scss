@@ -677,6 +677,15 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 1.2em;
 		}
 	}
+	h4 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.2em;
+		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1em;
+		}
+	}
 	p {
 		margin-bottom: 1.1em;
 	}
