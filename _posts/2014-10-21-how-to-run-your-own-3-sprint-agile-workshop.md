@@ -49,7 +49,7 @@ other, in which case it will be a good team-building exercise, or may be an
 existing team. One could even choose goals which are a valuable work product
 for an existing team valued by an existing customer.
 
-# Structure
+## Structure
 
 The shortest reasonable workshop is comprised of 3 simulated
 “[sprints](https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms)”. Each sprint has the same structure, which represents the actual
@@ -85,7 +85,7 @@ timeframe for your workshop. In general the demo and the retrospective for
 each sprint can be done in 5 minutes each and the story writing period can
 be 5 to 10 minutes.
 
-# Teams
+## Teams
 
 You can have one, two, or three teams -- but if you are running a
 workshop for the first time, I recommend starting small. No matter how many
@@ -115,7 +115,7 @@ Writer, or more generally, Maker. The ideal team size is 1-2 Customers and
 pressure for it to devolve into two Teams, particularly in such a short
 workshop.
 
-# Roles
+## Roles
 
 Each participant performs one and only one of the following three roles:
 
@@ -123,18 +123,18 @@ Each participant performs one and only one of the following three roles:
 2. Developer (Designer, Coder, Writer, Maker)
 3. Master of Ceremonies and Coach
 
-## The Master of Ceremonies/Coach
+### The Master of Ceremonies/Coach
 
 The Master of Ceremonies/Coach enables the rest of the participants to learn
 by performing key responsibilities.
 
-### Prepare the Participants
+#### Prepare the Participants
 The Master of Ceremonies/Coach must coach the Customers ahead of time so that they are prepared to drive their teams. The
 Customer must have a clear goal in mind, and sufficient willpower to direct
 the team appropriately. If the Customer does not have one ahead of time, the
 Master of Ceremonies/Coach must work with them to develop a goal.
 
-### Provide an Effective Physical Workspace
+#### Provide an Effective Physical Workspace
 They must also enable teams to collaborate effectively by making sure that
 the physical space is appropriate, there are appropriate refreshments
 available, and the office supplies are readily at hand. Notecards and pens
@@ -151,14 +151,14 @@ repository on [GitHub](https://github.com). This makes it easy for people to col
 history, and produces a durable record of the workshop product to be used
 later.
 
-### Enforce a rigid schedule
+#### Enforce a rigid schedule
 
 Enthusiastic teams will want a little more time to improve their demo. The
 Master of Ceremonies/Coach must not succumb to pressure to deviate from the
 pre-planned schedule. If a demo is less than impressive because a story is
 not done, this is a learning experience for the team.
 
-### Coaching During the Workshop
+#### Coaching During the Workshop
 
 Coaches should make make sure that stories are written down on
 notecards during the story writing phase. However, even more important is
@@ -174,13 +174,13 @@ if they have properly prepared the Customers and created an enabling space,
 the Teams will learn from their failures and/or enjoy their successes based
 on their own merits.
 
-### Enforce Responding to the Customer
+#### Enforce Responding to the Customer
 The paramount responsibility of the Master of Ceremonies/Coach is to insist
 that ALL work be shown AS SOON AS POSSIBLE to the Customer and that Customer
 changes to direction and priorities be IMMEDIATELY respected by the
 developers.  
 
-## The Customer
+### The Customer
 The Customer is the most important role, and demands
 preparation. The Customer is considered part of the team. The Customer must
 bring to the workshop a clear idea of something that they would like to have
@@ -203,7 +203,7 @@ valuable thing that can happen in the workshop is for them to come to
 appreciate the power of being able to make iterative changes to development
 based on what has been learned from rapid, early development.
 
-## The Developer
+### The Developer
 The Developer may be a computer programmer, a writer, a designer, or anybody
 else who is making things. The reason the Developer role must be clearly
 delineated from the Customer is that the Developer MUST NOT be a bully. That
@@ -217,7 +217,7 @@ the Customer how much time it will take to make any given story that they
 ask for. The Developers must provide quick estimates on the spot. They do
 not have to be accurate, or confident -- they need only be honest.
 
-## Example Team Goals
+### Example Team Goals
 You can run 3-Sprint Agile Workshop around a goal of
 producing a valuable end product. However, you may prefer to simply treat it
 as an exercise.
