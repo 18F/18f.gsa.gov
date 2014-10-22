@@ -19,6 +19,7 @@ tags:
 - open data
 - how we work
 - workshop
+- eiti
 ---
 <p class="authors">
   by {% author chrisc %}, {% author mhz %}, and {% author nick %}
