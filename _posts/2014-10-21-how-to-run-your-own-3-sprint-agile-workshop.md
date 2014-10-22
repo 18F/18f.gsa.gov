@@ -7,12 +7,19 @@ authors:
  - robert
  - sarah
  - hillary
+
+tags:
+  - agile
+  - 18F Consulting Services
+  - how we work
+  - workshop
+  - our projects
 ---
 <p class="authors">
   by {% author robert %}, {% author hillary %}, and {% author sarah %}
 </p>
 
-You can’t learn Agile software development from a book any more than you can
+You can’t learn [Agile software development](http://agilemanifesto.org) from a book any more than you can
 learn to perform a one-handed jump shot without repeatedly tossing a
 basketball in the hoop. You can read a book about the basic idea, you can
 read a book to get started, and you can read a book about refining your
@@ -45,7 +52,7 @@ for an existing team valued by an existing customer.
 # Structure
 
 The shortest reasonable workshop is comprised of 3 simulated
-“sprints”. Each sprint has the same structure, which represents the actual
+“[sprints](https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms)”. Each sprint has the same structure, which represents the actual
 structure of a software sprint. In order to fit the workshop into a three- to
 five-hour period, each sprint must be very short -- 30 to 60 minutes.
 Nevertheless, your participants may be surprised what can be accomplished in
@@ -111,6 +118,7 @@ workshop.
 # Roles
 
 Each participant performs one and only one of the following three roles:
+
 1. Customer
 2. Developer (Designer, Coder, Writer, Maker)
 3. Master of Ceremonies and Coach
@@ -139,7 +147,7 @@ require computers or audio/video space, but larger ones may.
 Preparation of the non-physical workspace may include establishing ahead of
 time a shared file storage, ideally with version control and easy web
 viewing, open to all participants, such as those offered by a shared code
-repository on github. This makes it easy for people to collaborate, leaves a
+repository on [GitHub](https://github.com). This makes it easy for people to collaborate, leaves a
 history, and produces a durable record of the workshop product to be used
 later.
 
@@ -222,13 +230,13 @@ create a powerful calculator.
 Looking at great teaching books can provide good ideas for projects. For
 example, a currency conversion calculator sounds simple, but has some
 interesting challenges. This was an effective example from Kent Beck's book
-Test Driven Development by Example introduced shortly after his seminal work
-Test Driven Development. I have not run a workshop around it, but I believe
+[Test Driven Development by Example](http://en.wikipedia.org/wiki/Test-Driven_Development_by_Example) introduced shortly after his seminal work
+[Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development). I have not run a workshop around it, but I believe
 one could run an effective 5-hour workshop around this exercise as well.
 
 For a group of participants that did not include strong coders, I might plan
 goals easier to program or which involved no programming at all, such as
-creating a simple blog with GitHub Pages or WordPress.
+creating a simple blog with [GitHub Pages](https:pages.github.com) or [WordPress](https://wordpress.com).
 
 If I had a group of program managers, I might have the Developers
 essentially be writers, and suggest goals such as “Build a website that
@@ -279,7 +287,6 @@ a team-building exercise. The case study has example goals, projects, and
 pivots to give you ideas for your own workshop.
 
 ## Another Option: Bring On 18F as a Coach
-18F has recently created a new pilot line of business called 18F Consulting
-Services which offers Agile coaching and other services at cost-recovery
+18F has recently created a new pilot line of business called [18F Consulting](http://18f.github.io/consulting/) which offers Agile coaching and other services at cost-recovery
 prices under the Economy Act. If you’d like assistance or you’d like us to
 run a workshop for your team, please [get in touch](mailto:18f@gsa.gov)!
