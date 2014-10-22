@@ -236,7 +236,7 @@ one could run an effective 5-hour workshop around this exercise as well.
 
 For a group of participants that did not include strong coders, I might plan
 goals easier to program or which involved no programming at all, such as
-creating a simple blog with [GitHub Pages](https:pages.github.com) or [WordPress](https://wordpress.com).
+creating a simple blog with [GitHub Pages](https://pages.github.com) or [WordPress](https://wordpress.com).
 
 If I had a group of program managers, I might have the Developers
 essentially be writers, and suggest goals such as “Build a website that
