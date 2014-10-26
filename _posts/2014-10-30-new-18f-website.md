@@ -45,7 +45,7 @@ We also took the time to **[make data out of our team](https://github.com/18F/18
     "name": "jamie",
     "full_name": "Jamie Albrecht"
   },
-  // ...
+  // ... more teammates ...
 }
 ```
 
@@ -59,7 +59,7 @@ The above snippet is rendered using:
         "name": "jamie",
         "full_name": "Jamie Albrecht"
       },
-      // ...
+      // ... more teammates ...
     }
     ```
 
