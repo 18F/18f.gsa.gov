@@ -1,5 +1,8 @@
 
 markdown: redcarpet
+redcarpet:
+  extensions:
+  - with_toc_data
 
 excerpt_separator: <!-- more -->
 exclude:
