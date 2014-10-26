@@ -49,7 +49,7 @@ We also took the time to **[make data out of our team](https://github.com/18F/18
 }
 ```
 
-Jekyll also has some powerful syntax highlighting features, as shown in the JSON snippet above. We use the [Redcarpet](https://github.com/vmg/redcarpet) renderer, which enables the kind of syntax rendering you get from GitHub Flavored Markdown.
+Jekyll also has some powerful syntax highlighting features, as shown in the JSON snippet above. We use the [Redcarpet](https://github.com/vmg/redcarpet) renderer, which enables the kind of syntax highlighting you get from GitHub Flavored Markdown.
 
 The above snippet is rendered using:
 
