@@ -23,7 +23,9 @@ You can’t learn [Agile software development](http://agilemanifesto.org) from a
 learn to perform a one-handed jump shot without repeatedly tossing a
 basketball in the hoop. You can read a book about the basic idea, you can
 read a book to get started, and you can read a book about refining your
-technique, but in the end you have to practice.<!-- more -->
+technique, but in the end you have to practice.
+
+<!-- more -->
 
 A basketball player performs drills in order to play better in the game. In
 technology development, we can perform workshops to get better at our main
@@ -41,7 +43,7 @@ A successful workshop will do two things:
 1. It will surprise the participants with how much can be accomplished
 within a short time.
 2. It will convince people that evaluating early iterations is invaluable for
-making adjustments for the next iterations to achieve the best results overall.  
+making adjustments for the next iterations to achieve the best results overall.
 
 This workshop may be treated as a learning exercise that doesn’t attempt to
 produce anything beyond experience. The participants may be unknown to each
@@ -178,7 +180,7 @@ on their own merits.
 The paramount responsibility of the Master of Ceremonies/Coach is to insist
 that ALL work be shown AS SOON AS POSSIBLE to the Customer and that Customer
 changes to direction and priorities be IMMEDIATELY respected by the
-developers.  
+developers.
 
 ### The Customer
 The Customer is the most important role, and demands
@@ -194,7 +196,7 @@ progress toward this is made. He or she must be prepared to help the group
 articulate very small steps towards the goal and compromisingly choose
 priorities for steps that team can accomplish. The Customer must be prepared
 to converse with the developers and make a rapid prioritization based on a
-quick estimate.  
+quick estimate.
 
 A Tester or Quality Assurance person is considered a Customer for the
 purpose of such a workshop. An Executive who wants to experience Agile
@@ -270,10 +272,10 @@ within the limited time of one sprint, so that they have nothing to demo.
 * Developers can be bullies and impose their own desires on what gets built.
 * Customers can fail to assert priorities.
 * The Team can fail to simplify their goal enough to get anything done
-within the workshop.  
+within the workshop.
 * A Team can be so large that it is difficult for them to coordinate work
 within a sprint. If you know you have that many participants, you should
-increase the number of Teams to keep the Team size smaller.  
+increase the number of Teams to keep the Team size smaller.
 * The Team may devote too much energy to thinking about the final product in
 the Third Sprint and thus fail to do good a good job presenting
 functionality in the First Demo. A Team that does this will also be stung by
