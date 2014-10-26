@@ -481,6 +481,24 @@ $tiniest: new-breakpoint(max-width 390px);
       display: none;
     }
   }
+
+	.highlight {
+		padding: 2px 4px;
+		background-color: #eaeaff;
+		border: 1px solid #d5d5d5;
+		margin: 10px 0;
+
+		pre {
+			display: block;
+			padding: 5px 10px;
+			margin: 0;
+
+			font-size: 13px;
+			font-family: monospace;
+			line-height: 1.7;
+		}
+	}
+
 }
 
 // Team

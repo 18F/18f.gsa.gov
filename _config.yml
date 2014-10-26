@@ -1,5 +1,5 @@
 
-markdown: kramdown
+markdown: redcarpet
 
 excerpt_separator: <!-- more -->
 exclude:
