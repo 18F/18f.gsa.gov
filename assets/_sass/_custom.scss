@@ -499,6 +499,16 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 
+	p {
+		code {
+			padding: 2px 4px;
+			background-color: #eaeaff;
+			border: 1px solid #d5d5d5;
+			font-size: 10pt;
+			font-family: monospace;
+		}
+	}
+
 }
 
 // Team
