@@ -81,6 +81,8 @@
   full_name: Theresa Summa
 - name: raphy
   full_name: Raphael Villas
+- name: ben
+  full_name: Ben Willman
 - name: lindsay
   full_name: Lindsay Young
 - name: yuda
@@ -90,8 +92,6 @@
 - name: jane
   full_name: jane avriette
   hidden: true
-- full_name: Ben Willman
-  name: ben
 - full_name: Alan deLevie
   name: alan
   hidden: true
