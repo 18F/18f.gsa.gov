@@ -34,7 +34,11 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 gem install jekyll bourbon jekyll-sitemap
 ```
 
-Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need Node to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed. Install Node through `brew install node` or `apt-get install nodejs`.
+You will also need **Python 2.7** installed and active, because syntax highlighting depends on [Pygments](http://pygments.org/). A `.python-version` file is included in this repository for those using [`pyenv`](https://github.com/yyuu/pyenv).
+
+Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
+
+So yes: this project requires Ruby, Python, and Node (for now). Aren't static site generators the simplest?
 
 Launch with Jekyll:
 
