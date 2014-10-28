@@ -83,7 +83,7 @@ The **excerpt** and **byline** are handled in the body of your post.
 
 After this, you can add the body of your post, ideally in Markdown.
 
-**Excerpt.** Add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, the first few sentences or the first paragraph of your posts are good lengths to use as your excerpt. Excerpts can include Markdown and HTML.
+**Excerpt.** Add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This marker _must be on its own line_. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, the first few sentences or the first paragraph of your posts are good lengths to use as your excerpt. Excerpts can include Markdown and HTML.
 
 The [EITI team's design studio post](_posts/2014-09-25-design-studio-onrr.md) uses this excerpt:
 
