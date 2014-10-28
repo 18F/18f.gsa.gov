@@ -29,7 +29,7 @@ Deploying our blog posts from GitHub instead of managing a separate Tumblr accou
 
 To that end, we've written a [team blogging guide](https://github.com/18F/18f.gsa.gov/blob/staging/blogging.md) to make the blogging process easier for teammates less familiar with Jekyll.
 
-You can see [all of our work in GitHub](https://github.com/18F/18f.gsa.gov/pull/235), but below are more details on how we got this done, for anyone interested in trying it out.
+You can see [all of our work in GitHub](https://github.com/18F/18f.gsa.gov/pull/235), but below are more details on how we got this done for anyone interested in trying it out.
 
 ## Moving to Jekyll
 
@@ -69,7 +69,7 @@ Finally, we moved from Bootstrap to [Bourbon.io](http://bourbon.io/) as our site
 
 ## Blogging with freedom
 
-Jekyll is a fantastic blog engine, so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/news`](18f.gsa.gov/news).
+Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/news`](18f.gsa.gov/news).
 
 This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
 
@@ -79,7 +79,7 @@ the group developed [user personas](http://www.usability.gov/how-to-and-tools/me
 to serve as examples of the types of people who would interact with the website.
 ```
 
-Jekyll also lets you associate any metadata you want with posts, using "YAML front-matter". At the top of a Markdown file, you put whatever key-value pairs you want to pair with the post. This way, you can keep information about a post together with it and still use it in multiple places (for example, in OpenGraph tags and Twitter cards).
+Jekyll also lets you associate any metadata you want with posts using "YAML front-matter". At the top of a Markdown file, you put whatever key-value pairs you want to pair with the post. This way, you can keep information about a post together with it and still use it in multiple places (for example, in OpenGraph tags and Twitter cards).
 
 This [recent post on an 18F-hosted hackathon](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-10-01-open-source-hack-series-midas.md) that begins with this metadata:
 
@@ -135,7 +135,7 @@ We created two webhooks for [our website's main repository](https://github.com/1
 
 Each is configured to notify the webhook when changes are made to the files in the repository, either directly or through a pull request.
 
-We use a small tool called [`hookshot`](https://github.com/coreh/hookshot), a tiny Node HTTP server that can listen for any updates to a given branch, and run a given command. We run two of these, one for our `staging` branch, and one for our `production` branch.  Each of them is given the command to re-build the site.
+We use a small tool called [`hookshot`](https://github.com/coreh/hookshot), a tiny Node HTTP server that can listen for any updates to a given branch and run a given command. We run two of these, one for our `staging` branch, and one for our `production` branch.  Each of them is given the command to re-build the site.
 
 We daemonize the webhooks using [`forever`](https://github.com/nodejitsu/forever). Starting the webhook process for the staging site looks something like this:
 
