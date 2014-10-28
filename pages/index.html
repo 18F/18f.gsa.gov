@@ -67,13 +67,13 @@ permalink: /
       </div>
       <div class="blog-meta">
         <p>
-          Posted on <span class="blog-date"><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date_to_long_string }}</time></span>.
+          Posted on <span class="blog-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_long_string }}</time></span>.
         </p>
         <p>
           Tagged /
           <span class="blog-tags" itemprop="keywords">
             {% for tag in post.tags %}
-              <a href="/{{site.tag_dir}}/{{ tag }}">{{ tag }}</a>
+              <a href="/{{site.tag_dir}}/{{ tag | uri_encode }}">{{ tag }}</a>
               /
             {% endfor %}
           </span>
