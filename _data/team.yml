@@ -44,6 +44,9 @@
   full_name: Michelle Hood
 - name: elaine
   full_name: Elaine Kamlley
+- name: stacy
+  full_name: Stacy Kane
+  alum: true
 - name: jackie
   full_name: Jackie Kazil
   hidden: true
@@ -61,6 +64,9 @@
   full_name: Eric Mill
 - name: ric
   full_name: Ric Miller
+- name: nienhuis
+  full_name: Kristin Nienhuis
+  alum: true
 - name: papazian
   full_name: Chris Papazian
 - name: joe

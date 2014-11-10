@@ -100,7 +100,7 @@ permalink: /
   </div>
   <div class="container team">
     {% for member in site.data.team %}
-      {% unless member.hidden %}
+      {% unless member.hidden or member.alum %}
         <div class="bio">
           <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
           <h1>{{ member.full_name }}</h1></a>
