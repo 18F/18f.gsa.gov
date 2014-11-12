@@ -14,6 +14,10 @@
   full_name: Nick Brethauer
 - name: nick
   full_name: Nick Bristow
+- name: sbrooks
+  full_name: Sarah Brooks
+  pif: round-3
+  hidden: true
 - name: gray
   full_name: Gray Brooks
 - name: jeremy
@@ -22,35 +26,84 @@
   full_name: Chris Cairns
 - name: dave
   full_name: Dave Caraway
+- name: jchen
+  full_name: Jeff Chen
+  pif: round-3
+  hidden: true
+- name: cdaggett
+  full_name: Christopher Daggett
+  pif: round-3
+  hidden: true
 - name: kaitlin
   full_name: Kaitlin Devine
 - name: catherine
   full_name: Catherine Devlin
 - name: jen
   full_name: Jen Ehlers
+- name: bgetson
+  full_name: Ben Getson
+  pif: round-3
+  hidden: true
 - name: garren
   full_name: Garren Givens
 - name: greg
   full_name: Greg Godbout
+- name: cgoranson
+  full_name: Christopher Goranson
+  pif: round-3
+  hidden: true
 - name: yoz
   full_name: Yoz Grahame
+- name: tgrandison
+  full_name: Tyrone Grandison
+  pif: round-3
+  hidden: true
 - name: justin
   full_name: Justin Grevich
+- name: dhammer
+  full_name: Dan Hammer
+  pif: round-3
+  hidden: true
+- name: mhansen
+  full_name: Maia Hansen
+  pif: round-3
+  hidden: true
 - name: hillary
   full_name: Hillary Hartley
+- name: rharrisongordon
+  full_name: Rachel Harrison Gordon
+  pif: round-3
+  hidden: true
 - name: sean
   full_name: Sean Herron
 - name: mhz
   full_name: Michelle Hertzfeld
 - name: michelle
   full_name: Michelle Hood
+- name: aippolito
+  full_name: Andrea Ippolito
+  pif: round-3
+  hidden: true
+- name: ajablow
+  full_name: Ashley Jablow
+  pif: round-3
+  hidden: true
+- name: tjones
+  full_name: Timothy Jones
+  pif: round-3
+  hidden: true
+- name: ekalafarski
+  full_name: E.J. Kalafarski
+  pif: round-3
+  hidden: true
 - name: elaine
   full_name: Elaine Kamlley
-- name: stacy
-  full_name: Stacy Kane
-  alum: true
 - name: jackie
   full_name: Jackie Kazil
+  hidden: true
+- name: jkim
+  full_name: Julia Kim
+  pif: round-3
   hidden: true
 - name: noah
   full_name: Noah Kunin
@@ -58,39 +111,88 @@
   full_name: Diego Lapiduz
 - name: sasha
   full_name: Sasha Magee
+- name: mmaron
+  full_name: Mikel Maron
+  pif: round-3
+  hidden: true
 - name: majma
   full_name: Raphael Majma
 - name: manger
   full_name: Noah Manger
+- name:
+  full_name: Jeff Meisel
+  pif: round-3
+  hidden: true
 - name: eric
   full_name: Eric Mill
 - name: ric
   full_name: Ric Miller
-- name: nienhuis
-  full_name: Kristin Nienhuis
-  alum: true
+- name: dnaffis
+  full_name: David Naffis
+  pif: round-3
+  hidden: true
 - name: papazian
   full_name: Chris Papazian
 - name: joe
   full_name: Joe Polastre, PhD
+- name: sraub
+  full_name: Susannah Raub
+  pif: round-3
+  hidden: true
 - name: robert
   full_name: Robert L. Read, PhD
+- name: dross
+  full_name: Denice Ross
+  pif: round-3
+  hidden: true
 - name: alison
   full_name: Alison Rowland
 - name: josh
   full_name: Josh Ruihley
+- name: lshanley
+  full_name: Lea Shanley
+  pif: round-3
+  hidden: true
 - name: aaron
   full_name: Aaron Snow
+- name: bso
+  full_name: Bosco So
+  pif: round-3
+  hidden: true
+- name: rsosinski
+  full_name: Robert Sosinski
+  pif: round-3
+  hidden: true
+- name: asteremberg
+  full_name: Alan Steremberg
+  pif: round-3
+  hidden: true
 - name: amos
   full_name: Amos Stone
 - name: theresa
   full_name: Theresa Summa
+- name: gsunthara
+  full_name: Gajen Sunthara
+  pif: round-3
+  hidden: true
 - name: russ
   full_name: Russ Unger
 - name: raphy
   full_name: Raphael Villas
+- name: cwardell
+  full_name: Dr. Clarence Wardell III
+  pif: round-3
+  hidden: true
 - name: ben
   full_name: Ben Willman
+- name: jwinn
+  full_name: Julia Winn
+  pif: round-3
+  hidden: true
+- name: cwong
+  full_name: Christopher Wong
+  pif: round-3
+  hidden: true
 - name: lindsay
   full_name: Lindsay Young
 - name: yuda
