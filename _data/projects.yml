@@ -1,0 +1,34 @@
+round:
+  3:
+    projects:
+    - name: Data Innovation
+      description: The Blue Button initiative, a public-private partnership between the healthcare industry and the Federal Government, is helping consumers across the country gain secure, electronic access to their own personal health records. With the support of Fellows, the Blue Button Initiative has expanded its reach to more than 150 million Americans that are today able to access their own health information from a variety of sources—including healthcare providers, health insurance companies, medical labs, and state health information networks—in order to make more informed decisions about their own health care and enabling the development of useful third-party applications and services.
+    - name: Leveraging Open Data to Help Save Lives
+      description: With the support of Fellows, the U.S. Food and Drug Administration (FDA), launched openFDA, a new initiative that will provide easy access to FDA datasets that support the agency’s regulatory mission, help educate the public, and save lives. The project will make several valuable FDA public datasets—including millions of adverse event and medication error reports on FDA-regulated drugs—available to the public for the first time, via application programming interfaces (APIs) and raw structured files.
+    - name: Crowdsourcing
+      description: Improving the Ability of the Federal Government to Respond Effectively to Natural Disasters, Mobilizing Citizens to Help Preserve Our Nation’s History and Records
+    - name: 21st Century Veterans Experience
+      description: For their dedicated service defending the United States, veterans receive an array of benefits and resources, to which they deserve easy, reliable access. Recognizing this, the U.S. Department of Veterans Affairs (VA) is embarking on a bold new initiative to create a “digital by default” experience for veterans that provides better, faster service and complements the department’s work to eliminate the disability claims backlog.
+  2:
+    projects:
+    - name: Development Innovation Ventures
+    - name: Disaster Response & Recovery
+    - name: Open Data Initiatives
+    - name: RFP&#45;EZ and Innovative Contracting Tools
+    - name: Cyber&#45;Physical Systems
+    - name: MYUSA
+    - name: 21st Century Financial Systems
+    - name: MyData Initiatives
+    - name: Innovation Toolkit
+    - name: VA Modernization
+  1:
+    projects:
+    - name: MyGov
+      description: The federal government currently offers information and services to the public through an array of thousands of websites.  Too often, these sites are organized around the federal bureaucracy, rather than the needs of the citizens our government is meant to serve.  As a result, it’s hard to find information and services, discover other relevant content and offer constructive feedback.  There must be a better way.
+    - name: Open Data
+    - name: Blue Button for America
+      description: This project will seek to expand nationwide adoption of Blue Button, a capability pioneered and deployed for veterans by the VA that enables patients to securely download electronic copies of their own health information.  Blue Button is currently available to veterans, uniformed service members, and Medicare beneficiaries, and almost a million people have downloaded their own health information to date.
+    - name: RFP&#45;EZ
+      description: RFP&#45;EZ aims to create a streamlined process for the federal government to do business with small, high&#45;growth companies.  Right now, many of the best tech companies view the process for selling to the government as too long and too complicated. The result is suboptimal for both the government and the companies who potentially miss out on a large market opportunity.
+    - name: Better Than Cash
+      description:
