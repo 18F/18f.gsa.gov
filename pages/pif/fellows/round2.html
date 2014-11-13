@@ -1,9 +1,15 @@
 ---
 permalink: /pif/fellows/round-2/
-layout: bare
+layout: bare_pif
 title: Round 2 Presidential Innovation Fellows
 ---
-{{page.title}}
+<h2>{{page.title}}</h2>
+	<p>
+		<a href= "/pif/fellows/round-1/">Round 1</a> |
+		<a href= "/pif/fellows/round-2/">Round 2</a>
+		|
+		<a href= "/pif/fellows/">Round 3</a>
+	</p>
 {% assign people = site.data.team | where: "pif-round", 2 | group_by: "project" %}
 {% for projects in people %}
   <h2>{{ projects.name }}</h2>
