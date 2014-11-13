@@ -1,103 +1,570 @@
 - name: jamie
   full_name: Jamie Albrecht
+  first_name: Jamie
+  last_name: Albrecht
+
 - name: sarah
   full_name: Sarah Allen
+  first_name: Sarah
+  last_name: Allen
+  pif-round: 2
+  project: Open Data Initiatives
+  bio: Sarah Allen is a Presidential Innovation Fellow working on Open Data Initiatives at the Smithsonian Institution. Sarah is a serial innovator with a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. Most recently, Sarah led mobile strategy, design & development company, Blazing Cloud, as well as her own startup, Mightyverse, which aims to help people communicate across languages and cultures. Sarah is an expert in all things mobile, with a particular passion for effective animation and practical use of the mobile web. Sarah also actively works to diversify the tech community with RailsBridge, which she co-founded in 2009. Sarah and other RailsBridge volunteers created the parent organization BridgeFoundry in 2013, as a project of SchoolFactory, to foster such outreach efforts and establish a formal theory of change. Originally from the Boston area, Sarah studied Computer Science and Visual Art at Brown University. She lives with her husband, Bruce, and son, Jack, in San Francisco, CA.
+
 - name: leah
   full_name: Leah Bannon
+  first_name: Leah
+  last_name: Bannon
+
 - name: david
   full_name: David Best
+  first_name: David
+  last_name: Best
+
 - name: mbland
   full_name: Mike Bland
+  first_name: Mike
+  last_name: Bland
+
 - name: boone
   full_name: Greg Boone
+  first_name: Greg
+  last_name: Boone
+
 - name: brethauer
   full_name: Nick Brethauer
+  first_name: Nick
+  last_name: Brethauer
+
 - name: nick
   full_name: Nick Bristow
+  first_name: Nick
+  last_name: Bristow
+
+- name: sbrooks
+  full_name: Sarah Brooks
+  first_name: Sarah
+  last_name: Brooks
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  bio: Sarah Brooks is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Design strategist and advocate for social change, Sarah’s work in the design world includes service design, design research, product strategy and large-scale systems thinking about interventions for a better world. For the past 15 years Sarah has worked with the corporate world, social entrepreneurs, nonprofits and foundations leading multidisciplinary creative teams through initiatives across digital platforms and sectors including civic innovation, education, finance, food systems and healthcare. In addition to her practice work, Sarah has taught at Stanford University school’s Change Labs, California College of the Arts and Centro Diseño. Sarah is a frequent speaker and active design community organizer around the theme of design for social innovation. Sarah holds a BA in Film and Literature from Boston University and a BFA in Printmaking and Textiles from the California College of the Arts. She lives at the beach in San Francisco with her husband.
+  hidden: true
+
 - name: gray
   full_name: Gray Brooks
+  first_name: Gray
+  last_name: Brooks
+
 - name: jeremy
   full_name: Jeremy Canfield
+  first_name: Jeremy
+  last_name: Canfield
+
 - name: chrisc
   full_name: Chris Cairns
+  first_name: Chris
+  last_name: Cairns
+  pif-round: 2
+  bio: Chris Cairns is a Presidential Innovation Fellow working on the 21st Century Financial Systems project at the Department of the Treasury.  Chris is focused on about leveraging new technologies to drive innovative change.  Chris was a founding member of True North Equities, a private equity firm that acquires and operates innovative small businesses focused on public-sector markets.  At True North Equities, he served as Director of Strategy and Technology and as interim COO of a member company, where he commercialized a DARPA-funded line of medical injury simulation products.  These products are now used around the world at over 20 Army Medical Simulation Training Centers to train combat medics, helping to save American and Allied lives.  Chris previously served as a Senior IT Program Manager at the Department of Homeland Security’s US Immigration and Customs Enforcement (ICE), earning a CIO’s distinguished Special Achievement award for his leadership overseeing an IT Strategy & Management Program of over $20 million.  Prior to ICE, Chris held various strategy and technology roles at SAIC, IBM, and Unisys.  At IBM and Unisys, he pioneered multiple technology-driven market offerings, including Integrated Emergency Management and Real-Time Infrastructure.  He graduated summa cum laude from The Pennsylvania State University, where he earned multiple Bachelors Degrees, was awarded a Boren National Security Scholarship, and was inducted into The Phi Beta Kappa Society.  Chris is an avid Ruby on Rails developer and holds two pending software patents related to crowdsourcing collective intelligence. In 2007, he applied the theory of constraints to place 3rd in the US Army Gaming Championship – Command & Conquer 3 (Xbox 360).  Chris grew up in Waterford, PA, and currently lives in Arlington, VA, with his wife and son.
+  project: 21st Century Financial Systems
+
 - name: dave
   full_name: Dave Caraway
+  first_name: Dave
+  last_name: Caraway
+  pif-round: 2
+  bio: Dave Caraway is a Presidential Innovation Fellow working on Open Data Initiatives with the Data.gov team at the General Services Administration. Dave is a software developer intent on fostering government open-data initiatives, growing high-tech entrepreneurship in small-town communities and empowering citizens through information. Dave is a former Air Force officer with development and leadership experience covering a range of technical areas including commercial web development, real-time embedded systems, military simulations, and business intelligence. In 2012, he founded Fogmine, a software company specializing in data analytics, mobile applications, and web services. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Dayton, Ohio, where he lives with his wife and two energetic kids.
+  project: Open Data Initiatives
+
+- name: jchen
+  full_name: Jeff Chen
+  first_name: Jeff
+  last_name: Chen
+  pif-round: 3
+  project: Data Innovation
+  bio: Jeff Chen is a Presidential Innovation Fellow working with NASA’s Earth Science Division. Jeff is a data scientist and policy expert committed to re-imagining the role of data innovation for smart government. While serving the New York City Fire Department (FDNY) as the Director of Analytics, he led the algorithmic design of FireCast, a pioneering machine learning initiative leveraging big data to predict and target inspections to buildings with the greatest fire risk. He also launched FDNY's Open Data Initiative, which led to the establishment of an analytics advisory board, creation of a beta testing data dive program, and development of a data release roadmap. Prior to FDNY, he served the NYC Mayor’s Office during the Bloomberg Administration handling a large portfolio ranging from data-driven response during Hurricane Sandy to predicting lawsuit outcomes. Jeff holds a BA in Economics from Tufts University and an MA in Quantitative Methods in the Social Sciences from Columbia University. He lives in Bronxville, NY with his wife Maya.
+  hidden: true
+
+- name: cdaggett
+  full_name: Christopher Daggett
+  first_name: Christopher
+  last_name: Daggett
+  pif-round: 3
+  project: Data Innovation
+  bio: Christopher Daggett is a Presidential Innovation Fellow working on Data Innovation initiatives at the Internal Revenue Service. He is a product strategist with a focus on applied behavioral economics. Previously, Christopher served as a Vice President at ideas42, a behavioral economics design and research lab spun out of Harvard University. Prior to ideas42, Christopher worked at Booz Allen Hamilton, PricewaterhouseCoopers, and Sapient. He serves on the Board of the Action Design Network and has worked with entrepreneurs on projects for NYC BigApps, New York City's premier open data competition. Christopher grew up near Sandy Beach on the South Shore of Oahu in Hawaii, and can now be found surfing couches in the Washington, DC area.
+  hidden: true
+
 - name: kaitlin
   full_name: Kaitlin Devine
+  first_name: Kaitlin
+  last_name: Devine
+
 - name: catherine
   full_name: Catherine Devlin
+  first_name: Catherine
+  last_name: Devlin
+
 - name: jen
   full_name: Jen Ehlers
+  first_name: Jen
+  last_name: Ehlers
+
+- name: bgetson
+  full_name: Ben Getson
+  first_name: Ben
+  last_name: Getson
+  pif-round: 3
+  project: Data Innovation
+  bio: Ben Getson is a Presidential Innovation Fellow working on Data Innovation initiatives at the Internal Revenue Service. Ben is an experienced product developer focused on delivering intuitive solutions. At LivingSocial, Ben designed the systems that drive each line of business, additionally working directly with small business owners on customized marketing solutions. Ben also serves as a mentor at DC’s local startup hub, 1776. There, he advises early-stage startups on strategies to test their product ideas and techniques for structuring product development. Formerly, he spent several years as the technical lead at Capitalogix Trading, building the IT infrastructure behind their financial services. Ben studied Computer Science and Information Science at Duke University, and he now lives in Washington, D.C.
+  hidden: true
+
 - name: garren
   full_name: Garren Givens
+  first_name: Garren
+  last_name: Givens
+  pif-round: 2
+  project: Open Data Initiatives
+  bio: Garren Givens is a Presidential Innovation Fellow working on Open Data Initiatives at the Department of Education. Garren is an experienced entrepreneur and product strategist, and is passionate about consumer Internet. He has contributed articles to VentureBeat and Huffington Post, and his startups have been covered by Entrepreneur, Forbes, TechCrunch, VentureBeat, and other publications. Garren holds a BA and MBA from Yale University, and received the prestigious Silver Anniversary Scholarship from Yale School of Management. He is a self-taught coder, and possibly the only programmer who still prefers books to online tutorials. Garren is an avid golfer and classical pianist. He lives in Washington, DC, with his wife, Alexandra.
+
 - name: greg
   full_name: Greg Godbout
+  first_name: Greg
+  last_name: Godbout
+  pif-round: 2
+  project: RFP-EZ and Innovative Contracting Tools
+  bio: Greg Godbout is a Presidential Innovation Fellow working on the RFP-EZ project. Greg is an entrepreneur and experienced software architect with an extensive background in improving productivity with technology. As owner of the Arlington Cinema & Drafthouse, a unique entertainment and restaurant concept, Greg has driven innovation within the entertainment industry and built a thriving community theater with national recognition. While balancing the responsibilities of business ownership, Greg has also nurtured his technical skills by working as a consultant for Federal agencies and private organizations. His consulting work includes custom software development, social media solutions, and large enterprise applications. Most recently, Greg has helped implement large-enterprise social-software solutions for the Department of Veterans Affairs and the National Archives and Records Administration. He received a degree in Economics with a concentration in Business from St. Mary’s College of Maryland. Greg grew up in Bethesda, MD, and lives in Arlington, VA, with his wife Colleen and daughter Ella.
+  pif-site:
+
+- name: cgoranson
+  full_name: Christopher Goranson
+  first_name: Christopher
+  last_name: Goranson
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Christopher Goranson is a Presidential Innovation Fellow working to support the Department of the Interior’s efforts to make data and services covering our Nation’s public lands and waters more accessible. Chris has worked in the fields of design, public health, academia, government services and planning, most recently as the Director of the Parsons Institute for Information Mapping at The New School. While there his team provided innovative design support for electronic health records at DoD and VA, and supported DARPA’s XDATA program. Other recent efforts include climate visualization initiatives with Parsons The New School for Design, Aalborg University and USC / NASA JPL. Previously Chris was the Director of the GIS Center at the NYC Department of Health, and in 2008 completed an NSF-funded fellowship to compare different disease cluster detection methods at Japan’s National Institute of Public Health. Originally from Colorado, Chris is looking forward to bringing together a love of the outdoors and technology through this project.
+  hidden: true
+
 - name: yoz
   full_name: Yoz Grahame
+  first_name: Yoz
+  last_name: Grahame
+
+- name: tgrandison
+  full_name: Tyrone Grandison
+  first_name: Tyrone
+  last_name: Grandison
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Tyrone Grandison is a Presidential Innovation Fellow working on Data Innovation initiatives at the Department of Labor. Tyrone is a computer science researcher and entrepreneur. He is CEO of Proficiency Labs and managing partner at METIS Inc. Tyrone has co-founded a number of ventures, including woyhd.org, Hipaantrepeneurs, the Di-PaSS series, WonderWomenHacks, and HacksforHumanity. He holds positions at the University of Technology - Kingston, Jamaica and the University of the West Indies – St. Augustine, Trinidad. Tyrone received his Bachelors in Computer Studies from the University of the West Indies in 1997, his Masters in Software Engineering in 1998 and a Ph.D. in Computer Science from the Imperial College of Science, Technology & Medicine in London (2003). Dr. Grandison is an ACM Distinguished Engineer, an IEEE Senior Member and a HIMSS and BCS Fellow. He also received the IEEE Technical Achievement Award in 2010 for "pioneering contributions to Secure and Private Data Management". He has authored over a 100 technical papers, co-invented over 47 patents and written several books.
+  hidden: true
+
 - name: justin
   full_name: Justin Grevich
+  first_name: Justin
+  last_name: Grevich
+  pif-round: 2
+  project: MYUSA
+  bio: Justin Grevich is a Presidential Innovation Fellow working on the MyUSA project at the General Services Administration. Previously, Justin was a Web Developer and Systems Administrator at the University of California, San Diego (UCSD), Institute of Engineering in Medicine. His interest in information systems started with extended bulletin board systems where he gained sponsorship from US Robotics (now 3Com) while in middle school. He studied biomedical science and specialized in the genetic engineering of plants for industrial and medicinal use at the University of Central Florida. He was drawn back to computer science after extensive genomic analysis of chloroplasts utilizing modern scripting languages, open-source software, and supercomputers. The joy of programming led him to a deep interest in web development and information security. At UCSD, he led a team that developed and open-sourced REUManager, an online application system that streamlines the application process for the NSF Research Experience for Undergraduates program. He is a vocal proponent of open-source software and actively creates new projects as well as contributing to existing ones. Originally from Minnesota, he now lives in San Diego, CA, with his wife Sri.
+  pif-site:
+
+- name: dhammer
+  full_name: Dan Hammer
+  first_name: Dan
+  last_name: Hammer
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Dan Hammer is a Presidential Innovation Fellow working on Data Innovation initiatives at NASA headquarters in the CTO’s office. Dan is an economist and data scientist. He was the Chief Data Scientist at the World Resources Institute, where he launched Global Forest Watch in partnership with Google, USAID, and many others. Dan is on leave from a PhD program at UC Berkeley, advised by Max Auffhammer and George Judge. Dan cofounded SpaceKnow and helps to organize the annual EcoHack conference alongside CartoDB. He teaches math at San Quentin State Prison as a lead instructor with the Prison University Project. Dan graduated with high honors in economics and mathematics from Swarthmore College, where he was a Lang Scholar. He spent a full year building and racing Polynesian outrigger canoes in the South Pacific as a Watson Fellow. He lives in San Francisco with his wife, where he is fortunate to work with his dearest friends.
+  hidden: true
+
+- name: mhansen
+  full_name: Maia Hansen
+  first_name: Maia
+  last_name: Hansen
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Maia Hansen is a Presidential Innovation Fellow working on Data Innovation initiatives at the National Oceanic and Atmospheric Administration. Maia is an experienced software engineer and architect who enjoys bringing order to chaotic data and enabling effortless human-computer interactions. She has spent the majority of her career developing enterprise software, and her dedication to open source principles and practices led her to co-found the Open Development Group at information retrieval pioneer Endeca (now Oracle). As an early developer and architect at Crimson Hexagon, she helped companies distill meaning and actionable insight from the Internet's labyrinthine plethora of social media data. Most recently, Maia worked to support cutting-edge research at the New York Genome Center and the Broad Institute of MIT and Harvard, where she developed genomic analysis software that provides scientists with access to and understanding of the increasingly massive datasets used to investigate disease-causing microbes and the mechanics of human illness. She first learned to code in the 20th century, and still has a soft spot for Commodore 64s. Maia, her two chinchillas, and her two cats hail from Boston, Massachusetts.
+  hidden: true
+
 - name: hillary
   full_name: Hillary Hartley
+  first_name: Hillary
+  last_name: Hartley
+  pif-round: 2
+  project: MYUSA
+  bio: Hillary Hartley is a Presidential Innovation Fellow working on the MyUSA project at the General Services Administration. Hillary has been working to make government more accessible and available online for over 15 years, starting as a web designer for Arkansas.gov in 1997.  In her most recent role as Director of Integrated Marketing for eGovernment provider NIC, Hillary helped NIC's 29 state portals embrace new technology and concepts for a 21st century government.  She speaks at events across the country, educating and evangelizing “government 2.0” and social networking best practices for government.  In 2004, Hillary led the team that created MyPollingPlace.com – the first-ever nationwide polling place lookup site launched during the 2004 November general election.  Hillary spends much of her free time on community-based movements such as BarCamp and Coworking, and has participated in or helped organize several government-focused unconferences&#58; eDemocracyCamp, TranparencyCamp, Gov2.0Camp, CityCamp, etc.  In 2008, after the passage of California’s Prop 8, she co-founded EqualityCamp – a pilot event bringing geeks who know the lessons of the web together with activists for marriage equality and LGBT equal rights.  Her latest endeavor is Yes By Yes Yes (YxYY) a "geek retreat" taking place this summer in Palm Springs.  The event sold out in 48 hours and will bring 400 thinkers, futurists, nerds, and creatives together at the Ace Hotel for the ultimate experiment in planned serendipity.
+  pif-site:
+
+- name: rharrisongordon
+  full_name: Rachel Harrison Gordon
+  first_name: Rachel
+  last_name: Harrison Gordon
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  pif-site:
+  bio: Rachel Harrison Gordon is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Rachel graduated from the University of Pennsylvania majoring in Mechanical Engineering and Applied Mechanics and minoring in Engineering Entrepreneurship. At Penn she pursued her passion for dance with the community involvement group CityStep, which she is helping establish in Trenton. Rachel has developed EHR software to enable Health Care Act compliance as well as other patient accessibility projects, including a Computerized Neurocognitive Battery used for research in the Army STARRS Project. She has consulted on business requirements, architecture, and UI of mobile productivity and advising applications for Investment Banking and Corporate clients. Rachel recently served as Manager of Mobile Analytics at The New York Times, providing data-driven insights regarding cross-platform use and app feature performance, to generate marketing and newsroom strategy. Rachel supported stakeholders as they prepared for the Sochi Olympics and the World Cup, and participated in the NYT Now and NYT Opinion launches developing and maintaining key performance metrics.
+  hidden: true
+
 - name: sean
   full_name: Sean Herron
+  first_name: Sean
+  last_name: Herron
+  pif-round: 2
+  project: Open Data Initiatives
+  bio: Sean Herron is a Presidential Innovation Fellow working on Open Data Initiatives at the Food and Drug Administration. Sean is a digital strategist, web developer, and policy expert dedicated to creating easier ways for citizens to interact with their government. Most recently, he served as a Strategist in the Open Innovation office at the National Aeronautics and Space Administration, where he spearheaded open-data and open source initiatives for the agency and helped create the International Space Apps Challenge, a global hackathon that aims to solve some of the most critical issues facing space exploration. Sean has a passion for web standards and responsive design, and he frequently works with organizations around the world to help them communicate with their audiences more effectively. He graduated magna cum laude with a BA in Public Policy from the Maxwell School at Syracuse University.
+
 - name: mhz
   full_name: Michelle Hertzfeld
+  first_name: Michelle
+  last_name: Hertzfeld
+  pif-round: 2
+  project: Open Data Initiatives
+  bio: Michelle Hertzfeld is a Presidential Innovation Fellow working on Open Data Initiatives at the Department of the Interior. Michelle is a science communicator. From teaching ranchers to use satellite imagery to improve land management, to creating digital interfaces that facilitate access to weather data, she bridges the divide between data and understanding with structure, intelligence, and empathy. She has worked with clients ranging from small businesses to government agencies and international organizations, helping them strategize both offline and online user experiences to reach business and project goals. Most recently, she lent her user interface expertise to international data-sharing projects at the National Oceanic and Atmospheric Administration’s Satellite and Information Service. Her abilities include both front-end web development skills in HTML5, CSS3, and Javascript, and user-centered design with strong opinions about typography and color. Michelle lives in Silver Spring, Maryland, where she arrived from Arizona via grad school in Indiana, and has dual degrees in Environmental Policy and Mandarin.
+  pif-site:
+
 - name: michelle
   full_name: Michelle Hood
+  first_name: Michelle
+  last_name: Hood
+
+- name: aippolito
+  full_name: Andrea Ippolito
+  first_name: Andrea
+  last_name: Ippolito
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  bio: Andrea Ippolito is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Andrea is a PhD student in the Engineering Systems Division at MIT, co-founder of Smart Scheduling, Innovation Specialist at the Brigham & Women’s Hospital Innovation Hub, and co-leader of MIT’s Hacking Medicine. Recently, she served as a Product Innovation Manager at athenahealth and completed her M.S. in Engineering & Management at MIT. Prior to MIT, Ippolito worked as a Research Scientist within the Corporate Technology Development group at Boston Scientific. She obtained both her B.S in Biological Engineering in 2006 and Masters of Engineering in Biomedical Engineering in 2007 from Cornell University. Her major skill area is systems engineering combined with her knowledge surrounding innovation in healthcare and her infectious energy. Andrea Ippolito is originally from the Boston, Massachusetts area.
+  hidden: true
+
+- name: ajablow
+  full_name: Ashley Jablow
+  first_name: Ashley
+  last_name: Jablow
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: Ashley Jablow is a Presidential Innovation Fellow working on Crowdsourcing initiatives at the National Archives and Records Administration. Ashley Jablow is an open innovation and online community strategist with a passion for social impact. Most recently Ashley has served as challenge and business development lead at OpenIDEO – an online open innovation platform developed by IDEO where people design better, together for social good. In this capacity, Ashley has served as an online community mobilizer, digital communications specialist, client coach, and design thinking facilitator. Prior to IDEO, Ashley worked in corporate philanthropy for a national, grower-owned food cooperative and in nonprofit fundraising for children’s health and education organizations. Ashley is originally from the San Francisco Bay Area and holds a BA in Sociology and Spanish from University of Michigan and an MBA in Marketing and Corporate Responsibility from Boston University.
+  hidden: true
+
+- name: tjones
+  full_name: Timothy Jones
+  first_name: Timothy
+  last_name: Jones
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Timothy Jones is a Presidential Innovation Fellow working on Data Innovation initiatives at the Department of Energy. Tim is a serial entrepreneur in enterprise software, data, mobile, and homeland security. Tim started his career at Oracle, and has worked with companies such as Sybase and OpenVision from startup through IPO. He helped launch the east coast office of Mohr Davidow Ventures to commercialize technology from universities and national labs. Tim subsequently co-founded startups from Georgia Tech and MIT, generating several patents in the process. He has been a frequent contributor on Bloomberg West discussing the use of social media for analytics and Open Source Intelligence (OSINT). Tim holds a B.S. in Management Science from MIT, a M.S. in Computer Information Systems from Georgia State University, and an MBA from MIT, where he was a Sloan Fellow. Tim grew up in Berkeley, CA and now lives in Washington, DC with his family.
+  hidden: true
+
+- name: ekalafarski
+  full_name: E.J. Kalafarski
+  first_name: E.J.
+  last_name: Kalafarski
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: E.J. Kalafarski is a Presidential Innovation Fellow working on Data Innovation initiatives at the Department of Labor. E.J. is a product designer and manager who believes strongly in the power of design and minimalism to create usability, through both elegant interfaces and streamlined organization. Most recently, E.J. served as Vice President of Product at Onswipe, a New York-based tablet publishing startup. At Brown University, he built experimental and pioneering touch screen interfaces across multiple disciplines. He has built cartographic apps for Google, taught on new media at Tufts University, and served as an editor for Techmeme. E.J. has a BS in Computer Science and English from Tufts University and an ScM in Computer Science from Brown University. In his spare time, E.J.'s a history and transit buff. Originally from Massachusetts, he now lives in New York City.
+  hidden: true
+
 - name: elaine
   full_name: Elaine Kamlley
-- name: stacy
-  full_name: Stacy Kane
+  first_name: Elaine
+  last_name: Kamlley
+
 - name: jackie
   full_name: Jackie Kazil
+  first_name: Jackie
+  last_name: Kazil
+  pif-round: 2
+  project: Disaster Response & Recovery
+  bio: Jacqueline Kazil is a Presidential Innovation Fellow working on Disaster Response and Recovery at the Federal Emergency Management Agency (FEMA). Jackie is a software developer passionate about human behavior and open data. Most recently, she worked for CACI, where she was lead developer on a contract at The Library of Congress, working on projects such as Chronicling America and Congress.gov. Previously, Jackie worked for The Washington Post on news-driven data applications—including the notable Top Secret America series, which received multiple awards including the 2010 George Polk Award for Journalism and was a SXSW Finalist for Technical Achievement. She has experience in software development using best practices, data analysis, modeling and simulation, social network analysis, data handling, data storage, mapping, and geospatial analysis. She is also active in open-source community development. She founded PyLadies DC and Geo DC. She also runs Django District and assists with DC Python. Jackie received her MA in Convergence Journalism from the University of Missouri, and she is currently working on her PhD in Computational Social Science at George Mason University. She lives in Washington, DC, with her husband and their two rescued dogs.
   hidden: true
+
+- name: jkim
+  full_name: Julia Kim
+  first_name: Julia
+  last_name: Kim
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  pif-site:
+  bio: Julia Kim is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Julia is focused on technology and media that help people address hard problems. She has tackled everything from improving the decision-making of troops on the ground to forecasting future science & technology trends. For the past eight years, she directed projects at the University of Southern California Institute for Creative Technologies (ICT), an Army-funded research center developing immersive technologies to benefit education, health care, and people’s lives. Leading teams that included researchers, developers, Hollywood talent, and military personnel, Julia produced educational games, short films, virtual reality-based installations and artificial intelligence systems that were used across the Department of Defense. Before ICT, Julia was a management consultant and programmer guiding and executing technology development for companies. Julia has a BA and MA in history of science from Harvard University where she studied how people use technology. Originally from the DC area, Julia now lives in Los Angeles, CA.
+  hidden: true
+
 - name: noah
   full_name: Noah Kunin
+  first_name: Noah
+  last_name: Kunin
+
 - name: diego
   full_name: Diego Lapiduz
+  first_name: Diego
+  last_name: Lapiduz
+
 - name: sasha
   full_name: Sasha Magee
+  first_name: Sasha
+  last_name: Magee
+
+- name: mmaron
+  full_name: Mikel Maron
+  first_name: Mikel
+  last_name: Maron
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: Mikel Maron is a Presidential Innovation Fellow working on Crowdsourcing initiatives at the Department of State. Mikel Maron is a programmer and geographer dedicated to community and humanitarian use of open source and open data. He has organized mapping projects in India, Palestine, Egypt, Swaziland and elsewhere with Ground Truth Initiative, and especially our flagship effort, Map Kibera, the first open source map of the slums of Nairobi. He’s a long time contributor to OpenStreetMap; and Founder and Board Member of Humanitarian OpenStreetMap Team, having helped facilitate the OSM response to the 2010 Haiti earthquake. Mikel has served as technical lead for Moabi, a collaborative data project to monitor natural resources in DRC. He co-founded the geoweb company Mapufacture (now part of ESRI), helped build the first wiki at the UN (WaterWiki at the UNDP), and generally worked on collaborative platforms and geoweb standards, with everyone from multinationals to anarchist hacker collectives. Mikel is based in Washington DC, but calls Santa Cruz, CA home.
+  hidden: true
+
 - name: majma
   full_name: Raphael Majma
+  first_name: Raphael
+  last_name: Majma
+  pif-round: 1
+  project: Open Data
+  bio: Raphael Majma is a researcher passionate about the field of open data. Most recently, he worked on the Initiative on Open Government Data and the Nonprofit Sector for Professor Beth S. Noveck at New York Law School. Previously, he studied intellectual property and information law. He has also worked as a legal contributor to the Mozilla Foundation on the Open Badges Project. Raphael holds a JD from New York Law School. He served as a Student Research Fellow at the school’s Institute for Information Law and Policy. During that time, Raphael worked on outreach programs to educate the public about significant and landmark cases, such as the Google Books Settlement (Authors Guild et al. v. Google). He lives in Brooklyn, NY with his pet turtle, Turtle.
+
 - name: manger
   full_name: Noah Manger
+  first_name: Noah
+  last_name: Manger
+
+- name:
+  full_name: Jeff Meisel
+  first_name: Jeff
+  last_name: Meisel
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Jeff Meisel is a Presidential Innovation Fellow working on Data Innovation initiatives at the Census. Jeff brings 10 years of leadership experience from the software industry across Product Management, Ecosystems, Investor Relations, and Channel Development. Most recently, he led a team of 20 technical consultants for National Instruments while helping re-architect a sales channel. From 2008-2012, he led the LabVIEW Tools Network team, creating the industry's first B2B App Store for engineers and scientists. Prior to that role, he was an Embedded Software Product Manager, where he led global product launches and published 30+ technical articles. He's passionate about STEM initiatives, and serves as the technical advisor for Chungaboo, a mobile start-up in the education space. Jeff grew up in Lakin, Kansas. He graduated from Kansas State University with a B.S. in Computer Engineering, and the University of Texas with an M.S. in Technology Commercialization. Outside of work, Jeff is an avid sports fan and BBQ enthusiast.
+  hidden: true
+
 - name: eric
   full_name: Eric Mill
+  first_name: Eric
+  last_name: Mill
+
 - name: ric
   full_name: Ric Miller
-- name: nienhuis
-  full_name: Kristin Nienhuis
+  first_name: Ric
+  last_name: Miller
+
+- name: dnaffis
+  full_name: David Naffis
+  first_name: David
+  last_name: Naffis
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: David Naffis is a Presidential Innovation Fellow working on Crowdsourcing initiatives at the National Archives and Records Administration. David is an entrepreneur and software developer with experience in software services, product development, strategy, and operations. He is a founder of Intridea, an Inc 500 winning software development firm where he oversaw several successful product spinouts and acquisitions. Before starting Intridea, David worked as a software engineer and architect at companies including AOL, Cisco, and McKinsey. He holds a masters in Systems Engineering from The University of Virginia, has contributed to a number of open-source projects, and has spoken at numerous regional and national conferences. He lives in Washington, DC with his wife, Aubrey.
+  hidden: true
+
 - name: papazian
   full_name: Chris Papazian
+  first_name: Chris
+  last_name: Papazian
+
 - name: joe
   full_name: Joe Polastre, PhD
+  first_name: Joe
+  last_name: Polastre
+  pif-round: 2
+  project: Innovation Toolkit
+  bio: Dr. Joe Polastre is a Presidential Innovation Fellow working on the Innovation Toolkit project at the State Department. Joe is a researcher, developer, and serial entrepreneur focused on data analytics. He has built systems to remotely monitor endangered seabirds and co-developed the Xerces XML parser and world's smallest Java Virtual Machine. Joe was Chief Technology Officer and Co-founder at Sentilla where he led the technical team and opened offices in Singapore and London. Previously, Joe held development and product management positions at IBM, Microsoft, and Intel. He was named one of BusinessWeek’s Best Young Tech Entrepreneurs and won the Silicon Valley 40 Under 40 award. Joe holds PhD and MS degrees in Computer Science from the University of California, Berkeley, and a BS degree from Cornell University. Joe lives in San Francisco, CA, where he enjoys sailing on the bay, skiing in Tahoe, and local live music.
+  pif-site:
+
+- name: sraub
+  full_name: Susannah Raub
+  first_name: Susannah
+  last_name: Raub
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Susannah Raub is a Presidential Innovation Fellow working on Data Innovation initiatives at the Department of State. Susannah is a software engineer from San Francisco, California. She has worked for Google for ten years in Mountain View, New York, and Sydney as a lead developer on both Google Maps and the Google Maps API. Her projects have ranged from indexing data to building serving infrastructure to developing libraries for web development. In late 2012, she took a sabbatical from Google and taught programming and software development at the Meltwater Entrepreneurial School of Technology in Accra, Ghana. She received an Sc.B. in Mathematics-Computer Science from Brown University.
+  hidden: true
+
 - name: robert
   full_name: Robert L. Read, PhD
+  first_name: Robert
+  last_name: Read
+  pif-round: 2
+  project: RFP-EZ and Innovative Contracting Tools
+  bio: Dr. Robert L. Read is a Presidential innovation Fellow working on the RFP-EZ project.  He loves programming.  Previously, Rob served as Director of Product Development at Planview, Inc., where he led agile software development teams for six years.  While doing so, he constructed the Merfluke 7, a functional but slow device for dolphin-like human-powered swimming.  Before that Rob created a website programmed in LISP for forming human consensus, and maintained and improved the Elephant LISP-based database.  He was a Principal Engineer at Hire.com, where he wrote “How to be a Programmer” and was strongly influenced by Kent Beck.  He has two patents in optics and solar energy.  He received a PhD from the University of Texas at Austin and a BA from Rice University in computer science.  Rob speaks Esperanto fluently, and has served on the board of Esperanto USA.  He lives in Austin, Texas, with his wife and two nearly-grown children.
+
+- name: dross
+  full_name: Denice Ross
+  first_name: Denice
+  last_name: Ross
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: Denice Ross is a Presidential Innovation Fellow working on Crowdsourcing initiatives at the Department of Energy. Denice’s specialty is applying data and innovation to solve pressing real-world problems. Most recently, she directed information strategy for the City of New Orleans, launching data.nola.gov to support priorities such as performance management, neighborhood revitalization, and emergency preparedness. Before City Hall, Denice co-directed the nonprofit Greater New Orleans Community Data Center, work that was propelled into the national spotlight with Hurricane Katrina. Denice collaborated with Brookings to track recovery through The New Orleans Index, and also co-designed an app using “junk mail” data to visualize neighborhood repopulation. She supported many post-Katrina planning initiatives and co-founded the first new childcare center after the storm. Denice holds a BS in Biology from the University of Arizona. A New Orleanian since 2001, Denice and her family now live in the DC area.
+  hidden: true
+
 - name: alison
   full_name: Alison Rowland
+  first_name: Alison
+  last_name: Rowland
+  pif-round: 2
+  project: MYUSA
+  bio: Alison Rowland is a Presidential Innovation Fellow working on the MyUSA project.  Alison is an experienced developer who has focused her career on the application of open-source software to civic data.  As a Software Developer and Data Scientist at the Sunlight Foundation, Alison led their flagship project, Influence Explorer, an initiative to connect the dots of political influence across datasets at both the Federal and state levels.  Alison is passionate about bringing agile development strategies and solid database development to the non-profit and government sectors.  Before joining Sunlight Foundation in 2010, Alison was part of a TV-viewing analytics team that developed and maintained the world's largest commercial PostgreSQL database at that time.  Alison grew up in Long Island, NY, and studied linguistics and music at Stony Brook University. She lives in Maryland with her husband, Isaac, and their two-year-old daughter, Evelyn.
+  pif-site:
+
 - name: josh
   full_name: Josh Ruihley
+  first_name: Josh
+  last_name: Ruihley
+
+- name: lshanley
+  full_name: Lea Shanley
+  first_name: Lea
+  last_name: Shanley
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: Lea Shanley is a Presidential Innovation Fellow working on Crowdsourcing initiatives at NASA. Trained as a geospatial data scientist and policy expert, her research has focused on improving government services and empowering communities through open and participatory innovation, new technologies and social media. Previously, she directed the Commons Lab of the Science and Technology Innovation Program at the Wilson Center. She is one of the chief organizers and co-founders of the Federal Community of Practice on Crowdsourcing and Citizen Science, a groundbreaking effort to enable federal agencies to engage the public in collective problem solving. In 2009, Lea was an AAAS Congressional Science Fellow in the U.S. Senate, crafting legislation on satellite Earth observations, oceans, and hazards. Lea also helped launch the new Citizen Science Association and Wisconsin Geographic Information Coordination Council. She conducted her PhD research in Environmental Monitoring at the University of Wisconsin-Madison, and holds an MS in astronomy and BS in physics.
+  hidden: true
+
 - name: aaron
   full_name: Aaron Snow
+  first_name: Aaron
+  last_name: Snow
+  pif-round: 2
+  project: RFP-EZ and Innovative Contracting Tools
+  bio: Aaron Snow is a Presidential Innovation Fellow working on the RFP-EZ project. Previously, Aaron co-founded Daring Software and built the back-end for its flagship shopping app, Arro. Prior to that, he was Web Development Manager for Birthday in a Box. He has also served as a program manager for Microsoft, an instructor for the University of Washington Extension School, a Federal law clerk, a litigation attorney for Boies, Schiller & Flexner LLP, and a manager and senior advisor for voter protection teams on two presidential campaigns. Aaron is an honors graduate of Harvard College, where he served as a Teaching Fellow in computer science, and Columbia Law School, where he was Technology Editor for the Columbia Law Review and received the Lance Liebman "Nice Guys Don't Necessarily Finish Last" Award. He lives in Kensington, MD, with his wife, their two children, and an energetic puli puppy who enjoys stealing everyone's socks.
+
+- name: bso
+  full_name: Bosco So
+  first_name: Bosco
+  last_name: So
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Bosco So is a Presidential Innovation Fellow working on Data Innovation initiatives at the Department of Energy. Bosco is a software engineer with extensive experience in application development and a passion for building communities and connecting people. Bosco has designed & implemented numerous web and desktop products in a variety of languages and systems. At Indiegogo, he has been instrumental in building out both the technology stack and the engineering team. He is also a proponent of rapid mobile development technologies. Prior to Indiegogo, he designed & deployed API services and mobile & console clients. Bosco organizes the San Francisco Ruby Meetup, which has grown from 37 to over 6000 members during the past 8 years. Bosco holds a Computer Science degree from MIT. After graduating, he joined the Peace Corps and taught high school in Liberia, West Africa, and later returned to the region as a Geekcorps volunteer. He now lives in San Francisco. In his spare time, Bosco is either attending hackathons, teaching Ruby, or riding his bicycle.
+  hidden: true
+
+- name: rsosinski
+  full_name: Robert Sosinski
+  first_name: Robert
+  last_name: Sosinski
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  pif-site:
+  bio: Robert Sosinski is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Robert is an engineer and entrepreneur who has successfully led many ambitious software projects from concept to launch. Currently the founder of Reactive.IO, Robert helps businesses of all sizes build their mission-critical software right the first time. Previously, Robert was the VP of Engineering at Ticket Evolution, where he led the development of cutting-edge software products that serve as the backbone of the event industry’s ticket market. Before that, Robert led software buildouts at Sling Media (acquired by Dish Network), Time Inc., Health.com, Entertainment Weekly, University of Pennsylvania, and Switch2Health (acquired by FitBit). Robert also served in the 70th Intelligence Wing of the U.S. Air Force while stationed in Tokyo, Japan. Robert earned his B.S. in Computer Science from University of Maryland and M.S. in Management of Technology from NYU. Robert comes to DC from Hoboken, NJ with his wife Reina and energetic 2 year old daughter Jenny.
+  hidden: true
+
+- name: asteremberg
+  full_name: Alan Steremberg
+  first_name: Alan
+  last_name: Steremberg
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Alan Steremberg is a Presidential Innovation Fellow working on Data Innovation initiatives at the National Oceanic and Atmospheric Administration. Alan is a computer engineer and entrepreneur who enjoys creating consumer products. Alan co-founded the Weather Underground, a leading weather website in 1995 while at the University of Michigan. He began his career as the company's Director of Technology building web products from government weather data. Alan completed a masters degree at Stanford University in Human Computer Interaction. After graduating, Alan became President of the Weather Underground and grew the company to become the second largest weather website, with 50 employees and over 20 million unique monthly visitors. In 2012, Weather Underground was sold to The Weather Channel. After a successful integration, Weather Underground continues as a brand and a set of products at the Weather Channel.
+  hidden: true
+
 - name: amos
   full_name: Amos Stone
+  first_name: Amos
+  last_name: Stone
+  pif-round: 2
+  project: MYUSA
+  bio: Amos Stone is a Presidential Innovation Fellow working on the MyUSA project.  Amos is a software engineer and entrepreneur with an affinity for solving problems with technology.  He has been developing web solutions in the private sector for over ten years.  Originally from Arizona, he worked on some of the most trafficked travel websites on the web.  Most recently, he was working in Research and Development with Active Network to bridge gaps between the physical and virtual domains for marathon runners.  Amos lives in San Diego with his dachshund, where he enjoys surfing, volleyball, and running.
+  pif-site:
+
 - name: theresa
   full_name: Theresa Summa
+  first_name: Theresa
+  last_name: Summa
+
+- name: gsunthara
+  full_name: Gajen Sunthara
+  first_name: Gajen
+  last_name: Sunthara
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Gajen Sunthara is a Presidential Innovation Fellow working on the MyData Initiative (Blue Button) at the Department of Health and Human Services. Previously, Gajen served as a Principal Software Architect at the Innovation Acceleration Program at Boston Children's Hospital. He also volunteers as a Mentor for both InciteHealth at the Center for Primary Care at Harvard Medical School, as well as for Hacking Pediatrics in collaboration with MIT H@cking Medicine. Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a Master’s in Information Technology from Harvard University. Gajen’s master thesis focused on using Google Glass to develop a novel application called “GlassSurgeon” which enhances a surgeon’s workflow and improves patient safety by leveraging natural language processing and hands-free features that access real-time clinical information systems. Combining expertise in laboratory medicine and in-depth understanding of clinical and patient workflows through technical leadership in R&D, devices, software development and architecture, he aims to achieve his professional goal of implementing innovative technologies within the healthcare setting.
+  hidden: true
+
 - name: russ
   full_name: Russ Unger
+  first_name: Russ
+  last_name: Unger
+
 - name: raphy
   full_name: Raphael Villas
+  first_name: Raphael
+  last_name: Villas
+  pif-round: 2
+  project: MYUSA
+  bio: Raphael Villas is a Presidential Innovation Fellow working on MyUSA at the General Services Administration. Raphael is a web generalist, experienced in both visual design and software development. Most recently, he worked as a software developer at Groupon, focused on Ruby and JavaScript development. His work as a consultant includes online and offline communications for non-profit, Fortune 500, and startup organizations. He previously worked on technology teams for Hill's Pet Nutrition and VeggieTales. Raphael earned his BS from Loyola University of Chicago and conducted post-baccalaureate studies in graphic design at University of Illinois at Chicago. Raphael lives in Chicago with his wife and two children.
+  pif-site:
+
+- name: cwardell
+  full_name: Dr. Clarence Wardell III
+  first_name: Clarence
+  last_name: III
+  pif-round: 3
+  project: Data Innovation
+  pif-site:
+  bio: Dr. Clarence Wardell III is a Presidential Innovation Fellow working on Data Innovation initiatives with the Department of Energy. Clarence is a researcher and social entrepreneur who is passionate about using technology to increase and enhance civic engagement. Previously, Clarence was a Research Scientist with CNA Corporation’s Safety & Security group, where he provided analytical support to emergency management and law enforcement organizations to improve response outcomes. In that capacity, Clarence also led CNA’s research on the adoption and use of new media technologies by emergency managers. In addition, he has developed several civic-focused software products, including Trivial Impact, a political trivia mobile game, and tinyGive, a social media-based microphilanthropy platform that he co-founded in 2012. Clarence, who is also an affiliate with Harvard’s Berkman Center for Internet & Society, holds a BSE in Computer Engineering from the University of Michigan and a PhD from the Georgia Institute of Technology's School of Industrial and Systems Engineering. Originally from Lathrup Village, MI, he now resides in Washington, DC.
+  hidden: true
+
 - name: ben
   full_name: Ben Willman
+  first_name: Ben
+  last_name: Willman
+  pif-round: 2
+  project: VA Modernization
+  bio: Ben Willman is a Presidential Innovation Fellow working on the VA Modernization project at the Department of Veterans Affairs. Most recently, Ben was the Director of Technology at bio-statistical consulting firm Statistics Collaborative and was Founder and Chief Technology Officer of Software as a Service startup ClientHat. Ben got his start working in technology incubators and startups in New York and was the Founder and Chief Technology Officer of UstreamIt, a streaming video application provider. He has led the development of a wide variety of technology products including a Phase I medical database used worldwide in malaria trials. Ben is passionate about building products and businesses that solve real problems and loves talking to customers to understand what makes them tick. He is active in the lean startup community as a mentor and blogger and is on the DC Organizing Committee of the Lean Startup Machine. Ben holds a BS in Zoology from the University of Wisconsin, Madison. He lives in Washington, DC, and is a longtime performer of long-form improvisational comedy at Washington Improv Theater.
+  pif-site:
+
+- name: jwinn
+  full_name: Julia Winn
+  first_name: Julia
+  last_name: Winn
+  pif-round: 3
+  project: 21st Century Veterans Experience
+  pif-site:
+  bio: Julia Winn is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Julia is a product strategist and software engineer with a passion for building tools people can use to solve their own problems. Julia was most recently a product manager at Ginger.io, a spin-off from the MIT Media Lab using smartphones to transform healthcare delivery. While at Ginger.io she created the Mood Matters Program which has screened over 150,000 people for depression in the first 6 months since launch. Julia earlier founded BetterFit Technologies, a TechStars Boston company with the goal of personalizing the process of prescribing drugs to minimize adverse events and maximize effectiveness. The Digital Health Post named her one of the 12 Rock Star Women of Digital Health. She graduated from Harvard College with a degree in Computer Science where she conducted research in genetic engineering and data privacy. Julia lives in San Francisco, CA, with her pet mouse Coconut.
+  hidden: true
+
+- name: cwong
+  full_name: Christopher Wong
+  first_name: Christopher
+  last_name: Wong
+  pif-round: 3
+  project: Crowdsourcing
+  pif-site:
+  bio: Christopher Wong is a Presidential Innovation Fellow working on Crowdsourcing Initiatives at the U.S. Patent and Trademark Office. Chris is a technologist and expert in intellectual property law with a passion for improving the patent system. Chris was previously the Executive Director of the Engelberg Center on Innovation Law & Policy at NYU School of Law. Before joining NYU Law, Chris was a Postgraduate Fellow at the Institute for Information Law & Policy at New York Law School, as well as a Visiting Fellow at both the Yale Law School Information Society Project and the Princeton University Center for Information Technology Policy. While at New York Law School, Chris served as the founding project manager of Peer to Patent—a historic initiative allowing the public to participate in the patent examination process—and lead researcher of the NSF-funded Open Patent project exploring the use of user-generated tags to improve understanding of patent information. Chris holds a JD from New York Law School and a BSBA in Information Technology from the University of Denver. He lives in Brooklyn, NY.
+  hidden: true
+
 - name: lindsay
   full_name: Lindsay Young
+  first_name: Lindsay
+  last_name: Young
+
 - name: yuda
   full_name: John Yuda
+  first_name: John
+  last_name: Yuda
+
 - name: victor
   full_name: Victor Diaz Zapanta
+  first_name: Victor
+  last_name: Zapanta
+
 - name: jane
   full_name: jane avriette
+  first_name: jane
+  last_name: avriette
   hidden: true
+
 - full_name: Alan deLevie
   name: alan
-  hidden: true
+  first_name: Alan
+  last_name: deLevie
+  hidden: true deLevie
