@@ -11,17 +11,21 @@
     <a href="/">
       <i class="icon-18f-logo"></i>
     </a>
+    <br />
+    <a href="/news">
+      <em>Return to the blog</em>
+    </a>
   </div>
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <time datetime="{{ post.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
       <p>
         Tagged /
         <span class="blog-tags" itemprop="keywords">
           {% for tag in page.tags %}
-            <a href="/{{site.tag_dir}}/{{ tag }}">{{ tag }}</a>
+            <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
             /
           {% endfor %}
         </span>

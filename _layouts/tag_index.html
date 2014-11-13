@@ -19,7 +19,7 @@ layout: bare
             <div class="blog-meta">
               <p>
                 Posted on
-                <time class="blog-date" datetime="{{post.date}}" itemprop="datePublished">
+                <time class="blog-date" datetime="{{ post.date | date_to_xmlschema}}" itemprop="datePublished">
                   {{ post.date | date_to_string }}
                 </time>
               </p>
@@ -27,7 +27,7 @@ layout: bare
                 Tagged /
                 <span class="blog-tags" itemprop="keywords">
                   {% for tag in post.tags %}
-                    <a href="/{{ site.tag_dir }}/{{ tag }}">{{ tag }}</a>
+                    <a href="/{{ site.tag_dir }}/{{ tag | uri_escape }}">{{ tag }}</a>
                     /
                   {% endfor %}
                 </span>

@@ -14,6 +14,8 @@
   full_name: Nick Bristow
 - name: gray
   full_name: Gray Brooks
+- name: jeremy
+  full_name: Jeremy Canfield
 - name: chrisc
   full_name: Chris Cairns
 - name: dave
@@ -42,6 +44,9 @@
   full_name: Michelle Hood
 - name: stacy
   full_name: Stacy Kane
+- name: jackie
+  full_name: Jackie Kazil
+  hidden: true
 - name: noah
   full_name: Noah Kunin
 - name: diego
@@ -76,6 +81,8 @@
   full_name: Theresa Summa
 - name: raphy
   full_name: Raphael Villas
+- name: ben
+  full_name: Ben Willman
 - name: lindsay
   full_name: Lindsay Young
 - name: yuda
@@ -85,5 +92,6 @@
 - name: jane
   full_name: jane avriette
   hidden: true
-- full_name: Ben Willman
-  name: ben
+- full_name: Alan deLevie
+  name: alan
+  hidden: true

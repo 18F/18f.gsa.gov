@@ -435,7 +435,7 @@ $tiniest: new-breakpoint(max-width 390px);
     	margin-left: 1em;
 	}
 	ol {
-	  	list-style: inherit;
+	  	list-style: decimal;
     	padding-bottom: 1.1em;
     	margin-left: 1em;
 	}
@@ -481,6 +481,34 @@ $tiniest: new-breakpoint(max-width 390px);
       display: none;
     }
   }
+
+	.highlight {
+		padding: 2px 4px;
+		background-color: #eaeaff;
+		border: 1px solid #d5d5d5;
+		margin: 10px 0;
+
+		pre {
+			display: block;
+			padding: 5px 10px;
+			margin: 0;
+
+			font-size: 13px;
+			font-family: monospace;
+			line-height: 1.7;
+		}
+	}
+
+	p {
+		code {
+			padding: 2px 4px;
+			background-color: #eaeaff;
+			border: 1px solid #d5d5d5;
+			font-size: 10pt;
+			font-family: monospace;
+		}
+	}
+
 }
 
 // Team
@@ -675,6 +703,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-bottom: 4px;
 		@include media($smallest) {
 			font-size: 1.2em;
+		}
+	}
+	h4 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.2em;
+		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1em;
 		}
 	}
 	p {
