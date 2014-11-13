@@ -1,0 +1,14 @@
+---
+permalink: /pif/fellows/round-1/
+layout: bare
+title: Round 1 Presidential Innovation Fellows
+---
+{{page.title}}
+{% assign people = site.data.team | where: "pif-round", 1 | group_by: "project" %}
+{% for projects in people %}
+  <h2>{{ projects.name }}</h2>
+  {% for person in projects.items %}
+    <h3>{{ person.full_name }}</h3>
+    <p>{{ person.bio }}</p>
+  {% endfor %}
+{% endfor %}
