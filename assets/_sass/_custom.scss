@@ -28,6 +28,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+
 // Extends
 //********************************************************
 %heading-text-style {
@@ -745,6 +746,16 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	@include media($tiny) {
 		@include span-columns(12);
+	}
+}
+
+.bare_pif .bare-content {
+	p {
+		margin: 0 0 0 13em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
 	}
 }
 
