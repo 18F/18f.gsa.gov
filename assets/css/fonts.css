@@ -59,6 +59,11 @@
 .icon-twitter:before {
   content: "g";
 }
+.icon-rss:before {
+  content: ".";
+  background-image: url(/assets/images/rss.png);
+  background-size: 18px;
+}
 .icon-spinner:before {
   content: "l";
 }
