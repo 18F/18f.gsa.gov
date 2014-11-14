@@ -57,7 +57,7 @@ Like everything else, managing the mechanics of HTTPS becomes far easier when yo
 We've still got a lot to do on this front, but we're starting out by:
 
 * Openly documenting our [standard HTTPS practices](https://github.com/18F/tls-standards). This forces us to be more thoughtful and rigorous, and we hope it will yield valuable public feedback.
-* Baking a strong nginx configuration into the baseline that 18F uses to create each of our production servers, so that our individual developers don't have to become HTTPS experts.
+* Baking a [strong nginx configuration](https://github.com/18F/tls-standards/blob/008ad71ff13b368895351342142eea4fba671a50/configuration/nginx/ssl.rules) into the baseline that 18F uses to create each of our production servers, so that our individual developers don't have to become HTTPS experts.
 * Keeping up with the web security community as it makes advances in [encryption](https://blog.cloudflare.com/ecdsa-the-digital-signature-algorithm-of-a-better-internet/), [protocols](http://threatpost.com/tls-1-3-working-group-has-consensus-to-deprectate-rsa-key-transport), and [certificate management](https://sslmate.com) that can make our lives easier and our applications more secure.
 
 As we grow, we'll be writing about the tools we use &mdash; and [open sourcing](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) the tools we make &mdash; along the way.
