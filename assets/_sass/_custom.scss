@@ -431,14 +431,31 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	ul {
 	  	list-style: inherit;
-    	padding-bottom: 1.1em;
-    	margin-left: 1em;
 	}
 	ol {
 	  	list-style: decimal;
-    	padding-bottom: 1.1em;
+	}
+	ul, ol {
     	margin-left: 1em;
 	}
+	li {
+			padding-bottom: 1.1em;
+	}
+
+	p, li {
+		line-height: 28px;
+	}
+
+	p {
+		code {
+			padding: 2px 4px;
+			background-color: #eaeaff;
+			border: 1px solid #d5d5d5;
+			font-size: 10pt;
+			font-family: monospace;
+		}
+	}
+
 }
 .blog-pagination {
 	margin-top: 30px;
@@ -496,16 +513,6 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 13px;
 			font-family: monospace;
 			line-height: 1.7;
-		}
-	}
-
-	p {
-		code {
-			padding: 2px 4px;
-			background-color: #eaeaff;
-			border: 1px solid #d5d5d5;
-			font-size: 10pt;
-			font-family: monospace;
 		}
 	}
 
