@@ -511,6 +511,28 @@ $tiniest: new-breakpoint(max-width 390px);
 
 }
 
+// PIF
+//********************************************************
+.pif-nav {
+	li { 
+		&:last-of-type {
+			padding-top: 20px;
+		}
+		a {
+			text-decoration: underline;
+			&:hover, 
+			&:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.pif-title {
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
 // Team
 //********************************************************
 .team {

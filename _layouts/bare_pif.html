@@ -10,21 +10,21 @@
     <a href="/pif/">
       <img src = "/assets/images/logo-pif.png">
     </a>
-    <br />
-    <a href="/pif/"> About</a>
-    <br />
-    <a href="/pif/apply">Apply</a>
-    <br />
-    <a href="/pif/fellows">Fellows</a>
-    <br />
-    <a href="/pif/projects">Projects
-    </a>
-    <br />
-    <a href="/pif/faq">FAQs</a>
+    <nav>
+      <ul class="pif-nav">
+        <li><a href="/pif/">About</a></li>
+        <li><a href="/pif/apply">Apply</a></li>
+        <li><a href="/pif/fellows">Fellows</a></li>
+        <li><a href="/pif/projects">Projects</a></li>
+        <li><a href="/pif/faq">FAQs</a></li>
+        <li><a href="/index">Back to 18F home</a></li>
+      </ul>
+    </nav>
   </div>
 
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+    <h1 class="pif-title">{{page.title}}</h1>
     {{ content }}
   </div>
 
