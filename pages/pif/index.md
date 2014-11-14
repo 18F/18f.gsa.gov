@@ -8,9 +8,9 @@ The Presidential Innovation Fellows (PIF) program was established by the White H
 
 The PIF program is administered as a partnership between the White House Office of Science and Technology Policy (OSTP), the White House Office of Management and Budget (OMB), and the General Services Administration (GSA).   In 2013, the PIF program established a permanent home and program office within GSA, where it operates as part of 18F, an innovative group focused on the delivery of digital services across the federal government.
 
-[Meet our leadership team](http://whitehouse.gov/innovationfellows/team)
+[Meet our leadership team](http://whitehouse.gov/innovationfellows/leadership-team)
 
-[Learn more about 18F](http://18f.gsa.gov)
+[Learn more about 18F](/)
 
 ## Program Details
 
