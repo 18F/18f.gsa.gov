@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Why 18F uses HTTPS everywhere
+title: Why we use HTTPS for every .gov we make
 image:
-description: 18F uses HTTPS in every website we make, so that our users have a fast, secure, private connection.
+description: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
 
 authors:
  - eric
@@ -16,17 +16,17 @@ tags:
   by {% author eric %}
 </p>
 
-18F is an in-house government team that builds modern, usable, and secure technology for the rest of the US federal government. As government employees in the largest organization in the world, we get to work on tough problems affecting lots of people.
+The `.gov` in government websites carries a lot of weight. Citizens expect government websites to be secure, trustworthy, and reliable. Citizens expect that anything they read on a `.gov` website to be official, and they expect any information they submit to that website &mdash; especially if they're submitting personal information &mdash; to be sent safely and only to the government.
 
-That's why 18F is committed to **using HTTPS in every application we build**.
+On today's Internet, in today's web browsers, **HTTPS** (`https://`) offers the strongest guarantee of reliable information and secure transmission.
 
-That means our products are only accessible over an encrypted, verified connection. Our sites use `https://` and communicate using [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS), which is also known as SSL.
+<!-- more -->
 
-That sounds technical, but you see HTTPS all the time as you browse the web. Look up and you'll see it right now:
+That's why 18F's policy is to **use HTTPS for every .gov website we make**.  18F is an in-house government technology team that builds things for the rest of the US federal government, and we're committed to deploying HTTPS across all of our released websites.
 
-[image of browser bar with https://]
+![HTTPS URL on desktop](/assets/blog/https-everywhere/18f-https-desktop.png)
 
-Our decision to use HTTPS everywhere was not difficult to make. Using strong encryption greatly benefits our visitors and our government partners by letting us offer:
+Deciding to use HTTPS everywhere was not difficult. Strong encryption benefits our visitors and our government partners by providing:
 
 * **A secure connection.** HTTPS guarantees that visitors are connecting to the official website, and not getting a page that's been tampered with &mdash; or replaced entirely &mdash; by someone else. This protects users from being hijacked or having their information stolen, and protects our government partners from being impersonated or used as a vehicle for attack.
 * **A private connection.** Internet traffic is easily intercepted and easily correlated &mdash; there is no such thing as insensitive browsing data. By using HTTPS, a visitor's browsing activity is kept private. Web pages, URLs, cookies, and HTTP headers are all encrypted.
@@ -34,7 +34,7 @@ Our decision to use HTTPS everywhere was not difficult to make. Using strong enc
 
 Finally, using HTTPS lets us adhere to **search engine best practices**, as [Google's search algorithms now prefer encrypted websites](http://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html).
 
-These properties are useful for all of our applications, all of the time &mdash; not just when passwords or personal information are involved. By simply deploying HTTPS all the time, we don't have to engineer a boundary around "sensitive" parts of the application, or judge where those lines should be drawn.
+These properties are useful for all of our applications, all of the time &mdash; not just when passwords or personal information are involved. By simply deploying HTTPS all of the time, we don't have to engineer a boundary around "sensitive" parts of the application, or judge where those lines should be drawn.
 
 Our friends across the pond in the Government Digital Service have come to the same conclusion, and [require HTTPS](https://www.gov.uk/service-manual/domain-names/https.html) in their [digital standards for the UK government](https://www.gov.uk/service-manual).
 
