@@ -1,11 +1,11 @@
 ---
 layout: post
-title: A new database testing utility
+title: "A new database testing utility"
 image:
-description: Announcing a new open-source tool from 18F's work
+description: "rdbms-subsetter, a new utility from 18F's work for generating test databases"
 
 authors:
- - catherinedevlin
+ - catherine
 
 tags:
 - testing
@@ -15,7 +15,7 @@ tags:
 - culture
 ---
 <p class="authors">
-  by {% author catherinedevlin %}
+  by {% author catherine %}
 </p>
 
 If you test software that uses a database, 18F has
