@@ -1,0 +1,4 @@
+#!/bin/bash
+
+test -d _site || mkdir _site
+jekyll serve

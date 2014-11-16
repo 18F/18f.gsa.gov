@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jekyll build
+test -z "$(which htmlproof)" && gem install html-proofer
+html-proof _site

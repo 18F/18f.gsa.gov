@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gem install jekyll bourbon jekyll-sitemap
