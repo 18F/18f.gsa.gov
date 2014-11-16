@@ -1,4 +1,8 @@
-**CONTRIBUTORS TAKE NOTE:** We work off the `staging` branch, so be sure to base your work on `staging` -- we don't event have a `master` branch.
+**CONTRIBUTORS TAKE NOTE:** We work off the `staging` branch, so be sure to base your work on `staging` -- we don't even have a `master` branch.
+
+## Where Contributions Go
+
+Submit contributions to https://github.com/18F/18f.gsa.gov as a pull request to the `staging` branch.
 
 ## Public domain
 

@@ -1,3 +1,10 @@
 #!/bin/bash
 
+command -v python > /dev/null || (echo "Please install Python." && exit 1)
+command -v node > /dev/null || (echo "Please install NodeJS." && exit 1)
+command -v ruby > /dev/null || (echo "Please install Ruby." && exit 1)
+
+echo "Installing gem dependencies..."
 gem install jekyll bourbon jekyll-sitemap
+command -v rbenv > /dev/null && rbenv rehash
+true
