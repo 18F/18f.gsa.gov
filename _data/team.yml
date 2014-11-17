@@ -118,6 +118,11 @@
   bio: Ben Getson is a Presidential Innovation Fellow working on Data Innovation initiatives at the Internal Revenue Service. Ben is an experienced product developer focused on delivering intuitive solutions. At LivingSocial, Ben designed the systems that drive each line of business, additionally working directly with small business owners on customized marketing solutions. Ben also serves as a mentor at DC’s local startup hub, 1776. There, he advises early-stage startups on strategies to test their product ideas and techniques for structuring product development. Formerly, he spent several years as the technical lead at Capitalogix Trading, building the IT infrastructure behind their financial services. Ben studied Computer Science and Information Science at Duke University, and he now lives in Washington, D.C.
   hidden: true
 
+- name: afeld
+  full_name: Aidan Feldman
+  first_name: Aidan
+  last_name: Feldman
+
 - name: garren
   full_name: Garren Givens
   first_name: Garren
@@ -543,7 +548,7 @@
   first_name: Scott
   last_name: Wu
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -552,7 +557,7 @@
   first_name: Scott
   last_name: hartley
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -561,7 +566,7 @@
   first_name: Derek
   last_name: Frempong
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -570,7 +575,7 @@
   first_name: Vidya
   last_name: Spandana
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -579,7 +584,7 @@
   first_name: Diego
   last_name: Mayer-Cantu
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -588,7 +593,7 @@
   first_name: Jason
   last_name: Shen
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -597,7 +602,7 @@
   first_name: Beverly
   last_name: Park Woolf
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -606,7 +611,7 @@
   first_name: James
   last_name: Sanders
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -615,7 +620,7 @@
   first_name: Rob
   last_name: Baker
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -624,7 +629,7 @@
   first_name: Charles
   last_name: Worthington
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -633,7 +638,7 @@
   first_name: Erin
   last_name: Akred
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -642,7 +647,7 @@
   first_name: Adam
   last_name: Riggs
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -651,7 +656,7 @@
   first_name: Martin
   last_name: Ringlein
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -660,7 +665,7 @@
   fist_name: Sokwoo
   last_name: Rhee
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -669,7 +674,7 @@
   first_name: Geoff
   last_name: Mulligan
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -678,7 +683,7 @@
   first_name: John
   last_name: Kemp
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -687,7 +692,7 @@
   first_name: John
   last_name: Felleman
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -696,7 +701,7 @@
   first_name: Claire
   last_name: Holroyd
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -705,7 +710,7 @@
   fist_name: John
   last_name: Teeter
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -714,7 +719,7 @@
   first_name: Matthew
   last_name: Theall
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -723,7 +728,7 @@
   first_name: Tom
   last_name: Black
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -732,7 +737,7 @@
   first_name: Nayan
   last_name: Jain
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -741,14 +746,14 @@
   first_name: Adam
   last_name: Dole
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
 - full_name: Dain Miller
   name:
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -757,14 +762,14 @@
   first_name:  Mollie
   last_name: Ruskin
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
 - full_name: Kin Lane
   name:
   pif-round: 2
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -773,7 +778,7 @@
   first_name: Phil
   last_name: Ashlock
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -782,7 +787,7 @@
   first_name: Ben
   last_name: Balter
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -791,7 +796,7 @@
   first_name: Danny
   last_name: Chapman
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -800,7 +805,7 @@
   first_name: Kara
   last_name: DeFrias
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -809,7 +814,7 @@
   first_name: Greg
   last_name: Gershman
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -818,7 +823,7 @@
   first_name: Nicholas
   last_name: Bramble
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -827,7 +832,7 @@
   first_name: Dmitry
   last_name: Kachaev
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -836,7 +841,7 @@
   first_name: Ian
   last_name: Kalin
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -845,7 +850,7 @@
   first_name: Nathaniel
   last_name: Manning
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -854,7 +859,7 @@
   first_name: Marina
   last_name: Martin
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -863,7 +868,7 @@
   first_name: Matt
   last_name: McCall
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -872,7 +877,7 @@
   first_name: Ryan
   last_name: Panchadsaram
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -881,7 +886,7 @@
   first_name: Henry
   last_name: Wei
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -890,7 +895,7 @@
   first_name: Adam
   last_name: Becker
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -899,7 +904,7 @@
   first_name: Clay
   last_name: Johnson
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -908,7 +913,7 @@
   first_name: Jed
   last_name: Wood
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
 
@@ -917,6 +922,6 @@
   first_name: Karl
   last_name: Mehta
   pif-round: 1
-  project: 
+  project:
   bio:
   hidden: true
