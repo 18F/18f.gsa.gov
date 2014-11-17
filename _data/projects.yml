@@ -1,4 +1,16 @@
 round:
+  4:
+    projects:
+      - name: Education
+        description: Making education more accessible, available, and attainable
+      - name: Jobs & the Economy
+        description: Fueling the economy and job growth through improved opportunities for entrepreneurs and businesses of all sizes
+      - name: Climate Change
+        description: Preparing the U.S. to lead international efforts, and prepare for the impacts of climate change
+      - name: Health & Patient Care
+        description: Saving lives, provide better access to benefits and programs promoting quality-of-life
+      - name: Government Effectiveness
+        description: Improving processes and technology to eliminate wasteful spending, streamline what works, and modernize government
   3:
     projects:
     - name: Data Innovation
