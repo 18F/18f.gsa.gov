@@ -561,10 +561,10 @@
   bio:
   hidden: true
 
-- full_name: Derek Frempong
-  name: dfrempong
+- full_name: Derek Frempon
+  name: dfrempon
   first_name: Derek
-  last_name: Frempong
+  last_name: Frempon
   pif-round: 2
   project:
   bio:
@@ -751,7 +751,9 @@
   hidden: true
 
 - full_name: Dain Miller
-  name:
+  name: dmiller
+  first_name: Dain
+  last_name: Miller
   pif-round: 2
   project:
   bio:
@@ -767,7 +769,9 @@
   hidden: true
 
 - full_name: Kin Lane
-  name:
+  name: klane
+  first_name: Kin
+  last_name: Lane
   pif-round: 2
   project:
   bio:
