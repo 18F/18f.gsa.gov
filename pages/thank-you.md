@@ -8,7 +8,7 @@ Thank you!
 
 <p class="lead">We hope you'll keep in touch.</p>
 
-You will be automatically redirected to the homepage in 20 seconds, or [click here to go there now](./index.html).
+You will be automatically redirected to the homepage in 20 seconds, or [click here to go there now](https://18f.gsa.gov/).
 
 <script>
 setTimeout(function() {
