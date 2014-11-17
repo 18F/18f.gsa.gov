@@ -10,10 +10,4 @@ title: Meet the Fellows - Round 3
 		<a href= "/pif/fellows/">Round 3</a>
 	</p>
 {% assign people = site.data.team | where: "pif-round", 3 | group_by: "project" %}
-{% for projects in people %}
-  <h2>{{ projects.name }}</h2>
-  {% for person in projects.items %}
-    <h3>{{ person.full_name }}</h3>
-    <p>{{ person.bio }}</p>
-  {% endfor %}
-{% endfor %}
+{% include_relative list.html %}

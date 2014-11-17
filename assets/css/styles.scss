@@ -5,14 +5,14 @@
 // Import all scss, ending with custom styles
 // *******************************************
 
-// bourbon.io 
+// bourbon.io
 @import 'bourbon/bourbon';
 
 // bitters.bourbon.io
 @import 'base/base';
 
 // neat.bourbon.io
-@import 'neat/neat'; 
+@import 'neat/neat';
 
 // custom styles
-@import "custom";
+@import 'custom';

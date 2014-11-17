@@ -1,0 +1,8 @@
+{% for projects in people %}
+  <h2>{{ projects.name }}</h2>
+  {% for person in projects.items %}
+    <h3>{{ person.full_name }}</h3>
+    <img class="pif-photos" src="/assets/images/team/pif/round{{person.pif-round}}/{{person.name}}.jpg" alt="Photo of {{ person.full_name }}" />
+    <p>{{ person.bio }}</p>
+  {% endfor %}
+{% endfor %}
