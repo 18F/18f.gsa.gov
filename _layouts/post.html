@@ -20,12 +20,12 @@
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <time datetime="{{ post.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
       <p>
         Tagged /
         <span class="blog-tags" itemprop="keywords">
           {% for tag in page.tags %}
-            <a href="/{{site.tag_dir}}/{{ tag }}">{{ tag }}</a>
+            <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
             /
           {% endfor %}
         </span>
@@ -51,6 +51,7 @@
     <aside class="blog-follow-us">
       <h1>Follow us here:</h1>
       <ul>
+        <li><i class="icon-rss"></i> <a href="/feed/">18F News Feed</a>
         <li><i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
         <li><i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
       </ul>

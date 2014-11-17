@@ -32,10 +32,12 @@
   <title>{{ site.title }}</title>
   <meta property="og:title" content="{{ site.title | xml_escape }}" />
 {% endif %}
-
 {% if page.description %}
   <meta name="description" content="{{ page.description | xml_escape }}">
   <meta property="og:description" content="{{ page.description | xml_escape }}" />
+{% elsif page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | strip_html | xml_escape }}" />
+  <meta property="og:description" content="{{page.excerpt | strip_html | xml_escape }}" />
 {% else %}
   <meta name="description" content="{{ site.description | xml_escape }}">
   <meta property="og:description" content="{{ site.description | xml_escape }}" />

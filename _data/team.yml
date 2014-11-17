@@ -6,6 +6,8 @@
   full_name: Leah Bannon
 - name: david
   full_name: David Best
+- name: mbland
+  full_name: Mike Bland
 - name: boone
   full_name: Greg Boone
 - name: brethauer
@@ -26,6 +28,8 @@
   full_name: Catherine Devlin
 - name: jen
   full_name: Jen Ehlers
+- name: afeld
+  full_name: Aidan Feldman
 - name: garren
   full_name: Garren Givens
 - name: greg
@@ -42,8 +46,8 @@
   full_name: Michelle Hertzfeld
 - name: michelle
   full_name: Michelle Hood
-- name: stacy
-  full_name: Stacy Kane
+- name: elaine
+  full_name: Elaine Kamlley
 - name: jackie
   full_name: Jackie Kazil
   hidden: true
@@ -61,8 +65,6 @@
   full_name: Eric Mill
 - name: ric
   full_name: Ric Miller
-- name: nienhuis
-  full_name: Kristin Nienhuis
 - name: papazian
   full_name: Chris Papazian
 - name: joe
@@ -79,6 +81,8 @@
   full_name: Amos Stone
 - name: theresa
   full_name: Theresa Summa
+- name: russ
+  full_name: Russ Unger
 - name: raphy
   full_name: Raphael Villas
 - name: ben
