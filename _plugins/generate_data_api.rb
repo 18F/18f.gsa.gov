@@ -1,3 +1,5 @@
+require 'fileutils'
+
 module Jekyll
 
   class JSONFile < Jekyll::StaticFile
@@ -12,20 +14,19 @@ module Jekyll
     safe true
 
     def generate(site)
-      dir = '/api' || site.config['api_dir']
-      Dir.mkdir(site.dest+dir) if !Dir.exists?(site.dest+dir)
-      Dir.mkdir(site.dest+dir+'/data') if !Dir.exists?(site.dest+dir+'/data')
-      dir = dir+'/data/'
+      api_dir = Jekyll.sanitized_path(site.dest, site.config.fetch('api_dir', '/api'))
+      data_dir = File.join(api_dir, '/data')
+      FileUtils.mkdir_p(api_dir) if !Dir.exists?(api_dir)
+      FileUtils.mkdir_p(data_dir) if !Dir.exists?(data_dir)
       site.data.keys.each do |datum|
-        write_data_api(site, dir, datum)
-        new_static = JSONFile.new(site, site.dest, '/api/data/', datum+'.json')
-        site.keep_files << 'api/data/'+datum+'.json'
+        write_data_api(site, data_dir, datum)
+        site.keep_files << File.join('api', 'data', "#{datum}.json")
       end
     end
 
     def write_data_api(site, dir, datum)
       data_set = site.data[datum]
-      File.open(site.dest+dir+datum+'.json', 'w') { |file| file.write(data_set.to_json)}
+      File.open(File.join(dir, "#{datum}.json"), 'w') { |file| file.write(data_set.to_json) }
     end
   end
 end

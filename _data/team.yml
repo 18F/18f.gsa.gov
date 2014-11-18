@@ -2,10 +2,14 @@
   full_name: Jamie Albrecht
 - name: sarah
   full_name: Sarah Allen
+- name: shawn
+  full_name: Shawn Allen
 - name: leah
   full_name: Leah Bannon
 - name: david
   full_name: David Best
+- name: blacktm
+  full_name: Tom Black
 - name: mbland
   full_name: Mike Bland
 - name: boone
@@ -22,6 +26,8 @@
   full_name: Chris Cairns
 - name: dave
   full_name: Dave Caraway
+- name: erica
+  full_name: Erica Deahl
 - name: kaitlin
   full_name: Kaitlin Devine
 - name: catherine
@@ -75,6 +81,8 @@
   full_name: Alison Rowland
 - name: josh
   full_name: Josh Ruihley
+- name: micahsaul
+  full_name: Micah Saul
 - name: aaron
   full_name: Aaron Snow
 - name: amos
