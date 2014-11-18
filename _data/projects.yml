@@ -1,4 +1,16 @@
 round:
+  4:
+    projects:
+      - name: Education
+        description: Making education more accessible, available, and attainable
+      - name: Jobs & the Economy
+        description: Fueling the economy and job growth through improved opportunities for entrepreneurs and businesses of all sizes
+      - name: Climate Change
+        description: Preparing the U.S. to lead international efforts, and prepare for the impacts of climate change
+      - name: Health & Patient Care
+        description: Saving lives, provide better access to benefits and programs promoting quality-of-life
+      - name: Government Effectiveness
+        description: Improving processes and technology to eliminate wasteful spending, streamline what works, and modernize government
   3:
     projects:
     - name: Data Innovation
@@ -12,15 +24,25 @@ round:
   2:
     projects:
     - name: Development Innovation Ventures
+      description: Enabling the US government to identify, test, and scale breakthrough solutions to the world’s toughest problems.
     - name: Disaster Response & Recovery
+      description: Collaboratively building and “pre-positioning" needed tech tools ahead of future emergencies or natural disasters in order to mitigate economic damage and save lives.
     - name: Open Data Initiatives
+      description: Accelerating and expanding efforts to make government information resources more publicly accessible in “computer-readable” form and spurring the use of those data by entrepreneurs as fuel for the creation of new products, services, and jobs.
     - name: RFP&#45;EZ and Innovative Contracting Tools
+      description: Making it easier for the government to do business with small, high-growth tech companies, and enabling the government to buy better, lower-cost tech solutions from the full range of American businesses.
     - name: Cyber&#45;Physical Systems
+      description: Working with government and industry to create standards for a new generation of interoperable, dynamic, and efficient “smart systems” – an “industrial Internet” – that combines distributed sensing, control, and data analytics to help grow new high-value American jobs and the economy.
     - name: MYUSA
+      description: Simplifying the process of finding and accessing information and government services that are right for you.  Helping American businesses access the information and services that will help them grow, hire American workers, and export to foreign markets.
     - name: 21st Century Financial Systems
+      description: Moving financial accounting systems of Federal agencies out of the era of unwieldy agency-specific implementations to one that favors more nimble, modular, scalable, and cost-effective approaches.
     - name: MyData Initiatives
+      description: Empowering the American people with secure access to their own personal health, energy, and education data.
     - name: Innovation Toolkit
+      description: Developing an innovation toolkit that empowers our Federal workforce to respond to national priorities more quickly and more efficiently.
     - name: VA Modernization
+      description: Helping to amplify the ways which the Department of Veterans Affairs uses technology to better serve our nation’s veterans and to further harness modern technology to provide all Americans with meaningful ways to contribute to and honor the lives of those who have served.
   1:
     projects:
     - name: MyGov

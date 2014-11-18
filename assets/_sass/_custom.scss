@@ -526,7 +526,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		margin-bottom: 20px;
 	}
 }
-.pif-nav {
+
+.pif-nav-bar {
 	li {
 		padding-left: 20px;
 		&:first-of-type{
@@ -545,9 +546,50 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+.pif-nav-horizontal {
+	li {
+		display: inline;
+	}
+}
 .pif-title {
 	font-weight: normal;
 	padding-bottom: 20px;
+}
+
+
+.pif-content {
+	@include span-columns(9);
+	@include omega();
+	@include media($smallest) {
+		@include span-columns(10);
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+	}
+}
+
+.bare_pif .pif-content {
+	p {
+		margin-bottom: 1.1em;
+		margin-top: 1.1em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
+		width: 74px;
+	}
+	h3 {
+		margin-top: .5em;
+	}
+}
+
+.pif_bio {
+	p {
+		margin-left: 5em;
+	}
+	h3 {
+		margin-left: 3.5em;
+	}
 }
 
 // Team
