@@ -5,17 +5,12 @@
 
 - name: sarah
   full_name: Sarah Allen
-<<<<<<< HEAD
   first_name: Sarah
   last_name: Allen
   pif-round: 2
   project: Open Data Initiatives
   bio: is a Presidential Innovation Fellow working on Open Data Initiatives at the Smithsonian Institution. Sarah is a serial innovator with a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. Most recently, Sarah led mobile strategy, design & development company, Blazing Cloud, as well as her own startup, Mightyverse, which aims to help people communicate across languages and cultures. Sarah is an expert in all things mobile, with a particular passion for effective animation and practical use of the mobile web. Sarah also actively works to diversify the tech community with RailsBridge, which she co-founded in 2009. Sarah and other RailsBridge volunteers created the parent organization BridgeFoundry in 2013, as a project of SchoolFactory, to foster such outreach efforts and establish a formal theory of change. Originally from the Boston area, Sarah studied Computer Science and Visual Art at Brown University. She lives with her husband, Bruce, and son, Jack, in San Francisco, CA.
 
-=======
-- name: shawn
-  full_name: Shawn Allen
->>>>>>> origin/staging
 - name: leah
   full_name: Leah Bannon
   first_name: Leah
@@ -23,14 +18,9 @@
 
 - name: david
   full_name: David Best
-<<<<<<< HEAD
   first_name: David
   last_name: Best
 
-=======
-- name: blacktm
-  full_name: Tom Black
->>>>>>> origin/staging
 - name: mbland
   full_name: Mike Bland
   first_name: Mike
@@ -80,7 +70,6 @@
 
 - name: dave
   full_name: Dave Caraway
-<<<<<<< HEAD
   first_name: Dave
   last_name: Caraway
   pif-round: 2
@@ -105,10 +94,6 @@
   bio: is a Presidential Innovation Fellow working on Data Innovation initiatives at the Internal Revenue Service. He is a product strategist with a focus on applied behavioral economics. Previously, Christopher served as a Vice President at ideas42, a behavioral economics design and research lab spun out of Harvard University. Prior to ideas42, Christopher worked at Booz Allen Hamilton, PricewaterhouseCoopers, and Sapient. He serves on the Board of the Action Design Network and has worked with entrepreneurs on projects for NYC BigApps, New York City's premier open data competition. Christopher grew up near Sandy Beach on the South Shore of Oahu in Hawaii, and can now be found surfing couches in the Washington, DC area.
   hidden: true
 
-=======
-- name: erica
-  full_name: Erica Deahl
->>>>>>> origin/staging
 - name: kaitlin
   full_name: Kaitlin Devine
   first_name: Kaitlin
@@ -414,7 +399,6 @@
 
 - name: josh
   full_name: Josh Ruihley
-<<<<<<< HEAD
   first_name: Josh
   last_name: Ruihley
 
@@ -427,10 +411,6 @@
   bio:  is a Presidential Innovation Fellow working on Crowdsourcing initiatives at NASA. Trained as a geospatial data scientist and policy expert, her research has focused on improving government services and empowering communities through open and participatory innovation, new technologies and social media. Previously, she directed the Commons Lab of the Science and Technology Innovation Program at the Wilson Center. She is one of the chief organizers and co-founders of the Federal Community of Practice on Crowdsourcing and Citizen Science, a groundbreaking effort to enable federal agencies to engage the public in collective problem solving. In 2009, Lea was an AAAS Congressional Science Fellow in the U.S. Senate, crafting legislation on satellite Earth observations, oceans, and hazards. Lea also helped launch the new Citizen Science Association and Wisconsin Geographic Information Coordination Council. She conducted her PhD research in Environmental Monitoring at the University of Wisconsin-Madison, and holds an MS in astronomy and BS in physics.
   hidden: true
 
-=======
-- name: micahsaul
-  full_name: Micah Saul
->>>>>>> origin/staging
 - name: aaron
   full_name: Aaron Snow
   first_name: Aaron
