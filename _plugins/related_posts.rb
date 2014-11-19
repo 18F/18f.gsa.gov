@@ -1,4 +1,3 @@
-require 'pry'
 module Jekyll
   class RelGenerator < Liquid::Tag
 
