@@ -588,12 +588,12 @@ $tiniest: new-breakpoint(max-width 390px);
 		clear: both;
 		margin: 8px 0 2px 0;
 		color: $red;
-		font-size: 1.2em;
+		font-size: 1em;
 		@include media($smallest) {
-			font-size: 1em;
+			font-size: .75em;
 		}
 		@include media($tiny) {
-			font-size: 0.75em;
+			font-size: 0.55em;
 		}
 		@include media($tiniest) {
 			font-size: 0.55em;
