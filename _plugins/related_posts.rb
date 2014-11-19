@@ -19,9 +19,9 @@ module Jekyll
       end
       related_posts = "<ul>"
       for post in other_posts.flatten
-        related_posts += '<li><a href="#{post.url}" class="related_posts">#{post.title}</a></li>'
+        related_posts << '<li><a href="#{post.url}" class="related_posts">#{post.title}</a></li>'
       end
-      related_posts += "</ul>"
+      related_posts << "</ul>"
     end
   end
 end
