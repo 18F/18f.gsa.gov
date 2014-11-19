@@ -524,9 +524,31 @@ $tiniest: new-breakpoint(max-width 390px);
 .pif-logo {
 	img {
 		margin-bottom: 20px;
-	}
+		height: 150px;
+		width: 150px;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		z-index: 20;
+	  	@include media($smaller) {
+	  		height: 100px;
+			width: 100px;
+			top: 40px;
+			left: 20px;
+  		}
+  	}
+  	@include media($smallest) {
+  		height: 75px;
+		width: 75px;
+  	}
+  	@include media($tiny) {
+		top: 73px;
+  	}
+  	@include media($tinier) {
+		top: 66px;
+		left: 0px;
+  	}
 }
-
 .pif-nav-bar {
 	li {
 		padding-left: 20px;
@@ -549,6 +571,13 @@ $tiniest: new-breakpoint(max-width 390px);
 .pif-nav-horizontal {
 	li {
 		display: inline;
+	}
+	a {
+		text-decoration: underline;
+		&:hover,
+		&focus {
+			text-decoration: none;
+		}
 	}
 }
 .pif-title {
