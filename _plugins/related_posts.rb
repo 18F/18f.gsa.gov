@@ -3,32 +3,62 @@ module Jekyll
 
     def initialize(related_posts, text, tokens)
       super
-      @text = text
+      @params = text.split(' ')
     end
 
-    def render(context)
-      tags = context['page']['tags']
-      siteTags = context['site']['tags']
+    # Gets all posts from the site by tag and adds those that match the tags on
+    # the current page. Returns a flattened, deduped, array of post objects
+    def get_posts_by_tag(page, siteTags)
+      tags = page['tags']
       other_posts = []
       for tag in tags
         other_posts.push( siteTags[tag] )
         other_posts = other_posts.flatten.uniq
-        if other_posts.size > 5
-          other_posts = other_posts.drop(5)
-        end
+        other_posts.delete_if { |post| page['title'] == post['title'] }
       end
-      related_posts = "<ul>"
-      i = 0
-      for post in other_posts.flatten
-        if i < 5 then
-          related_posts << "<li><a href='#{post.url}' class='related_posts'>#{post.title}</a></li>"
-          i += 1
-        else
-          next
-        end
-      end
-      related_posts << "</ul>"
+      return other_posts
     end
+
+    # Grabs all posts from the site and matches the authors on the current page
+    # to other posts authored on the site. This may take a long time for large
+    # sites. Returns an array of posts
+    def get_posts_by_author(other_posts, page, site)
+      posts = site['posts']
+      if page['authors']
+        authors = page['authors']
+        authors.map { |author| posts.map { |post| if post.data['authors'] && post.data['authors'].index(author) then other_posts.push(post) end }}
+      end
+      other_posts.delete_if { |post| page['title'] == post['title'] }
+      return other_posts
+    end
+
+    # Creates a list of posts from an array of post objects.
+    def list_posts(other_posts)
+      external = @params[0] || "ul"
+      internal = @params[1] || "li"
+      if other_posts
+        related_posts = "<#{external}>"
+        other_posts.flatten.map { |post| related_posts << "<#{internal}><a href='#{post.url}' class='related_posts'>#{post.title}</a></#{internal}>" }
+        related_posts << "</#{external}"
+      else
+        related_posts = "<p>No related posts</p>"
+      end
+    end
+
+    #  Grabs an array of posts by tag. If that array has fewer than 5 posts,
+    # grabs more posts by author. Returns a list of the first five posts in the
+    # array.
+    def render(context)
+      page = context['page']
+      site = context['site']
+      siteTags = site['tags']
+      other_posts = get_posts_by_tag(page, siteTags)
+      if other_posts.flatten.length < 5
+        other_posts = get_posts_by_author(other_posts, page, site)
+      end
+      related_posts = list_posts(other_posts.uniq.take(5))
+    end
+
   end
 end
 Liquid::Template.register_tag('related_posts', Jekyll::RelGenerator)
