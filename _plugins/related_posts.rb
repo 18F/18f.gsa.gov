@@ -18,8 +18,14 @@ module Jekyll
         end
       end
       related_posts = "<ul>"
+      i = 0
       for post in other_posts.flatten
-        related_posts << '<li><a href="#{post.url}" class="related_posts">#{post.title}</a></li>'
+        if i < 5 then
+          related_posts << "<li><a href='#{post.url}' class='related_posts'>#{post.title}</a></li>"
+          i += 1
+        else
+          next
+        end
       end
       related_posts << "</ul>"
     end
