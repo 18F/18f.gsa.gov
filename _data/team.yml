@@ -2,10 +2,16 @@
   full_name: Jamie Albrecht
 - name: sarah
   full_name: Sarah Allen
+- name: shawn
+  full_name: Shawn Allen
 - name: leah
   full_name: Leah Bannon
 - name: david
   full_name: David Best
+- name: blacktm
+  full_name: Tom Black
+- name: mbland
+  full_name: Mike Bland
 - name: boone
   full_name: Greg Boone
 - name: brethauer
@@ -20,12 +26,16 @@
   full_name: Chris Cairns
 - name: dave
   full_name: Dave Caraway
+- name: erica
+  full_name: Erica Deahl
 - name: kaitlin
   full_name: Kaitlin Devine
 - name: catherine
   full_name: Catherine Devlin
 - name: jen
   full_name: Jen Ehlers
+- name: afeld
+  full_name: Aidan Feldman
 - name: garren
   full_name: Garren Givens
 - name: greg
@@ -44,8 +54,6 @@
   full_name: Michelle Hood
 - name: elaine
   full_name: Elaine Kamlley
-- name: stacy
-  full_name: Stacy Kane
 - name: jackie
   full_name: Jackie Kazil
   hidden: true
@@ -63,8 +71,6 @@
   full_name: Eric Mill
 - name: ric
   full_name: Ric Miller
-- name: nienhuis
-  full_name: Kristin Nienhuis
 - name: papazian
   full_name: Chris Papazian
 - name: joe
@@ -75,12 +81,18 @@
   full_name: Alison Rowland
 - name: josh
   full_name: Josh Ruihley
+- name: micahsaul
+  full_name: Micah Saul
 - name: aaron
   full_name: Aaron Snow
 - name: amos
   full_name: Amos Stone
 - name: theresa
   full_name: Theresa Summa
+- name: jtag
+  full_name: Jesse Taggert
+- name: russ
+  full_name: Russ Unger
 - name: raphy
   full_name: Raphael Villas
 - name: ben
