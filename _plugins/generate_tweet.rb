@@ -60,11 +60,9 @@ module Jekyll
     end
 
     def generate(site)
-      client = prepare_api()
-      tweet_content = prepare_update(site, client)
-      if ! tweet_content
-        return
-      elsif @production == true
+      if  @production == true
+        client = prepare_api()
+        tweet_content = prepare_update(site, client)
         send_tweet(tweet_content, client)
       else
         puts "      Your tweet about could not be sent because this is not a production environment."
