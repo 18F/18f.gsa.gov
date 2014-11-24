@@ -1,4 +1,5 @@
-if ENV['PRODUCTION']
+require 'pry'
+if ENV['JEKYLL_ENV'] == 'production'
   require 'twitter'
 end
 module Jekyll
@@ -7,11 +8,11 @@ module Jekyll
     safe true
     def initialize(site)
       @site           = site
-      @tw_api_key     = ENV['TW_API_KEY']     || false    # 'Missing Consumer Key (API Key)'
-      @tw_api_secret  = ENV['TW_API_SECRET']    || false  # 'Missing Consumer Secret (API SECRET)'
-      @tw_token       = ENV['TW_TOKEN']  || false         # 'Missing Access Token'
-      @tw_secret      = ENV['TW_SECRET']  || false        # 'Missing Access Token Secret'
-      @production     = ENV['PRODUCTION'] || false
+      @tw_api_key     = ENV['TW_API_KEY'] || false    # 'Missing Consumer Key (API Key)'
+      @tw_api_secret  = ENV['TW_API_SECRET'] || false  # 'Missing Consumer Secret (API SECRET)'
+      @tw_token       = ENV['TW_TOKEN'] || false         # 'Missing Access Token'
+      @tw_secret      = ENV['TW_SECRET'] || false        # 'Missing Access Token Secret'
+      @jekyll_env     = ENV['JEKYLL_ENV'] || false
     end
 
     def prepare_api()
@@ -39,9 +40,9 @@ module Jekyll
     def prepare_update(site, client)
       for post in site.posts
         if post_new?(site.dest, post.id)
-          title = post.title || ""
-          desc = post.data['description'] || ""
-          url = site.config['url'] + post.url || ""
+          tweet = post.tweet
+          binding.pry
+          url = site.config['url'] + post.url
         else
           tweet = false
         end
@@ -60,12 +61,12 @@ module Jekyll
     end
 
     def generate(site)
-      if  @production == true
+      if  @jekyll_env == 'production'
         client = prepare_api()
         tweet_content = prepare_update(site, client)
         send_tweet(tweet_content, client)
       else
-        puts "      Your tweet about could not be sent because this is not a production environment."
+        puts "      Your tweet about could not be sent because this is not a #{@jekyll_env} environment."
       end
     end
   end
