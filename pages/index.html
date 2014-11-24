@@ -73,7 +73,7 @@ permalink: /
           Tagged /
           <span class="blog-tags" itemprop="keywords">
             {% for tag in post.tags %}
-              <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
+              <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}" title="click to read other posts tagged: {{tag}}">{{ tag }}</a>
               /
             {% endfor %}
           </span>
