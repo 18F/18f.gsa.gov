@@ -250,11 +250,11 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">GitHub</td>
-			<td class="c11" colspan="1" rowspan="1">GitHub is a <a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29"></a><a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a class="c2" href="http://en.wikipedia.org/wiki/Revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
+			<td class="c11" colspan="1" rowspan="1">GitHub is a <a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29"></a><a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a class="c2" href="http://en.wikipedia.org/wiki/Revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Revision_control">source code management</a> (SCM).</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">green-field</td>
-			<td class="c11" colspan="1" rowspan="1">A project <a class="c2" href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a>by a legacy of past work.</td>
+			<td class="c11" colspan="1" rowspan="1">A project <a class="c2" href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">NoSQL database</td>
@@ -262,31 +262,31 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">Lucene</td>
-			<td class="c11" colspan="1" rowspan="1">Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>is a freeopen source<a class="c2" href="http://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
+			<td class="c11" colspan="1" rowspan="1">Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> is a freeopen source<a class="c2" href="http://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">open source</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">Open-source</a>software (OSS)is <a class="c2" href="http://en.wikipedia.org/wiki/Software">computer software</a>with its<a class="c2" href="http://en.wikipedia.org/wiki/Source_code">source code</a>made available with a<a class="c2" href="http://en.wikipedia.org/wiki/Open-source_license">license</a>in which the<a class="c2" href="http://en.wikipedia.org/wiki/Copyright">copyright</a>holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span class="c9"></td>
+			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">Open-source</a> software (OSS) is <a class="c2" href="http://en.wikipedia.org/wiki/Software">computer software</a> with its<a class="c2" href="http://en.wikipedia.org/wiki/Source_code">source code</a>made available with a<a class="c2" href="http://en.wikipedia.org/wiki/Open-source_license">license</a> in which the<a class="c2" href="http://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span class="c9"></td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">PostgreSQL</td>
-			<td class="c11" colspan="1" rowspan="1">A widely used open-source <a class="c2" href="http://www.postgresql.org/about/history/">relational database management system</a>.</td>
+			<td class="c11" colspan="1" rowspan="1">A widely used open-source <a class="c2" href="http://www.postgresql.org/about/history/"> relational database management system</a>.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">relational database</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://en.wikipedia.org/wiki/Relational_database">relational database</a>storesinformation about both thedataand how it isrelatedbased on tables.</td>
+			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://en.wikipedia.org/wiki/Relational_database">relational database</a> storesinformation about both thedataand how it isrelatedbased on tables.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">SOLR</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a>(pronounced &quot;solar&quot;) is an <a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">open source</a><a class="c2" href="http://en.wikipedia.org/wiki/Enterprise_search">enterprise search</a>platform from the Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>project.</td>
+			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced &quot;solar&quot;) is an <a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">open source</a> <a class="c2" href="http://en.wikipedia.org/wiki/Enterprise_search">enterprise search</a> platform from the Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">SourceForge</td>
-			<td class="c11" colspan="1" rowspan="1">A web-based source code sharing <a class="c2" href="http://en.wikipedia.org/wiki/SourceForge">platform</a>of many project repositories.</td>
+			<td class="c11" colspan="1" rowspan="1">A web-based source code sharing <a class="c2" href="http://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">TechFAR</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a>for Procuring Services Using Agile Process</td>
+			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for Procuring Services Using Agile Process</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">Unix Philosophy</td>
@@ -294,15 +294,15 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">USDS</td>
-			<td class="c11" colspan="1" rowspan="1">The <a class="c2" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a>which seeks to drive innovation and technical excellence.</td>
+			<td class="c11" colspan="1" rowspan="1">The <a class="c2" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a> which seeks to drive innovation and technical excellence.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">USDS playbook</td>
-			<td class="c11" colspan="1" rowspan="1">A concise <a class="c2" href="https://playbook.cio.gov/">guide</a>to best practices for Federal Program Managers and Acquisition Officers.</td>
+			<td class="c11" colspan="1" rowspan="1">A concise <a class="c2" href="https://playbook.cio.gov/">guide</a> to best practices for Federal Program Managers and Acquisition Officers.</td>
 		</tr>
 		<tr class="c8">
 			<td class="c13" colspan="1" rowspan="1">Wardley-Duncan map</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a>of components using evolution and closeness to end-user as axes.</td>
+			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a> of components using evolution and closeness to end-user as axes.</td>
 		</tr>
 	</tbody>
 </table>
