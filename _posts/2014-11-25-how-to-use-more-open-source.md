@@ -17,6 +17,7 @@ description: The history of open source software is a record of steadily turning
 by {% author robert %}, and {% author eric %}
 
 The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
+<!-- more -->
 
 Open source has changed what it means to make software today. As Gunnar Hellekson has [argued](https://atechnologyjobisnoexcuse.com/2014/08/an-agency-that-learns/) "You can't run an organization today without knowing how to use open source." It's important that every Federal CIO, CTO, Architect, and Program Manager seeking to build or procure new IT projects understand that open source exists, that it can be of high quality and highly reusable, and how to use it securely.
 
