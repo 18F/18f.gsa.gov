@@ -207,102 +207,102 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 
 <table cellpadding="0" cellspacing="0" class="c34">
 	<tbody>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">18F</td>
-			<td class="c11" colspan="1" rowspan="1">An <a class="c2" href="https://18f.gsa.gov/">incubator</a> using modern software development techniques for the Federal government.</td>
+		<tr >
+			<td colspan="1" rowspan="1">18F</td>
+			<td colspan="1" rowspan="1">An <a href="https://18f.gsa.gov/">incubator</a> using modern software development techniques for the Federal government.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">18F Consulting</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://18f.github.io/consulting/">consultancy</a> within 18F that provides services to Federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
+		<tr >
+			<td colspan="1" rowspan="1">18F Consulting</td>
+			<td colspan="1" rowspan="1">A <a href="http://18f.github.io/consulting/">consultancy</a> within 18F that provides services to Federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">application framework</td>
-			<td class="c11" colspan="1" rowspan="1">A software system that facilitates the construction of an application, such as a web application (e.g. <a class="c2" href="http://rubyonrails.org">Rails</a>, <a class="c2" href="https://www.djangoproject.com/">Django</a>, <a class="c2" href="http://sailsjs.org/#/">Sails.js</a>.)</td>
+		<tr >
+			<td colspan="1" rowspan="1">application framework</td>
+			<td colspan="1" rowspan="1">A software system that facilitates the construction of an application, such as a web application (e.g. <a href="http://rubyonrails.org">Rails</a>, <a href="https://www.djangoproject.com/">Django</a>, <a href="http://sailsjs.org/#/">Sails.js</a>.)</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">civic hacking</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://hackforchange.org/">Programming</a> for the public good in <a class="c2" href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
+		<tr >
+			<td colspan="1" rowspan="1">civic hacking</td>
+			<td colspan="1" rowspan="1"><a href="http://hackforchange.org/">Programming</a> for the public good in <a href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">cloud computing</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Cloud_computing">Using </a>other people&rsquo;s computers.</td>
+		<tr >
+			<td colspan="1" rowspan="1">cloud computing</td>
+			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Cloud_computing">Using</a> other people&rsquo;s computers.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">content management system</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://en.wikipedia.org/wiki/Computer_program"></a><a class="c2" href="http://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a class="c2" href="http://en.wikipedia.org/wiki/Content_%28media%29"></a>content, organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span class="c9"></span></p>
+		<tr >
+			<td colspan="1" rowspan="1">content management system</td>
+			<td colspan="1" rowspan="1">A <a href="http://en.wikipedia.org/wiki/Computer_program"></a><a href="http://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="http://en.wikipedia.org/wiki/Content_%28media%29"></a>content, organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
 			</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">Elasticsearch</td>
-			<td class="c11" colspan="1" rowspan="1">Elasticsearch is a search server based on <a class="c2" href="http://en.wikipedia.org/wiki/Lucene"></a><a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
+		<tr >
+			<td colspan="1" rowspan="1">Elasticsearch</td>
+			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="http://en.wikipedia.org/wiki/Lucene"></a><a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">FISMA</td>
-			<td class="c11" colspan="1" rowspan="1">The <a class="c2" href="http://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
+		<tr >
+			<td colspan="1" rowspan="1">FISMA</td>
+			<td colspan="1" rowspan="1">The <a href="http://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">full-text search engine</td>
-			<td class="c11" colspan="1" rowspan="1">A way to find things using <a class="c2" href="http://en.wikipedia.org/wiki/Full_text_search">words </a>that occur in them.</td>
+		<tr >
+			<td colspan="1" rowspan="1">full-text search engine</td>
+			<td colspan="1" rowspan="1">A way to find things using <a href="http://en.wikipedia.org/wiki/Full_text_search">words </a>that occur in them.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">GUI framework</td>
-			<td class="c11" colspan="1" rowspan="1">A body of code which facilitates implementing a modern web-based and mobile interface (e.g. <a class="c2" href="https://github.com/twbs/bootstrap">bootstrap</a>).</td>
+		<tr >
+			<td colspan="1" rowspan="1">GUI framework</td>
+			<td colspan="1" rowspan="1">A body of code which facilitates implementing a modern web-based and mobile interface (e.g. <a href="https://github.com/twbs/bootstrap">bootstrap</a>).</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">GitHub</td>
-			<td class="c11" colspan="1" rowspan="1">GitHub is a <a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29"></a><a class="c2" href="http://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a class="c2" href="http://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a class="c2" href="http://en.wikipedia.org/wiki/Revision_control"></a><a class="c2" href="http://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
+		<tr >
+			<td colspan="1" rowspan="1">GitHub</td>
+			<td colspan="1" rowspan="1">GitHub is a <a href="http://en.wikipedia.org/wiki/Git_%28software%29"></a><a href="http://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a href="http://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a href="http://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="http://en.wikipedia.org/wiki/Distributed_revision_control"></a><a href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="http://en.wikipedia.org/wiki/Revision_control"></a><a href="http://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">green-field</td>
-			<td class="c11" colspan="1" rowspan="1">A project <a class="c2" href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a>by a legacy of past work.</td>
+		<tr >
+			<td colspan="1" rowspan="1">green-field</td>
+			<td colspan="1" rowspan="1">A project <a href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">NoSQL database</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a>Data retrieval not based strictly on tables, such as key-value pair look up.</td>
+		<tr >
+			<td colspan="1" rowspan="1">NoSQL database</td>
+			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a> Data retrieval not based strictly on tables, such as key-value pair look up.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">Lucene</td>
-			<td class="c11" colspan="1" rowspan="1">Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>is a freeopen source<a class="c2" href="http://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
+		<tr >
+			<td colspan="1" rowspan="1">Lucene</td>
+			<td colspan="1" rowspan="1">Apache <a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> is a freeopen source<a href="http://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">open source</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">Open-source</a>software (OSS)is <a class="c2" href="http://en.wikipedia.org/wiki/Software">computer software</a>with its<a class="c2" href="http://en.wikipedia.org/wiki/Source_code">source code</a>made available with a<a class="c2" href="http://en.wikipedia.org/wiki/Open-source_license">license</a>in which the<a class="c2" href="http://en.wikipedia.org/wiki/Copyright">copyright</a>holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span class="c9"></td>
+		<tr >
+			<td colspan="1" rowspan="1">open source</td>
+			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Open-source_software">Open-source</a> software (OSS)is <a href="http://en.wikipedia.org/wiki/Software">computer software</a> with its <a href="http://en.wikipedia.org/wiki/Source_code">source code</a> made available with a <a href="http://en.wikipedia.org/wiki/Open-source_license">license</a> in which the <a href="http://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span ></td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">PostgreSQL</td>
-			<td class="c11" colspan="1" rowspan="1">A widely used open-source <a class="c2" href="http://www.postgresql.org/about/history/">relational database management system</a>.</td>
+		<tr >
+			<td colspan="1" rowspan="1">PostgreSQL</td>
+			<td colspan="1" rowspan="1">A widely used open-source <a href="http://www.postgresql.org/about/history/">relational database management system</a>.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">relational database</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://en.wikipedia.org/wiki/Relational_database">relational database</a>storesinformation about both thedataand how it isrelatedbased on tables.</td>
+		<tr >
+			<td colspan="1" rowspan="1">relational database</td>
+			<td colspan="1" rowspan="1">A <a href="http://en.wikipedia.org/wiki/Relational_database">relational database</a> stores information about both thedataand how it isrelatedbased on tables.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">SOLR</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a>(pronounced &quot;solar&quot;) is an <a class="c2" href="http://en.wikipedia.org/wiki/Open-source_software">open source</a><a class="c2" href="http://en.wikipedia.org/wiki/Enterprise_search">enterprise search</a>platform from the Apache <a class="c2" href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>project.</td>
+		<tr >
+			<td colspan="1" rowspan="1">SOLR</td>
+			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced &quot;solar&quot;) is an <a href="http://en.wikipedia.org/wiki/Open-source_software">open source</a><a href="http://en.wikipedia.org/wiki/Enterprise_search"> enterprise search </a>platform from the Apache <a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">SourceForge</td>
-			<td class="c11" colspan="1" rowspan="1">A web-based source code sharing <a class="c2" href="http://en.wikipedia.org/wiki/SourceForge">platform</a>of many project repositories.</td>
+		<tr >
+			<td colspan="1" rowspan="1">SourceForge</td>
+			<td colspan="1" rowspan="1">A web-based source code sharing <a href="http://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">TechFAR</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a>for Procuring Services Using Agile Process</td>
+		<tr >
+			<td colspan="1" rowspan="1">TechFAR</td>
+			<td colspan="1" rowspan="1">A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for Procuring Services Using Agile Process</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">Unix Philosophy</td>
-			<td class="c11" colspan="1" rowspan="1"><a class="c2" href="http://en.wikipedia.org/wiki/Unix_philosophy">Write</a>small, recombinable programs.</td>
+		<tr >
+			<td colspan="1" rowspan="1">Unix Philosophy</td>
+			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Unix_philosophy">Write</a> small, recombinable programs.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">USDS</td>
-			<td class="c11" colspan="1" rowspan="1">The <a class="c2" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a>which seeks to drive innovation and technical excellence.</td>
+		<tr >
+			<td colspan="1" rowspan="1">USDS</td>
+			<td colspan="1" rowspan="1">The <a href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a> which seeks to drive innovation and technical excellence.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">USDS playbook</td>
-			<td class="c11" colspan="1" rowspan="1">A concise <a class="c2" href="https://playbook.cio.gov/">guide</a>to best practices for Federal Program Managers and Acquisition Officers.</td>
+		<tr >
+			<td colspan="1" rowspan="1">USDS playbook</td>
+			<td colspan="1" rowspan="1">A concise <a href="https://playbook.cio.gov/">guide</a> to best practices for Federal Program Managers and Acquisition Officers.</td>
 		</tr>
-		<tr class="c8">
-			<td class="c13" colspan="1" rowspan="1">Wardley-Duncan map</td>
-			<td class="c11" colspan="1" rowspan="1">A <a class="c2" href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a>of components using evolution and closeness to end-user as axes.</td>
+		<tr >
+			<td colspan="1" rowspan="1">Wardley-Duncan map</td>
+			<td colspan="1" rowspan="1">A <a href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a> of components using evolution and closeness to end-user as axes.</td>
 		</tr>
 	</tbody>
 </table>
