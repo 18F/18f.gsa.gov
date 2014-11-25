@@ -126,7 +126,7 @@ However, in the words of Theodore Sturgeon defending science fiction, &ldquo;90%
 
 > Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 
-Writing today in 2014, he might have written: &ldquo;Write programs to handle [JSON](http://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs.
+Writing today in 2014, he might have written: &ldquo;Write programs to handle [JSON](http://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs.&rdquo;
 
 The practice of programming at the enterprise or system level has changed since 30 years ago. Then, a programmer&rsquo;s primary job was to write algorithms and data structures. Today, we spend most of our time figuring out how to reuse code that other people wrote. In this way, the Unix Philosophy, or as we more colorfully prefer to think of it, the Coming Open Source Singularity (COSS), makes us more productive. We believe from personal experience that we and other open source programmers are becoming something like 20% more productive every year, precisely because of the evolution of the open source code which we are able to reuse. This increase in productivity occurs for other programmers not working so completely with open source, but at a lower rate.
 
@@ -181,7 +181,7 @@ It is our hope that ten years from now there may be many people contributing to 
 
 A codebase is a terrible secret.
 
-Because a codebase is so large, it cannot easily be changed. Furthermore, it must be known, or at least knowable, to the large number of people who work on it, so it cannot be kept secret very easily. This is represented at the bottom of Figures 2 and 3. Therefore &ldquo; [security through obscurity](http://en.wikipedia.org/wiki/Security_through_obscurity)&rdquo; is a terrible idea when it comes to a codebase. In most cases your system will consist of code which you reuse as well as code that your write yourself. Therefore both of these types of code should be open.
+Because a codebase is so large, it cannot easily be changed. Furthermore, it must be known, or at least knowable, to the large number of people who work on it, so it cannot be kept secret very easily. This is represented at the bottom of Figures 2 and 3. Therefore &ldquo;[security through obscurity](http://en.wikipedia.org/wiki/Security_through_obscurity)&rdquo; is a terrible idea when it comes to a codebase. In most cases your system will consist of code which you reuse as well as code that your write yourself. Therefore both of these types of code should be open.
 
 Of course, your system will have secrets in most cases -- keys, passwords, and the like -- but you should assume they have been discovered and change them often. We call these secrets a &ldquo;red thread&rdquo;, because, like a red thread in a white handkerchief, they should be as vivid and thin as possible. By making them thin, such as a single password, you make them very easy to change and keep secret. Although these secrets are tiny, they must be managed carefully and conscientiously. We believe this concept is so important that we have placed it on our reusable version of the Wardley-Duncan map linked to above.
 
@@ -255,6 +255,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		<tr >
 			<td colspan="1" rowspan="1">green-field</td>
 			<td colspan="1" rowspan="1">A project <a href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
+
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">NoSQL database</td>
@@ -287,6 +288,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		<tr >
 			<td colspan="1" rowspan="1">TechFAR</td>
 			<td colspan="1" rowspan="1">A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for Procuring Services Using Agile Process</td>
+
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Unix Philosophy</td>
