@@ -468,6 +468,11 @@
   bio:  is a Presidential Innovation Fellow working on the MyData Initiative (Blue Button) at the Department of Health and Human Services. Previously, Gajen served as a Principal Software Architect at the Innovation Acceleration Program at Boston Children's Hospital. He also volunteers as a Mentor for both InciteHealth at the Center for Primary Care at Harvard Medical School, as well as for Hacking Pediatrics in collaboration with MIT H@cking Medicine. Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a Master’s in Information Technology from Harvard University. Gajen’s master thesis focused on using Google Glass to develop a novel application called “GlassSurgeon” which enhances a surgeon’s workflow and improves patient safety by leveraging natural language processing and hands-free features that access real-time clinical information systems. Combining expertise in laboratory medicine and in-depth understanding of clinical and patient workflows through technical leadership in R&D, devices, software development and architecture, he aims to achieve his professional goal of implementing innovative technologies within the healthcare setting.
   hidden: true
 
+- name: jtag
+  full_name: Jesse Taggert
+  first_name: Jesse
+  last_name: Taggert
+  
 - name: russ
   full_name: Russ Unger
   first_name: Russ
