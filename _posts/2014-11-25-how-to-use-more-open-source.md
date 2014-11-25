@@ -41,7 +41,7 @@ We can mark important events in the evolution of the relational database for end
 1. 2007 PostgreSQL either comes with a Linux distribution or can be installed in 20 minutes.
 1. 2014 PostgreSQL can be installed in 5 minutes, is more convenient to use, and is a common backbone of 18F&rsquo;s projects and many commercial firms.
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="ThirtyYearHistoryOfPostgresAndLucene (1).png" src="/assets/images/2014/11/25/image00.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+<img alt="ThirtyYearHistoryOfPostgresAndLucene (1).png" src="/assets/images/2014/11/25/image00.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 
 The above graph shows our subjective evaluation of the usefulness of PostgreSQL relative to its total cost of ownership. This &ldquo;geometrically&rdquo; increasing usefulness is familiar from hardware performance curves plotted against time, but in this case owes very little to that phenomenon. Rather, it represents the typical commoditization of software. The community of users and developers drive important software tools from unique inventions to broadly available tools. Along the way, the tool usually becomes a commercial product, and then becomes available as an open source alternative.
@@ -66,11 +66,11 @@ The same diagram also plots the even more rapid evolution of a an open source fu
 
 On the __Value Chain axis__, we have inserted the [standard 3-tier architecture](http://en.wikipedia.org/wiki/Multitier_architecture), consisting of a Persistence Layer, Business Logic Layer, and Presentation Layer.
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="PostgresTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image03.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+<img alt="PostgresTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image03.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 _The evolution of PostgreSQL_
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="LuceneTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image04.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+<img alt="LuceneTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image04.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 _The evolution of Lucene_
 
