@@ -126,7 +126,7 @@ However, in the words of Theodore Sturgeon defending science fiction, &ldquo;90%
 
 > Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 
-Writing today in 2014, he might have written: &ldquo;Write programs to handle [JSON](http://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs.
+Writing today in 2014, he might have written: &ldquo;Write programs to handle [JSON](http://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs.&rdquo;
 
 The practice of programming at the enterprise or system level has changed since 30 years ago. Then, a programmer&rsquo;s primary job was to write algorithms and data structures. Today, we spend most of our time figuring out how to reuse code that other people wrote. In this way, the Unix Philosophy, or as we more colorfully prefer to think of it, the Coming Open Source Singularity (COSS), makes us more productive. We believe from personal experience that we and other open source programmers are becoming something like 20% more productive every year, precisely because of the evolution of the open source code which we are able to reuse. This increase in productivity occurs for other programmers not working so completely with open source, but at a lower rate.
 
