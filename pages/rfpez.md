@@ -18,6 +18,4 @@ Your feedback about the RFP-EZ pilot has been invaluable in informing 18F's next
 
 
 ## Stay Informed
-For updates about 18F procuremenet innovations, [follow @18F on Twitter](https://twitter.com/18F) or sign up for our mailing list:
-
--- INSERT MAILING LIST SIGNUP HERE --
+For updates about 18F procuremenet innovations, [follow @18F on Twitter](https://twitter.com/18F) or sign up for the 18F mailing list on [our homepage](https://18f.gsa.gov).
