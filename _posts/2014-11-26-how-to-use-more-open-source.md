@@ -14,7 +14,9 @@ tags:
 description: The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
 
 ---
+<p class="authors">
 by {% author robert %}, and {% author eric %}
+</p>
 
 The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
 
@@ -141,7 +143,7 @@ There is no more powerful force than compound interest. Twenty per-cent compound
 
 It may be difficult to perceive this transition in Federal IT for two main reasons. The most significant is the deep outsourcing of technical expertise. The second is the complex nature of acquisition practices, some of which are forced by law and regulation, and some by habit. But the use of more open source software in the Federal government can help to offset these two problems, and as good stewards, it is our duty to do so where possible.
 
-There are two senses in which we may use open source in our programs. 
+There are two senses in which we may use open source in our programs.
 
 1. The first is to reuse open source software from established projects.
 1. The second is to make the software written on our behalf open source.
@@ -196,7 +198,7 @@ There are risks of defects and complexity associated with using open source modu
 
 You must make sure that each component you use is code reviewed. In practice this means either that you must use very popular projects whose code is looked at by a large number of people on a regular basis, or you must use small projects which your team can code review itself. In practice, the criteria for making this decision for reused components is similar to the rules of thumb that we have already laid down for managing risk.However, you may need to adjust these rules of thumb based on how often you plan to update the component.
 
-For example, a small component which is very stable need not be updated at all. If it is small and you can code review it or pay a team to code review it, then you may use it. On the other hand if the project has frequent updates, your team will have to decide how to manage these updates. A large project may have both stable and experimental branches. In general your team will want to update as frequently as the major number of the branch. If the project is very active and many people are looking at it, this does not represent a security risk. If however a project is changing rapidly and producing many releases and your team does not have the resources to ensure that each new release is code reviewed and you do not trust the community to do so, then you probably should not use that component. 
+For example, a small component which is very stable need not be updated at all. If it is small and you can code review it or pay a team to code review it, then you may use it. On the other hand if the project has frequent updates, your team will have to decide how to manage these updates. A large project may have both stable and experimental branches. In general your team will want to update as frequently as the major number of the branch. If the project is very active and many people are looking at it, this does not represent a security risk. If however a project is changing rapidly and producing many releases and your team does not have the resources to ensure that each new release is code reviewed and you do not trust the community to do so, then you probably should not use that component.
 
 With an open source component, it is at least possible to understand how much code review it is receiving.We know of no way to do this for closed source code kept as a secret.A firm which is asked to maintain the security of the code that it has written is placed in a conflict of interest.It is not in its short-term interest to spend resources on this code review, and it is not in its short-term interest to admit defects.
 
