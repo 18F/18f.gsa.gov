@@ -6,7 +6,7 @@ permalink: /rfpez/
 Thank you for participating in the RFP-EZ pilot.
 ===================
 
-<p class="lead"></p>
+RFP-EZ is not currently accepting new projects or users.
 
 Your feedback about the RFP-EZ pilot has been invaluable in informing 18F's next generation of innovative procurement tools and services, including:
 
@@ -18,4 +18,4 @@ Your feedback about the RFP-EZ pilot has been invaluable in informing 18F's next
 
 
 ## Stay Informed
-For updates about 18F procuremenet innovations, [follow @18F on Twitter](https://twitter.com/18F) or sign up for the 18F mailing list on [our homepage](https://18f.gsa.gov).
+For updates about 18F procurement innovations, [follow @18F on Twitter](https://twitter.com/18F) or sign up for the 18F mailing list on [our homepage](https://18f.gsa.gov).
