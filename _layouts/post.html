@@ -32,7 +32,10 @@
       </p>
       {{ content }}
     </section>
-
+    <section class="blog-related">
+      <h2>Related Posts</h2>
+      {% related_posts ul li %}
+    </section>
     {% if page.previous or page.next %}
         <section class="blog-pagination">
           <div>
