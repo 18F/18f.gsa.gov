@@ -28,6 +28,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+
 // Extends
 //********************************************************
 %heading-text-style {
@@ -518,6 +519,108 @@ $tiniest: new-breakpoint(max-width 390px);
 
 }
 
+// PIF
+//********************************************************
+.pif-logo {
+	img {
+		margin-bottom: 20px;
+		height: 150px;
+		width: 150px;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		z-index: 20;
+	  	@include media($smaller) {
+	  		height: 100px;
+			width: 100px;
+			top: 40px;
+			left: 20px;
+  		}
+  	}
+  	@include media($smallest) {
+  		height: 75px;
+		width: 75px;
+  	}
+  	@include media($tiny) {
+		top: 73px;
+  	}
+  	@include media($tinier) {
+		top: 66px;
+		left: 0px;
+  	}
+}
+.pif-nav-bar {
+	li {
+		padding-left: 20px;
+		&:first-of-type{
+			padding-top: 20px;
+		} 
+		&:last-of-type {
+			padding-top: 20px;
+		}
+		a {
+			text-decoration: underline;
+			&:hover, 
+			&:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.pif-nav-horizontal {
+	li {
+		display: inline;
+	}
+	a {
+		text-decoration: underline;
+		&:hover,
+		&focus {
+			text-decoration: none;
+		}
+	}
+}
+.pif-title {
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
+
+.pif-content {
+	@include span-columns(9);
+	@include omega();
+	@include media($smallest) {
+		@include span-columns(10);
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+	}
+}
+
+.bare_pif .pif-content {
+	p {
+		margin-bottom: 1.1em;
+		margin-top: 1.1em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
+		width: 74px;
+	}
+	h3 {
+		margin-top: .5em;
+	}
+}
+
+.pif_bio {
+	p {
+		margin-left: 5em;
+	}
+	h3 {
+		margin-left: 3.5em;
+	}
+}
+
 // Team
 //********************************************************
 .team {
@@ -755,6 +858,16 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	@include media($tiny) {
 		@include span-columns(12);
+	}
+}
+
+.bare_pif .bare-content {
+	p {
+		margin: 0 0 0 13em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
 	}
 }
 
