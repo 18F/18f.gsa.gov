@@ -554,13 +554,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 20px;
 		&:first-of-type{
 			padding-top: 20px;
-		} 
+		}
 		&:last-of-type {
 			padding-top: 20px;
 		}
 		a {
 			text-decoration: underline;
-			&:hover, 
+			&:hover,
 			&:focus {
 				text-decoration: none;
 			}
@@ -797,6 +797,9 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .bare {
 	@extend %section-padding;
+	h1 {
+		padding-bottom: 20px;
+	}
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;
