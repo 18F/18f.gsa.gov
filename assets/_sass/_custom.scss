@@ -554,13 +554,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 20px;
 		&:first-of-type{
 			padding-top: 20px;
-		} 
+		}
 		&:last-of-type {
 			padding-top: 20px;
 		}
 		a {
 			text-decoration: underline;
-			&:hover, 
+			&:hover,
 			&:focus {
 				text-decoration: none;
 			}
@@ -830,6 +830,9 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bare-logo {
 	@include span-columns(2);
+
+	padding-left: 20px;
+
 	a {
 		text-decoration: none;
 		i {
