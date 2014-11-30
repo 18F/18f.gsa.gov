@@ -2,8 +2,8 @@
 ================================================== -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="vmVo2wbQpKGMHVpllQP7bQ0w5gICWD356VH9DNbv5f4" />
 
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -22,7 +22,9 @@
 <meta name="twitter:creator" content="@18F">
 <meta property="og:site_name" content="{{ site.title | xml_escape }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.url }}" />
+
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 <!-- title, description, and image may change per-page, per-post -->
 {% if page.title %}
@@ -50,7 +52,7 @@
 {% else %}
   <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/images/logo-18f.png" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.jpg" />
 {% endif %}
 
 
