@@ -99,6 +99,16 @@
   first_name: Kaitlin
   last_name: Devine
 
+- name: erica
+  full_name: Erica Deahl
+  first_name: Erica
+  last_name: Deahl
+
+- name: shawn
+  full_name: Shawn Allen
+  first_name: Shawn
+  last_name: Allen
+
 - name: catherine
   full_name: Catherine Devlin
   first_name: Catherine
@@ -285,6 +295,11 @@
   bio:  is a Presidential Innovation Fellow working with the Department of Veterans Affairs. Julia is focused on technology and media that help people address hard problems. She has tackled everything from improving the decision-making of troops on the ground to forecasting future science & technology trends. For the past eight years, she directed projects at the University of Southern California Institute for Creative Technologies (ICT), an Army-funded research center developing immersive technologies to benefit education, health care, and people’s lives. Leading teams that included researchers, developers, Hollywood talent, and military personnel, Julia produced educational games, short films, virtual reality-based installations and artificial intelligence systems that were used across the Department of Defense. Before ICT, Julia was a management consultant and programmer guiding and executing technology development for companies. Julia has a BA and MA in history of science from Harvard University where she studied how people use technology. Originally from the DC area, Julia now lives in Los Angeles, CA.
   hidden: true
 
+- name: khandelwal
+  full_name: Shashank Khandelwal 
+  first_name: Shashank
+  last_name: Khandelwal
+
 - name: noah
   full_name: Noah Kunin
   first_name: Noah
@@ -322,7 +337,7 @@
   first_name: Noah
   last_name: Manger
 
-- name:
+- name: jmeisel
   full_name: Jeff Meisel
   first_name: Jeff
   last_name: Meisel
@@ -411,6 +426,16 @@
   bio:  is a Presidential Innovation Fellow working on Crowdsourcing initiatives at NASA. Trained as a geospatial data scientist and policy expert, her research has focused on improving government services and empowering communities through open and participatory innovation, new technologies and social media. Previously, she directed the Commons Lab of the Science and Technology Innovation Program at the Wilson Center. She is one of the chief organizers and co-founders of the Federal Community of Practice on Crowdsourcing and Citizen Science, a groundbreaking effort to enable federal agencies to engage the public in collective problem solving. In 2009, Lea was an AAAS Congressional Science Fellow in the U.S. Senate, crafting legislation on satellite Earth observations, oceans, and hazards. Lea also helped launch the new Citizen Science Association and Wisconsin Geographic Information Coordination Council. She conducted her PhD research in Environmental Monitoring at the University of Wisconsin-Madison, and holds an MS in astronomy and BS in physics.
   hidden: true
 
+- name: micahsaul
+  full_name: Micah Saul
+  first_name: Micah
+  last_name: Saul
+
+- name: marco
+  full_name: Marco Segreto
+  first_name: Marco
+  last_name: Segreto
+
 - name: aaron
   full_name: Aaron Snow
   first_name: Aaron
@@ -472,7 +497,7 @@
   full_name: Jesse Taggert
   first_name: Jesse
   last_name: Taggert
-  
+
 - name: russ
   full_name: Russ Unger
   first_name: Russ
@@ -728,14 +753,18 @@
   bio:  is a Presidential Innovation Fellow working on “MyData Initiatives” at the Department of Energy. Matt focuses on developing innovative ways to enable the public and American businesses to better understand and reduce energy use; Provides input to draft presidential memorandums and executive orders related to energy issues; Conceptualizes and leads public energy challenges, hackathons and datapaloozas; Develops energy pilot programs with utilities; and works with innovative 3rd parties. Previously, Matt was a Technology Strategist at Intel Corporation, where he focused on networking and Smart Grid technologies and was also Director of several silicon business units. He has served in a number of industry leadership roles, including being a member of the Board of Directors of the Smart Grid Interoperability Panel from 2009-2013, during which time, under BOD leadership, the organization grew from founding in 2009 to 776 member companies at the end of 2012. Matt has also been President and BOD member of several industry trade groups that developed networking and smart grid standards, which then tested and certified products based on technologies developed. In these positions, he chaired BOD meetings, set direction for work groups and defined organizational strategic/tactical objectives. Matt has worked closely with ITU-T, IEEE and other global SDO’s. He was selected to be a member of a U.S. State Department delegation formed to represent the United States at key ITU-T SG-15 meetings. He was also invited by the White House to participate in a summit of industry leaders seeking to develop a clean, smart grid for the 21stcentury. He is an alumnus of Northeastern University, Rivier College, and Harvard Business School.
   hidden: true
 
+- name: gramirez
+  full_name: Gabriel Ramírez
+  first_name: Gabriel
+  last_name: Ramírez
+
 - full_name: Tom Black
-  name: tblack
+  name: blacktm
   first_name: Tom
   last_name: Black
   pif-round: 2
   project: MYData Initiatives
   bio:  is a Presidential Innovation Fellow working on the MyData Initiatives (Blue Button) at the Department of Veterans Affairs. Tom is a US Navy veteran, tech entrepreneur, and software developer focused on transforming healthcare using open standards, data, and technologies. He has worked with numerous companies to create new front-end technologies, web applications, and digital strategies. Tom has been an open-source contributor to the VA’s Blue Button initiative and mentor at Victory Spark, an accelerator for innovative high-growth veteran startups. He is also a graduate of Blueprint Health, a New York-based healthcare accelerator, and 94labs, Wisconsin’s first startup incubator. In the Navy, Tom served as an Information Systems Technician at the US Naval War College, aboard the USNS SUPPLY, and at the International Submarine Escape and Rescue Liaison Office. He studied computer science at the University of Wisconsin–Madison, where he also directed the Wisconsin Union’s Distinguished Lecture Series. Tom now resides in New York City, but calls Stillwater, MN, home.
-  hidden: true
 
 - full_name: Nayan Jain
   name: njain
