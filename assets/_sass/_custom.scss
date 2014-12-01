@@ -837,6 +837,9 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bare-logo {
 	@include span-columns(2);
+
+	padding-left: 20px;
+
 	a {
 		text-decoration: none;
 		i {
