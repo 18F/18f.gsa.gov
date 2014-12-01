@@ -37,12 +37,14 @@
         <section class="blog-pagination">
           <div>
             {% if page.previous %}
-                <a href="{{ page.previous.url }}"><h1>Previous Post</h1> {{ page.previous.title }}</a>
+                <h1>Previous Post</h1>
+                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
             {% endif %}
           </div>
           <div>
             {% if page.next %}
-                <a href="{{ page.next.url }}"><h1>Next Post</h1> {{ page.next.title }}</a>
+                <h1>Next Post</h1>
+                <a href="{{ page.next.url }}">{{ page.next.title }}</a>
             {% endif %}
           </div>
         </section>
