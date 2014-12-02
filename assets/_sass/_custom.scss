@@ -551,7 +551,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		color: $red;
 		font-size: 1.2em;
 		@include media($smallest) {
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 		@include media($tiny) {
 			font-size: 0.70em;
