@@ -639,7 +639,7 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bio {
 	@include span-columns(3 of 12);
-	margin: 1.0em 0 1.0em 1.5%;
+	margin: 1.5em 0 1.5em 1.5%;
 	position: relative;
 	@include media($smaller) {
 		@include span-columns(4 of 12);
@@ -668,13 +668,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		color: $red;
 		font-size: 1.2em;
 		@include media($smallest) {
-			font-size: 1em;
+			font-size: 0.70em;
 		}
 		@include media($tiny) {
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 		@include media($tiniest) {
-			font-size: 0.55em;
+			font-size: 0.60em;
 		}
 	}
 	a i, .no-decoration {
