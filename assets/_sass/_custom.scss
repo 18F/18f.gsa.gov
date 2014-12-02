@@ -318,6 +318,13 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // News and blog pages
 //********************************************************
+.bare {
+	p.subscribe {
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+}
+
 .blog-entry {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 25px; //compensates for padding in top row of news section
@@ -554,13 +561,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 20px;
 		&:first-of-type{
 			padding-top: 20px;
-		} 
+		}
 		&:last-of-type {
 			padding-top: 20px;
 		}
 		a {
 			text-decoration: underline;
-			&:hover, 
+			&:hover,
 			&:focus {
 				text-decoration: none;
 			}
@@ -830,6 +837,9 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bare-logo {
 	@include span-columns(2);
+
+	padding-left: 20px;
+
 	a {
 		text-decoration: none;
 		i {

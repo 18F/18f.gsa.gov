@@ -65,7 +65,7 @@ permalink: /
           Tagged /
           <span class="blog-tags" itemprop="keywords">
             {% for tag in post.tags %}
-              <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
+              <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}" title="click to read other posts tagged: {{tag}}">{{ tag }}</a>
               /
             {% endfor %}
           </span>
@@ -73,7 +73,7 @@ permalink: /
       </div>
       <div class="blog-snippet" itemprop="articleBody">
         <p>{{ post.excerpt |strip_html }}</p>
-        <p><a href="{{ post.url }}">Continue reading...</a></p>
+        <p><a href="{{ post.url }}">Continue reading {{post.title}}...</a></p>
       </div>
     {% endfor %}
 
@@ -95,7 +95,7 @@ permalink: /
     {% for member in team %}
       {% unless member.hidden or member.alum %}
         <div class="bio">
-          <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="Photo of {{ member.full_name }}">
+          <a><img class="img-circle team-img bio-clip" src="/assets/images/team/{{member.name}}.jpg" alt="{{ member.full_name }}">
           <h1>{{ member.full_name }}</h1></a>
         </div>
       {% endunless %}
@@ -115,8 +115,8 @@ permalink: /
     <div class="contact-form">
       <form action="/listserv" method="post" id="contact-form">
       <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you/" type="hidden" name="redirect" /><input name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-      <div class="form-group"><label><input type="text" placeholder="Your Name" name="realname" /></label></div>
-      <div class="form-group"><label><input type="text" placeholder="your@email-address.com" id="email" name="email" /></label></div>
+      <div class="form-group"><label for="realname"><input type="text" placeholder="Your Name" id="realname" name="realname" /></label></div>
+      <div class="form-group"><label for="email"><input type="text" placeholder="your@email-address.com" id="email" name="email" /></label></div>
       <input type="submit" class="button" value="Sign Up for More Information" />
       </form>
     </div>
