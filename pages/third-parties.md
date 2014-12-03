@@ -1,6 +1,6 @@
 ---
 layout: bare
-permalink: /third-parties/
+permalink: /privacy/third-parties/
 ---
 
 # Third Party Services
@@ -23,3 +23,6 @@ If you wish to suggest alternatives or workarounds to these third parties, or yo
 
 * **[Symantec](https://www.symantec.com/about/profile/privacypolicy/).** 18F currently uses an HTTPS certificate signed by Symantec (Verisign). Some browsers (including Firefox) will ask Symantec for confirmation of our certificate before loading our website, which tells Symantec you've visited the site. This is called "revocation checking", and is not a commonly discussed aspect of browsing secure websites today. 18F is [in the process](https://github.com/18F/18f.gsa.gov/issues/292) of implementing a more sophisticated mechanism for revocation checking (called ["OCSP stapling"](https://en.wikipedia.org/wiki/OCSP_stapling)) that no longer shares visitor information with Symantec in most browsers.
 
+## Our own privacy policy
+
+This website is currently covered by the [privacy policy of the General Services Administration](http://gsa.gov/portal/content/116609), our parent agency.
