@@ -5,7 +5,7 @@ permalink: /third-parties/
 
 # Third Party Services
 
-Serving this website depends on several third party services, each of whom may obtain data concerning some aspects of your browsing history on this website.
+Serving this website depends on several third party services, each of whom may obtain data concerning some aspects of your browsing history on this website. These third party services are  not unusual. They are common or considered "standard practices" today. We in the spirit of being transparent are clearly articulating them.
 
 We describe how we use each third party service below, and link to its privacy policy. You should consult with each third party's privacy policy, to understand how that third party handles your information.
 
