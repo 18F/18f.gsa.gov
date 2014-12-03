@@ -5,9 +5,11 @@ permalink: /third-parties/
 
 # Third Party Services
 
-Serving this website depends on several third party services, each of whom may obtain data concerning some aspects of your browsing history on this website. These third party services are  not unusual. They are common or considered "standard practices" today. We in the spirit of being transparent are clearly articulating them.
+Serving this website depends on several third party services, each of whom may obtain data concerning some aspects of your browsing history on this website.
 
-We describe how we use each third party service below, and link to its privacy policy. You should consult with each third party's privacy policy, to understand how that third party handles your information.
+The third party services we use are quite common on the internet today, and you almost certainly visit other websites using them on a regular basis. It's nonetheless important to be aware of them, and in the spirit of transparency and an informed public, we're listing them here.
+
+Below, we describe how we use each third party service, and link to its privacy policy. You should consult with each third party's privacy policy, to understand how that third party handles your information.
 
 If you wish to suggest alternatives or workarounds to these third parties, or you see one we're missing, please open a discussion in [this website's issue tracker on GitHub](https://github.com/18F/18f.gsa.gov/issues).
 
