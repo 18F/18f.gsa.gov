@@ -16,6 +16,10 @@ layout: post
 ---
 ## Great Community Turn Out for Midas Open Source Hack Night
 
+<p class="authors">
+by {% author sarah %}
+</p>
+
 The [October Open Source Hack Night](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas) was a huge success, both as a community event and for the positive impact on the [Midas project](https://github.com/18F/midas), providing a venue for our combined team to collaborate in person along with volunteers from the private sector and from inside government.  <!-- more --> 
 
 Midas is a [marketplace of skill building opportunities](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) which matches people to projects that they’re passionate about. The project fosters cross-team and cross-agency collaboration — you can think of it as "kickstarter for people’s time." Not only does Midas help facilitate collaborative projects, it is all open source, which is critical to our success as three agencies (HHS, GAO, and State) are working on separate deployments of the product and everyone is contributing resources to help it succeed. 
