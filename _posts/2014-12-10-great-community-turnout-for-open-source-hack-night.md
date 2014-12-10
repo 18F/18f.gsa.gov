@@ -16,17 +16,18 @@ layout: post
 
 image: /assets/2014/12/midas_hack_night.png
 ---
-## Great Community Turn Out for Midas Open Source Hack Night
 
 <p class="authors">
 by {% author sarah %}
 </p>
 
-The [October Open Source Hack Night](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas) was a huge success, both as a community event and for the positive impact on the [Midas project](https://github.com/18F/midas), providing a venue for our combined team to collaborate in person along with volunteers from the private sector and from inside government.  <!-- more --> 
+The [October Open Source Hack Night](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas) was a huge success, both as a community event and for the positive impact on the [Midas project](https://github.com/18F/midas), providing a venue for our combined team to collaborate in person along with volunteers from the private sector and from inside government.
 
-Midas is a [marketplace of skill building opportunities](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) which matches people to projects that they’re passionate about. The project fosters cross-team and cross-agency collaboration — you can think of it as "kickstarter for people’s time." Not only does Midas help facilitate collaborative projects, it is all open source, which is critical to our success as three agencies (HHS, GAO, and State) are working on separate deployments of the product and everyone is contributing resources to help it succeed. 
+<!-- more -->
 
-More than 30 developers, designers, and government product leaders got together for an afternoon and evening of sketching, coding, writing and learning.  
+Midas is a [marketplace of skill building opportunities](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) which matches people to projects that they’re passionate about. The project fosters cross-team and cross-agency collaboration — you can think of it as "kickstarter for people’s time." Not only does Midas help facilitate collaborative projects, it is all open source, which is critical to our success as three agencies (HHS, GAO, and State) are working on separate deployments of the product and everyone is contributing resources to help it succeed.
+
+More than 30 developers, designers, and government product leaders got together for an afternoon and evening of sketching, coding, writing and learning.
 
 <blockquote class="twitter-tweet" lang="en"><p>The daytime <a href="https://twitter.com/hashtag/hackathon?src=hash">#hackathon</a> crew at work! Looking forward to what comes out of today&#39;s Midas hack: <a href="https://t.co/PYjHVwuJHu">https://t.co/PYjHVwuJHu</a> <a href="http://t.co/OE273Sil0Z">pic.twitter.com/OE273Sil0Z</a></p>&mdash; 18F (@18F) <a href="https://twitter.com/18F/status/519227871311953920">October 6, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -35,7 +36,7 @@ More than 30 developers, designers, and government product leaders got together 
 
 Thanks to the hack night, we had nine commits and 22 issues reported, seven of which were fixed within the week and integrated into the [next release](https://github.com/18F/midas/releases/tag/0.0.18) of the software.  Some bugs were reported and fixed in the same evening!  The usability testing confirmed some of our issues, but also offered some unexpected findings that informed future designs of the user interface.  UX sketches were added to GitHub issues to resolve problems discovered in the usability testing.  In addition to the direct contributions, the enthusiasm of the participants infused energy into our small team.
 
-The event also had a positive impact on the participants themselves.  Volunteers from the private sector learned about work across different agencies and new initiatives inside government.  
+The event also had a positive impact on the participants themselves.  Volunteers from the private sector learned about work across different agencies and new initiatives inside government.
 
 <blockquote class="twitter-tweet" lang="en"><p>Had a great time at the <a
 href="https://twitter.com/18F">@18F</a> hack night. Sent a PR to update
@@ -56,7 +57,7 @@ Government workers had the chance to meet people from other teams or other agenc
 
 ## How It Worked
 
-We split the room into two areas: on one side coding, the other side, User Experience (UX). While the volunteer developers got their environments set up and worked on code or technical documentation improvements,  the UX experience group worked with the Midas team to test different usage scenarios and identify a number of usability and design issues.  The UX group even used the wall of the room to create a quick cluster map of the issues. 
+We split the room into two areas: on one side coding, the other side, User Experience (UX). While the volunteer developers got their environments set up and worked on code or technical documentation improvements,  the UX experience group worked with the Midas team to test different usage scenarios and identify a number of usability and design issues.  The UX group even used the wall of the room to create a quick cluster map of the issues.
 
 <blockquote class="twitter-tweet" lang="en"><p>It&#39;s like CSI, but for <a href="https://twitter.com/hashtag/ux?src=hash">#ux</a> <a href="https://twitter.com/18F">@18F</a> <a href="http://t.co/ZjltngriZ1">pic.twitter.com/ZjltngriZ1</a></p>&mdash; Vanessa Varin (@VLVarin) <a href="https://twitter.com/VLVarin/status/519229900516233216">October 6, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
