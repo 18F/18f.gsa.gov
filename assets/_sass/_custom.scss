@@ -825,6 +825,10 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 1.2em;
 		}
 	}
+
+	h3.spaced {
+		padding-bottom: 20px;
+	}
 	h4 {
 		font-family: $base-font-family;
 		font-weight: normal;
