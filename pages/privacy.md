@@ -20,7 +20,7 @@ Below, we describe how we use each third party service, and link to its privacy 
 
 If you wish to suggest alternatives or workarounds to these third parties, or you see one we're missing, please open a discussion in [this website's issue tracker on GitHub](https://github.com/18F/18f.gsa.gov/issues).
 
-## Services
+### Services
 
 * **[Amazon Web Services](https://aws.amazon.com/privacy/).** 18F's website is hosted on [Amazon Web Services](https://aws.amazon.com), a commercial cloud services provider. We use an [HTTPS connection](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) to encrypt your data in transit. We use standard website logging, including visitor IP addresses and user agents.
 
