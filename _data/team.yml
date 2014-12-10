@@ -136,7 +136,8 @@
 - name: kate
   full_name: Kate Garklavs
   first_name: Kate
-  last_name: Garklavs	
+  last_name: Garklavs
+  hidden: true
 
 - name: garren
   full_name: Garren Givens
@@ -301,7 +302,7 @@
   hidden: true
 
 - name: khandelwal
-  full_name: Shashank Khandelwal 
+  full_name: Shashank Khandelwal
   first_name: Shashank
   last_name: Khandelwal
 
