@@ -133,6 +133,11 @@
   first_name: Aidan
   last_name: Feldman
 
+- name: kate
+  full_name: Kate Garklavs
+  first_name: Kate
+  last_name: Garklavs
+
 - name: garren
   full_name: Garren Givens
   first_name: Garren
@@ -296,7 +301,7 @@
   hidden: true
 
 - name: khandelwal
-  full_name: Shashank Khandelwal 
+  full_name: Shashank Khandelwal
   first_name: Shashank
   last_name: Khandelwal
 
