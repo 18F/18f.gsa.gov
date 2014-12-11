@@ -3,7 +3,7 @@ layout: post
 
 title: "Large Scale Development Culture Change: Google and the US Government"
 
-image: /assets/images/blog/large-scale-development-culture-change/crossing-the-chasm-rainbow-of-death.jpg
+image: /assets/blog/large-scale-development-culture-change/crossing-the-chasm-rainbow-of-death.jpg
 
 description: "18F exists to demonstrate how Open Source and Agile-inspired methodologies are critical to an effective, efficient, modern delivery process. However, driving adoption of these tools and practices throughout the Federal government will require more than setting a good example. My recent talk at the GSA, available on YouTube, connects the dots between grassroots automated testing adoption at Google and the challenges facing similar culture change across Federal IT development."
 
