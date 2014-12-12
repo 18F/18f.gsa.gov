@@ -3,6 +3,8 @@ title: Going to .Gov College
 
 author: gray
 
+image: https://cloud.githubusercontent.com/assets/633088/5417074/d0c29728-8203-11e4-8fec-f01869ae201c.png
+
 description: Last week, a number of teammates coordinated to put on three DigitalGov University courses that covered a range of topics, from culture change and open source to the latest in API trends.
 
 tags:
