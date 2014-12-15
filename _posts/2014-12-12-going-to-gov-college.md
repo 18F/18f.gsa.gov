@@ -36,3 +36,7 @@ The 18F team is particularly passionate about collaboration with our fellow agen
 ### Recent API Trends in Government: API Standards and Open Source Documentation  
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZRhRU5y0jEk" frameborder="0" allowfullscreen></iframe>
+
+### How to Run An Agile Project in Government
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FpBjClJTVQ0" frameborder="0" allowfullscreen></iframe>
