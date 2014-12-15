@@ -31,7 +31,7 @@ For a guide to how 18F manages blogging, and technical guidelines for getting yo
 This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`), Bourbon, and Jekyll Sitemap:
 
 ```bash
-gem install jekyll bourbon jekyll-sitemap
+script/bootstrap
 ```
 
 You will also need **Python 2.7** installed and active, because syntax highlighting depends on [Pygments](http://pygments.org/). A `.python-version` file is included in this repository for those using [`pyenv`](https://github.com/yyuu/pyenv).
@@ -43,10 +43,12 @@ So yes: this project requires Ruby, Python, and Node (for now). Aren't static si
 Launch with Jekyll:
 
 ```bash
-jekyll serve
+script/server
 ```
 
 The site will be visible at `http://localhost:4000`.
+
+Before submitting a pull request, please ensure `script/cibuild` runs and exits cleanly.
 
 ### Deploying the site
 
