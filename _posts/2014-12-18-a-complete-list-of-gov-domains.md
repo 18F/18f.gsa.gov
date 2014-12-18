@@ -5,7 +5,7 @@ title: "A Complete List of .Gov Domains"
 
 image: /assets/blog/dotgovs/dot-govs-screen.png
 
-description: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch.""
+description: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch."
 
 authors:
 - eric
@@ -21,13 +21,13 @@ tags:
   by {% author eric %} and {% author gray %}
 </p>
 
-[![Excerpt of the .gov domain list](/assets/blog/dotgovs/dot-gocs-screen.png)](https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv)
+<a target="_blank" href="https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv"><img src="/assets/blog/dotgovs/dot-govs-screen.png" title="Excerpt of the .gov domain list" style="border: 1px solid #ccc;" /></a>
 
 There are a lot of `.gov` domains: over 5,300 of them. About 1,300 of these are used by the federal government's executive, legislative, and judicial branches. The rest are spread across states, territories, counties, cities, and native tribes.
 
-For a while now, the public has been able to download a dataset of the [roughly 1,200 `.gov` domains used by the federal executive branch](https://catalog.data.gov/dataset/gov-domains-api) from [Data.gov](https://www.data.gov), the nation's data catalog.
+For a while now, the public has been able to download a dataset of the [roughly 1,200 .gov domains used by the federal executive branch](https://catalog.data.gov/dataset/gov-domains-api) from [Data.gov](https://www.data.gov), the nation's data catalog.
 
-We're happy to say that the .gov registry is now releasing the **entire set of 5,300 `.gov` domains**, including those outside of the federal executive branch.
+We're happy to say that the `.gov` registry is now releasing the **entire set of 5,300 `.gov` domains**, including those outside of the federal executive branch.
 
 <!-- more -->
 
