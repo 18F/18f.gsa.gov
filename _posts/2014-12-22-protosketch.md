@@ -1,6 +1,7 @@
 ---
 title: Sketching with Code: Protosketching
 layout: post
+date: 2014-12-29
 
 authors:
 - alan
