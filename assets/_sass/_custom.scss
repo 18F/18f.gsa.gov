@@ -804,6 +804,9 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .bare {
 	@extend %section-padding;
+	h1 {
+		padding-bottom: 20px;
+	}
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;
@@ -822,6 +825,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 1.2em;
 		}
 	}
+
 	h4 {
 		font-family: $base-font-family;
 		font-weight: normal;
