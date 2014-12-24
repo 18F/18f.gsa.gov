@@ -404,6 +404,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include media($tiniest) {
 		@include span-columns(12);
 	}
+	margin-top: -4px;
 	p.authors {
 		margin-bottom: 0.4em;
 	}
