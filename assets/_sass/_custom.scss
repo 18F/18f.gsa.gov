@@ -437,6 +437,19 @@ $tiniest: new-breakpoint(max-width 390px);
 			color: $base-link-color;
 		}
 	}
+	nav {
+		font-size: 0.8em;
+		margin-top: 5px;
+		margin-bottom:47px;
+		a {
+			text-decoration: none;
+			color: $dark-gray;
+			&:hover, &:focus {
+				text-decoration: underline;
+				color: $red;
+			}
+		}
+	}
 	ul {
 	  	list-style: inherit;
 	}
@@ -465,8 +478,11 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 
 }
+
 .blog-pagination {
 	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 1px solid black;
 	h1 {
 		font-size: 1em;
 	}
@@ -478,20 +494,38 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	a {
 		text-decoration: none;
+		h1 {
+			color: black;
+		}
+		&:hover, &:focus {
+			text-decoration: underline;
+			h1 {
+				color: $red;
+			}
+		}
+	}
+}
+
+.blog-related {
+	@include span-columns(12);
+	h1 {
+		padding-bottom: 3px;
+		font-size: 1em;
+	}
+	a {
+		text-decoration: none;
 		&:hover, &:focus {
 			text-decoration: underline;
 		}
 	}
 }
+
 .blog-follow-us {
 	@include span-columns(12);
-	padding-top: 30px;
-	h1 {
-		font-size: 1.3em;
-	}
+	padding-top: 40px;
+	h1, 
 	ul {
-		font-size: 1.1em;
-		padding-top: 4px;
+		font-size: 1em;
 	}
 }
 
@@ -802,8 +836,10 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Bare Template
 //********************************************************
+
 .bare {
 	@extend %section-padding;
+	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;
@@ -817,7 +853,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
-		padding-bottom: 4px;
+		padding-top: 15px;
+		padding-bottom: 10px;
 		@include media($smallest) {
 			font-size: 1.2em;
 		}
@@ -835,11 +872,10 @@ $tiniest: new-breakpoint(max-width 390px);
 		margin-bottom: 1.1em;
 	}
 }
+
 .bare-logo {
 	@include span-columns(2);
-
 	padding-left: 20px;
-
 	a {
 		text-decoration: none;
 		i {
@@ -860,6 +896,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	margin-top: -6px;
 }
+
 .bare-content {
 	@include span-columns(9);
 	@include omega();

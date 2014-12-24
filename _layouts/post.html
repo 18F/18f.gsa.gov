@@ -13,16 +13,18 @@
     <a href="/">
       <i class="icon-18f-logo"></i>
     </a>
-    <br />
-    <a href="/news">
-      <em>Return to the blog</em>
-    </a>
   </div>
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <nav><a href="/news"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all blog posts</a></nav>
+
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
+
       <p>
         Tagged /
         <span class="blog-tags" itemprop="keywords">
@@ -32,34 +34,48 @@
           {% endfor %}
         </span>
       </p>
+
       {{ content }}
+
     </section>
 
     {% if page.previous or page.next %}
         <section class="blog-pagination">
           <div>
             {% if page.previous %}
-                <h1>Previous Post</h1>
-                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+              <a href="{{ page.previous.url }}">
+                <h1><i class="fa fa-chevron-left"></i> Previous Post</h1>
+                <p>&ldquo;{{ page.previous.title }}&rdquo;</p>
+              </a>
             {% endif %}
           </div>
           <div>
             {% if page.next %}
-                <h1>Next Post</h1>
-                <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                <a href="{{ page.next.url }}">
+                  <h1>Next Post <i class="fa fa-chevron-right"></i></h1>
+                  <p>&ldquo;{{ page.next.title }}&rdquo;</p>
+                </a>
             {% endif %}
           </div>
         </section>
     {% endif %}
 
+    <section class="blog-related">
+      <h1>Related Posts</h1>
+      {% related_posts ul li %}
+    </section>
+
     <aside class="blog-follow-us">
-      <h1>Follow us here:</h1>
+      <h1>Follow the latest news from 18F</h1>
       <ul>
-        <li><i class="icon-rss"></i> <a href="/feed/">18F News Feed</a>
-        <li><i class="icon-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
-        <li><i class="icon-github2"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
+        <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">@18F</a></li>
+        <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a></li>
       </ul>
+      
+      <!-- <i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a> -->
+      
     </aside>
+
   </div>
 
 </section>
