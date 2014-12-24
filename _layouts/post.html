@@ -22,7 +22,7 @@
       <nav><a href="/news"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all blog posts</a></nav>
 
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      
+
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
 
       <p>
@@ -65,14 +65,16 @@
       {% related_posts ul li %}
     </section>
 
-    <!-- <aside class="blog-follow-us">
-      <h1>Follow us here:</h1>
-      <ul> 
-        <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
-        <li><i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
-        <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a>
+    <aside class="blog-follow-us">
+      <h1>Follow the latest news from 18F</h1>
+      <ul>
+        <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">@18F</a></li>
+        <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a></li>
       </ul>
-    </aside> -->
+      
+      <!-- <i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a> -->
+      
+    </aside>
 
   </div>
 

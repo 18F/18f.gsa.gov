@@ -508,7 +508,6 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .blog-related {
 	@include span-columns(12);
-	margin-top: 3px;
 	h1 {
 		padding-bottom: 3px;
 		font-size: 1em;
@@ -523,13 +522,10 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .blog-follow-us {
 	@include span-columns(12);
-	padding-top: 30px;
-	h1 {
-		font-size: 1.3em;
-	}
+	padding-top: 40px;
+	h1, 
 	ul {
-		font-size: 1.1em;
-		padding-top: 4px;
+		font-size: 1em;
 	}
 }
 
