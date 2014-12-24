@@ -318,10 +318,21 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // News and blog pages
 //********************************************************
-.bare {
-	p.subscribe {
-		margin-top: 20px;
-		margin-bottom: 0px;
+.subscribe {
+	margin-top: 10px;
+}
+
+.back {
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom:47px;
+	a {
+		text-decoration: none;
+		color: $dark-gray;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $red;
+		}
 	}
 }
 
@@ -393,6 +404,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include media($tiniest) {
 		@include span-columns(12);
 	}
+	margin-top: -4px;
 	p.authors {
 		margin-bottom: 0.4em;
 	}
@@ -437,19 +449,6 @@ $tiniest: new-breakpoint(max-width 390px);
 			color: $base-link-color;
 		}
 	}
-	nav {
-		font-size: 0.8em;
-		margin-top: 5px;
-		margin-bottom:47px;
-		a {
-			text-decoration: none;
-			color: $dark-gray;
-			&:hover, &:focus {
-				text-decoration: underline;
-				color: $red;
-			}
-		}
-	}
 	ul {
 	  	list-style: inherit;
 	}
@@ -479,7 +478,8 @@ $tiniest: new-breakpoint(max-width 390px);
 
 }
 
-.blog-pagination {
+.blog-pagination,
+.pagination {
 	margin-top: 30px;
 	padding-top: 10px;
 	border-top: 1px solid black;
@@ -503,6 +503,15 @@ $tiniest: new-breakpoint(max-width 390px);
 				color: $red;
 			}
 		}
+	}
+}
+
+.pagination {
+	> div {
+		@include span-columns(4);
+	}
+	> div:nth-of-type(2) {
+		text-align: center;
 	}
 }
 
