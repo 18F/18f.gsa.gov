@@ -817,7 +817,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
-		padding-bottom: 4px;
+		padding-top: 15px;
+		padding-bottom: 10px;
 		@include media($smallest) {
 			font-size: 1.2em;
 		}
