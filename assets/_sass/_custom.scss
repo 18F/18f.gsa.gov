@@ -318,10 +318,21 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // News and blog pages
 //********************************************************
-.bare {
-	p.subscribe {
-		margin-top: 20px;
-		margin-bottom: 0px;
+.subscribe {
+	margin-top: 10px;
+}
+
+.back {
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom:47px;
+	a {
+		text-decoration: none;
+		color: $dark-gray;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $red;
+		}
 	}
 }
 
@@ -435,19 +446,6 @@ $tiniest: new-breakpoint(max-width 390px);
 		&:hover, &:focus {
 			text-decoration: underline;
 			color: $base-link-color;
-		}
-	}
-	nav {
-		font-size: 0.8em;
-		margin-top: 5px;
-		margin-bottom:47px;
-		a {
-			text-decoration: none;
-			color: $dark-gray;
-			&:hover, &:focus {
-				text-decoration: underline;
-				color: $red;
-			}
 		}
 	}
 	ul {
