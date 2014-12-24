@@ -39,27 +39,32 @@
         <section class="blog-pagination">
           <div>
             {% if page.previous %}
-                <h1>Previous Post</h1>
-                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+              <a href="{{ page.previous.url }}">
+                <h1><i class="fa fa-chevron-left"></i> Previous Post</h1>
+                <p>&ldquo;{{ page.previous.title }}&rdquo;</p>
+              </a>
             {% endif %}
           </div>
           <div>
             {% if page.next %}
-                <h1>Next Post</h1>
-                <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                <a href="{{ page.next.url }}">
+                  <h1>Next Post <i class="fa fa-chevron-right"></i></h1>
+                  <p>&ldquo;{{ page.next.title }}&rdquo;</p>
+                </a>
             {% endif %}
           </div>
         </section>
     {% endif %}
 
-    <aside class="blog-follow-us">
+    <!-- <aside class="blog-follow-us">
       <h1>Follow us here:</h1>
       <ul> 
         <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">Twitter @18F</a></li>
         <li><i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a></li>
         <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a>
       </ul>
-    </aside>
+    </aside> -->
+
   </div>
 
 </section>
