@@ -5,7 +5,7 @@
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
 
-<!-- {% include flag.html %} -->
+{% include flag.html %}
 
 <section class="container bare">
 
@@ -13,16 +13,18 @@
     <a href="/">
       <i class="icon-18f-logo"></i>
     </a>
-    <br />
-    <a href="/news">
-      <em>Return to the blog</em>
-    </a>
   </div>
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <nav><a href="/news"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all blog posts</a></nav>
+
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
+
       <p>
         Tagged /
         <span class="blog-tags" itemprop="keywords">
@@ -32,7 +34,9 @@
           {% endfor %}
         </span>
       </p>
+
       {{ content }}
+
     </section>
 
     {% if page.previous or page.next %}
