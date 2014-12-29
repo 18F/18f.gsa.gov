@@ -1,5 +1,5 @@
 ---
-title: Sketching with Code: Protosketching
+title: "Sketching with Code: Protosketching"
 layout: post
 date: 2014-12-29
 
@@ -65,7 +65,7 @@ We recently did a very similar 3-hour session with the US Navy Reserve. In a wor
 
 ![img_0086](/assets/images/2014/12/protosketch.jpg)
 
-At another protosketch meeting, this time with GSA Human Resources, we protosketched a human resources dashboard which simulated combining several siloed data sources. We [built](https://github.com/18F/aaa-exp-proto1) a [sample dashboard](https://18f.github.io/aaa-exp-proto1/) with [jQuery](http://jquery.com/), static [JSON](http://www.json.org/)  files, [Bootstrap](http://getbootstrap.com/), and were able to preview it via [GitHub pages](https://pages.github.com/). As the sample dashboard was displayed on the projector, participants quickly pointed out fields that they’d like to see included, excluded, or modified. Even better than that, though, was the lively discussion between participants. Seeing a clickable, interactive demo helped them test out hypotheses as a team about the features they needed most. 
+At another protosketch meeting, this time with GSA Human Resources, we protosketched a human resources dashboard which simulated combining several siloed data sources. We [built](https://github.com/18F/aaa-exp-proto1) a [sample dashboard](https://18f.github.io/aaa-exp-proto1/) with [jQuery](http://jquery.com/), static [JSON](http://www.json.org/)  files, [Bootstrap](http://getbootstrap.com/), and were able to preview it via [GitHub pages](https://pages.github.com/). As the sample dashboard was displayed on the projector, participants quickly pointed out fields that they’d like to see included, excluded, or modified. Even better than that, though, was the lively discussion between participants. Seeing a clickable, interactive demo helped them test out hypotheses as a team about the features they needed most.
 
 
 ## Summary of our Technique: Reuse on Steroids
@@ -79,5 +79,3 @@ They prove that we know how to reuse work that others have spent person-years, s
 ## Conclusion
 
 If you are a leading a project, ask for a protosketch. If you are a developer, learn to protosketch. Create imagination-sparking moments, *in the meeting*. Give your team the freedom to play — with ideas, code and data.  Minimize risk to your project and the American taxpayer by quickly testing ideas with the end-user in a vivid, clickable form. Develop and evaluate hypotheses on the fly. Protosketch to delight your team, your boss, and your customers.
-
-
