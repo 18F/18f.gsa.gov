@@ -37,7 +37,8 @@ layout: bare
             </div>
 
             <div class="blog-snippet" itemprop="articleBody">
-              <p>{{ post.excerpt | strip_html }}</p>
+              {% assign excerpt = post.excerpt | markdownify %}
+              <p>{{ excerpt | strip_html }}</p>
             </div>
 
             <div class="blog-continue">
