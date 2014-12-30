@@ -2,7 +2,8 @@
 title: Going to .Gov College
 date: 2014-12-15
 
-author: gray
+authors:
+- gray
 
 image: https://cloud.githubusercontent.com/assets/633088/5417074/d0c29728-8203-11e4-8fec-f01869ae201c.png
 

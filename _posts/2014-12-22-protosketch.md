@@ -1,7 +1,7 @@
 ---
 title: "Sketching with Code: Protosketching"
 layout: post
-date: 2014-12-29
+date: 2014-12-30
 
 authors:
 - alan
@@ -63,7 +63,7 @@ Several investigators at the meeting were able to provide dynamic feedback as th
 
 We recently did a very similar 3-hour session with the US Navy Reserve. In a world where agencies are used to having to go through a lengthy procurement process and a requirements writing phase in order to see any design or prototype at all, this is a game-changer.
 
-![img_0086](/assets/images/2014/12/protosketch.jpg)
+<img src="/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A protosketch running on a phone" />
 
 At another protosketch meeting, this time with GSA Human Resources, we protosketched a human resources dashboard which simulated combining several siloed data sources. We [built](https://github.com/18F/aaa-exp-proto1) a [sample dashboard](https://18f.github.io/aaa-exp-proto1/) with [jQuery](http://jquery.com/), static [JSON](http://www.json.org/)  files, [Bootstrap](http://getbootstrap.com/), and were able to preview it via [GitHub pages](https://pages.github.com/). As the sample dashboard was displayed on the projector, participants quickly pointed out fields that they’d like to see included, excluded, or modified. Even better than that, though, was the lively discussion between participants. Seeing a clickable, interactive demo helped them test out hypotheses as a team about the features they needed most.
 

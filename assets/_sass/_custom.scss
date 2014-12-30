@@ -474,8 +474,20 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 10pt;
 			font-family: monospace;
 		}
+		img.align-left {
+			@include media($small) {
+				float: left;
+				max-width: 40%;
+				margin: 0 1em 0 0;
+			}
+			@include media($tiniest);
+			@include media($tiny) {
+				max-width: 100%;
+				float: none;
+				margin:none;
+			}
+		}
 	}
-
 }
 
 .blog-pagination,
@@ -532,7 +544,7 @@ $tiniest: new-breakpoint(max-width 390px);
 .blog-follow-us {
 	@include span-columns(12);
 	padding-top: 40px;
-	h1, 
+	h1,
 	ul {
 		font-size: 1em;
 	}
