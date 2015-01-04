@@ -62,18 +62,18 @@ requiring the entire production database.
 Available options include 
 
 <dl>
-  <dt>`--logarithmic`</dt>
+  <dt>--logarithmic</dt>
   <dd>Determine the desired number of rows logarithmically,
       so that a proportionally smaller number of rows is taken
-      from larger tables.  Using `--logarithmic` with fractions 
+      from larger tables.  Using <code>--logarithmic</code> with fractions 
       between 0.3 to 0.5 seems to produce reasonable results.</dd>
-  <dt>`--children <n>`</dt>
+  <dt>--children &lt;n&gt;</dt>
   <dd>set the number of child records per parent record to
       attempt to include (default 3)</dd>
-  <dt>`--force <tablename:primary_key_val>`</dt>
+  <dt>--force &lt;tablename:primary_key_val&gt;</dt>
   <dd>force rows of particular interest, with all their child 
       and descendant records, into the test database</dd>
-  <dt>`--schema <name>`</dt>
+  <dt>`--schema &lt;name&gt;</dt>
   <dd>Include this schema in the results (otherwise,
       only pulls rows from the connection's default schema)</dd>
 </dl>
