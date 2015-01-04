@@ -28,6 +28,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+
 // Extends
 //********************************************************
 %heading-text-style {
@@ -317,6 +318,24 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // News and blog pages
 //********************************************************
+.subscribe {
+	margin-top: 10px;
+}
+
+.back {
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-bottom:47px;
+	a {
+		text-decoration: none;
+		color: $dark-gray;
+		&:hover, &:focus {
+			text-decoration: underline;
+			color: $red;
+		}
+	}
+}
+
 .blog-entry {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 25px; //compensates for padding in top row of news section
@@ -385,6 +404,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include media($tiniest) {
 		@include span-columns(12);
 	}
+	margin-top: -4px;
 	p.authors {
 		margin-bottom: 0.4em;
 	}
@@ -454,11 +474,27 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 10pt;
 			font-family: monospace;
 		}
+		img.align-left {
+			@include media($small) {
+				float: left;
+				max-width: 40%;
+				margin: 0 1em 0 0;
+			}
+			@include media($tiniest);
+			@include media($tiny) {
+				max-width: 100%;
+				float: none;
+				margin:none;
+			}
+		}
 	}
-
 }
-.blog-pagination {
+
+.blog-pagination,
+.pagination {
 	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 1px solid black;
 	h1 {
 		font-size: 1em;
 	}
@@ -470,20 +506,47 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	a {
 		text-decoration: none;
+		h1 {
+			color: black;
+		}
+		&:hover, &:focus {
+			text-decoration: underline;
+			h1 {
+				color: $red;
+			}
+		}
+	}
+}
+
+.pagination {
+	> div {
+		@include span-columns(4);
+	}
+	> div:nth-of-type(2) {
+		text-align: center;
+	}
+}
+
+.blog-related {
+	@include span-columns(12);
+	h1 {
+		padding-bottom: 3px;
+		font-size: 1em;
+	}
+	a {
+		text-decoration: none;
 		&:hover, &:focus {
 			text-decoration: underline;
 		}
 	}
 }
+
 .blog-follow-us {
 	@include span-columns(12);
-	padding-top: 30px;
-	h1 {
-		font-size: 1.3em;
-	}
+	padding-top: 40px;
+	h1,
 	ul {
-		font-size: 1.1em;
-		padding-top: 4px;
+		font-size: 1em;
 	}
 }
 
@@ -518,6 +581,108 @@ $tiniest: new-breakpoint(max-width 390px);
 
 }
 
+// PIF
+//********************************************************
+.pif-logo {
+	img {
+		margin-bottom: 20px;
+		height: 150px;
+		width: 150px;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		z-index: 20;
+	  	@include media($smaller) {
+	  		height: 100px;
+			width: 100px;
+			top: 40px;
+			left: 20px;
+  		}
+  	}
+  	@include media($smallest) {
+  		height: 75px;
+		width: 75px;
+  	}
+  	@include media($tiny) {
+		top: 73px;
+  	}
+  	@include media($tinier) {
+		top: 66px;
+		left: 0px;
+  	}
+}
+.pif-nav-bar {
+	li {
+		padding-left: 20px;
+		&:first-of-type{
+			padding-top: 20px;
+		}
+		&:last-of-type {
+			padding-top: 20px;
+		}
+		a {
+			text-decoration: underline;
+			&:hover,
+			&:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.pif-nav-horizontal {
+	li {
+		display: inline;
+	}
+	a {
+		text-decoration: underline;
+		&:hover,
+		&focus {
+			text-decoration: none;
+		}
+	}
+}
+.pif-title {
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
+
+.pif-content {
+	@include span-columns(9);
+	@include omega();
+	@include media($smallest) {
+		@include span-columns(10);
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+	}
+}
+
+.bare_pif .pif-content {
+	p {
+		margin-bottom: 1.1em;
+		margin-top: 1.1em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
+		width: 74px;
+	}
+	h3 {
+		margin-top: .5em;
+	}
+}
+
+.pif_bio {
+	p {
+		margin-left: 5em;
+	}
+	h3 {
+		margin-left: 3.5em;
+	}
+}
+
 // Team
 //********************************************************
 .team {
@@ -529,7 +694,7 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bio {
 	@include span-columns(3 of 12);
-	margin: 1.0em 0 1.0em 1.5%;
+	margin: 1.5em 0 1.5em 1.5%;
 	position: relative;
 	@include media($smaller) {
 		@include span-columns(4 of 12);
@@ -558,13 +723,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		color: $red;
 		font-size: 1.2em;
 		@include media($smallest) {
-			font-size: 1em;
+			font-size: 0.70em;
 		}
 		@include media($tiny) {
-			font-size: 0.75em;
+			font-size: 0.70em;
 		}
 		@include media($tiniest) {
-			font-size: 0.55em;
+			font-size: 0.60em;
 		}
 	}
 	a i, .no-decoration {
@@ -692,8 +857,10 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Bare Template
 //********************************************************
+
 .bare {
 	@extend %section-padding;
+	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;
@@ -707,7 +874,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
-		padding-bottom: 4px;
+		padding-top: 15px;
+		padding-bottom: 10px;
 		@include media($smallest) {
 			font-size: 1.2em;
 		}
@@ -725,8 +893,10 @@ $tiniest: new-breakpoint(max-width 390px);
 		margin-bottom: 1.1em;
 	}
 }
+
 .bare-logo {
 	@include span-columns(2);
+	padding-left: 20px;
 	a {
 		text-decoration: none;
 		i {
@@ -747,6 +917,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	margin-top: -6px;
 }
+
 .bare-content {
 	@include span-columns(9);
 	@include omega();
@@ -755,6 +926,16 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	@include media($tiny) {
 		@include span-columns(12);
+	}
+}
+
+.bare_pif .bare-content {
+	p {
+		margin: 0 0 0 13em;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
 	}
 }
 

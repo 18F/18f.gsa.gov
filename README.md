@@ -14,7 +14,7 @@ Deployments to production will be done by site admins, using PRs from `staging` 
 If you're a new teammate, add yourself to the website by:
 
 1. Either fork the repository, or make a new branch inside the repo if you have write permissions.
-2. Add your name to [`_data/team.yml`](_data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines.
+2. Add your name to [`_data/team.yml`](_data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines. Finally, make a separate entry for `first_name` and `last_name`. We use these last two fields to sort the pictures on the home page.
 3. Add a 250x250 JPG of yourself to [`assets/images/team`](assets/images/team). The filename must be your unique team handle, e.g. `eric.jpg`.
 4. (Optional) Verify that your photo and name looks right by [running the site locally](#developing-the-site).
 5. Submit a pull request from your fork or branch to this repository's `staging` branch.
@@ -31,7 +31,7 @@ For a guide to how 18F manages blogging, and technical guidelines for getting yo
 This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`), Bourbon, and Jekyll Sitemap:
 
 ```bash
-gem install jekyll bourbon jekyll-sitemap
+script/bootstrap
 ```
 
 You will also need **Python 2.7** installed and active, because syntax highlighting depends on [Pygments](http://pygments.org/). A `.python-version` file is included in this repository for those using [`pyenv`](https://github.com/yyuu/pyenv).
@@ -43,10 +43,12 @@ So yes: this project requires Ruby, Python, and Node (for now). Aren't static si
 Launch with Jekyll:
 
 ```bash
-jekyll serve
+script/server
 ```
 
 The site will be visible at `http://localhost:4000`.
+
+Before submitting a pull request, please ensure `script/cibuild` runs and exits cleanly.
 
 ### Deploying the site
 

@@ -2,8 +2,8 @@
 ================================================== -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="vmVo2wbQpKGMHVpllQP7bQ0w5gICWD356VH9DNbv5f4" />
 
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -22,7 +22,9 @@
 <meta name="twitter:creator" content="@18F">
 <meta property="og:site_name" content="{{ site.title | xml_escape }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.url }}" />
+
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 <!-- title, description, and image may change per-page, per-post -->
 {% if page.title %}
@@ -50,7 +52,7 @@
 {% else %}
   <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/images/logo-18f.png" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.jpg" />
 {% endif %}
 
 
@@ -59,6 +61,12 @@
 <!-- 128x128 -->
 <link rel="shortcut icon" type="image/ico" href="/assets/images/favicons/favicon.ico" />
 <link rel="icon" type="image/png" href="/assets/images/favicons/favicon.png" />
+
+<!-- 192x192, as recommended for Android
+http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+-->
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/18f-center-192.png" />
+
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
 <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/18f-center-57.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
@@ -68,25 +76,23 @@
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/18f-center-144.png">
 
+<!-- Mobile "theme" -->
+<meta name="theme-color" content="#1188ff" />
+
 <!-- CSS
 ================================================== -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:400,700" rel="stylesheet" type="text/css">
 <link href="/assets/css/fonts.css" rel="stylesheet">
+<link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="/assets/css/normalize.css" rel="stylesheet">
 <link href="/assets/css/styles.css" rel="stylesheet">
 <link href="/assets/css/pygments-theme.css" rel="stylesheet">
 
-<!-- JS
-================================================== -->
-<script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/responsiveslides.min.js"></script>
 
 <!-- IE
 ================================================== -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-  <script src="/assets/js/ie8/html5shiv.js"></script>
-  <script src="/assets/js/ie8/respond.js"></script>
   <link href="/assets/css/ie8/ie.css" rel="stylesheet">
 <![endif]-->
 

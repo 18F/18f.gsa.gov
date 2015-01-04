@@ -4,6 +4,8 @@ layout: bare
 
 <section>
 
+  <nav class="back"><a href="/news"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all blog posts</a></nav>
+
   <h1>{{ page.title }}</h1>
 
   <div class="container blog-entry {{tag}}" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
@@ -35,11 +37,12 @@ layout: bare
             </div>
 
             <div class="blog-snippet" itemprop="articleBody">
-              <p>{{ post.excerpt | strip_html }}</p>
+              {% assign excerpt = post.excerpt | markdownify %}
+              <p>{{ excerpt | strip_html }}</p>
             </div>
 
             <div class="blog-continue">
-              <p><a href="{{ post.url }}">Continue reading...</a></p>
+              <p><a href="{{ post.url }}">Continue reading this post...</a></p>
             </div>
           </article>
 
