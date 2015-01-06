@@ -4,6 +4,14 @@ This document describes 18F's blogging process (both policy and technical). 18F'
 
 Our blog uses Jekyll as a blogging framework, with substantial customizations and integrations added by the 18F team. (In other words, it won't run on GitHub Pages.)
 
+**Most important bullet points:**
+
+* Draft them however you want, but blog posts are published in Markdown.
+* No references to 3rd party CDNs.
+* Which means: all images embedded in posts or referenced in metadata need to be **committed to this repository**.
+* Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
+* We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
+
 ### Overview of our blogging process
 
 The process for writing and publishing an 18F blog post goes generally like this:

@@ -2,6 +2,10 @@
 
 This repository contains 18F's website, https://18f.gsa.gov.
 
+**Writing a blog post for 18F? You must read our [blog publishing guide](blogging.md).**
+
+### Deployment and workflow
+
 * The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.us).
 * The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
