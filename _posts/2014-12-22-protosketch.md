@@ -20,7 +20,7 @@ image: /assets/images/2014/12/protosketch.jpg
 
 <p class="authors"> by {% author alan %} and {% author robert %} </p>
 
-## Definition Meetings are boring. Prototypes are cool. Use the meeting to
+Definition: Meetings are boring. Prototypes are cool. Use the meeting to
 build the prototype. We call building a prototype in three hours or less
 *protosketching*.
 
