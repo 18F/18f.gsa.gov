@@ -59,7 +59,7 @@ It should work against
 It guarantees referential integrity "upward" &#8212; every child
 record will have its required parent record.
 It also fills records "downward,"
-providing child records for each parent record...but within
+providing child records for each parent record &#8230; but within
 limits (optionally tuned with `--children`) to avoid
 requiring the entire production database.
 
