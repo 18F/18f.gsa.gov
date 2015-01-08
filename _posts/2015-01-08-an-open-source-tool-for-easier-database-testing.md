@@ -30,12 +30,12 @@ poses a dilemma: the full production dataset is too unwieldy to
 duplicate to the test and development environments.  Projects
 are typically tested against small hand-written test databases
 instead, but those simple constructs can't
-duplicate the quirks and complexities of the production data set -- and
+duplicate the quirks and complexities of the production data set – and
 the most subtle application bugs will only be revealed when
 applied to those quirks.
 
 Using a small subset of real production data is the ideal, but for
-relational databases that's hard to accomplish - the mesh
+relational databases that's hard to accomplish – the mesh
 of foreign key relationships between tables make extracting a limited
 yet valid subset of its tuples can feel like trying to cut a little sweater
 out of a big sweater without snipping any yarns.
@@ -58,12 +58,12 @@ It should work against
 [any database that SQLAlchemy supports](http://docs.sqlalchemy.org/en/rel_0_9/core/engines.html#supported-databases).
 It guarantees referential integrity "upward" -- every child
 record will have its required parent record.
-It also fills records "downward",
+It also fills records "downward,"
 providing child records for each parent record... but within
 limits (optionally tuned with `--children`) to avoid
 requiring the entire production database.
 
-Available options include
+Available options include:
 
 <dl>
   <dt>--logarithmic</dt>
