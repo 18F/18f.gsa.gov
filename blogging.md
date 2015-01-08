@@ -11,7 +11,7 @@ Our blog uses Jekyll as a blogging framework, with substantial customizations an
 * Which means: all images embedded in posts or referenced in metadata need to be **committed to this repository**.
 * Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
 * We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
-* We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitly ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question.
+* We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitely ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question.
 
 ### Overview of our blogging process
 
