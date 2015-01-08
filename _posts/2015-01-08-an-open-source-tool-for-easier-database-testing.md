@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An open source tool for easier database testing"
-date: 2015-01-08
+date: 2015-01-13
 image: /assets/blog/db-testing-tool/cut_sweater.jpg
 description: "rdbms-subsetter, a new utility from 18F's work for generating test databases."
 excerpt: "18F is dedicated to spreading modern software techniques like rigorous automated testing throughout the Federal government; we want to showcase how solid testing enables rapid, high-quality development. When the product is based on a large relational database, this poses a dilemma: the full production dataset is too unwieldy to duplicate to the test and development environments."
