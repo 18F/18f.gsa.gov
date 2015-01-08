@@ -87,7 +87,7 @@ Like any open source project, we welcome your
 and code contributions.
 Since we're 18F, filing any bugs you find --
 and optionally writing tests for them, or even fixing them --
-is not just encouraged, it's your patriotic duty.
+is not just encouraged, it's downright patriotic.
 _(cue inspiring music)_
 
 For open-source enthusiasts, the potential to release work
