@@ -36,8 +36,8 @@ applied to those quirks.
 
 Using a small subset of real production data is the ideal, but for
 relational databases that's hard to accomplish &#8212; the mesh
-of foreign key relationships between tables make extracting a limited
-yet valid subset of its tuples can feel like trying to cut a little sweater
+of foreign key relationships between tables can make extracting a limited
+yet valid subset of its tuples feel like trying to cut a little sweater
 out of a big sweater without snipping any yarns.
 
 ![Don't break any yarns.](/assets/blog/db-testing-tool/cut_sweater.jpg)
