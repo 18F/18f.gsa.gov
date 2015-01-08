@@ -3,7 +3,7 @@ layout: post
 title: "Creating a Federal Marketplace for Agile Delivery Services"
 date: 2015-01-08
 description: Details on how 18F is going to create a Federal marketplace for agile delivery services
-excerpt: ""
+excerpt: "The federal government and industry community have been talking about the need for software acquisitions to keep pace with technology cycles — typically 1-3 years. In today’s dynamic environment, however, not even that is fast enough."
 
 authors:
  - greg
