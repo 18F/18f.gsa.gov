@@ -6,9 +6,9 @@ Our blog uses Jekyll as a blogging framework, with substantial customizations an
 
 **Most important bullet points:**
 
-* Draft them however you want, but blog posts are published in Markdown.
-* No references to 3rd party CDNs.
-* Which means: all images embedded in posts or referenced in metadata need to be **committed to this repository**.
+* Blog posts are published in Markdown.
+* Don't [hot link](https://en.wikipedia.org/wiki/Inline_linking) to 3rd-party assets.
+    * All images embedded in posts or referenced in metadata need to be **added to this repository**.
 * Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
 * We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
 * We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitely ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question.
@@ -17,12 +17,11 @@ Our blog uses Jekyll as a blogging framework, with substantial customizations an
 
 The process for writing and publishing an 18F blog post goes generally like this:
 
-1. (Optional) Propose a blog post internally (not in this repo), and discuss what it might look like.
-2. Draft a blog post (not in this repo) and present it internally.
-3. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document **(more details below)**.
-4. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch.
-5. Nudge the powers that be to merge your pull request. This automatically deploys your post on the staging site.
-6. Nudge the powers that be to merge your post from `staging` to `production`. This deploys the post automatically to the live site.
+1. Follow the [internal guide](https://github.com/18F/blog-drafts#readme) for proposing blog posts.
+1. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document **(more details below)**.
+1. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch.
+1. Nudge the powers that be to merge your pull request. This automatically deploys your post on the staging site.
+1. Nudge the powers that be to merge your post from `staging` to `production`. This deploys the post automatically to the live site.
 
 ### Creating a new blog post file
 
