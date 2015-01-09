@@ -7,7 +7,7 @@ Our blog uses Jekyll as a blogging framework, with substantial customizations an
 **Most important bullet points:**
 
 * Blog posts are published in Markdown.
-* Don't [hot link](http://en.wikipedia.org/wiki/Inline_linking) 3rd-party assets.
+* Don't [hot link](https://en.wikipedia.org/wiki/Inline_linking) to 3rd-party assets.
     * All images embedded in posts or referenced in metadata need to be **added to this repository**.
 * Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
 * We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
