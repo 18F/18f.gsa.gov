@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Open Source Tool for Easier Eatabase Testing"
+title: "An Open Source Tool for Easier Database Testing"
 date: 2015-01-13
 image: /assets/blog/db-testing-tool/cut_sweater.jpg
 description: "rdbms-subsetter, a new utility from 18F's work for generating test databases."
