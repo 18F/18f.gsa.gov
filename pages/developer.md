@@ -15,6 +15,10 @@ permalink: /developer/
 
 The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportunities to work with the U.S. Government. Learn more from the [launch announcement](https://18f.gsa.gov/2014/03/31/announcing-fbopen-government-opportunities-made-easier/) and the [GitHub repository](https://github.com/18f/fbopen). You can also view the live front-end interface built on the API at [fbopen.gsa.gov](https://fbopen.gsa.gov).
 
+### Hub API
+
+The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F Hub](https://18f.gsa.gov/hub/), a repository of team and project information ([more details here](https://18f.gsa.gov/2014/12/23/hub/)). 
+
 
 ## 18F Initiatives
 
