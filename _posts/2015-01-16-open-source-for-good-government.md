@@ -1,5 +1,5 @@
 ---
-title: The U.S. & U.K. - A Great Digital Partnership
+title: Open Source for Good Government
 date: '2015-01-16'
 layout: post
 image: /assets/images/2015/01/18f_govuk.png
@@ -35,6 +35,6 @@ Earlier this week, we [shared a tool](https://18f.gsa.gov/2015/01/13/an-open-sou
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Since our launch in March, we have had a number of informal conversations with our counterparts at GDS on a host of issues – technical, policy, and operational – further strengthening our relationship and fostering our open collaboration. We are thrilled to see this partnership get even closer with the President and Prime Minister Cameron meeting today.
+Since our launch in March, we have had a number of informal conversations with our counterparts at GDS on a host of issues – technical, policy, and operational – further strengthening our relationship and fostering our open collaboration.
 
 Both teams believe that transparency in our operations [from day one](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/) is key to creating the best possible products, and we look forward to future collaboration with GDS, other government organizations, and the public.
