@@ -73,14 +73,6 @@
   bio: is a Presidential Innovation Fellow working on the 21st Century Financial Systems project at the Department of the Treasury. Chris is focused on about leveraging new technologies to drive innovative change. Chris was a founding member of True North Equities, a private equity firm that acquires and operates innovative small businesses focused on public-sector markets. At True North Equities, he served as Director of Strategy and Technology and as interim COO of a member company, where he commercialized a DARPA-funded line of medical injury simulation products. These products are now used around the world at over 20 Army Medical Simulation Training Centers to train combat medics, helping to save American and Allied lives. Chris previously served as a Senior IT Program Manager at the Department of Homeland Security’s US Immigration and Customs Enforcement (ICE), earning a CIO’s distinguished Special Achievement award for his leadership overseeing an IT Strategy & Management Program of over $20 million. Prior to ICE, Chris held various strategy and technology roles at SAIC, IBM, and Unisys. At IBM and Unisys, he pioneered multiple technology-driven market offerings, including Integrated Emergency Management and Real-Time Infrastructure. He graduated summa cum laude from The Pennsylvania State University, where he earned multiple Bachelors Degrees, was awarded a Boren National Security Scholarship, and was inducted into The Phi Beta Kappa Society. Chris is an avid Ruby on Rails developer and holds two pending software patents related to crowdsourcing collective intelligence. In 2007, he applied the theory of constraints to place 3rd in the US Army Gaming Championship – Command & Conquer 3 (Xbox 360). Chris grew up in Waterford, PA, and currently lives in Arlington, VA, with his wife and son.
   project: 21st Century Financial Systems
 
-- name: dave
-  full_name: Dave Caraway
-  first_name: Dave
-  last_name: Caraway
-  pif-round: 2
-  bio: is a Presidential Innovation Fellow working on Open Data Initiatives with the Data.gov team at the General Services Administration. Dave is a software developer intent on fostering government open-data initiatives, growing high-tech entrepreneurship in small-town communities and empowering citizens through information. Dave is a former Air Force officer with development and leadership experience covering a range of technical areas including commercial web development, real-time embedded systems, military simulations, and business intelligence. In 2012, he founded Fogmine, a software company specializing in data analytics, mobile applications, and web services. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Dayton, Ohio, where he lives with his wife and two energetic kids.
-  project: Open Data Initiatives
-
 - name: jchen
   full_name: Jeff Chen
   first_name: Jeff
@@ -975,3 +967,8 @@
   project: Better Than Cash
   bio:  is a Silicon Valley-based serial entrepreneur, engineer &amp; inventor with over 18 years of experience in founding, building, and funding technology companies in the US and international markets. Most recently, he was the founder &amp; CEO of PlaySpan Inc. (acquired by Visa), a global leader in micro-payments with a monetization platform supporting 100+ local payment options across 180 countries. In 2010, Karl won the &apos;Entrepreneur of the Year&apos; Award from Ernst &amp; Young for Northern California. Karl is also the founder of Grassroots Innovation Network (GrIN), a public-private partnership platform that brings the startup ecosystem and Silicon Valley&apos;s entrepreneurship know-how to millions of college students nationwide. Karl is a board member of the Center for Entrepreneurship at Chapman University, Pratham Bay Area, Source Ventures, and Simpa Networks (solar energy on pay-as-you-go for developing markets). He is an active angel investor in the clean-tech and internet sectors. He lives with his wife and two children in Fremont, CA.
   hidden: true
+
+- name: cm
+  full_name: CM Lubinski
+  first_name: CM
+  last_name: Lubinski
