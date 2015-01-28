@@ -12,6 +12,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - todo.txt
+- vendor
 
 gems: [jekyll-sitemap]
 
