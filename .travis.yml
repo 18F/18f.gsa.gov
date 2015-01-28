@@ -1,12 +1,11 @@
 language: ruby
 rvm:
-  - 2.2.0
+  - 2.1.2
 
 sudo: false
-git:
-  submodules: false
 
-script: ./go ci_build
+install: script/bootstrap
+script: script/cibuild
 
 notifications:
   email:
