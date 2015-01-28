@@ -17,10 +17,16 @@ GEM
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
+<<<<<<< HEAD
     hitimes (1.2.2)
     htmlentities (4.3.3)
     hash-joiner (0.0.3)
       safe_yaml
+=======
+    hash-joiner (0.0.3)
+      safe_yaml
+    hitimes (1.2.2)
+>>>>>>> Revert "Revert "Pulls data from the hub's data files""
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -45,9 +51,12 @@ GEM
     jekyll-sitemap (0.7.0)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+<<<<<<< HEAD
     jekyll_pages_api (0.1.0)
       htmlentities (~> 4.3)
       jekyll (~> 2.0)
+=======
+>>>>>>> Revert "Revert "Pulls data from the hub's data files""
     kramdown (1.5.0)
     liquid (2.6.2)
     listen (2.8.5)
@@ -58,9 +67,15 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
+<<<<<<< HEAD
     pygments.rb (0.6.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+=======
+    pygments.rb (0.6.0)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+>>>>>>> Revert "Revert "Pulls data from the hub's data files""
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -72,7 +87,11 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
+<<<<<<< HEAD
     yajl-ruby (1.2.1)
+=======
+    yajl-ruby (1.1.0)
+>>>>>>> Revert "Revert "Pulls data from the hub's data files""
 
 PLATFORMS
   ruby

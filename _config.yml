@@ -14,6 +14,8 @@ exclude:
 - todo.txt
 - vendor
 
+gems: [jekyll-sitemap]
+
 sass:
   sass_dir: assets/_sass
 
