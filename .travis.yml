@@ -3,6 +3,8 @@ rvm:
   - 2.1.2
 
 sudo: false
+git:
+  submodules: false
 
 install: script/bootstrap
 script: script/cibuild
