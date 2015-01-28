@@ -12,6 +12,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - todo.txt
+- vendor
 
 sass:
   sass_dir: assets/_sass
