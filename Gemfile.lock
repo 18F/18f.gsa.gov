@@ -76,6 +76,6 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   hash-joiner
-  jekyll (~> 2.0)
+  jekyll (~> 2.5.3)
   jekyll-sitemap
   safe_yaml

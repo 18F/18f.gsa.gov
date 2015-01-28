@@ -28,7 +28,7 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
 
-MIN_VERSION = "2.1.5"
+MIN_VERSION = "2.2.0"
 
 unless RUBY_VERSION >= MIN_VERSION
   puts <<EOF
