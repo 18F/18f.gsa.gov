@@ -1,10 +1,10 @@
 #! /usr/bin/env ruby
 #
-# 18F Hub - Docs & connections between team members, projects, and skill sets
+# Go script for building the 18F site
 #
-# Written in 2015 by Mike Bland (michael.bland@gsa.gov)
-# on behalf of the 18F team, part of the US General Services Administration:
-# https://18f.gsa.gov/
+# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone 
+# (gregory.boone@gsa.gov) on behalf of the 18F team, part of the US General
+# Services Administration: https://18f.gsa.gov/
 #
 # To the extent possible under law, the author(s) have dedicated all copyright
 # and related and neighboring rights to this software to the public domain
@@ -15,6 +15,7 @@
 # <https://creativecommons.org/publicdomain/zero/1.0/>.
 #
 # @author Mike Bland (michael.bland@gsa.gov)
+# @author Greg Boone (gregory.boone@gsa.gov)
 #
 # ----
 #
@@ -34,10 +35,10 @@ unless RUBY_VERSION >= MIN_VERSION
 
 *** ABORTING: Unsupported Ruby version ***
 
-Ruby version #{MIN_VERSION} or greater is required to work with the Hub, but
+Ruby version #{MIN_VERSION} or greater is required to build 18f.gsa.gov, but
 this Ruby is version #{RUBY_VERSION}. Consider using a version manager such as
 rbenv (https://github.com/sstephenson/rbenv) or rvm (https://rvm.io/)
-to install a Ruby version specifically for Hub development.
+to install a Ruby version specifically for 18f.gsa.gov development.
 
 EOF
   exit 1
@@ -85,8 +86,8 @@ def ci_build
 end
 
 COMMANDS = {
-  :init => 'Set up the Hub dev environment',
-  :update_gems => 'Execute Bundler to update gem set',
+  :init => 'Set up the 18f.gsa.gov dev environment',
+  :update_gems => 'Update your rubygems, do this if you have problems building',
   :update_data => 'Updates data files from data-private',
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',

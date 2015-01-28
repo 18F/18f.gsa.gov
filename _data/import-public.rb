@@ -15,6 +15,7 @@ require 'safe_yaml'
 
 YAML_FILES = [
   'projects.yml',
+  'team.yml'
 ]
 
 YAML_FILES.each do |yaml_file|

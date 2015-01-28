@@ -7,7 +7,7 @@ git:
   submodules: false
 
 install: script/bootstrap
-script: script/cibuild
+script: ./go build
 
 notifications:
   email:
