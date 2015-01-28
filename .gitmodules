@@ -1,3 +1,0 @@
-[submodule "_data/private"]
-	path = _data/private
-	url = git@github.com:18F/data-private.git
