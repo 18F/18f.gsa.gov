@@ -18,6 +18,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
+    htmlentities (4.3.3)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -42,6 +43,9 @@ GEM
     jekyll-sitemap (0.7.0)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    jekyll_pages_api (0.1.0)
+      htmlentities (~> 4.3)
+      jekyll (~> 2.0)
     kramdown (1.5.0)
     liquid (2.6.2)
     listen (2.8.5)
@@ -75,3 +79,4 @@ DEPENDENCIES
   bourbon
   jekyll
   jekyll-sitemap
+  jekyll_pages_api
