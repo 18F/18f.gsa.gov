@@ -27,7 +27,7 @@ It may not look a lot different on the surface, but we made some serious infrast
 
 Deploying our blog posts from GitHub instead of managing a separate Tumblr account has drastically simplified our publishing process and opened it up to the whole team. While we still have an approval process for the _content_ of our blog posts, now anyone on the team [can hit the Publish button](https://github.com/18F/18f.gsa.gov/pull/314).
 
-To that end, we've written a [team blogging guide](https://github.com/18F/18f.gsa.gov/blob/staging/blogging.md) to make the blogging process easier for teammates less familiar with Jekyll.
+To that end, we've written a [team blogging guide](https://github.com/18F/18f.gsa.gov/blob/staging/_posts/blogging.md) to make the blogging process easier for teammates less familiar with Jekyll.
 
 You can see [all of our work in GitHub](https://github.com/18F/18f.gsa.gov/pull/235), but below are more details on how we got this done for anyone interested in trying it out.
 
