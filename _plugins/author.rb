@@ -1,4 +1,3 @@
-require 'pry'
 module Jekyll
   class AuthorTag < Liquid::Tag
     def initialize(tag_name, author, tokens)
