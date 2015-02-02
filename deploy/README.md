@@ -49,17 +49,16 @@ From `/deploy`, run the hook with the appropriate port and command. It can be he
 In development, you might use:
 
 ```bash
-forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
 ```
 
 You can stop and restart your hooks by supplying the same arguments you gave.
 
 ```bash
-forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
-forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && jekyll build >> $HOME/hookshot.log"
+forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
 ```
 
 On our web server, 18F runs two separate hooks.
 
 You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
-
