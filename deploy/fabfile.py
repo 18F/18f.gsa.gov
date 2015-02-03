@@ -6,15 +6,15 @@ Manage auto-deploy webhooks remotely.
 
 Staging hook:
 
-  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
-  forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
-  forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && jekyll build >> $HOME/hookshot.log"
+  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+  forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+  forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
 
 Production hook:
 
-  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
-  forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
-  forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && jekyll build >> $HOME/hookshot.log"
+  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+  forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+  forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
 """
 
 # which hook to restart. defaults to staging, override with:
@@ -35,7 +35,7 @@ log = "%s/hookshot.log" % home
 current = "%s/%s/current" % (home, environment)
 
 # principal command to run upon update
-command = "cd %s && git pull && jekyll build >> %s" % (current, log)
+command = "cd %s && git pull && bundle exec jekyll build >> %s" % (current, log)
 
 ## can be run on their own
 
