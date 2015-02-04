@@ -2,7 +2,7 @@
 
 This repository contains 18F's website, https://18f.gsa.gov.
 
-**Writing a blog post for 18F? You must read our [blog publishing guide](blogging.md).**
+**Writing a blog post for 18F? You must read our [blog publishing guide](_posts/blogging.md).**
 
 ### Deployment and workflow
 
@@ -28,7 +28,7 @@ A site admin will take care of deploying you to the [live site](https://18f.gsa.
 
 ### Publishing a blog post
 
-For a guide to how 18F manages blogging, and technical guidelines for getting your blog post into the site, see the **[18F Blogging Guide](blogging.md)**.
+For a guide to how 18F manages blogging, and technical guidelines for getting your blog post into the site, see the **[18F Blogging Guide](_posts/blogging.md)**.
 
 ### Developing the site
 
