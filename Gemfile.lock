@@ -20,6 +20,7 @@ GEM
     hash-joiner (0.0.3)
       safe_yaml
     hitimes (1.2.2)
+    htmlentities (4.3.3)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -79,6 +80,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   hash-joiner
-  jekyll (~> 2.5.3)
+  jekyll
   jekyll-sitemap
+  jekyll_pages_api
   safe_yaml
