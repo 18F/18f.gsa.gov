@@ -17,10 +17,9 @@ GEM
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
-    hitimes (1.2.2)
-    htmlentities (4.3.3)
     hash-joiner (0.0.3)
       safe_yaml
+    hitimes (1.2.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
