@@ -33,26 +33,38 @@ env.hosts = ["18f-site"]
 home = "/home/site"
 log = "%s/hookshot.log" % home
 current = "%s/%s/current" % (home, environment)
+ruby = "/opt/install/rbenv/shims/ruby"
 
-# principal command to run upon update
-command = "cd %s && git pull && bundle exec jekyll build >> %s" % (current, log)
+if environment == 'staging':
+  # on staging, build the site but also push back the extracted data files
+  command = "cd %s && git pull && %s _data/import-data && git add _data/team.yml _data/projects.yml && git commit -m 'update team and project data' && git push origin staging && %s go build >> %s" % (current, ruby, ruby, log)
+else:
+  # principal command to run upon update
+  command = "cd %s && git pull && %s go build >> %s" % (current, ruby, log)
 
 ## can be run on their own
 
 def start():
-  run(
-    "cd %s && forever start -l %s -a deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, log, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever start -l %s -a deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (log, port, environment, command)
+    )
 
 def stop():
-  run(
-    "cd %s && forever stop deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever stop deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (port, environment, command)
+    )
 
 def restart():
-  run(
-    "cd %s && forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (current, port, environment, command)
+    )
+
+def update_data():
+  with cd("%s" % (current)):
+    run("%s go update_data" % (ruby))
