@@ -13,20 +13,11 @@ require 'hash-joiner'
 require 'safe_yaml'
 
 
+DATA_DIR = File.dirname __FILE__
 YAML_FILES = [
   'projects.yml',
-  'team.yml'
-]
+  'team.yml',
+].map {|i| File.join(DATA_DIR, 'private', i)}.join ' '
 
-YAML_FILES.each do |yaml_file|
-  source = File.join('private', yaml_file)
-  data = SafeYAML.load_file(source, :safe=>true)
-  unless data
-    puts "Failed to parse #{source}"
-    exit 1
-  end
-
-  data = HashJoiner.remove_data data, 'private'
-  puts "#{source} => #{yaml_file}"
-  open(yaml_file, 'w') {|outfile| outfile.puts data.to_yaml}
-end
+exit $?.exitstatus unless system(
+  "filter-yaml-files -o #{DATA_DIR} #{YAML_FILES}")
