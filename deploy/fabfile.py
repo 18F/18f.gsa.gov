@@ -37,7 +37,7 @@ ruby = "/opt/install/rbenv/shims/ruby"
 
 if environment == 'staging':
   # on staging, build the site but also push back the extracted data files
-  command = "cd %s && git pull && %s _data/import-data && git add _data/team.yml _data/projects.yml && git commit -m 'update team and project data' && git push origin staging && %s go build >> %s" % (current, ruby, ruby, log)
+  command = "cd %s && git pull && git submodule update --remote && %s _data/import-data && %s go build >> %s" % (current, ruby, ruby, log)
 else:
   # principal command to run upon update
   command = "cd %s && git pull && %s go build >> %s" % (current, ruby, log)
@@ -68,3 +68,7 @@ def restart():
 def update_data():
   with cd("%s" % (current)):
     run("%s go update_data" % (ruby))
+
+def build():
+  with cd(current):
+    run("%s go build" % (ruby))
