@@ -464,9 +464,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 	p, li {
 		line-height: 28px;
-	}
 
-	p {
 		code {
 			padding: 2px 4px;
 			background-color: #eaeaff;
@@ -474,6 +472,9 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 10pt;
 			font-family: monospace;
 		}
+	}
+
+	p {
 		img.align-left {
 			@include media($small) {
 				float: left;
