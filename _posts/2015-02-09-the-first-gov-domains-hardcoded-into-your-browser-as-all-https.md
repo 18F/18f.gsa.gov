@@ -39,19 +39,12 @@ cookies that would otherwise have remained private.
 to be hardcoded as HTTPS-only:
 
 * The Federal Trade Commission prepared the Do Not Call Registry, as well as their consumer complaint system and a merger filing system, by submitting **[donotcall.gov](https://www.donotcall.gov)**, **[ftccomplaintassistant.gov](https://ftccomplaintassistant.gov)**, and **[hsr.gov](https://www.hsr.gov)**.
-
 * The Inspector General for the US Postal Service submitted **[uspsoig.gov](https://uspsoig.gov)** (which includes various [sensitive complaint forms](https://uspsoig.gov/form/whistleblower-complaint-form)) after moving entirely to HTTPS.
-
 * The **[AIDS.gov](https://www.aids.gov/)** team submitted their domain after moving the main website and each subdomain over to HTTPS.
-
 * The Administrative Conference of the US submitted **[acus.gov](https://www.acus.gov)** after [moving to HTTPS](https://www.acus.gov/policies) while relaunching their website.
-
 * At the state level, the District of Columbia legislature submitted **[dccode.gov](https://dccode.gov)** as part of its launch.
-
 * The Federal Register submitted **[federalregister.gov](https://www.federalregister.gov)**, a fully HTTPS-enabled website since 2011.
-
 * 18F chipped in and submitted **[notalone.gov](https://www.notalone.gov)**, which used HTTPS from the start.
-
 * The [OMB MAX](https://max.omb.gov) team worked with the White House and the General Services Administration to prepare the website for the [Federal CIO Council](https://cio.gov) and a number of other websites and redirect domains: [cio.gov](https://cio.gov), [cao.gov](https://cao.gov), [cfo.gov](https://cfo.gov), [max.gov](https://max.gov), [itdashboard.gov](https://itdashboard.gov), [paymentaccuracy.gov](https://paymentaccuracy.gov), [earmarks.gov](https://earmarks.gov), [bfelob.gov](https://bbfelob.gov), [save.gov](https://save.gov), [saveaward.gov](https://saveaward.gov).
 
 **To be clear**: the above domains are _not_ the only `.gov` domains that use
