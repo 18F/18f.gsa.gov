@@ -2,7 +2,7 @@
 title: The first .gov domains hardcoded into your browser as all-HTTPS
 date: '2015-02-09'
 layout: post
-image: '/assets/blog/hsts/with-https-headers.png'
+image: '/assets/blog/hsts/hsts-preload-list.png'
 
 tags:
 - https
