@@ -1,4 +1,0 @@
-#!/bin/bash
-
-test -d _site || mkdir _site
-bundle exec jekyll serve

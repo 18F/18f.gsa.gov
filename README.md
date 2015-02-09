@@ -2,7 +2,7 @@
 
 This repository contains 18F's website, https://18f.gsa.gov.
 
-**Writing a blog post for 18F? You must read our [blog publishing guide](_posts/blogging.md).**
+**Writing a blog post for 18F? You must read our [blog publishing guide](_posts/README.md).**
 
 ### Deployment and workflow
 
@@ -17,25 +17,30 @@ Deployments to production will be done by site admins, using PRs from `staging` 
 
 If you're a new teammate, add yourself to the website by:
 
-1. Either fork the repository, or make a new branch inside the repo if you have write permissions.
-2. Add your name to [`_data/team.yml`](_data/team.yml). Your `name` should be an all-lower-case handle, and **must be unique** among the team. Your `full_name` should be how you want your name to be displayed beneath your picture, and on your blog post bylines. Finally, make a separate entry for `first_name` and `last_name`. We use these last two fields to sort the pictures on the home page.
-3. Add a 250x250 JPG of yourself to [`assets/images/team`](assets/images/team). The filename must be your unique team handle, e.g. `eric.jpg`.
-4. (Optional) Verify that your photo and name looks right by [running the site locally](#developing-the-site).
-5. Submit a pull request from your fork or branch to this repository's `staging` branch.
-6. When your PR is merged, your face and name should appear automatically on [our staging site](https://staging.18f.us).
+1. Add yourself to the `team.yml` file in 18F/data-private/ and be sure to read [the Privacy section in the README there](https://github.com/18F/data-private#privacy).
+2. Clone this repo either with the GitHub Desktop App or through the command line
+3. Create a branch
+4. Add a photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory that matches the name you used for `name` in the `team.yml` file
+5. Push your branch and create a pull request to the `staging` branch of this repo to include your photo.
 
-A site admin will take care of deploying you to the [live site](https://18f.gsa.gov). Feel free to poke them if they don't get around to it in a timely fashion!
+If you get stuck, feel free to reach out to anyone on the 18f-site team.
+
+Helpful tips:
+
+* [Creating a Pull Request (GitHub Support)](https://help.github.com/articles/creating-a-pull-request/)
+* [Creating a Pull Request with GitHub for Mac (GitHub blog post)](https://github.com/blog/1946-create-pull-requests-with-github-for-mac)
+
 
 ### Publishing a blog post
 
-For a guide to how 18F manages blogging, and technical guidelines for getting your blog post into the site, see the **[18F Blogging Guide](_posts/blogging.md)**.
+For a guide to how 18F manages blogging, and technical guidelines for getting your blog post into the site, see the **[18F Blogging Guide](_posts/README.md)**.
 
 ### Developing the site
 
 This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems (you may need `sudo`), Bourbon, and Jekyll Sitemap:
 
 ```bash
-script/bootstrap
+./go init
 ```
 
 You will also need **Python 2.7** installed and active, because syntax highlighting depends on [Pygments](http://pygments.org/). A `.python-version` file is included in this repository for those using [`pyenv`](https://github.com/yyuu/pyenv).
@@ -47,12 +52,12 @@ So yes: this project requires Ruby, Python, and Node (for now). Aren't static si
 Launch with Jekyll:
 
 ```bash
-script/server
+./go serve
 ```
 
 The site will be visible at `http://localhost:4000`.
 
-Before submitting a pull request, please ensure `script/cibuild` runs and exits cleanly.
+Before submitting a pull request, please ensure `./go ci_build` runs and exits cleanly.
 
 ### Deploying the site
 
