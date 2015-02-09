@@ -2,7 +2,7 @@
 title: The first .gov domains hardcoded into your browser as all-HTTPS
 date: '2015-02-09'
 layout: post
-image: '/assets/blog/hsts/with-https-headers.png'
+image: '/assets/blog/hsts/hsts-preload-list.png'
 
 tags:
 - https
@@ -18,6 +18,7 @@ description: "Every .gov website, no matter how small, should give its visitors 
 excerpt: "Every .gov website, no matter how small, should give its visitors a secure, private connection. Ordinary HTTP (http://) connections are neither secure nor private, and can be easily intercepted and impersonated. In today's web browsers, the best and easiest way to fix that is to use HTTPS (https://)."
 
 ---
+<img src="/assets/blog/hsts/hsts-preload-list.png" alt="A snapshot of .gov websites preloaded as HTTPS-only" style="border: 1px solid #d5d5d5; padding: 10px 0" />
 
 Every `.gov` website, no matter how small, should give its visitors a secure,
 private connection. Plain HTTP (`http://`) connections are neither secure nor
@@ -90,7 +91,7 @@ When you connect over ordinary `http://`, it's like **sending a postcard in
 the mail**, where every computer in between you and the website gets to see
 your information:
 
-<img src="/assets/blog/hsts/with-http-headers.png" style="border: 1px solid" />
+<img src="/assets/blog/hsts/with-http-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over http"/>
 
 That includes cookies, the browser you use, and any other data the website
 asks you to send (in this example, your location).
@@ -105,7 +106,7 @@ When you can connect over `https://`, it's like **sending a locked briefcase**
 that only the website's computer can open. IP addresses and a domain name are
 all that the internet's computers get to see:
 
-<img src="/assets/blog/hsts/with-https-headers.png" style="border: 1px solid" />
+<img src="/assets/blog/hsts/with-https-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over https" />
 
 IP addresses and domain names do still reveal some information, but it's the
 bare minimum necessary to make the connection.
