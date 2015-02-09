@@ -35,12 +35,8 @@ log = "%s/hookshot.log" % home
 current = "%s/%s/current" % (home, environment)
 ruby = "/opt/install/rbenv/shims/ruby"
 
-if environment == 'staging':
-  # on staging, build the site but also push back the extracted data files
-  command = "cd %s && git pull && git submodule update --remote && %s _data/import-data && %s go build >> %s" % (current, ruby, ruby, log)
-else:
-  # principal command to run upon update
-  command = "cd %s && git pull && %s go build >> %s" % (current, ruby, log)
+# principal command to run upon update
+command = "cd %s && git pull && %s go build >> %s" % (current, ruby, log)
 
 ## can be run on their own
 
