@@ -3,13 +3,18 @@ title: A Story of an Agile Workshop
 date: '2015-02-10'
 layout: post
 image: 
-tags: 
+tags:
+- longreads
+- agile
+- workshops
+- how we work
 authors:
 - robert
 - blacktm
-description: 
-excerpt: 
---- 
+description: "The clock was ticking as I stated the single solitary rule: We will have a demo at 10:00, 11:00 and 12:00 no matter what else happens. No matter if we have to stand up and say we got nothing done this sprint!"
+
+excerpt: "The clock was ticking as I stated the single solitary rule: We will have a demo at 10:00, 11:00 and 12:00 no matter what else happens. No matter if we have to stand up and say we got nothing done this sprint!"
+---
 by {% author robert %} and {% author blacktm %}
 
 The Agile Manifesto:
