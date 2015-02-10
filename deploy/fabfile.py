@@ -62,8 +62,13 @@ def restart():
     )
 
 def update_data():
-  with cd("%s" % (current)):
+  with cd(current):
+    run("%s go update_submods" % (ruby))
     run("%s go update_data" % (ruby))
+
+def update_submods():
+  with cd(current):
+    run("%s go update_submods" % (ruby))
 
 def build():
   with cd(current):

@@ -64,6 +64,10 @@ def update_gems
   exec_cmd 'bundle'
 end
 
+def update_submods
+  edec_cmd "git submodule update --remote"
+end
+
 def update_data
   exec_cmd '_data/import-public.rb'
 end
@@ -84,6 +88,15 @@ def ci_build
   build
   puts 'Done!'
 end
+
+def server_build
+  puts 'Pulling from git'
+  exec_cmd 'git pull'
+  update_submods
+  update_data
+  build
+end
+
 
 COMMANDS = {
   :init => 'Set up the 18f.gsa.gov dev environment',
