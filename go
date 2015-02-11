@@ -65,11 +65,11 @@ def update_gems
 end
 
 def update_submods
-  edec_cmd "git submodule update --remote"
+  exec_cmd "git submodule update --remote"
 end
 
 def update_data
-  exec_cmd '_data/import-public.rb'
+  exec_cmd 'import-public.rb'
 end
 
 def serve
@@ -105,6 +105,7 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
+  :server_build => 'Pulls from git, updates submods, and builds the site'
 }
 
 def usage(exitstatus: 0)

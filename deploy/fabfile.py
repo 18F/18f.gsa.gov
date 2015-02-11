@@ -36,7 +36,7 @@ current = "%s/%s/current" % (home, environment)
 ruby = "/opt/install/rbenv/shims/ruby"
 
 # principal command to run upon update
-command = "cd %s && git pull && %s go build >> %s" % (current, ruby, log)
+command = "cd %s && %s go server_build >> %s" % (current, ruby, log)
 
 ## can be run on their own
 
@@ -58,7 +58,7 @@ def restart():
   with cd(current):
     run(
       "forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
-      % (current, port, environment, command)
+      % (port, environment, command)
     )
 
 def update_data():
@@ -70,6 +70,9 @@ def update_submods():
   with cd(current):
     run("%s go update_submods" % (ruby))
 
-def build():
+def build(scope = 'simple'):
   with cd(current):
-    run("%s go build" % (ruby))
+    if full = 'full'
+      run("%s go server_build" % (ruby))
+    elif full = 'simple'
+      run('%s go build' % (ruby))
