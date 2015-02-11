@@ -69,7 +69,8 @@ def update_submods
 end
 
 def update_data
-  exec_cmd 'import-public.rb'
+  ruby = exec_cmd 'which ruby'
+  exec_cmd "#{ruby} import-public.rb"
 end
 
 def serve
