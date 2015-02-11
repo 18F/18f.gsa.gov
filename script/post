@@ -34,8 +34,7 @@ def readContent(file)
 	else
 		puts "There was an error loading #{file}."
 	end
-	if File.extname(file)
-	end
+	abort("You must pass a markdown file to this script." unless File.extname(file) == 'md'
 end
 
 title = options[:title]
