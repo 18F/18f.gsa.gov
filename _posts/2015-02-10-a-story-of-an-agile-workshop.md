@@ -177,7 +177,7 @@ The Retrospective
 -----------------
 
 I was scribing on big flip-chart sheets as the big bosses walked in. The
-Chief Program Officer and her Deputy, Terrie and John, had returned. We
+Chief Program Officer and her Deputy, Terri and John, had returned. We
 returned to the demo still on the screen to recap the functionality that
 had been accomplished in a spare three hours.
 
