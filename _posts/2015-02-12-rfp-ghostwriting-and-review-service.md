@@ -1,6 +1,6 @@
 ---
 title: RFP Ghostwriting and Review Service
-date: '2015-02-12'
+date: '2015-02-13'
 layout: post
 image: /assets/blog/rfpaas/image00.png
 tags:
