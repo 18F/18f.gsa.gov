@@ -77,8 +77,6 @@ and the product owners would cooperate to produce estimates in “minutes”
 because the workshop was so short. The product team would accept the
 stories or send them back at the demos.
 
-<img src="/assets/blog/agile-workshop/workshop1.jpg" class="align-left" alt="" />
-
 The SSA had done one of the most important things that an agency can do:
 They had the actual end-users in the room. This is the famous “have the
 customers in the room.” The users, product owners and UX experts were
@@ -88,7 +86,7 @@ been hastily brought in. Their bank of workstations was divided by a big
 projector — the “stage” upon which the demos would be shown. Other
 observers sat in the back of the room.
 
-
+![The room: developers on left, the demo area, and product owners on right.](/assets/blog/agile-workshop/workshop3.jpg)
 
 The First Sprint Brought A Quick Win
 ------------------------------------
@@ -135,8 +133,9 @@ workstation and tell them “fatter” or “thinner” until you like it." And
 that's how we came to explore Agile tenet \#4: **Value responding to
 change** over following a plan.
 
-People were becoming familiar with the process now. I could almost see light bulbs flashing over people's heads — the excitement was that palpable. The developers and customers were talking on their own in too many conversations for us to follow. (Agile tenet \#3: **Value customer interaction** of contract negotiation.)<img src="/assets/blog/agile-workshop/workshop2.jpg" alt="" class="align-left" />
+People were becoming familiar with the process now. I could almost see light bulbs flashing over people's heads — the excitement was that palpable. The developers and customers were talking on their own in too many conversations for us to follow. (Agile tenet \#3: **Value customer interaction** of contract negotiation.)
 
+<img src="/assets/blog/agile-workshop/workshop2.jpg" alt="The SSA developers at work." class="align-left" />
 
 Seeing one the stories implemented up on the big screen showed us
 something that perhaps nobody had realized — one of the columns was now
@@ -151,7 +150,9 @@ hour: about 65 “minutes” worth of work. The product team had a good deal
 more than that in the user-story backlog — no more stories were needed.
 But the product team did produce a complete force-ranked prioritization
 of stories on the board. Jason used this to give the work to his team as
-he saw fit.![](/assets/blog/agile-workshop/workshop3.jpg)
+he saw fit.
+
+<img src="/assets/blog/agile-workshop/workshop1.jpg" class="align-left" alt="The actual users in the room and having fun." />
 
 People were laughing and having fun (Agile tenet \#1: **Value
 individuals and interactions over processes and tools**). Nearly all the
@@ -207,4 +208,4 @@ Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-work
 coaching, modular contracting expertise and technical advice to Federal
 agencies at cost-recovery prices.
 
-<img src="/assets/blog/agile-workshop/workshop4.png" alt="" class="float-left" />
+<img src="/assets/blog/agile-workshop/workshop4.png" alt="The completed stories and velocity chart after Sprint 2." class="float-left" />
