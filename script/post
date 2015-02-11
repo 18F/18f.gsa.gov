@@ -23,6 +23,21 @@ else
 	date = Date.parse(options[:date]).strftime("%Y-%m-%d")
 end
 
+def readContent(file)
+	if file[0] == '~'
+		file[0] == ENV.HOME
+	elsif file[0] != '/'
+		file[0] = File.dirname(__FILE__)
+	end
+	if File.exists?(file)
+		content = open(file).read
+	else
+		puts "There was an error loading #{file}."
+	end
+	if File.extname(file)
+	end
+end
+
 title = options[:title]
 slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 authors = options[:author].strip.split(', ') unless options[:author].nil?

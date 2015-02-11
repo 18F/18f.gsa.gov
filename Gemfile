@@ -9,3 +9,4 @@ group :jekyll_plugins do
 end
 gem 'hash-joiner'
 gem 'safe_yaml'
+gem 'pry'
