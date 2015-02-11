@@ -47,6 +47,7 @@ to be hardcoded as HTTPS-only:
 * The Federal Trade Commission prepared the Do Not Call Registry, as well as
 their consumer complaint system and a merger filing system, by submitting
 **[donotcall.gov][2]**, **[ftccomplaintassistant.gov][3]**, and **[hsr.gov][4]**.
+The FTC has also [written about their work][33] on these domains.
 * The Inspector General for the US Postal Service submitted **[uspsoig.gov][5]**
 (which includes various [sensitive complaint forms][6]) after moving entirely to
 HTTPS.
@@ -239,3 +240,4 @@ time to prepare their `.gov` domains.
 [30]: https://datatracker.ietf.org/doc/rfc7258/
 [31]: http://www.internetsociety.org/news/internet-society-commends-internet-architecture-board-recommendation-encryption-default
 [32]: https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure
+[33]: http://www.ftc.gov/news-events/blogs/techftc/2015/02/government-agencies-enable-http-strict-transport-security-public
