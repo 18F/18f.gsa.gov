@@ -13,7 +13,7 @@ OptionParser.new do |opts|
 	opts.on('-i', '--image IMAGE', 'Post image') { |v| options[:image] = v }
 	opts.on('-a', '--author AUTHOR', 'Post author (comma separated)') { |v| options[:author] = v }
 	opts.on('-g', '--tags TAGS', 'Tags for this post (comma separated)') { |v| options[:tags] = v }
-	opts.on('-c', '--content CONTENT', 'The text of the blog post (not the most efficient)') { |v| options[:content] = v}
+	opts.on('-c', '--content CONTENT', 'A file containing the post content') { |v| options[:content] = v}
 end.parse!
 raise OptionParser::MissingArgument if options[:title].nil?
 
@@ -21,6 +21,14 @@ unless options[:date]
 	date = Date.today.to_s
 else
 	date = Date.parse(options[:date]).strftime("%Y-%m-%d")
+end
+
+def readContent(file)
+	if File.exists?(file)
+		content = open(file).read
+	else
+		puts "There was an error loading #{file}."
+	end
 end
 
 title = options[:title]
@@ -40,7 +48,7 @@ frontmatter[:authors] = authors
 frontmatter[:description] = nil
 frontmatter[:excerpt] = nil
 
-content = options[:content]
+content = readContent(options[:content])
 
 load = YAML.load(frontmatter.to_json)
 yaml = YAML.dump(load)
