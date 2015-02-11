@@ -1,6 +1,6 @@
 ---
 title: A Story of an Agile Workshop
-date: '2015-02-10'
+date: '2015-02-11'
 layout: post
 image: /assets/blog/agile-workshop/workshop3.jpg
 tags:
