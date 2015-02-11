@@ -32,7 +32,7 @@ def readContent(file)
 	if File.exists?(file)
 		content = open(file).read
 	else
-		puts "There was an error loading #{file}."
+		abort("There was an error loading #{file}.")
 	end
 	abort("You must pass a markdown file to this script." unless File.extname(file) == 'md'
 end
