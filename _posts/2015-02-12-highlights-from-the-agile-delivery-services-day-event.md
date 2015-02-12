@@ -2,6 +2,7 @@
 title: Highlights from the Agile Delivery Services Day Event
 date: '2015-02-12'
 layout: post
+image: /assets/blog/agile-day/agile-day.jpg
 tags:
 - agile
 - 18F Consulting
