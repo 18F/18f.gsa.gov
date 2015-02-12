@@ -23,9 +23,24 @@ else
 	date = Date.parse(options[:date]).strftime("%Y-%m-%d")
 end
 
+# readContent takes a markdown filename and outputs the content
+#
+# This method takes a path and filename as its only parameter. If given a path that 
+# starts with a tilde (~), the script will expand the path to the user's home 
+# directory. If given a path that does not start with a '/' the script will 
+# append that path to the current file.
+#
+# The script will return an error to STDERR if the passed parameter is not a 
+# markdown file or if the file does not exist. Otherwise it returns the 
+# contents of the passed file.
+#
+# Author:: Greg Boone (mailto:gregory.boone@gsa.gov)
+# Copyright:: To the extent possible the contents of this method and the entire 
+# 			 script are public domain works
+# License:: CC0
 def readContent(file)
 	if file[0] == '~'
-		file[0] == ENV.HOME
+		file[0] == File.expand_path('~')
 	elsif file[0] != '/'
 		file[0] = File.dirname(__FILE__)
 	end
