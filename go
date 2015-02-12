@@ -56,12 +56,16 @@ def init
     exec_cmd 'gem install bundler'
     puts "Bundler installed; installing gems"
   end
-  update_gems
+  install_gems
   build
 end
 
 def update_gems
   exec_cmd 'bundle'
+end
+
+def install_gems
+  exec_cmd 'bundle install'
 end
 
 def update_submods
