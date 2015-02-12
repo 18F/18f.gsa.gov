@@ -64,8 +64,13 @@ def update_gems
   exec_cmd 'bundle'
 end
 
+def update_submods
+  exec_cmd "git submodule update --remote"
+end
+
 def update_data
-  exec_cmd 'cd _data && ./import-public.rb'
+  ruby = exec_cmd 'which ruby'
+  exec_cmd "#{ruby} import-public.rb"
 end
 
 def serve
@@ -85,6 +90,15 @@ def ci_build
   puts 'Done!'
 end
 
+def server_build
+  puts 'Pulling from git'
+  exec_cmd 'git pull'
+  update_submods
+  update_data
+  build
+end
+
+
 COMMANDS = {
   :init => 'Set up the 18f.gsa.gov dev environment',
   :update_gems => 'Update your rubygems, do this if you have problems building',
@@ -92,6 +106,7 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
+  :server_build => 'Pulls from git, updates submods, and builds the site'
 }
 
 def usage(exitstatus: 0)
