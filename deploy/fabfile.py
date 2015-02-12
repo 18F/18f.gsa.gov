@@ -72,7 +72,7 @@ def update_submods():
 
 def build(scope = 'simple'):
   with cd(current):
-    if scope = 'full'
+    if scope = 'full':
       run("%s go server_build" % (ruby))
-    elif scope = 'simple'
+    elif scope = 'simple':
       run('%s go build' % (ruby))
