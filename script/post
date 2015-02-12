@@ -49,7 +49,8 @@ def readContent(file)
 	else
 		abort("There was an error loading #{file}.")
 	end
-	abort("You must pass a markdown file to this script." unless File.extname(file) == 'md'
+	abort("You must pass a markdown file to this script.") unless File.extname(file) == '.md'
+	return content.strip()
 end
 
 title = options[:title]
@@ -69,12 +70,7 @@ frontmatter[:authors] = authors
 frontmatter[:description] = nil
 frontmatter[:excerpt] = nil
 
-content = readContent(options[:content])
-
+content = Array.new(1) { readContent(options[:content]) }
 load = YAML.load(frontmatter.to_json)
 yaml = YAML.dump(load)
-
-contents = YAML.load(content.to_json)
-content_yml = YAML.dump(contents)
-
-File.open(path, 'w') { |file| file.write(yaml + content_yml) }
+File.open(path, 'w') { |file| file.write("#{yaml}---\n #{content[0]}" ) }
