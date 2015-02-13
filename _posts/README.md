@@ -151,7 +151,8 @@ or in HTML:
 <img src="/assets/blog/eiti/eiti1.jpg" title="photo: team creating personas" />
 ```
 
-[1]:
+[1]: https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/
 [2]: https://www.google.com/calendar/selfsched?sstoken=UUN0WjhISnV1SjV5fGRlZmF1bHR8MzlmYzRjOTg5YWZmZGI3MDEwMzY1M2NiZjU4MjU2Yzk
-[3]: 
-[4]: 
+[3]: https://www.google.com/calendar/embed?src=Z3NhLmdvdl9wa2tiZjUzdTFtNmlzOWdpNzZ2MWw4aTVqOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+[4]: https://github.com/18F/blog-drafts/issues/new
+[5]: https://github.com/18F/18f.gsa.gov
