@@ -68,6 +68,11 @@
   first_name: Annalee
   last_name: Flower Horne
   hidden: true
+- name: becky
+  full_name: Becky Sweger
+  first_name: Becky
+  last_name: Sweger
+  location: BOS
 - name: ben
   full_name: Ben Willman
   first_name: Ben
@@ -485,11 +490,6 @@
     and VeggieTales. Raphael earned his BS from Loyola University of Chicago and conducted
     post-baccalaureate studies in graphic design at University of Illinois at Chicago.
     Raphael lives in Chicago with his wife and two children.
-- name: becky
-  full_name: Becky Sweger
-  first_name: Becky
-  last_name: Sweger
-  location: BOS
 - name: ric
   full_name: Ric Miller
   first_name: Ric
@@ -576,6 +576,11 @@
   - data visualization
   - maps
   - APIs
+- name: shawnique
+  full_name: Shawnique Muller
+  first_name: Shawnique
+  last_name: Muller
+  location: DCA
 - name: stephanierivera
   full_name: Stephanie Rivera
   location: SFO
