@@ -23,6 +23,8 @@ If you're a new teammate, add yourself to the website by:
 4. Add a photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory that matches the name you used for `name` in the `team.yml` file
 5. Push your branch and create a pull request to the `staging` branch of this repo to include your photo.
 
+**You do not need to edit the team.yml file in this reop,** we'll find it in `data-private`.
+
 If you get stuck, feel free to reach out to anyone on the 18f-site team.
 
 Helpful tips:
@@ -43,11 +45,9 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 ./go init
 ```
 
-You will also need **Python 2.7** installed and active, because syntax highlighting depends on [Pygments](http://pygments.org/). A `.python-version` file is included in this repository for those using [`pyenv`](https://github.com/yyuu/pyenv).
+[For the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
 
-Sadly, [for the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
-
-So yes: this project requires Ruby, Python, and Node (for now). Aren't static site generators the simplest?
+So yes: this project requires Ruby and Node (for now). Aren't static site generators the simplest?
 
 Launch with Jekyll:
 
