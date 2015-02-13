@@ -2,7 +2,33 @@
 
 This document describes 18F's blogging process (both policy and technical). 18F's blog is at `https://18f.gsa.gov/news/`, and is part of the overall 18F website.
 
-Our blog uses Jekyll as a blogging framework, with substantial customizations and integrations added by the 18F team. (In other words, it won't run on GitHub Pages.)
+Our blog uses Jekyll as a blogging framework, with substantial customizations and integrations added by the 18F team. (In other words, it won't run on GitHub Pages.) More on that [in this blog post.][1]
+
+## How to write a blog post
+
+We've tried to streamline the blogging process into just a few easy steps: [plan](#1.-plan), [write](#2.-write), [review](#3.-review).
+
+> Before you get started, or at any time dring this process we encourage you to attend one our our weekly **blogging huddles** on Tuesdays at 2:30 (or 1:30 Chicago, 12:30 Denver, 11:30 San Francisco). If you want some help with a post or just want to chat about an idea, [grab one of the appointment slots][2]. If you can't make it, reach out to us on Slack. We're here to help.
+
+### 1. Plan
+
+If you have an idea you're ready to write about, great. The first step is making an appointment on the [Editorial Calendar][3] on the day you want to publish the post. (let the blog team know on Slack if you have problems with that). We can always move it if we need to, but think of this as setting your own deadline.
+
+If you have an idea but aren't ready to write it or don't have time to write it, let us know by making an issue in the [blog-drafts repo on GitHub][4].
+
+## 2. Write
+
+After you make an appointment the team will take care of all the process _stuff_ for you and let you focus on writing. We don't really care what format you write in during the drafting stage but eventually we need a Google Document to send to GSA Comms for review (so it might make the most sense to start there).
+
+## 3. Review
+
+Once you start writing the Blog Team will send you a link to an issue in GitHub for your post. When you have a draft you're ready for feedback on, whether it is final approval or you want our take on your progress, drop a link in there and we'll be glad to help. When your final draft is ready to publish we'll send it to GSA Comms for review.
+
+Once your post is ready to publish, we'll convert the Google Doc into Markdown for you (or you can do it yourself if you'd like), and open a pull request to [18f.gsa.gov][5] to stage the post for publication. 
+
+That's it! We may ask you a few questions or have some minor edits, but your job is done! You can stop reading here if you want!.
+
+The rest of this document has instructions for creating the markdown file and pointers on how to format the HTML.
 
 **Most important bullet points:**
 
@@ -12,16 +38,6 @@ Our blog uses Jekyll as a blogging framework, with substantial customizations an
 * Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
 * We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
 * We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitely ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question.
-
-### Overview of our blogging process
-
-The process for writing and publishing an 18F blog post goes generally like this:
-
-1. Follow the [internal guide](https://github.com/18F/blog-drafts#readme) for proposing blog posts.
-1. When the blog post is ready to review for publication, create a new branch in this repository and add your post as a Markdown document **(more details below)**.
-1. Submit an in-repo pull request that proposes merging your post from your new branch into the `staging` branch.
-1. Nudge the powers that be to merge your pull request. This automatically deploys your post on the staging site.
-1. Nudge the powers that be to merge your post from `staging` to `production`. This deploys the post automatically to the live site.
 
 ### Creating a new blog post file
 
@@ -134,3 +150,8 @@ or in HTML:
 ```html
 <img src="/assets/blog/eiti/eiti1.jpg" title="photo: team creating personas" />
 ```
+
+[1]:
+[2]: https://www.google.com/calendar/selfsched?sstoken=UUN0WjhISnV1SjV5fGRlZmF1bHR8MzlmYzRjOTg5YWZmZGI3MDEwMzY1M2NiZjU4MjU2Yzk
+[3]: 
+[4]: 
