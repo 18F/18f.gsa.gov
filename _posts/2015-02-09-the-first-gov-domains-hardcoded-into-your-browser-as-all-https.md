@@ -167,7 +167,7 @@ Transport Security enabled automatically, even for the first visit.
 
 Firefox and Safari also now use HSTS preload lists that include Chrome's list.
 
-While a giant list may sound crude, it's a simple solution that many of the
+While a giant list may sound crude, it's a simple solution that many of
 today's most popular websites (including Twitter, Facebook, Google, and
 GitHub) use to protect your visits.
 
