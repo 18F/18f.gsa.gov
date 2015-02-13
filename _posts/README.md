@@ -44,7 +44,7 @@ The rest of this document has instructions for creating the markdown file and po
 
 ### Creating a new blog post file
 
-There is a script called `post` avilable that will create a post for you with all the appropriate metadata fields available. The script lives here, but you can use it from the root of the website like this:
+There is a script called `post` avilable that will create a post for you with all the appropriate metadata fields available. The [code lives here][9], but you can use it from the root of the website like this:
 
 ```zsh
 script/post -t "The Encasement Strategy on Legacy Systems"
@@ -167,3 +167,4 @@ or in HTML:
 [6]: http://johnmacfarlane.net/pandoc/
 [7]: https://github.com/mangini/gdocs2md
 [8]: https://en.wikipedia.org/wiki/Inline_linking
+[9]: https://github.com/18F/18f.gsa.gov/blob/staging/script/post

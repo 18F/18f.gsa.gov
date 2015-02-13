@@ -1,6 +1,6 @@
-highlighter: rogue
 markdown: redcarpet
 redcarpet:
+  syntax_highlighter: rogue
   extensions:
   - with_toc_data
 
