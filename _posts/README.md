@@ -111,7 +111,7 @@ Here's what each field means:
 
 #### Add blog post body
 
-The **excerpt** and **byline** are handled in the body of your post.
+The **byline** is handled in the body of your post.
 
 **Byline.** The first paragraph in your post should be the byline. Place it in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
 
@@ -123,17 +123,7 @@ The **excerpt** and **byline** are handled in the body of your post.
 </p>
 ```
 
-After this, you can add the body of your post, ideally in Markdown.
-
-**Excerpt.** Add an excerpt marker to your post by using a magic HTML comment, `<!-- more -->`. This marker _must be on its own line_. This magic marker tells Jekyll how long to make blog snippets (for example, the snippets under 'news' on our homepage) and if you leave it out your entire blog will load there instead ;) Excerpts always begin at the start of a post, and stop at `<!-- more -->`. Typically, the first few sentences or the first paragraph of your posts are good lengths to use as your excerpt. Excerpts can include Markdown and HTML.
-
-The [EITI team's design studio post](_posts/2014-09-25-design-studio-onrr.md) uses this excerpt:
-
-```markdown
-On July 28, 18F kicked off a new project with the [Department of the Interior’s Office of Natural Resources Revenue](http://www.onrr.gov/) (ONRR).
-
-Later this year, ONRR will be launching a new website — originally prototyped by Round 2 [Presidential Innovation Fellow](http://www.whitehouse.gov/innovationfellows/meet-the-fellows) Michelle Hertzfeld — to facilitate national and international conversation around U.S. extractive industries revenue. It will serve as a valuable resource for data and information about U.S. extractive industries on Federal land, and will also provide interactive visualizations that can be readily understood and accessed by the public for reuse through other media and applications.<!-- more -->
-```
+After this, you can add the body to the post.
 
 #### Link blog post assets
 
