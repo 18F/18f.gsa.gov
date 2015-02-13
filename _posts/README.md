@@ -18,7 +18,9 @@ If you have an idea but aren't ready to write it or don't have time to write it,
 
 ## 2. Write
 
-After you make an appointment the team will take care of all the process _stuff_ for you and let you focus on writing. We don't really care what format you write in during the drafting stage but eventually we need a Google Document to send to GSA Comms for review (so it might make the most sense to start there).
+After you make an appointment the team will take care of all the process _stuff_ for you and let you focus on writing. We might contact you and ask some questions about your post and we're always available to help you write. 
+
+We don't really care what format you write in during the drafting stage but _eventually we need a Google Document to send to GSA Comms for review_ (so it might make the most sense to start there).
 
 ## 3. Review
 
@@ -26,36 +28,49 @@ Once you start writing the Blog Team will send you a link to an issue in GitHub 
 
 Once your post is ready to publish, we'll convert the Google Doc into Markdown for you (or you can do it yourself if you'd like), and open a pull request to [18f.gsa.gov][5] to stage the post for publication. 
 
-That's it! We may ask you a few questions or have some minor edits, but your job is done! You can stop reading here if you want!.
+That's it! We may ask you a few questions or have some minor edits, but your job is done! You can stop reading here if you want.
 
 The rest of this document has instructions for creating the markdown file and pointers on how to format the HTML.
 
 **Most important bullet points:**
 
-* Blog posts are published in Markdown.
-* Don't [hot link](https://en.wikipedia.org/wiki/Inline_linking) to 3rd-party assets.
-    * All images embedded in posts or referenced in metadata need to be **added to this repository**.
-* Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc.
+* Blog posts need to be written in Markdown before publishing.
+  * Tools like [Pandoc][6] and [Gdocs2md][7] might help convert between file types
+* Pull requests should be issued to the `staging` branch from another branch
+  * All images embedded in posts or referenced in metadata need to be **added to the repository**, i.e., don't [hot link][8] to 3rd-party assets.
+* Each post needs some 18F-specific metadata in the front-matter: author names, tags, a short description, etc. (see below)
 * We deploy automatically through pull requests. That means **every pull request to production gets two sets of eyes**, where one of them is someone on the 18f.gsa.gov team other than the author. No exceptions: if it's time sensitive, start IMing or texting people.
-* We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitely ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question.
+* We're an AP writing style shop. The grammar-inclined among us will try to review your work before live, but definitely ask the internet about proper AP solutions if you run up against a "one space after a period or two" sort of question. (The answer is one space, not two. :wink:)
 
 ### Creating a new blog post file
 
-Put draft posts that are ready for publication review in [`_posts/`](_posts). Use a filename that matches the example below. There should be a publication date and a unique slug.
+There is a script called `post` avilable that will create a post for you with all the appropriate metadata fields available. The script lives here, but you can use it from the root of the website like this:
 
-For example, this filename:
-
-```
-_posts/2014-09-08-the-encasement-strategy-on-legacy-systems-and-the.md
+```zsh
+script/post -t "The Encasement Strategy on Legacy Systems"
 ```
 
-Will yield a publication URL of:
+The `-t` or `--title` flags are the only required field and at its simplest will create a post with that title in the `_posts` directory with today's date as the publish date.
+
+You can also use any of these options to add more information to that post:
 
 ```
-https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/
+    -d, --date DATE                  Date published (default, today)
+    -i, --image IMAGE                Post image
+    -a, --author AUTHOR              Post author (comma separated)
+    -g, --tags TAGS                  Tags for this post (comma separated)
+    -c, --content CONTENT            A markdown file containing the post's text
 ```
 
-#### Start with metadata
+For example the following command:
+
+```
+script/post -t "The Encasement Strategy on Legacy Systems" -a "robert, mhz" -c ~/Downloads/Encasement.md"
+```
+
+Will create the post with the contents of the `Encasement.md` from your Mac's Downloads folder and assign the authors `robert` and `mhz` (see `team.yml` for a list of possible authors) to the post. This is a handy way to create posts if you already have the markdown ready.
+
+#### Metadata, explained
 
 Begin the new file by adding "YAML front-matter." This is where the post's title, authors, tags, banner image, and excerpt/description live.
 
@@ -71,6 +86,8 @@ image: /assets/images/blog/encasement/encasement1.png
 
 description: "In 1986 a nuclear reactor known as Chernobyl released harmful radioactivity which spread over much of the western USSR and Europe. The core of this reactor remains a glowing, ineradicable mass of deadly radioactive lava in the middle of a large Exclusion Zone unfit for human habitation."
 
+excerpt: "In 1986 a nuclear reactor known as Chernobyl released harmful radioactivity which spread over much of the western USSR and Europe. The core of this reactor remains a glowing, ineradicable mass of deadly radioactive lava in the middle of a large Exclusion Zone unfit for human habitation."
+
 authors:
 - robert
 - mhz
@@ -81,13 +98,14 @@ tags:
 ---
 ```
 
-[Note that a post's excerpt and byline do not appear here &mdash; they are handled separately.]
+[Note that a post's byline do not appear here &mdash; they are handled separately.]
 
 Here's what each field means:
 
 * `title` - The plain-text title of your post. Surround with quotation marks. This will be displayed prominently above the post, will show up in browser tabs, and will be included in "share text" when the link appears on Twitter, Facebook, and other social media platforms.
 * `image` - The main image of your post. A relative link, with a leading `/`. This will appear in social media platforms when the post is shared. It can be a different image than those which appear embedded in your post.
 * `description` - A short plain-text description of your post. Surround with quotation marks. No Markdown or HTML allowed. This does not need to be an excerpt, but instead can be a sentence or two that you feel represents your post well. It may appear next to your post on social media and other places which fetch article metadata.
+* `excerpt` - A short plain-text snippet of the post to use as the "nut graf" that appears on the home page.
 * `authors` - A list of handles of teammates involved in authoring the post. They must all be lowercase, and must match a name that appears in [`_data/team.yml`](_data/team.yml) They do not necessarily have to be the same teammates that appear in the post's byline.
 * `tags` - A list of tags to associate with the post. These will appear, linked, next to the post and will take readers to other posts that have this tag. Sentences (e.g. "how we work") are fine &mdash; there is no need to jam phrases into one word
 
@@ -156,3 +174,6 @@ or in HTML:
 [3]: https://www.google.com/calendar/embed?src=Z3NhLmdvdl9wa2tiZjUzdTFtNmlzOWdpNzZ2MWw4aTVqOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
 [4]: https://github.com/18F/blog-drafts/issues/new
 [5]: https://github.com/18F/18f.gsa.gov
+[6]: http://johnmacfarlane.net/pandoc/
+[7]: https://github.com/mangini/gdocs2md
+[8]: https://en.wikipedia.org/wiki/Inline_linking

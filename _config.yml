@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rogue
 markdown: redcarpet
 redcarpet:
   extensions:
