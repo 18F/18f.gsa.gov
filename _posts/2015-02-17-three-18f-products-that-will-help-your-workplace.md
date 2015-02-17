@@ -102,7 +102,7 @@ designated person collects these Snippets in a CSV file and sends out a
 weekly email digest. Snippets subscribers can learn, at a glance, what
 all of their colleagues are up to.
 
- ![A snippet from Mike Bland, describing his workflow](/assets/blog/three-products/20141215-mbland.jpg)
+ ![A snippet from Mike Bland, describing his workflow](/assets/blog/snippets/three-products/20141215-mbland.jpg)
 
 If you don’t have the technical know-how to collect this data in a CSV,
 you can have people fill out Snippets via email or on a blog — the point
