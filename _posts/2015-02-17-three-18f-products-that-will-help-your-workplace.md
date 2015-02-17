@@ -3,7 +3,8 @@ layout: post
 
 title: "Three 18F Products That Will Help Your Workplace"
 
-image: 
+image: /assets/blog/three-products/hub.png
+
 
 description: "I’ve worked at 18F for exactly six days. During those six days, I
 learned about a few products that I wish I’d known about while at my
@@ -47,6 +48,8 @@ like — in fact, I recommend it.
     where team members share project documentation and more general
     information about how 18F works.
 
+![A screenshot of The Hub](/assets/blog/three-products/hub.png)
+
 The Hub is really easy to navigate, and it’s equally easy to update
 — anyone can add new information in seconds. Yesterday, for example, I
 added a note detailing how to search for 18F on Twitter. Other people
@@ -78,6 +81,8 @@ Opportunities](http://www.google.com/url?q=http%3A%2F%2Fwww.digitalgov.gov%2Fjoi
 which connects people from across and within government agencies to
 collaborate on projects. So far, over 100 projects have been completed.
 
+![A screenshot of Midas](/assets/blog/three-products/midas.png)
+
 Midas can benefit all organizations, but it’s especially useful for
 those with distributed teams and whose employees have diverse skill
 sets.  Using Midas, you and your colleagues can work on projects
@@ -97,7 +102,7 @@ designated person collects these Snippets in a CSV file and sends out a
 weekly email digest. Snippets subscribers can learn, at a glance, what
 all of their colleagues are up to.
 
- 
+ ![A snippet from Mike Bland, describing his workflow](/assets/blog/three-products/20141215-mbland.jpg)
 
 If you don’t have the technical know-how to collect this data in a CSV,
 you can have people fill out Snippets via email or on a blog — the point
