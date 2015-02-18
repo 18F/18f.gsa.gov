@@ -13,7 +13,7 @@ OptionParser.new do |opts|
 	opts.on('-i', '--image IMAGE', 'Post image') { |v| options[:image] = v }
 	opts.on('-a', '--author AUTHOR', 'Post author (comma separated)') { |v| options[:author] = v }
 	opts.on('-g', '--tags TAGS', 'Tags for this post (comma separated)') { |v| options[:tags] = v }
-	opts.on('-c', '--content CONTENT', 'The text of the blog post (not the most efficient)') { |v| options[:content] = v}
+	opts.on('-c', '--content CONTENT', 'A markdown file containing the post\'s text') { |v| options[:content] = v}
 end.parse!
 raise OptionParser::MissingArgument if options[:title].nil?
 
