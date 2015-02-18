@@ -67,11 +67,7 @@ Midas is open source, which means anyone can download it and try it out.
 (You can also  contribute suggestions for future iterations
 [here](https://github.com/18F/midas/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).)
 Within the government, Midas is currently being piloted by the
-[Department of
-State](http://www.state.gov/) [[GitHub](https://github.com/USStateDept/)]
-and the [Department of Health and Human
-Services](http://www.hhs.gov/) [[GitHub](https://github.com/HHSIDEAlab/HHSFairTrade-Configs)]. This
-system has also worked phenomenally well for [Open
+[Department of State](http://www.state.gov/) and [Open
 Opportunities](http://www.digitalgov.gov/join-digitalgov/open-opportunities-in-digitalgov/),
 which connects people from across and within government agencies to
 collaborate on projects. So far, over 100 projects have been completed.
