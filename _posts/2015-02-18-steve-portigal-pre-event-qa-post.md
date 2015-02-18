@@ -41,17 +41,14 @@ gatekeeper. Read on for the full conversation.
 
 \*\*\*
 
-**Nick Brethauer**: Thanks for being willing to answer a few questions
-— I appreciate it.
+> This interview has been edited and condensed.
 
-**Steve Portigal:** My pleasure.
-
-**NB**: The main themes I’d like to talk to you about today are around
+**Nick Brethauer**: The main themes I’d like to talk to you about today are around
 client engagement and education, which are big topics here at 18F. To
 kick things off, how do you most effectively communicate to potential
 clients the value of user research?
 
-**SP**: If my clients are sold on the value of research before they come
+**Steve Portigal**: If my clients are sold on the value of research before they come
 to me, then I know they’re at least curious about user research, and so
 I’m not typically overcoming skepticism. Admittedly, I've been in this
 business long enough that I've seen the idea of involving users go from
