@@ -29,8 +29,8 @@ First up in our series is the noted [**Steve
 Portigal**](http://www.portigal.com/). Steve helps companies
 strategically plan for user research and unlock their teams’ research
 superpowers. He’s the principal of Portigal Consulting, author of
-*Interviewing Users: How To Uncover Compelling Insights*, and host of
-the Dollars to Donuts podcast. He makes his home in the San Francisco
+*[Interviewing Users: How To Uncover Compelling Insights](http://rosenfeldmedia.com/books/interviewing-users/)*, and host of
+the [Dollars to Donuts podcast](https://itunes.apple.com/us/podcast/dollars-to-donuts/id956673263). He makes his home in the San Francisco
 Bay Area, where there's always a new ramen restaurant to check out.
 We’re thrilled that he’ll be joining us.
 
