@@ -116,4 +116,3 @@ team? Visit the
 learn
 [more](https://18f.gsa.gov/2015/01/21/join-us/).
 
--Melody Kramer
