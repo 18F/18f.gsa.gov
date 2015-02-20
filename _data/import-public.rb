@@ -13,6 +13,7 @@ DATA_DIR = File.dirname __FILE__
 ['team', 'projects'].each do |category|
   pattern = File.join DATA_DIR, 'private', category, '*.yml'
   files = Dir.glob(pattern).join ' '
+  outfile = File.join DATA_DIR, "#{category}.yml"
   exit $?.exitstatus unless system(
-    "bundle exec consolidate-yaml-files #{files} > #{category}.yml")
+    "bundle exec consolidate-yaml-files #{files} > #{outfile}")
 end
