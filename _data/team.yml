@@ -162,10 +162,6 @@
   full_name: Erica Deahl
   first_name: Erica
   last_name: Deahl
-- name: gramirez
-  full_name: Gabriel Ramírez
-  first_name: Gabriel
-  last_name: Ramírez
 - name: garren
   full_name: Garren Givens
   first_name: Garren
@@ -181,6 +177,10 @@
     Yale School of Management. He is a self-taught coder, and possibly the only programmer
     who still prefers books to online tutorials. Garren is an avid golfer and classical
     pianist. He lives in Washington, DC, with his wife, Alexandra.
+- name: gramirez
+  full_name: Gabriel Ramírez
+  first_name: Gabriel
+  last_name: Ramírez
 - name: gray
   full_name: Gray Brooks
   first_name: Gray
@@ -206,71 +206,6 @@
     a degree in Economics with a concentration in Business from St. Mary’s College
     of Maryland. Greg grew up in Bethesda, MD, and lives in Arlington, VA, with his
     wife Colleen and daughter Ella.
-- name: jamie
-  full_name: Jamie Albrecht
-  first_name: Jamie
-  last_name: Albrecht
-- name: jane
-  full_name: jane avriette
-  first_name: jane
-  last_name: avriette
-  hidden: true
-- name: jen
-  full_name: Jen Ehlers
-  first_name: Jen
-  last_name: Ehlers
-- name: jentress
-  full_name: Jen Tress
-  first_name: Jen
-  last_name: Tress
-- name: jeremy
-  full_name: Jeremy Canfield
-  first_name: Jeremy
-  last_name: Canfield
-- name: joe
-  full_name: Joe Polastre, PhD
-  first_name: Joe
-  last_name: Polastre
-  pif-round: 2
-  project: Innovation Toolkit
-  bio: is a Presidential Innovation Fellow working on the Innovation Toolkit project
-    at the State Department. Joe is a researcher, developer, and serial entrepreneur
-    focused on data analytics. He has built systems to remotely monitor endangered
-    seabirds and co-developed the Xerces XML parser and world's smallest Java Virtual
-    Machine. Joe was Chief Technology Officer and Co-founder at Sentilla where he
-    led the technical team and opened offices in Singapore and London. Previously,
-    Joe held development and product management positions at IBM, Microsoft, and Intel.
-    He was named one of BusinessWeek’s Best Young Tech Entrepreneurs and won the Silicon
-    Valley 40 Under 40 award. Joe holds PhD and MS degrees in Computer Science from
-    the University of California, Berkeley, and a BS degree from Cornell University.
-    Joe lives in San Francisco, CA, where he enjoys sailing on the bay, skiing in
-    Tahoe, and local live music.
-- name: josh
-  full_name: Josh Ruihley
-  first_name: Josh
-  last_name: Ruihley
-- name: justin
-  full_name: Justin Grevich
-  first_name: Justin
-  last_name: Grevich
-  pif-round: 2
-  project: MYUSA
-  bio: is a Presidential Innovation Fellow working on the MyUSA project at the General
-    Services Administration. Previously, Justin was a Web Developer and Systems Administrator
-    at the University of California, San Diego (UCSD), Institute of Engineering in
-    Medicine. His interest in information systems started with extended bulletin board
-    systems where he gained sponsorship from US Robotics (now 3Com) while in middle
-    school. He studied biomedical science and specialized in the genetic engineering
-    of plants for industrial and medicinal use at the University of Central Florida.
-    He was drawn back to computer science after extensive genomic analysis of chloroplasts
-    utilizing modern scripting languages, open-source software, and supercomputers.
-    The joy of programming led him to a deep interest in web development and information
-    security. At UCSD, he led a team that developed and open-sourced REUManager, an
-    online application system that streamlines the application process for the NSF
-    Research Experience for Undergraduates program. He is a vocal proponent of open-source
-    software and actively creates new projects as well as contributing to existing
-    ones. Originally from Minnesota, he now lives in San Diego, CA, with his wife
-    Sri.
 - name: hillary
   full_name: Hillary Hartley
   first_name: Hillary
@@ -319,10 +254,75 @@
     at George Mason University. She lives in Washington, DC, with her husband and
     their two rescued dogs.
   hidden: true
+- name: jamie
+  full_name: Jamie Albrecht
+  first_name: Jamie
+  last_name: Albrecht
+- name: jane
+  full_name: jane avriette
+  first_name: jane
+  last_name: avriette
+  hidden: true
+- name: jen
+  full_name: Jen Ehlers
+  first_name: Jen
+  last_name: Ehlers
+- name: jentress
+  full_name: Jen Tress
+  first_name: Jen
+  last_name: Tress
+- name: jeremy
+  full_name: Jeremy Canfield
+  first_name: Jeremy
+  last_name: Canfield
+- name: joe
+  full_name: Joe Polastre, PhD
+  first_name: Joe
+  last_name: Polastre
+  pif-round: 2
+  project: Innovation Toolkit
+  bio: is a Presidential Innovation Fellow working on the Innovation Toolkit project
+    at the State Department. Joe is a researcher, developer, and serial entrepreneur
+    focused on data analytics. He has built systems to remotely monitor endangered
+    seabirds and co-developed the Xerces XML parser and world's smallest Java Virtual
+    Machine. Joe was Chief Technology Officer and Co-founder at Sentilla where he
+    led the technical team and opened offices in Singapore and London. Previously,
+    Joe held development and product management positions at IBM, Microsoft, and Intel.
+    He was named one of BusinessWeek’s Best Young Tech Entrepreneurs and won the Silicon
+    Valley 40 Under 40 award. Joe holds PhD and MS degrees in Computer Science from
+    the University of California, Berkeley, and a BS degree from Cornell University.
+    Joe lives in San Francisco, CA, where he enjoys sailing on the bay, skiing in
+    Tahoe, and local live music.
+- name: josh
+  full_name: Josh Ruihley
+  first_name: Josh
+  last_name: Ruihley
 - name: jtag
   full_name: Jesse Taggert
   first_name: Jesse
   last_name: Taggert
+- name: justin
+  full_name: Justin Grevich
+  first_name: Justin
+  last_name: Grevich
+  pif-round: 2
+  project: MYUSA
+  bio: is a Presidential Innovation Fellow working on the MyUSA project at the General
+    Services Administration. Previously, Justin was a Web Developer and Systems Administrator
+    at the University of California, San Diego (UCSD), Institute of Engineering in
+    Medicine. His interest in information systems started with extended bulletin board
+    systems where he gained sponsorship from US Robotics (now 3Com) while in middle
+    school. He studied biomedical science and specialized in the genetic engineering
+    of plants for industrial and medicinal use at the University of Central Florida.
+    He was drawn back to computer science after extensive genomic analysis of chloroplasts
+    utilizing modern scripting languages, open-source software, and supercomputers.
+    The joy of programming led him to a deep interest in web development and information
+    security. At UCSD, he led a team that developed and open-sourced REUManager, an
+    online application system that streamlines the application process for the NSF
+    Research Experience for Undergraduates program. He is a vocal proponent of open-source
+    software and actively creates new projects as well as contributing to existing
+    ones. Originally from Minnesota, he now lives in San Diego, CA, with his wife
+    Sri.
 - name: kaitlin
   full_name: Kaitlin Devine
   first_name: Kaitlin
@@ -344,10 +344,6 @@
   first_name: Lindsay
   last_name: Young
   18f: true
-- name: manger
-  full_name: Noah Manger
-  first_name: Noah
-  last_name: Manger
 - name: majma
   full_name: Raphael Majma
   first_name: Raphael
@@ -364,6 +360,10 @@
     to educate the public about significant and landmark cases, such as the Google
     Books Settlement (Authors Guild et al. v. Google). He lives in Brooklyn, NY with
     his pet turtle, Turtle.
+- name: manger
+  full_name: Noah Manger
+  first_name: Noah
+  last_name: Manger
 - name: marco
   full_name: Marco Segreto
   first_name: Marco
@@ -433,11 +433,6 @@
   first_name: Moncef
   last_name: Belyamani
   location: DCA
-- name: nolson
-  full_name: Nathan Olson
-  first_name: Nathan
-  last_name: Olson
-  location: DCA
 - name: nick
   full_name: Nick Bristow
   first_name: Nick
@@ -451,6 +446,11 @@
     team, he also manages 18F's security and privacy compliance programs. Noah was
     previously a founder of the Technology + Innovation team at the Consumer Financial
     Protectoin Bureau.
+- name: nolson
+  full_name: Nathan Olson
+  first_name: Nathan
+  last_name: Olson
+  location: DCA
 - name: ori
   full_name: Ori Hoffer
   email: ori.hoffer@gsa.gov

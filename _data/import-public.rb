@@ -9,15 +9,10 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2014-12-22
 
-require 'hash-joiner'
-require 'safe_yaml'
-
-
 DATA_DIR = File.dirname __FILE__
-YAML_FILES = [
-  'projects.yml',
-  'team.yml',
-].map {|i| File.join(DATA_DIR, 'private', i)}.join ' '
-
-exit $?.exitstatus unless system(
-  "filter-yaml-files -o #{DATA_DIR} #{YAML_FILES}")
+['team', 'projects'].each do |category|
+  pattern = File.join DATA_DIR, 'private', category, '*.yml'
+  files = Dir.glob(pattern).join ' '
+  exit $?.exitstatus unless system(
+    "bundle exec consolidate-yaml-files #{files} > #{category}.yml")
+end
