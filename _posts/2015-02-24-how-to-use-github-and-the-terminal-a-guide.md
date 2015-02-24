@@ -61,52 +61,64 @@ Now we're going to clone the 18F repo to your local computer. This is so you can
 
 ###How to read what's in your cloned directory
 
-* Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing Github how some of this works. 
+* Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. 
 
-At the top of that window, you can see a dropdown that says `branch: staging`. If you click on that button, you can see a list of all of the branches that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. 
+>On this page you will see a list of files and folders in this project. All of the blog posts are in a folder >called `_posts.` All of the pages are in a directory called `_pages.` There's a >[readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing Github how >some of this works. At the top of that window, you can see a dropdown that says `branch: staging`. 
 
-Later on, when you make a pull request, Github will automatically assume you're trying to make a pull request to the staging branch. 
+* If you click on the `branch:staging` button, you can see a list of all of the branches that exist on this project. Everytime you >come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because >we've called that branch the default branch. 
+
+>Later on, when you make a pull request, Github will automatically assume you're trying to make a pull request to >the staging branch. 
 
 ![Screenshot: showing what the 18f github site looks like](https://cloud.githubusercontent.com/assets/5784474/6332462/a5068e08-bb53-11e4-87f2-2a193d2cdf5b.gif)
 
 
-On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, Github automatically brings those changes into the site, but does not make them live yet. 
+>On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go >to the staging branch. When we merge the pull request to the staging branch, Github automatically brings those >changes into the site, but does not make them live yet. 
 
 * Type `cd 18f.gsa.gov`and then hit enter. That makes sure the current directory you're in is `18f.gsa.gov` on your local machine.
 
 * Type `ls` and you should now see all of the files and folders in the github repo. 
 
-* Type `git status` and hit enter. This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
+* Type `git status` and hit enter. 
+
+>This will show you a little bit of information on what you're working on right now. The first thing it tells you >is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be >committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on >origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any >changes.
 
 ![Screenshot: how to use git status](https://cloud.githubusercontent.com/assets/5784474/6332525/0d871434-bb54-11e4-8441-7d6066e99d44.gif)
 
 
 ###How to Install a Package Manager
 
-Now we have to install a package manager. We're going to use [Homebrew](http://brew.sh/). Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
+>Now we have to install a package manager. Package managers help install, upgrade, configure and remove different >software packages that are needed to make various programs work. We're going to use [Homebrew](http://brew.sh/).
+
+*Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. 
+
+*You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
 
 
 ![installing package manager](https://cloud.githubusercontent.com/assets/5784474/6332682/2eb453aa-bb55-11e4-89ef-5eca51df99fe.gif)
 
 
-If you see a warning message at this point, it means you have the wrong version of Ruby. So we need to update your version of Ruby. This is not something you did, this is something that was done to you. Go to `https://rvm.io`. Scroll down a little bit and you should see two boxes with code in them. Copy the second one !screenshot! into your terminal and hit run.
+>If you see a warning message at this point, it means you may have the wrong version of Ruby. So we need to update >your version of Ruby. 
 
-Now  type `rvm install 2.2.0` and then hit enter. 
+*Go to `https://rvm.io`. 
+
+*Scroll down a little bit and you should see two boxes with code in them. Copy the second one !screenshot! into your terminal and hit run.
+
+*Now  type `rvm install 2.2.0` and then hit enter. 
 
 ![Screenshot: homebrew install](https://cloud.githubusercontent.com/assets/5784474/6332671/20399894-bb55-11e4-9648-bc9e5a3aad8e.gif)
 
 
-Now we're going to install a newer version of ruby with RVM. This is tricky, because the instructions for installing RVM are hidden. We've circled them here:
+*Now we're going to install a newer version of ruby with RVM. This is tricky, because the instructions for installing RVM are hidden. We've circled them here:
 
 ![Screen Shot: To start using RVM, you need to run source /Users/YOURUSERNAME/.rvm/scripts/rvm](https://cloud.githubusercontent.com/assets/5784474/6351935/7638c8d8-bc0d-11e4-95da-3d1715fcb583.png)
 
-Look for the line that says `To start using RVM, you need to run source /Users/YOURUSERNAME/.rvm/scripts/rvm,`, where YOURUSERNAME is the username on your computer. Paste that line at the cursor and then type in your computer's password (not the github password.)
+*Look for the line that says `To start using RVM, you need to run source /Users/YOURUSERNAME/.rvm/scripts/rvm,`, where YOURUSERNAME is the username on your computer. Paste that line at the cursor and then type in your computer's password (not the github password.)
 
-You can check your Ruby install by typing in "Which Ruby" - you should see 2.2.0. (You can also type 'ruby --version' - you should see the same thing.)
+*You can check your Ruby install by typing in `Which Ruby` on the command line. You should see 2.2.0. (You can also type 'ruby --version' - you should see the same thing.)
 
 ![screen shot: Which Ruby?(https://cloud.githubusercontent.com/assets/5784474/6352208/febb77c2-bc0e-11e4-9e0c-d7c271fb71ee.png)
 
-
+###Building the 18F Site 
 
 Let's go ahead and get you ready to build the site. You can do that by typing `./go init`. (This is running a lot of commands in the background that you don't need to worry about. It's installing something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is build the site out for you.) 
 
