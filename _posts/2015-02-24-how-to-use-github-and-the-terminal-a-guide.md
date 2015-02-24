@@ -11,10 +11,13 @@ This is a guide that assumes you have no prior knowledge of Github or the comman
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
 1. [Set Up A Cloned Repo On Your Desktop](TKTKT)
-2. [How to Create an SSH Key](TKTKT)
-3. [How to read what's in your cloned directory](TKTKTTK)
-4. [How to Install a Package Manager](TKTKKTT)
-4. [Learn how to make a pull request](TKTKT)
+2. [Create an SSH Key](TKTKT)
+3. [Read what's in your cloned directory](TKTKTTK)
+4. [Install a Package Manager](TKTKKTT)
+5. [Create a Branch](TKTKTKT)
+6. [Edit and Post a Blog Post](TKTKKTT)
+7. [Add Front Matter](TKTKTKT)
+8. [Learn how to make a pull request](TKTKT)
 
 It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a Github account.) 
 
@@ -116,54 +119,70 @@ Now we're going to clone the 18F repo to your local computer. This is so you can
 
 *You can check your Ruby install by typing in `Which Ruby` on the command line. You should see 2.2.0. (You can also type 'ruby --version' - you should see the same thing.)
 
-![screen shot: Which Ruby?(https://cloud.githubusercontent.com/assets/5784474/6352208/febb77c2-bc0e-11e4-9e0c-d7c271fb71ee.png)
+![screen shot: Which Ruby?](https://cloud.githubusercontent.com/assets/5784474/6352208/febb77c2-bc0e-11e4-9e0c-d7c271fb71ee.png)
 
 ###Building the 18F Site 
 
-Let's go ahead and get you ready to build the site. You can do that by typing `./go init`. (This is running a lot of commands in the background that you don't need to worry about. It's installing something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is build the site out for you.) 
+Let's go ahead and get you ready to build the site. 
 
-**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale high. Onward!**
+*You can do that by typing `./go init`. 
 
-To see what the site looks like, you can type `.\go serve`. This builds the site and gives you an address where you can visit the site. You can copy and paste the server address from the terminal directly into the browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't be able to do.
+>(This is running a lot of commands in the background that you don't need to worry about. It's installing >something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our >version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is >build the site out for you.) 
 
-Okay. Now you're ready to start editing. You can open up Sublime Text or any text editor. You'll want to open your copy of 18f.gsa.gov, which is located in `user/code` where user is your username. Click on 18f.gsa.gov and click open. Voila! You can now see all of the files that make up the site. It should look like this.
+*To see what the site looks like, you can type `.\go serve`. 
+
+>This builds the site and gives you an address where you can visit the site. You can copy and paste the server >address from the terminal directly into the browser to double-check. To stop the server, press CTRL + C. If you >try to access the server after pressing CTRL + C, you won't be able to do.
+
+>**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew >once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale >high. Onward!**
+
+### Create A Branch 
+
+Okay. Now you're ready to start editing. 
+
+*Open up Sublime Text or any text editor. 
+
+*Now open your copy of 18f.gsa.gov, which is located in the directory `user/code` where user is your username.
+
+*Click on 18f.gsa.gov and click open. 
+
+>Voila! You can now see all of the files that make up the site. It should look like this.
 
 ![Screen Shot: All of the files that make up the 18F site](https://cloud.githubusercontent.com/assets/5784474/6352212/0699ef96-bc0f-11e4-95b8-07338522b71c.png)
 
-We now want to create a branch where you can make changes to the website. A branch is basically a way to make changes to a file that only belong to you. Someone else has to approve those changes before they go live on the site. This allows you to collaborate with teammates without intefering with other people's existing work. 
+>We now want to create a branch where you can make changes to the website. A branch is basically a way to make >changes to a file that only belong to you. Someone else has to approve those changes before they go live on the >site. This allows you to collaborate with teammates without intefering with other people's existing work. 
 
-To create a new branch, type `git checkout -b your-name-post` (The name of the branch can be anything but it should be descriptive.) This also moves you onto that branch.
+*To create a new branch, type `git checkout -b your-name-post` (The name of the branch can be anything but it should be descriptive.) 
 
-Type `git status` to make sure you're now on the branch. You should see something that looks like this:
+>This also moves you onto that branch.
+
+*Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
 ![Screenshot: git checkout and status](https://cloud.githubusercontent.com/assets/5784474/6352442/b6f0e16e-bc10-11e4-830a-c9b62750f483.gif)
 
+### Edit and Post a Blog Post
 
-We're now going to walk you through creating a new blog post for 18f.gsa.gov. Type 'ls -l` and it will show you a list of files and folders that make up 18f.gsa.gov's repo. On the far left, you'll see `-rw-r--r--`. Any line that starts with a d is a directory. 
+We're now going to walk you through creating a new blog post for 18f.gsa.gov. 
+
+*Type `ls -l` to see a list of files and folders that make up 18f.gsa.gov's repo. 
+
+>On the far left, you'll see `-rw-r--r--`. Any line that starts with a d is a directory. 
 
 
 ![screen shot of 18F directories](https://cloud.githubusercontent.com/assets/5784474/6352518/50506686-bc11-11e4-8adc-b021c047584f.png)
 
-The far right column is the name of the file or directory. Inside the script directory `ls -l script/` you'll see a file called `post.`
+>The far right column is the name of the file or directory. 
 
-![screen shot of 18F post](https://cloud.githubusercontent.com/assets/5784474/6352553/7ec6aeb2-bc11-11e4-9ada-e020e5f55f28.png)
-
-You can also type in the command `ls -F` which shows you all of the files and is a lot less noisy. In this case, anything that ends with a `/` is a directory:
+*You can also type in the command `ls -F` which shows you all of the files and is a lot less noisy. In this case, anything that ends with a `/` is a directory:
 
 ![screen shot: ls -F command](https://cloud.githubusercontent.com/assets/5784474/6352713/846d2a8e-bc12-11e4-81f7-5cb433f1106d.png)
 
 
-
-<!--We can run that run that script by typing in `script/post.` If you get an error, type in `script/post --help.` What you now see is a description of all of the arguments you can feed to the post script. For example:
-
-> `script/post -t "The Many Talents 18F is Looking to Hire" -a "chrisc, noah, russ, kaitlin" -c ~/Desktop/post.md`
-
-* This is a script that creates a new blog post. You can read more about [here](https://github.com/18F/18f.gsa.gov/blob/staging/_posts/README.md#creating-a-new-blog-post-file). `-t` stands for title, and `-a` stands for author. `-c` stands for content. Content is followed by the directory where your blog post lives.!-->
-
-Go back to Sublime text and write your post. Then save your post in the _posts directory with the name `2015-02-19-new_post.md`
+*Go back to Sublime text and write your post. Then save your post in the `_posts` directory with the name `2015-02-19-new_post.md`
 
 ![Screen shot: Saving post in _posts directory](https://cloud.githubusercontent.com/assets/5784474/6355905/a07c1df6-bc27-11e4-84a1-ae08b0c84cd0.png)
 
+
+### Adding Front Matter
 
 The next step is to add what's called front matter. This is metadata for the blog post, and includes things like the title, authors, description, and date. You add front matter by typing in 
 
