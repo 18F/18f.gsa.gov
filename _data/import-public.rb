@@ -1,18 +1,19 @@
 #! /usr/bin/env ruby
 #
-# Imports data from _data/private into _data/public.
-#
-# Expects to be run directly within the _data directory with the _data/private
-# submodule present. All 'private:' data is stripped from the _data/private
-# files before it is dumped into _data/public.
+# Imports project data from the 18F Public Hub API.
 #
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2014-12-22
 
+require 'open-uri'
+
 DATA_DIR = File.dirname __FILE__
+DATA_BASEURL = 'https://18f.gsa.gov/hub/api/'
+
 ['team', 'projects'].each do |category|
-  pattern = File.join DATA_DIR, 'private', category, '*.yml'
-  files = Dir.glob(pattern).join ' '
-  exit $?.exitstatus unless system(
-    "bundle exec consolidate-yaml-files #{files} > #{category}.yml")
+  open("#{DATA_BASEURL}#{category}/") do |data|
+    open(File.join(DATA_DIR, "#{category}.json"), 'w') do |f|
+      f.write(data.read)
+    end
+  end
 end
