@@ -193,55 +193,82 @@ Layout:Post on line 3.
 --- on line 4.
 ```
 
-And now you can just start writing a blog post for us on line 5. Say hello! It should look like this:
+And now you can just start writing a blog post for us on line 7. Say hello! It should look like this:
 
 ![Screen Shot: Adding Front Matter and saving the post](https://cloud.githubusercontent.com/assets/5784474/6355992/346b568a-bc28-11e4-9e26-1437a625b5f5.png)
 
 
-When you are done writing, save the post by pressing Command + S. And then return back to the Terminal. (Don't worry. You are almost done.)
+*When you are done writing, save the post by pressing Command + S. 
 
-Type `git status` again. You'll notice that it says "untracked files" followed by the name of your blog post. Git has three stages that a file can be in: untracked, staged, or committed. We're about to move the file from untracked to staged to committed.
+*And then return back to the Terminal. 
 
-First type in `git add _posts/2015-02-19-new-post.md` and hit enter. This moves the file from untracked the stage. When you type `git status` again, you'll see that the file is now under changes to be committed. 
+>(Don't worry. You are almost done.)
+
+### Learn How To Make A Pull Request
+
+*Type `git status` again. 
+
+>You'll notice that it says "untracked files" followed by the name of your blog post. Git has three stages that a >file can be in: untracked, staged, or committed. We're about to move the file through all three stages: from untracked to staged to committed.
+
+*Type in `git add _posts/2015-02-19-new-post.md` and hit enter. 
+
+>This moves the file from untracked the stage. 
+
+*Type `git status` again.
+
+>You'll now see that the file is now under changes to be committed. 
 
 ![Screen Shot: Git Add Post / Status](https://cloud.githubusercontent.com/assets/5784474/6357569/69efb3b8-bc33-11e4-9783-35c1df730391.gif)
 
 
-Well done! At this point, you've told Git that this file should be committed but you haven't committed anything. So you could work on other things that need to be committed, or you could commit right now. We're going to commit right now.
+>Well done! At this point, you've told Git that this file should be committed but you haven't committed anything. >So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
 
-Type `git commit -m "My First Post"` followed by enter
+*Type `git commit -m "My First Post"` followed by enter
 
-You'll now see something that looks like this:
+>You'll now see something that looks like this:
 
 ![Screen shot: git commit](https://cloud.githubusercontent.com/assets/5784474/6357623/d0b52cf4-bc33-11e4-8b9b-400eed3db489.gif)
 
 
-That means one file changed -- and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
+>That means one file changed -- and it was your blog post! You've officially committed the file. You're still at >the point where only you can see this file, but it's now officially been recorded. You've recorded the change for >yourself and you're ready to suggest the change to 18F!
 
-Type in `git status` one more time. You should see nothing to commit, working directory clean. That's because nothing has changed since the last commit.
+*Type in `git status` one more time. 
 
-**Note, the following part of these instructions will fail for anyone who is not an 18F employee.**
+>You should see nothing to commit, working directory clean. That's because nothing has changed since the last >commit.
 
-If we type `git push origin melody-kramer
+**Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to Github. If you follow these instructions for any project you're working on in Github, they will work the same way**
+
+* Type `git push origin melody-kramer-post` and then hit enter.
+
+>This pushes that branch up to Github. 
+
 ![checkout and pull](https://cloud.githubusercontent.com/assets/5784474/6357926/10c13dcc-bc36-11e4-9b6b-ca8e92163983.gif)
--post` and then hit enter, we should push that branch up to github.
 
-Go back to [18F on Github](github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. It will look like this:
+
+*Go back to [18F on Github](github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
+
+>It will look like this:
 
 ![Screen shot: Pull Request](https://cloud.githubusercontent.com/assets/5784474/6357697/4f989e70-bc34-11e4-9d20-4b13acc0a672.png)
 
 
-Click compare and pull request. It's a big green button. You can add a little comment like "I wrote a blog post. Isn't this the greatest thing?" And then click Create Pull Request.
+*Click `Compare and Pull Request`. It's a big green button. 
+
+>You can add a little comment like "I wrote a blog post. Isn't this the greatest thing?" 
+
+*Then click `Create Pull Request`.
 
 ![Screen Shot: Creating Pull Request](https://cloud.githubusercontent.com/assets/5784474/6357705/5bf596aa-bc34-11e4-9c66-bf59732a43c4.png)
 
 
-This asks 18F to accept your contribution.
+>This asks 18F to accept your contribution.
 
 ![Screen Shot: 18F receiving contribution from user](https://cloud.githubusercontent.com/assets/5784474/6357710/6581c1ee-bc34-11e4-9329-252f4dc87a28.png)
 
 
-You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return to the terminal, make it a habit to type `git checkout staging` and then `git pull` again, just to make sure everything is current.
+>You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return >to the terminal, make it a habit to 
+
+*Type `git checkout staging` followed by `git pull` again, just to make sure everything is current.
 
 ![screenshot: checkout and pull](https://cloud.githubusercontent.com/assets/5784474/6357931/16f97b6e-bc36-11e4-9a85-cf5f4c09d3ab.gif)
 
@@ -250,3 +277,7 @@ After you type `git pull` one of two things might happen:
 
 1. It will either say "It's already to up date"
 2. Or it will start pulling files which keeps your computer up to date. Your computer is downloading only the changes between your computer and Github.
+
+And you're done. Here's what happens next. TKTKTKTKTKT
+
+If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
