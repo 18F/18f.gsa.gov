@@ -25,7 +25,7 @@ It is worth noting: There are many different ways to do each of these steps. If 
 
 ### How to Set Up A Cloned Repo On Your Desktop ###
 
-* First, you want to log into Github. Go to [http://www.github.com/login](github.com/login) and sign in with your user name and password. 
+* First, you want to log into Github. Go to [http://www.github.com/login](https://github.com/login) and sign in with your username and password. 
 
 * Go to Finder and type in Terminal. Open the terminal. 
 
@@ -177,16 +177,16 @@ We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 ![screen shot: ls -F command](https://cloud.githubusercontent.com/assets/5784474/6352713/846d2a8e-bc12-11e4-81f7-5cb433f1106d.png)
 
 
-*Go back to Sublime text and write your post. Then save your post in the `_posts` directory with the name `2015-02-19-new_post.md`
+*Go back to Sublime Text and write your post. Then save your post in the `_posts` directory with the name `2015-02-19-new_post.md`
 
 ![Screen shot: Saving post in _posts directory](https://cloud.githubusercontent.com/assets/5784474/6355905/a07c1df6-bc27-11e4-84a1-ae08b0c84cd0.png)
 
 
 ### Adding Front Matter
 
-The next step is to add what's called front matter. This is metadata for the blog post, and includes things like the title, authors, description, and date. You add front matter by typing in 
+The next step is to add what's called front matter. This is metadata for the blog post, and includes things like the title, authors, description, and date. You add front matter by typing in :
 
-```
+```yaml
 --- on line 1.
 Title:New Post on line 2.
 Layout:Post on line 3.
@@ -245,7 +245,7 @@ And now you can just start writing a blog post for us on line 7. Say hello! It s
 ![checkout and pull](https://cloud.githubusercontent.com/assets/5784474/6357926/10c13dcc-bc36-11e4-9b6b-ca8e92163983.gif)
 
 
-*Go back to [18F on Github](github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
+*Go back to [18F on Github](https://github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
 
 >It will look like this:
 
