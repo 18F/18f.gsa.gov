@@ -21,38 +21,44 @@ It is worth noting: There are many different ways to do each of these steps. If 
 
 ### How to Set Up A Cloned Repo On Your Desktop ###
 
-1. First, you want to log into Github. Go to [http://www.github.com/login](github.com/login) and sign in with your user name and password. 
+* First, you want to log into Github. Go to [http://www.github.com/login](github.com/login) and sign in with your user name and password. 
 
-2. Go to Finder and type in Terminal. Open the terminal. 
+* Go to Finder and type in Terminal. Open the terminal. 
 
-**Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting everything in place so you can do this very easily. It will seem like a lot. It's one time only. Promise. There's a little notification when you're done the one-time only stuff.**
+>Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting >everything in place so you can do this very easily. It will seem like a lot. It's one time only. Promise. There's >a little notification when you're done the one-time only stuff.
 
-Type in `xcode-select --install.` This will install git along with other developer tools that Apple provides on your machine. (To learn more about this command, click [here](http://railsapps.github.io/xcode-command-line-tools.html)
+3. Type in `xcode-select --install.` This will install git along with other developer tools that Apple provides on your machine. (To learn more about this command, click [here](http://railsapps.github.io/xcode-command-line-tools.html)
 
-**This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. But don't shut your computer off.**
+>This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. >Come back in an hour. But don't shut your computer off.**
 
-Type in `ls`. This will show you everything in the directory where you are currently located.
+4. Type in `ls`. This will show you everything in the directory where you are currently located.
 
-You're going to want to create a new directory where you will clone all of your Github repos. This keeps everything nice and neat. You do this using the `mkdir` command, which stands for "Make Directory." I called my directory `Code.` 
+5. You're going to want to create a new directory where you will clone all of your Github repos. This keeps everything nice and neat. You do this using the `mkdir` command, which stands for "Make Directory." I called my directory `Code.` 
 
-Type in `mkdir Code` to create a directory called code.
+6. Type in `mkdir Code` to create a directory called code.
 
 ![Screenshot: typing in mkdir Code](https://cloud.githubusercontent.com/assets/5784474/6331640/66e346d4-bb4e-11e4-9506-35196637d8d8.gif)
 
 
-You now want to go into that directory. `cd` is the command that changes to another directory. Type in `cd code` and press enter so you're now in that directory.
+You now want to enter that directory. `cd` is the command that changes to another directory. 
+
+7. Type in `cd code` and press enter so you're now in that directory.
 
 ![Screenshot: typing in cd code](https://cloud.githubusercontent.com/assets/5784474/6331991/a26147cc-bb50-11e4-8cef-66e99c62ef0a.gif)
 
-Now we're going to clone the 18F repo to your directory. Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard. 
+Now we're going to clone the 18F repo to your local computer. This is so you can make changes locally (i.e. edit documents or add files) on your own computer.
 
->Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer. 
+8. Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard. 
+
+9. Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer. 
 
 ![screenshot: cloning repo](https://cloud.githubusercontent.com/assets/5784474/6332151/af327e8e-bb51-11e4-888a-751144e9f79e.gif)
 
-###How to create an SSH Key
+#####How to create an SSH Key
 
 If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need to do this process again.  
+
+###How to read what's in your cloned directory
 
 Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. On this page you see a list of files and folders in this project. All of the blog posts are in a folder called _posts. All of the pages are in a directory called _pages. There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing Github how some of this works. 
 
