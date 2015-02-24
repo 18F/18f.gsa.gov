@@ -11,8 +11,9 @@ This is a guide that assumes you have no prior knowledge of Github or the comman
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
 1. [Set Up A Cloned Repo On Your Desktop](TKTKT)
-2. [Work with Git, Github, and a Text editor](TKTKT)
-3. [Create a blog post](TKTKTTK)
+2. [How to Create an SSH Key](TKTKT)
+3. [How to read what's in your cloned directory](TKTKTTK)
+4. [How to Install a Package Manager](TKTKKTT)
 4. [Learn how to make a pull request](TKTKT)
 
 It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a Github account.) 
@@ -27,53 +28,60 @@ It is worth noting: There are many different ways to do each of these steps. If 
 
 >Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting >everything in place so you can do this very easily. It will seem like a lot. It's one time only. Promise. There's >a little notification when you're done the one-time only stuff.
 
-3. Type in `xcode-select --install.` This will install git along with other developer tools that Apple provides on your machine. (To learn more about this command, click [here](http://railsapps.github.io/xcode-command-line-tools.html)
+* Type in `xcode-select --install.` This will install git along with other developer tools that Apple provides on your machine. (To learn more about this command, click [here](http://railsapps.github.io/xcode-command-line-tools.html)
 
 >This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. >Come back in an hour. But don't shut your computer off.**
 
-4. Type in `ls`. This will show you everything in the directory where you are currently located.
+* Type in `ls`. This will show you everything in the directory where you are currently located.
 
-5. You're going to want to create a new directory where you will clone all of your Github repos. This keeps everything nice and neat. You do this using the `mkdir` command, which stands for "Make Directory." I called my directory `Code.` 
+* You're going to want to create a new directory where you will clone all of your Github repos. This keeps everything nice and neat. You do this using the `mkdir` command, which stands for "Make Directory." I called my directory `Code.` 
 
-6. Type in `mkdir Code` to create a directory called code.
+* Type in `mkdir Code` to create a directory called code.
 
 ![Screenshot: typing in mkdir Code](https://cloud.githubusercontent.com/assets/5784474/6331640/66e346d4-bb4e-11e4-9506-35196637d8d8.gif)
 
 
 You now want to enter that directory. `cd` is the command that changes to another directory. 
 
-7. Type in `cd code` and press enter so you're now in that directory.
+* Type in `cd code` and press enter so you're now in that directory.
 
 ![Screenshot: typing in cd code](https://cloud.githubusercontent.com/assets/5784474/6331991/a26147cc-bb50-11e4-8cef-66e99c62ef0a.gif)
 
 Now we're going to clone the 18F repo to your local computer. This is so you can make changes locally (i.e. edit documents or add files) on your own computer.
 
-8. Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard. 
+* Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard. 
 
-9. Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer. 
+* Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer. 
 
 ![screenshot: cloning repo](https://cloud.githubusercontent.com/assets/5784474/6332151/af327e8e-bb51-11e4-888a-751144e9f79e.gif)
 
 #####How to create an SSH Key
 
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need to do this process again.  
+>If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that >are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything >except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time >you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do >this on every computer you have. So if you plan to work on these projects on a separate computer, you will need >to do this process again.  
 
 ###How to read what's in your cloned directory
 
-Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. On this page you see a list of files and folders in this project. All of the blog posts are in a folder called _posts. All of the pages are in a directory called _pages. There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing Github how some of this works. 
+* Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing Github how some of this works. 
 
-At the top of that window, you can see a dropdown that says branch: staging. If you click on that button, you can see a list of all of the branches that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. Later on, when you make a pull request, Github will automatically assume you're trying to make a pull request to the staging branch. 
+At the top of that window, you can see a dropdown that says `branch: staging`. If you click on that button, you can see a list of all of the branches that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. 
+
+Later on, when you make a pull request, Github will automatically assume you're trying to make a pull request to the staging branch. 
 
 ![Screenshot: showing what the 18f github site looks like](https://cloud.githubusercontent.com/assets/5784474/6332462/a5068e08-bb53-11e4-87f2-2a193d2cdf5b.gif)
 
 
-On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests are to the staging branch. When we merge the pull request to the staging branch, Github automatically brings those changes into the site. 
+On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, Github automatically brings those changes into the site, but does not make them live yet. 
 
-So now, if you type `cd 18f.gsa.gov`and then hit enter, and then type `ls` you should see all of the files and folders in the github repo. If you type `git status` and hit enter, you see a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on staging, which is the default. So when you commit, you'd be committing to staging. And then origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
+* Type `cd 18f.gsa.gov`and then hit enter. That makes sure the current directory you're in is `18f.gsa.gov` on your local machine.
+
+* Type `ls` and you should now see all of the files and folders in the github repo. 
+
+* Type `git status` and hit enter. This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](https://cloud.githubusercontent.com/assets/5784474/6332525/0d871434-bb54-11e4-8441-7d6066e99d44.gif)
 
 
+###How to Install a Package Manager
 
 Now we have to install a package manager. We're going to use [Homebrew](http://brew.sh/). Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
 
