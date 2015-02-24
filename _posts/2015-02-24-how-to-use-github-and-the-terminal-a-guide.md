@@ -15,15 +15,15 @@ Every step will be illustrated with a helpful screenshot or animated gif that sh
 3. [Create a blog post](TKTKTTK)
 4. [Learn how to make a pull request](TKTKT)
 
-It is worth noting: There are many different ways to do any of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a Github account.) 
+It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a Github account.) 
 
-**What you need to get started** a Github account, Terminal, Sublime or another text editing program. These instructions are for Macs and Linux-enabled machines. If you 
+**What you need to get started** a Github account, Terminal, Sublime or another text editing program. These instructions are for Macs and Linux-enabled machines. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to Github that details how to make these instructions work for Windows machines.
 
 ### How to Set Up A Cloned Repo On Your Desktop ###
 
-First, you want to log into Github. Go to [http://www.github.com/login](github.com/login) and sign in with your user name and password. 
+1. First, you want to log into Github. Go to [http://www.github.com/login](github.com/login) and sign in with your user name and password. 
 
-Go to Finder and type in Terminal. Open the terminal. 
+2. Go to Finder and type in Terminal. Open the terminal. 
 
 **Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting everything in place so you can do this very easily. It will seem like a lot. It's one time only. Promise. There's a little notification when you're done the one-time only stuff.**
 
