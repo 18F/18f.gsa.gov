@@ -25,7 +25,13 @@ We’re on a mission to transform the way government builds and buys digital ser
 
 We’re transforming government from the inside out, creating cultural change by working in partnership with teams inside government agencies who want to create great services for the American people.
 
-You can find 18F at our headquarters in DC and around the country in our San Francisco, Chicago, Dayton, and New York offices. Even if you aren’t in one of those cities, we still want to hear from you! Our rapidly growing team is home to a variety of roles, including these:
+You can find 18F at our headquarters in DC and around the country in our San
+Francisco, Chicago, Dayton, and New York offices.
+
+![A map of 18F team members](/assets/blog/were-hiring/map.png)
+
+Even if you aren’t in one of those cities, we still want to hear from you! Our
+rapidly growing team is home to a variety of roles, including these:
 
 ## Software Development
 
@@ -47,11 +53,11 @@ Our visual designers create wireframes, HTML prototypes, high-fidelity mockups, 
 
 Sometimes called content designers, they assess current content needs, work closely with design researchers, and strategize with agency partners to write application copy, marketing collateral, editorial copy, and more.
 
-##Product Management
+## Product Management
 
 Product Leads work closely with agency partners to define and prioritize product value in agile cycles. They remove blocks for the team, create and groom backlogs, champion user testing and ensure we are always shipping valuable code.
 
-##Wildcard!
+## Wildcard!
 
 Not everyone fits into a predefined box. Cross-disciplinary innovators who are passionate about technology and improving the government experience are a big part of 18F.
 
