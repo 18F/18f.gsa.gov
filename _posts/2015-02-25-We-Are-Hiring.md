@@ -6,9 +6,16 @@ tags:
 - 18F
 - team
 - join us
+author:
+- kaitlin
+- shawn
+- hillary
 excerpt: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 description: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 ---
+<p class="authors">
+  by {% author kaitlin %} {% author shawn %} {% author hillary %}
+</p>
 
 
 Technology changes fast. People have grown to expect fast, personalized, and user-friendly information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and no quick way to purchase services, it can be hard for the Federal government to meet those same expectations. This is where we (and hopefully you) come in.
@@ -23,7 +30,7 @@ We’re on a mission to transform the way government builds and buys digital ser
 
 We’re transforming government from the inside out, creating cultural change by working in partnership with teams inside government agencies who want to create great services for the American people.
 
-You can find 18F at our headquarters in DC and around the country in our San Francisco, Chicago, Dayton, and New York offices. Even if you aren’t in one of those cities, we still want to hear from you! Our rapidly growing team is home to a variety of roles, including these:
+Whether you’re near an 18F office in Washington DC, San Francisco, Chicago, or New York, or you’re closer to some of our teammates in Seattle, Portland, San Diego, Austin, Tucson, Dayton, Raleigh, or Philadelphia, we want to hear from you! Our rapidly growing team is home to a variety of roles, including these::
 
 ## Software Development
 
