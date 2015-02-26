@@ -1,7 +1,7 @@
 ---
 title: Five Ways to Turn a Bad Idea into a Great One: Steve Portigal Event Recap
 layout: post
-image: 
+image: /Users/Garklavs/code/18f.gsa.gov/assets/portigal-event-image
 tags:
 - 18F
 - speaker series
@@ -18,7 +18,7 @@ description: "Last Friday, consultant and author Steve Portigal left behind the 
   by {% author kate %} and {% author nick %}
 </p>
 
-! [Steve Portigal presenting at 18F] (/Users/Garklavs/Desktop/portigalevent.jpg)
+! [Steve Portigal presenting at 18F] (/Users/Garklavs/code/18f.gsa.gov/assets/portigal-event-image)
 
 Last Friday, consultant and author [Steve Portigal] (http://www.portigal.com/) left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out.
 
