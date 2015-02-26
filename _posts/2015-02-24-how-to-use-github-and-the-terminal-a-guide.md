@@ -1,8 +1,10 @@
 ---
-Title: How to Use Github and the Terminal: A Guide
-Author: melody, boone
-Layout: Page
-
+title: "How to Use Github and the Terminal: A Guide"
+author: 
+- melody
+- boone
+layout: page
+published: false
 ---
 
 
