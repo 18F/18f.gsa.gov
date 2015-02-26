@@ -54,7 +54,7 @@ Our designers research user needs and communicate them to developers, product le
 
 ## Visual & Interaction Design
 
-Our visual designers create wireframes, HTML prototypes, high-fidelity mockups, and more, based on a firm understanding of user needs. They do what it takes to communicate (and sometimes implement) these solutions.
+Our designers create wireframes, HTML prototypes, high-fidelity mockups, and more, based on a firm understanding of user needs. They do what it takes to communicate (and sometimes implement) these solutions.
 
 ## Writing & Content Strategy
 
@@ -70,7 +70,7 @@ Not everyone fits into a predefined box. Cross-disciplinary innovators who are p
 
 ## 18F is an Equal Opportunity Employer
 
-We’re building a team that looks like the United States — diverse in race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. If you have the skills we need, that’s all that matters. 
+We’re building a team that looks like the United States, and we don't discriminate based on race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. If you have the skills we need, that’s all that matters. 
 
 ## To Learn More ...
 
