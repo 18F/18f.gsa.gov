@@ -16,7 +16,7 @@ description: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New Yo
 ---
 
 <p class="authors">
-  by {% author kaitlin %} {% author shawn %} {% author hillary %}
+  by {% author kaitlin %}, {% author shawn %}, and {% author hillary %}
 </p>
 
 Technology changes fast. People have grown to expect fast, personalized, and user-friendly information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and no quick way to purchase services, it can be hard for the Federal government to meet those same expectations. This is where we (and hopefully you) come in.
