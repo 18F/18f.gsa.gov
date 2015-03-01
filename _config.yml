@@ -1,6 +1,6 @@
-highlighter: pygments
 markdown: redcarpet
 redcarpet:
+  syntax_highlighter: rouge
   extensions:
   - with_toc_data
 

@@ -165,9 +165,10 @@ To solve the "first visit" problem, the Chrome security team created an "HSTS
 preload list": a [list of domains][27] baked into Chrome that get Strict
 Transport Security enabled automatically, even for the first visit.
 
-Firefox and Safari also now use HSTS preload lists that include Chrome's list.
+Firefox and Safari also incorporate Chrome's list, as will
+[newer versions of Internet Explorer][34].
 
-While a giant list may sound crude, it's a simple solution that many of the
+While a giant list may sound crude, it's a simple solution that many of
 today's most popular websites (including Twitter, Facebook, Google, and
 GitHub) use to protect your visits.
 
@@ -241,3 +242,4 @@ time to prepare their `.gov` domains.
 [31]: http://www.internetsociety.org/news/internet-society-commends-internet-architecture-board-recommendation-encryption-default
 [32]: https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure
 [33]: http://www.ftc.gov/news-events/blogs/techftc/2015/02/government-agencies-enable-http-strict-transport-security-public
+[34]: http://blogs.msdn.com/b/ie/archive/2015/02/16/http-strict-transport-security-comes-to-internet-explorer.aspx?Redirected=true

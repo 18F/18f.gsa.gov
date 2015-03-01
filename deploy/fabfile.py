@@ -1,5 +1,5 @@
 import time
-from fabric.api import run, execute, env
+from fabric.api import run, execute, env, cd
 
 """
 Manage auto-deploy webhooks remotely.
@@ -33,26 +33,46 @@ env.hosts = ["18f-site"]
 home = "/home/site"
 log = "%s/hookshot.log" % home
 current = "%s/%s/current" % (home, environment)
+ruby = "/opt/install/rbenv/shims/ruby"
 
 # principal command to run upon update
-command = "cd %s && git pull && bundle exec jekyll build >> %s" % (current, log)
+command = "cd %s && %s go server_build >> %s" % (current, ruby, log)
 
 ## can be run on their own
 
 def start():
-  run(
-    "cd %s && forever start -l %s -a deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, log, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever start -l %s -a deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (log, port, environment, command)
+    )
 
 def stop():
-  run(
-    "cd %s && forever stop deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever stop deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (port, environment, command)
+    )
 
 def restart():
-  run(
-    "cd %s && forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
-    % (current, port, environment, command)
-  )
+  with cd(current):
+    run(
+      "forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
+      % (port, environment, command)
+    )
+
+def update_data():
+  with cd(current):
+    run("%s go update_submods" % (ruby))
+    run("%s go update_data" % (ruby))
+
+def update_submods():
+  with cd(current):
+    run("%s go update_submods" % (ruby))
+
+def build(scope = ''):
+  with cd(current):
+    if scope == 'full':
+      run("%s go server_build" % (ruby))
+    else:
+      run('%s go build' % (ruby))
