@@ -144,22 +144,26 @@ If you run into an error here, you need to create what's called an SSH key. You 
 
 * If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. 
 
-Branches are like tributaries on rivers. In our case, `staging` is the main river and all the branches listed in that list are the tributaries. Where do they come from? When another person working on the project wants to make some changes they create a branch, make all the changes they want, and once they're done they issue a "pull request," to ask the people responsible for the main branch to incorporate their changes. I
+Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to the "default" branch, or the main sandbox everybody bases their work off of. In our case we called that main sandbox "staging" in other projects you might also see it called "master."
 
-Later on, when you make a pull request, GitHub will automatically assume you're trying to make a pull request to the staging branch. 
+In the next step we're going to create a branch and later on, when you make a pull request, GitHub will automatically assumes you're trying to contribute to the staging branch.
 
 ![Screenshot: showing what the 18f GitHub site looks like](/assets/blog/github-tutorial/screenshot4.gif)
 
 
-> On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on 18f.gsa.gov, yet.
+> On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on 18f.gsa.gov yet.
 
-* Type `cd 18f.gsa.gov`and then hit enter. That makes sure the current directory you're in is `18f.gsa.gov` on your local machine.
+In your terminal enter the following commands: 
 
-* Type `ls` and you should now see all of the files and folders in the GitHub repo. 
+1. `cd 18f.gsa.gov` to change directories to `18f.gsa.gov`.
+1. `ls -1F` to see all of the files and folders in the GitHub repo, just as you saw them on GitHub
+1. `git status`
 
-* Type `git status` and hit enter. 
+> This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
 
-> This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
+* _"On branch staging"_ tells you is what branch you are currently working on (remember it's `staging` by default). If you made any changes and commited them, you'd commit them to the branch to staging.
+* _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch on GitHub (your computer calls GitHub "origin").
+* "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
@@ -169,11 +173,11 @@ Let's go ahead and get you ready to build the site.
 
 * You can do that by typing `./go init`. 
 
->(This is running a lot of commands in the background that you don't need to worry about. It's installing >something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is build the site out for you.) 
+> (This is running a lot of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the programming language ruby that do really specific things. Jekyll is a gem, and our version of Jekyll, needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you.)
 
 * To see what the site looks like, you can type `.\go serve`. 
 
->This builds the site and gives you an address where you can visit the site. You can copy and paste the server address from the terminal directly into the browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't be able to do.
+> This builds the site and gives you an address where you can visit the site. It should be `127.0.0.1:4000`. You can copy and paste the server address directly into a browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't see anything.
 
 >**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale high. Onward!**
 
@@ -187,15 +191,15 @@ Okay. Now you're ready to start editing.
 
 * Click on 18f.gsa.gov and click open. 
 
->Voila! You can now see all of the files that make up the site. It should look like this.
+**Voila! You can now see all of the files that make up the site.** It should look like this.
 
 ![Screen Shot: All of the files that make up the 18F site](/assets/blog/github-tutorial/image10.png)
 
->We now want to create a branch where you can make changes to the website. A branch is basically a way to make changes to a file that only belong to you. Someone else has to approve those changes before they go live on the site. This allows you to collaborate with teammates without intefering with other people's existing work. 
+> We now want to create a branch, or a sandbox where you can make changes to the website. On this team we always work on branches. This allows you to collaborate with teammates without intefering with other people's existing work. 
 
 * To create a new branch, type `git checkout -b your-name-post` (The name of the branch can be anything but it should be descriptive.) 
 
->This also moves you onto that branch.
+The command `git checkout` tells `git` to work on a different branch. The `-b <branch-name>` tells it to create the branch if it does not exist yet.
 
 * Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
@@ -205,29 +209,17 @@ Okay. Now you're ready to start editing.
 
 We're now going to walk you through creating a new blog post for 18f.gsa.gov. 
 
-* Type `ls -l` to see a list of files and folders that make up 18f.gsa.gov's repo. 
-
-
->On the far left, you'll see `-rw-r--r--`. Any line that starts with a d is a directory. 
-
-
-![screen shot of 18F directories](/assets/blog/github-tutorial/image12.png)
-
->The far right column is the name of the file or directory. 
-
-* You can also type in the command `ls -F` which shows you all of the files and is a lot less noisy. In this case, anything that ends with a `/` is a directory:
+* Type `ls -1F` to see a list of files and folders that make up 18f.gsa.gov's repo. 
 
 ![screen shot: ls -F command](/assets/blog/github-tutorial/image13.png)
-
 
 * Go back to Sublime Text and write your post. Then save your post in the `_posts` directory with the name `2015-02-23-new_post.md` where '2015-02-25' is today's date.
 
 ![Screen shot: Saving post in _posts directory](/assets/blog/github-tutorial/image14.png)
 
-
 ### Adding Front Matter
 
-The next step is to add what's called front matter. This is metadata for the blog post, and includes things like the title, authors, description, and date. You add front matter by pasting in the following fields starting on line 1 of your text editor:
+The next step is to add what's called front matter. This is metadata for the blog post, extra information Jekyll uses to build parts of the website. It includes things like the title, authors, description, and date. You add front matter by pasting in the following fields starting on line 1 of your text editor:
 
 ```yaml
 ---
@@ -244,7 +236,7 @@ image:
 ---
 ```
 
-A complete explanation for the front-matter can be found [here](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained). And now you can just start writing a blog post for us on line 16. Say hello! It should look like this:
+A complete explanation for the front-matter can be found [here](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained). And now you can start writing a blog post for us on line 16. Say hello! It should look like this:
 
 ![Screen Shot: Adding Front Matter and saving the post](/assets/blog/github-tutorial/image15.png)
 
@@ -253,26 +245,26 @@ A complete explanation for the front-matter can be found [here](https://github.c
 
 * And then return back to the Terminal. 
 
->(Don't worry. You are almost done.)
+> (Don't worry. You are almost done.)
 
 ### Learn How To Make A Pull Request
 
 * Type `git status` again. 
 
->You'll notice that it says "untracked files" followed by the name of your blog post. Git has three stages that a file can be in: untracked, staged, or committed. We're about to move the file through all three stages: from untracked to staged to committed.
+> You'll notice that `git status` shows a section for "untracked files" followed by the name of your blog post. Git has three stages that a file can be in: untracked, staged, or committed. Untracked means git doesn't know anything about it and will not watch for your changes. Your post is currently untracked and we're about to move the file through all three stages to committed.
 
 * Type in `git add _posts/2015-02-23-new-post.md` and hit enter. 
 
->This moves the file from untracked the stage. 
+> This moves the file from untracked the stage. You just told `git` to remember the changes you made to this file.
 
 * Type `git status` again.
 
->You'll now see that the file is now under changes to be committed. 
+> You'll now see that the file is now under changes to be committed.
 
 ![Screen Shot: Git Add Post / Status](/assets/blog/github-tutorial/screenshot16.gif)
 
 
->Well done! At this point, you've told Git that this file should be committed but you haven't committed anything. So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
+> Well done! At this point, you've told Git that this file should be committed but you haven't committed anything. So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
 
 * Type `git commit -m "My First Post"` followed by enter
 
@@ -284,7 +276,7 @@ You will see something that looks like this
 create mode 100644 _posts/2015-02-23-new-post.md
 ```
 
->That means one file changed -- and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
+> That means one file changed -- and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
 
 * Type in `git status` one more time. 
 
@@ -292,18 +284,17 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 **Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to GitHub. If you follow these instructions for any project you're working on in GitHub, they will work the same way**
 
-* Type `git push origin melody-kramer-post` and then hit enter.
+* Type `git push origin <branch>` (where `<branch>` is the name you gave your branch) and then hit enter.
 
 ![Screen shot: git commit](/assets/blog/github-tutorial/screenshot17.gif)
 
->This pushes that branch up to GitHub. 
+> This uploads your branch and changes up to the 18f.gsa.gov project on GitHub.
 
 * Now, go back to [18F on GitHub](https://github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
 
->It will look like this:
+> It will look like this:
 
 ![Screen shot: Pull Request](/assets/blog/github-tutorial/image19.png)
-
 
 * Click `Compare and Pull Request`. It's a big green button. 
 
@@ -314,23 +305,22 @@ create mode 100644 _posts/2015-02-23-new-post.md
 ![Screen Shot: Creating Pull Request](/assets/blog/github-tutorial/image20.png)
 
 
->This asks 18F to accept your contribution.
+> This asks 18F to accept your contribution.
 
 ![Screen Shot: 18F receiving contribution from user](/assets/blog/github-tutorial/image21.png)
 
 
->You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return to the terminal, make the following a habit: 
+> You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return to the terminal, make the following a habit: 
 
-* Type `git checkout staging` followed by `git pull` again, just to make sure everything is current.
+* Type `git checkout staging` followed by `git pull` again, to make sure your version of the staging branch is current.
 
 ![screenshot: checkout and pull](/assets/blog/github-tutorial/screenshot22.gif)
-
 
 After you type `git pull` one of two things might happen:
 
 1. It will either say "It's already to up date"
 2. Or it will start pulling files which keeps your computer up to date. Your computer is downloading only the changes between your computer and GitHub.
 
-And you're done. Here's what happens next: someone of the blog team will run a pull request. You can run `git pull` again and see a staging update.
+If you get the first message it means nothing has changed since the last time you worked on it. If you get the second, it means someone from the 18F team merged another pull request. Whenever you run `git pull` you ask GitHub to download the most recent changes.
 
 If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
