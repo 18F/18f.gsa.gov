@@ -82,6 +82,8 @@ end
 def ci_build
   puts 'Building the site...'
   build
+  require 'ra11y'
+  Ra11y::Site.new("./_site").run
   puts 'Done!'
 end
 
