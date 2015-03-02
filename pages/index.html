@@ -91,10 +91,7 @@ permalink: /
     </div>
   </div>
   <div class="container team">
-    {% assign team = site.data.team | sort: 'last_name' %}
-    {% for member in team %}
-      {{ member | with_pic }}
-    {% endfor %}
+    {% for member in site.data.team %}{{ member | with_pic }}{% endfor %}
   </div>
 </section>
 

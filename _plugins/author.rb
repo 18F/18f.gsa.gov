@@ -6,8 +6,7 @@ module Jekyll
     end
 
     def render(context)
-      team = context.registers[:site].data['team']
-      teammate = team.find {|t| t['name'] == @author}
+      teammate = context.registers[:site].data['team'][@author]
 
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
@@ -22,10 +21,13 @@ module Jekyll
 
   module AuthorFilter
     def with_pic(input)
-      if File.exist?("#{Jekyll.sites[0].config['source']}/assets/images/team/#{input['name']}.jpg")
+      name = input[0]
+      info = input[1]
+      image = File.join 'assets', 'images', 'team', "#{name}.jpg"
+      if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<div class='bio'>\n
-          <a><img class='img-circle team-img bio-clip' src='/assets/images/team/#{input['name']}.jpg' alt='#{input['full_name']}'>\n
-          <h1>#{input['full_name']}</h1></a>\n
+          <a><img class='img-circle team-img bio-clip' src='/#{image}' alt='#{info['full_name']}'>\n
+          <h1>#{info['full_name']}</h1></a>\n
         </div>"
       end
     end
