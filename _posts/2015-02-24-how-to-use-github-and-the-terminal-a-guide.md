@@ -1,7 +1,9 @@
 ---
 title: "How To Use GitHub and the Terminal: A Guide"
 layout: post
-author: melody, boone
+author: 
+- melody
+- boone
 tags:
 - GitHub
 - Tutorial
@@ -30,34 +32,96 @@ Every step will be illustrated with a helpful screenshot or animated gif that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn how to make a pull request](#learn-how-to-make-a-pull-request)
 
-It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a Github account.) 
+It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
 
-**What you need to get started** a Github account, Terminal, Sublime or another text editing program. These instructions are for Macs and Linux-enabled machines. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to Github that details how to make these instructions work for Windows machines.
+**What you need to get started** a GitHub account, Terminal, Sublime or another text editing program. These instructions are for Macs and Linux-enabled machines. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
-### How to Set Up A Cloned Repo On Your Desktop ###
+## Getting started with GitHub and the Terminal
 
-* First, you want to log into Github. Go to [http://www.github.com/login](https://github.com/login) and sign in with your username and password. 
+* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password. 
 
-* Go to Finder and type in Terminal. Open the terminal. 
+* Activate terminal by pressing command + space and search for Terminal to open the terminal. 
 
->Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting everything in place so you can do this very easily. It will seem like a lot. It's one time only. Promise. There's a little notification when you're done the one-time only stuff.
+The terminal icon looks like this: 
 
-* Type in `xcode-select --install.` This will install git along with other developer tools that Apple provides on your machine. (To learn more about this command, click [here](http://railsapps.github.io/xcode-command-line-tools.html)
+![Terminal App](/assets/blog/github-tutorial/terminal.png)
 
->This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. But don't shut your computer off.**
+And you should have a window like this when you open it:
 
-* Type in `ls`. This will show you everything in the directory where you are currently located.
+![Screen shot of blank terminal window](/assets/blog/github-tutorial/terminal-window.png)
 
-* You're going to want to create a new directory where you will clone all of your Github repos. This keeps everything nice and neat. You do this using the `mkdir` command, which stands for "Make Directory." I called my directory `Code.` 
+Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting everything in place so you can do this very easily in the future. **It's one time only.** Promise. There's a little notification when you're done the one-time only stuff.
 
-* Type in `mkdir Code` to create a directory called code.
+* In the Terminal type `xcode-select --install` and press return. 
+
+> Terminal is a program that lets you send commands to your computer and `xcode-select --install` is one of those commands. In this guide, whenever you see text that looks like `this`, you're reading a command. Type commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
+
+This particular command installs several tools provided by Apple on your machine. (To learn more about this command, click [here](http://railsapps.GitHub.io/xcode-command-line-tools.html)
+
+> This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. **But don't shut your computer off while you're gone!**
+
+Welcome back! We're going to run a few more commands to get you used to the terminal. If you're already familiar with this, feel free to skip down to [installing a package manager](#how-to-install-a-package-manager).
+
+You're going to hear the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
+
+1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the direectory in one column.
+2. Now type `cd Documents`: this will take you into your Documents directory. `cd` stands for "**c**hange **d**irectory."
+3. Type `ls -1` again to see all the files inside your Documents directory.
+4. Type `ls -1F`: notice a difference? Any item in the list with a `/` at the end is another directory.
+5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
+6. Type `pwd`: this command shows you the directory you are currently working in. You should see something like `/Users/your-name/` when you run `pwd`, this is called your _home directory_ and you can always get here by typing `cd ~`.
+
+I like to put all my code in the same directory. So the first thing I do is create a directory called "code"
+
+1. `cd ~` to make sure you're in your home directory
+1. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
+1. `cd code` should bring your terminal into your code directory. 
+
+> **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
 ![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/screenshot1.gif)
 
+## How to Install a Package Manager
 
-You now want to enter that directory. `cd` is the command that changes to another directory. 
+> Now we have to install a package manager. Package managers help install, upgrade, configure and remove different programs that we need to work with GitHub. We're going to use [Homebrew](http://brew.sh/) for programs like `git` and `rvm` to help us work with the programming language ruby.
 
-* Type in `cd code` and press enter so you're now in that directory.
+* Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. 
+
+* You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
+
+
+![installing package manager](/assets/blog/github-tutorial/screenshot6.gif)
+
+
+> If you see a warning message at this point, it means you may have the wrong version of Ruby. So we need to update your version of Ruby. 
+
+1. Copy and paste this into your terminal and hit enter: `\curl -sSL https://get.rvm.io | bash -s stable`
+
+<!--![Screenshot: homebrew install](/assets/blog/github-tutorial/screenshot7.gif)-->
+
+* You're not quite done yet, your need to run another command before you can use rvm, it will be a little different for everyone so look up a few lines in your terminal for a line that starts with: 
+
+```
+* To start using RVM, you need to run `source /Users/yourusername/.rvm/scripts/rvm`
+```
+
+The `yourusername` part is the username on your computer. It should look like what we circled below:
+
+![Screen Shot: To start using RVM, you need to run source /Users/yourusername/.rvm/scripts/rvm](/assets/blog/github-tutorial/image8.png)
+
+* Copy everything between the ``` symbols and paste it into your terminal and press return.
+
+* You can check your Ruby install by typing in `ruby --version` on the command line. You should see `ruby-2.2.0`.
+
+<!-- ![screen shot: Which Ruby?](/assets/blog/github-tutorial/image9.png) -->
+
+## "Cloning" a "Repo" on your computer
+
+Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll hear the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
+
+In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
+
+* Type in `cd ~/code` and press enter to get to the `code` directory we created earlier.
 
 ![Screenshot: typing in cd code](/assets/blog/github-tutorial/screenshot2.gif)
 
@@ -71,7 +135,7 @@ Now we're going to clone the 18F repo to your local computer. This is so you can
 
 #####How to create an SSH Key
 
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything >except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need >to do this process again.  
+If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything >except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need >to do this process again.  
 
 ###How to read what's in your cloned directory
 
@@ -83,54 +147,20 @@ If you run into an error here, you need to create what's called an SSH key. You 
 
 >Later on, when you make a pull request, GitHub will automatically assume you're trying to make a pull request to the staging branch. 
 
-![Screenshot: showing what the 18f github site looks like](/assets/blog/github-tutorial/screenshot4.gif)
+![Screenshot: showing what the 18f GitHub site looks like](/assets/blog/github-tutorial/screenshot4.gif)
 
 
 >On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those >changes into the site, but does not make them live yet. 
 
 * Type `cd 18f.gsa.gov`and then hit enter. That makes sure the current directory you're in is `18f.gsa.gov` on your local machine.
 
-* Type `ls` and you should now see all of the files and folders in the github repo. 
+* Type `ls` and you should now see all of the files and folders in the GitHub repo. 
 
 * Type `git status` and hit enter. 
 
 >This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be >committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
-
-
-###How to Install a Package Manager
-
->Now we have to install a package manager. Package managers help install, upgrade, configure and remove different software packages that are needed to make various programs work. We're going to use [Homebrew](http://brew.sh/).
-
-* Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. 
-
-* You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
-
-
-![installing package manager](/assets/blog/github-tutorial/screenshot6.gif)
-
-
->If you see a warning message at this point, it means you may have the wrong version of Ruby. So we need to update your version of Ruby. 
-
-* Go to `https://rvm.io`. 
-
-* Scroll down a little bit and you should see two boxes with code in them. Copy the second one !screenshot! into your terminal and hit run.
-
-*Now  type `rvm install 2.2.0` and then hit enter. 
-
-![Screenshot: homebrew install](/assets/blog/github-tutorial/screenshot7.gif)
-
-
-* Now we're going to install a newer version of ruby with RVM. This is tricky, because the instructions for installing RVM are hidden. We've circled them here:
-
-![Screen Shot: To start using RVM, you need to run source /Users/YOURUSERNAME/.rvm/scripts/rvm](/assets/blog/github-tutorial/image8.png)
-
-* Look for the line that says `To start using RVM, you need to run source /Users/YOURUSERNAME/.rvm/scripts/rvm,`, where YOURUSERNAME is the username on your computer. Paste that line at the cursor and then type in your computer's password (not the github password.)
-
-* You can check your Ruby install by typing in `Which Ruby` on the command line. You should see 2.2.0. (You can also type 'ruby --version' - you should see the same thing.)
-
-![screen shot: Which Ruby?](/assets/blog/github-tutorial/image9.png)
 
 ###Building the 18F Site 
 
@@ -259,15 +289,15 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 >You should see nothing to commit, working directory clean. That's because nothing has changed since the last >commit.
 
-**Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to Github. If you follow these instructions for any project you're working on in Github, they will work the same way**
+**Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to GitHub. If you follow these instructions for any project you're working on in GitHub, they will work the same way**
 
 * Type `git push origin melody-kramer-post` and then hit enter.
 
 ![Screen shot: git commit](/assets/blog/github-tutorial/screenshot17.gif)
 
->This pushes that branch up to Github. 
+>This pushes that branch up to GitHub. 
 
-* Now, go back to [18F on Github](https://github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
+* Now, go back to [18F on GitHub](https://github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch. 
 
 >It will look like this:
 
@@ -298,7 +328,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 After you type `git pull` one of two things might happen:
 
 1. It will either say "It's already to up date"
-2. Or it will start pulling files which keeps your computer up to date. Your computer is downloading only the changes between your computer and Github.
+2. Or it will start pulling files which keeps your computer up to date. Your computer is downloading only the changes between your computer and GitHub.
 
 And you're done. Here's what happens next: someone of the blog team will run a pull request. You can run `git pull` again and see a staging update.
 
