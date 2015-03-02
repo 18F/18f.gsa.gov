@@ -23,11 +23,10 @@ This is a guide that assumes you have no prior knowledge of GitHub or the comman
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
 1. [Get Started with Github and the Terminal](#getting-started-with-github-and-the-terminal)
-2. [Install a Package Manager](#how-to-install-a-package-manager)
+2. [Turn Your Mac into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
 2. ["Clone" a "Repo" On Your Desktop](#&quot;cloning&quot;-a-&quot;repo&quot;-on-your-computer)
-2. [Create an SSH Key](#how-to-create-an-ssh-key)
 3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
-5. [Build the 18F Site](#building-the-18f-site)
+4. [Build the 18F Site](#building-the-18f-site)
 6. [Create a Branch](#create-a-branch)
 7. [Edit and Post a Blog Post](#edit-and-post-a-blog-post)
 8. [Add Front Matter](#adding-front-matter)
@@ -75,46 +74,22 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 I like to put all my code in the same directory. So the first thing I do is create a directory called "code"
 
 1. `cd ~` to make sure you're in your home directory
-1. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
-1. `cd code` should bring your terminal into your code directory. 
+2. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
+3. `cd code` should bring your terminal into your code directory. 
 
 > **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
 ![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
 
-## How to Install a Package Manager
+##Turn Your Mac Into A Web Development Machine
 
-> Now we have to install a package manager. Package managers help install, upgrade, configure and remove different programs that we need to work with GitHub. We're going to use [Homebrew](http://brew.sh/) for programs like `git` and `rvm` to help us work with the programming language ruby.
+Our cowork [Monfresh](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.`
 
-* Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt. 
+This [video](https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video) shows you step by step instructions to turn your Mac into a web development machine. We have also written out the instructions in text below:
 
-* You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
+* Go to the terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
 
-
-![installing package manager](/assets/blog/github-tutorial/screenshot6.gif)
-
-
-> If you see a warning message at this point, it means you may have the wrong version of Ruby. So we need to update your version of Ruby. 
-
-1. Copy and paste this into your terminal and hit enter: `\curl -sSL https://get.rvm.io | bash -s stable`
-
-![Screenshot: installing rvm](/assets/blog/github-tutorial/installing-rvm.gif)
-
-* You're not quite done yet, your need to run another command before you can use rvm, it will be a little different for everyone so look up a few lines in your terminal for a line that starts with: 
-
-```
-* To start using RVM, you need to run `source /Users/yourusername/.rvm/scripts/rvm`
-```
-
-The `yourusername` part is the username on your computer. It should look like what we circled below:
-
-![Screen Shot: To start using RVM, you need to run source /Users/yourusername/.rvm/scripts/rvm](/assets/blog/github-tutorial/image8.png)
-
-* Copy everything between the ``` symbols and paste it into your terminal and press return.
-
-* You can check your Ruby install by typing in `ruby --version` on the command line. You should see `ruby-2.2.0`.
-
-![screen shot: ruby --version](/assets/blog/github-tutorial/ruby---version.png)
+* Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
 
 ## "Cloning" a "Repo" on your computer
 
@@ -132,9 +107,6 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 ![screenshot: cloning repo](/assets/blog/github-tutorial/git-clone.gif)
 
-### How to create an SSH Key
-
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you atuomatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again. 
 
 ### Branching and pull requests
 
