@@ -6,6 +6,7 @@ sudo: false
 git:
   submodules: false
 
+before_script: npm install -g pa11y
 script: ./go ci_build
 
 notifications:
