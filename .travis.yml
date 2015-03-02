@@ -7,7 +7,7 @@ git:
   submodules: false
 
 before_script: npm install -g pa11y
-script: ./go ci_build
+script: bundle exec ./go ci_build
 
 notifications:
   email:
