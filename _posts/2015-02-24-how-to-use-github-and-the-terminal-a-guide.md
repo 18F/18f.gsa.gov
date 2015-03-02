@@ -79,7 +79,7 @@ I like to put all my code in the same directory. So the first thing I do is crea
 
 > **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
-![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/screenshot1.gif)
+![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
 
 ## How to Install a Package Manager
 
@@ -97,7 +97,7 @@ I like to put all my code in the same directory. So the first thing I do is crea
 
 1. Copy and paste this into your terminal and hit enter: `\curl -sSL https://get.rvm.io | bash -s stable`
 
-<!--![Screenshot: homebrew install](/assets/blog/github-tutorial/screenshot7.gif)-->
+![Screenshot: installing rvm](/assets/blog/github-tutorial/installing-rvm.gif)
 
 * You're not quite done yet, your need to run another command before you can use rvm, it will be a little different for everyone so look up a few lines in your terminal for a line that starts with: 
 
@@ -113,7 +113,7 @@ The `yourusername` part is the username on your computer. It should look like wh
 
 * You can check your Ruby install by typing in `ruby --version` on the command line. You should see `ruby-2.2.0`.
 
-<!-- ![screen shot: Which Ruby?](/assets/blog/github-tutorial/image9.png) -->
+![screen shot: ruby --version](/assets/blog/github-tutorial/ruby---version.png)
 
 ## "Cloning" a "Repo" on your computer
 
@@ -123,34 +123,34 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Type in `cd ~/code` and press enter to get to the `code` directory we created earlier.
 
-![Screenshot: typing in cd code](/assets/blog/github-tutorial/screenshot2.gif)
-
-Now we're going to clone the 18F repo to your local computer. This is so you can make changes locally (i.e. edit documents or add files) on your own computer.
+![Screenshot: typing in cd code](/assets/blog/github-tutorial/cd-code.gif)
 
 * Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard. 
 
 * Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer. 
 
-![screenshot: cloning repo](/assets/blog/github-tutorial/screenshot3.gif)
+![screenshot: cloning repo](/assets/blog/github-tutorial/git-clone.gif)
 
-#####How to create an SSH Key
+### How to create an SSH Key
 
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything >except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need >to do this process again.  
+If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you atuomatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again. 
 
-###How to read what's in your cloned directory
+### Branching and pull requests
 
 * Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. 
 
->On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing GitHub how some of this works. At the top of that window, you can see a dropdown that says `branch: staging`. 
+> On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing GitHub how some of this works. At the top of that window, you can see a dropdown that says `branch: staging`. 
 
-* If you click on the `branch:staging` button, you can see a list of all of the branches that exist on this project. Everytime you >come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because >we've called that branch the default branch. 
+* If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. 
 
->Later on, when you make a pull request, GitHub will automatically assume you're trying to make a pull request to the staging branch. 
+Branches are like tributaries on rivers. In our case, `staging` is the main river and all the branches listed in that list are the tributaries. Where do they come from? When another person working on the project wants to make some changes they create a branch, make all the changes they want, and once they're done they issue a "pull request," to ask the people responsible for the main branch to incorporate their changes. I
+
+Later on, when you make a pull request, GitHub will automatically assume you're trying to make a pull request to the staging branch. 
 
 ![Screenshot: showing what the 18f GitHub site looks like](/assets/blog/github-tutorial/screenshot4.gif)
 
 
->On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those >changes into the site, but does not make them live yet. 
+> On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on 18f.gsa.gov, yet.
 
 * Type `cd 18f.gsa.gov`and then hit enter. That makes sure the current directory you're in is `18f.gsa.gov` on your local machine.
 
@@ -158,7 +158,7 @@ If you run into an error here, you need to create what's called an SSH key. You 
 
 * Type `git status` and hit enter. 
 
->This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be >committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
+> This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
