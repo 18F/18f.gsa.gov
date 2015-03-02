@@ -118,7 +118,7 @@ The `yourusername` part is the username on your computer. It should look like wh
 
 ## "Cloning" a "Repo" on your computer
 
-Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll hear the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
+Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
 
 In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
@@ -140,11 +140,11 @@ If you run into an error here, you need to create what's called an SSH key. You 
 
 * Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) site from your browser. 
 
-> On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing GitHub how some of this works. At the top of that window, you can see a dropdown that says `branch: staging`. 
+> On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing 18F's GitHub how some of this works. At the top of that window, you can see a dropdown that says `branch: staging`. 
 
 * If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Everytime you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch. 
 
-Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to the "default" branch, or the main sandbox everybody bases their work off of. In our case we called that main sandbox "staging" in other projects you might also see it called "master."
+Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to the "default" branch, or the main sandbox everybody bases their work off of. In our case we called that main sandbox "staging." In other projects you might also see it called "master."
 
 In the next step we're going to create a branch and later on, when you make a pull request, GitHub will automatically assumes you're trying to contribute to the staging branch.
 
@@ -155,9 +155,9 @@ In the next step we're going to create a branch and later on, when you make a pu
 
 In your terminal enter the following commands: 
 
-1. `cd 18f.gsa.gov` to change directories to `18f.gsa.gov`.
-1. `ls -1F` to see all of the files and folders in the GitHub repo, just as you saw them on GitHub
-1. `git status`
+* `cd 18f.gsa.gov` to change directories to `18f.gsa.gov`.
+* `ls -1F` to see all of the files and folders in the GitHub repo, just as you saw them on GitHub
+* `git status`
 
 > This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
 
@@ -173,9 +173,9 @@ Let's go ahead and get you ready to build the site.
 
 * You can do that by typing `./go init`. 
 
-> (This is running a lot of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the programming language ruby that do really specific things. Jekyll is a gem, and our version of Jekyll, needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you.)
+> (This is running a lot of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the programming language ruby that do really specific things. Jekyll is a gem, and our version of Jekyll, needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.)
 
-* To see what the site looks like, you can type `.\go serve`. 
+* To see what the site looks like, you can type `./go serve`. 
 
 > This builds the site and gives you an address where you can visit the site. It should be `127.0.0.1:4000`. You can copy and paste the server address directly into a browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't see anything.
 
