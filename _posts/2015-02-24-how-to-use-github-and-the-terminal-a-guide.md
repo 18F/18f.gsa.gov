@@ -22,15 +22,16 @@ This is a guide that assumes you have no prior knowledge of GitHub or the comman
 
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
-1. [Set Up A Cloned Repo On Your Desktop](#how-to-set-up-a-cloned-repo-on-your-desktop)
+1. [Get Started with Github and the Terminal](#getting-started-with-github-and-the-terminal)
+2. [Install a Package Manager](#how-to-install-a-package-manager)
+2. ["Clone" a "Repo" On Your Desktop](#&quot;cloning&quot;-a-&quot;repo&quot;-on-your-computer)
 2. [Create an SSH Key](#how-to-create-an-ssh-key)
-3. [Read what's in your cloned directory](#how-to-read-what's-in-your-cloned-directory)
-4. [Install a Package Manager](#how-to-install-a-package-manager)
+3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
 5. [Build the 18F Site](#building-the-18f-site)
 6. [Create a Branch](#create-a-branch)
 7. [Edit and Post a Blog Post](#edit-and-post-a-blog-post)
 8. [Add Front Matter](#adding-front-matter)
-9. [Learn how to make a pull request](#learn-how-to-make-a-pull-request)
+9. [Learn how to make a Pull Request](#learn-how-to-make-a-pull-request)
 
 It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
 
@@ -50,19 +51,19 @@ And you should have a window like this when you open it:
 
 ![Screen shot of blank terminal window](/assets/blog/github-tutorial/terminal-window.png)
 
-Most of the next steps are things you only need to do once. It seems like a lot, but it's basically getting everything in place so you can do this very easily in the future. **It's one time only.** Promise. There's a little notification when you're done the one-time only stuff.
+Most of the next steps are things you only need to do once, to set up your computer's developer environment. There's a little notification when you're done with the one-time only stuff.
 
 * In the Terminal type `xcode-select --install` and press return. 
 
-> Terminal is a program that lets you send commands to your computer and `xcode-select --install` is one of those commands. In this guide, whenever you see text that looks like `this`, you're reading a command. Type commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
+> Terminal is a program that lets you send commands to your computer and `xcode-select --install` is one of those commands. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
 
 This particular command installs several tools provided by Apple on your machine. (To learn more about this command, click [here](http://railsapps.GitHub.io/xcode-command-line-tools.html)
 
-> This can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. **But don't shut your computer off while you're gone!**
+> This installation can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. **But don't shut your computer off while you're gone!**
 
 Welcome back! We're going to run a few more commands to get you used to the terminal. If you're already familiar with this, feel free to skip down to [installing a package manager](#how-to-install-a-package-manager).
 
-You're going to hear the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
+You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
 
 1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the direectory in one column.
 2. Now type `cd Documents`: this will take you into your Documents directory. `cd` stands for "**c**hange **d**irectory."
@@ -135,7 +136,7 @@ Now we're going to clone the 18F repo to your local computer. This is so you can
 
 #####How to create an SSH Key
 
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything >except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need >to do this process again.  
+If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything except the $ key.) You only have to do this once. This will be a key that's attached to your computer. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So if you plan to work on these projects on a separate computer, you will need to do this process again.  
 
 ###How to read what's in your cloned directory
 
@@ -158,7 +159,7 @@ If you run into an error here, you need to create what's called an SSH key. You 
 
 * Type `git status` and hit enter. 
 
->This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be >committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
+>This will show you a little bit of information on what you're working on right now. The first thing it tells you is what branch you're on. And you're on `staging`, which is the default. When you commit your branch, you'd be committing the branch to staging. Origin/staging means your branch is up to date with the staging branch on origin. "Nothing to commit / working directory clean" means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
@@ -168,13 +169,13 @@ Let's go ahead and get you ready to build the site.
 
 * You can do that by typing `./go init`. 
 
->(This is running a lot of commands in the background that you don't need to worry about. It's installing >something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is >build the site out for you.) 
+>(This is running a lot of commands in the background that you don't need to worry about. It's installing >something called Ruby Gems. Gems are little bundles of programs that do really specific things. Jekyll, and our version of Jekyll in particular, needs a lot of them to run and make the site work. The last thing it does is build the site out for you.) 
 
 * To see what the site looks like, you can type `.\go serve`. 
 
 >This builds the site and gives you an address where you can visit the site. You can copy and paste the server address from the terminal directly into the browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't be able to do.
 
->**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew >once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale high. Onward!**
+>**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale high. Onward!**
 
 ### Create A Branch 
 
@@ -283,11 +284,11 @@ You will see something that looks like this
 create mode 100644 _posts/2015-02-23-new-post.md
 ```
 
->That means one file changed -- and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for >yourself and you're ready to suggest the change to 18F!
+>That means one file changed -- and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
 
 * Type in `git status` one more time. 
 
->You should see nothing to commit, working directory clean. That's because nothing has changed since the last >commit.
+>You should see nothing to commit, working directory clean. That's because nothing has changed since the last commit.
 
 **Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to GitHub. If you follow these instructions for any project you're working on in GitHub, they will work the same way**
 
