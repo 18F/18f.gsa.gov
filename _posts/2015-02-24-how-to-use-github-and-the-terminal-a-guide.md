@@ -71,15 +71,15 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
 6. Type `pwd`: this command shows you the directory you are currently working in. You should see something like `/Users/your-name/` when you run `pwd`, this is called your _home directory_ and you can always get here by typing `cd ~`.
 
-I like to put all my code in the same directory. So the first thing I do is create a directory called "code"
+I like to put all my Code in the same directory. So the first thing I do is create a directory called "code"
 
 1. `cd ~` to make sure you're in your home directory
-2. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
-3. `cd code` should bring your terminal into your code directory. 
+2. `mkdir Code`: to create the directory called `Code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
+3. `cd Code` should bring your terminal into your Code directory. 
 
-> **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
+> **Pro tip:** You can always get back to your Code directory by typing `cd ~/Code`
 
-![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
+![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/mkdir-code.gif)
 
 ##Turn Your Mac Into A Web Development Machine
 
