@@ -15,10 +15,10 @@ description: "Last Friday, consultant and author Steve Portigal left behind the 
 ---
 
 <p class="authors">
-  by {% author kate %} and {% author nick %}
+  by {% author kate %} and {% author brethauer %}
 </p>
 
-![Steve Portigal presenting at 18F](/assets/portigal-event-image/portigalevent.jpg)
+![Steve Portigal presenting at 18F](/assets/blog/portigal-event-image/portigalevent.jpg)
 
 Last Friday, consultant and author [Steve Portigal](http://www.portigal.com/) left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out.
 
