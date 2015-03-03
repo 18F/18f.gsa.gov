@@ -75,23 +75,23 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 3. Type `ls -1` again to see all the files inside your Documents directory.
 4. Type `ls -1F`: notice a difference? Any item in the list with a `/` at the end is another directory.
 5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
-6. Type `pwd`: this command shows you the directory you are currently working in. You should see something that starts with `/Users/`. The `pwd` command means "**p**resent **w**orking **d**irectory, this is called your _home directory_ and you can always get here by typing `cd ~`.
+6. Type `pwd`: this command shows you the directory you are currently working in. You should see something that starts with `/Users/`. The `pwd` command means "**p**rint **w**orking **d**irectory, this is called your _home directory_ and you can always get here by typing `cd ~`.
 
-I like to put all my GitHub projects in the same directory. So the first thing I do is create a directory called "code"
+I like to put all my GitHub projects in the same directory. So **the first thing I do is create a directory called "code":**
 
 1. `cd ~` to make sure you're in your home directory
-2. `mkdir code`: to create the directory called `Code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
-3. `cd Code` should bring your terminal into your Code directory. 
+2. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
+3. `cd code` should bring your terminal into your code directory. 
 
-> **Pro tip:** You can always get back to your Code directory by typing `cd ~/code`
+> **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
-![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/mkdir-code.gif)
+![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
 
 ## "Cloning" a "Repo" on your computer
 
 * First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
 
-Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
+Now we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
 
 In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
@@ -101,9 +101,9 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard.
 
-> Note: If you are not on the 18F team but following these directions, you will need to "fork" this repo in order to follow the rest of the steps below. You can fork this repo by visiting: [https://github.com/18F/18f.gsa.gov/fork/](https://github.com/18F/18f.gsa.gov/fork/). Then, use the SSH link for _your_ fork. GitHub's documentation has more [information about forks and how to use them](https://help.github.com/articles/fork-a-repo/).
+> **If you are not on the 18F team but following these directions,** you will need to "fork" this repo in order to follow the rest of the steps below. You can fork this repo by visiting: [https://github.com/18F/18f.gsa.gov/fork/](https://github.com/18F/18f.gsa.gov/fork/). Then, use the SSH link for _your_ fork instead of the one above. GitHub's documentation has more [information about forks and how to use them](https://help.github.com/articles/fork-a-repo/).
 
-* Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer.
+* Type in `git clone ` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer.
 
 ![screenshot: cloning repo](/assets/blog/github-tutorial/git-clone.gif)
 
@@ -134,7 +134,7 @@ In your terminal, enter the following commands:
 This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
 
 * _"On branch staging"_ tells you what branch you are currently working on (remember it's `staging` by default). If you made any changes and commited them, you'd commit them to the `staging` branch.
-* _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin". A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
+* _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin." A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
 * _"Nothing to commit / working directory clean"_ means you're completely up to date and haven't made any changes.
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
@@ -197,9 +197,11 @@ The next step is to add what's called front matter. This is metadata for the blo
 
 ```yaml
 ---
-title: New post
+title: "How the 18F Website Team Uses GitHub: A Tutorial"
 layout: post
-author: melody, boone
+author: 
+- melody
+- boone
 tags:
 - GitHub
 - Tutorial
@@ -297,3 +299,5 @@ Whenever you run `git pull` you ask GitHub to download the most recent changes. 
 Once you are all up to date, always remember to create a new branch before making any new changes.
 
 > If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
+
+_{% author moncef %} contributed significantly to this post, helping us shape it and find our mistakes._
