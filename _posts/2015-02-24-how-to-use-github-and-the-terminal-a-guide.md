@@ -29,7 +29,7 @@ Every step will be illustrated with a helpful screenshot or animated gif that sh
 3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
 4. [Build the 18F Site](#building-the-18f-site)
 6. [Create a Branch](#create-a-branch)
-7. [Edit and Post a Blog Post](#edit-and-post-a-blog-post)
+7. [Edit and Commit a Blog Post](#edit-and-commit-a-blog-post)
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn how to make a Pull Request](#learn-how-to-make-a-pull-request)
 
@@ -75,7 +75,7 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
 6. Type `pwd`: this command shows you the directory you are currently working in. You should see something that starts with `/Users/`. The `pwd` command means "**p**resent **w**orking **d**irectory, this is called your _home directory_ and you can always get here by typing `cd ~`.
 
-I like to put all my Code in the same directory. So the first thing I do is create a directory called "code"
+I like to put all my GitHub projects in the same directory. So the first thing I do is create a directory called "code"
 
 1. `cd ~` to make sure you're in your home directory
 2. `mkdir code`: to create the directory called `Code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
@@ -99,23 +99,23 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard.
 
+> Note: If you are not on the 18F team but following these directions, you will need to "fork" this repo in order to follow the rest of the steps below. You can fork this repo by visiting: [https://github.com/18F/18f.gsa.gov/fork/](https://github.com/18F/18f.gsa.gov/fork/). Then, use the SSH link for _your_ fork. GitHub's documentation has more [information about forks and how to use them](https://help.github.com/articles/fork-a-repo/).
+
 * Type in `git clone` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer.
 
 ![screenshot: cloning repo](/assets/blog/github-tutorial/git-clone.gif)
 
-### How to create an SSH Key
-
-If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you automatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again.
+> If you run into an error here and you haven't used the Laptop script mentioned above, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you automatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again.
 
 ### Branching and pull requests
 
-* Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) repo from your browser.
+Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) repo from your web browser.
 
-> On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing 18F's `18f.gsa.gov` GitHub repo how some of this works. At the top of that window, you can see a dropdown that says `branch: staging`.
+On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing 18F's `18f.gsa.gov` GitHub repo how some of this works. At the top of that window, you can see a dropdown that says "branch: *staging*."
 
-* If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Every time you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've called that branch the default branch.
+If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Every time you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've made that branch the default.
 
-Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to the "default" branch, or the main sandbox everybody bases their work off of. In our case, we called that main sandbox "staging." In other projects, you might see it called "master."
+Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to another. Usually we issue pull requests to the default branch. This opens a conversation about your contribution and if the team decides it's okay we will "merge" the pull request and include your work. The default branch on 18f.gsa.gov is "staging." In other projects, you might see it called "master."
 
 In the next step we're going to create a branch, and later on, when you make a pull request, GitHub will automatically assume you're trying to contribute to the staging branch.
 
@@ -129,7 +129,7 @@ In your terminal, enter the following commands:
 * `ls -1F` to see all of the files and folders in the GitHub repo, just as you saw them on GitHub
 * `git status`
 
-> This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
+This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
 
 * _"On branch staging"_ tells you what branch you are currently working on (remember it's `staging` by default). If you made any changes and commited them, you'd commit them to the `staging` branch.
 * _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin". A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
@@ -137,27 +137,29 @@ In your terminal, enter the following commands:
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
-###Building the 18F Site
+## Building the 18F Site
 
 Let's go ahead and get you ready to build the site.
 
 * You can do that by typing `./go init`.
 
-> (This is running a lot of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the Ruby programming language that do really specific things. Jekyll is a gem, and our version of Jekyll, needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.)
+> This command runs bunch of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the Ruby programming language that do really specific things. [Jekyll](http://jekyllrb.com) is a gem we use to create the 18f.gsa.gov website, and our version of it needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.
+
+"Building" the site is a process where Jekyll takes all the information in the 18f.gsa.gov directory and creates webpages in a directory called `_site`. If you want to just build the site, type `./go build`.
 
 * To see what the site looks like, you can type `./go serve`.
 
-> This builds the site and gives you an address where you can visit the site. It should be `127.0.0.1:4000`. You can copy and paste the server address directly into a browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't see anything.
+> This command "builds" the site and gives you an address where you can visit it to see any changes you made. It should be `127.0.0.1:4000`. You can copy and paste that directly into a browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't see anything.
 
->**Congratulations! A lot of the steps that you've just done are one time steps. You only have to install Homebrew once. You only have to make SSH keys once. You only have to clone the repo once. Just wanted to keep your morale high. Onward!**
+>**Congratulations! A lot of the steps that you've just done are one time steps. You only have to run the `laptop` script once. You only have to clone the repo once. And you only need to run `./go init` once. Just wanted to keep your morale high. Onward!**
 
 ### Create A Branch
 
 Okay. Now you're ready to start editing.
 
-* Open up a text editor suitable for web development, such as [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/), but not TextEdit.
+* Open up a text editor suitable for web development, we use [Sublime Text 3](http://www.sublimetext.com/3) there are other options like [Atom](https://atom.io/), or [`vim`](http://www.vim.org/) but we do not recommend TextEdit or a word processor.
 
-* Now open your copy of 18f.gsa.gov, which is located in the directory `user/code` where `user` is your username.
+* Now click File -> Open in the menu bar and find your copy of 18f.gsa.gov, which is located in the directory `user/code` where `user` is your username.
 
 * Click on 18f.gsa.gov and click open.
 
@@ -169,13 +171,13 @@ Okay. Now you're ready to start editing.
 
 * To create a new branch, type `git checkout -b your-branch-name` (The name of the branch can be anything but it should be descriptive.)
 
-The command `git checkout` tells `git` to work on a different branch. The `-b <branch-name>` tells it to create the branch if it does not exist yet.
+> The command `git checkout` tells `git` to work on a different branch. The `-b <branch-name>` tells it to create the branch if it does not exist yet. You can switch branches by typing `git checkout branch-name`. Try switching back and forth between the branch you just created and staging to see how this works.
 
 * Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
 ![Screenshot: git checkout and status](/assets/blog/github-tutorial/screenshot11.gif)
 
-### Edit and Post a Blog Post
+### Edit and Commit a Blog Post
 
 We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 
@@ -202,11 +204,11 @@ tags:
 - How We Work
 excerpt: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
 description: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
-image:
+image: /assets/blog/new-post/image.jpg
 ---
 ```
 
-A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained) can be found on the 18F Blogging Guide. And now you can start writing a blog post for us on line 16. Say hello! It should look like this:
+A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained) can be found on the 18F Blogging Guide. And now you can start writing a the text of your blog post on line 16. Say hello! It should look like this:
 
 ![Screen Shot: Adding Front Matter and saving the post](/assets/blog/github-tutorial/image15.png)
 
@@ -221,18 +223,17 @@ A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov
 
 * Type `git status` again.
 
-> You'll notice that `git status` shows a section for "untracked files" followed by the name of your blog post. Git has three stages that a file can be in: untracked, staged, or committed. Untracked means git doesn't know anything about it and will not watch for your changes. Your post is currently untracked and we're about to move the file through all three stages to committed.
+> You'll notice that `git status` shows a new section for "untracked files" followed by the name of your blog post. Git has four stages that a file can be in: untracked, modified, staged, and committed. Untracked means git doesn't know anything about it and will not watch for your changes. Your post is currently untracked and we're about to move the file through all four stages until it is "committed".
 
 * Type in `git add _posts/2015-02-23-new-post.md` and hit enter. Make sure to type in your actual filename if it has a different date.
 
-> This moves the file from untracked to staged. You just told `git` to remember the changes you made to this file.
+> This moves the file from untracked to staged. You just told `git` to remember the changes you made to this file. If you make more changes, the file will be "modified" and you will need to run that command again.
 
 * Type `git status` again.
 
 > You'll see that the file is now listed under changes to be committed.
 
 ![Screen Shot: Git Add Post / Status](/assets/blog/github-tutorial/screenshot16.gif)
-
 
 > Well done! At this point, you've told Git that this file should be committed, but you haven't committed anything. So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
 
@@ -246,19 +247,19 @@ You will see something that looks like this
 create mode 100644 _posts/2015-02-23-new-post.md
 ```
 
-> That means one file changed — and it was your blog post! You've officially committed the file. You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
+> That means one file changed — and it was your blog post! Congrats, you've officially committed the file! You're still at the point where only you can see this file, but it's now officially been recorded. You've recorded the change for yourself and you're ready to suggest the change to 18F!
 
 * Type in `git status` one more time.
 
 >You should see `nothing to commit, working directory clean`. That's because nothing has changed since the last commit.
 
-**Note, the following part of these instructions will fail for anyone who is not an 18F employee. We are including them here so you can see what happens when we push the file up to GitHub. If you follow these instructions for any project you're working on in GitHub, they will work the same way**
+> **Note, the following part will work a little differently if you not an 18F team member and are working from a fork. We are including them here so you can see what happens when we push the file up to GitHub. The instructions, as they are written here, will work for any repo you own or any of your forks.**
 
 * Type `git push origin <branch>` (where `<branch>` is the name you gave your branch) and then hit enter.
 
 ![Screen shot: git commit](/assets/blog/github-tutorial/screenshot17.gif)
 
-> This uploads your branch and changes up to the 18f.gsa.gov project on GitHub.
+> This uploads your branch and changes to the 18f.gsa.gov project on GitHub.
 
 * Now, go back to [18F on GitHub](https://github.com/18F/18f.gsa.gov) and you should see that you recently pushed a branch.
 
@@ -274,11 +275,9 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 ![Screen Shot: Creating Pull Request](/assets/blog/github-tutorial/image20.png)
 
-
 > This asks 18F to accept your contribution.
 
 ![Screen Shot: 18F receiving contribution from user](/assets/blog/github-tutorial/image21.png)
-
 
 > You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return to the terminal, make the following a habit:
 
@@ -291,6 +290,8 @@ After you type `git pull` one of two things might happen:
 1. It will either say "It's already to up date"
 2. Or it will start pulling files which keeps your computer up to date. Your computer is downloading only the changes between your computer and GitHub.
 
-If you get the first message it means nothing has changed since the last time you worked on it. If you get the second, it means someone from the 18F team merged another pull request. Whenever you run `git pull` you ask GitHub to download the most recent changes.
+Whenever you run `git pull` you ask GitHub to download the most recent changes. If you get the first message it means nothing has changed since the last time you worked on it. If you get the second, it means someone from the 18F team merged another pull request.
 
-If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
+Once you are all up to date, always remember to create a new branch before making any new changes.
+
+> If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
