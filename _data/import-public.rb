@@ -10,7 +10,7 @@ require 'open-uri'
 DATA_DIR = File.dirname __FILE__
 DATA_BASEURL = 'https://18f.gsa.gov/hub/api/'
 
-['team', 'projects'].each do |category|
+['team', 'projects', 'pif_team', 'pif_projects'].each do |category|
   open("#{DATA_BASEURL}#{category}/") do |data|
     open(File.join(DATA_DIR, "#{category}.json"), 'w') do |f|
       f.write(data.read)

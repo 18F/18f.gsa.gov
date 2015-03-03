@@ -7,7 +7,9 @@ module Jekyll
 
     def render(context)
       teammate = context.registers[:site].data['team'][@author]
-
+      if teammate.nil?
+        teammate = context.registers[:site].data['pif_team'][@author]
+      end
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
           # "<img src=\"/assets/images/team/#{teammate['name']}.jpg\" />" +
