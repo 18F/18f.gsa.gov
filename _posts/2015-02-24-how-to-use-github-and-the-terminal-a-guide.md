@@ -10,20 +10,21 @@ tags:
 - How We Work
 excerpt: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
 description: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
-image: 
+image:
 ---
 
 <p class="authors">
   by {% author melody %} and {% author boone %}
 </p>
 
+At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that our team uses to update the blog and the code that runs the site. We're sharing that with you today.
 
-This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+Because some of the people we hire never used the terminal, GitHub, or any of the tools we use on our team, this is guide assumes you have no prior knowledge of them. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
 
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
+1. [Turn Your Mac into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
 1. [Get Started with Github and the Terminal](#getting-started-with-github-and-the-terminal)
-2. [Turn Your Mac into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
 2. ["Clone" a "Repo" On Your Desktop](#&quot;cloning&quot;-a-&quot;repo&quot;-on-your-computer)
 3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
 4. [Build the 18F Site](#building-the-18f-site)
@@ -32,15 +33,21 @@ Every step will be illustrated with a helpful screenshot or animated gif that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn how to make a Pull Request](#learn-how-to-make-a-pull-request)
 
-It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
+It is worth noting: There are many different ways to do each of these steps. For example, GitHub has an app for Macs, Windows, and Linux you might prefer over the terminal, there are dozens of different text editors, and there are even competitors to GitHub you might prefer. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
-**What you need to get started** a GitHub account, Terminal, Sublime or another text editing program. These instructions are for Macs and Linux-enabled machines. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
+If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
 
-## Getting started with GitHub and the Terminal
+**What you need to get started** [a GitHub account](https://github.com), Mac OS X (we use Yosemite), and [Sublime Text](https://www.sublimetext.com/). These instructions are for primarily for Macs and most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
-* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password. 
+## Turn Your Mac Into A Web Development Machine
 
-* Activate terminal by pressing command + space and search for Terminal to open the terminal. 
+> Using Linux? You can skip this section.
+
+Our colleague [Moncef Belyamani](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.` 
+
+If you'd rather not use the script, you can also [follow the detailed instructions he wrote on his website](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1). Or follow along with this [video](https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video) he prepared with step by step instructions to turn your Mac into a web development machine. To use the script, follow the instructions in text below:
+
+* Activate terminal by pressing command + space and then typing "Terminal" in the search field. 
 
 The terminal icon looks like this: 
 
@@ -50,17 +57,13 @@ And you should have a window like this when you open it:
 
 ![Screen shot of blank terminal window](/assets/blog/github-tutorial/terminal-window.png)
 
-Most of the next steps are things you only need to do once, to set up your computer's developer environment. There's a little notification when you're done with the one-time only stuff.
+* Go to the terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
 
-* In the Terminal type `xcode-select --install` and press return. 
+* Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
 
-> Terminal is a program that lets you send commands to your computer and `xcode-select --install` is one of those commands. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
+## Getting started with GitHub and the Terminal
 
-This particular command installs several tools provided by Apple on your machine. (To learn more about this command, click [here](http://railsapps.GitHub.io/xcode-command-line-tools.html)
-
-> This installation can take a very long time. Even though it's early in the process, might as well take a break or grab lunch. Come back in an hour. **But don't shut your computer off while you're gone!**
-
-Welcome back! We're going to run a few more commands to get you used to the terminal. If you're already familiar with this, feel free to skip down to [installing a package manager](#how-to-install-a-package-manager).
+> Terminal is a program that lets you send commands to your computer and the text you pasted above is an example of how those commands work. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
 
 You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
 
@@ -81,17 +84,9 @@ I like to put all my Code in the same directory. So the first thing I do is crea
 
 ![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/mkdir-code.gif)
 
-##Turn Your Mac Into A Web Development Machine
-
-Our cowork [Monfresh](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.`
-
-This [video](https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video) shows you step by step instructions to turn your Mac into a web development machine. We have also written out the instructions in text below:
-
-* Go to the terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
-
-* Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
-
 ## "Cloning" a "Repo" on your computer
+
+* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
 
 Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
 
