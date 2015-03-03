@@ -20,14 +20,16 @@ image:
   by {% author melody %} and {% author boone %}
 </p>
 
-At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today.
+We’ve written before how everything we do is open [from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that, is by building all of our products, from [our blog](https://github.com/18F/18f.gsa.gov/), to the [dashboard](https://github.com/18F/dashboard), to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
 
-Because some of the people we hire never used the tools we use on our team, this is guide assumes you have no prior knowledge of them. We're going to introduce you to both GitHub, the command line (also called Terminal), and how to edit markdown through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. 
 
-Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
+Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to both [GitHub](https://www.github.com), the command line (also called Terminal), and how to edit markdown through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+
+Every step will be illustrated with a helpful screenshot or animated GIF that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
 1. [Turn Your Mac into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
-1. [Get Started with Github and the Terminal](#getting-started-with-github-and-the-terminal)
+1. [Get Started with GitHub and the Terminal](#getting-started-with-github-and-the-terminal)
 2. ["Clone" a "Repo" On Your Desktop](#&quot;cloning&quot;-a-&quot;repo&quot;-on-your-computer)
 3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
 4. [Build the 18F Site](#building-the-18f-site)
