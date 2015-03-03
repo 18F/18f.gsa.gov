@@ -172,7 +172,7 @@ Okay. Now you're ready to start editing.
 
 ![Screen Shot: All of the files that make up the 18F site](/assets/blog/github-tutorial/image10.png)
 
-> We now want to create a branch, or a sandbox where you can make changes to the website. On this team we always work on branches. This allows you to collaborate with teammates without intefering with other people's existing work.
+> We now want to create a branch, or a sandbox where you can make changes to the website. On this team we always work on branches. This allows you to collaborate with teammates without interfering with other people's existing work.
 
 * To create a new branch, type `git checkout -b your-branch-name` (The name of the branch can be anything but it should be descriptive.)
 
