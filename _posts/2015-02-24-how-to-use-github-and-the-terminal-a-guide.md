@@ -17,9 +17,9 @@ image:
   by {% author melody %} and {% author boone %}
 </p>
 
-At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that our team uses to update the blog and the code that runs the site. We're sharing that with you today.
+At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today.
 
-Because some of the people we hire never used the terminal, GitHub, or any of the tools we use on our team, this is guide assumes you have no prior knowledge of them. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+Because some of the people we hire never used the tools we use on our team, this is guide assumes you have no prior knowledge of them. We're going to introduce you to both GitHub, the command line (also called Terminal), and how to edit markdown through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
 
 Every step will be illustrated with a helpful screenshot or animated gif that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
@@ -33,11 +33,7 @@ Every step will be illustrated with a helpful screenshot or animated gif that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn how to make a Pull Request](#learn-how-to-make-a-pull-request)
 
-<<<<<<< HEAD
-It is worth noting: There are many different ways to do each of these steps. For example, GitHub has an app for Macs, Windows, and Linux you might prefer over the terminal, there are dozens of different text editors, and there are even competitors to GitHub you might prefer. This post is a tutorial meant to prepare people to work with 18F's Website team.
-=======
-It is worth noting: There are many different ways to do each of these steps. If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
->>>>>>> origin/fix-typos
+It is worth noting: There are many different ways to do each of these steps. For example, GitHub has an app for Macs, Windows, and Linux, there are dozens of different text editors, and there are even competitors to GitHub you might prefer. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
 If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
 
@@ -47,17 +43,12 @@ If you have an alternative way of doing any of these steps — or have ways to m
 
 > Using Linux? You can skip this section.
 
-<<<<<<< HEAD
+
 Our colleague [Moncef Belyamani](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.` 
 
 If you'd rather not use the script, you can also [follow the detailed instructions he wrote on his website](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1). Or follow along with this [video](https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video) he prepared with step by step instructions to turn your Mac into a web development machine. To use the script, follow the instructions in text below:
 
 * Activate terminal by pressing command + space and then typing "Terminal" in the search field. 
-=======
-* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
-
-* Activate terminal by pressing command + space and search for Terminal to open the terminal.
->>>>>>> origin/fix-typos
 
 The terminal icon looks like this:
 
@@ -67,13 +58,7 @@ And you should have a window like this when you open it:
 
 ![Screen shot of blank terminal window](/assets/blog/github-tutorial/terminal-window.png)
 
-<<<<<<< HEAD
 * Go to the terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
-=======
-Most of the next steps are things you only need to do once, to set up your computer's developer environment. There's a little notification when you're done with the one-time only stuff.
-
-* In the Terminal type `xcode-select --install` and press return.
->>>>>>> origin/fix-typos
 
 * Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
 
@@ -88,35 +73,16 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 3. Type `ls -1` again to see all the files inside your Documents directory.
 4. Type `ls -1F`: notice a difference? Any item in the list with a `/` at the end is another directory.
 5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
-6. Type `pwd`: this command shows you the directory you are currently working in. You should see something like `/Users/your-name/` when you run `pwd`, this is called your _home directory_ and you can always get here by typing `cd ~`.
+6. Type `pwd`: this command shows you the directory you are currently working in. You should see something that starts with `/Users/`. The `pwd` command means "**p**resent **w**orking **d**irectory, this is called your _home directory_ and you can always get here by typing `cd ~`.
 
 I like to put all my Code in the same directory. So the first thing I do is create a directory called "code"
 
 1. `cd ~` to make sure you're in your home directory
-<<<<<<< HEAD
-2. `mkdir Code`: to create the directory called `Code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
+2. `mkdir code`: to create the directory called `Code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
 3. `cd Code` should bring your terminal into your Code directory. 
-=======
-1. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
-1. `cd code` should bring your terminal into your code directory.
 
-> **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
+> **Pro tip:** You can always get back to your Code directory by typing `cd ~/code`
 
-![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
-
-## How to Install a Package Manager
-
-> Now we have to install a package manager. Package managers help install, upgrade, configure and remove different programs that we need to work with GitHub. We're going to use [Homebrew](http://brew.sh/) for programs like `git` and `rvm` to help us work with the programming language ruby.
-
-* Paste `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` at the terminal prompt.
-
-* You'll likely be asked for your password. This needs to be an admininstrator's password on your computer. (If you're the only user on the computer, it's your password.)
-
->>>>>>> origin/fix-typos
-
-> **Pro tip:** You can always get back to your Code directory by typing `cd ~/Code`
-
-<<<<<<< HEAD
 ![Screenshot: typing in mkdir Code](/assets/blog/github-tutorial/mkdir-code.gif)
 
 ## "Cloning" a "Repo" on your computer
@@ -124,34 +90,6 @@ I like to put all my Code in the same directory. So the first thing I do is crea
 * First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
 
 Now that you have ruby installed at the correct version we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
-=======
-
-> If you see a warning message at this point, it means you may have the wrong version of Ruby. So we need to update your version of Ruby.
-
-1. Copy and paste this into your terminal and hit enter: `\curl -sSL https://get.rvm.io | bash -s stable`
-
-![Screenshot: installing rvm](/assets/blog/github-tutorial/installing-rvm.gif)
-
-* You're not quite done yet, your need to run another command before you can use rvm, it will be a little different for everyone so look up a few lines in your terminal for a line that starts with:
-
-```
-* To start using RVM, you need to run `source /Users/yourusername/.rvm/scripts/rvm`
-```
-
-The `yourusername` part is the username on your computer. It should look like what we circled below:
-
-![Screen Shot: To start using RVM, you need to run source /Users/yourusername/.rvm/scripts/rvm](/assets/blog/github-tutorial/image8.png)
-
-* Copy everything between the ``` symbols and paste it into your terminal and press return.
-
-* You can check your Ruby install by typing in `ruby --version` on the command line. You should see `ruby-2.2.0`.
-
-![screen shot: ruby --version](/assets/blog/github-tutorial/ruby---version.png)
-
-## "Cloning" a "Repo" on your computer
-
-Now that you have the latest version of Ruby installed, we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called [Git](http://git-scm.com/). In this section you'll see the words "clone," "repository," and its shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned, you can make changes on your computer without affecting the project as it exists on GitHub.
->>>>>>> origin/fix-typos
 
 In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
@@ -165,12 +103,9 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 ![screenshot: cloning repo](/assets/blog/github-tutorial/git-clone.gif)
 
-<<<<<<< HEAD
-=======
 ### How to create an SSH Key
 
 If you run into an error here, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.GitHub.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you automatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again.
->>>>>>> origin/fix-typos
 
 ### Branching and pull requests
 
