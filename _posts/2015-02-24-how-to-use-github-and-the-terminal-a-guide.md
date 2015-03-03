@@ -1,7 +1,7 @@
 ---
 title: "How To Use GitHub and the Terminal: A Guide"
 layout: post
-date: 2015-03-04
+date: 2015-03-03
 author:
 - melody
 - boone
