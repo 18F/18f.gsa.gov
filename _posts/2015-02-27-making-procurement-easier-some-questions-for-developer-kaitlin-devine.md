@@ -1,7 +1,7 @@
 ---
 title: "Making Procurement Easier: Some Questions For Developer Kaitlin Devine"
 layout: post
-image: /assets/blog/
+image: /assets/images/team/kaitlin.jpg
 tags:
 - 18F
 - Discovery
