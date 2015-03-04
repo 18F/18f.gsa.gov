@@ -11,8 +11,8 @@ tags:
 - How We Work
 - 18F
 - blog
-excerpt: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today."
-description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today."
+excerpt: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
+description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
 image: /assets/blog/github-tutorial/image21.png
 ---
 
@@ -24,7 +24,7 @@ We’ve written before how everything we do is open [from day 1](https://18f.gsa
 
 We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site.
 
-Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to [GitHub](https://www.github.com), the command line (also called Terminal), and [Markdown](http://en.wikipedia.org/wiki/Markdown) through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to [GitHub](https://www.github.com), the command line (also called Terminal on OS X), and [Markdown](http://en.wikipedia.org/wiki/Markdown) through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
 
 Every step will be illustrated with a helpful screenshot or animated GIF that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
@@ -37,11 +37,11 @@ Every step will be illustrated with a helpful screenshot or animated GIF that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn How to Make a Pull Request](#learn-how-to-make-a-pull-request)
 
-It is worth noting: There are many different ways to do each of these steps. For example, GitHub has an app for Macs, Windows, and Linux, there are dozens of different text editors, and there are even competitors to GitHub you might prefer. This post is a tutorial meant to prepare people to work with 18F's Website team.
+> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), [Google Code](https://code.google.com/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
 If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
 
-**What you need to get started:** [a GitHub account](https://github.com), Mac OS X (we use Yosemite), and [Sublime Text](https://www.sublimetext.com/). These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
+**What you need to get started:** [a GitHub account](https://github.com), Mac OS X, and [Sublime Text](https://www.sublimetext.com/). These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
 ## Turn Your Mac Into a Web Development Machine
 
@@ -91,7 +91,7 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 ## Clone a Repo on Your Computer
 
-* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
+* First, you want to log into GitHub. Go to [https://github.com/login](https://github.com/login) and sign in with your username and password.
 
 Now we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called [Git](http://git-scm.com/). In this section you'll see the words "clone," "repository," and its shortened form, "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned, you can make changes on your computer without affecting the project as it exists on GitHub.
 
@@ -165,7 +165,7 @@ Okay. Now you're ready to start editing.
 
 * Now click File -> Open in the menu bar and find your copy of 18f.gsa.gov, which is located in the directory `user/code` where `user` is your username.
 
-* Click on 18f.gsa.gov and click open.
+* Click on 18f.gsa.gov and click "open."
 
 **Voila! You can now see all of the files that make up the site.** It should look like this.
 
