@@ -146,6 +146,8 @@ This last command will show you a little bit of information about what you're wo
 
 Let's go ahead and get you ready to build the site.
 
+* First run `rvm install 2.2.0` to get the correct version of ruby on your
+  mac.
 * You can do that by typing `./go init`.
 
 > This command runs bunch of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the Ruby programming language that do really specific things. [Jekyll](http://jekyllrb.com) is a gem we use to create the 18f.gsa.gov website, and our version of it needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.
