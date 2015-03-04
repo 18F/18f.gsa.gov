@@ -25,13 +25,14 @@ This first release is geared for use with GSA’s newly released [OASIS vehicle]
 
 ![Screen: Discovery Homepage](/assets/blog/discovery-launch/discovery-intro.gif)
 
-###Who Is it for?
+###Who is it for?
+
 *Discovery is built for two main groups of users:*
 
 + **Federal acquisition personnel**, including: Contract Officers, Contract Specialists, Project Managers, etc. Discovery will help these users understand the potential vendor community around a certain category or work, to understand if OASIS is a viable vehicle, and to identify opportunities to award to vendors with certain socioeconomic setasides.
 + Vendors interested in identifying potential subcontracting partners.
 
-###How we built discovery
+###How we built Discovery
 
 Discovery was built with *user-centered* processes, meaning we conducted a significant amount of user research around the contracting process and related issues before writing any code. Every two weeks we built a working iteration and tested it with users, who helped shape the tool and ground it with real needs.
 
@@ -48,5 +49,5 @@ We pulled together several government open data sets to fundamentally make the t
    Please [get in touch](mailto:discovery-18f@gsa.gov)!
 
 Learn more:
-   Visit Discovery’s [Github repo](https://github.com/18F/discovery).
+   Visit Discovery’s [GitHub repo](https://github.com/18F/discovery).
    Learn more about the [OASIS program](http://www.gsa.gov/portal/content/161367).
