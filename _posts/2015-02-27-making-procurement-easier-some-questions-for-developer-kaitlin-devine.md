@@ -2,6 +2,7 @@
 title: "Making Procurement Easier: Some Questions For Developer Kaitlin Devine"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
+date: 2015-03-05
 tags:
 - Procurement
 - Discovery
