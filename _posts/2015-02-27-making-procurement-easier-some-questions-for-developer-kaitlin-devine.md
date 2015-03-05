@@ -1,9 +1,9 @@
 ---
 title: "Making Procurement Easier: Some Questions For Developer Kaitlin Devine"
 layout: post
-image: /assets/images/team/kaitlin.jpg
+image: /assets/blog/discovery-launch/discovery-dashboard.png 
 tags:
-- 18F
+- Procurement
 - Discovery
 - Kaitlin Devine
 - User Research
@@ -12,8 +12,8 @@ author:
 - Greg Boone
 - Elaine Kamlley
 - Melody Kramer
-excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about government procurement. Devine has been working on a project to make the procurement process a lot more efficient within GSA."
-description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about government procurement. Devine has been working on a project to make the procurement process a lot more efficient within GSA."
+excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
+description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 ---
 
 <p class="authors">
@@ -27,8 +27,7 @@ We recently sat down with developer Kaitlin Devine and asked her a few
 questions about 18F and government procurement. Not familiar with the term
 procurement? It basically means buying stuff. A self-described
 “procurement nerd,” Kaitlin has been working on a project to make the
-procurement process a lot more efficient within GSA. It’s called Discovery and set to launch
-in a few weeks.
+procurement process a lot more efficient within GSA. It’s called [Discovery](https://discovery.gsa.gov/) and [recently launched in March](https://18f.gsa.gov/2015/03/04/annoucing-oasis-discovery-making-market-research-easier/).
 
 **What do you do at 18F and why did you want to work here?**
 
@@ -50,7 +49,9 @@ government?**
 Probably my elevator pitch would be that it’s an Angie’s List for
 government contractors.
 
-**So it’s a way for government contractors to find out information? **
+![Screen: Discovery Homepage](/assets/blog/discovery-launch/discovery-intro.gif)
+
+**So it’s a way for government contractors to find out information?**
 
 Discovery is a way for contracting officers to look for qualified
 vendors. In government, it’s important to see how many vendors there are
@@ -174,7 +175,7 @@ because the well was going dry in terms of finding users to interview,
 so that helped us expand the pool to find people who could give us more
 feedback on it. The user feedback is the linchpin of this whole process.
 
-**How many people will use this tool once it’s out in the wild? **
+**How many people will use this tool once it’s out in the wild?**
 
 A lot? I don’t know. Probably thousands. It’s a procurement vehicle that
 is accessible to anyone in government, not just the GSA.
