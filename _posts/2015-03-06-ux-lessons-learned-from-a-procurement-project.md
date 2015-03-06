@@ -6,7 +6,6 @@ date: 2015-03-06
 tags:
 - Procurement
 - Discovery
-- Nick Brethauer
 - User Research
 - Interview
 author:
