@@ -21,8 +21,6 @@ description: "We recently sat down with developer Kaitlin Devine and asked her a
   by {% author boone %} and {% author elaine %} and {% author melody %}
 </p>
 
-**Making Procurement Easier: Some Questions For Developer Kaitlin
-Devine**
 
 We recently sat down with developer Kaitlin Devine and asked her a few
 questions about 18F and government procurement. Not familiar with the term
