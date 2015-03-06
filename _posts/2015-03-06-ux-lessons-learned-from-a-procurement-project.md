@@ -75,7 +75,7 @@ of these to tackle to learn more, and breaking all of it down into
 testable hypotheses. We also do lots of team design studios/sketching,
 and then together test each iteration with our users.
 
-**Are you asking people questions? **
+**Are you asking people questions?**
 
 Well, I ask questions, but I also observe people doing their work. That
 happens in different ways depending on what stage of a project you’re
@@ -100,7 +100,7 @@ make us think ‘Oh, we need to follow up on how they manage their
 documents’ or something like that.
 
 **So they would say something like ‘I have trouble managing my
-documents’ and then you would say….**
+documents’ and then you would say…**
 
 They wouldn’t always be that explicit about it. A lot of times, you have
 to read into things and probe a little bit and ask specific questions
@@ -117,7 +117,7 @@ potential problems to focus on. That’s when you can start getting more
 specific with the types of questions that you’re asking.
 
 **So after you learned all about procurement, how would you describe
-what contracting officer do to people who don’t work in government? **
+what contracting officer do to people who don’t work in government?**
 
 The term procurement covers a whole lot. The simplest way to describe a
 procurement officer’s job is to say that they buy things on behalf of
@@ -223,7 +223,7 @@ times. You can only learn so much when you’re developing a software
 product and then you have to get it into people’s hands and go back and
 revisit.
 
-**So where’s the project now and where’s it going to go? **
+**So where’s the project now and where’s it going to go?**
 
 It was just released. And we’re collecting data, we’ve got analytics on
 it, so we’re going to collect data and continue building up a user
@@ -241,7 +241,7 @@ time? Discovery will also lead to people making better decisions, which
 means cost savings and ultimately better services.
 
 **What do you think the most exciting thing you’ve learned during this
-project? **
+project?**
 
 I think my biggest takeaway is that if you can improve procurement, you
 improve so many things. You improve, like, everything. The scale of
