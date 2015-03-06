@@ -22,9 +22,7 @@ description: "UX designer Nick Brethauer talks about how user research better in
 
 
 UX designer Nick Brethauer has spent the past few months working on
-[*Discovery*](https://discovery.gsa.gov/),
-
-a website that makes the procurement process a lot easier for GSA’s
+[*Discovery*](https://discovery.gsa.gov/), a website that makes the procurement process a lot easier for GSA’s
 contracting officers — the people who are responsible for buying
 products and services for the federal government. Discovery lets these
 contracting officers find and sort vendors based on their experience
