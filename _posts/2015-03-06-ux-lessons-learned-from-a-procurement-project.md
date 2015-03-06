@@ -260,7 +260,7 @@ think that’s really huge. 18F, by doing that, is supporting the voices
 around government that have been advocating for better digital
 practices. I think that’s really cool.
 
-***(Related —*** [****Making Procurement Easier: Some Questions with
+(Related — [Making Procurement Easier: Some Questions with
 18F’s Kaitlin
-Devine****](https://18f.gsa.gov/2015/03/05/making-procurement-easier-some-questions-for-developer-kaitlin-devine/)***.)***
+Devine](https://18f.gsa.gov/2015/03/05/making-procurement-easier-some-questions-for-developer-kaitlin-devine/).)
 
