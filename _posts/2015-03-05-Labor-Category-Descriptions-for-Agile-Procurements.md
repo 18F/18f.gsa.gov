@@ -2,6 +2,7 @@
 title: "Labor Category Descriptions for Agile Procurements"
 layout: post
 image: ""
+date: 2015-03-10
 tags:
 - 18F
 - agile
