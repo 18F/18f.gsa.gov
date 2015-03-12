@@ -489,6 +489,41 @@ $tiniest: new-breakpoint(max-width 390px);
 			margin:none;
 		}
 	}
+	.align-right {
+		float:right;
+		max-width: 60%;
+		margin: 0 1em 0 0;
+		@include media($small) {
+			float: right;
+			max-width: 40%;
+			margin: 0 1em 0 0;
+		}
+		@include media($tiniest);
+		@include media($tiny) {
+			max-width: 100%;
+			float: none;
+			margin:none;
+		}
+	}
+	.align-center {
+		max-width: 60%;
+		margin: 0 auto;
+		display: block;
+		@include media($small) {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		@include media($tiniest);
+		@include media($tiny) {
+			max-width: 100%;
+			float: none;
+			margin:none;
+		}
+	}
+	div.align-center {
+		max-width: 100%;
+		display: inline-block;
+	}
 }
 
 .blog-pagination,
