@@ -17,7 +17,7 @@ description: "In preparation for our one-year anniversary, we at 18F are introdu
   by {% author kate %}
 </p>
 
-![Kate Garklavs](/assets/blog/kate.jpg)
+![Kate Garklavs](/assets/blog/day-in-life-content/kate.jpg)
 
 In preparation for our one-year anniversary, we at 18F are introducing a new blog feature — our **Day in the Life** Series. Once a month, a different team member will share the details of their typical day in the office. (Well, there are no “typical” days here — only extraordinary ones — but you get the gist.) 
 
@@ -33,7 +33,7 @@ On that note, let’s get a glimpse at what a day on the 18F content team is lik
 
 **9:30 AM:** At 9:30, I join my colleagues for the weekly all hands meeting. We’re part of a distributed workforce, and so when the entire group convenes, we do so via digital means (VTC). Every Tuesday, the group meets to discuss major events, project successes, and other news. This weekly meeting is a great way to learn more about what different projects are up to and to touch base with colleagues, wherever they hang their metaphorical hats.
 
-![all hands meeting](/assets/blog/allhands.jpg)
+![all hands meeting](/assets/blog/day-in-life-content/allhands.jpg)
 
 **10:00 AM:** Right after the all hands, I meet up with the MyUSA team for our weekly sprint planning meeting. What’s a sprint? I’m glad you asked! In agile parlance, a sprint is a short period of time (usually a week or two) during which a project team aims to complete a fixed number of tasks. It’s an organizational tool that helps teams break down larger projects into smaller, more achievable tasks.
 
@@ -47,13 +47,13 @@ During today’s huddle, a coworker asks for advice on how to write about part o
 
 **Noon:** After a busy morning, I’m ready to step away from my screen and put some food in my face. Lunch around these parts is always a lively event. I tend to bring my lunch — when I’m not writing or reading, I’m trying new recipes — but on Thursdays, the SF team has its weekly potluck.
 
-![making tortillas] (/assets/blog/tacos1.jpg) 
+![making tortillas] (/assets/blog/day-in-life-content/tacos1.jpg) 
 
 Does the term potluck cause you to wrinkle your nose or reflexively cast a withering glance at whomever spoke the word? Don’t be fooled: Our potlucks are second to none. Some weeks, we assemble a feast from food-truck fare (though we have some dedicated home cooks, as well). Recently, we held our first themed potluck: Taco Thursday. The spread featured tortillas, carnitas, black beans and kale, guacamole, salsas rojo and verde, fried plantains, and eggs and nopales — all homemade, to boot. 
 
 At 18F, the spirit of innovation prevails, even in our approach to lunch. 
 
-![delicious homemade taco] (/assets/blog/taco2.jpg)
+![delicious homemade taco] (/assets/blog/day-in-life-content/tacos2.jpg)
 
 **1:00 PM:** With lunch over, it’s time to get back to work. After a quick check of the inbox, I start some revisions of site copy for openFOIA, which helps folks make [FOIA] (http://www.foia.gov/) (Freedom of Information Act) requests more easily and efficiently. 
 
