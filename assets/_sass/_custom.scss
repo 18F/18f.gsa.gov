@@ -520,6 +520,10 @@ $tiniest: new-breakpoint(max-width 390px);
 			margin:none;
 		}
 	}
+	div.align-center {
+		max-width: 100%;
+		display: inline-block;
+	}
 }
 
 .blog-pagination,

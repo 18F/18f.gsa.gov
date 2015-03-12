@@ -45,15 +45,14 @@ During sprint planning, each team member reviews what they did during the previo
 
 During today’s huddle, a coworker asks for advice on how to write about part of a project that didn’t pan out, but in a way that doesn’t upset the client. I recommend leading in by discussing parts of the project that did work out, as well as reframing the mishap: that is, describing how it allowed the project to pivot (and move in a more successful direction). I also remind my colleague to send the client his draft before sending the draft for additional approval; getting your subject’s thumbs-up before publication is vital to maintaining successful relationships. 
 
-<img alt="making tortillas" src="/assets/blog/day-in-life-content/tacos1.jpg" class="align-right" />
-
 **Noon:** After a busy morning, I’m ready to step away from my screen and put some food in my face. Lunch around these parts is always a lively event. I tend to bring my lunch — when I’m not writing or reading, I’m trying new recipes — but on Thursdays, the SF team has its weekly potluck.
 
 Does the term potluck cause you to wrinkle your nose or reflexively cast a withering glance at whomever spoke the word? Don’t be fooled: Our potlucks are second to none. Some weeks, we assemble a feast from food-truck fare (though we have some dedicated home cooks, as well). Recently, we held our first themed potluck: Taco Thursday. The spread featured tortillas, carnitas, black beans and kale, guacamole, salsas rojo and verde, fried plantains, and eggs and nopales — all homemade, to boot. 
 
 At 18F, the spirit of innovation prevails, even in our approach to lunch. 
 
-<img alt="delicious homemade taco" src="/assets/blog/day-in-life-content/tacos2.jpg" class="align-center" />
+<div class="align-center" ><img alt="making tortillas" src="/assets/blog/day-in-life-content/tacos1.jpg" class="align-left" />
+<img alt="delicious homemade taco" src="/assets/blog/day-in-life-content/tacos2.jpg" class="align-right" /></div>
 
 **1:00 PM:** With lunch over, it’s time to get back to work. After a quick check of the inbox, I start some revisions of site copy for openFOIA, which helps folks make [FOIA] (http://www.foia.gov/) (Freedom of Information Act) requests more easily and efficiently. 
 
