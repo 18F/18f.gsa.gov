@@ -475,7 +475,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	.align-left {
 		float:left;
-		max-width: 60%;
+		max-width: 40%;
 		margin: 0 1em 0 0;
 		@include media($small) {
 			float: left;
@@ -491,7 +491,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	.align-right {
 		float:right;
-		max-width: 60%;
+		max-width: 40%;
 		margin: 0 1em 0 0;
 		@include media($small) {
 			float: right;
