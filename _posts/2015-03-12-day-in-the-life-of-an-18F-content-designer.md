@@ -1,7 +1,7 @@
 ---
 title: "A Day in the Life of an 18F Content Designer"
 layout: post
-image: /assets/blog/day-in-life-content/kate.jpg
+image: /assets/blog/day-in-life-content/kate.JPG
 tags:
 - 18F
 - day in the life
@@ -17,7 +17,7 @@ description: "In preparation for our one-year anniversary, we at 18F are introdu
   by {% author kate %}
 </p>
 
-<img alt="Kate Garklavs" src="/assets/blog/day-in-life-content/kate.jpg" class="align-left" />
+<img alt="Kate Garklavs" src="/assets/blog/day-in-life-content/kate.JPG" class="align-left" />
 
 In preparation for our one-year anniversary, we at 18F are introducing a new blog feature — our **Day in the Life** Series. Once a month, a different team member will share the details of their typical day in the office. (Well, there are no “typical” days here — only extraordinary ones — but you get the gist.) 
 
@@ -33,7 +33,7 @@ On that note, let’s get a glimpse at what a day on the 18F content team is lik
 
 **9:30 AM:** At 9:30, I join my colleagues for the weekly all hands meeting. We’re part of a distributed workforce, and so when the entire group convenes, we do so via digital means (VTC). Every Tuesday, the group meets to discuss major events, project successes, and other news. This weekly meeting is a great way to learn more about what different projects are up to and to touch base with colleagues, wherever they hang their metaphorical hats.
 
-<img alt="all hands meeting" src="/assets/blog/day-in-life-content/allhands.jpg" class="align-center" />
+<img alt="all hands meeting" src="/assets/blog/day-in-life-content/allhands.JPG" class="align-center" />
 
 **10:00 AM:** Right after the all hands, I meet up with the MyUSA team for our weekly sprint planning meeting. What’s a sprint? I’m glad you asked! In agile parlance, a sprint is a short period of time (usually a week or two) during which a project team aims to complete a fixed number of tasks. It’s an organizational tool that helps teams break down larger projects into smaller, more achievable tasks.
 
@@ -51,8 +51,8 @@ Does the term potluck cause you to wrinkle your nose or reflexively cast a withe
 
 At 18F, the spirit of innovation prevails, even in our approach to lunch. 
 
-<div class="align-center" ><img alt="making tortillas" src="/assets/blog/day-in-life-content/tacos1.jpg" class="align-left" />
-<img alt="delicious homemade taco" src="/assets/blog/day-in-life-content/tacos2.jpg" class="align-right" /></div>
+<div class="align-center" ><img alt="making tortillas" src="/assets/blog/day-in-life-content/tacos1.JPG" class="align-left" />
+<img alt="delicious homemade taco" src="/assets/blog/day-in-life-content/tacos2.JPG" class="align-right" /></div>
 
 **1:00 PM:** With lunch over, it’s time to get back to work. After a quick check of the inbox, I start some revisions of site copy for openFOIA, which helps folks make [FOIA] (http://www.foia.gov/) (Freedom of Information Act) requests more easily and efficiently. 
 
