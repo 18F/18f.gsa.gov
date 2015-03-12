@@ -15,8 +15,8 @@ authors:
 description: "The de facto source of skills information, both inside and outside the federal government, is O*NET - the Occupational Information Network, a data collection program that populates and maintains a current database of the detailed characteristics of workers, occupations, and skills."
 excerpt: "The de facto source of skills information, both inside and outside the federal government, is O*NET - the Occupational Information Network, a data collection program that populates and maintains a current database of the detailed characteristics of workers, occupations, and skills."
 ---
- <p class="authors">
-    {% author tgrandison %}
+<p class="authors">
+    by {% author tgrandison %}
 </p>
 
 *Note: The opinions expressed within this post represent only the views
@@ -41,8 +41,7 @@ The de facto source of skills information, both inside and outside the
 federal government, is [*O\*NET*](http://www.onetonline.org/) - the
 Occupational Information Network.
 
-What Is O\*NET?
-===============
+## What Is O\*NET?
 
 O\*NET is a data collection program that populates and maintains a
 current database of the detailed characteristics of workers,
@@ -59,7 +58,7 @@ that have existed (and will continue to exist) in the medium term.
 Examples of some such occupations include firefighter, teacher, and
 lawyer, to name a few.
 
-![The O*Net Content model takes many sources to identify detailed occupations.](onet/image01.jpg)
+![The O*Net Content model takes many sources to identify detailed occupations.](/assets/blog/onet/image01.jpg)
 
 *Fig. 1: O\*NET Content Model*
 
@@ -73,8 +72,7 @@ the 2010 version of the Standard Occupational Classification (SOC)
 mandated by Office of Management and Budget (OMB) for use by all federal
 agencies collecting occupational and labor market information (LMI).
 
-What Is O\*NET Good At?
-=======================
+## What Is O\*NET Good At?
 
 O\*NET is the bedrock of occupational data — some users think of it as a
 one-stop shop for data on occupations that have existed (and will exist)
@@ -82,16 +80,14 @@ for some time. In a phrase, it is the *gold standard* of data on
 occupational skills – data upon which laws are created and an economic
 ecosystem can be built.
 
-How Often Does O\*NET Data Get Updated?
-=======================================
+## How Often Does O\*NET Data Get Updated?
 
 The O\*NET data set gets updated once a year. Currently, this is the
 fastest that comprehensive, consistent, representative, user-centered
 data, which complies with OMB’s Information Quality Guidelines and data
 collection requirements, can be gathered and processed.
 
-How Does O\*NET Collect Its Data, Anyway?
-=========================================
+## How Does O\*NET Collect Its Data, Anyway?
 
 Data collection operations are conducted by RTI International at its
 Operations Center in Raleigh, North Carolina, and at its Survey Support
@@ -118,8 +114,7 @@ At the current funding level \$6.2 million for PY 14 the O\*NET grantee
 updates slightly more than 100 occupations per year with new survey
 data.
 
-Why Use Sampling And Surveys?
-=============================
+## Why Use Sampling And Surveys?
 
 O\*NET currently uses sampling and surveys to gather its massive amounts
 of data because these are the best techniques that also comply with the
@@ -136,28 +131,18 @@ O\*NET was designed specifically to address OMB IQG, including OMB
 information collection request standards, and to correct some fairly
 serious limitations in the Dictionary of Occupational Titles.
 
-What Are Other Foundational Principles of O\*NET?
-=================================================
+## What Are Other Foundational Principles of O\*NET?
 
 In addition to serving as a comprehensive database of occupational data
 and promoting the integrity of said data, O\*NET upholds several other
 principles. These include the following:
 
-1.  **Comprehensiveness** — O\*NET data covers the entire economy,
-    offering information from all occupations in the labor market.
+1.  **Comprehensiveness** — O\*NET data covers the entire economy, offering information from all occupations in the labor market.
+2.  **Consistency** — O\*NET describes each and every occupation consistently, which helps facilitate analysis of skill transferability.
+3.  **Broadly representative** — O\*NET’s data is sampled from across the labor market, the nation, and employing industries.
+4.  **User-centered** — Incumbent workers or occupational experts are the primary respondents to O\*NET’s surveys.
 
-2.  **Consistency** — O\*NET describes each and every occupation
-    consistently, which helpsfacilitate analysis of skill
-    transferability.
-
-3.  **Broadly representative** — O\*NET’s data is sampled from across
-    the labor market, the nation, and employing industries.
-
-4.  **User-centered** — Incumbent workers or occupational experts are
-    the primary respondents to O\*NET’s surveys.
-
-Why Does O\*NET Only Contain Survey-based Data?
-===============================================
+## Why Does O\*NET Only Contain Survey-based Data?
 
 Using survey-based data enables O\*NET to have comprehensive coverage,
 be very representative, enable the data to be validated and cleaned
@@ -166,8 +151,7 @@ variance or error, and to meet the OMB data collection requirements.
 Even though this type of data tends to be higher cost than other data
 types, survey-based data results in average or mean values (by design).
 
-What About Other Types of Data?
-===============================
+## What About Other Types of Data?
 
 There are two other primary types of data that could be included in the
 O\*NET data set — transactional data and crowdsourced data.
@@ -189,8 +173,7 @@ investments in curation and management for them to satisfy the OMB
 Information Quality Guidelines and the O\*NET Foundational Principles,
 which are intended to fix the problems with the DOT.
 
-What Is The Biggest Misconception About O\*NET?
-===============================================
+## What Is The Biggest Misconception About O\*NET?
 
 “*Why isn’t Python an O\*NET Skill?*”, “*Why is Active Listening an
 O\*NET Skill?*”, “*Why are O\*NET Skills so broad and generic?*”
@@ -211,8 +194,7 @@ Activity, Abilities, Tasks, Skills and Knowledge sections of an O\*NET
 occupational profile. In short, Skills are just the tip of the
 occupational iceberg.
 
-What Are The Issues That You Hear Voiced Most About O\*NET?
-===========================================================
+## What Are The Issues That You Hear Voiced Most About O\*NET?
 
 The current set of concerns with the O\*NET program include:
 
@@ -240,14 +222,13 @@ immediately included in the O\*NET database. Only occupations that have
 stood the test of time should be included in an authoritative source;
 upon which regulatory decisions are made.
 
-How Do We Solve These Issues?
-=============================
+## How Do We Solve These Issues?
 
 A public-private partnership that produces a Skills Market Platform
 (SMP) (Fig. 2), which is an open, dynamic, growing, standards-based,
 public-facing platform for skills data.
 
-![Reference architecture for a skills market platform](onet/image00.png)
+![Reference architecture for a skills market platform](/assets/blog/onet/image00.png)
 
 *Fig. 2: Reference Architecture for a Skills Market Platform (SMP)*
 
@@ -287,7 +268,7 @@ The ultimate goal is for the Federal government to facilitate the
 creation of the innovation platform for skills; enabling any American to
 freely and openly leverage a common language and knowledge base.
 
-**What Needs To Be Done **
+**What Needs To Be Done**
 
 The Skills Market Platform relies on an existing:
 
@@ -303,8 +284,7 @@ The Skills Market Platform relies on an existing:
 3.  Skills Innovation Layer (SIL) that allows experimentation with the
     SDS and SNP and enables innovations on top of it.
 
-Call To Action 
-===============
+## Call To Action
 
 Ever wondered what skills a particular certification course gives you?
 Ever debated the true skills details of a job description? Are you
@@ -314,6 +294,4 @@ Data Standard. Donate some programming and design cycles to implementing
 the Skills Network Protocol and or the Skills Innovation Layer. Help
 change the world as we know it.
 
-[![Send an email to get involved.](onet/image02.gif)](mailto:openinnovationhrs@dol.gov)
-
- 
+[![Send an email to get involved.](/assets/blog/onet/image02.gif)](mailto:openinnovationhrs@dol.gov)
