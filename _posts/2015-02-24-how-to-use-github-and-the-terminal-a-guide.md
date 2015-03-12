@@ -11,8 +11,8 @@ tags:
 - How We Work
 - 18F
 - blog
-excerpt: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today."
-description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. We're sharing that with you today."
+excerpt: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
+description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
 image: /assets/blog/github-tutorial/image21.png
 ---
 
@@ -22,38 +22,37 @@ image: /assets/blog/github-tutorial/image21.png
 
 We’ve written before how everything we do is open [from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that, is by building all of our products, from [our blog](https://github.com/18F/18f.gsa.gov/), to the [dashboard](https://github.com/18F/dashboard), to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
 
-We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and proccesses that we use to update the blog and the code that runs the site. 
+We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site.
 
-Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to both [GitHub](https://www.github.com), the command line (also called Terminal), and how to edit markdown through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to [GitHub](https://www.github.com), the command line (also called Terminal on OS X), and [Markdown](http://en.wikipedia.org/wiki/Markdown) through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
 
 Every step will be illustrated with a helpful screenshot or animated GIF that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
-1. [Turn Your Mac into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
-1. [Get Started with GitHub and the Terminal](#getting-started-with-github-and-the-terminal)
-2. ["Clone" a "Repo" On Your Desktop](#&quot;cloning&quot;-a-&quot;repo&quot;-on-your-computer)
-3. [Read what's in your Cloned Directory](#how-to-read-what's-in-your-cloned-directory)
-4. [Build the 18F Site](#building-the-18f-site)
+1. [Turn Your Mac Into a Web Development Machine](#turn-your-mac-into-a-web-development-machine)
+1. [Get Started With GitHub and the Terminal](#getting-started-with-github-and-the-terminal)
+2. [Clone a Repo on Your Computer](#clone-a-repo-on-your-computer)
+4. [Build the 18F Site](#build-the-18f-site)
 6. [Create a Branch](#create-a-branch)
 7. [Edit and Commit a Blog Post](#edit-and-commit-a-blog-post)
 8. [Add Front Matter](#adding-front-matter)
-9. [Learn how to make a Pull Request](#learn-how-to-make-a-pull-request)
+9. [Learn How to Make a Pull Request](#learn-how-to-make-a-pull-request)
 
-It is worth noting: There are many different ways to do each of these steps. For example, GitHub has an app for Macs, Windows, and Linux, there are dozens of different text editors, and there are even competitors to GitHub you might prefer. This post is a tutorial meant to prepare people to work with 18F's Website team.
+> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), [Google Code](https://code.google.com/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
-If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.) 
+If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
 
-**What you need to get started** [a GitHub account](https://github.com), Mac OS X (we use Yosemite), and [Sublime Text](https://www.sublimetext.com/). These instructions are for primarily for Macs and most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
+**What you need to get started:** [a GitHub account](https://github.com), Mac OS X, and [Sublime Text](https://www.sublimetext.com/). These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
-## Turn Your Mac Into A Web Development Machine
+## Turn Your Mac Into a Web Development Machine
 
 > Using Linux? You can skip this section.
 
 
-Our colleague [Moncef Belyamani](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.` 
+Our colleague [Moncef Belyamani](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.`
 
 If you'd rather not use the script, you can also [follow the detailed instructions he wrote on his website](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1). Or follow along with this [video](https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video) he prepared with step by step instructions to turn your Mac into a web development machine. To use the script, follow the instructions in text below:
 
-* Activate terminal by pressing command + space and then typing "Terminal" in the search field. 
+* Activate terminal by pressing command + space and then typing "Terminal" in the search field.
 
 The terminal icon looks like this:
 
@@ -67,34 +66,34 @@ And you should have a window like this when you open it:
 
 * Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
 
-## Getting started with GitHub and the Terminal
+## Getting Started With GitHub and the Terminal
 
-> Terminal is a program that lets you send commands to your computer and the text you pasted above is an example of how those commands work. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
+> Terminal is a program that lets you send commands to your computer, and the text you pasted above is an example of how those commands work. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
 
-You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
+You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer, and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
 
 1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column.
 2. Now type `cd Documents`: this will take you into your Documents directory. `cd` stands for "**c**hange **d**irectory."
 3. Type `ls -1` again to see all the files inside your Documents directory.
 4. Type `ls -1F`: notice a difference? Any item in the list with a `/` at the end is another directory.
-5. Type `cd ../` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
-6. Type `pwd`: this command shows you the directory you are currently working in. You should see something that starts with `/Users/`. The `pwd` command means "**p**rint **w**orking **d**irectory, this is called your _home directory_ and you can always get here by typing `cd ~`.
+5. Type `cd ..` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
+6. Type `pwd`: this command shows you the directory you are currently working in. `pwd` stands for "**p**rint **w**orking **d**irectory." You should see something that starts with `/Users/`, followed by your computer username. This is called your _home directory_ and you can always get here by typing `cd ~`.
 
 I like to put all my GitHub projects in the same directory. So **the first thing I do is create a directory called "code":**
 
 1. `cd ~` to make sure you're in your home directory
 2. `mkdir code`: to create the directory called `code` in your home directory. `mkdir` stands for **M**a**k**e **dir**ectory.
-3. `cd code` should bring your terminal into your code directory. 
+3. `cd code` should bring your terminal into your code directory.
 
 > **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
 ![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
 
-## "Cloning" a "Repo" on your computer
+## Clone a Repo on Your Computer
 
-* First, you want to log into GitHub. Go to [http://github.com/login](https://github.com/login) and sign in with your username and password.
+* First, you want to log into GitHub. Go to [https://github.com/login](https://github.com/login) and sign in with your username and password.
 
-Now we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called `git`. In this section you'll see the words "clone," "repository," and it's shortened form "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned you can make changes on your computer without affecting the project as it exists on GitHub.
+Now we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called [Git](http://git-scm.com/). In this section you'll see the words "clone," "repository," and its shortened form, "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned, you can make changes on your computer without affecting the project as it exists on GitHub.
 
 In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
@@ -112,7 +111,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 > If you run into an error here and you haven't used the Laptop script mentioned above, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you automatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again.
 
-### Branching and pull requests
+### Branching and Pull Requests
 
 Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) repo from your web browser.
 
@@ -120,7 +119,7 @@ On this page you will see a list of files and folders in this project. All of th
 
 If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Every time you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've made that branch the default.
 
-Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to another. Usually we issue pull requests to the default branch. This opens a conversation about your contribution and if the team decides it's okay we will "merge" the pull request and include your work. The default branch on 18f.gsa.gov is "staging." In other projects, you might see it called "master."
+Branches are little sandboxes for other people working on the project to prepare contributions without interfering with the main project. When you're finished prepping, you issue something called a "pull request" from your branch to another. Usually we issue pull requests to the default branch. This opens a conversation about your contribution and if the team decides it's okay, we will "merge" the pull request and include your work. The default branch on 18f.gsa.gov is "staging." In other projects, you might see it called "master."
 
 In the next step we're going to create a branch, and later on, when you make a pull request, GitHub will automatically assume you're trying to contribute to the staging branch.
 
@@ -142,31 +141,31 @@ This last command will show you a little bit of information about what you're wo
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
-## Building the 18F Site
+## Build the 18F Site
 
 Let's go ahead and get you ready to build the site.
 
 * You can do that by typing `./go init`.
 
-> This command runs bunch of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the Ruby programming language that do really specific things. [Jekyll](http://jekyllrb.com) is a gem we use to create the 18f.gsa.gov website, and our version of it needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.
+> This command runs a bunch of commands in the background that you don't need to worry about. It's downloading and installing a few things called "gems." Gems are little bundles of programs written in the Ruby programming language that do really specific things. [Jekyll](http://jekyllrb.com) is a gem we use to create the 18f.gsa.gov website, and our version of it needs to use a few other gems to run and make the site work. The last thing it does is build the site out for you. You should only need to do this once.
 
 "Building" the site is a process where Jekyll takes all the information in the 18f.gsa.gov directory and creates webpages in a directory called `_site`. If you want to just build the site, type `./go build`.
 
 * To see what the site looks like, you can type `./go serve`.
 
-> This command "builds" the site and gives you an address where you can visit it to see any changes you made. It should be `127.0.0.1:4000`. You can copy and paste that directly into a browser to double-check. To stop the server, press CTRL + C. If you try to access the server after pressing CTRL + C, you won't see anything.
+> This command "builds" the site and gives you an address where you can visit it to see any changes you made. It should be `127.0.0.1:4000`, or `http://localhost:4000` for short. You can copy and paste that directly into a browser to double-check. To stop the server, press CTRL + C. If you try to visit `http://localhost:4000` after pressing CTRL + C, you won't see anything.
 
 >**Congratulations! A lot of the steps that you've just done are one time steps. You only have to run the `laptop` script once. You only have to clone the repo once. And you only need to run `./go init` once. Just wanted to keep your morale high. Onward!**
 
-### Create A Branch
+### Create a Branch
 
 Okay. Now you're ready to start editing.
 
-* Open up a text editor suitable for web development, we use [Sublime Text 3](http://www.sublimetext.com/3) there are other options like [Atom](https://atom.io/), or [`vim`](http://www.vim.org/) but we do not recommend TextEdit or a word processor.
+* Open up a text editor suitable for web development. We use [Sublime Text 3](http://www.sublimetext.com/3), but there are other options like [Atom](https://atom.io/) or [`vim`](http://www.vim.org/), but we do not recommend TextEdit or a word processor.
 
 * Now click File -> Open in the menu bar and find your copy of 18f.gsa.gov, which is located in the directory `user/code` where `user` is your username.
 
-* Click on 18f.gsa.gov and click open.
+* Click on 18f.gsa.gov and click "open."
 
 **Voila! You can now see all of the files that make up the site.** It should look like this.
 
@@ -176,7 +175,7 @@ Okay. Now you're ready to start editing.
 
 * To create a new branch, type `git checkout -b your-branch-name` (The name of the branch can be anything but it should be descriptive.)
 
-> The command `git checkout` tells `git` to work on a different branch. The `-b <branch-name>` tells it to create the branch if it does not exist yet. You can switch branches by typing `git checkout branch-name`. Try switching back and forth between the branch you just created and staging to see how this works.
+> The command `git checkout` tells `git` to work on a different branch. The `-b <branch-name>` tells it to create the branch if it does not exist yet. You can switch branches by typing `git checkout branch-name`. Try switching back and forth between the branch you just created and `staging` to see how this works.
 
 * Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
@@ -196,13 +195,13 @@ We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 
 ### Adding Front Matter
 
-The next step is to add what's called front matter. This is metadata for the blog post, extra information Jekyll uses to build parts of the website. It includes things like the title, authors, description, and date. You add front matter by pasting in the following fields starting on line 1 of your text editor:
+The next step is to add what's called front matter. This is metadata for the blog post: extra information Jekyll uses to build parts of the website. It includes things like the title, authors, description, and date. You add front matter by pasting in the following fields starting on line 1 of your text editor:
 
 ```yaml
 ---
 title: "How the 18F Website Team Uses GitHub: A Tutorial"
 layout: post
-author: 
+author:
 - melody
 - boone
 tags:
@@ -215,7 +214,7 @@ image: /assets/blog/how-to-github/image.jpg
 ---
 ```
 
-A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained) can be found on the 18F Blogging Guide. And now you can start writing a the text of your blog post on line 16. Say hello! It should look like this:
+A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained) can be found on the 18F Blogging Guide. And now you can start writing the text of your blog post on line 16. Say hello! It should look like this:
 
 ![Screen Shot: Adding Front Matter and saving the post](/assets/blog/github-tutorial/image15.png)
 
@@ -226,7 +225,7 @@ A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov
 
 > (Don't worry. You are almost done.)
 
-### Learn How To Make A Pull Request
+### Learn How to Make a Pull Request
 
 * Type `git status` again.
 
@@ -260,7 +259,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 >You should see `nothing to commit, working directory clean`. That's because nothing has changed since the last commit.
 
-> **Note, the following part will work a little differently if you not an 18F team member and are working from a fork. We are including them here so you can see what happens when we push the file up to GitHub. The instructions, as they are written here, will work for any repo you own or any of your forks.**
+> **Note, the following part will work a little differently if you're not an 18F team member and are working from a fork. We are including them here so you can see what happens when we push the file up to GitHub. The instructions, as they are written here, will work for any repo you own or any of your forks.**
 
 * Type `git push origin <branch>` (where `<branch>` is the name you gave your branch) and then hit enter.
 
