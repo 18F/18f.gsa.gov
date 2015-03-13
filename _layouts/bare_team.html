@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+{% include flag.html %}
+
+<section class="container bare">
+
+  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/">
+      <i class="icon-18f-logo"></i>
+    </a>
+    <nav>
+      <ul id="team-filter">
+        <li><a href="#" data-sort-value="name">Name</a></li>
+        <li><a href="#">Region</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+    {{ content }}
+  </div>
+
+</section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+</html>

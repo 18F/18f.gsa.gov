@@ -1,0 +1,23 @@
+---
+layout: bare_team
+permalink: /team/
+title: Meet Our Team
+---
+
+<section id="team">
+	<nav class="back">
+		<a href="/">
+			<i class="fa fa-chevron-left"></i>
+			<i class="fa fa-chevron-left"></i> back to 18F home
+		</a>
+	</nav>
+	<div class="container">
+		<h1>18F Team</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div id="team_list">
+	    {% for member in site.data.team %}
+	    	{{ member | with_pic }}
+	    {% endfor %}
+    </div>
+  </div>
+</section>

@@ -28,7 +28,7 @@ module Jekyll
       image = File.join 'assets', 'images', 'team', "#{name}.jpg"
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<div class='bio'>\n
-          <a><img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>\n
+          <a href='/team/#{name}'><img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>\n
           <h1>#{info['full_name']}</h1></a>\n
         </div>"
       end

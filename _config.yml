@@ -51,4 +51,8 @@ jekyll_get:
     cache: true
   - data: pif_projects
     json: 'https://18f.gsa.gov/hub/api/pif_projects/'
-    cache: true
+
+collections:
+  team: 
+    output: true
+    permalink: team/:name/
