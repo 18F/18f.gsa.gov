@@ -72,7 +72,7 @@ devices of different sizes and aspect ratios.
 Although you may someday want to build a native mobile app, you will
 generally want to start with a mobile-friendly website instead.
 
-jQuery API for mocking APIs quickly but epandably
+jQuery API for mocking APIs quickly but dependably
 -------------------------------------------------
 
 One common thread in the projects being considered for 18F Consulting is
