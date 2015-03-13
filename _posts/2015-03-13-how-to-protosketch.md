@@ -85,15 +85,15 @@ meeting might mean "accomplishable in 30 minutes."
 You don't need a working API if you can mock one out with static JSON.
 You can use jQuery to access the file or files to create a design that
 will be structurally similar to one that actually accessed an API or
-database. Javascript allows you to tie any number of simulated
+database. JavaScript allows you to tie any number of simulated
 datasources together into one HTML page.
 
 As a program manager describes the data types of each source, just add
 samples to the JSON files. Soon enough, ask the program manager to
 refresh the page on their laptop or smartphone, and like magic they will
 see their product needs come to life. In many cases, it will be
-worthwhile to optimize Javascript code to nicely render arbitrary JSON.
-In other words, the less your Javascript knows about your data, the more
+worthwhile to optimize JavaScript code to nicely render arbitrary JSON.
+In other words, the less your JavaScript knows about your data, the more
 flexibly you can sketch in sample data.
 
 Making Data Malleable
@@ -116,7 +116,7 @@ Although Graham was extolling the benefits of LISP in that essay, the
 same lesson applies to protosketching tools. Select tools and design
 code so that you feel comfortable not just expressing your own ideas
 about what should be built, but being an instrument for the program
-manager's or end-user's vision. Javascript and mock APIs gives us this
+manager's or end-user's vision. JavaScript and mock APIs gives us this
 freedom.
 
 Render Rapidly by Using Public or Fake Data
