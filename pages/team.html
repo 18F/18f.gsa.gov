@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /team/
+title: Meet Our Team
+---
+
+<section>
+  <div id="team" class="header">
+    <div class="container-fluid">
+      <h1>&lt; team /&gt;</h1>
+    </div>
+  </div>
+  <div class="container team">
+    {% for member in site.data.team %}{{ member | with_pic }}{% endfor %}
+  </div>
+</section>
