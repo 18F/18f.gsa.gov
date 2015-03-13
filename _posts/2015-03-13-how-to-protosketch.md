@@ -79,7 +79,7 @@ One common thread in the projects being considered for 18F Consulting is
 a desire to integrate disparate data sources into a single application
 or dashboard-like interface. If feasible, a protosketch could and should
 connect to these data sources via an API to provide a near real-world
-demonstration of the desired product. Feasible withing a protosketching
+demonstration of the desired product. Feasible within a protosketching
 meeting might mean "accomplishable in 30 minutes."
 
 You don't need a working API if you can mock one out with static JSON.
