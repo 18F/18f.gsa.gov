@@ -23,7 +23,7 @@ This post is a follow-on to the 18F blog post:[
 Protosketching"*](https://18f.gsa.gov/2015/01/06/protosketch/), which
 concludes:
 
-If you are a leading a project, ask for a protosketch. If you are a
+> If you are a leading a project, ask for a protosketch. If you are a
 developer, learn to protosketch. Create imagination-sparking moments, in
 the meeting. Give your team the freedom to play — with ideas, code and
 data. Minimize risk to your project and the American taxpayer by quickly
@@ -41,11 +41,11 @@ Publicize Your Work with GitHub Pages
 Your basic goal is to demonstrate possibilities rapidly. You can do this
 on your personal computer and have people crowd around it---but it is
 far more compelling to create an internet-accessible URL that your
-paricipants can view on their own devices. A durable URL that survives
+participants can view on their own devices. A durable URL that survives
 the meeting allows your work to be shown to others conveniently after
 the meeting.
 
-GitHub Pages is a great way to to host static HTML pages. It costs \$0
+GitHub Pages is a great way to to host static HTML pages. It costs $0
 and has no bureaucratic overhead. This gives you a stable, publishable
 URL for your deliverable. As we will discuss below, by using JSON files
 to simulate a database, you can do a surprising amount of protosketching
