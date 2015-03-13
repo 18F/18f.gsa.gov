@@ -104,7 +104,7 @@ so that it feels "malleable". Paul Graham, in an essay titled[
 ](http://www.paulgraham.com/hp.html)[*"Hackers and
 Painters"*](http://www.paulgraham.com/hp.html), wrote:
 
-You should figure out programs as you're writing them, just as writers
+> You should figure out programs as you're writing them, just as writers
 and painters and architects do.
 
 Realizing this has real implications for protosketching and software
