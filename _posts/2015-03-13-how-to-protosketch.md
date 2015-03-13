@@ -116,7 +116,7 @@ Although Graham was extolling the benefits of LISP in that essay, the
 same lesson applies to protosketching tools. Select tools and design
 code so that you feel comfortable not just expressing your own ideas
 about what should be built, but being an instrument for the program
-manager's or end-user's vision. JavaScript and mock APIs gives us this
+manager's or end-user's vision. JavaScript and mock APIs give us this
 freedom.
 
 Render Rapidly by Using Public or Fake Data
