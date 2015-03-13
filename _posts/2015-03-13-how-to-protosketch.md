@@ -123,7 +123,7 @@ Render Rapidly by Using Public or Fake Data
 -------------------------------------------
 
 It is convenient to work publicly in open-source to avoid security
-issues, which means that we must use public or fake data, instead or
+issues, which means that we must use public or fake data, instead of
 private or secure data. For the purpose of making a compelling demo in a
 1-3 hour time span, it is usually easy to find public data that gets the
 idea across, even if the final application will contain sensitive data.
@@ -144,7 +144,7 @@ somenthing as simple as Ruby's Sinatra or Python's Flask, then[
 it very easy to provide a temporary public URL that points to your
 computer's localhost.
 
-You need not immediately abandon your javascript just because you have
+You need not immediately abandon your JavaScript just because you have
 chosen to have a durable data store on a server. Merely use Flask or
 Sinatra only to implement the API that you have already mocked to
 provide basic create-read-update-delete functionality. If you have used
@@ -215,10 +215,11 @@ analogous to a an API call:
 
 ```javascript
 $(document).ready(function() {
- $.getJSON("orders.json", function(data) {
- console.log(data);
- drawTable(data, "#current_order");
- });
+  $.getJSON("orders.json", function(data) {
+    console.log(data);
+    drawTable(data, "#current_order");
+  });
+});
 ```
 
 The file[
@@ -228,14 +229,30 @@ is remarkably simple, and clearly malleable enough to support any basic
 
 ```json
 [
- {"id": 1, "date": "01/12/2015", "cost": "$15.54", "description":
-"Animal crackers and jelly beans"},
- {"id": 2, "date": "12/01/2014", "cost": "$12.34", "description":
-"Popcorn"},
- {"id": 3, "date": "11/01/2014", "cost": "$27.46", "description":
-"Pretzels, chips, and gummy bears"},
- {"id": 4, "date": "10/01/2014", "cost": "$15.20", "description":
-"Animal crackers and jelly beans"}
+  {
+    "id": 1,
+    "date": "01\/12\/2015",
+    "cost": "$15.54",
+    "description": "Animal crackers and jelly beans"
+  },
+  {
+    "id": 2,
+    "date": "12\/01\/2014",
+    "cost": "$12.34",
+    "description": "Popcorn"
+  },
+  {
+    "id": 3,
+    "date": "11\/01\/2014",
+    "cost": "$27.46",
+    "description": "Pretzels, chips, and gummy bears"
+  },
+  {
+    "id": 4,
+    "date": "10\/01\/2014",
+    "cost": "$15.20",
+    "description": "Animal crackers and jelly beans"
+  }
 ]
 ```
 
@@ -245,7 +262,7 @@ the actual[
 file*](https://github.com/18F/protosketch-demo/blob/master/index.html).
 
 `<link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"\>`
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />`
 
-Bootstrap does reqire you to set up your DOM with certain conventions,
+Bootstrap does require you to set up your DOM with certain conventions,
 which you can see in the full file.
