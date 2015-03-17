@@ -2,7 +2,7 @@
 title: Does 18F Pass the Bechdel Test for Tech?
 date: '2015-03-17'
 layout: post
-image: /assets/blog/bechdel/the-test.jpg
+image: /assets/blog/bechdel/team.jpg
 tags: 
 - diversity
 - how we work
