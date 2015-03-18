@@ -42,8 +42,8 @@ conversation started with us quickly listing the projects that passed
 the Bechdel coding test, but then shifted after one of our devs then
 raised a good point: She said some of our projects had lots of female
 devs, but did not pass the test as defined. 18f.gsa.gov, for example,
-uses a language called [*SASS*](http://sass-lang.com/) to generate the
-styles used on each page. The overwhelming majority of that code was written by
+uses a framework and language called [*SASS*](http://sass-lang.com/) to generate the
+styles used on each page. The overwhelming majority of our custom SASS was written by
 a woman, and another woman wrote a significant amount of HTML that
 relies on that SASS, but because neither language has “functions” it
 fails the test.
