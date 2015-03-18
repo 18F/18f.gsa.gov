@@ -34,8 +34,7 @@ event starts at noon and if you can’t attend, follow
 [*@useiti\_doi*](https://twitter.com/useiti_doi) on Twitter where 18F
 teammate Nick Bristow will be live tweeting the event.
 
-What is EITI?
--------------
+## What is EITI?
 
 The federal government earns revenue from resources like coal, natural
 gas, and oil extracted out of public lands. For example, in 2013 more
@@ -65,7 +64,7 @@ You can [*learn more about the benefits of the broader initiative on the
 EITI
 website*](https://eiti.org/eiti/benefits)[.](https://eiti.org/eiti/benefits)
 
-USEITI Meets the Internet
+## USEITI On the Web
 
 The website [*18F helped Interior build*](https://useiti.doi.gov),
 currently in [*live beta*](https://18f.gsa.gov/dashboard/stages/),
@@ -93,7 +92,7 @@ information in a user-friendly way will give people around the world a
 clearer view of how minerals from public lands affect their local
 communities and systems of government.
 
-Stay in touch
+## Get connected
 
 USEITI welcomes your feedback! Please send us a note at
 [*useiti@ios.doi.gov*](mailto:useiti@ios.doi.gov), follow us on Twitter
