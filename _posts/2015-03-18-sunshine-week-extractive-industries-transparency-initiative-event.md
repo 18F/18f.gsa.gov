@@ -12,8 +12,14 @@ tags:
 authors:
 - mhz
 - boone
-description: 
-excerpt: 
+description: "Today, 18F joins the Departments of the Interior and State at General
+Assembly DC to and the progress we made together in shedding light on public data. The
+event starts at noon and if you can’t attend, follow on Twitter where 18F
+teammate Nick Bristow will be live tweeting the event."
+excerpt: "Today, 18F joins the Departments of the Interior and State at General
+Assembly DC to and the progress we made together in shedding light on public data. The
+event starts at noon and if you can’t attend, follow on Twitter where 18F
+teammate Nick Bristow will be live tweeting the event."
 ---
  by {% author mhz %} and {% author boone %}
 
