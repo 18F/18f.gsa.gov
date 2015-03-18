@@ -97,4 +97,4 @@ communities and systems of government.
 USEITI welcomes your feedback! Please send us a note at
 [useiti@ios.doi.gov](mailto:useiti@ios.doi.gov), follow us on Twitter
 @useiti\_doi. Or, come to our Sunshine Week event [info here](https://www.eventbrite.com/e/celebrating-sunshine-week-shining-light-on-us-foreign-assistance-us-extractive-industries-tickets-16023629106) or the
-[DOI MyAmerica Developer Summit http://openglobe.github.io/myamerica-devsummit/](http://openglobe.github.io/myamerica-devsummit/)
+[DOI MyAmerica Developer Summit](http://openglobe.github.io/myamerica-devsummit/)
