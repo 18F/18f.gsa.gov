@@ -1,3 +1,4 @@
+require 'json'
 require 'hash-joiner'
 require 'open-uri'
 
@@ -15,12 +16,22 @@ module Jekyll_Get
         config = [config]
       end
       config.each do |d|
-        target = site.data[d['data']]
-        source = JSON.load(open(d['json']))
-        if target
-          HashJoiner.deep_merge target, source
-        else
-          site.data[d['data']] = source
+        begin
+          target = site.data[d['data']]
+          source = JSON.load(open(d['json']))
+          if target
+            HashJoiner.deep_merge target, source
+          else
+            site.data[d['data']] = source
+          end
+          if d['cache']
+            path = "#{site.config['data_source']}/#{d['data']}.json"
+            open(path, 'wb') do |file|
+              file << JSON.generate(site.data[d['data']])
+            end
+          end
+        rescue
+          next
         end
       end
     end
