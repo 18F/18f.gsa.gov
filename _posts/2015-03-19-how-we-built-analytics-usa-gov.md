@@ -23,7 +23,7 @@ description: "The U.S. federal government now has a public dashboard and dataset
 
 The U.S. federal government now has a public dashboard and dataset for its web traffic, at [**analytics.usa.gov**](https://analytics.usa.gov).
 
-[ img of people ]
+[ full screenshot ]
 
 This data comes from a unified [Google Analytics](http://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration), an independent federal agency.
 
@@ -152,11 +152,11 @@ There's some pretty clear room for improvement here &mdash; the tool doesn't do 
 
 ## Everything is static files
 
-Our all-static approach has some clear limitations: there is a delay to the live data, and we can't answer dynamic queries. We provide a fixed set of data, and we only provide a snapshot in time that we constantly overwrite.
+Our all-static approach has some clear limitations: there's a delay to the live data, and we can't answer dynamic queries. We provide a fixed set of data, and we only provide a snapshot in time that we constantly overwrite.
 
 We went this route because it lets us handle potentially heavy traffic to live data without having to scale a dynamic application server. It also means that we can stay easily within Google Analytics' daily [API request limits](https://developers.google.com/analytics/devguides/reporting/core/v3/limits-quotas), because our API requests are only a function of time, not traffic.
 
-All static files are stored in Amazon S3, and served by Amazon CloudFront, so we can lean on Amazon's extensive content delivery network to absorb all unpredictable load. Our server that runs the cronjobs is not affected by website visitors, and has no appreciable load.
+All static files are stored in Amazon S3 and served by Amazon CloudFront, so we can lean on CloudFront to absorb all unpredictable load. Our server that runs the cronjobs is not affected by website visitors, and has no appreciable load.
 
 From a maintenance standpoint, this is a dream. And we can always replace this later with a dynamic server if it becomes necessary, by which time we'll have a clearer understanding of what kind of traffic the site can expect and what features people want.
 
