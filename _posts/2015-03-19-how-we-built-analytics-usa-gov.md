@@ -23,7 +23,7 @@ description: "The U.S. federal government now has a public dashboard and dataset
 
 The U.S. federal government now has a public dashboard and dataset for its web traffic, at [**analytics.usa.gov**](https://analytics.usa.gov).
 
-[ full screenshot ]
+<a href="https://analytics.usa.gov" target="_blank"><img src="/assets/blog/dap/screen.png" title="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
 
 This data comes from a unified [Google Analytics](http://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration), an independent federal agency.
 
@@ -47,7 +47,7 @@ The real-time data is cached from Google every minute, and re-downloaded every 1
 
 So the big number of people online:
 
-[ image of people online ]
+<img src="/assets/blog/dap/now.png" title="Screenshot of the dashboard's big number of people" style="border: 1px solid #ddd" />
 
 ...is made with this HTML:
 
@@ -141,7 +141,7 @@ analytics --only --devices --publish
 
 ...runs the report and uploads the data directly to:
 
-> [`https://analytics.usa.gov/data/live/devices.json`](https://analytics.usa.gov/data/live/devices.json)
+> [https://analytics.usa.gov/data/live/devices.json](https://analytics.usa.gov/data/live/devices.json)
 
 Real-time data is downloaded from the [Google Analytics Real Time Reporting API](https://developers.google.com/analytics/devguides/reporting/realtime/v3/), and daily data is downloaded from the [Google Analytics Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
@@ -160,9 +160,18 @@ All static files are stored in Amazon S3 and served by Amazon CloudFront, so we 
 
 From a maintenance standpoint, this is a dream. And we can always replace this later with a dynamic server if it becomes necessary, by which time we'll have a clearer understanding of what kind of traffic the site can expect and what features people want.
 
-## Usability testing
+## Usability Testing
 
-____________
+We went to a local civic hacking meetup and conducted a quick usability testing workshop. In line with PRA guidelines, we interviewed 9 members of the public and a handful of federal government employees. Any government project can do this, and the feedback was very helpful.
+
+We asked our testers to find specific information we wanted to convey and solicited general feedback. Some examples of changes we made based on their feedback include:
+
+* We changed the description of the big number at the top of the page from "people online right now" to "people on government websites now."
+* We added more descriptions to help explain the difference between top 20 "pages" vs "domains." For the top 20 charts for the past week and month, we show the number of visits to an entire government domain, which includes traffic to all sub-pages within a government domain (for example, irs.gov and usajobs.gov). However, for the top 20 most popular sites _right now_, the team wanted to show the most popular single page within the government domains (for example, the IRS's Where's My Refund? page or USCIS's Case Status Online page).
+* We indented and adjusted the look of the breakdown of IE and Windows data to simplify and clarify the section.
+* We changed the numbers in the Top 20 section from "505k" and "5m" to actual, specific numbers (for example, 505,485 and 5,301,691). Testers often assumed any three-digit number was actually short for a six-digit number.
+
+We certainly haven't resolved all the usability issues, so please [share your feedback](https://github.com/GSA/analytics.usa.gov/issues).
 
 
 ## Living up to our principles
@@ -176,7 +185,7 @@ All of our work is released under a [CC0 public domain dedication](https://githu
 
 **Open data:** All the data we use for the dashboard is available for direct download [below the dashboard](https://analytics.usa.gov/#explanation). Right now, it's just live snapshots, and there's no formal documentation.
 
-Your [ideas and bug reports](https://github.com/GSA/analytics.usa.gov) will be very helpful in figuring out what to do next.
+Your [ideas and bug reports](https://github.com/GSA/analytics.usa.gov/issues) will be very helpful in figuring out what to do next.
 
 **Secure connections:** 18F uses HTTPS for [everything we do](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/), including analytics dashboards.
 
