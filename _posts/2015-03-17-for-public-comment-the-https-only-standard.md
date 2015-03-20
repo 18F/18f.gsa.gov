@@ -1,6 +1,6 @@
 ---
 title: "For Public Comment: the HTTPS-Only Standard"
-date: '2015-03-17'
+date: 2015-03-17 10:00:00
 layout: post
 image: /assets/blog/https-standard/screen.png
 tags:
