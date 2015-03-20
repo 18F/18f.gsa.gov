@@ -1,7 +1,7 @@
 ---
 title: "18F by the Numbers"
 layout: post
-image: /assets/blog/18fbythenumbers.png
+image: /assets/blog/agile-day/18fbythenumbers.png
 tags:
 - 18F
 - how we work
@@ -19,10 +19,10 @@ description: "This week, we’re celebrating our first anniversary. We wanted to
 
 This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
 
-![Infographic showing 18F's first-year progress by the numbers](/assets/blog/18fbythenumbers.png)
+![Infographic showing 18F's first-year progress by the numbers](/assets/blog/agile-day/18fbythenumbers.png)
 
 
-**By The Projects**
+##By The Projects
 
 15: Current [Delivery Services Projects] (https://18f.gsa.gov/dashboard/)
 
