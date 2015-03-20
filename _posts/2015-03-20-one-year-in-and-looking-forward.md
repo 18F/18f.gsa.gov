@@ -30,11 +30,8 @@ Our goal was (and is) to transform the way the U.S. government
 approaches problems. We proposed we could accomplish this by:
 
 - putting the needs of the American people first;
-
 - being design-centric, agile, open, and data-driven;
-
 - working in the open to make our products stronger; and
-
 - deploying our products early and often.
 
 Our goals and approach established, we rolled up our sleeves and got to
@@ -62,61 +59,45 @@ and join a product delivery team. The results speak for themselves:
 - 18F grew from a 15-person team to a 100-person team, including the
 Presidential Innovation Fellows. Fun fact: We’re still rapidly growing.
 We have more than 20 people joining us in the next few weeks alone!
-
 - We're working with 16 agencies on projects ranging from the creation
 of open data APIs, a service to collect donations, a purchasing approval
 tool that could save the government millions of dollars, and a platform
 to facilitate collaborative work amongst a distributed workforce.
-
 - We’ve used lean innovation to improve key internal processes such as
 hiring, acquisition, software deployment, and finance.
-
 - Our inboxes have fielded inquiries from more than forty agencies.
-
 - Demand for our services has been so high, we helped create a [brand
 new way for agile teams like us][3] to [get involved in the procurement
 process][4].
-
 - We have employees in 12 different locations, with offices in D.C., San
 Francisco, and Chicago.
-
 - Teammates left jobs at Apple, Google, Microsoft, Pivotal Labs, IDEO,
 IndieGogo, Groupon, NPR, the Sunlight Foundation, and more, excited
 about the prospect of serving their country in this unique way.
-
 - Our team [engaged with more than 125 end-users][5]
 while researching, prototyping, and developing projects.
-
 - More than 100 API teams received training and direct support via our
 [/Developer Program][6].
-
 - Our [open source policy][7] has been forked 14 times, and directly led to the GSA CIO articulating
 an ["open source first" policy][8]
 for the entire agency.
-
 - We have hosted two hackathons and two demo days, with more around the
 corner.
-
 - As a team, we've published 66 blog posts, tweeted 695 times, and have
 made so many updates to our code (called pushing a commit) that it took
 us two days to gather the info because we kept hitting Github's API
 request limit.
-
 - We've created 203 public repositories on Github. 64 of these have been
 active just in the last month. (Source:
 [Govcode.org][9])
-
 - Teammates are creating their own open source software like
 [urlsize][10] and
 [rdbms-subsetter][11].
-
 - We launched [Dashboard][12] to keep the
 public informed of our progress, project milestones, and reusable
 software.
-
 - We helped get the first .gov websites pre-loaded into major browsers
 as always-HTTPS.
-
 - Just yesterday we helped launch
 [analytics.usa.gov][13], giving the public a
 view of federal government website analytics for the first time.
@@ -129,17 +110,13 @@ lines of business:
 
 - 18F Consulting, to provide design thinking and technical acumen on a
 short-term, as-needed basis, helping agencies acquire better software.
-
 - 18F Talent, to help agencies identify and recruit cutting-edge
 technical talent.
-
 - FISMA Ready, a toolkit that provides Federal information security
 compliance for open-source software.
-
 - [Agile Delivery Services BPA][14],
 a micro-market blanket purchase agreement to help [agencies acquire
 better professional services][15].
-
 - A partnership with the U.S. Digital Service to help hire and start
 digital service teams like ours at many other agencies.
 
@@ -163,10 +140,8 @@ If you're a designer, developer, or technologist who has ...
 
 - a couple of hours? Check out our ["help wanted" tag][16]
 on Github.
-
 - a couple of days? Attend a [hackathon][17], or peruse our [Dashboard][12] for open
 source projects.
-
 - a couple of years? [Your country needs you!][18]
 
 Onward!
