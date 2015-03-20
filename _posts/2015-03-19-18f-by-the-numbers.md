@@ -2,6 +2,7 @@
 title: "18F by the Numbers"
 layout: post
 image: /assets/blog/agile-day/18fbythenumbers.png
+date: 2015-03-19 18:00:00
 tags:
 - 18F
 - how we work
