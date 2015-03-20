@@ -1,6 +1,6 @@
 ---
 title: Does 18F Pass the Bechdel Test for Tech?
-date: '2015-03-17'
+date: 2015-03-17 14:00:00
 layout: post
 image: /assets/blog/bechdel/team.jpg
 tags: 
