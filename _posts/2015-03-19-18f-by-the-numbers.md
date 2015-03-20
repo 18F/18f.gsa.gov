@@ -10,15 +10,15 @@ author:
 - melody
 - kate
 - erica
-excerpt: "This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
-description: "This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
+excerpt: "Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
+description: "Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 ---
 
 <p class="authors">
   by {% author melody %}, {% author kate %}, and {% author erica %}
 </p>
 
-This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
+Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
 
 ![Infographic showing 18F's first-year progress by the numbers](/assets/blog/agile-day/18fbythenumbers.png)
 
