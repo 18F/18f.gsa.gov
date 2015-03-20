@@ -9,12 +9,13 @@ tags:
 author:
 - melody
 - kate
+- erica
 excerpt: "This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 description: "This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 ---
 
 <p class="authors">
-  by {% author melody %} and {% author kate %}
+  by {% author melody %}, {% author kate %}, and {% author erica %}
 </p>
 
 This week, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
