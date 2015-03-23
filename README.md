@@ -20,7 +20,7 @@ If you're a new teammate, add yourself to the website by:
 1. Add yourself to the `team.yml` file in 18F/data-private/ and be sure to read [the Privacy section in the README there](https://github.com/18F/data-private#privacy).
 2. Clone this repo either with the GitHub Desktop App or through the command line
 3. Create a branch
-4. Add a photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory that matches the name you used for `name` in the `team.yml` file
+4. Add a **250x250px** photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory that matches the name you used for `name` in the `team.yml` file
 5. Push your branch and create a pull request to the `staging` branch of this repo to include your photo.
 
 **You do not need to edit the team.json file in this repo,** we'll find it in `data-private`.
