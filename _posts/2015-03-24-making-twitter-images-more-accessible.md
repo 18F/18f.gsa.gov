@@ -23,7 +23,7 @@ Posting images on Twitter increases potential retweets by about 35%, according t
 
 We think a lot about accessibility at 18F. We want to make sure any images we post to Twitter are as accessible as the images we post to our website. Last week, we started trying something that we think will help make images in our tweets much more accessible. We started responding to our Tweets containing images, with another tweet explaining what the image shows. Here’s an example:
 
-<div class="align-center" ><img alt="Screenshot of tweet from 18F responding to tweet with description of image contained in first tweet" src="/assets/blog/twitter/twitter.png" /></div>
+<img class="align-center" alt="Screenshot of tweet from 18F responding to tweet with description of image contained in first tweet" src="/assets/blog/twitter/twitter.png" />
 
 
 Feedback from our audience was positive, and several people offered even more helpful suggestions on how we could improve our initial strategy. [@travelingheidi](https://twitter.com/travelingheidi/status/578569906834264064) suggested also including a link to the original Tweet in the response Tweet, which is a great idea (and will improve accessibility even more).
