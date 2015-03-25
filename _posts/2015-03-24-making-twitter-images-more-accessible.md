@@ -42,3 +42,7 @@ And [@thebenedict](https://twitter.com/thebenedict/status/578572813155590144) su
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion. 
+
+**Update**:
+
+[Daniel Morgan](https://github.com/dsmorgan77) wrote and suggested that we add this link to a DigitalGov toolkit called [Improving the Accessibility of Social Media in Government](http://www.digitalgov.gov/resources/improving-the-accessibility-of-social-media-in-government/). It's a must-read if you're interested in accessibility issues, and contains "helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities."
