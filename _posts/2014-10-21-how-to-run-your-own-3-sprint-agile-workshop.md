@@ -10,7 +10,7 @@ authors:
 
 tags:
   - agile
-  - 18F Consulting Services
+  - 18f consulting services
   - how we work
   - workshop
   - our projects

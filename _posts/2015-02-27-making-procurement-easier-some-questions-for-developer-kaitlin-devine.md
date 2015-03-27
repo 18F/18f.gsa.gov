@@ -4,11 +4,11 @@ layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
 date: 2015-03-05
 tags:
-- Procurement
-- Discovery
-- Kaitlin Devine
-- User Research
-- Interview
+- procurement
+- discovery
+- kaitlin devine
+- user research
+- interview
 author:
 - Greg Boone
 - Elaine Kamlley

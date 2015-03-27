@@ -14,7 +14,16 @@ exclude:
 - todo.txt
 - vendor
 
-gems: [jekyll-sitemap]
+gems: 
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - 'tags'
+  layout: tag_index
+  permalinks:
+    tag: '/tags/:name/'
 
 sass:
   sass_dir: assets/_sass
@@ -39,16 +48,16 @@ rss_limit: 20
 future: false
 
 # get data from the hub
-jekyll_get:
-  - data: team
-    json: 'https://18f.gsa.gov/hub/api/team/'
-    cache: true
-  - data: projects
-    json: 'https://18f.gsa.gov/hub/api/projects/'
-    cache: true
-  - data: pif_team
-    json: 'https://18f.gsa.gov/hub/api/pif_team/'
-    cache: true
-  - data: pif_projects
-    json: 'https://18f.gsa.gov/hub/api/pif_projects/'
-    cache: true
+# jekyll_get:
+#   - data: team
+#     json: 'https://18f.gsa.gov/hub/api/team/'
+#     cache: true
+#   - data: projects
+#     json: 'https://18f.gsa.gov/hub/api/projects/'
+#     cache: true
+#   - data: pif_team
+#     json: 'https://18f.gsa.gov/hub/api/pif_team/'
+#     cache: true
+#   - data: pif_projects
+#     json: 'https://18f.gsa.gov/hub/api/pif_projects/'
+#     cache: true

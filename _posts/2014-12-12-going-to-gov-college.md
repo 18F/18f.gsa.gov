@@ -11,8 +11,8 @@ description: Last week, a number of teammates coordinated to put on three Digita
 
 tags:
 - training
-- DigitalGov University
-- GSA
+- digitalgov university
+- gsa
 - events
 
 layout: post

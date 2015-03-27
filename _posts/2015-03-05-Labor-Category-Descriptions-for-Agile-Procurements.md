@@ -4,7 +4,7 @@ layout: post
 image: ""
 date: 2015-03-10
 tags:
-- 18F
+- 18f
 - agile
 - procurements
 - how we work

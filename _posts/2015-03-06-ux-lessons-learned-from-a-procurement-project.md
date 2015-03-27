@@ -4,14 +4,14 @@ layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
 date: 2015-03-06
 tags:
-- Procurement
-- Discovery
-- User Research
-- Interview
+- procurement
+- discovery
+- user research
+- interview
 author:
-- Greg Boone
-- Elaine Kamlley
-- Melody Kramer
+- boone
+- elaine
+- melody
 excerpt: "UX designer Nick Brethauer talks about how user research better informs the products 18F builds."
 description: "UX designer Nick Brethauer talks about how user research better informs the products 18F builds."
 ---

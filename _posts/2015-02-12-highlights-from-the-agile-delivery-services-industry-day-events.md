@@ -5,7 +5,7 @@ layout: post
 image: /assets/blog/agile-day/agile-day.jpg
 tags:
 - agile
-- 18F Consulting
+- 18f consulting
 - events
 authors:
 - chrisc
