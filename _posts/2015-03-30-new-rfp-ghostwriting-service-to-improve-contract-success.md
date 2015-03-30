@@ -11,11 +11,11 @@ tags:
 - procurement
 authors:
 - robert
-- cairns
+- chrisc
 description: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. These problems will likely send you down a long and painful path of technical rework, contract modifications, and cost and schedule overruns. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
 excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. These problems will likely send you down a long and painful path of technical rework, contract modifications, and cost and schedule overruns. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
 ---
-{% author robert %} and {% author cairns %}
+{% author robert %} and {% author chrisc %}
 
 Often, the seeds of success — or failure — of Federal IT projects are
 planted in the Request for Proposals (RFPs) themselves. A well-written
