@@ -43,15 +43,15 @@ With these types of technical brains at your service, we can help you
 craft an RFP that increases your acquisition project’s probability of
 success.
 
-![18F Consulting Services](/assets/blog/rfp-as-a-services/18f-consulting-masthead.gif)
+![18F Consulting Services](/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif)
 
 These are the types of questions we ask as we’re reviewing RFPs:
 
 1.  Based on the need you’re trying to address, are you making
     appropriate uses of the various software development methods
     (e.g., agile, waterfall)?
-2.  How can you most effectively include considerations for
-    user-centered design and product development (if applicable)?
+2.  How can you most effectively include considerations for user-centered 
+    design and development?
 3.  Where are there opportunities to incorporate proven, commodity IT
     solutions (e.g., Commercial Off-The-Shelf (COTS) over expensive
     custom-built solutions)?
