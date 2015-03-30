@@ -1,0 +1,30 @@
+---
+layout: bare
+---
+
+
+<!-- <code>{{tags}}</code> -->
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- {% assign tag_words = site_tags | split:',' | sort %} -->
+
+{% for tag in tag_words %}
+
+	<p> <a href="/tags/{{tag | slugify }}" >{{tag}} </a> — </p>
+
+	
+		<!-- <p> {{tag | size }} </p> -->
+
+		{% for tag_number in site.tags %}
+
+			{% if tag_number[0] == tag %}
+
+				<p> {{tag_number[1] | size }} </p>
+				<!-- <p> {{tag | size }} </p> -->
+
+			{% endif %}
+
+		{% endfor %}
+
+
+	{% endfor %}
