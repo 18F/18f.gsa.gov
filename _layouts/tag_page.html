@@ -10,21 +10,26 @@ layout: bare
 
 {% for tag in tag_words %}
 
-	<p> <a href="/tags/{{tag | slugify }}" >{{tag}} </a> — </p>
-
-	
-		<!-- <p> {{tag | size }} </p> -->
+{% capture count %}
 
 		{% for tag_number in site.tags %}
 
 			{% if tag_number[0] == tag %}
 
-				<p> {{tag_number[1] | size }} </p>
+				{{tag_number[1] | size }} 
 				<!-- <p> {{tag | size }} </p> -->
 
 			{% endif %}
 
 		{% endfor %}
+
+{% endcapture %}
+
+	<p> <a href="/tags/{{tag | slugify }}" >{{tag}} </a> — {{count}} </p>
+
+	
+		<!-- <p> {{tag | size }} </p> -->
+
 
 
 	{% endfor %}
