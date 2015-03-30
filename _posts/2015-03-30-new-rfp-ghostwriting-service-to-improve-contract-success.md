@@ -16,7 +16,7 @@ description: A poorly written RFP will expose you to such risks as overbidding t
 excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F
 ---
 <p class="authors" >
-    by {% author robert %} and {% author chrisc %}, illustrations by {% author raphy %}
+    by {% author chrisc %} and {% author robert %}, illustrations by {% author raphy %}
 </p>
 
 Often, the seeds of success — or failure — of Federal IT projects are
@@ -43,7 +43,7 @@ With these types of technical brains at your service, we can help you
 craft an RFP that increases your acquisition project’s probability of
 success.
 
-![](media/image01.png)
+![18F Consulting Services](/assets/blog/rfp-as-a-services/18f-consulting-masthead.gif)
 
 These are the types of questions we ask as we’re reviewing RFPs:
 
