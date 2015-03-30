@@ -12,10 +12,12 @@ tags:
 authors:
 - robert
 - chrisc
-description: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. These problems will likely send you down a long and painful path of technical rework, contract modifications, and cost and schedule overruns. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
-excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. These problems will likely send you down a long and painful path of technical rework, contract modifications, and cost and schedule overruns. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
+description: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F
+excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F
 ---
-{% author robert %} and {% author chrisc %}
+<p class="authors" >
+    by {% author robert %} and {% author chrisc %}, illustrations by {% author raphy %}
+</p>
 
 Often, the seeds of success — or failure — of Federal IT projects are
 planted in the Request for Proposals (RFPs) themselves. A well-written
@@ -48,29 +50,22 @@ These are the types of questions we ask as we’re reviewing RFPs:
 1.  Based on the need you’re trying to address, are you making
     appropriate uses of the various software development methods
     (e.g., agile, waterfall)?
-
 2.  How can you most effectively include considerations for
     user-centered design and product development (if applicable)?
-
 3.  Where are there opportunities to incorporate proven, commodity IT
     solutions (e.g., Commercial Off-The-Shelf (COTS) over expensive
     custom-built solutions)?
-
 4.  Are you making appropriate use of [open
     source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/)
     to get access to large communities supporting reliable,
     inexpensive software?
-
 5.  What explicit, results-oriented success criteria will you use to
     evaluate the success of the project?
-
 6.  Have you provided potential bidders sufficient clarity to remove
     uncertainty and lower the expected bid price, without
     over-specifying how the work will be done?
-
 7.  Have you modularized the architecture of your system? Do you have
     modularized contracting to support it?
-
 8.  Are you maximizing the benefits of each of the plays from the USDS
     [Digital Playbook](https://playbook.cio.gov)?
 
@@ -83,4 +78,3 @@ Interagency Agreement is all that’s required to retain our service.
 Ready to get started? So are we. Please [get in
 touch](mailto:18f@gsa.gov) with us to discuss next steps.
 
-*Illustration credit:* Raphael Villas
