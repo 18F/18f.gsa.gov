@@ -2,14 +2,24 @@
 title: 'GovTechHack: Hacking for Civic Improvement'
 date: '2015-04-01'
 layout: post
-image: 
+image: /assets/blog/govtechhack/IMG_4015.JPG
 tags: 
-authors: 
-description: 
-excerpt: 
+-18F
+-events
+authors: kate
+description: "On a recent breezy San Francisco evening, groups of developers,
+designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
+excerpt: "On a recent breezy San Francisco evening, groups of developers,
+designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
 ---
  GovTechHack: Hacking for Civic Improvement 
 ===========================================
+
+<p class="authors">
+  by {% author kate %}
+</p>
+
+<img alt="Hackathon prizes" src="/assets/blog/govtechhack/IMG_4015.JPG" class="align-left" />
 
 On a recent breezy San Francisco evening, groups of developers,
 designers, marketing folks, and others convened for
@@ -42,6 +52,8 @@ list](mailto:government-open-source@googlegroups.com).
 How it Worked
 -------------
 
+<img alt="The crowd listens to opening day presentations" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-center" />
+
 **Day 1:** The two-day event kicked off on a sunny Friday evening.
 Participants arrived promptly at 6:00 PM, which gave them plenty of time
 to get settled and introduce themselves to their fellow hackers.
@@ -53,13 +65,15 @@ her inspirational story of how she found community in tech, and **Jazmyn
 Latimer** described how she transitioned from psychology to the tech
 world — and how she finds inspiration in working for Code for America.
 
+<img alt="Todd Park addresses the crowd" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-center" />
+
 **Todd Park** thanked the crowd for their investment in civic tech and
 stressed the importance of those contributions; he also imparted to the
 room some of his tremendous energy and enthusiasm. Finally, five
 presenters shared overviews of the five projects to be hacked the
 following day. These projects included:
 
--   **Midas** — A platform that facilitates collaborative work
+-   [**Midas**] (https://github.com/18F/midas) — A platform that facilitates collaborative work
     > worldwide. Individuals can create projects, propose working
     > groups, or assemble "tiger teams" to act on their ideas.
 
@@ -88,6 +102,8 @@ and also stopping for snacks. As afternoon slid into evening, the groups
 presented their work to a panel of judges, highlighting the bugs they’d
 fixed and recommendations they’d made.
 
+<img alt="The eRegs group hard at work" src="/assets/blog/govtechhack/IMG_4014.JPG" class="align-left" />
+
 How did we do?
 --------------
 
@@ -115,7 +131,7 @@ Here’s a recap of what they accomplished:
     > ](http://www.eventbrite.com/e/sfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658)[hackathon](http://www.google.com/url?q=http%3A%2F%2Fwww.eventbrite.com%2Fe%2Fsfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658&sa=D&sntz=1&usg=AFQjCNHeofJcgjEj2djzh8eYPwV4S42TmA),
     > April 17-18 in Oakland, CA).
 
--   One team integrated **MyUSA** authentication, and also made pull
+-   [One team] (https://github.com/tldrCongress/app) integrated **MyUSA** authentication, and also made pull
     > requests on the passport npm module to improve Node.js
     > integration.
 
