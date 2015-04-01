@@ -29,6 +29,7 @@ If you get stuck, feel free to reach out to anyone on the 18f-site team.
 
 Helpful tips:
 
+* [Our Guide to the Terminal and GitHub](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)
 * [Creating a Pull Request (GitHub Support)](https://help.github.com/articles/creating-a-pull-request/)
 * [Creating a Pull Request with GitHub for Mac (GitHub blog post)](https://github.com/blog/1946-create-pull-requests-with-github-for-mac)
 
