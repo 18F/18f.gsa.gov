@@ -37,7 +37,6 @@ paginate_path: "news/page/:num"
 rss_limit: 20
 
 future: false
-
 # get data from the hub
 jekyll_get:
   - data: team
