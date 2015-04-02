@@ -52,7 +52,7 @@ list](mailto:government-open-source@googlegroups.com).
 How it Worked
 -------------
 
-<img alt="The crowd listens to opening day presentations" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-center" />
+<img alt="The crowd listens to opening day presentations" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-left" />
 
 **Day 1:** The two-day event kicked off on a sunny Friday evening.
 Participants arrived promptly at 6:00 PM, which gave them plenty of time
@@ -65,7 +65,7 @@ her inspirational story of how she found community in tech, and **Jazmyn
 Latimer** described how she transitioned from psychology to the tech
 world — and how she finds inspiration in working for Code for America.
 
-<img alt="Todd Park addresses the crowd" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-center" />
+<img alt="Todd Park addresses the crowd" src="/assets/blog/govtechhack/IMG_3995.JPG" class="align-left" />
 
 **Todd Park** thanked the crowd for their investment in civic tech and
 stressed the importance of those contributions; he also imparted to the
