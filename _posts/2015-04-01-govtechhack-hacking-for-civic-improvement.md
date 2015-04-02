@@ -1,6 +1,6 @@
 ---
 title: 'GovTechHack: Hacking for Civic Improvement'
-date: '2015-04-01'
+date: '2015-04-02'
 layout: post
 image: /assets/blog/govtechhack/IMG_4015.JPG
 tags: 
