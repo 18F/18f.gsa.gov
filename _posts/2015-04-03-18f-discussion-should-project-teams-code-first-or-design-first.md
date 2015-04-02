@@ -158,7 +158,7 @@ understanding that in the end, they are in service to the end user.
 **JT:** During the research phase, you might not need a developer team,
 but the research team may be composed of developers, designers, etc.
 
-**On meeting the needs of the end users **
+**On meeting the needs of the end users**
 
 **RR:** I would just finish by saying no matter what you do, the most
 important thing is to focus on the experience of the end user.
