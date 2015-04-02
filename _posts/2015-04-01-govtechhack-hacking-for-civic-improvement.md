@@ -63,7 +63,7 @@ her inspirational story of how she found community in tech, and **Jazmyn
 Latimer** described how she transitioned from psychology to the tech
 world — and how she finds inspiration in working for Code for America.
 
-<img alt="Todd Park addresses the crowd" src="/assets/blog/govtechhack/IMG_3995.JPG" class="align-left" />
+<img alt="Todd Park addresses the crowd" src="/assets/blog/govtechhack/IMG_3995.JPG" class="align-right" />
 
 **Todd Park** thanked the crowd for their investment in civic tech and
 stressed the importance of those contributions; he also imparted to the
