@@ -4,17 +4,15 @@ date: '2015-04-01'
 layout: post
 image: /assets/blog/govtechhack/IMG_4015.JPG
 tags: 
--18F
--events
-authors: kate
+- 18F
+- events
+authors:
+- kate
 description: "On a recent breezy San Francisco evening, groups of developers,
 designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
 excerpt: "On a recent breezy San Francisco evening, groups of developers,
 designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
 ---
- GovTechHack: Hacking for Civic Improvement 
-===========================================
-
 <p class="authors">
   by {% author kate %}
 </p>
@@ -73,23 +71,23 @@ room some of his tremendous energy and enthusiasm. Finally, five
 presenters shared overviews of the five projects to be hacked the
 following day. These projects included:
 
--   [**Midas**] (https://github.com/18F/midas) — A platform that facilitates collaborative work
-    > worldwide. Individuals can create projects, propose working
-    > groups, or assemble "tiger teams" to act on their ideas.
+-   [**Midas**](https://github.com/18F/midas) — A platform that facilitates collaborative work
+    worldwide. Individuals can create projects, propose working
+    groups, or assemble "tiger teams" to act on their ideas.
 
--   **eRegs** — An application that makes federal regulations easier to
-    > find, read, and understand
+-   [**eRegs**](http://cfpb.github.io/eRegulations/) — An application that makes federal regulations easier to
+    find, read, and understand
 
--   **Communicart** — A simplified, email-based purchasing approval tool
-    > for purchase card holders authorized to buy office supplies for
-    > the government
+-   [**Communicart**](https://18f.gsa.gov/dashboard/project/C2/) — A simplified, email-based purchasing approval tool
+    for purchase card holders authorized to buy office supplies for
+    the government
 
--   **GovCode** — A service consolidating open-source government
-    > projects, making participation easier than ever
+-   [**GovCode**](https://github.com/dlapiduz/govcode.org) — A service consolidating open-source government
+    projects, making participation easier than ever
 
--   **Solar Data Sets** — The Department of Energy’s SunShot Initiative
-    > seeks to inspire more people to create software solutions to the
-    > challenge of increasing our use of solar energy.
+-   [**Solar Data Sets**](http://energy.gov/eere/sunshot/sunshot-initiative) — The Department of Energy’s SunShot Initiative
+    seeks to inspire more people to create software solutions to the
+    challenge of increasing our use of solar energy.
 
 **Day 2**: Bright and early Saturday morning, participants reconvened at
 the cafe, eager to work. The previous evening, each group had outlined
@@ -112,32 +110,30 @@ different skill set. Even so, each team enjoyed considerable success.
 Here’s a recap of what they accomplished:
 
 -   **Midas teams** generated 11 pull requests. They also created a new
-    > design ideation that will make it easier for Midas users to
-    > navigate the site and find talent to claim their tasks. With three
-    > teams participating, one was awarded best bug fix, and another
-    > people’s choice for design inspiration.
+    design ideation that will make it easier for Midas users to
+    navigate the site and find talent to claim their tasks. With three
+    teams participating, one was awarded best bug fix, and another
+    people’s choice for design inspiration.
 
 -   **Team eRegs** worked on developer usability, winnowing a two-hour
-    > setup time to a mere 15 minutes. This team won the award for
-    > biggest impact.
+    setup time to a mere 15 minutes. This team won the award for
+    biggest impact.
 
 -   **Team Communicart** created a fully responsive [design
-    > proposal](http://bradleyherman.com/communicart/) (and more) for
-    > their new reporting feature.
+    proposal](http://bradleyherman.com/communicart/) (and more) for
+    their new reporting feature.
 
 -   Two teams worked on projects that will contribute to the Dept. of
-    > Energy’s **Solar Data Sets** (and will help prep for the
-    > [Solar](http://www.google.com/url?q=http%3A%2F%2Fwww.eventbrite.com%2Fe%2Fsfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658&sa=D&sntz=1&usg=AFQjCNHeofJcgjEj2djzh8eYPwV4S42TmA)[
-    > ](http://www.eventbrite.com/e/sfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658)[hackathon](http://www.google.com/url?q=http%3A%2F%2Fwww.eventbrite.com%2Fe%2Fsfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658&sa=D&sntz=1&usg=AFQjCNHeofJcgjEj2djzh8eYPwV4S42TmA),
-    > April 17-18 in Oakland, CA).
+    Energy’s **Solar Data Sets** (and will help prep for the
+    [Solar hackathon](http://www.eventbrite.com/e/sfuncube-solar-hackathon-2015-hackthesun-tickets-15720907658), April 17-18 in Oakland, CA).
 
 -   [One team] (https://github.com/tldrCongress/app) integrated **MyUSA** authentication, and also made pull
-    > requests on the passport npm module to improve Node.js
-    > integration.
+    requests on the passport npm module to improve Node.js
+    integration.
 
 -   And last but not least, all the teams used **GovCode** to explore
-    > projects to which they could contribute at the event — and in the
-    > future.
+    projects to which they could contribute at the event — and in the
+    future.
 
 Remote contributors to the projects supported the event via a
 govtechhack slack instance which was created especially for the event.
