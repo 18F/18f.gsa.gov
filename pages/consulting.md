@@ -39,12 +39,6 @@ Jay Finch
 Jesse Taggert
 Tom Black
 
-## Follow 18F
-
-<img src="{{ site.baseurl }}/assets/img/twitter.svg" alt="twitter" class="social-img"> [Twitter @18F](https://twitter.com/18F)
-<img src="{{ site.baseurl }}/assets/img/github.svg" alt="github" class="social-img"> [GitHub / 18F](https://github.com/18F)
-
-
 <!-- Obfuscate our email -->
 <div>
   <script>
