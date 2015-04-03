@@ -1,7 +1,7 @@
 ---
 title: "18F Discussion: Should Project Teams Code First Or Design First?"
 layout: post
-image: /assets/blog/bechdel/team.jpg
+image: ""
 tags:
 - 18F
 - how we work
