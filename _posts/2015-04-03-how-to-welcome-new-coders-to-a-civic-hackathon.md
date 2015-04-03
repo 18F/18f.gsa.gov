@@ -18,7 +18,7 @@ description: "The National Day of Civic Hacking is a great time to attend — o
 ---
 
 <p class="authors">
-  by {% author melody %} and {% author becky %} and {% author afeld %} and {% author julia %} and {% author will %}
+  by {% author melody %}, {% author becky %}, {% author afeld %}, {% author julia %}, and {% author will %}
 </p>
 
 
