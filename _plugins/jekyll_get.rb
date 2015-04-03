@@ -15,9 +15,6 @@ module Jekyll_Get
       if !config.kind_of?(Array)
         config = [config]
       end
-      if site.config['host'] == "127.0.0.1"
-        return unless site.config['force_get']
-      end
       config.each do |d|
         begin
           target = site.data[d['data']]
