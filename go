@@ -66,7 +66,7 @@ end
 
 def update_data
   ruby = exec_cmd 'which ruby'
-  exec_cmd "#{ruby} import-public.rb"
+  exec_cmd "#{ruby} _data/import-public.rb"
 end
 
 def serve
@@ -88,8 +88,7 @@ end
 def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  update_data
-  build
+  exec_cmd('bundle exec jekyll b --config _config.yml,_deploy_config.yml')
 end
 
 
@@ -100,7 +99,7 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
-  :server_build => 'Pulls from git, updates _data, and builds the site'
+  :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled'
 }
 
 def usage(exitstatus: 0)
