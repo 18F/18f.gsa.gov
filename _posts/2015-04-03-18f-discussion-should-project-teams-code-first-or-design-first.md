@@ -1,7 +1,7 @@
 ---
 title: "18F Discussion: Should Project Teams Code First Or Design First?"
 layout: post
-image: ""
+image: "/assets/blog/code-design/decisions-blue.png"
 tags:
 - 18F
 - how we work
@@ -19,6 +19,8 @@ description: "Recently, three members of our team sat down for a conversation ab
 When starting a new project, should a team code first or discover first?
 That was the question recently posed to the 18F team by Robert Read, one
 of our developers.
+
+![18F employees at the white board, deciding how to start.](/assets/blog/code-design/decisions-blue.png)
 
 Rob asked the thought-provoking question hoping it would lead to an
 internal conversation on different approaches to user-centered software
