@@ -23,11 +23,11 @@ of our developers.
 Rob asked the thought-provoking question hoping it would lead to an
 internal conversation on different approaches to user-centered software
 design. It did, and the result was positively delightful — with
-designers and developers weighing in on everything from [*approaches to
-*](https://18f.gsa.gov/2015/01/06/protosketch/)[*protosketching*](https://18f.gsa.gov/2015/01/06/protosketch/)
+designers and developers weighing in on everything from [approaches to
+protosketching](https://18f.gsa.gov/2015/01/06/protosketch/)
 to usability testing to user-centered design.
 
-I asked Rob and 18F designer Jesse Taggert if they wouldn’t mind
+I asked Rob and 18F designer Jesse Taggert if they wouldn't mind
 elaborating on their initial conversation in a more formalized way. They
 were happy to, and so the three of us sat down to debate whether teams
 should code first, design first, or a combination of the two.
@@ -46,21 +46,21 @@ You should always begin by coding as soon as you start talking to a
 customer about something. In saying that, I believe that modern coding
 practices allow you to produce things that are testable extraordinarily
 quickly. Sometimes, if you have someone who is good at coding, you can
-produce a working prototype in just an hour as you’re learning from the
+produce a working prototype in just an hour as you're learning from the
 person what it is that they want. I suggest that this should be a
 standard practice for designers or any team that is servicing a customer
 or an end user.
 
-**On why it is sometimes best to wait — the solution isn’t always found
+**On why it is sometimes best to wait — the solution isn't always found
 in the code**
 
-**Jesse Taggert:** If you start off absolutely with coding, it’s not
+**Jesse Taggert:** If you start off absolutely with coding, it's not
 necessarily a bad thing, but it's a huge presupposition that the answers
-is about technology. What I'm often finding by doing design research is
+are about technology. What I'm often finding by doing design research is
 that sometimes it's more about the process or service experiences. And
-we want to understand that more before we start to say, ‘We’re gonna
+we want to understand that more before we start to say, 'We're gonna
 make a new improved, technical experience to answer some of those
-needs.’
+needs.'
 
 **When creating a technical prototype is really beneficial to a team**
 
@@ -68,8 +68,8 @@ needs.’
 had envisioned that their solution was going to be a huge technical
 problem. Rob did this prototyping session with one of his colleagues. At
 the end, they had a working, responsive app and demonstrated to these
-folks... that it wasn’t going to be a big, overwhelming project. So
-that’s a win for coding — demonstrating the look and feel and value of
+folks... that it wasn't going to be a big, overwhelming project. So
+that's a win for coding — demonstrating the look and feel and value of
 technology. But coding may not always be the solution to the actual
 problem, which might involve more behavior and process.
 
@@ -77,11 +77,11 @@ problem, which might involve more behavior and process.
 affect the decision to code first versus conduct design research first**
 
 **JT:** I would push back against the word complexity versus using words
-like known and unknown. If it’s an unknown project, we want to do a lot
-more discovery and research. And if it’s a known thing, you might be
+like known and unknown. If it's an unknown project, we want to do a lot
+more discovery and research. And if it's a known thing, you might be
 more comfortable bringing in the technical stuff.
 
-**RR:** I agree with Jesse. It’s not really a question of complexity. It
+**RR:** I agree with Jesse. It's not really a question of complexity. It
 makes more sense to think along the dimension of how known or unknown is
 the thing you're trying to address.
 
@@ -95,16 +95,16 @@ something that you code can be thrown away just as easily as it was
 created. The code must be treated as no more significant than a sheet of
 paper that someone made a sketch on.
 
-**JT**: I’ve had prototypes where, [you want to] keep it crude, because
+**JT**: I've had prototypes where, [you want to] keep it crude, because
 as soon as it looks too good people, whether they say it or not, they
-get attached to it…. There’s always that balance between how it looks
+get attached to it…. There's always that balance between how it looks
 and feels, which can buy stakeholder or client buy-in, and how you
-manage it moving forward so the clients understand it’s not final. I
+manage it moving forward so the clients understand it's not final. I
 would add that in that scenario, emphasizing the results of task-based
 usability testing is a good way to help clients assess whether the
 product is working or not. A prototype may look great to a stakeholder
-who is swayed by good looking design, but we can say, ‘We did these
-tests and they didn’t work as intended, so don’t like it too much.”
+who is swayed by good looking design, but we can say, 'We did these
+tests and they didn't work as intended, so don't like it too much.”
 
 **On developers submerging their egos to serve the end user**
 
@@ -116,14 +116,14 @@ they are totally in service to the end user. In the case of having a
 designer on the team, that basically means you're in service to the
 designer who is interpreting the needs of the end user.
 
-It’s very important that the development team use its intelligence and
+It's very important that the development team use its intelligence and
 creativity to figure out how to give you things testable to the design
 team as early in the process as possible. So it's not that you're
 creating a finished product as early as possible, but the development
-team should be thinking, ‘Okay the design team wants to test this
+team should be thinking, 'Okay the design team wants to test this
 hypothesis or test out this idea — how can we build a fourth of that
 solution which we can give to them and they can valuably do usability
-testing on?’
+testing on?'
 
 **On how thinking of serving the designer leads to more creative
 thinking**
@@ -131,28 +131,28 @@ thinking**
 **RR:** If you think of it that way it does actually require more
 creativity because the developers — instead of thinking of a perfect
 product, must think of themselves as moving through a swamp or a
-landscape to get there. And it’s the path that’s important, not the end
+landscape to get there. And it's the path that's important, not the end
 product. And the path is in service to the design team being able to
 confirm with their suspicions or test things with the user.
 
 **On design research needing space at the beginning of a project**
 
 **JT:** One of the things about design research is that research often
-needs space at the beginning of a project. I’ve worked on really high
-functioning agile teams and I always called it ‘the sanctity of the
-backlog.’ They worked so hard and they pulled from what’s in the backlog
-and their stories are well thought out and it’s amazing. And if design
-and research doesn’t have enough lead time before that, then it’s a very
+needs space at the beginning of a project. I've worked on really high
+functioning agile teams and I always called it 'the sanctity of the
+backlog.' They worked so hard and they pulled from what's in the backlog
+and their stories are well thought out and it's amazing. And if design
+and research doesn't have enough lead time before that, then it's a very
 panicked situation because you know you have a team that values what
-those stories are, and you haven’t had enough time to add material to
-field material for a sprint or two. Often it’s called Sprint 0.
+those stories are, and you haven't had enough time to add material to
+field material for a sprint or two. Often it's called Sprint 0.
 
 **RR:** I understand that. Design should always lead development by at
 least two sprints so that the developers know what they're working on.
 But I guess, to be a little bit provocative, I would say why would a
 designer not want to have the development team at his or her service at
-the very beginning? Why would you ever say, ‘I don't want someone
-working for me.’ As long as the development team is disciplined about
+the very beginning? Why would you ever say, 'I don't want someone
+working for me.' As long as the development team is disciplined about
 understanding that in the end, they are in service to the end user.
 
 **JT:** During the research phase, you might not need a developer team,
@@ -167,7 +167,7 @@ But the most important thing, from a spiritual or psychological point of
 view is to always be focusing on the end user.
 
 **JT:** The meta-thing is absolutely yes. And in this government
-environment, there’s also the user experience of the people in
-government learning this process, and it’s a really fascinating space to
+environment, there's also the user experience of the people in
+government learning this process, and it's a really fascinating space to
 be in.
 
