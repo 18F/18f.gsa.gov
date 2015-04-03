@@ -1,6 +1,25 @@
+---
+title: 'How To Welcome New Coders To A Civic Hackathon'
+date: '2015-04-03'
+layout: post
+image: /assets/blog/govtechhack/IMG_3998.JPG
+tags: 
+- 18F
+- events
+- how we work
+authors:
+- melody
+- becky
+- afeld
+- julia
+- will
+excerpt: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
+description: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
+---
 
-
-
+<p class="authors">
+  by {% author melody %} and {% author becky %} and {% author afeld %} and {% author julia %} and {% author will %}
+</p>
 
 
 <blockquote class="twitter-tweet" lang="en"><p>Pushed a pull-request to <a href="https://t.co/jho7o3P9ZX">https://t.co/jho7o3P9ZX</a> this morning, and now I have code running on a .gov site. Pretty cool, <a href="https://twitter.com/18F">@18f</a>.</p>&mdash; Philip James (@phildini) <a href="https://twitter.com/phildini/status/580879418337316864">March 25, 2015</a></blockquote>
@@ -63,8 +82,7 @@ Clearly define projects and enumerate ways newcomers can get involved with each.
 ================================================================================
 
 Last month, we co-hosted
-[GovTechHack](https://storify.com/ultrasaurus/govtechhack-sf-march-27-28),
-a San-Francisco-based hackathon where civic-minded coders, builders,
+[GovTechHack](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/), a San-Francisco-based hackathon where civic-minded coders, builders,
 designers, and other creative folks came together to work on open source
 and open data projects. Before the event began, we wrote out
 documentation for each project, which included:
