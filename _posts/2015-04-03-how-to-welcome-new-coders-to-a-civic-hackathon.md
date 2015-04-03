@@ -68,9 +68,7 @@ means).
 You can help in a few different ways:
 
 -   Create an online guide for newcomers that’s part of the hackathon’s organizing materials, and make sure it’s part of the official hackathon materials bundle.
-
 -   Designate a physical location at the hackathon where people can gather for help (an Info Booth, of sorts), and make sure the location is clearly labeled
-
 -   Elect a designated person (or a few people) to act as a welcoming committee for newcomers. It can be difficult for organizers to play this role with so much going on, so you definitely want to identify people who can help newcomers. Ideally, you will have some experienced hackers on-hand who are willing to take on this role. If not, review your RSVP list a week or two before the event and ask a few newcomers if they’d like to join the welcome committee. One week before the event, invite these participants to a prep night and have them test the install instructions and improve the welcome materials. Not only will you have a formalized welcome committee, but the new participants will feel welcomed.
 
 Organizational efforts like these ensure that people spend time hacking
@@ -88,15 +86,10 @@ and open data projects. Before the event began, we wrote out
 documentation for each project, which included:
 
 -   The project’s name
-
 -   The project’s live URL, if it existed
-
 -   The project’s source code repository
-
 -   The project’s purpose and impact
-
 -   Concrete, clearly defined ways contributors could contribute during the hackathon
-
 -   The project ambassadors: people who could help answer questions during or after the hackathon
 
 You can see an example of one of these projects
@@ -105,11 +98,8 @@ project documentation helped enormously, we’d make a few changes the
 next time around. We wish we’d also:
 
 -   Sent participants this information **before** the event, along with a detailed guide to software/libraries/gems to install for each project, so participants knew what to expect and how to prep their computers to participate. (Many hackathons end up with folks spending the first half of their day setting up local dev environment. The more you can do ahead of time to alleviate this, the more time people will have to hack!)
-
 -   Included this information on the GitHub page directly, perhaps in the README.md file, which people see when they’re checking out any of our projects. (Example: [our site’s README.md](https://github.com/18F/18f.gsa.gov/blob/staging/README.md))
-
 -   Included a checklist for users (like [this one](https://github.com/girldevelopit/gdi-new-site/issues/245))
-
 -   Added a section on how non-coders could have helped each project. It’s worth thinking about and then articulating — in writing — how people with other areas of expertise or knowledge can help during a hackday. If you don’t have time to write these issues out, you can open an issue that asks for someone to interview you about them. Voila! Problem solved.
 
 Make really good nametags for people
