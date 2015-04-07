@@ -113,21 +113,21 @@ to this one, we hope to see you at the next.
 
 ### Key Links
 
-[*Resources*](http://18f.github.io/hackathons/a11yhack/resources):
+[Resources](http://18f.github.io/hackathons/a11yhack/resources):
 Accessibility Resources.
 
-[*Tools*](http://18f.github.io/hackathons/a11yhack/tools): Accessibility
+[Tools](http://18f.github.io/hackathons/a11yhack/tools): Accessibility
 Tools.
 
-[*Best Practices and Common Testing
-Tools*](http://buyaccessible.gov/content/best-practice-library):
+[Best Practices and Common Testing
+Tools](http://buyaccessible.gov/content/best-practice-library):
 Accessibility Tools.
 
-[*Hackpad*](https://hackpad.com/Accessibility-Hackathon-a11yhack-FSW5lFX53LP):
+[Hackpad](https://hackpad.com/Accessibility-Hackathon-a11yhack-FSW5lFX53LP):
 Shared notes from hackathon.
 
 ### Hackathon Projects:
 
-Join or post your projects in the [*snapshot of the Accessibility
+Join or post your projects in the [snapshot of the Accessibility
 Hackathon
-Hackpad*](http://18f.github.io/hackathons/a11yhack/hackpad-snapshot/).
+Hackpad](http://18f.github.io/hackathons/a11yhack/hackpad-snapshot/).
