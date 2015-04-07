@@ -10,8 +10,8 @@ tags:
 - how we work
 authors:
 - jamie
-description: "For this month's installment of our *Day in the Life* series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
-excerpt: "For this month's installment of our *Day in the Life* series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
+description: "For this month's installment of our "Day in the Life" series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
+excerpt: "For this month's installment of our "Day in the Life" series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
 ---
 
 <p class="authors">
