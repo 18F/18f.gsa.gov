@@ -2,7 +2,7 @@
 title: 'In Case You Missed It: #a11yhack, an Accessibility Hackathon'
 date: '2015-04-07'
 layout: post
-image: 
+image: /assets/blog/a11yhack/a11yhack.jpg
 tags:
 - 18F Events
 - Hackathons
