@@ -25,9 +25,9 @@ one of 18F’s ongoing goals. In support of this goal, we recently hosted
 [a11yhack](http://18f.github.io/hackathons/a11yhack/), a website accessibility 
 hackathon.
 
-[***Section 508***](http://www.section508.gov/), an amendment to the
-[***United States Workforce Rehabilitation Act of
-1973***](http://www.dol.gov/dol/topic/disability/laws.htm), was enacted
+[Section 508](http://www.section508.gov/), an amendment to the
+[United States Workforce Rehabilitation Act of
+1973](http://www.dol.gov/dol/topic/disability/laws.htm), was enacted
 to eliminate barriers in information technology. Federal websites are,
 by law, designed to be accessible to everyone – individuals who are
 visually impaired, hearing impaired, or have mobility issues – and we
@@ -39,19 +39,19 @@ technologists, the hackathon featured experts discussing their work,
 networking opportunities, and the opportunity to make a real difference
 on these issues via general project collaboration and reviews of
 different websites (including tips for improving accessibility). The
-[***White House Office of Science and Technology
-Policy***](https://www.whitehouse.gov/administration/eop/ostp), the
-[***National Institute on Disability, Independent Living, and
+[White House Office of Science and Technology
+Policy](https://www.whitehouse.gov/administration/eop/ostp), the
+[National Institute on Disability, Independent Living, and
 Rehabilitation
-Research***](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html),
-and [***DC Legal Hackers***](http://dclegalhackers.org/) also sponsored
+Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html),
+and [DC Legal Hackers](http://dclegalhackers.org/) also sponsored
 the event.
 
 About 80 people attended the all-day event, and many of the organizers
 and participants shared that it was a huge success.
 
-“All the presenters were great and I was really happy the [***National
-Federation of the Blind***](https://nfb.org//) could come and help us
+“All the presenters were great and I was really happy the [National
+Federation of the Blind](https://nfb.org/) could come and help us
 out. Their insight was inspiring and we got a lot of great feedback from
 them,” said Nick Bristow, one of the event organizers.
 
@@ -59,10 +59,10 @@ them,” said Nick Bristow, one of the event organizers.
 
 ![A tweet from Rebecca Williams: "Accessibility advices like, 'don't use read more links, be more descriptive' are also good writing/life advice. #a11yhack"](/assets/blog/a11yhack/allytweet2.png)
 
-“The hackathon itself was also successful. [***Megan
-Smith***](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff/smith)
-loved the [***508 Procurement
-Playbook***](https://18f.github.io/508-procurement-playbook/) that was
+“The hackathon itself was also successful. [Megan
+Smith](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff/smith)
+loved the [508 Procurement
+Playbook](https://18f.github.io/508-procurement-playbook/) that was
 put together, and the video CAPTCHA was great. The basic idea was to
 authorize a person by asking them to perform actions in front of a
 camera, such as looking left then right, holding up a certain number of
