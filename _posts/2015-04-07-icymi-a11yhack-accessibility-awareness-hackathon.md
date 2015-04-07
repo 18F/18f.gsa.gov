@@ -12,11 +12,12 @@ authors:
 - alan
 - nick
 - kate
+- jhunter
 description: "Improving accessibility and 508 awareness is one of 18F’s ongoing goals. In support of this goal, we recently hosted a11yhack, a website accessibility hackathon."
 excerpt: "Improving accessibility and 508 awareness is one of 18F’s ongoing goals. In support of this goal, we recently hosted a11yhack, a website accessibility hackathon."
 ---
 <p class="authors">
-    by {% author jackie %}, {% author alan %}, {% author nick %}, and {% author kate %}
+    by {% author jackie %}, {% author alan %}, {% author nick %}, {% author jhunter %}, and {% author kate %}
 </p>
 Improving [accessibility and 508
 awareness](https://18f.gsa.gov/2015/03/31/focus-on-accessibility/) is
