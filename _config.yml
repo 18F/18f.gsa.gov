@@ -38,6 +38,9 @@ rss_limit: 20
 
 future: false
 
+# edit on prose or github
+editurl: http://prose.io/#18F/18f.gsa.gov/edit/staging/
+
 # get data from the hub
 jekyll_get:
   - data: team
