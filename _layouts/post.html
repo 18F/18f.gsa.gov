@@ -64,16 +64,18 @@
       <h1>Related Posts</h1>
       {% related_posts ul li %}
     </section>
-
+    <section class="blog-edit">
+     <a href="{{site.editurl}}{{page.path}}">Edit this post</a>
+    </section>
     <aside class="blog-follow-us">
       <h1>Follow the latest news from 18F</h1>
       <ul>
         <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">@18F</a></li>
         <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a></li>
       </ul>
-      
+
       <!-- <i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a> -->
-      
+
     </aside>
 
   </div>
