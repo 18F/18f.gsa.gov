@@ -6,6 +6,11 @@ tags:
 - procurement
 - market research
 - user research
+
+category:
+- The Projects We Work On
+
+
 author:
 - brethauer
 excerpt: "18F is glad to announce the beta release of a new procurement tool, Discovery.

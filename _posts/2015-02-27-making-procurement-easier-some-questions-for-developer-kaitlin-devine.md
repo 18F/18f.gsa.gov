@@ -13,6 +13,10 @@ author:
 - Greg Boone
 - Elaine Kamlley
 - Melody Kramer
+
+category:
+- The Projects We Work On
+
 excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 ---

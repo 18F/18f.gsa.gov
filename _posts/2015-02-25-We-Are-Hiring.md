@@ -11,6 +11,10 @@ author:
 - kaitlin
 - shawn
 - hillary
+
+category:
+- How We Work
+
 excerpt: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 description: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 ---

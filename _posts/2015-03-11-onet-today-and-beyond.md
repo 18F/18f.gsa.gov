@@ -9,6 +9,9 @@ tags:
 - pif
 - department of labor
 
+category:
+- The Projects We Work On
+
 authors:
 - tgrandison
 

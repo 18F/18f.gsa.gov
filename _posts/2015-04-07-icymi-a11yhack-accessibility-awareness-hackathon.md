@@ -7,6 +7,10 @@ tags:
 - 18F Events
 - Hackathons
 - accessibility
+
+category:
+- Events 
+
 authors: 
 - jackie
 - alan

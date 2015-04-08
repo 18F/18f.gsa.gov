@@ -8,6 +8,10 @@ tags:
 - discovery
 - user research
 - interview
+
+category:
+- The Projects We Work On
+
 author:
 - boone
 - elaine

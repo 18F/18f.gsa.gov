@@ -6,6 +6,11 @@ image: /assets/blog/govtechhack/IMG_4015.JPG
 tags: 
 - 18F
 - events
+
+category:
+- Events
+
+
 authors:
 - kate
 description: "On a recent breezy San Francisco evening, groups of developers,

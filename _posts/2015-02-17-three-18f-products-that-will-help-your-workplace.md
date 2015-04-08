@@ -28,6 +28,9 @@ tags:
 - github
 - snippets
 - The Hub
+
+category:
+- The Projects We Work On
 ---
 
 <p class="authors">

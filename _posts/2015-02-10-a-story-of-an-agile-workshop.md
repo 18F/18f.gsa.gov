@@ -8,6 +8,8 @@ tags:
 - agile
 - workshops
 - how we work
+category:
+- Design and Code
 authors:
 - robert
 - blacktm

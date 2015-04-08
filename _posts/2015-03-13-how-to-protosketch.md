@@ -8,6 +8,10 @@ tags:
 - 18f consulting
 - how we work
 - agile
+
+category:
+- Design and Code
+
 authors:
 - alan
 - robert

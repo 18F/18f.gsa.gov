@@ -7,6 +7,8 @@ tags:
 - agile
 - 18f consulting
 - events
+category:
+- Events
 authors:
 - chrisc
 description: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of Industry Day events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
