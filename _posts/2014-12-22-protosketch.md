@@ -9,7 +9,7 @@ authors:
 
 tags:
 - protosketching
-- 18F Consulting
+- 18f consulting
 - how we work
 
 category:

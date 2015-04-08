@@ -4,7 +4,7 @@ layout: post
 image: /assets/blog/were-hiring/18fdc-pif.jpg
 tags:
 - how we work
-- 18F
+- 18f
 - team
 - join us
 author:

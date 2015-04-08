@@ -5,10 +5,10 @@ authors:
 
 tags:
 - user experience
-- UX Design
-- 18F Events
-- Hackathons
-- Midas
+- ux design
+- 18f events
+- hackathons
+- midas
 - open source
 
 category:

@@ -6,8 +6,8 @@ layout: post
 image: onet/image01.jpg
 
 tags:
-- PIF
-- Department of Labor
+- pif
+- department of labor
 
 authors:
 - tgrandison
