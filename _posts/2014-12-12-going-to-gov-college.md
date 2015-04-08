@@ -11,7 +11,6 @@ description: Last week, a number of teammates coordinated to put on three Digita
 
 tags:
 - training
-<<<<<<< HEAD
 - DigitalGov University
 - GSA
 - open source
@@ -20,13 +19,6 @@ tags:
 
 category:
 - Events
-
-
-=======
-- digitalgov university
-- gsa
-- events
->>>>>>> 2676dad28a8cf6c21984492b00bf592e1031f21c
 
 layout: post
 ---
