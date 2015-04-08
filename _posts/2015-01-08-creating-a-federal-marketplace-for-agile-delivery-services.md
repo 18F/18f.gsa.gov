@@ -16,6 +16,9 @@ tags:
 - GSA
 - lean
 - modernization
+
+category
+- The Projects We Work On
 ---
 
 By {% author chrisc %} and {% author greg %}
