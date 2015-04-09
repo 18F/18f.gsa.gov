@@ -79,15 +79,57 @@ http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-A
 <!-- Mobile "theme" -->
 <meta name="theme-color" content="#1188ff" />
 
+<!-- Fonts
+================================================== -->
+<noscript>
+  <link href="/assets/css/google-fonts.css" rel="stylesheet">
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+</noscript>
+<script>
+  (function() {
+    function appendFont(name, href) {
+      var style = document.createElement((href ? 'link' : 'style'));
+      style.rel = 'stylesheet';
+      if (href) {
+        style.href = ('https:' === document.location.protocol ?
+                'https://' : 'http://') + href;
+      } else {
+        style.textContent = localStorage[name];
+      }
+      document.head.appendChild(style);
+    }
+    function loadFont(name, href) {
+      try {
+        if (localStorage[name]) {
+          appendFont(name);
+        } else {
+          // We have to first load the font file asynchronously
+          var request = new XMLHttpRequest();
+          request.open('GET', href, true);
+          request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+              // We save the file in localStorage
+              localStorage[name] = request.responseText;
+              appendFont(name);
+            }
+          }
+          request.send();
+        }
+      } catch(ex) {};
+    };
+
+    // Site fonts to load.
+    loadFont('google', '/assets/css/google-fonts.css');
+    loadFont('fontawesome', '/assets/css/font-awesome.css');
+  })();
+</script>
+
 <!-- CSS
 ================================================== -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:400,700" rel="stylesheet" type="text/css">
 <link href="/assets/css/fonts.css" rel="stylesheet">
-<link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="/assets/css/normalize.css" rel="stylesheet">
 <link href="/assets/css/styles.css" rel="stylesheet">
 <link href="/assets/css/pygments-theme.css" rel="stylesheet">
-
 
 <!-- IE
 ================================================== -->
