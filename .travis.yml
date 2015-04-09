@@ -13,8 +13,8 @@ before_script:
 
 script: 
   - ./go ci_build
-  - nohup http-server _site/ -p 8080 >/dev/null 2>&1 &
-  - pa11y localhost:8080/index.html -r ci -s Section508
+  - nohup http-server -p 8080 >/dev/null 2>&1 &
+  - for i in _site/**/*.html; do pa11y localhost:8080/$i -r ci -Section508; done
 
 notifications:
   email:
