@@ -5,8 +5,16 @@ rvm:
 sudo: false
 git:
   submodules: false
+  
+before_script:
+  - npm install -g http-server
+  - npm install -g pa11y
+  - npm install -g pa11y-reporter-ci
 
-script: ./go ci_build
+script: 
+  - ./go ci_build
+  - nohup http-server _site/ -p 8080 >/dev/null 2>&1 &
+  - pa11y localhost:8080/index.html -r ci -s WCAG2AAA
 
 notifications:
   email:
