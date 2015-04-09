@@ -6,8 +6,6 @@ image: /assets/blog/peacecorps/image04.png
 tags:
 - Peace Corps
 - how we work
-category:
-- Design and Code
 authors:
 - cm
 description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
