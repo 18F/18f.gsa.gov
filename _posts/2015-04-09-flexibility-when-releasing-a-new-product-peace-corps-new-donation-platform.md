@@ -1,5 +1,5 @@
 ---
-title: 'Flexibility When Releasing A New Product: Peace Corps’ New Donations Platform'
+title: "Flexibility When Releasing A New Product: Peace Corps' New Donations Platform"
 date: '2015-04-09'
 layout: post
 image: /assets/blog/peacecorps/image04.png
@@ -8,10 +8,10 @@ tags:
 - how we work
 category:
 - Design and Code
-authors: 
+authors:
 - cm
-description: "We were proud to provide design and development work for the Peace Corps’ new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
-excerpt: "We were proud to provide design and development work for the Peace Corps’ new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
+description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
+excerpt: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 ---
 <p class="authors">
     by {% author cm %}
@@ -20,7 +20,7 @@ excerpt: "We were proud to provide design and development work for the Peace Cor
 ![Screenshot of workflow for new Peace Corps donation platform](/assets/blog/peacecorps/image04.png)
 
 We were proud to provide design and development work for the Peace
-Corps’ new [donations platform](https://beta.peacecorps.gov/donate/)
+Corps' new [donations platform](https://beta.peacecorps.gov/donate/)
 which will allow the Peace Corps to further its mission by providing
 funding for volunteer projects. Releasing this project within our tight
 deadline required us to choose the direction of our efforts carefully;
@@ -43,7 +43,7 @@ we hope we can help inform your next project(s), as well as our own.
 Progressive Enhancement
 -----------------------
 
-Our effort to refresh the Peace Corps’ donations platform stemmed from
+Our effort to refresh the Peace Corps' donations platform stemmed from
 many goals, such as highlighting volunteer stories (to humanize the
 agency,) creating an experience optimized for mobile devices, and
 simplifying the donation process. The last point proved particularly
@@ -62,7 +62,7 @@ accessibility teams. We would need to dynamically generate the interface
 and provide a fallback for users without scripting support. With an eye
 on the clock, we chose instead to create a simpler form using radio
 selectors to allow users to select a donation amount. Though this felt
-clunky and defeated our single-click goal, it worked, so that’s where we
+clunky and defeated our single-click goal, it worked, so that's where we
 started. The budget eventually allowed for additional improvements to
 this interface to be prioritized. Currently, the experience for most
 users is roughly one step away from our initial design, but it *remains*
@@ -73,7 +73,7 @@ re-prioritizing allowed us to make the product better on the whole.
 
 In another situation, starting with a simple solution ultimately led us
 down a worse path. Our most complex user interaction offers multiple
-filters and categorization mechanisms for selecting how a user’s
+filters and categorization mechanisms for selecting how a user's
 donation will be used by the Peace Corps Volunteers. A reasonable
 technical architecture for this sort of page would involve asynchronous
 requests, where data is transmitted in chunks instead of in one large
@@ -85,11 +85,11 @@ projects and funds relevant to that country, but the latter approach
 requires much more markup. Not long before launching, we realized that
 this approach led to massive page sizes when using live data. We quickly
 hacked around this problem via compression on our caching layer, and we
-later added additional patches to minimize redundant markup. We’re still
+later added additional patches to minimize redundant markup. We're still
 not where we should be with regards to site load time because our
 initial approach was too simplistic.
 
-Zero Downtime
+Zero Downtime and Caching Overkill
 -------------
 
 During our early planning phases, we were informed there might be a
@@ -106,7 +106,7 @@ handle dozens of requests per second.
 
 ![screenshot of donation platform for Peace Corps birding for conservation project](/assets/blog/peacecorps/image00.png)
 
-After reviewing the numbers from Peace Corps’ media blitz in early
+After reviewing the numbers from Peace Corps' media blitz in early
 March, we know that part of our calculus was correct — S3 and CloudFront
 *did* take the brunt of our user load — but our other estimates were
 wildly off. The absolute number of hits was significantly below our
@@ -115,7 +115,7 @@ capacity.
 While there has been good traffic to the site, we made the wrong call
 when architecting. Our caching layers led to additional confusion from
 Peace Corps admin staff, who needed to know that their content may not
-be “live” for an hour. We didn’t actually need this layer and certainly
+be “live” for an hour. We didn't actually need this layer and certainly
 not the multi-tiered approach we used out of the gate. Our auto-scaling
 server cluster sits at minimal utilization; we will certainly save money
 once we spin it down. While the peace of mind is certainly appreciated,
@@ -142,7 +142,7 @@ but the other would not.
 We pushed hard to cut as many fields as possible from the donor form,
 but knew this would be problematic given the number of stakeholders
 needed for approval. We therefore began a parallel effort to test our
-backend process with a replica of their existing form. Though it wasn’t
+backend process with a replica of their existing form. Though it wasn't
 our intent, we ended up using a tweaked version of this for launch
 (after discovering that the process to change the form could delay
 launch by many months). Here, starting with the simpler approach
@@ -164,9 +164,8 @@ We will no doubt see more dividends and costs associated with our
 technical choices in the coming months, but we have pulled out the above
 as a starting point for analysis. Implementing the simplest solution
 allowed us to add other features (and/or move our launch date up), but
-some of the initial solutions weren’t actually viable. On the other
+some of the initial solutions weren't actually viable. On the other
 hand, some optimization efforts were red herrings (e.g. caching) while
 others now seem like a requirement (e.g. the static site). Ultimately,
-we recommend you start simple but don’t refuse to dive deep when there’s
+we recommend you start simple but don't refuse to dive deep when there's
 a good use case.
-
