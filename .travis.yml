@@ -14,7 +14,7 @@ before_script:
 script: 
   - ./go ci_build
   - nohup http-server _site/ -p 8080 >/dev/null 2>&1 &
-  - pa11y localhost:8080/index.html -r ci -s WCAG2AAA
+  - pa11y localhost:8080/index.html -r ci -s Section508
 
 notifications:
   email:
