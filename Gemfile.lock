@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/adelevie/ra11y.git
+  revision: 55c951c484f720eb1b913c6f61cca1232f54304d
+  specs:
+    ra11y (0.0.1)
+      colorator
+      parallel
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -55,6 +63,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    parallel (1.4.1)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.10)
@@ -83,4 +92,5 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   jekyll_pages_api
+  ra11y!
   safe_yaml

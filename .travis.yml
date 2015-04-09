@@ -6,7 +6,8 @@ sudo: false
 git:
   submodules: false
 
-script: ./go ci_build
+before_script: npm install -g pa11y
+script: bundle exec ./go ci_build
 
 notifications:
   email:
