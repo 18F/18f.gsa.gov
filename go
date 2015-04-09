@@ -2,7 +2,7 @@
 #
 # Go script for building the 18F site
 #
-# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone 
+# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone
 # (gregory.boone@gsa.gov) on behalf of the 18F team, part of the US General
 # Services Administration: https://18f.gsa.gov/
 #
@@ -19,7 +19,7 @@
 #
 # ----
 #
-# ./go script: unified development environment interface 
+# ./go script: unified development environment interface
 #
 # Inspired by:
 # http://www.thoughtworks.com/insights/blog/praise-go-script-part-i
@@ -88,7 +88,7 @@ end
 def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  exec_cmd('bundle exec jekyll b --config _config.yml,_deploy_config.yml')
+  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
 end
 
 
