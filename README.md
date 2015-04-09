@@ -46,7 +46,7 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 ./go init
 ```
 
-[For the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
+Our go script requires **XCode.** [For the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
 
 So yes: this project requires Ruby and Node (for now). Aren't static site generators the simplest?
 
