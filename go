@@ -2,7 +2,7 @@
 #
 # Go script for building the 18F site
 #
-# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone 
+# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone
 # (gregory.boone@gsa.gov) on behalf of the 18F team, part of the US General
 # Services Administration: https://18f.gsa.gov/
 #
@@ -19,7 +19,7 @@
 #
 # ----
 #
-# ./go script: unified development environment interface 
+# ./go script: unified development environment interface
 #
 # Inspired by:
 # http://www.thoughtworks.com/insights/blog/praise-go-script-part-i
@@ -66,7 +66,7 @@ end
 
 def update_data
   ruby = exec_cmd 'which ruby'
-  exec_cmd "#{ruby} import-public.rb"
+  exec_cmd "#{ruby} _data/import-public.rb"
 end
 
 def serve
@@ -88,8 +88,7 @@ end
 def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  update_data
-  build
+  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
 end
 
 
@@ -100,7 +99,7 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
-  :server_build => 'Pulls from git, updates _data, and builds the site'
+  :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled'
 }
 
 def usage(exitstatus: 0)
