@@ -34,6 +34,11 @@ description: "18F builds effective, user-centric digital services focused on the
 paginate: 5
 paginate_path: "news/page/:num"
 
+#emoji
+
+gems:
+  - jemoji
+
 rss_limit: 20
 
 future: false
