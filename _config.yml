@@ -35,9 +35,10 @@ paginate: 5
 paginate_path: "news/page/:num"
 
 #emoji
-
 gems:
   - jemoji
+emoji:
+  src: "/assets/images"
 
 rss_limit: 20
 
