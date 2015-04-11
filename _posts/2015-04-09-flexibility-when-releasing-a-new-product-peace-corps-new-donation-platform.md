@@ -43,7 +43,7 @@ Progressive Enhancement
 
 Our effort to refresh the Peace Corps' donations platform stemmed from
 many goals, such as highlighting volunteer stories (to humanize the
-agency,) creating an experience optimized for mobile devices, and
+agency), creating an experience optimized for mobile devices, and
 simplifying the donation process. The last point proved particularly
 challenging, as we had little control over the payment processor and
 minimal flexibility in the collections form. Luckily, we *could* reduce
@@ -66,7 +66,7 @@ this interface to be prioritized. Currently, the experience for most
 users is roughly one step away from our initial design, but it *remains*
 a step away. However, since we released without our optimal solution, we
 bought time to build some other features (perhaps skipping payment
-confirmation, perhaps additional sort options.) Stepping back and
+confirmation, perhaps additional sort options). Stepping back and
 re-prioritizing allowed us to make the product better on the whole.
 
 In another situation, starting with a simple solution ultimately led us
@@ -152,7 +152,7 @@ either a full-blown search index or a tightly coupled database
 implementation. This would add nontrivial design and development time
 that was needed for other, higher-priority features. So we kept the
 search feature in the backlog (a holding area for features not actively
-planned.) When it came time to release, the feature was still not
+planned). When it came time to release, the feature was still not
 present. Time will tell whether this tradeoff was worthwhile.
 
 The Road Ahead
