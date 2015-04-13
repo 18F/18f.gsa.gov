@@ -730,12 +730,15 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .bio {
 	@include span-columns(3 of 12);
-	margin: 1.5em 0 1.5em 1.5%;
+	margin: 1.5em 0 .5em 1.5%;
+	padding-right: 3%;
 	position: relative;
 	@include media($smaller) {
 		@include span-columns(4 of 12);
 		@include omega();
 		padding-left: 1.5%;
+		margin-top: 1em;
+		margin-bottom: 0;
 	}
 	@include media($smallest) {
 		@include span-columns(3 of 12);
@@ -747,17 +750,23 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 1.5%;
 	}
 	@include media($tiniest) {
-		margin: 0.5em 0 0.5em 1.5%;
+		margin-top: 0.5em;
 	}
 	strong {
 		float: left;
 		clear: both;
 	}
 	h1 {
-		clear: both;
-		margin: 8px 0 2px 0;
+		// clear: both;
+		margin: .2em 0 0 0;
 		color: $red;
 		font-size: 1.2em;
+		text-align: center;
+		line-height: 1.2em;
+		@include media($smaller) {
+			min-height: 2.4em; // 2x line-height
+			margin-top: 0;
+		}
 		@include media($smallest) {
 			font-size: 0.70em;
 		}
@@ -774,45 +783,44 @@ $tiniest: new-breakpoint(max-width 390px);
 	a {
 		text-decoration: none;
 		img {
-			margin: 1.0em auto;
-			float: left;
-			width: 200px;
-			height: 200px;
+			// width: 200px;
+			// height: 200px;
 
-      -webkit-filter: grayscale(100%);
-    	-moz-filter: grayscale(100%);
-    	filter: grayscale(100%);
-      filter: url(/assets/bw.svg#greyscale);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			filter: grayscale(100%);
+			filter: url(/assets/bw.svg#greyscale);
 
 			@include transition(0.3s linear);
-        	@include media($smaller) {
-        		height: 225px;
-    			width: 225px;
-        	}
-        	@include media($smallest) {
-        		height: 120px;
-    			width: 120px;
-        	}
-        	@include media($tiny) {
-        		height: 100px;
-    			width: 100px;
-    			margin: 0.3em auto;
-	        	-webkit-filter: none;
-	        	-moz-filter: none;
-	        	filter: none;
-        	}
-        	@include media($tiniest) {
-        		height: 85px;
-    			width: 85px;
-        	}
-    	}
+			@include media($smaller) {
+				// height: 225px;
+				// width: 225px;
+			}
+			@include media($smallest) {
+				// height: 120px;
+				// width: 120px;
+			}
+			@include media($tiny) {
+				// height: 100px;
+				// width: 100px;
+				margin: 0.3em auto;
+				-webkit-filter: none;
+				-moz-filter: none;
+				filter: none;
+			}
+			@include media($tiniest) {
+				// height: 85px;
+				// width: 85px;
+			}
+		}
 		&:hover img, &:focus img  {
-	        -webkit-filter: none;
-	        -moz-filter: none;
-	        filter: none;
-	    }
+			-webkit-filter: none;
+			-moz-filter: none;
+			filter: none;
+		}
 	}
 }
+
 .bio-clip {
     background: url(#clipping) no-repeat;
     -webkit-border-radius: 50%;
@@ -1142,3 +1150,5 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
+
+/* vim:noet ts=4 sw=4 */
