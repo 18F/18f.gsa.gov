@@ -12,3 +12,4 @@ gem 'hash-joiner'
 gem 'safe_yaml'
 
 gem 'jemoji'
+gem 'pry'
