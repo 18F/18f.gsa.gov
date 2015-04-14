@@ -763,8 +763,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 1.2em;
 		text-align: center;
 		line-height: 1.2em;
+		min-height: 2.4em; // 2x line-height
 		@include media($smaller) {
-			min-height: 2.4em; // 2x line-height
 			margin-top: 0;
 		}
 		@include media($smallest) {
