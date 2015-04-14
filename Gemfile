@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'rouge'
 gem 'bourbon'
 gem 'jekyll'
 
