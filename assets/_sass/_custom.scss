@@ -728,7 +728,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			@include span-columns(2 of 12);
 			margin-right: 15px;
 			margin-bottom: 15px;
-			height: 125px;
+			min-height: 160px;
 		a {
 			img {
 				width: 100%;
@@ -738,7 +738,16 @@ $tiniest: new-breakpoint(max-width 390px);
 			  border-radius: 100%;
 			  background-clip: padding-box;
 		  }
-		  h1 { display: none;}
+		  h1 { 
+		  	font-size: 1em;
+		  	text-align: center;
+		  }
+		}
+	}
+	.sortable {
+		min-height: 60px;
+		li {
+			display: inline
 		}
 	}
 }
