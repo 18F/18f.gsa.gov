@@ -29,6 +29,7 @@ If you get stuck, feel free to reach out to anyone on the 18f-site team.
 
 Helpful tips:
 
+* [Our Guide to the Terminal and GitHub](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)
 * [Creating a Pull Request (GitHub Support)](https://help.github.com/articles/creating-a-pull-request/)
 * [Creating a Pull Request with GitHub for Mac (GitHub blog post)](https://github.com/blog/1946-create-pull-requests-with-github-for-mac)
 
@@ -45,7 +46,7 @@ This is a [Jekyll](http://jekyllrb.com) website. Install Jekyll through Rubygems
 ./go init
 ```
 
-[For the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
+Prerequisites: A few of our gems require a C++ compiler (**XCode** on the Mac). [For the time being](https://github.com/jekyll/jekyll/issues/2327#issuecomment-55337023) you will also need **Node** to be installed, because Jekyll 2 couples a CoffeeScript runtime. This will eventually be removed.
 
 So yes: this project requires Ruby and Node (for now). Aren't static site generators the simplest?
 
