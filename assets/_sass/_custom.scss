@@ -741,16 +741,22 @@ $tiniest: new-breakpoint(max-width 390px);
 		  h1 { 
 		  	font-size: 1em;
 		  	text-align: center;
+		  	color: $medium-blue;
 		  }
 		}
 	}
 	.bio:nth-child(10n+6) {
-		margin-left: 110px;
+		margin-left: 90px;
 	}
 	.sortable {
 		min-height: 60px;
 		li {
-			display: inline
+			display: inline;
+			border: 1px solid $light-gray;
+			padding: 0.2em 0.5em;
+			a {
+				color: $dark-gray;
+			}
 		}
 	}
 }
