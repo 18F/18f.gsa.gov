@@ -1,6 +1,8 @@
-
+{% assign role = "developer" %}
+{% assign location = "new york" %}
+{% assign team = "devops" %}
 <div>
-	<h1>{{ page.name | full_name }} is a {{ role }} at 18F.</h1>
-	<h2>{{ role }} // {{ location }}</h2>
-	{{ page.name | with_pic }}
+	<h1>{{ page.name | team_full_name }} is a {{ role }} at 18F.</h1>
+	<h2>{{ team }} // {{ location }}</h2>
+	{{ page.name | team_photo }}
 </div>

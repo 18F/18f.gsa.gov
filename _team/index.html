@@ -20,10 +20,10 @@ title: 18F People
 			<li><a href="?sort=team">team</a></li>
 		</ul>
 		<div class="team">
-	    {% for person in site.data.team %}
+	    {% for person in site.team %}
 	    	<div class='bio'>
-        		<a href='/team/{{person[0]}}'>{{ person | with_pic }}
-        		<h1>{{person[1].full_name}}</h1></a>
+        		<a href='/team/{{person[0]}}'>{{ person.name | team_photo }}
+        		<h1>{{ person.name | team_full_name }}</h1></a>
     		</div>
 	    {% endfor %}
     </div>
