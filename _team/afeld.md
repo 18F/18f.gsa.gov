@@ -1,3 +1,3 @@
 ---
-layout: teammate
+name: afeld
 ---

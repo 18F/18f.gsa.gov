@@ -741,7 +741,6 @@ $tiniest: new-breakpoint(max-width 390px);
 		  h1 { 
 		  	font-size: 1em;
 		  	text-align: center;
-		  	color: $medium-blue;
 		  }
 		}
 	}
@@ -754,8 +753,12 @@ $tiniest: new-breakpoint(max-width 390px);
 			display: inline;
 			border: 1px solid $light-gray;
 			padding: 0.2em 0.5em;
+			a:hover, a:focus {
+				color: $red
+			}
 			a {
 				color: $dark-gray;
+				text-decoration: none;
 			}
 		}
 	}

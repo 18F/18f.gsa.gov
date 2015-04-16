@@ -44,3 +44,22 @@ emoji:
 rss_limit: 20
 
 future: false
+
+# defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+    scope:
+      collection: series
+    values:
+      layout: bare
+
+# collections
+collections:
+  team:
+    permalink: /team/:name/
+    layout: bare
+    output: true
