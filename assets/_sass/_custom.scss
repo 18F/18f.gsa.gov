@@ -744,6 +744,9 @@ $tiniest: new-breakpoint(max-width 390px);
 		  }
 		}
 	}
+	.bio:nth-child(10n+6) {
+		margin-left: 110px;
+	}
 	.sortable {
 		min-height: 60px;
 		li {
