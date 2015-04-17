@@ -95,7 +95,13 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 * First, you want to log into GitHub. Go to [https://github.com/login](https://github.com/login) and sign in with your username and password.
 
-Now we can start working with the website. GitHub is a system that stores files and records every change made to them using a piece of software called [Git](http://git-scm.com/). In this section you'll see the words "clone," "repository," and its shortened form, "repo." Every project on GitHub is called a "repository" or a "repo." A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned, you can make changes on your computer without affecting the project as it exists on GitHub.
+Now we can start working with the website. GitHub is a system that stores files and records changes made to them using a piece of software called [Git](http://git-scm.com/), which allows multiple people to work on a program at the same time without getting in each others' way. If our program was a five paragraph essay, Git allows Corey to edit the introduction on one computer while Jesse edits the conclusion somewhere else. When both are done, they can move their edits into one copy while preserving the changes from each person. 
+
+If you've ever used "Track Changes" in word processing (where edits are highlighted to be approved or rejected), Git is like that, but with many more features. In software development, Git and other **version control** tools are helpful when looking for the origin of a bug. Let's say that some code isn't working, but 15 people made edits to it in the last week and you aren't sure where the bug is. With Git, you can load an old version of a program, test for the issue, and then "jump forward" through people's edits until you find the first one that also has the problem. That tells you the specific edit to search for the mistake.
+
+GitHub is a website that shows information from Git. For example, [this link](https://github.com/18F/18f.gsa.gov/commit/2df683fe1ef04f89ee77672d85ec35a11fec96d3) shows an spelling edit to this post by  Melody. It also allows easy discussion about proposed changes, or for people who don't have edit access to write-up problems they see as "issues." [Here](https://github.com/18F/18f.gsa.gov/issues/542) is an issue thread that we made specifically for comments on this post!
+
+In this section you'll see the words "clone," "repository," and its shortened form, "repo." Every project on GitHub is called a "repository" or a "repo;" you can see 18F's list of repos at [this link](https://github.com/18F). A repo contains the entire history of the project with pointers called "commits" represented by "SHAs" that indicate when and where every file was changed, and how exactly it changed. When you "clone" a repo, you download the entire project plus its history to your computer. Once you have a project cloned, you can make changes on your computer without affecting the project as it exists on GitHub.
 
 In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
@@ -118,6 +124,10 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) repo from your web browser.
 
 On this page you will see a list of files and folders in this project. All of the blog posts are in a folder called `_posts.` All of the pages are in a directory called `_pages.` There's a [readme](https://github.com/18F/18f.gsa.gov/blob/staging/README.md) that explains to anyone browsing 18F's `18f.gsa.gov` GitHub repo how some of this works. At the top of that window, you can see a dropdown that says "branch: *staging*."
+
+You are seeing on the website is another view of files and folders as shown here:
+
+![Screenshot: 18f.gsa.gov's repo in mac folder](/assets/blog/github-tutorial/w_screenshot2.png)
 
 If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Every time you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've made that branch the default.
 
