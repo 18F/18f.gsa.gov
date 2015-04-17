@@ -71,8 +71,11 @@ And you should have a window like this when you open it:
 
 You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer, and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
 
-1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column.
-2. Now type `cd Documents`: this will take you into your Documents directory. `cd` stands for "**c**hange **d**irectory."
+1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column. If you are in your home directory, you will probably see a list Terminal similar to this screenshot:
+
+![Screenshot: home directory](/assets/blog/github-tutorial/w_screenshot1.png)
+
+2. Now type `cd Documents`: this will take you into your Documents directory, if that was one of the options shown when you used the 'ls' command above. `cd` stands for "**c**hange **d**irectory."
 3. Type `ls -1` again to see all the files inside your Documents directory.
 4. Type `ls -1F`: notice a difference? Any item in the list with a `/` at the end is another directory.
 5. Type `cd ..` to go back one directory. Directories stack on top of one another and the directory "above" your current directory is always called `..`
