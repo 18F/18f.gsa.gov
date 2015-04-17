@@ -7,8 +7,9 @@ title: 18F People
 <section id="team">
 	<nav class="back">
 		<a href="/" title="return to the 18F home page">
-			<i class="fa fa-chevron-left" alt="chevron pointing left"><p style="display: none"></p></i>
-			<i class="fa fa-chevron-left" alt="chevron pointing left"><p style="display: none"></p></i>
+			<i class="fa fa-chevron-left" alt="chevron pointing left"></i>
+			<i class="fa fa-chevron-left" alt="chevron pointing left"></i>
+			Back to 18F Home
 		</a>
 	</nav>
 	<div class="container">
@@ -21,10 +22,12 @@ title: 18F People
 		</ul>
 		<div class="team">
 	    {% for person in site.team %}
+	    	{% unless person.title %}
 	    	<div class='bio'>
-        		<a href='/team/{{person[0]}}'>{{ person.name | team_photo }}
+        		<a href='/team/{{person.name}}'>{{ person.name | team_photo }}
         		<h1>{{ person.name | team_full_name }}</h1></a>
     		</div>
+    		{% endunless %}
 	    {% endfor %}
     </div>
   </div>

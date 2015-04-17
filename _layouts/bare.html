@@ -14,10 +14,10 @@
       <i class="icon-18f-logo"></i>
     </a>
   </div>
-
-  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {% if page.collection == "team" %}{% include team-header.html %}{% endif %}
     {% if page.collection == "page"%}{% include page-header.html %}{% endif %}
+
+  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}
     }
   </div>

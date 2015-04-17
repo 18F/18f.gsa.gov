@@ -764,111 +764,6 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-// Team
-//********************************************************
-
-#team-homepage {
-	.team {
-		@extend %section-padding; //standard padding for all sections
-		padding-top: 20px; //compensates for padding in top row of team section
-		@include media($tiniest) {
-			padding-top: 15px;
-		}
-	}
-	.bio {
-		@include span-columns(3 of 12);
-		margin: 1.5em 0 1.5em 1.5%;
-		position: relative;
-		@include media($smaller) {
-			@include span-columns(4 of 12);
-			@include omega();
-			padding-left: 1.5%;
-		}
-		@include media($smallest) {
-			@include span-columns(3 of 12);
-			@include omega();
-		}
-		@include media($tiny) {
-			@include span-columns(4 of 12);
-			@include omega();
-			padding-left: 1.5%;
-		}
-		@include media($tiniest) {
-			margin: 0.5em 0 0.5em 1.5%;
-		}
-		strong {
-			float: left;
-			clear: both;
-		}
-		h1 {
-			clear: both;
-			margin: 8px 0 2px 0;
-			color: $red;
-			font-size: 1.2em;
-			@include media($smallest) {
-				font-size: 0.70em;
-			}
-			@include media($tiny) {
-				font-size: 0.70em;
-			}
-			@include media($tiniest) {
-				font-size: 0.60em;
-			}
-		}
-		a i, .no-decoration {
-			text-decoration: none !important; color: #000 !important;
-		}
-		a {
-			text-decoration: none;
-			img {
-				margin: 1.0em auto;
-				float: left;
-				width: 200px;
-				height: 200px;
-
-	      -webkit-filter: grayscale(100%);
-	    	-moz-filter: grayscale(100%);
-	    	filter: grayscale(100%);
-	      filter: url(/assets/bw.svg#greyscale);
-
-				@include transition(0.3s linear);
-	        	@include media($smaller) {
-	        		height: 225px;
-	    			width: 225px;
-	        	}
-	        	@include media($smallest) {
-	        		height: 120px;
-	    			width: 120px;
-	        	}
-	        	@include media($tiny) {
-	        		height: 100px;
-	    			width: 100px;
-	    			margin: 0.3em auto;
-		        	-webkit-filter: none;
-		        	-moz-filter: none;
-		        	filter: none;
-	        	}
-	        	@include media($tiniest) {
-	        		height: 85px;
-	    			width: 85px;
-	        	}
-	    	}
-			&:hover img, &:focus img  {
-		        -webkit-filter: none;
-		        -moz-filter: none;
-		        filter: none;
-		    }
-		}
-	}
-	.bio-clip {
-	    background: url(#clipping) no-repeat;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-	    border-radius: 50%;
-	    overflow: hidden;
-	}
-}
-
 
 // Contact
 //********************************************************
@@ -980,7 +875,7 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .bare-logo {
-	@include span-columns(2);
+	@include span-columns(12);
 	padding-left: 20px;
 	a {
 		text-decoration: none;

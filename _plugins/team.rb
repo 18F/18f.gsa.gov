@@ -16,6 +16,17 @@ module Jekyll
     	person['full_name'] unless person.nil?
     end
     
+    def team_role(input)
+    	person = finder(input)
+    	if person['team']
+    		return person['team']
+    	elsif person['working_groups']
+    		return person['working_groups'][0]
+    	else
+    		return false
+    	end
+    end
+
     def finder(name)
     	return Jekyll.sites[0].data['team'][name]
     end

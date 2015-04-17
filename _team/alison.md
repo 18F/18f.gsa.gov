@@ -6,6 +6,7 @@ github:
 twitter:
 team:
 ---
+<<<<<<< HEAD
 
 Alison is a developer whose specialties include how to use and munge messay datasets, automated software testing, SQL and database tuning. Though her preferred tech stack is Python, Django/Flask and PostgreSQL, she can also work in Ruby and Rails, Node.js, Perl, Javascript and PHP, and has experience with Elasticsearch.
 
@@ -17,3 +18,5 @@ She joined 18F because she wanted to be part of a team that will transform the w
 
 
 <code>{{ page }}</code>
+=======
+>>>>>>> 3de7dbc45f4d082f54e3b9bc2f613ee93fe94b14

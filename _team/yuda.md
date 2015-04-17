@@ -8,4 +8,3 @@ team:
 ---
 
 
-<code>{{ page }}</code>
