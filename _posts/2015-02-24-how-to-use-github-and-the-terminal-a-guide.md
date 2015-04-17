@@ -41,12 +41,11 @@ Every step will be illustrated with a helpful screenshot or animated GIF that sh
 
 If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
 
-**What you need to get started:** [a GitHub account](https://github.com), Mac OS X, and [Sublime Text](https://www.sublimetext.com/). These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
+**What you need to get started:** [a GitHub account](https://github.com/join) and Mac OS X. These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
 ## Turn Your Mac Into a Web Development Machine
 
 > Using Linux? You can skip this section.
-
 
 Our colleague [Moncef Belyamani](https://github.com/monfresh) wrote [a script](https://github.com/18F/laptop) which turns your Mac into a web development machine in about 15 minutes. You will be asked to enter your computer's password three different times during the installation. The terminal doesn't provide any feedback when you type in your password. Just type it in and press `enter.`
 
