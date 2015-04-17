@@ -5,5 +5,4 @@ location: DCA
 github:
 twitter:
 team:
-
 ---
