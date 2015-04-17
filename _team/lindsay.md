@@ -1,5 +1,10 @@
 ---
 name: lindsay
+role: 
+location: 
+github:
+twitter:
+team:
 ---
 
 Lindsay is a developer at 18F. Her current project is working with the Federal Election Commission to create a user-centered website powered by the FEC's first API.

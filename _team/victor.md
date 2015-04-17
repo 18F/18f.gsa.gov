@@ -1,3 +1,11 @@
 ---
 name: victor
+role: 
+location: 
+github:
+twitter:
+team:
 ---
+
+
+<code>{{ page }}</code>
