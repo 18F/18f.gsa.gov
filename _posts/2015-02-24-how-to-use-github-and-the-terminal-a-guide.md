@@ -71,7 +71,7 @@ And you should have a window like this when you open it:
 
 You're going to see the word "directory" a lot in this tutorial. Directory is another word for folder. Directories are specific locations for files on your computer, and the Terminal always takes commands starting from a directory. If we say we are "working in a directory" it means the terminal is starting from that location. Let's play around with directories a bit:
 
-1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column. If you are in your home directory, you will probably see a list Terminal similar to this screenshot:
+1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column. If you are in your home directory, you will probably see a list in Terminal similar to this screenshot:
 
 ![Screenshot: home directory](/assets/blog/github-tutorial/w_screenshot1.png)
 
@@ -103,7 +103,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 ![Screenshot: typing in cd code](/assets/blog/github-tutorial/cd-code.gif)
 
-* Go to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) and look in the right rail. You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL that's in that text box to your clipboard.
+* Go to [18f.gsa.gov's GitHub page](https://github.com/18F/18f.gsa.gov) and look on the right side of the page, under the links for "Issues" and "Graphs." You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL (web address) that's in that text box to your clipboard.
 
 > **If you are not on the 18F team but following these directions,** you will need to "fork" this repo in order to follow the rest of the steps below. You can fork this repo by visiting: [https://github.com/18F/18f.gsa.gov/fork/](https://github.com/18F/18f.gsa.gov/fork/). Then, use the SSH link for _your_ fork instead of the one above. GitHub's documentation has more [information about forks and how to use them](https://help.github.com/articles/fork-a-repo/).
 
