@@ -28,7 +28,7 @@ Improving collaboration and communication between an organization’s
 development resources and its operational resources is the focus of an
 upcoming conference co-sponsored by 18F and ACT-IAC.
 
-Themed [*“Achieve Agile Nirvana Through DevOps,”*](https://actiac.org/groups/event/achieve-agile-nirvana-through-devops-512015), the education and
+Themed [*“Achieve Agile Nirvana Through DevOps,”*](https://actiac.org/groups/event/achieve-agile-nirvana-through-devops-512015) the education and
 training event will be held from 8 am to 1 pm on Friday, May 1 at the
 [*General Services
 Administration*](http://gsa.gov/portal/category/100000), 1800 F Street
