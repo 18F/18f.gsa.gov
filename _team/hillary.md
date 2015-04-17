@@ -1,3 +1,11 @@
 ---
 name: hillary
+role: 
+location: 
+github:
+twitter:
+team:
 ---
+
+
+<code>{{ page }}</code>
