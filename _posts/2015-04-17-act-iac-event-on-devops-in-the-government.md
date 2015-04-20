@@ -44,7 +44,7 @@ The ACT-IAC Emerging Technology SIG Agile Committee will discuss how to
 align infrastructure, governance, compliance, security, and acquisition
 to rapidly deploy IT solutions.
 
-Featured speakers will include: Greg Godbout, former executive director
+Featured speakers will include: Greg Godbout, former Executive Director
 of 18F; Noah Kunin, Head of Delivery Architecture at 18F; Rob Klopp, Chief Technology Officer, Social Security
 Administration; Eric Maland, Senior Engineer, United States Digital
 Service; and Mark White, Global Consulting Technology CTO at Deloitte.
