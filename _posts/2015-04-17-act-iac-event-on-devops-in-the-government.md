@@ -14,11 +14,11 @@ layout: post
 date: '2015-04-17'
 
 excerpt: "Themed 'Achieve Agile Nirvana Through DevOps,' the education and
-training event will be held from 8 am to 1 pm on Friday, May 1 at the
+training event will be held from 8:00 a.m. to 11:00 a.m. on Friday, May 1 at the
 General Services Administration, 1800 F Street NW, in Washington, DC."
 
 description: "Themed 'Achieve Agile Nirvana Through DevOps,' the education and
-training event will be held from 8 am to 1 pm on Friday, May 1 at the
+training event will be held from 8:00 a.m. to 11:00 a.m. on Friday, May 1 at the
 General Services Administration, 1800 F Street NW, in Washington, DC."
 ---
 <p class="authors">
