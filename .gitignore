@@ -7,3 +7,5 @@
 .rvmrc
 _data/private
 .*.sw?
+*.pyc
+.jekyll-metadata

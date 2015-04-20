@@ -44,3 +44,4 @@ emoji:
 rss_limit: 20
 
 future: false
+full_rebuild: true
