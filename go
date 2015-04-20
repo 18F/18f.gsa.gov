@@ -66,7 +66,7 @@ end
 
 def update_data
   ruby = exec_cmd 'which ruby'
-  exec_cmd "#{ruby} _data/import-public.rb"
+  exec_cmd "ruby _data/import-public.rb"
 end
 
 def serve
