@@ -1,7 +1,7 @@
 ---
 name: elaine
 role: 
-location: 
+location: DCA
 github:
 twitter:
 team:

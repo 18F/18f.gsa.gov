@@ -13,6 +13,6 @@ Before 18F, David did a lot of different types of software development - from da
 
 David joined 18F because, as he put it, "Who wouldn't?"
 
-"So many people complain about government being broken. Why not try and fix it? Especially if given the opportunity to work with this many talented and passionate people," he says.
+"So many people complain about government being broken. Why not try and fix it?" he says. "Especially if given the opportunity to work with this many talented and passionate people."
 
 <code>{{ page }}</code>
