@@ -7,7 +7,7 @@ twitter:
 team:
 ---
 
-Annalee Flower Horne is a back-end developer at 18F, who works mostly in python frameworks like Django and Flask. "I build the parts of a website the user doesn't see," she says. "When you load a page, there's a lot going on under the hood for the page to serve you the correct content, do any needed math, etc. The same thing happens when you submit information. I write the code that makes those under-the-hood operations go."
+Annalee is a back-end developer at 18F, who works mostly in python frameworks like Django and Flask. "I build the parts of a website the user doesn't see," she says. "When you load a page, there's a lot going on under the hood for the page to serve you the correct content, do any needed math, etc. The same thing happens when you submit information. I write the code that makes those under-the-hood operations go."
 
 Before joining 18F, Annalee worked at an open government startup and for Congress. She taught herself how to code during evenings and weekends, with extensive help and support from other women in tech.
 

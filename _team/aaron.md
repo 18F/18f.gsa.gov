@@ -6,7 +6,7 @@ github:
 twitter:
 team:
 ---
-Aaron Snow is the Acting Executive Director of 18F. Aaron says he views the job as getting the project teams what they need, clearing the path for them, and then getting out of the way. “I think I’ve done my job well if most of the time, most of the team feels like it’s in a fast-paced, mission-driven company — not a government agency,” he says.
+Aaron is the Acting Executive Director of 18F. Aaron says he views the job as getting the project teams what they need, clearing the path for them, and then getting out of the way. “I think I’ve done my job well if most of the time, most of the team feels like it’s in a fast-paced, mission-driven company — not a government agency,” he says.
 
 Aaron joined the government through the Presidential Innovation Fellowship program, where he worked on RFP-EZ and FBOpen. Before that, Aaron worked at Microsoft as a program manager, practiced law, taught computer science, joined the voter protection team of a Presidential campaign, and co-founded a software company. 
 
