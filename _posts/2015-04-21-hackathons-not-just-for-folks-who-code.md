@@ -38,8 +38,8 @@ Getting Started
 ---------------
 
 My first night at the two-day event, I demoed
-[**Midas**](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/)
-and [**Open Opportunities**](https://midas.18f.us/) to interested
+[Midas](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/)
+and [Open Opportunities](https://midas.18f.us/) to interested
 parties. (For context, Midas is a crowdsourcing platform that fosters
 cross-team and cross-agency collaboration worldwide, and Open
 Opportunities is a task-based network that allows federal employees to
@@ -115,11 +115,11 @@ of a project, and growing stronger civic hacking communities. It follows
 that a person who feels welcomed to and included in an event would be
 far likelier to invite their talented friends to the next such event.
 
-A few members of the [***18F
-team***](https://www.google.com/url?q=https%3A%2F%2F18f.gsa.gov%2F&sa=D&sntz=1&usg=AFQjCNHBRoB0dN_9W5ZL3iUuABvRxQjYxg)
-recently published an excellent guide on [***welcoming new coders to
+A few members of the [18F
+team](https://www.google.com/url?q=https%3A%2F%2F18f.gsa.gov%2F&sa=D&sntz=1&usg=AFQjCNHBRoB0dN_9W5ZL3iUuABvRxQjYxg)
+recently published an excellent guide on [welcoming new coders to
 civic
-hackathons***](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/).
+hackathons](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/).
 In the same vein, we’d like to offer a list of strategies for including
 non-technical folks in your hackathons. We’d like to thank Leah Bannon,
 a product lead at 18F, for generating this list of strategies.
@@ -202,7 +202,7 @@ promote your event’s attendance.
 
 Case in point: Brad spent part of Saturday afternoon learning the basics
 of
-[**Git**](http://www.google.com/url?q=http%3A%2F%2Fgitref.org%2Findex.html&sa=D&sntz=1&usg=AFQjCNHFIp1aeG5QbF6bT7sZK0-4q8t24A).
+[Git](http://www.google.com/url?q=http%3A%2F%2Fgitref.org%2Findex.html&sa=D&sntz=1&usg=AFQjCNHFIp1aeG5QbF6bT7sZK0-4q8t24A).
 With those under his belt, he bootstrapped a new responsive front-page
 design by the end of the afternoon.
 
