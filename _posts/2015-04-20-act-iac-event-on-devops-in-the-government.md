@@ -11,7 +11,7 @@ tags:
 
 layout: post
 
-date: '2015-04-17'
+date: '2015-04-20'
 
 excerpt: "Themed 'Achieve Agile Nirvana Through DevOps,' the education and
 training event will be held from 8:00 a.m. to 11:00 a.m. on Friday, May 1 at the
@@ -60,9 +60,8 @@ Service; and Mark White, Global Consulting Technology CTO at Deloitte.
 **Location**: General Services Administration (GSA), Conference Center, 1800 F Street NW, Washington DC 20405
 (metro stops Farragut North and Farragut West serve this location and are a few blocks away)
 
-**Fee**: No cost for Federal employees; $25 for non-Federal ACT-IAC members and $35 for non-Federal attendees to cover logistics. 
+**Fee**: No cost for Federal employees; $25 for non-Federal ACT-IAC members and $35 for non-Federal attendees to cover logistics.
 
-**Member Registration**: www.actiac.org/register 
+**Member Registration**: www.actiac.org/register
 
-**Non-Member Registration**: rwright@actiac.org 
-
+**Non-Member Registration**: rwright@actiac.org
