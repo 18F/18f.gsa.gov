@@ -88,6 +88,8 @@ end
 def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
+  update_gems
+  exec_cmd('git reset HEAD Gemfile.lock'
   exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
 end
 
