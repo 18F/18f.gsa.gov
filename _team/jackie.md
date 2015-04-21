@@ -1,11 +1,8 @@
 ---
 name: jackie
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:
 ---
-
-
-<code>{{ page }}</code>

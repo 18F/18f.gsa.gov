@@ -1,6 +1,6 @@
 ---
 name: alan
-role: 
+role:
 location: DCA
 github:
 twitter:
@@ -13,7 +13,4 @@ Before 18F, Alan interned in Congress, at the FCC, and for a trade org. At each,
 
 He joined 18F because he has experienced what he calls "hair-on-fire" moments while trying to use government websites. "18F is a place where we work to fix these types of problems every single day," he says. "Everyone has this shared goal to restore faith in what a government website can and should be. Where else can I one day work on technology that could conceivably improve millions of persons' first interaction with the US government bureaucracy, and then the next go work on login infrastructure that could one day serve the entire federal government?"
 
-About 18F, he says "There's a series of great moments where you're encouraged to follow your natural instincts about the right way to do something. Almost every single day here, I see people helping each other learn new concepts or techniques and providing a great place for teammates of all roles to grow."	
-
-<code>{{ page }}</code>
-
+About 18F, he says "There's a series of great moments where you're encouraged to follow your natural instincts about the right way to do something. Almost every single day here, I see people helping each other learn new concepts or techniques and providing a great place for teammates of all roles to grow."

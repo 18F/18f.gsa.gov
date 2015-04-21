@@ -1,6 +1,6 @@
 ---
 name: annalee
-role: 
+role:
 location: DCA
 github:
 twitter:
@@ -13,4 +13,4 @@ Before joining 18F, Annalee worked at an open government startup and for Congres
 
 She says she joined 18F for two reasons. "The first was the chance to write open-source code for the American people," she says. "Public service has always been a big deal in my family — my father is a firefighter and my mother is a nonprofit lobbyist. At 18F, we have an opportunity to work on projects that have a profound impact on people’s lives."
 
-Annalee says the second reason she joined 18F was the collaborative nature of the work environment. "Working with dedicated, talented people who care deeply about the quality of our code has really helped me learn and grow as a developer," she says. 
+Annalee says the second reason she joined 18F was the collaborative nature of the work environment. "Working with dedicated, talented people who care deeply about the quality of our code has really helped me learn and grow as a developer," she says.

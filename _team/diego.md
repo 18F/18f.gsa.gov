@@ -1,7 +1,7 @@
 ---
 name: diego
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:

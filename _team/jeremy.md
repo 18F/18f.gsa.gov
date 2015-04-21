@@ -1,13 +1,8 @@
 ---
 name: jeremy
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:
 ---
-
-
-
-
- 
