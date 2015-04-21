@@ -1,5 +1,5 @@
 ---
-title: "Hackathons for Less-than-Techy Folks"
+title: "Hackathons: Not Just For Folks Who Code"
 layout: post
 author:
 - kate
