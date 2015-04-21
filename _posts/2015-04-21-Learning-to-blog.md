@@ -2,13 +2,14 @@
 title: "How the 18F Website Team Uses GitHub: A Tutorial"
 layout: post
 author:
-- andre
+- kate
 tags:
-- GitHub
-- Tutorial
-- How We Work
-excerpt: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
-description: "This is a guide that assumes you have no prior knowledge of GitHub or the command line. We're going to introduce you to both GitHub and using the command line through a guided exercise. Today you'll learn how to make a blog post on the 18F blog."
+- hackathons
+- events
+- how we work
+- howto
+excerpt: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
+description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 image: /assets/blog/how-to-github/image.jpg
 ---
 A few weeks back, my colleague [Sarah
@@ -171,7 +172,7 @@ On that note, make yourself available to answer questions. Include your
 contact information in pre-event communications, and respond to
 inquiries promptly.
 
-**Draw parallels between the hackathon and your team**
+###Draw parallels between the hackathon and your team
 
 Leah Bannon highly recommends this strategy. “I like to talk about how
 the goal of a hackathon or hack night is to build a website or digital
@@ -198,7 +199,7 @@ promote your event’s attendance.
 
 Case in point: Brad spent part of Saturday afternoon learning the basics
 of
-[***Git***](http://www.google.com/url?q=http%3A%2F%2Fgitref.org%2Findex.html&sa=D&sntz=1&usg=AFQjCNHFIp1aeG5QbF6bT7sZK0-4q8t24A).
+[**Git**](http://www.google.com/url?q=http%3A%2F%2Fgitref.org%2Findex.html&sa=D&sntz=1&usg=AFQjCNHFIp1aeG5QbF6bT7sZK0-4q8t24A).
 With those under his belt, he bootstrapped a new responsive front-page
 design by the end of the afternoon.
 
@@ -212,8 +213,7 @@ what changes they’d like to see in future events. More importantly,
 *act* on this feedback — simply collecting it isn’t enough.
 
 For more tips and tricks, check out
-[*these*](http://18f.github.io/hackathontrainingday/)
-[*links*](http://techladyhackathon.org/).
+[these](http://18f.github.io/hackathontrainingday/)
+[links](http://techladyhackathon.org/).
 
-Have additional tips to add to the list? We’d love to hear them.
-[](http://techladyhackathon.org/)
+Have additional tips to add to the list? [We’d love to hear them.](http://techladyhackathon.org/)
