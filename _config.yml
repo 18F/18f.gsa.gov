@@ -63,3 +63,5 @@ collections:
     permalink: /team/:name/
     layout: bare
     output: true
+
+full_rebuild: true
