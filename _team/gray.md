@@ -1,6 +1,6 @@
 ---
 name: gray
-role: 
+role:
 location: DCA
 github:
 twitter:
@@ -12,7 +12,3 @@ Gray is the Senior API Strategist at 18F. What that means is that he helps integ
 Before 18F, Gray co-led the digital overhaul at the Federal Communications Commission, an effort that completely retooled the agency’s web presence and served on President Obama's Transition Team. Prior to that, he worked on the Obama presidential campaign and on the web team of Howard Dean's presidential campaign.
 
 Gray joined 18F to make the government more efficient. "There's tremendous potential to any organization better integrating digital into its strategies and tactics," he says. "This is true in the government as much as anywhere else. And 18F is one of the best places in government to move that forward."
-
-
-
-<code>{{ page }}</code>

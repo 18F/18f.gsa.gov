@@ -1,12 +1,11 @@
 ---
 name: alison
-role: 
+role:
 location: DCA
 github:
 twitter:
 team:
 ---
-<<<<<<< HEAD
 
 Alison is a developer whose specialties include how to use and munge messay datasets, automated software testing, SQL and database tuning. Though her preferred tech stack is Python, Django/Flask and PostgreSQL, she can also work in Ruby and Rails, Node.js, Perl, Javascript and PHP, and has experience with Elasticsearch.
 
@@ -14,9 +13,4 @@ She is the tech lead for FBOpen and has also spent time on the Discovery and FEC
 
 Alison started programming as a child. In high school, she started a family business doing web development and in college, she both ran her own software as a service company and fell in love with back-end development and big databases. She joined 18F after serving as a Presidential Innovation Fellow, working at the Sunlight Foundation, and working in the TV ratings industry.
 
-She joined 18F because she wanted to be part of a team that will transform the way our government works. "18F has also been the best job I've ever had in terms of being able to have a work-life balance and follow my career while raising a family," she says. 
-
-
-<code>{{ page }}</code>
-=======
->>>>>>> 3de7dbc45f4d082f54e3b9bc2f613ee93fe94b14
+She joined 18F because she wanted to be part of a team that will transform the way our government works. "18F has also been the best job I've ever had in terms of being able to have a work-life balance and follow my career while raising a family," she says.

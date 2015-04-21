@@ -1,7 +1,7 @@
 ---
 name: cm
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:
@@ -12,4 +12,3 @@ CM Lubinski is a developer at 18F, where he primarily works in Python but is als
 CM came to 18F from CFPB, where he was working on a technical fellowship. Prior to that, he worked at a variety of startups, and received a master’s degree in Computer Science from XXX.
 
 CM says he was attracted to 18F because of the scale of the projects he could work on. “I think 18F and the GSA is the right place to work on infrastructure projects — things that help all of the federal government rather than a single agency/organization,” he says. “There’s  great potential in having a view which cuts across the federal space. We can achieve a good balance between working on individual client projects and making something a bit bigger and better.”
-

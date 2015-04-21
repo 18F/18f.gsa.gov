@@ -1,11 +1,8 @@
 ---
 name: hillary
-role: 
+role:
 location: SFO
 github:
 twitter:
 team:
 ---
-
-
-<code>{{ page }}</code>

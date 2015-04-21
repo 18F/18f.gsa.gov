@@ -1,7 +1,7 @@
 ---
 name: amos
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:
