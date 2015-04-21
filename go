@@ -61,7 +61,6 @@ end
 
 def update_gems
   exec_cmd 'bundle update'
-  exec_cmd 'git add Gemfile.lock'
 end
 
 def update_data
@@ -88,7 +87,9 @@ end
 def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  update_gems
+  puts 'building site'
+  exec_cmd('bundle exec jekyll b --config _config.yml')
 end
 
 
