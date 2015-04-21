@@ -22,12 +22,14 @@ title: 18F People
 		</ul>
 		<div class="team">
 	    {% for person in site.team %}
-	    	{% unless person.title %}
-	    	<div class='bio'>
-        		<a href='/team/{{person.name}}'>{{ person.name | team_photo }}
-        		<h1>{{ person.name | team_full_name }}</h1></a>
-    		</div>
-    		{% endunless %}
+	    	{% if person.content %}
+					{% unless person.title %}
+					<div class='bio'>
+	        		<a href='/team/{{person.name}}'>{{ person.name | team_photo }}
+	        		<h1>{{ person.name | team_full_name }}</h1></a>
+	    		</div>
+	    		{% endunless %}
+				{% endif %}
 	    {% endfor %}
     </div>
   </div>

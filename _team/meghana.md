@@ -14,4 +14,4 @@ Meghana graduated from the School of Visual Arts' Interaction Design program in 
 When asked why she joined 18F, Meghana replied, “I saw that 18F was doing the important work of making sure that government services and information are accessible to all. I just had to be a part of a team that exudes passion for its mission.”
 
 
-<code>{{ page }}</code>
+ 

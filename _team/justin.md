@@ -15,4 +15,4 @@ With a background in basic science, he began government service in 2008 as a dev
 Although he is most at home in the 'lab' playing with the latest technology and prototyping new ideas, at 18F he is a jack of all trades — spanning roles from devops to developer to project manager.
 
 
-<code>{{ page }}</code>
+ 

@@ -1,6 +1,6 @@
 ---
 name: hillary
-role: 
+role:
 location: SFO
 github:
 twitter:

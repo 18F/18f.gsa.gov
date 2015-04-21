@@ -13,4 +13,4 @@ Just prior to joining 18F, Shashank worked at CFPB (Consumer Financial Protectio
 
 Shashank came to 18F “to help make technology-related changes across the federal government instead of just at one agency.”
 
-<code>{{ page }}</code>
+ 

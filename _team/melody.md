@@ -13,4 +13,4 @@ Melody joins 18F from NPR, where she worked as a digital strategist and editor. 
 
 After reading Eric Mill’s blog post about working in public, Melody knew she wanted to join 18F. As she puts it, “I was really attracted to the idea of working at an organization that strongly believes that good, forward-thinking work can be completed in the public sector — and is leading the charge to change the way the government builds and thinks about products or websites that millions of people interact with on a daily basis.”
 
-<code>{{ page }}</code>
+ 

@@ -12,4 +12,4 @@ Before coming to 18F, Michelle taught ranchers to use geospatial information, be
 
 Michelle believes that “we deserve a government that provides quality, efficient, trustworthy services, and that the roadblocks that are preventing this are movable.” She joined 18F to help bring clarity, transparency, and ease of use to citizen services.
 
-<code>{{ page }}</code>
+ 

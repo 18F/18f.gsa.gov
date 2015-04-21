@@ -14,4 +14,4 @@ A longtime lover of language, Kate earned her MFA in fiction writing from the Un
 In each of her projects, Kate’s goal is to present her subject in an accurate, striking, and detailed manner using the cleanest possible language. An advocate of plain language, she was drawn to 18F by the prospect of simplifying written resources across government. 
 
 
-<code>{{ page }}</code>
+ 

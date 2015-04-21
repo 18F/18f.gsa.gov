@@ -12,4 +12,4 @@ Ozzy Johnson’s focus at 18F is creating and automating infrastructure. He work
 Ozzy has spent the past 18 years in systems administration and engineering for non-profit, private, and public companies, as well as for local government entities. He joined 18F because he saw the organization was “bringing together an exceptionally diverse group of exceptionally capable people to create a template for efficiency and forward-thinking around technology in Government.”
 
 
-<code>{{ page }}</code>
+ 

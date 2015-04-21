@@ -13,4 +13,4 @@ In addition to his television, radio, and digital media experience, Ori is skill
 
 Ori wants to show the world the great things government is capable of by creating and sharing 18F’s stories. He believes that, “using all the tools we have available — video, social media, live events and some things that haven't been invented yet — we'll make sure everyone knows what we're up to.”
 
-<code>{{ page }}</code>
+ 

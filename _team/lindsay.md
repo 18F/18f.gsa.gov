@@ -13,4 +13,4 @@ Lindsay spent the last 5 years at the Sunlight Foundation, a transparency non-pr
 
 A strong advocate for open data, Lindsay says she enjoys working with the FEC because the project "combines my love for making data driven web apps with my passion for disclosure."
 
-<code>{{ page }}</code>
+ 

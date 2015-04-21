@@ -1,6 +1,6 @@
 ---
 name: boone
-role: 
+role:
 location: DCA
 github:
 twitter:
