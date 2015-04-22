@@ -22,7 +22,7 @@ training event will be held from 8:00 a.m. to 11:00 a.m. on Friday, May 1 at the
 General Services Administration, 1800 F Street NW, in Washington, DC."
 ---
 <p class="authors">
-    by {% author jhunter %} and {% author noah %}
+    by {% author jhunter %}
 </p>
 Improving collaboration and communication between an organization’s
 development resources and its operational resources is the focus of an
