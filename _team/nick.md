@@ -1,11 +1,8 @@
 ---
 name: nick
-role: 
-location: 
+role:
+location:
 github:
 twitter:
 team:
 ---
-
-
- 
