@@ -725,10 +725,35 @@ $tiniest: new-breakpoint(max-width 390px);
 #team {
 	@include outer-container;
 	.bio {
-			@include span-columns(2 of 12);
-			margin-right: 15px;
-			margin-bottom: 15px;
-			min-height: 160px;
+		@include span-columns(2 of 12);
+		margin: 1.5em 0 .5em 1.5%;
+		padding-right: 3%;
+		position: relative;
+		display: inline-block;
+		float: none;
+		@include media($smaller) {
+			@include span-columns(4 of 12);
+			@include omega();
+			padding-left: 1%;
+			margin-top: 1em;
+			margin-bottom: 0;
+		}
+		@include media($smallest) {
+			@include span-columns(4 of 12);
+			@include omega();
+		}
+		@include media($tiny) {
+			@include span-columns(4 of 12);
+			@include omega();
+			padding-left: 1.5%;
+		}
+		@include media($tiniest) {
+			margin-top: 0.5em;
+		}
+		strong {
+			float: left;
+			clear: both;
+		}
 		a {
 			img {
 				width: 100%;
@@ -738,7 +763,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			  border-radius: 100%;
 			  background-clip: padding-box;
 		  }
-		  h1 { 
+		  h1 {
 		  	font-size: 1em;
 		  	text-align: center;
 		  }
@@ -746,6 +771,9 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	.bio:nth-child(10n+6) {
 		margin-left: 60px;
+		@include media($tiny) {
+			margin-left: 0;
+		}
 	}
 	.sortable {
 		min-height: 60px;
