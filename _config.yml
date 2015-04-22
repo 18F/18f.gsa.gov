@@ -53,15 +53,14 @@ defaults:
     values:
       layout: "post"
     scope:
-      collection: series
+      collection: team
     values:
-      layout: bare
+      layout: team
 
 # collections
 collections:
   team:
     permalink: /team/:name/
-    layout: bare
     output: true
 
 full_rebuild: true

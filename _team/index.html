@@ -1,5 +1,5 @@
 ---
-layout: bare_team
+layout: team
 permalink: /team/
 title: 18F People
 ---
@@ -21,8 +21,8 @@ title: 18F People
 			<li><a href="?sort=team">team</a></li>
 		</ul>
 		<div class="team">
-	    {% for person in site.team %}
-	    	{% if person.content %}
+			{% for person in site.team %}
+				{% if person.content.size > 0 %}
 					{% unless person.title %}
 					<div class='bio'>
 	        		<a href='/team/{{person.name}}'>{{ person.name | team_photo }}
