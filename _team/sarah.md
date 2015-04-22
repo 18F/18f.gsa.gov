@@ -6,6 +6,3 @@ github:
 twitter:
 team:
 ---
-
-
- 
