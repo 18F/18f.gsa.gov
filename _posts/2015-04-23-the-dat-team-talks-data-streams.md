@@ -1,5 +1,5 @@
 ---
-title: "Q&A with Max Ogden"
+title: "The Dat Team Talks Data Streams"
 layout: post
 author:
 - eric
