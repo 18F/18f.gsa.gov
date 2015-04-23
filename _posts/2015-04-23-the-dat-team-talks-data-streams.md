@@ -11,18 +11,18 @@ tags:
 - open source
 excerpt: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about dat, an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync."
 description: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about dat, an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync."
-image: /assets/blog/max-ogden-talk/streams.jpg
+image: /assets/blog/max-ogden-talk/streams.JPG
 ---
 
-[![Image of a stream.](/assets/blog/max-ogden-talk/streams.jpg)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
+[![Image of a stream.](/assets/blog/max-ogden-talk/streams.JPG)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
 
-Everything I ever learned about [streams](http://ejohn.org/blog/node-js-stream-playground/), I learned from software developer [Max Ogden](https://twitter.com/maxogden). Max, who lives in Oregon, develops client applications, developer tools, and APIs, and works as a developer at a market research company. 
+Everything I ever learned about [streams](http://ejohn.org/blog/node-js-stream-playground/), I learned from software developer [Max Ogden](https://twitter.com/maxogden). Max, who lives in Oregon, develops client applications, developer tools, and APIs, and works as a developer at a market research company.
 
 He and [Mathias Buus Madsen](https://twitter.com/mafintosh), a developer in Denmark, are visiting 18F today to talk about [dat](http://dat-data.com/), an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync.”
 
-Not unlike our mission, Max, Mathias and their colleague Karissa McKelvey are committed to expanding the reach and impact of open data. 
+Not unlike our mission, Max, Mathias and their colleague Karissa McKelvey are committed to expanding the reach and impact of open data.
 
-Before their visit, I spoke with Max to learn more about dat. 
+Before their visit, I spoke with Max to learn more about dat.
 
 **Q: What's the immediate target audience for dat? Who can use it right now to get their work done?**
 
@@ -53,4 +53,3 @@ A: We had to go back to the drawing board a few times so far. Originally dat onl
 **Q: To date, what has been the most surprising side effect of developing dat?**
 
 A: We started out with government open data use cases in mind. I was quite amazed when we were approached by the Alfred P. Sloan Foundation and were basically convinced by them to focus to work on scientific data problems. I had been an admirer from afar of various open and reproducible science groups, but never thought I would get to join the ranks myself. Compared to the open civic + government data communities, the scientific communities I've worked with have some really amazingly different challenges. For example, openness isn't as important to scientists until after they've published, so the term 'open science' is sometimes a scary idea. I think in many ways the community still has a lot of R&D left to do before we really know what works.
-
