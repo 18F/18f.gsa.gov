@@ -14,7 +14,7 @@ description: "Calling all Agile vendors...get ready! By the end of this month, G
 ---
 
 <p class="authors">
-  by {{ author chrisc }}, {{ author noah }}, and {{ author vdavez }}
+  by {% author chrisc %}, {% author noah %}, and {% author vdavez %}
 </p>
 
 Calling all Agile vendors...get ready!
