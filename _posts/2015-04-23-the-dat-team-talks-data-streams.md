@@ -14,7 +14,7 @@ description: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk a
 image: /assets/blog/max-ogden-talk/streams.jpg
 ---
 
-[![Image of a stream.](https://18f.gsa.gov/assets/blog/max-ogden-talk/streams.jpg)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
+[![Image of a stream.](/assets/blog/max-ogden-talk/streams.jpg)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
 
 Everything I ever learned about [streams](http://ejohn.org/blog/node-js-stream-playground/), I learned from software developer [Max Ogden](https://twitter.com/maxogden). Max, who lives in Oregon, develops client applications, developer tools, and APIs, and works as a developer at a market research company. 
 
