@@ -11,8 +11,12 @@ tags:
 - open source
 excerpt: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about dat, an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync."
 description: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about dat, an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync."
-image: /assets/blog/max-ogden-talk/streams.JPG
+image: /assets/blog/max-ogden-talk/streams.jpg
 ---
+
+<p class="authors">
+  by {% author eric %}
+</p>
 
 [![Image of a stream.](/assets/blog/max-ogden-talk/streams.JPG)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
 
