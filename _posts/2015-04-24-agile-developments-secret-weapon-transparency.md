@@ -64,10 +64,10 @@ Development*](http://www.jamesshore.com/Agile-Book/) by James Shore:
 5.  **Builds:** the build script includes any new modules
 6.  **Deploys:** deploys to the target environments (e.g., staging) successfully
 7.  **Migrates:** the build script updates the database schema if necessary; the install migrates data, when appropriate
-8.  **Reviewed** - customers have reviewed the story and confirmed that it meets their expectations
-9.  **Fixed** - all known bugs have been fixed or scheduled as their own stories
-10. **Accepted** - customers agree that the story is finished
-11. **Documented** - when appropriate, documentation such as a training guide is created or updated
+8.  **Reviewed:** customers have reviewed the story and confirmed that it meets their expectations
+9.  **Fixed:** all known bugs have been fixed or scheduled as their own stories
+10. **Accepted:** customers agree that the story is finished
+11. **Documented:** when appropriate, documentation such as a training guide is created or updated
 
 Unless you know when user stories are truly done, you’ll have little —
 if any — insight into the performance of your Agile team. As you assess
