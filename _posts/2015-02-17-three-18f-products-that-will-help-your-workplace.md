@@ -31,7 +31,7 @@ tags:
 ---
 
 <p class="authors">
-  by {% author melody %} 
+  by {% author melody %}
 </p>
 
 I’ve worked at 18F for exactly six days. During those six days, I
@@ -68,7 +68,7 @@ Midas is open source, which means anyone can download it and try it out.
 [here](https://github.com/18F/midas/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).)
 Within the government, Midas is currently being piloted by the
 [Department of State](http://www.state.gov/) and [Open
-Opportunities](http://www.digitalgov.gov/join-digitalgov/open-opportunities-in-digitalgov/),
+Opportunities](https://www.digitalgov.gov/join-digitalgov/open-opportunities-in-digitalgov/),
 which connects people from across and within government agencies to
 collaborate on projects. So far, over 100 projects have been completed.
 
@@ -83,7 +83,7 @@ use as often as you’d like.
 [more
 information](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/).)
 
-##Snippets 
+##Snippets
 
 Snippets are a quick way to see what everyone on your team did last week and what they’re working on this week. As you might imagine, they’re really, really short.
 
