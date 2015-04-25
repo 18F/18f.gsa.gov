@@ -93,7 +93,7 @@ __First, identify the 10 most important software components of your system.__ An
 
 __Now take each component and analyze it in terms of the Evolution axis.__ That is, was it written by your agency, or by a contractor? Or are you using a COTS component which is not open source? Are you using open source components, and if so, are they broadly supported or not? In many systems, you will find a mix of these categories. For example, most systems will have a small amount of custom code. Systems vary widely in terms of how many open source components they utilize.
 
-__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with post-it notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link](http://18f.gsa.gov/consulting/docs/open_source_wardley_duncan_map_printable.pdf) to this diagram:
+__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with post-it notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link](https://18f.gsa.gov/consulting/docs/open_source_wardley_duncan_map_printable.pdf) to this diagram:
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="PrintableOpenSourceWardleyDuncanMap (2).png" src="/assets/images/2014/11/25/image02.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
 
@@ -210,7 +210,7 @@ Code that you write or contract to have written should be open source from the s
 
 ## 18F Consulting
 
-The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the Federal government procurement process. 18F has created [18F Consulting](http://18f.gsa.gov/consulting/) to provide this much needed technical expertise on a consultative basis at cost to guide Federal programs toward a modular architecture using Agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
+The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the Federal government procurement process. 18F has created [18F Consulting](https://18f.gsa.gov/consulting/) to provide this much needed technical expertise on a consultative basis at cost to guide Federal programs toward a modular architecture using Agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
 
 ## Glossary
 
@@ -222,7 +222,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">18F Consulting</td>
-			<td colspan="1" rowspan="1">A <a href="http://18f.gsa.gov/consulting/">consultancy</a> within 18F that provides services to Federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
+			<td colspan="1" rowspan="1">A <a href="https://18f.gsa.gov/consulting/">consultancy</a> within 18F that provides services to Federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">application framework</td>
@@ -230,7 +230,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">civic hacking</td>
-			<td colspan="1" rowspan="1"><a href="http://hackforchange.org/">Programming</a> for the public good in <a href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
+			<td colspan="1" rowspan="1"><a href="http://hackforchange.org">Programming</a> for the public good in <a href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">cloud computing</td>
