@@ -22,7 +22,7 @@ By {% author chrisc %} and {% author greg %}
 
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013
 
-> "One of the biggest factors preventing successful government procurements today may be the rapid evolution of technology." — [Government Technology](http://www.govtech.com/budget-finance/Bringing-Innovation-to-Procurement.html), March 4, 2014 
+> "One of the biggest factors preventing successful government procurements today may be the rapid evolution of technology." — [Government Technology](http://www.govtech.com/budget-finance/Bringing-Innovation-to-Procurement.html), March 4, 2014
 
 Over the past several years, the federal government and industry community have been talking about the need for software acquisitions to keep pace with technology cycles — typically 1-3 years. In today’s dynamic environment, however, not even that is fast enough. The reality is that business priorities, user needs, and technologies evolve and emerge on a continual basis. To keep pace, software acquisitions need to move at the speed of *agile* development cycles. Ideally, this means less than 4 weeks from solicitation to contract kickoff, and from there no more than 3 months to deliver a minimum viable product (MVP).
 
@@ -30,11 +30,11 @@ To shift the software procurement paradigm, 18F is partnering with GSA’s [Offi
 
 There are a number of elements that make this BPA unique, including:
 
-**Starting Lean.** A BPA is simply a product for fulfilling specific supply needs of buyers across the federal government. Many of today’s leading companies are using proven [lean startup](http://en.wikipedia.org/wiki/Lean_startup) practices (e.g., MVP) to improve the market success rates of their new product development initiatives. In a similar fashion, we plan to develop alpha and beta versions of the Agile Delivery Services BPA. 
+**Starting Lean.** A BPA is simply a product for fulfilling specific supply needs of buyers across the federal government. Many of today’s leading companies are using proven [lean startup](https://en.wikipedia.org/wiki/Lean_startup) practices (e.g., MVP) to improve the market success rates of their new product development initiatives. In a similar fashion, we plan to develop alpha and beta versions of the Agile Delivery Services BPA.
 
 For the alpha, we’re creating a BPA under GSA IT Schedule 70 within a target timeframe of 2-3 months. The BPA will be competed among existing vendors on Schedule 70. Once in place, use of the BPA will be limited to GSA only, and in particular, 18F’s burgeoning delivery services team.
 
-Based on what we learn from the alpha version (e.g., what it takes to go from solicitation to contract kickoff within 4 weeks), we’ll work to create a beta version of the government-wide BPA (also under Schedule 70) within a target timeframe of 6-8 months from the award date of the alpha BPA. Unlike the alpha version, the beta will include an outreach component for onboarding new companies wanting to compete for a spot on the BPA onto Schedule 70. 
+Based on what we learn from the alpha version (e.g., what it takes to go from solicitation to contract kickoff within 4 weeks), we’ll work to create a beta version of the government-wide BPA (also under Schedule 70) within a target timeframe of 6-8 months from the award date of the alpha BPA. Unlike the alpha version, the beta will include an outreach component for onboarding new companies wanting to compete for a spot on the BPA onto Schedule 70.
 
 We believe that taking such a lean approach with alpha and beta versions will allow us to create a product that more effectively meets the needs of early customers (i.e., federal buyers) and can be scaled across government.
 

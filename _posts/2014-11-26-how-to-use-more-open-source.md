@@ -73,7 +73,7 @@ The same diagram also plots the even more rapid evolution of a an open source fu
 1. Commoditized Free Open Source Software (FOSS), which is also a form COTS,
 1. Broadly supported, meaning that it either has commercial support or that it has a very large support communitymaking it practically risk-free and very convenient, or in other words, a utility.
 
-On the __Value Chain axis__, we have inserted the [standard 3-tier architecture](http://en.wikipedia.org/wiki/Multitier_architecture), consisting of a Persistence Layer, Business Logic Layer, and Presentation Layer.
+On the __Value Chain axis__, we have inserted the [standard 3-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), consisting of a Persistence Layer, Business Logic Layer, and Presentation Layer.
 
 <img alt="PostgresTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image03.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
@@ -131,11 +131,11 @@ The open source community and the availability of open source code appears to be
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 349.33px;"><img alt="68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f343438332f313830333636372f62306564363634652d366332342d313165332d393535392d6535373032323135633437612e706e67 (1).png" src="/assets/images/2014/11/25/image01.png" style="width: 624.00px; height: 349.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
 
-However, in the words of Theodore Sturgeon defending science fiction, "90% of everything is crud." Most of the repositories (or "repos") at GitHub, are simple copies of more important repos. Moreover, most of the projects at GitHub do not have any great importance or an active enough community to be particularly noteworthy for our purposes. Nonetheless, the tiny fraction of these 10 million systems that remain are an enormous number of valuable projects which can be used as building blocks to construct larger systems. In a sense, this explosion of the number of combinable projects represents the fulfilment of the [Unix Philosophy](http://en.wikipedia.org/wiki/Unix_philosophy), which Doug McIlroy has expressed as:
+However, in the words of Theodore Sturgeon defending science fiction, "90% of everything is crud." Most of the repositories (or "repos") at GitHub, are simple copies of more important repos. Moreover, most of the projects at GitHub do not have any great importance or an active enough community to be particularly noteworthy for our purposes. Nonetheless, the tiny fraction of these 10 million systems that remain are an enormous number of valuable projects which can be used as building blocks to construct larger systems. In a sense, this explosion of the number of combinable projects represents the fulfilment of the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy), which Doug McIlroy has expressed as:
 
 > Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 
-Writing today in 2014, he might have written: "Write programs to handle [JSON](http://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs."
+Writing today in 2014, he might have written: "Write programs to handle [JSON](https://en.wikipedia.org/wiki/JSON), which has now become a de facto standard for web APIs."
 
 The practice of programming at the enterprise or system level has changed since 30 years ago. Then, a programmer's primary job was to write algorithms and data structures. Today, we spend most of our time figuring out how to reuse code that other people wrote. In this way, the Unix Philosophy, or as we more colorfully prefer to think of it, the Coming Open Source Singularity (COSS), makes us more productive. We believe from personal experience that we and other open source programmers are becoming something like 20% more productive every year, precisely because of the evolution of the open source code which we are able to reuse. This increase in productivity occurs for other programmers not working so completely with open source, but at a lower rate.
 
@@ -190,7 +190,7 @@ It is our hope that ten years from now there may be many people contributing to 
 
 A codebase is a terrible secret.
 
-Because a codebase is so large, it cannot easily be changed. Furthermore, it must be known, or at least knowable, to the large number of people who work on it, so it cannot be kept secret very easily. This is represented at the bottom of Figures 2 and 3. Therefore "[security through obscurity](http://en.wikipedia.org/wiki/Security_through_obscurity)" is a terrible idea when it comes to a codebase. In most cases your system will consist of code which you reuse as well as code that your write yourself. Therefore both of these types of code should be open.
+Because a codebase is so large, it cannot easily be changed. Furthermore, it must be known, or at least knowable, to the large number of people who work on it, so it cannot be kept secret very easily. This is represented at the bottom of Figures 2 and 3. Therefore "[security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)" is a terrible idea when it comes to a codebase. In most cases your system will consist of code which you reuse as well as code that your write yourself. Therefore both of these types of code should be open.
 
 Of course, your system will have secrets in most cases -- keys, passwords, and the like -- but you should assume they have been discovered and change them often. We call these secrets a "red thread", because, like a red thread in a white handkerchief, they should be as vivid and thin as possible. By making them thin, such as a single password, you make them very easy to change and keep secret. Although these secrets are tiny, they must be managed carefully and conscientiously. We believe this concept is so important that we have placed it on our reusable version of the Wardley-Duncan map linked to above.
 
@@ -234,24 +234,24 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">cloud computing</td>
-			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Cloud_computing">Using</a> other people's computers.</td>
+			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Cloud_computing">Using</a> other people's computers.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">content management system</td>
-			<td colspan="1" rowspan="1">A <a href="http://en.wikipedia.org/wiki/Computer_program"></a><a href="http://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="http://en.wikipedia.org/wiki/Content_%28media%29"></a>content, organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
+			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Computer_program"></a><a href="https://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="https://en.wikipedia.org/wiki/Content_%28media%29"></a>content, organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
 			</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Elasticsearch</td>
-			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="http://en.wikipedia.org/wiki/Lucene"></a><a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
+			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="https://en.wikipedia.org/wiki/Lucene"></a><a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">FISMA</td>
-			<td colspan="1" rowspan="1">The <a href="http://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
+			<td colspan="1" rowspan="1">The <a href="https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">full-text search engine</td>
-			<td colspan="1" rowspan="1">A way to find things using <a href="http://en.wikipedia.org/wiki/Full_text_search">words </a>that occur in them.</td>
+			<td colspan="1" rowspan="1">A way to find things using <a href="https://en.wikipedia.org/wiki/Full_text_search">words </a>that occur in them.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">GUI framework</td>
@@ -259,24 +259,24 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">GitHub</td>
-			<td colspan="1" rowspan="1">GitHub is a <a href="http://en.wikipedia.org/wiki/Git_%28software%29"></a><a href="http://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a href="http://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a href="http://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="http://en.wikipedia.org/wiki/Distributed_revision_control"></a><a href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="http://en.wikipedia.org/wiki/Revision_control"></a><a href="http://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
+			<td colspan="1" rowspan="1">GitHub is a <a href="https://en.wikipedia.org/wiki/Git_%28software%29"></a><a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="https://en.wikipedia.org/wiki/Distributed_revision_control"></a><a href="https://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="https://en.wikipedia.org/wiki/Revision_control"></a><a href="https://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">green-field</td>
-			<td colspan="1" rowspan="1">A project <a href="http://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
+			<td colspan="1" rowspan="1">A project <a href="https://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
 
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">NoSQL database</td>
-			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a> Data retrieval not based strictly on tables, such as key-value pair look up.</td>
+			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a> Data retrieval not based strictly on tables, such as key-value pair look up.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Lucene</td>
-			<td colspan="1" rowspan="1">Apache <a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> is a freeopen source<a href="http://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
+			<td colspan="1" rowspan="1">Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> is a freeopen source<a href="https://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">open source</td>
-			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Open-source_software">Open-source</a> software (OSS)is <a href="http://en.wikipedia.org/wiki/Software">computer software</a> with its <a href="http://en.wikipedia.org/wiki/Source_code">source code</a> made available with a <a href="http://en.wikipedia.org/wiki/Open-source_license">license</a> in which the <a href="http://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span ></td>
+			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Open-source_software">Open-source</a> software (OSS)is <a href="https://en.wikipedia.org/wiki/Software">computer software</a> with its <a href="https://en.wikipedia.org/wiki/Source_code">source code</a> made available with a <a href="https://en.wikipedia.org/wiki/Open-source_license">license</a> in which the <a href="https://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span ></td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">PostgreSQL</td>
@@ -284,15 +284,15 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">relational database</td>
-			<td colspan="1" rowspan="1">A <a href="http://en.wikipedia.org/wiki/Relational_database">relational database</a> stores information about both thedataand how it isrelatedbased on tables.</td>
+			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Relational_database">relational database</a> stores information about both thedataand how it isrelatedbased on tables.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">SOLR</td>
-			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced "solar") is an <a href="http://en.wikipedia.org/wiki/Open-source_software">open source</a><a href="http://en.wikipedia.org/wiki/Enterprise_search"> enterprise search </a>platform from the Apache <a href="http://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
+			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced "solar") is an <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a><a href="https://en.wikipedia.org/wiki/Enterprise_search"> enterprise search </a>platform from the Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">SourceForge</td>
-			<td colspan="1" rowspan="1">A web-based source code sharing <a href="http://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
+			<td colspan="1" rowspan="1">A web-based source code sharing <a href="https://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">TechFAR</td>
@@ -301,7 +301,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Unix Philosophy</td>
-			<td colspan="1" rowspan="1"><a href="http://en.wikipedia.org/wiki/Unix_philosophy">Write</a> small, recombinable programs.</td>
+			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Unix_philosophy">Write</a> small, recombinable programs.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">USDS</td>
@@ -320,7 +320,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 
 ## Further Reading
 
-- Codd, E. F. (1970). ["A relational model of data for large shared data banks"](http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf). Communications of the ACM13(6): 377.[doi](http://en.wikipedia.org/wiki/Digital_object_identifier): [10.1145/362384.362685](http://dx.doi.org/10.1145%2F362384.362685).
+- Codd, E. F. (1970). ["A relational model of data for large shared data banks"](http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf). Communications of the ACM13(6): 377.[doi](https://en.wikipedia.org/wiki/Digital_object_identifier): [10.1145/362384.362685](http://dx.doi.org/10.1145%2F362384.362685).
 - Liu, Lily (2013) "When Hacking is Actually a Good Thing: The Civic Hacking Movement" [http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html](http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html)
 - Lee, Gwanhoo, and Xia, Weidong (2010) "Toward Agile: An Integrated Analysis of Quantitative and Qualitative Field Data on Software Development Agility" MIS Quarterly Vol. 34 No. 1, pp. 87-114/March 2010
 - Wardley, Simon (2013) "Basics … repeated … again …" [http://blog.gardeviance.org/2013/03/basics-repeated-again.html](http://blog.gardeviance.org/2013/03/basics-repeated-again.html)

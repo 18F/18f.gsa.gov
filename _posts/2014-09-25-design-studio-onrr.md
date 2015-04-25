@@ -38,7 +38,7 @@ This will all be a part of the U.S. implementation of a global transparency stan
 * members of the general public who want to learn about U.S. extractive industries revenue and how these revenues impact them on a local level;
 * researchers and data scientists who want access to the raw data for analysis purposes.
 
-Over the course of a project, we often conduct one or more workshops. **Three weeks into the USEITI project, we decided to hold a design studio to solve the problem of how to convey complex revenue data.** We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the [U.S. outer continental shelf](http://en.wikipedia.org/wiki/Outer_Continental_Shelf)) as it relates to our system.
+Over the course of a project, we often conduct one or more workshops. **Three weeks into the USEITI project, we decided to hold a design studio to solve the problem of how to convey complex revenue data.** We needed to better understand the difference between onshore revenue (revenue from natural resources extracted from land) and offshore revenue (revenue from resources extracted from Federal offshore or the [U.S. outer continental shelf](https://en.wikipedia.org/wiki/Outer_Continental_Shelf)) as it relates to our system.
 
 ## What’s a design studio?
 
@@ -59,7 +59,7 @@ First, we laid out the ground rules:
 
 Next, following a round of introductions, we dove right into the collaborative design process.
 
-**Creating user personas.** Based on the participants’ previous research on users, the group developed [user personas](http://www.usability.gov/how-to-and-tools/methods/personas.html) to serve as examples of the types of people who would interact with the website. We did this by brainstorming possible user goals, behavior patterns, skills, attitudes and environments, and then condensing these into representative groups through [affinity mapping](http://en.wikipedia.org/wiki/Affinity_diagram). The resulting personas give users actual characteristics — names, faces and narratives. This helps our design studio participants (and our 18F team designers!) shift focus away from meeting specific requirements and deliverables, and onto meeting the needs of the users.
+**Creating user personas.** Based on the participants’ previous research on users, the group developed [user personas](http://www.usability.gov/how-to-and-tools/methods/personas.html) to serve as examples of the types of people who would interact with the website. We did this by brainstorming possible user goals, behavior patterns, skills, attitudes and environments, and then condensing these into representative groups through [affinity mapping](https://en.wikipedia.org/wiki/Affinity_diagram). The resulting personas give users actual characteristics — names, faces and narratives. This helps our design studio participants (and our 18F team designers!) shift focus away from meeting specific requirements and deliverables, and onto meeting the needs of the users.
 
 ![photo: team creating personas](/assets/blog/eiti/eiti1.jpg)
 _Building user personas_

@@ -232,8 +232,8 @@ create a powerful calculator.
 Looking at great teaching books can provide good ideas for projects. For
 example, a currency conversion calculator sounds simple, but has some
 interesting challenges. This was an effective example from Kent Beck's book
-[Test Driven Development by Example](http://en.wikipedia.org/wiki/Test-Driven_Development_by_Example) introduced shortly after his seminal work
-[Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development). I have not run a workshop around it, but I believe
+[Test Driven Development by Example](https://en.wikipedia.org/wiki/Test-Driven_Development_by_Example) introduced shortly after his seminal work
+[Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development). I have not run a workshop around it, but I believe
 one could run an effective 5-hour workshop around this exercise as well.
 
 For a group of participants that did not include strong coders, I might plan
