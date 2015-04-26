@@ -171,6 +171,8 @@ Let's go ahead and get you ready to build the site.
 
 ### Create a Branch
 
+TEST: From shannon at hacker hours workshop
+
 Okay. Now you're ready to start editing.
 
 * Open up a text editor suitable for web development. We use [Sublime Text 3](http://www.sublimetext.com/3), but there are other options like [Atom](https://atom.io/) or [`vim`](http://www.vim.org/), but we do not recommend TextEdit or a word processor.
