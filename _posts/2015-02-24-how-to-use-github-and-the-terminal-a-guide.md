@@ -315,3 +315,5 @@ Once you are all up to date, always remember to create a new branch before makin
 > If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
 
 _{% author moncef %} contributed significantly to this post, helping us shape it and find our mistakes._
+
+Editing a page for giggles
