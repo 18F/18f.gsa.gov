@@ -310,7 +310,7 @@ After you type `git pull` one of two things might happen:
 
 Whenever you run `git pull` you ask GitHub to download the most recent changes. If you get the first message it means nothing has changed since the last time you worked on it. If you get the second, it means someone from the 18F team merged another pull request.
 
-Once you are all up to date, always remember to create a new branch before making any new changes.
+Once you are all up to date, always remember to create a new branch before making any new changes...
 
 > If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
 
