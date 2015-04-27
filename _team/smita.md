@@ -1,5 +1,5 @@
 ---
-name: Smita Satiani
+name: smita
 role:
 location: DCA
 github:
