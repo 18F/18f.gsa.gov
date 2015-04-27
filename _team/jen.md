@@ -11,4 +11,4 @@ Jen is a designer and user researcher who is currently working on a number of pr
 
 After graduating from American University with a degree in Graphic Design, Jen worked at a small design studio before joining the Consumer Financial Protection Bureau as a Design and Technology Fellow.
 
-"I work to make the government better and more efficient and more emphathetic," she says. "I really enjoy using my skills to make an impact and make peoples lives easier when they interact with government services.""
+"I work to make the government better and more efficient and more emphathetic," she says. "I really enjoy using my skills to make an impact and make peoples lives easier when they interact with government services."
