@@ -241,5 +241,5 @@ time to prepare their `.gov` domains.
 [30]: https://datatracker.ietf.org/doc/rfc7258/
 [31]: http://www.internetsociety.org/news/internet-society-commends-internet-architecture-board-recommendation-encryption-default
 [32]: https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure
-[33]: http://www.ftc.gov/news-events/blogs/techftc/2015/02/government-agencies-enable-http-strict-transport-security-public
+[33]: https://www.ftc.gov/news-events/blogs/techftc/2015/02/government-agencies-enable-http-strict-transport-security-public
 [34]: http://blogs.msdn.com/b/ie/archive/2015/02/16/http-strict-transport-security-comes-to-internet-explorer.aspx?Redirected=true

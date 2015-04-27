@@ -216,7 +216,7 @@ what changes they’d like to see in future events. More importantly,
 *act* on this feedback — simply collecting it isn’t enough.
 
 For more tips and tricks, check out
-[these](http://18f.github.io/hackathontrainingday/)
+[these](https://18f.github.io/hackathontrainingday/)
 [links](http://techladyhackathon.org/).
 
 Have additional tips to add to the list? [We’d love to hear them.](http://techladyhackathon.org/)

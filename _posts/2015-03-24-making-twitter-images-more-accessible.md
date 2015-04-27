@@ -2,7 +2,7 @@
 title: "Making Twitter Images Accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
-date: 2015-03-24 
+date: 2015-03-24
 tags:
 - accessibility
 - twitter
@@ -41,8 +41,8 @@ And [@thebenedict](https://twitter.com/thebenedict/status/578572813155590144) su
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a> Picture in tweet: screenshot of a tweet featuring a screenshot of a reply to a tweet featuring an image. <a href="http://t.co/PWUIJgubPd">pic.twitter.com/PWUIJgubPd</a></p>&mdash; thebenedict (@thebenedict) <a href="https://twitter.com/thebenedict/status/578572813155590144">March 19, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion. 
+Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion.
 
 **Update**:
 
-[Daniel Morgan](https://github.com/dsmorgan77) wrote and suggested that we add this link to a DigitalGov toolkit called [Improving the Accessibility of Social Media in Government](http://www.digitalgov.gov/resources/improving-the-accessibility-of-social-media-in-government/). It's a must-read if you're interested in accessibility issues, and contains "helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities."
+[Daniel Morgan](https://github.com/dsmorgan77) wrote and suggested that we add this link to a DigitalGov toolkit called [Improving the Accessibility of Social Media in Government](https://www.digitalgov.gov/resources/improving-the-accessibility-of-social-media-in-government/). It's a must-read if you're interested in accessibility issues, and contains "helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities."
