@@ -743,6 +743,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		@include media($smallest) {
 			@include span-columns(2 of 12);
 			@include omega();
+			margin-bottom: 0;
 		}
 		@include media($tiny) {
 			@include span-columns(4 of 12);
