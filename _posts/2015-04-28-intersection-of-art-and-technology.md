@@ -12,7 +12,7 @@ image: /assets/blog/art-tech/dap-dashboard.png
 ---
 
 <p class="authors">
-  by {% author julia %} with contributions from {% author jeremy %} + {% author melody %}
+  by {% author julia %} with contributions from {% author jeremy %} and {% author melody %}
 </p>
 
 <blockquote class="twitter-tweet" lang="en">
