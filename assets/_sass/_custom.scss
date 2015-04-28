@@ -738,6 +738,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			@include omega();
 			padding-left: 1%;
 			margin-top: 1em;
+			margin-bottom: 6em
 		}
 		@include media($smallest) {
 			@include span-columns(2 of 12);
@@ -770,6 +771,12 @@ $tiniest: new-breakpoint(max-width 390px);
 		  	font-size: 0.9em;
 		  	text-align: center;
 		  }
+			&.disabled {
+				cursor: default;
+			}
+			&.disabled:hover, &.disabled:focus {
+				color: $blue;
+			}
 		}
 	}
 	.bio:nth-child(10n+6) {
@@ -785,7 +792,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	.bio:last-child {
-		margin-bottom: 5.5em;
+		margin-bottom: 9em;
 	}
 	.sortable {
 		min-height: 60px;

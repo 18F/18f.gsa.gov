@@ -25,8 +25,8 @@ title: 18F People
 				{% if person.content.size > 0 %}
 					{% unless person.title %}
 					<div class='bio'>
-	        		<a href='/team/{{person.name}}'>{{ person.name | team_photo }}</a>
-							<a href='/team/{{person.name}}'><h1>{{ person.name | team_full_name }}</h1></a>
+	        		<a href='/team/{{person.name}}' class="disabled">{{ person.name | team_photo }}
+							<h1>{{ person.name | team_full_name }}</h1></a>
 	    		</div>
 	    		{% endunless %}
 				{% endif %}
