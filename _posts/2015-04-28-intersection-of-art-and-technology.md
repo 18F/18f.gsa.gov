@@ -12,7 +12,7 @@ image: /assets/blog/art-tech/dap-dashboard.png
 ---
 
 <p class="authors">
-  by {% author julia %} with contributions from {% author jeremy %} and {% author melody %}
+  by {% author julia %}
 </p>
 
 <blockquote class="twitter-tweet" lang="en">
@@ -39,3 +39,5 @@ One way to help people process technology differently is by designing visualizat
 In our workflow process at 18F, we frequently use sketching and rapid prototyping in the preliminary stages. We do this in part because they help people quickly understand the impact of user-centered design, agile sprints, and building prototypes. Our colleagues Alan deLevie and Robert L. Read, PhD. recently shared details on [how to begin a project by sketching with code with a method called protosketching](https://18f.gsa.gov/2015/01/06/protosketch/). By protosketching we can [quickly work to create a prototype](https://18f.gsa.gov/2015/03/13/how-to-protosketch/), or even a Minimal Viable Product (MVP), that is in sync with a project’s objectives and user needs. By using this type of sketching, agencies are able to “realize its mission more effectively and to save taxpayer money.”
 
 Like Bjӧrk, we use both art and technology to shape how the team at 18F approaches the work we do inside of government. Our two-year appointments allow us to achieve short-term goals creating better user experiences for people who use federal websites and services. Our long-term goals are to change the way government agencies create and design digital services. As artists and technologists, we can achieve this by creating tools and services that not only do this, but also help change our long-term point of view.
+
+{% author jeremy %} and {% author melody %} contributed to this post.
