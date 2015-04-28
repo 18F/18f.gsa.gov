@@ -726,34 +726,33 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include outer-container;
 	.bio {
 		@include span-columns(2 of 12);
-		margin: 1.5em 0 .5em 1.5%;
+		margin: 1.5em 0 3em 1.5%;
 		padding-right: 3%;
 		position: relative;
 		display: inline-block;
 		float: none;
 		max-height: 2.4em;
 	  line-height: 1.2em;
+		margin-bottom: 6em;
 		@include media($smaller) {
 			@include span-columns(2 of 12);
 			@include omega();
 			padding-left: 1%;
 			margin-top: 1em;
-			margin-bottom: 5em;
 		}
 		@include media($smallest) {
 			@include span-columns(2 of 12);
 			@include omega();
-			margin-bottom: 0;
 		}
 		@include media($tiny) {
-			@include span-columns(4 of 12);
+			@include span-columns(3 of 12);
 			@include omega();
 			padding-left: 1.5%;
 			margin-top: 3em;
-			margin-bottom: 4em;
 		}
 		@include media($tiniest) {
-
+			@include span-columns(4 of 12);
+			@include omega();
 		}
 		strong {
 			float: left;
@@ -769,7 +768,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			  background-clip: padding-box;
 		  }
 		  h1 {
-		  	font-size: 1em;
+		  	font-size: 0.9em;
 		  	text-align: center;
 		  }
 		}
