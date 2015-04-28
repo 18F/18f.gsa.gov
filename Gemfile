@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'rouge'
 gem 'bourbon'
 gem 'redcarpet'
-gem 'jekyll', '3.0.0.pre.beta2'
+gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'

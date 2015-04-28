@@ -3,7 +3,7 @@ title: 'Sunshine Week: Extractive Industries Transparency Initiative Event'
 date: '2015-03-18'
 layout: post
 image: /assets/blog/useiti-sunshine/useiti.png
-tags: 
+tags:
 - open government
 - transparency
 - useiti
@@ -83,7 +83,7 @@ The current iteration of the website only tells part of the story. For
 example, there is more work to be done in providing data about
 non-energy resources such as gold and copper. Some of these resources
 are [mined under laws that are more than 100 years
-old](http://en.wikipedia.org/wiki/General_Mining_Act_of_1872), and some
+old](https://en.wikipedia.org/wiki/General_Mining_Act_of_1872), and some
 of their related data hasn’t quite made it into the twenty-first
 century.
 

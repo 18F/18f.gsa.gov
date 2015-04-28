@@ -22,7 +22,7 @@ training event will be held from 8:00 a.m. to 11:00 a.m. on Friday, May 1 at the
 General Services Administration, 1800 F Street NW, in Washington, DC."
 ---
 <p class="authors">
-    by {% author jhunter %} and {% author noah %}
+    by {% author jhunter %}
 </p>
 Improving collaboration and communication between an organization’s
 development resources and its operational resources is the focus of an
@@ -44,9 +44,7 @@ The ACT-IAC Emerging Technology SIG Agile Committee will discuss how to
 align infrastructure, governance, compliance, security, and acquisition
 to rapidly deploy IT solutions.
 
-Featured speakers will include: Greg Godbout, former Executive Director
-of 18F; Noah Kunin, Head of Delivery Architecture at 18F; Eric Maland, Senior Engineer, United States Digital
-Service; Kaitlin Devine, Director of Engineering at 18F; and Mark White, Global Consulting Technology CTO at Deloitte.
+Featured speakers and panelists will include: Mark Schwartz, CIO at United States Citizen and Immigration Services; Lisa Gelobter, Chief Digital Service Officer at the Department of Education; Greg Godbout, former Executive Director of 18F; Kaitlin Devine, Director of Engineering at 18F; and Noah Kunin, Head of Delivery Architecture at 18F.
 
 **Emerging Technology SIG Agile Committee Special Program Event Logistics**
 

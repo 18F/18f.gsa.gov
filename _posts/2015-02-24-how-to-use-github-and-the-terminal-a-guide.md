@@ -24,7 +24,7 @@ We’ve written before how everything we do is open [from day 1](https://18f.gsa
 
 We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site.
 
-Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to [GitHub](https://www.github.com), the command line (also called Terminal on OS X), and [Markdown](http://en.wikipedia.org/wiki/Markdown) through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
+Because some of the people we hire have never used these tools before, this guide assumes you have no prior knowledge of them either. We're going to introduce you to [GitHub](https://github.com), the command line (also called Terminal on OS X), and [Markdown](https://en.wikipedia.org/wiki/Markdown) through a guided exercise. Today you'll learn how to make a blog post on the [18F blog](https://18f.gsa.gov/news/).
 
 Every step will be illustrated with a helpful screenshot or animated GIF that shows you exactly what your screen should look like. We'll go through each step in order. At the end of this post, you will know how to:
 
@@ -95,7 +95,7 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 * First, you want to log into GitHub. Go to [https://github.com/login](https://github.com/login) and sign in with your username and password.
 
-Now we can start working with the website. GitHub is a system that stores files and records changes made to them using a piece of software called [Git](http://git-scm.com/), which allows multiple people to make separate changes to a program at the same time without getting in each others' way. If our program was a five paragraph essay, Git allows Corey to edit the introduction on one computer while Jesse edits the conclusion somewhere else. When both are done, they can move their edits into one copy while preserving the changes from each person. 
+Now we can start working with the website. GitHub is a system that stores files and records changes made to them using a piece of software called [Git](http://git-scm.com/), which allows multiple people to make separate changes to a program at the same time without getting in each others' way. If our program was a five paragraph essay, Git allows Corey to edit the introduction on one computer while Jesse edits the conclusion somewhere else. When both are done, they can move their edits into one copy while preserving the changes from each person.
 
 If you've ever used "Track Changes" in word processing (where edits are highlighted to be approved or rejected), Git is like that, but with many more features. In software development, Git and other **version control** tools are helpful when looking for the origin of a bug. Let's say that some code isn't working, but 15 people made edits to it in the last week and you aren't sure where the bug is. With Git, you can load an old version of a program, test for the issue, and then "jump forward" through people's edits until you find the first one that also has the problem. That tells you the specific edit to search for the mistake.
 
