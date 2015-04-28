@@ -732,7 +732,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		clear: none;
 		max-height: 2.4em;
 	  line-height: 1.2em;
-		margin-bottom: 6em;
+		margin-bottom: 7em;
 		@include media($smaller) {
 			@include span-columns(2 of 12);
 			@include omega();
@@ -773,9 +773,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	.bio:nth-child(10n+6) {
-		margin-left: 60px;
+		margin-left: 120px;
 		@include media($smaller) {
 			margin-left: 0;
+		}
+	}
+	.bio:first-child, .bio:nth-child(10n+12) {
+		margin-left: 60px;
+		@include media($smaller) {
+			margin-left:0;
 		}
 	}
 	.bio:last-child {
