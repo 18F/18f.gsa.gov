@@ -244,6 +244,32 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+// Global nav
+//********************************************************
+.global-nav {
+	width: auto;
+	position: absolute;
+	right:0;
+	top: 1.4em;
+	z-index: 999;
+	background-color: white;
+	border: solid 1px $medium-gray;
+	padding: 1em;
+	font-size: .9em;
+	@include media($tinier) {
+		
+	}
+	ul {
+		display: inline-block;
+		li {
+			display: inline;
+			margin: 1em;
+			a {
+				color: $dark-gray;
+			}
+		}
+	}
+}
 // Mantra
 //********************************************************
 .mantra {
