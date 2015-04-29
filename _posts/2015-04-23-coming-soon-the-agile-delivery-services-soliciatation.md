@@ -23,7 +23,7 @@ By the end of this month, GSA will be releasing a Request for Quote
 (RFQ) for the [alpha version of the Agile Delivery Services Blanket
 Purchase
 Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/).
-The RFQ will be posted on GSA eBuy.
+The RFQ will be posted on GSA eBuy and, for the alpha, will be open to vendors on GSA Schedule 70.
 
 The process for engaging industry began with a [Request for
 Information](https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=e0807fc8a69115f0e352f6f0c135697a)
