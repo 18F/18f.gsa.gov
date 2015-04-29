@@ -40,9 +40,9 @@ In addition to the editorial team, anyone from 18F is encouraged to enter the Gi
 
 For the post you’re reading right now, we asked the 18F team what they thought we should share about our blogging process with an external audience. Eric Mill, a developer and frequent blog contributor, noted that we offer 18F members complete autonomy to pitch and flesh out a blog post, and that the blog supports syntax highlighting, which allows our devs to share code easily. He also noted:
 
-> So I think the strongest form of this post includes some nods to the other things that help make our blog a Great Place to Write: authorial autonomy, infrastructure to support technical blog posts (e.g. syntax highlighting), immediate deployment from GitHub, a commitment to writing in a natural human voice, and an ongoing persistent invitation to all staff to be a part of the authorship. Other :+1: points: a strong tendency to use individual human bylines for all involved in a post, and a very light-touch approach to scheduling (I'd characterize it as, once approved, it's good to go ASAP as long as it's not slammed at the moment). - Eric Mill
-
-I'm drawing these points by contrasting how I've observed other blogs work in .gov that our team has coordinated with in the past.
+> So I think the strongest form of this post includes some nods to the other things that help make our blog a Great Place to Write: authorial autonomy, infrastructure to support technical blog posts (e.g. syntax highlighting), immediate deployment from GitHub, a commitment to writing in a natural human voice, and an ongoing persistent invitation to all staff to be a part of the authorship. Other :+1: points: a strong tendency to use individual human bylines for all involved in a post, and a very light-touch approach to scheduling (I'd characterize it as, once approved, it's good to go ASAP as long as it's not slammed at the moment).
+>
+> I'm drawing these points by contrasting how I've observed other blogs work in .gov that our team has coordinated with in the past. - Eric Mill
 
 You’ll notice emoji in the comments Eric wrote above. Our team has started using emoji like a :thumbsup: or +100 to posts as a way to agree and keep the conversation light and fun. Here's another example from the conversation that led to this post:
 
