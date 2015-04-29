@@ -3,9 +3,11 @@ title: 18F Consulting
 permalink: /consulting/
 layout: bare
 ---
-## A new line of business within 18F, a digital services agency and technology incubator within the General Services Administration.
+# 18F Consulting
 
-18F Consulting is focused on providing hands-on consulting services to Federal program managers and other leaders who need assistance in designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source). We offer a variety of services under the authority of the [Economy Act](http://www.acquisition.gov/far/html/Subpart%2017_5.html) from knowledgeable and experienced software engineers and acquisition specialists. Think of us as your in-house technical brains for your next software acquisition.
+### A new line of business within 18F, a digital services agency and technology incubator within the General Services Administration.
+
+18F Consulting is focused on providing hands-on consulting services to Federal program managers and other leaders who need assistance in designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source). We offer a variety of services under the authority of the [Economy Act](https://www.acquisition.gov/?q=browse/far/17/5) from knowledgeable and experienced software engineers and acquisition specialists. Think of us as your in-house technical brains for your next software acquisition.
 
 ## Documents
 
