@@ -33,11 +33,11 @@ If you're a Federal Agency interested in our services, email us at <a id="email"
 
 ## Team
 
--Chris Cairns (Managing Director)
--Dave Zvenyach
--Jay Finch
--Jesse Taggert
--Tom Black
+- Chris Cairns (Managing Director)
+- Dave Zvenyach
+- Jay Finch
+- Jesse Taggert
+- Tom Black
 
 <!-- Obfuscate our email -->
 <div>
