@@ -36,7 +36,7 @@ We also ask our teammates if they have thoughts on a post date and who, in addit
 
 Sometimes we hold posts to coincide with a product launch. In both of these cases, we ask the project leads for their thoughts and make sure that they’re added to the GitHub issue, as well. This ensures that all the relevant information is collected in one place, and makes it easy for	 anyone who needs to weigh in before publication to do so.
 
-![Text from GitHub: Sarah, Also love this idea — when would you like to publish? - Kate](/assets/blog/how-we-write/sarah.png)
+![Text from GitHub: Sarah, Also love this idea — when would you like to publish? - Kate](/assets/blog/how-we-write/kate2.png)
 
 In addition to the editorial team, anyone from 18F is encouraged to enter the GitHub thread and offer feedback or suggest copy for the actual blog post itself. Even if someone may not have time to write an entire post, they can contribute and receive a byline for their efforts. This allows our teammates who are busy coding or designing projects to write about their process and work, without requiring them to sit down and write hundreds of words. (We also have a weekly blog “huddle” with the editorial team, where anyone from 18F can talk about works-in-progress, ask for help, or find collaborators.)
 
@@ -49,7 +49,7 @@ I'm drawing these points by contrasting how I've observed other blogs work in .g
 You’ll notice emoji in the comments Eric wrote above. Our team has started using emoji like a :thumbsup: or +100 to posts as a way to agree and keep the conversation light and fun.
 
 ![Text from GitHub: Kate: Eric +100 — encouragement of authorial autonomy can't be overstated. Another aspect I'd like to emphasize is our collective revision process (and the speed/enthusiasm with which folks offer their input). Becky: "As someone who hopes to one day write on the 18F blog, I love this discussion. Having a documented process that's consistently followed will make it easier for folks not on the official blogging team to jump in.""
-Melody: if you ever want to bounce ideas around for a post, come to the blog huddle, come chat in #blog, or make a post here! We're happy to help and would love to see your byline.](/assets/blog/how-we-write/kate2.png)
+Melody: if you ever want to bounce ideas around for a post, come to the blog huddle, come chat in #blog, or make a post here! We're happy to help and would love to see your byline.](/assets/blog/how-we-write/kate.png)
 
 Keep in mind, at this point, not a single sentence has been written in a word processing program. We’re still tossing ideas back and forth, hearing from all members of the team, and allowing everyone to share ideas.
 
