@@ -26,9 +26,9 @@ This collaboration begins during the generative stage of the drafting process. A
 
 This isn’t the only way we come up with our post ideas. Sometimes, we’ll overhear a great conversation — or witness one in our chat program — and realize that it would make an equally great post. In these cases, one of us will reach out to the conversation participants and ask if they’d like to write a post based on their discussion. If they’re not free or willing to write it, a member of the editorial team will offer to create a GitHub issue and work up the first draft.
 
-> Love this idea, Sarah. We have gotten away from our habits of tagging blog posts with status but I'm trying to get better about it. And I was also just today thinking about turning all the site-related documentation over to the public version of the hub. - Greg Boone.
-
 Once an idea is posted, members of our editorial team immediately jump in on the thread to help flesh out the idea and find out whether the person submitting the idea needs any support. We also add tags to the post — things like “how we work,” or “our culture” — so that we know how to categorize the blog post once we publish it to the 18F site.
+
+> Love this idea, Sarah. We have gotten away from our habits of tagging blog posts with status but I'm trying to get better about it. And I was also just today thinking about turning all the site-related documentation over to the public version of the hub. - Greg Boone.
 
 We also ask our teammates if they have thoughts on a post date and who, in addition to GSA’s communications team, needs to approve the post before it goes live. (If we’re writing a post about our work with another agency, we want to make sure they aren’t surprised when it comes out, so we give them a heads up.)
 
@@ -44,14 +44,21 @@ For the post you’re reading right now, we asked the 18F team what they thought
 
 I'm drawing these points by contrasting how I've observed other blogs work in .gov that our team has coordinated with in the past.
 
-You’ll notice emoji in the comments Eric wrote above. Our team has started using emoji like a :thumbsup: or +100 to posts as a way to agree and keep the conversation light and fun.
+You’ll notice emoji in the comments Eric wrote above. Our team has started using emoji like a :thumbsup: or +100 to posts as a way to agree and keep the conversation light and fun. Here's another example from the conversation that led to this post:
 
-![Text from GitHub: Kate: Eric +100 — encouragement of authorial autonomy can't be overstated. Another aspect I'd like to emphasize is our collective revision process (and the speed/enthusiasm with which folks offer their input). Becky: "As someone who hopes to one day write on the 18F blog, I love this discussion. Having a documented process that's consistently followed will make it easier for folks not on the official blogging team to jump in.""
-Melody: if you ever want to bounce ideas around for a post, come to the blog huddle, come chat in #blog, or make a post here! We're happy to help and would love to see your byline.](/assets/blog/how-we-write/kate.png)
+Kate:
+ > Eric +100 — encouragement of authorial autonomy can't be overstated. Another aspect I'd like to emphasize is our collective revision process (and the speed/enthusiasm with which folks offer their input).
+
+Becky:
+> As someone who hopes to one day write on the 18F blog, I love this discussion. Having a documented process that's consistently followed will make it easier for folks not on the official blogging team to jump in.
+
+Melody:
+> if you ever want to bounce ideas around for a post, come to the blog huddle, come chat in #blog, or make a post here! We're happy to help and would love to see your byline.
+
 
 Keep in mind, at this point, not a single sentence has been written in a word processing program. We’re still tossing ideas back and forth, hearing from all members of the team, and allowing everyone to share ideas.
 
-As Kate Garklavs, an 18F content designer, notes above, writing in this way allows us to collectively revise our work. After everyone has had a chance to voice their opinion, someone volunteers — or is encouraged — to write a draft of the post, incorporating the thoughts from the GitHub issue.
+Writing this way allows us to collectively revise our work. After everyone has had a chance to voice their opinion, someone volunteers — or is encouraged — to write a draft of the post, incorporating the thoughts from the GitHub issue.
 
 The draft is also open to the entire 18F team. Feedback is once again shared, and the post is then deployed from GitHub. (We wrote a detailed tutorial on how we use GitHub and the terminal to write blog posts, if you’d like to know more.) We also often open up another issue on the GitHub repository for our blog, for feedback from readers.
 
