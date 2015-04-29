@@ -21,9 +21,7 @@ We collaborate on much of what we do at 18F, from the way we work on code to the
 
 This collaboration begins during the generative stage of the drafting process. Anyone on the 18F team can suggest an idea for a blog post. We collect these ideas as issues in a private GitHub repository and open each issue up to feedback from the entire team. For example, Sarah Allen, a developer at 18F, suggested writing the post you are reading right now:
 
-![Text from GitHub screenshot: IDEA: we should write a blog post about how we create transparency and alignment within our organization with our blogging process, where anyone on the whole team can chime in on blog posts
-
-I was telling some friends about our process and how we use github (or used to?) tagging drafts with idea, draft, ready and approved -- I don't see these labels now. I wanted to share our README from this repo, but its private. I would love to have a written reference to our process -- I think other orgs could learn from it, and would help prospective candidates understand how we work. - Sarah Allen](/assets/blog/how-we-write/sarah.png)
+![Text from GitHub screenshot: IDEA: we should write a blog post about how we create transparency and alignment within our organization with our blogging process, where anyone on the whole team can chime in on blog posts I was telling some friends about our process and how we use github (or used to?) tagging drafts with idea, draft, ready and approved -- I don't see these labels now. I wanted to share our README from this repo, but its private. I would love to have a written reference to our process -- I think other orgs could learn from it, and would help prospective candidates understand how we work. - Sarah Allen](/assets/blog/how-we-write/sarah.png)
 
 
 This isn’t the only way we come up with our post ideas. Sometimes, we’ll overhear a great conversation — or witness one in our chat program — and realize that it would make an equally great post. In these cases, one of us will reach out to the conversation participants and ask if they’d like to write a post based on their discussion. If they’re not free or willing to write it, a member of the editorial team will offer to create a GitHub issue and work up the first draft.
@@ -59,4 +57,4 @@ The draft is also open to the entire 18F team. Feedback is once again shared, an
 
 Read Our README
 
-Our README in our private blog-drafts repo has the following instructions to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in our site repo.
+Our README in our private blog-drafts repo has [the following instructions](https://18f.gsa.gov/hub/blogging) to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in our site repo.
