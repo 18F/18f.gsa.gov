@@ -44,7 +44,7 @@ The rest of this document has instructions for creating the markdown file and po
 
 ### Creating a new blog post file
 
-To create a new blog post,  save your post in the [`_posts` directory](https://github.com/18F/18f.gsa.gov/tree/staging/_posts) with the name `2015-02-23-new_post.md` where '2015-02-23' is today's date and `new-post` is the title of your post. Detailed instructions, along with screenshots, are located in [our blogging and Github tutorial](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#edit-and-commit-a-blog-post).
+To create a new blog post,  save your post in the [`_posts` directory](https://github.com/18F/18f.gsa.gov/tree/staging/_posts) with the name `2015-02-23-new-post.md` where '2015-02-23' is today's date and `new-post` is the title of your post. Detailed instructions, along with screenshots, are located in [our blogging and Github tutorial](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#edit-and-commit-a-blog-post).
 
 #### Metadata, explained
 
