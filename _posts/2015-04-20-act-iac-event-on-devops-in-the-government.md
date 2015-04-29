@@ -44,7 +44,12 @@ The ACT-IAC Emerging Technology SIG Agile Committee will discuss how to
 align infrastructure, governance, compliance, security, and acquisition
 to rapidly deploy IT solutions.
 
-Featured speakers and panelists will include: Mark Schwartz, CIO at United States Citizen and Immigration Services; Lisa Gelobter, Chief Digital Service Officer at the Department of Education; Greg Godbout, former Executive Director of 18F; Kaitlin Devine, Director of Engineering at 18F; and Noah Kunin, Head of Delivery Architecture at 18F.
+Featured speakers and panelists will include:
+* Mark Schwartz, CIO at United States Citizen and Immigration Services
+* Lisa Gelobter, Chief Digital Service Officer at the Department of Education
+* Greg Godbout, CTO at EPA and former Executive Director of 18F
+* Kaitlin Devine, Director of Engineering at 18F
+* Noah Kunin, Head of Delivery Architecture at 18F
 
 **Emerging Technology SIG Agile Committee Special Program Event Logistics**
 

@@ -11,21 +11,21 @@ This repository contains 18F's website, https://18f.gsa.gov.
 
 **All development and pull requests should be done against the `staging` branch.**
 
-Deployments to production will be done by site admins, using PRs from `staging` to `production`.
+Deployments to production will be done by site admins, using pull requests from `staging` to `production`.
 
 ### Adding yourself to the site
 
-If you're a new teammate, add yourself to the website by:
+If you're a new teammate, please add yourself to the website by following these steps:
 
-1. You should have a file with your name on it in `_data/team` (`_data/team/boone.yml`, for example) on 18F/data-private. Make sure that information is accurate and be sure to read [the Privacy section in the README there](https://github.com/18F/data-private#privacy).
-2. Clone this repo either with the GitHub Desktop App or through the command line
+1. You should have a file with your name on it in `_data/team` (`_data/team/boone.yml`, for example) on [18F/data-private](https://github.com/18F/data-private). Make sure that information is accurate and be sure to read [the Privacy section in the README there](https://github.com/18F/data-private#privacy).
+2. Clone this repo either with the GitHub Desktop App or through the command line. (Instructions on how to clone a repo are [located in our tutorial](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#clone-a-repo-on-your-computer).)
 3. Create a branch
-4. Add a **250x250px** photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory that matches the name you used for `name` in the `team.yml` file
-5. Push your branch and create a pull request to the `staging` branch of this repo to include your photo.
+4. Add a **250x250px** photo to the [`assets/images/team`](https://github.com/18F/18f.gsa.gov/tree/staging/assets/images/team) directory. The name of the file must match the name you used for `name` in the `team.yml` file
+5. Push your branch and create a pull request to the `staging` branch of this repo to include your photo on our site.
 
 **You do not need to edit the team.json file in this repo,** we'll find it in `data-private`.
 
-If you get stuck, feel free to reach out to anyone on the 18f-site team.
+If you get stuck, feel free to reach out to anyone on the 18f-site team. We're in #18f-site on Slack.
 
 Helpful tips:
 
