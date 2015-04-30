@@ -247,27 +247,61 @@ $tiniest: new-breakpoint(max-width 390px);
 // Global nav
 //********************************************************
 .global-nav {
+	display: block;
 	width: auto;
 	position: absolute;
 	right:0;
 	top: 1.4em;
 	z-index: 999;
 	background-color: white;
-	border: solid 1px $medium-gray;
-	padding: 1em;
 	font-size: .9em;
-	@include media($tinier) {
-		
+	.toggle {
+		display: none;
+	}
+	hr {
+		display: none;
 	}
 	ul {
 		display: inline-block;
+		margin: 0.9em 0;
 		li {
-			display: inline;
-			margin: 1em;
+			display: inline-block;
+			margin: 0;
 			a {
 				color: $dark-gray;
+				text-decoration: none;
+				padding: 1em 2em;
+				&:hover {
+					background-color: $medium-blue;
+					color: white;
+				}
 			}
 		}
+	}
+	@include media($smallest) {
+		ul {
+			display: none !important;
+			li {
+				display: block !important;
+			}
+		}
+		.toggle {
+			display: block !important;
+			color: #767676;
+		  text-decoration: none;
+		  padding: 1em 2em;
+		}
+		.hidden {
+			display: none !important;
+		}
+		.sep {
+			display: none;
+		}
+	}
+}
+.global-nav:last-child {
+	@include media($tiny) {
+		border-top: 1px solid $medium-gray;
 	}
 }
 // Mantra
