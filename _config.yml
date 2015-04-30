@@ -49,4 +49,4 @@ future: false
 collections:
   press:
     output: true
-    permalink: /press/:path/
+    permalink: /press/:name/

@@ -3,22 +3,35 @@ title: 18F Press
 permalink: /press/
 layout: bare
 ---
-
-<section class="subscribe">Working on a story about 18F?
-Email us:
-
-<div>
-  <script>
-    var parts = ["media", "@", "gsa", ".gov"];
-    var email = parts[0] + parts[1] + parts[2] + parts[3];
-    document.getElementById("email").href = "mailto:" + email + "?Subject=Media%20Request";
-    document.getElementById("email").innerHTML = email;
-  </script>
-</div>
+<section id="mantra">
+	<nav class="back">
+		<a href="/" title="return to the 18F home page">
+			<i class="fa fa-chevron-left" alt="chevron pointing left"></i>
+			<i class="fa fa-chevron-left" alt="chevron pointing left"></i>
+			Back to 18F Home
+		</a>
+	</nav>
 
 
-18F is a team of designers, developers, and product specialists. 18F is intended to be a digital consultancy for the U.S. Government inside the U.S. Government, working with federal agencies to rapidly deploy tools and online services that are reusable, cut costs, and are easier for people and businesses to use.
-
-
-
+	<div class="container">
+		<h1>{{page.title}}</h1>
+		<p>18F is a growing group of technologists, designers, and researchers from around the country. You can find us in Washington, San Francisco, Chicago, New York, Dayton, and a handful of other cities. Click through the learn more about the way we are reshaping government services.</p>
+		<!-- <ul class="sortable">Sort by:
+			<li><a href="?sort=none">name</a></li>
+			<li><a href="?sort=loc">location</a></li>
+			<li><a href="?sort=team">team</a></li>
+		</ul> -->
+		<div class="team">
+			{% for person in site.team %}
+				{% if person.content.size > 0 %}
+					{% unless person.title %}
+					<div class='bio'>
+	        		<a href='/team/{{person.name}}' class="disabled">{{ person.name | team_photo }}
+							<h1>{{ person.name | team_full_name }}</h1></a>
+	    		</div>
+	    		{% endunless %}
+				{% endif %}
+	    {% endfor %}
+    </div>
+  </div>
 </section>
