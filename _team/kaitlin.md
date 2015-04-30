@@ -3,7 +3,7 @@ name: kaitlin
 role:
 location: DCA
 github: kaitlin
-twitter: @kaitlinbdevine
+twitter: "@kaitlinbdevine"
 team: Engineering
 ---
 
