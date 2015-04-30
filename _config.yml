@@ -44,3 +44,9 @@ emoji:
 rss_limit: 20
 
 future: false
+
+
+collections:
+  press:
+    output: true
+    permalink: /press/:path/
