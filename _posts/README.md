@@ -44,31 +44,7 @@ The rest of this document has instructions for creating the markdown file and po
 
 ### Creating a new blog post file
 
-There is a script called `post` avilable that will create a post for you with all the appropriate metadata fields available. The [code lives here][9], but you can use it from the root of the website like this:
-
-```zsh
-script/post -t "The Encasement Strategy on Legacy Systems"
-```
-
-The `-t` or `--title` flags are the only required field and at its simplest will create a post with that title in the `_posts` directory with today's date as the publish date.
-
-You can also use any of these options to add more information to that post:
-
-```
-    -d, --date DATE                  Date published (default, today)
-    -i, --image IMAGE                Post image
-    -a, --author AUTHOR              Post author (comma separated)
-    -g, --tags TAGS                  Tags for this post (comma separated)
-    -c, --content CONTENT            A markdown file containing the post's text
-```
-
-For example the following command:
-
-```
-script/post -t "The Encasement Strategy on Legacy Systems" -a "robert, mhz" -c ~/Downloads/Encasement.md"
-```
-
-Will create the post with the contents of the `Encasement.md` from your Mac's Downloads folder and assign the authors `robert` and `mhz` (see `team.yml` for a list of possible authors) to the post. This is a handy way to create posts if you already have the markdown ready.
+To create a new blog post,  save your post in the [`_posts` directory](https://github.com/18F/18f.gsa.gov/tree/staging/_posts) with the name `2015-02-23-new-post.md` where '2015-02-23' is today's date and `new-post` is the title of your post. Detailed instructions, along with screenshots, are located in [our blogging and Github tutorial](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#edit-and-commit-a-blog-post).
 
 #### Metadata, explained
 
