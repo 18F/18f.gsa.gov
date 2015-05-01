@@ -280,11 +280,12 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	@include media($tiny) {
 		ul {
-			display: none !important;
+			display: block;
 			li {
-				display: block !important;
+				display: block;
 			}
 		}
+
 		.toggle {
 			display: block !important;
 			color: #767676;
