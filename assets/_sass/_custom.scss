@@ -135,8 +135,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 73px;
   	}
   	@include media($tinier) {
-		top: 66px;
-		left: 0px;
+		top: 106px;
+		left: 20px;
   	}
 }
 .splash {
@@ -164,15 +164,15 @@ $tiniest: new-breakpoint(max-width 390px);
   			padding: 20px 20px;
   		}
   		@include media($tiny) {
-			top: 40px;
+			top: 60px;
 	  		width: 450px;
   			font-size: 2em;
   			padding: 20px 20px 20px 110px;
   		}
   		@include media ($tinier) {
-			top: 50px;
+			top: 86px;
   			width: 100%;
-  			padding: 13px 0px 13px 90px;
+  			padding: 13px 0px 13px 110px;
   			font-size: 1.6em;
   		}
 	  	@extend %heading-text-style;
@@ -199,11 +199,12 @@ $tiniest: new-breakpoint(max-width 390px);
 	  	}
 	  	@include media($tiny) {
 	  		top: 63px;
-			margin-top: 102px;
+			margin-top: 122px;
 	  		font-size: 0.6em;
 	  	}
 		@include media($tinier) {
 			margin-top: -63px;
+			margin-right: 98px;
 		}
 		background-color: rgba(0,0,0,.4);
 		margin-top: 186px;
@@ -251,7 +252,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	width: auto;
 	position: absolute;
 	right:0;
-	top: 1.4em;
+	top: 20px;
 	z-index: 999;
 	background-color: white;
 	font-size: .9em;
@@ -278,11 +279,22 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($tiny) {
+	@include media($smallest) {
+		border: 1px solid $dark-gray;
+		a {
+			display: block;
+			margin: 0em auto;
+			padding: 1em;
+		}
 		ul {
 			display: block;
 			li {
 				display: block;
+			}
+			a {
+				&:hover, &:focus {
+
+				}
 			}
 		}
 
@@ -385,7 +397,6 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .back {
 	font-size: 0.8em;
-	margin-top: 5px;
 	margin-bottom:47px;
 	a {
 		text-decoration: none;
