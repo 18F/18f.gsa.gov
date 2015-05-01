@@ -11,11 +11,9 @@
 
   <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
     <a href="/">
-      <i class="icon-18f-logo"></i>
+      <i class="icon-18f-logo"><p style="display:none;">18F</p></i>
     </a>
   </div>
-    {% if page.collection == "team" %}{% include team-header.html %}{% endif %}
-    {% if page.collection == "page"%}{% include page-header.html %}{% endif %}
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}

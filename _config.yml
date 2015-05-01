@@ -59,7 +59,7 @@ defaults:
     scope:
       collection: team
     values:
-      layout: team
+      layout: bare
 
 # collections
 collections:

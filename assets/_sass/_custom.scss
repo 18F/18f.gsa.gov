@@ -135,8 +135,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 73px;
   	}
   	@include media($tinier) {
-		top: 106px;
-		left: 20px;
+		top: 16px;
+		left: 0px;
   	}
 }
 .splash {
@@ -144,10 +144,10 @@ $tiniest: new-breakpoint(max-width 390px);
 	h1 {
 		position: absolute;
 		top: 370px;
-	  	width: 860px;
-	  	text-align: left;
-  		font-size: 3.6em;
-  		padding: 30px 50px;
+  	width: 860px;
+  	text-align: left;
+		font-size: 3.6em;
+		padding: 30px 50px;
 		z-index: 10;
 	  	@include media($small) {
 			top: 295px;
@@ -170,41 +170,44 @@ $tiniest: new-breakpoint(max-width 390px);
   			padding: 20px 20px 20px 110px;
   		}
   		@include media ($tinier) {
-			top: 86px;
+				top: 121px;
   			width: 100%;
-  			padding: 13px 0px 13px 110px;
-  			font-size: 1.6em;
+  			padding: 13px 0px 13px 10px;
+  			font-size: 1.4em;
   		}
 	  	@extend %heading-text-style;
 	}
 	.caption {
 		position: absolute;
-	  	top: 350px;
-	  	z-index: 20;
+  	top: 350px;
+  	z-index: 20;
 		color:#fff;
-	  	font-size: 1em;
-	  	text-shadow: 1px 1px 2px #000;
-	  	@include media($small) {
-	  		top: 275px;
-	  	}
-	  	@include media($smaller) {
-	  		top: 200px;
-			margin-top: 160px;
-	  		font-size: 0.9em;
-	  	}
-	  	@include media($smallest) {
-	  		top: 145px;
-			margin-top: 124px;
-	  		font-size: 0.8em;
-	  	}
-	  	@include media($tiny) {
-	  		top: 63px;
-			margin-top: 122px;
-	  		font-size: 0.6em;
-	  	}
+  	font-size: 1em;
+  	text-shadow: 1px 1px 2px #000;
+  	@include media($small) {
+  		top: 275px;
+  	}
+  	@include media($smaller) {
+  		top: 200px;
+		margin-top: 160px;
+  		font-size: 0.9em;
+  	}
+  	@include media($smallest) {
+  		top: 145px;
+		margin-top: 124px;
+  		font-size: 0.8em;
+  	}
+  	@include media($tiny) {
+  		top: 63px;
+		margin-top: 122px;
+  		font-size: 0.6em;
+  	}
 		@include media($tinier) {
-			margin-top: -63px;
+			margin-top: 155px;
 			margin-right: 98px;
+		}
+		@include media($tiniest) {
+			display: none;
 		}
 		background-color: rgba(0,0,0,.4);
 		margin-top: 186px;
@@ -834,6 +837,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			clear: both;
 		}
 		a {
+			text-decoration: none;
 			img {
 				width: 100%;
 				height: auto;
@@ -850,7 +854,7 @@ $tiniest: new-breakpoint(max-width 390px);
 				cursor: default;
 			}
 			&.disabled:hover, &.disabled:focus {
-				color: $blue;
+				color: #0075E1;
 			}
 		}
 	}
@@ -995,9 +999,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		margin-bottom: 1.1em;
 	}
 }
-
 .bare-logo {
+	@include span-columns(2);
+}
+.team-logo {
 	@include span-columns(12);
+}
+.bare-logo, .team-logo {
 	padding-left: 20px;
 	a {
 		text-decoration: none;
@@ -1132,7 +1140,7 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .footer {
 	border-top: 5px solid $blue;
-	background-color: $dark-blue;
+	background-color: $darkest-blue;
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
