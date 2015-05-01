@@ -306,6 +306,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			color: #767676;
 		  text-decoration: none;
 		  padding: 1em 2em;
+			border-bottom: 1px solid $medium-gray;
 		}
 		.hidden {
 			display: none !important;
@@ -318,8 +319,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 16px;
 	}
 }
-.global-nav:last-child {
-	@include media($tiny) {
+.global-nav ul:last-child {
+	@include media($smallest) {
 		border-top: 1px solid $medium-gray;
 	}
 }
