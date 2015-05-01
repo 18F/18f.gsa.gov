@@ -16,7 +16,9 @@ image: /assets/blog/pair-programming/pair-programming.jpg
   by {% author melody %}
 </p>
 
-[![Image of developers pair programming.](/assets/blog/pair-programming/pairprogramming.jpg)](https://www.flickr.com/photos/nearsoft/8807192070)
+<div class="align-center" ><img style="margin-left: 30px;" alt="Annalee Flower Horne" src="/assets/blog/pair-programming/annalee.png" class="align-left" />
+<img style="margin-right: 30px;" alt="Catherine Devlin" src="/assets/blog/pair-programming/catherine.jpg" class="align-right" /></div>
+
 
 Developers Annalee Flower Horne and Catherine Devlin worked together on
 [a project](https://github.com/18F/afsbirez) to make it easier for
