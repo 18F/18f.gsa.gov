@@ -7,8 +7,8 @@ tags:
 - developer
 - coding
 - how we work
-excerpt: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program and why they find it useful."
-description: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program and why they find it useful."
+excerpt: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program, and why they find it useful."
+description: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program, and why they find it useful."
 image: /assets/blog/pair-programming/pair-programming.jpg
 ---
 
