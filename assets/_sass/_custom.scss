@@ -278,7 +278,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($smallest) {
+	@include media($tiny) {
 		ul {
 			display: none !important;
 			li {

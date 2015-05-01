@@ -65,8 +65,7 @@ $(function() {
 window.onload=function() {
   sizeContent();
 };
-$('.menu-open').click(function() { toggleNav() });
-$('.menu-open').click(function(){ console.log('click!')})
+$('.toggle').click(function() { toggleNav() });
 //Every resize of window
 $(window).resize(sizeContent);
 
