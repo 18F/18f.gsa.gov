@@ -311,6 +311,9 @@ $tiniest: new-breakpoint(max-width 390px);
 			display: none;
 		}
 	}
+	@include media($tinier) {
+		top: 16px;
+	}
 }
 .global-nav:last-child {
 	@include media($tiny) {
