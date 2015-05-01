@@ -1,6 +1,6 @@
 ---
 title: What has 18F accomplished?
-/press/18F-accomplishments
+permalink: /press/18F-accomplishments
 layout: bare
 ---
 
