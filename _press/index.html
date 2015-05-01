@@ -12,14 +12,17 @@ title: 18F Press
 
   <h1># press</h1>
 
+  <p> "Working on an 18F story?"" <br> "If you have questions, we've got answers" </p>
 
 
-  		<h1>{{page.title}}</h1>
-  		<p>18F is a growing group of technologists, designers, and researchers from around the country. You can find us in Washington, San Francisco, Chicago, New York, Dayton, and a handful of other cities. Click through the learn more about the way we are reshaping government services.</p>
+
+
+  		<p>18F is a growing group of technologists, designers, and researchers from around the country who are committed to making government services simpler and easier to use. We put the needs of the American people first, we work in the open to make our products stronger, and we are design-centric, agile, open, and data-driven.</p>
+
 
   			{% for item in site.press %}
           {% unless item.title == '18F Press' %}
-  	        	<h2>	{{item.title}} </h2>
+  	        	<div class="question">	{{item.title}} </div>
               <p> {{item.content}} </p>
           {% endunless %}
   	    {% endfor %}
