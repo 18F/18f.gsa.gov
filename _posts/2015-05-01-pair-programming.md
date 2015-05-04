@@ -16,7 +16,8 @@ image: /assets/blog/pair-programming/pair-programming.jpg
   by {% author melody %}
 </p>
 
-[![Image of developers pair programming.](/assets/blog/pair-programming/pairprogramming.jpg)](https://www.flickr.com/photos/nearsoft/8807192070)
+<div class="align-center" ><img style="margin-left: 30px;" alt="Annalee Flower Horne" src="/assets/blog/pair-programming/annalee.png" class="align-left" />
+<img style="margin-right: 30px;" alt="Catherine Devlin" src="/assets/blog/pair-programming/catherine.jpg" class="align-right" /></div>
 
 Developers Annalee Flower Horne and Catherine Devlin worked together on
 [a project](https://github.com/18F/afsbirez) to make it easier for
@@ -147,15 +148,15 @@ or two at a time before returning to solo mode for a while.
 
 We also keep talking about what we’re doing, and why, while we’re doing
 it. That’s part of what brings the benefit — it makes reasoning explicit, putting
-everything to a real-time [”Zen of
-Python”](https://www.python.org/dev/peps/pep-0020/) test (“If the
-implementation is hard to explain, it’s a bad idea”).
+everything to a real-time ["Zen of
+Python"](https://www.python.org/dev/peps/pep-0020/) test ("If the
+implementation is hard to explain, it’s a bad idea").
 
 There’s a pattern here — we haven’t really needed to make our practices
 into rules. Talking about what you’re doing, saying goodbye when you’re
 exhausted — these unspoken expectations of social interaction are
 actually good rules for pairing, too. Perhaps more adventuresome
-cross-cultural pairing would call for more explicit rules.
+cross-cultural pairing would call for more explicit rules. 
 
 --
 
