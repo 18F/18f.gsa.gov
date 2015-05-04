@@ -1,5 +1,6 @@
 ---
 title: "Pair Programming: Why Two Heads Are Better Than One"
+date: 2015-05-04
 layout: post
 author:
 - melody
