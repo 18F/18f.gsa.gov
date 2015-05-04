@@ -35,6 +35,16 @@ layout: bare
                   {% endfor %}
                 </span>
               </p>
+              {% if post.authors != blank %}
+                <p class="quiet">
+                {% if post.authors.size > 1 %}
+                  Authors:
+                {% else %}
+                  Author:
+                {% endif %}
+                {{ post.authors | join: ', ' }}
+                </p>
+              {% endif %}
             </div>
 
             <div class="blog-snippet">
