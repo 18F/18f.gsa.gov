@@ -1,0 +1,10 @@
+---
+memory: 64M
+instances: 1
+applications:
+- name: site-a
+- name: site-b
+buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack.git
+env:
+  FORCE_HTTPS: true
+domain: 18f.gov

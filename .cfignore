@@ -1,0 +1,4 @@
+.git
+assets
+!_site/assets
+
