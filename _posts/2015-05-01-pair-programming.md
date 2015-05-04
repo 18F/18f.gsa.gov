@@ -36,7 +36,7 @@ why they find it useful. Naturally, they did the interview together.
 **Melody Kramer: Could both of you talk about what pair programming is, and what
 benefits you get from pairing with each other?**
 
-**Catherine:** “Two brains, one keyboard.” We spend a portion of the
+**Catherine:** "Two brains, one keyboard." We spend a portion of the
 workday programming as a pilot and co-pilot, occasionally switching
 roles. It sounds counterintuitive — **won’t you get half as much done
 that way?** — but programming is always limited by our understanding,
@@ -52,7 +52,7 @@ into the mechanics of remote pairing. I’m not sure we’ve settled on our
 perfect environment yet, but we’ve found a few systems that allow us to
 work well together, despite our geographic distance.
 
-**Annalee:** Developers have a joke about “rubber ducking” code, which
+**Annalee:** Developers have a joke about "rubber ducking" code, which
 comes from a story about a teacher’s aide who made students explain
 their problem to a rubber duck before they could ask the aide for help.
 Usually, in the course of explaining the problem to the duck, they’d
@@ -66,9 +66,9 @@ clarify our thinking, which in turn clarifies our code.
 The other advantage for me is that pairing really helps keep me on task.
 It’s easy to get distracted when you’re coding, because in the course of
 solving one problem, you’ll run across other things that can be fixed.
-When you’re with a partner, it’s a lot easier to say “Okay, we agreed we
+When you’re with a partner, it’s a lot easier to say "Okay, we agreed we
 were going to work on X, so we should stay on that, and take a look at Y
-and Z later.”
+and Z later."
 
 **MK: What do you use to make the distance easier?**
 
