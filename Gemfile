@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
 end
 
-gem 'hash-joiner'
 gem 'safe_yaml'
 
 gem 'jemoji'
