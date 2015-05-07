@@ -104,7 +104,7 @@ COMMANDS = {
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
-  :cf_deploy => 'Deploys to cloudfounry'
+  :cf_deploy => 'Deploys to cloudfoundry'
 }
 
 def usage(exitstatus: 0)
