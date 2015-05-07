@@ -103,7 +103,7 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
-  :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled'
+  :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
   :cf_deploy => 'Deploys to cloudfounry'
 }
 
