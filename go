@@ -93,6 +93,7 @@ def server_build
 end
 
 def cf_deploy
+  build
   exec_cmd('sh deploy/cf-deploy.sh')
 end
 
