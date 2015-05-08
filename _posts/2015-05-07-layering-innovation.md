@@ -30,7 +30,7 @@ the way to provisioning and deployment.** To do that, we implemented
 an open source platform as a service for our developers. Here’s a look
 at how we created it.
 
-## The problem
+## The Problem
 
 The adoption of Agile, lean, and user-centric design methodologies means
 projects now take weeks to build rather than years. But when it’s time
@@ -52,7 +52,7 @@ process that includes security and administrative reviews. This process
 is so burdensome that it can take up to 14 months of back and forth
 between the different parties before the public ever sees the product.
 
-## Our first approach
+## Our First Approach
 
 Our first approach was to focus on the review process to launch
 applications. If we could figure out how to minimize this process, it
@@ -85,7 +85,7 @@ configuration management was often more a burden than a blessing. In the
 spirit of lean development, we took our findings and feedback from the
 developers and went back to the drawing board.
 
-## Focusing on our users
+## Focusing on Our Users
 
 After extensive research, we realized that our users, the developers,
 just wanted to focus on writing applications, not managing configuration
@@ -102,7 +102,7 @@ benefit of being able to reuse approved components, and provide an
 environment where running the application is the last piece of the
 puzzle.
 
-## Building and deploying a platform
+## Building and Deploying a Platform
 
 The idea of providing a platform to a team of developers is hardly
 novel. There are many solutions available and many opinions on which is
