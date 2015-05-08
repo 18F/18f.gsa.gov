@@ -1,6 +1,6 @@
 ---
 title: "Layering Innovation"
-date: 2015-05-07
+date: 2015-05-08
 layout: post
 author:
 - diego
