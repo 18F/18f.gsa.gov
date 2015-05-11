@@ -96,7 +96,7 @@ def production_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
-  puts 'building iste'
+  puts 'building site'
   exec_cmd('bundle exec jekyll b --config _config.yml, _config-production.yml')
 end
 
@@ -114,7 +114,7 @@ COMMANDS = {
   :ci_build => 'Builds the site for a CI system',
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
   :cf_deploy => 'Deploys to cloudfoundry',
-  :production_deploy => 'Deploys to production using a second config file'
+  :production_build => 'Deploys to production using a second config file'
 }
 
 def usage(exitstatus: 0)
