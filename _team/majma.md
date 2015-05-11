@@ -13,4 +13,4 @@ Before 18F, Raph was a senior advisor to the Chief Technology Officer of the Uni
 
 "I want to build and ship software in government," he says ."I want to get stuff done.	I speak law, which can come in handy when working in the government. I also do improv comedy, so meetings can sometimes turn into a game of Zip, Zap, Zop."
 
-Raph currently works on two 18F projects: openFOIA and openFEC. openFOIA's goal is to improve the online FOIA request process for the American people, while openFEC will take the public data made available by the FEC and make it even easier to use and understand.
+Raph currently works on two 18F projects: openFOIA and openFEC. openFOIA's goal is to improve the online Freedom of Information Act request process for those seeking information from the Federal government, while openFEC will take the public data made available by the Federal Election Commission and make it even easier to use and understand. 
