@@ -1,14 +1,12 @@
 ---
 name: noah
-role:
-location:
-github:
-twitter:
+role: Director of Delivery Architecture and Infrastructure Services
+location: DCA
+github: https://github.com/noahkunin
+twitter: https://twitter.com/noahkunin
 team:
 ---
 
-Noah is a front-end developer at 18F, where he’s currently working on a redesign of the Federal Election Commission’s website to make it easier to find and access data around the finances of our federal elections.
+Noah came to 18F after helping to launch the [Consumer Financial Protection Bureau](http://consumerfinance.gov) (CFPB). His background is an eclectic mix of genetic engineering, civic activism, investigative journalism, digital services, and bureaucracy hacking. Before joining the [Department of the Treasury](http://www.treasury.gov) to help start the CFPB, he worked at the [Sunlight Foundation](http://sunlightfoundation.com/) helping make government more transparent and accountable. 
 
-Before 18F, Noah worked in organizing in politics on projects designed to get people more involved with the civic world. He has also worked as a designer and developer, both for himself as well as for a small digital agency.
-
-Noah deeply believes in bringing a user-centered, modern approach to building government software." "I want to design a fast, intuitive interface to make it easier for all types of users — experienced or novice — to understand the data the FEC provides,"" he says.
+A passionate believer in making technology as accessible as possible, he works on ensuring everyone at 18F has the systems and services they need to succeed.
