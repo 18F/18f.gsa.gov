@@ -981,6 +981,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
+		line-height: 30px;
 		padding-top: 15px;
 		padding-bottom: 10px;
 		@include media($smallest) {
@@ -998,6 +999,12 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	p {
 		margin-bottom: 1.1em;
+	}
+
+	ul, ol {
+		li {
+			margin: 5px 0;
+		}
 	}
 }
 .bare-logo {
@@ -1030,6 +1037,8 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .bare-content {
+	margin-top: 7px;
+
 	@include span-columns(9);
 	@include omega();
 	@include media($smallest) {
