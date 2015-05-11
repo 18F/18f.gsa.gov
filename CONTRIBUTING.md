@@ -4,6 +4,10 @@
 
 Submit contributions to https://github.com/18F/18f.gsa.gov as a pull request to the `staging` branch.
 
+## Team photos
+
+Individual 18F team photos (as of commit-time, in `assets/images/team/`) are not covered by the below public domain dedication. The contributor of each photo (generally, the individual teammate in question), by contributing it, is affirming that 18F has appropriate permission to include the photo in this repository and display it on the website.
+
 ## Public domain
 
 This project is in the public domain within the United States, and
