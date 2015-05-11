@@ -92,6 +92,14 @@ def server_build
   exec_cmd('bundle exec jekyll b --config _config.yml')
 end
 
+def production_build
+  puts 'Pulling from git'
+  exec_cmd 'git pull'
+  update_gems
+  puts 'building iste'
+  exec_cmd('bundle exec jekyll b --config _config.yml, _config-production.yml')
+end
+
 def cf_deploy
   build
   exec_cmd('sh deploy/cf-deploy.sh')
@@ -105,7 +113,8 @@ COMMANDS = {
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
-  :cf_deploy => 'Deploys to cloudfoundry'
+  :cf_deploy => 'Deploys to cloudfoundry',
+  :production_deploy => 'Deploys to production using a second config file'
 }
 
 def usage(exitstatus: 0)
