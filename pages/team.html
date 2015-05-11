@@ -16,12 +16,15 @@ title: People
 		<div class="team">
 			{% for person in site.team %}
 				{% if person.content.size > 0 %}
-					{% unless person.title %}
 					<div class='bio'>
-	        		<a href='/team/{{person.name}}' class="disabled">{{ person.name | team_photo }}
+              {% if site.collections.team.output %}
+	        		<a href='/team/{{person.name}}'>
+              {% else %}
+              <a class="disabled">
+              {% endif %}
+                  {{ person.name | team_photo }}
 							<h1>{{ person.name | team_full_name }}</h1></a>
 	    		</div>
-	    		{% endunless %}
 				{% endif %}
 	    {% endfor %}
     </div>
