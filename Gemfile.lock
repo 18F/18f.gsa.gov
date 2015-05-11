@@ -57,7 +57,7 @@ GEM
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    jekyll_pages_api (0.1.1)
+    jekyll_pages_api (0.1.2)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
     jemoji (0.4.0)

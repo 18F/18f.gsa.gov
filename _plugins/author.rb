@@ -25,12 +25,11 @@ module Jekyll
     def with_pic(input)
       name = input[0]
       info = input[1]
-      image = File.join 'assets', 'images', 'team', "#{name}.jpg"
+      image = File.join 'assets', 'images', 'team', "#{name}.jpg" 
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
-        "<div class='bio'>\n
-          <a><img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>\n
-          <h1>#{info['full_name']}</h1></a>\n
-        </div>"
+        "<img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>"
+      else
+        "<img class='img-circle team-img bio-clip' src='/assets/images/18f.png' alt='18F logo'>"
       end
     end
   end

@@ -48,4 +48,23 @@ emoji:
 rss_limit: 20
 
 future: false
+
+# defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+    scope:
+      collection: team
+    values:
+      layout: bare
+
+# collections
+collections:
+  team:
+    permalink: /team/:name/
+    output: true
+
 full_rebuild: true
