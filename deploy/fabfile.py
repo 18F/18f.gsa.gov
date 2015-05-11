@@ -36,7 +36,11 @@ current = "%s/%s/current" % (home, environment)
 ruby = "/opt/install/rbenv/shims/ruby"
 
 # principal command to run upon update
-command = "cd %s && %s go server_build >> %s" % (current, ruby, log)
+if (environment == 'production') {
+  command = "cd %s && %s go production_build >> %s" % (current, ruby, log)
+} else {
+  command = "cd %s && %s go server_build >> %s" % (current, ruby, log)
+}
 
 ## can be run on their own
 

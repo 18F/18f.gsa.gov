@@ -92,6 +92,14 @@ def server_build
   exec_cmd('bundle exec jekyll b --config _config.yml')
 end
 
+def production_build
+  puts 'Pulling from git'
+  exec_cmd 'git pull'
+  update_gems
+  puts 'building iste'
+  exec_cmd('bundle exec jekyll b --config _config.yml, _config-production.yml')
+end
+
 def cf_deploy
   build
   exec_cmd('sh deploy/cf-deploy.sh')
