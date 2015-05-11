@@ -16,7 +16,7 @@ image: /assets/blog/moveforward/roth-selfie.jpg
   by {% author jhunter %}
 </p>
 
-moveForward(100); these 17 characters were the [first line of code
+`moveForward(100);` these 17 characters were the [first line of code
 written by a sitting
 president](http://www.wired.com/2014/12/obama-becomes-first-president-write-computer-program/).
 President Obama wrote this code last December during Computer Science
