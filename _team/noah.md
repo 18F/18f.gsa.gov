@@ -1,7 +1,7 @@
 ---
 name: noah
 role: Director of Delivery Architecture and Infrastructure Services
-location: Washington, DC
+location: DCA
 github: https://github.com/noahkunin
 twitter: https://twitter.com/noahkunin
 team:
