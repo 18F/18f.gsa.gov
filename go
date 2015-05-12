@@ -85,6 +85,8 @@ def ci_build
 end
 
 def server_build
+  puts 'Stashing (just in case)'
+  exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
@@ -93,6 +95,8 @@ def server_build
 end
 
 def production_build
+  puts 'Stashing (justin case)'
+  exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
