@@ -1,0 +1,6 @@
+collections:
+  team:
+    permalink: /team/:name/
+    output: false
+
+
