@@ -20,7 +20,7 @@ image: /assets/blog/layering-innovation/layer_cake.jpg
 [![Layer cake, by Flickr user
 Kirinohana](/assets/blog/layering-innovation/layer_cake.jpg)](https://www.flickr.com/photos/kiri_no_hana/9623594449/in/photolist-)
 
-In the past, most Government digital projects were created out of
+In the past, most government digital projects were created out of
 requirement documents handed down to designers and developers for them
 to build. Deployment, provisioning, and security have been treated the
 same way.
@@ -46,7 +46,7 @@ modus operandi remains the same. Each software piece is treated like its
 own world, which makes it impossible to use shared components.
 
 Treating each application individually is not a good idea in any
-environment, but it’s particularly bad in Government where you have to
+environment, but it’s particularly bad in government where you have to
 take your code, infrastructure, and architecture through a multistep
 process that includes security and administrative reviews. This process
 is so burdensome that it can take up to 14 months of back and forth
@@ -93,7 +93,7 @@ or dealing with security. They want to know what is going on, but don’t
 want to worry about it. Moreover, they need different services like
 databases and caches that should be easy to use.
 
-It was time for the Government to have a **platform where developers
+It was time for the government to have a **platform where developers
 can deploy applications without having to worry about how their
 applications are run or what hardening measures are in place**.
 
