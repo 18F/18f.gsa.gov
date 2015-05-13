@@ -55,7 +55,7 @@ else
   echo "Something is wrong with the team page.";
   CODE=1;
 fi
-if [ $CODE -eq 1 ]
+if [ "$CODE" == 1 ]
 then
   exit 1;
 else
