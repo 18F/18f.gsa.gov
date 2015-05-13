@@ -54,6 +54,10 @@ Procuring the right team through an outside vendor or recruiting that talent in-
 
 - **Vendor Marketplace Development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
 
+## We’d love to hear from you
+
+Email <a id="email" href=""></a> with your need and we’ll be happy to talk further.
+
 ## Our Clients
 
 - Department of Labor / Wage and Hour Division / IT Modernization
@@ -62,33 +66,6 @@ Procuring the right team through an outside vendor or recruiting that talent in-
 - Treasury / DATA Act Implementation
 - Department of Defense / Military OneSource Program
 - Transportation Security Administration / IT Modernization
-
-## Our Team
-
-### Chris Cairns
-Chris has over 10 years of experience working in diverse business and technical environments, from creating startups to acquiring companies to jumpstarting innovation within the federal government. In 2013, he served as a Presidential Innovation Fellow (Round 2) at the U.S. Department of the Treasury. His expertise includes digital and technology strategy, full-stack development, product management, Agile development, and Agile acquisitions.
-
-### Kara DeFrias
-Kara is deputy director of the consulting team. Her background is a unique mix of private and public sector experience, including the TurboTax UX team and an appointment to the first class of White House Presidential Innovation Fellows. She served as entrepreneur-in-residence, reimagining the relationship between people and the government from a technology perspective. Her passion lies in creating engaging experiences, and her work focuses on process analysis, organization development, design thinking, and digital strategy. Kara was founder and executive producer of TEDxIntuit, and worked for the Oscars, Super Bowl, and Women’s World Cup.
-
-### Jesse Taggert
-Jesse leads the design and product strategy practice. She’s been an experience designer for over 20 years and has worked with the Smithsonian, U.S. Naval Academy, Navy, National Park Service, Harvard University, and other organizations. Before joining 18F, Jesse was active in the San Francisco startup scene and led a design team at Pivotal Labs developing enterprise products using Agile methods. She earned her master’s in design from Rhode Island School of Design, has briefly taught design and design history. She believes anyone can learn to practice inclusive, empathetic, and practical design methods in an Agile environment.
-
-### David Zvenyach
-Dave heads up the acquisition strategy practice. He is an experienced attorney, most recently serving as General Counsel to the Council of the District of Columbia, and a full-stack developer. He is the author of Coding For Lawyers and has received multiple awards for his “legal hacking” work both inside and outside of government. Dave holds a law degree from the George Washington University Law School and a mechanical engineering degree from the University of Wisconsin. 
-
-### Jay Finch
-Jay leads engagement delivery for the consulting team. Before joining 18F, Jay was a senior advisor at the U.S. Department of the Treasury where he lead private capital markets policy and retirement security initiatives. He also started a financial technology startup that helped small businesses raise capital from their customers and community. Jay began his career at Goldman Sachs as an investment banker in the telecom, media, and technology group, and later helped to build two businesses within the firm’s investment management division. Jay earned a B.A. from Villanova University. In 2015, Jay was honored by Forbes Magazine as one of the 30 under 30 change makers in law and policy.
-
-### Tom Black
-Tom is a technical architect with over 10 years of software development and product management experience. Previously, he served as a Presidential Innovation Fellow at the Department of Veterans Affairs working to make personal health data seamlessly accessible to VA patients, known as the Blue Button initiative. In the private sector, he has worked with countless startups on their technical strategies using lean and Agile approaches to design and development. Tom also served in the U.S. Navy and Navy Reserve as an Information Systems Technician at the U.S. Naval War College, aboard the USNS SUPPLY, and at the International Submarine Escape and Rescue Liaison Office.
-
-
-In addition to our core team, 18F Consulting leverages the expertise of over 70 designers, developers, and product managers who comprise our delivery team. 
-
-## We’d love to hear from you
-
-Email <a id="email" href=""></a> with your need and we’ll be happy to talk further.
 
 ## Learn more about the work we do
 
