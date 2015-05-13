@@ -22,11 +22,9 @@ We advocate and guide you through proven practices in human-centered design, lea
 
 Procuring the right team through an outside vendor or recruiting that talent in-house are key to producing high-quality digital services. We understand how federal acquisition and hiring processes have long been barriers to success, not a core part of a digital strategy. We use every tool in our toolkit to help change that, to make getting the right people a priority, and to help you hold them accountable for their work. Let us help you develop a strategy for soliciting and on boarding vendors and design or technology hires for your project or organization, and help you manage their performance.
 
-## How to engage with us
+## 18F Consulting Services
 
-Our consulting engagement services range from 2 days to 4 weeks for short-term projects, and 3 to 12 months for more complex priorities.
-
-### Design Services
+### Short-term engagement services, from 2 days to 4 weeks:
 
 - **Design Sprint** to quickly prototype and validate different ideas (based on [Google Ventures 5-day model](https://www.gv.com/sprint/)).
 
@@ -34,29 +32,25 @@ Our consulting engagement services range from 2 days to 4 weeks for short-term p
 
 - **Design Methods Workshop** to teach your team how to work together to solve problems using “design thinking” and other human-centered methods. Includes hands-on, real-world learning to get your team from idea to experimentation and delivery in no time.
 
-### Technical Services
+- **[Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of Agile development principles and practices.
 
 - **DevOps Workshop** to move your team towards adoption of DevOps principles and practices.
-
-- **Technical Evaluation Assistance** to help your agency evaluate proposed technical solutions, or to serve as technical experts for source selection.
-
-### Delivery Services
 
 - **[RFP Ghostwriting and Review](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)** to increase your contract’s probability of success.
 
 - **Capabilities Delivery Analysis** to determine what and how to acquire the capabilities your project or organization needs to deliver effectively (e.g., more in-house talent, learning and training programs).
 
+- **Technical Evaluation Assistance** to help your agency evaluate proposed technical solutions, or to serve as technical experts for source selection.
+
 - **Discovery Sprint** to assess your team’s or organization’s readiness, understand your customers and their needs, brainstorm ideas, and provide guiding principles and recommendations to move forward.
 
-### Agile Coaching and Consultation
-
-- **[Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of Agile development principles and practices.
+### Mid to long-term engagement services, from 4 to 12 months:
 
 - **Agile Acquisition** to help your team learn how to design and manage software acquisitions that use modern software development techniques.
 
-- **Agile Coaching** to guide your team’s or organization’s adoption of Agile practices during the lifecycle of a current project.
-
 - **IT Modernization** to increase the IT organization’s capacity to innovate and provide greater value to customers.
+
+- **Agile Coaching** to guide your team’s or organization’s adoption of Agile practices during the lifecycle of a current project.
 
 - **Vendor Marketplace Development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
 
