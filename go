@@ -81,6 +81,7 @@ end
 def ci_build
   puts 'Building the site...'
   build
+  exec_cmd('bash deploy/test.sh')
   puts 'Done!'
 end
 
@@ -101,7 +102,7 @@ def production_build
   exec_cmd 'git pull'
   update_gems
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml, _config-production.yml')
+  exec_cmd('bundle exec jekyll b --config _config.yml, _config-deploy.yml')
 end
 
 def cf_deploy
