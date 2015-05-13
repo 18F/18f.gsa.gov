@@ -81,6 +81,7 @@ end
 def ci_build
   puts 'Building the site...'
   build
+  exec_cmd('bash deploy/test.sh')
   puts 'Done!'
 end
 
