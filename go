@@ -102,7 +102,7 @@ def production_build
   exec_cmd 'git pull'
   update_gems
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml, _config-deploy.yml')
+  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
 end
 
 def cf_deploy
