@@ -4,7 +4,7 @@ permalink: /consulting/
 layout: bare
 ---
 
-# 18F Consulting: Understand. Acquire. Deliver.
+<h1 style="padding-top: 64px;"> 18F Consulting: Understand. Acquire. Deliver.</h1>
 
 Building new digital services or improving old ones can be risky, complex, and expensive. Doing it well can solve real problems, improve people’s lives, save taxpayer money, and improve the way government works.
 
@@ -58,7 +58,7 @@ Procuring the right team through an outside vendor or recruiting that talent in-
 
 Email <a id="email" href=""></a> with your need and we’ll be happy to talk further.
 
-## Our Clients
+## Our Partners
 
 - Department of Labor / Wage and Hour Division / IT Modernization
 - Social Security Administration / Disability Case Processing System
