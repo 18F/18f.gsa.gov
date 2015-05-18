@@ -58,7 +58,7 @@ Procuring the right team through an outside vendor or recruiting that talent in-
 
 Email <a id="email" href=""></a> with your need and we’ll be happy to talk further.
 
-## Our Partners
+## Recent projects
 
 - Department of Labor / Wage and Hour Division / IT Modernization
 - Social Security Administration / Disability Case Processing System
