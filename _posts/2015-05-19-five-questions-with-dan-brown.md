@@ -24,7 +24,7 @@ tags:
 - dan brown
 - design
 - 18F
-
+image: /assets/blog/speaker-series/d-brown.jpg
 ---
 
 Dan Brown, co-founder of D.C.-based design firm
