@@ -27,6 +27,8 @@ tags:
 image: /assets/blog/speaker-series/d-brown.jpg
 ---
 
+<div class="align-left"><img alt="Dan Brown" src="/assets/blog/speaker-series/d-brown.jpg"></div>
+
 Dan Brown, co-founder of D.C.-based design firm
 [EightShapes](http://eightshapes.com/) and author of “[Communicating
 Design](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463)”
