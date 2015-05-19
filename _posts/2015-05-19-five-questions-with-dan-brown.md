@@ -40,7 +40,7 @@ its centrality to good design, the differences between healthy and
 unhealthy conflict, and more.
 
 Dan will be speaking at 18F on Friday, 5/22 at 1:30 PM (RSVP
-[**here**](https://www.eventbrite.com/e/18f-design-presents-dan-r-brown-registration-16981311560)**.)**
+[here](https://www.eventbrite.com/e/18f-design-presents-dan-r-brown-registration-16981311560).)
 In preparation for his talk, we began an email exchange with him to get
 his take on several conflict-related topics — read on for the full
 conversation.
