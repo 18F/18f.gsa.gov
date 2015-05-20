@@ -1,5 +1,5 @@
 ---
-title: Five Questions with Dan Brown
+title: Five questions with Dan Brown
 
 author:
 - kate
@@ -10,13 +10,13 @@ description: "Dan Brown, co-founder of D.C.-based design firm EightShapes and
 author of Communicating Design and Designing Together, has spent years
 studying how and why conflict arises in the workplace, its centrality to
 good design, the differences between healthy and unhealthy conflict, and
-more. Dan will be speaking at 18F on Friday, 5/22 at 1:30 PM."
+more. Dan will be speaking at 18F on Friday, May 22 at 1:30 PM."
 
 excerpt: "Dan Brown, co-founder of D.C.-based design firm EightShapes and
 author of Communicating Design and Designing Together, has spent years
 studying how and why conflict arises in the workplace, its centrality to
 good design, the differences between healthy and unhealthy conflict, and
-more. Dan will be speaking at 18F on Friday, 5/22 at 1:30 PM."
+more. Dan will be speaking at 18F on Friday, May 22 at 1:30 PM."
 
 tags:
 - events
@@ -39,7 +39,7 @@ has spent years studying how and why conflict arises in the workplace,
 its centrality to good design, the differences between healthy and
 unhealthy conflict, and more.
 
-Dan will be speaking at 18F on Friday, 5/22 at 1:30 PM (RSVP
+Dan will be speaking at 18F on Friday, May 22 at 1:30 PM (RSVP
 [here](https://www.eventbrite.com/e/18f-design-presents-dan-r-brown-registration-16981311560).)
 In preparation for his talk, we began an email exchange with him to get
 his take on several conflict-related topics — read on for the full
