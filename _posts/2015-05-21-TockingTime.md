@@ -16,8 +16,6 @@ image: /assets/blog/tockingtime/tock03.jpg
   by {% author sean %}
 </p>
 
-<img src="/assets/blog/tockingtime/tock2.gif" width="800">
-
 One of the most important questions we ask ourselves when starting a
 project is if we should “build” or “buy.” Do we develop a custom piece
 of software that meets our needs exactly or use an existing solution
@@ -25,6 +23,8 @@ of software that meets our needs exactly or use an existing solution
 conversation nearly every day, both for projects with our partner
 agencies and for internal ones, which help our team work faster and more
 effectively.
+
+<img class="align-center" src="/assets/blog/tockingtime/tock2.gif" width="800">
 
 I recently spent time helping with one of our internal frustrations —
 how members of 18F track how we spend our time. 18F operates many of our
@@ -53,7 +53,7 @@ maintaining the spreadsheets was unsustainable.
 
 We needed something new.
 
-**Evaluating Options**
+**Evaluating options**
 
 Many people would say tracking time is a solved problem — endless tools
 and services exist to help organizations like ours do it well. Before we
