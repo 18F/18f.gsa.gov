@@ -76,7 +76,7 @@ a [customer-facing website with the United States Citizenship and
 Immigration Services (USCIS)](https://my.uscis.gov). The USCIS website is one of the [most
 visited government websites](https://analytics.usa.gov) in the United
 States, second only to websites devoted to taxes and the weather. Deahl
-discussed her personal motivated to transform the immigration process.
+discussed her personal motivation to transform the immigration process.
 
 “My husband and I just finished the green card process,” Deahl said. She
 elaborated on the complexity of the process and how the process can
