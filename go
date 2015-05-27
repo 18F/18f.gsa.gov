@@ -69,7 +69,7 @@ def update_data
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace'
+  exec 'bundle exec jekyll serve --trace --no-watch'
 end
 
 def build
