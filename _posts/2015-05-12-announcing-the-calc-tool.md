@@ -45,10 +45,7 @@ efficient way.
 
 ### More Details on the Data
 
-CALC searches *awarded* prices on several of GSA’s professional services
-schedules, including Mission Oriented Business Integrated Services
-(MOBIS), Environmental, Logistics Worldwide (LOGWORLD), Professional
-Engineering Schedule, Language, Advertising and Integrated Marketing
+CALC searches *awarded* ceiling prices (at the master contract level) on several of GSA’s professional services schedules, including Mission Oriented Business Integrated Services (MOBIS), Environmental, Logistics Worldwide (LOGWORLD), Professional Engineering Schedule, Language, Advertising and Integrated Marketing
 Schedules (AIMS), and the Consolidated Schedule.
 
 ### What’s Next?
@@ -63,3 +60,7 @@ visualize, and export results.
 To get involved in shaping and advancing this tool (and other
 procurement-related tools), please get in touch with us at
 [calc-18f@gsa.](mailto:calc-18f@gsa.gov)[gov](mailto:calc-18f@gsa.gov).
+
+### Other Digial Tools
+
+CALC is one of the numerous digital tools including [OASIS Discovery](http://www.oasisdiscovery.com/), PM/CPI Prices Paid Visualization, and the Statement of Work Library available on the [Professional Services Category Hallway](https://hallways.cap.gsa.gov/) that support and improve how the federal community acquires professional services.
