@@ -67,5 +67,8 @@ collections:
   team:
     permalink: /team/:name/
     output: true
+  press:
+    output: true
+    permalink: /press/:name/
 
 full_rebuild: true
