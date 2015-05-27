@@ -69,7 +69,7 @@ def update_data
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace'
+  exec 'bundle exec jekyll serve --trace --no-watch'
 end
 
 def build
@@ -93,6 +93,8 @@ def server_build
   update_gems
   puts 'building site'
   exec_cmd('bundle exec jekyll b --config _config.yml')
+  require 'time'
+  puts Time.now()
 end
 
 def production_build
@@ -103,6 +105,8 @@ def production_build
   update_gems
   puts 'building site'
   exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  require 'time'
+  puts Time.now()
 end
 
 def cf_deploy

@@ -15,7 +15,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .page-content, .team, .footer, .contact-box {
+.mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
 	@include media($small) {
     	padding-left: 5%;
     	padding-right: 5%;
@@ -415,7 +415,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-.blog-entry, .page-content {
+.blog-entry, .service-entry {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 25px; //compensates for padding in top row of news section
 	h1 {
@@ -435,21 +435,12 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 1.8;
 		+ p {
 			margin-bottom: 0.4em;
+			margin-top: 0.5em;
 		}
 	}
 }
 
-.page-content {
-	@extend %section-padding; //standard padding
-	padding-top: 12px;
-	padding-bottom: 0;
-	p {
-	  + p {
-	    margin: 1em 0;
-	  }
-	}
-}
-.blog-title {
+.blog-title, .service-title {
 	@include span-columns(12);
 	padding: 15px 0 5px 0;
 	@include media($tiniest) {
@@ -488,7 +479,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 1.2em;
 	}
 }
-.blog-snippet {
+.blog-snippet, .service-snippet {
 	@include span-columns(9);
 	@include omega();
 	@include media($tiniest) {
@@ -498,6 +489,9 @@ $tiniest: new-breakpoint(max-width 390px);
 	p.authors {
 		margin-bottom: 0.4em;
 	}
+}
+.service-snippet {
+	width: 100%;
 }
 .blog-all, .blog-continue {
 	@include span-columns(12);

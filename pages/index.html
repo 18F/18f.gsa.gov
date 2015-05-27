@@ -42,28 +42,22 @@ permalink: /
   </div>
 </section>
 
-<section id="delivery" class="services">
+<section class="services" itemprop="makesOffer">
   <div class="header">
     <div class="container-fluid">
       <h1>our work</h1>
     </div>
   </div>
-  <article class="container page-content" itemprop="department" itemtype="">
-    <h1><a href="/delivery">Delivery</a></h1>
-    <p>Delivery is at the heart of what we do. Our team of designers and developers work to transform government services by building world-class software products and raise standards of software development throughout the government. Learn more about our products by visiting our <a href="/dashboard">dashboard</a> and you can find more information about <a href="https://pages.18f.gov/guides">our standards and capabilities</a> through our guides.</p>
-    <p>Learn more about <a href="/dashboard">what we're building and how we're doing it</a>.</p>
-  </article>
-  <article class="container page-content" itemprop="sectionConsulting" itemtype="">
-    <h1><a href="/consulting">Consulting</a></h1>
-    <p>Our Consulting team helps federal agencies deliver successful digital services by using proven, modern approaches to your work such as human-centered design, lean startup, and agile development. As consultants, we're your partners: rolling-up our sleeves right alongside you to solve the biggest challenges facing your agency. From developing agile acquisition strategies to evaluating opportunities to improving your digital initiatives, our team sets you up for success.</p>
-
-    <p>Learn more about the ways we can help you at <a href="/consulting">18F Consulting</a>.</p>
-  </article>
-  <article class="container page-content" itemprop="" itemtype="">
-    <h1><a href="https://pages.18f.gov/joining-18f/">Join us</a></h1>
-    <p>We are looking for candidates passionate about our mission, with top notch software development, design, content, and operations skills to match. The majority of our team is distributed across the country, in places like Chicago, New York, Raleigh, Tucson, Austin, Dayton, Philadelphia, San Diego, Seattle, and Portland.</p>
-    <p>Learn more about <a href="https://pages.18f.gov/joining-18f">joining our team</a>.</p>
-  </article>
+  <article class="container service-entry" itemprop="department">
+    {% for service in site.data.services %}
+      <div class="service-title">
+        <h1><a href="{{ service.link }}" class="service-title" itemprop="name">{{ service.display }}</a></h1>
+      </div>
+      <div class="service-snippet">
+        <p>{{ service.description }}</p>
+        <p>Learn more about {{ service.cta }}.</p>
+      </div>
+    {% endfor %}
 </section>
 <section id="news" class="blog">
   <div class="header">
