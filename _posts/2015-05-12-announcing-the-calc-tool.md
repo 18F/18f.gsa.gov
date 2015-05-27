@@ -1,5 +1,5 @@
 ---
-title: "Announcing the CALC Tool: Making Pricing Research Easier in Federal Procurement"
+title: "Announcing the CALC tool: Making pricing research easier in federal procurement"
 date: 2015-05-12
 layout: post
 author:
@@ -43,24 +43,24 @@ receive Requests for Quotations (RFQs), and in turn ensure the
 government is spending taxpayers dollars wisely and in the most
 efficient way.
 
-### More Details on the Data
+##More Details on the Data
 
 CALC searches *awarded* ceiling prices (at the master contract level) on several of GSA’s professional services schedules, including Mission Oriented Business Integrated Services (MOBIS), Environmental, Logistics Worldwide (LOGWORLD), Professional Engineering Schedule, Language, Advertising and Integrated Marketing
 Schedules (AIMS), and the Consolidated Schedule.
 
-### What’s Next?
+##What’s Next?
 
 Future releases for CALC are likely to include the ability to input a
 proposed price for a particular labor category to see where it falls
 against comparable rates, as well as additional ways to control,
 visualize, and export results.
 
-### In Federal Acquisition? You Can Help!
+##In Federal Acquisition? You Can Help!
 
 To get involved in shaping and advancing this tool (and other
 procurement-related tools), please get in touch with us at
 [calc-18f@gsa.](mailto:calc-18f@gsa.gov)[gov](mailto:calc-18f@gsa.gov).
 
-### Other Digial Tools
+##Other Digial Tools
 
 CALC is one of the numerous digital tools including [OASIS Discovery](http://www.oasisdiscovery.com/), PM/CPI Prices Paid Visualization, and the Statement of Work Library available on the [Professional Services Category Hallway](https://hallways.cap.gsa.gov/) that support and improve how the federal community acquires professional services.

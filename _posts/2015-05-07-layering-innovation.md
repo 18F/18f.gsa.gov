@@ -1,5 +1,5 @@
 ---
-title: "Layering Innovation"
+title: "Layering innovation"
 date: 2015-05-08
 layout: post
 author:
