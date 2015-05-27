@@ -15,7 +15,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .team, .footer, .contact-box {
+.mantra, .blog-entry, .page-content, .team, .footer, .contact-box {
 	@include media($small) {
     	padding-left: 5%;
     	padding-right: 5%;
@@ -415,7 +415,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-.blog-entry {
+.blog-entry, .page-content {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 25px; //compensates for padding in top row of news section
 	h1 {
@@ -436,6 +436,17 @@ $tiniest: new-breakpoint(max-width 390px);
 		+ p {
 			margin-bottom: 0.4em;
 		}
+	}
+}
+
+.page-content {
+	@extend %section-padding; //standard padding
+	padding-top: 12px;
+	padding-bottom: 0;
+	p {
+	  + p {
+	    margin: 1em 0;
+	  }
 	}
 }
 .blog-title {
@@ -1218,3 +1229,13 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
+
+// Press Page
+//********************************************************
+
+.question {
+			color: $base-link-color;
+			font-size: 2.25em;
+		}
+
+/* vim:noet ts=4 sw=4 */
