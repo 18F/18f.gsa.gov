@@ -1,3 +1,7 @@
+Individual 18F team photos (as of commit-time, in `assets/images/team/`) are not covered by the below public domain dedication. The contributor of each photo (generally, the individual teammate in question), by contributing it, is affirming that 18F has appropriate permission to include the photo in this repository and display it on the website.
+
+------
+
 As a work of the United States Government, this project is in the
 public domain within the United States.
 

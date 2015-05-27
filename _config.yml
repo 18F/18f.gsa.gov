@@ -14,6 +14,10 @@ exclude:
 - CONTRIBUTING.md
 - todo.txt
 - vendor
+- go
+- script
+- Gemfile
+- Gemfile.lock
 
 gems: [jekyll-sitemap]
 
@@ -45,8 +49,26 @@ rss_limit: 20
 
 future: false
 
+# defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      collection: team
+    values:
+      layout: bare
 
+# collections
 collections:
+  team:
+    permalink: /team/:name/
+    output: true
   press:
     output: true
     permalink: /press/:name/
+
+full_rebuild: true

@@ -62,8 +62,12 @@ $(function() {
 });
 
 //Initial load of page
-window.onload=function() { sizeContent() };
-
+window.onload=function() {
+  sizeContent();
+  var links = $('.bio a.disabled');
+  disableLinks(links);
+};
+$('.toggle').click(function() { toggleNav() });
 //Every resize of window
 $(window).resize(sizeContent);
 
@@ -71,4 +75,18 @@ $(window).resize(sizeContent);
 function sizeContent() {
     var newHeight = $("#slide").height() - 10 + "px";
     $("#hero").css("height", newHeight);
+}
+function disableLinks(links) {
+  $.each(links, function(index, link) { 
+    $(link).click(function(e) { 
+      e.preventDefault();
+    })
+  });
+}
+
+function toggleNav() {
+  var uls = $('.global-nav ul')
+  var toggles = $('.toggle');
+  var elements = $.merge(uls, toggles)
+  $.each(elements, function(index, element) { $(element).toggleClass('hidden');});
 }

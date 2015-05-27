@@ -43,7 +43,6 @@ p {
 }
 
 a {
-  @include transition(0.1s linear);
   color: $base-link-color;
   text-decoration: underline;
 

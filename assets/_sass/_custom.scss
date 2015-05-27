@@ -135,7 +135,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 73px;
   	}
   	@include media($tinier) {
-		top: 66px;
+		top: 16px;
 		left: 0px;
   	}
 }
@@ -144,10 +144,10 @@ $tiniest: new-breakpoint(max-width 390px);
 	h1 {
 		position: absolute;
 		top: 370px;
-	  	width: 860px;
-	  	text-align: left;
-  		font-size: 3.6em;
-  		padding: 30px 50px;
+  	width: 860px;
+  	text-align: left;
+		font-size: 3.6em;
+		padding: 30px 50px;
 		z-index: 10;
 	  	@include media($small) {
 			top: 295px;
@@ -164,46 +164,50 @@ $tiniest: new-breakpoint(max-width 390px);
   			padding: 20px 20px;
   		}
   		@include media($tiny) {
-			top: 40px;
+			top: 60px;
 	  		width: 450px;
   			font-size: 2em;
   			padding: 20px 20px 20px 110px;
   		}
   		@include media ($tinier) {
-			top: 50px;
+				top: 121px;
   			width: 100%;
-  			padding: 13px 0px 13px 90px;
-  			font-size: 1.6em;
+  			padding: 13px 0px 13px 10px;
+  			font-size: 1.4em;
   		}
 	  	@extend %heading-text-style;
 	}
 	.caption {
 		position: absolute;
-	  	top: 350px;
-	  	z-index: 20;
+  	top: 350px;
+  	z-index: 20;
 		color:#fff;
-	  	font-size: 1em;
-	  	text-shadow: 1px 1px 2px #000;
-	  	@include media($small) {
-	  		top: 275px;
-	  	}
-	  	@include media($smaller) {
-	  		top: 200px;
-			margin-top: 160px;
-	  		font-size: 0.9em;
-	  	}
-	  	@include media($smallest) {
-	  		top: 145px;
-			margin-top: 124px;
-	  		font-size: 0.8em;
-	  	}
-	  	@include media($tiny) {
-	  		top: 63px;
-			margin-top: 102px;
-	  		font-size: 0.6em;
-	  	}
+  	font-size: 1em;
+  	text-shadow: 1px 1px 2px #000;
+  	@include media($small) {
+  		top: 275px;
+  	}
+  	@include media($smaller) {
+  		top: 200px;
+		margin-top: 160px;
+  		font-size: 0.9em;
+  	}
+  	@include media($smallest) {
+  		top: 145px;
+		margin-top: 124px;
+  		font-size: 0.8em;
+  	}
+  	@include media($tiny) {
+  		top: 63px;
+		margin-top: 122px;
+  		font-size: 0.6em;
+  	}
 		@include media($tinier) {
-			margin-top: -63px;
+			margin-top: 155px;
+			margin-right: 98px;
+		}
+		@include media($tiniest) {
+			display: none;
 		}
 		background-color: rgba(0,0,0,.4);
 		margin-top: 186px;
@@ -244,6 +248,82 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+// Global nav
+//********************************************************
+.global-nav {
+	display: block;
+	width: auto;
+	position: absolute;
+	right:0;
+	top: 20px;
+	z-index: 999;
+	background-color: white;
+	font-size: .9em;
+	.toggle {
+		display: none;
+	}
+	hr {
+		display: none;
+	}
+	ul {
+		display: inline-block;
+		margin: 0.9em 0;
+		li {
+			display: inline-block;
+			margin: 0;
+			a {
+				color: $dark-gray;
+				text-decoration: none;
+				padding: 1em 2em;
+				&:hover {
+					background-color: $medium-blue;
+					color: white;
+				}
+			}
+		}
+	}
+	@include media($smallest) {
+		border: 1px solid $dark-gray;
+		a {
+			display: block;
+			margin: 0em auto;
+			padding: 1em;
+		}
+		ul {
+			display: block;
+			li {
+				display: block;
+			}
+			a {
+				&:hover, &:focus {
+
+				}
+			}
+		}
+
+		.toggle {
+			display: block !important;
+			color: #767676;
+		  text-decoration: none;
+		  padding: 1em 2em;
+			border-bottom: 1px solid $medium-gray;
+		}
+		.hidden {
+			display: none !important;
+		}
+		.sep {
+			display: none;
+		}
+	}
+	@include media($tinier) {
+		top: 16px;
+	}
+}
+.global-nav ul:last-child {
+	@include media($smallest) {
+		border-top: 1px solid $medium-gray;
+	}
+}
 // Mantra
 //********************************************************
 .mantra {
@@ -324,7 +404,6 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .back {
 	font-size: 0.8em;
-	margin-top: 5px;
 	margin-bottom:47px;
 	a {
 		text-decoration: none;
@@ -719,124 +798,100 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-// Team
+// Team landing page
 //********************************************************
-.team {
-	@extend %section-padding; //standard padding for all sections
-	padding-top: 20px; //compensates for padding in top row of team section
-	@include media($tiniest) {
-		padding-top: 15px;
-	}
-}
-.bio {
-	@include span-columns(3 of 12);
-	margin: 1.5em 0 .5em 1.5%;
-	padding-right: 3%;
-	position: relative;
-	@include media($smaller) {
-		@include span-columns(4 of 12);
-		@include omega();
-		padding-left: 1.5%;
-		margin-top: 1em;
-		margin-bottom: 0;
-	}
-	@include media($smallest) {
-		@include span-columns(3 of 12);
-		@include omega();
-	}
-	@include media($tiny) {
-		@include span-columns(4 of 12);
-		@include omega();
-		padding-left: 1.5%;
-	}
-	@include media($tiniest) {
-		margin-top: 0.5em;
-	}
-	strong {
+
+#team {
+	@include outer-container;
+	.bio {
+		@include span-columns(2 of 12);
+		margin: 1.5em 0 3em 1.5%;
+		padding-right: 3%;
 		float: left;
-		clear: both;
-	}
-	h1 {
-		// clear: both;
-		margin: .2em 0 0 0;
-		color: $red;
-		font-size: 1.2em;
-		text-align: center;
-		line-height: 1.2em;
-		min-height: 2.4em; // 2x line-height
+		clear: none;
+		max-height: 2.4em;
+	  line-height: 1.2em;
+		margin-bottom: 7em;
 		@include media($smaller) {
-			margin-top: 0;
+			@include span-columns(2 of 12);
+			@include omega();
+			padding-left: 1%;
+			margin-top: 1em;
+			margin-bottom: 6em
 		}
 		@include media($smallest) {
-			font-size: 0.70em;
+			@include span-columns(2 of 12);
+			@include omega();
 		}
 		@include media($tiny) {
-			font-size: 0.70em;
+			@include span-columns(3 of 12);
+			@include omega();
+			padding-left: 1.5%;
+			margin-top: 3em;
 		}
 		@include media($tiniest) {
-			font-size: 0.60em;
+			@include span-columns(4 of 12);
+			@include omega();
+		}
+		strong {
+			float: left;
+			clear: both;
+		}
+		a {
+			text-decoration: none;
+			img {
+				width: 100%;
+				height: auto;
+		    -moz-border-radius: 100%;
+			  -webkit-border-radius: 100%;
+			  border-radius: 100%;
+			  background-clip: padding-box;
+		  }
+		  h1 {
+		  	font-size: 0.9em;
+		  	text-align: center;
+		  }
+			&.disabled {
+				cursor: default;
+			}
+			&.disabled:hover, &.disabled:focus {
+				color: #0075E1;
+			}
 		}
 	}
-	a i, .no-decoration {
-		text-decoration: none !important; color: #000 !important;
-	}
-	a {
-		text-decoration: none;
-		img {
-			// width: 200px;
-			// height: 200px;
-
-			-webkit-filter: grayscale(100%);
-			-moz-filter: grayscale(100%);
-			filter: grayscale(100%);
-			filter: url(/assets/bw.svg#greyscale);
-
-			@include transition(0.3s linear);
-			@include media($smaller) {
-				// height: 225px;
-				// width: 225px;
-			}
-			@include media($smallest) {
-				// height: 120px;
-				// width: 120px;
-			}
-			@include media($tiny) {
-				// height: 100px;
-				// width: 100px;
-				margin: 0.3em auto;
-				-webkit-filter: none;
-				-moz-filter: none;
-				filter: none;
-			}
-			@include media($tiniest) {
-				// height: 85px;
-				// width: 85px;
-			}
+	.bio:nth-child(10n+6) {
+		margin-left: 120px;
+		@include media($smaller) {
+			margin-left: 0;
 		}
-		&:hover img, &:focus img  {
-			-webkit-filter: none;
-			-moz-filter: none;
-			filter: none;
+	}
+	.bio:first-child, .bio:nth-child(10n+11) {
+		margin-left: 60px;
+		@include media($smaller) {
+			margin-left:0;
+		}
+	}
+	.bio:last-child {
+		margin-bottom: 9em;
+	}
+	.sortable {
+		min-height: 60px;
+		li {
+			display: inline;
+			border: 1px solid $light-gray;
+			padding: 0.2em 0.5em;
+			a:hover, a:focus {
+				color: $red
+			}
+			a {
+				color: $dark-gray;
+				text-decoration: none;
+			}
 		}
 	}
 }
 
-.bio-clip {
-    background: url(#clipping) no-repeat;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-}
 
-.sr-hide {
-	position:absolute;
-	left:-10000px;
-	top:auto;
-	width:1px;
-	height:1px;
-	overflow:hidden;
-}
 // Contact
 //********************************************************
 .contact-form {
@@ -926,6 +981,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-family: $base-font-family;
 		font-weight: normal;
 		font-size: 1.4em;
+		line-height: 30px;
 		padding-top: 15px;
 		padding-bottom: 10px;
 		@include media($smallest) {
@@ -944,10 +1000,20 @@ $tiniest: new-breakpoint(max-width 390px);
 	p {
 		margin-bottom: 1.1em;
 	}
-}
 
+	ul, ol {
+		li {
+			margin: 5px 0;
+		}
+	}
+}
 .bare-logo {
 	@include span-columns(2);
+}
+.team-logo {
+	@include span-columns(12);
+}
+.bare-logo, .team-logo {
 	padding-left: 20px;
 	a {
 		text-decoration: none;
@@ -971,6 +1037,8 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 .bare-content {
+	margin-top: 7px;
+
 	@include span-columns(9);
 	@include omega();
 	@include media($smallest) {
@@ -1082,7 +1150,7 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .footer {
 	border-top: 5px solid $blue;
-	background-color: $dark-blue;
+	background-color: $darkest-blue;
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
@@ -1151,8 +1219,6 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
-/* vim:noet ts=4 sw=4 */
-
 // Press Page
 //********************************************************
 
@@ -1160,3 +1226,5 @@ $tiniest: new-breakpoint(max-width 390px);
 			color: $base-link-color;
 			font-size: 2.25em;
 		}
+
+/* vim:noet ts=4 sw=4 */

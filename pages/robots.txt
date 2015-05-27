@@ -1,5 +1,6 @@
 ---
 permalink: /robots.txt
+layout: feed
 ---
 
 # All comers welcome!

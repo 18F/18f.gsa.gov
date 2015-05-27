@@ -1,0 +1,8 @@
+collections:
+  team:
+    permalink: /team/:name/
+    output: false
+  press:
+    premalink: /press/:name/
+    output: false
+
