@@ -479,7 +479,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 1.2em;
 	}
 }
-.blog-snippet {
+.blog-snippet, .service-snippet {
 	@include span-columns(9);
 	@include omega();
 	@include media($tiniest) {
@@ -489,6 +489,9 @@ $tiniest: new-breakpoint(max-width 390px);
 	p.authors {
 		margin-bottom: 0.4em;
 	}
+}
+.service-snippet {
+	width: 100%;
 }
 .blog-all, .blog-continue {
 	@include span-columns(12);
