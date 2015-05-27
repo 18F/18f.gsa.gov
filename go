@@ -94,7 +94,7 @@ def server_build
   puts 'building site'
   exec_cmd('bundle exec jekyll b --config _config.yml')
   require 'time'
-  Time.now()
+  puts Time.now()
 end
 
 def production_build
@@ -106,7 +106,7 @@ def production_build
   puts 'building site'
   exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
   require 'time'
-  Time.now()
+  puts Time.now()
 end
 
 def cf_deploy
