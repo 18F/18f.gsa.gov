@@ -2,7 +2,7 @@
   display: Delivery
   link: /dashboard
   description: "Delivery is at the heart of what we do. Our team of designers and developers work to transform government services by building world-class software products and raise standards of software development throughout the government. Learn more about our products by visiting our <a href='/dashboard'>dashboard</a> and you can find more information about <a href='https://pages.18f.gov/guides'>our standards and capabilities</a> through our guides."
-  cta: <a href='/dashboard'>the ways we can help you at 18F Consulting</a>
+  cta: <a href='/dashboard'>what we're building and how we're doing it.</a>
 -
   display: Consulting
   link: /consulting
