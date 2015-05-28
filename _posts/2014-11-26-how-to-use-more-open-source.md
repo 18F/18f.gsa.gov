@@ -7,11 +7,11 @@ authors:
  - eric
 
 tags:
- - longread
- - open source
- - federal acquisitions
+- longread
+- open source
+- federal acquisitions
 
- category:
+category:
  - Design and Code
 
 description: The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.

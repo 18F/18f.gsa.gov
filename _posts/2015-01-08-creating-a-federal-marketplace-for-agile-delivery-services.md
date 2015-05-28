@@ -17,7 +17,7 @@ tags:
 - lean
 - modernization
 
-category
+category:
 - The Projects We Work On
 ---
 
