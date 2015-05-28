@@ -3,7 +3,7 @@ title: "18F Discussion: Should Project Teams Code First Or Design First?"
 layout: post
 image: "/assets/blog/code-design/decisions-blue.png"
 tags:
-- 18F
+- 18f
 - how we work
 - design
 

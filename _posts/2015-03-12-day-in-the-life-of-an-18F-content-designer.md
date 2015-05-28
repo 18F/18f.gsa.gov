@@ -3,7 +3,7 @@ title: "A Day in the Life of an 18F Content Designer"
 layout: post
 image: /assets/blog/day-in-life-content/kate.JPG
 tags:
-- 18F
+- 18f
 - day in the life
 - design
 - content

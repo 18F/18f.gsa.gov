@@ -4,7 +4,7 @@ layout: post
 author:
 - melody
 tags:
-- 18F
+- 18f
 - open source
 - how we work
 excerpt: "We collaborate on much of what we do at 18F, from the way we work on code to the way we write our blog. Though we have a small editorial team, the blog — and our writing process — extends ownership to the entire 18F team."

@@ -4,7 +4,7 @@ date: '2015-04-08'
 layout: post
 image: /assets/blog/talent-manager/Jamie.jpg
 tags:
-- 18F
+- 18f
 - day in the life
 - culture
 - how we work

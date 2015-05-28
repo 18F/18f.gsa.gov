@@ -3,7 +3,7 @@ title: "Focus on Accessibility"
 layout: post
 image: /assets/blog/accessibility/pictureintweet.png
 tags:
-- 18F
+- 18f
 - how we work
 - accessibility
 

@@ -27,7 +27,7 @@ tags:
 - how we work
 - github
 - snippets
-- The Hub
+- the hub
 
 category:
 - The Projects We Work On

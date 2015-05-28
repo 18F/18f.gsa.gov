@@ -6,7 +6,7 @@ author:
 - noah
 - vdavez
 tags:
-- 18f Consulting
+- 18f consulting
 - agile
 - request for quote
 excerpt: "Calling all Agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"

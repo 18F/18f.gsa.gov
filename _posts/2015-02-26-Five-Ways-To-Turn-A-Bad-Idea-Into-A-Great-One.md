@@ -3,7 +3,7 @@ title: "Five Ways to Turn a Bad Idea into a Great One: Steve Portigal Event Reca
 layout: post
 image: /assets/blog/portigal-event-image/portigalevent.jpg
 tags:
-- 18F
+- 18f
 - speaker series
 - design
 - user research
