@@ -5,9 +5,13 @@ layout: post
 image: /assets/images/2014/12/protosketch.jpg
 tags:
 - protosketching
-- 18F Consulting
+- 18f consulting
 - how we work
 - agile
+
+category:
+- Design and Code
+
 authors:
 - alan
 - robert

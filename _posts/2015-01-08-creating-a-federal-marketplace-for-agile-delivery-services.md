@@ -10,12 +10,15 @@ authors:
  - chrisc
 
 tags:
-- 18F Consulting
-- Delivery
-- Agile
-- GSA
+- 18f consulting
+- delivery
+- agile
+- gsa
 - lean
 - modernization
+
+category:
+- The Projects We Work On
 ---
 
 By {% author chrisc %} and {% author greg %}

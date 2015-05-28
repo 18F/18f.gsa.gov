@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-archives.git
+  revision: 73e5197f710bf59321e2dfcd2d24c51a49ce4b0c
+  specs:
+    jekyll-archives (2.0.0)
+      jekyll (>= 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -56,7 +63,7 @@ GEM
     mercenary (0.3.5)
     method_source (0.8.2)
     mini_portile (0.6.2)
-    minitest (5.6.1)
+    minitest (5.7.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     pry (0.10.1)
@@ -85,6 +92,7 @@ DEPENDENCIES
   bourbon
   hash-joiner
   jekyll (= 3.0.0.pre.beta2)
+  jekyll-archives!
   jekyll-paginate
   jekyll-sitemap
   jekyll_pages_api

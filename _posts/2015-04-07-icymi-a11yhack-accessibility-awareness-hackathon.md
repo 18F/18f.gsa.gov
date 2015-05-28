@@ -4,8 +4,8 @@ date: '2015-04-07'
 layout: post
 image: /assets/blog/a11yhack/a11yhack.jpg
 tags:
-- 18F Events
-- Hackathons
+- 18f events
+- hackathons
 - accessibility
 authors:
 - jackie

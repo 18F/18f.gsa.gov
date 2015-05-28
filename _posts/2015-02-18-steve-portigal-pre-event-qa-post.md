@@ -8,9 +8,15 @@ tags:
 - speaker series
 - design
 - user research
+- user-centered design
+
+category:
+- Design and Code
 
 authors:
 - brethauer
+
+
 
 description: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 AM ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
 

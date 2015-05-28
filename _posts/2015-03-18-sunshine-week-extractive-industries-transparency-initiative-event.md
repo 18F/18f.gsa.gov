@@ -9,6 +9,11 @@ tags:
 - useiti
 - interior
 - sunshine week
+
+category:
+- Events
+
+
 authors:
 - mhz
 - boone

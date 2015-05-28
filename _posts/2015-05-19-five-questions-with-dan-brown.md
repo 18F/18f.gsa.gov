@@ -23,7 +23,7 @@ tags:
 - speaker series
 - dan brown
 - design
-- 18F
+- 18f
 image: /assets/blog/speaker-series/d-brown.jpg
 ---
 

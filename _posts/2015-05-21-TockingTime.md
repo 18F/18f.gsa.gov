@@ -5,7 +5,7 @@ layout: post
 author:
 - sean
 tags:
-- 18F
+- 18f
 - how we work
 excerpt: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. Ultimately, we opted to try rolling our own simple solution using Django: Tock."
 description: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. We opted roll out our own simple solution using Django, called Tock."

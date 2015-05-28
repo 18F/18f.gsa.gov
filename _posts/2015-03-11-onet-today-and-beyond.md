@@ -6,8 +6,11 @@ layout: post
 image: onet/image01.jpg
 
 tags:
-- PIF
-- Department of Labor
+- pif
+- department of labor
+
+category:
+- The Projects We Work On
 
 authors:
 - tgrandison

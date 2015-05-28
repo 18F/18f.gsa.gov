@@ -10,10 +10,13 @@ authors:
 
 tags:
   - agile
-  - 18F Consulting Services
+  - 18f consulting services
   - how we work
   - workshop
   - our projects
+
+category:
+  - Guides and Tutorials
 ---
 <p class="authors">
   by {% author robert %}, {% author hillary %}, and {% author sarah %}

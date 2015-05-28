@@ -11,9 +11,14 @@ description: Last week, a number of teammates coordinated to put on three Digita
 
 tags:
 - training
-- DigitalGov University
-- GSA
-- events
+- digitalgov university
+- gsa
+- open source
+- api
+- agile
+
+category:
+- Events
 
 layout: post
 ---
