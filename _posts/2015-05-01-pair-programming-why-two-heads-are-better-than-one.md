@@ -1,5 +1,5 @@
 ---
-title: "Pair Programming: Why Two Heads Are Better Than One"
+title: "Pair programming: Why two heads are better than one"
 date: 2015-05-04
 layout: post
 author:
