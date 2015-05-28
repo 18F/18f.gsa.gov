@@ -30,7 +30,7 @@
         Tagged /
         <span class="blog-tags" itemprop="keywords">
           {% for tag in page.tags %}
-            <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
+            <a href="/{{site.tag_dir}}/{{ tag | slugify }}">{{ tag }}</a>
             /
           {% endfor %}
         </span>
