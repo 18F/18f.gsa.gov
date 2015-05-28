@@ -1,5 +1,5 @@
 ---
-title: "The Digital Services Flash Mob"
+title: "The digital services flash mob"
 date: 2015-05-11
 layout: post
 author:
