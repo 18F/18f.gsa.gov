@@ -2,7 +2,7 @@
 #
 # Go script for building the 18F site
 #
-# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone 
+# Written in 2015 by Mike Bland (michael.bland@gsa.gov) and Greg Boone
 # (gregory.boone@gsa.gov) on behalf of the 18F team, part of the US General
 # Services Administration: https://18f.gsa.gov/
 #
@@ -19,7 +19,7 @@
 #
 # ----
 #
-# ./go script: unified development environment interface 
+# ./go script: unified development environment interface
 #
 # Inspired by:
 # http://www.thoughtworks.com/insights/blog/praise-go-script-part-i
@@ -28,7 +28,7 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
 
-MIN_VERSION = "2.2.0"
+MIN_VERSION = "2.1.0"
 
 unless RUBY_VERSION >= MIN_VERSION
   puts <<EOF
@@ -61,16 +61,15 @@ end
 
 def update_gems
   exec_cmd 'bundle update'
-  exec_cmd 'git add Gemfile.lock'
 end
 
 def update_data
   ruby = exec_cmd 'which ruby'
-  exec_cmd "#{ruby} import-public.rb"
+  exec_cmd "ruby _data/import-public.rb"
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace'
+  exec 'bundle exec jekyll serve --trace --no-watch'
 end
 
 def build
@@ -82,16 +81,38 @@ end
 def ci_build
   puts 'Building the site...'
   build
+  exec_cmd('bash deploy/test.sh')
   puts 'Done!'
 end
 
 def server_build
+  puts 'Stashing (just in case)'
+  exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  update_data
-  build
+  update_gems
+  puts 'building site'
+  exec_cmd('bundle exec jekyll b --config _config.yml')
+  require 'time'
+  puts Time.now()
 end
 
+def production_build
+  puts 'Stashing (justin case)'
+  exec_cmd 'git stash'
+  puts 'Pulling from git'
+  exec_cmd 'git pull'
+  update_gems
+  puts 'building site'
+  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  require 'time'
+  puts Time.now()
+end
+
+def cf_deploy
+  build
+  exec_cmd('sh deploy/cf-deploy.sh')
+end
 
 COMMANDS = {
   :init => 'Set up the 18f.gsa.gov dev environment',
@@ -100,7 +121,9 @@ COMMANDS = {
   :serve => 'Serves the site at localhost:4000',
   :build => 'Builds the site',
   :ci_build => 'Builds the site for a CI system',
-  :server_build => 'Pulls from git, updates _data, and builds the site'
+  :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
+  :cf_deploy => 'Deploys to cloudfoundry',
+  :production_build => 'Deploys to production using a second config file'
 }
 
 def usage(exitstatus: 0)

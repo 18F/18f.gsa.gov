@@ -115,7 +115,7 @@ tests and they didn't work as intended, so don't like it too much.”
 **On developers submerging their egos to serve the end user**
 
 **RR:** I've had the pleasure working with [*Kent
-Beck*](http://en.wikipedia.org/wiki/Kent_Beck) in the past and one of
+Beck*](https://en.wikipedia.org/wiki/Kent_Beck) in the past and one of
 the things that he focuses on is the fact that developers have to really
 submerge their egos and their personalities and have to recognize that
 they are totally in service to the end user. In the case of having a

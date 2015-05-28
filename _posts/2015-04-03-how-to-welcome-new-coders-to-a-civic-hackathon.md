@@ -3,7 +3,7 @@ title: 'How To Welcome New Coders To A Civic Hackathon'
 date: '2015-04-03'
 layout: post
 image: /assets/blog/govtechhack/IMG_3998.JPG
-tags: 
+tags:
 - 18F
 - events
 - how we work
@@ -196,7 +196,7 @@ You may also want to look at our [checklist for open source
 projects](https://github.com/18F/open-source-policy/issues/35), our
 [maintainer guidelines for open source
 projects](https://18f.github.io/open-source-program/pages/maintainer_guidelines/),
-and a [hackathon guide](http://18f.github.io/hackathontrainingday/)
+and a [hackathon guide](https://18f.github.io/hackathontrainingday/)
 18F’s Leah Bannon recently wrote.
 
 If you have thoughts or feedback on how to improve this guide, please

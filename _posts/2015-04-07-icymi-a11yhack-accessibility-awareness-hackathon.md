@@ -7,11 +7,7 @@ tags:
 - 18F Events
 - Hackathons
 - accessibility
-
-category:
-- Events 
-
-authors: 
+authors:
 - jackie
 - alan
 - nick
@@ -26,7 +22,7 @@ excerpt: "Improving accessibility and 508 awareness is one of 18F’s ongoing go
 Improving [accessibility and 508
 awareness](https://18f.gsa.gov/2015/03/31/focus-on-accessibility/) is
 one of 18F’s ongoing goals. In support of this goal, we recently hosted
-[a11yhack](http://18f.github.io/hackathons/a11yhack/), a website accessibility 
+[a11yhack](https://18f.github.io/hackathons/a11yhack/), a website accessibility
 hackathon.
 
 [Section 508](http://www.section508.gov/), an amendment to the
@@ -84,14 +80,14 @@ overlook if you don't need it. But I hope that the hackathon helped
 raise awareness and get the message across that accessibility is
 something we all can improve.”
 
-[![The hackpad, we've archived this as a markdown file on the hackathon's website. Click this link to read the contents.](/assets/blog/a11yhack/hackpad.png)](http://18f.github.io/hackathons/a11yhack/hackpad-snapshot/)
+[![The hackpad, we've archived this as a markdown file on the hackathon's website. Click this link to read the contents.](/assets/blog/a11yhack/hackpad.png)](https://18f.github.io/hackathons/a11yhack/hackpad-snapshot/)
 
 Jackie Kazil, another organizer, said several aspects of the gathering
 stood out to her, including alternatives to Web practices such as video
 CAPTCHA for visually impaired users or the calls to action for
 policymakers, technology companies, and users to get together to
 recognize and/or address
-[accessibility](http://18f.github.io/accessibility/) issues early
+[accessibility](https://18f.github.io/accessibility/) issues early
 on. She echoed the sentiments of fellow 18F colleagues who see
 accessibility as one of the most important aspects of web development.
 And that being 508-compliant is not “just about what the letter of the
@@ -117,10 +113,10 @@ to this one, we hope to see you at the next.
 
 ### Key Links
 
-[Resources](http://18f.github.io/hackathons/a11yhack/resources):
+[Resources](https://18f.github.io/hackathons/a11yhack/resources):
 Accessibility Resources.
 
-[Tools](http://18f.github.io/hackathons/a11yhack/tools): Accessibility
+[Tools](https://18f.github.io/hackathons/a11yhack/tools): Accessibility
 Tools.
 
 [Best Practices and Common Testing
@@ -134,4 +130,4 @@ Shared notes from hackathon.
 
 Join or post your projects in the [snapshot of the Accessibility
 Hackathon
-Hackpad](http://18f.github.io/hackathons/a11yhack/hackpad-snapshot/).
+Hackpad](https://18f.github.io/hackathons/a11yhack/hackpad-snapshot/).

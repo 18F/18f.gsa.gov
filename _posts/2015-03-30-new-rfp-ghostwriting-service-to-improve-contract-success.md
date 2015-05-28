@@ -34,7 +34,7 @@ send you down a long and painful path of technical rework, contract
 modifications, and cost and schedule overruns. You don’t want that. The
 taxpaying public doesn’t want that. And neither does 18F.
 
-That’s why [18F Consulting](http://18f.github.io/consulting/) is now
+That’s why [18F Consulting](https://18f.gsa.gov/consulting/) is now
 offering **RFP Ghostwriting and Review** as a service to Federal
 agencies.
 
@@ -54,7 +54,7 @@ These are the types of questions we ask as we’re reviewing RFPs:
 1.  Based on the need you’re trying to address, are you making
     appropriate uses of the various software development methods
     (e.g., agile, waterfall)?
-2.  How can you most effectively include considerations for user-centered 
+2.  How can you most effectively include considerations for user-centered
     design and development?
 3.  Where are there opportunities to incorporate proven, commodity IT
     solutions (e.g., Commercial Off-The-Shelf (COTS) over expensive
@@ -81,4 +81,3 @@ Interagency Agreement is all that’s required to retain our service.
 
 Ready to get started? So are we. Please [get in
 touch](mailto:18f@gsa.gov) with us to discuss next steps.
-

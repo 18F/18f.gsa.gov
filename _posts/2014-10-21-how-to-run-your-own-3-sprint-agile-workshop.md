@@ -235,8 +235,8 @@ create a powerful calculator.
 Looking at great teaching books can provide good ideas for projects. For
 example, a currency conversion calculator sounds simple, but has some
 interesting challenges. This was an effective example from Kent Beck's book
-[Test Driven Development by Example](http://en.wikipedia.org/wiki/Test-Driven_Development_by_Example) introduced shortly after his seminal work
-[Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development). I have not run a workshop around it, but I believe
+[Test Driven Development by Example](https://en.wikipedia.org/wiki/Test-Driven_Development_by_Example) introduced shortly after his seminal work
+[Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development). I have not run a workshop around it, but I believe
 one could run an effective 5-hour workshop around this exercise as well.
 
 For a group of participants that did not include strong coders, I might plan
@@ -292,6 +292,6 @@ a team-building exercise. The case study has example goals, projects, and
 pivots to give you ideas for your own workshop.
 
 ## Another Option: Bring On 18F as a Coach
-18F has recently created a new pilot line of business called [18F Consulting](http://18f.gsa.gov/consulting/) which offers Agile coaching and other services at cost-recovery
+18F has recently created a new pilot line of business called [18F Consulting](https://18f.gsa.gov/consulting/) which offers Agile coaching and other services at cost-recovery
 prices under the Economy Act. If you’d like assistance or you’d like us to
 run a workshop for your team, please [get in touch](mailto:18f@gsa.gov)!
