@@ -469,6 +469,9 @@ $tiniest: new-breakpoint(max-width 390px);
 		margin-bottom: 0.6em;
 		line-height: 1.2em;
 	}
+	.quiet {
+		color: $medium-gray;
+	}
 }
 .tag-index {
 	.blog-title h1 {
