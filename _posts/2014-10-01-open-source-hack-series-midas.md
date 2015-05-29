@@ -17,8 +17,6 @@ tags:
 - how we work
 - midas
 
-category:
-- Events
 ---
 <p class="authors">
   by {% author sarah %} from the Midas team

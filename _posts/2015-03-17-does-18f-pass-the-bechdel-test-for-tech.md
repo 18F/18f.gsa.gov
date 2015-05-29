@@ -10,10 +10,6 @@ tags:
 - culture
 - coding
 
-category:
-- Design and Code
-
-
 authors:
 - elaine
 - melody

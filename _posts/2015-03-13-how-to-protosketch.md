@@ -9,9 +9,6 @@ tags:
 - how we work
 - agile
 
-category:
-- Design and Code
-
 authors:
 - alan
 - robert

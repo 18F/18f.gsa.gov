@@ -15,8 +15,6 @@ tags:
   - workshop
   - our projects
 
-category:
-  - Guides and Tutorials
 ---
 <p class="authors">
   by {% author robert %}, {% author hillary %}, and {% author sarah %}

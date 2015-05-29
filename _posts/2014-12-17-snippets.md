@@ -15,8 +15,6 @@ tags:
 - culture change
 - how we work
 
-category:
-- How We Work
 ---
 <p class="authors">
   by {% author mbland %}

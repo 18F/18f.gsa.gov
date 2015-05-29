@@ -8,8 +8,6 @@ tags:
 - day in the life
 - culture
 - how we work
-category:
-- Day In The Life
 authors:
 - jamie
 description: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."

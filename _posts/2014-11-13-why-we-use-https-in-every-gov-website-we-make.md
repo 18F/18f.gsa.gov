@@ -12,8 +12,6 @@ tags:
 - https
 - policy
 
-category:
-- How We Work
 ---
 <p class="authors">
   by {% author eric %}

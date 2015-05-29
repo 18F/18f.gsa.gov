@@ -17,9 +17,6 @@ tags:
 - api
 - agile
 
-category:
-- Events
-
 layout: post
 ---
 by {% author gray %}

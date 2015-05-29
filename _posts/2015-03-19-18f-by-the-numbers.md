@@ -8,9 +8,6 @@ tags:
 - how we work
 - anniversary
 
-category:
-- About 18F
-
 
 author:
 - melody

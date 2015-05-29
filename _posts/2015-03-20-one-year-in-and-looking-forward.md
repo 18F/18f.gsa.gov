@@ -9,10 +9,6 @@ tags:
 - success stories
 - anniversary
 
-category:
-- About 18F
-
-
 authors:
 - hillary
 - aaron

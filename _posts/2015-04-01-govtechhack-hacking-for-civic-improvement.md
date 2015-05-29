@@ -7,10 +7,6 @@ tags:
 - 18f
 - events
 
-category:
-- Events
-
-
 authors:
 - kate
 description: "On a recent breezy San Francisco evening, groups of developers,
