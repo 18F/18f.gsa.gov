@@ -9,8 +9,11 @@ authors:
 
 tags:
 - protosketching
-- 18F Consulting
+- 18f consulting
 - how we work
+
+category:
+- Design and Code
 
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 

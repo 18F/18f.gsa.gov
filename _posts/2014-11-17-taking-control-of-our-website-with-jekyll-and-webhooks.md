@@ -12,6 +12,10 @@ tags:
   - jekyll
   - technical
   - howto
+
+category:
+
+  - Design and Code
 ---
 <p class="authors">
   by {% author eric %}, {% author mhz %}, and {% author boone %}

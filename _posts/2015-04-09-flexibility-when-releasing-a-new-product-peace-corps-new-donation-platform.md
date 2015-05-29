@@ -4,7 +4,7 @@ date: '2015-04-09'
 layout: post
 image: /assets/blog/peacecorps/image04.png
 tags:
-- Peace Corps
+- peace corps
 - how we work
 authors:
 - cm

@@ -4,15 +4,19 @@ layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
 date: 2015-03-05
 tags:
-- Procurement
-- Discovery
-- Kaitlin Devine
-- User Research
-- Interview
+- procurement
+- discovery
+- kaitlin devine
+- user research
+- interview
 author:
 - Greg Boone
 - Elaine Kamlley
 - Melody Kramer
+
+category:
+- The Projects We Work On
+
 excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 ---

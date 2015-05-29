@@ -4,10 +4,12 @@ date: '2015-04-08'
 layout: post
 image: /assets/blog/talent-manager/Jamie.jpg
 tags:
-- 18F
+- 18f
 - day in the life
 - culture
 - how we work
+category:
+- Day In The Life
 authors:
 - jamie
 description: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
@@ -61,3 +63,9 @@ By **noon**, I am ready for a break. My SF officemates know that my lunch habits
 **6:00 PM**: I start my walk home listening to my wonderfully (well, depends on who you ask) crafted playlist of the day. I try and take new walking paths as much as possible – this city is still new to me, after all.
 
 That’s what makes me happy here at 18F, too – something and someone new to learn from and about each day. I joined 18F because of that small group of 10 people here in the beginning and I stay here for the 100+ that have joined since then.
+
+**Update:**
+
+A [tweet](https://twitter.com/Shahryar/status/585884382621229056) from @Shahryar said, "Wow, nice read but am I reading this correctly - are you doing an 11.5 hour work day every day?"
+
+The answer is nope! This post is an exaggerated look at my work day — it was the only way to capture all of the hula hooping I do every hour! ([This was my response](https://twitter.com/jmealbrecht/status/585887525643821056) on Twitter.)

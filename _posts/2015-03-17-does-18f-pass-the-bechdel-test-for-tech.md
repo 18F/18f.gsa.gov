@@ -9,6 +9,11 @@ tags:
 - bechdel test
 - culture
 - coding
+
+category:
+- Design and Code
+
+
 authors:
 - elaine
 - melody

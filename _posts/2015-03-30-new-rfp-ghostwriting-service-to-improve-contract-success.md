@@ -9,6 +9,10 @@ tags:
 - services
 - agile
 - procurement
+
+category:
+- The Projects We Work On
+
 authors:
 - robert
 - chrisc

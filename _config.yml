@@ -19,7 +19,16 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
-gems: [jekyll-sitemap]
+gems: 
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - 'tags'
+  layout: tag_index
+  permalinks:
+    tag: '/tags/:name/'
 
 sass:
   sass_dir: assets/_sass

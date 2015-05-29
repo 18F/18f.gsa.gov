@@ -10,6 +10,9 @@ tags:
 authors:
 - melody
 
+category:
+- Accessibility
+
 
 excerpt: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 description: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."

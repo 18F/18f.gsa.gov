@@ -9,6 +9,8 @@ tags:
 - how we work
 authors:
 - 18F
+category:
+- How We Work
 
 description: 'Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and their combined commitment to openness and transparency is transforming the delivery of government digital services in both countries.'
 

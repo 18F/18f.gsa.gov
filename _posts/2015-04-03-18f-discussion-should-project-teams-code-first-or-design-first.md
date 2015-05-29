@@ -3,9 +3,13 @@ title: "18F Discussion: Should Project Teams Code First Or Design First?"
 layout: post
 image: "/assets/blog/code-design/decisions-blue.png"
 tags:
-- 18F
+- 18f
 - how we work
 - design
+
+category:
+- Design and Code
+
 author:
 - melody
 excerpt: "Recently, three members of our team sat down for a conversation about when teams should start coding on a project."
