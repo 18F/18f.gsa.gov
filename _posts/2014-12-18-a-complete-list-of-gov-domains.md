@@ -17,8 +17,6 @@ tags:
 - gsa
 - open government
 
-Category:
-- Guides and Tutorials
 ---
 <p class="authors">
   by {% author eric %} and {% author gray %}

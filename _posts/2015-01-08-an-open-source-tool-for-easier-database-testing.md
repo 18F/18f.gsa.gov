@@ -16,8 +16,6 @@ tags:
 - developer
 - culture
 
-category:
-- Design and Code
 
 ---
 <p class="authors">

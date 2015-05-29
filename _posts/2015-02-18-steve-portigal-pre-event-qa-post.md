@@ -10,9 +10,6 @@ tags:
 - user research
 - user-centered design
 
-category:
-- Design and Code
-
 authors:
 - brethauer
 

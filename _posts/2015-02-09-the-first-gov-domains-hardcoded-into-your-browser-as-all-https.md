@@ -10,9 +10,6 @@ tags:
 - policy
 - hsts
 
-category:
-- Guides and Tutorials
-
 authors:
 - eric
 

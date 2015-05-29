@@ -11,8 +11,6 @@ tags:
 - midas
 - open source
 
-category:
-- Events
 
 description: The October Open Source Hack Night was a huge success, both as a community event and for the positive impact on the Midas project.
 layout: post

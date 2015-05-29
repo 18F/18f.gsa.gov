@@ -9,10 +9,6 @@ tags:
 - procurements
 - how we work
 
-category:
-- Guides and Tutorials
-
-
 author:
 - chrisc
 excerpt: "Clients of 18F Consulting frequently ask for help defining labor categories for agile contracts. We’ve published these definitions in a public GitHub repo so other acquisition professionals can benefit from them, too. Read on for more details."
