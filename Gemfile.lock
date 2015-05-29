@@ -55,7 +55,7 @@ GEM
       jekyll (>= 2.0)
     json (1.8.2)
     kramdown (1.7.0)
-    liquid (3.0.2)
+    liquid (3.0.3)
     listen (2.10.0)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
