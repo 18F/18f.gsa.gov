@@ -396,7 +396,7 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 
-// News and blog pages
+// Blogblog-postin and blog pages
 //********************************************************
 .subscribe {
 	margin-top: 10px;
@@ -509,6 +509,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .blog-posting {
 	h1 {
+		margin-top: 64px;
 	    font-weight: normal;
 	    margin-bottom: 20px;
 	    + p {
