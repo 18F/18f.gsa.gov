@@ -5,6 +5,7 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2014-12-22
 
+require 'jekyll'
 require 'json'
 require 'open-uri'
 require 'safe_yaml'
@@ -21,7 +22,6 @@ DATA_BASEURL = 'https://18f.gsa.gov/hub/api/'
 end
 
 data = JSON.load File.read(File.join(DATA_DIR, 'team.json'))
-fm_rexexp = Regexp.new('^---.*---$', Regexp::MULTILINE)
 
 Dir[File.join [DATA_DIR] + %w(.. _team *)].each do |member_file|
   name = File.basename(member_file, File.extname(member_file))
@@ -31,5 +31,7 @@ Dir[File.join [DATA_DIR] + %w(.. _team *)].each do |member_file|
   member_fm = SafeYAML.load content
   props = ['first_name', 'last_name', 'location', 'role', 'team']
   props.each {|i| member_fm[i] ||= member_data[i]}
-  File.write member_file, content.sub(fm_rexexp, "#{member_fm.to_yaml}---")
+  File.write(member_file,
+    content.sub(Jekyll::Document::YAML_FRONT_MATTER_REGEXP,
+      "#{member_fm.to_yaml}---\n"))
 end
