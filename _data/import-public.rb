@@ -30,7 +30,7 @@ Dir[File.join [DATA_DIR] + %w(.. _team *)].each do |member_file|
   content = File.read member_file
   member_fm = SafeYAML.load content
   props = ['first_name', 'last_name', 'location', 'role', 'team']
-  props.each {|i| member_fm[i] ||= member_data[i]}
+  props.each {|i| member_fm[i] = member_data[i] unless member_data[i].nil?}
   File.write(member_file,
     content.sub(Jekyll::Document::YAML_FRONT_MATTER_REGEXP,
       "#{member_fm.to_yaml}---\n"))
