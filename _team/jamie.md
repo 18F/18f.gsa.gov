@@ -1,8 +1,8 @@
 ---
 name: jamie
-"first_name": "Jamie",
-"last_name": "Albrecht",
-"full_name": "Jamie Albrecht",
+first_name: Jamie
+last_name: Albrecht
+full_name: Jamie Albrecht
 role:
 location: SFO
 github:
