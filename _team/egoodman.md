@@ -1,8 +1,8 @@
 ---
 name: egoodman
-firstname: Elizabeth
-lastname: Goodman
-display: Liz Goodman
+first_name: Elizabeth
+last_name: Goodman
+full_name: Liz Goodman
 role: design researcher
 location: SFO
 github: esgoodman

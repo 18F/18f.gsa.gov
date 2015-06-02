@@ -16,7 +16,7 @@ title: People
     <div class="team">
 
       {% assign sorted = site.team | sort: 'last_name' %}
-      {% for person in sorted %}
+      {% for person in site.team %}
 
       <div class='bio'>
         {% if site.collections.team.output %}
