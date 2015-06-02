@@ -1,5 +1,8 @@
 ---
 name: leah
+"first_name": "Leah",
+"last_name": "Bannon",
+"full_name": "Leah Bannon",
 role:
 location: DCA
 github: leahbannon

@@ -28,12 +28,7 @@ module Jekyll
     end
 
     def finder(name)
-      person = Jekyll.sites[0].collections['team'].docs.find { |n| n = name }
-      if person.data['display']
-        return person.data
-      else
         return Jekyll.sites[0].data['team'][name]
-      end
     end
   end
 end
