@@ -1,5 +1,8 @@
 ---
 name: theresa
+first_name: Theresa
+last_name: Summa
+full_name: Theresa Summa
 role:
 location:
 github:

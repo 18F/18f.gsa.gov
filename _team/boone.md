@@ -1,5 +1,8 @@
 ---
 name: boone
+first_name: Greg
+last_name: Boone
+full_name: Greg Boone
 role:
 location: DCA
 github:

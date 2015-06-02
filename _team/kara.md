@@ -1,5 +1,8 @@
 ---
 name: kara
+first_name: Kara
+last_name: DeFrias
+full_name: Kara DeFrias
 role:
 location:
 github:

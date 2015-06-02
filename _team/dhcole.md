@@ -1,5 +1,8 @@
 ---
 name: dhcole
+first_name: Dave
+last_name: Cole
+full_name: Dave Cole
 role:
 location:
 github:

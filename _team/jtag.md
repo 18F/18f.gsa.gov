@@ -1,5 +1,8 @@
 ---
 name: jtag
+first_name: Jesse
+last_name: Taggert
+full_name: Jesse Taggert
 role:
 location:
 github:

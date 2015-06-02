@@ -1,5 +1,8 @@
 ---
 name: micahsaul
+first_name: Micah
+last_name: Saul
+full_name: Micah Saul
 role:
 location:
 github:

@@ -15,10 +15,8 @@ title: People
     </ul> -->
     <div class="team">
 
-      {% assign sorted = site.data.team | sort: 'last_name' %}
+      {% assign sorted = site.team | sort: 'last_name' %}
       {% for person in sorted %}
-      {% assign profile = site.team | where: 'name', person.name %}
-      {% if profile %}
 
       <div class='bio'>
         {% if site.collections.team.output %}
@@ -31,7 +29,6 @@ title: People
         </a>
       </div>
 
-      {% endif %}
       {% endfor %}
 
     </div>
