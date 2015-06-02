@@ -3,19 +3,14 @@
 <head>
   {% include head.html %}
 </head>
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" id="bio-{{page.name}}">
 
 {% include flag.html %}
 {% include nav.html %}
-<section class="container bare">
+<section class="container bio bare">
 
-  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <a href="/">
-      <i class="icon-18f-logo"><p style="display:none;">18F</p></i>
-    </a>
-  </div>
-  <h2>{{ page.full_name }}</h2>
-  <span>{{ page.role }} | {{ page.team }}</span>
+  {% include logo.html %}
+    {% include team-header.html %}
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}
   </div>

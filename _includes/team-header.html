@@ -1,6 +1,6 @@
 {% assign role = page.role %}
-{% assign location = "new york" %}
-{% assign team = page.name | team_role %}
+{% assign location = page.location %}
+{% assign team = page.team %}
 <div class="bio-header">
 	<h1 class="name">{{ page.name | team_full_name }} {% if page.role %}is a {{ role }}{% endif %} at 18F.</h1>
 	<h2 class="meta">{% if team %}{{ team }} // {% endif %}{{ location }}</h2>

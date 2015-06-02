@@ -897,6 +897,24 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+// Profiles
+.bio {
+	.bio-header {
+		background-color: #18f;
+		color: white;
+		padding: 1em;
+		margin: 1em auto;
+		clear: both;
+		img {
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
 
 // Contact
 //********************************************************
@@ -1020,7 +1038,6 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include span-columns(12);
 }
 .bare-logo, .team-logo {
-	padding-left: 20px;
 	a {
 		text-decoration: none;
 		i {
