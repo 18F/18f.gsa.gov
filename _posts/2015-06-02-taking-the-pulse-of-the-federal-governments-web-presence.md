@@ -94,7 +94,7 @@ We lean heavily on the open source [`site-inspector`](https://github.com/benbalt
 
 To get the precision we wanted, we needed to take into account several subtle things about domains:
 
-* Domains have 4 possible "endpoints" — `https://www`, `https://`, `http://www`, and `http://` — which may each exhibit very different behavior. Describing a domain's HTTPS support means detecting which endpoint is "canonical", as well as looking holistically at which endpoints redirect to others.
+* Domains have 4 possible "endpoints" — `https://www`, `https://`, `http://www`, and `http://` — which may each exhibit very different behavior. Describing a domain's HTTPS support means detecting which endpoint is "canonical," as well as looking holistically at which endpoints redirect to others.
 * A domain's HTTPS certificate might be issued for an invalid hostname (e.g. `a248.e.akamai.net`). In this case, HTTPS is likely an **unsupported** way to access the domain.
 * A domain's HTTPS certificate might have an incomplete or untrusted chain (e.g. missing intermediates, or a private root certificate), in which case HTTPS is likely a **supported** way to access the domain.
 * A domain might set an [HSTS](https://https.cio.gov/hsts/) policy for `www`, but neglect to apply one to the bare domain, negating HSTS policy for its other subdomains.
