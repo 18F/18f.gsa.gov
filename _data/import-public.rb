@@ -23,8 +23,8 @@ end
 data = JSON.load File.read(File.join(DATA_DIR, 'team.json'))
 fm_rexexp = Regexp.new('^---.*---$', Regexp::MULTILINE)
 
-Dir[File.join [DATA_DIR] + %w(.. _team *.md)].each do |member_file|
-  name = File.basename(member_file)[0..-4] # Trim .md extension
+Dir[File.join [DATA_DIR] + %w(.. _team *)].each do |member_file|
+  name = File.basename(member_file, File.extname(member_file))
   member_data = data[name]
   next if member_data.nil?
   content = File.read member_file
