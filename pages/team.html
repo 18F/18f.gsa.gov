@@ -23,7 +23,7 @@ title: People
               <a class="disabled">
               {% endif %}
                   {{ person.name | team_photo }}
-                  {% capture name %}{{ person.name | team_full_name }}{% endcapture %}
+                  {% capture name %}{{ person.full_name }}{% endcapture %}
 					<h1>{{ name }}</h1></a>
 	    		</div>
 				{% endif %}
