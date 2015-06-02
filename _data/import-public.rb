@@ -5,7 +5,6 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2014-12-22
 
-require 'hash-joiner'
 require 'json'
 require 'open-uri'
 require 'safe_yaml'
