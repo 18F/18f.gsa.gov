@@ -31,5 +31,5 @@ Dir[File.join [DATA_DIR] + %w(.. _team *.md)].each do |member_file|
   member_fm = SafeYAML.load content
   props = ['first_name', 'last_name', 'location', 'role', 'team']
   props.each {|i| member_fm[i] ||= member_data[i]}
-  File.write member_file, content.sub(fm_rexexp, "#{member_fm.to_yaml}--")
+  File.write member_file, content.sub(fm_rexexp, "#{member_fm.to_yaml}---")
 end
