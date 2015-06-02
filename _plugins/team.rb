@@ -13,7 +13,7 @@ module Jekyll
 
     def team_full_name(input)
     	person = finder(input)
-    	person['full_name'] unless person.nil?
+    	person['full_name'] || person['display'] unless person.nil?
     end
     
     def team_role(input)
@@ -28,7 +28,12 @@ module Jekyll
     end
 
     def finder(name)
-    	return Jekyll.sites[0].data['team'][name]
+      person = Jekyll.sites[0].collections['team'].docs.find { |n| n = name }
+      if person.data['display']
+        return person.data
+      else
+        return Jekyll.sites[0].data['team'][name]
+      end
     end
   end
 end

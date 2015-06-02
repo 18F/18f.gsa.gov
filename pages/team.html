@@ -24,11 +24,7 @@ title: People
               {% endif %}
                   {{ person.name | team_photo }}
                   {% capture name %}{{ person.name | team_full_name }}{% endcapture %}
-                  	{% if name.size > 0 %}
-							<h1>{{ name }}</h1></a>
-					{% else %}
-						<h1>{{ person.display }}</h1>
-					{% endif %}
+					<h1>{{ name }}</h1></a>
 	    		</div>
 				{% endif %}
 	    {% endfor %}
