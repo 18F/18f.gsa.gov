@@ -1,5 +1,8 @@
 ---
 name: gray
+first_name: Gray
+last_name: Brooks
+full_name: Gray Brooks
 role:
 location: DCA
 github:

@@ -1,5 +1,8 @@
 ---
 name: vdavez
+first_name: V David
+last_name: Zvenyach
+full_name: V David Zvenyach
 role:
 location:
 github:

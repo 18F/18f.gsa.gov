@@ -1,5 +1,8 @@
 ---
 name: leahg
+first_name: Leah
+last_name: Gitter
+full_name: Leah Gitter
 role:
 location:
 github:

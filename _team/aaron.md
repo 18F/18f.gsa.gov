@@ -1,5 +1,8 @@
 ---
 name: aaron
+first_name: Aaron
+last_name: Snow
+full_name: Aaron Snow
 role: executive director
 location: DCA
 github:

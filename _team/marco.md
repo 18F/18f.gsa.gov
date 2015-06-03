@@ -1,5 +1,8 @@
 ---
 name: marco
+first_name: Marco
+last_name: Segreto
+full_name: Marco Segreto
 role:
 location:
 github:

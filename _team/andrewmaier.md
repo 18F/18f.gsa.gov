@@ -1,5 +1,8 @@
 ---
 name: andrewmaier
+first_name: Andrew
+last_name: Maier
+full_name: Andrew Maier
 role:
 location:
 github:
