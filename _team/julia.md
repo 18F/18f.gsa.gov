@@ -1,5 +1,8 @@
 ---
 name: julia
+first_name: Julia
+last_name: Elman
+full_name: Julia Elman
 role:
 location:
 github:

@@ -1,5 +1,8 @@
 ---
 name: jhunter
+first_name: Jeannine
+last_name: Hunter
+full_name: Jeannine Hunter
 role:
 location:
 github:

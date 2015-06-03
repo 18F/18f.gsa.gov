@@ -1,6 +1,9 @@
 ---
 name: afeld
 role: developer
+first_name: Aidan
+last_name: Feldman
+full_name: Aidan Feldman
 ---
 Aidan's weapons of choice are usually Ruby and JavaScript. Aidan uses those tools to build web applications for federal agencies, work on internal tools and documentation, and promote open source, collaboration and communication. “An interesting thing about working in the public sector is that, unlike working at a product company, people generally don't have a choice but to use the thing you build,” he says. “Therefore, the goal is not increasing engagement or selling more widgets, but enabling the users to get the information or task done with as little frustration and hassle as possible.”
 

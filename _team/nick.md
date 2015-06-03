@@ -1,5 +1,8 @@
 ---
 name: nick
+first_name: Nick
+last_name: Bristow
+full_name: Nick Bristow
 role:
 location:
 github:

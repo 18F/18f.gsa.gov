@@ -1,5 +1,8 @@
 ---
 name: pia
+first_name: Pia
+last_name: Scott
+full_name: Pia Scott
 role:
 location:
 github:

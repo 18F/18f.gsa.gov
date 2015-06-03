@@ -1,5 +1,8 @@
 ---
 name: khandelwal
+first_name: Shashank
+last_name: Khandelwal
+full_name: Shashank Khandelwal
 role:
 location:
 github:

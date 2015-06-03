@@ -1,5 +1,8 @@
 ---
 name: noah
+first_name: Noah
+last_name: Kunin
+full_name: Noah Kunin
 role: Director of Delivery Architecture and Infrastructure Services
 location: DCA
 github: https://github.com/noahkunin
