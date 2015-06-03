@@ -1,5 +1,8 @@
 ---
 name: alan
+first_name: Alan
+last_name: DeLevie
+full_name: Alan deLevie
 role:
 location: DCA
 github:

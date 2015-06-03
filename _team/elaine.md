@@ -1,5 +1,8 @@
 ---
 name: elaine
+first_name: Elaine
+last_name: Kamlley
+full_name: Elaine Kamlley
 role:
 location: DCA
 github:

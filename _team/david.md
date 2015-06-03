@@ -1,5 +1,8 @@
 ---
 name: david
+first_name: David
+last_name: Best
+full_name: David Best
 role:
 location: DCA
 github:

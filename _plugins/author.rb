@@ -6,9 +6,9 @@ module Jekyll
     end
 
     def render(context)
-      teammate = context.registers[:site].data['team'][@author]
+      teammate = finder('team', @author)
       if teammate.nil?
-        teammate = context.registers[:site].data['pif_team'][@author]
+        teammate = finder('pif_team', @author)
       end
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
@@ -19,13 +19,18 @@ module Jekyll
         raise Exception.new("No teammate found by that name: #{@author}")
       end
     end
+
+    def finder(group, name)
+        return Jekyll.sites[0].data[group].find {|member| member["name"] == name}
+    end
+
   end
 
   module AuthorFilter
     def with_pic(input)
       name = input[0]
       info = input[1]
-      image = File.join 'assets', 'images', 'team', "#{name}.jpg" 
+      image = File.join 'assets', 'images', 'team', "#{name}.jpg"
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>"
       else

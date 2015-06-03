@@ -1,5 +1,8 @@
 ---
 name: sasha
+first_name: Sasha
+last_name: Magee
+full_name: Sasha Magee
 role:
 location:
 github:

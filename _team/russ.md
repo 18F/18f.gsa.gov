@@ -1,5 +1,8 @@
 ---
 name: russ
+first_name: Russ
+last_name: Unger
+full_name: Russ Unger
 role:
 location:
 github:

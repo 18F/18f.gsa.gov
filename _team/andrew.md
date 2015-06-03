@@ -1,5 +1,8 @@
 ---
 name: andrew
+first_name: Andrew
+last_name: Stroup
+full_name: Andrew Stroup
 role:
 location:
 github:

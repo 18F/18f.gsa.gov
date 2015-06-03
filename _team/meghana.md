@@ -1,5 +1,8 @@
 ---
 name: meghana
+first_name: Meghana
+last_name: Khandekar
+full_name: Meghana Khandekar
 role:
 location:
 github:

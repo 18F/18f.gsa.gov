@@ -1,5 +1,8 @@
 ---
 name: mhz
+first_name: Michelle
+last_name: Hertzfeld
+full_name: Michelle Hertzfeld
 role: 
 location: 
 github:
