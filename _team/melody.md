@@ -1,5 +1,8 @@
 ---
 name: melody
+first_name: Melody
+last_name: Kramer
+full_name: Melody Kramer
 role:
 location:
 github:

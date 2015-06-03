@@ -10,10 +10,6 @@ tags:
 - interior
 - sunshine week
 
-category:
-- Events
-
-
 authors:
 - mhz
 - boone

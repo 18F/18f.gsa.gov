@@ -11,9 +11,6 @@ authors:
 - eric
 - gray
 
-category:
-- How We Work
-
 excerpt: "Today, the White House's Office of Management and Budget is releasing a draft proposal for public comment: The HTTPS-Only Standard, at https.cio.gov.
 
 This proposal would require all new and existing publicly accessible federal websites and web services to enforce a secure, private connection with HTTPS

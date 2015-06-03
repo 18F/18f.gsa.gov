@@ -21,8 +21,6 @@ tags:
 - workshop
 - eiti
 
-category:
-- Design and Code
 
 ---
 <p class="authors">

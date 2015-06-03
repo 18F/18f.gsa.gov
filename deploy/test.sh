@@ -24,7 +24,7 @@ else
   CODE=1;
 fi
 # check that the blog was generated
-if [ -s "_site/news/index.html" ]
+if [ -s "_site/blog/index.html" ]
 then
   echo "Blog generated correctly";
 else
@@ -32,7 +32,7 @@ else
   CODE=1;
 fi
 # check that a blog pagination is generating and not empty
-if [ -s "_site/news/page/2/index.html" ]
+if [ -s "_site/blog/page/2/index.html" ]
 then
   echo "blog pagination generated correctly";
 else

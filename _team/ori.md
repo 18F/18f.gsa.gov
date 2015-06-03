@@ -1,5 +1,8 @@
 ---
 name: ori
+first_name: Ori
+last_name: Hoffer
+full_name: Ori Hoffer
 role:
 location:
 github:

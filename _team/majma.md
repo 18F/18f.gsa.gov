@@ -1,5 +1,8 @@
 ---
 name: majma
+first_name: Raphael
+last_name: Majma
+full_name: Raphael Majma
 role:
 location:
 github:

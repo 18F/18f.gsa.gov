@@ -8,9 +8,6 @@ tags:
 - events
 - how we work
 
-category:
-- Guides and Tutorials
-
 authors:
 - melody
 - becky

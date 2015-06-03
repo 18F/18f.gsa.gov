@@ -3,11 +3,11 @@ name: jamie
 first_name: Jamie
 last_name: Albrecht
 full_name: Jamie Albrecht
-role:
+role: Talent Manager
 location: SFO
-github:
-twitter:
-team:
+github: jamiealbrecht
+twitter: jmealbrecht
+team: Talent
 ---
 
 Jamie leads the hiring effort from the process and operations side of things. What does this mean? In her own words: "I take the bureaucratic, challenging, weird federal hiring process and make it better, faster, and more human."

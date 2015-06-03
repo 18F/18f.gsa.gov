@@ -8,10 +8,6 @@ tags:
 - open government
 - dap
 
-category:
-- The Projects We Work On
-
-
 authors:
 - eric
 - gramirez

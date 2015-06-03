@@ -1,5 +1,8 @@
 ---
 name: ozzy
+first_name: Ozzy
+last_name: Johnson
+full_name: Ozzy Johnson
 role:
 location:
 github:
