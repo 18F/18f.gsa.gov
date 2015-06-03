@@ -898,19 +898,44 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 // Profiles
-.bio {
+.profile {
 	.bio-header {
-		background-color: #18f;
-		color: white;
-		padding: 1em;
-		margin: 1em auto;
-		clear: both;
+		@include media($tiny) {
+			background-color: #18f;
+			color: white;
+			padding: 1em;
+			margin: 1em auto;
+			clear: both;
+			height: auto;
+			img {
+				-moz-border-radius: 100%;
+				-webkit-border-radius: 100%;
+				border-radius: 100%;
+				display: block;
+				margin: 0 auto;
+			}
+			h1, h2 {
+				margin: 1em auto;
+			}
+		}
+		h1, h2 {
+			float: left;
+			display: block;
+			position: relative;
+			margin-right: 6.6em;
+		}
+		h1 {
+			font-size: 2em;
+		}
+		h2 {
+			font-size: 1.8em;
+		}
 		img {
-			-moz-border-radius: 100%;
-			-webkit-border-radius: 100%;
+			float: left;
 			border-radius: 100%;
 			display: block;
-			margin: 0 auto;
+			bottom: 130px;
+			position: relative;
 		}
 	}
 }
@@ -989,7 +1014,7 @@ $tiniest: new-breakpoint(max-width 390px);
 // Bare Template
 //********************************************************
 
-.bare {
+.bare, .profile {
 	@extend %section-padding;
 	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {
