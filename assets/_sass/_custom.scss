@@ -901,41 +901,40 @@ $tiniest: new-breakpoint(max-width 390px);
 .profile {
 	.bio-header {
 		@include media($tiny) {
-			background-color: #18f;
-			color: white;
-			padding: 1em;
-			margin: 1em auto;
-			clear: both;
-			height: auto;
+		background-color: #18f;
+		color: white;
+		padding: 1em;
+		margin: 1em auto;
+		clear: both;
+		height: auto;
+			@include media($smallest) {
+				h1, h2 {
+					float: left;
+					display: block;
+					position: relative;
+					margin-right: 6.6em;
+				}
+				h1 {
+					font-size: 2em;
+				}
+				h2 {
+					font-size: 1.8em;
+				}
+				img {
+					float: left;
+					border-radius: 100%;
+					display: block;
+					bottom: 130px;
+					position: relative;
+				}
+			}
 			img {
-				-moz-border-radius: 100%;
-				-webkit-border-radius: 100%;
+				float: left;
 				border-radius: 100%;
 				display: block;
-				margin: 0 auto;
+				bottom: 130px;
+				position: relative;
 			}
-			h1, h2 {
-				margin: 1em auto;
-			}
-		}
-		h1, h2 {
-			float: left;
-			display: block;
-			position: relative;
-			margin-right: 6.6em;
-		}
-		h1 {
-			font-size: 2em;
-		}
-		h2 {
-			font-size: 1.8em;
-		}
-		img {
-			float: left;
-			border-radius: 100%;
-			display: block;
-			bottom: 130px;
-			position: relative;
 		}
 	}
 }
