@@ -46,42 +46,43 @@ to a server on `localhost:8080`, configured as another Nginx
 `server` block, that just serves the pre-generated Jekyll site:
 
 ```
-  server {
-	listen 443 ssl spdy;
-	server_name hub.18f.gov;
-	include ssl/star.18f.gov.conf;
+server {
+    listen 443 ssl spdy;
+    server_name hub.18f.gov;
+    include ssl/star.18f.gov.conf;
 
-	location /logo.png {
-		alias /home/ubuntu/18f-hub/_site/assets/images/logo-18f-oauth.png;
-	}
+    location /logo.png {
+        alias /home/ubuntu/18f-hub/_site/assets/images/logo-18f-oauth.png;
+    }
 
-	location / {
-		proxy_pass http://127.0.0.1:4180/;
-		proxy_set_header Host $host;
-		proxy_set_header X-Real-IP $remote_addr;
-		proxy_set_header X-Scheme $scheme;
-		proxy_connect_timeout 1;
-		proxy_send_timeout 30;
-		proxy_read_timeout 30;
-	  }
-  }
+    location / {
+        proxy_pass http://127.0.0.1:4180/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_connect_timeout 1;
+        proxy_send_timeout 30;
+        proxy_read_timeout 30;
+    }
+}
 
-  server {
-		listen 127.0.0.1:8080;
-		server_name hub.18f.gov;
-		port_in_redirect off;
-		error_page 404 /404/index.html;
+server {
+    listen 127.0.0.1:8080;
+    server_name hub.18f.gov;
+    port_in_redirect off;
+    error_page 404 /404/index.html;
 
-	location / {
-		ssi on;
-		root /home/ubuntu/hub/_site;
-		index index.html api.json;
-		default_type text/html;
-		set $authenticated_user $http_x_forwarded_email;
-		set $access_token $http_x_forwarded_access_token;
-	  }
-  }
+    location / {
+        ssi on;
+        root /home/ubuntu/hub/_site;
+        index index.html api.json;
+        default_type text/html;
+        set $authenticated_user $http_x_forwarded_email;
+        set $access_token $http_x_forwarded_access_token;
+    }
+}
 ```
+
 This worked really well for 18F, but there was a problem. Not all
 government agencies use Google Apps, and we wanted to be able to permit
 guests from other agencies access to our internal Hub or set up their
