@@ -7,7 +7,7 @@ tags:
 - 18f
 - events
 - how we work
-
+- hackathon
 authors:
 - melody
 - becky
