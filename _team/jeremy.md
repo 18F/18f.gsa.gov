@@ -3,11 +3,11 @@ name: jeremy
 first_name: Jeremy
 last_name: Canfield
 full_name: Jeremy Canfield
-role:
-location: JFK
+role: UX Researcher
+location: NY
 github:
 twitter:
-team:
+team: Design
 ---
 
 Jeremy is an experience designer and researcher who's job is to build our understanding of how people outside of government work and live, so we can build things that fit seamlessly and delightfully into their lives. Jeremy's first project at 18F, which shipped, was with Peace Corps, centered around the Let Girls Learn initiative and is co-coordinator of the research guild, which is aimed at helping our projects stay laser focused on the user. 

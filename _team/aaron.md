@@ -3,11 +3,11 @@ name: aaron
 first_name: Aaron
 last_name: Snow
 full_name: Aaron Snow
-role: executive director
-location: DCA
+role: Executive Director
+location: DC
 github:
 twitter:
-team:
+team: Leadership
 ---
 Aaron is the Acting Executive Director of 18F. Aaron says he views the job as getting the project teams what they need, clearing the path for them, and then getting out of the way. “I think I’ve done my job well if most of the time, most of the team feels like it’s in a fast-paced, mission-driven company — not a government agency,” he says.
 

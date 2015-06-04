@@ -4,7 +4,7 @@ first_name: Jamie
 last_name: Albrecht
 full_name: Jamie Albrecht
 role: Talent Manager
-location: SFO
+location: CA
 github: jamiealbrecht
 twitter: jmealbrecht
 team: Talent
