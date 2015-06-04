@@ -902,17 +902,23 @@ $tiniest: new-breakpoint(max-width 390px);
 	.bio-header {
 		background-color: #18f;
 		color: white;
-		height: auto;
+		height: 8em;
 		clear: both;
 		position: relative;
+		overflow: visible;
+		padding: 2em 2em 0 2em;
 		img {
 			border-radius: 100%;
+			position: relative;
+			bottom: 80px;
+			left: 190px;
 		}
 		h1, h2 {
 			float: left;
 			display: block;
 			position: relative;
-			margin-right: 6.6em;
+			clear: both;
+			padding-top: 0;
 		}
 		h1 {
 			font-size: 2em;
@@ -921,10 +927,14 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 1.8em;
 		}
 		@include media($smallest) {
+			height: auto;
+			margin-top: 15px;
 			img {
 				border-radius: 100%;
 				display: block;
 				margin: 1em auto;
+				bottom: auto;
+				left:auto;
 			}
 			h1, h2 {
 				float: left;
