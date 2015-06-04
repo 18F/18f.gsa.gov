@@ -1082,14 +1082,18 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
-.bare-logo {
-	@include span-columns(2);
+.bare-logo, .team-logo {
+
 }
+/*
 .team-logo {
 	@include span-columns(12);
 	padding-top: 40px;
 }
+*/
 .bare-logo, .team-logo {
+	@include span-columns(2);
+	padding-top: 40px;
 	a {
 		text-decoration: none;
 		i {
