@@ -810,11 +810,21 @@ $tiniest: new-breakpoint(max-width 390px);
 #team {
 	@include outer-container;
 	.intro {
-		@include span-columns(10 of 12);
+		@include span-columns(8 of 12);
 		margin-left: 15%;
 		margin-top: -65px;
 		h1 {
 			margin-bottom: 10px;
+		}
+		@include media($smallest) {
+			@include span-columns(12 of 12);
+			margin-left: 0;
+			padding-top: 64px;
+		}
+		@include media($tiny) {
+			@include span-columns(12 of 12); 
+			margin-left: 0;
+			padding-top: 64px;
 		}
 	}
 	.bio {
