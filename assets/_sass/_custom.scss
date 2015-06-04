@@ -917,51 +917,58 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Profiles
 .profile {
-	.bio-header {
-		background-color: #18f;
-		color: white;
-		height: 8em;
-		clear: both;
+	.bare-content{
+		p {
+			margin-left: 7em;
+		}
+	}
+}
+// Headline
+.headline {
+	background-color: #18f;
+	color: white;
+	height: 8em;
+	clear: both;
+	position: relative;
+	overflow: visible;
+	padding: 2em 0em 0 7em; 
+	img {
+		border-radius: 100%;
 		position: relative;
-		overflow: visible;
-		padding: 2em 2em 0 2em;
+		bottom: 80px;
+		left: 190px;
+	}
+	h1, h2 {
+		float: left;
+		display: block;
+		position: relative;
+		clear: both;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.8em;
+	}
+	@include media($smallest) {
+		height: auto;
+		margin-top: 15px;
 		img {
 			border-radius: 100%;
-			position: relative;
-			bottom: 80px;
-			left: 190px;
+			display: block;
+			margin: 1em auto;
+			bottom: auto;
+			left:auto;
 		}
 		h1, h2 {
 			float: left;
 			display: block;
 			position: relative;
-			clear: both;
-			padding-top: 0;
-		}
-		h1 {
-			font-size: 2em;
-		}
-		h2 {
-			font-size: 1.8em;
-		}
-		@include media($smallest) {
-			height: auto;
-			margin-top: 15px;
-			img {
-				border-radius: 100%;
-				display: block;
-				margin: 1em auto;
-				bottom: auto;
-				left:auto;
-			}
-			h1, h2 {
-				float: left;
-				display: block;
-				position: relative;
-				margin-right: 0;
-				width: 100%;
-				text-align: center;
-			}
+			margin-right: 0;
+			width: 100%;
+			text-align: center;
 		}
 	}
 }
@@ -1040,7 +1047,7 @@ $tiniest: new-breakpoint(max-width 390px);
 // Bare Template
 //********************************************************
 
-.bare, .profile {
+.bare, {
 	@extend %section-padding;
 	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {

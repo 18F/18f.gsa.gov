@@ -1,9 +1,0 @@
-{% assign role = page.role %}
-{% assign location = page.location %}
-{% assign team = page.team %}
-<div class="header bio-header">
-	<h1 class="name">{{ page.full_name }}: {{ role }}</h1>
-	<h2 class="meta">{{team}} // {% if location %}{{ location }}{% endif %}</h2>
-	{{ page.name | team_photo }}
-</div>
-<div class="clearfix"></div>
