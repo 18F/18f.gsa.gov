@@ -117,7 +117,7 @@ Since then, I’ve contributed a host of other changes to the main
 oauth2\_proxy repository, both to solve minor issues ([sign-in page redirection](https://github.com/bitly/google_auth_proxy/pull/82), email
 address [case sensitivity](https://github.com/bitly/google_auth_proxy/pull/83)) and
 to implement handy new features ([automatic refresh](https://github.com/bitly/google_auth_proxy/pull/88) of the
-auth cookie, [watching the authenticated emails file](https://github.com/bitly/google_auth_proxy/pull/90) for updates,
+auth cookie, [watching the authenticated emails file](https://github.com/bitly/google_auth_proxy/pull/89) for updates,
 blocking crawlers with
 [robots.txt](https://github.com/bitly/google_auth_proxy/pull/90)).
 I’ve also figured out how to configure the oauth2\_proxy to provide

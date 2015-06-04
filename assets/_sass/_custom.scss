@@ -809,6 +809,24 @@ $tiniest: new-breakpoint(max-width 390px);
 
 #team {
 	@include outer-container;
+	.intro {
+		@include span-columns(8 of 12);
+		margin-left: 15%;
+		margin-top: -65px;
+		h1 {
+			margin-bottom: 10px;
+		}
+		@include media($smallest) {
+			@include span-columns(12 of 12);
+			margin-left: 0;
+			padding-top: 64px;
+		}
+		@include media($tiny) {
+			@include span-columns(12 of 12); 
+			margin-left: 0;
+			padding-top: 64px;
+		}
+	}
 	.bio {
 		@include span-columns(2 of 12);
 		margin: 1.5em 0 3em 1.5%;
@@ -1069,6 +1087,7 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 .team-logo {
 	@include span-columns(12);
+	padding-top: 40px;
 }
 .bare-logo, .team-logo {
 	a {
