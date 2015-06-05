@@ -6,9 +6,10 @@
 //********************************************************
 //$biggest: new-breakpoint(min-width 1430px); //untested
  //////BASE SIZE HERE//////
-$small: new-breakpoint(max-width 1130px);
-$smaller: new-breakpoint(max-width 995px);
-$smallest: new-breakpoint(max-width 785px);
+$bigger: new-breakpoint(max-width 1130px);
+$big: new-breakpoint(max-width 995px);
+$medium: new-breakpoint(max-width 860px);
+$small: new-breakpoint(max-width 785px);
 $tiny: new-breakpoint(max-width 590px);
 $tinier: new-breakpoint(max-width 480px); //only used in hero unit
 $tiniest: new-breakpoint(max-width 390px);
@@ -16,7 +17,7 @@ $tiniest: new-breakpoint(max-width 390px);
 // Site-wide media queries
 //********************************************************
 .mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
-	@include media($small) {
+	@include media($bigger) {
     	padding-left: 5%;
     	padding-right: 5%;
 	}
@@ -55,7 +56,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	font-size: 1.4em;
 	line-height: 1.6em;
 	padding-top: 1em;
-	@include media($smallest) {
+	@include media($small) {
 		font-size: 1.2em;
 	}
 }
@@ -121,13 +122,13 @@ $tiniest: new-breakpoint(max-width 390px);
 	top: 50px;
 	left: 50px;
 	z-index: 20;
-  	@include media($smaller) {
+  	@include media($big) {
   		height: 100px;
 		width: 100px;
 		top: 40px;
 		left: 20px;
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 75px;
 		width: 75px;
   	}
@@ -149,16 +150,16 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 3.6em;
 		padding: 30px 50px;
 		z-index: 10;
-	  	@include media($small) {
+	  	@include media($bigger) {
 			top: 295px;
 	  	}
-  		@include media($smaller) {
+  		@include media($big) {
 			top: 208px;
 	  		width: 100%;
   			font-size: 3.2em;
   			padding: 30px 20px;
   		}
-  		@include media($smallest) {
+  		@include media($small) {
 			top: 145px;
   			font-size: 3em;
   			padding: 20px 20px;
@@ -184,15 +185,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		color:#fff;
   	font-size: 1em;
   	text-shadow: 1px 1px 2px #000;
-  	@include media($small) {
+  	@include media($bigger) {
   		top: 275px;
   	}
-  	@include media($smaller) {
+  	@include media($big) {
   		top: 200px;
 		margin-top: 160px;
   		font-size: 0.9em;
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		top: 145px;
 		margin-top: 124px;
   		font-size: 0.8em;
@@ -214,7 +215,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		i {
   			vertical-align: middle;
   			padding: 17px 20px 15px 50px;
-	  		@include media($smaller) {
+	  		@include media($big) {
 	  			padding-left: 20px;
 	  		}
 	  		@include media($tinier) {
@@ -224,7 +225,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		.icon-camera {
 	  		font-size: 30px;
 	  		margin-right: 10px;
-	  		@include media($smaller) {
+	  		@include media($big) {
 	  			font-size: 20px;
 	  		}
 	  		@include media($tiny) {
@@ -282,7 +283,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($smallest) {
+	@include media($small) {
 		border: 1px solid $dark-gray;
 		a {
 			display: block;
@@ -320,7 +321,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 .global-nav ul:last-child {
-	@include media($smallest) {
+	@include media($small) {
 		border-top: 1px solid $medium-gray;
 	}
 }
@@ -332,7 +333,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	background-image: url(/assets/images/lightbulb.png);
 	background-size: 10%;
 	background-position: 90% 50%;
-	@include media($smaller) {
+	@include media($big) {
 		background-position: 87% 50%;
 	}
 	background-repeat: no-repeat;
@@ -368,7 +369,7 @@ $tiniest: new-breakpoint(max-width 390px);
   	position: relative;
 	font-size: 1.2em;
   	@extend %heading-text-style;
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 80px;
   	}
   	@include media($tiniest) {
@@ -383,7 +384,7 @@ $tiniest: new-breakpoint(max-width 390px);
   	top: 0px;
   	height: 100px;
   	padding: 30px 50px;
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 80px;
   	}
   	@include media($tiniest) {
@@ -562,7 +563,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		float:left;
 		max-width: 40%;
 		margin: 0 1em 0 0;
-		@include media($small) {
+		@include media($bigger) {
 			float: left;
 			max-width: 40%;
 			margin: 0 1em 0 0;
@@ -578,7 +579,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		float:right;
 		max-width: 40%;
 		margin: 0 1em 0 0;
-		@include media($small) {
+		@include media($bigger) {
 			float: right;
 			max-width: 40%;
 			margin: 0 1em 0 0;
@@ -594,7 +595,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		max-width: 60%;
 		margin: 0 auto;
 		display: block;
-		@include media($small) {
+		@include media($bigger) {
 			max-width: 50%;
 			margin: 0 auto;
 		}
@@ -713,14 +714,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 50px;
 		left: 50px;
 		z-index: 20;
-	  	@include media($smaller) {
+	  	@include media($big) {
 	  		height: 100px;
 			width: 100px;
 			top: 40px;
 			left: 20px;
   		}
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 75px;
 		width: 75px;
   	}
@@ -772,7 +773,7 @@ $tiniest: new-breakpoint(max-width 390px);
 .pif-content {
 	@include span-columns(9);
 	@include omega();
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 	}
 	@include media($tiny) {
@@ -816,7 +817,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		h1 {
 			margin-bottom: 10px;
 		}
-		@include media($smallest) {
+		@include media($small) {
 			@include span-columns(12 of 12);
 			margin-left: 0;
 			padding-top: 64px;
@@ -836,14 +837,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		max-height: 2.4em;
 	  line-height: 1.2em;
 		margin-bottom: 7em;
-		@include media($smaller) {
+		@include media($big) {
 			@include span-columns(2 of 12);
 			@include omega();
 			padding-left: 1%;
 			margin-top: 1em;
 			margin-bottom: 6em
 		}
-		@include media($smallest) {
+		@include media($small) {
 			@include span-columns(2 of 12);
 			@include omega();
 		}
@@ -885,13 +886,13 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	.bio:nth-child(10n+6) {
 		margin-left: 120px;
-		@include media($smaller) {
+		@include media($big) {
 			margin-left: 0;
 		}
 	}
 	.bio:first-child, .bio:nth-child(10n+11) {
 		margin-left: 60px;
-		@include media($smaller) {
+		@include media($big) {
 			margin-left:0;
 		}
 	}
@@ -918,6 +919,7 @@ $tiniest: new-breakpoint(max-width 390px);
 // Profiles
 .profile {
 	.bare-content{
+		margin-top: 80px;
 		p, aside {
 			margin-left: 7em;
 		}
@@ -928,27 +930,31 @@ $tiniest: new-breakpoint(max-width 390px);
 	background-color: #18f;
 	color: white;
 	height: auto;
+	height: 8em;
 	clear: both;
 	position: relative;
 	overflow: visible;
 	padding: 2em 0em 0 7em; 
-	@include media($smallest) {
+	@include media($medium) {
 		min-height: auto !important;
 		max-height: auto !important;
+		height: auto;
 		margin-top: 15px;
 		padding-left: 0;
 	}
 	img {
 		border-radius: 100%;
-		position: relative;
-		bottom: 80px;
-		left: 190px;
-		@include media($smallest) {
+		position: fixed;
+		top: 180px;
+		right: 0;
+		@include media($medium) {
 			border-radius: 100%;
 			display: block;
 			margin: 1em auto;
-			bottom: auto;
-			left:auto;
+			top: auto;
+			right: auto;
+			position: relative;
+			
 		}
 	}
 	h1, h2 {
@@ -960,7 +966,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-bottom: 0 !important;
 		min-width: 500px;
 		max-width: 570px;
-		@include media($smallest) {
+		@include media($medium) {
 			float: left;
 			display: block;
 			position: relative;
@@ -986,10 +992,10 @@ $tiniest: new-breakpoint(max-width 390px);
 .contact-form {
 	@include span-columns(4);
 	@extend %section-padding;
-	@include media($small) {
+	@include media($bigger) {
 		@include span-columns(5);
 	}
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 		@include shift(1);
 	}
@@ -1008,11 +1014,11 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: $small-text;
 		}
 	}
-	@include media($small) {
+	@include media($bigger) {
 		@include span-columns(6);
 		@include shift(0);
 	}
-	@include media($smaller) {
+	@include media($big) {
 		p {
 			font-size: 1.3em;
 			&:last-of-type {
@@ -1021,7 +1027,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(8);
 		@include shift(2);
 		padding-top: 0;
@@ -1061,7 +1067,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 1.85em;
 		padding-top: 40px;
 		padding-bottom: 20px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1.65em;
 			padding-top: 10px;
 		}
@@ -1073,7 +1079,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 30px;
 		padding-top: 15px;
 		padding-bottom: 10px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1.2em;
 		}
 	}
@@ -1082,7 +1088,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-weight: normal;
 		font-size: 1.2em;
 		padding-bottom: 4px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1em;
 		}
 	}
@@ -1114,7 +1120,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: 6em;
 			color: $blue;
 		}
-		@include media($smallest) {
+		@include media($small) {
 			i {
 				font-size: 5em;
 			}
@@ -1134,7 +1140,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 	@include span-columns(9);
 	@include omega();
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 	}
 	@include media($tiny) {
@@ -1247,14 +1253,14 @@ $tiniest: new-breakpoint(max-width 390px);
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
-	@include media($smallest) {
+	@include media($small) {
 		padding-top: 40px;
 	}
 	padding-bottom: 20px;
 	h1 {
 		font-size: 1.2em;
 		padding-bottom: 0.3em;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1em;
 			padding-bottom: 0.1em;
 		}
@@ -1296,7 +1302,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		&:hover, &:focus {
   			text-decoration: underline;
   		}
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 0.8em;
 		}
 		@include media($tiniest) {
