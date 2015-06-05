@@ -3,11 +3,11 @@ name: boone
 first_name: Greg
 last_name: Boone
 full_name: Greg Boone
-role:
-location: DCA
-github:
-twitter:
-team:
+role: Developer
+location: DC
+github: gboone
+twitter: gboone42
+team: Outreach
 ---
 
 Greg works on the team that builds, codes, and publishes 18F's website. In his words, "I tell people I help a team of 100 people who want to make their government better.The projects I work on directly support the work that everybody else on this team does. Having a better website and a robust blog helps us tell every American how their government is getting better and helps recruits more amazing people to join us."
