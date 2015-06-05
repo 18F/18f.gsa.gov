@@ -17,6 +17,8 @@ $tiniest: new-breakpoint(max-width 390px);
 // Site-wide media queries
 //********************************************************
 .mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	@include media($bigger) {
     	padding-left: 5%;
     	padding-right: 5%;
@@ -39,7 +41,6 @@ $tiniest: new-breakpoint(max-width 390px);
   	background-color: rgba(0,0,0,.4);
 }
 %section-padding {
-	padding-top: 40px;
 	padding-bottom: 40px;
 	@include media($tiniest) {
 			padding-top: 25px;
@@ -251,12 +252,16 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Global nav
 //********************************************************
+.global-nav.homepage {
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
 .global-nav {
+	float: right;
+	clear: none;
 	display: block;
 	width: auto;
-	position: absolute;
-	right:0;
-	top: 20px;
 	z-index: 999;
 	background-color: white;
 	font-size: .9em;
@@ -1062,7 +1067,6 @@ $tiniest: new-breakpoint(max-width 390px);
 
 .bare, {
 	@extend %section-padding;
-	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;

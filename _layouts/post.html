@@ -6,14 +6,15 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 {% include flag.html %}
-{% include nav.html %}
+
 <section class="container bare">
-
-  {% include logo.html %}
-
+	{% include nav.html %}
+	{% include logo.html %}
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
 
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
 
