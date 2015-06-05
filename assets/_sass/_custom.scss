@@ -944,8 +944,8 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	img {
 		border-radius: 100%;
-		position: fixed;
-		top: 180px;
+		position: absolute;
+		top: -60px;
 		right: 0;
 		@include media($medium) {
 			border-radius: 100%;
