@@ -920,6 +920,9 @@ $tiniest: new-breakpoint(max-width 390px);
 	.bare-content{
 		p {
 			margin-left: 7em;
+			@include media($smallest) {
+				margin-left: 0;
+			}
 		}
 	}
 }
@@ -955,6 +958,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include media($smallest) {
 		height: auto;
 		margin-top: 15px;
+		padding-left: 0;
 		img {
 			border-radius: 100%;
 			display: block;
@@ -967,6 +971,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			display: block;
 			position: relative;
 			margin-right: 0;
+			margin-left: 0;
 			width: 100%;
 			text-align: center;
 		}

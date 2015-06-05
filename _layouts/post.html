@@ -9,18 +9,13 @@
 {% include nav.html %}
 <section class="container bare">
 
-  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <a href="/">
-      <p style="display: none;">18F logo</p>
-      <i class="icon-18f-logo"></i>
-    </a>
-  </div>
+  {% include logo.html %}
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
 
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+			{% include headline.html %}
 
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
 

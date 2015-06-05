@@ -12,8 +12,11 @@
   {% include logo.html %}
   {% include headline.html layout="profile" %}
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
-    {{ content }}
+    {% if content %}{{ content }}
+    {% else %}We haven't gotten to filling in this person's information yet. Check back soon and thanks for your patience!
+    {% endif %}
   </div>
+  	{% include sidebar.html %}
 
 </section>
 
