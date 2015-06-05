@@ -10,12 +10,21 @@
 <section class="container bare profile">
 
   {% include logo.html %}
-  {% include headline.html layout="profile" %}
+  {% include headline.html %}
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
-    {% if content %}{{ content }}
-    {% else %}We haven't gotten to filling in this person's information yet. Check back soon and thanks for your patience!
+    {% if content.size > 0 %}{{ content }}
+    {% if page.project %}
+    <h3>{{ page.first_name }}'s projects:</h3>
+    	<ul>
+	    	{% for project in page.projects %}
+					<li>{{ project }}</li>
+				{% endfor %}
+    	</ul>
+    	{% endif %}
+    {% else %}We haven't gotten to filling in {{ page.first_name }}'s information yet. Check back soon and thanks for your patience!
     {% endif %}
   </div>
+
   	{% include sidebar.html %}
 
 </section>

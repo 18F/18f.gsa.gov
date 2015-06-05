@@ -918,11 +918,8 @@ $tiniest: new-breakpoint(max-width 390px);
 // Profiles
 .profile {
 	.bare-content{
-		p {
+		p, aside {
 			margin-left: 7em;
-			@include media($smallest) {
-				margin-left: 0;
-			}
 		}
 	}
 }
@@ -930,16 +927,29 @@ $tiniest: new-breakpoint(max-width 390px);
 .headline {
 	background-color: #18f;
 	color: white;
-	height: 8em;
+	height: auto;
 	clear: both;
 	position: relative;
 	overflow: visible;
 	padding: 2em 0em 0 7em; 
+	@include media($smallest) {
+		min-height: auto !important;
+		max-height: auto !important;
+		margin-top: 15px;
+		padding-left: 0;
+	}
 	img {
 		border-radius: 100%;
 		position: relative;
 		bottom: 80px;
 		left: 190px;
+		@include media($smallest) {
+			border-radius: 100%;
+			display: block;
+			margin: 1em auto;
+			bottom: auto;
+			left:auto;
+		}
 	}
 	h1, h2 {
 		float: left;
@@ -948,33 +958,25 @@ $tiniest: new-breakpoint(max-width 390px);
 		clear: both;
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
-	}
-	h1 {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.8em;
-	}
-	@include media($smallest) {
-		height: auto;
-		margin-top: 15px;
-		padding-left: 0;
-		img {
-			border-radius: 100%;
-			display: block;
-			margin: 1em auto;
-			bottom: auto;
-			left:auto;
-		}
-		h1, h2 {
+		min-width: 500px;
+		max-width: 570px;
+		@include media($smallest) {
 			float: left;
 			display: block;
 			position: relative;
 			margin-right: 0;
 			margin-left: 0;
 			width: 100%;
+			max-width: 100% !important;
+			min-width: 100% !important;
 			text-align: center;
 		}
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.8em;
 	}
 }
 

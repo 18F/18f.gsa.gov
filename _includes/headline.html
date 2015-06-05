@@ -12,7 +12,7 @@
 	<header class="headline">
 		{% if page.layout == "profile" %}
 			<h1>{{ page.full_name }}{% if page.role %}: {{ page.role }}{% endif %}</h1>
-			<h2>{{ page.team }}{% if page.location %} // {{ page.location }}{% endif %}</h2>
+			{% if page.team or page.location %}<h2>{% if page.team %}{{ page.team }}{% endif %}{% if page.location %}{% if page.team and page.location %} // {% endif %}{{ page.location }}{% endif %}</h2>{% endif %}
 			{{ page.name | team_photo }}
 		{% endif %}
 	</header>
