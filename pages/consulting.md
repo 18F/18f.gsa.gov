@@ -6,53 +6,55 @@ layout: bare
 
 <h1 style="padding-top: 64px;"> 18F Consulting: Understand. Acquire. Deliver.</h1>
 
-Building new digital services or improving old ones can be risky, complex, and expensive. Doing it well can solve real problems, improve people’s lives, save taxpayer money, and improve the way government works.
+Building new digital services or improving old ones can be risky, complex, and expensive. Doing it well can solve real problems, improve lives, save taxpayer money, and improve the government.
 
-18F Consulting helps federal agencies adopt modern approaches to managing and delivering digital services. We are federal employees, like you. But we are also a team of designers, product strategists, architects, and acquisition specialists, with wide-ranging experience inside and outside of the federal government. Whether you are a program manager, a contracting officer, a lawyer, or a CIO, we’ll partner with you to set you up for success.
+18F Consulting helps federal agencies adopt modern approaches to managing and delivering digital services. We're federal employees, like you. But we're also a team of designers, product strategists, architects, and acquisition specialists, with wide-ranging experience inside and outside the federal sphere. Whether you're a program manager, a contracting officer, a lawyer, or a chief information officer, we’ll partner with you and set you up for success.
 
 ## What should you build, buy, or change?
 
-Too often, teams tasked with solving a problem don’t know where to begin, or get locked into an idea too soon. 18F Consulting helps you understand your audiences using human-centered design principles. Early on, we help you discover the options (e.g., product strategy, new technology, acquisition) available to you so your initiative will succeed.
+Too often, teams tasked with solving problems don't know where to begin or get locked into an idea too soon. 18F Consulting helps you understand your audiences, and we counsel you on available options (e.g., product strategy, new technology, acquisition). 
 
 ## How should you do it?
 
-We advocate and guide you through proven practices in human-centered design, lean startup, Agile architecture, Agile development, open data, and DevOps. These industry-standard techniques increase the likelihood of your next initiative succeeding. 
+We guide you through proven practices in human-centered design, lean startup, agile architecture, agile development, open data, and DevOps. These industry-standard techniques increase the likelihood your next initiative will thrive. 
 
 ## Who should do it?
 
-Procuring the right team through an outside vendor or recruiting that talent in-house are key to producing high-quality digital services. We understand how federal acquisition and hiring processes have long been barriers to success, not a core part of a digital strategy. We use every tool in our toolkit to help change that, to make getting the right people a priority, and to help you hold them accountable for their work. Let us help you develop a strategy for soliciting and on boarding vendors and design or technology hires for your project or organization, and help you manage their performance.
+Procuring the right team through an outside vendor or recruiting talent in-house is key to producing high-quality digital services. We understand that federal acquisition and hiring processes have long been barriers to success. We use every tool in our kit to change that, to prioritize getting the right people, and to help you hold them accountable for their work. 
 
-## 18F Consulting Services
+Let us assist as you develop a strategy for soliciting and onboarding vendors and design or technology hires. Once you've built a team for your project or organization, we'll help you manage their performance.
 
-### Short-term engagement services, from 2 days to 4 weeks:
+## Consulting services
 
-- **Design Sprint** to quickly prototype and validate different ideas (based on [Google Ventures 5-day model](https://www.gv.com/sprint/)).
+### Short-term engagement services, from two days to four weeks:
+
+- **Design sprint** to quickly prototype and validate different ideas (based on [Google Ventures five-day model](https://www.gv.com/sprint/)).
 
 - **[Protosketching](https://18f.gsa.gov/2015/01/06/protosketch/)** for quick technical explorations.
 
-- **Design Methods Workshop** to teach your team how to work together to solve problems using “design thinking” and other human-centered methods. Includes hands-on, real-world learning to get your team from idea to experimentation and delivery in no time.
+- **Design methods workshop** to teach your team to collaboratively solve problems using “design thinking” and other human-centered methods. This includes hands-on, real-world learning to get your team from idea to experimentation and delivery in no time.
 
-- **[Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of Agile development principles and practices.
+- **[Agile workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of agile development principles and practices.
 
-- **DevOps Workshop** to move your team towards adoption of DevOps principles and practices.
+- **DevOps workshop** to move your team toward adoption of DevOps principles and practices.
 
-- **[RFP Ghostwriting and Review](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)** to increase your contract’s probability of success.
+- **[RFP ghostwriting and review](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)** to increase your contract’s probability of success.
 
-- **Capabilities Delivery Analysis** to determine what and how to acquire the capabilities your project or organization needs to deliver effectively (e.g., more in-house talent, learning and training programs).
+- **Capabilities delivery analysis** to determine what and how to acquire the capabilities your project or organization needs to deliver effectively (e.g., more in-house talent, learning and training programs).
 
-- **Technical Evaluation Assistance** to help your agency evaluate proposed technical solutions, or to serve as technical experts for source selection.
+- **Technical evaluation assistance** to help your agency evaluate proposed technical solutions or to serve as technical experts for source selection.
 
-- **Discovery Sprint** to assess your team’s or organization’s readiness, understand your customers and their needs, brainstorm ideas, and provide guiding principles and recommendations to move forward.
+- **Discovery sprint** to assess the readiness of your team or organization, to understand your customers and their needs, to brainstorm ideas, and to provide guiding principles and recommendations for moving forward.
 
-### Mid to long-term engagement services, from 4 to 12 months:
+### Mid- to long-term engagement services, from four to 12 months:
 
-- **Agile Acquisition** to help your team learn how to design and manage software acquisitions that use modern software development techniques.
+- **Agile acquisition** to help your team learn how to design and manage software acquisitions that use modern software development techniques.
 
-- **IT Modernization** to increase the IT organization’s capacity to innovate and provide greater value to customers.
+- **IT modernization** to increase the IT organization’s capacity to innovate and provide greater value to customers.
 
-- **Agile Coaching** to guide your team’s or organization’s adoption of Agile practices during the lifecycle of a current project.
+- **Agile coaching** to guide your team or organization through adoption of agile practices during the lifecycle of a current project.
 
-- **Vendor Marketplace Development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
+- **Vendor marketplace development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
 
 ## We’d love to hear from you
 
