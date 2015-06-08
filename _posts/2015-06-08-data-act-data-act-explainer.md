@@ -5,10 +5,10 @@ layout: post
 author:
 - becky
 tags:
-- open-data
-- open-government
-- rfp-ghostwriting
-- 18f-consulting
+- open data
+- open government
+- rfp ghostwriting
+- 18f consulting
 excerpt: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
 description: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
 image: /assets/blog/google-auth-proxy/bitly-oauth-github.jpg
