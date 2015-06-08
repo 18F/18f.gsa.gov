@@ -1,7 +1,8 @@
 ---
 title: "How DATA Act implementation is opening up federal spending"
-date: 2015-06-08
+date: 2015-06-09
 layout: post
+published: false
 author:
 - becky
 tags:
@@ -9,9 +10,10 @@ tags:
 - open government
 - rfp ghostwriting
 - 18f consulting
-excerpt: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
-description: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
-image: /assets/blog/google-auth-proxy/bitly-oauth-github.jpg
+
+excerpt: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
+description: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
+image: /assets/blog/data-act-implementation/data-act-reporting.jpg
 ---
 
 <p class="authors">
@@ -55,7 +57,7 @@ the DATA Act proposes to fix.
 [![Diagram of government appropriation reporting](/assets/blog/data-act-implementation/data-act-reporting.jpg)](http://www.datacoalition.org/what-is-data-transparency/data-act/)
 
 *Image courtesy of the [Data Transparency
-Coalition*](http://www.datacoalition.org/what-is-data-transparency/data-act/)
+Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)*
 
 For example, let’s say Congress appropriates $30 billion for student
 financial aid as part of the annual budget. That $30 billion gets a
@@ -129,5 +131,5 @@ information that meets their needs in both the short-term and as the
 project naturally evolves. Building the common data standard this way
 should also save the government millions in development costs, and
 planning for evolution and iteration in the data standard will save even
-more. 18F is proud to be a part of this effort and look forward to
+more. 18F is proud to be a part of this effort and looks forward to
 working with Treasury to make the process a smooth one.
