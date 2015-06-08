@@ -925,8 +925,20 @@ $tiniest: new-breakpoint(max-width 390px);
 .profile {
 	.bare-content{
 		margin-top: 80px;
+		@include media($medium) {
+			@include span-columns(12 of 12);
+		}
 		p, aside {
 			margin-left: 7em;
+			@include media($medium) {
+				@include span-columns(10 of 12);
+				margin-left: auto;
+				margin-right: auto;
+				float: none;
+				&:last-child {
+					margin-right: auto;
+				}
+			}
 		}
 	}
 }
