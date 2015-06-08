@@ -9,9 +9,9 @@ tags:
 - open-government
 - rfp-ghostwriting
 - 18f-consulting
-excerpt: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
-description: "We love when we're able to contribure to open source projects from other organizations. Recently, we contributed to Bitly's open source google_auth_proxy to support our Hub and MyUSA applications, and our contribution has  already helped other OAuth2 providers."
-image: /assets/blog/google-auth-proxy/bitly-oauth-github.jpg
+excerpt: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
+description: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
+image: /assets/blog/data-act-implementation/data-act-reporting.jpg
 ---
 
 <p class="authors">
