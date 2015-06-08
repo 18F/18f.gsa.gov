@@ -6,7 +6,7 @@ date: 2015-03-10
 tags:
 - 18f
 - agile
-- procurements
+- procurement
 - how we work
 
 author:

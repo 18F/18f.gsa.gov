@@ -12,7 +12,6 @@ authors:
 
 tags:
 - culture
-- culture change
 - how we work
 
 ---
