@@ -1,5 +1,4 @@
----
-title: "How to run your own 3-sprint agile workshop"
+statitle: "How to run your own 3-sprint agile workshop"
 date: 2014-10-21
 layout: post
 author:
