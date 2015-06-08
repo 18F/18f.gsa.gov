@@ -1,20 +1,28 @@
 ---
+title: "How to run your own 3-sprint agile workshop"
+date: 2014-10-21
 layout: post
-title: How to Run Your Own 3-Sprint Agile Workshop
-image:
-description:
-authors:
+author:
  - robert
  - sarah
  - hillary
-
 tags:
   - agile
-  - 18f consulting services
+  - 18f consulting
   - how we work
   - workshop
   - our projects
-
+excerpt: "You can’t learn agile software development from a book any more than you can
+learn to perform a one-handed jump shot without repeatedly tossing a
+basketball in the hoop. You can read a book about the basic idea, you can
+read a book to get started, and you can read a book about refining your
+technique, but in the end you have to practice."
+description: "You can’t learn agile software development from a book any more than you can
+learn to perform a one-handed jump shot without repeatedly tossing a
+basketball in the hoop. You can read a book about the basic idea, you can
+read a book to get started, and you can read a book about refining your
+technique, but in the end you have to practice."
+image:
 ---
 <p class="authors">
   by {% author robert %}, {% author hillary %}, and {% author sarah %}
@@ -25,8 +33,6 @@ learn to perform a one-handed jump shot without repeatedly tossing a
 basketball in the hoop. You can read a book about the basic idea, you can
 read a book to get started, and you can read a book about refining your
 technique, but in the end you have to practice.
-
-<!-- more -->
 
 A basketball player performs drills in order to play better in the game. In
 technology development, we can perform workshops to get better at our main
@@ -161,7 +167,7 @@ Master of Ceremonies/Coach must not succumb to pressure to deviate from the
 pre-planned schedule. If a demo is less than impressive because a story is
 not done, this is a learning experience for the team.
 
-#### Coaching During the Workshop
+#### Coaching during the workshop
 
 Coaches should make make sure that stories are written down on
 notecards during the story writing phase. However, even more important is
@@ -177,13 +183,13 @@ if they have properly prepared the Customers and created an enabling space,
 the Teams will learn from their failures and/or enjoy their successes based
 on their own merits.
 
-#### Enforce Responding to the Customer
+#### Enforce responding to the customer
 The paramount responsibility of the Master of Ceremonies/Coach is to insist
 that ALL work be shown AS SOON AS POSSIBLE to the Customer and that Customer
 changes to direction and priorities be IMMEDIATELY respected by the
 developers.
 
-### The Customer
+### The customer
 The Customer is the most important role, and demands
 preparation. The Customer is considered part of the team. The Customer must
 bring to the workshop a clear idea of something that they would like to have
@@ -206,7 +212,7 @@ valuable thing that can happen in the workshop is for them to come to
 appreciate the power of being able to make iterative changes to development
 based on what has been learned from rapid, early development.
 
-### The Developer
+### The developer
 The Developer may be a computer programmer, a writer, a designer, or anybody
 else who is making things. The reason the Developer role must be clearly
 delineated from the Customer is that the Developer MUST NOT be a bully. That
@@ -220,7 +226,7 @@ the Customer how much time it will take to make any given story that they
 ask for. The Developers must provide quick estimates on the spot. They do
 not have to be accurate, or confident -- they need only be honest.
 
-### Example Team Goals
+### Example team goals
 You can run 3-Sprint Agile Workshop around a goal of
 producing a valuable end product. However, you may prefer to simply treat it
 as an exercise.
@@ -248,7 +254,7 @@ would work with the Customers ahead of time to make sure they had a clear
 idea of what they wanted to accomplish, but were open to change based on
 what they got from the Developers in the First and Second Sprint.
 
-### The Surprise Pivot
+### The surprise pivot
 
 In order to demonstrate the value of Agile development in a fun and
 challenging way, you should prepare ahead of time a little trick to play on
@@ -263,7 +269,7 @@ multiple teams that you have to each other. It is important that you coach
 your Customers ahead of time about the pivot, so that they can correctly
 communicate the new requirement to your teams.
 
-## Things That Can Go Wrong
+## Things that can go wrong
 
 To some extent, things going wrong is helpful, if the team can learn from
 it. Here are some things that can go wrong:
@@ -282,14 +288,14 @@ the Third Sprint and thus fail to do good a good job presenting
 functionality in the First Demo. A Team that does this will also be stung by
 the Surprise Pivot, which will likely cause some of their work to be wasted.
 
-## Your Turn!
+## Your turn!
 
 If you’ve made it this far, you might be looking for examples or
 more information. You can read more about a recent workshop I led at 18F as
 a team-building exercise. The case study has example goals, projects, and
 pivots to give you ideas for your own workshop.
 
-## Another Option: Bring On 18F as a Coach
+## Another option: Bring on 18F as a coach
 18F has recently created a new pilot line of business called [18F Consulting](https://18f.gsa.gov/consulting/) which offers Agile coaching and other services at cost-recovery
 prices under the Economy Act. If you’d like assistance or you’d like us to
 run a workshop for your team, please [get in touch](mailto:18f@gsa.gov)!

@@ -8,17 +8,20 @@
 {% include flag.html %}
 {% include nav.html %}
 <section class="container team">
+  <section id="team">
+    <div class="container">
+      <div class="team-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+        <a href="/" title="Return to 18F home">
+          <i class="icon-18f-logo" rel="logo"><p style="display: none">18F</p></i>
+        </a>
+      </div>
 
-  <div class="team-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <a href="/" title="Return to 18F home">
-      <i class="icon-18f-logo" rel="logo"><p style="display: none">18F</p></i>
-    </a>
-  </div>
+      <div class="team-content" role="main" itemscope itemprop="mainContentOfPage">
+        {{ content }}
+      </div>
 
-  <div class="team-content" role="main" itemscope itemprop="mainContentOfPage">
-    {{ content }}
-  </div>
-
+    </div>
+  </section>
 </section>
 
   {% include footer.html %}
