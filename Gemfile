@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'rouge'
 gem 'bourbon'
-gem 'redcarpet'
+gem 'redcarpet', '3.2.3'
 gem 'jekyll', '3.0.0.pre.beta2'
 
 group :jekyll_plugins do
