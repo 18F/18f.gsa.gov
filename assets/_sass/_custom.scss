@@ -289,6 +289,9 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	@include media($small) {
+		position: absolute;
+		right: 0;
+		top: 20px;
 		border: 1px solid $dark-gray;
 		a {
 			display: block;
@@ -320,9 +323,6 @@ $tiniest: new-breakpoint(max-width 390px);
 		.sep {
 			display: none;
 		}
-	}
-	@include media($tinier) {
-		top: 16px;
 	}
 }
 .global-nav ul:last-child {
@@ -971,7 +971,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			top: auto;
 			right: auto;
 			position: relative;
-			
+			padding: 1em 0;
 		}
 	}
 	h1, h2 {
