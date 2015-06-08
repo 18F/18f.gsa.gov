@@ -3,12 +3,12 @@ source "https://rubygems.org"
 gem 'rouge'
 gem 'bourbon'
 gem 'redcarpet'
-gem 'jekyll', '3.0.0.pre.beta2'
+gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
-  gem 'jekyll_pages_api', '0.1.3'
-  gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
+  gem 'jekyll_pages_api'
+  gem 'jekyll-archives'
   gem 'jekyll-paginate'
 end
 
