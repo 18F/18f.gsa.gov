@@ -55,7 +55,7 @@ the DATA Act proposes to fix.
 [![Diagram of government appropriation reporting](/assets/blog/data-act-implementation/data-act-reporting.jpg)](http://www.datacoalition.org/what-is-data-transparency/data-act/)
 
 *Image courtesy of the [Data Transparency
-Coalition*](http://www.datacoalition.org/what-is-data-transparency/data-act/)
+Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)*
 
 For example, let’s say Congress appropriates $30 billion for student
 financial aid as part of the annual budget. That $30 billion gets a
@@ -129,5 +129,5 @@ information that meets their needs in both the short-term and as the
 project naturally evolves. Building the common data standard this way
 should also save the government millions in development costs, and
 planning for evolution and iteration in the data standard will save even
-more. 18F is proud to be a part of this effort and look forward to
+more. 18F is proud to be a part of this effort and looks forward to
 working with Treasury to make the process a smooth one.
