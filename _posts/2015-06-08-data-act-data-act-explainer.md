@@ -10,6 +10,7 @@ tags:
 - open government
 - rfp ghostwriting
 - 18f consulting
+
 excerpt: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
 description: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
 image: /assets/blog/data-act-implementation/data-act-reporting.jpg
