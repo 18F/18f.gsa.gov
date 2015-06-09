@@ -16,7 +16,8 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .service-entry, .footer, .contact-box {
+.mantra, .blog-entry, .service-entry, .footer, .contact-box, {
+	padding-top: 40px;
 	padding-bottom: 40px;
 	@include media($bigger) {
     	padding-left: 5%;
@@ -814,8 +815,8 @@ $tiniest: new-breakpoint(max-width 390px);
 
 #team {
 	@include outer-container;
-	.intro {
-		@include span-columns(8 of 12);
+	.intro, .team {
+		@include span-columns(9 of 12);
 		margin-left: 15%;
 		margin-top: -65px;
 		h1 {
@@ -832,14 +833,16 @@ $tiniest: new-breakpoint(max-width 390px);
 			padding-top: 64px;
 		}
 	}
+	.team {
+	  margin-top: 0;
+	}
 	.bio {
 		@include span-columns(2 of 12);
-		margin: 1.5em 0 3em 1.5%;
-		padding-right: 3%;
+		margin: 1.5em 1em 3em 1.5%;
 		float: left;
 		clear: none;
 		max-height: 2.4em;
-	  line-height: 1.2em;
+		line-height: 1.2em;
 		margin-bottom: 7em;
 		@include media($big) {
 			@include span-columns(2 of 12);
@@ -889,15 +892,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	.bio:nth-child(10n+6) {
-		margin-left: 120px;
+		margin-left: 65px;
 		@include media($big) {
-			margin-left: 0;
+			margin-left: 1.5%;
 		}
 	}
 	.bio:first-child, .bio:nth-child(10n+11) {
-		margin-left: 60px;
+		margin-left: 0;
 		@include media($big) {
-			margin-left:0;
+			margin-left: 1.5%;
 		}
 	}
 	.bio:last-child {
