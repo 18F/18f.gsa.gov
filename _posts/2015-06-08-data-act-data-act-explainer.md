@@ -2,7 +2,6 @@
 title: "How DATA Act implementation is opening up federal spending"
 date: 2015-06-09
 layout: post
-published: false
 author:
 - becky
 tags:
@@ -27,11 +26,11 @@ the Treasury and the Office of Management and Budget (OMB) are leading
 the implementation, and Treasury has partnered with 18F Consulting to
 help with a few aspects of the project:
 
--   Outreach around Treasury’s [online collaboration space](http://fedspendingtransparency.github.io/) for soliciting public feedback about federal spending data.
--   Coaching Treasury pilot projects in how to do agile software development
--   Working on the first DATA Act pilot that uses real agency financial and awards date
--   [Request for Proposal (RFP) Ghostwriting](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)
--   Three to four weeks of user-centered design and discovery
+-   Lead outreach for Treasury’s [online collaboration space](http://fedspendingtransparency.github.io/) that solicits public feedback about federal spending data.
+-   Coach vendors and Treasury team on developing pilot projects using agile methodologies.
+-   Organize and develop the first DATA Act pilot that uses real agency financial and awards data.
+-   [Request for Proposal (RFP) Ghostwriting](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).
+-   Perform three to four weeks of user research and discovery to better understand the different audiences and their needs when accessing federal spending data.
 
 The first order of DATA Act business on this blog, however, is to
 explain what this law is and why it’s important.
@@ -40,8 +39,8 @@ According to the [Citizen’s Guide to the Fiscal Year 2014](http://www.fiscal.t
 the government spent $3.8 trillion last year. For most people, that
 $3.8 trillion figure has little practical value — we need more detail
 to really understand federal spending. What kind of programs and
-projects does the federal government fund? Who’s getting money? What
-local businesses have federal contracts?
+projects does the federal government fund? Who’s getting the money? What
+local businesses have federal contracts? Are those amounts increasing or decreasing?
 
 Right now, these questions aren’t easy to answer. The DATA Act intends
 to change that.
@@ -79,7 +78,7 @@ for veterans’ dependents.
 When Treasury pays money to a recipient of student financial aid, it
 debits the money from the high-level $30 billion account. The specifics
 live within the Department of Education and aren’t associated with
-Treasury’s payment records.
+Treasury’s payment records. In this context, think of the Treasury like a bank. It keeps account of the money your agency (or program) has, but you're responsible for keeping track of what the payments mean.
 
 As a result, we can answer questions like “how much did the U.S. spend
 on student financial aid last year?” But we can’t answer some of the
@@ -132,4 +131,4 @@ project naturally evolves. Building the common data standard this way
 should also save the government millions in development costs, and
 planning for evolution and iteration in the data standard will save even
 more. 18F is proud to be a part of this effort and looks forward to
-working with Treasury to make the process a smooth one.
+working with Treasury to make the process a meaningful and effective one.
