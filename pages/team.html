@@ -18,7 +18,7 @@ title: People
       {% assign sorted = site.team | sort: 'last_name' %}
       {% for person in sorted %}
 
-      <div class='bio'>
+      <div class='bio' id="{{ person.name }}">
         {% if site.collections.team.output %}
         <a href='/team/{{person.name}}'>
         {% else %}

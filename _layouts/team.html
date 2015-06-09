@@ -6,18 +6,14 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 {% include flag.html %}
-<section class="container team">
+<section id ="team" class="container bare">
 	{% include nav.html %}
-  <section id="team">
-    <div class="container bare">
       {% include logo.html %}
 
       <div class="team-content" role="main" itemscope itemprop="mainContentOfPage">
         {{ content }}
       </div>
 
-    </div>
-  </section>
 </section>
 
   {% include footer.html %}

@@ -9,6 +9,7 @@
 <section class="container bare profile">
 	{% include nav.html %}
   {% include logo.html %}
+  <a href="{{site.url}}/team/#{{ page.name }}">Back to 18F People</a>
   {% include headline.html %}
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {% if content.size > 0 %}{{ content }}
