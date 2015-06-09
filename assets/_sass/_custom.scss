@@ -411,6 +411,10 @@ $tiniest: new-breakpoint(max-width 390px);
 .back {
 	font-size: 0.8em;
 	margin-bottom:47px;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 145px;
 	a {
 		text-decoration: none;
 		color: $dark-gray;
@@ -877,7 +881,6 @@ $tiniest: new-breakpoint(max-width 390px);
 		    -moz-border-radius: 100%;
 			  -webkit-border-radius: 100%;
 			  border-radius: 100%;
-			  background-clip: padding-box;
 		  }
 		  h1 {
 		  	font-size: 0.9em;

@@ -4,7 +4,7 @@ Add sidebars filtered by layout below
 {% if page.layout == "profile" %}
 <aside>
 	{% if page.github or page.twitter or page.personal %}
-		Where to find {{ page.first_name }}
+		<h3>Where to find {{ page.first_name }}</h3>
 		<ul>
 			{% if page.github %}
 			<li><a href="https://github.com/{{ page.github }}">github</a></li>
