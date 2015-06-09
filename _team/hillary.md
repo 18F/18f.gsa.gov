@@ -3,11 +3,11 @@ name: hillary
 first_name: Hillary
 last_name: Hartley
 full_name: Hillary Hartley
-role:
+role: Deputy Executive Director
 location: SFO
-github:
-twitter:
-team:
+github: quepol
+twitter: hillary
+team: Leadership
 ---
 
 As the co-founder and Deputy Executive Director, Hillary focuses on building the community, communications and creative sides of 18F.

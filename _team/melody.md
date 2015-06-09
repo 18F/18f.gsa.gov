@@ -3,11 +3,14 @@ name: melody
 first_name: Melody
 last_name: Kramer
 full_name: Melody Kramer
-role:
-location:
-github:
-twitter:
-team:
+role: Writer
+location: North Carolina
+github: melodykramer
+twitter: mkramer
+team: Outreach
+project:
+- 18f.gsa.gov
+- 18F Blog
 ---
 
 Melody Kramer is a member of 18F’s blog and content teams, and frequently consults with other teams across the organization on audience, content, and digital strategies. Her specialties include audience-centered design, writing and editing, coding, and building tools with audiences — and not for them. She enjoys writing tutorials and making 18F’s work more open and accessible.

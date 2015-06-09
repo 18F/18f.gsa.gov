@@ -3,11 +3,15 @@ name: elaine
 first_name: Elaine
 last_name: Kamlley
 full_name: Elaine Kamlley
-role:
-location: DCA
-github:
-twitter:
-team:
+role: Developer
+location: DC
+github: elainekamlley
+twitter: elainekamlley
+team: Outreach
+project:
+- 18f.gsa.gov
+- 18F Blog
+- DATA Act
 ---
 
 Elaine manages and codes the 18F.gsa.gov site and works on making the on boarding process for anyone joining 18F easy and welcoming. Most recently, Elaine joined the DATA-Act team as a front end developer.  

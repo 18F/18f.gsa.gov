@@ -3,11 +3,14 @@ name: ori
 first_name: Ori
 last_name: Hoffer
 full_name: Ori Hoffer
-role:
-location:
-github:
-twitter:
-team:
+role: Communications specialist
+location: Washington, DC
+github: orihoffer
+twitter: orihoffer
+team: Outreach
+project:
+- 18F Blog
+- 18f.gsa.gov
 ---
 
 With more than 25 years’ experience working in TV, radio, and digital media, Ori is no stranger to engaging viewers, listeners, and users in meaningful conversation. At 18F, he serves as a liaison between our project teams and the people who want to learn about our projects: Congress, the press, and the general public.

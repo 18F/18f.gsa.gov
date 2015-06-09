@@ -3,11 +3,15 @@ name: andrefrancisco
 first_name: Andre
 last_name: Francisco
 full_name: Andre Francisco 
-role:
-location: DCA
-github:
-twitter:
+role: Writer
+location: DC
+github: awfrancisco
+twitter: andrefrancisco
 team: Communications & Outreach
+project:
+- 18F Blog
+- 18f.gsa.gov
+- 18F Consulting
 ---
 
 Andre Francisco has "spent a lot of time writing and advocating for increased government transparency". Here at 18F he helps the Outreach team create and edit all the content that gets up on the 18F blog, and helps to improve the 18F site to make sure it is adequately serving our users.

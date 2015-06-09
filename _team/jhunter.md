@@ -3,11 +3,14 @@ name: jhunter
 first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
-role:
-location:
-github:
-twitter:
-team:
+role: Content
+location: Washington, DC
+github: jeanninehunter
+twitter: 
+team: Design
+project:
+- USCIS
+- OpenFEC
 ---
 
 Jeannine works on the communications team, where she tells 18F's story through blog posts, case studies, and social media. She also works as a content strategist, writing and revising content used on federal government websites. "I am passionate about community building and technology," she says. "I want to help audiences beyond the walls of governmental institutions understand how it works, and help improve it, and I am excited to share 18F’s successes and the lessons we learn with other federal agencies, the tech industry, and civic tech communities."

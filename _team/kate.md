@@ -3,11 +3,15 @@ name: kate
 first_name: Kate
 last_name: Garklavs
 full_name: Kate Garklavs
-role: 
-location: SFO
-github:
+role: Content
+location: Oregon
+github: kategarklavs
 twitter:
-team:
+team: Design
+project:
+- USCIS
+- OpenFEC
+- MyUSA
 ---
 
 Kate Garklavs is a content designer at 18F. Working closely with usability researchers and other designers, she creates succinct, impactful copy that’s centered on reader needs. She also drafts and implements content strategies, helping project teams define communication frameworks and plan their long-range content goals.
