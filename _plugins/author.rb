@@ -26,6 +26,34 @@ module Jekyll
 
   end
 
+  class AuthoredPosts < Liquid::Tag
+    def initialize(tag_name, author, tokens)
+      super
+    end
+    
+    def render(context)
+      authored = []
+      author = context.environments[0]['page']['name']
+      full_name = context.environments[0]['page']['full_name']
+      first_name = context.environments[0]['page']['first_name']
+      posts = context.environments[0]['site']['posts']
+      site_url = context.environments[0]['site']['url']
+      for p in posts
+        if p.data['authors'] and p.data['authors'].include? author
+          authored.push(p)
+        end
+      end
+      unless authored.empty?
+        list = "<h3>#{first_name}'s blog posts</h3>"
+        list << "<ul>"
+        for a in authored
+          list << "<li><a href='#{site_url}/#{a.url}'>#{a.title}</a></li>"
+        end
+        list << "</ul>"
+      end
+    end
+  end
+
   module AuthorFilter
     def with_pic(input)
       name = input[0]
@@ -41,4 +69,5 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('author', Jekyll::AuthorTag)
+Liquid::Template.register_tag('authored_posts', Jekyll::AuthoredPosts)
 Liquid::Template.register_filter(Jekyll::AuthorFilter)
