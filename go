@@ -60,7 +60,8 @@ def init
 end
 
 def update_gems
-  exec_cmd 'bundle update'
+  # Installs and updates gems to the correct version, in case it's been a while
+  exec_cmd 'bundle install'
 end
 
 def update_data
