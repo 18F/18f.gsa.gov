@@ -27,8 +27,9 @@ module Jekyll
   end
 
   class AuthoredPosts < Liquid::Tag
-    def initialize(tag_name, author, tokens)
+    def initialize(tag_name, heading, tokens)
       super
+      @heading = heading.split('=')[0].strip()
     end
     
     def render(context)
@@ -44,7 +45,7 @@ module Jekyll
         end
       end
       unless authored.empty?
-        list = "<h3>#{first_name}'s blog posts</h3>"
+        list = "<h#{@heading}>#{first_name}'s blog posts</h#{@heading}>"
         list << "<ul>"
         for a in authored
           list << "<li><a href='#{site_url}/#{a.url}'>#{a.title}</a></li>"

@@ -929,14 +929,16 @@ $tiniest: new-breakpoint(max-width 390px);
 .profile {
 	.content {
 		margin-top: 80px;
-		margin-left: 110px;
+		margin-left: 165px;
 		margin-right: 0 !important;
-		display: inline-block;
-		@include span-columns(7);
+		padding: 0 2.35765% 0;
+		display: block;
+		float: left;
+		@include span-columns(6);
 		@include media($medium) {
-			@include span-columns(10 of 12);
+			@include span-columns(10);
 			float: none;
-			margin: 7px auto 0;
+			margin: 7px auto 0 !important;
 		}
 		p {
 			@include media($medium) {
@@ -948,17 +950,32 @@ $tiniest: new-breakpoint(max-width 390px);
 				}
 			}
 		}
+		h3 {
+			font-size: 18px;
+			font-weight: 400;
+		}
 	}
 	aside {
 		margin-top: 80px;
 		display: block;
-		float: right !important;
-		@include span-columns(3);
-		margin-right: 2em !important;
+		float: right;
+		@include span-columns(4);
+		h1 {
+			font-size: 22px;
+			font-weight: 400;
+		}
+		@include media($big) {
+			@include span-columns(3);
+			h1 {
+				font-size: 18px;
+				font-weight: 400;
+			}
+		}
 		@include media($medium) {
-			@include span-columns(10 of 12);
+			@include span-columns(10);
 			float: none;
-			margin: 0 auto;
+			margin: 25px auto 0;
+			padding: 0px 2.35765%;
 			&:last-child {
 				margin-right: auto;
 			}
@@ -969,12 +986,11 @@ $tiniest: new-breakpoint(max-width 390px);
 .headline {
 	background-color: #18f;
 	color: white;
-	height: auto;
 	height: 8em;
 	clear: both;
 	position: relative;
 	overflow: visible;
-	padding: 2em 0em 0 7em; 
+	padding: 2em 0em 0 11.7em; 
 	@include media($medium) {
 		min-height: auto !important;
 		max-height: auto !important;
@@ -1020,10 +1036,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 32px;
+		@include media($big) {
+			font-size: 24px !important;
+		}
 	}
 	h2 {
-		font-size: 1.8em;
+		font-size: 22px !important;
+		font-weight: 400 !important;
 	}
 }
 
