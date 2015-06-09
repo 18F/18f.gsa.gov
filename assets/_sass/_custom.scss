@@ -16,8 +16,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
-	padding-top: 40px;
+.mantra, .blog-entry, .service-entry, .footer, .contact-box {
 	padding-bottom: 40px;
 	@include media($bigger) {
     	padding-left: 5%;
@@ -923,21 +922,39 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Profiles
 .profile {
-	.bare-content{
+	.bare-content {
 		margin-top: 80px;
+		margin-left: 110px;
+		display: inline-block;
+		@include span-columns(7 of 12);
 		@include media($medium) {
-			@include span-columns(12 of 12);
+			@include span-columns(10 of 12);
+			float: none;
+			margin: 7px auto 0;
+
 		}
-		p, aside {
-			margin-left: 7em;
+		p {
 			@include media($medium) {
-				@include span-columns(10 of 12);
 				margin-left: auto;
 				margin-right: auto;
 				float: none;
 				&:last-child {
 					margin-right: auto;
 				}
+			}
+		}
+	}
+	aside {
+		margin-top: 80px;
+		margin-left: 90px;
+		display: inline-block;
+		@include span-columns(2 of 12);
+		@include media($medium) {
+			@include span-columns(10 of 12);
+			float: none;
+			margin: 0 auto;
+			&:last-child {
+				margin-right: auto;
 			}
 		}
 	}
@@ -1118,15 +1135,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
-.bare-logo, .team-logo {
 
-}
-/*
-.team-logo {
-	@include span-columns(12);
-	padding-top: 40px;
-}
-*/
 .bare-logo, .team-logo {
 	@include span-columns(2);
 	padding-top: 40px;
