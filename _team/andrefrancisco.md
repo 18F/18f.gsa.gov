@@ -4,7 +4,7 @@ first_name: Andre
 last_name: Francisco
 full_name: Andre Francisco 
 role: Writer
-location: DC
+location: Washington, DC
 github: awfrancisco
 twitter: andrefrancisco
 team: Communications & Outreach

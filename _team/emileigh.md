@@ -7,7 +7,7 @@ github: emileighoutlaw
 twitter: emileighoutlaw
 team: Design
 role: Content
-location: DC
+location: Washington, DC
 project:
 - USCIS
 - 18f.gsa.gov

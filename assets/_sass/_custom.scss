@@ -412,9 +412,8 @@ $tiniest: new-breakpoint(max-width 390px);
 	font-size: 0.8em;
 	margin-bottom:47px;
   display: inline-block;
-  position: absolute;
-  left: 200px;
-  top: 145px;
+  position: relative;
+  top: 125px;
 	a {
 		text-decoration: none;
 		color: $dark-gray;
@@ -928,16 +927,16 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Profiles
 .profile {
-	.bare-content {
+	.content {
 		margin-top: 80px;
 		margin-left: 110px;
+		margin-right: 0 !important;
 		display: inline-block;
-		@include span-columns(7 of 12);
+		@include span-columns(7);
 		@include media($medium) {
 			@include span-columns(10 of 12);
 			float: none;
 			margin: 7px auto 0;
-
 		}
 		p {
 			@include media($medium) {
@@ -952,9 +951,10 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	aside {
 		margin-top: 80px;
-		margin-left: 90px;
-		display: inline-block;
-		@include span-columns(2 of 12);
+		display: block;
+		float: right !important;
+		@include span-columns(3);
+		margin-right: 2em !important;
 		@include media($medium) {
 			@include span-columns(10 of 12);
 			float: none;
@@ -983,10 +983,11 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-left: 0;
 	}
 	img {
+		margin: 0 auto;
 		border-radius: 100%;
 		position: absolute;
 		top: -60px;
-		right: 0;
+		right: 2em;
 		@include media($medium) {
 			border-radius: 100%;
 			display: block;
