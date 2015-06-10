@@ -8,11 +8,11 @@ layout: bare
 
 Building new digital services or improving old ones can be risky, complex, and expensive. Doing it well can solve real problems, improve lives, save taxpayer money, and improve the government.
 
-18F Consulting helps federal agencies adopt modern approaches to managing and delivering digital services. We're federal employees, like you. But we're also a team of designers, product strategists, architects, and acquisition specialists, with wide-ranging experience inside and outside the federal sphere. Whether you're a program manager, a contracting officer, a lawyer, or a chief information officer, we’ll partner with you and set you up for success.
+18F Consulting helps federal agencies adopt modern approaches to managing and delivering digital services. We're federal employees, like you. But we're also a team of designers, product strategists, architects, and acquisition specialists, with wide-ranging experience inside and outside the federal government. Whether you're a program manager, a contracting officer, a lawyer, or a chief information officer, we’ll partner with you and set you up for success.
 
 ## What should you build, buy, or change?
 
-Too often, teams tasked with solving problems don't know where to begin or get locked into an idea too soon. 18F Consulting helps you understand your audiences, and we counsel you on available options (e.g., product strategy, new technology, acquisition). 
+Too often, teams tasked with solving a problem don't know where to begin or get locked into an idea too soon. 18F Consulting helps you understand your audiences, and we counsel you on available options (e.g., product strategy, new technology, acquisition). 
 
 ## How should you do it?
 
