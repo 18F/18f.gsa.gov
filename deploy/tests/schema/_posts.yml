@@ -1,0 +1,20 @@
+---
+title: "String"
+date: "%Y-%m-%d"
+layout: "post"
+authors:
+- matches: _data/author.yml
+tags:
+- rules: [no-dash, lowercase]
+excerpt: "string"
+description: "string"
+image: "file path"
+config:
+  path: '_posts'
+  ignore:
+  - README.md
+  - ..
+  - .
+  - .DS_Store
+  optional: ['tumblr_url']
+---

@@ -82,7 +82,7 @@ end
 def ci_build
   puts 'Building the site...'
   build
-  exec_cmd('bash deploy/test.sh')
+  exec_cmd('bash deploy/tests/build.rb')
   puts 'Done!'
 end
 
