@@ -42,16 +42,6 @@ def check_keys(data, keys, file)
 	end
 end
 
-def diff_optional(diff)
-	schema = loadschema('_posts.yml')
-	optional_keys = schema['config']['optional']
-	if optional_keys.include?(diff)
-		return true
-	else
-		return false
-	end
-end
-
 # Works in progress: eventually, validate that the *values* match expected types
 #
 # For example, if we expect the `date` key to be in yyyy-mm-dd format, validate
