@@ -5,7 +5,7 @@ layout: post
 author:
 - andre
 tags:
-- event
+- events
 - video
 - presidential innovation fellows
 excerpt: "When Nepal was hit with a devastating earthquake on April 25, the folks
