@@ -1,6 +1,6 @@
 ---
 title: "Where we were for the National Day of Civic Hacking"
-date: 2015-06-11
+date: 2015-06-11 11:30:00
 layout: post
 author:
 - gray
