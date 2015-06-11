@@ -41,6 +41,8 @@ GEM
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.8.0)
+      jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-sitemap (0.8.1)
@@ -94,6 +96,7 @@ DEPENDENCIES
   jekyll (= 3.0.0.pre.beta2)
   jekyll-archives!
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   jekyll_pages_api
   jemoji
@@ -101,3 +104,6 @@ DEPENDENCIES
   redcarpet
   rouge
   safe_yaml
+
+BUNDLED WITH
+   1.10.3
