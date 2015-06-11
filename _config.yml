@@ -22,6 +22,7 @@ exclude:
 gems: 
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-redirect-from
 
 jekyll-archives:
   enabled:
