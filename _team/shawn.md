@@ -4,7 +4,7 @@ first_name: Shawn
 last_name: Allen
 full_name: Shawn Allen
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

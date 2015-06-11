@@ -4,7 +4,7 @@ first_name: Jeremy
 last_name: Canfield
 full_name: Jeremy Canfield
 role: UX Researcher
-location: NY
+location: New York City, New York
 github:
 twitter:
 team: Design

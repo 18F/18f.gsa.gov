@@ -4,7 +4,7 @@ first_name: Eric
 last_name: Mill
 full_name: Eric Mill
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

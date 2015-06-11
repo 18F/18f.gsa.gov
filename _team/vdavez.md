@@ -4,7 +4,7 @@ first_name: V David
 last_name: Zvenyach
 full_name: V David Zvenyach
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

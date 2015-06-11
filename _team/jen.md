@@ -4,7 +4,7 @@ first_name: Jen
 last_name: Ehlers
 full_name: Jen Ehlers
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

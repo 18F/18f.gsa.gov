@@ -4,7 +4,7 @@ first_name: Elaine
 last_name: Kamlley
 full_name: Elaine Kamlley
 role: Developer
-location: Washington, DC
+location: Washington, D.C.
 github: elainekamlley
 twitter: elainekamlley
 team: Outreach

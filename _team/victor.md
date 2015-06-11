@@ -4,7 +4,7 @@ first_name: Victor
 last_name: Zapanta
 full_name: Victor Diaz Zapanta
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

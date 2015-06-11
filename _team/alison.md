@@ -4,7 +4,7 @@ first_name: Alison
 last_name: Rowland
 full_name: Alison Rowland
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

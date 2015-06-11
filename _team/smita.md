@@ -4,7 +4,7 @@ first_name: Smita
 last_name: Satiani
 full_name: Smita Satiani
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

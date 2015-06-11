@@ -4,7 +4,7 @@ first_name: Greg
 last_name: Boone
 full_name: Greg Boone
 role: Developer
-location: Washington, DC
+location: Washington, D.C.
 github: gboone
 twitter: gboone42
 personal: http://greg.harmsboone.org

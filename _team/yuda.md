@@ -4,7 +4,7 @@ first_name: John
 last_name: Yuda
 full_name: John Yuda
 role: 
-location: 
+location: Washington, D.C.
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Ozzy
 last_name: Johnson
 full_name: Ozzy Johnson
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

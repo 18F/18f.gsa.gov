@@ -3,8 +3,8 @@ name: jhunter
 first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
-role: Content
-location: Washington, DC
+role: Content Designer
+location: Washington, D.C.
 github: jeanninehunter
 twitter: 
 team: Design

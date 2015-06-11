@@ -4,7 +4,7 @@ first_name: Sean
 last_name: Herron
 full_name: Sean Herron
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

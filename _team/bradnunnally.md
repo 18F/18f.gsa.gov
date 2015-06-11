@@ -4,7 +4,7 @@ first_name: Brad
 last_name: Nunnally
 full_name: Brad Nunnally 
 role:
-location: 
+location: St. Louis, Missouri
 github:
 twitter:
 team: 

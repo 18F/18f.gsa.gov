@@ -4,7 +4,7 @@ first_name: Jesse
 last_name: Taggert
 full_name: Jesse Taggert
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Becky
 last_name: Sweger
 full_name: Becky Sweger
 role:
-location: BDL
+location: Easthampton, Massachusetts
 github:
 twitter:
 team:

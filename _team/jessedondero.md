@@ -4,7 +4,7 @@ first_name: Jesse
 last_name: Dondero
 full_name: Jesse Dondero
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team: 

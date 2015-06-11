@@ -4,7 +4,7 @@ first_name: Andrew
 last_name: Maier
 full_name: Andrew Maier
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

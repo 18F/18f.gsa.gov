@@ -4,7 +4,7 @@ first_name: Stephanie
 last_name: Rivera
 full_name: Stephanie Rivera
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

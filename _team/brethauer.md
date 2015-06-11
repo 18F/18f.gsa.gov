@@ -4,7 +4,7 @@ first_name: Nick
 last_name: Brethauer
 full_name: Nick Brethauer
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Shashank
 last_name: Khandelwal
 full_name: Shashank Khandelwal
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

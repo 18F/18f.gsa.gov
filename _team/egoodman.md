@@ -4,7 +4,7 @@ first_name: Elizabeth
 last_name: Goodman
 full_name: Liz Goodman
 role: design researcher
-location: SFO
+location: San Francisco, California
 github: esgoodman
 twitter: egoodman
 team: C3CO

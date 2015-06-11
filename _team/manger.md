@@ -4,7 +4,7 @@ first_name: Noah
 last_name: Manger
 full_name: Noah Manger
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

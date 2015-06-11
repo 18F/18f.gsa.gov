@@ -4,7 +4,7 @@ first_name: Russ
 last_name: Unger
 full_name: Russ Unger
 role:
-location:
+location: Chicago, Illinois
 github:
 twitter:
 team:

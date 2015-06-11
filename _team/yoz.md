@@ -4,7 +4,7 @@ first_name: Yoz
 last_name: Grahame
 full_name: Yoz Grahame
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Ric
 last_name: Miller
 full_name: Ric Miller
 role: 
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

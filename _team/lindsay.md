@@ -4,7 +4,7 @@ first_name: Lindsay
 last_name: Young
 full_name: Lindsay Young
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

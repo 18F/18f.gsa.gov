@@ -4,7 +4,7 @@ first_name: Gabriel
 last_name: Ramírez
 full_name: Gabriel Ramírez
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

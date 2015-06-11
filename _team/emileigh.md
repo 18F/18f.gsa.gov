@@ -6,8 +6,8 @@ name: emileigh
 github: emileighoutlaw
 twitter: emileighoutlaw
 team: Design
-role: Content
-location: Washington, DC
+role: Content Designer
+location: Washington, D.C.
 project:
 - USCIS
 - 18f.gsa.gov

@@ -4,7 +4,7 @@ first_name: Alan
 last_name: DeLevie
 full_name: Alan deLevie
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

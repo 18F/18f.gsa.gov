@@ -4,7 +4,7 @@ first_name: Melody
 last_name: Kramer
 full_name: Melody Kramer
 role: Writer
-location: North Carolina
+location: Durham, North Carolina
 github: melodykramer
 twitter: mkramer
 team: Outreach

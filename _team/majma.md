@@ -4,7 +4,7 @@ first_name: Raphael
 last_name: Majma
 full_name: Raphael Majma
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Colin
 last_name: MacArthur
 full_name: Colin MacArthur
 role:
-location: 
+location: Boston, Massachusetts
 github:
 twitter:
 team: 

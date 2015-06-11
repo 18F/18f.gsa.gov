@@ -4,7 +4,7 @@ first_name: Andrew
 last_name: Stroup
 full_name: Andrew Stroup
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

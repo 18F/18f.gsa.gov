@@ -4,7 +4,7 @@ first_name: Shawnique
 last_name: Muller
 full_name: Shawnique Muller
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

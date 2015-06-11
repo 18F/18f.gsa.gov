@@ -4,7 +4,7 @@ first_name: Sasha
 last_name: Magee
 full_name: Sasha Magee
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

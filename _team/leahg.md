@@ -4,7 +4,7 @@ first_name: Leah
 last_name: Gitter
 full_name: Leah Gitter
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

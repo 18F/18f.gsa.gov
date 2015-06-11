@@ -4,7 +4,7 @@ first_name: Josh
 last_name: Carp
 full_name: Josh Carp
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Michelle
 last_name: Hertzfeld
 full_name: Michelle Hertzfeld
 role: 
-location: 
+location: Tucson, Arizona
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Kara
 last_name: DeFrias
 full_name: Kara DeFrias
 role:
-location:
+location: San Diego, California
 github:
 twitter:
 team:

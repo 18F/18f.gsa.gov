@@ -4,7 +4,7 @@ first_name: Sarah
 last_name: Allen
 full_name: Sarah Allen
 role:
-location:
+location: San Francisco, California
 github:
 twitter:
 team:

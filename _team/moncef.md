@@ -4,7 +4,7 @@ first_name: Moncef
 last_name: Belyamani
 full_name: Moncef Belyamani
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

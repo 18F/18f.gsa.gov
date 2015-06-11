@@ -4,7 +4,7 @@ first_name: Josh
 last_name: Ruihley
 full_name: Josh Ruihley
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

@@ -4,7 +4,7 @@ first_name: Leah
 last_name: Bannon
 full_name: Leah Bannon
 role:
-location: DCA
+location: Washington, D.C.
 github: leahbannon
 twitter: leahbannon
 team:

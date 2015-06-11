@@ -4,7 +4,7 @@ first_name: Micah
 last_name: Saul
 full_name: Micah Saul
 role:
-location:
+location: Portland, Oregon
 github:
 twitter:
 team:

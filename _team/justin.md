@@ -4,7 +4,7 @@ first_name: Justin
 last_name: Grevich
 full_name: Justin Grevich
 role:
-location:
+location: Seattle, Washington
 github:
 twitter:
 team:

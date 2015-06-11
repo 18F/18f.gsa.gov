@@ -4,7 +4,7 @@ first_name: Annalee
 last_name: Flower Horne
 full_name: Annalee Flower Horne
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

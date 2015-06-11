@@ -4,7 +4,7 @@ first_name: Will
 last_name: Slack
 full_name: Will Slack
 role:
-location:
+location: Washington, D.C.
 github:
 twitter:
 team:

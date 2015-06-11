@@ -4,7 +4,7 @@ first_name: Mike
 last_name: Bland
 full_name: Mike Bland
 role: Practice Director
-location: DC
+location: Washington, D.C.
 github: mbland
 team: Delivery
 ---

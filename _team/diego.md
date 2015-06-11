@@ -4,7 +4,7 @@ first_name: Diego
 last_name: Lapiduz
 full_name: Diego Lapiduz
 role:
-location:
+location: Austin, Texas
 github:
 twitter:
 team:

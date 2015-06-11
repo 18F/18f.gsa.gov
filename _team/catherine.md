@@ -4,7 +4,7 @@ first_name: Catherine
 last_name: Devlin
 full_name: Catherine Devlin
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

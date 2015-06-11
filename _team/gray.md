@@ -4,7 +4,7 @@ first_name: Gray
 last_name: Brooks
 full_name: Gray Brooks
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:

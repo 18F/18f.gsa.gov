@@ -4,7 +4,7 @@ first_name: David
 last_name: Best
 full_name: David Best
 role:
-location: DCA
+location: Washington, D.C.
 github:
 twitter:
 team:
