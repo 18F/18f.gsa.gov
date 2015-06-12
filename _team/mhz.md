@@ -3,11 +3,11 @@ name: mhz
 first_name: Michelle
 last_name: Hertzfeld
 full_name: Michelle Hertzfeld
-role: 
+role: Front End Designer
 location: Tucson, Arizona
 github:
 twitter:
-team:
+team: Design
 ---
 Michelle Hertzfeld is a designer at 18F, with experience in UX, visual design, HTML, CSS, and a bit of JavaScript. She’s currently working on FBOpen, the Extractive Industries Transparency Initiative, and the 18F site.
 

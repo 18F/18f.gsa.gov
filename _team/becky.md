@@ -3,11 +3,11 @@ name: becky
 first_name: Becky
 last_name: Sweger
 full_name: Becky Sweger
-role:
+role: Developer
 location: Easthampton, Massachusetts
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Becky is on the Engineering team at 18F, where she is working on a project to help improve the way the government publishes data about federal spending. Her background in database design, data warehousing, and data analysis — along with her Python skills — give her a strong toolkit to solve data mysteries large and small.

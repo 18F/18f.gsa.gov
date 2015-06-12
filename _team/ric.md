@@ -3,11 +3,11 @@ name: ric
 first_name: Ric
 last_name: Miller
 full_name: Ric Miller
-role: 
+role: Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Operations
 ---
 
 Ric is the Director of Operations. "I joke that Team Operations does all the things no one else wants to do (finance/accounting, legal, contracting, business analytics, etc.), but all kidding aside - we help to create and maintain a foundation that allows our talented technologist to do what they do best, deliver. Our customers are our colleagues."  

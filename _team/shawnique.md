@@ -3,11 +3,11 @@ name: shawnique
 first_name: Shawnique
 last_name: Muller
 full_name: Shawnique Muller
-role:
+role: Hiring Operations Specialist
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Talent
 ---
 
 Shawnique is on the hiring team at 18F. She onboards new employees and helps manage all steps of hiring new members of the 18F team.

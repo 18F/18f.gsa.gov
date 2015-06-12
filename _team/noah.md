@@ -7,7 +7,7 @@ role: Director of Delivery Architecture and Infrastructure Services
 location: Washington, D.C.
 github: https://github.com/noahkunin
 twitter: https://twitter.com/noahkunin
-team:
+team: DevOps
 ---
 
 Noah came to 18F after helping to launch the [Consumer Financial Protection Bureau](http://consumerfinance.gov) (CFPB). His background is an eclectic mix of genetic engineering, civic activism, investigative journalism, digital services, and bureaucracy hacking. Before joining the [Department of the Treasury](http://www.treasury.gov) to help start the CFPB, he worked at the [Sunlight Foundation](http://sunlightfoundation.com/) helping make government more transparent and accountable. 

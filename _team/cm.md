@@ -3,11 +3,11 @@ name: cm
 first_name: CM
 last_name: Lubinski
 full_name: CM Lubinski
-role:
+role: Developer
 location: Pittsburgh, Pennsylvania
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 CM Lubinski is a developer at 18F, where he primarily works in Python but is also skill in several other languages, including Scala. Based in Chicago, he most recently worked on the Peace Corps site redesign, in conjunction with a team of developers and designers.

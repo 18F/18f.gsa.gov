@@ -3,11 +3,11 @@ name: theresa
 first_name: Theresa
 last_name: Summa
 full_name: Theresa Summa
-role:
+role: Developer
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Theresa Summa is a front-end developer at 18F, where she codes web applications primarily for other agencies throughout the government.

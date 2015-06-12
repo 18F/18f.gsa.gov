@@ -3,8 +3,8 @@ name: melody
 first_name: Melody
 last_name: Kramer
 full_name: Melody Kramer
-role: Writer
-location: Durham, North Carolina
+role: Communications Specialist
+location: Chapel Hill, North Carolina
 github: melodykramer
 twitter: mkramer
 team: Outreach

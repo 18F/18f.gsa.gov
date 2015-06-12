@@ -3,11 +3,11 @@ name: sean
 first_name: Sean
 last_name: Herron
 full_name: Sean Herron
-role:
+role: Product Manager
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Sean works at the intersection of policy and technology by helping technologists understand the needs and concerns of the rest of the government, and helping the rest of the government understand the types of problems technology can (and cannot) solve. He does most of his work in Python, and has extensive experience with Django, elasticsearch, Amazon Web Services, and HTML/CSS.

@@ -3,11 +3,11 @@ name: stephanierivera
 first_name: Stephanie
 last_name: Rivera
 full_name: Stephanie Rivera
-role:
+role: Business Strategy Director
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Operations
 ---
 
 Stephanie works with people across the federal government to make 18F a great place to work. As Director of Business Strategy, she is on the front line of new projects, ensuring that 18F projects meet our impact and user-centered goals.   She is also working to optimize our current performance by ensuring 18F has the right internal policices and procedures in place for success, growth and logevity. 

@@ -3,11 +3,11 @@ name: dhcole
 first_name: Dave
 last_name: Cole
 full_name: Dave Cole
-role:
+role: Developer
 location: Philadelphia, Pennsylvania
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Dave is a developer at 18F. He primarily develops in JavaScript, both front-end and Node.js.

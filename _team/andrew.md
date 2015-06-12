@@ -3,11 +3,11 @@ name: andrew
 first_name: Andrew
 last_name: Stroup
 full_name: Andrew Stroup
-role:
+role: Product and Technology Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: PResidential Innovation Fellowship
 ---
 
 

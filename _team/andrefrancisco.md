@@ -3,11 +3,11 @@ name: andrefrancisco
 first_name: Andre
 last_name: Francisco
 full_name: Andre Francisco 
-role: Writer
+role: Content Designer
 location: Washington, D.C.
 github: awfrancisco
 twitter: andrefrancisco
-team: Communications & Outreach
+team: Outreach
 project:
 - 18F Blog
 - 18f.gsa.gov

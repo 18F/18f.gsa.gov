@@ -3,11 +3,13 @@ name: khandelwal
 first_name: Shashank
 last_name: Khandelwal
 full_name: Shashank Khandelwal
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
+project:
+- Agile Guild
 ---
 
 Shashank Khandelwal is a software developer at 18F, where he codes primarily in Python. Among other projects, he has worked on creating the new openFOIA site and loved being part of this initiative — as he puts it, “everyone should have open and useful access to government records.”

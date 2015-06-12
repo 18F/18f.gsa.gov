@@ -3,11 +3,11 @@ name: jentress
 first_name: Jen
 last_name: Tress
 full_name: Jen Tress
-role:
+role: Hiring Operations Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Talent
 ---
 
 Jen, who leads the hiring team at 18F, specializes in setting strategy and making it operational. "Just like in our tech projects, the approaches we use in recruitment and workforce planning are also agile," she says. "We design, invent, deliver and continue to obtain user feedback for ongoing improvements."

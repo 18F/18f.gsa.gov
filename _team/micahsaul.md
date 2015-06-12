@@ -3,11 +3,11 @@ name: micahsaul
 first_name: Micah
 last_name: Saul
 full_name: Micah Saul
-role:
+role: Acting Engineering Director
 location: Portland, Oregon
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 

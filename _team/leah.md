@@ -3,11 +3,11 @@ name: leah
 first_name: Leah
 last_name: Bannon
 full_name: Leah Bannon
-role:
+role: Project Manager
 location: Washington, D.C.
 github: leahbannon
 twitter: leahbannon
-team:
+team: Delivery
 ---
 
 Leah is a product manager at 18F, where she's worked on a variety of projects that help people access government services in easier ways. She also frequently leads intro to tech workshops at 18F and across the government.

@@ -7,7 +7,7 @@ role: Executive Director
 location: Washington, D.C.
 github: 
 twitter:
-team: Leadership
+team: 18F
 ---
 Aaron is the Acting Executive Director of 18F. Aaron says he views the job as getting the project teams what they need, clearing the path for them, and then getting out of the way. “I think I’ve done my job well if most of the time, most of the team feels like it’s in a fast-paced, mission-driven company — not a government agency,” he says.
 

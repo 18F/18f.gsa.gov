@@ -3,11 +3,11 @@ name: alan
 first_name: Alan
 last_name: DeLevie
 full_name: Alan deLevie
-role:
+role: Acquisition Management Consultant
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Consulting
 ---
 
 Alan deLevie is a Ruby developer who works on MyUSA. He previously worked on immigration for our USCIS/DHS clients, primarily doing Rails development. He also builds accessibility tools and works with both 18F's API program and 18F Consulting.

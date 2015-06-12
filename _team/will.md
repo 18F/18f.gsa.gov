@@ -3,11 +3,11 @@ name: will
 first_name: Will
 last_name: Slack
 full_name: Will Slack
-role:
+role: Business Strategy Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Operations
 ---
 
 Will is building the infrastructure for project intake at 18F. In his words, "My job is to figure out the most effective ways 18F can continue to do good work and grow. I look at everything from the projects we choose to take on to how we position ourselves within GSA and the USDS family. I touch all projects coming into delivery, but also help across the board with documentation, onboarding, and other projects."

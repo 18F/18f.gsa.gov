@@ -3,11 +3,13 @@ name: nick
 first_name: Nick
 last_name: Bristow
 full_name: Nick Bristow
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
+project:
+- Accessibility Guild
 ---
 
 Nick wears several hats at 18F. In addition to being both a front-end and back-end programmer, he also makes sure everything 18F builds is 508 compliant, meaning the products we release can be used with all types of assistive technologies for people with disabilities. Nick spends a lot of time time thinking of and then coding ways to automate testing for accessibility compliance.

@@ -7,7 +7,7 @@ role: Deputy Executive Director
 location: San Francisco, California
 github: quepol
 twitter: hillary
-team: Leadership
+team: 18F
 ---
 
 As the co-founder and Deputy Executive Director, Hillary focuses on building the community, communications and creative sides of 18F.

@@ -3,11 +3,11 @@ name: alison
 first_name: Alison
 last_name: Rowland
 full_name: Alison Rowland
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 Alison is a developer whose specialties include how to use and munge messay datasets, automated software testing, SQL and database tuning. Though her preferred tech stack is Python, Django/Flask and PostgreSQL, she can also work in Ruby and Rails, Node.js, Perl, Javascript and PHP, and has experience with Elasticsearch.
 

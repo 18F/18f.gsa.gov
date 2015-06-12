@@ -3,11 +3,11 @@ name: justin
 first_name: Justin
 last_name: Grevich
 full_name: Justin Grevich
-role:
+role: Developer
 location: Seattle, Washington
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 

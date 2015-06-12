@@ -3,11 +3,13 @@ name: eric
 first_name: Eric
 last_name: Mill
 full_name: Eric Mill
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
+project:
+- Policy Guild
 ---
 
 Eric Mill is a technologist and advocate at 18F, with a focus on open government and internet best practices.

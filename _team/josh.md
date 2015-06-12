@@ -3,11 +3,11 @@ name: josh
 first_name: Josh
 last_name: Ruihley
 full_name: Josh Ruihley
-role:
+role: Product Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Josh is the Director of Product at 18F. In short, it's his job to ensure that the product leads at 18F have what they need to do their jobs effectively.

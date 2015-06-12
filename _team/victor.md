@@ -3,11 +3,11 @@ name: victor
 first_name: Victor
 last_name: Zapanta
 full_name: Victor Diaz Zapanta
-role:
+role: User Experience Designer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Design
 ---
 
 Victor's a user experience designer who sometimes moonlights as a front-end developer. He is currently working on a project to improve the online FOIA request process for the American people.

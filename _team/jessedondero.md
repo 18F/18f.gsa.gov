@@ -3,11 +3,11 @@ name: jessedondero
 first_name: Jesse
 last_name: Dondero
 full_name: Jesse Dondero
-role:
+role: Operations Specialist
 location: Washington, D.C.
 github:
 twitter:
-team: 
+team: Operations
 ---
 
 "I bring the ability to speak to customers to 18F." Jesse began his career at GSA in August 2013 with the Emerging Leaders Program (ELP). During his tenure at 18F he will work on creating a robust customer program aimed not only at continuing to deliver quality products but also a seamless customer experience.

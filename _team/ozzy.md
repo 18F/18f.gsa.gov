@@ -3,11 +3,11 @@ name: ozzy
 first_name: Ozzy
 last_name: Johnson
 full_name: Ozzy Johnson
-role:
+role: Engineering Manager
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: DevOps
 ---
 
 Ozzy Johnson’s focus at 18F is creating and automating infrastructure. He works alongside developers to minimize the cost and friction of operating websites and all the moving parts that comprise and support them.

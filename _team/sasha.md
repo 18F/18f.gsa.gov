@@ -3,11 +3,11 @@ name: sasha
 first_name: Sasha
 last_name: Magee
 full_name: Sasha Magee
-role:
+role: Developer
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Sasha Magee is a developer at 18F, where he works on software projects that help people interact with the government more pleasantly and more efficiently.

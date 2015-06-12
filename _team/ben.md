@@ -3,11 +3,11 @@ name: ben
 first_name: Ben
 last_name: Willman
 full_name: Ben Willman
-role:
+role: Design Researcher
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Presidential Innovation Fellowship
 ---
 
 Ben works on the Product Lead and Experience Design teams, where he works with agency clients and the 18F product teams to build products and insights that are guided by users.

@@ -3,11 +3,13 @@ name: sarah
 first_name: Sarah
 last_name: Allen
 full_name: Sarah Allen
-role:
+role: Product Manager
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Delivery
+project:
+- Agile Guild
 ---
 
 Sarah is a back-end developer who is working on designing and developing Midas, the platform used for Open Opportunities. She is an expert with Ruby and Rails.

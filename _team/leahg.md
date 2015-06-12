@@ -3,11 +3,11 @@ name: leahg
 first_name: Leah
 last_name: Gitter
 full_name: Leah Gitter
-role:
+role: Operations Specialist
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Operations
 ---
 
 Leah is the Operations Support Specialist at 18F. She manages the calendar for the Exacutive Director of 18F, arrange meetings and handle a variety of administrative processes. Her main project: keep things running smoothly.

@@ -3,11 +3,11 @@ name: kaitlin
 first_name: Kaitlin
 last_name: Devine
 full_name: Kaitlin Devine
-role:
+role: Engineering Director
 location: Washington, D.C.
 github: kaitlin
-twitter: "@kaitlinbdevine"
-team: Engineering
+twitter: kaitlinbdevine
+team: Delivery
 ---
 
 Kaitlin is the Director of Engineering at 18F. In addition to leading the Engineering team, she has also worked on projects related to federal procurement, including Discovery and Calc. 

@@ -3,11 +3,11 @@ name: jacobharris
 first_name: Jacob
 last_name: Harris
 full_name: Jacob Harris 
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team: 
+team: Delivery
 ---
 
 Jacob is a backend developer. He especially likes working with data that is difficult to understand – like most government databases – and figuring out how to make it easy and simple for the public to comsume. "I do a lot of data modeling and high-level architecting of how sites should work."

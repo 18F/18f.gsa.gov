@@ -3,11 +3,11 @@ name: raphy
 first_name: Raphael
 last_name: Villas
 full_name: Raphael Villas
-role:
+role: Product Manager
 location: Chicago, Illinois
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Raphy is a product manager who helps build web-based tools for government workers. "I help guide what we build and how we build it," he says.

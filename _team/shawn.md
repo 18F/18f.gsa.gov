@@ -3,11 +3,11 @@ name: shawn
 first_name: Shawn
 last_name: Allen
 full_name: Shawn Allen
-role:
+role: Front End Designer
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Design
 ---
 
 Shawn is a designer and programmer at 18F, where he works on interface design and development using a variety of programming languages and tools.

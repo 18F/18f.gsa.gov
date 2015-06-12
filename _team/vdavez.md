@@ -2,12 +2,12 @@
 name: vdavez
 first_name: V David
 last_name: Zvenyach
-full_name: V David Zvenyach
-role:
+full_name: V. David Zvenyach
+role: Acquisition Management Director 
 location: Washington, D.C.
-github:
-twitter:
-team:
+github: vdavez
+twitter: vdavez
+team: Consulting
 ---
 
 "I'm a government lawyer who writes code," says Dave. "I'm a coder who has written legal briefs."

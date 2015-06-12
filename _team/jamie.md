@@ -3,7 +3,7 @@ name: jamie
 first_name: Jamie
 last_name: Albrecht
 full_name: Jamie Albrecht
-role: Talent Manager
+role: Hiring Lead
 location: San Francisco, California
 github: jamiealbrecht
 twitter: jmealbrecht

@@ -3,11 +3,11 @@ name: gramirez
 first_name: Gabriel
 last_name: Ramírez
 full_name: Gabriel Ramírez
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Gabriel is a backend developer on the openFOIA project. His work consists of building new features for openFOIA — like contact forms and full-text searching — as well as scraping, cleaning, and validating data. He is well-versed in Python, statistical modeling, network analysis, machine learning and Django/Flask.

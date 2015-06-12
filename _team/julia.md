@@ -3,11 +3,11 @@ name: julia
 first_name: Julia
 last_name: Elman
 full_name: Julia Elman
-role:
+role: Front End Designer
 location: Raleigh, North Carolina
 github:
 twitter:
-team:
+team: Design
 ---
 
 Julia is a designer and developer at 18F. She primarily codes in Python/Django, but also dabbles with Ruby on Rails, node/npm, and Angular.js, depending on the needs of the project she's tackling. "Each of the projects I get to work on is extremely challenging, based on the complexity of the user experience and how we approach the solution," she says."At 18F, I help create interfaces, experiences and code bases that are accessible on multiple fronts."

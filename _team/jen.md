@@ -3,11 +3,11 @@ name: jen
 first_name: Jen
 last_name: Ehlers
 full_name: Jen Ehlers
-role:
+role: Visual Designer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Jen is a designer and user researcher who is currently working on a number of projects that will make immigration services more accessible. In her words: "I'm a designer who works on problems in the government space, which could mean anything from web design, to user interface design, to form design. I focus on trying to get all the great government content and services to work better for the people who need to use them."

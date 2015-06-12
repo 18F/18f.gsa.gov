@@ -7,7 +7,6 @@ role: Developer
 location: Washington, D.C.
 github: gboone
 twitter: gboone42
-personal: http://greg.harmsboone.org
 team: Outreach
 project:
 - 18f.gsa.gov

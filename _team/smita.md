@@ -3,11 +3,11 @@ name: smita
 first_name: Smita
 last_name: Satiani
 full_name: Smita Satiani
-role:
+role: Business Development Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Presidential Innovation Fellowship
 ---
 
 Smita is the Director of Agency Engagement for the Presidential Innovation Fellows program. Working with over 30 agencies, Smita finds the most impactful technology projects for the Presidential Innovation Fellows to work on, with the goal of finding projects that save millions of taxpayer dollars and touch millions of lives. "The PIF program fascinated me because of the huge opportunity for innovators to achieve massive scale for societal solutions, through leveraging government resources," she says.

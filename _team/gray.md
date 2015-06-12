@@ -3,11 +3,13 @@ name: gray
 first_name: Gray
 last_name: Brooks
 full_name: Gray Brooks
-role:
+role: Project Manager
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
+project:
+- Analytics Guild
 ---
 
 Gray is the Senior API Strategist at 18F. What that means is that he helps integrate digital services into federal agencies, with a focus on APIs and open source software. In his words: "I help agencies transition their workflows into something more modern and efficient, drive agencies to do more online, and help agencies automate and improve their workflows."

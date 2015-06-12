@@ -3,11 +3,11 @@ name: manger
 first_name: Noah
 last_name: Manger
 full_name: Noah Manger
-role:
+role: Front End Designer
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Design
 ---
 
 

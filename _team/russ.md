@@ -3,11 +3,11 @@ name: russ
 first_name: Russ
 last_name: Unger
 full_name: Russ Unger
-role:
+role: Director
 location: Chicago, Illinois
 github:
 twitter:
-team:
+team: Design
 ---
 
 Russ is 18F's Director of Experience Design, where he leads teams and projects in design and research. "Every one of our projects is an opportunity to work with government agencies who are so very invested in what we're all doing," he says. "It's exciting to partner with people who not only understand the value of user-centered design and development practices... they also request, if not demand, and embrace them, and are on board along for the ride."

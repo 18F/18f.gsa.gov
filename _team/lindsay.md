@@ -3,11 +3,11 @@ name: lindsay
 first_name: Lindsay
 last_name: Young
 full_name: Lindsay Young
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Lindsay is a developer at 18F. She is currently working with the Federal Election Commission to create a user-centered website powered by the FEC's first API.

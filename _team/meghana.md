@@ -3,11 +3,11 @@ name: meghana
 first_name: Meghana
 last_name: Khandekar
 full_name: Meghana Khandekar
-role:
+role: User Experience Designer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Design
 ---
 
 Meghana Khandekar, a designer at 18F, has expertise in varied fields — interaction and systems design, brand design, painting, and Hindi among them. She’s currently working on MyUSA, a service that offers comprehensive account management to government agencies, and provides visitors single sign-on access to various government services.  

@@ -3,11 +3,11 @@ name: jtag
 first_name: Jesse
 last_name: Taggert
 full_name: Jesse Taggert
-role:
+role: Design and Product Strategy Director
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Consulting
 ---
 
 Jesse leads the Design and Product Strategy initiatives on the 18F consulting team, which means she helps the people inside government agencies begin to think about and plan digital projects. "We start with some basic questions: Who are the users? What do they truly need? How much can digital strategy help? And how much process or policy needs to change to enable that?" she says. "And then we talk about user-centered design and lead workshops that help people think about the end user."

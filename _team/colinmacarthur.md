@@ -3,11 +3,11 @@ name: colinmacarthur
 first_name: Colin
 last_name: MacArthur
 full_name: Colin MacArthur
-role:
+role: User Experience Designer
 location: Boston, Massachusetts
 github:
 twitter:
-team: 
+team: Delivery
 ---
 
 Colin's specialty is user experience research. "That means I love talking to the people who use our products about what their goals are, what works for them and what doesn't. I'm particularly interested in "lean UX" or ways to continuously test our assumptions about what our audience wants and needs."

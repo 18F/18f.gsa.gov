@@ -3,11 +3,11 @@ name: bradnunnally
 first_name: Brad
 last_name: Nunnally
 full_name: Brad Nunnally 
-role:
+role: User Experience
 location: St. Louis, Missouri
 github:
 twitter:
-team: 
+team: Design
 ---
 
 Brad's skills are focused on the core pillars of user experience - user research, information architecture, and interaction design. His roots are in user research and approaches every problem with that in mind, always asking how and why someone would do something. "If those answers aren't available, I try to find ways to get to the answer so every design decision is backed with as much data as possible."

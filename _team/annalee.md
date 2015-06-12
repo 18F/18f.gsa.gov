@@ -3,11 +3,11 @@ name: annalee
 first_name: Annalee
 last_name: Flower Horne
 full_name: Annalee Flower Horne
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 Annalee is a back-end developer at 18F, who works mostly in python frameworks like Django and Flask. "I build the parts of a website the user doesn't see," she says. "When you load a page, there's a lot going on under the hood for the page to serve you the correct content, do any needed math, etc. The same thing happens when you submit information. I write the code that makes those under-the-hood operations go."

@@ -3,11 +3,11 @@ name: kara
 first_name: Kara
 last_name: DeFrias
 full_name: Kara DeFrias
-role:
+role: Deputy Chief
 location: San Diego, California
 github:
 twitter:
-team:
+team: Consulting
 ---
 
 Kara is the Deputy Director of the 18F Consulting Team. Her goals are to "infuse design thinking across the federal government, make the digital services the people interact with more usable and useful, make it easier for people to connect with their government, and influence experiences that yes, maybe even make the interactions delightful."

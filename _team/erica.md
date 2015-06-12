@@ -3,11 +3,11 @@ name: erica
 first_name: Erica
 last_name: Deahl
 full_name: Erica Deahl
-role:
+role: Visual Designer
 location: San Francisco, California
 github:
 twitter:
-team:
+team: Design
 ---
 
 Erica is a visual and UX designer at 18F, where she works to discover the needs of users and develop, test, and iterate interface designs. She is currently working on one project to help people navigate the immigration application process, and another to reduce the burden of making and fulfilling Freedom of Information Act requests.

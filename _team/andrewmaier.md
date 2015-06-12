@@ -3,11 +3,11 @@ name: andrewmaier
 first_name: Andrew
 last_name: Maier
 full_name: Andrew Maier
-role:
+role: User Experience Designer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Design
 ---
 
 Andrew is a designer and user researcher by trade, but describes his role at 18F more broadly. "I enjoy everything from project management  and policy/governance to user research, interaction design, and front-end development," he says. "Basically, I enjoy everything related to software development that doesn't involve a database — especially the human bits."

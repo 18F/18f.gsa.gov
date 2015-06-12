@@ -3,11 +3,11 @@ name: brethauer
 first_name: Nick
 last_name: Brethauer
 full_name: Nick Brethauer
-role:
+role: User Experience Designer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Design
 ---
 
 A self-described “team design-process” nerd, Nick loves exploring and improving how our teams work; combining agile and lean methodologies to create an iterative process of team design, development, user research and testing. "Most of the time I’m working in a product team doing user research and facilitating collaborative team design," he says. "I also spend some time in several working groups that are focused on building internal 18F practices & processes, like documentation, group building, outcomes & metrics, and project intake."

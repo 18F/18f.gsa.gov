@@ -3,11 +3,11 @@ name: joshcarp
 first_name: Josh
 last_name: Carp
 full_name: Josh Carp
-role:
+role: Developer
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Delivery
 ---
 
 A full stack developer, Josh is most comfortable writing programs in Python and Javascript, but is always interested in learning new tools.

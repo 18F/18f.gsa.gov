@@ -3,11 +3,11 @@ name: nolson
 first_name: Nathan
 last_name: Olson
 full_name: Nathan Olson
-role: 
+role: Operations Director
 location: Washington, D.C.
 github:
 twitter:
-team:
+team: Presidential Innovation Fellowship
 ---
 
 

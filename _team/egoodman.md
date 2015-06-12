@@ -7,7 +7,7 @@ role: design researcher
 location: San Francisco, California
 github: esgoodman
 twitter: egoodman
-team: C3CO
+team: Design
 ---
 Liz is a design researcher at 18F. She studies how people live in order to
 design and develop tools to support them. Over the course of a workday, she

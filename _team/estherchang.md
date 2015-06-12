@@ -3,7 +3,7 @@ name: estherchang
 first_name: Esther
 last_name: Chang
 full_name: Esther Chang
-role:
+role: Hiring Operations
 location: Washington, D.C.
 github:
 twitter:
