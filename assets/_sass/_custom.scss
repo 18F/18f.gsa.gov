@@ -1184,7 +1184,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	padding-bottom: 20px;
 	h1 {
-		font-size: 1.2em;
+		font-size: 1em;
 		padding-bottom: 0.3em;
 		@include media($smallest) {
 			font-size: 1em;
@@ -1198,23 +1198,20 @@ $tiniest: new-breakpoint(max-width 390px);
 	.container > div {
 		padding-top: 10px;
 		padding-bottom: 10px;
+		margin-left: -3%;
 		@include span-columns(2);
-		&:nth-of-type(3) {
-			@include span-columns(4);
+		
+		@include media($smallest) {
+			@include span-columns(10);
+			@include shift(2);
 		}
 		@include media($tiny) {
 			@include span-columns(10);
 			@include shift(2);
-			&:nth-of-type(3) {
-				@include span-columns(10);
-			}
 		}
 		@include media($tiniest) {
 			@include span-columns(10);
 			@include shift(1);
-			&:nth-of-type(3) {
-				@include span-columns(10);
-			}
 		}
 	}
 	img {
@@ -1223,7 +1220,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 	a {
 		color:#fff;
-		font-size: 0.9em;
+		font-size: 0.8em;
   		text-decoration: none;
   		&:hover, &:focus {
   			text-decoration: underline;
