@@ -16,7 +16,9 @@ tags:
 - modernization
 ---
 
-By {% author chrisc %} and {% author greg %}
+<p class="authors">
+  by {% author chrisc %} and {% author greg %}
+  </p>
 
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013
 
@@ -26,7 +28,7 @@ Over the past several years, the federal government and industry community have 
 
 To shift the software procurement paradigm, we are partnering with the General Service Administrations's (GSA) [Office of Integrated Technology Services](http://www.gsa.gov/portal/content/105150) to establish a government-wide blanket purchase agreement (BPA) featuring vendors specializing in agile delivery services (e.g., user-centered design, agile software development, DevOps). To begin the process of engaging with industry, we recently posted a [Request for Information (RFI) on ](https://www.fbo.gov/notices/e0807fc8a69115f0e352f6f0c135697a)[FedBizOpps](https://www.fbo.gov/notices/e0807fc8a69115f0e352f6f0c135697a) and GSA eBuy and will be holding an industry day event on February 3. To sign up for the event, please visit our [event registration page](http://gsafas.adobeconnect.com/agile2015/event/registration.html). (The original event was rescheduled due to inclement weather.)
 
-There are a number of elements that make this BPA unique, including:
+There are a number of elements that make this BPA unique.
 
 ##Starting lean
 A BPA is simply a product for fulfilling specific supply needs of buyers across the federal government. Many of today’s leading companies are using proven [lean startup](https://en.wikipedia.org/wiki/Lean_startup) practices (e.g., MVP) to improve the market success rates of their new product development initiatives. In a similar fashion, we plan to develop alpha and beta versions of the Agile Delivery Services BPA.
