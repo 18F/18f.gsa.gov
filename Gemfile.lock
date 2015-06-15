@@ -104,6 +104,3 @@ DEPENDENCIES
   redcarpet
   rouge
   safe_yaml
-
-BUNDLED WITH
-   1.10.3
