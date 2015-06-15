@@ -7,7 +7,7 @@ author:
 - chrisc
 - noah
 tags:
-- h18f consulting
+- 18f consulting
 - agile
 - federal acquisitions
 - hacking bureaucracy
@@ -27,7 +27,7 @@ BPA)](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-de
 is hitting the street on Wednesday, June 17, 2015. When the RFQ is
 released, we will post it on GitHub and the General Service
 Administration’s [eBuy
-system](https://www.ebuy.gsa.gov/advantage/ebuy/start_page.do), and
+system (RFQ993471)](https://www.ebuy.gsa.gov/advantage/ebuy/start_page.do), and
 vendors will be able to submit responses to be part of the Agile
 Delivery BPA.
 
