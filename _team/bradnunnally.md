@@ -4,7 +4,8 @@ first_name: Brad
 last_name: Nunnally
 full_name: Brad Nunnally 
 role: User Experience
-location: St. Louis, Missouri
+city: St. Louis
+state: MO
 github:
 twitter:
 team: Design

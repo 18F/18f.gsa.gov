@@ -4,7 +4,8 @@ first_name: Micah
 last_name: Saul
 full_name: Micah Saul
 role: Acting Engineering Director
-location: Portland, Oregon
+city: Portland
+state: OR
 github:
 twitter:
 team: Delivery

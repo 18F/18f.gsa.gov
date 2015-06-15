@@ -4,7 +4,8 @@ first_name: Hillary
 last_name: Hartley
 full_name: Hillary Hartley
 role: Deputy Executive Director
-location: San Francisco, California
+city: San Francisco
+state: CA
 github: quepol
 twitter: hillary
 team: 18F

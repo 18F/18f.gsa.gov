@@ -4,7 +4,8 @@ first_name: Michelle
 last_name: Hertzfeld
 full_name: Michelle Hertzfeld
 role: Front End Designer
-location: Tucson, Arizona
+city: Tucson
+state: AZ
 github:
 twitter:
 team: Design

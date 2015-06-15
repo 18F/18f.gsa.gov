@@ -4,7 +4,8 @@ first_name: Justin
 last_name: Grevich
 full_name: Justin Grevich
 role: Developer
-location: Seattle, Washington
+city: Seattle
+state: WA
 github:
 twitter:
 team: Delivery

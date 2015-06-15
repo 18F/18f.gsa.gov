@@ -4,7 +4,8 @@ first_name: Aaron
 last_name: Snow
 full_name: Aaron Snow
 role: Executive Director
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: 
 twitter:
 team: 18F

@@ -4,7 +4,8 @@ first_name: Jesse
 last_name: Taggert
 full_name: Jesse Taggert
 role: Design and Product Strategy Director
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Consulting

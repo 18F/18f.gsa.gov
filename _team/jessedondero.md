@@ -4,7 +4,8 @@ first_name: Jesse
 last_name: Dondero
 full_name: Jesse Dondero
 role: Operations Specialist
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Operations

@@ -4,7 +4,8 @@ first_name: Noah
 last_name: Manger
 full_name: Noah Manger
 role: Front End Designer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Design

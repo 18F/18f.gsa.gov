@@ -4,7 +4,8 @@ first_name: Eric
 last_name: Ronne
 full_name: Eric Ronne
 role:
-location: Chicago, Illinois
+city: Chicago
+state: IL
 github:
 twitter:
 team:

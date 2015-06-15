@@ -4,7 +4,8 @@ first_name: Lindsay
 last_name: Young
 full_name: Lindsay Young
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

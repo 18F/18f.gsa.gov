@@ -4,7 +4,8 @@ first_name: CM
 last_name: Lubinski
 full_name: CM Lubinski
 role: Developer
-location: Pittsburgh, Pennsylvania
+city: Pittsburgh
+state: PA
 github:
 twitter:
 team: Delivery

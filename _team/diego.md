@@ -4,7 +4,8 @@ first_name: Diego
 last_name: Lapiduz
 full_name: Diego Lapiduz
 role: Engineering Manager
-location: Austin, Texas
+city: Austin
+state: TX
 github:
 twitter:
 team: DevOps

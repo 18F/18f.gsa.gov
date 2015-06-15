@@ -4,7 +4,8 @@ first_name: Greg
 last_name: Boone
 full_name: Greg Boone
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: gboone
 twitter: gboone42
 team: Outreach

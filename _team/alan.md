@@ -4,7 +4,8 @@ first_name: Alan
 last_name: DeLevie
 full_name: Alan deLevie
 role: Acquisition Management Consultant
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Consulting

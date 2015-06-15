@@ -4,7 +4,8 @@ first_name: Sasha
 last_name: Magee
 full_name: Sasha Magee
 role: Developer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Delivery

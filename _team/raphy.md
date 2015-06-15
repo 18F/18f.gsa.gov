@@ -4,7 +4,8 @@ first_name: Raphael
 last_name: Villas
 full_name: Raphael Villas
 role: Product Manager
-location: Chicago, Illinois
+city: Chicago
+state: IL
 github:
 twitter:
 team: Delivery

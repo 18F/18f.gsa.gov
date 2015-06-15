@@ -4,7 +4,8 @@ first_name: Colin
 last_name: MacArthur
 full_name: Colin MacArthur
 role: User Experience Designer
-location: Boston, Massachusetts
+city: Boston
+state: MA
 github:
 twitter:
 team: Delivery

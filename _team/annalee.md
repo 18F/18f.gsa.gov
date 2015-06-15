@@ -4,7 +4,8 @@ first_name: Annalee
 last_name: Flower Horne
 full_name: Annalee Flower Horne
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

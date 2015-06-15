@@ -4,7 +4,8 @@ first_name: Julia
 last_name: Elman
 full_name: Julia Elman
 role: Front End Designer
-location: Raleigh, North Carolina
+city:
+state: NC
 github:
 twitter:
 team: Design

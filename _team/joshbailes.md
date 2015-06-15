@@ -4,7 +4,8 @@ first_name: Josh
 last_name: Bailes
 full_name: Josh Bailes
 role: Operations Specialist
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Legal

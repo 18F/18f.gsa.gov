@@ -4,7 +4,8 @@ first_name: Marco
 last_name: Segreto
 full_name: Marco Segreto
 role: Front End Designer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Design

@@ -4,7 +4,8 @@ first_name: Kara
 last_name: DeFrias
 full_name: Kara DeFrias
 role: Deputy Chief
-location: San Diego, California
+city: San Diego
+state: CA
 github:
 twitter:
 team: Consulting

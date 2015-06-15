@@ -4,7 +4,8 @@ first_name: Dave
 last_name: Cole
 full_name: Dave Cole
 role: Developer
-location: Philadelphia, Pennsylvania
+city: Philadelphia
+state: PA
 github:
 twitter:
 team: Delivery

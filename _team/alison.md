@@ -4,7 +4,8 @@ first_name: Alison
 last_name: Rowland
 full_name: Alison Rowland
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

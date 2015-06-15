@@ -4,7 +4,8 @@ first_name: Noah
 last_name: Kunin
 full_name: Noah Kunin
 role: Director of Delivery Architecture and Infrastructure Services
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: https://github.com/noahkunin
 twitter: https://twitter.com/noahkunin
 team: DevOps
