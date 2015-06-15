@@ -1195,7 +1195,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			padding-bottom: 0.2em;
 		}
 	}
-	.container > div {
+	.container > nav {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		margin-left: -3%;
@@ -1217,6 +1217,10 @@ $tiniest: new-breakpoint(max-width 390px);
 	img {
 		max-width: 100%;
   		max-height: 100px;
+  		margin-left: 10px;
+   		@include media ($small){
+  			margin-left: 5px;
+  		}
 	}
 	a {
 		color:#fff;
