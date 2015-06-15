@@ -1222,6 +1222,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		color:#fff;
 		font-size: 0.8em;
   		text-decoration: none;
+  		display: inline-block;
   		&:hover, &:focus {
   			text-decoration: underline;
   		}
