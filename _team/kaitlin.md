@@ -4,7 +4,8 @@ first_name: Kaitlin
 last_name: Devine
 full_name: Kaitlin Devine
 role: Engineering Director
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: kaitlin
 twitter: kaitlinbdevine
 team: Delivery

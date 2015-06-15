@@ -4,7 +4,8 @@ first_name: John
 last_name: Yuda
 full_name: John Yuda
 role: Senior Product Design Advisor
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

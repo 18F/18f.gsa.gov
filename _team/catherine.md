@@ -4,7 +4,8 @@ first_name: Catherine
 last_name: Devlin
 full_name: Catherine Devlin
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

@@ -4,7 +4,8 @@ first_name: Shashank
 last_name: Khandelwal
 full_name: Shashank Khandelwal
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

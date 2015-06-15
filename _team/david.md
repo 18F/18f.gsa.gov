@@ -4,7 +4,8 @@ first_name: David
 last_name: Best
 full_name: David Best
 role: Product Manager
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

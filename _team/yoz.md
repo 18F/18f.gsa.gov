@@ -4,7 +4,8 @@ first_name: Yoz
 last_name: Grahame
 full_name: Yoz Grahame
 role: Developer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Delivery

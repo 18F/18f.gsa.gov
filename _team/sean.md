@@ -4,7 +4,8 @@ first_name: Sean
 last_name: Herron
 full_name: Sean Herron
 role: Product Manager
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

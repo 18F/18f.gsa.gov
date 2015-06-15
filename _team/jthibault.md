@@ -4,7 +4,8 @@ first_name: Jennifer
 last_name: Thibault
 full_name: Jennifer Thibault
 role: Visual Designer
-location: New York City, New York
+city: New York City
+state: NY
 github: jenniferthibault
 twitter: jlthibault
 team: Design

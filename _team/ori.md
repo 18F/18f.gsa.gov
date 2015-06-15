@@ -4,7 +4,8 @@ first_name: Ori
 last_name: Hoffer
 full_name: Ori Hoffer
 role: Communications Specialist
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: orihoffer
 twitter: orihoffer
 team: Outreach

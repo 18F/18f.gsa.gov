@@ -4,7 +4,8 @@ first_name: Kate
 last_name: Garklavs
 full_name: Kate Garklavs
 role: Content Designer
-location: Portland, Oregon
+city: Portland
+state: OR
 github: kategarklavs
 twitter:
 team: Design

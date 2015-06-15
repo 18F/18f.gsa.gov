@@ -4,7 +4,8 @@ first_name: Ben
 last_name: Willman
 full_name: Ben Willman
 role: Design Researcher
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Presidential Innovation Fellowship

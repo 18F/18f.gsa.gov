@@ -4,7 +4,8 @@ first_name: Stephanie
 last_name: Rivera
 full_name: Stephanie Rivera
 role: Business Strategy Director
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Operations

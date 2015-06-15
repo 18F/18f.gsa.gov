@@ -4,7 +4,8 @@ first_name: Becky
 last_name: Sweger
 full_name: Becky Sweger
 role: Developer
-location: Easthampton, Massachusetts
+city: Easthampton
+state: MA
 github:
 twitter:
 team: Delivery

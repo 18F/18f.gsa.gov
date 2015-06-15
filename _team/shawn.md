@@ -4,7 +4,8 @@ first_name: Shawn
 last_name: Allen
 full_name: Shawn Allen
 role: Front End Designer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Design

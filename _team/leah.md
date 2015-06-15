@@ -4,7 +4,8 @@ first_name: Leah
 last_name: Bannon
 full_name: Leah Bannon
 role: Project Manager
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: leahbannon
 twitter: leahbannon
 team: Delivery

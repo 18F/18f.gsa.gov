@@ -4,7 +4,8 @@ first_name: Pia
 last_name: Scott
 full_name: Pia Scott
 role: Events Director
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Outreach

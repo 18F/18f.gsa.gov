@@ -4,7 +4,8 @@ first_name: Will
 last_name: Slack
 full_name: Will Slack
 role: Business Strategy Director
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Operations

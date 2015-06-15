@@ -4,7 +4,8 @@ first_name: Chris
 last_name: Cairns
 full_name: Chris Cairns
 role: Chief
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Consulting

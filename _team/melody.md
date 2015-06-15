@@ -4,7 +4,8 @@ first_name: Melody
 last_name: Kramer
 full_name: Melody Kramer
 role: Communications Specialist
-location: Chapel Hill, North Carolina
+city: Chapel Hill
+state: NC
 github: melodykramer
 twitter: mkramer
 team: Outreach

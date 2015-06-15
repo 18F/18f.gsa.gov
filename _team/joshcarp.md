@@ -4,7 +4,8 @@ first_name: Josh
 last_name: Carp
 full_name: Josh Carp
 role: Developer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

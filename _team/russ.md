@@ -4,7 +4,8 @@ first_name: Russ
 last_name: Unger
 full_name: Russ Unger
 role: Director
-location: Chicago, Illinois
+city: Chicago
+state: IL
 github:
 twitter:
 team: Design

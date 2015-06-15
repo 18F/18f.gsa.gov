@@ -4,7 +4,8 @@ first_name: Theresa
 last_name: Summa
 full_name: Theresa Summa
 role: Developer
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Delivery

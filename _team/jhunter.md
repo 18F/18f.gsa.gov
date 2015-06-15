@@ -4,7 +4,8 @@ first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
 role: Content Designer
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github: jeanninehunter
 twitter: 
 team: Design

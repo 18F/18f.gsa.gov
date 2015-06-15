@@ -4,7 +4,8 @@ first_name: Gray
 last_name: Brooks
 full_name: Gray Brooks
 role: Project Manager
-location: Washington, D.C.
+city: Washington
+state: D.C.
 github:
 twitter:
 team: Delivery

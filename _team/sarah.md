@@ -4,7 +4,8 @@ first_name: Sarah
 last_name: Allen
 full_name: Sarah Allen
 role: Product Manager
-location: San Francisco, California
+city: San Francisco
+state: CA
 github:
 twitter:
 team: Delivery
