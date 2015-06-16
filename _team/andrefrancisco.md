@@ -15,7 +15,7 @@ project:
 - 18F Consulting
 ---
 
-Andre Francisco has "spent a lot of time writing and advocating for increased government transparency". Here at 18F he helps the Outreach team create and edit all the content that gets up on the 18F blog, and helps to improve the 18F site to make sure it is adequately serving our users.
+Andre Francisco has "spent a lot of time writing and advocating for increased government transparency." Here at 18F, he helps the Outreach team create and edit all the content that gets up on the 18F blog, and helps to improve the 18F site to make sure it's adequately serving our users.
 
 Before 18F, Andre worked for the Project On Government Oversight, where he helped redesign major sections of the website, managed their social media and blog, and helped implement their online communications strategy. He also spent two years abroad teaching English in South Korea and rural Hungary. Andre majored in journalism at Northwestern University where he worked on the campus online magazine and founded a blog to cover the homeless in Chicago.
 
