@@ -990,7 +990,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	clear: both;
 	position: relative;
 	overflow: visible;
-	padding: 2em 0em 0 11.7em; 
+	padding: 1em 0em 0 11.7em; 
 	@include media($medium) {
 		min-height: auto !important;
 		max-height: auto !important;
