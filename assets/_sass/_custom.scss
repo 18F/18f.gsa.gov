@@ -541,10 +541,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	  	list-style: decimal;
 	}
 	ul, ol {
-    	margin-left: 1em;
-	}
-	li {
-			padding-bottom: 1.1em;
+    	margin-left: 2em;
 	}
 
 	p, li {
@@ -1024,7 +1021,15 @@ $tiniest: new-breakpoint(max-width 390px);
 	p {
 		margin-bottom: 1.1em;
 	}
-
+	ul {
+	  	list-style: disc;
+	}
+	ol {
+	  	list-style: decimal;
+	}
+	ul, ol {
+    	margin-left: 2em;
+	}
 	ul, ol {
 		li {
 			margin: 5px 0;
