@@ -1,0 +1,20 @@
+---
+first_name: "string"
+last_name: "string"
+full_name: "string"
+role: "string"
+location: DCA
+github: "string"
+twitter: "string"
+team:
+  type: "string"
+  oneof: [Delivery, Consulting, Design, Talent]
+config:
+  path: '_team'
+  ignore:
+  - README.md
+  - ..
+  - .
+  - .DS_Store
+  optional: ['tumblr_url']
+---

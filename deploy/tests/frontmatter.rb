@@ -52,16 +52,18 @@ def check_types(data, schema, file)
 		key  = s[0]
 		type = s[1]
 		if data.has_key?(key)
-			require 'pry'; binding.pry
-			return data[key].class == type
+			data[key].class == type
 		end
 	end
+	return true
 end
 
 puts 'starting tests'
 puts 'testing posts'
-test = process(loadschema('_posts.yml'))
-if test
+test = []
+test.push process(loadschema('_posts.yml'))
+test.push process(loadschema('_team.yml'))
+unless test.uniq
 	puts 'Tests finished!'
 	exit 0
 else
