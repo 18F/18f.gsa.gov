@@ -8,9 +8,9 @@ layout: bare
 
 Delivery is our flagship business, the core of everything we do. A talented group of developers, designers, writers, and project managers work in agile teams to build world-class digital services. We rethink the way government services are built and put the needs of the public first. We accomplish this through our core values:
 
-- **Building excellent teams of technologists**
-- **Deploying new services early and often**
-- **Being open, agile, design centric, and data driven**
+- Building excellent teams of technologists
+- Deploying new services early and often
+- Being open, agile, design centric, and data driven
 
 ## Open
 We believe software should be well designed from the first line of code, and designing in the open keeps us responsive to user feedback. We celebrate public contributions to our projects.
