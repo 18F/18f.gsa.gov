@@ -1,8 +1,7 @@
 require 'yaml'
-def loadconfig()
-	config = YAML.load_file('_config.yml')
+def config
+	@config ||= YAML.load_file '_config.yml'
 end
-@config = loadconfig
 
 def loadschema(file)
 	YAML.load_file(File.join("deploy", "tests", "schema", file))
@@ -59,12 +58,9 @@ def check_types(data, schema, file)
 	end
 end
 
-def check_rules(data, schema, file)
-	YAML.load_file('deploy/tests/schema/rules.yml')
-end
 puts 'starting tests'
-post_schema = loadschema('_posts.yml')
-test = process(post_schema)
+puts 'testing posts'
+test = process(loadschema('_posts.yml'))
 if test
 	puts 'Tests finished!'
 	exit 0
