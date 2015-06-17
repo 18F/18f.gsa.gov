@@ -926,64 +926,65 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 // Profiles
-.profile {
-	.content {
-		margin-top: 80px;
-		margin-left: 165px;
-		margin-right: 0 !important;
-		padding: 0 2.35765% 0;
-		display: block;
-		float: left;
-		@include span-columns(6);
-		@include media($medium) {
-			@include span-columns(10);
-			float: none;
-			margin: 7px auto 0 !important;
-		}
-		p {
-			@include media($medium) {
-				margin-left: auto;
-				margin-right: auto;
-				float: none;
-				&:last-child {
-					margin-right: auto;
-				}
-			}
-		}
-		h3 {
-			font-size: 18px;
-			font-weight: 400;
-		}
+.profile > .content {
+	margin-top: 80px;
+	margin-left: 165px;
+	margin-right: 0 !important;
+	padding: 0 2.35765% 0;
+	display: block;
+	float: left;
+	@include span-columns(6);
+	@include media($medium) {
+		@include span-columns(10);
+		float: none;
+		margin: 7px auto 0 !important;
 	}
-	aside {
-		margin-top: 80px;
-		display: block;
-		float: right;
-		@include span-columns(4);
-		h2 {
-			font-size: $base-font-size * 1.25;
-			font-weight: 300;
-			padding-top: 0.2em;
-			padding-bottom: 10px;
-		}
-		ul {
-			padding-bottom: 20px;
-		}
-		@include media($big) {
-			@include span-columns(3);
-			h2 {
-				font-size: 18px;
-				font-weight: 300;
-			}
-		}
+	p {
 		@include media($medium) {
-			@include span-columns(10);
+			margin-left: auto;
+			margin-right: auto;
 			float: none;
-			margin: 25px auto 0;
-			padding: 0px 2.35765%;
 			&:last-child {
 				margin-right: auto;
 			}
+		}
+	}
+	h3 {
+		font-size: $base-font-size * 1.125;
+		font-weight: 400;
+	}
+}
+.profile > aside {
+	margin-top: 80px;
+	display: block;
+	float: right;
+	@include span-columns(4);
+	h2 {
+		font-size: $base-font-size * 1.25;
+		font-weight: 300;
+		padding-top: 0.2em;
+		padding-bottom: 10px;
+	}
+	h3 {
+		font-size: $base-font-size * 1.125;
+	}
+	ul {
+		padding-bottom: 20px;
+	}
+	@include media($big) {
+		@include span-columns(3);
+		h2 {
+			font-size: 18px;
+			font-weight: 300;
+		}
+	}
+	@include media($medium) {
+		@include span-columns(10);
+		float: none;
+		margin: 25px auto 0;
+		padding: 0px 2.35765%;
+		&:last-child {
+			margin-right: auto;
 		}
 	}
 }
