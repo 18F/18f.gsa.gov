@@ -21,6 +21,8 @@ image: /assets/blog/were-hiring/team.jpg
   by {% author vdavez %}, {% author chrisc %}, and {% author noah %}
   </p>  
 
+*Update: [The RFQ is live!](https://pages.18f.gov/ads-bpa/assets/ADS_RFQ_Final.pdf) If you have questions about how this process is going to work, you can [click here for our guide to the Agile BPA](https://pages.18f.gov/ads-bpa/).* 
+
 It’s game time. The Request for Quotation (RFQ) for the [Agile Delivery
 Services Blanket Purchase Agreement (Agile Delivery
 BPA)](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
