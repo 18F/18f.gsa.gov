@@ -14,7 +14,7 @@
   <div class="content" role="main" itemscope itemprop="mainContentOfPage">
     {% if content.size > 0 %}{{ content }}
     {% if page.project %}
-    <h3>{{ page.first_name }}'s projects:</h3>
+    <h5>{{ page.first_name }}'s projects:</h5>
     	<ul>
 	    	{% for project in page.project %}
 					<li>{{ project }}</li>
