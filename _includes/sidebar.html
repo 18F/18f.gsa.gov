@@ -4,7 +4,7 @@ Add sidebars filtered by layout below
 {% if page.layout == "profile" %}
 <aside>
 	{% if page.github or page.twitter or page.personal and site.config.display_personal %}
-		<h5>Where to find {{ page.first_name }}</h5>
+		<h2>Where to find {{ page.first_name }}</h2>
 		<ul>
 			{% if page.github %}
 			<li><a href="https://github.com/{{ page.github }}">GitHub</a></li>
@@ -17,6 +17,6 @@ Add sidebars filtered by layout below
 			{% endif %}
 		</ul>
 	{% endif %}
-	{% authored_posts heading=5 %}
+	{% authored_posts heading=2 %}
 </aside>
 {% endif %}
