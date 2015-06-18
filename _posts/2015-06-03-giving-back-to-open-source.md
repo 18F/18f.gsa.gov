@@ -2,7 +2,7 @@
 title: "Giving back to open source: Everybody wins"
 date: 2015-06-03
 layout: post
-author:
+authors:
 - mbland
 tags:
 - open source
