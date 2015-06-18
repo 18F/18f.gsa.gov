@@ -29,9 +29,9 @@ module Jekyll
   class AuthoredPosts < Liquid::Tag
     def initialize(tag_name, heading, tokens)
       super
-      @heading = heading.split('=')[0].strip()
+      @heading = heading.split('=')[1].strip
     end
-    
+
     def render(context)
       authored = []
       author = context.environments[0]['page']['name']
