@@ -963,6 +963,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		h2 {
 			font-size: $base-font-size * 1.25;
 			font-weight: 300;
+			padding-top: $base-font-size - 0.8;
 		}
 		@include media($big) {
 			@include span-columns(3);
