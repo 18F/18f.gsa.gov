@@ -38,7 +38,7 @@ Every step will be illustrated with a helpful screenshot or animated GIF that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn How to Make a Pull Request](#learn-how-to-make-a-pull-request)
 
-> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), [Google Code](https://code.google.com/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
+> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
 If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
 
