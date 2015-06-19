@@ -1019,7 +1019,8 @@ $tiniest: new-breakpoint(max-width 390px);
 			padding: 1em 0;
 		}
 	}
-	h1, h2 {
+	h1,
+	h2 {
 		float: left;
 		display: block;
 		position: relative;
@@ -1041,14 +1042,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	h1 {
-		font-size: 32px;
+		// font-size: 32px;
 		@include media($big) {
 			font-size: 24px !important;
 		}
 	}
 	h2 {
-		font-size: 22px !important;
-		font-weight: 400 !important;
+		font-size: $base-font-size * 1.55 !important;
+		font-weight: 300 !important;
 	}
 }
 
