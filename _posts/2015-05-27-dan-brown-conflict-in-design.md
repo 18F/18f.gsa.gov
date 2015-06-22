@@ -2,7 +2,7 @@
 title: "Dan Brown: The art of conflict in design process"
 date: 2015-05-27
 layout: post
-author:
+authors:
 - emileigh
 tags:
 - events

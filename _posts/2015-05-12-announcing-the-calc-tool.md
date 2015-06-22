@@ -2,7 +2,7 @@
 title: "Announcing the CALC tool: Making pricing research easier in federal procurement"
 date: 2015-05-12
 layout: post
-author:
+authors:
 - brethauer
 tags:
 - procurement

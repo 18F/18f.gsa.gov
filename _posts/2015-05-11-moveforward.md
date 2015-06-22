@@ -2,7 +2,7 @@
 title: "The digital services flash mob"
 date: 2015-05-11
 layout: post
-author:
+authors:
 - jhunter
 tags:
 - developer
