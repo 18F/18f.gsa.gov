@@ -3,7 +3,7 @@ Add sidebars filtered by layout below
 {% endcomment %}
 {% if page.layout == "profile" %}
 <aside>
-	{% if page.github or page.twitter or page.personal and site.config.display_personal %}
+	{% if page.github or page.twitter or page.email and site.config.display_personal %}
 		<h3>Where to find {{ page.first_name }}:</h3>
 		<ul>
 			{% if page.github %}
@@ -12,8 +12,8 @@ Add sidebars filtered by layout below
 			{% if page.twitter %}
 			<li><a href="https://twitter.com/{{ page.twitter }}">Twitter</a></li>
 			{% endif %}
-			{% if page.personal %}
-			<li><a href="{{page.personal}}">Personal Blog</a></li>
+			{% if page.email %}
+			<li><a mailto="{{page.email}}">Email</a></li>
 			{% endif %}
 		</ul>
 	{% endif %}

@@ -8,6 +8,7 @@ city: Easthampton
 state: MA
 github:
 twitter:
+email: rebecca.sweger@gsa.gov
 team: Delivery
 ---
 
