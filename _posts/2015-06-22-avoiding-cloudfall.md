@@ -34,7 +34,7 @@ networks, servers, storage, applications, and services) that can be
 rapidly provisioned and released with minimal management effort or
 service provider interaction.” In other words, the “cloud” is not one
 thing, but rather a collection of resources and services on
-third-parties’ computers.
+other people's computers.
 
 18F has, in recent months, been helping partner agencies do so. To do it
 successfully,18F has been working on [reducing the costs of entry to
