@@ -15,7 +15,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
+.mantra, .blog-entry, .service-entry, .team, .footer, .newsletter-box {
 	@include media($small) {
     	padding-left: 5%;
     	padding-right: 5%;
@@ -915,7 +915,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Contact
 //********************************************************
-.contact-form {
+.newsletter-words {
 	@include span-columns(4);
 	@extend %section-padding;
 	@include media($small) {
@@ -929,20 +929,11 @@ $tiniest: new-breakpoint(max-width 390px);
 		@include span-columns(12);
 		@include shift(0);
 	}
-}
-.contact-words {
-	@include span-columns(7);
-	@include shift(1);
-	@extend %section-padding;
 	p {
 		font-size: 1.4em;
 		&:last-of-type {
 			font-size: $small-text;
 		}
-	}
-	@include media($small) {
-		@include span-columns(6);
-		@include shift(0);
 	}
 	@include media($smaller) {
 		p {
@@ -952,6 +943,28 @@ $tiniest: new-breakpoint(max-width 390px);
 				line-height: 1.2em;
 			}
 		}
+	}
+
+	@include media($tiniest) {
+		p {
+			font-size: 1.2em;
+			line-height: 1.2em;
+			margin-bottom: 7px;
+			&:last-of-type {
+				font-size: ($small-text) * 0.8;
+				line-height: 1.1em;
+			}
+		}
+	}
+
+}
+.newsletter-form {
+	@include span-columns(7);
+	@include shift(1);
+	@extend %section-padding;
+	@include media($small) {
+		@include span-columns(6);
+		@include shift(0);
 	}
 	@include media($smallest) {
 		@include span-columns(8);
@@ -965,17 +978,6 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include media($tinier) {
 		@include span-columns(12);
 		@include shift(0);
-	}
-	@include media($tiniest) {
-		p {
-			font-size: 1.2em;
-			line-height: 1.2em;
-			margin-bottom: 7px;
-			&:last-of-type {
-				font-size: ($small-text) * 0.8;
-				line-height: 1.1em;
-			}
-		}
 	}
 }
 .button {
