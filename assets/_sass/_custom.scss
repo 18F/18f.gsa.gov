@@ -1338,8 +1338,8 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-bottom: 10px;
 		margin-left: -3%;
 		@include span-columns(2);
-		
-		@include media($smallest) {
+
+		@include media($small) {
 			@include span-columns(10);
 			@include shift(2);
 		}
