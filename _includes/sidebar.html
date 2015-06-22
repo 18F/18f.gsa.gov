@@ -3,7 +3,8 @@ Add sidebars filtered by layout below
 {% endcomment %}
 {% if page.layout == "profile" %}
 <aside>
-	{% if page.github or page.twitter or page.email and site.config.display_personal %}
+	{% if page.github or page.twitter or page.email %}
+		{% unless site.config.display_personal %}
 		<h3>Where to find {{ page.first_name }}:</h3>
 		<ul>
 			{% if page.github %}
@@ -16,6 +17,7 @@ Add sidebars filtered by layout below
 			<li><a mailto="{{page.email}}">Email</a></li>
 			{% endif %}
 		</ul>
+		{% endunless %}
 	{% endif %}
 	{% authored_posts heading=h3 %}
 </aside>
