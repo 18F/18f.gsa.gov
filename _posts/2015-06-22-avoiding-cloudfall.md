@@ -2,7 +2,7 @@
 title: "Avoiding cloudfall: A systematic approach to cloud migration"
 date: 2015-06-22
 layout: post
-author:
+authors:
 - vdavez
 - noah
 - jfinch
