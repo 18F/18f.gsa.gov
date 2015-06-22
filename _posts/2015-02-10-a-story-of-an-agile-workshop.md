@@ -4,7 +4,7 @@ date: '2015-02-11'
 layout: post
 image: /assets/blog/agile-workshop/workshop3.jpg
 tags:
-- longreads
+- longread
 - agile
 - workshops
 - how we work

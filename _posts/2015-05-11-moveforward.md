@@ -2,7 +2,7 @@
 title: "The digital services flash mob"
 date: 2015-05-11
 layout: post
-author:
+authors:
 - jhunter
 tags:
 - developer
@@ -71,9 +71,8 @@ effort](http://mapgive.state.gov/index.html) for the U.S. Department of
 State, which streamlined aid delivery to Nepal’s earthquake-hit remote
 communities.
 
-18F visual and UX designer Erica Deahl shared how her team helped build
-a [customer-facing website with the United States Citizenship and
-Immigration Services (USCIS)](https://my.uscis.gov). The USCIS website is one of the [most
+18F visual and UX designer Erica Deahl shared how her team is helping [the U.S. Citizenship and
+Immigration Services (USCIS)](https://my.uscis.gov) redesign the user experience and the content for websites related to immigration and citizenship. USCIS's website is one of the [most
 visited government websites](https://analytics.usa.gov) in the United
 States, second only to websites devoted to taxes and the weather. Deahl
 discussed her personal motivation to transform the immigration process.

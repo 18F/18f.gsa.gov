@@ -1,7 +1,7 @@
 ---
 title: Five questions with Dan Brown
 
-author:
+authors:
 - kate
 
 date: 2015-05-19

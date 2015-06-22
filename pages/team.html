@@ -17,18 +17,18 @@ title: People
 
       {% assign sorted = site.team | sort: 'last_name' %}
       {% for person in sorted %}
-
-      <div class='bio'>
-        {% if site.collections.team.output %}
-        <a href='/team/{{person.name}}'>
-        {% else %}
-        <a class="disabled">
-        {% endif %}
-          {{ person.name | team_photo }}
-          <h1>{{ person.full_name }}</h1>
-        </a>
-      </div>
-
+      {% if person.full_name %}
+        <div class='bio' id="{{ person.name }}">
+          {% if site.collections.team.output %}
+          <a href='/team/{{person.name}}'>
+          {% else %}
+          <a class="disabled">
+          {% endif %}
+            {{ person.name | team_photo }}
+            <h1>{{ person.full_name }}</h1>
+          </a>
+        </div>
+      {% endif %}
       {% endfor %}
 
     </div>

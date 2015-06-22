@@ -6,17 +6,20 @@
 //********************************************************
 //$biggest: new-breakpoint(min-width 1430px); //untested
  //////BASE SIZE HERE//////
-$small: new-breakpoint(max-width 1130px);
-$smaller: new-breakpoint(max-width 995px);
-$smallest: new-breakpoint(max-width 785px);
+$bigger: new-breakpoint(max-width 1130px);
+$big: new-breakpoint(max-width 995px);
+$medium: new-breakpoint(max-width 860px);
+$small: new-breakpoint(max-width 785px);
 $tiny: new-breakpoint(max-width 590px);
 $tinier: new-breakpoint(max-width 480px); //only used in hero unit
 $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .service-entry, .team, .footer, .contact-box {
-	@include media($small) {
+.mantra, .blog-entry, .service-entry, .footer, .contact-box, {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	@include media($bigger) {
     	padding-left: 5%;
     	padding-right: 5%;
 	}
@@ -38,7 +41,6 @@ $tiniest: new-breakpoint(max-width 390px);
   	background-color: rgba(0,0,0,.4);
 }
 %section-padding {
-	padding-top: 40px;
 	padding-bottom: 40px;
 	@include media($tiniest) {
 			padding-top: 25px;
@@ -55,7 +57,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	font-size: 1.4em;
 	line-height: 1.6em;
 	padding-top: 1em;
-	@include media($smallest) {
+	@include media($small) {
 		font-size: 1.2em;
 	}
 }
@@ -121,13 +123,13 @@ $tiniest: new-breakpoint(max-width 390px);
 	top: 50px;
 	left: 50px;
 	z-index: 20;
-  	@include media($smaller) {
+  	@include media($big) {
   		height: 100px;
 		width: 100px;
 		top: 40px;
 		left: 20px;
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 75px;
 		width: 75px;
   	}
@@ -149,16 +151,16 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 3.6em;
 		padding: 30px 50px;
 		z-index: 10;
-	  	@include media($small) {
+	  	@include media($bigger) {
 			top: 295px;
 	  	}
-  		@include media($smaller) {
+  		@include media($big) {
 			top: 208px;
 	  		width: 100%;
   			font-size: 3.2em;
   			padding: 30px 20px;
   		}
-  		@include media($smallest) {
+  		@include media($small) {
 			top: 145px;
   			font-size: 3em;
   			padding: 20px 20px;
@@ -184,15 +186,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		color:#fff;
   	font-size: 1em;
   	text-shadow: 1px 1px 2px #000;
-  	@include media($small) {
+  	@include media($bigger) {
   		top: 275px;
   	}
-  	@include media($smaller) {
+  	@include media($big) {
   		top: 200px;
 		margin-top: 160px;
   		font-size: 0.9em;
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		top: 145px;
 		margin-top: 124px;
   		font-size: 0.8em;
@@ -214,7 +216,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		i {
   			vertical-align: middle;
   			padding: 17px 20px 15px 50px;
-	  		@include media($smaller) {
+	  		@include media($big) {
 	  			padding-left: 20px;
 	  		}
 	  		@include media($tinier) {
@@ -224,7 +226,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		.icon-camera {
 	  		font-size: 30px;
 	  		margin-right: 10px;
-	  		@include media($smaller) {
+	  		@include media($big) {
 	  			font-size: 20px;
 	  		}
 	  		@include media($tiny) {
@@ -250,12 +252,16 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Global nav
 //********************************************************
+.global-nav.homepage {
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
 .global-nav {
+	float: right;
+	clear: none;
 	display: block;
 	width: auto;
-	position: absolute;
-	right:0;
-	top: 20px;
 	z-index: 999;
 	background-color: white;
 	font-size: .9em;
@@ -282,7 +288,10 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($smallest) {
+	@include media($small) {
+		position: absolute;
+		right: 0;
+		top: 20px;
 		border: 1px solid $dark-gray;
 		a {
 			display: block;
@@ -315,12 +324,9 @@ $tiniest: new-breakpoint(max-width 390px);
 			display: none;
 		}
 	}
-	@include media($tinier) {
-		top: 16px;
-	}
 }
 .global-nav ul:last-child {
-	@include media($smallest) {
+	@include media($small) {
 		border-top: 1px solid $medium-gray;
 	}
 }
@@ -332,7 +338,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	background-image: url(/assets/images/lightbulb.png);
 	background-size: 10%;
 	background-position: 90% 50%;
-	@include media($smaller) {
+	@include media($big) {
 		background-position: 87% 50%;
 	}
 	background-repeat: no-repeat;
@@ -368,7 +374,7 @@ $tiniest: new-breakpoint(max-width 390px);
   	position: relative;
 	font-size: 1.2em;
   	@extend %heading-text-style;
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 80px;
   	}
   	@include media($tiniest) {
@@ -383,7 +389,7 @@ $tiniest: new-breakpoint(max-width 390px);
   	top: 0px;
   	height: 100px;
   	padding: 30px 50px;
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 80px;
   	}
   	@include media($tiniest) {
@@ -405,6 +411,9 @@ $tiniest: new-breakpoint(max-width 390px);
 .back {
 	font-size: 0.8em;
 	margin-bottom:47px;
+  display: inline-block;
+  position: relative;
+  top: 125px;
 	a {
 		text-decoration: none;
 		color: $dark-gray;
@@ -541,10 +550,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	  	list-style: decimal;
 	}
 	ul, ol {
-    	margin-left: 1em;
-	}
-	li {
-			padding-bottom: 1.1em;
+    	margin-left: 2em;
 	}
 
 	p, li {
@@ -562,7 +568,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		float:left;
 		max-width: 40%;
 		margin: 0 1em 0 0;
-		@include media($small) {
+		@include media($bigger) {
 			float: left;
 			max-width: 40%;
 			margin: 0 1em 0 0;
@@ -578,7 +584,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		float:right;
 		max-width: 40%;
 		margin: 0 1em 0 0;
-		@include media($small) {
+		@include media($bigger) {
 			float: right;
 			max-width: 40%;
 			margin: 0 1em 0 0;
@@ -594,7 +600,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		max-width: 60%;
 		margin: 0 auto;
 		display: block;
-		@include media($small) {
+		@include media($bigger) {
 			max-width: 50%;
 			margin: 0 auto;
 		}
@@ -713,14 +719,14 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 50px;
 		left: 50px;
 		z-index: 20;
-	  	@include media($smaller) {
+	  	@include media($big) {
 	  		height: 100px;
 			width: 100px;
 			top: 40px;
 			left: 20px;
   		}
   	}
-  	@include media($smallest) {
+  	@include media($small) {
   		height: 75px;
 		width: 75px;
   	}
@@ -772,7 +778,7 @@ $tiniest: new-breakpoint(max-width 390px);
 .pif-content {
 	@include span-columns(9);
 	@include omega();
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 	}
 	@include media($tiny) {
@@ -809,41 +815,43 @@ $tiniest: new-breakpoint(max-width 390px);
 
 #team {
 	@include outer-container;
-	.intro {
-		@include span-columns(8 of 12);
+	.intro, .team {
+		@include span-columns(9 of 12);
 		margin-left: 15%;
 		margin-top: -65px;
 		h1 {
 			margin-bottom: 10px;
 		}
-		@include media($smallest) {
+		@include media($small) {
 			@include span-columns(12 of 12);
 			margin-left: 0;
 			padding-top: 64px;
 		}
 		@include media($tiny) {
-			@include span-columns(12 of 12); 
+			@include span-columns(12 of 12);
 			margin-left: 0;
 			padding-top: 64px;
 		}
 	}
+	.team {
+	  margin-top: 0;
+	}
 	.bio {
 		@include span-columns(2 of 12);
-		margin: 1.5em 0 3em 1.5%;
-		padding-right: 3%;
+		margin: 1.5em 1em 3em 1.5%;
 		float: left;
 		clear: none;
 		max-height: 2.4em;
-	  line-height: 1.2em;
+		line-height: 1.2em;
 		margin-bottom: 7em;
-		@include media($smaller) {
+		@include media($big) {
 			@include span-columns(2 of 12);
 			@include omega();
 			padding-left: 1%;
 			margin-top: 1em;
 			margin-bottom: 6em
 		}
-		@include media($smallest) {
+		@include media($small) {
 			@include span-columns(2 of 12);
 			@include omega();
 		}
@@ -869,7 +877,6 @@ $tiniest: new-breakpoint(max-width 390px);
 		    -moz-border-radius: 100%;
 			  -webkit-border-radius: 100%;
 			  border-radius: 100%;
-			  background-clip: padding-box;
 		  }
 		  h1 {
 		  	font-size: 0.9em;
@@ -884,15 +891,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 	.bio:nth-child(10n+6) {
-		margin-left: 120px;
-		@include media($smaller) {
-			margin-left: 0;
+		margin-left: 65px;
+		@include media($big) {
+			margin-left: 1.5%;
 		}
 	}
 	.bio:first-child, .bio:nth-child(10n+11) {
-		margin-left: 60px;
-		@include media($smaller) {
-			margin-left:0;
+		margin-left: 0;
+		@include media($big) {
+			margin-left: 1.5%;
 		}
 	}
 	.bio:last-child {
@@ -915,16 +922,145 @@ $tiniest: new-breakpoint(max-width 390px);
 	}
 }
 
+// Profiles
+.profile > .content {
+	margin-top: 80px;
+	margin-left: 165px;
+	margin-right: 0 !important;
+	padding: 0 2.35765% 0;
+	display: block;
+	float: left;
+	@include span-columns(6);
+	@include media($medium) {
+		@include span-columns(10);
+		float: none;
+		margin: 7px auto 0 !important;
+	}
+	p {
+		@include media($medium) {
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			&:last-child {
+				margin-right: auto;
+			}
+		}
+	}
+	h3 {
+		font-size: $base-font-size * 1.125;
+		font-weight: 400;
+	}
+}
+.profile > aside {
+	margin-top: 80px;
+	display: block;
+	float: right;
+	@include span-columns(4);
+	h2 {
+		font-size: $base-font-size * 1.25;
+		font-weight: 300;
+		padding-top: 0.2em;
+		padding-bottom: 10px;
+	}
+	h3 {
+		font-size: $base-font-size * 1.125;
+	}
+	ul {
+		padding-bottom: 20px;
+	}
+	@include media($big) {
+		@include span-columns(3);
+		h2 {
+			font-size: 18px;
+			font-weight: 300;
+		}
+	}
+	@include media($medium) {
+		@include span-columns(10);
+		float: none;
+		margin: 25px auto 0;
+		padding: 0px 2.35765%;
+		&:last-child {
+			margin-right: auto;
+		}
+	}
+}
+// Headline
+.headline {
+	background-color: #18f;
+	color: white;
+	height: 8em;
+	clear: both;
+	position: relative;
+	overflow: visible;
+	padding: 1em 0em 0 11.7em;
+	@include media($medium) {
+		min-height: auto !important;
+		max-height: auto !important;
+		height: auto;
+		margin-top: 15px;
+		padding-left: 0;
+	}
+	img {
+		margin: 0 auto;
+		border-radius: 100%;
+		position: absolute;
+		top: -60px;
+		right: 2em;
+		@include media($medium) {
+			border-radius: 100%;
+			display: block;
+			margin: 1em auto;
+			top: auto;
+			right: auto;
+			position: relative;
+			padding: 1em 0;
+		}
+	}
+	h1,
+	h2 {
+		float: left;
+		display: block;
+		position: relative;
+		clear: both;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		min-width: 500px;
+		max-width: 570px;
+		@include media($medium) {
+			float: left;
+			display: block;
+			position: relative;
+			margin-right: 0;
+			margin-left: 0;
+			width: 100%;
+			max-width: 100% !important;
+			min-width: 100% !important;
+			text-align: center;
+		}
+	}
+	h1 {
+		// font-size: 32px;
+		@include media($big) {
+			font-size: 24px !important;
+		}
+	}
+	h2 {
+		font-size: $base-font-size * 1.55 !important;
+		font-weight: 300 !important;
+	}
+}
+
 
 // Contact
 //********************************************************
 .contact-form {
 	@include span-columns(4);
 	@extend %section-padding;
-	@include media($small) {
+	@include media($bigger) {
 		@include span-columns(5);
 	}
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 		@include shift(1);
 	}
@@ -943,11 +1079,11 @@ $tiniest: new-breakpoint(max-width 390px);
 			font-size: $small-text;
 		}
 	}
-	@include media($small) {
+	@include media($bigger) {
 		@include span-columns(6);
 		@include shift(0);
 	}
-	@include media($smaller) {
+	@include media($big) {
 		p {
 			font-size: 1.3em;
 			&:last-of-type {
@@ -956,7 +1092,7 @@ $tiniest: new-breakpoint(max-width 390px);
 			}
 		}
 	}
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(8);
 		@include shift(2);
 		padding-top: 0;
@@ -989,14 +1125,13 @@ $tiniest: new-breakpoint(max-width 390px);
 // Bare Template
 //********************************************************
 
-.bare {
+.bare, {
 	@extend %section-padding;
-	padding-top: 60px; //adds 20px to standard section padding to compensate for usa bug
 	h2 {
 		font-size: 1.85em;
 		padding-top: 40px;
 		padding-bottom: 20px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1.65em;
 			padding-top: 10px;
 		}
@@ -1008,7 +1143,7 @@ $tiniest: new-breakpoint(max-width 390px);
 		line-height: 30px;
 		padding-top: 15px;
 		padding-bottom: 10px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1.2em;
 		}
 	}
@@ -1017,36 +1152,39 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-weight: normal;
 		font-size: 1.2em;
 		padding-bottom: 4px;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1em;
 		}
 	}
 	p {
 		margin-bottom: 1.1em;
 	}
-
+	ul {
+	  	list-style: disc;
+	}
+	ol {
+	  	list-style: decimal;
+	}
+	ul, ol {
+    	margin-left: 2em;
+	}
 	ul, ol {
 		li {
 			margin: 5px 0;
 		}
 	}
 }
-.bare-logo {
-	@include span-columns(2);
-}
-.team-logo {
-	@include span-columns(12);
-	padding-top: 40px;
-}
+
 .bare-logo, .team-logo {
-	padding-left: 20px;
+	@include span-columns(2);
+	padding-top: 40px;
 	a {
 		text-decoration: none;
 		i {
 			font-size: 6em;
 			color: $blue;
 		}
-		@include media($smallest) {
+		@include media($small) {
 			i {
 				font-size: 5em;
 			}
@@ -1066,7 +1204,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 	@include span-columns(9);
 	@include omega();
-	@include media($smallest) {
+	@include media($small) {
 		@include span-columns(10);
 	}
 	@include media($tiny) {
@@ -1179,14 +1317,14 @@ $tiniest: new-breakpoint(max-width 390px);
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
-	@include media($smallest) {
+	@include media($small) {
 		padding-top: 40px;
 	}
 	padding-bottom: 20px;
 	h1 {
 		font-size: 1em;
 		padding-bottom: 0.3em;
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 1em;
 			padding-bottom: 0.1em;
 		}
@@ -1230,7 +1368,7 @@ $tiniest: new-breakpoint(max-width 390px);
   		&:hover, &:focus {
   			text-decoration: underline;
   		}
-		@include media($smallest) {
+		@include media($small) {
 			font-size: 0.8em;
 		}
 		@include media($tiniest) {
