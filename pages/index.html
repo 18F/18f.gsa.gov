@@ -101,26 +101,36 @@ permalink: /
 
 </section>
 
-<section id="contact" class="contact">
+<section id="newsletter" class="newsletter">
   <div class="header">
     <div class="container-fluid">
       <h1>
-        contact
+        newsletter
       </h1>
     </div>
   </div>
-  <div class="container contact-box">
-    <div class="contact-form">
-      <form action="/listserv" method="post" id="contact-form">
-      <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you/" type="hidden" name="redirect" /><input name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-      <div class="form-group"><label class="sr-hide" for="realname">Your name</label><input type="text" placeholder="Your Name" id="realname" name="realname" /></div>
-      <div class="form-group"><label class="sr-hide" for="email">Your email address</label><input type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
-      <input type="submit" class="button" value="Sign Up for More Information" />
-      </form>
-    </div>
-    <div class="contact-words">
-      <p>Leave us your name and email if you'd like more information about the way we work.</p>
+  <div class="container newsletter-box">
+    <div class="newsletter-words">
+      <p>Want more information about the way we work? Leave us your name and email address and we&rsquo;ll be in touch.</p>
       <p class="small">Your privacy and security are important to us, we'll only share your information as described in <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a>.</p>
+    </div>
+    <div class="newsletter-form">
+      <form action="/listserv" method="post" id="newsletter-form">
+        <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" />
+        <input value="18f" type="hidden" name="subject" />
+        <input value="email" type="hidden" name="required" />
+        <input value="https://18f.gsa.gov/thank-you/" type="hidden" name="redirect" />
+        <input name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
+        <div class="form-group">
+          <label class="sr-hide" for="realname">Your name</label>
+          <input type="text" placeholder="Your Name" id="realname" name="realname" />
+        </div>
+        <div class="form-group">
+          <label class="sr-hide" for="email">Your email address</label>
+          <input type="text" placeholder="your@email-address.com" id="email" name="email" />
+        </div>
+        <input type="submit" class="button" value="Sign Up for More Information" />
+      </form>
     </div>
   </div>
 </section>
