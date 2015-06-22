@@ -1,7 +1,7 @@
 ---
 name: alan
 first_name: Alan
-last_name: deLevie
+last_name: DeLevie
 full_name: Alan deLevie
 role: Acquisition Management Consultant
 city: Washington
@@ -15,7 +15,7 @@ Alan deLevie is a Ruby developer who works on MyUSA. He previously worked on imm
 
 Before 18F, Alan interned in Congress, at the FCC, and for a trade org. At each, he found himself either working on technology policy or coding to make projects easier to manage. He studied communications policy and political science at Penn State, where he coded projects for the school newspaper. He currently attends law school part time, and co-runs DC Legal Hackers.
 
-Alan joined 18F because he has experienced what he calls "hair-on-fire" moments while trying to use government websites. 
+Alan joined 18F because he has experienced what he calls "hair-on-fire" moments while trying to use government websites.
 
 "18F is a place where we work to fix these types of problems every single day," he says. "Everyone has this shared goal to restore faith in what a government website can and should be. Where else can I one day work on technology that could conceivably improve millions of persons' first interaction with the US government bureaucracy, and then the next go work on login infrastructure that could one day serve the entire federal government?"
 
