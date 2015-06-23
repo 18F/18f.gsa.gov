@@ -7,7 +7,7 @@ tags:
 - how we work
 - accessibility
 
-authors:
+author:
 - kate
 excerpt: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."
 description: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."

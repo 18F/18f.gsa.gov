@@ -2,7 +2,7 @@
 title: "Video: What happens when you collect .gov-wide analytics"
 date: 2015-05-29
 layout: post
-authors:
+author:
 - andre
 tags:
 - events

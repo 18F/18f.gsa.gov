@@ -3,12 +3,11 @@ name: kate
 first_name: Kate
 last_name: Garklavs
 full_name: Kate Garklavs
-role: Content Designer
-city: Portland
-state: OR
+role: 
+location: Portland, Oregon
 github:
 twitter:
-team: Design
+team:
 ---
 
 Kate Garklavs is a content designer and strategist at 18F. Working closely with usability researchers and other designers, she helps project teams define their communication frameworks and plan their long-range content goals, and creates succinct, impactful copy centered on reader needs.

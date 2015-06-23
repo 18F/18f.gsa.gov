@@ -3,15 +3,14 @@ name: chrisc
 first_name: Chris
 last_name: Cairns
 full_name: Chris Cairns
-role: Chief
-city: Washington
-state: D.C.
+role:
+location: DCA
 github:
 twitter:
 team: Consulting
 ---
 
-Chris is the director of 18F Consulting and has been around the federal technology space for a number of years. His specialities are vast and include digital and technology strategy, full-stack development, product management, agile development, and agile acquisitions
+Chris is the Director of 18F Consulting and has been around the federal technology space for a number of years. His specialities are vast and include digital and technology strategy, full-stack development, product management, Agile development, and Agile acquisitions
 
 Before joining 18F, Chris worked in a number of different business and technical environments, from creating startups to acquiring companies to jumpstarting innovation within the federal government as a Presidential Innovation Fellow.
 

@@ -2,7 +2,7 @@
 title: "Building a better welcome wagon"
 date: 2015-06-15
 layout: post
-authors:
+author:
 - mbland
 - emileigh
 - colin

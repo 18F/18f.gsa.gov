@@ -9,7 +9,7 @@ tags:
 - user research
 - interview
 
-authors:
+author:
 - boone
 - elaine
 - melody

@@ -9,7 +9,7 @@ tags:
 - anniversary
 
 
-authors:
+author:
 - melody
 - kate
 - erica

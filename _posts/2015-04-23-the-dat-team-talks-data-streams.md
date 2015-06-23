@@ -1,7 +1,7 @@
 ---
 title: "The Dat Team Talks Data Streams"
 layout: post
-authors:
+author:
 - eric
 tags:
 - presentation

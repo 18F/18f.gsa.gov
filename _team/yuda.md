@@ -3,12 +3,11 @@ name: yuda
 first_name: John
 last_name: Yuda
 full_name: John Yuda
-role: Senior Product Design Advisor
-city: Washington
-state: D.C.
+role: 
+location: 
 github:
 twitter:
-team: Delivery
+team:
 ---
 
-"I don't always fix technology problems, but when I do it's in the government," John says.
+I don't always fix technology problems, but when I do it's in the government.

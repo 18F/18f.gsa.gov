@@ -9,7 +9,7 @@ tags:
 - kaitlin devine
 - user research
 - interview
-authors:
+author:
 - Greg Boone
 - Elaine Kamlley
 - Melody Kramer

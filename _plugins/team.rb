@@ -1,5 +1,6 @@
 module Jekyll
 	module TeamFilter
+		# Assumes you have a data file name "team"
     def team_photo(input)
       person = finder(input)
       # require 'pry'; binding.pry

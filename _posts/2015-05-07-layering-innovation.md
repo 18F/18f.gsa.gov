@@ -2,7 +2,7 @@
 title: "Layering innovation"
 date: 2015-05-08
 layout: post
-authors:
+author:
 - diego
 tags:
 - developer

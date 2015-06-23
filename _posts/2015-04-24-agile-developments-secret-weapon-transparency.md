@@ -1,7 +1,7 @@
 ---
 title: "Agile Development’s Secret Weapon: Transparency"
 layout: post
-authors:
+author:
 - vdavez
 - chrisc
 tags:

@@ -2,7 +2,7 @@
 title: "The U.S. government is moving to HTTPS everywhere"
 date: 2015-06-08
 layout: post
-authors:
+author:
 - eric
 - gray
 tags:

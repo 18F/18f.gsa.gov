@@ -1,7 +1,7 @@
 ---
 title: "The Intersection of Art and Technology"
 layout: post
-authors:
+author:
 - julia
 tags:
 - design

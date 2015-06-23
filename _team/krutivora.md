@@ -3,10 +3,9 @@ name: krutivora
 first_name: Kruti
 last_name: Vora
 full_name: Kruti Vora
-role: Operations Specialist
-city: Washington
-state: D.C.
+role:
+location:
 github:
 twitter:
-team: Finance
+team:
 ---
