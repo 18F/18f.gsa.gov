@@ -6,4 +6,3 @@ collections:
     premalink: /press/:name/
     output: false
 
-display_personal: false

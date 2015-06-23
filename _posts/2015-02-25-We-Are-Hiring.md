@@ -7,7 +7,7 @@ tags:
 - 18f
 - team
 - join us
-authors:
+author:
 - kaitlin
 - shawn
 - hillary

@@ -2,7 +2,7 @@
 title: "Taking the pulse of the federal government's web presence"
 date: 2015-06-02
 layout: post
-authors:
+author:
 - eric
 - julia
 - gray

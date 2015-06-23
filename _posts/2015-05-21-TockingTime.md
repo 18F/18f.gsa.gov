@@ -2,7 +2,7 @@
 title: "Tocking time"
 date: 2015-05-21
 layout: post
-authors:
+author:
 - sean
 tags:
 - 18f

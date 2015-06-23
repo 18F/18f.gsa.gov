@@ -3,14 +3,11 @@ name: marco
 first_name: Marco
 last_name: Segreto
 full_name: Marco Segreto
-role: Front End Designer
-city: San Francisco
-state: CA
+role:
+location:
 github:
 twitter:
-team: Design
-proejct:
-- Front End Guild
+team:
 ---
 
 Marco designs websites and user interfaces for various government agencies. He most recently worked on Let Girls Learn, a new static site launched by the Peace Corps.

@@ -6,10 +6,14 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 {% include flag.html %}
+{% include nav.html %}
 <section class="container bare">
-	{% include nav.html %}
 
-  {% include logo.html %}
+  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/">
+      <i class="icon-18f-logo"><p style="display:none;">18F</p></i>
+    </a>
+  </div>
 
   <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}

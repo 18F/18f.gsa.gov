@@ -1,7 +1,7 @@
 ---
 title: "Coming Soon: The Agile Delivery Services Solicitation"
 layout: post
-authors:
+author:
 - chrisc
 - noah
 - vdavez

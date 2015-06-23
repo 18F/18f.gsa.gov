@@ -2,7 +2,7 @@
 title: "The Agile Delivery BPA is (almost) here!"
 date: 2015-06-15 12:30:00
 layout: post
-authors:
+author:
 - vdavez
 - chrisc
 - noah
