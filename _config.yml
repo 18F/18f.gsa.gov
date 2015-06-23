@@ -70,7 +70,7 @@ defaults:
     scope:
       collection: team
     values:
-      layout: bare
+      layout: profile
 
 # collections
 collections:
