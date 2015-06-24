@@ -2,7 +2,7 @@
 title: "Pair programming: Why two heads are better than one"
 date: 2015-05-04
 layout: post
-author:
+authors:
 - melody
 tags:
 - developer
