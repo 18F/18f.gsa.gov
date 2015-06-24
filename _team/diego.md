@@ -3,9 +3,12 @@ name: diego
 first_name: Diego
 last_name: Lapiduz
 full_name: Diego Lapiduz
-role:
-location:
+role: Engineering Manager
+city: Austin
+state: TX
 github:
 twitter:
-team:
+team: DevOps
+project:
+- DevOps Guild
 ---

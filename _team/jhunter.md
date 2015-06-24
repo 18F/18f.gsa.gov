@@ -3,14 +3,20 @@ name: jhunter
 first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
-role:
-location:
-github:
-twitter:
-team:
+role: Content Designer
+city: Washington
+state: D.C.
+github: jeanninehunter
+twitter: 
+team: Design
+project:
+- USCIS
+- OpenFEC
 ---
 
-Jeannine works on the communications team, where she tells 18F's story through blog posts, case studies, and social media. She also works as a content strategist, writing and revising content used on federal government websites. "I am passionate about community building and technology," she says. "I want to help audiences beyond the walls of governmental institutions understand how it works, and help improve it, and I am excited to share 18F’s successes and the lessons we learn with other federal agencies, the tech industry, and civic tech communities."
+Jeannine works on the communications team, where she tells 18F's story through blog posts, case studies, and social media. She also works as a content strategist, writing and revising content used on federal government websites. 
+
+"I am passionate about community building and technology," she says. "I want to help audiences beyond the walls of governmental institutions understand how it works and help improve it, and I am excited to share 18F’s successes and the lessons we learn with other federal agencies, the tech industry, and civic tech communities."
 
 Before 18F, Jeannine worked as an editor, a web producer, and as a newspaper reporter, charged with covering different institutions, issues, and ideologies throughout the Southeast and mid-Atlantic regions. Jeannine comes to government from Children’s National Health System after working at the Washington Post, NewsChannel 5, the Tennessean, the Knoxville News Sentinel, and the Sun News. With support of a grant from the federal Institute of Museum and Library Services, she earned a master's in information sciences and has always incorporated a multitude of digital tools into her work.
 

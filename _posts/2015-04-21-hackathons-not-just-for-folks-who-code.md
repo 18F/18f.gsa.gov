@@ -1,7 +1,7 @@
 ---
 title: "Hackathons: Not Just For Folks Who Code"
 layout: post
-author:
+authors:
 - kate
 tags:
 - hackathons

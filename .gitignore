@@ -9,3 +9,4 @@ _data/private
 .*.sw?
 *.pyc
 .jekyll-metadata
+.floo*

@@ -1,0 +1,24 @@
+{% comment %}
+Add sidebars filtered by layout below
+{% endcomment %}
+{% if page.layout == "profile" %}
+<aside>
+	{% if page.github or page.twitter or page.email %}
+		{% unless site.config.display_personal %}
+		<h3>Where to find {{ page.first_name }}:</h3>
+		<ul>
+			{% if page.github %}
+			<li><a href="https://github.com/{{ page.github }}">GitHub</a></li>
+			{% endif %}
+			{% if page.twitter %}
+			<li><a href="https://twitter.com/{{ page.twitter }}">Twitter</a></li>
+			{% endif %}
+			{% if page.email %}
+			<li><a mailto="{{page.email}}">Email</a></li>
+			{% endif %}
+		</ul>
+		{% endunless %}
+	{% endif %}
+	{% authored_posts heading=h3 %}
+</aside>
+{% endif %}

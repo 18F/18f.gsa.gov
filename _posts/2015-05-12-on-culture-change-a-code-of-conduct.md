@@ -2,7 +2,7 @@
 title: "On culture change: A code of conduct"
 date: 2015-05-12
 layout: post
-author:
+authors:
 - sarah
 - jackie
 tags:

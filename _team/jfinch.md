@@ -3,9 +3,10 @@ name: jfinch
 first_name: Jay
 last_name: Finch
 full_name: Jay Finch
-role:
-location:
+role: Engagement Management Consultant
+city: Washington
+state: D.C.
 github:
 twitter:
-team:
+team: Consulting
 ---
