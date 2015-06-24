@@ -3,12 +3,13 @@ first_name: "string"
 last_name: "string"
 full_name: "string"
 role: "string"
-location: DCA
+location: "string"
 github: "string"
 twitter: "string"
 team:
   type: "string"
-  oneof: [Delivery, Consulting, Design, Talent]
+  oneof: ["Delivery", "Consulting", "Design", "Talent"]
+role: "string"
 config:
   path: '_team'
   ignore:
