@@ -7,7 +7,7 @@ tags:
 - speaker series
 - design
 - user research
-author:
+authors:
 - kate
 - nick
 

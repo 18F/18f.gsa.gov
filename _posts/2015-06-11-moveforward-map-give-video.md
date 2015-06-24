@@ -2,7 +2,7 @@
 title: "How digital humanitarians responded to the Nepal earthquake"
 date: 2015-06-11
 layout: post
-author:
+authors:
 - andre
 tags:
 - events

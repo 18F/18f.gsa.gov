@@ -1,7 +1,7 @@
 ---
 title: "18F: A Great Place to Write"
 layout: post
-author:
+authors:
 - melody
 tags:
 - 18f
