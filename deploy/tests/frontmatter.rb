@@ -16,6 +16,7 @@ def process(schema)
 		unless schema['config']['ignore'].include?(f)
 			data = YAML.load_file(file)
 			passfail = check_keys(data, schema.keys, f)
+			passfail = check_types(data, schema)
 		end
 	end
 	if passfail
@@ -39,7 +40,6 @@ def check_keys(data, keys, title)
 		for k in diff
 			puts "    * #{k}\n"
 		end
-		puts "\n"
 		return false
 	end
 end
@@ -49,15 +49,29 @@ end
 # For example, if we expect the `date` key to be in yyyy-mm-dd format, validate
 # that it's been entered in that format. If we expect authors to be an array,
 # make sure we're getting an array.
-def check_types(data, schema, file)
+def check_types(data, schema)
+	unless data.respond_to?('keys')
+		return false
+	end
 	for s in schema
 		key  = s[0]
-		type = s[1]
-		if data.has_key?(key)
-			data[key].class == type
+		if s[1].class == Hash
+			type = s[1]['type']
+		else
+			type = s[1]
+		end
+
+		if type == "Array" and data[key].class == Array
+			return true
+		elsif type == "String" and data[key].class == String
+			return true
+		elsif type == "Date" and data[key].class == String
+			return true
+		else
+			puts "    * Data is of the wrong type for key #{key}, expected #{type} but was #{data[key].class}\n\n"
+			return false
 		end
 	end
-	return true
 end
 
 puts 'starting tests'
@@ -65,7 +79,8 @@ puts 'testing posts'
 test = Array.new
 test.push process(loadschema('_posts.yml'))
 test.push process(loadschema('_team.yml'))
-unless test.include?(false)
+test.keep_if { |t| t == false }
+if test[0]
 	puts 'Tests finished!'
 	exit 0
 else

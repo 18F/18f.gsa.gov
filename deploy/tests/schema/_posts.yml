@@ -1,11 +1,14 @@
 ---
 title: "String"
-date: "%Y-%m-%d"
+date:
+  type: "Date"
+  rules: "%Y-%m-%d"
 layout: "post"
 authors:
   type: Array
   matches: _data/author.yml
 tags:
+  type: Array
   rules: [no-dash, lowercase]
 excerpt: "string"
 description: "string"
