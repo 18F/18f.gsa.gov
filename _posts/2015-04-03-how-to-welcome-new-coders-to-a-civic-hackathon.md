@@ -18,7 +18,8 @@ excerpt: "The National Day of Civic Hacking is a great time to attend — or ho
 description: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
 ---
 
-
+<blockquote class="twitter-tweet" lang="en"><p>Pushed a pull-request to <a href="https://t.co/jho7o3P9ZX">https://t.co/jho7o3P9ZX</a> this morning, and now I have code running on a .gov site. Pretty cool, <a href="https://twitter.com/18F">@18f</a>.</p>&mdash; Philip James (@phildini) <a href="https://twitter.com/phildini/status/580879418337316864">March 25, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 At 18F, our projects are [open source from the
@@ -197,4 +198,3 @@ ideas you have or have seen from other hackathons. If you’d like to
 contribute to an 18F project during National Day of Civic Hacking (or in
 general), check out [our issues on
 GovCode](https://www.govcode.org/issues).
-
