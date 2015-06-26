@@ -2,7 +2,7 @@
 title: "Making sense of Washington’s tech landscape"
 date: 2015-06-16
 layout: post
-author:
+authors:
 - andre
 tags:
 - how we work

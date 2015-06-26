@@ -3,7 +3,7 @@ layout: bare
 ---
 <section>
 
-  
+
 
   <h1>Blog</h1>
 
@@ -25,6 +25,9 @@ layout: bare
                 <time class="blog-date" datetime="{{post.date | date_to_xmlschema }}" itemprop="datePublished">
                   {{ post.date | date_to_string }}.
                 </time>
+              </p>
+              <p class="authors">
+                by {% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {%endunless%}{% endfor %}
               </p>
               <p>
                 Tagged /

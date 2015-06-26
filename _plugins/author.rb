@@ -23,7 +23,6 @@ module Jekyll
     def finder(group, name)
         return Jekyll.sites[0].data[group].find {|member| member["name"] == name}
     end
-
   end
 
   class AuthoredPosts < Liquid::Tag
@@ -65,6 +64,13 @@ module Jekyll
       else
         "<img class='img-circle team-img bio-clip' src='/assets/images/18f.png' alt='18F logo'>"
       end
+    end
+    def lookup(input, args)
+      args = args.split(',')
+      dataset = args[0].strip
+      key = args[1].strip unless args[1].nil?
+      data = Jekyll.sites[0].data[dataset]
+      return data[input][key] if data[input]
     end
   end
 end

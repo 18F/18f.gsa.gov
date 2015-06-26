@@ -2,7 +2,7 @@
 title: "What Estonia can teach us about the future of government records"
 date: 2015-06-17
 layout: post
-author:
+authors:
 - emileigh
 tags:
 - usds
@@ -73,7 +73,7 @@ physical rooms to store the paper.”
 
 Storage space is an issue that crops up in the the Baltic nation,
 comprised of a mainland and 1,500 islands and islets. The total geography is 17,000
-square miles. By comparison, the U.S. is 3.8 million. 
+square miles. By comparison, the U.S. is 3.8 million.
 
 At last week’s meeting, both the U.S. and Estonian representatives took
 turns mapping their country’s digital infrastructure. Estonia: three,

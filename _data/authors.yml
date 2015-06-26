@@ -64,7 +64,7 @@ joe:
   last_name: Polastre
 mattchessen:
   full_name: Matt Chessen
-  first_name: Matt 
+  first_name: Matt
   last_name: Chessen
 majma:
   full_name: Raphael Majma
@@ -88,27 +88,27 @@ jackie:
   last_name: Kazil
 shashank:
   full_name: Shashank Khandelwal
-  first_name: Shashank 
+  first_name: Shashank
   last_name: Khandelwal
 garren:
   full_name: Garren Givens
-  first_name: Garren 
+  first_name: Garren
   last_name: Givens
 hillary:
   full_name: Hillary Hartley
-  first_name: Hillary 
+  first_name: Hillary
   last_name: Hartley
 chrisc:
   full_name: Chris Cairns
-  first_name: Chris 
+  first_name: Chris
   last_name: Cairns
 nick:
   full_name: Nick Bristow
-  first_name: Nick 
+  first_name: Nick
   last_name: Bristow
 sarah:
   full_name: Sarah Allen
-  first_name: Sarah 
+  first_name: Sarah
   last_name: Allen
 boone:
   full_name: Greg Boone
@@ -196,17 +196,33 @@ cm:
   last_name: Lubinski
 vdavez:
   full_name: V. Dave Zvenyach
-  first_name: Dave 
+  first_name: Dave
   last_name: Zvenyach
 diego:
   full_name: Diego Lapiduz
-  first_name: Diego 
+  first_name: Diego
   last_name: Lapiduz
 emileigh:
   full_name: Emileigh Barnes
-  first_name: Emileigh 
+  first_name: Emileigh
   last_name: Barnes
 andre:
   full_name: Andre Francisco
-  first_name: Andre 
+  first_name: Andre
   last_name: Francisco
+jfinch:
+  full_name: Jay Finch
+  first_name: Jay
+  last_name: Finch
+ozzy:
+  full_name: Ozzy Johnson
+  first_name: Ozzy
+  last_name: Johnson
+kara:
+  full_name: Kara DeFrias
+  first_name: Kara
+  last_name: DeFrias
+david:
+  full_name: Dave Best
+  first_name: Dave
+  last_name: Best
