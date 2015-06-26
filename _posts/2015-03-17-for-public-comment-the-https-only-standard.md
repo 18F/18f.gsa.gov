@@ -22,10 +22,6 @@ This proposal would require all new and existing publicly accessible federal web
 
 Feedback and suggestions during this public comment period are encouraged, and can be provided on GitHub or by email."
 ---
-<p class="authors">
-by {% author eric %} and {% author gray %}
-</p>
-
 
 Today, the White House's Office of Management and Budget is releasing a draft proposal for public comment: **The HTTPS-Only Standard**, at **[https.cio.gov](https://https.cio.gov)**.
 

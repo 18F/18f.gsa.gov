@@ -15,10 +15,6 @@ authors:
 description: "The de facto source of skills information, both inside and outside the federal government, is O*NET - the Occupational Information Network, a data collection program that populates and maintains a current database of the detailed characteristics of workers, occupations, and skills."
 excerpt: "The de facto source of skills information, both inside and outside the federal government, is O*NET - the Occupational Information Network, a data collection program that populates and maintains a current database of the detailed characteristics of workers, occupations, and skills."
 ---
-<p class="authors">
-    by {% author tgrandison %}
-</p>
-
 *Note: The opinions expressed within this post represent only the views
 of the author and not any person or organization*
 

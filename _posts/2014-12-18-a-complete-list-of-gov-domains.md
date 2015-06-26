@@ -18,10 +18,6 @@ tags:
 - open government
 
 ---
-<p class="authors">
-  by {% author eric %} and {% author gray %}
-</p>
-
 <a target="_blank" href="https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv"><img src="/assets/blog/dotgovs/dot-govs-screen.png" title="Excerpt of the .gov domain list" style="border: 1px solid #ccc;" /></a>
 
 There are a lot of `.gov` domains: over 5,300 of them. About 1,300 of these are used by the federal government's executive, legislative, and judicial branches. The rest are spread across states, territories, counties, cities, and native tribes.

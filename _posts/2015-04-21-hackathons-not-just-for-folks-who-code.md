@@ -12,10 +12,6 @@ excerpt: "A few members of the 18F team recently published an excellent guide on
 description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 image: /assets/blog/how-to-github/image.jpg
 ---
-<p class="authors">
-  by {% author kate %}
-</p>
-A few weeks back, my colleague [Sarah
 Allen](https://twitter.com/ultrasaurus) asked me to volunteer at
 [**GovTechHack**](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/),
 a hackathon in promotion of civic good. Stoked on lending a hand, I

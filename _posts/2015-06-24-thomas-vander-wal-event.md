@@ -13,10 +13,6 @@ description: "Last week, information architect Thomas Vander Wal came to 18F to 
 image: /assets/blog/vander-wal/email.jpg
 ---
 
-<p class="authors">
-  by {% author emileigh %}
-  </p>  
-
 William Shakespeare invented more than 1,700 English words. For
 example, *swagger.* Also, *bedazzled.*
 

@@ -12,10 +12,6 @@ description: "Members of the growing federal digital family presented their work
 image: /assets/blog/moveforward/roth-selfie.jpg
 ---
 
-<p class="authors">
-  by {% author jhunter %}
-</p>
-
 `moveForward(100);` these 17 characters were the [first line of code
 written by a sitting
 president](http://www.wired.com/2014/12/obama-becomes-first-president-write-computer-program/).
@@ -84,8 +80,6 @@ process.” She expressed the honor to have the opportunity to improve the
 immigration and visa processes for other families, as well as streamline
 the workflow for USCIS employees.
 
-<p float: center><blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Some <a href="https://twitter.com/WhiteHouse">@WhiteHouse</a> Pres Innov Fellows on policing data at moveForward(100) / <a href="https://twitter.com/whitehouseostp">@whitehouseostp</a> talks <a href="https://twitter.com/18F">@18F</a> <a href="https://twitter.com/usgsa">@usgsa</a> <a href="https://twitter.com/hashtag/govlife?src=hash">#govlife</a> <a href="http://t.co/QTqfMmbhFs">pic.twitter.com/QTqfMmbhFs</a></p>&mdash; Andrew Stroup (@stroupaloop) <a href="https://twitter.com/stroupaloop/status/593525508945489921">April 29, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 Noah Manger, an 18F designer and web developer, discussed his team's [work with the
 Federal Election
@@ -98,11 +92,7 @@ ultimate goal is to provide a tool that allows all members of the public
 — even those without deep knowledge of the election process — to quickly
 and easily access relevant data.
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">It&#39;s also great to see the awesome work that peers at <a href="https://twitter.com/USDS">@USDS</a>, <a href="https://twitter.com/18F">@18F</a>, and elsewhere are doing to make the govt work better. <a href="https://twitter.com/hashtag/moveforward100?src=hash">#moveforward100</a></p>&mdash; Will Barton (@gulielmus) <a href="https://twitter.com/gulielmus/status/593525730480271360">April 29, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br />
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">The <a href="https://twitter.com/hashtag/digitalservices?src=hash">#digitalservices</a> teams in the USG are AMAZING. Awesome demos today from <a href="https://twitter.com/18F">@18F</a>, PIFs + <a href="https://twitter.com/USDS">@USDS</a> at <a href="https://twitter.com/hashtag/moveforward100?src=hash">#moveforward100</a> <a href="http://t.co/2oZ491TUP2">pic.twitter.com/2oZ491TUP2</a></p>&mdash; Cori Zarek (@corizarek) <a href="https://twitter.com/corizarek/status/593525117210103809">April 29, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Leah Bannon, an 18F product manager, and Charles Worthington of USDS
 highlighted [analytics.usa.gov](https://analytics.usa.gov/) (the
@@ -118,8 +108,6 @@ cheered with the moveForward(100); group assembled, she said we
 represent “the government of the 21st century.” Then, Roth took a selfie
 with the group.
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">The <a href="https://twitter.com/USDS">@USDS</a> and <a href="https://twitter.com/18F">@18F</a> teams saying hi to <a href="https://twitter.com/DeniseUSGSA">@DeniseUSGSA</a> at the <a href="https://twitter.com/hashtag/moveForward100?src=hash">#moveForward100</a> event. <a href="http://t.co/uncSFpyaEH">pic.twitter.com/uncSFpyaEH</a></p>&mdash; GSA (@usgsa) <a href="https://twitter.com/usgsa/status/593540092871970817">April 29, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Former U.S. Chief Technology Officer Todd Park closed the evening, reminding the group assembled
 that moveForward(100); was designed “to let everyone know that
@@ -128,4 +116,3 @@ building a better government, and it’s building a better country.”
 
 “You’re restoring the core infrastructure of our civilization,” Park
 said. “As an American, I love you and salute you.”
-

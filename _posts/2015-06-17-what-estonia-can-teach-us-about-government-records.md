@@ -14,11 +14,6 @@ cyber security, and IT funding with Estonia's most prominent technologists."
 image: /assets/blog/estonia/Estonia2.jpg
 ---
 
-
-<p class="authors">
-  by {% author emileigh %}
-  </p>  
-
 Who are you?
 
 More specifically, who are you to the U.S. government?

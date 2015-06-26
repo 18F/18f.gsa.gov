@@ -14,10 +14,6 @@ tags:
   - howto
 
 ---
-<p class="authors">
-  by {% author eric %}, {% author mhz %}, and {% author boone %}
-</p>
-
 [![Our website running with Jekyll](/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
 
 A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
@@ -106,18 +102,10 @@ tags:
 Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our team [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add an `author` tag to our templates using teammates' handles.
 
 ```html
-<p class="authors">
-  by {% raw %}{% author chrisc %}{% endraw %}, {%raw %}{% author mhz %}{% endraw %}, and {% raw %}{% author nick %}{% endraw %}
-</p>
-```
 
 Which produces:
 
 ```html
-<p class="authors">
-  by <span class="author chrisc">Chris Cairns</span>, <span class="author mhz">Michelle Hertzfeld</span>, and <span class="author nick">Nick Bristow</span>
-</p>
-```
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 

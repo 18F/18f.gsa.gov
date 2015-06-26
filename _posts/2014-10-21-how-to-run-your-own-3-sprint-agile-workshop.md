@@ -23,10 +23,6 @@ read a book to get started, and you can read a book about refining your
 technique, but in the end you have to practice."
 image:
 ---
-<p class="authors">
-  by {% author robert %}, {% author hillary %}, and {% author sarah %}
-</p>
-
 You can’t learn [Agile software development](http://agilemanifesto.org) from a book any more than you can
 learn to perform a one-handed jump shot without repeatedly tossing a
 basketball in the hoop. You can read a book about the basic idea, you can

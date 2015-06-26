@@ -13,16 +13,11 @@ tags:
 - hackathons
 - public service
 excerpt: "Last weekend, thousands of civic hackers from across the country came
-together for the National Day of Civic Hacking to better their communities. We love this kind of stuff, and couldn't help but get involved." 
+together for the National Day of Civic Hacking to better their communities. We love this kind of stuff, and couldn't help but get involved."
 description: "Last weekend, thousands of civic hackers from across the country came
 together for the National Day of Civic Hacking to better their communities. We love this kind of stuff, and couldn't help but get involved."
 image: /assets/blog/national-day-of-civic-hacking-2015/hacking-day-tucson.jpg
 ---
-
-<p class="authors">
-  by {% author gray %}, {% author kara %}, {% author david %}, and {% author mhz %}
-  </p>
-
 Last weekend saw thousands of civic hackers from across the country come
 together to better their communities. For several years, the [National
 Day of Civic Hacking](http://hackforchange.org/) has encouraged
