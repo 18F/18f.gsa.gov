@@ -27,9 +27,7 @@
           {% endfor %}
         </span>
       </p>
-      <p class="authors">
-        by {% for author in page.authors %}{{author | lookup:"authors, full_name"}}{% endfor %}
-      </p>
+      {% include byline.html context="page" %}
       {{ content }}
 
     </section>

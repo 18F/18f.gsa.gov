@@ -26,9 +26,7 @@ layout: bare
                   {{ post.date | date_to_string }}.
                 </time>
               </p>
-              <p class="authors">
-                by {% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {%endunless%}{% endfor %}
-              </p>
+              {% include byline.html context="post"%}
               <p>
                 Tagged /
                 <span class="blog-tags" itemprop="keywords">

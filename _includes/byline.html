@@ -1,0 +1,10 @@
+{% if include.context == 'page' and page.authors %}
+<p class="authors">
+  by {% for author in page.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}{% endfor %}
+</p>
+{% endif %}
+{% if include.context == 'post' and post.authors %}
+<p class="authors">
+  by {% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}{% endfor %}
+</p>
+{% endif %}
