@@ -99,13 +99,21 @@ tags:
 ---
 ```
 
-Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our team [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add an `author` tag to our templates using teammates' handles.
+Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our authors [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/authors.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add a `lookup` filter to our templates using that loops through a data file.
 
 ```html
+<p class="authors">
+  by {%raw%}{% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {%endunless%}{% endfor %}{%endraw%}
+</p>
+```
 
 Which produces:
 
 ```html
+<p class="authors">
+  by <span class="author chrisc">Chris Cairns</span>, <span class="author mhz">Michelle Hertzfeld</span>, and <span class="author nick">Nick Bristow</span>
+</p>
+```
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 
