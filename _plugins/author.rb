@@ -68,9 +68,14 @@ module Jekyll
     def lookup(input, args)
       args = args.split(',')
       dataset = args[0].strip
-      key = args[1].strip unless args[1].nil?
+      key = args[1].strip
       data = Jekyll.sites[0].data[dataset]
-      return data[input][key] if data[input]
+      if data[input]
+        data[input][key]
+      else
+        puts "No such author: #{input}"
+        exit 1
+      end
     end
   end
 end
