@@ -18,7 +18,7 @@ event, Eric Maland of
 USDS explains the new improvements to the healthcare.gov application system, and how
 his team of eight developers helped save taxpayers tens of millions of
 dollars per year."
-image: /assets/blog/vander-wal/email.jpg
+image: /assets/blog/healthcare-video/healthcare-fix.jpg
 ---
 
 <p class="authors">
