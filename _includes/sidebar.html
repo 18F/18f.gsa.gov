@@ -1,6 +1,7 @@
 {% comment %}
 Add sidebars filtered by layout below
 {% endcomment %}
+
 {% if page.layout == "profile" %}
 <aside>
 	{% if page.github or page.twitter or page.email %}
@@ -20,5 +21,19 @@ Add sidebars filtered by layout below
 		{% endunless %}
 	{% endif %}
 	{% authored_posts heading=h3 %}
+</aside>
+{% endif %}
+
+{% if page.layout == "press" %}
+<aside>
+	<h3>We get asked...</h3>
+		<ul>
+		{% for item in site.press %}
+		{% unless item.title == '18F Press' %}
+			{% capture slug %}{{item.title | slugify}}{% endcapture %}
+			<li><a href="#{{slug}}">{{item.title}}</a></li>
+		{% endunless %}
+		{% endfor %}
+	</ul>
 </aside>
 {% endif %}
