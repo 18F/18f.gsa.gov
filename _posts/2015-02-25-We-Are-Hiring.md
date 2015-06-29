@@ -20,6 +20,8 @@ description: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New Yo
   by {% author kaitlin %}, {% author shawn %}, and {% author hillary %}
 </p>
 
+**Update:** You can read more about our hiring process [here](https://pages.18f.gov/joining-18f/).
+
 Technology changes fast. People have grown to expect fast, personalized, and user-friendly information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and no quick way to purchase services, it can be hard for the Federal government to meet those same expectations. This is where we (and hopefully you) come in.
 
 Built in the spirit of America's top tech startups, 18F is a consultancy and product delivery team **for** the U.S. Government **inside** the U.S. Government. We work with federal agencies to rapidly deploy tools and online services that are reusable, cut costs, and are easier for people and businesses to use.
