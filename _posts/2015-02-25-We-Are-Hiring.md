@@ -15,6 +15,7 @@ authors:
 excerpt: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 description: "You can find 18F in DC, San Francisco, Chicago, Dayton, and New York. Our rapidly growing team is home to a variety of roles, including these: Software Makers, Experience Designers & Researchers, DevOps, Visual and Interaction Designers, Writers & Content Strategists, Product Managers and whatever other skills you can bring to the team."
 ---
+**Update:** You can read more about our hiring process [here](https://pages.18f.gov/joining-18f/).
 
 Technology changes fast. People have grown to expect fast, personalized, and user-friendly information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and no quick way to purchase services, it can be hard for the Federal government to meet those same expectations. This is where we (and hopefully you) come in.
 
@@ -31,7 +32,7 @@ We’re on a mission to transform the way government builds and buys digital ser
 
 We’re transforming government from the inside out, creating cultural change by working in partnership with teams inside government agencies who want to create great services for the American people.
 
-Whether you’re near an 18F office in Washington DC, San Francisco, Chicago, or New York, or you’re closer to some of our teammates in Seattle, Portland, San Diego, Austin, Tucson, Dayton, Raleigh, or Philadelphia, we want to hear from you! 
+Whether you’re near an 18F office in Washington DC, San Francisco, Chicago, or New York, or you’re closer to some of our teammates in Seattle, Portland, San Diego, Austin, Tucson, Dayton, Raleigh, or Philadelphia, we want to hear from you!
 
 ![A map of 18F team members](/assets/blog/were-hiring/map.png)
 
@@ -67,7 +68,7 @@ Not everyone fits into a predefined box. Cross-disciplinary innovators who are p
 
 ## 18F is an Equal Opportunity Employer
 
-We’re building a team that looks like the United States, and we don't discriminate based on race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. If you have the skills we need, that’s all that matters. 
+We’re building a team that looks like the United States, and we don't discriminate based on race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. If you have the skills we need, that’s all that matters.
 
 ## To Learn More ...
 
