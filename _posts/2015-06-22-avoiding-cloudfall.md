@@ -17,10 +17,6 @@ description: "18F has been working on reducing the costs of entry to the cloud a
 image: /assets/blog/avoiding-cloudfall/cloudfall.jpg
 ---
 
-<p class="authors">
-  by {% author vdavez %}, {% author noah %}, {% author jfinch %}, {% author ozzy %}, {% author mbland %}, and {% author chrisc %}
-  </p>  
-
 ![A waterfall over rocks.](/assets/blog/avoiding-cloudfall/cloudfall.jpg)
 *Source: [Recreation.gov Instagram](https://instagram.com/p/pZFSh0ivJe/)*
 

@@ -22,10 +22,6 @@ organization."
 image: /assets/blog/were-hiring/team.jpg
 ---
 
-<p class="authors">
-  by {% author mbland %}, {% author emileigh %}, and {% author colin %}
-  </p>  
-
 Being the new kid is tough. And at 18F, we bring in newbies every two
 weeks.
 

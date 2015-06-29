@@ -18,9 +18,6 @@ tags:
 - midas
 
 ---
-<p class="authors">
-  by {% author sarah %} from the Midas team
-</p>
 ![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
 **Do you know JavaScript?  or do you have UX or visual design skills?**
 
@@ -61,5 +58,3 @@ We're building the future of government, but we need your help!  We have a stabl
 
 ![Designing at the
 Whiteboard](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
-
-

@@ -12,11 +12,6 @@ description: "We collaborate on much of what we do at 18F, from the way we work 
 image: /assets/blog/how-we-write/sarah.png
 ---
 
-<p class="authors">
-  by {% author melody %}
-</p>
-
-
 We collaborate on much of what we do at 18F, from the way we work on code to the way we write our blog. Though we have a small editorial team, the blog — and our writing process — extends ownership to the entire 18F team.
 
 This collaboration begins during the generative stage of the drafting process. Anyone on the 18F team can suggest an idea for a blog post. We collect these ideas as issues in a private GitHub repository and open each issue up to feedback from the entire team. For example, Sarah Allen, a developer at 18F, suggested writing the post you are reading right now:

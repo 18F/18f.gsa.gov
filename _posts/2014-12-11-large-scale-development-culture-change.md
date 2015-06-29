@@ -15,10 +15,6 @@ tags:
 - how we work
 
 ---
-<p class="authors">
-  by {% author mbland %}
-</p>
-
 As part of 18F's mission to deliver effective, user-centric services focused on the interaction between government and the people and businesses it serves, we are also committed to demonstrating how Open Source and Agile-inspired methodologies are critical to an effective, efficient, modern delivery process. We believe these methods produce better software and services at lower cost than previous models, build trust and goodwill amongst citizens and the tech industry, and help to attract and retain technical talent.
 
 However, driving adoption of these tools and practices throughout the Federal government will require more than setting a good example: It will require a culture change, a fundamental shift in how people think about the development and delivery of software. Furthermore, such widespread culture change will require far more effort than 18F alone can provide.

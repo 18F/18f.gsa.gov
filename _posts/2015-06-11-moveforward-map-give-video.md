@@ -19,9 +19,6 @@ and coordinating with mapping teams on the ground in Kathmandu."
 image: /assets/blog/map-give-video/kathmandu-living-labs.jpg
 ---
 
-<p class="authors">
-  by {% author andre %}</p>
-
 <iframe width="800" height="450"
 src="https://www.youtube-nocookie.com/embed/zxGnlWK0Y2w" frameborder="0"
 allowfullscreen></iframe>
