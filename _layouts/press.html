@@ -16,6 +16,7 @@
       {% unless item.title == '18F Press' %}
         	<h3 class="question" id="{{item.title | slugify }}">	{{item.title}} </h3>
           <p> {{item.content}} </p>
+          <a href="#top">Back to top</a>
       {% endunless %}
     {% endfor %}
   </div>
