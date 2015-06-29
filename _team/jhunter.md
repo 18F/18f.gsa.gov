@@ -3,7 +3,7 @@ name: jhunter
 first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
-role: Content Designer
+role: Content Strategist
 city: Washington
 state: D.C.
 github: jeanninehunter
@@ -15,7 +15,7 @@ project:
 - 
 ---
 
-Jeannine works on the communications team, where she tells 18F's story through blog posts, case studies, social media, the website, talking points and other communication materials. She also works as a content strategist, writing and revising content used on federal government websites. 
+Jeannine works on the outreach/communications team, where she tells 18F's story through blog posts, case studies, social media, the website, talking points and other communication materials. She also works as a content strategist, writing and revising content used on federal government websites. 
 
 "I am passionate about community building and technology," she says. "I want to help audiences beyond the walls of governmental institutions understand how it works and help improve it, and I am excited to share 18F’s successes and the lessons we learn with other federal agencies, the tech industry, and civic tech communities."
 
