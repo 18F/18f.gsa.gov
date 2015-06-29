@@ -6,6 +6,7 @@ authors:
 - eric
 - julia
 - gray
+- jtindel
 tags:
 - pulse
 - analytics
