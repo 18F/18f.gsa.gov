@@ -1,4 +1,4 @@
 {% if include.context == 'page' and page.authors %}{% assign authors = page.authors %}{% endif %}{% if include.context == 'post' and post.authors %}{% assign authors = post.authors | to_yaml %}{% endif %}
 <p class="authors">
-  by {% for author in authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}{% endfor %}
+  by {% for author in authors %}<span class="author {{author}}" style="color: #000">{{author | lookup:"authors, full_name"}}</span>{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}{% endfor %}
 </p>
