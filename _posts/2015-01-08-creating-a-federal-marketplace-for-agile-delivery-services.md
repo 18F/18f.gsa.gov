@@ -16,10 +16,6 @@ tags:
 - modernization
 ---
 
-<p class="authors">
-  by {% author chrisc %} and {% author greg %}
-  </p>
-
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013
 
 > "One of the biggest factors preventing successful government procurements today may be the rapid evolution of technology." — [Government Technology](http://www.govtech.com/budget-finance/Bringing-Innovation-to-Procurement.html), March 4, 2014

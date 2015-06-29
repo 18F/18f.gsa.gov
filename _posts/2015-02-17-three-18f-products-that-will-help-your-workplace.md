@@ -30,10 +30,6 @@ tags:
 - the hub
 ---
 
-<p class="authors">
-  by {% author melody %}
-</p>
-
 I’ve worked at 18F for exactly six days. During those six days, I
 learned about a few products that I wish I’d known about while at my
 previous job. These products would not only have saved me hours of work

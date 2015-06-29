@@ -23,7 +23,6 @@ module Jekyll
     def finder(group, name)
         return Jekyll.sites[0].data[group].find {|member| member["name"] == name}
     end
-
   end
 
   class AuthoredPosts < Liquid::Tag
@@ -64,6 +63,32 @@ module Jekyll
         "<img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>"
       else
         "<img class='img-circle team-img bio-clip' src='/assets/images/18f.png' alt='18F logo'>"
+      end
+    end
+    # lookup filter
+    #
+    # A liquid filter that takes an author slug as "input" and extracts from the
+    # data set in the first arg the value of the key in the second arg for "input"
+    #
+    # Example:
+    # if we have a variable `author` set to "boone" the following syntax:
+    # ```
+    # {{author | lookup:"authors, full_name"}}
+    # ```
+    # Will look for an entry in the authors data file named "boone" and exact
+    # the value assocated with "full_name."
+    #
+    # Returns a string containing the requested value
+    def lookup(input, args)
+      args = args.split(',')  # turns the comma separated args string into an array
+      dataset = args[0].strip # strips whitespace for the requested data file
+      key = args[1].strip     # strips whitespace for the requested key
+      data = Jekyll.sites[0].data[dataset] # returns the full data file
+      if data[input]          # if there's an entry for author, return the value
+        data[input][key]
+      else                    # if not, exit with a "no such author error"
+        puts "No such author: #{input}"
+        exit 1
       end
     end
   end

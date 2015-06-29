@@ -11,10 +11,6 @@ excerpt: "Earlier this month, I went to the Museum of Modern Art in New York Cit
 image: /assets/blog/art-tech/dap-dashboard.png
 ---
 
-<p class="authors">
-  by {% author julia %}
-</p>
-
 <blockquote class="twitter-tweet" lang="en">
 	<p><a href="https://twitter.com/18F">@18F</a>'s <a href="https://analytics.usa.gov">http://analytics.usa.gov</a> site helped me provide sound advice to a government client. Stats &amp; good #UX, terrific. #outreach #marketing.</p>&mdash; Paula Lee Andrese (@PLAndrese) <a href="https://twitter.com/PLAndrese/status/587720655652651009">April 13, 2015</a>
 </blockquote>

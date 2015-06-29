@@ -17,10 +17,6 @@ description: " The Request for Quotation (RFQ) for the Agile Delivery Services B
 image: /assets/blog/were-hiring/team.jpg
 ---
 
-<p class="authors">
-  by {% author vdavez %}, {% author chrisc %}, and {% author noah %}
-  </p>  
-
 *Update: [The RFQ is live!](https://pages.18f.gov/ads-bpa/assets/ADS_RFQ_Final.pdf)*
 
 It’s game time. The Request for Quotation (RFQ) for the [Agile Delivery

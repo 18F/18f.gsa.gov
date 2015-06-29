@@ -2,7 +2,7 @@
 title: "Making sense of Washington’s tech landscape"
 date: 2015-06-16
 layout: post
-author:
+authors:
 - andre
 tags:
 - how we work
@@ -16,10 +16,6 @@ Company
 offers a great metaphor to better explain the relationship of 18F, the U.S. Digital Service headquarters, and the digital teams inside various agencies."
 image: /assets/blog/fast-company/jumpshot.jpg
 ---
-
-<p class="authors">
-  by {% author andre %}
-  </p>  
 
 ![The U.S. Digital Service family](/assets/blog/fast-company/jumpshot.jpg)
 *Photo by Daniel Shea for Fast Company*

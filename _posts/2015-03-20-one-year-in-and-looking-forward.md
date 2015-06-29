@@ -15,10 +15,6 @@ authors:
 description: "One year ago we said, 'Hello, World' and launched not only a new team, but also the promise of a new way of working with and for the Federal Government. Here's what we've accomplished so far."
 excerpt: "One year ago we said, 'Hello, World' and launched not only a new team, but also the promise of a new way of working with and for the Federal Government. Here's what we've accomplished so far."
 ---
-<p class="authors">
-	by {% author hillary %} and {% author aaron %}
-</p>
-
 One year ago we said, ["Hello, World!"][1]
 and launched not only a new team, but also the promise of a new way of
 working with and for the Federal Government. The first 15 of us

@@ -13,10 +13,6 @@ description: "It has become a standard practice in the software industry to crea
 image: /assets/blog/code-of-conduct/codeofconduct_screen.jpg
 ---
 
-<p class="authors">
-  by {% author sarah %} and {% author jackie %}
-</p>
-
 We believe that in order to accomplish 18F’s mission of providing
 effective U.S. government services, we need to involve the people who
 will be using those services. We’ve written previously about the

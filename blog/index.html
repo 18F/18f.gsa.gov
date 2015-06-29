@@ -3,7 +3,7 @@ layout: bare
 ---
 <section>
 
-  
+
 
   <h1>Blog</h1>
 
@@ -26,6 +26,7 @@ layout: bare
                   {{ post.date | date_to_string }}.
                 </time>
               </p>
+              {% include byline.html context="post"%}
               <p>
                 Tagged /
                 <span class="blog-tags" itemprop="keywords">

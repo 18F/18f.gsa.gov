@@ -18,10 +18,6 @@ layout: post
 image: /assets/2014/12/midas_hack_night.png
 ---
 
-<p class="authors">
-by {% author sarah %}
-</p>
-
 The [October Open Source Hack Night](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas) was a huge success, both as a community event and for the positive impact on the [Midas project](https://github.com/18F/midas), providing a venue for our combined team to collaborate in person along with volunteers from the private sector and from inside government.
 
 <!-- more -->
@@ -49,7 +45,7 @@ href="https://twitter.com/monfresh/status/519297925965684736">October 7,
 <script async src="//platform.twitter.com/widgets.js"
 charset="utf-8"></script>
 
-> "The Hackathon was great!  I loved getting to quickly go from testing to creating a map of the issues.  Then we modeled a potential solution and got practical feedback on it!  We made a lot of progress in just one session!  Everyone was really excited and open to the experience, and there were a lot of great ideas.  I was so excited about the Hackathon that I told everyone at my office about it.  I hope that we have more.  Five Stars! Most fun day of work!" -- Ken Ambrose, HHS 
+> "The Hackathon was great!  I loved getting to quickly go from testing to creating a map of the issues.  Then we modeled a potential solution and got practical feedback on it!  We made a lot of progress in just one session!  Everyone was really excited and open to the experience, and there were a lot of great ideas.  I was so excited about the Hackathon that I told everyone at my office about it.  I hope that we have more.  Five Stars! Most fun day of work!" -- Ken Ambrose, HHS
 
 <blockquote class="twitter-tweet" lang="en"><p>Thank to the folks <a href="https://twitter.com/18F">@18F</a> and <a href="https://twitter.com/HHSIDEALab">@HHSIDEALab</a> for moving the <a href="https://twitter.com/hashtag/opensource?src=hash">#opensource</a> code of <a href="https://twitter.com/hashtag/Midas?src=hash">#Midas</a> forward; learned lots</p>&mdash; Alisa Hughley, MPH (@enBloomMedia) <a href="https://twitter.com/enBloomMedia/status/519288750640480256">October 7, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -70,4 +66,3 @@ Midas contributors from across the country were on hand to answer questions and 
 Midas development continues with everyone working collaboratively through [open source](https://github.com/18F/midas).  If you want to get involved, join our [Google group](https://groups.google.com/forum/#!forum/midascrowd) and introduce yourself.  As a developer, there are issues with the label "[help wanted](https://github.com/18F/midas/labels/help%20wanted)" that we think a new person would be able to dive in and tackle, though feel free to dig into any area that interests you.
 
 We are looking forward to increasing engagement around our open source projects and bouncing ideas off of the greater designer and developer communities. Keep an eye on [@18F on Twitter](https://twitter.com/18F) for an announcement of our next event.
-

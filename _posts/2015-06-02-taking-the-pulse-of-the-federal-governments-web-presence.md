@@ -15,11 +15,6 @@ excerpt: "The U.S. federal government is launching a new project to monitor how 
 description: "The U.S. federal government is launching a new project to monitor how it's doing at best practices on the web called Pulse, at pulse.cio.gov."
 image: /assets/blog/pulse/pulse.png
 ---
-
-<p class="authors">
-  by {% author eric %}, {% author julia %}, {% author gray %}, and John Tindel
-</p>
-
 The U.S. federal government is launching a new project to monitor how it's doing at best practices on the web.
 
 A sort of health monitor for the U.S. government's websites, it's called **[Pulse](https://pulse.cio.gov)**, and you can find it at **[pulse.cio.gov](https://pulse.cio.gov)**.

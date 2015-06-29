@@ -14,11 +14,6 @@ excerpt: "In May 2014, President Obama signed the Digital Accountability and Tra
 description: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
 image: /assets/blog/data-act-implementation/data-act-reporting.jpg
 ---
-
-<p class="authors">
-  by {% author becky %}
-</p>
-
 In May 2014, President Obama signed the [Digital Accountability and Transparency Act (DATA Act)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/pdf/PLAW-113publ101.pdf)
 into law. Once implemented, the DATA Act will make it easier to
 understand how the federal government spends money. The Department of
