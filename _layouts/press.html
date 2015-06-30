@@ -3,7 +3,7 @@
 <head>
   {% include head.html %}
 </head>
-<body itemscope itemtype="http://schema.org/WebPage" id="bio-{{page.name}}">
+<body itemscope itemtype="http://schema.org/WebPage" id="{{page.title | slugify}}">
 {% include flag.html %}
 <section class="container bare profile">
 	{% include nav.html %}
