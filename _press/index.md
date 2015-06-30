@@ -3,7 +3,7 @@ layout: press
 permalink: /press/
 title: 18F Press
 ---
-"If you have questions, we've got answers." </p>
+"If you have questions, we've got answers."
 
 [media@gsa.gov](mailto:media@gsa.gov?Subject=18F%20Media%20Query)
 
