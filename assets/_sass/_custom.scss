@@ -61,6 +61,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 1.2em;
 	}
 }
+// skip links
+.skips {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
 
 // Splash
 //********************************************************

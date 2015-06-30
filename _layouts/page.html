@@ -4,23 +4,14 @@
   {% include head.html %}
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" id="bio-{{page.name}}">
+
 {% include flag.html %}
 <section class="container bare profile">
 	{% include nav.html %}
   {% include logo.html %}
   {% include headline.html %}
-  <div class="content" role="main" id="top" itemscope itemprop="mainContentOfPage">
-    <a href="#toc" class="skips">Table of contents</a>
+  <div class="content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}
-    {% for item in site.press %}
-      {% unless item.title == '18F Press' %}
-          <section>
-          <h2 id="{{item.title | slugify }}">	{{item.title}} </h2>
-          <p> {{item.content}} </p>
-          <a href="#top">Back to top</a>
-          </section>
-      {% endunless %}
-    {% endfor %}
   </div>
     {% include sidebar.html %}
 
