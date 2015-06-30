@@ -14,9 +14,11 @@
     {{ content }}
     {% for item in site.press %}
       {% unless item.title == '18F Press' %}
+          <section>
           <h2 id="{{item.title | slugify }}">	{{item.title}} </h2>
           <p> {{item.content}} </p>
           <a href="#top">Back to top</a>
+          </section>
       {% endunless %}
     {% endfor %}
   </div>
