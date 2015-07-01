@@ -20,4 +20,9 @@
 		<h1>Press</h1>
 		<h2>Working on a story about 18F?</h2>
 		{% endif %}
+
+		{% if page.layout == "page" %}
+			<h1>{{page.title}}{% if page.subtitle %}:{% endif %}</h1>
+			{% if page.subtitle %}<h2>{{page.subtitle}}</h2>{% endif %}
+		{% endif %}
 	</header>
