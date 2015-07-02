@@ -11,7 +11,7 @@ twitter:
 team: Delivery
 ---
 
-David is a project manager and front-end web developer at 18F. 
+David is a product manager and front-end web developer at 18F. 
 
 In his words: "This means I get to wear a lot of hats; I run user research interviews, manage client relations, write code, and generally help the rest of the team be awesome.	Working with the government shouldn't be hard, especially for small businesses."
 

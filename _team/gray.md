@@ -3,7 +3,7 @@ name: gray
 first_name: Gray
 last_name: Brooks
 full_name: Gray Brooks
-role: Project Manager
+role: Product Manager
 city: Washington
 state: D.C.
 github:
