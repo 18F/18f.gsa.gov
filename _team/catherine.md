@@ -6,8 +6,8 @@ full_name: Catherine Devlin
 role: Developer
 city: Dayton
 state: Ohio
-github: [catherinedevlin](https://github.com/catherinedevlin/)
-twitter: [@catherinedevlin](https://twitter.com/catherinedevlin)
+github: catherinedevlin
+twitter: catherinedevlin
 team: Delivery
 ---
 
