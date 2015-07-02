@@ -4,18 +4,13 @@ Add sidebars filtered by layout below
 
 {% if page.layout == "profile" %}
 <aside>
-	{% if page.github or page.twitter or page.email %}
-		{% unless site.config.display_personal %}
-		<h3>Where to find {{ page.first_name }}:</h3>
+	{% if page.project %}
+	<h3>{{ page.first_name }}'s projects:</h3>
 		<ul>
-			{% if page.github %}
-			<li><a href="https://github.com/{{ page.github }}">GitHub</a></li>
-			{% endif %}
-			{% if page.email %}
-			<li><a mailto="{{page.email}}">Email</a></li>
-			{% endif %}
+			{% for project in page.project %}
+				<li>{{ project }}</li>
+			{% endfor %}
 		</ul>
-		{% endunless %}
 	{% endif %}
 	{% authored_posts heading=h3 %}
 </aside>
