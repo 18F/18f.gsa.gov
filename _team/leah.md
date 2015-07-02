@@ -3,7 +3,7 @@ name: leah
 first_name: Leah
 last_name: Bannon
 full_name: Leah Bannon
-role: Project Manager
+role: Product Manager
 city: Washington
 state: D.C.
 github: leahbannon
