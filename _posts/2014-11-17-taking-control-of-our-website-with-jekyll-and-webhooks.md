@@ -99,7 +99,7 @@ tags:
 ---
 ```
 
-Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our authors [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/authors.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add a `lookup` filter to our templates using that loops through a data file.
+Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our authors [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/authors.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add a `lookup` filter to our templates using that loops through a data file. (**Note**: We've since rewritten our plugin to [generate bylines automatically](https://github.com/18F/18f.gsa.gov/issues/633).)
 
 ```html
 <p class="authors">
