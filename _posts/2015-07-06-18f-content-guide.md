@@ -1,5 +1,5 @@
 ---
-title: "The 18F content guide: working toward cleaner, more accessible content"
+title: "The 18F content guide: working toward cleaner, more accessible communication"
 date: 2015-07-06
 layout: post
 authors:
