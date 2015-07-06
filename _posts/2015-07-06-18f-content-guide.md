@@ -1,6 +1,6 @@
 ---
-title: "The 18F style guide: working toward cleaner, more accessible content"
-date: 2015-07-02
+title: "The 18F content guide: working toward cleaner, more accessible content"
+date: 2015-07-06
 layout: post
 authors:
 - kate
@@ -8,12 +8,12 @@ tags:
 - how we work
 - guides
 - content
-excerpt: "We’re proud to announce the release of our 18F Content Style Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
-description: "We’re proud to announce the release of our 18F Content Style Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
+excerpt: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
+description: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
 image: /assets/blog/content-style-guide/style-guide-screen.jpg
 ---
 
-[![Screenshot of the content style guide](/assets/blog/content-style-guide/style-guide-screen.jpg)](https://pages.18f.gov/content-style-guide/)
+[![Screenshot of the 18F Content Guide](/assets/blog/content-style-guide/style-guide-screen.jpg)](https://pages.18f.gov/content-guide/)
 
 18F recently introduced its [series of
 guides](https://18f.gsa.gov/2015/05/28/18F-guides/), a collection of
@@ -23,8 +23,7 @@ his post describing the guides, “Though these guides currently carry the
 material throughout the broader [U.S. Digital
 Service](https://wh.gov/usds/) effort.”
 
-To that end, we’re proud to announce the release of our [**18F Content
-Style Guide**](https://pages.18f.gov/content-style-guide/index.html), a
+To that end, we’re proud to announce the release of our [**18F Content Guide**](https://pages.18f.gov/content-guide/index.html), a
 comprehensive handbook to help content creators on our team (and, we
 hope, elsewhere) create more direct, accessible, and compelling written
 works. Per the [Plain Writing Act of
@@ -86,5 +85,5 @@ fit, especially if that use involves revisions and reconfigurations.
 
 If you’ve got thoughts on how we might improve the guide, please
 [send them our
-way](https://github.com/18F/content-style-guide) — we’d love to hear
+way](https://github.com/18F/content-guide) — we’d love to hear
 from you!
