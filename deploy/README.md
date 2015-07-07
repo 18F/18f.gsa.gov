@@ -101,4 +101,4 @@ stack: cflinuxfs2
 
 If it looks good, you should be able to go to site-<name>.18f.gov and see your demo copy of 18f.gsa.gov running and share it with the team.
 
-Sometimes you might get some crazy looking errors. This seems to happen especially on slower connections. If you get an error, try again. If you're still getting an error reach out on either the #18f-site or #devops channels and we'll help you out.
+Sometimes you might get some crazy looking errors. These seem to happen especially on slower connections. If you get an error, try again. If you're still getting an error reach out on either the #18f-site or #devops channels and we'll help you out.
