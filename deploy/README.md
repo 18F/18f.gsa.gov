@@ -1,6 +1,11 @@
+## Contents
+
+1. [18f.gsa.gov deployment details](#18f-gsa-gov-deployment-details)
+1. [Cloud Foundry deployment details](#cloudfoundry-deployment-details)
+
 ## 18f.gsa.gov deployment details
 
-Quick file overview:
+Quick overview:
 
 * [`18f-site.conf`](18f-site.conf) - Our nginx config for the production and staging site. Not synced to version control automatically, but we'll try to keep them in sync.
 * [`fabfile.py`](fabfile.py) - Fabric deployment script to start/stop/restart our webhook processes. Could be extended to deploy and sync our nginx config, and restart nginx.
@@ -62,3 +67,74 @@ forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.g
 On our web server, 18F runs two separate hooks.
 
 You may wish to use [ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.me/) in development, to test out the webhook.
+
+## Cloud Foundry deployment details
+
+Cloud Foundry is 18F's [open source platform as a service](https://18f.gsa.gov/2015/05/08/layering-innovation/) that allows us to iterate quickly and receive feedback sooner. The 18F-site team has an organization and a few "routes." Each route is a subdomain that can be used like a demo server. If you have a Cloud Foundry account with 18F and are added to the `site` space you can push up changes and circulate them to others before issuing a pull request to `staging`.
+
+Here's how to do it:
+
+1. If you haven't already, make an issue with the DevOps team to get a Cloud Foundry account. Make sure you're added to the `site` space.
+1. Follow the instructions for [setting up Cloud Foundry](https://docs.18f.gov/getting-started/setup/) (If you get an error during `brew install` while following this step, you can [download an installer](https://cli.run.pivotal.io/stable?release=macosx64&source=github-rel))
+1. Rename `manifest-sample.yml` in this repo to `manifest-<name>.yml` where `<name>` is your name.
+1. Open `manifest-<name>.yml` in your favorite editor and change line 5 to `- name: site-<name>` (where `<name>` is your name.)
+
+Now you should be all set to make your first deployment.
+
+1. Open Terminal and `cd` into your copy of `18f.gsa.gov`
+1. Run `./go build` to build the site
+1. Run `cf push -f manifest-<name>.yml` (where `<name>` is your name).
+
+The last step should generate a bunch of output that looks like this:
+
+```
+Using manifest file manifest-<name>.yml
+
+Updating app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
+OK
+
+Creating route site-<name>.18f.gov...
+OK
+
+Binding site-<name>.18f.gov to site-<name>...
+OK
+
+Uploading site-andre...
+Uploading app files from: /path/to/18f.gsa.gov
+Uploading 19.5M, 2623 files
+Done uploading
+OK
+
+Starting app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
+-----> Downloaded app package (59M)
+Cloning into '/tmp/buildpacks/staticfile-buildpack'...
+Submodule 'compile-extensions' (https://github.com/cloudfoundry-incubator/compile-extensions.git) registered for path 'compile-extensions'
+Cloning into 'compile-extensions'...
+Submodule path 'compile-extensions': checked out '1f260464c156bddfb654adb14298344797d030a1'
+-----> Root folder _site
+-----> Copying project files into public/
+-----> Setting up nginx
+-----> Uploading droplet (115M)
+
+1 of 1 instances running
+
+App started
+
+
+OK
+
+App site-andre was started using this command `sh boot.sh`
+
+Showing health and status for app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
+OK
+
+requested state: started
+instances: 1/1
+usage: 64M x 1 instances
+urls: site-<name>.18f.gov
+last uploaded: Mon Jul 6 16:01:37 UTC 2015
+stack: cflinuxfs2
+
+     state     since                    cpu    memory         disk           details
+#0   running   2015-07-06 12:02:12 PM   0.0%   31.5M of 64M   148.8M of 1G
+```

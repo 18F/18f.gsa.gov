@@ -13,6 +13,8 @@ This repository contains 18F's website, https://18f.gsa.gov.
 
 Deployments to production will be done by site admins, using pull requests from `staging` to `production`.
 
+We occasionally use various subdomains of 18f.gov to demo work in a way that others can see it. These deployments are manual and require a little bit of extra configuration. See the readme file in the "deploy" folder for more information on how this works.
+
 ### Adding yourself to the site
 
 If you're a new teammate, please add yourself to the website by following these steps:
