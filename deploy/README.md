@@ -85,49 +85,9 @@ Now you should be all set to make your first deployment.
 1. Run `./go build` to build the site
 1. Run `cf push -f manifest-<name>.yml` (where `<name>` is your name).
 
-The last step should generate a bunch of output that looks like this:
+The last step should generate a bunch of output that ends with this:
 
 ```
-Using manifest file manifest-<name>.yml
-
-Updating app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
-OK
-
-Creating route site-<name>.18f.gov...
-OK
-
-Binding site-<name>.18f.gov to site-<name>...
-OK
-
-Uploading site-andre...
-Uploading app files from: /path/to/18f.gsa.gov
-Uploading 19.5M, 2623 files
-Done uploading
-OK
-
-Starting app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
------> Downloaded app package (59M)
-Cloning into '/tmp/buildpacks/staticfile-buildpack'...
-Submodule 'compile-extensions' (https://github.com/cloudfoundry-incubator/compile-extensions.git) registered for path 'compile-extensions'
-Cloning into 'compile-extensions'...
-Submodule path 'compile-extensions': checked out '1f260464c156bddfb654adb14298344797d030a1'
------> Root folder _site
------> Copying project files into public/
------> Setting up nginx
------> Uploading droplet (115M)
-
-1 of 1 instances running
-
-App started
-
-
-OK
-
-App site-andre was started using this command `sh boot.sh`
-
-Showing health and status for app site-<name> in org 18f / space site as gregory.boone@gsa.gov...
-OK
-
 requested state: started
 instances: 1/1
 usage: 64M x 1 instances
@@ -138,3 +98,7 @@ stack: cflinuxfs2
      state     since                    cpu    memory         disk           details
 #0   running   2015-07-06 12:02:12 PM   0.0%   31.5M of 64M   148.8M of 1G
 ```
+
+If it looks good, you should be able to go to site-<name>.18f.gov and see your demo copy of 18f.gsa.gov running and share it with the team.
+
+Sometimes you might get some crazy looking errors. This seems to happen especially on slower connections. If you get an error, try again. If you're still getting an error reach out on either the #18f-site or #devops channels and we'll help you out.
