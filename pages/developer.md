@@ -11,6 +11,10 @@ permalink: /developer/
 
 ## 18F APIs 
 
+### api.data.gov API
+
+The [api.data.gov API](https://api.data.gov/developer/) provides a means for agencies that use the [api.data.gov](https://api.data.gov/) service to administer it through a web service.  
+
 ### Discovery 
 
 The [Discovery API](https://discovery.gsa.gov/docs/) drives the [Discovery Market Research Tool](https://discovery.gsa.gov/). It contains information on the vendors that are part of the OASIS and OASIS Small Business contracting vehicles, such as their contracting history, their elligibility for contract awards, and their small business designations. 
