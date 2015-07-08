@@ -11,6 +11,10 @@ permalink: /developer/
 
 ## 18F APIs 
 
+### Discovery 
+
+The [Discovery API](https://discovery.gsa.gov/docs/) drives the [Discovery Market Research Tool](https://discovery.gsa.gov/). It contains information on the vendors that are part of the OASIS and OASIS Small Business contracting vehicles, such as their contracting history, their elligibility for contract awards, and their small business designations. 
+
 ### FBOpen
 
 The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportunities to work with the U.S. Government. Learn more from the [launch announcement](https://18f.gsa.gov/2014/03/31/announcing-fbopen-government-opportunities-made-easier/) and the [GitHub repository](https://github.com/18f/fbopen). You can also view the live front-end interface built on the API at [fbopen.gsa.gov](https://fbopen.gsa.gov).
