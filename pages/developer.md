@@ -25,7 +25,7 @@ The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportuniti
 
 ### OpenFEC
 
-The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API for the Federal Election Commission. It aims to make campaign finance more accessible for journalists, academics, developers, and other transparency-seekers.
+The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API for the Federal Election Commission. It aims to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.
 
 ### Midas 
 
