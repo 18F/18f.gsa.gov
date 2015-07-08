@@ -5,7 +5,6 @@ layout: post
 authors:
 - lindsay
 tags:
-- fed
 - our projects
 - open data
 - fec
