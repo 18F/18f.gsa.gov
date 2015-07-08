@@ -27,7 +27,11 @@ The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportuniti
 
 The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API for the Federal Election Commission. It aims to make campaign finance more accessible for journalists, academics, developers, and other transparency-seekers.
 
-### Hub API
+### Midas 
+
+The [Midas API](https://pages.18f.gov/midas/developer/) provides reading, creating, and updating access to tasks, user profiles, and projects on GSA's [Open Opportunities](https://openopps.digitalgov.gov) service.  
+
+### Hub
 
 The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F Hub](https://18f.gsa.gov/hub/), a repository of team and project information ([more details here](https://18f.gsa.gov/2014/12/23/hub/)). 
 
