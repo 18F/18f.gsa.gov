@@ -35,10 +35,6 @@ The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F H
 
 The [Midas API](https://pages.18f.gov/midas/developer/) provides reading, creating, and updating access to tasks, user profiles, and projects on GSA's [Open Opportunities](https://openopps.digitalgov.gov) service.  
 
-### MyUSA 
-
-The [MyUSA API](https://alpha.my.usa.gov/developer), currently in alpha, provides developers and users an Authentication and Authorization gateway, a Profile system, and a Notification service.  
-
 ### OpenFEC
 
 The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API for the Federal Election Commission. It aims to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.
