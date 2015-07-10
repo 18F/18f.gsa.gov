@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why we use HTTPS for every .gov we make
+title: "Why we use HTTPS for every .gov we make"
 image:
 description: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
 
@@ -19,7 +19,7 @@ On today's Internet, in today's web browsers, **HTTPS** (`https://`) offers the 
 
 <!-- more -->
 
-That's why 18F's policy is to **use HTTPS for every .gov website we make**.  18F is an in-house government technology team that builds things for the rest of the US federal government, and we're committed to deploying HTTPS across all of our released websites.
+That's why 18F's policy is to **use HTTPS for every .gov website we make**.  18F is an in-house government technology team that builds things for the rest of the U.S. federal government, and we're committed to deploying HTTPS across all of our released websites.
 
 ![HTTPS URL on desktop](/assets/blog/https-everywhere/18f-https-desktop.png)
 
