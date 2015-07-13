@@ -8,7 +8,7 @@ city: Boston
 state: MA
 github:
 twitter:
-team: Delivery
+team: Design
 ---
 
 Colin's specialty is user experience research. 
