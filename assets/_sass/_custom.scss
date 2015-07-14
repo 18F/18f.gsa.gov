@@ -125,6 +125,21 @@ $tiniest: new-breakpoint(max-width 390px);
   	}
 
   }
+	.back {
+		margin-bottom:1.5em;
+	  display: inline-block;
+	  position: relative;
+		a,
+		i {
+			text-decoration: none;
+			color: $dark-gray !important;
+			&:hover, &:focus {
+				text-decoration: underline;
+				color: $red;
+			}
+			font-size: 0.8em !important;
+		}
+	}
 .logo {
 	height: 150px;
 	width: 150px;
@@ -415,22 +430,6 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .subscribe {
 	margin-top: 10px;
-}
-
-.back {
-	font-size: 0.8em;
-	margin-bottom:47px;
-  display: inline-block;
-  position: relative;
-  top: 125px;
-	a {
-		text-decoration: none;
-		color: $dark-gray;
-		&:hover, &:focus {
-			text-decoration: underline;
-			color: $red;
-		}
-	}
 }
 
 .blog-entry, .service-entry {
