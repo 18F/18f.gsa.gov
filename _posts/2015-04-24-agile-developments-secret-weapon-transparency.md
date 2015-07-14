@@ -73,6 +73,6 @@ visible way, and focus on what counts: working software.
 
 If you’re interested in learning more about how Agile can provide
 greater transparency in your new or existing projects, [email us at 18F
-Consulting](mailto:18fc@gsa.gov). We’d also love to hear your
+Consulting](mailto:Inquiries18F@gsa.gov). We’d also love to hear your
 perspectives and learn from your experiences; if you have used Agile in
 government to help promote transparency, drop us a line.
