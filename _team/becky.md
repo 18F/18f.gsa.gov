@@ -14,7 +14,7 @@ team: Delivery
 
 Becky is on the engineering team at 18F, where she works on a project to help improve the way the government publishes data about federal spending. Her background in database design, data warehousing, and data analysis — along with her Python skills — give her a strong toolkit to solve data mysteries large and small.
 
-Before 18F, Becky was the director of data and technology at the National Priorities Project, a non-profit that tracks the federal budget. She has also developed and analyzed data for companies in health care, higher ed, and the utility space.
+Before 18F, Becky was the director of data and technology at the National Priorities Project, a nonprofit that tracks the federal budget. She has also developed and analyzed data for companies in health care, higher education, and the utility space.
 
 Becky joined 18F because it was the work she advocated for in her most recent job. 
 

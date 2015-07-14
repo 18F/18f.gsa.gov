@@ -21,12 +21,12 @@ constituencies in decision-making.
 “I see myself as a facilitator of a more inclusive and participatory design process — one that seeks out multiple viewpoints and weaves them into the design process,” she says. “I try to be helpful while asking hard questions.”
 
 Liz’s professional background lies mostly in qualitative design research
-for R&D or early stage product design. She has helped many companies frame
+for research and development or early stage product design. She has helped many companies frame
 their problems, explore possible solutions, and set agendas for the future.
-She has a bachelor's in art from Yale, a master’s in interaction design from New
+She has a bachelor's degree in art from Yale, a master’s degree in interaction design from New
 York University, and a PhD from UC Berkeley’s School of Information
 Sciences. She has taught classes at UC Berkeley and the San Francisco Art
-Institute, is the author of two books, and also speaks and leads workshops
+Institute, is the author of two books and also speaks and leads workshops
 at a variety of conferences.
 
 Liz came to work at 18F for three reasons: She likes working on projects
