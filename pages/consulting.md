@@ -1,10 +1,9 @@
 ---
 title: 18F Consulting
+subtitle: Understand. Acquire. Deliver.
 permalink: /consulting/
-layout: bare
+layout: page
 ---
-
-<h1 style="padding-top: 64px;"> 18F Consulting: Understand. Acquire. Deliver.</h1>
 
 Building new digital services or improving old ones can be risky, complex, and expensive. Doing it well can solve real problems, improve lives, save taxpayer money, and improve the government.
 
@@ -12,15 +11,15 @@ Building new digital services or improving old ones can be risky, complex, and e
 
 ## What should you build, buy, or change?
 
-Too often, teams tasked with solving a problem don't know where to begin or get locked into an idea too soon. 18F Consulting helps you understand your audiences, and we counsel you on available options (e.g., product strategy, new technology, acquisition). 
+Too often, teams tasked with solving a problem don't know where to begin or get locked into an idea too soon. 18F Consulting helps you understand your audiences, and we counsel you on available options (e.g., product strategy, new technology, acquisition).
 
 ## How should you do it?
 
-We guide you through proven practices in human-centered design, lean startup, agile architecture, agile development, open data, and DevOps. These industry-standard techniques increase the likelihood your next initiative will thrive. 
+We guide you through proven practices in human-centered design, lean startup, agile architecture, agile development, open data, and DevOps. These industry-standard techniques increase the likelihood your next initiative will thrive.
 
 ## Who should do it?
 
-Procuring the right team through an outside vendor or recruiting talent in-house is key to producing high-quality digital services. We understand that federal acquisition and hiring processes have long been barriers to success. We use every tool in our kit to change that, to prioritize getting the right people, and to help you hold them accountable for their work. 
+Procuring the right team through an outside vendor or recruiting talent in-house is key to producing high-quality digital services. We understand that federal acquisition and hiring processes have long been barriers to success. We use every tool in our kit to change that, to prioritize getting the right people, and to help you hold them accountable for their work.
 
 Let us assist as you develop a strategy for soliciting and onboarding vendors and design or technology hires. Once you've built a team for your project or organization, we'll help you manage their performance.
 
@@ -59,15 +58,6 @@ Let us assist as you develop a strategy for soliciting and onboarding vendors an
 ## We’d love to hear from you
 
 Email <a id="email" href=""></a> with your need and we’ll be happy to talk further.
-
-## Recent projects
-
-- Department of Labor / Wage and Hour Division / IT Modernization
-- Social Security Administration / Disability Case Processing System
-- [Navy Reserve / Ready to Serve (R2S)](https://pages.18f.gov/consulting/projects/navy-reserve/)
-- Treasury / DATA Act Implementation
-- Department of Defense / Military OneSource Program
-- Transportation Security Administration / IT Modernization
 
 ## Learn more about the work we do
 

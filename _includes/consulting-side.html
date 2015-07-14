@@ -1,0 +1,18 @@
+<aside>
+	<h2 id="recent-projects">Recent projects</h2>
+	<ul>
+		<li>Department of Labor / Wage and Hour Division / IT Modernization</li>
+		<li>Social Security Administration / Disability Case Processing System</li>
+		<li><a href="https://pages.18f.gov/consulting/projects/navy-reserve/">Navy Reserve / Ready to Serve (R2S)</a></li>
+		<li>Treasury / DATA Act Implementation</li>
+		<li>Department of Defense / Military OneSource Program</li>
+		<li>Transportation Security Administration / IT Modernization</li>
+	</ul>
+	<h2 id="recent-posts">Recent blog posts</h2>
+	<ul>
+		{% for post in site.tags["18f consulting"] limit:3 %}
+			<li><a href="{{post.url}}">{{post.title}}</a></li>
+		{% endfor %}
+	</ul>
+    <a href="/tags/consulting">More posts about 18F Consulting</a>
+</aside>
