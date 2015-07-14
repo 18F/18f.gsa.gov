@@ -19,4 +19,4 @@ A recovering management consultant, Jen has worked with several Fortune 500 comp
 
 Jen says she has one criteria when it comes to employment: to be engaged. 
 
-"When I heard more about 18F, I thought, "There's no way I'll be more engaged than helping the government digitize and streamline its services for Americans,"" she says. "And it's proved to be true - it's the most engaged I've ever been in a job."
+"When I heard more about 18F, I thought, 'There's no way I'll be more engaged than helping the government digitize and streamline its services for Americans,'" she says. "And it's proved to be true - it's the most engaged I've ever been in a job."

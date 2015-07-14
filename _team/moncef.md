@@ -11,7 +11,7 @@ twitter:
 team: Delivery
 ---
 
-Moncef is a developer who loves automating tasks, helping people learn to code, and improving test coverage and QA. He is passionate about solving problems and giving back to the community, and is currently working on projects related to immigration. 
+Moncef is a developer who loves automating tasks, helping people learn to code, and improving test coverage and QA. He's passionate about solving problems and giving back to the community and is currently working on projects related to immigration. 
 
 "I help government agencies provide modern-looking and secure websites that are easy to use and address people's needs efficiently," he says.
 
