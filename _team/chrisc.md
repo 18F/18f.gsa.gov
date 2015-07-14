@@ -3,7 +3,7 @@ name: chrisc
 first_name: Chris
 last_name: Cairns
 full_name: Chris Cairns
-role: Chief
+role: Director
 city: Washington
 state: D.C.
 github:

@@ -3,12 +3,12 @@ name: will
 first_name: Will
 last_name: Slack
 full_name: Will Slack
-role: Business Strategy Director
+role: Business Strategy Lead
 city: Washington
 state: D.C.
 github:
 twitter:
-team: Operations
+team: Strategy
 ---
 
 Will is building the infrastructure for project intake at 18F. 
