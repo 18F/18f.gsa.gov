@@ -44,8 +44,7 @@ so you can dig into his code interactively.
 Keep in mind that the API is still [in
 beta](https://18f.gsa.gov/dashboard/stages/#beta) and not battle
 tested, so continue to use the data at the
-[original](http://www.fec.gov/pindex.shtml)[ *FEC
-site*](http://www.fec.gov/pindex.shtml) for trusted figures. Please file
+[original FEC site](http://www.fec.gov/pindex.shtml) for trusted figures. Please file
 [bug reports](https://github.com/18F/openFEC/issues) if you find
 something that’s incorrect.
 
@@ -89,7 +88,7 @@ great shortcuts for people interested in doing data visualization.
 **Would you like to visualize money flowing between different FEC
 filters?**
 
-See the breakdown of contributions that came from other committees using this endpoint: [`/schedules/schedule_a/by_contributor`](api.open.fec.gov//developers#!/schedules/get_schedules_schedule_a_by_contributor)
+See the breakdown of contributions that came from other committees using this endpoint: [`/schedules/schedule_a/by_contributor`](https://api.open.fec.gov//developers#!/schedules/get_schedules_schedule_a_by_contributor)
 
 Also, keep in mind that the data reflects the paperwork coming into the
 FEC, so if key information like the FEC ID of a committee contribution
@@ -99,7 +98,7 @@ that committee.
 **Would you like to compare how much money is coming from differently
 sized contributions?**
 
-The [`/schedules/schedule_a/by_size`](api.open.fec.gov/developers#!/schedules/get_schedules_schedule_a_by_size) endpoint aggregates Schedule A donations based on size:
+The [`/schedules/schedule_a/by_size`](https://api.open.fec.gov/developers#!/schedules/get_schedules_schedule_a_by_size) endpoint aggregates Schedule A donations based on size:
 
 -   $200 and under
 -   $200.01 - $499
@@ -117,7 +116,7 @@ not reported on Schedule A and have given $200 or less.
 **Perhaps you want to find where a campaign’s contributions are coming
 from by state?**
 
-Pick a committee ID and the [`/schedules/schedule_a/by_state`](api.open.fec.gov/developers#!/schedules/get_commttee_committee_id_schedules_schedule_a_by_state) endpoint will give you the totals reported
+Pick a committee ID and the [`/schedules/schedule_a/by_state`](https://api.open.fec.gov/developers#!/schedules/get_commttee_committee_id_schedules_schedule_a_by_state) endpoint will give you the totals reported
 by state for that committee.
 
 ## Use Schedule B to see where campaigns spend money
@@ -125,8 +124,7 @@ by state for that committee.
 Our FEC data sherpas (in other words, the people who have been climbing
 this mountain all along and don’t get enough credit) Paul Clark and Jeff
 Chumley, [released itemized
-disbursement](http://www.fec.gov/finance/disclosure/ftpdet.shtml)[
-](http://www.fec.gov/finance/disclosure/ftpdet.shtml)[data](http://www.fec.gov/finance/disclosure/ftpdet.shtml)
+disbursement data](http://www.fec.gov/finance/disclosure/ftpdet.shtml)
 last February, which allows you to view where all this campaign money is
 going. Now, this information is also available via the API.
 
@@ -134,7 +132,7 @@ This provides yet another opportunity for data visualization.
 
 Schedule B provides the details of where campaigns spend money. You can
 filter by many values, including amount and name of the entity receiving
-the money, by using the [`/sechedule/schedule_b`](api.open.fec.gov/developers#!/schedules/get_schedules_schedule_b) endpoint.
+the money, by using the [`/sechedule/schedule_b`](https://api.open.fec.gov/developers#!/schedules/get_schedules_schedule_b) endpoint.
 
 
 ## Pagination and count
@@ -146,9 +144,7 @@ million Schedule A records. We can return your subset of records in a
 timely manner, but it would take several minutes to get the exact count,
 since the database counts them one at a time. Instead, Josh Carp
 discovered a [wonderful hack that uses postgres’ EXPLAIN
-function](https://wiki.postgresql.org/wiki/Count_estimate) to get an[
-approximate count
-quickly](https://github.com/18F/openFEC/blob/develop/webservices/common/counts.py).
+function](https://wiki.postgresql.org/wiki/Count_estimate) to get an [approximate count quickly](https://github.com/18F/openFEC/blob/develop/webservices/common/counts.py).
 We use approximate counts for large result sets and revert to exact
 counts for smaller queries.
 
@@ -169,19 +165,19 @@ pagination information:
 ```
 pagination: {
 
-pages: 2152643,
+    pages: 2152643,
 
-per_page: 20,
+    per_page: 20,
 
-count: 43052850,
+    count: 43052850,
 
-last_indexes: {
+    last_indexes: {
 
-last_index: 230880619,
+        last_index: 230880619,
 
-last_contributor_receipt_date: "2014-01-01"
+        last_contributor_receipt_date: "2014-01-01"
 
-}
+    }
 
 }
 ```
