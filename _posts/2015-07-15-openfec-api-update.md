@@ -165,19 +165,19 @@ pagination information:
 ```
 pagination: {
 
-pages: 2152643,
+    pages: 2152643,
 
-per_page: 20,
+    per_page: 20,
 
-count: 43052850,
+    count: 43052850,
 
-last_indexes: {
+    last_indexes: {
 
-last_index: 230880619,
+        last_index: 230880619,
 
-last_contributor_receipt_date: "2014-01-01"
+        last_contributor_receipt_date: "2014-01-01"
 
-}
+    }
 
 }
 ```
