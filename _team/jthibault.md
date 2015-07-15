@@ -11,4 +11,4 @@ twitter: jlthibault
 team: Design
 ---
 
-Jennifer Thibault is a brand strategist, designer, and creative services manager. She balances form with function, but always leads with curiosity and heart.
+Jennifer Thibault is a brand strategist, designer, and creative services manager. She balances form with function, but always leads with curiosity and heart.  
