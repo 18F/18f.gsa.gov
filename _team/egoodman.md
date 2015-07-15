@@ -3,7 +3,7 @@ name: egoodman
 first_name: Elizabeth
 last_name: Goodman
 full_name: Liz Goodman
-role: design researcher
+role: Design Researcher
 location: San Francisco, California
 github: esgoodman
 twitter: egoodman
