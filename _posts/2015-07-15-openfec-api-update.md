@@ -68,7 +68,7 @@ campaigns.
 
 ## Find who’s giving to campaigns using Schedule A data
 
-Our release of an endpoint for Schedule A ([`/schedules/schedule_a`](https://api.open.fec.gov/developers#!/schedules/get_schedules_schedule_a)) enables one of the most
+Our release of an endpoint for Schedule A [`/schedules/schedule_a`](https://api.open.fec.gov/developers#!/schedules/get_schedules_schedule_a) enables one of the most
 requested features — looking for contributions by contributor name.
 
 Schedule A contains interesting details that describe itemized money
@@ -165,19 +165,19 @@ pagination information:
 ```
 pagination: {
 
-pages: 2152643,
+    pages: 2152643,
 
-per_page: 20,
+    per_page: 20,
 
-count: 43052850,
+    count: 43052850,
 
-last_indexes: {
+    last_indexes: {
 
-last_index: 230880619,
+        last_index: 230880619,
 
-last_contributor_receipt_date: "2014-01-01"
+        last_contributor_receipt_date: "2014-01-01"
 
-}
+    }
 
 }
 ```
