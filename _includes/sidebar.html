@@ -17,8 +17,8 @@ Add sidebars filtered by layout below
 {% endif %}
 
 {% if page.layout == "press" %}
-<aside>
-	<h3>We get asked...</h3>
+<aside id="toc">
+	<h2>We get asked...</h2>
 		<ul>
 		{% for item in site.press %}
 		{% unless item.title == '18F Press' %}

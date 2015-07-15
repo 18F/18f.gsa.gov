@@ -61,6 +61,15 @@ $tiniest: new-breakpoint(max-width 390px);
 		font-size: 1.2em;
 	}
 }
+// skip links
+.skips {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
 
 // Splash
 //********************************************************
@@ -116,6 +125,21 @@ $tiniest: new-breakpoint(max-width 390px);
   	}
 
   }
+	.back {
+		margin-bottom:1.5em;
+	  display: inline-block;
+	  position: relative;
+		a,
+		i {
+			text-decoration: none;
+			color: $dark-gray !important;
+			&:hover, &:focus {
+				text-decoration: underline;
+				color: $red;
+			}
+			font-size: 0.8em !important;
+		}
+	}
 .logo {
 	height: 150px;
 	width: 150px;
@@ -406,22 +430,6 @@ $tiniest: new-breakpoint(max-width 390px);
 //********************************************************
 .subscribe {
 	margin-top: 10px;
-}
-
-.back {
-	font-size: 0.8em;
-	margin-bottom:47px;
-  display: inline-block;
-  position: relative;
-  top: 125px;
-	a {
-		text-decoration: none;
-		color: $dark-gray;
-		&:hover, &:focus {
-			text-decoration: underline;
-			color: $red;
-		}
-	}
 }
 
 .blog-entry, .service-entry {
@@ -958,7 +966,6 @@ $tiniest: new-breakpoint(max-width 390px);
 	@include span-columns(4);
 	h2 {
 		font-size: $base-font-size * 1.25;
-		font-weight: 300;
 		padding-top: 0.2em;
 		padding-bottom: 10px;
 	}
@@ -996,7 +1003,7 @@ $tiniest: new-breakpoint(max-width 390px);
 	overflow: visible;
 	padding: 1em 0em 0 11.7em;
 	@include media($medium) {
-		min-height: auto !important;
+		min-height: 6em !important;
 		max-height: auto !important;
 		height: auto;
 		margin-top: 15px;
@@ -1382,13 +1389,4 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 	}
 }
-
-// Press Page
-//********************************************************
-
-.question {
-			color: $base-link-color;
-			font-size: 2.25em;
-		}
-
 /* vim:noet ts=4 sw=4 */

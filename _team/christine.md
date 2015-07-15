@@ -1,12 +1,12 @@
 ---
-name: chrstinecheun
+name: christine
 first_name: Christine
 last_name: Cheung
 full_name: Christine Cheung
-role: 
-city: 
-state:
+role: Front End Developer
+city: Los Angeles
+state: CA
 github:
 twitter:
-team: 
+team: Delivery
 ---
