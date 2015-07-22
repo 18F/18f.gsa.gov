@@ -1,5 +1,5 @@
 ---
-title: What has 18F accomplished?
+title: What 18F has accomplished
 permalink: /press/18F-accomplishments
 layout: bare
 ---
