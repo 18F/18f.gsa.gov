@@ -1,5 +1,5 @@
 ---
-title: "The Agile Delivery BPA is (almost) here!"
+title: "The Agile Delivery BPA is here!"
 date: 2015-06-15 12:30:00
 layout: post
 authors:
@@ -17,7 +17,7 @@ description: " The Request for Quotation (RFQ) for the Agile Delivery Services B
 image: /assets/blog/were-hiring/team.jpg
 ---
 
-*Update: [The RFQ is live!](https://pages.18f.gov/ads-bpa/assets/ADS_RFQ_Final.pdf)*
+*Update: [The RFQ is live!](https://github.com/18F/ads-bpa/blob/18f-pages/assets/ADS%20RFQ%20Revised%20Modification%205.pdf)*
 
 It’s game time. The Request for Quotation (RFQ) for the [Agile Delivery
 Services Blanket Purchase Agreement (Agile Delivery
