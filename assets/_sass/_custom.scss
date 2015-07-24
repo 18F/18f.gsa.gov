@@ -69,6 +69,13 @@ $tiniest: new-breakpoint(max-width 390px);
 	width:1px;
 	height:1px;
 	overflow:hidden;
+	&:focus {
+		border: 1px $blue;
+		left: 0;
+		height: auto;
+		width: auto;
+		background: white;
+	}
 }
 
 // Splash
@@ -305,7 +312,7 @@ $tiniest: new-breakpoint(max-width 390px);
 				color: $dark-gray;
 				text-decoration: none;
 				padding: 1em 2em;
-				&:hover {
+				&:hover, &:focus {
 					background-color: $medium-blue;
 					color: white;
 				}
