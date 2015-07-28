@@ -13,6 +13,7 @@ tags:
 
 
 description: The October Oopen source hack night was a huge success, both as a community event and for the positive impact on the Midas project.
+excerpt: The October Oopen source hack night was a huge success, both as a community event and for the positive impact on the Midas project.
 layout: post
 
 image: /assets/2014/12/midas_hack_night.png
