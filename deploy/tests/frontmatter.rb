@@ -32,10 +32,10 @@ def check_keys(data, keys, title)
 		puts "The file #{title} is missing all frontmatter."
 		return false
 	end
-	if data.keys.sort == keys.sort
+	diff = keys - data.keys
+	if diff == []
 		return true
 	else
-		diff = keys - data.keys
 		puts "The file #{title} is missing the following keys:"
 		for k in diff
 			puts "    * #{k}\n"
