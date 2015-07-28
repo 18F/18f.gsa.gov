@@ -14,10 +14,6 @@ description: "For this month's installment of our Day in the Life series, Talent
 excerpt: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
 ---
 
-<p class="authors">
-  by {% author jamie %}
-</p>
-
 A little more than a year ago, I came to 18F as a Returned Peace Corps Volunteer (RPCV El Salvador 2011-2013) and joined the team as one of the first Operations Specialists. At the time, 18F was still in its infancy; actually, we weren’t even 18F yet. Besides lacking a formal name, we were also light on staff — in terms of numbers, that is. At that time, we had just ten big-hearted problem solvers who believed they could transform government. Though they were small in number, their spirit was invigorating and I knew I had to join them.
 
 <img alt="Jamie Albrecht" src="/assets/blog/talent-manager/Jamie.jpg" class="align-left" />

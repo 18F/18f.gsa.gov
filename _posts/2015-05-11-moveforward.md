@@ -12,10 +12,6 @@ description: "Members of the growing federal digital family presented their work
 image: /assets/blog/moveforward/roth-selfie.jpg
 ---
 
-<p class="authors">
-  by {% author jhunter %}
-</p>
-
 `moveForward(100);` these 17 characters were the [first line of code
 written by a sitting
 president](http://www.wired.com/2014/12/obama-becomes-first-president-write-computer-program/).
@@ -128,4 +124,3 @@ building a better government, and it’s building a better country.”
 
 “You’re restoring the core infrastructure of our civilization,” Park
 said. “As an American, I love you and salute you.”
-

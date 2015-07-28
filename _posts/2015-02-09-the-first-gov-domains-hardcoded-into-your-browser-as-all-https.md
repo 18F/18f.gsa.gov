@@ -19,10 +19,6 @@ excerpt: "Every .gov website, no matter how small, should give its visitors a se
 
 ---
 
-<p class="authors">
-  by {% author eric %}
-</p>
-
 <img src="/assets/blog/hsts/hsts-preload-list.png" alt="A snapshot of .gov websites preloaded as HTTPS-only" style="border: 1px solid #d5d5d5; padding: 10px 0" />
 
 Every `.gov` website, no matter how small, should give its visitors a secure,

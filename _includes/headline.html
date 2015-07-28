@@ -15,4 +15,9 @@
 			{% if page.team or location %}<h2>{% if page.team %}{{ page.team }}{% endif %}{% if location %}{% if page.team and location.size > 0 %} // {% endif %}{{ location }}{% endif %}</h2>{% endif %}
 			{{ page.name | team_photo }}
 		{% endif %}
+
+		{% if page.layout == "press" %}
+		<h1>Press</h1>
+		<h2>Working on a story about 18F?</h2>
+		{% endif %}
 	</header>

@@ -17,10 +17,6 @@ excerpt: "UX designer Nick Brethauer talks about how user research better inform
 description: "UX designer Nick Brethauer talks about how user research better informs the products 18F builds."
 ---
 
-<p class="authors">
-  by {% author boone %} and {% author elaine %} and {% author melody %}
-</p>
-
 
 UX designer Nick Brethauer has spent the past few months working on
 [*Discovery*](https://discovery.gsa.gov/), a website that makes the procurement process a lot easier for GSA’s

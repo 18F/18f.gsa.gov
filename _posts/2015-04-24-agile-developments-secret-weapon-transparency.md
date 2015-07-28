@@ -12,11 +12,6 @@ excerpt: "18F Consulting recommends Agile development for several reasons, inclu
 description: "18F Consulting recommends Agile development for several reasons, including Agile’s emphasis on user needs, continuous integration, and rapid adaptation to changed circumstances. But there is another important reason we recommend Agile: its focus on transparency."
 image: /assets/blog/how-to-github/image.jpg
 ---
-
-<p class="authors">
-  by {% author vdavez %} and {% author chrisc %}
-</p>
-
 [18F Consulting](https://18f.gsa.gov/consulting) recommends Agile
 development for several reasons, including Agile’s emphasis on user
 needs, continuous integration, and rapid adaptation to changed
@@ -78,6 +73,6 @@ visible way, and focus on what counts: working software.
 
 If you’re interested in learning more about how Agile can provide
 greater transparency in your new or existing projects, [email us at 18F
-Consulting](mailto:18fc@gsa.gov). We’d also love to hear your
+Consulting](mailto:Inquiries18F@gsa.gov). We’d also love to hear your
 perspectives and learn from your experiences; if you have used Agile in
 government to help promote transparency, drop us a line.

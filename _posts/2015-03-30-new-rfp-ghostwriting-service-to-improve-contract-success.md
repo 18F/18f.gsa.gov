@@ -1,5 +1,5 @@
 ---
-title: New RFP Ghostwriting Service To Improve Contract Success
+title: New RFP Ghostwriting service to improve contract success
 date: '2015-03-30'
 layout: post
 image: "/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif"
@@ -9,18 +9,13 @@ tags:
 - services
 - agile
 - procurement
-
 authors:
-- robert
 - chrisc
-description: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F
-excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F
+- robert
+description: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
+excerpt: A poorly written RFP will expose you to such risks as overbidding to compensate for uncertainty, vendor lock-in, and catastrophic failure due to miscommunication and misunderstanding. You don’t want that. The taxpaying public doesn’t want that. And neither does 18F.
 ---
-<p class="authors" >
-    by {% author chrisc %} and {% author robert %}, illustrations by {% author raphy %}
-</p>
-
-Often, the seeds of success — or failure — of Federal IT projects are
+Often, the seeds of success — or failure — of federal IT projects are
 planted in the Request for Proposals (RFPs) themselves. A well-written
 RFP, with clearly defined business objectives and technical direction,
 will increase the chances of a successful project. A poorly written RFP,
@@ -32,7 +27,7 @@ modifications, and cost and schedule overruns. You don’t want that. The
 taxpaying public doesn’t want that. And neither does 18F.
 
 That’s why [18F Consulting](https://18f.gsa.gov/consulting/) is now
-offering **RFP Ghostwriting and Review** as a service to Federal
+offering **RFP Ghostwriting and Review** as a service to federal
 agencies.
 
 Through this new service, 18F is leveraging the experience of more than

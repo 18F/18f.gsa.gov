@@ -13,11 +13,6 @@ excerpt: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about
 description: "Max Ogden and Mathias Buus Madsen are visiting 18F today to talk about dat, an open source project for versioning and sharing datasets. This new piece of software is part of their effort to build “automated, reproducible data pipelines that sync."
 image: /assets/blog/max-ogden-talk/streams.JPG
 ---
-
-<p class="authors">
-  by {% author eric %}
-</p>
-
 [![Image of a stream.](/assets/blog/max-ogden-talk/streams.JPG)](https://commons.wikimedia.org/wiki/File:Small_streams.JPG)
 
 Everything I ever learned about [streams](http://ejohn.org/blog/node-js-stream-playground/), I learned from software developer [Max Ogden](https://twitter.com/maxogden). Max, who lives in Oregon, develops client applications, developer tools, and APIs, and works as a developer at a market research company.
