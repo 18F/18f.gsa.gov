@@ -104,6 +104,3 @@ DEPENDENCIES
   redcarpet (= 3.2.3)
   rouge
   safe_yaml
-
-BUNDLED WITH
-   1.10.3
