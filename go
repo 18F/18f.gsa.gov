@@ -111,12 +111,17 @@ end
 
 def cf_deploy
   build
+  test
   exec_cmd('sh deploy/cf-deploy.sh')
 end
 
 def test
   exec_cmd('sh deploy/tests/test.sh')
   exec_cmd('ruby deploy/tests/frontmatter.rb')
+end
+
+def pre_deploy
+  ci_build
 end
 
 COMMANDS = {
@@ -129,7 +134,8 @@ COMMANDS = {
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
   :cf_deploy => 'Deploys to cloudfoundry',
   :production_build => 'Deploys to production using a second config file',
-  :test => 'Tests the fontmatter and site build.'
+  :test => 'Tests the fontmatter and site build.',
+  :pre_deploy => 'Builds the site and runs associated tests'
 }
 
 def usage(exitstatus: 0)
