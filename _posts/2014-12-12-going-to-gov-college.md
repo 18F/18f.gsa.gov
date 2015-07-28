@@ -8,6 +8,7 @@ authors:
 image: /assets/blog/gov-college/open-source-cfpb.png
 
 description: Last week, a number of teammates coordinated to put on three DigitalGov University courses that covered a range of topics, from culture change and open source to the latest in API trends.
+excerpt: Last week, a number of teammates coordinated to put on three DigitalGov University courses that covered a range of topics, from culture change and open source to the latest in API trends.
 
 tags:
 - training

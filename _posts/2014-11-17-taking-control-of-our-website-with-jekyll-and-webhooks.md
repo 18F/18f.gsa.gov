@@ -3,6 +3,7 @@ layout: post
 title: "Taking control of our website with Jekyll and webhooks"
 image: /assets/blog/new-jekyll-site/header.png
 description: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
+excerpt: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
 authors:
  - eric
  - mhz
