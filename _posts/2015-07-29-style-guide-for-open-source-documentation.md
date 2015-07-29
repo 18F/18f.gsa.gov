@@ -11,12 +11,12 @@ tags:
 - documentation
 excerpt: "The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally."
 description: "The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally."
-image: /assets/blog/open-source-guide/screenshot-of-guide.jpg
+image: /assets/blog/open-source-guide/screenshot-of-guide.png
 ---
 
 We routinely publish our best practices in the [18F Guides](https://pages.18f.gov/guides/), and today we’re happy to launch a new one: the [18F Open Source Style Guide](https://pages.18f.gov/open-source-guide/).
 
-![Screenshot of Open Source Guide](/assets/blog/open-source-guide/screenshot-of-guide.jpg)
+![Screenshot of Open Source Guide](/assets/blog/open-source-guide/screenshot-of-guide.png)
 
 The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally.
 
