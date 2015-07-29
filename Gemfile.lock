@@ -101,6 +101,9 @@ DEPENDENCIES
   jekyll_pages_api
   jemoji
   pry
-  redcarpet
+  redcarpet (= 3.2.3)
   rouge
   safe_yaml
+
+BUNDLED WITH
+   1.10.3
