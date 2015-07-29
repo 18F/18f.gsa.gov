@@ -1,5 +1,5 @@
 ---
-title: "18F’s Style guide for open source project documentation"
+title: "18F’s style guide for open source project documentation"
 date: 2015-07-29
 layout: post
 authors:
