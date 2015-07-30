@@ -7,15 +7,11 @@ tags:
 - how we work
 - accessibility
 
-author:
+authors:
 - kate
 excerpt: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."
 description: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."
 ---
-
-<p class="authors">
-  by {% author kate %}
-</p>
 
 Last week, we published [this post](https://18f.gsa.gov/2015/03/24/making-twitter-images-more-accessible/) about the accessibility of images on Twitter. For those of you who haven’t read it, the general gist is as follows: Twitter doesn’t allow alt-tags for images, which makes it difficult for some Twitter users — those with visual impairments and those with slow internet connections — to experience the images as intended.
 

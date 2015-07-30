@@ -6,16 +6,15 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 {% include flag.html %}
-{% include nav.html %}
 <section class="container bare">
-  {% jekyll_pages_api_search_interface %}
-  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <a href="/">
-      <i class="icon-18f-logo"><p style="display:none;">18F</p></i>
-    </a>
-  </div>
 
-  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+  {% jekyll_pages_api_search_interface %}
+
+	{% include nav.html %}
+
+  {% include logo.html %}
+
+  <div id="main" class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}
   </div>
 

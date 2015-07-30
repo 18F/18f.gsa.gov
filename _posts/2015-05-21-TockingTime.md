@@ -2,7 +2,7 @@
 title: "Tocking time"
 date: 2015-05-21
 layout: post
-author:
+authors:
 - sean
 tags:
 - 18f
@@ -11,11 +11,6 @@ excerpt: "I recently spent time helping with one of our internal frustrations �
 description: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. We opted roll out our own simple solution using Django, called Tock."
 image: /assets/blog/tockingtime/tock03.jpg
 ---
-
-<p class="authors">
-  by {% author sean %}
-</p>
-
 One of the most important questions we ask ourselves when starting a
 project is if we should “build” or “buy.” Do we develop a custom piece
 of software that meets our needs exactly or use an existing solution

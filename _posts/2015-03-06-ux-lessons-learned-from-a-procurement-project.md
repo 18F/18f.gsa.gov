@@ -9,17 +9,13 @@ tags:
 - user research
 - interview
 
-author:
+authors:
 - boone
 - elaine
 - melody
 excerpt: "UX designer Nick Brethauer talks about how user research better informs the products 18F builds."
 description: "UX designer Nick Brethauer talks about how user research better informs the products 18F builds."
 ---
-
-<p class="authors">
-  by {% author boone %} and {% author elaine %} and {% author melody %}
-</p>
 
 
 UX designer Nick Brethauer has spent the past few months working on

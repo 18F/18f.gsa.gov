@@ -2,7 +2,7 @@
 title: "Dan Brown: The art of conflict in design process"
 date: 2015-05-27
 layout: post
-author:
+authors:
 - emileigh
 tags:
 - events
@@ -12,11 +12,6 @@ excerpt: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop f
 description: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop fighting, start designing,” centered around the design process and inherent conflict therein."
 image: /assets/blog/speaker-series/dan-brown.jpg
 ---
-
-<p class="authors">
-  by {% author emileigh %}
-</p>
-
 ![Dan Brown presents at 18F](/assets/blog/speaker-series/dan-brown.jpg)
 
 Designer Dan Brown was driving through downtown D.C. when he received a

@@ -2,7 +2,7 @@
 title: "Announcing the CALC tool: Making pricing research easier in federal procurement"
 date: 2015-05-12
 layout: post
-author:
+authors:
 - brethauer
 tags:
 - procurement
@@ -12,10 +12,6 @@ excerpt: "Today, 18F and the General Services Administration (GSA) launched a po
 description: "Today, 18F and the General Services Administration (GSA) launched a powerful new labor category and pricing research tool to help the federal contracting community make smarter, faster buying decisions."
 image: /assets/blog/calc-announcement/calc_homepage.jpg
 ---
-
-<p class="authors">
-  by {% author brethauer %}
-</p>
 
 Today, 18F and the General Services Administration (GSA) launched a [powerful new labor category and pricing research tool](https://calc.gsa.gov) to help the federal contracting
 community make smarter, faster buying decisions.

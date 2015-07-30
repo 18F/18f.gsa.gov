@@ -1,7 +1,7 @@
 ---
 title: "Making Procurement Easier: Some Questions For Developer Kaitlin Devine"
 layout: post
-image: /assets/blog/discovery-launch/discovery-dashboard.png 
+image: /assets/blog/discovery-launch/discovery-dashboard.png
 date: 2015-03-05
 tags:
 - procurement
@@ -9,18 +9,14 @@ tags:
 - kaitlin devine
 - user research
 - interview
-author:
-- Greg Boone
-- Elaine Kamlley
-- Melody Kramer
+authors:
+- boone
+- elaine
+- melody
 
 excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 ---
-
-<p class="authors">
-  by {% author boone %} and {% author elaine %} and {% author melody %}
-</p>
 
 
 We recently sat down with developer Kaitlin Devine and asked her a few
@@ -213,4 +209,3 @@ the time, it’s just based on what your mentor taught you when you came
 into government procurement. So I think if we can get more people to
 adopt it and we see increased usage over time, then that will be a
 really good metric.
-

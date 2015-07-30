@@ -1,7 +1,7 @@
 ---
 title: "Coming Soon: The Agile Delivery Services Solicitation"
 layout: post
-author:
+authors:
 - chrisc
 - noah
 - vdavez
@@ -12,10 +12,6 @@ tags:
 excerpt: "Calling all Agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
 description: "Calling all Agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
 ---
-
-<p class="authors">
-  by {% author chrisc %}, {% author noah %}, and {% author vdavez %}
-</p>
 
 Calling all Agile vendors...get ready!
 

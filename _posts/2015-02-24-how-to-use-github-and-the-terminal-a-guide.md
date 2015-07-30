@@ -2,7 +2,7 @@
 title: "How To Use GitHub and the Terminal: A Guide"
 layout: post
 date: 2015-03-03
-author:
+authors:
 - melody
 - boone
 tags:
@@ -16,10 +16,6 @@ excerpt: "At 18F we hire people from many different backgrounds and each new emp
 description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
 image: /assets/blog/github-tutorial/image21.png
 ---
-
-<p class="authors">
-  by {% author melody %} and {% author boone %}
-</p>
 
 We’ve written before how everything we do is open [from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that is by building all of our products&mdash;from [our blog](https://github.com/18F/18f.gsa.gov/) and [our dashboard](https://github.com/18F/dashboard) to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative&mdash;using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
 
@@ -38,7 +34,7 @@ Every step will be illustrated with a helpful screenshot or animated GIF that sh
 8. [Add Front Matter](#adding-front-matter)
 9. [Learn How to Make a Pull Request](#learn-how-to-make-a-pull-request)
 
-> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), [Google Code](https://code.google.com/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
+> **It is worth noting:** There are many different ways to do each of these steps. For example, there are apps for using Git like [GitHub for Mac](https://mac.github.com/) and [Windows,](https://windows.github.com/) or [Tower](http://www.git-tower.com/); dozens of different text editors; and competitors to GitHub like [Bitbucket](https://bitbucket.org/), or [SourceForge](http://sourceforge.net/). You might explore those on your own. This post is a tutorial meant to prepare people to work with 18F's Website team.
 
 If you have an alternative way of doing any of these steps — or have ways to make this more efficient — please let us know by posting an issue [here](https://github.com/18f/18f.gsa.gov/issues/new). (You don't have to know how to code to post an issue, but you do need a GitHub account.)
 

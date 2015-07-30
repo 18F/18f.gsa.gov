@@ -7,15 +7,11 @@ tags:
 - how we work
 - design
 
-author:
+authors:
 - melody
 excerpt: "Recently, three members of our team sat down for a conversation about when teams should start coding on a project."
 description: "Recently, three members of our team sat down for a conversation about when teams should start coding on a project."
 ---
-
-<p class="authors">
-  by {% author melody %}
-</p>
 
 When starting a new project, should a team code first or discover first?
 That was the question recently posed to the 18F team by Robert Read, one

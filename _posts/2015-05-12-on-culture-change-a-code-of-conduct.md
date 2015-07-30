@@ -2,7 +2,7 @@
 title: "On culture change: A code of conduct"
 date: 2015-05-12
 layout: post
-author:
+authors:
 - sarah
 - jackie
 tags:
@@ -12,10 +12,6 @@ excerpt: "It has become a standard practice in the software industry to create a
 description: "It has become a standard practice in the software industry to create a “code of conduct” for conferences and events. By creating our own Code of Conduct, we are defining the kind of environment we seek to create."
 image: /assets/blog/code-of-conduct/codeofconduct_screen.jpg
 ---
-
-<p class="authors">
-  by {% author sarah %} and {% author jackie %}
-</p>
 
 We believe that in order to accomplish 18F’s mission of providing
 effective U.S. government services, we need to involve the people who

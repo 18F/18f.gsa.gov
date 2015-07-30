@@ -9,17 +9,13 @@ tags:
 - anniversary
 
 
-author:
+authors:
 - melody
 - kate
 - erica
 excerpt: "Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 description: "Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 ---
-
-<p class="authors">
-  by {% author melody %}, {% author kate %}, and {% author erica %}
-</p>
 
 Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
 

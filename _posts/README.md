@@ -18,7 +18,7 @@ If you have an idea but aren't ready to write it or don't have time to write it,
 
 ## 2. Write
 
-After you make an appointment the team will take care of all the process _stuff_ for you and let you focus on writing. We might contact you and ask some questions about your post and we're always available to help you write. 
+After you make an appointment the team will take care of all the process _stuff_ for you and let you focus on writing. We might contact you and ask some questions about your post and we're always available to help you write.
 
 We don't really care what format you write in during the drafting stage but _eventually we need a Google Document to send to GSA Comms for review_ (so it might make the most sense to start there).
 
@@ -26,7 +26,7 @@ We don't really care what format you write in during the drafting stage but _eve
 
 Once you start writing the Blog Team will send you a link to an issue in GitHub for your post. When you have a draft you're ready for feedback on, whether it is final approval or you want our take on your progress, drop a link in there and we'll be glad to help. When your final draft is ready to publish we'll send it to GSA Comms for review.
 
-Once your post is ready to publish, we'll convert the Google Doc into Markdown for you (or you can do it yourself if you'd like), and open a pull request to [18f.gsa.gov][5] to stage the post for publication. 
+Once your post is ready to publish, we'll convert the Google Doc into Markdown for you (or you can do it yourself if you'd like), and open a pull request to [18f.gsa.gov][5] to stage the post for publication.
 
 That's it! We may ask you a few questions or have some minor edits, but your job is done! You can stop reading here if you want.
 
@@ -88,17 +88,7 @@ tags:
 
 #### Add blog post body
 
-The **byline** is handled in the body of your post.
-
-**Byline.** The first paragraph in your post should be the byline. Place it in a `<p>` tag with a class of `"authors"`. Use the `{% author %}` tag with a teammate's handle (as it appears in [`_data/team.yml`](_data/team.yml)). **Author tags must use a valid handle**, or the site will fail to build.
-
-[Robert's encasement post](_posts/2014-09-08-the-encasement-strategy-on-legacy-systems-and-the.html) uses this byline:
-
-```html
-<p class="authors">
-  by {% author robert %} with illustrations by {% author mhz %}
-</p>
-```
+The **byline** is handled automatically.
 
 After this, you can add the body to the post.
 

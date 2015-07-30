@@ -34,7 +34,7 @@ permalink: /
       <strong>Delivery</strong> is the strategy.
     </h1>
     <p>
-      Built in the spirit of America's top tech startups, 18F is a team of top-notch designers, developers, and product specialists inside the <a href="http://gsa.gov">General Services Administration,</a> headquartered at 18 and F streets in Washington, D.C. 18F is a civic consultancy for the government, inside the government, enabling agencies to rapidly deploy tools and services that are easy to use, cost efficient, and reusable.
+      Built in the spirit of America's top tech startups, 18F is a team of top-notch designers, developers, and product specialists inside the <a href="http://gsa.gov">General Services Administration,</a> headquartered at 18 and F streets in Washington, D.C. 18F is a civic consultancy for the government, inside the government, enabling agencies to rapidly deploy tools and services that are easy to operate, cost efficient, and reusable.
     </p>
     <p>
       We are transforming government from the inside out, creating cultural change by working with teams inside agencies who want to <strong>create great services for the public.</strong>
@@ -78,6 +78,7 @@ permalink: /
         <p>
           Posted on <span class="blog-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_long_string }}</time></span>.
         </p>
+        {% include byline.html context="post" %}
         <p>
           Tagged /
           <span class="blog-tags" itemprop="keywords">
@@ -111,10 +112,10 @@ permalink: /
   </div>
   <div class="container contact-box">
     <div class="contact-form">
-      <form action="/listserv" method="post" id="contact-form">
-      <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you/" type="hidden" name="redirect" /><input name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-      <div class="form-group"><label class="sr-hide" for="realname">Your name</label><input type="text" placeholder="Your Name" id="realname" name="realname" /></div>
-      <div class="form-group"><label class="sr-hide" for="email">Your email address</label><input type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
+      <form action="https://gsa.us9.list-manage.com/subscribe/post?u=6f1977de9eff4c384dc8d6527&amp;id=cbc418738b" method="post" id="contact-form">
+      <div class="form-group"><label class="sr-hide" for="FULLNAME">Your name</label><input type="text" placeholder="Your Name" id="realname" name="FULLNAME" /></div>
+      <div class="form-group"><label class="sr-hide" for="EMAIL">Your email address</label><input type="text" placeholder="your@email-address.com" id="email" name="EMAIL" /></div>
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_6f1977de9eff4c384dc8d6527_cbc418738b" tabindex="-1" value=""></div>
       <input type="submit" class="button" value="Sign Up for More Information" />
       </form>
     </div>

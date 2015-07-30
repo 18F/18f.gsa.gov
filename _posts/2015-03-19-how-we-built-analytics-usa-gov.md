@@ -19,10 +19,6 @@ excerpt: "The U.S. federal government now has a public dashboard and dataset for
 description: "The U.S. federal government now has a public dashboard and dataset for its web traffic, at analytics.usa.gov."
 ---
 
-<p class="authors">
-  by {% author eric %}, {% author gramirez %}, {% author gray %}, {% author leah %}, and {% author shawn %}
-</p>
-
 The U.S. federal government now has a public dashboard and dataset for its web traffic, at [**analytics.usa.gov**](https://analytics.usa.gov).
 
 <a href="https://analytics.usa.gov" target="_blank"><img src="/assets/blog/dap/screen.png" title="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
