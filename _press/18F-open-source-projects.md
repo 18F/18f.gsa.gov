@@ -1,5 +1,5 @@
 ---
-title: How have 18F projects been adapted by other organizations?
+title: 18F projects adapted by other organizations
 permalink: /press/18F-open-source-code
 layout: bare
 ---
