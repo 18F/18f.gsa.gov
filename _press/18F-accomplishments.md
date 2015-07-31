@@ -4,18 +4,23 @@ permalink: /press/18F-accomplishments
 layout: bare
 ---
 
-
 * [Beta launched FBOpen](https://18f.gsa.gov/2014/03/31/announcing-fbopen-government-opportunities-made-easier/), an API and search tool which helps small businesses find opportunities to work with the U.S. government.
 
-* [Launched NotAlone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/) in partnership with the White House Office of Science and Technology Policy (OSTP) and the Office of the Vice President. NotAlone.gov helps students and school administrators find resources on responding to and preventing sexual assault.
+* [Launched NotAlone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/) in partnership with the White House Office of Science and Technology Policy and the Office of the Vice President. NotAlone.gov helps students and school administrators find resources on responding to and preventing sexual assault.
 
 * [Launched Communicart](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014), a simplified, email-based purchasing approval tool for purchase card holders authorized to buy office supplies for the government.
+
+* [Launched the first API](https://api.open.fec.gov/developers) for the Federal Election Commission, which gives the public much better access to tens of millions of federal campaign finance records.
+
+* [Launched CALC](http://calc.gsa.gov), the Contract Awarded Labor Category tool, to help the federal contracting community make smarter, faster buying decisions.
+
+* [Piloted an agile delivery services Blaket Purchase Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/) to explore a new way for the government to hire contractors that could reduce the cost and completion time of federal IT projects.  
 
 * Developed the strongest [open source policy](https://github.com/18F/open-source-policy) in the US government, setting a clear expectation to the outside and to our team that [we work in public](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/), and leading to a [GSA-wide “open source first” policy](http://gsablogs.gsa.gov/innovation/2014/08/01/our-guiding-principles/).
 
 * Piloted [Midas](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) at the Department of Health and Human Services and the State Department. The “crowdwork” platform is now powering GSA’s microtasking platform, [Open Opportunities](https://midas.18f.us/).
 
-* Alpha launched [Discovery](https://discovery.gsa.gov/), a market research tool for the OASIS procurement vehicle.
+* Alpha launched [Discovery](https://discovery.gsa.gov/), which makes it much easier for the government’s contracting officers to conduct market research and look for qualified vendors across a number of professional service categories.
 
 * Doubled the size of the [api.data.gov](https://api.data.gov/) program, with 13 APIs across seven agencies now using the shared service.
 
