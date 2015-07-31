@@ -1,5 +1,5 @@
 ---
-title: Basic information on 18F’s history?
+title: Basic information on 18F’s history
 permalink: /press/history-of-18F
 layout: bare
 ---
