@@ -11,7 +11,9 @@ group :jekyll_plugins do
   gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
+  gem 'jekyll_frontmatter_tests'
 end
+
 
 gem 'hash-joiner'
 gem 'safe_yaml'

@@ -117,7 +117,7 @@ end
 
 def test
   exec_cmd('sh deploy/tests/test.sh')
-  exec_cmd('ruby deploy/tests/frontmatter.rb')
+  exec_cmd('bundle exec jekyll test')
 end
 
 def pre_deploy
