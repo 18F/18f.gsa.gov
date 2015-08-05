@@ -9,7 +9,7 @@ layout: bare
 
 * [Launched NotAlone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/) in partnership with the White House Office of Science and Technology Policy (OSTP) and the Office of the Vice President. NotAlone.gov helps students and school administrators find resources on responding to and preventing sexual assault.
 
-* [Launched Communicart](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014), a simplified, email-based purchasing approval tool for purchase card holders authorized to buy office supplies for the government.
+* [Launched Communicart](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014), a simplified, email-based purchasing approval tool for purchase card holders authorized to buy office supplies for the government. Over 200 users have been trained and are now using the tool for purchasing approval.
 
 * Developed the strongest [open source policy](https://github.com/18F/open-source-policy) in the US government, setting a clear expectation to the outside and to our team that [we work in public](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/), and leading to a [GSA-wide “open source first” policy](http://gsablogs.gsa.gov/innovation/2014/08/01/our-guiding-principles/).
 
@@ -24,3 +24,11 @@ layout: bare
 * Worked with the Digital Analytics Program and the White House to build [analytics.usa.gov](https://analytics.usa.gov/), a public dashboard for the US government’s web traffic.
 
 * Developed a clear [HTTPS-only standard](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) for 18F’s work, [helped several agencies](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/) meet the same standard, and [supported the development of a government-wide HTTPS-only policy](https://18f.gsa.gov/2015/03/17/for-public-comment-the-https-only-standard/).
+
+* Released a [Request for Quotation](https://github.com/18F/ads-bpa/blob/18f-pages/assets/ADS%20RFQ%20Revised%20Modification%205.pdf) (RFQ) for the [Agile Delivery Services BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/).
+
+* Launched [Pulse](https://pulse.cio.gov/), a [monitoring tool for U.S. government websites](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/) to see if they are following best practices.
+
+* Launched a [Code of Conduct](https://github.com/18F/code-of-conduct) as well as guides for [accessibility](https://pages.18f.gov/accessibility/), [content](https://pages.18f.gov/content-guide/), and [how to construct an open source project](https://pages.18f.gov/open-source-guide/). 
+
+
