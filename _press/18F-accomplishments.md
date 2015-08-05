@@ -30,10 +30,6 @@ layout: bare
 
 * Developed a clear [HTTPS-only standard](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) for 18F’s work, [helped several agencies](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/) meet the same standard, and [supported the development of a government-wide HTTPS-only policy](https://18f.gsa.gov/2015/03/17/for-public-comment-the-https-only-standard/).
 
-* Released a [Request for Quotation](https://github.com/18F/ads-bpa/blob/18f-pages/assets/ADS%20RFQ%20Revised%20Modification%205.pdf) (RFQ) for the [Agile Delivery Services BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/).
+* Launched [Pulse](https://pulse.cio.gov/), a [monitoring tool for U.S. government websites](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/) to see if they're following best web practices.
 
-* Launched [Pulse](https://pulse.cio.gov/), a [monitoring tool for U.S. government websites](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/) to see if they are following best practices.
-
-* Launched a [Code of Conduct](https://github.com/18F/code-of-conduct) as well as guides for [accessibility](https://pages.18f.gov/accessibility/), [content](https://pages.18f.gov/content-guide/), and [how to construct an open source project](https://pages.18f.gov/open-source-guide/). 
-
-
+* Launched a [Code of Conduct](https://github.com/18F/code-of-conduct) as well as guides for [accessibility](https://pages.18f.gov/accessibility/), [content](https://pages.18f.gov/content-guide/), and [how to construct an open source project](https://pages.18f.gov/open-source-guide/).
