@@ -1,6 +1,6 @@
 ---
 title: "Communicart tool will streamline purchase card process"
-date: 2015-08-03
+date: 2015-08-06
 layout: post
 authors:
 - boone
@@ -22,9 +22,8 @@ that chair needs replacing.
 In the government, the system to replace something small like an office
 chair revolves around credit cards, called “purchase cards,” paid by the
 government and used by specially trained employees. In 2014, about
-265,000 federal employees held purchase cards and made [more than 20
-million transactions totaling more than $17 billion dollars][1] with
-them for anything [that costs less than $3,000][2]. Regulations require
+265,000 federal employees held purchase cards. They made [more than 20
+million transactions totaling more than $17 billion dollars][1] for items [that costs less than $3,000][2]. Regulations require
 that these “micro-purchases” be reviewed to ensure federal employees are
 properly spending taxpayer money.
 
