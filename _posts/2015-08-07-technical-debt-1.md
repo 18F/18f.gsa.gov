@@ -27,10 +27,10 @@ weaknesses, or aging third-party libraries). Technical debt costs
 organizations time as well as money. [Recent
 studies](http://www.castsoftware.com/research-labs/technical-debt-estimation),
 seeking to estimate the financial impact, suggest that an average
-technical debt of \$3.61 exists per line of software code, or an average
-of \$1.08 million per system. In 2010, [Gartner
+technical debt of $3.61 exists per line of software code, or an average
+of $1.08 million per system. In 2010, [Gartner
 estimated](http://www.gartner.com/newsroom/id/1439513) that the total
-amount of technical debt worldwide could reach \$1 trillion this year.
+amount of technical debt worldwide could reach $1 trillion this year.
 Given that the federal government builds and maintains a lot of
 software, it’s safe to assume that it carries a fair share of that debt.
 
