@@ -15,7 +15,6 @@ tags:
 - documentation
 - design
 - operational excellence
-- technical debt
 excerpt: "We’re thrilled to introduce the beta deck of 18F Design
 Methods, a collection of research and design
 practices that we use to better understand and serve the users of our
