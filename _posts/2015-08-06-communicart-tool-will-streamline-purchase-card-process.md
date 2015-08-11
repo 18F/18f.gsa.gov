@@ -52,8 +52,7 @@ spend more time performing their essential work and less time on the
 paperwork required to buy that new chair. An updated process will also
 help restore public confidence that government employees are only using
 cards for valid purchases. We’re excited to begin rolling it out to
-Public Buildings Service employees across the country, starting in the
-General Service Administration’s Great Lakes region.
+Public Buildings Service employees across the country.
 
 We [built Communicart in the open][4] and listened carefully to our
 users throughout the process. We’ve heard people say things like “this
@@ -85,6 +84,8 @@ We’ll be blogging more about Communicart, how we built it, and who is
 using it in the next few weeks. We have all the beta testers we can
 handle right now, but if you’re interested in getting involved in the
 future, [drop us a line][8].
+
+*Correction:* An earlier version of this post stated that Communicart's national rollout would begin in the General Services Administration's Great Lakes Region (Region 5). National Capital Region launched Communicart in early July.
 
 [1]: https://smartpay.gsa.gov/about-gsa-smartpay/program-statistics
 
