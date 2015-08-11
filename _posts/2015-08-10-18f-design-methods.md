@@ -98,7 +98,7 @@ receiving a set would change people’s behavior. To find this out, we ran
 18F’s first randomized, controlled experiment to measure how receiving a
 set of method cards affected people's knowledge and comfort with our
 design methods. Our research showed that 18F teammates who received
-cards were slightly more knowledge and comfortable with methods than a
+cards were slightly more knowledgeable and comfortable with methods than a
 control group whose members didn’t receive cards. (We’ll report more on
 this in a future blog post — stay tuned.)
 
