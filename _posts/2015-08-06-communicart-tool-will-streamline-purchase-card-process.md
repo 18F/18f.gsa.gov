@@ -85,7 +85,7 @@ using it in the next few weeks. We have all the beta testers we can
 handle right now, but if you’re interested in getting involved in the
 future, [drop us a line][8].
 
-*Correction:* An earlier version of this post stated that Communicart's national rollout would begin in the General Services Administration's Great Lakes Region (Region 5). National Capital Region launched Communicart in early July.
+*Correction:* An earlier version of this post stated that Communicart's national rollout would begin in the General Services Administration's Great Lakes Region (Region 5). The National Capital Region (Region 11) launched Communicart in early July.
 
 [1]: https://smartpay.gsa.gov/about-gsa-smartpay/program-statistics
 
