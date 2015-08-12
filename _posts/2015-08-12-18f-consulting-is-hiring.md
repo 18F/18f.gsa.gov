@@ -12,7 +12,7 @@ tags:
 - operational excellence
 excerpt: "As 18F grows, so does the 18F Consulting team. Given the significant demand for our services, we’re looking to our grow team in these specific areas: engagement manager, design and product strategist, technical architect, practical dev, data architect, and acquisition specialist."
 description: "As 18F grows, so does the 18F Consulting team. Given the significant demand for our services, we’re looking to our grow team in these specific areas: engagement manager, design and product strategist, technical architect, practical dev, data architect, and acquisition specialist."
-image: /assets/blog/were-hiring/team.jpg
+image: /assets/blog/bechdel/team.jpg
 ---
 
 As 18F grows, so does
