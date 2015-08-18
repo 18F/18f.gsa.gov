@@ -11,8 +11,12 @@ tags:
 - gsa
 - operational excellence
 - proactive federal partner
-excerpt: "As 18F grows, so does the 18F Consulting team. Given the significant demand for our services, we’re looking to our grow team in these specific areas: engagement manager, design and product strategist, technical architect, practical dev, data architect, and acquisition specialist."
-description: "As 18F grows, so does the 18F Consulting team. Given the significant demand for our services, we’re looking to our grow team in these specific areas: engagement manager, design and product strategist, technical architect, practical dev, data architect, and acquisition specialist."
+excerpt: "We’re
+immensely happy to hear that the president has issued an executive order
+ensuring the Presidential Innovation Fellows program has a permanent place in our government."
+description: "We’re
+immensely happy to hear that the president has issued an executive order
+ensuring the Presidential Innovation Fellows program has a permanent place in our government."
 image: /assets/blog/bechdel/team.jpg
 ---
 
