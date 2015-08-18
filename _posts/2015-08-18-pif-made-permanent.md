@@ -17,7 +17,7 @@ ensuring the Presidential Innovation Fellows program has a permanent place in ou
 description: "We’re
 immensely happy to hear that the president has issued an executive order
 ensuring the Presidential Innovation Fellows program has a permanent place in our government."
-image: /assets/blog/bechdel/team.jpg
+image: /assets/blog/pif/pif-group.jpg
 ---
 
 We’re immensely happy to hear that the president has issued an executive order
