@@ -17,16 +17,12 @@ ensuring the Presidential Innovation Fellows program has a permanent place in ou
 description: "We’re
 immensely happy to hear that the president has issued an executive order
 ensuring the Presidential Innovation Fellows program has a permanent place in our government."
-image: /assets/blog/bechdel/team.jpg
+image: /assets/blog/pif/pif-group.jpg
 ---
 
-Today the General Service Administration blogged about an important
-announcement about the Presidential Innovation Fellowship (PIF) program. The program began in 2012 as a pilot, and 18F was later founded by several former Presidential Innovation Fellows. We’re
-immensely happy to hear that the president has issued an executive order
-ensuring the PIF program has a permanent place in our government. See
-the [GSA’s
-post](http://gsablogs.gsa.gov/gsablog/2015/08/17/creating-a-culture-of-lasting-innovation-continuous-improvement/)
-below for more information.
+We’re immensely happy to hear that the president has issued an executive order
+ensuring the Presidential Innovation Fellows program has a permanent place in our government. The program began in 2012 as a pilot, and 18F was later founded by several former Presidential Innovation Fellows.
+See the [General Service Administration's blog post about the announcement](http://gsablogs.gsa.gov/gsablog/2015/08/17/creating-a-culture-of-lasting-innovation-continuous-improvement/) below for more information.
 
 >
 *By Denise Turner Roth, GSA Administrator and Garren Givens, Program
