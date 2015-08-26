@@ -3,8 +3,8 @@ title: "Making websites more like M&Ms"
 date: 2015-08-26
 layout: post
 authors:
-- kate
 - emileigh
+- kate
 tags:
 - events
 - design
@@ -14,7 +14,7 @@ excerpt: "Web standards and accessibility expert Aaron Gustafson recently came t
 description: "Web standards and accessibility expert Aaron Gustafson recently came to 18F to speak about progressive enhancement and to challenge designers to improve user experience across browsers and devices."
 image: /assets/blog/aaron-gustafson/mms-gustafson.jpg
 ---
-
+![Aaron Gustafson gives a presentation at 18F](/assets/blog/aaron-gustafson/gustafson.jpg)
 Web standards and accessibility expert Aaron Gustafson was working with
 a major drug store chain when he discovered they only tested their
 website on iPhones and iPads.
