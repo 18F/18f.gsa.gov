@@ -1,6 +1,6 @@
 ---
 title: "How 90 minutes with Lego bricks taught these executives agile"
-date: 2015-08-26
+date: 2015-08-31
 layout: post
 authors:
 - zaccohn
@@ -58,7 +58,9 @@ But when it comes down to it, much like The Matrix, one can’t be told
 what agile is. One must experience it for oneself. It was time for the
 red pill.
 
-![The red and blue pill from The Matrix](/assets/blog/lego-workshop/red-pill.gif)
+<div style="text-align:center">
+<img src="/assets/blog/lego-workshop/red-pill.gif" alt="The red and blue pill from The Matrix">
+</div>
 
 We split the group into two teams and told them that, in the next 90
 minutes, they would build a product — agile style. There would be three
@@ -104,10 +106,10 @@ I nodded. Inhaled.
 
 ---
 
-  **"That’s great, team. That looks really cool. The
+<p style="text-align:center;"><strong>"That’s great, team. That looks really cool. The
   thing is, I asked for a laptop stand. You guys built a desk. I already
   have a desk. If you had talked to the customer during the sprint, I
-  would have told you this isn’t what I wanted."**
+  would have told you this isn’t what I wanted."</strong></p>
 
 ---
 
