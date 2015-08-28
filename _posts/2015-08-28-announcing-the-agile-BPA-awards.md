@@ -3,7 +3,7 @@ title: "Announcing the Agile BPA awards: A conversation about the process"
 date: 2015-08-25
 layout: post
 authors:
-- davez
+- vdavez
 - kedelman
 - chrisc
 - melody
