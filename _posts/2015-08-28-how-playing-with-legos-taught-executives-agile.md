@@ -100,10 +100,16 @@ swivel-out laptop stand, a lamp, drawers, is on wheels so it can be
 moved around from place to place to support the new mobile office
 worker.”
 
-I nodded. Inhaled. “That’s great, team. That looks really cool. The
-thing is, I asked for a laptop stand. You guys built a desk. I already
-have a desk. If you had talked to the customer during the sprint, I
-would have told you this isn’t what I wanted.”
+I nodded. Inhaled.
+
+---
+
+  **"That’s great, team. That looks really cool. The
+  thing is, I asked for a laptop stand. You guys built a desk. I already
+  have a desk. If you had talked to the customer during the sprint, I
+  would have told you this isn’t what I wanted."**
+
+---
 
 And that’s when it hit them. The importance of agile. The importance of
 talking to users early and often and continuously. The importance of
@@ -115,6 +121,8 @@ SBA’s executives continued to iterate on their products and learn about
 the process. By the end of it, they walked out educated, excited, ready
 to both work with that agile vendor, and ready to start implementing
 agile methodologies in their own organizations.
+
+## Learn more
 
 If you or your team is interested in learning more about agile, email us
 at inquiries18F@gsa.gov and let’s talk. This particular workshop was
