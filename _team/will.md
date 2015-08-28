@@ -3,7 +3,7 @@ name: will
 first_name: Will
 last_name: Slack
 full_name: Will Slack
-role: Business Strategy Lead
+role: Business Strategy Deputy Director
 city: Washington
 state: D.C.
 github:
