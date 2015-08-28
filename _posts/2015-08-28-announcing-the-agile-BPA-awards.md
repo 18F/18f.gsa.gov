@@ -332,7 +332,7 @@ learned on both sides, but it’s safe to say we could not have done this
 without our contracting officer’s willingness to be open and receptive
 to our way of doing things.
 
-**Could you talk a little bit about how you make the** [procurements
+**Could you talk a little bit about how you make the [procurements
 themselves reflect agile development
 practices](https://pages.18f.gov/ads-bpa/buyers/)?**
 
