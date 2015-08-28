@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Agile BPA awards: A conversation about the process"
-date: 2015-08-25
+date: 2015-08-28
 layout: post
 authors:
 - vdavez
