@@ -57,6 +57,29 @@ Region will be issuing the task orders on the BPA. These awards could
 not have been issued without them. We want to thank them, and are
 looking forward to working with them again in the future.
 
+The vendors are:
+
+1. [Acumen Solutions Inc](https://github.com/AcumenSolutions/acumen-gsa-agile-prototype)
+2. [Applied Information Sciences Inc](https://github.com/AppliedIS/AgileBPA.git)
+3. [Booz Allen Hamilton Inc](https://github.com/booz-allen-agile-delivery/ads-final.git)
+4. [DSoft Technology Company](https://github.com/DSoftTechnology/ADS-FDA-Pool3.git)
+5. [Environmental Systems Research Institute Inc.](https://github.com/esridc/openfda.git)
+6. [Flexion Inc.](https://github.com/flexion/flexion-ads-18f-response.git)
+7. [NCI Information Systems Inc](https://github.com/nci-ats/agile-bpa.git)
+8. [PricewaterhouseCoopers Public Sector LLP](https://github.com/rxpectations/18f.git)
+9. [SemanticBits](https://github.com/semanticbits/label-priv.git)
+10. [TechFlow Inc](https://github.com/TFlowGit/tf-ads-bpa.git)
+11. [TeraLogics LLC](https://github.com/TeraLogics/TotalBriecall.git)
+12. [Three Wire Systems LLC](https://bitbucket.org/msneenTW/agilegsa.git)
+13. [True Tandem LLC](https://github.com/bmallred/truetandem-gsa.git)
+14. [Vencore Services and Solutions Inc](https://github.com/vencoreinc/18FAGILEPROTOTYPE.git)
+15. [Ventera Corporation](https://github.com/akulasainath/18frepo.git)
+16. [World Wide Technology](https://github.com/dwafler/gsa_2015.git)
+
+They represent large companies and small businesses, from all over the
+country. But the unifying theme amongst them is that they delivered
+amazing, working software in response to our RFQ.
+
 As the first set of awards (Pool Three) are now being issued, we asked
 three members of the 18F Consulting team to sit down together and share
 what they’ve learned throughout the process.
@@ -71,7 +94,6 @@ what they’ve learned throughout the process.
 
 A look into the BPA process
 ---------------------------
-
 **You’ve been working non-stop on the Agile BPA process for the past six
 months. This is the week the awards are coming out. What are you doing
 this week and how do you feel?**
@@ -142,49 +164,6 @@ structure the question-and-answer process. We also learned that we could
 have done a better job communicating what was going on during that
 process. We’re excited for the next round, and will improve on the
 experience.
-
-**Today, you’re announcing which vendors received the awards. What can
-you tell me about that?**
-
-The vendors are as follows:
-
-> 1\. Acumen Solutions Inc - (Other than Small Business)
->
-> 2\. Applied Information Sciences Inc (Small Business)
->
-> 3\. Booz Allen Hamilton Inc - (Other than Small Business)
->
-> 4\. DSoft Technology Company - (Small Business)
->
-> 5\. Environmental Systems Research Institute Inc. - (Other than Small
-> Business)
->
-> 6\. Flexion Inc. - (Small Business)
->
-> 7\. NCI Information Systems Inc - (Small Business)
->
-> 8\. PricewaterhouseCoopers Public Sector LLP - (Other than Small
-> Business)
->
-> 9\. SemanticBits - (Small Business)
->
-> 10\. TechFlow Inc - (Small Business)
->
-> 11\. TeraLogics LLC - (Small Business)
->
-> 12\. Three Wire Systems LLC - (Small Business)
->
-> 13\. True Tandem LLC - (Small Business)
->
-> 14\. Vencore Services and Solutions Inc - (Other than Small Business)
->
-> 15\. Ventera Corporation - (Small Business)
->
-> 16\. World Wide Technology (Other than Small Business)
-
-They represent large companies and small businesses, from all over the
-country. But the unifying theme amongst them is that they delivered
-amazing, working software in response to our RFQ.
 
 **What can you tell us about the review process itself? Was there
 anything special about how you approached the technical evaluations?**
