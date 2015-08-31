@@ -9,6 +9,8 @@ state: D.C.
 github:
 twitter:
 team: Strategy
+project:
+- 18F Intake
 ---
 
 Will is building the infrastructure for project intake at 18F. 
