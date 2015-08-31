@@ -5,10 +5,10 @@ first_name: Holly
 last_name: Allen
 city: San Francisco
 state: CA
-role: 
+role: Product Lead
 github: hollyallen
 twitter: 
-team: DevOps
+team: Delivery
 ---
 
 Holly is a product lead at 18F. In her words, "My goal is to help our partner agencies, engineers, and designers work together efficiently and effectively to deliver impactful services for the users."

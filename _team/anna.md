@@ -5,13 +5,13 @@ first_name: Anna
 last_name: Sebok
 city: Washington
 state: DC
-role: Project Manager
+role: Project Lead
 github: 
 twitter: 
 team: Delivery
 ---
 
-Anna is a internal project manager on 18F's Delivery team, where she reviews and creates processes to track 18F Delivery's projects. In her words, "This means I often offer solutions that offer creative and unique perspectives as solving problems."
+Anna is a internal project lead on 18F's Delivery team, where she reviews and creates processes to track 18F Delivery's projects. In her words, "This means I often offer solutions that offer creative and unique perspectives as solving problems."
 
 Before 18F, Anna spent the majority of her career at NPR, where she managed relationships and projects for NPR's Programming team. She also became a Certified ScrumMaster in July of 2014 and an official Project Manager for Programming and NPR Music shortly before leaving and joining 18F in August 2015. She started her career working in fundraising and development at NPR, and holds a BA in Communications with a focus on Media Studies from Allegheny College.
 

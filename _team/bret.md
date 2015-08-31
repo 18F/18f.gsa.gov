@@ -5,13 +5,13 @@ first_name: Bret
 last_name: Mogilefsky
 city: San Francisco
 state: CA
-role: 
+role: Product Lead
 github: 
 twitter: 
 team: DevOps
 ---
 
-Bret is a product manager at 18F. He is currently working on cloud.gov, a platform that will consolidate multiple government agencies' IT operations activities in a single system that will improve the resiliency and security of agency applications. "My ambition is for cloud.gov is for it to act as a "force-multiplier" for the entire set of people working to improve government services, leaving them happier and more effective!" says Bret.
+Bret is a product lead at 18F. He is currently working on cloud.gov, a platform that will consolidate multiple government agencies' IT operations activities in a single system that will improve the resiliency and security of agency applications. "My ambition is for cloud.gov is for it to act as a "force-multiplier" for the entire set of people working to improve government services, leaving them happier and more effective!" says Bret.
 
 Before 18F, Bret worked at PlayStation, where he managed the developer services group and helped pioneer the use of web-based support for pro game developers. He had previously spent time in PlayStation's R&D group, where he worked on non-photorealistic rendering techniques for the PlayStation 2. Earlier in his career, Bret worked at LucasArts, where he was the lead programmer and assistant designer of Grim Fandango, a beloved 1998 LucasArts adventure game. He has a degree in Computer Science and Applied Mathematics from the University of California at Berkeley.
 
