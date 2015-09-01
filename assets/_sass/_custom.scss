@@ -16,7 +16,7 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // Site-wide media queries
 //********************************************************
-.mantra, .blog-entry, .service-entry, .footer, .contact-box, {
+.mantra, .blog-entry, .service-entry, .footer, .newsletter-box, {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	@include media($bigger) {
@@ -1067,9 +1067,9 @@ $tiniest: new-breakpoint(max-width 390px);
 }
 
 
-// Contact
+// Newsletter
 //********************************************************
-.contact-form {
+.newsletter-form {
 	@include span-columns(4);
 	@extend %section-padding;
 	@include media($bigger) {
