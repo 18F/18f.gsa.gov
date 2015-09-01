@@ -47,7 +47,7 @@ module Jekyll
         list = "<#{@heading}>#{first_name}'s blog posts:</#{@heading}>"
         list << "<ul>"
         for a in authored
-          list << "<li><a href='#{site_url}/#{a.url}'>#{a.title}</a></li>"
+          list << "<li><a href='#{site_url}#{a.url}'>#{a.title}</a></li>"
         end
         list << "</ul>"
       end
