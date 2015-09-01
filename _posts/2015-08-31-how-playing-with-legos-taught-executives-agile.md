@@ -22,7 +22,7 @@ image: /assets/blog/lego-workshop/sba-execs-legos.jpg
 The Small Business Administration was ready to try something different.
 
 For years, the Small Business Administration (SBA), along with the rest
-of the federal government, have used the waterfall product development
+of the federal government, has used the waterfall product development
 methodology. You’re familiar with it: start by gathering requirements,
 then design the software, then code, then test, then finally release it
 to the world.
