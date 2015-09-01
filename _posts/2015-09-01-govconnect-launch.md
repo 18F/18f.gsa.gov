@@ -23,7 +23,7 @@ collaboration and teamwork.
 
 To develop federal talent that can work and learn across boundaries, we
 need new practices and technologies. GovConnect helps agencies test and
-scale these approaches so we can build a 21^st^-century system that will
+scale these approaches so we can build a 21st-century system that will
 better respond to demands and handle cross-agency program and policy
 challenges. It will do all this without the unnecessary limitation of
 organizational silos by implementing a new model of a mobile, agile,
