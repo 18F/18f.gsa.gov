@@ -28,7 +28,7 @@ We're happy to say that the `.gov` registry is now releasing the **entire set of
 
 <!-- more -->
 
-Some background: the `.gov` registry is a [centrally operated top-level domain](https://www.dotgov.gov) managed by the [Office of Government-wide Policy](http://www.gsa.gov/portal/content/104550) (OGP), which is part of the [General Services Administration](http://www.gsa.gov/) (GSA).  The associated [DotGov.gov](http://www.dotgov.gov) provides more background, as well as tools such as WHOIS lookup and DNSSEC analysis.
+Some background: the `.gov` registry is a [centrally operated top-level domain](https://www.dotgov.gov) managed by the [Office of Government-wide Policy](http://www.gsa.gov/portal/content/104550) (OGP), which is part of the [General Services Administration](http://www.gsa.gov/) (GSA). The associated [DotGov.gov](http://www.dotgov.gov) provides more background, as well as tools such as WHOIS lookup and DNSSEC analysis.
 
 You can download the complete `.gov` domain list in CSV form here:
 
