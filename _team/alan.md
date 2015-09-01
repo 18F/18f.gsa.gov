@@ -11,9 +11,9 @@ twitter:
 team: Consulting
 ---
 
-Alan deLevie is a Ruby developer who works on MyUSA. He previously worked on immigration for our U.S. Citizenship and Immigration Services/Department of Homeland Security clients, primarily doing Rails development. He also builds accessibility tools and works with 18F's API program and 18F Consulting.
+Alan deLevie is on the 18F Consulting team. His previous 18F projects include the MyUSA shared service and myUSCIS for our U.S. Citizenship and Immigration Services clients, primarily doing Ruby on Rails development on both projects. He also builds accessibility tools and works with 18F's API program.
 
-Before 18F, Alan interned in Congress, at the Federal Communications Commission, and for a trade organization. At each, he found himself either working on technology policy or coding to make projects easier to manage. He studied communications policy and political science at Penn State, where he coded projects for the school newspaper. He currently attends law school part time and co-runs D.C. Legal Hackers.
+Before 18F, Alan interned in Congress, at the Federal Communications Commission, and for a trade organization. At each, he found himself either working on technology policy or coding to make projects easier to manage. He studied communications policy and political science at Penn State, where he coded projects for the school newspaper. He recently graduated law school and also co-organizes D.C. Legal Hackers.
 
 Alan joined 18F because he has experienced what he calls "hair-on-fire" moments while trying to use government websites.
 

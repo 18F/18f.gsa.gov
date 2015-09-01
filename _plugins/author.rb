@@ -88,7 +88,25 @@ module Jekyll
         data[input][key]
       else                    # if not, exit with a "no such author error"
         puts "No such author: #{input}"
-        exit 1
+        False
+      end
+    end
+
+    def team_link(input)
+      team = Jekyll.sites[0].collections['team'].docs
+      index = team.find_index {|x| x.data['name'] == input}
+      unless index.nil?
+        url = "/team/#{team[index].data['name']}"
+        full_name = team[index].data['full_name']
+        string = "<a href=#{url}>#{full_name}</a>"
+      else
+        url = lookup(input, "authors, url")
+        name = lookup(input, "authors, full_name")
+        if url
+          string = "<a href=#{url}>#{name}</a>"
+        else
+          string = name
+        end
       end
     end
   end
