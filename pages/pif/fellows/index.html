@@ -1,14 +1,5 @@
 ---
 permalink: /pif/fellows/
-layout: bare_pif
-title: Meet the Fellows - Round 3
+redirect_to:
+  - https://presidentialinnovationfellows.gov/fellows/
 ---
-<nav>
-	<ul class = "pif-nav-horizontal">
-		<li><a href= "/pif/fellows/">Round 3</a></li> |
-		<li><a href= "/pif/fellows/round-2/">Round 2</a></li>|
-		<li><a href= "/pif/fellows/round-1">Round 1</a></li>
-	</ul>
-</nav>
-{% assign people = site.data.pif_team | where: "pif-round", 3 | group_by: "project" %}
-{% include_relative list.html %}
