@@ -3,8 +3,8 @@ layout: bare
 ---
 
 <section>
-
-  <h1>{{ page.posts | size }} post tagged {{ page.title }}</h1>
+  {% assign numberof = page.posts | size %}
+  <h1>{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged {{ page.title }}</h1>
 
   <div class="container blog-entry {{tag}}" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in page.posts %}
