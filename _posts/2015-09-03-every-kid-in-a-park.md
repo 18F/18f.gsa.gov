@@ -85,9 +85,7 @@ teachers was designed to be understandable for our primary users
 — fourth graders.
 
 ![Children and adults sit around a large piece of paper while co-designing the Every Kid in a Park website.](/assets/blog/every-kid-in-a-park/ekip-user-testing.jpg)
-*Sally Jewell, Secretary of the U.S. Department of the Interior, using methods and techniques developed at the University of Maryland
-Human Computer Interaction KidsTeam Lab to co-design with children
-for the Every Kid in a Park website. Photo Credit: Evan Golub, 2015.*
+*Sally Jewell, Secretary of the U.S. Department of the Interior, sits with kids as they help co-design the Every Kid in a Park website using methods developed by the University of Maryland Human Computer Interaction KidsTeam Lab. Photo Credit: Evan Golub, 2015.*
 
 ## Building a site for kids has unique challenges
 
