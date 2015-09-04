@@ -27,28 +27,6 @@
 	.container{
 		background-color: $darkest-blue;
 	}
-	.container > div {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		@include span-columns(2);
-		&:nth-of-type(3) {
-			@include span-columns(4);
-		}
-		@include media($tiny) {
-			@include span-columns(10);
-			@include shift(2);
-			&:nth-of-type(3) {
-				@include span-columns(10);
-			}
-		}
-		@include media($tiniest) {
-			@include span-columns(10);
-			@include shift(1);
-			&:nth-of-type(3) {
-				@include span-columns(10);
-			}
-		}
-	}
 	img {
 		width: 100%;
 		max-width: 100px;
