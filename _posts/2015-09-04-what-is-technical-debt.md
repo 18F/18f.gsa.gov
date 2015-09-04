@@ -52,7 +52,7 @@ technical debt into four types, as shown in the quadrant below.
 
 ![A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertnet.](/assets/blog/technical-debt/graphic-2.jpg)
 *Source: [Martin
-Fowler*](http://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
+Fowler](http://martinfowler.com/bliki/TechnicalDebtQuadrant.html)*
 
 Here's how each type may occur:
 
@@ -78,8 +78,9 @@ within a software product over time:
 -   The predictability of results decreases, making management highly distrustful. (Producing accurate estimates for software with a high amount of debt is nearly impossible.)
 
 ![A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs.](/assets/blog/technical-debt/graphic-3.jpg)
+
 *Source: [Jim
-Highsmith*](http://jimhighsmith.com/the-financial-implications-of-technical-debt/)
+Highsmith](http://jimhighsmith.com/the-financial-implications-of-technical-debt/)*
 
 How do projects end up on the far right of the curve? And why is that a
 bad place to be? As [Highsmith
