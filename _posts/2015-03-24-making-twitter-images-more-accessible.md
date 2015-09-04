@@ -1,5 +1,5 @@
 ---
-title: "Making Twitter Images Accessible"
+title: "Making twitter images accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
 date: 2015-03-24

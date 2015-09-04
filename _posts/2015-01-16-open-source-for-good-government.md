@@ -1,5 +1,5 @@
 ---
-title: Open Source for Good Government
+title: Open source for good government
 date: '2015-01-16'
 layout: post
 image: /assets/blog/join-us/18f_govuk.png

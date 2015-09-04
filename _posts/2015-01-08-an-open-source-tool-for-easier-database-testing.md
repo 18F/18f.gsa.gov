@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "An Open Source Tool for Easier Database Testing"
+title: "An open source tool for easier database testing"
 date: 2015-01-13
 image: /assets/blog/db-testing-tool/cut_sweater.jpg
 description: "rdbms-subsetter, a new utility from 18F's work for generating test databases."
-excerpt: "18F is dedicated to spreading modern software techniques like rigorous automated testing throughout the Federal government; we want to showcase how solid testing enables rapid, high-quality development. When the product is based on a large relational database, this poses a dilemma: the full production dataset is too unwieldy to duplicate to the test and development environments."
+excerpt: "18F is dedicated to spreading modern software techniques like rigorous automated testing throughout the federal government; we want to showcase how solid testing enables rapid, high-quality development. When the product is based on a large relational database, this poses a dilemma: the full production dataset is too unwieldy to duplicate to the test and development environments."
 
 authors:
  - catherine
@@ -19,7 +19,7 @@ tags:
 
 ---
 18F is dedicated to spreading modern software techniques like
-rigorous automated testing throughout the Federal government;
+rigorous automated testing throughout the federal government;
 we want to showcase how solid testing enables rapid, high-quality
 development.
 
@@ -86,8 +86,8 @@ and code contributions.
 Since we're 18F, filing any bugs you find &#8212; and optionally writing tests for them, or even fixing them &#8212; is not just encouraged, it's downright patriotic.
 _(cue inspiring music)_
 
-For open-source enthusiasts, the potential to release work
-as open-source projects is exciting and motivating.  At 18F,
+For open source enthusiasts, the potential to release work
+as open source projects is exciting and motivating.  At 18F,
 our [Default to Open](https://github.com/18F/open-source-policy/)
 policy means that releasing our work isn't a favor to beg
 management for.  It's our everyday way of working &#8212; no questions asked and no hoops to jump through &#8212; and one

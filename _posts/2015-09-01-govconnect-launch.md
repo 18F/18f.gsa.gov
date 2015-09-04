@@ -95,7 +95,7 @@ and helps develop critical skills and build professional networks across
 the government to where and when they’re needed. GovConnect is a network
 of existing and new programs that seek to achieve this goal.
 
-## GovConnect phase 1
+## GovConnect phase one
 
 In April 2014, OPM's [call for
 participation](https://www.chcoc.gov/content/govconnect-expo-follow-identifying-volunteer-pilot-agencies)
