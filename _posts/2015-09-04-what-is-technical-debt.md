@@ -52,9 +52,9 @@ Just as you'll find in the financial world, there are different kinds of
 technical debt. Martin Fowler, a leading software expert, classifies
 technical debt into four types, as shown in the quadrant below.
 
-![A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertnet.](/assets/blog/technical-debt/graphic-2.jpg)
-*Source: [Martin
-Fowler](http://martinfowler.com/bliki/TechnicalDebtQuadrant.html)*
+<div style="text-align:center">
+<img src="/assets/blog/technical-debt/graphic-2.jpg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." width="600px">
+</div>
 
 Here's how each type may occur:
 
