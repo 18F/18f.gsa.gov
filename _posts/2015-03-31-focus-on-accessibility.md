@@ -1,5 +1,5 @@
 ---
-title: "Focus on Accessibility"
+title: "Focus on accessibility"
 layout: post
 image: /assets/blog/accessibility/pictureintweet.png
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "The Intersection of Art and Technology"
+title: "The intersection of art and technology"
 layout: post
 authors:
 - julia

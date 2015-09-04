@@ -1,5 +1,5 @@
 ---
-title: 'In Case You Missed It: #a11yhack, an Accessibility Hackathon'
+title: 'In case you missed it: #a11yhack, an accessibility hackathon'
 date: '2015-04-07'
 layout: post
 image: /assets/blog/a11yhack/a11yhack.jpg
@@ -108,7 +108,7 @@ and discussing accessibility needs and concerns in the community. We’ll
 be doing more events like this in the future, so if you didn’t make it
 to this one, we hope to see you at the next.
 
-### Key Links
+### Key links
 
 [Resources](https://18f.github.io/hackathons/a11yhack/resources):
 Accessibility Resources.
@@ -123,7 +123,7 @@ Accessibility Tools.
 [Hackpad](https://hackpad.com/Accessibility-Hackathon-a11yhack-FSW5lFX53LP):
 Shared notes from hackathon.
 
-### Hackathon Projects:
+### Hackathon projects:
 
 Join or post your projects in the [snapshot of the Accessibility
 Hackathon
