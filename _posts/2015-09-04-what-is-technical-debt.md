@@ -24,7 +24,9 @@ finish our incomplete work represents the principal portion of the debt.
 And the extra time it takes to work with our unwieldy code or design,
 until it’s fixed, represents the interest portion.
 
-![A bar graph showing how poor design can increase the cost of making changes or adding new features](/assets/blog/technical-debt/graphic-1.jpg)
+<div style="text-align:center">
+<img src="/assets/blog/technical-debt/graphic-1.jpg" alt="A bar graph showing how poor design can increase the cost of making changes or adding new features" width="400px">
+</div>
 
 Like financial debt, not all technical debt is bad debt. For example,
 taking out a mortgage on a home that you pay back within 15 years and
@@ -77,7 +79,9 @@ within a software product over time:
 
 -   The predictability of results decreases, making management highly distrustful. (Producing accurate estimates for software with a high amount of debt is nearly impossible.)
 
-![A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs.](/assets/blog/technical-debt/graphic-3.jpg)
+<div style="text-align:center">
+<img src="/assets/blog/technical-debt/graphic-3.jpg" alt="A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." width="400px">
+</div>
 
 *Source: [Jim
 Highsmith](http://jimhighsmith.com/the-financial-implications-of-technical-debt/)*
