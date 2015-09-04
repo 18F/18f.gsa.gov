@@ -1,5 +1,22 @@
 // Footer
 //********************************************************
+$small-screen:  481px;
+$medium-screen: 600px;
+$large-screen:  1201px;
+
+$large: new-breakpoint(min-width $large-screen 12);
+$medium: new-breakpoint(min-width $medium-screen 6);
+$small: new-breakpoint(min-width $small-screen 1);
+
+.footer-content{
+	margin-bottom: 1em;
+	text-align: center;
+	@include media($medium){
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+}
 
 .footer {
 	border-top: 5px solid $blue;
@@ -13,7 +30,7 @@
 	padding-bottom: 20px;
 	h1 {
 		font-size: 1.2em;
-		padding-bottom: 0.3em;
+		padding-bottom: 0.5em;
 		@include media($small) {
 			font-size: 1em;
 			padding-bottom: 0.1em;
@@ -27,6 +44,7 @@
 	.container{
 		background-color: $darkest-blue;
 	}
+
 	img {
 		width: 100%;
 		max-width: 100px;
