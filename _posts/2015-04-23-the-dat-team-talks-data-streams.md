@@ -1,5 +1,5 @@
 ---
-title: "The Dat Team Talks Data Streams"
+title: "The dat team talks data Streams"
 layout: post
 authors:
 - eric

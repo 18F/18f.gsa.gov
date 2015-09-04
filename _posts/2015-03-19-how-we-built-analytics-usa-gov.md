@@ -158,7 +158,7 @@ All static files are stored in Amazon S3 and served by Amazon CloudFront, so we 
 
 From a maintenance standpoint, this is a dream. And we can always replace this later with a dynamic server if it becomes necessary, by which time we'll have a clearer understanding of what kind of traffic the site can expect and what features people want.
 
-## Usability Testing
+## Usability testing
 
 We went to a local civic hacking meetup and conducted a quick usability testing workshop. In line with PRA guidelines, we interviewed 9 members of the public and a handful of federal government employees. Any government project can do this, and the feedback was very helpful.
 

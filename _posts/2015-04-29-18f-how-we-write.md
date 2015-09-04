@@ -1,5 +1,5 @@
 ---
-title: "18F: A Great Place to Write"
+title: "18F: a great place to write"
 layout: post
 authors:
 - melody

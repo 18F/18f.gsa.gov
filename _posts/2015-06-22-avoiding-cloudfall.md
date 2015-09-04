@@ -100,7 +100,7 @@ using an iterative approach to cloud migration, both offices can develop
 a greater understanding of each others’ needs and continuously improve
 as migration proceeds.
 
-### Staged Prioritization
+### Staged prioritization
 
 In parallel with our [general
 product-stage](https://18f.gsa.gov/dashboard/stages/) approach, cloud

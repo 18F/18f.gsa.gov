@@ -1,5 +1,5 @@
 ---
-title: Five Questions with Steve Portigal
+title: Five questions with steve portigal
 date: '2015-02-18'
 layout: post
 image: /assets/blog/speaker-series/portigal.jpg
@@ -15,16 +15,16 @@ authors:
 
 
 
-description: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 AM ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
+description: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 a.m. ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
 
-excerpt: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 AM ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
+excerpt: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 a.m. ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
 ---
 
 ![Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights](/assets/blog/speaker-series/portigal.jpg)
 
 Since October, 18F has been bringing in noted individuals from the
 software development world to discuss their work, and we’re excited to
-kick off a new, design-focused series this Friday, February 20 (10:30 AM
+kick off a new, design-focused series this Friday, February 20 (10:30 a.m.
 ET). We’re inviting a number of influential designers to share their
 unique perspective with the 18F team, and with you.
 

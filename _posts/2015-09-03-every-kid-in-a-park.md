@@ -24,7 +24,7 @@ not seem to go hand in hand.
 
 But the launch of Every Kid in a Park highlights how user research can
 bring beautiful, useful design to federal websites — including those
-aimed at kids.
+aimed at children.
 
 Every Kid in a Park gives U.S. fourth graders free access to all federal
 lands and water — including national parks, forests, wildlife refuges,
@@ -40,7 +40,7 @@ Department of Interior."
 
 [everykidinapark.gov](https://everykidinapark.gov)
 is the landing page for that program. It includes a comprehensive list
-of where kids can go, and explains how the program works, and how to
+of where kids can go, explains how the program works, and shows how to
 print a pass. Best of all, it was designed, developed, and written for
 10-year-olds.
 
@@ -49,7 +49,7 @@ U.S. Department of Interior and other federal land management agencies.
 
 “I'm so proud to be part of this initiative that gets children out from
 in front of their screens indoors to great, wild, and exciting
-outdoors,” 18F developer Shashank Khandelwal said. Khandelwal served as
+outdoors,” 18F Developer Shashank Khandelwal said. Khandelwal served as
 the website’s product manager.
 
 This sentiment was echoed across team members. Christine Cheung, the
