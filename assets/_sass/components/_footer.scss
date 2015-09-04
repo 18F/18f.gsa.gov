@@ -12,6 +12,9 @@ $small: new-breakpoint(min-width $small-screen 1);
 	margin-bottom: 1em;
 	text-align: center;
 	@include media($medium){
+    &:nth-child(3) {
+      min-height: 12em;
+    }
 		margin-bottom: 0;
 		text-align: left;
 	}
@@ -24,6 +27,7 @@ $small: new-breakpoint(min-width $small-screen 1);
 	height: auto;
 	color: #fff;
 	padding-top: 55px;
+
 	@include media($small) {
 		padding-top: 40px;
 	}
@@ -47,7 +51,7 @@ $small: new-breakpoint(min-width $small-screen 1);
 
 	img {
 		width: 100%;
-		max-width: 100px;
+    max-width: 100px;
   		// max-height: 100px;
 	}
 	a {
