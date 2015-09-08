@@ -12,7 +12,8 @@ team: Design
 project:
 - USCIS
 - Design Method Cards
-- 
+- 18F Blog
+- GovConnect
 ---
 
 Jeannine works on the outreach/communications team, where she tells 18F's story through blog posts, case studies, social media, the website, talking points, and other communication materials. She also works as a content strategist, writing and revising content used on federal government websites. 
