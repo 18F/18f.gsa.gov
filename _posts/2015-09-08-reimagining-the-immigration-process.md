@@ -6,7 +6,7 @@ authors:
 - erica
 tags:
 - design
-- how we working
+- how we work
 - our projects
 - proactive federal partner
 excerpt: "Since November, I’ve been working with a team from 18F and
