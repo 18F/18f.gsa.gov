@@ -58,7 +58,7 @@ technical debt into four types, as shown in the quadrant below.
 
 Here's how each type may occur:
 
--   **Reckless/Deliberate Debt** — The team feels time pressured, andknowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
+-   **Reckless/Deliberate Debt** — The team feels time pressured, and knowingly violates best practices without any forethought into how to address the consequences. Another scenario: management lacks sufficient funding to hire enough senior experts to direct and review the work of junior programmers, but decides to take the risk anyway.
 
 -   **Prudent/Deliberate Debt** — The team decides that the value of shipping a “quick and dirty solution” *now* is worth the cost of incurring debt. They’re fully aware of the consequences, however, and have a plan in place to address them.
 
