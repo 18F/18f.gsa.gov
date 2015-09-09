@@ -13,16 +13,16 @@ tags:
 - our projects
 - user research
 - consulting
-excerpt: "Since November, I’ve been working with a team from 18F and
-USCIS to develop my.uscis.gov, a customer-facing site
-to help users navigate their relationship with the agency. USCIS approached 18F about the partnership because they wanted to improve the experience for millions of users like my husband and me."
-description: "Since November, I’ve been working with a team from 18F and
-USCIS to develop my.uscis.gov, a customer-facing site
-to help users navigate their relationship with the agency. USCIS approached 18F about the partnership because they wanted to improve the experience for millions of users like my husband and me."
+excerpt: "At 18F Consulting, we experiment with ways to empower agencies to build cost-efficient, excellent
+digital solutions. Recently we partnered with the Department of Labor’s
+Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."
+description: "At 18F Consulting, we experiment with ways to empower agencies to build cost-efficient, excellent
+digital solutions. Recently we partnered with the Department of Labor’s
+Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."
 image: /assets/blog/labor-handbook/foh-screenshot.jpg
 ---
 
-At 18F Consulting we experiment with [ways to empower agencies
+At 18F Consulting, we experiment with [ways to empower agencies
 ](https://18f.gsa.gov/consulting/)to build cost-efficient, excellent
 digital solutions. Recently we partnered with the Department of Labor’s
 Wage and Hour Division (WHD) to run a two day “Design/Dev Agile Sprint.”
