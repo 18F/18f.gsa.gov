@@ -8,7 +8,7 @@ city: Washington
 state: D.C.
 github:
 twitter:
-team: Customs and Immigration Enforcement
+team: Immigration and Customs Enforcement
 ---
 **Ric is currently on detail,** the bio below describes his role at 18F.
 
