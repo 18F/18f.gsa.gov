@@ -8,6 +8,6 @@ city: Washington
 state: D.C.
 github:
 twitter:
-team: CIO Council
+team: General Services Administration
 ---
-**Kruti is currently on detail,** the bio below describes her role at 18F.
+**Kruti is currently on detail to the Chief Information Officer of the General Services Administration.**
