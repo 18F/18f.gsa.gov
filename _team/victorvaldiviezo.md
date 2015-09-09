@@ -1,7 +1,7 @@
 ---
 first_name: "Victor"
-last_name: "Valvidiezo"
-full_name: "Victor Valvidiezo"
+last_name: "Valdiviezo"
+full_name: "Victor Valdiviezo"
 role: "Manager"
 city: "Oakland"
 state: "CA"
