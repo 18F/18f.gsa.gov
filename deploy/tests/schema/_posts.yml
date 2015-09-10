@@ -8,7 +8,6 @@ tags:
   rules: [no-dash, lowercase]
 excerpt: "string"
 description: "string"
-image: "file path"
 config:
   path: '_posts'
   ignore:
@@ -16,5 +15,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'layout', 'date']
+  optional: ['tumblr_url', 'layout', 'date', 'image']
 ---
