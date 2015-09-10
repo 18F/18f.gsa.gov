@@ -1,5 +1,5 @@
 ---
-title: Where can I find basic information on 18F’s history?
+title: Basic information on 18F’s history
 permalink: /press/history-of-18F
 layout: bare
 ---
@@ -8,4 +8,4 @@ layout: bare
 
 * The 18F team started with 15 full time staff. Staffing has grown to over 100 as of  January 2015, as 18F’s product and client work has increased.
 
-* Our goal was (and is) to transform the way the U.S. government approaches problems. You can [read more about our first year on our blog](https://18f.gsa.gov/2015/03/20/one-year-in-and-looking-forward/). 
+* Our goal was (and is) to transform the way the U.S. government approaches problems. You can [read more about our first year on our blog](https://18f.gsa.gov/2015/03/20/one-year-in-and-looking-forward/).
