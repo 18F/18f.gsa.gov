@@ -1,5 +1,5 @@
 ---
-title: "For Public Comment: the HTTPS-Only Standard"
+title: "For public comment: the HTTPS-only standard"
 date: 2015-03-17 10:00:00
 layout: post
 image: /assets/blog/https-standard/screen.png
@@ -33,7 +33,7 @@ From [the proposal](https://https.cio.gov):
 
 > Private and secure connections are becoming the Internet’s baseline, as expressed by the policies of the Internet’s [standards](https://w3ctag.github.io/web-https/) [bodies](http://www.internetsociety.org/news/internet-society-commends-internet-architecture-board-recommendation-encryption-default), popular web browsers, and the Internet community of practice.
 >
-> The Federal government must adapt to this changing landscape, and benefits by beginning the conversion now. Proactive investment at the Federal level will support faster internet-wide adoption and promote better privacy standards for the entire browsing public.
+> The federal government must adapt to this changing landscape, and benefits by beginning the conversion now. Proactive investment at the federal level will support faster internet-wide adoption and promote better privacy standards for the entire browsing public.
 
 At the core of this proposal is the idea that **all browsing activity should be considered private and sensitive**.
 

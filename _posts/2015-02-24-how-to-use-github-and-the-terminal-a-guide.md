@@ -1,5 +1,5 @@
 ---
-title: "How To Use GitHub and the Terminal: A Guide"
+title: "How to use GitHub and the terminal: a guide"
 layout: post
 date: 2015-03-03
 authors:
@@ -17,7 +17,7 @@ description: "At 18F we hire people from many different backgrounds and each new
 image: /assets/blog/github-tutorial/image21.png
 ---
 
-We’ve written before how everything we do is open [from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that is by building all of our products&mdash;from [our blog](https://github.com/18F/18f.gsa.gov/) and [our dashboard](https://github.com/18F/dashboard) to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative&mdash;using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
+We’ve written before how everything we do is open [from day one](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that is by building all of our products&mdash;from [our blog](https://github.com/18F/18f.gsa.gov/) and [our dashboard](https://github.com/18F/dashboard) to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative&mdash;using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
 
 We hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site.
 
@@ -40,7 +40,7 @@ If you have an alternative way of doing any of these steps — or have ways to m
 
 **What you need to get started:** [a GitHub account](https://github.com/join) and Mac OS X. These instructions are primarily for Macs, but most of the instructions will work the same on a Linux computer. If you are working on Windows, we suggest checking out [this comment](https://github.com/18F/18f.gsa.gov/issues/542#issuecomment-75145417) that was posted to GitHub that details how to make these instructions work for Windows machines.
 
-## Turn Your Mac Into a Web Development Machine
+## Turn your Mac into a web development machine
 
 > Using Linux? You can skip this section.
 
@@ -58,11 +58,11 @@ And you should have a window like this when you open it:
 
 ![Screen shot of blank terminal window](/assets/blog/github-tutorial/terminal-window.png)
 
-* Go to the terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
+* Go to Terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
 
 * Then paste `bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm` and press enter. This sets up all of the software you need in order to manage the languages we use at 18F. (For a full list of programs, click [here](https://github.com/18F/laptop)).
 
-## Getting Started With GitHub and the Terminal
+## Getting started With GitHub and the Terminal
 
 > Terminal is a program that lets you send commands to your computer, and the text you pasted above is an example of how those commands work. In this guide, whenever you see text that looks like `this`, you're reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.
 
@@ -88,7 +88,7 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 ![Screenshot: typing in mkdir code](/assets/blog/github-tutorial/mkdir-code.gif)
 
-## Clone a Repo on Your Computer
+## Clone a repo on your computer
 
 * First, you want to log into GitHub. Go to [https://github.com/login](https://github.com/login) and sign in with your username and password.
 
@@ -116,7 +116,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 > If you run into an error here and you haven't used the Laptop script mentioned above, you need to create what's called an SSH key. You can follow the instructions that are located [here](https://help.github.com/articles/generating-ssh-keys/). (Pro Tip: You type in everything _except_ the `$`.) You only have to do this once. An SSH key is a small file that sits on your computer and tells GitHub who you are. It's kind of like a password your computer types in for you automatically. Every time you use this computer to clone a project or pull/push a project, this SSH key will get used. You will have to do this on every computer you have. So, if you plan to work on these projects on a separate computer, you will need to do this process again.
 
-### Branching and Pull Requests
+### Branching and pull requests
 
 Let's go back to the [18f.gsa.gov](https://github.com/18F/18f.gsa.gov) repo from your web browser.
 
@@ -136,7 +136,7 @@ In the next step we're going to create a branch, and later on, when you make a p
 
 > On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on https://18f.gsa.gov yet.
 
-In your terminal, enter the following commands:
+In Terminal, enter the following commands:
 
 * `cd 18f.gsa.gov` to change directories to `18f.gsa.gov`.
 * `ls -1F` to see all of the files and folders in the GitHub repo, just as you saw them on GitHub
@@ -150,7 +150,7 @@ This last command will show you a little bit of information about what you're wo
 
 ![Screenshot: how to use git status](/assets/blog/github-tutorial/screenshot5.gif)
 
-## Build the 18F Site
+## Build the 18F site
 
 Let's go ahead and get you ready to build the site.
 
@@ -166,7 +166,7 @@ Let's go ahead and get you ready to build the site.
 
 >**Congratulations! A lot of the steps that you've just done are one time steps. You only have to run the `laptop` script once. You only have to clone the repo once. And you only need to run `./go init` once. Just wanted to keep your morale high. Onward!**
 
-### Create a Branch
+### Create a branch
 
 Okay. Now you're ready to start editing.
 
@@ -190,7 +190,7 @@ Okay. Now you're ready to start editing.
 
 ![Screenshot: git checkout and status](/assets/blog/github-tutorial/screenshot11.gif)
 
-### Edit and Commit a Blog Post
+### Edit and commit a blog post
 
 We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 
@@ -202,13 +202,13 @@ We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 
 ![Screen shot: Saving post in _posts directory](/assets/blog/github-tutorial/image14.png)
 
-### Adding Front Matter
+### Adding front matter
 
 The next step is to add what's called front matter. This is metadata for the blog post: extra information Jekyll uses to build parts of the website. It includes things like the title, authors, description, and date. You add front matter by pasting in the following fields starting on line 1 of your text editor:
 
 ```yaml
 ---
-title: "How the 18F Website Team Uses GitHub: A Tutorial"
+title: "How the 18F website team uses GitHub: a tutorial"
 layout: post
 author:
 - melody
@@ -230,11 +230,11 @@ A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov
 
 * When you are done writing, save the post by pressing Command + S.
 
-* And then return back to the Terminal.
+* And then return back to Terminal.
 
 > (Don't worry. You are almost done.)
 
-### Learn How to Make a Pull Request
+### Learn how to make a pull request
 
 * Type `git status` again.
 

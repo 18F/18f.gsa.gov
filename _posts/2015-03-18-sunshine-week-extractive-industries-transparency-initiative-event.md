@@ -1,5 +1,5 @@
 ---
-title: 'Sunshine Week: Extractive Industries Transparency Initiative Event'
+title: 'Sunshine week: extractive industries transparency initiative event'
 date: '2015-03-18'
 layout: post
 image: /assets/blog/useiti-sunshine/useiti.png
@@ -65,7 +65,7 @@ You can [learn more about the benefits of the broader initiative on the
 EITI
 website](https://eiti.org/eiti/benefits)[.](https://eiti.org/eiti/benefits)
 
-## USEITI On the Web
+## USEITI on the web
 
 The website [18F helped Interior build](https://useiti.doi.gov),
 currently in [live beta](https://18f.gsa.gov/dashboard/stages/),

@@ -1,5 +1,5 @@
 ---
-title: "Announcing OASIS Discovery: Making Market Research Easier"
+title: "Announcing OASIS Discovery: making market research easier"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png
 tags:

@@ -1,5 +1,5 @@
 ---
-title: One Year In and Looking Forward
+title: One year in and looking forward
 date: '2015-03-20'
 layout: post
 image: "/assets/images/logo-18f.png"
@@ -43,7 +43,7 @@ our history, but so we can share our process and progress with you.
 Sometimes we stumbled, but each time we practiced what we preach—build,
 measure, learn, and do it again.
 
-## It's Been an Incredible Year
+## It's been an incredible year
 
 The initial idea was simple: Attract talented technologists to the civil
 service, enticing them with meaty problems and an opportunity for huge
@@ -99,8 +99,7 @@ as always-HTTPS.
 [analytics.usa.gov][13], giving the public a
 view of federal government website analytics for the first time.
 
-And We're Just Getting Started
-------------------------------
+## And we're just getting started
 
 During the next year, you'll see the expansion of several projects and
 lines of business:
@@ -110,7 +109,7 @@ short-term, as-needed basis, helping agencies acquire better software.
 - 18F Talent, to help agencies identify and recruit cutting-edge
 technical talent.
 - FISMA Ready, a toolkit that provides Federal information security
-compliance for open-source software.
+compliance for open source software.
 - [Agile Delivery Services BPA][14],
 a micro-market blanket purchase agreement to help [agencies acquire
 better professional services][15].
@@ -121,8 +120,7 @@ Not to mention the fact that we plan to double in size and scale our
 services to make a larger impact. Check back here in one year and hold
 us to it.
 
-Thank You
----------
+## Thank you
 
 Finally, a personal thank you to the entire team. It is an honor to work
 with passionate people who are absolutely committed to both making our
@@ -135,11 +133,11 @@ also need your help!
 
 If you're a designer, developer, or technologist who has ...
 
-- a couple of hours? Check out our ["help wanted" tag][16]
+- A couple of hours: Check out our ["help wanted" tag][16]
 on Github.
-- a couple of days? Attend a [hackathon][17], or peruse our [Dashboard][12] for open
+- A couple of days: Attend a [hackathon][17], or peruse our [Dashboard][12] for open
 source projects.
-- a couple of years? [Your country needs you!][18]
+- A couple of years: [Your country needs you!][18]
 
 Onward!
 

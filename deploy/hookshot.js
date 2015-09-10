@@ -13,6 +13,10 @@ if (!branch || !command || !port) {
   process.exit(1);
 }
 
-hookshot('refs/heads/' + branch, command).listen(port);
+// Passed through to bodyParser.json().
+// // https://www.npmjs.com/package/body-parser#limit
+var json_options = { limit: 1 << 20 };
+
+hookshot('refs/heads/' + branch, command, json_options).listen(port);
 
 console.log("Huzzah! Listening on port " + port + " for push events on " + branch + ".")
