@@ -6,7 +6,7 @@ full_name: Patrick Bateman
 role: Operations Director (acting)
 city: Washington
 state: D.C.
-github:batemapf
+github: batemapf
 twitter:
 team: 
 ---
