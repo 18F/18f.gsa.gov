@@ -6,6 +6,7 @@ title: "A complete list of .gov domains"
 image: /assets/blog/dotgovs/dot-govs-screen.png
 
 description: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch."
+excerpt: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch."
 
 authors:
 - eric

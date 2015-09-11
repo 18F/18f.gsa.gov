@@ -11,8 +11,9 @@ city: Washington
 state: D.C.
 project:
 - 18f.gsa.gov
-- OpenFEC
 - 18F Blog
+- Every Kid in a Park
+- OpenFEC
 ---
 
 A member of our editorial team, Emileigh is an advocate of clarity, concision, and the Oxford comma. She’s been writing professionally since high school, when she started started stringing columns for her hometown's 20-page broadsheet. 

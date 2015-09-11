@@ -3,6 +3,7 @@ layout: post
 title: "Why we use HTTPS for every .gov we make"
 image:
 description: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
+excerpt: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
 
 authors:
  - eric
@@ -41,7 +42,7 @@ As we build web APIs that we want the public to rely on, secure connections are 
 
 The most common concern people raise about HTTPS is performance. Encryption requires computation, and can make some kinds of caching more difficult. Fortunately, in the last several years, there has been tremendous investment in HTTPS by the private sector.
 
-Google has been engineering and publishing major speed improvements to OpenSSL's [encryption](https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html) and [privacy](https://www.imperialviolet.org/2011/11/22/forwardsecret.html) for years, and their work on SPDY allows websites to achieve [serious speed improvements](https://www.httpvshttps.com/) over plain HTTP. 
+Google has been engineering and publishing major speed improvements to OpenSSL's [encryption](https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html) and [privacy](https://www.imperialviolet.org/2011/11/22/forwardsecret.html) for years, and their work on SPDY allows websites to achieve [serious speed improvements](https://www.httpvshttps.com/) over plain HTTP.
 
 As major technology firms like [Facebook](http://lists.w3.org/Archives/Public/ietf-http-wg/2012JulSep/0251.html) and [Twitter](https://blog.twitter.com/2013/forward-secrecy-at-twitter) invest in universal encryption, their engineering and best practices have improved the ecosystem for everyone.
 

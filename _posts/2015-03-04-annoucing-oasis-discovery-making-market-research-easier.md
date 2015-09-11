@@ -9,8 +9,8 @@ tags:
 
 authors:
 - brethauer
-excerpt: "18F is glad to announce the beta release of a new procurement tool, Discovery.
-Discovery will allow federal acquisition personnel to conduct initial market research more easily and quickly - allowing users to discover and research vendors offering work across a number of professional service categories. "
+excerpt: "18F is glad to announce the beta release of a new procurement tool, Discovery. Discovery will allow federal acquisition personnel to conduct initial market research more easily and quickly - allowing users to discover and research vendors offering work across a number of professional service categories. "
+description: "18F is glad to announce the beta release of a new procurement tool, Discovery. Discovery will allow federal acquisition personnel to conduct initial market research more easily and quickly - allowing users to discover and research vendors offering work across a number of professional service categories. "
 ---
 
 

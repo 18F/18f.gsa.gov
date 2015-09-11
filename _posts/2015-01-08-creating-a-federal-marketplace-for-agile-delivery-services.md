@@ -14,6 +14,7 @@ tags:
 - gsa
 - lean
 - modernization
+image: ""
 ---
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013
 
