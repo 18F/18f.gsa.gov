@@ -72,10 +72,12 @@ The datasets include information from the Department of Treasury on student loan
 **Employment outcomes:** The College Scorecard contains the first-ever comprehensive and reliable data on post-college earnings for students who attended all types of undergraduate institutions, based upon tax records. While increased earnings are only one of many reasons to go to college, many students consider their future career prospects when making an investment in their education.
 
 Specifically, the new Scorecard includes:
+
 1. The proportion of former students earning over $25,000, which is the average earnings of high school graduates, six years after enrolling, and
 2. The median earnings of students 10 years after they enroll in college.
 
 **Student-level outcomes data:** The College Scorecard publishes data from the National Student Loan Data System (NSLDS), which the Department of Education has used to manage and track grants and loans since the 1990s. The data can be used to produce a variety of new institutional performance metrics including
+
 1. Median cumulative loan debt,
 2. Repayment rate, and
 3. Completion and transfer rates, all by various student sub-groups.
