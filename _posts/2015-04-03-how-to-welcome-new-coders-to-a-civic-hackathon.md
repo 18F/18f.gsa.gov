@@ -1,5 +1,5 @@
 ---
-title: 'How To Welcome New Coders To A Civic Hackathon'
+title: 'How to welcome new coders to a civic hackathon'
 date: '2015-04-03'
 layout: post
 image: /assets/blog/govtechhack/IMG_3998.JPG
@@ -46,8 +46,7 @@ The National Day of Civic Hacking is a great time to attend — or host
 first-time hackathon hosts. These tips will help participants feel
 welcome, and help them maximize their contributions.
 
-Explicitly welcome newcomers with a new contributor guide.
-==========================================================
+## Explicitly welcome newcomers with a new contributor guide
 
 Usability testers, accessibility experts, researchers, data cleaners,
 writers, translators, subject-matter experts, and content designers are
@@ -72,8 +71,7 @@ with their best skills. For example, Wikimedia hackathons have [an
 explicit buddy-pairing
 system](http://www.mediawiki.org/wiki/Hackathons#Pairing_buddies).
 
-Clearly define projects and enumerate ways newcomers can get involved with each.
-================================================================================
+## Clearly define projects and enumerate ways newcomers can get involved with each
 
 Last month, we co-hosted
 [GovTechHack](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/), a San-Francisco-based hackathon where civic-minded coders, builders,
@@ -98,8 +96,7 @@ next time around. We wish we’d also:
 -   Included a checklist for users (like [this one](https://github.com/girldevelopit/gdi-new-site/issues/245))
 -   Added a section on how non-coders could have helped each project. It’s worth thinking about and then articulating — in writing — how people with other areas of expertise or knowledge can help during a hackday. If you don’t have time to write these issues out, you can open an issue that asks for someone to interview you about them. Voila! Problem solved.
 
-Make really good nametags for people
-====================================
+## Make really good nametags for people
 
 Sarah Allen, a developer at 18F, passes along nametags, pictured below,
 which were used at the GovTechHack. The nametags used color-coded
@@ -111,8 +108,7 @@ first time.
 
 ![Image: nametag from recent hackathon showing color-coded stickers for devs, designers, and content strategists](/assets/blog/new-to-hackathon/nametag.jpg)
 
-Clearly label issues on GitHub with ways people can help.
-=========================================================
+## Clearly label issues on GitHub with ways people can help
 
 It is always a good idea to label GitHub issues that could use outside
 hands — we use the “Help Wanted” label. Government open source projects
@@ -131,8 +127,7 @@ projects. (18F’s Aidan Feldman has created [a list of
 labels](https://github.com/osscommunity/starters/issues/5) you can use
 for new projects.)
 
-Make your team available for people who hack remotely.
-======================================================
+## Make your team available for people who hack remotely
 
 Not everyone can get to a nearby city to hack on the National Civic Day
 of Hacking, but this doesn’t mean they should be excluded from
@@ -156,8 +151,7 @@ team to more easily converse in real-time. This also gives participants
 a space to connect with each other beyond the event, if they choose to
 do so.
 
-Personally invite contributions.
-================================
+## Personally invite contributions
 
 A personal invitation might be all it takes to turn a project user into
 a project contributor. If someone opens an issue that’s easily solved,
@@ -168,8 +162,7 @@ Civic Hacking are opportunities to show people that their contributions
 are being received by real people who are delighted to have them
 contribute.
 
-Develop a toolkit for participants
-==================================
+## Develop a toolkit for participants
 
 Our colleagues at GSA have created [a
 toolkit](http://gsa.github.io/Open-Data-Collaboration-Sandbox/github_tips_and_tricks/)

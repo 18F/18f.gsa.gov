@@ -1,5 +1,5 @@
 ---
-title: New RFP Ghostwriting service to improve contract success
+title: New RFP ghostwriting service to improve contract success
 date: '2015-03-30'
 layout: post
 image: "/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif"
@@ -45,11 +45,11 @@ These are the types of questions we ask as we’re reviewing RFPs:
 
 1.  Based on the need you’re trying to address, are you making
     appropriate uses of the various software development methods
-    (e.g., agile, waterfall)?
+    (for example, agile, waterfall)?
 2.  How can you most effectively include considerations for user-centered
     design and development?
 3.  Where are there opportunities to incorporate proven, commodity IT
-    solutions (e.g., Commercial Off-The-Shelf (COTS) over expensive
+    solutions (for example, Commercial Off-The-Shelf (COTS) over expensive
     custom-built solutions)?
 4.  Are you making appropriate use of [open
     source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/)

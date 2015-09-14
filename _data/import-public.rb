@@ -6,14 +6,15 @@
 # Date:   2014-12-22
 
 require 'open-uri'
+require 'json'
 
 DATA_DIR = File.dirname __FILE__
-DATA_BASEURL = 'https://18f.gsa.gov/hub/api/'
+TEAM_API_BASE_URL = 'https://team-api.18f.gov/public/api/'
 
-['team', 'projects', 'pif_team', 'pif_projects'].each do |category|
-  open("#{DATA_BASEURL}#{category}/") do |data|
-    open(File.join(DATA_DIR, "#{category}.json"), 'w') do |f|
-      f.write(data.read)
-    end
+['team'].each do |category|
+  category_data = (open("#{TEAM_API_BASE_URL}#{category}/").read)
+  results = JSON.parse(category_data)["results"]
+  open(File.join(DATA_DIR, "#{category}.json"), 'w') do |f|
+    f.write(results.to_json)
   end
 end

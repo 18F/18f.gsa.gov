@@ -1,5 +1,5 @@
 ---
-title: A Story of an Agile Workshop
+title: A Story of an agile workshop
 date: '2015-02-11'
 layout: post
 image: /assets/blog/agile-workshop/workshop3.jpg
@@ -17,8 +17,7 @@ excerpt: "The clock was ticking as I stated the single solitary rule: We will ha
 ---
 by {% author robert %} and {% author blacktm %}
 
-The Agile Manifesto:
---------------------
+## The Agile Manifesto:
 
 "*…we have come to value:*
 
@@ -34,8 +33,7 @@ The Agile Manifesto:
 items on the left more.*" — [The Agile
 Manifesto](http://www.agilemanifesto.org/)[](http://www.agilemanifesto.org/)
 
-The Stage is Set
-----------------
+## The stage is set
 
 A week before Christmas, the Social Security Administration made an
 extraordinary effort to build better software to process disability
@@ -88,8 +86,7 @@ observers sat in the back of the room.
 
 ![The room: developers on left, the demo area, and product owners on right.](/assets/blog/agile-workshop/workshop3.JPG)
 
-The First Sprint Brought A Quick Win
-------------------------------------
+## The first sprint brought a quick win
 
 I was in a hurry to get the developers started — in fact, I cut people
 off abruptly and a little rudely in an effort to do so. The product team
@@ -121,8 +118,7 @@ bug and reject the story.” The product team voted to pass the story. The
 loud applause for the developers was a great example of Agile tenet \#1:
 **Value individuals and interactions** over processes and tools.
 
-The Second Sprint And Velocity
-------------------------------
+## The second sprint and velocity
 
 The new screen was good, but made it quite clear that the text was
 unpleasantly crowded. We needed to add some padding. This was
@@ -160,8 +156,7 @@ snacks I'd brought had been devoured by now. I learned something: Hummus
 is a terrible snack for this kind of thing. It’s messy, and you don’t
 want to bring a knife through security.
 
-The Third Sprint
-----------------
+## The third sprint
 
 In the final sprint, one story was well underway but wasn't quite done.
 I made a show of moving from the “In Test” column back to the “In
@@ -173,8 +168,7 @@ hardest three hours — and the most rewarding — that a software team will
 ever work. We sat in the odd glow of exhaustion and exhilaration as we
 began the retrospective.
 
-The Retrospective
------------------
+## The retrospective
 
 I was scribing on big flip-chart sheets as the big bosses walked in. The
 Chief Program Officer and her Deputy, Terri and John, had returned. We
@@ -199,8 +193,8 @@ really want as rapidly as possible by valuing individuals and
 interactions, working software, customer collaboration, and responding
 to change.
 
-Running Your Own Agile Workshop
--------------------------------
+## Running your own agile workshop
+
 We’ve previously published a guide to running your own [3-Sprint Agile
 Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/).
 
