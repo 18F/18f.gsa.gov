@@ -1,5 +1,5 @@
 ---
-title: "Under the hood: Building a new College Scorecard with students"
+title: "Behind the scenes: Building a new College Scorecard with students"
 date: 2015-09-14
 layout: post
 authors:
