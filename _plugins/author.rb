@@ -7,9 +7,11 @@ module Jekyll
 
     def render(context)
       teammate = finder('team', @author)
+
       if teammate.nil?
         teammate = finder('pif_team', @author)
       end
+
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
           # "<img src=\"/assets/images/team/#{teammate['name']}.jpg\" />" +
