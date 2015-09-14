@@ -4,14 +4,11 @@ $small-screen:  481px;
 $medium-screen: 600px;
 $large-screen:  1201px;
 
-$large: new-breakpoint(min-width $large-screen 12);
-$medium: new-breakpoint(min-width $medium-screen 6);
-$small: new-breakpoint(min-width $small-screen 1);
 
 .footer-content{
 	margin-bottom: 2em;
 	text-align: center;
-	@include media($medium){
+	@include media($medium-screen){
     &:nth-child(3) {
       min-height: 11em;
     }
@@ -28,14 +25,14 @@ $small: new-breakpoint(min-width $small-screen 1);
 	color: #fff;
 	padding-top: 55px;
 
-	@include media($small) {
+	@include media($small-screen) {
 		padding-top: 40px;
 	}
 	padding-bottom: 20px;
 	h1 {
 		font-size: 1.2em;
 		padding-bottom: 0.5em;
-		@include media($small) {
+		@include media($small-screen) {
 			font-size: 1em;
 			padding-bottom: 0.1em;
 		}
@@ -52,7 +49,7 @@ $small: new-breakpoint(min-width $small-screen 1);
 	img {
 		width: 100%;
     	max-width: 100px;
-    	@include media($medium){
+    	@include media($medium-screen){
     		max-width: 85px;
     	}
 
@@ -64,7 +61,7 @@ $small: new-breakpoint(min-width $small-screen 1);
   		&:hover, &:focus {
   			text-decoration: underline;
   		}
-		@include media($small) {
+		@include media($small-screen) {
 			font-size: 0.8em;
 		}
 		@include media($tiniest) {

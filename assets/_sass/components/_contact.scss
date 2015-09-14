@@ -1,6 +1,9 @@
 // Contact
 //********************************************************
-.contact-form {
+// Newsletter
+//********************************************************
+
+.newsletter-form {
 	@include span-columns(4);
 	@extend %section-padding;
 	@include media($bigger) {
@@ -15,7 +18,7 @@
 		@include shift(0);
 	}
 }
-.contact-words {
+.newsletter-words {
 	@include span-columns(7);
 	@include shift(1);
 	@extend %section-padding;
