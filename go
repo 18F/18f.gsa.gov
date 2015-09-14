@@ -98,7 +98,7 @@ def server_build
 end
 
 def production_build
-  puts 'Stashing (justin case)'
+  puts 'Stashing (just in case)'
   exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
