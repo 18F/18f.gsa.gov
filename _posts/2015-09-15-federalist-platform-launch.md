@@ -10,8 +10,10 @@ tags:
 - proactive federal partner
 excerpt: "18F’s new Federalist platform is a suite of tools designed to make it faster and cheaper for government agencies to build websites that are secure, responsive, and accessible."
 description: "18F’s new Federalist platform is a suite of tools designed to make it faster and cheaper for government agencies to build websites that are secure, responsive, and accessible."
-image: /assets/blog/federalist/federalist-screenshot.jpg
+image: /assets/blog/federalist/sbst-screenshot.jpg
 ---
+
+![The new White House Social and Behavioral Sciences Team homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
 
 Today, the White House Social and Behavioral Sciences Team (SBST)
 [launched their new website](https://sbst.gov/).
