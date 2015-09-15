@@ -13,8 +13,8 @@ description: "18F’s new Federalist platform is a suite of tools designed to ma
 image: /assets/blog/federalist/federalist-screenshot.jpg
 ---
 
-Today the White House Social and Behavioral Sciences Team (SBST)
-launched their new website.
+Today, the White House Social and Behavioral Sciences Team (SBST)
+[launched their new website](https://sbst.gov/).
 
 What may not be apparent from looking at SBST's site is that it was
 built using 18F’s new [Federalist
