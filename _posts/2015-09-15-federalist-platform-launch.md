@@ -8,8 +8,8 @@ tags:
 - our projects
 - platform
 - proactive federal partner
-excerpt: "18F’s new Federalist platform is a suite of tools designed to make it faster and cheaper for government agencies to build websites that are secure, responsive, and accessible."
-description: "18F’s new Federalist platform is a suite of tools designed to make it faster and cheaper for government agencies to build websites that are secure, responsive, and accessible."
+excerpt: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
+description: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
 image: /assets/blog/federalist/sbst-screenshot.jpg
 ---
 
@@ -31,8 +31,7 @@ providing a simple way for developers to launch new websites or more
 easily manage existing ones. (The platform also supports Microsoft's
 Azure through open source contributions.)
 
-18F is launching Federalist as a fee-for-service platform that is
-intended for two audiences: federal developers who need a platform for
+18F developed Federalist for two audiences: federal developers who need a platform for
 reliable, quick hosting of static sites, and federal groups that may not
 have a developer on staff but need secure, accessible, and responsive
 websites to get their content out to the public.
@@ -113,20 +112,6 @@ store and manage content.
 on top of an open source platform which already has proven scalability,"
 says Jeremia Kimelman, a developer on the program. "That's one of the
 great things about this platform."
-
-## Cost-savings
-
-On top of everything else, our platform will save agencies money because
-the cost of building a website on Federalist is significantly cheaper
-than building a website from scratch each time an agency needs a new
-one.
-
-A small static website built from scratch might take 200-250 hours of
-design and development work, plus the cost of infrastructure and
-maintenance. In comparison, 18F will charge Federalist users only for
-the traffic their sites use, as well as an annual fee to access the
-platform that amounts to a small fraction of the cost of a custom
-project.
 
 ## How to learn more
 
