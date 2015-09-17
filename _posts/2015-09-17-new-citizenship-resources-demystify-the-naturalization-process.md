@@ -94,8 +94,7 @@ history and government, and some of the questions can be difficult for
 test takers who haven’t spent time preparing.
 
 To help customers hone their civics knowledge, the CRC provides
-[practice civics tests](https://my.uscis.gov/prep/test/civics) in
-multiple formats and languages. These practice exams feature questions
+practice civics tests in multiple formats and languages. These practice exams feature questions
 from the actual test; customers who study using these practice exams
 tend to perform better on the actual exam than those who don’t.
 
