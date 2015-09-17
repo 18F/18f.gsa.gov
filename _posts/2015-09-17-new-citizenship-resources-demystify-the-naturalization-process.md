@@ -13,6 +13,7 @@ authors:
 - ryan
 excerpt: "For many people, September conjures up happy memories of heading back to school, new backpack and supplies in tow. For new and aspiring citizens, September has additional significance: It’s when the federal government celebrates Constitution Week, a weeklong observance commemorating the adoption of the U.S. Constitution."
 description: "USCIS, with the help of 18F, debuted a suite of new and updated resources for aspiring citizens to learn about the naturalization process."
+image: /assets/blog/citizenshipweek/image00.png
 ---
 For many people, September conjures up happy memories of heading back to
 school, new backpack and supplies in tow. For new and aspiring citizens,
