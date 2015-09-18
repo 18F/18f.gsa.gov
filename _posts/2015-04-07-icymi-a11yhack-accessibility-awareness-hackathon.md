@@ -101,7 +101,7 @@ adding that “bringing the accessibility consideration earlier into the
 process is going to help improve the experience.”
 
 ![The crowd at a11yhack](/assets/blog/a11yhack/a11yhack.jpg)
-<p class="authors">Photo: Jameson Dempsy</p>
+<p class="authors">Photo: Jameson Dempesy</p>
 
 Overall, everyone in attendance seemed to have a great time networking
 and discussing accessibility needs and concerns in the community. We’ll
