@@ -16,7 +16,7 @@ layout: feed
     <language>en-US</language>
     <description>{{ site.description }}</description>
     {% for post in site.posts limit:site.rss_limit %}<item>
-        <title>{{ post.title }}</title>
+        <title><![CDATA[ {{ post.title }} ]]></title>
         <link>{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <dc:creator>{% for author in post.authors %}{{ author | lookup:"authors, full_name" }}{% unless forloop.rindex == 1 %}, {% endunless %}{% endfor %}</dc:creator>
