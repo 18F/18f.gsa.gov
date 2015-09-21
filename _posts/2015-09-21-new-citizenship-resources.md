@@ -13,34 +13,35 @@ authors:
 - ryan
 excerpt: "For many people, September conjures up happy memories of heading back to school, new backpack and supplies in tow. For new and aspiring citizens, September has additional significance: It’s when the federal government celebrates Constitution Week, a weeklong observance commemorating the adoption of the U.S. Constitution."
 description: "USCIS, with the help of 18F, debuted a suite of new and updated resources for aspiring citizens to learn about the naturalization process."
-image: /assets/blog/citizenshipweek/image00.png
-published: false
+image: /assets/blog/citizenshipweek/rights-and-responsibilities.jpg
 ---
+
 For many people, September conjures up happy memories of heading back to
 school, new backpack and supplies in tow. For new and aspiring citizens,
 September has additional significance: It’s when the federal government
 celebrates [Constitution
-Week](http://www.uscis.gov/news/news-releases/celebrating-constitution-day-and-citizenship-day-naturalization-ceremonies),
+Week](http://www.uscis.gov/news/news-releases/uscis-welcome-more-36000-citizens-during-annual-constitution-day-and-citizenship-day-celebrations),
 a weeklong observance commemorating the adoption of the [U.S.
 Constitution](http://www.archives.gov/exhibits/charters/constitution.html).
 
 Observed Sept. 17–23, Constitution Week is a time devoted to promoting
 the study of our nation’s supreme law and recognizing new citizens.
-Sept. 17 marks Constitution Day and Citizenship Day, which provides a
+Sept. 17 marked Constitution Day and Citizenship Day, which provides a
 time for folks to reflect on the rights and responsibilities that come
 along with U.S. citizenship. It’s also a great time for aspiring
 citizens to learn more about the naturalization process.
 
-To help promote Constitution Week, we teamed up with the [United States
+To help promote Constitution Week, we teamed up with the [U.S.
 Citizenship and Immigration Services](http://www.uscis.gov/) (USCIS) to
-create new resources to complement existing citizenship-focused
-content as part of a national, [multilingual public awareness
-campaign](https://committocitizenship.org/). Since last year, 18F has
-been working with USCIS to develop
+create new resources to complement existing citizenship-focused content
+as part of a national, multilingual [public awareness
+campaign](http://www.uscis.gov/citizenship/organizations/citizenship-public-education-and-awareness-campaign)
+[that launched this summer](https://committocitizenship.org/). Since
+last year, 18F has been working with USCIS to develop
 [my.uscis.gov](https://my.uscis.gov/), a customer-facing site to help
-users navigate their relationship with the agency. The resources that
-were just announced are only the most recent effort we’ve undertaken
-together.
+users navigate their relationship with the agency. The team included
+contractors, USCIS, and 18F employees. The resources that were just
+announced are only the most recent effort we’ve undertaken together.
 
 Without further ado, here’s a quick rundown of the new and updated
 resources just announced by USCIS.
@@ -67,24 +68,22 @@ what they’re about to get into.
 ## A new page that better communicates the rights and responsibilities of citizenship
 
 Another of our goals was to provide USCIS customers with a quick
-reference to the rights and responsibilities of U.S. citizens. The
-Citizenship Resource Center (CRC)
-already provides some great in-depth materials, and we drew on these as
-we built out a [new marketing
-page](https://my.uscis.gov/citizenship/information).
+reference to the rights and responsibilities of U.S. citizens. [The
+Citizenship Resource Center](http://www.uscis.gov/citizenship)
+(CRC) already provides some great
+in-depth materials, and we drew on these as we built out a [new
+marketing page](https://my.uscis.gov/citizenship/information).
 
 If the CRC’s goal is to provide a comprehensive account of all the
 rights and responsibilities new citizens should know about, our goal was
 to translate that information into a fun, engaging page that would
-capture new customers’ attention. Our new, highly visual
-page links out to the
-existing CRC resources, making it easy for customers to quickly access
-more detailed information.
+capture new customers’ attention. Our new, highly visual page links out
+to the existing CRC resources, making it easy for customers to quickly
+access more detailed information.
 
-<figure>
-  <img src="/assets/blog/citizenshipweek/image00.png" alt="">
-  <figcaption><em>The new USCIS rights and responsibilities page</em></figcaption>
-</figure>
+![A screenshot of part of the new USCIS rights and responsibilities page](/assets/blog/citizenshipweek/rights-and-responsibilities.jpg)
+
+*The new USCIS rights and responsibilities page.*
 
 ## More study resources for the civics test
 
@@ -95,26 +94,21 @@ history and government, and some of the questions can be difficult for
 test takers who haven’t spent time preparing.
 
 To help customers hone their civics knowledge, the CRC provides
-practice civics tests in multiple formats and languages. These practice exams feature questions
+[practice civics tests](https://my.uscis.gov/prep/test/civics) in
+multiple formats and languages. These practice exams feature questions
 from the actual test; customers who study using these practice exams
 tend to perform better on the actual exam than those who don’t.
 
-Our updates to the [practice
-test](https://my.uscis.gov/prep/test/civics/view) make it even easier
-for customers to boost their civics knowledge. Some of these updates
-include:
+Our updates to the practice test make it even easier for customers to
+boost their civics knowledge. Some of these updates include:
 
--   Clearer, more concise questions — we rewrote as much material as
-    possible in plain language.
+-   Clearer, more concise questions — we rewrote as much material as possible in plain language.
 
--   Personalization — we now refer to the customer as “you,” which we
-    hope mimics actual, face-to-face conversation.
+-   Personalization — we now refer to the customer as “you,” which we hope mimics actual, face-to-face conversation.
 
--   More and higher-quality images to accompany the test questions to
-    help visual learners solidify their knowledge.
+-   More and higher-quality images to accompany the test questions to help visual learners solidify their knowledge.
 
--   An audio component that allows customers to hear recordings of all
-    the test questions.
+-   An audio component that allows customers to hear recordings of all the test questions.
 
 We built and tested these (and all other) features for mobile, so
 customers can practice the civics test whenever it’s most convenient for
@@ -131,18 +125,17 @@ community-based English as a Second Language (ESL) resources. Just as
 aspiring citizens need to take a civics test, they also have to pass a
 brief English test to demonstrate their knowledge.
 
-The class locator makes it easy for
-customers to find ESL classes and study groups near them. What’s more,
-the tool distinguishes between accredited and non-accredited classes,
-allowing customers to make the most informed decision possible.
-Customers can also use the locator to find nearby citizenship
-preparation classes, which will help them navigate the naturalization
-process.
+The class locator makes it easy for customers to find ESL classes and
+study groups near them. What’s more, the tool distinguishes between
+accredited and non-accredited classes, allowing customers to make the
+most informed decision possible. Customers can also use the locator to
+find nearby citizenship preparation classes, which will help them
+navigate the naturalization process.
 
-<figure>
-  <img src="/assets/blog/citizenshipweek/image01.png" alt="">
-  <figcaption><em>English or citizenship preparation class locator provides location and contact information</em></figcaption>
-</figure>
+![A map of English and citizenship classes](/assets/blog/citizenshipweek/classes.jpg)
+
+*The English and citizenship preparation class locator provides location and
+contact information.*
 
 Although participation in ESL classes is by no means required, many
 customers take the classes regardless. They’re a great way to practice
