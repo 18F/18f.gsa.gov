@@ -36,7 +36,7 @@ Citizenship and Immigration Services](http://www.uscis.gov/) (USCIS) to
 create new resources to complement existing citizenship-focused content
 as part of a national, multilingual [public awareness
 campaign](http://www.uscis.gov/citizenship/organizations/citizenship-public-education-and-awareness-campaign)
-[that launched this summer](https://committocitizenship.org/). Since
+that launched this summer. Since
 last year, 18F has been working with USCIS to develop
 [my.uscis.gov](https://my.uscis.gov/), a customer-facing site to help
 users navigate their relationship with the agency. The team included

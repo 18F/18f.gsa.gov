@@ -8,20 +8,19 @@ tags:
 - speaker series
 authors:
 - kate
-excerpt: "Designers Mollie Bates and Natalia Fitzgerald will be speaking tomorrow at 18F on their experience building the design team at the Consumer Finance Protection Bureau (CFPB), as well as more generally on their approaches to user-centered design."
-description: "Designers Mollie Bates and Natalia Fitzgerald will be speaking tomorrow at 18F on their experience building the design team at the Consumer Finance Protection Bureau (CFPB), as well as more generally on their approaches to user-centered design."
+excerpt: "Designers Mollie Bates and Natalia Fitzgerald will be speaking tomorrow at 18F on their experience building the design team at the Consumer Financial Protection Bureau (CFPB), as well as more generally on their approaches to user-centered design."
+description: "Designers Mollie Bates and Natalia Fitzgerald will be speaking tomorrow at 18F on their experience building the design team at the Consumer Financial Protection Bureau (CFPB), as well as more generally on their approaches to user-centered design."
 image: /assets/blog/speaker-series/cfpb-speakers.jpg
 ---
 
-![Consumer Finance Protection Bureau designers Mollie Bates and Natalia Fitzgerald](/assets/blog/speaker-series/cfpb-speakers.jpg)
+![Consumer Financial Protection Bureau designers Mollie Bates and Natalia Fitzgerald](/assets/blog/speaker-series/cfpb-speakers.jpg)
 
 Designers Mollie Bates and Natalia Fitzgerald are intimately acquainted
 with the ins and outs of consumer finance. Not only did the two
 personally feel the effects of the 2008 market crash, but both helped
-build the design team at the [Consumer Finance Protection
+build the design team at the [Consumer Financial Protection
 Bureau](http://www.consumerfinance.gov/) (CFPB),
-an organization devoted to providing clearer, more accessible
-consumer finance data.
+an organization "devoted to empowering consumers to take more control over their economic lives" through leadership, education, and enforcement of regulations.
 
 Bates and Fitzgerald will be speaking tomorrow at 18F on their
 experience building the design team at the CFPB, as well as more

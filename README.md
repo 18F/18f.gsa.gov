@@ -17,7 +17,7 @@ Deployments to production will be done by site admins, using pull requests from 
 
 If you're a new teammate, follow these steps and the #18f-site team will take care of it:
 
-1. Upload your photo to the appropiate [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0B8kn3cuJUwEkLUMwWXE2VVczbUU&usp=sharing).
+1. Upload your photo to the appropriate [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0B8kn3cuJUwEkLUMwWXE2VVczbUU&usp=sharing).
 2. Fill out the [bio form](https://docs.google.com/a/gsa.gov/forms/d/1XRCkQZw3-1JoZh6tm4k1qbunEnvJdOvDrTjRCqs-dp4/viewform).
 3. Get in touch with the site team in #18f-site; we'll handle it from there!
 
