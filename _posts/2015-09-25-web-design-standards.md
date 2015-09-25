@@ -101,8 +101,7 @@ In creating these tools, we set out to accomplish four goals:
 
 ## The process
 
-What began as a pitch to the General Services Administration’s (GSA)
-Digital Services Seed Fund Initiative turned into four months of rapid
+What began as an idea turned into four months of rapid
 development and iteration by a collaborative team at 18F and the U.S.
 Digital Service, under the guidance of an advisory board of talented,
 experienced government workers in the CFPB, the Food and Drug
@@ -203,8 +202,8 @@ encouragement, feedback, and support of this incredible group of people
 both inside and outside of government.*
 
 *A heartfelt thanks to Mollie Bates, Nick Bristow, Danny Chapman, Scott
-Cranfill, Elizabeth Goodman, Victor Garcia, Kavi Harshawat, Jeremiah
-Kimelman, Michael Jovel, Maria Marrero, Brad Nunnally, Alex Ose, Eric
+Cranfill, Elizabeth Goodman, Victor Garcia, Kavi Harshawat, Michael Jovel, Jeremiah
+Kimelman, Deepa Kunapuli, Maria Marrero, Brad Nunnally, Alex Ose, Eric
 Ronne, Nick Setthachayanon, Jessica Teal, Jennifer Thibault, Ryan
 Thurlwell, Russ Unger, Charles Worthington, and Emily Wright-Moore for
 always being available to help us think through some of the extra sticky
