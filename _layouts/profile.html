@@ -9,11 +9,10 @@
 <section class="container bare profile">
 	{% include nav.html %}
   {% include logo.html %}
-  <nav class="back"><a href="/team#{{ page.name }}"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all people</a></nav>
   {% include headline.html %}
-  <div class="content" role="main" itemscope itemprop="mainContentOfPage">
+  <div id="main" class="content" role="main" itemscope itemprop="mainContentOfPage">
     {% if content.size > 0 %}{{ content }}
-    
+
     {% else %}We haven't gotten to filling in {{ page.first_name }}'s
 information yet. Check back soon, and thanks for your patience!
     {% endif %}

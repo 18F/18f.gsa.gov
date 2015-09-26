@@ -1,5 +1,5 @@
 ---
-title: "Labor Category Descriptions for Agile Procurements"
+title: "Labor category descriptions for agile procurements"
 layout: post
 image: ""
 date: 2015-03-10

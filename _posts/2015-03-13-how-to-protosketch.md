@@ -1,5 +1,5 @@
 ---
-title: How to Protosketch
+title: How to protosketch
 date: '2015-03-13'
 layout: post
 image: /assets/images/2014/12/protosketch.jpg
@@ -32,8 +32,7 @@ Although not difficult, protosketching demands a definite "bag of
 tricks" that one should understand to rapidly create web-enabled spike
 solutions. Let's dive a little deeper in.
 
-Publicize Your Work with GitHub Pages
--------------------------------------
+## Publicize your work with GitHub Pages
 
 Your basic goal is to demonstrate possibilities rapidly. You can do this
 on your personal computer and have people crowd around it---but it is
@@ -56,8 +55,7 @@ Open Source
 Policy*](https://github.com/18F/open-source-policy/blob/master/policy.md),
 "from the first line."
 
-Leverage Design For Free Using a Framework
-------------------------------------------
+## Leverage design for free using a framework
 
 HTML is the basis of most web-enabled protosktetching. You probably need
 to understand HTML and CSS to protosketch rapidly. However, frameworks,
@@ -69,8 +67,7 @@ devices of different sizes and aspect ratios.
 Although you may someday want to build a native mobile app, you will
 generally want to start with a mobile-friendly website instead.
 
-jQuery API for mocking APIs quickly but dependably
--------------------------------------------------
+## jQuery API for mocking APIs quickly but dependably
 
 One common thread in the projects being considered for 18F Consulting is
 a desire to integrate disparate data sources into a single application
@@ -93,8 +90,7 @@ worthwhile to optimize JavaScript code to nicely render arbitrary JSON.
 In other words, the less your JavaScript knows about your data, the more
 flexibly you can sketch in sample data.
 
-Making Data Malleable
----------------------
+## Making data malleable
 
 The protosketcher should feel comfortable enough modifying sample data
 so that it feels "malleable". Paul Graham, in an essay titled[
@@ -116,8 +112,7 @@ about what should be built, but being an instrument for the program
 manager's or end-user's vision. JavaScript and mock APIs give us this
 freedom.
 
-Render Rapidly by Using Public or Fake Data
--------------------------------------------
+## Render rapidly by using public or fake data
 
 It is convenient to work publicly in open-source to avoid security
 issues, which means that we must use public or fake data, instead of
@@ -128,8 +123,7 @@ An example of fake text is the famous Lorem Ipsum text. Wikimedia
 Commons is a great source of photographs and visual designs that have
 clearly expressed, open licenses (or lack of licenses).
 
-Running a Server
-----------------
+Running a server
 
 Given the power of JavaScript, you can quickly build impressive demos
 with "fake" data using the JSON and jQuery API trick mentioned above.
@@ -150,8 +144,7 @@ Flask before, for example, this might take 20 minutes.
 Heroku and similar application hosting platforms provides a more
 permanent and robust solution.
 
-Theatrical Devices
-------------------
+## Theatrical devices
 
 Protosketching is a form of coding athleticism--a performance art as a
 well as a compositional art. Don't be ashamed to use a little
@@ -180,7 +173,7 @@ Here are some of the techniques we have used:
     open-source project, which itself was forked from a Code for
     America's Honolulu project. And it worked.
 
-**Motivation: Remember, You're Protosketching For the Success of Your Project**
+**Motivation: Remember, you're protosketching for the success of your project**
 ===============================================================================
 
 Remember, the reason you are using a bag-of-tricks and theater is not to
@@ -191,7 +184,7 @@ duty in any Agile, User-centered Design process to use any tool in our
 kit to accomplish this. Protosketching is a valuable kind of spike
 solution that lets you quickly get feedback from the user.
 
-**Appendix: A Technical Example**
+**Appendix: A technical example**
 =================================
 
 We exemplify some of the basic techniques mentioned in this article with

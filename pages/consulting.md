@@ -88,9 +88,9 @@ Email <a id="email" href=""></a> with your need and we’ll be happy to talk fur
 <!-- Obfuscate our email -->
 <div>
   <script>
-    var parts = ["18FC", "@", "gsa", ".gov"];
+    var parts = ["Inquiries18F", "@", "gsa", ".gov"];
     var email = parts[0] + parts[1] + parts[2] + parts[3];
-    document.getElementById("email").href = "mailto:" + email + "?Subject=Request%20For%20Client%20Services";
+    document.getElementById("email").href = "mailto:" + email;
     document.getElementById("email").innerHTML = email;
   </script>
 </div>

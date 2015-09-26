@@ -15,7 +15,7 @@ Jesse leads the design and product strategy initiatives for 18F Consulting, whic
 
 "We start with some basic questions: Who are the users? What do they truly need? How much can digital strategy help? And how much process or policy needs to change to enable that?" she says. "And then we talk about user-centered design and lead workshops that help people think about the end user."
 
-Jesse's skill set includes product strategy, user research, UX design, creative direction, stakeholder/client relations, and content strategy. Before 18F, she led a design team at Pivotal Labs. She has also worked in a handful of startups and as an experience designer for major art, science and history museums. She has a masters in graphic design, with an emphasis on semiotics and context, from the Rhode Island School of Design.
+Jesse's skillset includes product strategy, user research, UX design, creative direction, stakeholder/client relations, and content strategy. Before 18F, she led a design team at Pivotal Labs. She has also worked in a handful of startups and as an experience designer for major art, science and history museums. She has a master's degree in graphic design, with an emphasis on semiotics and context, from the Rhode Island School of Design.
 
 She joined 18F because she wanted to work on projects that matter. 
 

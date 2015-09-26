@@ -1,8 +1,9 @@
 {% if include.context == 'page' and page.authors %}{% assign authors = page.authors %}{% endif %}{% if include.context == 'post' and post.authors %}{% assign authors = post.authors | to_yaml %}{% endif %}
 <p class="authors">
   by {% for author in authors %}
-  <span class="author {{author}}" style="color: #000">{% if site.collections.team.output %}<a href='/team/{{author}}'>{{author | lookup:"authors, full_name"}}</a>{% else %}{{ author | lookup:"authors, full_name"}}{% endif %}</span>{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
-  {% endfor %}
+  <span class="author {{author}}" style="color: #000">
+    {{ author | team_link }}{% unless forloop.last %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
+  {% endfor %}</span>
 </p>
 {% comment %}
 Take out the `{ if site.collections.team.output }` logic after

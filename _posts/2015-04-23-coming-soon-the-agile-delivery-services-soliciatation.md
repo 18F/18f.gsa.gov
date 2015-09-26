@@ -1,6 +1,7 @@
 ---
-title: "Coming Soon: The Agile Delivery Services Solicitation"
+title: "Coming soon: the agile delivery services solicitation"
 layout: post
+image: ""
 authors:
 - chrisc
 - noah
@@ -9,11 +10,11 @@ tags:
 - 18f consulting
 - agile
 - request for quote
-excerpt: "Calling all Agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
-description: "Calling all Agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
+excerpt: "Calling all agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
+description: "Calling all agile vendors...get ready! By the end of this month, GSA will be releasing a Request for Quote (RFQ) for the alpha version of the Agile Delivery Services Blanket Purchase Agreement"
 ---
 
-Calling all Agile vendors...get ready!
+Calling all agile vendors...get ready!
 
 By the end of this month, GSA will be releasing a Request for Quote
 (RFQ) for the [alpha version of the Agile Delivery Services Blanket
@@ -32,4 +33,4 @@ Now it's time to solicit the services of those vendors who want to be a part of 
 For those vendors with prior Federal bidding experience, you’ll find this RFQ unique in many ways. First, we’re going to evaluate you based on a submission of a working prototype. Second, you’ll need to write more code than narrative. Third, you’ll submit pricing for [labor
 categories](https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/) specifically written for the types of agile staff that 18F needs. And, last, you’ll have to be quick &#8212; the required turnaround time to submit an RFQ response is (very) short.
 
-We couldn’t be more excited about the weeks to come. The creation of this marketplace of Agile vendors will drive government technology forward in new and exciting ways. We welcome and look forward to your responses.
+We couldn’t be more excited about the weeks to come. The creation of this marketplace of agile vendors will drive government technology forward in new and exciting ways. We welcome and look forward to your responses.

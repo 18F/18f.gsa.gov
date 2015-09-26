@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Taking control of our website with Jekyll and webhooks
+title: "Taking control of our website with Jekyll and webhooks"
 image: /assets/blog/new-jekyll-site/header.png
 description: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
+excerpt: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
 authors:
  - eric
  - mhz
@@ -86,10 +87,10 @@ This [recent post on an 18F-hosted hackathon](https://18f.gsa.gov/2014/10/01/ope
 ```yaml
 ---
 layout: post
-title: "18F Open Source Hack Series: Midas"
+title: "18F open source hack series: Midas"
 image: /assets/blog/midas-oct-hacking/coding.jpg
 description: "We're building the future of government, but we need your help! Join us for a session of coding or UX design. Feel free to come for the afternoon or evening session or both! You can work solo, in pairs or groups that will form when we get there."
-excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
+excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health and Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
 authors:
 - sarah
 tags:
