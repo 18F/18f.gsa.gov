@@ -17,8 +17,8 @@ description: The U.S. Web Design Standards is the U.S. government’s very own s
 image: /assets/blog/web-design-standards/home.png
 ---
 
-*This project was a collaboration between 18F and the US Digital
-Service. The team was lead by Mollie Ruskin (USDS), and made up of
+*This project was a collaboration between 18F and the U.S. Digital
+Service (USDS). The team was lead by Mollie Ruskin (USDS), and made up of
 designers and developers in both groups, including Maya Benari (18F),
 Carolyn Dew (18F), Julia Elman (18F), Victor Garcia (USDS), Angel
 Kittiyachavalit (USDS), Colin MacArthur (18F), and Marco Segreto (18F).*
@@ -61,11 +61,11 @@ Trademark Office](http://uspto.github.io/designpatterns/) (USPTO), and
 [Healthcare.gov](http://styleguide.healthcare.gov/).
 
 This is a time-intensive endeavor, and not all agencies have the
-resources to support it. To best serve users like Joanna, we need to set
+resources to support it. To best serve users like Joanne, we need to set
 a new bar for simplicity and consistency **across** government services,
 not just within a given agency or program.
 
-The question in front of us became: is it possible to create a shared
+The question in front of us became: Is it possible to create a shared
 set of tools to provide consistent, beautiful, and easy-to-use
 government websites?
 
@@ -77,8 +77,8 @@ and mobile device.](/assets/blog/web-design-standards/home.png)
 device.*
 
 The [U.S. Web Design
-Standards](https://playbook.cio.gov/design)
-is the U.S. government’s very own set of common UI components and visual
+Standards](https://playbook.cio.gov/designstandards)
+are the U.S. government’s very own set of common UI components and visual
 styles for websites. It’s a resource designed to make things easier for
 government designers and developers, while raising the bar on what the
 American people can expect from their digital experiences.
@@ -106,13 +106,13 @@ development and iteration by a collaborative team at 18F and the U.S.
 Digital Service, under the guidance of an advisory board of talented,
 experienced government workers in the CFPB, the Food and Drug
 Administration, the Department of Veterans Affairs, the Social Security
-Administration , the Department of Education, the Internal Revenue
+Administration, the Department of Education, the Internal Revenue
 Service, and the GSA.
 
 As with all 18F and U.S. Digital Service projects, we’re working in the
 open to create a resource that everyone can own and contribute to. We’ve
 taken an iterative, user-centred approach to ensure we’re addressing the
-needs of end users as well as government designers and developers. A
+needs of our users as well as government designers and developers. A
 cross-functional team of UX, front-end, and visual designers each played
 a key role in this process:
 
@@ -131,12 +131,12 @@ the site’s organization scheme to its code snippets and download buttons
 are informed by user research.
 
 The design of every component follows data-informed best practices,
-found both inside ([DigitalGov](https://www.digitalgov.gov/) ) and
+found both inside ([DigitalGov](https://www.digitalgov.gov/)) and
 outside (Nielsen Norman group articles) of government. Many components
 were derived from other agency and style guide patterns; more complex
 patterns were further tested with end users.
 
-We still believe agencies should usability test everything they build,
+We believe agencies should still usability test everything they build,
 but following the standards will help everyone avoid common pitfalls.
 
 ![A sample of code from the Web Design Standards.](/assets/blog/web-design-standards/code.png)
@@ -147,16 +147,16 @@ but following the standards will help everyone avoid common pitfalls.
 We wanted to create a single reference point for developers in need of
 common patterns, providing the building blocks of code for teams to
 assemble websites. Our goal was to build a system of components shaped
-by modern best practices in front end development and government
+by modern best practices in front-end development and government
 accessibility standards.
 
 We built the UI components on a solid HTML foundation, progressively
 enhanced to provide core experiences across browsers. All of the code is
-508-compliant, so it’s accessible to everyone. Our styles are written
+508 compliant, so it’s accessible to everyone. Our styles are written
 with Sass and can be used as a Sass library or included directly as
 compiled CSS. In order to make sure our code was easy to read and easy
 to pick up, it had to look like it was written from a single voice.
-After speaking with dozens of frontend developers and designers in
+After speaking with dozens of front-end developers and designers in
 government, we sought to strike a balance between modular CSS and code
 that’s clean and easy-to-use.
 
@@ -182,16 +182,12 @@ flavor with adaptability baked in.
 ## We’re just getting started...and we need you!
 
 Like any true alpha, this is a living product; we will continue to test
-our decisions and assumptions with real-world feedback as it continues
-to develop and evolve. We encourage you to explore the [U.S. Web Design
-Standards](https://playbook.cio.gov/design), contribute your own code
-and ideas, and leave feedback on
-[GitHub](https://github.com/18F/web-design-standards). We will use
+our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards), contribute your own code
+and ideas, and leave feedback on [GitHub](https://github.com/18F/web-design-standards). We will use
 your input to improve the standards and make regular releases in the
 coming weeks and months.
 
-[Check out the U.S. Web Design
-Standards](https://playbook.cio.gov/design) and [let us know what you
+[Check out the U.S. Web Design Standards](https://playbook.cio.gov/designstandards) and [let us know what you
 think](https://github.com/18F/web-design-standards/issues)!
 
 -----------
@@ -207,7 +203,7 @@ Kimelman, Deepa Kunapuli, Maria Marrero, Brad Nunnally, Alex Ose, Eric
 Ronne, Nick Setthachayanon, Jessica Teal, Jennifer Thibault, Ryan
 Thurlwell, Russ Unger, Charles Worthington, and Emily Wright-Moore for
 always being available to help us think through some of the extra sticky
-bits. Major kudos to Mike Bland and Alison Rowland for making 18F Pages
+bits. Major kudos to Mike Bland and Alison Rowland for making [18F Pages](https://18f.gsa.gov/2015/05/14/18Fpages/)
 work seamlessly for this project.*
 
 *And finally, a special shout out to Julia Elman for her hard work in
