@@ -188,7 +188,7 @@ and ideas, and leave feedback on [GitHub](https://github.com/18F/web-design-stan
 your input to improve the standards and make regular releases in the
 coming weeks and months.
 
-[Check out the U.S. Web Design Standards](https://playbook.cio.gov/design) and [let us know what you
+[Check out the U.S. Web Design Standards](https://playbook.cio.gov/designstandards) and [let us know what you
 think](https://github.com/18F/web-design-standards/issues)!
 
 -----------
