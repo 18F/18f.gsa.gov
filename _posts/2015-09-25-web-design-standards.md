@@ -77,7 +77,7 @@ and mobile device.](/assets/blog/web-design-standards/home.png)
 device.*
 
 The [U.S. Web Design
-Standards](https://playbook.cio.gov/design)
+Standards](https://playbook.cio.gov/designstandards)
 are the U.S. government’s very own set of common UI components and visual
 styles for websites. It’s a resource designed to make things easier for
 government designers and developers, while raising the bar on what the
@@ -183,7 +183,7 @@ flavor with adaptability baked in.
 ## We’re just getting started...and we need you!
 
 Like any true alpha, this is a living product; we will continue to test
-our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore the [U.S. Web Design Standards](https://playbook.cio.gov/design), contribute your own code
+our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards), contribute your own code
 and ideas, and leave feedback on [GitHub](https://github.com/18F/web-design-standards). We will use
 your input to improve the standards and make regular releases in the
 coming weeks and months.
