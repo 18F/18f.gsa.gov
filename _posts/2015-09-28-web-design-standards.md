@@ -206,6 +206,6 @@ always being available to help us think through some of the extra sticky
 bits. Major kudos to Mike Bland and Alison Rowland for making [18F Pages](https://18f.gsa.gov/2015/05/14/18Fpages/)
 work seamlessly for this project.*
 
-*And finally, a special shout out to Julia Elman for her hard work in
+*A special shout out to Julia Elman for her hard work in
 getting this thing off the ground and to John Yuda for seeing us through
-to the end!*
+to the end. And thanks to Code for America's Norris Hung and Frances Berriman for their contributions to this project.*
