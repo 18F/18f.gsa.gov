@@ -55,7 +55,7 @@ the same problems again and again.
 Taking after a growing trend in the private sector, several federal
 agencies have begun creating design patterns and user interface (UI)
 toolkits to build unity within their own digital brand. Some shining
-examples include those of the [Consumer Financal Protection
+examples include those of the [Consumer Financial Protection
 Bureau](https://cfpb.github.io/design-manual/) (CFPB), [US Patent and
 Trademark Office](http://uspto.github.io/designpatterns/) (USPTO), and
 [Healthcare.gov](http://styleguide.healthcare.gov/).
@@ -111,7 +111,7 @@ Service, and the GSA.
 
 As with all 18F and U.S. Digital Service projects, we’re working in the
 open to create a resource that everyone can own and contribute to. We’ve
-taken an iterative, user-centred approach to ensure we’re addressing the
+taken an iterative, user-centered approach to ensure we’re addressing the
 needs of our users as well as government designers and developers. A
 cross-functional team of UX, front-end, and visual designers each played
 a key role in this process:
