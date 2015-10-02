@@ -9,10 +9,11 @@ tags:
 - how we work
 excerpt: "Building a high-performing design team is tough under the best of circumstances. Add in governmental regulations, a distributed workforce, and rapid growth of the parent organization, and the process is even tougher."
 description: "Building a high-performing design team is tough under the best of circumstances. Add in governmental regulations, a distributed workforce, and rapid growth of the parent organization, and the process is even tougher."
-image: /assets/blog/speaker-series/cfpb-talk-slide.jpg
+image: /assets/blog/speaker-series/cfpb-talk.jpg
 ---
 
-![Designing for all of America: Building a in-house design team within the federal government](/assets/blog/speaker-series/cfpb-talk-slide.jpg)
+![Mollie Bates and Natalia Fitzgerald give a talk at 18F about the design team at the Consumer
+Financial Protection Bureau](/assets/blog/speaker-series/cfpb-talk.jpg)
 
 Building a high-performing design team is tough under the best of
 circumstances. Add in governmental regulations, a distributed workforce,
