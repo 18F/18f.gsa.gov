@@ -43,7 +43,7 @@ developers recognize it.
 
 -   **Slowing rate of velocity.** Velocity is a measurement for how much work a development team can complete during a particular interval (for example, two weeks). Assuming all other things are equal (for example, team composition hasn’t changed), if velocity starts to slow down over the course of several iterations, it maybe a sign that too much technical debt has piled up and is now impairing development productivity.
 
--   **Stressful releases.** If the development team is under extreme stress at the end of a release cycle, technical debt may be the underlying cause. You’ll know something isn’t quite right with the codebase if the release process requires the development team to go into “[*crunch mode*](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/)” to fix unforeseen problems such as broken integration builds and software crashes.
+-   **Stressful releases.** If the development team is under extreme stress at the end of a release cycle, technical debt may be the underlying cause. You’ll know something isn’t quite right with the codebase if the release process requires the development team to go into “[crunch mode](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/)” to fix unforeseen problems such as broken integration builds and software crashes.
 
 -   **Aging libraries.** If your software uses libraries for which new versions exist, that represents technical debt. When those libraries are a “major version” behind (e.g., EJB 2 vs. EJB 3, Devise 1 vs. Devise 3), or worse, and are no longer being maintained, then your project is deep in technical debt.
 
@@ -77,7 +77,7 @@ back. You can do this using our friend, the heat map, like the one shown
 below.
 
 ![A heat map of the various penalties involved with technical debt in different areas of code.](/assets/blog/technical-debt/heat-map.jpg)
-*Source: [Modified from post by James
+*Source: [Modified from a post by James
 King](http://kingsinsight.com/2010/07/31/estimating-the-impact-of-technical-debt-on-stories-heat-maps/)*
 
 As you can see, each software component is colored to indicate the
@@ -132,7 +132,7 @@ step is to decide what to do about it. Frank Buschmann [describes three
 debt payment
 strategies](http://www.computer.org/csdl/mags/so/2011/06/mso2011060029-abs.html):
 
--   **Debt repayment**. Refactor or replace the code, framework, or platform that is considered technical debt and is giving you a headache. (For those unfamiliar with the technical jargon, [refactoring](http://code_refactoring) is the process of improving or simplifying code without changing the functionality.)
+-   **Debt repayment**. Refactor or replace the code, framework, or platform that is considered technical debt and is giving you a headache. (For those unfamiliar with the technical jargon, [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) is the process of improving or simplifying code without changing the functionality.)
 
 -   **Debt conversion**. Replace the current solution with a “good, but not perfect” alternative. The new solution has a lower interest rate. This might be a good option if a perfect solution is exceedingly expensive to build.
 
