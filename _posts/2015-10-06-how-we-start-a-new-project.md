@@ -38,7 +38,7 @@ creating a platform that would build static government websites to the
 General Service Administration's Office of Citizen Services and
 Innovative Technologies (OCSIT).
 
-Dave’s pitch called for a platform that contained templates for common use cases,
+Dave’s [pitch](https://github.com/18F/federalist/blob/master/README.md#initial-proposal) called for a platform that contained templates for common use cases,
 like a departmental website, a single page report website, API and
 developer documentation, and a project dashboard.
 
