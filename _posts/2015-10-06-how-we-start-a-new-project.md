@@ -5,6 +5,8 @@ authors:
 - melody
 tags:
 - our projects
+- proactive federal partner
+- federalist
 excerpt: "We built first iteration of Federalist in a matter of months. Today,
 we’re lifting the curtain and looking at what went into building the
 platform, so you can get a sense of what it looks like when 18F starts a
@@ -25,7 +27,7 @@ alpha-stage content management
 platform that makes it easy and inexpensive for federal agencies to
 build secure, reliable, and accessible websites.
 
-We built first iteration of Federalist in a matter of months. Today,
+We built the first iteration of Federalist in a matter of months. Today,
 we’re lifting the curtain and looking at what went into building the
 platform, so you can get a sense of what it looks like when 18F starts a
 project from scratch.
@@ -67,7 +69,7 @@ code the platform.
 
 Much of the team’s initial research came from looking at
 [notalone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/)
-and [the homepage of healthcare.gov](http://www.digitalgov.gov/2013/05/01/new-healthcare-gov-is-open-cms-free/),
+and [the homepage of healthcare.gov](http://www.digitalgov.gov/2013/05/01/new-healthcare-gov-is-open-cms-free/) —
 government websites built using similar technology stacks. By creating a
 platform, the Federalist team knew that lots of government agencies
 would be able to build similar sites without starting from the ground
