@@ -14,7 +14,7 @@ expertise with our digital expertise. To test our hypothesis, we’re launching 
 description: "We’ve come to realize that there may be opportunities to
 achieve high impact in targeted areas by aligning our subject
 expertise with our digital expertise. To test our hypothesis, we’re launching an alpha version of our first policy vertical (or niche market) within 18F Consulting: the Digital Economy Practice."
-image: /assets/images/blog/digital-economy-practice/dep-graphic.jpg
+image: /assets/images/blog/digital-economy-practice/dep-graphic2.jpg
 ---
 
 Since launching [more than a year
@@ -34,7 +34,7 @@ Consulting](https://18f.gsa.gov/consulting/): the Digital Economy
 Practice.
 
 <div style="text-align:center">
-<img src="/assets/blog/digital-economy-practice/dep-graphic.jpg" alt="The Digital Economy Practice competencies include industry and policy, people and organization, design and product, technology and data, and acquisition and procurement." width="500px">
+<img src="/assets/blog/digital-economy-practice/dep-graphic2.jpg" alt="The Digital Economy Practice competencies include industry and policy, people and organization, design and product, technology and data, and acquisition and procurement." width="500px">
 </div>
 
 Across the government, agencies work hard to improve economic outcomes
