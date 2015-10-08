@@ -19,7 +19,7 @@ conversation nearly every day, both for projects with our partner
 agencies and for internal ones, which help our team work faster and more
 effectively.
 
-<img class="align-center" src="/assets/blog/tockingtime/tock2.gif" width="800">
+<img class="align-center" src="/assets/blog/tockingtime/tock2.gif" width="800" alt="The clock and the candlestick from Beauty and the Beast celebrating.">
 
 I recently spent time helping with one of our internal frustrations —
 how members of 18F track how we spend our time. 18F operates many of our

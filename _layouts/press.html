@@ -9,12 +9,12 @@
 	{% include nav.html %}
   {% include logo.html %}
   {% include headline.html %}
-  <div class="content" role="main" id="top main" itemscope itemprop="mainContentOfPage">
-    <a href="#toc" class="skips">Table of contents</a>
+  <div class="content" role="main" id="main" itemscope itemprop="mainContentOfPage">
+    <a href="#toc" id="top" class="skips">Table of contents</a>
     {{ content }}
     {% for item in site.press %}
       {% unless item.title == '18F Press' %}
-          <section>
+          <section id="">
           <h2 id="{{item.title | slugify }}">	{{item.title}} </h2>
           <p> {{item.content}} </p>
           <a href="#top">Back to top</a>

@@ -70,7 +70,7 @@ Finally, we moved from Bootstrap to [Bourbon.io](http://bourbon.io/) as our site
 
 ## Blogging with freedom
 
-Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/news`](18f.gsa.gov/news).
+Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/blog/`](https://18f.gsa.gov/blog/).
 
 This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
 
