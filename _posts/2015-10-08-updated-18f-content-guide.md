@@ -53,7 +53,7 @@ Here’s a sampling of some of the [improvements we’ve
 made](https://github.com/18F/content-guide/pulls?q=is%3Apr+is%3Aclosed)
 recently based on your suggestions:
 
--   We expanded our [active voice section](https://pages.18f.gov/content-guide/active-voice/) to include more information about when using passive voice might be preferable to using active. (We also added a handy test you can use to determine whether you’re writing in passive — it involves zombies, incidentally).
+-   We expanded our [active voice section](https://pages.18f.gov/content-guide/active-voice/) to include more information about when using passive voice might be preferable to using active. (We also added a handy test you can use to determine whether you’re writing in passive — it involves zombies, incidentally.)
 
 -   We included guidance on [en-dash usage](https://www.google.com/url?q=https%3A%2F%2Fpages.18f.gov%2Fcontent-guide%2Fpunctuation%2F&sa=D&sntz=1&usg=AFQjCNFuFuNbLHPqLgdtNJOyESPRDlwq9g).
 
