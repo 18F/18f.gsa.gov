@@ -7,9 +7,9 @@ tags:
 - how we work
 - devops
 - our products
-excerpt: "We’ve developed cloud.gov, a Platform-as-a-Service (Paas), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
+excerpt: "We’ve developed cloud.gov, a Platform-as-a-Service (PaaS), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
 products."
-description: "We’ve developed cloud.gov, a Platform-as-a-Service (Paas), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
+description: "We’ve developed cloud.gov, a Platform-as-a-Service (PaaS), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
 products."
 image: /assets/blog/cloud-gov/ship-launch.gif
 ---
@@ -34,7 +34,7 @@ make it as easy as possible to build right near the water and get it
 launched quickly and easily, even at battleship scale.
 
 <div style="text-align:center">
-<img src="/assets/blog/cloud-gov/ship-launch.gif" alt="An animation of a large ship being launched into the water"></div>
+[<img src="/assets/blog/cloud-gov/ship-launch.gif" alt="An animation of a large ship being launched into the water">](https://www.youtube.com/watch?v=n6u4WjYaX2Q)</div>
 
 ---
 
