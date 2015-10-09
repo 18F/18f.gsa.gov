@@ -117,7 +117,7 @@ end
 
 def test
   # exec_cmd('sh deploy/tests/test.sh')
-  exec_cmd('ruby deploy/tests/test.rb')
+  exec_cmd('bundle exec deploy/tests/test.rb')
   exec_cmd('bundle exec jekyll test')
 end
 
