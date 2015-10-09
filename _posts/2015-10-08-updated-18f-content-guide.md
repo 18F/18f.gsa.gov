@@ -55,7 +55,7 @@ recently based on your suggestions:
 
 -   We expanded our [active voice section](https://pages.18f.gov/content-guide/active-voice/) to include more information about when using passive voice might be preferable to using active. (We also added a handy test you can use to determine whether you’re writing in passive — it involves zombies, incidentally.)
 
--   We included guidance on [en-dash usage](https://www.google.com/url?q=https%3A%2F%2Fpages.18f.gov%2Fcontent-guide%2Fpunctuation%2F&sa=D&sntz=1&usg=AFQjCNFuFuNbLHPqLgdtNJOyESPRDlwq9g).
+-   We included guidance on [en-dash usage](https://pages.18f.gov/content-guide/punctuation/).
 
 -   We removed the term Sticky Notes from our [specific words and phrases](https://pages.18f.gov/content-guide/specific-words-and-phrases/) page and included it in a new section (more on that below).
 
