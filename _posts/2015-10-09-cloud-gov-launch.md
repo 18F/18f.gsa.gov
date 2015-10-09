@@ -34,7 +34,7 @@ make it as easy as possible to build right near the water and get it
 launched quickly and easily, even at battleship scale.
 
 <div style="text-align:center">
-[<img src="/assets/blog/cloud-gov/ship-launch.gif" alt="An animation of a large ship being launched into the water">](https://www.youtube.com/watch?v=n6u4WjYaX2Q)</div>
+[![An animation of a large ship being launched into the water](/assets/blog/cloud-gov/ship-launch.gif)](https://www.youtube.com/watch?v=n6u4WjYaX2Q)</div>
 
 ---
 
