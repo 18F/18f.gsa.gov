@@ -115,6 +115,6 @@ bottlenecks that pop up, and then hope to roll the service out more
 broadly.
 
 If you're interested in [cloud.gov](https://cloud.gov), be sure to
-drop your email address in the form located at https://cloud.gov, or
+drop your email address in the [form located at https://cloud.gov](https://cloud.gov/#contact), or
 drop by our [#devops-public Slack channel](https://chat.18f.gov/) to
 chat about it.
