@@ -27,7 +27,7 @@ There are several reasons we’re trying this experiment. But perhaps the most i
 
 ## How will it work?
 
-On Monday, October 26, we will tag a GitHub issue in the [CALC repository](https://github.com/18F/calc) with a "micro-purchase" tag. In the issue, we'll specify the acceptance criteria and a closing time. At that moment, the opening "bid" would be $3499, and companies would then have the ability to bid down the price. Whoever has the lowest bid at the closing time will have five working days to ship the code necessary to satisfy the criteria. If the criteria are met, the vendor gets paid. It's that easy. If the criteria aren't met, the next lowest bidder gets 10 working days to ship the code. In order to make this work, we will provide acceptance criteria, instead of requirements. This limits the possibility of misinterpretation and ensures the quality of delivery.
+On Monday, October 26, we will tag a GitHub issue in the [CALC repository](https://github.com/18F/calc) with a "micro-purchase" tag. In the issue, we'll specify the acceptance criteria and a closing time. At that moment, the opening "bid" would be $3499, and companies would then have the ability to bid down the price. Whoever has the lowest bid at the closing time will have 10 working days to ship the code necessary to satisfy the criteria. If the criteria are met, the vendor gets paid. It's that easy. If the criteria aren't met, the next lowest bidder gets 10 working days to ship the code. In order to make this work, we will provide acceptance criteria, instead of requirements. This limits the possibility of misinterpretation and ensures the quality of delivery.
 
 ## Who can participate?
 
