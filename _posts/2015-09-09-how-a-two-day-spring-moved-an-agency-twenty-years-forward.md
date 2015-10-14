@@ -12,7 +12,7 @@ tags:
 - operational excellence
 - our projects
 - user research
-- consulting
+- 18f consulting
 excerpt: "At 18F Consulting, we experiment with ways to empower agencies to build cost-efficient, excellent
 digital solutions. Recently we partnered with the Department of Labor’s
 Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."
