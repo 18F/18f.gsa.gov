@@ -10,7 +10,7 @@ excerpt: "We have an acronyms section in our Content Guide, a resource we hearti
 description: "We have an acronyms section in our Content Guide, a resource we heartily recommend. Acronyms and abbreviations also have a ton of associated history and nuance, which we’re shedding light on here, hopefully to encourage other authors and agencies to think carefully about how they use them in digital tools."
 image: /assets/blog/content-style-guide/style-guide-screen.jpg
 ---
-SEC. FEC. FERC. FCC. CDC.\
+SEC. FEC. FERC. FCC. CDC.
 
 The “alphabet soup” of government acronyms is a well-documented frustration — both among federal employees and the public we serve. Abbreviations can be confusing. They mystify meaning. They read like riddles. 
 
