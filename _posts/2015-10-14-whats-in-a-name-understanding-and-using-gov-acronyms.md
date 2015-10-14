@@ -16,7 +16,7 @@ The “alphabet soup” of government acronyms is a well-documented frustration 
 
 And they’re one of things we get asked about the most.
 
-We have an acronyms section in our [Content Guide](https://pages.18f.gov/content-guide/acroynms-and-abbreviations/), a resource we heartily recommend. Acronyms and abbreviations also have a ton of associated history and nuance, which we’re shedding light on here, hopefully to encourage other authors and agencies to think carefully about how they use them in digital tools.
+We have an acronyms section in our [Content Guide](https://pages.18f.gov/content-guide/acronyms-and-abbreviations/), a resource we heartily recommend. Acronyms and abbreviations also have a ton of associated history and nuance, which we’re shedding light on here, hopefully to encourage other authors and agencies to think carefully about how they use them in digital tools.
 
 First things first: What’s an acronym, and what’s an abbreviation? Like every good grammar question, it depends on who you ask. We consider acronyms a subset of abbreviations, a stance also held by the Council of Science Editors. Here’s what that means:
 
