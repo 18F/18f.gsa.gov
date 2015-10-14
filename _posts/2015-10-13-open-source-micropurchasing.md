@@ -6,7 +6,7 @@ authors:
 tags:
 - procurement
 - open source
-- consulting
+- 18f consulting
 excerpt: "In the next few weeks, we're going to use our micro-purchase authority to run an experiment to contract for open source contributions to our active projects."
 description: "In the next few weeks, we're going to use our micro-purchase authority to run an experiment to contract for open source contributions to our active projects."
 image: /assets/blog/calc-announcement/calc_homepage.jpg
