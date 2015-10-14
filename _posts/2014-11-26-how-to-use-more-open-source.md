@@ -213,8 +213,14 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 
 ## Glossary
 
-<table cellpadding="0" cellspacing="0" class="c34">
-	<tbody>
+<table cellpadding="0" cellspacing="0" class="c34" summary="An index of terms used in this post that readers might not know.">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
 		<tr >
 			<td colspan="1" rowspan="1">18F</td>
 			<td colspan="1" rowspan="1">An <a href="https://18f.gsa.gov/">incubator</a> using modern software development techniques for the federal government.</td>
@@ -237,12 +243,12 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">content management system</td>
-			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Computer_program"></a><a href="https://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="https://en.wikipedia.org/wiki/Content_%28media%29"></a>content, organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
+			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="https://en.wikipedia.org/wiki/Content_%28media%29">content,</a> organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
 			</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Elasticsearch</td>
-			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="https://en.wikipedia.org/wiki/Lucene"></a><a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
+			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">FISMA</td>
@@ -258,7 +264,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">GitHub</td>
-			<td colspan="1" rowspan="1">GitHub is a <a href="https://en.wikipedia.org/wiki/Git_%28software%29"></a><a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service"></a> <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="https://en.wikipedia.org/wiki/Distributed_revision_control"></a><a href="https://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="https://en.wikipedia.org/wiki/Revision_control"></a><a href="https://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
+			<td colspan="1" rowspan="1">GitHub is a <a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository  <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="https://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="https://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">green-field</td>
@@ -271,7 +277,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">Lucene</td>
-			<td colspan="1" rowspan="1">Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> is a free open source<a href="https://en.wikipedia.org/wiki/Information_retrieval"></a>full-text search engine.</td>
+			<td colspan="1" rowspan="1">Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> is a free open source<a href="https://en.wikipedia.org/wiki/Information_retrieval">full-text search engine</a>.</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">open source</td>
