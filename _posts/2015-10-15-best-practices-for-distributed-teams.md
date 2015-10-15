@@ -120,7 +120,7 @@ We’re committed to making all our work, discussions, and decisions
 available to everyone in the organization at all times. We do this by
 having:
 
--   **Real-time chat (aka, virtual water cooler)***.* 18F uses [Slack](https://slack.com/) to “hang out” virtually. This area is open all day for people to drop in and out as their schedule allows. The important thing is that everyone is invested in using it consistently, something that managers and team leads may need to continually reinforce. Everyone uses chat, even people in the office.
+-   **Real-time chat (aka, virtual water cooler)**. 18F uses [Slack](https://slack.com/) to “hang out” virtually. This area is open all day for people to drop in and out as their schedule allows. The important thing is that everyone is invested in using it consistently, something that managers and team leads may need to continually reinforce. Everyone uses chat, even people in the office.
 
 -   **The Hub***.* This is where announcements, weekly team reports, and meeting summaries go so that everyone knows a little about what’s happening in the entire organization. Updates here are brief; as soon as it turns into something that the team doesn’t have time to read, it’s failed.
 
