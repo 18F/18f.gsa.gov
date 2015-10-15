@@ -167,7 +167,7 @@ take notes in Slack [during meetings] or keep an eye out for questions
 [from remote team members] during the all hands really help out their
 remote colleagues.”
 
-<iframe src="https://vine.co/v/MPU0BjJzQZ5/embed/postcard" width="600"
+<iframe src="https://vine.co/v/MPU0BjJzQZ5/embed/postcard" style="width:60%;"
 height="600" frameborder="0"></iframe><script
 src="https://platform.vine.co/static/scripts/embed.js"></script>
 
