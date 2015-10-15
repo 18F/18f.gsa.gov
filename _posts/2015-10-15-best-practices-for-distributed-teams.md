@@ -38,7 +38,7 @@ we:
 
 -   **Proactively communicate**. As Kate Garklavs, a content designer who lives in Portland, puts it: “Because I'm remote, I've taken to sending short, proactive progress updates to my teams ("Hey, all — wanted to let you know that I finished writing XYZ and sent it to so-and-so for approval — should hear back by Friday."), even when daily standups aren't required. By sending these short updates throughout the day, I hope to keep folks in the loop with regards to what I've been up to.”
 
--   **Use our words.** We describe all of our visual designs using words. This might seem intuitive, but when your coworkers can’t see your computer screen, it’s particularly important to make sure you’re describing what you see.
+-   **Use our words.** We describe all of our visual designs using words. This might seem intuitive, but when your coworkers can’t see your computer screen, it’s particularly important to make sure you’re describing what you see. (For example, we encourage folks to use titles of page components and other descriptors to help collaborators more easily locate what a person is talking about (the blue "Get Started" button with the white text, below and to the right of the hero image, etc.))
 
 -   **Assume people are working asynchronously.** We never assume that people are available the minute that we need them. We use the chat program Slack to communicate, which ensures all of our communication is documented and searchable for coworkers who might be checking on things later in the day. Writing everything down — even conversations we have verbally — ensures all team members are informed and up-to-date.
 
