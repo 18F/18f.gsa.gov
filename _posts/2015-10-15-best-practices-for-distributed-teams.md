@@ -44,7 +44,7 @@ we:
 
 -   **Are patient.** Unless a decision needs to be made immediately, we give people time to respond to queries because they might be working on a different schedule or in a different timezone.
 
--   **We keep records.** As Dave Cole, a developer who works in Philadelphia, says: “Even after meetings, what's discussed and decided should be summarized into [GitHub] issues and notes for those who were not present or just to keep a record for the future. Good practices for remote teams and between teams overall.”
+-   **Keep records.** As Dave Cole, a developer who works in Philadelphia, says: “Even after meetings, what's discussed and decided should be summarized into [GitHub] issues and notes for those who were not present or just to keep a record for the future. Good practices for remote teams and between teams overall.”
 
 We have a five-hour overlap in our workdays.
 --------------------------------------------
