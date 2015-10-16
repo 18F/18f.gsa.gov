@@ -10,3 +10,4 @@ _data/private
 *.pyc
 .jekyll-metadata
 .floo*
+manifest-*.yml
