@@ -7,17 +7,7 @@
 .blog-entry, .service-entry {
 	@extend %section-padding; //standard padding for all sections
 	padding-top: 25px; //compensates for padding in top row of news section
-	h1 {
-		font-size: 22px;
-	  	font-weight: 700;
-		> a {
-			color: $red;
-			text-decoration: none;
-			&:hover, &:focus {
-		  		text-decoration: underline;
-			}
-		}
-	}
+
 	p {
 		font-size: 0.9em;
 		padding: 0; margin: 0;

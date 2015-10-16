@@ -35,8 +35,18 @@ h3 {
   font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
 }
 
+.h3 {
+  font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
+}
+
 h4 {
   font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
+}
+
+// TODO change to match <h4>.
+.h4 {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 h5 {
@@ -62,6 +72,27 @@ a {
   &:active, &:focus {
     color: $hover-link-color;
     outline: none;
+  }
+}
+
+// TODO audit codebase to determine if this works. Remove link-alt if it works.
+/*
+h1, h2, h3, h4, h5, h6 {
+  > a {
+    color: $red;
+    text-decoration: none;
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+  }
+}
+*/
+
+.link-alt {
+  color: $red;
+  text-decoration: none;
+  &:hover, &:focus {
+      text-decoration: underline;
   }
 }
 

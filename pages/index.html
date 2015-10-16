@@ -51,7 +51,9 @@ permalink: /
   <article class="container service-entry" itemprop="department">
     {% for service in site.data.services %}
       <div class="service-title">
-        <h1><a href="{{ service.link }}" class="service-title" itemprop="name">{{ service.display }}</a></h1>
+        <h1 class="h4">
+          <a href="{{ service.link }}" class="service-title link-alt" 
+              itemprop="name">{{ service.display }}</a></h1>
       </div>
       <div class="service-snippet">
         <p>{{ service.description }}</p>
