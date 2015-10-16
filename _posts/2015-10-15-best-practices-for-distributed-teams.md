@@ -15,11 +15,11 @@ image: /assets/blog/distributed-teams/18f-team-acano.jpg
 
 18F employees live all over the country. We work out of homes in Dayton
 and Tucson, St. Louis and Chapel Hill — and in federal buildings in San
-Francisco, Chicago, New York City, and Washington D.C.
+Francisco, Chicago, New York City, and Washington, D.C.
 
 That means many of our project teams are also made up of distributed
 employees working all over the country. For example, you may have a
-developer in Austin, a designer in Washington D.C., and a content
+developer in Austin, a designer in Washington, D.C., and a content
 strategist in Portland — but they’re all working on the same team and
 with the same partners.
 
@@ -38,29 +38,29 @@ we:
 
 -   **Proactively communicate**. As Kate Garklavs, a content designer who lives in Portland, puts it: “Because I'm remote, I've taken to sending short, proactive progress updates to my teams ("Hey, all — wanted to let you know that I finished writing XYZ and sent it to so-and-so for approval — should hear back by Friday."), even when daily standups aren't required. By sending these short updates throughout the day, I hope to keep folks in the loop with regards to what I've been up to.”
 
--   **Use our words.** We describe all of our visual designs using words. This might seem intuitive, but when your coworkers can’t see your computer screen, it’s particularly important to make sure you’re describing what you see.
+-   **Use our words.** We describe all of our visual designs using words. This might seem intuitive, but when your coworkers can’t see your computer screen, it’s particularly important to make sure you’re describing what you see. (For example, we encourage folks to use titles of page components and other descriptors to help collaborators more easily locate what a person is talking about (the blue "Get Started" button with the white text, below and to the right of the hero image, etc.))
 
 -   **Assume people are working asynchronously.** We never assume that people are available the minute that we need them. We use the chat program Slack to communicate, which ensures all of our communication is documented and searchable for coworkers who might be checking on things later in the day. Writing everything down — even conversations we have verbally — ensures all team members are informed and up-to-date.
 
--   **Are patient.** Unless a decision needs to be made immediately, we give people time to respond to queries because they might be working on a different schedule or in a different timezone.
+-   **Are patient.** Unless a decision needs to be made immediately, we give people time to respond to queries because they might be working on a different schedule or in a different time zone.
 
 -   **Keep records.** As Dave Cole, a developer who works in Philadelphia, says: “Even after meetings, what's discussed and decided should be summarized into [GitHub] issues and notes for those who were not present or just to keep a record for the future. Good practices for remote teams and between teams overall.”
 
 We have a five-hour overlap in our workdays.
 --------------------------------------------
 
-With people on both coasts, 18F operates from 9 AM to 8 PM ET every day.
+With people on both coasts, 18F operates from 9 a.m. to 8 p.m. ET every day.
 But that doesn’t mean people work strange hours. East Coast people
-generally work 9 AM - 5 PM on the East Coast and West Coast people
-generally work 9 AM to 5 PM on the West Coast. People in the Mountain
+generally work 9 a.m. to 5 p.m. on the East Coast and West Coast people
+generally work 9 a.m. to 5 p.m. on the West Coast. People in the Mountain
 and Central time zones also work 9 to 5, in their respective time zones.
-(Though there are some exceptions: some people prefer working late at
+(Though there are some exceptions: Some people prefer working late at
 night on the East Coast or early in the morning on the West Coast to
 better accommodate their teammates.)
 
 What this generally means, though, is that everyone on our team, no
 matter where they live, has at least 4 hours of overlap in their working
-hours: generally between 1 PM to 5 PM ET. As Michelle Hertzfeld, a
+hours: generally between 1 p.m. to 5 p.m. ET. As Michelle Hertzfeld, a
 designer in Tucson, notes: ”This covers the need for people to be in
 touch at least part of the day and won’t slow down ‘hot items,’ yet
 still allows people half the day to focus on actually moving the ball
@@ -141,7 +141,7 @@ in the project and its outcome.
 For this to work well, we all think of ourselves as remote employees, even if we’re in an office.
 --------------------------------------------------------------------------------------------------
 
-18F has employees in every timezone, but GSA itself also has a fantastic
+18F has employees in every time zone, but GSA itself also has a fantastic
 telework policy. Thus, even if we were all stationed in Washington, D.C,
 there would still be a need for our “remote first” mindset.
 
@@ -167,9 +167,7 @@ take notes in Slack [during meetings] or keep an eye out for questions
 [from remote team members] during the all hands really help out their
 remote colleagues.”
 
-<iframe src="https://vine.co/v/MPU0BjJzQZ5/embed/postcard" width="600"
-height="600" frameborder="0"></iframe><script
-src="https://platform.vine.co/static/scripts/embed.js"></script>
+<div class='embed-container'><iframe width='100%' src='https://vine.co/v/MPU0BjJzQZ5/embed/simple' frameborder='0' scrolling='no' allowtransparency='true'></iframe><script async src='https://platform.vine.co/static/scripts/embed.js' charset='utf-8'></script></div>
 
 Some of us shift our time zones
 -------------------------------

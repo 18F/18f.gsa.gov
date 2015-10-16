@@ -13,6 +13,8 @@ This repository contains 18F's website, https://18f.gsa.gov.
 
 Deployments to production will be done by site admins, using pull requests from `staging` to `production`.
 
+We occasionally use various subdomains of 18f.gov to demo work in a way that others can see it. These deployments are manual and require a little bit of extra configuration. See the readme file in the "deploy" folder for more information on how this works.
+
 ### Getting your picture and bio on the site:
 
 If you're a new teammate, follow these steps and the #18f-site team will take care of it:
@@ -21,9 +23,9 @@ If you're a new teammate, follow these steps and the #18f-site team will take ca
 2. Fill out the [bio form](https://docs.google.com/a/gsa.gov/forms/d/1XRCkQZw3-1JoZh6tm4k1qbunEnvJdOvDrTjRCqs-dp4/viewform).
 3. Get in touch with the site team in #18f-site; we'll handle it from there!
 
-NOTE: Bios and pictures are scheduled to be added at the end of each month. 
+NOTE: Bios and pictures are scheduled to be added at the end of each month.
 
-**You do not need to edit the team.json file in this repo,** we'll find it in `data-private`.
+**You do not need to edit the team.json or authors.yml files in this repo,** we'll find it in `data-private`.
 
 If you get stuck, or have any other questions, feel free to reach out to anyone on the 18f-site team in channel #18f-site.
 
