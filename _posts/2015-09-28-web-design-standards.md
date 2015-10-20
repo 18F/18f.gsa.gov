@@ -18,7 +18,7 @@ image: /assets/blog/web-design-standards/home.png
 ---
 
 *This project was a collaboration between 18F and the U.S. Digital
-Service (USDS). The team was lead by Mollie Ruskin (USDS) and Julia Elman (18F) and made up of
+Service (USDS). The team was led by Mollie Ruskin (USDS) and Julia Elman (18F) and made up of
 designers and developers in both groups, including Maya Benari (18F),
 Carolyn Dew (18F), Victor Garcia (USDS), Angel
 Kittiyachavalit (USDS), Colin MacArthur (18F), and Marco Segreto (18F).*
