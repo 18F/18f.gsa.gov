@@ -13,7 +13,7 @@ description: "Launched just three years ago, the Digital Analytics Program (DAP)
 image: /assets/blog/pulse/analytics.png
 ---
 
-*This post was originally published on the [DigitalGov blog](https://www.digitalgov.gov/2015/10/20/5-factors-for-building-a-successful-government-wide-digital-analytics-program/). Marina Fox is the Digital Analytics Program Manager and Gwynee Kostin is the Director of the Digital Services Innovation Center. 18F has worked with the Digital Analytics Program to help build [analytics.usa.gov](https://analytics.usa.gov/) and [pulse.cio.gov](https://pulse.cio.gov/).*  
+*This post was originally published on the [DigitalGov blog](https://www.digitalgov.gov/2015/10/20/5-factors-for-building-a-successful-government-wide-digital-analytics-program/). Marina Fox is the Digital Analytics Program Manager and Gwynne Kostin is the Director of the Digital Services Innovation Center. 18F has worked with the Digital Analytics Program to help build [analytics.usa.gov](https://analytics.usa.gov/) and [pulse.cio.gov](https://pulse.cio.gov/).*  
 
 Launched just three years ago, the [Digital Analytics Program
 (DAP)](http://www.digitalgov.gov/services/dap/) continues to drive the
@@ -23,10 +23,7 @@ mission to improve the citizen experience by streamlining the collection
 and analysis of digital analytics data on a federal government-wide
 scale.
 
-[The
-](http://gsablogs.gsa.gov/dsic/2012/10/05/digital-analytics-program-helps-agencies-measure-web-performance/)[DAP
-officially launched on October 15,
-2012](http://gsablogs.gsa.gov/dsic/2012/10/05/digital-analytics-program-helps-agencies-measure-web-performance/)
+[The DAP officially launched on October 15, 2012](http://gsablogs.gsa.gov/dsic/2012/10/05/digital-analytics-program-helps-agencies-measure-web-performance/)
 with a release of its first version of the government-wide Web analytics
 code. The first agency to implement DAP was the Department of Interior,
 on doi.gov. Today, 45 agencies — including all CFO Act agencies — have
