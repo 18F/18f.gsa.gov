@@ -98,5 +98,5 @@ We’re proud of the content and design:
 In all, we’re thrilled with
 [everykidinapark.gov](http://everykidinapark.gov). We’ve handed the
 reins to the U.S. Department of Interior, but feel free to [file a
-GitHub issue](https://github.com/18F/ekip-api/issues) if you have
+GitHub issue](https://github.com/18F/ekip/issues) if you have
 suggestions — we’re always listening!
