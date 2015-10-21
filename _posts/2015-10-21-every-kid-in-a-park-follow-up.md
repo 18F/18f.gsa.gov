@@ -10,12 +10,10 @@ tags:
 - our projects
 images: /assets/blog/every-kid-in-a-park/404.png
 description: Since it launched September 1, we've been keeping close tabs on the website and user feedback, which helps us quickly identify and make improvements.
-excerpt: Our projects are iterative, which means that even after a launch we keep working on our products and services. We’ve been keeping close tabs on Every Kid in a Park, since it launched on [insert date]. We’ve been keeping close tabs on our users and making improvements. We’re excited to share a few of them with you today.
+excerpt: Our projects are iterative, which means we keep working on them after they launch. In keeping with that practice, we’ve kept a close eye on [everykidinapark.gov](everykidinapark.gov), which went live September 1. We’re excited to share a few of our improvements and updates with you today.
 ---
 
-Our projects are iterative, which means that even after a launch we keep
-working on our products and services. Since it launched September 1, we've been keeping close tabs on the website and user feedback, which helps us quickly identify and make improvements. We’re excited to share a few of them with
-you today.
+Our projects are iterative, which means we keep working on them after they launch. In keeping with that practice, we’ve kept a close eye on [everykidinapark.gov](everykidinapark.gov), which went live September 1. We’re excited to share a few of our improvements and updates with you today.
 
 Why fourth graders?
 -------------------
