@@ -9,12 +9,12 @@ tags:
 - proactive federal partner
 - our projects
 images: /assets/blog/every-kid-in-a-park/404.png
-description: Since it launched on, date, we've been keeping close tabs on EKIP and our users and making incremental improvements.
+description: Since it launched September 1, we've been keeping close tabs on the website and user feedback, which helps us quickly identify and make improvements.
 excerpt: Our projects are iterative, which means that even after a launch we keep working on our products and services. We’ve been keeping close tabs on Every Kid in a Park, since it launched on [insert date]. We’ve been keeping close tabs on our users and making improvements. We’re excited to share a few of them with you today.
 ---
 
 Our projects are iterative, which means that even after a launch we keep
-working on our products and services. Since launching [Every Kid in a Park](https://everykidinapark.gov/) on [date], we’ve been keeping close tabs on the site and our users and made several improvements. We’re excited to share a few of them with
+working on our products and services. Since it launched September 1, we've been keeping close tabs on the website and user feedback, which helps us quickly identify and make improvements. We’re excited to share a few of them with
 you today.
 
 Why fourth graders?
