@@ -96,7 +96,7 @@ We’re proud of the content and design:
 ![The Every Kid in a Park 404 page.](/assets/blog/every-kid-in-a-park/404.png)
 
 In all, we’re thrilled with
-[*everykidinapark.gov*](http://everykidinapark.gov). We’ve handed the
-reins to the U.S. Department of Interior, but feel free to [*file a
-GitHub issue*](https://github.com/18F/ekip-api/issues) if you have
+[everykidinapark.gov](http://everykidinapark.gov). We’ve handed the
+reins to the U.S. Department of Interior, but feel free to [file a
+GitHub issue](https://github.com/18F/ekip-api/issues) if you have
 suggestions — we’re always listening!
