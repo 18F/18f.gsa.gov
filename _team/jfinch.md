@@ -10,10 +10,10 @@ github:
 twitter:
 team: Consulting
 ---
-"Prior to joining 18F Consulting, Jay was a senior advisor at the U.S. Department of the Treasury, where he led product and policy for the President’s My Retirement Account initiative (myRA), coordinated the Treasury's JOBS Act policy process, and several other policy initiatives within the Treasury’s Office of Capital Markets.
+"Before joining 18F Consulting, Jay was a senior advisor at the U.S. Department of the Treasury, where he led product and policy for the President’s My Retirement Account initiative (myRA), coordinated the Treasury’s JOBS Act policy process, and worked on several other policy initiatives within the Office of Capital Markets.
 
-Prior to coming into public service, Jay founded and led an accelerator-backed startup in rewards-based crowdfunding and began his career as an investment banker at Goldman Sachs within it telecommunications, media, technology group. He later moved to its private wealth management division where he helped to start two business units, each with $2.5 billion.
+Prior to coming into public service, Jay founded and led an accelerator-backed startup in rewards-based crowdfunding and began his career as an investment banker at Goldman Sachs within its telecommunications, media, technology group. He later moved to the private wealth management division, where he helped start two business units, each with $2.5 billion.
 
-Jay earned a general degree from Villanova University and was named to the 2015 Forbes 30 Under 30 list for law and policy.
+Jay earned a general degree from Villanova University and was named on the 2015 Forbes 30 Under 30 list for law and policy.
 
-"I was drawn to work at 18F because it offered the opportunity to be more of a thoughtful doer, rather than just a policy thinker." Jay is head of the [digital economy practice](https://18f.gsa.gov/2015/10/07/digital-economy-practice/) here at 18F. He leads the delivery of consulting services to economic and financial policy agencies in the U.S. Federal Government.	He is currently working on several projects tied to economic programs or policies. "Basically, if it comes from an economic policy agency, I am likely to be involved."
+"I was drawn to work at 18F because it offered the opportunity to be more of a thoughtful doer, rather than just a policy thinker." Jay is head of the [digital economy practice](https://18f.gsa.gov/2015/10/07/digital-economy-practice/) here at 18F. He leads the delivery of consulting services to economic and financial policy agencies in the U.S. Federal Government.	He is currently working on several projects tied to economic programs and policies. "Basically, if it comes from an economic policy agency, I am likely to be involved."
