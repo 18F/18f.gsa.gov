@@ -10,7 +10,7 @@ github:
 twitter:
 team: Consulting
 ---
-"Before joining 18F Consulting, Jay was a senior advisor at the U.S. Department of the Treasury, where he led product and policy for the President’s My Retirement Account initiative (myRA), coordinated the Treasury’s JOBS Act policy process, and worked on several other policy initiatives within the Office of Capital Markets.
+Before joining 18F Consulting, Jay was a senior advisor at the U.S. Department of the Treasury, where he led product and policy for the President’s My Retirement Account initiative (myRA), coordinated the Treasury’s JOBS Act policy process, and worked on several other policy initiatives within the Office of Capital Markets.
 
 Prior to coming into public service, Jay founded and led an accelerator-backed crowdfunding startup called Socstock and began his career as an investment banker at Goldman Sachs within its telecommunications, media, technology group. He later moved to the private wealth management division, where he helped start two business units, each with $2.5 billion in assets.
 
