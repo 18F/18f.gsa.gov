@@ -1,5 +1,5 @@
 ---
-permalink: /tags/user-research/
+permalink: /tags/user research/
 redirect_to:
   - /tags/user-research/
 ---
