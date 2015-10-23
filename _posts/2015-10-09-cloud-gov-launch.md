@@ -7,6 +7,7 @@ tags:
 - how we work
 - devops
 - our products
+- cloud.gov
 excerpt: "We’ve developed cloud.gov, a Platform-as-a-Service (PaaS), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
 products."
 description: "We’ve developed cloud.gov, a Platform-as-a-Service (PaaS), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
