@@ -7,7 +7,7 @@ tags:
 - our projects
 - proactive federal partner
 - federalist
-excerpt: "We built first iteration of Federalist in a matter of months. Today,
+excerpt: "We built the first iteration of Federalist in a matter of months. Today,
 we’re lifting the curtain and looking at what went into building the
 platform, so you can get a sense of what it looks like when 18F starts a
 project from scratch."
