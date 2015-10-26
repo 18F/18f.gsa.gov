@@ -39,7 +39,7 @@ time will have 10 working days to provide code that satisfies the
 requirements and acceptance criteria below. Upon successful completion,
 the vendor will be paid. If the vendor fails to complete the
 requirements and satisfy the acceptance criteria within the 10 working
-day period, and the vendor with the next lowest bid shall have 10
+day period, then the vendor with the next lowest bid shall have 10
 working days to provide the code. If the acceptance criteria are not
 satisfied, vendors shall not receive payment pursuant to this
 competition.
