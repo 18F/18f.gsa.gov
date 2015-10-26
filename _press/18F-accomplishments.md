@@ -6,11 +6,13 @@ layout: bare
 
 * Launched the [Every Kid in a Park](https://everykidinapark.gov/) website in collaboration with the U.S. Department of the Interior, The White House, and other federal agencies. The site helps U.S. fourth graders obtain their free pass to national lands and waters and is specially designed to be used by kids.
 
-* Launched the [College Scorecard](https://collegescorecard.ed.gov/) website and API to give students and their families access to a wealth of previously-unavailable data about colleges and universities. This was a joint project with the U.S. Digital Service and the Department of Education. 
+* Launched the [College Scorecard](https://collegescorecard.ed.gov/) website and API to give students and their families access to a wealth of previously-unavailable data about colleges and universities. This was a joint project with the U.S. Digital Service and the Department of Education.
 
 * Created the [Federalist platform](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/) to make it faster for government agencies to build websites that are secure, responsive, and accessible.
 
 * [Piloted an agile delivery services Blaket Purchase Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/) to explore a new way for the government to hire contractors that could reduce the cost and completion time of federal IT projects.  
+
+* Launched an alpha version of [cloud.gov](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), a Platform-as-a-Service (PaaS) built to tackle core infrastructure issues and enable small development teams to improve the delivery of their products. 
 
 * [Beta launched FBOpen](https://18f.gsa.gov/2014/03/31/announcing-fbopen-government-opportunities-made-easier/), an API and search tool which helps small businesses find opportunities to work with the U.S. government.
 
