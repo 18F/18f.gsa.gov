@@ -69,7 +69,7 @@ committees, filings, receipts, and disbursements. And if users are
 unfamiliar with those terms, they can use a new glossary tool, which
 defines campaign finance jargon. The glossary is always accessible from
 the top menu as well as linked by an icon you’ll see next to technical
-terms like “expenditure,” and “receipt.”
+terms like “independent expenditure” and “principal campaign committee.”
 
 Site visitors can find information about candidates and committees with
 new pages that break down:
