@@ -13,7 +13,7 @@ image: /assets/blog/eiti/drill.jpg
 ---
 ![An oil rig on public land. Courtesy of the Department of Energy](/assets/blog/eiti/drill.jpg)
 
-_Oil drilling is one of many industries included in the Extractive Industries Transparency Initiative (EITI), the U.S. Department of the Interior and the USEITI multi-stakeholder group will publish the first report this December._
+_Oil drilling is one of many industries included in the Extractive Industries Transparency Initiative (EITI). The U.S. Department of the Interior and the USEITI multi-stakeholder group will publish the first report this December._
 
 During [Sunshine Week](http://www.sunshineweek.org/), we wrote about
 our progress on the Extractive Industries Transparency Initiative, or
