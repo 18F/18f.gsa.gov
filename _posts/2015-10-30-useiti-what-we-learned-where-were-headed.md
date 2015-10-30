@@ -13,6 +13,8 @@ image: /assets/blog/eiti/drill.jpg
 ---
 ![An oil rig on public land. Courtesy of the Department of Energy](/assets/blog/eiti/drill.jpg)
 
+_Oil drilling is one of many industries included in the Extractive Industries Transparency Initiative (EITI), the U.S. Department of the Interior and the USEITI multi-stakeholder group will publish the first report this December._
+
 During [Sunshine Week](http://www.sunshineweek.org/), we wrote about
 our progress on the Extractive Industries Transparency Initiative, or
 EITI, an international coalition organized here by the U.S. Department
@@ -32,10 +34,10 @@ the insights we could glean from the data. [As we wrote in our Sunshine
 Week
 post](https://18f.gsa.gov/2015/03/18/sunshine-week-extractive-industries-transparency-initiative-event/):
 
-> In 2013, more than \$9.8 billion dollars were earned from active
+> In 2013, more than $9.8 billion dollars were earned from active
 > natural resource leases on federal land. In the ten previous years,
-> \$127.4 billion was earned in resource revenues from the extractive
-> industries. The[ ](https://eiti.org)[international initiative is a
+> $127.4 billion was earned in resource revenues from the extractive
+> industries. The [international initiative is a
 > group of 48 countries,](https://eiti.org) including the United
 > States, dedicated to opening up information about revenues from these
 > industries by establishing a global standard to promote openness and
