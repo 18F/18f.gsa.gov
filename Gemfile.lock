@@ -1,14 +1,14 @@
 GIT
   remote: https://github.com/jekyll/jekyll-archives.git
-  revision: 73e5197f710bf59321e2dfcd2d24c51a49ce4b0c
+  revision: 659f024086ca68b4cd99e553c0970db9ee578140
   specs:
-    jekyll-archives (2.0.0)
+    jekyll-archives (2.1.0)
       jekyll (>= 2.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.1)
+    activesupport (4.2.4)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -18,18 +18,15 @@ GEM
     bourbon (4.2.3)
       sass (~> 3.4)
       thor
-    celluloid (0.16.0)
-      timers (~> 4.0.0)
     coderay (1.1.0)
     colorator (0.1)
     colored (1.2)
     ethon (0.7.4)
       ffi (>= 1.3.0)
-    ffi (1.9.8)
+    ffi (1.9.10)
     gemoji (2.1.0)
     hash-joiner (0.0.7)
       safe_yaml
-    hitimes (1.2.2)
     html-pipeline (1.11.0)
       activesupport (>= 2)
       nokogiri (~> 1.4)
@@ -43,7 +40,7 @@ GEM
       yell (~> 2.0)
     htmlentities (4.3.3)
     i18n (0.7.0)
-    jekyll (3.0.0.pre.beta2)
+    jekyll (3.0.0)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -53,13 +50,13 @@ GEM
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-paginate (1.1.0)
-    jekyll-redirect-from (0.8.0)
+    jekyll-redirect-from (0.9.0)
       jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-sitemap (0.8.1)
-    jekyll-watch (1.2.1)
-      listen (~> 2.7)
+    jekyll-watch (1.3.0)
+      listen (~> 3.0)
     jekyll_frontmatter_tests (0.0.5)
       jekyll (>= 2.0, < 4.0)
     jekyll_pages_api (0.1.3)
@@ -70,16 +67,15 @@ GEM
       html-pipeline (~> 1.9)
       jekyll (>= 2.0)
     json (1.8.3)
-    kramdown (1.7.0)
-    liquid (3.0.3)
-    listen (2.10.0)
-      celluloid (~> 0.16.0)
+    kramdown (1.9.0)
+    liquid (3.0.6)
+    listen (3.0.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
     mini_portile (0.6.2)
-    minitest (5.7.0)
+    minitest (5.8.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     parallel (1.6.1)
@@ -87,18 +83,16 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rb-fsevent (0.9.5)
+    rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.3)
-    rouge (1.9.0)
+    rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.14)
+    sass (3.4.19)
     slop (3.6.0)
     thor (0.19.1)
     thread_safe (0.3.5)
-    timers (4.0.1)
-      hitimes
     typhoeus (0.7.3)
       ethon (>= 0.7.4)
     tzinfo (1.2.2)
@@ -112,10 +106,10 @@ DEPENDENCIES
   bourbon
   hash-joiner
   html-proofer
-  jekyll (= 3.0.0.pre.beta2)
+  jekyll (= 3.0.0)
   jekyll-archives!
   jekyll-paginate
-  jekyll-redirect-from
+  jekyll-redirect-from (~> 0.9)
   jekyll-sitemap
   jekyll_frontmatter_tests
   jekyll_pages_api
