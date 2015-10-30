@@ -38,7 +38,7 @@ module Jekyll
       internal = @params[1] || "li"
       if other_posts
         related_posts = "<#{external}>"
-        other_posts.flatten.map { |post| related_posts << "<#{internal}><a href='#{post.url}' class='related_posts'>&ldquo;#{post.title}&rdquo;</a></#{internal}>" }
+        other_posts.flatten.map { |post| related_posts << "<#{internal}><a href='#{post.url}' class='related_posts'>&ldquo;#{post.data['title']}&rdquo;</a></#{internal}>" }
         related_posts << "</#{external}"
       else
         related_posts = "<p>No related posts</p>"
