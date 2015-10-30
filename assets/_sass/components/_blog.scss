@@ -4,20 +4,10 @@
 	margin-top: 10px;
 }
 
-.blog-entry, .service-entry {
-	@extend %section-padding; //standard padding for all sections
-	padding-top: 25px; //compensates for padding in top row of news section
-
-	p {
-		font-size: 0.9em;
-		padding: 0; margin: 0;
-		line-height: 1.8;
-		+ p {
-			margin-bottom: 0.4em;
-			margin-top: 0.5em;
-		}
-	}
-}
+// .blog-entry, .service-entry {
+// 	@extend %section-padding; //standard padding for all sections
+// 	padding-top: 25px; //compensates for padding in top row of news section
+// }
 
 .blog-title, .service-title {
 	@include span-columns(12);

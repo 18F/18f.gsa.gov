@@ -35,10 +35,6 @@ h3 {
   font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
 }
 
-.h3 {
-  font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
-}
-
 h4 {
   font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
 }
@@ -58,7 +54,14 @@ h6 {
 }
 
 p {
-  margin: 0 0 ($base-line-height * .5);
+  font-size: 1em;
+  padding: 0; 
+  margin: 0;
+  line-height: 1.5;
+    + p {
+      margin-bottom: 0.4em;
+      margin-top: 0.5em;
+    }
 }
 
 a {
