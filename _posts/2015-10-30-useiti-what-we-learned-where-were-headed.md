@@ -1,5 +1,5 @@
 ---
-title: "EITI: What we learned and where we’re headed"
+title: "USEITI: What we learned and where we’re headed"
 date: 2015-10-30
 authors:
 - boone
