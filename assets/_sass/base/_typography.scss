@@ -55,13 +55,14 @@ h6 {
 
 p {
   font-size: 1em;
-  padding: 0; 
-  margin: 0;
   line-height: 1.5;
-    + p {
-      margin-bottom: 0.4em;
-      margin-top: 0.5em;
-    }
+  margin: 0;
+  padding: 0;
+
+  + p {
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
+  } 
 }
 
 a {
@@ -78,24 +79,14 @@ a {
   }
 }
 
-// TODO audit codebase to determine if this works. Remove link-alt if it works.
-/*
-h1, h2, h3, h4, h5, h6 {
-  > a {
-    color: $red;
-    text-decoration: none;
-    &:hover, &:focus {
-        text-decoration: underline;
-    }
-  }
-}
-*/
 
 .link-alt {
   color: $red;
   text-decoration: none;
-  &:hover, &:focus {
-      text-decoration: underline;
+
+  &:hover, 
+  &:focus {
+    text-decoration: underline;
   }
 }
 
