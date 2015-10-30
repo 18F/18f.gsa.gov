@@ -15,9 +15,9 @@ image: /assets/blog/eiti/drill.jpg
 
 _Oil drilling is one of many industries included in the Extractive Industries Transparency Initiative (EITI). The U.S. Department of the Interior and the USEITI multi-stakeholder group will publish the first report this December._
 
-During [Sunshine Week](http://www.sunshineweek.org/), we wrote about
-our progress on the Extractive Industries Transparency Initiative, or
-EITI, an international coalition organized here by the U.S. Department
+During [Sunshine Week](http://www.sunshineweek.org/), [we wrote about
+our progress on the U.S. Extractive Industries Transparency Initiative, or
+USEITI,](https://18f.gsa.gov/2015/03/18/sunshine-week-extractive-industries-transparency-initiative-event/) an international coalition organized here by the U.S. Department
 of the Interior and a multi-stakeholder group that includes
 representatives from nonprofits, academia, industry and local
 governments. Since March, the 18F team has worked with the USEITI team
@@ -30,9 +30,8 @@ the Interior, published for the first time ever data about revenues the
 government earned from companies that extract resources such as coal,
 natural gas, and oil from public lands. The [current
 website](https://useiti.doi.gov/) is a live beta visualizing some of
-the insights we could glean from the data. [As we wrote in our Sunshine
-Week
-post](https://18f.gsa.gov/2015/03/18/sunshine-week-extractive-industries-transparency-initiative-event/):
+the insights we could glean from the data. As we wrote in our Sunshine
+Week post:
 
 > In 2013, more than $9.8 billion dollars were earned from active
 > natural resource leases on federal land. In the ten previous years,
@@ -81,4 +80,4 @@ As we work on building the 2015 EITI report, we hope to share some of
 the challenges we faced and the technical and design choices we made to
 ensure that the site is providing clear, accessible information for the
 public to better understand how federal, state, and local governments
-all interact with industries extracting material from our public lands.
+interact with industries extracting material from our public lands.
