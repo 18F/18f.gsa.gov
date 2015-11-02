@@ -1,6 +1,6 @@
 ---
 title: "USEITI: What we learned and where we’re headed"
-date: 2015-10-30
+date: 2015-11-02
 authors:
 - boone
 tags:
