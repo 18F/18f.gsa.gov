@@ -20,7 +20,6 @@
 	}
 }
 
-
 // Extends
 //********************************************************
 %heading-text-style {
@@ -42,6 +41,12 @@
 .container {
 	@include outer-container;
 }
+
+.container-spaced {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 .lead {
 	font-size: 1.4em;
 	line-height: 1.6em;
