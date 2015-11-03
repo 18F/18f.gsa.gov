@@ -3,12 +3,14 @@
 #   full_name:
 #   first_name:
 #   last name:
+#   url: (optional, guest authors only)
 #
 # id, replace this with the name you'll use in a post's front matter
 # full_name, after the colon, type a space and write out the person's name as it should appear on the site
 # first_name, after the colon, type a space and write out the person's first name as they want it written
 # last_name, after the colon, type a space and write out the person's surname. We only use this for sorting 
 #           authors right now.
+# url, for guest authors only; after the colon, type a space and insert a url to a profile for the author.
 #
 # If you're using the GitHub editor, make sure to choose "Create a new branch for this commit" before clicking
 # the green "Commit changes" button.
