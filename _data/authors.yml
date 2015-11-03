@@ -1,3 +1,18 @@
+# Adding a new author? Edit this file and create a new entry for your author.
+# id:
+#   full_name:
+#   first_name:
+#   last name:
+#
+# id, replace this with the name you'll use in a post's front matter
+# full_name, after the colon, type a space and write out the person's name as it should appear on the site
+# first_name, after the colon, type a space and write out the person's first name as they want it written
+# last_name, after the colon, type a space and write out the person's surname. We only use this for sorting authors right now.
+#
+# If you're using the GitHub editor, make sure to choose "Create a new branch for this commit" before clicking the green "Commit changes" button.
+#
+# Feel free to ask in #18f-site-dev, #18f-site, or #blog if you have questions.
+#
 aaron:
   full_name: Aaron Snow
   first_name: Aaron
