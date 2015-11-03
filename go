@@ -70,17 +70,17 @@ def update_data
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace --no-watch'
+  exec 'bundle exec jekyll serve --trace --incremental'
 end
 
 def build
   puts 'Building the site...'
-  exec_cmd('bundle exec jekyll b --trace')
+  exec_cmd('bundle exec jekyll b --trace --incremental')
   puts 'Site built successfully.'
 end
 
 def ci_build
-  build
+  exec 'bundle exec jekyll b --trace --no-watch'
   test
   puts 'Done!'
 end
@@ -125,6 +125,11 @@ def pre_deploy
   ci_build
 end
 
+def reset
+  exec_cmd('bundle exec jekyll clean')
+  exec_cmd('bundle exec jekyll build --no-watch --trace')
+end
+
 COMMANDS = {
   :init => 'Set up the 18f.gsa.gov dev environment',
   :update_gems => 'Update your rubygems, do this if you have problems building',
@@ -136,7 +141,8 @@ COMMANDS = {
   :cf_deploy => 'Deploys to cloudfoundry',
   :production_build => 'Deploys to production using a second config file',
   :test => 'Tests the fontmatter and site build.',
-  :pre_deploy => 'Builds the site and runs associated tests'
+  :pre_deploy => 'Builds the site and runs associated tests',
+  :reset => 'Clears the build cache and completely rebuilds the site.'
 }
 
 def usage(exitstatus: 0)
