@@ -10,10 +10,12 @@ description: "Natalie Kurz, a content strategist at the Consumer Financial Prote
 Bureau, recently spoke at 18F about some best practices for creating and promoting digestible, user-friendly content."
 excerpt: "Natalie Kurz, a content strategist at the Consumer Financial Protection
 Bureau, recently spoke at 18F about some best practices for creating and promoting digestible, user-friendly content."
-image: /assets/blog/speaker-series/natalie-kurz.jpg
+image: /assets/blog/speaker-series/natalie-kurz-presentation.jpg
 ---
-<div style="float: right; margin-left: 10px; ">
-<img src="/assets/blog/speaker-series/natalie-kurz.jpg" alt="Natalie Kurz"></div>
+
+![Natalie Kurz presents at 18F](/assets/blog/speaker-series/natalie-kurz-presentation.jpg)
+*Natalie Kurz from the Consumer Financial Protection
+Bureau presents at 18F.*
 
 Natalie Kurz realizes that the concept of content strategy can seem
 nebulous to many, especially to folks who don’t work directly with
