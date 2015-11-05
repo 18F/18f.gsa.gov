@@ -19,7 +19,8 @@ Look at [goto fail](https://www.imperialviolet.org/2014/02/22/applebug.html), [H
 It's not just the complexity of the technology itself that's the problem. When our compliance documentation is complex, we’re making ourselves less secure. If it takes a hundred (or several hundred) pages to explain all the security controls you've implemented on a piece of software, that's not a good thing.
 
 ![A sample of required security documentation for federal websites.](/assets/blog/complexity-and-security/security-documentation-1.jpg)
-![Control summary information](/assets/blog/complexity-and-security/security-documentation-2.jpg)
+_A sample of required security documentation. It's not uncommon to see 300 pages or more._
+
 
 Compliance documentation doesn't tell me what the security posture of a system is now. It's a point in time analysis that's useless the moment it's "saved." Worse is the opportunity cost. Every hour spent writing compliance documentation is an hour not invested into engineering. Code can keep our systems safe, whether it's documented correctly or not.
 
