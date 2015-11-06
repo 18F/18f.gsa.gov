@@ -45,4 +45,4 @@ When we received the $1 bid, we immediately tried to figure out whether it was i
 
 In some respects, this result was the best possible outcome for the experiment. It proved that some of our core assumptions about how it would work were wrong. **But the experiment also validated the core concept that open-source micro-purchasing can work, and it’s a thing we should try to do again.** A few weeks ago, micro-purchasing for code was just an idea, but now that we’ve done our first experiment, the data demonstrate that the idea has potential and can be improved upon.
 
-If you’d like more information on future micro-purchases, you can sign up for email updates here.
+If you’d like more information on future micro-purchases, [you can sign up for email updates here](https://docs.google.com/forms/d/17l9hEd-rsZZrcYWGDtyfhAf2xgzZw0DHAIJ_v_CboSg/viewform).
