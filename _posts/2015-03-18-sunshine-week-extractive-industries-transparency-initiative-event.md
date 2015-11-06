@@ -9,6 +9,7 @@ tags:
 - useiti
 - interior
 - sunshine week
+- eiti
 
 authors:
 - mhz
