@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem 'rouge'
-gem 'bourbon'
 gem 'redcarpet', '3.2.3'
 gem 'jekyll', '3.0.0'
 gem 'html-proofer'
@@ -15,9 +14,9 @@ group :jekyll_plugins do
   gem 'jekyll_frontmatter_tests'
 end
 
-
-gem 'hash-joiner'
 gem 'safe_yaml'
 
 gem 'jemoji'
-gem 'pry'
+group :development do
+  gem 'pry'
+end
