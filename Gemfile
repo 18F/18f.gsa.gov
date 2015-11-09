@@ -14,8 +14,6 @@ group :jekyll_plugins do
   gem 'jekyll_frontmatter_tests'
 end
 
-gem 'safe_yaml'
-
 gem 'jemoji'
 group :development do
   gem 'pry'
