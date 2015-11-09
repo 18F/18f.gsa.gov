@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           stylesheets: [
             'assets/css/styles.css'
           ]
-        },
+        }
         files: {
           'tidy.css': [
             'http://127.0.0.1:4000/',
