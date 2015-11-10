@@ -1,5 +1,5 @@
 ---
-title: "UX Lessons Learned From A Procurement Project"
+title: "UX lessons learned from a procurement project"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
 date: 2015-03-06
@@ -93,15 +93,15 @@ more specific line of questions every time we heard something that would
 make us think ‘Oh, we need to follow up on how they manage their
 documents’ or something like that.
 
-**So they would say something like ‘I have trouble managing my
-documents’ and then you would say…**
+**So they would say something like "I have trouble managing my
+documents" and then you would say…**
 
 They wouldn’t always be that explicit about it. A lot of times, you have
 to read into things and probe a little bit and ask specific questions
 and ask users to show you, rather than tell you, because you can’t
 always rely on what people are saying.
 
-If they say ‘This is my problem,’ it may be the case that what they’re
+If they say "This is my problem,"" it may be the case that what they’re
 saying isn’t their problem: it may be a combination of things, or
 something else that they’re not consciously aware of. My job is a
 combination of asking questions, of trying to learn the context of how
@@ -118,7 +118,7 @@ procurement officer’s job is to say that they buy things on behalf of
 the government and, at the end of the day, they are responsible for
 buying that thing at a fair and reasonable price.
 
-**How does Discovery make a contracting officer’s life easier?**
+**How does Ddiscovery make a contracting officer’s life easier?**
 
 Depending on what is being bought, the procurement process can be months
 and maybe even years long. Contracting officers have to write the
@@ -160,7 +160,7 @@ learned that everyone had their own way of completing [task ordering]
 and it wasn’t actually a problem.
 
 **So your client initially thought it was a problem but the people who
-worked with your client said ‘Nope, not a problem?’**
+worked with your client said, "Nope, not a problem?"**
 
 The contracting officers themselves had ways of making task orders.
 Through those conversations, we started to gather evidence that an
@@ -169,8 +169,8 @@ way to conduct market research -- specifically, identifying potential
 vendors and understanding their contract histories and things like that.
 
 So we basically gathered up this evidence and then came back to our
-client and said ‘This is what we discovered and learned and we would
-recommend going in this other direction’ and the client was actually,
+client and said "This is what we discovered and learned and we would
+recommend going in this other direction" and the client was actually,
 really on board with that pivot and going away from his own idea.
 
 **How did user research inform that process?**
@@ -185,8 +185,8 @@ Maybe we would have changed direction eventually, but maybe not.
 Probably not. Because once you’re invested in going in a certain
 direction, you have the snowball effect of everyone’s time and resources
 also being put into the problem. Even in the best of circumstances and
-the best of lean/agile world, it’s hard to go back and say ‘No, this is
-not the right thing to be solving.’
+the best of lean/agile world, it’s hard to go back and say "No, this is
+not the right thing to be solving."
 
 Throughout building the tool, we also used lean UX methodologies. We
 built a working prototype every two weeks and then tested it at the end
@@ -224,7 +224,7 @@ it, so we’re going to collect data and continue building up a user
 community of people we can talk to or interact with about it.
 
 **What would you consider to be a metric of success? What says to you
-‘Boom, we were successful in this project?’**
+"Boom, we were successful in this project?"**
 
 We define this in our project. We want to see reduced overall time spent
 in doing the market research and creating the market research report. We

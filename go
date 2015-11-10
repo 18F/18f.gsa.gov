@@ -27,23 +27,6 @@
 #
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
-
-MIN_VERSION = "2.1.0"
-
-unless RUBY_VERSION >= MIN_VERSION
-  puts <<EOF
-
-*** ABORTING: Unsupported Ruby version ***
-
-Ruby version #{MIN_VERSION} or greater is required to build 18f.gsa.gov, but
-this Ruby is version #{RUBY_VERSION}. Consider using a version manager such as
-rbenv (https://github.com/sstephenson/rbenv) or rvm (https://rvm.io/)
-to install a Ruby version specifically for 18f.gsa.gov development.
-
-EOF
-  exit 1
-end
-
 def exec_cmd(cmd)
   exit $?.exitstatus unless system(cmd)
 end
@@ -70,19 +53,18 @@ def update_data
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace --no-watch'
+  exec 'bundle exec jekyll serve --trace --incremental'
 end
 
 def build
   puts 'Building the site...'
-  exec_cmd('bundle exec jekyll b --trace')
+  exec_cmd('bundle exec jekyll b --trace --incremental')
   puts 'Site built successfully.'
 end
 
 def ci_build
-  puts 'Building the site...'
-  build
-  exec_cmd('bash deploy/test.sh')
+  exec 'bundle exec jekyll b --trace --no-watch'
+  test
   puts 'Done!'
 end
 
@@ -99,7 +81,7 @@ def server_build
 end
 
 def production_build
-  puts 'Stashing (justin case)'
+  puts 'Stashing (just in case)'
   exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
@@ -112,7 +94,23 @@ end
 
 def cf_deploy
   build
+  test
   exec_cmd('sh deploy/cf-deploy.sh')
+end
+
+def test
+  # exec_cmd('sh deploy/tests/test.sh')
+  exec_cmd('bundle exec deploy/tests/test.rb')
+  exec_cmd('bundle exec jekyll test')
+end
+
+def pre_deploy
+  ci_build
+end
+
+def reset
+  exec_cmd('bundle exec jekyll clean')
+  exec_cmd('bundle exec jekyll build --no-watch --trace')
 end
 
 COMMANDS = {
@@ -124,7 +122,10 @@ COMMANDS = {
   :ci_build => 'Builds the site for a CI system',
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
   :cf_deploy => 'Deploys to cloudfoundry',
-  :production_build => 'Deploys to production using a second config file'
+  :production_build => 'Deploys to production using a second config file',
+  :test => 'Tests the fontmatter and site build.',
+  :pre_deploy => 'Builds the site and runs associated tests',
+  :reset => 'Clears the build cache and completely rebuilds the site.'
 }
 
 def usage(exitstatus: 0)

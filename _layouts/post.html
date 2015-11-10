@@ -22,7 +22,7 @@
         Tagged /
         <span class="blog-tags" itemprop="keywords">
           {% for tag in page.tags %}
-            <a href="/{{site.tag_dir}}/{{ tag | slugify }}">{{ tag }}</a>
+            <a href="/{{site.tag_dir}}/{{ tag | slugify }}/">{{ tag }}</a>
             /
           {% endfor %}
         </span>
@@ -72,6 +72,7 @@
 
 </section>
 
+  {% include newsletter.html %}
   {% include footer.html %}
   {% include scripts.html %}
 

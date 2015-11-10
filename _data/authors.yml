@@ -1,3 +1,22 @@
+# Adding a new author? Edit this file and create a new entry for your author.
+# id:
+#   full_name:
+#   first_name:
+#   last name:
+#   url: (optional, guest authors only)
+#
+# id, replace this with the name you'll use in a post's front matter
+# full_name, after the colon, type a space and write out the person's name as it should appear on the site
+# first_name, after the colon, type a space and write out the person's first name as they want it written
+# last_name, after the colon, type a space and write out the person's surname. We only use this for sorting 
+#           authors right now.
+# url, for guest authors only; after the colon, type a space and insert a url to a profile for the author.
+#
+# If you're using the GitHub editor, make sure to choose "Create a new branch for this commit" before clicking
+# the green "Commit changes" button.
+#
+# Feel free to ask in #18f-site-dev, #18f-site, or #blog if you have questions.
+#
 aaron:
   full_name: Aaron Snow
   first_name: Aaron
@@ -254,3 +273,62 @@ russ:
   full_name: Russ Unger
   first_name: Russ
   last_name: Unger
+deniseroth:
+  full_name: Denise Turner Roth
+  first_name: Denise
+  last_name: Roth
+  url: http://www.gsa.gov/portal/content/100046
+zaccohn:
+  full_name: Zac Cohn
+  first_name: Zachary
+  last_name: Cohn
+kedelman:
+  full_name: Kathryn Edelman
+  first_name: Kathryn
+  last_name: Edelman
+jtag:
+  full_name: Jesse Taggert
+  first_name: Jesse
+  last_name: Taggert
+lisagelobter:
+  full_name: Lisa Gelobter
+  first_name: Lisa
+  last_name: Gelobter
+rebeccapiazza:
+  full_name: Rebecca Piazza
+  first_name: Rebecca
+  last_name: Piazza
+meghana:
+  full_name: Meghana Khandekar
+  first_name: Meghana
+  last_name: Khandekar
+ryan:
+  full_name: Ryan Thurlwell
+  first_name: Ryan
+  last_name: Thurlwell
+sarahcrane:
+  full_name: Sarah Crane
+  first_name: Sarah
+  last_name: Crane
+carolyndew:
+  full_name: Carolyn Dew
+  first_name: Carolyn
+  last_name: Dew
+mayabenari:
+  full_name: Maya Benari
+  first_name: Maya
+  last_name: Benari
+bret:
+  full_name: Bret Mogilefsky
+  first_name: Bret
+  last_name: Mogilefsky
+marinafox:
+  full_name: Marina Fox
+  first_name: Marina
+  last_name: Fox
+  url: https://www.digitalgov.gov/author/mfox/
+gwynnekostin:
+  full_name: Gwynne Kostin
+  first_name: Gwynne
+  last_name: Kostin
+  url: https://www.digitalgov.gov/author/gkostin/

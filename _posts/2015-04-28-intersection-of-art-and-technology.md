@@ -1,5 +1,5 @@
 ---
-title: "The Intersection of Art and Technology"
+title: "The intersection of art and technology"
 layout: post
 authors:
 - julia
@@ -8,6 +8,7 @@ tags:
 - open source
 - how we work
 excerpt: "Earlier this month, I went to the Museum of Modern Art in New York City for the first time. I was there to see a special exhibit featuring the pop singer Bjӧrk, who is currently presenting a retrospective of her life’s work as a musician, artist and technologist. The retrospective spans back from her early beginnings as a childhood folk singer in Iceland all the way through to her most current album release."
+description: "Earlier this month, I went to the Museum of Modern Art in New York City for the first time. I was there to see a special exhibit featuring the pop singer Bjӧrk, who is currently presenting a retrospective of her life’s work as a musician, artist and technologist. The retrospective spans back from her early beginnings as a childhood folk singer in Iceland all the way through to her most current album release."
 image: /assets/blog/art-tech/dap-dashboard.png
 ---
 

@@ -4,10 +4,10 @@ first_name: Julia
 last_name: Elman
 full_name: Julia Elman
 role: Front End Designer
-city:
+city: Durham
 state: NC
-github:
-twitter:
+github: juliaelman
+twitter: juliaelman
 team: Design
 ---
 

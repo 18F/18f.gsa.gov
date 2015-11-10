@@ -6,6 +6,7 @@ title: "A complete list of .gov domains"
 image: /assets/blog/dotgovs/dot-govs-screen.png
 
 description: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch."
+excerpt: "We're happy to say that the .gov registry is now releasing the entire set of 5,300 .gov domains, including those outside of the federal executive branch."
 
 authors:
 - eric
@@ -18,7 +19,7 @@ tags:
 - open government
 
 ---
-<a target="_blank" href="https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv"><img src="/assets/blog/dotgovs/dot-govs-screen.png" title="Excerpt of the .gov domain list" style="border: 1px solid #ccc;" /></a>
+<a target="_blank" href="https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv"><img src="/assets/blog/dotgovs/dot-govs-screen.png" title="Excerpt of the .gov domain list" alt="A section of a spreadsheet of the .gov domain list" border: 1px solid #ccc;" /></a>
 
 There are a lot of `.gov` domains: over 5,300 of them. About 1,300 of these are used by the federal government's executive, legislative, and judicial branches. The rest are spread across states, territories, counties, cities, and native tribes.
 
@@ -28,7 +29,7 @@ We're happy to say that the `.gov` registry is now releasing the **entire set of
 
 <!-- more -->
 
-Some background: the `.gov` registry is a [centrally operated top-level domain](https://www.dotgov.gov) managed by the [Office of Government-wide Policy](http://www.gsa.gov/portal/content/104550) (OGP), which is part of the [General Services Administration](http://www.gsa.gov/) (GSA), an independent federal agency.  The associated [DotGov.gov](http://www.dotgov.gov) provides more background, as well as tools such as WHOIS lookup and DNSSEC analysis.
+Some background: the `.gov` registry is a [centrally operated top-level domain](https://www.dotgov.gov) managed by the [Office of Government-wide Policy](http://www.gsa.gov/portal/content/104550) (OGP), which is part of the [General Services Administration](http://www.gsa.gov/) (GSA). The associated [DotGov.gov](http://www.dotgov.gov) provides more background, as well as tools such as WHOIS lookup and DNSSEC analysis.
 
 You can download the complete `.gov` domain list in CSV form here:
 

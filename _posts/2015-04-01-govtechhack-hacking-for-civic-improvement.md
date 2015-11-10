@@ -1,5 +1,5 @@
 ---
-title: 'GovTechHack: Hacking for Civic Improvement'
+title: 'GovTechHack: hacking for civic improvement'
 date: '2015-04-02'
 layout: post
 image: /assets/blog/govtechhack/IMG_4015.JPG
@@ -35,22 +35,21 @@ More than 75 individuals came prepared to share their time and skills in
 the name of civic improvement, and their achievements were nothing short
 of remarkable.
 
-18F supported the event by identifying the open-source projects to be
+18F supported the event by identifying the open source projects to be
 hacked. These projects’ contributors were on-hand during the hackathon
 to answer questions, and also made themselves available before and after
 the event to answer questions and accept pull requests. We at 18F would
 be delighted to collaborate with any group looking for a way to
-contribute — you can find us and other active open-source teams on
+contribute — you can find us and other active open source teams on
 [government open source email
 list](mailto:government-open-source@googlegroups.com).
 
-How it Worked
--------------
+## How it worked
 
 <img alt="The crowd listens to opening day presentations" src="/assets/blog/govtechhack/IMG_3998.JPG" class="align-left" />
 
-**Day 1:** The two-day event kicked off on a sunny Friday evening.
-Participants arrived promptly at 6:00 PM, which gave them plenty of time
+**Day one:** The two-day event kicked off on a sunny Friday evening.
+Participants arrived promptly at 6:00 p.m., which gave them plenty of time
 to get settled and introduce themselves to their fellow hackers.
 
 Around 6:30, the evening’s kickoff presentation began. Former
@@ -79,20 +78,20 @@ following day. These projects included:
     for purchase card holders authorized to buy office supplies for
     the government
 
--   [**GovCode**](https://github.com/dlapiduz/govcode.org) — A service consolidating open-source government
+-   [**GovCode**](https://github.com/dlapiduz/govcode.org) — A service consolidating open source government
     projects, making participation easier than ever
 
 -   [**Solar Data Sets**](http://energy.gov/eere/sunshot/sunshot-initiative) — The Department of Energy’s SunShot Initiative
     seeks to inspire more people to create software solutions to the
     challenge of increasing our use of solar energy.
 
-**Day 2**: Bright and early Saturday morning, participants reconvened at
+**Day two**: Bright and early Saturday morning, participants reconvened at
 the cafe, eager to work. The previous evening, each group had outlined
 its priorities. While most of San Francisco slept, these groups tackled
 design, development, and marketing issues within the five aforementioned
 projects.
 
-The groups worked from 9:00 AM until 4:00 PM, taking a quick lunch break
+The groups worked from 9:00 a.m. until 4:00 p.m., taking a quick lunch break
 and also stopping for snacks. As afternoon slid into evening, the groups
 presented their work to a panel of judges, highlighting the bugs they’d
 fixed and recommendations they’d made.
@@ -137,8 +136,7 @@ govtechhack slack instance which was created especially for the event.
 There were even remote participants who were able to join teams and help
 out even though they could not be there in person
 
-Want to help?
--------------
+## Want to help?
 
 The success of
 [GovTechHack](https://twitter.com/search?f=realtime&q=%23GovTechHack&src=typd)

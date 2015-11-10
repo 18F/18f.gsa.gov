@@ -1,5 +1,5 @@
 ---
-title: Highlights from the Agile Delivery Services Industry Day Events
+title: Highlights from the Agile Delivery Services Industry Day events
 date: '2015-02-12'
 layout: post
 image: /assets/blog/agile-day/agile-day.jpg
@@ -9,8 +9,8 @@ tags:
 - events
 authors:
 - chrisc
-description: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of Industry Day events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
-excerpt: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of Industry Day events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
+description: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
+excerpt: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
 ---
 
 By {% author chrisc %}
@@ -41,7 +41,7 @@ webinar, you can [*view a recording of
 it*](http://gsafas.adobeconnect.com/p9gcfd4n0rs/), and we should have
 video of the afternoon session shortly.
 
-It was great to see so many people in the GSA Auditorium to hear keynote
+It was great to see so many people in the GSA auditorium to hear keynote
 speakers Adam Neufeld (GSA Chief of Staff), Kay Ely (Director of GSA IT
 Schedule 70), Greg Godbout (Executive Director of 18F), and Ryan
 Panchadsaram (U.S. Deputy Chief Technology Officer) discuss the value of

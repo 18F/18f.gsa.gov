@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Three 18F Products That Will Help Your Workplace"
+title: "Three 18F products that will help your workplace"
 
 image: /assets/blog/three-products/hub.png
 

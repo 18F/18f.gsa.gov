@@ -6,23 +6,26 @@ This repository contains 18F's website, https://18f.gsa.gov.
 
 ### Deployment and workflow
 
-* The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.us).
+* The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.gov).
 * The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
 **All development and pull requests should be done against the `staging` branch.**
 
 Deployments to production will be done by site admins, using pull requests from `staging` to `production`.
 
-### Adding yourself to the site
+We occasionally use various subdomains of 18f.gov to demo work in a way that others can see it. These deployments are manual and require a little bit of extra configuration. See the readme file in the "deploy" folder for more information on how this works.
 
-If you're a new teammate, please add yourself to the website by following these steps:
+### Getting your picture and bio on the site:
 
-1. You should have a file with your name on it in `_data/team` (`_data/team/boone.yml`, for example) on [18F/data-private](https://github.com/18F/data-private). Make sure that information is accurate and be sure to read [the Privacy section in the README there](https://github.com/18F/data-private#privacy).
-2. Upload your photo to the appropiate [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0B8kn3cuJUwEkLUMwWXE2VVczbUU&usp=sharing).
-3. Fill out the [bio form](https://docs.google.com/a/gsa.gov/forms/d/1XRCkQZw3-1JoZh6tm4k1qbunEnvJdOvDrTjRCqs-dp4/viewform).
-4. Get in touch with the site team in #18f-site; we'll handle it from there!
+If you're a new teammate, follow these steps and the #18f-site team will take care of it:
 
-**You do not need to edit the team.json file in this repo,** we'll find it in `data-private`.
+1. Upload your photo to the appropriate [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0B8kn3cuJUwEkLUMwWXE2VVczbUU&usp=sharing).
+2. Fill out the [bio form](https://docs.google.com/a/gsa.gov/forms/d/1XRCkQZw3-1JoZh6tm4k1qbunEnvJdOvDrTjRCqs-dp4/viewform).
+3. Get in touch with the site team in #18f-site; we'll handle it from there!
+
+NOTE: Bios and pictures are scheduled to be added at the end of each month.
+
+**You do not need to edit the team.json or authors.yml files in this repo,** we'll find it in `data-private`.
 
 If you get stuck, or have any other questions, feel free to reach out to anyone on the 18f-site team in channel #18f-site.
 

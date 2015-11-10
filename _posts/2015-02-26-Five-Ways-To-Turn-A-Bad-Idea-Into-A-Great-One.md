@@ -1,5 +1,5 @@
 ---
-title: "Five Ways to Turn a Bad Idea into a Great One: Steve Portigal Event Recap"
+title: "Five ways to turn a bad idea into a great one: Steve Portigal event recap"
 layout: post
 image: /assets/blog/portigal-event-image/portigalevent.jpg
 tags:

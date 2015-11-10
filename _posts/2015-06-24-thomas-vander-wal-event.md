@@ -14,7 +14,7 @@ image: /assets/blog/vander-wal/email.jpg
 ---
 
 William Shakespeare invented more than 1,700 English words. For
-example, *swagger.* Also, *bedazzled.*
+example, *swagger*. Also, *bedazzled*.
 
 *Folksonomy* and *infocloud* — language innovations of Thomas Vander
 Wal — haven’t yet reached Shakespearean fame, but they’re shaping up to

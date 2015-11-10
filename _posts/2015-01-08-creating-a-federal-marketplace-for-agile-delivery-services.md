@@ -14,6 +14,7 @@ tags:
 - gsa
 - lean
 - modernization
+image: ""
 ---
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013
 
@@ -48,6 +49,6 @@ To encourage healthy competition, we’re going to do two things: use simple and
 ##Small Business Friendly
 Small businesses are the drivers of economic growth in the U.S. Agile methodologies encourage work to be done in small, rapid, independent increments. When combined with modular approaches to contracting, this opens up a whole new world of contract opportunities for small businesses. For example, rather than compete work as one big, long contract (e.g., $50M over five years) that typically only large businesses can execute on, break it into many small, short-duration contracts (e.g., ten $5M contracts of three to six months in duration). This has the effect of leveling the competitive playing field for not just small companies, but businesses of all sizes. Federal buyers will be strongly encouraged to structure their acquisitions this way. For those who need help, the services of [18F Consulting](https://18f.gsa.gov/consulting/) will be made available to them.
 
-##Contact Us
+##Contact us
 
 If you have any questions about the upcoming Agile Delivery Services Multiple Award BPA and industry day event, please refer to the point of contact for this program in the [RFI](https://www.fbo.gov/notices/e0807fc8a69115f0e352f6f0c135697a).
