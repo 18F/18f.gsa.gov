@@ -63,5 +63,4 @@ spending taxpayers dollars wisely and in the most efficient way.
 To get involved in shaping and advancing this tool (and other
 procurement-related tools), please get in touch with us at
 [calc-18f@gsa.gov](mailto:calc-18f@gsa.gov). And if you’re using the CALC
-tool for your city or state, please let us know at — we’d love to
-feature you on the blog.
+tool for your city or state, please let us know at [18f@gsa.gov](mailto:18f@gsa.gov). We’d love to feature you on the blog.
