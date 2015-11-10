@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+ruby  '2.2.3'
 gem 'rouge'
 gem 'bourbon'
 gem 'redcarpet', '3.2.3'

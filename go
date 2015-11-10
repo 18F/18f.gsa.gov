@@ -27,23 +27,6 @@
 #
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
-
-MIN_VERSION = "2.1.0"
-
-unless RUBY_VERSION >= MIN_VERSION
-  puts <<EOF
-
-*** ABORTING: Unsupported Ruby version ***
-
-Ruby version #{MIN_VERSION} or greater is required to build 18f.gsa.gov, but
-this Ruby is version #{RUBY_VERSION}. Consider using a version manager such as
-rbenv (https://github.com/sstephenson/rbenv) or rvm (https://rvm.io/)
-to install a Ruby version specifically for 18f.gsa.gov development.
-
-EOF
-  exit 1
-end
-
 def exec_cmd(cmd)
   exit $?.exitstatus unless system(cmd)
 end
