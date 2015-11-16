@@ -4,17 +4,18 @@ date: 2015-11-13
 authors:
 - bret
 tags:
+- devops
 - our products
 - video
 - cloud.gov
-description: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practices, production-level security, and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
-excerpt: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practices, production-level security, and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
+description: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practice, production-level security and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
+excerpt: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practice, production-level security and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
 image: /assets/blog/cloud-gov/cloud-gov-homepage.jpg
 ---
 
 Four weeks ago, we [announced cloud.gov](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), a new
 platform that will enable small federal teams to rapidly develop and
-deploy web services with best-practices, production-level security, and
+deploy web services with best-practice, production-level security and
 scalability. The platform will also help agencies reduce the work
 required to comply with federal security regulations.
 
@@ -32,15 +33,15 @@ platform for teams to build and host their application or website. It
 can help development teams work faster and cheaper by handling much of
 their deployment complexity.
 
-cloud.gov also includes an open source product called [**Control
-Masonry**](https://github.com/18F/control-masonry). Control Masonry
+cloud.gov also includes an open source product called [**Compliance
+Masonry**](https://github.com/18F/compliance-masonry). Compliance Masonry
 assists in assembling the documentation necessary for federal services
 to comply with Federal Information Security Management Act (FISMA)
 standards and agency-specific Authority to Operate (ATO) requirements.
-We’re using Control Masonry to gain the ATO for cloud.gov itself, and
+We’re using Compliance Masonry to gain the ATO for cloud.gov itself, and
 will provide our materials in a form that will greatly reduce the staff
 time required to prepare the ATO documentation for any app deployed on
-cloud.gov. We will expand Control Masonry’s role to support continuing
+cloud.gov. We will expand Compliance Masonry’s role to support continuing
 assurance for deployed applications.
 
 ## Tell me more about the Platform-as-a-Service concept
