@@ -10,7 +10,7 @@ layout: bare
 
 * Created the [Federalist platform](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/) to make it faster for government agencies to build websites that are secure, responsive, and accessible.
 
-* [Piloted an agile delivery services Blaket Purchase Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/) to explore a new way for the government to hire contractors that could reduce the cost and completion time of federal IT projects.  
+* [Piloted an agile delivery services Blanket Purchase Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/) to explore a new way for the government to hire contractors that could reduce the cost and completion time of federal IT projects.  
 
 * Launched an alpha version of [cloud.gov](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), a Platform-as-a-Service (PaaS) built to tackle core infrastructure issues and enable small development teams to improve the delivery of their products. 
 
