@@ -56,14 +56,17 @@ def serve
   exec 'bundle exec jekyll serve --trace --incremental'
 end
 
-def build
+def build(watch = false, config='config.yml')
   puts 'Building the site...'
-  exec_cmd('bundle exec jekyll b --trace --incremental')
+  cmd = 'bundle exec jekyll b --trace --incremental'
+  if watch == false
+    cmd = cmd + ' --no-watch'
+  end
   puts 'Site built successfully.'
 end
 
 def ci_build
-  exec 'bundle exec jekyll b --trace --no-watch'
+  build
   test
   puts 'Done!'
 end
