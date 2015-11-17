@@ -158,7 +158,7 @@ Seemingly since the dawn of programming, engineers have been concerned
 with making code more modular and flexible. In that time, we have
 developed great guiding principles.
 
-![Using refactoring to impose design on the chaos that happens with continual development](/assets/blog/design-over-architecture/architecture-overview.jpg)
+![Using refactoring to impose design on the chaos that happens with continual development](/assets/blog/design-over-architecture/refactoring.jpg)
 *Using refactoring to impose design on the chaos that happens with continual development.*
 
 ### SOLID
