@@ -1,12 +1,12 @@
 ---
-city: 
+city:
 first_name: Britta
 full_name: Britta Gustafson
-github: 
+github:
 last_name: Gustafson
-name: britta.gustafson
-role: 
-state: 
-team: 
-twitter: 
+name: britta-gustafson
+role:
+state:
+team:
+twitter:
 ---

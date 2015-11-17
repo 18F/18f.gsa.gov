@@ -1,12 +1,12 @@
 ---
-city: 
+city:
 first_name: Carlo
 full_name: Carlo Costino
-github: 
+github:
 last_name: Costino
-name: carlo.costino
-role: 
-state: 
-team: 
-twitter: 
+name: carlo-costino
+role:
+state:
+team:
+twitter:
 ---

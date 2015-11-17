@@ -1,12 +1,12 @@
 ---
-city: 
+city:
 first_name: Michael
 full_name: Michael Torres
-github: 
+github:
 last_name: Torres
-name: michael.torres
-role: 
-state: 
-team: 
-twitter: 
+name: michael-torres
+role:
+state:
+team:
+twitter:
 ---

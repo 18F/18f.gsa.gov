@@ -1,12 +1,12 @@
 ---
-city: 
+city:
 first_name: Amanda
 full_name: Amanda Robinson
-github: 
+github:
 last_name: Robinson
-name: amanda.robinson
-role: 
-state: 
-team: 
-twitter: 
+name: amanda-robinson
+role:
+state:
+team:
+twitter:
 ---
