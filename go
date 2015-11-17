@@ -62,10 +62,15 @@ def build(watch = false, config='config.yml')
   if watch == false
     cmd = cmd + ' --no-watch'
   end
+  unless config == 'config.yml'
+    cmd = cmd + " --config _config.yml,#{config}"
+  end
+  exec_cmd(cmd)
   puts 'Site built successfully.'
 end
 
 def ci_build
+  reset
   build
   test
   puts 'Done!'
@@ -77,8 +82,9 @@ def server_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml')
+  build
   require 'time'
   puts Time.now()
 end
@@ -89,8 +95,9 @@ def production_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  build(config="_config-deploy.yml")
   require 'time'
   puts Time.now()
 end
@@ -102,7 +109,6 @@ def cf_deploy
 end
 
 def test
-  # exec_cmd('sh deploy/tests/test.sh')
   exec_cmd('bundle exec deploy/tests/test.rb')
   exec_cmd('bundle exec jekyll test')
 end
@@ -113,7 +119,6 @@ end
 
 def reset
   exec_cmd('bundle exec jekyll clean')
-  exec_cmd('bundle exec jekyll build --no-watch --trace')
 end
 
 COMMANDS = {
@@ -128,7 +133,7 @@ COMMANDS = {
   :production_build => 'Deploys to production using a second config file',
   :test => 'Tests the fontmatter and site build.',
   :pre_deploy => 'Builds the site and runs associated tests',
-  :reset => 'Clears the build cache and completely rebuilds the site.'
+  :reset => 'Clears the build cache'
 }
 
 def usage(exitstatus: 0)
