@@ -56,15 +56,16 @@ def serve
   exec 'bundle exec jekyll serve --trace --incremental'
 end
 
-def build(watch = false, config='config.yml')
+def build(watch = false, config=false)
   puts 'Building the site...'
   cmd = 'bundle exec jekyll b --trace --incremental'
   if watch == false
-    cmd = cmd + ' --no-watch'
+    cmd = "#{cmd} --no-watch"
   end
-  unless config == 'config.yml'
-    cmd = cmd + " --config _config.yml,#{config}"
+  if config
+    cmd = "#{cmd} --config _config.yml,#{config}"
   end
+  puts(cmd)
   exec_cmd(cmd)
   puts 'Site built successfully.'
 end
@@ -91,13 +92,13 @@ end
 
 def production_build
   puts 'Stashing (just in case)'
-  exec_cmd 'git stash'
+  # exec_cmd 'git stash'
   puts 'Pulling from git'
-  exec_cmd 'git pull'
+  # exec_cmd 'git pull'
   update_gems
   reset
   puts 'building site'
-  build(config="_config-deploy.yml")
+  build(watch=false, config="_config-deploy.yml")
   require 'time'
   puts Time.now()
 end
