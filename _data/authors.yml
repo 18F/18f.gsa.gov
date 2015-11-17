@@ -8,7 +8,7 @@
 # id, replace this with the name you'll use in a post's front matter
 # full_name, after the colon, type a space and write out the person's name as it should appear on the site
 # first_name, after the colon, type a space and write out the person's first name as they want it written
-# last_name, after the colon, type a space and write out the person's surname. We only use this for sorting 
+# last_name, after the colon, type a space and write out the person's surname. We only use this for sorting
 #           authors right now.
 # url, for guest authors only; after the colon, type a space and insert a url to a profile for the author.
 #
@@ -332,3 +332,7 @@ gwynnekostin:
   first_name: Gwynne
   last_name: Kostin
   url: https://www.digitalgov.gov/author/gkostin/
+kane:
+  full_name: Kane Baccigalupi
+  first_name: Kane
+  last_name: Baccigalupi
