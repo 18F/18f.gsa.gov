@@ -15,8 +15,10 @@ mobile users."
 description: "GSA unveiled a refreshed gsa.gov website yesterday with a more
 crisp design layout, improved usability, and features geared more toward
 mobile users."
-image: /assets/blog/design-over-architecture/architecture-overview.jpg
+image: /assets/blog/gsa-homepage/gsa-homepage.jpg
 ---
+
+![A screenshot of the new gsa.gov homepage](/assets/blog/gsa-homepage/gsa-homepage.jpg)
 
 *Originally posted on [GSA's blog](http://gsablogs.gsa.gov/gsablog/2015/11/17/gsa-gov-refreshed-with-eye-toward-mobile-users/).*
 
