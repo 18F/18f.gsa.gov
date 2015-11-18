@@ -18,7 +18,10 @@ problem of learning from data. We think there’s a big opportunity to make gove
 more efficient by using the massive paper trail that government
 agencies have been creating over the decades as datasets for machine
 learning algorithms."
+image: /assets/blog/machine-learning/computer-motherboard.jpg
 ---
+
+![A computer motherboard](/assets/blog/machine-learning/computer-motherboard.jpg)
 
 Should I get married? What is my calling? Should I eat gluten? A lot of
 decisions in life are hard. We spend months or years collecting
