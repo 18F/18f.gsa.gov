@@ -11,8 +11,8 @@ tags:
 - 18f consulting
 - federal acquisitions
 - procurement
-excerpt: "In August, we announced the Full-stack Development Pool vendors for the Agile Delivery Services Marketplace. As we continue to work on the alpha version of this marketplace, we're beginning to plan out additional "micro-markets" as well."
-description: "In August, we announced the Full-stack Development Pool vendors for the Agile Delivery Services Marketplace. As we continue to work on the alpha version of this marketplace, we're beginning to plan out additional "micro-markets" as well."
+excerpt: "In August, we announced the Full-stack Development Pool vendors for the Agile Delivery Services Marketplace. As we continue to work on the alpha version of this marketplace, we're beginning to plan out additional <em>micro-markets</em> as well."
+description: "In August, we announced the Full-stack Development Pool vendors for the Agile Delivery Services Marketplace. As we continue to work on the alpha version of this marketplace, we're beginning to plan out additional <em>micro-markets</em> as well."
 ---
 
 In August, [we
