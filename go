@@ -42,9 +42,13 @@ def init
   exec_cmd 'bundle install'
 end
 
-def update_gems
+def update_gems(development=true)
   # Installs and updates gems to the correct version, in case it's been a while
-  exec_cmd 'bundle install'
+  if development
+    exec_cmd 'bundle install'
+  else
+    exec_cmd 'bundle install --without development'
+  end
 end
 
 def update_data
@@ -82,7 +86,7 @@ def server_build
   exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  update_gems
+  update_gems(development=false)
   reset
   puts 'building site'
   build
@@ -95,7 +99,7 @@ def production_build
   # exec_cmd 'git stash'
   puts 'Pulling from git'
   # exec_cmd 'git pull'
-  update_gems
+  update_gems(development=false)
   reset
   puts 'building site'
   build(watch=false, config="_config-deploy.yml")

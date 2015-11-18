@@ -108,7 +108,6 @@ DEPENDENCIES
   jemoji
   pry
   redcarpet (= 3.2.3)
-  rouge
 
 BUNDLED WITH
    1.10.6

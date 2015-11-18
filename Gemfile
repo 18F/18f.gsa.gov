@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 ruby  '2.2.3'
-gem 'rouge'
 gem 'redcarpet', '3.2.3'
 gem 'jekyll', '3.0.1'
 gem 'html-proofer'
