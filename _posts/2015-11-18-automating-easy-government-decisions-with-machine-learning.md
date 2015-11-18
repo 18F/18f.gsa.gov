@@ -1,6 +1,6 @@
 ---
 title: "Automating easy government decisions with machine learning"
-date: 2015-11-17
+date: 2015-11-18
 layout: post
 authors:
 - anthony-garvan
