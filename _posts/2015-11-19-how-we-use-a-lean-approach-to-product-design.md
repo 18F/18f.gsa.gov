@@ -1,6 +1,6 @@
 ---
 title: "How we use a lean approach to product design"
-date: 2015-11-18
+date: 2015-11-19
 layout: post
 authors:
 - brethauer
