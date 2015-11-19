@@ -22,7 +22,7 @@ what we build, but on the outcomes our tools enable.
 
 ## What is lean product design?
 
-The core of lean product design is “hypothesis-driven development,”
+The core of **[lean product design](https://pages.18f.gov/LeanProductDesign/)** is “hypothesis-driven development,”
 which is actually not as scary as it sounds. Basically we try to
 acknowledge that much of what we believe about a problem, solution, and
 our users are **assumptions** that need to be tested. To do this, we
@@ -62,7 +62,7 @@ how it works and what it accomplishes.
 In order to reflect on what we’ve learned in trying this approach, and
 to help other digital teams who might be interested, we’ve written a
 detailed step-by-step
-[reference guide](https://pages.18f.gov/LeanProductDesign/),
+**[reference guide](https://pages.18f.gov/LeanProductDesign/)**,
 which includes:
 
 -   Steps for planning and executing a project with lean in mind
