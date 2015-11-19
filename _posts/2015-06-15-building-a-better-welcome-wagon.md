@@ -5,7 +5,7 @@ layout: post
 authors:
 - mbland
 - emileigh
-- colin
+- colinmacarthur
 tags:
 - how we work
 - training
