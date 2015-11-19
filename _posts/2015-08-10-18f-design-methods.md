@@ -4,7 +4,7 @@ date: 2015-08-10
 layout: post
 authors:
 - jeremy
-- colin
+- colinmacarthur
 - bradnunnally
 - jthibault
 - russ

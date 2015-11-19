@@ -4,7 +4,7 @@ date: 2015-11-18
 layout: post
 authors:
 - brethauer
-- colin
+- colinmacarthur
 tags:
 - lean
 - design
