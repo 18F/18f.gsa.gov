@@ -5,7 +5,7 @@ authors:
 - mollieruskin
 - carolyndew
 - mayabenari
-- colin
+- colinmacarthur
 tags:
 - proactive federal partner
 - our projects
