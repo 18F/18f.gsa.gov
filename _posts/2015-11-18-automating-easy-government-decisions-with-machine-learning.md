@@ -134,7 +134,7 @@ allow more focus on the hard problems of government, not robotic
 overlords. And they don’t have to be time consuming or expensive to
 build: by leveraging the outstanding advances in open source machine
 learning software, a small team can put together a functional prototype
-in several weeks. You don’t necessary need a ton of data, either: in
+in several weeks. You don’t necessarily need a ton of data, either: in
 most cases a couple thousand samples is sufficient to determine if
 machine learning will work in your application. If you’re curious about
 how machine learning or other data services could be used in your
