@@ -6,13 +6,13 @@ authors:
 - will
 tags:
 - how we work
-excerpt: "If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The 18F Delivery Partner Playbook is specifically targeted at federal offices interested in working with 18F to build digital services."
-description: "If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The 18F Delivery Partner Playbook is specifically targeted at federal offices interested in working with 18F to build digital services."
+excerpt: "If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The 18F Delivery Partnership Playbook is specifically targeted at federal offices interested in working with 18F to build digital services."
+description: "If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The 18F Delivery Partnership Playbook is specifically targeted at federal offices interested in working with 18F to build digital services."
 ---
 
 If you or your agency have thought about working with 18F but are unsure
 of how we work with our partners, we have a new set of guidelines to
-help you out. The [18F Delivery Partner Playbook](https://pages.18f.gov/partnership-playbook/) is specifically
+help you out. The [18F Delivery Partnership Playbook](https://pages.18f.gov/partnership-playbook/) is specifically
 targeted at federal offices interested in working with 18F to build
 digital services.
 
