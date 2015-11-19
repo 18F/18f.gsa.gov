@@ -15,14 +15,14 @@ description: "In August, we announced the Full-stack Development Pool vendors fo
 ---
 
 Here at 18F, several product teams (including CALC, Discovery, and EITI)
-have been experimenting with a **lean product design** approach to
+have been experimenting with a **[lean product design](https://pages.18f.gov/LeanProductDesign/)** approach to
 building software, often called “lean UX.” In a nutshell, it is a set of
 ideas about design and project management that help us focus not just on
 what we build, but on the outcomes our tools enable.
 
 ## What is lean product design?
 
-The core of **[lean product design](https://pages.18f.gov/LeanProductDesign/)** is “hypothesis-driven development,”
+The core of lean product design is “hypothesis-driven development,”
 which is actually not as scary as it sounds. Basically we try to
 acknowledge that much of what we believe about a problem, solution, and
 our users are **assumptions** that need to be tested. To do this, we
