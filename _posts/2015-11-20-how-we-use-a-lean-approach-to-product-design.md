@@ -15,7 +15,7 @@ description: "In August, we announced the Full-stack Development Pool vendors fo
 ---
 
 Here at 18F, several product teams (including CALC, Discovery, and EITI)
-have been experimenting with a **[lean product design](https://pages.18f.gov/LeanProductDesign/)** approach to
+have been experimenting with a **[lean product design](https://pages.18f.gov/lean-product-design/)** approach to
 building software, often called “lean UX.” In a nutshell, it is a set of
 ideas about design and project management that help us focus not just on
 what we build, but on the outcomes our tools enable.
@@ -62,7 +62,7 @@ how it works and what it accomplishes.
 In order to reflect on what we’ve learned in trying this approach, and
 to help other digital teams who might be interested, we’ve written a
 detailed step-by-step
-**[reference guide](https://pages.18f.gov/LeanProductDesign/)**,
+**[reference guide](https://pages.18f.gov/lean-product-design/)**,
 which includes:
 
 -   Steps for planning and executing a project with lean in mind
@@ -93,5 +93,5 @@ At 18F, we’ve used this guide:
 
 Give us your thoughts, advice, and edits by [emailing
 us](mailto:18f@gsa.gov) or [opening an
-issue](https://github.com/18F/LeanProductDesign/issues) directly in the
+issue](https://github.com/18F/lean-product-design/issues) directly in the
 GitHub repository.
