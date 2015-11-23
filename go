@@ -96,10 +96,10 @@ end
 
 def production_build
   puts 'Stashing (just in case)'
-  # exec_cmd 'git stash'
+  exec_cmd 'git stash'
   puts 'Pulling from git'
-  # exec_cmd 'git pull'
-  update_gems(development=false)
+  exec_cmd 'git pull'
+  update_gems
   reset
   puts 'building site'
   build(watch=false, config="_config-deploy.yml")

@@ -249,7 +249,7 @@ jtindel:
   full_name: John Tindel
   first_name: John
   last_name: Tindel
-colin:
+colinmacarthur:
   full_name: Colin MacArthur
   first_name: Colin
   last_name: MacArthur
@@ -340,3 +340,12 @@ jeffwoodworth:
   full_name: Jeff Woodworth
   first_name: Jeff
   last_name: Woodworth
+andrewmcmahon:
+  full_name: Andrew McMahon
+  first_name: Andrew
+  last_name: McMahon
+  url: http://www.gsa.gov/portal/content/101108
+anthony-garvan:
+  full_name: Tony Garvan
+  first_name: Tony
+  last_name: Garvan
