@@ -46,7 +46,7 @@ we:
 
 -   **Keep records.** As Dave Cole, a developer who works in Philadelphia, says: “Even after meetings, what's discussed and decided should be summarized into [GitHub] issues and notes for those who were not present or just to keep a record for the future. Good practices for remote teams and between teams overall.”
 
-We have a five-hour overlap in our workdays.
+We have a four-hour overlap in our workdays.
 --------------------------------------------
 
 With people on both coasts, 18F operates from 9 a.m. to 8 p.m. ET every day.
