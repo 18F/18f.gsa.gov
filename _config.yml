@@ -19,10 +19,11 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
-gems: 
+gems:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 jekyll-archives:
   enabled:
@@ -82,3 +83,15 @@ collections:
     permalink: /press/:name/
 
 full_rebuild: true
+
+# SEO
+twitter:
+  username: "18F"
+
+logo: "/assets/images/favicons/18f-center-144.png"
+
+social:
+  type: "organization"
+  links:
+    - https://twitter.com/18F
+    - https://www.youtube.com/channel/UCmm0GRNzfwE9eghoKijMC3w 
