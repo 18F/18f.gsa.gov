@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from', '~> 0.9'
   gem 'jekyll_frontmatter_tests'
+  gem 'jekyll-feed'
 end
 
 gem 'jemoji'
