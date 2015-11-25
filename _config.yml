@@ -85,3 +85,6 @@ collections:
     permalink: /press/:name/
 
 full_rebuild: true
+
+feed:
+  path: /feed/index.xml
