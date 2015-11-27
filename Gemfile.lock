@@ -44,6 +44,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.3.1)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.9.0)
       jekyll (>= 2.0)
@@ -100,6 +101,7 @@ DEPENDENCIES
   html-proofer
   jekyll (= 3.0.1)
   jekyll-archives!
+  jekyll-feed
   jekyll-paginate
   jekyll-redirect-from (~> 0.9)
   jekyll-sitemap
