@@ -46,6 +46,7 @@ url: https://18f.gsa.gov
 title: 18F Digital Services Delivery
 name: 18F Digital Services Delivery
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+timezone: America/New_York
 
 # blog archive at /blog
 paginate: 5
@@ -69,6 +70,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
   -
     scope:
       collection: team
