@@ -59,8 +59,8 @@ night on the East Coast or early in the morning on the West Coast to
 better accommodate their teammates.)
 
 What this generally means, though, is that everyone on our team, no
-matter where they live, has at least 4 hours of overlap in their working
-hours: generally between 1 p.m. to 5 p.m. ET. As Michelle Hertzfeld, a
+matter where they live, has at least 5 hours of overlap in their working
+hours: generally between 12 p.m. to 5 p.m. ET. As Michelle Hertzfeld, a
 designer in Tucson, notes: ”This covers the need for people to be in
 touch at least part of the day and won’t slow down ‘hot items,’ yet
 still allows people half the day to focus on actually moving the ball
