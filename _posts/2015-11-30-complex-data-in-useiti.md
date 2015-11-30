@@ -29,7 +29,7 @@ The "federal production number"
 -------------------------------
 <figure>
   <img src="/assets/blog/eiti/minot.png" alt="Photo of Minot, ND with an oil well icon from the USEITI project superimposed." />
-  <figcaption><em>Minot, ND. photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA. Pumpjack graphic by <a href="/team/ericronne/">Eric Ronne</a></strong></figcaption>
+  <figcaption><em>Minot, ND. photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA. Pumpjack graphic by <a href="/team/ericronne/">Eric Ronne</a></em></figcaption>
 </figure>
 
 Let’s imagine you live in Minot, North Dakota. You’ve probably heard
