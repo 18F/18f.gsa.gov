@@ -27,6 +27,10 @@ federal lands.
 
 The "federal production number"
 -------------------------------
+<figure>
+  <img src="/assets/blog/eiti/minot.png" alt="Photo of Minot, ND with an oil well icon from the USEITI project superimposed." />
+  <figcaption><em>Minot, ND. photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA. Pumpjack graphic by <a href="/team/ericronne/">Eric Ronne</a></strong></figcaption>
+</figure>
 
 Let’s imagine you live in Minot, North Dakota. You’ve probably heard
 about an oil boom in your state, in fact, you might even know some
@@ -45,10 +49,6 @@ Sales numbers don’t account for things like any product lost in transit
 or used on site. So some data were missing; there might be a statistical
 way to calculate the difference, but there was also a reporting problem.
 
-<figure>
-  <img src="/assets/blog/eiti/minot.png" alt="Photo of Minot, ND with oil well icon from the USEITI project superimposed." />
-  <figcaption>Minot, ND, photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA.</figcaption>
-</figure>
 Reporting production levels
 ---------------------------
 
