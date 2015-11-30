@@ -10,6 +10,7 @@ authors:
 - boone
 excerpt: "We've been working with the Office of Natural Resource Revenues on implementing the global Extractive Industries Transparency Initiative (EITI) standard, which includes all kinds of data. One new data point we have this year is the federal production number: The amount of a given resource produced on federal lands."
 description: "We've been working with the Office of Natural Resource Revenues on implementing the global Extractive Industries Transparency Initiative (EITI) standard, which includes all kinds of data. One new data point we have this year is the federal production number: The amount of a given resource produced on federal lands."
+image: /assets/blog/eiti/minot.png
 ---
 
 Of the dozens of offices in the government that deal with natural
@@ -44,6 +45,10 @@ Sales numbers don’t account for things like any product lost in transit
 or used on site. So some data were missing; there might be a statistical
 way to calculate the difference, but there was also a reporting problem.
 
+<figure>
+  <img src="/assets/blog/eiti/minot.png" alt="Photo of Minot, ND with oil well icon from the USEITI project superimposed." />
+  <figcaption>Minot, ND, photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA.</figcaption>
+</figure>
 Reporting production levels
 ---------------------------
 
