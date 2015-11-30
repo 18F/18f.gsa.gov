@@ -29,7 +29,7 @@ The "federal production number"
 -------------------------------
 <figure>
   <img src="/assets/blog/eiti/minot.png" alt="Photo of Minot, ND with an oil well icon from the USEITI project superimposed." />
-  <figcaption><em>Minot, ND. photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA. Pumpjack graphic from the Noun Project.</em></figcaption>
+  <figcaption><em>Minot, ND. photo by <a href="https://en.wikipedia.org/wiki/User:Bobak">Bobak Ha'Eri</a>. Licensed CC 3.0, BY-SA. Pumpjack graphic <a href="https://thenounproject.com/term/oil/42474/">by hunotika from the Noun Project</a>. Licensed CC 3.0, BY-SA.</em></figcaption>
 </figure>
 
 Let’s imagine you live in Minot, North Dakota. You’ve probably heard
