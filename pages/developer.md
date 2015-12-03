@@ -39,8 +39,9 @@ The [Midas API](https://pages.18f.gov/midas/developer/) provides reading, creati
 
 The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API for the Federal Election Commission. It aims to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.
 
+### Team API
 
-
+The [18F Team API](https://team-api.18f.gov/public/api/) exposes organization information that is then integrated into the other internal systems 18F uses.  
 
 ## 18F Initiatives
 
