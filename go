@@ -42,9 +42,13 @@ def init
   exec_cmd 'bundle install'
 end
 
-def update_gems
+def update_gems(development=true)
   # Installs and updates gems to the correct version, in case it's been a while
-  exec_cmd 'bundle install'
+  if development
+    exec_cmd 'bundle install'
+  else
+    exec_cmd 'bundle install --without development'
+  end
 end
 
 def update_data
@@ -56,14 +60,23 @@ def serve
   exec 'bundle exec jekyll serve --trace --incremental'
 end
 
-def build
+def build(watch = false, config=false)
   puts 'Building the site...'
-  exec_cmd('bundle exec jekyll b --trace --incremental')
+  cmd = 'bundle exec jekyll b --trace --incremental'
+  if watch == false
+    cmd = "#{cmd} --no-watch"
+  end
+  if config
+    cmd = "#{cmd} --config _config.yml,#{config}"
+  end
+  puts(cmd)
+  exec_cmd(cmd)
   puts 'Site built successfully.'
 end
 
 def ci_build
-  exec 'bundle exec jekyll b --trace --no-watch'
+  reset
+  build
   test
   puts 'Done!'
 end
@@ -73,9 +86,10 @@ def server_build
   exec_cmd 'git stash'
   puts 'Pulling from git'
   exec_cmd 'git pull'
-  update_gems
+  update_gems(development=false)
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml')
+  build
   require 'time'
   puts Time.now()
 end
@@ -86,8 +100,9 @@ def production_build
   puts 'Pulling from git'
   exec_cmd 'git pull'
   update_gems
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  build(watch=false, config="_config-deploy.yml")
   require 'time'
   puts Time.now()
 end
@@ -99,7 +114,6 @@ def cf_deploy
 end
 
 def test
-  # exec_cmd('sh deploy/tests/test.sh')
   exec_cmd('bundle exec deploy/tests/test.rb')
   exec_cmd('bundle exec jekyll test')
 end
@@ -110,7 +124,6 @@ end
 
 def reset
   exec_cmd('bundle exec jekyll clean')
-  exec_cmd('bundle exec jekyll build --no-watch --trace')
 end
 
 COMMANDS = {
@@ -125,7 +138,7 @@ COMMANDS = {
   :production_build => 'Deploys to production using a second config file',
   :test => 'Tests the fontmatter and site build.',
   :pre_deploy => 'Builds the site and runs associated tests',
-  :reset => 'Clears the build cache and completely rebuilds the site.'
+  :reset => 'Clears the build cache'
 }
 
 def usage(exitstatus: 0)

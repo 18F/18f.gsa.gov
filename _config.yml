@@ -19,10 +19,11 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
-gems: 
+gems:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-redirect-from
+  - jekyll-feed
 
 jekyll-archives:
   enabled:
@@ -43,7 +44,9 @@ url: https://18f.gsa.gov
 
 # metadata
 title: 18F Digital Services Delivery
+name: 18F Digital Services Delivery
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+timezone: America/New_York
 
 # blog archive at /blog
 paginate: 5
@@ -52,6 +55,7 @@ paginate_path: "blog/page/:num"
 #emoji
 gems:
   - jemoji
+
 emoji:
   src: "/assets/images"
 
@@ -66,6 +70,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
   -
     scope:
       collection: team
@@ -82,3 +87,6 @@ collections:
     permalink: /press/:name/
 
 full_rebuild: true
+
+feed:
+  path: /feed/index.xml

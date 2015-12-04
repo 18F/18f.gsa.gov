@@ -10,6 +10,9 @@ tags:
 excerpt: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. Ultimately, we opted to try rolling our own simple solution using Django: Tock."
 description: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. We opted roll out our own simple solution using Django, called Tock."
 image: /assets/blog/tockingtime/tock03.jpg
+permalink: /2015/05/21/tockingtime/
+redirect_from:
+- /2015/05/21/TockingTime/
 ---
 One of the most important questions we ask ourselves when starting a
 project is if we should “build” or “buy.” Do we develop a custom piece

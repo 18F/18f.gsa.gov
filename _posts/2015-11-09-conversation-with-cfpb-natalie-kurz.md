@@ -14,7 +14,7 @@ image: /assets/blog/speaker-series/natalie-kurz.jpg
 ---
 
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">
-<img src="/assets/blog/speaker-series/natalie-kurz.jpg" style="width: 300px;"></div>
+<img alt="CFPB's Natalie Kurz" src="/assets/blog/speaker-series/natalie-kurz.jpg" style="width: 300px;"></div>
 
 Last month, content strategist and UX designer Natalie Kurz [presented at
 18F](https://18f.gsa.gov/2015/11/03/content-strategy-for-all-insights-from-cfpb-natalie-kurz/). Currently a Technology and Innovation Fellow at the [Consumer

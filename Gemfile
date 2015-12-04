@@ -1,10 +1,8 @@
 source "https://rubygems.org"
 
 ruby  '2.2.3'
-gem 'rouge'
-gem 'bourbon'
 gem 'redcarpet', '3.2.3'
-gem 'jekyll', '3.0.0'
+gem 'jekyll', '3.0.1'
 gem 'html-proofer'
 
 group :jekyll_plugins do
@@ -14,11 +12,10 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from', '~> 0.9'
   gem 'jekyll_frontmatter_tests'
+  gem 'jekyll-feed'
 end
 
-
-gem 'hash-joiner'
-gem 'safe_yaml'
-
 gem 'jemoji'
-gem 'pry'
+group :development do
+  gem 'pry'
+end
