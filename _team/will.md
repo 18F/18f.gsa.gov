@@ -13,7 +13,7 @@ project:
 - 18F Intake
 ---
 
-Will is primarily responsible for project intake at 18F. 
+Will manages project intake at 18F. 
 
 In his words: "My job is to help 18F continue to take on great projects as we grow by managing how we represent 18F to potential partners and then represent those possible projects to 18F. I also look at everything from our competiting priorities to how we position ourselves within GSA and the wider Digital Coalition. Besides facilitating intake, I help across the board with bureaucracy hacking, documentation, and other projects."
 
