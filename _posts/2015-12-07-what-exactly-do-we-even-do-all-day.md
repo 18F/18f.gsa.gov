@@ -86,7 +86,7 @@ There are five major reasons why you should be this transparent too:
 
 ## 1. Working in the open drives higher quality results.
 
-Studies of CCTV cameras and surveillance has shown that simply knowing
+Studies of CCTV cameras and surveillance have shown that simply knowing
 someone could be watching you has a demonstrable effect on behavior.
 We’re using this concept for good and applying it to our product
 development process. If I know someone can look at my code, see what I’m
@@ -108,10 +108,7 @@ it’s released, and that’s it. The public should be able to see what
 they’re paying for as they are paying for it.
 
 Further, often when you hear about a project before it’s completed, it’s
-usually because something has gone wrong. We should give our
-constituents more examples of projects when they are going well as well
-as an opportunity to help an agency point out potential issues before
-they become critical issues?
+usually because something has gone wrong. We should give the public more examples of projects that are going well, as well as an opportunity to help potential issues get pointed out before they become critical issues.
 
 ## 4. If we’re this transparent, we’re probably doing fine.
 
