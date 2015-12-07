@@ -53,7 +53,7 @@ e-Manifest and 18F team adopted Trello as our project management tool,
 and [set it to public](https://trello.com/b/0geMlbgF/epa-emanifest).
 
 [![The public Trello board for the e-Manifest project](/assets/blog/e-manifest/e-manifest-trello.jpg)](https://trello.com/b/0geMlbgF/epa-emanifest)
-*The public Trello board for the e-Manifest project*
+*The public Trello board for the e-Manifest project.*
 
 We shared the link with internal stakeholders at EPA, OMB, and in
 Congress. We emailed it to our industry partners. We posted it on [the
