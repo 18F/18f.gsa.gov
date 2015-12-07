@@ -1,5 +1,5 @@
 ---
-title: "What exactly do we even do all day"
+title: "What exactly do we even do all day?"
 date: 2015-12-07
 authors:
 - zaccohn
