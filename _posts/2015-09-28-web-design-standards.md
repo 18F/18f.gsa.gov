@@ -3,8 +3,8 @@ title: Introducing the U.S. Web Design Standards
 date: 2015-09-28
 authors:
 - mollieruskin
-- carolyndew
-- mayabenari
+- carolyn
+- maya
 - colinmacarthur
 tags:
 - proactive federal partner
