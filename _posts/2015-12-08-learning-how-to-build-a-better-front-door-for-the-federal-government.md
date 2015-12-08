@@ -1,6 +1,6 @@
 ---
 title: "Learning how to build a better &ldquo;front door&rdquo; for the federal government"
-date: 2015-12-08
+date: 2015-12-08 14:00
 authors:
 - colinmacarthur
 - carolyn

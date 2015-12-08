@@ -1,6 +1,6 @@
 ---
 title: "Using emoji for knowledge sharing"
-date: 2015-12-08
+date: 2015-12-08 10:00
 authors:
 - melody
 tags:
