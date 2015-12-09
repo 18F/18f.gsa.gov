@@ -1,5 +1,5 @@
 ---
-title: "How to use more open source in your next federal IT aquisition"
+title: "How to use more open source in your next federal IT acquisition"
 layout: post
 
 authors:
