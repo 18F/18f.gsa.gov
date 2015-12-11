@@ -83,11 +83,9 @@ trying to fix the problem one
 [a](https://github.com/cfpb/regulations-parser/pull/274)
 [time](https://github.com/18F/regulations-site/pull/19).
 
-On the ATF eRegs, we were also able to work with our [18F collegues
-launching cloud.gov on this project as one of the pilot teams for the
-PAAS platform](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), which
-hosts and manages the server infrastructure for the platform, saving
-time, staffing and financial costs for taxpayers.
+At 18F, we worked with our [cloud.gov](https://cloud.gov) colleagues to make ATF eRegs
+one of the pilot projects for  [cloud.gov's launch](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/). 
+Cloud.gov hosts and manages shared server infrastructure for the platform, saving money for taxpayers.
 
 Next steps for eRegs
 --------------------
