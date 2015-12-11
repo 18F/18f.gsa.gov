@@ -14,7 +14,7 @@ description: "As our blog got more
 complicated, we started making mistakes that were hard to catch before
 publishing. So we came up with a way to catch many of those errors,
 before they end up in your browser."
-image: /assets/blog/18f-site/no-image-error.jpg
+image: /assets/blog/18f-site/site-with-tests.jpg
 ---
 
 [About a year ago](https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/)
