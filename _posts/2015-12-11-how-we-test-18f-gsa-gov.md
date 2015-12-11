@@ -26,7 +26,7 @@ complicated, we started making mistakes that were hard to catch before
 publishing. So we came up with a way to catch many of those errors,
 before they end up in your browser.
 
-![A screenshot of an image error](/assets/blog/18f-site/site-test.png)
+![A screenshot of an image error](/assets/blog/18f-site/no-image-error.jpg)
 *Nobody likes broken images. This is why we run automated tests on 18f.gsa.gov.*
 
 One advantage of hosting our site’s code on GitHub is we can integrate
