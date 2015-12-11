@@ -14,7 +14,7 @@ description: "As our blog got more
 complicated, we started making mistakes that were hard to catch before
 publishing. So we came up with a way to catch many of those errors,
 before they end up in your browser."
-image: /assets/blog/18f-site/site-with-tests.jpg
+image: /assets/blog/18f-site/site-with-tests.png
 ---
 
 [About a year ago](https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/)
@@ -176,3 +176,5 @@ all our blog posts and team member profiles.
 
 That’s it! It was built for Jekyll 3.0 from the start but should work with earlier version. It’ll work for complex sites like ours down to the simplest of blogs.
 Just make a schema file for each collection and :boom: you’re testing.
+
+_Update:_ As a cruel bit of irony we made a couple mistakes with the open graph image in this post. We're already thinking about ways to write tests to prevent this!
