@@ -166,14 +166,13 @@ The test exited with errors: see above.
 ## Integrating with Travis
 
 We use Travis to test 18f.gsa.gov, but these tests will probably run on
-any continuous integration service. [All you need to do is add
-`script: bundle exec jekyll
-test`](https://github.com/18F/18f.gsa.gov/blob/staging/.travis.yml#L10).
+any continuous integration service. All you need to do is add
+`bundle exec jekyll
+test` [to your Travis configuration](https://github.com/18F/18f.gsa.gov/blob/staging/.travis.yml#L10).
 On this site we have a [“go
 script”](https://github.com/18F/18f.gsa.gov/blob/staging/go) that runs
 a couple other things (including a site build) in addition to testing
 all our blog posts and team member profiles.
 
-That’s it! It has support for Jekyll collections from the start, so
-it’ll work for complex sites like ours down to the simplest of blogs.
-Just make a schema file for the collection and :boom: you’re testing.
+That’s it! It was built for Jekyll 3.0 from the start but should work with earlier version. It’ll work for complex sites like ours down to the simplest of blogs.
+Just make a schema file for each collection and :boom: you’re testing.
