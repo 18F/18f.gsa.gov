@@ -79,9 +79,11 @@ def change
     end
   end
 end
+```
 
 ```ruby
 # db/migrate/20150918175357_create_scheduled_messages.rb`
+
 class CreateScheduledMessages < ActiveRecord::Migration
   def change
     create_table :scheduled_messages do |t|
