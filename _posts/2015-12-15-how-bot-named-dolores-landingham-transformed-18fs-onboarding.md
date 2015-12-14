@@ -62,6 +62,7 @@ To handle our Slack API integration, we chose the [Slack Ruby Client gem](https:
 
 ```ruby
 # .env
+
 SLACK_API_TOKEN='DOLORES_BOT_API_TOKEN'
 ```
 
@@ -100,6 +101,7 @@ For our first iteration, we decided we would run a task once per day that would 
 
 ```ruby
 # app/services/message_sender.rb
+
 require "slack-ruby-client"
 
 class MessageSender
@@ -143,6 +145,7 @@ end
 
 ```ruby
 #app/services/message_employee_matcher.rb
+
 Class MessageEmployeeMatcher
   def initialize(message)
     @message = message
@@ -175,6 +178,7 @@ When you want to send a direct message to a user, you cannot just set the channe
 
 ```ruby
 # app/services/slack_channel_id_finder.rb
+
 class SlackChannelIdFinder
   def initialize(slack_username, client)
     @slack_username = slack_username
@@ -228,7 +232,7 @@ Since we were deploying Mrs. Landingham to [cloud.gov](https://cloud.gov/), we u
 
 ```yml
 # manifest.yml
-# based on https://github.com/18F/C2/blob/master/manifest.yml
+
 domain: 18f.gov
 command: script/start
 
@@ -239,7 +243,6 @@ buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
 memory: 1GB
 env:
 DEFAULT_URL_HOST: dolores-app.18f.gov
-DISABLE_SANDBOX_WARNING: true
 RESTRICT_ACCESS: true
 ```
 and set up `script/start` to run foreman:
@@ -262,7 +265,7 @@ and added a clock process to our `Procfile`:
 # Procfile
 
 web: bundle exec puma -p $PORT -C ./config/puma.rb
-clock: bundle exec clockwork config/clock.rb`
+clock: bundle exec clockwork config/clock.rb
 ```
 
 If you are deploying an app with Clockwork to Heroku, the Clockwork README has a nice [quickstart script](https://github.com/tomykaira/clockwork#quickstart-for-heroku).
