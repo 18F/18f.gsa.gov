@@ -6,9 +6,12 @@ authors:
 tags:
 - onboarding
 - how we work
-excerpt: "Our coworkers are very, very good at documenting the things they learn in Slack, our chat program, because it’s part of their daily workflow. So I tried an experiment: I asked my 18F coworkers to tag messages that every new 18F employee should know with the :evergreen_tree: emoji."
-description: "Our coworkers are very, very good at documenting the things they learn in Slack, our chat program, because it’s part of their daily workflow. So I tried an experiment: I asked my 18F coworkers to tag messages that every new 18F employee should know with the :evergreen_tree: emoji."
-image: /assets/blog/onboarding/evergreen-tree.png
+excerpt: "
+Over the past few months, we’ve released several products — including checklists, a handbook, and classes — to help new hires orient themselves to 18F.
+
+By far the most successful onboarding item we’ve released is a Slack bot that sends scheduled messages to new hires so that they don’t experience information overload during their first week."
+description: "By far the most successful onboarding item we’ve released is a Slack bot that sends scheduled messages to new hires so that they don’t experience information overload during their first week."
+image: /assets/blog/onboarding/landingham-slack.jpg
 ---
 Over the past few months, we’ve released [several products](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/) — including checklists, a handbook, and classes — to help new hires orient themselves to 18F.
 
