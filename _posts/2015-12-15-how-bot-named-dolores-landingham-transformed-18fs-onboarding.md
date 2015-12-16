@@ -17,7 +17,7 @@ Over the past few months, we’ve released [several products](https://18f.gsa.go
 
 By far the most successful onboarding item we’ve released is a Slack bot that sends scheduled messages to new hires so that they don’t experience information overload during their first week.
 
-[Mrs. Landingham](https://github.com/18F/dolores-landingham-bot), as the bot is affectionately called, drips out all kinds of information to new hires like how to fill out forms, participate in discussions, and learn what certain terms mean. As the lead developer on Mrs. Landingham, I want to share how we developed the concept and built the bot, and detail where we plan to go next.
+[Mrs. Landingham](https://github.com/18F/dolores-landingham-bot), as the bot is affectionately called, drips out all kinds of information to new hires, like how to fill out forms, participate in discussions, and learn what certain terms mean. As the lead developer on Mrs. Landingham, I want to share how we developed the concept and built the bot, and detail where we plan to go next.
 
 ## Developing the concept for the Mrs. Landingham MVP
 
@@ -49,7 +49,7 @@ Voila! `Mrs. Landingham` was born.
 
 ## Building the bot
 
-We’ll spend the next section talking about bot development. If you’d like to skip that and go directly to our future plans, [skip ahead to the "A future for Mrs. Landingham" section."](#a-future-for-mrs.-landingham).
+We’ll spend the next section talking about bot development. If you’d like to go directly to our future plans, [skip ahead to the "A future for Mrs. Landingham" section."](#a-future-for-mrs.-landingham).
 
 In the [Ruby section on the Slack integrations page](https://api.slack.com/community#ruby), there are dozens of examples of Slack integrations, though none specifically addressed drip campaigns. (A drip campaign is when messages are sent to users based on a schedule or trigger event, such as number of days after being added to a Slack bot.) This meant we would have to build something from scratch rather than clone and edit an existing bot.
 
@@ -58,9 +58,11 @@ To handle our Slack API integration, we chose the [Slack Ruby Client gem](https:
 ```ruby
  # Gemfile
 
- gem 'slack-ruby-client'
+gem 'slack-ruby-client'
 
- group :test, :development do gem 'dotenv'end
+group :test, :development do
+  gem 'dotenv'
+end
 ```
 
 ```ruby
@@ -117,31 +119,31 @@ class MessageSender
       employee_slack_usernames_for_messages = find_employees(message)
 
       employee_slack_usernames_for_messages.each do |slack_username|
-      channel_id = SlackChannelIdFinder.new(slack_username, client).run
+        channel_id = SlackChannelIdFinder.new(slack_username, client).run
 
-      client.chat_postMessage(
-        channel: channel_id,
-        as_user: true,
-        text: message.body
-      )
+        client.chat_postMessage(
+          channel: channel_id,
+          as_user: true,
+          text: message.body
+        )
+      end
     end
   end
-end
 
-private
+  private
 
-def configure_slack
-  Slack.configure do |config|
-    config.token = ENV['SLACK_API_TOKEN']
+  def configure_slack
+    Slack.configure do |config|
+      config.token = ENV['SLACK_API_TOKEN']
+    end
   end
-end
 
-def find_employees(message)
-  MessageEmployeeMatcher.new(message).run
-end
+  def find_employees(message)
+    MessageEmployeeMatcher.new(message).run
+  end
 
-def client
-  @client ||= Slack::Web::Client.new
+  def client
+    @client ||= Slack::Web::Client.new
   end
 end
 ```
@@ -205,7 +207,7 @@ class SlackChannelIdFinder
   def all_slack_users
     client.users_list["members"]
   end
- end
+end
 ```
 
 Once we had our class that found the correct message to send to each employee, we needed a way to automatically run the task once per day. We chose [Clockwork](https://github.com/tomykaira/clockwork) for the job:
