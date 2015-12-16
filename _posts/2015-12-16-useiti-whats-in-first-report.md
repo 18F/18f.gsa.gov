@@ -19,6 +19,7 @@ week, the U.S. Department of the Interior released the first report from
 the United States, a major step toward becoming fully compliant with the
 global EITI standard.
 github: https://github.com/18F/blog-drafts/issues/353
+image: assest/blog/eiti/useiti-homepage.png
 ---
 
 Just a few months ago, we wrote about the next phase of the United
