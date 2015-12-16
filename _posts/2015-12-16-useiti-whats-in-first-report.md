@@ -1,25 +1,25 @@
 ---
 title: "What’s in the first U.S. Extractives Industries Transparency Initiative report"
-author:
+authors:
 - boone
 - corey-mahoney
 tags:
 - useiti
 - our projects
 - open data
-description: This week, the U.S. Department of the Interior released the
+description: "This week, the U.S. Department of the Interior released the
 first report from the United States Extractives Industry Transparency
 Initiative (USEITI). A major step toward implementing the global
-standard.
-excerpt: Just a few months ago we wrote about the next phase of the
+standard."
+excerpt: "Just a few months ago we wrote about the next phase of the
 United States Extractives Industry Transparency Initiative (USEITI), one
 of our oldest projects with the lofty goal of educating and informing
 public debate around natural resources produced on public land. This
 week, the U.S. Department of the Interior released the first report from
 the United States, a major step toward becoming fully compliant with the
-global EITI standard.
+global EITI standard."
 github: https://github.com/18F/blog-drafts/issues/353
-image: assest/blog/eiti/useiti-homepage.png
+image: /assets/blog/eiti/useiti-homepage.png
 ---
 
 Just a few months ago, we wrote about the next phase of the United
@@ -30,7 +30,7 @@ U.S. Department of the Interior released the first report from the
 United States, a major step toward becoming [fully compliant with the global EITI standard](https://eiti.org/countries). You should
 really stop reading this post and [check it out for yourself](https://useiti.doi.gov).
 
-![A screen shot of the new USEITI homepage](assest/blog/eiti/useiti-homepage.png)
+![A screen shot of the new USEITI homepage](/assets/blog/eiti/useiti-homepage.png)
 
 This project is the culmination of hard work and years of effort across
 many parts of the U.S. government and collaboration among the [39
@@ -57,7 +57,7 @@ for a more detailed view of where money came from. From there you can
 [filter by commodity](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=MN&year=2013&group=minerals&commodity=Copper) or year. You can [learn a lot by exploring the data](https://useiti.doi.gov/explore/). In some places you can watch industries grow, like [oil and gas in North Dakota](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=ND&group=oilgas&year=2013). You can spot major production centers like Campbell County, WY, which produced almost [35 percent of all coal in the U.S. in
 2013](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY). Nearly 88 percent of that coal was [produced on federal lands](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY), accounting for 80 percent of federal revenue [from coal](https://federalist.18f.gov/preview/18F/doi-extractives-data/dev/explore/federal-revenue-by-location/#region=WY&year=2013&group=coal).
 
-![A snapshot of the total federal revenue visualization from the USEITI website](assets/blog/eiti/fed-revenues.png)
+![A snapshot of the total federal revenue visualization from the USEITI website](/assets/blog/eiti/fed-revenues.png)
 
 *A map from the 2015 USEITI report showing federal revenue data.*
 
