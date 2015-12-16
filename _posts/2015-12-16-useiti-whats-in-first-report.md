@@ -57,9 +57,9 @@ for a more detailed view of where money came from. From there you can
 [filter by commodity](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=MN&year=2013&group=minerals&commodity=Copper) or year. You can [learn a lot by exploring the data](https://useiti.doi.gov/explore/). In some places you can watch industries grow, like [oil and gas in North Dakota](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=ND&group=oilgas&year=2013). You can spot major production centers like Campbell County, WY, which produced almost [35 percent of all coal in the U.S. in
 2013](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY). Nearly 88 percent of that coal was [produced on federal lands](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY), accounting for 80 percent of federal revenue [from coal](https://federalist.18f.gov/preview/18F/doi-extractives-data/dev/explore/federal-revenue-by-location/#region=WY&year=2013&group=coal).
 
-![A snapshot of the total federal revenue visualization from the USEITI website](/assets/blog/eiti/fed-revenues.png)
+[![A snapshot of the total federal revenue visualization from the USEITI website](/assets/blog/eiti/fed-revenues.png)](https://useiti.doi.gov/explore/federal-revenue-by-location/)
 
-*A map from the 2015 USEITI report showing federal revenue data.*
+*A map from the 2015 USEITI report showing federal revenue data for all locations in 2013. [Explore other years and specific commodities on the site.](https://useiti.doi.gov/explore/federal-revenue-by-location/)*
 
 Other datasets in the report were not mappable: [Federal revenue is also broken down by company](https://useiti.doi.gov/explore/federal-revenue-by-company/),
 for example, and is shown with [filterable bar charts](https://useiti.doi.gov/explore/federal-revenue-by-company/#commodity=Coal&type=Royalties). In order to show where those revenues go within the federal government, we used a bubble graph to show [the relative size of each disbursement](https://useiti.doi.gov/explore/disbursements/) with a table explaining the breakdown in more detail.
