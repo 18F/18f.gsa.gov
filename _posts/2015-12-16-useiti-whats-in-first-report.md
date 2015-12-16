@@ -75,7 +75,7 @@ different depending on whether the work is happening
 [onshore](https://useiti.doi.gov/how-it-works/onshore-oil-gas/)
 or
 [offshore](https://useiti.doi.gov/how-it-works/offshore-oil-gas/).
-Check out the “[how it works](https://useiti.doi.gov/offshore-regions/how-it-works/)” page for more information about other industries.
+Check out the “[how it works](https://useiti.doi.gov/how-it-works/)” page for more information about other industries.
 
 In addition to explaining the different steps in the process in plain
 language, our team built a glossary that lets users look up terms like
