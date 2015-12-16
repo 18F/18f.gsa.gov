@@ -29,7 +29,7 @@ U.S. Department of the Interior released the first report from the
 United States, a major step toward becoming [fully compliant with the global EITI standard](https://eiti.org/countries). You should
 really stop reading this post and [check it out for yourself](https://useiti.doi.gov).
 
-![](media/image03.png)
+![A screen shot of the new USEITI homepage](assest/blog/eiti/useiti-homepage.png)
 
 This project is the culmination of hard work and years of effort across
 many parts of the U.S. government and collaboration among the [39
@@ -56,7 +56,7 @@ for a more detailed view of where money came from. From there you can
 [filter by commodity](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=MN&year=2013&group=minerals&commodity=Copper) or year. You can [learn a lot by exploring the data](https://useiti.doi.gov/explore/). In some places you can watch industries grow, like [oil and gas in North Dakota](https://useiti.doi.gov/explore/federal-revenue-by-location/#region=ND&group=oilgas&year=2013). You can spot major production centers like Campbell County, WY, which produced almost [35 percent of all coal in the U.S. in
 2013](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY). Nearly 88 percent of that coal was [produced on federal lands](https://useiti.doi.gov/explore/all-lands-production/#year=2013&product=Coal+(short+tons)&region=WY), accounting for 80 percent of federal revenue [from coal](https://federalist.18f.gov/preview/18F/doi-extractives-data/dev/explore/federal-revenue-by-location/#region=WY&year=2013&group=coal).
 
-![](media/image01.png)
+![A snapshot of the total federal revenue visualization from the USEITI website](assets/blog/eiti/fed-revenues.png)
 
 *A map from the 2015 USEITI report showing federal revenue data.*
 
@@ -93,3 +93,4 @@ that makes information about these crucial resources and the industry
 around them more accessible to the public. [Have a look around the
 site](https://useiti.doi.gov) and [let us
 know](https://twitter.com/18f) what you learn from it.
+z
