@@ -72,9 +72,9 @@ develop, and decommission. For each type of industry, there’s a detailed
 account of how government, industry, and other parties work together
 through these five steps. For oil and gas, those steps are slightly
 different depending on whether the work is happening
-[onshore](https://useiti.doi.gov/offshore-regions/how-it-works/onshore-oil-gas/)
+[onshore](https://useiti.doi.gov/how-it-works/onshore-oil-gas/)
 or
-[offshore](https://useiti.doi.gov/offshore-regions/how-it-works/offshore-oil-gas/).
+[offshore](https://useiti.doi.gov/how-it-works/offshore-oil-gas/).
 Check out the “[how it works](https://useiti.doi.gov/offshore-regions/how-it-works/)” page for more information about other industries.
 
 In addition to explaining the different steps in the process in plain
