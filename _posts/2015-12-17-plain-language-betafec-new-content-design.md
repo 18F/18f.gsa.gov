@@ -16,6 +16,7 @@ major content launch of betaFEC: a guide to registration and reporting
 that makes intricate information easier to understand."
 github: https://github.com/18F/blog-drafts/issues/267
 image: /assets/blog/fec/registration-reporting.jpg
+date: 2015-12-17 12:00
 ---
 
 Campaign finance is complicated.
