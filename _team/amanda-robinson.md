@@ -2,13 +2,13 @@
 city: Washington
 first_name: Amanda
 full_name: Amanda Robinson
-github:
+github: ertzeid
 last_name: Robinson
 name: amanda-robinson
 role: Developer
 state: DC
 team: Delivery
-twitter:
+twitter: aertzeid
 ---
 Amanda has a BA in Government (American Politics) from Wesleyan University. That, and a reluctance to live in DC at the time, got her a job working for The Onion (yes, *that* The Onion). Eventually she decided to go back to school and earned an MS in Computer Science from New York University.
 
