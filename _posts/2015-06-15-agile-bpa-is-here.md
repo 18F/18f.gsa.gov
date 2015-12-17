@@ -7,6 +7,7 @@ authors:
 - chrisc
 - noah
 tags:
+- agile bpa
 - 18f consulting
 - agile
 - federal acquisitions
