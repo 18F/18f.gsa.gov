@@ -3,8 +3,8 @@ title: "Plain language for the win: betaFEC’s new content design"
 authors:
 - emileigh
 tags:
-- how we work
 - fec
+- content
 - our projects
 description: "The Federal Election Commission (FEC) has been working since the 1970s
 to clarify the rules for raising and spending money in federal elections, and today we’re thrilled to announce the first

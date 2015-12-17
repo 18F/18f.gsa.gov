@@ -8,6 +8,7 @@ authors:
 - chrisc
 - melody
 tags:
+- agile bpa
 - agile
 - procurement
 - 18f consulting
