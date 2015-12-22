@@ -1,5 +1,5 @@
 ---
-title: UK digital service visits U.S. to begin series of exchanges
+title: U.K. digital service visits U.S. to begin series of exchanges
 authors:
 - andre
 - jhunter
