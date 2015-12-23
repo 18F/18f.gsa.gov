@@ -6,6 +6,9 @@ tags:
 - how we work
 - our projects
 - 18f
+description: "2015 was a big year for 18F. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
+excerpt: "2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from Design Method Cards to cloud.gov. Internally, we improved onboarding and our documentation by releasing guides on topics as diverse as content, accessibility, and creating good open source projects. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
+image: /assets/blog/2015-recap/team.jpg
 ---
 2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from Design Method Cards to cloud.gov. Internally, we improved onboarding and our documentation by releasing guides on topics as diverse as content, accessibility, and creating good open source projects.
 To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year. We didn’t define “meaningful” — for some people, it was the main product they worked on; for others, it was developing a relationship with a partner agency or learning about a new tool.
