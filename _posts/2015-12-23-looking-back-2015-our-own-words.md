@@ -8,20 +8,21 @@ tags:
 - 18f
 description: "2015 was a big year for 18F. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
 excerpt: "2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from Design Method Cards to cloud.gov. Internally, we improved onboarding and our documentation by releasing guides on topics as diverse as content, accessibility, and creating good open source projects. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
-image: /assets/blog/2015-recap/team.jpg
+image: /assets/blog/fast-company/jumpshot.jpg
 ---
-2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from Design Method Cards to cloud.gov. Internally, we improved onboarding and our documentation by releasing guides on topics as diverse as content, accessibility, and creating good open source projects.
+2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from [Design Method Cards](https://methods.18f.gov/) to [cloud.gov](https://cloud.gov/). Internally, we [improved onboarding](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/) and our documentation by releasing [guides](https://pages.18f.gov/guides/) on topics as diverse as [content](https://pages.18f.gov/content-guide/), [accessibility](https://pages.18f.gov/accessibility/), and creating [good open source projects](https://pages.18f.gov/open-source-guide/).
+
 To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year. We didn’t define “meaningful” — for some people, it was the main product they worked on; for others, it was developing a relationship with a partner agency or learning about a new tool.
 Below, everyone at 18F shares what they learned, what they did, and how they grew.
 
-[Accessibilty](#accessibility)
-[Blog](#blog)
-[HTTPS](#https)
-[Diversity Working Group](#diversity-working-group)
-[Products We Shipped](#products-we-shipped)
-[Guides, Resources, and Tools](#guides-resources-and-tools)
-[Process and Documentation](#process-and-documentation)
-[Growing our Team](#growing-our-team)
+* [Accessibilty](#accessibility)
+* [Blog](#blog)
+* [HTTPS](#https)
+* [Diversity Working Group](#diversity-working-group)
+* [Products We Shipped](#products-we-shipped)
+* [Guides, Resources, and Tools](#guides-resources-and-tools)
+* [Process and Documentation](#process-and-documentation)
+* [Growing our Team](#growing-our-team)
 
 ## Accessibility
 
@@ -29,7 +30,8 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I loved organizing the accessibility hackathon and it’s been a blast working on the [micropurchase experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) and the [Agile BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) work.” - **Alan deLevie**
 
-![](/assets/blog/a11yhack/a11yhack.jpg)
+![The crowd at the hackathon](/assets/blog/a11yhack/a11yhack.jpg)
+_Photo: Jameson Dempesy_
 
 ## Blog
 
@@ -44,6 +46,9 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 *18F worked with government teams to help submit a number of government domains to be hardcoded as HTTPS-only. Eric Mill wrote blog posts [explaining that effort](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/) and the [importance of HTTPS](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/). Unsurprisingly, he chose the HTTPS work as the most enjoyable project he worked on this year.*
 
 “I really enjoyed helping agencies get their .gov domains hardcoded into browsers as secure.“ - **Eric Mill**
+
+![Snapshot of the first HSTS preloaded government domains.](/assets/blog/hsts/hsts-preload-list.png)
+_Since we wrote about it in February, 14 .gov domains have been fully preloaded._
 
 ## Diversity Working Group
 
@@ -65,6 +70,8 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I feel honored to be part of the analytics.usa.gov team every time I see another government office use our open source project to make their analytics data publicly available.” - **Gabriel Ramirez**
 
+![The analytics.usa.gov homepage.](/assets/blog/dap/analytics-homepage.jpg)
+
 ### betaFEC
 
 *We worked with the Federal Election Commission (FEC) to make campaign finance data more accessible to the public. In October, we launched [betaFEC](https://beta.fec.gov/ "The FEC Beta"), the first piece in a complete redesign of the FEC’s online presence. The project allowed us delve into intricate campaign finance data, [plain language](https://18f.gsa.gov/2015/12/17/plain-language-betafec-new-content-design/ "Plain language at the FEC"), and the [FEC’s first API](https://18f.gsa.gov/2015/07/08/openfec-api/ "The openFEC API").*
@@ -73,11 +80,15 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I loved working on the team that helped make betaFEC. It was especially exciting to help our partners at the FEC find how they wanted to express their agency through a modernized web experience, and build an updated look and feel with them.” - **Jennifer Thibault**
 
+![The betaFEC glossary](/assets/blog/fec/glossary.jpg)
+
 ### CALC
 
 *We worked with GSA to launch a powerful new labor category and pricing [research tool](https://18f.gsa.gov/2015/05/12/announcing-the-calc-tool/ "18F: Announcing the CALC Tool") to help the federal contracting community make smarter, faster buying decisions.*
 
 “Working on [CALC](https://calc.gsa.gov/ "The CALC Tool") was meaningful to me, because I know it is saving people hours of work every week, and saving the taxpayers millions of dollars.” - **Nick Brethauer**
+
+![The CALC homepage](/assets/blog/calc-announcement/calc_homepage.jpg)
 
 ### cloud.gov
 
@@ -85,11 +96,13 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I’m really proud of the work on the cloud.gov landing site and blog posts. It cemented the idea of Platform-as-a-Service in a lot of minds previously unfamiliar with the concept, and helped us measure the appetite for the service, validating that we were building the right thing before spending a lot more effort to prepare it for rollout to the agencies.” - **Bret Mogilefsky**
 
-“I have really enjoyed working on cloud.gov because it has allowed me to reconnect with my devops roots, and exposed me to the continuous integration platform [Concourse CI](http://concourse.ci/ "Concourse CI") which helps me spread the love for AUTOMATING ALL THE THINGS!” -** M. Adam Kendall**
+“I have really enjoyed working on cloud.gov because it has allowed me to reconnect with my devops roots, and exposed me to the continuous integration platform [Concourse CI](http://concourse.ci/ "Concourse CI") which helps me spread the love for AUTOMATING ALL THE THINGS!” - **M. Adam Kendall**
 
 “cloud.gov has the potential to revolutionize how the government thinks about deployment, security and running systems. I am pretty proud of what we built so far and look forward to see what 2016 brings.” - **Diego Lapiduz**
 
 “Many of us have experienced first hand how security compliance requirements may hinder the government's ability to ship new projects. I proud to be working on methods for accelerating the compliance process in the open and excited to see the support and contributions of the open source community.” - **Gabriel Ramirez**
+
+![The cloud.gov homepage](/assets/blog/cloud-gov/cloud-gov-homepage.jpg)
 
 ### College Scorecard
 
@@ -97,11 +110,16 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I really enjoyed working with USDS, 18F and the Department of Education on [https://collegescorecard.ed.gov](https://collegescorecard.ed.gov) because it demonstrated how multiple agencies can come together to build something great." - **Ozzy Johnson**
 
+![Paper prototype testing the college scorecard](/assets/blog/college-scorecard/college-scorecard-3.jpg)
+
 ### DATA Act
 
 *In May 2014, President Obama signed the[ Digital Accountability and Transparency Act (DATA Act)](http://www.gpo.gov/fdsys/pkg/PLAW-113publ101/pdf/PLAW-113publ101.pdf "DATA Act: Full text") into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money. The Department of the Treasury and the Office of Management and Budget (OMB) are leading the implementation, and Treasury has partnered with 18F Consulting to help with [a few aspects of the project](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/ "18F: DATA Act Explainer").*
 
 “The best thing I worked on was the DATA Act. In 2012, I first wrote about DATA Act. In 2013, I visited my reps on Capitol Hill about voting for it. In 2014, I went to the Treasury’s federal spending data town hall and kvetched about poor data quality. And then in 2015, I worked with those same Treasury folks to get it fixed.” - **Becky Sweger**
+
+![Diagram of government appropriation reporting](/assets/blog/data-act-implementation/data-act-reporting.jpg)
+_Image courtesy of the [Data Transparency Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)_
 
 ### Draft U.S. Web Design Standards
 
@@ -115,19 +133,27 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I’m proud to have [started a project](http://github.com/18F/web-design-standards-drupal "A Drupal Theme") that will make the U.S. \[Draft\] Web Design Standards easier to use for the >25% of U.S. government websites that run on Drupal. I’m working with members of the larger Drupal community as well as people in government to help these standards scale without the need for custom development.” — **Rhys Fureigh**
 
+![The web design standards on multiple sizes of screen](/assets/blog/web-design-standards/home.png)
+_The U.S. Web Design Standards are designed to be viewed on any device._
+
 ### U.S. Extractive Industries Transparency Initiative
 
 *[USEITI](https://useiti.doi.gov) is part of [an international effort](https://eiti.org "The global EITI initiative") to promote open and accountable management of natural resources. 18F worked with a cross-sector partnership between government (agencies that oversee extraction in the U.S.), industry (companies operating in the extractive industries), and civil society (individuals and organizations that represent community and citizen interests) to provide data about how the U.S. manages extractive industries.*
 
 “EITI reports have traditionally been thick, printed PDFs full of statistics, meant for a specialist audience. It was so great to be a part of the U.S. process that is leading the world in making this data available online along with tons of rich contextual information to make it understandable.” - **Michelle Hertzfeld**
 
+![A map of the U.S. visualizing federal natural resource revenues](/assets/blog/eiti/fed-revenues.png)
+
 ### Every Kid in a Park
 
-*Earlier this year, President Obama [formally announced](https://www.whitehouse.gov/the-press-office/2015/09/01/administration-launches-every-kid-park-pass "White House: Every Kid in a Park announcement") the Every Kid in a Park program, which provides fourth graders and their families with free access to more than 2,000 federally-managed sites. 18F worked with the Department of the Interior to create the program’s website, which was written at a fourth grade level **[with the help of fourth graders**](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/ "18F: Every kid in a park").*
+*Earlier this year, President Obama [formally announced](https://www.whitehouse.gov/the-press-office/2015/09/01/administration-launches-every-kid-park-pass "White House: Every Kid in a Park announcement") the Every Kid in a Park program, which provides fourth graders and their families with free access to more than 2,000 federally-managed sites. 18F worked with the Department of the Interior to create the program’s website, which was written at a fourth grade level [**with the help of fourth graders**](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/ "18F: Every kid in a park").*
 
 “I really enjoyed working on [Every Kid In A Park](https://everykidinapark.gov/ "Every Kid in a Park") because I helped develop a project with an amazing team to help kids get to the park!" - **Christine Cheung**
 
 “Working on the content design for Every Kid in a Park reminded me that government websites **can** be joyful, inclusive, and easy to read.” - **Emileigh Barnes**
+
+![The kid-friendly 404 page for everykidinapark.gov](/assets/blog/every-kid-in-a-park/404.png)
+_The Every Kid in a Park homepage, designed for 4th graders._
 
 ### Federalist
 
@@ -138,6 +164,9 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 “I didn’t start working at 18F until the the fourth quarter of this year, making me a new person for most of my time here so far. However, I’ve still still felt incredibly inspired by every project I’ve contributed to and generally in awe of what this place is capable of. One of things I’ve been able to do is help the team building Federalist – a platform that helps agencies launch new websites quickly, with user research. It’s a project that is a clear example of the seemingly simple, yet revolutionary things 18F can do. It’s also an example of 18F’s mission marching forward and being implemented successfully.” - **Ryan Sibley**
 
 “I’m really proud of the work I did on Federalist because it helped streamline the launch of sites that addressed [college affordability data](https://collegescorecard.ed.gov/ "College Scorecard") and the [quantity of natural resources being extracted from federal lands](https://useiti.doi.gov/ "USEITI").” - **Jeremia Kimelman**
+
+![The Social and Behavior Sciences homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
+_The Social and Behavioral Sciecnes team was the first adopter for Federalist._
 
 ### SBIR-EZ
 
@@ -151,21 +180,28 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I really enjoyed partnering with US Treasury to [craft the digital strategy](https://18f.gsa.gov/2015/07/17/the-new-10/ "18F: The new 10") for #TheNew10. We're putting a woman on the $10 bill!" - **Kara DeFrias**
 
+![The new $10 homepage](/assets/blog/the-new-10/the-new-10.jpg)
+
 ### USCIS
 
 *18F has worked with USCIS to develop [my.uscis.gov](https://my.uscis.gov/ "MyUSCIS"), a customer-facing site to help users navigate their relationship with the agency.*
 
 “This year I made [an account system](http://myaccount.uscis.dhs.gov/ "My Account, MyUSCIS") that helps immigrants keep their information up to date. It now has hundreds of thousands of users.” - **Sasha Magee**
 
+![The MyUSCIS homepage](/assets/blog/myuscis/myuscis.jpg)
+
 ## Guides, resources, and tools
 
 ### Method Cards
 
-*We [released](https://18f.gsa.gov/2015/08/10/18f-design-methods/) a [deck of method cards](https://methods.18f.gov/) that help research and design teams communicate a shared vocabulary across teams and agencies. *
+*We [released](https://18f.gsa.gov/2015/08/10/18f-design-methods/) a [deck of method cards](https://methods.18f.gov/) that help research and design teams communicate a shared vocabulary across teams and agencies.*
 
 “I loved working on the Method Cards. These are a tool that not only allows junior designers to easily learn new design skills, but they also allow a team to quickly create a shared language. It’s easy to talk about design and research in generalities, but using the method cards teams can pinpoint activities that best fit their need and gets them answers to questions that are slowing down the development process.” - **Brad Nunnally**
 
 “The first thing I worked on at 18F was the Design Methods. Teaching tools of great design has been part of this job since I started, which means ​learning​ tools of great design has been part of this job since I started. I’ve never learned so much in such a small amount of time.” - **James Hupp**
+
+![The method cards](/assets/blog/design-method-cards/method-cards-banner.jpg)
+_The 18F Design Method cards are open source to download and print off._
 
 ### Partnership Playbook
 
@@ -189,7 +225,7 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 In October, we used our “micro-purchase authority” to run an experiment: we contracted for contributions to a specific project and then wrote up [what we learned](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/).
 
-“I really enjoyed working on the [micropurchase project](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) because helping government agencies quickly buy code is one of many ways that 18F can impact the federal procurement environment. The micropurchase experiment has the ability to make lasting culture change around open source software projects in government.” - **Alla Goldman Seiffert **
+“I really enjoyed working on the [micropurchase project](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) because helping government agencies quickly buy code is one of many ways that 18F can impact the federal procurement environment. The micropurchase experiment has the ability to make lasting culture change around open source software projects in government.” - **Alla Goldman Seiffert**
 
 ### Partner meetings
 
@@ -203,9 +239,12 @@ In October, we used our “micro-purchase authority” to run an experiment: we 
 
 “I've spent the last few months working with the pesticides division of the EPA, helping them modernize the way that pesticide labels are accessed and analyzed by inspectors. Pesticide labels are a surprisingly complex and important thing to get right, because when they're wrong people can (and do) die. Bringing modern technology into the work the field inspectors do every single day is going to significantly improve their ability to do their job, and I feel incredibly lucky to get to help with that and know that what I'm doing could genuinely help save lives.” - **Lane Becker**
 
+![A group of government executives playing with legos.](/assets/blog/lego-workshop/sba-execs-legos.jpg)
+_We spent 90 minutes working with legos to teach the Small Business Administration agile development._
+
 ### Process and documentation
 
-*It’s not something that often gets public attention, but we worked really hard to improve 18F’s internal processes and documentation this year. Ensuring that our daily standups run smoothly and our documentation is complete will ensure that we have the capacity to continue to learn and grow. *
+*It’s not something that often gets public attention, but we worked really hard to improve 18F’s internal processes and documentation this year. Ensuring that our daily standups run smoothly and our documentation is complete will ensure that we have the capacity to continue to learn and grow.*
 
 “I have really enjoyed working on the [Team API](https://team-api.18f.gov/public/api/) and Hub-related initiatives because I believe that making this information easily accessible throughout 18F will help the organization continue to grow and thrive. Furthermore, this work helps put into practice the culture we're building at 18F, which we hope that other federal agencies, contractors, and even other private organizations can learn from.” - **Carlo Costino**
 
@@ -219,11 +258,13 @@ In October, we used our “micro-purchase authority” to run an experiment: we 
 
 “I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner**
 
+![A test conversation with Dolores Landingham](/assets/blog/onboarding/dolores.jpg)
+
 ### Growing our team
 
 *This year, our Talent team streamlined their processes and almost doubled our workforce. They started working in agile cycles and [launched a new website](https://pages.18f.gov/joining-18f/) about applying to 18F. Several people from across 18F reflected on the work the Talent team has completed.*
 
-“I really enjoyed working with 18F Team Talent, because I discovered all of the amazing work and labor of love done to recruit, hire, and retain the most innovative talent." - **Pia Scott **
+“I really enjoyed working with 18F Team Talent, because I discovered all of the amazing work and labor of love done to recruit, hire, and retain the most innovative talent." - **Pia Scott**
 
 “As an admin, I’m used to working on my own and not with teams, so I really enjoyed working on our new talent process with Bill, Jamie, and Esther and working through all the hiccups/issues we faced during the first sprint and how we are working on improving them for the second sprint. This work also forced me to use GitHub, which I am glad I am learning.” - **Jennifer Moran**
 
@@ -232,5 +273,3 @@ In October, we used our “micro-purchase authority” to run an experiment: we 
 “The best thing I worked on this year was successfully recruiting some truly awesome people.” - **Leah Bannon**
 
 “I helped initiate the talent team's transformation toward innovation and product focus by introducing a work system that integrates principles and methodologies from lean and agile. (The team completed two pilot sprints and we are now working on v2.)” - **Bill Rooney**
-
-\
