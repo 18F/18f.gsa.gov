@@ -35,7 +35,7 @@ _Photo: Jameson Dempesy_
 
 ## Blog
 
-*We published over 130 posts this year on our [blog](https://18f.gsa.gov/blog).*
+*We published over 130 posts this year on our [blog](https://18f.gsa.gov/blog) and featured 70 team members and 10 guests as authors.*
 
 “The projects I covered for the blog, most recently [USEITI](https://18f.gsa.gov/tags/useiti), were an amazing opportunity to hear about how our developers and designers approach making a better government for the American public.” - **Greg Boone**
 
@@ -211,7 +211,7 @@ _The 18F Design Method cards are open source to download and print off._
 
 ### rdbms-subsetter
 
-*We [wrote a new utility](https://18f.gsa.gov/2015/01/13/an-open-source-tool-for-easier-database-testing/) to automate extracting random yet relationally consistent subsets of relational databases. *
+*We [wrote a new utility](https://18f.gsa.gov/2015/01/13/an-open-source-tool-for-easier-database-testing/) to automate extracting random yet relationally consistent subsets of relational databases.*
 
 “I loved working on [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) because people in the public developer community got excited about what we’re doing at 18F.” - **Catherine Devlin**
 
@@ -223,7 +223,7 @@ _The 18F Design Method cards are open source to download and print off._
 
 ### Procurement
 
-In October, we used our “micro-purchase authority” to run an experiment: we contracted for contributions to a specific project and then wrote up [what we learned](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/).
+*In October, we used our “micro-purchase authority” to run an experiment: we contracted for contributions to a specific project and then wrote up [what we learned](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/).*
 
 “I really enjoyed working on the [micropurchase project](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) because helping government agencies quickly buy code is one of many ways that 18F can impact the federal procurement environment. The micropurchase experiment has the ability to make lasting culture change around open source software projects in government.” - **Alla Goldman Seiffert**
 
