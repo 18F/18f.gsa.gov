@@ -156,7 +156,7 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ### Method Cards
 
-*We released a deck of method cards that help research and design teams communicate a shared vocabulary across teams and agencies.*
+*We [released](https://18f.gsa.gov/2015/08/10/18f-design-methods/) a [deck of method cards](https://methods.18f.gov/) that help research and design teams communicate a shared vocabulary across teams and agencies. *
 
 “I loved working on the Method Cards. These are a tool that not only allows junior designers to easily learn new design skills, but they also allow a team to quickly create a shared language. It’s easy to talk about design and research in generalities, but using the method cards teams can pinpoint activities that best fit their need and gets them answers to questions that are slowing down the development process.” - **Brad Nunnally**
 
@@ -164,15 +164,15 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ### Partnership Playbook
 
-*If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The 18F Delivery Partnership Playbook is specifically targeted at federal offices interested in working with 18F to build digital services.*
+*If you or your agency have thought about working with 18F but are unsure of how we work with our partners, we have a new set of guidelines to help you out. The [18F Delivery Partnership Playbook](https://pages.18f.gov/partnership-playbook/) is specifically targeted at federal offices interested in working with 18F to build digital services.*
 
 “I loved working on the MVP intake process and the Partnership Playbook to explain how 18F works with our partners!” - **Will Slack**
 
 ### rdbms-subsetter
 
-*We wrote a new utility to automate extracting random yet relationally consistent subsets of relational databases.*
+*We [wrote a new utility](https://18f.gsa.gov/2015/01/13/an-open-source-tool-for-easier-database-testing/) to automate extracting random yet relationally consistent subsets of relational databases. *
 
-“I loved working on rdbms-subsetter because people in the public developer community got excited about what we’re doing at 18F.” - **Catherine Devlin**
+“I loved working on [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) because people in the public developer community got excited about what we’re doing at 18F.” - **Catherine Devlin**
 
 ### Writing Lab
 
@@ -182,13 +182,13 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ### Procurement
 
-*In October, we used our “micro-purchase authority” to run an experiment: we contracted for contributions to a specific project and then wrote up what we learned.*
+In October, we used our “micro-purchase authority” to run an experiment: we contracted for contributions to a specific project and then wrote up [what we learned](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/).
 
-“I really enjoyed working on the micropurchase project because helping government agencies quickly buy code is one of many ways that 18F can impact the federal procurement environment. The micropurchase experiment has the ability to make lasting culture change around open source software projects in government.” - **Alla Goldman Seiffert**
+“I really enjoyed working on the [micropurchase project](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) because helping government agencies quickly buy code is one of many ways that 18F can impact the federal procurement environment. The micropurchase experiment has the ability to make lasting culture change around open source software projects in government.” - **Alla Goldman Seiffert **
 
 ### Partner meetings
 
-*Our consulting team routinely meets with agencies for agile workshops and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
+*Our [consulting team](https://18f.gsa.gov/consulting/) routinely meets with agencies for [agile workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
 
 “I really enjoyed participating in initial partner meetings to help evaluate the technical needs of proposed projects. It’s made me realize just how many government agencies are eager to move to an agile, user-centered way of working.” - **Alex Bisker**
 
@@ -200,25 +200,25 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ### Process and documentation
 
-*It’s not something that often gets public attention, but we worked really hard to improve 18F’s internal processes and documentation this year. Ensuring that our daily standups run smoothly and our documentation is complete will ensure that we have the capacity to continue to learn and grow.*
+*It’s not something that often gets public attention, but we worked really hard to improve 18F’s internal processes and documentation this year. Ensuring that our daily standups run smoothly and our documentation is complete will ensure that we have the capacity to continue to learn and grow. *
 
-“I have really enjoyed working on the Team API and Hub-related initiatives because I believe that making this information easily accessible throughout 18F will help the organization continue to grow and thrive. Furthermore, this work helps put into practice the culture we're building at 18F, which we hope that other federal agencies, contractors, and even other private organizations can learn from.” - **Carlo Costino**
+“I have really enjoyed working on the [Team API](https://team-api.18f.gov/public/api/) and Hub-related initiatives because I believe that making this information easily accessible throughout 18F will help the organization continue to grow and thrive. Furthermore, this work helps put into practice the culture we're building at 18F, which we hope that other federal agencies, contractors, and even other private organizations can learn from.” - **Carlo Costino**
 
 “The best thing I’ve made this year has been working on the soon-to-be-public 18F Handbook in collaboration with my colleagues. I’ve learned so much. Creating company-wide documentation has forced me to think about how content governance relates to organizational design.” - **Andrew Maier**
 
 “I loved working on our team process (stand-ups, grooming, planning. and retros). I think this helps us centralize team tasks, so we can better prioritize. It also helps us work through team issues/blockers a lot more quickly and efficiently. Creating a long-term roadmap will help even more.” - **Michael Torres**
 
-“I loved working on reworking 18F’s onboarding processes. Improving onboarding dramatically improves how people work and feel about their workplace. It’s really exciting to think about how we might now scale best practices out and learn from other agencies.” - **Melody Kramer**
+“I loved working on [reworking 18F’s onboarding processes](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/). Improving onboarding dramatically improves how people work and feel about their workplace. It’s really exciting to think about how we might now scale best practices out and learn from other agencies.” - **Melody Kramer**
 
 “The best thing I worked on this year was the Product Manager Guide! It’s not done yet, but we’re nearly there, and it’s awesome because it’s helping us to sync as a product team on our shared understanding while also sharing our best practices with the wider world. Portions of it will be published as an 18F Guide before the end of the year!” - **Anna Heller Sebok**
 
-“I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner**
+“I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner** 
 
 ### Growing our team
 
-*This year, our Talent team streamlined their processes and almost doubled our workforce. They started working in agile cycles and launched a new website about applying to 18F. Several people from across 18F reflected on the work the Talent team has completed.*
+*This year, our Talent team streamlined their processes and almost doubled our workforce. They started working in agile cycles and [launched a new website](https://pages.18f.gov/joining-18f/) about applying to 18F. Several people from across 18F reflected on the work the Talent team has completed.*
 
-“I really enjoyed working with 18F Team Talent, because I discovered all of the amazing work and labor of love done to recruit, hire, and retain the most innovative talent." - **Pia Scott**
+“I really enjoyed working with 18F Team Talent, because I discovered all of the amazing work and labor of love done to recruit, hire, and retain the most innovative talent." - **Pia Scott **
 
 “As an admin, I’m used to working on my own and not with teams, so I really enjoyed working on our new talent process with Bill, Jamie, and Esther and working through all the hiccups/issues we faced during the first sprint and how we are working on improving them for the second sprint. This work also forced me to use GitHub, which I am glad I am learning.” - **Jennifer Moran**
 
@@ -227,3 +227,5 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 “The best thing I worked on this year was successfully recruiting some truly awesome people.” - **Leah Bannon**
 
 “I helped initiate the talent team's transformation toward innovation and product focus by introducing a work system that integrates principles and methodologies from lean and agile. (The team completed two pilot sprints and we are now working on v2.)” - **Bill Rooney**
+
+\
