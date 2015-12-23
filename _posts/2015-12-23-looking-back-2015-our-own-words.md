@@ -153,7 +153,7 @@ _The U.S. Web Design Standards are designed to be viewed on any device._
 “Working on the content design for Every Kid in a Park reminded me that government websites **can** be joyful, inclusive, and easy to read.” - **Emileigh Barnes**
 
 ![The kid-friendly 404 page for everykidinapark.gov](/assets/blog/every-kid-in-a-park/404.png)
-_The Every Kid in a Park homepage, designed for 4th graders._
+_The Every Kid in a Park 404, not found page, designed for fourth graders._
 
 ### Federalist
 
