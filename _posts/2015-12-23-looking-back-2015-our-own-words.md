@@ -29,6 +29,8 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 “I loved organizing the accessibility hackathon and it’s been a blast working on the [micropurchase experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) and the [Agile BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) work.” - **Alan deLevie**
 
+![](/assets/blog/a11yhack/a11yhack.jpg)
+
 ## Blog
 
 *We published over 130 posts this year on our [blog](https://18f.gsa.gov/blog).*
@@ -215,7 +217,7 @@ In October, we used our “micro-purchase authority” to run an experiment: we 
 
 “The best thing I worked on this year was the Product Manager Guide! It’s not done yet, but we’re nearly there, and it’s awesome because it’s helping us to sync as a product team on our shared understanding while also sharing our best practices with the wider world. Portions of it will be published as an 18F Guide before the end of the year!” - **Anna Heller Sebok**
 
-“I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner** 
+“I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner**
 
 ### Growing our team
 
