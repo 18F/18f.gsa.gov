@@ -48,7 +48,7 @@ _Photo: Jameson Dempesy_
 “I thoroughly enjoyed helping agencies get their .gov domains hardcoded into browsers as secure.“ - **Eric Mill**
 
 ![Snapshot of the first HSTS preloaded government domains.](/assets/blog/hsts/hsts-preload-list.png)
-_Since we wrote about it in February, 14 more i r.gov domains have been fully preloaded._
+_Since we wrote about it in February, 14 more.gov domains have been fully preloaded._
 
 ## Diversity Working Group
 
