@@ -5,9 +5,9 @@ full_name: Britta Gustafson
 github: brittag
 last_name: Gustafson
 name: britta-gustafson
-role: Content designer
+role: Content Designer
 state: CA
-team: Experience Design
+team: Design
 twitter: ""
 ---
 While Britta was studying literature at the College of Creative Studies at UC Santa Barbara she worked for Yahoo! as the community manager for Delicious, a social bookmarking website that was part of early "Web 2.0." Just before coming to 18F she worked for Cydia, the alternative to the App Store for jailbroken iOS devices.
