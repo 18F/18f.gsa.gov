@@ -166,7 +166,7 @@ _The Every Kid in a Park 404, not found page, designed for fourth graders._
 “I’m really proud of the work I did on Federalist because it helped streamline the launch of sites that addressed [college affordability data](https://collegescorecard.ed.gov/ "College Scorecard") and the [quantity of natural resources being extracted from federal lands](https://useiti.doi.gov/ "USEITI").” - **Jeremia Kimelman**
 
 ![The Social and Behavior Sciences homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
-_The Social and Behavioral Sciecnes team was the first adopter for Federalist._
+_The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 ### SBIR-EZ
 
@@ -250,7 +250,7 @@ _We spent 90 minutes working with legos to teach the Small Business Administrati
 
 “The best thing I’ve made this year has been working on the soon-to-be-public 18F Handbook in collaboration with my colleagues. I’ve learned so much. Creating company-wide documentation has forced me to think about how content governance relates to organizational design.” - **Andrew Maier**
 
-“I loved working on our team process (stand-ups, grooming, planning. and retros). I think this helps us centralize team tasks, so we can better prioritize. It also helps us work through team issues/blockers a lot more quickly and efficiently. Creating a long-term roadmap will help even more.” - **Michael Torres**
+“I loved working on our team process (stand-ups, grooming, planning, and retros). I think this helps us centralize team tasks, so we can better prioritize. It also helps us work through team issues/blockers a lot more quickly and efficiently. Creating a long-term roadmap will help even more.” - **Michael Torres**
 
 “I loved working on [reworking 18F’s onboarding processes](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/). Improving onboarding dramatically improves how people work and feel about their workplace. It’s really exciting to think about how we might now scale best practices out and learn from other agencies.” - **Melody Kramer**
 
