@@ -1,14 +1,14 @@
 ---
-city: Richmond
+city: Nashville
 first_name: Christopher
 full_name: Chris Goranson
 github: openglobe
 last_name: Goranson
 name: christopher-goranson
 role: Project Manager
-state: V.A.
+state: TN
 team: 18F Consulting
-twitter:
+twitter: cgoranson
 ---
 Chris has worked in the fields of design, public health, academia, government services and planning, and most recently was a Presidential Innovation Fellow working at the U.S. Department of the Interior. Previously Chris was Director of the Parsons Institute for Information Mapping at The New School. While there his team provided innovative design support for electronic health records at DoD and VA, and supported DARPA’s XDATA program. Other recent efforts include climate visualization initiatives with Parsons The New School for Design, Aalborg University and USC / NASA JPL. Previously Chris was the Director of the GIS Center at the NYC Department of Health, and in 2008 completed an NSF-funded fellowship to compare different disease cluster detection methods at Japan’s National Institute of Public Health.
 
