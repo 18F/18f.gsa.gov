@@ -3,7 +3,7 @@ first_name: Timothy
 last_name: Jones
 full_name: Tim Jones
 city: Washington
-state: DC
+state: D.C.
 role: Digital transformation lead
 team: 18F Consulting
 ---
