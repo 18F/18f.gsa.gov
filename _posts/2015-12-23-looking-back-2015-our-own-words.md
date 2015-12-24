@@ -15,7 +15,7 @@ image: /assets/blog/fast-company/jumpshot.jpg
 To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year. We didn’t define “meaningful” — for some people, it was the main product they worked on; for others, it was developing a relationship with a partner agency or learning about a new tool.
 Below, everyone at 18F shares what they learned, what they did, and how they grew.
 
-* [Accessibilty](#accessibility)
+* [Accessibility](#accessibility)
 * [Blog](#blog)
 * [HTTPS](#https)
 * [Diversity Working Group](#diversity-working-group)
@@ -45,10 +45,10 @@ _Photo: Jameson Dempesy_
 
 *18F worked with government teams to help submit a number of government domains to be hardcoded as HTTPS-only. Eric Mill wrote blog posts [explaining that effort](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/) and the [importance of HTTPS](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/). Unsurprisingly, he chose the HTTPS work as the most enjoyable project he worked on this year.*
 
-“I really enjoyed helping agencies get their .gov domains hardcoded into browsers as secure.“ - **Eric Mill**
+“I thoroughly enjoyed helping agencies get their .gov domains hardcoded into browsers as secure.“ - **Eric Mill**
 
 ![Snapshot of the first HSTS preloaded government domains.](/assets/blog/hsts/hsts-preload-list.png)
-_Since we wrote about it in February, 14 .gov domains have been fully preloaded._
+_Since we wrote about it in February, 14 more.gov domains have been fully preloaded._
 
 ## Diversity Working Group
 
@@ -100,7 +100,7 @@ _Since we wrote about it in February, 14 .gov domains have been fully preloaded.
 
 “cloud.gov has the potential to revolutionize how the government thinks about deployment, security and running systems. I am pretty proud of what we built so far and look forward to see what 2016 brings.” - **Diego Lapiduz**
 
-“Many of us have experienced first hand how security compliance requirements may hinder the government's ability to ship new projects. I proud to be working on methods for accelerating the compliance process in the open and excited to see the support and contributions of the open source community.” - **Gabriel Ramirez**
+“Many of us have experienced firsthand how security compliance requirements may hinder the government's ability to ship new projects. I'm proud to be working on methods for accelerating the compliance process in the open and excited to see the support and contributions of the open source community.” - **Gabriel Ramirez**
 
 ![The cloud.gov homepage](/assets/blog/cloud-gov/cloud-gov-homepage.jpg)
 
@@ -166,7 +166,7 @@ _The Every Kid in a Park 404, not found page, designed for fourth graders._
 “I’m really proud of the work I did on Federalist because it helped streamline the launch of sites that addressed [college affordability data](https://collegescorecard.ed.gov/ "College Scorecard") and the [quantity of natural resources being extracted from federal lands](https://useiti.doi.gov/ "USEITI").” - **Jeremia Kimelman**
 
 ![The Social and Behavior Sciences homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
-_The Social and Behavioral Sciecnes team was the first adopter for Federalist._
+_The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 ### SBIR-EZ
 
@@ -250,7 +250,7 @@ _We spent 90 minutes working with legos to teach the Small Business Administrati
 
 “The best thing I’ve made this year has been working on the soon-to-be-public 18F Handbook in collaboration with my colleagues. I’ve learned so much. Creating company-wide documentation has forced me to think about how content governance relates to organizational design.” - **Andrew Maier**
 
-“I loved working on our team process (stand-ups, grooming, planning. and retros). I think this helps us centralize team tasks, so we can better prioritize. It also helps us work through team issues/blockers a lot more quickly and efficiently. Creating a long-term roadmap will help even more.” - **Michael Torres**
+“I loved working on our team process (stand-ups, grooming, planning, and retros). I think this helps us centralize team tasks, so we can better prioritize. It also helps us work through team issues/blockers a lot more quickly and efficiently. Creating a long-term roadmap will help even more.” - **Michael Torres**
 
 “I loved working on [reworking 18F’s onboarding processes](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/). Improving onboarding dramatically improves how people work and feel about their workplace. It’s really exciting to think about how we might now scale best practices out and learn from other agencies.” - **Melody Kramer**
 
