@@ -166,7 +166,7 @@ _The Every Kid in a Park 404, not found page, designed for fourth graders._
 “I’m really proud of the work I did on Federalist because it helped streamline the launch of sites that addressed [college affordability data](https://collegescorecard.ed.gov/ "College Scorecard") and the [quantity of natural resources being extracted from federal lands](https://useiti.doi.gov/ "USEITI").” - **Jeremia Kimelman**
 
 ![The Social and Behavior Sciences homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
-_The Social and Behavioral Sciecnes team was the first adopter for Federalist._
+_The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 ### SBIR-EZ
 
