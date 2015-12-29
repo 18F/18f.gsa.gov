@@ -3,14 +3,13 @@ name: ric
 first_name: Ric
 last_name: Miller
 full_name: Ric Miller
-role: On detail
+role: Senior Advisor
 city: Washington
 state: D.C.
 github:
 twitter:
-team: Immigration and Customs Enforcement
+team: 18F
 ---
-**Ric is currently on detail,** the bio below describes his role at 18F.
 
 "I joke that team operations does all the things no one else wants to do (finance/accounting, legal, contracting, business analytics, etc.), but all kidding aside - we help to create and maintain a foundation that allows our talented technologist to do what they do best, deliver. Our customers are our colleagues."  
 
