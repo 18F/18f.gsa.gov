@@ -24,7 +24,7 @@ image:
 
 Knowing when (or if) your organization has successfully transitioned
 fully into an agile methodology can be tricky. Becoming an agile
-organization is trickier than it looks, and it’s helpful to be able to
+organization is harder than it looks, and it’s helpful to be able to
 identify traditional development practices that can slow down or derail
 your quest for agility. At 18F, we’ve spent a lot of time working with
 federal agencies and coaching them through the transition to agile, but
