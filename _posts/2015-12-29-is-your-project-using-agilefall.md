@@ -86,7 +86,7 @@ You may find yourself wondering how far along that agilefall path your
 project or organization has wandered. Here are some clues that your
 project or organization has adopted agilefall:
 
-### Has nothing changed except the terminology?
+### 1. Has nothing changed except the terminology?
 
 *Your new Scrummaster (who was called your Project Manager until you “adopted” agile) continues to run the same every-three-months all-hands meeting that previously consisted of executives showing slide decks and talking about their personal goals, but now calls them “retrospectives” instead of “quarterlies”.*
 
