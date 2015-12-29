@@ -124,7 +124,7 @@ that management instructed you to build six months ago doesn’t crash is
 neither user testing nor agile, and why do user testing at all if you
 can’t change the product before launch?
 
-The largest failure of Agile teams worldwide is the failure to produce
+The largest failure of agile teams worldwide is the failure to produce
 working software every iteration or on a regular, short cadence
 (kanban). Working software means tested, potentially shippable software.
 This drives the testing regimen. The agilefall sin is to not produce
@@ -132,7 +132,6 @@ tested, working software regularly.
 
 ---
 **“One of the unfortunate outcomes of this [waterfall] method is the common belief that testing should come near the end of the process, and should only be performed by those with no insight into the code and an adversarial perspective. While black-box testing can prove valuable, the concept that testing should *only* be a black-box process at the very end of development is a wasteful perspective. Why wait for a manual tester to catch a defect days, weeks, or months after it was introduced, when a unit test could have caught it before the original developer submitted the code?” — Mike Bland, 18F**
-
 ---
 
 ##Help! What should I do?
