@@ -131,7 +131,9 @@ This drives the testing regimen. The agilefall sin is to not produce
 tested, working software regularly.
 
 ---
+
 **“One of the unfortunate outcomes of this [waterfall] method is the common belief that testing should come near the end of the process, and should only be performed by those with no insight into the code and an adversarial perspective. While black-box testing can prove valuable, the concept that testing should *only* be a black-box process at the very end of development is a wasteful perspective. Why wait for a manual tester to catch a defect days, weeks, or months after it was introduced, when a unit test could have caught it before the original developer submitted the code?” — Mike Bland, 18F**
+
 ---
 
 ##Help! What should I do?
