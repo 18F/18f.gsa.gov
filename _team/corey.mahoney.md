@@ -5,9 +5,9 @@ full_name: Corey Mahoney
 github:
 last_name: Mahoney
 name: corey-mahoney
-role:
-state:
-team:
+role: Content designer
+state: CA
+team: Design
 twitter:
 ---
 Before finding content strategy, Corey Mahoney worked at a law firm, sold books in Harvard Square, and taught freshman English. 
