@@ -27,7 +27,7 @@ tools.
 
 I recently had the honor of being invited to speak at the [DevOps
 Enterprise Summit 2015](http://devopsenterprise.io/). My talk,
-[“PainIs Over, If You Want It”](http://devopsenterprise.io/sessions/pain-is-over-if-you-want-it/),
+[“Pain Is Over, If You Want It”](http://devopsenterprise.io/sessions/pain-is-over-if-you-want-it/),
 was a condensed version of [my previous
 “Google and the Government”
 talks](https://18f.gsa.gov/2014/12/11/large-scale-development-culture-change/)
