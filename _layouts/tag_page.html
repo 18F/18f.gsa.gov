@@ -16,7 +16,7 @@ layout: bare
 
 			{% if tag_number[0] == tag %}
 
-				{{tag_number[1] | size }} 
+				{{tag_number[1] | size }}
 				<!-- <p> {{tag | size }} </p> -->
 
 			{% endif %}
@@ -25,9 +25,9 @@ layout: bare
 
 {% endcapture %}
 
-	<p> <a href="/tags/{{tag | slugify }}" >{{tag}} </a> — {{count}} </p>
+	<p> <a href="{{ site.baseurl }}tags/{{tag | slugify }}" >{{tag}} </a> — {{count}} </p>
 
-	
+
 		<!-- <p> {{tag | size }} </p> -->
 
 

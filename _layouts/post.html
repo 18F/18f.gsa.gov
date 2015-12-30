@@ -14,7 +14,7 @@
 
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-      <h1><a href="{{site.baseurl}}/{{ page.url }}">{{ page.title }}</a></h1>
+      <h1><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
 
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
 
