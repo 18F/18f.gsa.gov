@@ -31,14 +31,14 @@ Our developers, designers, and project managers work side-by-side with researche
 If you work at an agency and are interested in partnering with 18F, send us an email at <a href="mailto:inquiries18f@gsa.gov" itemprop="email"><i title= "email 18F"></i> inquiries18f@gsa.gov</a>.
 
 ##Learn more about the work we do
-- [Taking the pulse of the federal government’s web presence](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/)
-- [Announcing the CALC tool: making pricing research easier in federal procurement](https://18f.gsa.gov/2015/05/12/announcing-the-calc-tool/)
-- [Flexibility when releasing a new product: Peace Corps’ new donations platform](https://18f.gsa.gov/2015/04/09/flexibility-when-releasing-a-new-product-peace-corps-new-donation-platform/)
-- [18F by the numbers](https://18f.gsa.gov/2015/03/19/18f-by-the-numbers/)
-- [How we built analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/)
-- [A new look at the Freedom of Information Act](https://18f.gsa.gov/2014/09/04/a-new-look-at-the-freedom-of-information-act/)
-- [Creating an OpenFEC](https://18f.gsa.gov/2014/08/21/creating-an-open-fec/)
-- [A few notes on NotAlone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/)
+- [Taking the pulse of the federal government’s web presence]({{ site.baseurl }}2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/)
+- [Announcing the CALC tool: making pricing research easier in federal procurement]({{ site.baseurl }}2015/05/12/announcing-the-calc-tool/)
+- [Flexibility when releasing a new product: Peace Corps’ new donations platform]({{ site.baseurl }}2015/04/09/flexibility-when-releasing-a-new-product-peace-corps-new-donation-platform/)
+- [18F by the numbers]({{ site.baseurl }}2015/03/19/18f-by-the-numbers/)
+- [How we built analytics.usa.gov]({{ site.baseurl }}2015/03/19/how-we-built-analytics-usa-gov/)
+- [A new look at the Freedom of Information Act]({{ site.baseurl }}2014/09/04/a-new-look-at-the-freedom-of-information-act/)
+- [Creating an OpenFEC]({{ site.baseurl }}2014/08/21/creating-an-open-fec/)
+- [A few notes on NotAlone.gov]({{ site.baseurl }}2014/05/09/a-few-notes-on-notalone-gov/)
 
 
 
