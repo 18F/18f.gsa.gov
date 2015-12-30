@@ -23,8 +23,8 @@
 <meta property="og:site_name" content="{{ site.title | xml_escape }}" />
 <meta property="og:type" content="website" />
 
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
 
 <!-- title, description, and image may change per-page, per-post -->
 {% if page.title %}
@@ -48,11 +48,11 @@
 <!-- use large summary card for posts with images, normal summary otherwise -->
 {% if page.image %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
 {% else %}
   <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.jpg" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/images/18f-share-image.jpg" />
 {% endif %}
 
 

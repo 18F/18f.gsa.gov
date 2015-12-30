@@ -3,6 +3,7 @@ module Jekyll
     def initialize(tag_name, author, tokens)
       super
       @author = author.strip
+      @baseurl = Jekyll.sites[0].config['baseurl']
     end
 
     def render(context)
@@ -14,7 +15,6 @@ module Jekyll
 
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
-          # "<img src=\"/assets/images/team/#{teammate['name']}.jpg\" />" +
           "#{teammate['full_name']}" +
         "</span>"
       else
@@ -39,7 +39,7 @@ module Jekyll
       full_name = context.environments[0]['page']['full_name']
       first_name = context.environments[0]['page']['first_name']
       posts = context.environments[0]['site']['posts']
-      site_url = context.environments[0]['site']['url']
+      site_url = context.environments[0]['site']['baseurl']
       for p in posts
         if p.data['authors'] and p.data['authors'].include? author
           authored.push(p)
@@ -62,9 +62,9 @@ module Jekyll
       info = input[1]
       image = File.join 'assets', 'images', 'team', "#{name}.jpg"
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
-        "<img class='img-circle team-img bio-clip' src='/#{image}' alt='18F team member #{info['full_name']}'>"
+        "<img class='img-circle team-img bio-clip' src='#{@baseurl}/#{image}' alt='18F team member #{info['full_name']}'>"
       else
-        "<img class='img-circle team-img bio-clip' src='/assets/images/18f.png' alt='18F logo'>"
+        "<img class='img-circle team-img bio-clip' src='#{@baseurl}/assets/images/18f.png' alt='18F logo'>"
       end
     end
     # lookup filter
@@ -98,7 +98,7 @@ module Jekyll
       team = Jekyll.sites[0].collections['team'].docs
       index = team.find_index {|x| x.data['name'] == input}
       unless index.nil?
-        url = "/team/#{team[index].data['name']}"
+        url = "#{@baseurl}/team/#{team[index].data['name']}"
         full_name = team[index].data['full_name']
         string = "<a href=#{url}>#{full_name}</a>"
       else

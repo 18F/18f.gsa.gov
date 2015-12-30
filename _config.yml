@@ -40,7 +40,7 @@ tag_dir: tags
 tag_title_prefix: "#"
 
 # use where a full URL is appropriate (e.g. RSS, OG tags)
-url: https://18f.gsa.gov
+baseurl: /
 
 # metadata
 title: 18F Digital Services Delivery
