@@ -8,7 +8,7 @@ module Jekyll
       if person && File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<img class='img-circle team-img bio-clip' src='#{baseurl}/#{image}' alt='18F team member #{person.data['full_name']}'>"
       else
-        "<img class='img-circle team-img bio-clip' src='/assets/images/18f.png' alt='18F logo'>"
+        "<img class='img-circle team-img bio-clip' src='#{baseurl}/assets/images/18f.png' alt='18F logo'>"
       end
     end
 
