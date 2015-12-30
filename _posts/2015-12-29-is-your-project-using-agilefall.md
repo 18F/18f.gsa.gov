@@ -114,7 +114,7 @@ prospective users and the team.
 
 ### 3. Speaking of sprints, does everybody assume QA testing happens in the last two?
 
-*Quality Assurance testing, user experience testing, and stakeholder review meetings are all scheduled to happen in the final weeks before your launch. When things fail, features are cut in order to make the launch deadline. When users research indicates that features should be added, changed, or eliminated, you make a note of it and tell them it will be in the next iteration if management approves.*
+*Quality Assurance testing, user experience testing, and stakeholder review meetings are all scheduled to happen in the final weeks before your launch. When things fail, features are cut in order to make the launch deadline. When user research indicates that features should be added, changed, or eliminated, you make a note of it and tell them it will be in the next iteration if management approves.*
 
 If you don’t test regularly, how will you know what to build? Successful
 iterative development relies on testing of the product (both the user
