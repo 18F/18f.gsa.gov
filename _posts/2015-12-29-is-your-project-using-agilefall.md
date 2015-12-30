@@ -86,7 +86,7 @@ You may find yourself wondering how far along that agilefall path your
 project or organization has wandered. Here are some clues that your
 project or organization has adopted agilefall:
 
-### Has nothing changed except the terminology?
+### 1. Has nothing changed except the terminology?
 
 *Your new Scrummaster (who was called your Project Manager until you “adopted” agile) continues to run the same every-three-months all-hands meeting that previously consisted of executives showing slide decks and talking about their personal goals, but now calls them “retrospectives” instead of “quarterlies”.*
 
@@ -114,7 +114,7 @@ prospective users and the team.
 
 ### 3. Speaking of sprints, does everybody assume QA testing happens in the last two?
 
-*Quality Assurance testing, user experience testing, and stakeholder review meetings are all scheduled to happen in the final weeks before your launch. When things fail, features are cut in order to make the launch deadline. When users research indicates that features should be added, changed, or eliminated, you make a note of it and tell them it will be in the next iteration if management approves.*
+*Quality Assurance testing, user experience testing, and stakeholder review meetings are all scheduled to happen in the final weeks before your launch. When things fail, features are cut in order to make the launch deadline. When user research indicates that features should be added, changed, or eliminated, you make a note of it and tell them it will be in the next iteration if management approves.*
 
 If you don’t test regularly, how will you know what to build? Successful
 iterative development relies on testing of the product (both the user
@@ -124,13 +124,14 @@ that management instructed you to build six months ago doesn’t crash is
 neither user testing nor agile, and why do user testing at all if you
 can’t change the product before launch?
 
-The largest failure of Agile teams worldwide is the failure to produce
+The largest failure of agile teams worldwide is the failure to produce
 working software every iteration or on a regular, short cadence
 (kanban). Working software means tested, potentially shippable software.
 This drives the testing regimen. The agilefall sin is to not produce
 tested, working software regularly.
 
 ---
+
 **“One of the unfortunate outcomes of this [waterfall] method is the common belief that testing should come near the end of the process, and should only be performed by those with no insight into the code and an adversarial perspective. While black-box testing can prove valuable, the concept that testing should *only* be a black-box process at the very end of development is a wasteful perspective. Why wait for a manual tester to catch a defect days, weeks, or months after it was introduced, when a unit test could have caught it before the original developer submitted the code?” — Mike Bland, 18F**
 
 ---
