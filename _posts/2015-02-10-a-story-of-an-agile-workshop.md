@@ -131,7 +131,7 @@ change** over following a plan.
 
 People were becoming familiar with the process now. I could almost see light bulbs flashing over people's heads — the excitement was that palpable. The developers and customers were talking on their own in too many conversations for us to follow. (Agile tenet \#3: **Value customer interaction** over contract negotiation.)
 
-<img src="/assets/blog/agile-workshop/workshop2.jpg" alt="The SSA developers at work." class="align-left" />
+<img src="{{ site.baseurl }}/assets/blog/agile-workshop/workshop2.jpg" alt="The SSA developers at work." class="align-left" />
 
 Seeing one the stories implemented up on the big screen showed us
 something that perhaps nobody had realized — one of the columns was now
@@ -148,7 +148,7 @@ But the product team did produce a complete force-ranked prioritization
 of stories on the board. Jason used this to give the work to his team as
 he saw fit.
 
-<img src="/assets/blog/agile-workshop/workshop1.jpg" class="align-left" alt="The actual users in the room and having fun." />
+<img src="{{ site.baseurl }}/assets/blog/agile-workshop/workshop1.jpg" class="align-left" alt="The actual users in the room and having fun." />
 
 People were laughing and having fun (Agile tenet \#1: **Value
 individuals and interactions over processes and tools**). Nearly all the
@@ -202,4 +202,4 @@ Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-work
 coaching, modular contracting expertise and technical advice to Federal
 agencies at cost-recovery prices.
 
-<img src="/assets/blog/agile-workshop/workshop4.png" alt="The completed stories and velocity chart after Sprint 2." class="float-left" />
+<img src="{{ site.baseurl }}/assets/blog/agile-workshop/workshop4.png" alt="The completed stories and velocity chart after Sprint 2." class="float-left" />

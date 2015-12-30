@@ -34,7 +34,7 @@ Consulting](https://18f.gsa.gov/consulting/): the Digital Economy
 Practice.
 
 <div style="text-align:center">
-<img src="/assets/blog/digital-economy-practice/dep-graphic2.jpg" alt="The Digital Economy Practice competencies include industry and policy, people and organization, design and product, technology and data, and acquisition and procurement." width="500px">
+<img src="{{ site.baseurl }}/assets/blog/digital-economy-practice/dep-graphic2.jpg" alt="The Digital Economy Practice competencies include industry and policy, people and organization, design and product, technology and data, and acquisition and procurement." width="500px">
 </div>
 
 Across the government, agencies work hard to improve economic outcomes

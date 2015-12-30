@@ -99,7 +99,7 @@ analytics.usa.gov!
 
 Expanded downloadable files
 ---------------------------
-<div style="float: right;"><img src="/assets/blog/dap/analytics-downloads2.jpg" alt="A list of types of data you can download from analytics.usa.gov." width="300px"></div>
+<div style="float: right;"><img src="{{ site.baseurl }}/assets/blog/dap/analytics-downloads2.jpg" alt="A list of types of data you can download from analytics.usa.gov." width="300px"></div>
 
 There’s a limit to how much data we can display on the page for you, so
 we have greatly expanded the downloadable data reports. We offer
