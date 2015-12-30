@@ -16,7 +16,7 @@ entire organization. This is the first post in a series about the  tools and pro
 image: /assets/blog/turn-up-to-11/turn-up-to-11.jpg
 ---
 
-[![A screenshot from the movie Spinal Tap showing a guitar amp dial that goes up to 11](/assets/blog/turn-up-to-11/turn-up-to-11.jpg)](https://en.wikipedia.org/wiki/Up_to_eleven)
+[![A screenshot from the movie Spinal Tap showing a guitar amp dial that goes up to 11]({{ site.baseurl }}/assets/blog/turn-up-to-11/turn-up-to-11.jpg)](https://en.wikipedia.org/wiki/Up_to_eleven)
 
 The feature that distinguishes high-performing organizations across all
 industries is their ability to facilitate knowledge sharing across the
