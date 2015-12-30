@@ -14,7 +14,7 @@ description: "At 18F, we're changing the way government thinks about software, a
 image: /assets/blog/layering-innovation/layer_cake.jpg
 ---
 [![Layer cake, by Flickr user
-Kirinohana](/assets/blog/layering-innovation/layer_cake.jpg)](https://www.flickr.com/photos/kiri_no_hana/9623594449/in/photolist-)
+Kirinohana]({{site.baseurl}}/assets/blog/layering-innovation/layer_cake.jpg)](https://www.flickr.com/photos/kiri_no_hana/9623594449/in/photolist-)
 
 In the past, most government digital projects were created out of
 requirement documents handed down to designers and developers for them

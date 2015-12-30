@@ -17,7 +17,7 @@ image: /assets/blog/dap/analytics-homepage.jpg
 
 *This post was originally published on the [DigitalGov blog](https://www.digitalgov.gov/2015/12/01/analytics-usa-gov-new-features-and-more-data).*
 
-![The analytics.usa.gov homepage.](/assets/blog/dap/analytics-homepage.jpg)
+![The analytics.usa.gov homepage.]({{site.baseurl}}/assets/blog/dap/analytics-homepage.jpg)
 
 As of writing this post, 25,225 of the 124,878 total visitors on federal
 government websites participating in the [Digital Analytics
@@ -64,7 +64,7 @@ world event and for some reason a large proportion of people in Mumbai,
 India (for example), are visiting U.S. government websites, the chart
 will reflect that.
 
-![A snapshot of location data from analytics.usa.gov](/assets/blog/dap/analytics-locations.jpg)
+![A snapshot of location data from analytics.usa.gov]({{site.baseurl}}/assets/blog/dap/analytics-locations.jpg)
 
 One thing to keep in mind about location information is that since we
 anonymize IP addresses of visitors at the earliest possible point, the
@@ -90,7 +90,7 @@ PDF files seem to dominate the list, but other extensions in the
 category include .doc, .xls., .mp3, among others. The data reflects the
 number of times the file was accessed in the past seven days.
 
-![A screenshot of a top downloaded item, in this case an Application for Naturalization from USCIS.](/assets/blog/dap/analytics-downloads.jpg)
+![A screenshot of a top downloaded item, in this case an Application for Naturalization from USCIS.]({{site.baseurl}}/assets/blog/dap/analytics-downloads.jpg)
 
 You can click on the page title, “Application for Naturalization |
 USCIS,” to go to the page the file is located, or you can click on the

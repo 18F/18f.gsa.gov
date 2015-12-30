@@ -54,7 +54,7 @@ months of time, allowing our small team to focus on issues with
 ATF-specific regulations, branding, and deployment. This is the great,
 fulfilled promise of open source; we reap the benefits every day.
 
-![A comparison of CFPB's eRegs and ATF's eRegs](/assets/blog/atf/eregs-comparison.jpg)
+![A comparison of CFPB's eRegs and ATF's eRegs]({{site.baseurl}}/assets/blog/atf/eregs-comparison.jpg)
 
 Collaborating with our peers
 ----------------------------

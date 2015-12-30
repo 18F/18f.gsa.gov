@@ -13,7 +13,7 @@ image: /assets/blog/speaker-series/cfpb-talk.jpg
 ---
 
 ![Mollie Bates and Natalia Fitzgerald give a talk at 18F about the design team at the Consumer
-Financial Protection Bureau](/assets/blog/speaker-series/cfpb-talk.jpg)
+Financial Protection Bureau]({{site.baseurl}}/assets/blog/speaker-series/cfpb-talk.jpg)
 
 Building a high-performing design team is tough under the best of
 circumstances. Add in governmental regulations, a distributed workforce,

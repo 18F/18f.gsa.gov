@@ -13,7 +13,7 @@ description: "Designers Mollie Bates and Natalia Fitzgerald will be speaking tom
 image: /assets/blog/speaker-series/cfpb-speakers.jpg
 ---
 
-![Consumer Financial Protection Bureau designers Mollie Bates and Natalia Fitzgerald](/assets/blog/speaker-series/cfpb-speakers.jpg)
+![Consumer Financial Protection Bureau designers Mollie Bates and Natalia Fitzgerald]({{site.baseurl}}/assets/blog/speaker-series/cfpb-speakers.jpg)
 
 Designers Mollie Bates and Natalia Fitzgerald are intimately acquainted
 with the ins and outs of consumer finance. Not only did the two

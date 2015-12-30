@@ -93,7 +93,7 @@ Final touches
 Although we hope our users never encounter it, we also added a 404 page.
 We’re proud of the content and design:
 
-![The Every Kid in a Park 404 page.](/assets/blog/every-kid-in-a-park/404.png)
+![The Every Kid in a Park 404 page.]({{site.baseurl}}/assets/blog/every-kid-in-a-park/404.png)
 
 In all, we’re thrilled with
 [everykidinapark.gov](http://everykidinapark.gov). We’ve handed the

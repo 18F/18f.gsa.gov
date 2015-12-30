@@ -15,7 +15,7 @@ debt is, how to manage it, and some ways to prevent accumulating it."
 image: /assets/blog/technical-debt/iceberg-noaa.jpg
 ---
 
-[![An iceberg](/assets/blog/technical-debt/iceberg-noaa.jpg)](https://www.flickr.com/photos/usoceangov/8290528771/)
+[![An iceberg]({{site.baseurl}}/assets/blog/technical-debt/iceberg-noaa.jpg)](https://www.flickr.com/photos/usoceangov/8290528771/)
 *Source:* [**National Oceanic and Atmospheric
 Administration**](https://www.flickr.com/photos/usoceangov/8290528771/)
 
