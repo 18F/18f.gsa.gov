@@ -1,12 +1,12 @@
 ---
-city: 
+city: Washington
 first_name: Alla
 full_name: Alla Goldman Seiffert
 github: 
 last_name: Seiffert
 name: alla
 role: 
-state: Washington, DC
+state: DC
 team: Consulting Acquisitions
 twitter: 
 ---
