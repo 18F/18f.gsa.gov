@@ -1,12 +1,12 @@
 ---
-city: 
+city: Washington
 first_name: Jay
 full_name: Jay Huie
 github: thecapacity
 last_name: Huie
 name: jayhuie
 role: 
-state: Washington, D.C.
+state: DC
 team: Consulting
 twitter: 
 ---
