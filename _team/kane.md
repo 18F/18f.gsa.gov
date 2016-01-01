@@ -6,7 +6,7 @@ github:
 last_name: Baccigalupi
 name: kane
 role: 
-state: 
+state: San Francisco, CA
 team: 
 twitter: 
 ---
