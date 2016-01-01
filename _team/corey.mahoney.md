@@ -6,7 +6,7 @@ github:
 last_name: Mahoney
 name: corey-mahoney
 role: Content designer
-state: CA
+state: San Francisco, CA
 team: Design
 twitter:
 ---
