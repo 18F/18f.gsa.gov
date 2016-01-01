@@ -6,7 +6,7 @@ github: thecapacity
 last_name: Huie
 name: jayhuie
 role: 
-state: D.C.
+state: Washington, D.C.
 team: Consulting
 twitter: 
 ---
