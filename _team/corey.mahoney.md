@@ -1,12 +1,12 @@
 ---
-city:
+city: San Francisco
 first_name: Corey
 full_name: Corey Mahoney
 github:
 last_name: Mahoney
 name: corey-mahoney
 role: Content designer
-state: San Francisco, CA
+state: CA
 team: Design
 twitter:
 ---
