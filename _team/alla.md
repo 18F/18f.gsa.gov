@@ -6,7 +6,7 @@ github:
 last_name: Seiffert
 name: alla
 role: 
-state: DC
+state: Washington, DC
 team: Consulting Acquisitions
 twitter: 
 ---
