@@ -54,7 +54,7 @@ As stewards of taxpayer dollars and servants to the needs of the public,
 it's our responsibility to avoid such issues by understanding what
 technical debt is and how to manage it.
 
-Over a series of upcoming posts, we’re going to explain what technical
-debt is (and why it’s not all bad), how to manage it, and some ways to
-prevent accumulating it. At the end of the series, you’ll have a clear
+Over a series of upcoming posts, we’re going to explain [what technical
+debt is](https://18f.gsa.gov/2015/09/04/what-is-technical-debt/) (and why it’s not all bad), [how to manage it](https://18f.gsa.gov/2015/10/05/managing-technical-debt/), and [some ways to
+prevent accumulating it](https://18f.gsa.gov/2015/10/22/preventing-technical-debt/). At the end of the series, you’ll have a clear
 understanding of technical debt and how to handle it.
