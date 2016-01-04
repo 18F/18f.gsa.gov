@@ -18,7 +18,7 @@ autonomy, and collaboration produce
 organizational culture change, we describe a few of the
 initiatives we’ve undertaken to increase transparency into 18F’s
 internal operations"
-image: /assets/blog/turn-up-to-11/turn-up-to-11.jpg
+image: /assets/blog/turn-up-to-11/skeleton-t-shirt.jpg
 ---
 
 [![An image of a man wearing a skeleton t-shirt from the movie Spinal Tap](/assets/blog/turn-up-to-11/skeleton-t-shirt.jpg)](https://i.ytimg.com/vi/XuzpsO4ErOQ/maxresdefault.jpg)[*“This is my exact inner structure, done in a tee shirt. Exactly medically accurate. See?”*](http://www.imdb.com/title/tt0088258/quotes?item=qt0261729)
