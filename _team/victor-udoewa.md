@@ -11,7 +11,9 @@ team: Consulting
 twitter: 
 ---
 
-Before joining 18F, Victor Udoewa taught mathematics and integrated math and science in middle and high schools and at the university level. After completing a postdoc in computational mechanics in South Africa, he became a science and technology policy advisor for the Department of Homeland Security and later for U.S. Agency for International Development (USAID) where he also served as an international development engineer. He most recently served as a global education instructional designer and training development specialist at Google. 
+Before joining 18F, Victor Udoewa taught math and science in middle and high schools and math, computer science, engineering and education at the university level. After completing a postdoc in computational mechanics in South Africa, he became a science and technology policy advisor for the Department of Homeland Security and later for U.S. Agency for International Development (USAID) where he also served as an international development engineer (things like roads, bridges, transportation, clinics, hospitals, schools, shelters, water systems, power/energy, waste services, green infrastructure, information and communications technologies, and post-disaster emergency response and recovery as well as disaster risk reduction). 
+
+He most recently served as a global education instructional designer and training development specialist at Google. 
 
 He specializes in human-centered design and also works as an adjunct professor of education.
 
