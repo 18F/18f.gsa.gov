@@ -115,4 +115,4 @@ consequences](http://www.infoq.com/articles/managing-technical-debt)
 -   **Developers** have to deal with the bad work of other developers, which [may cause turnover](http://www.industriallogic.com/blog/technical-debt-considered/)
 
 Now that you understand what technical debt is, we’ll discuss how to
-manage it in our next post.
+manage it in our [next post](https://18f.gsa.gov/2015/10/05/managing-technical-debt/).

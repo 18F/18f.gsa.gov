@@ -156,5 +156,5 @@ development cycles:
 
 -   **Managing the product backlog.** If you’re using an agile methodology such as [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), you can capture technical work packages (described above) as user stories and include them in the [product backlog](https://www.mountaingoatsoftware.com/agile/scrum/product-backlog). You can then prioritize these user stories for implementation during an upcoming iteration cycle.
 
-In our next post, we’ll go over ways to can prevent your next project
+In our [next post](https://18f.gsa.gov/2015/10/22/preventing-technical-debt/), we’ll go over ways to can prevent your next project
 from accruing technical debt in the first place.
