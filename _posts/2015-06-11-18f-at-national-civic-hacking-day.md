@@ -41,10 +41,7 @@ campaign that organizes the various catalogs of federal APIs to make it
 easier for developers to discover what web services the government
 offers.
 
-<div style="text-align:center">
-<iframe width="640" height="360"
-src="https://www.youtube-nocookie.com/embed/O4O7tonG3R8" frameborder="0"
-allowfullscreen></iframe></div>
+{{ "https://www.youtube-nocookie.com/embed/O4O7tonG3R8" | embed }}
 
 **San Diego, Calif.**: [Open San Diego](http://opensandiego.org/)
 produced the San Diego National Day activity, which took place downtown
