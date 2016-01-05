@@ -57,6 +57,6 @@ To get involved in shaping and advancing this tool (and other
 procurement-related tools), please get in touch with us at
 [calc-18f@gsa.](mailto:calc-18f@gsa.gov)[gov](mailto:calc-18f@gsa.gov).
 
-##Other digial tools
+##Other digital tools
 
 CALC is one of the numerous digital tools including [OASIS Discovery](http://www.oasisdiscovery.com/), PM/CPI Prices Paid Visualization, and the Statement of Work Library available on the [Professional Services Category Hallway](https://hallways.cap.gsa.gov/) that support and improve how the federal community acquires professional services.
