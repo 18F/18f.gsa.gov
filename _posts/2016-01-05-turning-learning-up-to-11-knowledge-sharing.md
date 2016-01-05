@@ -141,7 +141,7 @@ best work for the people.
 
 In that light, though the artifacts and processes discussed in this
 trilogy may be outside of our agency partner projects, investment in
-organizational learning capability is what supports the long term
+organizational learning capability is what supports the long-term
 development and delivery of high-quality products and services. Rather
 than taking resources away from customer requirements, it’s what enables
 those requirements to be (truly) fulfilled, and to not merely meet
