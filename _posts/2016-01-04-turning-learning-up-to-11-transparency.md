@@ -17,7 +17,7 @@ description: "In the second post in our series on how transparency,
 autonomy, and collaboration produce
 organizational culture change, we describe a few of the
 initiatives we’ve undertaken to increase transparency into 18F’s
-internal operations"
+internal operations."
 image: /assets/blog/turn-up-to-11/skeleton-t-shirt.jpg
 ---
 
