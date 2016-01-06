@@ -5,7 +5,7 @@ date: 2016-01-05
 authors:
 - melody
 tags:
-- open Government
+- open government
 - analytics
 - dap
 excerpt: "The city of Philadelphia, the city of Boulder, and the Tennessee Department of Environment and Conservation have all adapted analytics.usa.gov for their own use. We recently talked to them about how they adapted the platform and what advice they’d have for others who'd like to do the same."
