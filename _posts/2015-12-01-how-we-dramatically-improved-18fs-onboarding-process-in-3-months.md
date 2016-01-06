@@ -158,8 +158,8 @@ sending messages through Slack. She also sends daily tips and tricks
 about the way we work, and provides helpful advice from current 18F
 employees.
 
-(In a future blog post, my colleague Jessie Young, the lead developer on
-Mrs. Landingham, will talk more about the bot and how it works.)
+(My colleague Jessie Young, the lead developer on
+Mrs. Landingham, [talks more about the bot and how it works](https://18f.gsa.gov/2015/12/15/how-bot-named-dolores-landingham-transformed-18fs-onboarding/).)
 
 ## Onboarding begins before day 1
 
