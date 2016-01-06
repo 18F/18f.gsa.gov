@@ -50,7 +50,7 @@ Here’s a presentation that explains how cloud.gov’s PaaS can help free
 your staff to spend more time conquering problems that are unique to
 your agency and less time on regulatory compliance.
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/nCycNkxs-rE" frameborder="0" allowfullscreen></iframe>
+{{ "https://www.youtube-nocookie.com/embed/nCycNkxs-rE" | embed }}
 
 ## Why would an agency want to use cloud.gov?
 

@@ -35,7 +35,7 @@ creative, CFPB has grown a team of more than 70 designers and developers
 CFPB to do more in-house design and development than most federal
 agencies.
 
-<p><iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/EXP1DHH2GrI" frameborder="0" allowfullscreen></iframe></p>
+{{ "https://www.youtube-nocookie.com/embed/EXP1DHH2GrI" | embed }}
 
 *How* the team grew was the subject of a presentation Bates and
 Fitzgerald gave at 18F on Tuesday, Sept. 22. Starting with an overview
