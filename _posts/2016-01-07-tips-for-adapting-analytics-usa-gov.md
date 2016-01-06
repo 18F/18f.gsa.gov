@@ -34,7 +34,7 @@ Environment and Conservation](http://analytics.tdec.tn.gov/).
 I reached out to **Lauren Ancona**, the Senior Data Scientist for the
 City of Philadelphia’s Office of Innovation and Technology (OIT); **Ron
 Pringle**, a Senior PHP Application Programmer Analyst for the City of
-Boulder; and **Cory Rockwood**, a project manager in the Information
+Boulder; and **Cody Rockwood**, a project manager in the Information
 Systems Division of Tennessee’s Department of Environment and
 Conservation, to see how they adapted the platform for their respective
 organizations and what advice they’d have for others who would like to
