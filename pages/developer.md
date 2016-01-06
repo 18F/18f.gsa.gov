@@ -21,7 +21,7 @@ The [Discovery API](https://discovery.gsa.gov/docs/) drives the [Discovery Marke
 
 ### FBOpen
 
-The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportunities to work with the U.S. Government. Learn more from the [launch announcement]({{ site.baseurl }}2014/03/31/announcing-fbopen-government-opportunities-made-easier/) and the [GitHub repository](https://github.com/18f/fbopen). You can also view the live front-end interface built on the API at [fbopen.gsa.gov](https://fbopen.gsa.gov).
+The [FBOpen API](https://18f.github.io/fbopen/) is a search index of opportunities to work with the U.S. Government. Learn more from the [launch announcement]({{ site.baseurl }}/2014/03/31/announcing-fbopen-government-opportunities-made-easier/) and the [GitHub repository](https://github.com/18f/fbopen). You can also view the live front-end interface built on the API at [fbopen.gsa.gov](https://fbopen.gsa.gov).
 
 ### FOIA
 
@@ -29,7 +29,7 @@ The [FOIA Modernization API](http://foia-hub.readthedocs.org/en/latest/api.html)
 
 ### Hub
 
-The [Hub API]({{ site.baseurl }}hub/api/) provides web services for the [18F Hub]({{ site.baseurl }}hub/), a repository of team and project information ([more details here]({{ site.baseurl }}2014/12/23/hub/)).
+The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F Hub](https://18f.gsa.gov/hub/), a repository of team and project information ([more details here]({{ site.baseurl }}/2014/12/23/hub/)).
 
 ### Midas
 
@@ -47,7 +47,7 @@ The [18F Team API](https://team-api.18f.gov/public/api/) exposes organization in
 
 ### /Developer Program
 
-The [/Developer Program](http://18f.github.io/API-All-the-X/) is a suite of tools and resources to assist in the production and management of government APIs. The information is available to all and can be readily repurposed to the needs of individual agencies.  Furthermore, the program includes various options for direct support which are available to any federal agency. Learn more from the [blog post announcing the program]({{ site.baseurl }}2014/05/29/announcing-the-developer-program-a-new-hub-for/).
+The [/Developer Program](http://18f.github.io/API-All-the-X/) is a suite of tools and resources to assist in the production and management of government APIs. The information is available to all and can be readily repurposed to the needs of individual agencies.  Furthermore, the program includes various options for direct support which are available to any federal agency. Learn more from the [blog post announcing the program]({{ site.baseurl }}/2014/05/29/announcing-the-developer-program-a-new-hub-for/).
 
 ### api.data.gov
 

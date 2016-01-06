@@ -34,11 +34,11 @@ Let us assist as you develop a strategy for soliciting and onboarding vendors an
 
 - **Design methods workshop** to teach your team to collaboratively solve problems using “design thinking” and other human-centered methods. This includes hands-on, real-world learning to get your team from idea to experimentation and delivery in no time.
 
-- **[Agile workshop]({{ site.baseurl }}2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of agile development principles and practices.
+- **[Agile workshop]({{ site.baseurl }}/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)** to accelerate your team’s learning and adoption of agile development principles and practices.
 
 - **DevOps workshop** to move your team toward adoption of DevOps principles and practices.
 
-- **[RFP ghostwriting and review]({{ site.baseurl }}2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)** to increase your contract’s probability of success.
+- **[RFP ghostwriting and review]({{ site.baseurl }}/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)** to increase your contract’s probability of success.
 
 - **Capabilities delivery analysis** to determine what and how to acquire the capabilities your project or organization needs to deliver effectively (e.g., more in-house talent, learning and training programs).
 
@@ -54,7 +54,7 @@ Let us assist as you develop a strategy for soliciting and onboarding vendors an
 
 - **Agile coaching** to guide your team or organization through adoption of agile practices during the lifecycle of a current project.
 
-- **Vendor marketplace development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace]({{ site.baseurl }}2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
+- **Vendor marketplace development** to set up and curate targeted, high-performance marketplaces to meet your agency’s specific IT buying needs (e.g., [Agile Delivery Services Vendor Marketplace]({{ site.baseurl }}/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)).
 
 ## We’d love to hear from you
 
@@ -71,18 +71,18 @@ Email <a id="email" href=""></a> with your need and we’ll be happy to talk fur
 
 ## Learn more about the work we do
 
-- [Agile Development’s Secret Weapon: Transparency]({{ site.baseurl }}2015/04/24/agile-developments-secret-weapon-transparency/)
-- [18F Discussion: Should Project Teams Code First Or Design First?]({{ site.baseurl }}2015/04/03/18f-discussion-should-project-teams-code-first-or-design-first/)
-- [New RFP Ghostwriting Service To Improve Contract Success]({{ site.baseurl }}2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)
-- [How to Protosketch]({{ site.baseurl }}2015/03/13/how-to-protosketch/)
+- [Agile Development’s Secret Weapon: Transparency]({{ site.baseurl }}/2015/04/24/agile-developments-secret-weapon-transparency/)
+- [18F Discussion: Should Project Teams Code First Or Design First?]({{ site.baseurl }}/2015/04/03/18f-discussion-should-project-teams-code-first-or-design-first/)
+- [New RFP Ghostwriting Service To Improve Contract Success]({{ site.baseurl }}/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/)
+- [How to Protosketch]({{ site.baseurl }}/2015/03/13/how-to-protosketch/)
 - [Labor Category Descriptions for Agile Procurements](https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/)
-- [Highlights from the Agile Delivery Services Industry Day Events]({{ site.baseurl }}2015/02/12/highlights-from-the-agile-delivery-services-industry-day-events/)
-- [A Story of an Agile Workshop]({{ site.baseurl }}2015/02/11/a-story-of-an-agile-workshop/)
-- [Creating a Federal Marketplace for Agile Delivery Services]({{ site.baseurl }}2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
-- [Sketching with Code: Protosketching]({{ site.baseurl }}2015/01/06/protosketch/)
-- [How to Use More Open Source in Your Next Federal IT Acquisition]({{ site.baseurl }}2014/11/26/how-to-use-more-open-source/)
-- [How to Run Your Own 3-Sprint Agile Workshop]({{ site.baseurl }}2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)
-- [The Encasement Strategy: On Legacy Systems and the Importance of APIs]({{ site.baseurl }}2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/)
+- [Highlights from the Agile Delivery Services Industry Day Events]({{ site.baseurl }}/2015/02/12/highlights-from-the-agile-delivery-services-industry-day-events/)
+- [A Story of an Agile Workshop]({{ site.baseurl }}/2015/02/11/a-story-of-an-agile-workshop/)
+- [Creating a Federal Marketplace for Agile Delivery Services]({{ site.baseurl }}/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+- [Sketching with Code: Protosketching]({{ site.baseurl }}/2015/01/06/protosketch/)
+- [How to Use More Open Source in Your Next Federal IT Acquisition]({{ site.baseurl }}/2014/11/26/how-to-use-more-open-source/)
+- [How to Run Your Own 3-Sprint Agile Workshop]({{ site.baseurl }}/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)
+- [The Encasement Strategy: On Legacy Systems and the Importance of APIs]({{ site.baseurl }}/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/)
 
 
 <!-- Obfuscate our email -->
