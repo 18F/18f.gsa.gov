@@ -1,7 +1,7 @@
 ---
 title: "Tips for adapting analytics.usa.gov from Tennessee, Boulder, and
 Philadelphia"
-date: 2016-01-05
+date: 2016-01-06
 authors:
 - melody
 tags:
