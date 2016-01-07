@@ -28,7 +28,7 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
 def exec_cmd(cmd)
-  exit $?.exitstatus unless system(cmd)
+  exit $?.exitstatus unless system(cmd, :err => :out)
 end
 
 def init
@@ -82,10 +82,9 @@ def ci_build
 end
 
 def server_build
-  puts 'Stashing (just in case)'
-  exec_cmd 'git stash'
-  puts 'Pulling from git'
-  exec_cmd 'git pull'
+  puts 'Fetching from git'
+  exec_cmd 'git fetch origin staging'
+  exec_cmd 'git reset --hard origin/staging'
   update_gems(development=false)
   reset
   puts 'building site'
@@ -95,10 +94,9 @@ def server_build
 end
 
 def production_build
-  puts 'Stashing (just in case)'
-  exec_cmd 'git stash'
-  puts 'Pulling from git'
-  exec_cmd 'git pull'
+  puts 'Fetching from git'
+  exec_cmd 'git fetch origin production'
+  exec_cmd 'git reset --hard origin/production'
   update_gems
   reset
   puts 'building site'
