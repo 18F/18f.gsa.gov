@@ -3,7 +3,7 @@ title: "Announcing the 18F Micro-purchase Platform "
 date: 2016-01-07
 authors:
 - vdavez
-- allagoldmanseiffert
+- alla
 tags:
 - micro-purchase
 - procurement
@@ -27,7 +27,7 @@ micro-purchase tasks.
 
 We’ll be posting batches of new tasks onto the micro-purchase platform
 in the coming weeks, and bidders will once again have an opportunity to
-contribute open source code to our projects for \$3,500 or less.
+contribute open source code to our projects for $3,500 or less.
 
 [![The homepage of the new micro-purchase platform](/assets/blog/micro-purchase/micro-purchase-homepage.jpg)
 ](http://micropurchase.18f.gov)
@@ -56,7 +56,7 @@ intend to continue iterating on the auction process, and plan on
 experimenting with different auction formats in the future.
 
 The first batch of new auctions, though, will follow the previous
-format: a reverse auction starting at \$3,500 and ending at \$1. We
+format: a reverse auction starting at $3,500 and ending at $1. We
 learned a great deal from the first auction, and have numerous
 hypotheses around how future auctions could play out, but we want to
 first test the validity of our platform with the next batch of auctions.
