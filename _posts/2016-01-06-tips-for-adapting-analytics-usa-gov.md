@@ -11,6 +11,8 @@ tags:
 excerpt: "The city of Philadelphia, the city of Boulder, and the Tennessee Department of Environment and Conservation have all adapted analytics.usa.gov for their own use. We recently talked to them about how they adapted the platform and what advice they’d have for others who'd like to do the same."
 description: "The city of Philadelphia, the city of Boulder, and the Tennessee Department of Environment and Conservation have all adapted analytics.usa.gov for their own use. We talked to them about how they adapted the platform and what advice they’d have for others who'd like to do the same."
 image: /assets/blog/dap/screen.jpg
+redirect_from:
+-  /2016/01/05/tips-for-adapting-analytics-usa-gov/
 ---
 
 When [we launched analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/)
