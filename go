@@ -28,7 +28,7 @@
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
 def exec_cmd(cmd)
-  exit $?.exitstatus unless system(cmd)
+  exit $?.exitstatus unless system(cmd, :err => :out)
 end
 
 def init
