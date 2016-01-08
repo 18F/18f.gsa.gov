@@ -29,7 +29,7 @@ A growing trend both inside government and outside is to have a simple
 welcoming page for outside developers who may be interested in your
 team’s efforts. This material is [often
 located](https://18f.gsa.gov/2014/05/29/announcing-the-developer-program-a-new-hub-for/)
-at *website.gov/developer* <span id="back-1">[^1^](#footnote-1)</span>
+at *website.gov/developer* <span id="back-1">[1](#footnote-1)</span>
 and points visitors to technical material that developers may be
 interested in, especially APIs.Collecting technical documentation in one
 place facilitates the developer experience, ensuring that they can find

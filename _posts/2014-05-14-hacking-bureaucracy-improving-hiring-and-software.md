@@ -92,3 +92,5 @@ details, methods, and stories of how 18F hacks bureaucracy.
 You can also view our ["Hacking Bureaucracy"
 presentation](https://speakerdeck.com/18f/hacking-bureaucracy-18f-demo-day-9-may-2014)
 from 18F Demo Day on May 9th:
+
+<script async class="speakerdeck-embed" data-id="5604c360b9ea01313bb0227341532047" data-ratio="1.33333333333333" src="https://speakerdeck.com/assets/embed.js"></script>

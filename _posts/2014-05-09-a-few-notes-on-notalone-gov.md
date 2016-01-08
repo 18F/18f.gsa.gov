@@ -36,8 +36,7 @@ Innovation Fellows](https://www.whitehouse.gov/innovationfellows).
 
 \* \* \*
 
-#### \
-Changing how we think about task force deliverables
+#### Changing how we think about task force deliverables
 
 Often, the final product of a government task force is a lengthy report,
 a new committee or commission, or proposals for legislation or executive
@@ -65,8 +64,7 @@ compendium of reports and other documents related to sexual assault on
 campuses – all in response to requests from the students across the
 country who have lived through the need for these resources.
 
-#### \
-User-centered iterative design
+#### User-centered iterative design
 
 The task force came to us at the end of March, and asked us to deliver a
 site before the end of April. Notwithstanding the tight deadline, we did
@@ -91,8 +89,7 @@ Fortunately, the compressed timeline was counterbalanced by an invested
 team of project owners who were dedicated to providing fast,
 comprehensive feedback.
 
-#### \
-About the code
+#### About the code
 
 18F is committed to transparency. [NotAlone](https://www.notalone.gov/)
 is open-source. All the code for the site is available at

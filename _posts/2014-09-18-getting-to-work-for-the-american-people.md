@@ -94,7 +94,7 @@ Attracting great digital talent
 -------------------------------
 
 ![18F's DC
-troop]({{%20site.baseurl%20}}/assets/blog/getting-to-work/18fdc-pif.jpg)\
+troop]({{ site.baseurl }}/assets/blog/getting-to-work/18fdc-pif.jpg)\
 *The DC team at GSA HQ*
 
 Since launching in March 2014, we've grown from a small group of

@@ -25,18 +25,18 @@ tags:
 
 **What is 18F?**
 
-A\) A team of innovators, recruited from the private sector and public
-service.\
+A) A team of innovators, recruited from the private sector and public
+service.<br>
 B) In-house designers, developers, and product people making government
-services simple and easy to use for the American people.\
+services simple and easy to use for the American people.<br>
 C) A new unit of the [General Services Administration](https://gsa.gov/)
 focused on IT delivery, housed in the agency headquarters at 18th & F
-Streets in NW DC.\
+Streets in NW DC.<br>
 D) All of the above.
 
 You guessed it. The correct answer is D – [All of the
-above.](https://18f.gsa.gov/)\
-\
+above.](https://18f.gsa.gov/)
+
 [18F](https://18f.gsa.gov/) is a startup within GSA, encompassing the
 [Presidential Innovation Fellows](https://wh.gov/innovationfellows)
 program and a cutting edge digital delivery team. We’re doers, recruited
@@ -85,7 +85,7 @@ ElasticSearch, NoSQL, and d3. Next month there may be something new —
 the most important thing we’ve learned is to never stop learning.
 
 > *“It is not enough to adapt to today’s demands, we must anticipate the
-> changes that Americans expect from government.”*\
+> changes that Americans expect from government.”*
 > Dan Tangherlini, Administrator, GSA
 
 Like lean startup, we favor experimentation, customer feedback and
@@ -98,6 +98,6 @@ U.S. Government? Our goal with this approach is two-fold: build
 user-centered digital services, and prove that building technology in an
 agile manner is possible in government at scale. [Let us
 know](https://18f.gsa.gov/#contact) how we can help you, and how you can
-help us (hint: we want you!).\
-\
+help us (hint: we want you!).
+
 [Team 18F](https://18f.gsa.gov/#team)

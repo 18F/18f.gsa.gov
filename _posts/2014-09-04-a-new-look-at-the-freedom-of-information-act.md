@@ -23,7 +23,7 @@ tags:
 - open data
 authors:
 - jackie
-- shashank
+- khandelwal
 - majma
 - eric
 - victor
@@ -53,7 +53,7 @@ how to supplement the work that has already been done by creating tools
 to improve the online FOIA requests process by designing for the user.
 
 ![photo: a mockup of our app on an
-iPhone]({{%20site.baseurl%20}}/assets/blog/foia/in-hand.jpg)\
+iPhone]({{ site.baseurl }}/assets/blog/foia/in-hand.jpg)\
 *Above: an illustrative prototype running on a mobile device (the logo
 in the photo is not a live URL)*
 

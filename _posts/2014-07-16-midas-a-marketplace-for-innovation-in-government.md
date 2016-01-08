@@ -69,7 +69,7 @@ How Midas works
 ---------------
 
 <span style="float:right; padding-left:1em;">![Midas Project
-Card]({{%20site.baseurl%20}}/assets/blog/midas/midas-1.png)</span>
+Card]({{ site.baseurl }}/assets/blog/midas/midas-1.png)</span>
 
 Midas consists of three main components — projects, opportunities, and
 profiles – all of which are connected through **skills** and **topics**
@@ -89,7 +89,7 @@ of practice, or an interest group (for example, a group of people that
 get together to volunteer for a particular cause outside of work).
 
 <span style="float:right; padding-left:1em;">![Midas Opportunity
-Card]({{%20site.baseurl%20}}/assets/blog/midas/midas-2.png)</span>
+Card]({{ site.baseurl }}/assets/blog/midas/midas-2.png)</span>
 
 **Opportunities** are crowdsourced tasks that need volunteers.
 Opportunities are also associated with skills and topics. An opportunity

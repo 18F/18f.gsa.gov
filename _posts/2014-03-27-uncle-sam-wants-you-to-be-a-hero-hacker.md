@@ -35,8 +35,7 @@ duty to radically improve the delivery of government digital services.
 Why should you (yes, YOU) take time out of your busy schedule to apply
 (**deadline: April 7**)? Three important reasons:
 
-### \
-1. Uncle Sam wants YOU to help millions
+### 1. Uncle Sam wants YOU to help millions
 
 Working with Innovation Partners inside government agencies, Rounds One
 and Two of the Innovation Fellows program touched millions of lives in
@@ -73,8 +72,7 @@ Here’s a taste of some Round Two projects:
     [information](http://open.fda.gov/) they need to treat patients
     safely.
 
-### \
-2. Uncle Sam wants YOU to work with amazing people on big problems
+### 2. Uncle Sam wants YOU to work with amazing people on big problems
 
 Fellows come from many backgrounds and have a wide range of skills, but
 they share two characteristics: excellence and dedication. Do you long
@@ -94,8 +92,7 @@ big problems and implement game-changing solutions. Some of the projects
 in the diagram above were not planned, but discovered as opportunities
 in the course of other projects.
 
-### \
-3. Uncle Sam wants YOU to serve and return
+### 3. Uncle Sam wants YOU to serve and return
 
 Becoming a fellow is a commitment to work as hard as you can on behalf
 of the American people. It is a commitment to patiently run through
@@ -107,8 +104,7 @@ become a permanent federal employee. You will contribute your industry
 and entrepreneurial expertise to improve government and take what you
 have learned from other fellows with you when you leave.
 
-### \
-So what are YOU waiting for?
+### So what are YOU waiting for?
 
 **[Apply](https://pif.gsa.gov/) by April 7, 2014.** Throw your hat into
 the ring to make digital services in America an extension of the civic
