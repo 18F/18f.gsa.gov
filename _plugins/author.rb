@@ -107,7 +107,7 @@ module Jekyll
         url = lookup(input, "authors, url")
         name = lookup(input, "authors, full_name")
         if url
-          string = "<a href='#{url}'>#{name}</a>"
+          string = "<a href='#{url}'>#{name}/</a>"
         else
           string = name
         end
