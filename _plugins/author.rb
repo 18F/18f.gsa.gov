@@ -61,7 +61,7 @@ module Jekyll
       name = input[0]
       info = input[1]
       image = File.join 'assets', 'images', 'team', "#{name}.jpg"
-      @baseurl = Jekyll.sites[0].config['baseurl']
+      baseurl = Jekyll.sites[0].config['baseurl']
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<img class='img-circle team-img bio-clip' src='#{@baseurl}/#{image}' alt='18F team member #{info['full_name']}'>"
       else
@@ -98,6 +98,7 @@ module Jekyll
     def team_link(input)
       team = Jekyll.sites[0].collections['team'].docs
       index = team.find_index {|x| x.data['name'] == input}
+      baseurl = Jekyll.sites[0].config['baseurl']
       unless index.nil?
         url = "#{@baseurl}/team/#{team[index].data['name']}"
         full_name = team[index].data['full_name']
