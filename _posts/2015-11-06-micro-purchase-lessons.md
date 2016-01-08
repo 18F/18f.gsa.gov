@@ -4,6 +4,7 @@ date: 2015-11-06
 authors:
 - vdavez
 tags:
+- micro-purchase
 - open source
 - 18f consulting
 - procurement
