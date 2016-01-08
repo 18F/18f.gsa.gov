@@ -47,7 +47,6 @@ layout: bare
             </div>
 
             <div class="blog-continue">
-              <pre>{{ site.baseurl }}<pre>
               <p><a href="{{ site.baseurl }}{{ post.url }}">Continue reading this post...</a></p>
             </div>
           </article>
@@ -58,7 +57,7 @@ layout: bare
   <section class="pagination">
     <div>
       {% if paginator.previous_page %}
-        <a href="{{ site.baseurl }}/{{ paginator.previous_page_path }}/">
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}/">
           <h1><i class="fa fa-chevron-left"></i> Previous</h1>
         </a>
       {% else %}
@@ -70,7 +69,7 @@ layout: bare
     </div>
     <div>
       {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}/{{ paginator.next_page_path }}/">
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}/">
         <h1>Next <i class="fa fa-chevron-right"></i></h1>
       </a>
       {% else %}
