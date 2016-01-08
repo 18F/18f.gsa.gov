@@ -61,6 +61,7 @@ module Jekyll
       name = input[0]
       info = input[1]
       image = File.join 'assets', 'images', 'team', "#{name}.jpg"
+      @baseurl = Jekyll.sites[0].config['baseurl']
       if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
         "<img class='img-circle team-img bio-clip' src='#{@baseurl}/#{image}' alt='18F team member #{info['full_name']}'>"
       else
