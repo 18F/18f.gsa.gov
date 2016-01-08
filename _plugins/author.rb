@@ -100,14 +100,14 @@ module Jekyll
       index = team.find_index {|x| x.data['name'] == input}
       baseurl = Jekyll.sites[0].config['baseurl']
       unless index.nil?
-        url = "#{@baseurl}/team/#{team[index].data['name']}"
+        url = "#{baseurl}/team/#{team[index].data['name']}"
         full_name = team[index].data['full_name']
-        string = "<a href=#{url}>#{full_name}</a>"
+        string = "<a href='#{url}'>#{full_name}</a>"
       else
         url = lookup(input, "authors, url")
         name = lookup(input, "authors, full_name")
         if url
-          string = "<a href=#{url}>#{name}</a>"
+          string = "<a href='#{url}'>#{name}</a>"
         else
           string = name
         end
