@@ -5,7 +5,8 @@ title: "Hacking inclusion: How we customized a bot to gently correct people who 
 
 image: 
 
-description: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot’s autoresponses to respond automatically with different phrases if someone uses the words "guys" or “guyz" in an 18F chat room."
+description: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot’s autoresponses to respond automatically with different phrases if someone uses the words "guys" or 
+"guyz" in an 18F chat room."
 
 excerpt: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot’s autoresponses to respond automatically with different phrases if someone uses the words "guys" or “guyz" in an 18F chat room."
 
@@ -39,6 +40,8 @@ Did you mean *people*?
 Did you mean *y'all*?
 
 Here’s what it looks like in action:
+
+![screenshot: Slackbot showing alternative responses to phrase 'Hey guys']({{ site.baseurl }}/assets/blog/hacking-inclusion/slackbot-replacing-guys-with-other-words.png)
 
 Turns out, a little cultural hack can go a long way. It’s easy to forget these things and say guys unconsciously, but a nice, friendly, automated reminder solves that issue, and reduces the need for any kind of person-to-person conversation. 
 
