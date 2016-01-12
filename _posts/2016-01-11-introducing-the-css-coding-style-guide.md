@@ -3,7 +3,7 @@ layout: post
 
 title: "Introducing the CSS coding style guide"
 
-image: {{ site.baseurl }}/assets/blog/css-guide/css-guide.png
+image: /assets/blog/css-guide/css-guide.png
 
 description: "18F is releasing our CSS coding style guide, which specifies our best practices and rules for writing consistent, maintainable CSS code."
 
