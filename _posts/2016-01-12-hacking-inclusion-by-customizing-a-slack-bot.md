@@ -1,14 +1,14 @@
 ---
 layout: post
 
-title: "Hacking inclusion: How we customized a bot to gently correct people who use the word "guys""
+title: "Hacking inclusion: How we customized a bot to gently correct people who use the word 'guys'"
 
 image: 
 
-description: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot’s autoresponses to respond automatically with different phrases if someone uses the words "guys" or 
-"guyz" in an 18F chat room."
+description: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot's autoresponses to respond automatically with different phrases if someone uses the words 'guys' or 
+'guyz' in an 18F chat room."
 
-excerpt: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot’s autoresponses to respond automatically with different phrases if someone uses the words "guys" or "guyz" in an 18F chat room."
+excerpt: "We want to build a diverse and inclusive workplace where people use more inclusive language so we recently customized Slackbot's autoresponses to respond automatically with different phrases if someone uses the words 'guys' or 'guyz' in an 18F chat room."
 
 authors:
 - maya
