@@ -1,12 +1,12 @@
 ---
-city: 
+city:
 first_name: Alan
 full_name: Alan Atlas
-github: 
+github:
 last_name: Atlas
-name: alan.atlas
-role: 
-state: 
-team: 
-twitter: 
+name: alan-atlas
+role:
+state:
+team:
+twitter:
 ---
