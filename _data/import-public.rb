@@ -4,7 +4,6 @@
 
 require "open-uri"
 require "json"
-require "safe_yaml"
 
 DATA_DIR = File.dirname __FILE__
 TEAM_DIR = "_team"
