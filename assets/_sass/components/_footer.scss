@@ -1,0 +1,77 @@
+// Footer
+//********************************************************
+$small-screen:  481px;
+$medium-screen: 600px;
+$large-screen:  1201px;
+
+
+.footer-content{
+	margin-bottom: 2em;
+	text-align: center;
+	@include media($medium-screen){
+    &:nth-child(3) {
+      min-height: 11em;
+    }
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+}
+
+.footer {
+	border-top: 5px solid $blue;
+	background-color: $darkest-blue;
+	height: auto;
+	color: #fff;
+	padding-top: 55px;
+
+	@include media($small-screen) {
+		padding-top: 40px;
+	}
+	padding-bottom: 20px;
+	h1 {
+		font-size: 1.2em;
+		padding-bottom: 0.5em;
+		@include media($small-screen) {
+			font-size: 1em;
+			padding-bottom: 0.1em;
+		}
+		@include media($tiniest) {
+			font-size: 1em;
+			padding-bottom: 0.2em;
+		}
+	}
+
+	.container{
+		background-color: $darkest-blue;
+	}
+
+	img {
+		width: 100%;
+    	max-width: 100px;
+    	@include media($medium-screen){
+    		max-width: 85px;
+    	}
+
+	}
+	a {
+		color:#fff;
+		font-size: 0.9em;
+  		text-decoration: none;
+  		&:hover, &:focus {
+  			text-decoration: underline;
+  		}
+		@include media($small-screen) {
+			font-size: 0.8em;
+		}
+		@include media($tiniest) {
+			text-decoration: underline;
+			font-size: 0.75em;
+		}
+	}
+	.tagline {
+		@include media($tiny) {
+			float: none;
+		}
+	}
+}

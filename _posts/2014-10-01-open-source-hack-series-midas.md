@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "18F Open Source Hack Series: Midas"
+title: "18F open source hack series: Midas"
 
 image: /assets/blog/midas-oct-hacking/coding.jpg
 
@@ -17,14 +17,9 @@ tags:
 - how we work
 - midas
 
-category:
-- Events
 ---
-<p class="authors">
-  by {% author sarah %} from the Midas team
-</p>
 ![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
-**Do you know JavaScript?  or do you have UX or visual design skills?**
+**Do you know JavaScript?  Or do you have UX or visual design skills?**
 
 **One evening can make an impact!**
 
@@ -38,13 +33,13 @@ category:
 "It's like a Kickstarter for people's time." –Joe Polastre at [18F Demo Day](https://speakerdeck.com/18f/innovation-toolkit-18f-demo-day-9-may-2014?slide=3)
 
 ## Please join us
-**Monday, October 6, 3–9pm**
-18F/GSA Headquarters, 1800F Street [(map)](https://goo.gl/maps/WUSCO)
+**Monday, October 6, 3 p.m. to 9 p.m.**
+18F/GSA Headquarters, 1800 F St. NW [(map)](https://goo.gl/maps/WUSCO)
 
-* 3-5:30: afternoon session: write code, create designs, paper prototyping
-* 5:30-6p: How will Midas improve government? special guests plus Q&A
-* 6p-8:30p write code, create designs, paper prototyping session
-* 8:30p demos & sharing what we've learned
+* 3 p.m. to 5:30 p.m. afternoon session: write code, create designs, paper prototyping
+* 5:30 p.m. to 6 p.m.: How will Midas improve government? Special guests plus Q&A
+* 6 p.m. to 8:30 p.m.: write code, create designs, paper prototyping session
+* 8:30 p.m.: demos and sharing what we've learned
 
 We're building the future of government, but we need your help!  We have a stable [backlog](https://github.com/18F/midas/issues) and a few individuals can make a huge difference. Feel free to come for the afternoon or evening session or both!  You can work solo, in pairs or groups that will form when we get there.
 
@@ -58,10 +53,8 @@ We're building the future of government, but we need your help!  We have a stabl
 * [Backbone](http://backbonejs.org/)
 * [Sails.js](http://sailsjs.org/)
 
-[Sign up by Thurs., Oct 2 to reserve your spot!](https://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885)
+[Sign up by Thursday, October 2, 2014 to reserve your spot!](https://www.eventbrite.com/e/18f-open-source-hack-series-midas-tickets-13365270885)
 
 
 ![Designing at the
 Whiteboard](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
-
-

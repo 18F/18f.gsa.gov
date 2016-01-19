@@ -10,9 +10,6 @@ tags:
 - policy
 - hsts
 
-category:
-- Guides and Tutorials
-
 authors:
 - eric
 
@@ -21,10 +18,6 @@ description: "Every .gov website, no matter how small, should give its visitors 
 excerpt: "Every .gov website, no matter how small, should give its visitors a secure, private connection. Ordinary HTTP (http://) connections are neither secure nor private, and can be easily intercepted and impersonated. In today's web browsers, the best and easiest way to fix that is to use HTTPS (https://)."
 
 ---
-
-<p class="authors">
-  by {% author eric %}
-</p>
 
 <img src="/assets/blog/hsts/hsts-preload-list.png" alt="A snapshot of .gov websites preloaded as HTTPS-only" style="border: 1px solid #d5d5d5; padding: 10px 0" />
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Three 18F Products That Will Help Your Workplace"
+title: "Three 18F products that will help your workplace"
 
 image: /assets/blog/three-products/hub.png
 
@@ -28,14 +28,7 @@ tags:
 - github
 - snippets
 - the hub
-
-category:
-- The Projects We Work On
 ---
-
-<p class="authors">
-  by {% author melody %}
-</p>
 
 I’ve worked at 18F for exactly six days. During those six days, I
 learned about a few products that I wish I’d known about while at my

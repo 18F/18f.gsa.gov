@@ -2,7 +2,7 @@
 title: "Pair programming: Why two heads are better than one"
 date: 2015-05-04
 layout: post
-author:
+authors:
 - melody
 tags:
 - developer
@@ -12,10 +12,6 @@ excerpt: "At 18F, we frequently use pair programming, a technique where two deve
 description: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program and why they find it useful."
 image: /assets/blog/pair-programming/annalee.jpg
 ---
-
-<p class="authors">
-  by {% author melody %}
-</p>
 
 <div class="align-center" ><img style="margin-left: 30px;" alt="Annalee Flower Horne" src="/assets/blog/pair-programming/annalee.png" class="align-left" />
 <img style="margin-right: 30px;" alt="Catherine Devlin" src="/assets/blog/pair-programming/catherine.jpg" class="align-right" /></div>
@@ -157,7 +153,7 @@ There’s a pattern here — we haven’t really needed to make our practices
 into rules. Talking about what you’re doing, saying goodbye when you’re
 exhausted — these unspoken expectations of social interaction are
 actually good rules for pairing, too. Perhaps more adventuresome
-cross-cultural pairing would call for more explicit rules. 
+cross-cultural pairing would call for more explicit rules.
 
 --
 

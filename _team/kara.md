@@ -3,13 +3,14 @@ name: kara
 first_name: Kara
 last_name: DeFrias
 full_name: Kara DeFrias
-role:
-location:
+role: Senior Advisor
+city: San Diego
+state: CA
 github:
 twitter:
-team:
+team: 18F
 ---
 
-Kara is the Deputy Director of the 18F Consulting Team. Her goals are to "infuse design thinking across the federal government, make the digital services the people interact with more usable and useful, make it easier for people to connect with their government, and influence experiences that yes, maybe even make the interactions delightful."
+As senior advisor to the executive director, Kara focuses on strategy and culture at 18F. Her background is a mix of private and public sector experience, including 6 years with Intuit/TurboTax and an appointment to the first class of White House Presidential Innovation Fellows. As an Intuit Innovation Catalyst, she helped people use human-centered design to tackle the company’s biggest challenges and turn them into opportunities to delight folks.
 
-Kara joins 18F after working in both the public and private sectors, including six years at Intuit/Turbotax, where she helped individuals and teams use design thinking to tackle the company’s biggest challenges and dream up new, customer-centric creations. With a focus is on experience design and digital strategy, Kara was founder and executive producer of TEDxIntuit, and has worked on the Oscars and Super Bowl Halftime Show. She was also a member of the first class of White House Presidential Innovation Fellows.
+According to her 2nd grade report card, Kara “likes to talk. A lot.” Which makes sense that this former journalist and long-time Distinguished Toastmaster (DTM) would still be working to create experiences where we talk to people like they're humans, not robots. Previous experience also includes the Oscars, Emmys, Super Bowl, and Women's World Cup. One constant in her career: placing herself in a position where she can do the most good for the most people.

@@ -1,11 +1,12 @@
 ---
-name: phaedra
+city: 
 first_name: Phaedra
-last_name: Chrousos
 full_name: Phaedra Chrousos
-role:
-location:
-github:
-twitter:
-team:
+github: 
+last_name: Chrousos
+name: phaedra
+role: 
+state: 
+team: 
+twitter: 
 ---

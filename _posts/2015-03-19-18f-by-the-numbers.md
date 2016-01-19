@@ -1,5 +1,5 @@
 ---
-title: "18F by the Numbers"
+title: "18F by the numbers"
 layout: post
 image: /assets/blog/agile-day/18fbythenumbers.png
 date: 2015-03-19 18:00:00
@@ -8,11 +8,8 @@ tags:
 - how we work
 - anniversary
 
-category:
-- About 18F
 
-
-author:
+authors:
 - melody
 - kate
 - erica
@@ -20,16 +17,12 @@ excerpt: "Today, we’re celebrating our first anniversary. We wanted to take a 
 description: "Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year."
 ---
 
-<p class="authors">
-  by {% author melody %}, {% author kate %}, and {% author erica %}
-</p>
-
 Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
 
 ![Infographic showing 18F's first-year progress by the numbers](/assets/blog/agile-day/18fbythenumbers.png)
 
 
-##By The Projects
+##By the projects
 
 15: Current [Delivery Services Projects] (https://18f.gsa.gov/dashboard/)
 
@@ -44,7 +37,7 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 4: Hackathons and Demo Days hosted ([and we’ve got more] (http://accessibilitytoday.eventbrite.com) [around the corner!] (http://www.eventbrite.com/e/gov-tech-hack-by-the-people-for-the-people-tickets-16135863803))
 
 
-##By The People
+##By the people
 
 15: People on the [18F team] (https://18f.gsa.gov/) one year ago
 
@@ -61,7 +54,7 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 684: Number of Tweets on [@18F] (https://twitter.com/18f) (as of 3/19/15)
 
 
-##By The Code
+##By the code
 
 
 203: Public repositories on GitHub (source: [GovCode] (https://www.govcode.org/repos))

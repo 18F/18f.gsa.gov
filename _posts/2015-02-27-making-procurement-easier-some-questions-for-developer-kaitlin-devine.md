@@ -1,7 +1,7 @@
 ---
-title: "Making Procurement Easier: Some Questions For Developer Kaitlin Devine"
+title: "Making procurement easier: questions for developer Kaitlin Devine"
 layout: post
-image: /assets/blog/discovery-launch/discovery-dashboard.png 
+image: /assets/blog/discovery-launch/discovery-dashboard.png
 date: 2015-03-05
 tags:
 - procurement
@@ -9,24 +9,17 @@ tags:
 - kaitlin devine
 - user research
 - interview
-author:
-- Greg Boone
-- Elaine Kamlley
-- Melody Kramer
+authors:
+- boone
+- elaine
+- melody
 
-category:
-- The Projects We Work On
-
-excerpt: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
+excerpt: "We recently sat down with Developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 description: "We recently sat down with developer Kaitlin Devine and asked her a few questions about Discovery, a new product designed to make government procurement more efficient."
 ---
 
-<p class="authors">
-  by {% author boone %} and {% author elaine %} and {% author melody %}
-</p>
 
-
-We recently sat down with developer Kaitlin Devine and asked her a few
+We recently sat down with Developer Kaitlin Devine and asked her a few
 questions about 18F and government procurement. Not familiar with the term
 procurement? It basically means buying stuff. A self-described
 “procurement nerd,” Kaitlin has been working on a project to make the
@@ -34,7 +27,7 @@ procurement process a lot more efficient within GSA. It’s called [Discovery](h
 
 **What do you do at 18F and why did you want to work here?**
 
-My name is Kaitlin Devine and I’m the Director of Engineering. I’m also
+My name is Kaitlin Devine and I’m the director of engineering. I’m also
 a Python developer working on a few projects here. What I love most
 about working at 18F is that it’s very new and exciting and there’s a
 lot of opportunity to craft it in your own image if you can or are
@@ -166,7 +159,7 @@ an understanding of the space and of user needs, we were able to say
 **What has the feedback been from the client? What have you heard since
 this has been released?**
 
-We actually did a Demo Day for 18F and this was one of the projects we
+We actually did a demo day for 18F and this was one of the projects we
 demoed and people were really, really enthusiastic about it. One of
 GSA’s main business lines is procurement - we procure things for other
 agencies - so people were really excited about it, because even in it’s
@@ -216,4 +209,3 @@ the time, it’s just based on what your mentor taught you when you came
 into government procurement. So I think if we can get more people to
 adopt it and we see increased usage over time, then that will be a
 really good metric.
-

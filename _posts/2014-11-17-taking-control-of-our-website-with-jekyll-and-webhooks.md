@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Taking control of our website with Jekyll and webhooks
+title: "Taking control of our website with Jekyll and webhooks"
 image: /assets/blog/new-jekyll-site/header.png
 description: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
+excerpt: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
 authors:
  - eric
  - mhz
@@ -13,14 +14,7 @@ tags:
   - technical
   - howto
 
-category:
-
-  - Design and Code
 ---
-<p class="authors">
-  by {% author eric %}, {% author mhz %}, and {% author boone %}
-</p>
-
 [![Our website running with Jekyll](/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
 
 A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
@@ -76,7 +70,7 @@ Finally, we moved from Bootstrap to [Bourbon.io](http://bourbon.io/) as our site
 
 ## Blogging with freedom
 
-Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/news`](18f.gsa.gov/news).
+Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/blog/`](https://18f.gsa.gov/blog/).
 
 This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
 
@@ -93,10 +87,10 @@ This [recent post on an 18F-hosted hackathon](https://18f.gsa.gov/2014/10/01/ope
 ```yaml
 ---
 layout: post
-title: "18F Open Source Hack Series: Midas"
+title: "18F open source hack series: Midas"
 image: /assets/blog/midas-oct-hacking/coding.jpg
 description: "We're building the future of government, but we need your help! Join us for a session of coding or UX design. Feel free to come for the afternoon or evening session or both! You can work solo, in pairs or groups that will form when we get there."
-excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
+excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health and Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
 authors:
 - sarah
 tags:
@@ -106,11 +100,11 @@ tags:
 ---
 ```
 
-Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our team [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add an `author` tag to our templates using teammates' handles.
+Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our authors [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/authors.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add a `lookup` filter to our templates using that loops through a data file. (**Note**: We've since rewritten our plugin to [generate bylines automatically](https://github.com/18F/18f.gsa.gov/issues/633).)
 
 ```html
 <p class="authors">
-  by {% raw %}{% author chrisc %}{% endraw %}, {%raw %}{% author mhz %}{% endraw %}, and {% raw %}{% author nick %}{% endraw %}
+  by {%raw%}{% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {%endunless%}{% endfor %}{%endraw%}
 </p>
 ```
 

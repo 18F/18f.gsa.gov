@@ -27,25 +27,8 @@
 #
 # Author: Mike Bland (michael.bland@gsa.gov)
 # Date:   2015-01-10
-
-MIN_VERSION = "2.1.0"
-
-unless RUBY_VERSION >= MIN_VERSION
-  puts <<EOF
-
-*** ABORTING: Unsupported Ruby version ***
-
-Ruby version #{MIN_VERSION} or greater is required to build 18f.gsa.gov, but
-this Ruby is version #{RUBY_VERSION}. Consider using a version manager such as
-rbenv (https://github.com/sstephenson/rbenv) or rvm (https://rvm.io/)
-to install a Ruby version specifically for 18f.gsa.gov development.
-
-EOF
-  exit 1
-end
-
 def exec_cmd(cmd)
-  exit $?.exitstatus unless system(cmd)
+  exit $?.exitstatus unless system(cmd, :err => :out)
 end
 
 def init
@@ -59,8 +42,13 @@ def init
   exec_cmd 'bundle install'
 end
 
-def update_gems
-  exec_cmd 'bundle update'
+def update_gems(development=true)
+  # Installs and updates gems to the correct version, in case it's been a while
+  if development
+    exec_cmd 'bundle install'
+  else
+    exec_cmd 'bundle install --without development'
+  end
 end
 
 def update_data
@@ -69,49 +57,71 @@ def update_data
 end
 
 def serve
-  exec 'bundle exec jekyll serve --trace --no-watch'
+  exec 'bundle exec jekyll serve --trace --incremental'
 end
 
-def build
+def build(watch = false, config=false)
   puts 'Building the site...'
-  exec_cmd('bundle exec jekyll b --trace')
+  cmd = 'bundle exec jekyll b --trace --incremental'
+  if watch == false
+    cmd = "#{cmd} --no-watch"
+  end
+  if config
+    cmd = "#{cmd} --config _config.yml,#{config}"
+  end
+  puts(cmd)
+  exec_cmd(cmd)
   puts 'Site built successfully.'
 end
 
 def ci_build
-  puts 'Building the site...'
+  reset
   build
-  exec_cmd('bash deploy/test.sh')
+  test
   puts 'Done!'
 end
 
 def server_build
-  puts 'Stashing (just in case)'
-  exec_cmd 'git stash'
-  puts 'Pulling from git'
-  exec_cmd 'git pull'
-  update_gems
+  puts 'Fetching from git'
+  exec_cmd 'git fetch origin staging'
+  exec_cmd 'git reset --hard origin/staging'
+  update_gems(development=false)
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml')
+  build
   require 'time'
   puts Time.now()
 end
 
 def production_build
-  puts 'Stashing (justin case)'
-  exec_cmd 'git stash'
-  puts 'Pulling from git'
-  exec_cmd 'git pull'
+  puts 'Fetching from git'
+  exec_cmd 'git fetch origin production'
+  exec_cmd 'git reset --hard origin/production'
   update_gems
+  reset
   puts 'building site'
-  exec_cmd('bundle exec jekyll b --config _config.yml,_config-deploy.yml')
+  build(watch=false, config="_config-deploy.yml")
   require 'time'
   puts Time.now()
 end
 
 def cf_deploy
   build
+  test
   exec_cmd('sh deploy/cf-deploy.sh')
+end
+
+def test
+  exec_cmd('bundle exec deploy/tests/test.rb')
+  exec_cmd('bundle exec jekyll test')
+end
+
+def pre_deploy
+  ci_build
+end
+
+def reset
+  exec_cmd('bundle exec jekyll clean')
 end
 
 COMMANDS = {
@@ -123,7 +133,10 @@ COMMANDS = {
   :ci_build => 'Builds the site for a CI system',
   :server_build => 'Pulls from git and builds the site with `jekyll-get` enabled',
   :cf_deploy => 'Deploys to cloudfoundry',
-  :production_build => 'Deploys to production using a second config file'
+  :production_build => 'Deploys to production using a second config file',
+  :test => 'Tests the fontmatter and site build.',
+  :pre_deploy => 'Builds the site and runs associated tests',
+  :reset => 'Clears the build cache'
 }
 
 def usage(exitstatus: 0)

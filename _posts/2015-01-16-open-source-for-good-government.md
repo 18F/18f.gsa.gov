@@ -1,5 +1,5 @@
 ---
-title: Open Source for Good Government
+title: Open source for good government
 date: '2015-01-16'
 layout: post
 image: /assets/blog/join-us/18f_govuk.png
@@ -9,14 +9,11 @@ tags:
 - how we work
 authors:
 - 18F
-category:
-- How We Work
 
 description: 'Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and their combined commitment to openness and transparency is transforming the delivery of government digital services in both countries.'
 
 excerpt: 'Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and their combined commitment to openness and transparency is transforming the delivery of government digital services in both countries.'
 ---
-by 18F
 <img src="/assets/blog/join-us/18f_govuk.png" alt="18F and GDS logos">
 
 A common misconception of open source is that it is just a licence for using software. For individuals and organizations involved with open source projects, it is a philosophy of openness and collaboration embedded in the project from idea to launch. Whether it’s designing an interface, or deploying an application, open source is fundamental to everything we do. Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and this commitment to openness and transparency is transforming the delivery of government digital services in both countries.

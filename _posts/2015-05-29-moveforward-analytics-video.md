@@ -2,7 +2,7 @@
 title: "Video: What happens when you collect .gov-wide analytics"
 date: 2015-05-29
 layout: post
-author:
+authors:
 - andre
 tags:
 - events
@@ -13,14 +13,7 @@ excerpt: "See the power of open data and open source software in this presentati
 description: "See the power of open data and open source software in this presentation about analytics.usa.gov from 18F’s Leah Bannon and Charles Worthington of the U.S. Digital Service."
 image: /assets/blog/dap/screen.png
 ---
-
-<p class="authors">
-  by {% author andre %}
-</p>
-
-<p><iframe width="800" height="450"
-src="https://www.youtube-nocookie.com/embed/GPUaUgjbbsA" frameborder="0"
-allowfullscreen\></iframe></p>
+{{ "https://www.youtube-nocookie.com/embed/GPUaUgjbbsA" | embed }}
 
 This month, the digital services family of U.S. Digital Services (USDS)
 Headquarters, 18F, Presidential Innovation Fellows, General Services

@@ -1,27 +1,19 @@
 ---
-title: "Labor Category Descriptions for Agile Procurements"
+title: "Labor category descriptions for agile procurements"
 layout: post
 image: ""
 date: 2015-03-10
 tags:
 - 18f
 - agile
-- procurements
+- procurement
 - how we work
 
-category:
-- Guides and Tutorials
-
-
-author:
+authors:
 - chrisc
 excerpt: "Clients of 18F Consulting frequently ask for help defining labor categories for agile contracts. We’ve published these definitions in a public GitHub repo so other acquisition professionals can benefit from them, too. Read on for more details."
 description: "Clients of 18F Consulting frequently ask for help defining labor categories for agile contracts. We’ve published these definitions in a public GitHub repo so other acquisition professionals can benefit from them, too. Read on for more details."
 ---
-
-<p class="authors">
-  by {% author chrisc %}
-</p>
 
 [18F Consulting](https://18f.gsa.gov/consulting/) provides hands-on consulting services to Federal leaders who need assistance in designing and managing software acquisitions that use modern development practices such as [user-centered design](https://18f.gsa.gov/2014/09/25/design-studio-onrr/), [agile](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/), and [open source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/). In short, think of us as your in-house technical brains for your next software acquisition.
 

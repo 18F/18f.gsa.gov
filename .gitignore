@@ -9,3 +9,12 @@ _data/private
 .*.sw?
 *.pyc
 .jekyll-metadata
+.floo*
+manifest-*.yml
+_team/greg.md
+_team/joe.md
+_team/majma.md
+_team/michelle.md
+_team/papazian.md
+_team/robert.md
+_team/sean.md

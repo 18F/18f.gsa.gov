@@ -1,7 +1,7 @@
 ---
-title: "Hackathons: Not Just For Folks Who Code"
+title: "Hackathons: not just for folks who code"
 layout: post
-author:
+authors:
 - kate
 tags:
 - hackathons
@@ -12,11 +12,7 @@ excerpt: "A few members of the 18F team recently published an excellent guide on
 description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 image: /assets/blog/how-to-github/image.jpg
 ---
-<p class="authors">
-  by {% author kate %}
-</p>
-A few weeks back, my colleague [Sarah
-Allen](https://twitter.com/ultrasaurus) asked me to volunteer at
+A few weeks back, my colleague [Sarah Allen](https://twitter.com/ultrasaurus) asked me to volunteer at
 [**GovTechHack**](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/),
 a hackathon in promotion of civic good. Stoked on lending a hand, I
 agreed, but I harbored secret concerns about the extent to which I’d be
@@ -34,7 +30,7 @@ volunteers and their larger communities. When people with diverse
 talents contribute to a unified cause, the outcome is more complex — and
 more likely to succeed.
 
-Getting Started
+Getting started
 ---------------
 
 My first night at the two-day event, I demoed
@@ -69,8 +65,7 @@ our team.”
 Like that, I’d found a way I could participate in the way I do best — by
 creating content.
 
-Increasing Involvement
------------------------
+## Increase involvement
 
 The next morning, coffee in hand, I wandered over to the Communicart
 station. Raphy paired me up with Brad, a sales rep for a major CRM
@@ -96,8 +91,8 @@ together and channeling the positive, competitive energy of the group,
 we’d made a meaningful contribution to Communicart — and, by extension,
 the government.
 
-Replicating the Good Vibes
---------------------------
+## Replicate the good vibes
+
 
 Perhaps my favorite part of this anecdote is that Brad’s and my
 experience is far from unique: Everywhere you go, you’ll find talented
@@ -127,8 +122,7 @@ a product lead at 18F, for generating this list of strategies.
 The following are our tips on including non-coders to your next
 hackathon.
 
-Tips for Hackathon Organizers
------------------------------
+## Tips for hackathon organizers
 
 ### Advertise to non-developers first
 

@@ -1,5 +1,5 @@
 ---
-title: "Making Twitter Images Accessible"
+title: "Making twitter images accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
 date: 2015-03-24
@@ -10,18 +10,10 @@ tags:
 authors:
 - melody
 
-category:
-- Accessibility
-
 
 excerpt: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 description: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 ---
-
-<p class="authors">
-  by {% author melody %}
-</p>
-
 Posting images on Twitter increases potential retweets by about 35%, according to [stats](https://blog.twitter.com/2014/what-fuels-a-tweets-engagement) published by Twitter. But posting images on Twitter raises interesting questions for accessibility; namely, there's no way to include alt-text in a Twitter image to capture what the image shows, which can be exclusionary for people with visual impairments or slow Internet connections.
 
 We think a lot about accessibility at 18F. We want to make sure any images we post to Twitter are as accessible as the images we post to our website. Last week, we started trying something that we think will help make images in our tweets much more accessible. We started responding to our Tweets containing images, with another tweet explaining what the image shows. Here’s an example:

@@ -1,7 +1,7 @@
 ---
 permalink: /pif/projects/
-layout: bare_pif
-title: Round 4 Projects
+redirect_to:
+  - https://presidentialinnovationfellows.gov/projects/
 ---
 <nav>
 	<ul class = "pif-nav-horizontal">

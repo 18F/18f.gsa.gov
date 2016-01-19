@@ -1,5 +1,5 @@
 ---
-title: "Flexibility When Releasing A New Product: Peace Corps' New Donations Platform"
+title: "Flexibility when releasing a new product: Peace Corps' new donations platform"
 date: '2015-04-09'
 layout: post
 image: /assets/blog/peacecorps/image04.png
@@ -11,10 +11,6 @@ authors:
 description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 excerpt: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 ---
-<p class="authors">
-    by {% author cm %}
-</p>
-
 ![Screenshot of workflow for new Peace Corps donation platform](/assets/blog/peacecorps/image04.png)
 
 We were proud to provide design and development work for the Peace
@@ -38,8 +34,7 @@ call and look at other decisions which still keep us up at night. By
 highlighting some of the bigger (and more contentious) decision points,
 we hope we can help inform your next project(s), as well as our own.
 
-Progressive Enhancement
------------------------
+## Progressive enhancement
 
 Our effort to refresh the Peace Corps' donations platform stemmed from
 many goals, such as highlighting volunteer stories (to humanize the
@@ -72,7 +67,7 @@ re-prioritizing allowed us to make the product better on the whole.
 In another situation, starting with a simple solution ultimately led us
 down a worse path. Our most complex user interaction offers multiple
 filters and categorization mechanisms for selecting how a user's
-donation will be used by the Peace Corps Volunteers. A reasonable
+donation will be used by the Peace Corps volunteers. A reasonable
 technical architecture for this sort of page would involve asynchronous
 requests, where data is transmitted in chunks instead of in one large
 block, so that the browser only loads what is needed. We chose to start
@@ -87,8 +82,7 @@ later added additional patches to minimize redundant markup. We're still
 not where we should be with regards to site load time because our
 initial approach was too simplistic.
 
-Zero Downtime and Caching Overkill
--------------
+## Zero downtime and caching overkill
 
 During our early planning phases, we were informed there might be a
 couple concurrent announcements by the Peace Corps which could drive
@@ -121,8 +115,7 @@ the beefy implementation was overkill. If we had instead started with a
 simpler vision, we would have simpler configuration, leaving less room
 for confusion and waste.
 
-Cutting Features
-----------------
+## Cutting features
 
 Replacing legacy (existing, outdated) systems is always a challenge. Not
 only do we need to find all of the technical boundaries, we are also
@@ -155,8 +148,7 @@ search feature in the backlog (a holding area for features not actively
 planned). When it came time to release, the feature was still not
 present. Time will tell whether this tradeoff was worthwhile.
 
-The Road Ahead
---------------
+## The road ahead
 
 We will no doubt see more dividends and costs associated with our
 technical choices in the coming months, but we have pulled out the above
