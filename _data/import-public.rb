@@ -36,15 +36,18 @@ def add_files_for_new_team_members
 
   team_json_data.each do |team_member_data|
     if team_member_data["deprecated_name"]
-      team_member_name = team_member_data["deprecated_name"].gsub('.','-')
+      team_member_name = team_member_data["deprecated_name"].tr(".", "-")
     else
-      team_member_name = team_member_data["name"].gsub('.','-')
+      team_member_name = team_member_data["name"].tr(".", "-")
     end
     team_member_file_path = File.join(TEAM_DIR, "#{team_member_name}.md")
-    ignored = File.readlines('.gitignore')
-    unless File.exist?(team_member_file_path) || ignored.index(team_member_file_path)
+    ignored = File.readlines(".gitignore").index(team_member_file_path)
+    exists = File.exist?(team_member_file_path)
+    unless ignored.nil?
+      next
+    end
+    unless  exists
       markdown_data = format_team_member_json_for_markdown(team_member_data)
-
       File.write(team_member_file_path, markdown_data)
     end
   end
