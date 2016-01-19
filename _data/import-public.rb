@@ -4,6 +4,7 @@
 
 require "open-uri"
 require "json"
+require "safe_yaml"
 
 DATA_DIR = File.dirname __FILE__
 TEAM_DIR = "_team"
@@ -35,10 +36,14 @@ def add_files_for_new_team_members
   team_json_data = JSON.parse(team_data)["results"]
 
   team_json_data.each do |team_member_data|
-    team_member_name = team_member_data["name"]
+    if team_member_data["deprecated_name"]
+      team_member_name = team_member_data["deprecated_name"].gsub('.','-')
+    else
+      team_member_name = team_member_data["name"].gsub('.','-')
+    end
     team_member_file_path = File.join(TEAM_DIR, "#{team_member_name}.md")
-
-    unless File.exist?(team_member_file_path)
+    ignored = File.readlines('.gitignore')
+    unless File.exist?(team_member_file_path) || ignored.index(team_member_file_path)
       markdown_data = format_team_member_json_for_markdown(team_member_data)
 
       File.write(team_member_file_path, markdown_data)
