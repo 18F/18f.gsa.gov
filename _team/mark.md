@@ -1,10 +1,10 @@
 ---
 city:
-first_name:
+first_name: Mark
 full_name: Mark Nejbauer
 github:
-last_name:
-name: mark-nejbauer
+last_name: Nejbauer
+name: mark
 role:
 state:
 team:
