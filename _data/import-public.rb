@@ -34,12 +34,11 @@ end
 def add_files_for_new_team_members
   team_json_data = JSON.parse(team_data)["results"]
 
-  team_json_data.each do |team_member_data|
-    if team_member_data["deprecated_name"]
-      team_member_name = team_member_data["deprecated_name"].tr(".", "-")
-    else
-      team_member_name = team_member_data["name"].tr(".", "-")
+  team_json_data.each do |person|
+    unless team_member_name = person["deprecated_name"].tr(".", "-")
+      team_member_name = person["name"].tr(".", "-")
     end
+    puts(team_member_name)
     team_member_file_path = File.join(TEAM_DIR, "#{team_member_name}.md")
     ignored = File.readlines(".gitignore").index(team_member_file_path)
     exists = File.exist?(team_member_file_path)
