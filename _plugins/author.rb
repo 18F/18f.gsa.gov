@@ -14,7 +14,6 @@ module Jekyll
 
       if teammate
         "<span class=\"author #{teammate['name']}\">" +
-          # "<img src=\"/assets/images/team/#{teammate['name']}.jpg\" />" +
           "#{teammate['full_name']}" +
         "</span>"
       else
