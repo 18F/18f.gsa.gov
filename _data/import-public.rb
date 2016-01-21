@@ -34,13 +34,19 @@ end
 def add_files_for_new_team_members
   team_json_data = JSON.parse(team_data)["results"]
 
-  team_json_data.each do |team_member_data|
-    team_member_name = team_member_data["name"]
+  team_json_data.each do |person|
+    unless team_member_name = person["deprecated_name"].tr(".", "-")
+      team_member_name = person["name"].tr(".", "-")
+    end
+    puts(team_member_name)
     team_member_file_path = File.join(TEAM_DIR, "#{team_member_name}.md")
-
-    unless File.exist?(team_member_file_path)
+    ignored = File.readlines(".gitignore").index(team_member_file_path)
+    exists = File.exist?(team_member_file_path)
+    unless ignored.nil?
+      next
+    end
+    unless  exists
       markdown_data = format_team_member_json_for_markdown(team_member_data)
-
       File.write(team_member_file_path, markdown_data)
     end
   end
