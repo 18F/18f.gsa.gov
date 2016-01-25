@@ -18,7 +18,7 @@ What is user story estimation?
 
 A user story is a description of value to be delivered to a user, and an
 estimate is an educated guess as to how much effort it will take for a
-team to deliver that value. Our team uses a fibonacci point system to
+team to deliver that value. Our team uses a Fibonacci point system to
 estimate the size of that effort. The values are 1, 2, 3 or 5, with 1
 representing the smallest chunk of work, and 2, 3 and 5 representing
 multiples of that smallest unit ([why is the 4
