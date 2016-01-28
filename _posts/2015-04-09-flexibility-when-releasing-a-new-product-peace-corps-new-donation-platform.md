@@ -11,7 +11,7 @@ authors:
 description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 excerpt: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 ---
-![Screenshot of workflow for new Peace Corps donation platform](/assets/blog/peacecorps/image04.png)
+![Screenshot of workflow for new Peace Corps donation platform]({{site.baseurl}}/assets/blog/peacecorps/image04.png)
 
 We were proud to provide design and development work for the Peace
 Corps' new [donations platform](https://beta.peacecorps.gov/donate/)
@@ -47,7 +47,7 @@ user found a compelling story, they could select a donation amount
 in-line, turning what used to be a four-step process into a single
 click.
 
-![screenshot: workflow of donation pathways on Peace Corps site](/assets/blog/peacecorps/image03.png)
+![screenshot: workflow of donation pathways on Peace Corps site]({{site.baseurl}}/assets/blog/peacecorps/image03.png)
 
 Our ideal interface would have been a seamless user experience, but once
 scoped would have required a heavy lift from our front end and
@@ -96,7 +96,7 @@ kicked out every five minutes while other pages are generated hourly.
 With several machines primed and auto-scaling capability, we expected to
 handle dozens of requests per second.
 
-![screenshot of donation platform for Peace Corps birding for conservation project](/assets/blog/peacecorps/image00.png)
+![screenshot of donation platform for Peace Corps birding for conservation project]({{site.baseurl}}/assets/blog/peacecorps/image00.png)
 
 After reviewing the numbers from Peace Corps' media blitz in early
 March, we know that part of our calculus was correct — S3 and CloudFront
@@ -127,7 +127,7 @@ legacy system also provided a search engine, allowing users to find
 funds based on keywords. One of these features would make it to launch
 but the other would not.
 
-![Screenshot: product backlog for Peace Corps sprints](/assets/blog/peacecorps/image02.png)
+![Screenshot: product backlog for Peace Corps sprints]({{site.baseurl}}/assets/blog/peacecorps/image02.png)
 
 
 We pushed hard to cut as many fields as possible from the donor form,

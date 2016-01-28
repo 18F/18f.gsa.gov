@@ -54,7 +54,7 @@ topic. With the help of dedicated subject matter experts, we looked at
 the existing content and condensed it for today’s release. We started
 with about 16,000 words. What launched today is fewer than 4,000.
 
-[![The new registration and reporting page](/assets/blog/fec/registration-reporting.jpg)](https://beta.fec.gov/registration-and-reporting/)
+[![The new registration and reporting page]({{site.baseurl}}/assets/blog/fec/registration-reporting.jpg)](https://beta.fec.gov/registration-and-reporting/)
 
 Site visitors can read about registration and reporting as well as view
 the different types of registrants — including candidates, political
@@ -69,7 +69,7 @@ reports, and more.
 Eventually, we’ll launch an essentials checklist for every type of FEC
 registrant.
 
-[![The new checklist for what you need to do to register with the FEC](/assets/blog/fec/checklist.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
+[![The new checklist for what you need to do to register with the FEC]({{site.baseurl}}/assets/blog/fec/checklist.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
 
 Plain language was an important goal for this project. It lowers the bar
 of entry for readers — we don’t want folks to **need** a lawyer just to
@@ -86,7 +86,7 @@ Even so, we didn’t want our readers to get lost navigating the site. A
 glossary tool allows readers to click an icon next to legal terms and
 read the definition.
 
-[![The new integrated glossary in action on betafec.gov](/assets/blog/fec/glossary.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
+[![The new integrated glossary in action on betafec.gov]({{site.baseurl}}/assets/blog/fec/glossary.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
 
 What folks are saying
 ---------------------

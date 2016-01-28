@@ -15,7 +15,7 @@ lands and water for a full year. Here at 18F, we were proud to develop the site 
 image: /assets/blog/every-kid-in-a-park/every-kid-in-a-park.jpg
 ---
 
-[![Two students hold up their Every Kid in a Park passes](/assets/blog/every-kid-in-a-park/every-kid-in-a-park.jpg)](https://www.flickr.com/photos/usinterior/20900647896/in/album-72157657833038461/)
+[![Two students hold up their Every Kid in a Park passes]({{site.baseurl}}/assets/blog/every-kid-in-a-park/every-kid-in-a-park.jpg)](https://www.flickr.com/photos/usinterior/20900647896/in/album-72157657833038461/)
 *Students from Samuel W. Tucker Elementary School receive an Every Kid
 in a Park pass. Photo credit: Department of Interior.*
 
@@ -84,7 +84,7 @@ photos, to the text on every page. Even the information for parents and
 teachers was designed to be understandable for our primary users
 — fourth graders.
 
-![Children and adults sit around a large piece of paper while co-designing the Every Kid in a Park website.](/assets/blog/every-kid-in-a-park/ekip-user-testing.jpg)
+![Children and adults sit around a large piece of paper while co-designing the Every Kid in a Park website.]({{site.baseurl}}/assets/blog/every-kid-in-a-park/ekip-user-testing.jpg)
 *Sally Jewell, Secretary of the U.S. Department of the Interior, sits with kids as they help co-design the Every Kid in a Park website using methods developed by the University of Maryland Human Computer Interaction KidsTeam Lab. Photo Credit: Evan Golub, 2015.*
 
 ## Building a site for kids has unique challenges

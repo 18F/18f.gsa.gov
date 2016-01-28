@@ -12,7 +12,7 @@ excerpt: "Today marks the launch of the FEC’s first API. With that API, search
 description: "Today marks the launch of the FEC’s first API. With that API, searching for candidates and committees will be easier and more interactive."
 image: /assets/blog/openfec-api/openfec-banner.jpg
 ---
-![The OpenFEC banner](/assets/blog/openfec-api/openfec-banner.jpg)
+![The OpenFEC banner]({{site.baseurl}}/assets/blog/openfec-api/openfec-banner.jpg)
 
 The Federal Election Commission (FEC) empowers citizens with the
 information they need to make informed decisions about their democracy.

@@ -14,7 +14,7 @@ description: "Conventional wisdom often encourages engineers to start with a big
 image: /assets/blog/design-over-architecture/architecture-overview.jpg
 ---
 
-![A comical sketch of an architectural overview of a coding project](/assets/blog/design-over-architecture/architecture-overview.jpg)
+![A comical sketch of an architectural overview of a coding project]({{site.baseurl}}/assets/blog/design-over-architecture/architecture-overview.jpg)
 
 Conventional wisdom often encourages engineers to start with a big
 architectural overview. Services with databases are connected via lines
@@ -52,7 +52,7 @@ technical debt.
 
 ## Starting from user stories and user experience
 
-![A user story generating architecture organically.](/assets/blog/design-over-architecture/user-story-architecture.jpg)
+![A user story generating architecture organically.]({{site.baseurl}}/assets/blog/design-over-architecture/user-story-architecture.jpg)
 *A user story generating architecture organically.*
 
 [User stories](https://en.wikipedia.org/wiki/User_story) are simple
@@ -121,7 +121,7 @@ design process, software design.
 
 ## Keeping our code from becoming a structureless mess
 
-![Without good software design techniques, your code can become a mess as you fulfill more user stories.](/assets/blog/design-over-architecture/messy-code.jpg)
+![Without good software design techniques, your code can become a mess as you fulfill more user stories.]({{site.baseurl}}/assets/blog/design-over-architecture/messy-code.jpg)
 *Without good software design techniques, your code can become a mess as you fulfill more user stories.*
 
 Without a guiding architectural map, how does a team keep the code clean
@@ -158,7 +158,7 @@ Seemingly since the dawn of programming, engineers have been concerned
 with making code more modular and flexible. In that time, we have
 developed great guiding principles.
 
-![Using refactoring to impose design on the chaos that happens with continual development](/assets/blog/design-over-architecture/refactoring.jpg)
+![Using refactoring to impose design on the chaos that happens with continual development]({{site.baseurl}}/assets/blog/design-over-architecture/refactoring.jpg)
 *Using refactoring to impose design on the chaos that happens with continual development.*
 
 ### SOLID

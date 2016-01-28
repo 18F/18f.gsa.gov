@@ -17,7 +17,7 @@ description: "18F has been working on reducing the costs of entry to the cloud a
 image: /assets/blog/avoiding-cloudfall/cloudfall.jpg
 ---
 
-![A waterfall over rocks.](/assets/blog/avoiding-cloudfall/cloudfall.jpg)
+![A waterfall over rocks.]({{site.baseurl}}/assets/blog/avoiding-cloudfall/cloudfall.jpg)
 *Source: [Recreation.gov Instagram](https://instagram.com/p/pZFSh0ivJe/)*
 
 In 2011, the [White House recognized](https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/federal-cloud-computing-strategy.pdf)

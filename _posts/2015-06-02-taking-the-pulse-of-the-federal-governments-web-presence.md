@@ -20,7 +20,7 @@ The U.S. federal government is launching a new project to monitor how it's doing
 
 A sort of health monitor for the U.S. government's websites, it's called **[Pulse](https://pulse.cio.gov)**, and you can find it at **[pulse.cio.gov](https://pulse.cio.gov)**.
 
-[![pulse homepage](/assets/blog/pulse/pulse.png)](https://pulse.cio.gov)
+[![pulse homepage]({{site.baseurl}}/assets/blog/pulse/pulse.png)](https://pulse.cio.gov)
 
 [Pulse](https://pulse.cio.gov) is a lightweight dashboard that uses the [official .gov domain list](https://github.com/GSA/data/blob/gh-pages/dotgov-domains/2015-03-15-federal.csv) to measure two things:
 
@@ -33,7 +33,7 @@ The project will hopefully expand over time to measure more best practices and m
 
 ## Background
 
-[![pulse screenshot of analytics](/assets/blog/pulse/analytics-agencies.png)](https://pulse.cio.gov/analytics/agencies/)
+[![pulse screenshot of analytics]({{site.baseurl}}/assets/blog/pulse/analytics-agencies.png)](https://pulse.cio.gov/analytics/agencies/)
 
 Pulse is a collaboration between 18F and the [Office of Government-wide Policy](http://www.gsa.gov/portal/content/104550) (OGP).
 
@@ -43,7 +43,7 @@ Like 18F, OGP is an office of the U.S. General Services Administration. Among ma
 
 ## How pulse.cio.gov works
 
-[![pulse screenshot of https](/assets/blog/pulse/https-agencies.png)](https://pulse.cio.gov/https/agencies/)
+[![pulse screenshot of https]({{site.baseurl}}/assets/blog/pulse/https-agencies.png)](https://pulse.cio.gov/https/agencies/)
 
 Pulse was created in around six weeks. We built the project [in the open from Day 1](https://github.com/18f/pulse), obtained our domain name and relevant cybersecurity approvals in our first couple weeks, and released new versions of the dashboard to [pulse.cio.gov](https://pulse.cio.gov) early and often throughout the process.
 
@@ -64,7 +64,7 @@ The process is not fully automated, and so Pulse isn't updated every day. There'
 
 ## Measuring participation in the Digital Analytics Program
 
-[![pulse screenshot of analytics homepage](/assets/blog/pulse/analytics.png)](https://pulse.cio.gov/analytics/domains/)
+[![pulse screenshot of analytics homepage]({{site.baseurl}}/assets/blog/pulse/analytics.png)](https://pulse.cio.gov/analytics/domains/)
 
 The [Digital Analytics Program](https://www.digitalgov.gov/services/dap/) is a free, shared web analytics service for U.S. federal agencies.
 
@@ -72,13 +72,13 @@ To participate, agencies place some JavaScript on their websites that report to 
 
 Access to the account is shared within the federal government, and much of its data is shared publicly on [analytics.usa.gov](https://analytics.usa.gov/). The Digital Analytics Program also regularly publishes a list of around 4,000 participating websites that have reported visitor data in the preceding 2 weeks.
 
-[![pulse screenshot of analytics domains](/assets/blog/pulse/analytics-domains.png)](https://pulse.cio.gov/analytics/domains/)
+[![pulse screenshot of analytics domains]({{site.baseurl}}/assets/blog/pulse/analytics-domains.png)](https://pulse.cio.gov/analytics/domains/)
 
 Pulse measures participation in the simplest way possible: by comparing the .gov domain list to the list of participating websites published by the Digital Analytics Program. It's not rocket science, but in the future we'd like to automate this process using the [`analytics-reporter`](https://github.com/18F/analytics-reporter) tool [we created for analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/).
 
 ## Measuring HTTPS in .gov
 
-[![pulse screenshot of https homepage](/assets/blog/pulse/https.png)](https://pulse.cio.gov/https/domains/)
+[![pulse screenshot of https homepage]({{site.baseurl}}/assets/blog/pulse/https.png)](https://pulse.cio.gov/https/domains/)
 
 Enforcing strong HTTPS is an [important baseline](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) for government websites, and is in the [process](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/) of [becoming](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure) the baseline for the web at large.
 
@@ -86,7 +86,7 @@ HTTPS is simple enough to detect, but characterizing HTTPS support for a domain,
 
 We lean heavily on the open source [`site-inspector`](https://github.com/benbalter/site-inspector), a command line tool written in Ruby. `site-inspector` measures various useful things about websites, and was originally written by Ben Balter to [analyze .gov domains](http://ben.balter.com/2015/05/11/third-analysis-of-federal-executive-dotgovs/).
 
-[![pulse screenshot of https domains](/assets/blog/pulse/https-domains.png)](https://pulse.cio.gov/https/domains/)
+[![pulse screenshot of https domains]({{site.baseurl}}/assets/blog/pulse/https-domains.png)](https://pulse.cio.gov/https/domains/)
 
 To get the precision we wanted, we needed to take into account several subtle things about domains:
 

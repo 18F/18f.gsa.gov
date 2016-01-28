@@ -10,7 +10,7 @@ layout: bare
     {% for post in page.posts %}
         <article class="tag-index">
           <div class="blog-title">
-            <h1 itemprop="headline" class="h4"><a class="link-alt" href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h1 itemprop="headline" class="h4"><a class="link-alt" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
           </div>
 
           <div class="blog-meta">
@@ -24,7 +24,7 @@ layout: bare
               Tagged /
               <span class="blog-tags" itemprop="keywords">
                 {% for tag in post.tags %}
-                  <a href="/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}</a>
+                  <a href="{{site.baseurl}}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}</a>
                   /
                 {% endfor %}
               </span>
@@ -37,7 +37,7 @@ layout: bare
           </div>
 
           <div class="blog-continue">
-            <p><a href="{{ post.url }}">Continue reading this post...</a></p>
+            <p><a href="{{ site.baseurl }}{{ post.url }}">Continue reading this post...</a></p>
           </div>
         </article>
 
