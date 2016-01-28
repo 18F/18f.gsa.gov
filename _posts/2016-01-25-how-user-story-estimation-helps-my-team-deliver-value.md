@@ -1,6 +1,6 @@
 ---
 title: "How user story estimation helps my team deliver value"
-date: 2016-01-22
+date: 2016-01-25
 authors:
 - michael-torres
 tags:
