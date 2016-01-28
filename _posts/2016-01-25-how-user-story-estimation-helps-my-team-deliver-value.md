@@ -1,6 +1,6 @@
 ---
 title: "How user story estimation helps my team deliver value"
-date: 2016-01-22
+date: 2016-01-25
 authors:
 - michael-torres
 tags:
@@ -26,7 +26,7 @@ missing?](http://www.the-program-manager.com/project-management/agile-estimating
 
 A 1 may be a user story where effort is really well understood, like “So
 that this user can navigate back to a homepage, a breadcrumb link to the
-homepage should be added”. A 5 might be something that is not as clear,
+homepage should be added.” A 5 might be something that is not as clear,
 but the effort is still somewhat understood. For example, “So that team
 member details can be updated automatically, they should be pulled in
 via an API (that already exists).” There will be more work involved with
@@ -54,7 +54,7 @@ quickly, which then allows us to iterate in the right direction.
 
 I work on a team at 18F responsible for content and information
 platforms. The majority of the team came together after the initial
-codebase was written, so when we first starting working together, it was
+codebase was written, so when we first started working together, it was
 hard to guess how much effort it would take us to complete a given user
 story. We’re still frequently off base, but the act of estimating has
 helped us identify unknowns, so that we can slowly reduce their effect
@@ -62,9 +62,9 @@ through automated testing and documentation. Recently, we realized that
 our estimates around our API work were frequently way off base. This
 forced us to prioritize refactoring — or rewriting — the code, testing,
 and beefing up our documentation. This will slow feature progress in the
-short-term but will make us move faster in the long term.
+short term but will make us move faster in the long term.
 
-Though our estimations will never be 100 percent accurate, we already
+Although our estimations will never be 100 percent accurate, we already
 feel that our knowledge level around the codebase is improving, and the
 unknowns are becoming less of an issue. And we’re documenting everything
 so that we, and any new team members, will have an easier time getting
