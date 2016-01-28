@@ -2,7 +2,7 @@
 .DS_Store
 /todo.txt
 *.log
-/node_modules
+node_modules/
 /.sass-cache/
 .rvmrc
 _data/private
