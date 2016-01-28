@@ -23,7 +23,7 @@ tags:
 
 There are a lot of `.gov` domains: over 5,300 of them. About 1,300 of these are used by the federal government's executive, legislative, and judicial branches. The rest are spread across states, territories, counties, cities, and native tribes.
 
-For a while now, the public has been able to download a dataset of the [roughly 1,200 .gov domains used by the federal executive branch](https://catalog.data.gov/dataset/gov-domains-api) from [data.gov](https://www.data.gov), the nation's data catalog.
+For a while now, the public has been able to download a dataset of the [roughly 1,200 .gov domains used by the federal executive branch](https://catalog.data.gov/dataset/gov-domains-api-c9856) from [data.gov](https://www.data.gov), the nation's data catalog.
 
 We're happy to say that the `.gov` registry is now releasing the **entire set of 5,300 `.gov` domains**, including those outside of the federal executive branch.
 
