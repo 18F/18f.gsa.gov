@@ -18,7 +18,7 @@ project from scratch."
 image: /assets/blog/federalist/federalist-screenshot.jpg
 ---
 
-![A screenshot of the Federalist homepage](/assets/blog/federalist/federalist-screenshot.jpg)
+![A screenshot of the Federalist homepage]({{site.baseurl}}/assets/blog/federalist/federalist-screenshot.jpg)
 
 We recently [launched a
 site](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/) using

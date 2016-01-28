@@ -26,11 +26,11 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ## Accessibility
 
-*[The White House Office of Science and Technology Policy](https://www.whitehouse.gov/administration/eop/ostp), [18F](/), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
+*[The White House Office of Science and Technology Policy](https://www.whitehouse.gov/administration/eop/ostp), [18F]({{site.baseurl}}/), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
 
 “I loved organizing the accessibility hackathon and it’s been a blast working on the [micropurchase experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) and the [Agile BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) work.” - **Alan deLevie**
 
-![The crowd at the hackathon](/assets/blog/a11yhack/a11yhack.jpg)
+![The crowd at the hackathon]({{site.baseurl}}/assets/blog/a11yhack/a11yhack.jpg)
 _Photo: Jameson Dempesy_
 
 ## Blog
@@ -47,7 +47,7 @@ _Photo: Jameson Dempesy_
 
 “I thoroughly enjoyed helping agencies get their .gov domains hardcoded into browsers as secure.“ - **Eric Mill**
 
-![Snapshot of the first HSTS preloaded government domains.](/assets/blog/hsts/hsts-preload-list.png)
+![Snapshot of the first HSTS preloaded government domains.]({{site.baseurl}}/assets/blog/hsts/hsts-preload-list.png)
 _Since we wrote about it in February, 14 more.gov domains have been fully preloaded._
 
 ## Diversity Working Group
@@ -70,7 +70,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “I feel honored to be part of the analytics.usa.gov team every time I see another government office use our open source project to make their analytics data publicly available.” - **Gabriel Ramirez**
 
-![The analytics.usa.gov homepage.](/assets/blog/dap/analytics-homepage.jpg)
+![The analytics.usa.gov homepage.]({{site.baseurl}}/assets/blog/dap/analytics-homepage.jpg)
 
 ### betaFEC
 
@@ -80,7 +80,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “I loved working on the team that helped make betaFEC. It was especially exciting to help our partners at the FEC find how they wanted to express their agency through a modernized web experience, and build an updated look and feel with them.” - **Jennifer Thibault**
 
-![The betaFEC glossary](/assets/blog/fec/glossary.jpg)
+![The betaFEC glossary]({{site.baseurl}}/assets/blog/fec/glossary.jpg)
 
 ### CALC
 
@@ -88,7 +88,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “Working on [CALC](https://calc.gsa.gov/ "The CALC Tool") was meaningful to me, because I know it is saving people hours of work every week, and saving the taxpayers millions of dollars.” - **Nick Brethauer**
 
-![The CALC homepage](/assets/blog/calc-announcement/calc_homepage.jpg)
+![The CALC homepage]({{site.baseurl}}/assets/blog/calc-announcement/calc_homepage.jpg)
 
 ### cloud.gov
 
@@ -102,7 +102,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “Many of us have experienced firsthand how security compliance requirements may hinder the government's ability to ship new projects. I'm proud to be working on methods for accelerating the compliance process in the open and excited to see the support and contributions of the open source community.” - **Gabriel Ramirez**
 
-![The cloud.gov homepage](/assets/blog/cloud-gov/cloud-gov-homepage.jpg)
+![The cloud.gov homepage]({{site.baseurl}}/assets/blog/cloud-gov/cloud-gov-homepage.jpg)
 
 ### College Scorecard
 
@@ -110,7 +110,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “I really enjoyed working with USDS, 18F and the Department of Education on [https://collegescorecard.ed.gov](https://collegescorecard.ed.gov) because it demonstrated how multiple agencies can come together to build something great." - **Ozzy Johnson**
 
-![Paper prototype testing the college scorecard](/assets/blog/college-scorecard/college-scorecard-3.jpg)
+![Paper prototype testing the college scorecard]({{site.baseurl}}/assets/blog/college-scorecard/college-scorecard-3.jpg)
 
 ### DATA Act
 
@@ -118,7 +118,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 “The best thing I worked on was the DATA Act. In 2012, I first wrote about DATA Act. In 2013, I visited my reps on Capitol Hill about voting for it. In 2014, I went to the Treasury’s federal spending data town hall and kvetched about poor data quality. And then in 2015, I worked with those same Treasury folks to get it fixed.” - **Becky Sweger**
 
-![Diagram of government appropriation reporting](/assets/blog/data-act-implementation/data-act-reporting.jpg)
+![Diagram of government appropriation reporting]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-reporting.jpg)
 _Image courtesy of the [Data Transparency Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)_
 
 ### Draft U.S. Web Design Standards
@@ -133,7 +133,7 @@ _Image courtesy of the [Data Transparency Coalition](http://www.datacoalition.or
 
 “I’m proud to have [started a project](http://github.com/18F/web-design-standards-drupal "A Drupal Theme") that will make the U.S. \[Draft\] Web Design Standards easier to use for the >25% of U.S. government websites that run on Drupal. I’m working with members of the larger Drupal community as well as people in government to help these standards scale without the need for custom development.” — **Rhys Fureigh**
 
-![The web design standards on multiple sizes of screen](/assets/blog/web-design-standards/home.png)
+![The web design standards on multiple sizes of screen]({{site.baseurl}}/assets/blog/web-design-standards/home.png)
 _The U.S. Web Design Standards are designed to be viewed on any device._
 
 ### U.S. Extractive Industries Transparency Initiative
@@ -142,7 +142,7 @@ _The U.S. Web Design Standards are designed to be viewed on any device._
 
 “EITI reports have traditionally been thick, printed PDFs full of statistics, meant for a specialist audience. It was so great to be a part of the U.S. process that is leading the world in making this data available online along with tons of rich contextual information to make it understandable.” - **Michelle Hertzfeld**
 
-![A map of the U.S. visualizing federal natural resource revenues](/assets/blog/eiti/fed-revenues.png)
+![A map of the U.S. visualizing federal natural resource revenues]({{site.baseurl}}/assets/blog/eiti/fed-revenues.png)
 
 ### Every Kid in a Park
 
@@ -152,7 +152,7 @@ _The U.S. Web Design Standards are designed to be viewed on any device._
 
 “Working on the content design for Every Kid in a Park reminded me that government websites **can** be joyful, inclusive, and easy to read.” - **Emileigh Barnes**
 
-![The kid-friendly 404 page for everykidinapark.gov](/assets/blog/every-kid-in-a-park/404.png)
+![The kid-friendly 404 page for everykidinapark.gov]({{site.baseurl}}/assets/blog/every-kid-in-a-park/404.png)
 _The Every Kid in a Park 404, not found page, designed for fourth graders._
 
 ### Federalist
@@ -165,7 +165,7 @@ _The Every Kid in a Park 404, not found page, designed for fourth graders._
 
 “I’m really proud of the work I did on Federalist because it helped streamline the launch of sites that addressed [college affordability data](https://collegescorecard.ed.gov/ "College Scorecard") and the [quantity of natural resources being extracted from federal lands](https://useiti.doi.gov/ "USEITI").” - **Jeremia Kimelman**
 
-![The Social and Behavior Sciences homepage](/assets/blog/federalist/sbst-screenshot-2.jpg)
+![The Social and Behavior Sciences homepage]({{site.baseurl}}/assets/blog/federalist/sbst-screenshot-2.jpg)
 _The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 ### SBIR-EZ
@@ -180,7 +180,7 @@ _The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 “I really enjoyed partnering with US Treasury to [craft the digital strategy](https://18f.gsa.gov/2015/07/17/the-new-10/ "18F: The new 10") for #TheNew10. We're putting a woman on the $10 bill!" - **Kara DeFrias**
 
-![The new $10 homepage](/assets/blog/the-new-10/the-new-10.jpg)
+![The new $10 homepage]({{site.baseurl}}/assets/blog/the-new-10/the-new-10.jpg)
 
 ### USCIS
 
@@ -188,7 +188,7 @@ _The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 “This year I made [an account system](http://myaccount.uscis.dhs.gov/ "My Account, MyUSCIS") that helps immigrants keep their information up to date. It now has hundreds of thousands of users.” - **Sasha Magee**
 
-![The MyUSCIS homepage](/assets/blog/myuscis/myuscis.jpg)
+![The MyUSCIS homepage]({{site.baseurl}}/assets/blog/myuscis/myuscis.jpg)
 
 ## Guides, resources, and tools
 
@@ -200,7 +200,7 @@ _The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 “The first thing I worked on at 18F was the Design Methods. Teaching tools of great design has been part of this job since I started, which means ​learning​ tools of great design has been part of this job since I started. I’ve never learned so much in such a small amount of time.” - **James Hupp**
 
-![The method cards](/assets/blog/design-method-cards/method-cards-banner.jpg)
+![The method cards]({{site.baseurl}}/assets/blog/design-method-cards/method-cards-banner.jpg)
 _The 18F Design Method cards are open source to download and print off._
 
 ### Partnership Playbook
@@ -239,7 +239,7 @@ _The 18F Design Method cards are open source to download and print off._
 
 “I've spent the last few months working with the pesticides division of the EPA, helping them modernize the way that pesticide labels are accessed and analyzed by inspectors. Pesticide labels are a surprisingly complex and important thing to get right, because when they're wrong people can (and do) die. Bringing modern technology into the work the field inspectors do every single day is going to significantly improve their ability to do their job, and I feel incredibly lucky to get to help with that and know that what I'm doing could genuinely help save lives.” - **Lane Becker**
 
-![A group of government executives playing with legos.](/assets/blog/lego-workshop/sba-execs-legos.jpg)
+![A group of government executives playing with legos.]({{site.baseurl}}/assets/blog/lego-workshop/sba-execs-legos.jpg)
 _We spent 90 minutes working with legos to teach the Small Business Administration agile development._
 
 ### Process and documentation
@@ -258,7 +258,7 @@ _We spent 90 minutes working with legos to teach the Small Business Administrati
 
 “I think the best thing that I've made this year has been the Official Guide to Travel at 18F. Taking on the complexity of Concur and the rules of government travel and splitting them into manageable steps seems to have reduced confusion as well as the amount of time spent helping people stuck in various parts of the process. I'm excited to continue the work in 2016, pinpointing the remaining areas of confusion and improving the Guide to address those.” - **Ethan Heppner**
 
-![A test conversation with Dolores Landingham](/assets/blog/onboarding/dolores.jpg)
+![A test conversation with Dolores Landingham]({{site.baseurl}}/assets/blog/onboarding/dolores.jpg)
 
 ### Growing our team
 

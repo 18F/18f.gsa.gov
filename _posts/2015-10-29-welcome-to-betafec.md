@@ -13,7 +13,7 @@ description: "As the 2016 presidential election heats up, here at 18F we’ve be
 excerpt: "As the 2016 presidential election heats up, here at 18F we’ve been working with the Federal Election Commission (FEC) to make campaign finance data more accessible to the public. Today, we launched betaFEC, the first piece in a complete redesign of the FEC’s online presence."
 ---
 
-[![The betaFEC homepage.](/assets/blog/fec/beta-fec-home.gif)](https://beta.fec.gov)
+[![The betaFEC homepage.]({{site.baseurl}}/assets/blog/fec/beta-fec-home.gif)](https://beta.fec.gov)
 
 As the 2016 presidential election heats up, here at 18F we’ve been
 working with the Federal Election Commission (FEC) to make campaign

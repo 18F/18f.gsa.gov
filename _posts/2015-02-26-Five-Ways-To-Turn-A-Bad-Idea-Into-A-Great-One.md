@@ -15,7 +15,7 @@ excerpt: "Last Friday, consultant and author Steve Portigal left behind the Cali
 description: "Last Friday, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
 ---
 
-![Steve Portigal presenting at 18F](/assets/blog/portigal-event-image/portigalevent.jpg)
+![Steve Portigal presenting at 18F]({{site.baseurl}}/assets/blog/portigal-event-image/portigalevent.jpg)
 
 Last Friday, consultant and author [Steve Portigal](http://www.portigal.com/) left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out.
 
@@ -31,7 +31,7 @@ As Steve himself describes in a post he wrote for [Core77](http://www.core77.com
 
 “Creative activities often follow a double-hump model. At first you'll hit all the obvious ideas. These aren't a waste of time; sometimes the obvious ideas have been neglected and you can treat those as low-hanging fruit: obvious, easy to implement, incremental improvement. But you'll find that you run out of steam with those ideas. Like the false ending in a '80s rock song, don't think this fadeout means it's time to start applauding. There's still more. Push on, and this is when you get to the transgressive, weird, crazy and sometimes innovative ideas. That's the place you want to get to, where you are truly butting up against the edges of what's allowable.”
 
-![The double-hump model](/assets/blog/portigal-event-image/2humps.jpg)
+![The double-hump model]({{site.baseurl}}/assets/blog/portigal-event-image/2humps.jpg)
 
 ## A safe space is necessary for top-notch brainstorming
 

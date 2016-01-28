@@ -21,7 +21,7 @@ description: "The U.S. federal government now has a public dashboard and dataset
 
 The U.S. federal government now has a public dashboard and dataset for its web traffic, at [**analytics.usa.gov**](https://analytics.usa.gov).
 
-<a href="https://analytics.usa.gov" target="_blank"><img src="/assets/blog/dap/screen.png" alt="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
+<a href="https://analytics.usa.gov" target="_blank"><img src="{{ site.baseurl }}/assets/blog/dap/screen.png" alt="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
 
 This data comes from a unified [Google Analytics](https://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration).
 
@@ -45,7 +45,7 @@ The real-time data is cached from Google every minute, and re-downloaded every 1
 
 So the big number of people online:
 
-<img src="/assets/blog/dap/now.png" alt="Screenshot of the dashboard's big number of people" style="border: 1px solid #ddd" />
+<img src="{{ site.baseurl }}/assets/blog/dap/now.png" alt="Screenshot of the dashboard's big number of people" style="border: 1px solid #ddd" />
 
 ...is made with this HTML:
 

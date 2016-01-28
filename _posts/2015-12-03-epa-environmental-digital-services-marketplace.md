@@ -10,7 +10,7 @@ description: "The Environmental Protection Agency (EPA) is working on ways to co
 image: /assets/blog/epa-marketplace/blue-sky-clouds.jpg
 ---
 
-![Blue sky and clouds](/assets/blog/epa-marketplace/blue-sky-clouds.jpg)
+![Blue sky and clouds]({{site.baseurl}}/assets/blog/epa-marketplace/blue-sky-clouds.jpg)
 
 Over the past year, the Environmental Protection Agency (EPA) has
 undertaken a [broad initiative to transform the way it delivers digital services](http://fedscoop.com/epa-to-grow-digital-services-with-godbout-at-helm).

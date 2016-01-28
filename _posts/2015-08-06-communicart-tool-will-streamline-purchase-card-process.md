@@ -41,7 +41,7 @@ process. With our partners at the General Service Administration's
 Public Buildings Service in Washington, D.C., we’ve started building a
 tool to help make this process fast and efficient.
 
-[![Screenshot of the Communicart approval portal](/assets/blog/communicart/communicart-screenshot.png)](https://cap.18f.gov/)
+[![Screenshot of the Communicart approval portal]({{site.baseurl}}/assets/blog/communicart/communicart-screenshot.png)](https://cap.18f.gov/)
 
 We call it [Communicart](https://18f.gsa.gov/dashboard/project/C2/).
 It’s a tool that took some cues from the process for tracking “carts”

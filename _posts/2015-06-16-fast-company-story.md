@@ -17,7 +17,7 @@ offers a great metaphor to better explain the relationship of 18F, the U.S. Digi
 image: /assets/blog/fast-company/jumpshot.jpg
 ---
 
-![The U.S. Digital Service family](/assets/blog/fast-company/jumpshot.jpg)
+![The U.S. Digital Service family]({{site.baseurl}}/assets/blog/fast-company/jumpshot.jpg)
 *Photo by Daniel Shea for Fast Company*
 
 We often get asked to explain how 18F fits in with the larger U.S.

@@ -18,7 +18,7 @@ to help users navigate their relationship with the agency. USCIS approached 18F 
 image: /assets/blog/myuscis/myuscis.jpg
 ---
 
-![The new myuscis homepage](/assets/blog/myuscis/myuscis.jpg)
+![The new myuscis homepage]({{site.baseurl}}/assets/blog/myuscis/myuscis.jpg)
 
 After the weather and taxes, immigration is one of the government services that people visit most online. Last week alone, [3.6 million
 people](https://analytics.usa.gov/) visited the [U.S. Citizenship and Immigration Services (USCIS) website](http://www.uscis.gov/) to understand the application process, check the status of their cases, and seek help. USCIS receives about 6 million petitions and applications a year — that’s more than 16,000 a day. Supporting this many users is a huge task, and USCIS knows it could do more to meet customer needs on its website.

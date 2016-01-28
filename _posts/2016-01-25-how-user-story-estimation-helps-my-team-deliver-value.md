@@ -9,6 +9,8 @@ tags:
 excerpt: "At 18F, we believe that employing agile practices is the most effective way to build digital services. User story estimation is one of the most useful agile tools, and in this post, I’ll talk about how and why my team has been using it."
 description: "At 18F, we believe that employing agile practices is the most effective way to build digital services. User story estimation is one of the most useful agile tools, and in this post, I’ll talk about how and why my team has been using it."
 image:
+redirect_from:
+-  /2016/01/22/how-user-story-estimation-helps-my-team-deliver-value/
 ---
 
 At 18F, we believe that employing [agile practices](https://pages.18f.gov/agile/) is the most effective way to build digital services. [User story](https://en.wikipedia.org/wiki/User_story) estimation is one of the most useful agile tools, and in this post, I’ll talk about how and why my team has been using it.

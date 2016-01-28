@@ -21,7 +21,7 @@ learning algorithms."
 image: /assets/blog/machine-learning/computer-motherboard.jpg
 ---
 
-![A computer motherboard](/assets/blog/machine-learning/computer-motherboard.jpg)
+![A computer motherboard]({{site.baseurl}}/assets/blog/machine-learning/computer-motherboard.jpg)
 
 Should I get married? What is my calling? Should I eat gluten? A lot of
 decisions in life are hard. We spend months or years collecting

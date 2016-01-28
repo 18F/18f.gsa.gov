@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "18f";
-  src:url("/assets/fonts/18f-font.eot");
-  src:url("/assets/fonts/18f-font.eot?#iefix") format("embedded-opentype"),
-    url("/assets/fonts/18f-font.woff") format("woff"),
-    url("/assets/fonts/18f-font.ttf") format("truetype"),
-    url("/assets/fonts/18f-font.svg#untitled-font-1") format("svg");
+  src:url("../fonts/18f-font.eot");
+  src:url("../fonts/18f-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/18f-font.woff") format("woff"),
+    url("../fonts/18f-font.ttf") format("truetype"),
+    url("../fonts/18f-font.svg#untitled-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 
