@@ -1,14 +1,15 @@
 ---
-date: '2014-03-12T10:11:00-04:00'
-tumblr_url: http://18fblog.tumblr.com/post/79359602658/coming-soon
-title: "Coming soon"
-description: Coming soon!
-excerpt: Coming soon!
-image: "/assets/images/18f.png"
+date: 2014-03-12
+title: Coming soon
+tumblr_url: 'http://18fblog.tumblr.com/post/79359602658/coming-soon'
+description: 'Coming soon!'
+excerpt: 'Coming soon!'
+image: /assets/images/18f.png
 authors:
-- 18F
+    - 18F
 tags:
-- 18f
+    - 18f
+    - how we work
 ---
 
 <span>We're truly gratified so many of you liked our sneak preview!
