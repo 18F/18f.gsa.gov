@@ -88,7 +88,7 @@ def server_build
   update_gems(development=false)
   reset
   puts 'building site'
-  build
+  build(watch=false, config="_config-staging.yml")
   require 'time'
   puts Time.now()
 end
