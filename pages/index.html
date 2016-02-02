@@ -93,7 +93,7 @@ permalink: /
       </div>
       <div class="blog-snippet" itemprop="articleBody">
         <p>{{ post.excerpt | strip_html }}</p>
-        <p><a href="{{ site.baseurl }}/{{ post.url }}">Continue reading &ldquo;{{ post.title }}&rdquo;...</a></p>
+        <p><a href="{{ site.baseurl }}{{ post.url }}">Continue reading &ldquo;{{ post.title }}&rdquo;...</a></p>
       </div>
     {% endfor %}
 
