@@ -45,9 +45,6 @@ domain names like .gov and .mil. Increasingly, however, citizens choose
 to access their services, ask questions, and participate through
 third-party platforms like Facebook, Yelp, Twitter, and GitHub.
 
-You’re reading this right now on a third-party platform officially used
-by the government, likely shared to you through another third-party
-platform officially used by the government.
 
 While some of those platforms authenticate public services in order to
 maintain trust between their users and the information they rely on,
