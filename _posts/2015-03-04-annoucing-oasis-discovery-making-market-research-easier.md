@@ -2,10 +2,13 @@
 title: "Announcing OASIS Discovery: making market research easier"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png
+
 tags:
 - procurement
-- market research
+- aquisition services
 - user research
+- discovery.gsa.gov
+- agency work
 
 authors:
 - brethauer

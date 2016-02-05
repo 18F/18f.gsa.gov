@@ -3,11 +3,12 @@ title: "Labor category descriptions for agile procurements"
 layout: post
 image: ""
 date: 2015-03-10
+
 tags:
-- 18f
 - agile
 - procurement
-- how we work
+- acquisition services
+- tools you can use
 
 authors:
 - chrisc
