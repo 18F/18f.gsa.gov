@@ -3,10 +3,12 @@ title: "How we built analytics.usa.gov"
 layout: post
 image: /assets/blog/dap/screen.png
 date: 2015-03-19 10:00:00
+
 tags:
-- analytics
+- analytics.usa.gov
 - open government
-- dap
+- digital analytics program
+- open data
 
 authors:
 - eric

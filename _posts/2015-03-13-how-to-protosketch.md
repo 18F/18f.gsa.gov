@@ -3,10 +3,9 @@ title: How to protosketch
 date: '2015-03-13'
 layout: post
 image: /assets/images/2014/12/protosketch.jpg
+
 tags:
-- protosketching
-- 18f consulting
-- how we work
+- collaboration tools
 - agile
 
 authors:
