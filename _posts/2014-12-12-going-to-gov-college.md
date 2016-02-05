@@ -12,8 +12,6 @@ excerpt: Last week, a number of teammates coordinated to put on three DigitalGov
 
 tags:
 - training
-- digitalgov university
-- gsa
 - open source
 - api
 - agile

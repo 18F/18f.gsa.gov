@@ -15,12 +15,12 @@ authors:
 - nick
 
 tags:
-- our projects
-- open data
 - how we work
+- agency work
+- training
 - workshop
 - useiti
-- eiti
+
 
 
 ---

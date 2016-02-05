@@ -14,9 +14,7 @@ authors:
 
 tags:
 - open data
-- policy
-- gsa
-- open government
+- .gov
 
 ---
 <a target="_blank" href="https://gsa.github.io/data/dotgov-domains/2014-12-01-full.csv"><img src="/assets/blog/dotgovs/dot-govs-screen.png" title="Excerpt of the .gov domain list" alt="A section of a spreadsheet of the .gov domain list" border: 1px solid #ccc;" /></a>

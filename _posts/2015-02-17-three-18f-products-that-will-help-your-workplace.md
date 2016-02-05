@@ -24,10 +24,10 @@ authors:
 
 tags:
 - midas
+- open opportunities
 - how we work
-- github
-- snippets
-- the hub
+- open source
+- communication tools and practices
 ---
 
 I’ve worked at 18F for exactly six days. During those six days, I

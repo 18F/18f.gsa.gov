@@ -3,11 +3,13 @@ title: A Story of an agile workshop
 date: '2015-02-11'
 layout: post
 image: /assets/blog/agile-workshop/workshop3.jpg
+
 tags:
-- longread
 - agile
-- workshops
-- how we work
+- workshop
+- best practices
+- culture change
+
 authors:
 - robert
 - blacktm
