@@ -2,10 +2,10 @@
 title: "18F discussion: Should project teams code first or design first?"
 layout: post
 image: "/assets/blog/code-design/decisions-blue.png"
+
 tags:
-- 18f
 - how we work
-- design
+- user-centered design
 
 authors:
 - melody

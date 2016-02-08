@@ -3,11 +3,13 @@ title: 'A day in the life of an 18F talent manager'
 date: '2015-04-08'
 layout: post
 image: /assets/blog/talent-manager/Jamie.jpg
+
 tags:
 - 18f
 - day in the life
-- culture
+- talent
 - how we work
+
 authors:
 - jamie
 description: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."

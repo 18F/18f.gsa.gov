@@ -3,10 +3,12 @@ title: "18F: a great place to write"
 layout: post
 authors:
 - melody
+
 tags:
-- 18f
 - open source
 - how we work
+- communication tools and practices
+
 excerpt: "We collaborate on much of what we do at 18F, from the way we work on code to the way we write our blog. Though we have a small editorial team, the blog — and our writing process — extends ownership to the entire 18F team."
 description: "We collaborate on much of what we do at 18F, from the way we work on code to the way we write our blog. Though we have a small editorial team, the blog — and our writing process — extends ownership to the entire 18F team."
 image: /assets/blog/how-we-write/sarah.png

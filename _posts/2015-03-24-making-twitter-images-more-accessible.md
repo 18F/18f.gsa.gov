@@ -3,10 +3,12 @@ title: "Making twitter images accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
 date: 2015-03-24
+
 tags:
 - accessibility
-- twitter
-- how we work
+- communication tools and practices
+- best practices
+
 authors:
 - melody
 

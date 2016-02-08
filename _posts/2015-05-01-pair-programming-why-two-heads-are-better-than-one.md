@@ -5,9 +5,11 @@ layout: post
 authors:
 - melody
 tags:
-- developer
-- coding
+- best practices
 - how we work
+- collaboration tools
+
+
 excerpt: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program and why they find it useful."
 description: "At 18F, we frequently use pair programming, a technique where two developers work together on one screen. We asked two developers at 18F how they pair program and why they find it useful."
 image: /assets/blog/pair-programming/annalee.jpg
