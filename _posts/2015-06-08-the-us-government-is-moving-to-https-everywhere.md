@@ -5,17 +5,18 @@ layout: post
 authors:
 - eric
 - gray
+
 tags:
-- white house
-- omb
-- policy
 - https
+- security
+- best practices
+
 excerpt: "Today, the White House's Office of Management and Budget (OMB) finalized an HTTPS-Only Standard for all publicly accessible federal websites and web services. This standard is designed to ensure a new, strong baseline of user privacy and security across U.S. government websites and APIs."
 description: "The White House is issuing a memoranda to federal agencies mandating the use of HTTPS for all public federal websites and APIs."
 image: /assets/blog/https-memo/whitehouse-small.png
 ---
 
-[![whitehouse.gov screenshot](/assets/blog/https-memo/whitehouse.png)](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf)
+[![whitehouse.gov screenshot]({{site.baseurl}}/assets/blog/https-memo/whitehouse.png)](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf)
 
 Today, the White House's Office of Management and Budget (OMB) finalized an **[HTTPS-Only Standard](https://https.cio.gov/)** for all publicly accessible federal websites and web services. This standard is designed to ensure a new, strong baseline of user privacy and security across U.S. government websites and APIs.
 

@@ -38,7 +38,7 @@ of foreign key relationships between tables can make extracting a limited
 yet valid subset of its tuples feel like trying to cut a little sweater
 out of a big sweater without snipping any yarns.
 
-![Don't break any yarns.](/assets/blog/db-testing-tool/cut_sweater.jpg)
+![Don't break any yarns.]({{site.baseurl}}/assets/blog/db-testing-tool/cut_sweater.jpg)
 
 So we've written a new utility,
 [rdbms-subsetter](https://github.com/18F/rdbms-subsetter),
@@ -50,7 +50,7 @@ Populating a test database can be as simple as
 rdbms-subsetter postgresql://:@/proddb postgresql://:@/testdb 0.001
 ```
 
-![rdbms-subsetter in action](/assets/blog/db-testing-tool/subsetter.png)
+![rdbms-subsetter in action]({{site.baseurl}}/assets/blog/db-testing-tool/subsetter.png)
 
 It should work against
 [any database that SQLAlchemy supports](http://docs.sqlalchemy.org/en/rel_0_9/core/engines.html#supported-databases).

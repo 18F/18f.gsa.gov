@@ -5,9 +5,9 @@ layout: post
 authors:
 - andre
 tags:
-- how we work
-- usds
-- 18f
+- u.s. digital services
+- digital services movement
+
 excerpt: "The cover story in this month’s Fast
 Company
 offers a great metaphor to better explain the relationship of 18F, the U.S. Digital Service headquarters, and the digital teams inside various agencies."
@@ -17,7 +17,7 @@ offers a great metaphor to better explain the relationship of 18F, the U.S. Digi
 image: /assets/blog/fast-company/jumpshot.jpg
 ---
 
-![The U.S. Digital Service family](/assets/blog/fast-company/jumpshot.jpg)
+![The U.S. Digital Service family]({{site.baseurl}}/assets/blog/fast-company/jumpshot.jpg)
 *Photo by Daniel Shea for Fast Company*
 
 We often get asked to explain how 18F fits in with the larger U.S.

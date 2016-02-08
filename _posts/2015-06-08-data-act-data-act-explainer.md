@@ -8,7 +8,8 @@ tags:
 - open data
 - open government
 - rfp ghostwriting
-- 18f consulting
+- acquisition services
+- transparency
 
 excerpt: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
 description: "In May 2014, President Obama signed the Digital Accountability and Transparency Act (DATA Act) into law. Once implemented, the DATA Act will make it easier to understand how the federal government spends money."
@@ -48,7 +49,7 @@ appropriation to an actual payment. These systems don’t have a common
 way to tie money back to specific programs and projects, and that’s what
 the DATA Act proposes to fix.
 
-[![Diagram of government appropriation reporting](/assets/blog/data-act-implementation/data-act-reporting.jpg)](http://www.datacoalition.org/what-is-data-transparency/data-act/)
+[![Diagram of government appropriation reporting]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-reporting.jpg)](http://www.datacoalition.org/what-is-data-transparency/data-act/)
 
 *Image courtesy of the [Data Transparency
 Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)*
@@ -68,7 +69,7 @@ several different initiatives, the Department may allocate those dollars
 to more specific buckets like Pell grants, work-study, and scholarships
 for veterans’ dependents.
 
-![Diagram of account labeling](/assets/blog/data-act-implementation/data-act-labels.jpg)
+![Diagram of account labeling]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-labels.jpg)
 
 When Treasury pays money to a recipient of student financial aid, it
 debits the money from the high-level $30 billion account. The specifics

@@ -19,7 +19,7 @@ excerpt: "Every .gov website, no matter how small, should give its visitors a se
 
 ---
 
-<img src="/assets/blog/hsts/hsts-preload-list.png" alt="A snapshot of .gov websites preloaded as HTTPS-only" style="border: 1px solid #d5d5d5; padding: 10px 0" />
+<img src="{{ site.baseurl }}/assets/blog/hsts/hsts-preload-list.png" alt="A snapshot of .gov websites preloaded as HTTPS-only" style="border: 1px solid #d5d5d5; padding: 10px 0" />
 
 Every `.gov` website, no matter how small, should give its visitors a secure,
 private connection. Plain HTTP (`http://`) connections are neither secure nor
@@ -93,7 +93,7 @@ When you connect over ordinary `http://`, it's like **sending a postcard in
 the mail**, where every computer in between you and the website gets to see
 your information:
 
-<img src="/assets/blog/hsts/with-http-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over http"/>
+<img src="{{ site.baseurl }}/assets/blog/hsts/with-http-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over http"/>
 
 That includes cookies, the browser you use, and any other data the website
 asks you to send (in this example, your location).
@@ -108,7 +108,7 @@ When you can connect over `https://`, it's like **sending a locked briefcase**
 that only the website's computer can open. IP addresses and a domain name are
 all that the internet's computers get to see:
 
-<img src="/assets/blog/hsts/with-https-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over https" />
+<img src="{{ site.baseurl }}/assets/blog/hsts/with-https-headers.png" style="border: 1px solid" alt="The information sent from you to the website you're requesting over https" />
 
 IP addresses and domain names do still reveal some information, but it's the
 bare minimum necessary to make the connection.

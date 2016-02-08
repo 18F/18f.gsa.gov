@@ -20,7 +20,7 @@ tags:
 - hackathons
 
 ---
-![Two developers coding together](/assets/blog/midas-oct-hacking/coding.jpg)
+![Two developers coding together]({{site.baseurl}}/assets/blog/midas-oct-hacking/coding.jpg)
 **Do you know JavaScript?  Or do you have UX or visual design skills?**
 
 **One evening can make an impact!**
@@ -30,7 +30,7 @@ tags:
  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world.
 
 ## What is Midas?
-[Midas is an online marketplace of skill building opportunities](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government) which matches people to projects that they’re passionate about.  Our goal is to foster innovation across team boundaries by connecting projects or challenges that need help within federal government agencies to people who want to work collaboratively on the solution.
+[Midas is an online marketplace of skill building opportunities]({{site.baseurl}}/2014/07/16/midas-a-marketplace-for-innovation-in-government) which matches people to projects that they’re passionate about.  Our goal is to foster innovation across team boundaries by connecting projects or challenges that need help within federal government agencies to people who want to work collaboratively on the solution.
 
 "It's like a Kickstarter for people's time." –Joe Polastre at [18F Demo Day](https://speakerdeck.com/18f/innovation-toolkit-18f-demo-day-9-may-2014?slide=3)
 
@@ -59,4 +59,4 @@ We're building the future of government, but we need your help!  We have a stabl
 
 
 ![Designing at the
-Whiteboard](/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
+Whiteboard]({{site.baseurl}}/assets/blog/midas-oct-hacking/whiteboard_design.jpg)

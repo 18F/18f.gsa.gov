@@ -4,16 +4,18 @@ date: 2015-07-06
 layout: post
 authors:
 - kate
+
 tags:
 - how we work
 - guides
-- content
+- communication tools and practices
+
 excerpt: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
 description: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
 image: /assets/blog/content-style-guide/style-guide-screen.jpg
 ---
 
-[![Screenshot of the 18F Content Guide](/assets/blog/content-style-guide/style-guide-screen.jpg)](https://pages.18f.gov/content-guide/)
+[![Screenshot of the 18F Content Guide]({{site.baseurl}}/assets/blog/content-style-guide/style-guide-screen.jpg)](https://pages.18f.gov/content-guide/)
 
 18F recently introduced its [series of
 guides](https://18f.gsa.gov/2015/05/28/18F-guides/), a collection of

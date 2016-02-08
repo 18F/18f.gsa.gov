@@ -134,7 +134,7 @@ world where agencies are used to having to go through a lengthy procurement
 process and a requirements writing phase in order to see any design or
 prototype at all, this is a game-changer.
 
-<img src="/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A
+<img src="{{ site.baseurl }}/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A
 protosketch running on a phone" />
 
 At another protosketch meeting, this time with GSA Human Resources, we

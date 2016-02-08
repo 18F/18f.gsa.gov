@@ -6,10 +6,13 @@ layout: post
 authors:
 - lindsay
 tags:
-- our projects
+- agency work
 - open data
-- fec
+- fec.gov
 - api
+- open government
+- tools you can use
+
 excerpt: "The records we’re adding today to the Federal Election Commission's API are the meat and potatoes of campaign finance. You can see in detail where a campaign’s money comes from and where they spend their money."
 description: "The records we’re adding today to the Federal Election Commission's API are the meat and potatoes of campaign finance. You can see in detail where a campaign’s money comes from and where they spend their money."
 image: /assets/blog/openfec-api/openfec-banner.jpg

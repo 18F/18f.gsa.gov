@@ -26,7 +26,7 @@ original Bechdel test, which was created by writer and graphic novelist
 Alison Bechdel. The Bechdel test was originally designed to evaluate
 works of fiction. A work passed if at least one woman had a conversation with another woman about something other than a man.
 
-![The 18F team](/assets/blog/bechdel/team.jpg)
+![The 18F team]({{site.baseurl}}/assets/blog/bechdel/team.jpg)
 
 We decided to see how many 18F projects pass this modified test. To
 pass, a project had to have at least one function written by a woman dev

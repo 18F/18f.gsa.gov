@@ -4,15 +4,16 @@ date: 2015-09-09
 layout: post
 authors:
 - jtag
+
 tags:
 - agile
 - how we work
-- discovery
-- proactive federal partner
-- operational excellence
-- our projects
 - user research
-- 18f consulting
+- workshops
+- culture change
+- transformation services
+
+
 excerpt: "At 18F Consulting, we experiment with ways to empower agencies to build cost-efficient, excellent
 digital solutions. Recently we partnered with the Department of Labor’s
 Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."
@@ -56,7 +57,7 @@ meaningful, iterative way?</strong></p>
 ---
 
 
-![Two investigators and an 18F user researcher who is shadowing them](/assets/blog/labor-handbook/field-team.jpg)
+![Two investigators and an 18F user researcher who is shadowing them]({{site.baseurl}}/assets/blog/labor-handbook/field-team.jpg)
 *Two investigators (left and right) and an 18F user researcher (center)
 who is shadowing them to understand how investigators use paper and
 digital methods to accomplish their job.*
@@ -72,7 +73,7 @@ quickly access and search for much-needed information that helps them
 complete investigations, particularly when they’re working out in the
 field.
 
-![Three large binders of handbook materials](/assets/blog/labor-handbook/handbook.jpg)
+![Three large binders of handbook materials]({{site.baseurl}}/assets/blog/labor-handbook/handbook.jpg)
 
 ## The challenge: How to move this project forward?
 
@@ -126,7 +127,7 @@ We facilitated a two-hour kick-off meeting (sometimes called an
 Inception). It got the group aligned around the problem and to agree on
 a plan moving forward.
 
-![The 18F and Labor team writes notes up on a large white board](/assets/blog/labor-handbook/group-1.jpg)
+![The 18F and Labor team writes notes up on a large white board]({{site.baseurl}}/assets/blog/labor-handbook/group-1.jpg)
 *Kick off (Inception)*
 
 During this Inception we:
@@ -171,7 +172,7 @@ Examples of our user stories:
 
 -   As an investigator, I want the FOH to be easy to read because past methods have been hard to read. *(provide good version 1 typography and design of this online resource)*
 
-![Developers, investigators, and product owners work together on day 2. The project's progress boards are taped to the windows.](/assets/blog/labor-handbook/group-2.jpg)
+![Developers, investigators, and product owners work together on day 2. The project's progress boards are taped to the windows.]({{site.baseurl}}/assets/blog/labor-handbook/group-2.jpg)
 *Day 2 of the team working out of the 18F common space. Developers on
 the left. Investigators (users) and product owners talking about needs
 on the right. Taped to the windows are the progress boards (Backlog,
@@ -241,7 +242,7 @@ and actionable to their peers. Seconds after code was pushed to the
 staging site, we observed how they used search and understood the search
 results pages. Feedback was immediately incorporated.
 
-![Screenshots of the prototype for an online version of the handbook.](/assets/blog/labor-handbook/foh-screenshot.jpg)
+![Screenshots of the prototype for an online version of the handbook.]({{site.baseurl}}/assets/blog/labor-handbook/foh-screenshot.jpg)
 *Two days later we had a working prototype showing browsable chapters
 and a search results page.*
 

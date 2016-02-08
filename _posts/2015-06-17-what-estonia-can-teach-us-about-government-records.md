@@ -5,8 +5,10 @@ layout: post
 authors:
 - emileigh
 tags:
-- usds
-- event
+- u.s. digital services
+- events
+- digital services movement
+
 excerpt: "At 18F, we were thrilled to meet for a discussion on digital services,
 cyber security, and IT funding with Estonia's most prominent technologists."
 description: "At 18F, we were thrilled to meet for a discussion on digital services,
@@ -37,7 +39,7 @@ of Estonia’s most prominent technologists visited D.C. for a week-long
 tour, which included meetings with the State Department, the World Bank,
 and U.S. digital services teams.
 
-<img src="/assets/blog/estonia/Estonia2.jpg" alt="The Estonian delegation with members of 18F, OSTP, and CTO Megan Smith" width="500">
+<img src="{{ site.baseurl }}/assets/blog/estonia/Estonia2.jpg" alt="The Estonian delegation with members of 18F, OSTP, and CTO Megan Smith" width="500">
 
 *U.S. Chief Technology Officer Megan Smith, members of U.S. digital
 services teams, and the representatives from Estonia.*

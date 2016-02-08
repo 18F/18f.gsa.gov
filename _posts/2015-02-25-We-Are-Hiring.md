@@ -21,7 +21,7 @@ Technology changes fast. People have grown to expect fast, personalized, and use
 Built in the spirit of America's top tech startups, 18F is a consultancy and product delivery team **for** the U.S. government **inside** the U.S. government. We work with federal agencies to rapidly deploy tools and online services that are reusable, cut costs, and are easier for people and businesses to use.
 
 ![The 18F Team in D.C. plus 2014 Presidential Innovation
-Fellows](/assets/blog/were-hiring/18fdc-pif.jpg)
+Fellows]({{site.baseurl}}/assets/blog/were-hiring/18fdc-pif.jpg)
 
 We’re on a mission to transform the way government builds and buys digital services. We're currently working with more than a dozen different teams across the federal government to help them deliver on their missions in a user-centered way. We will accomplish this by:
 
@@ -33,7 +33,7 @@ We’re transforming government from the inside out, creating cultural change by
 
 Whether you’re near an 18F office in Washington DC, San Francisco, Chicago, or New York, or you’re closer to some of our teammates in Seattle, Portland, San Diego, Austin, Tucson, Dayton, Raleigh, or Philadelphia, we want to hear from you!
 
-![A map of 18F team members](/assets/blog/were-hiring/map.png)
+![A map of 18F team members]({{site.baseurl}}/assets/blog/were-hiring/map.png)
 
 Our rapidly growing team is home to a variety of roles, including these:
 

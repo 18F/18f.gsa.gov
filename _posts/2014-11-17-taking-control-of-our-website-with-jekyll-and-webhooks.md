@@ -16,7 +16,7 @@ tags:
 
 
 ---
-[![Our website running with Jekyll](/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
+[![Our website running with Jekyll]({{site.baseurl}}/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
 
 A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
 
@@ -39,7 +39,7 @@ Our site's first draft was a handful of static HTML pages with lots of copied-an
 
 We've now moved to **[Jekyll 2.4](http://jekyllrb.com/)**, a basic templating system that generates static files when needed. This enables us to use templated layouts and includes for rendering HTML, and plugins to transform content during the rendering process. The resulting static files can be served extremely efficiently.
 
-We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a [little JSON API of our team](/api/data/team.json):
+We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a [little JSON API of our team]({{site.baseurl}}/api/data/team.json):
 
 ```javascript
 [
@@ -133,7 +133,7 @@ We made this work using **[GitHub's webhooks](https://github.com/blog/1778-webho
 
 We created two webhooks for [our website's main repository](https://github.com/18f/18f.gsa.gov), pointed at our staging and live URLs:
 
-![18F site webhooks](/assets/blog/new-jekyll-site/webhooks.png)
+![18F site webhooks]({{site.baseurl}}/assets/blog/new-jekyll-site/webhooks.png)
 
 Each is configured to notify the webhook when changes are made to the files in the repository, either directly or through a pull request.
 

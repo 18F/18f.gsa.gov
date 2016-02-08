@@ -11,8 +11,8 @@ tags:
 - agile bpa
 - agile
 - procurement
-- 18f consulting
-- federal acquisitions
+- acquisition services
+
 excerpt: "As the first Agile BPA awards are now being issued, we asked
 three members of the team about the process and the lessons they’ve
 learned so far."

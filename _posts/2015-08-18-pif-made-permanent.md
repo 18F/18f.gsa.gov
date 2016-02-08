@@ -6,11 +6,12 @@ authors:
 - deniseroth
 - garren
 - andre
+
 tags:
 - pif
-- gsa
-- operational excellence
-- proactive federal partner
+- presidental innovation fellows
+- digital services movement
+
 excerpt: "We’re
 immensely happy to hear that the president has issued an executive order
 ensuring the Presidential Innovation Fellows program has a permanent place in our government."

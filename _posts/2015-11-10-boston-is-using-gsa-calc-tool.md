@@ -47,7 +47,7 @@ get a broader perspective on the market.
 making decisions based solely on information provided by vendors.
 CALC...can help ensure decisions are fully informed,” he says.
 
-![The CALC tool in action](/assets/blog/calc-announcement/calc_demo.gif)
+![The CALC tool in action]({{site.baseurl}}/assets/blog/calc-announcement/calc_demo.gif)
 
 CALC helps contracting officers determine the range of pricing — at the
 highest level — for a specific labor category. For example, a search for

@@ -6,12 +6,13 @@ authors:
 - eric
 - gray
 tags:
-- howto
 - https
-- digitalgov
+- partners in government
 - security
-- technical
+- tools you can use
 - video
+- training
+
 excerpt: "18F uses HTTPS for everything we make, and the U.S. government is in the process of transitioning to HTTPS everywhere. As part of this effort, we've recently partnered with DigitalGov University to produce a two-video series introducing the why's and how's of HTTPS."
 description: "18F uses HTTPS for everything we make, and the U.S. government is in the process of transitioning to HTTPS everywhere. As part of this effort, we've recently partnered with DigitalGov University to produce a two-video series introducing the why's and how's of HTTPS."
 image: /assets/blog/https-webinar/https-webinar-screen.jpg

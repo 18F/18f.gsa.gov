@@ -27,7 +27,7 @@ Catalog and co-founder of the Long Now Foundation, helped to shape
 Engelbart’s raw material into a presentation that was direct,
 convincing, and easy to comprehend.
 
-<div style="float: right; margin-left: 10px;"><img src="/assets/blog/speaker-series/matthew-milan.jpg" alt="Matthew Milan"></div>
+<div style="float: right; margin-left: 10px;"><img src="{{ site.baseurl }}/assets/blog/speaker-series/matthew-milan.jpg" alt="Matthew Milan"></div>
 
 This concept — the transformative power of shared mindset — was the
 focus of Matthew Milan’s recent talk for the 18F Design Presents speaker

@@ -9,11 +9,11 @@ Quick overview:
 
 * [`18f-site.conf`](18f-site.conf) - Our nginx config for the production and staging site. Not synced to version control automatically, but we'll try to keep them in sync.
 * [`fabfile.py`](fabfile.py) - Fabric deployment script to start/stop/restart our webhook processes. Could be extended to deploy and sync our nginx config, and restart nginx.
-* [`hookshot.js`](hookshot.js) - Tiny webhook app, runs a command when a branch is updated. Uses [`hookshot`](https://github.com/coreh/hookshot) to do the heavy lifting. Daemonized on our server using [`forever`](https://github.com/nodejitsu/forever).
+* [`githooked.js`](githooked.js) - Tiny webhook app, runs a command when a branch is updated. Uses [`githooked`](https://github.com/ScottONeal/githooked) to do the heavy lifting. Daemonized on our server using [`forever`](https://github.com/nodejitsu/forever).
 
 ### Automatic deployment
 
-On the staging and production server, this project uses [Node](http://nodejs.org) and [`hookshot`](https://github.com/coreh/hookshot) to receive GitHub post-receive webhooks and update the project.
+On the staging and production server, this project uses [Node](http://nodejs.org) and [`githooked`](https://github.com/coreh/githooked) to receive GitHub post-receive webhooks and update the project.
 
 Ideally, these webhooks just run forever and never need to be maintained!
 
@@ -42,26 +42,26 @@ These instructions can be applied locally (for development) or on the server (fo
 Install the Node dependencies with:
 
 ```bash
-npm install hookshot
-npm install minimist
+cd deploy/
+npm install
 npm install -g forever
 ```
 
-18F's web server uses the `hookshot` command to listen for hooks on either of two ports.
+18F's web server uses the `githooked` command to listen for hooks on either of two ports.
 
 From `/deploy`, run the hook with the appropriate port and command. It can be helpful to have `forever` and your command both log to the same file.
 
 In development, you might use:
 
 ```bash
-forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+forever start -l $HOME/githooked.log -a deploy/githooked.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/githooked.log"
 ```
 
 You can stop and restart your hooks by supplying the same arguments you gave.
 
 ```bash
-forever stop deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
-forever restart deploy/hookshot.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/hookshot.log"
+forever stop deploy/githooked.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/githooked.log"
+forever restart deploy/githooked.js -p 3000 -b your-branch -c "cd $HOME/18f/18f.gsa.gov && git pull && bundle exec jekyll build >> $HOME/githooked.log"
 ```
 
 On our web server, 18F runs two separate hooks.

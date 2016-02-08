@@ -17,7 +17,7 @@ title: People
       {% for person in sorted %}{% if person.full_name %}
         <div class='bio' id="{{ person.name }}">
           {% if person.output.size > 0 %}
-          <a href='/team/{{person.name}}'>
+          <a href='{{ site.baseurl }}/team/{{person.name}}/'>
           {% else %}
           <a class="disabled">
           {% endif %}

@@ -8,13 +8,13 @@ authors:
 - bradnunnally
 - jthibault
 - russ
+
 tags:
 - open source
 - how we work
 - guides
-- documentation
 - design
-- operational excellence
+
 excerpt: "We’re thrilled to introduce the beta deck of 18F Design
 Methods, a collection of research and design
 practices that we use to better understand and serve the users of our
@@ -26,7 +26,7 @@ products."
 image: /assets/blog/design-method-cards/method-cards-banner.jpg
 ---
 
-[![A sampling of the 18F Design Method cards](/assets/blog/design-method-cards/method-cards-banner.jpg)](https://methods.18f.gov/)
+[![A sampling of the 18F Design Method cards]({{site.baseurl}}/assets/blog/design-method-cards/method-cards-banner.jpg)](https://methods.18f.gov/)
 
 We’re thrilled to introduce the beta deck of [18F Design
 Methods](https://methods.18f.gov/), a collection of research and design
@@ -108,7 +108,7 @@ Our design methods are available in two formats:
 1. **A [printed card deck](https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta-Preview.pdf) for quick reference.** With printed cards, you can compare different methods side by side, and physically pull together the methods you’re interested in.
 2. **An [online version](https://methods.18f.gov/) for more information.** Our “alpha” digital version provides more details about each method, short stories about how we’ve used a given method in our work, and links to additional resources. You also download our [templates] (https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta-Template.zip) and [printable PDFs](https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta_Print.zip).
 
-[![A screenshot of the Design Method Cards website](/assets/blog/design-method-cards/method-cards.png)](https://methods.18f.gov/)
+[![A screenshot of the Design Method Cards website]({{site.baseurl}}/assets/blog/design-method-cards/method-cards.png)](https://methods.18f.gov/)
 
 ## Principles that are and are not here
 

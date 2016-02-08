@@ -6,15 +6,15 @@ Manage auto-deploy webhooks remotely.
 
 Staging hook:
 
-  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
-  forever restart deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
-  forever stop deploy/hookshot.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
+  forever start -l $HOME/githooked.log -a deploy/githooked.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
+  forever restart deploy/githooked.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
+  forever stop deploy/githooked.js -p 3000 -b staging -c "cd $HOME/staging/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
 
 Production hook:
 
-  forever start -l $HOME/hookshot.log -a deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
-  forever restart deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
-  forever stop deploy/hookshot.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/hookshot.log"
+  forever start -l $HOME/githooked.log -a deploy/githooked.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
+  forever restart deploy/githooked.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
+  forever stop deploy/githooked.js -p 4000 -b production -c "cd $HOME/production/current && git pull && bundle exec jekyll build --config _config.yml,_deploy_config.yml >> $HOME/githooked.log"
 """
 
 # which hook to restart. defaults to staging, override with:
@@ -31,7 +31,7 @@ env.use_ssh_config = True
 env.hosts = ["18f-site"]
 
 home = "/home/site"
-log = "%s/hookshot.log" % home
+log = "%s/githooked.log" % home
 current = "%s/%s/current" % (home, environment)
 ruby = "/opt/install/rbenv/shims/ruby"
 
@@ -46,21 +46,21 @@ else:
 def start():
   with cd(current):
     run(
-      "forever start -l %s -a deploy/hookshot.js -p %i -b %s -c \"%s\""
+      "forever start -l %s -a deploy/githooked.js -p %i -b %s -c \"%s\""
       % (log, port, environment, command)
     )
 
 def stop():
   with cd(current):
     run(
-      "forever stop deploy/hookshot.js -p %i -b %s -c \"%s\""
+      "forever stop deploy/githooked.js -p %i -b %s -c \"%s\""
       % (port, environment, command)
     )
 
 def restart():
   with cd(current):
     run(
-      "forever restart deploy/hookshot.js -p %i -b %s -c \"%s\""
+      "forever restart deploy/githooked.js -p %i -b %s -c \"%s\""
       % (port, environment, command)
     )
 

@@ -23,7 +23,7 @@ Discovery will allow federal acquisition personnel to conduct initial market res
 
 This first release is geared for use with GSA’s newly released [OASIS vehicle](http://www.federaltimes.com/story/government/acquisition/gsa-gwac/2014/12/17/oasis-signals-a-new-era-for-gsa/20549171/). Eventually, 18F hopes to make additional vehicles and resources available through Discovery, as well.
 
-![Screen: Discovery Homepage](/assets/blog/discovery-launch/discovery-intro.gif)
+![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/discovery-launch/discovery-intro.gif)
 
 ###Who is it for?
 
@@ -38,7 +38,7 @@ Discovery was built with *user-centered* processes, meaning we conducted a signi
 
 The screenshot below shows how the Discovery team tracked user input/research. Significant findings were captured on a Discovery Research Trello board, and then were fed back into the main project Trello board as new project tasks, which could then be explored through team and client design exercises (e.g., design studios, sketching).
 
-![Trello Board for Discovery Research Process](/assets/blog/discovery-launch/trelloboard.png)
+![Trello Board for Discovery Research Process]({{site.baseurl}}/assets/blog/discovery-launch/trelloboard.png)
 
 ###How we used open source with open data
 

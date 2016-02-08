@@ -63,7 +63,7 @@ it on our accounts (especially if it's from a visitor). For the
 captions, we make sure to include interesting facts about the location
 or stories from the photographer about what it took to capture the
 photo. We like to vary the format and length, so that the captions
-aren't all the same
+aren't all the same.
 
 We typically share two photos a day during the workweek (around 11:30
 a.m. ET and 6:45 p.m. ET) and one a day on the weekends. Before posting,

@@ -6,13 +6,12 @@ authors:
 - vdavez
 - chrisc
 - noah
+
 tags:
 - agile bpa
-- 18f consulting
+- acquisition services
 - agile
-- federal acquisitions
-- hacking bureaucracy
-- request for quote
+
 excerpt: " The Request for Quotation (RFQ) for the Agile Delivery Services Blanket Purchase Agreement (Agile Delivery BPA) is hitting the street on Wednesday, June 17, 2015."
 description: " The Request for Quotation (RFQ) for the Agile Delivery Services Blanket Purchase Agreement (Agile Delivery BPA) is hitting the street on Wednesday, June 17, 2015."
 image: /assets/blog/were-hiring/team.jpg
