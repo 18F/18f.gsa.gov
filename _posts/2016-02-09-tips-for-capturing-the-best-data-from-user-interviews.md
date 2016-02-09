@@ -30,7 +30,7 @@ interviews. This post is intended as a guide for people who need to
 conduct user interviews and for people simply curious about how we work.
 
 Interviews are, at a minimum, an opportunity for you to ask your
-intended audience about their expectations, what their needs are and to
+intended audience about their expectations, what their needs are, and to
 get direct feedback on the work you’ve done so far or on what you plan
 to do. But an interview is only as good as the data you get out of it.
 
