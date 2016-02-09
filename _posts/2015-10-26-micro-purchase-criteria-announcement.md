@@ -4,9 +4,9 @@ date: 2015-10-26
 authors:
 - vdavez
 tags:
-- micro-purchase
+- micro-purchase platforms
 - procurement
-- 18f consulting
+- acquisition services
 - open source
 image: /assets/blog/calc-announcement/calc_homepage.jpg
 description: "Today, we're beginning our micro-purchase experiment. Here are the details of what we are looking for and our acceptance criteria for the final submission."

@@ -5,7 +5,7 @@ authors:
 - chrisc
 - sarah
 tags:
-- 18f consulting
+- best practices
 - technical debt
 excerpt: "In the last post in this series, we
 talked about the potential consequences of having a lot of technical

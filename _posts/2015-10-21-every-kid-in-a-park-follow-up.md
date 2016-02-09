@@ -6,8 +6,9 @@ authors:
 
 tags:
 - how we work
-- proactive federal partner
-- our projects
+- agency work
+- every kid in a park
+- user-centered design
 images: /assets/blog/every-kid-in-a-park/404.png
 description: Since it launched September 1, we've been keeping close tabs on the website and user feedback, which helps us quickly identify and make improvements.
 excerpt: Our projects are iterative, which means we keep working on them after they launch. In keeping with that practice, we’ve kept a close eye on [everykidinapark.gov](https://everykidinapark.gov/), which went live September 1. We’re excited to share a few of our improvements and updates with you today.

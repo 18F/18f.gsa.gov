@@ -4,9 +4,9 @@ date: 2015-10-09
 authors:
 - bret
 tags:
-- how we work
-- devops
-- our products
+- best practices
+- security
+- platforms
 - cloud.gov
 excerpt: "We’ve developed cloud.gov, a Platform-as-a-Service (PaaS), to tackle core infrastructure issues and enable our small development teams to improve the delivery of 18F
 products."
