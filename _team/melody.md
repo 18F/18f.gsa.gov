@@ -12,6 +12,10 @@ team: Outreach
 project:
 - 18f.gsa.gov
 - 18F Blog
+- Onboarding
+- Federalist
+- 18F Hub
+- 18F Dashboard
 ---
 
 Melody Kramer is a member of 18F’s outreach team and recently spearheaded the effort to reinvision 18F's onboarding process. She frequently consults with teams across the organization on audience, content, and digital strategies. Her specialties include audience-centered design, writing and editing, coding, and developing systems-wide processes. She enjoys writing tutorials and making 18F’s work more open and accessible.
