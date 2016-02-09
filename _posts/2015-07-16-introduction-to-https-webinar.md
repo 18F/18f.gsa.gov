@@ -28,7 +28,7 @@ This presentation explains how communication across the web works today and brie
 
 There is no technical background required for this video — anyone who has used the web before should be able to understand the concepts discussed.
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/d2GmcPYWm5k" frameborder="0" allowfullscreen></iframe>
+{{ "https://www.youtube-nocookie.com/embed/d2GmcPYWm5k" | embed }}
 
 Table of contents:
 
@@ -51,7 +51,7 @@ Finally, the presentation looks ahead at some ongoing and future technical and p
 
 Some technical background in the web is helpful, but may not be required for much of the material.
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/rnM2qAfEG-M" frameborder="0" allowfullscreen></iframe>
+{{ "https://www.youtube-nocookie.com/embed/rnM2qAfEG-M" | embed }}
 
 Table of contents:
 

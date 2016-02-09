@@ -27,7 +27,7 @@ enough of this. Fortunately, there were [more than 100 events](http://hackforcha
 
 Here’s just some of what we worked on together:
 
-![Pictures from the D.C. event](/assets/blog/national-day-of-civic-hacking-2015/hacking-day-dc.jpg)
+![Pictures from the D.C. event]({{site.baseurl}}/assets/blog/national-day-of-civic-hacking-2015/hacking-day-dc.jpg)
 *Scenes from the event in Washington, D.C.*
 
 **Washington, D.C.**: The Small Business Administration and Census
@@ -41,10 +41,7 @@ campaign that organizes the various catalogs of federal APIs to make it
 easier for developers to discover what web services the government
 offers.
 
-<div style="text-align:center">
-<iframe width="640" height="360"
-src="https://www.youtube-nocookie.com/embed/O4O7tonG3R8" frameborder="0"
-allowfullscreen></iframe></div>
+{{ "https://www.youtube-nocookie.com/embed/O4O7tonG3R8" | embed }}
 
 **San Diego, Calif.**: [Open San Diego](http://opensandiego.org/)
 produced the San Diego National Day activity, which took place downtown
@@ -59,7 +56,7 @@ who lives in San Diego, led a
 for a Street Sweeper app. We got from markers and drawing to working
 code in less than an hour!
 
-![The group of civic hackers in Tucson](/assets/blog/national-day-of-civic-hacking-2015/hacking-day-tucson.jpg)
+![The group of civic hackers in Tucson]({{site.baseurl}}/assets/blog/national-day-of-civic-hacking-2015/hacking-day-tucson.jpg)
 *Civic hackers at the event hosted by Code for Tucson*
 
 **Tucson, Ariz**: [Code for Tucson](http://codefortucson.org/),

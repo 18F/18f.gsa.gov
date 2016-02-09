@@ -5,6 +5,7 @@ date: 2015-12-01
 authors:
 - melody
 tags:
+- onboarding
 - how we work
 - culture
 excerpt: "Over the past three months, we’ve released several products that help new hires acclimate to our organization. In this blog post, we’ll detail what we did and why it works really well."
@@ -35,7 +36,7 @@ From the beginning, we conceived of onboarding as a series of
 interlinking blocks. Here’s the way we drew our mental model of these
 blocks back in September:
 
-![An early sketch for onboarding modules](/assets/blog/onboarding/learning-modules.jpg)
+![An early sketch for onboarding modules]({{site.baseurl}}/assets/blog/onboarding/learning-modules.jpg)
 
 Every 18F employee needs to know certain general stuff: what the [Hatch Act is](http://www.oge.gov/Topics/Outside-Employment-and-Activities/Political-Activities/), where to file
 their health insurance, and how to add their biography to our website,
@@ -149,7 +150,7 @@ Mrs. Landingham releases one message per day to new hires over their
 first 30 days. The messages are prewritten: when new hires are signed
 up, they begin the 30 day cycle of messaging. They look like this:
 
-![A test conversation with Mrs. Dolores Landingham, the onboarding chat bot.](/assets/blog/onboarding/dolores.jpg)
+![A test conversation with Mrs. Dolores Landingham, the onboarding chat bot.]({{site.baseurl}}/assets/blog/onboarding/dolores.jpg)
 
 We find that Mrs. Landingham is a fun, easy, and efficient way to
 provide information to new hires. She helps them learn about Slack by
@@ -157,8 +158,8 @@ sending messages through Slack. She also sends daily tips and tricks
 about the way we work, and provides helpful advice from current 18F
 employees.
 
-(In a future blog post, my colleague Jessie Young, the lead developer on
-Mrs. Landingham, will talk more about the bot and how it works.)
+(My colleague Jessie Young, the lead developer on
+Mrs. Landingham, [talks more about the bot and how it works](https://18f.gsa.gov/2015/12/15/how-bot-named-dolores-landingham-transformed-18fs-onboarding/).)
 
 ## Onboarding begins before day 1
 

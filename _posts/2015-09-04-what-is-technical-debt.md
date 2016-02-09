@@ -25,7 +25,7 @@ And the extra time it takes to work with our unwieldy code or design,
 until it’s fixed, represents the interest portion.
 
 <div style="text-align:center">
-<img src="/assets/blog/technical-debt/graphic-1.jpg" alt="A bar graph showing how poor design can increase the cost of making changes or adding new features" width="400px">
+<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-1.jpg" alt="A bar graph showing how poor design can increase the cost of making changes or adding new features" width="400px">
 </div>
 
 Like financial debt, not all technical debt is bad debt. For example,
@@ -53,7 +53,7 @@ technical debt. Martin Fowler, a leading software expert, classifies
 technical debt into four types, as shown in the quadrant below.
 
 <div style="text-align:center">
-<img src="/assets/blog/technical-debt/graphic-2.jpg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." width="600px">
+<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-2.jpg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." width="600px">
 </div>
 
 Here's how each type may occur:
@@ -80,7 +80,7 @@ within a software product over time:
 -   The predictability of results decreases, making management highly distrustful. (Producing accurate estimates for software with a high amount of debt is nearly impossible.)
 
 <div style="text-align:center">
-<img src="/assets/blog/technical-debt/graphic-3.jpg" alt="A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." width="400px">
+<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-3.jpg" alt="A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." width="400px">
 </div>
 
 *Source: [Jim
@@ -114,5 +114,5 @@ consequences](http://www.infoq.com/articles/managing-technical-debt)
 
 -   **Developers** have to deal with the bad work of other developers, which [may cause turnover](http://www.industriallogic.com/blog/technical-debt-considered/)
 
-Now that you understand what technical debt is, we’ll discuss how to
-manage it in our next post.
+Now that you understand what technical debt is, we’ll discuss [how to
+manage it](https://18f.gsa.gov/2015/10/05/managing-technical-debt/) in our next post.

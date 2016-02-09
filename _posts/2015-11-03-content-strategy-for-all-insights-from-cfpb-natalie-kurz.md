@@ -13,7 +13,7 @@ Bureau, recently spoke at 18F about some best practices for creating and promoti
 image: /assets/blog/speaker-series/natalie-kurz-presentation.jpg
 ---
 
-![Natalie Kurz presents at 18F](/assets/blog/speaker-series/natalie-kurz-presentation.jpg)
+![Natalie Kurz presents at 18F]({{site.baseurl}}/assets/blog/speaker-series/natalie-kurz-presentation.jpg)
 *Natalie Kurz from the Consumer Financial Protection
 Bureau presents at 18F.*
 

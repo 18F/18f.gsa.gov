@@ -41,7 +41,7 @@ process. With our partners at the General Service Administration's
 Public Buildings Service in Washington, D.C., we’ve started building a
 tool to help make this process fast and efficient.
 
-[![Screenshot of the Communicart approval portal](/assets/blog/communicart/communicart-screenshot.png)](https://cap.18f.gov/)
+[![Screenshot of the Communicart approval portal]({{site.baseurl}}/assets/blog/communicart/communicart-screenshot.png)](https://cap.18f.gov/)
 
 We call it [Communicart](https://18f.gsa.gov/dashboard/project/C2/).
 It’s a tool that took some cues from the process for tracking “carts”
@@ -76,9 +76,7 @@ the code behind the project, review the [slides from our first demo
 day][6] showing off an early prototype, and check out [the Communicart
 product page][7].
 
-<iframe width="800" height="450"
-src="https://www.youtube-nocookie.com/embed/QDTJZwjR24A" frameborder="0"
-allowfullscreen></iframe>
+{{ "https://www.youtube-nocookie.com/embed/QDTJZwjR24A" | embed }}
 
 We’ll be blogging more about Communicart, how we built it, and who is
 using it in the next few weeks. We have all the beta testers we can

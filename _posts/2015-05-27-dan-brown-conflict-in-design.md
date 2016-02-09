@@ -12,7 +12,7 @@ excerpt: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop f
 description: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop fighting, start designing,” centered around the design process and inherent conflict therein."
 image: /assets/blog/speaker-series/dan-brown.jpg
 ---
-![Dan Brown presents at 18F](/assets/blog/speaker-series/dan-brown.jpg)
+![Dan Brown presents at 18F]({{site.baseurl}}/assets/blog/speaker-series/dan-brown.jpg)
 
 Designer Dan Brown was driving through downtown D.C. when he received a
 nasty client voicemail. New to the city and in his mid-20s, Brown was
@@ -66,7 +66,7 @@ pointer around the room.
 The pattern cards offer techniques for unsticking situations. For
 example, “make a plan,” or “offer a sneak peek.”
 
-![Pattern and situation cards](/assets/blog/speaker-series/pattern-situation.jpg)
+![Pattern and situation cards]({{site.baseurl}}/assets/blog/speaker-series/pattern-situation.jpg)
 
 The third piece of the puzzle, “trait” cards, are useful for
 self-reflection and understanding characteristics. “Dogmatism,” for

@@ -3,8 +3,8 @@ title: Introducing the U.S. Web Design Standards
 date: 2015-09-28
 authors:
 - mollieruskin
-- carolyndew
-- mayabenari
+- carolyn
+- maya
 - colinmacarthur
 tags:
 - proactive federal partner
@@ -41,7 +41,7 @@ government services, they’re often met with confusing navigation
 systems, a cacophony of visual brands, and inconsistent interaction
 patterns.
 
-![A collection of buttons from government websites with many different colors and styles.](/assets/blog/web-design-standards/buttons.png)
+![A collection of buttons from government websites with many different colors and styles.]({{site.baseurl}}/assets/blog/web-design-standards/buttons.png)
 *Each button, a special snowflake. A snapshot of a quick survey of buttons across government websites.*
 
 Dedicated federal workers are striving to build helpful digital tools
@@ -72,7 +72,7 @@ government websites?
 ## What we built
 
 ![A screenshot of the U.S. Web Design Standards on a desktop, tablet,
-and mobile device.](/assets/blog/web-design-standards/home.png)
+and mobile device.]({{site.baseurl}}/assets/blog/web-design-standards/home.png)
 *The U.S. Web Design Standards are designed to be viewed on any
 device.*
 
@@ -117,7 +117,7 @@ cross-functional team of UX, front-end, and visual designers each played
 a key role in this process:
 
 ![An early wireframe of our design suggestion for a reset password
-page.](/assets/blog/web-design-standards/wireframe.png)
+page.]({{site.baseurl}}/assets/blog/web-design-standards/wireframe.png)
 *An early wireframe of our design suggestion for a reset
 password page*
 
@@ -139,7 +139,7 @@ patterns were further tested with end users.
 We believe agencies should still usability test everything they build,
 but following the standards will help everyone avoid common pitfalls.
 
-![A sample of code from the Web Design Standards.](/assets/blog/web-design-standards/code.png)
+![A sample of code from the Web Design Standards.]({{site.baseurl}}/assets/blog/web-design-standards/code.png)
 *All of our standards include code samples.*
 
 ### Front-end
@@ -160,7 +160,7 @@ After speaking with dozens of front-end developers and designers in
 government, we sought to strike a balance between modular CSS and code
 that’s clean and easy-to-use.
 
-![A screenshot of the color section of the Design Standards.](/assets/blog/web-design-standards/colors.png)
+![A screenshot of the color section of the Design Standards.]({{site.baseurl}}/assets/blog/web-design-standards/colors.png)
 *The Design Standards include an extensive color palette.*
 
 ### Visual design

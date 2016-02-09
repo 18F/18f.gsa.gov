@@ -3,6 +3,6 @@ layout: bare
 permalink: /developers/
 ---
 
-<META http-equiv="refresh" content="0;URL=https://18f.gsa.gov/developer/">
+<META http-equiv="refresh" content="0;URL={{site.baseurl}}/developer/">
 
-This page is redirecting to the [18F Developer Hub].  If the page doesn't not redirect you automatically, please <a href="https://18f.gsa.gov/developer/">click here</a>.  
+This page is redirecting to the [18F Developer Hub].  If the page doesn't not redirect you automatically, please <a href="{{site.baseurl}}/developer/">click here</a>.  

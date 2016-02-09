@@ -21,7 +21,7 @@ conduct market research and price analysis for professional labor
 categories across a database of contract awarded prices for 48,000 labor
 categories from more than 5,000 recent GSA contracts.
 
-![Gif of a sample CALC search](/assets/blog/calc-announcement/calc_demo.gif)
+![Gif of a sample CALC search]({{site.baseurl}}/assets/blog/calc-announcement/calc_demo.gif)
 
 Before CALC, contracting officers had to sift through paper contracts or
 comb through GSA Advantage files to stitch together a picture of fair
@@ -57,6 +57,6 @@ To get involved in shaping and advancing this tool (and other
 procurement-related tools), please get in touch with us at
 [calc-18f@gsa.](mailto:calc-18f@gsa.gov)[gov](mailto:calc-18f@gsa.gov).
 
-##Other digial tools
+##Other digital tools
 
 CALC is one of the numerous digital tools including [OASIS Discovery](http://www.oasisdiscovery.com/), PM/CPI Prices Paid Visualization, and the Statement of Work Library available on the [Professional Services Category Hallway](https://hallways.cap.gsa.gov/) that support and improve how the federal community acquires professional services.

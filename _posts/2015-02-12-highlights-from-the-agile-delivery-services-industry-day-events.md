@@ -4,6 +4,7 @@ date: '2015-02-12'
 layout: post
 image: /assets/blog/agile-day/agile-day.jpg
 tags:
+- agile bpa
 - agile
 - 18f consulting
 - events
