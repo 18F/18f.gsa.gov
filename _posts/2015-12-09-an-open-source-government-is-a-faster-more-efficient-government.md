@@ -6,7 +6,10 @@ authors:
 - cm
 tags:
 - open source
-- our projects
+- agency work
+- best practices
+- collaboration tools
+
 excerpt: "Regulation 479 is the first Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) regulation on the eRegulations platform. This collaboration is an excellent example of how open source development helps 18F deliver valuable services to our clients and the American public."
 description: "Regulation 479 is the first Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) regulation on the eRegulations platform. This collaboration is an excellent example of how open source development helps 18F deliver valuable services to our clients and the American public."
 image: /assets/blog/atf/eregs-comparison.jpg
