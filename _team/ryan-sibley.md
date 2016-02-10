@@ -5,7 +5,7 @@ full_name: Ryan Sibley
 github:
 last_name: Sibley
 name: ryan-sibley
-role:
+role: Content Designer
 state: DC
 team: Design
 twitter:
