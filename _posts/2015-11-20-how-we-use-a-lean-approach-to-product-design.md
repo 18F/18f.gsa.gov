@@ -6,10 +6,13 @@ authors:
 - brethauer
 - colinmacarthur
 tags:
-- lean
 - design
 - agile
 - how we work
+- best practices
+- communication tools and practices
+- guides
+
 excerpt: "Here at 18F, several product teams (including CALC, Discovery, and EITI) have been experimenting with a lean product design approach to building software, often called “lean UX.” In a nutshell, it is a set of ideas about design and project management that help us focus not just on what we build, but on the outcomes our tools enable."
 description: "Here at 18F, several product teams (including CALC, Discovery, and EITI) have been experimenting with a lean product design approach to building software, often called “lean UX.” In a nutshell, it is a set of ideas about design and project management that help us focus not just on what we build, but on the outcomes our tools enable."
 ---

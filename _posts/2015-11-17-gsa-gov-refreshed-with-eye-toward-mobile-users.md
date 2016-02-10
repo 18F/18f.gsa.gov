@@ -7,8 +7,7 @@ authors:
 tags:
 - gsa
 - design
-- coding
-- consulting
+- web design standards
 excerpt: "GSA unveiled a refreshed gsa.gov website yesterday with a more
 crisp design layout, improved usability, and features geared more toward
 mobile users."

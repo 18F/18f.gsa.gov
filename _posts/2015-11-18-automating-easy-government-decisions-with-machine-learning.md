@@ -5,9 +5,10 @@ layout: post
 authors:
 - anthony-garvan
 tags:
-- data services
-- operational excellence
-- automation
+- machine learning
+- best practices
+- data access
+
 excerpt: "Machine learning is a subfield of computer science that focuses on the
 problem of learning from data. We think there’s a big opportunity to make government
 more efficient by using the massive paper trail that government

@@ -4,10 +4,11 @@ date: 2015-11-06
 authors:
 - vdavez
 tags:
-- micro-purchase
+- micro-purchase platforms
 - open source
-- 18f consulting
+- acquisition services
 - procurement
+
 description: "Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F micro-purchase experiment was $1. And on Wednesday, the winner delivered a solution that passed our acceptance criteria."
 excerpt: "Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F micro-purchase experiment was $1. And on Wednesday, the winner delivered a solution that passed our acceptance criteria."
 image: /assets/blog/micro-purchase/micro-purchase-analytics.jpg
