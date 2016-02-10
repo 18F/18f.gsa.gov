@@ -10,7 +10,7 @@ state: WA
 team:
 twitter:
 ---
-Alan Atlas has been professionally involved in high tech for over 30 years.He has a bachelor of arts degree in psychology from Brown University, a bachelor of science in electrical engineering from the University of Massachusetts, and a master of science in electrical engineering from Georgia Tech. 
+Alan Atlas has been professionally involved in high tech for over 30 years. He has a bachelor of arts degree in psychology from Brown University, a bachelor of science in electrical engineering from the University of Massachusetts, and a master of science in electrical engineering from Georgia Tech. 
 
 His high-tech career spans 30-plus years with 25 years in technical management positions from development manager to chief technology officer. He managed the development of Amazon S3, the Codie-award-winning web service that provides unlimited Internet-connected storage and is a foundational piece of today’s Amazon Cloud.
 
@@ -20,4 +20,4 @@ He said he wanted to work at 18F so he “could share my product development exp
 
 At 18F, he said he enjoys working with clients to revamp their technology product development methodologies.
 
-“The projects I work on are all important initiatives undertaken by various government agencies,” he said. “They are vast in scale and often bring daunting challenges to overcome. None of my work is wasted or unimportant here.”
+“The projects I work on are all important initiatives undertaken by various government agencies,” Alan said. “They are vast in scale and often bring daunting challenges to overcome. None of my work is wasted or unimportant here.”
