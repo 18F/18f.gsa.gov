@@ -7,9 +7,14 @@ authors:
 - juliawinn
 - gramirez
 - eric
+
 tags:
 - how we work
-- culture
+- analytics.usa.gov
+- analytics
+- open data
+- open government
+
 excerpt: "We’ve recently added a few new features to analytics.usa.gov: location data, download data, and expanded downloadable files."
 description: "We’ve recently added a few new features to analytics.usa.gov: location data, download data, and expanded downloadable files."
 image: /assets/blog/dap/analytics-homepage.jpg

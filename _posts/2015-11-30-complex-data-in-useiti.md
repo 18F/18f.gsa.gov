@@ -3,9 +3,7 @@ title: A look at complex data in USEITI
 tags:
 - useiti
 - open data
-- natural resources
-- proactive federal partner
-- us interior
+
 authors:
 - boone
 excerpt: "We've been working with the Office of Natural Resource Revenues on implementing the global Extractive Industries Transparency Initiative (EITI) standard, which includes all kinds of data. One new data point we have this year is the federal production number: The amount of a given resource produced on federal lands."

@@ -5,9 +5,12 @@ authors:
 - bret
 tags:
 - devops
-- our products
+- platforms
 - video
 - cloud.gov
+- best practices
+- security
+
 description: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practice, production-level security and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
 excerpt: "Four weeks ago, we announced cloud.gov, a new platform that will enable small federal teams to rapidly develop and deploy web services with best-practice, production-level security and scalability. Currently, we’re running a small pilot program to prepare to open up cloud.gov to all federal agencies. In the meantime, we’d like to lay out some more details about the project and answer some common questions."
 image: /assets/blog/cloud-gov/cloud-gov-homepage.jpg

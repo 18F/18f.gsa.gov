@@ -5,6 +5,9 @@ authors:
 - noah
 tags:
 - security
+- best practices
+- https
+
 description: "What if we told you that most catastrophic digital security vulnerabilities had one common denominator? One overriding contributor to root causes? Would you believe that one factor is also the biggest impediment to great design and software? That one thing? Complexity."
 excerpt: "What if we told you that most catastrophic digital security vulnerabilities had one common denominator? One overriding contributor to root causes? Would you believe that one factor is also the biggest impediment to great design and software? That one thing? Complexity."
 image: /assets/blog/complexity-and-security/security-documentation-1.jpg

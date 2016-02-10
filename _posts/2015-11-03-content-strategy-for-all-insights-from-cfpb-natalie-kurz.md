@@ -5,7 +5,10 @@ authors:
 - kate
 tags:
 - how we work
-- culture
+- culture change
+- speaker series
+- communication tools and practices
+
 description: "Natalie Kurz, a content strategist at the Consumer Financial Protection
 Bureau, recently spoke at 18F about some best practices for creating and promoting digestible, user-friendly content."
 excerpt: "Natalie Kurz, a content strategist at the Consumer Financial Protection
