@@ -6,7 +6,9 @@ authors:
 - bill
 tags:
 - how we work
-- join us
+- hiring
+- talent
+
 excerpt: "Over the past year, the Talent Team has worked hard to improve the 18F
 job application process. We’ve worked hard, but also differently. We
 shifted our view of talent acquisition from a support function to a
