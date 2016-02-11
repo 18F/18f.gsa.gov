@@ -4,8 +4,10 @@ date: 2016-01-22
 authors:
 - kate
 tags:
-- content
-- how we work
+- communication tools and practices
+- content design
+- education
+
 excerpt: "The Writing Lab is a virtual writing center where anyone at 18F can
 get personalized writing and editing help from members of the content
 and outreach teams."

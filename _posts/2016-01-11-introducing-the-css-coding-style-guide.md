@@ -14,10 +14,9 @@ authors:
 - jeremiak
 
 tags:
-- css
-- frontend
-- programming
-- style guide
+- design
+- guides
+- tools you can use
 ---
 
 18F is releasing our [CSS coding style guide](https://pages.18f.gov/frontend/css-coding-styleguide/), which specifies our best practices and rules for writing consistent, maintainable CSS code. It was built with extensive user research to ensure we accurately understood the problems our developers were facing and to match them up with conventions in the public frontend community. 
