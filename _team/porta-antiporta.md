@@ -10,19 +10,14 @@ state: IL
 team: Product
 twitter:
 ---
+Porta Antiporta has traveled through the "full stack" of software product delivery. He started as a software engineer with eventual stints in product management and strategy . He has a computer engineering degree from the University of Michigan and an MBA from the Kellogg School of Management.
 
-Porta Antiporta started his career at Motorola as an embedded software engineer. He has also worked in product management and strategy. He has a computer engineering degree from the University of Michigan and a master’s degree in business administration from the Kellogg School of Management.
+Before joining 18F, he was the product owner of GoHealth's online health insurance marketplace that interfaces heavily with Healthcare.gov. 
 
-He has run the full gamut of software from being a developer to product strategy and definition.
+As the son of a United Nations diplomat living in Italy, Porta saw the immense impact of public servants.  
 
-Before joining 18F, he was the product owner of an online health insurance marketplace for GoHealth, a startup that interfaces heavily with Healthcare.gov. 
+"The U.N. provided me with opportunities seldom experienced by others. Working at 18F allows me to serve and pay back this debt, by making our government more accessible through tech," he said.
 
-Porta, the son of a United Nations diplomat, said he was able to see the impact of public servants while growing up in Italy.
+Going through the naturalization process to become a U.S. citizen, Porta experienced firsthand how non-user-centric design can hinder getting social services to those that need it the most.
 
-“I've always wanted to pay back the debt that I owe as the U.N. covered most of my undergraduate education,” he said.
-
-A naturalized U.S. citizen, Porta said he has experienced “how non-user-centric design can hinder getting social services to those that need it the most.”
-
-Working at 18F gives him the opportunity to “serve and give back to society by making our government more accessible through tech.”
-
- 
+He is currently the project lead for the redesign of the legal resources section of FEC.gov. The team is tasked with making those services more readily accessible and reducing barriers that make it difficult to navigate complex campaign finance regulations.
