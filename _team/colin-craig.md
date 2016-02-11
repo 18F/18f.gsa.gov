@@ -7,7 +7,7 @@ last_name: Craig
 name: colin-craig
 role: 
 state: NC
-team: 
+team: Engineering
 twitter: 
 ---
 
