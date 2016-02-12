@@ -10,12 +10,11 @@ state: DC
 team: Design
 twitter:
 ---
+Ryan Sibley has worked as a writer, reporter and researcher for 8 years, focusing mainly on understanding and improving the way government communicates with its citizens.
 
-Ryan Sibley has worked as a writer, reportern and researcher for 8 years, focusing mainly on understanding the way government information and data is translated to its citizens.
+She worked with the Sunlight Foundation where she made government data understandable to the general public, provided tools citizens can use to inform themselves, and reported on issues related to how government functions.
 
-She has worked with the Sunlight Foundation where she made government data understandable to the general public and provided tools they can use to inform themselves on issues.
-
-“18F is an opportunity to improve citizens' experience from the inside,” she said. “People should be able to feel like the government is communicating effectively with them and the government should be trying to figure out what tools and information citizens need to improve their lives. I want to help with these things.”
+“For someone like me, 18F is an opportunity to improve citizens' experience from the inside,” she said. “People should be able to feel like the government is communicating effectively with them and the government should be trying to figure out what tools and information citizens need to improve their lives. I want to help with these things.”
 
 Ryan specializes in translating “government speak.”
 
