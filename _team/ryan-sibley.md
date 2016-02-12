@@ -19,3 +19,7 @@ She worked with the Sunlight Foundation where she made government data understan
 Ryan specializes in translating “government speak.”
 
 “I can help projects speak to their targeted audiences without leaving out important details or oversimplifying complex ideas,” she said. “I'm also skilled in piecing together information in order to tell whole, comprehensive stories when the information is otherwise scattered or incomplete.”
+
+At 18F, her main project has been to rewrite the instructions for using the GSA IT Schedule 70, a contracting vehicle for the federal government.
+
+"This is a good example of a project that requires gathering lots of information and determining the best way to present it so citizens can understand it and use it," she said. "I've also assisted in editing consulting documents and in conducting user research. All I've done so far have been great examples of the seemingly simple, yet revolutionary things, 18F can do."
