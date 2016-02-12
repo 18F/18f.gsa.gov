@@ -27,13 +27,13 @@ So spread a little love this Valentine’s Day...because nothing says “I love 
 **Accordion to me, you’re the best.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{site.baseurl}}/card/accordion/)
 
 ![A valentines message floating above the draft web standards logo.]({{site.baseurl}}/assets/images/vday/no-standard-way.png)
-**There’s no standard way to say I love you this Valentine’s day.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/no-standard-way.png&url="{{site.baseurl}}/2016/02/12/happy-valentines-day-from-18f/)
+**There’s no standard way to say I love you this Valentine’s day.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{site.baseurl}}/card/no-standard-way/)
 
 ![Valentines messages written on the draft web standards button templates.]({{site.baseurl}}/assets/images/vday/press-all-buttons.png)
-**You press all my buttons.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/press-all-buttons.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
+**You press all my buttons.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{ site.baseurl }}/card/press-all-buttons/)
 
 ![A heart superimposed over the draft web standards grid]({{site.baseurl}}/assets/images/vday/entire-grid.png)
-**My heart would fill this entire grid.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/entire-grid.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
+**My heart would fill this entire grid.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{site.baseurl}}/card/entire-grid/)
 
 ![A rose and a violet with a valentines message.]({{site.baseurl}}/assets/images/vday/roses-violets.png)
-**Roses are #E31C3D Violets are #0071BC.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/roses-violets.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
+**Roses are #E31C3D Violets are #0071BC.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{site.baseurl }}/card/roses-violets/)
