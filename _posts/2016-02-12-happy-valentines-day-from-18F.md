@@ -34,3 +34,6 @@ So spread a little love this Valentine’s Day...because nothing says “I love 
 
 ![""]({{site.baseurl}}/assets/images/vday/entire-grid.png)
 **My heart would fill this entire grid.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/entire-grid.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
+
+![""]({{site.baseurl}}/assets/images/vday/roses-violets.png)
+Roses are #E31C3D Violets are #0071BC. Send this card to someone on Twitter!
