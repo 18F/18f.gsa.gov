@@ -24,10 +24,10 @@ These tools — and these Valentine’s Day cards — follow industry-standard w
 So spread a little love this Valentine’s Day...because nothing says “I love you” like sharing our Draft U.S. Web Design Standards cards.
 
 ![The draft web standards accordion with a valentines message exposed.]({{site.baseurl}}/assets/images/vday/accordion.png)
-**Accordion to me, you’re the best.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/card/accordion/)
+**Accordion to me, you’re the best.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20{{site.baseurl}}/card/accordion/)
 
 ![A valentines message floating above the draft web standards logo.]({{site.baseurl}}/assets/images/vday/no-standard-way.png)
-**There’s no standard way to say I love you this Valentine’s day.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/no-standard-way.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
+**There’s no standard way to say I love you this Valentine’s day.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/no-standard-way.png&url="{{site.baseurl}}/2016/02/12/happy-valentines-day-from-18f/)
 
 ![Valentines messages written on the draft web standards button templates.]({{site.baseurl}}/assets/images/vday/press-all-buttons.png)
 **You press all my buttons.** [Send this card to someone on Twitter!](https://twitter.com/intent/tweet?text=Happy%20Valentines%20Day%20from%20the%20Draft%20U.S.%20Web%20Design%20Standards%20team!%20https://18f.gsa.gov/assets/images/vday/press-all-buttons.png&url="https://18f.gsa.gov/2016/02/12/happy-valentines-day-from-18f/)
