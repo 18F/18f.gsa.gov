@@ -85,6 +85,9 @@ collections:
   press:
     output: true
     permalink: /press/:name/
+  cards:
+    output: true
+    permalink: /card/:name/
 
 full_rebuild: true
 
