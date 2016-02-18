@@ -26,16 +26,16 @@ Starting today, you’ll see a dropdown from the main
 to view the same dashboard, but filtered for websites that are
 administered by one of 10 specific agencies:
 
--   [Department of Commerce(DOC)](https://analytics.usa.gov/commerce/)
--   [Department of Education (ED)](https://analytics.usa.gov/ed/)
--   [Department of Energy (DOE)](https://analytics.usa.gov/energy/)
--   [Department of the Interior (DOI)](https://analytics.usa.gov/doi/)
--   [Department of Justice (DOJ)](https://analytics.usa.gov/doj/)
--   [Department of Veterans Affairs (VA)](https://analytics.usa.gov/va/)
--   [Environmental Protection Agency (EPA)](https://analytics.usa.gov/epa/)
--   [National Aeronautics and Space Administration (NASA)](https://analytics.usa.gov/nasa/)
--   [National Archives and Records Administration (NARA)](https://analytics.usa.gov/nara/)
--   [Small Business Administration (SBA)](https://analytics.usa.gov/sba/)
+-   [Department of Commerce](https://analytics.usa.gov/commerce/)
+-   [Department of Education](https://analytics.usa.gov/education/)
+-   [Department of Energy](https://analytics.usa.gov/energy/)
+-   [Department of the Interior](https://analytics.usa.gov/interior/)
+-   [Department of Justice](https://analytics.usa.gov/justice/)
+-   [Department of Veterans Affairs](https://analytics.usa.gov/veterans-affairs/)
+-   [Environmental Protection Agency](https://analytics.usa.gov/environmental-protection-agency/)
+-   [National Aeronautics and Space Administration](https://analytics.usa.gov/national-aeronautics-space-administration/)
+-   [National Archives and Records Administration (NARA)](https://analytics.usa.gov/national-archives-records-administration/)
+-   [Small Business Administration](https://analytics.usa.gov/small-business-administration/)
 
 What do these pages show me?
 ----------------------------
