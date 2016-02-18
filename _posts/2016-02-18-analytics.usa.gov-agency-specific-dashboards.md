@@ -34,7 +34,7 @@ administered by one of 10 specific agencies:
 -   [Department of Veterans Affairs](https://analytics.usa.gov/veterans-affairs/)
 -   [Environmental Protection Agency](https://analytics.usa.gov/environmental-protection-agency/)
 -   [National Aeronautics and Space Administration](https://analytics.usa.gov/national-aeronautics-space-administration/)
--   [National Archives and Records Administration (NARA)](https://analytics.usa.gov/national-archives-records-administration/)
+-   [National Archives and Records Administration](https://analytics.usa.gov/national-archives-records-administration/)
 -   [Small Business Administration](https://analytics.usa.gov/small-business-administration/)
 
 What do these pages show me?
