@@ -80,6 +80,7 @@ module Dashboard
         project_data['redirect_from'].push("project/#{original_name}")
       end
       project_data['name'] = original_name.downcase
+      project_data['permalink'] = "#{site['baseurl']}/#{original_name.downcase}"
 
       munge_licenses project_data
       munge_github project_data, projects
