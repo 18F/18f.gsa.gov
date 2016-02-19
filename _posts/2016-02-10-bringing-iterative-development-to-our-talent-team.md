@@ -8,6 +8,7 @@ tags:
 - how we work
 - hiring
 - talent
+- join us
 
 excerpt: "Over the past year, the Talent Team has worked hard to improve the 18F
 job application process. We’ve worked hard, but also differently. We
