@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<!-- stage notice -->
+<div class="stage-bug">
+  <span>This site is in <a href="{{ site.baseurl }}/stages/">alpha</a>. The content contained is not final.</span>
+</div>
+
+<section class="container bare">
+
+  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/">
+      <i class="icon-18f-logo"></i>
+      <span class="accessible-not-visible">18f Home</span>
+    </a>
+  </div>
+
+  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+    {{ content }}
+  </div>
+
+</section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+</html>
