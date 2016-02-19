@@ -8,7 +8,7 @@ permalink: /dashboard/
 {% assign beta = (site.data.projects | where:"stage","beta")%}
 {% assign live = (site.data.projects | where:"stage","live")%}
 {% assign projects = [discovery, alpha, beta, live] %}
-<section class="dashboard">
+<section id="main" class="dashboard">
   <h1>{{page.title}}</h1>
   <p class="lead">We are building digital services for the American people. Follow our progress and get involved here.</p>
 
