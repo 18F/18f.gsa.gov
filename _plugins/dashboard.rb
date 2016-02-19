@@ -11,6 +11,7 @@ module Dashboard
     def initialize(site, project_id)
       @site = site
       @base = site.source
+      @baseurl = site.data['baseurl']
       @dir = File.join 'project', project_id
       @name = 'index.html'
 
@@ -80,7 +81,7 @@ module Dashboard
         project_data['redirect_from'].push("project/#{original_name}")
       end
       project_data['name'] = original_name.downcase
-      project_data['permalink'] = "#{site['baseurl']}/#{original_name.downcase}"
+      project_data['permalink'] = "#{@baseurl}/#{original_name.downcase}"
 
       munge_licenses project_data
       munge_github project_data, projects
