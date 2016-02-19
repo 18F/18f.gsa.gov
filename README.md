@@ -25,7 +25,7 @@ If you're a new teammate, follow these steps and the #18f-site team will take ca
 
 NOTE: Bios and pictures are scheduled to be added at the end of each month.
 
-**You do not need to edit the team.json or authors.yml files in this repo,** we'll find it in `data-private`.
+**You do not need to edit the team.json or authors.yml files in this repo,** we'll find it in `team-api.18f.gov`.
 
 If you get stuck, or have any other questions, feel free to reach out to anyone on the 18f-site team in channel #18f-site.
 
