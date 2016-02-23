@@ -19,7 +19,7 @@ permalink: /dashboard/
         {% if project.status != "Hold" %}
         <div class="dashboard-projects-content">
           <div>
-            <a href="{{ site.baseurl }}/project/{{ project_name | slugify }}"><h1>{{project.full_name}} <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><span class="status {{ project.stage }}">{% if project.stage %}{{ project.stage }}{% else %}unknown{% endif %}</span></h1></a>
+            <a href="{{ site.baseurl }}/{{ project.permalink }}"><h1>{{project.full_name}} <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><span class="status {{ project.stage }}">{% if project.stage %}{{ project.stage }}{% else %}unknown{% endif %}</span></h1></a>
           </div>
           <div>
             <p>{% if project.description %}{{ project.description }}{% else %}Project description coming soon.{% endif %}</p>
@@ -35,7 +35,7 @@ permalink: /dashboard/
               {% endif %}
               <p><i class="fa fa-github-alt"></i> / <a class="github-url" href="https://github.com/{{repo_name}}">Code</a> / </p>
             {% endif %}
-            <p><i class="fa fa-bar-chart"></i> / <a href="{{ site.baseurl }}/project/{{ project_name }}">Metrics</a> / </p>
+            <p><i class="fa fa-bar-chart"></i> / <a href="{{ site.baseurl }}/{{ project.permalink }}">Metrics</a> / </p>
 
             {% capture blog %}{{ project.blogTag | default: project.blog }}{% endcapture %}
             {% assign tags = blog | split: ',' %}
