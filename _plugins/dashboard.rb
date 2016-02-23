@@ -78,12 +78,10 @@ module Dashboard
       original_name = project_data['name']
       if original_name.scan(/[A-Z]/).size > 0
         project_data['redirect_from'] = []
-        project_data['redirect_from'].push("#{@baseurl}/project/#{original_name}")
-        project_data['redirect_from'].push("#{@baseurl}/dashboard/project/#{original_name}")
+        project_data['redirect_from'].push("#{@baseurl}project/#{original_name}")
       end
-      new_name = original_name.downcase
-      project_data['name'] = new_name
-      project_data['permalink'] = "#{@baseurl}/project/#{new_name}"
+      project_data['name'] = original_name.downcase
+      project_data['permalink'] = "#{@baseurl}/#{project_data['name']}"
 
       munge_licenses project_data
       munge_github project_data, projects
