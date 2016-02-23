@@ -1,6 +1,6 @@
 ---
 title: "Software maintenance is an anti-pattern"
-date: 2016-02-22
+date: 2016-02-23
 authors:
 - sarah
 tags:
@@ -130,7 +130,7 @@ usage metrics. The team would look at:
 -   **Competitive analysis.** What exists in the marketplace that is similar to our solution? If there’s a clear competitor with market traction and a great user experience, the team should perform a cost analysis and if comparable with current costs, consider buying the solution.
 -   **Usability test** with a sampling of current users
 -   **Triage the backlog** of customer complaints, bug reports, and system health indicators — cross-reference with the results of usability tests and usage metrics. Make recommendation of key improvements and changes that would address underlying issues. Prioritize critical concerns.
--   **Use Net Promoter Score** or other happiness metric to evaluate effectiveness of the software solution
+-   **Net Promoter Score** or other happiness metric to evaluate effectiveness of the software solution
 
 Potential impact
 ----------------
