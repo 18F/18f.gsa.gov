@@ -131,7 +131,6 @@ module Dashboard
 
     def generate_project_pages(site)
       site.data['projects'].delete('all')
-      require 'pry'; binding.pry
       site.data['projects'].each do |project_id, project|
         ProjectPage.create site, project_id, project
       end
