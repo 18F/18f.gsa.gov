@@ -84,8 +84,6 @@ module Dashboard
       project_data['name'] = original_name.downcase
       project_data['permalink'] ||= "#{@baseurl}project/#{project_data['name']}"
 
-      puts project_data.inspect
-
       munge_licenses project_data
       munge_github project_data, projects
     end
@@ -133,6 +131,7 @@ module Dashboard
 
     def generate_project_pages(site)
       site.data['projects'].delete('all')
+      require 'pry'; binding.pry
       site.data['projects'].each do |project_id, project|
         ProjectPage.create site, project_id, project
       end
