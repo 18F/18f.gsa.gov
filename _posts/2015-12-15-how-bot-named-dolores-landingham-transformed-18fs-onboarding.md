@@ -6,6 +6,9 @@ authors:
 tags:
 - onboarding
 - how we work
+- communication tools and practices
+- tools you can use
+
 excerpt: "
 Over the past few months, we’ve released several products — including checklists, a handbook, and classes — to help new hires orient themselves to 18F.
 

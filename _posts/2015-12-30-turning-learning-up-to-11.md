@@ -5,7 +5,8 @@ authors:
 - mbland
 tags:
 - how we work
-- culture
+- best practices
+- communication tools and practices
 - video
 excerpt: "The feature that distinguishes high-performing organizations across all
 industries is their ability to facilitate knowledge sharing across the

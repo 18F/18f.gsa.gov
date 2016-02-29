@@ -1,28 +1,23 @@
 ---
+layout: post
 tumblr_url: http://18fblog.tumblr.com/post/80900714466/uncle-sam-wants-you-to-be-a-hero-hacker
 date: '2014-03-27T15:37:00-04:00'
-title: "Uncle Sam wants YOU to be a
-hero hacker"
-description: "The Presidential Innovation Fellows program is
-now accepting applications from creative, energetic policy hackers,
-entrepreneurs, user experience experts, designers, front-end developers,
-back-end developers, system architecture wizards, data wranglers, and
-more to serve their tours of duty to radically improve the delivery of
-government digital services."
-excerpt: "The Presidential Innovation
-Fellows program is now accepting applications from creative, energetic
-policy hackers, entrepreneurs, user experience experts, designers,
-front-end developers, back-end developers, system architecture wizards,
-data wranglers, and more to serve their tours of duty to radically
-improve the delivery of government digital services."
+
+title: "Uncle Sam wants YOU to be a hero hacker"
+
+description: The Presidential Innovation Fellows program is now accepting applications from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, front-end developers, back-end developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
+
+excerpt: The Presidential Innovation Fellows program is now accepting applications from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, front-end developers, back-end developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
 image: ""
 authors:
 - robert
 - mhz
+
 tags:
 - pif
 - presidential innovation fellows
-- hiring
+- talent
+
 ---
 
 The [Presidential Innovation Fellows](https://wh.gov/innovationfellows/)

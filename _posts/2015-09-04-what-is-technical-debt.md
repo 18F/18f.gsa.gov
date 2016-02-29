@@ -6,7 +6,7 @@ authors:
 - chrisc
 - sarah
 tags:
-- 18f consulting
+- best practices
 - technical debt
 excerpt: "In part two of our series on technical debt, we define what technical debt is and how it can negatively impact your organization or project."
 description: "In part two of our series on technical debt, we define what technical debt is and how it can negatively impact your organization or project."

@@ -5,7 +5,10 @@ authors:
 - kate
 tags:
 - how we work
-- culture
+- design
+- speaker series
+- outreach
+
 excerpt: "Matthew Milan, founder of and design leader at software design firm Normative, visited 18F’s main office to share his insights into the importance of the shared mindset and how your team can develop its own. Here are some of his takeaways."
 description: "Matthew Milan, founder of and design leader at software design firm Normative, visited 18F’s main office to share his insights into the importance of the shared mindset and how your team can develop its own. Here are some of his takeaways."
 image: /assets/blog/speaker-series/matthew-milan.jpg

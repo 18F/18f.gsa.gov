@@ -4,9 +4,9 @@ date: 2016-01-21
 authors:
 - melody
 tags:
-- interior
-- interview
-- success stories
+- partners in government
+- communication tools and practices
+
 excerpt: "One of my favorite projects is the U.S. Department of the Interior&#39;s work on social media. I recently asked Rebecca Matulka, the senior digital media strategist for Interior what she’s learned while running an online community that helps Interior achieve its larger strategic goals."
 description: "One of my favorite projects is the U.S. Department of the Interior&#39;s work on social media. I recently asked Rebecca Matulka, the senior digital media strategist for Interior what she’s learned while running an online community that helps Interior achieve its larger strategic goals."
 image: /assets/blog/interior/interior-deer.jpg

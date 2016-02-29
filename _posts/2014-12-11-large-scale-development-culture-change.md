@@ -12,7 +12,8 @@ authors:
 - mbland
 
 tags:
-- culture
+- culture change
+- best practices
 - how we work
 
 ---

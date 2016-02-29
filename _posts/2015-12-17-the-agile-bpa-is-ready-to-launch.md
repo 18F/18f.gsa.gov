@@ -4,8 +4,8 @@ authors:
 - vdavez
 tags:
 - agile bpa
-- our projects
-- acquisition
+- acquisition services
+
 description: "Today, we're pleased to officially say that Pool Three of the Agile BPA is ready to launch. Although we announced the awardees earlier this year, there were multiple protests related to the Agile BPA. Last night, we learned that the final protest has been resolved."
 excerpt: "Today, we're pleased to officially say that Pool Three of the Agile BPA is ready to launch. Although we announced the awardees earlier this year, there were multiple protests related to the Agile BPA. Last night, we learned that the final protest has been resolved."
 date: 2015-12-17 14:00

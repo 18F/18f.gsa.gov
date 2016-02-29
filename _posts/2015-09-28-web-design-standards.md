@@ -7,11 +7,13 @@ authors:
 - maya
 - colinmacarthur
 tags:
-- proactive federal partner
+
 - our projects
-- design
-- usds
+- web design standards
+- u.s. digital service
 - open source
+- design 
+
 excerpt: The U.S. Web Design Standards is the U.S. government’s very own set of common UI components and visual styles for websites. It’s a resource designed to make things easier for government designers and developers, while raising the bar on what the American people can expect from their digital experiences.
 description: The U.S. Web Design Standards is the U.S. government’s very own set of common UI components and visual styles for websites. It’s a resource designed to make things easier for government designers and developers, while raising the bar on what the American people can expect from their digital experiences.
 image: /assets/blog/web-design-standards/home.png

@@ -3,12 +3,13 @@ title: New RFP ghostwriting service to improve contract success
 date: '2015-03-30'
 layout: post
 image: "/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif"
+
 tags:
-- 18f consulting
+- aquisition services
 - rfp ghostwriting
-- services
 - agile
 - procurement
+
 authors:
 - chrisc
 - robert

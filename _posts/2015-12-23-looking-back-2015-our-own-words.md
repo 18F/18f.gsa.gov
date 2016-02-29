@@ -4,8 +4,11 @@ authors:
 - melody
 tags:
 - how we work
-- our projects
-- 18f
+- agency work
+- transformation services
+- acquisition services
+- communication tools and practices
+
 description: "2015 was a big year for 18F. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
 excerpt: "2015 was a big year for 18F. We almost doubled in size, worked with 28 different agency partners, and released products ranging from Design Method Cards to cloud.gov. Internally, we improved onboarding and our documentation by releasing guides on topics as diverse as content, accessibility, and creating good open source projects. To mark the end of the year, we reached out to everyone at 18F and asked them to reflect on a meaningful project they worked on this year."
 image: /assets/blog/fast-company/jumpshot.jpg

@@ -2,17 +2,19 @@
 title: "Five ways to turn a bad idea into a great one: Steve Portigal event recap"
 layout: post
 image: /assets/blog/portigal-event-image/portigalevent.jpg
+
 tags:
-- 18f
 - speaker series
 - design
 - user research
+- user-centered design
+
 authors:
 - kate
 - nick
 
-excerpt: "Last Friday, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
-description: "Last Friday, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
+excerpt: "In February, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
+description: "In February, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
 ---
 
 ![Steve Portigal presenting at 18F]({{site.baseurl}}/assets/blog/portigal-event-image/portigalevent.jpg)

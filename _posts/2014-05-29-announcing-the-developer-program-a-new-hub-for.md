@@ -1,26 +1,21 @@
 ---
+layout: post
 date: '2014-05-29T17:15:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/87233336788/announcing-the-developer-program-a-new-hub-for
-title: "Announcing the /Developer Program: a new hub for federal API
-creators"
-description: "We recently launched our /Developer Program
-(pronounced \"slash developer\") to help federal agencies develop
-useful, robust APIs. The Program is a collection of educational
-resources, opportunities to engage the community for help and feedback,
-and tools that can help you build APIs — essentially an ever-growing
-knowledge base curated by 18F. We affectionately named the /Developer
-Program after the common practice of providing API documentation and
-links on government websites at website.gov/developer."
-excerpt: "We recently launched our [/Developer Program](https://18f.github.io/API-All-the-X) (pronounced \"slash
-developer\") to help federal agencies develop useful, robust APIs. The
-Program is a collection of educational resources, opportunities to
-engage the community for help and feedback, and tools that can help you
-build APIs — essentially an ever-growing knowledge base curated by 18F."
+
+title: "Announcing the /Developer Program: a new hub for federal API creators"
+
+description: "We recently launched our /Developer Program (pronounced \"slash developer\") to help federal agencies develop useful, robust APIs. The Program is a collection of educational resources, opportunities to engage the community for help and feedback, and tools that can help you build APIs — essentially an ever-growing knowledge base curated by 18F. We affectionately named the /Developer Program after the common practice of providing API documentation and links on government websites at website.gov/developer."
+
+excerpt: We recently launched our <a href="https://18f.github.io/API-All-the-X">/Developer Program</a> (pronounced "slash developer") to help federal agencies develop useful, robust APIs. The Program is a collection of educational resources, opportunities to engage the community for help and feedback, and tools that can help you build APIs — essentially an ever-growing knowledge base curated by 18F.
+image: ""
 authors:
 - leah
 - gray
+
 tags:
-- /developer
+- education
+- evangelism
 - api
 ---
 

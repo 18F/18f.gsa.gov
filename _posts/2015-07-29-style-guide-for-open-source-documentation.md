@@ -4,11 +4,12 @@ date: 2015-07-29
 layout: post
 authors:
 - melody
+
 tags:
 - open source
 - guides
-- github
-- documentation
+- communication tools and practices
+
 excerpt: "The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally."
 description: "The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally."
 image: /assets/blog/open-source-guide/screenshot-of-guide.png

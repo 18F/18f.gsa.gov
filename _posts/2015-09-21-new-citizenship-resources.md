@@ -3,8 +3,8 @@ title: New citizenship resources demystify the naturalization process
 tags:
 - design
 - how we work
-- our projects
-- proactive federal partner
+- agency work
+- uscis
 authors:
 - kate
 - jhunter

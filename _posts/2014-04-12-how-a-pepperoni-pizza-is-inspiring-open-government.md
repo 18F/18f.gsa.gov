@@ -1,24 +1,26 @@
 ---
+layout: post
 date: '2014-04-12T12:04:11-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/82487787744/how-a-pepperoni-pizza-is-inspiring-open-government
+
 title: "How a pepperoni pizza inspires open government"
-description: "Easy access to detailed tracking of processes has become more and more
-popular. Whether using Amazon.com, UPS, Uber or United Airlines, people
-expect instant feedback. They want to immediately see the status of a
-process upon which they depend."
-excerpt: "Easy access to detailed
-tracking of processes has become more and more popular. Whether using
-Amazon.com, UPS, Uber or United Airlines, people expect instant
-feedback. They want to immediately see the status of a process upon
-which they depend."
+
+description: "Easy access to detailed tracking of processes has become more and more popular. Whether using Amazon.com, UPS, Uber or United Airlines, people expect instant feedback. They want to immediately see the status of a process upon which they depend."
+
+excerpt: "Easy access to detailed tracking of processes has become more and more popular. Whether using Amazon.com, UPS, Uber or United Airlines, people expect instant feedback. They want to immediately see the status of a process upon which they depend."
+
+image: ""
 authors:
 - memiwhitehead
 - robert
+
 tags:
 - api
-- transparency
+- best practices
 - user-centered design
-- code
+- partners in government
+
+
 ---
 
 Easy access to detailed tracking of processes has become more and more

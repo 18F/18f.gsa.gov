@@ -5,7 +5,10 @@ authors:
 - mbland
 tags:
 - how we work
-- culture
+- best practices
+- communication tools and practices
+- guides
+
 excerpt: "The internal knowledge-sharing initiatives we’re working on are also
 of immediate benefit to other organizations, and will maximize our
 impact on government IT beyond product delivery."

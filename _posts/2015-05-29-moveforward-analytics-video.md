@@ -6,7 +6,7 @@ authors:
 - andre
 tags:
 - events
-- analytics
+- analytics.usa.gov
 - video
 - open data
 excerpt: "See the power of open data and open source software in this presentation about analytics.usa.gov from 18F’s Leah Bannon and Charles Worthington of the U.S. Digital Service."

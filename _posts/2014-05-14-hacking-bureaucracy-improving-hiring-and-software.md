@@ -2,27 +2,28 @@
 layout: post
 date: '2014-05-14T11:02:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/85724876053/hacking-bureaucracy-improving-hiring-and-software
-title: "Hacking bureaucracy: improving hiring and software deployment"
-description: "When asked what it is we do, one quick answer is, \"We’re
-hacking bureaucracy.\" While it may sound provocative, it isn’t."
-excerpt: "When asked what it is we do, one quick answer is, \"we’re hacking
-bureaucracy.\" While it may sound provocative, it isn’t.
 
-In the movies, hackers are often dangerous criminals who break into
-large systems, but in the software development community, \"hacker\"
-describes the way someone thinks and works rather than a malicious
-activity — hackers are problem solvers. We consider ourselves hackers in
-that positive sense: productively disruptive and curious. See <a href='https://www.schneier.com/blog/archives/2006/09/what_is_a_hacke.html'>\"What is a Hacker?\"</a> by Bruce Schneier for a wonderful definition."
+title: "Hacking bureaucracy: improving hiring and software deployment"
+
+description: When asked what it is we do, one quick answer is, "We’re hacking bureaucracy." While it may sound provocative, it isn’t.
+excerpt: <p>When asked what it is we do, one quick answer is, "we’re hacking bureaucracy." While it may sound provocative, it isn’t.</p>
+
+<p>In the movies, hackers are often dangerous criminals who break into large systems, but in the software development community, "hacker" describes the way someone thinks and works rather than a malicious activity — hackers are problem solvers. We consider ourselves hackers in that positive sense: productively disruptive and curious. See <a href="https://www.schneier.com/blog/archives/2006/09/what_is_a_hacke.html">"What is a Hacker?"</a> by Bruce Schneier for a wonderful definition.</p>
+
+image: ""
+
 authors:
 - greg
 - noah
+
 tags:
-- hacking bureaucracy
+- culture change
 - how we work
 - culture
 - hiring
----
 
+
+---
 When asked what it is we do, one quick answer is, "we’re hacking
 bureaucracy." While it may sound provocative, it isn’t.
 

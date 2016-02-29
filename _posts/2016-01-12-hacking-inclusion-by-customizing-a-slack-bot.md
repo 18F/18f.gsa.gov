@@ -15,7 +15,7 @@ authors:
 
 tags:
 - how we work
-- inclusive workspace
+- communication tools and practices
 ---
 
 How do you nudge people to make better decisions with their language?

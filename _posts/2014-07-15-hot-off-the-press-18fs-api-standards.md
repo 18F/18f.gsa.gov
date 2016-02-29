@@ -1,17 +1,24 @@
 ---
+layout: post
 date: '2014-07-15T14:41:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/91868213233/hot-off-the-press-18fs-api-standards
+
 title: "Hot off the press: 18F's API standards"
-description: "We recently released the first version of our <a href='https://github.com/18F/api-standards'>API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future."
-excerpt: "We recently released the first version of our <a href='https://github.com/18F/api-standards'>API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future."
+
+description: We recently released the first version of our <a href="https://github.com/18F/api-standards">API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future.
+excerpt: We recently released the first version of our <a href="https://github.com/18F/api-standards">API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future.
+image: ""
+
 authors:
 - alan
 - eric
+
 tags:
 - api
+- best practices
 - how we work
----
 
+---
 We recently released the first version of our [API
 Standards](https://github.com/18F/api-standards) — a set of
 recommendations and guidelines for API production. It is our intention

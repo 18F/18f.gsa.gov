@@ -1,25 +1,25 @@
 ---
+layout: post
 date: '2014-09-18T15:21:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/97827848353/getting-to-work-for-the-american-people
+
 title: "Getting to work for the American people"
+
 image: /assets/blog/getting-to-work/18fdc-pif.jpg
-description: "Over the last
-six months, 18F has embarked on a mission to transform the way the U.S.
-Government builds and buys digital services. We’re currently working
-with more than half a dozen agencies to help them deliver on their
-missions in a design-centric, agile, open, and data-driven way."
-excerpt: "Over the last six months, 18F has embarked on a mission to transform the
-way the U.S. Government builds and buys digital services. We’re
-currently working with more than half a dozen agencies to help them
-deliver on their missions in a design-centric, agile, open, and
-data-driven way."
+
+description: Over the last six months, 18F has embarked on a mission to transform the way the U.S. Government builds and buys digital services. We’re currently working with more than half a dozen agencies to help them deliver on their missions in a design-centric, agile, open, and data-driven way.
+
+excerpt: Over the last six months, 18F has embarked on a mission to transform the way the U.S. Government builds and buys digital services. We’re currently working with more than half a dozen agencies to help them deliver on their missions in a design-centric, agile, open, and data-driven way.
+
 authors:
 - hillary
 - aaron
 - greg
+
 tags:
 - how we work
-- team
+- 18f
+
 ---
 
 Over the last six months, we've embarked on a mission to transform the

@@ -2,23 +2,22 @@
 layout: post
 tumblr_url: http://18fblog.tumblr.com/post/81413136391/ask-us-almost-anything
 date: '2014-04-01T15:44:00-04:00'
+
 title: "Ask us (almost) anything"
-description: "GitHub for Government did their very first AMA (Ask Me
-Anything) last week with Philadelphia's Chief Data Officer, Mark Headd.
-After some prodding by GitHub's Head Bureaucat, Ben Balter, 18F decided
-to use this new avenue to do some Q and A."
-excerpt: "GitHub for
-Government did their very first AMA (Ask Me Anything) last week with
-Philadelphia's Chief Data Officer, Mark Headd. After some prodding by
-GitHub's Head Bureaucat, Ben Balter, 18F decided to use this new avenue
-to do some Q and A."
+
+description: "GitHub for Government did their very first AMA (Ask Me Anything) last week with Philadelphia's Chief Data Officer, Mark Headd. After some prodding by GitHub's Head Bureaucat, Ben Balter, 18F decided to use this new avenue to do some Q and A."
+excerpt: "GitHub for Government did their very first AMA (Ask Me Anything) last week with Philadelphia's Chief Data Officer, Mark Headd. After some prodding by GitHub's Head Bureaucat, Ben Balter, 18F decided to use this new avenue to do some Q and A."
+
+image: ""
+
 authors:
 - 18F
+
 tags:
-- 18f
-- pif
-- presidential innovation fellows
-- github
+- outreach
+- how we work
+
+
 ---
 
 [GitHub for Government](https://github.com/government) did their very

@@ -2,28 +2,23 @@
 layout: post
 date: '2014-05-10T13:01:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/85329171105/make-gov-apis-better-with-user-experience
+
 title: "Make government APIs better with user experience"
-description: "An API is a product just like a car, a website or a ballpoint pen. It’s
-designed to help someone do something. Products are either designed
-well—they meet expectations and deliver value—or they are designed
-poorly and create frustration and confusion. Inevitably, bad products
-are abandoned without a thought, like an old T-shirt with holes in it."
-excerpt: "An API is a product just like a car, a website or a ballpoint
-pen. It’s designed to help someone do something. Products are either
-designed well—they meet expectations and deliver value—or they are
-designed poorly and create frustration and confusion. Inevitably, bad
-products are abandoned without a thought, like an old T-shirt with holes
-in it."
+
+description: "An API is a product just like a car, a website or a ballpoint pen. It’s designed to help someone do something. Products are either designed well—they meet expectations and deliver value—or they are designed poorly and create frustration and confusion. Inevitably, bad products are abandoned without a thought, like an old T-shirt with holes in it."
+excerpt: "An API is a product just like a car, a website or a ballpoint pen. It’s designed to help someone do something. Products are either designed well—they meet expectations and deliver value—or they are designed poorly and create frustration and confusion. Inevitably, bad products are abandoned without a thought, like an old T-shirt with holes in it."
 image: ""
 authors:
 - jonathanrubin
 - gray
+
 tags:
 - usability
 - usability testing
 - api
 - user-centered design
-- what we learned
+- best practices 
+
 ---
 
 [APIs](https://www.digitalgov.gov/2013/04/30/apis-in-government/) and

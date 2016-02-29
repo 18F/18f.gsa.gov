@@ -3,11 +3,14 @@ title: "Hackathons: not just for folks who code"
 layout: post
 authors:
 - kate
+
 tags:
 - hackathons
 - events
+- outreach
 - how we work
-- howto
+- tools you can use
+
 excerpt: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 image: /assets/blog/how-to-github/image.jpg

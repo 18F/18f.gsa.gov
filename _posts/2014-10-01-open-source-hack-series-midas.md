@@ -16,6 +16,8 @@ tags:
 - open source
 - how we work
 - midas
+- open opportunities
+- hackathons
 
 ---
 ![Two developers coding together]({{site.baseurl}}/assets/blog/midas-oct-hacking/coding.jpg)

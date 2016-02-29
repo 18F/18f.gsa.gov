@@ -4,15 +4,16 @@ date: 2015-09-09
 layout: post
 authors:
 - jtag
+
 tags:
 - agile
 - how we work
-- discovery
-- proactive federal partner
-- operational excellence
-- our projects
 - user research
-- 18f consulting
+- workshops
+- culture change
+- transformation services
+
+
 excerpt: "At 18F Consulting, we experiment with ways to empower agencies to build cost-efficient, excellent
 digital solutions. Recently we partnered with the Department of Labor’s
 Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."

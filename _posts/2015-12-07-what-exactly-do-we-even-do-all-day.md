@@ -4,7 +4,8 @@ date: 2015-12-07
 authors:
 - zaccohn
 tags:
-- our projects
+- transformation services
+- best practices
 - open government
 - transparency
 - how we work

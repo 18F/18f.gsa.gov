@@ -5,8 +5,9 @@ authors:
 - justin-herman
 tags:
 - api
-- digitalgov
-- gsa
+- digitalgov community
+- partners in government
+
 excerpt: "We’d
 like to introduce to you a new API-generating repository for official
 third-party sites, social media platforms, and mobile apps in the United

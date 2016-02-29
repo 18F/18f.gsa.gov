@@ -6,9 +6,9 @@ authors:
 - erica
 tags:
 - design
-- how we work
-- our projects
-- proactive federal partner
+- agency work
+- uscis
+
 excerpt: "Since November, I’ve been working with a team from 18F and
 USCIS to develop my.uscis.gov, a customer-facing site
 to help users navigate their relationship with the agency. USCIS approached 18F about the partnership because they wanted to improve the experience for millions of users like my husband and me."

@@ -8,9 +8,8 @@ authors:
 - robert
 
 tags:
-- protosketching
-- 18f consulting
-- how we work
+- collaboration tools
+- agile
 
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 excerpt: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."

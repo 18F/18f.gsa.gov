@@ -10,8 +10,8 @@ authors:
 
 tags:
 - security
+- best practices
 - https
-- policy
 
 ---
 The `.gov` in government websites carries a lot of weight. Citizens expect government websites to be secure, trustworthy, and reliable. Citizens expect anything they read on a `.gov` website to be official, and they expect any information they submit to that website &mdash; especially if they're submitting personal information &mdash; to be sent safely and only to the government.

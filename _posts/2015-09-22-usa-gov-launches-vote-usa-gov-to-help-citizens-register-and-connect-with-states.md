@@ -3,9 +3,7 @@ title: USA.gov launches vote.USA.gov to help citizens register and connect with 
 authors:
 - sarahcrane
 tags:
-- proactive federal partner
-- voting
-- our work
+- partners in government
 - presidential innovation fellows
 - pif
 excerpt: One of the most important rights of American citizens is the right to vote. It is the foundation of our democracy, and in many ways, the basis of our government. This is why the team at USA.gov is excited to announce the launch of vote.USA.gov.

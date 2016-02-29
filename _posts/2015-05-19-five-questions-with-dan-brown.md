@@ -21,9 +21,8 @@ more. Dan will be speaking at 18F on Friday, May 22 at 1:30 PM."
 tags:
 - events
 - speaker series
-- dan brown
 - design
-- 18f
+
 image: /assets/blog/speaker-series/d-brown.jpg
 ---
 

@@ -4,8 +4,7 @@ date: 2015-11-02
 authors:
 - boone
 tags:
-- our projects
-- eiti
+- agency work
 - open data
 - useiti
 description: During Sunshine Week, we wrote about our progress on the U.S. Extractive Industries Transparency Initiative (USEITI). Since then, the 18F team has worked with the USEITI team to process research on the current state of the project as well as the next steps for the U.S. as a candidate country for the global initiative.

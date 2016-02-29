@@ -1,28 +1,21 @@
 ---
+layout: post
 date: '2014-07-23T10:01:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/92632274379/take-a-gander-at-our-developer-page
+
 title: "Take a gander at our /Developer page"
-description: "A growing
-trend both inside government and outside is to have a simple welcoming
-page for outside developers who may be interested in your team’s
-efforts. This material is often located at website.gov/developer and
-points visitors to technical material that developers may be interested
-in, especially APIs. Collecting technical documentation in one place
-facilitates the developer experience, ensuring that they can find and
-begin using APIs with as little friction as possible."
-excerpt: "A
-growing trend both inside government and outside is to have a simple
-welcoming page for outside developers who may be interested in your
-team’s efforts. This material is often located at website.gov/developer
-and points visitors to technical material that developers may be
-interested in, especially APIs. Collecting technical documentation in
-one place facilitates the developer experience, ensuring that they can
-find and begin using APIs with as little friction as possible."
+
+description: "A growing trend both inside government and outside is to have a simple welcoming page for outside developers who may be interested in your team’s efforts. This material is often located at website.gov/developer and points visitors to technical material that developers may be interested in, especially APIs. Collecting technical documentation in one place facilitates the developer experience, ensuring that they can find and begin using APIs with as little friction as possible."
+excerpt: "A growing trend both inside government and outside is to have a simple welcoming page for outside developers who may be interested in your team’s efforts. This material is often located at website.gov/developer and points visitors to technical material that developers may be interested in, especially APIs. Collecting technical documentation in one place facilitates the developer experience, ensuring that they can find and begin using APIs with as little friction as possible."
+image: ""
 authors:
 - gray
+
 tags:
 - api
-- /developer
+- best practices
+- education
+- evangelism
 ---
 
 A growing trend both inside government and outside is to have a simple

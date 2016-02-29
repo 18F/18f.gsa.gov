@@ -1,18 +1,23 @@
 ---
+layout: post
 date: '2014-09-15T14:39:05-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/97581261153/say-hello-to-the-new-presidential-innovation-fellows
+
 title: "Say hello to the new Presidential Innovation Fellows"
+
 image: ""
-description: "The third class of Presidential Innovation Fellows was
-sworn into duty last week by former CTO Todd Park. We are excited to
-welcome them into the 18F family."
-excerpt: "The third class of
-Presidential Innovation Fellows was sworn into duty last week by former
-CTO Todd Park. We are excited to welcome them into the 18F family."
+description: The third class of Presidential Innovation Fellows was sworn into duty last week by former CTO Todd Park. We are excited to welcome them into the 18F family.
+
+excerpt: The third class of Presidential Innovation Fellows was sworn into duty last week by former CTO Todd Park. We are excited to welcome them into the 18F family.
+
 authors:
 - garren
+
 tags:
 - presidential innovation fellows
+- pif
+- hiring
+
 ---
 
 Former CTO Todd Park swore in the third class of Presidential Innovation

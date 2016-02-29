@@ -2,10 +2,12 @@
 title: "Focus on accessibility"
 layout: post
 image: /assets/blog/accessibility/pictureintweet.png
+
 tags:
 - 18f
 - how we work
 - accessibility
+- best practices
 
 authors:
 - kate
