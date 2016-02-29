@@ -14,7 +14,7 @@ tags:
 - user-centered design
 excerpt: "Today, we’re publishing a full report with findings from our research on the Federal Front Door, as well as a microsite that will contain future research findings related to these topics. In the coming days, we’ll also be publishing the complete report on the 18F blog."
 description: "Today, we’re publishing a full report with findings from our research on the Federal Front Door, as well as a microsite that will contain future research findings related to these topics. In the coming days, we’ll also be publishing the complete report on the 18F blog."
-image: /assets/blog/join-us/team-photo.jpg
+image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 In our [last
@@ -152,7 +152,7 @@ websites and services.
 
 ### Cost-benefit tradeoff
 
-<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="{{site.baseurl}}/assets/blog/federal-front-door/image01.jpg" alt="A two-by-two grid showing how people think when confidence is plotted against resilience. When confidence and resilience are both high, people "will keep trying until a goal is achieved." When confidence is high but resilience is low, people may apply once but will give up if it doesn't go well. With resilience high and low confidence, people may try a few times but will doubt themselves. And when both resilience and confidence are low, they probably won't apply at all."<div>
+<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="{{site.baseurl}}/assets/blog/federal-front-door/image01.jpg" alt="A two-by-two grid showing how people think when confidence is plotted against resilience. When confidence and resilience are both high, people "will keep trying until a goal is achieved." When confidence is high but resilience is low, people may apply once but will give up if it doesn't go well. With resilience high and low confidence, people may try a few times but will doubt themselves. And when both resilience and confidence are low, they probably won't apply at all."></div>
 
 Before using a government service or applying for benefits, people
 assess the return on investment. They want to know if the time and
