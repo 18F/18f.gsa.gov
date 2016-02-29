@@ -1,6 +1,6 @@
 ## 18F's Homepage
 
-This repository contains 18F's website, https://18f.gsa.gov. 
+This repository contains 18F's website, https://18f.gsa.gov.
 
 **Writing a blog post for 18F? You must read our [blog publishing guide](_posts/README.md).**
 
