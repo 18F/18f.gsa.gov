@@ -7,7 +7,6 @@ date: 2015-03-19 10:00:00
 tags:
 - analytics.usa.gov
 - open government
-- digital analytics program
 - open data
 
 authors:

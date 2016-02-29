@@ -5,7 +5,6 @@ authors:
 - justin-herman
 tags:
 - api
-- digitalgov
 - digitalgov community
 - partners in government
 

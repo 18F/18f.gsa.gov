@@ -7,7 +7,7 @@ tags:
 - automated testing
 - how we work
 - 18f.gsa.gov
-- communications tools and practices
+- communication tools and practices
 - best practices
 - tools you can use
 
