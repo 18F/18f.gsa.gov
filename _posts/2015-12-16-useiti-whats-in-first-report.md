@@ -5,8 +5,10 @@ authors:
 - corey-mahoney
 tags:
 - useiti
-- our projects
+- agency work
 - open data
+
+
 description: "This week, the U.S. Department of the Interior released the
 first report from the United States Extractives Industry Transparency
 Initiative (USEITI). A major step toward implementing the global

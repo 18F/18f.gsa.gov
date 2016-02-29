@@ -5,10 +5,10 @@ authors:
 - vdavez
 - alla
 tags:
-- micro-purchase
+- micro-purchase platforms
 - procurement
-- 18f consulting
-- federal acquisitions
+- acquisition services
+
 excerpt: "In October 2015, 18F launched an experiment in micro-purchasing.  Given both vendor and government interest in continuing this task, 18F is happy to announce the launch of a new platform for posting and bidding on micro-purchase tasks."
 description: "In October 2015, 18F launched an experiment in micro-purchasing.  Given both vendor and government interest in continuing this task, 18F is happy to announce the launch of a new platform for posting and bidding on micro-purchase tasks."
 image: /assets/blog/micro-purchase/micro-purchase-homepage.jpg
