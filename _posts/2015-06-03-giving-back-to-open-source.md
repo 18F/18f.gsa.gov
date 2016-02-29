@@ -6,7 +6,6 @@ authors:
 - mbland
 tags:
 - open source
-- for a technical audience
 - security
 - hub
 - communication tools and practices

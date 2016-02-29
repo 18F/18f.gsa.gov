@@ -5,9 +5,9 @@ authors:
 - mbland
 tags:
 - how we work
-- culture
-- the hub
-- api
+- best practices
+- communication tools and practices
+- hub
 excerpt: "In the second post in this series on how transparency,
 autonomy, and collaboration produce
 organizational culture change, I describe a few of the

@@ -5,7 +5,7 @@ layout: post
 authors:
 - jhunter
 tags:
-- developer
+- digital services movement
 - events
 excerpt: "Members of the growing federal digital family presented their work at the inaugural moveForward(100); event last week, which featured workshopping, lightning talks, and product demos."
 description: "Members of the growing federal digital family presented their work at the inaugural moveForward(100); event last week, which featured workshopping, lightning talks, and product demos."

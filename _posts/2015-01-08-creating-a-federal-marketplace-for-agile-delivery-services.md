@@ -11,7 +11,7 @@ authors:
 
 tags:
 - agile bpa
-- acquisiton services
+- acquisition services
 - agile
 - procurement
 
