@@ -18,7 +18,7 @@ description: "Over the next two weeks, we’re publishing a full report with fin
 image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
-_Recent research[^1] has made clear that federal agencies need to improve the public’s interactions with the government across the board. Overall, Americans’ satisfaction with federal services is dropping, and currently ranks below their satisfaction with private-sector and local-government services._ 
+_[Recent research](https://www.theacsi.org/news-and-resources/customer-satisfaction-reports/reports-2014/acsi-federal-government-report-2014) has made clear that federal agencies need to improve the public’s interactions with the government across the board. Overall, Americans’ satisfaction with federal services is dropping, and currently ranks below their satisfaction with private-sector and local-government services._ 
 
 _A team of researchers in the General Services Administration studied broad trends in people’s perceptions of and interactions with the government. Those trends will be used to identify and create cross-agency services and resources to improve how the government interacts with the public._
 
@@ -88,4 +88,3 @@ and Cari Wolfson, Focus on UX!. To contact the Federal Front Door team, email [f
 
 
 
-[^1]: American Customer Satisfaction Index® “[ACSI Federal Government Report 2014](https://www.theacsi.org/news-and-resources/customer-satisfaction-reports/reports-2014/acsi-%20federal-government-report-2014)” (January 27, 2015)
