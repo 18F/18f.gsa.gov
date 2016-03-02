@@ -1,29 +1,29 @@
 ---
+layout: post
 date: '2014-05-09T13:49:34-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/85232393363/a-few-notes-on-notalone-gov
+
 title: "A few notes on NotAlone.gov"
-description: "At the end of April,
-Vice President Biden, while rolling out the final report of the White
-House's 90-day Task Force to Protect Students from Sexual Assault,
-announced the launch of NotAlone.gov, a website built by 18F and the
-Presidential Innovation Fellows."
-excerpt: "At the end of April, Vice
-President Biden, while rolling out the final report of the White House's
-90-day Task Force to Protect Students from Sexual Assault, announced the
-launch of NotAlone.gov, a website built by 18F and the Presidential
-Innovation Fellows."
+
+description: "At the end of April, Vice President Biden, while rolling out the final report of the White House's 90-day Task Force to Protect Students from Sexual Assault, announced the launch of NotAlone.gov, a website built by 18F and the Presidential Innovation Fellows."
+
+excerpt: "At the end of April, Vice President Biden, while rolling out the final report of the White House's 90-day Task Force to Protect Students from Sexual Assault, announced the launch of NotAlone.gov, a website built by 18F and the Presidential Innovation Fellows."
+image: ""
 authors:
 - aaron
 - mollieruskin
 - sean
 - noah
+
 tags:
 - presidential innovation fellows
 - 18f
 - culture
 - how we work
-- 1is2many
 - pif
+- agency work
+
+
 ---
 
 At the end of April, Vice President Biden, while [rolling out the final

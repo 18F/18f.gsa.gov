@@ -4,10 +4,13 @@ months"
 date: 2015-12-01
 authors:
 - melody
+
 tags:
 - onboarding
 - how we work
-- culture
+- best practices
+- communication tools and practices
+
 excerpt: "Over the past three months, we’ve released several products that help new hires acclimate to our organization. In this blog post, we’ll detail what we did and why it works really well."
 description: "Over the past three months, we’ve released several products that help new hires acclimate to our organization. In this blog post, we’ll detail what we did and why it works really well."
 image: /assets/blog/onboarding/dolores.jpg

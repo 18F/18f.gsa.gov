@@ -5,9 +5,11 @@ layout: post
 authors:
 - emileigh
 tags:
-- our projects
+- agency work
 - how we work
-- proactive federal partner
+- user-centered design
+- every kid in a park
+
 excerpt: "Every Kid in a Park gives U.S. fourth graders free access to all federal
 lands and water for a full year. Here at 18F, we were proud to develop the site in partnership with the U.S. Department of Interior and other federal land management agencies."
 description: "Every Kid in a Park gives U.S. fourth graders free access to all federal

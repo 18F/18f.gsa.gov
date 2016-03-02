@@ -11,10 +11,10 @@ authors:
 
 tags:
 - testing
-- how we work
+- best practices
 - open source
-- developer
-- culture
+- tools you can use
+
 
 
 ---

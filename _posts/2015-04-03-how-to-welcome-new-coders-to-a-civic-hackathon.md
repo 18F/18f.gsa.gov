@@ -3,11 +3,13 @@ title: 'How to welcome new coders to a civic hackathon'
 date: '2015-04-03'
 layout: post
 image: /assets/blog/govtechhack/IMG_3998.JPG
+
 tags:
-- 18f
 - events
 - how we work
 - hackathons
+- tools you can use
+
 authors:
 - melody
 - becky

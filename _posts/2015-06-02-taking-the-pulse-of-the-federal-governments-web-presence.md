@@ -8,10 +8,11 @@ authors:
 - gray
 - jtindel
 tags:
-- pulse
+- pulse.cio.gov
 - analytics
 - https
-- dap
+- security
+- best practices
 excerpt: "The U.S. federal government is launching a new project to monitor how it's doing at best practices on the web. A sort of health monitor for the U.S. government's websites, it's called Pulse, and you can find it at pulse.cio.gov."
 description: "The U.S. federal government is launching a new project to monitor how it's doing at best practices on the web called Pulse, at pulse.cio.gov."
 image: /assets/blog/pulse/pulse.png

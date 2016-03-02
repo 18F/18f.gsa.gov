@@ -6,8 +6,12 @@ authors:
 - gwynnekostin
 tags:
 - how we work
-- analytics
-- operational excellence
+- analytics.usa.gov
+- agency work
+- digitalgov community
+- partners in government
+
+
 excerpt: "Launched just three years ago, the Digital Analytics Program (DAP) continues to drive the 2012 Digital Government Strategy’s mission to improve the citizen experience by streamlining the collection and analysis of digital analytics data on a federal government-wide scale. Today, 45 agencies — including all CFO Act agencies — have implemented the common code across more than 4,000 public-facing websites, counting 1.5 BILLION pageviews each month."
 description: "Launched just three years ago, the Digital Analytics Program (DAP) continues to drive the 2012 Digital Government Strategy’s mission to improve the citizen experience by streamlining the collection and analysis of digital analytics data on a federal government-wide scale. Today, 45 agencies — including all CFO Act agencies — have implemented the common code across more than 4,000 public-facing websites, counting 1.5 BILLION pageviews each month."
 image: /assets/blog/pulse/analytics.png

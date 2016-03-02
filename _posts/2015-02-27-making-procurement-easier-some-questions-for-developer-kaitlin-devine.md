@@ -3,12 +3,13 @@ title: "Making procurement easier: questions for developer Kaitlin Devine"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png
 date: 2015-03-05
+
 tags:
 - procurement
-- discovery
-- kaitlin devine
-- user research
-- interview
+- discovery.gsa.gov
+- agency work
+
+
 authors:
 - boone
 - elaine
@@ -19,7 +20,7 @@ description: "We recently sat down with developer Kaitlin Devine and asked her a
 ---
 
 
-We recently sat down with Developer Kaitlin Devine and asked her a few
+We recently sat down with developer Kaitlin Devine and asked her a few
 questions about 18F and government procurement. Not familiar with the term
 procurement? It basically means buying stuff. A self-described
 “procurement nerd,” Kaitlin has been working on a project to make the

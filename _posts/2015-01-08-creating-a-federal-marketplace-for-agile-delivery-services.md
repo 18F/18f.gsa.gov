@@ -4,17 +4,18 @@ title: "Creating a federal marketplace for agile delivery services"
 date: 2015-01-08
 description: Details on how 18F is going to create a Federal marketplace for agile delivery services
 excerpt: "The federal government and industry community have been talking about the need for software acquisitions to keep pace with technology cycles — typically 1-3 years. In today’s dynamic environment, however, not even that is fast enough."
+
 authors:
  - chrisc
  - greg
+
 tags:
-- 18f consulting
 - agile bpa
-- delivery
+- acquisition services
 - agile
-- gsa
-- lean
-- modernization
+- procurement
+
+
 image: ""
 ---
 > "The way government does tech is outdated and risky" — [Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/21/the-way-government-does-tech-is-outdated-and-risky/), Oct. 2013

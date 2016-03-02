@@ -5,9 +5,11 @@ layout: post
 authors:
 - chrisc
 - sarah
+
 tags:
-- 18f consulting
+- best practices
 - technical debt
+
 excerpt: "Technical debt is a financial metaphor that software developers use to talk to managers about the “hidden” costs associated with a system’s architecture and codebase. Over a series of upcoming posts, we’re going to explain what technical
 debt is, how to manage it, and some ways to prevent accumulating it."
 description: "Technical debt is a financial metaphor that software developers use to talk to managers about the “hidden” costs associated with a system’s architecture and codebase. Over a series of upcoming posts, we’re going to explain what technical

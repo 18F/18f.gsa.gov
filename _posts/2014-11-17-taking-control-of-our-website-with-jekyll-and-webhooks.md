@@ -10,9 +10,10 @@ authors:
  - boone
 
 tags:
-  - jekyll
-  - technical
-  - howto
+  - 18f.gsa.gov
+  - communication tools and practices
+
+
 
 ---
 [![Our website running with Jekyll]({{site.baseurl}}/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)

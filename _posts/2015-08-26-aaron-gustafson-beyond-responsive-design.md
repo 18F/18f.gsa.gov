@@ -9,7 +9,7 @@ tags:
 - events
 - design
 - speaker series
-- operational excellence
+
 excerpt: "Web standards and accessibility expert Aaron Gustafson recently came to 18F to speak about progressive enhancement and to challenge designers to improve user experience across browsers and devices."
 description: "Web standards and accessibility expert Aaron Gustafson recently came to 18F to speak about progressive enhancement and to challenge designers to improve user experience across browsers and devices."
 image: /assets/blog/aaron-gustafson/mms-gustafson.jpg

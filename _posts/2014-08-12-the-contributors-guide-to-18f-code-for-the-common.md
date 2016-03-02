@@ -1,21 +1,24 @@
 ---
+layout: post
 date: '2014-08-12T12:31:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/94543290971/the-contributors-guide-to-18f-code-for-the-common
+
 title: "The contributor's guide to 18F: code for the common good"
-description: "Transparency in coding makes code more secure. Open source
-development is development in the light, sometimes a harsh light, that
-shows every blemish. At 18F we strongly believe this improves the
-rapidity of our coding and the quality and security of the code."
-excerpt: "Transparency in coding makes code more secure. Open source
-development is development in the light, sometimes a harsh light, that
-shows every blemish. At 18F we strongly believe this improves the
-rapidity of our coding and the quality and security of the code."
+
+description: "Transparency in coding makes code more secure. Open source development is development in the light, sometimes a harsh light, that shows every blemish. At 18F we strongly believe this improves the rapidity of our coding and the quality and security of the code."
+excerpt: "Transparency in coding makes code more secure. Open source development is development in the light, sometimes a harsh light, that shows every blemish. At 18F we strongly believe this improves the rapidity of our coding and the quality and security of the code."
+
+image: ""
 authors:
 - robert
+
 tags:
 - open source
-- public service
+- how we work
+- evangelism
+
 ---
+
 
 Introduction
 ------------

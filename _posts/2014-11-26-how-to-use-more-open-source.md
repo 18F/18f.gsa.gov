@@ -7,9 +7,9 @@ authors:
  - eric
 
 tags:
-- longread
 - open source
-- federal acquisitions
+- acquisition services
+- best practices
 
 image: ""
 

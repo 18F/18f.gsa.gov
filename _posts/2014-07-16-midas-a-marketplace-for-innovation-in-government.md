@@ -3,21 +3,17 @@ layout: post
 date: '2014-07-16T11:01:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/91952641466/midas-a-marketplace-for-innovation-in-government
 title: "Midas: a marketplace for innovation in government"
-description: "Midas is an online platform that brings to life the vision of an
-Innovation Toolkit for government. It's a marketplace of skill building
-opportunities which matches people to projects that they're passionate
-about. You can think of it as \"Kickstarter for people's time\"."
-excerpt: "Midas is an online platform that brings to life the vision of
-an Innovation Toolkit for government. It's a marketplace of skill building opportunities which matches people to projects that they're passionate about. You can think of it as \"Kickstarter for people's time\"."
+description: "Midas is an online platform that brings to life the vision of an Innovation Toolkit for government. It's a marketplace of skill building opportunities which matches people to projects that they're passionate about. You can think of it as \"Kickstarter for people's time\"."
+excerpt:  "Midas is an online platform that brings to life the vision of an Innovation Toolkit for government. It's a marketplace of skill building opportunities which matches people to projects that they're passionate about. You can think of it as \"Kickstarter for people's time\"."
+image: ""
 authors:
 - joe
 - mattchessen
 tags:
-- crowdwork
 - midas
-- platform
+- open opportunities
+- platforms
 ---
-
 [Midas](https://github.com/18f/midas) is an online platform that brings
 to life the vision of an "Innovation Toolkit" for government. It is a
 marketplace of skill building opportunities which matches people to

@@ -6,11 +6,13 @@ authors:
 - mbland
 - emileigh
 - colinmacarthur
+
 tags:
 - how we work
-- training
-- team
-- the hub
+- onboarding
+- communication tools and practices
+- hub
+
 excerpt: "As our team expands to meet federal digital needs, we've learned to
 appreciate documentation for its ability to turn new hires into
 self-sufficient contributors quickly, with minimal disruption to the

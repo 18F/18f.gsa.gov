@@ -3,10 +3,13 @@ title: 'GovTechHack: hacking for civic improvement'
 date: '2015-04-02'
 layout: post
 image: /assets/blog/govtechhack/IMG_4015.JPG
+
 tags: 
-- 18f
 - events
 - hackathons
+- outreach
+- open source
+
 authors:
 - kate
 description: "On a recent breezy San Francisco evening, groups of developers,

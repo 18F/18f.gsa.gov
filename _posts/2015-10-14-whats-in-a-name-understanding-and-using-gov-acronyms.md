@@ -4,8 +4,10 @@ date: 2015-10-14
 authors:
 - emileigh
 tags:
-- content
+- communication tools and practices
+- tools you can use
 - guides
+- how we work
 excerpt: "We have an acronyms section in our Content Guide, a resource we heartily recommend. Acronyms and abbreviations also have a ton of associated history and nuance, which we’re shedding light on here, hopefully to encourage other authors and agencies to think carefully about how they use them in digital tools."
 description: "We have an acronyms section in our Content Guide, a resource we heartily recommend. Acronyms and abbreviations also have a ton of associated history and nuance, which we’re shedding light on here, hopefully to encourage other authors and agencies to think carefully about how they use them in digital tools."
 image: /assets/blog/content-style-guide/style-guide-screen.jpg

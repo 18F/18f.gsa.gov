@@ -2,32 +2,28 @@
 layout: post
 date: '2014-09-04T12:02:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/96625804492/a-new-look-at-the-freedom-of-information-act
+
 title: "A new look at the Freedom of Information Act"
+
 image: /assets/blog/foia/in-hand.jpg
-description: "As demand for information
-continues to grow, it is important to continue iterating the ways we
-refine the FOIA request process. Our effort is one of a number of
-commitments towards creating a more open, transparent government. We
-will explore how to supplement the work that has already been done by
-creating tools to improve the online FOIA requests process by designing
-for the user."
-excerpt: "As demand for information continues to grow, it
-is important to continue iterating the ways we refine the FOIA request
-process. Our effort is one of a number of commitments towards creating a
-more open, transparent government. We will explore how to supplement the
-work that has already been done by creating tools to improve the online
-FOIA requests process by designing for the user."
-tags:
-- foia
-- our projects
-- open data
+
+description: "As demand for information continues to grow, it is important to continue iterating the ways we refine the FOIA request process. Our effort is one of a number of commitments towards creating a more open, transparent government. We will explore how to supplement the work that has already been done by creating tools to improve the online FOIA requests process by designing for the user."
+excerpt: "As demand for information continues to grow, it is important to continue iterating the ways we refine the FOIA request process. Our effort is one of a number of commitments towards creating a more open, transparent government. We will explore how to supplement the work that has already been done by creating tools to improve the online FOIA requests process by designing for the user."
+
 authors:
 - jackie
-- khandelwal
+- shashank
 - majma
 - eric
 - victor
+
+tags:
+- foia
+- agency work
+- open data
+
 ---
+
 
 There are many ways the public can get information from the Federal
 Government. For example, you can check out data.gov to find scores of

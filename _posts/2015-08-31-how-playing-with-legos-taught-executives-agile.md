@@ -5,11 +5,11 @@ layout: post
 authors:
 - zaccohn
 tags:
-- 18f consulting
+- transformation services
 - agile
 - workshop
-- proactive federal partner
-- operational excellence
+
+
 excerpt: "The Small Business Administration was ready to try something different. So they asked 18F Consulting to run an
 “introduction to agile” workshop for their executives. With the help of a bucket of Legos, the executives were able to learn the basics of agile development practices in only an afternoon."
 description: "The Small Business Administration was ready to try something different. So they asked 18F Consulting to run an

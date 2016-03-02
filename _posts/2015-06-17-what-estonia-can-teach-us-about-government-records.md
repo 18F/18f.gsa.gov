@@ -5,8 +5,10 @@ layout: post
 authors:
 - emileigh
 tags:
-- usds
-- event
+- u.s. digital services
+- events
+- digital services movement
+
 excerpt: "At 18F, we were thrilled to meet for a discussion on digital services,
 cyber security, and IT funding with Estonia's most prominent technologists."
 description: "At 18F, we were thrilled to meet for a discussion on digital services,

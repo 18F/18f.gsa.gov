@@ -7,7 +7,7 @@ authors:
 - alan-atlas
 tags:
 - agile
-- 18f consulting
+- best practices
 - how we work
 excerpt: "At 18F, we’ve spent a lot of time working with
 federal agencies and coaching them through the transition to agile, but

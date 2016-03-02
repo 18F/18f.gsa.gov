@@ -1,30 +1,26 @@
 ---
+layout: post
 date: '2014-05-19T11:02:14-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/86214382873/packaging-up-api-usability-testing-for-agency-re-use
+
 title: "Packaging up API usability testing for agency reuse"
-description: "Over the past year, a GSA collaboration has seen a project
-that offers API usability testing to federal agencies go from the pilot
-stage to a regular, robust series. Already, 13 agencies and programs
-have participated, and several more participate with every monthly
-session that passes. The best examples from across the government have
-made clear that one of the most important tasks of API producers is to
-regularly engage their developer community and listen to what they have
-to say. But just encouraging agencies to do this only goes so far."
-excerpt: "Over the past year, a GSA collaboration has seen a project
-that offers API usability testing to federal agencies go from the pilot
-stage to a regular, robust series. Already, 13 agencies and programs
-have participated, and several more participate with every monthly
-session that passes. The best examples from across the government have
-made clear that one of the most important tasks of API producers is to
-regularly engage their developer community and listen to what they have
-to say. But just encouraging agencies to do this only goes so far."
+
+description: "Over the past year, a GSA collaboration has seen a project that offers API usability testing to federal agencies go from the pilot stage to a regular, robust series. Already, 13 agencies and programs have participated, and several more participate with every monthly session that passes. The best examples from across the government have made clear that one of the most important tasks of API producers is to regularly engage their developer community and listen to what they have to say. But just encouraging agencies to do this only goes so far."
+excerpt: "Over the past year, a GSA collaboration has seen a project that offers API usability testing to federal agencies go from the pilot stage to a regular, robust series. Already, 13 agencies and programs have participated, and several more participate with every monthly session that passes. The best examples from across the government have made clear that one of the most important tasks of API producers is to regularly engage their developer community and listen to what they have to say. But just encouraging agencies to do this only goes so far."
+
+image: ""
+
 authors:
 - gray
+
 tags:
 - api
 - usability testing
 - usability
 - open source
+- best practices
+- evangelism
+
 ---
 
 Over the past year, a GSA collaboration has seen [a project that offers

@@ -7,7 +7,9 @@ tags:
 - guides
 - open source
 - how we work
-- operational excellence
+- communication tools and practices 
+- tools you can use
+
 excerpt: "After we launched the 18F Content Guide, we received all kinds of suggestions for updates and improvements. Here's a sampling of some of the improvements we've made recently based on your suggestions."
 description: "After we launched the 18F Content Guide, we received all kinds of suggestions for updates and improvements. Here's a sampling of some of the improvements we've made recently based on your suggestions."
 image: /assets/blog/content-style-guide/style-guide-screen.jpg

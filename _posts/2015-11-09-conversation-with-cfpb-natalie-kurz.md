@@ -5,7 +5,10 @@ authors:
 - kate
 tags:
 - how we work
-- culture
+- culture change
+- speaker series
+- communication tools and practices
+
 description: "Last month, content strategist and UX designer Natalie Kurz from the Consumer Financial Protection Bureau presented at 18F. Prior to her presentation, we had the chance to chat with Kurz via email about her experience working with different types of content, her
 predictions for the field, and the collaborative approaches she recommends."
 excerpt: "Last month, content strategist and UX designer Natalie Kurz from the Consumer Financial Protection Bureau presented at 18F. Prior to her presentation, we had the chance to chat with Kurz via email about her experience working with different types of content, her

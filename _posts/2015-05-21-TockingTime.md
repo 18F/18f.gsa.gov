@@ -4,9 +4,13 @@ date: 2015-05-21
 layout: post
 authors:
 - sean
+
 tags:
-- 18f
 - how we work
+- communication tools and practices
+- tools you can use
+- transparency
+
 excerpt: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. Ultimately, we opted to try rolling our own simple solution using Django: Tock."
 description: "I recently spent time helping with one of our internal frustrations — how members of 18F track how we spend our time. We opted roll out our own simple solution using Django, called Tock."
 image: /assets/blog/tockingtime/tock03.jpg

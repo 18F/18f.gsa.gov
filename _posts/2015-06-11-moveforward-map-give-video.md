@@ -4,10 +4,13 @@ date: 2015-06-11
 layout: post
 authors:
 - andre
+
 tags:
 - events
 - video
+- pif
 - presidential innovation fellows
+
 excerpt: "When Nepal was hit with a devastating earthquake on April 25, the folks
 at MapGive and others in the
 OpenStreetMap community sprang into action, organizing volunteer mappers

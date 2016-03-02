@@ -1,16 +1,23 @@
 ---
+layout: post
 date: '2014-05-11T13:02:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/85434416767/18f-shows-what-is-possible-in-government-with-fbopen
+
 title: "With FBOpen API, 18F shows what's possible in government"
-description: "There has been some great coverage of the new group of tech specialists out of the GSA, dubbed 18F."
-excerpt: "There has been some great coverage of the new group of tech specialists out of the GSA, dubbed 18F."
+description: There has been some <a href="http://e-pluribusunum.com/2014/03/12/at-18f-in-gsa-u-s-seeks-to-tap-the-success-of-the-u-k-s-government-digital-services/">great coverage of the new group of tech specialists out of the GSA</a>, dubbed <a href="https://18f.gsa.gov/">18F</a>.
+excerpt: There has been some <a href="http://e-pluribusunum.com/2014/03/12/at-18f-in-gsa-u-s-seeks-to-tap-the-success-of-the-u-k-s-government-digital-services/">great coverage of the new group of tech specialists out of the GSA</a>, dubbed <a href="https://18f.gsa.gov/">18F</a>.
 image: /assets/blog/fbopen/fbopen-pilot-logo.png
+
 authors:
 - kinlane
+
 tags:
 - fbopen
-- opengov
+- procurement
+- acquisition services
 - api
+- best practices
+
 ---
 
 There has been some [great coverage of the new group of tech specialists

@@ -14,8 +14,6 @@ authors:
 
 tags:
 - open data
-- policy
-- gsa
 - open government
 
 ---

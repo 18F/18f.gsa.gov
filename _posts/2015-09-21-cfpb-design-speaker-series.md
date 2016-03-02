@@ -3,7 +3,6 @@ title: Four questions with the CFPB design team
 date: 2015-09-21 16:52
 tags:
 - events
-- culture
 - design
 - speaker series
 authors:

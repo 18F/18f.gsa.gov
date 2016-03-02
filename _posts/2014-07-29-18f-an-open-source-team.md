@@ -1,29 +1,27 @@
 ---
+layout: post
 date: '2014-07-29T14:01:55-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/93226835135/18f-an-open-source-team
+
 title: "18F: an open source team"
-description: "At 18F, we place a
-premium on developing digital tools and services in the open. This means
-contributing our source code back to the community, actively repurposing
-our code across projects, and contributing back to the open source tools
-we use. For a variety of reasons, we believe that doing so improves the
-final product we create."
-excerpt: "At 18F, we place a premium on
-developing digital tools and services in the open. This means
-contributing our source code back to the community, actively repurposing
-our code across projects, and contributing back to the open source tools
-we use. For a variety of reasons, we believe that doing so improves the
-final product we create."
+
+description: "At 18F, we place a premium on developing digital tools and services in the open. This means contributing our source code back to the community, actively repurposing our code across projects, and contributing back to the open source tools we use. For a variety of reasons, we believe that doing so improves the final product we create."
+
+excerpt: "At 18F, we place a premium on developing digital tools and services in the open. This means contributing our source code back to the community, actively repurposing our code across projects, and contributing back to the open source tools we use. For a variety of reasons, we believe that doing so improves the final product we create."
+image: ""
 authors:
 - majma
 - eric
+
 tags:
 - open source
+- evangelism
 - how we work
-- culture
-- policy
----
+- culture change
+- best practices
 
+
+---
 At 18F, we place a premium on developing digital tools and services in
 the open. This means contributing our source code back to the community,
 actively repurposing our code across projects, and contributing back to

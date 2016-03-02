@@ -1,18 +1,22 @@
 ---
+layout: post
 date: '2014-07-31T13:01:47-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1
+
 title: "Working in public from day one"
-description: "Open source your
-code from day one. Don't wait for a milestone, don't wait for it to be
-stable — do it from the first commit."
-excerpt: "Open source your code
-from day one. Don't wait for a milestone, don't wait for it to be stable
-— do it from the first commit."
+
+description: "Open source your code from day one. Don't wait for a milestone, don't wait for it to be stable — do it from the first commit."
+excerpt: "Open source your code from day one. Don't wait for a milestone, don't wait for it to be stable — do it from the first commit."
+image: ""
 authors:
 - eric
+
 tags:
 - open source
 - how we work
+- evangelism
+- best practices
+
 ---
 
 In the wide world of software, maybe you've heard someone say this, or

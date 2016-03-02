@@ -5,9 +5,11 @@ authors:
 - ryan-sibley
 tags:
 - user research
-- howto
 - user-centered design
 - usability testing
+- tools you can use
+- communication tools and practices
+
 excerpt: "User interviews are, at a minimum, an opportunity for you to ask your
 intended audience about their expectations, what their needs are and to
 get direct feedback on the work you’ve done so far or on what you plan

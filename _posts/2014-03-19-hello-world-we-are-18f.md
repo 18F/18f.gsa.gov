@@ -1,26 +1,23 @@
 ---
+layout: post
 date: '2014-03-19T10:14:29-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/80066867648/hello-world-we-are-18f
+
 title: "Hello, world! We are 18F"
-description: "18F is a startup within GSA,
-encompassing the Presidential Innovation Fellows program and a cutting
-edge digital delivery team. We’re doers, recruited from the most
-innovative corners of industry and the public sector, who are passionate
-about “hacking” bureaucracy to drive efficiency, transparency, and
-savings for government agencies and the American people."
-excerpt: "18F is
-a startup within GSA, encompassing the Presidential Innovation Fellows
-program and a cutting edge digital delivery team. We’re doers, recruited
-from the most innovative corners of industry and the public sector, who
-are passionate about “hacking” bureaucracy to drive efficiency,
-transparency, and savings for government agencies and the American
-people."
+
+description: 18F is a startup within GSA, encompassing the Presidential Innovation Fellows program and a cutting edge digital delivery team. We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about “hacking” bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people.
+
+excerpt: 18F is a startup within GSA, encompassing the Presidential Innovation Fellows program and a cutting edge digital delivery team. We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about “hacking” bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people.
+image: ""
 authors:
 - 18F
+
 tags:
-- 18f
-- team
-- culture
+- transformation services
+- culture change
+- modern practices
+
+
 ---
 
 **What is 18F?**

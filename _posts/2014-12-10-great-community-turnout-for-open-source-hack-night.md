@@ -4,12 +4,11 @@ authors:
 - sarah
 
 tags:
-- user experience
-- ux design
-- 18f events
-- hackathons
-- midas
 - open source
+- how we work
+- midas
+- open opportunities
+- hackathons
 
 
 description: The October Oopen source hack night was a huge success, both as a community event and for the positive impact on the Midas project.

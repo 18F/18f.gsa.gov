@@ -4,10 +4,12 @@ layout: post
 authors:
 - vdavez
 - chrisc
+
 tags:
 - agile
 - how we work
 - transparency
+
 excerpt: "18F Consulting recommends agile development for several reasons, including agile’s emphasis on user needs, continuous integration, and rapid adaptation to changed circumstances. But there is another important reason we recommend agile: its focus on transparency."
 description: "18F Consulting recommends agile development for several reasons, including agile’s emphasis on user needs, continuous integration, and rapid adaptation to changed circumstances. But there is another important reason we recommend agile: its focus on transparency."
 image: /assets/blog/how-to-github/image.jpg

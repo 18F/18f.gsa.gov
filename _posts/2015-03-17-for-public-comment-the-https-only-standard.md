@@ -3,10 +3,12 @@ title: "For public comment: the HTTPS-only standard"
 date: 2015-03-17 10:00:00
 layout: post
 image: /assets/blog/https-standard/screen.png
+
 tags:
 - security
 - https
-- policy
+- best practices
+
 authors:
 - eric
 - gray

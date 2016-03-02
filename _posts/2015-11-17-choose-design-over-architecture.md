@@ -7,8 +7,9 @@ authors:
 tags:
 - technical debt
 - design
-- coding
-- consulting
+- user-centered design
+- best practices
+
 excerpt: "Conventional wisdom often encourages engineers to start with a big architectural overview, but this kind of a grand plan usually leads to technical-debt. Instead of using an architecture-first plan, you should focus on user experience design and software design to help your project avoid technical debt."
 description: "Conventional wisdom often encourages engineers to start with a big architectural overview, but this kind of a grand plan usually leads to technical-debt. Instead of using an architecture-first plan, you should focus on user experience design and software design to help your project avoid technical debt."
 image: /assets/blog/design-over-architecture/architecture-overview.jpg

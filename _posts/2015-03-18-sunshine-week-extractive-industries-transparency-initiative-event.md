@@ -3,13 +3,14 @@ title: 'Sunshine week: extractive industries transparency initiative event'
 date: '2015-03-18'
 layout: post
 image: /assets/blog/useiti-sunshine/useiti.png
+
 tags:
 - open government
 - transparency
 - useiti
-- interior
-- sunshine week
-- eiti
+- agency work
+
+
 
 authors:
 - mhz

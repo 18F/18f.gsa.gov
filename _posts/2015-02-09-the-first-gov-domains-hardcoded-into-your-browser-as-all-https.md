@@ -7,8 +7,8 @@ image: '/assets/blog/hsts/hsts-preload-list.png'
 tags:
 - https
 - security
-- policy
-- hsts
+- best practices
+
 
 authors:
 - eric

@@ -6,8 +6,8 @@ authors:
 - emileigh
 tags:
 - events
-- design
 - speaker series
+- design
 excerpt: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop fighting, start designing,” centered around the design process and inherent conflict therein."
 description: "On Friday, author and designer Dan Brown gave a talk at 18F. “Stop fighting, start designing,” centered around the design process and inherent conflict therein."
 image: /assets/blog/speaker-series/dan-brown.jpg

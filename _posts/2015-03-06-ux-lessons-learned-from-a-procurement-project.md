@@ -3,11 +3,12 @@ title: "UX lessons learned from a procurement project"
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png 
 date: 2015-03-06
+
 tags:
 - procurement
-- discovery
+- discovery.gsa.gov
 - user research
-- interview
+- agency work
 
 authors:
 - boone

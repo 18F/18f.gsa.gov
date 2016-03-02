@@ -3,10 +3,12 @@ title: 'In case you missed it: #a11yhack, an accessibility hackathon'
 date: '2015-04-07'
 layout: post
 image: /assets/blog/a11yhack/a11yhack.jpg
+
 tags:
-- 18f events
+- events
 - hackathons
 - accessibility
+
 authors:
 - jackie
 - alan

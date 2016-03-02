@@ -3,8 +3,12 @@ title: "The EPA's new Environmental Digital Services marketplace"
 date: 2015-12-03
 authors:
 - chrisc
+
 tags:
-- 18f consulting
+- transformation services
+- digital services movement
+- environmental protection agency
+
 excerpt: "The Environmental Protection Agency (EPA) is working on ways to contract with high-quality digital service vendors, which is why they just released a Request for Information (RFI) for creating an Environmental Digital Services marketplace."
 description: "The Environmental Protection Agency (EPA) is working on ways to contract with high-quality digital service vendors, which is why they just released a Request for Information (RFI) for creating an Environmental Digital Services marketplace."
 image: /assets/blog/epa-marketplace/blue-sky-clouds.jpg

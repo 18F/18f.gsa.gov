@@ -4,8 +4,14 @@ date: 2015-12-11
 authors:
 - boone
 tags:
-- testing
+- automated testing
 - how we work
+- 18f.gsa.gov
+- communication tools and practices
+- best practices
+- tools you can use
+
+
 excerpt: "As our blog got more
 complicated, we started making mistakes that were hard to catch before
 publishing. So we came up with a way to catch many of those errors,

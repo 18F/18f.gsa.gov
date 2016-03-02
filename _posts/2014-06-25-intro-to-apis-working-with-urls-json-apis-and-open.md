@@ -1,24 +1,26 @@
 ---
+layout: post
 date: '2014-06-25T11:48:00-04:00'
 tumblr_url: http://18fblog.tumblr.com/post/89867088998/intro-to-apis-working-with-urls-json-apis-and-open
-title: "Intro to APIs: Working with URLs, JSON, APIs, and Open Data —
-without writing any code"
-description: "GSA's digital teams are offering
-a user-friendly intro course to APIs. Regardless of your skill level,
-you will walk away from this lesson understanding what APIs are and how
-developers use them."
-excerpt: "June 27, 2014, from 9:30 a.m. to 11:30
-a.m. Register now. GSA’s digital teams are offering a user-friendly
-intro course to APIs. Regardless of your skill level, you will walk away
-from this lesson understanding what APIs are and how developers use
-them."
+
+title: "Intro to APIs: Working with URLs, JSON, APIs, and Open Data — without writing any code"
+
+description: "GSA's digital teams are offering a user-friendly intro course to APIs. Regardless of your skill level, you will walk away from this lesson understanding what APIs are and how developers use them."
+excerpt: June 27, 2014, from 9:30 a.m. to 11:30 a.m. Register now. GSA’s digital teams are offering a user-friendly intro course to APIs. Regardless of your skill level, you will walk away from this lesson understanding what APIs are and how developers use them.
+
+image: ""
+
 authors:
 - gray
 - eric
+
 tags:
 - api
+- best practices
 - workshop
+- outreach
 - how we work
+
 ---
 
 **June 27, 2014, from 9:30 a.m. to 11:30 a.m.**\

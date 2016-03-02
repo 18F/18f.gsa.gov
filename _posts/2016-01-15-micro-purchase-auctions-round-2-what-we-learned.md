@@ -4,9 +4,9 @@ date: 2016-01-15
 authors:
 - vdavez
 tags:
-- micro-purchase
+- micro-purchase platforms
 - procurement
-- 18f consulting
+- acquisition services
 - open source
 excerpt: "The auctions have closed, the bids are in, the winners are off coding, and some already have been paid. Let’s look at some early lessons from our latest round of micro-purchase auctions."
 description: "The auctions have closed, the bids are in, the winners are off coding, and some already have been paid. Let’s look at some early lessons from our latest round of micro-purchase auctions."

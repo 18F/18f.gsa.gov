@@ -3,11 +3,13 @@ title: One year in and looking forward
 date: '2015-03-20'
 layout: post
 image: "/assets/images/logo-18f.png"
+
 tags:
-- yearone
 - how we work
-- success stories
-- anniversary
+- agency work
+- acquisition services
+- talent
+- platforms
 
 authors:
 - hillary

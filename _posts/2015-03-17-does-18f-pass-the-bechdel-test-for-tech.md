@@ -3,12 +3,11 @@ title: Does 18F pass the Bechdel test for tech?
 date: 2015-03-17 14:00:00
 layout: post
 image: /assets/blog/bechdel/team.jpg
+
 tags:
-- diversity
 - how we work
-- bechdel test
-- culture
-- coding
+- culture change
+
 
 authors:
 - elaine
