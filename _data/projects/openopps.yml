@@ -1,0 +1,45 @@
+---
+full_name: Open Opportunities
+name: openopps
+github:
+- 18F/openopps-platform
+description: |
+  Open Opportunities is creating a network of federal employees that will lead to a more effective, efficient, responsive government by sharing skills and collaborating on projects that support the mission of an agency or the government as a whole. Only 37% of federal employees surveyed believe that creativity & innovation are rewarded. From a total audience of 2.7 million federal employees, the initial target audience are motivate, mission-driven individuals who identify and solve problems for our nation.
+partners:
+- General Services Administration
+- Department of State
+- Department of Health and Human Services
+stage: live
+impact: |
+  Amplify the work of 1 million federal employees.
+milestones:
+- 'September 2014: GSA OHRM signs IAA for GSA Rotational Details and Project Network
+  to move to Open Opportunities'
+- 'September 2015: Authority To Operate'
+- 'August 2015: Open Opportunities expands beyond DigitalGov tasks, OCSIT & 18F roadmaps
+  converge'
+- 'January 2015: HHS transitions FairTrade pilot into Open Opportunities community'
+- 'October 2014: GSA hosts Midas open source hack night in DC'
+- 'October 2014: DigitalGov Open Opportunities pilot starts'
+- 'September 2014: GSA OCSIT signs MOU for Open Opportunities to move to Midas platform'
+- 'September 2014: 18F launches https://midas.18f.us for use by early adopters'
+- 'June 2014: State Department launches Alpha as Crowdwork'
+- 'May 2014: HHS launches Alpha as FairTrade'
+- 'January 2014: 18F begins work on project'
+- 'June 2013: State Department begins project Discovery stage with Presidential Innovation
+  Fellows'
+links:
+- url: https://openopps.digitalgov.gov
+  text: Open Opportunities (live website)
+contact:
+- url: mailto:openopps@gsa.gov
+  text: Open Opportunities Team
+blog:
+- midas
+licenses:
+  dashboard:
+    name: CC0-1.0
+    url: https://github.com/18F/openopps-platform/blob/master/LICENSE.md
+errors:
+- The property '#/' did not contain a required property of 'testable' in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#
+- 'Unknown Team Member: rogeruiz'
