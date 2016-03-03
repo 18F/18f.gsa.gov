@@ -19,7 +19,7 @@ image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 
-_This is part three of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the introduction to the series [here](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) and a complete pdf of the research findings [here](https://labs.usa.gov/#research-report)._
+_This is part three of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
 
 _In yesterday’s post, we [shared the strategies people use](https://18f.gsa.gov/2016/03/02/strategies-people-use-when-interacting-with-the-federal-government/) when interacting with the government. Today we’ll detail how people learn to navigate government services and what barriers exist to accessing services._
 
