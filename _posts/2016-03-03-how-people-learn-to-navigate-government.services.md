@@ -41,6 +41,8 @@ Only one person interviewed reported that they learned about a new program by br
 
 ### Digital Literacy
 
+![An inforgraphic showing that people with low digital literacy depend on family and friends for help, people with medium digital literacy can perform simple tasks but get more frustrated as processes become more complex, and people with high digital literacy say their main barrier is trust.]({{site.baseurl}}/assets/blog/federal-front-door/image06.jpg)
+
 Digital literacy exists on a spectrum. 
 
 At the high end of the spectrum are people who are technologically savvy. They have few barriers to online services, and the barriers they do face tend to be trust-based — that is, centered around whether an online channel will yield them the best results. 
@@ -51,6 +53,8 @@ At the low end of the spectrum are people who are unable to tell that the **www*
 
 ### Digital Access 
 
+![An infographic showing that people with low digital access depend on public resources or a social network, whereas people with high digital access have no technical issues connecting to online services.]({{site.baseurl}}/assets/blog/federal-front-door/image04.jpg)
+
 A correlation exists between digital literacy and digital access. People who are able to afford good internet access at home and own multiple devices are also more likely to be digitally literate. These people have no technical issues connecting to online resources. 
 
 Others may have a smartphone but no internet or computer at home. For these folks, responsive web design and intuitive interaction patterns are crucial; otherwise, they will avail themselves of offline channels, which are often more resource intensive for agencies. Often, people in this group rely on public computers (at libraries or senior centers, for instance) where they often cannot get assistance, so it’s especially important that online services be easy to use.
@@ -58,6 +62,8 @@ Others may have a smartphone but no internet or computer at home. For these folk
 People without access to any devices or the internet are also the least likely to be digitally literate, and vice versa. They may use public resources to go online, but if they do use the internet, they are more likely to do so recreationally. This group is the most likely to seek government services through offline channels such as call centers, mail, or visits to an agency office.
 
 ### English proficiency
+
+![An infographic showing that people with low English proficiency depending on family and friends for help, people with medium English proficiency can use English-based sites if the language is clear and simple, and people with high English proficiency prefer English services of websites.]({{site.baseurl}}/assets/blog/federal-front-door/image05.jpg)
 
 English fluency also exists on a scale, and low fluency presents its own barriers to interacting with the government. In general, bilingual speakers find that non-English translations of government sites are inaccurate or incomplete. They complained that when government sites are available in their native languages, those sites are direct translations from English, and as such are unintelligible. 
 
