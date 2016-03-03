@@ -83,7 +83,6 @@ Alvaro S. shared how he helped his mother out with a question she had about Soci
 _Tomorrow, we’ll detail how people interact with the government when they use proxies._
 
 
-_Additional contributors to this report include Katherine Garklavs, 18F, GSA; Kristina Sommer, Focus on UX!; Ryan Thurlwell, 18F, GSA 
-and Cari Wolfson, Focus on UX!. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
+_Additional contributors to this report include Katherine Garklavs, 18F, GSA and Ryan Thurlwell, 18F, GSA. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
 
 

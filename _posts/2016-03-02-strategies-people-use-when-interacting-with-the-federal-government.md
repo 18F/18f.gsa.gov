@@ -58,6 +58,5 @@ In both scenarios, it is unclear whether the people we talked to would have foun
 
 *Tomorrow, we’ll share how people learn to navigate government services and the barriers they encounter when doing so.*
 
-_Additional contributors to this report include Katherine Garklavs, 18F, GSA; Kristina Sommer, Focus on UX!; Ryan Thurlwell, 18F, GSA 
-and Cari Wolfson, Focus on UX!. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
+_Additional contributors to this report include Katherine Garklavs, 18F, GSA and Ryan Thurlwell, 18F, GSA. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
 
