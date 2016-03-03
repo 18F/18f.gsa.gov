@@ -15,9 +15,19 @@ NASA’s design choices — in particular, their iconic [“meatball”](http://
 
 18F Design Presents is extremely happy to be welcoming Dr. Barry to the 18F headquarters on Friday, March 4, for a discussion of NASA’s logos and the importance of design to government missions. In preparation for the event, we had an email conversation with Dr. Barry about the meatball (and more). Read on for the full conversation. 
 
+![A picture taken from the International Space station showing the Eastern seaboard of the United States]({{site.baseurl}}/assets/blog/nasa-historian/space.jpg)
+
 ***
 
-**Kate Garklavs**: NASA switched from “the meatball” logo to “the worm” (a text-based logo) in 1975 — how was that decision received, internally? How did the public react to this transition, and how did the public reaction reflect (or deviate from) what NASA expected?
+**Kate Garklavs**: NASA switched from “the meatball” logo, pictured here:
+
+![NASA's meatball logo]({{site.baseurl}}/assets/blog/nasa-historian/meatball.jpg)
+
+ to “the worm”, pictured here:
+
+![NASA's meatball logo]({{site.baseurl}}/assets/blog/nasa-historian/worm-logo.jpg)
+
+in 1975 — how was that decision received, internally? How did the public react to this transition, and how did the public reaction reflect (or deviate from) what NASA expected?
 
 **Dr. Bill Barry**: The change from the NASA Insignia (the "meatball") to the NASA Logotype (the "worm") came as a complete surprise to most NASA staff. The rebranding was part of a larger government-wide Federal Graphics Improvement Program and only a limited number of people at NASA Headquarters had any knowledge that the change was in the works. Coming on the heels of the post-Apollo reductions and cutbacks, this was largely seen as another blow against the aspirations of NASA employees to have an energetic space exploration program. Public reaction was relatively muted — this just wasn't a big issue for the public — though the elegance of the logotype and the thoughtful work done in preparing it paid off as the public quickly recognized the new logo and embraced it.
 
@@ -30,6 +40,8 @@ Among those involved in the redesign, the expectation was probably that the newe
 **KG:** And just one more meatball question: What accounts for its longstanding popularity with members of the public?   
 
 **BB:** Among those who were alive at the time (and many who have come since), the highly visible NASA insignia during the Apollo program came to be visual shorthand for everything that they imagined NASA stood for. The meatball is not only recognized in the U.S. — everywhere I've traveled in the world, people instantly recognize the meatball as meaning NASA.
+
+![NASA's space historian, Bill Barry]({{site.baseurl}}/assets/blog/nasa-historian/space-historian.jpg)
 
 **KG:** Changing gears a bit, what’s the most interesting (and perhaps surprising) thing you’ve learned about NASA since starting as their Chief Historian in 2010?
 
