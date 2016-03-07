@@ -1,12 +1,12 @@
 ---
-city: 
+city: Washington
 first_name: Matt
 full_name: Matt Spencer
 github: 
 last_name: Spencer
 name: matt
 role: 
-state: 
+state: D.C.
 team: 
 twitter: 
 ---
