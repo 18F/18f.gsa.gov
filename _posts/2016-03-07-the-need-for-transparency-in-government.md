@@ -1,6 +1,6 @@
 ---
 title: "Transparency within government helps build public trust"
-date: 2016-03-04
+date: 2016-03-07
 authors:
 - colinmacarthur
 - carolyn
