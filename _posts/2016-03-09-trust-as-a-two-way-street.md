@@ -1,6 +1,6 @@
 ---
 title: "Trust as a two-way street between the government and the people it serves"
-date: 2016-03-08
+date: 2016-03-09
 authors:
 - colinmacarthur
 - carolyn
