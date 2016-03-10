@@ -35,23 +35,23 @@ Generally speaking, our interviewees understand that applying for a service or b
 
 How they feel about providing that information is a bit of a mixed bag. Most of the people we spoke to are willing to share their information when it provides a clear benefit to them, though not everyone holds this view. Based on our interviews, we identified three primary attitudes people hold on sharing their information with the government.  
 
-A small group of people we spoke to trust the government implicitly with their data and have no problem sharing their personal information. More than one person we interviewed said, “I have nothing to hide.” In general, this group trusts that the government is working in their favor and wants it to have the information it needs to perform its job well, even if requested information isn’t directly related to the process at hand. 
+A small group of people we spoke to trust the government implicitly with their data and have no problem sharing their personal information. More than one person we interviewed said, “I have nothing to hide.” In general, this group trusts that the government is working in their favor and wants it to have the information it needs to perform its job well, even if requested information isn’t directly related to the process at hand.
 
 Most of the people we interviewed generally trust the government with their data but only want to provide the information necessary to apply for a service or benefit. They don’t want to give the government information it doesn’t need, but have no problem providing information if doing so will benefit them.  
 
-Others want to avoid providing their information to the government as much as possible, and may avoid applying for services or benefits if it means providing a lot of personal information to an agency. When they do provide their information, they’d like to know why it’s being requested and how it’s going to be used. They  worry that the government will use their own information against them in the future. 
+Others want to avoid providing their information to the government as much as possible, and may avoid applying for services or benefits if it means providing a lot of personal information to an agency. When they do provide their information, they’d like to know why it’s being requested and how it’s going to be used. They  worry that the government will use their own information against them in the future.
 
 Although many people accept that they need to share information — sometimes very personal information — with the government, their acceptance shouldn’t be mistaken for eagerness. Most people would prefer forms collect less information and do so more judiciously.
 
 ![An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties.]({{site.baseurl}}/assets/blog/federal-front-door/image00.jpg)
 
-### Information sharing between agencies 
+### Information sharing between agencies
 
 The majority of our interviewees reported frustration at having to provide the same information over and over. In most cases, people don’t understand (or aren’t interested in) the technological or policy restrictions that prevent agencies from sharing data — they are simply annoyed at repeated requests for the same information.  When a person has to interact with multiple agencies at once — for example, applying for unemployment and food stamps at the same time — and those agencies can’t pass basic information to each other, that person will have to answer the same questions many times over.
 
-Those who are suspicious and private would prefer that agencies never share their information, even if it means they have to provide the same information repeatedly to different agencies. Some assume that government agencies already share their information and are resigned to the prospect that their information might be passed from one agency to another. 
+Those who are suspicious and private would prefer that agencies never share their information, even if it means they have to provide the same information repeatedly to different agencies. Some assume that government agencies already share their information and are resigned to the prospect that their information might be passed from one agency to another.
 
-Alvaro S., who fills out the same government form every six months to receive benefits, doesn’t understand why the government asks for information it already has — or should have — in its system. Likewise, a college student in Jacksonville said the government’s financial aid forms are extremely repetitive. 
+Alvaro S., who fills out the same government form every six months to receive benefits, doesn’t understand why the government asks for information it already has — or should have — in its system. Likewise, a college student in Jacksonville said the government’s financial aid forms are extremely repetitive.
 
 When we presented hypothetical scenarios that would allow for more and easier information sharing among agencies, participants voiced broad and often enthusiastic support. Interviewees who had imported their income information from the IRS when filling out the FAFSA appreciated the ease of the flow and the reduced risk of error.  
 
@@ -61,12 +61,6 @@ Interestingly, people had fewer concerns about information security and privacy 
 
 
 
-_Tomorrow we end our series what we’ll focus on in the next phase of our project._
+_Tomorrow we end our series with what we’ll focus on in the next phase of our project._
 
 _Additional contributors to this report include Katherine Garklavs, 18F, GSA and Ryan Thurlwell, 18F, GSA. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
-
-
-
-
-
-
