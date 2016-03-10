@@ -27,6 +27,8 @@ _In yesterday’s post, we [detailed when people decide to trust the federal gov
 
 ## Sharing personal information
 
+![A graphic showing how people might view sharing information. Some never want their information shared, and others are on a continuum.]({{site.baseurl}}/assets/blog/federal-front-door/image03.jpg)
+
 ### The desire for privacy exists on a spectrum
 
 Generally speaking, our interviewees understand that applying for a service or benefit  requires them to share personal information. This includes general, identifying information, such as name and date of birth, along with interaction-specific information.  
@@ -40,6 +42,8 @@ Most of the people we interviewed generally trust the government with their data
 Others want to avoid providing their information to the government as much as possible, and may avoid applying for services or benefits if it means providing a lot of personal information to an agency. When they do provide their information, they’d like to know why it’s being requested and how it’s going to be used. They  worry that the government will use their own information against them in the future. 
 
 Although many people accept that they need to share information — sometimes very personal information — with the government, their acceptance shouldn’t be mistaken for eagerness. Most people would prefer forms collect less information and do so more judiciously.
+
+![An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties.]({{site.baseurl}}/assets/blog/federal-front-door/image00.jpg)
 
 ### Information sharing between agencies 
 
