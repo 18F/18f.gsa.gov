@@ -1,5 +1,5 @@
 ---
-title: "What people think about before deciding to share personal information with the government"
+title: "Designing services that are accessible, transparent, and easy for all to use"
 date: 2016-03-11
 authors:
 - colinmacarthur
