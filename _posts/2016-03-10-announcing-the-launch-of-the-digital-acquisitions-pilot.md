@@ -128,7 +128,7 @@ modern practices.
 
 Additionally, 18F has delivered nearly one dozen consulting engagements that has potentially contributed to the savings or avoidance of tens, if not hundreds, of millions of dollars in costs through activities such as [RFP
 Ghostwriting](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/). (We’re currently in the process of formally analyzing and quantifying the financial impact.) 18F has also introduced innovative procurement approaches through its [Micro-markets](https://18f.gsa.gov/2015/11/18/the-current-future-of-18f-marketplaces/) and [Micro-purchase
-Marketplace](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/).[](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/).
+Marketplace](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/).
 
 The Department of Health and Human Services has also created a “Buyers
 Club” within their Idea Lab, aimed at spreading the adoption of
