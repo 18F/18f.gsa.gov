@@ -14,7 +14,7 @@ tags:
 - web design standards
 - user-centered design
 excerpt: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we'll detail when people decide to trust the federal government and how they view the federal government vs. private companies."
-description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, detail when people decide to trust the federal government and how they view the federal government vs. private companies."
+description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we'll detail when people decide to trust the federal government and how they view the federal government vs. private companies."
 image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
