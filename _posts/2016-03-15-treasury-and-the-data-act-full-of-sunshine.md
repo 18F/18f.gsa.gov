@@ -65,9 +65,8 @@ this early work.
 
 Federal spending information collected as part of the DATA Act will be
 available to the public online. The next version of what is now called
-[USAspending.gov will include more
-options to get the data you’re looking
-for](https://www.usaspending.gov). Here, too, Treasury’s DATA Act
+[USAspending.gov](https://www.usaspending.gov) will include more
+options to get data. Here, too, Treasury’s DATA Act
 Project Management Office is doing some small experiments.
 
 -   Completed a user discovery sprint with 18F to identify distinct audiences and their needs within the large federal spending data community.
