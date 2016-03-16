@@ -240,7 +240,7 @@ government, it is willing to struggle against the old way in order to Do
 future as we were when we made one giant leap for mankind. (I wrote [*a
 blog post*](https://esq.io/blog/posts/joining-18f/) that says more.)” - {{ "vdavez" | team_link }}
 
-### **Operations**
+### Operations
 
 *Team Ops handles all activities related to travel, non-travel
 purchases, legal matters, and equipment requests.*
@@ -298,7 +298,7 @@ warm, and dedicated to the type of public service that I value — and I
 wanted to share and learn from and with them. (It’s been great.)” -
 {{ "melody" | team_link }}
 
-### **Product **
+### Product
 
 *Each project at 18F has a product lead whose job is to ensure the
 project is moving forward. A product lead looks at the whole picture and
@@ -379,7 +379,7 @@ Sebok**](https://18f.gsa.gov/team/anna/)
 “I joined 18F because of the people and the mission.” - [**Raphy
 Villas**](https://18f.gsa.gov/team/raphy/)
 
-### **Strategy**
+### Strategy
 
 *We help agencies transform into modern, high-functioning organizations
 through new management models, culture change, modern practices,
@@ -508,7 +508,7 @@ the giant well of talent here at 18F, and it's been incredible to work
 with such a huge variety of ridiculously talented people whom I get to
 learn from every day.” **— Alex Pandel**
 
-### **Infrastructure**
+### Infrastructure
 
 *The infrastructure team helps 18F navigate the “federal compliance
 architecture.” This work applies to much more than technology: it
@@ -569,7 +569,7 @@ year*](https://www.youtube.com/watch?v=gvAIvauhQGQ&feature=youtu.be&t=30m3s)
 : It's such an honor to be able to work on improving this great nation
 of ours.” - [**Kara DeFrias**](https://18f.gsa.gov/team/kara/)
 
-### **Engineering**
+### Engineering
 
 *18F Engineering is responsible for delivering high quality, robust,
 open source software. We also evangelize best practices relating to
@@ -752,7 +752,7 @@ the privilege of being on the team that builds the FEC’s first API and
 are building[
 ](http://beta.fec.gov/)[*beta.fec.gov*](http://beta.fec.gov/).” {{ "lindsay" | team_link }}
 
-### **Talent**
+### Talent
 
 *The Talent Team is a group of problem solvers dedicated to making
 government the most sought-after workplace. In short, we are building
@@ -782,7 +782,7 @@ interactions with the United States government. What better way to make
 an impact than that? I was totally excited and thrilled at the prospect
 of joining 18F.” {{ "amanda-schonfeld" | team_link }}
 
-### **Business Strategy**
+### Business Strategy
 
 *Intake is the process by which 18F listens to potential partners,
 discusses possible solutions to their challenges, and determines
