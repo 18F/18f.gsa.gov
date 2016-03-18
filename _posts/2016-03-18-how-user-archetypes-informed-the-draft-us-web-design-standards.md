@@ -83,7 +83,7 @@ and early in their career.
 
 #### Who they are
 
-They’re excited to prove their metal, but they may not be experienced
+They’re excited to prove their mettle, but they may not be experienced
 enough to create new designs or stand up prototypes quickly.
 
 #### Concerns and challenges
