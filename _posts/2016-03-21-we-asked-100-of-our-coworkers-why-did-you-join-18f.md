@@ -1,11 +1,14 @@
 ---
 title: "We asked over 100 of our coworkers: Why did you join 18F?"
-date: 2016-03-16
+date: 2016-03-21 12:00 EDT
 authors:
 - melody
 tags:
-excerpt: ""
-description: ""
+- second anniversary
+- how we work
+- culture
+excerpt: "Why did people make the decision to join 18F? We asked people on every team to reflect on why they came here."
+description: "Why did people make the decision to join 18F? We asked people on every team to reflect on why they came here."
 ---
 At the end of last year, we asked everyone at 18F to [reflect on a
 meaningful

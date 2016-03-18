@@ -1,11 +1,14 @@
 ---
 title: "We asked over 100 of our coworkers: What have you loved working on?"
-date: 2016-03-18
+date: 2016-03-23 12:00 EDT
 authors:
 - melody
 tags:
-excerpt: ""
-description: ""
+- second anniversary
+- how we work
+- culture
+excerpt: "One of the best parts of working at 18F is the focus on meaningful, mission-driven projects. But which projects? We asked everyone across the organization to tell us what they've most enjoyed working on. Here are their responses."
+description: "One of the best parts of working at 18F is the focus on meaningful, mission-driven projects. But which projects? We asked everyone across the organization to tell us what they've most enjoyed working on. Here are their responses."
 ---
 Two weeks ago, we asked everyone across 18F to answer a few simple questions: [Why did you join 18F?]() [What was your path to get here?]() And what have you loved working on?
 
