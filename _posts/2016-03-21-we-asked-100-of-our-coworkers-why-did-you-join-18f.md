@@ -7,17 +7,7 @@ tags:
 excerpt: ""
 description: ""
 ---
-<style>
-.response-block {
-  overflow: auto;
-  margin: 0 0 1em 0;
-}
-.response-block img {
-  float: left;
-  margin: 0 1em 0 0;
-  width: 250px;
-}
-</style>At the end of last year, we asked everyone at 18F to [reflect on a
+At the end of last year, we asked everyone at 18F to [reflect on a
 meaningful
 project](https://18f.gsa.gov/2015/12/23/looking-back-2015-our-own-words/)
 they worked on in 2015. We received dozens of responses, ranging from
