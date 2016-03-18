@@ -44,7 +44,7 @@ of the organization.*
 
 {{"britta-gustafson" | team_photo }}
 
-“I previously worked for Cydia, the alternative to the App Store for jailbroken iOS, which supports a community that makes unofficial customizations for iOS. iOS jailbreaking has a complex legal status, and my coworker and I participated in the Digital Millennium Copyright Act’s exemption comment process related to this. Both of us found this engagement with government fascinating and exciting, and we both turned toward more involvement in government — he got more active in local government, and I joined 18F!” - {{"britta_gustafson" | team_link }}
+“I previously worked for Cydia, the alternative to the App Store for jailbroken iOS, which supports a community that makes unofficial customizations for iOS. iOS jailbreaking has a complex legal status, and my coworker and I participated in the Digital Millennium Copyright Act’s exemption comment process related to this. Both of us found this engagement with government fascinating and exciting, and we both turned toward more involvement in government — he got more active in local government, and I joined 18F!” - {{"britta-gustafson" | team_link }}
 
 {{ "mhz" | team_photo }}
 
@@ -223,9 +223,9 @@ how to build, and who will build it.*
 
 “I was involved in the SOPA/PIPA fight, ended up helping run a few government-themed hackathons where I met Todd Park. Fast forward a few years, and I was consulting with the State of Washington to help them do lean startup, customer development, and design thinking. I was speaking at the Lean Startup Conference, ran into Todd again, and, long story short: He’s very persuasive and now I’m here!” - {{ "zaccohn" | team_link }}
 
-{{ romke | team_photo }}
+{{ "romke" | team_photo }}
 
-“I came to 18F after working on a project with the NCTC (National Counterterrorism Center) and saw the need to for more creative technologist in gov.” - {{ romke | team_link }}
+“I came to 18F after working on a project with the NCTC (National Counterterrorism Center) and saw the need to for more creative technologist in gov.” - {{ "romke" | team_link }}
 
 “A non-traditional life intertwined with tech entrepreneurship, online startups, interactive design, and public service. Served as youth pastor, founded a brand design firm, scaled a tech training organization, worked on Capitol Hill and was a Resident in the Venture Incubation Program at the Harvard Innovation Lab working on applying fantasy football to the legislative process. After graduating from my master's program at Harvard’s Kennedy School, found my way to a place where all the pieces of my life come together.” - **Philip Harding**
 
@@ -243,7 +243,7 @@ how to build, and who will build it.*
 
 {{ "alex-pandel" | team_photo }}
 
-“I got involved with advocacy and community organizing with CalPIRG while studying graphic design at [the University of Southern California. After several years as a freelance designer post-college, I found a place to marry those two interests in Code for America, where I spent a year partnering with the City of New Orleans to build technology tools to make it easier for residents to understand what's happening with blighted properties in their neighborhoods. Code for America was where I discovered that my natural tendency to ask a million questions and doggedly seek the simplest path had a name, and was where I cultivated my UX design, research, and product management skillsets. After our fellowship, my CfA teammates and I formed a company around our fellowship project (then "BlightStatus," now "Civic Insight"), where I served as Founder & Chief Product Officer until our company was acquired last fall. After several years focused on technology for government at the local level, 18F was a natural next step, and I'm thrilled to be here.” **— Alex Pandel**
+“I got involved with advocacy and community organizing with CalPIRG while studying graphic design at [the University of Southern California. After several years as a freelance designer post-college, I found a place to marry those two interests in Code for America, where I spent a year partnering with the City of New Orleans to build technology tools to make it easier for residents to understand what's happening with blighted properties in their neighborhoods. Code for America was where I discovered that my natural tendency to ask a million questions and doggedly seek the simplest path had a name, and was where I cultivated my UX design, research, and product management skillsets. After our fellowship, my CfA teammates and I formed a company around our fellowship project (then "BlightStatus," now "Civic Insight"), where I served as Founder & Chief Product Officer until our company was acquired last fall. After several years focused on technology for government at the local level, 18F was a natural next step, and I'm thrilled to be here.” — {{ "alex-pandel" | team_link }}
 
 ### Infrastructure
 
