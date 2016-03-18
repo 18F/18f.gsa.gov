@@ -28,9 +28,7 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “Love bureaucracy hacking. Love being entrepreneurial in a large, complex environment that can seem impervious. (Oh yes! It's happening.) Loved when a senior Department of Defense official commended me for putting “Philip sized holes in the walls” across the Pentagon.” (Ed. note: Not literally.) - **Philip Harding**
 
-“I continue to pinch myself about the type of work I get to do at 18F. Not only are the impact areas incredibly compelling (helping the Navy place the right officers in the right jobs at the right time; making it easier for EPA to monitor air emissions and pesticides ingredients to keep our environment safe), but the fact that I get to wear all three of my design research, UX design, and product strategy hats interchangeably is just crazy-awesome. I am totally in the zone when helping our agency partners move themselves out of "analysis paralysis" and into experimenting with small prototypes designed to meet the needs of real humans, and the fact that I get to do that every day at 18F makes me ridiculously, geekily happy.” - **Alex Pandel**
-
-{{ "lane-becker" | team_photo }}
+“I continue to pinch myself about the type of work I get to do at 18F. Not only are the impact areas incredibly compelling (helping the Navy place the right officers in the right jobs at the right time; making it easier for EPA to monitor air emissions and pesticides ingredients to keep our environment safe), but the fact that I get to wear all three of my design research, UX design, and product strategy hats interchangeably is just crazy-awesome. I am totally in the zone when helping our agency partners move themselves out of "analysis paralysis" and into experimenting with small prototypes designed to meet the needs of real humans, and the fact that I get to do that every day at 18F makes me ridiculously, geekily happy.” - {{ "alex-pandel" | team_link }}
 
 “So far I have helped plan and execute on projects as wide-ranging as helping our armed forces better coordinate their global talent pool; aiding the Department of the Treasury in bringing a new level of financial transparency to the public; and assisting the Environmental Protection Agency in thinking through ways to modernize their approach to labeling and inspecting pesticides. Each project has been different, but in every case I’ve been able to see how my efforts are going to positively impact the way our country functions, and I’m extremely grateful of the opportunity to get to do this work.” - {{ "lane-becker" | team_link }}
 
@@ -183,8 +181,6 @@ _When people are asked about their favorite part of 18F, many say ‘the people!
 
 “I’ve really enjoyed building out the [micro-purchase platform](https://micropurchase.18f.gov/) and creating a successful proof-of-concept for open-source code procurement in the federal space. Great, effective code doesn’t have to require year-long procurement processes, and I feel fortunate to have been able to work on the project and enable so many vendors to ship code (and get paid) using agile methodologies and open source best practices.” - {{ "alla" | team_link}}
 
-{{ "alan" | team_photo }}
-
 “I have loved working on the [micro-purchase platform](https://micropurchase.18f.gov/). It’s been remarkable to help with a project that started out as an idea and within a few months turn it into something real.” - {{ "alan" | team_link}}
 
 “The [micro-purchase platform](https://micropurchase.18f.gov/).” - **Laura Gerhardt**
@@ -219,11 +215,7 @@ _When people are asked about their favorite part of 18F, many say ‘the people!
 
 “I have loved working on the [College Scorecard](https://collegescorecard.ed.gov/), knowing that it could make a huge difference for people seeking an education. I wish I'd had a resource like that back when I was looking for a college!” - {{ "shawn" | team_link}}
 
-{{ "steven-harms" | team_photo }}
-
 “I love working on [College Scorecard](https://collegescorecard.ed.gov/), where we can quickly, easily, and transparently provide facts about our educational institutions and how they impact our lives.” - {{ "steven-harms" | team_link}}
-
-{{ "vraj-mohan" | team_photo }}
 
 “I have loved working on [eRegs](https://atf-eregs.18f.gov/) — my only project so far. I have enjoyed the infectious enthusiasm and pride displayed by everyone in doing their civic duty.” - {{ "vraj-mohan" | team_link}}
 
@@ -266,8 +258,6 @@ _When people are asked about their favorite part of 18F, many say ‘the people!
 ### Everything!
 
 _These people picked more than one project..._
-
-{{ "roger-ruiz" | team_photo }}
 
 “I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities](https://openopps.digitalgov.gov) platform or the [Federal Front Door](https://labs.usa.gov/) welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes.” - {{ "roger-ruiz" | team_link}}
 

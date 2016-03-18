@@ -81,11 +81,7 @@ contracting officers, developers, and product manager who manage access
 to the Agile Delivery Services Marketplace, RFP ghostwriting consulting,
 and the micro-purchase platform.*
 
-{{ "alan" | team_photo }}
-
 “My path to 18F involved some serendipity. When I arrived in D.C. a few years ago, I was starting law school and thinking that I would pursue a traditional legal career. But I never stopped thinking like a programmer. Whether I was freelancing for some extra money, writing open source code, or using GitHub Issues to manage my reading assignments, the urge to keep writing software never went away. On a quiet winter afternoon in 2012, I was sitting at my desk for an Federal Communications Commission (FCC)  legal internship and noticed something truly amazing: an FCC GitHub Organization. I asked my supervisor if I could meet whoever it was that was behind this. I met with that person, we talked about how I loved government-y things and could write software. He told me that I would be spending the rest of my internship working in his office. That person turned out to be future-fellow-18Fer Gray Brooks. Until that moment, I had never known that there was any demand for the skills possessed by lawyer-coders. It was truly eye-opening, and it set the stage for me to thrive at 18F a couple years later.” {{ "alan" | team_link }}
-
-{{ "laura-gerhardt" | team_photo }}
 
 “I was a web developer for a small consultancy, and then I went to graduate school for public policy, during which I was an [Office of Science and Technology Policy] intern and was really intrigued about 18F, and decided I would love to work for them after finishing up school” - {{ "laura-gerhardt" | team_link }}
 
@@ -106,8 +102,6 @@ and the micro-purchase platform.*
 {{ "steven-reilly" | team_photo }}
 
 “My path to 18F was through civic hacking — specifically Code for DC. It helped me demystify technology and showed me some of the possibilities. My favorite thing to work on so far is not a project per se but rather information sharing between team members. There are so many subject-matter experts here, and it’s wonderful to be able to teach somebody something new while learning from them, as well.” - {{ "steven-reilly" | team_link }}
-
-{{ "michael-walker" | team_photo }}
 
 “I came from an Army IT research lab. Government service is fulfilling in a way that private-sector employment hasn't been for me, and the chance to work somewhere "different" without leaving the government was too tempting to pass up.” - {{ "michael-walker" | team_link }}
 
@@ -215,8 +209,6 @@ empowered talent, data access, technology, and collaboration tools. We
 transform how agencies understand and execute projects: what to build,
 how to build, and who will build it.*
 
-{{ "lane-becker" | team_photo }}
-
 “I consider my time at 18F to be penance for the many years I spent working in Silicon Valley. I started working on Internet startups almost two decades ago and genuinely bought into the notion that network technology would “change the world.” But while that can be true, making a genuinely positive impact is not nearly as easy as Silicon Valley promises. As often as not, I found myself working on projects that had little to no social value, and as time wore on and the industry became more and more nakedly interested in money over people, my heart sunk. Fortunately, I was able to jump ship and join the product team at Code for America, a nonprofit dedicated to improving technology for cities, where I once again felt like I was doing work that made a difference. After several years with them I joined the (amazing!) team at 18F to continue doing this kind of work at the federal level.” - {{ "lane-becker" | team_link }}
 
 {{ "zaccohn" | team_photo }}
@@ -240,8 +232,6 @@ how to build, and who will build it.*
 {{ "ed-mullen" | team_photo }}
 
 “I first briefly joined government because of [a tweet](https://twitter.com/edmullen/status/9339467817?ref_src=twsrc%5Etfw) I wrote. Some folks at The White House saw it and asked me to come work on what became the first version of [HealthCare.gov](http://healthcare.gov/) in 2010. Two years later, I again worked on [HealthCare.gov](http://healthcare.gov/) in its second iteration and its infamous launch. That experience, in which quite a bit of good work was overshadowed by the inexcusably bad launch, has been deeply informative. I believe strongly that government can serve the public effectively and want to be part of the movement to makes it so.” - {{ "ed-mullen" | team_link }}
-
-{{ "alex-pandel" | team_photo }}
 
 “I got involved with advocacy and community organizing with CalPIRG while studying graphic design at [the University of Southern California. After several years as a freelance designer post-college, I found a place to marry those two interests in Code for America, where I spent a year partnering with the City of New Orleans to build technology tools to make it easier for residents to understand what's happening with blighted properties in their neighborhoods. Code for America was where I discovered that my natural tendency to ask a million questions and doggedly seek the simplest path had a name, and was where I cultivated my UX design, research, and product management skillsets. After our fellowship, my CfA teammates and I formed a company around our fellowship project (then "BlightStatus," now "Civic Insight"), where I served as Founder & Chief Product Officer until our company was acquired last fall. After several years focused on technology for government at the local level, 18F was a natural next step, and I'm thrilled to be here.” — {{ "alex-pandel" | team_link }}
 
@@ -293,8 +283,6 @@ In early-2015, the Presidential Innovation Fellows and Digital Services caught m
 
 “I started learning to code when I was working for a member of congress as a web manager. Using analytics to build the best site I could for constituents got me really excited about using technology to make things work better for the American people. After that, I spent a few years working for a civic engagement startup before former 18F’er Jackie Kazil sold me on 18F.” - {{ "annalee" | team_link }}
 
-{{ "steven-harms" | team_photo }}
-
 “I joined 18F after contacting the USDS about how to help after hearing President Obama speak. Prior to 18F I worked for General Electric and Luxottica leading IT initiatives for private multinational corporations.” - {{ "steven-harms" | team_link }}
 
 “First, the people: 18F (and the sibling organizations like USDS, PIF, etc) have such an amazing staff including a bunch of people I’ve worked with or want to work with. It’s a pretty spectacular team. And, it’s by far the most diverse team I’ve ever worked on, which aligns very closely to my personal politics. It’s like a breath of fresh air, looking around the office and not just seeing a bunch of young white dudes.
@@ -307,12 +295,15 @@ Second: Open Source: open source — and in general doing work in the open — i
 {{ "adam-kendall" | team_link }}
 
 {{ "cm" | team_photo }}
+
 “After a few public-good oriented startups, I was fortunate enough to be selected for CFPB's Technology and Innovation fellowship. 18F takes the types of best practices central at CFPB and applys them to the whole of the federal government.” - {{ "cm" | team_link}}
 
-{{ "eric" | team_link }}
-“In my work at the Sunlight Foundation, I developed real software infrastructure for open government, did public outreach, and collaborated with the government on policy change. That turned out to be excellent preparation for 18F.” - {{ "eric" | team_photo }}
+{{ "eric" | team_photo }}
+
+“In my work at the Sunlight Foundation, I developed real software infrastructure for open government, did public outreach, and collaborated with the government on policy change. That turned out to be excellent preparation for 18F.” - {{ "eric" | team_link }}
 
 {{ "roger-ruiz" | team_photo }}
+
 “After years of working in the advertising industry, I wanted a change that would make a real impact in the world using software. Instead of helping people click-through to more content or change an ad-specific communication preference, I want to change the way people have to interact with government services whether it's tools used by federal agencies or by the American people. I am a self-taught software developer that found my place in web development by coming in through the window, specifically the browser window. Coming from a traditional graphic design background, CSS and systems design were two things that felt as natural as color theory and typography. As I learned more about the history of and fundamentals of programming, I made my transition to full-stack web development.” - {{ "roger-ruiz" | team_link}}
 
 {{ "micahsaul" | team_photo }}
