@@ -10,4 +10,3 @@ state: WY
 team:
 twitter:
 ---
-“I joined 18F to work for people instead of for money.”

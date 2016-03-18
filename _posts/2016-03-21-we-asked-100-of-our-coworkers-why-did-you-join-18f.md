@@ -721,6 +721,7 @@ government and was excited to join a team of smart, committed colleagues
 from diverse backgrounds.” - {{ "becky" | team_link }}
 
 {{ "clinton-troxel" | team_photo }}
+
 “I joined 18F to work for people instead of for money.” {{ "clinton-troxel" | team_link }}
 
 {{ "jessie" | team_photo }}
