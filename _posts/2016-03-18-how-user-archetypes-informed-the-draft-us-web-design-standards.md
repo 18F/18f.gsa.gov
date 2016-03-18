@@ -221,7 +221,7 @@ resources to help them out.
 #### Who they are
 
 The Contract Manager is in charge of managing work for — you guessed it
-—government contractors.
+— government contractors.
 
 #### Why they’re using the Draft Standards
 
