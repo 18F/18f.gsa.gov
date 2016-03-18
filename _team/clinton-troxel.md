@@ -1,11 +1,11 @@
 ---
 city: Jackson
-first_name: Clint
+first_name: Clinton
 full_name: Clint Troxel
 github:
 last_name: Troxel
-name: clint-troxel
-role: Product manage
+name: clinton-troxel
+role: Product manager
 state: WY
 team:
 twitter:

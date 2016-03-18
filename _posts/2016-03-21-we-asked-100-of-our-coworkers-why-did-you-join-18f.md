@@ -107,8 +107,6 @@ disempowered. I wanted to design services that effectively meet the
 needs of their users, while helping to build a design culture in
 government.” - {{ "erica" | team_link }}
 
-{{ "john-demoyer" | team_photo }}
-
 “Having the chance to work on distributed teams was one of the main
 reasons I joined 18F. I love knowing that the people building products
 for the American public are spread out all over the country. Re-thinking
@@ -722,8 +720,8 @@ better place.” - {{ "micahsaul" | team_link }}
 government and was excited to join a team of smart, committed colleagues
 from diverse backgrounds.” - {{ "becky" | team_link }}
 
-{{ "clint-troxel" | team_photo }}
-“I joined 18F to work for people instead of for money.” {{ "clint-troxel" | team_link }}
+{{ "clinton-troxel" | team_photo }}
+“I joined 18F to work for people instead of for money.” {{ "clinton-troxel" | team_link }}
 
 {{ "jessie" | team_photo }}
 
