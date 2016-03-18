@@ -12,7 +12,7 @@ description: "To celebrate Sunshine Week, we’re highlighting some groundbreaki
 image: /assets/blog/web-design-standards/vision-provider.jpg
 ---
 
-Earlier this fall, [we announced the alpha release of the Draft U.S. Web
+This past fall, [we announced the alpha release of the Draft U.S. Web
 Design Standards](https://18f.gsa.gov/2015/09/28/web-design-standards/),
 a set of “open source UI components and a visual style guide to create
 consistency and beautiful user experiences across U.S. federal
@@ -84,7 +84,7 @@ and early in their career.
 #### Who they are
 
 They’re excited to prove their metal, but they may not be experienced
-enough to create new designs, stand up prototypes quickly.
+enough to create new designs or stand up prototypes quickly.
 
 #### Concerns and challenges
 
@@ -110,7 +110,7 @@ otherwise pull rank on design or development decisions.
 
 #### Concerns and challenges
 
-The lone ranger wants to be able to get started with the Draft Standards
+The Lone Ranger wants to be able to get started with the Draft Standards
 quickly and not have to fuss with a lot of compatibility issues. They
 worry about tying their projects to a resource without knowing whether
 or not it will be maintained.
@@ -166,7 +166,7 @@ their project. They may be in a position of authority, or they may be at the fro
 #### Concerns and challenges
 
 They will ask questions about how the Draft Standards will be maintained and
-how they will integrate with existing technology stacks and work-fl ows.
+how they will integrate with existing technology stacks and work-flows.
 
 <img src={{site.baseurl}}/assets/blog/web-design-standards/macgyver.jpg alt="A monitor duct taped together." width="400px">
 
@@ -176,8 +176,7 @@ how they will integrate with existing technology stacks and work-fl ows.
 
 The MacGyver is a back end developer who has been charged with front end
 design and development, despite protests. This person has to produce web
-pages despite their lack of experience with the persnickety
-inconsistencies of browser rendering — CSS is their nemesis
+pages despite their lack of experience with the persnickety inconsistencies of browser rendering — CSS is their nemesis.
 
 #### Why they’re using the Draft Standards
 
@@ -199,8 +198,6 @@ they need explanations of any dependencies and how to implement them.
 
 #### Concerns and challenges
 
-They rely on the pattern library components to work out of the box, and
-they need explanations of any dependencies and how to implement them.
 They are concerned about conflicts with existing frameworks because
 these are difficult to resolve with their limited development
 experience.
@@ -245,7 +242,7 @@ little time.
 #### Why they’re using the Draft Standards
 
 They want to be able to stand up quick prototypes and sites with minimal
-fuss. They’re choose resources that allow them to get up and running
+fuss. They’ll choose resources that allow them to get up and running
 quickly, and they don’t want to have to read a lot of documentation to
 be able to do it.
 
