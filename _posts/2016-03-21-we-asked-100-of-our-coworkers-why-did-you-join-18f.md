@@ -137,8 +137,6 @@ government needs to be stressful and difficult.” - {{ "mhz" | team_link }}
 general public by transforming government — increasing its efficiency,
 transparency, and accountability.” - {{ "jhunter" | team_link }}
 
-{{ "ryan-sibley" | team_photo}}
-
 “I chose to work at 18F because I see it as an opportunity to improve
 how government works from the inside. I spent a lot of years translating
 government documents and data so regular people can get the information
@@ -187,8 +185,6 @@ local governments design and procure technology so the public gets
 better results, taxpayers save millions, and all those public servants
 lose less sleep.” - {{ "robin-carnahan" | team_link }}
 
-{{ "alan" | team_photo }}
-
 “I joined 18F to work towards a great mission and to be at a place that
 allowed me to grow and develop professionally. I was finishing my last
 year of part-time law school when I joined 18F. I always felt very
@@ -199,8 +195,6 @@ receive encouragement and support to develop their skill set outside of
 parts of government, and I was never satisfied with the way they handled
 technology. Being at a place like 18F, where helping government improve
 its use of technology is our mandate, is a dream job.” {{ "alan" | team_link }}
-
-{{ "laura-gerhardt" | team_photo }}
 
 “To work on how technology could improve government service delivery in
 a deeper way than just as a communications platform.” - {{ "laura-gerhardt" | team_link }}
@@ -223,8 +217,6 @@ only thing that ever has."” - {{ "mark-hopson" | team_link }}
 
 “To work with smart and kind people who work well on teams.” -
 {{ "jessie-posilkin" | team_link }}
-
-{{ "michael-walker" | team_photo }}
 
 “From the outside, it seemed like what I thought an ideal government
 should be. Like most federal agencies, it's focused on serving the
@@ -249,8 +241,6 @@ purchases, legal matters, and equipment requests.*
 risk was giving up my career path position elsewhere in government to
 work for an inside-the-government start up. The good was the goal of
 making government more accessible to individuals.” - {{ "joshbailes" | team_link }}
-
-{{ "ethan" | team_photo }}
 
 “I joined 18F because I saw it as a way to take my existing experience
 in operations to the next level. I came here from the Peace Corps, where
@@ -354,8 +344,6 @@ even when I didn’t know 18F was it.” - {{ "leah" | team_link }}
 “I saw GSA as the place that had the ability and mandate to shift gears
 and really scale out the digital efforts in government.” - {{ "gray" | team_link }}
 
-{{ "alan-brouilette" | team_photo }}
-
 “The magnitude of the challenge drew me to 18F. Government is foreign to
 me, and I have loved picking up government parlance and custom via
 immersion.” - {{ "alan-brouilette" | team_link }}
@@ -407,8 +395,6 @@ gentlemen, is my 'why'.” - {{ "alan-atlas" | team_link }}
 in recovering brownfield software projects and the cost of that for
 government and the American people is incredibly high.” - {{ "kane" | team_link }}
 
-{{ "lane-becker" | team_photo }}
-
 “I joined 18F because I genuinely believe that thoughtful, well-planned,
 well-coordinated use of technology can have a significant positive
 impact on the function of our government and its ability to serve the
@@ -426,8 +412,6 @@ been doing to improve government services for citizens. I was blown away
 by the work they had done and how effective they’d been. I thought, if
 we ever start something like that here in the U.S., I want to be a part
 of it.” - {{ "angela-colter" | team_link }}
-
-{{ adrian-webb | team_photo }}
 
 “I joined 18F because of the unique ability to help culturally and
 technologically transform the government, guided by principles of
@@ -476,13 +460,12 @@ is a special time to be serving as our government core operations and
 services are being transformed by technology.” - **Philip Harding**
 
 {{ "ed-mullen" | team_photo }}
+
 “I feel selfish when I think about why I wanted to join 18F. I wanted to
 work on things that have deep meaning and deliver real impact to people
 and the country, using the best methods of the trade, with people who
 are leaders in their field, within an organization intentionally
 nurturing a thoughtful, inclusive, and gratifying culture.” - {{ "ed-mullen" | team_link }}
-
-{{ "alex-pandel" | team_photo }}
 
 “You would be justified in calling me a social impact junkie. I've been
 working in the civic technology space for several years, and feel like
@@ -496,7 +479,7 @@ becomes just mind-boggling at that national scale. Plus, having worked
 at very small organizations for most of my career, I was really drawn to
 the giant well of talent here at 18F, and it's been incredible to work
 with such a huge variety of ridiculously talented people whom I get to
-learn from every day.” **— Alex Pandel**
+learn from every day.” — {{ "alex-pandel" | team_link }}
 
 ### Infrastructure
 
@@ -505,8 +488,6 @@ architecture.” This work applies to much more than technology: it
 applies to our entire operation, including how we work inside the law,
 how we secure our systems, how we collect data from the public, and how
 we spend money.*
-
-{{ "jez-humble" | team_photo }}
 
 “I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
 GDS has been doing, and I wanted to be able to contribute to the U.S.
@@ -595,8 +576,6 @@ change government forever, for the better.” - {{ "nick" | team_link }}
 “To use my skills to make an impact for digital services in government,
 and ultimately the American people!” - {{ "christine" | team_link }}
 
-{{ "colin-craig" | team_photo }}
-
 “I joined 18F to work on high impact projects that help other people.” - {{ "colin-craig" | team_link }}
 
 {{ "kaitlin" | team_photo }}
@@ -618,12 +597,11 @@ huge draw.” - {{ "afeld" | team_link }}
 18F offered the opportunity to work on projects that'd have a positive
 impact on a lot of people's lives.” - {{ "annalee" | team_link }}
 
-{{ "anthony-garvan" | team_photo }}
-
 “I joined 18F because it is our responsibility to make government work
 better for everyone." - {{ "anthony-garvan" | team_link }}
 
 {{ "yoz" | team_photo }}
+
 “I was involved in volunteer-run e-democracy projects in the UK before I
 moved to San Francisco. I watched many of my old friends & colleagues
 get the UK's Government Digital Service started from afar, and found it
@@ -640,7 +618,6 @@ value of making government more accessible to everyone, but even more
 so, there's the engineer's motivation of seeing something that I know
 how to fix.” - {{ "yoz" | team_link }}
 
-{{ "steven-harms" | team_photo }}
 “I joined 18F to create and deploy best-in-class technology solutions to
 improve interaction, availability of services, and competitiveness of
 government services for citizens.” - {{ "steven-harms" | team_link }}
@@ -659,8 +636,6 @@ understand the work and where I fit into it. I also love the all-hands
 meetings because it’s awesome to see where everybody is reporting in
 from.” - {{ "jacobharris" | team_link }}
 
-{{ "pkarman" | team_photo }}
-
 “I seek mission-driven work, and 18F is that in spades. I have loved
 working on projects that make other people’s day-to-day lives better.” -
 {{ "pkarman" | team_link }}
@@ -674,10 +649,12 @@ colleagues while working in the open excited me even more.” -
 {{ "jeremiak" | team_link }}
 
 {{ "cm" | team_photo }}
+
 “18F is our best chance to improve government technology through
 efficiency, transparency, and agility. Our impact is mighty.” - {{ "cm" | team_link}}
 
 {{ "sasha" | team_photo }}
+
 “I joined 18F because I believe that government plays a critical role in
 our society and the better it functions, the more it can better balance
 the power of other large organizations. My path to 18F included almost
@@ -685,17 +662,18 @@ the power of other large organizations. My path to 18F included almost
 activism and non-profit community work.” - {{ "sasha" | team_link }}
 
 {{ "eric" | team_link }}
+
 “I came to 18F from the Sunlight Foundation, a non-profit organization
 that works on the technology and policy of government transparency. I
 was thrilled to be able to keep working on making a more transparent,
 responsive, and effective government from inside.” - {{ "eric" | team_photo }}
 
-{{ "vraj-mohan" | team_photo }}
 “I joined 18F to do work that was more soul satisfying. I felt that open
 source and lean processes could be combined to make the public sector
 efficient.” - {{ "vraj-mohan" | team_link}}
 
 {{ "amanda-robinson" | team_photo }}
+
 “I joined 18F to help build great digital tools for government with a
 team of amazing people.” - {{ "amanda-robinson" | team_link }}
 
@@ -711,11 +689,13 @@ too late, but I should look into 18F. I immediately liked what I saw in
 18F and started the hiring process.” - {{ "marco" | team_link }}
 
 {{ "micahsaul" | team_photo }}
+
 “I joined 18F because I decided I had to put my money where my mouth is.
 It was an opportunity to take an active role in making our country a
 better place.” - {{ "micahsaul" | team_link }}
 
 {{ "becky" | team_photo }}
+
 “I joined 18F because I wanted to be part of the tech revolution in
 government and was excited to join a team of smart, committed colleagues
 from diverse backgrounds.” - {{ "becky" | team_link }}
