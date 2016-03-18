@@ -60,7 +60,7 @@ General Service Administration’s Federal Acquisition Service in the
 headquartered in San Francisco.
 
 -   **200 companies competed** across all three pools
--   **40 prototypes** submitted for pool three were considere exceptional by our review team
+-   **40 prototypes** submitted for pool three were considered exceptional by our review team
 -   **17 companies** were ultimately awarded space in pool three
 -   **22 vendors** put in **208 total bids** across the **22 reverse auctions** hosted by 18F
 -   **Three auctions** sold to a bidder for $1
