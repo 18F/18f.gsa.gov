@@ -79,7 +79,7 @@ public servants around the country to join our team. Here’s what we look
 like today:
 
 -   **21 new** [**Presidential Innovation Fellows**](https://presidentialinnovationfellows.gov/)
--   **97 18F team members,** bringing our team to a total size of **178**
+-   **97 new 18F team members,** bringing our team to a total size of **178**
 -   [We are hiring](https://join.18f.gov) at a rate of **25 new employees per quarter**
 -   We have staff in **30 cities** [**across the country**](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/)
 -   **We have four offices** in DC, San Francisco, New York, and Chicago
