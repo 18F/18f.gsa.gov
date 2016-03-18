@@ -4,7 +4,7 @@ date: 2016-03-16
 authors:
 - melody
 tags:
-excerpt: "At the end of last year, we asked everyone at 18F to reflect on a meaningful project."
+excerpt: ""
 description: ""
 ---
 At the end of last year, we asked everyone at 18F to [reflect on a
@@ -96,7 +96,7 @@ each other up and dusts each other off after our inevitable missteps,
 that all the while believes not only in the fundamental rightness of our
 mission, but in each other.
 
-I'm staying because I have found my people.” {{ "jeremy" | team_link}}
+I'm staying because I have found my people.” - {{ "jeremy" | team_link}}
 
 {{ "erica" | team_photo }}
 
@@ -360,24 +360,22 @@ and really scale out the digital efforts in government.” - {{ "gray" | team_li
 
 “The magnitude of the challenge drew me to 18F. Government is foreign to
 me, and I have loved picking up government parlance and custom via
-immersion.” [**Alan Brouilette**](https://18f.gsa.gov/team/alan-brouilette/)
+immersion.” - {{ "alan-brouilette" | team_link }}
 
 {{ "bret" | team_photo }}
 
-“I saw 18F as the best place to magnify my ability to drive positive change in the world.” - [**Bret Mogilefsky**](https://18f.gsa.gov/team/bret/)
+“I saw 18F as the best place to magnify my ability to drive positive change in the world.” - {{ "bret" | team_link }}
 
 {{ "anna" | team_photo }}
 
 “I joined 18F because I felt a strong pull towards both public service
 (coming from the nonprofit world) and the tech sector for quite some
 time, and 18F seemed like the perfect place to make an impact in an
-environment that melded those areas into one!” **-** [**Anna Heller
-Sebok**](https://18f.gsa.gov/team/anna/)
+environment that melded those areas into one!” - {{ "anna" | team_link}}
 
 {{ "raphy" | team_photo }}
 
-“I joined 18F because of the people and the mission.” - [**Raphy
-Villas**](https://18f.gsa.gov/team/raphy/)
+“I joined 18F because of the people and the mission.” - {{ "raphy" | team_link }}
 
 ### Strategy
 
@@ -403,15 +401,13 @@ the U.S. Government represents probably the most challenging
 customer/client possible. In government, even when there is a desire to
 change, actually doing so is still a difficult challenge. So I came to
 the toughest place on earth for plying my trade. And that, ladies and
-gentlemen, is my 'why'.” - [**Alan
-Atlas**](https://18f.gsa.gov/team/alan-atlas/)
+gentlemen, is my 'why'.” - {{ "alan-atlas" | team_link }}
 
 {{ "kane" | team_photo }}
 
 “I really wanted to give what I could do to my country. My expertise is
 in recovering brownfield software projects and the cost of that for
-government and the American people is incredibly high.” - [**Kane
-Baccigalupi**](https://18f.gsa.gov/team/kane/)
+government and the American people is incredibly high.” - {{ "kane" | team_link }}
 
 {{ "lane-becker" | team_photo }}
 
@@ -421,8 +417,7 @@ impact on the function of our government and its ability to serve the
 public. Personally, I am deeply invested in projects where technology
 can be used to support social service policy designed to meaningfully
 improve the lives of Americans living in underserved and underprivileged
-communities.” - [**Lane
-Becker**](https://18f.gsa.gov/team/lane-becker/)
+communities.” - {{ "lane-becker" | team_link }}
 
 {{ "angela-colter" | team_photo }}
 
@@ -432,7 +427,7 @@ been around 2013), talk about the work the Government Design Service had
 been doing to improve government services for citizens. I was blown away
 by the work they had done and how effective they’d been. I thought, if
 we ever start something like that here in the U.S., I want to be a part
-of it.” - [**Angela Colter**](https://18f.gsa.gov/team/angela-colter/)
+of it.” - {{ "angela-colter" | team_link }}
 
 {{ adrian-webb | team_photo }}
 
@@ -442,18 +437,17 @@ transparency and collaboration. I love the fact that all code I write
 can be open source, all frameworks and papers I write can be used by the
 public, and that I have the ability to work across the government in
 many fascinating agencies and organizations. I feel like I can make a
-real impact here.” - [**Adrian
-Webb**](https://18f.gsa.gov/team/adrian-webb/)
+real impact here.” - {{ "adrian-webb" | team_link }}
 
 {{ "mike-hsu" | team_photo }}
-“I joined 18F to help government modernize and streamline their IT processes and mostly to make a difference.” - [**Mike Hsu**](https://18f.gsa.gov/team/mike-hsu/)
+
+“I joined 18F to help government modernize and streamline their IT processes and mostly to make a difference.” - {{ "mike-hsu" | team_link }}
 
 {{ "jayhuie" | team_photo }}
 
 “I joined 18F to multiply and accelerate the impact I was having in
 government across agencies and being able to deliver change across
-culture, policy, and technology facets.” - [**Jay
-Huie**](https://18f.gsa.gov/team/jayhuie/)
+culture, policy, and technology facets.” - {{ "jayhuie" | team_link }}
 
 {{ "michael-cata" | team_photo }}
 
@@ -461,21 +455,20 @@ Huie**](https://18f.gsa.gov/team/jayhuie/)
 submarines, helicopters, and battleships. Two years ago I was looking
 for an opportunity to serve my country. Two months ago I joined 18F. Two
 days ago I started working working with the Navy to help build a
-platform that serves sailors around the world.” - [**Michael
-Cata**](https://18f.gsa.gov/team/michael-cata/)
+platform that serves sailors around the world.” - {{ "michael-cata" | team_link }}
 
 {{ "romke" | team_photo }}
 
 “I joined 18F because I was looking for a way to work in government and
 make an impact. 18F has been a blessing by allowing me to work with a
 great group of people on causes that make our lives better as a country
-and people.” - [**Romke de Haan**](https://18f.gsa.gov/team/romke/)
+and people.” - {{ "romke" | team_link }}
 
 {{ "kedelman" | team_photo }}
 
 “I want to help agencies do better for more people using fewer
 resources. 18F is one of the best places to try to do that in government
-today.” - [**Kathryn Edelman**](https://18f.gsa.gov/team/kedelman/)
+today.” - {{ "kedelman" | team_link }}
 
 “The ability to be "in the arena" as Teddy Roosevelt would say. The
 ability to jump in and help with some of our nation's greatest
@@ -489,8 +482,7 @@ services are being transformed by technology.” - **Philip Harding**
 work on things that have deep meaning and deliver real impact to people
 and the country, using the best methods of the trade, with people who
 are leaders in their field, within an organization intentionally
-nurturing a thoughtful, inclusive, and gratifying culture.” - [**Ed
-Mullen**](https://18f.gsa.gov/team/ed-mullen/)
+nurturing a thoughtful, inclusive, and gratifying culture.” - {{ "ed-mullen" | team_link }}
 
 {{ "alex-pandel" | team_photo }}
 
@@ -538,7 +530,7 @@ work with some really great people.” **- Jez Humble**
 centralized technology team to support federal agencies who are
 constantly asked to do more with less. I couldn't be more honored to be
 part of a team that's here to help agencies with their critical public
-missions.” - [**Noah Kunin**](https://18f.gsa.gov/team/noah/)
+missions.” - {{ "noah" | team_link }}
 
 {{ "kimberdowsett" | team_photo }}
 
@@ -547,8 +539,7 @@ the public’s trust in government. I work with technology not readily
 available at other agencies and serve as an advocate for agile
 development, encryption, and privacy. I work with the best and brightest
 folks I’ve ever met, and I wake every day excited to face new and
-interesting challenges.” **-** [**Kimber
-Dowsett**](https://18f.gsa.gov/team/kimberdowsett/)
+interesting challenges.” - {{ "kimberdowsett" | team_link }}
 
 “It was a good example of disrupting government, and I wanted to be part
 of something that was moving quickly and would keep me on my toes. I
@@ -567,7 +558,7 @@ interactions delightful. \#AspirationalFTW To paraphrase [*President
 Obama's speech in Selma last
 year*](https://www.youtube.com/watch?v=gvAIvauhQGQ&feature=youtu.be&t=30m3s)
 : It's such an honor to be able to work on improving this great nation
-of ours.” - [**Kara DeFrias**](https://18f.gsa.gov/team/kara/)
+of ours.” - {{ "kara" | team_link }}
 
 ### Engineering
 
@@ -803,5 +794,4 @@ sector and working within the intersection of complex organizations and
 enterprise technology, I was interested in doing the similar work inside
 government and better understanding the specific challenges of
 government technology. Put simply: this is my dream job, and these are
-my dream coworkers.” - [**Will
-Slack**](https://18f.gsa.gov/team/will/)
+my dream coworkers.” - {{ "will" | team_link }}
