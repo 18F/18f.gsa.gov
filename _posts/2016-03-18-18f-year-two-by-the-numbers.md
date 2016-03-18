@@ -18,7 +18,7 @@ statistics to show how."
 image:
 ---
 
-18F turns two years on Saturday, and we thought we’d take
+18F turns two years old on Saturday, and we thought we’d take
 the opportunity to reflect on how our organization has grown and
 progressed in the last 12 months. Our team, our work, and even this blog
 have grown and diversified since March 19, 2015. Here are a few key
