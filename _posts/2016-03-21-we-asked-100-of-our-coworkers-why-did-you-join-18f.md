@@ -226,9 +226,9 @@ spectacular team GSA was building.” - {{ "alla" | team_link }}</div>
 <div class="response-block">
 {{ "mark-hopson" | team_photo }}
 
-“Margaret Mead said it best "Never doubt that a small group of
+“Margaret Mead said it best 'Never doubt that a small group of
 thoughtful, committed citizens can change the world; indeed, it's the
-only thing that ever has."” - {{ "mark-hopson" | team_link }}</div>
+only thing that ever has.'” - {{ "mark-hopson" | team_link }}</div>
 
 <div class="response-block">
 {{ "jessie-posilkin" | team_photo }}
@@ -240,14 +240,13 @@ only thing that ever has."” - {{ "mark-hopson" | team_link }}</div>
 should be. Like most federal agencies, it's focused on serving the
 public and has a genuine desire to Do Good, but unlike a lot of
 government, it is willing to struggle against the old way in order to Do
-*Better.*” - {{ "michael-walker" | team_link }}</blockquote>
+<strong>Better.</strong>” - {{ "michael-walker" | team_link }}</blockquote>
 
 <div class="response-block">
 {{ "vdavez" | team_photo }}
 
 “To play a small part in ensuring that America is as hopeful for our
-future as we were when we made one giant leap for mankind. (I wrote <a href="https://esq.io/blog/posts/joining-18f/">a
-blog post</a> that says more.)” - {{ "vdavez" | team_link }}</div>
+future as we were when we made one giant leap for mankind.” - {{ "vdavez" | team_link }}</div>
 
 ### Operations
 
@@ -282,11 +281,11 @@ people and learn completely new skills” - {{ "matt" | team_link }}</div>
 
 *The Outreach team is responsible for promoting the work of digital
 innovators at 18F and across government. Our work spans a number of
-media outlets, including* [**the content of 18F’s public-facing
-website**](https://18f.gsa.gov/)*,*[**our
-blog**](https://18f.gsa.gov/blog/)*, our external and internal
-newsletters, our Twitter feed (*[**@18F**](https://twitter.com/18F)*),
-responses to press, and responses to emails to 18f@gsa.gov.*
+media outlets, including [the content of 18F’s public-facing
+website](https://18f.gsa.gov/), [our
+blog](https://18f.gsa.gov/blog/), our external and internal
+newsletters, our Twitter feed ([@18F](https://twitter.com/18F)),
+responses to press, and responses to emails to 18f@gsa.gov.
 
 <div class="response-block">
 {{ "boone" | team_photo }}
@@ -296,7 +295,7 @@ responses to press, and responses to emails to 18f@gsa.gov.*
 <div class="response-block">
 {{ "andre" | team_photo }}
 
-I joined 18F because while I loved working at a non-profit
+“I joined 18F because while I loved working at a non-profit
 government watchdog, I wanted the opportunity to switch sides and start
 working on some of the problems I’d been identifying.” - {{ "andre" | team_link }}</div>
 
@@ -318,9 +317,9 @@ figures out how to make it work, including making sure we’re
 user-centered and agile, taking care of billing and logistics, and
 handling other details so that the rest of the team can do its job. We
 tend to be generalists, often with skills in code or other disciplines
-as well as product.More information about our Product team is available
-in the [**18F Product
-Guide**](https://pages.18f.gov/product-guide/index.html)*
+as well as product. More information about our Product team is available
+in the [18F Product
+Guide](https://pages.18f.gov/product-guide/index.html)*
 
 <div class="response-block">
 {{ "sarah" | team_photo }}
@@ -528,19 +527,19 @@ applies to our entire operation, including how we work inside the law,
 how we secure our systems, how we collect data from the public, and how
 we spend money.*
 
-<blockquote>“I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
-GDS has been doing, and I wanted to be able to contribute to the U.S.
-government’s move towards building people-centered digital government
-services. I see that as a vitally important mission, and for selfish
-reasons 18F was ideal because they have an office in San Francisco, and
-they are a remote-first team (we use a lot of Slack and Screenhero),
-which means I can work from home much of the week. Second, I get to use
-cutting-edge technology. I’ve spent the past month working on the[
-](http://cloud.gov/)[*cloud.gov*](http://cloud.gov/) team, where we’re
-building a cloud for government using CloudFoundry and AWS. Recently
-we’ve been building out monitoring using Riemann, InfluxDB and Grafana,
-and it’s been fun to get my hands dirty on that. Third, I’m getting to
-work with some really great people.” - <strong>Jez Humble</strong></blockquote>
+> “I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
+> GDS has been doing, and I wanted to be able to contribute to the U.S.
+> government’s move towards building people-centered digital government
+> services. I see that as a vitally important mission, and for selfish
+> reasons 18F was ideal because they have an office in San Francisco, and
+> they are a remote-first team (we use a lot of Slack and Screenhero),
+> which means I can work from home much of the week. Second, I get to use
+> cutting-edge technology. I’ve spent the past month working on the[
+> ](http://cloud.gov/)[cloud.gov](http://cloud.gov/) team, where we’re
+> building a cloud for government using CloudFoundry and AWS. Recently
+> we’ve been building out monitoring using Riemann, InfluxDB and Grafana,
+> and it’s been fun to get my hands dirty on that. Third, I’m getting to
+> work with some really great people.” - {{ "jez-humble" | team_link }}
 
 <div class="response-block">
 {{ "noah" | team_photo }}
@@ -564,8 +563,8 @@ interesting challenges.” - {{ "kimberdowsett" | team_link }}</div>
 > “It was a good example of disrupting government, and I wanted to be part
 > of something that was moving quickly and would keep me on my toes. I
 > also saw strong leadership. Phaedra and Aaron are dynamic leaders, and I
-> wanted to support them in any way that I could.” - **Vicki McFadden,
-> Associate Administrator, GSA**
+> wanted to support them in any way that I could.” - Vicki McFadden,
+> Associate Administrator, GSA
 
 <div class="response-block">
 {{ "kara" | team_photo }}
@@ -642,8 +641,8 @@ huge draw.” - {{ "afeld" | team_link }}</div>
 18F offered the opportunity to work on projects that'd have a positive
 impact on a lot of people's lives.” - {{ "annalee" | team_link }}</div>
 
-“I joined 18F because it is our responsibility to make government work
-better for everyone." - {{ "anthony-garvan" | team_link }}
+> “I joined 18F because it is our responsibility to make government work
+> better for everyone." - {{ "anthony-garvan" | team_link }}
 
 <div class="response-block">
 {{ "yoz" | team_photo }}
@@ -777,8 +776,7 @@ platform to innovate on government technology and transparency. I
 started off as a reporting intern and was inspired to learn how to code,
 so over the course of five years, I became a web developer. I now have
 the privilege of being on the team that builds the FEC’s first API and
-are building[
-](http://beta.fec.gov/)[*beta.fec.gov*](http://beta.fec.gov/).” {{ "lindsay" | team_link }}</div>
+are building <a href="https://beta.fec.gov/">beta.fec.gov</a>.” {{ "lindsay" | team_link }}</div>
 
 ### Talent
 
@@ -824,7 +822,7 @@ for inbound inquiries.*
 > felt inspired by the impactful work that 18F does for other agencies. I
 > relate most to the innovative spirit and mindset that 18F wants to
 > inject into the government and am happy to be part of the journey!” -
-> **Olesya Minina**
+> Olesya Minina
 
 <div class="response-block">
 {{ "will" | team_photo }}
