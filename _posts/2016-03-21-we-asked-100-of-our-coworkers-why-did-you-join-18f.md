@@ -31,8 +31,8 @@ time zone, and we’re excited to share their responses over the next few
 days. Today’s post answers the question: **Why did you join 18F?**
 
 Want to see your name on this list? You can see open positions and how
-to apply [*on our join
-page*](https://pages.18f.gov/joining-18f/index.html).
+to apply [on our join
+page](https://pages.18f.gov/joining-18f/index.html).
 
 Why did you join 18F?
 ---------------------
