@@ -279,7 +279,7 @@ people and learn completely new skills” - {{ "matt" | team_link }}</div>
 
 ### Outreach
 
-*The Outreach team is responsible for promoting the work of digital
+The Outreach team is responsible for promoting the work of digital
 innovators at 18F and across government. Our work spans a number of
 media outlets, including [the content of 18F’s public-facing
 website](https://18f.gsa.gov/), [our
@@ -319,7 +319,7 @@ handling other details so that the rest of the team can do its job. We
 tend to be generalists, often with skills in code or other disciplines
 as well as product. More information about our Product team is available
 in the [18F Product
-Guide](https://pages.18f.gov/product-guide/index.html)*
+Guide](https://pages.18f.gov/product-guide/index.html)
 
 <div class="response-block">
 {{ "sarah" | team_photo }}
