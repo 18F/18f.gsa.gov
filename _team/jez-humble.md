@@ -1,3 +1,10 @@
+---
+name: jez-humble
+first_name: Jez
+last_name: Humble
+city: San Francisco
+state: California
+---
 “I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
 GDS has been doing, and I wanted to be able to contribute to the U.S.
 government’s move towards building people-centered digital government
