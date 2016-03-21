@@ -534,8 +534,8 @@ we spend money.*
 > reasons 18F was ideal because they have an office in San Francisco, and
 > they are a remote-first team (we use a lot of Slack and Screenhero),
 > which means I can work from home much of the week. Second, I get to use
-> cutting-edge technology. I’ve spent the past month working on the[
-> ](http://cloud.gov/)[cloud.gov](http://cloud.gov/) team, where we’re
+> cutting-edge technology. I’ve spent the past month working on the
+> [cloud.gov](http://cloud.gov/) team, where we’re
 > building a cloud for government using CloudFoundry and AWS. Recently
 > we’ve been building out monitoring using Riemann, InfluxDB and Grafana,
 > and it’s been fun to get my hands dirty on that. Third, I’m getting to
