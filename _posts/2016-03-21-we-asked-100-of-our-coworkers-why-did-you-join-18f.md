@@ -494,7 +494,7 @@ ability to jump in and help with some of our nation's greatest
 challenges. The ability to affect positive change. The ability to work
 with really smart, interesting people in 18F and across government. This
 is a special time to be serving as our government core operations and
-services are being transformed by technology.” - <strong>Philip Harding<strong></blockquote>
+services are being transformed by technology.” - Philip Harding</blockquote>
 
 <div class="response-block">
 {{ "ed-mullen" | team_photo }}
