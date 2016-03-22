@@ -9,6 +9,7 @@ tags:
   - culture
 excerpt: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
 description: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
+image: /assets/blog/join-us/team-photo.jpg
 ---
 People come to 18F from many different backgrounds. We've heard from new hires and potential applicants that hearing how people got to 18F is helpful -- particularly for our many employees who didn't come from the tech sector or federal government.
 
