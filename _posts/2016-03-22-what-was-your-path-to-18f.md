@@ -10,12 +10,11 @@ tags:
 excerpt: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
 description: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
 ---
-
 People come to 18F from many different backgrounds. We've heard from new hires and potential applicants that hearing how people people got to 18F is helpful -- particularly for our many employees who didn't come from the tech sector or federal government.
 
-Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what [path they took to get to 18F.](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
+Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what path they took to get to 18F.
 
-Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about why our team members applied to 18F, and tomorrow you can see what they've loved working on so far.
+Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about [why our team members applied to 18F]((https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/), and tomorrow you can see what they've loved working on so far.
 
 Want to see your name on this list? You can see open positions and how to apply [on our join page](https://pages.18f.gov/joining-18f/index.html).
 
@@ -25,9 +24,9 @@ Want to see your name on this list? You can see open positions and how to apply 
 
 _18F Design provide content, visual, and interactive design to the rest of the organization._
 
-> "I came to 18F from the journalism world, and many of the things that drew me to journalism drew me to 18F. I love knowing that I can use my technology skills to help people better perform necessary tasks and make informed decisions." - Heather Battaglia
+<blockquote>"I came to 18F from the journalism world, and many of the things that drew me to journalism drew me to 18F. I love knowing that I can use my technology skills to help people better perform necessary tasks and make informed decisions." - Heather Battaglia</blockquote>
 
-> <div class="response-block">{{ "maya" | team_photo }}
+<div class="response-block">{{ "maya" | team_photo }}
 
 "Prior to designing at 18F, I completed a year-long fellowship at Code for America, working with the City of San Antonio to harness the power of technology to help solve community problems. Before that, I practiced design and web development for startups studios, non-profits, and the entertainment and medical industries." - {{ "maya" | team_link}}</div>
 <div class="response-block">{{ "erica" | team_photo }}
@@ -77,11 +76,11 @@ I’ve always sought roles that draw on my creative writing background, pedagogi
 
 _The acquisitions team provides innovative services and solutions to support digital service delivery. Their teams have a mix of former contracting officers, developers, and product manager who manage access to the Agile Delivery Services Marketplace, RFP ghostwriting consulting, and the micro-purchase platform._
 
-> "My path to 18F involved some serendipity. When I arrived in D.C. a few years ago, I was starting law school and thinking that I would pursue a traditional legal career. But I never stopped thinking like a programmer. Whether I was freelancing for some extra money, writing open source code, or using GitHub Issues to manage my reading assignments, the urge to keep writing software never went away. On a quiet winter afternoon in 2012, I was sitting at my desk for an Federal Communications Commission (FCC)  legal internship and noticed something truly amazing: an FCC GitHub Organization. I asked my supervisor if I could meet whoever it was that was behind this. I met with that person, we talked about how I loved government-y things and could write software. He told me that I would be spending the rest of my internship working in his office. That person turned out to be future-fellow-18Fer Gray Brooks. Until that moment, I had never known that there was any demand for the skills possessed by lawyer-coders. It was truly eye-opening, and it set the stage for me to thrive at 18F a couple years later." {{ "alan" | team_link }}
+<blockquote>"My path to 18F involved some serendipity. When I arrived in D.C. a few years ago, I was starting law school and thinking that I would pursue a traditional legal career. But I never stopped thinking like a programmer. Whether I was freelancing for some extra money, writing open source code, or using GitHub Issues to manage my reading assignments, the urge to keep writing software never went away. On a quiet winter afternoon in 2012, I was sitting at my desk for an Federal Communications Commission (FCC)  legal internship and noticed something truly amazing: an FCC GitHub Organization. I asked my supervisor if I could meet whoever it was that was behind this. I met with that person, we talked about how I loved government-y things and could write software. He told me that I would be spending the rest of my internship working in his office. That person turned out to be future-fellow-18Fer Gray Brooks. Until that moment, I had never known that there was any demand for the skills possessed by lawyer-coders. It was truly eye-opening, and it set the stage for me to thrive at 18F a couple years later." {{ "alan" | team_link }}</blockquote>
 
-> "I was a web developer for a small consultancy, and then I went to graduate school for public policy, during which I was an [Office of Science and Technology Policy] intern and was really intrigued about 18F, and decided I would love to work for them after finishing up school" - {{ "laura-gerhardt" | team_link }}
+<blockquote>"I was a web developer for a small consultancy, and then I went to graduate school for public policy, during which I was an [Office of Science and Technology Policy] intern and was really intrigued about 18F, and decided I would love to work for them after finishing up school" - {{ "laura-gerhardt" | team_link }}</blockquote>
 
-> <div class="response-block">{{ "alla" | team_photo }}
+<div class="response-block">{{ "alla" | team_photo }}
 
 "I worked at the Department of Defense after college, then I went to law school and completed internships at the Executive Office of the President, Department of Homeland Security, Department of Justice, and the U.S. Coast Guard. I always knew I wanted to once again be a 'fed,' so worked in national security consulting and sharpened my project management skills while hoping that the initial 18F delivery offerings would evolve to allow someone like me to join the team. In 2015, the organization began providing consulting and acquisition services to federal partners, and I joined the organization to work on product management and procurement issues." - {{ "alla" | team_link }}</div>
 <div class="response-block">{{ "randy-hart" | team_photo }}
@@ -94,13 +93,13 @@ _The acquisitions team provides innovative services and solutions to support dig
 
 > "My path to 18F started with the Peace Corps. I served in Guinea, West Africa and was evacuated in the midst of the Ebola crisis. Returned Peace Corps Volunteers have one year of Non Competitive Eligibility, which makes the hiring process in the federal government much easier. I met my now-supervisor at a career fair that the Peace Corps Headquarters holds twice a year. Five months after being evacuated, I was starting in the Office of Citizen Services and Innovative Technologies. I had never heard of OCSIT or 18F before that. I have a few family members working in various parts of the government who have always regaled me with stories of the maddening bureaucracy. It was encouraging to see an entire office dedicated to hacking the government and helping them to work better. I have been working 50 percent of my time with 18F since November 2015 and have found many more qualities (transparency, professional development, empowerment, focus on diversity, etc) that are inspiring and are refreshing for the public sector." - Rebecca Refoy-Sidibe
 
-> <div class="response-block">{{ "steven-reilly" | team_photo }}
+<div class="response-block">{{ "steven-reilly" | team_photo }}
 
 "My path to 18F was through civic hacking -- specifically Code for DC. It helped me demystify technology and showed me some of the possibilities. My favorite thing to work on so far is not a project per se but rather information sharing between team members. There are so many subject-matter experts here, and it's wonderful to be able to teach somebody something new while learning from them, as well." - {{ "steven-reilly" | team_link }}</div>
 
 > "I came from an Army IT research lab. Government service is fulfilling in a way that private-sector employment hasn't been for me, and the chance to work somewhere "different" without leaving the government was too tempting to pass up." - {{ "michael-walker" | team_link }}
 
-> <div class="response-block">{{ "vdavez" | team_photo }}
+<div class="response-block">{{ "vdavez" | team_photo }}
 
 "I left the greatest job in the world (General Counsel to the Council of the District of Columbia) to help bring joy to federal acquisition!" - {{ "vdavez" | team_link }}</div>
 
@@ -120,10 +119,10 @@ _The Outreach team is responsible for promoting the work of digital innovators a
 
 <div class="response-block">{{ "elaine" | team_photo }}
 
-“Sleep deprived student activist
-Issue based campaign organizer
-Technology harnesser for social justice
-Code For Progress Fellow
+“Sleep deprived student activist >
+Issue based campaign organizer >
+Technology harnesser for social justice >
+Code For Progress Fellow >
 Now, a developer building an inclusive environment in government technology.” - {{ "elaine" | team_link }}</div>
 
 <div class="response-block">{{ "melody" | team_photo }}
