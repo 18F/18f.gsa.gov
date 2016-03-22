@@ -33,8 +33,7 @@ end
 
 def init
   begin
-    require 'bundler'
-  rescue LoadError
+    require 'bundler' LoadError
     puts "Installing Bundler gem..."
     exec_cmd 'gem install bundler'
     puts "Bundler installed; installing gems"
@@ -95,8 +94,8 @@ end
 
 def production_build
   puts 'Fetching from git'
-  exec_cmd 'git fetch origin production'
-  exec_cmd 'git reset --hard origin/production'
+  exec_cmd 'git fetch origin staging'
+  exec_cmd 'git reset --hard origin/staging'
   update_gems
   reset
   puts 'building site'
