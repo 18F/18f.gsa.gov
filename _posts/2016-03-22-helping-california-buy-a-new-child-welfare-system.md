@@ -46,7 +46,7 @@ results that users of the system actually need. We offer our partners
 [a different
 approach](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).
 
-Through a partnership with HHS, 18F was able to work with California’s Department of Social Services and Office of Systems
+Through a partnership with HHS, 18F was able to work on behalf of HSS with California’s Department of Social Services and Office of Systems
 Integration to simplify the contracting documents and to incorporate
 modular contracting, agile development, user-centered design, and open
 source practices into their project. This project is still in the early
