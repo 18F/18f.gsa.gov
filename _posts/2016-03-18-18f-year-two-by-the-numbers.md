@@ -60,7 +60,7 @@ General Service Administration’s Federal Acquisition Service in the
 headquartered in San Francisco.
 
 -   **200 companies competed** across all three pools
--   **40 prototypes** submitted for pool three were considere exceptional by our review team
+-   **40 prototypes** submitted for pool three were considered exceptional by our review team
 -   **17 companies** were ultimately awarded space in pool three
 -   **22 vendors** put in **208 total bids** across the **22 reverse auctions** hosted by 18F
 -   **Three auctions** sold to a bidder for $1
@@ -79,7 +79,7 @@ public servants around the country to join our team. Here’s what we look
 like today:
 
 -   **21 new** [**Presidential Innovation Fellows**](https://presidentialinnovationfellows.gov/)
--   **97 18F team members,** bringing our team to a total size of **169**
+-   **97 new 18F team members,** bringing our team to a total size of **178**
 -   [We are hiring](https://join.18f.gov) at a rate of **25 new employees per quarter**
 -   We have staff in **30 cities** [**across the country**](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/)
 -   **We have four offices** in DC, San Francisco, New York, and Chicago
