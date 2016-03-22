@@ -33,7 +33,8 @@ end
 
 def init
   begin
-    require 'bundler' LoadError
+    require 'bundler'
+  rescue LoadError
     puts "Installing Bundler gem..."
     exec_cmd 'gem install bundler'
     puts "Bundler installed; installing gems"
