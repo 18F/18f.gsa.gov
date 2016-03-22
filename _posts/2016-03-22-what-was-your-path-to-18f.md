@@ -1,6 +1,6 @@
 ---
 title: "We asked over 100 of our coworkers: What was your path to 18F?"
-date: 2016-03-22 12:00 EDT
+date: 2016-03-22 14:00 EDT
 authors:
 - melody
 tags:
@@ -12,7 +12,7 @@ description: "People have joined 18F from a variety of different backgrounds. We
 ---
 People come to 18F from many different backgrounds. We've heard from new hires and potential applicants that hearing how people people got to 18F is helpful — particularly for our many employees who didn't come from the tech sector or federal government.
 
-Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what **path they took to get to 18F.**
+Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what [path they took to get to 18F.](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
 
 Over 100 people from every team (and time zone) responded, and we’re excited to share their responses below. You can also see more about why our team members applied to 18F, and tomorrow you can see what they’ve loved working on so far.
 
