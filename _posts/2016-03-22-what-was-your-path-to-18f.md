@@ -188,7 +188,7 @@ _We help agencies transform into modern, high-functioning organizations through 
 
 “I came to 18F after working on a project with the NCTC (National Counterterrorism Center) and saw the need to for more creative technologist in gov.” - {{ "romke" | team_link }}</div>
 
-> "A non-traditional life intertwined with tech entrepreneurship, online startups, interactive design, and public service. Served as youth pastor, founded a brand design firm, scaled a tech training organization, worked on Capitol Hill and was a Resident in the Venture Incubation Program at the Harvard Innovation Lab working on applying fantasy football to the legislative process. After graduating from my master's program at Harvard's Kennedy School, found my way to a place where all the pieces of my life come together." - **Philip Harding**
+> "A non-traditional life intertwined with tech entrepreneurship, online startups, interactive design, and public service. Served as youth pastor, founded a brand design firm, scaled a tech training organization, worked on Capitol Hill and was a Resident in the Venture Incubation Program at the Harvard Innovation Lab working on applying fantasy football to the legislative process. After graduating from my master's program at Harvard's Kennedy School, found my way to a place where all the pieces of my life come together." - Philip Harding
 
 <div class="response-block">{{ "jayhuie" | team_photo }}
 
@@ -199,7 +199,7 @@ _We help agencies transform into modern, high-functioning organizations through 
 
 <div class="response-block">{{ "ed-mullen" | team_photo }}
 
-“I first briefly joined government because of [a tweet](https://twitter.com/edmullen/status/9339467817?ref_src=twsrc%5Etfw) I wrote. Some folks at The White House saw it and asked me to come work on what became the first version of [HealthCare.gov](http://healthcare.gov/) in 2010. Two years later, I again worked on [HealthCare.gov](http://healthcare.gov/) in its second iteration and its infamous launch. That experience, in which quite a bit of good work was overshadowed by the inexcusably bad launch, has been deeply informative. I believe strongly that government can serve the public effectively and want to be part of the movement to makes it so.” - {{ "ed-mullen" | team_link }}</div>
+“I first briefly joined government <a href="https://twitter.com/edmullen/status/9339467817?ref_src=twsrc%5Etfw">because of a tweet I wrote</a>. Some folks at The White House saw it and asked me to come work on what became the first version of <a href="http://healthcare.gov/">HealthCare.gov</a> in 2010. Two years later, I again worked on HealthCare.gov in its second iteration and its infamous launch. That experience, in which quite a bit of good work was overshadowed by the inexcusably bad launch, has been deeply informative. I believe strongly that government can serve the public effectively and want to be part of the movement to makes it so.” - {{ "ed-mullen" | team_link }}</div>
 
 > "I got involved with advocacy and community organizing with CalPIRG while studying graphic design at [the University of Southern California. After several years as a freelance designer post-college, I found a place to marry those two interests in Code for America, where I spent a year partnering with the City of New Orleans to build technology tools to make it easier for residents to understand what's happening with blighted properties in their neighborhoods. Code for America was where I discovered that my natural tendency to ask a million questions and doggedly seek the simplest path had a name, and was where I cultivated my UX design, research, and product management skillsets. After our fellowship, my CfA teammates and I formed a company around our fellowship project (then "BlightStatus," now "Civic Insight"), where I served as Founder & Chief Product Officer until our company was acquired last fall. After several years focused on technology for government at the local level, 18F was a natural next step, and I'm thrilled to be here." -- {{ "alex-pandel" | team_link }}
 
@@ -243,13 +243,11 @@ In early-2015, the Presidential Innovation Fellows and Digital Services caught m
 
 “I started learning to code when I was working for a member of congress as a web manager. Using analytics to build the best site I could for constituents got me really excited about using technology to make things work better for the American people. After that, I spent a few years working for a civic engagement startup before former 18F’er Jackie Kazil sold me on 18F.” - {{ "annalee" | team_link }}</div>
 
-> "I joined 18F after contacting the USDS about how to help after hearing President Obama speak. Prior to 18F I worked for General Electric and Luxottica leading IT initiatives for private multinational corporations." - {{ "steven-harms" | team_link }}
+<blockquote>"I joined 18F after contacting the USDS about how to help after hearing President Obama speak. Prior to 18F I worked for General Electric and Luxottica leading IT initiatives for private multinational corporations." - {{ "steven-harms" | team_link }}</blockquote>
 
-<br>
+<blockquote> "First, the people: 18F (and the sibling organizations like USDS, PIF, etc) have such an amazing staff including a bunch of people I've worked with or want to work with. It's a pretty spectacular team. And, it's by far the most diverse team I've ever worked on, which aligns very closely to my personal politics. It's like a breath of fresh air, looking around the office and not just seeing a bunch of young white dudes.
 
-> "First, the people: 18F (and the sibling organizations like USDS, PIF, etc) have such an amazing staff including a bunch of people I've worked with or want to work with. It's a pretty spectacular team. And, it's by far the most diverse team I've ever worked on, which aligns very closely to my personal politics. It's like a breath of fresh air, looking around the office and not just seeing a bunch of young white dudes.
-
-> Second: Open Source: open source -- and in general doing work in the open -- is super-important to me, but has been something I've had a really hard time finding time for at other jobs. 18F's "we work in the open" default means my work should be a lot more aligned with my desire to work on open source at work." - **Jacob Kaplan-Moss**
+Second: Open Source: open source -- and in general doing work in the open -- is super-important to me, but has been something I've had a really hard time finding time for at other jobs. 18F's "we work in the open" default means my work should be a lot more aligned with my desire to work on open source at work." - Jacob Kaplan-Moss</blockquote>
 
 <div class="response-block">{{ "adam-kendall" | team_photo }}
 
