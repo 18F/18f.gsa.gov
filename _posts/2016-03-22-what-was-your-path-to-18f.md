@@ -14,7 +14,7 @@ People come to 18F from many different backgrounds. We've heard from new hires a
 
 Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what path they took to get to 18F.
 
-Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about [why our team members applied to 18F]((https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/), and tomorrow you can see what they've loved working on so far.
+Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about [why our team members applied to 18F](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/), and tomorrow you can see what they've loved working on so far.
 
 Want to see your name on this list? You can see open positions and how to apply [on our join page](https://pages.18f.gov/joining-18f/index.html).
 
@@ -181,7 +181,7 @@ _We help agencies transform into modern, high-functioning organizations through 
 
 > "I consider my time at 18F to be penance for the many years I spent working in Silicon Valley. I started working on Internet startups almost two decades ago and genuinely bought into the notion that network technology would "change the world." But while that can be true, making a genuinely positive impact is not nearly as easy as Silicon Valley promises. As often as not, I found myself working on projects that had little to no social value, and as time wore on and the industry became more and more nakedly interested in money over people, my heart sunk. Fortunately, I was able to jump ship and join the product team at Code for America, a nonprofit dedicated to improving technology for cities, where I once again felt like I was doing work that made a difference. After several years with them I joined the (amazing!) team at 18F to continue doing this kind of work at the federal level." - {{ "lane-becker" | team_link }}
 
-> <div class="response-block">{{ "zaccohn" | team_photo }}
+<div class="response-block">{{ "zaccohn" | team_photo }}
 
 "I was involved in the SOPA/PIPA fight, ended up helping run a few government-themed hackathons where I met Todd Park. Fast forward a few years, and I was consulting with the State of Washington to help them do lean startup, customer development, and design thinking. I was speaking at the Lean Startup Conference, ran into Todd again, and, long story short: He's very persuasive and now I'm here!" - {{ "zaccohn" | team_link }}</div>
 <div class="response-block">{{ "romke" | team_photo }}
@@ -190,7 +190,7 @@ _We help agencies transform into modern, high-functioning organizations through 
 
 > "A non-traditional life intertwined with tech entrepreneurship, online startups, interactive design, and public service. Served as youth pastor, founded a brand design firm, scaled a tech training organization, worked on Capitol Hill and was a Resident in the Venture Incubation Program at the Harvard Innovation Lab working on applying fantasy football to the legislative process. After graduating from my master's program at Harvard's Kennedy School, found my way to a place where all the pieces of my life come together." - **Philip Harding**
 
-> <div class="response-block">{{ "jayhuie" | team_photo }}
+<div class="response-block">{{ "jayhuie" | team_photo }}
 
 "My path to 18F was building experience in industry, then learning the governmental aspects like policy, and finally having an opportunity to bring that experience inside." - {{ "jayhuie" | team_link }}</div>
 <div class="response-block">{{ "mike-hsu" | team_photo }}
@@ -251,7 +251,7 @@ In early-2015, the Presidential Innovation Fellows and Digital Services caught m
 
 > Second: Open Source: open source -- and in general doing work in the open -- is super-important to me, but has been something I've had a really hard time finding time for at other jobs. 18F's "we work in the open" default means my work should be a lot more aligned with my desire to work on open source at work." - **Jacob Kaplan-Moss**
 
-> <div class="response-block">{{ "adam-kendall" | team_photo }}
+<div class="response-block">{{ "adam-kendall" | team_photo }}
 
 "My family has a history of serving this country in any way it can. Both of my grandfathers were veterans of the Army, serving in the WWII Pacific theater, and Korea. My brother, brother-in-law, and three cousins have all served their country in the Marine Corps before and after the turmoil of 9/11. I knew I was not the military kind, so I took a different approach to serving, working as a consultant to the government to build better, and more re-usable software. The software market in government is saturated with vendors, both good and bad, and so exposure to being able to drive innovation is limited. I wanted to have a greater impact on how the government builds software, and found that 18F has that same mission." - {{ "adam-kendall" | team_link }}</div>
 <div class="response-block">{{ "cm" | team_photo }}
@@ -264,7 +264,7 @@ In early-2015, the Presidential Innovation Fellows and Digital Services caught m
 
 > "After years of working in the advertising industry, I wanted a change that would make a real impact in the world using software. Instead of helping people click-through to more content or change an ad-specific communication preference, I want to change the way people have to interact with government services whether it's tools used by federal agencies or by the American people. I am a self-taught software developer that found my place in web development by coming in through the window, specifically the browser window. Coming from a traditional graphic design background, CSS and systems design were two things that felt as natural as color theory and typography. As I learned more about the history of and fundamentals of programming, I made my transition to full-stack web development." - {{ "roger-ruiz" | team_link}}
 
-> <div class="response-block">{{ "micahsaul" | team_photo }}
+<div class="response-block">{{ "micahsaul" | team_photo }}
 
 "On the technical side, I got my start in video game QA before making the jump to the tech world. When the startup I was at was acquired by Google, my role shifted to something both more technical and philosophical. My experience working on a large scale knowledge representation system has helped me in thinking about how we can make government information and data more usable and accessible." - {{ "micahsaul" | team_link }}</div>
 <div class="response-block">{{ "becky" | team_photo }}
@@ -277,7 +277,7 @@ _Intake is the process by which 18F listens to potential partners, discusses pos
 
 > "I've been with GSA for 9+ years. I first encountered the work of 18F as a senior advisor to the Administrator, then began working closely with 18F when I was deputy CCO with the customer team. Finally, I was working more closely day-to-day with 18F as Chief of Staff for OCSIT/18F. With 18F, I was always impressed with how everyone was here for the right reason (they wanted to push government forward) and there is very little ego/hierarchy -- people just want to get good work done and are pretty flexible with the 'how.'" - Vicki McFadden
 
-> <div class="response-block">{{ "will" | team_photo }}
+<div class="response-block">{{ "will" | team_photo }}
 
 "I was working as a healthcare IT implementer in Wisconsin when I read the Time article "Obama's Trauma's Team" on the healthcare.gov rescue and thought 'I have the experience to help prevent or fix situations like that.' Then in August 2014, I saw 18F mentioned in press coverage of the launch of the United States Digital Service and sent a cold email to 18F because it had a website, offering to help out from Wisconsin as needed. Seven months later, I started!"  - {{ "will" | team_link }}</div>
 <div class="response-block">{{ "kara" | team_photo }}
