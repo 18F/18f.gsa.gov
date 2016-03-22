@@ -256,7 +256,7 @@ purchases, legal matters, and equipment requests.*
 <div class="response-block">
 {{ "joshbailes" | team_photo }}
 
-“18F offered me a chance risk something big for something good. The big
+“18F offered me a chance to risk something big for something good. The big
 risk was giving up my career path position elsewhere in government to
 work for an inside-the-government start up. The good was the goal of
 making government more accessible to individuals.” - {{ "joshbailes" | team_link }}</div>
@@ -279,13 +279,13 @@ people and learn completely new skills” - {{ "matt" | team_link }}</div>
 
 ### Outreach
 
-The Outreach team is responsible for promoting the work of digital
+*The Outreach team is responsible for promoting the work of digital
 innovators at 18F and across government. Our work spans a number of
 media outlets, including [the content of 18F’s public-facing
 website](https://18f.gsa.gov/), [our
 blog](https://18f.gsa.gov/blog/), our external and internal
 newsletters, our Twitter feed ([@18F](https://twitter.com/18F)),
-responses to press, and responses to emails to 18f@gsa.gov.
+responses to press, and responses to emails to 18f@gsa.gov.*
 
 <div class="response-block">
 {{ "boone" | team_photo }}
@@ -319,7 +319,7 @@ handling other details so that the rest of the team can do its job. We
 tend to be generalists, often with skills in code or other disciplines
 as well as product. More information about our Product team is available
 in the [18F Product
-Guide](https://pages.18f.gov/product-guide/index.html)
+Guide](https://pages.18f.gov/product-guide/index.html)*
 
 <div class="response-block">
 {{ "sarah" | team_photo }}
