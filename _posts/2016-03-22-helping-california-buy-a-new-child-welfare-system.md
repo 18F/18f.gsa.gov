@@ -131,7 +131,7 @@ Like our federal government partners, many states are facing the
 challenge of modernizing their digital services. As we find a good
 approach in one state, we can apply those same lessons to other programs
 in communities facing similar problems. The Congressional Budget Office
-projected that the federal government would spend \$628 billion in
+projected that the federal government would spend $628 billion in
 federal grants to state and local governments in 2015. Applying the same
 cost savings that we’ve seen at the federal level to this pool of grants
 would save hundreds of millions of dollars.
