@@ -95,8 +95,8 @@ end
 
 def production_build
   puts 'Fetching from git'
-  exec_cmd 'git fetch origin production'
-  exec_cmd 'git reset --hard origin/production'
+  exec_cmd 'git fetch origin staging'
+  exec_cmd 'git reset --hard origin/staging'
   update_gems
   reset
   puts 'building site'
