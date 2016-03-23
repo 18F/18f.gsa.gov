@@ -28,6 +28,7 @@ If this post and these projects appeal to you, you can see our open positions an
 
 # What have you loved working on?
 
+## Contents
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Strategy](#strategy)
