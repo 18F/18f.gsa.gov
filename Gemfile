@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby  '2.2.3'
 gem 'redcarpet', '3.2.3'
-gem 'jekyll', '3.0.1'
+gem 'jekyll', '3.1.2'
 gem 'html-proofer'
 
 group :jekyll_plugins do
@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll_pages_api'
   gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
   gem 'jekyll-paginate'
-  gem 'jekyll-redirect-from', '~> 0.9'
+  gem 'jekyll-redirect-from'
   gem 'jekyll_frontmatter_tests'
   gem 'jekyll-feed'
 end
