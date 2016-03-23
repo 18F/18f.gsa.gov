@@ -26,9 +26,24 @@ When we work on big, meaningful projects, we do it in the open — all of <a hre
 
 If this post and these projects appeal to you, you can see our open positions and apply to 18F <a href="https://pages.18f.gov/joining-18f/index.html">on our join page</a>.
 
---------------------------------------------------------------------------------
+# What have you loved working on?
 
-# Strategy
+<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Strategy](#strategy)
+- [Team building](#team-building)
+- [Content design](#content-design)
+- [People, places, and things](#people-places-and-things)
+- [Platforms and tools](#platforms-and-tools)
+- [Partner agency work](#partner-agency-work)
+- [Hiring](#hiring)
+- [User research](#user-research)
+- [Everything!](#everything)
+- [Design Standards](#design-standards)
+- [18F Blog](#18f-blog)
+
+<!-- /TOC -->
+## Strategy
 
 _Our strategists help agencies transform into modern, high-functioning organizations through new management models, culture change, modern practices, empowered talent, data access, and collaboration tools._
 
@@ -86,7 +101,7 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 > "I have loved being a part of meetings where 18F can provide a path forward for agencies that are frustrated with their current IT systems and products. The "lightbulb" moment when clients hear what 18F has to offer and are amazed at the technical expertise never gets old!" - Olesya Minina
 
-# Team building
+## Team building
 
 _The Engineering team is composed of smaller teams each organized by a facilitator. While most engineers at 18F will work in cross-functional project teams, their engineering teams will serve as small communities of practice designed to encourage cross-pollination that might not otherwise occur in a large, distributed team._
 
@@ -124,7 +139,7 @@ _The Engineering team is composed of smaller teams each organized by a facilitat
 
 “<a href="https://pages.18f.gov/iaa-forms/primer.html">IAA</a> and <a href="https://18f.gsa.gov/2015/05/21/tockingtime/">Tock</a> data analysis” - {{ "matt" | team_link}}</div>
 
-# Content design
+## Content design
 
 _Our content designers help people clarify their tone and voice, and explore the breadth and depth of their content._
 
@@ -140,7 +155,7 @@ _Our content designers help people clarify their tone and voice, and explore the
 
 “I'm proud of the work we've done to rewrite legalese into plain language. Government websites can be intimidating and confusing and plain language helps make government services seem more accessible and approachable.” - {{ "rebeccapiazza" | team_link}}</div>
 
-# People, places, and things
+## People, places, and things
 
 _When people are asked about their favorite part of 18F, many say 'the people!' As our Talent Director Jen Tress says, "We like that."_
 
@@ -172,7 +187,7 @@ _When people are asked about their favorite part of 18F, many say 'the people!' 
 
 “Helping shape the organization as a senior advisor; specifically leading the 18F IRL event, our biannual in-person get together. We have an incredible, cross-functional team of folks who work really hard to make this event meaningful, and fun, for their coworkers!” - {{ "kara" | team_link}}</div>
 
-# Platforms and tools
+## Platforms and tools
 
 <div class="response-block">{{ "catherine" | team_photo }}
 
@@ -208,7 +223,7 @@ Gerhardt</blockquote>
 
 “I've loved being the product lead for cloud.gov, which will be a huge force-magnifier enabling the entire federal government to improve how it serves the public faster. One of our first customers is the EPA, and we're also <a href="https://datacenters.cio.gov/metrictarget/">helping the rest of government reduce its power consumption</a>. That means I'm also helping fight climate change in my day job, which was more than I'd even hoped for.” - {{ "bret" | team_link}}</div>
 
-# Partner agency work
+## Partner agency work
 
 <div class="response-block">{{ "becky" | team_photo }}
 
@@ -252,13 +267,13 @@ Gerhardt</blockquote>
 
 “I have loved working on the <a href="https://useiti.doi.gov/">Extractive Industries Transparency Initiative</a> (EITI) site. We have been trying to turn a bunch of large, often wonky datasets into visualizations that are useful or interesting to a large range of people. It is an interesting problem that hasn’t always had a clear answer. I’m excited to see the long-term impacts of the site will be! It has been lovely to work with and learn from 18Fers Michelle Hertzfeld, Shawn Allen, Eric Ronne, Nicole Fenton, and Corey Mahoney, and our non-18F partners Judy Wilson, Chris Mentasi, Isabelle Brantley, and Sarah Platts.” - {{ "brian" | team_link}}</div>
 
-# Hiring
+## Hiring
 
 <div class="response-block">{{ "cristina" | team_photo }}
 
 “I have enjoyed finding ways to streamline and improve the bureaucratic hiring process with my talent teammates. There are a lot of very skilled and accomplished people who want to join 18F and give back, and we want to make sure they have a pleasurable experience getting here.” - {{ "cristina" | team_link}}</div>
 
-# User research
+## User research
 
 <div class="response-block">{{ "melody" | team_photo }}
 
@@ -272,7 +287,7 @@ Gerhardt</blockquote>
 
 “I'm doing research reflecting upon the question "What is the current experience of applying to public benefits (food stamps, housing assistance, etc) and what can be done to improve this experience?". So, we're listening to and learning from stories from people applying for benefits as well as service providers. People's circumstances are so difficult sometimes, and I truly hope our work leads to taking away some unnecessary barriers that prevent them from leading healthier and safer lives.” - {{ "meghana" | team_link}}</div>
 
-# Everything!
+## Everything!
 
 _These people picked more than one project..._
 
@@ -306,13 +321,13 @@ _These people picked more than one project..._
 
 “So far, I’ve worked on onboarding and the <a href="https://useiti.doi.gov/">Extractive Industries Transparency Initiative</a> (EITI). I loved working with the EITI team, because they’re focused on open data that ties with climate change and larger accountability initiatives within the government. I’ve also enjoyed working on onboarding, because I get to learn about different teams, meet new people as they join 18F, and help improve our internal documentation on a daily basis.” - {{ "nicole-fenton" | team_link }}</div>
 
-# Design Standards
+## Design Standards
 
 <div class="response-block">{{ "marco" | team_photo }}
 
 “As a front end developer at 18F, I've worked on many different projects. Two highlights are the <a href="https://playbook.cio.gov/designstandards/">Draft U.S. Web Design Standards</a>, a visual style guide and UI component library for federal websites, and the <a href="https://pages.18f.gov/frontend/">18F Front End Guild</a>. The Design Standards purpose is to improve design of Federal websites by providing a shared, usable, accessible style that can be installed and configured for different sites. One great thing about the Standards is it attempts to use the top, modern front end practices, so it ends up bringing these best practices to the federal government. Being an example of using good front end practices fits well into the goals of the 18F Front End Guild: a group of developers all interested in improving front end development across 18F. The guild works to set standards, create guides, teach classes, and mentor other developers to make front end development as easy as possible at 18F.” - {{ "marco" | team_link }}</div>
 
-# 18F Blog
+## 18F Blog
 
 <div class="response-block">{{ "andre" | team_photo }}
 
