@@ -12,7 +12,7 @@ excerpt: "One of the most common questions we receive is: Should I integrate the
 Draft U.S. Web Design Standards into my existing project? The answer is: it depends."
 description: "One of the most common questions we receive is: Should I integrate the
 Draft U.S. Web Design Standards into my existing project? The answer is: it depends."
-
+image: /assets/blog/web-design-standards/home.png
 ---
 
 One of the most common questions we receive is: Should I integrate the
