@@ -23,7 +23,7 @@ To celebrate our second anniversary, we once again reached out to people
 across 18F. This time, we were curious about:
 
 -   What led them to 18F
--   What their pathway into the federal government looked like
+-   [What their pathway into the federal government looked like](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/)
 -   What they’ve loved working on so far
 
 We got more than 100 responses, including people from every team and
