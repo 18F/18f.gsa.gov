@@ -11,13 +11,18 @@ excerpt: "One of the best parts of working at 18F is the focus on meaningful, mi
 description: "One of the best parts of working at 18F is the focus on meaningful, mission-driven projects. But which projects? We asked everyone across the organization to tell us what they've most enjoyed working on. Here are their responses."
 ---
 
-Two weeks ago, we asked everyone across 18F to answer a few simple questions: <a href="https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/">Why did you join 18F?</a> <a href="https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/">What was your path to get here?</a> And what have you loved working on?
+Two weeks ago, we asked everyone across 18F to answer a few simple questions:
+<ul>
+  <li><a href="https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/">Why did you join 18F?</a></li>
+  <li><a href="https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/">What was your path to get here?</a></li>
+  <li>And what have you loved working on?</li>
+</ul>
 
 Dozens of people from every team and time zone responded, and today we share their answers to the question: What have you loved working on?
 
 Here's the tl;dr: More than one person mentioned that they really enjoyed working on meaningful, mission-driven projects that impact millions of people. It's true: we work on projects like <a href="https://collegescorecard.ed.gov/">College Scorecard</a>, a clearinghouse to provide the clearest, most accessible, and reliable national data on college cost, graduation, debt, and post-college earnings, and <a href="https://myaccount.uscis.dhs.gov/">an account system</a> used by hundreds of thousands of immigrants to keep their information up to date.
 
-When we work on big, meaningful projects, we do it in the open -- all of <a href="https://github.com/18F/">our code is public</a> and we publish how-tos, tutorials, and what we've learned on the 18F blog.
+When we work on big, meaningful projects, we do it in the open — all of <a href="https://github.com/18F/">our code is public</a> and we publish how-tos, tutorials, and what we've learned on the 18F blog.
 
 If this post and these projects appeal to you, you can see our open positions and apply to 18F <a href="https://pages.18f.gov/joining-18f/index.html">on our join page</a>.
 
@@ -79,7 +84,7 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “I've loved working on new acquisition processes focused on smaller, incremental contracts that can show our clients that this new agile, modular methodology will work. I've enjoyed being part of something where experimentation and risk-taking is encouraged and there's less fear of failing. I've enjoyed being part of a team that acknowledges the current approach to acquiring tech is broken, and is ready to try new ways of doing it differently.”  - {{ "randy-hart" | team_link}}</div>
 
-> "I have loved being a part of meetings where 18F can provide a path forward for agencies that are frustrated with their current IT systems and products. The "lightbulb" moment when clients hear what 18F has to offer and are amazed at the technical expertise never gets old!" - **Olesya Minina**
+> "I have loved being a part of meetings where 18F can provide a path forward for agencies that are frustrated with their current IT systems and products. The "lightbulb" moment when clients hear what 18F has to offer and are amazed at the technical expertise never gets old!" - Olesya Minina
 
 # Team building
 
@@ -207,13 +212,15 @@ Gerhardt</blockquote>
 
 <div class="response-block">{{ "becky" | team_photo }}
 
-“<a href="https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/">The DATA Act<a/>!!!!!” - {{ "becky" | team_link}}</div>
+“<a href="https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/">The DATA Act</a>!” - {{ "becky" | team_link}}</div>
 
 <div class="response-block">{{ "christine" | team_photo }}
 
 <blockquote> “I fully enjoyed working on <a href="https://www.everykidinapark.gov/">Every Kid in a Park</a> and seeing the positive feedback from everyone. I also liked working on <a href="https://calc.gsa.gov/">CALC</a>, a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote>
 
-<div class="response-block">{{ "raphy" | team_photo }}
+<div class="response-block">
+
+{{ "raphy" | team_photo }}
 
 “The team I'm on is building <a href="https://cap.18f.gov/">C2</a>, software that helps streamline government procurement for government purchase card holders. I love how it grew from a tiny prototype into a fully functional application that is being used by people daily to get their work done.” - {{ "raphy" | team_link}}</div>
 
