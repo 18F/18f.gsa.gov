@@ -11,15 +11,15 @@ excerpt: "One of the best parts of working at 18F is the focus on meaningful, mi
 description: "One of the best parts of working at 18F is the focus on meaningful, mission-driven projects. But which projects? We asked everyone across the organization to tell us what they've most enjoyed working on. Here are their responses."
 ---
 
-Two weeks ago, we asked everyone across 18F to answer a few simple questions: [Why did you join 18F?](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/) [What was your path to get here?](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/) And what have you loved working on?
+Two weeks ago, we asked everyone across 18F to answer a few simple questions: <a href="https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/">Why did you join 18F?</a> <a href="https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/">What was your path to get here?</a> And what have you loved working on?
 
 Dozens of people from every team and time zone responded, and today we share their answers to the question: What have you loved working on?
 
-Here's the tl;dr: More than one person mentioned that they really enjoyed working on meaningful, mission-driven projects that impact millions of people. It's true: we work on projects like [College Scorecard](https://collegescorecard.ed.gov/), a clearinghouse to provide the clearest, most accessible, and reliable national data on college cost, graduation, debt, and post-college earnings, and [an account system](http://myaccount.uscis.dhs.gov/) used by hundreds of thousands of immigrants to keep their information up to date.
+Here's the tl;dr: More than one person mentioned that they really enjoyed working on meaningful, mission-driven projects that impact millions of people. It's true: we work on projects like <a href="https://collegescorecard.ed.gov/">College Scorecard</a>, a clearinghouse to provide the clearest, most accessible, and reliable national data on college cost, graduation, debt, and post-college earnings, and <a href="https://myaccount.uscis.dhs.gov/">an account system</a> used by hundreds of thousands of immigrants to keep their information up to date.
 
-When we work on big, meaningful projects, we do it in the open -- all of [our code is public](https://github.com/18F/) and we publish how-tos, tutorials, and what we've learned on the 18F blog.
+When we work on big, meaningful projects, we do it in the open -- all of <a href="https://github.com/18F/">our code is public</a> and we publish how-tos, tutorials, and what we've learned on the 18F blog.
 
-If this post and these projects appeal to you, you can see our open positions and apply to 18F [on our join page](https://pages.18f.gov/joining-18f/index.html).
+If this post and these projects appeal to you, you can see our open positions and apply to 18F <a href="https://pages.18f.gov/joining-18f/index.html">on our join page</a>.
 
 --------------------------------------------------------------------------------
 
@@ -30,11 +30,14 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “I have been working at Census with government workers who are incredibly talented experts, in tech and statistics. Finding ways to support their good work, and move the bureau towards internet data collection for 2020 has been incredibly rewarding. I also work with an incredible group of 18F people in this endeavor, and it is an honor to be side-by-side with so many talented strategists.”  - {{ "kane" | team_link}}</div>
 
-> "Love bureaucracy hacking. Love being entrepreneurial in a large, complex environment that can seem impervious. (Oh yes! It's happening.) Loved when a senior Department of Defense official commended me for putting "Philip sized holes in the walls" across the Pentagon." (Ed. note: Not literally.) - **Philip Harding**
+<blockquote> "Love bureaucracy hacking. Love being entrepreneurial in a large, complex environment that can seem impervious. (Oh yes! It's happening.) Loved when a senior Department of Defense official commended me for putting "Philip sized holes in the walls" across the Pentagon." (Ed. note: Not literally.) - Philip Harding</blockquote>
 
-> "I continue to pinch myself about the type of work I get to do at 18F. Not only are the impact areas incredibly compelling (helping the Navy place the right officers in the right jobs at the right time; making it easier for EPA to monitor air emissions and pesticides ingredients to keep our environment safe), but the fact that I get to wear all three of my design research, UX design, and product strategy hats interchangeably is just crazy-awesome. I am totally in the zone when helping our agency partners move themselves out of "analysis paralysis" and into experimenting with small prototypes designed to meet the needs of real humans, and the fact that I get to do that every day at 18F makes me ridiculously, geekily happy." - {{ "alex-pandel" | team_link }}
+<blockquote> "I continue to pinch myself about the type of work I get to do at 18F. Not only are the impact areas incredibly compelling (helping the Navy place the right officers in the right jobs at the right time; making it easier for EPA to monitor air emissions and pesticides ingredients to keep our environment safe), but the fact that I get to wear all three of my design research, UX design, and product strategy hats interchangeably is just crazy-awesome. I am totally in the zone when helping our agency partners move themselves out of "analysis paralysis" and into experimenting with small prototypes designed to meet the needs of real humans, and the fact that I get to do that every day at 18F makes me ridiculously, geekily happy." - {{ "alex-pandel" | team_link }}</blockquote>
 
-> "So far I have helped plan and execute on projects as wide-ranging as helping our armed forces better coordinate their global talent pool; aiding the Department of the Treasury in bringing a new level of financial transparency to the public; and assisting the Environmental Protection Agency in thinking through ways to modernize their approach to labeling and inspecting pesticides. Each project has been different, but in every case I've been able to see how my efforts are going to positively impact the way our country functions, and I'm extremely grateful of the opportunity to get to do this work." - {{ "lane-becker" | team_link }}
+
+<blockquote> "So far I have helped plan and execute on projects as wide-ranging as helping our armed forces better coordinate their global talent pool; aiding the Department of the Treasury in bringing a new level of financial transparency to the public; and assisting the Environmental Protection Agency in thinking through ways to modernize their approach to labeling and inspecting pesticides. Each project has been different, but in every case I've been able to see how my efforts are going to positively impact the way our country functions, and I'm extremely grateful of the opportunity to get to do this work." - {{ "lane-becker" | team_link }}</blockquote>
+
+
 <div class="response-block">{{ "jessie-posilkin" | team_photo }}
 
 “I love facilitating workshops and helping people articulate what it is their are trying to do. No matter the agency (or institution), people get stuck articulating the problem the want to solve — which makes it harder to find a solution. Whether drafting contracts, developing a prototype, or scoping the next phase of a project, people light up when they feel heard and see a path forward. It doesn't get old.” - {{ "jessie-posilkin" | team_link}}</div>
@@ -80,6 +83,7 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 # Team building
 
 _The Engineering team is composed of smaller teams each organized by a facilitator. While most engineers at 18F will work in cross-functional project teams, their engineering teams will serve as small communities of practice designed to encourage cross-pollination that might not otherwise occur in a large, distributed team._
+
 <div class="response-block">{{ "theresa" | team_photo }}
 
 “I love working to make sure the folks of the Engineering chapter feel supported, are happy with their work, and have skill growth opportunities.” - {{ "theresa" | team_link}}</div>
@@ -102,18 +106,22 @@ _The Engineering team is composed of smaller teams each organized by a facilitat
 
 <div class="response-block">{{ "anna" | team_photo }}
 
-“I’ve loved much of the stuff that I’ve worked on, particularly the [product guide](https://pages.18f.gov/product-guide/) and our annual offsite, but I’ve especially enjoyed digging deep into establishing one of our new business lines. I can already tell, in the early stages, that we’re going to do such great things for the future of 18F.” - {{ "anna" | team_link}}</div>
+“I’ve loved much of the stuff that I’ve worked on, particularly the <a href="https://pages.18f.gov/product-guide/">product guide</a> and our annual offsite, but I’ve especially enjoyed digging deep into establishing one of our new business lines. I can already tell, in the early stages, that we’re going to do such great things for the future of 18F.” - {{ "anna" | team_link}}</div>
 
-> "So far, everything I've been involved with. I've only worked on internal tools so far and it's rewarding to help your teammates. Seeing the things coming down the pipe and what kinds of impacts we'll have on a larger scale have has me excited to keep going." - **Greg Walker**
+<blockquote> "So far, everything I've been involved with. I've only worked on internal tools so far and it's rewarding to help your teammates. Seeing the things coming down the pipe and what kinds of impacts we'll have on a larger scale have has me excited to keep going." - Greg Walker</blockquote>
 
-> "Maturing the pipeline between Great Pitch and Program Review to make sure our portfolio has the right mix of products and services that government needs." - **Vicki McFadden**
-<div class="response-block">{{ "matt" | team_photo }}
+<blockquote> "Maturing the pipeline between Great Pitch and Program Review to make sure our portfolio has the right mix of products and services that government needs." - Vicki McFadden</blockquote>
 
-“[IAA](https://pages.18f.gov/iaa-forms/primer.html) and [Tock](https://18f.gsa.gov/2015/05/21/tockingtime/) data analysis” - {{ "matt" | team_link}}</div>
+<div class="response-block">
+
+{{ "matt" | team_photo }}
+
+“<a href="https://pages.18f.gov/iaa-forms/primer.html">IAA</a> and <a href="https://18f.gsa.gov/2015/05/21/tockingtime/">Tock</a> data analysis” - {{ "matt" | team_link}}</div>
 
 # Content design
 
 _Our content designers help people clarify their tone and voice, and explore the breadth and depth of their content._
+
 <div class="response-block">{{ "kate" | team_photo }}
 
 “Ahh! If I were to list everything, I’d totally take over this blog post (which would be a pretty uncool thing to do, when it comes right down to it), so I’ll just name a few. I’m extremely proud of the [content strategy and design work](https://my.uscis.gov/) I did for USCIS (United States Citizenship and Immigration Services); creating welcoming, easy-to-use [Constitution Week content](https://18f.gsa.gov/2015/09/21/new-citizenship-resources/) was really rewarding. Helping get 18F’s [Writing Lab](https://18f.gsa.gov/2016/01/22/18f-writing-lab/) off the ground is another major accomplishment. To date, this internal, ad-hoc writing help center has completed more than 120 projects for our team and partner agencies alike. I’m currently working on the Federal Front Door project, the goal of which is to improve government interactions with the public — a lofty goal, to be sure, and one that’s extremely exciting to be working toward.” - {{ "kate" | team_link}}</div>
@@ -129,6 +137,7 @@ _Our content designers help people clarify their tone and voice, and explore the
 # People, places, and things
 
 _When people are asked about their favorite part of 18F, many say 'the people!' As our Talent Director Jen Tress says, "We like that."_
+
 <div class="response-block">{{ "julia" | team_photo }}
 
 “To be honest, the love I have for 18F is not necessarily associated with projects or tasks. The love I have is for the talented, kind hearted, and hard working people at 18F that I feel lucky to call my colleagues and friends.” - {{ "julia" | team_link}}</div>
@@ -179,9 +188,12 @@ _When people are asked about their favorite part of 18F, many say 'the people!' 
 
 “I’ve really enjoyed building out the [micro-purchase platform](https://micropurchase.18f.gov/) and creating a successful proof-of-concept for open-source code procurement in the federal space. Great, effective code doesn’t have to require year-long procurement processes, and I feel fortunate to have been able to work on the project and enable so many vendors to ship code (and get paid) using agile methodologies and open source best practices.” - {{ "alla" | team_link}}</div>
 
-> "I have loved working on the [micro-purchase platform](https://micropurchase.18f.gov/). It's been remarkable to help with a project that started out as an idea and within a few months turn it into something real." - {{ "alan" | team_link}}
+<blockquote> "I have loved working on the <a href="https://micropurchase.18f.gov/">micro-purchase platform</a>. It's been remarkable to help with a project that started out as an idea and within a few months turn it into something real." - {{ "alan" | team_link}}</blockquote>
 
-> "The [micro-purchase platform](https://micropurchase.18f.gov/)." - **Laura Gerhardt**
+
+<blockquote> "The <a href="https://micropurchase.18f.gov/">micro-purchase platform</a>." - Laura
+Gerhardt</blockquote>
+
 <div class="response-block">{{ "noah" | team_photo }}
 
 “As the Infrastructure Director, I'm blessed to be able to jump into almost every project 18F works on. But I'd remiss not to mention our flagship platform project, [cloud.gov](https://cloud.gov/)!” - {{ "noah" | team_link}}</div>
@@ -198,7 +210,7 @@ _When people are asked about their favorite part of 18F, many say 'the people!' 
 
 <div class="response-block">{{ "christine" | team_photo }}
 
-> “I fully enjoyed working on [Every Kid in a Park](https://www.everykidinapark.gov/) and seeing the positive feedback from everyone. I also liked working on [CALC](https://calc.gsa.gov/), a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}
+<blockquote> “I fully enjoyed working on [Every Kid in a Park](https://www.everykidinapark.gov/) and seeing the positive feedback from everyone. I also liked working on [CALC](https://calc.gsa.gov/), a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote>
 
 <div class="response-block">{{ "raphy" | team_photo }}
 
