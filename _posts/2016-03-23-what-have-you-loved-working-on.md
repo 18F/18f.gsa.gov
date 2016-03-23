@@ -48,6 +48,8 @@ If this post and these projects appeal to you, you can see our open positions an
 
 _Our strategists help agencies transform into modern, high-functioning organizations through new management models, culture change, modern practices, empowered talent, data access, and collaboration tools._
 
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "kane" | team_photo }}
 
 “I have been working at Census with government workers who are incredibly talented experts, in tech and statistics. Finding ways to support their good work, and move the bureau towards internet data collection for 2020 has been incredibly rewarding. I also work with an incredible group of 18F people in this endeavor, and it is an honor to be side-by-side with so many talented strategists.”  - {{ "kane" | team_link}}</div>
@@ -106,6 +108,8 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 _The Engineering team is composed of smaller teams each organized by a facilitator. While most engineers at 18F will work in cross-functional project teams, their engineering teams will serve as small communities of practice designed to encourage cross-pollination that might not otherwise occur in a large, distributed team._
 
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "theresa" | team_photo }}
 
 “I love working to make sure the folks of the Engineering chapter feel supported, are happy with their work, and have skill growth opportunities.” - {{ "theresa" | team_link}}</div>
@@ -144,6 +148,8 @@ _The Engineering team is composed of smaller teams each organized by a facilitat
 
 _Our content designers help people clarify their tone and voice, and explore the breadth and depth of their content._
 
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "kate" | team_photo }}
 
 “Ahh! If I were to list everything, I’d totally take over this blog post (which would be a pretty uncool thing to do, when it comes right down to it), so I’ll just name a few. I’m extremely proud of the <a href="https://my.uscis.gov/">content strategy and design work</a> I did for USCIS (United States Citizenship and Immigration Services); creating welcoming, easy-to-use <a href="https://18f.gsa.gov/2015/09/21/new-citizenship-resources/">Constitution Week content</a> was really rewarding. Helping get 18F’s <a href="https://18f.gsa.gov/2016/01/22/18f-writing-lab/">Writing Lab</a> off the ground is another major accomplishment. To date, this internal, ad-hoc writing help center has completed more than 120 projects for our team and partner agencies alike. I’m currently working on the Federal Front Door project, the goal of which is to improve government interactions with the public — a lofty goal, to be sure, and one that’s extremely exciting to be working toward.” - {{ "kate" | team_link}}</div>
@@ -159,6 +165,8 @@ _Our content designers help people clarify their tone and voice, and explore the
 ## People, places, and things
 
 _When people are asked about their favorite part of 18F, many say 'the people!' As our Talent Director Jen Tress says, "We like that."_
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">{{ "julia" | team_photo }}
 
@@ -189,6 +197,8 @@ _When people are asked about their favorite part of 18F, many say 'the people!' 
 “Helping shape the organization as a senior advisor; specifically leading the 18F IRL event, our biannual in-person get together. We have an incredible, cross-functional team of folks who work really hard to make this event meaningful, and fun, for their coworkers!” - {{ "kara" | team_link}}</div>
 
 ## Platforms and tools
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">{{ "catherine" | team_photo }}
 
@@ -225,6 +235,8 @@ Gerhardt</blockquote>
 “I've loved being the product lead for cloud.gov, which will be a huge force-magnifier enabling the entire federal government to improve how it serves the public faster. One of our first customers is the EPA, and we're also <a href="https://datacenters.cio.gov/metrictarget/">helping the rest of government reduce its power consumption</a>. That means I'm also helping fight climate change in my day job, which was more than I'd even hoped for.” - {{ "bret" | team_link}}</div>
 
 ## Partner agency work
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">{{ "becky" | team_photo }}
 
@@ -270,11 +282,15 @@ Gerhardt</blockquote>
 
 ## Hiring
 
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "cristina" | team_photo }}
 
 “I have enjoyed finding ways to streamline and improve the bureaucratic hiring process with my talent teammates. There are a lot of very skilled and accomplished people who want to join 18F and give back, and we want to make sure they have a pleasurable experience getting here.” - {{ "cristina" | team_link}}</div>
 
 ## User research
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">{{ "melody" | team_photo }}
 
@@ -291,6 +307,8 @@ Gerhardt</blockquote>
 ## Everything!
 
 _These people picked more than one project..._
+
+[Back to the table of contents](#contents)
 
 > "I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities</a> platform or the [Federal Front Door](https://labs.usa.gov/) welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes." - {{ "roger-ruiz" | team_link}}
 
