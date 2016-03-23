@@ -218,6 +218,11 @@ _The infrastructure team helps 18F navigate the "federal compliance architecture
 ## Engineering
 
 _18F Engineering is responsible for delivering high quality, robust, open source software. We also evangelize best practices relating to software testing, scalability, security, and agile development._
+<<<<<<< HEAD
+=======
+
+<div class="response-block">{{ "moncef" | team_photo }}
+>>>>>>> staging
 
 <div class="response-block">{{ "moncef" | team_photo }}
 “My path to 18F can be traced back to 2012 when I was still at AOL. I was looking to transition from QA to Dev, and thought that a good stepping stone would be to lead the automated testing effort on the mobile team, a role I pursued and obtained.
