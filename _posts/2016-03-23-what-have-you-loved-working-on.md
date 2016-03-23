@@ -216,7 +216,7 @@ Gerhardt</blockquote>
 
 <div class="response-block">{{ "christine" | team_photo }}
 
-<blockquote> “I fully enjoyed working on <a href="https://www.everykidinapark.gov/">Every Kid in a Park</a> and seeing the positive feedback from everyone. I also liked working on <a href="https://calc.gsa.gov/">CALC</a>, a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote>
+<blockquote> “I fully enjoyed working on <a href="https://www.everykidinapark.gov/">Every Kid in a Park</a> and seeing the positive feedback from everyone. I also liked working on <a href="https://calc.gsa.gov/">CALC</a>, a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote><br>
 
 <div class="response-block">
 
