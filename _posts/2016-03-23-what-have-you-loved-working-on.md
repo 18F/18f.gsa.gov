@@ -11,7 +11,7 @@ excerpt: "One of the best parts of working at 18F is the focus on meaningful, mi
 description: "One of the best parts of working at 18F is the focus on meaningful, mission-driven projects. But which projects? We asked everyone across the organization to tell us what they've most enjoyed working on. Here are their responses."
 ---
 
-Two weeks ago, we asked everyone across 18F to answer a few simple questions: [Why did you join 18F?]() [What was your path to get here?]() And what have you loved working on?
+Two weeks ago, we asked everyone across 18F to answer a few simple questions: [Why did you join 18F?](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/) [What was your path to get here?](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/) And what have you loved working on?
 
 Dozens of people from every team and time zone responded, and today we share their answers to the question: What have you loved working on?
 
