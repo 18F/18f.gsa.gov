@@ -19,7 +19,7 @@ with California’s Department of Social Services and Office of Systems
 Integration on the replacement of California's Child Welfare System. We helped them  simplify the contracting documents and incorporate
 modular contracting, agile development, user-centered design, and open
 source practices into their project."
-image:
+image: /assets/blog/ca-child-welfare/ca-team.jpg
 ---
 
 Last year, California began a process to replace their child welfare
@@ -46,8 +46,10 @@ results that users of the system actually need. We offer our partners
 [a different
 approach](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).
 
-Through a partnership with HHS, 18F was able to work with California’s Department of Social Services and Office of Systems
-Integration to simplify the contracting documents and to incorporate
+![The team from the State of California, Code for America, and 18F at the end of day two of the workshop.]({{site.baseurl}}/assets/blog/ca-child-welfare/ca-team.jpg)
+*The team from the State of California, Code for America, and 18F at the end of day two of the workshop.*
+
+Through a partnership with HHS, 18F was able to work on behalf of HHS with California’s Department of Social Services and Office of Systems Integration and Code for America to simplify the contracting documents and to incorporate
 modular contracting, agile development, user-centered design, and open
 source practices into their project. This project is still in the early
 stages, and the outcome is still uncertain, but this change in strategy
@@ -66,7 +68,7 @@ six of us from 18F made the trip out to California to lead a structured
 two-day workshop, similar to our [RFP ghostwriting
 service](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/),
 with a joint team from California’s Department of Social Services, the
-Office of Systems Integration, and HHS. Over two days, we led a hands-on
+Office of Systems Integration, HHS, and Code for America. Over two days, we led a hands-on
 workshop to validate a modular contracting approach to this problem.
 
 After everyone was on board, we worked with the California team to edit
