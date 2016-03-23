@@ -26,6 +26,7 @@ If this post and these projects appeal to you, you can see our open positions an
 # Strategy
 
 _Our strategists help agencies transform into modern, high-functioning organizations through new management models, culture change, modern practices, empowered talent, data access, and collaboration tools._
+
 <div class="response-block">{{ "kane" | team_photo }}
 
 “I have been working at Census with government workers who are incredibly talented experts, in tech and statistics. Finding ways to support their good work, and move the bureau towards internet data collection for 2020 has been incredibly rewarding. I also work with an incredible group of 18F people in this endeavor, and it is an honor to be side-by-side with so many talented strategists.”  - {{ "kane" | team_link}}</div>
@@ -44,7 +45,7 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 <div class="response-block">{{ "julia-winn" | team_photo }}
 
-“I have loved working on [Playbook in Action](https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb), a web application that hopes to make it easier for government to adopt the principles of the [USDS Playbook](https://playbook.cio.gov/) in contracted digital services.” - {{ "julia-winn" | team_link}}</div>
+“I have loved working on <a href="https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb">Playbook in Action</a>, a web application that hopes to make it easier for government to adopt the principles of the <a href="https://playbook.cio.gov/">USDS Playbook</a> in contracted digital services.” - {{ "julia-winn" | team_link}}</div>
 
 <div class="response-block">{{ "romke" | team_photo }}
 
@@ -124,11 +125,11 @@ _Our content designers help people clarify their tone and voice, and explore the
 
 <div class="response-block">{{ "kate" | team_photo }}
 
-“Ahh! If I were to list everything, I’d totally take over this blog post (which would be a pretty uncool thing to do, when it comes right down to it), so I’ll just name a few. I’m extremely proud of the [content strategy and design work](https://my.uscis.gov/) I did for USCIS (United States Citizenship and Immigration Services); creating welcoming, easy-to-use [Constitution Week content](https://18f.gsa.gov/2015/09/21/new-citizenship-resources/) was really rewarding. Helping get 18F’s [Writing Lab](https://18f.gsa.gov/2016/01/22/18f-writing-lab/) off the ground is another major accomplishment. To date, this internal, ad-hoc writing help center has completed more than 120 projects for our team and partner agencies alike. I’m currently working on the Federal Front Door project, the goal of which is to improve government interactions with the public — a lofty goal, to be sure, and one that’s extremely exciting to be working toward.” - {{ "kate" | team_link}}</div>
+“Ahh! If I were to list everything, I’d totally take over this blog post (which would be a pretty uncool thing to do, when it comes right down to it), so I’ll just name a few. I’m extremely proud of the <a href="https://my.uscis.gov/">content strategy and design work</a> I did for USCIS (United States Citizenship and Immigration Services); creating welcoming, easy-to-use <a href="https://18f.gsa.gov/2015/09/21/new-citizenship-resources/">Constitution Week content</a> was really rewarding. Helping get 18F’s <a href="https://18f.gsa.gov/2016/01/22/18f-writing-lab/">Writing Lab</a> off the ground is another major accomplishment. To date, this internal, ad-hoc writing help center has completed more than 120 projects for our team and partner agencies alike. I’m currently working on the Federal Front Door project, the goal of which is to improve government interactions with the public — a lofty goal, to be sure, and one that’s extremely exciting to be working toward.” - {{ "kate" | team_link}}</div>
 
 <div class="response-block">{{ "emileigh" | team_photo }}
 
-“The content design for [betaFEC](https://beta.fec.gov/) is the most technical, intricate content puzzle I’ve ever worked on. I’ve spent more hours thinking about microcopy on data tables than I can count. And I’ve had the immense honor of tackling a high-stakes plain language project at an extremely technical government agency. As a lover of words and open government, I couldn’t be happier.” - {{ "emileigh" | team_link}}</div>
+“The content design for <a href="https://beta.fec.gov/">betaFEC</a> is the most technical, intricate content puzzle I’ve ever worked on. I’ve spent more hours thinking about microcopy on data tables than I can count. And I’ve had the immense honor of tackling a high-stakes plain language project at an extremely technical government agency. As a lover of words and open government, I couldn’t be happier.” - {{ "emileigh" | team_link}}</div>
 
 <div class="response-block">{{ "rebeccapiazza" | team_photo }}
 
@@ -170,23 +171,23 @@ _When people are asked about their favorite part of 18F, many say 'the people!' 
 
 <div class="response-block">{{ "catherine" | team_photo }}
 
-“I love working on our [AutoAPI](https://github.com/18F/autoapi) project, because it will make it dead-simple for agencies to open machine-readable data to the public.” - {{ "catherine" | team_link}}</div>
+“I love working on our <a href="https://github.com/18F/autoapi">AutoAPI</a> project, because it will make it dead-simple for agencies to open machine-readable data to the public.” - {{ "catherine" | team_link}}</div>
 
 <div class="response-block">{{ "jamesscott" | team_photo }}
 
-“I love working on [cloud.gov](http://cloud.gov/) at 18F. As a developer and a user of the platform, it's really exciting to be solving a problem 18F experiences that will potentially benefit all of government.” - {{ "jamesscott" | team_link}}</div>
+“I love working on <a href="https://cloud.gov/">cloud.gov</a> at 18F. As a developer and a user of the platform, it's really exciting to be solving a problem 18F experiences that will potentially benefit all of government.” - {{ "jamesscott" | team_link}}</div>
 
 <div class="response-block">{{ "eric" | team_photo }}
 
-“I've greatly enjoyed working with the Digital Analytics Program, on [analytics.usa.gov](http://analytics.usa.gov/) and the overall program. I've also loved the opportunity to help improve the security and privacy of the federal government's online services.” - {{ "eric" | team_link}}</div>
+“I've greatly enjoyed working with the Digital Analytics Program, on <a href="https://analytics.usa.gov/">analytics.usa.gov</a> and the overall program. I've also loved the opportunity to help improve the security and privacy of the federal government's online services.” - {{ "eric" | team_link}}</div>
 
 <div class="response-block">{{ "jeremiak" | team_photo }}
 
-“I have really enjoyed working on [Federalist](https://federalist.18f.gov/), a CMS-like platform for producing fast, content-heavy government websites.” - {{ "jeremiak" | team_link}}</div>
+“I have really enjoyed working on <a href="https://federalist.18f.gov/">Federalist</a>, a CMS-like platform for producing fast, content-heavy government websites.” - {{ "jeremiak" | team_link}}</div>
 
 <div class="response-block">{{ "alla" | team_photo }}
 
-“I’ve really enjoyed building out the [micro-purchase platform](https://micropurchase.18f.gov/) and creating a successful proof-of-concept for open-source code procurement in the federal space. Great, effective code doesn’t have to require year-long procurement processes, and I feel fortunate to have been able to work on the project and enable so many vendors to ship code (and get paid) using agile methodologies and open source best practices.” - {{ "alla" | team_link}}</div>
+“I’ve really enjoyed building out the <a href="https://micropurchase.18f.gov/">micro-purchase platform</a> and creating a successful proof-of-concept for open-source code procurement in the federal space. Great, effective code doesn’t have to require year-long procurement processes, and I feel fortunate to have been able to work on the project and enable so many vendors to ship code (and get paid) using agile methodologies and open source best practices.” - {{ "alla" | team_link}}</div>
 
 <blockquote> "I have loved working on the <a href="https://micropurchase.18f.gov/">micro-purchase platform</a>. It's been remarkable to help with a project that started out as an idea and within a few months turn it into something real." - {{ "alan" | team_link}}</blockquote>
 
@@ -196,53 +197,53 @@ Gerhardt</blockquote>
 
 <div class="response-block">{{ "noah" | team_photo }}
 
-“As the Infrastructure Director, I'm blessed to be able to jump into almost every project 18F works on. But I'd remiss not to mention our flagship platform project, [cloud.gov](https://cloud.gov/)!” - {{ "noah" | team_link}}</div>
+“As the Infrastructure Director, I'm blessed to be able to jump into almost every project 18F works on. But I'd remiss not to mention our flagship platform project, <a href="https://cloud.gov/">cloud.gov</a>!” - {{ "noah" | team_link}}</div>
 
 <div class="response-block">{{ "bret" | team_photo }}
 
-“I've loved being the product lead for cloud.gov, which will be a huge force-magnifier enabling the entire federal government to improve how it serves the public faster. One of our first customers is the EPA, and we're also [helping the rest of government reduce its power consumption](https://datacenters.cio.gov/metrictarget/). That means I'm also helping fight climate change in my day job, which was more than I'd even hoped for.” - {{ "bret" | team_link}}</div>
+“I've loved being the product lead for cloud.gov, which will be a huge force-magnifier enabling the entire federal government to improve how it serves the public faster. One of our first customers is the EPA, and we're also <a href="https://datacenters.cio.gov/metrictarget/">helping the rest of government reduce its power consumption</a>. That means I'm also helping fight climate change in my day job, which was more than I'd even hoped for.” - {{ "bret" | team_link}}</div>
 
 # Partner agency work
 
 <div class="response-block">{{ "becky" | team_photo }}
 
-“[The DATA Act](https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/)!!!!!” - {{ "becky" | team_link}}</div>
+“<a href="https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/">The DATA Act<a/>!!!!!” - {{ "becky" | team_link}}</div>
 
 <div class="response-block">{{ "christine" | team_photo }}
 
-<blockquote> “I fully enjoyed working on [Every Kid in a Park](https://www.everykidinapark.gov/) and seeing the positive feedback from everyone. I also liked working on [CALC](https://calc.gsa.gov/), a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote>
+<blockquote> “I fully enjoyed working on <a href="https://www.everykidinapark.gov/">Every Kid in a Park</a> and seeing the positive feedback from everyone. I also liked working on <a href="https://calc.gsa.gov/">CALC</a>, a tool to help save taxpayer dollars and to help simplify a known annoying internal government process.” - {{ "christine" | team_link}}</blockquote>
 
 <div class="response-block">{{ "raphy" | team_photo }}
 
-“The team I'm on is building [C2](https://cap.18f.gov/), software that helps streamline government procurement for government purchase card holders. I love how it grew from a tiny prototype into a fully functional application that is being used by people daily to get their work done.” - {{ "raphy" | team_link}}</div>
+“The team I'm on is building <a href="https://cap.18f.gov/">C2</a>, software that helps streamline government procurement for government purchase card holders. I love how it grew from a tiny prototype into a fully functional application that is being used by people daily to get their work done.” - {{ "raphy" | team_link}}</div>
 
 <div class="response-block">{{ "lenny-bogdonoff" | team_photo }}
 
-“I can't offer enough praise for how appreciative I am for my current project, [C2](https://cap.18f.gov/). The project itself is a basic web application that provides purchase authorization workflows for small government purchasing decisions. The project itself is structured as a product that is being sold back to agencies. The way in which our team develops prototypes, researched assumptions, and releases code makes me feel like we are working on a small startup inside 18F. Most of all, I can't express how amazing my coworkers are. Through the project, I’m learning a lot about areas that I previously didn’t explore. Overall +100%.” - {{ "lenny-bogdonoff" | team_link}}</div>
+“I can't offer enough praise for how appreciative I am for my current project, <a href="https://cap.18f.gov/">C2</a>. The project itself is a basic web application that provides purchase authorization workflows for small government purchasing decisions. The project itself is structured as a product that is being sold back to agencies. The way in which our team develops prototypes, researched assumptions, and releases code makes me feel like we are working on a small startup inside 18F. Most of all, I can't express how amazing my coworkers are. Through the project, I’m learning a lot about areas that I previously didn’t explore. Overall +100%.” - {{ "lenny-bogdonoff" | team_link}}</div>
 
 <div class="response-block">{{ "shawn" | team_photo }}
 
-“I have loved working on the [College Scorecard](https://collegescorecard.ed.gov/), knowing that it could make a huge difference for people seeking an education. I wish I'd had a resource like that back when I was looking for a college!” - {{ "shawn" | team_link}}</div>
+“I have loved working on the <a href="https://collegescorecard.ed.gov/">College Scorecard</a>, knowing that it could make a huge difference for people seeking an education. I wish I'd had a resource like that back when I was looking for a college!” - {{ "shawn" | team_link}}</div>
 
-<div class="response-block">“I love working on [College Scorecard](https://collegescorecard.ed.gov/), where we can quickly, easily, and transparently provide facts about our educational institutions and how they impact our lives.” - {{ "steven-harms" | team_link}}</div>
+<div class="response-block">“I love working on <a href="https://collegescorecard.ed.gov/">College Scorecard</a>, where we can quickly, easily, and transparently provide facts about our educational institutions and how they impact our lives.” - {{ "steven-harms" | team_link}}</div>
 
-<div class="response-block">“I have loved working on [eRegs](https://atf-eregs.18f.gov/) — my only project so far. I have enjoyed the infectious enthusiasm and pride displayed by everyone in doing their civic duty.” - {{ "vraj-mohan" | team_link}}</div>
+<div class="response-block">“I have loved working on <a href="https://atf-eregs.18f.gov/">eRegs</a> — my only project so far. I have enjoyed the infectious enthusiasm and pride displayed by everyone in doing their civic duty.” - {{ "vraj-mohan" | team_link}}</div>
 
 <div class="response-block">{{ "cm" | team_photo }}
 
-“I'm a sucker for [eRegulations](https://atf-eregs.18f.gov/), a legal document parser and viewer. I think there's so much potential to modernize and automate the law, and we're getting there one step at a time.” - {{ "cm" | team_link}}</div>
+“I'm a sucker for <a href="https://atf-eregs.18f.gov/">eRegulations</a>, a legal document parser and viewer. I think there's so much potential to modernize and automate the law, and we're getting there one step at a time.” - {{ "cm" | team_link}}</div>
 
 <div class="response-block">{{ "mhz" | team_photo }}
 
-“I love working on [EITI](https://useiti.doi.gov/) — Extractive Industries Transparency Initiative. It is part of an international effort to make oil, gas, coal, and other extractives data more accessible and understandable, and really suits my interest in making public policy something that is more accessible to everyone.” - {{ "mhz" | team_link}}</div>
+“I love working on <a href="https://useiti.doi.gov/">EITI</a> — Extractive Industries Transparency Initiative. It is part of an international effort to make oil, gas, coal, and other extractives data more accessible and understandable, and really suits my interest in making public policy something that is more accessible to everyone.” - {{ "mhz" | team_link}}</div>
 
 <div class="response-block">{{ "leah" | team_photo }}
 
-“Improving the public’s access to data about politics and campaign finance was very compelling to me, so similarly, I wanted to work on the Federal Election Commission [project](https://beta.fec.gov/) for months before I joined and was following it, lobbying to get on it. This project, our team, and our relationship with the client has grown and improved so much over the past year, and I have really loved helping make that possible.” - {{ "leah" | team_link}}</div>
+“Improving the public’s access to data about politics and campaign finance was very compelling to me, so similarly, I wanted to work on the Federal Election Commission <a href="https://beta.fec.gov/">project</a> for months before I joined and was following it, lobbying to get on it. This project, our team, and our relationship with the client has grown and improved so much over the past year, and I have really loved helping make that possible.” - {{ "leah" | team_link}}</div>
 
 <div class="response-block">{{ "brian" | team_photo }}
 
-“I have loved working on the [Extractive Industries Transparency Initiative](https://useiti.doi.gov/) (EITI) site. We have been trying to turn a bunch of large, often wonky datasets into visualizations that are useful or interesting to a large range of people. It is an interesting problem that hasn’t always had a clear answer. I’m excited to see the long-term impacts of the site will be! It has been lovely to work with and learn from 18Fers Michelle Hertzfeld, Shawn Allen, Eric Ronne, Nicole Fenton, and Corey Mahoney, and our non-18F partners Judy Wilson, Chris Mentasi, Isabelle Brantley, and Sarah Platts.” - {{ "brian" | team_link}}</div>
+“I have loved working on the <a href="https://useiti.doi.gov/">Extractive Industries Transparency Initiative</a> (EITI) site. We have been trying to turn a bunch of large, often wonky datasets into visualizations that are useful or interesting to a large range of people. It is an interesting problem that hasn’t always had a clear answer. I’m excited to see the long-term impacts of the site will be! It has been lovely to work with and learn from 18Fers Michelle Hertzfeld, Shawn Allen, Eric Ronne, Nicole Fenton, and Corey Mahoney, and our non-18F partners Judy Wilson, Chris Mentasi, Isabelle Brantley, and Sarah Platts.” - {{ "brian" | team_link}}</div>
 
 # Hiring
 
@@ -268,46 +269,47 @@ Gerhardt</blockquote>
 
 _These people picked more than one project..._
 
-> "I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities](https://openopps.digitalgov.gov) platform or the [Federal Front Door](https://labs.usa.gov/) welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes." - {{ "roger-ruiz" | team_link}}
+> "I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities</a> platform or the [Federal Front Door](https://labs.usa.gov/) welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes." - {{ "roger-ruiz" | team_link}}
+
 <div class="response-block">{{ "annalee" | team_photo }}
 
-“I've most loved working with 18F's diversity working group to help us build a diverse and inclusive team. Project-wise, I'm really proud of our work on the Peace Corps [project](https://letgirlslearn.peacecorps.gov/) — especially on our work to make the Django admin interface more accessible to low-vision users.” - {{ "annalee" | team_link}}</div>
+“I've most loved working with 18F's diversity working group to help us build a diverse and inclusive team. Project-wise, I'm really proud of our work on the Peace Corps <a href="https://letgirlslearn.peacecorps.gov/">project</a> — especially on our work to make the Django admin interface more accessible to low-vision users.” - {{ "annalee" | team_link}}</div>
 
 <div class="response-block">{{ "sarah" | team_photo }}
 
-“I’ve loved creating an open source community that spans the private and public sector through [Open Opportunities](https://openopps.digitalgov.gov) and the [College Scorecard](https://collegescorecard.ed.gov/) projects.” - {{ "sarah" | team_link}}</div>
+“I’ve loved creating an open source community that spans the private and public sector through <a href="https://openopps.digitalgov.gov">Open Opportunities</a> and the <a href="https://collegescorecard.ed.gov/">College Scorecard</a> projects.” - {{ "sarah" | team_link}}</div>
 
 <div class="response-block">{{ "christopher-goranson" | team_photo }}
 
-“Every Kid in a Park, Digital Acquisition Pilot, USAID's [RFP ghostwriting workshops](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/), U.S. Navy's Talent Link Prototyping Workshop, and transformation work at the National Technical Information Service. Oh, and smaller contributions to a number of really interesting 18F initiatives with wonderful coworkers.” - {{ "christopher-goranson" | team_link}}</div>
+“Every Kid in a Park, Digital Acquisition Pilot, USAID's <a href="https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/">RFP ghostwriting workshops</a>, U.S. Navy's Talent Link Prototyping Workshop, and transformation work at the National Technical Information Service. Oh, and smaller contributions to a number of really interesting 18F initiatives with wonderful coworkers.” - {{ "christopher-goranson" | team_link}}</div>
 
 <div class="response-block">{{ "carlo-costino" | team_photo }}
 
-“I have loved working on both the Team API and its related projects in order to support the tools that help build and propagate 18F’s internal data, and I have loved working with the FEC project team (and the FEC itself!) on the [new FEC web site](https://beta.fec.gov/). It’s been the best of both worlds so far as I’ve been able to dive back into technologies I haven’t worked with in a while, learn a whole host of new things, and engage directly with some of our agency partners. I have also greatly enjoyed participating in our working groups and see them as a conduit for instilling a culture of learning and keeping ourselves apprised of better ways we could approach our work and industry best-practices.” - {{ "carlo-costino" | team_link}}</div>
+“I have loved working on both the Team API and its related projects in order to support the tools that help build and propagate 18F’s internal data, and I have loved working with the FEC project team (and the FEC itself!) on the <a href="https://beta.fec.gov/">new FEC web site</a>. It’s been the best of both worlds so far as I’ve been able to dive back into technologies I haven’t worked with in a while, learn a whole host of new things, and engage directly with some of our agency partners. I have also greatly enjoyed participating in our working groups and see them as a conduit for instilling a culture of learning and keeping ourselves apprised of better ways we could approach our work and industry best-practices.” - {{ "carlo-costino" | team_link}}</div>
 
 <div class="response-block">{{ "jthibault" | team_photo }}
 
-“[Method cards](https://methods.18f.gov/) & [betaFEC](https://beta.fec.gov/)” - {{ "jthibault" | team_link }}</div>
+“<a href="https://methods.18f.gov/">Method cards</a> & <a href="https://beta.fec.gov/">betaFEC</a>” - {{ "jthibault" | team_link }}</div>
 
 <div class="response-block">{{ "maya" | team_photo }}
 
-“I've loved working on the Draft U.S. Web Design Standards, Federal Front Door, CALC, 18F Brand website, and the ["guys" auto-response Slackbot](https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/).” - {{ "maya" | team_link }}</div>
+“I've loved working on the Draft U.S. Web Design Standards, Federal Front Door, CALC, 18F Brand website, and the <a href="https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/">"guys" auto-response Slackbot</a>.” - {{ "maya" | team_link }}</div>
 
 <div class="response-block">{{ "nicole-fenton" | team_photo }}
 
-“So far, I’ve worked on onboarding and the [Extractive Industries Transparency Initiative](https://useiti.doi.gov/) (EITI). I loved working with the EITI team, because they’re focused on open data that ties with climate change and larger accountability initiatives within the government. I’ve also enjoyed working on onboarding, because I get to learn about different teams, meet new people as they join 18F, and help improve our internal documentation on a daily basis.” - {{ "nicole-fenton" | team_link }}</div>
+“So far, I’ve worked on onboarding and the <a href="https://useiti.doi.gov/">Extractive Industries Transparency Initiative</a> (EITI). I loved working with the EITI team, because they’re focused on open data that ties with climate change and larger accountability initiatives within the government. I’ve also enjoyed working on onboarding, because I get to learn about different teams, meet new people as they join 18F, and help improve our internal documentation on a daily basis.” - {{ "nicole-fenton" | team_link }}</div>
 
 # Design Standards
 
 <div class="response-block">{{ "marco" | team_photo }}
 
-“As a front end developer at 18F, I've worked on many different projects. Two highlights are the [Draft U.S. Web Design Standards](https://playbook.cio.gov/designstandards/), a visual style guide and UI component library for federal websites, and the [18F Front End Guild](https://pages.18f.gov/frontend/). The Design Standards purpose is to improve design of Federal websites by providing a shared, usable, accessible style that can be installed and configured for different sites. One great thing about the Standards is it attempts to use the top, modern front end practices, so it ends up bringing these best practices to the federal government. Being an example of using good front end practices fits well into the goals of the 18F Front End Guild: a group of developers all interested in improving front end development across 18F. The guild works to set standards, create guides, teach classes, and mentor other developers to make front end development as easy as possible at 18F.” - {{ "marco" | team_link }}</div>
+“As a front end developer at 18F, I've worked on many different projects. Two highlights are the <a href="https://playbook.cio.gov/designstandards/">Draft U.S. Web Design Standards</a>, a visual style guide and UI component library for federal websites, and the <a href="https://pages.18f.gov/frontend/">18F Front End Guild</a>. The Design Standards purpose is to improve design of Federal websites by providing a shared, usable, accessible style that can be installed and configured for different sites. One great thing about the Standards is it attempts to use the top, modern front end practices, so it ends up bringing these best practices to the federal government. Being an example of using good front end practices fits well into the goals of the 18F Front End Guild: a group of developers all interested in improving front end development across 18F. The guild works to set standards, create guides, teach classes, and mentor other developers to make front end development as easy as possible at 18F.” - {{ "marco" | team_link }}</div>
 
 # 18F Blog
 
 <div class="response-block">{{ "andre" | team_photo }}
 
-“I’ve loved working on 18F’s [blog](https://18f.gsa.gov/blog/) because it’s unusual for a government blog in the topics it covers but also that part of our mission is to get as many voices talking about our work as we can. I love working with team members to get their first post up on the site.” - {{ "andre" | team_link }}</div>
+“I’ve loved working on 18F’s <a href="https://18f.gsa.gov/blog/">blog</a> because it’s unusual for a government blog in the topics it covers but also that part of our mission is to get as many voices talking about our work as we can. I love working with team members to get their first post up on the site.” - {{ "andre" | team_link }}</div>
 
 <div class="response-block">{{ "boone" | team_photo }}
 
