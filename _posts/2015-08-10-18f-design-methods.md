@@ -103,9 +103,7 @@ this in a future blog post — stay tuned.)
 
 ## Get your own deck
 
-Our design methods are available in two formats:
-
-1. **Check out the [method cards online](https://methods.18f.gov/) for more information.** Our “alpha” digital version provides more details about each method, short stories about how we’ve used a given method in our work, and links to additional resources.
+**Check out the [method cards online](https://methods.18f.gov/) for more information.** Our “alpha” digital version provides more details about each method, short stories about how we’ve used a given method in our work, and links to additional resources.
 
 [![A screenshot of the Design Method Cards website]({{site.baseurl}}/assets/blog/design-method-cards/method-cards.png)](https://methods.18f.gov/)
 
