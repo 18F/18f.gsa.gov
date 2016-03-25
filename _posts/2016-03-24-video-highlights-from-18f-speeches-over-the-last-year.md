@@ -27,7 +27,7 @@ single dot.*
 One of the benefits of working on a distributed team is having people
 all over the country to speak about 18F’s mission and work. And they
 have. Over the past year, members of our distributed team have given
-talks in over 30 locations about how we’re changing government digital
+talks in more than 30 locations about how we’re changing government digital
 services. Topics have ranged from how we work to how we help the
 government build and buy software to [how people can join the 18F
 team](https://pages.18f.gov/joining-18f/). If you weren’t able to
@@ -53,7 +53,7 @@ Team culture
 We’ve also been doing a lot of talking about 18F’s culture and what it’s
 like to work here. Jennifer Thibault recently spoke at Design Driven NYC
 about [how our design team works while being distributed across the
-country](https://www.youtube.com/watch?v=IF3UNx8tvss). Additionally,
+country](https://youtu.be/IF3UNx8tvss?t=6s). Additionally,
 Nicole Fenton talked about [the importance of writing in our design
 process](https://uxlx.23video.com/video/12821711/words-as-material) at
 the User Experience Lisbon conference.
