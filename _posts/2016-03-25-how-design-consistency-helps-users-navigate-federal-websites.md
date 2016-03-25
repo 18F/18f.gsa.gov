@@ -10,14 +10,14 @@ tags:
 - user-centered design
 - web design standards
 - best practices
-excerpt: "We launched the Draft U.S. Web Design Standards last September. Over the next month, we’re exploring various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."
-description: "We launched the Draft U.S. Web Design Standards last September. Over the next month, we’re exploring various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."
+excerpt: "We launched the Draft U.S. Web Design Standards last September, and over the next month, we plan to explore various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."
+description: "We launched the Draft U.S. Web Design Standards last September, and over the next month, we plan to explore various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."
 image: /assets/blog/web-design-standards/home.png
 ---
 
 We [launched the Draft U.S. Web Design Standards last
-September](https://18f.gsa.gov/2015/09/28/web-design-standards/). Over
-the next month, we’re exploring various topics related to design
+September](https://18f.gsa.gov/2015/09/28/web-design-standards/), and over
+the next month, we plan to explore various topics related to design
 standards. In this post, we detail how our user research informed the
 decision decisions we made.
 
@@ -57,7 +57,7 @@ they’re on a government website. Consistency helps people become
 familiar with our services — and patterns help users navigate digital
 services on the web.
 
-For this reason, the Draft Standards has become part of the Federal
+For this reason, the [Draft Standards](https://playbook.cio.gov/designstandards/) has become part of the Federal
 Front Door’s areas of focus — the Draft Standards provide a starting
 point for building this consistent experience across government, and as
 a result, for building trust in online government services.
