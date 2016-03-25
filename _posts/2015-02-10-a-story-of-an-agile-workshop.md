@@ -17,7 +17,6 @@ description: "The clock was ticking as I stated the single solitary rule: We wil
 
 excerpt: "The clock was ticking as I stated the single solitary rule: We will have a demo at 10:00, 11:00 and 12:00 no matter what else happens. No matter if we have to stand up and say we got nothing done this sprint!"
 ---
-by {% author robert %} and {% author blacktm %}
 
 ## The Agile Manifesto:
 
