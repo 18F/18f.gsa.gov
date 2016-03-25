@@ -9,6 +9,7 @@ tags:
 - how we work
 - guides
 - communication tools and practices
+- content design
 
 excerpt: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."
 description: "We’re proud to announce the release of our 18F Content Guide, a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works."

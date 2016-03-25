@@ -103,10 +103,7 @@ this in a future blog post — stay tuned.)
 
 ## Get your own deck
 
-Our design methods are available in two formats:
-
-1. **A [printed card deck](https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta-Preview.pdf) for quick reference.** With printed cards, you can compare different methods side by side, and physically pull together the methods you’re interested in.
-2. **An [online version](https://methods.18f.gov/) for more information.** Our “alpha” digital version provides more details about each method, short stories about how we’ve used a given method in our work, and links to additional resources. You also download our [templates] (https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta-Template.zip) and [printable PDFs](https://methods.18f.gov/assets/downloads/18F-Method-Cards-beta_Print.zip).
+**Check out the [method cards online](https://methods.18f.gov/) for more information.** Our “alpha” digital version provides more details about each method, short stories about how we’ve used a given method in our work, and links to additional resources.
 
 [![A screenshot of the Design Method Cards website]({{site.baseurl}}/assets/blog/design-method-cards/method-cards.png)](https://methods.18f.gov/)
 
