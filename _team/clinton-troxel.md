@@ -5,9 +5,9 @@ full_name: Clint Troxel
 github:
 last_name: Troxel
 name: clinton-troxel
-role: Product manager
+role: Product Manager
 state: WY
-team:
+team: Engineering
 twitter:
 ---
 Clint Troxel joined 18F after working years in startups in Boston and then in Jackson, Wyo.
