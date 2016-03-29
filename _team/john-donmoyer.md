@@ -12,7 +12,7 @@ twitter:
 ---
 John Donmoyer is a graduate of DePaul University where he studied network engineering and security. He was one of the first hires at YouEye, a user research analytics company, moving with the company to Mountain View, CA. Then he worked at Edmodo where he lead the design team that built products for millions of teachers and students around the world. 
 
-The developer has worked in a number of startups, picking up a lot of different skills such as front-end web development to conducting the user research.
+The developer, who grew up in Gettysburg, PA, has worked in a number of startups, picking up a lot of different skills such as front-end web development to conducting the user research.
 
 In January 2016, he returned to Chicago and joined 18F.
 
