@@ -3,7 +3,6 @@ title: "Best practices for building an accessible website using the Draft
 U.S. Web Design Standards"
 date: 2016-03-29
 authors:
-- melody
 - maya
 - julia
 - nick
