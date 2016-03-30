@@ -7,8 +7,8 @@ tags:
 - platforms
 - cloud.gov
 - design
-excerpt: "In developing a redesign for cloud.gov, we needed a technical solution to coding the visual style, that would scale to multiple sites with separate codebases without requiring us to copy code. Our solution is our “shared style library”, a library of CSS, JavaScript, images, and fonts that can be distributed to multiple codebases to create a shared visual style."
-description: "In developing a redesign for cloud.gov, we needed a technical solution to coding the visual style, that would scale to multiple sites with separate codebases without requiring us to copy code. Our solution is our “shared style library”, a library of CSS, JavaScript, images, and fonts that can be distributed to multiple codebases to create a shared visual style."
+excerpt: "In developing a redesign for cloud.gov, we needed a technical solution to coding the visual style that would scale to multiple sites with separate codebases without requiring us to copy code. Our solution is our “shared style library”, a library of CSS, JavaScript, images, and fonts that can be distributed to multiple codebases to create a shared visual style."
+description: "In developing a redesign for cloud.gov, we needed a technical solution to coding the visual style that would scale to multiple sites with separate codebases without requiring us to copy code. Our solution is our “shared style library”, a library of CSS, JavaScript, images, and fonts that can be distributed to multiple codebases to create a shared visual style."
 image: /assets/blog/cloud-gov/style-guide.jpg)
 ---
 
