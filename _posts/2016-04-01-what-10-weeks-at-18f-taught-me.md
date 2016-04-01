@@ -10,7 +10,7 @@ tags:
 excerpt: "Calling 18F home for the past two months has given me the opportunity to
 grow in countless ways. I’ve pushed myself in ways I wasn’t expecting."
 description: "Cat Langel spent 10 weeks at 18F as part of an executive leadership program aimed at developing future leaders within the federal government. Here's what she learned while working with 18F."
-image: 
+image:
 ---
 
 *Cat Langel is a GSA Public Affairs Officer for the Great Lakes Region.*
@@ -28,7 +28,7 @@ my career in the federal government, I applied and was selected for an
 executive leadership program that is aimed at developing future leaders
 within the federal government.
 
-As part of the program, I needed to find an eight week work assignment
+As part of the program, I needed to find an 10-week work assignment
 that would allow me to grow in the areas I was looking to develop as
 part of my leadership journey: creativity, innovation, and strategic
 thinking.
@@ -36,7 +36,7 @@ thinking.
 So what better place to do that than with 18F, a digital consultancy
 inside the federal government.
 
-But before I started, I wondered: what can I really learn in eight
+But before I started, I wondered: what can I really learn in 10
 weeks? Will I have the opportunity to make an impact?
 
 I worked with Raphy Villas in the Chicago office to design my time with
