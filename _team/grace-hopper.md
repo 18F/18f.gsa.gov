@@ -12,4 +12,4 @@ Grace is a detailee from the U.S. Navy. In her early life, she enjoyed taking ap
 
 She said she looks forward to pushing the boundaries of government digital services at 18F: "A ship in port is safe, but that's not what ships are built for."
 
-Due to other commitments, Grace will be working for the team only on April 1st.
+Due to other commitments, Grace will be working for the team only on April 1st. If you'd like to join Grace (and not just for April 1) you can [see all of our openings and learn more about working at 18F](https://pages.18f.gov/joining-18f/).)

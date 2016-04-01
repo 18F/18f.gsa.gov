@@ -12,4 +12,4 @@ Philip is a well-regarded sculptor and engineer. His previous government work in
 
 "Freedom" was so large that it had to be cast in pieces that were individually hoisted atop the capital dome, where they were stacked on top of each other to assemble the statue in place. We're excited to have Philip as a full-stack engineer on the 18F team.
 
-Due to other commitments, Philip will be working for the team only on April 1st.
+Due to other commitments, Philip will be working for the team only on April 1st. If you'd like to join Philip (and not just for April 1) you can [see all of our openings and learn more about working at 18F](https://pages.18f.gov/joining-18f/).)
