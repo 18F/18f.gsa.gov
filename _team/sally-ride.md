@@ -12,4 +12,4 @@ Sally, famed astronaut, is a detailee to 18F. A member of our Infrastructure Tea
 
 "All adventures, especially into new territory, are scary," Sally has said, adding that she's especially looking forward to thinking about the new frontier of a digital government.
 
-Due to other commitments, Sally will be working for the team only on April 1st.
+Due to other commitments, Sally will be working for the team only on April 1st. If you'd like to join Sally (and not just for April 1) you can [see all of our openings and learn more about working at 18F](https://pages.18f.gov/joining-18f/).)
