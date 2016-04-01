@@ -28,7 +28,7 @@ my career in the federal government, I applied and was selected for an
 executive leadership program that is aimed at developing future leaders
 within the federal government.
 
-As part of the program, I needed to find an 10-week work assignment
+As part of the program, I needed to find a 10-week work assignment
 that would allow me to grow in the areas I was looking to develop as
 part of my leadership journey: creativity, innovation, and strategic
 thinking.
