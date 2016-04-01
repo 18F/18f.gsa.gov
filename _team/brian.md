@@ -10,7 +10,7 @@ state: MN
 team: Delivery
 twitter:
 ---
-Brian got his start in technology dreaming of smart food forests while working as a forester and livestock manager in New Hampshire. He learned how to code at RefactorU, a bootcamp in Colorado before he moved to Minneapolis where he got his first development jobs in media and advertising. He was drawn to 18F because of it's mission, impact, and people. "18F's dedication to transparency and access is helping to reframe what government means to the American public," Brian says. That he gets to work and collaborate with people who feel similarly is "the icing on the cake, the cake itself, and the cherry on top."
+Brian got his start in technology dreaming of smart food forests while working as a forester and livestock manager in New Hampshire. He learned how to code at RefactorU, a bootcamp in Colorado before he moved to Minneapolis where he got his first development jobs in media and advertising. He was drawn to 18F because of its mission, impact, and people. "18F's dedication to transparency and access is helping to reframe what government means to the American public," Brian says. That he gets to work and collaborate with people who feel similarly is "the icing on the cake, the cake itself, and the cherry on top."
 
 At 18F, he is a developer trying to create usable web applications like the [United States Extractives Industry Transparency Initiative (USEITI)](https://useiti.doi.gov). He spends most of his time working with JavaScript "peppered with some Python or Ruby," and is especially good with AngularJS. In this rapidly expanding and changing industry, though, he tries to stay curious and enthusiastic, "learning more as the need arrives."
 
