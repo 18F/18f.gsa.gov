@@ -2,6 +2,7 @@
 first_name: "Ada"
 last_name: "Lovelace"
 full_name: "Ada Lovelace"
+name: ada-lovelace
 role: "Developer"
 city: "London"
 state: "UK"

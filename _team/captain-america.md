@@ -2,6 +2,7 @@
 first_name: "Captain"
 last_name: "America"
 full_name: "Captain America"
+name: captain-america
 role: "Developer"
 city: "Washington"
 state: "DC"
