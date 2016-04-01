@@ -2,6 +2,7 @@
 first_name: "Sam"
 last_name: "Eagle"
 full_name: "Sam the Eagle"
+name: sam-eagle
 role: "Press"
 city: "Washington"
 state: "DC"

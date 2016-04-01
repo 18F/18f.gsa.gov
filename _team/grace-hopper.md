@@ -2,6 +2,7 @@
 first_name: "Grace"
 last_name: "Hopper"
 full_name: "Admiral Grace Hopper"
+name: grace-hopper
 role: "Developer"
 city: "Washington"
 state: "DC"
