@@ -11,4 +11,4 @@ Our new spokeseagle joined 18F following an accomplished career on stage and scr
 
 Due to other commitments, Sam the Eagle will only be working at 18F on April 1.
 
-* As of press time, Mr. Eagle had not yet been introduced to Slack.
+*As of press time, Mr. Eagle had not yet been introduced to Slack.
