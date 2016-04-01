@@ -6,6 +6,7 @@ authors:
 tags:
 - video
 - events
+- second anniversary
 excerpt: "Over the past year, members of our distributed team have given
 talks in over 30 locations about how we’re changing government digital
 services. Topics have ranged from how we work to how we help the
