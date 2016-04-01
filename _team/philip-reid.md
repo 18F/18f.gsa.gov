@@ -11,4 +11,4 @@ Philip Reid is a well-regarded sculptor and engineer. His previous government wo
 
 "Freedom" was so large that it had to be cast in pieces that were individually hoisted atop the capital dome, where they were stacked on top of each other to assemble the statue in place. We're excited to have Mr. Reid as a full-stack engineer on the 18F team.
 
-Due to other commitments, Mr. Reid will only be working for the team on April 1st.
+Due to other commitments, Mr. Reid will be working for the team only on April 1st.
