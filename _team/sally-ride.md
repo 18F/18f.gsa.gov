@@ -7,9 +7,6 @@ city: "San Diego"
 state: "CA"
 team: "Infrastructure"
 ---
-Sally, famed astronaut, is a detailee to 18F.
-A member of our Infrastructure Team, she joined 18F on a rotation from NASA.
-Sally is a graduate of Stanford University and was the first American woman in space.
-In addition to her duties at NASA, she has also taught physics at the University of California, San Diego.
-"All adventures, especially into new territory, are scary," Sally has said,
-adding that she's especially looking forward to thinking about the new frontier of a digital government.
+Sally, famed astronaut, is a detailee to 18F. A member of our Infrastructure Team, she joined 18F on a rotation from NASA. Sally is a graduate of Stanford University and was the first American woman in space. In addition to her duties at NASA, she has also taught physics at the University of California, San Diego.
+
+"All adventures, especially into new territory, are scary," Sally has said, adding that she's especially looking forward to thinking about the new frontier of a digital government.
