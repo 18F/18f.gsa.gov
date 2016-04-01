@@ -2,6 +2,7 @@
 first_name: "Alan"
 last_name: "Turing"
 full_name: "Alan Turing"
+name: alan-turing
 role: "Testing Lead"
 city: "Bletchley Park"
 state: "UK"

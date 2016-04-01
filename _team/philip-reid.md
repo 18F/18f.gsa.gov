@@ -2,6 +2,7 @@
 first_name: "Philip"
 last_name: "Reid"
 full_name: "Philip Reid"
+name: philip-reid
 role: "Engineer"
 city: "Washington"
 state: "DC"
