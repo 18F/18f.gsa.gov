@@ -67,7 +67,7 @@ loads in five minutes, 2 million more than they’ve seen so far in the
 last 30 days.
 
 The site is typically [the top domain within the U.S.
-Interior](https://analytics.usa.gov/interior/) and received more than 4
+Interior](https://analytics.usa.gov/interior/) and received more than 3
 million pageviews in the last 30 days; second only to the National Park
 Service within Interior’s vast array of online offerings.
 
