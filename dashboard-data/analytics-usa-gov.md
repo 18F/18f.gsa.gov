@@ -2,6 +2,8 @@
 
 name: analytics-usa-gov
 
+child: false
+
 full_name: analytics.usa.gov
 
 description: 18F worked with the Digital Analytics Program, the U.S. Digital Service, and the White House to build and host a lightweight dashboard and public dataset that shows web traffic across the .gov domain.

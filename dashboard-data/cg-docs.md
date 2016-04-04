@@ -1,18 +1,18 @@
 ---
 
-name: cg-landing-page
+name: cg-docs
 
 child: true
 
-full_name: Cloud.gov landing page
+full_name: Cloud.gov documentation
 
-description: The informational website for the cloud.gov PaaS service. Provides information about the platform and links to technical documentation and the live console.
+description: Documentation site for cloud.gov
 
 impact:
 
 tagline:
 
-github: https://github.com/18F/cg-landing
+github: https://github.com/18F/cg-docs
 
 image:
 

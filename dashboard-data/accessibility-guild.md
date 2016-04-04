@@ -2,6 +2,8 @@
 
 name: accessibility-guide
 
+child: false
+
 full_name: Accessibility Guide
 
 description: Our accessibility guide helps people creating websites for the government ensure they are designing and developing with accessibility in mind.

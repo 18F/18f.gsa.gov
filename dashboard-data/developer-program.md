@@ -2,6 +2,8 @@
 
 name: developer-program
 
+child: false
+
 full_name: /Developer Program
 
 description: A suite of tools, resources, and consulting services to assist agencies in the production and management of government APIs.  This two-year-old program was adopted by 18F to scale out its impact and to grow the government’s API portfolio.

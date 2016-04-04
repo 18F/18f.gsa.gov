@@ -2,6 +2,8 @@
 
 name:
 
+child: 
+
 full_name:
 
 description:
@@ -24,7 +26,7 @@ tags:
 
 stage:
 
-status: 
+status:
 
 testable:
 
@@ -55,7 +57,3 @@ stack:
 users:
 - id:
   user:
-
-
-open_source_friendly:
--

@@ -2,6 +2,8 @@
 
 name: analytics-reporter
 
+child: true
+
 full_name: Analytics Reporter
 
 description: A lightweight command line tool, written in Node, that downloads reports from Google Analytics, and transforms the report data into more friendly, provider-agnostic JSON.
