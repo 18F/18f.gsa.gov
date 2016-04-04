@@ -58,7 +58,3 @@ stack:
 users:
 - id: https://beta.fec.gov/
   user: beta.fec.gov
-
-
-open_source_friendly:
-- true

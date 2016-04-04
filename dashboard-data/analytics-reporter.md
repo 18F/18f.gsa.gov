@@ -63,7 +63,3 @@ users:
   user: City of Philadelphia, PA
   id: http://analytics.usa.gov
   user: analytics.usa.gov
-
-
-open_source_friendly:
-- true

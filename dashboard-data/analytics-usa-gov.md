@@ -14,7 +14,7 @@ github: https://github.com/18F/analytics.usa.gov
 
 image:
 
-audience: public, agency partners, state and local agencies, open source community
+audience: agency partners, state and local agencies
 
 
 # What kind of team owns the repository? (required)
@@ -110,8 +110,4 @@ users:
 - id: https://bouldercolorado.gov/stats
   user: City of Boulder, CO
 - id: http://analytics.tdec.tn.gov/
-  user: Department of Environmental Conservation, state of Tennessee 
-
-
-open_source_friendly:
-- true
+  user: Department of Environmental Conservation, state of Tennessee

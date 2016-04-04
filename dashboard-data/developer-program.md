@@ -55,7 +55,3 @@ stack:
 users:
 - id:
   user:
-
-
-open_source_friendly:
-- true

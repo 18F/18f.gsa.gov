@@ -89,6 +89,3 @@ stack:
 #   url: A URL to the user's version of the project
 users:
 -
-
-open_source_friendly:
-- true
