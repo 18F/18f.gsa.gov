@@ -1,45 +1,48 @@
 ---
 
-name: accordian
+name: accordion
 
-full_name:
+full_name: accordion
 
-description:
+description: We built a simple, lightweight, 508 compliant JavaScript accordion that can easily be plugged into any project. Inspiration came from the Glossary on beta.fec.gov, where we needed simple accordion elements, as well as from the Web Design Standards.                                        Because the state of this accordion is set via ARIA-attributes, using it doesn't require any CSS (nor does it include any.) This means you're free to style your accordion buttons however you like without having to override defaults as long as your markup follows the required pattern.
 
-impact:
+impact: The beta.fec.gov site uses the accordion element and it can be used as a part of any other project that requires this design element.
 
-tagline:
+tagline: A simple, lightweight, 508 compliant JavaScript accordion.
 
-github:
+github: https://github.com/18F/accordion
 
 image:
 
-audience:
+audience: open source community
 
-owner_type:
+owner_type: chapter
+
+chapter: design
 
 business_unit:
 
-tags:
+tags: design, tools you can use
 
-stage:
+stage: live
 
-status:
+status: active
 
 testable:
 
 licenses: Public Domain (CC0)
 
 partners:
--
+
 
 contact:
--
+- noah.manger@gsa.gov
 
 team:
--
+- noahmanger
+- jmcarp
 
-type:
+type: app
 
 parent:
 
@@ -53,9 +56,9 @@ stack:
 -
 
 users:
-- id:
-  user:
+- id: https://beta.fec.gov/
+  user: beta.fec.gov
 
 
 open_source_friendly:
--
+- true
