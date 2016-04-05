@@ -8,6 +8,7 @@ city: "Philadelphia"
 state: "PA"
 team: "Design"
 april-fools: 2016
+redirect_to: /april-fools/2016/
 ---
 Betsy joined 18F Design after much-heralded experience creating the flag of the United States of America. An anonymous source at the White House called Betsy's hiring "the most USA thing to ever happen." Her priority project at 18F will be the U.S. Web Design Standards.
 

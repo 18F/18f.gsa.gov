@@ -9,6 +9,7 @@ state: "UK"
 team: "Engineering"
 april-fools: 2016
 tags: april fools 2016
+redirect_to: /april-fools/2016/
 ---
 The first countess at 18F (though not the first staff member to hail from England), Ada developed the first algorithm carried out by a machine. She looks forward to bringing insight to our government; among other projects, she'll be working to digitize paper processes.
 

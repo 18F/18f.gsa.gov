@@ -8,6 +8,7 @@ city: "Washington"
 state: "DC"
 team: "Delivery"
 april-fools: 2016
+redirect_to: /april-fools/2016/
 ---
 Grace is a detailee from the U.S. Navy. In her early life, she enjoyed taking apart clocks and other hardware; she joined 18F with a passion for software and effective government systems. In the 1970s, the New York City native advocated for the Department of Defense to replace large, centralized systems with networks of small, distributed computers.
 
