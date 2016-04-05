@@ -4,10 +4,10 @@ title: Dashboard
 permalink: /dashboard/
 ---
 
-{% assign discovery = (site.data.projects | where:"stage","discovery")%}
-{% assign alpha = (site.data.projects | where:"stage","alpha")%}
-{% assign beta = (site.data.projects | where:"stage","beta")%}
-{% assign live = (site.data.projects | where:"stage","live")%}
+{% assign discovery = (site.data.projects | where:"stage","discovery") %}
+{% assign alpha = (site.data.projects | where:"stage","alpha") %}
+{% assign beta = (site.data.projects | where:"stage","beta") %}
+{% assign live = (site.data.projects | where:"stage","live") %}
 {% assign projects = [discovery, alpha, beta, live] %}
 
 <section id="main" class="dashboard">
