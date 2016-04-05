@@ -42,6 +42,8 @@ incredibly useful and something that is needed across government
 websites. The USAGov team then started connecting with the core team of
 developers and designers to get this effort kicked off.
 
+![A USA.gov form that uses the Draft U.S. Web Design Standards]({{site.baseurl}}/assets/blog/web-design-standards/cfpb-form.jpg)
+
 [USA.gov](https://www.usa.gov/) has adopted the Draft Standards with
 some of the forms that are used by our users and agency partners to
 order government publications.
