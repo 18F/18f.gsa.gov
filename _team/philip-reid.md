@@ -7,6 +7,7 @@ role: "Engineer"
 city: "Washington"
 state: "DC"
 team: "Delivery"
+april-fools: 2016
 ---
 Philip is a well-regarded sculptor and engineer. His previous government work includes bronze casting for a statue in Lafayette Park (the first bronze statue cast in the United States), as well as serving as a senior member of the team that built "Freedom," the statue that tops the U.S. Capitol dome. Philip was enslaved during his work on "Freedom" in 1860 and 1861 but was emancipated under the Compensated Emancipation Act in April of 1862. By the time the statue's final piece was hoisted onto the top of the dome in 1863, Philip was a free man.
 

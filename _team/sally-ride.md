@@ -7,6 +7,7 @@ role: "Deputy Director of Infrastructure"
 city: "San Diego"
 state: "CA"
 team: "Infrastructure"
+april-fools: 2016
 ---
 Sally, famed astronaut, is a detailee to 18F. A member of our Infrastructure Team, she joined 18F on a rotation from NASA. Sally is a graduate of Stanford University and was the first American woman in space. In addition to her duties at NASA, she has also taught physics at the University of California, San Diego.
 
