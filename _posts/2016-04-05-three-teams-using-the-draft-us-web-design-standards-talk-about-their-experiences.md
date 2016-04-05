@@ -29,7 +29,7 @@ accessibility and flexibility in mind:
 -   Eddie Hunter works on the U.S. Geological Survey’s HazDev web team, which is working on a [web application](https://github.com/usgs/earthquake-eventpages) for displaying earthquakes as well as [a website for the Earthquake Hazards program](http://earthquake.usgs.gov/).
 
 Each site incorporates parts of the Draft Standards in different ways.
-We chatted with Maria, Lynda, and Luke about their experiences using the
+We chatted with Maria, Eddie, and Luke about their experiences using the
 Draft Standards — and how they would improve them.
 
 ## 1. How did you hear about the Draft Standards and how did you integrate them into your sites?
