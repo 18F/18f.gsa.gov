@@ -1,18 +1,18 @@
 ---
 
-name: cg-landing-page
+name: cg-manifest
 
 child: true
 
-full_name: Cloud.gov landing page
+full_name: Cloud.gov release manifest
 
-description: The landing page for the cloud.gov Platform-as-a-Service. The site provides information about the platform, links to technical documentation, and the live console.
+description: This repo contains the source for the Bosh deployment manifest for the 18f Cloud Foundry deployment.
 
 impact:
 
 tagline:
 
-github: https://github.com/18F/cg-landing
+github: https://github.com/18F/cg-manifests
 
 image:
 

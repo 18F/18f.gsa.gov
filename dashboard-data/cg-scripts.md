@@ -1,18 +1,18 @@
 ---
 
-name: cg-landing-page
+name: cg-scripts
 
 child: true
 
-full_name: Cloud.gov landing page
+full_name: Cloud.gov scripts
 
-description: The landing page for the cloud.gov Platform-as-a-Service. The site provides information about the platform, links to technical documentation, and the live console.
+description: Scripts to assist with the configuration and operation of Cloud Foundry.
 
 impact:
 
 tagline:
 
-github: https://github.com/18F/cg-landing
+github: https://github.com/18F/cg-scripts
 
 image:
 
