@@ -43,7 +43,7 @@ team:
 - github: meiqimichelle
 - github: yozlet
 - github: hollyallen
-- github: diego-
+- github: diego
 
 type: app
 
@@ -55,7 +55,7 @@ links:
 - url: https://collegescorecard.ed.gov/data/
   text: College Scorecard Data
 - url: https://18f.gsa.gov/2015/09/14/college-scorecard-launch/
-  text: Behind the scenes: Building a new College Scorecard with students
+  text: "Behind the scenes: Building a new College Scorecard with students"
 
 
 stack:
