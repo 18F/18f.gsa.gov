@@ -4,17 +4,25 @@ title: Dashboard
 permalink: /dashboard/new1/
 js:
   - jquery-2.1.1.min.js
+  - jquery.mixitup.min.js
   - app/dashboard-new.js
 ---
 
 {% assign data = site.data.dashboard %}
 
 <section class="mt4 px2">
-  <div class="flex flex-wrap mxn2">
+  <div id="filters">
+    <button type="button" class="btn btn-primary filter" data-filter="all">All</button>
+    <button type="button" class="btn filter" data-filter=".cat-1">Category 1</button>
+    <button type="button" class="btn filter" data-filter=".cat-2">Category 2</button>
+  </div>
+  <div class="flex flex-wrap mxn2" id="projects">
   {% for d_hash in data %}
     {% assign d = d_hash[1] %}
     {% if d.tagline.size > 0 %}
-    <div class="col-12 sm-col-6 border-box p2">
+    <div class="col-12 sm-col-6 border-box p2 mix {% cycle 'cat-1', 'cat-2' %}"
+         data-order="{{ forloop.index }}"
+    >
       <div class="p2 border">
         <div class="mb1 h5 bold caps">{{ d.full_name }}</div>
         <div class="mb1">{{ d.tagline }}</div>
