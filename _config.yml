@@ -76,7 +76,11 @@ defaults:
       collection: team
     values:
       layout: profile
-
+  -
+    scope:
+      type: pages
+    values:
+      layout: bare
 # collections
 collections:
   team:

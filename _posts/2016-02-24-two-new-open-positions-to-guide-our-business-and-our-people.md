@@ -71,7 +71,7 @@ status, military service, or other non-merit factor. If you have the
 skills we need, that’s all that matters.
 
 **We will be accepting applications for both positions until midnight PST
-on Sunday, March 6.**
+on Sunday, March 21.**
 
 Wait, there’s more
 ------------------

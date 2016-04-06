@@ -344,7 +344,7 @@ andrewmcmahon:
   full_name: Andrew McMahon
   first_name: Andrew
   last_name: McMahon
-  url: http://www.gsa.gov/portal/content/101108
+  url: http://www.gsa.gov/portal/content/101108/
 anthony-garvan:
   full_name: Tony Garvan
   first_name: Tony
@@ -405,3 +405,32 @@ yuda:
   full_name: John Yuda
   first_name: John
   last_name: Yuda
+amy-wilson:
+  full_name: Amy Wilson
+  first_name: Amy
+  last_name: Wilson
+bob-ballance:
+  full_name: Bob Ballance
+  first_name: Bob
+  last_name: Ballance
+victor-udoewa:
+  full_name: Victor Udoewa
+  first_name: Victor
+  last_name: Udoewa
+duane-rollins:
+  full_name: Duane Rollins
+  first_name: Duane
+  last_name: Rollins
+marco:
+  full_name: Marco Segreto
+  first_name: Marco
+  last_name: Segreto
+anna:
+  full_name: Anna Heller Sebok
+  first_name: Anna
+  last_name: Sebok
+cat-langel:
+  full_name: Cat Langel
+  first_name: Cat
+  last_name: Langel
+  url: http://www.gsa.gov/portal/staffDirectory/contact/176573
