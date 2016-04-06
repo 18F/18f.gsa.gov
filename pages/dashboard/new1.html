@@ -2,23 +2,29 @@
 layout: dashboard_new
 title: Dashboard
 permalink: /dashboard/new1/
+js:
+  - jquery-2.1.1.min.js
+  - app/dashboard-new.js
 ---
 
-<section class="mt3">
+{% assign data = site.data.dashboard %}
+
+<section class="mt4">
   <div class="flex flex-wrap mxn2">
-  {% for data_hash in site.data.dashboard %}
-    {% assign d = data_hash[1] %}
+  {% for d_hash in data %}
+    {% assign d = d_hash[1] %}
+    {% if d.tagline.size > 0 %}
     <div class="col-12 sm-col-6 border-box p2">
       <div class="p2 border">
         <div class="mb1 h5 bold caps">{{ d.full_name }}</div>
         <div class="mb1">{{ d.tagline }}</div>
         <div>
-          <a href="#!"><i class="fa fa-info-circle"></i></a> &middot; 
-          <a href="#!"><i class="fa fa-github"></i></a> &middot; 
-          <a href="#!"><i class="fa fa-newspaper-o  "></i></a>
+          <a href="/p/{{ d.name }}"><i class="fa fa-info-circle"></i></a> &middot; 
+          <a target="_blank" href="{{ d.github }}"><i class="fa fa-github"></i></a>
         </div>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
   </div>
 </section>

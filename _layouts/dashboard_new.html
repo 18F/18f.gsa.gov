@@ -14,5 +14,8 @@
     </div>
   </section>
   {% include footer.html %}
+  {% for js in page.js %}
+    <script src="{{site.baseurl}}/assets/js/{{ js }}"></script>
+  {% endfor %}
 </body>
 </html>
