@@ -1,5 +1,5 @@
 ---
-title: "Take our code: 18F projects you can reuse"
+title: "Take our code: 35 reusable projects from 18F"
 date: 2016-04-06
 authors:
 - britta-gustafson
