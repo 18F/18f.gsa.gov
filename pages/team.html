@@ -14,7 +14,8 @@ title: People
       </ul> -->
     </div>
     <div class="team">{% assign sorted = site.team | sort: 'last_name' %}
-      {% for person in sorted %}{% if person.full_name %}
+      {% for person in sorted %}{% if person.full_name %}{% unless
+person.april-fools %}
         <div class='bio' id="{{ person.name }}">
           {% if person.output.size > 0 %}
           <a href='{{ site.baseurl }}/team/{{person.name}}/'>
@@ -24,5 +25,5 @@ title: People
             {{ person.name | team_photo }}
             <h1>{{ person.full_name }}</h1>
           </a>
-        </div>{% endif %}
+        </div>{% endunless %}{% endif %}
     {% endfor %}</div>
