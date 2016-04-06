@@ -11,16 +11,43 @@ js:
 {% assign data = site.data.dashboard %}
 
 <section class="mt4 px2">
-  <div id="filters">
-    <button type="button" class="btn btn-primary filter" data-filter="all">All</button>
-    <button type="button" class="btn filter" data-filter=".cat-1">Category 1</button>
-    <button type="button" class="btn filter" data-filter=".cat-2">Category 2</button>
+
+  <div class="clearfix mxn2" id="filters">
+    <div class="col col-12 sm-col-6 p2">
+      <select class="col-12 field m0">
+        <option value="all">all categories</option>
+        <option value="accessibility">accessibility</option>
+        <option value="apis">apis</option>
+        <option value="design">design</option>
+        <option value="guides">guides</option>
+        <option value="how-we-work">how we work</option>
+        <option value="open-data">open data</option>
+        <option value="open-government">open government</option>
+        <option value="platforms">platforms</option>
+        <option value="procurement">procurement</option>
+        <option value="security">security</option>
+        <option value="tools-you-can-use">tools you can use</option>
+      </select>
+    </div>
+    <div class="col col-12 sm-col-6 p2">
+      <select class="col-12 field m0">
+        <option value="all">coming soon...</option>
+      </select>
+    </div>
   </div>
+
   <div class="flex flex-wrap mxn2" id="projects">
   {% for d_hash in data %}
     {% assign d = d_hash[1] %}
+
+    {% assign tags = d.tags | split:", " %}
+    {% assign tags_cls = "" %}
+    {% for t in tags %}
+      {% capture tags_cls %}{{ tags_cls }} f_{{ (t | replace:" ","-") }}{% endcapture %}
+    {% endfor %}
+
     {% if d.tagline.size > 0 %}
-    <div class="col-12 sm-col-6 border-box p2 mix {% cycle 'cat-1', 'cat-2' %}"
+    <div class="col-12 sm-col-6 border-box p2 mix {{ tags_cls }}"
          data-order="{{ forloop.index }}"
     >
       <div class="p2 border">
@@ -35,4 +62,5 @@ js:
     {% endif %}
   {% endfor %}
   </div>
+
 </section>

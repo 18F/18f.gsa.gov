@@ -2,9 +2,10 @@
 
   $('#projects').mixItUp();
 
-  $('.filter').click(function(e) {
-    $('.filter').removeClass('btn-primary');
-    $(this).addClass('btn-primary');
+  $('#filters select').change(function(e) {
+    var val = e.target.value;
+    if (val !== "all") val = ".f_" + val;
+    $('#projects').mixItUp('filter', val);
   });
 
 })();
