@@ -1,0 +1,24 @@
+---
+layout: dashboard_new
+title: Dashboard
+permalink: /dashboard/new1/
+---
+
+<section class="mt3">
+  <div class="flex flex-wrap mxn2">
+  {% for data_hash in site.data.dashboard %}
+    {% assign d = data_hash[1] %}
+    <div class="col-12 sm-col-6 border-box p2">
+      <div class="p2 border">
+        <div class="mb1 h5 bold caps">{{ d.full_name }}</div>
+        <div class="mb1">{{ d.tagline }}</div>
+        <div>
+          <a href="#!"><i class="fa fa-info-circle"></i></a> &middot; 
+          <a href="#!"><i class="fa fa-github"></i></a> &middot; 
+          <a href="#!"><i class="fa fa-newspaper-o  "></i></a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
