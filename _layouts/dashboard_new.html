@@ -7,12 +7,12 @@
 <body>
   {% include flag.html %}
   {% include nav.html %}
-  <section class="container bare">
-    {% include logo.html %}
-    <div class="bare-content">
-      {{ content }}
+  <div class="px2">
+    <div class="clearfix">
+      {% include logo.html %}
     </div>
-  </section>
+  </div>
+  {{ content }}
   {% include footer.html %}
   {% for js in page.js %}
     <script src="{{site.baseurl}}/assets/js/{{ js }}"></script>

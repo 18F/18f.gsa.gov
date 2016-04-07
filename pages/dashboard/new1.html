@@ -10,10 +10,9 @@ js:
 
 {% assign data = site.data.dashboard %}
 
-<section class="mt4 px2">
-
+<div class="p2 border-top border-bottom">
   <div class="clearfix mxn2" id="filters">
-    <div class="col col-12 sm-col-6 p2">
+    <div class="p2 col col-12 sm-col-6 md-col-4">
       <select class="col-12 field m0">
         <option value="all">all categories</option>
         <option value="accessibility">accessibility</option>
@@ -29,13 +28,15 @@ js:
         <option value="tools-you-can-use">tools you can use</option>
       </select>
     </div>
-    <div class="col col-12 sm-col-6 p2">
+    <div class="p2 col col-12 sm-col-6 md-col-4">
       <select class="col-12 field m0">
         <option value="all">coming soon...</option>
       </select>
     </div>
   </div>
+</div>
 
+<div class="p2 bg-darken-1">
   <div class="flex flex-wrap mxn2" id="projects">
   {% for d_hash in data %}
     {% assign d = d_hash[1] %}
@@ -47,10 +48,10 @@ js:
     {% endfor %}
 
     {% if d.tagline.size > 0 %}
-    <div class="col-12 sm-col-6 border-box p2 mix {{ tags_cls }}"
+    <div class="p2 col-12 sm-col-6 md-col-4 border-box mix {{ tags_cls }}"
          data-order="{{ forloop.index }}"
     >
-      <div class="p2 border">
+      <div class="p2 bg-white border">
         <div class="mb1 h5 bold caps">{{ d.full_name }}</div>
         <div class="mb1">{{ d.tagline }}</div>
         <div>
@@ -62,5 +63,4 @@ js:
     {% endif %}
   {% endfor %}
   </div>
-
-</section>
+</div>
