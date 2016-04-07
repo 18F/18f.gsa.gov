@@ -45,7 +45,7 @@ principles themselves. The team should have the freedom to experiment
 and push the boundaries without breaking the spirit of the design
 principles.
 
-![A screenshot of the 18F Design Principles Guide]({{site.baseurl}}/assets/blog/design/design-principles-guide.jpg)
+[![A screenshot of the 18F Design Principles Guide]({{site.baseurl}}/assets/blog/design/design-principles-guide.jpg)]((https://pages.18f.gov/design-principles-guide/create)
 
 Check out the [Design Principles
 Guide](https://pages.18f.gov/design-principles-guide/) for yourself.
@@ -56,14 +56,7 @@ your own design principles available in our method cards as well.
 
 We’d love to hear how your teams use design principles and the methods
 you use to create them. Feel free to share your stories and experience
-via our [GithHub
+via our [GitHub
 repo](https://github.com/18F/design-principles-guide), via
 [email](mailto:18f@gsa.gov), or to [our Twitter
 account](https://twitter.com/18f).
-
-![A screenshot of the BBC’s Global Experience Language Design Philosophy]({{site.baseurl}}/assets/blog/design/bbc-design.jpg)
-*We took the BBC’s [Global Experience Language Design
-Philosophy](http://www.bbc.co.uk/gel/philosophy/design-philosophy) as a
-great example of design principles that are open enough to communicate
-across disciplines but grounded in an organization's specific history
-and mission.*
