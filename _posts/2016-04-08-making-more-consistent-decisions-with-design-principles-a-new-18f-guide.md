@@ -3,6 +3,7 @@ title: "Making more consistent decisions with design principles: A new 18F guide
 date: 2016-04-08
 authors:
 - egoodman
+- bradnunnally
 tags:
 - design
 - guides
