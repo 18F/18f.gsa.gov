@@ -1,6 +1,6 @@
 ---
 title: "Making more consistent decisions with design principles: A new 18F guide"
-date: 2016-04-07
+date: 2016-04-08
 authors:
 - egoodman
 tags:
@@ -45,7 +45,8 @@ principles themselves. The team should have the freedom to experiment
 and push the boundaries without breaking the spirit of the design
 principles.
 
-[![A screenshot of the 18F Design Principles Guide]({{site.baseurl}}/assets/blog/design/design-principles-guide.jpg)]((https://pages.18f.gov/design-principles-guide/create)
+[![A screenshot of the 18F Design Principles Guide]({{site.baseurl}}/assets/blog/design/design-principles-guide.jpg)
+](https://pages.18f.gov/design-principles-guide/create)
 
 Check out the [Design Principles
 Guide](https://pages.18f.gov/design-principles-guide/) for yourself.
