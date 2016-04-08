@@ -1,0 +1,86 @@
+---
+layout: dashboard_new
+title: Dashboard
+permalink: /dashboard/new2/
+js:
+  - jquery-2.1.1.min.js
+  - jquery.mixitup.min.js
+  - app/dashboard-new.js
+---
+
+{% assign data = site.data.dashboard %}
+
+<div class="px2">
+  <div class="container">
+    <h2 class="py2 mb2 border-bottom">
+      Look at all of the awesome things we've made.
+    </h2>
+    <div class="clearfix mxn2 mb2" id="filters">
+      <div class="p2 col col-12 sm-col-6 md-col-4">
+        <select class="col-12 field m0">
+          <option value="all">all categories</option>
+          <option value="accessibility">accessibility</option>
+          <option value="apis">apis</option>
+          <option value="design">design</option>
+          <option value="guides">guides</option>
+          <option value="how-we-work">how we work</option>
+          <option value="open-data">open data</option>
+          <option value="open-government">open government</option>
+          <option value="platforms">platforms</option>
+          <option value="procurement">procurement</option>
+          <option value="security">security</option>
+          <option value="tools-you-can-use">tools you can use</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p2 bg-darken-1">
+  <div class="container">
+    <div class="flex flex-wrap mxn2" id="projects">
+    {% for d_hash in data %}
+      {% assign d = d_hash[1] %}
+
+      {% assign tags = d.tags | split:", " %}
+      {% assign tags_cls = "" %}
+      {% for t in tags %}
+        {% capture tags_cls %}{{ tags_cls }} f_{{ (t | replace:" ","-") }}{% endcapture %}
+      {% endfor %}
+
+      {% if d.tagline.size > 0 %}
+      <div class="p2 col-12 sm-col-6 md-col-4 border-box mix {{ tags_cls }}"
+           data-order="{{ forloop.index }}"
+      >
+        <div class="p2 bg-white border">
+          <div class="mb1 h5 bold caps">{{ d.full_name }}</div>
+          <div class="mb2">{{ d.tagline }}</div>
+          {% if d.partners.size > 0 and d.partners[0].size > 0 %}
+          <div class="mb2 h5">
+            <span class="h7 caps">Partners:</span>
+            {% for p in d.partners %}
+              {{ p }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if tags.size > 0 %}
+          <div class="mb2 h6">
+          {% for t in tags %}
+            <span class="inline-block px1 white bg-blue rounded">{{ t }}</span>
+          {% endfor %}
+          </div>
+          {% endif %}
+          <div class="h6">
+            <a href="/p/{{ d.name }}" class="text-decoration-none"><i class="fa fa-info-circle"></i> Details</a>
+            {% if d.github.size > 0 %}
+            <span> &middot; </span>
+            <a target="_blank" href="{{ d.github }}" class="text-decoration-none"><i class="fa fa-github"></i> Code</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

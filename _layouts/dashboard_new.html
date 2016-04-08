@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="https://npmcdn.com/basscss@7.1.1/css/basscss.min.css">
   {% include head.html %}
+  <style>.h7 { font-size: .625rem }</style>
 </head>
 <body>
   {% include flag.html %}
@@ -15,7 +16,7 @@
   {{ content }}
   {% include footer.html %}
   {% for js in page.js %}
-    <script src="{{site.baseurl}}/assets/js/{{ js }}"></script>
+    <script src="{{ site.baseurl }}/assets/js/{{ js }}"></script>
   {% endfor %}
 </body>
 </html>
