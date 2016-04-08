@@ -14,13 +14,13 @@ github: https://github.com/18F/dashboard
 
 image:
 
-audience:
+audience: public, agency partners, state and local agencies, potential hire
 
-owner_type:
+owner_type: business-unit
 
-business_unit:
+business_unit: learn
 
-tags:
+tags: how we work
 
 stage: active
 
@@ -39,14 +39,13 @@ contact:
 team:
 -
 
-type:
+type: app
 
 parent:
 
 links:
-- url:
-  text:
-  category:
+- url: https://18f.gsa.gov/dashboard/
+  text: "Live 18F Dashboard"
 
 
 stack:

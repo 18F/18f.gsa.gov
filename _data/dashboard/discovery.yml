@@ -1,0 +1,58 @@
+name: Discovery
+
+child: false
+
+full_name: Discovery
+
+description: Discovery allows federal acquisition personnel to conduct initial market research more easily and quickly, allowing users to discover and research vendors offering work across a number of professional service categories.
+
+impact: Makes the procurement process a lot easier for GSA’s contracting officers — the people who are responsible for buying products and services for the federal government. Discovery lets these contracting officers find and sort vendors based on their experience levels and other attributes, saving them hours of time in the process.
+
+tagline: We made it easier for contracting officers at GSA to conduct market research.
+
+github: https://github.com/18F/discovery
+
+image:
+
+audience: agency partners, state and local agencies
+
+owner_type: business unit
+
+business_unit: products-and-platforms
+
+tags: procurement
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+- General Services Administration
+
+contact:
+-
+
+team:
+-
+
+type: app
+
+parent:
+
+links:
+- url: https://discovery.gsa.gov
+  text: "Discovery"
+  url: https://18f.gsa.gov/tags/discovery-gsa-gov/
+  text: "18F blog posts about Discovery"
+
+
+stack:
+-
+
+users:
+- id:
+  user:
