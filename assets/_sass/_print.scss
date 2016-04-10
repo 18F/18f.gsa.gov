@@ -21,12 +21,14 @@ h1 {
 .blog-posting,
 .blog-related {
   p a {
-    &::link::after,
-    &::visited::after, {
+
+    &:link::after,
+    &:visited::after, {
       content: " (" attr(href) ")";
       font-weight: normal;
       word-break: break-all;
     }
+
     &[href^="/"]::after {
       content: " (https://18f.gsa.gov" attr(href) ") ";
     }
@@ -34,8 +36,8 @@ h1 {
 }
 
 .blog-posting .blog-tags {
-  a::link::after,
-  a::visited::after {
+  a:link::after,
+  a:visited::after {
     content: "";
   }
 }
@@ -46,8 +48,10 @@ h1 {
 
 .global-nav {
   float: none;
+
   ul {
     margin-right: 2em;
+
     li a {
       padding: 0.8em;
     }
@@ -76,31 +80,35 @@ h1 {
   background-color: #fff;
   border-top-width: 2px;
   padding-top: 5px;
+
   h1 {
     color: #06d;
   }
+
   a {
     color: #06d;
     font-size: 10pt;
     &[title="Edit this page"] {
-      &::link::after,
-      &::visited::after {
+      &:link::after,
+      &:visited::after {
         content: "";
       }
     }
   }
+
   .container {
     background-color: #fff;
     padding-top: 2em;
   }
+
   .usa-footer-primary-section .usa-grid-full {
     padding: 0 0.5em;
   }
 }
 
 .footer-content:first-child {
-  a::link::after,
-  a::visited::after {
+  a:link::after,
+  a:visited::after {
     content: "";
   }
 }
@@ -112,6 +120,7 @@ h1 {
   float: left;
   margin-right: 5%;
   width: 45%;
+
   &:first-child {
     margin-bottom: 0;
   }

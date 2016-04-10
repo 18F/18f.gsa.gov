@@ -8,9 +8,9 @@ a {
 h1 {
   font-size: 20pt; }
 
-.blog-posting p a::link::after, .blog-posting p a::visited::after,
-.blog-related p a::link::after,
-.blog-related p a::visited::after {
+.blog-posting p a:link::after, .blog-posting p a:visited::after,
+.blog-related p a:link::after,
+.blog-related p a:visited::after {
   content: " (" attr(href) ")";
   font-weight: normal;
   word-break: break-all; }
@@ -18,8 +18,8 @@ h1 {
 .blog-related p a[href^="/"]::after {
   content: " (https://18f.gsa.gov" attr(href) ") "; }
 
-.blog-posting .blog-tags a::link::after,
-.blog-posting .blog-tags a::visited::after {
+.blog-posting .blog-tags a:link::after,
+.blog-posting .blog-tags a:visited::after {
   content: ""; }
 
 .usa p {
@@ -55,7 +55,7 @@ h1 {
   .footer a {
     color: #06d;
     font-size: 10pt; }
-    .footer a[title="Edit this page"]::link::after, .footer a[title="Edit this page"]::visited::after {
+    .footer a[title="Edit this page"]:link::after, .footer a[title="Edit this page"]:visited::after {
       content: ""; }
   .footer .container {
     background-color: #fff;
@@ -63,8 +63,8 @@ h1 {
   .footer .usa-footer-primary-section .usa-grid-full {
     padding: 0 0.5em; }
 
-.footer-content:first-child a::link::after,
-.footer-content:first-child a::visited::after {
+.footer-content:first-child a:link::after,
+.footer-content:first-child a:visited::after {
   content: ""; }
 
 .usa-grid-full .usa-width-one-sixth {
