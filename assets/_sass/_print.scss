@@ -5,7 +5,8 @@
 
 // Print override styles
 //********************************************************
-body, p {
+body,
+p {
   font-size: 12pt;
 }
 
@@ -17,22 +18,25 @@ h1 {
   font-size: 20pt;
 }
 
-.blog-posting, .blog-related {
+.blog-posting,
+.blog-related {
   p a {
-    &:link:after, &:visited:after, {
+    &::link::after,
+    &::visited::after, {
       content: " (" attr(href) ")";
       font-weight: normal;
       word-break: break-all;
     }
-    &[href^="/"]:after {
+    &[href^="/"]::after {
       content: " (https://18f.gsa.gov" attr(href) ") ";
     }
   }
 }
 
 .blog-posting .blog-tags {
-  a:link:after, a:visited:after {
-    content: '';
+  a::link::after,
+  a::visited::after {
+    content: "";
   }
 }
 
@@ -63,7 +67,8 @@ h1 {
   padding-top: 20px;
 }
 
-.blog-pagination, .newsletter {
+.blog-pagination,
+.newsletter {
   display: none;
 }
 
@@ -78,8 +83,9 @@ h1 {
     color: #06d;
     font-size: 10pt;
     &[title="Edit this page"] {
-      &:link:after, &:visited:after {
-        content: '';
+      &::link::after,
+      &::visited::after {
+        content: "";
       }
     }
   }
@@ -88,22 +94,22 @@ h1 {
     padding-top: 2em;
   }
   .usa-footer-primary-section .usa-grid-full {
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
 }
 
 .footer-content:first-child {
-  a:link:after,
-  a:visited:after{
-    content: '';
+  a::link::after,
+  a::visited::after {
+    content: "";
   }
 }
 
 // two columns for the footer links
 .usa-grid-full .usa-width-one-sixth {
   clear: right;
-  float: left;
   display: block;
+  float: left;
   margin-right: 5%;
   width: 45%;
   &:first-child {
