@@ -1,17 +1,8 @@
-//********************************************************
-// 18F.gsa.gov CUSTOM SASS
-//********************************************************
-
-
-// Site-wide media queries
-//********************************************************
 body, p {
-  font-size: 12pt;
-}
+  font-size: 12pt; }
 
 a {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .blog-posting p a:link:after,
 .blog-posting p a:visited:after,
@@ -19,111 +10,86 @@ a {
 .blog-related p a:visited:after {
   content: " (" attr(href) ")";
   font-weight: normal;
-  word-break: break-all;
-}
+  word-break: break-all; }
 
 .blog-posting p a[href^="/"]:after,
 .blog-related p a[href^="/"]:after {
-  content: " (https://18f.gsa.gov" attr(href) ") ";
-}
-
+  content: " (https://18f.gsa.gov" attr(href) ") "; }
 
 .blog-posting .blog-tags a:link:after,
 .blog-posting .blog-tags a:link:after {
-  content: '';
-}
+  content: ''; }
 
 .usa p {
-  font-size: 10pt;
-}
-
+  font-size: 10pt; }
 
 .global-nav {
-  float: none;
-}
+  float: none; }
 
 .global-nav ul {
-  // margin-left: 3em;
-  margin-right: 2em;
-}
+  margin-right: 2em; }
 
 .global-nav ul li a {
-  padding: 0.8em;
-}
+  padding: 0.8em; }
 
 .bare-logo {
-  padding-top: 0;
-}
+  padding-top: 0; }
 
 .blog-posting h1 {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .newsletter {
-  display: none;
-}
+  display: none; }
 
 .bare h2 {
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .blog-pagination {
-  display: none;
-}
+  display: none; }
 
 h1 {
-  font-size: 20pt;
-}
+  font-size: 20pt; }
 
 .bare h2 {
-  font-size: 18pt;
-}
+  font-size: 18pt; }
 
 .footer {
   background-color: #fff;
   border-top: 0;
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
 .footer h1 {
-  color: #06d;
-}
+  color: #06d; }
 
 .footer a {
   color: #06d;
-  font-size: 10pt;
-}
+  font-size: 10pt; }
 
 .footer a[title="Edit this page"]:link:after,
 .footer a[title="Edit this page"]:visited:after {
-  content: '';
-}
+  content: ''; }
 
 .footer-content:first-child a:link:after,
 .footer-content:first-child a:visited:after {
-  content: '';
-}
+  content: ''; }
 
 .footer .usa-footer-primary-section .usa-grid-full {
-  padding: 0 .5em;
-}
+  padding: 0 .5em; }
 
 .usa-grid-full .usa-width-one-sixth {
   clear: right;
   float: left;
   display: block;
   margin-right: 5%;
-  width: 45%;
-}
+  width: 45%; }
 
 .usa-grid-full .usa-width-one-sixth:first-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .footer .container {
   background-color: #fff;
-  padding-top: 2em;
-}
-
+  padding-top: 2em; }
 
 /* vim:noet ts=4 sw=4 */
+
+/*# sourceMappingURL=print.css.map */
