@@ -13,6 +13,8 @@ then evaluating ideas and artifacts. We had trouble finding detailed instruction
 description: "Design principles are concise, specific guidelines for generating and
 then evaluating ideas and artifacts. We had trouble finding detailed instructions for making and using design principles online. So we decided to write our own."
 image: /assets/blog/design/design-principles-guide.jpg
+redirect_from:
+  - /2016/04/07/making-more-consistent-decisions-with-design-principles-a-new-18f-guide/
 ---
 
 Design principles are concise, specific guidelines for generating and
