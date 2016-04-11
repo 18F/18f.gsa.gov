@@ -8,6 +8,7 @@ authors:
 - victor-udoewa
 - duane-rollins
 tags:
+- digital acquisitions pilot
 - acquisition services
 - u.s. digital service
 - pif
