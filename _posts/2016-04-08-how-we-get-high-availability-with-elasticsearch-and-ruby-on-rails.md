@@ -85,23 +85,23 @@ But to make that simple query possible, we must de-normalize a report
 and its associated objects into a single "document" object, which might
 look like this:
 
-```
+```json
 {
-  id: 123,
-  title: "my report",
-  description: "all the apples fit to eat",
-  user: {
-    id: 456,
-    first_name: "Jane",
-    last_name: "Doe",
-    email: "janedoe@example.com",
-    groups: [ "SomeGroup", "AnotherGroup" ]
+  "id": 123,
+  "title": "my report",
+  "description": "all the apples fit to eat",
+  "user": {
+    "id": 456,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "janedoe@example.com",
+    "groups": [ "SomeGroup", "AnotherGroup" ]
   },
-  attachments: [
+  "attachments": [
     {
-      id: "abc123",
-      filename: "list-of-apple-orchards.csv",
-      content: "honeycrisp yummy, macintosh tasty, apple cores by the bushel"
+      "id": "abc123",
+      "filename": "list-of-apple-orchards.csv",
+      "content": "honeycrisp yummy, macintosh tasty, apple cores by the bushel"
     }
   ]
 }
