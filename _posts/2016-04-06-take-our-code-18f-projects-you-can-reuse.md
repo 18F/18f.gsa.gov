@@ -1,5 +1,5 @@
 ---
-title: "Take our code: 35 reusable projects from 18F"
+title: "Take our code: 34 reusable projects from 18F"
 date: 2016-04-06
 authors:
 - britta-gustafson
@@ -109,8 +109,6 @@ resolution](https://github.com/18F/18f.gsa.gov/issues/1445).
 ## If you make websites that communicate lots of information
 
 -   [**Accordion**](https://github.com/18F/accordion): Reuse this accessible JavaScript accordion component, such as for sidebar navigation.
-
--   [**Feedback Widget**](https://github.com/18F/feedback-widget): Give your website a feedback form that opens a new GitHub issue with the user's feedback, current URL, and user agent info (including browser and operating system).
 
 -   [**Glossary**](https://github.com/18F/glossary): Add a collapsible glossary sidebar to your website to give readers a quick way to look up important specialized terms. We made this for the [beta Federal Election Commission website](https://beta.fec.gov/) and split it out for reuse in future projects, and now the [U.S. Extractive Industries Transparency Initiative](https://useiti.doi.gov/) is using it too.
 
