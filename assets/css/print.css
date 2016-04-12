@@ -8,29 +8,27 @@ a {
 h1 {
   font-size: 20pt; }
 
-.blog-posting p a:link::after, .blog-posting p a:visited::after {
-  content: " (" attr(href) ")";
-  display: inline-block;
-  font-weight: normal;
-  margin-left: 4px;
-  word-break: break-all; }
-.blog-posting p a[href^="/"]::after {
-  content: " (https://18f.gsa.gov" attr(href) ") "; }
-
-.blog-posting .blog-tags a:link::after,
-.blog-posting .blog-tags a:visited::after {
-  content: ""; }
+.blog-posting {
+  margin-top: 2em; }
+  .blog-posting h1 {
+    margin-top: 0; }
+  .blog-posting p a:link::after, .blog-posting p a:visited::after {
+    content: " (" attr(href) ")";
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 4px;
+    word-break: break-all; }
+  .blog-posting p a[href^="/"]::after {
+    content: " (https://18f.gsa.gov" attr(href) ") "; }
+  .blog-posting .blog-tags a:link::after,
+  .blog-posting .blog-tags a:visited::after {
+    content: ""; }
 
 .usa p {
   font-size: 10pt; }
 
 .bare-logo {
   padding-top: 0; }
-
-.blog-posting {
-  margin-top: 2em; }
-  .blog-posting h1 {
-    margin-top: 0; }
 
 .bare h2 {
   font-size: 18pt;

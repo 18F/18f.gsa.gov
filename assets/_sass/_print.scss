@@ -19,8 +19,13 @@ h1 {
 }
 
 .blog-posting {
-  p a {
+  margin-top: 2em;
 
+  h1 {
+    margin-top: 0;
+  }
+
+  p a {
     &:link::after,
     &:visited::after, {
       content: " (" attr(href) ")";
@@ -34,12 +39,12 @@ h1 {
       content: " (https://18f.gsa.gov" attr(href) ") ";
     }
   }
-}
 
-.blog-posting .blog-tags {
-  a:link::after,
-  a:visited::after {
-    content: "";
+  .blog-tags {
+    a:link::after,
+    a:visited::after {
+      content: "";
+    }
   }
 }
 
@@ -49,14 +54,6 @@ h1 {
 
 .bare-logo {
   padding-top: 0;
-}
-
-.blog-posting {
-  margin-top: 2em;
-
-  h1 {
-    margin-top: 0;
-  }
 }
 
 .bare h2 {
