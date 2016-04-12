@@ -18,14 +18,15 @@ h1 {
   font-size: 20pt;
 }
 
-.blog-posting,
-.blog-related {
+.blog-posting {
   p a {
 
     &:link::after,
     &:visited::after, {
       content: " (" attr(href) ")";
+      display: inline-block;
       font-weight: normal;
+      margin-left: 4px;
       word-break: break-all;
     }
 
@@ -46,24 +47,16 @@ h1 {
   font-size: 10pt;
 }
 
-.global-nav {
-  float: none;
-
-  ul {
-    margin-right: 2em;
-
-    li a {
-      padding: 0.8em;
-    }
-  }
-}
-
 .bare-logo {
   padding-top: 0;
 }
 
-.blog-posting h1 {
-  margin-top: 0;
+.blog-posting {
+  margin-top: 2em;
+
+  h1 {
+    margin-top: 0;
+  }
 }
 
 .bare h2 {
@@ -71,60 +64,14 @@ h1 {
   padding-top: 20px;
 }
 
+.blog-related,
 .blog-pagination,
+.footer,
+.global-nav,
 .newsletter {
   display: none;
 }
 
-.footer {
-  background-color: #fff;
-  border-top-width: 2px;
-  padding-top: 5px;
-
-  h1 {
-    color: #06d;
-  }
-
-  a {
-    color: #06d;
-    font-size: 10pt;
-    &[title="Edit this page"] {
-      &:link::after,
-      &:visited::after {
-        content: "";
-      }
-    }
-  }
-
-  .container {
-    background-color: #fff;
-    padding-top: 2em;
-  }
-
-  .usa-footer-primary-section .usa-grid-full {
-    padding: 0 0.5em;
-  }
-}
-
-.footer-content:first-child {
-  a:link::after,
-  a:visited::after {
-    content: "";
-  }
-}
-
-// two columns for the footer links
-.usa-grid-full .usa-width-one-sixth {
-  clear: right;
-  display: block;
-  float: left;
-  margin-right: 5%;
-  width: 45%;
-
-  &:first-child {
-    margin-bottom: 0;
-  }
-}
 
 
 

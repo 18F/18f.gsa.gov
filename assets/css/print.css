@@ -8,14 +8,13 @@ a {
 h1 {
   font-size: 20pt; }
 
-.blog-posting p a:link::after, .blog-posting p a:visited::after,
-.blog-related p a:link::after,
-.blog-related p a:visited::after {
+.blog-posting p a:link::after, .blog-posting p a:visited::after {
   content: " (" attr(href) ")";
+  display: inline-block;
   font-weight: normal;
+  margin-left: 4px;
   word-break: break-all; }
-.blog-posting p a[href^="/"]::after,
-.blog-related p a[href^="/"]::after {
+.blog-posting p a[href^="/"]::after {
   content: " (https://18f.gsa.gov" attr(href) ") "; }
 
 .blog-posting .blog-tags a:link::after,
@@ -25,56 +24,24 @@ h1 {
 .usa p {
   font-size: 10pt; }
 
-.global-nav {
-  float: none; }
-  .global-nav ul {
-    margin-right: 2em; }
-    .global-nav ul li a {
-      padding: 0.8em; }
-
 .bare-logo {
   padding-top: 0; }
 
-.blog-posting h1 {
-  margin-top: 0; }
+.blog-posting {
+  margin-top: 2em; }
+  .blog-posting h1 {
+    margin-top: 0; }
 
 .bare h2 {
   font-size: 18pt;
   padding-top: 20px; }
 
+.blog-related,
 .blog-pagination,
+.footer,
+.global-nav,
 .newsletter {
   display: none; }
-
-.footer {
-  background-color: #fff;
-  border-top-width: 2px;
-  padding-top: 5px; }
-  .footer h1 {
-    color: #06d; }
-  .footer a {
-    color: #06d;
-    font-size: 10pt; }
-    .footer a[title="Edit this page"]:link::after, .footer a[title="Edit this page"]:visited::after {
-      content: ""; }
-  .footer .container {
-    background-color: #fff;
-    padding-top: 2em; }
-  .footer .usa-footer-primary-section .usa-grid-full {
-    padding: 0 0.5em; }
-
-.footer-content:first-child a:link::after,
-.footer-content:first-child a:visited::after {
-  content: ""; }
-
-.usa-grid-full .usa-width-one-sixth {
-  clear: right;
-  display: block;
-  float: left;
-  margin-right: 5%;
-  width: 45%; }
-  .usa-grid-full .usa-width-one-sixth:first-child {
-    margin-bottom: 0; }
 
 /* vim:noet ts=4 sw=4 */
 
