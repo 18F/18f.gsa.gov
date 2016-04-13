@@ -19,7 +19,7 @@ We [launched the Draft U.S. Web Design Standards last
 September](https://18f.gsa.gov/2015/09/28/web-design-standards/), and over
 the next month, we plan to explore various topics related to design
 standards. In this post, we detail how our user research informed the
-decision decisions we made.
+design decisions we made.
 
 While conducting research for the [Federal Front Door
 study](https://labs.usa.gov/), we learned people rely heavily on search

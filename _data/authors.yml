@@ -421,3 +421,20 @@ duane-rollins:
   full_name: Duane Rollins
   first_name: Duane
   last_name: Rollins
+marco:
+  full_name: Marco Segreto
+  first_name: Marco
+  last_name: Segreto
+anna:
+  full_name: Anna Heller Sebok
+  first_name: Anna
+  last_name: Sebok
+cat-langel:
+  full_name: Cat Langel
+  first_name: Cat
+  last_name: Langel
+  url: http://www.gsa.gov/portal/staffDirectory/contact/176573
+pkarman:
+  full_name: Peter Karman
+  first_name: Peter
+  last_name: Karman

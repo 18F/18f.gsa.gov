@@ -7,11 +7,10 @@ This repository contains 18F's website, https://18f.gsa.gov.
 ### Deployment and workflow
 
 * The `staging` branch is **automatically deployed** to our [staging site](https://staging.18f.gov).
-* The `production` branch is **automatically deployed** to our [production site](https://18f.gsa.gov).
 
 **All development and pull requests should be done against the `staging` branch.**
 
-Deployments to production will be done by site admins, using pull requests from `staging` to `production`.
+Deployments to production will be done by site admins, get at them in Slack to make it happen.
 
 We occasionally use various subdomains of 18f.gov to demo work in a way that others can see it. These deployments are manual and require a little bit of extra configuration. See the readme file in the "deploy" folder for more information on how this works.
 
