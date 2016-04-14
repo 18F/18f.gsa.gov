@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://npmcdn.com/basscss@7.1.1/css/basscss.min.css">
+  {% include head.html %}
+  <style>.h7 { font-size: .625rem }</style>
+</head>
+<body>
+  {% include flag.html %}
+  {% include nav.html %}
+  <div class="px2">
+    <div class="clearfix">
+      {% include logo.html %}
+    </div>
+  </div>
+  {{ content }}
+  {% include footer.html %}
+  {% for js in page.js %}
+    <script src="{{ site.baseurl }}/assets/js/{{ js }}"></script>
+  {% endfor %}
+</body>
+</html>

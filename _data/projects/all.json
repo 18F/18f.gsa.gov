@@ -1,0 +1,3200 @@
+{
+  "about_yml": {
+    "name": "about_yml",
+    "full_name": ".about.yml gem",
+    "type": "app",
+    "owner_type": "project",
+    "status": "active",
+    "stage": "discovery",
+    "testable": true,
+    "description": "A gem for the .about.yml project metadata schema and tools\n",
+    "stack": [
+      "Ruby"
+    ],
+    "licenses": {
+      ".about.yml": {
+        "name": "CC0",
+        "url": "https://github.com/18F/about_yml/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "url": "mailto:michael.bland@gsa.gov",
+        "text": "Michael Bland"
+      }
+    ],
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "errors": [
+      "The property '#/contact/0' of type String did not match the following type: object in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#",
+      "Unknown Team Member: ertzeid"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/about_yml"
+  },
+  "developer-program": {
+    "name": "developer-program",
+    "github": [
+      "18F/API-All-the-X"
+    ],
+    "description": "A suite of tools, resources, and consulting services to assist agencies in the production and management of government APIs.  This two-year-old program was adopted by 18F to scale out its impact and to grow the government’s API portfolio.",
+    "partners": [
+      "General Services Administration"
+    ],
+    "stage": "live",
+    "impact": "Over 70 agencies served, including each cabinet department, National Archives, Federal Communications Commission, Consumer Financial Protection Bureau, and the Office of Personnel Management.",
+    "milestones": [
+      "January 2014: 18F began work on project",
+      "May 2014: API Usability Program Launched",
+      "May 2014: /Developer Program Website v2.0 Announced",
+      "September 2014: 20th API Usability Participant"
+    ],
+    "contact": [
+      "gray.brooks@gsa.gov"
+    ],
+    "stack": null,
+    "team": [
+      {
+        "name": "gray",
+        "full_name": "Gray Brooks",
+        "first_name": "Gray",
+        "last_name": "Brooks",
+        "self": "https://team-api.18f.gov/public/api/team/gray"
+      }
+    ],
+    "licenses": {
+      "API-All-the-X": "Public Domain (CC0)"
+    },
+    "licenseBranch": {
+      "API-All-the-X": "gh-pages"
+    },
+    "links": [
+      "https://pages.18f.gov/API-All-the-X/"
+    ],
+    "blog": [
+      "/developer"
+    ],
+    "status": null,
+    "full_name": "/Developer Program",
+    "self": "https://team-api.18f.gov/public/api/projects/developer-program"
+  },
+  "edu": {
+    "name": "edu",
+    "full_name": "18F Edu",
+    "description": "18F Edu is the self-guided training component of the 18F Learn initiative. It aims to supplement the 18F Guides with hands-on exercises that can solidify your grasp of those materials. The combined body of 18F Guides and 18F Edu training modules aim to support the concepts promoted in the U.S. Digital Services Playbook.\n",
+    "type": "docs",
+    "owner_type": "project",
+    "status": "active",
+    "stage": "alpha",
+    "testable": false,
+    "licenses": {
+      "edu": {
+        "name": "Public Domain (CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pages.18f.gov/edu/",
+        "text": "18F Edu home page"
+      }
+    ],
+    "team": [
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "boone",
+        "full_name": "Greg Boone",
+        "first_name": "Greg",
+        "last_name": "Boone",
+        "self": "https://team-api.18f.gov/public/api/team/boone"
+      },
+      {
+        "name": "andre",
+        "full_name": "Andre Francisco",
+        "first_name": "Andre",
+        "last_name": "Francisco",
+        "self": "https://team-api.18f.gov/public/api/team/andre"
+      },
+      {
+        "name": "kate",
+        "full_name": "Kate Garklavs",
+        "first_name": "Kate",
+        "last_name": "Garklavs",
+        "self": "https://team-api.18f.gov/public/api/team/kate"
+      },
+      {
+        "name": "hillary",
+        "full_name": "Hillary Hartley",
+        "first_name": "Hillary",
+        "last_name": "Hartley",
+        "self": "https://team-api.18f.gov/public/api/team/hillary"
+      },
+      {
+        "name": "jackie",
+        "full_name": "Jackie Kazil",
+        "first_name": "Jackie",
+        "last_name": "Kazil",
+        "self": "https://team-api.18f.gov/public/api/team/jackie"
+      }
+    ],
+    "github": {
+      "name": "18F/edu",
+      "description": "Materials pertaining to the 18F Edu segment of the 18F Learn initiative"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/edu"
+  },
+  "hub": {
+    "name": "hub",
+    "full_name": "18F Hub",
+    "type": "docs",
+    "owner_type": "project",
+    "status": "active",
+    "stage": "alpha",
+    "testable": true,
+    "mission": "The 18F Hub is a Jekyll-based documentation platform that aims to help 18F and other development teams organize and easily share their information, and to enable easy exploration of the connections between team members, projects, and skill sets. It aims to serve as the go-to place for all of a team's working information, whether that information is integrated into the Hub directly or provided as links to other sources. It also serves as a lightweight tool that other teams can experiment with and deploy with a minimum of setup.\n",
+    "links": [
+      {
+        "url": "https://hub.18f.gov/",
+        "text": "18F Hub production instance"
+      },
+      {
+        "url": "https://hub.18f.gov/hub/",
+        "text": "18F Public Hub staging instance"
+      },
+      {
+        "url": "https://18f.gsa.gov/hub/",
+        "text": "18F Public Hub production instance"
+      }
+    ],
+    "github": {
+      "name": "18F/hub",
+      "description": "Documentation hub for the 18F team"
+    },
+    "errors": [
+      "The property '#/' did not contain a required property of 'team' in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#",
+      "The property '#/' did not contain a required property of 'licenses' in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/hub"
+  },
+  "18f-site": {
+    "name": "18f-site",
+    "full_name": "18f.gsa.gov",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "live",
+    "status": "active",
+    "description": "The official website of 18F.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "boone",
+        "full_name": "Greg Boone",
+        "first_name": "Greg",
+        "last_name": "Boone",
+        "self": "https://team-api.18f.gov/public/api/team/boone"
+      },
+      {
+        "name": "andre",
+        "full_name": "Andre Francisco",
+        "first_name": "Andre",
+        "last_name": "Francisco",
+        "self": "https://team-api.18f.gov/public/api/team/andre"
+      },
+      {
+        "name": "kate",
+        "full_name": "Kate Garklavs",
+        "first_name": "Kate",
+        "last_name": "Garklavs",
+        "self": "https://team-api.18f.gov/public/api/team/kate"
+      },
+      {
+        "name": "hillary",
+        "full_name": "Hillary Hartley",
+        "first_name": "Hillary",
+        "last_name": "Hartley",
+        "self": "https://team-api.18f.gov/public/api/team/hillary"
+      },
+      {
+        "name": "mhz",
+        "full_name": "Michelle Hertzfeld",
+        "first_name": "Michelle",
+        "last_name": "Hertzfeld",
+        "self": "https://team-api.18f.gov/public/api/team/mhz"
+      },
+      {
+        "name": "elaine",
+        "full_name": "Elaine Kamlley",
+        "first_name": "Elaine",
+        "last_name": "Kamlley",
+        "self": "https://team-api.18f.gov/public/api/team/elaine"
+      },
+      {
+        "name": "meghana",
+        "full_name": "Meghana Khandekar",
+        "first_name": "Meghana",
+        "last_name": "Khandekar",
+        "self": "https://team-api.18f.gov/public/api/team/meghana"
+      },
+      {
+        "name": "melody",
+        "full_name": "Melody Kramer",
+        "first_name": "Melody",
+        "last_name": "Kramer",
+        "self": "https://team-api.18f.gov/public/api/team/melody"
+      },
+      {
+        "name": "eric",
+        "full_name": "Eric Mill",
+        "first_name": "Eric",
+        "last_name": "Mill",
+        "self": "https://team-api.18f.gov/public/api/team/eric"
+      },
+      {
+        "name": "jthibault",
+        "full_name": "Jennifer Thibault",
+        "first_name": "Jennifer",
+        "last_name": "Thibault",
+        "self": "https://team-api.18f.gov/public/api/team/jthibault"
+      }
+    ],
+    "stack": [
+      "Ruby",
+      "Jekyll",
+      "NodeJS"
+    ],
+    "licenses": {
+      "18f-site": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/18f.gsa.gov/blob/staging/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://18f.gsa.gov/",
+        "text": "The official website of 18F"
+      }
+    ],
+    "contact": [
+      "gregory.boone@gsa.gov"
+    ],
+    "github": {
+      "name": "18F/18f.gsa.gov",
+      "description": "This repository contains 18F's website."
+    },
+    "errors": [
+      "The property '#/contact/0' of type String did not match the following type: object in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/18f-site"
+  },
+  "dap": {
+    "name": "dap",
+    "github": [
+      "gsa/analytics.usa.gov",
+      "18f/analytics-reporter"
+    ],
+    "description": "A lightweight dashboard that shows web traffic across the .gov domain.",
+    "partners": [
+      "General Services Administration"
+    ],
+    "stage": "beta",
+    "milestones": [
+      "May 2012: Digital Government Strategy calls for a government-wide analytics program",
+      "May 2013: Digital Analytics Program announced",
+      "August 2014: Full Digital Analytics Program access expanded to all federal staff at participating agencies",
+      "March 2015: Analytics.USA.gov announced"
+    ],
+    "contact": [
+      "dap@gsa.gov"
+    ],
+    "stack": [
+      "jekyll",
+      "bourbon",
+      "neat",
+      "d3",
+      "node",
+      "analytics-reporter"
+    ],
+    "team": [
+      {
+        "name": "shawn",
+        "full_name": "Shawn Allen",
+        "first_name": "Shawn",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/shawn"
+      },
+      {
+        "name": "leah",
+        "full_name": "Leah Bannon",
+        "first_name": "Leah",
+        "last_name": "Bannon",
+        "self": "https://team-api.18f.gov/public/api/team/leah"
+      },
+      {
+        "name": "gray",
+        "full_name": "Gray Brooks",
+        "first_name": "Gray",
+        "last_name": "Brooks",
+        "self": "https://team-api.18f.gov/public/api/team/gray"
+      },
+      {
+        "name": "eric",
+        "full_name": "Eric Mill",
+        "first_name": "Eric",
+        "last_name": "Mill",
+        "self": "https://team-api.18f.gov/public/api/team/eric"
+      }
+    ],
+    "licenses": {
+      "analytics.usa.gov": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://analytics.usa.gov",
+      "https://github.com/gsa/analytics.usa.gov"
+    ],
+    "status": null,
+    "full_name": "Analytics.USA.gov",
+    "self": "https://team-api.18f.gov/public/api/projects/dap"
+  },
+  "api-data-gov": {
+    "name": "api-data-gov",
+    "github": [
+      "18F/api.data.gov",
+      "NREL/api-umbrella"
+    ],
+    "description": "A hosted, shared-service that provides an API key, analytics, and proxy solution for government web services. We are currently accepting clients for this free service: contact us to learn more.",
+    "partners": [
+      "Census",
+      "Federal Communications Commission",
+      "U.S. Food and Drug Administration",
+      "General Services Administration",
+      "National Renewable Energy Laboratory",
+      "Regulations.gov",
+      "Department of Agriculture"
+    ],
+    "stage": "beta",
+    "impact": "2,800 API users and 66 million API requests served since July 2013",
+    "milestones": null,
+    "contact": [
+      "api.data.gov@gsa.gov"
+    ],
+    "stack": [
+      "JavaScript (Node and Ember)",
+      "Rails",
+      "nginx",
+      "elasticsearch",
+      "Varnish",
+      "redis",
+      "and MongoDB"
+    ],
+    "team": [
+      {
+        "name": "gray",
+        "full_name": "Gray Brooks",
+        "first_name": "Gray",
+        "last_name": "Brooks",
+        "self": "https://team-api.18f.gov/public/api/team/gray"
+      }
+    ],
+    "licenses": {
+      "fbopen": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://api.data.gov",
+      "https://api.data.gov/metrics",
+      "https://api.data.gov/about",
+      "https://nrel.github.io/api-umbrella/"
+    ],
+    "blog": [
+      "API"
+    ],
+    "status": null,
+    "full_name": "api.data.gov",
+    "self": "https://team-api.18f.gov/public/api/projects/api-data-gov"
+  },
+  "authentication": {
+    "name": "authentication",
+    "full_name": "Authentication",
+    "type": "docs",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "HTTP request authentication guide",
+    "testable": false,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Ruby",
+      "Jekyll"
+    ],
+    "licenses": {
+      "authentication": {
+        "name": "CC0",
+        "url": "https://github.com/18F/authentication/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pages-staging.18f.gov/authentication/",
+        "text": "18F Pages staging instance"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/authentication/issues",
+        "text": "18F/authentication issues"
+      }
+    ],
+    "github": {
+      "name": "18F/authentication",
+      "description": "18F authentication guide (DRAFT)"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/authentication"
+  },
+  "authdelegate": {
+    "name": "authdelegate",
+    "full_name": "Authentication Delegate Server",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "A server that routes authenticated requests to multiple authentication servers based on the presence of specific headers or cookies in a request.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Go"
+    ],
+    "licenses": {
+      "authdelegate": {
+        "name": "CC0",
+        "url": "https://github.com/18F/authdelegate/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/authdelegate/issues",
+        "text": "18F/authdelegate issues"
+      }
+    ],
+    "github": {
+      "name": "18F/authdelegate",
+      "description": "Server that routes requests to multiple authentication servers"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/authdelegate"
+  },
+  "betaFEC": {
+    "name": "betaFEC",
+    "full_name": "betaFEC",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "beta",
+    "status": "active",
+    "description": "A new Federal Election Commission (FEC) website that will make campaign finance information more accessible and understandable to all users.",
+    "testable": true,
+    "links": [
+      {
+        "url": "https://beta.fec.gov",
+        "text": "betaFEC"
+      },
+      {
+        "url": "https://api.open.fec.gov/developers",
+        "text": "betaFEC API Documentation"
+      }
+    ],
+    "team": [
+      {
+        "name": "leah",
+        "full_name": "Leah Bannon",
+        "first_name": "Leah",
+        "last_name": "Bannon",
+        "self": "https://team-api.18f.gov/public/api/team/leah"
+      },
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "jeremy",
+        "full_name": "Jeremy Canfield",
+        "first_name": "Jeremy",
+        "last_name": "Canfield",
+        "self": "https://team-api.18f.gov/public/api/team/jeremy"
+      },
+      {
+        "name": "joshcarp",
+        "full_name": "Josh Carp",
+        "first_name": "Josh",
+        "last_name": "Carp",
+        "self": "https://team-api.18f.gov/public/api/team/joshcarp"
+      },
+      {
+        "name": "manger",
+        "full_name": "Noah Manger",
+        "first_name": "Noah",
+        "last_name": "Manger",
+        "self": "https://team-api.18f.gov/public/api/team/manger"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      },
+      {
+        "name": "jthibault",
+        "full_name": "Jennifer Thibault",
+        "first_name": "Jennifer",
+        "last_name": "Thibault",
+        "self": "https://team-api.18f.gov/public/api/team/jthibault"
+      },
+      {
+        "name": "lindsay",
+        "full_name": "Lindsay Young",
+        "first_name": "Lindsay",
+        "last_name": "Young",
+        "self": "https://team-api.18f.gov/public/api/team/lindsay"
+      }
+    ],
+    "milestones": [
+      "June 2014: Project Discovery stage started",
+      "May 2015: Alpha testing of API and website",
+      "July 2015: Beta testing of the API",
+      "October 2015: Public release of beta site"
+    ],
+    "partners": [
+      "Federal Election Commission"
+    ],
+    "impact": "The FEC collects data about how campaigns are financed that affect all 318 million Americans every 2 years.",
+    "services": [
+      {
+        "name": "Travis CI",
+        "category": "CI",
+        "url": "https://travis-ci.org/18F/openFEC"
+      }
+    ],
+    "licenses": {
+      "betaFEC": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/openfec/blob/master/LICENSE.md"
+      }
+    },
+    "blog": [
+      "fec"
+    ],
+    "contact": [
+      {
+        "url": "mailto:leah.bannon@gsa.gov",
+        "text": "Leah Bannon"
+      }
+    ],
+    "tasks": "https://github.com/18F/openFEC/issues",
+    "self": "https://team-api.18f.gov/public/api/projects/betafec"
+  },
+  "C2": {
+    "name": "C2",
+    "full_name": "C2",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "live",
+    "status": "active",
+    "description": "an approval process automation tool",
+    "testable": true,
+    "team": [
+      {
+        "name": "afeld",
+        "full_name": "Aidan Feldman",
+        "first_name": "Aidan",
+        "last_name": "Feldman",
+        "self": "https://team-api.18f.gov/public/api/team/afeld"
+      },
+      {
+        "name": "annalee",
+        "full_name": "Annalee Flower Horne",
+        "first_name": "Annalee",
+        "last_name": "Flower Horne",
+        "self": "https://team-api.18f.gov/public/api/team/annalee"
+      },
+      {
+        "name": "yoz",
+        "full_name": "Yoz Grahame",
+        "first_name": "Yoz",
+        "last_name": "Grahame",
+        "self": "https://team-api.18f.gov/public/api/team/yoz"
+      },
+      {
+        "name": "pkarman",
+        "full_name": "Peter Karman",
+        "first_name": "Peter",
+        "last_name": "Karman",
+        "self": "https://team-api.18f.gov/public/api/team/pkarman"
+      },
+      {
+        "name": "raphy",
+        "full_name": "Raphael Villas",
+        "first_name": "Raphael",
+        "last_name": "Villas",
+        "self": "https://team-api.18f.gov/public/api/team/raphy"
+      },
+      {
+        "name": "jessie",
+        "full_name": "Jessie Young",
+        "first_name": "Jessie",
+        "last_name": "Young",
+        "self": "https://team-api.18f.gov/public/api/team/jessie"
+      }
+    ],
+    "partners": [
+      "GSA National Capital Region",
+      "18F",
+      "GSA Common Acquisition Platform"
+    ],
+    "stack": [
+      "Ruby",
+      "Rails"
+    ],
+    "services": [
+      {
+        "name": "CircleCI",
+        "category": "testing",
+        "url": "https://circleci.com/gh/18F/C2",
+        "badge": "https://circleci.com/gh/18F/C2.svg?style=svg"
+      },
+      {
+        "name": "Code Climate",
+        "category": "testing",
+        "url": "https://codeclimate.com/github/18F/C2",
+        "badge": "https://codeclimate.com/github/18F/C2/badges/gpa.svg"
+      },
+      {
+        "name": "Gemnasium",
+        "category": "dependency status",
+        "url": "https://gemnasium.com/18F/C2",
+        "badge": "https://gemnasium.com/18F/C2.svg"
+      }
+    ],
+    "licenses": {
+      "C2": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/C2/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://cap.18f.gov/",
+        "text": "C2 website"
+      }
+    ],
+    "contact": [
+      {
+        "url": "https://cap.18f.gov/feedback",
+        "text": "C2 support"
+      },
+      {
+        "url": "https://github.com/18F/C2/issues",
+        "text": "C2 GitHub issues"
+      }
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/c2"
+  },
+  "calc": {
+    "name": "calc",
+    "github": [
+      "18F/calc"
+    ],
+    "description": "CALC is a tool to help contracting personnel estimate their per-hour labor costs for a contract, based on historical pricing information.",
+    "partners": [
+      "General Services Administration"
+    ],
+    "impact": "All federal acquisition personnel involved in buying professional services",
+    "stage": "live",
+    "milestones": [
+      "November 2014: Initial discovery stage begins",
+      "November 2014: Begin building alpha",
+      "March 2015: Name changed from \"Hourglass\" to \"CALC\"",
+      "May 2015: Public beta launched",
+      "July 2015: Second release with price analysis tools, status changed to live"
+    ],
+    "contact": [
+      "nicholas.brethauer@gsa.gov"
+    ],
+    "stack": [
+      "Python",
+      "Django",
+      "JavaScript",
+      "Postgres"
+    ],
+    "team": [
+      {
+        "name": "shawn",
+        "full_name": "Shawn Allen",
+        "first_name": "Shawn",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/shawn"
+      },
+      {
+        "name": "maya",
+        "full_name": "Maya Benari",
+        "first_name": "Maya",
+        "last_name": "Benari",
+        "self": "https://team-api.18f.gov/public/api/team/maya"
+      },
+      {
+        "name": "brethauer",
+        "full_name": "Nick Brethauer",
+        "first_name": "Nick",
+        "last_name": "Brethauer",
+        "self": "https://team-api.18f.gov/public/api/team/brethauer"
+      },
+      {
+        "name": "christine",
+        "full_name": "Christine Cheung",
+        "first_name": "Christine",
+        "last_name": "Cheung",
+        "self": "https://team-api.18f.gov/public/api/team/christine"
+      },
+      {
+        "name": "kaitlin",
+        "full_name": "Kaitlin Devine",
+        "first_name": "Kaitlin",
+        "last_name": "Devine",
+        "self": "https://team-api.18f.gov/public/api/team/kaitlin"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      },
+      {
+        "name": "josh",
+        "full_name": "Josh Ruihley",
+        "first_name": "Josh",
+        "last_name": "Ruihley",
+        "self": "https://team-api.18f.gov/public/api/team/josh"
+      },
+      {
+        "name": "theresa",
+        "full_name": "Theresa Summa",
+        "first_name": "Theresa",
+        "last_name": "Summa",
+        "self": "https://team-api.18f.gov/public/api/team/theresa"
+      }
+    ],
+    "licenses": {
+      "mirage": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://trello.com/b/LjXJaVbZ/hourglass",
+      "https://calc.gsa.gov"
+    ],
+    "status": null,
+    "full_name": "CALC",
+    "self": "https://team-api.18f.gov/public/api/projects/calc"
+  },
+  "cloud.gov": {
+    "name": "cloud.gov",
+    "full_name": "cloud.gov Platform-As-A-Service",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "alpha",
+    "status": "active",
+    "description": "cloud.gov takes care of infrastructure concerns so teams can focus all of their efforts on their app rather than fighting the environment",
+    "testable": true,
+    "team": [
+      {
+        "name": "ozzy",
+        "full_name": "Ozzy Johnson",
+        "first_name": "Ozzy",
+        "last_name": "Johnson",
+        "self": "https://team-api.18f.gov/public/api/team/ozzy"
+      },
+      {
+        "name": "diego",
+        "full_name": "Diego Lapiduz",
+        "first_name": "Diego",
+        "last_name": "Lapiduz",
+        "self": "https://team-api.18f.gov/public/api/team/diego"
+      },
+      {
+        "name": "bret",
+        "full_name": "Bret Mogilefsky",
+        "first_name": "Bret",
+        "last_name": "Mogilefsky",
+        "self": "https://team-api.18f.gov/public/api/team/bret"
+      },
+      {
+        "name": "gramirez",
+        "full_name": "Gabriel Ramírez",
+        "first_name": "Gabriel",
+        "last_name": "Ramírez",
+        "self": "https://team-api.18f.gov/public/api/team/gramirez"
+      },
+      {
+        "name": "jamesscott",
+        "full_name": "James Scott",
+        "first_name": "James",
+        "last_name": "Scott",
+        "self": "https://team-api.18f.gov/public/api/team/jamesscott"
+      }
+    ],
+    "partners": [
+      "18F",
+      "GSA"
+    ],
+    "stack": [
+      "Cloud Foundry",
+      "BOSH",
+      "Amazon Web Services",
+      "Docker",
+      "AngularJS",
+      "Bootstrap",
+      "Grafana"
+    ],
+    "impact": "The cloud.gov PaaS has the potential to reduce costs and complexity of IT projects across the federal government by an order of magnitude.",
+    "services": [
+      {
+        "name": "Status Page",
+        "category": "statuspage",
+        "url": "https://cloudgov.statuspage.io"
+      },
+      {
+        "name": "Travis CI",
+        "category": "continuousintegration",
+        "url": "https://travis-ci.org/18F/cg-landing",
+        "badge": "https://travis-ci.org/18F/cg-landing.svg?branch=master"
+      }
+    ],
+    "licenses": {
+      "cg-landing": {
+        "name": "CC0",
+        "url": "https://github.com/18F/cg-landing/blob/master/LICENSE.md"
+      }
+    },
+    "blog": [
+      "cloud-gov"
+    ],
+    "links": [
+      {
+        "url": "https://cloud.gov/",
+        "text": "cloud.gov"
+      },
+      {
+        "url": "https://18f.storiesonboard.com/m/gov-dev",
+        "text": "Roadmap/ChangeLog story map (in StoriesOnBoard)"
+      },
+      {
+        "url": "https://trello.com/b/ChGzyepo/gov-dev",
+        "text": "Sprint Status (in Trello)"
+      },
+      {
+        "url": "https://www.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks%40group.calendar.google.com&ctz=America/Los_Angeles",
+        "text": "Project Calendar (standups, reviews, and planning meetings)"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:bret.mogilefsky@gsa.gov",
+        "text": "Bret Mogilefsky"
+      }
+    ],
+    "github": {
+      "name": "18F/cg-landing",
+      "description": "18F landing page for cloud.gov"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/cloud.gov"
+  },
+  "collegescorecard": {
+    "name": "collegescorecard",
+    "full_name": "College Scorecard",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "collegescorecard",
+    "status": "active",
+    "stage": "live",
+    "testable": true,
+    "description": "Engage and educate potential college students of any age or background and those who support and advise them, to find schools best suited to them.",
+    "links": [
+      {
+        "url": "https://collegescorecard.ed.gov/",
+        "text": "College Scorecard"
+      },
+      {
+        "url": "https://collegescorecard.ed.gov/data/",
+        "text": "College Scorecard Data"
+      }
+    ],
+    "partners": [
+      "Department of Education"
+    ],
+    "stack": [
+      "JavaScript",
+      "Jekyll",
+      "Ruby",
+      "Rails",
+      "elasticsearch"
+    ],
+    "contact": [
+      {
+        "url": "mailto:holly.allen@gsa.gov",
+        "text": "Holly Allen"
+      }
+    ],
+    "team": [
+      {
+        "name": "holly",
+        "full_name": "Holly Allen",
+        "first_name": "Holly",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/holly"
+      },
+      {
+        "name": "sarah",
+        "full_name": "Sarah Allen",
+        "first_name": "Sarah",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/sarah"
+      },
+      {
+        "name": "shawn",
+        "full_name": "Shawn Allen",
+        "first_name": "Shawn",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/shawn"
+      },
+      {
+        "name": "yoz",
+        "full_name": "Yoz Grahame",
+        "first_name": "Yoz",
+        "last_name": "Grahame",
+        "self": "https://team-api.18f.gov/public/api/team/yoz"
+      },
+      {
+        "name": "mhz",
+        "full_name": "Michelle Hertzfeld",
+        "first_name": "Michelle",
+        "last_name": "Hertzfeld",
+        "self": "https://team-api.18f.gov/public/api/team/mhz"
+      },
+      {
+        "name": "dmayercantu",
+        "full_name": "Diego Mayer-Cantu",
+        "first_name": "Diego",
+        "last_name": "Mayer-Cantu",
+        "self": "https://team-api.18f.gov/public/api/team/dmayercantu"
+      }
+    ],
+    "milestones": [
+      "June 2015: Kick-off meeting",
+      "August 2015: Private beta launched",
+      "September 2015: Public live launch"
+    ],
+    "impact": "3 Million site views since September 2015",
+    "licenses": {
+      "collegescorecard": {
+        "name": "Public Domain (CC0)",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/collegescorecard"
+  },
+  "dashboard": {
+    "name": "dashboard",
+    "full_name": "Dashboard",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "live",
+    "status": "active",
+    "description": "A site to track our projects' status, to provide transparency and insight\ninto 18F work and values.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "boone",
+        "full_name": "Greg Boone",
+        "first_name": "Greg",
+        "last_name": "Boone",
+        "self": "https://team-api.18f.gov/public/api/team/boone"
+      }
+    ],
+    "stack": [
+      "Ruby",
+      "Jekyll",
+      "NodeJS"
+    ],
+    "licenses": {
+      "dashboard": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://18f.gsa.gov/dashboard/",
+        "text": "Live 18F Dashboard"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:gregory.boone@gsa.gov",
+        "text": "Greg Boone"
+      }
+    ],
+    "partners": [
+      "18F"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/dashboard"
+  },
+  "dataact": {
+    "name": "dataact",
+    "github": [
+      "fedspendingtransparency/fedspendingtransparency.github.io"
+    ],
+    "description": "Consulting engagement to advise on the federal spending data standards and corresponding pilot project mandated by the DATA Act.",
+    "partner": [
+      "U.S. Department of Treasury"
+    ],
+    "partners": [
+      "U.S. Department of Treasury"
+    ],
+    "impact": "The federal agencies, state and local governments, transparency advocacy organizations, non-profits, academic researchers, and individuals who use federal spending data. All federal agencies can benefit from the pilot software and lessons learned as they prepare to comply with the DATA Act.",
+    "stage": "alpha",
+    "milestones": [
+      "January 2015: 18F began work on project"
+    ],
+    "contact": [
+      "kaitlin.devine@gsa.gov"
+    ],
+    "stack": [
+      "JavaScript",
+      "Jekyll"
+    ],
+    "team": [
+      {
+        "name": "kaitlin",
+        "full_name": "Kaitlin Devine",
+        "first_name": "Kaitlin",
+        "last_name": "Devine",
+        "self": "https://team-api.18f.gov/public/api/team/kaitlin"
+      },
+      {
+        "name": "kate",
+        "full_name": "Kate Garklavs",
+        "first_name": "Kate",
+        "last_name": "Garklavs",
+        "self": "https://team-api.18f.gov/public/api/team/kate"
+      },
+      {
+        "name": "micahsaul",
+        "full_name": "Micah Saul",
+        "first_name": "Micah",
+        "last_name": "Saul",
+        "self": "https://team-api.18f.gov/public/api/team/micahsaul"
+      },
+      {
+        "name": "becky",
+        "full_name": "Becky Sweger",
+        "first_name": "Becky",
+        "last_name": "Sweger",
+        "self": "https://team-api.18f.gov/public/api/team/becky"
+      }
+    ],
+    "licenses": {
+      "fedspendingtransparency": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://fedspendingtransparency.github.io/"
+    ],
+    "status": null,
+    "full_name": "DATA Act",
+    "self": "https://team-api.18f.gov/public/api/projects/dataact"
+  },
+  "methods": {
+    "name": "methods",
+    "github": [
+      "18F/methods"
+    ],
+    "description": "A collection of design and research methods, including general descriptions and how-tos, to share how we work and build a common design vocabulary.",
+    "stage": "beta",
+    "milestones": [
+      "April 2015: Conducted one-on-one interviews with design leads across roughly 10 projects.",
+      "May 2015: Built prototype sets of alpha method cards to get some quick feedback on our concept. Conducted a few more formal usability tests of the card decks, which led to some changes in the beta version.",
+      "June 2015: Ran randomized, controlled experiment to measure how method cards affected our 18F teammates’ knowledge and comfort with our design methods. People who received cards were slightly more knowledgeable and comfortable with methods than a control group whose members didn’t receive cards.",
+      "August 2015: Launched online, beta version of the methods at methods.18f.gov, including files and instructions for printed cards."
+    ],
+    "contact": [
+      "18f/methods/issues"
+    ],
+    "team": [
+      {
+        "name": "jeremy",
+        "full_name": "Jeremy Canfield",
+        "first_name": "Jeremy",
+        "last_name": "Canfield",
+        "self": "https://team-api.18f.gov/public/api/team/jeremy"
+      },
+      {
+        "name": "jhunter",
+        "full_name": "Jeannine Hunter",
+        "first_name": "Jeannine",
+        "last_name": "Hunter",
+        "self": "https://team-api.18f.gov/public/api/team/jhunter"
+      },
+      {
+        "name": "jameshupp",
+        "full_name": "James Hupp",
+        "first_name": "James",
+        "last_name": "Hupp",
+        "self": "https://team-api.18f.gov/public/api/team/jameshupp"
+      },
+      {
+        "name": "andrewmaier",
+        "full_name": "Andrew Maier",
+        "first_name": "Andrew",
+        "last_name": "Maier",
+        "self": "https://team-api.18f.gov/public/api/team/andrewmaier"
+      },
+      {
+        "name": "jthibault",
+        "full_name": "Jennifer Thibault",
+        "first_name": "Jennifer",
+        "last_name": "Thibault",
+        "self": "https://team-api.18f.gov/public/api/team/jthibault"
+      },
+      {
+        "name": "russ",
+        "full_name": "Russ Unger",
+        "first_name": "Russ",
+        "last_name": "Unger",
+        "self": "https://team-api.18f.gov/public/api/team/russ"
+      },
+      {
+        "name": "victor",
+        "full_name": "Victor Diaz Zapanta",
+        "first_name": "Victor",
+        "last_name": "Zapanta",
+        "self": "https://team-api.18f.gov/public/api/team/victor"
+      }
+    ],
+    "licenses": {
+      "methods": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://methods.18f.gov/"
+    ],
+    "blog": null,
+    "status": null,
+    "full_name": "Design Methods",
+    "errors": [
+      "Unknown Team Member: colin",
+      "Unknown Team Member: brad"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/methods"
+  },
+  "discovery": {
+    "name": "discovery",
+    "github": [
+      "18F/discovery"
+    ],
+    "description": "Market research tool for the OASIS procurement vehicle, which serves contracting specialists throughout the U.S. Federal Government.",
+    "partners": [
+      "General Services Administration"
+    ],
+    "impact": null,
+    "stage": "beta",
+    "milestones": [
+      "May 2014: Initial Discovery stage began for task order generator project",
+      "June 2014: Project pivoted based on user interviews and Discovery stage began for market research tool",
+      "July 2014: Work on Alpha stage began for market research tool",
+      "November 2014: Alpha work complete",
+      "February 2015: Name changed from \"Mirage\" to \"Discovery\""
+    ],
+    "contact": [
+      "josh.ruihley@gsa.gov"
+    ],
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "team": [
+      {
+        "name": "shawn",
+        "full_name": "Shawn Allen",
+        "first_name": "Shawn",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/shawn"
+      },
+      {
+        "name": "brethauer",
+        "full_name": "Nick Brethauer",
+        "first_name": "Nick",
+        "last_name": "Brethauer",
+        "self": "https://team-api.18f.gov/public/api/team/brethauer"
+      },
+      {
+        "name": "kaitlin",
+        "full_name": "Kaitlin Devine",
+        "first_name": "Kaitlin",
+        "last_name": "Devine",
+        "self": "https://team-api.18f.gov/public/api/team/kaitlin"
+      },
+      {
+        "name": "josh",
+        "full_name": "Josh Ruihley",
+        "first_name": "Josh",
+        "last_name": "Ruihley",
+        "self": "https://team-api.18f.gov/public/api/team/josh"
+      }
+    ],
+    "licenses": {
+      "mirage": "Public Domain (CC0)"
+    },
+    "links": [
+      "http://gsa.gov/oasis",
+      "https://discovery.gsa.gov"
+    ],
+    "status": null,
+    "full_name": "Discovery: OASIS Market Research Tool",
+    "self": "https://team-api.18f.gov/public/api/projects/discovery"
+  },
+  "dodsbir-scrape": {
+    "name": "dodsbir-scrape",
+    "full_name": "DODSBIR Scraper",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "fbopen",
+    "stage": "end",
+    "status": "deprecated",
+    "description": "A scraper for the SBIR topics housed on dodsbir.net",
+    "tags": [
+      "sbir",
+      "procurement",
+      "grants",
+      "contracts",
+      "small-business",
+      "innovation",
+      "dod"
+    ],
+    "testable": true,
+    "team": [
+      {
+        "name": "david",
+        "full_name": "David Best",
+        "first_name": "David",
+        "last_name": "Best",
+        "self": "https://team-api.18f.gov/public/api/team/david"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      },
+      {
+        "name": "josh",
+        "full_name": "Josh Ruihley",
+        "first_name": "Josh",
+        "last_name": "Ruihley",
+        "self": "https://team-api.18f.gov/public/api/team/josh"
+      }
+    ],
+    "licenses": {
+      "dodsbir-scrape": {
+        "id": "CC0",
+        "url": "https://github.com/18F/dodsbir-scrape/blob/master/LICENSE.md"
+      }
+    },
+    "github": {
+      "name": "18F/dodsbir-scrape",
+      "description": "DEPRECATED: A scraper for the SBIR topics housed on dodsbir.net"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/dodsbir-scrape"
+  },
+  "ekip-api": {
+    "name": "ekip-api",
+    "full_name": "Every Kid in a Park",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "live",
+    "status": "active",
+    "description": "The Every Kid in a Park initiative is part of President Obama’s commitment to protect \nour Nation’s unique outdoor spaces and ensure that every American has the opportunity \nto visit and enjoy them. This initiative provides all fourth grade students and their \nfamilies with free admission to National Parks and other federal lands and waters for \na full year.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "christine",
+        "full_name": "Christine Cheung",
+        "first_name": "Christine",
+        "last_name": "Cheung",
+        "self": "https://team-api.18f.gov/public/api/team/christine"
+      },
+      {
+        "name": "christopher-goranson",
+        "first_name": "Chris",
+        "last_name": "Goranson",
+        "full_name": "Chris Goranson",
+        "self": "https://team-api.18f.gov/public/api/team/christopher-goranson"
+      },
+      {
+        "name": "khandelwal",
+        "full_name": "Shashank Khandelwal",
+        "first_name": "Shashank",
+        "last_name": "Khandelwal",
+        "self": "https://team-api.18f.gov/public/api/team/khandelwal"
+      },
+      {
+        "name": "ericronne",
+        "full_name": "Eric Ronne",
+        "first_name": "Eric",
+        "last_name": "Ronne",
+        "self": "https://team-api.18f.gov/public/api/team/ericronne"
+      }
+    ],
+    "partners": [
+      "U.S. Department of the Interior"
+    ],
+    "milestones": [
+      "February 2015 - PIF Design Studio",
+      "March 2015 - Mini-Hackathon",
+      "May 2015 - UMD Kid's Team Testing at White House",
+      "June 2015 - 18F began work on the project",
+      "July 2015 - Ticketing Application Demo",
+      "September 1, 2015 - Site Launch"
+    ],
+    "stack": [
+      "Django"
+    ],
+    "impact": "Written at a 4th grade level and tested with kids, this site provides an optimized user experience to generate a paper pass to visit national lands and waters.\n",
+    "services": [
+      {
+        "name": "Coveralls",
+        "category": "Build review",
+        "url": "https://coveralls.io/github/18F/ekip-api?branch=master",
+        "badge": "https://coveralls.io/repos/18F/ekip-api/badge.svg?branch=master&service=github"
+      },
+      {
+        "name": "Quantified Code",
+        "category": "Site review",
+        "url": "https://www.quantifiedcode.com/app/project/ecb305ac0bfa4e968192621402faface",
+        "badge": "https://www.quantifiedcode.com/api/v1/project/ecb305ac0bfa4e968192621402faface/badge.svg"
+      }
+    ],
+    "licenses": {
+      "ekip-api": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://everykidinapark.gov/",
+        "text": "Every Kid in a Park Website"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:shashank.khandelwal@gsa.gov",
+        "text": "Shashank Khandelwal"
+      },
+      {
+        "url": "mailto:christopher.goranson@gsa.gov",
+        "text": "Christopher Goranson"
+      }
+    ],
+    "github": {
+      "name": "18F/ekip-api",
+      "description": "The source for the Every Kid in a Park website. "
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/ekip-api"
+  },
+  "fbopen": {
+    "name": "fbopen",
+    "github": {
+      "name": "18F/fbopen",
+      "description": "An open API server, data import tools, and sample apps to help small businesses search for opportunities to work with the U.S. government."
+    },
+    "description": "FBOpen helps small businesses search for opportunities to work with the U.S. government.",
+    "partner": null,
+    "partners": null,
+    "stage": "beta",
+    "impact": "There are nearly 40,000 active federal opportunities right now.",
+    "milestones": [
+      "May 2014: 18F took over project maintenance from Presidential Innovation Fellows program"
+    ],
+    "contact": [
+      "fbopen@gsa.gov"
+    ],
+    "stack": [
+      "Python",
+      "JavaScript/Node"
+    ],
+    "team": [
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "licenses": {
+      "fbopen": {
+        "id": "CC0",
+        "url": "https://github.com/18F/fbopen/tree/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pages.18f.gov/fbopen",
+        "text": "FBOpen API Documentation"
+      }
+    ],
+    "blog": [
+      "fbopen"
+    ],
+    "status": "active",
+    "full_name": "FBOpen",
+    "type": "app",
+    "owner_type": "project",
+    "testable": true,
+    "mission": "To aggregate and make more accessible diverse opportunities to do business with the U.S. Government",
+    "self": "https://team-api.18f.gov/public/api/projects/fbopen"
+  },
+  "fec-style": {
+    "name": "fec-style",
+    "full_name": "fec-style",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "openFEC",
+    "stage": "beta",
+    "testable": true,
+    "team": [
+      {
+        "name": "leah",
+        "full_name": "Leah Bannon",
+        "first_name": "Leah",
+        "last_name": "Bannon",
+        "self": "https://team-api.18f.gov/public/api/team/leah"
+      },
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "jeremy",
+        "full_name": "Jeremy Canfield",
+        "first_name": "Jeremy",
+        "last_name": "Canfield",
+        "self": "https://team-api.18f.gov/public/api/team/jeremy"
+      },
+      {
+        "name": "joshcarp",
+        "full_name": "Josh Carp",
+        "first_name": "Josh",
+        "last_name": "Carp",
+        "self": "https://team-api.18f.gov/public/api/team/joshcarp"
+      },
+      {
+        "name": "manger",
+        "full_name": "Noah Manger",
+        "first_name": "Noah",
+        "last_name": "Manger",
+        "self": "https://team-api.18f.gov/public/api/team/manger"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      },
+      {
+        "name": "jthibault",
+        "full_name": "Jennifer Thibault",
+        "first_name": "Jennifer",
+        "last_name": "Thibault",
+        "self": "https://team-api.18f.gov/public/api/team/jthibault"
+      },
+      {
+        "name": "lindsay",
+        "full_name": "Lindsay Young",
+        "first_name": "Lindsay",
+        "last_name": "Young",
+        "self": "https://team-api.18f.gov/public/api/team/lindsay"
+      }
+    ],
+    "services": [
+      {
+        "name": "Travis CI",
+        "category": "CI",
+        "url": "https://travis-ci.org/18F/fec-style"
+      }
+    ],
+    "licenses": {
+      "fec-style": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/fec-style/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "text": "Leah Bannon",
+        "url": "leah.bannon@gsa.gov"
+      }
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/fec-style"
+  },
+  "federalist": {
+    "name": "federalist",
+    "full_name": "Federalist",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "federalist",
+    "stage": "beta",
+    "status": "active",
+    "description": "Federalist is a unified interface for publishing static government websites. It automates common tasks for integrating GitHub, Amazon Web Services and content editing to provide a simple way for developers to launch new websites or more easily manage existing ones.",
+    "testable": true,
+    "team": [
+      {
+        "name": "dhcole",
+        "full_name": "Dave Cole",
+        "first_name": "Dave",
+        "last_name": "Cole",
+        "self": "https://team-api.18f.gov/public/api/team/dhcole"
+      },
+      {
+        "name": "jeremiak",
+        "full_name": "Jeremia Kimelman",
+        "first_name": "Jeremia",
+        "last_name": "Kimelman",
+        "self": "https://team-api.18f.gov/public/api/team/jeremiak"
+      },
+      {
+        "name": "melody",
+        "full_name": "Melody Kramer",
+        "first_name": "Melody",
+        "last_name": "Kramer",
+        "self": "https://team-api.18f.gov/public/api/team/melody"
+      },
+      {
+        "name": "gail",
+        "full_name": "Gail Swanson",
+        "first_name": "Gail",
+        "last_name": "Swanson",
+        "self": "https://team-api.18f.gov/public/api/team/gail"
+      }
+    ],
+    "partners": [
+      "GSA"
+    ],
+    "stack": [
+      "Node",
+      "Sails.js",
+      "Express",
+      "Backbone",
+      "browserify",
+      "AWS"
+    ],
+    "services": [
+      {
+        "name": "travis",
+        "category": "continuous deployment",
+        "url": "https://travis-ci.org/18F/federalist",
+        "badge": "https://travis-ci.org/18F/federalist.svg?branch=master"
+      }
+    ],
+    "licenses": {
+      "federalist": {
+        "name": "CC0",
+        "url": "https://github.com/18F/federalist/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://federalist.18f.gov",
+        "text": "Federalist site"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:david.cole@gsa.gov",
+        "text": "David Cole"
+      }
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/federalist"
+  },
+  "foia": {
+    "name": "foia",
+    "github": [
+      "18F/foia",
+      "18F/foia-hub"
+    ],
+    "description": "A new tool to search for the correct agency or office to make a FOIA request.",
+    "partners": [
+      "Department of Justice",
+      "FOIA agency task force"
+    ],
+    "impact": "The U.S. Federal Government processed nearly 700,000 FOIA requests in fiscal year 2013.",
+    "stage": "alpha",
+    "milestones": [
+      "June 2014: Project Discovery stage started",
+      "April 2015: open.foia.gov is deployed. "
+    ],
+    "contact": [
+      "18f/foia/issues"
+    ],
+    "stack": [
+      "python",
+      "django"
+    ],
+    "team": [
+      {
+        "name": "erica",
+        "full_name": "Erica Deahl",
+        "first_name": "Erica",
+        "last_name": "Deahl",
+        "self": "https://team-api.18f.gov/public/api/team/erica"
+      },
+      {
+        "name": "jackie",
+        "full_name": "Jackie Kazil",
+        "first_name": "Jackie",
+        "last_name": "Kazil",
+        "self": "https://team-api.18f.gov/public/api/team/jackie"
+      },
+      {
+        "name": "khandelwal",
+        "full_name": "Shashank Khandelwal",
+        "first_name": "Shashank",
+        "last_name": "Khandelwal",
+        "self": "https://team-api.18f.gov/public/api/team/khandelwal"
+      },
+      {
+        "name": "majma",
+        "full_name": "Raphael Majma",
+        "first_name": "Raphael",
+        "last_name": "Majma",
+        "self": "https://team-api.18f.gov/public/api/team/majma"
+      },
+      {
+        "name": "eric",
+        "full_name": "Eric Mill",
+        "first_name": "Eric",
+        "last_name": "Mill",
+        "self": "https://team-api.18f.gov/public/api/team/eric"
+      },
+      {
+        "name": "gramirez",
+        "full_name": "Gabriel Ramírez",
+        "first_name": "Gabriel",
+        "last_name": "Ramírez",
+        "self": "https://team-api.18f.gov/public/api/team/gramirez"
+      },
+      {
+        "name": "jtag",
+        "full_name": "Jesse Taggert",
+        "first_name": "Jesse",
+        "last_name": "Taggert",
+        "self": "https://team-api.18f.gov/public/api/team/jtag"
+      },
+      {
+        "name": "victor",
+        "full_name": "Victor Diaz Zapanta",
+        "first_name": "Victor",
+        "last_name": "Zapanta",
+        "self": "https://team-api.18f.gov/public/api/team/victor"
+      }
+    ],
+    "licenses": {
+      "foia": "Public Domain (CC0)",
+      "foia-hub": "Public Domain (CC0)"
+    },
+    "licenselink": "18F/foia/blob/master/LICENSE.md",
+    "links": [
+      "https://trello.com/b/D0r2UOz0/foia-scrum-board"
+    ],
+    "blog": [
+      "foia"
+    ],
+    "status": null,
+    "full_name": "FOIA Modernization",
+    "self": "https://team-api.18f.gov/public/api/projects/foia"
+  },
+  "github-webhook-validator": {
+    "name": "github-webhook-validator",
+    "full_name": "GitHub Webhook Validator",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "wg-documentation",
+    "stage": "live",
+    "status": "active",
+    "description": "Express middleware validator for GitHub webhooks",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Node.js",
+      "Express"
+    ],
+    "licenses": {
+      "github-webhook-validator": {
+        "name": "CC0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://www.npmjs.com/package/github-webhook-validator",
+        "text": "github-webhook-validator npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/github-webhook-validator/issues",
+        "text": "18F/github-webhook-validator issues"
+      }
+    ],
+    "github": {
+      "name": "18F/github-webhook-validator",
+      "description": "Express middleware validator for GitHub webhooks"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/github-webhook-validator"
+  },
+  "hmac-authentication-npm": {
+    "name": "hmac-authentication-npm",
+    "full_name": "HMAC Authentication npm",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Signs and validates HTTP requests based on a shared-secret HMAC signature\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Node.js",
+      "Express"
+    ],
+    "licenses": {
+      "hmac-authentication-npm": {
+        "name": "CC0",
+        "url": "https://github.com/18F/hmac-authentication-npm/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://www.npmjs.com/package/hmac-authentication",
+        "text": "hmac-authentication npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/hmac-authentication-npm/issues",
+        "text": "18F/hmac-authentication-npm issues"
+      }
+    ],
+    "github": {
+      "name": "18F/hmac-authentication-npm",
+      "description": "Signs and authenticates HTTP requests based on a shared-secret HMAC signature"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/hmac-authentication-npm"
+  },
+  "hmacauth": {
+    "name": "hmacauth",
+    "full_name": "HMAC Authentication package for Go",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Signs and validates HTTP requests based on a shared-secret HMAC signature\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Go"
+    ],
+    "licenses": {
+      "hmacauth": {
+        "name": "CC0",
+        "url": "https://github.com/18F/hmacauth/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/hmacauth/issues",
+        "text": "18F/hmacauth issues"
+      }
+    ],
+    "github": {
+      "name": "18F/hmacauth",
+      "description": "Signs and authenticates HTTP requests based on a shared-secret HMAC signature"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/hmacauth"
+  },
+  "hmacproxy": {
+    "name": "hmacproxy",
+    "full_name": "HMAC Authentication Proxy",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Proxy server that signs and authenticates HTTP requests using an HMAC signature; uses the github.com/18F/hmacauth Go package\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Go",
+      "HMAC"
+    ],
+    "licenses": {
+      "hmacproxy": {
+        "name": "CC0",
+        "url": "https://github.com/18F/hmacproxy/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://github.com/18F/hmacauth/",
+        "text": "18F/hmacauth Go library"
+      },
+      {
+        "url": "https://www.npmjs.com/package/hmac-authentication",
+        "text": "hmac-authentication npm"
+      },
+      {
+        "url": "https://rubygems.org/gems/hmac_authentication",
+        "text": "hmac_authentication Ruby Gem"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/hmacproxy/issues",
+        "text": "18F/hmacproxy issues"
+      }
+    ],
+    "github": {
+      "name": "18F/hmacproxy",
+      "description": "Proxy server that signs and authenticates HTTP requests using an HMAC signature"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/hmacproxy"
+  },
+  "hmac_authentication_py": {
+    "name": "hmac_authentication_py",
+    "full_name": "HMAC Authentication Python package",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Signs and validates HTTP requests based on a shared-secret HMAC signature\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "joshcarp",
+        "full_name": "Josh Carp",
+        "first_name": "Josh",
+        "last_name": "Carp",
+        "self": "https://team-api.18f.gov/public/api/team/joshcarp"
+      }
+    ],
+    "stack": [
+      "Ruby"
+    ],
+    "licenses": {
+      "hmac_authentication_py": {
+        "name": "CC0",
+        "url": "https://github.com/18F/hmac_authentication_py/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pypi.python.org/pypi/hmac_authentication/",
+        "text": "hmac_authentication in the Python Package Index"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/hmac_authentication_py/issues",
+        "text": "18F/hmac_authentication_py issues"
+      }
+    ],
+    "github": {
+      "name": "18F/hmac_authentication_py",
+      "description": "Signs and authenticates HTTP requests based on a shared-secret HMAC signature"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/hmac_authentication_py"
+  },
+  "hmac_authentication_gem": {
+    "name": "hmac_authentication_gem",
+    "full_name": "HMAC Authentication RubyGem",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Signs and validates HTTP requests based on a shared-secret HMAC signature\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Ruby"
+    ],
+    "licenses": {
+      "hmac_authentication_gem": {
+        "name": "CC0",
+        "url": "https://github.com/18F/hmac_authentication_gem/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://rubygems.org/gems/hmac_authentication",
+        "text": "hmac_authentication RubyGem"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/hmac_authentication_gem/issues",
+        "text": "18F/hmac_authentication_gem issues"
+      }
+    ],
+    "github": {
+      "name": "18F/hmac_authentication_gem",
+      "description": "Signs and authenticates HTTP requests based on a shared-secret HMAC signature"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/hmac_authentication_gem"
+  },
+  "lambda_map_reduce": {
+    "name": "lambda_map_reduce",
+    "full_name": "Lambda MapReduce",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "live",
+    "status": "active",
+    "description": "A MapReduce implementation for use with lambdas",
+    "testable": false,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Ruby"
+    ],
+    "licenses": {
+      "lambda_map_reduce": {
+        "name": "CC0",
+        "url": "https://github.com/18F/lambda_map_reduce/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://rubygems.org/gems/lambda_map_reduce",
+        "text": "lambda_map_reduce Ruby gem"
+      }
+    ],
+    "contact": [
+      "michael.bland@gsa.gov"
+    ],
+    "github": {
+      "name": "18F/lambda_map_reduce",
+      "description": "A MapReduce implementation for use with lambdas"
+    },
+    "errors": [
+      "The property '#/contact/0' of type String did not match the following type: object in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/lambda_map_reduce"
+  },
+  "midas": {
+    "name": "midas",
+    "github": [
+      "18F/midas"
+    ],
+    "description": "A platform that facilitates collaborative work worldwide. Individuals can create projects, propose working groups, or assemble \"tiger teams\" to act on their ideas. Anyone can also post tasks online and people with the requisite skills can respond and complete the task.",
+    "partners": [
+      "General Services Administration",
+      "Department of State",
+      "Department of Health and Human Services"
+    ],
+    "stage": "beta",
+    "impact": "2 million federal employees",
+    "milestones": [
+      "October 2014: GSA hosts Midas open source hack night in DC",
+      "October 2014: DigitalGov Open Opportunities pilot starts",
+      "September 2014: GSA OCSIT signs MOU for Open Opportunities to move to Midas platform",
+      "September 2014: 18F launches https://midas.18f.us for use by early adopters",
+      "June 2014: State Department launches Alpha as Crowdwork",
+      "May 2014: HHS launches Alpha as FairTrade",
+      "January 2014: 18F begins work on project",
+      "June 2013: State Department begins project Discovery stage with Presidential Innovation Fellows"
+    ],
+    "contact": [
+      "midas@gsa.gov"
+    ],
+    "stack": [
+      "JavaScript (Node/Sails",
+      "Backbone)",
+      "CSS",
+      "Chef"
+    ],
+    "team": [
+      {
+        "name": "sarah",
+        "full_name": "Sarah Allen",
+        "first_name": "Sarah",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/sarah"
+      },
+      {
+        "name": "dhcole",
+        "full_name": "Dave Cole",
+        "first_name": "Dave",
+        "last_name": "Cole",
+        "self": "https://team-api.18f.gov/public/api/team/dhcole"
+      }
+    ],
+    "licenses": {
+      "midas": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://openopps.digitalgov.gov"
+    ],
+    "blog": [
+      "midas"
+    ],
+    "status": null,
+    "full_name": "Midas",
+    "self": "https://team-api.18f.gov/public/api/projects/midas"
+  },
+  "myra": {
+    "name": "myra",
+    "github": [
+      "18F/myra"
+    ],
+    "description": "Landing page design for Treasury’s My Retirement Account program, which will provide a simple, safe, and affordable way for individuals to start saving for retirement.",
+    "partners": [
+      "U.S. Department of Treasury"
+    ],
+    "impact": "Millions of Americans do not have access to an employer-sponsored retirement plan, which includes more than 50% of full-time and 75% of part-time workers.",
+    "stage": "live",
+    "milestones": [
+      "August 2014: Project discovery stage started",
+      "September 2014: Project moved from discovery to alpha",
+      "December 2014: Project launched",
+      "June 2015: Project handed off to partner"
+    ],
+    "contact": [
+      "christopher.cairns@gsa.gov"
+    ],
+    "stack": [
+      "JavaScript",
+      "Jekyll"
+    ],
+    "team": [
+      {
+        "name": "chrisc",
+        "full_name": "Chris Cairns",
+        "first_name": "Chris",
+        "last_name": "Cairns",
+        "self": "https://team-api.18f.gov/public/api/team/chrisc"
+      },
+      {
+        "name": "manger",
+        "full_name": "Noah Manger",
+        "first_name": "Noah",
+        "last_name": "Manger",
+        "self": "https://team-api.18f.gov/public/api/team/manger"
+      }
+    ],
+    "licenses": {
+      "myra": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://myra.treasury.gov"
+    ],
+    "status": null,
+    "full_name": "myRA",
+    "self": "https://team-api.18f.gov/public/api/projects/myra"
+  },
+  "myusa": {
+    "name": "myusa",
+    "github": [
+      "18F/myusa"
+    ],
+    "description": "A digital services platform for Americans to register, sign in, and manage ongoing transactions with U.S. Federal Government services.",
+    "partners": [
+      "General Services Administration",
+      "Department of Homeland Security",
+      "Small Business Administration",
+      "Department of Labor"
+    ],
+    "impact": "The millions of Americans who conduct online transactions with U.S. government.",
+    "stage": "alpha",
+    "milestones": [
+      "June 2014: 18F began work on project",
+      "September 2014: Alpha delivered to clients and user testing started"
+    ],
+    "contact": [
+      "myusa@gsa.gov"
+    ],
+    "stack": [
+      "Rails",
+      "Bootstrap",
+      "JavaScript",
+      "Chef"
+    ],
+    "team": [
+      {
+        "name": "alan",
+        "full_name": "Alan deLevie",
+        "first_name": "Alan",
+        "last_name": "deLevie",
+        "self": "https://team-api.18f.gov/public/api/team/alan"
+      },
+      {
+        "name": "kate",
+        "full_name": "Kate Garklavs",
+        "first_name": "Kate",
+        "last_name": "Garklavs",
+        "self": "https://team-api.18f.gov/public/api/team/kate"
+      },
+      {
+        "name": "yoz",
+        "full_name": "Yoz Grahame",
+        "first_name": "Yoz",
+        "last_name": "Grahame",
+        "self": "https://team-api.18f.gov/public/api/team/yoz"
+      },
+      {
+        "name": "jackie",
+        "full_name": "Jackie Kazil",
+        "first_name": "Jackie",
+        "last_name": "Kazil",
+        "self": "https://team-api.18f.gov/public/api/team/jackie"
+      },
+      {
+        "name": "meghana",
+        "full_name": "Meghana Khandekar",
+        "first_name": "Meghana",
+        "last_name": "Khandekar",
+        "self": "https://team-api.18f.gov/public/api/team/meghana"
+      },
+      {
+        "name": "diego",
+        "full_name": "Diego Lapiduz",
+        "first_name": "Diego",
+        "last_name": "Lapiduz",
+        "self": "https://team-api.18f.gov/public/api/team/diego"
+      }
+    ],
+    "licenses": {
+      "myusa": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://my.usa.gov"
+    ],
+    "status": null,
+    "full_name": "MyUSA",
+    "self": "https://team-api.18f.gov/public/api/projects/myusa"
+  },
+  "oauth2-proxy-authentication-npm": {
+    "name": "oauth2-proxy-authentication-npm",
+    "full_name": "oauth2_proxy Authentication npm",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Authenticates requests from bitly/oauth2_proxy based on a shared-secret HMAC signature of the request.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "stack": [
+      "Node.js",
+      "Express"
+    ],
+    "licenses": {
+      "oauth2-proxy-authentication-npm": {
+        "name": "CC0",
+        "url": "https://github.com/18F/oauth2-proxy-authentication-npm/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://www.npmjs.com/package/oauth2-proxy-authentication",
+        "text": "oauth2-proxy-authentication npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/oauth2-proxy-authentication-npm/issues",
+        "text": "18F/oauth2-proxy-authentication-npm issues"
+      }
+    ],
+    "github": {
+      "name": "18F/oauth2-proxy-authentication-npm",
+      "description": "Authenticates requests from bitly/oauth2_proxy using HMAC signatures"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/oauth2-proxy-authentication-npm"
+  },
+  "oauth2_proxy_authentication_gem": {
+    "name": "oauth2_proxy_authentication_gem",
+    "full_name": "oauth2_proxy_authentication Gem",
+    "type": "app",
+    "owner_type": "project",
+    "status": "active",
+    "stage": "discovery",
+    "testable": true,
+    "description": "Authenticates requests from bitly/oauth2_proxy based on a shared-secret HMAC signature of the request.\n",
+    "stack": [
+      "Ruby"
+    ],
+    "licenses": {
+      "oauth2_proxy_authentication_gem": {
+        "name": "CC0",
+        "url": "https://github.com/18F/oauth2_proxy_authentication_gem/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      "mailto:michael.bland@gsa.gov"
+    ],
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://github.com/bitly/oauth2_proxy",
+        "text": "bitly/oauth2_proxy"
+      }
+    ],
+    "github": {
+      "name": "18F/oauth2_proxy_authentication_gem",
+      "description": "Authenticates requests from bitly/oauth2_proxy using HMAC signatures"
+    },
+    "errors": [
+      "The property '#/contact/0' of type String did not match the following type: object in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/oauth2_proxy_authentication_gem"
+  },
+  "openopps": {
+    "full_name": "Open Opportunities",
+    "name": "openopps",
+    "owner_type": "project",
+    "github": [
+      "18F/openopps-platform"
+    ],
+    "description": "Open Opportunities is creating a network of federal employees that will lead to a more effective, efficient, responsive government by sharing skills and collaborating on projects that support the mission of an agency or the government as a whole. Only 37% of federal employees surveyed believe that creativity & innovation are rewarded. From a total audience of 2.7 million federal employees, the initial target audience are motivate, mission-driven individuals who identify and solve problems for our nation.\n",
+    "partners": [
+      "General Services Administration",
+      "Department of State",
+      "Department of Health and Human Services"
+    ],
+    "stage": "live",
+    "impact": "Amplify the work of 1 million federal employees.\n",
+    "milestones": [
+      "September 2014: GSA OHRM signs IAA for GSA Rotational Details and Project Network to move to Open Opportunities",
+      "September 2015: Authority To Operate",
+      "August 2015: Open Opportunities expands beyond DigitalGov tasks, OCSIT & 18F roadmaps converge",
+      "January 2015: HHS transitions FairTrade pilot into Open Opportunities community",
+      "October 2014: GSA hosts Midas open source hack night in DC",
+      "October 2014: DigitalGov Open Opportunities pilot starts",
+      "September 2014: GSA OCSIT signs MOU for Open Opportunities to move to Midas platform",
+      "September 2014: 18F launches https://midas.18f.us for use by early adopters",
+      "June 2014: State Department launches Alpha as Crowdwork",
+      "May 2014: HHS launches Alpha as FairTrade",
+      "January 2014: 18F begins work on project",
+      "June 2013: State Department begins project Discovery stage with Presidential Innovation Fellows"
+    ],
+    "links": [
+      {
+        "url": "https://openopps.digitalgov.gov",
+        "text": "Open Opportunities (live website)"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:openopps@gsa.gov",
+        "text": "Open Opportunities Team"
+      }
+    ],
+    "blog": [
+      "midas"
+    ],
+    "status": "active",
+    "team": [
+      {
+        "name": "sarah",
+        "full_name": "Sarah Allen",
+        "first_name": "Sarah",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/sarah"
+      }
+    ],
+    "licenses": {
+      "dashboard": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/openopps-platform/blob/master/LICENSE.md"
+      }
+    },
+    "stack": [
+      "JavaScript ( Node, Sails, Backbone )",
+      "Sass",
+      "Grunt"
+    ],
+    "errors": [
+      "The property '#/' did not contain a required property of 'testable' in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#",
+      "Unknown Team Member: rogeruiz"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/openopps"
+  },
+  "openFEC-web-app": {
+    "name": "openFEC-web-app",
+    "full_name": "openFEC-web-app",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "openFEC",
+    "stage": "beta",
+    "testable": true,
+    "team": [
+      {
+        "name": "leah",
+        "full_name": "Leah Bannon",
+        "first_name": "Leah",
+        "last_name": "Bannon",
+        "self": "https://team-api.18f.gov/public/api/team/leah"
+      },
+      {
+        "name": "emileigh",
+        "full_name": "Emileigh Barnes",
+        "first_name": "Emileigh",
+        "last_name": "Barnes",
+        "self": "https://team-api.18f.gov/public/api/team/emileigh"
+      },
+      {
+        "name": "jeremy",
+        "full_name": "Jeremy Canfield",
+        "first_name": "Jeremy",
+        "last_name": "Canfield",
+        "self": "https://team-api.18f.gov/public/api/team/jeremy"
+      },
+      {
+        "name": "joshcarp",
+        "full_name": "Josh Carp",
+        "first_name": "Josh",
+        "last_name": "Carp",
+        "self": "https://team-api.18f.gov/public/api/team/joshcarp"
+      },
+      {
+        "name": "manger",
+        "full_name": "Noah Manger",
+        "first_name": "Noah",
+        "last_name": "Manger",
+        "self": "https://team-api.18f.gov/public/api/team/manger"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      },
+      {
+        "name": "jthibault",
+        "full_name": "Jennifer Thibault",
+        "first_name": "Jennifer",
+        "last_name": "Thibault",
+        "self": "https://team-api.18f.gov/public/api/team/jthibault"
+      },
+      {
+        "name": "lindsay",
+        "full_name": "Lindsay Young",
+        "first_name": "Lindsay",
+        "last_name": "Young",
+        "self": "https://team-api.18f.gov/public/api/team/lindsay"
+      }
+    ],
+    "services": [
+      {
+        "name": "Travis CI",
+        "category": "CI",
+        "url": "https://travis-ci.org/18F/openFEC-web-app"
+      }
+    ],
+    "licenses": {
+      "openFEC-web-app": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/openFEC-web-app/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "text": "Leah Bannon",
+        "url": "leah.bannon@gsa.gov"
+      }
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/openfec-web-app"
+  },
+  "pages": {
+    "name": "pages",
+    "full_name": "Pages",
+    "type": "docs",
+    "owner_type": "project",
+    "parent": "wg-documentation",
+    "stage": "live",
+    "status": "active",
+    "description": "Publishing platform for 18F sites a la GitHub Pages",
+    "testable": false,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "stack": [
+      "Ruby",
+      "Jekyll",
+      "Node.js"
+    ],
+    "licenses": {
+      "pages": {
+        "name": "CC0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pages.18f.gov/",
+        "text": "18F Pages homepage"
+      },
+      {
+        "url": "https://www.npmjs.com/package/18f-pages-server",
+        "text": "18f-pages-server npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/pages/issues",
+        "text": "18F/pages issues"
+      }
+    ],
+    "github": {
+      "name": "18F/pages",
+      "description": "Publishing platform for 18F sites a la GitHub pages"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/pages"
+  },
+  "pages-server": {
+    "name": "pages-server",
+    "full_name": "Pages Server",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "wg-documentation",
+    "stage": "live",
+    "status": "active",
+    "description": "Static website publishing server for 18F Pages",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "stack": [
+      "Node.js",
+      "Ruby",
+      "git",
+      "rsync",
+      "GitHub"
+    ],
+    "licenses": {
+      "pages-server": {
+        "name": "CC0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://pages.18f.gov/",
+        "text": "18F Pages homepage"
+      },
+      {
+        "url": "https://www.npmjs.com/package/18f-pages-server",
+        "text": "18f-pages-server npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/pages-server/issues",
+        "text": "18F/pages-server issues"
+      }
+    ],
+    "github": {
+      "name": "18F/pages-server",
+      "description": "Static website publishing server for 18F Pages"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/pages-server"
+  },
+  "peacecorps-site": {
+    "name": "peacecorps-site",
+    "github": [
+      "18F/peacecorps-site"
+    ],
+    "description": "A redesign of peacecorps.gov, offering a new, user-focused experience for users.",
+    "partners": [
+      "Peace Corps"
+    ],
+    "impact": "7,000 Peace Corps Volunteers in the field, hundreds of thousands Prospective/Returned Volunteers, friends, and family.",
+    "stage": "beta",
+    "contact": [
+      "sean.herron@gsa.gov"
+    ],
+    "stack": null,
+    "team": [
+      {
+        "name": "annalee",
+        "full_name": "Annalee Flower Horne",
+        "first_name": "Annalee",
+        "last_name": "Flower Horne",
+        "self": "https://team-api.18f.gov/public/api/team/annalee"
+      },
+      {
+        "name": "sean",
+        "full_name": "Sean Herron",
+        "first_name": "Sean",
+        "last_name": "Herron",
+        "self": "https://team-api.18f.gov/public/api/team/sean"
+      },
+      {
+        "name": "cm",
+        "full_name": "CM Lubinski",
+        "self": "https://team-api.18f.gov/public/api/team/cm"
+      },
+      {
+        "name": "ericronne",
+        "full_name": "Eric Ronne",
+        "first_name": "Eric",
+        "last_name": "Ronne",
+        "self": "https://team-api.18f.gov/public/api/team/ericronne"
+      },
+      {
+        "name": "marco",
+        "full_name": "Marco Segreto",
+        "first_name": "Marco",
+        "last_name": "Segreto",
+        "self": "https://team-api.18f.gov/public/api/team/marco"
+      }
+    ],
+    "licenses": null,
+    "links": [
+      "https://beta.peacecorps.gov"
+    ],
+    "status": null,
+    "full_name": "PeaceCorps.gov",
+    "self": "https://team-api.18f.gov/public/api/projects/peacecorps-site"
+  },
+  "pulse": {
+    "name": "pulse",
+    "github": [
+      "18F/pulse",
+      "18F/domain-scan"
+    ],
+    "description": "A lightweight dashboard that uses the official .gov domain list to measure HTTPS integration and participation in the Digital Analytics Program.",
+    "partner": [
+      "General Services Administration"
+    ],
+    "partners": [
+      "General Services Administration"
+    ],
+    "stage": "beta",
+    "milestones": [
+      "April 2015: 18F began work on project",
+      "May 2015: Site launched and developed in the open",
+      "June 2015: Pulse.CIO.gov announced"
+    ],
+    "contact": [
+      "pulse@cio.gov"
+    ],
+    "stack": [
+      "jeykll",
+      "ruby"
+    ],
+    "team": [
+      {
+        "name": "gray",
+        "full_name": "Gray Brooks",
+        "first_name": "Gray",
+        "last_name": "Brooks",
+        "self": "https://team-api.18f.gov/public/api/team/gray"
+      },
+      {
+        "name": "julia",
+        "full_name": "Julia Elman",
+        "first_name": "Julia",
+        "last_name": "Elman",
+        "self": "https://team-api.18f.gov/public/api/team/julia"
+      },
+      {
+        "name": "eric",
+        "full_name": "Eric Mill",
+        "first_name": "Eric",
+        "last_name": "Mill",
+        "self": "https://team-api.18f.gov/public/api/team/eric"
+      }
+    ],
+    "licenses": {
+      "pulse": "Public Domain (CC0)"
+    },
+    "links": [
+      "https://pulse.cio.gov",
+      "https://github.com/18F/pulse"
+    ],
+    "status": null,
+    "full_name": "Pulse",
+    "self": "https://team-api.18f.gov/public/api/projects/pulse"
+  },
+  "SBIR-EZ": {
+    "name": "SBIR-EZ",
+    "full_name": "SBIR-EZ",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "alpha",
+    "status": "active",
+    "description": "SBIR-EZ (sih-bur-easy) attempts to simplify and streamline the submission process for proposals to the Air Force's Small Business Innovation Research Program.\n",
+    "testable": true,
+    "partners": [
+      "Air Force"
+    ],
+    "milestones": [
+      {
+        "May 2014": "18F began work on project"
+      }
+    ],
+    "stack": [
+      "Python",
+      "Django",
+      "django-rest-framework",
+      "JavaScript",
+      "angular"
+    ],
+    "impact": "To encourage new small businesses to work with the Federal Government.",
+    "services": [
+      {
+        "name": "Travis",
+        "category": "Continuous Integration",
+        "url": "https://travis-ci.org/18F/afsbirez",
+        "badge": "https://travis-ci.org/18F/afsbirez.svg?branch=master"
+      }
+    ],
+    "licenses": {
+      "sbir-ez": {
+        "name": "CC0",
+        "url": "https://github.com/18F/afsbirez/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      {
+        "url": "mailto:david.best@gsa.gov",
+        "text": "David Best"
+      }
+    ],
+    "github": {
+      "name": "18F/afsbirez",
+      "description": "The SBIR-EZ project, whose goal is to simplify the process of participating in the Small Business Innovation Research Program"
+    },
+    "errors": [
+      "The property '#/milestones/0' of type Hash did not match the following type: string in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#",
+      "Unknown Team Member: david best",
+      "Unknown Team Member: catherine devlin",
+      "Unknown Team Member: andrew maier"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/sbir-ez"
+  },
+  "sbirez": {
+    "name": "sbirez",
+    "github": [
+      "18F/afsbirez"
+    ],
+    "description": "An application to simplify, streamline, and unify the Small Business Innovation Research application process.",
+    "partners": [
+      "Air Force"
+    ],
+    "impact": "To encourage new small businesses to work with the Federal Government.",
+    "stage": "alpha",
+    "milestones": [
+      "May 2014: 18F began work on project"
+    ],
+    "contact": [
+      "david.best@gsa.gov"
+    ],
+    "stack": [
+      "JavaScript",
+      "Python"
+    ],
+    "licenses": {
+      "sbirez": "Public Domain (CC0)"
+    },
+    "full_name": "SBIR-EZ",
+    "self": "https://team-api.18f.gov/public/api/projects/sbirez"
+  },
+  "team_api": {
+    "name": "team_api",
+    "full_name": "Team API gem",
+    "type": "app",
+    "owner_type": "project",
+    "status": "active",
+    "stage": "discovery",
+    "testable": true,
+    "description": "A gem for compiling information about team members, projects, etc. and exposing it via a JSON API.\n",
+    "stack": [
+      "Jekyll",
+      "Ruby"
+    ],
+    "licenses": {
+      "team_api": {
+        "name": "CC0",
+        "url": "https://github.com/18F/team_api/blob/master/LICENSE.md"
+      }
+    },
+    "contact": [
+      "mailto:michael.bland@gsa.gov"
+    ],
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "github": {
+      "name": "18F/team_api",
+      "description": "A gem for compiling information about team members, projects, etc. and exposing it via a JSON API."
+    },
+    "errors": [
+      "The property '#/contact/0' of type String did not match the following type: object in schema 153c6056-e293-5b85-aaf3-894bae47b9fb#"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/team_api"
+  },
+  "team-api-server": {
+    "name": "team-api-server",
+    "full_name": "Team API Server",
+    "type": "app",
+    "owner_type": "project",
+    "parent": "wg-testing",
+    "stage": "live",
+    "status": "active",
+    "description": "Imports and publishes updates to Team API data",
+    "testable": true,
+    "team": [
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "alison",
+        "full_name": "Alison Rowland",
+        "first_name": "Alison",
+        "last_name": "Rowland",
+        "self": "https://team-api.18f.gov/public/api/team/alison"
+      }
+    ],
+    "stack": [
+      "Node.js",
+      "Ruby",
+      "git",
+      "GitHub"
+    ],
+    "licenses": {
+      "team-api-server": {
+        "name": "CC0",
+        "url": "https://github.com/18F/team-api-server/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://team-api.18f.gov/public/api/",
+        "text": "18F Public Team API"
+      },
+      {
+        "url": "https://www.npmjs.com/package/team-api-server",
+        "text": "team-api-server npm"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michael.bland@acm.org",
+        "text": "Mike Bland"
+      },
+      {
+        "url": "https://github.com/18F/team-api-server/issues",
+        "text": "18F/team-api-server issues"
+      }
+    ],
+    "github": {
+      "name": "18F/team-api-server",
+      "description": "Imports and publishes updates to Team API data"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/team-api-server"
+  },
+  "useiti-report": {
+    "name": "useiti-report",
+    "full_name": "The United States Extractives Industries Transparency Initiative (USEITI)",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "beta",
+    "status": "active",
+    "description": "This site and open data portal supports the President’s Open Gov Partnership National Action Plan commitment to the Extractive Industries Transparency Initiative.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "shawn",
+        "full_name": "Shawn Allen",
+        "first_name": "Shawn",
+        "last_name": "Allen",
+        "self": "https://team-api.18f.gov/public/api/team/shawn"
+      },
+      {
+        "name": "nicole.fenton",
+        "full_name": "Nicole Fenton",
+        "first_name": "Nicole",
+        "last_name": "Fenton",
+        "self": "https://team-api.18f.gov/public/api/team/nicole.fenton"
+      },
+      {
+        "name": "brian",
+        "full_name": "Brian Hedberg",
+        "first_name": "Brian",
+        "last_name": "Hedberg",
+        "self": "https://team-api.18f.gov/public/api/team/brian"
+      },
+      {
+        "name": "mhz",
+        "full_name": "Michelle Hertzfeld",
+        "first_name": "Michelle",
+        "last_name": "Hertzfeld",
+        "self": "https://team-api.18f.gov/public/api/team/mhz"
+      },
+      {
+        "name": "ericronne",
+        "full_name": "Eric Ronne",
+        "first_name": "Eric",
+        "last_name": "Ronne",
+        "self": "https://team-api.18f.gov/public/api/team/ericronne"
+      }
+    ],
+    "partners": [
+      "U.S. Department of the Interior"
+    ],
+    "milestones": [
+      "July 2014 - 18F began work on project",
+      "September 2014 Alpha site launched",
+      "December 2014 Beta site launched",
+      "December 2015 First annual report due"
+    ],
+    "stack": [
+      "JavaScript",
+      "D3",
+      "Federalist",
+      "Jekyll"
+    ],
+    "impact": "Revenue from the sale of natural resources on Federal lands totaled $97.5 billion between 2003 to 2013.\n",
+    "services": [
+      {
+        "name": "Hound",
+        "category": "Enforce SCSS and JavaScript formatting conventions"
+      }
+    ],
+    "licenses": {
+      "doi-extractives-data": {
+        "name": "CC0-1.0",
+        "url": "https://github.com/18F/doi-extractives-data/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://useiti.doi.gov",
+        "text": "U.S. EITI"
+      },
+      {
+        "url": "https://eiti.org",
+        "text": "Extractive Industries Transparency Initiative (Global site)"
+      }
+    ],
+    "contact": [
+      {
+        "url": "mailto:michelle.herzfeld@gsa.gov",
+        "text": "Michelle Hertzfeld"
+      }
+    ],
+    "errors": [
+      "Unknown Team Member: corey.mahoney"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/useiti-report"
+  },
+  "us_web_design_standards_gem": {
+    "name": "us_web_design_standards_gem",
+    "full_name": "U.S. Web Design Standards RubyGem",
+    "type": "app",
+    "owner_type": "project",
+    "stage": "discovery",
+    "status": "active",
+    "description": "Packages the U.S. Web Design Standards assets as a Ruby Gem for use in a Jekyll project.\n",
+    "testable": true,
+    "team": [
+      {
+        "name": "maya",
+        "full_name": "Maya Benari",
+        "first_name": "Maya",
+        "last_name": "Benari",
+        "self": "https://team-api.18f.gov/public/api/team/maya"
+      },
+      {
+        "name": "mbland",
+        "full_name": "Mike Bland",
+        "first_name": "Mike",
+        "last_name": "Bland",
+        "self": "https://team-api.18f.gov/public/api/team/mbland"
+      },
+      {
+        "name": "marco",
+        "full_name": "Marco Segreto",
+        "first_name": "Marco",
+        "last_name": "Segreto",
+        "self": "https://team-api.18f.gov/public/api/team/marco"
+      }
+    ],
+    "stack": [
+      "Ruby",
+      "JavaScript",
+      "CSS"
+    ],
+    "licenses": {
+      "us_web_design_standards_gem": {
+        "name": "CC0",
+        "url": "https://github.com/18F/us_web_design_standards_gem/blob/master/LICENSE.md"
+      }
+    },
+    "links": [
+      {
+        "url": "https://rubygems.org/gems/us_web_design_standards",
+        "text": "us_web_design_standards RubyGem"
+      }
+    ],
+    "contact": [
+      {
+        "url": "https://github.com/18F/us_web_design_standards_gem/issues",
+        "text": "18F/us_web_design_standards_gem issues"
+      }
+    ],
+    "github": {
+      "name": "18F/us_web_design_standards_gem",
+      "description": "Packages the U.S. Web Design Standards assets as a Ruby Gem for use in a Jekyll project"
+    },
+    "self": "https://team-api.18f.gov/public/api/projects/us_web_design_standards_gem"
+  },
+  "uscis": {
+    "name": "uscis",
+    "partner": [
+      "U.S. Citizenship and Immigration Services"
+    ],
+    "contact": "18f-uscis-projects@gsa.gov",
+    "stage": "alpha",
+    "description": "We are helping to reimage and modernize immigration and visa processes: building tools that improve the applicant process, providing clear and simple information to the public, and creating new tools that make the processing of immigration forms faster and more efficient.",
+    "impact": "Every year, hundreds of thousands of individuals travel to the United States in pursuit of work, education, leisure, or with the hope of becoming a US resident or citizen.",
+    "full_name": "USCIS projects",
+    "partners": [
+      "U.S. Citizenship and Immigration Services"
+    ],
+    "self": "https://team-api.18f.gov/public/api/projects/uscis"
+  }
+}

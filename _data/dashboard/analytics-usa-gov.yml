@@ -1,0 +1,113 @@
+name: analytics-usa-gov
+
+child: false
+
+full_name: analytics.usa.gov
+
+description: 18F worked with the Digital Analytics Program, the U.S. Digital Service, and the White House to build and host a lightweight dashboard and public dataset that shows web traffic across the .gov domain.
+
+impact: Gives agencies a tool to make data-driven decisions and gives the public an easy way to see .gov traffic as well as what kinds of technology people are using to access .gov websites.
+
+tagline: A dashboard that makes it easy to see web traffic across the .gov domain.
+
+github: https://github.com/18F/analytics.usa.gov
+
+image:
+
+audience: agency partners, state and local agencies
+
+
+# What kind of team owns the repository? (required)
+# values: guild, working-group, business-line
+
+owner_type: business-line
+
+business_unit: custom-partner-solutions
+
+tags: analytics, tools you can use
+
+# What is your project's current status? (required)
+# values: discovery, alpha, beta, live
+stage: live
+
+status: active
+
+# Should this repo have automated tests? If so, set to `true`. (required)
+# values: true, false
+testable:
+
+licenses: Public Domain (CC0)
+
+
+# Who is the partner for your project? (Use the full name of the partner
+# documented here:
+# https://github.com/18F/dashboard/blob/staging/_data/partners.yml)
+partners:
+- Digital Analytics Program
+- U.S. Digital Service
+- White House
+
+# The main point of contact(s) and/or the issue reporting system for your
+# project, and either a `mailto:` link or URL for each contact.
+# Items:
+# - url: URL for the link
+#   text: Anchor text for the link
+contact:
+- dap@gsa.gov
+
+# Who are the team members on your project? Specify GitHub usernames.
+
+team:
+- Eric
+- Shawnbot
+- Gbinal
+- Juliawinn
+- Geramirez
+- tdlowden
+
+
+# What kind of content is contained in the project repository?
+# values: app, docs, policy
+type: app
+
+# Name of the main project repo if this is a sub-repo; name of the grouplet
+# repo if this is a working group/guild subproject
+parent:
+
+# What are the links to key artifacts associated with your project? e.g. the
+# production site, documentation.
+# Items:
+# - url: URL for the link
+#   text: Anchor text for the link
+#   category: Type of the link
+links:
+- url: https://analytics.usa.gov
+  text: analytics.usa.gov
+  category: app
+- url: https://18f.gsa.gov/tags/analytics-usa-gov/
+  text: Blog posts related to analytics.usa.gov
+  category: 18f-blog
+
+
+
+
+# What technologies are used in this project?
+stack:
+- jekyll
+- bourbon
+- neat
+- d3
+- node
+- analytics-reporter
+
+# Organizations or individuals who have adopted the project for their own use
+# Items:
+# - id: The name of the organization or individual
+#   url: A URL to the user's version of the project
+users:
+- id: http://analytics.phila.gov/
+  user: City of Philadelphia, PA
+- id: https://bouldercolorado.gov/stats
+  user: City of Boulder, CO
+- id: http://analytics.tdec.tn.gov/
+  user: Department of Environmental Conservation, state of Tennessee

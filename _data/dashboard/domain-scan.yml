@@ -1,0 +1,57 @@
+name: domain-scan
+
+child: false
+
+full_name: Domain Scan
+
+description: This tool scans domains for various web properties, like HTTP/HTTPS configuration. Most of the actual work is farmed out to other command line tools. Domain Scan then coordinates those tools and produce consistent data output. The tool can be used with any domain or CSV where domains are listed in the first column.
+
+impact: Determines whether websites have security best practices set up.
+
+tagline: A domain scanner that can determine whether websites have HTTPS configuations set up correctly.
+
+github: https://github.com/18F/domain-scan
+
+image:
+
+audience: public, open source community
+
+owner_type: chapter
+
+business_unit:
+
+tags: tools you can use, security
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+-
+
+contact:
+-
+
+team:
+-
+
+type:
+
+parent:
+
+links:
+- url:
+  text:
+  category:
+
+
+stack:
+-
+
+users:
+- id:
+  user:

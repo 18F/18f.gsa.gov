@@ -1,0 +1,22 @@
+---
+name: dataact
+github:
+- fedspendingtransparency/fedspendingtransparency.github.io
+description: Consulting engagement to advise on the federal spending data standards
+  and corresponding pilot project mandated by the DATA Act.
+partners:
+- U.S. Department of Treasury
+impact: The federal agencies, state and local governments, transparency advocacy organizations,
+  non-profits, academic researchers, and individuals who use federal spending data.
+  All federal agencies can benefit from the pilot software and lessons learned as
+  they prepare to comply with the DATA Act.
+stage: alpha
+milestones:
+- 'January 2015: 18F began work on project'
+contact:
+- kaitlin.devine@gsa.gov
+licenses:
+  fedspendingtransparency: Public Domain (CC0)
+links:
+- https://fedspendingtransparency.github.io/
+full_name: DATA Act
