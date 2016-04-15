@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Compliance Masonry: Building a risk management platform, brick by brick"
 date: 2016-04-15
 authors:
@@ -24,7 +23,7 @@ Compliance Masonry is a content capture and management framework ([CMF](https://
 
 ### Machine readable data
 
-Compliance Masonry data are stored in machine readable [YAML](https://en.wikipedia.org/wiki/YAML)/[JSON](https://en.wikipedia.org/wiki/JSON) format using a specific schema. The predictability of using a set schema allows users to automate their compliance process. We’ve designed automated processes or "pipelines" that convert our YAML/JSON SSPs to [GitBooks](https://www.gitbook.com/) and Microsoft Word. 
+Compliance Masonry data are stored in machine readable [YAML](https://en.wikipedia.org/wiki/YAML)/[JSON](https://en.wikipedia.org/wiki/JSON) format using a specific schema. The predictability of using a set schema allows users to automate their compliance process. We’ve designed automated processes or "pipelines" that convert our YAML/JSON SSPs to [GitBooks](https://www.gitbook.com/) and Microsoft Word.
 
 Even certain complex tests, such as verifying that our systems are using static code analysis tools have been added to pipelines that automatically update our SSP documentation each time our applications are deployed. In essence, using machine readable SSPs has made it possible to start to move compliance at the speed of our continuous deployments.
 
@@ -38,7 +37,7 @@ Here at 18F, we believe that publicly-funded projects should by design be open t
 
 ## Getting Involved
 
-The Compliance Masonry project is still emerging. For 18F, Compliance Masonry is being used to organize SSP documentation for [cloud.gov](https://cloud.gov). In our experience, Compliance Masonry works best for teams who have the capability to write documentation in YAML format and an interest in contributing to an open source project. If that sounds like you, please take a look at the [Compliance Masonry CLI](https://github.com/opencontrol/compliance-masonry) and our [cloud.gov documentation](https://github.com/18F/cg-compliance). Open an issue or make a pull request! 
+The Compliance Masonry project is still emerging. For 18F, Compliance Masonry is being used to organize SSP documentation for [cloud.gov](https://cloud.gov). In our experience, Compliance Masonry works best for teams who have the capability to write documentation in YAML format and an interest in contributing to an open source project. If that sounds like you, please take a look at the [Compliance Masonry CLI](https://github.com/opencontrol/compliance-masonry) and our [cloud.gov documentation](https://github.com/18F/cg-compliance). Open an issue or make a pull request!
 
 You can see a [sample (work in progress) SSP here](https://compliance.cloud.gov/).
 Happy bureaucracy hacking!
