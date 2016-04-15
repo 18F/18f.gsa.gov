@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Compliance Masonry: Building a risk management platform, brick by brick"
 date: 2016-04-15
 authors:
