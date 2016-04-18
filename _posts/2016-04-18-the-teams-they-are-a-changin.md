@@ -23,7 +23,7 @@ project.*
 *—* [*Agile Manifesto*](http://www.agilemanifesto.org/)
 
 My team has experienced a lot of change in the past few weeks. We were a
-team of seven, and now we’ve been reduced to three. We’re off-boarding
+team of seven, and now we’ve been reduced to two. We’re off-boarding
 two developers, a content specialist, and the product owner, and we’re
 onboarding a new content specialist and another developer. This is a lot
 of change to absorb at once.
