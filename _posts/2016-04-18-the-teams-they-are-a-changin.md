@@ -103,9 +103,9 @@ world changes. Though stable teams are the goal, teams will change,
 sometimes quite frequently. Your team can take steps to account for the
 disruption caused by change:
 
--   Better documentation --> better tests --> more stable code
--   Frequent communication --> shared understanding --> building the right thing
--   Staying positive --> focus stays on delivery --> consistent velocity
+-   Better documentation → better tests → more stable code
+-   Frequent communication → shared understanding → building the right thing
+-   Staying positive → focus stays on delivery → consistent velocity
 
 Agile techniques can help your team deal with change, but only up to a
 point. Stable teams, stable code, and delivering the right thing with
