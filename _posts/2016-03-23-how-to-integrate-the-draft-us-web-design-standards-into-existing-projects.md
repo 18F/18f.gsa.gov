@@ -46,7 +46,7 @@ started](https://github.com/18F/web-design-standards/blob/18f-pages-staging/READ
 **If you’re in the middle of the project**, it might be best to think
 how you can fold parts of the standards into your project. For example,
 maybe you want to just add in [our fonts and
-colors](https://playbook.cio.gov/designstandards/visual-style/) and
+colors](https://standards.usa.gov/visual-style/) and
 leave the rest of your system as is.
 
 **If you have an existing site already**, it may not make sense to
@@ -55,14 +55,14 @@ needs. A good way to incorporate the Draft Standards in this case is to
 implement components that are on every one of your webpages if they fit
 in with your existing design. For example, you can bring in the Draft
 Standards form fields or [side
-navigation](https://playbook.cio.gov/designstandards/sidenav/).
+navigation](https://standards.usa.gov/sidenav/).
 
 Many federal websites are made with Drupal or another CMS that uses
 templating. If your site is made with Drupal, there's a good chance it
 uses templating for those elements, making them relatively easy to
 change site wide. Perhaps the guidelines can inform parts of your
 project or process, like [how to design
-forms](https://playbook.cio.gov/designstandards/form-templates/). We
+forms](https://standards.usa.gov/form-templates/). We
 would be happy to provide guidance to you if you implement this
 framework on your next project.
 
