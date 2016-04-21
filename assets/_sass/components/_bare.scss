@@ -60,6 +60,9 @@
 			font-size: 6em;
 			color: $blue;
 		}
+		img {
+			max-width: 6em;
+		}
 		@include media($small) {
 			i {
 				font-size: 5em;
