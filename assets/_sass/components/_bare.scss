@@ -58,9 +58,11 @@
 		text-decoration: none;
 		i {
 			font-size: 6em;
-			color: $blue;
+			// color: $blue;
+			color: #4c2c92;
 		}
 		img {
+			margin: 0;
 			max-width: 6em;
 		}
 		@include media($small) {
