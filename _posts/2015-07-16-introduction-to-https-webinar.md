@@ -46,7 +46,7 @@ Table of contents:
 
 This presentation discusses how HTTPS works today, the technical details of [migrating websites](https://https.cio.gov/mixed-content/) and [APIs](https://https.cio.gov/apis/) to HTTPS, and goes into the specifics of [HTTP Strict Transport Security](https://https.cio.gov/hsts/).
 
-It then covers the most important [technical guidelines](https://https.cio.gov/technical-guidelines/) that all websites (not just the government) should be aware of when setting up HTTPS, many of which are measured by [the Pulse HTTPS dashboard](https://pulse.18f.gov/https/domains/).
+It then covers the most important [technical guidelines](https://https.cio.gov/technical-guidelines/) that all websites (not just the government) should be aware of when setting up HTTPS, many of which are measured by [the Pulse HTTPS dashboard](https://pulse.cio.gov/https/domains/).
 
 Finally, the presentation looks ahead at some ongoing and future technical and political developments in the field of HTTPS and certificate authorities.
 
