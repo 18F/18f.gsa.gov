@@ -7,7 +7,7 @@ tags:
 - partners in government
 description: “Amanda Weaver&rsquo;s team at the U.S. Postal Service Office of Inspector General  operates like a government think-tank. They write white papers on everything from 3D printing to the Internet of Postal Things. We talked to Amanda about the futuristic things her office is dreaming up for the post office of the future.”
 excerpt: “Amanda Weaver&rsquo;s team at the U.S. Postal Service Office of Inspector General  operates like a government think-tank. They write white papers on everything from 3D printing to the Internet of Postal Things. We talked to Amanda about the futuristic things her office is dreaming up for the post office of the future.”
-image: /assets/blog/partners-in-government/rarc.jpg
+image: /assets/blog/partners-in-government/internet-of-postal-things.jpg
 ---
 
 Imagine receiving a text message every time a new letter was placed in
@@ -56,6 +56,9 @@ using the latest scientific techniques from neuroscience. Second, we’re
 focused on innovations within the mail itself. How can we use the latest
 technology to make the physical mail piece more digitally interactive
 and thus more appealing to the digital natives?
+
+[![A map of potential pieces of the internet of postal things]({{site.baseurl}}/assets/blog/partners-in-government/internet-of-postal-things.jpg)](https://www.uspsoig.gov/document/internet-postal-things)
+*A page from the [report on the Internet of Postal Things](https://www.uspsoig.gov/document/internet-postal-things)*
 
 **The Internet of Postal Things.** We’re imagining [how the rich
 infrastructure of the Postal Service could be
