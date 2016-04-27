@@ -23,7 +23,7 @@ multidisciplinary team of researchers, interaction designers, front end
 designers, visual designers, and content designers. Often, designers on
 the same project are not in the same location. Here are some techniques
 we’ve developed to help us work effectively when we aren’t in the same
-room or even the same times zone.
+room or even the same time zone.
 
 -   **Share your design methods.** Distributed teams risk creating a bubble around projects and what’s going on inside them. We have a few ways of making sure that designers across project teams are sharing their approaches and learning new ones from other teams. We first collected some of our [common design methods](https://methods.18f.gov/) and fleshed out starting points for each, then published those internally and externally. We also started running short training sessions on each of these methods in our weekly design team meeting, led by fellow designers.
 
