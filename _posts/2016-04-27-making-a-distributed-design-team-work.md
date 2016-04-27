@@ -63,10 +63,10 @@ How to get started
 
 ![Three pictures of desks including one in an office and two at home. ]({{site.baseurl}}/assets/blog/design/desks1.jpg)
 
-*Lindsay, Washington, D.C. Jen, New York, NY Jeremy, Brooklyn, NY*
+*From left to right: Lindsay in Washington, D.C.; Jen in New York, NY; and Jeremy in Brooklyn, NY*
 
 ![Three pictures of desks with varying workplace styles.]({{site.baseurl}}/assets/blog/design/desks2.jpg)
-*Leah, San Francisco, CA         Noah, Portland, OR		     Josh, Charlottesville, VA*
+*From left to right: Leah in San Francisco, CA; Noah in Portland, OR; and Josh in Charlottesville, VA*
 
 This is by no means a comprehensive list of what we’ve learned, so we’ll
 continue to share as we learn more (and, on that topic, we should note
