@@ -1,37 +1,4 @@
-require 'fileutils'
-
 module Jekyll
-  class AuthorFile < Page
-    def initialize(site, base, frontmatter)
-      @site = site
-      @base = base
-      @author = frontmatter['name']
-      @dir = "/author/#{@author}"
-      @frontmatter = frontmatter
-      @name = "index.html"
-
-      self.process(@name)
-      self.data = @frontmatter
-      self.name = @frontmatter['name']
-      self.content = "#{self.data['full_name']} is a guest author for 18f.gsa.gov. This is an archive of posts written by #{self.data['first_name']}."
-    end
-  end
-  class AuthorGenerator < Generator
-    safe true
-    def generate(site)
-      posts = site.collections['posts'].docs
-      authors = site.data['authors']
-      teamdocs = site.collections['team'].docs.map{ | t | t.data }
-      authors.delete_if{ |author| teamdocs.index { |i| i['name'] == author }}
-      authors.each_pair do |author, values|
-        frontmatter = values
-        frontmatter["name"] = author
-        frontmatter["posts"] = posts
-        frontmatter["layout"] = "profile"
-        site.pages << AuthorFile.new(site, site.source, frontmatter )
-      end
-    end
-  end
   class AuthorTag < Liquid::Tag
     def initialize(tag_name, author, tokens)
       super
