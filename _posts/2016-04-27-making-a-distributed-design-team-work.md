@@ -36,23 +36,21 @@ room or even the same times zone.
 
 -   **Participate in critique groups.** As a design team, we value interdisciplinary critique and sharing, so that designers get exposure to the challenges of other projects. To better keep one another in the loop, we’ve also decided it’s important to keep inter-city pairings for our critiques. We don’t need any additional tools to do this because we’ve invested in the infrastructure to hold meetings in different locations. We have small groups who meet each week to share and refine whatever each is working on and needs feedback on that week. We also do a lot of informal critique on Slack. People often leave a mockup or screenshot in a channel and ask for thoughts on a particular piece from anyone who’s around and interested.
 
--   **Take time together (and also time apart).** Good design work alternates between individual ideation and convergence and critique. Colin reiterated a feeling that we think many of us on the design team are still wrangling with: “Different design activities range from easy to do remotely, to fairly degraded to do remotely. Getting feedback on work remotely isn’t very different or hard. The same is true for research design work like coming up with research plans and interview guides. Often times when people are in person, that happens distributedly or independently anyways. Where it gets hard is on the generative phase.”
-
-  When collaborative work happens in person, transitions flow pretty
-naturally: you split up, you regroup. When you’re remote, it has to be deliberately scheduled and set up. Amber Reed (San Francisco,
-California) said, “I feel most effective when I take a piece of what I
-would have done in a group for two hours, whittle it down to a 30
-minute meeting with a clearly staged agenda. The job of stringing it
-all together falls back on the designer. Smaller pieces seem to work
-better virtually.”
-
-  Individual project teams decide when it’s best for distributed team
-members to meet in person. Our teams working on the [Federal Front
-Door](https://18f.gsa.gov/2016/02/29/informing-the-future-of-the-federal-front-door/)
-and the Diversity and Inclusion Working Group did extensive research
-in different cities as well as remotely. When it came time to analyse
-and synthesize the findings, each team intentionally met in person for
-a few days.
+-   **Take time together (and also time apart).** Good design work alternates between individual ideation and convergence and critique. Colin reiterated a feeling that we think many of us on the design team are still wrangling with: “Different design activities range from easy to do remotely, to fairly degraded to do remotely. Getting feedback on work remotely isn’t very different or hard. The same is true for research design work like coming up with research plans and interview guides. Often times when people are in person, that happens distributedly or independently anyways. Where it gets hard is on the generative phase.”<br>
+  <br>When collaborative work happens in person, transitions flow pretty
+  naturally: you split up, you regroup. When you’re remote, it has to be deliberately scheduled and set up. Amber Reed (San Francisco,
+  California) said, “I feel most effective when I take a piece of what I
+  would have done in a group for two hours, whittle it down to a 30
+  minute meeting with a clearly staged agenda. The job of stringing it
+  all together falls back on the designer. Smaller pieces seem to work
+  better virtually.”<br>
+  <br>Individual project teams decide when it’s best for distributed team
+  members to meet in person. Our teams working on the [Federal Front
+  Door](https://18f.gsa.gov/2016/02/29/informing-the-future-of-the-federal-front-door/)
+  and the Diversity and Inclusion Working Group did extensive research
+  in different cities as well as remotely. When it came time to analyse
+  and synthesize the findings, each team intentionally met in person for
+  a few days.
 
 -   **Prepare for technical snafus.** Each government agency has different software and hardware restrictions, and technology barriers are often higher for our partners. If you’re running a distributed design activity with a client or people outside of your organization, a quick “tech check” with each participant before the meeting kickoff can save the whole meeting. This lesson comes from Colin and Shawn Allen (San Francisco, California). Some tech failures can’t be tested beforehand as easily though, like with user interviews, where often our best strategy is to have many fall-back options for video chats, screen sharing, or audio tools. Sometimes these issues will be insurmountable. Be ok with moving on.
 
