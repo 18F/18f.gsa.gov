@@ -3,36 +3,50 @@ title: What 18F has accomplished
 permalink: /press/18F-accomplishments
 layout: bare
 ---
-## 2016
+## MyUSCIS
 
-* Began the [compliance masonry program](https://18f.gsa.gov/2016/04/15/compliance-masonry-buildling-a-risk-management-platform/) to make system security documentation plans readable by machines and easily manageable by humans.
-* Created a [standard format for agencies to use when reporting financial data](https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/) as part of our work with Treasury and the Office of Management and Budget to implement the DATA Act.
-* Partnered with the Department of Health and Human Services, and the State of California [to draft a request for proposal to fix the state's child welfare case management system.](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) This system is used by more than 20,000 social workers to track and manage the more than 500,000 cases of child abuse and neglect that are reported in California each year.
-* Worked with the General Services Administration to research what a [better "front door" for the federal government](https://18f.gsa.gov/2015/12/08/learning-how-to-build-a-better-front-door-for-the-federal-government/) might look like. The _Federal Front Door_ project required hours of research [and led to tremendous insight into how the public interacts with the government](https://18f.gsa.gov/tags/federal-front-door/).
-* Created the [micro-purchase platform](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/) to experiment with [buying discrete pieces of working software through reverse auctions.](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/)
+![A screenshot of the MyUSCIS homepage.]({{site.baseurl}}/assets/images/projects/myuscis.jpg)
 
-## 2015
-* Launched an alpha version of [cloud.gov](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), a Platform-as-a-Service (PaaS) built to tackle core infrastructure issues and enable small development teams to improve the delivery of their products.
-* Introduced [the Draft U.S. Web Design Standards](https://18f.gsa.gov/2015/09/28/web-design-standards/), a collection of standard elements U.S. government web designers can use to create consistent, trustable interactions with the public.
-* Created the [Federalist platform](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/) to make it faster for government agencies to build websites that are secure, responsive, and accessible.
-* Launched the [College Scorecard](https://collegescorecard.ed.gov/) website and API to give students and their families access to a wealth of previously-unavailable data about colleges and universities. This was [a joint project with the U.S. Digital Service and the Department of Education](https://18f.gsa.gov/2015/09/14/college-scorecard-launch/).
-* Launched the [Every Kid in a Park](https://everykidinapark.gov/) website in collaboration with the U.S. Department of the Interior, The White House, and other federal agencies. The site helps U.S. fourth graders obtain their free pass to national lands and waters and is [specially designed to be used by kids](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/).
-* [Launched the first API](https://api.open.fec.gov/developers) for the Federal Election Commission, which gives the public much better access to tens of millions of federal campaign finance records.
-* Launched [Pulse](https://pulse.cio.gov/), a [monitoring tool for U.S. government websites](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/) to see if they're following best web practices.
-* Launched a [Code of Conduct](https://github.com/18F/code-of-conduct) as well as guides for [accessibility](https://pages.18f.gov/accessibility/), [content](https://pages.18f.gov/content-guide/), and [how to construct an open source project](https://pages.18f.gov/open-source-guide/).
-* Worked with the Digital Analytics Program and the White House to build [analytics.usa.gov](https://analytics.usa.gov/), a public dashboard for the US government’s web traffic.
-* [Launched CALC](http://calc.gsa.gov), the Contract Awarded Labor Category tool, to help the federal contracting community make smarter, faster buying decisions.
-* Alpha launched [Discovery](https://discovery.gsa.gov/), which makes it much easier for the government’s contracting officers to conduct market research and look for qualified vendors across a number of professional service categories.
-* [Helped several agencies](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/) meet the same standard, and [supported the development of a government-wide HTTPS-only policy](https://18f.gsa.gov/2015/03/17/for-public-comment-the-https-only-standard/).
-* [Piloted an agile delivery services Blanket Purchase Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/) to explore a new way for the government to hire contractors that could reduce the cost and completion time of federal IT projects.  
+We worked with the U.S. Digital Service to move the U.S. Citizenship and Immigration Services (USCIS) from a form-centric website to a human-centric one. This includes work across numerous disciplines to create a suite of resources and tools to demystify the naturalization process, move application forms online, and design an improved account system for applicants.
 
-## 2014
+## BetaFEC
 
-* Piloted [Midas](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) at the Department of Health and Human Services and the State Department. The “crowdwork” platform is now powering GSA’s microtasking platform, [Open Opportunities](https://openopps.digitalgov.gov/).
-* [Launched Communicart](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014), a simplified, email-based purchasing approval tool for purchase card holders authorized to buy office supplies for the government. Over 200 users have been trained and are now using the tool for purchasing approval.
-* Doubled the size of the [api.data.gov](https://api.data.gov/) program, with 13 APIs across seven agencies now using the shared service.
-* Hit a [/Developer Program](https://pages.18f.gov/API-All-the-X/) milestone of engagement with more than 100 API teams, providing training and direct support to help agencies build out web services and engage the developer community.
-* Developed a clear [HTTPS-only standard](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) for 18F’s work.
-* Developed the strongest [open source policy](https://github.com/18F/open-source-policy) in the US government, setting a clear expectation to the outside and to our team that [we work in public](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/), and leading to a [GSA-wide “open source first” policy](http://gsablogs.gsa.gov/innovation/2014/08/01/our-guiding-principles/).
-* [Beta launched FBOpen](https://18f.gsa.gov/2014/03/31/announcing-fbopen-government-opportunities-made-easier/), an API and search tool which helps small businesses find opportunities to work with the U.S. government.
-* [Launched NotAlone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/) in partnership with the White House Office of Science and Technology Policy and the Office of the Vice President. NotAlone.gov helps students and school administrators find resources on responding to and preventing sexual assault.
+![A screenshot of the betaFEC homepage]({{site.baseurl}}/assets/images/projects/beta-fec.jpg)
+
+The Federal Election Commission (FEC) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new site on top of that API. This site will help make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. Read more about the site and why we’ve released it as a beta.
+
+## College Scorecard
+
+![A screenshot of the college scorecard]({{site.baseurl}}/assets/images/projects/college-scorecard.jpg)
+
+The College Scorecard site is an example of what 18F can do to help your agency provide an interactive, well-designed way for the public to access your data. We worked with the U.S. Digital Service and the Department of Education to build College Scorecard to give students and their families access to previously unreleased data about colleges and universities so they can make better decisions. The site is built on top of a public API, which also allows private individuals and companies to use the data. Read more about the College Scorecard project.
+
+## Draft U.S. Web Design Standards
+
+![A screenshot of standards.usa.gov]({{site.baseurl}}/assets/images/projects/draft-us-web-design-standards.png)
+
+A collection of design patterns and user interface toolkits to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), flexible, and designed for readability and impact as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times on 18f.gsa.gov](https://18f.gsa.gov/tags/web-design-standards/).
+
+## Analytics.usa.gov
+
+![A screenshot of the analytics.usa.gov homepage.]({{site.baseurl}}/)
+
+A dashboard of analytics data from the websites of agencies participating in the Digital Analytics Program. The basic dashboard has three views: One showing how many people are on government websites _right now_, the other two show the most popular pages on government sites in the last seven and 30 days. In 2016 we added agency specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government.
+
+## Cloud.gov
+
+![A screenshot of the cloud.gov homepage]({{site.baseurl}}/assets/images/projects/cloud-gov.jpg)
+
+cloud.gov includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
+
+## Every Kid in a Park
+
+In collaboration with the U.S. Department of the Interior, The White House, and other federal agencies, 18F build a site to help U.S. fourth graders obtain their free pass to national lands and waters and is [specially designed to be used by kids](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/).
+
+## U.S. Extractive Industries Transparency Initiative (U.S. EITI)
+
+After holding a design studio for the Department of the Interior's Office of Natural Resource Revenues, 18F was able to build the first iteration of the U.S. implementation of a global project to bring transparency into natural resource management and the money paid to the government on public land leased to private companies. In preparation for [Interior's first EITI report](https://useiti.doi.gov), the team continued to iterate and test their product with users across the United States. [18F has written about this project several times on the 18F blog](https://18f.gsa.gov/tags/useiti/).
+
+## CALC and discovery
+
+Two of our oldest projects, 18F worked with Federal Acquisition Service employees to create market research tools to help write better contracts and find better vendors to include in blanket purchase agreements. [CALC is currently being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
