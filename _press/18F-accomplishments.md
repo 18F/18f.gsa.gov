@@ -35,7 +35,7 @@ A [dashboard of analytics data](https://analytics.usa.gov) from the websites of 
 
 ### Cloud.gov
 
-![A screenshot of the cloud.gov homepage]({{site.baseurl}}/assets/images/projects/cloud-gov.jpg)
+![A screenshot of the cloud.gov homepage]({{site.baseurl}}/assets/images/projects/cloud-gov.png)
 
 [cloud.gov](https://cloud.gov) includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
 
@@ -47,6 +47,6 @@ In collaboration with the U.S. Department of the Interior, The White House, and 
 
 After holding a design studio for the Department of the Interior's Office of Natural Resource Revenues, 18F was able to build the first iteration of the U.S. implementation of a global project to bring transparency into natural resource management and the money paid to the government on public land leased to private companies. In preparation for [Interior's first EITI report](https://useiti.doi.gov), the team continued to iterate and test their product with users across the United States. [18F has written about this project several times on the 18F blog](https://18f.gsa.gov/tags/useiti/).
 
-### CALC and discovery
+### CALC and Discovery
 
 Two of our oldest projects, 18F worked with Federal Acquisition Service employees to create [market research tools](https://discovery.gsa.gov/) to help write better contracts and [find better vendors](https://calc.gsa.gov/) to include in blanket purchase agreements. [CALC is currently being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
