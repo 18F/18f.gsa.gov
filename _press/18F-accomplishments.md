@@ -39,6 +39,19 @@ A [dashboard of analytics data](https://analytics.usa.gov) from the websites of 
 
 [cloud.gov](https://cloud.gov) includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
 
+
+### Department of Labor, Wage and Hour Division Field Operations Handbook
+
+![The 18F team working with Department of Labor staff in the GSA headquarters.]({{site.baseurl}}/assets/images/projects/dol-handbook.jpg)
+
+In two days, our consulting team was able to work with a team at the Department of Labor’s Wage and Hour Division to take the four-volume, printed Field Operations Handbook and create an internal prototype of an online, searchable version. We were also able to demonstrate the power of using agile design and development methods.
+
+### Health and Human Services, State of California, Code for America, RFP Ghostwriting
+
+![The California, Code for America, and 18F team after the workshop.]({{ site.baseurl }}/assets/blog/ca-child-welfare/ca-team.jpg)
+
+Partnered with the Department of Health and Human Services, and the State of California [to draft a request for proposal to fix the state's child welfare case management system.](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) This system is used by more than 20,000 social workers to track and manage the more than 500,000 cases of child abuse and neglect that are reported in California each year.
+
 ### Every Kid in a Park
 
 In collaboration with the U.S. Department of the Interior, The White House, and other federal agencies, 18F build [a site to help U.S. fourth graders obtain their free pass to national lands and waters](https://everykidinapark.gov) and is [specially designed to be used by kids](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/).
