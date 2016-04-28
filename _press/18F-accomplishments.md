@@ -50,7 +50,7 @@ In two days, our consulting team was able to work with a team at the Department 
 
 ![The California, Code for America, and 18F team after the workshop.]({{ site.baseurl }}/assets/blog/ca-child-welfare/ca-team.jpg)
 
-Partnered with the Department of Health and Human Services, and the State of California [to draft a request for proposal to fix the state's child welfare case management system.](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) This system is used by more than 20,000 social workers to track and manage the more than 500,000 cases of child abuse and neglect that are reported in California each year.
+Partnered with the Department of Health and Human Services, the State of California, and Code for America [to draft a request for proposal to fix the state's child welfare case management system.](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) This system is used by more than 20,000 social workers to track and manage the more than 500,000 cases of child abuse and neglect that are reported in California each year.
 
 ### Every Kid in a Park
 
