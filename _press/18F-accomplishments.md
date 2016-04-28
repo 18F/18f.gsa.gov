@@ -13,19 +13,19 @@ We worked with the U.S. Digital Service to move the [U.S. Citizenship and Immigr
 
 ![A screenshot of the betaFEC homepage]({{site.baseurl}}/assets/images/projects/beta-fec.jpg)
 
-The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new site on top of that API. This site will help make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. Read more about the site and why we’ve released it as a beta.
+The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new site on top of that API. This site will help make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. [Read more about the site and why we’ve released it as a beta](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/).
 
 ### College Scorecard
 
 ![A screenshot of the college scorecard]({{site.baseurl}}/assets/images/projects/college-scorecard.jpg)
 
-The [College Scorecard](https://collegescorecard.ed.gov/) site is an example of what 18F can do to help your agency provide an interactive, well-designed way for the public to access your data. We worked with the U.S. Digital Service and the Department of Education to build College Scorecard to give students and their families access to previously unreleased data about colleges and universities so they can make better decisions. The site is built on top of a public API, which also allows private individuals and companies to use the data. Read more about the College Scorecard project.
+The [College Scorecard](https://collegescorecard.ed.gov/) site is an example of what 18F can do to help your agency provide an interactive, well-designed way for the public to access your data. We worked with the U.S. Digital Service and the Department of Education to build College Scorecard to give students and their families access to previously unreleased data about colleges and universities so they can make better decisions. The site is built on top of a public API, which also allows private individuals and companies to use the data. [Read more about the College Scorecard project](https://18f.gsa.gov/2015/09/14/college-scorecard-launch/).
 
 ### Draft U.S. Web Design Standards
 
 ![A screenshot of standards.usa.gov]({{site.baseurl}}/assets/images/projects/draft-us-web-design-standards.png)
 
-[A collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), flexible, and designed for readability and impact as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times on 18f.gsa.gov](https://18f.gsa.gov/tags/web-design-standards/).
+[A collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), flexible, and designed for readability and impact as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times](https://18f.gsa.gov/tags/web-design-standards/).
 
 ### Analytics.usa.gov
 
@@ -45,8 +45,8 @@ In collaboration with the U.S. Department of the Interior, The White House, and 
 
 ### U.S. Extractive Industries Transparency Initiative (U.S. EITI)
 
-After holding a design studio for the Department of the Interior's Office of Natural Resource Revenues, 18F was able to build the first iteration of the U.S. implementation of a global project to bring transparency into natural resource management and the money paid to the government on public land leased to private companies. In preparation for [Interior's first EITI report](https://useiti.doi.gov), the team continued to iterate and test their product with users across the United States. [18F has written about this project several times on the 18F blog](https://18f.gsa.gov/tags/useiti/).
+After holding a design studio for the Department of the Interior's Office of Natural Resource Revenues, 18F was able to build the first iteration of the U.S. implementation of a global project to bring transparency into natural resource management and the money paid to the government on public land leased to private companies. In preparation for [Interior's first EITI report](https://useiti.doi.gov), the team continued to iterate and test their product with users across the United States. [We've written about this project several times on the 18F blog](https://18f.gsa.gov/tags/useiti/).
 
 ### CALC and Discovery
 
-Two of our oldest projects, 18F worked with Federal Acquisition Service employees to create [market research tools](https://discovery.gsa.gov/) to help write better contracts and [find better vendors](https://calc.gsa.gov/) to include in blanket purchase agreements. [CALC is currently being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
+In two of our first projects, 18F worked with Federal Acquisition Service employees to create [market research tools](https://discovery.gsa.gov/) to help write better contracts and [find better vendors](https://calc.gsa.gov/) to include in blanket purchase agreements. [CALC is currently being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
