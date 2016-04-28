@@ -29,7 +29,7 @@ The [College Scorecard](https://collegescorecard.ed.gov/) site is an example of 
 
 ### Analytics.usa.gov
 
-![A screenshot of the analytics.usa.gov homepage.]({{site.baseurl}}/assets/images/projects/draft-us-web-design-standards.png)
+![A screenshot of the analytics.usa.gov homepage.]({{site.baseurl}}/assets/images/projects/analytics-usa-gov.png)
 
 A [dashboard of analytics data](https://analytics.usa.gov) from the websites of agencies participating in the Digital Analytics Program. The basic dashboard has three views: One showing how many people are on government websites _right now_, the other two show the most popular pages on government sites in the last seven and 30 days. In 2016 we added agency specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government.
 
