@@ -40,11 +40,11 @@ You can now view a [dashboard of analytics data](https://analytics.usa.gov) from
 [cloud.gov](https://cloud.gov) includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
 
 
-### Department of Labor, Wage and Hour Division Field Operations Handbook
+### Wage and Hour Division Field Operations Handbook
 
 ![The 18F team working with Department of Labor staff in the GSA headquarters.]({{site.baseurl}}/assets/images/projects/dol-handbook.jpg)
 
-In two days, our consulting team was able to work with a team at the Department of Labor’s Wage and Hour Division to take the four-volume, printed Field Operations Handbook and create an internal prototype of an online, searchable version. We were also able to demonstrate the power of using agile design and development methods.
+[In two days](https://18f.gsa.gov/2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/), our consulting team was able to work with a team at the Department of Labor’s Wage and Hour Division to take the four-volume, printed Field Operations Handbook and create an internal prototype of an online, searchable version. We were also able to demonstrate the power of using agile design and development methods.
 
 ### Health and Human Services, State of California, Code for America, RFP Ghostwriting
 
