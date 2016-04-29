@@ -13,7 +13,7 @@ We helped the U.S. Citizenship and Immigration Services (USCIS) launch [myUSCIS]
 
 ![A screenshot of the betaFEC homepage]({{site.baseurl}}/assets/images/projects/beta-fec.jpg)
 
-The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new site on top of that API. This site will help make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. [Read more about the site and why we’ve released it as a beta](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/).
+The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new website on top of that API. This site helps make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. [Read more about the site and why we’ve released it as a beta](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/).
 
 ### College Scorecard
 
