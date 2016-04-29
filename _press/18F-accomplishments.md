@@ -13,7 +13,7 @@ We helped the U.S. Citizenship and Immigration Services (USCIS) launch [myUSCIS]
 
 ![A screenshot of the betaFEC homepage]({{site.baseurl}}/assets/images/projects/beta-fec.jpg)
 
-The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API, and a new website on top of that API. This site helps make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. [Read more about the site and why we’ve released it as a beta](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/).
+The [Federal Election Commission (FEC)](https://beta.fec.gov) has long been a pioneer of open data, but 18F was able to help the FEC build its first public API and a new website on top of that API. This site helps make campaign finance information more accessible to the public, as part of a larger redesign of the FEC’s online presence. [Read more about the site and why we’ve released it as a beta](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/).
 
 ### College Scorecard
 
@@ -25,20 +25,19 @@ The [College Scorecard](https://collegescorecard.ed.gov/) site is an example of 
 
 ![A screenshot of standards.usa.gov]({{site.baseurl}}/assets/images/projects/draft-us-web-design-standards.png)
 
-In collaboration with the U.S. Digital Service, we created [a collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times](https://18f.gsa.gov/tags/web-design-standards/).
+In collaboration with the U.S. Digital Service, we created [a collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The Draft Standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times](https://18f.gsa.gov/tags/web-design-standards/).
 
-### Analytics.usa.gov
+### analytics.usa.gov
 
 ![A screenshot of the analytics.usa.gov homepage.]({{site.baseurl}}/assets/images/projects/analytics-usa-gov.png)
 
-You can now view a [dashboard of analytics data](https://analytics.usa.gov) from the websites of agencies participating in GSA's Digital Analytics Program. The basic dashboard has three views: one showing how many people are on government websites _right now_; the other two show the most popular pages on government sites in the last seven and 30 days. In 2016 we added agency specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government. This open source project has been [adapted for use in other city and state governments](https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/).
+You can now view a [dashboard of analytics data](https://analytics.usa.gov) from the websites of agencies participating in GSA's Digital Analytics Program. The basic dashboard has three views: one showing how many people are on government websites _right now_; the other two show the most popular pages on government sites in the last seven and 30 days. In 2016, we added agency-specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government. This open source project has been [adapted for use in other city and state governments](https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/).
 
-### Cloud.gov
+### cloud.gov
 
 ![A screenshot of the cloud.gov homepage]({{site.baseurl}}/assets/images/projects/cloud-gov.png)
 
 [cloud.gov](https://cloud.gov) includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
-
 
 ### Wage and Hour Division Field Operations Handbook
 
