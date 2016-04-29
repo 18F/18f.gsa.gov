@@ -46,7 +46,7 @@ You can now view a [dashboard of analytics data](https://analytics.usa.gov) from
 
 [In two days](https://18f.gsa.gov/2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/), our consulting team was able to work with a team at the Department of Labor’s Wage and Hour Division to take the four-volume, printed Field Operations Handbook and create an internal prototype of an online, searchable version. We were also able to demonstrate the power of using agile design and development methods.
 
-### Health and Human Services, State of California, Code for America, RFP Ghostwriting
+### RFP Ghostwriting with the State of California
 
 ![The California, Code for America, and 18F team after the workshop.]({{ site.baseurl }}/assets/blog/ca-child-welfare/ca-team.jpg)
 
