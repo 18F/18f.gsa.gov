@@ -61,6 +61,16 @@
 }
 .service-snippet {
 	width: 100%;
+	ul {
+		list-style: disc;
+		margin:auto;
+		padding: 1em 2em;
+	}
+	h2,
+	h3,
+	h4 {
+		margin-top: 1.5em;
+	}
 }
 .blog-all, .blog-continue {
 	@include span-columns(12);

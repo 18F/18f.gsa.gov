@@ -1,7 +1,5 @@
 ---
 title: What we deliver
-permalink: /what-we-deliver/
-layout: bare
 ---
 
 We deliver solutions to your problems. The first step in that process is
@@ -14,8 +12,10 @@ right thing, not just any thing.
 
 ## We deliver:
 
-- **Custom products to solve your problems**
-- **Innovative ways to buy technology**
-- **Platforms built for government**
-- **A path to becoming a digitally-powered organization**
-- **Modern digital service techniques**
+- Custom products to solve your problems
+- Innovative ways to buy technology
+- Platforms built for government
+- A path to becoming a digitally-powered organization
+- Modern digital service techniques
+
+[Learn more about what we can do for your agency.]({{site.baseurl}}/what-we-deliver/)

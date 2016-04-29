@@ -43,23 +43,17 @@ permalink: /
 </section>
 
 <section class="services" itemprop="makesOffer">
+  {% assign content = site.pages | where:"name","what-we-deliver-home.md" %}
   <div class="header">
     <div class="container-fluid">
-      <h1>our work</h1>
+      <h1>{{ content[0].title }}</h1>
     </div>
   </div>
   <article class="container service-entry" itemprop="department">
-    {% for service in site.data.services %}
-      <div class="service-title">
-        <h1 class="h4">
-          <a href="{{ site.baseurl }}{{ service.link }}/" class="service-title link-alt"
-              itemprop="name">{{ service.display }}</a></h1>
-      </div>
       <div class="service-snippet">
-        <p>{{ service.description }}</p>
-        <p>Learn more about {{ service.cta }}.</p>
+        {{ content[0].content | markdownify }}
       </div>
-    {% endfor %}
+
   </article>
 </section>
 <section id="news" class="blog">
