@@ -25,7 +25,7 @@ The [College Scorecard](https://collegescorecard.ed.gov/) site is an example of 
 
 ![A screenshot of standards.usa.gov]({{site.baseurl}}/assets/images/projects/draft-us-web-design-standards.png)
 
-[A collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), flexible, and designed for readability and impact as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times](https://18f.gsa.gov/tags/web-design-standards/).
+In collaboration with the U.S. Digital Service, we created [a collection of design patterns and user interface toolkits](https://standards.usa.gov) to help agencies focus on building their website or application without reinventing trustable, accessible solutions to common government problems. The draft web standards includes typography and color recommendations that are compliant with [Section 508 of the Rehabilitation Act (the federal standard for accessibility)](http://www.section508.gov/), as well as a collection of foundational interface elements for government sites and the code that powers them. We have blogged about [our work on these standards several times](https://18f.gsa.gov/tags/web-design-standards/).
 
 ### Analytics.usa.gov
 
