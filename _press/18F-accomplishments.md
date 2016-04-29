@@ -54,7 +54,7 @@ We partnered with the Department of Health and Human Services, the State of Cali
 
 ### Every Kid in a Park
 
-In collaboration with the U.S. Department of the Interior, The White House, and other federal agencies, 18F build [a site to help U.S. fourth graders obtain their free pass to national lands and waters](https://everykidinapark.gov) and is [specially designed to be used by kids](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/).
+In collaboration with the U.S. Department of the Interior, The White House, and other federal agencies, 18F built [a website to help U.S. fourth graders obtain their free pass to national lands and waters](https://everykidinapark.gov). The site is [specially designed to be used by kids](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/) (its primary users).
 
 ### U.S. Extractive Industries Transparency Initiative (U.S. EITI)
 
