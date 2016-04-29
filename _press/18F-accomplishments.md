@@ -7,7 +7,7 @@ layout: bare
 
 ![A screenshot of the MyUSCIS homepage.]({{site.baseurl}}/assets/images/projects/myuscis.jpg)
 
-We worked with the U.S. Digital Service to move the [U.S. Citizenship and Immigration Services (USCIS)](https://my.uscis.gov) from a form-centric website to a human-centric one. This includes work across numerous disciplines to create a suite of resources and tools to demystify the naturalization process, move application forms online, and design an improved account system for applicants.
+We helped the U.S. Citizenship and Immigration Services (USCIS) launch [myUSCIS](https://my.uscis.gov), a platform that allows users to easily access information about the immigration process and find immigration options for which they may qualify. Re-imagining the immigration process meant moving from a form-centric website to a human-centric one. We worked closely with USCIS across multiple disciplines to create a suite of resources and tools to demystify the naturalization process, move application forms online, and design an improved account system for applicants.
 
 ### BetaFEC
 
