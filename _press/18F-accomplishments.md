@@ -31,7 +31,7 @@ In collaboration with the U.S. Digital Service, we created [a collection of desi
 
 ![A screenshot of the analytics.usa.gov homepage.]({{site.baseurl}}/assets/images/projects/analytics-usa-gov.png)
 
-A [dashboard of analytics data](https://analytics.usa.gov) from the websites of agencies participating in the Digital Analytics Program. The basic dashboard has three views: One showing how many people are on government websites _right now_, the other two show the most popular pages on government sites in the last seven and 30 days. In 2016 we added agency specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government.
+You can now view a [dashboard of analytics data](https://analytics.usa.gov) from the websites of agencies participating in GSA's Digital Analytics Program. The basic dashboard has three views: one showing how many people are on government websites _right now_; the other two show the most popular pages on government sites in the last seven and 30 days. In 2016 we added agency specific pages to the dashboard, allowing users to see the same data for several departments as well as across the entire government. This open source project has been [adapted for use in other city and state governments](https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/).
 
 ### Cloud.gov
 
