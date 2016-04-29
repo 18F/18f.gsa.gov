@@ -62,4 +62,4 @@ After holding a design studio for the Department of the Interior's Office of Nat
 
 ### CALC and Discovery
 
-In two of our first projects, 18F worked with Federal Acquisition Service employees to create [market research tools](https://discovery.gsa.gov/) to help write better contracts and [find better vendors](https://calc.gsa.gov/) to include in blanket purchase agreements. [CALC is currently being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
+In two of our first projects, 18F worked with Federal Acquisition Service employees to create [market research tools](https://discovery.gsa.gov/) to help write better contracts and [find better vendors](https://calc.gsa.gov/) to include in blanket purchase agreements. In addition to GSA contracting officers, [CALC is also being used by the City of Boston](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/).
