@@ -61,7 +61,7 @@ the year instead of just quarterly. During research and development,
 we also found that GSA and external users had a variety of unique use cases; 
 providing an API makes integrations with and extensions of the data possible.
 
-Additionally, we uploaded five additional agencies’ forecasting data into 
+We also uploaded five additional agencies’ forecasting data into 
 the tool to allow businesses to search one time to see a larger universe of results. For vendors who
 prefer to use the spreadsheet, the tool allows users to download
 filtered spreadsheets containing their specific search results.
