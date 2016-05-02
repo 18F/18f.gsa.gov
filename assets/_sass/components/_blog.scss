@@ -11,7 +11,7 @@
 
 .blog-title, .service-title {
   @include span-columns(12);
-  padding: 15px 0 5px 0;
+  padding: 15px 0 5px;
   @include media($tiniest) {
     padding-top: 13px;
     padding-bottom: 3px;
@@ -23,7 +23,8 @@
   a {
     font-weight: 700;
     text-decoration: none;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
       color: $base-link-color;
     }
@@ -85,7 +86,7 @@
 }
 .blog-continue {
   text-align: right;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .blog-posting {
@@ -99,18 +100,21 @@
     a {
         color: #333;
         text-decoration: none;
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
           color: #0068d0;
         }
     }
   }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     text-decoration: none;
   }
   .blog-tags a {
     font-weight: 700;
     text-decoration: none;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
       color: $base-link-color;
     }
@@ -121,11 +125,13 @@
   ol {
       list-style: decimal;
   }
-  ul, ol {
+  ul,
+  ol {
       margin-left: 2em;
   }
 
-  p, li {
+  p,
+  li {
     line-height: 28px;
 
     code {
@@ -137,7 +143,7 @@
     }
   }
   .align-left {
-    float:left;
+    float: left;
     max-width: 40%;
     margin: 0 1em 0 0;
     @include media($bigger) {
@@ -149,11 +155,11 @@
     @include media($tiny) {
       max-width: 100%;
       float: none;
-      margin:none;
+      margin: none;
     }
   }
   .align-right {
-    float:right;
+    float: right;
     max-width: 40%;
     margin: 0 1em 0 0;
     @include media($bigger) {
@@ -165,7 +171,7 @@
     @include media($tiny) {
       max-width: 100%;
       float: none;
-      margin:none;
+      margin: none;
     }
   }
   .align-center {
@@ -180,7 +186,7 @@
     @include media($tiny) {
       max-width: 100%;
       float: none;
-      margin:none;
+      margin: none;
     }
   }
   div.align-center {
@@ -217,7 +223,8 @@
     h1 {
       color: black;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
       h1 {
         color: $red;
@@ -243,7 +250,8 @@
   }
   a {
     text-decoration: none;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
     }
   }

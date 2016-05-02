@@ -106,7 +106,8 @@
   i {
     text-decoration: none;
     color: $dark-gray !important;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
       color: $red;
     }
@@ -185,7 +186,7 @@
     position: absolute;
     top: 370px;
     z-index: 20;
-    color:#fff;
+    color: #fff;
     font-size: 1em;
     text-shadow: 1px 1px 2px #000;
     @include media($bigger) {
@@ -244,7 +245,8 @@
         padding: 17px 20px 20px 0;
         color: #fff;
         text-decoration: none;
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
         color: $red;
           text-decoration: none;
       }
@@ -385,7 +387,7 @@
   a {
     text-decoration: underline;
     &:hover,
-    &focus {
+    &:focus {
       text-decoration: none;
     }
   }
