@@ -34,32 +34,26 @@ permalink: /
       <strong>Delivery</strong> is the strategy.
     </h1>
     <p>
-      Built in the spirit of America's top tech startups, 18F is a team of top-notch designers, developers, and product specialists inside the <a href="http://gsa.gov">General Services Administration,</a> headquartered at 18 and F streets in Washington, D.C. 18F is a civic consultancy for the government, inside the government, enabling agencies to rapidly deploy tools and services that are easy to operate, cost efficient, and reusable.
+      18F is an office inside the General Services Administration that helps other federal agencies build, buy, and share efficient and easy-to-use digital services. We’re a team of technology experts that work with agencies to diagnose problems and then work alongside agency teams to find the right solutions.
     </p>
     <p>
-      We are transforming government from the inside out, creating cultural change by working with teams inside agencies who want to <strong>create great services for the public.</strong>
+      Headquartered at 18 and F streets in Washington, D.C., we’re an office of federal employees acting as a civic consultancy for the government. We’re transforming government from the inside out, creating cultural change by working with teams inside agencies who want to <strong>create great services for the public</strong>.
     </p>
   </div>
 </section>
 
 <section class="services" itemprop="makesOffer">
+  {% assign content = site.pages | where:"name","what-we-deliver-home.md" %}
   <div class="header">
     <div class="container-fluid">
-      <h1>our work</h1>
+      <h1>{{ content[0].title }}</h1>
     </div>
   </div>
   <article class="container service-entry" itemprop="department">
-    {% for service in site.data.services %}
-      <div class="service-title">
-        <h1 class="h4">
-          <a href="{{ site.baseurl }}{{ service.link }}/" class="service-title link-alt"
-              itemprop="name">{{ service.display }}</a></h1>
-      </div>
       <div class="service-snippet">
-        <p>{{ service.description }}</p>
-        <p>Learn more about {{ service.cta }}.</p>
+        {{ content[0].content | markdownify }}
       </div>
-    {% endfor %}
+
   </article>
 </section>
 <section id="news" class="blog">
