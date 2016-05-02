@@ -30,12 +30,13 @@ permalink: /
   {% assign content = site.pages | where:"name","what-we-deliver-home.md" %}
   <div class="header">
     <div class="container-fluid">
-      <h1>{{ content[0].title }}</h1>
+      <h1>what we do</h1>
     </div>
   </div>
   <article class="container service-entry" itemprop="department">
       <div class="service-snippet">
         {{ content[0].content | markdownify }}
+        <p>Learn more about <a href="{{ site.baseurl }}/what-we-deliver/">what we can do for your agency.</a></p>
       </div>
 
   </article>
