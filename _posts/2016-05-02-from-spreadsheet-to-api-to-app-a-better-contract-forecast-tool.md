@@ -33,14 +33,14 @@ search and filtering.
 The [GSA Office of Small Business
 Utilization](http://www.gsa.gov/portal/category/21015) (OSBU) is
 required to compile projections of contracting opportunities that
-small, -small disadvantaged, and women-owned businesses may be able to
+small, disadvantaged, and women-owned businesses may be able to
 perform. However, GSA was only publishing their own agency data — thus
 requiring businesses to go to dozens of agency web sites just to find
 forecast information for those agencies.
 
 ![A screenshot of a OSBU's original spreadsheet]({{site.baseurl}}/assets/blog/osbu-forecast/spreadsheet.jpg)
-*OSBU's original vendor forecast featured hundreds of rows of
-difficult-to-sort data*
+*OSBU's original vendor forecast featured thousands of rows of
+complex data*
 
 As 18F began development, we spoke with a variety of small businesses
 across the country to learn what information is most important to them
@@ -55,12 +55,14 @@ on mobile and tablet devices.
 
 Ultimately, 18F used an [API](https://gsaforecast.18f.gov/api/)-first
 approach to build a lightweight, easy-to-use Django application with a
-simple backend that OSBU can use to quickly update forecasts. During
-research and development, we found that GSA and external users had a
-variety of unique use cases; providing an API makes integrations with
-and extensions of the data possible. Additionally, we uploaded five
-additional agencies’ forecasting data into the tool to allow businesses
-to search one time to see a larger universe of results. For vendors who
+simple backend that OSBU can use to quickly update forecasts. With easy 
+updating, vendors have up-to-date forecasting information throughout 
+the year instead of just quarterly. During research and development, 
+we also found that GSA and external users had a variety of unique use cases; 
+providing an API makes integrations with and extensions of the data possible.
+
+Additionally, we uploaded five additional agencies’ forecasting data into 
+the tool to allow businesses to search one time to see a larger universe of results. For vendors who
 prefer to use the spreadsheet, the tool allows users to download
 filtered spreadsheets containing their specific search results.
 
@@ -70,7 +72,7 @@ OSBU Director Jerome Fletcher’s announcement post about the tool [on
 the GSA
 blog](http://gsablogs.gsa.gov/gsablog/2016/03/15/new-gsa-small-business-contracting-forecast-tool-will-drive-community-economic-development/).
 
-![The homepage of the ne OSBU forecast tool]({{site.baseurl}}/assets/blog/osbu-forecast/forecast-tool.jpg)
+![The homepage of the new OSBU forecast tool]({{site.baseurl}}/assets/blog/osbu-forecast/forecast-tool.jpg)
 *The new GSA forecast tool is mobile optimized and allows for
 keyword searching across multiple agencies.*
 
