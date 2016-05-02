@@ -17,5 +17,3 @@ right thing, not just any thing.
 - Platforms built for government
 - A path to becoming a digitally-powered organization
 - Modern digital service techniques
-
-[Learn more about what we can do for your agency.]({{site.baseurl}}/what-we-deliver/)
