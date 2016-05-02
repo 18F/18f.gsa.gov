@@ -98,21 +98,22 @@
   }
 }
 
-  .back {
-    margin-bottom:1.5em;
-    display: inline-block;
-    position: relative;
-    a,
-    i {
-      text-decoration: none;
-      color: $dark-gray !important;
-      &:hover, &:focus {
-        text-decoration: underline;
-        color: $red;
-      }
-      font-size: 0.8em !important;
+.back {
+  margin-bottom:1.5em;
+  display: inline-block;
+  position: relative;
+  a,
+  i {
+    text-decoration: none;
+    color: $dark-gray !important;
+    &:hover, &:focus {
+      text-decoration: underline;
+      color: $red;
     }
+    font-size: 0.8em !important;
   }
+}
+
 .logo {
   height: 150px;
   width: 150px;
@@ -138,8 +139,12 @@
     left: 0px;
     }
 }
+
 .splash {
   @include span-columns(12);
+  .wallpaper {
+    width: 100%;
+  }
   h1 {
     position: absolute;
     top: 370px;
@@ -290,7 +295,7 @@
     height: 100px;
     background-color: $red;
     position: relative;
-  font-size: 1.2em;
+    font-size: 1.2em;
     @extend %heading-text-style;
     @include media($small) {
       height: 80px;
