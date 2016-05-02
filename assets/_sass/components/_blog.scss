@@ -12,7 +12,7 @@
 .blog-title, .service-title {
   @include span-columns(12);
   padding: 15px 0 5px;
-  @include media($tiniest) {
+  @include media($tiny) {
     padding-top: 13px;
     padding-bottom: 3px;
     line-height: 1em;
@@ -29,7 +29,7 @@
       color: $base-link-color;
     }
   }
-  @include media($tiniest) {
+  @include media($tiny) {
     @include span-columns(12);
     padding-bottom: 6px;
     font-weight: 700;
@@ -52,7 +52,7 @@
 .blog-snippet, .service-snippet {
   @include span-columns(9);
   @include omega();
-  @include media($tiniest) {
+  @include media($tiny) {
     @include span-columns(12);
   }
   margin-top: -4px;
