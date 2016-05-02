@@ -26,4 +26,4 @@ appropriated funds from Congress and must charge our partner agencies to
 cover our costs. Funding is set up through [Interagency
 Agreements](https://pages.18f.gov/iaa-forms/).
 
-Do you have a project in mind? Let us know: [inquiries18F@gsa.gov](inquiries18F@gsa.gov)
+Do you have a project in mind? Let us know: [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov)
