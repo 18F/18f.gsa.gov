@@ -1,5 +1,5 @@
 ---
-name: james
+name: james-seppi
 first_name: James
 last_name: Seppi
 full_name: James Seppi
