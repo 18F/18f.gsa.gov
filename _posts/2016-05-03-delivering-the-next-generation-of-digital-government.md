@@ -16,6 +16,8 @@ Transformation Service."
 image:
 ---
 
+*Originally published on [GSA's blog](http://gsablogs.gsa.gov/gsablog/2016/05/03/delivering-the-next-generation-of-digital-government/).*
+
 We are in an era of digital transformation across many different
 industries, including government. Those organizations that have
 successfully led in this area or have fully transformed into digital
@@ -84,4 +86,3 @@ providing cutting-edge technology support to our partner agencies.
 Additional Resources:
 
 -   [Press Release: GSA Stands Up New Service To Solidify Agile, User Centered Approach for the Delivery of Technology](http://www.gsa.gov/portal/content/129918)
--   Technology Transformation Service Order
