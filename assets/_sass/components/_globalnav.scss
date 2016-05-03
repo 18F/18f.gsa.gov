@@ -21,12 +21,13 @@
 	}
 	ul {
 		display: inline-block;
-		margin: 0.9em 0;
+		margin: 0;
 		li {
 			display: inline-block;
 			margin: 0;
 			a {
 				color: $dark-gray;
+				display: block;
 				text-decoration: none;
 				padding: 1em 2em;
 				&:hover, &:focus {
@@ -47,6 +48,7 @@
 			padding: 1em;
 		}
 		ul {
+			border-top: 1px solid $medium-gray;
 			display: block;
 			li {
 				display: block;
@@ -63,7 +65,6 @@
 			color: #767676;
 		  text-decoration: none;
 		  padding: 1em 2em;
-			border-bottom: 1px solid $medium-gray;
 		}
 		.hidden {
 			display: none !important;
@@ -71,10 +72,5 @@
 		.sep {
 			display: none;
 		}
-	}
-}
-.global-nav ul:last-child {
-	@include media($small) {
-		border-top: 1px solid $medium-gray;
 	}
 }
