@@ -8,7 +8,7 @@ city: Austin
 state: Texas
 github: 
 twitter:
-team: 18F
+team: Engineering
 ---
 Prior to joining 18F, James Seppi was the lead developer at the Texas Natural Resources Information System (TNRIS), which is the state’s geospatial data clearinghouse. Before that, he lived briefly in the Andes of Peru, where he and his wife worked as volunteer consultants on a climate adaptation project for a commonwealth of local communities and Engineers Without Borders. He is one of the co-organizers of MaptimeATX, a beginner-focused mapping meetup in Austin.
 
