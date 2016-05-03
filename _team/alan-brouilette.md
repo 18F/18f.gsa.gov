@@ -5,9 +5,9 @@ full_name: Alan Brouilette
 github:
 last_name: Brouilette
 name: alan-brouilette
-role: Product manager
+role: Product Manager
 state: IL
-team:
+team: Product
 twitter:
 ---
 After handing over the first resume they'd ever seen with an e-mail address on it, Alan Brouilette spent eight years at ABC and ESPN Radio as "that kid who understands the Internet." 
