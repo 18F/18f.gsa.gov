@@ -1,0 +1,8 @@
+app:
+  build: ./
+  working_dir: /app
+  volumes:
+    - .:/app
+  command: jekyll serve --host 0.0.0.0 --incremental --trace
+  ports:
+    - "4000:4000"
