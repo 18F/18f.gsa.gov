@@ -5,7 +5,6 @@ layout: bare
 ---
 
 # What we deliver
-<br/>
 
 What we deliver are solutions to your problems. The first step in that
 process is always a thorough exploration of the challenges facing your
