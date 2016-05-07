@@ -8,7 +8,7 @@ city: Washington
 state: D.C.
 github: 
 twitter:
-team: Acqusitions
+team: Acquisitions
 ---
 Steven Reilly's professional life started in law. He had stints at National Public Radio's Office of General Counsel and the U.S. Copyright Office before serving as a law clerk for a federal judge at the Court of Federal Claims.
 
