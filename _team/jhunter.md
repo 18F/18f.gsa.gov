@@ -14,13 +14,15 @@ project:
 - USCIS
 - Design Method Cards
 - 18F Blog
+- Internal Newsletter
 - GovConnect
 - All-Hands Tiger Team
 - Diversity Listening Tour
 - Eligibility Platform Sprint
+- FEC
 ---
 
-Jeannine works on the outreach/communications team, where she tells 18F's story through blog posts, case studies, social media, the website, talking points, and other communication materials. She also works as a content strategist, writing and revising content used on federal government websites, focusing on any or all aspects of the content lifecycle. 
+Jeannine works on the outreach/communications team, where she tells 18F's story through blog posts, case studies, social media, the website, talking points, and other communication materials. She also works on the experience design team as a content strategist, writing and revising content used on federal government websites, focusing on any or all aspects of the content lifecycle. 
 
 "I am passionate about community building and technology," she says. "I want to help audiences beyond the walls of governmental institutions understand how it works and help improve it, and I am excited to share 18F’s successes and the lessons we learn with other federal agencies, the tech industry, and civic tech communities."
 

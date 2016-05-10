@@ -1,5 +1,5 @@
 ---
-title: A Story of an agile workshop
+title: A story of an agile workshop
 date: '2015-02-11'
 layout: post
 image: /assets/blog/agile-workshop/workshop3.jpg
@@ -157,6 +157,7 @@ snacks I'd brought had been devoured by now. I learned something: Hummus
 is a terrible snack for this kind of thing. It’s messy, and you don’t
 want to bring a knife through security.
 
+<br/>
 ## The third sprint
 
 In the final sprint, one story was well underway but wasn't quite done.
