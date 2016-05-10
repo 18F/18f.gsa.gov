@@ -70,7 +70,7 @@ To build this login platform, we’re using modern, user-friendly, strong
 authentication and effective identity proofing technology. This new
 platform will leverage the extensive lessons we’ve gained from agency
 efforts in the past, including lessons learned from our counterparts in
-the UK who built Verify.GOV.UK. More specifically, we will accomplish
+the UK who built GOV.UK Verify. More specifically, we will accomplish
 our goals by:
 
 -   Creating a simple, elegant way for the public to verify their identity, log in to federal government websites, and, if necessary, recover their account
