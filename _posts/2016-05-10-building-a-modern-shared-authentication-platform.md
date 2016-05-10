@@ -9,10 +9,10 @@ tags:
 - security
 excerpt: ""
 description: ""
-image: /assets/blog/login-gov/image01.png
+image: /assets/blog/login-gov/diagram.png
 ---
 
-![A conceptual diagram showing a user using a single token to authenticate with several .gov domains](/assets/blog/login-gov/diagram.png)
+![A conceptual diagram showing a user using a single token to authenticate with several .gov domains]({{site.baseurl}}/assets/blog/login-gov/diagram.png)
 
 _A shared login platform creates easier and more secure
 transactions for the public_
