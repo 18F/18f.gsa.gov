@@ -1,9 +1,8 @@
 ---
-title: "Tackling problems facing cities in collaboration with all levels of government"
+title: "Tackling challenges facing cities in collaboration with all levels of government"
 date: 2016-05-11
 authors:
 - hillary
-- andrewmcmahon
 tags:
 - partners in government
 - digital services movement
