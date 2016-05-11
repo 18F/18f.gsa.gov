@@ -1,5 +1,5 @@
 ---
-title: "Tackling urban problems in collaboration with all levels of government"
+title: "Tackling problems facing cities in collaboration with all levels of government"
 date: 2016-05-11
 authors:
 - hillary
@@ -8,9 +8,11 @@ tags:
 - partners in government
 - digital services movement
 - outreach
-excerpt: "Superpublic, a first-of-its-kind innovation lab, will bring members of federal, state, and local governments together to collaborate with academia and private industry to foster innovative solutions to urban problems."
-description: "Superpublic, a first-of-its-kind innovation lab, will bring members of federal, state, and local governments together to collaborate with academia and private industry to foster innovative solutions to urban problems."
-image:
+- proactive partner
+- economic catalyst
+excerpt: "Superpublic, a first-of-its-kind innovation lab, will bring members of federal, state, and local governments together to collaborate with academia and private industry to foster innovative solutions to problems facing cities."
+description: "Superpublic, a first-of-its-kind innovation lab, will bring members of federal, state, and local governments together to collaborate with academia and private industry to foster innovative solutions to problems facing cities."
+image: /assets/blog/superpublic/50-un-plaza.jpg
 ---
 
 Last October, I had the pleasure to speak at CityLab 2015, an annual
@@ -37,9 +39,12 @@ The first-of-its-kind innovation lab, called
 [Superpublic](http://cityinnovate.org/superpublic/), will bring
 members of federal, state, and local governments together to collaborate
 with academia and private industry to foster innovative solutions to
-urban problems. The 5,000 sq. ft. lab will be located on the top floor
+common city problems. The 5,000 sq. ft. lab will be located on the top floor
 of 50 U.N. Plaza and will host design workshops, prototype development,
 training sessions, and daily coworking.
+
+![An aerial picture of 50 U.N. Plaza]({{site.baseurl}}/assets/blog/superpublic/50-un-plaza.jpg)
+*50 U.N. Plaza, which will house Superpublic.*
 
 “Superpublic presents a unique opportunity to solve common problems that
 persist at all levels of government and demonstrate a model for
