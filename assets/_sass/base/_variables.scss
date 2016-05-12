@@ -3,13 +3,12 @@ $raleway: Raleway,'Helvetica Neue',Helvetica,Arial,sans-serif;
 $open-sans: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 $brand: '18F Nimbus','Helvetica Neue',Helvetica,sans-serif;
 $nimbus: 'Nimbus','Helvetica Neue',Helvetica,sans-serif;
-$typekit: 'nimbus-sans';
 
 // Typography
-$sans-serif: $typekit;
+$sans-serif: $nimbus;
 $serif: $georgia;
 $base-font-family: $sans-serif;
-$header-font-family: $typekit;
+$header-font-family: $nimbus;
 
 // Sizes
 $base-font-size: 1em;
