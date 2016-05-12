@@ -502,11 +502,10 @@
 .headline {
   background-color: #18f;
   color: white;
-  height: 8em;
   clear: both;
   position: relative;
   overflow: visible;
-  padding: 1em 0em 0 11.7em;
+  padding: 1em 0em 1em 11.7em;
   @include media($medium) {
     min-height: 6em !important;
     max-height: auto !important;
@@ -532,7 +531,6 @@
   }
   h1,
   h2 {
-    float: left;
     display: block;
     position: relative;
     clear: both;
