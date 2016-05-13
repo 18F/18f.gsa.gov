@@ -14,7 +14,7 @@ image: /assets/blog/ig/slack-gdrive.jpg
 
 Today the General Services Administration’s Office of Inspector General
 (an independent part of our agency, entrusted with carefully inspecting
-agency operations) published a report on a mistake made in the
+agency operations) [published a report](https://www.gsaig.gov/sites/default/files/ipa-reports/Alert%20Report-GSA%20Data%20Breach%205.12.16.pdf) on a mistake made in the
 configuration of Slack, an online chat tool we use. We discovered and
 remedied this issue a couple of months ago, and **no sensitive
 information was shared inappropriately.**
