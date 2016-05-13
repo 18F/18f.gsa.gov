@@ -1,0 +1,146 @@
+---
+layout: new_default
+permalink: /new/home/
+---
+
+<nav class="clearfix bg-white center">
+  <div class="container">
+    <div class="sm-col m1">
+      <a href="/" class="inline-block">
+        <img src="{{ site.baseurl }}/assets/images/new/logo-18f-black.svg" alt="18f-logo" class="align-middle" width="52">
+      </a>
+    </div>
+    <div class="sm-col-right h5 mb1 sm-mt1">
+      <a href="/" class="btn p1 sm-p2">What we deliver</a>
+      <a href="/" class="btn p1 sm-p2">How we work</a>
+      <br class="sm-hide">
+      <a href="/" class="btn p1 sm-p2">Hire 18F</a>
+      <a href="/" class="btn p1 sm-p2">Join 18F</a>
+      <a href="/" class="btn p1 sm-p2">Blog</a>
+    </div>
+  </div>
+</nav>
+
+<div class="px3 py4"
+  style="background-image: url(https://d262ilb51hltx0.cloudfront.net/max/2000/1*DZwdGMaeu-rvTroJYui6Uw.jpeg)">
+  <div class="container">
+    <div class="clearfix">
+      <div class="col col-12 sm-col-5 p3 bg-navy">
+        <div class="h2 bold white">We're building:</div>
+        <div class="h2 bold mb4 teal">The 21st century digital government</div>
+        <a href="/" class="btn btn-primary">Learn more...</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="px3 py4 navy">
+  <div class="container">
+    <div class="clearfix mxn2">
+      <div class="sm-col sm-col-5 px2">
+        <h2 class="h1 mt0">Delivery is the strategy.</h2>
+      </div>
+      <div class="sm-col sm-col-7 px2">
+        <p class="h3">18F is an office inside the General Services Administration that helps other federal agencies build, buy, and share efficient and easy-to-use digital services. We're transforming government from the inside out, creating cultural change by working with teams inside agencies who want to create great services for the public.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p3 bg-navy white">
+  <div class="container">
+    <h2>What we deliver</h2>
+    <div class="flex flex-wrap">
+      <div class="flex col-6 sm-col-5th border-box center">
+        <div class="p2 sm-p3">
+          <img src="{{ site.baseurl }}/assets/images/new/home4/ico-1.svg" alt="icon 1" width="150">
+          <div class="bold">Custom products to solve your problems</div>
+        </div>
+      </div>
+      <div class="flex col-6 sm-col-5th border-box center">
+        <div class="p2 sm-p3">
+          <img src="{{ site.baseurl }}/assets/images/new/home4/ico-2.svg" alt="icon 2" width="150">
+          <div class="bold">Innovative ways to buy technology</div>
+        </div>
+      </div>
+      <div class="flex col-6 sm-col-5th border-box center">
+        <div class="p2 sm-p3">
+          <img src="{{ site.baseurl }}/assets/images/new/home4/ico-3.svg" alt="icon 3" width="150">
+          <div class="bold">Platforms built for government</div>
+        </div>
+      </div>
+      <div class="flex col-6 sm-col-5th border-box center">
+        <div class="p2 sm-p3">
+          <img src="{{ site.baseurl }}/assets/images/new/home4/ico-4.svg" alt="icon 4" width="150">
+          <div class="bold">A path to becoming a digitally-powered organization</div>
+        </div>
+      </div>
+      <div class="flex col-6 sm-col-5th border-box center">
+        <div class="p2 sm-p3">
+          <img src="{{ site.baseurl }}/assets/images/new/home4/ico-5.svg" alt="icon 5" width="150">
+          <div class="bold">Modern digital service techniques</div>
+        </div>
+      </div>
+      <div class="flex col-6 sm-col-5th border-box sm-hide"></div>
+    </div>
+    <div class="py2">
+      <a href="/" class="h3 btn p1 teal">
+        <span>Learn more about what we deliver</span>
+        <svg class="svg-ico" viewBox="0 0 32 32">
+          <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="p3 bg-white navy">
+  <div class="container">
+    <h2>Blog</h2>
+    <div class="flex flex-wrap mxn3">
+    {% for post in site.posts limit:3 %}
+      <div class="flex col-12 sm-col-4 border-box p3">
+        <div class="border-top border-thick border-teal">
+          <h4 class="gray">{{ post.date | date_to_long_string }}</h4>
+          <h2 class="navy">{{ post.title }}</h2>
+          <p>{{ post.excerpt | strip_html }}</p>
+          <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+<footer class="bg-darken-1 p3">
+  <div class="container">
+    <div class="clearfix mxn2">
+      <div class="col col-12 sm-col-12 md-col-3 px2 mb3">
+        <img src="{{ site.baseurl }}/assets/images/new/logo-18f-black.svg" alt="18f-logo" class="align-middle" width="50">
+        <img src="{{ site.baseurl }}/assets/images/new/logo-gsa.png" alt="gsa-logo" class="align-middle" width="50">
+      </div>
+      <div class="col col-12 sm-col-4 md-col-3 px2">
+        <ul class="list-reset">
+          <li><a href="/" class="h5 bold mb1 block black">What we deliver</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">Hire 18F</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">Join 18F</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col col-12 sm-col-4 md-col-3 px2">
+        <ul class="list-reset">
+          <li><a href="/" class="h5 bold mb1 block black">Open source</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">Standards & policies</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">Developer program</a></li>
+        </ul>
+      </div>
+      <div class="col col-12 sm-col-4 md-col-3 px2">
+        <ul class="list-reset">
+          <li><a href="/" class="h5 bold mb1 block black">Press</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">@18F</a></li>
+          <li><a href="/" class="h5 bold mb1 block black">18F@gsa.gov</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
