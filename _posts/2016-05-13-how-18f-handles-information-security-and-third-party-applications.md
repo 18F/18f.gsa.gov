@@ -59,13 +59,13 @@ happen using a protocol called [OAuth 2.0](http://oauth.net/2/), which
 is an industry-standard authorization framework that helps separate
 applications connect to each other in a secure way. Bottom line: It’s
 not ok to let an external company automatically index and store our
-Google Drive documents. 
+Google Drive documents.
 
 How we responded
 ----------------
 
 Enabling this integration was a mistake, but the consequences were not a
-data breach or hack.
+data breach or hack. While roughly 100 people (inclusive of 18F staff, and our government and public collaborators enabled this connection, it did not provide the full contents of their Google Drives to Slack. Only the files those people pasted into Slack were indexed, while others remained only in Google Drive.
 
 Upon discovering that this integration had been accidentally enabled, we
 immediately removed the Google Drive integration from our Slack, and
