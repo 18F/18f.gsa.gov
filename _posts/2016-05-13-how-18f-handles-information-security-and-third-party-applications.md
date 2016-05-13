@@ -49,17 +49,17 @@ it’s a perfectly fine thing to do.
 
 For us as part of federal government, we need to be very careful about
 how we connect the services we use; we shouldn’t *automatically* connect
-our Slack to our Google Drive.
+our Slack to our Google Drive. We only allow ourselves to share information in
+our 18F Slack that would be ok to make public anyway.
 
-Why not? In short, putting links to Google Drive files in our Slack also
+In short, putting links to Google Drive files in our Slack also
 put those documents on Slack's databases, so that files you import are
 available in Slack for easy searching and reference. Slack makes this
 happen using a protocol called [OAuth 2.0](http://oauth.net/2/), which
 is an industry-standard authorization framework that helps separate
 applications connect to each other in a secure way. Bottom line: It’s
 not ok to let an external company automatically index and store our
-Google Drive documents. We only allow ourselves to share information in
-our 18F Slack that would be ok to make public anyway.
+Google Drive documents. 
 
 How we responded
 ----------------
