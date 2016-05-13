@@ -1,0 +1,59 @@
+name: elasticsearch-rails-ha-gem
+
+child: false
+
+full_name: Elasticsearch for Rails, high availability extensions.
+
+description: If you use Elasticsearch with Ruby on Rails, and you cannot afford downtime while you (re-)build your search indexes, this Gem might help. The library provides Rake tasks that can take advantage of machines with multiple processor cores, building indexes in parallel, and can prepare indexes in advance so that switching between your live indexes is virtually instantaneous.
+
+impact:
+
+tagline: This gem includes extensions to the standard Elasticsearch::Rails Rake tasks for high availability index management.
+
+github: https://github.com/18F/elasticsearch-rails-ha-gem
+
+image:
+
+audience: open source community
+
+owner_type: chapter
+
+business_unit:
+
+tags: tools you can use, rails
+
+stage: active
+
+status: live
+
+testable:
+
+partners:
+-
+
+
+contact:
+- url: https://github.com/18F/elasticsearch-rails-ha-gem/issues
+  text: 18F/elasticsearch-rails-ha-gem issues
+
+
+type: app
+
+parent:
+
+
+links:
+- url: https://rubygems.org/gems/elasticsearch-rails-ha
+  text: elasticsearch-rails-ha RubyGem
+
+
+stack:
+- Ruby
+
+licenses:
+    name: CC0
+    url: https://github.com/18F/elasticsearch-rails-ha-gem/blob/master/LICENSE.md
+
+users:
+- id:
+  user:

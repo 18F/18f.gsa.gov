@@ -1,0 +1,24 @@
+---
+name: calc
+github:
+- 18F/calc
+description: CALC is a tool to help contracting personnel estimate their per-hour
+  labor costs for a contract, based on historical pricing information.
+partners:
+- General Services Administration
+impact: All federal acquisition personnel involved in buying professional services
+stage: live
+milestones:
+- 'November 2014: Initial discovery stage begins'
+- 'November 2014: Begin building alpha'
+- 'March 2015: Name changed from "Hourglass" to "CALC"'
+- 'May 2015: Public beta launched'
+- 'July 2015: Second release with price analysis tools, status changed to live'
+contact:
+- nicholas.brethauer@gsa.gov
+licenses:
+  mirage: Public Domain (CC0)
+links:
+- https://trello.com/b/LjXJaVbZ/hourglass
+- https://calc.gsa.gov
+full_name: CALC

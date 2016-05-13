@@ -1,0 +1,96 @@
+---
+layout: dashboard
+title: Dashboard
+permalink: /dashboard/
+---
+
+{% assign discovery = (site.data.projects | where:"stage","discovery") %}
+{% assign alpha = (site.data.projects | where:"stage","alpha") %}
+{% assign beta = (site.data.projects | where:"stage","beta") %}
+{% assign live = (site.data.projects | where:"stage","live") %}
+{% assign projects = [discovery, alpha, beta, live] %}
+
+<section id="main" class="dashboard">
+  <h1>{{ page.title }}</h1>
+  <p class="lead">
+    We are building digital services for the American people. Follow our progress and get involved here.
+  </p>
+  <section class="dashboard-projects">
+    <div>
+      {% for p in site.data.projects %}
+        {% assign project_name = p[0] %}
+        {% assign project = p[1] %}
+        {% if project.status != "Hold" %}
+        <div class="dashboard-projects-content">
+          <div>
+            <a href="{{ site.baseurl }}/{{ project.permalink }}">
+              <h1>
+                {{ project.full_name }} <i class="fa fa-chevron-right"></i>
+                <i class="fa fa-chevron-right"></i>
+                <span class="status {{ project.stage }}">
+                  {% if project.stage %}{{ project.stage }}{% else %}unknown{% endif %}
+                </span>
+              </h1>
+            </a>
+          </div>
+          <div>
+            <p>
+            {% if project.description %}
+              {{ project.description }}
+            {% else %}
+              Project description coming soon.
+            {% endif %}
+            </p>
+          </div>
+          <div>
+            <p>
+            {% if project.partners.size == 1 %}
+              Partner: 
+            {% else %}
+              Partners: 
+            {% endif %}
+            {% if project.partners %}
+              {% include list-partners.html style="strong" %}
+            {% else %}
+              Coming soon
+            {% endif %}
+            </p>
+            {% if project.github %}
+              {% if project.github.first.name %}
+                {% assign repo_name = project.github.first.name %}
+              {% else %}
+                {% assign repo_name = project.github.first %}
+              {% endif %}
+              <p>
+                <i class="fa fa-github-alt"></i> / <a class="github-url" href="https://github.com/{{repo_name}}">Code</a> / 
+              </p>
+            {% endif %}
+            <p>
+              <i class="fa fa-bar-chart"></i> / <a href="{{ site.baseurl }}/{{ project.permalink }}">Metrics</a> / 
+            </p>
+            {% capture blog %}
+              {{ project.blogTag | default: project.blog }}
+            {% endcapture %}
+            {% assign tags = blog | split: ',' %}
+            {% if tags.size > 0 %}
+              <p>
+                <i class="fa fa-newspaper-o"></i> /
+                <span class="blog-tags" itemprop="keywords">
+                {% for t in tags %}
+                  <a href="https://18f.gsa.gov/tags/{{ t | strip }}">News</a> /
+                {% endfor %}
+                </span>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  <section class="dashboard-contact">
+    <p>
+      Questions? Feedback? Curious about getting a dashboard like this for your agency?</br> <a href="mailto:18f@gsa.gov">Email us</a> or <a href="https://github.com/18F/dashboard/issues/new">open an issue</a> on GitHub.
+    </p>
+  </section>
+</section>

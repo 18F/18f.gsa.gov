@@ -1,0 +1,22 @@
+---
+name: pulse
+github:
+- 18F/pulse
+- 18F/domain-scan
+description: A lightweight dashboard that uses the official .gov domain list to measure
+  HTTPS integration and participation in the Digital Analytics Program.
+partners:
+- General Services Administration
+stage: beta
+milestones:
+- 'April 2015: 18F began work on project'
+- 'May 2015: Site launched and developed in the open'
+- 'June 2015: Pulse.CIO.gov announced'
+contact:
+- pulse@cio.gov
+licenses:
+  pulse: Public Domain (CC0)
+links:
+- https://pulse.cio.gov
+- https://github.com/18F/pulse
+full_name: Pulse
