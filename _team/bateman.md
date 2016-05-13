@@ -24,4 +24,4 @@ As Director of Operations, he manages “the team that makes it easier for the r
 
 How does he view his role?
 
-“Most of what I do is directly traffic and calming people down. I view as very valuable work,” he said.
+“Most of what I do is directing traffic and calming people down. I view it as very valuable work,” he said.

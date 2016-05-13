@@ -60,4 +60,4 @@ open source software to get the job done.
 We’ll be talking more about this new service in the coming weeks, but
 for now you can get more details from GSA Administrator Denise Turner
 Roth’s [post on the GSA
-blog](https://18f.gsa.gov/2016/05/03/delivering-the-next-generation-of-digital-government/).
+blog](http://gsablogs.gsa.gov/gsablog/2016/05/03/delivering-the-next-generation-of-digital-government/).
