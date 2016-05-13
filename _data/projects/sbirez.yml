@@ -1,0 +1,17 @@
+---
+name: sbirez
+github:
+- 18F/afsbirez
+description: An application to simplify, streamline, and unify the Small Business
+  Innovation Research application process.
+partners:
+- Air Force
+impact: To encourage new small businesses to work with the Federal Government.
+stage: alpha
+milestones:
+- 'May 2014: 18F began work on project'
+contact:
+- david.best@gsa.gov
+licenses:
+  sbirez: Public Domain (CC0)
+full_name: SBIR-EZ

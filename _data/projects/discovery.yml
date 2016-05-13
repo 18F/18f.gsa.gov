@@ -1,0 +1,25 @@
+---
+name: discovery
+github:
+- 18F/discovery
+description: Market research tool for the OASIS procurement vehicle, which serves
+  contracting specialists throughout the U.S. Federal Government.
+partners:
+- General Services Administration
+impact: 
+stage: beta
+milestones:
+- 'May 2014: Initial Discovery stage began for task order generator project'
+- 'June 2014: Project pivoted based on user interviews and Discovery stage began for
+  market research tool'
+- 'July 2014: Work on Alpha stage began for market research tool'
+- 'November 2014: Alpha work complete'
+- 'February 2015: Name changed from "Mirage" to "Discovery"'
+contact:
+- josh.ruihley@gsa.gov
+licenses:
+  mirage: Public Domain (CC0)
+links:
+- http://gsa.gov/oasis
+- https://discovery.gsa.gov
+full_name: 'Discovery: OASIS Market Research Tool'
