@@ -91,3 +91,5 @@ security of our tools and products. We’re thankful that the problem
 didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
+
+*Editors note:* This post was updated on 2016-05-13 at 7pm Eastern Daylight Time.
