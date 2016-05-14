@@ -65,7 +65,7 @@ How we responded
 ----------------
 
 Enabling this integration was a mistake, but the consequences were not a
-data breach or hack. While roughly 100 people (inclusive of 18F staff, and our government and public collaborators enabled this connection, it did not provide the full contents of their Google Drives to Slack. Only the files those people pasted into Slack were indexed, while others remained only in Google Drive.
+data breach or hack. While roughly 100 people enabled this connection, it did not provide the full contents of their Google Drives to Slack. Only the files those people pasted into Slack were indexed, while others remained solely in Google Drive.
 
 Upon discovering that this integration had been accidentally enabled, we
 immediately removed the Google Drive integration from our Slack, and
@@ -92,4 +92,4 @@ didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
 
-*Editors note:* This post was updated on 2016-05-13 at 7pm Eastern Daylight Time.
+*Editors note:* This post was updated on 2016-05-13 at 5pm Pacific Daylight Time.
