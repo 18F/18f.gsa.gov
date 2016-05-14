@@ -7,8 +7,8 @@ authors:
 tags:
 - security
 - collaboration tools
-excerpt: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge **no sensitive information was shared inappropriately."
-description: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge **no sensitive information was shared inappropriately."
+excerpt: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge no sensitive information was shared inappropriately."
+description: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge no sensitive information was shared inappropriately."
 image: /assets/blog/ig/slack-gdrive.jpg
 ---
 
@@ -40,7 +40,7 @@ option](https://get.slack.help/hc/en-us/articles/205875058-Sharing-Google-Drive-
 that allowed our Slack to automatically provide document previews when
 we sent each other links to our GSA Google Drive documents. In March
 2016, we realized this option was active and it shouldn’t have been — so
-we disabled the option and took further steps to correct the issue.
+we disabled the option and took further steps (described below) to correct the issue.
 
 You might wonder why this was an issue at all, because this Google Drive
 preview is an ordinary Slack option that many companies and groups
@@ -92,4 +92,4 @@ didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
 
-*Editors note:* This post was updated on 2016-05-13 at 5pm Pacific Daylight Time.
+*Editors note:* This post was last updated on 2016-05-13 at 5pm Pacific Daylight Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
