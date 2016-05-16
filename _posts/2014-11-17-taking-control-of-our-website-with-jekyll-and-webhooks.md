@@ -119,7 +119,7 @@ Which produces:
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 
-Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed/) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
+Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xml) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
 
 For example, the below IFTTT recipe will email you every time 18F publishes something:
 
