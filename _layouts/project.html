@@ -9,7 +9,7 @@ layout: bare
 -->
 
 {% assign project = page.project %}<section class="dashboard-project">
-  <nav><a href="{{ site.baseurl }}/"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to main dashboard</a></nav>
+  <nav><a href="{{ site.baseurl }}/dashboard/"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to main dashboard</a></nav>
   <h1>{{ project.full_name }} <span class="status {{ project.stage }}">{% if project.stage %}{{ project.stage }}{% else %}unknown{% endif %}</span></h1>
   <p>{% if project.description %}{{ project.description }}{% else %}Project description coming soon.{% endif %}</p>
   <p class="project-contact">Contact:
@@ -166,7 +166,3 @@ layout: bare
 
   </div>
 </section>
-
-
-
-{{ content }}
