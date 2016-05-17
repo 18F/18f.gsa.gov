@@ -59,6 +59,9 @@
   p.authors {
     margin-bottom: 0.4em;
   }
+  a {
+    font-weight: 700;
+  }
 }
 .service-snippet {
   width: 100%;
@@ -269,7 +272,6 @@
 
 .blog-entry, .blog-posting {
   .authors {
-    font-style: italic;
     img {
       margin-bottom: -5px;
       margin-left: 7px;
