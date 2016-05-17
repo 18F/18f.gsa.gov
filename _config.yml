@@ -97,4 +97,4 @@ collections:
 full_rebuild: true
 
 feed:
-  path: /feed/index.xml
+  path: /feed.xml

@@ -1,0 +1,31 @@
+---
+name: api-data-gov
+github:
+- 18F/api.data.gov
+- NREL/api-umbrella
+description: 'A hosted, shared-service that provides an API key, analytics, and proxy
+  solution for government web services. We are currently accepting clients for this
+  free service: contact us to learn more.'
+partners:
+- Census
+- Federal Communications Commission
+- U.S. Food and Drug Administration
+- General Services Administration
+- National Renewable Energy Laboratory
+- Regulations.gov
+- Department of Agriculture
+stage: beta
+impact: 2,800 API users and 66 million API requests served since July 2013
+milestones: 
+contact:
+- api.data.gov@gsa.gov
+licenses:
+  fbopen: Public Domain (CC0)
+links:
+- https://api.data.gov
+- https://api.data.gov/metrics
+- https://api.data.gov/about
+- https://nrel.github.io/api-umbrella/
+blog:
+- API
+full_name: api.data.gov

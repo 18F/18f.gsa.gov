@@ -1,0 +1,17 @@
+---
+name: peacecorps-site
+github:
+- 18F/peacecorps-site
+description: A redesign of peacecorps.gov, offering a new, user-focused experience
+  for users.
+partners:
+- Peace Corps
+impact: 7,000 Peace Corps Volunteers in the field, hundreds of thousands Prospective/Returned
+  Volunteers, friends, and family.
+stage: beta
+contact:
+- sean.herron@gsa.gov
+licenses: 
+links:
+- https://beta.peacecorps.gov
+full_name: PeaceCorps.gov

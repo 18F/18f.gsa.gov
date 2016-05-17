@@ -14,7 +14,7 @@
 <!-- RSS feeds
 ================================================== -->
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed.xml" />
 
 <!-- Twitter and OpenGraph data
 ================================================== -->
@@ -52,7 +52,7 @@
 {% else %}
   <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.png" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/18F-Logo-L.png" />
 {% endif %}
 
 

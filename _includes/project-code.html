@@ -1,0 +1,28 @@
+{% if current_url.name && current_url.description %}
+  {% assign full_repo_name = current_url.name %}
+  {% assign repo_name = current_url.name | split: "/" | last %}
+  {% assign repo_desc = current_url.description %}
+{% else %}
+  {% assign full_repo_name = current_url %}
+  {% assign repo_name = current_url | split: "/" | last %}
+{% endif %}
+<div class="{{ repo_name | replace: ".", "-" }} repo">
+  <h1><i class="fa fa-github-alt"></i> <a class="github-url" href="https://github.com/{{ full_repo_name }}">{{ full_repo_name }}</a></h1>
+{% if repo_desc %}
+  <p>{{ repo_desc }}</p>
+{% endif %}
+  <ul>
+    <li class="issues"><i class="fa fa-exclamation-circle"></i> Issues: </li>
+    <li class="stars"><i class="fa fa-star"></i> Stars: </li>
+    <li class="forks"><i class="fa fa-code-fork"></i> Forks: </li>
+    {% if current_license[repo_name] %}
+      {% if current_license[repo_name].name %}
+        {% assign license_name = current_license[repo_name].name %}
+      {% else %}
+        {% assign license_name = current_license[repo_name] %}
+      {% endif %}
+      {% capture branch %}{% if current_branch %}{{ current_branch | map: repo_name }}{% else %}master{%endif%}{% endcapture %}
+        <li><i class="fa fa-legal {{ repo_name }}"></i> License: <a href="https://github.com/{{ full_repo_name }}/blob/{{ branch }}/LICENSE.md">{{ license_name }}</a></li>
+    {% endif %}
+  </ul>
+</div>

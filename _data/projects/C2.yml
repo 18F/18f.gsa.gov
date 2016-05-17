@@ -1,0 +1,27 @@
+---
+name: C2
+github:
+  name: 18F/C2
+  description: an approval process automation tool
+description: an approval process automation tool
+partners:
+- GSA National Capital Region
+- 18F
+- GSA Common Acquisition Platform
+stage: live
+impact: For the GSA use cases alone, Communicart could be used by over 80,000 U.S.
+  Federal Government purchase card holders.
+milestones: 
+contact:
+- url: https://cap.18f.gov/feedback
+  text: C2 support
+- url: https://github.com/18F/C2/issues
+  text: C2 GitHub issues
+licenses:
+  C2:
+    name: CC0-1.0
+    url: https://github.com/18F/C2/blob/master/LICENSE.md
+links:
+- url: https://cap.18f.gov/
+  text: C2 website
+full_name: C2
