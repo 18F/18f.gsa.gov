@@ -6,8 +6,8 @@ authors:
 tags:
 - web design standards
 - design
-excerpt: "Andrew Miller, a user-interface designer and front-end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."
-description: "Andrew Miller, a user-interface designer and front-end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."
+excerpt: "Andrew Miller, a user-interface designer and front end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."
+description: "Andrew Miller, a user-interface designer and front end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."
 image: /assets/blog/web-design-standards/cia-redesign.jpg
 ---
 
@@ -22,7 +22,7 @@ emailing us.
 
 We also received one slightly less traditional submission: Andrew
 Miller, a user-interface designer and
-front-end web developer working with Sandia National Labs, decided to
+front end web developer working with Sandia National Labs, decided to
 use the Draft Standards to [reimagine
 cia.gov](https://medium.com/organizer-sandbox/let-s-redesign-the-u-s-government-cia-gov-efe2070c8146#.7x1cex4k0)
 as well as a prototype for a new [mobile and web
@@ -72,7 +72,7 @@ quantify the effect of following the standards. Some of the examples
 were initiatives that were new and didn't have an "old" version. So I
 wanted to apply the visual standards with a government household name,
 but one that wouldn't necessarily be on the shortlist for redesign. I
-wanted to excite people, and to show that ANY government website can
+wanted to excite people and to show that ANY government website can
 take a page from the CIO Government Playbook and Draft Standards.
 
 As for the IRS mock redesign, I spent some time at
@@ -105,8 +105,8 @@ intuitive designs can still be attractive.
 
 **MK: What has the reaction been?**
 
-**AM:** I don't want to jinx myself and say 100% of the reaction has been
-positive, but barring a barrage of negative comments, 99% of the content
+**AM:** I don't want to jinx myself and say 100 percent of the reaction has been
+positive, but barring a barrage of negative comments, 99 percent of the content
 has been well received. People have told me that they didn't notice the
 design of government websites before, but seeing the art of the
 possible, they now recognizing it everywhere. Some didn't realize just
