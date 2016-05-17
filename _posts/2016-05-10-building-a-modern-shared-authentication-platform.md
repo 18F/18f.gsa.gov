@@ -18,7 +18,7 @@ _A shared login platform creates easier and more secure
 transactions for the public_
 
 Last week, GSA launched a new, permanent home for 18F — the [Technology
-Transformation Service](https://gsa.gov/tts), whose mission is to
+Transformation Service](http://gsa.gov/tts), whose mission is to
 improve the public’s experience with the American government by helping
 federal agencies build, buy, and share technology. One of the new
 organization’s first undertakings is to tackle the inconsistent,
