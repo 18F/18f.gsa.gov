@@ -20,8 +20,8 @@ traditional approaches like filing [GitHub
 issues](https://github.com/18F/web-design-standards/issues) and
 emailing us.
 
-We also received one slightly less traditional submission: [Andrew
-Miller](http://www.iamandrewmiller.com/), a user-interface designer and
+We also received one slightly less traditional submission: Andrew
+Miller, a user-interface designer and
 front-end web developer working with Sandia National Labs, decided to
 use the Draft Standards to [reimagine
 cia.gov](https://medium.com/organizer-sandbox/let-s-redesign-the-u-s-government-cia-gov-efe2070c8146#.7x1cex4k0)
