@@ -1,0 +1,10 @@
+<div class="project-list">
+  <h3>Projects currently in this phase:</h2>
+  <ul>
+  {% for project in site.data.projects %}
+    {% if project[1]['stage'] == include.stage %}
+    <li><a href="{{site.baseurl}}/project/{{project[0]}}">{{ project[1]['full_name'] }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+</div>
