@@ -21,7 +21,6 @@
 .blog-meta {
   @include span-columns(3);
   a {
-    font-weight: 700;
     text-decoration: none;
     &:hover,
     &:focus {
@@ -58,9 +57,6 @@
   margin-top: -4px;
   p.authors {
     margin-bottom: 0.4em;
-  }
-  a {
-    font-weight: 700;
   }
 }
 .service-snippet {
