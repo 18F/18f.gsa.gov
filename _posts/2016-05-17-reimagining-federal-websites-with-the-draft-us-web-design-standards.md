@@ -119,7 +119,7 @@ feedback, then I've been successful.
 **MK: What advice would you give to another designer who wanted to attempt the same feat?**
 
 **AM:** My advice to other designers who want to do what I've done: Just go
-for it! Don't get hung up on minor details, don't over-think it, don't
+for it! Don't get hung up on minor details, don't overthink it, don't
 spend too much time perfecting every pixel. That’s not the point and
 more importantly, it’s not agile. I only spent one weekend doing all the
 work for the cia.gov redesign.
@@ -139,7 +139,7 @@ into the work 18F, the USDS, and others are doing.
 find it. Inspiration for me usually happens after designing something
 horrible for the 20th time and almost quitting. I am always looking for
 it though on design blogs, Dribbble, Behance, etc. Some would say
-inspiration comes when you least expect it; walking, in the shower, on
+inspiration comes when you least expect it: walking, in the shower, on
 vacation, doing something mundane. But that spontaneous design
 inspiration only comes to me when my brain deconstructs designs I've
 seen, and pieces together a combination of many designs. So being
