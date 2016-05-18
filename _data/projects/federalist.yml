@@ -1,0 +1,20 @@
+---
+name: federalist
+full_name: Federalist
+stage: beta
+description: Federalist is a unified interface for publishing static government websites.
+  It automates common tasks for integrating GitHub, Amazon Web Services and content
+  editing to provide a simple way for developers to launch new websites or more easily
+  manage existing ones.
+partners:
+- GSA
+licenses:
+  federalist:
+    name: CC0
+    url: https://github.com/18F/federalist/blob/master/LICENSE.md
+links:
+- url: https://federalist.18f.gov
+  text: Federalist site
+contact:
+- url: mailto:david.cole@gsa.gov
+  text: David Cole

@@ -1,0 +1,66 @@
+name: cg-deck
+
+child: true
+
+full_name: Cloud Foundry web console
+
+description: A web console for managing Cloud Foundry apps
+
+impact:
+
+tagline:
+
+github: https://github.com/18F/cg-deck
+
+image:
+
+audience: agency partners
+
+owner_type: business-unit
+
+business_unit: products-and-platforms
+
+tags: cloud.gov, platforms
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+
+contact:
+- cloud-gov-support@gsa.gov
+
+team:
+- mogul
+- msecret
+- dlapiduz
+- jcscottiii
+- maya
+- afeld
+
+type: app
+
+parent: cloud-gov
+
+links:
+- url: https://docs.cloud.gov/
+  text: Cloud.gov documentation
+  category: guide
+- url: https://cloud.gov
+  text: Cloud.gov
+  category: app
+- url: https://console.cloud.gov/
+  text: Console for managing Cloud Foundry apps
+  category: app
+
+
+stack:
+-
+
+users:
+- id:
+  user:

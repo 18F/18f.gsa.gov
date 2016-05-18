@@ -1,0 +1,29 @@
+---
+name: useiti-report
+full_name: The United States Extractives Industries Transparency Initiative (USEITI)
+stage: beta
+description: |
+  This site and open data portal supports the President’s Open Gov Partnership National Action Plan commitment to the Extractive Industries Transparency Initiative.
+partners:
+- U.S. Department of the Interior
+milestones:
+- July 2014 - 18F began work on project
+- September 2014 Alpha site launched
+- December 2014 Beta site launched
+- December 2015 First annual report due
+impact: |
+  Revenue from the sale of natural resources on Federal lands totaled $97.5 billion between 2003 to 2013.
+licenses:
+  doi-extractives-data:
+    name: CC0-1.0
+    url: https://github.com/18F/doi-extractives-data/blob/master/LICENSE.md
+links:
+- url: https://useiti.doi.gov
+  text: U.S. EITI
+- url: https://eiti.org
+  text: Extractive Industries Transparency Initiative (Global site)
+contact:
+- url: mailto:michelle.herzfeld@gsa.gov
+  text: Michelle Hertzfeld
+errors:
+- 'Unknown Team Member: corey.mahoney'

@@ -1,0 +1,65 @@
+name: analytics-reporter
+
+child: true
+
+full_name: Analytics Reporter
+
+description: A lightweight command line tool, written in Node, that downloads reports from Google Analytics, and transforms the report data into more friendly, provider-agnostic JSON.
+
+impact: Manages data reporting process in order to give agencies a tool to make data-driven decisions and gives the public an easy way to see .gov traffic as well as what kinds of technology people are using to access .gov websites.
+
+tagline: Manages data reporting process for analytics.usa.gov.
+
+github: https://github.com/18F/analytics-reporter
+
+image:
+
+audience: agency partners, state and local agencies
+
+owner_type: business-line
+
+business_unit: custom-partner-solutions
+
+tags: analytics, tools you can use
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+- Digital Analytics Program
+- U.S. Digital Service
+- White House
+
+contact:
+- dap@gsa.gov
+
+team:
+- Eric
+- Geramirez
+
+type: app
+
+parent: analytics-usa-gov
+
+links:
+- url: https://analytics.usa.gov
+  text: analytics.usa.gov
+  category: app
+- url: https://18f.gsa.gov/tags/analytics-usa-gov/
+  text: Blog posts related to analytics.usa.gov
+  category: 18f-blog
+
+
+stack:
+-
+
+users:
+- id: http://analytics.phila.gov/
+  user: City of Philadelphia, PA
+  id: http://analytics.usa.gov
+  user: analytics.usa.gov

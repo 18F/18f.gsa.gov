@@ -1,0 +1,58 @@
+name: content-guide
+
+child: false
+
+full_name: 18F's Content Guide
+
+description: We made a comprehensive guide to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works.
+
+impact: Our content guide helps writers create content that's easy to understand.
+
+tagline: Our content guide helps writers create content that's easy to understand.
+
+github: https://github.com/18F/content-guide
+
+image:
+
+audience: public, state and local agencies, agency partners
+
+owner_type: guild
+
+business_unit:
+
+tags: guides, tools you can use
+
+stage: active
+
+status: live
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+-
+
+contact:
+-
+
+team:
+-
+
+type:
+
+parent:
+
+links:
+- url: https://pages.18f.gov/content-guide/
+  text: 18F Content Guide
+- url: https://18f.gsa.gov/tags/communication-tools-and-practices/
+  text: "18F blog posts: Communications tools and practices"
+
+
+stack:
+-
+
+users:
+- id:
+  user:
