@@ -56,37 +56,19 @@ request to the staging branch. With Federalist, we get a preview URL for
 every post, which should simplify our publishing process.
 
 One major tradeoff of moving to Federalist is losing the ability to
-implement new technology. On Blue Beanie Day 2015, we announced
+implement new standards. On Blue Beanie Day 2015, we announced
 18f.gsa.gov was running HTTP/2, the [latest and greatest (and fastest)
 HTTP there is](https://http2.github.io/). We won’t be able to do that
-on Federalist, at least not right away.
+until [CloudFront supports HTTP/2](https://forums.aws.amazon.com/thread.jspa?threadID=173140).
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We&#39;ve rolled out HTTP/2 support for <a href="https://t.co/4qwKpDGWye">https://t.co/4qwKpDGWye</a>, and we are loving it!<br><br>Ever forward. <a href="https://twitter.com/hashtag/bbd15?src=hash">#bbd15</a> <a href="https://t.co/ZSehetnGBD">pic.twitter.com/ZSehetnGBD</a></p>&mdash; 18F (@18F) <a href="https://twitter.com/18F/status/671435022667227138">November 30, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-We also won’t be able to implement other important privacy features like
-[Online Certificate Status Protocol (OCSP)
-stapling](https://en.wikipedia.org/wiki/OCSP_stapling). When accessing
-a site over HTTPS, some browsers automatically ping the certificate
-authority to figure out whether the HTTPS certificate has been revoked.
-OCSP stapling sends that information right alongside the certificate,
-which saves your browser a step, and avoids sharing data about your
-visitors with your certificate authority.
-
-[We’ve wanted to bring OSCP stapling to our users for a
-while](https://github.com/18F/18f.gsa.gov/issues/292), and now it might
-be a little longer. Federalist brings sites to the world using Amazon
-Web Services’ Elastic Load Balancer (ELB) . The ELB is what your browser
-hits when it tries to load a page on a Federalist site. Unfortunately
-Amazon hasn’t added support for OSCP Stapling or
-[HTTP/2](https://forums.aws.amazon.com/thread.jspa?threadID=174612)
-for ELBs.
-
-Despite our site not being able to implement these standards, the upshot
+Despite our site not being able to implement this standard, the upshot
 is that once we can, every site on Federalist can (and maybe even every
 site on cloud.gov). This is an example of the network effect we can be
 part of by using Federalist. Every time we add new sites to the
-platform, find a bug or help implement a feature like OCSP stapling, the
+platform, find a bug or help implement a feature like HTTP/2, the
 other sites benefit from that work. In the meantime, our users can still
 browse our site securely by default.
 
