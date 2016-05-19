@@ -132,6 +132,10 @@ documenting processes is in their job description. Or content
 responsibility is pushed far down the organizational chart where there
 may be higher turnover.
 
+**Making content nominally available:** Scanning a PDF and putting it online does **not** mean it's accessible. (h/t [Lauren Lockwood](https://twitter.com/lflockwood))
+
+**Using the wrong container for content:** Sometimes content is better as a data set than a paragraph. Knowing which one to use is key. (h/t [Lauren Lockwood](https://twitter.com/lflockwood))
+
 Consequences of content and documentation debt
 ----------------------------------------------
 
