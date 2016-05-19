@@ -24,7 +24,6 @@
 //********************************************************
 %heading-text-style {
   color: #fff;
-    text-shadow: 1px 1px 6px #000;
     background-color: #03253e; /* For browsers that don't support opacity */
     background-color: rgba(0,0,0,.4);
 }
@@ -188,7 +187,6 @@
     z-index: 20;
     color: #fff;
     font-size: 1em;
-    text-shadow: 1px 1px 2px #000;
     @include media($bigger) {
       top: 295px;
     }
