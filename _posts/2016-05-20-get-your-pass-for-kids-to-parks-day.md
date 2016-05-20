@@ -8,7 +8,7 @@ tags:
 - every kid in a park
 excerpt: "May 21 is Kids to Park Day— a day organized by the National Park Trust to promote nature, learning, and play. And if you’re lucky to have a fourth grader in your family, you can use the Every Kid in a Park program to access all federal lands and waters for free."
 description: "May 21 is Kids to Park Day— a day organized by the National Park Trust to promote nature, learning, and play. And if you’re lucky to have a fourth grader in your family, you can use the Every Kid in a Park program to access all federal lands and waters for free."
-Image: https://www.flickr.com/photos/glaciernps/23195417702/in/faves-42687493@N06/
+image: /assets/blog/every-kid-in-a-park/glacier-park.jpg
 ---
 
 [![A mountain overlooking a lake in Glacier National
