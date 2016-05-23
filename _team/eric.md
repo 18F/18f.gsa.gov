@@ -11,6 +11,4 @@ twitter:
 team: Delivery
 ---
 
-Eric Mill is a technologist and advocate at 18F who focuses on open government and Internet best practices.
-
-Eric came to 18F from the Sunlight Foundation, where he developed open data infrastructure and policy. Eric cares deeply about open source, open government, and a strong web that works for everyone. 
+Eric Mill is an engineer at 18F focussed on privacy, security, and open government. Previously, Eric was an engineer at the Sunlight Foundation, a non-profit dedicated to government transparency, where he worked on open data infrastructure and policy.
