@@ -15,7 +15,7 @@ Teams that met during this time:
 * Engineering
 * Learn and outreach
 * Operations
-* Product
-* Products and platforms/ Infrastructure
+* Product Management chapter
+* Products and Platforms business unit
 * Talent
 * Transformation services
