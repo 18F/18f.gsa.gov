@@ -6,34 +6,50 @@ day: 2
 ---
 See day one for a description of what unconference sessions are.
 
-### Continuous security
+#### Continuous security
 
-What does continuous security look like, and how does it make products more secure?
+<ul style="list-style: none">
+ <li>What does continuous security look like, and how does it make products more secure?</li>
+</ul>
 
-### Little time, big impact
+#### Little time, big impact
 
-How do we ensure we are not just doing good work, but actually making an impact? What are things that impede impact that we can control?
+<ul style="list-style: none">
+ <li>How do we ensure we are not just doing good work, but actually making an impact? What are things that impede impact that we can control?</li>
+</ul>
 
-### Innovation toolkit brainstorming
+#### Innovation toolkit brainstorming
 
-How do we transfer or share knowledge across administrations so that new people coming into the government can onboard quickly to innovative techniques?
+<ul style="list-style: none">
+ <li>How do we transfer or share knowledge across administrations so that new people coming into the government can onboard quickly to innovative techniques?</li>
+</ul>
 
-### Federal leave benefits
+#### Federal leave benefits
 
-A workshop to go over how parental leave works in the federal government.
+<ul style="list-style: none">
+ <li>A workshop to go over how parental leave works in the federal government.</li>
+</ul>
 
-### How procurement works
+#### How procurement works
 
-An introduction to procurement and how federal acquisitions work.
+<ul style="list-style: none">
+ <li>An introduction to procurement and how federal acquisitions work.</li>
+</ul>
 
-### How can agencies be agile?
+#### How can agencies be agile?
 
-A discussion about how to empower partners who are exploring agile development.
+<ul style="list-style: none">
+ <li>A discussion about how to empower partners who are exploring agile development.</li>
+</ul>
 
-### Threat modeling with STRIDE
+#### Threat modeling with STRIDE
 
-An overview to identifying threats using the STRIDE method. (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.)
+<ul style="list-style: none">
+ <li>An overview to identifying threats using the STRIDE method. (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.)</li>
+</ul>
 
-### Mentoring on the Engineering Team
+#### Mentoring on the Engineering Team
 
-What the engineering team has learned from its mentorship program and how mentorship can be incorporated across the organization.
+<ul style="list-style: none">
+ <li>What the engineering team has learned from its mentorship program and how mentorship can be incorporated across the organization.</li>
+</ul>
