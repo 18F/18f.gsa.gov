@@ -4,3 +4,4 @@ title: "Lunch on your own"
 season: spring
 day: 1
 ---
+Participants bought and ate lunch on their own. No food was provided by GSA to any participant.
