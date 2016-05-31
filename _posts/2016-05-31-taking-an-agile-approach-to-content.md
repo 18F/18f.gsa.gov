@@ -4,7 +4,7 @@ date: 2016-05-31
 authors:
 - nicole-fenton
 - kate
-Tags:
+tags:
 - agile
 - content design
 - design
