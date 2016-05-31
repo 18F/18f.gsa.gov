@@ -5,7 +5,7 @@ layout: post
 authors:
 - andre
 tags:
-- u.s. digital services
+- u.s. digital service
 - digital services movement
 
 excerpt: "The cover story in this month’s Fast
