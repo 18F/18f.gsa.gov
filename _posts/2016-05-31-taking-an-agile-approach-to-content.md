@@ -14,7 +14,7 @@ image:
 ---
 
 So, you’ve recently joined an agile team — congratulations! Here at 18F,
-we work in an agile way — in other words, we base our designs on user
+[we work in an agile way](https://pages.18f.gov/agile/) — in other words, we base our designs on user
 needs, conduct usability testing, iterate quickly, and release MVPs
 (minimum viable products) rather than highly finalized releases.
 
