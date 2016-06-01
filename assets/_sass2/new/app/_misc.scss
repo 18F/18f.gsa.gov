@@ -1,6 +1,6 @@
 // grid
-@media #{$breakpoint-sm} {
-  .sm-col-5th {
+@media #{$breakpoint-md} {
+  .md-col-5th {
     width: (1/5 * 100%);
   }
 }
@@ -24,7 +24,7 @@
 // svg
 .svg-ico {
   fill: currentcolor;
-  width: 1rem;
+  width: 0.85rem;
 }
 
 // type

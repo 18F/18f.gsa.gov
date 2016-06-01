@@ -16,7 +16,7 @@ $purple: #b10dc9 !default;
 $maroon: #85144b !default;
 $white: #fff !default;
 $silver: #ddd !default;
-$gray: #aaa !default;
+$gray: #777 !default;
 $gray-light: #ddd !default;
 $black: #111 !default;
 
@@ -47,7 +47,7 @@ $h1-responsive-max: 3.84rem !default;
 $space-1: .5rem !default;
 $space-2: 1rem !default;
 $space-3: 2rem !default;
-$space-4: 3rem !default;
+$space-4: 4rem !default;
 
 $body-background-color: #fff !default;
 
@@ -75,7 +75,7 @@ $lighten-3: rgba(255, 255, 255, .25) !default;
 $lighten-4: rgba(255, 255, 255, .5) !default;
 
 $border-width: 1px !default;
-$border-radius: 1px !default;
+$border-radius: 2px !default;
 $border-color: #ddd !default;
 
 $table-header-font-weight: $bold-font-weight !default;
@@ -96,4 +96,4 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 $breakpoint-sm-md: '(min-width: 40em) and (max-width: 52em)' !default;
 $breakpoint-md-lg: '(min-width: 52em) and (max-width: 64em)' !default;
 
-$container-width: 1140px !default;
+$container-width: 1100px !default;

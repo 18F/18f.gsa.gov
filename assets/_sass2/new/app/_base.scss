@@ -2,7 +2,7 @@ html {
   font-size: 14px;
 }
 
-@media #{$breakpoint-lg} {
+@media #{$breakpoint-sm} {
   html {
     font-size: 16px;
   }
