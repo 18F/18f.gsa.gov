@@ -5,7 +5,7 @@ layout: post
 authors:
 - emileigh
 tags:
-- u.s. digital services
+- u.s. digital service
 - events
 - digital services movement
 

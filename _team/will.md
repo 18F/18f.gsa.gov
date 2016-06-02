@@ -3,19 +3,17 @@ name: will
 first_name: Will
 last_name: Slack
 full_name: Will Slack
-role: Business Strategy Deputy Director
+role: Products and Platforms Deputy Director
 city: Washington
 state: D.C.
-github:
-twitter:
-team: Strategy
+github: wslack
+twitter: wslack
+team: Products and Platforms
 project:
-- 18F Intake
+- Federalist
 ---
 
-Will manages project intake at 18F. 
-
-In his words: "My job is to help 18F continue to take on great projects as we grow by managing how we represent 18F to potential partners and then represent those possible projects to 18F. I also look at everything from our competing priorities to how we position ourselves within GSA and the wider Digital Coalition. Besides facilitating intake, I help across the board with bureaucracy hacking, documentation, and other projects."
+Will Slack provides managerial support for 18F's Products and Platforms and helps interested federal partners learn about 18F's offerings in the business line. In addition, he directs work on the Federalist platform.
 
 Before 18F, Will worked at an electronic medical records company, where he built infrastructure, managed support, and helped hospitals install and configure enterprise-level software. He holds a bachelor's degree in political economy from Williams College, where he was an [accomplished bell ringer](https://www.youtube.com/watch?v=7Lh9IwmifXs) and singer. Will is a self-taught programmer and actively helps others at 18F learn code and how to use the software we use.
 

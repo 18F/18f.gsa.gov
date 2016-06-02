@@ -8,7 +8,7 @@ city: Washington
 state: D.C.
 github: vdavez
 twitter: vdavez
-team: Consulting
+team: Acquisition
 ---
 
 "I've been a government lawyer who has written code," says Dave. "I'm a coder who has written legal briefs."
