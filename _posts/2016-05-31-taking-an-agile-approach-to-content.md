@@ -52,7 +52,7 @@ It’s sometimes hard to know what to do first — especially if you’re
 working without a clear product vision or set of milestones. Here are a
 few ways to get started:
 
--   **Start with the most important tasks.** Don’t try to audit the entire website in one go or write your style guide in one sitting. Pick the most important sections sections or tasks first, see what you learn, and go from there.
+-   **Start with the most important tasks.** Don’t try to audit the entire website in one go or write your style guide in one sitting. Pick the most important sections or tasks first, see what you learn, and go from there.
 -   **Get feedback early and often.** Once you have a rough draft together, share it with a few of your peers or users, and polish it afterwards. Agile has a faster feedback cycle than traditional publishing models — and that’s great for your content, because the more you talk about it, the more conversational it will be.
 -   **Be okay with leaving some things unfinished.** This can be really hard for content folks, because we’re detail-oriented and love making things consistent. Part of working in an agile way is staying flexible and responding to shifting demands. If you need help with something, but it’s not a priority right now, add it to the backlog and bring it up when the time is right.
 
