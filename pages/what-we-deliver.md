@@ -55,8 +55,7 @@ actively improved to meet your needs. We can help you:
 
 We can embed a fully-dedicated 18F team within your agency to work
 hand-in-hand with you to increase your internal digital capacity, help
-you form new digital habits, and ultimately adopt new ideas into your
-agency’s culture. We can help you:
+you form new digital habits, and ultimately drive organizational culture change. We can help you:
 
 -   Attract, empower, and grow your own digital team.
 -   Adopt a DevOps culture and begin a transition to the cloud.
