@@ -145,9 +145,15 @@ Delivery is the strategy
 
 By building together, building trust, and building in the face of
 uncertainty, we’ve shown why 18F’s motto is “delivery is the strategy.”
-Our product owner at the FEC has said, “We didn’t know where to start, but
+Our product owner at the FEC has said,
+
+<hr/>
+
+<p style="text-align: center;"><strong>“We didn’t know where to start, but
 in the end, we got so much more than a website. We had a complete
-culture change about how to do user-centered design and agile.”
+culture change about how to do user-centered design and agile.”</strong></p>
+
+<hr/>
 
 This culture change is already reverberating in the way the FEC is
 approaching its upcoming round of projects. But it never would have been
