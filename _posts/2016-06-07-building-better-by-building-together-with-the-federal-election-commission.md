@@ -89,13 +89,13 @@ our API first](https://18f.gsa.gov/2015/07/15/openfec-api-update/).
 
 An early release of data tools for heavy users is often a good step.
 This was still a leap of faith for our partners, but it paid off. The
-open data and campaign finance communities were thrilled. An Atlantic
-reporter
-[said](https://twitter.com/andrewmcgill/status/619237229504937984),
-“I’m completely won over. The new FEC API is awesome,” and the Sunlight
+open data and campaign finance communities were thrilled. The Sunlight
 Foundation
 [said](http://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/),
 “The FEC is taking a huge step forward.”
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m completely won over. The new FEC API is awesome. <a href="https://t.co/N6EeKq6HZp">https://t.co/N6EeKq6HZp</a></p>&mdash; Andrew McGill (@andrewmcgill) <a href="https://twitter.com/andrewmcgill/status/619237229504937984">July 9, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This positive response helped build trust that was instrumental in the
 [early release of
@@ -140,20 +140,21 @@ And we’re not done. In the months to come, we plan to add more features:
 -   Plain-language content that’s easy to explore. We’re simplifying the site’s architecture so users can find what they’re looking for faster, whether that’s contribution limits or archived press releases. We’re also deduplicating content, streamlining the 40,000 pages currently on fec.gov, so content is easier to maintain.
 -   More and more campaign finance data, of course
 
+<br/>
+<hr/>
+<p style="text-align: center; font-size: 18px;"><strong>“We didn’t know where to start, but
+in the end, we got so much more than a website. We had a complete
+culture change about how to do user-centered design and agile.”</strong></p>
+<hr/>
+
 Delivery is the strategy
 ------------------------
 
 By building together, building trust, and building in the face of
 uncertainty, we’ve shown why 18F’s motto is “delivery is the strategy.”
-Our product owner at the FEC has said,
-
-<hr/>
-
-<p style="text-align: center;"><strong>“We didn’t know where to start, but
+Our product owner at the FEC has said, "We didn’t know where to start, but
 in the end, we got so much more than a website. We had a complete
-culture change about how to do user-centered design and agile.”</strong></p>
-
-<hr/>
+culture change about how to do user-centered design and agile."
 
 This culture change is already reverberating in the way the FEC is
 approaching its upcoming round of projects. But it never would have been
