@@ -11,6 +11,6 @@ twitter: leahbannon
 team: Delivery
 ---
 
-Leah is a product manager at 18F, where she's worked on a variety of projects that help people access government services in easier ways. She also frequently leads intro to tech workshops at 18F and across the government.
+Leah is a product manager at 18F, where she is currently the project lead for the [betaFEC](https://beta.fec.gov) project. She has worked on a variety of 18F projects that improve the public's access to government services. She also frequently leads intro to tech workshops at 18F and across the government.
 
-Leah is the co-captain of Code for D.C., a local volunteer group of civic hackers. She also organizes the annual D.C. Tech Lady Hackathon + Training Day to inspire more women to attend tech events and learn to code. She has extensive experience with technical writing, user experience, project management, and digital strategy. She received a master's degree from Johns Hopkins University, where she studied behavioral change communication.
+Leah is skilled in digital transformation, user experience, strategic communication, and open data projects. She was a leader of Code for DC, a local volunteer group of civic hackers, before moving to 18F's San Francisco office. She received a master's degree from Johns Hopkins University, where she studied behavioral change communication.
