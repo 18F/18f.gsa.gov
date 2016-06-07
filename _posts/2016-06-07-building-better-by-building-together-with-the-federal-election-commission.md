@@ -37,7 +37,7 @@ often worried they hadn’t found the right information, all the
 information, or the most up-to-date information when navigating the
 site.
 
-In addition, FEC had never worked with user-centered or agile methods.
+In addition, the FEC had never worked with user-centered or agile methods.
 And on top of that, public scrutiny and the need for legal precision
 made most changes to the site a significant challenge. The content was
 sensitive and needed to serve both the public and the experts who used
@@ -58,7 +58,7 @@ work.*
 ### Build together to build it better
 
 We have closely partnered with a small team of knowledgeable, dedicated
-folks from across FEC. They understand the agency’s history and
+folks from across the FEC. They understand the agency’s history and
 priorities, and they have been invaluable in helping us navigate the
 bureaucracy and hone the product vision. To collaborate across agencies,
 as well as across the country (our 18F team is in D.C., New York, San
@@ -69,7 +69,7 @@ Communication and collaboration:
 -   Hold frequent video calls for [sprint](https://en.wikipedia.org/wiki/Sprint_(software_development)) planning, [retros](https://www.scrumalliance.org/community/articles/2014/april/key-elements-of-sprint-retrospective), and for gathering feedback on evolving designs and content
 -   Quickly troubleshoot problems and answer questions using shared Slack channels
 -   Sketch and organize ideas using a digital sticky-note tool and video calls
--   Hold regular training sessions in which both 18F and FEC teach each other something, such as how to run [usability testing](https://methods.18f.gov/usability-testing/) or an intro to political action committees
+-   Hold regular training sessions in which both 18F and the FEC teach each other something, such as how to run [usability testing](https://methods.18f.gov/usability-testing/) or an intro to political action committees
 
 Product management and design:
 
@@ -82,7 +82,7 @@ product by forging deeper bonds and a greater shared understanding.
 
 ### Build trust by starting small
 
-Early in the project, FEC expressed concern about releasing betaFEC
+Early in the project, the FEC expressed concern about releasing betaFEC
 before we finished key features; they hoped to launch a more polished
 first version. We were sympathetic to these concerns, so [we released
 our API first](https://18f.gsa.gov/2015/07/15/openfec-api-update/).
@@ -127,7 +127,7 @@ In the months since our first release of beta.fec.gov, we shipped big
 new features:
 
 -   A [calendar](https://beta.fec.gov/calendar) of election dates, filing deadlines, and commission activity
--   A [suite of guides](https://beta.fec.gov/registration-and-reporting) to help people register their candidacy, create new groups, and get started reporting to FEC
+-   A [suite of guides](https://beta.fec.gov/registration-and-reporting) to help people register their candidacy, create new groups, and get started reporting to the FEC
 -   The ability to download custom CSV files of search results from the website
 -   More datasets for independent expenditures and other forms of outside spending
 -   A new site-wide menu system to help users find more features
@@ -145,13 +145,13 @@ Delivery is the strategy
 
 By building together, building trust, and building in the face of
 uncertainty, we’ve shown why 18F’s motto is “delivery is the strategy.”
-Our product owner at FEC has said, “We didn’t know where to start, but
+Our product owner at the FEC has said, “We didn’t know where to start, but
 in the end, we got so much more than a website. We had a complete
 culture change about how to do user-centered design and agile.”
 
-This culture change is already reverberating in the way FEC is
+This culture change is already reverberating in the way the FEC is
 approaching its upcoming round of projects. But it never would have been
-possible if our partners at FEC weren’t so open minded and dedicated to
+possible if our partners at the FEC weren’t so open minded and dedicated to
 improving the way they serve the American people.
 
 *Interested in helping out? Want to learn more about something? Let us
