@@ -1,6 +1,6 @@
 ---
 title: "Prototype early, prototype often: A lesson from the DATA Act"
-date: YYYY-MM-DD (optional)
+date: 2016-06-14
 authors:
 - boone
 tags:
@@ -10,7 +10,7 @@ tags:
 - agile
 excerpt: ""
 description: ""
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/data-act-implementation/logo.png
 ---
 A lot of people ask us how our projects save money. It’s a tricky
 question to answer because often, the benefits of improved digital
@@ -49,6 +49,8 @@ projects like this. Decisions need to be made, and when you’re trying to
 coordinate multiple agencies with different systems and different
 priorities to do something they’ve never done before, that can take a
 while.
+
+![The DATA Act Logo]({{site.baseurl}}/assets/blog/data-act-implementation/logo.png)
 
 Despite that, Kaitlin Devine, the product owner on the DATA Act
 implementation team, said “the team, a blend of 18F staff, contractors,
@@ -89,6 +91,8 @@ of the DATA Act
 broker](https://github.com/fedspendingtransparency/data-act-broker-backend),
 released in alpha a few weeks ago.
 
+<img alt="The persona for an investigator according to the DATA Act team." src="{{site.baseurl}}/assets/blog/data-act-implementation/persona.png" class="align-left">
+
 18F worked closely with Treasury’s DATA Act program management office to
 implement the DATA Act, which involved more than just the code powering
 the applications. In addition to the development and design work, we
@@ -118,4 +122,4 @@ forward? [Treasury launched an open beta of the new USASpending.gov in
 November 2015, head there and send the team your feedback
 today.](https://openbeta.usaspending.gov/).
 
-![Screenshot of the USASpending.gov open beta.](assets/blog/data-act-implementation/usaspendingbeta.png)
+![Screenshot of the USASpending.gov open beta.]({{site.baseurl}}/assets/blog/data-act-implementation/usaspendingbeta.png)
