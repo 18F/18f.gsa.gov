@@ -23,7 +23,7 @@ government. Our work with the [Digital Accountability and Transparency
 Act (DATA Act)](https://www.usaspending.gov/Pages/data-act.aspx) is a
 good example. The DATA Act is a [“tremendous undertaking …[to]
 standardize how federal agencies report their spending
-data][https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/].” It has the potential to provide unprecedented insight into how the
+data](https://18f.gsa.gov/2016/03/15/treasury-and-the-data-act-full-of-sunshine/).” It has the potential to provide unprecedented insight into how the
 federal government spends money, and it comes with a statutory deadline.
 Any delay in implementation is a delay in cost savings and transparency,
 so we’re trying to help the government deliver on the promise of the
