@@ -5,7 +5,7 @@ authors:
 - emileigh
 tags:
 - content design
-- communications tools and practices
+- communication tools and practices
 excerpt: "Sunsetting can be contentious in government. We manage websites for the public,
 which feels like managing content for everyone’s needs. When you have to think about everyone, that makes it a lot more complicated to delete things."
 description: "Sunsetting can be contentious in government. We manage websites for the public,
