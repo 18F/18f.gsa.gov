@@ -93,7 +93,10 @@ of the DATA Act
 broker](https://github.com/fedspendingtransparency/data-act-broker-backend),
 released in alpha a few weeks ago.
 
-<img alt="The persona for an investigator according to the DATA Act team." src="{{site.baseurl}}/assets/blog/data-act-implementation/persona.png" class="align-left">
+<figure class="align-left">
+	<img alt="The persona for an investigator according to the DATA Act team." src="{{site.baseurl}}/assets/blog/data-act-implementation/persona.png">
+	<figcaption>A persona of a potential user of the DATA Act. The team used personas like this to keep users in mind while working on the DATA Act implementation.</figcaption>
+</figure>
 
 18F worked closely with Treasury’s DATA Act program management office to
 implement the DATA Act, which involved more than just the code powering
