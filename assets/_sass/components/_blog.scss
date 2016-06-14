@@ -294,4 +294,16 @@
     }
   }
 
+  figcaption {
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    float: left;
+    font-style: italic;
+  }
+
+  figure {
+      padding: 5px;
+      display: block;
+    }
+
 }
