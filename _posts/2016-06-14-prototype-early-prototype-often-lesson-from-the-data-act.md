@@ -104,7 +104,7 @@ the applications. In addition to the development and design work, we
 conducted a discovery sprint to better understand the user needs for the
 flagship product, [usaspending.gov](https://www.usaspending.gov). Our
 acquisition team helped Treasury understand how to attract agile,
-user-centered vendors in their Requests for Proposals.The 18F Writing
+user-centered vendors in their Requests for Proposals. The 18F Writing
 Lab helped organize and improve the documentation for the prototype. We
 also conducted workshops about agile product development for various
 groups at Treasury and helped foster a community around the open source
