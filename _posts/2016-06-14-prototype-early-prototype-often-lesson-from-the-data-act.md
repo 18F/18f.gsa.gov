@@ -99,7 +99,7 @@ released in alpha a few weeks ago.
 implement the DATA Act, which involved more than just the code powering
 the applications. In addition to the development and design work, we
 conducted a discovery sprint to better understand the user needs for the
-flagship product, [usaspending.gov](https://usaspending.gov). Our
+flagship product, [usaspending.gov](https://www.usaspending.gov). Our
 acquisition team helped Treasury understand how to attract agile,
 user-centered vendors in their Requests for Proposals.The 18F Writing
 Lab helped organize and improve the documentation for the prototype. We
@@ -124,4 +124,4 @@ forward? [Treasury launched an open beta of the new USASpending.gov in
 November 2015, head there and send the team your feedback
 today.](https://openbeta.usaspending.gov/).
 
-![Screenshot of the USASpending.gov open beta.]({{site.baseurl}}/assets/blog/data-act-implementation/usaspendingbeta.png)
+[![Screenshot of the USASpending.gov open beta.]({{site.baseurl}}/assets/blog/data-act-implementation/usaspendingbeta.png)](https://openbeta.usaspending.gov/)
