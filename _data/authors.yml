@@ -409,10 +409,12 @@ amy-wilson:
   full_name: Amy Wilson
   first_name: Amy
   last_name: Wilson
+  url: https://presidentialinnovationfellows.gov/fellows
 bob-ballance:
   full_name: Bob Ballance
   first_name: Bob
   last_name: Ballance
+  url: https://presidentialinnovationfellows.gov/fellows
 victor-udoewa:
   full_name: Victor Udoewa
   first_name: Victor
@@ -470,3 +472,4 @@ clara-tsao:
   full_name: Clara Tsao
   first_name: Clara
   last_name: Tsao
+  url: https://presidentialinnovationfellows.gov/fellows
