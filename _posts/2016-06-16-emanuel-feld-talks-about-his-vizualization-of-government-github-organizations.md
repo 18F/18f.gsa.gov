@@ -29,7 +29,7 @@ organizations. (Related: my colleague Britta Gustafson’s [great
 piece](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/)
 on 34 reusable projects from 18F.)
 
-We reached out to Emanuel to learn more about why he analyzed government GitHub repos and what we learned.
+We reached out to Emanuel to learn more about why he analyzed government GitHub repos and what he learned.
 
 **Melody Kramer: You recently created a visualization showing how government repos on GitHub are connected and interrelated. Can you talk a little bit about what inspired you to undertake this project?**
 
