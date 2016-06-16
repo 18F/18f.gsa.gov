@@ -6,6 +6,7 @@ authors:
 tags:
 - open source
 - open government
+- github
 excerpt: "What does the global government open source community look like? That’s the question that Emanuel Feld, a civic technologist in Washington DC, wanted to answer when he created a visualization showing how government repos on GitHub are connected and interrelated."
 description: "What does the global government open source community look like? That’s the question that Emanuel Feld, a civic technologist in Washington DC, wanted to answer when he created a visualization showing how government repos on GitHub are connected and interrelated."
 image: /assets/blog/emanuel-feld/github-repositories.jpg
