@@ -19,7 +19,7 @@ Feld used the GitHub API to create a database of government GitHub
 organizations and repositories, and then used that information to
 examine how the government repos interact with one another.
 
-[![A diagram of government GitHub repositories]({{site.baseurl}}/assets/blog/emanuel-feld/github-repositories.jpg)](https://emanuelfeld.github.io/assets/images/repository.svg)
+[![A diagram of government GitHub repositories](https://emanuelfeld.github.io/assets/images/repository.svg)](https://emanuelfeld.github.io/assets/images/repository.svg)
 
 The above graph, for instance, shows how government organizations fork
 code from other government organizations. This information is
