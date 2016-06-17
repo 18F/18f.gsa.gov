@@ -6,17 +6,15 @@ authors:
 tags:
 - analytics.usa.gov
 - analytics
-excerpt: "We’ve expanded
-[analytics.usa.gov](https://analytics.usa.gov/) to include 15(!) more
+excerpt: "We’ve expanded analytics.usa.gov to include 15(!) more
 agency-specific dashboard pages. We now offer agency-specific analytics
 data pages for a total of 25 major federal agencies, and each one is
 accessible from the dropdown menu at the top of the site."
-description: "We’ve expanded
-[analytics.usa.gov](https://analytics.usa.gov/) to include 15(!) more
+description: "We’ve expanded analytics.usa.gov to include 15(!) more
 agency-specific dashboard pages. We now offer agency-specific analytics
 data pages for a total of 25 major federal agencies. Additionally, the
 page to download aggregated data for all participating sites is now
-[analytics.usa.gov/data](https://analytics.usa.gov/data)."
+analytics.usa.gov/data."
 image: /assets/blog/dap/analytics-homepage-2016.png
 ---
 
