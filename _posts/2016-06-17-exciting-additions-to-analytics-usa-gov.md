@@ -20,7 +20,7 @@ page to download aggregated data for all participating sites is now
 image: /assets/blog/dap/analytics-homepage-2016.png
 ---
 
-*Originally publish on DigitalGov.gov.*
+*Originally published on [DigitalGov.gov](http://www.digitalgov.gov/2016/06/17/exciting-additions-to-analytics-usa-gov/).*
 
 We’ve expanded [analytics.usa.gov](https://analytics.usa.gov/) to
 include 15(!) more agency-specific dashboard pages. We now offer
