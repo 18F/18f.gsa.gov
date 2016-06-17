@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby  '2.2.3'
 gem 'redcarpet', '3.2.3'
-gem 'jekyll', '3.1.2'
+gem 'jekyll', '3.1.6'
 gem 'html-proofer'
 
 group :jekyll_plugins do
