@@ -2,7 +2,7 @@
 title: "Build empathy with stakeholder interviews, part 1: Preparation"
 date: 2016-06-20
 authors:
-- andrew
+- andrewmaier
 tags:
 - user research
 - user-centered design
