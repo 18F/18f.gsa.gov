@@ -14,7 +14,7 @@ the results into the team’s shared understanding."
 description: "A few weeks ago, the State Department held its first conference
 dedicated to user experience design, UX Exponential. The conference
 organizers invited me to speak, and in this two-part series, I'd like to
-summarize (as best as possible) the presentation I gave, Foster ThePeople: Building Empathy with Stakeholder Interviews."
+summarize (as best as possible) the presentation I gave, Foster The People: Building Empathy with Stakeholder Interviews."
 image:
 ---
 
