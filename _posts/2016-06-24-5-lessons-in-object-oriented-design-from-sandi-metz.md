@@ -304,7 +304,7 @@ make a change, run the tests.
 
 ## 5. Write the best code possible today and be completely unattached to it and willing to delete it tomorrow
 
-Fact: developers spend far more time changing code existing code than
+Fact: developers spend far more time changing existing code than
 they do writing new code. While we spend a lot of time thinking about
 exciting new features, the reality is that most of our work involves
 changing stuff that's already there. Even those of us who are on
