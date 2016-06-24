@@ -206,8 +206,8 @@ So I was naming values before I even understood what they were.
 Here's an example: in the 99 bottles song, verses start with a number
 and that number goes down by one in the second part of the verse. So
 when I wrote the conditional for that "down by one" value, I called it
-next\_number. When you get to the verse for "1", however, the
-next\_number becomes the string "no more." "No more" is not a number! By
+`next_number`. When you get to the verse for "1", however, the
+`next_number` becomes the string "no more." "No more" is not a number! By
 coming up with a method name before implementing shameless green, I was
 giving an inaccurate name to a concept.
 
@@ -235,7 +235,7 @@ learned in Sandi's workshop is that in many cases, having some
 duplication is better than having zero duplication with code that is
 hard to understand.
 
-## 4. Refactoring code should be safe and boring.
+## 4. Refactoring code should be safe and boring
 
 Sandi's methods all depend on having a test suite that tells you if your
 code is working as you expect it to. Many developers know the adage
@@ -302,7 +302,7 @@ time and energy left for the truly exciting tasks. Let refactoring be a
 place to fall into the gentle rhythm of make a change, run the tests,
 make a change, run the tests.
 
-## 5. Write the best code possible and be completely unattached to it and willing to delete it tomorrow.
+## 5. Write the best code possible today and be completely unattached to it and willing to delete it tomorrow
 
 Fact: developers spend far more time changing code existing code than
 they do writing new code. While we spend a lot of time thinking about
@@ -313,7 +313,7 @@ require changes to existing code. Oftentimes, that existing code is
 something we ourselves wrote. Maybe months ago. Maybe days ago. Maybe
 even hours ago.
 
-To be an object-oriented designer like Sandi Metz, you need to have
+To be an object-oriented design pro like Sandi Metz, you need to have
 complete non-attachment to the code you've written. Due to the [sunk
 cost
 fallacy](https://en.wikipedia.org/wiki/Sunk_costs#Loss_aversion_and_the_sunk_cost_fallacy),
