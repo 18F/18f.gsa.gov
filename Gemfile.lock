@@ -45,7 +45,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.4.0)
+    jekyll-feed (0.5.1)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.10.0)
       jekyll (>= 2.0)
