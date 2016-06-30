@@ -1,6 +1,6 @@
 ---
 title: "6 ways a writing lab will help your organization"
-date: 2016-06-27
+date: 2016-06-30
 authors:
 - kate
 tags:
@@ -27,7 +27,7 @@ Labs increase content quality
 
 By and large, the biggest benefit a writing lab can offer your
 organization is increased content quality. By providing *exactly* the
-type of content help a piece or project needs most, lab editors make
+type of content help a piece or project needs most, Lab editors make
 sure that no detail goes unattended to. And by taking on timeboxed,
 ad-hoc projects, lab editors are able to give attention to projects that
 might not have received it otherwise.
@@ -42,7 +42,7 @@ gotten done.
 Labs also increase awareness of the time it takes to produce and maintain content
 ---------------------------------------------------------------------------------
 
-A writing ab can also provide folks insight into how much time and
+A writing lab can also provide folks insight into how much time and
 effort go into creating and maintaining content.
 
 Folks who aren’t on the content team (or who don’t serve in
