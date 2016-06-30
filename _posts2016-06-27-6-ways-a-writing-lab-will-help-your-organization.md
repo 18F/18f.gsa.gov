@@ -1,6 +1,6 @@
 ---
 title: "6 ways a writing lab will help your organization"
-date: 2016-06-30
+date: 2016-06-27
 authors:
 - kate
 tags:
