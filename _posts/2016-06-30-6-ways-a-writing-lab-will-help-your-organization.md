@@ -7,8 +7,8 @@ tags:
 - content
 - lessons learned
 - how we work
-excerpt: "Wondering if a Writing Lab might be right for your organization? Reviewing the benefits of Labs might help you figure out if starting your own is the way to go."
-description: "Wondering if a Writing Lab might be right for your organization? Reviewing the benefits of Labs might help you figure out if starting your own is the way to go."
+excerpt: "Wondering if a writing lab might be right for your organization? Reviewing the benefits 18F has seen from our Writing Lab might help you figure out if starting your own is the way to go."
+description: "Wondering if a writing lab might be right for your organization? Reviewing the benefits 18F has seen from our Writing Lab might help you figure out if starting your own is the way to go."
 Image: /assets/blog/content/writing-lab-issue.jpg
 ---
 Last month, we posted about [our Guide to the 18F Writing
