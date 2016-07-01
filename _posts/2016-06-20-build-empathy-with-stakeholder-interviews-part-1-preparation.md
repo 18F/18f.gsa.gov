@@ -137,9 +137,7 @@ Even a quick glance over these materials helps ensure that you’ll use
 your time together wisely.
 
 (Aside: If your stakeholder's time is especially limited, consider
-running a [diary
-study](http://www.uxbooth.com/articles/jumpstart-design-research-with-a-diary-study/).
-Ask stakeholders to make brief logs of the tasks they accomplish every
+running a diary study. Ask stakeholders to make brief logs of the tasks they accomplish every
 day over a short period of time.)
 
 ### Draft your questions
