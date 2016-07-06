@@ -52,7 +52,7 @@ Voila! `Mrs. Landingham` was born.
 
 ## Building the bot
 
-We’ll spend the next section talking about bot development. If you’d like to go directly to our future plans, [skip ahead to the "A future for Mrs. Landingham" section."](#a-future-for-mrs.-landingham).
+We’ll spend the next section talking about bot development. If you’d like to go directly to our future plans, [skip ahead to the "A future for Mrs. Landingham" section."](#a-future-for-mrs-landingham).
 
 In the [Ruby section on the Slack integrations page](https://api.slack.com/community#ruby), there are dozens of examples of Slack integrations, though none specifically addressed drip campaigns. (A drip campaign is when messages are sent to users based on a schedule or trigger event, such as number of days after being added to a Slack bot.) This meant we would have to build something from scratch rather than clone and edit an existing bot.
 
