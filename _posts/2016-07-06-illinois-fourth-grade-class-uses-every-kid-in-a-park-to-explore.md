@@ -95,13 +95,13 @@ gymnasium.*
 
 **MK: Did you use any lessons from the Every Kid in a Park website?**
 
-**RG:** We used the first three lessons [on [exploring federal lands
+**RG:** We used the first three lessons (on [exploring federal lands
 and
 water](https://s3.amazonaws.com/ekip-prod/activities/scholastic-one.pdf),
 [environmental
 stewardship](https://s3.amazonaws.com/ekip-prod/activities/scholastic-two.pdf),
 and [our nation’s Native
-people](https://s3.amazonaws.com/ekip-prod/activities/scholastic-three.pdf)]
+people](https://s3.amazonaws.com/ekip-prod/activities/scholastic-three.pdf))
 from Every Kid in a Park’s educator section.
 
 The most impactful was the lesson on stewardship. We went on a field
@@ -112,7 +112,7 @@ classroom to the world around them. Students reflected on parks they had
 visited and many that they hope to visit. I believe this program had a
 huge impact on my students.
 
-**MK: Do you have a favorite park to visit? **
+**MK: Do you have a favorite park to visit?**
 
 **RG:** My favorite National Park is Canyon de Chelly. It is stunning
 and has a rich history that is difficult to understand unless shared by
