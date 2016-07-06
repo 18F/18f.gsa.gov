@@ -16,13 +16,13 @@ image: /assets/blog/slug/image.jpg/png/gif
 ---
 
 Last year, we worked with the Department of the Interior to launch the
-website for [*Every Kid in a Park*](https://everykidinapark.gov/), a
+website for [Every Kid in a Park](https://everykidinapark.gov/), a
 program that gives U.S. fourth graders free access to all federal lands
 and waters — including national parks, forests, wildlife refuges, and
 marine sanctuaries — for a full year. (They can also bring their
 families with them for free.)
 
-The website [*everykidinapark.gov*](https://everykidinapark.gov/) was
+The website [everykidinapark.gov](https://everykidinapark.gov/) was
 designed, developed, and written for 10-year-olds. The site includes a
 comprehensive list of sites, explains how the program works, and shows
 how to print a pass.
@@ -34,8 +34,8 @@ annual open house.
 
 We reached out to Washington Elementary fourth grade teacher Robyn
 Garrett, who led the project, to learn more about how she used national
-parks and [*Every Kid in a
-Park*](https://18f.gsa.gov/tags/every-kid-in-a-park/) in her curriculum.
+parks and [Every Kid in a
+Park](https://18f.gsa.gov/tags/every-kid-in-a-park/) in her curriculum.
 
 **Melody Kramer: Robyn, tell me a little bit about the end of the year
 project you created with your class.**
@@ -44,9 +44,9 @@ project you created with your class.**
 school’s end-of-the-year open house. The goal is to make history real to
 our fourth graders and to let them know it is still all around them.
 
-This year we utilized the [*National Park Service
-website*](https://www.nps.gov/index.htm) and [*Every Kid In a
-Park*](https://everykidinapark.gov/). We used the sites to research and
+This year we utilized the [National Park Service
+website](https://www.nps.gov/index.htm) and [Every Kid In a
+Park](https://everykidinapark.gov/). We used the sites to research and
 connect our study of early American history and the impact our geography
 had on the decisions made by Native Americans and Early settlers.
 
@@ -62,9 +62,9 @@ their speaking and listening skills.
 
 These projects were then displayed for our open house.
 
-![](media/image03.jpg)
+![Models of the Statue of Liberty and other national parks created by the fourth grade students.]({{ site.baseurl }}/assets/blog/every-kid-in-a-park/nps-models.jpg)
 
-*Monuments from National Park sites that were created by fourth graders
+*Monuments from National Park Service sites that were created by fourth graders
 in Monticello, IL.*
 
 **MK: Could you share what students researched and learned for their
@@ -88,20 +88,20 @@ National Parks, which endeared them to President Theodore Roosevelt,
 President Franklin Roosevelt, and John Muir. In turn, they found pages
 of quotes on the websites which we included on another wall of the gym.
 
-![](media/image01.jpg)
+![Stamps for Glacier, Glacier Bay, Canyonlands, and other national parks drawn and colored by the fourth graders.]({{ site.baseurl }}/assets/blog/every-kid-in-a-park/nps-stamps.jpg)
 
 *Students made stamps for their National Park, which hung in the school
 gymnasium.*
 
 **MK: Did you use any lessons from the Every Kid in a Park website?**
 
-**RG:** We used the first three lessons [on [*exploring federal lands
+**RG:** We used the first three lessons [on [exploring federal lands
 and
-water*](https://s3.amazonaws.com/ekip-prod/activities/scholastic-one.pdf),
-[*environmental
-stewardship*](https://s3.amazonaws.com/ekip-prod/activities/scholastic-two.pdf),
-and [*our nation’s Native
-people*](https://s3.amazonaws.com/ekip-prod/activities/scholastic-three.pdf)]
+water](https://s3.amazonaws.com/ekip-prod/activities/scholastic-one.pdf),
+[environmental
+stewardship](https://s3.amazonaws.com/ekip-prod/activities/scholastic-two.pdf),
+and [our nation’s Native
+people](https://s3.amazonaws.com/ekip-prod/activities/scholastic-three.pdf)]
 from Every Kid in a Park’s educator section.
 
 The most impactful was the lesson on stewardship. We went on a field
