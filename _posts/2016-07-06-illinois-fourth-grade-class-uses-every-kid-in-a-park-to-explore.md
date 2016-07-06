@@ -12,7 +12,7 @@ culminating project for their school’s annual open house."
 description: "One fourth grade class in Monticello, Illinois used the
 Every Kid in the Park website to learn more about National Parks and
 create a culminating project for their school’s annual open house."
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/every-kid-in-a-park/nps-stamps.jpg
 ---
 
 Last year, we worked with the Department of the Interior to launch the
