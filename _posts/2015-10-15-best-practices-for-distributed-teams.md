@@ -138,6 +138,8 @@ that clients can communicate with us on whatever platforms they use. We
 know we must work to keep clients involved so there is shared investment
 in the project and its outcome.
 
+Internally, we often announce in Slack when we’re working from home, have a sick family member, or have a doctor’s appointment. This makes it easy for someone to track us down (or know when it’s better to reach out to a backup). Tadhg O’Higgins also had the idea this past summer to include our location or nearby airport code in our Slack handle — this makes it easy for new 18F team members to know what timezone someone else is in, and for veterans to keep track of people traveling away from their home timezone. No one made an official policy to include such locations, but the vast majority of the team adopted them organically — sometimes with creative tweaks like listing when they’re in transit (SFO > DC) or when they’re out of the office (OOO until 12 EST).
+
 For this to work well, we all think of ourselves as remote employees, even if we’re in an office.
 --------------------------------------------------------------------------------------------------
 
