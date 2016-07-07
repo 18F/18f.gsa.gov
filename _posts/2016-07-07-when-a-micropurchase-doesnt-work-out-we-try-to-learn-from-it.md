@@ -8,13 +8,13 @@ tags:
 - acquisition services
 - agile
 - how we work
-excerpt: "A few weeks ago, the 18F acquisitions team ran a public micro-purchase
+excerpt: "Two months ago, the 18F acquisitions team ran a public micro-purchase
 auction to find a vendor to develop a small new feature for 18F's cloud.gov, and for the first time after several successful micro-purchases for other products, the contracted vendor didn’t deliver the code on time. This was very interesting to us we’re early in the life of the micro-purchase platform, and we believe that failure is a great way to learn. In the spirit of experimentation and sharing our lessons, here’s how we went about analyzing this, and here’s what we learned."
-description: "A few weeks ago, the 18F acquisitions team ran a public micro-purchase
+description: "Two months ago, the 18F acquisitions team ran a public micro-purchase
 auction to find a vendor to develop a small new feature for 18F's cloud.gov, and for the first time after several successful micro-purchases for other products, the contracted vendor didn’t deliver the code on time. This was very interesting to us we’re early in the life of the micro-purchase platform, and we believe that failure is a great way to learn. In the spirit of experimentation and sharing our lessons, here’s how we went about analyzing this, and here’s what we learned."
 ---
 
-A few weeks ago, the 18F acquisitions team ran a public [micro-purchase
+Two months ago, the 18F acquisitions team ran a public [micro-purchase
 auction](https://micropurchase.18f.gov/) to find a vendor to develop
 [a small new feature](https://micropurchase.18f.gov/auctions/24) for
 18F's [cloud.gov](https://cloud.gov/), and for the first time after
@@ -31,7 +31,7 @@ Learning through doing
 
 In brief, the way a micro-purchase auction works is that 18F identifies
 a task (a public GitHub issue in an open source project) for auction and
-sets a starting price as high as \$3500. We advertise this opportunity
+sets a starting price as high as $3500. We advertise this opportunity
 to vendors who have registered on our platform, and the vendors bid
 against each other during a short bid period. The lowest bid wins the
 auction.
@@ -78,33 +78,33 @@ a reminder that that this kind of meeting isn’t about assigning blame,
 but instead about considering what happened and how to improve. We
 aligned on the following problem statement:
 
-> *The cloud.gov AWS SQS broker auction was not delivered in the
+> The cloud.gov AWS SQS broker auction was not delivered in the
 > allotted delivery timeframe as we expected it would be based on the
-> requirements. *
+> requirements.
 
 And, we employed the “[5
 Whys](https://www.isixsigma.com/tools-templates/cause-effect/determine-root-cause-5-whys/)”
 technique to get to the root cause. Here’s what what we learned:
 
-1.  *Why 1:* There was a lot more friction/tech debt uncovered when the
+1.  Why 1: There was a lot more friction/tech debt uncovered when the
 vendor started work, which made it difficult to make the
 deliverable behave the way we wanted it to without a lot of
 refactoring.
 
-2.  *Why 2:* This led to much more back and forth than anticipated as we
+2.  Why 2: This led to much more back and forth than anticipated as we
 worked with the vendor to figure out the problem.
 
-3.  *Why 3:* No one anticipated this result because the context of the
+3.  Why 3: No one anticipated this result because the context of the
 ask (the reasons behind the recommended implementation) was not
 clear until the winning vendor started work.
 
-4.  *Why 4:* The vendor waited until after the auction ended to ask
+4.  Why 4: The vendor waited until after the auction ended to ask
 about context and this added to the delay.
 
-5.  *Why 5:* The vendor did this because he didn’t want to give any
+5.  Why 5: The vendor did this because he didn’t want to give any
 other bidders a heads up.
 
-6.  *Why 6 (bonus!):* The vendor didn’t want to give other vendors a
+6.  Why 6 (bonus!): The vendor didn’t want to give other vendors a
 heads up, as he believed this would potentially cause them to
 change their floor bid and outbid him at the last minute.
 
