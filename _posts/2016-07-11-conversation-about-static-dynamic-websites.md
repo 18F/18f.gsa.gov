@@ -12,7 +12,7 @@ description: "Our blog uses Jekyll, a static file generator with a basic templat
 image: /assets/blog/new-jekyll-site/header.png
 ---
 
-Our blog uses [**Jekyll**](http://jekyllrb.com/), a static file
+Our blog uses [Jekyll](http://jekyllrb.com/), a static file
 generator with a basic templating system, as the backend software for
 our site. Deploying our blog posts this way has
 simplified our publishing process.
@@ -77,7 +77,7 @@ for that page.
 and then jams it into a template when​_you_​ ask for a specific page.*
 
 A static site like Jekyll takes a very different approach. Instead of
-using a database, though, it stores the _*​content* in one kind of
+using a database, though, it stores the *content* in one kind of
 file and uses Jekyll to convert them into *other kinds* of files.
 In Jekyll's case, the content is written in a language called Markdown
 with a standard bit of information at the top of the file written in a
@@ -137,7 +137,7 @@ version of the page, every time you make a change to it.
 If you’re curious, WordPress has an excellent page in their
 documentation showing [what is going on behind the scenes when it
 processes a request](https://codex.wordpress.org/Query_Overview).
-Drupal, Joomla, name your CMS, they all have something similar.
+Drupal, Joomla, name your CMS, they all have something similar, even if it's not published.
 
 **Will:** I think I understand how it works; why someone would want to
 use a CMS over a static site generator?
@@ -152,11 +152,10 @@ your writing.
 With a CMS you also get a lot built in that you have to do yourself on a
 static site generator. Jekyll, at least, has support for tags, but our
 ability to list all the tags on a blog post, for example, we had to
-invent ourselves. WordPress has a handy function called
-`get_the_tag_list` that gets a formatted list of tags on the current
+invent ourselves. WordPress has a handy template function called
+[`get_the_tag_list`](https://codex.wordpress.org/Function_Reference/get_the_tag_list) that gets a formatted list of tags on the current
 post. When you put it in a template, each tag is automatically linked to
-its archive page. When we built our tag lister for 18f.gsa.gov we
-modeled it off of how WordPress does it.
+its archive page. [We had to build this feature ourselves](https://github.com/18F/18f.gsa.gov/blob/staging/_layouts/post.html#L22-L29).
 
 **Will:** What are some of the benefits of using a static site over a
 CMS?
@@ -164,10 +163,10 @@ CMS?
 **Greg:** While CMSs come with all those extra features packed in,
 static site generators tend to optimize for simplicity. Some people see
 that as a strong advantage. On 18f.gsa.gov, for example, we have that
-tagging feature but on useiti.doi.gov — also a Jekyll site hosted on
+tagging feature but on [useiti.doi.gov](https://useiti.doi.gov) — also a Jekyll site hosted on
 Federalist — they don’t because they don’t need it, and if they ever do,
 they have the freedom to design the feature as it best suits their
-problem, or use someone else’s solution. With most CMSs, you opt into
+problem, use ours, or someone else’s solution. With most CMSs, you opt into
 those features the way they were designed by the CMS team.
 
 They’re also easier because the content is visible and portable. All the
@@ -186,7 +185,7 @@ backing up databases, database passwords, sensitive configuration
 details like administrator passwords and firewalls. This can be a
 difficult and time-consuming process.
 
-It’s not just moving the site that you have to worry about all those
+It’s not just when moving the site that you have to worry about all those
 things. Security of the database is a constant concern with dynamic
 sites. Databases require work to ensure their security. If your database
 goes away, you have nothing. This means you want to have regular
