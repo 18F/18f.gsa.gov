@@ -1,0 +1,23 @@
+---
+name: myusa
+github:
+- 18F/myusa
+description: A digital services platform for Americans to register, sign in, and manage
+  ongoing transactions with U.S. Federal Government services.
+partners:
+- General Services Administration
+- Department of Homeland Security
+- Small Business Administration
+- Department of Labor
+impact: The millions of Americans who conduct online transactions with U.S. government.
+stage: alpha
+milestones:
+- 'June 2014: 18F began work on project'
+- 'September 2014: Alpha delivered to clients and user testing started'
+contact:
+- myusa@gsa.gov
+licenses:
+  myusa: Public Domain (CC0)
+links:
+- https://my.usa.gov
+full_name: MyUSA

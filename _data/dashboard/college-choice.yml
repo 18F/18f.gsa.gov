@@ -1,0 +1,70 @@
+name: college-choice
+
+child: false
+
+full_name: College Scorecard
+
+description: In September, 18F worked with USDS and the Department of Education on College Scorecard, a clearinghouse to provide the clearest, most accessible, and reliable national data on college cost, graduation, debt, and post-college earnings.
+
+impact: Millions of college applicants, and those who support and advise them, can now make more informed decisions based on data related to college cost, graduation rates, debt, and post-degree earnings.
+
+tagline: We helped build an API and site that helps people make more informed decisions based on data related to college cost, graduation rates, debt, and post-degree earnings.
+
+github: https://github.com/18F/college-choice
+
+image:
+
+audience: public, potential hire
+
+owner_type: business-unit
+
+business_unit: custom-partner-solutions
+
+tags: open government, open data, apis
+
+stage: active
+
+status: live
+
+testable: true
+
+licenses: Public Domain (CC0)
+
+partners:
+- Department of Education
+
+contact:
+- url: mailto:alexandra.bisker@gsa.gov
+  text: Alex Bisker
+
+team:
+- github: ultrasaurus
+- github: shawnbot
+- github: meiqimichelle
+- github: yozlet
+- github: hollyallen
+- github: diego
+
+type: app
+
+parent:
+
+links:
+- url: https://collegescorecard.ed.gov/
+  text: College Scorecard
+- url: https://collegescorecard.ed.gov/data/
+  text: College Scorecard Data
+- url: https://18f.gsa.gov/2015/09/14/college-scorecard-launch/
+  text: "Behind the scenes: Building a new College Scorecard with students"
+
+
+stack:
+  - JavaScript
+  - Jekyll
+  - Ruby
+  - Rails
+  - elasticsearch
+
+users:
+- id:
+  user:

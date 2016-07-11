@@ -8,20 +8,13 @@
 {% include flag.html %}
 
 <section class="container bare">
-
-  <div class="bare-logo" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <a href="/">
-      <i class="icon-18f-logo"></i>
-    </a>
-  </div>
-
-  <div class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+	{% include nav.html %}
+	{% include logo.html %}
+  <div id="main" class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
 
     <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-      <nav class="back"><a href="/news"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to all blog posts</a></nav>
-
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <h1><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
 
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
 
@@ -29,12 +22,12 @@
         Tagged /
         <span class="blog-tags" itemprop="keywords">
           {% for tag in page.tags %}
-            <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}">{{ tag }}</a>
+            <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}</a>
             /
           {% endfor %}
         </span>
       </p>
-
+      {% include byline.html context="page" %}
       {{ content }}
 
     </section>
@@ -43,7 +36,7 @@
         <section class="blog-pagination">
           <div>
             {% if page.previous %}
-              <a href="{{ page.previous.url }}">
+              <a href="{{ site.baseurl }}{{ page.previous.url }}">
                 <h1><i class="fa fa-chevron-left"></i> Previous Post</h1>
                 <p>&ldquo;{{ page.previous.title }}&rdquo;</p>
               </a>
@@ -51,7 +44,7 @@
           </div>
           <div>
             {% if page.next %}
-                <a href="{{ page.next.url }}">
+                <a href="{{ site.baseurl }}{{ page.next.url }}">
                   <h1>Next Post <i class="fa fa-chevron-right"></i></h1>
                   <p>&ldquo;{{ page.next.title }}&rdquo;</p>
                 </a>
@@ -64,14 +57,11 @@
       <h1>Related Posts</h1>
       {% related_posts ul li %}
     </section>
-    <section class="blog-edit">
-     <a href="{{site.editurl}}{{page.path}}">Edit this post</a>
-    </section>
     <aside class="blog-follow-us">
       <h1>Follow the latest news from 18F</h1>
       <ul>
         <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">@18F</a></li>
-        <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a></li>
+        <li><i class="fa fa-rss"></i> <a href="/feed.xml">18F News Feed</a></li>
       </ul>
 
       <!-- <i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a> -->
@@ -82,6 +72,7 @@
 
 </section>
 
+  {% include newsletter.html %}
   {% include footer.html %}
   {% include scripts.html %}
 

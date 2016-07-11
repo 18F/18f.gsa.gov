@@ -1,4 +1,5 @@
 markdown: redcarpet
+highlighter: rouge
 redcarpet:
   syntax_highlighter: rouge
   extensions:
@@ -13,11 +14,27 @@ exclude:
 - CONTRIBUTING.md
 - todo.txt
 - vendor
+- go
+- script
+- Gemfile
+- Gemfile.lock
 
-gems: [jekyll-sitemap]
+gems:
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+  - jekyll-feed
+
+jekyll-archives:
+  enabled:
+    - 'tags'
+  layout: tag_index
+  permalinks:
+    tag: '/tags/:name/'
 
 sass:
   sass_dir: assets/_sass
+  style: compressed
 
 permalink: pretty
 tag_dir: tags
@@ -28,12 +45,56 @@ url: https://18f.gsa.gov
 
 # metadata
 title: 18F Digital Services Delivery
+name: 18F Digital Services Delivery
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+timezone: America/New_York
 
-# blog archive at /news
+# blog archive at /blog
 paginate: 5
-paginate_path: "news/page/:num"
+paginate_path: "blog/page/:num"
+
+#emoji
+gems:
+  - jemoji
+
+emoji:
+  src: "/assets/images"
 
 rss_limit: 20
 
 future: false
+
+# defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+  -
+    scope:
+      collection: team
+    values:
+      layout: profile
+  -
+    scope:
+      type: pages
+    values:
+      layout: bare
+# collections
+collections:
+  team:
+    permalink: /team/:name/
+    output: true
+  press:
+    output: true
+    permalink: /press/:name/
+  cards:
+    output: true
+    permalink: /card/:name/
+
+full_rebuild: true
+
+feed:
+  path: /feed.xml

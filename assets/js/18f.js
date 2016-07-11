@@ -38,32 +38,13 @@ var $buoop = {vs:{i:8,f:10,o:12,s:5}};
 }
 
 
-//For slideshow. Thanks to http://responsiveslides.com/
-$(function() {
-  // $(".rslides").responsiveSlides();
-  $(".rslides").responsiveSlides({
-    auto: true,             // Boolean: Animate automatically, true or false
-    speed: 3000,            // Integer: Speed of the transition, in milliseconds
-    timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
-    pager: false,           // Boolean: Show pager, true or false
-    nav: false,             // Boolean: Show navigation, true or false
-    random: false,          // Boolean: Randomize the order of the slides, true or false
-    pause: false,           // Boolean: Pause on hover, true or false
-    pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-    prevText: "Previous",   // String: Text for the "previous" button
-    nextText: "Next",       // String: Text for the "next" button
-    maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
-    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-    manualControls: "",     // Selector: Declare custom pager navigation
-    namespace: "rslides",   // String: Change the default namespace used
-    before: function(){},   // Function: Before callback
-    after: function(){}     // Function: After callback
-  });
-});
-
 //Initial load of page
-window.onload=function() { sizeContent() };
-
+window.onload=function() {
+  sizeContent();
+  var links = $('.bio a.disabled');
+  disableLinks(links);
+};
+$('.toggle').click(function() { toggleNav() });
 //Every resize of window
 $(window).resize(sizeContent);
 
@@ -71,4 +52,18 @@ $(window).resize(sizeContent);
 function sizeContent() {
     var newHeight = $("#slide").height() - 10 + "px";
     $("#hero").css("height", newHeight);
+}
+function disableLinks(links) {
+  $.each(links, function(index, link) { 
+    $(link).click(function(e) { 
+      e.preventDefault();
+    })
+  });
+}
+
+function toggleNav() {
+  var uls = $('.global-nav ul')
+  var toggles = $('.toggle');
+  var elements = $.merge(uls, toggles)
+  $.each(elements, function(index, element) { $(element).toggleClass('hidden');});
 }

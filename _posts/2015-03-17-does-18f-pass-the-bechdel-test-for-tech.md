@@ -1,24 +1,20 @@
 ---
-title: Does 18F Pass the Bechdel Test for Tech?
+title: Does 18F pass the Bechdel test for tech?
 date: 2015-03-17 14:00:00
 layout: post
 image: /assets/blog/bechdel/team.jpg
-tags: 
-- diversity
+
+tags:
 - how we work
-- bechdel test
-- culture
-- coding
+- culture change
+
+
 authors:
 - elaine
 - melody
-description: "How does the Bechdel Test, originally designed for evaluating works for fiction, apply to technology projects? To pass, a function written by a woman dev must call a function written by another woman dev."
-excerpt: "How does the Bechdel Test, originally designed for evaluating works for fiction, apply to technology projects? To pass, a function written by a woman dev must call a function written by another woman dev."
+description: "How does the Bechdel test, originally designed for evaluating works for fiction, apply to technology projects? To pass, a function written by a woman dev must call a function written by another woman dev."
+excerpt: "How does the Bechdel test, originally designed for evaluating works for fiction, apply to technology projects? To pass, a function written by a woman dev must call a function written by another woman dev."
 ---
-<p class="authors">
-	{% author elaine %} and {% author melody %}
-</p>
-
 Kaitlin Devine, 18F’s Director of Engineering recently noticed this
 tweet:
 
@@ -30,7 +26,7 @@ original Bechdel test, which was created by writer and graphic novelist
 Alison Bechdel. The Bechdel test was originally designed to evaluate
 works of fiction. A work passed if at least one woman had a conversation with another woman about something other than a man.
 
-![The 18F team](/assets/blog/bechdel/team.jpg)
+![The 18F team]({{site.baseurl}}/assets/blog/bechdel/team.jpg)
 
 We decided to see how many 18F projects pass this modified test. To
 pass, a project had to have at least one function written by a woman dev
@@ -69,7 +65,7 @@ projects become Bechdel compliant, we plan to note the change.
 
 The Results:
 
-## BECHDEL WINNERS
+## Bechdel winners
 
 [*Discovery*](https://github.com/18F/discovery) - Market research tool
 for the OASIS procurement vehicle, which serves contracting specialists
@@ -96,7 +92,7 @@ for a contract, based on historical pricing information.
 [*FBOpen*](https://github.com/18F/fbopen)- FBOpen helps small
 businesses search for opportunities to work with the U.S. government.
 
-## ALMOST-BECHDELS
+## Almost Bechdels
 
 [*Data
 Act*](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io) -
@@ -106,7 +102,7 @@ mentions, “There isn't actually any code associated with this right now,
 only static content. We will have some in a few weeks which will pass
 the test.”
 
-## NOT YET 
+## Not yet
 **(Help us change that! You can fork any of the projects below
 and help us out!)**
 

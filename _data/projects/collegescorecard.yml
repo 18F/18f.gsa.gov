@@ -1,0 +1,25 @@
+---
+name: collegescorecard
+full_name: College Scorecard
+stage: live
+description: Engage and educate potential college students of any age or background
+  and those who support and advise them, to find schools best suited to them.
+links:
+- url: https://collegescorecard.ed.gov/
+  text: College Scorecard
+- url: https://collegescorecard.ed.gov/data/
+  text: College Scorecard Data
+partners:
+- Department of Education
+contact:
+- url: mailto:holly.allen@gsa.gov
+  text: Holly Allen
+milestones:
+- 'June 2015: Kick-off meeting'
+- 'August 2015: Private beta launched'
+- 'September 2015: Public live launch'
+impact: 3 Million site views since September 2015
+licenses:
+  collegescorecard:
+    name: Public Domain (CC0)
+    url: https://creativecommons.org/publicdomain/zero/1.0/

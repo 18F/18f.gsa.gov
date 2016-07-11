@@ -3,10 +3,12 @@ title: "How we built analytics.usa.gov"
 layout: post
 image: /assets/blog/dap/screen.png
 date: 2015-03-19 10:00:00
+
 tags:
-- analytics
+- analytics.usa.gov
 - open government
-- dap
+- open data
+
 authors:
 - eric
 - gramirez
@@ -18,17 +20,13 @@ excerpt: "The U.S. federal government now has a public dashboard and dataset for
 description: "The U.S. federal government now has a public dashboard and dataset for its web traffic, at analytics.usa.gov."
 ---
 
-<p class="authors">
-  by {% author eric %}, {% author gramirez %}, {% author gray %}, {% author leah %}, and {% author shawn %}
-</p>
-
 The U.S. federal government now has a public dashboard and dataset for its web traffic, at [**analytics.usa.gov**](https://analytics.usa.gov).
 
-<a href="https://analytics.usa.gov" target="_blank"><img src="/assets/blog/dap/screen.png" title="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
+<a href="https://analytics.usa.gov" target="_blank"><img src="{{ site.baseurl }}/assets/blog/dap/screen.png" alt="Screenshot of the new Digital Analytics Program public dashboard" style="border: 1px solid #ddd" /></a>
 
-This data comes from a unified [Google Analytics](http://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration), an independent federal agency.
+This data comes from a unified [Google Analytics](https://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration).
 
-18F worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital Service](http://www.whitehouse.gov/digital/united-states-digital-service), and the White House to build and host the dashboard and its public dataset.
+18F worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service), and the White House to build and host the dashboard and its public dataset.
 
 You can read more on the [White House blog](https://www.whitehouse.gov/blog/2015/03/19/turning-government-data-better-public-service) about the project, and some insights from the data.
 
@@ -48,7 +46,7 @@ The real-time data is cached from Google every minute, and re-downloaded every 1
 
 So the big number of people online:
 
-<img src="/assets/blog/dap/now.png" title="Screenshot of the dashboard's big number of people" style="border: 1px solid #ddd" />
+<img src="{{ site.baseurl }}/assets/blog/dap/now.png" alt="Screenshot of the dashboard's big number of people" style="border: 1px solid #ddd" />
 
 ...is made with this HTML:
 
@@ -161,7 +159,7 @@ All static files are stored in Amazon S3 and served by Amazon CloudFront, so we 
 
 From a maintenance standpoint, this is a dream. And we can always replace this later with a dynamic server if it becomes necessary, by which time we'll have a clearer understanding of what kind of traffic the site can expect and what features people want.
 
-## Usability Testing
+## Usability testing
 
 We went to a local civic hacking meetup and conducted a quick usability testing workshop. In line with PRA guidelines, we interviewed 9 members of the public and a handful of federal government employees. Any government project can do this, and the feedback was very helpful.
 

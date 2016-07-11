@@ -3,12 +3,12 @@ layout: null
 permalink: /humans.txt
 ---
 /* TEAM */
-{% for member in site.data.team | sort: "last_name" %}
-Name: {{ member[1].full_name }}
-Handle: {{ member[0] }}
+{% for member in site.data.team %}
+Name: {{ member.full_name }}
+Handle: {{ member.name }}
 {% if member[1].working_groups %}Working groups: {{ member[1].working_groups | array_to_sentence_string }}
 {% endif %}{% if member[1].location %}Location: {{ member[1].location }}
 {% endif %}{% if member[1].projects %}Projects: {{ member[1].projects | array_to_sentence_string }}
 {% endif %}{% if member[1].languages %}Langauges: {{ member[1].languages | array_to_sentence_string }}
-{% endif %}{% if member[1]["pif-round"] %}PIF Round: {{ member[1]["pif-round"] }}
+{% endif %}{% if member.pif-round %}PIF Round: {{ member.pif-round }}
 {% endif %}{% endfor %}

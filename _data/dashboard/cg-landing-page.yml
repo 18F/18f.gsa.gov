@@ -1,0 +1,63 @@
+name: cg-landing-page
+
+child: true
+
+full_name: Cloud.gov landing page
+
+description: The landing page for the cloud.gov Platform-as-a-Service. The site provides information about the platform, links to technical documentation, and the live console.
+
+impact:
+
+tagline:
+
+github: https://github.com/18F/cg-landing
+
+image:
+
+audience: agency partners
+
+owner_type: business-unit
+
+business_unit: products-and-platforms
+
+tags: cloud.gov, platforms
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+
+contact:
+- cloud-gov-support@gsa.gov
+
+team:
+- mogul
+- msecret
+- dlapiduz
+- jcscottiii
+- maya
+- afeld
+
+type: app
+
+parent: cloud-gov
+
+links:
+- url: https://docs.cloud.gov/
+  text: Cloud.gov documentation
+  category: guide
+- url: https://cloud.gov
+  text: Cloud.gov
+  category: app
+
+
+stack:
+-
+
+users:
+- id:
+  user:

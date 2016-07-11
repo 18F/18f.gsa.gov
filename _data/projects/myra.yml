@@ -1,0 +1,24 @@
+---
+name: myra
+github:
+- 18F/myra
+description: Landing page design for Treasury’s My Retirement Account program, which
+  will provide a simple, safe, and affordable way for individuals to start saving
+  for retirement.
+partners:
+- U.S. Department of Treasury
+impact: Millions of Americans do not have access to an employer-sponsored retirement
+  plan, which includes more than 50% of full-time and 75% of part-time workers.
+stage: live
+milestones:
+- 'August 2014: Project discovery stage started'
+- 'September 2014: Project moved from discovery to alpha'
+- 'December 2014: Project launched'
+- 'June 2015: Project handed off to partner'
+contact:
+- christopher.cairns@gsa.gov
+licenses:
+  myra: Public Domain (CC0)
+links:
+- https://myra.treasury.gov
+full_name: myRA

@@ -1,0 +1,19 @@
+---
+title: "String"
+authors:
+  type: Array
+  matches: _data/author.yml
+tags:
+  type: Array
+  rules: [no-dash, lowercase]
+excerpt: "string"
+description: "string"
+config:
+  path: '_posts'
+  ignore:
+  - README.md
+  - ..
+  - .
+  - .DS_Store
+  optional: ['tumblr_url', 'layout', 'date', 'image']
+---

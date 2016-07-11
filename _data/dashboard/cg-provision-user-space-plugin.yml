@@ -1,0 +1,63 @@
+name: cg-provision-user-space-plugin
+
+child: true
+
+full_name: Cloud Foundry user plugin
+
+description: This is a [plugin](https://github.com/cloudfoundry/cli/tree/master/plugin_examples) for [Cloud Foundry CLI](https://github.com/cloudfoundry/cli). This plugin effectively creates a new cf user, an organization (if specified) and a personal space within the sandbox organization.
+
+impact:
+
+tagline:
+
+github: https://github.com/18F/cf-provision-user-space-plugin
+
+image:
+
+audience: agency partners
+
+owner_type: business-unit
+
+business_unit: products-and-platforms
+
+tags: cloud.gov, platforms
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+
+contact:
+- cloud-gov-support@gsa.gov
+
+team:
+- mogul
+- msecret
+- dlapiduz
+- jcscottiii
+- maya
+- afeld
+
+type: app
+
+parent: cloud-gov
+
+links:
+- url: https://docs.cloud.gov/
+  text: Cloud.gov documentation
+  category: guide
+- url: https://cloud.gov
+  text: Cloud.gov
+  category: app
+
+
+stack:
+-
+
+users:
+- id:
+  user:

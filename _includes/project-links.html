@@ -1,0 +1,42 @@
+{% assign has_api = false %}
+{% assign has_process = false %}
+{% for item in current_links %}
+  {% if item.category == 'api' %}
+    {% assign has_api = true %}
+  {% endif %}
+  {% if item.category == 'process' %}
+    {% assign has_process = true %}
+  {% endif %}
+{% endfor %}
+
+<!-- api links -->
+{% if has_api == true %}
+<div>
+  <h1><i class="fa fa-chevron-right"></i> api links</h1>
+  <ul>{% for item in current_links %}
+  {% if item.category == 'api' %}
+    <li><a href="{{ item.url }}">{{ item.text }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<!-- process links -->
+{% if has_process == true %}
+<div>
+  <h1><i class="fa fa-chevron-right"></i> process links</h1>
+  <ul>{% for item in current_links %}
+  {% if item.category == 'process' %}
+    <li><a href="{{ item.url }}">{{ item.text }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<!-- additional links -->
+<div>
+  <h1><i class="fa fa-chevron-right"></i> related links</h1>
+  <ul>{% for item in current_links %}
+    {% if item.category != 'api' and item.category != 'process' and item.category != 'repo' %}
+    <li>{% if item.url %}<a href="{{ item.url }}">{{ item.text }}</a></li>{% else %}<a href="{{ item }}">{{ item }}</a>{% endif %}</li>
+    {% endif %}{% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  /* IE6-8 compat */
+  src: url("../fonts/opensans-f0cc9c782f41b44a31392230103f5b4e101a944a.eot");
+  src: local("Open Sans"),
+    local("OpenSans"),
+    url("../fonts/opensans-afc44700053c9a28f9ab26f6aec4862ac1d0795d.woff2") format("woff2"),
+    url("../fonts/opensans-84f97fc997632d2fffb788cd07c92241f178a9a1.woff") format("woff"),
+    url("../fonts/opensans-f0cc9c782f41b44a31392230103f5b4e101a944a.eot") format("embedded-opentype"),
+    url("../fonts/opensans-3e193feab52524db86cd1508693f2e5086102669.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"),
+    local("OpenSans-Bold"),
+    url("../fonts/opensans-578d7b5ff3816f7f666984e303364c81be0771d0.woff2") format("woff2"),
+    url("../fonts/opensans-4bd3f3f26f7a8eb357a09da8636390a28a21f826.woff") format("woff"),
+    url("../fonts/opensans-3954f1cc512d376e366c33802aecc5e80c1a1f33.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  /* IE6-8 compat */
+  src: url("../fonts/raleway-a1481c6d4bb2b3fb69d2277d351343c25ed0fba6.eot");
+  src: local("Raleway"),
+    url("../fonts/raleway-f85420d3ca948ff04a4a40c82ca43ccf60973a3e.woff2") format("woff2"),
+    url("../fonts/raleway-e634977bfabc20ed15fe7ed03d3876cf68834b93.woff") format("woff"),
+    url("../fonts/raleway-a1481c6d4bb2b3fb69d2277d351343c25ed0fba6.eot") format("embedded-opentype"),
+    url("../fonts/raleway-63d9d09b32658fb480dfa1eccd3f90f14cf0d52a.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"),
+    local("Raleway-Bold"),
+    url("../fonts/raleway-5092fe1592b8ed2f2179ec8a0e16c232e41f7dbf.woff2") format("woff2"),
+    url("../fonts/raleway-bb071565f82907d117b0732dca8013409162c67d.woff") format("woff"),
+    url("../fonts/raleway-080ff94a7322097fa71baf08f0592ff619410360.ttf") format("truetype");
+}

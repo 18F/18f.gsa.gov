@@ -1,23 +1,22 @@
 ---
 layout: post
-title: Taking control of our website with Jekyll and webhooks
+title: "Taking control of our website with Jekyll and webhooks"
 image: /assets/blog/new-jekyll-site/header.png
 description: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
+excerpt: How we moved our website to Jekyll, left Tumblr behind, and set up automatic deployment with webhooks.
 authors:
  - eric
  - mhz
  - boone
 
 tags:
-  - jekyll
-  - technical
-  - howto
----
-<p class="authors">
-  by {% author eric %}, {% author mhz %}, and {% author boone %}
-</p>
+  - 18f.gsa.gov
+  - communication tools and practices
 
-[![Our website running with Jekyll](/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
+
+
+---
+[![Our website running with Jekyll]({{site.baseurl}}/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
 
 A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
 
@@ -40,7 +39,7 @@ Our site's first draft was a handful of static HTML pages with lots of copied-an
 
 We've now moved to **[Jekyll 2.4](http://jekyllrb.com/)**, a basic templating system that generates static files when needed. This enables us to use templated layouts and includes for rendering HTML, and plugins to transform content during the rendering process. The resulting static files can be served extremely efficiently.
 
-We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a [little JSON API of our team](/api/data/team.json):
+We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a [little JSON API of our team]({{site.baseurl}}/api/data/team.json):
 
 ```javascript
 [
@@ -72,7 +71,7 @@ Finally, we moved from Bootstrap to [Bourbon.io](http://bourbon.io/) as our site
 
 ## Blogging with freedom
 
-Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/news`](18f.gsa.gov/news).
+Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/blog/`](https://18f.gsa.gov/blog/).
 
 This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
 
@@ -89,10 +88,10 @@ This [recent post on an 18F-hosted hackathon](https://18f.gsa.gov/2014/10/01/ope
 ```yaml
 ---
 layout: post
-title: "18F Open Source Hack Series: Midas"
+title: "18F open source hack series: Midas"
 image: /assets/blog/midas-oct-hacking/coding.jpg
 description: "We're building the future of government, but we need your help! Join us for a session of coding or UX design. Feel free to come for the afternoon or evening session or both! You can work solo, in pairs or groups that will form when we get there."
-excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health & Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
+excerpt: "18F invites designers and developers from inside and outside of government to join us for a flurry of coding and sketching.  Midas is an open source project in active development by 18F, Health and Human Services (HHS) IDEA Lab and the State Department.  A small cross-agency team, dedicated to launching this product to empower passionate civil servants and aspiring diplomats all over the world."
 authors:
 - sarah
 tags:
@@ -102,11 +101,11 @@ tags:
 ---
 ```
 
-Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our team [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add an `author` tag to our templates using teammates' handles.
+Because we're running Jekyll on our own servers, we can also make our own custom plugins. (While Jekyll works on GitHub Pages, most Jekyll plugins sadly do not.) Since we have our authors [captured as data](https://github.com/18F/18f.gsa.gov/blob/staging/_data/authors.yml), we wrote a [simple plugin](https://github.com/18F/18f.gsa.gov/blob/staging/_plugins/author.rb) to add a `lookup` filter to our templates using that loops through a data file. (**Note**: We've since rewritten our plugin to [generate bylines automatically](https://github.com/18F/18f.gsa.gov/issues/633).)
 
 ```html
 <p class="authors">
-  by {% raw %}{% author chrisc %}{% endraw %}, {%raw %}{% author mhz %}{% endraw %}, and {% raw %}{% author nick %}{% endraw %}
+  by {%raw%}{% for author in post.authors %}{{author | lookup:"authors, full_name"}}{% unless forloop.last %}, {%endunless%}{% endfor %}{%endraw%}
 </p>
 ```
 
@@ -120,7 +119,7 @@ Which produces:
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 
-Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed/) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
+Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xml) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
 
 For example, the below IFTTT recipe will email you every time 18F publishes something:
 
@@ -134,7 +133,7 @@ We made this work using **[GitHub's webhooks](https://github.com/blog/1778-webho
 
 We created two webhooks for [our website's main repository](https://github.com/18f/18f.gsa.gov), pointed at our staging and live URLs:
 
-![18F site webhooks](/assets/blog/new-jekyll-site/webhooks.png)
+![18F site webhooks]({{site.baseurl}}/assets/blog/new-jekyll-site/webhooks.png)
 
 Each is configured to notify the webhook when changes are made to the files in the repository, either directly or through a pull request.
 

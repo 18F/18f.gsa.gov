@@ -1,12 +1,19 @@
 ---
 ---
 
-// *******************************************
-// Import all scss, ending with custom styles
-// *******************************************
+// fonts
+@import 'lib/font-awesome';
+@import 'google-fonts';
+@import 'fonts';
+
+// resets
+@import 'lib/normalize';
 
 // bourbon.io
 @import 'bourbon/bourbon';
+
+//pattern library
+@import 'patternlibrary';
 
 // bitters.bourbon.io
 @import 'base/base';
@@ -14,5 +21,14 @@
 // neat.bourbon.io
 @import 'neat/neat';
 
+// components styles
+@import 'components/components';
+
 // custom styles
 @import 'custom';
+
+// misc
+@import 'lib/pygments-theme';
+
+// print
+@import 'print';

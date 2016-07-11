@@ -1,0 +1,32 @@
+---
+name: cloudgov
+full_name: cloud.gov Platform-As-A-Service
+stage: alpha
+description: cloud.gov takes care of infrastructure concerns so teams can focus all
+  of their efforts on their app rather than fighting the environment
+partners:
+- 18F
+- GSA
+impact: The cloud.gov PaaS has the potential to reduce costs and complexity of IT
+  projects across the federal government by an order of magnitude.
+licenses:
+  cg-landing:
+    name: CC0
+    url: https://github.com/18F/cg-landing/blob/master/LICENSE.md
+blog:
+- cloud-gov
+links:
+- url: https://cloud.gov/
+  text: cloud.gov
+- url: https://18f.storiesonboard.com/m/gov-dev
+  text: Roadmap/ChangeLog story map (in StoriesOnBoard)
+- url: https://trello.com/b/ChGzyepo/gov-dev
+  text: Sprint Status (in Trello)
+- url: https://www.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks%40group.calendar.google.com&ctz=America/Los_Angeles
+  text: Project Calendar (standups, reviews, and planning meetings)
+contact:
+- url: mailto:bret.mogilefsky@gsa.gov
+  text: Bret Mogilefsky
+github:
+  name: 18F/cg-landing
+  description: 18F landing page for cloud.gov

@@ -1,5 +1,5 @@
 ---
-title: "Sketching with Code: Protosketching"
+title: "Sketching with code: protosketching"
 layout: post
 date: 2015-01-06
 
@@ -8,17 +8,15 @@ authors:
 - robert
 
 tags:
-- protosketching
-- 18F Consulting
-- how we work
+- collaboration tools
+- agile
 
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
+excerpt: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 
 image: /assets/images/2014/12/protosketch.jpg
 ---
-*Giving Program Managers the Freedom to Sleep at Night*
-
-<p class="authors"> by {% author alan %} and {% author robert %} </p>
+*Giving program managers the freedom to sleep at night*
 
 Meetings are boring. Prototypes are cool. Use the meeting to
 build the prototype. We call building a prototype in three hours or less
@@ -44,7 +42,7 @@ into something that gives you the right answer?
 Agile and lean methodologies focus on testing hypotheses as quickly as
 possible-—**protosketching allows us to rapidly create hypotheses designed
 with engaged stakeholders.** Agile works in timeboxes called “sprints,”
-which are usually a few weeks long. Sometimes Agile practitioners work even
+which are usually a few weeks long. Sometimes agile practitioners work even
 faster, on often but not always throwaway experiments called
 [spikes](http://www.extremeprogramming.org/rules/spike.html). Protosketching
 is just a spike limited to the timebox of a single sales, design, or
@@ -70,7 +68,7 @@ reduces risk by allowing bad ideas to be tested by the end-user and
 discarded quickly—rather than surviving deep into the final production
 process. Protosketching demonstrates this in a shorter time frame.
 
-In the Federal Government, this speed has historically been an unattainable
+In the federal government, this speed has historically been an unattainable
 experience. Many agencies do not have the technical resources in-house. They
 may wish to employ outside resources to perform this experimentation and
 testing, but may be stymied by the delay imposed of the procurement process.
@@ -109,7 +107,7 @@ At [18F](https://18f.gsa.gov/), we have protosketched for prospective
 clients in three meetings and also for our audience at the last 18F Demo
 Day.
 
-At a 3-hour meeting with the Department of Labor (DOL), we protosketched a
+At a three-hour meeting with the Department of Labor (DOL), we protosketched a
 mobile application for Investigators to use in the field. With great
 foresight, the DOL had brought actual Investigators (the end-user for this
 case) into the meeting. The DOL was seeking to streamline workflows for
@@ -131,12 +129,12 @@ investigators’ mobile phones as they were on the projector. This was an
 initial step in design process which led to wireframes and more extensive
 prototypes.
 
-We recently did a very similar 3-hour session with the US Navy Reserve. In a
+We recently did a very similar three-hour session with the U.S. Navy Reserve. In a
 world where agencies are used to having to go through a lengthy procurement
 process and a requirements writing phase in order to see any design or
 prototype at all, this is a game-changer.
 
-<img src="/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A
+<img src="{{ site.baseurl }}/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A
 protosketch running on a phone" />
 
 At another protosketch meeting, this time with GSA Human Resources, we
@@ -152,7 +150,7 @@ though, was the lively discussion between participants. Seeing a clickable,
 interactive demo helped them test out hypotheses as a team about the
 features they needed most.
 
-## Summary of our Technique: Reuse on Steroids
+## Summary of our technique: reuse on steroids
 
 Do these successes prove how smart we are?
 

@@ -1,5 +1,14 @@
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(-webkit-min-device-pixel-ratio: 192), 
+(min-resolution: 192dppx) {
+  body{
+    -webkit-font-smoothing: antialiased;
+    -font-smoothing: antialiased;
+  }
+}
+
 body {
-  -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
   color: $base-font-color;
   font-family: $base-font-family;
@@ -30,6 +39,12 @@ h4 {
   font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
 }
 
+// TODO change to match <h4>.
+.h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
 h5 {
   font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
 }
@@ -39,11 +54,18 @@ h6 {
 }
 
 p {
-  margin: 0 0 ($base-line-height * .5);
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+
+  + p {
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
+  } 
 }
 
 a {
-  @include transition(0.1s linear);
   color: $base-link-color;
   text-decoration: underline;
 
@@ -54,6 +76,17 @@ a {
   &:active, &:focus {
     color: $hover-link-color;
     outline: none;
+  }
+}
+
+
+.link-alt {
+  color: $red;
+  text-decoration: none;
+
+  &:hover, 
+  &:focus {
+    text-decoration: underline;
   }
 }
 

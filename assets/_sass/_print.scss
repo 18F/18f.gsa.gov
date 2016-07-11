@@ -1,0 +1,62 @@
+//********************************************************
+// 18F.gsa.gov CUSTOM SASS
+//********************************************************
+
+// Print override styles
+//********************************************************
+
+@media print {
+  body,
+  p {
+    font-size: 12pt;
+  }
+  a {
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 20pt;
+  }
+  .blog-posting {
+    margin-top: 2em;
+    h1 {
+      margin-top: 0;
+    }
+    p a {
+      &:link::after,
+      &:visited::after,
+      {
+        content: " (" attr(href) ")";
+        display: inline-block;
+        font-weight: normal;
+        margin-left: 4px;
+        word-break: break-all;
+      }
+      &[href^="/"]::after {
+        content: " (https://18f.gsa.gov" attr(href) ") ";
+      }
+    }
+    .blog-tags {
+      a:link::after,
+      a:visited::after {
+        content: "";
+      }
+    }
+  }
+  .usa p {
+    font-size: 10pt;
+  }
+  .bare-logo {
+    padding-top: 0;
+  }
+  .bare h2 {
+    font-size: 18pt;
+    padding-top: 20px;
+  }
+  .blog-related,
+  .blog-pagination,
+  .footer,
+  .global-nav,
+  .newsletter {
+    display: none;
+  }
+}

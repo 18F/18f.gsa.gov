@@ -14,7 +14,7 @@
 <!-- RSS feeds
 ================================================== -->
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed.xml" />
 
 <!-- Twitter and OpenGraph data
 ================================================== -->
@@ -51,91 +51,44 @@
   <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 {% else %}
   <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.jpg" />
+  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{{ site.url }}/assets/images/18F-Logo-L.png" />
 {% endif %}
 
 
 <!-- Favicons
 ================================================== -->
 <!-- 128x128 -->
-<link rel="shortcut icon" type="image/ico" href="/assets/images/favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="/assets/images/favicons/favicon.png" />
+<link rel="shortcut icon" type="image/ico" href="{{site.baseurl}}/assets/images/favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/favicons/favicon.png" />
 
 <!-- 192x192, as recommended for Android
 http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
 -->
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/18f-center-192.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="{{site.baseurl}}/assets/images/favicons/18f-favicon-192.png" />
 
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/18f-center-57.png">
+<link rel="apple-touch-icon-precomposed" href="{{site.baseurl}}/assets/images/favicons/18f-favicon-57.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/18f-center-72.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{site.baseurl}}/assets/images/favicons/18f-favicon-72.png">
 <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/18f-center-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{site.baseurl}}/assets/images/favicons/18f-favicon-114.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/18f-center-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.baseurl}}/assets/images/favicons/18f-favicon-144.png">
 
 <!-- Mobile "theme" -->
 <meta name="theme-color" content="#1188ff" />
 
-<!-- Fonts
-================================================== -->
-<noscript>
-  <link href="/assets/css/google-fonts.css" rel="stylesheet">
-  <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
-</noscript>
-<script>
-  (function() {
-    function appendFont(name, href) {
-      var style = document.createElement((href ? 'link' : 'style'));
-      style.rel = 'stylesheet';
-      if (href) {
-        style.href = ('https:' === document.location.protocol ?
-                'https://' : 'http://') + href;
-      } else {
-        style.textContent = localStorage[name];
-      }
-      document.head.appendChild(style);
-    }
-    function loadFont(name, href) {
-      try {
-        if (localStorage[name]) {
-          appendFont(name);
-        } else {
-          // We have to first load the font file asynchronously
-          var request = new XMLHttpRequest();
-          request.open('GET', href, true);
-          request.onload = function() {
-            if (request.status >= 200 && request.status < 400) {
-              // We save the file in localStorage
-              localStorage[name] = request.responseText;
-              appendFont(name);
-            }
-          }
-          request.send();
-        }
-      } catch(ex) {};
-    };
-
-    // Site fonts to load.
-    loadFont('google', '/assets/css/google-fonts.css');
-    loadFont('fontawesome', '/assets/css/font-awesome.css');
-  })();
-</script>
-
 <!-- CSS
 ================================================== -->
-<link href="/assets/css/fonts.css" rel="stylesheet">
-<link href="/assets/css/normalize.css" rel="stylesheet">
-<link href="/assets/css/styles.css" rel="stylesheet">
-<link href="/assets/css/pygments-theme.css" rel="stylesheet">
+<link href="{{site.baseurl}}/assets/css/styles.css" rel="stylesheet">
 
 <!-- IE
 ================================================== -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-  <link href="/assets/css/ie8/ie.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/ie.css" rel="stylesheet">
 <![endif]-->
 
 {% include ascii.html %}
+<meta name="google-site-verification" content="kryISEsUQhQR4KSsQcd4SVBI32fSr3W2TFyUB_mbIUY" />

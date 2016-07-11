@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Three 18F Products That Will Help Your Workplace"
+title: "Three 18F products that will help your workplace"
 
 image: /assets/blog/three-products/hub.png
 
@@ -24,15 +24,11 @@ authors:
 
 tags:
 - midas
+- open opportunities
 - how we work
-- github
-- snippets
-- The Hub
+- open source
+- communication tools and practices
 ---
-
-<p class="authors">
-  by {% author melody %} 
-</p>
 
 I’ve worked at 18F for exactly six days. During those six days, I
 learned about a few products that I wish I’d known about while at my
@@ -48,7 +44,7 @@ like — in fact, I recommend it.
 
 The Hub is just what it sounds like — a centralized place where team members share project documentation and more general information about how 18F works.
 
-![A screenshot of The Hub](/assets/blog/three-products/hub.png)
+![A screenshot of The Hub]({{site.baseurl}}/assets/blog/three-products/hub.png)
 
 The Hub is really easy to navigate, and it’s equally easy to update
 — anyone can add new information in seconds. Yesterday, for example, I
@@ -68,11 +64,11 @@ Midas is open source, which means anyone can download it and try it out.
 [here](https://github.com/18F/midas/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).)
 Within the government, Midas is currently being piloted by the
 [Department of State](http://www.state.gov/) and [Open
-Opportunities](http://www.digitalgov.gov/join-digitalgov/open-opportunities-in-digitalgov/),
+Opportunities](https://www.digitalgov.gov/join-digitalgov/open-opportunities-in-digitalgov/),
 which connects people from across and within government agencies to
 collaborate on projects. So far, over 100 projects have been completed.
 
-![A screenshot of Midas](/assets/blog/three-products/midas.png)
+![A screenshot of Midas]({{site.baseurl}}/assets/blog/three-products/midas.png)
 
 Midas can benefit all organizations, but it’s especially useful for
 those with distributed teams and whose employees have diverse skill
@@ -83,7 +79,7 @@ use as often as you’d like.
 [more
 information](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/).)
 
-##Snippets 
+##Snippets
 
 Snippets are a quick way to see what everyone on your team did last week and what they’re working on this week. As you might imagine, they’re really, really short.
 
@@ -93,7 +89,7 @@ designated person collects these Snippets in a CSV file and sends out a
 weekly email digest. Snippets subscribers can learn, at a glance, what
 all of their colleagues are up to.
 
- ![A snippet from Mike Bland, describing his workflow](/assets/blog/snippets/20141215-mbland.jpg)
+ ![A snippet from Mike Bland, describing his workflow]({{site.baseurl}}/assets/blog/snippets/20141215-mbland.jpg)
 
 If you don’t have the technical know-how to collect this data in a CSV,
 you can have people fill out Snippets via email or on a blog — the point

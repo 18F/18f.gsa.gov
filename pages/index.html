@@ -4,68 +4,68 @@ permalink: /
 ---
 
 <section class="splash" style="" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-  <img src="/assets/images/logo-18f.png" alt="18F logo" class="logo fadeIn" />
+  <img src="{{ site.baseurl }}/assets/images/18F-Logo.svg" alt="18F logo" class="logo fadeIn" />
   <h1>Building the 21st century digital government.</h1>
-  <ul role="presentation" class="rslides">
-    <li>
-      <img src="/assets/images/slideshow/flickr-bay-bridges.jpg" alt="New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)">
-      <div class="caption">
-        <i class="icon-camera"></i><a href="http://www.flickr.com/photos/photogism/9903236524">New and old San Francisco Bay Bridge at sunset (Shelly Prevost on Flickr)</a>
-      </div>
-    </li>
-    <li>
-      <img src="/assets/images/slideshow/energy-olympus-supercomputer.jpg" alt="The Olympus Supercomputer (ENERGY.GOV)">
-      <div class="caption">
-        <i class="icon-camera"></i><a href="http://energy.gov/articles/photo-week-olympus-supercomputer">The Olympus Supercomputer (ENERGY.GOV)</a>
-      </div>
-    </li>
-    <li>
-      <img src="/assets/images/slideshow/flickr-wind-technology.jpg" alt="National Renewable Energy Laboratory (ENERGY.GOV)">
-      <div class="caption">
-        <i class="icon-camera"></i><a href="http://www.flickr.com/photos/departmentofenergy/9396316654/">National Renewable Energy Laboratory (ENERGY.GOV)</a>
-      </div>
-    </li>
-  </ul>
+    <img class="wallpaper" src="{{ site.baseurl }}/assets/images/slideshow/energy-olympus-supercomputer.jpg" alt="The Olympus Supercomputer (ENERGY.GOV)">
+    <div class="caption">
+      <i class="icon-camera"></i><a href="http://energy.gov/articles/photo-week-olympus-supercomputer">The Olympus Supercomputer (ENERGY.GOV)</a>
+    </div>
 </section>
 
-<section class="container">
-  <div class="mantra">
+<section class="container" itemscope itemtype="https://schema.org/GovernmentOrganization">
+  <div class="mantra" itemprop="description">
     <h1>
       <strong>Delivery</strong> is the strategy.
     </h1>
     <p>
-      <strong>18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.</strong> We help agencies deliver on their mission through the development of digital and web services. Our newly formed organization, within the <a href="http://gsa.gov">General Services Administration</a>, encompasses the <a href="/pif/">Presidential Innovation Fellows</a> program and an in-house digital delivery team.
+      18F is an office inside the General Services Administration that helps other federal agencies build, buy, and share efficient and easy-to-use digital services. We’re a team of technology experts that work with agencies to diagnose problems and then work alongside agency teams to find the right solutions.
     </p>
     <p>
-       We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about driving efficiency, transparency, and savings for government agencies and the American people. <strong>We make easy things easy, and hard things possible.</strong>
+      Headquartered at 18 and F streets in Washington, D.C., we’re an office of federal employees acting as a civic consultancy for the government. We’re transforming government from the inside out, creating cultural change by working with teams inside agencies who want to <strong>create great services for the public</strong>.
     </p>
   </div>
 </section>
 
+<section class="services" itemprop="makesOffer">
+  {% assign content = site.pages | where:"name","what-we-deliver-home.md" %}
+  <div class="header">
+    <div class="container-fluid">
+      <h1>what we do</h1>
+    </div>
+  </div>
+  <article class="container service-entry" itemprop="department">
+      <div class="service-snippet">
+        {{ content[0].content | markdownify }}
+        <p>Learn more about <a href="{{ site.baseurl }}/what-we-deliver/">what we can do for your agency.</a></p>
+      </div>
+
+  </article>
+</section>
 <section id="news" class="blog">
   <div class="header">
     <div class="container-fluid">
-      <h1>&lt; news /&gt;</h1>
+      <h1>blog</h1>
     </div>
   </div>
 
-  <article class="container blog-entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="container blog-entry" itemprop="about" itemscope itemtype="http://schema.org/about">
 
     {% for post in site.posts limit:3 %}
       <div class="blog-title">
-        <h1 itemprop="headline">
-          <a href="{{ post.url }}" class="blog-title">{{ post.title }}</a>
+        <h1 class="h4" itemprop="headline">
+          <a class="link-alt blog-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h1>
       </div>
       <div class="blog-meta">
         <p>
           Posted on <span class="blog-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_long_string }}</time></span>.
         </p>
+        {% include byline.html context="post" %}
         <p>
           Tagged /
           <span class="blog-tags" itemprop="keywords">
             {% for tag in post.tags %}
-              <a href="/{{site.tag_dir}}/{{ tag | uri_escape }}" title="click to read other posts tagged: {{tag}}">{{ tag }}</a>
+              <a href="{{ site.baseurl }}/{{site.tag_dir}}/{{ tag | slugify }}/" title="click to read other posts tagged: {{tag}}">{{ tag }}</a>
               /
             {% endfor %}
           </span>
@@ -73,49 +73,15 @@ permalink: /
       </div>
       <div class="blog-snippet" itemprop="articleBody">
         <p>{{ post.excerpt | strip_html }}</p>
-        <p><a href="{{ post.url }}">Continue reading &ldquo;{{ post.title }}&rdquo;...</a></p>
+        <p><a href="{{ site.baseurl }}{{ post.url }}">Continue reading &ldquo;{{ post.title }}&rdquo;...</a></p>
       </div>
     {% endfor %}
 
     <div class="blog-all">
-      <a href="/news/">See all blog posts.</a>
+      <a href="{{ site.baseurl }}/blog/">See all blog posts.</a>
     </div>
   </article>
 
 </section>
 
-<section>
-  <div id="team" class="header">
-    <div class="container-fluid">
-      <h1>&lt; team /&gt;</h1>
-      <a class="sr-hide" href="#contact">Skip this section</a>
-    </div>
-  </div>
-  <div class="container team">
-    {% for member in site.data.team %}{{ member | with_pic }}{% endfor %}
-  </div>
-</section>
-
-<section id="contact" class="contact">
-  <div class="header">
-    <div class="container-fluid">
-      <h1>
-         &lt; contact /&gt;
-      </h1>
-    </div>
-  </div>
-  <div class="container contact-box">
-    <div class="contact-form">
-      <form action="/listserv" method="post" id="contact-form">
-      <input value="listserv@listserv.gsa.gov" type="hidden" name="recipient" /> <input value="18f" type="hidden" name="subject" /><input value="email" type="hidden" name="required" /><input value="https://18f.gsa.gov/thank-you/" type="hidden" name="redirect" /><input name="subscribe_or_signoff" id="Subscribe" value="SUBSCRIBE 18f" type="hidden" />
-      <div class="form-group"><label class="sr-hide" for="realname">Your name</label><input type="text" placeholder="Your Name" id="realname" name="realname" /></div>
-      <div class="form-group"><label class="sr-hide" for="email">Your email address</label><input type="text" placeholder="your@email-address.com" id="email" name="email" /></div>
-      <input type="submit" class="button" value="Sign Up for More Information" />
-      </form>
-    </div>
-    <div class="contact-words">
-      <p>Leave us your name and email if you'd like more information about the way we work.</p>
-      <p class="small">Your privacy and security are important to us, we'll only share your information as described in <a href="http://www.gsa.gov/portal/content/116609">GSA's Privacy and Security Notice</a>.</p>
-    </div>
-  </div>
-</section>
+{% include newsletter.html %}

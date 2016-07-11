@@ -6,8 +6,8 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
 {% include flag.html %}
-
-  <div role="main" itemscope itemprop="mainContentOfPage">
+{% include nav.html %}
+  <div id="main" role="main" itemscope itemprop="mainContentOfPage">
     {{ content }}
   </div>
 

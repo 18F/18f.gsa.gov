@@ -1,14 +1,17 @@
 ---
-title: 'Sunshine Week: Extractive Industries Transparency Initiative Event'
+title: 'Sunshine week: extractive industries transparency initiative event'
 date: '2015-03-18'
 layout: post
 image: /assets/blog/useiti-sunshine/useiti.png
-tags: 
+
+tags:
 - open government
 - transparency
 - useiti
-- interior
-- sunshine week
+- agency work
+
+
+
 authors:
 - mhz
 - boone
@@ -21,7 +24,6 @@ Assembly DC to and the progress we made together in shedding light on public dat
 event starts at noon and if you can’t attend, follow on Twitter where 18F
 teammate Nick Bristow will be live tweeting the event."
 ---
- by {% author mhz %} and {% author boone %}
 
 A few months ago we, along with our partners at the Department of the
 Interior, launched a new website showing the U.S.’s commitment to the
@@ -64,7 +66,7 @@ You can [learn more about the benefits of the broader initiative on the
 EITI
 website](https://eiti.org/eiti/benefits)[.](https://eiti.org/eiti/benefits)
 
-## USEITI On the Web
+## USEITI on the web
 
 The website [18F helped Interior build](https://useiti.doi.gov),
 currently in [live beta](https://18f.gsa.gov/dashboard/stages/),
@@ -83,7 +85,7 @@ The current iteration of the website only tells part of the story. For
 example, there is more work to be done in providing data about
 non-energy resources such as gold and copper. Some of these resources
 are [mined under laws that are more than 100 years
-old](http://en.wikipedia.org/wiki/General_Mining_Act_of_1872), and some
+old](https://en.wikipedia.org/wiki/General_Mining_Act_of_1872), and some
 of their related data hasn’t quite made it into the twenty-first
 century.
 

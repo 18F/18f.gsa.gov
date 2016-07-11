@@ -1,0 +1,80 @@
+name: every-kid-in-a-park
+
+child:
+
+full_name: Every Kid in a Park
+
+description: In 2015, President Obama formally announced the Every Kid in a Park program, which provides fourth graders and their families with free access to more than 2,000 federally-managed sites. 18F worked with the Department of the Interior to create the program’s website, which was written at a fourth grade level with the help of fourth graders.
+
+impact: Designed for and by fourth graders, the Every Kid in a Park website has issued tens of thousands of passes since it launched in July 2015.
+
+tagline: We designed a website that gives fourth graders and their families free access to more than 2,000 federally-managed sites.
+
+github: https://github.com/18F/ekip-api
+
+image:
+
+audience: agency partners, public, potential hire
+
+owner_type: business-unit
+
+business_unit: custom-partner solutions
+
+tags: agency work
+
+stage: active
+
+status: live
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+- U.S. Department of the Interior
+
+contact:
+- url: mailto:shashank.khandelwal@gsa.gov
+  text: Shashank Khandelwal
+- url: mailto:christopher.goranson@gsa.gov
+  text: Christopher Goranson
+
+team:
+- github: khandelwal
+  role: 18F Product Lead, developer
+  id: khandelwal
+- github: openglobe
+  role: DOI Activation Team Co-Lead, Presidential Innovation Fellow
+  id: christopher-goranson
+- github: ericronne
+  role: Designer, UX
+- github: xtine
+  role: Front-End Developer
+- github: emileighoutlaw
+  role: Content Writer, UX
+
+type: app
+
+parent:
+
+links:
+- url: https://everykidinapark.gov/
+  text: Every Kid in a Park Website
+
+services:
+- name: Coveralls
+  category: Build review
+  url: https://coveralls.io/github/18F/ekip-api?branch=master
+  badge: https://coveralls.io/repos/18F/ekip-api/badge.svg?branch=master&service=github
+- name: Quantified Code
+  category: Site review
+  url: https://www.quantifiedcode.com/app/project/ecb305ac0bfa4e968192621402faface
+  badge: https://www.quantifiedcode.com/api/v1/project/ecb305ac0bfa4e968192621402faface/badge.svg
+
+
+stack:
+-
+
+users:
+- id:
+  user:

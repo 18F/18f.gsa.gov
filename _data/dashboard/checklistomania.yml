@@ -1,0 +1,57 @@
+name: checklistomania
+
+child: false
+
+full_name: Checklistomania
+
+description: We designed a centrally-managed checklist that people can use for working through complex processes like onboarding, offboarding, and management changes.
+
+impact: Allows employees and managers to quickly see what tasks they need to complete.
+
+tagline: Use our checklist to keep track of complex procedures in your worklist.
+
+github: https://github.com/18F/checklistomania
+
+image:
+
+audience: public, open source community
+
+owner_type: working-group
+
+business_unit:
+
+tags: tools you can use
+
+stage: active
+
+status: live
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+-
+
+contact:
+-
+
+team:
+-
+
+type: app
+
+parent:
+
+links:
+- url:
+  text:
+  category:
+
+
+stack:
+-
+
+users:
+- id:
+  user:

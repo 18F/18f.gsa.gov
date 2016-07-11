@@ -12,3 +12,11 @@ $large-screen: em(860);
 
 $medium-screen-up: new-breakpoint(min-width $medium-screen 4);
 $large-screen-up: new-breakpoint(min-width $large-screen 8);
+
+$bigger: new-breakpoint(max-width 1130px);
+$big: new-breakpoint(max-width 995px);
+$medium: new-breakpoint(max-width 860px);
+$small: new-breakpoint(max-width 785px);
+$tiny: new-breakpoint(max-width 590px);
+$tinier: new-breakpoint(max-width 480px); //only used in hero unit
+$tiniest: new-breakpoint(max-width 390px);

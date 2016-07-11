@@ -1,0 +1,75 @@
+name: calc
+
+child: false
+
+full_name: CALC
+
+description: The Contract Awarded Labor Category (CALC) tool helps the federal contracting community make smarter, faster buying decisions by allowing them to search for hourly labor rates across numerous government contracts. The CALC tool is helping contracting officers move from paper-based research to simple, efficient online search.
+
+impact: Saves contracting officers in the federal government hours of work every week and provides them with better data. By having a tool that understands fair and reasonable prices, contracting officers will be better equipped to negotiate with vendors, which will ensure that the government is spending taxpayer dollars wisely and in the most efficient way.
+
+tagline: We saved contracting officials in the federal government hours of work every week while providing them with better data.
+
+github: https://github.com/18F/calc
+
+image:
+
+audience: agency partners, state and local agencies
+
+owner_type: business-unit
+
+business_unit: product-and-platforms
+
+tags: open government, procurement
+
+stage: active
+
+status: live
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+- General Services Administration
+
+contact:
+-
+
+team:
+- github: shawnbot
+- github: maya
+- github: brethauer
+- github: xtine
+- github: kaitlin
+- github: arowla
+- github: jmcarp
+- github: theresaanna
+
+type: app
+
+parent:
+
+services:
+- name: Travis CI
+  category: CI
+  url: https://travis-ci.org/18F/calc
+  badge: https://travis-ci.org/18F/calc.svg
+
+links:
+- url: https://calc.gsa.gov/
+  text: CALC production instance
+- url: https:/calc-dev.18f.gov/
+  text: CALC development instance
+- url: https://trello.com/b/LjXJaVbZ/hourglass
+  text: Sprint board
+
+stack:
+  - Python
+  - Django
+  - JavaScript
+  - Postgres
+
+users:
+- id:
+  user:

@@ -1,0 +1,26 @@
+---
+name: foia
+github:
+- 18F/foia
+- 18F/foia-hub
+description: A new tool to search for the correct agency or office to make a FOIA
+  request.
+partners:
+- Department of Justice
+- FOIA agency task force
+impact: The U.S. Federal Government processed nearly 700,000 FOIA requests in fiscal
+  year 2013.
+stage: alpha
+milestones:
+- 'June 2014: Project Discovery stage started'
+- 'April 2015: open.foia.gov is deployed. '
+contact:
+- 18f/foia/issues
+licenses:
+  foia: Public Domain (CC0)
+  foia-hub: Public Domain (CC0)
+links:
+- https://trello.com/b/D0r2UOz0/foia-scrum-board
+blog:
+- foia
+full_name: FOIA Modernization

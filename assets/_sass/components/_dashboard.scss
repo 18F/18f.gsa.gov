@@ -1,0 +1,351 @@
+// Dashboard
+//********************************************************
+.dashboard-projects-content,
+.dashboard-status-definitions {
+	> div:nth-of-type(1) {
+		@include span-columns(12);
+		border-top: 1px solid $medium-gray;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		@include transition-property (background-color);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in);
+		&:hover, &:focus {
+			background-color: lighten($blue, 35%);
+		}
+	}
+	> div:nth-of-type(2) {
+		@include span-columns(6);
+		@include media($tiny) {
+			@include span-columns(12);
+		}
+	}
+	> div:nth-of-type(3) {
+		@include span-columns(6);
+		@include media($tiny) {
+			@include span-columns(12);
+		}
+	}
+	a {
+		text-decoration: none;
+		h1 {
+			color: $dark-gray;
+		}
+	}
+	h1 {
+		font-size: 1.5em;
+		padding-top: 5px;
+		&:hover, &:focus {
+			cursor: pointer;
+		}
+	}
+	p {
+		margin-bottom: 8px;
+		a:hover, a:focus {
+			text-decoration: underline;
+		}
+	}
+	strong > a {
+		color: $dark-gray;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+.dashboard-status-definitions {
+	> div:nth-of-type(2) {
+		@include span-columns(8);
+		@include media($tiny) {
+			@include span-columns(12);
+		}
+	}
+}
+
+.status {
+	padding: 5px 10px 5px 10px;
+	margin-top: -5px;
+	color: white;
+	font-size: .7em;
+	font-family: $base-font-family;
+	display: inline-block;
+	background-color: $medium-gray;
+	font-weight: 600;
+	float: right;
+	@include media($tiniest) {
+		margin-top: 30px;
+	}
+}
+
+.dashboard-overview .discovery,
+.status.discovery {
+	background-color: $medium-gray;
+}
+
+.dashboard-overview .alpha,
+.status.alpha {
+	background-color: $medium-blue;
+}
+
+.dashboard-overview .beta,
+.status.beta {
+	background-color: $green;
+}
+
+.dashboard-overview .live,
+.status.live {
+	background-color: $red;
+}
+
+.dashboard-overview {
+	@include span-columns(12);
+	margin-bottom: 4em;
+	li {
+		height: 4.2em;
+	}
+}
+
+.dashboard-overview,
+.dashboard-overview-numbers {
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: $dark-gray;
+		&:hover,
+		&:focus {
+			color: $red;
+		}
+	}
+	li {
+		@include span-columns(3 of 12);
+		font-family: $header-font-family;
+		font-size: 2.5em;
+		padding: 10px;
+		margin-right: 1.75% !important;
+		.status-description {
+			color: white;
+			line-height: 1.1em;
+			font-size: 0.47em;
+		}
+	}
+	.status {
+		float: none;
+	}
+}
+
+.dashboard-overview-numbers {
+	font-family: $base-font-family;
+	font-weight: 600;
+	font-size: 2.2em;
+	margin-top: -40px;
+	margin-bottom: 40px;
+	-webkit-text-stroke: 1px white;
+  	text-shadow:
+   -1px -1px 0 white,
+    1px -1px 0 white,
+   -1px  1px 0 white,
+    1px  1px 0 white;
+}
+
+@include media($tinier) {
+	.dashboard-overview,
+	.dashboard-overview-numbers {
+		li {
+			font-size: 2em;
+			padding: 8px;
+			.status-description {
+				color: white;
+				line-height: 1.1em;
+				font-size: 0.52em;
+			}
+		}
+	}
+	.dashboard-overview-numbers {
+		font-size: 2em;
+		margin-top: -28px;
+	}
+}
+
+@media (max-width: 850px) {
+	.dashboard-overview {
+		li {
+			.status-description {
+				font-size: 0.47em;
+			}
+		}
+	}
+}
+
+@include media($tiniest) {
+	.dashboard-overview {
+		li {
+			@include span-columns(9 of 12);
+			height: 3em;
+			margin-bottom: 10px;
+			.status-description {
+				font-size: 0.52em;
+			}
+		}
+		p {
+			float: right;
+			text-align: left;
+			width: 55%;
+			padding-right: 10px;
+		}
+		.status {
+			float: left;
+			margin-top: 0;
+		}
+	}
+	.dashboard-overview-numbers {
+		position: absolute;
+		font-size: 2em;
+		right: -30%;
+	}
+}
+
+@include media($tiny) {
+	.dashboard-overview {
+		li {
+			@include span-columns(10 of 12);
+			font-size: 1.5em;
+			padding: 5px;
+		}
+	}
+	.dashboard-overview-numbers {
+		right: -33%;
+	}
+}
+
+.dashboard-status-definitions {
+	> div:nth-of-type(1) {
+		&:hover, &:focus {
+			background-color: white;
+		}
+	}
+	h1 {
+		&:hover, &:focus {
+			cursor: default;
+		}
+	}
+	.status {
+		float: left;
+	}
+}
+
+.dashboard-stages,
+.dashboard-project {
+	nav {
+		font-size: 0.8em;
+		margin-bottom:42px;
+		a {
+			text-decoration: none;
+			color: $dark-gray;
+			&:hover, &:focus {
+				text-decoration: underline;
+				color: $red;
+			}
+		}
+	}
+}
+
+.dashboard-project {
+	h1 {
+		padding-top: 5px;
+		border-top: 1px solid $medium-gray;
+	}
+	p {
+		@include span-columns(9);
+		font-size: 1.2em;
+		line-height: 1.4em;
+		margin-top: 15px;
+		margin-bottom: 0;
+		a:hover,
+		a:focus {
+			text-decoration: underline;
+		}
+	}
+	p + p {
+		font-size: 0.9em;
+	}
+	p:last-of-type {
+		margin-top: 6px;
+		margin-bottom: 50px;
+	}
+}
+
+.dashboard-contact {
+	@include span-columns(9 of 9);
+	margin-top: 50px;
+	font-weight: 700;
+}
+
+.dashboard-info-area {
+	@include span-columns(9 of 9);
+	> div:nth-of-type(1) {
+		@include span-columns(6 of 9);
+		@include media($tiny) {
+			@include span-columns(9 of 9);
+		}
+		> div {
+			margin-bottom: 23px;
+		}
+	}
+	h1 {
+		font-size: 1.3em;
+		i {
+			font-size: 1em;
+		}
+	}
+	h2 {
+		font-size: 1.3em;
+		font-style: italic;
+	}
+	p {
+		margin-bottom: 0;
+		padding-top: 7px;
+		padding-left: 20px;
+	}
+	ul {
+		list-style-type: square;
+		padding-left: 40px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	ul + p {
+		padding-top: 0;
+		font-style: italic;
+		color: $medium-gray;
+	}
+}
+
+.dashboard-code {
+	> h1:first-of-type {
+		padding-bottom: 13px;
+	}
+}
+
+.repo {
+	padding-left: 20px;
+	h1 {
+		font-family: $base-font-family;
+		font-size: 1.1em;
+	}
+	ul {
+		padding-left: 0;
+	  margin-bottom: 7px;
+	}
+	li {
+		display: inline-block;
+		margin-left: 20px;
+	}
+}
+
+// Accessibility Helpers
+//********************************************************
+
+// Visually hides element while allowing access by screen readers
+.accessible-not-visible {
+	position: absolute;
+	left: -999999px;
+}

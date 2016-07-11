@@ -1,0 +1,29 @@
+---
+layout: team
+permalink: /team/
+title: People
+---
+    <div class="intro">
+      <h1>{{page.title}}</h1>
+
+      <p>18F is a growing group of technologists, designers, and researchers from around the country. You can find us in Washington, San Francisco, Chicago, New York, Dayton, and a handful of other cities.</p>
+      <!-- <ul class="sortable">Sort by:
+        <li><a href="?sort=none">name</a></li>
+        <li><a href="?sort=loc">location</a></li>
+        <li><a href="?sort=team">team</a></li>
+      </ul> -->
+    </div>
+    <div class="team">{% assign sorted = site.team | sort: 'last_name' %}
+      {% for person in sorted %}{% if person.full_name %}{% unless
+person.april-fools %}
+        <div class='bio' id="{{ person.name }}">
+          {% if person.output.size > 0 %}
+          <a href='{{ site.baseurl }}/team/{{person.name}}/'>
+          {% else %}
+          <a class="disabled">
+          {% endif %}
+            {{ person.name | team_photo }}
+            <h1>{{ person.full_name }}</h1>
+          </a>
+        </div>{% endunless %}{% endif %}
+    {% endfor %}</div>

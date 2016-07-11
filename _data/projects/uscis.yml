@@ -1,0 +1,14 @@
+---
+name: uscis
+contact: 18f-uscis-projects@gsa.gov
+stage: alpha
+description: 'We are helping to reimage and modernize immigration and visa processes:
+  building tools that improve the applicant process, providing clear and simple information
+  to the public, and creating new tools that make the processing of immigration forms
+  faster and more efficient.'
+impact: Every year, hundreds of thousands of individuals travel to the United States
+  in pursuit of work, education, leisure, or with the hope of becoming a US resident
+  or citizen.
+full_name: USCIS projects
+partners:
+- U.S. Citizenship and Immigration Services

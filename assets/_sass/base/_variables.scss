@@ -1,12 +1,13 @@
 // 18F Fonts
 $raleway: Raleway,'Helvetica Neue',Helvetica,Arial,sans-serif;
 $open-sans: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+$brand: 'Nimbus','Helvetica Neue',Helvetica,sans-serif;
 
 // Typography
-$sans-serif: $open-sans;
+$sans-serif: $brand;
 $serif: $georgia;
 $base-font-family: $sans-serif;
-$header-font-family: $raleway;
+$header-font-family: $brand;
 
 // Sizes
 $base-font-size: 1em;
@@ -25,9 +26,10 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 // 18F Colors
-$blue: #1188ff;
-$medium-blue: #06d;
-$dark-blue: #03253e;
+$blue: #00CFFF;
+$medium-blue: #046B99;
+$dark-blue: #1C304A;
+$darkest-blue: #03253e;
 $green: #5cb85c;
 $red: #c21;
 

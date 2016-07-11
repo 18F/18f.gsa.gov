@@ -1,0 +1,483 @@
+# Adding a new author? Edit this file and create a new entry for your author.
+# id:
+#   full_name:
+#   first_name:
+#   last name:
+#   url: (optional, guest authors only)
+#
+# id, replace this with the name you'll use in a post's front matter
+# full_name, after the colon, type a space and write out the person's name as it should appear on the site
+# first_name, after the colon, type a space and write out the person's first name as they want it written
+# last_name, after the colon, type a space and write out the person's surname. We only use this for sorting
+#           authors right now.
+# url, for guest authors only; after the colon, type a space and insert a url to a profile for the author.
+#
+# If you're using the GitHub editor, make sure to choose "Create a new branch for this commit" before clicking
+# the green "Commit changes" button.
+#
+# Feel free to ask in #18f-site-dev, #18f-site, or #blog if you have questions.
+#
+aaron:
+  full_name: Aaron Snow
+  first_name: Aaron
+  last_name: Snow
+robert:
+  full_name: Dr. Robert L. Read
+  first_name: Robert
+  last_name: Read
+mhz:
+  full_name: Michelle Hertzfeld
+  first_name: Michelle
+  last_name: Hertzfeld
+alison:
+  full_name: Alison Rowland
+  first_name: Alison
+  last_name: Rowland
+gray:
+  full_name: Gray Brooks
+  first_name: Gray
+  last_name: Brooks
+memiwhitehead:
+  full_name: Memi Whitehead
+  first_name: Memi
+  last_name: Whitehead
+mollieruskin:
+  full_name: Mollie Ruskin
+  first_name: Mollie
+  last_name: Ruskin
+sean:
+  full_name: Sean Herron
+  first_name: Sean
+  last_name: Herron
+noah:
+  full_name: Noah Kunin
+  first_name: Noah
+  last_name: Kunin
+jonathanrubin:
+  full_name: Jonathan Rubin
+  first_name: Jonathan
+  last_name: Rubin
+kinlane:
+  full_name: Kin Lane
+  first_name: Kin
+  last_name: Lane
+greg:
+  full_name: Greg Godbout
+  first_name: Greg
+  last_name: Godbout
+leah:
+  full_name: Leah Bannon
+  first_name: Leah
+  last_name: Bannon
+eric:
+  full_name: Eric Mill
+  first_name: Eric
+  last_name: Mill
+alan:
+  full_name: Alan deLevie
+  first_name: Alan
+  last_name: DeLevie
+joe:
+  full_name: "Joe Polastre, PhD"
+  first_name: Joe
+  last_name: Polastre
+mattchessen:
+  full_name: "Matt Chessen, Department of State"
+  first_name: Matt
+  last_name: Chessen
+majma:
+  full_name: Raphael Majma
+  first_name: Raphael
+  last_name: Majma
+manger:
+  full_name: Noah Manger
+  first_name: Noah
+  last_name: Manger
+victor:
+  full_name: Victor Diaz Zapanta
+  first_name: Victor
+  last_name: Zapanta
+amos:
+  full_name: J. Amos Stone
+  first_name: Amos
+  last_name: Stone
+jackie:
+  full_name: Jackie Kazil
+  first_name: Jackie
+  last_name: Kazil
+shashank:
+  full_name: Shashank Khandelwal
+  first_name: Shashank
+  last_name: Khandelwal
+garren:
+  full_name: Garren Givens
+  first_name: Garren
+  last_name: Givens
+hillary:
+  full_name: Hillary Hartley
+  first_name: Hillary
+  last_name: Hartley
+chrisc:
+  full_name: Chris Cairns
+  first_name: Chris
+  last_name: Cairns
+nick:
+  full_name: Nick Bristow
+  first_name: Nick
+  last_name: Bristow
+sarah:
+  full_name: Sarah Allen
+  first_name: Sarah
+  last_name: Allen
+boone:
+  full_name: Greg Boone
+  first_name: Greg
+  last_name: Boone
+mbland:
+  full_name: Mike Bland
+  first_name: Mike
+  last_name: Bland
+catherine:
+  full_name: Catherine Devlin
+  first_name: Catherine
+  last_name: Devlin
+18F:
+  full_name: 18F
+  first_name: 18F
+  last_name: 18F
+blacktm:
+  full_name: Tom Black
+  first_name: Tom
+  last_name: Black
+melody:
+  full_name: Melody Kramer
+  first_name: Melody
+  last_name: Kramer
+brethauer:
+  full_name: Nick Brethauer
+  first_name: Nick
+  last_name: Brethauer
+kaitlin:
+  full_name: Kaitlin Devine
+  first_name: Kaitlin
+  last_name: Devine
+shawn:
+  full_name: Shawn Allen
+  first_name: Shawn
+  last_name: Allen
+kate:
+  full_name: Kate Garklavs
+  first_name: Kate
+  last_name: Garklavs
+tgrandison:
+  full_name: Tyrone Grandison
+  first_name: Tyrone
+  last_name: Grandison
+elaine:
+  full_name: Elaine Kamlley
+  first_name: Elaine
+  last_name: Kamlley
+erica:
+  full_name: Erica Deahl
+  first_name: Erica
+  last_name: Deahl
+gramirez:
+  full_name: Gabriel Ramíerez
+  first_name: Gabriel
+  last_name: Ramíerez
+becky:
+  full_name: Becky Sweger
+  first_name: Becky
+  last_name: Sweger
+afeld:
+  full_name: Aidan Feldman
+  first_name: Aidan
+  last_name: Feldman
+julia:
+  full_name: Julia Elman
+  first_name: Julia
+  last_name: Elman
+will:
+  full_name: Will Slack
+  first_name: Will
+  last_name: Slack
+jamie:
+  full_name: Jamie Albrecht
+  first_name: Jamie
+  last_name: Albrecht
+jhunter:
+  full_name: Jeannine Hunter
+  first_name: Jeannine
+  last_name: Hunter
+cm:
+  full_name: CM Lubinski
+  first_name: CM
+  last_name: Lubinski
+vdavez:
+  full_name: V. Dave Zvenyach
+  first_name: Dave
+  last_name: Zvenyach
+diego:
+  full_name: Diego Lapiduz
+  first_name: Diego
+  last_name: Lapiduz
+emileigh:
+  full_name: Emileigh Barnes
+  first_name: Emileigh
+  last_name: Barnes
+andre:
+  full_name: Andre Francisco
+  first_name: Andre
+  last_name: Francisco
+jfinch:
+  full_name: Jay Finch
+  first_name: Jay
+  last_name: Finch
+ozzy:
+  full_name: Ozzy Johnson
+  first_name: Ozzy
+  last_name: Johnson
+kara:
+  full_name: Kara DeFrias
+  first_name: Kara
+  last_name: DeFrias
+david:
+  full_name: Dave Best
+  first_name: Dave
+  last_name: Best
+jtindel:
+  full_name: John Tindel
+  first_name: John
+  last_name: Tindel
+colinmacarthur:
+  full_name: Colin MacArthur
+  first_name: Colin
+  last_name: MacArthur
+lindsay:
+  full_name: Lindsay Young
+  first_name: Lindsay
+  last_name: Young
+jeremy:
+  full_name: Jeremy Canfield
+  first_name: Jeremy
+  last_name: Canfield
+bradnunnally:
+  full_name: Brad Ty Nunnally
+  first_name: Brad
+  last_name: Nunnally
+jthibault:
+  full_name: Jennifer Thibault
+  first_name: Jennifer
+  last_name: Thibault
+russ:
+  full_name: Russ Unger
+  first_name: Russ
+  last_name: Unger
+deniseroth:
+  full_name: Denise Turner Roth
+  first_name: Denise
+  last_name: Roth
+  url: http://www.gsa.gov/portal/content/100046
+zaccohn:
+  full_name: Zac Cohn
+  first_name: Zachary
+  last_name: Cohn
+kedelman:
+  full_name: Kathryn Edelman
+  first_name: Kathryn
+  last_name: Edelman
+jtag:
+  full_name: Jesse Taggert
+  first_name: Jesse
+  last_name: Taggert
+lisagelobter:
+  full_name: Lisa Gelobter
+  first_name: Lisa
+  last_name: Gelobter
+rebeccapiazza:
+  full_name: Rebecca Piazza
+  first_name: Rebecca
+  last_name: Piazza
+meghana:
+  full_name: Meghana Khandekar
+  first_name: Meghana
+  last_name: Khandekar
+ryan:
+  full_name: Ryan Thurlwell
+  first_name: Ryan
+  last_name: Thurlwell
+sarahcrane:
+  full_name: Sarah Crane
+  first_name: Sarah
+  last_name: Crane
+carolyn:
+  full_name: Carolyn Dew
+  first_name: Carolyn
+  last_name: Dew
+maya:
+  full_name: Maya Benari
+  first_name: Maya
+  last_name: Benari
+bret:
+  full_name: Bret Mogilefsky
+  first_name: Bret
+  last_name: Mogilefsky
+marinafox:
+  full_name: Marina Fox
+  first_name: Marina
+  last_name: Fox
+  url: https://www.digitalgov.gov/author/mfox/
+gwynnekostin:
+  full_name: Gwynne Kostin
+  first_name: Gwynne
+  last_name: Kostin
+  url: https://www.digitalgov.gov/author/gkostin/
+kane:
+  full_name: Kane Baccigalupi
+  first_name: Kane
+  last_name: Baccigalupi
+jeffwoodworth:
+  full_name: Jeff Woodworth
+  first_name: Jeff
+  last_name: Woodworth
+andrewmcmahon:
+  full_name: Andrew McMahon
+  first_name: Andrew
+  last_name: McMahon
+  url: http://www.gsa.gov/portal/content/101108/
+anthony-garvan:
+  full_name: Tony Garvan
+  first_name: Tony
+  last_name: Garvan
+timlowden:
+  full_name: Tim Lowden
+  first_name: Tim
+  last_name: Lowden
+juliawinn:
+  full_name: Julia Winn
+  first_name: Julia
+  last_name: Winn
+michellechronister:
+  full_name: Michelle Chronister
+  first_name: Michelle
+  last_name: Chronister
+corey-mahoney:
+  full_name: Corey Mahoney
+  first_name: Corey
+  last_name: Mahoney
+christopher-goranson:
+  full_name: Chris Goranson
+  first_name: Chris
+  last_name: Goranson
+alan-brouilette:
+  full_name: Alan Brouilette
+  first_name: Alan
+  last_name: Brouilette
+alan-atlas:
+  full_name: Alan Atlas
+  first_name: Alan
+  last_name: Atlas
+alla:
+  full_name: Alla Goldman Seiffert
+  first_name: Alla
+  last_name: Goldman Seiffert
+britta-gustafson:
+  full_name: Britta Gustafson
+  first_name: Britta
+  last_name: Gustafson
+justin-herman:
+  full_name: Justin Herman
+  first_name: Justin
+  last_name: Herman
+ryan-sibley:
+  full_name: Ryan Sibley
+  first_name: Ryan
+  last_name: Sibley
+colin-craig:
+  full_name: Colin Craig
+  first_name: Colin
+  last_name: Craig
+michelle-chronister:
+  full_name: Michelle Chronister
+  first_name: Michelle
+  last_name: Chronister
+yuda:
+  full_name: John Yuda
+  first_name: John
+  last_name: Yuda
+amy-wilson:
+  full_name: Amy Wilson
+  first_name: Amy
+  last_name: Wilson
+  url: https://presidentialinnovationfellows.gov/fellows
+bob-ballance:
+  full_name: Bob Ballance
+  first_name: Bob
+  last_name: Ballance
+  url: https://presidentialinnovationfellows.gov/fellows
+victor-udoewa:
+  full_name: Victor Udoewa
+  first_name: Victor
+  last_name: Udoewa
+duane-rollins:
+  full_name: Duane Rollins
+  first_name: Duane
+  last_name: Rollins
+marco:
+  full_name: Marco Segreto
+  first_name: Marco
+  last_name: Segreto
+anna:
+  full_name: Anna Heller Sebok
+  first_name: Anna
+  last_name: Sebok
+cat-langel:
+  full_name: Cat Langel
+  first_name: Cat
+  last_name: Langel
+  url: http://www.gsa.gov/portal/staffDirectory/contact/176573
+pkarman:
+  full_name: Peter Karman
+  first_name: Peter
+  last_name: Karman
+mossadeq-zia:
+  full_name: Mossadeq Zia
+  first_name: Mossadeq
+  last_name: Zia
+michael-torres:
+  full_name: Michael Torres
+  first_name: Michael
+  last_name: Torres
+christine-cawthorne:
+  full_name: Christine Cawthorne
+  first_name: Christine
+  last_name: Cawthorne
+michael-walker:
+  full_name: Greg Walker
+  first_name: Michael
+  last_name: Walker
+joel-minton:
+  full_name: Joel Minton
+  first_name: Joel
+  last_name: Minton
+robin-thottungal:
+  full_name: Robin A. Thottungal
+  first_name: Robin
+  last_name: Thottungal
+kris-rowley:
+  full_name: Kris Rowley
+  first_name: Kris
+  last_name: Rowley
+clara-tsao:
+  full_name: Clara Tsao
+  first_name: Clara
+  last_name: Tsao
+  url: https://presidentialinnovationfellows.gov/fellows
+andrewmaier:
+  full_name: Andrew Maier
+  first_name: Andrew
+  last_name: Maier
+jessie:
+  full_name: Jessie Young
+  first_name: Jessie
+  last_name: Young

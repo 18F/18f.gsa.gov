@@ -1,0 +1,56 @@
+name: dashboard
+
+child: false
+
+full_name: 18F Dashboard
+
+description: We needed a way to catalog and allow the public to track our work. We developed the 18F Dashboard to track our projects' status and to give more transparency and insight into our work and values.
+
+impact: Partner agencies and members of the public can better understand our work.
+
+tagline: We make our work transparent and accessible using our dashboard.
+
+github: https://github.com/18F/dashboard
+
+image:
+
+audience: public, agency partners, state and local agencies, potential hire
+
+owner_type: business-unit
+
+business_unit: learn
+
+tags: how we work
+
+stage: active
+
+status: live
+
+testable: true
+
+licenses: Public Domain (CC0)
+
+partners:
+-
+
+contact:
+-
+
+team:
+-
+
+type: app
+
+parent:
+
+links:
+- url: https://18f.gsa.gov/dashboard/
+  text: "Live 18F Dashboard"
+
+
+stack:
+-
+
+users:
+- id:
+  user:

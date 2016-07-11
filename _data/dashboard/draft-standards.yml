@@ -1,0 +1,58 @@
+name: draft-standards
+
+child: false
+
+full_name: Draft U.S. Web Design Standards
+
+description: In September, 18F worked with USDS to release the U.S. government’s very own set of common UI components and visual styles for websites. It’s a resource designed to make things easier for government designers and developers, while raising the bar on what the American people can expect from their digital experiences.
+
+impact: Web designers and developers spend a tremendous amount of time re-solving routine problems like grid layout, button styling, and line spacing. The U.S. Digital Service and 18F's library of standardized basic UI components saves agency designers time and money, and provides more consistent design elements for the public.
+
+tagline: We created a set of tools that make it easy  to provide consistent, beautiful, and easy-to-use government websites.
+
+github: https://github.com/18F/web-design-standards
+
+image:
+
+audience: public, agency partners, state and local agencies, potential hires, open source community
+
+owner_type: business-unit
+
+business_unit: custom-partner-solutions
+
+tags: design, how we work
+
+stage: live
+
+status: active
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+-
+
+contact:
+-
+
+team:
+-
+
+type:
+
+parent:
+
+links:
+- url: https://playbook.cio.gov/designstandards/
+  text: "Draft U.S. Web Design Standards"
+  url: https://18f.gsa.gov/tags/web-design-standards/
+  text: "18F blog posts related to Draft U.S. Web Design Standards"
+
+
+stack:
+-
+
+users:
+- id:
+  user:

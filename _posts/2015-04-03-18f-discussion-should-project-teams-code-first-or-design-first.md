@@ -1,26 +1,23 @@
 ---
-title: "18F Discussion: Should Project Teams Code First Or Design First?"
+title: "18F discussion: Should project teams code first or design first?"
 layout: post
 image: "/assets/blog/code-design/decisions-blue.png"
+
 tags:
-- 18F
 - how we work
-- design
-author:
+- user-centered design
+
+authors:
 - melody
 excerpt: "Recently, three members of our team sat down for a conversation about when teams should start coding on a project."
 description: "Recently, three members of our team sat down for a conversation about when teams should start coding on a project."
 ---
 
-<p class="authors">
-  by {% author melody %}
-</p>
-
 When starting a new project, should a team code first or discover first?
 That was the question recently posed to the 18F team by Robert Read, one
 of our developers.
 
-![18F employees at the white board, deciding how to start.](/assets/blog/code-design/decisions-blue.png)
+![18F employees at the white board, deciding how to start.]({{site.baseurl}}/assets/blog/code-design/decisions-blue.png)
 
 Rob asked the thought-provoking question hoping it would lead to an
 internal conversation on different approaches to user-centered software
@@ -111,7 +108,7 @@ tests and they didn't work as intended, so don't like it too much.”
 **On developers submerging their egos to serve the end user**
 
 **RR:** I've had the pleasure working with [*Kent
-Beck*](http://en.wikipedia.org/wiki/Kent_Beck) in the past and one of
+Beck*](https://en.wikipedia.org/wiki/Kent_Beck) in the past and one of
 the things that he focuses on is the fact that developers have to really
 submerge their egos and their personalities and have to recognize that
 they are totally in service to the end user. In the case of having a

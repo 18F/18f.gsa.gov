@@ -1,0 +1,26 @@
+---
+name: fbopen
+github:
+  name: 18F/fbopen
+  description: An open API server, data import tools, and sample apps to help small
+    businesses search for opportunities to work with the U.S. government.
+description: FBOpen helps small businesses search for opportunities to work with the
+  U.S. government.
+partners: 
+stage: beta
+impact: There are nearly 40,000 active federal opportunities right now.
+milestones:
+- 'May 2014: 18F took over project maintenance from Presidential Innovation Fellows
+  program'
+contact:
+- fbopen@gsa.gov
+licenses:
+  fbopen:
+    id: CC0
+    url: https://github.com/18F/fbopen/tree/master/LICENSE.md
+links:
+- url: https://pages.18f.gov/fbopen
+  text: FBOpen API Documentation
+blog:
+- fbopen
+full_name: FBOpen

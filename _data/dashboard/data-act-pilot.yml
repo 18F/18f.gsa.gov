@@ -1,0 +1,58 @@
+name: data-act-pilot
+
+child: false
+
+full_name: DATA Act pilot
+
+description: The DATA Act was signed in 2014 to bring transparency into how the federal government spends money. 18F advises the Treasury Department on how to implement the DATA Act, and provides agency outreach, technical assistance, and content.
+
+impact: Makes it easier for the public to understand how trillions of tax dollars are spent by the government every year.
+
+tagline: We're making it easier for the public to understand how tax dollars are spent by the government.
+
+github: https://github.com/18F/data-act-pilot
+
+image:
+
+audience: public
+
+owner_type: business-unit
+
+business_unit: custom-partner-solutions
+
+tags: open government, open data
+
+stage: prototype
+
+status: not-live
+
+testable:
+
+licenses: Public Domain (CC0)
+
+partners:
+- U.S. Department of Treasury
+
+contact:
+-
+
+team:
+-
+
+type: prototype
+
+parent:
+
+links:
+- url: https://fedspendingtransparency.github.io/
+  text: "Federal Spending Transparency: Data Act Collaboration Space"
+- url: https://github.com/fedspendingtransparency/fedspendingtransparency.github.io
+  text: "Github for Federal Spending Transparency site"
+
+
+stack:
+-
+
+users:
+- id:
+  user:

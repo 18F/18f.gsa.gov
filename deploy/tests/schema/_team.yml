@@ -1,0 +1,20 @@
+---
+first_name: "String"
+last_name: "String"
+full_name: "String"
+role: "String"
+city: "String"
+state: "String"
+team:
+  type: "String"
+  oneof: ["Delivery", "Consulting", "Design", "Talent"]
+role: "String"
+config:
+  path: '_team'
+  ignore:
+  - README.md
+  - ..
+  - .
+  - .DS_Store
+  optional: ['tumblr_url', 'github', 'twitter']
+---

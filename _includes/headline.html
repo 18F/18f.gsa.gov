@@ -1,0 +1,23 @@
+{% comment %}
+		Use an if block to target different layouts, the example below will target the
+		profile layout we use for blog posts (urls like: /team/:name/)
+		```
+		  {% if page.layout == "post" %}
+		  	<h1>{{ post.title }}</h1>
+	  	{%endif%}
+	  ```
+	  for example to fill in headlines for blog posts.
+{% endcomment %}
+	{% capture location %}{%if page.city %}{{ page.city }}{% if page.state %}, {{ page.state }}{% endif %}{% endif %}{% endcapture %}
+	<header class="headline">
+		{% if page.layout == "profile" %}
+			<h1>{{ page.full_name }}{% if page.role %}: {{ page.role }}{% endif %}</h1>
+			{% if page.team or location %}<h2>{% if page.team %}{{ page.team }}{% endif %}{% if location %}{% if page.team and location.size > 0 %} // {% endif %}{{ location }}{% endif %}</h2>{% endif %}
+			{{ page.name | team_photo }}
+		{% endif %}
+
+		{% if page.layout == "press" %}
+		<h1>Press</h1>
+		<h2>Working on a story about 18F?</h2>
+		{% endif %}
+	</header>

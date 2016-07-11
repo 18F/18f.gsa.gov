@@ -1,0 +1,97 @@
+name: C2
+
+child: false
+
+full_name: C2
+
+description: More than a quarter million federal employees use government credit cards, called purchase cards, to buy small items like office supplies and furniture. Each purchase needs to be approved and audited to prevent fraud. With our partners at the General Service Administration's Public Buildings Service in Washington, D.C., we built a simplified, email-based purchasing approval tool for purchase card holders authorized to buy office supplies for the government. We designed it to be intuitive and convenient so that federal employees could drastically reduce the time they spend on purchase card approvals.
+
+impact:  As C2 streamlines the purchase card approval process, government employees can spend more time performing their essential work and less time on the paperwork required to buy their micropurchases. An updated process will help restore public confidence that government employees are only using cards for valid purchases and save the government agencies millions of dollars by creating a more reliable, efficient approval system for micropurchases.
+
+tagline: We streamlined the approval process for government employees who use purchase cards.
+
+github: https://github.com/18F/C2
+
+image:
+
+audience: agency partners
+
+owner_type: business-unit
+
+business_unit: products-and-platforms
+
+tags: platforms, procurement
+
+stage: live
+
+status: active
+
+testable: true
+
+licenses: Public Domain (CC0)
+
+partners:
+- GSA National Capital Region
+- 18F
+- GSA Common Acquisition Platform
+
+
+contact:
+- url: https://cap.18f.gov/feedback
+  text: C2 support
+- url: https://github.com/18F/C2/issues
+  text: C2 GitHub issues
+
+  team:
+  - github: afeld
+    role: developer
+  - github: annalee
+    role: developer
+  - github: phirefly
+    role: lead
+  - github: pkarman
+    role: developer
+  - github: yozlet
+    role: developer
+  - github: jessieay
+    role: developer
+
+type: app
+
+parent:
+
+
+services:
+- name: CircleCI
+  category: CI
+  url: https://circleci.com/gh/18F/C2
+  badge: https://circleci.com/gh/18F/C2.svg?style=svg
+- name: Code Climate
+  category: code quality
+  url: https://codeclimate.com/github/18F/C2
+  badge: https://codeclimate.com/github/18F/C2/badges/gpa.svg
+- name: Code Climate Coverage
+  category: code coverage
+  url: https://codeclimate.com/github/18F/C2
+  badge: https://codeclimate.com/github/18F/C2/badges/coverage.svg
+- name: Gemnasium
+  category: dependency status
+  url: https://gemnasium.com/18F/C2
+  badge: https://gemnasium.com/18F/C2.svg
+- name: Hakiri
+  category: dependency status
+  url: https://hakiri.io/github/18F/C2/master
+  badge: https://hakiri.io/github/18F/C2/master.svg
+
+
+links:
+  - url: https://cap.18f.gov/
+    text: C2 website
+
+stack:
+  - Ruby
+  - Rails
+
+users:
+- id:
+  user:

@@ -1,12 +1,15 @@
 ---
-title: 'How To Welcome New Coders To A Civic Hackathon'
+title: 'How to welcome new coders to a civic hackathon'
 date: '2015-04-03'
 layout: post
 image: /assets/blog/govtechhack/IMG_3998.JPG
-tags: 
-- 18F
+
+tags:
 - events
 - how we work
+- hackathons
+- tools you can use
+
 authors:
 - melody
 - becky
@@ -16,11 +19,6 @@ authors:
 excerpt: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
 description: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
 ---
-
-<p class="authors">
-  by {% author melody %}, {% author becky %}, {% author afeld %}, {% author julia %}, and {% author will %}
-</p>
-
 
 <blockquote class="twitter-tweet" lang="en"><p>Pushed a pull-request to <a href="https://t.co/jho7o3P9ZX">https://t.co/jho7o3P9ZX</a> this morning, and now I have code running on a .gov site. Pretty cool, <a href="https://twitter.com/18F">@18f</a>.</p>&mdash; Philip James (@phildini) <a href="https://twitter.com/phildini/status/580879418337316864">March 25, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -50,8 +48,7 @@ The National Day of Civic Hacking is a great time to attend — or host
 first-time hackathon hosts. These tips will help participants feel
 welcome, and help them maximize their contributions.
 
-Explicitly welcome newcomers with a new contributor guide.
-==========================================================
+## Explicitly welcome newcomers with a new contributor guide
 
 Usability testers, accessibility experts, researchers, data cleaners,
 writers, translators, subject-matter experts, and content designers are
@@ -76,8 +73,7 @@ with their best skills. For example, Wikimedia hackathons have [an
 explicit buddy-pairing
 system](http://www.mediawiki.org/wiki/Hackathons#Pairing_buddies).
 
-Clearly define projects and enumerate ways newcomers can get involved with each.
-================================================================================
+## Clearly define projects and enumerate ways newcomers can get involved with each
 
 Last month, we co-hosted
 [GovTechHack](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/), a San-Francisco-based hackathon where civic-minded coders, builders,
@@ -102,8 +98,7 @@ next time around. We wish we’d also:
 -   Included a checklist for users (like [this one](https://github.com/girldevelopit/gdi-new-site/issues/245))
 -   Added a section on how non-coders could have helped each project. It’s worth thinking about and then articulating — in writing — how people with other areas of expertise or knowledge can help during a hackday. If you don’t have time to write these issues out, you can open an issue that asks for someone to interview you about them. Voila! Problem solved.
 
-Make really good nametags for people
-====================================
+## Make really good nametags for people
 
 Sarah Allen, a developer at 18F, passes along nametags, pictured below,
 which were used at the GovTechHack. The nametags used color-coded
@@ -113,10 +108,9 @@ skills or interests people have. Listing interests on a nametag also
 helps facilitate conversations between people who may be meeting for the
 first time.
 
-![Image: nametag from recent hackathon showing color-coded stickers for devs, designers, and content strategists](/assets/blog/new-to-hackathon/nametag.jpg)
+![Image: nametag from recent hackathon showing color-coded stickers for devs, designers, and content strategists]({{site.baseurl}}/assets/blog/new-to-hackathon/nametag.jpg)
 
-Clearly label issues on GitHub with ways people can help.
-=========================================================
+## Clearly label issues on GitHub with ways people can help
 
 It is always a good idea to label GitHub issues that could use outside
 hands — we use the “Help Wanted” label. Government open source projects
@@ -135,8 +129,7 @@ projects. (18F’s Aidan Feldman has created [a list of
 labels](https://github.com/osscommunity/starters/issues/5) you can use
 for new projects.)
 
-Make your team available for people who hack remotely.
-======================================================
+## Make your team available for people who hack remotely
 
 Not everyone can get to a nearby city to hack on the National Civic Day
 of Hacking, but this doesn’t mean they should be excluded from
@@ -160,8 +153,7 @@ team to more easily converse in real-time. This also gives participants
 a space to connect with each other beyond the event, if they choose to
 do so.
 
-Personally invite contributions.
-================================
+## Personally invite contributions
 
 A personal invitation might be all it takes to turn a project user into
 a project contributor. If someone opens an issue that’s easily solved,
@@ -172,8 +164,7 @@ Civic Hacking are opportunities to show people that their contributions
 are being received by real people who are delighted to have them
 contribute.
 
-Develop a toolkit for participants
-==================================
+## Develop a toolkit for participants
 
 Our colleagues at GSA have created [a
 toolkit](http://gsa.github.io/Open-Data-Collaboration-Sandbox/github_tips_and_tricks/)
@@ -192,7 +183,7 @@ You may also want to look at our [checklist for open source
 projects](https://github.com/18F/open-source-policy/issues/35), our
 [maintainer guidelines for open source
 projects](https://18f.github.io/open-source-program/pages/maintainer_guidelines/),
-and a [hackathon guide](http://18f.github.io/hackathontrainingday/)
+and a [hackathon guide](https://18f.github.io/hackathontrainingday/)
 18F’s Leah Bannon recently wrote.
 
 If you have thoughts or feedback on how to improve this guide, please
@@ -202,4 +193,3 @@ ideas you have or have seen from other hackathons. If you’d like to
 contribute to an 18F project during National Day of Civic Hacking (or in
 general), check out [our issues on
 GovCode](https://www.govcode.org/issues).
-

@@ -1,12 +1,14 @@
 ---
-title: "Making Twitter Images Accessible"
+title: "Making twitter images accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
-date: 2015-03-24 
+date: 2015-03-24
+
 tags:
 - accessibility
-- twitter
-- how we work
+- communication tools and practices
+- best practices
+
 authors:
 - melody
 
@@ -14,11 +16,6 @@ authors:
 excerpt: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 description: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 ---
-
-<p class="authors">
-  by {% author melody %}
-</p>
-
 Posting images on Twitter increases potential retweets by about 35%, according to [stats](https://blog.twitter.com/2014/what-fuels-a-tweets-engagement) published by Twitter. But posting images on Twitter raises interesting questions for accessibility; namely, there's no way to include alt-text in a Twitter image to capture what the image shows, which can be exclusionary for people with visual impairments or slow Internet connections.
 
 We think a lot about accessibility at 18F. We want to make sure any images we post to Twitter are as accessible as the images we post to our website. Last week, we started trying something that we think will help make images in our tweets much more accessible. We started responding to our Tweets containing images, with another tweet explaining what the image shows. Here’s an example:
@@ -41,8 +38,8 @@ And [@thebenedict](https://twitter.com/thebenedict/status/578572813155590144) su
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a> Picture in tweet: screenshot of a tweet featuring a screenshot of a reply to a tweet featuring an image. <a href="http://t.co/PWUIJgubPd">pic.twitter.com/PWUIJgubPd</a></p>&mdash; thebenedict (@thebenedict) <a href="https://twitter.com/thebenedict/status/578572813155590144">March 19, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion. 
+Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion.
 
 **Update**:
 
-[Daniel Morgan](https://github.com/dsmorgan77) wrote and suggested that we add this link to a DigitalGov toolkit called [Improving the Accessibility of Social Media in Government](http://www.digitalgov.gov/resources/improving-the-accessibility-of-social-media-in-government/). It's a must-read if you're interested in accessibility issues, and contains "helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities."
+[Daniel Morgan](https://github.com/dsmorgan77) wrote and suggested that we add this link to a DigitalGov toolkit called [Improving the Accessibility of Social Media in Government](https://www.digitalgov.gov/resources/improving-the-accessibility-of-social-media-in-government/). It's a must-read if you're interested in accessibility issues, and contains "helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities."

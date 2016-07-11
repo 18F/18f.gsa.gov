@@ -1,0 +1,15 @@
+-
+  display: Delivery
+  link: /delivery
+  description: "Delivery is at the heart of what we do. Our team of designers and developers work to transform government services by building world-class software products and raising standards of software development throughout the government. Learn more about our products by visiting our <a href='/dashboard'>dashboard</a> and you can find more information about <a href='https://pages.18f.gov/guides'>our standards and capabilities</a> through our guides."
+  cta: <a href='/dashboard'>what we're building and how we're doing it</a>
+-
+  display: Consulting
+  link: /consulting
+  description: "Our consulting team works alongside other federal agencies as partners. We’re here to roll up our sleeves right alongside you and solve the biggest challenges facing your agency. From developing agile acquisition strategies to evaluating opportunities to improving your digital initiatives, our team sets you up for success."
+  cta: the ways we can help you at <a href='/consulting/'>18F Consulting</a>
+-
+  display: Join Us
+  link: https://pages.18f.gov/joining-18f
+  description: "We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match. We’re based in D.C, but our team is distributed all over the country."
+  cta: "<a href='https://pages.18f.gov/joining-18f'>joining our team</a>"

@@ -1,21 +1,19 @@
 ---
-title: "Flexibility When Releasing A New Product: Peace Corps' New Donations Platform"
+title: "Flexibility when releasing a new product: Peace Corps' new donations platform"
 date: '2015-04-09'
 layout: post
 image: /assets/blog/peacecorps/image04.png
+
 tags:
-- Peace Corps
-- how we work
+- peace corps
+- agency work
+
 authors:
 - cm
 description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 excerpt: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 ---
-<p class="authors">
-    by {% author cm %}
-</p>
-
-![Screenshot of workflow for new Peace Corps donation platform](/assets/blog/peacecorps/image04.png)
+![Screenshot of workflow for new Peace Corps donation platform]({{site.baseurl}}/assets/blog/peacecorps/image04.png)
 
 We were proud to provide design and development work for the Peace
 Corps' new [donations platform](https://beta.peacecorps.gov/donate/)
@@ -38,12 +36,11 @@ call and look at other decisions which still keep us up at night. By
 highlighting some of the bigger (and more contentious) decision points,
 we hope we can help inform your next project(s), as well as our own.
 
-Progressive Enhancement
------------------------
+## Progressive enhancement
 
 Our effort to refresh the Peace Corps' donations platform stemmed from
 many goals, such as highlighting volunteer stories (to humanize the
-agency,) creating an experience optimized for mobile devices, and
+agency), creating an experience optimized for mobile devices, and
 simplifying the donation process. The last point proved particularly
 challenging, as we had little control over the payment processor and
 minimal flexibility in the collections form. Luckily, we *could* reduce
@@ -52,7 +49,7 @@ user found a compelling story, they could select a donation amount
 in-line, turning what used to be a four-step process into a single
 click.
 
-![screenshot: workflow of donation pathways on Peace Corps site](/assets/blog/peacecorps/image03.png)
+![screenshot: workflow of donation pathways on Peace Corps site]({{site.baseurl}}/assets/blog/peacecorps/image03.png)
 
 Our ideal interface would have been a seamless user experience, but once
 scoped would have required a heavy lift from our front end and
@@ -66,13 +63,13 @@ this interface to be prioritized. Currently, the experience for most
 users is roughly one step away from our initial design, but it *remains*
 a step away. However, since we released without our optimal solution, we
 bought time to build some other features (perhaps skipping payment
-confirmation, perhaps additional sort options.) Stepping back and
+confirmation, perhaps additional sort options). Stepping back and
 re-prioritizing allowed us to make the product better on the whole.
 
 In another situation, starting with a simple solution ultimately led us
 down a worse path. Our most complex user interaction offers multiple
 filters and categorization mechanisms for selecting how a user's
-donation will be used by the Peace Corps Volunteers. A reasonable
+donation will be used by the Peace Corps volunteers. A reasonable
 technical architecture for this sort of page would involve asynchronous
 requests, where data is transmitted in chunks instead of in one large
 block, so that the browser only loads what is needed. We chose to start
@@ -87,8 +84,7 @@ later added additional patches to minimize redundant markup. We're still
 not where we should be with regards to site load time because our
 initial approach was too simplistic.
 
-Zero Downtime and Caching Overkill
--------------
+## Zero downtime and caching overkill
 
 During our early planning phases, we were informed there might be a
 couple concurrent announcements by the Peace Corps which could drive
@@ -102,7 +98,7 @@ kicked out every five minutes while other pages are generated hourly.
 With several machines primed and auto-scaling capability, we expected to
 handle dozens of requests per second.
 
-![screenshot of donation platform for Peace Corps birding for conservation project](/assets/blog/peacecorps/image00.png)
+![screenshot of donation platform for Peace Corps birding for conservation project]({{site.baseurl}}/assets/blog/peacecorps/image00.png)
 
 After reviewing the numbers from Peace Corps' media blitz in early
 March, we know that part of our calculus was correct — S3 and CloudFront
@@ -121,8 +117,7 @@ the beefy implementation was overkill. If we had instead started with a
 simpler vision, we would have simpler configuration, leaving less room
 for confusion and waste.
 
-Cutting Features
-----------------
+## Cutting features
 
 Replacing legacy (existing, outdated) systems is always a challenge. Not
 only do we need to find all of the technical boundaries, we are also
@@ -134,7 +129,7 @@ legacy system also provided a search engine, allowing users to find
 funds based on keywords. One of these features would make it to launch
 but the other would not.
 
-![Screenshot: product backlog for Peace Corps sprints](/assets/blog/peacecorps/image02.png)
+![Screenshot: product backlog for Peace Corps sprints]({{site.baseurl}}/assets/blog/peacecorps/image02.png)
 
 
 We pushed hard to cut as many fields as possible from the donor form,
@@ -152,11 +147,10 @@ either a full-blown search index or a tightly coupled database
 implementation. This would add nontrivial design and development time
 that was needed for other, higher-priority features. So we kept the
 search feature in the backlog (a holding area for features not actively
-planned.) When it came time to release, the feature was still not
+planned). When it came time to release, the feature was still not
 present. Time will tell whether this tradeoff was worthwhile.
 
-The Road Ahead
---------------
+## The road ahead
 
 We will no doubt see more dividends and costs associated with our
 technical choices in the coming months, but we have pulled out the above

@@ -1,0 +1,168 @@
+---
+layout: bare
+---
+<!--
+  Do the other things here. Basically, we now have two objects inside this loop:
+  - the page object which has anything in a page's front matter
+  - the project object, which is the project inside _data/projects.yml
+    whose `project` field matches thie page's `title` field.
+-->
+
+{% assign project = page.project %}<section class="dashboard-project">
+  <nav><a href="{{ site.baseurl }}/dashboard/"><i class="fa fa-chevron-left"></i><i class="fa fa-chevron-left"></i> back to main dashboard</a></nav>
+  <h1>{{ project.full_name }} <span class="status {{ project.stage }}">{% if project.stage %}{{ project.stage }}{% else %}unknown{% endif %}</span></h1>
+  <p>{% if project.description %}{{ project.description }}{% else %}Project description coming soon.{% endif %}</p>
+  <p class="project-contact">Contact:
+    {% capture contact %}{{ project.contact }}{% endcapture %}
+    {% assign contact = project.contact %}
+    {% for c in contact %}
+      {% if c.url && c.text %}
+        <a href="{{ c.url }}">{{ c.text }}</a>
+      {% else %}
+        {% if c contains '@' %}
+          {% assign mail = c | remove_first: 'mailto:' %}
+          <a href="mailto:{{mail}}">{{mail}}</a>
+        {% else %}
+          {% assign url = c | remove_first: 'https://www.github.com/' | remove_first: 'https://github.com/' %}
+          <a href="https://www.github.com/{{url}}">{{url}}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </p>
+  {% capture blog %}{{ project.blogTag | default: project.blog }}{% endcapture %}
+  {% assign tags = blog | split: ',' %}
+  {% if tags.size > 0 %}
+    <p class="project-tags">
+      <i class="fa fa-newspaper-o"></i>  /
+      <span class="blog-tags" itemprop="keywords">
+        {% for t in tags %}
+          <a href="https://18f.gsa.gov/tags/{{ t | strip }}">News</a>
+          /
+        {% endfor %}
+      </span>
+    </p>
+  {% endif %}
+</section>
+
+<section class="dashboard-info-area">
+  <div class="project-info">
+    <!-- impact -->
+    {% if project.impact %}
+      <div>
+        <h1><i class="fa fa-chevron-right"></i> impact</h1>
+        <p>{{ project.impact }}</p>
+      </div>
+    {% endif %}
+
+    <!-- partners -->
+    {% if project.partners %}
+      <div class="project-partners">
+        {% if project.partners.size > 1 %}
+          <h1><i class="fa fa-chevron-right"></i> partners</h1>
+        {% else %}
+          <h1><i class="fa fa-chevron-right"></i> partner</h1>
+        {% endif %}
+        <ul>
+          {% include list-partners.html style="list" %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if project.children %}
+      <h1><i class="fa fa-chevron-right"></i> projects</h1>
+      <h2>{{ project.full_name }}</h2>
+    {% endif %}
+      
+    <!-- milestones -->
+    {% if project.milestones %}
+      <div class="project-milestones">
+        <h1><i class="fa fa-chevron-right"></i> milestones</h1>
+        <ul>
+          {% for item in project.milestones %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <!-- code -->
+    {% if project.github %}
+    <div class="project-code dashboard-code">
+      <h1><i class="fa fa-chevron-right"></i> code</h1>
+      {% assign current_license = project.licenses %}
+      {% assign current_branch = project.licenseBranch %}
+      {% for url in project.github %}
+        {% assign current_url = url %}
+        {% include project-code.html %}
+      {% endfor %}
+    </div>
+    {% endif %}
+<!--
+    {% if project.team.size > 0 %}
+    <div>
+       <h1>Team:</h1>
+       <ul class="staff">
+         {% capture team %}{{ project.team }}{% endcapture %}
+         {% assign team = team | split: ',' %}
+         {% for name in team %}
+          <li class="{{ name | replace: ' ', '' }}"></li>
+         {% endfor %}
+       </ul>
+     </div>
+    {% endif %}
+-->
+
+  {% if project.links %}
+    {% assign current_links = project.links %}
+    {% include project-links.html %}
+  {% endif %}
+
+  {% for child in project.children %}
+  <div>
+    <h2>{{ child.full_name }}</h2>
+    <p>{{ child.description }}</p>
+  </div>
+    <!-- milestones -->
+    {% if child.milestones %}
+      <div>
+        <h1><i class="fa fa-chevron-right"></i> milestones</h1>
+        <ul>
+          {% for item in child.milestones %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <!-- code -->
+    {% if child.github %}
+    <div class="dashboard-code">
+      <h1><i class="fa fa-chevron-right"></i> code</h1>
+      {% assign current_license = child.licenses %}
+      {% assign current_branch = child.licenseBranch %}
+      {% for url in child.github %}
+        {% assign current_url = url %}
+        {% include project-code.html %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if child.links %}
+      {% assign current_links = child.links %}
+      {% include project-links.html %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- errors
+  {% if project.errors %}
+    <div class="project-errors">
+      <h1><i class="fa fa-chevron-right"></i> .about.yml errors</h1>
+      <ul>{% for item in project.errors %}
+        <li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+   -->
+
+  </div>
+</section>
