@@ -14,8 +14,7 @@ image: /assets/blog/new-jekyll-site/header.png
 
 Our blog uses [Jekyll](http://jekyllrb.com/), a static file
 generator with a basic templating system, as the backend software for
-our site. Deploying our blog posts this way has
-simplified our publishing process.
+our site. A few months ago we wrote about [our decision to host the site on Federalist]({{ site.baseurl }}/2016/05/18/why-were-moving-18f-gsa-gov-to-federalist/). This post is about what static site generators are and the advantages and disadvantages of using one over a more traditional content management system (CMS).
 
 Not everyone on our team was familiar with static website generators
 before joining 18F. Soon after joining 18F, Will Slack sat down with
@@ -101,7 +100,7 @@ they ask for, Jekyll does nothing by itself. It needs someone or a
 program to run a ‘build’ command to generate files. Jekyll is almost
 always *not* running.
 
-**Will:** So if I update a blog post in a CMS that will get pulled into
+**Will:** So if I update a blog post in a CMS, that will get pulled into
 a live website immediately, but if I update a post in Jekyll, someone
 has to "build" the page before people can see it.
 
@@ -123,7 +122,7 @@ Let’s say you want one blog post, so you go to
 website.com/single-blog-post. If all you get is the text of that blog
 post, you probably only made one query. But the cool thing about a CMS
 is it gives you everything else like header images, related posts, tags,
-categories, detailed author bios, ​_plugins_, and whatever the heck
+categories, detailed author bios, ​plugins, and whatever the heck
 else content you put in your CMS.
 
 But let’s say that single blog post page has a header image, tags,
@@ -164,7 +163,7 @@ CMS?
 static site generators tend to optimize for simplicity. Some people see
 that as a strong advantage. On 18f.gsa.gov, for example, we have that
 tagging feature but on [useiti.doi.gov](https://useiti.doi.gov) — also a Jekyll site hosted on
-Federalist — they don’t because they don’t need it, and if they ever do,
+[Federalist](https://federalist.18f.gov) — they don’t because they don’t need it, and if they ever do,
 they have the freedom to design the feature as it best suits their
 problem, use ours, or someone else’s solution. With most CMSs, you opt into
 those features the way they were designed by the CMS team.
