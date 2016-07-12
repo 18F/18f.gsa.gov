@@ -4,7 +4,7 @@ date: 2016-06-30
 authors:
 - kate
 tags:
-- content
+- content design
 - lessons learned
 - how we work
 excerpt: "Wondering if a writing lab might be right for your organization? Reviewing the benefits 18F has seen from our Writing Lab might help you figure out if starting your own is the way to go."
