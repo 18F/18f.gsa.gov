@@ -49,8 +49,7 @@ tech-savvy millennials who know the latest technology trends to seniors
 looking to receive their social security benefits. A goal of training
 was to have participants undergo hands-on experience with building
 fictional products with real users. Through this exercise, the agency
-teams learned how to apply [lean startup
-](http://theleanstartup.com/principles)principles such as:
+teams learned how to apply [lean startup](http://theleanstartup.com/principles) principles such as:
 
 1. A mindset of experimentation over elaborate planning
 1. Customer feedback instead of intuition
