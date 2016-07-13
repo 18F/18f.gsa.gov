@@ -32,7 +32,7 @@ Service](https://18f.gsa.gov/2016/05/03/delivering-the-next-generation-of-digita
 (TTS) is a new organization within the General Services Administration
 (GSA) that includes 18F, the Presidential Innovation Fellows program,
 the Federal Risk and Authorization Management Program (FedRAMP), and the
-Office of Citizen Services and Innovative Technologies.
+Office of Citizen Services and Innovative Technology.
 
 Together, these offices are working on some of the most critical parts
 of the federal government’s online presence and creating the next
