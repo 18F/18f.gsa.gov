@@ -27,10 +27,8 @@ Accelerator](https://pages.18f.gov/digitalaccelerator/), a 6-8 month
 program aimed at creating change agents within two agencies to inspire a
 culture shift towards modern digital acquisition practices. In short,
 this Accelerator helps agencies be better “buyers” of products within
-the government. This past month, the Accelerator launched its first
-[cohort](https://18f.gsa.gov/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/)[
-introducing the concepts of
-h](https://18f.gsa.gov/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/)uman-centered
+the government. This past month, [the Accelerator launched its first
+cohort](https://18f.gsa.gov/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/) introducing the concepts of human-centered
 design, lean-agile methodologies, open innovation, and modular
 contracting to cross-functional teams of contracting officers,
 developers, program managers, and product owners from the Federal Bureau
@@ -54,9 +52,9 @@ fictional products with real users. Through this exercise, the agency
 teams learned how to apply [lean startup
 ](http://theleanstartup.com/principles)principles such as:
 
--   A mindset of experimentation over elaborate planning
--   Customer feedback instead of intuition
--   Iterative design
+1. A mindset of experimentation over elaborate planning
+1. Customer feedback instead of intuition
+1. Iterative design
 
 Teams thought through their product in terms of the value it provided to
 customers via the [Value Proposition
@@ -123,7 +121,7 @@ we are within the FBI and Treasury.
 We know that the best way to improve this pilot is to be proactive about
 talking about our work and to constantly seek feedback from participants
 and the public. We have already started using the feedback that we've
-gotten from the teams to shape this pilot, but we’ll be continuing to
+gotten from the teams to shape this pilot, and we continue to
 share our work through blogs posts like this so the public can see how
 the federal government is embracing modern design and development. Next,
 we’ll be launching a three-part series that outlines our methodology on
