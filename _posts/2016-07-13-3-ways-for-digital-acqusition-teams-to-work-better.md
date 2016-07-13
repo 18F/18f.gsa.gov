@@ -41,7 +41,7 @@ give us feedback on our pilot. Below are three techniques that our team
 practiced with the FBI and Treasury teams during the recent kickoff of
 the pilot.
 
-### Test hypotheses with real users 
+### 3. Test hypotheses with real users 
 
 Designing digital products around government services can get tricky,
 especially when products have to serve a wide net of users — from
@@ -51,9 +51,9 @@ was to have participants undergo hands-on experience with building
 fictional products with real users. Through this exercise, the agency
 teams learned how to apply [lean startup](http://theleanstartup.com/principles) principles such as:
 
-1. A mindset of experimentation over elaborate planning
-1. Customer feedback instead of intuition
-1. Iterative design
+- A mindset of experimentation over elaborate planning
+- Customer feedback instead of intuition
+- Iterative design
 
 Teams thought through their product in terms of the value it provided to
 customers via the [Value Proposition
@@ -78,7 +78,7 @@ their ideas from abstract brainstorming to concrete reactions from real
 people, and taught them lessons they could apply immediately to their
 products.
 
-### Bring like-minded changemakers into the same room 
+### 3. Bring like-minded changemakers into the same room 
 
 One of the biggest takeaways of the training week was bringing product
 teams from different agencies together to learn together as a cohort. In
@@ -91,7 +91,7 @@ was so effective that the agency teams expressed interest in continuing
 to meet together as a cohort, even beyond the conclusion of the
 training.
 
-### Adopt open communication tools
+### 3. Adopt open communication tools
 
 Culture shift in procurement practices not only requires changes in
 mindset but also in methods. One major challenge faced by many
