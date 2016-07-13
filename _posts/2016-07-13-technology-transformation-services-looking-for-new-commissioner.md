@@ -1,8 +1,8 @@
 ---
 title: "Technology Transformation Service looking for new commissioner"
-date: 2016-07-13 19:00-400
+date: 2016-07-13 15:00
 authors:
-- andre
+- 18F
 tags:
 - gsa
 - 18f

@@ -41,7 +41,7 @@ give us feedback on our pilot. Below are three techniques that our team
 practiced with the FBI and Treasury teams during the recent kickoff of
 the pilot.
 
-### 3. Test hypotheses with real users 
+### 1. Test hypotheses with real users 
 
 Designing digital products around government services can get tricky,
 especially when products have to serve a wide net of users — from
@@ -78,7 +78,7 @@ their ideas from abstract brainstorming to concrete reactions from real
 people, and taught them lessons they could apply immediately to their
 products.
 
-### 3. Bring like-minded changemakers into the same room 
+### 2. Bring like-minded changemakers into the same room 
 
 One of the biggest takeaways of the training week was bringing product
 teams from different agencies together to learn together as a cohort. In
