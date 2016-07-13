@@ -1,11 +1,10 @@
 ---
-title: "Technology Transformation Services looking for new commissioner"
-date: 2016-07-13 3:00-400
+title: "Technology Transformation Service looking for new commissioner"
+date: 2016-07-13 19:00-400
 authors:
 - andre
 tags:
 - gsa
-- tts
 - 18f
 excerpt: "Now’s the time to get involved in transforming how the
 government builds, buys, and shares technology. Now’s the time to lead a
