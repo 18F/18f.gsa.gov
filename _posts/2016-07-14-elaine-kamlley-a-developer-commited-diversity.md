@@ -75,7 +75,7 @@ perspectives reflected in the work that they do.
 **MK: You’re a developer, diversity lead, and on the Outreach Team at
 18F. That’s a lot of hats to wear. I’m wondering if you could talk a
 little bit about how you were initially introduced to technology and
-civic engagement. **
+civic engagement.**
 
 **EK:** I was working as a campaign director for Filipino Advocates for
 Justice in Union City, CA. I worked on statewide propositions, and we
