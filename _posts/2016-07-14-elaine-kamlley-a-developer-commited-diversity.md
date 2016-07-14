@@ -14,10 +14,11 @@ across the 18F team. We’re starting with Elaine Kamlley, who is both a
 front-end developer and a member of our Outreach Team*.*"
 image: /assets/images/team/elaine.jpg
 ---
-<figure class="align-left">
+<figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Elaine Kamlley.">
 	<figcaption>Elaine Kammley, 18F team member</figcaption>
 </figure>
+
 *Over the next few months, we’ll be profiling members across the 18F
 team. We’re starting with Elaine Kamlley, who joined 18F in November of
 2014. Elaine is both a front-end developer and a member of our Outreach
