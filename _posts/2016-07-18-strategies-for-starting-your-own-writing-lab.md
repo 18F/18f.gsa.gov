@@ -14,7 +14,7 @@ image: /assets/blog/writing-lab/writing-lab-screenshot.png
 
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/writing-lab/writing-lab-screenshot.png" alt="Screen shot of writing lab GitHub page">
-	<figcaption><a href="https://pages.18f.gov/writing-lab-guide/">Caption?</a></figcaption>
+	<figcaption>The internal README of the 18F Writing Lab</figcaption>
 </figure>
 <br>
 
@@ -47,6 +47,11 @@ Though there’s no one “right” number of core team members to start out wit
 Along similar lines, it’s always better to be overstaffed than understaffed. If you’re overstaffed, editors can dedicate lab time to other tasks: writing internal lab documentation, for example, or working ahead on other projects. If you’re understaffed — especially right when you launch — you have a greater likelihood of providing a disappointing experience to your clients and establishing yourself as an unreliable (or unhelpful) group.
 
 ## Plan what services you’ll offer
+
+<figure class="align-right">
+	<img src="{{site.baseurl}}/assets/blog/writing-lab/kate-garklavs-confab.jpg" alt="Kate Garklavs speaking at Confab about the Writing Lab">
+	<figcaption>Kate Garklavs speaking at <a href="https://youtu.be/FQVZJKR2Tk4?list=PLnoM8YHGYeM0ZvGiPQO6mHUHJxUEsmoZv">Confab about the Writing Lab</a></figcaption>
+</figure>
 
 After you’ve assembled your core team, you can decide what type of services you’ll offer your clients. Our recommendation is to always prioritize user need, which will help you create a better customer experience by solving the problems people actually have (rather than the ones you _think_ they might have). 
 
