@@ -20,8 +20,9 @@ image: /assets/blog/cloud-gov/ship-going-fast.jpg
 ---
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/cloud-gov/ship-going-fast.jpg" alt="A ship going fast">
-	<figcaption><a href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">To always be shipping, you need a shipyard.</a> Now ours is more ready for use.</figcaption>
+	<figcaption><a href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">To always be shipping, you need a shipyard.</a> Image courtesy of the [U.S. Navy / CC0](https://www.flickr.com/photos/usnavy/8428935049/)</figcaption>
 </figure>
+<br>
 
 Here at 18F on the [cloud.gov](https://cloud.gov/) team, we’re working
 toward getting cloud.gov assessed as
