@@ -78,7 +78,7 @@ Next steps in our FedRAMP progress
 [Our FedRAMP status
 page](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/)
 has some notes about our next steps, and here are more details about the
-two big categories our work fall into right now:
+two big categories our work falls into right now:
 
 **Improvements:** Some of this is technical work (such as moving our
 systems to [AWS GovCloud](https://aws.amazon.com/govcloud-us/)), and
