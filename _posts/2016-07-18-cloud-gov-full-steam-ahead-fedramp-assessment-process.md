@@ -1,19 +1,24 @@
 ---
-title: "cloud.gov is full steam ahead on its FedRAMP assessment process"
-date: YYYY-MM-DD (optional)
+title: "Cloud.gov is full steam ahead on its FedRAMP assessment process"
 authors:
-- Bret Mogilefsky
-- Diego Lapiduz
-- Britta Gustafson
+- bret
+- diego
+- britta-gustafson
 tags:
 - cloud.gov
 - platforms
 - devops
-excerpt: ""
-description: ""
-Image: A ship going fast
+excerpt: "Here at 18F on the cloud.gov team, we’re working
+toward getting cloud.gov assessed as FedRAMP compliant, with lots of
+interesting progress — so here’s an update, including our FedRAMP
+Ready status!"
+description: "Here at 18F on the cloud.gov team, we’re working
+toward getting cloud.gov assessed as FedRAMP compliant, with lots of
+interesting progress — so here’s an update, including our FedRAMP
+Ready status!"
+image: /assets/blog/cloud-gov/ship-going-fast.png
 ---
-![A ship going fast](assets/blog/cloud-gov/ship-going-fast.png)
+![A ship going fast]({{site.baseurl}}/assets/blog/cloud-gov/ship-going-fast.png)
 
 Here at 18F on the [cloud.gov](https://cloud.gov/) team, we’re working
 toward getting cloud.gov assessed as
