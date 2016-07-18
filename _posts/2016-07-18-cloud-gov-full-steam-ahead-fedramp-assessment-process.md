@@ -1,5 +1,5 @@
 ---
-title: "Cloud.gov is full steam ahead on its FedRAMP assessment process"
+title: "cloud.gov is full steam ahead on its FedRAMP assessment process"
 authors:
 - bret
 - diego
@@ -16,9 +16,12 @@ description: "Here at 18F on the cloud.gov team, we’re working
 toward getting cloud.gov assessed as FedRAMP compliant, with lots of
 interesting progress — so here’s an update, including our FedRAMP
 Ready status!"
-image: /assets/blog/cloud-gov/ship-going-fast.png
+image: /assets/blog/cloud-gov/ship-going-fast.jpg
 ---
-![A ship going fast]({{site.baseurl}}/assets/blog/cloud-gov/ship-going-fast.png)
+<figure>
+	<img src="{{site.baseurl}}/assets/blog/cloud-gov/ship-going-fast.jpg" alt="A ship going fast">
+	<figcaption><a href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">To always be shipping, you need a shipyard.</a> Now ours is more ready for use.</figcaption>
+</figure>
 
 Here at 18F on the [cloud.gov](https://cloud.gov/) team, we’re working
 toward getting cloud.gov assessed as
@@ -66,16 +69,14 @@ charging a fee to teams that use it. Teams at 18F use cloud.gov for our
 work with our agency partners. If you’re curious to learn more, see the
 [cloud.gov website](https://cloud.gov/), [previous blog
 posts](https://18f.gsa.gov/tags/cloud-gov/), and
-[documentation](https://docs.cloud.gov/intro/overview/what-is-cloudgov/)[
-*with technical
-details](https://docs.cloud.gov/intro/overview/what-is-cloudgov/).
+[documentation with technical details](https://docs.cloud.gov/intro/overview/what-is-cloudgov/).
 
 Next steps in our FedRAMP progress
 ----------------------------------
 
 [Our FedRAMP status
 page](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/)
-has some notes about our next steps, but here are more details about the
+has some notes about our next steps, and here are more details about the
 two big categories our work fall into right now:
 
 **Improvements:** Some of this is technical work (such as moving our
@@ -103,10 +104,10 @@ we’re automating (and open sourcing) our work so that our compliance
 work is reusable by anyone else who needs to go through this process,
 including agency teams and industry vendors.
 
-Watch a recent presentation from part of the cloud.gov team to learn
-more about some of the work we’ve done to get here:
+[Watch a recent presentation from part of the cloud.gov team to learn
+more about some of the work we’ve done to get here.](https://www.youtube-nocookie.com/embed/UwOG3BrdODo)
 
-{{ "https://www.youtube-nocookie.com/embed/UwOG3BrdODo" | embed }}
+{% comment %}{{ "https://www.youtube-nocookie.com/embed/UwOG3BrdODo" | embed }}{% endcomment %}
 
 If you’re interested in cloud.gov
 ---------------------------------
@@ -123,7 +124,7 @@ happen in November), put your email address in!
 
 If you’re part of a federal agency team and you’re curious to get a
 sandbox account to try out cloud.gov, send us a note at
-[cloud-gov-inquires@gsa.gov](mailto:cloud-gov-inquires@gsa.gov).
+[cloud-gov-inquiries@gsa.gov](mailto:cloud-gov-inquiries@gsa.gov).
 
 You can also help with cloud.gov as a volunteer open source contributor.
 cloud.gov is made of many open source sub-projects with code,
