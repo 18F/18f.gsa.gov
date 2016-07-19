@@ -2,8 +2,7 @@
 title: "Why (and how) we bill: Cost recovery as a feature"
 authors:
 - vdavez
-- aaron
-date: 2016-07-19
+date: 2016-07-20
 tags:
 - how we work
 - transparency
@@ -13,6 +12,7 @@ charging the agencies and teams we partner with for our work. In this post, I ex
 description: "18F is a 'cost recoverable' program. We do this by
 charging the agencies and teams we partner with for our work. In this post, I explain why we bill, why billing is good for 18F overall, how we bill, and where we can still improve."
 ---
+Aaron Snow and Hillary Hartley contributed to this statement from 18F. For press inquiries, please contact media@gsa.gov.
 
 When I joined 18F last year, I quickly learned something that I didn't
 expect coming in: We charge our partner agencies for our work. At first,
@@ -152,7 +152,7 @@ has to spend an hour doing it. If we learn how to do something better,
 we want to [make sure everyone else knows about
 it](https://pages.18f.gov/guides/). We’re still a relatively new
 organization, so we’re still learning. But as we mature, optimizing for
-these costs will be a key opportunity for us to keep our cost as a low
+these costs will be a key opportunity for us to keep our cost as low
 as possible.
 
 ## Looking forward
