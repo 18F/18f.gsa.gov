@@ -2,6 +2,7 @@
 title: "Why (and how) we bill: Cost recovery as a feature"
 authors:
 - vdavez
+- aaron
 date: 2016-07-19
 tags:
 - how we work
@@ -72,22 +73,22 @@ project may _seem_ important, but unless an agency is willing to pay
 for it, we can't do it. The billing constraint therefore focuses our
 work on projects that have clear value propositions, not just because we
 want to do them. (Of course, the dollar value of our billing doesn't
-measure the overall value we may provide in cost savings, cost avoidance
+measure the overall value we may provide in cost savings, cost avoidance,
 or other measurements of impact. We'll look at those in other posts.)
 
 Finally, signing an interagency agreement at the outset of an engagement
 ensures mutual understanding and sets everyone up for success.
-Interagency agreements are not [*government contracts*](https://pages.18f.gov/partnership-playbook/).
+Interagency agreements are not [government contracts](https://pages.18f.gov/partnership-playbook/).
 They reflect *mutual* agencies’ priorities and, in the case of 18F,
 specify that we work in short, iterative sprints; that we require
 intensive involvement from a single, responsible, empowered point of
 contact at the partner agency; that we put users first throughout the
-process; that we work [*in the
-open*](https://github.com/18F/open-source-policy) absent extraordinary
+process; that we work [in the
+open](https://github.com/18F/open-source-policy) absent extraordinary
 circumstances; and that either party can terminate the agreement on 30
 days’ notice. By the time we and our agency partners have signed on the
-bottom line, everyone has been acculturated to [*how we
-work*](https://18f.gsa.gov/tags/how-we-work/) and expectations are
+bottom line, everyone has been acculturated to [how we
+work](https://18f.gsa.gov/tags/how-we-work/) and expectations are
 properly aligned.
 
 ## How we bill
@@ -99,7 +100,7 @@ side.
 Our expenditures come in two buckets: direct and indirect costs. The
 first bucket — direct costs — are the amounts paid to 18F employees in
 compensation and benefits, plus operational expenditures such as
-computers, software, and other supplies. They represent about 75% of our
+computers, software, and other supplies. They represent about 75 percent of our
 costs. The second bucket — indirect costs — are paid to GSA for shared
 services like human resources and information technology, rent,
 utilities, and security; these represent the remainder of 18F’s costs.
@@ -120,7 +121,7 @@ year.](https://pages.18f.gov/joining-18f/pay-grades)
 
 This billing methodology has been acceptable for 18F during its
 relatively short existence. Like any feature, it could use some
-[*refactoring*](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/),
+[refactoring](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/),
 particularly because cost recovery is still years away and because
 projecting our expenses and expected revenues is still a work in
 progress.
