@@ -18,7 +18,7 @@ image: /assets/blog/writing-lab/writing-lab-screenshot.png
 </figure>
 <br>
 
-These past few months, we’ve published a few posts about 18F’s Writing Lab — [what it is](https://18f.gsa.gov/2016/01/22/18f-writing-lab/), the [documentation we’ve created for it](https://18f.gsa.gov/2016/04/28/a-guide-to-the-18f-writing-lab/), and how a [Lab can benefit your organization](https://18f.gsa.gov/2016/06/30/6-ways-a-writing-lab-will-help-your-organization/). Today, we’ll be concluding our four-part miniseries by discussing practical steps you can take to start your own lab.
+These past few months, we’ve published a few posts about 18F’s Writing Lab — [what it is](https://18f.gsa.gov/2016/01/22/18f-writing-lab/), the [documentation we’ve created for it](https://18f.gsa.gov/2016/04/28/a-guide-to-the-18f-writing-lab/), and how a [lab can benefit your organization](https://18f.gsa.gov/2016/06/30/6-ways-a-writing-lab-will-help-your-organization/). Today, we’ll be concluding our four-part miniseries by discussing practical steps you can take to start your own lab.
 
 It’s worth noting that, although most folks can fairly easily start their own labs, the process of getting one off the ground will take some time and effort. Don’t panic! If you’re feeling overwhelmed, take another look at the posts we’ve published and peruse our [Writing Lab guide](https://pages.18f.gov/writing-lab-guide/) — these resources have all the information you need to spin up your own lab.
 
@@ -28,7 +28,7 @@ On that note, here are the steps to take to start your lab from scratch.
 
 Before you dive into planning, ask yourself a very important question: *How could my organization benefit from a writing lab?* If you have adequate resources to accomplish all the content-related tasks that need doing, you might not need a lab, regardless of how excited you are to start one. (That said, most teams could benefit from a little extra editorial and content help. If you’re one of the rare birds that has every project and task under control, we commend you.)
 
-To best help your coworkers, you’ll need to figure out what kind of writing and editing help they need most; doing this will allow you to solve your their biggest pain points. For this reason, we recommend doing a bit of user research to determine what sorts of services your lab should offer.
+To best help your coworkers, you’ll need to figure out what kind of writing and editing help they need most; doing this will allow you to solve their biggest pain points. For this reason, we recommend doing a bit of user research to determine what sorts of services your lab should offer.
 
 Not a full-time user researcher? Not to worry — your research doesn’t need to be super formal to be effective. As we were planning for our Lab, we sent our colleagues a short survey asking what types of help they’d most prefer, and we used the survey results to determine our services offerings (more on that in just a minute). 
 
