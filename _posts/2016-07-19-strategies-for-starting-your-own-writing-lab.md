@@ -1,6 +1,6 @@
 ---
 title: "Strategies for starting your own writing lab"
-date: 2016-07-18 (optional)
+date: 2016-07-19 (optional)
 authors:
 - kate
 tags:
