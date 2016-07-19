@@ -77,8 +77,7 @@ or other measurements of impact. We'll look at those in other posts.)
 
 Finally, signing an interagency agreement at the outset of an engagement
 ensures mutual understanding and sets everyone up for success.
-Interagency agreements are not [*government
-*](https://pages.18f.gov/partnership-playbook/)[*contracts*](https://pages.18f.gov/partnership-playbook/).
+Interagency agreements are not [*government contracts*](https://pages.18f.gov/partnership-playbook/).
 They reflect *mutual* agencies’ priorities and, in the case of 18F,
 specify that we work in short, iterative sprints; that we require
 intensive involvement from a single, responsible, empowered point of
@@ -104,7 +103,7 @@ computers, software, and other supplies. They represent about 75% of our
 costs. The second bucket — indirect costs — are paid to GSA for shared
 services like human resources and information technology, rent,
 utilities, and security; these represent the remainder of 18F’s costs.
-In fiscal year 2017, we’re projecting \$46,631,000 in total operating
+In fiscal year 2017, we’re projecting $46,631,000 in total operating
 expenditures.
 
 On the other side of the ledger is revenue. Because 18F must recover
@@ -114,15 +113,14 @@ projected total direct and indirect costs *divided* by the total
 number of hours 18F employees are projected to work on projects for its
 clients (often referred to in other settings as the “billable hour”).
 From here, we assign different hourly rates to [each government pay
-grade](https://pages.18f.gov/joining-18f/pay-grades) [that we estimate
-will meet our cost recoverability goal for the fiscal
+grade that we estimate will meet our cost recoverability goal for the fiscal
 year.](https://pages.18f.gov/joining-18f/pay-grades)
 
 ## How we can improve
 
 This billing methodology has been acceptable for 18F during its
 relatively short existence. Like any feature, it could use some
-[[*refactoring*](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/)](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/),
+[*refactoring*](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/),
 particularly because cost recovery is still years away and because
 projecting our expenses and expected revenues is still a work in
 progress.
