@@ -10,8 +10,8 @@ tags:
 - procurement
 - training
 image: /assets/blog/digital-acquisition-accelerator/complete-persona.jpg
-excerpt: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first blog in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
-description: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first blog in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
+excerpt: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
+description: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 ---
 Recently, 18F launched the [Digital Acquisition
 Accelerator](https://pages.18f.gov/digitalaccelerator/), a 6-8 month
@@ -75,7 +75,7 @@ they were asked to create a name then outline that user’s demographic
 information, needs, and goals as well as behaviors and beliefs, like
 below:
 
-![A template for sketching personas to give to participants.]({{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-sketch.jpg)
+<img alt="A template for sketching personas to give to participants." src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-sketch.jpg">
 
 Then, agency teams determined a series of 5-7 traits to compare across
 proto-personas. Using these traits, teams narrowed down their options
@@ -128,6 +128,6 @@ robust problem statements that looked at all aspects of the problem.
 This helped ensure that they’re solving the right problem, and not just
 a symptom of a problem.
 
-*This is the first blog in a series of three blog posts that provide a
+*This is the first in a series of three blog posts that provide a
 step-by-step guide to how we led the inception workshop. In the next
 post, we’ll go over setting the product vision and strategy.*
