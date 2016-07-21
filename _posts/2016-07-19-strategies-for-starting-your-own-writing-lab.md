@@ -4,7 +4,7 @@ date: 2016-07-19 (optional)
 authors:
 - kate
 tags:
-- content-design
+- content design
 - lessons learned
 - how we work
 excerpt: "Interested in spinning up your own Writing Lab? Use these tips as your starting point."
