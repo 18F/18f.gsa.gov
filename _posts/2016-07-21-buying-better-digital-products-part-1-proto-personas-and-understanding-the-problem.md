@@ -28,7 +28,7 @@ our validated process and learnings as soon as they become available.
 A key component of this Accelerator is to make agencies be better
 “buyers” of digital products within the government. That means we need
 to decide what it is that these agencies are buying. These decisions are
-made in our version of the “inception workshop.” While our first week
+made in [our version of the “inception workshop.”](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-one.pdf) While our first week
 bootcamp focused on the cohort growing an appreciation for modern
 product management practices, the inception workshop is meant to put
 some of those principles into practice and to determine what products
@@ -75,7 +75,7 @@ they were asked to create a name then outline that user’s demographic
 information, needs, and goals as well as behaviors and beliefs, like
 below:
 
-<img alt="A template for sketching personas to give to participants." src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-sketch.jpg">
+<img alt="A template for sketching personas to give to participants." src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-sketch.jpg"><br>
 
 Then, agency teams determined a series of 5-7 traits to compare across
 proto-personas. Using these traits, teams narrowed down their options
