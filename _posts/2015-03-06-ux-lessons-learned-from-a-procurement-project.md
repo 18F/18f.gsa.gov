@@ -119,7 +119,7 @@ procurement officer’s job is to say that they buy things on behalf of
 the government and, at the end of the day, they are responsible for
 buying that thing at a fair and reasonable price.
 
-**How does Ddiscovery make a contracting officer’s life easier?**
+**How does Discovery make a contracting officer’s life easier?**
 
 Depending on what is being bought, the procurement process can be months
 and maybe even years long. Contracting officers have to write the
