@@ -13,7 +13,7 @@ image: /assets/blog/digital-acquisition-accelerator/complete-persona.jpg
 excerpt: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 description: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 ---
-Recently, 18F launched the [Digital Acquisition
+Recently, 18F and the Presidential Innovation Fellows launched the [Digital Acquisition
 Accelerator](https://pages.18f.gov/digitalaccelerator/), a 6-8 month
 program aimed at creating change agents within two agencies to inspire a
 culture shift within those agencies towards modern product management
@@ -48,6 +48,8 @@ The overall purpose of this workshop is to have the inputs necessary to
 build a stellar solicitation for vendors to build out the product. We’re
 introducing a step-by-step recap of each of these three days in a
 three-part blog series so you can recreate it within your team.
+
+To follow along or replicate this exercise, [here is the deck used in this training.](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-one.pdf)
 
 Day 1: Proto-personas and problem statements
 --------------------------------------------
@@ -127,6 +129,8 @@ The analyses and discussion earlier in the day led the teams to write
 robust problem statements that looked at all aspects of the problem.
 This helped ensure that they’re solving the right problem, and not just
 a symptom of a problem.
+
+If you'd like to conduct your own workshop, [feel free to use our deck to replicate it.](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-one.pdf)
 
 *This is the first in a series of three blog posts that provide a
 step-by-step guide to how we led the inception workshop. In the next
