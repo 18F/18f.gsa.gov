@@ -46,7 +46,7 @@ Transition rituals help clear your head and get you in a frame of mind where you
 
 ### Off to the races
 
-As I mentioned in part one, many interviews ebb and flow based on the questions you ask and the tasks you observe. That said, there are some things that should always happen: 
+[As I mentioned in part one](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/), many interviews ebb and flow based on the questions you ask and the tasks you observe. That said, there are some things that should always happen: 
 
 1. Thank people for their time. 
 2. Explain the purpose of your research — to better understand the problem(s) you're trying to solve — and the scope of your work. 
@@ -54,7 +54,7 @@ As I mentioned in part one, many interviews ebb and flow based on the questions 
 4. Remind stakeholders that participation in this usability study is voluntary, and that they should feel free to raise any concerns or areas of discomfort during the session. Let them know that you can stop or pause the recording at any time. If you’re going to transcribe the interview — which I try do for every interview I conduct; more on this below — let your interviewee know that they’ll get a chance to review the transcript before you share it with the project team. 
 5. Ask stakeholders to talk about themselves. Ask your stakeholder how they got involved in the thing you’re studying.
 6. Look people in the eye and give positive affirmations. Lean forward. Say things like "Wow," or "Oh, interesting!" (when those reactions genuinely occur to you, of course). 
-7. Take simple notes to show you're paying attention. Be sure to note the exact words and phrases people use. Maybe say their own words back to them with a slight lilt (For example, if they say "I run the TPS reports every Friday," you might respond “Run the TPS reports every Friday?” to see if they'll explain further).
+7. Take simple notes to show you're paying attention. Be sure to note the exact words and phrases people use. Maybe say their own words back to them with a slight lilt (for example, if they say "I run the TPS reports every Friday," you might respond “Run the TPS reports every Friday?” to see if they'll explain further).
 8. Don’t reference your interview questions if you can help it. Instead, let the conversation flow naturally, and try and get people to tell stories — yes, stories — that relate to the thing you’re studying. 
 9. Remember to ask "how" and "why" multiple times, and to provide blank space to give them time to think. Anna Sale, who runs the Death, Sex, and Money podcast, has some advice on how to strategically deploy awkward pauses to dive deeper — and rather than trying to summarize it here I’ll just link to [the video](https://youtu.be/oi5ufy3RguM?t=45m28s)
 10. Finish up with "is there anything I forgot to ask?" Remind stakeholders that you’re going to talk to other people and it might be useful for you to ask a certain question as you go forward as a kind of informal poll. Also ask "do you have any questions for me?" Write these responses down.
