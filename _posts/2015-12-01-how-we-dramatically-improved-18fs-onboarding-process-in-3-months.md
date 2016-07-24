@@ -41,7 +41,7 @@ blocks back in September:
 
 ![An early sketch for onboarding modules]({{site.baseurl}}/assets/blog/onboarding/learning-modules.jpg)
 
-Every 18F employee needs to know certain general stuff: what the [Hatch Act is](http://www.oge.gov/Topics/Outside-Employment-and-Activities/Political-Activities/), where to file
+Every 18F employee needs to know certain general stuff: what the [Hatch Act is](https://www.oge.gov/web/oge.nsf/Outside%20Employment%20and%20Activities/88E8E6E11682F97885257E96006364FF?opendocument), where to file
 their health insurance, and how to add their biography to our website,
 for example.
 
