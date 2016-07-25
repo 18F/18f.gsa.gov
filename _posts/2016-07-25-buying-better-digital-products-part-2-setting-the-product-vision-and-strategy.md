@@ -61,7 +61,7 @@ together and labeled those groups.
 <figure>
 	<img src="{{ site.baseurl }}/assets/blog/digital-acquisition-accelerator/combining-labeling.jpg" alt="A diagram of culstered post-its.">
 	<figcaption>Example of combining and labeling clusters</figcaption>
-</figure>
+</figure><br>
 
 In this session, teams were taught terms such as a “product principle”
 (a general statement of value a product embodies) and “product strategy”
