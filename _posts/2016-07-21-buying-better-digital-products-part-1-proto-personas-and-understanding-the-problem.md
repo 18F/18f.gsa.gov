@@ -133,5 +133,5 @@ a symptom of a problem.
 If you'd like to conduct your own workshop, [feel free to use our deck to replicate it.](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-one.pdf)
 
 *This is the first in a series of three blog posts that provide a
-step-by-step guide to how we led the inception workshop. In the next
-post, we’ll go over setting the product vision and strategy.*
+step-by-step guide to how we led the inception workshop. In [the next
+post]({{site.baseurl}}/2016/07/25/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/), we’ll go over setting the product vision and strategy.*
