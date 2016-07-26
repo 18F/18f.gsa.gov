@@ -15,7 +15,7 @@ description: This is the second in a series of three blog posts that provide a s
 *This is the second post in a series of three that provide a
 step-by-step guide to how we led the inception workshop. [The first was published on July 21.]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/)*
 
-18F’s [Digital Acquisition
+18F and the Presidential Innovation Fellows' [Digital Acquisition
 Accelerator](https://pages.18f.gov/digitalaccelerator/) launched in
 early June. Through this program, cross-functional teams from two
 agencies — the U.S. Department of the Treasury and the Federal Bureau of
