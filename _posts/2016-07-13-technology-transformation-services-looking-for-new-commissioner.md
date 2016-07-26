@@ -47,7 +47,6 @@ someone to help us increase our impact, while providing the best service
 possible to our partners.
 
 Applications are [due to
-USAJOBS](https://www.usajobs.gov/GetJob/ViewDetails/444223600/) by July
-25, so get yours in soon (or pass this on to someone who you think might
+USAJOBS](https://www.usajobs.gov/GetJob/ViewDetails/444223600/) by August 1, so get yours in soon (or pass this on to someone who you think might
 be right for the job.) Find out [more about the
 position](http://www.gsa.gov/portal/content/139026) from GSA.
