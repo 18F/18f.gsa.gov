@@ -1,6 +1,6 @@
 ---
 title: "New pilot aims to streamline notice and comment process"
-date: 2016-07-25
+date: 2016-07-26
 authors:
 - andre
 tags:
