@@ -13,9 +13,11 @@ image: /assets/blog/eregs-comments/eregs-comment.gif
 ---
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/eregs-comments/eregs-comment.gif" alt="gif of eRegulations comment page">
+	<figcaption>The new eRegulations commenting interface allows people to share their thoughts down to the paragraph level.</figcaption>
 </figure>
+<br>
 
-Today, the Environmental Protection Agency (EPA) began asking the public to comment on a [new proposed rule](https://epa-notice.usa.gov/preamble/0000_0000/intro) for establishing the fee methodology for EPA’s electronic hazardous waste manifest system. This rule is also the pilot of the new notice and comment feature of the [eRegulations platform](https://eregs.github.io/). 
+Today, the Environmental Protection Agency (EPA) began asking the public to comment on a [new proposed rule](https://epa-notice.usa.gov/) for establishing the fee methodology for EPA’s electronic hazardous waste manifest system. This rule is also the pilot of the new notice and comment feature of the [eRegulations platform](https://eregs.github.io/). 
 
 [eRegulations is an open source platform developed by the Consumer Financial Protection Bureau and 18F](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/) to help make government regulations more readable, accessible, and understandable. The new notice and comment feature allows the public to comment down to the paragraph level on proposed regulations and simplifies the sorting and responding process for federal agencies receiving the comments. 
 
@@ -31,7 +33,9 @@ While many commenters continue to use paper or email, the current digital proces
 
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/eregs-comments/previous-system.png" alt="gif of eRegulations comment page">
+	<figcaption>The output of feedback will be inline to a specific section. This will give agencies a better understanding of what people are responding to.</figcaption>
 </figure>
+<br>
 
 We hope the eRegulations Notice and Comment tool will simplify and streamline the process for both the public and for agency staff. The public will be able to see the agency’s proposed changes inline with the original document. Further, they can write responses to individual sections (or even paragraphs) of the proposed rule instead of commenting on the whole document. Agencies will be able to see commenters’ thoughts in more context with clear placement in the proposed rule, making it much easier for them to sort and analyze input from the public. 
 
@@ -43,10 +47,10 @@ This new feature, and the [many other features](https://eregs.github.io/features
 
 We built the eRegulations Notice and Comment process using human-centered design principles. We interviewed everyone from legal experts, agency representatives, regulation writers, and contractors who sort the comments that come in, to political and environmental activists, librarians, and general public commenters. This user-centered approach helped inform our agile design and development process and guided the release that we’re testing live starting today. We’ll continue to do user research and collect feedback on the user experience to improve the platform in the future. (We’d love your feedback on [this new feature](https://epa-notice.usa.gov/).)
 
-While this comment feature is only live for this EPA regulation, we’re interested in expanding it further and finding more partners to join us in this democratic experiment.. 
+While this comment feature is only live for this EPA regulation, we’re interested in expanding it further and finding more partners to join us in this democratic experiment.
 
 Also, the eRegulations platform is [open source](https://eregs.github.io/) so anyone can spin up their own instance or fork and build new features. We believe this platform has the potential to transform the state of rules and regulations across the federal government. We’re excited to work with our amazing partners at the EPA and to learn from the first iteration of this feature so we can continue to improve the eRegulations platform with lessons from real, live users. 
 
 If you’d like to contribute to the eRegulations project or explore how your agency can work with us or adapt it for your own use, you can find more information at [eregs.github.io](https://eregs.github.io/). 
 
-_Special thanks to Bill Noggle and the EPA eManifest team for their tremendous expertise, support and feedback on the product development process and Valerie Brecher-Kovacevic and the Regulations.gov team for their support with the API that makes this pilot project possible._
+_Special thanks to Bill Noggle and the EPA eManifest team for their tremendous expertise, support, and feedback on the product development process and Valerie Brecher-Kovacevic and the Regulations.gov team for their support with the API that makes this pilot project possible._
