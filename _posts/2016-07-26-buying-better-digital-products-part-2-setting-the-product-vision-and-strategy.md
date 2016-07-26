@@ -24,8 +24,8 @@ product management practices. During week two of the Accelerator, the
 teams applied what they learned in an inception workshop to shape the
 vision and strategy around their first products. This is the second of
 three posts that provide a step-by-step guide to how we led the
-inception workshop. Read more about roto personas and how teams broke
-down their problem in the first post.
+inception workshop. Read more about proto personas and how teams broke
+down their problem [in the first post]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/).
 
 Day 2: Product vision and strategy
 ==================================
