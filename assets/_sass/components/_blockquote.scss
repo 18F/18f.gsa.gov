@@ -1,0 +1,23 @@
+.pquote {
+    float: left;
+    font-weight: bold;
+    margin: 0 1.3em 1.3em 0;
+    padding: 1.3em;
+    width: 60%;
+
+    blockquote {
+	    border-left: none;
+	    margin: 0;
+	}
+
+   @include media(max-width 500px) {
+     float:none;
+     width: 100%;
+   }
+}
+.pquote-img{
+	float: left;
+	margin-right: 1.5em;
+	max-width: 50%;
+}
+

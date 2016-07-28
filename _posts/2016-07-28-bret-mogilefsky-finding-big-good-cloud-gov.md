@@ -18,10 +18,13 @@ a new platform that enables small federal teams to rapidly develop and
 deploy web services with best-practice, production-level security and
 scalability.*
 
-<div class="align-center">
-	<img class="" src="{{site.baseurl }}/assets/images/team/bret.jpg" alt="Bret Mogilefsky">
-	<p class="align-left" style="text-align: center;"><strong style="padding: 1em 0;">"It was the best way I could have an impact and do big good. I mean that in caps, DO BIG GOOD — I wanted to have the biggest possible impact in a good way."</strong></p>
-</div>
+
+<aside class="pquote">
+	<img class="pquote-img" src="{{site.baseurl }}/assets/images/team/bret.jpg" alt="Bret Mogilefsky">
+	<blockquote>
+		<p>"It was the best way I could have an impact and do big good. I mean that in caps, DO BIG GOOD — I wanted to have the biggest possible impact in a good way."</p>
+	</blockquote>
+</aside>
 
 
 **Melody Kramer: Tell me about a bit about your path to 18F.**
