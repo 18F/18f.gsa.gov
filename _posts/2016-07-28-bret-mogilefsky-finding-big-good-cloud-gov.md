@@ -6,8 +6,8 @@ tags:
 - staff profiles
 - 18f team
 - how we work
-excerpt: ""
-description: ""
+excerpt: "Bret Mogilefsky spent most of his career working in the game development industry. He came to the government seeking the best way he could have a big impact and do big good."
+description: "Bret Mogilefsky spent most of his career working in the game development industry. He came to the government seeking the best way he could have a big impact and do big good."
 image: /assets/images/team/bret.jpg
 ---
 *All throughout the summer, we’ll be profiling members across the 18F
