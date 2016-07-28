@@ -3,11 +3,13 @@
     font-weight: bold;
     margin: 0 1.3em 1.3em 0;
     padding: 1.3em;
-    width: 60%;
+    width: 40%;
 
     blockquote {
-	    border-left: none;
+    	border-left: none;
+	    display: inline-block;
 	    margin: 0;
+	    padding-top: 1.3em;
 	}
 
    @include media(max-width 500px) {
@@ -18,6 +20,6 @@
 .pquote-img{
 	float: left;
 	margin-right: 1.5em;
-	max-width: 50%;
+	max-width: 90%;
 }
 
