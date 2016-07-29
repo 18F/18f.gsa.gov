@@ -4,7 +4,7 @@ authors:
 - boone
 - will
 tags:
-- communications tools and practices
+- communication tools and practices
 - jekyll
 - federalist
 excerpt: "Our blog uses Jekyll, a static file generator with a basic templating system, as the backend software. Deploying our blog posts this way has simplified our publishing process."
