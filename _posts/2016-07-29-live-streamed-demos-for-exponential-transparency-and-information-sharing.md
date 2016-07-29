@@ -62,7 +62,7 @@ work.
 -   The beginning of your recorded video will have some dead time from your setup, but it’s a small price to pay for not having to use video editing software.
 -   Call-in with a land line phone for the audio conference for better audio quality.
 -   Create or use a base Powerpoint or Google Docs presentation to create a professional feel with a clear beginning, chapters, and ending to the presentation.
--   Be mindful of how public to make your videos — YouTube offers private, public and unlisted settings for videos. Private videos are tied to an email invite, public are searchable and totally visible to anyone, and unlisted are viewable by anyone with the link, but not searchable or indexed.
+-   Be mindful of how public to make your videos — YouTube offers private, public, and unlisted settings for videos. Private videos are tied to an email invite, public are searchable and totally visible to anyone, and unlisted are viewable by anyone with the link, but not searchable or indexed.
 
 **Bonus links:**
 
