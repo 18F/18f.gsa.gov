@@ -10,6 +10,7 @@ tags:
 excerpt: "This spring, the eRegulations Notice & Comment team began builign out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewabl 
 file afterwards at the same URL."
 description: "This spring, the eRegulations Notice & Comment team began builign out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable file afterwards at the same URL."
+image: assets/blog/eregs/demo-video.jpg
 ---
 This spring, the [eRegulations Notice & Comment team](https://18f.gsa.gov/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/) began building out a
 new feature set for the platform — adding the ability for agencies with
@@ -42,6 +43,8 @@ before it was supposed to go live, we learned how to use the tool, and
 it really helped us share information across many agencies, teams, and
 individuals. We’re also excited about this serving as an archive of our
 work.
+
+![A screenshot of a youtube video used to demo the e-regs work.]({{ site.baseurl }}/assets/blog/eregs/demo-video.jpg)
 
 ### Major lessons and benefits that made this work:
 
