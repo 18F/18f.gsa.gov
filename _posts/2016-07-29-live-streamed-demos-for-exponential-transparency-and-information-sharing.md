@@ -3,12 +3,12 @@ title: "Live streamed demos for exponential transparency and information sharing
 authors:
 - will-sullivan
 tags:
--
--
--
-excerpt: ""
-description: ""
-image: /assets/blog/slug/image.jpg/png/gif
+- tools we use
+- how we work
+- epa
+excerpt: "This spring, the eRegulations Notice & Comment team began builign out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewabl 
+file afterwards at the same URL."
+description: "This spring, the eRegulations Notice & Comment team began builign out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable file afterwards at the same URL."
 ---
 This spring, the eRegulations Notice & Comment team began building out a
 new feature set for the platform — adding the ability for agencies with
