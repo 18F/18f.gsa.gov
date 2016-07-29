@@ -1,7 +1,7 @@
 ---
 title: "Live streamed demos for exponential transparency and information sharing"
 authors:
-- will-sullivan
+- willsullivan
 tags:
 - tools we use
 - how we work
