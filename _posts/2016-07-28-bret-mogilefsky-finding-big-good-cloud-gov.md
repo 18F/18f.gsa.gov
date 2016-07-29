@@ -146,7 +146,7 @@ to create our own PaaS, cloud.gov.
 working at 18F?**
 
 **BM:** I had to learn how government approaches technology in
-traditional ways in order to think about how cloud.gov. I’m constantly
+traditional ways in order to think about how to best build cloud.gov. I’m constantly
 thinking “What does the product have to be in order to be appropriate
 for government? Why is it different?”
 
