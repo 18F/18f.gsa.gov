@@ -58,7 +58,7 @@ It’s also forced us to think rigorously about each task we want to micropurcha
 
 **JH:** I think what’s been really fascinating is the cross-section of people here. As much as I love journalism, I tend to always talk to the same people at conferences and on Twitter. 
 
-It’s been great to meet people at 18F from small startups and big companies like Google or from other civic-minded organizations like the Sunlight Foundation or [the Consumer Financial Protection Bureau. I love learning about software development and other things from people who are from totally different worlds from my own.
+It’s been great to meet people at 18F from small startups and big companies like Google or from other civic-minded organizations like the Sunlight Foundation or [the Consumer Financial Protection Bureau](http://www.consumerfinance.gov/). I love learning about software development and other things from people who are from totally different worlds from my own.
 
 **MK: What do you hope to take with you?**
 
