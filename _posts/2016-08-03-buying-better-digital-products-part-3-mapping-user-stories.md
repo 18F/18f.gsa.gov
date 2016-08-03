@@ -20,7 +20,7 @@ image: /assets/blog/digital-acquisition-accelerator/anatomy-user-story.png
 
 *“If you fail to plan, you are planning to fail.” - Benjamin Franklin*
 
-On the [first day of the inception workshop](http://www.w3schools.com/html/html_links.asp), each agency team outlined proto-personas and the problem that the teams are trying to solve. On day two of the workshop, they defined the product vision and strategy for their products. With a product vision and a minimum viable product (MVP) defined, on the third day we wanted to put the product structure in motion — to define the features of the product and when they should be built. We chose to map these in a user story map. 
+On the [first day of the inception workshop](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), each agency team outlined proto-personas and the problem that the teams are trying to solve. On day two of the workshop, they defined the product vision and strategy for their products. With a product vision and a minimum viable product (MVP) defined, on the third day we wanted to put the product structure in motion — to define the features of the product and when they should be built. We chose to map these in a user story map. 
 
 ## What is a user story map? 
 
@@ -56,7 +56,6 @@ The diagram below lists out the tasks, but also includes a breakdown of each tas
 
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/example-user-story.png" alt= "Example of a user story">
-	<figcaption>Examples of User story map</figcaption>
 </figure>
 
 ## Release planning
