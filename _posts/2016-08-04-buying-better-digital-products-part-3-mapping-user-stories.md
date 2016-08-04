@@ -76,7 +76,7 @@ After a three-day inception training, teams:
 Following inception, teams are working together over the next few weeks to undergo solicitation development, where they will go through agile contract development and take the outcomes from inception training and use it towards planning and executing a producement plan in alignment with the project(s) and project vision. 
 
 
-*This is the last blog in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop. If you would like to conduct your own workshop, [feel free to use our deck](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-three.pdf). To stay tuned on solicitation development and updates related to the Digital Acquisition Accelerator, please [subscribe](https://medium.us13.list-manage.com/subscribe/post?u=5dc46345e0302158f44cf54d5&id=118734743e) to our blog via our mailing list.* 
+*This is the last blog in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop. We created this blog to help you lead your own workshop, and if you’d like to replicate it, download the presentation [here](https://pages.18f.gov/digitalaccelerator/assets/workshop-day-three.pdf). To stay tuned on solicitation development and updates related to the Digital Acquisition Accelerator, please [subscribe](https://medium.us13.list-manage.com/subscribe/post?u=5dc46345e0302158f44cf54d5&id=118734743e) to our blog via our mailing list.* 
 
 
 
