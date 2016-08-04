@@ -15,7 +15,7 @@ description: "Presidential Innovation Fellows and 18F’s Digital Acquisition Ac
 image: /assets/blog/digital-acquisition-accelerator/anatomy-user-story.png
 ---
 
-[Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) and 18F’s [Digital Acquisition Accelerator](https://pages.18f.gov/digitalaccelerator/) launched in early June. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop. 
+The [Digital Acquisition Accelerator](https://pages.18f.gov/digitalaccelerator/), a program run by the [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) and 18F, launched in early June. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop. 
 ## Day 3: Mapping user stories for your product 
 
 *“If you fail to plan, you are planning to fail.” - Benjamin Franklin*
