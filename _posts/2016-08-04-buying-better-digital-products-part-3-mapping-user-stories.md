@@ -1,6 +1,6 @@
 ---
 title: "Buying better digital products part 3: Mapping user stories"
-date: 2016-08-03 
+date: 2016-08-04 
 authors:
 - clara-tsao
 - amy-wilson
@@ -10,8 +10,8 @@ tags:
 - presidential innovation fellows
 - procurement
 - training
-excerpt: "Presidential Innovation Fellows and 18F’s Digital Acquisition Accelerator launched in early June. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop."
-description: "Presidential Innovation Fellows and 18F’s Digital Acquisition Accelerator launched in early June. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop."
+excerpt: "The Digital Acquisition Accelerator, a program run by the Presidential Innovation Fellows and 18F, launched in early June.. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop."
+description: "The Digital Acquisition Accelerator, a program run by the Presidential Innovation Fellows and 18F, launched in early June.. Through this program, cross-functional teams from two agencies — the U.S. Department of the Treasury and the Federal Bureau of Investigation — are learning to build two products each using modern product management practices. During week two of the Accelerator, the teams applied what they learned in an inception workshop. This is the third in a series of three blog posts that describe the step-by-step process of the workshop."
 image: /assets/blog/digital-acquisition-accelerator/anatomy-user-story.png
 ---
 
