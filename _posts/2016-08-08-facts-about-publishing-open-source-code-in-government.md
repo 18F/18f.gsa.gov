@@ -74,6 +74,7 @@ Just today, [the White House released](https://www.whitehouse.gov/blog/2016/08/0
 
 
 Here are a few federal explanations of the benefits of open source development:
+
 - The [draft federal source code](https://sourcecode.cio.gov/) policy discusses how code reuse can have significant benefits for American taxpayers, such as reducing vendor lock-in, decreasing duplicative costs for the same code, and increasing transparency across the federal government.
 - The [18F open source policy](https://github.com/18F/open-source-policy/blob/master/policy.md) explains important benefits including rapid prototyping, easy collaboration, community involvement, peer review, cost savings, and reusability.
 - 18F’s Partnership Playbook explains[ why we work in the open](https://pages.18f.gov/partnership-playbook/1-build-in-the-open/) with federal partners and how our projects benefit from the open collaboration.
