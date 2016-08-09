@@ -1,6 +1,5 @@
 ---
 title: "Patterns for managing multi-tenant cloud environments"
-date: 2016-08-09
 authors:
 - jez-humble
 tags:
@@ -84,7 +83,7 @@ platform-as-a-service (PaaS). By using a platform, we can reduce how
 long it takes to release new services by taking care of the majority of
 the compliance concerns that must be addressed by federal government
 systems at the platform layer. Because we believe that “eating our own
-cusisine” is critical to creating high-quality products, we’ve chosen
+cuisine” is critical to creating high-quality products, we’ve chosen
 [cloud.gov](https://cloud.gov/) — a PaaS which 18F is developing in
 the open using open-source components — as our platform. In addition to
 building a platform, the cloud.gov team is working hard to reduce and
@@ -196,7 +195,7 @@ the old account. Once everything is moved out, we’ll decommission it.
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/cloud-gov/banyan.jpg" alt="A fig tree enveloping a banyan tree in its roots.">
  <figcaption>A strangler fig attacking a banyan tree in Angkor Wat, by
-<a href="https://commons.wikimedia.org/wiki/File:Strangler_Fig_Ta_Prohm_Angkor1315.jpg" >Michael Gunther.</a> CC Attribution Share-Alike]</figcaption>
+<a href="https://commons.wikimedia.org/wiki/File:Strangler_Fig_Ta_Prohm_Angkor1315.jpg" >Michael Gunther.</a> CC Attribution Share-Alike</figcaption>
 </figure><br>
 
 Tools for everyone!
@@ -253,7 +252,7 @@ request.
 These tools should be considered *beta* quality since they’re still
 evolving rapidly. As always, we welcome pull requests and feedback!
 
-*Thanks to Jay Huie, Holly Allen, and Noah Kunin for comprehensive
+*Thanks to {{ "jayhuie" | team_link }}, {{ "holly" | team_link}}, and {{ "noah" | team_link }} for comprehensive
 feedback on early drafts of this blog post*
 
 *The web pages linked to in the article provided information for this
