@@ -1,17 +1,18 @@
 ---
 title: "Patterns for managing multi-tenant cloud environments"
+date: 2016-08-09
 authors:
 - jez-humble
-Tags:
+tags:
 - best practices
 - devops
 - how we work
 - tools you can use
 - cloud.gov
 - open source
-excerpt: ""
-description: ""
-image:
+excerpt: "When 18F started, deploying government services into a public cloud was still fairly uncommon. However, everything 18F has built has been deployed into Amazon Web Services (AWS), including cloud.gov. Over that time, our AWS account has grown in size and complexity and we needed a new approach to make sure it remains manageable."
+description: "When 18F started, deploying government services into a public cloud was still fairly uncommon. However, everything 18F has built has been deployed into Amazon Web Services (AWS), including cloud.gov. Over that time, our AWS account has grown in size and complexity and we needed a new approach to make sure it remains manageable."
+image: /assets/blog/cloud-gov/banyan.jpg
 ---
 When 18F started, deploying government services into a public cloud was
 still fairly uncommon. However, over the last two years nearly
