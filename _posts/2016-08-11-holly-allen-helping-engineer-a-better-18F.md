@@ -1,5 +1,6 @@
 ---
 title: "Holly Allen: Helping engineer a better 18F"
+date: 2016-08-10
 authors:
 - melody
 tags:
@@ -10,6 +11,11 @@ excerpt: ""
 description: ""
 image: /assets/team/holly.jpg
 ---
+<figure class="align-right">
+	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Holly Allen.">
+	<figcaption>Holly Allen, 18F team member</figcaption>
+</figure>
+
 *All throughout the summer, we’ll be profiling members across the 18F
 team. Holly Allen joined 18F in August 2015 after a lengthy career as a
 software engineer and manager at Dreamworks Animation and in scientific
