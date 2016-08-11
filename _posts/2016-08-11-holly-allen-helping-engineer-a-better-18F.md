@@ -1,5 +1,6 @@
 ---
 title: "Holly Allen: Helping engineer a better 18F"
+date: 2016-08-12
 authors:
 - melody
 tags:
@@ -12,7 +13,7 @@ image: /assets/images/team/holly.jpg
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Holly Allen.">
-	<figcaption>Holly Allen, 18F team member</figcaption>
+	<figcaption>Holly Allen, Director of Engineering</figcaption>
 </figure>
 
 *All throughout the summer, we’ll be profiling members across the 18F
@@ -73,7 +74,7 @@ American public.
 
 **MK: What has been the most impactful project you’ve worked on?**
 
-**HA:** In Engineering we have functional leads who are each tasked with
+**HA:** In Engineering, we have functional leads who are each tasked with
 making Engineering better in a certain way. We have leads focused on
 back end development, front end development, diversity, operations, and
 security. Without creating a bunch of top-down rules, they’ve been able
@@ -99,7 +100,7 @@ assess ability and capability, teamwork and core values.
 **MK: Are there any anecdotes or stories that you can share about
 overcoming obstacles on your project.**
 
-**HA:** Like a lot of growing organization, 18F has just passed Dunbar’s
+**HA:** Like a lot of growing organizations, 18F has just passed Dunbar’s
 number, which is the limit to the number of people who you can sustain
 stable relationships with. (In other words, we’re now too big for
 everyone to know everyone within 18F.) As a result, we’ve had to learn
@@ -120,7 +121,7 @@ people is incredible.
 On a different level, I knew that I would come in and learn about
 government process but the size, scope, and complexity of that was
 surprising to me. That sounds naive but there is no end to what you
-could learn about how government works and it’s a separate skillset, and
+could learn about how government works, and it’s a separate skillset, and
 I like that I’m learning that that’s a thing. It gives me a better
 appreciation that we can’t just rush into “fix things.” We have to learn
 the policies, and we have to create solutions together with our agency
