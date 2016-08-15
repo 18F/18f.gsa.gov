@@ -50,7 +50,7 @@ work.
 
 -   YouTube is available to federal employees in most agencies, while also allowing us to have multiple presenters share their screen and demo with audio and video.
 -   After the live stream finishes streaming, the video becomes available on-demand for playback, like any YouTube video, so people can watch later if they missed the live session, re-watch, and share with their colleagues. This allowed us to do the demo for dozens of stakeholders, potential clients, and regulations fanatics who helped us guide the product development process.
--   We figured out a way to do use the live stream option, but also allow for some interactivity. While streaming, there is about a 30-second delay between when the presenters are presenting and when it shows up on the live stream, so to manage that, we split the demos into two parts — a presentation and then a forum/feedback session — in which we use a phone conference line on a speakerphone to record the discussion into the video for questions and answers back and forth without the 30-second latency. If we need to, we can still use the visuals of Youtube (with the 30-second delay).
+-   We figured out a way to use the live stream option, but also allow for some interactivity. While streaming, there is about a 30-second delay between when the presenters are presenting and when it shows up on the live stream, so to manage that, we split the demos into two parts — a presentation and then a forum/feedback session — in which we use a phone conference line on a speakerphone to record the discussion into the video for questions and answers back and forth without the 30-second latency. If we need to, we can still use the visuals of Youtube (with the 30-second delay).
 -   A bonus of using Youtube for video playback is under the “Settings” users can watch at 1.25-2x speed, so they can get caught up more quickly.
 
 ### Pro tips for presenting on a live stream using our method:
@@ -58,7 +58,7 @@ work.
 -   Reboot your computer ahead of time and only have tabs open for presenters and whatever communication tool you will use during the live stream to cut down any other obstacles that might slow down your internet connection
 -   Open the presentation in a separate tab to share your screen from. This will prevent other notifications popping up in the shared window and allow you to work in another window as needed.
 -   Everyone should mute when not talking. As the presenter you have controls to do this too if folks forget, as well as to adjust the volume of light or loud talkers.
--   Use two computers with one producer and one presentation driver
+-   Use two computers with one producer and one presentation driver.
 -   Be plugged-in or fully charged; live streaming and Hangouts both take a lot of battery life.
 -   Make sure the “producer” or whoever is running the live stream starts the broadcast first, then send out invites to everyone presenting. If someone hits the presenter link before the actual account owner and presenter, it kills the broadcast link. So login and launch first, then share the presenter links with your presenters.
 -   Viewers will always use the YouTube link.
