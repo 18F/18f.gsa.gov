@@ -52,7 +52,7 @@ For these exercises, you’ll need to have at least four different colors of med
 3. Under each of the goals list specific tasks of the specific users above. Each of the goals should have several activities to complete the overarching goal. In the diagram below, each of the goals have specific activities that are directly related to and map back to the goals of that user. Activities usually start with an actionable verb followed by a noun.
 4. Finally, place multiple tasks under each one of the activities. Again, tasks also should start with a verb, but are more descriptive than activities.
 
-The diagram below lists out the tasks, but also includes a breakdown of each tasks according to priority. The highest priority items should be placed at the top right under the activities and the lower priority items below it. The dotted line below indicates specific “releases”, or packets of development cycles that are deployed for your product. 
+The diagram below lists out the tasks, but also includes a breakdown of each task according to priority. The highest priority items should be placed at the top right under the activities and the lower priority items below it. The dotted line below indicates specific “releases”, or packets of development cycles that are deployed for your product. 
 
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/example-user-story.png" alt= "Example of a user story">
@@ -62,7 +62,7 @@ The diagram below lists out the tasks, but also includes a breakdown of each tas
 
 Release planning is traditionally used to determine what is feasible with what is expected and establish a baseline plan to get there and commit to deliver. Release cycles are important because they allow for the building of all the major and necessary features a little at a time (as opposed to a feature at a time). This approach allows for usability testing and hypothesis validation early. 
 
-The MVP, as mapped in [day two of the inception workshop](https://18f.gsa.gov/2016/07/26/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/), should match the user story map. We  defined the MVP in more detail by using tape to mark a horizontal line on the user stories. We then moving stickies around so that the tasks and activities above the line were to be included in the MVP. As the build of the MVP actually goes underway, it’s important for teams to continue to negotiate, re-plan, and undergo continuous review to make adjustments after each set of sprints.
+The MVP, as mapped in [day two of the inception workshop](https://18f.gsa.gov/2016/07/26/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/), should match the user story map. We  defined the MVP in more detail by using tape to mark a horizontal line on the user stories. We then moved stickies around so that the tasks and activities above the line were to be included in the MVP. As the build of the MVP actually goes underway, it’s important for teams to continue to negotiate, re-plan, and undergo continuous review to make adjustments after each set of sprints.
 
 ## What’s next? 
 

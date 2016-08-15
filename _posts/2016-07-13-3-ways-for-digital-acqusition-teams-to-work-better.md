@@ -121,7 +121,7 @@ We know that the best way to improve this pilot is to be proactive about
 talking about our work and to constantly seek feedback from participants
 and the public. We have already started using the feedback that we've
 gotten from the teams to shape this pilot, and we continue to
-share our work through blogs posts like this so the public can see how
+share our work through blog posts like this so the public can see how
 the federal government is embracing modern design and development. Next,
 we’ll be launching a three-part series that outlines our methodology on
 how to understand and scope a product out *before* you write a
