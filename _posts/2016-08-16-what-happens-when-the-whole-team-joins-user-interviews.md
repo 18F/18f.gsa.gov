@@ -1,6 +1,6 @@
 ---
 title: "What happens when the whole team joins user interviews"
-date: 2016-08-15 14:00
+date: 2016-08-16
 authors:
 - alan-brouilette
 tags:
