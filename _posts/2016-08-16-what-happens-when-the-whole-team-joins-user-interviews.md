@@ -22,7 +22,7 @@ scrubbed in on the Discovery phase.
 
 *How have you been conducting the Discovery phase?*
 
-**Mark** (design researcher): We've been running remote interviews where
+**Mark Trammell** (design researcher): We've been running remote interviews where
 the participant shares their screen and shows us their workflow. Before
 each team member's first session, the two of us would talk about the
 script and what to expect. During the session, while the teammate is
@@ -36,7 +36,7 @@ great, it turns out, because often the researchers end up being the
 voice of the users to the team, but on this project, the whole team is
 plugged into the users directly.
 
-**Atul** (developer/designer): The head of GDS research [has talked
+**Atul Varma** (developer/designer): The head of GDS research [has talked
 about](https://gdsengagement.blog.gov.uk/2015/09/03/periscope-about-user-research-for-gov-uk/)
 how the research team is the “ambassador” for the user in actively
 building empathy, not just filing reports. They also require all their
@@ -44,7 +44,7 @@ team members to have regular contact with users.
 
 *How did scrubbing in on user interviews help you in your core role?*
 
-**James** (developer): Scrubbing in on this research gave me a lot more
+**James Seppi** (developer): Scrubbing in on this research gave me a lot more
 empathy for the users. I was already pretty jazzed, but once I saw the
 terrible workflow our target users have to go through, I was even more
 excited to improve their work lives. It ended up being very motivating,
@@ -52,7 +52,7 @@ and really helped me understand our product owner’s enthusiasm for the
 product. Before, I understood the logical arguments for why the project
 would be good, but now I have a *real* understanding.
 
-**Heather** (front-end designer/developer): Getting to see what they’re
+**Heather Billings** (front-end designer/developer): Getting to see what they’re
 already familiar with is hugely helpful, because it helps me know how to
 present the information they need in a familiar way when designing the
 new tool.
