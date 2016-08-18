@@ -14,7 +14,7 @@ image: /assets/images/team/holly.jpg
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Holly Allen.">
 	<figcaption>Holly Allen, Director of Engineering</figcaption>
-</figure>
+</figure><br>
 
 *All throughout the summer, we’ll be profiling members across the 18F
 team. Holly Allen joined 18F in August 2015 after a lengthy career as a
