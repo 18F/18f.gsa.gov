@@ -15,4 +15,4 @@ Noah came to 18F after helping launch the [Consumer Financial Protection Bureau]
 
 A passionate believer in making technology as accessible as possible, he works on ensuring everyone at 18F has the systems and services they need to succeed.
 
-Noah is currently serving as the acting Infrastructure Director for the entire [Technology Transformation Service](http://www.gsa.gov/portal/category/25729).
+Noah is currently serving as the acting Infrastructure Director for the entire [Technology Transformation Service (TTS)](http://www.gsa.gov/portal/category/25729).
