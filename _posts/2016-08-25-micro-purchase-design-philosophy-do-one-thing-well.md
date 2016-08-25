@@ -8,9 +8,9 @@ authors:
 tags:
 - micro-purchase
 - best practices
-- technical
-excerpt: ""
-description: ""
+- technical guides
+excerpt: "Rather than wait for knowledge to naturally diffuse through team changes, we try to kick-start the process through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers make. Today, we'll focus on some of the core architectural philosophiesbehind the Micro-purchase project."
+description: "Rather than wait for knowledge to naturally diffuse through team changes, we try to kick-start the process through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers make. Today, we'll focus on some of the core architectural philosophiesbehind the Micro-purchase project."
 ---
 Though we pride ourselves on our [transparent and remote-friendly
 workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/),
