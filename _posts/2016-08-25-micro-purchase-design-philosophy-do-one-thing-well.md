@@ -118,6 +118,8 @@ nil — for instance, a NullBid object with similar methods to the Bid
 model is returned when the auction’s winning bid is not available. Do
 you notice the trend?
 
+![Objects playing the role of Controller, Service, Validator, and Rule]({{ site.baseurl}}/assets/blog/micro-purchase/roles.png)
+
 ### Population control
 
 As with any design decision, the PORO approach has trade-offs. While we
@@ -215,6 +217,9 @@ authentication, and the team’s familiarity with Rails. Our solution?
 Service Objects! Each interface (web UI, API versions) call into shared
 Service Objects (which contains all of the shared code); the controller
 just needs to convert the input and output as appropriate.
+
+
+![Both API and HTML controllers use PlaceBid Service]({{ site.baseurl }}/assets/blog/micro-purchase/service.png)
 
 ### Other applications
 
