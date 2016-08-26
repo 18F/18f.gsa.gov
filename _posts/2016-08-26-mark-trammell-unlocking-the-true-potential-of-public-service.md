@@ -10,6 +10,7 @@ tags:
 excerpt: "All throughout the summer, we’ll be profiling members across the 18F team. Mark Trammell joined 18F in May 2016 after stints at Twitter, Sonos, Digg, Paypal, and Obama for America. He currently works on CALC, a tool that helps the federal contracting community make faster, smarter buying decisions."
 description: "All throughout the summer, we’ll be profiling members across the 18F team. Mark Trammell joined 18F in May 2016 after stints at Twitter, Sonos, Digg, Paypal, and Obama for America. He currently works on CALC, a tool that helps the federal contracting community make faster, smarter buying decisions."
 image: /assets/images/team/mark-trammell.jpg
+hero: false
 ---
 
 <aside class="pquote">
