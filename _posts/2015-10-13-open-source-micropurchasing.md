@@ -17,7 +17,7 @@ image: /assets/blog/calc-announcement/calc_homepage.jpg
 
 ## What's the experiment?
 
-Specifically, we’re going to use our "micro-purchase" authority. Like all federal agencies, 18F has the ability to use a "purchase card" to directly buy products and services, as long as the price does not exceed $3,500. We've actually [written about this authority before](https://18f.gsa.gov/2015/08/06/communicart-tool-will-streamline-purchase-card-process/), and we're [currently building a product](https://18f.gsa.gov/dashboard/project/C2/) to help agencies use that micro-purchase authority more effectively. But as far as we can tell, no one has ever used the micro-purchase authority to buy code. And we'd like to try it.
+Specifically, we’re going to use our "micro-purchase" authority. Like all federal agencies, 18F has the ability to use a "purchase card" to directly buy products and services, as long as the price does not exceed $3,500. We've actually [written about this authority before](https://18f.gsa.gov/2015/08/06/communicart-tool-will-streamline-purchase-card-process/), and we're [currently building a product](https://cap.18f.gov/) to help agencies use that micro-purchase authority more effectively. But as far as we can tell, no one has ever used the micro-purchase authority to buy code. And we'd like to try it.
 
 ## Why do it?
 
