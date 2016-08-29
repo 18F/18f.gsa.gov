@@ -6,7 +6,7 @@ authors:
 - cm
 - jessie
 tags:
-- micro-purchase
+- micro-purchase platforms
 - best practices
 - technical guides
 excerpt: "Rather than wait for knowledge to naturally diffuse through team changes, we try to kick-start the process through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers make. Today, we'll focus on some of the core architectural philosophiesbehind the Micro-purchase project."
@@ -272,9 +272,8 @@ ask you now, do your modules each do one thing this well?
 *This document is the distillation of an architecture discussion between
 Alan deLevie, Jacob Harris, Brian Hedberg, CM Lubinski, Atul Varma, and
 Jessie Young. Many thanks also to Kane Baccigalupi for early technical
-leadership on the project. For more information about the Micro-purchase
-project, see*
-[*https://micropurchase.18f.gov/*](https://micropurchase.18f.gov/)*,
-their GitHub* [*repository*](https://github.com/18F/micropurchase)*,
+leadership on the project. For more information, see the [*Micro-purchase
+site*](https://micropurchase.18f.gov/)*,
+*their GitHub* [*repository*](https://github.com/18F/micropurchase)*,
 and thoughts around* [*limiting technical
 debt*](https://github.com/18F/micropurchase/blob/8c536e3064fa6bcc9c1c4d6131b9db51a8e456cb/docs/technical_debt.md)*.*
