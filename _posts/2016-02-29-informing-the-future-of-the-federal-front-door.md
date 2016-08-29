@@ -27,7 +27,7 @@ people’s experience across government agencies.
 
 We think of the federal front door as the places the public first
 interacts with their government. There are many front doors — agency
-websites (like [benefits.gov](http://benefits.gov/)), physical places
+websites (like [benefits.gov](https://www.benefits.gov/)), physical places
 (like Social Security offices), contact centers (like 1-844-USA-GOV1) —
 where people start interacting with the government.
 
