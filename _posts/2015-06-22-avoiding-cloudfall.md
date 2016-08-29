@@ -25,7 +25,7 @@ image: /assets/blog/avoiding-cloudfall/cloudfall.jpg
 In 2011, the [White House recognized](https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/federal-cloud-computing-strategy.pdf)
 the enormous opportunity for the United States government to
 increasingly migrate to “the cloud,” which [NIST has
-defined](http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf)
+defined](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)
 as a “model for enabling ubiquitous, convenient, on-demand network
 access to a shared pool of configurable computing resources (e.g.,
 networks, servers, storage, applications, and services) that can be
@@ -104,9 +104,7 @@ as migration proceeds.
 
 ### Staged prioritization
 
-In parallel with our [general
-product-stage](https://18f.gsa.gov/dashboard/stages/) approach, cloud
-migration can be broken down into roughly four major phases: Discovery,
+Cloud migration can be broken down into roughly four major phases: Discovery,
 Alpha, Beta, and Live.
 
 -   **Discovery**: Focus on understanding what you want to migrate.
