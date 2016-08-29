@@ -7,16 +7,11 @@ tags:
 - data act
 - best practices
 - technical guides
-excerpt: "Though we pride ourselves on our transparent and remote-friendly workplace, our project focus tends to unintentionally silo engineers from each other. Rather than wait for technical knowledge to naturally diffuse through team changes, we try to kick-start this transfer through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers have made. Today, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
-description: "Though we pride ourselves on our transparent and remote-friendly workplace, our project focus tends to unintentionally silo engineers from each other. Rather than wait for technical knowledge to naturally diffuse through team changes, we try to kick-start this transfer through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers have made. Today, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
+excerpt: "Last week we wrote about how we diffuse knowledge through shared interests and sharing best practices on the micro-purchase project. This week, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
+description: "Last week we wrote about how we diffuse knowledge through shared interests and sharing best practices on the micro-purchase project. This week, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
+image: /assets/blog/data-act-implementation/logo.png
 ---
-Though we pride ourselves on our [transparent and remote-friendly
-workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/),
-our project focus tends to unintentionally silo engineers from each
-other. Rather than wait for technical knowledge to naturally diffuse
-through team changes, we try to kick-start this transfer through shared
-interest groups, tech talks, and documents highlighting some of the more
-interesting design decisions our developers have made. Today, we’ll
+Last week we wrote about [how we diffuse knowledge through shared interests and sharing best practices on the Micro-purchase Platform](https://18f.gsa.gov/2016/08/25/micro-purchase-design-philosophy-do-one-thing-well/). This week, we’ll
 focus on some of the lessons learned during the (completed) DATA Act
 prototype. Importantly, though that project has finished, this post is
 *not* meant to be a full retrospective or post-mortem; we’ll be focusing
