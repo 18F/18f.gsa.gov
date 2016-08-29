@@ -35,7 +35,7 @@ Compliance Masonry SSP documentation centers around system [components](https://
 
 Here at 18F, we believe that publicly-funded projects should by design be open to the public. Compliance Masonry is no exception. This means that anyone can use or contribute to the project. We went in with the hope that agencies, developers, and service providers would use and build on our solutions. Some of this work has already started taking shape in the [OpenControl community](https://github.com/opencontrol).
 
-## Getting Involved
+## Getting involved
 
 The Compliance Masonry project is still emerging. For 18F, Compliance Masonry is being used to organize SSP documentation for [cloud.gov](https://cloud.gov). In our experience, Compliance Masonry works best for teams who have the capability to write documentation in YAML format and an interest in contributing to an open source project. If that sounds like you, please take a look at the [Compliance Masonry CLI](https://github.com/opencontrol/compliance-masonry) and our [cloud.gov documentation](https://github.com/18F/cg-compliance). Open an issue or make a pull request!
 
