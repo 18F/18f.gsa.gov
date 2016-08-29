@@ -113,7 +113,7 @@ that a person who feels welcomed to and included in an event would be
 far likelier to invite their talented friends to the next such event.
 
 A few members of the [18F
-team](https://www.google.com/url?q=https%3A%2F%2F18f.gsa.gov%2F&sa=D&sntz=1&usg=AFQjCNHBRoB0dN_9W5ZL3iUuABvRxQjYxg)
+team](https://18f.gsa.gov/)
 recently published an excellent guide on [welcoming new coders to
 civic
 hackathons](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/).
