@@ -1,8 +1,8 @@
 ---
 title: "Buying better digital products part 2: Setting the product vision and strategy"
 authors:
-- clara-tsao
 - amy-wilson
+- clara-tsao
 tags:
 - digital acquisition accelerator
 - acquisition services
@@ -38,6 +38,8 @@ further understand the problem — to ensure we’re set up to build the
 right solution. Note that to yield the best results in the workshop
 below, we recommend you have a skilled facilitator lead the session to
 avoid leadership by consensus.
+
+If youre interested in facilitating on your own or want to see how we did it, [here is the presentation used in this inception workshop](https://github.com/18F/digitalaccelerator/blob/18f-pages/assets/workshop-day-two.pdf).
 
 *“The vision should communicate the essence of the future product in a
 concise manner and describe a shared goal that provides direction but is
@@ -108,6 +110,8 @@ answers the following:
 In an environment where requirements change quickly, this focused
 product vision helped teams remain focused on the critical aspects of
 the product, even when details changed rapidly.
+
+If youre interested in facilitating on your own or want to see how we did it, [here is the presentation used in this inception workshop](https://github.com/18F/digitalaccelerator/blob/18f-pages/assets/workshop-day-two.pdf).
 
 *This is the second post in a series of three that provide a
 step-by-step guide to how we led the inception workshop. The first went over [proto-personas and problem statements]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/). The next
