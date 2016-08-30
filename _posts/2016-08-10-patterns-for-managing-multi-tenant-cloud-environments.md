@@ -18,9 +18,9 @@ still fairly uncommon. However, over the last two years nearly
 everything 18F has built for our agency partners has been deployed into
 Amazon Web Services (AWS), including our platform-as-a-service [cloud.gov](https://cloud.gov/).
 Meanwhile, other federal agencies have also started using
-[commercial](http://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/)
-[public](https://www.fedramp.gov/marketplace/compliant-systems/microsoft-azure-government-community-cloud-solution/)
-[clouds](https://www.fedramp.gov/marketplace/compliant-systems/google-google-services/),
+[commercial](https://marketplace.fedramp.gov/#/product/aws-us-eastwest?sort=productName&productNameSearch=amazon)
+[public](https://marketplace.fedramp.gov/#/product/azure-public-and-government-community-cloud-solution?sort=productName&productNameSearch=azure)
+[clouds](https://marketplace.fedramp.gov/#/product/google-services?sort=productName&productNameSearch=google),
 [some at a large scale](https://www.youtube.com/watch?v=Whbed3dAxiU).
 
 Over that time, as a result of the success of implementing the federal
@@ -96,7 +96,7 @@ for use by most types of government system by the end of 2016.
 
 However, a small minority of systems won’t be able to initially run on
 cloud.gov. For example, AWS GovCloud [meets the government
-threshold](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/)
+threshold](https://marketplace.fedramp.gov/#/product/aws-govcloud/versus/aws-govcloud-high?sort=productName&productNameSearch=amazon)
 for systems with high risk levels, but cloud.gov doesn't — yet! Other
 systems may not fit neatly into the architectural patterns that
 cloud.gov uses. For those systems, we’ve created a fully automated
