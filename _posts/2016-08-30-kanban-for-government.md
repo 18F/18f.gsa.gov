@@ -13,7 +13,7 @@ image:
 
 Some months ago, 18F started playing with kanban as a way to manage and improve our processes. (It turns out that “DO ALL THE THINGS!” was maybe not the best motto.) Kanban is a methodology that helps you to remove inefficiencies and reduce waste by visualizing workflow. It’s also used to balance capacity and demand by implementing a “pull system” and limiting the amount of work in progress. You don’t have to change anything when you first start to use it, you just put up a board, represent your current work process, put in some work limits, and start tracking what you’re doing and learning from it. 
 
-In starting to build a board to track all of 18F’s in-flight projects, we called in 18F’s Agreements team, Josh Bailes, Matt Spencer, and Victor Valdiviezo, to answer a few questions about pieces of business in the Interagency Agreements (IAA) phase of our work. We asked them a few questions. Then we told them what a WIP limit was, and the questions started flowing the other way:
+In starting to build a board to track all of 18F’s in-flight projects, we called in 18F’s Agreements team, Josh Bailes, Matt Spencer, and Victor Valdiviezo, to answer a few questions about pieces of business in the [Interagency Agreements](https://pages.18f.gov/iaa-forms/primer.html) (IAA) phase of our work. We asked them a few questions. Then we told them what a WIP limit was, and the questions started flowing the other way:
 
 “Wait, what’s WIP?”
 
@@ -67,6 +67,6 @@ But the best part?
 
 The team isn’t drowning anymore. They’re back in charge of the work they do, instead of the other way around.
 
-*Postscript: Two days before press time, Josh Bailes sent this 18F-wide message:*
+Postscript: Two days before press time, Josh Bailes sent this 18F-wide message:
 
- _“Good news. Our current median transit time for agreements is 37.5 days, meaning from kick off to signature, it takes 37.5 days for an agreement to get completed. This is a vast improvement from 60 days and due to two things: 1) the WIP limits we set. They are working. 2) The great work of Matt Spencer and [the Agreements] team.”_
+ <blockquote>Good news. Our current median transit time for agreements is 37.5 days, meaning from kick off to signature, it takes 37.5 days for an agreement to get completed. This is a vast improvement from 60 days and due to two things: 1) the WIP limits we set. They are working. 2) The great work of Matt Spencer and [the Agreements] team.</blockquote>
