@@ -8,7 +8,7 @@ tags:
 - gsa
 excerpt: "On September 8, GSA is hosting its very first Technology Industry Day. [Sign up](http://www.eventbrite.com/e/gsa-technology-industry-day-registration-27199447279) to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
 description: "On September 8, GSA is hosting its very first Technology Industry Day. [Sign up](http://www.eventbrite.com/e/gsa-technology-industry-day-registration-27199447279) to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
-image: /assets/blog/data-act-implementation/logo.png
+image: 
 ---
 
 The General Services Administration (GSA) is known for managing federal real estate and leveraging the government’s buying power to get the best deal for taxpayers, but it also drives and leads technology and innovation within the federal government. The Technology Transformation Service (TTS) builds, buys, and shares tech to help federal agencies achieve their mission. They create better services for citizens everyday. TTS works closely with the Federal Acquisition Service and the GSA Chief Information Officer to be first movers in and apply agile technology in a meaningful way, absorbing the first-mover risk for our federal agency partners.
