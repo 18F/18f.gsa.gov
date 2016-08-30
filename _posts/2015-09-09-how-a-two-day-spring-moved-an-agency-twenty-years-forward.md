@@ -204,12 +204,9 @@ Minimizing the effect on workflow was therefore a key part of any
 proposed technical solution. Fortunately, there are several open-source,
 publicly available tools that allow for automated conversion from Word
 files (.docx) into web-friendly files (.html), including
-[pandoc](http://pandoc.org/). So, first, we wrote a
-[script](https://github.com/18F/dol-whd-foh/blob/master/src/build.js)
-that uses pandoc to automatically convert the Word files to HTML files.
+[pandoc](http://pandoc.org/). So, first, we wrote a script that uses pandoc to automatically convert the Word files to HTML files.
 
-Then, to get the HTML files to be more usable, we wrote a [second
-script](https://github.com/18F/dol-whd-foh/blob/master/src/make.js)
+Then, to get the HTML files to be more usable, we wrote a second script
 that extracts the content from the HTML file, does some high-level
 parsing, creates a Table of Contents, establishes JSON objects for each
 part of the Chapter (along with associated metadata), loads the JSON
