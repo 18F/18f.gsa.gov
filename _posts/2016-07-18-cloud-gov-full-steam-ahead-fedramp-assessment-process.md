@@ -28,7 +28,7 @@ Here at 18F on the [cloud.gov](https://cloud.gov/) team, we’re working
 toward getting cloud.gov assessed as
 [FedRAMP](https://www.fedramp.gov/) compliant, with lots of
 interesting progress — so here’s an update, including our [FedRAMP
-Ready](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/)
+Ready](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName&productNameSearch=18f)
 status!
 
 The story so far: We’ve built a government-customized cloud services
@@ -44,7 +44,7 @@ agency needing to put cloud.gov through its own lengthy evaluation
 process.
 
 cloud.gov recently received [FedRAMP
-Ready](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/)
+Ready](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName&productNameSearch=18f)
 status, which means we passed a preliminary evaluation and are now
 working on the full FedRAMP evaluation. The full process takes several
 months of work by all sides, so the preliminary readiness evaluation is
@@ -76,7 +76,7 @@ Next steps in our FedRAMP progress
 ----------------------------------
 
 [Our FedRAMP status
-page](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/)
+page](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName&productNameSearch=18f)
 has some notes about our next steps, and here are more details about the
 two big categories our work falls into right now:
 
