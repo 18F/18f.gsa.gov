@@ -65,13 +65,7 @@ responded to the [Request for
 Information](https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=e0807fc8a69115f0e352f6f0c135697a)
 (more than 280) and participated in the Industry Day events.
 
-<<<<<<< HEAD
 Be sure to monitor [*GSA
 eBuy*](https://www.ebuy.gsa.gov/advantage/ebuy/start_page.do)
 and [*FedBizOpps*](https://www.fbo.gov/) for more information on the
-=======
-Be sure to monitor [GSA
-eBuy](https://www.google.com/url?q=https%3A%2F%2Fwww.ebuy.gsa.gov&sa=D&sntz=1&usg=AFQjCNEE7ilHypkT2pm2CtLetx_3X3bOGw)
-and [FedBizOpps](https://www.fbo.gov/) for more information on the
->>>>>>> b3e3a7d... Remove italics from links (#1854)
 upcoming RFQ.
