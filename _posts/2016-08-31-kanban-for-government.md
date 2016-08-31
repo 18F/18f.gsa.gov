@@ -1,6 +1,6 @@
 ---
 title: "Kanban for government"
-date: 2016-08-30 (optional)
+date: 2016-08-31
 authors:
 - alan-brouilette
 tags:
