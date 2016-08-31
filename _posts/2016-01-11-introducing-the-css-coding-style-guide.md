@@ -19,13 +19,13 @@ tags:
 - tools you can use
 ---
 
-18F is releasing our [CSS coding style guide](https://pages.18f.gov/frontend/css-coding-styleguide/), which specifies our best practices and rules for writing consistent, maintainable CSS code. It was built with extensive user research to ensure we accurately understood the problems our developers were facing and to match them up with conventions in the public frontend community. 
+18F is releasing our [CSS coding style guide](https://pages.18f.gov/frontend/css-coding-styleguide/), which specifies our best practices and rules for writing consistent, maintainable CSS code. It was built with extensive user research to ensure we accurately understood the problems our developers were facing and to match them up with conventions in the public frontend community.
 
 ![screenshot: css from css guide]({{ site.baseurl }}/assets/blog/css-guide/css-guide.png)
 
 ## What’s in the guide
 
-The guide uses two approaches to improving CSS code at 18F: a written guide and a linter to automatically check code for compliance to our guidelines. 
+The guide uses two approaches to improving CSS code at 18F: a written guide and a linter to automatically check code for compliance to our guidelines.
 
 The guide lays out rules and recommendations on writing consistent and maintainable CSS. The first part of the guide goes over 18F’s recommended CSS frameworks and CSS processing languages: Sass and Bourbon Neat. These were chosen because they’re broad enough to allow us to apply our standards in different situations, and they have wide-spread use in the current front end community.
 
@@ -33,7 +33,7 @@ We also have guidelines on whitespace, sorting order, naming conventions and gen
 
 While many of the rules in this guide are meant to standardize CSS code across our projects, we also wanted to include the best practices from the front end community. We researched numerous open sourced guides and resources to develop suggestions for CSS architecture, file structure, how and when to use certain language features and CSS specificity. Since CSS as a language has very few constraints, having a set of guidelines can help less advanced developers write CSS in a more sustainable way.
 
-While 18F developers are diligent about reading guides and following best practices, everyone can use a little help sometimes. So we made a linting tool that checks a codebase to ensure it conforms to all the rules in the guide. The linter can be used both on GitHub or locally to check code on a developer's computer. If the linter finds any discrepancies between the code and our guide, it will issue a warning and the developer can choose how to proceed. Automated testing like this helps ensure we’re shipping the best quality code we can, while also freeing up time so developers can spend more time coding and less time testing. 
+While 18F developers are diligent about reading guides and following best practices, everyone can use a little help sometimes. So we made a linting tool that checks a codebase to ensure it conforms to all the rules in the guide. The linter can be used both on GitHub or locally to check code on a developer's computer. If the linter finds any discrepancies between the code and our guide, it will issue a warning and the developer can choose how to proceed. Automated testing like this helps ensure we’re shipping the best quality code we can, while also freeing up time so developers can spend more time coding and less time testing.
 
 ## Getting started
 

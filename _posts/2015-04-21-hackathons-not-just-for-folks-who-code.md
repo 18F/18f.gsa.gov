@@ -13,10 +13,9 @@ tags:
 
 excerpt: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
-image: /assets/blog/how-to-github/image.jpg
 ---
 A few weeks back, my colleague [Sarah Allen](https://twitter.com/ultrasaurus) asked me to volunteer at
-[**GovTechHack**](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/),
+[*GovTechHack*](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/),
 a hackathon in promotion of civic good. Stoked on lending a hand, I
 agreed, but I harbored secret concerns about the extent to which I’d be
 able to contribute. I’m not, after all, a developer.
@@ -61,7 +60,7 @@ afraid I wasn’t offering that much. “Now, if anyone had any content
 needs,” I said, trailing off and looking meaningfully into the distance.
 
 “Content needs?” Raphy confirmed. “We’ve got ‘em. Come to the
-[**Communicart**](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014)
+[*Communicart*](https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014)
 table tomorrow and we’ll get you set up. We’d love it if you worked with
 our team.”
 

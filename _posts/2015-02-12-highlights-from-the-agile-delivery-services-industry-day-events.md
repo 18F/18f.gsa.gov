@@ -16,8 +16,6 @@ description: 18F and GSA’s Office of Integrated Technology Services (ITS) held
 excerpt: 18F and GSA’s Office of Integrated Technology Services (ITS) held a pair of events for our upcoming Agile Delivery Services blanket purchase agreement (BPA). Over 700 people registered for the events, showing just how much interest there is from the private sector in this new BPA.
 ---
 
-By {% author chrisc %}
-
 Tuesday, February 3 was a big day for GSA, and for me personally. In the
 morning, I had the incredible experience of meeting with President Obama
 in the Oval Office to talk about the work that's going into developing

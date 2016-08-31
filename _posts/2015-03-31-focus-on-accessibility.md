@@ -37,4 +37,4 @@ The event organizers’ goal was to channel the experience, creativity, and reso
 
 The event had a great turnout, and we’ll be posting a full recap soon. That said, attending this and similar hackathons is far from the only way you can suggest accessibility improvements.
 
-Share your ideas by tweeting them at us ([@18F](https://twitter.com/18f)), emailing them to us ([18f@gsa.gov](18f@gsa.gov)), or by creating issues in our [accessibility repo on GitHub](https://github.com/18F/accessibility/issues). As always, thank you for your feedback — together, we can build even more accessible resources.
+Share your ideas by tweeting them at us ([@18F](https://twitter.com/18f)), emailing them to us ([18f@gsa.gov](mailto:18f@gsa.gov)), or by creating issues in our [accessibility repo on GitHub](https://github.com/18F/accessibility/issues). As always, thank you for your feedback — together, we can build even more accessible resources.

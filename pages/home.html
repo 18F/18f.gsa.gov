@@ -1,0 +1,83 @@
+---
+permalink: /
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="usa-grid">
+    <div class="hero-callout background-dark">
+      <h2>We’re building:  <span class="hero-callout-alt_color">A pass to get every kid in a national park</span></h2>
+      <a href="https://everykidinapark.gov/">everykidinapark.gov</a>
+      <a class="usa-button usa-button-big usa-button-secondary" href="#">Learn about what we do</a>
+    </div>
+  </div>
+</section>
+<section class="usa-grid usa-section">
+  <div class="usa-width-one-third">
+    <h2>Delivery is the strategy.</h2>
+  </div>
+  <div class="usa-width-two-thirds">
+    <p>18F is an office inside the General Services Administration that helps other federal agencies build, buy, and share efficient and easy-to-use digital services.</p>
+    <p>We're transforming government from the inside out, creating cultural change by working with teams inside agencies who want to create great services for the public.</p>
+  </div>
+</section>
+<section class="background-dark usa-section section-deliver">
+  <div class="usa-grid">
+    <h2>What we deliver</h2>
+    <div class="section-deliver-icons">
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/custom-products.svg" alt="">
+        </div>
+        <p>Custom products to solve your problems</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/innovative-ways.svg" alt="">
+        </div>
+        <p>Innovative ways to buy technology</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img class="section-deliver-icon-government" src="{{ site.baseurl }}/assets/img/home-icons/government.svg" alt="">
+        </div>
+        <p>Platforms built for government</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img class="section-deliver-icon-path" src="{{ site.baseurl }}/assets/img/home-icons/path.svg" alt="">
+        </div>
+        <p>A path to becoming  a digitally-powered organization</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/modern-techniques.svg" alt="">
+        </div>
+        <p>Modern digital service techniques</p>
+      </div>
+    </div>
+    <div class="section-deliver-cta">
+      <a class="link-arrow-right-alt" href="{{ site.baseurl }}/what-we-deliver/">Learn more about what we deliver</a>
+    </div>
+  </div>
+</section>
+<section class="usa-grid usa-section posts_feature">
+  <h2>Blog</h2>
+  <ul>
+    {% for post in site.posts limit:3 %}
+    <li class="usa-width-one-third">
+      <article>
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h3 class="posts_feature-heading">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.excerpt }}</p>
+        <p>
+          <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="usa-sr-only">{{ post.title }}</span></a>
+        </p>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

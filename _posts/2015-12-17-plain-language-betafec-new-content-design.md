@@ -6,6 +6,7 @@ tags:
 - fec.gov
 - communication tools and practices
 - agency work
+- content design
 
 description: "The Federal Election Commission (FEC) has been working since the 1970s
 to clarify the rules for raising and spending money in federal elections, and today we’re thrilled to announce the first

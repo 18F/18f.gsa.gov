@@ -5,8 +5,8 @@ full_name: Ed Mullen
 github: 
 last_name: Mullen
 name: ed-mullen
-role: 
+role: Product Strategist
 state: New York
-team: 
+team: Change Strategy
 twitter: 
 ---

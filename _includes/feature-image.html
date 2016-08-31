@@ -1,0 +1,5 @@
+{% if page.image %}
+  {% unless page.hero == false %}
+    <div class="post-feature_image" style="background-image: url('{{ site.baseurl }}{{ page.image }}')"></div>
+  {% endunless  %}
+{% endif %}

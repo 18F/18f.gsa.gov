@@ -409,10 +409,12 @@ amy-wilson:
   full_name: Amy Wilson
   first_name: Amy
   last_name: Wilson
+  url: https://presidentialinnovationfellows.gov/fellows
 bob-ballance:
   full_name: Bob Ballance
   first_name: Bob
   last_name: Ballance
+  url: https://presidentialinnovationfellows.gov/fellows
 victor-udoewa:
   full_name: Victor Udoewa
   first_name: Victor
@@ -421,3 +423,69 @@ duane-rollins:
   full_name: Duane Rollins
   first_name: Duane
   last_name: Rollins
+marco:
+  full_name: Marco Segreto
+  first_name: Marco
+  last_name: Segreto
+anna:
+  full_name: Anna Heller Sebok
+  first_name: Anna
+  last_name: Sebok
+cat-langel:
+  full_name: Cat Langel
+  first_name: Cat
+  last_name: Langel
+  url: http://www.gsa.gov/portal/staffDirectory/contact/176573
+pkarman:
+  full_name: Peter Karman
+  first_name: Peter
+  last_name: Karman
+mossadeq-zia:
+  full_name: Mossadeq Zia
+  first_name: Mossadeq
+  last_name: Zia
+michael-torres:
+  full_name: Michael Torres
+  first_name: Michael
+  last_name: Torres
+christine-cawthorne:
+  full_name: Christine Cawthorne
+  first_name: Christine
+  last_name: Cawthorne
+michael-walker:
+  full_name: Greg Walker
+  first_name: Michael
+  last_name: Walker
+joel-minton:
+  full_name: Joel Minton
+  first_name: Joel
+  last_name: Minton
+robin-thottungal:
+  full_name: Robin A. Thottungal
+  first_name: Robin
+  last_name: Thottungal
+kris-rowley:
+  full_name: Kris Rowley
+  first_name: Kris
+  last_name: Rowley
+clara-tsao:
+  full_name: Clara Tsao
+  first_name: Clara
+  last_name: Tsao
+  url: https://presidentialinnovationfellows.gov/fellows
+andrewmaier:
+  full_name: Andrew Maier
+  first_name: Andrew
+  last_name: Maier
+jessie:
+  full_name: Jessie Young
+  first_name: Jessie
+  last_name: Young
+nicole-fenton:
+  full_name: Nicole Fenton
+  first_name: Nicole
+  last_name: Fenton
+gsa-blog-team:
+  full_name: GSA blog team
+  first_name: GSA
+  last_name: blog team

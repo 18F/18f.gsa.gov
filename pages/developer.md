@@ -1,9 +1,8 @@
 ---
-layout: bare
+title: Developer resources
+layout: default-intro
 permalink: /developer/
 ---
-
-# Developer Resources
 
 <p class="lead">
   We hope that developers everywhere make use of the APIs we build for our projects. Over time, you'll find a growing number of APIs listed here, along with resources and documentation to assist with their use.
@@ -13,7 +12,7 @@ permalink: /developer/
 
 ### api.data.gov API
 
-The [api.data.gov API](https://api.data.gov/developer/) provides a means for agencies that use the [api.data.gov](https://api.data.gov/) service to administer it through a web service.  
+The [api.data.gov API](https://api.data.gov/developer/) provides a means for agencies that use the [api.data.gov](https://api.data.gov/) service to administer it through a web service.
 
 ### Discovery
 
@@ -33,7 +32,7 @@ The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F H
 
 ### Midas
 
-The [Midas API](https://pages.18f.gov/midas/developer/) provides reading, creating, and updating access to tasks, user profiles, and projects on GSA's [Open Opportunities](https://openopps.digitalgov.gov) service.  
+The [Midas API](https://pages.18f.gov/midas/developer/) provides reading, creating, and updating access to tasks, user profiles, and projects on GSA's [Open Opportunities](https://openopps.digitalgov.gov) service.
 
 ### OpenFEC
 
@@ -41,7 +40,7 @@ The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API 
 
 ### Team API
 
-The [18F Team API](https://team-api.18f.gov/public/api/) exposes organization information that is then integrated into the other internal systems 18F uses.  
+The [18F Team API](https://team-api.18f.gov/public/api/) exposes organization information that is then integrated into the other internal systems 18F uses.
 
 ## 18F Initiatives
 

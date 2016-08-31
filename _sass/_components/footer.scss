@@ -1,0 +1,170 @@
+// Footer
+// ==========================
+
+footer[role=contentinfo] {
+  @include padding($site-margins null);
+  background-color: $color-gray-lightest;
+  font-size: $tiny-font-size;
+
+  ul {
+    @include unstyled-list;
+  }
+
+  li {
+    font-weight: $font-bold;
+    line-height: 2.1rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: $color-medium;
+    }
+
+    &:hover {
+      color: $color-medium-hover;
+    }
+  }
+
+  .usa-sidenav-list {
+    @include unstyled-list;
+
+    > li {
+      border-top-color: $color-gray-lighter;
+      color: $color-medium;
+    }
+
+    a {
+      @include padding(1.25rem null);
+      color: $color-medium;
+      font-size: $h6-font-size;
+
+      &:hover {
+        background-color: $color-gray-lighter;
+      }
+    }
+  }
+
+  .usa-accordion {
+    button {
+      @include padding(1.4rem null);
+      background-position: right 0 center;
+    }
+
+    [aria-expanded=false] {
+      background-image: url("../img/global/plus-alt.png");
+      background-image: url("../img/global/plus-alt.svg");
+    }
+
+    [aria-expanded=true] {
+      background-image: url("../img/global/minus-alt.png");
+      background-image: url("../img/global/minus-alt.svg");
+    }
+  }
+
+  button {
+    font-size: $h6-font-size;
+    font-family: $font-sans;
+    font-weight: $font-normal;
+    text-align: left;
+  }
+
+  .usa-accordion-content {
+    background-color: $color-gray-lightest;
+
+    li {
+      border-top: 1px solid $color-gray-lighter;
+    }
+  }
+}
+
+.footer-mobile {
+  @include media($medium-screen) {
+    display: none;
+  }
+
+  button,
+  a,
+  a:hover {
+    padding-left: 0;
+  }
+}
+
+.footer-desktop {
+  display: none;
+
+  @include media($medium-screen) {
+    display: block;
+  }
+}
+
+.footer-logo-links {
+  @include media($medium-screen) {
+    @include span-columns(2);
+  }
+}
+
+.footer-links {
+  margin-top: 1em;
+
+  @include media($medium-screen) {
+    margin-top: 0;
+
+    @include span-columns(2);
+  }
+
+  &:last-child {
+    margin-right: 2.35765%;
+  }
+}
+
+.footer-links-heading {
+  font-size: $tiny-font-size;
+  font-weight: $font-normal;
+  margin: 0;
+}
+
+.footer-logo {
+  &:first-child {
+    margin-right: 0.7rem;
+  }
+
+  img {
+    width: 4.4rem;
+  }
+}
+
+.footer-newsletter {
+  margin-top: $site-margins;
+
+  @include media($medium-screen) {
+    @include span-columns(4);
+      margin-top: 0;
+  }
+
+  label {
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: $font-bold;
+  }
+
+  .form-group {
+    float: left;
+    width: calc(100% - 9rem);
+  }
+
+  input {
+    font-size: $h5-font-size;
+    height: 3.3rem;
+  }
+
+  [type="submit"] {
+    @include margin(1.7rem 0 null 1rem);
+    display: inline;
+    padding: 0;
+    width: 8rem;
+  }
+}

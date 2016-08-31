@@ -15,7 +15,7 @@ description: The October Oopen source hack night was a huge success, both as a c
 excerpt: The October Oopen source hack night was a huge success, both as a community event and for the positive impact on the Midas project.
 layout: post
 
-image: /assets/2014/12/midas_hack_night.png
+image: /assets/blog/2014/12/midas_hack_night.png
 ---
 
 The [October open source hack night](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas) was a huge success, both as a community event and for the positive impact on the [Midas project](https://github.com/18F/midas), providing a venue for our combined team to collaborate in person along with volunteers from the private sector and from inside government.

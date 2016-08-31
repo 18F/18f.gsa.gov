@@ -1,0 +1,14 @@
+// Figure
+// ==========================
+
+// Fix for IE 10 & 11 where the image overflows the grid item container and
+// doesn't respect the image's max-width to fill the container.
+
+[class^="usa-width-"],
+[class*=" usa-width-"] {
+  > .media_link {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      width: 100%; // Target IE 10 & 11
+    }
+  }
+}

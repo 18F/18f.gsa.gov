@@ -23,7 +23,7 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 * [HTTPS](#https)
 * [Diversity Working Group](#diversity-working-group)
 * [Products We Shipped](#products-we-shipped)
-* [Guides, Resources, and Tools](#guides,-resources,-and-tools)
+* [Guides, Resources, and Tools](#guides-resources-and-tools)
 * [Process and Documentation](#process-and-documentation)
 * [Growing our Team](#growing-our-team)
 

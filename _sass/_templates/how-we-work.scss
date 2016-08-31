@@ -1,0 +1,58 @@
+.page-how-we-work {
+  .graphic-list-item {
+    @include span-columns(6);
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    @include media($medium-screen) {
+      @include span-columns(3);
+    }
+  }
+
+  .graphic-row {
+    &:first-of-type {
+      @include media($medium-screen) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &:last-of-type {
+      .graphic-list-link {
+        @include media($medium-screen) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .graphic-list-link {
+    @include margin(2rem null);
+    @include media-link;
+    text-decoration: none;
+    width: 100%;
+
+    &:visited {
+      color: $color-medium;
+
+      &:hover {
+        color: $color-medium-hover;
+      }
+    }
+  }
+
+  img {
+    max-width: 6rem;
+  }
+
+  .link-arrow-right {
+    margin-top: 3rem;
+  }
+
+  .link-lean {
+    @include media($medium-screen) {
+      width: 10rem;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 ---
-title: A Story of an agile workshop
+title: A story of an agile workshop
 date: '2015-02-11'
 layout: post
-image: /assets/blog/agile-workshop/workshop3.jpg
+image: /assets/blog/agile-workshop/workshop3.JPG
 
 tags:
 - agile
@@ -17,7 +17,6 @@ description: "The clock was ticking as I stated the single solitary rule: We wil
 
 excerpt: "The clock was ticking as I stated the single solitary rule: We will have a demo at 10:00, 11:00 and 12:00 no matter what else happens. No matter if we have to stand up and say we got nothing done this sprint!"
 ---
-by {% author robert %} and {% author blacktm %}
 
 ## The Agile Manifesto:
 
@@ -158,6 +157,7 @@ snacks I'd brought had been devoured by now. I learned something: Hummus
 is a terrible snack for this kind of thing. It’s messy, and you don’t
 want to bring a knife through security.
 
+<br/>
 ## The third sprint
 
 In the final sprint, one story was well underway but wasn't quite done.

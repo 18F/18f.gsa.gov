@@ -155,4 +155,4 @@ Right now, we’re running a small pilot program. If you’re interested in
 gaining access, please [provide your email address here](https://cloud.gov/#contact), as we will be expanding access over time.
 
 Please feel welcome to come by our [#devops-public Slack
-channel](https://chat.18f.gov/) to chat with the cloud.gov team!
+channel](https://chat.18f.gov/?channel=devops-public) to chat with the cloud.gov team!

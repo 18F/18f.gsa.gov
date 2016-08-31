@@ -1,0 +1,29 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<ul>
+  <li>
+    <a {% if current[1] == 'what-we-deliver' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/what-we-deliver/">
+      <span>What we deliver</span>
+    </a>
+  </li>
+  <li>
+    <a {% if current[1] == 'how-we-work' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/how-we-work/">
+      <span>How we work</span>
+    </a>
+  </li>
+  <li>
+    <a {% if current[1] == 'hire' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/hire/">
+      <span>Hire 18F</span>
+    </a>
+  </li>
+  <li>
+    <a {% if current[1] == 'join' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/join/">
+      <span>Join 18F</span>
+    </a>
+  </li>
+  <li>
+    <a {% if current[1] == 'blog' or page.path contains '_posts' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/blog/">
+      <span>Blog</span>
+    </a>
+  </li>
+</ul>

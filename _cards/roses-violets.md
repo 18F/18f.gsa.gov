@@ -2,7 +2,6 @@
 title: "Roses are #E31C3D Violets are #0071BC."
 image: /assets/images/vday/roses-violets.png
 post: /2016/02/12/happy-valentines-day-from-18F/
-layout: bare
 ---
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:title" content="{{ page.title }}" />

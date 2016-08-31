@@ -2,7 +2,7 @@
 title: How to protosketch
 date: '2015-03-13'
 layout: post
-image: /assets/images/2014/12/protosketch.jpg
+image: /assets/blog/2014/12/protosketch.jpg
 
 tags:
 - collaboration tools

@@ -1,0 +1,7 @@
+.page-join-18f {
+  .post-feature_image {
+    @include media($medium-screen) {
+      background-position: center 7%;
+    }
+  }
+}

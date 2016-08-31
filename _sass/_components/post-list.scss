@@ -1,0 +1,44 @@
+// Post list
+// ==========================
+
+.post-list {
+  @include unstyled-list;
+
+  h2 {
+    font-size: $h3-font-size;
+    margin-top: 0.5em;
+
+    a {
+      color: $color-base;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    border-bottom: $border-light;
+    display: inline-block;
+    margin-top: $section-margins;
+    padding-bottom: $section-margins;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .post-tags {
+    margin-top: 1em;
+  }
+
+  .media_link {
+    margin-top: $site-margins;
+
+    @include media($medium-screen) {
+      float: right;
+      margin-top: 0;
+    }
+  }
+
+  img {
+    max-height: 26rem;
+  }
+}

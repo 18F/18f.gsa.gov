@@ -7,6 +7,6 @@ role: Developer
 city: San Francisco
 state: CA
 github: 
-twitter:
+twitter: 
 team: Delivery
 ---

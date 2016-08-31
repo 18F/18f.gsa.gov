@@ -7,9 +7,8 @@ authors:
 tags:
 - video
 - events
-- u.s. digital services
+- u.s. digital service
 - digital services movement
-
 excerpt: "In this video from the recent moveForward(100); event, Eric Maland of
 USDS explains the new improvements to the healthcare.gov application system, and how
 his team of eight developers helped save taxpayers tens of millions of

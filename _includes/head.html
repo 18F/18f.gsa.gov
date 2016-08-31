@@ -1,99 +1,65 @@
 <!-- Basic Page Needs
 ================================================== -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="google-site-verification" content="vmVo2wbQpKGMHVpllQP7bQ0w5gICWD356VH9DNbv5f4" />
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="vmVo2wbQpKGMHVpllQP7bQ0w5gICWD356VH9DNbv5f4" />
 
 <!-- Mobile Specific Metas
 ================================================== -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- RSS feeds
+<!-- Title and meta tags
 ================================================== -->
-
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} &raquo; Feed" href="/feed/" />
-
-<!-- Twitter and OpenGraph data
-================================================== -->
-<meta name="twitter:site" content="@18F">
-<meta name="twitter:creator" content="@18F">
-<meta property="og:site_name" content="{{ site.title | xml_escape }}" />
-<meta property="og:type" content="website" />
-
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-<!-- title, description, and image may change per-page, per-post -->
 {% if page.title %}
-  <title>18F &mdash; {{ page.title }}</title>
-  <meta property="og:title" content="{{ page.title | xml_escape }}" />
+  <title>{{ site.title }} | {{ page.title }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
 {% else %}
-  <title>{{ site.title }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }}" />
+  <title>{{ site.title }} | {{ site.description }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
 {% endif %}
+
 {% if page.description %}
   <meta name="description" content="{{ page.description | xml_escape }}">
   <meta property="og:description" content="{{ page.description | xml_escape }}" />
-{% elsif page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html | xml_escape }}" />
-  <meta property="og:description" content="{{page.excerpt | strip_html | xml_escape }}" />
 {% else %}
   <meta name="description" content="{{ site.description | xml_escape }}">
   <meta property="og:description" content="{{ site.description | xml_escape }}" />
 {% endif %}
 
-<!-- use large summary card for posts with images, normal summary otherwise -->
-{% if page.image %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-{% else %}
-  <!-- until Twitter's card approver fixes itself, need to use summary_large_image here too because we can't get approved for both -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/assets/images/18f-share-image.jpg" />
+{% if page.author %}
+  <meta name="author" content="{{ page.author | array_to_sentence_string }}">
 {% endif %}
 
+{% if page.date %}
+  <meta name="date" content="{{ page.date }} scheme="YYYY-MM-DD">
+{% endif %}
+
+{% if page.tags %}
+  <meta name="keywords" content="{{ page.tags  | array_to_sentence_string }}">
+{% endif %}
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+<!--[if lt IE 9]>
+  <script src="{{ site.baseurl }}/assets/js/vendor/html5shiv.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/respond.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/selectivizr-min.js"></script>
+<![endif]-->
 
 <!-- Favicons
 ================================================== -->
-<!-- 128x128 -->
-<link rel="shortcut icon" type="image/ico" href="{{site.baseurl}}/assets/images/favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/favicons/favicon.png" />
 
-<!-- 192x192, as recommended for Android
-http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
--->
-<link rel="icon" type="image/png" sizes="192x192" href="{{site.baseurl}}/assets/images/favicons/18f-center-192.png" />
+  <!--  Touch icon for iOS 2.0+ and Android 2.1+ -->
+  <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/img/favicons/favicon.ico">
 
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{site.baseurl}}/assets/images/favicons/18f-center-57.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{site.baseurl}}/assets/images/favicons/18f-center-72.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{site.baseurl}}/assets/images/favicons/18f-center-114.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.baseurl}}/assets/images/favicons/18f-center-144.png">
-
-<!-- Mobile "theme" -->
-<meta name="theme-color" content="#1188ff" />
+  <!--  More info: https://github.com/audreyr/favicon-cheat-sheet -->
 
 <!-- CSS
 ================================================== -->
-<link href="{{site.baseurl}}/assets/css/google-fonts.css" rel="stylesheet">
-<link href="{{site.baseurl}}/assets/css/font-awesome.min.css" rel="stylesheet">
-<link href="{{site.baseurl}}/assets/css/fonts.css" rel="stylesheet">
-<link href="{{site.baseurl}}/assets/css/normalize.css" rel="stylesheet">
-<link href="{{site.baseurl}}/assets/css/styles.css" rel="stylesheet">
-<link href="{{site.baseurl}}/assets/css/pygments-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
-<!-- IE
+<!-- Ethnio Activation Code
 ================================================== -->
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <link href="{{site.baseurl}}/assets/css/ie8/ie.css" rel="stylesheet">
-<![endif]-->
-
-{% include ascii.html %}
-<meta name="google-site-verification" content="kryISEsUQhQR4KSsQcd4SVBI32fSr3W2TFyUB_mbIUY" />
+<script type="text/javascript" language="javascript" src="https://ethn.io/65287.js" async="true" charset="utf-8"></script>

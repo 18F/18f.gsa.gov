@@ -6,7 +6,7 @@ full_name: Christine Cheung
 role: Front End Developer
 city: Los Angeles
 state: CA
-github:
-twitter:
+github: 
+twitter: 
 team: Delivery
 ---

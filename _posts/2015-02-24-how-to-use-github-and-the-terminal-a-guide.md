@@ -15,6 +15,7 @@ tags:
 excerpt: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
 description: "At 18F we hire people from many different backgrounds and each new employee brings a different level of comfort with the specific tools we use on our various projects. The team that runs the 18F website recently started writing down the tools and processes that we use to update the blog and the code that runs the site. We're sharing that with you today."
 image: /assets/blog/github-tutorial/image21.png
+hero: false
 ---
 
 We’ve written before how everything we do is open [from day one](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). One of the ways we do that is by building all of our products&mdash;from [our blog](https://github.com/18F/18f.gsa.gov/) and [our dashboard](https://github.com/18F/dashboard) to a [new website](https://github.com/18F/letgirlslearn) for the Peace Corps’ Let Girls Learn Initiative&mdash;using GitHub. We do this so that the public can see the code we’re working on, offer feedback, and copy or fork that code for their own projects. If you’ve never used GitHub before, it can be a little intimidating, so we’d like to share the tutorial our own new employees use when they start with 18F.
@@ -313,4 +314,4 @@ Once you are all up to date, always remember to create a new branch before makin
 
 > If you'd like to make updates to this guide or suggest changes, please add to this [issue](https://github.com/18F/18f.gsa.gov/issues/542) and we'll check it out. Thank you!
 
-_{% author moncef %} contributed significantly to this post, helping us shape it and find our mistakes._
+_{{ "moncef" | team_link }} contributed significantly to this post, helping us shape it and find our mistakes._

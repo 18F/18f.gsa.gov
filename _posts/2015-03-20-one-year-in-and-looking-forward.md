@@ -2,7 +2,7 @@
 title: One year in and looking forward
 date: '2015-03-20'
 layout: post
-image: "/assets/images/logo-18f.png"
+image: /assets/img/logos/18F-Logo-M.png
 
 tags:
 - how we work

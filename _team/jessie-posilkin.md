@@ -8,6 +8,5 @@ name: jessie-posilkin
 role: 
 state: District of Columbia
 team: 
-twitter:
+twitter: 
 ---
-

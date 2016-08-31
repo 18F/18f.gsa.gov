@@ -1,12 +1,11 @@
 ---
-layout: bare
+title: Linking policy
 permalink: /linking-policy/
+layout: default-intro
+lead:
 ---
 
-Linking policy
-==============
-
-<p class="lead">We include links to information created and maintained by third-parties. When you click a link to a website, the privacy and security policies of that website apply. Non-federal websites do not necessarily operate under the same laws, regulations, and policies as federal websites.</p>
+We include links to information created and maintained by third-parties. When you click a link to a website, the privacy and security policies of that website apply. Non-federal websites do not necessarily operate under the same laws, regulations, and policies as federal websites.
 
 We choose links consistent with sound public policy and that support the mission of 18F, GSA, and its programs. Also, if we have a formal relationship with organizations or businesses, we may link to their sites.
 

@@ -2,11 +2,11 @@
 city: Washington
 first_name: Mark
 full_name: Mark Hopson
-github:
+github: 
 last_name: Hopson
 name: mark-hopson
-role:
+role: 
 state: D.C.
-team:
-twitter:
+team: 
+twitter: 
 ---

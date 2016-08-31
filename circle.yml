@@ -1,0 +1,14 @@
+machine:
+  ruby:
+    version:
+      2.2.3
+
+dependencies:
+  pre:
+    - bundle install
+    - bundle exec jekyll build
+
+test:
+  pre:
+    - bundle exec jekyll test
+    - bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov

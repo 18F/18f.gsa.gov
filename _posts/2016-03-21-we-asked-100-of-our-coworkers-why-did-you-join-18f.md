@@ -23,7 +23,7 @@ To celebrate our second anniversary, we once again reached out to people
 across 18F. This time, we were curious about:
 
 -   What led them to 18F
--   What their pathway into the federal government looked like
+-   [What their pathway into the federal government looked like](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/)
 -   What they’ve loved working on so far
 
 We got more than 100 responses, including people from every team and
@@ -34,12 +34,29 @@ Want to see your name on this list? You can see open positions and how
 to apply [on our join
 page](https://pages.18f.gov/joining-18f/index.html).
 
-Why did you join 18F?
----------------------
+# Why did you join 18F?
 
-### Design
+## Contents
+<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Design](#design)
+- [Acquisitions](#acquisitions)
+- [Operations](#operations)
+- [Outreach](#outreach)
+- [Product](#product)
+- [Strategy](#strategy)
+- [Infrastructure](#infrastructure)
+- [Engineering](#engineering)
+- [Talent](#talent)
+- [Business Strategy](#business-strategy)
+
+<!-- /TOC -->
+
+## Design
 *18F Design provide content, visual, and interactive design to the rest
 of the organization.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "shawn" | team_photo }}
@@ -184,13 +201,15 @@ and services for the American people with a group of incredibly talented
 individuals and strong government partners provided a great opportunity
 for meaningful work.” - {{ "christopher-goranson" | team_link }}</div>
 
-### Acquisitions
+## Acquisitions
 
 *The acquisitions team provides innovative services and solutions to
 support digital service delivery. Their teams have a mix of former
 contracting officers, developers, and product manager who manage access
 to the Agile Delivery Services Marketplace, RFP ghostwriting consulting,
 and the micro-purchase platform.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "robin-carnahan" | team_photo }}
@@ -248,10 +267,12 @@ government, it is willing to struggle against the old way in order to Do
 “To play a small part in ensuring that America is as hopeful for our
 future as we were when we made one giant leap for mankind.” - {{ "vdavez" | team_link }}</div>
 
-### Operations
+## Operations
 
 *Team Ops handles all activities related to travel, non-travel
 purchases, legal matters, and equipment requests.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "joshbailes" | team_photo }}
@@ -277,7 +298,7 @@ processes from travel to purchasing to staffing on a daily basis.” - {{ "ethan
 people and learn completely new skills” - {{ "matt" | team_link }}</div>
 
 
-### Outreach
+## Outreach
 
 *The Outreach team is responsible for promoting the work of digital
 innovators at 18F and across government. Our work spans a number of
@@ -286,6 +307,8 @@ website](https://18f.gsa.gov/), [our
 blog](https://18f.gsa.gov/blog/), our external and internal
 newsletters, our Twitter feed ([@18F](https://twitter.com/18F)),
 responses to press, and responses to emails to 18f@gsa.gov.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "boone" | team_photo }}
@@ -309,7 +332,7 @@ warm, and dedicated to the type of public service that I value — and I
 wanted to share and learn from and with them. (It’s been great.)” -
 {{ "melody" | team_link }}</div>
 
-### Product
+## Product
 
 *Each project at 18F has a product lead whose job is to ensure the
 project is moving forward. A product lead looks at the whole picture and
@@ -320,6 +343,8 @@ tend to be generalists, often with skills in code or other disciplines
 as well as product. More information about our Product team is available
 in the [18F Product
 Guide](https://pages.18f.gov/product-guide/index.html)*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "sarah" | team_photo }}
@@ -393,13 +418,15 @@ environment that melded those areas into one!” - {{ "anna" | team_link}}</div>
 
 “I joined 18F because of the people and the mission.” - {{ "raphy" | team_link }}</div>
 
-### Strategy
+## Strategy
 
 *We help agencies transform into modern, high-functioning organizations
 through new management models, culture change, modern practices,
 empowered talent, data access, technology, and collaboration tools. We
 transform how agencies understand and execute projects: what to build,
 how to build, and who will build it.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "alan-atlas" | team_photo }}
@@ -519,13 +546,15 @@ the giant well of talent here at 18F, and it's been incredible to work
 with such a huge variety of ridiculously talented people whom I get to
 learn from every day.” — {{ "alex-pandel" | team_link }}</blockquote>
 
-### Infrastructure
+## Infrastructure
 
 *The infrastructure team helps 18F navigate the “federal compliance
 architecture.” This work applies to much more than technology: it
 applies to our entire operation, including how we work inside the law,
 how we secure our systems, how we collect data from the public, and how
 we spend money.*
+
+[Back to the table of contents](#contents)
 
 > “I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
 > GDS has been doing, and I wanted to be able to contribute to the U.S.
@@ -576,11 +605,13 @@ make the digital services the people interact with more usable, and
 useful. To influence experiences that yes, maybe even make the
 interactions delightful. #AspirationalFTW To paraphrase <a href="https://www.youtube.com/watch?v=gvAIvauhQGQ&feature=youtu.be&t=30m3s">President Obama's speech in Selma last year</a>: It's such an honor to be able to work on improving this great nation of ours.” - {{ "kara" | team_link }}</div>
 
-### Engineering
+## Engineering
 
 *18F Engineering is responsible for delivering high quality, robust,
 open source software. We also evangelize best practices relating to
 software testing, scalability, security, and agile development.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "holly" | team_photo }}
@@ -778,12 +809,14 @@ so over the course of five years, I became a web developer. I now have
 the privilege of being on the team that builds the FEC’s first API and
 are building <a href="https://beta.fec.gov/">beta.fec.gov</a>.” {{ "lindsay" | team_link }}</div>
 
-### Talent
+## Talent
 
 *The Talent Team is a group of problem solvers dedicated to making
 government the most sought-after workplace. In short, we are building
 the team that delivers the beautiful, useful services that make up our
 21st century digital government.*
+
+[Back to the table of contents](#contents)
 
 <div class="response-block">
 {{ "cristina" | team_photo }}
@@ -810,12 +843,14 @@ interactions with the United States government. What better way to make
 an impact than that? I was totally excited and thrilled at the prospect
 of joining 18F.” {{ "amanda-schonfeld" | team_link }}</div>
 
-### Business Strategy
+## Business Strategy
 
 *Intake is the process by which 18F listens to potential partners,
 discusses possible solutions to their challenges, and determines
 appropriate next steps. In short, it’s how we do business development
 for inbound inquiries.*
+
+[Back to the table of contents](#contents)
 
 > “In my past two years at GSA, I have worked within FAS and PBS on
 > client-facing initiatives. I came to 18F through the ELP Program and

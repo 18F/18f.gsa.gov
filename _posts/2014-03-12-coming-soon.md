@@ -4,7 +4,7 @@ tumblr_url: http://18fblog.tumblr.com/post/79359602658/coming-soon
 title: "Coming soon"
 description: Coming soon!
 excerpt: Coming soon!
-image: "/assets/images/18f.png"
+image: "/assets/img/logos/18F-Logo-M.png"
 authors:
 - 18F
 

@@ -1,12 +1,12 @@
 ---
-city:
+city: 
 first_name: Lane
 full_name: Lane Becker
-github:
+github: 
 last_name: Becker
 name: lane-becker
-role:
-state:
-team:
-twitter:
+role: 
+state: 
+team: Strategy
+twitter: 
 ---

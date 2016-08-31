@@ -6,10 +6,7 @@ full_name: Nathan Olson
 role: Operations Director
 city: Washington
 state: D.C.
-github:
-twitter:
+github: 
+twitter: 
 team: Presidential Innovation Fellowship
 ---
-
-
- 

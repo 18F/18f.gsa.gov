@@ -14,11 +14,12 @@ authors:
 - jamie
 description: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
 excerpt: "For this month's installment of our Day in the Life series, Talent Manager Jamie Albrecht shares the ins and outs of her day — and her power song."
+hero: false
 ---
 
 A little more than a year ago, I came to 18F as a Returned Peace Corps Volunteer (RPCV El Salvador 2011-2013) and joined the team as one of the first Operations Specialists. At the time, 18F was still in its infancy; actually, we weren’t even 18F yet. Besides lacking a formal name, we were also light on staff — in terms of numbers, that is. At that time, we had just ten big-hearted problem solvers who believed they could transform government. Though they were small in number, their spirit was invigorating and I knew I had to join them.
 
-<img alt="Jamie Albrecht" src="/assets/blog/talent-manager/Jamie.jpg" class="align-left" />
+<img alt="Jamie Albrecht" src="{{ site.baseurl }}/assets/blog/talent-manager/Jamie.jpg" class="align-left" />
 
 I spent my first few months at 18F on the Operations Team — the heart and soul of our organization, in my very biased opinion. I focused on asking lots of questions and attempting to figure out how to operationalize a new office inside the federal government. The Ops Team tackled everything from hiring to budget to purchase requests to securing space for our then upcoming offices, like San Francisco, Chicago, and New York. In short, we took care of all the things that needed to happen for 18F to work, in a very practical sense.
 
@@ -30,7 +31,7 @@ Today, I am a talent manager in our San Francisco office, and this is a day in m
 
 My morning routine is easy, quick, and simple. The only things I take too seriously at this hour are tea, fruit, and yogurt. I’m out the door and walking to work by 6:00 a.m.
 
-<img alt="My morning walk to work" src="/assets/blog/talent-manager/morningwalk.JPG" class="align-left" />
+<img alt="My morning walk to work" src="{{ site.baseurl }}/assets/blog/talent-manager/morningwalk.JPG" class="align-left" />
 
 **7:00 a.m.**: Wednesday is farmers' market day at 50 UN Plaza, which means breakfast (part two) is too many free samples of chocolate almond brittle. At this hour, no one else is around, so I crank up our Bose speakers and unleash DJ JME. I make all my co-workers listen to [this song] (https://www.youtube.com/watch?v=sZ-D4jmkUiQ) at least once. You should listen, too. It helps me work through my priority inbox and prepare my notes for my morning meetings.
 
@@ -44,7 +45,7 @@ At **10:00 a.m.** I check in with our main GSA HR point of contact. We talk dail
 
 By **noon**, I am ready for a break. My SF officemates know that my lunch habits are typically atrocious, and they often chastise me. Today, I wander the farmer’s market eating pretzel M&Ms, gathering samples of apples and oranges, buying dates (the fruit, not the social event), and of course stopping for another round of almond brittle.
 
-<img alt="SF on a sunny day" src="/assets/blog/talent-manager/sfview.JPG" class="align-right" />
+<img alt="SF on a sunny day" src="{{ site.baseurl }}/assets/blog/talent-manager/sfview.JPG" class="align-right" />
 
 **1:00 p.m.**: I make my way back inside and settle in to review resumes. This task is fairly simple: input names and other pertinent information into our candidate tracker, separate applicants into the appropriate [buckets] (https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/), and then send the resumes out  for evaluation. Each resume is reviewed by at least two subject matter experts (SMEs) on our team.
 
@@ -52,7 +53,7 @@ By **noon**, I am ready for a break. My SF officemates know that my lunch habits
 
 **3:30 p.m.**: After three phone calls, I am ready for my mid-afternoon break. I like to hula-hoop around the office. I’ve made it my mission to teach the rest of the office. Luckily, this is a receptive bunch – they are always down for some learnin’.
 
-<img alt="Hula hooping" src="/assets/blog/talent-manager/hulahoop.JPG" class="align-left" />
+<img alt="Hula hooping" src="{{ site.baseurl }}/assets/blog/talent-manager/hulahoop.JPG" class="align-left" />
 
 **4:00 p.m.**: I take a good portion of the rest of the day to sit down and tackle my inbox and other small tasks; since I used to be one of the only Operations Specialists, I am still somehow involved in all of the things. It is quiet(er) in DC at this point, so I can focus on these items with fewer disruptions. If you must know, I have an inbox zero policy, and finagling my inbox to zero takes longer than I like to admit out loud.
 

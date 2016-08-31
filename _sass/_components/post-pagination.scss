@@ -1,0 +1,39 @@
+// Post pagination
+// ==========================
+
+@mixin widget-small() {
+  @include padding(2rem null);
+  border-bottom: $border-light;
+  border-top: $border-light;
+  font-size: $h5-font-size;
+  font-weight: $font-bold;
+}
+
+.post-pagination {
+  @include widget-small;
+
+  .usa-width-one-half {
+    &:last-child {
+      margin-top: 1.5em;
+
+      @include media($medium-screen) {
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+  }
+
+  a {
+    color: $color-medium;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-medium-hover;
+    }
+
+    h5 {
+      color: $color-base;
+      margin-top: 1rem;
+    }
+  }
+}

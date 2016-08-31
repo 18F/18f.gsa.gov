@@ -12,6 +12,7 @@ tags:
 description: "Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F micro-purchase experiment was $1. And on Wednesday, the winner delivered a solution that passed our acceptance criteria."
 excerpt: "Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F micro-purchase experiment was $1. And on Wednesday, the winner delivered a solution that passed our acceptance criteria."
 image: /assets/blog/micro-purchase/micro-purchase-analytics.jpg
+hero: false
 ---
 
 Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F [micro-purchase experiment](https://18f.gsa.gov/2015/10/26/micro-purchase-criteria-announcement/) was $1. And, on Wednesday, the [winner delivered a solution that passed our acceptance criteria](https://github.com/18F/calc/issues/256).

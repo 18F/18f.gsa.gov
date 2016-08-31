@@ -6,7 +6,7 @@ full_name: Michael Balint
 role: 
 city: Washington
 state: D.C.
-github:
-twitter:
+github: 
+twitter: 
 team: 
 ---

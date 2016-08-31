@@ -118,5 +118,5 @@ broadly.
 
 If you're interested in [cloud.gov](https://cloud.gov), be sure to
 drop your email address in the [form located at https://cloud.gov](https://cloud.gov/#contact), or
-drop by our [#devops-public Slack channel](https://chat.18f.gov/) to
+drop by our [#devops-public Slack channel](https://chat.18f.gov/?channel=devops-public) to
 chat about it.

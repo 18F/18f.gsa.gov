@@ -1,0 +1,24 @@
+// Blog pagination
+// ==========================
+
+.pagination {
+  color: $color-gray;
+  font-size: $h5-font-size;
+  margin-bottom: $section-margins;
+  margin-top: 2rem;
+
+  > div {
+    float: left;
+    width: 33%;
+
+    &:nth-child(2) {
+      text-align: center;
+    }
+
+    &:last-child {
+      a {
+        float: right;
+      }
+    }
+  }
+}

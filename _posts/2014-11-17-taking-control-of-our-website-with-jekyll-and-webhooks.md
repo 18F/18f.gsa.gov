@@ -39,7 +39,7 @@ Our site's first draft was a handful of static HTML pages with lots of copied-an
 
 We've now moved to **[Jekyll 2.4](http://jekyllrb.com/)**, a basic templating system that generates static files when needed. This enables us to use templated layouts and includes for rendering HTML, and plugins to transform content during the rendering process. The resulting static files can be served extremely efficiently.
 
-We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a [little JSON API of our team]({{site.baseurl}}/api/data/team.json):
+We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a little JSON API\* of our team:
 
 ```javascript
 [
@@ -119,7 +119,7 @@ Which produces:
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 
-Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed/) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
+Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xml) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
 
 For example, the below IFTTT recipe will email you every time 18F publishes something:
 
@@ -159,3 +159,5 @@ We have our nginx configuration and deploy scripts [versioned and documented](ht
 ## It's nice to have control
 
 Taken together, these steps greatly simplified our site's development and deployment, and gave our blog the flexibility of self-publishing. It's nice to have control, and we hope the details of our work are helpful for anyone interested in doing the same.
+
+\* Since this post was firts published was have eliminated the team.json file that was at one time linked to in this file.

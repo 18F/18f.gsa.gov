@@ -4,7 +4,7 @@ full_name: Diego Mayer-Cantu
 first_name: Diego
 last_name: Mayer-Cantu
 role: 
-team:
+team: 
 city: New York
 state: NY
 ---

@@ -49,7 +49,7 @@ We can mark important events in the evolution of the relational database for end
 1. 2007: PostgreSQL either comes with a Linux distribution or can be installed in 20 minutes.
 1. 2014: PostgreSQL can be installed in five minutes, is more convenient to use, and is a common backbone of 18F's projects and many commercial firms.
 
-<img alt="ThirtyYearHistoryOfPostgresAndLucene (1).png" src="/assets/images/2014/11/25/image00.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+<img alt="ThirtyYearHistoryOfPostgresAndLucene (1).png" src="/assets/blog/2014/11/25/image00.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 
 The above graph shows our subjective evaluation of the usefulness of PostgreSQL relative to its total cost of ownership. This "geometrically" increasing usefulness is familiar from hardware performance curves plotted against time, but in this case owes very little to that phenomenon. Rather, it represents the typical commoditization of software. The community of users and developers drive important software tools from unique inventions to broadly available tools. Along the way, the tool usually becomes a commercial product, and then becomes available as an open source alternative.
@@ -74,11 +74,11 @@ The same diagram also plots the even more rapid evolution of a an open source fu
 
 On the __Value Chain axis__, we have inserted the [standard three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), consisting of a Persistence Layer, Business Logic Layer, and Presentation Layer.
 
-<img alt="PostgresTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image03.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+<img alt="PostgresTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/blog/2014/11/25/image03.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 _The evolution of PostgreSQL_
 
-<img alt="LuceneTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/images/2014/11/25/image04.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+<img alt="LuceneTemplateOpenSourceThreeLayerWithDecorations (1).png" src="/assets/blog/2014/11/25/image04.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 
 _The evolution of Lucene_
 
@@ -94,7 +94,7 @@ __Now take each component and analyze it in terms of the evolution axis.__ That 
 
 __Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with sticky notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link](https://18f.gsa.gov/consulting/docs/open_source_wardley_duncan_map_printable.pdf) to this diagram:
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="PrintableOpenSourceWardleyDuncanMap (2).png" src="/assets/images/2014/11/25/image02.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="PrintableOpenSourceWardleyDuncanMap (2).png" src="/assets/blog/2014/11/25/image02.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
 
 Now that you have analyzed your system, ask yourself if any "moves" are possible. A move would be a change to your system that changed the position of one of your components. For example, can you identify a part of your system which was written by a contractor whose function has now been mostly subsumed by the increasing power and commoditization of software? Are you using a product that has an open source equivalent? __In general, any move to the right on this diagram represents a chance to make your system more secure, robust, easier to support, and to save the taxpayer money.__
 
@@ -128,7 +128,7 @@ We have asserted that open source software represents the endpoint of a commodit
 
 The open source community and the availability of open source code appears to be growing explosively. At the end of 2013, GitHub [announced that they had 10 million repositories](https://github.com/blog/1724-10-million-repositories), and published this chart:
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 349.33px;"><img alt="68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f343438332f313830333636372f62306564363634652d366332342d313165332d393535392d6535373032323135633437612e706e67 (1).png" src="/assets/images/2014/11/25/image01.png" style="width: 624.00px; height: 349.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 349.33px;"><img alt="68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f343438332f313830333636372f62306564363634652d366332342d313165332d393535392d6535373032323135633437612e706e67 (1).png" src="/assets/blog/2014/11/25/image01.png" style="width: 624.00px; height: 349.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
 
 However, in the words of Theodore Sturgeon defending science fiction, "90% of everything is crud." Most of the repositories (or "repos") at GitHub, are simple copies of more important repos. Moreover, most of the projects at GitHub do not have any great importance or an active enough community to be particularly noteworthy for our purposes. Nonetheless, the tiny fraction of these 10 million systems that remain are an enormous number of valuable projects which can be used as building blocks to construct larger systems. In a sense, this explosion of the number of combinable projects represents the fulfilment of the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy), which Doug McIlroy has expressed as:
 

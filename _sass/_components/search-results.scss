@@ -1,0 +1,13 @@
+// Search results
+// ==========================
+
+.page-search-results {
+  [type="submit"] {
+    background-color: $color-medium;
+    font-family: $font-sans;
+
+    &:hover {
+      background-color: $color-medium-hover;
+    }
+  }
+}

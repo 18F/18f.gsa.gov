@@ -5,7 +5,7 @@ full_name: Cristina Brydges
 github: 
 last_name: Brydges
 name: cristina
-role: Hiring Operations Specialist
+role: Deputy Director
 state: DC
 team: Talent
 twitter: 

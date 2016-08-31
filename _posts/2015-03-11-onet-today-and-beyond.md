@@ -3,7 +3,7 @@ title: "O*NET today and beyond"
 date: '2015-03-11'
 layout: post
 
-image: onet/image01.jpg
+image: /assets/blog/onet/image01.jpg
 
 tags:
 - pif

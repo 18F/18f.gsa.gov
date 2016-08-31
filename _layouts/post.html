@@ -1,80 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  {% include head.html %}
-</head>
-<body itemscope itemtype="http://schema.org/WebPage">
+---
+layout: default
+---
 
-{% include flag.html %}
+{% include feature-image.html %}
 
-<section class="container bare">
-	{% include nav.html %}
-	{% include logo.html %}
-  <div id="main" class="bare-content" role="main" itemscope itemprop="mainContentOfPage">
+<div class="usa-grid">
 
-    <section class="blog-posting" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-
-      <h1><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }} </time>
-
-      <p>
-        Tagged /
-        <span class="blog-tags" itemprop="keywords">
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}</a>
-            /
-          {% endfor %}
-        </span>
+  <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">Blog</a>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-byline">
+      {% include post-author.html context="page" %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
       </p>
-      {% include byline.html context="page" %}
+      <span class="post-tags" itemprop="keywords">
+        {% for tag in page.tags %}
+          <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+          </a>
+        {% endfor %}
+      </span>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      {% if page.image and page.image_feature_small == true %}
+        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="">
+      {% endif %}
+
       {{ content }}
+    </div>
 
-    </section>
+  </article>
+</div>
 
-    {% if page.previous or page.next %}
-        <section class="blog-pagination">
-          <div>
-            {% if page.previous %}
-              <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                <h1><i class="fa fa-chevron-left"></i> Previous Post</h1>
-                <p>&ldquo;{{ page.previous.title }}&rdquo;</p>
-              </a>
-            {% endif %}
-          </div>
-          <div>
-            {% if page.next %}
-                <a href="{{ site.baseurl }}{{ page.next.url }}">
-                  <h1>Next Post <i class="fa fa-chevron-right"></i></h1>
-                  <p>&ldquo;{{ page.next.title }}&rdquo;</p>
-                </a>
-            {% endif %}
-          </div>
-        </section>
-    {% endif %}
+{% if page.previous or page.next %}
+  <section class="post-pagination usa-grid">
+    <div class="usa-width-one-half">
+      {% if page.previous %}
+        <a href="{{ site.baseurl }}{{ page.previous.url }}">
+          <span class="link-arrow-left">Previous Post</span>
+          <h5>&ldquo;{{ page.previous.title }}&rdquo;</h5>
+        </a>
+      {% endif %}
+    </div>
+    <div class="usa-width-one-half">
+      {% if page.next %}
+          <a href="{{ site.baseurl }}{{ page.next.url }}">
+            <span class="link-arrow-right">Next Post</span>
+            <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
+          </a>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
 
-    <section class="blog-related">
-      <h1>Related Posts</h1>
-      {% related_posts ul li %}
-    </section>
-    <aside class="blog-follow-us">
-      <h1>Follow the latest news from 18F</h1>
-      <ul>
-        <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/18f">@18F</a></li>
-        <li><i class="fa fa-rss"></i> <a href="/feed/">18F News Feed</a></li>
-      </ul>
-
-      <!-- <i class="fa fa-github"></i> <a href="https://github.com/18f">GitHub / 18F</a> -->
-
-    </aside>
-
-  </div>
-
-</section>
-
-  {% include newsletter.html %}
-  {% include footer.html %}
-  {% include scripts.html %}
-
-</body>
-</html>
+{% include related-posts.html %}

@@ -1,0 +1,30 @@
+---
+---
+
+[
+  {% for nav in site.data.navbar.assigned %}
+  {
+    "title": "{{ nav.text }}",
+    "permalink": "{{ nav.permalink }}",
+    "href": "{{ nav.href }}"
+
+    {% if nav.children %},
+    "children": [
+      {% for child in nav.children %}
+      {
+        "title": "{{ child.text }}",
+        "permalink": "{{ child.permalink }}",
+        "href": "{{ child.href }}"
+
+      } {% if forloop.rindex != 1 %}, {% endif %}
+      {% endfor %}
+    ]
+    {% endif %}
+
+  },
+  {% endfor %}
+  {
+    "title": "Navigation bar data",
+    "href": "_data/navbar.yml"
+  }
+]

@@ -5,6 +5,7 @@ date: 2015-12-09
 authors:
 - cm
 tags:
+- eregulations
 - open source
 - agency work
 - best practices

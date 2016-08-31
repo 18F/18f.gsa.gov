@@ -5,8 +5,8 @@ full_name: Lenny Bogdonoff
 github: rememberlenny
 last_name: Bogdonoff
 name: lenny-bogdonoff
-role:
+role: General Developer
 state: NY
-team:
-twitter:
+team: 
+twitter: 
 ---

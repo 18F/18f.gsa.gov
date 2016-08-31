@@ -87,12 +87,7 @@ There are five major reasons why you should be this transparent too:
 
 ## 1. Working in the open drives higher quality results.
 
-Studies of CCTV cameras and surveillance have shown that simply knowing
-someone could be watching you has a demonstrable effect on behavior.
-We’re using this concept for good and applying it to our product
-development process. If I know someone can look at my code, see what I’m
-working on, or look at our project management software and see how much
-is getting done, I’m motivated to make my work just a little bit better.
+Studies have shown that simply knowing someone could be watching you has a demonstrable effect on behavior. We’re using this concept for good and applying it to our product development process. If I know someone can look at my code, see what I’m working on, or look at our project management software and see how much is getting done, I’m motivated to make my work just a little bit better.
 
 ##2. Aggressively over-share, and default to public.
 

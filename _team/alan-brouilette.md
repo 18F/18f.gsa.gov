@@ -2,14 +2,11 @@
 city: Chicago
 first_name: Alan
 full_name: Alan Brouilette
-github:
+github: 
 last_name: Brouilette
 name: alan-brouilette
-role: Product manage
+role: Product Manager
 state: IL
-team:
-twitter:
+team: Product
+twitter: 
 ---
-The magnitude of the challenge drew me to 18F. Government is foreign to
-me, and I have loved picking up government parlance and custom via
-immersion.

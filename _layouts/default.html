@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
   {% include head.html %}
-</head>
-<body itemscope itemtype="http://schema.org/WebPage">
 
-{% include flag.html %}
-{% include nav.html %}
-  <div id="main" role="main" itemscope itemprop="mainContentOfPage">
-    {{ content }}
-  </div>
+  <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
+  {% if page.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
-{% include footer.html %}
-{% include scripts.html %}
+    {% include header.html %}
 
-</body>
+    <div class="main-content" id="main-content">
+      {{ content }}
+    </div>
+
+    {% include nav-mobile.html %}
+
+    <footer role="contentinfo">
+      <div class="usa-grid">
+      {% include footer/mobile.html %}
+      {% include footer/desktop.html %}
+      {% include newsletter.html %}
+      </div>
+    </footer>
+
+    {% include javascript.html %}
+    {% jekyll_pages_api_search_load %}
+
+  </body>
 </html>

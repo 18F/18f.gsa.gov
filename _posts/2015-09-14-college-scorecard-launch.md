@@ -4,14 +4,12 @@ date: 2015-09-14
 layout: post
 authors:
 - lisagelobter
-
 tags:
 - agency work
 - college scorecard
 - api
 - open data
-- u.s. digital services
-
+- u.s. digital service
 excerpt: "How we worked with the Department of Education on new steps to help students, parents and advisers make better college choices, including a new College Scorecard, comprehensive and updated data on higher education institutions, and customized tools using this new data."
 description: "How we worked with the Department of Education on new steps to help students, parents and advisers make better college choices, including a new College Scorecard, comprehensive and updated data on higher education institutions, and customized tools using this new data."
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg

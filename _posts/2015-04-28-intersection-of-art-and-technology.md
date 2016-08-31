@@ -40,4 +40,4 @@ In our workflow process at 18F, we frequently use sketching and rapid prototypin
 
 Like Bjӧrk, we use both art and technology to shape how the team at 18F approaches the work we do inside of government. Our two-year appointments allow us to achieve short-term goals creating better user experiences for people who use federal websites and services. Our long-term goals are to change the way government agencies create and design digital services. As artists and technologists, we can achieve this by creating tools and services that not only do this, but also help change our long-term point of view.
 
-*{% author jeremy %} and {% author melody %} contributed to this post.*
+*{{ "jeremy" | team_link }} and {{ "melody" | team_link }} contributed to this post.*

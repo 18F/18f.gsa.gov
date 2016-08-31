@@ -14,7 +14,7 @@ tags:
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 excerpt: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 
-image: /assets/images/2014/12/protosketch.jpg
+image: /assets/blog/2014/12/protosketch.jpg
 ---
 *Giving program managers the freedom to sleep at night*
 
@@ -134,7 +134,7 @@ world where agencies are used to having to go through a lengthy procurement
 process and a requirements writing phase in order to see any design or
 prototype at all, this is a game-changer.
 
-<img src="{{ site.baseurl }}/assets/images/2014/12/protosketch.jpg" class="align-left" alt="A
+<img src="{{ site.baseurl }}/assets/blog/2014/12/protosketch.jpg" class="align-left" alt="A
 protosketch running on a phone" />
 
 At another protosketch meeting, this time with GSA Human Resources, we

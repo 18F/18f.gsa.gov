@@ -9,6 +9,7 @@ tags:
   - culture
 excerpt: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
 description: 'People have joined 18F from a variety of different backgrounds. We asked them to tell us how they got to 18F, and over 100 of them did.'
+image: /assets/blog/join-us/team-photo.jpg
 ---
 People come to 18F from many different backgrounds. We've heard from new hires and potential applicants that hearing how people got to 18F is helpful -- particularly for our many employees who didn't come from the tech sector or federal government.
 
@@ -20,9 +21,26 @@ Want to see your name on this list? You can see open positions and how to apply 
 
 # What path did you take to join 18F?
 
+## Contents
+
+<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
+- [Design](#design)
+- [Acquisitions](#acquisitions)
+- [Operations](#operations)
+- [Outreach](#outreach)
+- [Product](#product)
+- [Strategy](#strategy)
+- [Infrastructure](#infrastructure)
+- [Engineering](#engineering)
+- [Business Strategy](#business-strategy)
+
+<!-- /TOC -->
+
 ## Design
 
 _18F Design provide content, visual, and interactive design to the rest of the organization._
+
+[Back to the table of contents](#contents)
 
 <blockquote>"I came to 18F from the journalism world, and many of the things that drew me to journalism drew me to 18F. I love knowing that I can use my technology skills to help people better perform necessary tasks and make informed decisions." - Heather Battaglia</blockquote>
 
@@ -76,6 +94,8 @@ I’ve always sought roles that draw on my creative writing background, pedagogi
 
 _The acquisitions team provides innovative services and solutions to support digital service delivery. Their teams have a mix of former contracting officers, developers, and product manager who manage access to the Agile Delivery Services Marketplace, RFP ghostwriting consulting, and the micro-purchase platform._
 
+[Back to the table of contents](#contents)
+
 <blockquote>"My path to 18F involved some serendipity. When I arrived in D.C. a few years ago, I was starting law school and thinking that I would pursue a traditional legal career. But I never stopped thinking like a programmer. Whether I was freelancing for some extra money, writing open source code, or using GitHub Issues to manage my reading assignments, the urge to keep writing software never went away. On a quiet winter afternoon in 2012, I was sitting at my desk for an Federal Communications Commission (FCC)  legal internship and noticed something truly amazing: an FCC GitHub Organization. I asked my supervisor if I could meet whoever it was that was behind this. I met with that person, we talked about how I loved government-y things and could write software. He told me that I would be spending the rest of my internship working in his office. That person turned out to be future-fellow-18Fer Gray Brooks. Until that moment, I had never known that there was any demand for the skills possessed by lawyer-coders. It was truly eye-opening, and it set the stage for me to thrive at 18F a couple years later." {{ "alan" | team_link }}</blockquote>
 
 <blockquote>"I was a web developer for a small consultancy, and then I went to graduate school for public policy, during which I was an [Office of Science and Technology Policy] intern and was really intrigued about 18F, and decided I would love to work for them after finishing up school" - {{ "laura-gerhardt" | team_link }}</blockquote>
@@ -106,6 +126,9 @@ _The acquisitions team provides innovative services and solutions to support dig
 ## Operations
 
 _Team Ops handles all activities related to travel, non-travel purchases, legal matters, and equipment requests._
+
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "matt" | team_photo }}
 
 “Peace Corps -> dipped my feet in federal government -> 18F” - {{ "matt" | team_link }}</div>
@@ -113,6 +136,9 @@ _Team Ops handles all activities related to travel, non-travel purchases, legal 
 ## Outreach
 
 _The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F's public-facing website](https://18f.gsa.gov/), [our blog](https://18f.gsa.gov/blog/), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov._
+
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "boone" | team_photo }}
 
 “English teacher abroad in South Korea, then Hungary. Grad school brought me to D.C., consulting at CFPB kept me there and introduced me to the 21st century government. 18F brought me in and let me move to Denver.” - {{ "boone" | team_link }}</div>
@@ -133,6 +159,9 @@ Now, a developer building an inclusive environment in government technology.” 
 ## Product
 
 _Each project at 18F has a product lead whose job is to ensure the project is moving forward. A product lead looks at the whole picture and figures out how to make it work, including making sure we're user-centered and agile, taking care of billing and logistics, and handling other details so that the rest of the team can do its job. We tend to be generalists, often with skills in code or other disciplines as well as product.More information about our Product team is available in the [18F Product Guide](https://pages.18f.gov/product-guide/index.html)._
+
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "sarah" | team_photo }}
 
 “In 2012, I heard Todd Park speak, and became a Presidential Innovation Fellow in 2013 at the Smithsonian Institution. I helped with the implementation of the Executive Order on Open Data, and saw how small changes in government can have tremendous impact on our economy and our society.” - {{ "sarah" | team_link}}</div>
@@ -179,6 +208,8 @@ Let's fix big problems." - {{ "willsullivan" | team_link }}, Haiku writer in Chi
 
 _We help agencies transform into modern, high-functioning organizations through new management models, culture change, modern practices, empowered talent, data access, technology, and collaboration tools. We transform how agencies understand and execute projects: what to build, how to build, and who will build it._
 
+[Back to the table of contents](#contents)
+
 > "I consider my time at 18F to be penance for the many years I spent working in Silicon Valley. I started working on Internet startups almost two decades ago and genuinely bought into the notion that network technology would "change the world." But while that can be true, making a genuinely positive impact is not nearly as easy as Silicon Valley promises. As often as not, I found myself working on projects that had little to no social value, and as time wore on and the industry became more and more nakedly interested in money over people, my heart sunk. Fortunately, I was able to jump ship and join the product team at Code for America, a nonprofit dedicated to improving technology for cities, where I once again felt like I was doing work that made a difference. After several years with them I joined the (amazing!) team at 18F to continue doing this kind of work at the federal level." - {{ "lane-becker" | team_link }}
 
 <div class="response-block">{{ "zaccohn" | team_photo }}
@@ -206,6 +237,9 @@ _We help agencies transform into modern, high-functioning organizations through 
 ## Infrastructure
 
 _The infrastructure team helps 18F navigate the "federal compliance architecture." This work applies to much more than technology: it applies to our entire operation, including how we work inside the law, how we secure our systems, how we collect data from the public, and how we spend money._
+
+[Back to the table of contents](#contents)
+
 <div class="response-block">{{ "noah" | team_photo }}
 
 “By 2013, I had several ideas to reform government processes around system deployments, security, and privacy that needed longer term support than what at the time the Presidential Innovation Fellowship program could offer. Thankfully, Jennifer Pahlka, a U.S. Deputy CTO at the time, connected me with the 18F startup team at the GSA, and the rest is history.” - {{ "noah" | team_link }}</div>
@@ -214,8 +248,9 @@ _The infrastructure team helps 18F navigate the "federal compliance architecture
 
 _18F Engineering is responsible for delivering high quality, robust, open source software. We also evangelize best practices relating to software testing, scalability, security, and agile development._
 
-<div class="response-block">{{ "moncef" | team_photo }}
+[Back to the table of contents](#contents)
 
+<div class="response-block">{{ "moncef" | team_photo }}
 “My path to 18F can be traced back to 2012 when I was still at AOL. I was looking to transition from QA to Dev, and thought that a good stepping stone would be to lead the automated testing effort on the mobile team, a role I pursued and obtained.
 
 A few months later, as part of the team that shipped TechCrunch for iPad, I was invited to attend the last day of TechCrunch Disrupt NYC. Todd Park and Steven VanRoekel happened to be announcing the PIF program that day, and their passionate and spirited talk on innovation in the government blew me away. I started following Todd on Twitter, and that same day, he mentioned Code for America. Shortly thereafter, I found out about the open application for their Fellowship program. I applied because I wanted to give back to the community and make a long-lasting impact while acquiring new skills and being surrounded by smart and talented people who share the same vision and passion for improving society.
@@ -225,7 +260,6 @@ My CfA teammates and I built <a href="http://ohanapi.org">Ohana API</a>, an open
 In late 2014, I attended a Hack Night for Open Opportunities, where I paired with Sarah Allen to implement a feature, and later submitted <a href="https://github.com/18F/openopps-platform/pulls?q=is%3Apr+author%3Amonfresh+is%3Aclosed">these two pull requests</a>. Sarah emailed me a few days later asking if I would be interested in working at 18F.” – {{ "moncef" | team_link }}</div>
 
 <div class="response-block">{{ "lenny-bogdonoff" | team_photo }}
-
 “I went to a small liberal arts college of less than 400 people, where I concentrated on the humanities. Most of my classmates ended up going into the public sector through higher education. Around my senior year, I started to turn my interest in design into a desire to learn how to program. I moved to China for a year, where I ended up working for a startup as a web developer and began learning about civic tech.
 
 After moving back to the US, I ended up in New York and discovered the local Code For America brigade. I always thought I wanted to apply my programming ability to problems that served the public. I ended up contracted for many companies as a programmer and working at Conde Nast for two and a half years.
@@ -273,6 +307,8 @@ Second: Open Source: open source -- and in general doing work in the open -- is 
 ## Business Strategy
 
 _Intake is the process by which 18F listens to potential partners, discusses possible solutions to their challenges, and determines appropriate next steps. In short, it's how we do business development for inbound inquiries._
+
+[Back to the table of contents](#contents)
 
 > "I've been with GSA for 9+ years. I first encountered the work of 18F as a senior advisor to the Administrator, then began working closely with 18F when I was deputy CCO with the customer team. Finally, I was working more closely day-to-day with 18F as Chief of Staff for OCSIT/18F. With 18F, I was always impressed with how everyone was here for the right reason (they wanted to push government forward) and there is very little ego/hierarchy -- people just want to get good work done and are pretty flexible with the 'how.'" - Vicki McFadden
 

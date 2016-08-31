@@ -6,8 +6,9 @@ authors:
 - kane
 - alla
 tags:
-- micro-purchase
-- federal acquisitions
+- micro-purchase platforms
+- procurement
+- acquisition services
 excerpt: "This past December, 18F launched a micro-purchase platform to enable
 vendors to place bids on opportunities to deliver open source code that
 costs $3,500 or less. This is a look at how and why we built this platform."

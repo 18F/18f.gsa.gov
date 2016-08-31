@@ -11,6 +11,7 @@ tags:
 excerpt: "In the next few weeks, we're going to use our micro-purchase authority to run an experiment to contract for open source contributions to our active projects."
 description: "In the next few weeks, we're going to use our micro-purchase authority to run an experiment to contract for open source contributions to our active projects."
 image: /assets/blog/calc-announcement/calc_homepage.jpg
+hero: false
 ---
 
 18F is [an open-source team](https://github.com/18F/open-source-policy/blob/master/policy.md). We currently have hundreds of [publicly available repositories](https://github.com/18f), with dozens under active development. We've had numerous contributions from colleagues within government, and contributions from members of the public. But in the next few weeks, we are going to run an experiment: we want to *contract* for contributions. And we want to do it the 18F way.

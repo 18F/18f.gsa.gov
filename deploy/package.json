@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "commander": "^2.8.1",
-    "githooked": "^1.0.0"
-  }
-}

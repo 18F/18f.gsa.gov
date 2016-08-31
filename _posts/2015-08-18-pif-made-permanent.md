@@ -9,7 +9,7 @@ authors:
 
 tags:
 - pif
-- presidental innovation fellows
+- presidential innovation fellows
 - digital services movement
 
 excerpt: "We’re

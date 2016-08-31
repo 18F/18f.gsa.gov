@@ -1,0 +1,56 @@
+// Blog post
+// ==========================
+
+.post-feature_image {
+  background-position: center;
+  background-size: cover;
+  height: 36rem;
+
+  @include media($medium-screen) {
+    height: 40rem;
+  }
+}
+
+.single-post {
+  article {
+    @include margin(0 null $section-margins null);
+
+    @include media($medium-screen + 200px) {
+      @include margin($section-margins auto);
+      max-width: 61rem;
+    }
+
+    .image-feature-small {
+      margin-top: 0;
+    }
+
+    img {
+      @include margin($site-margins null);
+    }
+
+    figure {
+      @include margin($site-margins null);
+      text-align: center; // center image if less than full width
+
+      img {
+        @include margin(0 null);
+      }
+    }
+
+    figcaption {
+      font-size: $h6-font-size;
+      margin-top: 1rem;
+      text-align: left;
+    }
+  }
+}
+
+.post-header {
+  margin-bottom: $section-margins;
+}
+
+.posts {
+  ul {
+    @include unstyled-list;
+  }
+}

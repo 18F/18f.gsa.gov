@@ -17,7 +17,7 @@ tags:
 - acquisition services
 - api
 - best practices
-
+hero: false
 ---
 
 There has been some [great coverage of the new group of tech specialists

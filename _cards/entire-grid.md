@@ -2,7 +2,6 @@
 title: My heart would fill this entire grid.
 image: /assets/images/vday/entire-grid.png
 post: /2016/02/12/happy-valentines-day-from-18F/
-layout: bare
 ---
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:title" content="{{ page.title }}" />

@@ -1,0 +1,45 @@
+// Post meta
+// ==========================
+
+.post-byline {
+  color: $color-gray;
+  font-size: $h5-font-size;
+}
+
+.post-author {
+  color: $color-gray;
+  font-weight: $font-bold;
+  text-decoration: none;
+
+  &:visited {
+    color: $color-gray;
+  }
+}
+
+.post-author-comma {
+  margin-left: -3px;
+}
+
+.post-tags {
+  a {
+    @include padding(0.6rem null);
+    background-color: $color-medium;
+    display: inline-block;
+    font-size: $h6-font-size;
+    font-weight: $font-bold;
+    line-height: 1;
+    margin-bottom: 4px;
+    margin-right: 0;
+    text-decoration: none;
+    text-transform: lowercase;
+
+    &:hover {
+      background-color: $color-medium-hover;
+    }
+
+    &:hover,
+    &:visited {
+      color: $color-white;
+    }
+  }
+}

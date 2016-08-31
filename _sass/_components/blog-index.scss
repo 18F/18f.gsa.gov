@@ -1,0 +1,25 @@
+// Blog index
+// ==========================
+
+.blog-content {
+  margin-top: $section-margins;
+}
+
+.blog-search {
+  float: right;
+  width: 100%;
+
+  @include media($medium-screen) {
+    max-width: 29rem;
+  }
+}
+
+.page-blog {
+  .background-dark {
+    .section-heading {
+      @include media($medium-screen) {
+        display: initial;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+
+jekyll-archives: false
+jekyll_pages_api_search:
+  skip_index: true

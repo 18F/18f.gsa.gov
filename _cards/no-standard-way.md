@@ -2,7 +2,6 @@
 title: There’s no standard way to say I love you this Valentine’s day.
 image: /assets/images/vday/no-standard-way.png
 post: /2016/02/12/happy-valentines-day-from-18F/
-layout: bare
 ---
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:title" content="{{ page.title }}" />

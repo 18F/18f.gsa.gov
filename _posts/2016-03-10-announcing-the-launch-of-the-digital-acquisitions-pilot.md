@@ -8,6 +8,7 @@ authors:
 - victor-udoewa
 - duane-rollins
 tags:
+- digital acquisition accelerator
 - acquisition services
 - u.s. digital service
 - pif

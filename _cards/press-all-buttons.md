@@ -2,7 +2,6 @@
 title: You press all my buttons.
 image: /assets/images/vday/press-all-buttons.png
 post: /happy-valentines-day-from-18F/
-layout: bare
 ---
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:title" content="{{ page.title }}" />

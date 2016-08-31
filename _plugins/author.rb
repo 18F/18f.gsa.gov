@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def render(context)
-      teammate = finder('team', @author)
+      teammate = finder('authors', @author)
 
       if teammate.nil?
         teammate = finder('pif_team', @author)
@@ -23,7 +23,12 @@ module Jekyll
     end
 
     def finder(group, name)
-        return Jekyll.sites[0].data[group].find {|member| member["name"] == name}
+        data = Jekyll.sites[0].data[group]
+        if results.respond_to?('find')
+          return results.find {|member| member["name"] == name}
+        else
+          require 'pry'; binding.pry
+        end
     end
   end
 
@@ -102,12 +107,12 @@ module Jekyll
       unless index.nil?
         url = "#{baseurl}/team/#{team[index].data['name']}"
         full_name = team[index].data['full_name']
-        string = "<a href='#{url}'>#{full_name}</a>"
+        string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
         url = lookup(input, "authors, url")
         name = lookup(input, "authors, full_name")
         if url
-          string = "<a href='#{url}'>#{name}</a>"
+          string = "<a class='post-author' itemprop='name' href='#{url}'>#{name}</a>"
         else
           string = name
         end

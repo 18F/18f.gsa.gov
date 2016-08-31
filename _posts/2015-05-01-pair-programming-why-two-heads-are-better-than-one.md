@@ -16,7 +16,7 @@ description: "At 18F, we frequently use pair programming, a technique where two 
 image: /assets/blog/pair-programming/annalee.jpg
 ---
 
-<div class="align-center" ><img style="margin-left: 30px;" alt="Annalee Flower Horne" src="/assets/blog/pair-programming/annalee.png" class="align-left" />
+<div class="align-center" ><img style="margin-left: 30px;" alt="Annalee Flower Horne" src="/assets/blog/pair-programming/annalee.jpg" class="align-left" />
 <img style="margin-right: 30px;" alt="Catherine Devlin" src="/assets/blog/pair-programming/catherine.jpg" class="align-right" /></div>
 
 Developers Annalee Flower Horne and Catherine Devlin worked together on

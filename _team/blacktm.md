@@ -6,7 +6,7 @@ full_name: Tom Black
 role: Tech and Data Architecture Consultant
 city: Washington
 state: D.C.
-github:
-twitter:
+github: 
+twitter: 
 team: Consulting
 ---

@@ -12,7 +12,6 @@ tags:
 
 excerpt: "18F Consulting recommends agile development for several reasons, including agile’s emphasis on user needs, continuous integration, and rapid adaptation to changed circumstances. But there is another important reason we recommend agile: its focus on transparency."
 description: "18F Consulting recommends agile development for several reasons, including agile’s emphasis on user needs, continuous integration, and rapid adaptation to changed circumstances. But there is another important reason we recommend agile: its focus on transparency."
-image: /assets/blog/how-to-github/image.jpg
 ---
 [18F Consulting](https://18f.gsa.gov/consulting) recommends agile
 development for several reasons, including agile’s emphasis on user

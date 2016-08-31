@@ -1,0 +1,33 @@
+// Typography
+$h1-font-size:       3.6rem;
+$h2-font-size:       3.2rem;
+$h3-font-size:       2.4rem;
+$h5-font-size:       1.4rem;
+$h6-font-size:       1.2rem;
+
+$tiny-font-size:     1.2rem;
+
+$font-sans:          'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-monospace:     Consolas, Monaco, "Andale Mono", monospace;
+
+
+// Color
+$color-light:        #b3efff; // $color-light / $color-secondary-light
+$color-bright:       #00cfff; // $color-bright / $color-secondary
+$color-medium:       #046b99; // $color-medium / $color-primary
+$color-dark:         #1C304A; // $color-dark / $color-primary-dark
+$color-base:         #1F2E4A;
+
+$color-bright-hover: #00A7CE;
+$color-medium-hover: #00547A;
+
+$color-gray-lightest: #f1f1f1; // Adding bc used in our $border-light in this file.
+
+// Spacing
+$section-margins:    6rem;
+$nav-width-extra:    88px; // width needed to add so nav doesn't break on medium-screen size
+$text-max-width:     60.6rem;
+
+// Miscellaneous
+$border-accent:      1rem solid $color-bright;
+$border-light:       1px solid $color-gray-lightest;

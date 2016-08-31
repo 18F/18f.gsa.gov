@@ -1,12 +1,12 @@
 ---
-city:
+city: 
 first_name: Mark
 full_name: Mark Nejbauer
-github:
+github: 
 last_name: Nejbauer
 name: mark
-role:
-state:
-team:
-twitter:
+role: 
+state: 
+team: 
+twitter: 
 ---

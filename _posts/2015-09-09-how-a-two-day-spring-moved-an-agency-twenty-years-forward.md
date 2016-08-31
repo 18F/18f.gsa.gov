@@ -2,6 +2,7 @@
 title: "How a two-day sprint moved an agency twenty years forward"
 date: 2015-09-09
 layout: post
+permalink: /2015/09/09/how-a-two-day-sprint-moved-an-agency-twenty-years-forward/
 authors:
 - jtag
 
@@ -21,6 +22,8 @@ description: "At 18F Consulting, we experiment with ways to empower agencies to 
 digital solutions. Recently we partnered with the Department of Labor’s
 Wage and Hour Division to run a two day “Design/Dev Agile Sprint” to help them modernize their Field Operations Handbook."
 image: /assets/blog/labor-handbook/foh-screenshot.jpg
+redirect_from:
+- /2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/
 ---
 
 At 18F Consulting, we experiment with [ways to empower agencies
