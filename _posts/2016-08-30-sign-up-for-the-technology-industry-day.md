@@ -1,13 +1,13 @@
 ---
 title: "Sign up for the Technology Industry Day"
-date: 2016-08-30 (optional)
+date: 2016-08-30
 authors:
 - gsa-blog-team
 tags:
 - events
 - gsa
-excerpt: "On September 8, GSA is hosting its very first Technology Industry Day. [Sign up](http://www.eventbrite.com/e/gsa-technology-industry-day-registration-27199447279) to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
-description: "On September 8, GSA is hosting its very first Technology Industry Day. [Sign up](http://www.eventbrite.com/e/gsa-technology-industry-day-registration-27199447279) to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
+excerpt: "On September 8, GSA is hosting its very first Technology Industry Day. Sign up to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
+description: "On September 8, GSA is hosting its very first Technology Industry Day. Sign up to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
 image: 
 ---
 
