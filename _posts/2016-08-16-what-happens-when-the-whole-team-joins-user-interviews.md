@@ -12,6 +12,7 @@ description: "The CALC team is an agile team of four — six if you count the Sc
 in their own words, is some reflection on what happened when they all
 scrubbed in on the discovery phase."
 image: /assets/blog/calc-announcement/calc_homepage_2016.jpg
+hero: false
 ---
 The [CALC](https://18f.gsa.gov/2015/05/12/announcing-the-calc-tool/) team is an agile team of four -- six if you count the
 Scrummaster and the Product Owner -- building a simple means to load

@@ -107,6 +107,12 @@
   }
 }
 
+// boone did this, we should do it the right way eventually
+.background-dark a:hover,
+.background-dark .usa-button.usa-button-secondary:hover {
+    color: #00A7CE;
+}
+
 .header_border,
 .single-post {
   header[role=banner] {
