@@ -9,12 +9,12 @@ tags:
 - calc
 excerpt: "All throughout the summer, we’ll be profiling members across the 18F team. Mark Trammell joined 18F in May 2016 after stints at Twitter, Sonos, Digg, Paypal, and Obama for America. He currently works on CALC, a tool that helps the federal contracting community make faster, smarter buying decisions."
 description: "All throughout the summer, we’ll be profiling members across the 18F team. Mark Trammell joined 18F in May 2016 after stints at Twitter, Sonos, Digg, Paypal, and Obama for America. He currently works on CALC, a tool that helps the federal contracting community make faster, smarter buying decisions."
-image: /assets/images/team/mark-trammell.jpg
+image: /assets/img/team/mark-trammell.jpg
 hero: false
 ---
 
 <aside class="pquote">
-	<img class="pquote-img" src="{{site.baseurl }}/assets/images/team/mark-trammell.jpg" alt="Mark Trammell">
+	<img class="pquote-img" src="{{site.baseurl }}/assets/img/team/mark-trammell.jpg" alt="Mark Trammell">
 	<blockquote>
 		<p>"When my time at 18F is done, I’m looking forward to taking with me the experience of what can be achieved by a team with extraordinary skills, diverse backgrounds, and a shared patriotism."</p>
 	</blockquote>
@@ -38,7 +38,7 @@ At Digg, I had a similar role. We allowed people to vote on what they thought wa
 
 **MK: How did you find out about 18F, and why did you join?**
 
-**MT:** After working at Twitter, I worked on President Obama’s 2012 campaign, and after that wrapped up, I was pretty burnt out. 
+**MT:** After working at Twitter, I worked on President Obama’s 2012 campaign, and after that wrapped up, I was pretty burnt out.
 
 I moved to Santa Barbara, started designing speakers and wearing shorts to work every day to get my groove back. It took a while. I found out about the Presidential Innovation Fellows program in 2013 from 18F Deputy Executive Director Hillary Hartley. At the time, I was completely burnt out and tired, and knew I need more time to relax.
 
