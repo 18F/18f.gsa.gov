@@ -108,12 +108,7 @@
 }
 
 // boone did this, we should do it the right way eventually
-.background-dark a:hover,
 .background-dark .usa-button.usa-button-secondary:hover {
-    color: $color-bright-hover;
-}
-
-background-dark .usa-button.usa-button-secondary:hover {
    color: $color-black;
 }
 
