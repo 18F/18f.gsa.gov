@@ -7,19 +7,30 @@ last_name: Humble
 name: jez-humble
 role: Deputy Director of Infrastructure
 state: California
-team:
-twitter:
+team: Infrastructure
+twitter: jezhumble
 ---
-I joined 18F for a few reasons. First, I’m a big fan of what the UK’s
-GDS has been doing, and I wanted to be able to contribute to the U.S.
-government’s move towards building people-centered digital government
-services. I see that as a vitally important mission, and for selfish
-reasons 18F was ideal because they have an office in San Francisco, and
-they are a remote-first team (we use a lot of Slack and Screenhero),
-which means I can work from home much of the week. Second, I get to use
-cutting-edge technology. I’ve spent the past month working on the[
-](http://cloud.gov/)[*cloud.gov*](http://cloud.gov/) team, where we’re
-building a cloud for government using CloudFoundry and AWS. Recently
-we’ve been building out monitoring using Riemann, InfluxDB and Grafana,
-and it’s been fun to get my hands dirty on that. Third, I’m getting to
-work with some really great people.
+Jez helps teams at 18F deploy and operate new systems, and runs the
+infrastructure they sit on. His focus is enabling continuous
+delivery of secure, resilient distributed systems even in the highly
+regulated context of government.
+
+Before joining 18F, Jez spent over fifteen years tinkering with
+code, infrastructure, and product development in companies of varying
+sizes across three continents. He is the award-winning author of three
+books: _Continuous Delivery: Reliable Software Releases through Build,
+Test, and Deployment Automation_, _Lean Enterprise: How High
+Performance Organizations Innovate at Scale_, and _The DevOps
+Handbook: How to Create World-Class Agility, Reliability, and Security
+in Technology Organizations_. He also teaches classes on software
+development and product management at UC Berkeley's
+[School of Information](http://www.ischool.berkeley.edu/). 
+
+"Here in the GSA's Technology Transformation Service we're showing
+that agile, devops and open source development can be business as
+usual even in the complex, highly regulated domain of
+government. We're using these ideas to help our agency partners
+build world-class user-centered services that transform the way
+government serves its people, while also saving enormous amounts of
+money for taxpayers. That's an amazing mission, and it's an honor to
+serve with the incredible team at the GSA behind it."

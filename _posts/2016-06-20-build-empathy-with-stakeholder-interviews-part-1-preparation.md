@@ -42,7 +42,7 @@ With that out of the way, let's dive in.
 What are stakeholder interviews?
 --------------------------------
 
-As [defined](https://methods.18f.gov/stakeholder-and-user-interviews/) in 18F’s
+As [defined](https://methods.18f.gov/discover/stakeholder-and-user-interviews/) in 18F’s
 Method Cards, stakeholder and user interviews (stakeholder interviews)
 are "a wide-spanning set of semi-structured interviews with anyone who
 has an interest in a project’s success, including users."

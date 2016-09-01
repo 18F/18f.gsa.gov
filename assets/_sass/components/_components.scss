@@ -1,12 +1,13 @@
-@import 'globalnav';
+@import 'bare';
+@import 'blockquote';
+@import 'blog';
+@import 'contact';
+@import 'dashboard';
+@import 'embeds';
 @import 'footer';
 @import 'fourohfour';
-@import 'dashboard';
-@import 'bare';
-@import 'contact';
-@import 'blog';
-@import 'team';
+@import 'globalnav';
 @import 'profile';
-@import 'embeds';
+@import 'team';
 
 @import 'dashboard-new';

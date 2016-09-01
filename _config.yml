@@ -4,6 +4,7 @@ redcarpet:
   syntax_highlighter: rouge
   extensions:
   - with_toc_data
+  - tables
 
 excerpt_separator: <!-- more -->
 exclude:

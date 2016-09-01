@@ -4,7 +4,7 @@ authors:
 - boone
 - will
 tags:
-- communications tools and practices
+- communication tools and practices
 - jekyll
 - federalist
 excerpt: "Our blog uses Jekyll, a static file generator with a basic templating system, as the backend software. Deploying our blog posts this way has simplified our publishing process."
@@ -93,7 +93,7 @@ needing to know code, except how to do formatting in Markdown?
 website, it has to be generated. You could write blog posts until you're
 blue in the face and it won't matter if you never generate them into a
 website. In Jekyll, you run a command called `build` to make that
-happen
+happen.
 
 Whereas a CMS is always running, waiting to send a visitor whatever page
 they ask for, Jekyll does nothing by itself. It needs someone or a
