@@ -92,6 +92,7 @@ gems:
   - jekyll-archives
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
