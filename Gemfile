@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll_frontmatter_tests'
   gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
 end
 gem 'jemoji'
 group :development do
