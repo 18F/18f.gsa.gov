@@ -26,6 +26,10 @@ The site is a static website with HTML, CSS, and Javascript. Deployments are don
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket
 1. We map 18f.gsa.gov URL to the S3 bucket
 
+### Protected branches
+
+Any 18F team member should be able to make a branch of the site and submit a pull request. Doing so will also generate a preview URL we can use to inspect your changes. **The `master` `staging` and `production` branches are protected** this means that only administrators of the repo can push directly to those branches. 18F teammates who don't think they have the correct permissions should hit us up in the #18f-site channel.
+
 ### Constraints
 
 * We use Cloudfront to map 18f.gsa.gov to an S3 endpoint
