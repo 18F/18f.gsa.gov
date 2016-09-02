@@ -6,8 +6,8 @@ authors:
 tags:
 - how we work
 - culture change
-excerpt: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatica positive change in how they manage their work."
-description: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatica positive change in how they manage their work."
+excerpt: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
+description: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
 image: 
 ---
 
