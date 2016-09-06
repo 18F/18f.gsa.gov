@@ -1,14 +1,22 @@
 ---
-title: "Nicole Fenton: A wordsmith joins the government"
+title: 'Nicole Fenton: A wordsmith joins the government'
 authors:
 - melody
 tags:
 - staff profiles
 - useiti
-excerpt: "Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole was a content strategist at Facebook, Lab Zero, and Mule Design in San Francisco. She started her professional writing practice at Apple, where she served as communications lead for five years and helped launch the original iPhone and iPad."
-description: "Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole was a content strategist at Facebook, Lab Zero, and Mule Design in San Francisco. She started her professional writing practice at Apple, where she served as communications lead for five years and helped launch the original iPhone and iPad."
-image: /assets/images/team/nicole-fenton.jpg
+excerpt: Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole was a content
+  strategist at Facebook, Lab Zero, and Mule Design in San Francisco. She started
+  her professional writing practice at Apple, where she served as communications lead
+  for five years and helped launch the original iPhone and iPad.
+description: Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole was
+  a content strategist at Facebook, Lab Zero, and Mule Design in San Francisco. She
+  started her professional writing practice at Apple, where she served as communications
+  lead for five years and helped launch the original iPhone and iPad.
+image: "/assets/img/team/nicole-fenton.jpg"
+hero: false
 ---
+
 *All throughout the summer, we’ll be profiling members across the 18F
 team. Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole
 was a content strategist at Facebook, Lab Zero, and Mule Design in San
@@ -63,11 +71,11 @@ reflecting on my own needs and interests, here I am at 18F.
 
 **MK: How did you find out about 18F?**
 
-**NF:** I first heard about 18F through Jesse Taggert. We were friends
+**NF:** I first heard about 18F through [Jesse Taggert]({{ site.baseurl }}/team/jessie/). We were friends
 in San Francisco before I moved to New York. We always keep an eye on
 what the other person is doing.
 
-I would occasionally read the blog, and I also know Meghana from my work
+I would occasionally read the blog, and I also know [Meghana]({{ site.baseurl }}/team/meghana/) from my work
 at the School for Visual Arts, so I was curious about the team.
 
 As a strategist, I do a lot of thinking about goals and next steps, and
@@ -85,8 +93,8 @@ are appealing to a wordsmith like me.
 
 **MK: What have you worked on so far?**
 
-**NF:** At 18F, I’ve worked with [*the United States Extractives
-Industry Transparency Initiative (USEITI)*](https://useiti.doi.gov/)
+**NF:** At 18F, I’ve worked with [the United States Extractives
+Industry Transparency Initiative (USEITI)](https://useiti.doi.gov/)
 where I helped the U.S. Department of the Interior present complicated
 information about how public land gets used for natural resource
 development, and how the government distributes money from those leases.
