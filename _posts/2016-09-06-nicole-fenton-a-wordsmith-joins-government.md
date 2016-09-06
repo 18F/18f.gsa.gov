@@ -16,6 +16,10 @@ description: Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole w
 image: "/assets/img/team/nicole-fenton.jpg"
 hero: false
 ---
+<figure class="align-right">
+	<img src="{{site.baseurl}}{{page.image}}" alt="">
+	<figcaption>Nicole Fenton, content designer at 18F</figcaption>
+</figure><br>
 
 *All throughout the summer, we’ll be profiling members across the 18F
 team. Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole
@@ -71,7 +75,7 @@ reflecting on my own needs and interests, here I am at 18F.
 
 **MK: How did you find out about 18F?**
 
-**NF:** I first heard about 18F through [Jesse Taggert]({{ site.baseurl }}/team/jessie/). We were friends
+**NF:** I first heard about 18F through [Jesse Taggert]({{ site.baseurl }}/team/jtag/). We were friends
 in San Francisco before I moved to New York. We always keep an eye on
 what the other person is doing.
 
