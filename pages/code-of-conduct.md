@@ -5,6 +5,8 @@ layout: default-intro
 lead:
 ---
 
+This is a copy of the 18F code of conduct. The [official document lives in GitHub](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md). If you would like to comment or suggest a change to the policy, please do so there.
+
 ### Creating a culture of innovation
 
 We aspire to create a culture where people work joyfully, communicate openly about things that matter, and provide great services for the American people and the world. We would like our team and our communities (including government and private sector colleagues) to reflect the diversity of America. We want to foster diversity of all kinds&mdash;not just the classes protected in law. Diversity fosters innovation. Diverse teams are creative teams. We need a diversity of perspective to create solutions for the real and urgent challenges we face.
