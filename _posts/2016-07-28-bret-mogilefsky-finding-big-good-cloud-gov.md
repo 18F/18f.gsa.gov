@@ -10,6 +10,7 @@ tags:
 excerpt: "Bret Mogilefsky spent most of his career working in the game development industry. He came to the government seeking the best way he could have a big impact and do big good."
 description: "Bret Mogilefsky spent most of his career working in the game development industry. He came to the government seeking the best way he could have a big impact and do big good."
 image: /assets/img/team/bret.jpg
+hero: false
 ---
 *All throughout the summer, we’ll be profiling members across the 18F
 team. Bret Mogilefsky joined 18F in July of 2015 after a long and
