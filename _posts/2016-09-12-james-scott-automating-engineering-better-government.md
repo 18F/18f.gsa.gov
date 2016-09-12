@@ -3,7 +3,7 @@ title: "James Scott: Automating and engineering a better government"
 authors:
 - melody
 tags:
-- 18f profiles
+- staff profiles
 - cloud.gov
 excerpt: "James Scott's career has taken him from The University of Virginia to Intel before landing at 18F. Here, he has worked on cloud.gov and our diversity guild. His advice for people thinking about joining us: Do it."
 description: "James Scott's career has taken him from The University of Virginia to Intel before landing at 18F. Here, he has worked on cloud.gov and our diversity guild. His advice for people thinking about joining us: Do it."
@@ -84,10 +84,7 @@ Docker and Docker-Compose for Development Environments.
 
 **MK: What has been the most impactful project you’ve worked on?**
 
-**JS:** Outside of cloud.gov, I’m an active member of our Diversity
-Guild, and I’m really excited about the listening tour we just
-conducted, *and* the fact that 18F allows and encourages us to do that
-kind of stuff.
+**JS:** Outside of cloud.gov, I’m an active member of our Diversity Guild, and I’m really excited about the listening tour we conducted, *and* the fact that 18F allows and encourages us to do that kind of stuff.
 
 Basically, we interviewed tons of people about what they look for in a
 workplace and what makes them thrive in a workplace. It was great to be
