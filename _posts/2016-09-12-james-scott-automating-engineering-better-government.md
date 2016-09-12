@@ -104,7 +104,7 @@ value it.
 overcoming obstacles on your project?**
 
 **JS:** When it comes to getting
-[*FedRAMP’ed*](http://www.fedramp.gov/about-us/about/), you have to
+[FedRAMP’ed](http://www.fedramp.gov/about-us/about/), you have to
 generate a document that’s hundreds of pages long. I was one of the main
 developers working on a tool that allowed people to collaborate in
 GitHub and on other platforms and then would auto generate a Word
