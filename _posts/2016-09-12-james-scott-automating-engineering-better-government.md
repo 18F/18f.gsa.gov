@@ -8,6 +8,7 @@ tags:
 excerpt: "James Scott's career has taken him from The University of Virginia to Intel before landing at 18F. Here, he has worked on cloud.gov and our diversity guild. His advice for people thinking about joining us: Do it."
 description: "James Scott's career has taken him from The University of Virginia to Intel before landing at 18F. Here, he has worked on cloud.gov and our diversity guild. His advice for people thinking about joining us: Do it."
 image: /assets/img/team/jamesscott.jpg
+hero: false
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="">
