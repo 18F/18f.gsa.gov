@@ -10,9 +10,9 @@ excerpt: "Today, the Government Accountability Office (GAO) released their revie
 description: "Today, the Government Accountability Office (GAO) released their review of 18F and the U.S. Digital Service and our work to transform federal digital services. We appreciate GAO’s review of 18F’s important work and mission."
 ---
 
-Yesterday, the Government Accountability Office (GAO) [released their
-review of 18F and the U.S.
-Digital Service](http://gao.gov/products/GAO-16-602) and our work to
+Yesterday, the Government Accountability Office (GAO) released [their
+review](http://gao.gov/products/GAO-16-602) of 18F and the U.S.
+Digital Service and our work to
 transform federal digital services. We appreciate GAO’s review of 18F’s
 important work and mission. We’re especially excited about the results
 of a customer satisfaction survey that GAO conducted as part of their
