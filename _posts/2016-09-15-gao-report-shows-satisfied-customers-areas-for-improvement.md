@@ -6,8 +6,8 @@ authors:
 tags:
 - 18f
 - transparency
-excerpt: "Today, the Government Accountability Office (GAO) released their review of 18F and the U.S. Digital Service and our work to transform federal digital services. We appreciate GAO’s review of 18F’s important work and mission."
-description: "Today, the Government Accountability Office (GAO) released their review of 18F and the U.S. Digital Service and our work to transform federal digital services. We appreciate GAO’s review of 18F’s important work and mission."
+excerpt: "Yesterday, the Government Accountability Office (GAO) released their review of 18F and the U.S. Digital Service and our work to transform federal digital services. We appreciate GAO’s review of 18F’s important work and mission."
+description: "Yesterday, the Government Accountability Office (GAO) released their review of 18F and the U.S. Digital Service and our work to transform federal digital services. We appreciate GAO’s review of 18F’s important work and mission."
 ---
 
 Yesterday, the Government Accountability Office (GAO) released [their
