@@ -45,7 +45,7 @@ device you’re visit it on, and gives you fast, efficient service,” said
 Aaron Snow, Deputy Director of TTS.
 
 If you weren’t able to attend, you can watch the first two hours of the
-event below and download the slidedeck from the morning presentation.
+event below and [download the slidedeck from the morning presentation]({{site.baseurl}}/assets/blog/industry-day/deck-2016.pdf).
 
 <iframe width="800" height="450"
 src="https://www.youtube-nocookie.com/embed/NRAlPdiWXN8" frameborder="0"
