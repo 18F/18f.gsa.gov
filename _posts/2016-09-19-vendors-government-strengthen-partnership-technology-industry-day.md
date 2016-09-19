@@ -65,7 +65,7 @@ clients to add valuable features to their products through quick,
 inexpensive purchases. [Hear more about this and other acquisition
 projects from Alla Seiffert](https://youtu.be/NRAlPdiWXN8?t=1h25m12s).
 
-## Cloud.gov
+## cloud.gov
 
 [cloud.gov](https://cloud.gov/) is a shared platform built for
 government that allows agencies to securely deploy systems to the cloud.
