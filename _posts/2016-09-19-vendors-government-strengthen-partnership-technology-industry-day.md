@@ -20,24 +20,9 @@ hero: false
 
 ![The Technology Transformation Service Industry Day]({{site.baseurl}}{{page.image}})
 
-Last week, the General Services Administration (GSA) held a Technology
-Industry Day to talk to industry leaders about the products and
-solutions developed by our agency and to hear feedback on how we can
-better engage industry. We’re thrilled that more than 300 members of the
-technology industry in person and via the live stream were able to join
-us for this first step towards a closer partnership and more open lines
-of communication about how we can work together to transform federal
-technology.
+Last week, the General Services Administration (GSA) held a Technology Industry Day to talk to industry leaders about the products and solutions developed by our agency and to hear feedback on how we can better engage industry. We’re thrilled that more than 300 members of the technology industry in person and via the live stream were able to join us for this first step towards a closer partnership and more open lines of communication about how we can work together to transform federal technology.
 
-As GSA Administrator Denise Turner Roth said in her opening remarks,
-“Government can be ever changing, and I want us to be in partnership in
-making those changes.” The Technology Transformation Service (TTS) is
-already absorbing the first-mover risk of introducing modern tools and
-techniques, but we know that only with the help of industry will this
-transformation be able to spread across the federal government. As we
-all bring agile methodologies, human-centered design, and modular design
-to the government, the opportunity to improve federal digital services
-is immense.
+As GSA Administrator Denise Turner Roth said in her opening remarks, “Government can be ever changing, and I want us to be in partnership in making those changes.” The Technology Transformation Service (TTS) is already absorbing the first-mover risk of introducing modern tools and techniques, but we know that only with the help of industry will this transformation be able to spread across the federal government. As we all bring agile methodologies, human-centered design, and modular design to the government, the opportunity to improve federal digital services is immense.
 
 “For me, the future is a future where every public facing government
 service is easy to understand, is a pleasure to use, works on whatever
@@ -47,7 +32,7 @@ Aaron Snow, Deputy Director of TTS.
 If you weren’t able to attend, you can watch the first two hours of the
 event below and [download the slidedeck from the morning presentation]({{site.baseurl}}/assets/blog/industry-day/deck-2016.pdf).
 
-<iframe width="800" height="450"
+<iframe width="610" height="450"
 src="https://www.youtube-nocookie.com/embed/NRAlPdiWXN8" frameborder="0"
 allowfullscreen></iframe>
 
@@ -128,7 +113,7 @@ design, and open source practices into their project. Hear more from
 Stuart Drown, the California Deputy Secretary for Innovation and
 Accountability, about the project.
 
-<iframe width="800" height="450"
+<iframe width="610" height="450"
 src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
 allowfullscreen ></iframe>
 
