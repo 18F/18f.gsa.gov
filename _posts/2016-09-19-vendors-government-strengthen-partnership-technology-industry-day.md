@@ -73,7 +73,7 @@ talk](https://youtu.be/NRAlPdiWXN8?t=1h6m39s).
 [Micro-purchasing](https://micropurchase.18f.gov/insights) is a
 process is where the federal government makes small procurements to
 directly buy products and services, as long as the price does not exceed
-\$3,500. Currently, we’re using that process to buy small pieces of open
+$3,500. Currently, we’re using that process to buy small pieces of open
 source software and design through the [Micro-purchase
 Marketplace](https://micropurchase.18f.gov/). This process has allowed
 clients to add valuable features to their products through quick,
