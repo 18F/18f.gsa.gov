@@ -138,8 +138,7 @@ insights from the sessions soon.
 
 Until then, you can sign up the [18F Acquisitions email
 list](http://gsa.us9.list-manage2.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=e7f757afe3)
-or the general 18F newsletter at the [bottom of this
-page](https://18f.gsa.gov/) to stay up to date with all of our projects
+or the [general 18F newsletter](https://18f.gsa.gov/#newsletter) to stay up to date with all of our projects
 (or follow our work as it happens on
 [GitHub](https://github.com/18F)). If you’d like to start a
 conversation about working with 18F or have questions about our work,
