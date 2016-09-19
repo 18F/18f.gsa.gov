@@ -1,6 +1,5 @@
 ---
 title: "Mississippi brings agile and modular techniques to child welfare system contract"
-date: YYYY-MM-DD
 authors:
 - boone
 tags:
