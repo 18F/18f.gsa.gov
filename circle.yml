@@ -3,8 +3,6 @@ machine:
     version:
       2.2.3
 
-log_test: ${CIRCLE_TOKEN}
-
 dependencies:
   pre:
     - bundle install
@@ -15,4 +13,5 @@ test:
     - bundle exec jekyll test
     - bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov
   post:
-    - trigger_nightly_build.sh 18f/18f.gsa.gov/ master ${CIRCLE_TOKEN}
+    - ${CIRCLE_TOKEN}
+    # trigger_nightly_build.sh 18f/18f.gsa.gov/ master ${CIRCLE_TOKEN}
