@@ -24,7 +24,7 @@ week](https://blog.usa.gov/usa-gov-launches-vote-usa-gov-to-help-citizens-regist
 
 Did it work? Yes. In fact, it worked *so* well that Facebook made it the destination for their 2016 voter registration drive. Last Friday, it received over five million user visits, among the highest count ever recorded by a U.S. government website in a single day.
 
-It was a good site, but there was room for improvement. The site was only available in English.The pages for individual states did not have URLs, so it was hard to share them with other people. We weren’t sure if the front page really needed to be that long.
+It was a good site, but there was room for improvement. The site was only available in English. The pages for individual states did not have URLs, so it was hard to share them with other people. We weren’t sure if the front page really needed to be that long.
 
 So, earlier this year, USA.gov worked together with [18F](https://18f.gsa.gov/) to research, prototype, test, and implement an improved version of vote.gov.
 
