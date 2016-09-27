@@ -16,6 +16,9 @@ hero: false
   <img src="{{site.baseurl}}{{page.image}}" alt="">
   <figcaption>Homepage of the new vote.gov</figcaption>
 </figure>
+
+*Originally published on [USA.gov](https://blog.usa.gov/the-new-vote-gov-leaner%2C-faster-and-multi-lingual)*
+
 [One year ago this
 week](https://blog.usa.gov/usa-gov-launches-vote-usa-gov-to-help-citizens-register-to-vote), we launched [vote.gov](https://vote.gov/) (also known as vote.usa.gov). It’s a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. It was created by a joint team of [USA.gov](https://www.usa.gov/) staffers and [Presidential Innovation Fellows](https://www.whitehouse.gov/innovationfellows), all of whom work within the [General Services Administration](https://www.gsa.gov/).
 
@@ -31,7 +34,7 @@ The changes are small, but significant:
 
 -   The whole site is now [available in Spanish](https://vote.gov/es/).
 -   Thanks to usability testing and analytics, we realized we could remove much of the front page content. The site entrance is now considerably leaner and faster: the total data that a user has to download is less than one-third of the previous amount.
--   The visual design has been updated, and is now based on another USAGov & 18F collaboration: the [Draft U.S. Web Design Standards](https://standards.usa.gov/).
+-   The visual design has been updated, and is now based on another USAGov and 18F collaboration: the [Draft U.S. Web Design Standards](https://standards.usa.gov/).
 -   The site is fully functional without Javascript.
 -   All parts of the site are reachable via URLs, which allows people to share individual state pages directly in either English or Spanish.
 
