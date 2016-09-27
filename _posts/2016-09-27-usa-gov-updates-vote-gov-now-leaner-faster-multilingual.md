@@ -31,7 +31,7 @@ The changes are small, but significant:
 
 -   The whole site is now [available in Spanish](https://vote.gov/es/).
 -   Thanks to usability testing and analytics, we realized we could remove much of the front page content. The site entrance is now considerably leaner and faster: the total data that a user has to download is less than one-third of the previous amount.
--   The visual design has been updated, and is now based on another USAGov & 18F collaboration: the [US Web Design Standards](https://standards.usa.gov/).
+-   The visual design has been updated, and is now based on another USAGov & 18F collaboration: the [Draft U.S. Web Design Standards](https://standards.usa.gov/).
 -   The site is fully functional without Javascript.
 -   All parts of the site are reachable via URLs, which allows people to share individual state pages directly in either English or Spanish.
 
