@@ -66,7 +66,7 @@ Using this more structured approach makes it easier to turn the dense
 legal documents into data so that it can be displayed, cross-linked, and
 organized in a more easy-to-navigate interface.
 
-*Read the guide, and please let us know* if you have questions or see
+[Read the guide, and please let us know](https://eregs.github.io/guidelines/) if you have questions or see
 issues we can improve. You can contact the team by emailing us at
 [eregs@gsa.gov](mailto:eregs@gsa.gov) or [filing an issue on
 GitHub](https://github.com/18F/eregs-platform/issues)
