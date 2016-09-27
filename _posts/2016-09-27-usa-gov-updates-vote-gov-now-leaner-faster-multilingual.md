@@ -1,15 +1,21 @@
 ---
-title: USA.gov updates vote.gov: now it’s leaner, faster and multi-lingual
-date: 2016-09-27 16:00
+title: "USA.gov updates vote.gov: now it’s leaner, faster and multi-lingual"
+date: 2016-09-27 14:00
 authors:
 - yoz
 tags:
 - elections
 - technology transformation service
 - user centered design
-excerpt: One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version.
-description: One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version.
+excerpt: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
+description: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
+image: /assets/blog/vote-usa-gov/vote-gov.jpg
+hero: false
 ---
+<figure>
+  <img src="{{site.baseurl}}{{page.image}}" alt="">
+  <figcaption>Homepage of the new vote.gov</figcaption>
+</figure>
 [One year ago this
 week](https://blog.usa.gov/usa-gov-launches-vote-usa-gov-to-help-citizens-register-to-vote), we launched [vote.gov](https://vote.gov/) (also known as vote.usa.gov). It’s a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. It was created by a joint team of [USA.gov](https://www.usa.gov/) staffers and [Presidential Innovation Fellows](https://www.whitehouse.gov/innovationfellows), all of whom work within the [General Services Administration](https://www.gsa.gov/).
 
