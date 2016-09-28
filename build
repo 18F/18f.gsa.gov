@@ -1,5 +1,5 @@
 if [ -n $FAST_BUILDS ]; then
-  export FAST_BUILDS=true
+  export FAST_BUILDS=true;
 fi
 
 bundle exec jekyll build --watch --incremental --config="_config.yml,_config-fast-builds.yml"
