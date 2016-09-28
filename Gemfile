@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 gem 'jemoji'
+
 group :development do
   gem 'pry'
 end
