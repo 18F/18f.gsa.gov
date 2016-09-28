@@ -26,7 +26,7 @@ As GSA Administrator Denise Turner Roth said in her opening remarks, “Governme
 
 “For me, the future is a future where every public facing government
 service is easy to understand, is a pleasure to use, works on whatever
-device you’re visit it on, and gives you fast, efficient service,” said
+device you visit it on, and gives you fast, efficient service,” said
 Aaron Snow, Deputy Director of TTS.
 
 If you weren’t able to attend, you can watch the first two hours of the
@@ -128,7 +128,7 @@ Playbook](https://pages.18f.gov/identity-playbook/) the team is using
 to guide their work and watch [Joel Minton’s lightning talk about the
 project](https://youtu.be/NRAlPdiWXN8).
 
-## Whats next
+## What’s next
 
 The Technology Industry Day generated a heap of valuable feedback and
 potential opportunities for GSA and industry to work together to better
