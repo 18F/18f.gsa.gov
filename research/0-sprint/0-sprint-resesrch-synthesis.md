@@ -5,9 +5,6 @@
 
 This was our first major round of research that focused on the new 18F website.
 
-> We believe that:
-> Will result in:
-
 ## Participants
 
 * 2 people who are members of the tech community who are fairly familiar with the 18F website.
