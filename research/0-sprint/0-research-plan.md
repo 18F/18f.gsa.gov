@@ -11,7 +11,7 @@ What are people looking for when they come to the site? | Is anything that peopl
 Can people find what they are looking for? | Were you able to find what you were looking for?
 Do potential employees understand how to apply for a job at 18F? | Can show me how to apply at 18F?
 Do people understand what we do? | How did you first hear about 18F?
-  | How would explain 18F, and what they do?
+  | How would you explain 18F, and what they do?
 Do potential partners understand how they can work with us? | Can you show me what steps you would take next to work with 18F?
 
 ## Background
