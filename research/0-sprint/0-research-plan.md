@@ -4,7 +4,7 @@
 
 Goals | Questions
 :----- | :---------
-What are people looking for when they come to the site? | Is anything that people are coming to the site for missing?
+What are people looking for when they come to the site? | Is anything missing?
  | What brought you to the site?
  | What were you looking for?
  | Is there something that you were looking for that's not here?
