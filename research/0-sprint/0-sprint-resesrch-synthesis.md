@@ -71,7 +71,7 @@ Quotes:
     + People could email this without working with the CIO?
     + Do I have enough money to work with 18F?
     + Do I have the right kind of project suitable for 18F?
-- Curious about the names and faces of 18F.
+- Want to know more about the names and faces of 18F.
     + Who receives the email when I write to the inquiries box?
     + Could you add an org chart or a note from the Executive Director?
 
