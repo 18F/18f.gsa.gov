@@ -5,10 +5,13 @@
 
 This was our first major round of research that focused on the new 18F website.
 
+We believe that: the new 18F site, with a new focus on potential partners as its core audience,
+will result in: increased interest from federal agencies, and project leads.
+
 ## Participants
 
 * 2 people who are members of the tech community who are fairly familiar with the 18F website.
-* 2 people who are federal employees moderately familiar with 18F because of a recent CPS pitch.
+* 2 people who are federal employees moderately familiar with 18F because of recent chats with business units.
 * Each person we talked to had relatively high digital literacy and/or moderate subject-matter knowledge: one works in data science in the private sector, one works for a state government on accessibility issues, and two are federal employees at the Department of Housing and Urban Development.
 
 ## Methodology
@@ -21,15 +24,21 @@ We showed each participant the 18F website, and asked them to navigate the page 
 
 Here's what we noticed:
 
-* Testers in the tech community are more familiar with the more technical jargon.
-* Testers in the tech community are more familiar with our guides, and use some of them in their own work.
-* Testers in the federal government are less familiar with the more technical jargon.
-* Testers in the federal government are more interested in the Partnership Playbook, the "what we deliver" section, and the steps to hire 18F.
+* We talked to two different audiences in this round of research, and they had noticeable differences in their behaviors on the 18f website.
+* Testers in the tech community are more familiar with "how we work," namely our guides, and come to the 18F website to use them in their own work.
+* Testers in the federal government are less familiar with "how we work," and some of the more technical jargon.
+* Testers in the federal government focus more on "what we deliver," and the next steps to hire 18F.
+* Testers in both groups look for a list of projects.
+
 
 #### Overall usability
 
 - Difficult to get back to the homepage from some of the pages and or guides.
-- Expectation of search box on guides pages.
+- "What we deliver We Help seems like a run on sentence."
+- For those in the tech community, looked for and couldn't find shareable code or GitHub right away.
+- Link to the playbook is a little long.
+- Notably, no one clicked the links in the hero.
+- Expect a search box on guides pages.
 
 
 ### Specific feedback
@@ -37,9 +46,6 @@ Here's what we noticed:
 #### Tech Community Employees:
 
 - Come to the site for guides, standards, definitions, open-source code, and resources to use at their companies.
-- "If I were looking for your shareable code, ummm, I wouldn’t know exactly how I navigated to it. Probably developer resources?"
-- I don’t see GitHub right away.
-- I don’t see “here’s our projects.”
 
 Quotes:
 
@@ -53,6 +59,7 @@ Quotes:
 - Some terms were unclear:
     + "Code of Conduct."
     + "You probably have international audience, and not everyone knows what NC is."
+    + "You do have a content guide, which is probably same as style."
 
 ### Overall positive feedback
 
@@ -61,9 +68,12 @@ Quotes:
 - "Website banner and 18F logo line up!"
 - "Guides, really love the layout."
 - Like “here’s how you enact change” culture and tech, really like that because I work at large org now.
+- "Everything is very clean."
+- "Plain language."
 
 #### Federal Employees in Partner Agencies:
 
+- Heard about 18F from colleagues and from friends and partners of 18F.
 - Want to know more about how we fit in and work with other parts of GSA.
 - Want to know more about next steps if and when they want to hire 18F.
     + If I want to hire you, what authority do i have to email this group? Is there a phone number to call?
@@ -80,19 +90,22 @@ Quotes:
 > "One more thing I thought about regarding your website/approach to get more federal clients. In the simplest terms, I think there are two groups of people that know about 18F right now: 1) executives who are told this is the latest thing and they should be participating and 2) tech-minded people, who are mostly junior in their agencies, but understand the value and have been asking why the govt doesn't do this already. Your website is focused on the first group as well as other managers with known problems, but maybe there are resources to add that attract the second group, motivate them to get their projects to those executives, and get them excited about what a tech-forward government could look like. You have all of the information, but it needs the excitement of opportunity."
 > "I liked in the old site the big bold letters that said you're building 21st century digital government - told me exactly what you do."
 > "You offer way more than I realized."
+> "I'd expect you to have the best website ever."
 
 #### Unclear terms
 
 - Some terms were unclear:
     + "What does modern digital service techniques mean?"
     + "What does the path to become a digitally powerful organization mean?"
-    + The "how we work" is a little out of my wheel-house, but it's interesting.
+    + The "how we work" section is not what I expected and it's a little out of my wheel-house, but it's interesting.
 
 ### Overall positive feedback
 
 - "Very cute picture on the home page."
-- "Examples and links to projects is really helpful."
-- "I love the icons"
+- "Examples and links to projects are really helpful."
+- "I love the icons on the homepage."
 
 
 ## Conclusions
+
+In addition to refining some of the UI elements, we should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon, and identifying gaps in the "hire us" section.
