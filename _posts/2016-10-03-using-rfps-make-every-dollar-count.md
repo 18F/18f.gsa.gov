@@ -62,8 +62,10 @@ With a simple pivot and minimal effort, a good plan got even better. We
 were thrilled to be invited to help NEA and even more thrilled that we
 could help them succeed in a way that prevented years of back-and-forth
 exchanges and many millions of dollars spent. Instead, they invested
-$50,000 and a couple months to build the *Bright Spots interactive
-graphic*.
+$50,000 and a couple months to build the [Bright Spots interactive
+graphic](https://www.arts.gov/50th/creativity-connects#literature).
+
+![The bright spots graphic with Colorado selected.]({{site.baseurl}}{{page.image}})
 
 “We were challenged in finding the right way to visualize and display
 the Arts Ecosystem and the connection to other sectors. 18F helped to
