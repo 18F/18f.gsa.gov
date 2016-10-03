@@ -1,0 +1,19 @@
+env:
+  node: true
+
+extends: eslint:recommended
+
+rules:
+  brace-style: [warn, 1tbs]
+  curly: [warn, multi-line]
+  eqeqeq: warn
+  func-call-spacing: warn
+  linebreak-style: [warn, unix]
+  max-len: [warn, {code: 80}]
+  new-parens: warn
+  no-undef-init: warn
+  no-unused-expressions: warn
+  no-whitespace-before-property: warn
+  space-before-blocks: warn
+  space-before-function-paren: [warn, never]
+  spaced-comment: warn
