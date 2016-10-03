@@ -108,4 +108,6 @@ Quotes:
 
 ## Conclusions
 
-In addition to refining some of the UI elements, we should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon, and identifying gaps in the "hire us" section.
+In addition to looking into some of the usability comments, we should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon, and identifying gaps in the "hire us" section.
+
+In the next phase of the research, we recommend doing some content testing if possible.
