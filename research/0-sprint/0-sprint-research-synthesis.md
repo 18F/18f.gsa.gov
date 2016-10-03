@@ -33,12 +33,12 @@ Here's what we noticed:
 
 #### Overall usability
 
-- Difficult to get back to the homepage from some of the pages and or guides.
+- Three out of fours users hard difficulty getting back to the homepage from some of the pages and or guides.
 - "What we deliver We Help seems like a run on sentence."
-- For those in the tech community, looked for and couldn't find shareable code or GitHub right away.
+- For those in the tech community, both users looked for and couldn't find shareable code or GitHub right away.
 - Link to the playbook is a little long.
-- Notably, no one clicked the links in the hero.
-- Expect a search box on guides pages.
+- None of the users clicked the links in the hero.
+- One user mentioned an expectation of a search box on guides pages.
 
 
 ### Specific feedback
