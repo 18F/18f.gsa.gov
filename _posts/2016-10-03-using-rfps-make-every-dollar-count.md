@@ -2,6 +2,7 @@
 title: "Using RFPs to make every dollar count"
 authors:
 - mchopson
+- brendan
 tags:
 - acquisition services
 - procurement
