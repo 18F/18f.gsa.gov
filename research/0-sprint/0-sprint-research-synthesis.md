@@ -29,7 +29,7 @@ We talked to two different audiences in this round of research, and they had not
 
 #### General feedback
 
-- Three out of four users hard difficulty getting back to the homepage from some of the pages and or guides.
+- Three out of four users had difficulty getting back to the homepage from some of the pages and or guides.
 - "_What we deliver We Help_ seems like a run on sentence."
 - Users were expecting separate links to human-centered design, agile methodologies, and open source software. They were surprised that it was all one link to the playbook on the "how we work" page.
 - None of the users clicked the links in the hero. (Hero is currently photo of cute celebrating the Every Kid in a Park project)
