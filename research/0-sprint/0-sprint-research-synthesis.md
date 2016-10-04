@@ -3,7 +3,7 @@
 
 ## Background
 
-We launched the new 18F website in August. This is the first round of research where we focused on testing the usability of the site.
+We launched the new 18F website in August. This is the first round of research where we focused on testing the usability of the site. 
 
 ## Participants
 
@@ -30,9 +30,9 @@ We talked to two different audiences in this round of research, and they had not
 #### General feedback
 
 - Three out of fours users hard difficulty getting back to the homepage from some of the pages and or guides.
-- "What we deliver We Help seems like a run on sentence."
+- "_What we deliver We Help_ seems like a run on sentence."
 - Users were expecting separate links to human-centered design, agile methodologies, and open source software. They were surprised that it was all one link to the playbook on the "how we work" page.
-- None of the users clicked the links in the hero.
+- None of the users clicked the links in the hero. (Hero is currently photo of cute celebrating the Every Kid in a Park project)
 - One user expected to see a search box on the guides pages.
 
 ### Audience specific feedback
@@ -92,19 +92,17 @@ Quotes:
 
 #### Unclear terms for federal partners
 
-+ "What does modern digital service techniques mean?"
-+ "What does the path to become a digitally powerful organization mean?"
++ "What does _modern digital service techniques_ mean?" (On the homepage under "What we deliver")
++ "What does the _path to become a digitally powerful organization_ mean?" (On the homepage under "What we deliver")
 + The "how we work" section is not what I expected and it's a little out of my wheel-house, but it's interesting.
 
 #### Positive feedback from federal partners
 
 - "Very cute picture on the home page." (Picture refers to a photograph of children celebrating Every Kid in a Park)
 - "Examples and links to projects are really helpful."
-- "I love the icons on the homepage." 
+- "I love the icons on the homepage." (Icons refer to the bottom of the homepage under "What we deliver")
 
 
 ## Conclusions
 
-In addition to looking into some of the usability comments, we should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon, and identifying gaps in the "hire us" section.
-
-In the next phase of the research, we recommend doing content testing if possible.
+We should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon.
