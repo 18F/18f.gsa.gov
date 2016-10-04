@@ -56,7 +56,9 @@ Code that is deeply nested is harder to work with because it requires
 keeping more information in mind about the logic necessary to arrive
 there. This is probably most easily demonstrated by example.
 
+```
 If the car is dirty, wash the car
+```
 
 In this case, “wash the car” has a nested depth of one because there is
 only one logical decision that has to be made to get there. It’s very
