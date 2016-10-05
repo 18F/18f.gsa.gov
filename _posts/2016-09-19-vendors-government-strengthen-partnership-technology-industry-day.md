@@ -34,7 +34,7 @@ event below and [download the slidedeck from the morning presentation]({{site.ba
 
 <iframe width="610" height="450"
 src="https://www.youtube-nocookie.com/embed/NRAlPdiWXN8" frameborder="0"
-allowfullscreen></iframe>
+allowfullscreen title="GSA Technology Industry Day"></iframe>
 
 Find out more about the projects and platforms we talked about during
 the Technology Industry Day.

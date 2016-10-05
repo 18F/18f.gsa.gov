@@ -14,9 +14,7 @@ authors:
 description: "If you are a leading a project, ask for a protosketch. If you are a developer, learn to protosketch. Create imagination-sparking moments, in the meeting. Give your team the freedom to play — with ideas, code and data. Minimize risk to your project and the American taxpayer by quickly testing ideas with the end-user in a vivid, clickable form. Develop and evaluate hypotheses on the fly. Protosketch to delight your team, your boss, and your customers."
 excerpt: "If you are a leading a project, ask for a protosketch. If you are a developer, learn to protosketch. Create imagination-sparking moments, in the meeting."
 ---
-This post is a follow-on to the 18F blog post:[
-](https://18f.gsa.gov/2015/01/06/protosketch/)[*"Sketching with Code:
-Protosketching"*](https://18f.gsa.gov/2015/01/06/protosketch/), which
+This post is a follow-on to the 18F blog post: [*"Sketching with Code: Protosketching"*](https://18f.gsa.gov/2015/01/06/protosketch/), which
 concludes:
 
 > If you are a leading a project, ask for a protosketch. If you are a
@@ -48,10 +46,7 @@ with static pages.
 
 Incidental benefits to using GitHub Pages include the adoption of "open
 source process constraints". It makes it easy to follow, for example,
-the[
-](https://github.com/18F/open-source-policy/blob/master/policy.md)[*18F
-Open Source
-Policy*](https://github.com/18F/open-source-policy/blob/master/policy.md),
+the [*18F Open Source Policy*](https://github.com/18F/open-source-policy/blob/master/policy.md),
 "from the first line."
 
 ## Leverage design for free using a framework
@@ -92,9 +87,7 @@ flexibly you can sketch in sample data.
 ## Making data malleable
 
 The protosketcher should feel comfortable enough modifying sample data
-so that it feels "malleable". Paul Graham, in an essay titled[
-](http://www.paulgraham.com/hp.html)[*"Hackers and
-Painters"*](http://www.paulgraham.com/hp.html), wrote:
+so that it feels "malleable". Paul Graham, in an essay titled [*"Hackers and Painters"*](http://www.paulgraham.com/hp.html), wrote:
 
 > You should figure out programs as you're writing them, just as writers
 and painters and architects do.
@@ -129,8 +122,7 @@ with "fake" data using the JSON and jQuery API trick mentioned above.
 However, you may decide you need to implement a durable, changing data
 store. Such a data store cannot be easily realized with GitHub Pages. If
 you must run a small web server to have a changable data store, such as
-somenthing as simple as Ruby's Sinatra or Python's Flask, then[
-](https://localtunnel.me/)[*localtunnel*](https://localtunnel.me/) makes
+somenthing as simple as Ruby's Sinatra or Python's Flask, then [*localtunnel*](https://localtunnel.me/) makes
 it very easy to provide a temporary public URL that points to your
 computer's localhost.
 
@@ -167,8 +159,7 @@ Here are some of the techniques we have used:
     wanted in the future.
 
 -   Reuse wherever possible. In a one-hour challenge set by the
-    Administrator of the GSA, we re-used our own[
-    ](https://github.com/18F/answers)[*Answers*](https://github.com/18F/answers)
+    Administrator of the GSA, we re-used our own [*Answers*](https://github.com/18F/answers)
     open-source project, which itself was forked from a Code for
     America's Honolulu project. And it worked.
 
@@ -187,17 +178,14 @@ solution that lets you quickly get feedback from the user.
 =================================
 
 We exemplify some of the basic techniques mentioned in this article with
-an online, functioning[
-](https://18f.github.io/protosketch-demo/)[*prototype*](https://18f.github.io/protosketch-demo/)
+an online, functioning [*prototype*](https://18f.github.io/protosketch-demo/)
 hosted completely free-of-charge with GitHub Pages. An open-source
-GitHub repo publicizes the code that implements it:[
-](https://github.com/18F/protosketch-demo)[*protosketch-demo*](https://github.com/18F/protosketch-demo).
+GitHub repo publicizes the code that implements it: [*protosketch-demo*](https://github.com/18F/protosketch-demo).
 The README.md file explains a technique for running this site locally.
 Feel free to fork this repository if it seems like a good starting point
 for your own protosketching.
 
-At the GitHub repository, you can find[
-](https://github.com/18F/protosketch-demo/blob/master/app.js)[*app.js*](https://github.com/18F/protosketch-demo/blob/master/app.js),
+At the GitHub repository, you can find [*app.js*](https://github.com/18F/protosketch-demo/blob/master/app.js),
 which is the heart of the application. At the end of this file you find
 an example of using JQuery to to read from a JSON file, which is
 analogous to a an API call:
@@ -211,8 +199,7 @@ $(document).ready(function() {
 });
 ```
 
-The file[
-](https://github.com/18F/protosketch-demo/blob/master/orders.json)[*orders.json*](https://github.com/18F/protosketch-demo/blob/master/orders.json)
+The file [*orders.json*](https://github.com/18F/protosketch-demo/blob/master/orders.json)
 is remarkably simple, and clearly malleable enough to support any basic
 "database-backed website" situation.
 
@@ -246,9 +233,7 @@ is remarkably simple, and clearly malleable enough to support any basic
 ```
 
 The running demo is lightly styled using bootstrap, as you can see from
-the actual[
-](https://github.com/18F/protosketch-demo/blob/master/index.html)[*HTML
-file*](https://github.com/18F/protosketch-demo/blob/master/index.html).
+the actual [*HTML file*](https://github.com/18F/protosketch-demo/blob/master/index.html).
 
 `<link rel="stylesheet"
 href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />`

@@ -180,8 +180,7 @@ our learnings with 18F and the larger community of developers in
 government. Thanks for all of your hard work!
 
 **EH:** In an attempt to improve our own visual design we have been
-reading Google’s visual style guide,[
-](https://www.google.com/design/spec/material-design/introduction.html)[Material
+reading Google’s visual style guide,[Material
 Design](https://www.google.com/design/spec/material-design/introduction.html).
 In this document, the Google design team introduces a concept they have
 labeled “[Meaningful

@@ -3,7 +3,10 @@ title: "18F: Digital service delivery"
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your site
+url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
+federalist_url: "https://federalist.18f.gov"
+localhost: "localhost:4000"
+env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 feature_image: /assets/img/feature-background.jpg
 tag_dir: tags

@@ -1,0 +1,34 @@
+{
+  "name": "18f.gsa.gov",
+  "version": "1.0.0",
+  "description": "18F's flagship website",
+  "main": "config.yml",
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=5.12"
+  },
+  "scripts": {
+    "test": "bundle exec jekyll test",
+    "lint-508": "bash ./accessibility-scan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/18f.gsa.gov.git"
+  },
+  "keywords": [
+    "18f",
+    "site",
+    "blog"
+  ],
+  "author": "18F",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/18F/18f.gsa.gov/issues"
+  },
+  "homepage": "https://18f.gsa.gov",
+  "devDependencies": {
+    "pa11y-ci": "^0.3.0"
+  }
+}

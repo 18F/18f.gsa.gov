@@ -42,7 +42,7 @@ presentation at the conference.
 You can view the video of my DOES15 presentation below, as well as
 review [the slides for the talk](https://goo.gl/CrCUii).
 
-{{ "https://www.youtube-nocookie.com/embed/ahtihwxgriA" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/ahtihwxgriA" | embed: "Mike Bland: Pain is over, if you want it" }}
 
 Throughout my presentation, I drove home the importance of transparency,
 autonomy, and collaboration as critical factors in bringing about

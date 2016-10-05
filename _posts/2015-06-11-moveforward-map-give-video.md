@@ -22,7 +22,7 @@ and coordinating with mapping teams on the ground in Kathmandu."
 image: /assets/blog/map-give-video/kathmandu-living-labs.jpg
 ---
 
-{{ "https://www.youtube-nocookie.com/embed/zxGnlWK0Y2w" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/zxGnlWK0Y2w" | embed: "How digital humanitarians responded to the Nepal earthquake" }}
 
 When Nepal was hit with a devastating earthquake on April 25, the folks
 at [MapGive](http://mapgive.state.gov/) and others in the
