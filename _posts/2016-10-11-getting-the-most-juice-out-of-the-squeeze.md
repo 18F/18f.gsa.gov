@@ -104,7 +104,6 @@ amount of effort:
 The following were left to a later time:
 
 -   Advanced search functionality (only basic search in the initial releases)
-
 -   Enhanced viewing capabilities (the user would view some resources as PDFs)
 
 Having this streamlined set of principles allowed us to deploy FEC’s
