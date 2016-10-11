@@ -70,7 +70,7 @@ opinions and matters under review daunting.
 We were in a position where we could not quickly meet both audiences’
 needs. So who do you prioritize? At 18F, one of our pillars is [user
 centered design](https://18f.gsa.gov/tags/user-centered-design/), so
-shouldn’t we simply prioritize the users needs?
+shouldn’t we simply prioritize the users' needs?
 
 It turns out: not so fast.
 
