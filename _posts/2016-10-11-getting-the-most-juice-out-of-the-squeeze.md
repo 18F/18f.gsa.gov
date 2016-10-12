@@ -3,7 +3,7 @@ title: "Get the most juice out of the squeeze"
 authors:
 - porta
 tags:
-- FEC
+- fec.gov
 - agile
 - best practices
 excerpt: "Which juice is worth the squeeze? In other words, extract as much value with the least amount of effort."
