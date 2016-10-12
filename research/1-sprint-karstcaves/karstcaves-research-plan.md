@@ -34,9 +34,4 @@ We’ll work with 18F Agency Partnerships and friends of 18F to find contacts at
 
 ## Script
 
-Script available [here]().
-
-
-## Test asset(s)
-
-TBD
+Script available [here](https://github.com/18F/18f.gsa.gov/blob/research/research/1-sprint-karstcaves/interview-script.md).
