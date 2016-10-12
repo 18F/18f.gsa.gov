@@ -12,8 +12,8 @@ information-types:
 
 # https://pages.18f.gov/before-you-ship/ato/levels/
 confidentiality: none
-integrity: high
-availability: high
+integrity: low
+availability: low
 security-baseline: open data
 
 system-type: general support

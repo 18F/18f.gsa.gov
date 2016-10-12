@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-archives.git
+  revision: af9e9cc8184768da44c423426b5cdf43b9df6356
+  specs:
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,6 +112,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 3.1)
+  jekyll-archives!
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
@@ -118,7 +126,7 @@ DEPENDENCIES
   redcarpet
 
 RUBY VERSION
-   ruby 2.2.3p173
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.3
