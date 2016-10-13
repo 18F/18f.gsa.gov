@@ -1,6 +1,4 @@
-This is a repo to design a beta version of 18f.gsa.gov using the [U.S. Web Design Standards](https://standards.usa.gov/) and to completely refresh most of the content.
-
-In this document:
+This document is about how to contribute to the 18f.gsa.gov site. This process looks a bit different depending on whether you’re a member of the public, an 18F employee, or a member of the outreach or site team. Here’s what you can find in this doc:
 
 * [Public contributions](#public-contributions)
 * [18F contributions](#18f-contributions)
