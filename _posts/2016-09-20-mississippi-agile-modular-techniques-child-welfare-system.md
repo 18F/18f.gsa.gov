@@ -4,7 +4,7 @@ authors:
 - zaccohn
 - boone
 tags:
-- mississippi
+- state and local practice
 - modular contracting
 - agile development
 - acquisition services
