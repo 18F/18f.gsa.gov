@@ -10,7 +10,6 @@ A detailed history of the work that went into developing this redesign can be fo
 
 Run each of the following steps to get the site up and running.
 
-<!-- THESE INSTRUCTIONS ONLY WORK FOR 18F FOLK -->
 1. `git clone git@github.com:18F/18f.gsa.gov`
 2. `cd 18f.gsa.gov`
 3. `bundle install`
