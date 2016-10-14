@@ -51,7 +51,7 @@ human and policy needs.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/denver/skylight.jpg" alt="">
-  <figcaption>The Skylight Lounge has high tables and booth seating that facilitates collaboration and social events among the regional staff. </figcaption>
+  <figcaption>The Skylight Cafe has high tables and booth seating that facilitates collaboration and social events among the regional staff. Photo courtesy: GSA PBS Region 8 </figcaption>
 </figure>
 
 Part of GSA’s mission is to find innovative ways to [design workplaces
