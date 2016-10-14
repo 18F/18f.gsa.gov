@@ -120,5 +120,5 @@ manifests itself in spaces outside of the tech world.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/denver/gallery-41.jpg" alt="">
-  <figcaption>This long hallway has public art from local artists hanging in it. This is part of the GSA's <a href="http://www.gsa.gov/fa/">Fine Arts Program. Photo courtesy: GSA PBS Region 8</a></figcaption>
+  <figcaption>This long hallway has public art from local artists hanging in it. This is part of the GSA's <a href="http://www.gsa.gov/fa/">Fine Arts Program.</a> Photo courtesy: GSA PBS Region 8</figcaption>
 </figure>
