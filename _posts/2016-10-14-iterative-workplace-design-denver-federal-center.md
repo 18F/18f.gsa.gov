@@ -4,8 +4,9 @@ authors:
 - boone
 tags:
 - public buildings service
-- iterative design
+- design
 - denver federal center
+- gsa
 excerpt: "Not long ago, the General Service Administration’s regional headquarters on the Denver Federal Center campus looked like a stereotypical office space; today, it is a modern workplace thanks to the iterative work of the Denver GSA’s design team."
 description: "Not long ago, the General Service Administration’s regional headquarters on the Denver Federal Center campus looked like a stereotypical office space; today, it is a modern workplace thanks to the iterative work of the Denver GSA’s design team."
 image: /assets/blog/denver/union-station.jpg
