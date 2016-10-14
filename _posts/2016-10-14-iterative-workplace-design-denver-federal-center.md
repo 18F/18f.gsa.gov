@@ -50,7 +50,7 @@ open. Getting there was a process of testing hypotheses and adjusting to
 human and policy needs.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/denver/skylight.jpg">
+  <img src="{{ site.baseurl }}/assets/blog/denver/skylight.jpg" alt="">
   <figcaption>The Skylight Lounge has high tables and booth seating that facilitates collaboration and social events among the regional staff. </figcaption>
 </figure>
 
@@ -118,6 +118,6 @@ around those needs. It’s a great example of how human-centered design
 manifests itself in spaces outside of the tech world.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/denver/gallery-41.jpg" src="">
+  <img src="{{ site.baseurl }}/assets/blog/denver/gallery-41.jpg" alt="">
   <figcaption>This long hallway has public art from local artists hanging in it. This is part of the GSA's <a href="http://www.gsa.gov/fa/">Fine Arts Program. Photo courtesy: GSA PBS Region 8</a></figcaption>
 </figure>
