@@ -6,6 +6,7 @@ tags:
 - fec.gov
 - agile
 - best practices
+- agency work
 excerpt: "Which juice is worth the squeeze? In other words, extract as much value with the least amount of effort."
 description: ""
 image: /assets/blog/fec/microfilm.jpg
