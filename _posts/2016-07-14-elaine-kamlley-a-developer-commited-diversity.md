@@ -4,7 +4,6 @@ authors:
 - melody
 tags:
 - staff profiles
-- 18f team
 - how we work
 excerpt: "All throughout the summer, we’ll be profiling members across
 the 18F team. We’re starting with Elaine Kamlley, who is both a
