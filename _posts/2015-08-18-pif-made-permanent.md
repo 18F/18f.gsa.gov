@@ -8,7 +8,6 @@ authors:
 - andre
 
 tags:
-- pif
 - presidential innovation fellows
 - digital services movement
 
