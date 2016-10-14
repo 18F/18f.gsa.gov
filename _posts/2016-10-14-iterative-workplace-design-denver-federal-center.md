@@ -45,7 +45,7 @@ said.
 When tenants tour the GSA space today, they see standing desks, huddle
 rooms with glass walls, giant windows, and open spaces where people can
 work together. The only real semi-private office space you’ll see is for
-the Regional Administrator, [Sue Damour](), and her door is almost always
+the Regional Administrator, [Sue Damour](http://gsa.gov/portal/category/21495), and her door is almost always
 open. Getting there was a process of testing hypotheses and adjusting to
 human and policy needs.
 
