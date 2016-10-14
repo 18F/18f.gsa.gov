@@ -2,13 +2,10 @@
 title: "Focus on accessibility"
 layout: post
 image: /assets/blog/accessibility/pictureintweet.png
-
 tags:
-- 18f
 - how we work
 - accessibility
 - best practices
-
 authors:
 - kate
 excerpt: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."
@@ -29,9 +26,9 @@ Put another way, this means that all government websites and electronic resource
 
 Improving accessibility and 508 awareness is one of our ongoing goals. In support of this goal, today we hosted [a11yhack](https://18f.github.io/hackathons/a11yhack/), a website accessibility hackathon. The hackathon centered on three main activities, including:
 
-* general project collaboration
-* reviews of different websites (including tips for improving accessibility)
-* accessibility-focused talks hosted by guest speakers
+* General project collaboration
+* Reviews of different websites (including tips for improving accessibility)
+* Accessibility-focused talks hosted by guest speakers
 
 The event organizers’ goal was to channel the experience, creativity, and resourcefulness of hackathon attendees to generate new methods of improving websites’ accessibility.
 
