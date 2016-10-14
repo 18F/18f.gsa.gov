@@ -11,7 +11,7 @@
         {% assign site_url = site.url | append: site.baseurl %}
       {% endif %}
     {% else %}
-      {% assign site_url = site.url | append: site.baseurl %}
+      {% assign site_url = site.federalist_url | append: site.baseurl %}
     {% endif %}
   {% else %}
     {% assign site_url = site.github.url %}
