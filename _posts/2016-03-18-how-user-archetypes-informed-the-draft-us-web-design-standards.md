@@ -54,19 +54,19 @@ brainstorming sessions, we came up with the following archetypes.
 
 ### The Vision Provider
 
-#### Who they are
+<h4 id="who-they-are">Who they are</h4>
 
 The Vision Provider is often a creative director or tech lead for a
 digital team.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards">Why they’re using the Draft Standards</h4>
 
 They want a cohesive resource they can point their team and contractors
 to so they can create consistent products and experiences. This person
 is more likely to advocate for adoption of the Draft Standards in their agency
 if they believe in the broad mission of the Draft Standards.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges">Concerns and challenges</h4>
 
 They may face challenges convincing less experienced folks on their team
 on why the Draft Standards are important, or they may themselves not want to
@@ -81,12 +81,12 @@ they defeat the purpose of a unified user experience.
 The Newbie is a designer or front end developer who is new to government
 and early in their career.
 
-#### Who they are
+<h4 id="who-they-are-2">Who they are</h4>
 
 They’re excited to prove their mettle, but they may not be experienced
 enough to create new designs or stand up prototypes quickly.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges-2">Concerns and challenges</h4>
 
 They don’t fully understand the need for design standards. They may
 resist using design standards because they don’t want their creativity
@@ -96,19 +96,19 @@ to be stifled.
 
 ### The Lone Ranger
 
-#### Who they are
+<h4 id="who-they-are-3">Who they are</h4>
 
 The Lone Ranger is a one-off (or two-off) designer or front end
 developer in an agency, trying to do the right thing but without a lot
 of time or support.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-2">Why they’re using the Draft Standards</h4>
 
 They will use the Draft Standards to cut down on design and development time,
 and as leverage for arguing for best practices to higher ups who might
 otherwise pull rank on design or development decisions.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges-3">Concerns and challenges</h4>
 
 The Lone Ranger wants to be able to get started with the Draft Standards
 quickly and not have to fuss with a lot of compatibility issues. They
@@ -119,7 +119,7 @@ or not it will be maintained.
 
 ### The Master Builder
 
-#### Who they are
+<h4 id="who-they-are-4">Who they are</h4>
 
 The Master Builder is a savvy developer who is working alone or with
 others and is looking for components to download and integrate.
@@ -129,7 +129,7 @@ markup that is easy to manipulate. They have strong opinions on how code
 should be written and want to know why specific decisions were made
 about the code within the Draft Standards.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-3">Why they’re using the Draft Standards</h4>
 
 The Master Builder doesn’t want to have to do mindless “grunt work” such
 as styling tables or making form fields accessible, and would rather
@@ -139,14 +139,14 @@ focus their attention on more creative problem solving.
 
 ### The Reviewer
 
-#### Who they are
+<h4 id="who-they-are-5">Who they are</h4>
 
 The Reviewer is charged with inspecting other teammates’ code or designs
 and making sure this work is up to snuff. They’re usually quite
 experienced in their role and may have to support others who don’t have
 as much professional experience.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-4">Why they’re using the Draft Standards</h4>
 
 The reviewer wants to point to the Draft Standards to help these folks
 implement good front end code, reducing the amount of emergency clean-up
@@ -157,13 +157,13 @@ when reviewing code.
 
 ### The Decider
 
-#### Who they are
+<h4 id="who-they-are-6">Who they are</h4>
 
 The decider chooses whether or not to use the Draft Standards on a project.
 They assess what is offered in the Draft Standards with the needs and state of
 their project. They may be in a position of authority, or they may be at the front lines looking to make recommendations to higher ups.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges-4">Concerns and challenges</h4>
 
 They will ask questions about how the Draft Standards will be maintained and
 how they will integrate with existing technology stacks and work-flows.
@@ -172,13 +172,13 @@ how they will integrate with existing technology stacks and work-flows.
 
 ### The MacGyver
 
-### Who they are
+<h4 id="who-they-are-7">Who they are</h4>
 
 The MacGyver is a back end developer who has been charged with front end
 design and development, despite protests. This person has to produce web
 pages despite their lack of experience with the persnickety inconsistencies of browser rendering — CSS is their nemesis.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standard-5">Why they’re using the Draft Standards</h4>
 
 They would like a resource with downloadable templates and components so
 they stand up sites quickly can get back to what they love — arguing
@@ -191,12 +191,12 @@ data schematics.
 This person has a design background and is very skilled in HTML and CSS;
 they may be familiar with JS, but they’re not an expert.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-6">Why they’re using the Draft Standards</h4>
 
 They rely on the pattern library components to work out of the box, and
 they need explanations of any dependencies and how to implement them.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges-5">Concerns and challenges</h4>
 
 They are concerned about conflicts with existing frameworks because
 these are difficult to resolve with their limited development
@@ -206,7 +206,7 @@ experience.
 
 ### The Influencer
 
-#### Who they are
+<h4 id="who-they-are-8">Who they are</h4>
 
 The Influencer likes the idea of creating a consistent user experience
 across government websites and wants to empower government employees to
@@ -218,12 +218,12 @@ resources to help them out.
 
 ### The Contract Manager
 
-#### Who they are
+<h4 id="who-they-are-9">Who they are</h4>
 
 The Contract Manager is in charge of managing work for — you guessed it
 — government contractors.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-7">Why they’re using the Draft Standards</h4>
 
 They want their projects to benefit from quality design and front end
 development work, but do not necessarily know what it looks like or how
@@ -234,19 +234,19 @@ web design standards with specific legalese.
 
 ### The Clock Racer
 
-#### Who they are
+<h4 id="who-they-are-10">Who they are</h4>
 
 This unfortunate soul has been given way too much work to do in too
 little time.
 
-#### Why they’re using the Draft Standards
+<h4 id="why-they-re-using-the-draft-standards-8">Why they’re using the Draft Standards</h4>
 
 They want to be able to stand up quick prototypes and sites with minimal
 fuss. They’ll choose resources that allow them to get up and running
 quickly, and they don’t want to have to read a lot of documentation to
 be able to do it.
 
-#### Concerns and challenges
+<h4 id="concerns-and-challenges-6">Concerns and challenges</h4>
 
 They are more likely to choose a tool they are already familiar with
 than to experiment with an unfamiliar resource. If getting started is

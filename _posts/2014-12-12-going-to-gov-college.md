@@ -28,16 +28,16 @@ Our team is passionate about collaboration with our fellow agencies on topics al
 
 ### "Large Scale Development Culture Change: Google and the U.S. Government"
 
-{{ "https://www.youtube-nocookie.com/embed/CWSLSHljQLM" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/CWSLSHljQLM" | embed: "Large Scale Development Culture Change: Google and the U.S. Government" }}
 
 ### "Out in the Open: The Role of Open Source in Building the Consumer Financial Protection Bureau"
 
-{{ "https://www.youtube-nocookie.com/embed/tce1B02ZGqc" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/tce1B02ZGqc" | embed: "Out in the Open: The Role of Open Source in Building the Consumer Financial Protection Bureau" }}
 
 ### "Recent API Trends in Government: API Standards and Open Source Documentation"
 
-{{ "https://www.youtube-nocookie.com/embed/ZRhRU5y0jEk" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/ZRhRU5y0jEk" | embed: "Recent API Trends in Government: API Standards and Open Source Documentation" }}
 
 ### "How to Run An Agile Project in Government"
 
-{{ "https://www.youtube-nocookie.com/embed/FpBjClJTVQ0" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/FpBjClJTVQ0" | embed: "How to Run An Agile Project in Government" }}

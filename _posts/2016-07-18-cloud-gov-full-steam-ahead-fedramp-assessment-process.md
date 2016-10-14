@@ -108,7 +108,7 @@ including agency teams and industry vendors.
 [Watch a recent presentation from part of the cloud.gov team to learn
 more about some of the work we’ve done to get here.](https://www.youtube-nocookie.com/embed/UwOG3BrdODo)
 
-{% comment %}{{ "https://www.youtube-nocookie.com/embed/UwOG3BrdODo" | embed }}{% endcomment %}
+{% comment %}{{ "https://www.youtube-nocookie.com/embed/UwOG3BrdODo" | embed: "Running Cloud Foundry in a Compliance and Security Focused Environment" }}{% endcomment %}
 
 If you’re interested in cloud.gov
 ---------------------------------

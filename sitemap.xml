@@ -2,8 +2,23 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% capture site_url %}{% if site.url %}{{ site.url | append: site.baseurl }}{% else %}{{ site.github.url }}{% endif %}{% endcapture %}
+
+  {% if site.url %}
+    {% if site.baseurl == "" %}
+      {% if site.env == 'development' %}
+        {% assign site_url = site.localhost | append: site.baseurl %}
+      {% else %}
+        {% assign site_url = site.url | append: site.baseurl %}
+      {% endif %}
+    {% else %}
+      {% assign site_url = site.federalist_url | append: site.baseurl %}
+    {% endif %}
+  {% else %}
+    {% assign site_url = site.github.url %}
+  {% endif %}
+
   {% for post in site.posts %}{% unless post.sitemap == false %}
+
   <url>
     <loc>{{ post.url | prepend: site_url }}</loc>
     {% if post.last_modified_at %}

@@ -10,7 +10,7 @@ authors:
 tags:
 - events
 - hackathons
-- outreach 
+- outreach
 
 excerpt: "Last weekend, thousands of civic hackers from across the country came
 together for the National Day of Civic Hacking to better their communities. We love this kind of stuff, and couldn't help but get involved."
@@ -41,7 +41,8 @@ campaign that organizes the various catalogs of federal APIs to make it
 easier for developers to discover what web services the government
 offers.
 
-{{ "https://www.youtube-nocookie.com/embed/O4O7tonG3R8" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/O4O7tonG3R8" | embed: "Small Business Administration and Census
+Bureau great event" }}
 
 **San Diego, Calif.**: [Open San Diego](http://opensandiego.org/)
 produced the San Diego National Day activity, which took place downtown
