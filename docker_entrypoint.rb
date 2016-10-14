@@ -23,7 +23,6 @@ rescue ArgumentError
   false
 end
 
-
 def assume_uid
   unless does_uid_exist(HOST_UID)
     username = HOST_USER
