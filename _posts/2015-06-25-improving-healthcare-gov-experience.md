@@ -19,7 +19,7 @@ his team of eight developers helped save taxpayers tens of millions of
 dollars per year."
 image: /assets/blog/healthcare-video/healthcare-fix.jpg
 ---
-{{ "https://www.youtube-nocookie.com/embed/jCAhYZdIPp8" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/jCAhYZdIPp8" | embed: "Improving the healthcare.gov experience" }}
 
 The
 [healthcare.gov](https://healthcare.gov)

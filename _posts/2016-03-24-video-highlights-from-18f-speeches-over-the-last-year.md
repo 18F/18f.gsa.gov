@@ -46,7 +46,7 @@ work we do.
 
 <iframe width="800" height="450"
 src="https://www.youtube-nocookie.com/embed/c1MCyS-O_3Y"
-frameborder="0" allowfullscreen></iframe>
+frameborder="0" allowfullscreen title="Hillary Hartley & Aaron Snow – Improving Federal Government Digital Services – UX Showcase (2016)"></iframe>
 
 Team culture
 ------------

@@ -13,7 +13,7 @@ excerpt: "See the power of open data and open source software in this presentati
 description: "See the power of open data and open source software in this presentation about analytics.usa.gov from 18F’s Leah Bannon and Charles Worthington of the U.S. Digital Service."
 image: /assets/blog/dap/screen.png
 ---
-{{ "https://www.youtube-nocookie.com/embed/GPUaUgjbbsA" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/GPUaUgjbbsA" | embed: "Youtube video" }}
 
 This month, the digital services family of U.S. Digital Services (USDS)
 Headquarters, 18F, Presidential Innovation Fellows, General Services

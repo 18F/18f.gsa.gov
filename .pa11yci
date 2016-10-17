@@ -1,0 +1,5 @@
+{
+  "defaults": {
+    "hideElements": ".speakerdeck-iframe, twitterwidget, iframe, #rufous-sandbox, #instagram-media-payload-0"
+  }
+}

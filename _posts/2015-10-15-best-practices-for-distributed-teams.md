@@ -169,7 +169,7 @@ take notes in Slack [during meetings] or keep an eye out for questions
 [from remote team members] during the all hands really help out their
 remote colleagues.”
 
-<div class='embed-container'><iframe width='100%' src='https://vine.co/v/MPU0BjJzQZ5/embed/simple' frameborder='0' scrolling='no' allowtransparency='true'></iframe><script async src='https://platform.vine.co/static/scripts/embed.js' charset='utf-8'></script></div>
+<div class='embed-container'><iframe width='100%' src='https://vine.co/v/MPU0BjJzQZ5/embed/simple' frameborder='0' scrolling='no' allowtransparency='true' title="18F all hands"></iframe><script async src='https://platform.vine.co/static/scripts/embed.js' charset='utf-8'></script></div>
 
 Some of us shift our time zones
 -------------------------------

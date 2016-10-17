@@ -77,7 +77,7 @@ the code behind the project, review the [slides from our first demo
 day][6] showing off an early prototype, and check out [the Communicart
 product page][7].
 
-{{ "https://www.youtube-nocookie.com/embed/QDTJZwjR24A" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/QDTJZwjR24A" | embed: "Visualization of our team's development work" }}
 
 We’ll be blogging more about Communicart, how we built it, and who is
 using it in the next few weeks. We have all the beta testers we can

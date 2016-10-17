@@ -30,9 +30,7 @@ excerpt: "The clock was ticking as I stated the single solitary rule: We will ha
 
 **Responding to change** over following a plan,
 
-*That is, while there is value in the items on the right, we value the
-items on the left more.*" — [The Agile
-Manifesto](http://www.agilemanifesto.org/)[](http://www.agilemanifesto.org/)
+*That is, while there is value in the items on the right, we value the items on the left more.*" — [The Agile Manifesto](http://www.agilemanifesto.org/)
 
 ## The stage is set
 
@@ -197,8 +195,7 @@ to change.
 
 ## Running your own agile workshop
 
-We’ve previously published a guide to running your own [3-Sprint Agile
-Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/).
+We’ve previously published a guide to running your own [3-Sprint Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/).
 
 [18F Consulting](https://18f.gsa.gov/consulting/) provides Agile
 coaching, modular contracting expertise and technical advice to Federal

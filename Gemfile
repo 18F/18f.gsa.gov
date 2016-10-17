@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 
-ruby "2.2.3"
+ruby "2.3.1"
 gem "redcarpet"
 gem "jekyll", '~> 3.1'
 gem "html-proofer"
 
 group :jekyll_plugins do
-  if ENV['FAST_BUILDS']
+  if ENV['FAST_BUILDS'] == 'true'
     puts 'not using jekyll-archives because its sloooooooooow'
   else
     gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
