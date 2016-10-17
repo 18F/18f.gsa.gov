@@ -14,10 +14,9 @@ authors:
 
 tags:
 - usability
-- usability testing
 - api
 - user-centered design
-- best practices 
+- best practices
 
 ---
 

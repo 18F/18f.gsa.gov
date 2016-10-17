@@ -3,7 +3,7 @@ title: "Live streamed demos for exponential transparency and information sharing
 authors:
 - willsullivan
 tags:
-- tools we use
+- tools you can use
 - how we work
 - environmental protection agency
 - best practices

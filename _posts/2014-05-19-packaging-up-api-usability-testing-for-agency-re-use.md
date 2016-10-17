@@ -15,7 +15,6 @@ authors:
 
 tags:
 - api
-- usability testing
 - usability
 - open source
 - best practices
