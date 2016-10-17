@@ -9,9 +9,9 @@ Run each of the following steps to get the site up and running.
 1. `git clone git@github.com:18F/18f.gsa.gov`
 2. `cd 18f.gsa.gov`
 3. `bundle install`
-4. `bundle exec jekyll serve`
+4. `./serve`
 
-To dramatically speed up rebuild times (from more than 20 seconds to around 5), you can also run `./serve` or `./build` for step 4. These are shorthand for a combination of commands that disable certain plugins. This is especially useful if you're drafting a blog post or formatting single pages. **With this method you will disable search and all archives.**
+To enable the ability to search and see archives, you can run `bundle exec jekyll serve` instead of `./serve` for the server start command. This will **slow down rebuild times dramatically**, so use this command with discretion.
 
 You should be able to see the site at: http://127.0.0.1:4000
 
