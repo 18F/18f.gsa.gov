@@ -1,61 +1,89 @@
-This is a repo to design a beta version of 18f.gsa.gov using the [U.S.
-Web Design Standards](https://standards.usa.gov/) and to completely refresh most of the content.
+This document is about how to contribute to the 18f.gsa.gov site. This process looks a bit different depending on whether you’re a member of the public, an 18F employee, or a member of the outreach or site team. Here’s what you can find in this doc:
 
-## Where Contributions Go
+* [Public contributions](#public-contributions)
+* [18F contributions](#18f-contributions)
+    - [Branches](#branches)
+    - [Front end architecture](#front-end-architecture)
+    - [Standards and benchmarks](#standards-and-benchmarks)
+* [Public domain](#public-domain)
 
-Thanks for planning to contribute. Please read the guidelines below to know what to expect before submitting a contribution. Submit contributions to https://github.com/18F/18f.gsa.gov as pull requests to the `master` branch. 18F team members should submit pull requests from a branch. Outside contributors will need to fork this repo.
+## Public contributions
 
-## Front end architecture
-### CSS
-- Styling will be built from the [U.S.
-Web Design Standards(**WDS**)](https://standards.usa.gov/).
-- CSS methodology will be inherited from the WDS, which inherits mostly from the [18f front end guide](https://pages.18f.gov/frontend/css-coding-styleguide/architecture/).
-  - Use [18F modifed BEM naming convention](https://pages.18f.gov/frontend/css-coding-styleguide/naming/)
-  - Componentized CSS: start with tag rules and only becomes more specific as necessary, using component classes.
-- The 18F-site team will update the WDS library when it publishes a change required by the site. Otherwise it will only update bi-monthly (see #1877).
-- The codebase will be visual regression tested when a suitable tool is found for 18F.
-- The Sass code should be linted with `scss-lint` (see #1878)
-  - The [18F CSS linting configuration](https://raw.githubusercontent.com/18F/frontend/18f-pages-staging/.scss-lint.yml) will be used.
-  - If linting fails, it will also fail the tests, but not the build.
-- The website should default to [semantic HTML5](http://www.w3schools.com/html/html5_semantic_elements.asp).
+We're so glad you're thinking about contributing to an 18F open source project! If you're unsure about anything, just [send us an email](mailto:18f@gsa.gov) with your question — or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
 
+We want to ensure a welcoming environment for all of our projects. Our staff follow the [18F Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) and all contributors should do the same.
 
-### Images
-- All icons should use  `<svg>` and `xlink` (looking for link) formats.
-- All blog images should be under 800kb in total, un-minified size.
+We encourage you to read this project's CONTRIBUTING policy (you are here), its [LICENSE](LICENSE.md), and its [README](README.md).
+
+* If you see an error or have feedback, the best way to let us know is to file an issue.
+* To contribute a specific change to the site, outside contributors will need to fork this repo.
+
+## 18F contributions
+
+There is a team actively working on the site. You can find us in Slack in the #18f-site or #beta-18F-site channels (limited access).
+
+### Branches
+
+Any 18F team member should be able to make a branch of the site and submit a pull request. Doing so will also generate a preview URL we can use to inspect your changes.
+
+Because new blog posts are published several times a week, we use several branches to manage parallel work in a predictable way:
+
+* Submit **blog posts and minor content edits** as pull requests to the `master` branch.
+* Submit **new design work, content changes, and features** as pull requests to the `dev` branch. This will allow us to test and review batches of changes before deploying them.
+
+**The `master`, `staging`, and `production` branches are protected.** Only administrators of the repo can push directly to those branches. 18F teammates who don’t think they have the correct permissions should ask in the #18f-site channel.
+
+### Front end architecture
+
+This site is based on the [U.S.
+Web Design Standards](https://standards.usa.gov/) (WDS). It is developed using [Jekyll](https://jekyllrb.com/), a static site generator based on the Ruby programming language. 
+
+We default to using [semantic HTML5](http://www.w3schools.com/html/html5_semantic_elements.asp).
+
+We use [HoundCI](https://houndci.com/) to automate Sass, JavaScript, and Ruby linting.
+
+We use [CircleCI](https://circleci.com/) to run HTML Code Sniffer.
+
+#### CSS
+
+CSS methodology is inherited from the WDS, which inherits mostly from the [18f front end guide](https://pages.18f.gov/frontend/css-coding-styleguide/architecture/).
+
+- Use [18F modifed BEM naming convention](https://pages.18f.gov/frontend/css-coding-styleguide/naming/)
+- Componentized CSS: start with tag rules and only becomes more specific as necessary, using component classes
+
+The 18F-site team will update the WDS library when it publishes a change required by the site; otherwise it will update bi-monthly (see [issue #1877](https://github.com/18F/18f.gsa.gov/issues/1877))
+
+#### Images
+
+- All icons should use  `<svg>` and `xlink` (looking for link) formats
+- All blog images should be under 800kb in total, un-minified size
 - Images should be under 600Kb after being minified
-- All raster images should be minified with a tool such as [grunt-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin).
+- All raster images should be minified with a tool such as [grunt-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
 
+#### JavaScript
 
-### JavaScript
-- The website is developed using [Jekyll](https://jekyllrb.com/) , a static site generator based on the Ruby programming language.
-- The  website is also required to work without JavaScript and no heavy Javascript framework is used.
-- jQuery will be required for the WDS
-- The website github project  uses the [AirBnB linter configuration for JavaScript](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), if linting fails, it will also fail the tests, but not the build. (See: #1879)
-- Ruby gems will be used for front end dependency management.
-- JavaScript will not be bundled.
-- There will be a manual testing script that will be required to walk through for each Pull Request.
+This site does not use any heavy JavaScript frameworks, and should always work without JavaScript.
 
+- jQuery is included in the WDS
+- Ruby gems is used for front end dependency management
 
-### Devices
--  The website supports all versions of Internet Explorer still supported by  Microsoft, as well as the  newest Chrome and FireFox.
--  The website should be designed with a mobile-first approach.
--  Every applicable change should be run through HTML code sniffer.
+## Standards and benchmarks
 
+### Device and browser support
+
+- The website supports all versions of Internet Explorer still supported by Microsoft, as well as recent versions of Chrome, Safari, and Firefox
+- The website should be designed with a mobile-first approach
 
 ### Performance
-- Performance will be measured against the following custom events:
-  - Time to blog post image
-  - Time to main image and callout text.
-  - Time until first blog post title shows up on page with all blog posts.
-- Each of these should load in under a second
+
+Each of the following events should load in under a second:
+
+- Time to blog post image
+- Time to main image and callout text
+- Time until first blog post title shows up on page with all blog posts
 
 ## Public domain
 
-This project is in the public domain within the United States, and
-copyright and related rights in the work worldwide are waived through
-the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+For detailed license information, see [LICENSE](LICENSE.md).
 
-All contributions to this project will be released under the CC0
-dedication. By submitting a pull request, you are agreeing to comply
-with this waiver of copyright interest.
+All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
