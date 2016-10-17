@@ -12,37 +12,17 @@ file afterwards at the same URL."
 description: "This spring, the eRegulations Notice & Comment team began building out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable file afterwards at the same URL."
 image: /assets/blog/eregs/demo-video.jpg
 ---
-This spring, the [eRegulations Notice & Comment team](https://18f.gsa.gov/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/) began building out a
-new feature set for the platform — adding the ability for agencies with
-proposed regulations to show the public more precisely the changes being
-proposed and allow agencies to receive more granular, contextual, and
-better-organized comments.
+This spring, the [eRegulations Notice & Comment team](https://18f.gsa.gov/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/) began building out a new feature set for the platform — adding the ability for agencies with proposed regulations to show the public more precisely the changes being proposed and allow agencies to receive more granular, contextual, and better-organized comments.
 
-One of the challenges we wrestled with was how to share our work out
-frequently and openly with the dozens of interested parties, while not
-making that a blocker in focusing on our work of doing many demos for
-the many different parties interested in and informing our work.
+One of the challenges we wrestled with was how to share our work out frequently and openly with the dozens of interested parties, while not making that a blocker in focusing on our work of doing many demos for the many different parties interested in and informing our work.
 
-With half a dozen agencies interested in this minimum viable product
-pilot and several dozen individuals across those agencies and time
-zones, scheduling a time for sprint demos that worked for everyone was a
-nightmare. Also adding to the challenge was many agencies have strict IT
-policies locking down their computers around what websites and
-applications they can use — especially for teleconferences. Most
+With half a dozen agencies interested in this minimum viable product pilot and several dozen individuals across those agencies and time
+zones, scheduling a time for sprint demos that worked for everyone was a nightmare. Also adding to the challenge was many agencies have strict IT policies locking down their computers around what websites and applications they can use — especially for teleconferences. Most
 agencies only have access to one or two options approved.
 
-So we explored some options and landed on a creative option — live
-streaming our demos through a video website that is accessible by most
-government agencies, doesn’t require extraneous plugins to operate,
-allows you to easily stream, but also automatically creates a viewable
-file afterwards at the same URL. YouTube is widely accessible behind
-government firewalls, and has useful functionality for both presenters
-(Hangouts On Air, an enhanced version of the video chat program) and
-viewers. After mistakenly launching and ending the first live attempt
-before it was supposed to go live, we learned how to use the tool, and
-it really helped us share information across many agencies, teams, and
-individuals. We’re also excited about this serving as an archive of our
-work.
+So we explored some options and landed on a creative option — livestreaming our demos through a video website that is accessible by most
+government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable
+file afterwards at the same URL. YouTube is widely accessible behind government firewalls, and has useful functionality for both presenters (Hangouts On Air, an enhanced version of the video chat program) and viewers. After mistakenly launching and ending the first live attempt before it was supposed to go live, we learned how to use the tool, and it really helped us share information across many agencies, teams, and individuals. We’re also excited about this serving as an archive of our work.
 
 ![A screenshot of a youtube video used to demo the e-regs work.]({{ site.baseurl }}/assets/blog/eregs/demo-video.jpg)
 
@@ -80,6 +60,7 @@ presenting):
 -   [eRegs Notice & Comment Demo - Sprint 3 - First Wireframes!](https://www.youtube.com/watch?v=7aEjjk-JrKg)
 -   [eRegs Notice & Comment Demo - Sprint 4 - More Wireframes!](https://www.youtube.com/watch?v=wFEDa7CsQAo)
 -   [eRegs Notice & Comment Demo - Sprint 5 - Wireframes & Working Code!](https://www.youtube.com/watch?v=h8DyhPOgUt4)
+-   [Full eRegs Notice & Comment Demo Playlist](https://www.youtube.com/playlist?list=PLd9b-GuOJ3nHSz3GVv0UsOtDCxlaVdtj2)
 
 *Special thanks to the* [DigitalGov](http://digitalgov.gov/) *team,
 and specifically Janelle Thalls, who helped us with the streaming
