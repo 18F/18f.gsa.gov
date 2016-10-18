@@ -33,6 +33,14 @@ Because new blog posts are published several times a week, we use several branch
 
 **The `master`, `staging`, and `production` branches are protected.** Only administrators of the repo can push directly to those branches. 18F teammates who don’t think they have the correct permissions should ask in the #18f-site channel.
 
+### Merging pull requests
+
+In your pull request (PR), tag anyone who should review the work and note what they should be reviewing. In general:
+
+- Don’t merge your own PRs
+- If your PR includes many small, incremental commits, consider squashing them
+- Don’t merge until linters pass, unless reviewers approve exceptions
+
 ### Front end architecture
 
 This site is based on the [U.S.
