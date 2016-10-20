@@ -101,12 +101,12 @@ module Jekyll
     end
 
     def team_link(input)
-      team = Jekyll.sites[0].collections['team'].docs
-      index = team.find_index {|x| x.data['name'] == input}
+      authors = Jekyll.sites[0].collections['authors'].docs
+      index = authors.find_index {|x| x.data['name'] == input}
       baseurl = Jekyll.sites[0].config['baseurl']
       unless index.nil?
-        url = "#{baseurl}/team/#{team[index].data['name']}"
-        full_name = team[index].data['full_name']
+        url = "#{baseurl}/author/#{authors[index].data['name']}"
+        full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
         url = lookup(input, "authors, url")

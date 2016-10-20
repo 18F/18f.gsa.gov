@@ -13,7 +13,7 @@ module Jekyll
     end
 
     def finder(name)
-      Jekyll.sites[0].collections['team'].docs.find do |member|
+      Jekyll.sites[0].collections['authors'].docs.find do |member|
         member.data["name"] == name
       end
     end

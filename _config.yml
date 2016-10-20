@@ -30,9 +30,9 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
-  team:
+  authors:
     output: true
-    permalink: /team/:name/
+    permalink: /author/:name/
   cards:
     output: true
     permalink: /card/:name/
@@ -53,7 +53,7 @@ defaults:
     layout: default-intro
  -
   scope:
-    path: "_team"
+    path: "_authors"
   values:
     layout: default-profile
  -
