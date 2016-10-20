@@ -96,7 +96,6 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
-
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.
