@@ -3,7 +3,7 @@
 
 ## Background
 
-We launched the new 18F website in August. This is the second round of research where we focused on talking to federal employees.
+This is the second round of research and we're focused on talking to federal employees.
 
 ## Participants
 
@@ -19,28 +19,25 @@ We showed each participant the 18F website, and asked them to navigate the page 
 ### Overall findings
 
 * The two participants that were less familiar with 18F were confused by the hero, and suggest that it takes too much time to figure out what 18F does.
-* Participants looked for clear reasons for why they should hire 18F.
-* Participants expected much more information about entering into partnerships with 18F.
+* Participants found many terms confusing.
+* Participants want to know why they should hire 18F over someone else.
+* Participants want more details about working with 18F, including costs of projects.
 
+#### Specific feedback
 
-
-#### General feedback
-
-- Three out of four users had difficulty getting back to the homepage from some of the pages and or guides.
-- "_What we deliver We Help_ seems like a run on sentence."
-- Users were expecting separate links to human-centered design, agile methodologies, and open source software. They were surprised that it was all one link to the playbook on the "how we work" page.
-- None of the users clicked the links in the hero. (Hero is currently photo of cute celebrating the Every Kid in a Park project)
-- One user expected to see a search box on the guides pages.
-
-Both members of the tech community came to the site for guides, standards, definitions, open-source code, and resources to use at their companies. Both users also looked for and couldn't find shareable code or GitHub right away.
+- Develop a project size guide/example (what constitutes small, medium, and large), so that project managers could make an educated guess about their own project or idea.
+- Tell us directly why we should come to 18F. *Highlight that!* Use adjectives.
+- Show us the 18F team, and why they are the best people for the job.
+- Put a phone number on your "hire us" page. In government, you have to be able to talk to a real person.
+- Testimonials from partners especially would help if you’re trying to get more business. What have past partners said about your work?
 
 Quotes:
 
-> "I’m always having to define accessibility for people. Might be nice to have that glossary available of special terms."
+> "There's no team page. What sort of people are on your teams? What is their background/experience? How do I know they are the right kind of people?""
 >
-> "How do I hack how you’re doing it and bring that back to my company?"
+> "When I am reading this (How we work), it might be an opportunity to say that you will join them in their desire to put the public first, and almost include them. We know that in your effort to put the public first. We are of one mind -- bring them along with you. "
 >
-> "Not doing anything to show that links go to external site. That’s interesting to me."
+
 
 
 #### Unclear terms for federal employees
@@ -55,6 +52,12 @@ What we deliver page:
 + "Guides? Some people might get this, but I don't know what a lot of this is talking about."
 + "API."
 + "Some of this is very catchphrasy, like "scope of solution." How do I know what that means for me?
++ I don’t know what those digital services are necessarily.
+
+Hire us:
++ People have to apply to 18F? It's not necessarily hire 18F, we have to apply and pass your review.
++ You're helping people serve their public, you're not serving the public. You're not working for the public, you're working for the government.  
++ When I first saw _Hire 18F_, I thought that meant to join the team. I thought join was for potential partners.
 
 #### Positive feedback
 
@@ -63,4 +66,4 @@ What we deliver page:
 
 ## Conclusions
 
-We should make sure it's easy for potential federal partners to understand the work that we do and how we might work with them by eliminating some of the more technical jargon.
+We should make sure it's easy for potential federal partners to feel comfortable and confident reaching out to work with 18F with a project idea. 
