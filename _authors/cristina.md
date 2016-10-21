@@ -9,4 +9,5 @@ role: Deputy Director
 state: DC
 team: Talent
 twitter: 
+redirect_from: /team/cristina
 ---

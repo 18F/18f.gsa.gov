@@ -9,4 +9,5 @@ role:
 state: WA
 team: 
 twitter: 
+redirect_from: /team/alan-atlas
 ---

@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Operations
+redirect_from: /team/leahg
 ---

@@ -9,4 +9,5 @@ state: CA
 github: 
 twitter: 
 team: Design
+redirect_from: /team/maya
 ---

@@ -9,4 +9,5 @@ state: Ohio
 github: catherinedevlin
 twitter: catherinedevlin
 team: Delivery
+redirect_from: /team/catherine
 ---

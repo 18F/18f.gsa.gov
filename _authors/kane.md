@@ -9,4 +9,5 @@ role:
 state: CA
 team: 
 twitter: 
+redirect_from: /team/kane
 ---

@@ -9,4 +9,5 @@ role: Deputy Director of Infrastructure
 state: California
 team: 
 twitter: 
+redirect_from: /team/jez-humble
 ---

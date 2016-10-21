@@ -9,4 +9,5 @@ state: OR
 github: 
 twitter: 
 team: Design
+redirect_from: /team/kate
 ---

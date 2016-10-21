@@ -9,4 +9,5 @@ role: Project Manager
 github: 
 twitter: 
 team: Delivery
+redirect_from: /team/anna
 ---

@@ -7,4 +7,5 @@ role: Product manager
 team: Delivery
 city: Washington
 state: D.C.
+redirect_from: /team/mike-hsu
 ---

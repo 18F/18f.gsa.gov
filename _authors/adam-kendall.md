@@ -9,4 +9,5 @@ role:
 state: VA
 team: Engineering
 twitter: 
+redirect_from: /team/adam-kendall
 ---

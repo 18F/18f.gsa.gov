@@ -9,4 +9,5 @@ role: Consultant
 state: GA
 team: 18F Consulting
 twitter: 
+redirect_from: /team/brandon
 ---

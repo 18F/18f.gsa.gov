@@ -9,4 +9,5 @@ state: NC
 github: juliaelman
 twitter: juliaelman
 team: Design
+redirect_from: /team/julia
 ---

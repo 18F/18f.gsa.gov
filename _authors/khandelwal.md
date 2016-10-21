@@ -10,4 +10,5 @@ github:
 twitter: 
 team: Consulting
 project: 
+redirect_from: /team/khandelwal
 ---

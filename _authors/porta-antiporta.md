@@ -9,4 +9,5 @@ role: Product Lead
 state: IL
 team: Product
 twitter: 
+redirect_from: /team/porta-antiporta
 ---

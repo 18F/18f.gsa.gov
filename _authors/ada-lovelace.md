@@ -17,4 +17,5 @@ joke: |
 
   Due to other commitments, Ada will be working for the team only on April 1st. If you'd like to join Ada (and not just for April 1) you can <a href="https://pages.18f.gov/joining-18f/">see all of our openings and learn more about working at 18F</a>.)
 layout: nothing
+redirect_from: /team/ada-lovelace
 ---

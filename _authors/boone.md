@@ -13,4 +13,5 @@ project:
 - 18f.gsa.gov
 - Dashboard
 - 18F EDU
+redirect_from: /team/boone
 ---

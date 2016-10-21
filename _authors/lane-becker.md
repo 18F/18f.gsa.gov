@@ -9,4 +9,5 @@ role:
 state: 
 team: Strategy
 twitter: 
+redirect_from: /team/lane-becker
 ---

@@ -11,4 +11,5 @@ twitter:
 team: Design
 proejct:
 - Front End Guild
+redirect_from: /team/marco
 ---

@@ -9,4 +9,5 @@ role: Content Designer
 state: DC
 team: Design
 twitter: 
+redirect_from: /team/ryan-sibley
 ---

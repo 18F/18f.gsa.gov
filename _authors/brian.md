@@ -9,4 +9,5 @@ role: Developer
 state: MN
 team: Delivery
 twitter: 
+redirect_from: /team/brian
 ---

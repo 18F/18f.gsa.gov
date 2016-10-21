@@ -9,4 +9,5 @@ role: Director of Engineering
 github: hollyallen
 twitter: 
 team: Delivery
+redirect_from: /team/holly
 ---

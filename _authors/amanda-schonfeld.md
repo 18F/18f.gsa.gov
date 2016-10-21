@@ -9,4 +9,5 @@ role:
 state: IL
 team: 
 twitter: 
+redirect_from: /team/amanda-schonfeld
 ---

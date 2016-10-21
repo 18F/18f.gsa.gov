@@ -11,4 +11,5 @@ twitter:
 team: Delivery
 project:
 - Project Review
+redirect_from: /team/yoz
 ---

@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Delivery
+redirect_from: /team/yuda
 ---

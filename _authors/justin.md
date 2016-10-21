@@ -9,4 +9,5 @@ state: WA
 github: 
 twitter: 
 team: Delivery
+redirect_from: /team/justin
 ---

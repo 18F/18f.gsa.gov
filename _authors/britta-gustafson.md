@@ -9,4 +9,5 @@ role: Content Designer
 state: CA
 team: Design
 twitter: ''
+redirect_from: /team/britta-gustafson
 ---

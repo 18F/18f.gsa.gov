@@ -9,4 +9,5 @@ role: DevOps Engineer
 state: DC
 team: Infrastructure
 twitter: 
+redirect_from: /team/mossadeq-zia
 ---

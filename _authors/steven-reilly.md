@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Acquisitions
+redirect_from: /team/steven-reilly
 ---

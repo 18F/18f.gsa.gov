@@ -7,4 +7,5 @@ city: Washington
 state: D.C.
 team: Operations
 role: Team Operations
+redirect_from: /team/kathrynconnolly
 ---

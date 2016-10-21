@@ -9,4 +9,5 @@ role:
 state: 
 team: 
 twitter: 
+redirect_from: /team/amber
 ---

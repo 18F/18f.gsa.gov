@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Infrastructure Engineering
+redirect_from: /team/kimberdowsett
 ---

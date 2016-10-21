@@ -11,4 +11,5 @@ twitter:
 team: Strategy
 project:
 - 18F Intake
+redirect_from: /team/stephanierivera
 ---

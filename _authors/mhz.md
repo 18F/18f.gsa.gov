@@ -9,4 +9,5 @@ state: AZ
 github: meiqimichelle
 twitter: meiqimichelle
 team: Design
+redirect_from: /team/mhz
 ---

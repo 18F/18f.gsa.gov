@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: General Services Administration
+redirect_from: /team/krutivora
 ---

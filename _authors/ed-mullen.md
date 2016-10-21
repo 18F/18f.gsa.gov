@@ -9,4 +9,5 @@ role: Product Strategist
 state: New York
 team: Change Strategy
 twitter: 
+redirect_from: /team/ed-mullen
 ---

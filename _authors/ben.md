@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Presidential Innovation Fellows
+redirect_from: /team/ben
 ---

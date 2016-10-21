@@ -9,4 +9,5 @@ state: IL
 github: 
 twitter: 
 team: 
+redirect_from: /team/ericronne
 ---

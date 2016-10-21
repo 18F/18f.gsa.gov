@@ -11,4 +11,5 @@ twitter:
 team: Delivery
 project:
 - Accessibility Guild
+redirect_from: /team/nick
 ---

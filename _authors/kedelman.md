@@ -9,4 +9,5 @@ role: Acquisition Management Consultant
 github: 
 twitter: 
 team: Consulting
+redirect_from: /team/kedelman
 ---

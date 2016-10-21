@@ -9,4 +9,5 @@ role:
 state: D.C.
 team: Consulting
 twitter: 
+redirect_from: /team/victor-udoewa
 ---

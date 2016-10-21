@@ -9,4 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Legal
+redirect_from: /team/joshbailes
 ---

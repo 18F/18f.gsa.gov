@@ -9,4 +9,5 @@ state: IL
 github: 
 twitter: 
 team: Delivery
+redirect_from: /team/raphy
 ---
