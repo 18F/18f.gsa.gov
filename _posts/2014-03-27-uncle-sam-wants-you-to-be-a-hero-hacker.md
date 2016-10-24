@@ -14,7 +14,6 @@ authors:
 - mhz
 
 tags:
-- pif
 - presidential innovation fellows
 - talent
 

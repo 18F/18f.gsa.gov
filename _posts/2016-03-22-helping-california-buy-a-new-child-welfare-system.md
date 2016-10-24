@@ -9,6 +9,7 @@ tags:
 - acquisition services
 - rfp ghostwriting
 - state and local practice
+- modular contracting
 excerpt: "Through a partnership with the Department of Health and Human Services, 18F was able to work
 with California’s Department of Social Services and Office of Systems
 Integration on the replacement of California's Child Welfare System. We helped them  simplify the contracting documents and incorporate

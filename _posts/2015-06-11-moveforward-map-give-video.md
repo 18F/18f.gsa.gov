@@ -8,7 +8,6 @@ authors:
 tags:
 - events
 - video
-- pif
 - presidential innovation fellows
 
 excerpt: "When Nepal was hit with a devastating earthquake on April 25, the folks

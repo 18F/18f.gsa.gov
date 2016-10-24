@@ -7,7 +7,7 @@ tags:
 - events
 - how we work
 - speaker series
-
+- distributed
 excerpt: "Building a high-performing design team is tough under the best of circumstances. Add in governmental regulations, a distributed workforce, and rapid growth of the parent organization, and the process is even tougher."
 description: "Building a high-performing design team is tough under the best of circumstances. Add in governmental regulations, a distributed workforce, and rapid growth of the parent organization, and the process is even tougher."
 image: /assets/blog/speaker-series/cfpb-talk.jpg

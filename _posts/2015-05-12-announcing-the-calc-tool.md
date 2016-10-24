@@ -8,7 +8,8 @@ tags:
 - procurement
 - gsa
 - acquisition services
-
+- calc
+- agency work
 excerpt: "Today, 18F and the General Services Administration (GSA) launched a powerful new labor category and pricing research tool to help the federal contracting community make smarter, faster buying decisions."
 description: "Today, 18F and the General Services Administration (GSA) launched a powerful new labor category and pricing research tool to help the federal contracting community make smarter, faster buying decisions."
 image: /assets/blog/calc-announcement/calc_homepage.jpg
