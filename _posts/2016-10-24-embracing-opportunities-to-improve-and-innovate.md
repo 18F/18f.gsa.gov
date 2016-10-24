@@ -26,7 +26,7 @@ First, with respect to internal controls, we take these issues seriously
 and have taken significant steps to strengthen 18F’s operations. We
 brought in an independent third party to review our financial processes
 and controls. We have instituted additional controls around agency
-agreements, including review of agreements by the CFO and General
+agreements, including review of agreements by the Chief Financial Officer (CFO) and General
 Counsel, and we are also amending our timekeeping system to detect any
 work being done outside of the performance period or without signed
 agreements. We have conducted a reconciliation of past agreements to
@@ -34,12 +34,13 @@ ensure accurate billing, and we have transitioned to monthly customer
 billing and expense accruals to identify errors in a more timely
 fashion. We are also making organizational changes to improve
 operations. We have standardized the relationship between 18F and the
-CIO by, among other things, having a CIO lead who reviews all internal
+Chief Information Officer (CIO) by, among other things, having a CIO lead who reviews all internal
 technology projects for 18F. In addition, the CFO is in the process of
 establishing dedicated resources to support 18F, which will help
 strengthen financial operations even further. Finally, we have created a
-Chief Operating Officer position within TTS to ensure an ongoing focus
-on internal operations of all parts of the organization, including 18F.
+Chief Operating Officer position within the 
+[Technology Transformation Service](http://gsa.gov/tts) (TTS) to ensure an 
+ongoing focus on internal operations of all parts of the organization, including 18F.
 
 In addition, we agree that we must continue to refine business
 operations to ensure the organization achieves full cost recovery and
@@ -71,7 +72,7 @@ been re-used by state and local governments, as well as non-governmental
 entities. The Presidential Innovation Fellowship (PIF) program has been
 codified in an [Executive Order](https://www.whitehouse.gov/the-press-office/2015/08/17/executive-order-presidential-innovation-fellows-program), and
 both PIF and 18F are now part of the General Service Administration’s
-Technology Transformation Service, established by a GSA Administrative
+[Technology Transformation Service](http://gsa.gov/tts), established by a GSA Administrative
 Order earlier this year.
 
 To date, 18F has worked on more than 250 projects with 37 different
@@ -81,7 +82,7 @@ increase the transparency of federal spending, to helping the
 Environmental Protection Agency and the Bureau of Alcohol, Tobacco,
 Firearms and Explosives to make their regulations easier to find, read,
 and understand. We also partnered with the Department of Health and
-Human Services to help modernize California’s child welfare system more,
+Human Services to help modernize California’s child welfare system,
 helping to align their procurement processes to ensure better delivery
 of services for children in the state.
 
