@@ -4,7 +4,7 @@ authors:
 - zaccohn
 - boone
 tags:
-- mississippi
+- state and local practice
 - modular contracting
 - agile development
 - acquisition services
@@ -27,8 +27,7 @@ Mississippi’s initial response to solving this problem was a classic
 waterfall approach: Spend several years gathering requirements then hire
 a single vendor to design and develop an entirely new system and wait
 several more years for them to deliver a new complete solution.
-According to the project team at Mississippi’s Department of Child
-Protective Services, this “sounds like a good option, but it takes so
+According to the project team at Mississippi's Department of Child Protection Services, this “sounds like a good option, but it takes so
 long to get any new functionality into the hands of our users. And our
 caseworkers are clamoring for new functionality.” Instead, they’re
 taking this opportunity to build the first agile, modular software
