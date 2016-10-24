@@ -2,4 +2,4 @@ if [ -n $FAST_BUILDS ]; then
   export FAST_BUILDS=true;
 fi
 
-bundle exec jekyll serve --watch --incremental --config="_config.yml,_config-fast-builds.yml,_config-dev.yml"
+LC_ALL="en_US.UTF-8" bundle exec jekyll serve --watch --host 0.0.0.0 --trace --config="_config.yml,_config-fast-builds.yml,_config-dev.yml"
