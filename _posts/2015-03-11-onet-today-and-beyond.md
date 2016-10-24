@@ -7,7 +7,7 @@ image: /assets/blog/onet/image01.jpg
 
 tags:
 - agency work
-- presidential innovation fellow
+- presidential innovation fellows
 authors:
 - tgrandison
 
