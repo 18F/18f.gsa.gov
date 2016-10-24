@@ -26,7 +26,7 @@ First, with respect to internal controls, we take these issues seriously
 and have taken significant steps to strengthen 18F’s operations. We
 brought in an independent third party to review our financial processes
 and controls. We have instituted additional controls around agency
-agreements, including review of agreements by the Chief Financial Officer (CF) and General
+agreements, including review of agreements by the Chief Financial Officer (CFO) and General
 Counsel, and we are also amending our timekeeping system to detect any
 work being done outside of the performance period or without signed
 agreements. We have conducted a reconciliation of past agreements to
