@@ -7,8 +7,8 @@ tags:
 - 18f
 - technology transformation service
 - transparency
-excerpt: "Today, the GSA Inspector General (IG) issued a report that identified areas for improvement, and we welcome the report. We have made many improvements over the last few months to address the issues outlined in this report and will take all additional actions necessary."
-description: "Today, the GSA Inspector General (IG) issued a report that identified areas for improvement, and we welcome the report. We have made many improvements over the last few months to address the issues outlined in this report and will take all additional actions necessary."
+excerpt: "Today the GSA Inspector General (IG) issued a report that identified areas for improvement, and we are thankful for their oversight. We have made many improvements over the last few months to address the issues outlined in this report and will take all additional actions necessary."
+description: "Today the GSA Inspector General (IG) issued a report that identified areas for improvement, and we are thankful for their oversight. We have made many improvements over the last few months to address the issues outlined in this report and will take all additional actions necessary."
 image:
 ---
 
