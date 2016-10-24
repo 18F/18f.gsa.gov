@@ -6,6 +6,7 @@ tags:
 - best practices
 - technical guides
 - technical debt
+- tools you can use
 excerpt: "Static source analysis is a way to quickly gauge the quality of source code and identify areas of high technical debt. But what IS static source analysis, and how is it useful?"
 description: "Static source analysis is a way to quickly gauge the quality of source code and identify areas of high technical debt. But what IS static source analysis, and how is it useful?"
 ---

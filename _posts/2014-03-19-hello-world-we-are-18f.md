@@ -11,13 +11,11 @@ excerpt: 18F is a startup within GSA, encompassing the Presidential Innovation F
 image: ""
 authors:
 - 18F
-
 tags:
 - transformation services
 - culture change
 - modern practices
-
-
+hero: false
 ---
 
 **What is 18F?**

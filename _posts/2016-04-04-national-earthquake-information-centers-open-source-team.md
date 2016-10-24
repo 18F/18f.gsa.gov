@@ -3,7 +3,7 @@ title: A visit to the National Earthquake Information Center’s open source tea
 authors:
 - boone
 tags:
-- us geological survey
+- u.s. geological survey
 - open source
 image: /assets/blog/earthquake-center/earthquakecenter.jpg
 description: The National Earthquake Information Center’s web team is committed to open source. By building in the open, they ensure the public gets information about seismic activity within minutes of the ground starting to shake.

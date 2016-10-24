@@ -11,6 +11,7 @@ tags:
 - product
 - best practices
 - agency work
+- tools you can use
 excerpt: We launched the eRegulations Notice and Comment pilot this summer, and in the process saw some patterns in how our partner agencies write their regulations. In response, the eRegulations team prepared a guide to help agencies write regulations in a more data- and human-friendly format that would be easier to parse — thus saving time and money.
 description: We launched the eRegulations Notice and Comment pilot this summer, and in the process saw some patterns in how our partner agencies write their regulations. In response, the eRegulations team prepared a guide to help agencies write regulations in a more data- and human-friendly format that would be easier to parse — thus saving time and money.
 ---
