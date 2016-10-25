@@ -7,7 +7,6 @@ image: /assets/blog/join-us/18f_govuk.png
 tags:
 - open source
 - gov.uk
-- inspiration in government
 - how we work
 
 authors:

@@ -4,7 +4,6 @@ authors:
 - melody
 tags:
 - staff profiles
-- 18f team
 - how we work
 - cloud.gov
 excerpt: "Bret Mogilefsky spent most of his career working in the game development industry. He came to the government seeking the best way he could have a big impact and do big good."

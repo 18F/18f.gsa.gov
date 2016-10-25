@@ -7,6 +7,7 @@ authors:
 tags:
 - how we work
 - analytics.usa.gov
+- pulse.cio.gov
 - agency work
 - digitalgov community
 - partners in government

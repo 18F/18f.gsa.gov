@@ -6,6 +6,7 @@ authors:
 - mhz
 tags:
 - how we work
+- distributed
 - communication tools and practices
 - collaboration tools
 excerpt: "18F employees live all over the country, which means it's normal for the members of a project team to be spread across multiple cities. Because our teams are distributed, we've developed certain strategies for working well as a collaborative operation."

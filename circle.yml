@@ -7,12 +7,8 @@ dependencies:
   pre:
     - bundle install
     - bundle exec jekyll build
-    - nvm install stable && nvm alias default stable
-    - npm test
-    - npm install -g pa11y-ci
 
 test:
   pre:
     - bundle exec jekyll test
     - bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov
-    - npm run --harmony lint-508
