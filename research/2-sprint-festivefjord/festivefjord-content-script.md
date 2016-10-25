@@ -4,6 +4,9 @@
 
 * GSA mobile device for recording conversation, and/or research partner to take detailed notes
 * [Content testing document (limited access)](https://docs.google.com/document/d/1AwzkqTpHZ3fwRokNuh2I9xWEHd9L6NdXSJPoBK1gTLU/edit)
+  * Print this document out
+  * Highlight `ORANGE` and `GREEN` in the appropriate colors
+  * Staple pages 2+3, 4-6, and 7+8 so you have a cover sheet and 3 packets ready for each test
 * Orange and green highlighters (or whatever colors you can come up with)
 
 ## Introductory comments
@@ -22,9 +25,9 @@ Ask: **What’s your job? What do you do within GSA?**
 
 Ask: **Have you heard of 18F before? What do you know about 18F?**
 
-_Show the participant the print-out of the site content, hand them two colors of highlighters, and ask them to read through the content and highlight it according to what makes sense and what doesn’t._
+_Show the participant the cover sheet and one section of the site content print-out, hand them two colors of highlighters, and ask them to read through the content and highlight it according to what makes sense and what doesn’t._
 
-As they work through the pages: Ask follow-up questions as necessary, encourage them to follow their own process (i.e. it’s fine for them to do one read-through before they start highlighting), and respond to any questions with further discussion.
+As they work through the pages: Ask follow-up questions as necessary, encourage them to follow their own process (i.e. it’s fine for them to do one read-through before they start highlighting), and respond to any questions with further discussion. If they're game — and there's time — ask if they'd be willing to try another section.
 
 ## Wrap-up
 
