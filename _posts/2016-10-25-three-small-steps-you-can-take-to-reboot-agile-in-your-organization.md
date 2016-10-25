@@ -33,7 +33,7 @@ participants had taken a course or two on agile before, we knew we
 weren’t introducing a new topic. We focused on learning what was working
 and what wasn’t, and identified simple tasks we could use to exercise
 our agile muscles. The workshop was the first step towards helping us
-understand how and where to reboot Agile processes within the
+understand how and where to reboot agile processes within the
 organization.
 
 ## Step one: Identify what’s already working, and what isn’t
