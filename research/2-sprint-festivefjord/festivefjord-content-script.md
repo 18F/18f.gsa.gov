@@ -3,7 +3,7 @@
 ## Setup
 
 * GSA mobile device for recording conversation, and/or research partner to take detailed notes
-* [Content testing document (limited access)]()
+* [Content testing document (limited access)](https://docs.google.com/document/d/1AwzkqTpHZ3fwRokNuh2I9xWEHd9L6NdXSJPoBK1gTLU/edit)
 * Orange and green highlighters (or whatever colors you can come up with)
 
 ## Introductory comments
