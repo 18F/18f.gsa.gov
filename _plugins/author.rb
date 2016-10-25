@@ -35,7 +35,11 @@ module Jekyll
   class AuthoredPosts < Liquid::Tag
     def initialize(tag_name, heading, tokens)
       super
-      @heading = heading.split('=')[1].strip
+      @heading = if heading
+                   heading.split('=')[1].strip
+                 else
+                   'h2'
+                 end
     end
 
     def render(context)
@@ -62,22 +66,6 @@ module Jekyll
   end
 
   module AuthorFilter
-    def with_pic(input)
-      name = input[0]
-      info = input[1]
-      image = File.join 'assets', 'images', 'team', "#{name}.jpg"
-      baseurl = Jekyll.sites[0].config['baseurl']
-      if File.exist?(File.join(Jekyll.sites[0].config['source'], image))
-        "<img class='img-circle team-img bio-clip' src='#{@baseurl}/#{image}' alt='18F team member #{info['full_name']}'>"
-      else
-        "<img class='img-circle team-img bio-clip' src='#{@baseurl}/assets/images/18f.png' alt='18F logo'>"
-      end
-    end
-
-    def initialize(context)
-      @page_path = context.environments.first['page']['path']
-      super
-    end
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -97,7 +85,7 @@ module Jekyll
       dataset = args[0].strip # strips whitespace for the requested data file
       key = args[1].strip     # strips whitespace for the requested key
       data = Jekyll.sites[0].data[dataset] # returns the full data file
-      if data[input]          # if there's an entry for author, return the value
+      if data[input]          # if there's an entry for input, return the value
         data[input][key]
       else                    # if not, exit with a "no such author error"
         puts "No such author: #{input} in #{@page_path}"
@@ -105,6 +93,19 @@ module Jekyll
       end
     end
 
+    # team_link filter
+    #
+    # A liquid filter that takes an author name as "input" and returns a link to an author's
+    # page
+    #
+    # Example:
+    # if we have a variable `author` set to "boone" the following syntax:
+    # ```
+    # {{ author | team_link }}
+    # ```
+    #
+    # Returns an <a> tag linked to boone's author page
+    # Content is boone's name
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
       index = authors.find_index { |x| x.data['name'] == input }
