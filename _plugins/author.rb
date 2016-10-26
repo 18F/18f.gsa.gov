@@ -73,11 +73,11 @@ module Jekyll
         "<img class='img-circle team-img bio-clip' src='#{@baseurl}/assets/images/18f.png' alt='18F logo'>"
       end
     end
-    
-     def initialize(context)
-       @page_path = context.environments.first['page']['path']
-       super 
-     end 
+
+    def initialize(context)
+      @page_path = context.environments.first['page']['path']
+      super
+    end
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -107,7 +107,7 @@ module Jekyll
 
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
-      index = authors.find_index {|x| x.data['name'] == input}
+      index = authors.find_index { |x| x.data['name'] == input }
       baseurl = Jekyll.sites[0].config['baseurl']
       unless index.nil?
         url = "#{baseurl}/author/#{authors[index].data['name']}"

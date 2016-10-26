@@ -6,7 +6,7 @@ layout: default
   <div class="usa-grid">
     <header>
       {% if page.full_name %}
-        <h1 class="section-heading section-heading-alt">Blog posts by: {{ page.full_name }} </h1>
+        <h1 class="section-heading section-heading-alt">Blog posts by: {{ page.full_name }} {% if page.alumni %}<span>(alumni)</span>{% endif %}</h1>
       {% endif %}
     </header>
   </div>
