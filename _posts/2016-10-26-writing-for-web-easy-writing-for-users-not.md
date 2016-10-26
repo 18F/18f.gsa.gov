@@ -1,7 +1,7 @@
 ---
 title: "Writing for the web is easy. Writing for users is not."
 authors:
-- chris-goranson
+- christopher-goranson
 - emileigh
 - phoebe-espiritu
 tags:
