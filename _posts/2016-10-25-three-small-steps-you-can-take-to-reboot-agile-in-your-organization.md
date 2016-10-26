@@ -130,7 +130,7 @@ from management will help remove inertia barriers, and those processes
 that involve employees are more likely to address their needs. “False
 starts” are a risk — building momentum in the right direction and
 sticking to it is important, so buy-in before a formal process is put in
-place may help to avoid conflicts requiring a lof of course correction
+place may help to avoid conflicts requiring a lot of course correction
 later.
 
 Looking for more? Check out 18F’s [Agile Principles and
