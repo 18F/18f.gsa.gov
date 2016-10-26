@@ -47,7 +47,7 @@ tone.
 
 <figure>
   <img src="{{site.baseurl}}/assets/blog/content/gds-content-ux.jpg" alt="">
-  <figcaption>The UK Government Digital Service's content is user experience poster.</figcaption>
+  <figcaption>The UK Government Digital Service's "Content is user experience" poster.</figcaption>
 </figure>
 
 A content strategist will juggle the competing needs and desires of
