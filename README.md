@@ -15,6 +15,19 @@ To dramatically speed up rebuild times (from more than 20 seconds to around 5), 
 
 You should be able to see the site at: http://127.0.0.1:4000
 
+## Alternative Installation using Docker
+Using Docker can make dependencies management easier, but can also slow down your build time. You can find out more in 
+[this discussion](https://github.com/18F/18f.gsa.gov/pull/1688#issue-152998027)    
+
+*To try this out on MacOS:*
+
+1. Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
+2. Make sure Docker is running and `cd` into your project folder
+3. Run `docker-compose build` to build the docker image and its dependencies. You only need to build once, but if there was an error with the build , rebuild using  the  `--no-cache` option like so `docker-compose build --no-cache`  to avoid using the old version of the docker image.
+4. Run `docker-compose up`.
+   Note: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`) 
+5. Visit [http://192.168.99.100:4000](http://192.168.99.100:4000/) in your browser.
+
 ## System security controls
 
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through the Federalist platform.
