@@ -57,14 +57,14 @@ to make their topics more appealing and approachable.
 
 Our colleagues at the Consumer Finance Protection Bureau (CFPB) have
 been leaders in plain language with their [public-facing
-content](https://www.google.com/url?q=http://www.consumerfinance.gov/&sa=D&ust=1475878109484000&usg=AFQjCNHbWTZw2-IjoLRLlizHzT-S3Ve-Hg).
+content](http://www.consumerfinance.gov/).
 Their website covers incredibly complex topics — banks, credit unions,
 securities firms, payday lenders, mortgage-servicing operations, and
 foreclosure relief services. They use content strategy and user-centered
 design to make these intimidating subjects accessible to the general
 public.
 
-![CFPB's Owning a Home feature.]({{site.baseulr}}{{page.image}})
+![CFPB's Owning a Home feature.]({{site.baseurl}}{{page.image}})
 
 ## Test content with real people
 
