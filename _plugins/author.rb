@@ -73,6 +73,11 @@ module Jekyll
         "<img class='img-circle team-img bio-clip' src='#{@baseurl}/assets/images/18f.png' alt='18F logo'>"
       end
     end
+    
+     def initialize(context)
+       @page_path = context.environments.first['page']['path']
+       super 
+     end 
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -95,7 +100,7 @@ module Jekyll
       if data[input]          # if there's an entry for author, return the value
         data[input][key]
       else                    # if not, exit with a "no such author error"
-        puts "No such author: #{input}"
+        puts "No such author: #{input} in #{@page_path}"
         False
       end
     end
