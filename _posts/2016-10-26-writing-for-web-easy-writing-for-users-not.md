@@ -11,6 +11,7 @@ tags:
 excerpt: "We all do it. Whether on Twitter, Facebook, or the comment section on a news article, it’s easy to get our writing on the internet. Many of us have personal websites or contribute to blogs. We work at organizations with content management systems that allow us to publish pages with a single button click. The fact that it’s so easy to publish content can trick us into thinking it’s equally easy to write useful content."
 description: ""
 image: /assets/blog/content/cfpb-oah.jpg
+hero: false
 ---
 We all do it. Whether on Twitter, Facebook, or the comment section on a
 news article, it’s easy to get our writing on the internet. Many of us
@@ -44,8 +45,10 @@ it fails because it’s not written for users. A content strategist will
 help projects develop a singular voice and maintain consistent style and
 tone.
 
-![GDS's content is user experience poster.]({{site.baseurl}}/assets/blog/content/gds-content-ux.jpg)
-*Government Digital Service*
+<figure>
+  <img src="{{site.baseurl}}/assets/blog/content/gds-content-ux.jpg" alt="">
+  <figcaption>The UK Government Digital Service's content is user experience poster.</figcaption>
+</figure>
 
 A content strategist will juggle the competing needs and desires of
 users. They’ll bring a fresh eye to frustrating jargon, technical terms,
@@ -55,7 +58,7 @@ law](http://www.plainlanguage.gov/plLaw/)). Reporters, teachers, and
 public speakers are all good examples of writers who use plain language
 to make their topics more appealing and approachable.
 
-Our colleagues at the Consumer Finance Protection Bureau (CFPB) have
+Our colleagues at the Consumer Financial Protection Bureau have
 been leaders in plain language with their [public-facing
 content](http://www.consumerfinance.gov/).
 Their website covers incredibly complex topics — banks, credit unions,
@@ -64,7 +67,7 @@ foreclosure relief services. They use content strategy and user-centered
 design to make these intimidating subjects accessible to the general
 public.
 
-![CFPB's Owning a Home feature.]({{site.baseurl}}{{page.image}})
+![The Consumer Financial Protection Bureau's Owning a Home feature.]({{site.baseurl}}{{page.image}})
 
 ## Test content with real people
 
