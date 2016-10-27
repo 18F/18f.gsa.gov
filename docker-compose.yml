@@ -1,0 +1,9 @@
+app:
+  build: ./
+  working_dir: /app
+  volumes:
+    - .:/app
+  entrypoint: ruby /app/docker_entrypoint.rb
+  command: ./serve  
+  ports:
+    - "4000:4000"
