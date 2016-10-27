@@ -8,6 +8,7 @@ tags:
 - best practices
 - treasury
 - technical guides
+- agency work
 excerpt: "Last week we wrote about how we diffuse knowledge through shared interests and sharing best practices on the micro-purchase project. This week, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
 description: "Last week we wrote about how we diffuse knowledge through shared interests and sharing best practices on the micro-purchase project. This week, we’ll focus on some of the lessons learned during the (completed) DATA Act prototype."
 image: /assets/blog/data-act-implementation/logo.png

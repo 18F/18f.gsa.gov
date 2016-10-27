@@ -11,7 +11,7 @@ tags:
 - digital acquisition accelerator
 - acquisition services
 - u.s. digital service
-- pif
+- presidential innovation fellows
 excerpt: "The Office of Federal Procurement Policy (OFPP) released a memorandum today that encourages agencies across the federal government to pursue innovative approaches to acquiring goods and services. Given the growing importance of digital acquisitions, OFPP is also launching a Digital Acquisitions Pilot along with the memo."
 description: "The Office of Federal Procurement Policy (OFPP) released a memorandum today that encourages agencies across the federal government to pursue innovative approaches to acquiring goods and services. Given the growing importance of digital acquisitions, OFPP is also launching a Digital Acquisitions Pilot along with the memo."
 image:

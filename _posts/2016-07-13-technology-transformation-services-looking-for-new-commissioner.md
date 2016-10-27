@@ -5,7 +5,7 @@ authors:
 - 18F
 tags:
 - gsa
-- 18f
+- hiring
 excerpt: "Now’s the time to get involved in transforming how the
 government builds, buys, and shares technology. Now’s the time to lead a
 growing office of talented and motivated people looking to help federal

@@ -6,7 +6,7 @@ authors:
 tags:
 - user research
 - user-centered design
-- usability testing
+- usability
 - tools you can use
 - communication tools and practices
 

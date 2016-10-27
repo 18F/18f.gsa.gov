@@ -10,7 +10,7 @@ tags:
 - agile
 - how we work
 - user research
-- workshops
+- workshop
 - culture change
 - transformation services
 

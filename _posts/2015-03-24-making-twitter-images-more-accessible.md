@@ -1,18 +1,14 @@
 ---
-title: "Making twitter images accessible"
+title: "Making Twitter images accessible"
 layout: post
 image: /assets/blog/twitter/twitter.png
 date: 2015-03-24
-
 tags:
 - accessibility
 - communication tools and practices
 - best practices
-
 authors:
 - melody
-
-
 excerpt: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 description: "To make our tweets more accessible, 18F has started responding to our Tweets containing images, with another tweet explaining what the image shows."
 ---
