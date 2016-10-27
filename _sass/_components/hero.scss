@@ -3,7 +3,7 @@
 
 .hero {
   @include padding($site-margins null);
-  background-image: url('../img/home/hero-every-kid.png');
+  background-image: url('../img/home/hero-fec.png');
   background-position: center;
   background-size: cover;
 }
@@ -11,6 +11,10 @@
 .hero-callout {
   background-color: $color-dark;
   padding: 3rem;
+
+  h2 {
+    font-size: $h2-font-size * 0.85;
+  }
 
   @include media($small-screen) {
     max-width: 300px;
@@ -22,7 +26,6 @@
 
   .usa-button {
     font-size: $small-font-size;
-    margin-top: 7rem;
     width: 100%;
   }
 }
