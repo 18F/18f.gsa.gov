@@ -25,4 +25,5 @@ gem 'jemoji'
 
 group :development do
   gem 'pry'
+  gem 'rb-readline'
 end

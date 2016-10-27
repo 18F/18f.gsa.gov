@@ -75,11 +75,11 @@ reflecting on my own needs and interests, here I am at 18F.
 
 **MK: How did you find out about 18F?**
 
-**NF:** I first heard about 18F through [Jesse Taggert]({{ site.baseurl }}/team/jtag/). We were friends
+**NF:** I first heard about 18F through [Jesse Taggert]({{ site.baseurl }}/author/jtag/). We were friends
 in San Francisco before I moved to New York. We always keep an eye on
 what the other person is doing.
 
-I would occasionally read the blog, and I also know [Meghana]({{ site.baseurl }}/team/meghana/) from my work
+I would occasionally read the blog, and I also know [Meghana]({{ site.baseurl }}/author/meghana/) from my work
 at the School for Visual Arts, so I was curious about the team.
 
 As a strategist, I do a lot of thinking about goals and next steps, and
