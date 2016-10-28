@@ -2,7 +2,7 @@
 title: "California takes a new approach to procurement"
 authors:
 - alla
-- robin
+- robin-carnahan
 tags:
 - state and local practice
 - acquisition services
