@@ -131,7 +131,7 @@ promises to make the Hub and its application model even more powerful,
 despite the fact that it remains a statically generated Jekyll site at
 its core. (Fellow 18F team member Dave Cole actually [advocated for this model three years ago](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/).)
 
-As for the second lesson, it’s often difficult to achieve this degree of
+As for the next lesson, it’s often difficult to achieve this degree of
 transparency, collaboration, reuse, and contribution in the same
 organization, let alone between a government agency and a private
 company. However, thanks to a commitment to open source development on
