@@ -6,7 +6,7 @@ gem "jekyll", '~> 3.1'
 gem "html-proofer"
 
 group :jekyll_plugins do
-  if ENV['FAST_BUILDS']
+  if ENV['FAST_BUILDS'] == 'true'
     puts 'not using jekyll-archives because its sloooooooooow'
   else
     gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
@@ -22,6 +22,8 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 gem 'jemoji'
+
 group :development do
   gem 'pry'
+  gem 'rb-readline'
 end

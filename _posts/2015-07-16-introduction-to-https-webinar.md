@@ -29,7 +29,7 @@ This presentation explains how communication across the web works today and brie
 
 There is no technical background required for this video — anyone who has used the web before should be able to understand the concepts discussed.
 
-{{ "https://www.youtube-nocookie.com/embed/d2GmcPYWm5k" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/d2GmcPYWm5k" | embed: "Introduction to HTTPS for beginners" }}
 
 Table of contents:
 
@@ -52,7 +52,7 @@ Finally, the presentation looks ahead at some ongoing and future technical and p
 
 Some technical background in the web is helpful, but may not be required for much of the material.
 
-{{ "https://www.youtube-nocookie.com/embed/rnM2qAfEG-M" | embed }}
+{{ "https://www.youtube-nocookie.com/embed/rnM2qAfEG-M" | embed: "Implementing HTTPS" }}
 
 Table of contents:
 

@@ -172,7 +172,7 @@ how they will integrate with existing technology stacks and work-flows.
 
 ### The MacGyver
 
-### Who they are
+#### Who they are
 
 The MacGyver is a back end developer who has been charged with front end
 design and development, despite protests. This person has to produce web

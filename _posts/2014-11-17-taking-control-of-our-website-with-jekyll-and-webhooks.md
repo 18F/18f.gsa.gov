@@ -123,7 +123,7 @@ Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xm
 
 For example, the below IFTTT recipe will email you every time 18F publishes something:
 
-<a href="https://ifttt.com/view_embed_recipe/214709-a-new-18f-blog-post-email-me-a-link-to-go-read-it-right-away" target = "_blank" class="embed_recipe embed_recipe-l_63" id= "embed_recipe-214709"><img src= 'https://ifttt.com/recipe_embed_img/214709' alt="IFTTT Recipe: A new 18F blog post?! Email me a link to go read it right away! connects feed to email" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "https://ifttt.com/assets/embed_recipe.js"></script>
+<a href="https://ifttt.com/view_embed_recipe/214709-a-new-18f-blog-post-email-me-a-link-to-go-read-it-right-away" target = "_blank" class="embed_recipe embed_recipe-l_63" id= "embed_recipe-214709"><img src= 'https://ifttt.com/recipe_embed_img/214709' title="IFTTT Recipe: A new 18F blog post?!" alt="IFTTT Recipe: A new 18F blog post?! Email me a link to go read it right away! connects feed to email" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src="https://ifttt.com/assets/embed_recipe.js"></script>
 
 ## Automatic deployment
 

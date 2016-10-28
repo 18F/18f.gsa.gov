@@ -3,7 +3,10 @@ title: "18F: Digital service delivery"
 description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your site
+url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
+federalist_url: "https://federalist.18f.gov"
+localhost: "localhost:4000"
+env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 feature_image: /assets/img/feature-background.jpg
 tag_dir: tags
@@ -27,9 +30,9 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
-  team:
+  authors:
     output: true
-    permalink: /team/:name/
+    permalink: /author/:name/
   cards:
     output: true
     permalink: /card/:name/
@@ -50,7 +53,7 @@ defaults:
     layout: default-intro
  -
   scope:
-    path: "_team"
+    path: "_authors"
   values:
     layout: default-profile
  -
@@ -71,12 +74,11 @@ footer:
   text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
 
 # Build settings
-markdown: redcarpet
+markdown: RedcarpetExt
 highlighter: rouge
 redcarpet:
   syntax_highlighter: rouge
   extensions:
-  - with_toc_data
   - tables
 
 include:
@@ -93,7 +95,6 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
-
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.
