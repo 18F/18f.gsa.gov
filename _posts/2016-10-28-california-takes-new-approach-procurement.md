@@ -84,6 +84,8 @@ is something we have to do on our own, but they are helping us build the
 capacity to do that. And for that we thank you, Denise, Aaron, and
 Hillary.
 
+---
+
 We’ve asked Stuart to be a guest blogger next week and tell the story of
 how California made the choice to switch to an agile procurement
 framework. Check back soon to read more of his story.
