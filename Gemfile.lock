@@ -89,6 +89,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rb-readline (0.5.3)
     redcarpet (3.3.4)
     rouge (1.11.1)
     safe_yaml (1.0.4)
@@ -117,7 +118,11 @@ DEPENDENCIES
   jekyll_pages_api_search
   jemoji
   pry
+  rb-readline
   redcarpet
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 RUBY VERSION
    ruby 2.3.1p112
