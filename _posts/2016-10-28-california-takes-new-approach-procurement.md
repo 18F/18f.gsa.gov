@@ -35,7 +35,7 @@ You can see the video and a transcript below.
 
 <iframe width="620" height="349"
 src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
-allowfullscreen></iframe\>
+allowfullscreen></iframe>
 
 *Note: This transcript has been lightly edited for clarity.*
 
