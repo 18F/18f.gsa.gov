@@ -19,19 +19,18 @@ procurement](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-w
 We brought a cross-functional team of designers, developers, and
 procurement experts to Sacramento to work with the dedicated federal and
 state employees to re-design the procurement process for the state’s
-Child Welfare system. Over the past year, we have been honored to work
-on continuing to simplify the State’s contracting documents and
-incorporating modular contracting, agile development, user-centered
-design, and open source practices into the Child Welfare Services system
-as it is being built.
+Child Welfare system. Over the past year, we have been honored to continue working with the State of California to simplify the State’s contracting documents and
+incorporate modular contracting, agile development, user-centered
+design, and open source practices into California's new Child Welfare Services system
+as it's being built.
 
 The Technology Transformation Service recently held an industry day to
 talk to the private sector community about our vision, our projects, and
-how GSA and vendors can work together to bring modern digital services
+how government technolgoy vendors can work together to bring modern digital services
 to the federal government. For that event, Stuart Drown from the
 California Government Operations Agency recorded a short video talking
 about 18F’s work with California on their Child Welfare Services system.
-You can see the video and a transcript below.
+We wanted to share the video and a transcript below.
 
 <iframe width="620" height="349"
 src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
