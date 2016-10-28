@@ -5,7 +5,7 @@ authors:
 - pkarman
 tags:
 - best practices
-- information management
+- technical guides
 excerpt: "If you’re already using Ruby on Rails and Elasticsearch, check out our replacement Rake tasks for the Elasticsearch Rails gem."
 description: "If you’re already using Ruby on Rails and Elasticsearch, check out our replacement Rake tasks for the Elasticsearch Rails gem."
 image:

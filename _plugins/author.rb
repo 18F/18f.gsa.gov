@@ -73,6 +73,11 @@ module Jekyll
         "<img class='img-circle team-img bio-clip' src='#{@baseurl}/assets/images/18f.png' alt='18F logo'>"
       end
     end
+
+    def initialize(context)
+      @page_path = context.environments.first['page']['path']
+      super
+    end
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -95,18 +100,18 @@ module Jekyll
       if data[input]          # if there's an entry for author, return the value
         data[input][key]
       else                    # if not, exit with a "no such author error"
-        puts "No such author: #{input}"
+        puts "No such author: #{input} in #{@page_path}"
         False
       end
     end
 
     def team_link(input)
-      team = Jekyll.sites[0].collections['team'].docs
-      index = team.find_index {|x| x.data['name'] == input}
+      authors = Jekyll.sites[0].collections['authors'].docs
+      index = authors.find_index { |x| x.data['name'] == input }
       baseurl = Jekyll.sites[0].config['baseurl']
       unless index.nil?
-        url = "#{baseurl}/team/#{team[index].data['name']}"
-        full_name = team[index].data['full_name']
+        url = "#{baseurl}/author/#{authors[index].data['name']}"
+        full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
         url = lookup(input, "authors, url")

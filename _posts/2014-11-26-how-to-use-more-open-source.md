@@ -1,25 +1,18 @@
 ---
 title: "How to use more open source in your next federal IT acquisition"
 layout: post
-
 authors:
  - robert
  - eric
-
 tags:
 - open source
 - acquisition services
 - best practices
-
-image: ""
-
 description: The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
 excerpt: The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
 ---
 
 The history of open source software is a record of steadily turning tremendously expensive custom-built solutions into freely available infrastructure that you can simply take for granted. What once were astoundingly sophisticated, expensive human endeavors have become open source tools you can drop into place in your project on a whim.
-
-<!-- more -->
 
 Open source has changed what it means to make software today. As Gunnar Hellekson has [argued](https://atechnologyjobisnoexcuse.com/2014/08/an-agency-that-learns/) "You can't run an organization today without knowing how to use open source." It's important that every federal CIO, CTO, architect, and program manager seeking to build or procure new IT projects understand that open source exists, that it can be of high quality and highly reusable, and how to use it securely.
 
@@ -50,7 +43,6 @@ We can mark important events in the evolution of the relational database for end
 1. 2014: PostgreSQL can be installed in five minutes, is more convenient to use, and is a common backbone of 18F's projects and many commercial firms.
 
 <img alt="ThirtyYearHistoryOfPostgresAndLucene (1).png" src="/assets/blog/2014/11/25/image00.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
-
 
 The above graph shows our subjective evaluation of the usefulness of PostgreSQL relative to its total cost of ownership. This "geometrically" increasing usefulness is familiar from hardware performance curves plotted against time, but in this case owes very little to that phenomenon. Rather, it represents the typical commoditization of software. The community of users and developers drive important software tools from unique inventions to broadly available tools. Along the way, the tool usually becomes a commercial product, and then becomes available as an open source alternative.
 

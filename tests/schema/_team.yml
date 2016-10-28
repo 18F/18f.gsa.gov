@@ -10,7 +10,7 @@ team:
   oneof: ["Delivery", "Consulting", "Design", "Talent"]
 role: "String"
 config:
-  path: '_team'
+  path: '_authors'
   ignore:
   - README.md
   - ..

@@ -20,9 +20,7 @@ tags:
 - 18f
 - culture
 - how we work
-- pif
 - agency work
-
 
 ---
 
