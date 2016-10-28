@@ -35,7 +35,7 @@ You can see the video and a transcript below.
 
 <iframe width="620" height="349"
 src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
-allowfullscreen\>\</iframe\>
+allowfullscreen></iframe\>
 
 *Note: This transcript has been lightly edited for clarity.*
 
@@ -47,7 +47,7 @@ For the past year, our agency has been working closely with the
 procurement — going from a waterfall, monolithic approach to an agile
 procurement approach for an extraordinarily important project, our
 [Child Welfare Services new system](https://cwds.ca.gov/). In 2015, we
-were about to release an RFP for a \$500 million dollar project. We were
+were about to release an RFP for a $500 million dollar project. We were
 on the seventh version, and had worked on it for nearly three years. In
 a very dramatic switch, with the input of some experts including Todd
 Park [from the White House] and Jennifer Pahlka [from Code for America],
