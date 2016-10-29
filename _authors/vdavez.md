@@ -1,6 +1,6 @@
 ---
 name: vdavez
-first_name: V David
+first_name: Dave
 last_name: Zvenyach
 full_name: V. David Zvenyach
 role: Acquisition Management Director

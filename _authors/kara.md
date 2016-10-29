@@ -10,4 +10,5 @@ github:
 twitter: 
 team: 18F
 redirect_from: /team/kara
+alumni: true
 ---
