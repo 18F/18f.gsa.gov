@@ -1,0 +1,52 @@
+---
+layout: default
+header_border: true
+---
+
+<section class="usa-grid usa-section page-tag-results">
+  <h1>{{ page.title }}</h1>
+  <h2>{{ page.subtitle }}</h2>
+
+    {{ content }}
+
+    <ul class="post-list">
+      {% capture posts %}
+        {{ site.posts | where:"tags", page.project_tag }}
+      {% endcapture %}
+
+      <div class="tag-{{ page.project_tag }} blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+      {% for post in posts %}
+      <!-- {{ post.title }} -->
+        <li>
+          <div class="usa-width-two-thirds">
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            {% include post-author.html context='post' %}
+            {{ post.excerpt }}
+            <p>
+              <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+            </p>
+            <span class="post-tags" itemprop="keywords">
+              {% for tag in post.tags %}
+                <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+                </a>
+              {% endfor %}
+            </span>
+          </div>
+          <div class="usa-width-one-third">
+            {% if post.image.size > 0 %}
+              <a class="media_link" href="{{ post.url | prepend: site.baseurl }}" title="link to post">
+                <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+                <p class="usa-sr-only">continue reading</p>
+              </a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</section>
