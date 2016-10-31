@@ -1,8 +1,9 @@
 ---
 layout: project-tag-results
-title: Our work with the Federal Election Commission
+title: "Project: The Federal Election Commission"
 subtitle: Making campaign data easier to use
-hero_image: 
+image_path: /assets/img/home/hero-fec.png
+image_caption: Image of the FEC data explorer with stylized magnifying glass.
 project_tag: fec.gov
 <!-- permalink:  -->
 expiration_date: 
