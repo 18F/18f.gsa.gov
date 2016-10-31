@@ -26,7 +26,7 @@ as it's being built.
 
 The Technology Transformation Service recently held an industry day to
 talk to the private sector community about our vision, our projects, and
-how government technolgoy vendors can work together to bring modern digital services
+how government technology vendors can work together to bring modern digital services
 to the federal government. For that event, Stuart Drown from the
 California Government Operations Agency recorded a short video talking
 about 18F’s work with California on their Child Welfare Services system.
