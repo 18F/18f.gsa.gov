@@ -98,11 +98,11 @@ module Jekyll
     def set_site_url
       baseurl = Jekyll.sites[0].config['baseurl']
       config_url = Jekyll.sites[0].config['url']
-      site_url = if baseurl.include? 'site/18F/18f.gsa.gov'
-                   config_url
-                 else
-                   baseurl
-                 end
+      if baseurl.include? 'site/18F/18f.gsa.gov'
+        config_url
+      else
+        baseurl
+      end
     end
 
     # team_link filter
