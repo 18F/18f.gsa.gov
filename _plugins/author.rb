@@ -55,7 +55,7 @@ module Jekyll
         end
       end
       unless authored.empty?
-        list = "<#{@heading}>#{first_name}'s blog posts:</#{@heading}>"
+        list = "<#{@heading}>#{first_name}’s blog posts:</#{@heading}>"
         list << "<ul>"
         for a in authored
           list << "<li><a href='#{site_url}#{a.url}'>#{a.data['title']}</a></li>"

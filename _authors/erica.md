@@ -10,4 +10,5 @@ github:
 twitter: 
 team: Design
 redirect_from: /team/erica
+alumni: true
 ---

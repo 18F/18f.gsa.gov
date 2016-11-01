@@ -1,5 +1,5 @@
 ---
-title: Five questions with steve portigal
+title: Five questions with Steve Portigal
 date: '2015-02-18'
 layout: post
 image: /assets/blog/speaker-series/portigal.jpg
