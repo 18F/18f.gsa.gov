@@ -3,6 +3,8 @@ layout: default
 header_border: true
 ---
 
+{% assign matching_posts = page | match_posts %}
+
 <section class="usa-grid usa-section page-tag-results">
 
   <figure>
@@ -11,20 +13,16 @@ header_border: true
   </figure>
 
   <h1>{{ page.title }}</h1>
-  
+
   <h2>{{ page.subtitle }}</h2>
 
     {{ content }}
 
     <ul class="post-list">
-      {% capture posts %}
-        {{ site.posts | where:"tags", page.project_tag }}
-      {% endcapture %}
 
       <div class="tag-{{ page.project_tag }} blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-      {% for post in posts %}
-      <!-- {{ post.title }} -->
+      {% for post in matching_posts %}
         <li>
           <div class="usa-width-two-thirds">
             <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>

@@ -4,11 +4,11 @@ title: "Project: The Federal Election Commission"
 subtitle: Making campaign data easier to use
 image_path: /assets/img/home/hero-fec.png
 image_caption: Image of the FEC data explorer with stylized magnifying glass.
-project_tag: fec.gov
-<!-- permalink:  -->
-expiration_date: 
-github_repo: 
-project_url: 
+project_tags:
+- fec.gov
+expiration_date:
+github_repo:
+project_url:
 ---
 
 ## Background
