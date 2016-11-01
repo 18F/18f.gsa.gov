@@ -15,6 +15,9 @@
 
 @import "_libs/wds/stylesheets/all";
 
+// Core
+// ==========================
+@import "_core/layout";
 
 // 18F site components
 // ==========================
@@ -37,7 +40,6 @@
 @import "_components/post-meta";
 @import "_components/search-results";
 @import "_components/footer";
-
 
 // 18F site templates
 // ==========================
