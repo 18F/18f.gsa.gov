@@ -1,6 +1,6 @@
 ---
 city: Clinton
-first_name: Michael
+first_name: Greg
 full_name: Greg Walker
 github: mgwalker
 last_name: Walker
