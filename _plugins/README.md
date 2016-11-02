@@ -76,6 +76,16 @@ Returns:
           allowfullscreen></iframe>
 </div>```
 
+#### match_posts: finds posts that match a pages' `project_tags`
+
+Example:
+```
+{{ page | match_posts }}
+```
+
+Will look for all the posts on the entire site and return a list of posts that have any tag
+that matches the list of `project_tags` defined in a given project's frontmatter
+
 ### Markdown rendering
 
 #### [markdown.rb](markdown.rb)
