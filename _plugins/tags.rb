@@ -1,6 +1,3 @@
-require 'pry'
-require 'rb-readline'
-
 module Jekyll
   module MatchingPosts
     # match_posts filter
@@ -22,9 +19,7 @@ module Jekyll
         sitepost_tags = sitepost['tags'] || []
         page_tags = page['project_tags'] || []
         matching_post = sitepost_tags & page_tags
-        if matching_post.any?
-          matching_posts << sitepost
-        end
+        matching_posts << sitepost if matching_post.any?
       end
       matching_posts
     end
