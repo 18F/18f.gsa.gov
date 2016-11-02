@@ -126,7 +126,7 @@ In response to the paragraph that began ”while the federal IT spend is approxi
 
 One participant talked about initially seeing 18F as “dot-com whiz kids,” but said that “reading about where people came from, and their backgrounds, I realized that people came from a wider range.”
 
-One participant really like seeing examples of agencies and products we deliver (on ”What we deliver” page):
+One participant really like seeing examples of agencies and products we deliver (on “What we deliver” page):
 
 > You can click on those examples — there’s definitely a clickable thread: what are the products, who did you make them for, what are the products you delivered?
 
