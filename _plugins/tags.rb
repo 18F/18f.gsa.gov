@@ -15,9 +15,9 @@ module Jekyll
     # in a given project's frontmatter
     def match_posts(page)
       matching_posts = []
+      page_tags = page['project_tags'] || []
       Jekyll.sites[0].posts.docs.each do |sitepost|
         sitepost_tags = sitepost['tags'] || []
-        page_tags = page['project_tags'] || []
         matching_post = sitepost_tags & page_tags
         matching_posts << sitepost if matching_post.any?
       end
