@@ -74,9 +74,9 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “Currently working on two agencies digital transformation projects. It's amazing to see how we have been able to help shape two very large agencies to focus on things like human-centered design and improved IT practices.” - {{ "romke" | team_link}}</div>
 
-<div class="response-block">{{ "porta-antiporta" | team_photo }}
+<div class="response-block">{{ "porta" | team_photo }}
 
-“The first two months have been incredible. Still very early on at my tenure at 18F; but our commitment to user centric design and open source...just. makes. so. much. sense.” - {{ "porta-antiporta" | team_link}}</div>
+“The first two months have been incredible. Still very early on at my tenure at 18F; but our commitment to user centric design and open source...just. makes. so. much. sense.” - {{ "porta" | team_link}}</div>
 
 <div class="response-block">{{ "jayhuie" | team_photo }}
 

@@ -243,11 +243,11 @@ be room for someone like me (a lawyer/product manager) to join the
 spectacular team GSA was building.” - {{ "alla" | team_link }}</div>
 
 <div class="response-block">
-{{ "mark-hopson" | team_photo }}
+{{ "mchopson" | team_photo }}
 
 “Margaret Mead said it best 'Never doubt that a small group of
 thoughtful, committed citizens can change the world; indeed, it's the
-only thing that ever has.'” - {{ "mark-hopson" | team_link }}</div>
+only thing that ever has.'” - {{ "mchopson" | team_link }}</div>
 
 <div class="response-block">
 {{ "jessie-posilkin" | team_photo }}
