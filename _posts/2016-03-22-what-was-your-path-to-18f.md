@@ -200,9 +200,9 @@ Let's fix big problems." - {{ "willsullivan" | team_link }}, Haiku writer in Chi
 
 “While working at a startup, I made a new friend that told me I could serve the country by becoming a PIF (Presidential Innovation Fellow). I did just that. After finishing my term as a PIF, I wasn't ready to leave public service. This was a natural way to continue.” - {{ "raphy" | team_link }}</div>
 
-<div class="response-block">{{ "julia-winn" | team_photo }}
+<div class="response-block">{{ "juliawinn" | team_photo }}
 
-“My path to 18F was through the Presidential Innovation Fellow (PIF) program. After serving as a PIF for a year I was able to continue work on one of my projects through 18F thanks to OCSIT's "The Great Pitch".” - {{ "julia-winn" | team_link }}</div>
+“My path to 18F was through the Presidential Innovation Fellow (PIF) program. After serving as a PIF for a year I was able to continue work on one of my projects through 18F thanks to OCSIT's "The Great Pitch".” - {{ "juliawinn" | team_link }}</div>
 
 ## Strategy
 

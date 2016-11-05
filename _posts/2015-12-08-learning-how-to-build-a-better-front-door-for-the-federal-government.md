@@ -4,7 +4,7 @@ date: 2015-12-08 14:00
 authors:
 - colinmacarthur
 - carolyn
-- michellechronister
+- michelle-chronister
 tags:
 - our projects
 - user research

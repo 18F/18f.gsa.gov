@@ -66,9 +66,9 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “I love facilitating workshops and helping people articulate what it is their are trying to do. No matter the agency (or institution), people get stuck articulating the problem the want to solve — which makes it harder to find a solution. Whether drafting contracts, developing a prototype, or scoping the next phase of a project, people light up when they feel heard and see a path forward. It doesn't get old.” - {{ "jessie-posilkin" | team_link}}</div>
 
-<div class="response-block">{{ "julia-winn" | team_photo }}
+<div class="response-block">{{ "juliawinn" | team_photo }}
 
-“I have loved working on <a href="https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb">Playbook in Action</a>, a web application that hopes to make it easier for government to adopt the principles of the <a href="https://playbook.cio.gov/">USDS Playbook</a> in contracted digital services.” - {{ "julia-winn" | team_link}}</div>
+“I have loved working on <a href="https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb">Playbook in Action</a>, a web application that hopes to make it easier for government to adopt the principles of the <a href="https://playbook.cio.gov/">USDS Playbook</a> in contracted digital services.” - {{ "juliawinn" | team_link}}</div>
 
 <div class="response-block">{{ "romke" | team_photo }}
 
