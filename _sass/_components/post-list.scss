@@ -30,15 +30,16 @@
   }
 
   .media_link {
-    margin-top: $site-margins;
+    margin-top: $paragraph-margins;
+    margin-bottom: $paragraph-margins;
 
     @include media($medium-screen) {
-      float: right;
+      float: left;
       margin-top: 0;
     }
   }
 
   img {
-    max-height: 26rem;
+    max-height: 20rem;
   }
 }
