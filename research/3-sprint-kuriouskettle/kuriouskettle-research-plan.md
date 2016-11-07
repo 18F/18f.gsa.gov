@@ -26,6 +26,6 @@ This research sprint will have 2 parts:
 2. Paper-prototype content testing to measure whether the content is clear
     * 3-5 in-person highlighting exercises with federal employees in DC, SF, or Denver
     * Recordings, if possible
-    * [Content interview script](https://github.com/18F/18f.gsa.gov/blob/research/research/2-sprint-festivefjord/festivefjord-content-script.md).
+    * [Content interview script](https://github.com/18F/18f.gsa.gov/blob/research/research/2-sprint-festivefjord/festivefjord-content-script.md)
 
 We’ll work with 18F Agency Partnerships and friends of 18F to find contacts at other agencies.
