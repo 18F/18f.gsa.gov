@@ -10,6 +10,8 @@ authors:
 
 tags:
 - 18f
+- 18f-test-edition
+- user-centered design
 ---
 
 <span>We're truly gratified so many of you liked our sneak preview!
