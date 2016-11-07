@@ -66,6 +66,10 @@ module Jekyll
   end
 
   module AuthorFilter
+    def initialize(context)
+      @page_path = context.environments.first['page']['path']
+      super
+    end
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -127,13 +131,7 @@ module Jekyll
         full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
-        url = lookup(input, "authors, url")
-        name = lookup(input, "authors, full_name")
-        if url
-          string = "<a class='post-author' itemprop='name' href='#{url}'>#{name}</a>"
-        else
-          string = name
-        end
+        puts "No such author: #{input} in #{@page_path}"
       end
     end
   end
