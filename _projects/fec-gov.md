@@ -12,12 +12,20 @@ github_repo: https://github.com/18F/openFEC-web-app
 project_url: https://beta.fec.gov/
 ---
 
-### Background
+The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.
 
-The Federal Election Commission (FEC) is the agency responsible for regulating campaign finance activity in federal elections. The data they collect and publish is used by transparency groups and journalists to inform the public about who donates to campaigns and how money is spent around federal elections.
+The FEC has published campaign finance data for decades, but their legacy website, fec.gov, was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
 
-### How 18F has helped
+### Start small, learn together
 
-The legacy FEC website, fec.gov, is dense. It holds a tremendous amount of complex campaign finance data, legal resources, and information about the rules on raising and spending money in elections. In addition, the FEC had never worked with user-centered design or agile development methods.
+We started by working with the FEC to launch an API (application programming interface), which allows technical users (like journalists) to access data in a predictable way.
 
-As 18F started talking to stakeholders and users, it became clear that what seemed at first to be a simple redesign of fec.gov was actually a much larger challenge. Not only did we need to make the thing, we had to work with FEC to transform its whole approach to making things.
+As our FEC partners saw the benefits of user research and iterative development, they asked us to work alongside them to solve other problems, including:
+
+- Creating search tools so laws, regulations, and enforcement actions are easier to find and use.
+- Migrating confusing legacy content into a new structure so visitors can find and understand the information they need.
+- Exploring how to update the online filing process to help political groups and candidates file the right forms. 
+
+Through all these projects, we’ve worked closely with FEC teams so they can transform their whole approach to interacting with the public online.
+
+In the words of one product owner at the FEC: “We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.”
