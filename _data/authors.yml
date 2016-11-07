@@ -464,6 +464,10 @@ robin-thottungal:
   full_name: Robin A. Thottungal
   first_name: Robin
   last_name: Thottungal
+robin-carnahan:
+  full_name: Robin Carnahan
+  first_anem: Robin
+  last_name: Carnahan
 kris-rowley:
   full_name: Kris Rowley
   first_name: Kris
@@ -501,6 +505,14 @@ willsullivan:
   full_name: Will Sullivan
   first_name:  Will
   last_name: Sullivan
+kristy-singletary:
+  full_name: Kristy Singletary
+  first_name: Kristy
+  last_name: Singletary
+phoebe-espiritu:
+  full_name: Phoebe Espiritu
+  first_name: Pheobe
+  last_name: Espiritu
 yoz:
   first_name: Yoz
   last_name: Grahame
