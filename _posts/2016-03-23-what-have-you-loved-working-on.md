@@ -66,17 +66,17 @@ _Our strategists help agencies transform into modern, high-functioning organizat
 
 “I love facilitating workshops and helping people articulate what it is their are trying to do. No matter the agency (or institution), people get stuck articulating the problem the want to solve — which makes it harder to find a solution. Whether drafting contracts, developing a prototype, or scoping the next phase of a project, people light up when they feel heard and see a path forward. It doesn't get old.” - {{ "jessie-posilkin" | team_link}}</div>
 
-<div class="response-block">{{ "julia-winn" | team_photo }}
+<div class="response-block">{{ "juliawinn" | team_photo }}
 
-“I have loved working on <a href="https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb">Playbook in Action</a>, a web application that hopes to make it easier for government to adopt the principles of the <a href="https://playbook.cio.gov/">USDS Playbook</a> in contracted digital services.” - {{ "julia-winn" | team_link}}</div>
+“I have loved working on <a href="https://playbook-in-action.apps.cloud.gov/#/?_k=2quwrb">Playbook in Action</a>, a web application that hopes to make it easier for government to adopt the principles of the <a href="https://playbook.cio.gov/">USDS Playbook</a> in contracted digital services.” - {{ "juliawinn" | team_link}}</div>
 
 <div class="response-block">{{ "romke" | team_photo }}
 
 “Currently working on two agencies digital transformation projects. It's amazing to see how we have been able to help shape two very large agencies to focus on things like human-centered design and improved IT practices.” - {{ "romke" | team_link}}</div>
 
-<div class="response-block">{{ "porta-antiporta" | team_photo }}
+<div class="response-block">{{ "porta" | team_photo }}
 
-“The first two months have been incredible. Still very early on at my tenure at 18F; but our commitment to user centric design and open source...just. makes. so. much. sense.” - {{ "porta-antiporta" | team_link}}</div>
+“The first two months have been incredible. Still very early on at my tenure at 18F; but our commitment to user centric design and open source...just. makes. so. much. sense.” - {{ "porta" | team_link}}</div>
 
 <div class="response-block">{{ "jayhuie" | team_photo }}
 

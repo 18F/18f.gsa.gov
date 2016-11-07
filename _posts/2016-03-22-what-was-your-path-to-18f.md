@@ -166,9 +166,9 @@ _Each project at 18F has a product lead whose job is to ensure the project is mo
 
 “In 2012, I heard Todd Park speak, and became a Presidential Innovation Fellow in 2013 at the Smithsonian Institution. I helped with the implementation of the Executive Order on Open Data, and saw how small changes in government can have tremendous impact on our economy and our society.” - {{ "sarah" | team_link}}</div>
 
-<div class="response-block">{{ "porta-antiporta" | team_photo }}
+<div class="response-block">{{ "porta" | team_photo }}
 
-“I’d been in the private sector my entire career. I truly enjoy software’s ability to deeply affect outcomes. But growing up as a UN diplomat’s son; I had a yearning to contribute to something with more social impact. We had a BBQ at our place one spring and was chatting on that very subject with Raphy; a really good friend of mine from heading out west to snowboard to him officiating our wedding. He had just recently transitioned from being a Presidential Innovation Fellow to 18F and was talking about 18Fs mission and projects. It was the very thing I was looking for: I’d be able to serve and continue to grow my skills in the software industry (at that point I had no exposure to open source). To be honest though, I wasn’t sure of my chances given the calibre of people at 18F. But I didn’t want to regret not trying, so I gave it a shot. And voila...here I am.” - {{ "porta-antiporta" | team_link}}</div>
+“I’d been in the private sector my entire career. I truly enjoy software’s ability to deeply affect outcomes. But growing up as a UN diplomat’s son; I had a yearning to contribute to something with more social impact. We had a BBQ at our place one spring and was chatting on that very subject with Raphy; a really good friend of mine from heading out west to snowboard to him officiating our wedding. He had just recently transitioned from being a Presidential Innovation Fellow to 18F and was talking about 18Fs mission and projects. It was the very thing I was looking for: I’d be able to serve and continue to grow my skills in the software industry (at that point I had no exposure to open source). To be honest though, I wasn’t sure of my chances given the calibre of people at 18F. But I didn’t want to regret not trying, so I gave it a shot. And voila...here I am.” - {{ "porta" | team_link}}</div>
 
 <div class="response-block">{{ "larry-bafundo" | team_photo }}
 
@@ -200,9 +200,9 @@ Let's fix big problems." - {{ "willsullivan" | team_link }}, Haiku writer in Chi
 
 “While working at a startup, I made a new friend that told me I could serve the country by becoming a PIF (Presidential Innovation Fellow). I did just that. After finishing my term as a PIF, I wasn't ready to leave public service. This was a natural way to continue.” - {{ "raphy" | team_link }}</div>
 
-<div class="response-block">{{ "julia-winn" | team_photo }}
+<div class="response-block">{{ "juliawinn" | team_photo }}
 
-“My path to 18F was through the Presidential Innovation Fellow (PIF) program. After serving as a PIF for a year I was able to continue work on one of my projects through 18F thanks to OCSIT's "The Great Pitch".” - {{ "julia-winn" | team_link }}</div>
+“My path to 18F was through the Presidential Innovation Fellow (PIF) program. After serving as a PIF for a year I was able to continue work on one of my projects through 18F thanks to OCSIT's "The Great Pitch".” - {{ "juliawinn" | team_link }}</div>
 
 ## Strategy
 
