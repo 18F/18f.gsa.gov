@@ -27,5 +27,6 @@ This research sprint will have 2 parts:
     * 3-5 in-person highlighting exercises with federal employees in DC, SF, or Denver
     * Recordings, if possible
     * [Content interview script](https://github.com/18F/18f.gsa.gov/blob/research/research/2-sprint-festivefjord/festivefjord-content-script.md)
+    * [Content interview document (limited access)](https://docs.google.com/document/d/1WHnNdzelv97BDQIKC_2uHngxgZpQelfJEZpLvI45SgA/)
 
 We’ll work with 18F Agency Partnerships and friends of 18F to find contacts at other agencies.
