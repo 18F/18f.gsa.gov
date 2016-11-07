@@ -4,7 +4,7 @@ first_name: Porta
 full_name: Porta Antiporta
 github: porta-antiporta
 last_name: Antiporta
-name: porta-antiporta
+name: porta
 role: Product Lead
 state: IL
 team: Product

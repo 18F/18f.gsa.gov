@@ -4,7 +4,7 @@ first_name: Julia
 full_name: Julia Winn
 github: 
 last_name: Winn
-name: julia-winn
+name: juliawinn
 role: 
 state: D.C.
 team: 
