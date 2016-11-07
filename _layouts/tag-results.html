@@ -8,11 +8,9 @@ header_border: true
   {% assign numberof = page.posts | size %}
   <h1>{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged {{ page.title }}</h1>
 
-  {% include tag_results_posts = page.posts %}
-
   {%
     include tag-results.html
-    posts=tag_results_posts
+    posts=page.posts
     tags=page.tags
   %}
 
