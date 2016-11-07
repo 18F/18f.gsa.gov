@@ -3,7 +3,7 @@ layout: default
 header_border: true
 ---
 
-{% assign matching_posts = page | match_posts %}
+{% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
 <section class="usa-grid content-focus page-tag-results">
   <section class="hero"
@@ -11,7 +11,7 @@ header_border: true
            aria-label="{{ page.image_caption }}">
     <div class="usa-grid">
       <div class="hero-callout hero-callout-no_button background-dark">
-        <h1 class="h2">{{ page.title }}</h1>
+        <h1 class="h3">{{ page.title }}</h1>
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@ header_border: true
   </section>
 
   <section>
-    <h2>Our blog posts about the process</h2>
+    <h3>Our blog posts about the process</h3>
 
     {%
       include tag-results.html
