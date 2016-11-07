@@ -5,6 +5,8 @@ authors:
 - andre
 tags:
 - open source
+- presidential innovation fellows
+-  gsa
 excerpt: "Last week, U.S. Chief Information Officer Tony Scott announced the launch of code.gov, another important milestone in the federal government’s adoption of open source code. The new site provides access to more than 50 open source projects from 13 federal agencies. "
 description: "Last week, U.S. Chief Information Officer Tony Scott announced the launch of code.gov, another important milestone in the federal government’s adoption of open source code. The new site provides access to more than 50 open source projects from 13 federal agencies. "
 image: /assets/blog/code-gov/homepage-2016.jpg
