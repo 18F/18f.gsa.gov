@@ -2,6 +2,13 @@
 // ==========================
 
 .page-tag-results {
+  .hero {
+    padding-bottom: 6rem;
+  }
+  .hero-callout {
+    max-width: 26rem;
+  }
+
   .post-list {
     li {
       &:first-child {
