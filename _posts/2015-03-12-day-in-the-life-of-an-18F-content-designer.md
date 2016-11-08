@@ -4,7 +4,7 @@ layout: post
 image: /assets/blog/day-in-life-content/kate.JPG
 
 tags:
-- day-in the life
+- day in the life
 - how we work
 - design
 - content design
