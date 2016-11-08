@@ -124,7 +124,7 @@ module Jekyll
     # Content is boone's name
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
-      index = authors.find_index { |x| x.data['name'] == input }
+      index = authors.find_index { |x| x.data['name'].downcase == input.downcase }
       site_url = set_site_url
       unless index.nil?
         name = authors[index].data['name'].downcase
