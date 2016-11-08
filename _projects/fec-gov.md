@@ -14,13 +14,15 @@ project_url: https://beta.fec.gov/
 
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.
 
-The FEC has published campaign finance data for decades, but their legacy website, fec.gov, was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
+The FEC has published campaign finance data for decades, but their legacy website was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
 
 ### Start small, learn together
 
 We started by working with the FEC to launch an API (application programming interface), which allows technical users (like journalists) to access data in a predictable way.
 
-As our FEC partners saw the benefits of user research and iterative development, they asked us to work alongside them to solve other problems, including:
+Next, we launched a [public beta](https://beta.fec.gov), which allowed us to get feedback from real users and build new features based on what we learned.
+
+As our FEC partners saw the benefits of working iteratively and putting user needs first, they asked us to work alongside them to solve other problems, including:
 
 - Creating search tools so laws, regulations, and enforcement actions are easier to find and use.
 - Migrating confusing legacy content into a new structure so visitors can find and understand the information they need.
