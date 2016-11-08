@@ -31,7 +31,7 @@ help agencies achieve their policy goals. Being adopters of the lean
 startup philosophy, this means one thing: Let’s run an experiment. To
 test our hypothesis, we’re launching an alpha version of our first
 policy vertical (or niche market) within [18F
-Consulting](/consulting/): the Digital Economy
+Consulting]({{ site.baseurl }}/consulting/): the Digital Economy
 Practice.
 
 <div style="text-align:center">

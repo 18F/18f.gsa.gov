@@ -197,7 +197,7 @@ to change.
 
 We’ve previously published a guide to running your own [3-Sprint Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/).
 
-[18F Consulting](/consulting/) provides Agile
+[18F Consulting]({{ site.baseurl }}/consulting/) provides Agile
 coaching, modular contracting expertise and technical advice to Federal
 agencies at cost-recovery prices.
 
