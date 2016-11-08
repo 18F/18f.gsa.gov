@@ -20,7 +20,6 @@ group :jekyll_plugins do
   gem 'jekyll_frontmatter_tests'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-server-redirects'
 end
 gem 'jemoji'
 
