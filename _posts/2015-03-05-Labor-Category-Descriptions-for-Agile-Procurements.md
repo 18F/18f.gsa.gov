@@ -16,7 +16,7 @@ excerpt: "Clients of 18F Consulting frequently ask for help defining labor categ
 description: "Clients of 18F Consulting frequently ask for help defining labor categories for agile contracts. We’ve published these definitions in a public GitHub repo so other acquisition professionals can benefit from them, too. Read on for more details."
 ---
 
-[18F Consulting](https://18f.gsa.gov/consulting/) provides hands-on consulting services to Federal leaders who need assistance in designing and managing software acquisitions that use modern development practices such as [user-centered design](https://18f.gsa.gov/2014/09/25/design-studio-onrr/), [agile](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/), and [open source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/). In short, think of us as your in-house technical brains for your next software acquisition.
+[18F Consulting](/consulting/) provides hands-on consulting services to Federal leaders who need assistance in designing and managing software acquisitions that use modern development practices such as [user-centered design](https://18f.gsa.gov/2014/09/25/design-studio-onrr/), [agile](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/), and [open source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/). In short, think of us as your in-house technical brains for your next software acquisition.
 
 One of the frequent requests that we receive from our clients is to help them define labor categories for their digital/agile contracts. In case you're unfamiliar with the term labor category, it's more or less Federal procurement speak for a job description that an outside vendor is required to perform.
 

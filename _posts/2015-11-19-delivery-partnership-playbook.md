@@ -48,7 +48,7 @@ execute the play.
 As [our work](https://18f.gsa.gov/dashboard)
 goes on, we will continue to iterate this playbook and other guides to
 memorialize the lessons we learn. If you don’t feel prepared to work in
-the ways described, [18F Consulting](https://18f.gsa.gov/consulting/)
+the ways described, [18F Consulting](/consulting/)
 may be able to help introduce some of the playbook’s ideas through tools
 like
 [agile](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/)

@@ -300,6 +300,6 @@ a team-building exercise. The case study has example goals, projects, and
 pivots to give you ideas for your own workshop.
 
 ## Another option: Bring on 18F as a coach
-18F has recently created a new pilot line of business called [18F Consulting](https://18f.gsa.gov/consulting/) which offers agile coaching and other services at cost-recovery
+18F has recently created a new pilot line of business called [18F Consulting](/consulting/) which offers agile coaching and other services at cost-recovery
 prices under the Economy Act. If you’d like assistance or you’d like us to
 run a workshop for your team, please [get in touch](mailto:18f@gsa.gov)!

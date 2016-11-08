@@ -84,7 +84,7 @@ __First, identify the 10 most important software components of your system.__ An
 
 __Now take each component and analyze it in terms of the evolution axis.__ That is, was it written by your agency, or by a contractor? Or are you using a COTS component which is not open source? Are you using open source components, and if so, are they broadly supported or not? In many systems, you will find a mix of these categories. For example, most systems will have a small amount of custom code. Systems vary widely in terms of how many open source components they utilize.
 
-__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with sticky notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link](https://18f.gsa.gov/consulting/docs/open_source_wardley_duncan_map_printable.pdf) to this diagram:
+__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with sticky notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link](/consulting/docs/open_source_wardley_duncan_map_printable.pdf) to this diagram:
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;"><img alt="PrintableOpenSourceWardleyDuncanMap (2).png" src="/assets/blog/2014/11/25/image02.png" style="width: 624.00px; height: 468.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
 
@@ -201,7 +201,7 @@ Code that you write or contract to have written should be open source from the s
 
 ## 18F Consulting
 
-The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the federal government procurement process. We created [18F Consulting](https://18f.gsa.gov/consulting/) to provide this much needed technical expertise on a consultative basis at cost to guide federal programs toward a modular architecture using agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
+The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the federal government procurement process. We created [18F Consulting](/consulting/) to provide this much needed technical expertise on a consultative basis at cost to guide federal programs toward a modular architecture using agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
 
 ## Glossary
 
@@ -219,7 +219,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">18F Consulting</td>
-			<td colspan="1" rowspan="1">A <a href="https://18f.gsa.gov/consulting/">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
+			<td colspan="1" rowspan="1">A <a href="/consulting/">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
 		</tr>
 		<tr >
 			<td colspan="1" rowspan="1">application framework</td>

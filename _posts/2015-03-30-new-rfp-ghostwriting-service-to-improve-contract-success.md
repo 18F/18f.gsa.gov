@@ -27,7 +27,7 @@ send you down a long and painful path of technical rework, contract
 modifications, and cost and schedule overruns. You don’t want that. The
 taxpaying public doesn’t want that. And neither does 18F.
 
-That’s why [18F Consulting](https://18f.gsa.gov/consulting/) is now
+That’s why [18F Consulting](/consulting/) is now
 offering **RFP Ghostwriting and Review** as a service to federal
 agencies.
 

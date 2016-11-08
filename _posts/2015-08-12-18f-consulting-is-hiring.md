@@ -19,7 +19,7 @@ published: false
 ---
 
 As 18F grows, so does
-the [18F Consulting](https://18f.gsa.gov/consulting/) team. The way we
+the [18F Consulting](/consulting/) team. The way we
 operate is to roll-up our sleeves alongside our federal partners and
 help them solve the biggest challenges facing their agency. These
 challenges range from reducing the disability claims backlog to giving
