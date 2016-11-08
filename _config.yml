@@ -88,6 +88,10 @@ exclude:
   - vendor
   - node_modules
 
+custom_redirects:
+  - from: ^https://18f.gsa.gov/consulting/$
+    to: /what-we-deliver
+    type: permanent
 # jekyll plugins
 gems:
   - jekyll-sitemap
