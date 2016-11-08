@@ -127,7 +127,8 @@ module Jekyll
       index = authors.find_index { |x| x.data['name'] == input }
       site_url = set_site_url
       unless index.nil?
-        url = "#{site_url}/author/#{authors[index].data['name']}"
+        name = authors[index].data['name'].downcase
+        url = "#{site_url}/author/#{name}"
         full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
