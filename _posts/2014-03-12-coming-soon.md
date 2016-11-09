@@ -10,7 +10,6 @@ authors:
 
 tags:
 - 18f
-- test-tag
 ---
 
 <span>We're truly gratified so many of you liked our sneak preview!
