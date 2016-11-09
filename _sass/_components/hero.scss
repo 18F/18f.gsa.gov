@@ -30,6 +30,12 @@
   }
 }
 
+.hero-callout-no_button {
+  > *:first-child {
+    margin-bottom: 0;
+  }
+}
+
 .hero-callout-alt_color {
   color: $color-bright;
   display: block;

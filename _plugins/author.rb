@@ -66,6 +66,10 @@ module Jekyll
   end
 
   module AuthorFilter
+    def initialize(context)
+      @page_path = context.environments.first['page']['path']
+      super
+    end
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -93,6 +97,18 @@ module Jekyll
       end
     end
 
+    # method to set the site_url given the Jekyll configurations
+    # works locally, on Federalist, and in production
+    def set_site_url
+      baseurl = Jekyll.sites[0].config['baseurl']
+      config_url = Jekyll.sites[0].config['url']
+      if baseurl.include? 'site/18F/18f.gsa.gov'
+        config_url
+      else
+        baseurl
+      end
+    end
+
     # team_link filter
     #
     # A liquid filter that takes an author name as "input" and returns a link to an author's
@@ -108,20 +124,15 @@ module Jekyll
     # Content is boone's name
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
-      index = authors.find_index { |x| x.data['name'] == input }
-      baseurl = Jekyll.sites[0].config['baseurl']
+      index = authors.find_index { |x| x.data['name'].downcase == input.downcase }
+      site_url = set_site_url
       unless index.nil?
-        url = "#{baseurl}/author/#{authors[index].data['name']}"
+        name = authors[index].data['name'].downcase
+        url = "#{site_url}/author/#{name}"
         full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       else
-        url = lookup(input, "authors, url")
-        name = lookup(input, "authors, full_name")
-        if url
-          string = "<a class='post-author' itemprop='name' href='#{url}'>#{name}</a>"
-        else
-          string = name
-        end
+        puts "No such author: #{input} in #{@page_path}"
       end
     end
   end

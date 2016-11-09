@@ -15,6 +15,7 @@ tags:
 excerpt: " The Request for Quotation (RFQ) for the Agile Delivery Services Blanket Purchase Agreement (Agile Delivery BPA) is hitting the street on Wednesday, June 17, 2015."
 description: " The Request for Quotation (RFQ) for the Agile Delivery Services Blanket Purchase Agreement (Agile Delivery BPA) is hitting the street on Wednesday, June 17, 2015."
 image: /assets/blog/were-hiring/team.jpg
+hero: false
 ---
 
 *Update: [The RFQ is live!](https://github.com/18F/ads-bpa/blob/18f-pages/assets/ADS%20RFQ%20Revised%20Modification%205.pdf)*

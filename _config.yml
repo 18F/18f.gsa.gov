@@ -39,6 +39,9 @@ collections:
   press:
     output: true
     permalink: /press/:name/
+  projects:
+    output: true
+    permalink: project/:path/
 
 defaults:
  -
@@ -87,7 +90,6 @@ exclude:
   - README.md
   - vendor
   - node_modules
-
 # jekyll plugins
 gems:
   - jekyll-sitemap

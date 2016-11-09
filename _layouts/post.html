@@ -24,7 +24,7 @@ layout: default
 
     <div class="post-content" itemprop="articleBody">
       {% if page.image and page.image_feature_small == true %}
-        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="">
+        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
       {% endif %}
 
       {{ content }}
