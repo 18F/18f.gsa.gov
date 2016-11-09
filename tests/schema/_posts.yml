@@ -7,7 +7,6 @@ tags:
   type: Array
   rules: [no-dash, lowercase]
 excerpt: "string"
-description: "string"
 config:
   path: '_posts'
   ignore:

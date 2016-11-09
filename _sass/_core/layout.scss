@@ -1,0 +1,15 @@
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+  margin-top: $paragraph-margins;
+}
+
+section + section {
+  margin-top: $section-margins;
+}
+
+.break-bottom {
+  border-bottom: $border-light;
+  padding-bottom: $section-margins;
+}

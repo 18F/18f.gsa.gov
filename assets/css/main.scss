@@ -7,19 +7,21 @@
 // 18F site variables
 // ==========================
 
-@import "_components/variables";
-
+@import "_core/variables";
 
 // USWDS
 // ==========================
 
 @import "_libs/wds/stylesheets/all";
 
+// Core
+// ==========================
+@import "_core/layout";
+@import "_core/typography";
 
 // 18F site components
 // ==========================
 
-@import "_components/typography";
 @import "_components/code-samples";
 @import "_components/buttons";
 @import "_components/header";
@@ -37,7 +39,6 @@
 @import "_components/post-meta";
 @import "_components/search-results";
 @import "_components/footer";
-
 
 // 18F site templates
 // ==========================
