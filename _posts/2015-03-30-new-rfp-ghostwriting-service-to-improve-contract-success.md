@@ -27,7 +27,7 @@ send you down a long and painful path of technical rework, contract
 modifications, and cost and schedule overruns. You don’t want that. The
 taxpaying public doesn’t want that. And neither does 18F.
 
-That’s why [18F Consulting](https://18f.gsa.gov/consulting/) is now
+That’s why [18F Consulting]({{ site.baseurl }}/consulting/) is now
 offering **RFP Ghostwriting and Review** as a service to federal
 agencies.
 
@@ -40,7 +40,7 @@ With these types of technical brains at your service, we can help you
 craft an RFP that increases your acquisition project’s probability of
 success.
 
-![18F Consulting Services]({{site.baseurl}}/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif)
+# 18F Consulting Services
 
 These are the types of questions we ask as we’re reviewing RFPs:
 

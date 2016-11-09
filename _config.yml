@@ -90,7 +90,6 @@ exclude:
   - README.md
   - vendor
   - node_modules
-
 # jekyll plugins
 gems:
   - jekyll-sitemap

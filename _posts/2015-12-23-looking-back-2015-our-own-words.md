@@ -232,7 +232,7 @@ _The 18F Design Method cards are open source to download and print off._
 
 ### Partner meetings
 
-*Our [consulting team](https://18f.gsa.gov/consulting/) routinely meets with agencies for [agile workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
+*Our [consulting team]({{ site.baseurl }}/consulting/) routinely meets with agencies for [agile workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
 
 “I really enjoyed participating in initial partner meetings to help evaluate the technical needs of proposed projects. It’s made me realize just how many government agencies are eager to move to an agile, user-centered way of working.” - **Alex Bisker**
 

@@ -44,7 +44,7 @@ have been adopting them.
 So the SBA was ready to try it out. They hired an agile vendor, but knew
 in order to be successful they had to change how they worked, too.
 
-SBA asked [18F Consulting](https://18f.gsa.gov/consulting/) to run an
+SBA asked [18F Consulting]({{ site.baseurl }}/consulting/) to run an
 “introduction to agile” workshop for their executives. They wanted the
 executive team to be familiar with agile: how it worked, agile-specific
 vocabulary, and why agile will help them succeed.
