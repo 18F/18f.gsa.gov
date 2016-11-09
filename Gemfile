@@ -9,7 +9,7 @@ group :jekyll_plugins do
   if ENV['FAST_BUILDS'] == 'true'
     puts 'not using jekyll-archives because its sloooooooooow'
   else
-    gem 'jekyll-archives', :git => 'https://github.com/jekyll/jekyll-archives.git'
+    gem 'jekyll-archives', :git => 'https://github.com/18F/jekyll-archives.git'
   end
 
   gem 'jekyll_pages_api'
