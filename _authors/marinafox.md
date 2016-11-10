@@ -9,6 +9,7 @@ role:
 state: 
 team: 
 twitter: 
+guest: true
 url: https://www.digitalgov.gov/author/mfox/
 redirect_from: 
 ---
