@@ -3,15 +3,17 @@ layout: default
 header_border: true
 ---
 
-<section class="usa-grid usa-section page-tag-results">
+<section class="usa-grid usa-section page-tag-results break-bottom">
   <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">Blog</a>
   {% assign numberof = page.posts | size %}
   <h1>{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged {{ page.title }}</h1>
+</section>
 
+<section class="usa-grid content-focus page-tag-results">
   {%
     include tag-results.html
     posts=page.posts
     tags=page.tags
+    trim_padding=true
   %}
-
 </section>
