@@ -9,5 +9,5 @@ role: User Experience Designer
 github: 
 twitter: 
 team: Design
-redirect_from: /team/gail
+redirect_from: /team/gail/
 ---

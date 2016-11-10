@@ -9,5 +9,5 @@ role: Developer
 state: DC
 team: Delivery
 twitter: aertzeid
-redirect_from: /team/amanda-robinson
+redirect_from: /team/amanda-robinson/
 ---

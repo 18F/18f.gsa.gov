@@ -9,5 +9,5 @@ role: Developer
 state: WY
 team: Engineering
 twitter: 
-redirect_from: /team/clinton-troxel
+redirect_from: /team/clinton-troxel/
 ---

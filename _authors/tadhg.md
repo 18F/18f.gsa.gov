@@ -9,5 +9,5 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/tadhg
+redirect_from: /team/tadhg/
 ---

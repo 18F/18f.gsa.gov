@@ -10,5 +10,4 @@ github:
 twitter:
 team: 18F
 redirect_from: /team/aaron/
-alumni: true
 ---

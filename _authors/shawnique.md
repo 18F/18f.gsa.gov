@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Talent
-redirect_from: /team/shawnique
+redirect_from: /team/shawnique/
 ---

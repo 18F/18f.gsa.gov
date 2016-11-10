@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: 
-redirect_from: /team/michael-balint
+redirect_from: /team/michael-balint/
 ---

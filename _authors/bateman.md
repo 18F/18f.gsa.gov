@@ -9,5 +9,5 @@ state: DC
 github: batemapf
 twitter: 
 team: 
-redirect_from: /team/bateman
+redirect_from: /team/bateman/
 ---

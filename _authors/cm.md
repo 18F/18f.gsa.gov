@@ -9,5 +9,5 @@ state: PA
 github: cmc333333
 twitter: 
 team: Delivery
-redirect_from: /team/cm
+redirect_from: /team/cm/
 ---

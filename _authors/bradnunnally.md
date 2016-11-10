@@ -9,5 +9,5 @@ state: MO
 github: 
 twitter: 
 team: Design
-redirect_from: /team/bradnunnally
+redirect_from: /team/bradnunnally/
 ---

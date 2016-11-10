@@ -9,5 +9,5 @@ role:
 state: NC
 team: Engineering
 twitter: 
-redirect_from: /team/colin-craig
+redirect_from: /team/colin-craig/
 ---

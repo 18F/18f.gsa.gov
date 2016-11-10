@@ -9,5 +9,5 @@ state: D.C.
 github: harrisj
 twitter: harrisj
 team: Delivery
-redirect_from: /team/jacobharris
+redirect_from: /team/jacobharris/
 ---

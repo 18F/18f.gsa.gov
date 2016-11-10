@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: 18F
-redirect_from: /team/ric
+redirect_from: /team/ric/
 ---

@@ -10,5 +10,5 @@ github:
 twitter: 
 email: rebecca.sweger@gsa.gov
 team: Delivery
-redirect_from: /team/becky
+redirect_from: /team/becky/
 ---

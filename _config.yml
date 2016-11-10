@@ -41,7 +41,7 @@ collections:
     permalink: /press/:name/
   projects:
     output: true
-    permalink: project/:path/
+    permalink: /project/:path/
 
 defaults:
  -

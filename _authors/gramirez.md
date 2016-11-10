@@ -9,6 +9,6 @@ state: D.C.
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/gramirez
+redirect_from: /team/gramirez/
 alumni: true
 ---

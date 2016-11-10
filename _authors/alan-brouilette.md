@@ -9,5 +9,5 @@ role: Product Manager
 state: IL
 team: Product
 twitter: 
-redirect_from: /team/alan-brouilette
+redirect_from: /team/alan-brouilette/
 ---
