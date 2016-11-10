@@ -9,5 +9,5 @@ role: Procurement Specialist
 state: DC
 team: Consulting
 twitter: 
-redirect_from: /team/randy-hart
+redirect_from: /team/randy-hart/
 ---

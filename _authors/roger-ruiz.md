@@ -9,5 +9,5 @@ state: VA
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/roger-ruiz
+redirect_from: /team/roger-ruiz/
 ---

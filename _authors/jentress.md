@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Talent
-redirect_from: /team/jentress
+redirect_from: /team/jentress/
 ---

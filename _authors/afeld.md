@@ -9,5 +9,5 @@ state: NY
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/afeld
+redirect_from: /team/afeld/
 ---

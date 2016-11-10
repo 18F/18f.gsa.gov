@@ -41,7 +41,7 @@ collections:
     permalink: /press/:name/
   projects:
     output: true
-    permalink: project/:path/
+    permalink: /project/:path/
 
 defaults:
  -
@@ -97,6 +97,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
+
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.

@@ -9,5 +9,5 @@ role: Technical Architect
 state: D.C.
 team: Consulting
 twitter: 
-redirect_from: /team/adrian-webb
+redirect_from: /team/adrian-webb/
 ---

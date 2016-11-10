@@ -9,5 +9,5 @@ role: Project Manager
 state: CA
 team: Delivery
 twitter: 
-redirect_from: /team/larry-bafundo
+redirect_from: /team/larry-bafundo/
 ---

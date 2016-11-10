@@ -9,5 +9,5 @@ role: User Experience Designer
 state: IL
 team: Design
 twitter: 
-redirect_from: /team/john-donmoyer
+redirect_from: /team/john-donmoyer/
 ---

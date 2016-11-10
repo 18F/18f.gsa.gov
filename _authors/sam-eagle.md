@@ -16,5 +16,5 @@ joke: |
 
   *As of press time, Sam had not yet been introduced to Slack.
 layout: nothing
-redirect_from: /team/sam-eagle
+redirect_from: /team/sam-eagle/
 ---

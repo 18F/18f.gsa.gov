@@ -7,5 +7,5 @@ role:
 team: 
 city: New York
 state: NY
-redirect_from: /team/jameshupp
+redirect_from: /team/jameshupp/
 ---

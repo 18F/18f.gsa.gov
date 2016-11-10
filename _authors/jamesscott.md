@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/jamesscott
+redirect_from: /team/jamesscott/
 ---

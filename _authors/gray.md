@@ -15,5 +15,5 @@ project:
 - "/Devleoper Program"
 - analytics.usa.gov
 - pulse.cio.gov
-redirect_from: /team/gray
+redirect_from: /team/gray/
 ---

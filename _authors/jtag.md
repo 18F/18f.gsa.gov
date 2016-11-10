@@ -9,5 +9,5 @@ state: CA
 github: 
 twitter: 
 team: Consulting
-redirect_from: /team/jtag
+redirect_from: /team/jtag/
 ---

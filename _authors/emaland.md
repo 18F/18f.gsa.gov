@@ -9,5 +9,5 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/emaland
+redirect_from: /team/emaland/
 ---

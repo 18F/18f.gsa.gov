@@ -9,5 +9,5 @@ role: Project Manager
 state: TN
 team: 18F Consulting
 twitter: cgoranson
-redirect_from: /team/christopher-goranson
+redirect_from: /team/christopher-goranson/
 ---

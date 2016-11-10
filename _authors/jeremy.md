@@ -9,5 +9,5 @@ state: NY
 github: 
 twitter: 
 team: Design
-redirect_from: /team/jeremy
+redirect_from: /team/jeremy/
 ---

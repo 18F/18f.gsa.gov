@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Presidential Innovation Fellowship
-redirect_from: /team/nolson
+redirect_from: /team/nolson/
 ---

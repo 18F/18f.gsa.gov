@@ -10,5 +10,5 @@ github:
 twitter: 
 team: Consulting
 project: 
-redirect_from: /team/khandelwal
+redirect_from: /team/khandelwal/
 ---
