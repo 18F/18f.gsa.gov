@@ -7,5 +7,6 @@ role:
 team: 
 city: 
 state: 
+guest: true
 redirect_from: 
 ---
