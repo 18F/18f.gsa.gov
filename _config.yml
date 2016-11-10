@@ -92,11 +92,14 @@ exclude:
   - node_modules
 # jekyll plugins
 gems:
-  - jekyll-sitemap
-  - jekyll-archives
   - jekyll-redirect-from
+  - jekyll-archives
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-redirect-from
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.
