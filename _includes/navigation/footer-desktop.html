@@ -9,18 +9,18 @@
   </div>
   <div class="footer-links">
     <ul>
+    {% for item in include.nav_items %}
+      {% if item.in_footer %}
       <li>
-        <a href="{{ site.baseurl }}/what-we-deliver/">What we deliver</a>
+        {% if item.permalink %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% else %}
+          {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
+        {% endif %}
+        <a href="{{ item_link }}">{{ item.text }}</a>
       </li>
-      <li>
-        <a href="{{ site.baseurl }}/hire/">Hire 18F</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/join/">Join 18F</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/blog/">Blog</a>
-      </li>
+      {% endif %}
+    {% endfor %}
     </ul>
   </div>
   <div class="footer-links">

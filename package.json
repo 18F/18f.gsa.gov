@@ -11,7 +11,9 @@
   },
   "scripts": {
     "test": "bundle exec jekyll test",
-    "lint-508": "bash ./accessibility-scan"
+    "lint-508": "bash ./accessibility-scan",
+    "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov"
   },
   "repository": {
     "type": "git",

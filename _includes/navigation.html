@@ -1,29 +1,41 @@
 {% assign current = page.url | downcase | split: '/' %}
 
-<ul>
-  <li>
-    <a {% if current[1] == 'what-we-deliver' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/what-we-deliver/">
-      <span>What we deliver</span>
-    </a>
-  </li>
-  <li>
-    <a {% if current[1] == 'how-we-work' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/how-we-work/">
-      <span>How we work</span>
-    </a>
-  </li>
-  <li>
-    <a {% if current[1] == 'hire' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/hire/">
-      <span>Hire 18F</span>
-    </a>
-  </li>
-  <li>
-    <a {% if current[1] == 'join' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/join/">
-      <span>Join 18F</span>
-    </a>
-  </li>
-  <li>
-    <a {% if current[1] == 'blog' or page.path contains '_posts' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/blog/">
-      <span>Blog</span>
-    </a>
-  </li>
-</ul>
+{% assign nav_items = site.data.navigation %}
+{% assign nav_items = nav_items['assigned'] %}
+
+{% if include.navbar %}
+  {% include navigation/navbar.html nav_items=nav_items %}
+{% endif %}
+
+{% if include.drawer %}
+  {%
+    include navigation/drawer.html
+    children=true
+    nav_items=nav_items
+  %}
+{% endif %}
+
+
+{% if include.subnav %}
+  {% assign subnav_page_url = include.subnav_anchor | default: page.url %}
+  {% assign page_data = subnav_page_url | find_page: nav_items %}
+
+  {% include navigation/subnav.html
+     page_data=page_data
+     children=true
+  %}
+{% endif %}
+
+{% if include.footer %}
+  {%
+    include navigation/footer-mobile.html
+    children=false
+    nav_items=nav_items
+  %}
+  <!-- nav_items: {{ nav_items }} -->
+  {%
+    include navigation/footer-desktop.html
+    children=false
+    nav_items=nav_items
+  %}
+{% endif %}

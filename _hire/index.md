@@ -1,7 +1,6 @@
 ---
 title: Hire 18F
 permalink: /hire/
-layout: default-image
 image: /assets/img/page-feature/hire-us.jpg
 lead: Let’s work together to design services that empower your team, better serve the public, and tackle the big problems facing your agency.
 ---

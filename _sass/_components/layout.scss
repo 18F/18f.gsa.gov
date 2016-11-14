@@ -162,6 +162,10 @@
   }
 }
 
+.content-focus.content-wide {
+  max-width: $site-max-width;
+}
+
 .usa-content {
   ol,
   ul {

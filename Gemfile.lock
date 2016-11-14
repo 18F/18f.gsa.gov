@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/18F/jekyll-archives.git
-  revision: 53cef8a1a1c515d23ef9499d6affb77d13e70f54
+  revision: 9ad78a4aa38de0af570a53f3c12558408e9537f7
   specs:
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
@@ -133,4 +133,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.5
+   1.13.6

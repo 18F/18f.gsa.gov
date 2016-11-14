@@ -86,6 +86,82 @@ Example:
 Will look for all the posts on the entire site and return a list of posts that have any tag
 that matches the list of `tags` defined in a given project's frontmatter
 
+#### hash_link: returns a hashed version of a given link. Lives in [utility.md](utility.md).
+
+Example:
+```bash
+{{ 'how-we-work' | has_link }}
+> #how-we-work
+```
+
+#### dasherize: returns a dash-delimited version of the same string. Lives in [utility.md](utility.md).
+
+Example:
+```bash
+{{ 'how we work' | dasherize }}
+> how we work
+
+{{ 'how we work' | dasherize | hash_link }}
+> #how we work
+```
+
+#### matches_url: determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).
+
+Example:
+```bash
+{{ '/hire/partnership-playbook/' | matches_url: '/hire/' }}
+> nil
+
+{{ '/hire/partnership-playbook/' | matches_url: '/hire/partnership-playbook/' }}
+> true
+```
+
+#### matches_url_parent: determines if the current page url (`page_url`) is a path decendent of a given `url`. Lives in [utility.md](utility.md).
+
+Example:
+```bash
+{{ '/hire/' | matches_url_parent: '/hire/partnership-playbook/' }}
+> true
+
+{{ '/hire/partnership-playbook/' | matches_url_parent: '/hire/partnership-playbook/' }}
+> true
+
+{{ '/hire/partnership-playbook/' | matches_url: '/hire/' }}
+> nil
+
+{{ '/join/' | matches_url_parent: '/hire/partnership-playbook/' }}
+> nil
+```
+
+#### find_page: looks at the list of navigation fields in [navigation.yml](navigation.yml) and find the object that corresponds with a given url. Lives in [utility.md](utility.md).
+
+It takes two arguments, `page_url` and `nav_items`, where `nav_items` is either the entire navigation.yml data file, or a subset of it.
+
+Returns a nested set of navigation originating at the object corresponding to the defined `page_url`
+
+Example:
+```bash
+{{ '/how-we-work/' | find_page: nav_items }}
+> {
+  text: How we work
+  href: pages/how-we-work.md
+  permalink: /how-we-work/
+  in_menu: true
+  in_drawer: true
+  in_footer: false
+  children: nil
+}
+```
+
+
+#### check_type: debugging tool to pull up a erb shell at a given point in the liquid markup
+
+Example:
+```bash
+{{ variable | check_type }}
+
+```
+
 ### Markdown rendering
 
 #### [markdown.rb](markdown.rb)
