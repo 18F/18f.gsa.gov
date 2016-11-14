@@ -1,6 +1,6 @@
 ---
 title: "Agile procurement resources for state and local government"
-date: 2016-11-14
+date: 2016-11-15
 authors:
 - mheadd
 - robin-carnahan
@@ -104,21 +104,3 @@ If you work for a federal grantmaking agency and want to examine how
 your APD process can encourage these new practices at the state and
 local level, stay tuned for a future blog post covering this issue in
 more detail.
-
----
-
-{% comment %}[Summary of follow up blog post to ensure alignment with reference in previous post.]{% endcomment %}
-
-As part of the work we’re doing with state governments, we’re learning
-more about how agile practices and modular procurement approaches can
-take hold in an agency using these strategies for the first time.
-
-What we have found is that not only can 18F make an impact on the ground
-in states that are implementing new systems with these strategies, we
-can also provide guidance to federal grant making agencies, to help them
-streamline their processes and enhance them to better support agile
-practices at the state and local level.
-
-… More on specific examples where APD process has slowed down agile.
-… Examples of the kinds of changes agencies can make to their APD process.
-… Recommend agencies that want to evolve their APD process to support agile and modular contracting get in touch with 18F.
