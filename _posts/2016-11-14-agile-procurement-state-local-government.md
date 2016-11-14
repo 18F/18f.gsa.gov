@@ -13,9 +13,7 @@ tags:
 excerpt: "At 18F we build things in the open. For our partners and agencies we work with, this commitment helps foster better communication, enhances transparency and — most importantly — produces a better end product. Our work with partner agencies helps us surface lessons learned and allows us to create new resources that any government, including state and local governments, can easily reuse at no cost. "
 description: "At 18F we build things in the open. For our partners and agencies we work with, this commitment helps foster better communication, enhances transparency and — most importantly — produces a better end product. Our work with partner agencies helps us surface lessons learned and allows us to create new resources that any government, including state and local governments, can easily reuse at no cost. "
 ---
-[At 18F, we build things
-](https://github.com/18F/blog-drafts/issues/587)[in the
-open](https://pages.18f.gov/partnership-playbook/1-build-in-the-open/).
+[At 18F, we build things in the open](https://pages.18f.gov/partnership-playbook/1-build-in-the-open/).
 
 For our partners and the agencies we work with, this commitment to doing
 things openly helps foster better communication, enhances transparency
