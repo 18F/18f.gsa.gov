@@ -1,6 +1,6 @@
 ---
 title: "Agile procurement resources for state and local government"
-date: TBD
+date: 2016-11-14
 authors:
 - mheadd
 - robin-carnahan
