@@ -1,16 +1,23 @@
 ---
 layout: default
 ---
+{% assign matching_posts = page | match_posts:'authors' | sort:'date' | reverse %}
 
 <section class="background-dark usa-section section-intro">
   <div class="usa-grid">
     <header>
       {% if page.full_name %}
-        <h1 class="section-heading section-heading-alt">Blog posts by: {{ page.full_name }} {% if page.alumni %}<span>(18F alumni)</span>{% endif %} {% if page.guest %}<span>(Guest Author)</span>{% endif %}</h1>
+        <h1 class="section-heading section-heading-alt">Blog posts by {{ page.full_name }}{% if page.alumni %} <span>(18F alumni)</span>{% endif %}{% if page.guest %} <span>(guest author)</span>{% endif %}:</h1>
       {% endif %}
     </header>
   </div>
 </section>
-<section class="usa-grid usa-section usa-content">
-  {% authored_posts heading=h2%}
+<section class="usa-grid content-focus page-tag-results">
+  {%
+    include tag-results.html
+    posts=matching_posts
+    tags=page.tags
+    limit_metadata=true
+    trim_padding=true
+  %}
 </section>
