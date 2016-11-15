@@ -89,7 +89,7 @@ expanding this collection to ensure it remains a valuable resource for
 our partners — be sure to check back on these resources often.
 
 Like all of the resources we create, these examples are made available
-openly on GitHub (state
+openly on GitHub ([state
 guidebook](https://github.com/18F/state-faq),
 [modular contracting
 documents](https://github.com/18F/Modular-Contracting-And-Agile-Development))
