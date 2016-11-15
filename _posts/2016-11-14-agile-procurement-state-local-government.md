@@ -89,10 +89,10 @@ expanding this collection to ensure it remains a valuable resource for
 our partners — be sure to check back on these resources often.
 
 Like all of the resources we create, these examples are made available
-openly on GitHub[ *(](https://github.com/18f)[state
-guidebook](https://github.com/18F/state-faq)[,](https://github.com/18f)
+openly on GitHub (state
+guidebook](https://github.com/18F/state-faq),
 [modular contracting
-documents)](https://github.com/18F/Modular-Contracting-And-Agile-Development)
+documents](https://github.com/18F/Modular-Contracting-And-Agile-Development))
 where anyone can contribute improvements or suggest ideas. If you work
 in a state or local government and want to find out more about agile
 practices or modular contracting, these guides are a great place to
