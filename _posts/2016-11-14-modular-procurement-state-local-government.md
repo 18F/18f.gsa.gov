@@ -1,5 +1,5 @@
 ---
-title: "Agile procurement resources for state and local government"
+title: "Modular procurement resources for state and local government"
 date: 2016-11-15
 authors:
 - mheadd
