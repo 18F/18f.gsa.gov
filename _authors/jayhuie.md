@@ -9,5 +9,5 @@ role:
 state: DC
 team: Consulting
 twitter: 
-redirect_from: /team/jayhuie
+redirect_from: /team/jayhuie/
 ---

@@ -9,5 +9,6 @@ role:
 state: 
 team: 
 twitter: 
+guest: true
 redirect_from: 
 ---

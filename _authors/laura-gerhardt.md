@@ -9,5 +9,5 @@ role:
 state: DC
 team: 
 twitter: 
-redirect_from: /team/laura-gerhardt
+redirect_from: /team/laura-gerhardt/
 ---

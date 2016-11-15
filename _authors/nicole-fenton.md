@@ -9,5 +9,5 @@ role: Content Designer
 state: New York
 team: design
 twitter: nicoleslaw
-redirect_from: /team/nicole-fenton
+redirect_from: /team/nicole-fenton/
 ---

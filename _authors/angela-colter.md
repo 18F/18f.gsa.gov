@@ -9,5 +9,5 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/angela-colter
+redirect_from: /team/angela-colter/
 ---

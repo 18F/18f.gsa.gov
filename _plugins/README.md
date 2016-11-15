@@ -76,6 +76,21 @@ Returns:
           allowfullscreen></iframe>
 </div>```
 
+#### match_posts: finds posts that match a pages' property. If the property is not specified, it defaults to `tags`
+
+Example:
+```
+{{ page | match_posts }}
+```
+
+Example matching authors
+```
+{{ page | match_posts: 'authors' }}
+```
+
+Will look for all the posts on the entire site and return a list of posts that have any properties
+that matches the list defined in a given project's frontmatter
+
 ### Markdown rendering
 
 #### [markdown.rb](markdown.rb)

@@ -9,5 +9,5 @@ state: CA
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/amos
+redirect_from: /team/amos/
 ---

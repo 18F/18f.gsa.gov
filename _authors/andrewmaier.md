@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Design
-redirect_from: /team/andrewmaier
+redirect_from: /team/andrewmaier/
 ---

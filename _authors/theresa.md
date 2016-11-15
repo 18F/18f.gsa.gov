@@ -11,5 +11,5 @@ twitter: theresaanna
 team: Delivery
 project:
 - CALC
-redirect_from: /team/theresa
+redirect_from: /team/theresa/
 ---

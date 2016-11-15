@@ -89,7 +89,7 @@ and to save taxpayer money.
 In a typical procurement setting, prospective contractors might be the most
 technical voices in the room, creating a risk of technical asymmetry. A
 protosketcher, whether they are from [18F
-Consulting](https://18f.gsa.gov/consulting) or from within the agency,
+Consulting]({{ site.baseurl }}/consulting) or from within the agency,
 should act as a trusted technical adviser to the program manager. A meeting
 with a protosketcher will significantly mitigate any asymmetry in technical
 expertise between the agency and prospective contractors by demonstrating

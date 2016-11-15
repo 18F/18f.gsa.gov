@@ -9,5 +9,5 @@ state: CA
 github: 
 twitter: 
 team: Design
-redirect_from: /team/manger
+redirect_from: /team/manger/
 ---

@@ -20,5 +20,5 @@ project:
 - Diversity Listening Tour
 - Eligibility Platform Sprint
 - FEC
-redirect_from: /team/jhunter
+redirect_from: /team/jhunter/
 ---

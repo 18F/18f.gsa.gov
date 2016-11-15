@@ -2,12 +2,27 @@
 // ==========================
 
 .page-tag-results {
+  .hero {
+    padding-bottom: $section-margins;
+  }
+
+  .hero-callout {
+    max-width: 26rem;
+  }
+
   .post-list {
     li {
       &:first-child {
         border-top: $border-light;
-        padding-top: 6rem;
+        padding-top: $section-margins;
       }
+    }
+  }
+
+  .post-list-no-padding {
+    li:first-child {
+      border-top: 0;
+      padding-top: 0;
     }
   }
 }

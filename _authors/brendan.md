@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Engineering
-redirect_from: /team/brendan
+redirect_from: /team/brendan/
 ---

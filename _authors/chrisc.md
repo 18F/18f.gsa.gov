@@ -9,5 +9,5 @@ state: D.C.
 github: 
 twitter: 
 team: Consulting
-redirect_from: /team/chrisc
+redirect_from: /team/chrisc/
 ---

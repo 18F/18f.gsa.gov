@@ -9,5 +9,5 @@ state: CA
 github: leahbannon
 twitter: leahbannon
 team: Delivery
-redirect_from: /team/leah
+redirect_from: /team/leah/
 ---
