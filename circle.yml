@@ -12,6 +12,8 @@ dependencies:
     # uncomment to restore pa11y-ci
     # - npm install -g pa11y-ci
     #
+    - npm install -g gulp
+    - gem install scss_lint
     - gulp -v 
     - scss-lint -v
     - jekyll -v 
