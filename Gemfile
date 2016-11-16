@@ -26,4 +26,5 @@ gem 'jemoji'
 group :development do
   gem 'pry'
   gem 'rb-readline'
+  gem 'accesslint-ci'
 end

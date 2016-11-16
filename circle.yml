@@ -14,6 +14,9 @@ dependencies:
     # uncomment to restore pa11y-ci
     # - npm install -g pa11y-ci
     #
+  override:
+    - npm install -g accesslint-cli
+    - gem install accesslint-ci
 
 test:
   pre:
@@ -21,3 +24,6 @@ test:
     - bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov
     # uncomment to restore pa11y-ci
     # - npm run --harmony lint-508
+  post:
+    - bundle exec rails server -d -p 3000
+    - accesslint-ci scan http://localhost:3000
