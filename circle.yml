@@ -12,15 +12,10 @@ dependencies:
     # uncomment to restore pa11y-ci
     # - npm install -g pa11y-ci
     #
-    - npm install -g gulp
-    - gem install scss_lint
-    - gulp -v 
-    - scss-lint -v
     - jekyll -v 
     - npm install -g accesslint-cli@1.1.1
     - gem install accesslint-ci -v 0.1.9
   override:
-    - gulp build
     - bundle exec jekyll build
     - npm test 
    
