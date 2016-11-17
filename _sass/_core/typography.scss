@@ -4,6 +4,7 @@
 body {
   overflow-x: hidden;
   font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -48,3 +49,4 @@ a {
 .h6 {
   @extend h6;
 }
+
