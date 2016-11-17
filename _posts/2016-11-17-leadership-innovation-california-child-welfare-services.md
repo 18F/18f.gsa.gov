@@ -223,7 +223,7 @@ been refining its RFP process, iterating as it goes, and in doing so, is
 providing a template for other projects in other departments.
 
 We worked with 18F to adapt its Agile BPA, and the state launched the
-[Agile Development Pre-Qualified Vendor Pool](https://cwscms.osi.ca.gov/CWDSADPQ)over the summer. 18F also has been
+[Agile Development Pre-Qualified Vendor Pool](https://cwscms.osi.ca.gov/CWDSADPQ) over the summer. 18F also has been
 helping our Departments of Technology and General Services scrub our
 standard terms and conditions — 1,500 pages of requirements we put in
 our contracts that may not add the value or protection we think they do.
