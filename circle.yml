@@ -15,7 +15,7 @@ dependencies:
     - nvm install stable && nvm alias default stable
     #
     #uncomment to restore pa11y-ci
-     - npm install -g pa11y-ci
+    - npm install -g pa11y-ci
     #uncomment  below to restore access-lint
     # - jekyll -v 
     # - npm install -g accesslint-cli@1.1.1
