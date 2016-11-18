@@ -9,6 +9,7 @@ machine:
 dependencies:
   pre:
     - bundle install
+    - bundle exec jekyll build
     # uncomment to restore pa11y-ci
     - nvm install stable && nvm alias default stable
     #
@@ -19,7 +20,7 @@ dependencies:
     # - npm install -g accesslint-cli@1.1.1
     #- gem install accesslint-ci -v 0.1.9
   # override:
-    # - bundle exec jekyll build
+     
     #- npm test 
    
 
