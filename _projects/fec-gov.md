@@ -1,6 +1,6 @@
 ---
 layout: project-tag-results
-title: "Project: The Federal Election Commission"
+title: "The Federal Election Commission"
 subtitle: Making campaign data easier to use
 exerpt:
 image_path: /assets/img/home/hero-fec.png

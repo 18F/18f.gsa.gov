@@ -20,9 +20,9 @@
   <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
 {% endif %}
 
-{% if page.description %}
-  <meta name="description" content="{{ page.description | xml_escape }}">
-  <meta property="og:description" content="{{ page.description | xml_escape }}" />
+{% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | xml_escape }}">
+  <meta property="og:description" content="{{ page.excerpt | xml_escape }}" />
 {% else %}
   <meta name="description" content="{{ site.description | xml_escape }}">
   <meta property="og:description" content="{{ site.description | xml_escape }}" />
