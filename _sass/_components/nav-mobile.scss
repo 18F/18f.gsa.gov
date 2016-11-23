@@ -15,6 +15,10 @@
   -webkit-overflow-scrolling: touch;
   z-index: 999999;
 
+  .usa-sidenav-list {
+    margin-top: 6rem;
+  }
+
   @include media($medium-screen + $nav-width-extra) {
     display: none;
   }
@@ -22,61 +26,5 @@
   &.is-visible {
     @include transform(translateX(0));
     @include transition(all 0.3s ease-in-out);
-  }
-
-  .usa-sidenav-list {
-    margin-top: 6rem;
-
-    ul {
-      @include unstyled-list;
-    }
-
-    li {
-      border-top-color: $color-gray-lighter;
-    }
-
-    a {
-      @include padding(1rem null 1rem 3rem);
-      color: $color-gray;
-      font-weight: $font-bold;
-      font-size: $h5-font-size;
-
-      &:hover {
-        color: $color-dark;
-      }
-
-      &.usa-current {
-        border-left: $border-accent;
-        color: $color-dark;
-        padding-left: 2rem;
-      }
-    }
-  }
-}
-
-.sliding-panel-close {
-  @include button-unstyled;
-  float: right;
-  height: $hit-area;
-  margin: -1.2rem -1.5rem 2.4rem auto;
-  text-align: center;
-  width: $hit-area;
-
-  img {
-    width: 1.3rem;
-  }
-}
-
-.overlay {
-  @include position(fixed, 0);
-  background: $color-black;
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-  visibility: hidden;
-  z-index: 9999;
-
-  &.is-visible {
-    opacity: 0.1;
-    visibility: visible;
   }
 }

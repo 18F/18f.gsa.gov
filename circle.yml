@@ -18,6 +18,6 @@ dependencies:
 test:
   pre:
     - bundle exec jekyll test
-    - bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov
+    - npm run htmlproofer
     # uncomment to restore pa11y-ci
     # - npm run --harmony lint-508

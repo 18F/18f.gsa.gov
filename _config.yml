@@ -42,6 +42,9 @@ collections:
   projects:
     output: true
     permalink: /project/:path/
+  hire:
+    output: true
+    permalink: /hire/:path/
 
 defaults:
  -
@@ -64,6 +67,13 @@ defaults:
     path: "_cards"
   values:
     layout: default
+ -
+  scope:
+    path: "_hire"
+  values:
+    layout: default-image
+    include_subnav: true
+    subnav_anchor: /hire/
 
 frontmatter_tests:
   path: "tests/schema"

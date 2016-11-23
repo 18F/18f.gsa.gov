@@ -13,12 +13,12 @@
       {{ content }}
     </div>
 
-    {% include nav-mobile.html %}
+    {% include navigation.html drawer=true %}
 
     <footer role="contentinfo">
       <div class="usa-grid">
-      {% include footer/mobile.html %}
-      {% include footer/desktop.html %}
+
+      {% include navigation.html footer=true %}
       {% include newsletter.html %}
       </div>
     </footer>
