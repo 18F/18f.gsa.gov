@@ -5,7 +5,7 @@
   <ul class="usa-sidenav-list usa-accordion">
     {% assign is_matching = page.url | matches_url: page_data.permalink %}
     <li>
-      <a href="{{ include.page_data.permalink }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
+      <a href="{{ site.baseurl }}/{{ include.page_data.permalink }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
     </li>
   {% for item in nav_items %}
     {% if item.in_subnav %}
