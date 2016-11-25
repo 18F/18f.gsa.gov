@@ -7,7 +7,7 @@ header_border: true
 
 <section class="usa-grid content-focus page-tag-results">
   <section class="hero"
-           style="background-image: url({{ site.baseurl }}{{ page.image_path }});"
+           style="background-image: url({{ site.baseurl }}{{ page.image }});"
            aria-label="{{ page.image_accessibility }}">
     <div class="usa-grid">
       <div class="hero-callout hero-callout-no_button background-dark">
@@ -17,13 +17,13 @@ header_border: true
     </div>
   </section>
 
-  <section class="break-bottom">
+  <section class="usa-section break-bottom">
     <h2>{{ page.subtitle }}</h2>
 
     {{ content }}
   </section>
 
-  <section>
+  <section class="usa-section">
     <h3>Our blog posts about this project</h3>
 
     {%
