@@ -2,8 +2,8 @@
 layout: project-tag-results
 title: "The Federal Election Commission"
 subtitle: Making campaign data easier to use
-exerpt:
-image_path: /assets/img/home/hero-fec.png
+excerpt:
+image: /assets/img/home/hero-fec.png
 image_accessibility: Image of the FEC data explorer with stylized magnifying glass.
 tags:
 - fec.gov
@@ -26,7 +26,7 @@ As our FEC partners saw the benefits of working iteratively and putting user nee
 
 - Creating search tools so laws, regulations, and enforcement actions are easier to find and use.
 - Migrating confusing legacy content into a new structure so visitors can find and understand the information they need.
-- Exploring how to update the online filing process to help political groups and candidates file the right forms. 
+- Exploring how to update the online filing process to help political groups and candidates file the right forms.
 
 Through all these projects, we’ve worked closely with FEC teams so they can transform their whole approach to interacting with the public online.
 
