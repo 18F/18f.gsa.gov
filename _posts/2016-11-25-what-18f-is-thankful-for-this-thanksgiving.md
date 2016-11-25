@@ -57,28 +57,28 @@ agency partners, and the work itself. — **Corey Mahoney**
 ## A more perfect union
 
 I’m thankful to be given the opportunity to make our country—however
-imperfect—a better place
+imperfect—a better place. – **Anonymous**
 
 To be part of a federal ecosystem (including federal and industry
 partners) with a tremendous culture of continuous improvement, and pride
 in delivering to the mission. — **Jay Huie**
 
 I'm thankful for the opportunity to 'be the change you want to see
-[...in the government].' - **Will Sullivan**
+[...in the government].' — **Will Sullivan**
 
 I’m thankful to wake up each morning and begin the day knowing that my
 challenges are the nation’s challenges, and that I can contribute to
-solutions with what skills I have. - **Peter Karman**
+solutions with what skills I have. — **Peter Karman**
 
 Thankful (and lucky!) I actually get paid to get up every day and help
-the country out. - **Lane Becker**
+the country out. — **Lane Becker**
 
 I'm thankful for the chance to work with a group of such caring and
 talented people and to help make government work better for all
-people. - **Maya Benari**
+people. — **Maya Benari**
 
 I’m thankful for the opportunity to make the lives of every American
-just a little bit better. - **Zac Cohn**
+just a little bit better. — **Zac Cohn**
 
 I’m thankful that this country not only welcomed me and my family ten
 years ago, but also employed me to improve it — with some of the
