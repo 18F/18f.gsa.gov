@@ -11,7 +11,7 @@ excerpt: "In the first post of this series, I covered what stakeholder interview
 description: "A few weeks ago, the State Department held its first conference dedicated to user experience design, UX Exponential. The conference organizers invited me to speak, and in this two-part series I hope to summarize (as best as possible) the presentation I gave, Foster The People: Building Empathy with Stakeholder Interviews."
 ---
 
-A few weeks ago, the State Department held its first conference dedicated to user experience design, UX Exponential. The conference organizers invited me to speak, and in this two-part series I hope to summarize (as best as possible) the presentation I gave, "[Foster The People: Building Empathy with Stakeholder Interviews](https://speakerdeck.com/andrewmaier/foster-the-people-building-empathy-with-stakeholder-interviews)." 
+A few weeks ago, the State Department held its first conference dedicated to user experience design, UX Exponential. The conference organizers invited me to speak, and in this two-part series I hope to summarize (as best as possible) the presentation I gave, &ldquo;<a href="https://speakerdeck.com/andrewmaier/foster-the-people-building-empathy-with-stakeholder-interviews">Foster The People: Building Empathy with Stakeholder Interviews</a>.&rdquo; 
 
 In the [first post of this series](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/), I covered what stakeholder interviews are, why they’re valuable, and how to prepare for them. In this second post, I’ll cover how to actually run the interviews as well as some tips for synthesizing and socializing what you learn.
 
