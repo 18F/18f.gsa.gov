@@ -57,7 +57,7 @@ agency partners, and the work itself. — **Corey Mahoney**
 ## A more perfect union
 
 I’m thankful to be given the opportunity to make our country—however
-imperfect—a better place. – **Anonymous**
+imperfect—a better place. — **Anonymous**
 
 To be part of a federal ecosystem (including federal and industry
 partners) with a tremendous culture of continuous improvement, and pride
