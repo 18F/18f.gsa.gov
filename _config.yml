@@ -72,7 +72,7 @@ defaults:
     path: "_hire"
   values:
     layout: default-image
-    include_subnav: true
+    # include_subnav: true
     subnav_anchor: /hire/
 
 frontmatter_tests:

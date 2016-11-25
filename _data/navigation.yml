@@ -34,7 +34,7 @@ assigned:
                 text: 'Partnership playbook'
                 permalink: /hire/partnership-playbook/
                 in_menu: false
-                in_drawer: true
+                in_drawer: false
                 in_footer: false
                 in_subnav: true
                 children:
