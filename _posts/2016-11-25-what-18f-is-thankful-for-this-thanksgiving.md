@@ -6,7 +6,7 @@ tags:
 - thanksgiving
 - how we work
 - culture
-excerpt: Like all Federal employees, we don't work on Thanksgiving. We do work on the day after, though, and this year we thought we'd pause to take a moment and reflect. Here are a few things that we're thankful for, what brings meaning to our lives, and what brings us to work every day.
+excerpt: Like all federal employees, we don't work on Thanksgiving. We do work on the day after, though, and this year we thought we'd pause to take a moment and reflect. Here are a few things that we're thankful for, what brings meaning to our lives, and what brings us to work every day.
 image: /assets/blog/join-us/18F-IRL-2016.jpg
 ---
 
@@ -20,11 +20,11 @@ and meaning and thoroughly love the work I do, the people I work with,
 and the federal agencies that we serve. This has been the best
 professional experience of my career. — **Amanda Schonfeld**
 
-Thankful to be in a position to help our passionate Federal partners. On
+Thankful to be in a position to help our passionate federal partners. On
 every project I’ve worked on while at 18F there are at least 100 civil
 servants, contractors, and members of the military who are more expert,
 who have been working on these issues for years, doing good work to make
-sure that the american public is safe and healthy in any number of ways.
+sure that the American public is safe and healthy in any number of ways.
 I’m lucky to be able to be witness to their incredible work. — **Jessie
 Posilkin**
 
@@ -56,15 +56,15 @@ agency partners, and the work itself. — **Corey Mahoney**
 
 ## A more perfect union
 
-I’m thankful to be given the opportunity to make our country—however
-imperfect—a better place. — **Anonymous**
+I’m thankful to be given the opportunity to make our country — however
+imperfect — a better place. — **Anonymous**
 
 To be part of a federal ecosystem (including federal and industry
 partners) with a tremendous culture of continuous improvement, and pride
 in delivering to the mission. — **Jay Huie**
 
-I'm thankful for the opportunity to 'be the change you want to see
-[...in the government].' — **Will Sullivan**
+I'm thankful for the opportunity to "be the change you want to see
+[...in the government]." — **Will Sullivan**
 
 I’m thankful to wake up each morning and begin the day knowing that my
 challenges are the nation’s challenges, and that I can contribute to
@@ -129,7 +129,7 @@ everyday Americans. — **Andrew Maier**
 I am thankful that it’s possible to turn someone’s day around with
 purple hair and a kind smile. And I am thankful for each of my coworkers
 who, in moments of individual doubt, have lifted me up with their
-energy, optimism and dedication. — **Gail Swanson**
+energy, optimism, and dedication. — **Gail Swanson**
 
 I’m grateful that I have a team I truly look forward to working with
 every day. — **Sarah Milstein**
