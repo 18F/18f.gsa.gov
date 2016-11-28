@@ -58,13 +58,13 @@ As a byproduct of our work with states, we’ve compiled a number of
 resources that encapsulate these new approaches to procurement, and
 highlight the things we’ve learned.
 
-We’ve [created a guidebook](https://pages.18f.gov/state-faq/) that
+We’ve [created a guidebook](https://modularcontracting.18f.gov/) that
 state and local governments can use to learn more about agile software
 development, open source software, and new modular contracting
 approaches. This guide is full of practical information that can
 demystify these concepts and help you get started putting them into
 practice. It includes a list of [commonly asked
-questions](https://pages.18f.gov/state-faq/common-questions/) that was
+questions](https://modularcontracting.18f.gov/faq/) that was
 informed by our work with states; if you have questions on any of these
 new concepts, chances are other state and local governments have raised
 them as well.
@@ -89,9 +89,7 @@ expanding this collection to ensure it remains a valuable resource for
 our partners — be sure to check back on these resources often.
 
 Like all of the resources we create, these examples are made available
-openly on GitHub ([state
-guidebook](https://github.com/18F/state-faq),
-[modular contracting
+openly on GitHub ([modular contracting
 documents](https://github.com/18F/Modular-Contracting-And-Agile-Development))
 where anyone can contribute improvements or suggest ideas. If you work
 in a state or local government and want to find out more about agile
