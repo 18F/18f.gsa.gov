@@ -11,6 +11,9 @@ logo: /assets/img/logos/18F-Logo-Bright-S.png
 feature_image: /assets/img/feature-background.jpg
 tag_dir: tags
 
+# app version number
+version: v1.1.0
+
 analytics:
   google:
     code: 'UA-48605964-1' # Change this to your GSA analytics code
