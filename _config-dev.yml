@@ -2,6 +2,9 @@ env: "development"
 
 exclude:
 - _pages
+- _cards
+- _posts
+- _authors
 - CONTRIBUTING.md
 - README.md
 - PULL_REQUEST_TEMPLATE.md
@@ -22,4 +25,5 @@ exclude:
 - robots.txt
 - search-index*
 - serve
+- sitemap.xml
 - system-security-plan.yml
