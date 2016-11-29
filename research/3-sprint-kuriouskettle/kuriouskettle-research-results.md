@@ -49,27 +49,23 @@ Key questions included:
 + The hero was more abstract, and showed our work rather than the end users of the product
 + The language in the hero area included more keywords about our work
 + We used the verb "helping" rather than "building" to focus on how we supported the agency
-
-**tl;dr: No**
++ **tl;dr: No**
 
 ### Was the revised introductory language clearer?
 
 + We removed the mention of TTS, in hopes of simplifying how much users need to grasp right away
 + We avoided jargon as much as possible, and removed all lists
-
-**tl;dr: Yes**
++ **tl;dr: Yes**
 
 ### Is it effective to provide examples of how 18F worked with one agency to solve their problem?
 
 + We began using a new "project page" template, though not all testers saw that version
-
-**tl;dr: Yes**
++ **tl;dr: Yes**
 
 ### What do people want to know before working with 18F?
 
 + We haven't started changing this content yet, but we asked a number of questions about it whenever possible
-
-**tl;dr: Who should contact you, and what happens?**
++ **tl;dr: Who should contact you, and what happens?**
 
 ## Results
 
