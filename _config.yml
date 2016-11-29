@@ -43,7 +43,7 @@ collections:
     output: true
     permalink: /project/:path/
   hire:
-    output: true
+    output: false
     permalink: /hire/:path/
 
 defaults:
