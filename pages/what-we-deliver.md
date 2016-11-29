@@ -3,6 +3,7 @@ title: What we deliver
 permalink: /what-we-deliver/
 layout: default-intro
 lead: We help federal agencies build, buy, and share modern digital services to improve the user experience of government.
+content_wide: true
 ---
 
 <section class="usa-grid-full usa-section section-list">

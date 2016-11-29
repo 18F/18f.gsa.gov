@@ -1,0 +1,60 @@
+{% assign nav_items = include.page_data.children %}
+
+<nav class="nav-accordion nav-subnav" role="navigation">
+  <h4>{{ include.page_data.text }}</h4>
+  <ul class="usa-sidenav-list usa-accordion">
+    {% assign is_matching = page.url | matches_url: page_data.permalink %}
+    <li>
+      <a href="{{ site.baseurl }}{{ include.page_data.permalink }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
+    </li>
+  {% for item in nav_items %}
+    {% if item.in_subnav %}
+    <li>
+      {% if item.permalink %}
+        {% assign item_link = item.permalink | prepend: site.baseurl %}
+      {% else %}
+        {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
+      {% endif %}
+
+      {% assign enabled_children = item.children | where: "in_subnav", true %}
+      {% assign has_enabled_children = enabled_children != empty | default: false %}
+
+      {% if item.children and has_enabled_children %}
+        {% if include.children %}
+        {% assign item_slug = item.text | slugify %}
+        {% assign is_matching = page.url | matches_url_parent: item.permalink %}
+
+          <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
+                aria-expanded="true"
+                aria-controls="{{ item_slug }}">{{ item.text }}</button>
+
+          <ul id="{{ item_slug }}" class="usa-accordion-content usa-sidenav-sub_list" aria-hidden="false">
+            {% assign is_matching = page.url | matches_url: item.permalink %}
+            <li>
+              <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
+            </li>
+            {% for sub_item in item.children %}
+              <li>
+                {% if sub_item.permalink %}
+                  {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
+                {% else %}
+                  {% assign sub_item_link = sub_item.text | dasherize | hash_link | prepend: site.baseurl %}
+                {% endif %}
+
+                {% assign is_matching = page.url | matches_url: sub_item.permalink %}
+
+                <a href="{{ sub_item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ sub_item.text }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% else %}
+        {% assign is_matching = page.url | matches_url: item.permalink %}
+
+        <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+      {% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>

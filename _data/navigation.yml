@@ -1,0 +1,178 @@
+assigned:
+    -
+        text: Home
+        href: pages/home.md
+        permalink: /
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+    -
+        text: What we deliver
+        href: pages/what-we-deliver.md
+        permalink: /what-we-deliver/
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+    -
+        text: How we work
+        href: pages/how-we-work.md
+        permalink: /how-we-work/
+        in_menu: true
+        in_drawer: true
+        in_footer: false
+        children:
+    -
+        text: Hire 18F
+        href: pages/hire.md
+        permalink: /hire/
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+            -
+                text: 'Partnership playbook'
+                permalink: /hire/partnership-playbook/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+                children:
+                    -
+                        text: '1. We build in the open'
+                        permalink: /hire/partnership-playbook/we-build-in-the-open/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '2. How we work'
+                        permalink: /hire/partnership-playbook/how-we-work/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '3. Who we work with'
+                        permalink: /hire/partnership-playbook/who-we-work-with/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '4. Getting started'
+                        permalink: /hire/partnership-playbook/getting-started/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '5. What to expect'
+                        permalink: /hire/partnership-playbook/what-to-expect/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+    -
+        text: Join 18F
+        href: pages/join.md
+        permalink: /join/
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+            -
+                text: 'So you want to join 18F?'
+                permalink: /join/so-you-want-to-join-18f/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'Who we are hiring'
+                permalink: /join/hiring/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'Who we are hiring'
+                permalink: /join/hiring/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'How to apply'
+                permalink: /join/how-to-apply/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'Interview process'
+                permalink: /join/interview-process/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+                children:
+                    -
+                        text: 'Child 1'
+                        permalink: /join/interview-process/child-1/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: false
+                    -
+                        text: 'Child 2'
+                        permalink: /join/interview-process/child-2/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: false
+                    -
+                        text: 'Child 2'
+                        permalink: /join/interview-process/child-2/
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: false
+            -
+                text: Benefits
+                permalink: /join/benefits/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'Government pay grades explained'
+                permalink: /join/government-pay-grades-explained/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'Leave policies'
+                permalink: /join/leave-policies/
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+    -
+        text: Blog
+        href: blog/index.html
+        permalink: /blog/
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+    -
+        text: Projects
+        href: _data/projects.yml
+        permalink: /project/
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        children:
+unassigned: []

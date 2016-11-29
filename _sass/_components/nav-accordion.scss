@@ -1,0 +1,105 @@
+// Nav accordion
+.nav-accordion {
+  .usa-sidenav-list {
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      border-top-color: $color-gray-lighter;
+    }
+
+    button {
+      background-color: transparent;
+      background-position: right 0 center;
+      border-radius: 0;
+      text-align: left;
+
+      &[aria-expanded=true],
+      &[aria-expanded=false] {
+        background-repeat: no-repeat;
+        background-position: right 0 center;
+        background-size: 1rem;
+      }
+
+      &[aria-expanded=true] {
+        background-image: url('../img/global/minus-alt.png');
+        background-image: url('../img/global/minus-alt.svg');
+      }
+
+      &[aria-expanded=false] {
+        background-image: url('../img/global/plus-alt.png');
+        background-image: url('../img/global/plus-alt.svg');
+      }
+
+      &:hover,
+      &:focus {
+        background-color: $color-gray-lightest;
+      }
+    }
+
+    a,
+    li > button {
+      @include padding(1rem null 1rem 3rem);
+      color: $color-gray;
+      font-weight: $font-bold;
+      font-size: $h5-font-size;
+
+      &:hover {
+        color: $color-dark;
+      }
+
+      &.usa-current {
+        border-left: $border-accent;
+        color: $color-dark;
+        padding-left: 2rem;
+      }
+    }
+  }
+
+  .usa-sidenav-sub_list {
+    a {
+      padding-left: 3.8rem;
+
+      &.usa-current {
+        border-left: 0;
+        color: $color-primary;
+        font-weight: $font-bold;
+        padding-left: 3.8rem;
+      }
+    }
+  }
+}
+
+.sliding-panel-close {
+  @include button-unstyled;
+  float: right;
+  height: $hit-area;
+  margin-top: -1.2rem;
+  margin-right: -1.5rem;
+  margin-bottom: 2.4rem;
+  margin-left: auto;
+  text-align: center;
+  width: $hit-area;
+
+  img {
+    width: 1.3rem;
+  }
+}
+
+.overlay {
+  @include position(fixed, 0);
+  background: $color-black;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 9999;
+
+  &.is-visible {
+    opacity: 0.1;
+    visibility: visible;
+  }
+}
