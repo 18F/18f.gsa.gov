@@ -62,7 +62,7 @@ based off of this [civic.json](http://open.dc.gov/civic.json/),
 originally defined by BetaNYC and extended by Code for DC and DC
 government employees.
 
-```json
+```
 {
   "agency": "DOABC",
   "organization": "XYZ Department",
