@@ -26,6 +26,7 @@ assigned:
         text: Hire 18F
         href: pages/hire.md
         permalink: /hire/
+        collections: ['hire']
         in_menu: true
         in_drawer: true
         in_footer: true
@@ -33,6 +34,7 @@ assigned:
             -
                 text: 'Partnership playbook'
                 permalink: /hire/partnership-playbook/
+                collections: ['hire']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -41,6 +43,7 @@ assigned:
                     -
                         text: '1. We build in the open'
                         permalink: /hire/partnership-playbook/we-build-in-the-open/
+                        collections: ['hire']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -48,6 +51,7 @@ assigned:
                     -
                         text: '2. How we work'
                         permalink: /hire/partnership-playbook/how-we-work/
+                        collections: ['hire']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -55,6 +59,7 @@ assigned:
                     -
                         text: '3. Who we work with'
                         permalink: /hire/partnership-playbook/who-we-work-with/
+                        collections: ['hire']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -62,6 +67,7 @@ assigned:
                     -
                         text: '4. Getting started'
                         permalink: /hire/partnership-playbook/getting-started/
+                        collections: ['hire']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -69,6 +75,7 @@ assigned:
                     -
                         text: '5. What to expect'
                         permalink: /hire/partnership-playbook/what-to-expect/
+                        collections: ['hire']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -77,6 +84,7 @@ assigned:
         text: Join 18F
         href: pages/join.md
         permalink: /join/
+        collections: ['join']
         in_menu: true
         in_drawer: true
         in_footer: true
@@ -84,6 +92,7 @@ assigned:
             -
                 text: 'So you want to join 18F?'
                 permalink: /join/so-you-want-to-join-18f/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -91,6 +100,7 @@ assigned:
             -
                 text: 'Who we are hiring'
                 permalink: /join/hiring/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -98,6 +108,7 @@ assigned:
             -
                 text: 'Who we are hiring'
                 permalink: /join/hiring/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -105,6 +116,7 @@ assigned:
             -
                 text: 'How to apply'
                 permalink: /join/how-to-apply/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -112,6 +124,7 @@ assigned:
             -
                 text: 'Interview process'
                 permalink: /join/interview-process/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -120,6 +133,7 @@ assigned:
                     -
                         text: 'Child 1'
                         permalink: /join/interview-process/child-1/
+                        collections: ['join']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -127,6 +141,7 @@ assigned:
                     -
                         text: 'Child 2'
                         permalink: /join/interview-process/child-2/
+                        collections: ['join']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -134,6 +149,7 @@ assigned:
                     -
                         text: 'Child 2'
                         permalink: /join/interview-process/child-2/
+                        collections: ['join']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
@@ -141,6 +157,7 @@ assigned:
             -
                 text: Benefits
                 permalink: /join/benefits/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -148,6 +165,7 @@ assigned:
             -
                 text: 'Government pay grades explained'
                 permalink: /join/government-pay-grades-explained/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -155,6 +173,7 @@ assigned:
             -
                 text: 'Leave policies'
                 permalink: /join/leave-policies/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -163,14 +182,16 @@ assigned:
         text: Blog
         href: blog/index.html
         permalink: /blog/
+        permalink_alt: /tags/
+        collections: ['authors', 'posts']
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
     -
         text: Projects
-        href: _data/projects.yml
         permalink: /project/
+        collections: ['projects']
         in_menu: false
         in_drawer: false
         in_footer: false

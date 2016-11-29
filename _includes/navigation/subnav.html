@@ -22,7 +22,7 @@
       {% if item.children and has_enabled_children %}
         {% if include.children %}
         {% assign item_slug = item.text | slugify %}
-        {% assign is_matching = page.url | matches_url_parent: item.permalink %}
+        {% assign is_matching = page | matches_url_parent: item %}
 
           <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
                 aria-expanded="true"
