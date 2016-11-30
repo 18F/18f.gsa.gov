@@ -42,15 +42,19 @@ module Jekyll
         url = clip_char(url.to_s.downcase, '/')
         is_match = page_url[0...url.length] == url || nil
         if !is_match && item['permalink_alt']
-          url_alt = item['permalink_alt']
-          url_alt = clip_char(url_alt.to_s.downcase, '/')
-          page_url[0...url_alt.length] == url_alt || nil
+          matches_permalink_alt(page_url, item)
         else
           is_match
         end
       else
         is_match
       end
+    end
+
+    def matches_permalink_alt(page_url, item)
+      url_alt = item['permalink_alt']
+      url_alt = clip_char(url_alt.to_s.downcase, '/')
+      page_url[0...url_alt.length] == url_alt || nil
     end
 
     def crawl_pages(item, page_url, _debug)
@@ -72,9 +76,7 @@ module Jekyll
       collections = item['collections'] || nil
       if collections
         collections.each do |collection|
-          if page['collection'] == collection
-            returned_page = true
-          end
+          returned_page = true if page['collection'] == collection
         end
       end
       returned_page
@@ -91,11 +93,11 @@ module Jekyll
     end
 
     def check_type(value, second_value = nil, third_value = nil)
-      type = value.class
-      second_type = second_value.class
-      third_type = third_value.class
+      _type = value.class
+      _second_type = second_value.class
+      _third_type = third_value.class
       # puts '---------------------'
-      # puts "#{value} is a #{type}"
+      # puts "#{value} is a #{_type}"
       # puts '---------------------'
       # binding.pry
     end
