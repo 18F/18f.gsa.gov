@@ -121,22 +121,9 @@ Example:
 > true
 ```
 
-#### matches_url_parent: determines if the current page url (`page_url`) is a path decendent of a given `url`. Lives in [utility.md](utility.md).
+#### matches_url_parent: determines if the current page url is a path decendent of a given url. Lives in [utility.md](utility.md).
 
-Example:
-```bash
-{{ '/hire/' | matches_url_parent: '/hire/partnership-playbook/' }}
-> true
-
-{{ '/hire/partnership-playbook/' | matches_url_parent: '/hire/partnership-playbook/' }}
-> true
-
-{{ '/hire/partnership-playbook/' | matches_url: '/hire/' }}
-> nil
-
-{{ '/join/' | matches_url_parent: '/hire/partnership-playbook/' }}
-> nil
-```
+Accepts two arguments, `page`, the current page that is being evaluated, and `item`, the navigation item that is being checked (from `navigation.yml`). If a collection is specified in the navigation item, it will first check if the item collection and page collection match.
 
 #### find_page: looks at the list of navigation fields in [navigation.yml](navigation.yml) and find the object that corresponds with a given url. Lives in [utility.md](utility.md).
 

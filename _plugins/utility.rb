@@ -92,10 +92,12 @@ module Jekyll
 
     def check_type(value, second_value = nil, third_value = nil)
       type = value.class
-      puts '---------------------'
-      puts "#{value} is a #{type}"
-      puts '---------------------'
-      binding.pry
+      second_type = second_value.class
+      third_type = third_value.class
+      # puts '---------------------'
+      # puts "#{value} is a #{type}"
+      # puts '---------------------'
+      # binding.pry
     end
   end
 end
