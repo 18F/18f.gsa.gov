@@ -1,6 +1,5 @@
 ---
 title: "Curate the best thinking available"
-date: 2016-11-29
 authors:
 - theresa
 tags:
@@ -109,7 +108,7 @@ government employees.
         }
       ]
     }
-    
+
 
 We made [a call for a second round of
 feedback](https://github.com/presidential-innovation-fellows/code-gov-web/issues/44)
