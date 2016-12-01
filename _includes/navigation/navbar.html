@@ -7,7 +7,8 @@
     {% else %}
       {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
     {% endif %}
-    {% assign is_matching = page.url | matches_url_parent: item.permalink %}
+
+    {% assign is_matching = page | matches_url_parent: item %}
 
     <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
   </li>
