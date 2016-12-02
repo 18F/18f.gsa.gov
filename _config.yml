@@ -48,6 +48,9 @@ collections:
   hire:
     output: false
     permalink: /hire/:path/
+  styleguide:
+    output: true
+    permalink: /styleguide/:path/
 
 defaults:
  -
@@ -77,6 +80,13 @@ defaults:
     layout: default-image
     # include_subnav: true
     subnav_anchor: /hire/
+
+ -
+  scope:
+    path: "_styleguide"
+  values:
+    layout: styleguide
+    include_subnav: true
 
 frontmatter_tests:
   path: "tests/schema"
