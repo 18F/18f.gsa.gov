@@ -9,7 +9,7 @@ excerpt: "If you’re looking for a way to have an impact on the digital service
 the government provides to the public, now’s your opportunity. The
 Presidential Innovation Fellows (PIF) program is currently accepting
 applications for the Spring 2017 cohort."
-image: /assets/img/logos/pig.png
+image: /assets/img/logos/pif-navy.png
 hero: false
 ---
 If you’re looking for a way to have an impact on the digital services
