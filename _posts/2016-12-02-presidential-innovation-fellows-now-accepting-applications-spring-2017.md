@@ -24,7 +24,7 @@ Past fellows have worked on all kinds of incredible projects, including:
 
 -   [code.gov](https://code.gov/), a platform for [government open source code](https://18f.gsa.gov/2016/11/07/code-gov-the-next-milestone-federal-open-source-code/) and policies that encourages the reuse of government code
 -   The [Digital Acquisition Accelerator](https://pages.18f.gov/digitalaccelerator/), which works with federal agencies to teach them modern digital procurement practices so taxpayers spend less and get better results
--   trials.cancer.gov, a streamlined, user-friendly site for searching for clinical trials supported by the National Cancer Institute along with a new API that is making it much easier for researchers to recruit new participants and for patients to find trials
+-   [trials.cancer.gov](https://trials.cancer.gov), a streamlined, user-friendly site for searching for clinical trials supported by the National Cancer Institute along with a new API that is making it much easier for researchers to recruit new participants and for patients to find trials
 -   And much, much more
 
 The PIF program is an instrumental piece of a large and vibrant movement
