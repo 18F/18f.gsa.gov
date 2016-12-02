@@ -5,7 +5,7 @@ layout: post
 image: "/assets/blog/rfp-as-a-service/18f-consulting-masthead.gif"
 
 tags:
-- aquisition services
+- acquisition services
 - rfp ghostwriting
 - agile
 - procurement
