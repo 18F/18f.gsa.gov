@@ -117,3 +117,39 @@ button,
     color: $color-dark;
   }
 }
+
+.background-dark {
+  .usa-button,
+  .usa-button-primary,
+  .usa-button:visited,
+  .usa-button-primary:visited,
+  button,
+  [type="button"],
+  [type="submit"],
+  [type="reset"] {
+    background-color: $color-bright;
+  }
+
+  .usa-button-secondary {
+    &.usa-button:hover,
+    &.usa-button-hover {
+      background-color: $color-bright-hover;
+    }
+
+    &.usa-button:active,
+    &.usa-button-active {
+      background-color: $color-medium;
+    }
+
+    &.usa-button:focus,
+    &.usa-button-focus {
+      background-color: $color-medium-hover;
+    }
+
+    &.usa-button:disabled,
+    &.usa-button-disabled {
+      background-color: $color-gray-lighter;
+      color: $color-gray-dark;
+    }
+  }
+}
