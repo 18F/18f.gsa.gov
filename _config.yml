@@ -94,7 +94,7 @@ markdown: RedcarpetExt
 highlighter: rouge
 redcarpet:
   syntax_highlighter: rouge
-  extensions: ["tables", "quote"]
+  extensions: ["tables", "quote", "fenced_code_blocks"]
 
 include:
   - _navigation.json
