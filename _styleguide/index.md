@@ -25,7 +25,10 @@ nav_items:
        permalink: /styleguide/#hero-banner-centered-text
        collections: ['styleguide']
        in_subnav: true
-       children:
+     - text: Card
+       permalink: /styleguide/#card
+       collections: ['styleguide']
+       in_subnav: true
 
 
 ---
@@ -69,4 +72,17 @@ nav_items:
     <a href="{{ dead_end_link }}"><button class="usa-button usa-button-big usa-button-secondary">Our work</button></a>
   </div>
 </section>
+
+### Card
+
+<section class="usa-section">
+  {% include card.html
+     image_src="/assets/img/home/hero-fec.png"
+     image_alt="Image of a chart with a stylized magnifying glass"
+     title="The Federal Election Commission"
+     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
+     link="{{ dead_end_link }}"
+  %}
+</section>
+
 

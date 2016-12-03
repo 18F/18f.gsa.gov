@@ -47,10 +47,15 @@ button,
       margin-left: 4px;
     }
 
-      @else {
-        margin-right: 4px;
-      }
+    @else {
+      margin-right: 4px;
     }
+  }
+
+  &:visited::#{$direction} {
+    background-image: url(../img/#{$icon}-visited.png);
+    background-image: url(../img/#{$icon}-visited.svg);
+  }
 
   &:hover::#{$direction} {
     background-image: url(../img/#{$icon}-hover.png);
@@ -58,7 +63,7 @@ button,
   }
 
   &:visited {
-    color: $color-medium;
+    color: $color-visited;
   }
 
   &:hover {
@@ -74,6 +79,15 @@ button,
 .link-arrow-right {
   @include display-icon(arrows/medium/arrow-right, after, 1.2rem);
   @extend %link-arrow;
+}
+
+a:visited .link-arrow-right {
+  color: $color-visited;
+
+  &::after {
+    background-image: url(../img/arrows/medium/arrow-right-visited.png);
+    background-image: url(../img/arrows/medium/arrow-right-visited.svg);
+  }
 }
 
 .link-arrow-right-alt {
