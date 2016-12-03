@@ -1,0 +1,20 @@
+.card {
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.card-banner {
+  background-color: $color-gray-lightest;
+  float: left;
+  padding: $paragraph-margins * 2;
+}
+
+.card-image {
+  float: left;
+}
+
+.card-description {
+  color: initial;
+}
