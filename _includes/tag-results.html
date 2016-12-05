@@ -1,5 +1,4 @@
 {% assign posts = include.posts | default: site.posts %}
-{% assign tags = include.tags | default: post.tags | default: site.tags %}
 
 <div class="blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
   <ul class="post-list{% if include.trim_padding %} post-list-no-padding{% endif %}">

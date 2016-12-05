@@ -1,7 +1,12 @@
 require 'redcarpet'
+require 'rouge'
+require 'rouge/plugins/redcarpet'
+
 
 # Create a custom renderer that extend Redcarpet to customize its behavior.
 class RedcarpetExtender < Redcarpet::Render::HTML
+  include Rouge::Plugins::Redcarpet
+
   def initialize(options = {})
     options ||= {}
     redcarpet_extensions = Jekyll.configuration({})['redcarpet']['extensions']
@@ -21,6 +26,10 @@ class RedcarpetExtender < Redcarpet::Render::HTML
     else
       str
     end
+  end
+
+  def block_code(code, language)
+    Rouge.highlight(code, language || 'text', 'html')
   end
 
   def header(title, level)
