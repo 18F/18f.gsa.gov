@@ -34,8 +34,8 @@ button,
 
 @mixin display-icon($icon, $direction, $size) {
   &:#{$direction} {
-    background-image: url(../img/#{$icon}.png);
-    background-image: url(../img/#{$icon}.svg);
+    background-image: url("../img/#{$icon}.png");
+    background-image: url("../img/#{$icon}.svg");
     background-size: 100%;
     content: '';
     display: inline-block;
@@ -45,21 +45,19 @@ button,
 
     @if $direction == 'after' {
       margin-left: 4px;
-    }
-
-    @else {
+    } @else {
       margin-right: 4px;
     }
   }
 
   &:visited::#{$direction} {
-    background-image: url(../img/#{$icon}-visited.png);
-    background-image: url(../img/#{$icon}-visited.svg);
+    background-image: url("../img/#{$icon}-visited.png");
+    background-image: url("../img/#{$icon}-visited.svg");
   }
 
   &:hover::#{$direction} {
-    background-image: url(../img/#{$icon}-hover.png);
-    background-image: url(../img/#{$icon}-hover.svg);
+    background-image: url("../img/#{$icon}-hover.png");
+    background-image: url("../img/#{$icon}-hover.svg");
   }
 
   &:visited {
@@ -85,8 +83,8 @@ a:visited .link-arrow-right {
   color: $color-visited;
 
   &::after {
-    background-image: url(../img/arrows/medium/arrow-right-visited.png);
-    background-image: url(../img/arrows/medium/arrow-right-visited.svg);
+    background-image: url("../img/arrows/medium/arrow-right-visited.png");
+    background-image: url("../img/arrows/medium/arrow-right-visited.svg");
   }
 }
 
