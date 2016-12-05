@@ -17,8 +17,9 @@ acceptable_indices = [
 ]
 
 stripped_post_directory.each_with_index do |post, index|
-  excluded_post = !lines.include? "- #{post}\n" and !acceptable_indices.include? index
-  lines << "- #{post}" if excluded_post
+  if !lines.include? "- #{post}\n" and !acceptable_indices.include? index
+    lines << "- #{post}"
+  end
 end
 
 File.open(config_path, 'w') do |f|
