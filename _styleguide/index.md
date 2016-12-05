@@ -81,7 +81,7 @@ nav_items:
      image_alt="Image of a chart with a stylized magnifying glass"
      title="The Federal Election Commission"
      description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="{{ dead_end_link }}"
+     link=dead_end_link
   %}
 </section>
 
