@@ -2,7 +2,7 @@
 layout: project-tag-results
 project-type: "Partner"
 title: "Health and Human Services"
-subtitle: Helping states set up successful projects
+subtitle: Helping states update crucial systems
 excerpt: HHS hired 18F to help states implement current best practices and upgrade legacy systems.
 image: 
 image_accessibility: 
@@ -13,11 +13,11 @@ github_repo:
 project_url: 
 ---
 
-Health and Human Services (HHS) is a federal agency, but many crucial HHS programs are administered by states. In turn, states rely on HHS for grants, guidance, and oversight.
+Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.
 
 HHS encourages states to reduce technology risks by offering funding incentives for upgrading legacy systems — but many states struggle to implement current best practices in software contracts, especially while navigating federal and state contracting rules. HHS hired 18F to step in and help states set these projects up for success.
 
-### Agile procurement is a team sport
+### Reducing risk by breaking up contracts
 
 In our first project, we helped California get on the right path to buying a new system for child welfare case management by facilitating a two-day workshop to break an overwhelming contract into smaller pieces (along with people from California’s Department of Social Services, the Office of Systems Integration, HHS, and Code for America).
 
