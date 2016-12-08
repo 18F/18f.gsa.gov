@@ -14,21 +14,27 @@ header[role=banner] {
     // *TODO*: De-nest this once we fix lists in WDS
     li {
       display: inline-block;
+      position: relative;
 
       a {
         @include padding(2.3rem 2rem);
+
         color: $color-gray;
+        display: inline-block;
         font-weight: $font-bold;
         text-decoration: none;
-        display: inline-block;
 
         &::after {
-          height: 10px;
-          width: 0;
-          background-color: blue;
-          display: inline-block;
+          @include transition(width, 0.3s);
+
+          background-color: $color-bright;
+          bottom: 0;
           content: "";
-          @include transition(width, 0.5s);
+          display: inline-block;
+          height: 10px;
+          left: 0;
+          position: absolute;
+          width: 0;
         }
 
         &.usa-current,
@@ -40,7 +46,6 @@ header[role=banner] {
           }
 
           span {
-            // border-bottom: $border-accent;
             padding-bottom: 1.4rem;
 
             @-moz-document url-prefix() {
@@ -61,6 +66,7 @@ header[role=banner] {
     display: none;
     float: right;
     font-size: $small-font-size;
+    margin: 0;
 
     @include media($medium-screen + $nav-width-extra) {
       display: block;
