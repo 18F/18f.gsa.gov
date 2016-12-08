@@ -2,40 +2,18 @@
 title: Hire 18F
 permalink: /hire/
 image: /assets/img/page-feature/hire-us.jpg
-layout: default-intro
+layout: default-image
 lead: Let’s work together to tackle your agency’s technology problems and transform how you serve the public.
 ---
 
-## Get in touch
+Have a project in mind? Want to see if 18F can help your agency? Email Dan Kenny on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov&subject=18F%20website%20inquiry).
 
-Have a project in mind? Want to see if 18F can help your agency?
+We’ll set up a time to talk more, answer your questions, and ask about what you have in mind. Once we understand your office and the problems you're trying to solve, we'll figure out whether we can help you build or buy a solution.
 
-Send us a little information about how to contact you, and we'll set up a time to talk about whether we can help you build or buy a solution.
+<a class="usa-button" href="mailto:inquiries18F@gsa.gov?subject=18F%20Website%20Inquiry&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Email us</a>
 
-<form action="mailto:corey.mahoney@gsa.gov" method="post" enctype="text/plain">
+**How we work with partners**
 
-    <label for="input-name">What’s your name?</label>
-    <input id="input-name" name="input-name" type="text">
-
-    <label for="input-email">What email address should we use to contact you?</label>
-    <input id="input-email" name="input-email" type="email">
-
-    <label for="input-agency">What agency or office do you work for?</label>
-    <input id="input-agency" name="input-agency" type="text">
-
-    <label for="input-role">What’s your job title or role?</label>
-    <input id="input-role" name="input-role" type="text">
-
-    <label for="input-notes">Tell us a little about the problems you’re working on, or what project you’re hoping to work on with 18F.</label>
-    <textarea id="input-notes" name="input-notes" type="textarea"></textarea>
-
-    <input type="submit" value="Submit">
-</form>
-
-You can also email [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov) to reach Dan Kenny on our Agency Partnerships team.
-
-## How we work with partners
-
-18F is a cost-recoverable office, which means we don't receive appropriated funds from Congress and must charge our partner agencies to cover our costs. We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) to set up the terms of our projects.
+18F is a cost-recoverable office, which means we don't receive appropriated funds from Congress and must charge our partner agencies for the work we do. We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) to set up the terms of our projects.
 
 You can read more about how we work with agencies in our [Partnership Playbook](https://pages.18f.gov/partnership-playbook/).
