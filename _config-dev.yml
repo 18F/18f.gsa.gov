@@ -2,7 +2,6 @@ env: "development"
 
 exclude:
 - _pages
-- _cards
 - _posts
 - _authors
 - CONTRIBUTING.md

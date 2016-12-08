@@ -17,6 +17,8 @@ Run each of the following steps to get the site up and running.
 
 To enable the ability to search and see all pages related to the blog, you can run `bundle exec jekyll serve` instead of `./serve` for the server start command. This will **slow down rebuild times dramatically**, so use this command with discretion.
 
+To enable the ability to see the most recent posts, you can run `./serve-blog`. This takes longer than `./serve`, but **significantly less time** than building the entire site.
+
 You should be able to see the site at: http://127.0.0.1:4000
 
 ## Alternative Installation using Docker
