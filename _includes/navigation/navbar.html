@@ -1,15 +1,13 @@
 <ul class="usa-accordion">
 {% for item in include.nav_items %}
-  {% if item.in_menu or include.styleguide %}
+  {% if item.in_menu %}
   <li>
     {% if item.permalink %}
       {% assign item_link = item.permalink | prepend: site.baseurl %}
     {% else %}
       {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
     {% endif %}
-
     {% assign is_matching = page | matches_url_parent: item %}
-
     <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
   </li>
   {% endif %}
