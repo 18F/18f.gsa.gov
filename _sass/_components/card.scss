@@ -1,12 +1,15 @@
 .card {
+
   a {
     display: inline-block;
     text-decoration: none;
+    border: 1px solid $color-gray-lighter;
+    border-top: $border-accent;
   }
 }
 
 .card-banner {
-  background-color: $color-gray-lightest;
+  background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
 }
