@@ -1,6 +1,6 @@
 <ul class="usa-accordion">
 {% for item in include.nav_items %}
-  {% if item.in_menu %}
+  {% if item.in_menu or include.styleguide %}
   <li>
     {% if item.permalink %}
       {% assign item_link = item.permalink | prepend: site.baseurl %}

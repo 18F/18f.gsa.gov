@@ -137,7 +137,7 @@
 }
 
 .content-focus {
-  @include margin($section-margins auto);
+  @include margin(0 auto);
   max-width: 64.063rem; // 8 column width at full screen
 }
 
