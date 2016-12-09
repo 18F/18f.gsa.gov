@@ -34,5 +34,6 @@ $nav-width-extra:    88px; // width needed to add so nav doesn't break on medium
 $text-max-width:     60.6rem;
 
 // Miscellaneous
-$border-accent:      .5rem solid $color-bright;
-$border-light:       1px solid $color-gray-lightest;
+$border-accent-height: 0.5rem;
+$border-accent:        $border-accent-height solid $color-bright;
+$border-light:         1px solid $color-gray-lightest;
