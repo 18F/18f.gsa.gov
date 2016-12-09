@@ -29,10 +29,6 @@ nav_items:
        permalink: /styleguide/#card
        collections: ['styleguide']
        in_subnav: true
-     - text: Site navigation
-       permalink: /styleguide/#site-navbar
-       collections: ['styleguide']
-       in_subnav: true
 
 
 ---
@@ -127,20 +123,6 @@ nav_items:
 {% include details-code.html
    text="See code"
    content=card
-   lang="html"
-%}
-
-### Site navbar
-
-{% capture site_navbar %}
-  <nav role="navigation">
-    {% include navigation.html navbar=true styleguide=true %}
-  </nav>
-{% endcapture %}
-
-{% include details-code.html
-   text="See code"
-   content=site_navbar
    lang="html"
 %}
 
