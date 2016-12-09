@@ -13,6 +13,7 @@ dependencies:
   pre:
     - bundle install
     - bundle exec jekyll build
+    - npm install -g accesslint-cli
     # uncomment to restore pa11y-ci
     # - nvm install stable && nvm alias default stable
     #
@@ -20,8 +21,6 @@ dependencies:
     # uncomment to restore pa11y-ci
     # - npm install -g pa11y-ci
     #
-  override:
-    - npm install -g accesslint-cli
 
 test:
   pre:
