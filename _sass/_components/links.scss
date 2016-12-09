@@ -1,31 +1,26 @@
 a.bar-link {
-	position: relative;
+  position: relative;
 
-	&::before {
-		background-color: $color-bright;
-		// height: $border-accent-height;
-		height: 0;
+  &::before {
+    @include transition(height, 0.1s);
+    background-color: $color-bright;
+    content: '';
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
 
-		width: 100%;
-		content: '';
-		// @include transition(background-color, 1s);
-		@include transition(height, 0.1s);
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
+  &:hover,
+  &:focus {
+    border: 1px solid $color-bright;
 
-	&:hover,
-	&:focus {
-		// border-top: 0 !important;
-		border: 1px solid $color-bright;
-		&::before {
-			background-color: $color-bright;
-			// height: $border-accent-height * 2;
-			height: $border-accent-height;
-			// width: 100%;
-			width: 100%;
-		}
-	}
+    &::before {
+      background-color: $color-bright;
+      height: $border-accent-height;
+      width: 100%;
+    }
+  }
 }
