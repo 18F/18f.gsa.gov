@@ -18,7 +18,7 @@ If your agency’s project has a digital component, our team of software develop
 
 - Improve a challenging user process by reimagining a daunting task, as we did with the [U.S. Citizenship and Immigration Service](https://my.uscis.gov/) and their immigration and visa processes.
 - Build a new site and API to showcase and synthesize data from multiple sources, as we did with Department of Education's [College Scorecard](https://collegescorecard.ed.gov/).
-- Help you make your data more accessible with a user-friendly site and developer tools, as we did with the [Federal Election Commission](https://beta.fec.gov/).
+- Help you make your data more accessible with a user-friendly site and developer tools, as we did with the [Federal Election Commission]({{ site.baseurl }}/project/fec-gov/).
 - Build web-based tools to streamline internal agency processes, as we did with [Communicart](https://cap.18f.gov/) and [CALC](https://calc.gsa.gov/).
 - Scope a solution or collaborate on an idea in a way that empowers you to meet the needs of your users, as we did with the [Department of Labor’s Wage and Hour Division](https://18f.gsa.gov/2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/).
 - Do user research and discovery sprints to promote a new digital model that houses information, as we did with NASA and the National Oceanic and Atmospheric Administration’s Climate Discovery project.
@@ -39,7 +39,7 @@ better results. If your agency is developing a new request for quotation
 for IT services or is interested in innovative ways to buy technology,
 our team is excited to work with you. We can help you:
 
-- Write agile, modular, and user-centered design into your request for quotations through our RFP Ghostwriting service, like we did with the [Department of Health and Human Services](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/).
+- Write agile, modular, and user-centered design into your request for quotations through our RFP Ghostwriting service, like we did with the [Department of Health and Human Services]({{ site.baseurl }}/project/hhs-states/).
 - Develop a marketplace to buy IT services using modern techniques, like we did with the [Agile Blanket Purchase Agreement](https://pages.18f.gov/ads-bpa/).
 - Buy small pieces of open source code to advance your projects, like we’re doing with our [micro-purchase platform](https://micropurchase.18f.gov/).
   {% endmarkdown %}
