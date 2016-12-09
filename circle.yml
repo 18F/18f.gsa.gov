@@ -1,7 +1,13 @@
+general:
+  artifacts:
+    - "tmp"
+
 machine:
   ruby:
     version:
       2.3.1
+  node:
+    version: 6.1.0
 
 dependencies:
   pre:
@@ -14,6 +20,8 @@ dependencies:
     # uncomment to restore pa11y-ci
     # - npm install -g pa11y-ci
     #
+  override:
+    - npm install -g accesslint-cli
 
 test:
   pre:
@@ -21,3 +29,6 @@ test:
     - npm run htmlproofer
     # uncomment to restore pa11y-ci
     # - npm run --harmony lint-508
+  post:
+    - bundle exec jekyll serve
+    - accesslint-ci scan https://federalist.18f.gov/preview/18F/18f.gsa.gov/dev
