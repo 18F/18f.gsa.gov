@@ -30,4 +30,4 @@ test:
     # - npm run --harmony lint-508
   post:
     - bundle exec jekyll serve --detach
-    - accesslint-ci scan https://federalist.18f.gov/preview/18F/18f.gsa.gov/dev
+    - accesslint-ci scan http://localhost:4000
