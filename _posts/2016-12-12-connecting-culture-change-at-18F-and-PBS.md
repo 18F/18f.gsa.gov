@@ -6,7 +6,7 @@ tags:
 - public buildings service
 - general services administration
 - culture change
-description: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, CO, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
+excerpt: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, CO, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
 image: /assets/blog/denver/union-station.jpg
 ---
 In 2019, the Colorado state office of the Bureau of Land Management
