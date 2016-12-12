@@ -6,13 +6,13 @@ tags:
 - public buildings service
 - general services administration
 - culture change
-excerpt: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, CO, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
+excerpt: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, Colorado, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
 image: /assets/blog/denver/union-station.jpg
 ---
 In 2019, the Colorado state office of the Bureau of Land Management
 (BLM) will move into a new office on the Denver Federal Center campus.
 The state office has about 150 employees, some of whom have been working
-in the same place, in Lakewood, CO, for more than 33 years — the entire
+in the same place, in Lakewood, Colorado, for more than 33 years — the entire
 life of the state BLM office. Moving an agency's entire office is a
 process that requires working with the General Services Administration's
 Public Buildings Administration (PBS) on many levels. There's the
