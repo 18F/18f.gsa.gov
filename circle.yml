@@ -15,11 +15,10 @@ dependencies:
     - gem install bundler
     - npm install -g accesslint-cli
     - bundle install
+    - bundle exec jekyll build
 
 test:
   pre:
-    # - bundle exec jekyll build
-    # - bundle exec jekyll test
     # - npm run htmlproofer
     # - npm test
   post:
