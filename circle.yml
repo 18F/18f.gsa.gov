@@ -7,20 +7,28 @@ machine:
     version:
       2.3.1
   node:
-    version:
-      6.1.0
+    version: 6.1.0
 
 dependencies:
   pre:
     - gem install bundler
-    - npm install -g accesslint-cli
     - bundle install
     - bundle exec jekyll build
+    - npm install -g accesslint-cli
+    # uncomment to restore pa11y-ci
+    # - nvm install stable && nvm alias default stable
+    #
+    - npm test
+    # uncomment to restore pa11y-ci
+    # - npm install -g pa11y-ci
+    #
 
 test:
   pre:
-    # - npm run htmlproofer
-    # - npm test
+    - bundle exec jekyll test
+    - npm run htmlproofer
+    # uncomment to restore pa11y-ci
+    # - npm run --harmony lint-508
   post:
     - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000:
-      timeout: 2200
+        timeout: 1200
