@@ -12,23 +12,16 @@ machine:
 dependencies:
   pre:
     - gem install bundler
-    - bundle install
-    - bundle exec jekyll build
     - npm install -g accesslint-cli
-    # uncomment to restore pa11y-ci
-    # - nvm install stable && nvm alias default stable
-    #
-    - npm test
-    # uncomment to restore pa11y-ci
-    # - npm install -g pa11y-ci
-    #
+  post:
+    - bundle install
 
 test:
   pre:
+    # - bundle exec jekyll build
     - bundle exec jekyll test
-    - npm run htmlproofer
-    # uncomment to restore pa11y-ci
-    # - npm run --harmony lint-508
+    # - npm run htmlproofer
+    - npm test
   post:
     - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000:
-        timeout: 1200
+      timeout: 2200
