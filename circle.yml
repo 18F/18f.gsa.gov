@@ -7,21 +7,21 @@ machine:
     version:
       2.3.1
   node:
-    version: 6.1.0
+    version:
+      6.1.0
 
 dependencies:
   pre:
     - gem install bundler
     - npm install -g accesslint-cli
-  post:
     - bundle install
 
 test:
   pre:
     # - bundle exec jekyll build
-    - bundle exec jekyll test
+    # - bundle exec jekyll test
     # - npm run htmlproofer
-    - npm test
+    # - npm test
   post:
     - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000:
       timeout: 2200
