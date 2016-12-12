@@ -2,22 +2,40 @@ machine:
   ruby:
     version:
       2.3.1
+  # uncomment below for accesslint
+  # node:
+   # version:
+     # 5.1.0
 
 dependencies:
   pre:
     - bundle install
     - bundle exec jekyll build
     # uncomment to restore pa11y-ci
-    # - nvm install stable && nvm alias default stable
+    - nvm install stable && nvm alias default stable
     #
-    - npm test
-    # uncomment to restore pa11y-ci
-    # - npm install -g pa11y-ci
-    #
+    #uncomment to restore pa11y-ci
+    - npm install -g pa11y-ci
+    #uncomment  below to restore access-lint
+    # - jekyll -v 
+    # - npm install -g accesslint-cli@1.1.1
+    #- gem install accesslint-ci -v 0.1.9
+  # override:
+     
+    #- npm test 
+   
+
+    
 
 test:
   pre:
     - bundle exec jekyll test
     - npm run htmlproofer
     # uncomment to restore pa11y-ci
-    # - npm run --harmony lint-508
+    - npm run --harmony lint-508
+    # uncomment below to restore access-lint
+  #post:
+    #- ls -agolf _site/ # Ensure that build worked
+    #- |
+    #  bundle exec jekyll serve --detach --no-watch && \
+    #   accesslint-ci scan http://localhost:4000
