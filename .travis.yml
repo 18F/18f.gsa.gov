@@ -6,8 +6,17 @@ sudo: false
 cache: bundler
 git:
   submodules: false
+  
+before_script:
+  - npm i -g http-server pa11y pa11y-reporter-ci
 
-script: ./go ci_build
+script: 
+  - ./go ci_build
+  - nohup http-server _site/ -p 8080 >/dev/null 2>&1 &
+  - pa11y localhost:8080 -r ci -s Section508
+  - pa11y localhost:8080/tags/18F/ -r ci -s Section508
+  - pa11y localhost:8080/2015/04/09/flexibility-when-releasing-a-new-product-peace-corps-new-donation-platform/ -r ci -s Section508
+  - pa11y localhost:8080/news/ -r ci -s Section508
 
 notifications:
   email:
