@@ -3,7 +3,7 @@ a.bar-link {
 
   &::before {
     @include transition(height, 0.1s);
-    background-color: $color-bright;
+    background-color: $color-bright-hover;
     content: '';
     height: 0;
     left: 0;
@@ -15,10 +15,20 @@ a.bar-link {
 
   &:hover,
   &:focus {
-    border: 1px solid $color-bright;
+    border: 1px solid $color-bright-hover;
 
     &::before {
-      background-color: $color-bright;
+      background-color: $color-bright-hover;
+      height: $border-accent-height;
+      width: 100%;
+    }
+  }
+
+  &:active {
+    border: 1px solid $color-primary-darker;
+
+    &::before {
+      background-color: $color-primary-darker;
       height: $border-accent-height;
       width: 100%;
     }
