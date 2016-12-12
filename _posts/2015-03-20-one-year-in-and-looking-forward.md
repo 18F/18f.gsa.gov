@@ -143,7 +143,7 @@ source projects.
 
 Onward!
 
-[1]: https://18f.gsa.gov/18f/team/culture/2014/03/19/hello-world-we-are-18f/
+[1]: https://18f.gsa.gov/2014/03/19/hello-world-we-are-18f/
 [2]: http://pif.gsa.gov
 [3]: https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/
 [4]: https://18f.gsa.gov/2015/02/12/highlights-from-the-agile-delivery-services-industry-day-events/
