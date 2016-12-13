@@ -3,23 +3,17 @@ title: Hire 18F
 permalink: /hire/
 image: /assets/img/page-feature/hire-us.jpg
 layout: default-image
-lead: Let’s work together to design services that empower your team, better serve the public, and tackle the big problems facing your agency.
+lead: Let’s work together to tackle your agency’s technology problems and transform how you serve the public.
 ---
 
-We can work with you to explore and define a variety of problems, and then we can help you build or buy a solution.
+Have a project in mind? Want to see if 18F can help your agency? Email Dan Kenny on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov?subject=18F%20Website%20Inquiry&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A).
 
-Because of our limited resources, 18F is not able to take on every
-project that agencies propose. We select our projects through a
-qualification and evaluation process led by our Agency Partnerships
-Team. If you and 18F decide that we’re the right fit for a project and
-we have the necessary time and resources, we’ll work with you to draft
-the necessary documents to begin our partnership. You can read more
-about how we work with other agencies in our [Partnership
-Playbook](https://pages.18f.gov/partnership-playbook/).
+We’ll set up a time to talk more, answer your questions, and ask about what you have in mind. Once we understand your office and the problems you're trying to solve, we'll figure out whether we can help you build or buy a solution.
 
-18F is a cost-recoverable office, which means that we do not receive
-appropriated funds from Congress and must charge our partner agencies to
-cover our costs. Funding is set up through [Interagency
-Agreements](https://pages.18f.gov/iaa-forms/).
+<a class="usa-button" href="mailto:inquiries18F@gsa.gov?subject=18F%20Website%20Inquiry&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Email us</a>
 
-Do you have a project in mind? Let us know: [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov)
+**How we work with partners**
+
+18F is a cost-recoverable office, which means we don't receive appropriated funds from Congress and must charge our partner agencies for the work we do. We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) to set up the terms of our projects.
+
+You can read more about how we work with agencies in our [Partnership Playbook](https://pages.18f.gov/partnership-playbook/).
