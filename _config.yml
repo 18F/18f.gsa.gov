@@ -102,6 +102,12 @@ exclude:
   - README.md
   - vendor
   - node_modules
+  - CONTRIBUTING.md
+  - README.md
+  - PULL_REQUEST_TEMPLATE.md
+  - ISSUE_TEMPLATE.md
+  - 'Accessibility Scanning Using Pa11y-ci.md'
+
 # jekyll plugins
 gems:
   - jekyll-sitemap
