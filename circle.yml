@@ -17,8 +17,7 @@ dependencies:
 
 test:
   pre:
-    - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000:
-        timeout: 1200
+    - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000
   override:
     # - bundle exec jekyll build
     - npm run test
