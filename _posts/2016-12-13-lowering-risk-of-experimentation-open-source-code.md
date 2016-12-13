@@ -8,7 +8,8 @@ tags:
 - acquisition services
 excerpt: "In September, Singapore launched the govBuy
 Marketplace, adapted from the Technology Transformation Service’s (TTS) Micro-Purchase Marketplace. Both sites are an auction platform designed to connect government teams to small businesses ready to solve small technical problems using open source code. The code that powers both platforms is also open source."
-image:
+image: /assets/blog/micro-purchase/singapore.jpg
+hero: false
 ---
 In September, Singapore launched the [govBuy
 Marketplace](https://buy.gds-gov.tech/auctions), adapted from the
