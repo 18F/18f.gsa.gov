@@ -29,9 +29,7 @@ taxpayers’ dollar) than not.
 Here are some of the meetings Will attends regularly and their purpose:
 
 -   A daily five-minute stand-up to share current work efforts on an 18F product
-
 -   A weekly 30-minute one-on-one with a manager to plan project next steps and share feedback as needed
-
 -   A weekly 45-minute check-in with senior management to escalate blocked tasks for action and provide status updates on known risks
 
 Your meeting should have **clear roles** that help fulfill the meeting’s
@@ -39,13 +37,9 @@ Your meeting should have **clear roles** that help fulfill the meeting’s
 their role. Here are some common roles:
 
 -   Leader: whoever convened the meeting and will end the meeting when the agenda is completed. There should be a obvious backup in case the leader is away.
-
 -   Timekeeper: the “enforcer” who will help to keep the meeting on track and on time if the leader is focused elsewhere.
-
 -   Notetaker: the person who produces a record of the meeting. Not assigning this role is the most common mistake we see meeting organizers make. However, anyone attending meetings has the authority (and responsibility) to correct this: If you find yourself in a meeting where it’s unclear who is taking notes, ask!
-
 -   Stakeholder: someone with decision-making authority who can make a decision or help make a decision in or after the meeting.
-
 -   Information recipient: someone whose job is to listen and ask clarifying questions. Meetings with people in this role are often about information dispersal.
 
 As a general rule, once you get into the double digits of attendees, you
@@ -105,21 +99,18 @@ agenda and notes. Do what makes sense and stay consistent.
 Here’s an example meeting invite to show how easy it can be to include
 everything needed:
 
-Meeting title: Federalist Sprint Planning
-
-Location: \<Video Call Link / Backup Teleconference Line\>
-
-Invite text:
-
--   Let’s do sprint planning as usual!
-
--   Will Slack leads and takes notes (notes location: \<link\>)
-
--   Agenda:
-
-    -   First half: recap top priorities and gather feedback.
-
-    -   Second half: scope work efforts for sprint for each team member
+>Meeting title: Federalist Sprint Planning
+>
+>Location: \<Video Call Link / Backup Teleconference Line\>
+>
+>Invite text:
+>
+> -   Let’s do sprint planning as usual!
+> -   Will Slack leads and takes notes (notes location: \<link\>)
+>
+>-   Agenda:
+>    -   First half: recap top priorities and gather feedback.
+>    -   Second half: scope work efforts for sprint for each team member
 
 ## Holding the meeting
 
@@ -150,7 +141,7 @@ You don’t know what your meeting’s participants were doing before the
 meeting; some deliberate tone-setting helps “cleanse the social palette”
 for your attendees. Will often tells a quick story about something that
 happened to him that day. As needed, **cover any technical backup
-plans**: if anyone is at risk of losing WiFI or cell coverage (18F has
+plans**: if anyone is at risk of losing WiFi or cell coverage (18F has
 problems with our large meeting tools sometimes), make sure that there’s
 a known contingency plan. Generally, that plan will be carrying on with
 the remaining folks, but that may not be appropriate. At 18F, we try to
