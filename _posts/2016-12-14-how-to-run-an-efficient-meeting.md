@@ -1,6 +1,6 @@
 ---
 title: "How to run an efficient meeting"
-Authors:
+authors:
 - will
 - alex-bisker
 tags:
