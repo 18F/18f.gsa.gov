@@ -229,6 +229,8 @@ deliberate and don’t allow someone to keep the conversation frozen
 because they are emphatic — that rewards their insistence and harms your
 authority.
 
+<img src="{{site.baseurl}}/assets/blog/meeting-facilitation/workshopping.jpg" alt="Members of the 18F team at a workshop meeting."
+
 ### Wrapping up
 
 If you’ve planned your meeting correctly, you should always aim to **end
