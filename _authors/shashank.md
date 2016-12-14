@@ -3,11 +3,15 @@ name: shashank
 first_name: Shashank
 last_name: Khandelwal
 full_name: Shashank Khandelwal
-role: 
-city: 
-state: 
-github: 
-twitter: 
-team: 
-redirect_from: 
+role: Director of Data + Technical Architecture
+city: Washington
+state: D.C.
+github:
+twitter:
+team: Consulting
+project:
+redirect_from:
+ - /team/khandelwal/
+ - /team/shashank/
+ - /author/khandelwal/
 ---
