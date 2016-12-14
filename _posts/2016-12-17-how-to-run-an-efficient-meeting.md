@@ -8,6 +8,7 @@ tags:
 - culture change
 - distributed
 excerpt: "Meetings are great ways to waste time. This blog post digs into how to avoid that outcome and make meeting time productive and useful (which sometimes means cancelling a meeting that doesn’t need to happen). We cover time management, room management, presentation style, note taking, preparation, next step management, and more."
+image: /assets/blog/meeting-facilitation/the-meeting.jpg
 ---
 *Recently, some of our colleagues asked Will to share some tips on
 running effective meetings. Many people spend a significant percentage
