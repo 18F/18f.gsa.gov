@@ -2,7 +2,6 @@ env: "development"
 
 exclude:
 - _pages
-- _authors
 - CONTRIBUTING.md
 - README.md
 - PULL_REQUEST_TEMPLATE.md

@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/duane-rollins/
+redirect_from: "/team/duane-rollins/"
+published: true
 ---
+

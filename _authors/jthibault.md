@@ -9,5 +9,7 @@ state: NY
 github: jenniferthibault
 twitter: jlthibault
 team: Design
-redirect_from: /team/jthibault/
+redirect_from: "/team/jthibault/"
+published: true
 ---
+

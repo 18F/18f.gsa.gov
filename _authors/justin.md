@@ -9,5 +9,7 @@ state: WA
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/justin/
+redirect_from: "/team/justin/"
+published: false
 ---
+

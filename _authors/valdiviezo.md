@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/valdiviezo/
+redirect_from: "/team/valdiviezo/"
+published: false
 ---
+

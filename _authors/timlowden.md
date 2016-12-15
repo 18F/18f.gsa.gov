@@ -8,4 +8,6 @@ state:
 role: 
 team: 
 redirect_from: 
+published: true
 ---
+

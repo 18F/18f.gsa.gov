@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/lindsay/
+redirect_from: "/team/lindsay/"
+published: true
 ---
+

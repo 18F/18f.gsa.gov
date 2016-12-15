@@ -9,5 +9,7 @@ role:
 state: DC
 team: Talent
 twitter: 
-redirect_from: /team/jennmoran/
+redirect_from: "/team/jennmoran/"
+published: false
 ---
+
