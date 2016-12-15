@@ -138,7 +138,7 @@ module Jekyll
 
       if index.nil?
         # puts "L 143 author.rb: No such author: #{input} in #{@page_path}"
-        author_data = AuthorData.new
+        author_data = SiteData::AuthorData.new
         full_name = author_data.fetch(input, 'full_name')
         if full_name
           full_name
@@ -152,82 +152,6 @@ module Jekyll
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       end
     end
-  end
-end
-
-class AuthorData
-  def initialize
-    @path = [Dir.pwd, "/_authors"].join()
-  end
-
-  def update(author_file, key, value)
-    author_path = [@path, "/#{author}"].join()
-    frontmatter = File.read(author_path)[YAML_FRONT_MATTER_REGEXP]
-    frontmatter_yml = YAML.load(frontmatter)
-    frontmatter_yml[key] = value
-    frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-    updated_file = File.read(author_path).gsub(frontmatter, frontmatter_new)
-    File.write(author_path, updated_file)
-  end
-
-  def fetch(name, key)
-    frontmatter = YAML.load_file("#{@path}/#{name}.md")
-    frontmatter[key]
-  end
-
-  def exists?(name)
-    File.exist? "#{@path}/#{name}.md"
-  end
-end
-
-
-require "yaml"
-
-def update_author_yml(author, key, value)
-  path = [Dir.pwd, "/_authors/#{author}"].join()
-  frontmatter = File.read(path)[YAML_FRONT_MATTER_REGEXP]
-  frontmatter_yml = YAML.load(frontmatter)
-  frontmatter_yml[key] = value
-  frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-  updated_file = File.read(path).gsub(frontmatter, frontmatter_new)
-
-  File.write(path, updated_file)
-end
-
-Jekyll::Hooks.register :site, :after_init do |site|
-  penned_authors = []
-  excluded_authors = []
-  YAML_FRONT_MATTER_REGEXP = /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
-
-  site_post_paths = Dir.entries([Dir.pwd, "/_posts"].join()).select do |f|
-    !File.directory? f and f != '.DS_Store'
-  end
-
-  all_authors = Dir.entries([Dir.pwd, "/_authors"].join()).select do |f|
-    !File.directory? f and f != '.DS_Store'
-  end.flatten.uniq
-
-  site_post_paths.each do |post_path|
-    frontmatter = YAML.load_file([Dir.pwd, "/_posts/", post_path].join())
-    if frontmatter['output'] != false and frontmatter['published'] != false
-      puts frontmatter['authors']
-      authors = frontmatter['authors'].map {|a| "#{a}.md" }
-      penned_authors << authors
-    end
-  end
-  penned_authors = penned_authors.flatten.uniq
-  excluded_authors = all_authors - penned_authors
-
-  author_data = AuthorData.new
-
-  penned_authors.each do |author|
-    authord_data.update(author, 'published', true)
-    puts "wrote to #{author}"
-  end
-
-  excluded_authors.each do |author|
-    authord_data.update(author, 'published', true)
-    puts "excluded #{author}"
   end
 end
 

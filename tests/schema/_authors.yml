@@ -10,6 +10,7 @@ team:
   type: "String"
   oneof: ["Delivery", "Consulting", "Design", "Talent"]
 role: "String"
+published: Boolean
 config:
   path: '_authors'
   ignore:
