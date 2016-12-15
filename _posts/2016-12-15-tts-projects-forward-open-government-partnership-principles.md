@@ -10,7 +10,7 @@ hero: false
 ---
 Last week, representatives from the U.S. and more than 70 other
 countries gathered together in Paris for the fourth [Open Government
-Partnership](http://www.opengovpartnership.org/)(OGP) Global Summit.
+Partnership](http://www.opengovpartnership.org/) (OGP) Global Summit.
 The U.S. joined seven other nations in 2011 to launch this global
 partnership to advance the ideals of open and participatory 21st century
 government. The OGP is a multilateral initiative that works to secure
@@ -63,15 +63,14 @@ agencies’ implementation of the OGP principles. Some examples include:
 data](https://www.whitehouse.gov/blog/2015/04/09/using-technology-and-data-improve-community-policing-police-data-initiative),
 [Blue
 Button](https://www.healthit.gov/patients-families/your-health-data)
-health data, [Green Button](http://energy.gov/data/green-button)
-[energy data](http://energy.gov/data/green-button), [the Opportunity
+health data, [Green Button](http://energy.gov/data/green-button) energy data, [the Opportunity
 Project](http://opportunity.census.gov/),
 [CITYSDK](https://uscensusbureau.github.io/citysdk/), the [digital
 registry](https://usdigitalregistry.digitalgov.gov/),
 [challenge.gov](https://www.challenge.gov/list/),
 [citizenscience.gov](https://www.citizenscience.gov/), and the
-[Federal Source Code Policy](https://sourcecode.cio.gov/), [among
-others](https://sourcecode.cio.gov/).
+[Federal Source Code Policy](https://sourcecode.cio.gov/), among
+others.
 
 Learn more about the U.S.’s participation in the OGP, and more than 60
 [federal projects that have contributed
