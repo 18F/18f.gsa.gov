@@ -6,7 +6,7 @@ authors:
 tags:
 - open government
 excerpt: "The U.S. has shown its commitment to the Open Government Partnership through the U.S. Open Government National Action Plans, which promote the OGP’s principles of transparency, facilitating access to government services for the public, and citizen engagement. 18F has worked together with several agencies to advance the partnership’s goals through a number of projects"
-image: /assets/blog/slug/image.jpg/png/gif
+hero: false
 ---
 Last week, representatives from the U.S. and more than 70 other
 countries gathered together in Paris for the fourth [Open Government
