@@ -4,7 +4,7 @@ ruby "2.3.1"
 gem "redcarpet"
 gem "jekyll", '~> 3.1'
 gem "html-proofer"
-gem "accesslint-ci"
+gem "accesslint-ci", "0.2.6"
 
 group :jekyll_plugins do
   if ENV['FAST_BUILDS'] == 'true'

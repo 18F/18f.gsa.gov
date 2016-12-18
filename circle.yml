@@ -3,6 +3,8 @@ general:
     - "tmp"
 
 machine:
+  environment:
+    ACCESSLINT_MASTER_BRANCH: dev
   ruby:
     version:
       2.3.1
@@ -11,15 +13,11 @@ machine:
 
 dependencies:
   pre:
-    - gem install bundler
-    - bundle install
     - npm install -g accesslint-cli
 
 test:
-  pre:
-    - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000
   override:
-    # - bundle exec jekyll build
     - npm run test
     - npm run htmlproofer
-
+  post:
+    - ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000
