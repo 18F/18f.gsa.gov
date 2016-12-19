@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Talent
-redirect_from: /team/estherchang/
+redirect_from: "/team/estherchang/"
+published: false
 ---
+

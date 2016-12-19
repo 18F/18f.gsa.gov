@@ -1,39 +1,43 @@
-{% assign posts = include.posts | default: site.posts %}
+{% assign posts = include.posts %}
 
 <div class="blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
   <ul class="post-list{% if include.trim_padding %} post-list-no-padding{% endif %}">
-  {% for post in posts %}
-    <li>
-      <div class="usa-width-one-whole">
-        {% if post.image.size > 0 %}
-          <a class="media_link usa-width-one-whole" href="{{ post.url | prepend: site.baseurl }}" title="link to post">
-            <img src="{{ site.baseurl }}{{ post.image }}" alt="">
-            <p class="usa-sr-only">continue reading</p>
-          </a>
-        {% endif %}
-        {% unless include.limit_metadata %}
-          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-        {% endunless %}
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {% unless include.limit_metadata %}
-          {% include post-author.html context='post' %}
-        {% endunless %}
-        {{ post.excerpt }}
-        <p>
-          <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
-        </p>
-        {% unless include.limit_metadata %}
-          <span class="post-tags" itemprop="keywords">
-            {% for tag in post.tags %}
-              <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
-              </a>
-            {% endfor %}
-          </span>
-        {% endunless %}
-      </div>
-    </li>
-  {% endfor %}
+  {% if posts %}
+    {% for post in posts %}
+      <li>
+        <div class="usa-width-one-whole">
+          {% if post.image.size > 0 %}
+            <a class="media_link usa-width-one-whole" href="{{ post.url | prepend: site.baseurl }}" title="link to post">
+              <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+              <p class="usa-sr-only">continue reading</p>
+            </a>
+          {% endif %}
+          {% unless include.limit_metadata %}
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          {% endunless %}
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {% unless include.limit_metadata %}
+            {% include post-author.html context='post' %}
+          {% endunless %}
+          {{ post.excerpt }}
+          <p>
+            <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+          </p>
+          {% unless include.limit_metadata %}
+            <span class="post-tags" itemprop="keywords">
+              {% for tag in post.tags %}
+                <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+                </a>
+              {% endfor %}
+            </span>
+          {% endunless %}
+        </div>
+      </li>
+    {% endfor %}
+  {% else %}
+    No posts yet.
+  {% endif %}
   </ul>
 </div>

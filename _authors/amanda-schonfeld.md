@@ -9,5 +9,7 @@ role:
 state: IL
 team: 
 twitter: 
-redirect_from: /team/amanda-schonfeld/
+redirect_from: "/team/amanda-schonfeld/"
+published: false
 ---
+

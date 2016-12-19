@@ -13,5 +13,7 @@ project:
 - 18f.gsa.gov
 - 18F Blog
 - DATA Act
-redirect_from: /team/elaine/
+redirect_from: "/team/elaine/"
+published: true
 ---
+

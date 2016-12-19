@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Operations
-redirect_from: /team/leahg/
+redirect_from: "/team/leahg/"
+published: false
 ---
+

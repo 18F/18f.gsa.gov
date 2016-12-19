@@ -11,4 +11,6 @@ team:
 twitter: 
 redirect_from: 
 alumni: true
+published: true
 ---
+

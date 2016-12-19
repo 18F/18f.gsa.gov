@@ -12,4 +12,6 @@ url: http://www.gsa.gov/portal/staffDirectory/contact/176573
 team: 
 alumni: true
 redirect_from: 
+published: true
 ---
+

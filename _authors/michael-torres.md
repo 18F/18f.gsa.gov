@@ -9,5 +9,7 @@ role:
 state: CA
 team: Product
 twitter: 
-redirect_from: /team/michael-torres/
+redirect_from: "/team/michael-torres/"
+published: true
 ---
+

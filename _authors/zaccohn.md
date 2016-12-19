@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Consulting
-redirect_from: /team/zaccohn/
+redirect_from: "/team/zaccohn/"
+published: true
 ---
+

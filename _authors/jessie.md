@@ -9,5 +9,7 @@ role: Developer
 state: California
 team: Delivery
 twitter: 
-redirect_from: /team/jessie/
+redirect_from: "/team/jessie/"
+published: true
 ---
+

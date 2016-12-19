@@ -9,5 +9,7 @@ role: Deputy for Acquisition
 state: DC
 team: Acquisition
 twitter: 
-redirect_from: /team/alla/
+redirect_from: "/team/alla/"
+published: true
 ---
+

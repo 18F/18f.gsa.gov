@@ -10,4 +10,6 @@ github:
 twitter: 
 team: 
 redirect_from: 
+published: true
 ---
+

@@ -9,5 +9,7 @@ role: Project Manager
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/anna/
+redirect_from: "/team/anna/"
+published: true
 ---
+

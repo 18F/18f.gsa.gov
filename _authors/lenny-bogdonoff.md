@@ -9,5 +9,7 @@ role: General Developer
 state: NY
 team: 
 twitter: 
-redirect_from: /team/lenny-bogdonoff/
+redirect_from: "/team/lenny-bogdonoff/"
+published: false
 ---
+
