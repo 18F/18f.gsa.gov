@@ -2,6 +2,7 @@
 title: Developer resources
 layout: default-intro
 permalink: /developer/
+redirect_from: /developers/
 ---
 
 <p class="lead">
