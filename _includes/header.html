@@ -15,7 +15,9 @@
       {% endif %}
       ></a>
     {% if page.url == '/' %}
-      <h1 class="usa-sr-only">Eighteen F: Digital services delivery</h1>
+      <h1 class="usa-sr-only">18F: Digital services delivery</h1>
+      {% else %}
+        <span class="usa-sr-only">18F: Digital services delivery</span>
     {% endif %}
     <nav role="navigation">
       {% include navigation.html navbar=true %}

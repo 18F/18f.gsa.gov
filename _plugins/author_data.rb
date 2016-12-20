@@ -12,7 +12,11 @@ module SiteData
         frontmatter = File.read(author_path)[frontmatter_regex]
         frontmatter_yml = YAML.load(frontmatter)
         if frontmatter_yml[key] != value
-          update_frontmatter(author_file, key, value, author_path, frontmatter_yml)
+          frontmatter_yml[key] = value
+          frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
+          updated_file = File.read(author_path).gsub(frontmatter, frontmatter_new)
+          puts "updating #{author_file} to `#{key}: #{value}`"
+          File.write(author_path, updated_file)
         end
       else
         puts "#{author_file} does not exist."
@@ -29,14 +33,6 @@ module SiteData
     end
 
     private
-
-    def update_frontmatter(author_file, key, value, author_path, frontmatter_yml)
-      frontmatter_yml[key] = value
-      frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-      updated_file = File.read(author_path).gsub(frontmatter, frontmatter_new)
-      puts "updating #{author_file} to `#{key}: #{value}`"
-      File.write(author_path, updated_file)
-    end
 
     def frontmatter_regex
       /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
