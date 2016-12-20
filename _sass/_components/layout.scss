@@ -37,6 +37,7 @@
 .background-dark {
   background-color: $color-dark;
   color: $color-white;
+  -webkit-font-smoothing: antialiased;
 
   h1,
   h2,
