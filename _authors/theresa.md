@@ -12,6 +12,6 @@ team: Delivery
 project:
 - CALC
 redirect_from: "/team/theresa/"
-published: false
+published: true
 ---
 

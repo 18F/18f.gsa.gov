@@ -32,7 +32,7 @@ California Government Operations Agency recorded a short video talking
 about 18F’s work with California on their Child Welfare Services system.
 We wanted to share the video and a transcript below.
 
-<iframe width="620" height="349"
+<iframe width="620" height="349" title="YouTube video of Stuart Drown talking about 18F's work with California on their Child Welfare Services system" 
 src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
 allowfullscreen></iframe>
 

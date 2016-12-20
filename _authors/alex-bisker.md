@@ -10,6 +10,6 @@ state: New York
 team: Delivery
 twitter: 
 redirect_from: "/team/alex-bisker/"
-published: false
+published: true
 ---
 

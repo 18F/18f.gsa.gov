@@ -10,6 +10,6 @@ github:
 twitter: 
 team: Infrastructure Engineering
 redirect_from: "/team/kimberdowsett/"
-published: false
+published: true
 ---
 
