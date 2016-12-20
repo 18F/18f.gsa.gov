@@ -1,10 +1,15 @@
-.card {
+.card-link {
+  border: 1px solid $color-gray-lighter;
+  display: inline-block;
+  text-decoration: none;
 
-  a {
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid $color-gray-lighter;
-    // border-top: $border-accent;
+  &:hover,
+  &:focus {
+    border: 1px solid $color-bright-hover;
+  }
+
+  &:active {
+    border: 1px solid $color-primary-darker;
   }
 }
 
