@@ -5,5 +5,9 @@ full_name: Mike Wilkening
 name: mike-wilkening
 guest: true
 published: true
+role: 
+city: 
+state: 
+team: 
 ---
 
