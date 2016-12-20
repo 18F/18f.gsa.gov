@@ -51,9 +51,9 @@ As previously mentioned, most work generated at 18F falls within the U.S. public
 
 For our international colleagues, 18F also permanently waives all copyright and related rights worldwide to code created by 18F or its contractors.
 
-Our [default LICENSE file](/LICENSE.md) for projects acknowledges that our work is in the US public domain, and uses [CC0](https://creativecommons.org/publicdomain/zero/1.0/) to waive copyright internationally.
+Our [default LICENSE file]({{ site.github_repo }}/LICENSE.md) for projects acknowledges that our work is in the US public domain, and uses [CC0](https://creativecommons.org/publicdomain/zero/1.0/) to waive copyright internationally.
 
-Our [default CONTRIBUTING file](/CONTRIBUTING.md) informs contributors that their contributions will be licensed under the same terms.
+Our [default CONTRIBUTING file]({{ site.github_repo }}/CONTRIBUTING.md) informs contributors that their contributions will be licensed under the same terms.
 
 However, certain projects will require the usage of licensed open source software not created by 18F. Some open source licenses make source code available under different terms and conditions. These terms and conditions specify how the code may be used, modified, or shared. When users modify 18F code, they should review and understand the terms of the open source license in question.
 
