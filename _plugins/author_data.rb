@@ -3,7 +3,7 @@ require 'yaml'
 module SiteData
   class AuthorData
     def initialize
-      @path = File.join(Dir.pwd, "_authors")
+      @path = File.join(Dir.pwd, '_authors')
     end
 
     def update(author_file, key, value)
