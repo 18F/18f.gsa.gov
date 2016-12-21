@@ -1,6 +1,7 @@
 // Header
 // ==========================
 .usa-disclaimer {
+  border-bottom: 1px solid $color-white;
   font-size: 1.1rem;
 }
 .usa-disclaimer-official {
@@ -17,12 +18,19 @@ header[role=banner] {
 
       a {
         @include padding(2.3rem 2rem);
+
         color: $color-gray;
         font-weight: $font-bold;
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &:focus {
+          background-color: $color-gray-hover;
           color: $color-black;
+        }
+
+        &:active {
+          background-color: $color-gray-lightest;
         }
 
         &.usa-current {

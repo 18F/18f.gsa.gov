@@ -1,3 +1,40 @@
+code,
+pre {
+  background-color: $color-gray-lightest;
+  font-family: $font-monospace;
+  font-size: 1.3rem;
+}
+
+pre {
+  padding: 1.6rem;
+
+  code {
+    padding: 0;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+code {
+  @include padding(0.2em null);
+
+  &::before,
+  &::after {
+    letter-spacing: -0.2em;
+    content: '\00a0';
+  }
+}
+
+.highlight {
+  pre {
+    max-width: $lead-max-width;
+  }
+}
+
+
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */

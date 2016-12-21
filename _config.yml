@@ -37,9 +37,6 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
-  cards:
-    output: true
-    permalink: /card/:name/
   press:
     output: true
     permalink: /press/:name/
@@ -49,6 +46,9 @@ collections:
   hire:
     output: false
     permalink: /hire/:path/
+  styleguide:
+    output: true
+    permalink: /styleguide/:path/
 
 defaults:
  -
@@ -68,16 +68,18 @@ defaults:
     layout: default-profile
  -
   scope:
-    path: "_cards"
-  values:
-    layout: default
- -
-  scope:
     path: "_hire"
   values:
     layout: default-image
     # include_subnav: true
     subnav_anchor: /hire/
+
+ -
+  scope:
+    path: "_styleguide"
+  values:
+    layout: styleguide
+    include_subnav: true
 
 frontmatter_tests:
   path: "tests/schema"

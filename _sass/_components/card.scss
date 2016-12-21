@@ -1,0 +1,28 @@
+.card-link {
+  border: 1px solid $color-gray-lighter;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $color-bright-hover;
+  }
+
+  &:active {
+    border: 1px solid $color-primary-darker;
+  }
+}
+
+.card-banner {
+  background-color: $color-white;
+  float: left;
+  padding: $paragraph-margins * 2;
+}
+
+.card-image {
+  float: left;
+}
+
+.card-description {
+  color: initial;
+}

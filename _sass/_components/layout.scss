@@ -68,21 +68,6 @@
     }
   }
 
-  .usa-button,
-  .usa-button-primary,
-  .usa-button:visited,
-  .usa-button-primary:visited,
-  button,
-  [type="button"],
-  [type="submit"],
-  [type="reset"] {
-    background-color: $color-bright;
-
-    &:hover {
-      background-color: $color-bright-hover;
-    }
-  }
-
   .usa-search.usa-search-small [type="submit"] {
     background-image: url("../img/global/search-dark.png");
     background-image: url("../img/global/search-dark.svg");
@@ -153,7 +138,7 @@
 }
 
 .content-focus {
-  @include margin($section-margins auto);
+  @include margin(0 auto);
   max-width: 64.063rem; // 8 column width at full screen
 }
 
