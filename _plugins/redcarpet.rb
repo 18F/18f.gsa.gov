@@ -1,7 +1,7 @@
 require 'redcarpet'
 require 'rouge'
 require 'rouge/plugins/redcarpet'
-
+require 'pry'
 
 # Create a custom renderer that extend Redcarpet to customize its behavior.
 class RedcarpetExtender < Redcarpet::Render::HTML
@@ -25,6 +25,18 @@ class RedcarpetExtender < Redcarpet::Render::HTML
       str[0...-1]
     else
       str
+    end
+  end
+
+  def block_quote(quote)
+    quotes = quote.split("\n\n")
+    if quotes.count > 1
+      blockquote = quotes.map do |q|
+        "<blockquote>#{q}</blockquote>"
+      end.join("\n")
+      %(#{blockquote})
+    else
+      %(<blockquote>#{quote}</blockquote>)
     end
   end
 
