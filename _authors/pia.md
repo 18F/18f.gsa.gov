@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Outreach
-redirect_from: /team/pia/
+redirect_from: "/team/pia/"
+published: false
 ---
+

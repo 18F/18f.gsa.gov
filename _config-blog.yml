@@ -2,12 +2,6 @@ env: "development"
 
 exclude:
 - _pages
-- _authors
-- CONTRIBUTING.md
-- README.md
-- PULL_REQUEST_TEMPLATE.md
-- ISSUE_TEMPLATE.md
-- 'Accessibility Scanning Using Pa11y-ci.md'
 - accessibility-scan
 - api-endpoints
 - build
@@ -19,12 +13,14 @@ exclude:
 - feed*
 - Gemfile*
 - humans.txt
+- node_modules
 - package.json
 - robots.txt
 - search-index*
 - serve
 - sitemap.xml
 - system-security-plan.yml
+- vendor
 - _posts/2014-03-12-coming-soon.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
 - _posts/2014-03-21-29-minutes.md

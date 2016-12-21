@@ -9,5 +9,7 @@ role:
 state: D.C.
 team: 
 twitter: 
-redirect_from: /team/mark-hopson
+redirect_from: "/team/mark-hopson"
+published: true
 ---
+

@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Presidential Innovation Fellowship
-redirect_from: /team/andrew/
+redirect_from: "/team/andrew/"
+published: false
 ---
+

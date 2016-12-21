@@ -11,5 +11,7 @@ twitter: wslack
 team: Products and Platforms
 project:
 - Federalist
-redirect_from: /team/will/
+redirect_from: "/team/will/"
+published: true
 ---
+

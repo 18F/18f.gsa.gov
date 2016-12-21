@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/robin-carnahan/
+redirect_from: "/team/robin-carnahan/"
+published: true
 ---
+

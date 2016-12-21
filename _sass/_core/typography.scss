@@ -4,7 +4,6 @@
 body {
   overflow-x: hidden;
   font-size: $base-font-size;
-  -webkit-font-smoothing: antialiased;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -18,7 +17,6 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, section {
-  -webkit-font-smoothing: antialiased;
 }
 
 

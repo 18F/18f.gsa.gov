@@ -13,5 +13,7 @@ project:
 - 18F Blog
 - 18f.gsa.gov
 - 18F Consulting
-redirect_from: /team/andre/
+redirect_from: "/team/andre/"
+published: true
 ---
+

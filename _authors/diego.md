@@ -12,5 +12,7 @@ team: Products and Platforms
 project:
 - cloud.gov
 - DevOps Guild
-redirect_from: /team/diego/
+redirect_from: "/team/diego/"
+published: true
 ---
+

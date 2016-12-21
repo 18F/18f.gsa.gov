@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/steven-harms/
+redirect_from: "/team/steven-harms/"
+published: false
 ---
+

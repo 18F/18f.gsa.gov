@@ -11,4 +11,6 @@ team:
 twitter: 
 guest: true
 redirect_from: 
+published: true
 ---
+

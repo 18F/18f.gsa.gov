@@ -7,5 +7,7 @@ role: Operations Specialist
 team: Operations
 city: Chicago
 state: IL
-redirect_from: /team/ethan/
+redirect_from: "/team/ethan/"
+published: false
 ---
+

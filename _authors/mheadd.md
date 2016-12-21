@@ -9,4 +9,6 @@ state: New York
 github: mheadd
 twitter: mheadd
 team: Acquisitions
+published: true
 ---
+

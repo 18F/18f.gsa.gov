@@ -9,5 +9,7 @@ state: CA
 github: 
 twitter: 
 team: Delivery
-redirect_from: /team/sasha/
+redirect_from: "/team/sasha/"
+published: false
 ---
+

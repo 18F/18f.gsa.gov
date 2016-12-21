@@ -10,10 +10,11 @@
     "node": ">=5.12"
   },
   "scripts": {
-    "test": "bundle exec jekyll test",
-    "lint-508": "bash ./accessibility-scan",
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
-    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov"
+    "lint-508": "bash ./accessibility-scan",
+    "rebuild": "rm -rf _site && bundle exec jekyll serve",
+    "test": "bundle exec jekyll test"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,8 @@
   "homepage": "https://18f.gsa.gov",
   "devDependencies": {
     "pa11y-ci": "^0.3.0"
+  },
+  "dependencies": {
+    "accesslint-cli": "^1.1.1"
   }
 }

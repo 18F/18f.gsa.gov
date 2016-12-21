@@ -7,6 +7,8 @@ role:
 team: 
 city: New York
 state: NY
-redirect_from: /team/dmayercantu/
+redirect_from: "/team/dmayercantu/"
 alumni: true
+published: false
 ---
+

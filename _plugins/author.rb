@@ -1,3 +1,6 @@
+require 'pry'
+require 'rb-readline'
+
 module Jekyll
   class AuthorTag < Liquid::Tag
     def initialize(tag_name, author, tokens)
@@ -92,7 +95,7 @@ module Jekyll
       if data[input]          # if there's an entry for input, return the value
         data[input][key]
       else                    # if not, exit with a "no such author error"
-        puts "No such author: #{input} in #{@page_path}"
+        puts "L 97 author.rb: No such author: #{input} in #{@page_path}"
         False
       end
     end
@@ -124,15 +127,29 @@ module Jekyll
     # Content is boone's name
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
-      index = authors.find_index { |x| x.data['name'].downcase == input.downcase }
+      index = authors.find_index do |x|
+        if x.data['name'].nil?
+          puts "No such author: #{input} in #{x}"
+        else
+          x.data['name'].downcase == input.downcase
+        end
+      end
       site_url = set_site_url
-      unless index.nil?
+
+      if index.nil?
+        # puts "L 143 author.rb: No such author: #{input} in #{@page_path}"
+        author_data = SiteData::AuthorData.new
+        full_name = author_data.fetch(input, 'full_name')
+        if full_name
+          full_name
+        else
+          puts "L 143 author.rb: No such author: #{input} in #{@page_path}"
+        end
+      else
         name = authors[index].data['name'].downcase
         url = "#{site_url}/author/#{name}"
         full_name = authors[index].data['full_name']
         string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
-      else
-        puts "No such author: #{input} in #{@page_path}"
       end
     end
   end

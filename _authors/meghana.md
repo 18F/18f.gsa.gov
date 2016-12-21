@@ -9,5 +9,7 @@ state: D.C.
 github: 
 twitter: 
 team: Design
-redirect_from: /team/meghana/
+redirect_from: "/team/meghana/"
+published: true
 ---
+

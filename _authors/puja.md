@@ -9,5 +9,7 @@ role: Program Manager
 state: D.C.
 team: Presidential Innovation Fellowship
 twitter: 
-redirect_from: /team/puja/
+redirect_from: "/team/puja/"
+published: false
 ---
+

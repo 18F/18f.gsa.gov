@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/anthony-garvan/
+redirect_from: "/team/anthony-garvan/"
+published: true
 ---
+

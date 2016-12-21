@@ -9,4 +9,6 @@ city:
 state: 
 guest: true
 redirect_from: 
+published: true
 ---
+
