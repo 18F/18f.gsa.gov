@@ -39,8 +39,9 @@ nav_items:
 ## Atoms
 
 ### Buttons
-
+<section class="usa-grid">
 <img src="{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png" class="usa-width-one-third" alt="Image of the dimensions and padding of a button on the 18F site" />
+</section>
 
 #### Button style light – .usa-button
 

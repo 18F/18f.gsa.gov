@@ -1,7 +1,7 @@
 {% assign card_link = include.link | prepend: site.baseurl %}
 
 <article class="card usa-width-one-half">
-  <a href="{{ card_link }}">
+  <a class="card-link" href="{{ card_link }}">
     <img class="card-image" src="{{ include.image_src | prepend: site.baseurl }}"
            alt="{{ include.image_alt }}" />
     <div class="card-banner">
