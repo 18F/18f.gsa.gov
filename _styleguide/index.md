@@ -105,9 +105,9 @@ nav_items:
 {% capture card %}
 <section class="usa-grid usa-section">
   {% include card.html
-     image_src="/assets/img/home/hero-every-kid.png"
-     image_alt="Image of state and local"
-     title="State and local"
+     image_src="/assets/img/home/hero-fec.png"
+     image_alt="Image of a chart with a stylized magnifying glass"
+     title="The Federal Election Commission"
      description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
      link=dead_end_link
   %}

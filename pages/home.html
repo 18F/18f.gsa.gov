@@ -2,12 +2,15 @@
 permalink: /
 layout: default
 title: Home
+redirect_from: /dashboard/
 ---
 
-<section class="background-dark usa-section">
-  <div class="usa-grid content-focus align-center">
-    <h2>We work with federal agencies to approach technology projects in new ways</h2>
-    <a href="{{ site.baseurl }}/what-we-deliver/"><button class="usa-button usa-button-big usa-button-secondary">Our work</button></a>
+<section class="usa-section hero">
+  <div class="usa-grid">
+    <div class="hero-callout background-dark">
+      <h2>We’re helping <span class="hero-callout-alt_color">the Federal Election Commission make campaign finance data easier to use.</span></h2>
+      <a class="usa-button usa-button-big usa-button-secondary" href="{{ site.baseurl }}/project/fec-gov/">Learn more about fec.gov</a>
+    </div>
   </div>
 </section>
 <section class="usa-grid usa-section">
@@ -19,25 +22,48 @@ title: Home
     <p>As an office within the General Services Administration, we know how to work with government. All our projects support agencies in transforming how they deliver digital services and technology products.</p>
   </div>
 </section>
-<section class="usa-grid usa-section">
-  <h2>Featured projects</h2>
-  {% include card.html
-     image_src="/assets/img/home/hero-fec.png"
-     image_alt="Image of a chart with a stylized magnifying glass"
-     title="The Federal Election Commission"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="/project/fec-gov/"
-  %}
-  {% include card.html
-     image_src="/assets/img/home/hero-every-kid.png"
-     image_alt="Image of state and local"
-     title="State and local"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="/project/fec-gov/"
-  %}
+<section class="background-dark usa-section section-deliver">
+  <div class="usa-grid">
+    <h2>What we deliver</h2>
+    <div class="section-deliver-icons">
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/custom-products.svg" alt="">
+        </div>
+        <p>Custom products to solve your problems</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/innovative-ways.svg" alt="">
+        </div>
+        <p>Innovative ways to buy technology</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img class="section-deliver-icon-government" src="{{ site.baseurl }}/assets/img/home-icons/government.svg" alt="">
+        </div>
+        <p>Platforms built for government</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img class="section-deliver-icon-path" src="{{ site.baseurl }}/assets/img/home-icons/path.svg" alt="">
+        </div>
+        <p>A path to becoming a digitally-powered organization</p>
+      </div>
+      <div class="section-deliver-icon">
+        <div class="section-deliver-icon-img">
+          <img src="{{ site.baseurl }}/assets/img/home-icons/modern-techniques.svg" alt="">
+        </div>
+        <p>Modern digital service techniques</p>
+      </div>
+    </div>
+    <div class="section-deliver-cta">
+      <a class="link-arrow-right-alt" href="{{ site.baseurl }}/what-we-deliver/">Learn more about what we deliver</a>
+    </div>
+  </div>
 </section>
 <section class="usa-grid usa-section posts_feature">
-  <h2><a href="{{ site.baseurl }}/blog/">From our blog</a></h2>
+  <h2><a href="{{ site.baseurl }}/blog/">Blog</a></h2>
   <ul>
     {% for post in site.posts limit:3 %}
     <li class="usa-width-one-third">
@@ -54,10 +80,4 @@ title: Home
     </li>
     {% endfor %}
   </ul>
-</section>
-<section class="background-dark usa-section">
-  <div class="usa-grid content-focus align-center">
-    <h2>Let's work together</h2>
-    <a href="{{ site.baseurl }}/how-we-work/"><button class="usa-button usa-button-big usa-button-secondary">Get in touch</button></a>
-  </div>
 </section>
