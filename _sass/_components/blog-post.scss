@@ -26,6 +26,15 @@
 
     img {
       @include margin($site-margins null);
+
+      &.pquote-img {
+        margin-bottom: $paragraph-margins;
+        margin-top: 0;
+
+        @include media($medium-screen) {
+          margin-bottom: 0;
+        }
+      }
     }
 
     figure {

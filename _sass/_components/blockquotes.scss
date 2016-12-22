@@ -4,3 +4,30 @@ blockquote {
   margin-right: $paragraph-margins;
   padding-left: $paragraph-margins;
 }
+
+.pquote {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $paragraph-margins-thick;
+  margin-top: $paragraph-margins-thick;
+
+  @include media($medium-screen) {
+    flex-direction: row;
+  }
+
+  blockquote {
+    align-self: flex-end;
+    margin: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.pquote-img {
+  align-self: center;
+  margin-bottom: 0;
+  margin-right: $paragraph-margins;
+  margin-top: 0;
+}

@@ -20,7 +20,7 @@ deploy web services with best-practice, production-level security and
 scalability.*
 
 
-<aside class="pquote">
+<aside class="usa-grid pquote">
 	<img class="pquote-img" src="{{site.baseurl }}{{ page.image }}" alt="Bret Mogilefsky">
 	<blockquote>
 		<p>"It was the best way I could have an impact and do big good. I mean that in caps, DO BIG GOOD — I wanted to have the biggest possible impact in a good way."</p>
