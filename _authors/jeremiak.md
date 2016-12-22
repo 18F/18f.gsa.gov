@@ -9,5 +9,7 @@ state: NY
 github: jeremiak
 twitter: jeremiak
 team: Delivery
-redirect_from: /team/jeremiak/
+redirect_from: "/team/jeremiak/"
+published: true
 ---
+

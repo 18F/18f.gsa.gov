@@ -14,5 +14,7 @@ project:
 - 18F Blog
 - Every Kid in a Park
 - OpenFEC
-redirect_from: /team/emileigh/
+redirect_from: "/team/emileigh/"
+published: true
 ---
+

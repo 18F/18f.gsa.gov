@@ -9,5 +9,7 @@ state: D.C.
 github: kaitlin
 twitter: kaitlinbdevine
 team: Delivery
-redirect_from: /team/kaitlin/
+redirect_from: "/team/kaitlin/"
+published: true
 ---
+

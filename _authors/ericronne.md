@@ -9,5 +9,7 @@ state: IL
 github: 
 twitter: 
 team: 
-redirect_from: /team/ericronne/
+redirect_from: "/team/ericronne/"
+published: false
 ---
+

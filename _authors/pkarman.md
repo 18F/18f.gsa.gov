@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/pkarman/
+redirect_from: "/team/pkarman/"
+published: true
 ---
+

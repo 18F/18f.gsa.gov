@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/jackiexu/
+redirect_from: "/team/jackiexu/"
+published: false
 ---
+

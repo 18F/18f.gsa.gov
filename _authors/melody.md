@@ -16,6 +16,8 @@ project:
 - Federalist
 - 18F Hub
 - 18F Dashboard
-redirect_from: /team/melody/
+redirect_from: "/team/melody/"
 alumni: true
+published: true
 ---
+

@@ -14,5 +14,7 @@ joke: |
 
   Due to other commitments, Mr. America will be working at 18F only on April 1st. If you'd like to join Mr. America (and not just for April 1) you can <a href="https://pages.18f.gov/joining-18f/">see all of our openings and learn more about working at 18F</a>.)
 layout: nothing
-redirect_from: /team/captain-america/
+redirect_from: "/team/captain-america/"
+published: false
 ---
+

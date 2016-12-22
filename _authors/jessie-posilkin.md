@@ -9,5 +9,7 @@ role:
 state: District of Columbia
 team: 
 twitter: 
-redirect_from: /team/jessie-posilkin/
+redirect_from: "/team/jessie-posilkin/"
+published: false
 ---
+

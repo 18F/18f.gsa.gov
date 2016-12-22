@@ -9,5 +9,7 @@ role:
 state: CA
 team: 
 twitter: 
-redirect_from: /team/alex-pandel/
+redirect_from: "/team/alex-pandel/"
+published: false
 ---
+

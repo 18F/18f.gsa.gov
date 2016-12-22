@@ -5,7 +5,7 @@ image: /assets/blog/discovery-launch/discovery-dashboard.png
 
 tags:
 - procurement
-- aquisition services
+- acquisition services
 - user research
 - discovery.gsa.gov
 - agency work

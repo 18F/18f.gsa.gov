@@ -12,4 +12,6 @@ twitter:
 guest: true
 url: https://www.digitalgov.gov/author/gkostin/
 redirect_from: 
+published: true
 ---
+

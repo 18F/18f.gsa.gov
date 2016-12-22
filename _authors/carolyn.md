@@ -9,5 +9,7 @@ role: User Experience Designer
 github: 
 twitter: 
 team: Design
-redirect_from: /team/carolyn/
+redirect_from: "/team/carolyn/"
+published: true
 ---
+

@@ -9,5 +9,7 @@ role: Software engineer
 state: D.C.
 team: Delivery
 twitter: 
-redirect_from: /team/carlo-costino/
+redirect_from: "/team/carlo-costino/"
+published: false
 ---
+

@@ -10,4 +10,6 @@ state:
 team: 
 twitter: 
 redirect_from: 
+published: true
 ---
+

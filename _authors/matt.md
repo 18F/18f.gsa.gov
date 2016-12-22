@@ -9,5 +9,7 @@ role:
 state: D.C.
 team: 
 twitter: 
-redirect_from: /team/matt/
+redirect_from: "/team/matt/"
+published: false
 ---
+

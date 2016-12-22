@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/romke/
+redirect_from: "/team/romke/"
+published: false
 ---
+

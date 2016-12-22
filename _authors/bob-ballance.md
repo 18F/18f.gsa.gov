@@ -9,6 +9,8 @@ state:
 github: 
 twitter: 
 team: 
-project:
+project: 
 redirect_from: 
+published: true
 ---
+

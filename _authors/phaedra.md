@@ -9,5 +9,7 @@ role:
 state: 
 team: 
 twitter: 
-redirect_from: /team/phaedra/
+redirect_from: "/team/phaedra/"
+published: false
 ---
+
