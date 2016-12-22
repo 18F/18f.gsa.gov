@@ -1,0 +1,13 @@
+{% capture code %}
+```{{ include.lang | default: 'text' }}
+{{ include.content | markdownify }}
+```
+{% endcapture %}
+
+{{ include.content }}
+
+<details {% if include.open %}open{% endif %}>
+	<summary>{{ include.text }}</summary>
+	{{ code }}
+</details>
+

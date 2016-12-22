@@ -4,10 +4,10 @@
 .usa-button,
 .usa-button:visited,
 button,
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="image"] {
+[type='button'],
+[type='submit'],
+[type='reset'],
+[type='image'] {
   background-color: $color-medium;
   font-family: $font-sans;
 
@@ -34,8 +34,8 @@ button,
 
 @mixin display-icon($icon, $direction, $size) {
   &:#{$direction} {
-    background-image: url(../img/#{$icon}.png);
-    background-image: url(../img/#{$icon}.svg);
+    background-image: url('../img/#{$icon}.png');
+    background-image: url('../img/#{$icon}.svg');
     background-size: 100%;
     content: '';
     display: inline-block;
@@ -45,20 +45,23 @@ button,
 
     @if $direction == 'after' {
       margin-left: 4px;
+    } @else {
+      margin-right: 4px;
     }
+  }
 
-      @else {
-        margin-right: 4px;
-      }
-    }
+  &:visited::#{$direction} {
+    background-image: url('../img/#{$icon}-visited.png');
+    background-image: url('../img/#{$icon}-visited.svg');
+  }
 
   &:hover::#{$direction} {
-    background-image: url(../img/#{$icon}-hover.png);
-    background-image: url(../img/#{$icon}-hover.svg);
+    background-image: url('../img/#{$icon}-hover.png');
+    background-image: url('../img/#{$icon}-hover.svg');
   }
 
   &:visited {
-    color: $color-medium;
+    color: $color-visited;
   }
 
   &:hover {
@@ -74,6 +77,15 @@ button,
 .link-arrow-right {
   @include display-icon(arrows/medium/arrow-right, after, 1.2rem);
   @extend %link-arrow;
+}
+
+a:visited .link-arrow-right {
+  color: $color-visited;
+
+  &::after {
+    background-image: url('../img/arrows/medium/arrow-right-visited.png');
+    background-image: url('../img/arrows/medium/arrow-right-visited.svg');
+  }
 }
 
 .link-arrow-right-alt {
@@ -115,5 +127,41 @@ button,
 
   &:hover {
     color: $color-dark;
+  }
+}
+
+.background-dark {
+  .usa-button,
+  .usa-button-primary,
+  .usa-button:visited,
+  .usa-button-primary:visited,
+  button,
+  [type='button'],
+  [type='submit'],
+  [type='reset'] {
+    background-color: $color-bright;
+  }
+
+  .usa-button-secondary {
+    &.usa-button:hover,
+    &.usa-button-hover {
+      background-color: $color-bright-hover;
+    }
+
+    &.usa-button:active,
+    &.usa-button-active {
+      background-color: $color-medium;
+    }
+
+    &.usa-button:focus,
+    &.usa-button-focus {
+      background-color: $color-medium-hover;
+    }
+
+    &.usa-button:disabled,
+    &.usa-button-disabled {
+      background-color: $color-gray-lighter;
+      color: $color-gray-dark;
+    }
   }
 }
