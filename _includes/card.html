@@ -1,6 +1,14 @@
 {% assign card_link = include.link | prepend: site.baseurl %}
 
-<article class="card usa-width-one-half">
+{% assign columns = include.columns | default: 3 %}
+
+{% if columns == 2 %}
+	{% assign wds_grid_class = 'usa-width-one-half' %}
+{% else %}
+	{% assign wds_grid_class = 'usa-width-one-third' %}
+{% endif %}
+
+<article class="card {{ wds_grid_class }}">
   <a class="card-link" href="{{ card_link }}">
     <img class="card-image" src="{{ include.image_src | prepend: site.baseurl }}"
            alt="{{ include.image_alt }}" />

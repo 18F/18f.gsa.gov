@@ -7,9 +7,9 @@ assigned:
         in_drawer: false
         in_footer: false
     -
-        text: What we deliver
-        href: pages/what-we-deliver.md
-        permalink: /what-we-deliver/
+        text: Our work
+        href: pages/our-work.md
+        permalink: /our-work/
         in_menu: true
         in_drawer: true
         in_footer: true

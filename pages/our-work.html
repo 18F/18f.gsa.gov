@@ -1,0 +1,65 @@
+---
+title: What we deliver
+permalink: /our-work/
+layout: default-intro
+lead: We help federal agencies build, buy, and share modern digital services to improve the user experience of government.
+content_wide: true
+redirect_from:
+  - /consulting/
+  - /what-we-deliver/
+---
+<section class="usa-grid usa-section">
+  <h2>Who and how we've helped</h2>
+  <h3>Filter by project type</h3>
+  <form class="form-checkboxes">
+    <formgroup class="form-inline">
+      <input aria-labeledby="checkbox-public-services" type="checkbox" checked />
+      <label name="checkbox-public-services">Public services</label>
+    </formgroup>
+    <formgroup class="form-inline">
+      <input aria-labeledby="checkbox-internal-systems" type="checkbox" checked />
+      <label name="checkbox-internal-systems">Internal systems</label>
+    </formgroup>
+    <formgroup class="form-inline">
+      <input aria-labeledby="checkbox-laws-and-mandates" type="checkbox" checked />
+      <label name="checkbox-laws-and-mandates">Laws and mandates</label>
+    </formgroup>
+  </form>
+  {% include card.html
+     image_src="/assets/img/home/hero-fec.png"
+     image_alt="Image of a chart with a stylized magnifying glass"
+     title="The Federal Election Commission"
+     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
+     link="/project/fec-gov/"
+  %}
+  {% include card.html
+     image_src="/assets/img/home/hero-every-kid.png"
+     image_alt="Image of state and local"
+     title="State and local"
+     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
+     link="/project/fec-gov/"
+  %}
+  {% include card.html
+     image_src="/assets/img/home/hero-every-kid.png"
+     image_alt="Image of state and local"
+     title="State and local"
+     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
+     link="/project/fec-gov/"
+  %}
+</section>
+<section class="usa-grid usa-section">
+  {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency_partner', 'agency_partner_url' %}
+  {% assign partner_buckets = agency_partners | buckets: 3 %}
+  <h2>Agency Partners and public offerings</h2>
+  <ul class="list-columns">
+  {% for bucket in partner_buckets %}
+    <li class="usa-width-one-third">
+      <ul>
+      {% for partner in bucket %}
+        <li><a href="{{ partner.agency_partner_url | prepend: site.baseurl }}">{{ partner.agency_partner }}</a></li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

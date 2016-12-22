@@ -9,8 +9,10 @@ image_accessibility: "Grayscale photograph of eleven people meeting in small gro
 tags:
 - state and local practice
 expiration_date:
-github_repo: 
-project_url: 
+github_repo:
+project_url:
+agency_partner: Health and Human Services
+agency_partner_url: /work/hhs/
 ---
 
 Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.
