@@ -25,37 +25,29 @@ redirect_from:
       <label name="checkbox-laws-and-mandates">Laws and mandates</label>
     </formgroup>
   </form>
-  {% include card.html
-     image_src="/assets/img/home/hero-fec.png"
-     image_alt="Image of a chart with a stylized magnifying glass"
-     title="The Federal Election Commission"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="/project/fec-gov/"
-  %}
-  {% include card.html
-     image_src="/assets/img/home/hero-every-kid.png"
-     image_alt="Image of state and local"
-     title="State and local"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="/project/fec-gov/"
-  %}
-  {% include card.html
-     image_src="/assets/img/home/hero-every-kid.png"
-     image_alt="Image of state and local"
-     title="State and local"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link="/project/fec-gov/"
-  %}
+
+  {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
+  {% for project in projects_list %}
+    {% include card.html
+     image_src=project.image
+     image_alt=project.image_accessibility
+     title=project.title
+     description=project.excerpt
+     link=project.permalink
+     project_bucket=project.project_bucket
+    %}
+  {% endfor %}
 </section>
+
 <section class="usa-grid usa-section">
-  {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency_partner', 'agency_partner_url' %}
-  {% assign partner_buckets = agency_partners | buckets: 3 %}
+  {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency_partner', 'agency_partner_url' | sort: 'agency_partner' %}
+  {% assign partner_groups = agency_partners | in_groups: 3 %}
   <h2>Agency Partners and public offerings</h2>
   <ul class="list-columns">
-  {% for bucket in partner_buckets %}
+  {% for group in partner_groups %}
     <li class="usa-width-one-third">
       <ul>
-      {% for partner in bucket %}
+      {% for partner in group %}
         <li><a href="{{ partner.agency_partner_url | prepend: site.baseurl }}">{{ partner.agency_partner }}</a></li>
       {% endfor %}
       </ul>

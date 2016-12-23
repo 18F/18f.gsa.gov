@@ -3,6 +3,7 @@ layout: project-tag-results
 project-type: "Partner"
 title: "Health and Human Services"
 subtitle: Helping states update crucial systems
+permalink: /project/hhs-states/
 excerpt: HHS hired 18F to help states implement current best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
@@ -13,6 +14,7 @@ github_repo:
 project_url:
 agency_partner: Health and Human Services
 agency_partner_url: /work/hhs/
+project_bucket: internal-services
 ---
 
 Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.

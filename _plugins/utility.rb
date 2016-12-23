@@ -107,19 +107,19 @@ module Jekyll
       document.map { |d| d.data }
     end
 
-    def where_obj(array, one, two)
+    def where_obj(array, first, second)
       array.map do |object|
-        if object[one] && object[two]
+        if object[first] && object[second]
           new_o = {}
-          new_o[one] = object[one]
-          new_o[two] = object[two]
+          new_o[first] = object[first]
+          new_o[second] = object[second]
           new_o
         end
       end.uniq
     end
 
-    def buckets(array, buckets)
-      array.in_groups(buckets)
+    def in_groups(array, groups)
+      array.in_groups(groups)
     end
   end
 end
