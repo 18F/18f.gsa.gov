@@ -1,3 +1,7 @@
+.card[aria-hidden=true] {
+  display: none;
+}
+
 .card-link {
   border: 1px solid $color-gray-lighter;
   display: inline-block;
