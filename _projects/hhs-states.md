@@ -4,7 +4,7 @@ project-type: "Partner"
 title: "Health and Human Services"
 subtitle: Helping states update crucial systems
 permalink: /project/hhs-states/
-excerpt: HHS hired 18F to help states implement current best practices and upgrade legacy systems.
+excerpt: HHS hired us to help states implement current best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
 tags:
