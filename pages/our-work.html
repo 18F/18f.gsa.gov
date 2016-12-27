@@ -8,23 +8,23 @@ redirect_from:
   - /consulting/
   - /what-we-deliver/
 ---
-<section class="usa-grid usa-section">
+<section class="usa-grid usa-section" is="section-filterable" data-filter=".card">
   <h2>Who and how we've helped</h2>
-  <h3>Filter by project type</h3>
-  <form class="form-checkboxes">
+  <fieldset class="form-checkboxes filterable-form">
+    <legend class="h3">Filter by project type</legend>
     <formgroup class="form-inline">
-      <input aria-labeledby="checkbox-public-services" type="checkbox" checked />
-      <label name="checkbox-public-services">Public services</label>
+      <input id="public-services" type="checkbox" checked />
+      <label for="public-services">Public services</label>
     </formgroup>
     <formgroup class="form-inline">
-      <input aria-labeledby="checkbox-internal-systems" type="checkbox" checked />
-      <label name="checkbox-internal-systems">Internal systems</label>
+      <input id="internal-systems" type="checkbox" checked />
+      <label for="internal-systems">Internal systems</label>
     </formgroup>
     <formgroup class="form-inline">
-      <input aria-labeledby="checkbox-laws-and-mandates" type="checkbox" checked />
-      <label name="checkbox-laws-and-mandates">Laws and mandates</label>
+      <input id="laws-and-mandates" type="checkbox" checked />
+      <label for="laws-and-mandates">Laws and mandates</label>
     </formgroup>
-  </form>
+  </fieldset>
 
   {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
   {% for project in projects_list %}
