@@ -14,7 +14,7 @@ image: /assets/img/team/jacobharris.jpg
 
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Jabob Harris.">
-	<figcaption>Jacob Harris, 18F team member</figcaption>
+	<figcaption class="align-center">Jacob Harris, 18F team member</figcaption>
 </figure>
 
 *All throughout the summer, we’ll be profiling members across the 18F team. Jacob Harris joined 18F in May of 2015 after nine years working as a developer at The New York Times. He currently works on the [Micro-purchase Platform](https://micropurchase.18f.gov/), which enables vendors to place bids on opportunities to deliver open source code that costs $3,500 or less.*

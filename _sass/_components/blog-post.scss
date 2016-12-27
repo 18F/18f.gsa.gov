@@ -53,6 +53,10 @@
       font-size: $h6-font-size;
       margin-top: 1rem;
       text-align: left;
+
+      &.align-center {
+        text-align: center;
+      }
     }
   }
 }
