@@ -22,21 +22,11 @@ redirect_from: /dashboard/
 </section>
 <section class="usa-grid usa-section">
   <h2>Featured projects</h2>
-  {% include card.html
-     image_src="/assets/img/home/hero-fec.png"
-     image_alt="Image of a chart with a stylized magnifying glass"
-     title="Making campaign data easier to use"
-     description="We helped the Federal Election Commission make it easier for journalists and members of the public to use their data."
-     link="/project/fec-gov/"
-     columns=2
+  {% include card-project.html
+     project='fec-gov'
   %}
-  {% include card.html
-     image_src="/assets/img/projects/hero_stateandlocal.png"
-     image_alt="Grayscale photograph of eleven people meeting in small groups during a workshop"
-     title="Helping states update crucial systems"
-     description="Health and Human Services hired us to help states implement current best practices and upgrade legacy systems."
-     link="/project/hhs-states/"
-     columns=2
+  {% include card-project.html
+     project='hhs-states'
   %}
 </section>
 <section class="usa-grid usa-section posts_feature">

@@ -3,9 +3,9 @@
 {% assign columns = include.columns | default: 3 %}
 
 {% if columns == 2 %}
-	{% assign wds_grid_class = 'usa-width-one-half' %}
+  {% assign wds_grid_class = 'usa-width-one-half' %}
 {% else %}
-	{% assign wds_grid_class = 'usa-width-one-third' %}
+  {% assign wds_grid_class = 'usa-width-one-third' %}
 {% endif %}
 
 {% assign project_type = include.project_type | default: 'none' %}
