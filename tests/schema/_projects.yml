@@ -1,12 +1,17 @@
 ---
 layout: "String"
 title: "String"
-
+excerpt: "String"
 tags:
   type: Array
   rules: [no-dash, lowercase]
 github_repo: "String"
 project_url: "String"
+project_type:
+  type: "String"
+  oneof: ["public-servies", "internal-systems", "laws-and-mandates"]
+agency_partner: "String"
+agency_partner_url: "String"
 config:
   path: '_projects'
   ignore:
@@ -14,5 +19,12 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['subtitle', 'excerpt', 'image', 'image_accessibility', 'expiration_date', 'github_repo']
+  optional:
+    - 'subtitle'
+    - 'excerpt'
+    - 'image'
+    - 'image_accessibility'
+    - 'expiration_date'
+    - 'github_repo'
+    - 'permalink'
 ---

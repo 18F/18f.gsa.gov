@@ -14,7 +14,7 @@ github_repo: https://github.com/18F/openFEC-web-app
 project_url: https://beta.fec.gov/
 agency_partner: Federal Election Commission (FEC)
 agency_partner_url: /work/fec/
-project_bucket: laws-and-mandates
+project_type: laws-and-mandates
 ---
 
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.

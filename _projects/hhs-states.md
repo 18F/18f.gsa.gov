@@ -14,7 +14,7 @@ github_repo:
 project_url:
 agency_partner: Health and Human Services
 agency_partner_url: /work/hhs/
-project_bucket: internal-systems
+project_type: internal-systems
 ---
 
 Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.
