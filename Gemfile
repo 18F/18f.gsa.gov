@@ -27,4 +27,5 @@ gem 'jemoji'
 group :development do
   gem 'pry'
   gem 'rb-readline'
+  gem 'rspec', '~> 3.0'
 end
