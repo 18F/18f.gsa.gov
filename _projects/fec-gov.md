@@ -4,7 +4,7 @@ project-type: "Project"
 title: "The Federal Election Commission"
 subtitle: Making campaign data easier to use
 permalink: /project/fec-gov/
-excerpt: We helped the FEC make it easier for journalists and members of the public to use their data.
+excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.
 image: /assets/img/home/hero-fec.png
 image_accessibility: Image of the FEC data explorer with stylized magnifying glass.
 tags:
