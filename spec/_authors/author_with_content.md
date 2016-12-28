@@ -1,16 +1,17 @@
 ---
-name: aaron
-first_name: Aaron
-last_name: Snow
-full_name: Aaron Snow
+name: burt
+first_name: Burt
+last_name: Reynolds
+full_name: Burt Reynolds
 role: Executive Director
 city: Washington
 state: D.C.
 github: 
 twitter: 
 team: 18F
-redirect_from: "/team/aaron/"
+redirect_from: "/team/burt/"
 alumni: true
 published: true
 ---
 
+Hello World
