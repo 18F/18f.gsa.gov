@@ -2,7 +2,7 @@ require 'yaml'
 
 module SiteData
   class AuthorData
-    def initialize(basepath='')
+    def initialize(basepath=nil)
       @path = File.join(Dir.pwd, basepath, '_authors')
     end
 

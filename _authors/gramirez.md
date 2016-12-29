@@ -1,0 +1,16 @@
+---
+name: gramirez
+first_name: Gabriel
+last_name: Ramírez
+full_name: Gabriel Ramírez
+role: Developer
+city: Washington
+state: D.C.
+github: 
+twitter: 
+team: Delivery
+redirect_from: "/team/gramirez/"
+alumni: true
+published: true
+---
+
