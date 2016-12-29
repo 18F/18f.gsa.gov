@@ -35,6 +35,7 @@ GEM
     coderay (1.1.1)
     colorator (1.1.0)
     colored (1.2)
+    colorize (0.8.1)
     diff-lcs (1.2.5)
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
@@ -179,6 +180,7 @@ DEPENDENCIES
   accesslint-ci (= 0.2.6)
   capybara
   chromedriver-helper
+  colorize
   html-proofer
   jekyll (~> 3.1)
   jekyll-archives!

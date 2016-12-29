@@ -21,7 +21,7 @@ module SiteData
           binding.pry
         end
       else
-        puts "#{author_file} does not exist."
+        puts "#{author_file} does not exist.".red
       end
     end
 
@@ -54,7 +54,7 @@ module SiteData
     end
 
     def write_update(author_path, updated_file, key, value)
-      puts "updating #{author_path} to `#{key}: #{value}`"
+      puts "updating #{author_path} to `#{key}: #{value}`".yellow
       if !updated_file.empty?
         File.write(author_path, updated_file)
       end

@@ -27,6 +27,7 @@ gem 'jemoji'
 group :development do
   gem "capybara"
   gem "chromedriver-helper"
+  gem "colorize"
   gem "pry"
   gem "rack-jekyll"
   gem 'rb-readline'

@@ -14,4 +14,3 @@ alumni: true
 published: true
 ---
 
-Hello World

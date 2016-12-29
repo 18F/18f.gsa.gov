@@ -69,6 +69,21 @@ RSpec.describe SiteData::AuthorData do
       author_name = @author_data.fetch('author', 'name')
       expect(author_name).to eq 'aaron'
     end
+
+    it "can update and leave the content intact" do
+      author_name = @author_data.fetch('author', 'name')
+      expect(author_name).to eq 'aaron'
+
+      file_path = @author_data.create_file_path('author')
+      num_lines = File.readlines(file_path).count
+      @author_data.update('author.md', 'name', 'brian')
+      num_lines_updated = File.readlines(file_path).count
+      expect(num_lines_updated).to eq num_lines
+
+      @author_data.update('author.md', 'name', 'aaron')
+      author_name = @author_data.fetch('author', 'name')
+      expect(author_name).to eq 'aaron'
+    end
   end
 
   context "given a file with content and YAML frontmatter" do
@@ -127,6 +142,15 @@ RSpec.describe SiteData::AuthorData do
       @author_data.update('author_with_content.md', 'name', 'brian')
       num_lines_updated = File.readlines(file_path).count
       expect(num_lines_updated).to eq num_lines
+
+      @author_data.update('author_with_content.md', 'name', 'burt')
+      author_name = @author_data.fetch('author_with_content', 'name')
+      expect(author_name).to eq 'burt'
+    end
+
+    it "doesn't update a file if it doesn't need updating" do
+      author_name = @author_data.fetch('author_with_content', 'name')
+      expect(author_name).to eq 'burt'
 
       @author_data.update('author_with_content.md', 'name', 'burt')
       author_name = @author_data.fetch('author_with_content', 'name')
