@@ -42,7 +42,11 @@ _18F Design provide content, visual, and interactive design to the rest of the o
 
 [Back to the table of contents](#contents)
 
-<blockquote>“I came to 18F from the journalism world, and many of the things that drew me to journalism drew me to 18F. I love knowing that I can use my technology skills to help people better perform necessary tasks and make informed decisions.” – Heather Battaglia</blockquote>
+<div class="pquote">{{ "heather-battaglia" | team_photo }}
+  <blockquote>
+    “I came to 18F from the journalism world, and many of the things that drew me to journalism drew me to 18F. I love knowing that I can use my technology skills to help people better perform necessary tasks and make informed decisions.” – Heather Battaglia
+  </blockquote>
+</div>
 
 <div class="pquote">{{ "maya" | team_photo }}
   <blockquote>
