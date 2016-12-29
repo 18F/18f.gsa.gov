@@ -2,7 +2,7 @@
 # Detects if authors have "penned" posts
 # And renders a page for them accordingly
 # at /author/:name/
-Jekyll::Hooks.register :site, :after_init do | |
+Jekyll::Hooks.register :site, :after_init do |site|
   author_data = SiteData::AuthorData.new
   penned_authors = []
 

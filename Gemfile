@@ -25,7 +25,11 @@ end
 gem 'jemoji'
 
 group :development do
-  gem 'pry'
+  gem "capybara"
+  gem "chromedriver-helper"
+  gem "pry"
+  gem "rack-jekyll"
   gem 'rb-readline'
-  gem 'rspec', '~> 3.0'
+  gem "rspec"
+  gem "selenium-webdriver"
 end
