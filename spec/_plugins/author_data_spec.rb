@@ -5,9 +5,6 @@ require 'rb-readline'
 RSpec.describe SiteData::AuthorData do
   before(:each) do
     root = File.dirname(File.dirname(__FILE__))
-    rootish = File.dirname(__FILE__)
-    file = __FILE__
-    # binding.pry
     @author_data = SiteData::AuthorData.new(root)
   end
 
@@ -32,6 +29,12 @@ RSpec.describe SiteData::AuthorData do
       expect(author_name).not_to eq 'aaron'
     end
 
+    it "can create a file path from a string" do
+      actual = @author_data.create_file_path('author')
+      expected = File.join(@author_data.path, 'author.md')
+      expect(expected).to eq actual
+    end
+
     it "can update a file without referencing a file extension" do
       author_name = @author_data.fetch('author', 'name')
       expect(author_name).to eq 'aaron'
@@ -52,6 +55,15 @@ RSpec.describe SiteData::AuthorData do
       @author_data.update('author.md', 'name', 'brian')
       author_name = @author_data.fetch('author', 'name')
       expect(author_name).to eq 'brian'
+
+      @author_data.update('author.md', 'name', 'aaron')
+      author_name = @author_data.fetch('author', 'name')
+      expect(author_name).to eq 'aaron'
+    end
+
+    it "doesn't update a file if it doesn't need updating" do
+      author_name = @author_data.fetch('author', 'name')
+      expect(author_name).to eq 'aaron'
 
       @author_data.update('author.md', 'name', 'aaron')
       author_name = @author_data.fetch('author', 'name')
