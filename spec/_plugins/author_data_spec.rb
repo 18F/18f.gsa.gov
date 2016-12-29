@@ -5,6 +5,9 @@ require 'rb-readline'
 RSpec.describe SiteData::AuthorData do
   before(:each) do
     root = File.dirname(File.dirname(__FILE__))
+    rootish = File.dirname(__FILE__)
+    file = __FILE__
+    # binding.pry
     @author_data = SiteData::AuthorData.new(root)
   end
 

@@ -3,7 +3,8 @@ require 'yaml'
 module SiteData
   class AuthorData
     def initialize(basepath=nil)
-      @path = File.join(Dir.pwd, basepath, '_authors')
+      basepath ||= Dir.pwd
+      @path = File.join(basepath, '_authors')
     end
 
     def update(author_file, key, value)
@@ -44,7 +45,9 @@ module SiteData
 
     def write_update(author_path, updated_file, key, value)
       puts "updating #{author_path} to `#{key}: #{value}`"
-      File.write(author_path, updated_file)
+      if File.readlines(updated_file).count > 0
+        File.write(author_path, updated_file)
+      end
     end
 
     def frontmatter_regex
