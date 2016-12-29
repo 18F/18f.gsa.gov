@@ -34,7 +34,7 @@ class RedcarpetExtender < Redcarpet::Render::HTML
       blockquote = quotes.map do |q|
         "<blockquote>#{q}</blockquote>"
       end.join("\n")
-      %(blockquote.to_s)
+      %(#{blockquote})
     else
       %(<blockquote>#{quote}</blockquote>)
     end
