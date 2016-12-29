@@ -439,7 +439,7 @@ _These people picked more than one project..._
 
 <div class="pquote">{{ "roger-ruiz" | team_photo }}
 <blockquote>
-"I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities</a> platform or the [Federal Front Door](https://labs.usa.gov/) welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes." - {{ "roger-ruiz" | team_link }}
+"I view the projects I work on as umbrellas that cover or overlap many aspects of how people interact with the government. Whether it's interagency interactions like the [Open Opportunities</a> platform or the <a href="https://labs.usa.gov/">Federal Front Door</a> welcoming civilians into necessary interactions with the government, I see the projects I am working on as a web that helps bring down walls around information or shed light into perceived black-box processes." - {{ "roger-ruiz" | team_link }}
 </blockquote>
 </div>
 
