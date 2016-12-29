@@ -4,8 +4,8 @@ require 'rb-readline'
 
 RSpec.describe SiteData::AuthorData do
   before(:each) do
-  root = File.dirname(File.dirname(__FILE__))
-  @author_data = SiteData::AuthorData.new(root)
+    root = File.dirname(File.dirname(__FILE__))
+    @author_data = SiteData::AuthorData.new(root)
   end
 
   context "given a file with only YAML frontmatter" do
