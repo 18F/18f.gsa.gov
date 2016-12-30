@@ -169,37 +169,6 @@ Example usage:
 ```
 ```
 
-### [redcarpet.rb](redcarpet.rb)
-
-Our primary markdown rendering engine is redcarpet. This file merges the redcarpet extensions as specified in the `_config.yml` file on the root of the site directory with overrides to different block level markdown renderings.
-
-For example, we have specified a new version of how to render headers. This allows us to take headings
-
-```markdown
-  ### Some example header
-```
-
-Automatically returns the following, via the `header(title, level)` method:
-
-```html
-  <h3 id="some-example-header">Some example header</h3>
-```
-
-And it is smart, so that duplicate headers will be given separate IDs, for accessibility purposes.
-
-
-```markdown
-  ### Same header
-  ### Same header
-```
-
-Returns:
-
-```html
-  <h3 id="same-header">Same header</h3>
-  <h3 id="same-header_1">Same header</h3>
-```
-
 ## Classes and Modules
 
 ### SiteData
