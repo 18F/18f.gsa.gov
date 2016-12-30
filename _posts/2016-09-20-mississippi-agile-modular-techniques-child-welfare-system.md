@@ -9,8 +9,8 @@ tags:
 - agile
 - acquisition services
 - procurement
+- health and human services
 excerpt: "The State of Mississippi is about to upgrade its child welfare management system, a system used by about 1,800 state employees in 82 counties, supporting the wellbeing of about 5,000 children across the state. The system was built in the early 2000s, and the employees who use it are stymied by an inefficient interface and aging infrastructure."
-description: "The State of Mississippi is about to upgrade its child welfare management system, a system used by about 1,800 state employees in 82 counties, supporting the wellbeing of about 5,000 children across the state. The system was built in the early 2000s, and the employees who use it are stymied by an inefficient interface and aging infrastructure."
 image: /assets/blog/mississippi/seal.jpg
 hero: false
 ---

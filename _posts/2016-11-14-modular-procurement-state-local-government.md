@@ -10,8 +10,8 @@ tags:
 - agile
 - acquisition services
 - procurement
-excerpt: "At 18F we build things in the open. For our partners and agencies we work with, this commitment helps foster better communication, enhances transparency and — most importantly — produces a better end product. Our work with partner agencies helps us surface lessons learned and allows us to create new resources that any government, including state and local governments, can easily reuse at no cost. "
-description: "At 18F we build things in the open. For our partners and agencies we work with, this commitment helps foster better communication, enhances transparency and — most importantly — produces a better end product. Our work with partner agencies helps us surface lessons learned and allows us to create new resources that any government, including state and local governments, can easily reuse at no cost. "
+- health and human services
+excerpt: "Our recent work with state government agencies in California and Mississippi provides some powerful examples of how 18F’s commitment to working and learning in the open can provide enormous benefits — even to states that are not yet working directly with 18F."
 ---
 [At 18F, we build things in the open](https://pages.18f.gov/partnership-playbook/1-build-in-the-open/).
 

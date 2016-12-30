@@ -3,11 +3,11 @@ title: "Presidential Innovation Fellows now accepting applications for Spring 20
 authors:
 - andre
 tags:
-- presidential innovation fellow
+- presidential innovation fellows
 - hiring
 excerpt: "If you’re looking for a way to have an impact on the digital services
 the government provides to the public, now’s your opportunity. The
-Presidential Innovation Fellows (PIF) program is currently accepting
+Presidential Innovation Fellows program is currently accepting
 applications for the Spring 2017 cohort."
 image: /assets/img/logos/pif-navy.png
 hero: false
