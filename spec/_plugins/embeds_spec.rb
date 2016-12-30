@@ -1,7 +1,7 @@
 require_relative '../../_plugins/embeds'
 
 RSpec.describe Jekyll::EmbedFilter do
-  it "takes returns an embed given one variable" do
+  it 'takes returns an embed given one variable' do
     embed_filter = Jekyll::EmbedFilter
     actual = embed_filter.embed('/url/')
 
@@ -10,7 +10,7 @@ RSpec.describe Jekyll::EmbedFilter do
     expect(expected).to eq actual
   end
 
-  it "takes returns an embed given two variable" do
+  it 'takes returns an embed given two variable' do
     embed_filter = Jekyll::EmbedFilter
     actual = embed_filter.embed('/url/', 'url title')
 

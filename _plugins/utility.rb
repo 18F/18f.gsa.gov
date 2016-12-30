@@ -20,7 +20,7 @@ module Jekyll
 
     def hash_link(str)
       if str[0] == '#'
-        "#{str}"
+        str.to_s
       else
         "##{str}"
       end

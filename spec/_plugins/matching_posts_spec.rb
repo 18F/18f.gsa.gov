@@ -1,7 +1,6 @@
 # require_relative '../../_plugins/matching_posts'
 
 # RSpec.describe Jekyll::MatchingPosts do
-
 #   class DummyClass
 #   end
 
@@ -9,7 +8,6 @@
 #     @dummy_class = DummyClass.new
 #     @dummy_class.extend(Jekyll::MatchingPosts)
 #   end
-
 
 #   it "takes returns an embed given one variable" do
 #     # binding.pry
@@ -42,5 +40,4 @@
 
 #     expect(expected_count).to eq actual_count
 #   end
-
 # end

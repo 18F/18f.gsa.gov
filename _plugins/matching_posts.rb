@@ -24,7 +24,6 @@ module Jekyll
     # that matches the list of `project_tags` defined
     # in a given project's frontmatter
     def match_posts(page, property = 'tags')
-
       matching_posts = []
       page_property = map_post_to_page(property)
       page_criteria = Array(page[page_property]) || []

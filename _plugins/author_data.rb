@@ -4,7 +4,7 @@ module SiteData
   class AuthorData
     attr_reader :path, :basepath
 
-    def initialize(test_path=nil)
+    def initialize(test_path = nil)
       @test_path = test_path
       @basepath = @test_path ? @test_path : Dir.pwd
       @path = File.join(@basepath, '_authors')
@@ -24,8 +24,7 @@ module SiteData
 
     def fetch(name, key)
       if self.exists? name
-        frontmatter = YAML.load_file("#{@path}/#{name}.md")
-        frontmatter[key]
+        YAML.load_file("#{@path}/#{name}.md")[key]
       end
     end
 
@@ -46,17 +45,15 @@ module SiteData
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
         frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-        {
-          file: File.read(author_path).gsub(frontmatter, frontmatter_new),
-          changed: true
-        }
+        { file: File.read(author_path).gsub(frontmatter, frontmatter_new),
+          changed: true }
       else
         { file: frontmatter, changed: false }
       end
     end
 
     def write_update(author_path, updated_file, key, value)
-      if !updated_file.empty?
+      unless updated_file.empty?
         puts "updating #{author_path} to `#{key}: #{value}`".yellow
         File.write(author_path, updated_file)
       end

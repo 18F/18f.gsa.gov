@@ -2,7 +2,6 @@ require_relative '../../_plugins/utility'
 require 'pry'
 
 RSpec.describe Jekyll::Utility do
-
   class UtilityClass
   end
 
@@ -12,19 +11,19 @@ RSpec.describe Jekyll::Utility do
   end
   describe '#clip_char' do
     context 'single parameter, string' do
-      it "removes dashes from the beginning of a string" do
+      it 'removes dashes from the beginning of a string' do
         expect(@utility_class.clip_char('-text')).to eq 'text'
       end
 
-      it "removes dashes from the end of a string" do
+      it 'removes dashes from the end of a string' do
         expect(@utility_class.clip_char('text-')).to eq 'text'
       end
 
-      it "removes dashes from both ends of a string" do
+      it 'removes dashes from both ends of a string' do
         expect(@utility_class.clip_char('-text-')).to eq 'text'
       end
 
-      it "does not remove dashes from within a string" do
+      it 'does not remove dashes from within a string' do
         expect(@utility_class.clip_char('-text-me-')).to eq 'text-me'
       end
     end
@@ -46,11 +45,11 @@ RSpec.describe Jekyll::Utility do
 
   describe '#hash_link' do
     it 'adds a hash to the beginning of a string' do
-      expect(@utility_class.hash_link("text")).to eq '#text'
+      expect(@utility_class.hash_link('text')).to eq '#text'
     end
 
     it 'does not add a hash if it is already there' do
-      expect(@utility_class.hash_link("#text")).to eq '#text'
+      expect(@utility_class.hash_link('#text')).to eq '#text'
     end
   end
 end
