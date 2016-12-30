@@ -12,20 +12,14 @@ description: "All throughout the summer, we’ll be profiling members
 across the 18F team. We’re starting with Elaine Kamlley, who is both a
 front-end developer and a member of our Outreach Team*.*"
 image: /assets/img/team/elaine.jpg
+hero: false
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Elaine Kamlley.">
 	<figcaption class="align-center">Elaine Kamlley, 18F team member</figcaption>
 </figure>
 
-*Over the next few months, we’ll be profiling members across the 18F
-team. We’re starting with Elaine Kamlley, who joined 18F in November of
-2014. Elaine is both a front-end developer and a member of our Outreach
-Team. Elaine also leads an internal diversity initiative that is
-currently conducting interviews inside and outside of 18F. In this
-interview, we talk to Elaine about pathways to 18F, how technology can
-help communities, and what it was like to work with the Department of
-the Treasury on a DATA Act prototype.*
+*Over the next few months, we’ll be profiling members across the 18F team. We’re starting with Elaine Kamlley, who joined 18F in November of 2014. Elaine is both a front-end developer and a member of our Outreach Team. Elaine also leads an internal diversity initiative that is currently conducting interviews inside and outside of 18F. In this interview, we talk to Elaine about pathways to 18F, how technology can help communities, and what it was like to work with the Department of the Treasury on a DATA Act prototype.*
 
 **Melody Kramer: Last summer, 20 teenagers from the State Department’s**
 [**TechGirls exchange
