@@ -11,7 +11,7 @@ image: /assets/img/team/jamesscott.jpg
 hero: false
 ---
 <figure class="align-right">
-	<img src="{{site.baseurl}}{{page.image}}" alt="">
+	<img src="{{site.baseurl}}{{page.image}}" alt="picture of James Scott">
 	<figcaption>James Scott, Software engineer at 18F</figcaption>
 </figure><br>
 

@@ -6,8 +6,8 @@ authors:
 tags:
 - events
 - gsa
+- technolgoy transformation service
 excerpt: "On September 8, GSA is hosting its very first Technology Industry Day. Sign up to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
-description: "On September 8, GSA is hosting its very first Technology Industry Day. Sign up to hear about how GSA is transforming technology in the federal government, see demos of products and solutions developed by TTS and, last but not least, provide feedback on how we can work better with industry. "
 image: 
 ---
 

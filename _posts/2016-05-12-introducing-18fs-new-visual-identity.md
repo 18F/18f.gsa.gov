@@ -7,9 +7,7 @@ authors:
 tags:
 - how we work
 - culture
-- product
 excerpt: "If you’re a frequent visitor to our website, you may have noticed a few updates — most notably, that we’ve got a new logo. For the past few months, members of our visual design team have been crafting and refining our new visual identity, and we’re thrilled to introduce it."
-description: "For the past few months, members of our visual design team have been crafting and refining our new visual identity, and we’re thrilled to introduce it."
 image: /assets/blog/visual-identity/logo.jpg
 ---
 
