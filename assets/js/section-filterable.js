@@ -1,19 +1,17 @@
 (function() {
 
   var attached = function() {
-
-    console.log('section-filterable.js loaded')
     var $this = $(this);
     var $filter = $this.attr('data-filter') || '.card';
     var $filterableForm = $this.find('.filterable-form');
     var $filterableInputs = $this.find('.filterable-form').find('input');
     var filterItems = $this.find($filter);
 
-    var selectedIds = function () {
+    var selectedIds = function() {
 
       var nodeIds = $filterableForm
         .find('input:checked')
-        .map(function(){
+        .map(function() {
           return this.id;
         })
 
@@ -21,23 +19,23 @@
     }
 
     // show all
-    var reset = function () {
+    var reset = function() {
       filterItems.attr('aria-hidden', false);
     }
 
-    var hideAll = function (ids) {
+    var hideAll = function(ids) {
       ids.attr('aria-hidden', true);
     }
 
-    var filterIds = function (ids) {
-      return filterItems.filter(function(i, item){
+    var filterIds = function(ids) {
+      return filterItems.filter(function(i, item) {
         var bucketId = $(item).attr('data-bucket');
         // return if checked ids don't match the value of the card
         return ids.indexOf(bucketId) < 0
       });
     }
 
-    $filterableInputs.on('change', function filter(event) {
+    $filterableInputs.on('change', function filter() {
       var ids = selectedIds()
       if (ids) {
         var filteredIds = filterIds(ids);

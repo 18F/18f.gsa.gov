@@ -1,7 +1,7 @@
 .list-columns {
-	@include unstyled-list();
+  @include unstyled-list();
 
   li {
-  	margin-bottom: $paragraph-margins;
+    margin-bottom: $paragraph-margins;
   }
 }
