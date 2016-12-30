@@ -6,9 +6,7 @@ tags:
 - code.gov
 - open source
 - collaboration tools
-excerpt: "In August of this year, the Federal Source Code Policy was signed. It requires federal agencies to, among other things, inventory their custom software and make the inventory available for consumption and display by code.gov. This will allow agencies to reuse and collaborate on software. You can read more about the policy on code.gov. The most pressing work
-for code.gov was defining a software metadata schema — a way for agencies to
-format the details of the software they’ve built."
+excerpt: "The Federal Source Code Policy, which was signed this year, requires federal agencies to inventory their custom software and make the inventory available for consumption and display by code.gov (among other things). The most pressing work in building code.gov was defining a software metadata schema — a way for agencies to format the details of the software they’ve built."
 image: /assets/blog/code-gov/homepage-cfpb.jpg
 ---
 

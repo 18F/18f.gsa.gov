@@ -15,7 +15,7 @@ image: /assets/img/team/elaine.jpg
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Elaine Kamlley.">
-	<figcaption>Elaine Kamlley, 18F team member</figcaption>
+	<figcaption class="align-center">Elaine Kamlley, 18F team member</figcaption>
 </figure>
 
 *Over the next few months, we’ll be profiling members across the 18F

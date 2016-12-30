@@ -18,7 +18,7 @@ hero: false
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="">
-	<figcaption>Nicole Fenton, content designer at 18F</figcaption>
+	<figcaption class="align-center">Nicole Fenton, content designer at 18F</figcaption>
 </figure><br>
 
 *All throughout the summer, we’ll be profiling members across the 18F

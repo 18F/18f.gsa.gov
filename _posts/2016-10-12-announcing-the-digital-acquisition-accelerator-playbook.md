@@ -10,7 +10,6 @@ tags:
 - procurement
 - training
 excerpt: "Built on the lessons learned during the pilot phase of the Digital Acquisitions Accelerator, the accompanying playbook examines the current acquisition landscape and provides an approach to procuring custom software solutions. Our goal is to make the government a smarter and more informed buyer of digital products and services."
-description: "Built on the lessons learned during the pilot phase of the Digital Acquisitions Accelerator, the accompanying playbook examines the current acquisition landscape and provides an approach to procuring custom software solutions. Our goal is to make the government a smarter and more informed buyer of digital products and services."
 ---
 
 Built on the lessons learned during the pilot phase of the [Digital Acquisitions Accelerator](https://pages.18f.gov/digitalaccelerator/), the accompanying [playbook](https://pages.18f.gov/digital-acquisition-playbook/) examines the current acquisition landscape and provides an approach to procuring custom software solutions. Our goal is to make the government a smarter and more informed buyer of digital products and services. 

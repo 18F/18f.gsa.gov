@@ -14,7 +14,7 @@ hero: false
 ---
 <figure class="align-right">
 	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Holly Allen.">
-	<figcaption>Holly Allen, Director of Engineering</figcaption>
+	<figcaption class="align-center">Holly Allen, Director of Engineering</figcaption>
 </figure><br>
 
 *All throughout the summer, we’ll be profiling members across the 18F

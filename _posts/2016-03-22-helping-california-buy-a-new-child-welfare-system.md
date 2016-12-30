@@ -10,16 +10,8 @@ tags:
 - rfp ghostwriting
 - state and local practice
 - modular contracting
-excerpt: "Through a partnership with the Department of Health and Human Services, 18F was able to work
-with California’s Department of Social Services and Office of Systems
-Integration on the replacement of California's Child Welfare System. We helped them  simplify the contracting documents and incorporate
-modular contracting, agile development, user-centered design, and open
-source practices into their project."
-description: "Through a partnership with the Department of Health and Human Services, 18F was able to work
-with California’s Department of Social Services and Office of Systems
-Integration on the replacement of California's Child Welfare System. We helped them  simplify the contracting documents and incorporate
-modular contracting, agile development, user-centered design, and open
-source practices into their project."
+- health and human services
+excerpt: "Through a partnership with the Department of Health and Human Services, 18F was able to work with California’s Department of Social Services and Office of Systems Integration on the replacement of California's Child Welfare System. We helped them  simplify the contracting documents and incorporate modular contracting, agile development, user-centered design, and open source practices into their project."
 image: /assets/blog/ca-child-welfare/ca-team.jpg
 ---
 
