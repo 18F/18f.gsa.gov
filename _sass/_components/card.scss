@@ -26,6 +26,10 @@
   background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
+
+  h3 {
+    margin-top: 0;
+  }
 }
 
 .card-image {
@@ -34,4 +38,13 @@
 
 .card-description {
   color: initial;
+}
+
+.agency-tag {
+  color: $color-gray;
+  font-size: $tiny-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }

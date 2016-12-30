@@ -15,7 +15,8 @@
     <img class="card-image" src="{{ include.image_src | prepend: site.baseurl }}"
            alt="{{ include.image_alt }}" />
     <div class="card-banner">
-      <h3>{{ include.title }}</h3>
+      <p class="agency-tag">{{ include.title }}</p>
+      <h3>{{ include.tagline }}</h3>
       <p class="card-description">{{ include.description }}</p>
       <span class="link-arrow-right">Learn more</span>
     </div>

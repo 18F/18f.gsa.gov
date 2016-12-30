@@ -3,21 +3,27 @@
 
 .hero {
   @include padding($site-margins null);
-  background-image: url('../img/home/hero-fec.png');
+  background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
 }
 
 .hero-callout {
-  background-color: $color-dark;
-  padding: 3rem;
+  padding-top: $site-margins * 3;
+  padding-right: $site-margins;
+  padding-bottom: $site-margins * 3;
+  padding-left: $site-margins * 3;
+  width: 50%;
 
-  h2 {
-    font-size: $h2-font-size * 0.85;
+  p {
+    font-size: $h3-font-size;
   }
 
   @include media($small-screen) {
-    max-width: 300px;
+    /*max-width: 300px;*/
   }
 
   > *:first-child {
