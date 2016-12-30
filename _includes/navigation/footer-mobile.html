@@ -11,7 +11,7 @@
           {% if item.permalink %}
             {% assign item_link = item.permalink | prepend: site.baseurl %}
           {% else %}
-            {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
+            {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
           {% endif %}
           <a href="{{ item_link }}">{{ item.text }}</a>
         </li>

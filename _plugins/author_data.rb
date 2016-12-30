@@ -14,11 +14,8 @@ module SiteData
       author_path = create_file_path(author_file)
       if File.exist? author_path
         updated_file = update_file(author_path, key, value)
-
-        if updated_file
-          write_update(author_path, updated_file, key, value)
-        else
-          binding.pry
+        if updated_file[:changed]
+          write_update(author_path, updated_file[:file], key, value)
         end
       else
         puts "#{author_file} does not exist.".red
@@ -49,15 +46,18 @@ module SiteData
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
         frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-        File.read(author_path).gsub(frontmatter, frontmatter_new)
+        {
+          file: File.read(author_path).gsub(frontmatter, frontmatter_new),
+          changed: true
+        }
       else
-        frontmatter
+        { file: frontmatter, changed: false }
       end
     end
 
     def write_update(author_path, updated_file, key, value)
-      puts "updating #{author_path} to `#{key}: #{value}`".yellow
       if !updated_file.empty?
+        puts "updating #{author_path} to `#{key}: #{value}`".yellow
         File.write(author_path, updated_file)
       end
     end
