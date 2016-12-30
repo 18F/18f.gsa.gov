@@ -6,14 +6,7 @@ authors:
 tags:
 - tools you can use
 - open source
-excerpt: "We encourage you to adapt 18F open source projects for your work and
-personal purposes, whether you’re a fellow federal employee or outside
-government. We’ve put together a list of some 18F repositories that
-might be especially useful to you."
-description: "We encourage you to adapt 18F open source projects for your work and
-personal purposes, whether you’re a fellow federal employee or outside
-government. We’ve put together a list of some 18F repositories that
-might be especially useful to you."
+excerpt: "We encourage you to adapt 18F open source projects for your work and personal purposes, whether you’re a fellow federal employee or outside government. We’ve put together a list of some 18F repositories that might be especially useful to you."
 image:
 ---
 
@@ -136,7 +129,7 @@ resolution](https://github.com/18F/18f.gsa.gov/issues/1445).
 
 -   [**jekyll\_pages\_api\_search**](https://github.com/18F/jekyll_pages_api_search): Add search to your site, no server required.
 
-##If you use [Cloud Foundry](https://www.cloudfoundry.org/)
+## If you use [Cloud Foundry](https://www.cloudfoundry.org/)
 
 -   [**BOSH Release for New Relic server monitor**](https://github.com/cloudfoundry-community/newrelic-boshrelease): Set up New Relic to monitor your Cloud Foundry deployment ([more about BOSH](https://bosh.io/docs/about.html)).
 
