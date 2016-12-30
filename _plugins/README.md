@@ -100,16 +100,6 @@ Example:
 > #how-we-work
 ```
 
-### dasherize: returns a dash-delimited version of the same string. Lives in [utility.md](utility.md).
-
-Example:
-```bash
-{{ 'how we work' | dasherize }}
-> how we work
-
-{{ 'how we work' | dasherize | hash_link }}
-> #how we work
-```
 
 ### matches_url: determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).
 
