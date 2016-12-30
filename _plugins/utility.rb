@@ -96,11 +96,39 @@ module Jekyll
       _type = value.class
       _second_type = second_value.class
       _third_type = third_value.class
-      # puts '---------------------'
-      # puts "#{value} is a #{_type}"
-      # puts '---------------------'
-      # binding.pry
+      puts '---------------------'
+      puts "#{value} is a #{_type}"
+      puts '---------------------'
+      binding.pry
     end
+
+    def find_collection(site, collection)
+      document = site.collections.select { |c| c.label == collection }[0].docs
+      document.map { |d| d.data }
+    end
+
+    def where_obj(array, first, second)
+      array.map do |object|
+        if object[first] && object[second]
+          new_o = {}
+          new_o[first] = object[first]
+          new_o[second] = object[second]
+          new_o
+        end
+      end.uniq
+    end
+
+    def in_groups(array, groups)
+      array.in_groups(groups)
+    end
+  end
+end
+
+class Array
+  def in_groups(num_groups)
+    return [] if num_groups == 0
+    slice_size = (self.size/Float(num_groups)).ceil
+    self.each_slice(slice_size).to_a
   end
 end
 Liquid::Template.register_filter(Jekyll::Utility)

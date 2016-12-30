@@ -5,65 +5,42 @@ title: Home
 redirect_from: /dashboard/
 ---
 
-<section class="usa-section hero">
-  <div class="usa-grid">
-    <div class="hero-callout background-dark">
-      <h2>We’re helping <span class="hero-callout-alt_color">the Federal Election Commission make campaign finance data easier to use.</span></h2>
-      <a class="usa-button usa-button-big usa-button-secondary" href="{{ site.baseurl }}/project/fec-gov/">Learn more about fec.gov</a>
-    </div>
+<section class="background-dark usa-section">
+  <div class="usa-grid content-focus">
+    <h1>We support your mission</h1>
+    <p>18F works with federal agencies to improve processes and deliver efficient, easy-to-use digital services to the public.</p>
+    <!-- <a href="{{ site.baseurl }}/what-we-deliver/"><button class="usa-button usa-button-big usa-button-secondary">What we deliver</button></a> -->
   </div>
+</section>
+<section class="usa-grid usa-section">
+  <h2>Featured projects</h2>
+  {% include card-project.html
+     project='fec-gov'
+  %}
+  {% include card-project.html
+     project='hhs-states'
+  %}
 </section>
 <section class="usa-grid usa-section">
   <div class="usa-width-one-third">
     <h2>Building 21st century digital government</h2>
   </div>
   <div class="usa-width-two-thirds">
-    <p>18F partners with agencies to approach technology projects in new ways. We help agencies improve processes and deliver efficient, easy-to-use digital services to the public.</p>
-    <p>As an office within the General Services Administration, we know how to work with government. All our projects support agencies in transforming how they deliver digital services and technology products.</p>
+    <p>As an office within the General Services Administration, we know how to work with government. We can help you improve public-facing services, implement new laws or mandates, or improve internal systems.</p>
+    <p>When you build or buy websites and software with 18F, you remain in control of your process and feel confident about your outcomes. Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</p>
+    <!-- <p>18F works with federal agencies to improve processes and deliver efficient, easy-to-use digital services to the public.</p>
+    <p>As an office within the General Services Administration, we know how to work with government. All our projects support agencies in transforming how they deliver digital services and technology products.</p> -->
   </div>
 </section>
-<section class="background-dark usa-section section-deliver">
-  <div class="usa-grid">
-    <h2>What we deliver</h2>
-    <div class="section-deliver-icons">
-      <div class="section-deliver-icon">
-        <div class="section-deliver-icon-img">
-          <img src="{{ site.baseurl }}/assets/img/home-icons/custom-products.svg" alt="">
-        </div>
-        <p>Custom products to solve your problems</p>
-      </div>
-      <div class="section-deliver-icon">
-        <div class="section-deliver-icon-img">
-          <img src="{{ site.baseurl }}/assets/img/home-icons/innovative-ways.svg" alt="">
-        </div>
-        <p>Innovative ways to buy technology</p>
-      </div>
-      <div class="section-deliver-icon">
-        <div class="section-deliver-icon-img">
-          <img class="section-deliver-icon-government" src="{{ site.baseurl }}/assets/img/home-icons/government.svg" alt="">
-        </div>
-        <p>Platforms built for government</p>
-      </div>
-      <div class="section-deliver-icon">
-        <div class="section-deliver-icon-img">
-          <img class="section-deliver-icon-path" src="{{ site.baseurl }}/assets/img/home-icons/path.svg" alt="">
-        </div>
-        <p>A path to becoming a digitally-powered organization</p>
-      </div>
-      <div class="section-deliver-icon">
-        <div class="section-deliver-icon-img">
-          <img src="{{ site.baseurl }}/assets/img/home-icons/modern-techniques.svg" alt="">
-        </div>
-        <p>Modern digital service techniques</p>
-      </div>
-    </div>
-    <div class="section-deliver-cta">
-      <a class="link-arrow-right-alt" href="{{ site.baseurl }}/what-we-deliver/">Learn more about what we deliver</a>
-    </div>
+<section class="background-dark usa-section">
+  <div class="usa-grid content-focus align-center">
+    <h2>Want to see if 18F can help your agency?</h2>
+    <a href="{{ site.baseurl }}/hire/"><button class="usa-button usa-button-big usa-button-secondary">Contact us</button></a>
+    <!-- <h3>Let’s work together to tackle your agency’s technology problems and transform how you serve the public.</h3> -->    
   </div>
 </section>
 <section class="usa-grid usa-section posts_feature">
-  <h2><a href="{{ site.baseurl }}/blog/">Blog</a></h2>
+  <h2><a href="{{ site.baseurl }}/blog/">From our blog</a></h2>
   <ul>
     {% for post in site.posts limit:3 %}
     <li class="usa-width-one-third">
