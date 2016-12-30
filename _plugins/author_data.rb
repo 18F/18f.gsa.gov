@@ -26,8 +26,10 @@ module SiteData
     end
 
     def fetch(name, key)
-      frontmatter = YAML.load_file("#{@path}/#{name}.md")
-      frontmatter[key]
+      if self.exists? name
+        frontmatter = YAML.load_file("#{@path}/#{name}.md")
+        frontmatter[key]
+      end
     end
 
     def exists?(name)

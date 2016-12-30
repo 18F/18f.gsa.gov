@@ -29,6 +29,15 @@ RSpec.describe SiteData::AuthorData do
       expect(author_name).not_to eq 'aaron'
     end
 
+    it "it cannot fetch a file that does not exist" do
+      bogus_file_name = 'authored'
+      exists = @author_data.exists? bogus_file_name
+      expect(exists).to eq false
+
+      author_name = @author_data.fetch(bogus_file_name, 'name')
+      expect(author_name).to eq nil
+    end
+
     it "can create a file path from a string" do
       actual = @author_data.create_file_path('author')
       expected = File.join(@author_data.path, 'author.md')
