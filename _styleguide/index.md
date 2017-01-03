@@ -88,17 +88,11 @@ nav_items:
 
 Here is an example embed and how
 
-{{ "https://www.youtube.com/watch?v=8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
+{{ "https://www.youtube-nocookie.com/embed/8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
 
-{% capture styleguide_embed %}
-{{ "https://www.youtube.com/watch?v=8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
-{% endcapture %}
-
-{% include details-code.html
-   text="See liquid code"
-   content=styleguide_embed
-   lang="html"
-%}
+```liquid
+{% raw %}{{ "https://www.youtube-nocookie.com/embed/8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}{% endraw %}
+```
 
 ## Molecules
 
