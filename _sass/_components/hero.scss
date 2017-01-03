@@ -16,10 +16,11 @@
   padding-right: $site-margins;
   padding-bottom: $site-margins * 3;
   padding-left: $site-margins * 3;
-  width: 50%;
+  width: 100%;
 
   p {
     font-size: $h3-font-size;
+    max-width: 60rem;
   }
 
   @include media($small-screen) {
