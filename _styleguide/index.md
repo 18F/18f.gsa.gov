@@ -12,6 +12,11 @@ nav_items:
        collections: ['styleguide']
        in_subnav: true
        children:
+     - text: Embeds
+       permalink: /styleguide/#embeds
+       collections: ['styleguide']
+       in_subnav: true
+       children:
  - text: Molecules
    permalink: /styleguide/#molecules
    collections: ['styleguide']
@@ -79,6 +84,22 @@ nav_items:
    lang="html"
 %}
 
+### Embed
+
+Here is an example embed and how
+
+{{ "https://www.youtube.com/watch?v=8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
+
+{% capture styleguide_embed %}
+{{ "https://www.youtube.com/watch?v=8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
+{% endcapture %}
+
+{% include details-code.html
+   text="See liquid code"
+   content=styleguide_embed
+   lang="html"
+%}
+
 ## Molecules
 
 ## Organisms
@@ -126,4 +147,3 @@ nav_items:
    content=card
    lang="html"
 %}
-
