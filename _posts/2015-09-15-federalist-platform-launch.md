@@ -14,6 +14,7 @@ tags:
 excerpt: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
 description: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
 image: /assets/blog/federalist/sbst-screenshot-2.jpg
+hero: false
 ---
 
 ![The new White House Social and Behavioral Sciences Team homepage]({{site.baseurl}}/assets/blog/federalist/sbst-screenshot-2.jpg)

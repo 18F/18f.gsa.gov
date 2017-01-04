@@ -26,7 +26,7 @@ By commoditization, we mean the relentless evolution of technology: from a uniqu
 
 The end point of this evolution is always a freely available, reliable, open source software project supported by a large, accommodating community. In other words, a broadly supported Free Open-Source Software (FOSS) project is the ultimate commoditization of a Commercial Off-The Shelf (COTS) project. FOSS is COTS, whether a firm ever offers paid support for it or not.
 
-As projects become more stable and widely used, they develop communities of supporters and users. These communities prevent the negative aspects of being dependent upon, or locked-in to, a single entity for support. No federal project should be handcuffed to a tiny, unproductive development community. The best way to harness the innovative effort of a large number of people is to use a mature, commoditized project that many people are actively contributing to---and that means using open source.
+As projects become more stable and widely used, they develop communities of supporters and users. These communities prevent the negative aspects of being dependent upon, or locked-in to, a single entity for support. No federal project should be handcuffed to a tiny, unproductive development community. The best way to harness the innovative effort of a large number of people is to use a mature, commoditized project that many people are actively contributing to — and that means using open source.
 
 Let us illustrate these evolutionary processes by considering specific examples of two of the most important tools in information technology: the relational database system and full-text search engines.
 
@@ -213,106 +213,103 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
     </tr>
   </thead>
   <tbody>
-		<tr >
-			<td colspan="1" rowspan="1">18F</td>
-			<td colspan="1" rowspan="1">An <a href="https://18f.gsa.gov/">incubator</a> using modern software development techniques for the federal government.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">18F Consulting</td>
-			<td colspan="1" rowspan="1">A <a href="{{ site.baseurl }}/consulting/">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">application framework</td>
-			<td colspan="1" rowspan="1">A software system that facilitates the construction of an application, such as a web application (e.g. <a href="http://rubyonrails.org">Rails</a>, <a href="https://www.djangoproject.com/">Django</a>, <a href="http://sailsjs.org/#/">Sails.js</a>.)</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">civic hacking</td>
-			<td colspan="1" rowspan="1"><a href="http://hackforchange.org">Programming</a> for the public good in <a href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">cloud computing</td>
-			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Cloud_computing">Using</a> other people's computers.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">content management system</td>
-			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="https://en.wikipedia.org/wiki/Content_%28media%29">content,</a> organizing, deleting as well as maintenance from a central interface.</span></p><p class="c0 c7"><span ></span></p>
-			</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">Elasticsearch</td>
-			<td colspan="1" rowspan="1">Elasticsearch is a search server based on <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">FISMA</td>
-			<td colspan="1" rowspan="1">The <a href="https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">full-text search engine</td>
-			<td colspan="1" rowspan="1">A way to find things using <a href="https://en.wikipedia.org/wiki/Full_text_search">words </a>that occur in them.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">GUI framework</td>
-			<td colspan="1" rowspan="1">A body of code which facilitates implementing a modern web-based and mobile interface (e.g. <a href="https://github.com/twbs/bootstrap">bootstrap</a>).</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">GitHub</td>
-			<td colspan="1" rowspan="1">GitHub is a <a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository  <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="https://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="https://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">green-field</td>
-			<td colspan="1" rowspan="1">A project <a href="https://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
-
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">NoSQL database</td>
-			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a> Data retrieval not based strictly on tables, such as key-value pair look up.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">Lucene</td>
-			<td colspan="1" rowspan="1">Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> is a free open source<a href="https://en.wikipedia.org/wiki/Information_retrieval">full-text search engine</a>.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">open source</td>
-			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Open-source_software">Open source</a> software (OSS)is <a href="https://en.wikipedia.org/wiki/Software">computer software</a> with its <a href="https://en.wikipedia.org/wiki/Source_code">source code</a> made available with a <a href="https://en.wikipedia.org/wiki/Open-source_license">license</a> in which the <a href="https://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</span></p><p class="c0 c7"><span ></td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">PostgreSQL</td>
-			<td colspan="1" rowspan="1">A widely used open source <a href="http://www.postgresql.org/about/history/">relational database management system</a>.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">relational database</td>
-			<td colspan="1" rowspan="1">A <a href="https://en.wikipedia.org/wiki/Relational_database">relational database</a> stores information about both the data and how it isrelatedbased on tables.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">SOLR</td>
-			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced "solar") is an <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a><a href="https://en.wikipedia.org/wiki/Enterprise_search"> enterprise search </a>platform from the Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">SourceForge</td>
-			<td colspan="1" rowspan="1">A web-based source code sharing <a href="https://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">TechFAR</td>
-			<td colspan="1" rowspan="1">A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for procuring services using agile process</td>
-
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">Unix Philosophy</td>
-			<td colspan="1" rowspan="1"><a href="https://en.wikipedia.org/wiki/Unix_philosophy">Write</a> small, recombinable programs.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">USDS</td>
-			<td colspan="1" rowspan="1">The <a href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a>, which seeks to drive innovation and technical excellence.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">USDS playbook</td>
-			<td colspan="1" rowspan="1">A concise <a href="https://playbook.cio.gov/">guide</a> to best practices for federal program managers and acquisition officers.</td>
-		</tr>
-		<tr >
-			<td colspan="1" rowspan="1">Wardley-Duncan map</td>
-			<td colspan="1" rowspan="1">A <a href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a> of components using evolution and closeness to end-user as axes.</td>
-		</tr>
-	</tbody>
+    <tr>
+      <td>18F</td>
+      <td>An <a href="https://18f.gsa.gov/">incubator</a> using modern software development techniques for the federal government.</td>
+    </tr>
+    <tr>
+      <td>18F Consulting</td>
+      <td>A <a href="{{ site.baseurl }}/consulting/">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
+    </tr>
+    <tr>
+      <td>application framework</td>
+      <td>A software system that facilitates the construction of an application, such as a web application (e.g. <a href="http://rubyonrails.org">Rails</a>, <a href="https://www.djangoproject.com/">Django</a>, <a href="http://sailsjs.org/#/">Sails.js</a>.)</td>
+    </tr>
+    <tr>
+      <td>civic hacking</td>
+      <td><a href="http://hackforchange.org">Programming</a> for the public good in <a href="http://www.huffingtonpost.com/lily-liu/when-hacking-is-actually-_b_3697642.html">cooperation</a> with government.</td>
+    </tr>
+    <tr>
+      <td>cloud computing</td>
+      <td><a href="https://en.wikipedia.org/wiki/Cloud_computing">Using</a> other people's computers.</td>
+    </tr>
+    <tr>
+      <td>content management system</td>
+      <td>A <a href="https://en.wikipedia.org/wiki/Content_management_system"> computer application</a> that allows publishing,editing and modifying <a href="https://en.wikipedia.org/wiki/Content_%28media%29">content,</a> organizing, deleting as well as maintenance from a central interface.</td>
+    </tr>
+    <tr>
+      <td>Elasticsearch</td>
+      <td>Elasticsearch is a search server based on <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a>.</td>
+    </tr>
+    <tr>
+      <td>FISMA</td>
+      <td>The <a href="https://en.wikipedia.org/wiki/Federal_Information_Security_Management_Act_of_2002">Federal Information Security Management Act of 2002</a>.</td>
+    </tr>
+    <tr>
+      <td>full-text search engine</td>
+      <td>A way to find things using <a href="https://en.wikipedia.org/wiki/Full_text_search">words</a> that occur in them.</td>
+    </tr>
+    <tr>
+      <td>GUI framework</td>
+      <td>A body of code which facilitates implementing a modern web-based and mobile interface (e.g. <a href="https://github.com/twbs/bootstrap">bootstrap</a>).</td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td>GitHub is a <a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git </a>repository  <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service">web-based hosting service</a> which offers all of the <a href="https://en.wikipedia.org/wiki/Distributed_revision_control">distributed revision control</a> and <a href="https://en.wikipedia.org/wiki/Revision_control">source code management</a>(SCM).</td>
+    </tr>
+    <tr>
+      <td>green-field</td>
+      <td>A project <a href="https://en.wikipedia.org/wiki/Greenfield_project">unconstrained</a> by a legacy of past work.</td>
+    </tr>
+    <tr>
+      <td>NoSQL database</td>
+      <td><a href="https://en.wikipedia.org/wiki/NoSQL">(Not Only SQL)</a> Data retrieval not based strictly on tables, such as key-value pair look up.</td>
+    </tr>
+    <tr>
+      <td>Lucene</td>
+      <td>Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> is a free open source<a href="https://en.wikipedia.org/wiki/Information_retrieval">full-text search engine</a>.</td>
+    </tr>
+    <tr>
+      <td>open source</td>
+      <td><a href="https://en.wikipedia.org/wiki/Open-source_software">Open source</a> software (OSS)is <a href="https://en.wikipedia.org/wiki/Software">computer software</a> with its <a href="https://en.wikipedia.org/wiki/Source_code">source code</a> made available with a <a href="https://en.wikipedia.org/wiki/Open-source_license">license</a> in which the <a href="https://en.wikipedia.org/wiki/Copyright">copyright</a> holder provides the rights to study, change and distribute the software to anyone and for any purpose</td>
+    </tr>
+    <tr>
+      <td>PostgreSQL</td>
+      <td>A widely used open source <a href="http://www.postgresql.org/about/history/">relational database management system</a>.</td>
+    </tr>
+    <tr>
+      <td>relational database</td>
+      <td>A <a href="https://en.wikipedia.org/wiki/Relational_database">relational database</a> stores information about both the data and how it is related based on tables.</td>
+    </tr>
+    <tr>
+      <td>SOLR</td>
+      <td><a href="https://en.wikipedia.org/wiki/Apache_Solr">Solr</a> (pronounced "solar") is an <a href="https://en.wikipedia.org/wiki/Open-source_software">open source</a><a href="https://en.wikipedia.org/wiki/Enterprise_search"> enterprise search </a>platform from the Apache <a href="https://en.wikipedia.org/wiki/Lucene">Lucene</a> project.</td>
+    </tr>
+    <tr>
+      <td>SourceForge</td>
+      <td>A web-based source code sharing <a href="https://en.wikipedia.org/wiki/SourceForge">platform</a> of many project repositories.</td>
+    </tr>
+    <tr>
+      <td>TechFAR</td>
+      <td>A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for procuring services using agile process</td>
+    </tr>
+    <tr>
+      <td>Unix Philosophy</td>
+      <td><a href="https://en.wikipedia.org/wiki/Unix_philosophy">Write</a> small, recombinable programs.</td>
+    </tr>
+    <tr>
+      <td>USDS</td>
+      <td>The <a href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/">U.S. Digital Service</a>, which seeks to drive innovation and technical excellence.</td>
+    </tr>
+    <tr>
+      <td>USDS playbook</td>
+      <td>A concise <a href="https://playbook.cio.gov/">guide</a> to best practices for federal program managers and acquisition officers.</td>
+    </tr>
+    <tr>
+      <td>Wardley-Duncan map</td>
+      <td>A <a href="http://blog.gardeviance.org/2013/03/basics-repeated-again.html">chart</a> of components using evolution and closeness to end-user as axes.</td>
+    </tr>
+  </tbody>
 </table>
 
 ## Further reading

@@ -13,7 +13,6 @@ authors:
 description: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 excerpt: "We were proud to provide design and development work for the Peace Corps' new donation platform. We want to share a few reflections around drawing that delivery line for this new product, and explain where we think we made the right call and look at other decisions which still keep us up at night."
 ---
-![Screenshot of workflow for new Peace Corps donation platform]({{site.baseurl}}/assets/blog/peacecorps/image04.png)
 
 We were proud to provide design and development work for the Peace
 Corps' new [donations platform](https://beta.peacecorps.gov/donate/)

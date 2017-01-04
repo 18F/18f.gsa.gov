@@ -65,15 +65,10 @@ processors (the operations team). Out of those conversations, a few
 things became clear:
 
 - We wanted the flexibility to record time in either **hours** per week or a **percentage** of a given allotment of hours.
-
 - No one wanted another login. Luckily, another 18F project ([MyUSA](https://my.usa.gov/)) does a great job at authentication. Thank you!
-
 - We needed to customize the periods in which we record time — such as by fiscal year, weeks with federal holidays, etc.
-
 - Ideally, we wanted to record enough information that later developments could allow the system to provide real-time information on project costs to our partners.
-
 - Ideally, we wanted the system to help others inside 18F better understand not only how much our employees are working but also *how* they are spending their time.
-
 - To minimize our footprint, we want to deploy something on 18F’s new [platform as a service](https://18f.gsa.gov/2015/05/08/layering-innovation/), which would take care of many of our operational and security concerns.
 
 We looked at the available products, weighing options that met our
@@ -88,7 +83,7 @@ we really wanted to make the user experience as simple and easy as
 possible. We also felt this was a great opportunity to try out our
 internal platform as a service and flex our Python muscles.
 
-###Building things out
+### Building things out
 
 The first prototype took about day to build and deploy. We built it
 entirely in the open (see our [GitHub repository](https://github.com/18f/tock)) and immediately put it online for the team to test.
@@ -99,25 +94,25 @@ entirely in the open (see our [GitHub repository](https://github.com/18f/tock)) 
 At the core, this is a very simple Django site. We have four main
 models, or types of information:
 
-####Users
+#### Users
 
 A person who is reporting time. We integrated with MyUSA so 18F
 employees are automatically logged into Tock based on their email
 address. No passwords here!
 
-####Reporting periods
+#### Reporting periods
 
 The timespan we are recording, for example, the week of May 11 to May
 15.
 
-####Projects
+#### Projects
 
 The individual line items we record time against. Every 18F project gets
 a line item, and we also have general line items for things like “out of
 office” or time spent on 18F-focused activities, such as our weekly
 all-hands meeting.
 
-####Timecards
+#### Timecards
 
 The glue that holds everything together. Each user gets one timecard for
 every reporting period, on which they report each project and how much
@@ -127,7 +122,7 @@ Although this initial effort didn’t do everything one could ever want in
 a time tracking system, the core functionality worked, and we had a
 viable prototype.
 
-###Sharing with the team
+### Sharing with the team
 
 We asked everyone at 18F to try Tock for a week and report back. Initial
 feedback was very positive:
@@ -154,7 +149,7 @@ either the project or partner agency name when selecting a line item:
 
 ![Line screenshot]({{site.baseurl}}/assets/blog/tockingtime/tock01.jpg)
 
-###The future of time
+### The future of time
 
 We’ve had Tock in operation for a little over one month. So far our time
 investment has proven well worth the results. Our operations team spends

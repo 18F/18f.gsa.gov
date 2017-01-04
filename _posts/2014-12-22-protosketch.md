@@ -22,8 +22,6 @@ Meetings are boring. Prototypes are cool. Use the meeting to
 build the prototype. We call building a prototype in three hours or less
 *protosketching*.
 
-<!-- more -->
-
 Developers and designers working in bureaucratic organizations can astonish
 their colleagues by building clickable prototypes in a one-to-three hour
 meeting. Designers often sketch on paper and developers often prototype with
@@ -40,7 +38,7 @@ Why not be wrong with your protosketch in the meeting, and turn the meeting
 into something that gives you the right answer?
 
 Agile and lean methodologies focus on testing hypotheses as quickly as
-possible-—**protosketching allows us to rapidly create hypotheses designed
+possible — **protosketching allows us to rapidly create hypotheses designed
 with engaged stakeholders.** Agile works in timeboxes called “sprints,”
 which are usually a few weeks long. Sometimes agile practitioners work even
 faster, on often but not always throwaway experiments called
@@ -59,7 +57,7 @@ languages, databases, or design frameworks. Just go with what will quickly
 get a clickable page into the hands of the end-user in order to get
 feedback, because the protosketch is just part of the process.
 
-## Why to Protosketch In the Government
+## Why to protosketch in the government
 
 The fundamental reason to protosketch is to have fewer sleepless nights.
 
@@ -84,7 +82,7 @@ years later.
 Every agency deserves this ability to realize its mission more effectively
 and to save taxpayer money.
 
-## De-risking The Procurement Process
+## De-risking the procurement process
 
 In a typical procurement setting, prospective contractors might be the most
 technical voices in the room, creating a risk of technical asymmetry. A
@@ -101,7 +99,7 @@ refreshing and produce lower, more accurate bids. The American people will
 be rewarded with less vendor lock-in, more cost effective maintenance, and
 effectively evolving digital services. Oh and better digital experiences!
 
-## Protosketching in the Wild: Actual Experience
+## Protosketching in the wild: actual experience
 
 At [18F](https://18f.gsa.gov/), we have protosketched for prospective
 clients in three meetings and also for our audience at the last 18F Demo

@@ -8,7 +8,7 @@ title: "Hello, world! We are 18F"
 description: 18F is a startup within GSA, encompassing the Presidential Innovation Fellows program and a cutting edge digital delivery team. We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about “hacking” bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people.
 
 excerpt: 18F is a startup within GSA, encompassing the Presidential Innovation Fellows program and a cutting edge digital delivery team. We’re doers, recruited from the most innovative corners of industry and the public sector, who are passionate about “hacking” bureaucracy to drive efficiency, transparency, and savings for government agencies and the American people.
-image: ""
+image:
 authors:
 - 18F
 tags:

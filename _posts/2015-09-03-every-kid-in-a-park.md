@@ -15,6 +15,7 @@ lands and water for a full year. Here at 18F, we were proud to develop the site 
 description: "Every Kid in a Park gives U.S. fourth graders free access to all federal
 lands and water for a full year. Here at 18F, we were proud to develop the site in partnership with the U.S. Department of Interior and other federal land management agencies."
 image: /assets/blog/every-kid-in-a-park/every-kid-in-a-park.jpg
+hero: false
 ---
 
 [![Two students hold up their Every Kid in a Park passes]({{site.baseurl}}/assets/blog/every-kid-in-a-park/every-kid-in-a-park.jpg)](https://www.flickr.com/photos/usinterior/20900647896/in/album-72157657833038461/)

@@ -5,7 +5,7 @@ tumblr_url: http://18fblog.tumblr.com/post/91952641466/midas-a-marketplace-for-i
 title: "Midas: a marketplace for innovation in government"
 description: "Midas is an online platform that brings to life the vision of an Innovation Toolkit for government. It's a marketplace of skill building opportunities which matches people to projects that they're passionate about. You can think of it as \"Kickstarter for people's time\"."
 excerpt:  "Midas is an online platform that brings to life the vision of an Innovation Toolkit for government. It's a marketplace of skill building opportunities which matches people to projects that they're passionate about. You can think of it as “Kickstarter for people's time.”"
-image: ""
+image: 
 authors:
 - joe
 - mattchessen

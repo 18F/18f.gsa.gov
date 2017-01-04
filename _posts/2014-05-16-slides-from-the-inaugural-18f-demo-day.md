@@ -8,7 +8,7 @@ title: Slides from the inaugural 18F Demo Day
 description: "The presentations given at the inaugural 18F Demo Day on May 9, 2014 are online and available at Speaker Deck. If you would like more information on any topic, please feel free to contact the individual speaker."
 excerpt: "The presentations given at the inaugural 18F Demo Day on May 9, 2014 are online and available at Speaker Deck. If you would like more information on any topic, please feel free to contact the individual speaker."
 
-image: ""
+image: 
 
 authors:
 - 18F

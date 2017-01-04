@@ -40,7 +40,7 @@ page](https://github.com/18F/),
 so you can easily fork them and adapt for your own workplace, if you’d
 like — in fact, I recommend it.
 
-##The Hub
+## The Hub
 
 The Hub is just what it sounds like — a centralized place where team members share project documentation and more general information about how 18F works.
 
@@ -56,7 +56,7 @@ it much easier to get up to speed simply because the Hub exists.
 [more
 information](https://18f.gsa.gov/2014/12/23/hub/).)
 
-##Midas
+## Midas
 Midas: One of my coworkers describes Midas as a “Kickstarter for people’s time.” And it is. Here’s how Midas works: You come up with a great idea that would help your workplace, but you and your coworkers don’t have the skills to execute it. Rather than bringing in a contractor, you can post your project idea to Midas, where other people within your organization can see it and then work on it, if they’d like.
 
 Midas is open source, which means anyone can download it and try it out.
@@ -79,7 +79,7 @@ use as often as you’d like.
 [more
 information](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/).)
 
-##Snippets
+## Snippets
 
 Snippets are a quick way to see what everyone on your team did last week and what they’re working on this week. As you might imagine, they’re really, really short.
 

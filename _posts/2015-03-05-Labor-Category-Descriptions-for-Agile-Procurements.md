@@ -1,7 +1,7 @@
 ---
 title: "Labor category descriptions for agile procurements"
 layout: post
-image: ""
+
 date: 2015-03-10
 
 tags:
@@ -9,7 +9,7 @@ tags:
 - procurement
 - acquisition services
 - tools you can use
-
+image: 
 authors:
 - chrisc
 excerpt: "Clients of 18F Consulting frequently ask for help defining labor categories for agile contracts. We’ve published these definitions in a public GitHub repo so other acquisition professionals can benefit from them, too. Read on for more details."
