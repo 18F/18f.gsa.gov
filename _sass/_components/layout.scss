@@ -32,6 +32,10 @@
 
 .usa-section {
   @include padding($section-margins null);
+
+  .page-lead {
+    margin-top: 0;
+  }
 }
 
 .background-dark {
