@@ -7,8 +7,8 @@ tags:
 - https
 - security
 - pulse.cio.gov
-excerpt: ""
-image: /assets/blog/https-progress/chart-1-https-parent-domains.png
+excerpt: "The White House HTTPS policy generated significant HTTPS adoption in the U.S. government. HTTPS is now used for most web requests to executive branch .gov websites, and the government now outpaces the private sector on HTTPS."
+image: /assets/blog/https-progress/white-house-https.png
 ---
 
 [HTTPS](https://https.cio.gov/faq/#what-does-https-do%3f) is a protocol to create secure and private connections to websites or services on the internet. You're using HTTPS to read this article, as indicated by the `https://` and lock icon in your browser's location bar above. Because we use HTTPS for our website, it's very difficult for anyone to modify or inspect the communication between your device and our servers. If we used plain HTTP, it would be very easy for an attacker to insert malware or tracking information into your browser. HTTPS is the [minimum baseline that users should expect](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) from any website they visit, government or otherwise.
@@ -21,10 +21,10 @@ This post will look at how the government is doing in adopting these technologie
 
 There's more detail and caveats below — and in particular, this focuses only on .gov domains — but the overall conclusions are:
 
-* The White House policy generated significant HTTPS adoption in the U.S. government, to the point that **[the government now outpaces the private sector on HTTPS]()**.
-* HTTPS has gone from **[a clear minority to a clear majority]()** of support across executive branch .gov domains since the release of the policy.
-* Web traffic data suggests that **[HTTPS is now used for most web requests]()** to executive branch .gov web services.
-* In 2017, agencies should focus on closing gaps through the use of **[inexpensive and free certificates]()**, and by **[preloading their domains]()** wherever possible.
+* The White House policy generated significant HTTPS adoption in the U.S. government, to the point that **[the government now outpaces the private sector on HTTPS](#did-we-need-a-formal-https-policy)**.
+* HTTPS has gone from **[a clear minority to a clear majority](#evaluating-adoption)** of support across executive branch .gov domains since the release of the policy.
+* Web traffic data suggests that **[HTTPS is now used for most web requests](#measuring-overall-user-impact-using-analyticsusagov)** to executive branch .gov web services.
+* In 2017, agencies should focus on closing gaps through the use of **[inexpensive and free certificates](#recommendations-and-data)**, and by **[preloading their domains](#recommendations-and-data)** wherever possible.
 
 ## Measuring .gov domains and subdomains
 
