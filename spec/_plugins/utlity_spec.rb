@@ -8,6 +8,19 @@ RSpec.describe Jekyll::Utility do
   before(:each) do
     @utility_class = UtilityClass.new
     @utility_class.extend(Jekyll::Utility)
+
+    @nav_item = {
+      "text": "What we deliver",
+      "href": "pages/what-we-deliver.md",
+      "permalink": "/what-we-deliver/",
+      "in_menu": true,
+      "in_drawer": true,
+      "in_footer": true,
+      "children": nil
+    }
+    @baseurl = Jekyll.sites[0].config['baseurl']
+    @collections = Jekyll.sites[0].collections
+    @posts = @collections['posts']
   end
   describe '#clip_char' do
     context 'single parameter, string' do
@@ -50,6 +63,38 @@ RSpec.describe Jekyll::Utility do
 
     it 'does not add a hash if it is already there' do
       expect(@utility_class.hash_link('#text')).to eq '#text'
+    end
+  end
+
+  describe '#matches_url' do
+    it 'strips forward slashes' do
+      expect(@utility_class.matches_url('/text/', 'text')).to be true
+      expect(@utility_class.matches_url('/text', 'text')).to be true
+      expect(@utility_class.matches_url('text/', 'text')).to be true
+    end
+
+    it 'reverse strips forward slashes' do
+      expect(@utility_class.matches_url('text', '/text/')).to be true
+      expect(@utility_class.matches_url('text', '/text')).to be true
+      expect(@utility_class.matches_url('text', 'text/')).to be true
+    end
+
+    it 'does not strip double forward slashes' do
+      expect(@utility_class.matches_url('//text', 'text/')).to be_nil
+      expect(@utility_class.matches_url('text//', 'text/')).to be_nil
+      expect(@utility_class.matches_url('text//', 'text//')).to be true
+    end
+  end
+
+  describe '#matches_collections' do
+    it 'strips forward slashes' do
+
+      first_post = @posts.docs[0]
+      f_p = @posts[0]
+      binding.pry
+      expect(@utility_class.matches_url('/text/', 'text')).to be true
+      expect(@utility_class.matches_url('/text', 'text')).to be true
+      expect(@utility_class.matches_url('text/', 'text')).to be true
     end
   end
 end

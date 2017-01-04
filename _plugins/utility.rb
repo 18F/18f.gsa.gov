@@ -26,6 +26,18 @@ module Jekyll
       end
     end
 
+    def matches_collections(page, nav_item)
+      binding.pry
+      returned_page = nil
+      collections = nav_item['collections'] || nil
+      if collections
+        collections.each do |collection|
+          returned_page = true if page['collection'] == collection
+        end
+      end
+      returned_page
+    end
+
     def matches_url(page_url, url)
       page_url = clip_char(page_url.to_s.downcase, '/')
       url = clip_char(url.to_s.downcase, '/')
@@ -68,17 +80,6 @@ module Jekyll
           crawl_pages(child, page_url, child['text'])
         end
       end
-    end
-
-    def matches_collections(page, item)
-      returned_page = nil
-      collections = item['collections'] || nil
-      if collections
-        collections.each do |collection|
-          returned_page = true if page['collection'] == collection
-        end
-      end
-      returned_page
     end
 
     def find_page(page_url, nav_items)
