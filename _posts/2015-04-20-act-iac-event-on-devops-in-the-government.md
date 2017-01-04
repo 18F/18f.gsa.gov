@@ -10,7 +10,7 @@ tags:
 - agile
 
 layout: post
-image: ""
+image: 
 date: '2015-04-20'
 
 excerpt: "Themed 'Achieve Agile Nirvana Through DevOps,' the education and

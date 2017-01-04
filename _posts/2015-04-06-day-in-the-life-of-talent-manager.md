@@ -31,7 +31,7 @@ My morning routine is easy, quick, and simple. The only things I take too seriou
 
 <img alt="My morning walk to work" src="{{ site.baseurl }}/assets/blog/talent-manager/morningwalk.JPG" class="align-left" />
 
-**7:00 a.m.**: Wednesday is farmers' market day at 50 UN Plaza, which means breakfast (part two) is too many free samples of chocolate almond brittle. At this hour, no one else is around, so I crank up our Bose speakers and unleash DJ JME. I make all my co-workers listen to [this song] (https://www.youtube.com/watch?v=sZ-D4jmkUiQ) at least once. You should listen, too. It helps me work through my priority inbox and prepare my notes for my morning meetings.
+**7:00 a.m.**: Wednesday is farmers' market day at 50 UN Plaza, which means breakfast (part two) is too many free samples of chocolate almond brittle. At this hour, no one else is around, so I crank up our Bose speakers and unleash DJ JME. I make all my co-workers listen to [this song](https://www.youtube.com/watch?v=sZ-D4jmkUiQ) at least once. You should listen, too. It helps me work through my priority inbox and prepare my notes for my morning meetings.
 
 At **8:00 a.m.**, I join Jen and Shawnique for the Team Talent stand up. We use this time together to walk through our candidate tracker. The hiring process here is longer than most, so we have to stay on top of each person’s route to Day 1. We also use this time to plan our next interview day (every other Friday), and discuss any other current challenges.
 
@@ -45,9 +45,9 @@ By **noon**, I am ready for a break. My SF officemates know that my lunch habits
 
 <img alt="SF on a sunny day" src="{{ site.baseurl }}/assets/blog/talent-manager/sfview.JPG" class="align-right" />
 
-**1:00 p.m.**: I make my way back inside and settle in to review resumes. This task is fairly simple: input names and other pertinent information into our candidate tracker, separate applicants into the appropriate [buckets] (https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/), and then send the resumes out  for evaluation. Each resume is reviewed by at least two subject matter experts (SMEs) on our team.
+**1:00 p.m.**: I make my way back inside and settle in to review resumes. This task is fairly simple: input names and other pertinent information into our candidate tracker, separate applicants into the appropriate [buckets](https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/), and then send the resumes out  for evaluation. Each resume is reviewed by at least two subject matter experts (SMEs) on our team.
 
-**2:00 p.m.**: I step away from the computer to hop on the phone again. I’ve scheduled a few 30-minute phone screens (in terms of the hiring process, this happens post resume review) with potential operations specialists and talent coordinators.  Most of these positions are filled via a special hiring authority granted to Returned Peace Corps/Americorps/Vista Volunteers. I am biased, but Peace Corps Volunteers are incredible humans. We’ve got a lot of them here at 18F and we’d love many, many more. If you know someone that fits that bill, tell them to [apply] (http://www.peacecorps.gov/resources/returned/careercen/careerlink/jobs/7702/)!
+**2:00 p.m.**: I step away from the computer to hop on the phone again. I’ve scheduled a few 30-minute phone screens (in terms of the hiring process, this happens post resume review) with potential operations specialists and talent coordinators.  Most of these positions are filled via a special hiring authority granted to Returned Peace Corps/Americorps/Vista Volunteers. I am biased, but Peace Corps Volunteers are incredible humans. We’ve got a lot of them here at 18F and we’d love many, many more. If you know someone that fits that bill, tell them to [apply](http://www.peacecorps.gov/resources/returned/careercen/careerlink/jobs/7702/)!
 
 **3:30 p.m.**: After three phone calls, I am ready for my mid-afternoon break. I like to hula-hoop around the office. I’ve made it my mission to teach the rest of the office. Luckily, this is a receptive bunch – they are always down for some learnin’.
 

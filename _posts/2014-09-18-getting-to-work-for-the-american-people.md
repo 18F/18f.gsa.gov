@@ -93,9 +93,10 @@ For our first year, 18F projects focus on:
 Attracting great digital talent
 -------------------------------
 
-![18F's DC
-troop]({{ site.baseurl }}/assets/blog/getting-to-work/18fdc-pif.jpg)\
-*The DC team at GSA HQ*
+<figure>
+  <img src="{{ site.baseurl }}/assets/blog/getting-to-work/18fdc-pif.jpg" alt="18F's DC troop">
+  <figcaption>The DC team at GSA HQ</figcaption>
+</figure>
 
 Since launching in March 2014, we've grown from a small group of
 [Presidential Innovation Fellows](https://wh.gov/innovationfellows) into

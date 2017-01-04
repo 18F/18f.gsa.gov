@@ -15,6 +15,7 @@ description: "The cover story in this month’s Fast
 Company
 offers a great metaphor to better explain the relationship of 18F, the U.S. Digital Service headquarters, and the digital teams inside various agencies."
 image: /assets/blog/fast-company/jumpshot.jpg
+hero: false
 ---
 
 ![The U.S. Digital Service family]({{site.baseurl}}/assets/blog/fast-company/jumpshot.jpg)

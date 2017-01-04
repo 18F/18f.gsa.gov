@@ -17,8 +17,7 @@ debt is, how to manage it, and some ways to prevent accumulating it."
 image: /assets/blog/technical-debt/iceberg-noaa.jpg
 ---
 
-[![An iceberg]({{site.baseurl}}/assets/blog/technical-debt/iceberg-noaa.jpg)](https://www.flickr.com/photos/usoceangov/8290528771/)
-*Source:* [**National Oceanic and Atmospheric
+*Image source:* [**National Oceanic and Atmospheric
 Administration**](https://www.flickr.com/photos/usoceangov/8290528771/)
 
 Technical debt is a financial metaphor that software developers use to

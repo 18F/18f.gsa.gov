@@ -9,6 +9,7 @@ RSpec.describe Jekyll::Utility do
     @utility_class = UtilityClass.new
     @utility_class.extend(Jekyll::Utility)
   end
+
   describe '#clip_char' do
     context 'single parameter, string' do
       it 'removes dashes from the beginning of a string' do

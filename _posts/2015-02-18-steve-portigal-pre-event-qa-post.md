@@ -13,14 +13,10 @@ tags:
 authors:
 - brethauer
 
-
-
 description: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 a.m. ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
 
 excerpt: "Since October, 18F has been bringing in noted individuals from the software development world to discuss their work, and we’re excited to kick off a new, design-focused series this Friday, February 20 (10:30 a.m. ET) with Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights and host of the Dollars to Donuts podcast."
 ---
-
-![Steve Portigal, author of Interviewing Users: How to Uncover Compelling Insights]({{site.baseurl}}/assets/blog/speaker-series/portigal.jpg)
 
 Since October, 18F has been bringing in noted individuals from the
 software development world to discuss their work, and we’re excited to
@@ -42,9 +38,9 @@ aspects of user-centered design, including how to win over clients who
 are unfamiliar with the process and the importance of knowing your
 gatekeeper. Read on for the full conversation.
 
-\*\*\*
+-----
 
-> This interview has been edited and condensed.
+*This interview has been edited and condensed.*
 
 **Nick Brethauer**: The main themes I’d like to talk to you about today are around
 client engagement and education, which are big topics here at 18F. To
@@ -152,7 +148,7 @@ Never overlook the importance of a good gatekeeper.
 
 **NB**: Excellent advice — thank you again for chatting with 18F.
 
-\*\*\*
+-----
 
 Remember to check back next week for a recap of Steve’s talk and a link
 to a recording of the presentation. If you’re not able to attend the

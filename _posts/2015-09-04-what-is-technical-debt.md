@@ -11,6 +11,7 @@ tags:
 excerpt: "In part two of our series on technical debt, we define what technical debt is and how it can negatively impact your organization or project."
 description: "In part two of our series on technical debt, we define what technical debt is and how it can negatively impact your organization or project."
 image: /assets/blog/technical-debt/graphic-3.jpg
+hero: false
 ---
 
 Let's assume we’re developing a software product. When we make

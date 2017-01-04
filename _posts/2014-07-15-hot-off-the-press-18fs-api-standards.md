@@ -7,8 +7,8 @@ title: "Hot off the press: 18F's API standards"
 
 description: We recently released the first version of our <a href="https://github.com/18F/api-standards">API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future.
 excerpt: We recently released the first version of our <a href="https://github.com/18F/api-standards">API Standards</a> — a set of recommendations and guidelines for API production. It is our intention that every 18F API meet these standards, to help us ensure a baseline quality and consistency across all APIs we offer now and in the future.
-image: ""
 
+image: 
 authors:
 - alan
 - eric

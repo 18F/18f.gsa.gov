@@ -71,4 +71,4 @@ We’re building a team that looks like the United States, and we don't discrimi
 
 ## Learn more
 
-Visit our [website] (https://18f.gsa.gov/), follow us on [Twitter] (https://twitter.com/18f), or drop us a line at [Join18F@gsa.gov] (mailto:Join18F@gsa.gov)!
+Visit our [website](https://18f.gsa.gov/), follow us on [Twitter](https://twitter.com/18f), or drop us a line at [Join18F@gsa.gov](mailto:Join18F@gsa.gov)!

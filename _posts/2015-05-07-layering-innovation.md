@@ -10,11 +10,12 @@ tags:
 - cloud.gov
 - tools you can use
 
-
 excerpt: "At 18F, we're changing the way government thinks about software, all the way to provisioning and deployment. To do that, we implemented an open source platform as a service for our developers. Here’s a look at how we created it."
 description: "At 18F, we're changing the way government thinks about software, all the way to provisioning and deployment. To do that, we implemented an open source platform as a service for our developers. Here’s a look at how we created it."
 image: /assets/blog/layering-innovation/layer_cake.jpg
+hero: false
 ---
+
 [![Layer cake, by Flickr user
 Kirinohana]({{site.baseurl}}/assets/blog/layering-innovation/layer_cake.jpg)](https://www.flickr.com/photos/kiri_no_hana/9623594449/in/photolist-)
 
