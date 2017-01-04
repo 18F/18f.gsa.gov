@@ -8,10 +8,11 @@ tags:
 - security
 - pulse.cio.gov
 excerpt: "The White House HTTPS policy generated significant HTTPS adoption in the U.S. government. HTTPS is now used for most web requests to executive branch .gov websites, and the government now outpaces the private sector on HTTPS."
-image:
+image: /assets/blog/https-progress/white-house-https.png
+hero: false
 ---
 
-![WhiteHouse.gov using HTTPS.](/assets/blog/https-progress/white-house-https.png)
+![WhiteHouse.gov using HTTPS.]({{site.baseurl}}/assets/blog/https-progress/white-house-https.png)
 
 [HTTPS](https://https.cio.gov/faq/#what-does-https-do%3f) is a protocol to create secure and private connections to websites or services on the internet. You're using HTTPS to read this article, as indicated by the `https://` and lock icon in your browser's location bar above. Because we use HTTPS for our website, it's very difficult for anyone to modify or inspect the communication between your device and our servers. If we used plain HTTP, it would be very easy for an attacker to insert malware or tracking information into your browser. HTTPS is the [minimum baseline that users should expect](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) from any website they visit, government or otherwise.
 
