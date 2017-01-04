@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include feature-image.html %}
-<section class="usa-grid content-focus{% if page.include_subnav %} content-wide{% endif %}">
+<section class="usa-grid usa-section content-focus{% if page.include_subnav %} content-wide{% endif %}">
   <h1 class="usa-sr-only">{{ page.title }}</h1>
 
   {% if page.include_subnav %}
@@ -12,13 +12,13 @@ layout: default
     </aside>
     <section class="usa-width-two-thirds">
       {% if page.lead %}
-        <h3>{{ page.lead }}</h3>
+        <h3 class="page-lead">{{ page.lead }}</h3>
       {% endif %}
       {{ content }}
     </section>
   {% else %}
     {% if page.lead %}
-      <h3>{{ page.lead }}</h3>
+      <h3 class="page-lead">{{ page.lead }}</h3>
     {% endif %}
     {{ content }}
   {% endif %}

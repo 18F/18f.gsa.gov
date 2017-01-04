@@ -28,6 +28,18 @@
       @include margin($site-margins null);
     }
 
+    img.pquote-img,
+    .pquote img {
+      margin-bottom: $paragraph-margins;
+      margin-right: 0;
+      margin-top: 0;
+
+      @include media($medium-screen) {
+        margin-bottom: 0;
+        margin-right: $paragraph-margins;
+      }
+    }
+
     figure {
       @include margin($site-margins null);
       text-align: center; // center image if less than full width
@@ -41,6 +53,10 @@
       font-size: $h6-font-size;
       margin-top: 1rem;
       text-align: left;
+
+      &.align-center {
+        text-align: center;
+      }
     }
   }
 }

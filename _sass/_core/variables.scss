@@ -26,13 +26,17 @@ $color-bright-hover: #00A7CE;
 $color-medium-hover: #00547A;
 
 $color-gray-lightest: #f1f1f1; // Adding bc used in our $border-light in this file.
+$color-gray-hover   : #fafafa;
 
 // Spacing
 $section-margins:    5rem;
 $paragraph-margins:  1.5rem;
+$paragraph-margins-thick: 3rem;
 $nav-width-extra:    88px; // width needed to add so nav doesn't break on medium-screen size
 $text-max-width:     60.6rem;
 
 // Miscellaneous
-$border-accent:      1rem solid $color-bright;
-$border-light:       1px solid $color-gray-lightest;
+$border-accent-height: 1rem;
+$border-accent:        $border-accent-height solid $color-bright;
+$border-light:         1px solid $color-gray-lightest;
+$border-thick:       4px solid $color-gray-lightest;

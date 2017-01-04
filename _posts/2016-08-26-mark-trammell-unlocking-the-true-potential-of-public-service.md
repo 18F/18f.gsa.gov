@@ -13,7 +13,7 @@ image: /assets/img/team/mark-trammell.jpg
 hero: false
 ---
 
-<aside class="pquote">
+<aside class="pquote pquote-single">
 	<img class="pquote-img" src="{{site.baseurl }}/assets/img/team/mark-trammell.jpg" alt="Mark Trammell">
 	<blockquote>
 		<p>"When my time at 18F is done, I’m looking forward to taking with me the experience of what can be achieved by a team with extraordinary skills, diverse backgrounds, and a shared patriotism."</p>

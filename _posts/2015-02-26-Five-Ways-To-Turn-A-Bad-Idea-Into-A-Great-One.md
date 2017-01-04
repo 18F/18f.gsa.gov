@@ -17,8 +17,6 @@ excerpt: "In February, consultant and author Steve Portigal left behind the Cali
 description: "In February, consultant and author Steve Portigal left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out."
 ---
 
-![Steve Portigal presenting at 18F]({{site.baseurl}}/assets/blog/portigal-event-image/portigalevent.jpg)
-
 Last Friday, consultant and author [Steve Portigal](http://www.portigal.com/) left behind the California sunshine to speak at the 18F headquarters. Steve — principal at Portigal Consulting, author, podcaster, and ramen aficionado — expounded on the topic of bad ideas: Namely, how they add value to the creative process and why we should seek them out.
 
 We encourage you to watch the [entirety of Steve’s presentation](https://www.youtube.com/watch?v=B0qK94cCnQs#t=430) (including the Q&A), and you can [view his Slideshare here](http://www.slideshare.net/steveportigal/the-power-of-bad-ideas). Of course, we also encourage you to read his book [*Interviewing Users: How To Uncover Compelling Insights*](http://rosenfeldmedia.com/books/interviewing-users/), and check out his podcast ([Dollars to Donuts podcast](https://itunes.apple.com/us/podcast/dollars-to-donuts/id956673263)), too. For a quick recap of Friday’s event, read on.
@@ -37,13 +35,13 @@ As Steve himself describes in a post he wrote for [Core77](http://www.core77.com
 
 ## A safe space is necessary for top-notch brainstorming
 
-True creativity doesn’t happen — can’t happen — when people don’t have a safe space to express themselves. It’s OK to laugh at ideas, but it’s not OK to laugh at people, which can cause folks to become self-conscious and engage in self-censorship. Shutting people down decreases their probability of participating in a brainstorm, [effectively closing off a channel of potential ideas] (https://twitter.com/KellyVicChan/status/568816024100990976
+True creativity doesn’t happen — can’t happen — when people don’t have a safe space to express themselves. It’s OK to laugh at ideas, but it’s not OK to laugh at people, which can cause folks to become self-conscious and engage in self-censorship. Shutting people down decreases their probability of participating in a brainstorm, [effectively closing off a channel of potential ideas](https://twitter.com/KellyVicChan/status/568816024100990976
 ).
 
 
 ## Even the greats throw out stinkbomb ideas
 
-In fact, lots of famous creatives rely on bad ideas to get them to their great ones. If you haven’t read the [transcripts of Steven Spielberg and George Lucas spitballing](http://maddogmovies.com/almost/scripts/raidersstoryconference1978.pdf) the story that would become Raiders of the Lost Ark, do: It’s fascinating. And it will help you realize, as Lucas says, sometimes you need only go [“one sentence further and it’s a great idea.”] (https://twitter.com/jcoronado1/status/568805051319369728
+In fact, lots of famous creatives rely on bad ideas to get them to their great ones. If you haven’t read the [transcripts of Steven Spielberg and George Lucas spitballing](http://maddogmovies.com/almost/scripts/raidersstoryconference1978.pdf) the story that would become Raiders of the Lost Ark, do: It’s fascinating. And it will help you realize, as Lucas says, sometimes you need only go [“one sentence further and it’s a great idea.”](https://twitter.com/jcoronado1/status/568805051319369728
 )
 
 ## Bad is judged by the marketplace

@@ -7,7 +7,7 @@ title: "Working in public from day one"
 
 description: "Open source your code from day one. Don't wait for a milestone, don't wait for it to be stable — do it from the first commit."
 excerpt: "Open source your code from day one. Don't wait for a milestone, don't wait for it to be stable — do it from the first commit."
-image: ""
+image: 
 authors:
 - eric
 

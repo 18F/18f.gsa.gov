@@ -3,6 +3,7 @@ require 'rb-readline'
 
 module Jekyll
   module Utility
+
     def clip_char(str, char = '-')
       str = str.to_s
       str = if str[0] == char
@@ -17,14 +18,12 @@ module Jekyll
       end
     end
 
-    def hash_link(text)
-      "##{text}"
-    end
-
-    def dasherize(text)
-      text = text.to_s
-      text = text.downcase.gsub(/[^a-z\0-9\s]/, '').gsub(/\W+/, '-')
-      clip_char(text)
+    def hash_link(str)
+      if str[0] == '#'
+        str.to_s
+      else
+        "##{str}"
+      end
     end
 
     def matches_url(page_url, url)

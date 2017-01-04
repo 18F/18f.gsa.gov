@@ -2,22 +2,18 @@
 layout: post
 tumblr_url: http://18fblog.tumblr.com/post/81293178801/announcing-fbopen-government-opportunities-made-easier
 date: '2014-03-31T11:02:00-04:00'
-
 title: "Announcing FBOpen: Government opportunities made easier"
-
 description: "Today we're announcing our first product launch: FBOpen, a set of open-source tools to help small businesses search for opportunities to work with the U.S. government."
 excerpt: "Today we're announcing our first product launch: FBOpen, a set of open-source tools to help small businesses search for opportunities to work with the U.S. government."
-image: ""
+image: 
 authors:
 - alison
-
 tags:
 - api
 - procurement
 - fbopen
 - marketplaces
 - acquisition services
-
 ---
 
 Today we're announcing our first product launch:

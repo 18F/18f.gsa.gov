@@ -9,4 +9,4 @@ Changes proposed in this pull request:
 -
 -
 
-/cc relevant people
+/cc @relevant-people

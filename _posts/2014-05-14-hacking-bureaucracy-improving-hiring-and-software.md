@@ -10,7 +10,7 @@ excerpt: <p>When asked what it is we do, one quick answer is, "we’re hacking b
 
 <p>In the movies, hackers are often dangerous criminals who break into large systems, but in the software development community, "hacker" describes the way someone thinks and works rather than a malicious activity — hackers are problem solvers. We consider ourselves hackers in that positive sense: productively disruptive and curious. See <a href="https://www.schneier.com/blog/archives/2006/09/what_is_a_hacke.html">"What is a Hacker?"</a> by Bruce Schneier for a wonderful definition.</p>
 
-image: ""
+image: 
 
 authors:
 - greg

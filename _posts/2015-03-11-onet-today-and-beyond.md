@@ -16,7 +16,7 @@ excerpt: "The de facto source of skills information, both inside and outside the
 hero: false
 ---
 *Note: The opinions expressed within this post represent only the views
-of the author and not any person or organization*
+of the author and not any person or organization.*
 
 As a Presidential Innovation Fellow, I’ve had the pleasure of working
 with some of the most brilliant, forward-thinking minds in the
@@ -27,9 +27,9 @@ lead to a thriving and solid economic base.
 
 It’s one thing to make this realization; translating this realization
 into action is quite another. The problem of understanding the skills
-space and iterating on it to produce the system that its users ‚—i.e.
+space and iterating on it to produce the system that its users — i.e.
 job seekers, employers, colleges, workforce investment boards, etc.
-—need is a very important one. Related, it’s one that will require the
+— need is a very important one. Related, it’s one that will require the
 participation of many more people.
 
 Before we delve too deeply into this issue, let’s cover a few basics.

@@ -1,0 +1,14 @@
+{% assign card_link = include.link | prepend: site.baseurl %}
+
+<article class="card usa-width-one-half">
+  <a class="card-link" href="{{ card_link }}">
+    <img class="card-image" src="{{ include.image_src | prepend: site.baseurl }}"
+           alt="{{ include.image_alt }}" />
+    <div class="card-banner">
+      <h3>{{ include.title }}</h3>
+      <p class="card-description">{{ include.description }}</p>
+      <span class="link-arrow-right">Learn more</span>
+    </div>
+  </a>
+</article>
+

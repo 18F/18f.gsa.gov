@@ -5,7 +5,7 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="usa-grid content-focus page-tag-results">
+<section class="usa-grid usa-section content-focus page-tag-results">
 
   {% if page.image %}
     <section class="hero"
@@ -29,7 +29,7 @@ header_border: true
   </section>
 
   <section class="usa-section">
-    <h3>Our blog posts about this work</h3>
+    <h2>Our blog posts about this work</h2>
 
     {%
       include tag-results.html

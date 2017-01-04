@@ -7,7 +7,8 @@ tags:
 - best practices
 - culture change
 - distributed
-excerpt: "Meetings are great ways to waste time. This blog post digs into how to avoid that outcome and make meeting time productive and useful (which sometimes means cancelling a meeting that doesn’t need to happen). We cover time management, room management, presentation style, note taking, preparation, next step management, and more."
+excerpt: "Many people spend a significant percentage
+of working time in meetings. This blog post digs into how to make that time productive and useful (which sometimes means cancelling a meeting that doesn’t need to happen). We cover time management, room management, presentation style, note taking, preparation, next step management, and more."
 image: /assets/blog/meeting-facilitation/the-meeting.jpg
 ---
 *Recently, some of our colleagues asked Will to share some tips on
@@ -99,18 +100,19 @@ agenda and notes. Do what makes sense and stay consistent.
 Here’s an example meeting invite to show how easy it can be to include
 everything needed:
 
->Meeting title: Federalist Sprint Planning
->
->Location: \<Video Call Link / Backup Teleconference Line\>
->
->Invite text:
->
-> -   Let’s do sprint planning as usual!
-> -   Will Slack leads and takes notes (notes location: \<link\>)
->
->-   Agenda:
->    -   First half: recap top priorities and gather feedback.
->    -   Second half: scope work efforts for sprint for each team member
+> Meeting title: Federalist Sprint Planning  
+> 
+> Location: \<Video Call Link / Backup Teleconference Line\>
+> 
+> Invite text:
+> 
+> - Let’s do sprint planning as usual!
+> - Will Slack leads and takes notes (notes location: \<link\>)
+> 
+> Agenda:
+> 
+> - First half: recap top priorities and gather feedback.
+> - Second half: scope work efforts for sprint for each team member
 
 ## Holding the meeting
 

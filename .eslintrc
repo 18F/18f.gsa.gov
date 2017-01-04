@@ -4,16 +4,16 @@ env:
 extends: eslint:recommended
 
 rules:
-  brace-style: [warn, 1tbs]
-  curly: [warn, multi-line]
-  eqeqeq: warn
-  func-call-spacing: warn
-  linebreak-style: [warn, unix]
-  max-len: [warn, {code: 80}]
-  new-parens: warn
-  no-undef-init: warn
-  no-unused-expressions: warn
-  no-whitespace-before-property: warn
-  space-before-blocks: warn
-  space-before-function-paren: [warn, never]
-  spaced-comment: warn
+  brace-style: [1, "1tbs"]
+  curly: [1, "multi-line"]
+  eqeqeq: 1
+  func-call-spacing: 1
+  linebreak-style: [1, "unix"]
+  max-len: [1, 80]
+  new-parens: 1
+  no-undef-init: 1
+  no-unused-expressions: 1
+  no-whitespace-before-property: 1
+  space-before-blocks: 1
+  space-before-function-paren: [1, "never"]
+  spaced-comment: 1

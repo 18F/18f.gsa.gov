@@ -42,7 +42,8 @@ release of the [FBOpen API](http://docs.fbopen.apiary.io), which is a
 simple API resource to get access to opportunities to do business with
 the U.S. federal government.
 
-**Use existing tools**\
+**Use existing tools**
+
 18F demonstrates their tech chops by not re-inventing the wheel when it
 comes to designing and developing the FBOpen API. After they downloaded
 the existing business opportunity XML dumps from
@@ -55,8 +56,9 @@ API. Beyond Solr, 18F also used [Apiary](https://apiary.io) and
 [Github](https://github.com), to cobble together a platform for API
 operations, demonstrating their dedication to agility and speed.
 
-**Simplicity rules**\
- The FBOpen API interface adheres to API simplicity by providing
+**Simplicity rules**
+
+The FBOpen API interface adheres to API simplicity by providing
 logical, versioned URI for accessing the government business
 opportunities, with a query and data source parameter allowing you to
 tailor the source of your query. Then you can filter by noncompetes or
@@ -65,8 +67,9 @@ returned, including common pagination controls developers are used to
 when working with APIs. FBOpen API does one thing, and does it well –
 the calling card of successful APIs.
 
-**Modern design lifecycle**\
- Again, demonstrating their grasp of modern technology, 18F employs
+**Modern design lifecycle**
+
+Again, demonstrating their grasp of modern technology, 18F employs
 Apiary to model and design the FBOpen API interface – using [API
 Blueprint](https://apiblueprint.org) allowed them to define the API
 interface in markdown, then deploy a mock interface, interactive API
@@ -76,8 +79,9 @@ machine readable definition of the API, but delivers the documentation
 and code necessary to onboard any developer in minutes—increasing the
 chances the API will be integrated with.
 
-**Open By Default**\
- The FBOpen API sets the bar for all government APIs, by making sure not
+**Open By Default**
+
+The FBOpen API sets the bar for all government APIs, by making sure not
 just the API is public and accessible, but so is the API design, source
 code and underlying tooling—allowing anyone to deploy an instance of the
 FBOpen API. Since FBOpen is built on Solr, publicly available XML data
@@ -85,8 +89,9 @@ source, and published on GitHub, anyone can download or fork, and deploy
 their own instance of the FBOpen API. This is the definition of an open
 API.
 
-**Central key management with api.data.gov**\
- Before you can make calls on the central FBOpen API instance, you must
+**Central key management with api.data.gov**
+
+Before you can make calls on the central FBOpen API instance, you must
 obtain an API key from [api.data.gov](https://api.data.gov). This should
 be standard business operations for ALL federal government APIs.
 Developers shouldn't have to manage separate accounts with each agency,
@@ -97,8 +102,9 @@ an open source API management solution developed by National Renewable
 Energy Laboratory (NREL), and is employed by the GSA in the common API
 infrastructure available to all agencies.
 
-**Read / write APIs in government (kindasorta)**\
- I started to cry when I saw that there was not just a GET method for
+**Read / write APIs in government (kindasorta)**
+
+I started to cry when I saw that there was not just a GET method for
 FBOpen, but here was a POST method, allowing for users to add or update
 opportunities via the API—then I saw it was disabled, and the tears
 dried up. The option is only available if you deploy your own instance
@@ -115,6 +121,4 @@ government, APIs lie FBOpen can share the load of managing data with
 private sector, without the risk that comes with doing it all
 internally.
 
-*Cross-posted from [API
-Evangelist](https://apievangelist.com/2014/04/08/18f-shows-what-is-possible-in-government-with-fbopen-api/)*
-by former Presidential Innovation Fellow Kin Lane.
+*Cross-posted from [API Evangelist](https://apievangelist.com/2014/04/08/18f-shows-what-is-possible-in-government-with-fbopen-api/) by former Presidential Innovation Fellow Kin Lane.*

@@ -7,7 +7,7 @@ title: "Creating an open FEC"
 
 excerpt: "A few weeks ago, FEC and 18F started to explore how campaign finance information can be better presented to the public. Over the past few weeks, we’ve begun learning all we can about the FEC, the process by which it collects and shares data, and how individuals outside of FEC use that data on a regular basis to gain insights into the workings of our democracy."
 
-image: ""
+image: 
 
 authors:
 - majma

@@ -16,6 +16,7 @@ description: "On a recent breezy San Francisco evening, groups of developers,
 designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
 excerpt: "On a recent breezy San Francisco evening, groups of developers,
 designers, marketing folks, and others convened for GovTechHack — a hackathon for civic good. The event’s premise was simple: To bring together people interested in improving the accessibility and transparency of federal digital resources for a two-day work session."
+hero: false
 ---
 <img alt="Hackathon prizes" src="/assets/blog/govtechhack/IMG_4015.JPG" class="align-left" />
 

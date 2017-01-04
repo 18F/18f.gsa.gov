@@ -26,8 +26,6 @@ products."
 image: /assets/blog/design-method-cards/method-cards-banner.jpg
 ---
 
-[![A sampling of the 18F Design Method cards]({{site.baseurl}}/assets/blog/design-method-cards/method-cards-banner.jpg)](https://methods.18f.gov/)
-
 We’re thrilled to introduce the beta deck of [18F Design
 Methods](https://methods.18f.gov/), a collection of research and design
 practices that we use to better understand and serve the users of our

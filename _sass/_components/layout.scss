@@ -32,6 +32,10 @@
 
 .usa-section {
   @include padding($section-margins null);
+
+  .page-lead {
+    margin-top: 0;
+  }
 }
 
 .background-dark {
@@ -65,21 +69,6 @@
 
     &:hover {
       color: $color-bright-hover;
-    }
-  }
-
-  .usa-button,
-  .usa-button-primary,
-  .usa-button:visited,
-  .usa-button-primary:visited,
-  button,
-  [type="button"],
-  [type="submit"],
-  [type="reset"] {
-    background-color: $color-bright;
-
-    &:hover {
-      background-color: $color-bright-hover;
     }
   }
 
@@ -153,7 +142,7 @@
 }
 
 .content-focus {
-  @include margin($section-margins auto);
+  @include margin(0 auto);
   max-width: 64.063rem; // 8 column width at full screen
 }
 

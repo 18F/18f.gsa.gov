@@ -37,9 +37,6 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
-  cards:
-    output: true
-    permalink: /card/:name/
   press:
     output: true
     permalink: /press/:name/
@@ -49,6 +46,9 @@ collections:
   hire:
     output: false
     permalink: /hire/:path/
+  styleguide:
+    output: true
+    permalink: /styleguide/:path/
 
 defaults:
  -
@@ -68,16 +68,18 @@ defaults:
     layout: default-profile
  -
   scope:
-    path: "_cards"
-  values:
-    layout: default
- -
-  scope:
     path: "_hire"
   values:
     layout: default-image
     # include_subnav: true
     subnav_anchor: /hire/
+
+ -
+  scope:
+    path: "_styleguide"
+  values:
+    layout: styleguide
+    include_subnav: true
 
 frontmatter_tests:
   path: "tests/schema"
@@ -91,11 +93,8 @@ footer:
   text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
 
 # Build settings
-markdown: RedcarpetExt
+markdown: kramdown
 highlighter: rouge
-redcarpet:
-  syntax_highlighter: rouge
-  extensions: ["tables", "quote", "fenced_code_blocks"]
 
 include:
   - _navigation.json
@@ -117,6 +116,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:

@@ -1,5 +1,5 @@
 ---
-title: " A sestina on sunsetting content"
+title: "A sestina on sunsetting content"
 date: 2016-05-23
 authors:
 - emileigh
