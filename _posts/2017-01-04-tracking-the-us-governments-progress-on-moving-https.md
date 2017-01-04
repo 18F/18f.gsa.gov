@@ -8,7 +8,7 @@ tags:
 - security
 - pulse.cio.gov
 excerpt: "The White House HTTPS policy generated significant HTTPS adoption in the U.S. government. HTTPS is now used for most web requests to executive branch .gov websites, and the government now outpaces the private sector on HTTPS."
-image: /assets/blog/https-progress/white-house-https.png
+image:
 ---
 
 ![WhiteHouse.gov using HTTPS.](/assets/blog/https-progress/white-house-https.png)
