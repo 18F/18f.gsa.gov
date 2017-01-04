@@ -11,6 +11,8 @@ excerpt: "The White House HTTPS policy generated significant HTTPS adoption in t
 image: /assets/blog/https-progress/white-house-https.png
 ---
 
+![WhiteHouse.gov using HTTPS.](/assets/blog/https-progress/white-house-https.png)
+
 [HTTPS](https://https.cio.gov/faq/#what-does-https-do%3f) is a protocol to create secure and private connections to websites or services on the internet. You're using HTTPS to read this article, as indicated by the `https://` and lock icon in your browser's location bar above. Because we use HTTPS for our website, it's very difficult for anyone to modify or inspect the communication between your device and our servers. If we used plain HTTP, it would be very easy for an attacker to insert malware or tracking information into your browser. HTTPS is the [minimum baseline that users should expect](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) from any website they visit, government or otherwise.
 
 Recognizing this, in June 2015, the White House released [M-15-13](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf), a "Policy to Require Secure Connections across Federal Websites and Web Services". This policy requires all federal web servers to [support and enforce HTTPS connections over the public internet](https://https.cio.gov/#guidelines).
