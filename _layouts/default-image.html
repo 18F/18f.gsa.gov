@@ -12,13 +12,13 @@ layout: default
     </aside>
     <section class="usa-width-two-thirds">
       {% if page.lead %}
-        <h3>{{ page.lead }}</h3>
+        <h3 class="page-lead">{{ page.lead }}</h3>
       {% endif %}
       {{ content }}
     </section>
   {% else %}
     {% if page.lead %}
-      <h3>{{ page.lead }}</h3>
+      <h3 class="page-lead">{{ page.lead }}</h3>
     {% endif %}
     {{ content }}
   {% endif %}
