@@ -95,7 +95,7 @@ module Jekyll
       if data[input]          # if there's an entry for input, return the value
         data[input][key]
       else                    # if not, exit with a "no such author error"
-        puts "L 97 author.rb: No such author: #{input} in #{@page_path}"
+        puts "author.rb#lookup: No such author: #{input} in #{@page_path}".red
         False
       end
     end
@@ -143,7 +143,7 @@ module Jekyll
         if full_name
           full_name
         else
-          puts "L 143 author.rb: No such author: #{input} in #{@page_path}"
+          puts "author.rb#team_link: No such author: #{input} in #{@page_path}".red
         end
       else
         name = authors[index].data['name'].downcase

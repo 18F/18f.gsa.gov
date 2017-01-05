@@ -1,0 +1,97 @@
+text: Join 18F
+href: pages/join.md
+permalink: /join/
+collections: ['join']
+in_menu: true
+in_drawer: true
+in_footer: true
+children:
+    -
+        text: 'So you want to join 18F?'
+        permalink: /join/so-you-want-to-join-18f/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: false
+    -
+        text: 'Who we are hiring'
+        permalink: /join/hiring/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: false
+    -
+        text: 'Who we are hiring'
+        permalink: /join/hiring/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: false
+    -
+        text: 'How to apply'
+        permalink: /join/how-to-apply/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: false
+    -
+        text: 'Interview process'
+        permalink: /join/interview-process/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: false
+        children:
+            -
+                text: 'Child 1'
+                permalink: /join/interview-process/child-1/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'Child 2'
+                permalink: /join/interview-process/child-2/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+            -
+                text: 'Child 2'
+                permalink: /join/interview-process/child-2/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: false
+    -
+        text: Benefits
+        permalink: /join/benefits/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: true
+    -
+        text: 'Government pay grades explained'
+        permalink: /join/government-pay-grades-explained/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: true
+    -
+        text: 'Leave policies'
+        permalink: /join/leave-policies/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        in_subnav: true

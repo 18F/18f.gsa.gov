@@ -1,0 +1,24 @@
+project:
+  text: Projects
+  permalink: /project/
+  collections: ['projects']
+  in_menu: false
+  in_drawer: false
+  in_footer: false
+  children:
+project_with_children:
+  text: Projects
+  permalink: /project/
+  collections: ['projects']
+  in_menu: false
+  in_drawer: false
+  in_footer: false
+  children:
+    - text: fec-gov
+      permalink: /project/fec-gov
+      permalink_alt: /project/
+      collections: ['projects']
+      in_menu: false
+      in_drawer: false
+      in_footer: false
+      children:
