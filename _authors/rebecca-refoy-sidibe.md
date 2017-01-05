@@ -5,4 +5,7 @@ last_name: Refoy-Sidibe
 full_name: Rebecca Refoy-Sidibe
 city: Washington
 state: D.C.
+team: Acquisitions
+role: Product manager
+published: true
 ---
