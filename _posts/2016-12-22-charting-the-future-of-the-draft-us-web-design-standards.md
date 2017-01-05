@@ -45,6 +45,6 @@ To do this, we need partners with interesting government challenges to help us b
 - Building custom components for your agency that might benefit other agencies (such as more complex input forms, maps, data visualizations and data structures, email templates, etc.)
 - Have feedback or ideas on how we can improve the Draft Standards
 
-If you’d like to talk to the team or explore a partnership, please contact us at [uswebdesignstandards@gsa.gov](uswebdesignstandards@gsa.gov)
+If you’d like to talk to the team or explore a partnership, please contact us at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov)
 
 We’re from the government, and we’re here to help. 
