@@ -1,6 +1,5 @@
 ---
 layout: project-tag-results
-project-type: "Project"
 agency: "Department of Education"
 title: "College Scorecard"
 subtitle: Turning data into informed choices

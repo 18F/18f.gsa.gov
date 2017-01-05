@@ -1,8 +1,7 @@
 ---
 layout: project-tag-results
-project-type: "Partner"
 agency: "Federal Election Commission"
-title: "Federal Election Commission"
+title: "beta.fec.gov"
 subtitle: Making campaign data easier to use
 excerpt: We helped the FEC make it easier for journalists and members of the public to use their data.
 image: /assets/img/home/hero-fec.png
