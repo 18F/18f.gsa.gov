@@ -19,7 +19,7 @@
     display: inline-block;
     margin-top: $section-margins;
     padding-bottom: $section-margins;
-    margin-bottom: 1em;
+    margin-bottom: $paragraph-margins;
 
     &:first-child {
       margin-top: 0;
