@@ -53,7 +53,7 @@ plan to:
 
 To turn this vision into a prototype, we turned to the vendors on the
 [Agile
-BPA](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/),which would allow us to see results quickly while also introducing WHD
+BPA](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/), which would allow us to see results quickly while also introducing WHD
 to modular contracting and agile
 development. The first hurdle to adopting modular contracting was working with the WHD team to design a plan that would give the vendor only 60 days to
 complete the work, with no options to extend. This is much shorter than
