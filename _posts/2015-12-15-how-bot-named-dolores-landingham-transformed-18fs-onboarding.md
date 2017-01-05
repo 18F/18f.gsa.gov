@@ -216,7 +216,7 @@ end
 
 Once we had our class that found the correct message to send to each employee, we needed a way to automatically run the task once per day. We chose [Clockwork](https://github.com/tomykaira/clockwork) for the job:
 
- ```ruby
+```ruby
 # Gemfile
 
 gem "clockwork"
@@ -254,6 +254,7 @@ env:
 DEFAULT_URL_HOST: dolores-app.18f.gov
 RESTRICT_ACCESS: true
 ```
+
 and set up `script/start` to run foreman:
 
 ```sh

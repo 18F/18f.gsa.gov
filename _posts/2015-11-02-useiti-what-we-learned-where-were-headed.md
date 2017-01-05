@@ -10,6 +10,7 @@ tags:
 description: During Sunshine Week, we wrote about our progress on the U.S. Extractive Industries Transparency Initiative (USEITI). Since then, the 18F team has worked with the USEITI team to process research on the current state of the project as well as the next steps for the U.S. as a candidate country for the global initiative.
 excerpt: During Sunshine Week, we wrote about our progress on the Extractive Industries Transparency Initiative, or EITI, an international coalition organized here by the U.S. Department of the Interior and a multi-stakeholder group that includes representatives from nonprofits, academia, industry and local governments. Since March, the 18F team has worked with the USEITI team to process research on the current state of the project as well as the next steps for the U.S. as a candidate country for the global initiative.
 image: /assets/blog/eiti/drill.jpg
+hero: false
 ---
 ![An oil rig on public land. Courtesy of the Department of Energy]({{site.baseurl}}/assets/blog/eiti/drill.jpg)
 
