@@ -16,6 +16,7 @@ description: "Our coworkers are very, very good at documenting the things they l
 in Slack, our chat program, because it’s part of their daily workflow. So I tried an experiment: I asked my 18F coworkers to tag messages that every new 18F employee should know with the
 :evergreen_tree: emoji."
 image: /assets/blog/onboarding/evergreen-tree.png
+hero: false
 ---
 
 In the process of [rethinking
