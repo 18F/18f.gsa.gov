@@ -26,8 +26,13 @@ module Jekyll
       end
     end
 
+    def matches_url(page_url, url)
+      page_url = clip_char(page_url.to_s.downcase, '/')
+      url = clip_char(url.to_s.downcase, '/')
+      page_url == url || nil
+    end
+
     def matches_collections(page, nav_item)
-      binding.pry
       returned_page = nil
       collections = nav_item['collections'] || nil
       if collections
@@ -38,14 +43,15 @@ module Jekyll
       returned_page
     end
 
-    def matches_url(page_url, url)
-      page_url = clip_char(page_url.to_s.downcase, '/')
-      url = clip_char(url.to_s.downcase, '/')
-      page_url == url || nil
+    def matches_permalink_alt(page_url, item)
+      url_alt = item['permalink_alt']
+      url_alt = clip_char(url_alt.to_s.downcase, '/')
+      page_url[0...url_alt.length] == url_alt || nil
     end
 
     def matches_url_parent(page, item)
       is_match = matches_collections(page, item)
+
       if !is_match
         url = item['permalink']
         page_url = page['url']
@@ -60,12 +66,6 @@ module Jekyll
       else
         is_match
       end
-    end
-
-    def matches_permalink_alt(page_url, item)
-      url_alt = item['permalink_alt']
-      url_alt = clip_char(url_alt.to_s.downcase, '/')
-      page_url[0...url_alt.length] == url_alt || nil
     end
 
     def crawl_pages(item, page_url, _debug)

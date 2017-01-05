@@ -10,17 +10,38 @@ RSpec.describe Jekyll::Utility do
     @utility_class.extend(Jekyll::Utility)
 
     @nav_item = {
-      "text": "What we deliver",
-      "href": "pages/what-we-deliver.md",
-      "permalink": "/what-we-deliver/",
-      "in_menu": true,
-      "in_drawer": true,
-      "in_footer": true,
-      "children": nil
+      "text" => "Blog",
+      "href" => "blog/index.html",
+      "permalink" => "/blog/",
+      "permalink_alt" => "/blog/",
+      "in_menu" => true,
+      "in_drawer" => true,
+      "in_footer" => true,
+      "children" => nil
     }
-    @baseurl = Jekyll.sites[0].config['baseurl']
-    @collections = Jekyll.sites[0].collections
-    @posts = @collections['posts']
+
+    @project_nav_item = {
+      "text" => "Project",
+      "href" => "project/fec-gov/index.html",
+      "permalink" => "/project/fec-gov/",
+      "permalink_alt" => "/project/",
+      "in_menu" => true,
+      "in_drawer" => true,
+      "in_footer" => true,
+      "children" => nil
+    }
+    # binding.pry
+    @nav_item_with_collection = @nav_item.dup
+    @nav_item_with_multiple_collections = @nav_item.dup
+    @nav_item_with_collection['collections'] = []
+    @nav_item_with_multiple_collections['collections'] = []
+    @nav_item_with_collection['collections'] << 'posts'
+    @nav_item_with_multiple_collections['collections'] << 'posts'
+
+    @first_post = YAML.load(File.read(File.join(Dir.pwd, 'spec/_posts/page.rb')))
+    @project_page = YAML.load(File.read(File.join(Dir.pwd, 'spec/_posts/project_page.rb')))
+    @post_url = @first_post['url']
+    @post_url = @utility_class.clip_char(@post_url.to_s.downcase, '/')
   end
   describe '#clip_char' do
     context 'single parameter, string' do
@@ -87,14 +108,54 @@ RSpec.describe Jekyll::Utility do
   end
 
   describe '#matches_collections' do
-    it 'strips forward slashes' do
+    it 'returns nil if the nav_item does not have an associated collection' do
+      actual = @utility_class.matches_collections(@first_post, @nav_item)
+      expect(actual).to be_nil
+    end
 
-      first_post = @posts.docs[0]
-      f_p = @posts[0]
-      binding.pry
-      expect(@utility_class.matches_url('/text/', 'text')).to be true
-      expect(@utility_class.matches_url('/text', 'text')).to be true
-      expect(@utility_class.matches_url('text/', 'text')).to be true
+    it 'returns true if the nav_item does not have an associated collection' do
+      actual = @utility_class.matches_collections(@first_post, @nav_item_with_collection)
+      expect(actual).to be true
+    end
+
+    it 'returns true if the nav_item does not have an associated collection' do
+      actual = @utility_class.matches_collections(@first_post, @nav_item_with_multiple_collections)
+      expect(actual).to be true
+    end
+  end
+
+  describe '#matches_permalink_alt' do
+    it 'returns true if the url matches the nav item' do
+      actual = @utility_class.matches_permalink_alt('blog', @nav_item)
+      expect(actual).to be true
+    end
+
+    it 'does not match if the url does not match the nav item' do
+      actual = @utility_class.matches_permalink_alt(@post_url, @nav_item)
+      expect(actual).to be_nil
+    end
+
+    it "matches a nav_item 'permalink_alt' with a post's 'url'" do
+      actual = @utility_class.matches_permalink_alt('/something-else/', @nav_item)
+      expect(actual).to be_nil
+    end
+  end
+
+  describe '#matches_url_parent' do
+    it 'checks if the post matches the nav item' do
+      actual = @utility_class.matches_url_parent(@first_post, @nav_item)
+      expect(actual).to be_nil
+
+      actual = @utility_class.matches_url_parent(@project_page, @project_nav_item)
+      expect(actual).to be true
+    end
+
+    it 'checks if the post matches the nav item with a collection attribtue' do
+      actual = @utility_class.matches_url_parent(@first_post, @nav_item_with_collection)
+      expect(actual).to be true
+
+      actual = @utility_class.matches_url_parent(@project_page, @project_nav_item)
+      expect(actual).to be true
     end
   end
 end
