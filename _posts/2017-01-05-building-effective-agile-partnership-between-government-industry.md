@@ -20,8 +20,8 @@ WHD has been with 18F at the forefront of digital transformation and has
 been an outstanding early adopter. One of our latest initiatives has
 been an [Agile Delivery Services Blanket Purchase
 Agreement](https://pages.18f.gov/ads-bpa/) (Agile BPA) Task Order to
-create the initial version of a web application tool for the Section
-14(c) certificate application process.
+create [the initial version of a web application tool for the Section
+14(c) certificate application process](https://dol-whd-section14c-stg.azurewebsites.net/#/).
 
 ## What is the Section 14(c) program?
 
