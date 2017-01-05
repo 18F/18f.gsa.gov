@@ -2,12 +2,24 @@ require 'yaml'
 
 module SiteData
   class AuthorData
-    attr_reader :path, :basepath
+    attr_reader :path, :basepath, :penned_authors, :site_post_paths, :all_authors, :excluded_authors
 
     def initialize(test_path = nil)
       @test_path = test_path
       @basepath = @test_path ? @test_path : Dir.pwd
       @path = File.join(@basepath, '_authors')
+
+      @site_post_paths = Dir.entries(File.join(Dir.pwd, '_posts')).select do |f|
+        !File.directory? f and f != '.DS_Store'
+      end
+
+      @all_authors = Dir.entries(File.join(Dir.pwd, '_authors')).select do |f|
+        !File.directory? f and f != '.DS_Store'
+      end.flatten.uniq
+
+      @penned_authors = find_penned_authors
+
+      @excluded_authors = all_authors - penned_authors
     end
 
     def update(author_file, key, value)
@@ -61,6 +73,18 @@ module SiteData
 
     def frontmatter_regex
       /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
+    end
+
+    def find_penned_authors
+      penned_authors = []
+      @site_post_paths.each do |post_path|
+        frontmatter = YAML.load_file(File.join(Dir.pwd, '_posts/', post_path))
+        if frontmatter['output'] != false && frontmatter['published'] != false
+          authors = frontmatter['authors'].map { |a| "#{a}.md" }
+          penned_authors << authors
+        end
+      end
+      penned_authors.flatten.uniq
     end
   end
 end

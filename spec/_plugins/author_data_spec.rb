@@ -6,6 +6,9 @@ RSpec.describe SiteData::AuthorData do
   before(:each) do
     root = File.dirname(File.dirname(__FILE__))
     @author_data = SiteData::AuthorData.new(root)
+    @penned_authors = @author_data.penned_authors
+    @excluded_authors = @author_data.excluded_authors
+    @all_authors = @author_data.all_authors
   end
 
   context 'given a file with only YAML frontmatter' do
@@ -164,6 +167,55 @@ RSpec.describe SiteData::AuthorData do
       @author_data.update('author_with_content.md', 'name', 'burt')
       author_name = @author_data.fetch('author_with_content', 'name')
       expect(author_name).to eq 'burt'
+    end
+  end
+
+  describe 'class variables' do
+    it "generates a list of 'penned_authors'" do
+      expect(@penned_authors).to be_kind_of(Array)
+      expect(@penned_authors).not_to be_empty
+      expect(@penned_authors.size).to be > 0
+    end
+
+    it "generates a list of 'excluded_authors'" do
+      expect(@excluded_authors).to be_kind_of(Array)
+      expect(@excluded_authors).not_to be_empty
+      expect(@excluded_authors.size).to be > 0
+    end
+
+    it "'all_authors' should be the sum of 'excluded_authors' and 'penned_authors'" do
+      all_authors_size = @excluded_authors.size + @penned_authors.size
+      expect(@all_authors.size).to eq all_authors_size
+    end
+
+    it "aaron.md is in 'all_authors'" do
+      aaron_included = @all_authors.include? 'aaron.md'
+      expect(aaron_included).to be true
+    end
+
+    it "aaron.md is in 'penned_authors'" do
+      aaron_included = @penned_authors.include? 'aaron.md'
+      expect(aaron_included).to be true
+    end
+
+    it "aaron.md is not in 'excluded_authors'" do
+      aaron_included = @excluded_authors.include? 'aaron.md'
+      expect(aaron_included).to be false
+    end
+
+    it "unpublished_author.md is in 'all_authors'" do
+      unpublished_included = @all_authors.include? 'unpublished_author.md'
+      expect(unpublished_included).to be true
+    end
+
+    it "unpublished_author.md is not in 'penned_authors'" do
+      unpublished_included = @penned_authors.include? 'unpublished_author.md'
+      expect(unpublished_included).to be false
+    end
+
+    it "unpublished_author.md is in 'excluded_authors'" do
+      unpublished_included = @excluded_authors.include? 'unpublished_author.md'
+      expect(unpublished_included).to be true
     end
   end
 end

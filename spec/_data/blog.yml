@@ -1,0 +1,29 @@
+blog:
+  text: Blog
+  href: blog/index.html
+  permalink: /blog/
+  permalink_alt: /tags/
+  collections: ['authors', 'posts']
+  in_menu: true
+  in_drawer: true
+  in_footer: true
+  children:
+blog_single_collection:
+  text: Blog
+  href: blog/index.html
+  permalink: /blog/
+  permalink_alt: /tags/
+  collections: ['posts']
+  in_menu: true
+  in_drawer: true
+  in_footer: true
+  children:
+blog_collectionless:
+  text: Blog
+  href: blog/index.html
+  permalink: /blog/
+  permalink_alt: /tags/
+  in_menu: true
+  in_drawer: true
+  in_footer: true
+  children:

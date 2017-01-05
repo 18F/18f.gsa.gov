@@ -1,3 +1,5 @@
+# rubocop:disable all
+
 {
   "next": {
     "next": {
@@ -29,7 +31,7 @@
         "ext": ".md"
       },
       "path": "_posts/2014-03-21-29-minutes.md",
-      "output": nil,
+      "output": null,
       "previous": {
         "path": "_posts/2014-03-19-hello-world-we-are-18f.md",
         "url": "/2014/03/19/hello-world-we-are-18f/",
@@ -84,7 +86,7 @@
       "ext": ".md"
     },
     "path": "_posts/2014-03-19-hello-world-we-are-18f.md",
-    "output": nil,
+    "output": null,
     "previous": {
       "next": {
         "path": "_posts/2014-03-19-hello-world-we-are-18f.md",
@@ -115,8 +117,8 @@
         "ext": ".md"
       },
       "path": "_posts/2014-03-12-coming-soon.md",
-      "output": nil,
-      "previous": nil,
+      "output": null,
+      "previous": null,
       "content": "<p><span>We’re truly gratified so many of you liked our sneak preview!\nWe’ll be back real soon. </span></p>\n\n<p>Happy <a href=\"https://twitter.com/search?q=%23web25&amp;src=hash\">#Web25</a>!</p>\n",
       "url": "/2014/03/12/coming-soon/",
       "id": "/2014/03/12/coming-soon",
@@ -171,8 +173,8 @@
     "ext": ".md"
   },
   "path": "_posts/2014-03-12-coming-soon.md",
-  "output": nil,
-  "previous": nil,
+  "output": null,
+  "previous": null,
   "content": "<p><span>We’re truly gratified so many of you liked our sneak preview!\nWe’ll be back real soon. </span></p>\n\n<p>Happy <a href=\"https://twitter.com/search?q=%23web25&amp;src=hash\">#Web25</a>!</p>\n",
   "url": "/2014/03/12/coming-soon/",
   "id": "/2014/03/12/coming-soon",
@@ -198,3 +200,4 @@
   "slug": "coming-soon",
   "ext": ".md"
 }
+# rubocop:enable all

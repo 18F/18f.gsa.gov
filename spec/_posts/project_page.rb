@@ -1,3 +1,4 @@
+# rubocop:disable all
 {
   "next": {
     "next": nil,
@@ -114,3 +115,4 @@
   "ext": ".md",
   "date": "2017-01-05 00:52:51 -0600"
 }
+# rubocop:enable all
