@@ -3,6 +3,7 @@ require 'rb-readline'
 
 module Jekyll
   module Utility
+    attr_reader :match
 
     def clip_char(str, char = '-')
       str = str.to_s
@@ -68,16 +69,12 @@ module Jekyll
       end
     end
 
-    def crawl_pages(item, page_url, _debug)
+    def crawl_pages(item, page_url)
       if matches_url(page_url, item['permalink'])
-        # puts "found #{item['text'].inspect}"
         @match = item
-        # puts "setting @match to #{@match['text'].inspect} for #{_debug.inspect}"
       elsif item['children']
-        # puts "skipping #{item['text'].inspect}"
         item['children'].each do |child|
-          # puts "recurse for #{child['text'].inspect}"
-          crawl_pages(child, page_url, child['text'])
+          crawl_pages(child, page_url)
         end
       end
     end
@@ -86,7 +83,7 @@ module Jekyll
       unless @match
         nav_items.each do |item|
           break if @match
-          crawl_pages(item, page_url, item['text'])
+          crawl_pages(item, page_url)
         end
       end
       @match

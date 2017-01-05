@@ -21,7 +21,7 @@ RSpec.describe Jekyll::Utility do
     }
 
     @project_nav_item = {
-      "text" => "Project",
+      "text" => "fec-gov",
       "href" => "project/fec-gov/index.html",
       "permalink" => "/project/fec-gov/",
       "permalink_alt" => "/project/",
@@ -29,6 +29,19 @@ RSpec.describe Jekyll::Utility do
       "in_drawer" => true,
       "in_footer" => true,
       "children" => nil
+    }
+
+    @project_nav_item_children = {
+      "text" => "Project",
+      "href" => "project/index.html",
+      "permalink" => "/project/",
+      "permalink_alt" => "/project/",
+      "in_menu" => true,
+      "in_drawer" => true,
+      "in_footer" => true,
+      "children" => [
+        @project_nav_item
+      ]
     }
     # binding.pry
     @nav_item_with_collection = @nav_item.dup
@@ -158,4 +171,30 @@ RSpec.describe Jekyll::Utility do
       expect(actual).to be true
     end
   end
+
+  describe '#crawl_pages' do
+    it 'checks top level nav items' do
+      actual = @utility_class.crawl_pages(@project_nav_item, '/blog/')
+      expect(actual).to be_nil
+
+      actual = @utility_class.crawl_pages(@nav_item, '/blog/')
+      expect(@utility_class.match).to match @nav_item
+    end
+
+    it 'does not match child nav items to parent nav items' do
+      actual = @utility_class.crawl_pages(@project_nav_item, '/project/fec-gov/')
+      expect(@utility_class.match).to match @project_nav_item
+    end
+
+    it 'matches with parent if it is an exact match' do
+      actual = @utility_class.crawl_pages(@project_nav_item_children, '/project/')
+      expect(@utility_class.match).to match @project_nav_item_children
+    end
+
+    it 'matches with the child if it is an exact match' do
+      actual = @utility_class.crawl_pages(@project_nav_item_children, '/project/fec-gov/')
+      expect(@utility_class.match).to match @project_nav_item
+    end
+  end
 end
+
