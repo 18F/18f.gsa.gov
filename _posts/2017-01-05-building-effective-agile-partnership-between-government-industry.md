@@ -11,7 +11,7 @@ image: /assets/blog/dol-whd-14c/certification-application.png
 hero: false
 ---
 
-![]({{site.baseurl}}/{{page.image}})
+![]({{site.baseurl}}{{page.image}})
 
 For the past two years, 18F has had the pleasure of [working with the
 Wage and Hour Division (WHD) of the U.S. Department of
