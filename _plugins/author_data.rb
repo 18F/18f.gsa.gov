@@ -78,10 +78,12 @@ module SiteData
     def find_penned_authors
       penned_authors = []
       @site_post_paths.each do |post_path|
-        frontmatter = YAML.load_file(File.join(Dir.pwd, '_posts/', post_path))
-        if frontmatter['output'] != false && frontmatter['published'] != false
-          authors = frontmatter['authors'].map { |a| "#{a}.md" }
-          penned_authors << authors
+        if File.exist? File.join(Dir.pwd, '_posts', post_path)
+          frontmatter = YAML.load_file(File.join(Dir.pwd, '_posts', post_path))
+          if frontmatter['output'] != false && frontmatter['published'] != false
+            authors = frontmatter['authors'].map { |a| "#{a}.md" }
+            penned_authors << authors
+          end
         end
       end
       penned_authors.flatten.uniq
