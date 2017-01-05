@@ -104,7 +104,7 @@ for Labor to bring the efficiency and effectiveness of agile procurement
 to future engagements with vendors.
 
 18F wants to reimagine how the government works with vendors. Our work
-with WHD is part of a much larger effort to enable more businesses do
+with WHD is part of a much larger effort to enable more businesses to do
 agile work for the government while making the government a better
 customer. We want agencies to have strong relationships with vendors who
 can deliver great value to our partner agencies. The work by WHD will
