@@ -10,6 +10,7 @@
 
     li {
       border-top-color: $color-gray-lighter;
+      background: transparent;
     }
 
     button {
@@ -85,8 +86,16 @@
   text-align: center;
   width: $hit-area;
 
-  img {
-    width: 1.3rem;
+
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: $color-gray-lightest;
+  }
+
+  svg {
+    height: $icon;
+    width: $icon;
   }
 }
 
