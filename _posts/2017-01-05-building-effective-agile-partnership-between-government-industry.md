@@ -25,8 +25,7 @@ create the initial version of a web application tool for the Section
 
 ## What is the Section 14(c) program?
 
-[Section](https://www.dol.gov/whd/workerswithdisabilities/)[
-](https://www.dol.gov/whd/workerswithdisabilities/)[14(c)](https://www.dol.gov/whd/workerswithdisabilities/)
+[Section 14(c)](https://www.dol.gov/whd/workerswithdisabilities/)
 of the Fair Labor Standards Act permits the payment of subminimum wages
 — wages less than the federal minimum wage — to workers with
 disabilities whose earning or productive capacity is impaired by a
