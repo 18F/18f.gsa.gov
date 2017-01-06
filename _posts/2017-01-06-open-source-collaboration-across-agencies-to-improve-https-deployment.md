@@ -2,7 +2,7 @@
 title: "Open source collaboration across agencies to improve HTTPS deployment"
 date: 2017-01-06
 authors:
-- Cameron Dixon
+- cameron-dixon
 tags:
 - https
 - security
