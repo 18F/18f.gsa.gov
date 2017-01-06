@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/18F/micropurchase/badges/gpa.svg)](https://codeclimate.com/github/18F/18f.gsa.gov)
+[![Code Climate](https://codeclimate.com/github/18F/18f.gsa.gov/badges/gpa.svg)](https://codeclimate.com/github/18F/18f.gsa.gov)
 
 # 18F’s flagship website
 
