@@ -26,7 +26,7 @@ We’re also going to continue talking to users to find more opportunities to sh
 
 ## Designing further for flexibility
 
-Now that we have a good baseline of website components (for example typography, headers, footers), we’re also going to focus on building more complex components. We’ll be taking on the deeper layers of government sites and applications, such as more complex forms and data applications, to get a better understanding of the public’s pain points in using them. In preparation for this work, we’re looking for agencies that are interested in partnering with us on custom development and research to solve their design and user experience challenges. We’ll then take the work from these partnerships and build it back into the platform and share it with all of government. If you’re an agency that’s interested in partnering with us, please get in touch with us at [uswebdesignstandards@gsa.gov.](uswebdesignstandards@gsa.gov)
+Now that we have a good baseline of website components (for example typography, headers, footers), we’re also going to focus on building more complex components. We’ll be taking on the deeper layers of government sites and applications, such as more complex forms and data applications, to get a better understanding of the public’s pain points in using them. In preparation for this work, we’re looking for agencies that are interested in partnering with us on custom development and research to solve their design and user experience challenges. We’ll then take the work from these partnerships and build it back into the platform and share it with all of government. If you’re an agency that’s interested in partnering with us, please get in touch with us at [uswebdesignstandards@gsa.gov.](mailto:uswebdesignstandards@gsa.gov)
 
 ## Preparing government for the future, mobile majority 
 
@@ -45,6 +45,6 @@ To do this, we need partners with interesting government challenges to help us b
 - Building custom components for your agency that might benefit other agencies (such as more complex input forms, maps, data visualizations and data structures, email templates, etc.)
 - Have feedback or ideas on how we can improve the Draft Standards
 
-If you’d like to talk to the team or explore a partnership, please contact us at [uswebdesignstandards@gsa.gov](uswebdesignstandards@gsa.gov)
+If you’d like to talk to the team or explore a partnership, please contact us at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov)
 
 We’re from the government, and we’re here to help. 
