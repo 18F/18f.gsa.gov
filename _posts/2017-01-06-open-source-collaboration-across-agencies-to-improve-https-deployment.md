@@ -73,7 +73,7 @@ Here's an example of what our reports look like:
 
 ![Chart showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-chart.png)
 
-![Table showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-table.png)
+![Table showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-table.jpg)
 
 _(OPM has since fixed, or has plans to fix, the findings in this image.)_
 
