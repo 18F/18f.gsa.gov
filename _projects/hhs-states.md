@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
-project-type: "Partner"
-title: "Health and Human Services"
+agency: "Health and Human Services"
+title: "State and local procurement"
 subtitle: Helping states update crucial systems
 excerpt: HHS hired 18F to help states implement current best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png

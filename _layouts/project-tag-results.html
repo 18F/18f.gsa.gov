@@ -9,12 +9,16 @@ header_border: true
 
   {% if page.image %}
     <section class="hero"
-             style="background-image: url({{ site.baseurl }}{{ page.image }});"
-             aria-label="{{ page.image_accessibility }}">
+        style="background-image: url({{ site.baseurl }}{{ page.image }});"
+        aria-label="{{ page.image_accessibility }}">
       <div class="usa-grid">
         <div class="hero-callout hero-callout-no_button background-dark">
-          <h1 class="h3 hero-callout-title">{{ page.project-type }}:<br>
-          {{ page.title }}</h1>
+          <h1 class="hero-callout-title">
+            {{ page.agency }}: <br>
+            <span class="hero-callout-alt_color">
+              {{ page.title }}
+            </span>
+          </h1>
         </div>
       </div>
     </section>
