@@ -71,9 +71,9 @@ Together, `pshtt`'s analysis can determine whether a domain fully requires HTTPS
 
 Here's an example of what our reports look like:
 
-![Chart showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/https-progress/opm-chart.png)
+![Chart showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-chart.png)
 
-![Table showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/https-progress/opm-table.png)
+![Table showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-table.png)
 
 _(OPM has since fixed, or has plans to fix, the findings in this image.)_
 
