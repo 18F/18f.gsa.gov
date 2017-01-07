@@ -20,7 +20,6 @@ module Jekyll
         default
       end
     end
-    module_function :team_photo
   end
 end
 Liquid::Template.register_filter(Jekyll::TeamFilter)
