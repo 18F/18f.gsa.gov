@@ -109,6 +109,7 @@ exclude:
   - ISSUE_TEMPLATE.md
   - bin
   - pages/our-work.html
+  - tests/**/*
 
 # jekyll plugins
 gems:
