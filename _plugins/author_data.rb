@@ -32,12 +32,12 @@ module SiteData
       end
     end
 
-    def fetch(name, key)
-      YAML.load_file("#{@path}/#{name}.md")[key] if exists? name
-    end
-
     def exists?(name)
       File.exist? "#{@path}/#{name}.md"
+    end
+
+    def fetch(name, key)
+      YAML.load_file("#{@path}/#{name}.md")[key] if exists? name
     end
 
     def create_file_path(file)

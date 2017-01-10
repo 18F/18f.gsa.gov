@@ -11,7 +11,7 @@ RSpec.describe SiteData::AuthorData do
     @all_authors = @author_data.all_authors
   end
 
-  context 'given a file with only YAML frontmatter' do
+  context 'with YAML frontmatter -- ' do
     it 'confirms that a exists' do
       exists = @author_data.exists? 'author'
       expect(exists).to eq true
