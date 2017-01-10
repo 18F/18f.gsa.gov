@@ -35,7 +35,7 @@ because that’s one of the best ways to spur true innovation.
 training experience before 18F/TTS?**
 
 **MH:** I have a great range of interests, which means that I had quite
-a bizarre educational journey that including a brief stint at art
+a bizarre educational journey that included a brief stint at art
 school. I discovered that I was very much drawn to human conflict having
 volunteered throughout high school at a community mediation center. My
 experiences there really stuck with me through that bizarre journey. So,
@@ -75,13 +75,13 @@ government and the opportunity to work with these truly amazing folks.
 
 **JH: What specialties do you bring to TTS?**
 
-**MH:** Even though I’ve been an operational contracting officer for 5
+**MH:** Even though I’ve been an operational contracting officer for five
 years now, the skills, methods, and processes that I used in the
 conflict resolution field haven’t really changed. My two main
 specialties are alternative dispute resolution and procurement, both of
 which have the similar foundations and influences.
 
-**JH: Share a little bit about how you view the projects you work on?**
+**JH: Share a little bit about how you view the projects you work on.**
 
 **MH:** So far, everything I’ve experienced and seen with our agency
 partners demonstrates that the “solution” is in the “problem.” To that
@@ -108,5 +108,4 @@ amazing group of people that I get to work with every day. This includes
 not just my immediate co-workers but our agency partners as well. I get
 energy and excitement from their missions more so than our own, and I
 have gotten to see a broad spectrum of highly-dedicated civil servants,
-and contractors, try to further their missions and by extension the
-American public.
+and contractors, try to further their missions, and by extension, better serve the American public.
