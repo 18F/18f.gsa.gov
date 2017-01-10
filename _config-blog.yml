@@ -26,6 +26,7 @@ exclude:
 - sitemap.xml
 - system-security-plan.yml
 - vendor
+- pages/our-work.html
 - _posts/2014-03-12-coming-soon.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
 - _posts/2014-03-21-29-minutes.md
