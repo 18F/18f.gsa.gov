@@ -12,6 +12,7 @@ tags:
 description: "We hoped CALC, a powerful labor category and pricing research tool from GSA and 18F, would save federal contracting officers time and money. Turns out, it’s also saving cities time and money. In August, we found out the City of Boston has been using CALC to vet pricing they receive in response to a request for proposals."
 excerpt: "We hoped CALC, a powerful labor category and pricing research tool from GSA and 18F, would save federal contracting officers time and money. Turns out, it’s also saving cities time and money. In August, we found out the City of Boston has been using CALC to vet pricing they receive in response to a request for proposals."
 image: /assets/blog/calc-announcement/calc_demo.gif
+hero: false
 ---
 
 In May, 18F and [GSA’s Professional Services

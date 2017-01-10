@@ -1,7 +1,7 @@
 ---
 title: "Coming soon: the agile delivery services solicitation"
 layout: post
-image: ""
+image: 
 authors:
 - chrisc
 - noah

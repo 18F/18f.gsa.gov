@@ -5,16 +5,20 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="usa-grid content-focus page-tag-results">
+<section class="usa-grid usa-section content-focus page-tag-results">
 
   {% if page.image %}
     <section class="hero"
-             style="background-image: url({{ site.baseurl }}{{ page.image }});"
-             aria-label="{{ page.image_accessibility }}">
+        style="background-image: url({{ site.baseurl }}{{ page.image }});"
+        aria-label="{{ page.image_accessibility }}">
       <div class="usa-grid">
         <div class="hero-callout hero-callout-no_button background-dark">
-          <h1 class="h3 hero-callout-title">{{ page.project-type }}:<br>
-          {{ page.title }}</h1>
+          <h1 class="hero-callout-title">
+            {{ page.agency }}: <br>
+            <span class="hero-callout-alt_color">
+              {{ page.title }}
+            </span>
+          </h1>
         </div>
       </div>
     </section>
@@ -29,7 +33,7 @@ header_border: true
   </section>
 
   <section class="usa-section">
-    <h3>Our blog posts about this work</h3>
+    <h2>Our blog posts about this work</h2>
 
     {%
       include tag-results.html

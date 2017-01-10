@@ -7,6 +7,7 @@ tags:
 - how we work
 - culture change
 - tools you can use
+- agile
 excerpt: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
 description: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
 image:
@@ -70,4 +71,8 @@ The team isn’t drowning anymore. They’re back in charge of the work they do,
 
 Postscript: Two days before press time, Josh Bailes sent this 18F-wide message:
 
- <blockquote>Good news. Our current median transit time for agreements is 37.5 days, meaning from kick off to signature, it takes 37.5 days for an agreement to get completed. This is a vast improvement from 60 days and due to two things: 1) the WIP limits we set. They are working. 2) The great work of Matt Spencer and [the Agreements] team.</blockquote>
+<blockquote>
+<p>Good news. Our current median transit time for agreements is 37.5 days, meaning from kick off to signature, it takes 37.5 days for an agreement to get completed. This is a vast improvement from 60 days and due to two things:</p>
+<p>1) the WIP limits we set. They are working.<br/>
+2) The great work of Matt Spencer and [the Agreements] team.</p>
+</blockquote>

@@ -1,6 +1,8 @@
 ---
 layout: "String"
 title: "String"
+agency: "String"
+subtitle: "String"
 excerpt: "String"
 tags:
   type: Array
@@ -10,8 +12,6 @@ project_url: "String"
 project_type:
   type: "String"
   oneof: ["public-servies", "internal-systems", "laws-and-mandates"]
-agency_partner: "String"
-agency_partner_url: "String"
 config:
   path: '_projects'
   ignore:
@@ -20,8 +20,6 @@ config:
   - .
   - .DS_Store
   optional:
-    - 'subtitle'
-    - 'excerpt'
     - 'image'
     - 'image_accessibility'
     - 'expiration_date'

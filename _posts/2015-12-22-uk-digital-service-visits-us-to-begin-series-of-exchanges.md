@@ -13,12 +13,12 @@ description: "Chris Ferguson, Director of GDS's digital group, and a team from t
 image: /assets/blog/gds/2015-visit.jpg
 github: https://github.com/18F/blog-drafts/issues/351
 ---
+
+_Image: Photo courtesy of Ross Dakin, Presidential Innovation Fellow_
+
 Across the pond, the motto of the United Kingdom's [Government Digital Service (GDS)](https://gds.blog.gov.uk/) is “the strategy is delivery.” Over here, we say “delivery is the strategy,” but we’re both focused on the same thing: Fostering positive change across government by shipping quality digital solutions.
 
 Or as Chris Ferguson, Director of GDS’s digital group, recently put it, “Get on with it and demonstrate that you are there to get things done.”
-
-![Chris Ferguson with Hillary Hartley and Phaedra Chrousos]({{site.baseurl}}/assets/blog/gds/2015-visit.jpg)
-_Photo courtesy of Ross Dakin, Presidential Innovation Fellow_
 
 Ferguson and a team from GDS recently spent a week in Washington meeting with teams at 18F, the U.S. Digital Service (USDS), and others in the [federal digital coalition](https://18f.gsa.gov/2015/05/11/moveforward/). The teams shared successes, challenges, and plans for how they will continue to support digital progress in their respective governments. This follows [a summer trip by digital coalition leaders to the UK](https://gds.blog.gov.uk/2015/07/29/same-but-different-a-common-international-approach-to-digital-government/) to share knowledge and seed partnerships across civic technology groups. And it comes on the heels of regular video chats this summer and fall between GDS and 18F content teams to share their latest work, ideas, and problems.
 

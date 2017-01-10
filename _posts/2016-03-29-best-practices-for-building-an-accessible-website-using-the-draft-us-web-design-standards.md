@@ -77,7 +77,7 @@ user experience. We recommend using a screen reader and an accessibility
 API inspector tool such as Microsoft’s Inspect tool, available in the
 Windows SDK, or Mac OS X's built-in screen reader, VoiceOver.
 
-##Developed with WCAG 2.0 AA in mind
+## Developed with WCAG 2.0 AA in mind
 
 We developed the Draft Standards with [WCAG 2.0
 AA](https://www.w3.org/WAI/WCAG20/quickref/) in mind. The upcoming

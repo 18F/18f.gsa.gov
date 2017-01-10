@@ -14,7 +14,6 @@ tags:
   - communication tools and practices
   - jekyll
 
-
 ---
 [![Our website running with Jekyll]({{site.baseurl}}/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
 
@@ -39,7 +38,7 @@ Our site's first draft was a handful of static HTML pages with lots of copied-an
 
 We've now moved to **[Jekyll 2.4](http://jekyllrb.com/)**, a basic templating system that generates static files when needed. This enables us to use templated layouts and includes for rendering HTML, and plugins to transform content during the rendering process. The resulting static files can be served extremely efficiently.
 
-We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a little JSON API\* of our team:
+We also took the time to **[make data out of our team](https://github.com/18F/18f.gsa.gov/blob/staging/_data/team.yml)** and turn them all into a YAML file. This lets us render a grid of their faces more easily, even open up a little JSON API[^1] of our team:
 
 ```javascript
 [
@@ -160,4 +159,4 @@ We have our nginx configuration and deploy scripts [versioned and documented](ht
 
 Taken together, these steps greatly simplified our site's development and deployment, and gave our blog the flexibility of self-publishing. It's nice to have control, and we hope the details of our work are helpful for anyone interested in doing the same.
 
-\* Since this post was firts published was have eliminated the team.json file that was at one time linked to in this file.
+[^1]: Since this post was first published, we have eliminated the team.json file that was at one time linked to in this file.

@@ -6,10 +6,8 @@ authors:
 - phoebe-espiritu
 tags:
 - content design
-- writing for the web
 - user centered design
-excerpt: "We all do it. Whether on Twitter, Facebook, or the comment section on a news article, it’s easy to get our writing on the internet. Many of us have personal websites or contribute to blogs. We work at organizations with content management systems that allow us to publish pages with a single button click. The fact that it’s so easy to publish content can trick us into thinking it’s equally easy to write useful content."
-description: ""
+excerpt: "Government websites are written for an extraordinarily diverse group of users. They come to our websites with different knowledge, backgrounds, and abilities. Fortunately, there are steps we can take to make sure the content we care about reaches the audience we want (and is useful to them)."
 image: /assets/blog/content/cfpb-oah.jpg
 hero: false
 ---

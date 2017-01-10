@@ -1,6 +1,6 @@
 <nav class="nav-mobile nav-accordion" role="navigation">
   <button class="sliding-panel-close">
-    <img src="{{ site.baseurl }}/assets/img/global/close.svg" alt="close">
+    {% include svg/close.svg %}
   </button>
 
   <ul class="usa-sidenav-list usa-accordion">
@@ -10,7 +10,7 @@
       {% if item.permalink %}
         {% assign item_link = item.permalink | prepend: site.baseurl %}
       {% else %}
-        {% assign item_link = item.text | dasherize | hash_link | prepend: site.baseurl %}
+        {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
       {% endif %}
 
       {% assign enabled_children = item.children | where: "in_drawer", true %}
@@ -37,7 +37,7 @@
                 {% if sub_item.permalink %}
                   {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
                 {% else %}
-                  {% assign sub_item_link = sub_item.text | dasherize | hash_link | prepend: site.baseurl %}
+                  {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
                 {% endif %}
 
                 {% assign is_matching = page.url | matches_url: sub_item.permalink %}

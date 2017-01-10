@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
-project-type: "Partner"
-title: "Health and Human Services"
+agency: "Health and Human Services"
+title: "State and local procurement"
 subtitle: Helping states update crucial systems
 permalink: /project/hhs-states/
 excerpt: Health and Human Services hired us to help states implement current best practices and upgrade legacy systems.

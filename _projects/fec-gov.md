@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
-project-type: "Project"
-title: "The Federal Election Commission"
+agency: "Federal Election Commission"
+title: "beta.fec.gov"
 subtitle: Making campaign data easier to use
 permalink: /project/fec-gov/
 excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.

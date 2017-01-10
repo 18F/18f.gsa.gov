@@ -6,11 +6,12 @@ $h4-font-size:		 2.2rem;
 $h5-font-size:       1.4rem;
 $h6-font-size:       1.2rem;
 
-$base-font-size:	   1.8rem;
+$base-font-size:	 1.8rem;
 
 $tiny-font-size:     1.2rem;
 
 $icon-small:         1rem;
+$icon:				 1.3rem;
 
 $font-sans:          'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $font-monospace:     Consolas, Monaco, "Andale Mono", monospace;
@@ -40,3 +41,4 @@ $text-max-width:     60.6rem;
 $border-accent-height: 1rem;
 $border-accent:        $border-accent-height solid $color-bright;
 $border-light:         1px solid $color-gray-lightest;
+$border-thick:       4px solid $color-gray-lightest;

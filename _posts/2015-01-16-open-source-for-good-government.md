@@ -3,7 +3,7 @@ title: Open source for good government
 date: '2015-01-16'
 layout: post
 image: /assets/blog/join-us/18f_govuk.png
-
+hero: false
 tags:
 - open source
 - gov.uk

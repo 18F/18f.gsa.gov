@@ -16,8 +16,6 @@ description: "The White House is issuing a memoranda to federal agencies mandati
 image: /assets/blog/https-memo/whitehouse-small.png
 ---
 
-[![whitehouse.gov screenshot]({{site.baseurl}}/assets/blog/https-memo/whitehouse.png)](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf)
-
 Today, the White House's Office of Management and Budget (OMB) finalized an **[HTTPS-Only Standard](https://https.cio.gov/)** for all publicly accessible federal websites and web services. This standard is designed to ensure a new, strong baseline of user privacy and security across U.S. government websites and APIs.
 
 As an [HTTPS-only technology shop](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/), 18F has been an enthusiastic supporter of this initiative. As we've [said before](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/), every `.gov` website, no matter how small, should give its visitors a secure, private connection. We're thrilled to see HTTPS become the new baseline for federal web services.

@@ -11,6 +11,7 @@ tags:
 excerpt: "Last week, information architect Thomas Vander Wal came to 18F to lead a discussion on his research into social and internal collaboration in the workspace."
 description: "Last week, information architect Thomas Vander Wal came to 18F to lead a discussion on his research into social and internal collaboration in the workspace."
 image: /assets/blog/vander-wal/email.jpg
+hero: false
 ---
 
 William Shakespeare invented more than 1,700 English words. For

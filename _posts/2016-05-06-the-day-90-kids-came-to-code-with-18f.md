@@ -44,7 +44,7 @@ together.
 
 The two girls later wrote this note:
 
-![A hand-written note that says: Codeing is fun, but also tricky but we did our best]({{site.baserul}}/assets/blog/kids-to-work-day/kids-to-work-note.jpg)
+![A hand-written note that says: Codeing is fun, but also tricky but we did our best]({{site.baseurl}}/assets/blog/kids-to-work-day/kids-to-work-note.jpg)
 
 “Codeing [sic] is fun, but also tricky but we did our best.”
 

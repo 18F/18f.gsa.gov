@@ -8,8 +8,8 @@ tags:
 - acquisition services
 - procurement
 - video
+- health and human services
 excerpt: "The Technology Transformation Service recently held an industry day to talk to the private sector community about our vision, our projects, and how GSA and vendors can work together to bring modern digital services to the federal government. For that event, California’s Stuart Drown recorded a short video talking about 18F’s work with California on their Child Welfare System."
-description: "The Technology Transformation Service recently held an industry day to talk to the private sector community about our vision, our projects, and how GSA and vendors can work together to bring modern digital services to the federal government. For that event, California’s Stuart Drown recorded a short video talking about 18F’s work with California on their Child Welfare System."
 image:
 ---
 Since November 2015, 18F has worked with the U.S. Department of Health &
@@ -38,50 +38,16 @@ allowfullscreen></iframe>
 
 *Note: This transcript has been lightly edited for clarity.*
 
-Good morning. I'm Stuart Drown. I'm the Deputy Secretary of Innovation
-and Accountability at the Government Operations Agency in Sacramento.
+> Good morning. I'm Stuart Drown. I'm the Deputy Secretary of Innovation and Accountability at the Government Operations Agency in Sacramento.
+> For the past year, our agency has been working closely with the [California] Health and Human Services Agency on a new approach to procurement — going from a waterfall, monolithic approach to an agile procurement approach for an extraordinarily important project, our [Child Welfare Services new system](https://cwds.ca.gov/). In 2015, we were about to release an RFP for a $500 million dollar project. We were on the seventh version, and had worked on it for nearly three years. In a very dramatic switch, with the input of some experts including Todd Park [from the White House] and Jennifer Pahlka [from Code for America], our leaders decided to go to an agile model or agile approach. This is completely new for us.
 
-For the past year, our agency has been working closely with the
-[California] Health and Human Services Agency on a new approach to
-procurement — going from a waterfall, monolithic approach to an agile
-procurement approach for an extraordinarily important project, our
-[Child Welfare Services new system](https://cwds.ca.gov/). In 2015, we
-were about to release an RFP for a $500 million dollar project. We were
-on the seventh version, and had worked on it for nearly three years. In
-a very dramatic switch, with the input of some experts including Todd
-Park [from the White House] and Jennifer Pahlka [from Code for America],
-our leaders decided to go to an agile model or agile approach. This is
-completely new for us.
+> A team from 18F helped us write the new RFPs and helped us learn how to break the project into modules that could be separated out into RFPs and helped us sequence these. The second thing they did is they helped us educate the vendor community, and as a result, we ended up borrowing from the GSA model. Their [Agile Blanket Purchase Agreement](https://pages.18f.gov/ads-bpa/) became, in California, a [pre-qualified vendor pool](https://cwds.ca.gov/procurements/ADPQ_accepted_vendors.html). We came up with a challenge and our Department of Technology, our Department of General Services and HHS Agency's Office of System Integration put out a challenge to vendors and asked them to build a prototype for us to respond to this challenge in open source code.
 
-A team from 18F helped us write the new RFPs and helped us learn how to
-break the project into modules that could be separated out into RFPs and
-helped us sequence these. The second thing they did is they helped us
-educate the vendor community, and as a result, we ended up borrowing
-from the GSA model. Their [Agile Blanket Purchase
-Agreement](https://pages.18f.gov/ads-bpa/) became, in California, a
-[pre-qualified vendor
-pool](https://cwds.ca.gov/procurements/ADPQ_accepted_vendors.html). We
-came up with a challenge and our Department of Technology, our
-Department of General Services and HHS Agency's Office of System
-Integration put out a challenge to vendors and asked them to build a
-prototype for us to respond to this challenge in open source code.
+> Then we posted the responses. A team from 18F helped us evaluate those prototypes and helped look at the technical aspects of their proposals. Specifically whether they used user centered design and how they are coming up with their prototypes.
 
-Then we posted the responses. A team from 18F helped us evaluate those
-prototypes and helped look at the technical aspects of their proposals.
-Specifically whether they used user centered design and how they are
-coming up with their prototypes.
+> A third key way is that this new agile demonstration project, it's making us re-think all kinds of pieces in our approach to these things. Not only looking at how we evaluate risk, but what is the role of the Department of Technology in project oversight.
 
-A third key way is that this new agile demonstration project, it's
-making us re-think all kinds of pieces in our approach to these things.
-Not only looking at how we evaluate risk, but what is the role of the
-Department of Technology in project oversight.
-
-So they’re coaching us to develop these new roles, so that we can
-develop the internal capacity to do this on our own. It's been exciting
-to work with 18F in GSA. They've made it clear from the beginning, this
-is something we have to do on our own, but they are helping us build the
-capacity to do that. And for that we thank you, Denise, Aaron, and
-Hillary.
+> So they’re coaching us to develop these new roles, so that we can develop the internal capacity to do this on our own. It's been exciting to work with 18F in GSA. They've made it clear from the beginning, this is something we have to do on our own, but they are helping us build the capacity to do that. And for that we thank you, Denise, Aaron, and Hillary.
 
 ---
 

@@ -33,9 +33,15 @@ Because new blog posts are published several times a week, we use several branch
 
 **The `master`, `staging`, and `production` branches are protected.** Only administrators of the repo can push directly to those branches. 18F teammates who don’t think they have the correct permissions should ask in the #18f-site channel.
 
-### Merging pull requests
+### Submitting pull requests
 
-In your pull request (PR), tag anyone who should review the work and note what they should be reviewing. In general:
+If you submit your Pull Request (PR) from the Github website, a form will appear and will be populated with [a template](PULL_REQUEST_TEMPLATE.md). If you are submitting via the Github Client app, a template will not appear and you will need to populate it yourself. You can find the text [here]. If you are not on the 18F Site team, feel free to disregard the template and someone from the team will follow up with you.
+
+To fill out the template, please start by attaching any issues that this PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the site before, and how it _should_ be.
+
+If the nature of the PR is visual, please replace all instances of `BRANCH_NAME` with the name of the branch that is being merged.
+
+Complete the PR message by detailing all fixes and tagging Github users who should review the work, with a note about what they should be reviewing. In general:
 
 - Don’t merge your own PRs
 - If your PR includes many small, incremental commits, consider squashing them
@@ -44,7 +50,7 @@ In your pull request (PR), tag anyone who should review the work and note what t
 ### Front end architecture
 
 This site is based on the [U.S.
-Web Design Standards](https://standards.usa.gov/) (WDS). It is developed using [Jekyll](https://jekyllrb.com/), a static site generator based on the Ruby programming language. 
+Web Design Standards](https://standards.usa.gov/) (WDS). It is developed using [Jekyll](https://jekyllrb.com/), a static site generator based on the Ruby programming language.
 
 We default to using [semantic HTML5](http://www.w3schools.com/html/html5_semantic_elements.asp).
 
