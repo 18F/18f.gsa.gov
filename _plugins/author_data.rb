@@ -65,7 +65,7 @@ module SiteData
 
     def delete_value(hash, key)
       puts "deleting #{key}".yellow
-      hash.delete_if {|k, v| k == key }
+      hash.delete_if {|k, _v| k == key }
     end
 
     def write_update(author_path, updated_file, key, value)
