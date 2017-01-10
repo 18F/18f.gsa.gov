@@ -6,7 +6,7 @@ authors:
 - phoebe-espiritu
 tags:
 - content design
-- user centered design
+- user-centered design
 excerpt: "Government websites are written for an extraordinarily diverse group of users. They come to our websites with different knowledge, backgrounds, and abilities. Fortunately, there are steps we can take to make sure the content we care about reaches the audience we want (and is useful to them)."
 image: /assets/blog/content/cfpb-oah.jpg
 hero: false
