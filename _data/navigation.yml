@@ -7,6 +7,14 @@ assigned:
         in_drawer: false
         in_footer: false
     -
+        text: Our work
+        href: pages/our-work.md
+        permalink: /our-work/
+        in_menu: false
+        in_drawer: false
+        in_footer: false
+        children:
+    -
         text: What we deliver
         href: pages/what-we-deliver.md
         permalink: /what-we-deliver/

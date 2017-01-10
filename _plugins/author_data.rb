@@ -26,22 +26,18 @@ module SiteData
       author_path = create_file_path(author_file)
       if File.exist? author_path
         updated_file = update_file(author_path, key, value)
-        if updated_file[:changed]
-          write_update(author_path, updated_file[:file], key, value)
-        end
+        write_update(author_path, updated_file[:file], key, value) if updated_file[:changed]
       else
         puts "#{author_file} does not exist.".red
       end
     end
 
-    def fetch(name, key)
-      if self.exists? name
-        YAML.load_file("#{@path}/#{name}.md")[key]
-      end
-    end
-
     def exists?(name)
       File.exist? "#{@path}/#{name}.md"
+    end
+
+    def fetch(name, key)
+      YAML.load_file("#{@path}/#{name}.md")[key] if exists? name
     end
 
     def create_file_path(file)
@@ -78,10 +74,10 @@ module SiteData
     def find_penned_authors
       penned_authors = []
       @site_post_paths.each do |post_path|
-        next if !File.exist? File.join(Dir.pwd, '_posts', post_path)
+        next unless File.exist? File.join(Dir.pwd, '_posts', post_path)
         frontmatter = YAML.load_file(File.join(Dir.pwd, '_posts', post_path))
         checks = frontmatter['output'] != false && frontmatter['published'] != false
-        next if !checks
+        next unless checks
         authors = frontmatter['authors'].map { |a| "#{a}.md" }
         penned_authors << authors
       end

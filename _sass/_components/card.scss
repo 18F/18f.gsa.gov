@@ -1,7 +1,16 @@
+.card[aria-hidden=true] {
+  display: none;
+}
+
 .card-link {
   border: 1px solid $color-gray-lighter;
   display: inline-block;
+  margin-bottom: $paragraph-margins-thick;
   text-decoration: none;
+
+  @include media($medium-screen) {
+    margin-bottom: 0;
+  }
 
   &:hover,
   &:focus {
@@ -17,6 +26,10 @@
   background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
+
+  h4 {
+    margin-top: 0;
+  }
 }
 
 .card-image {
@@ -25,4 +38,13 @@
 
 .card-description {
   color: initial;
+}
+
+.agency-tag {
+  color: $color-gray;
+  font-size: $tiny-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }

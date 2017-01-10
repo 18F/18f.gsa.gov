@@ -125,6 +125,7 @@ Here is an example embed and how
      title="The Federal Election Commission"
      description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
      link=dead_end_link
+     columns=2
   %}
   {% include card.html
      image_src="/assets/img/home/hero-every-kid.png"
@@ -132,6 +133,7 @@ Here is an example embed and how
      title="State and local"
      description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
      link=dead_end_link
+     columns=2
   %}
 </section>
 {% endcapture %}

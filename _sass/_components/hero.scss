@@ -3,17 +3,17 @@
 
 .hero {
   @include padding($site-margins null);
-  background-image: url('../img/home/hero-fec.png');
+  background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .hero-callout {
-  background-color: $color-dark;
-  padding: 3rem;
+  padding: $site-margins;
 
-  h2 {
-    font-size: $h2-font-size * 0.85;
+  p {
+    font-size: $h3-font-size;
+    max-width: 60rem;
   }
 
   @include media($small-screen) {
