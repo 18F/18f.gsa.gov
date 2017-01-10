@@ -9,9 +9,6 @@ tags:
   rules: [no-dash, lowercase]
 github_repo: "String"
 project_url: "String"
-project_type:
-  type: "String"
-  oneof: ["public-servies", "internal-systems", "laws-and-mandates"]
 config:
   path: '_projects'
   ignore:
