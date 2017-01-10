@@ -7,7 +7,6 @@ last_name: Dondero
 name: jessedondero
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/jessedondero/"
 published: false

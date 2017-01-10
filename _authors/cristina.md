@@ -7,7 +7,6 @@ last_name: Brydges
 name: cristina
 role: Deputy Director
 state: DC
-team: Talent
 twitter: 
 redirect_from: "/team/cristina/"
 published: false

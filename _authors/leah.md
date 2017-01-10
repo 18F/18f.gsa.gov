@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: leahbannon
 twitter: leahbannon
-team: Delivery
 redirect_from: "/team/leah/"
 published: true
 ---

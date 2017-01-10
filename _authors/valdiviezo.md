@@ -7,7 +7,6 @@ last_name: Valdiviezo
 name: valdiviezo
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/valdiviezo/"
 published: false

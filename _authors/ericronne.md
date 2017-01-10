@@ -8,7 +8,6 @@ city: Chicago
 state: IL
 github: 
 twitter: 
-team: 
 redirect_from: "/team/ericronne/"
 published: false
 ---

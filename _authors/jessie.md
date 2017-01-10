@@ -7,7 +7,6 @@ last_name: Young
 name: jessie
 role: Developer
 state: California
-team: Delivery
 twitter: 
 redirect_from: "/team/jessie/"
 published: true

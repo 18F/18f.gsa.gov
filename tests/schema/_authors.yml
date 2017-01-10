@@ -6,9 +6,6 @@ full_name: "String"
 role: "String"
 city: "String"
 state: "String"
-team:
-  type: "String"
-  one_of: ["Delivery", "Consulting", "Design", "Talent"]
 role: "String"
 published: Boolean
 config:

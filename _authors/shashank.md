@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Consulting
 project: 
 redirect_from:
 - "/team/khandelwal/"

@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: vdavez
 twitter: vdavez
-team: Acquisition
 redirect_from: "/team/vdavez/"
 published: true
 ---

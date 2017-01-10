@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Delivery
 project:
 - Analytics Guild
 - api.data.gov

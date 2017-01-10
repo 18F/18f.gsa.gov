@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Presidential Innovation Fellowship
 redirect_from: "/team/smita/"
 published: false
 ---

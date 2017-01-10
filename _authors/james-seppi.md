@@ -8,7 +8,6 @@ city: Austin
 state: Texas
 github: 
 twitter: 
-team: Engineering
 redirect_from: "/team/james-seppi/"
 published: false
 ---

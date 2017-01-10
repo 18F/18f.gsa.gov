@@ -7,7 +7,6 @@ last_name: Gustafson
 name: britta-gustafson
 role: Content Designer
 state: CA
-team: Design
 twitter: ''
 redirect_from: "/team/britta-gustafson/"
 published: true

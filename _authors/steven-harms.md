@@ -7,7 +7,6 @@ last_name: Harms
 name: steven-harms
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/steven-harms/"
 published: false

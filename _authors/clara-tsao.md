@@ -7,7 +7,6 @@ github:
 last_name: Tsao
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: 
 published: true

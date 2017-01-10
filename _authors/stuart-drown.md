@@ -8,6 +8,5 @@ published: true
 role: 
 city: 
 state: 
-team: 
 ---
 

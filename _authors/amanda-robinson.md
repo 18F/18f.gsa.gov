@@ -7,7 +7,6 @@ last_name: Robinson
 name: amanda-robinson
 role: Developer
 state: DC
-team: Delivery
 twitter: aertzeid
 redirect_from: "/team/amanda-robinson/"
 published: false

@@ -8,7 +8,6 @@ city: Boston
 state: MA
 github: 
 twitter: 
-team: Design
 redirect_from: "/team/colinmacarthur/"
 published: true
 ---

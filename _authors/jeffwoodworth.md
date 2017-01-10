@@ -1,16 +1,15 @@
 ---
 name: jeffwoodworth
-city:
+city: 
 first_name: Jeff
 last_name: Woodworth
 full_name: Jeff Woodworth
-github:
-role:
-state:
-team:
-twitter:
+github: 
+role: 
+state: 
+twitter: 
 guest: true
-redirect_from:
+redirect_from: 
 published: true
 ---
 

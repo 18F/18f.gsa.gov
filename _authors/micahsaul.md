@@ -8,7 +8,6 @@ city: Portland
 state: OR
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/micahsaul/"
 published: false
 ---

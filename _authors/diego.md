@@ -8,7 +8,6 @@ city: Austin
 state: TX
 github: dlapiduz
 twitter: dlapiduz
-team: Products and Platforms
 project:
 - cloud.gov
 - DevOps Guild

@@ -7,7 +7,6 @@ last_name: Carnahan
 name: robin-carnahan
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/robin-carnahan/"
 published: true

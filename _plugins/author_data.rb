@@ -1,4 +1,6 @@
 require 'yaml'
+require 'rb-readline'
+require 'pry'
 
 module SiteData
   class AuthorData
@@ -52,12 +54,30 @@ module SiteData
       frontmatter_yml = YAML.load(frontmatter)
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
+        frontmatter_yml = delete_value(frontmatter_yml, key) if value == 'delete'
         frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
         { file: File.read(author_path).gsub(frontmatter, frontmatter_new),
           changed: true }
       else
         { file: frontmatter, changed: false }
       end
+    end
+
+    def update(author_file, key, value)
+      author_path = create_file_path(author_file)
+      if File.exist? author_path
+        updated_file = update_file(author_path, key, value)
+        if updated_file[:changed]
+          write_update(author_path, updated_file[:file], key, value)
+        end
+      else
+        puts "#{author_file} does not exist.".red
+      end
+    end
+
+    def delete_value(hash, key)
+      puts "deleting #{key}".yellow
+      hash.delete_if {|k, v| k == key }
     end
 
     def write_update(author_path, updated_file, key, value)

@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: awfrancisco
 twitter: andrefrancisco
-team: Outreach
 project:
 - 18F Blog
 - 18f.gsa.gov

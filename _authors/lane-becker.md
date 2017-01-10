@@ -7,7 +7,6 @@ last_name: Becker
 name: lane-becker
 role: 
 state: 
-team: Strategy
 twitter: 
 redirect_from: "/team/lane-becker/"
 published: false

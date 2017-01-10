@@ -7,7 +7,6 @@ last_name: Unger
 name: russ
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/romke"
 published: true

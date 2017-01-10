@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: jeanninehunter
 twitter: 
-team: Design
 project:
 - Content Lead
 - USCIS

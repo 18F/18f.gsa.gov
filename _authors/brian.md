@@ -7,7 +7,6 @@ last_name: Hedberg
 name: brian
 role: Developer
 state: MN
-team: Delivery
 twitter: 
 redirect_from: "/team/brian/"
 published: false
