@@ -110,6 +110,7 @@ exclude:
   - bin
   - pages/our-work.html
   - tests/**/*
+  - tests/schema/tags.yml
 
 # jekyll plugins
 gems:
