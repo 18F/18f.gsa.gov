@@ -109,6 +109,7 @@ exclude:
   - ISSUE_TEMPLATE.md
   - 'Accessibility Scanning Using Pa11y-ci.md'
   - bin
+  - pages/our-work.html
 
 # jekyll plugins
 gems:
