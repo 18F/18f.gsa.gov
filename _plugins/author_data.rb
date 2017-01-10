@@ -63,18 +63,6 @@ module SiteData
       end
     end
 
-    def update(author_file, key, value)
-      author_path = create_file_path(author_file)
-      if File.exist? author_path
-        updated_file = update_file(author_path, key, value)
-        if updated_file[:changed]
-          write_update(author_path, updated_file[:file], key, value)
-        end
-      else
-        puts "#{author_file} does not exist.".red
-      end
-    end
-
     def delete_value(hash, key)
       puts "deleting #{key}".yellow
       hash.delete_if {|k, v| k == key }
