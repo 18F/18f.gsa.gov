@@ -36,10 +36,8 @@ module Jekyll
     def matches_collections(page, nav_item)
       returned_page = nil
       collections = nav_item['collections'] || nil
-      if collections
-        collections.each do |collection|
-          returned_page = true if page['collection'] == collection
-        end
+      collections&.each do |collection|
+        returned_page = true if page['collection'] == collection
       end
       returned_page
     end
@@ -93,25 +91,24 @@ module Jekyll
       _type = value.class
       _second_type = second_value.class
       _third_type = third_value.class
-      puts '---------------------'
-      puts "#{value} is a #{_type}"
-      puts '---------------------'
-      binding.pry
+      # puts '---------------------'
+      # puts "#{value} is a #{_type}"
+      # puts '---------------------'
+      # binding.pry
     end
 
     def find_collection(site, collection)
       document = site.collections.select { |c| c.label == collection }[0].docs
-      document.map { |d| d.data }
+      document.map(&:data)
     end
 
     def where_obj(array, first, second)
       array.map do |object|
-        if object[first] && object[second]
-          new_o = {}
-          new_o[first] = object[first]
-          new_o[second] = object[second]
-          new_o
-        end
+        next unless object[first] && object[second]
+        new_o = {}
+        new_o[first] = object[first]
+        new_o[second] = object[second]
+        new_o
       end.uniq
     end
 
@@ -123,9 +120,9 @@ end
 
 class Array
   def in_groups(num_groups)
-    return [] if num_groups == 0
-    slice_size = (self.size/Float(num_groups)).ceil
-    self.each_slice(slice_size).to_a
+    return [] if num_groups.zero?
+    slice_size = (size / Float(num_groups)).ceil
+    each_slice(slice_size).to_a
   end
 end
 Liquid::Template.register_filter(Jekyll::Utility)

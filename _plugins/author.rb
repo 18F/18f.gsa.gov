@@ -9,29 +9,26 @@ module Jekyll
       @baseurl = Jekyll.sites[0].config['baseurl']
     end
 
-    def render(context)
+    def render(_context)
       teammate = finder('authors', @author)
 
-      if teammate.nil?
-        teammate = finder('pif_team', @author)
-      end
+      teammate = finder('pif_team', @author) if teammate.nil?
 
       if teammate
-        "<span class=\"author #{teammate['name']}\">" +
-          "#{teammate['full_name']}" +
-        "</span>"
+        "<span class=\"author #{teammate['name']}\">" \
+          "#{teammate['full_name']}" \
+          '</span>'
       else
-        raise Exception.new("No teammate found by that name: #{@author}")
+        raise Exception, "No teammate found by that name: #{@author}"
       end
     end
 
     def finder(group, name)
-        data = Jekyll.sites[0].data[group]
-        if results.respond_to?('find')
-          return results.find {|member| member["name"] == name}
-        else
-          require 'pry'; binding.pry
-        end
+      data = Jekyll.sites[0].data[group]
+      if results.respond_to?('find')
+        return results.find { |member| member['name'] == name }
+      else
+        require 'pry';        end
     end
   end
 
@@ -53,17 +50,15 @@ module Jekyll
       posts = context.environments[0]['site']['posts']
       site_url = context.environments[0]['site']['baseurl']
       for p in posts
-        if p.data['authors'] and p.data['authors'].include? author
-          authored.push(p)
-        end
+        authored.push(p) if p.data['authors'] && p.data['authors'].include?(author)
       end
       unless authored.empty?
         list = "<#{@heading}>#{first_name}’s blog posts:</#{@heading}>"
-        list << "<ul>"
+        list << '<ul>'
         for a in authored
           list << "<li><a href='#{site_url}#{a.url}'>#{a.data['title']}</a></li>"
         end
-        list << "</ul>"
+        list << '</ul>'
       end
     end
   end
@@ -73,6 +68,7 @@ module Jekyll
       @page_path = context.environments.first['page']['path']
       super
     end
+
     # lookup filter
     #
     # A liquid filter that takes an author slug as "input" and extracts from the
@@ -131,7 +127,7 @@ module Jekyll
         if x.data['name'].nil?
           puts "No such author: #{input} in #{x}"
         else
-          x.data['name'].downcase == input.downcase
+          x.data['name'].casecmp(input.downcase).zero?
         end
       end
       site_url = set_site_url
