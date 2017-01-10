@@ -10,5 +10,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['image', 'image_accessibility', 'expiration_date', 'github_repo']
+  optional: ['team']
 ---
