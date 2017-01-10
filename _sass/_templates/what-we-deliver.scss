@@ -1,0 +1,38 @@
+// What we deliver page
+// ==========================
+
+.page-what-we-deliver {
+  .main-content {
+    img {
+      width: 8rem;
+      margin-bottom: $site-margins;
+    }
+  }
+
+  .usa-width-one-sixth {
+    text-align: center;
+
+    @include media($medium-screen) {
+      @include span-columns(2);
+
+      &:nth-child(3n) {
+        @include span-columns(2);
+      }
+
+      &:nth-child(6n) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .section-list {
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}
