@@ -16,10 +16,10 @@ Bureau. He works for the TTS Office of Acquisitions on Agile BPA call
 orders, procurement strategy, and other projects that are helping
 advance the way that government buys technology.*
 
-[A headshot of Mark Hopson]({{ site.baseurl }}{{page.image}})
+![A headshot of Mark Hopson]({{ site.baseurl }}{{page.image}})
 
 **Jeannine Hunter: What is your role at TTS? How would you describe it
-to someone who doesn’t work in the government? **
+to someone who doesn’t work in the government?**
 
 **Mark Hopson:** I’m a contracting lead here at TTS, so I work with
 agency partners and other project teams whenever they are involved in
