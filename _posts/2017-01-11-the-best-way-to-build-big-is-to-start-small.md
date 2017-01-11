@@ -6,7 +6,8 @@ tags:
 - architecture
 - product
 excerpt: "Large software systems are hard, and in government we're tasked with building large systems to manage complex benefits and processes. Often those mandates arrive on the back of a failing legacy system. An agile workflow has the benefit of allowing us to try out our ideas before committing to years of time and money."
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/build-big/quizzical.jpg
+hero: false
 ---
 Large software systems are hard, and in government we’re tasked with
 building large systems to manage complex benefits and processes. Often
@@ -33,7 +34,7 @@ Big software systems happen in two major varieties:
 Before diving into the best way to mix and match these patterns, I am
 want to describe each of their growth patterns and risks.
 
-![A drawing representing a monolith]({{site.baseurl}}assets/blog/build-big/monolith.jpeg)
+![A drawing representing a monolith]({{site.baseurl}}/assets/blog/build-big/monolith.jpeg)
 
 A monolith is one big application. Monoliths are easy to understand
 because everything is in one place. This is especially true in the
@@ -59,7 +60,7 @@ They may notice awkward graphic transitions as they move between
 applications. Sometimes they’ll be forced to sign into many
 applications.
 
-![A drawing representing a monolith]({{site.baseurl}}assets/blog/build-big/monolith.jpeg)![A collection of components.]({{site.baseurl}}assets/blog/build-big/components.jpeg)
+![A drawing representing a monolith]({{site.baseurl}}/assets/blog/build-big/monolith.jpeg)![A collection of components.]({{site.baseurl}}/assets/blog/build-big/components.jpeg)
 
 Given that monoliths are simpler than services, why would we ever
 consider a service-oriented architecture?
@@ -71,7 +72,7 @@ ideas get packed into the same bloated application, and soon the
 developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
-![A drawing of a quizzical looking stick figure.]({{site.baseurl}}assets/blog/build-big/quizzical.jpeg)![A drawing of the monolith with lots of scary things coming out of it]({{site.baseurl}}assets/blog/build-big/complexity.jpeg)
+![A drawing of a quizzical looking stick figure.]({{site.baseurl}}/assets/blog/build-big/quizzical.jpeg)![A drawing of the monolith with lots of scary things coming out of it]({{site.baseurl}}/assets/blog/build-big/complexity.jpeg)
 
 Monoliths that grow too large stagger under their own weight. Product
 teams witness this failure as reduced productivity. The amount of time
