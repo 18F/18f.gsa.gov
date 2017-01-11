@@ -34,7 +34,9 @@ Big software systems happen in two major varieties:
 Before diving into the best way to mix and match these patterns, I am
 want to describe each of their growth patterns and risks.
 
-![A drawing representing a monolith]({{site.baseurl}}/assets/blog/build-big/monolith.jpg)
+<figure style="float: left">
+  <img alt="A drawing representing a monolith" src="{{site.baseurl}}/assets/blog/build-big/monolith.jpg" width="210">
+  </figure>
 
 A monolith is one big application. Monoliths are easy to understand
 because everything is in one place. This is especially true in the
@@ -60,7 +62,11 @@ They may notice awkward graphic transitions as they move between
 applications. Sometimes they’ll be forced to sign into many
 applications.
 
-![A drawing representing a monolith]({{site.baseurl}}/assets/blog/build-big/monolith.jpg)![A collection of components.]({{site.baseurl}}/assets/blog/build-big/components.jpg)
+<figure style="float: left" >
+  <img alt="A drawing of a quizzical looking stick figure examining a manageable set of components." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
+  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/components.jpg" width="140">
+  <figcaption></figcaption>
+</figure>
 
 Given that monoliths are simpler than services, why would we ever
 consider a service-oriented architecture?
@@ -72,7 +78,10 @@ ideas get packed into the same bloated application, and soon the
 developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
-![A drawing of a quizzical looking stick figure.]({{site.baseurl}}/assets/blog/build-big/quizzical.jpg)![A drawing of the monolith with lots of scary things coming out of it]({{site.baseurl}}/assets/blog/build-big/complexity.jpg)
+<figure style="float: left">
+  <img alt="A drawing of a quizzical looking stick figure examining a monolith with lots of scary things coming out of it." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
+  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="140">
+</figure>
 
 Monoliths that grow too large stagger under their own weight. Product
 teams witness this failure as reduced productivity. The amount of time
