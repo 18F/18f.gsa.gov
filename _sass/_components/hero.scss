@@ -32,9 +32,8 @@
 .hero-callout-primary {
   padding-left: 0;
   position: relative;
-  max-width: initial;
 
-  &:before {
+  &::before {
     background-color: $color-dark;
     content: '';
     display: block;

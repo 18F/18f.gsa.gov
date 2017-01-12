@@ -30,6 +30,15 @@
   }
 }
 
+.usa-flex {
+  display: flex;
+}
+
+.usa-flex-vertically-center {
+  align-self: center;
+  flex-direction: column;
+}
+
 .usa-section {
   @include padding($section-margins null);
 
