@@ -31,8 +31,7 @@ a planning process.
 Big software systems happen in two major varieties:
 [monoliths](https://en.wikipedia.org/wiki/Monolithic_application) and
 [services](https://en.wikipedia.org/wiki/Service-oriented_architecture).
-Before diving into the best way to mix and match these patterns, I am
-want to describe each of their growth patterns and risks.
+Before diving into the best way to mix and match these patterns, I want to describe each of their growth patterns and risks.
 
 <figure style="float: left">
   <img alt="A drawing representing a monolith" src="{{site.baseurl}}/assets/blog/build-big/monolith.jpg" width="210">
@@ -79,8 +78,8 @@ developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
 <figure style="float: left">
-  <img alt="A drawing of a quizzical looking stick figure examining a monolith with lots of scary things coming out of it." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="140">
-  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="320">
+  <img alt="A drawing of a quizzical looking stick figure examining an out-of-control monolith." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
+  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="380">
 </figure>
 
 Monoliths that grow too large stagger under their own weight. Product
