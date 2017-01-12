@@ -79,8 +79,8 @@ developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
 <figure style="float: left">
-  <img alt="A drawing of a quizzical looking stick figure examining a monolith with lots of scary things coming out of it." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
-  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="140">
+  <img alt="A drawing of a quizzical looking stick figure examining a monolith with lots of scary things coming out of it." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="140">
+  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="320">
 </figure>
 
 Monoliths that grow too large stagger under their own weight. Product
