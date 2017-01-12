@@ -114,6 +114,25 @@ Here is an example embed and how
    lang="html"
 %}
 
+### Hero banner – left aligned with image
+{% capture hero_banner_image %}
+<section class="background-dark usa-section">
+  <div class="usa-grid content-focus align-center">
+    <h2>We work with federal agencies to approach technology projects in new ways</h2>
+    <a href="{{ dead_end_link }}"><button class="usa-button usa-button-big usa-button-secondary">Our work</button></a>
+
+    {% include feature-image.html
+               image='/assets/img/page-feature/hire-us.jpg' %}
+  </div>
+</section>
+{% endcapture %}
+
+{% include details-code.html
+   text="See code"
+   content=hero_banner_image
+   lang="html"
+%}
+
 
 ### Card
 

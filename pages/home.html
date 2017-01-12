@@ -5,21 +5,52 @@ title: Home
 redirect_from: /dashboard/
 ---
 
-<section class="hero">
-  <div class="hero-callout background-dark">
-    <h2>We support your mission</h2>
-    <p>18F works with federal agencies to improve processes and deliver efficient, easy-to-use digital services to the public.</p>
-    <!-- <a href="{{ site.baseurl }}/what-we-deliver/"><button class="usa-button usa-button-big usa-button-secondary">What we deliver</button></a> -->
-  </div>
+<section class="background-dark">
+  <section class="hero">
+    <div class="usa-grid">
+      <div class="hero-callout hero-callout-primary background-dark">
+        <h2>We work with federal agencies to successfully deliver efficient, easy-to-use digital services.</h2>
+        <a href="{{ site.baseurl }}/what-we-deliver/"><button class="usa-button usa-button-big usa-button-secondary">Get in touch</button></a>
+      </div>
+    </div>
+  </section>
 </section>
-<section class="usa-grid usa-section">
-  <h2>Featured projects</h2>
-  {% include card-project.html
-     project='fec-gov'
-  %}
-  {% include card-project.html
-     project='hhs-states'
-  %}
+
+<section class="usa-section usa-grid">
+  <section class="usa-width-one-half">
+    <h2>We support your mission</h2>
+    <p>As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</p>
+  </section>
+  <section class="usa-grid usa-width-one-half">
+    <div class="usa-grid">
+      <figure class="icon-stacked">{% include svg/icons/monitor.svg %}</figure>
+      <span>Improve your public-facing services</span>
+    </div>
+    <div class="usa-grid">
+      <figure class="icon-stacked">{% include svg/icons/gavel.svg %}</figure>
+      <span>Implement new laws or mandates</span>
+    </div>
+    <div class="usa-grid">
+      <figure class="icon-stacked">{% include svg/icons/folderwithclock.svg %}</figure>
+      <span>Digitize and streamline internal systems</span>
+    </div>
+  </section>
+</section>
+
+<section class="usa-section background-gray">
+  <section class="usa-grid">
+    <h2>Featured projects</h2>
+    {% include card-project.html
+       project='fec-gov'
+    %}
+    {% include card-project.html
+       project='hhs-states'
+    %}
+
+    {% include card-project.html
+       project='doi-every-kid-in-a-park'
+    %}
+  </section>
 </section>
 <section class="usa-grid usa-section">
   <div class="usa-width-one-third">

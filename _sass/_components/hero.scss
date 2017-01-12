@@ -2,10 +2,10 @@
 // ==========================
 
 .hero {
-  @include padding($site-margins null);
   background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
+  padding: 0;
 }
 
 .hero-callout {
@@ -26,7 +26,23 @@
 
   .usa-button {
     font-size: $small-font-size;
-    width: 100%;
+  }
+}
+
+.hero-callout-primary {
+  padding-left: 0;
+  position: relative;
+  max-width: initial;
+
+  &:before {
+    background-color: $color-dark;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 1000%;
+    right: 100%;
   }
 }
 
