@@ -29,9 +29,5 @@
 }
 
 .post-date {
-  color: $color-gray;
-  font-size: 1.2rem;
-  font-weight: $font-bold;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  @include small-caps;
 }

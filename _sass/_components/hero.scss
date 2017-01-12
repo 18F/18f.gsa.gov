@@ -2,10 +2,18 @@
 // ==========================
 
 .hero {
-  @include padding($site-margins null);
   background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
+  padding: 0;
+}
+
+.hero-primary {
+  background-image: none;
+
+  @include media($medium-screen) {
+    background-image: url('../img/page-feature/hire-us.jpg');
+  }
 }
 
 .hero-callout {
@@ -26,7 +34,29 @@
 
   .usa-button {
     font-size: $small-font-size;
-    width: 100%;
+  }
+}
+
+.hero-callout-primary {
+  max-width: initial;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+
+  @include media($medium-screen) {
+    min-width: 300px;
+    padding-right: $site-margins;
+  }
+
+  &::before {
+    background-color: $color-dark;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 1000%;
+    right: 100%;
   }
 }
 

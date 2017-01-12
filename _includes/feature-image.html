@@ -1,5 +1,7 @@
-{% if page.image %}
+{% assign include_image = include.image | default: page.image %}
+
+{% if include_image %}
   {% unless page.hero == false %}
-    <div class="post-feature_image" style="background-image: url('{{ site.baseurl }}{{ page.image }}')"></div>
+    <div class="post-feature_image" style="background-image: url('{{ site.baseurl }}{{ include_image }}')"></div>
   {% endunless  %}
 {% endif %}

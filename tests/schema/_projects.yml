@@ -9,6 +9,7 @@ tags:
   rules: [no-dash, lowercase]
 github_repo: "String"
 project_url: "String"
+permalink: "String"
 config:
   path: '_projects'
   ignore:
@@ -21,5 +22,4 @@ config:
     - 'image_accessibility'
     - 'expiration_date'
     - 'github_repo'
-    - 'permalink'
 ---

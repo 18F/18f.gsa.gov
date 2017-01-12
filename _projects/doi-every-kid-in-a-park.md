@@ -3,8 +3,9 @@ layout: project-tag-results
 agency: "Department of the Interior"
 title: "Every Kid in a Park"
 subtitle: Designing for every user
+permalink: /project/every-kid-in-a-park/
 excerpt: We helped the Department of the Interior reach fourth graders and help kids discover public lands.
-image: /assets/blog/every-kid-in-a-park/glacier-park.jpg
+image: /assets/img/home/hero-ekiap.png
 image_accessibility: "Photograph of a group of children wearing orange shirts at a national park"
 tags:
 - every kid in a park
