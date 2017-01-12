@@ -22,7 +22,7 @@ redirect_from: /dashboard/
     <section class="usa-width-one-half usa-flex-vertically-top">
       <h4 class="p-line-height p-weight">As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</h4>
     </section>
-    <aside class="usa-grid usa-width-one-half usa-flex-vertically-bottom">
+    <aside class="usa-width-one-half usa-flex-vertically-bottom">
       <div class="icon-list">
         <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
         <div class="icon-list-text">
@@ -67,9 +67,9 @@ redirect_from: /dashboard/
     <li class="usa-width-one-third">
       <article>
         <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-        <h3 class="posts_feature-heading">
+        <h4 class="posts_feature-heading">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        </h4>
         <p>{{ post.excerpt }}</p>
         <p>
           <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">Read more<span class="usa-sr-only">{{ post.title }}</span></a>
