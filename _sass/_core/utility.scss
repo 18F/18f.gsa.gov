@@ -1,3 +1,11 @@
 .align-center {
   text-align: center;
 }
+
+.p-line-height {
+  line-height: $paragraph-line-height;
+}
+
+.p-weight {
+	font-weight: $font-normal;
+}

@@ -3,7 +3,7 @@
 }
 
 .card-link {
-  border: 1px solid $color-gray-lighter;
+  border: 2px solid $color-gray-lighter;
   display: inline-block;
   margin-bottom: $paragraph-margins-thick;
   text-decoration: none;
@@ -14,11 +14,11 @@
 
   &:hover,
   &:focus {
-    border: 1px solid $color-bright-hover;
+    border: 2px solid $color-bright-hover;
   }
 
   &:active {
-    border: 1px solid $color-primary-darker;
+    border: 2px solid $color-primary-darker;
   }
 }
 

@@ -30,13 +30,24 @@
   }
 }
 
-.usa-flex {
-  display: flex;
+.usa-flex-vertically-top {
+  margin-bottom: $section-margins;
 }
 
-.usa-flex-vertically-center {
-  align-self: center;
-  flex-direction: column;
+@include media($medium-screen) {
+  .usa-flex {
+    display: flex;
+  }
+
+  .usa-flex-vertically-top {
+    align-self: flex-start;
+    flex-direction: column;
+  }
+
+  .usa-flex-vertically-bottom {
+    align-self: flex-end;
+    flex-direction: column;
+  }
 }
 
 .usa-section {
