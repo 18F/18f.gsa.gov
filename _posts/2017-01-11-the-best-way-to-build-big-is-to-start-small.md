@@ -146,7 +146,7 @@ divide into services to avoid becoming a big, unwieldy monolith. It’s
 easy to get abstract in thinking about services, but the division of a
 monolith into parts should be driven by product and design. Dividing
 different applications by collections of user flows is safer than
-dividing via abstract program concepts.
+dividing via abstract programming concepts.
 
 Here are a few examples of things that might trigger extracting a new
 application or microservice from a monolith:
