@@ -25,4 +25,4 @@ We’ll work with 18F Agency Partnerships and friends of 18F to find contacts at
 
 ## Script
 
-Script available [here](https://github.com/18F/18f.gsa.gov/blob/research/research/5-sprint-especialesker/interview-script.md).
+Script available [here](https://github.com/18F/18f.gsa.gov/blob/research/research/5-sprint-especialesker/especialesker-script.md).
