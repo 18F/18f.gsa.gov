@@ -89,12 +89,21 @@ assigned:
                         in_footer: false
                         in_subnav: true
     -
+        text: About 18F
+        href: pages/about.md
+        permalink: /about/
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+
+    -
         text: Join 18F
         href: pages/join.md
         permalink: /join/
         collections: ['join']
-        in_menu: true
-        in_drawer: true
+        in_menu: false
+        in_drawer: false
         in_footer: true
         children:
             -
