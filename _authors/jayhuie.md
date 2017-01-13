@@ -7,7 +7,6 @@ last_name: Huie
 name: jayhuie
 role: 
 state: DC
-team: Consulting
 twitter: 
 redirect_from: "/team/jayhuie/"
 published: false

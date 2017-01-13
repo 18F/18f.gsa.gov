@@ -8,7 +8,6 @@ state:
 role: 
 github: 
 twitter: 
-team: 
 redirect_from: 
 alumni: true
 published: true

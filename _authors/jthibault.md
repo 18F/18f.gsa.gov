@@ -8,7 +8,6 @@ city: New York City
 state: NY
 github: jenniferthibault
 twitter: jlthibault
-team: Design
 redirect_from: "/team/jthibault/"
 published: true
 ---

@@ -7,7 +7,6 @@ last_name: Bisker
 name: alex-bisker
 role: 
 state: New York
-team: Delivery
 twitter: 
 redirect_from: "/team/alex-bisker/"
 published: true

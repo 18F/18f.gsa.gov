@@ -8,7 +8,6 @@ city: Durham
 state: NC
 github: juliaelman
 twitter: juliaelman
-team: Design
 redirect_from: "/team/julia/"
 published: true
 ---

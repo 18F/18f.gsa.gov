@@ -8,7 +8,6 @@ state: D.C.
 role: Product Manager
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/rebeccapiazza/"
 published: true
 ---

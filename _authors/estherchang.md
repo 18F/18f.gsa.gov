@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Talent
 redirect_from: "/team/estherchang/"
 published: false
 ---

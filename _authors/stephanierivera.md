@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: 
 twitter: 
-team: Strategy
 project:
 - 18F Intake
 redirect_from: "/team/stephanierivera/"

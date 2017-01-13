@@ -7,7 +7,6 @@ last_name: De Haan
 name: romke
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/romke/"
 published: false

@@ -7,7 +7,6 @@ last_name: Colter
 name: angela-colter
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/angela-colter/"
 published: false

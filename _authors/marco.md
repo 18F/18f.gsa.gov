@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: 
 twitter: 
-team: Design
 proejct:
 - Front End Guild
 redirect_from: "/team/marco/"

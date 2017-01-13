@@ -8,7 +8,6 @@ city: St. Louis
 state: MO
 github: 
 twitter: 
-team: Design
 redirect_from: "/team/bradnunnally/"
 published: true
 ---

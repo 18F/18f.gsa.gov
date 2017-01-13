@@ -7,7 +7,6 @@ last_name: Udoewa
 name: victor-udoewa
 role: 
 state: D.C.
-team: Consulting
 twitter: 
 redirect_from: "/team/victor-udoewa/"
 published: true

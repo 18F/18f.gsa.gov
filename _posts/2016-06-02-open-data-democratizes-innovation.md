@@ -7,7 +7,7 @@ authors:
 tags:
 - open data
 - data access
--
+
 excerpt: "Thanks to the President’s Executive Order requiring that agencies make data open, we are democratizing access to data. Open data has empowered citizens to track trends and make informed personal decisions. And increasingly, American citizens are using government data to drive action and solve problems in their communities."
 description: "Thanks to the President’s Executive Order requiring that agencies make data open, we are democratizing access to data. Open data has empowered citizens to track trends and make informed personal decisions. And increasingly, American citizens are using government data to drive action and solve problems in their communities."
 image:

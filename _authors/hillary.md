@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: quepol
 twitter: hillary
-team: 18F
 redirect_from: "/team/hillary/"
 published: true
 ---

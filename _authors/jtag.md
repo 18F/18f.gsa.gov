@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: 
 twitter: 
-team: Consulting
 redirect_from: "/team/jtag/"
 published: true
 ---

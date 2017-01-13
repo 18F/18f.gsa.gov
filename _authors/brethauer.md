@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Design
 redirect_from: "/team/brethauer/"
 published: true
 ---

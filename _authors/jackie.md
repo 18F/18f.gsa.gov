@@ -7,7 +7,6 @@ last_name: Kazil
 name: jackie
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: 
 alumni: true
