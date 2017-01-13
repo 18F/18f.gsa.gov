@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
-agency: "Department of Education"
-title: "College Scorecard"
+agency: Department of Education
+title: College Scorecard
 subtitle: Turning data into informed choices
 excerpt: We worked with the Department of Education to bring together federal data from several agencies to help students assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
@@ -11,6 +11,7 @@ tags:
 expiration_date:
 github_repo: https://github.com/RTICWDT/college-scorecard
 project_url: https://collegescorecard.ed.gov/
+permalink: /project/ed-college-scorecard/
 ---
 
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.

@@ -9,3 +9,11 @@
 .p-weight {
   font-weight: $font-normal;
 }
+
+.pad-bottom-mobile {
+  padding-bottom: $site-margins;
+
+  @include media($medium-screen) {
+    padding-bottom: initial;
+  }
+}

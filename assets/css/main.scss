@@ -13,6 +13,7 @@
 // ==========================
 
 @import "_libs/wds/stylesheets/all";
+@import "_core/mixins";
 
 // Core
 // ==========================
@@ -20,6 +21,7 @@
 @import "_core/typography";
 @import "_core/syntax-highlighting";
 @import "_core/utility";
+@import "_core/grid";
 
 // 18F site components
 // ==========================

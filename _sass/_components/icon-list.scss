@@ -6,14 +6,15 @@
     margin-bottom: $paragraph-margins-thick;
   }
 
-  &:last-of-type {
+  &:last-of-type,
+  &:last-of-type p {
     margin-bottom: 0;
   }
 }
 
 .icon-list-image {
   margin: 0;
-  margin-right: $paragraph-margins;
+  margin-right: $site-margins;
 
   svg {
     width: 50px;

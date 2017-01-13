@@ -1,6 +1,6 @@
 {% capture code %}
 ```{{ include.lang | default: 'text' }}
-	{{ include.content | markdownify }}
+{{ include.content }}
 ```
 {% endcapture %}
 
@@ -8,6 +8,6 @@
 
 <details {% if include.open %}open{% endif %}>
 	<summary>{{ include.text }}</summary>
-	{{ code }}
+	{{ code | markdownify }}
 </details>
 

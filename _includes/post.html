@@ -1,0 +1,21 @@
+{% assign post_date = include.date | default: post.date %}
+{% assign post_title = include.title | default: post.title %}
+{% assign post_excerpt = include.excerpt | default: post.excerpt %}
+{% assign post_url = include.url | default: post.url %}
+
+<li class="post usa-width-one-third">
+  <article>
+    <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
+    <h3 class="h4 posts_feature-heading">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post_title }}</a>
+    </h3>
+    <p class="post-excerpt">{{ post_excerpt }}</p>
+    <p>
+      <a class="link-arrow-right post-link-continue_reading" href="{{ post_url | prepend: site.baseurl }}">
+        Read more
+        <span class="usa-sr-only">{{ post_title }}</span>
+        {% include svg/icons/arrow-right.svg %}
+      </a>
+    </p>
+  </article>
+</li>

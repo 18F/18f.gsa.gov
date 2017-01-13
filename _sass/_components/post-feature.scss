@@ -5,6 +5,10 @@
     @include unstyled-list;
   }
 
+  .post-excerpt {
+    font-size: 1.7rem;
+  }
+
   article {
     border-top: $border-accent;
     margin-bottom: $site-margins;
@@ -16,6 +20,18 @@
 
     a {
       text-decoration: none;
+    }
+  }
+
+  .post {
+    margin-bottom: $paragraph-margins-thick;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include media($medium-screen + $grid-margins) {
+      margin-bottom: 0;
     }
   }
 }
@@ -31,3 +47,4 @@
 .post-date {
   @include small-caps;
 }
+
