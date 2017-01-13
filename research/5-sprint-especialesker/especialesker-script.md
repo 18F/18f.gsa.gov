@@ -1,4 +1,4 @@
-## 30 Minute video interview
+## 30 Minute interview
 
 ### Equipment / login (5 min)
 
