@@ -40,11 +40,17 @@
   color: initial;
 }
 
-.agency-tag {
-  color: $color-gray;
-  font-size: $tiny-font-size;
-  font-weight: $font-bold;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-bottom: 0;
+.card-tag {
+  @include small-caps;
+  color: $color-gray-dark;
+}
+
+.card-image-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

@@ -69,3 +69,11 @@ a {
   font-weight: $font-bold;
 }
 
+@mixin small-caps {
+  color: $color-gray;
+  font-size: $tiny-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+

@@ -23,7 +23,10 @@
           {% endunless %}
           {{ post.excerpt }}
           <p>
-            <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+            <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">
+              Continue reading
+              {% include svg/icons/arrow-right.svg %}
+            </a>
           </p>
           {% unless include.limit_metadata %}
             <span class="post-tags" itemprop="keywords">

@@ -20,13 +20,13 @@ redirect_from: /dashboard/
   <h2>We support your mission</h2>
   <section class="usa-flex">
     <section class="usa-width-one-half usa-flex-vertically-top">
-      <h4 class="p-line-height p-weight">As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</h4>
+      <h3 class=".h4 p-line-height p-weight">As an office within the General Services Administration, we know how to work with government. Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</h3>
     </section>
     <aside class="usa-width-one-half usa-flex-vertically-bottom">
       <div class="icon-list">
         <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
         <div class="icon-list-text">
-          <p class="paragraph-bold">Develop strategies for sharking new data or meeting requirements</p>
+          <p class="paragraph-bold">Develop strategies for sharing new data or meeting requirements</p>
         </div>
       </div>
       <div class="icon-list">
@@ -67,12 +67,16 @@ redirect_from: /dashboard/
     <li class="usa-width-one-third">
       <article>
         <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-        <h4 class="posts_feature-heading">
+        <h3 class="h4 posts_feature-heading">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h4>
+        </h3>
         <p>{{ post.excerpt }}</p>
         <p>
-          <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">Read more<span class="usa-sr-only">{{ post.title }}</span></a>
+          <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">
+            Read more
+            <span class="usa-sr-only">{{ post.title }}</span>
+            {% include svg/icons/arrow-right.svg %}
+          </a>
         </p>
       </article>
     </li>
