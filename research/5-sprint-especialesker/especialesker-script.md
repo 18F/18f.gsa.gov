@@ -1,5 +1,7 @@
 ## 30 Minute interview
 
+[Prep your notes document ahead of time!]
+
 ### Equipment / login (5 min)
 
 ### Intro (5 min)
