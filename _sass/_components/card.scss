@@ -1,3 +1,5 @@
+$card-image-height: 200px;
+
 .card[aria-hidden=true] {
   display: none;
 }
@@ -49,7 +51,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: $card-image-height;
   margin: 0;
   padding: 0;
   width: 100%;

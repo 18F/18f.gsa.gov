@@ -14,5 +14,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'layout', 'date', 'image']
+  optional: ['tumblr_url', 'layout', 'date', 'image', 'image_alt']
 ---

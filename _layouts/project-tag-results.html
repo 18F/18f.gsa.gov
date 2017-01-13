@@ -10,7 +10,8 @@ header_border: true
   {% if page.image %}
     <section class="hero"
         style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        aria-label="{{ page.image_accessibility }}">
+        role="img"
+        title="{{ page.image_accessibility }}">
       <div class="usa-grid">
         <div class="hero-callout hero-callout-no_button background-dark">
           <h1 class="hero-callout-title">
