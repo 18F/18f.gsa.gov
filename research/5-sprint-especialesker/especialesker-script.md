@@ -30,11 +30,14 @@ Okay, please go to 18f.gsa.gov. Let me know when you see the site.
 
 Take a minute to look through this site while thinking out loud.
 
-[ask about what they're looking for, why they click, what interested them, what they are getting from this page, initial impressions]
+**Let the user focus on and click on what interests them — as long as they're thinking out loud, you may not need to ask many follow-up questions. If they ask questions about 18F, ask where they would look to find out more information.**
 
-Where would you go from here?
+[If they go quiet, possible prompts include:]
 
-What would you do next?
+- Ask about what they're looking for
+- What interests you on this page?
+- Where would you go from here?
+- What would you do next?
 
 Now that we've looked a bit through the website, what types of projects would you want 18F's help on?
 
