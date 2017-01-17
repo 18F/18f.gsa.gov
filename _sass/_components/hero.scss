@@ -17,7 +17,7 @@
 }
 
 .hero-callout {
-  padding: $site-margins;
+  padding: $section-margins;
 
   p {
     font-size: $h3-font-size;
@@ -44,8 +44,8 @@
   position: relative;
 
   @include media($medium-screen) {
-    min-width: 300px;
-    padding-right: $site-margins;
+    min-width: 350px;
+    padding-right: $section-margins;
   }
 
   &::before {

@@ -3,10 +3,6 @@
   @include media($small-screen) {
     @include span-columns(12);
     @include omega;
-
-    &:not(:only-child) {
-      margin-bottom: $site-margins;
-    }
   }
 
   @include media($medium-screen + $grid-margins) {

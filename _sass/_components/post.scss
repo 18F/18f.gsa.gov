@@ -1,0 +1,11 @@
+.post {
+  margin-bottom: $paragraph-margins-thick;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @include media($medium-screen + $grid-margins) {
+    margin-bottom: 0;
+  }
+}
