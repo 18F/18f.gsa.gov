@@ -3,7 +3,6 @@ title: "The best way to build big is to start small"
 authors:
 - kane
 tags:
-- architecture
 - product
 excerpt: "Large software systems are hard, and in government we're tasked with building large systems to manage complex benefits and processes. Often those mandates arrive on the back of a failing legacy system. An agile workflow has the benefit of allowing us to try out our ideas before committing to years of time and money."
 image: /assets/blog/build-big/quizzical.jpg
