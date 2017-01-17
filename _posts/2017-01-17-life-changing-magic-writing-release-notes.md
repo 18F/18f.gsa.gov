@@ -59,7 +59,7 @@ These are some of the tips that we’ve tried to abide by:
 
 -   **Share it with the team:** Remember, release notes aren’t just for users. Make sure your team sees them, and give them a chance to collaborate.
 
--   **Make them easy to access:** Last, of course, make them easy to get to from your product. On beta.fec.gov, we link to them from the navigation in the footer of the site. The notes themselves can live anywhere — we store ours in GitHub for the ease of editing — but they should always be accessible from the place where users actually are.
+-   **Make them easy to access:** Last, of course, make them easy to get to from your product. On [beta.fec.gov](https://beta.fec.gov), we link to them from the navigation in the footer of the site. The notes themselves can live anywhere — we store ours in GitHub for the ease of editing — but they should always be accessible from the place where users actually are.
 
 ## Why we love release notes
 
@@ -117,4 +117,4 @@ Working on an agile software project is exhilarating (if a little
 chaotic at times). But moving fast and constantly improving requires
 that we also tell the story of our product in a way that resonates with
 our teams, our stakeholders, and our users. Release notes have become a
-helpful focal point for my team working on beta.fec.gov.
+helpful focal point for my team working on [beta.fec.gov](https://beta.fec.gov).
