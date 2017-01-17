@@ -11,7 +11,7 @@
 .hero-primary {
   background-image: none;
 
-  @include media($medium-screen) {
+  @include media($medium-screen + $grid-margins) {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
@@ -24,7 +24,7 @@
     max-width: 60rem;
   }
 
-  @include media($small-screen) {
+  @include media($medium-screen + $grid-margins) {
     max-width: 300px;
   }
 

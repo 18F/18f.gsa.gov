@@ -9,6 +9,7 @@ $card-image-height: 200px;
   display: inline-block;
   margin-bottom: $paragraph-margins-thick;
   text-decoration: none;
+  width: 100%;
 
   @include media($medium-screen) {
     margin-bottom: 0;
@@ -28,6 +29,7 @@ $card-image-height: 200px;
   background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
+  width: 100%;
 
   h4 {
     margin-top: 0;
