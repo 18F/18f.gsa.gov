@@ -65,20 +65,12 @@ redirect_from: /dashboard/
   <ul>
     {% for post in site.posts limit:3 %}
     <li class="usa-width-one-third">
-      <article>
-        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-        <h3 class="h4 posts_feature-heading">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p>{{ post.excerpt }}</p>
-        <p>
-          <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">
-            Read more
-            <span class="usa-sr-only">{{ post.title }}</span>
-            {% include svg/icons/arrow-right.svg %}
-          </a>
-        </p>
-      </article>
+      {% include post.html
+         post_date=post.date
+         post_title=post.title
+         post_excerpt=post.excerpt
+         post_url=post.url
+      %}
     </li>
     {% endfor %}
   </ul>

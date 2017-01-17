@@ -34,7 +34,10 @@ nav_items:
        permalink: /styleguide/#card
        collections: ['styleguide']
        in_subnav: true
-
+     - text: Posts
+       permalink: /styleguide/#posts
+       collections: ['styleguide']
+       in_subnav: true
 
 ---
 
@@ -138,22 +141,16 @@ Here is an example embed and how
 
 {% capture card %}
 <section class="usa-grid usa-section">
-  {% include card.html
-     image_src="/assets/img/home/hero-fec.png"
-     image_alt="Image of a chart with a stylized magnifying glass"
-     title="The Federal Election Commission"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link=dead_end_link
-     columns=2
-  %}
-  {% include card.html
-     image_src="/assets/img/home/hero-every-kid.png"
-     image_alt="Image of state and local"
-     title="State and local"
-     description="We're helping the Federal Election Commission (FEC) make campaign finance data easier to use"
-     link=dead_end_link
-     columns=2
-  %}
+    {% include card-project.html
+       project='fec-gov'
+    %}
+    {% include card-project.html
+       project='hhs-states'
+    %}
+
+    {% include card-project.html
+       project='doi-every-kid-in-a-park'
+    %}
 </section>
 {% endcapture %}
 
@@ -162,3 +159,25 @@ Here is an example embed and how
    content=card
    lang="html"
 %}
+
+
+### Posts
+
+{% capture styleguide_post %}
+  <section class="usa-grid usa-section posts_feature">
+  {% include post.html
+    date='January 6, 2017'
+    title='Dummy title'
+    excerpt='This is an example of a post with plenty of example text to give it length'
+    url=dead_end_link
+  %}
+  </section>
+{% endcapture %}
+
+
+{% include details-code.html
+   text="See code"
+   content=styleguide_post
+   lang="html"
+%}
+
