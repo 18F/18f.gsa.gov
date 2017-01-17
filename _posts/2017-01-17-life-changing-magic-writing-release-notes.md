@@ -5,8 +5,8 @@ authors:
 tags:
 - best practices
 - product
-- fec-gov
-excerpt: "A key part of agile development is constantly shipping new features. With so many changes happening to the product every two weeks, it can be hard to keep track of how the product is growing and improving. Release notes help keep everyone on the team in the know about what’s shipping, give a clear list of features to check, and help always frame our work in terms of the value it delivers to users."
+- fec.gov
+excerpt: "A key part of agile development is constantly shipping new features. With so many changes happening to the product, it can be hard to keep track of how the product is growing and improving. Release notes help keep everyone on the team in the know about what’s shipping, give a clear list of features to check, and help always frame our work in terms of the value it delivers to users."
 ---
 A key part of agile development is constantly shipping new features. The
 team behind the Federal Election Commission’s (FEC) beta website ships
