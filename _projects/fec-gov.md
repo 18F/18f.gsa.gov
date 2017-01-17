@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
-agency: "Federal Election Commission"
-title: "beta.fec.gov"
+agency: Federal Election Commission
+title: beta.fec.gov
 subtitle: Making campaign data easier to use
 permalink: /project/fec-gov/
 excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.
@@ -12,7 +12,6 @@ tags:
 expiration_date:
 github_repo: https://github.com/18F/openFEC-web-app
 project_url: https://beta.fec.gov/
-agency_partner: Federal Election Commission (FEC)
 agency_partner_url: /work/fec/
 project_type: laws-and-mandates
 ---
