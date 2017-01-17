@@ -1,0 +1,7 @@
+@mixin hover-box-shadow() {
+  border: 1px solid $color-gray-lighter;
+
+  &:hover {
+    @include prefixer(box-shadow, 0 1px 10px $color-opaque, webkit moz ms o spec);
+  }
+}
