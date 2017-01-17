@@ -19,21 +19,12 @@
 .hero-callout {
   padding: $section-margins;
 
-  p {
-    font-size: $h3-font-size;
-    max-width: 60rem;
-  }
-
   @include media($medium-screen + $grid-margins) {
     max-width: 300px;
   }
 
   > *:first-child {
     @include margin(0 null $site-margins null);
-  }
-
-  .usa-button {
-    font-size: $small-font-size;
   }
 }
 
@@ -42,6 +33,12 @@
   padding-left: 0;
   padding-right: 0;
   position: relative;
+
+  h2 {
+    font-size: $banner-font-size;
+    line-height: $banner-line-height;
+    margin-bottom: $section-margins;
+  }
 
   @include media($medium-screen) {
     min-width: 350px;
