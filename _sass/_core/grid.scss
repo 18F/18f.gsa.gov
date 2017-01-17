@@ -1,20 +1,20 @@
 .usa-grid .usa-width-one-third {
 
-	@include media($small-screen) {
-		@include span-columns(12);
-		@include omega;
+  @include media($small-screen) {
+    @include span-columns(12);
+    @include omega;
 
-		&:not(:only-child) {
-			margin-bottom: $site-margins;
-		}
-	}
+    &:not(:only-child) {
+      margin-bottom: $site-margins;
+    }
+  }
 
-	@include media($medium-screen + $grid-margins) {
-		@include span-columns(4);
+  @include media($medium-screen + $grid-margins) {
+    @include span-columns(4);
 
-		&:nth-of-type(3n) {
-			@include omega;
-		}
-	}
+    &:nth-of-type(3n) {
+      @include omega;
+    }
+  }
 
 }
