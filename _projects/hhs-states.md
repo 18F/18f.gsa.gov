@@ -1,10 +1,10 @@
 ---
 layout: project-tag-results
-agency: "Health and Human Services"
-title: "State and local procurement"
+agency: Health and Human Services
+title: State and local procurement
 subtitle: Helping states update crucial systems
 permalink: /project/hhs-states/
-excerpt: Health and Human Services hired us to help states implement current best practices and upgrade legacy systems.
+excerpt: Health and Human Services hired us to help states implement best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
 tags:
@@ -12,7 +12,6 @@ tags:
 expiration_date:
 github_repo:
 project_url:
-agency_partner: Health and Human Services
 agency_partner_url: /work/hhs/
 project_type: internal-systems
 ---

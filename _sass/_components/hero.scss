@@ -2,31 +2,58 @@
 // ==========================
 
 .hero {
-  @include padding($site-margins null);
   background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
+  padding: 0;
+}
+
+.hero-primary {
+  background-image: none;
+
+  @include media($medium-screen + $grid-margins) {
+    background-image: url('../img/page-feature/hire-us.jpg');
+  }
 }
 
 .hero-callout {
-  padding: $site-margins;
+  padding: $section-margins;
 
-  p {
-    font-size: $h3-font-size;
-    max-width: 60rem;
-  }
-
-  @include media($small-screen) {
+  @include media($medium-screen + $grid-margins) {
     max-width: 300px;
   }
 
   > *:first-child {
     @include margin(0 null $site-margins null);
   }
+}
 
-  .usa-button {
-    font-size: $small-font-size;
-    width: 100%;
+.hero-callout-primary {
+  max-width: initial;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+
+  h2 {
+    font-size: $banner-font-size;
+    line-height: $banner-line-height;
+    margin-bottom: $section-margins;
+  }
+
+  @include media($medium-screen) {
+    min-width: 350px;
+    padding-right: $section-margins;
+  }
+
+  &::before {
+    background-color: $color-dark;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 1000%;
+    right: 100%;
   }
 }
 

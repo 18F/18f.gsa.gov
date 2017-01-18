@@ -1,3 +1,19 @@
 .align-center {
   text-align: center;
 }
+
+.p-line-height {
+  line-height: $paragraph-line-height;
+}
+
+.p-weight {
+  font-weight: $font-normal;
+}
+
+.pad-bottom-mobile {
+  padding-bottom: $site-margins;
+
+  @include media($medium-screen) {
+    padding-bottom: initial;
+  }
+}

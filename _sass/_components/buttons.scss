@@ -50,18 +50,13 @@ button,
     }
   }
 
-  &:visited::#{$direction} {
-    background-image: url('../img/#{$icon}-visited.png');
-    background-image: url('../img/#{$icon}-visited.svg');
-  }
-
   &:hover::#{$direction} {
     background-image: url('../img/#{$icon}-hover.png');
     background-image: url('../img/#{$icon}-hover.svg');
   }
 
   &:visited {
-    color: $color-visited;
+    color: $color-bright;
   }
 
   &:hover {
@@ -69,29 +64,52 @@ button,
   }
 }
 
-.link-arrow-left {
-  @include display-icon(arrows/medium/arrow-left, before, 1.2rem);
-  @extend %link-arrow;
-}
+@mixin display-arrow($direction: 'right', $color: $color-medium) {
+  svg {
+    display: inline-block;
+    height: 1.2rem;
+    margin-bottom: -1px;
+    width: 1.2rem;
 
-.link-arrow-right {
-  @include display-icon(arrows/medium/arrow-right, after, 1.2rem);
-  @extend %link-arrow;
-}
+    @if $direction == 'right' {
+      margin-left: 4px;
+    } @else {
+      margin-right: 4px;
+    }
+  }
 
-a:visited .link-arrow-right {
-  color: $color-visited;
+  path {
+    fill: $color;
+  }
 
-  &::after {
-    background-image: url('../img/arrows/medium/arrow-right-visited.png');
-    background-image: url('../img/arrows/medium/arrow-right-visited.svg');
+  &:visited path {
+    fill: $color-visited;
+  }
+
+  &:hover path {
+    fill: $color-medium-hover;
   }
 }
 
-.link-arrow-right-alt {
-  @include display-icon(arrows/bright/arrow-right, after, 1.2rem);
-  @extend %link-arrow;
+@mixin link-arrows($direction) {
+  .link-arrow-#{$direction} {
+    @include display-arrow("#{$direction}");
+    @extend %link-arrow;
+  }
+
+  a {
+    &:visited .link-arrow-#{$direction} {
+      @include display-arrow($direction, $color-visited);
+    }
+
+    &:hover .link-arrow-#{$direction} {
+      @include display-arrow($direction, $color-medium-hover);
+    }
+  }
 }
+
+@include link-arrows('left');
+@include link-arrows('right');
 
 .social_icon-twitter {
   @include display-icon(global/social-icons/twitter, before, 1.4rem);

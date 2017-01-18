@@ -1,24 +1,29 @@
+$card-image-height: 200px;
+
 .card[aria-hidden=true] {
   display: none;
 }
 
-.card-link {
-  border: 1px solid $color-gray-lighter;
-  display: inline-block;
+.card {
   margin-bottom: $paragraph-margins-thick;
-  text-decoration: none;
 
-  @include media($medium-screen) {
+  &:last-of-type {
     margin-bottom: 0;
   }
 
-  &:hover,
-  &:focus {
-    border: 1px solid $color-bright-hover;
+  @include media($medium-screen + $grid-margins) {
+    margin-bottom: 0;
   }
+}
 
-  &:active {
-    border: 1px solid $color-primary-darker;
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+
+  @include hover-box-shadow;
+  @include media($medium-screen) {
+    margin-bottom: 0;
   }
 }
 
@@ -26,6 +31,7 @@
   background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
+  width: 100%;
 
   h4 {
     margin-top: 0;
@@ -38,13 +44,20 @@
 
 .card-description {
   color: initial;
+  font-size: 1.7rem;
 }
 
-.agency-tag {
-  color: $color-gray;
-  font-size: $tiny-font-size;
-  font-weight: $font-bold;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-bottom: 0;
+.card-tag {
+  @include small-caps;
+  color: $color-gray-dark;
+}
+
+.card-image-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $card-image-height;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
