@@ -10,12 +10,6 @@
   font-weight: $font-normal;
 }
 
-.pad-left-desktop {
-  @include media($medium-screen) {
-    padding-left: $site-margins;
-  }
-}
-
 .pad-bottom-mobile {
   padding-bottom: $site-margins;
 
