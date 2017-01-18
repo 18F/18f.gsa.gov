@@ -1,8 +1,13 @@
 $color-opaque: rgba(0, 0, 0, 0.2);
 
 @mixin hover-box-shadow() {
-  border: 1px solid $color-gray-lighter;
-  &:hover {
-    @include prefixer(box-shadow, 0 1px 5px $color-opaque, webkit moz ms o spec);
+  @include prefixer(box-shadow, 0 1px 9px $color-opaque, webkit moz ms o spec);
+
+  &:hover {  
+    @include prefixer(box-shadow, 0 1px 1px $color-opaque, webkit moz ms o spec);
+  }
+  
+  &:active {
+    box-shadow: $focus-shadow;
   }
 }
