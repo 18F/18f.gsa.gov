@@ -7,7 +7,6 @@ last_name: Schonfeld
 name: amanda-schonfeld
 role: 
 state: IL
-team: 
 twitter: 
 redirect_from: "/team/amanda-schonfeld/"
 published: false

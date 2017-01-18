@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Outreach
 redirect_from: "/team/pia/"
 published: false
 ---

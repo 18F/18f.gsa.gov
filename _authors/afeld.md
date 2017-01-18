@@ -8,7 +8,6 @@ city: New York City
 state: NY
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/afeld/"
 published: true
 ---

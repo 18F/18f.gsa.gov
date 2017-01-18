@@ -7,7 +7,6 @@ last_name: Rooney
 name: bill
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/bill/"
 published: true

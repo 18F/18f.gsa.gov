@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: esgoodman
 twitter: egoodman
-team: Design
 redirect_from: "/team/egoodman/"
 published: true
 ---

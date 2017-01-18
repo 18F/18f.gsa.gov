@@ -8,7 +8,6 @@ city: Los Angeles
 state: CA
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/christine/"
 published: false
 ---

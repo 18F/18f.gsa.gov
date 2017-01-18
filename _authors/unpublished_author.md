@@ -4,11 +4,10 @@ first_name: unpublished
 last_name: author
 full_name: Unpublished Author
 role: Testing
-city:
-state:
+city: 
+state: 
 github: 18F
 twitter: 18F
-team: 18F
 published: false
 ---
 

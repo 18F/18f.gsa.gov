@@ -6,7 +6,6 @@ name: timlowden
 city: 
 state: 
 role: 
-team: 
 redirect_from: 
 published: true
 ---

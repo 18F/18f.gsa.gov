@@ -7,7 +7,6 @@ last_name: Chrousos
 name: phaedra
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/phaedra/"
 published: false

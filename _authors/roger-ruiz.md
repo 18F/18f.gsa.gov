@@ -8,7 +8,6 @@ city: Richmond
 state: VA
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/roger-ruiz/"
 published: false
 ---

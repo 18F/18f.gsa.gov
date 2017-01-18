@@ -7,7 +7,6 @@ last_name: Rollins
 name: duane-rollins
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/duane-rollins/"
 published: true

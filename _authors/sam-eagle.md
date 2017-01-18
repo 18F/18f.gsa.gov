@@ -6,7 +6,6 @@ name: sam-eagle
 role: Press
 city: Washington
 state: DC
-team: Outreach
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

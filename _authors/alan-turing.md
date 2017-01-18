@@ -6,7 +6,6 @@ name: alan-turing
 role: Testing Lead
 city: Bletchley Park
 state: UK
-team: Delivery
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

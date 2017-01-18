@@ -4,7 +4,6 @@ last_name: Whitehead
 full_name: Memi Whitehead
 name: memiwhitehead
 role: 
-team: 
 city: 
 state: 
 guest: true

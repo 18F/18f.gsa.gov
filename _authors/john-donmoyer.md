@@ -7,7 +7,6 @@ last_name: Donmoyer
 name: john-donmoyer
 role: User Experience Designer
 state: IL
-team: Design
 twitter: 
 redirect_from: "/team/john-donmoyer/"
 published: false

@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/jamesscott/"
 published: false
 ---

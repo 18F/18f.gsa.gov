@@ -7,7 +7,6 @@ last_name: Read
 name: robert
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: 
 alumni: true

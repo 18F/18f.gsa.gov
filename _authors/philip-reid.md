@@ -6,7 +6,6 @@ name: philip-reid
 role: Engineer
 city: Washington
 state: DC
-team: Delivery
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

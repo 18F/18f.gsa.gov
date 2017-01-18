@@ -6,7 +6,6 @@ name: alexander-hamilton
 role: Product Lead
 city: New York
 state: NY
-team: DevOps
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

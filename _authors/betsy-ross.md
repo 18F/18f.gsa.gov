@@ -6,7 +6,6 @@ name: betsy-ross
 role: Visual Designer
 city: Philadelphia
 state: PA
-team: Design
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

@@ -8,7 +8,6 @@ city: Philadelphia
 state: PA
 github: 
 twitter: 
-team: 18F
 redirect_from: "/team/vraj-mohan/"
 published: false
 ---

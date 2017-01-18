@@ -8,7 +8,6 @@ city: Charlottesville
 state: VA
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/joshcarp/"
 published: false
 ---
