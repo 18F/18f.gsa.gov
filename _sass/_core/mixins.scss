@@ -1,4 +1,4 @@
-$color-opaque: rgba(0,0,0,0.3);
+$color-opaque: rgba(0, 0, 0, 0.3);
 $color-opaque-hover: rgba($color-medium-hover, 1);
 $color-opaque-darker: rgba($color-primary-darker, 1);
 
@@ -7,13 +7,13 @@ $color-opaque-darker: rgba($color-primary-darker, 1);
   @include prefixer(box-shadow, 0 1px 8px $color-opaque, webkit moz ms o spec);
 
   &:hover {
-  	@include prefixer(box-shadow, 0 1px 8px $color-opaque-hover, webkit moz ms o spec);
-  	border: 1px solid $color-medium-hover;
+    @include prefixer(box-shadow, 0 1px 8px $color-opaque-hover, webkit moz ms o spec);
+    border: 1px solid $color-medium-hover;
   }
 
   &:active,
   &:focus {
-  	@include prefixer(box-shadow, 0 1px 8px $color-opaque-darker, webkit moz ms o spec);
-  	border: 1px solid $color-primary-darker;
+    @include prefixer(box-shadow, 0 1px 8px $color-opaque-darker, webkit moz ms o spec);
+    border: 1px solid $color-primary-darker;
   }
 }
