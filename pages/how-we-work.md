@@ -15,25 +15,37 @@ See exactly how we put all of those principles into practice by reading through 
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/accessibility/">
       <img src="{{ site.baseurl }}/assets/img/guides/accessibility.svg" alt="">
-      <p class="link-arrow-right">Accessibility</p>
+      <p class="link-arrow-right">
+        Accessibility
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/frontend/">
       <img src="{{ site.baseurl }}/assets/img/guides/front-end.svg" alt="">
-      <p class="link-arrow-right">Front end</p>
+      <p class="link-arrow-right">
+        Front end
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/open-source-guide/">
       <img src="{{ site.baseurl }}/assets/img/guides/open-source.svg" alt="">
-      <p class="link-arrow-right">Open source</p>
+      <p class="link-arrow-right">
+        Open source
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/content-guide/">
       <img src="{{ site.baseurl }}/assets/img/guides/content.svg" alt="">
-      <p class="link-arrow-right">Content</p>
+      <p class="link-arrow-right">
+        Content
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
 </div>
@@ -42,25 +54,37 @@ See exactly how we put all of those principles into practice by reading through 
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/lean-product-design/">
       <img src="{{ site.baseurl }}/assets/img/guides/lean-product-design.svg" alt="">
-      <p class="link-arrow-right link-lean">Lean product design</p>
+      <p class="link-arrow-right link-lean">
+        Lean product design
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://methods.18f.gov/">
       <img src="{{ site.baseurl }}/assets/img/guides/design-methods.svg" alt="">
-      <p class="link-arrow-right">Design methods</p>
+      <p class="link-arrow-right">
+        Design methods
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/automated-testing-playbook/">
       <img src="{{ site.baseurl }}/assets/img/guides/automated-testing.svg" alt="">
-      <p class="link-arrow-right">Automated testing</p>
+      <p class="link-arrow-right">
+        Automated testing
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
   <div class="graphic-list-item">
     <a class="graphic-list-link" href="https://pages.18f.gov/guides/">
       <img src="{{ site.baseurl }}/assets/img/guides/view-more.svg" alt="">
-      <p class="link-arrow-right">View more</p>
+      <p class="link-arrow-right">
+        View more
+        {% include svg/icons/arrow-right.svg %}
+      </p>
     </a>
   </div>
 </div>
