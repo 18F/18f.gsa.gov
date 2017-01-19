@@ -1,8 +1,7 @@
 ---
 title: Hire 18F
 permalink: /hire/
-image: /assets/img/page-feature/hire-us.jpg
-layout: default-image
+layout: default-intro
 lead: Let’s work together to tackle your agency’s technology problems and transform how you serve the public.
 ---
 
