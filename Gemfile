@@ -7,15 +7,15 @@ gem 'jekyll', '~> 3.1'
 gem 'jemoji'
 
 group :jekyll_plugins do
-  gem 'jekyll-archives', :git => "git://github.com/jekyll/jekyll-archives.git", :branch => 'master'
-  gem 'jekyll_pages_api'
-  gem 'jekyll_pages_api_search'
-  gem 'jekyll-sitemap'
+  gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', branch: 'master'
+  gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
-  gem 'jekyll_frontmatter_tests'
-  gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll_frontmatter_tests'
+  gem 'jekyll_pages_api'
+  gem 'jekyll_pages_api_search'
 end
 
 group :development do
@@ -30,6 +30,6 @@ group :development do
 end
 
 group :test do
-  gem 'simplecov'
   gem 'codeclimate-test-reporter', '~> 1.0.0'
+  gem 'simplecov'
 end
