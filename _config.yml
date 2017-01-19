@@ -34,6 +34,9 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
+  about:
+    output: true
+    permalink: /:path/
   authors:
     output: true
     permalink: /author/:name/
