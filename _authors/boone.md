@@ -3,11 +3,6 @@ name: boone
 first_name: Greg
 last_name: Boone
 full_name: Greg Boone
-role: Developer
-city: Denver
-state: CO
-github: gboone
-twitter: gboone42
 project:
 - 18f.gsa.gov
 - Dashboard

@@ -3,9 +3,6 @@ first_name: Sally
 last_name: Ride
 full_name: Sally Ride
 name: sally-ride
-role: Deputy Director of Infrastructure
-city: San Diego
-state: CA
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

@@ -15,5 +15,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'github', 'twitter', 'role', 'city', 'state', 'team', 'last_name', 'team']
+  optional: ['last_name', 'team']
 ---
