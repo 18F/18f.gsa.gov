@@ -1,18 +1,13 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'redcarpet'
-gem 'jekyll', '~> 3.1'
-gem 'html-proofer'
 gem 'accesslint-ci', '0.2.6'
+gem 'html-proofer'
+gem 'jekyll', '~> 3.1'
+gem 'jemoji'
 
 group :jekyll_plugins do
-  if ENV['FAST_BUILDS'] == 'true'
-    puts 'not using jekyll-archives because its sloooooooooow'
-  else
-    gem 'jekyll-archives', git: 'https://github.com/18F/jekyll-archives.git'
-  end
-
+  gem 'jekyll-archives', :git => "git://github.com/jekyll/jekyll-archives.git", :branch => 'master'
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search'
   gem 'jekyll-sitemap'
@@ -22,7 +17,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
 end
-gem 'jemoji'
 
 group :development do
   gem 'capybara'
