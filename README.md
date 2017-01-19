@@ -17,9 +17,10 @@ Run each of the following steps to get the site up and running.
 3. `bundle install`
 4. `./serve`
 
-To enable the ability to search and see all pages related to the blog, you can run `bundle exec jekyll serve` instead of `./serve` for the server start command. This will **slow down rebuild times dramatically**, so use this command with discretion.
+To dramatically reduce the build time, there are two commands that you can run instead of `./serve`:
 
-To enable the ability to see the most recent posts, you can run `./serve-blog`. This takes longer than `./serve`, but **significantly less time** than building the entire site.
+* `./serve-fast`: This will eliminate all of the blog posts and the search index, but generates all other pages
+* `./serve-blog`: This will eliminate all but the latest three blog posts, but keeps the rest of the site intact.
 
 You should be able to see the site at: http://127.0.0.1:4000
 

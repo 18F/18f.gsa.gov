@@ -7,7 +7,7 @@ gem 'jekyll', '~> 3.1'
 gem 'jemoji'
 
 group :jekyll_plugins do
-  gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', branch: 'master'
+  gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
