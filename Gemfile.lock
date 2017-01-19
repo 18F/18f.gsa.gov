@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/18F/jekyll-archives.git
-  revision: 9ad78a4aa38de0af570a53f3c12558408e9537f7
+  remote: git://github.com/jekyll/jekyll-archives.git
+  revision: 112c508031acf3cf1d9024b005f99b2752133769
+  ref: 112c508
   specs:
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
@@ -135,7 +136,6 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rb-readline (0.5.3)
-    redcarpet (3.3.4)
     rest-client (2.0.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -205,7 +205,6 @@ DEPENDENCIES
   pry
   rack-jekyll
   rb-readline
-  redcarpet
   rspec
   selenium-webdriver
   simplecov

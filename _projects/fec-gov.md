@@ -16,6 +16,7 @@ agency_partner_url: /work/fec/
 project_type: laws-and-mandates
 ---
 
+
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.
 
 The FEC has published campaign finance data for decades, but their legacy website was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
