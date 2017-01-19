@@ -1,7 +1,7 @@
 ---
 title: "The Dark Standup"
 authors:
-- alanb
+- alan-brouilette
 tags:
 - how we work
 excerpt: "In September, our Operations team was authorized for a limited amount of overtime during the fiscal year crunch. The team needed the extra hours, but like many others in America, it always feels like we need 50 hours a week to get everything done. Once we were in the fiscal new year, we decided to determine how accurate our perception of not having enough time to get everything done truly was. So the team did something interesting."
