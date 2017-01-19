@@ -7,7 +7,6 @@ last_name: Kendall
 name: adam-kendall
 role: 
 state: VA
-team: Engineering
 twitter: 
 redirect_from: "/team/adam-kendall/"
 published: false

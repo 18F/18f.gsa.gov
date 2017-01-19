@@ -6,9 +6,6 @@ full_name: "String"
 role: "String"
 city: "String"
 state: "String"
-team:
-  type: "String"
-  oneof: ["Delivery", "Consulting", "Design", "Talent"]
 role: "String"
 published: Boolean
 config:
@@ -18,5 +15,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'github', 'twitter']
+  optional: ['tumblr_url', 'github', 'twitter', 'role', 'city', 'state', 'team', 'last_name', 'team']
 ---

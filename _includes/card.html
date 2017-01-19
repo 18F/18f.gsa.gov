@@ -1,13 +1,27 @@
 {% assign card_link = include.link | prepend: site.baseurl %}
 
-<article class="card usa-width-one-half">
+{% assign columns = include.columns | default: 3 %}
+
+{% if columns == 2 %}
+  {% assign wds_grid_class = 'usa-width-one-half' %}
+{% else %}
+  {% assign wds_grid_class = 'usa-width-one-third' %}
+{% endif %}
+
+{% assign project_type = include.project_type | default: 'none' %}
+
+<article class="card {{ wds_grid_class }}" data-bucket="{{ project_type }}">
   <a class="card-link" href="{{ card_link }}">
-    <img class="card-image" src="{{ include.image_src | prepend: site.baseurl }}"
-           alt="{{ include.image_alt }}" />
+    <div role="img" title="{{ include.image_alt }}" class="card-image-bg" style="background-image: url({{ site.baseurl }}{{ include.image_src }});">
+    </div>
     <div class="card-banner">
-      <h3>{{ include.title }}</h3>
+      <p class="card-tag">{{ include.agency }}</p>
+      <h3 class="h4">{{ include.tagline }}</h3>
       <p class="card-description">{{ include.description }}</p>
-      <span class="link-arrow-right">Learn more</span>
+      <span class="link-arrow-right">
+        Read more
+        {% include svg/icons/arrow-right.svg %}
+      </span>
     </div>
   </a>
 </article>

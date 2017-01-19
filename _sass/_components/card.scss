@@ -1,15 +1,29 @@
-.card-link {
-  border: 1px solid $color-gray-lighter;
-  display: inline-block;
-  text-decoration: none;
+$card-image-height: 200px;
 
-  &:hover,
-  &:focus {
-    border: 1px solid $color-bright-hover;
+.card[aria-hidden=true] {
+  display: none;
+}
+
+.card {
+  margin-bottom: $paragraph-margins-thick;
+
+  &:last-of-type {
+    margin-bottom: 0;
   }
 
-  &:active {
-    border: 1px solid $color-primary-darker;
+  @include media($medium-screen + $grid-margins) {
+    margin-bottom: 0;
+  }
+}
+
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+
+  @include hover-box-shadow;
+  @include media($medium-screen) {
+    margin-bottom: 0;
   }
 }
 
@@ -17,6 +31,11 @@
   background-color: $color-white;
   float: left;
   padding: $paragraph-margins * 2;
+  width: 100%;
+
+  h4 {
+    margin-top: 0;
+  }
 }
 
 .card-image {
@@ -25,4 +44,20 @@
 
 .card-description {
   color: initial;
+  font-size: 1.7rem;
+}
+
+.card-tag {
+  @include small-caps;
+  color: $color-gray-dark;
+}
+
+.card-image-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $card-image-height;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

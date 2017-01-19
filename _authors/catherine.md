@@ -8,7 +8,6 @@ city: Dayton
 state: Ohio
 github: catherinedevlin
 twitter: catherinedevlin
-team: Delivery
 redirect_from: "/team/catherine/"
 published: true
 ---

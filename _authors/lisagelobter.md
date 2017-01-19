@@ -8,7 +8,6 @@ city:
 state: 
 github: 
 twitter: 
-team: 
 guest: true
 redirect_from: 
 published: true

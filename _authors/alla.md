@@ -7,7 +7,6 @@ last_name: Seiffert
 name: alla
 role: Deputy for Acquisition
 state: DC
-team: Acquisition
 twitter: 
 redirect_from: "/team/alla/"
 published: true

@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: https://github.com/noahkunin
 twitter: https://twitter.com/noahkunin
-team: DevOps
 redirect_from: "/team/noah/"
 published: true
 ---

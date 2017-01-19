@@ -7,7 +7,6 @@ last_name: Fureigh
 name: fureigh
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/fureigh/"
 published: false

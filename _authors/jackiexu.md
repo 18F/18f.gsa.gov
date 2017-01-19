@@ -7,7 +7,6 @@ last_name: Xu
 name: jackiexu
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/jackiexu/"
 published: false

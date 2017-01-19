@@ -7,7 +7,6 @@ last_name: Phoebe
 name: phoebe-espiritu
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/phoebe-espiritu/"
 published: true

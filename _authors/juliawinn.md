@@ -7,7 +7,6 @@ last_name: Winn
 name: juliawinn
 role: 
 state: D.C.
-team: 
 twitter: 
 redirect_from: "/team/julia-winn"
 published: true

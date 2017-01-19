@@ -7,7 +7,6 @@ last_name: Chessen
 name: mattchessen
 role: 
 state: 
-team: 
 twitter: 
 guest: true
 redirect_from: 

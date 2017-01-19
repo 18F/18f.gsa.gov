@@ -26,6 +26,7 @@ exclude:
 - sitemap.xml
 - system-security-plan.yml
 - vendor
+- pages/our-work.html
 - _posts/2014-03-12-coming-soon.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
 - _posts/2014-03-21-29-minutes.md
@@ -334,3 +335,15 @@ exclude:
 - _posts/2016-10-14-iterative-workplace-design-denver-federal-center.md
 - _posts/2016-10-24-embracing-opportunities-to-improve-and-innovate.md
 - _posts/2016-10-25-three-small-steps-you-can-take-to-reboot-agile-in-your-organization.md
+- _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
+- _posts/2016-10-26-writing-for-web-easy-writing-for-users-not.md
+- _posts/2016-10-28-california-takes-new-approach-procurement.md
+- _posts/2016-11-04-code-gov-the-next-milestone-federal-open-source-code.md
+- _posts/2016-11-14-modular-procurement-state-local-government.md
+- _posts/2016-11-17-leadership-innovation-california-child-welfare-services.md
+- _posts/2016-11-22-a-vulnerability-disclosure-policy-for-the-technology-transformation-service.md
+- _posts/2016-11-25-what-18f-is-thankful-for-this-thanksgiving.md
+- _posts/2016-11-30-curate-best-thinking-available.md
+- _posts/2016-12-02-presidential-innovation-fellows-now-accepting-applications-spring-2017.md
+- _posts/2016-12-12-connecting-culture-change-at-18F-and-PBS.md
+- _posts/2016-12-13-lowering-risk-of-experimentation-open-source-code.md

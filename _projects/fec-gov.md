@@ -1,9 +1,10 @@
 ---
 layout: project-tag-results
-project-type: "Project"
-title: "The Federal Election Commission"
+agency: Federal Election Commission
+title: beta.fec.gov
 subtitle: Making campaign data easier to use
-excerpt: We helped the FEC make it easier for journalists and members of the public to use their data.
+permalink: /project/fec-gov/
+excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.
 image: /assets/img/home/hero-fec.png
 image_accessibility: Image of the FEC data explorer with stylized magnifying glass.
 tags:
@@ -11,6 +12,8 @@ tags:
 expiration_date:
 github_repo: https://github.com/18F/openFEC-web-app
 project_url: https://beta.fec.gov/
+agency_partner_url: /work/fec/
+project_type: laws-and-mandates
 ---
 
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.

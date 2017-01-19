@@ -7,7 +7,6 @@ last_name: Mullen
 name: ed-mullen
 role: Product Strategist
 state: New York
-team: Change Strategy
 twitter: 
 redirect_from: "/team/ed-mullen/"
 published: false

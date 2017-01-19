@@ -12,9 +12,6 @@ feature_image: /assets/img/feature-background.jpg
 tag_dir: tags
 github_repo: https://github.com/18F/18f.gsa.gov/blob/master
 
-# app version number
-version: v1.1.0
-
 analytics:
   google:
     code: 'UA-48605964-1' # Change this to your GSA analytics code
@@ -107,7 +104,10 @@ exclude:
   - LICENSE.md
   - PULL_REQUEST_TEMPLATE.md
   - ISSUE_TEMPLATE.md
-  - 'Accessibility Scanning Using Pa11y-ci.md'
+  - bin
+  - pages/our-work.html
+  - tests/**/*
+  - tests/schema/tags.yml
 
 # jekyll plugins
 gems:

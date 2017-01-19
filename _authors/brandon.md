@@ -7,7 +7,6 @@ last_name: Kirby
 name: brandon
 role: Consultant
 state: GA
-team: 18F Consulting
 twitter: 
 redirect_from: "/team/brandon/"
 published: false

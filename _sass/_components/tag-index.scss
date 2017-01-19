@@ -3,18 +3,15 @@
 
 .page-tag-results {
   .hero {
-    padding-bottom: $section-margins * 1.5;
+    padding: $section-margins;
   }
 
   .hero-callout {
-    max-width: 21rem;
-    padding-top: $paragraph-margins;
-    padding-bottom: $paragraph-margins;
-    padding-left: $paragraph-margins * 1.2;
+    padding: $paragraph-margins-thick;
   }
 
   .hero-callout-title {
-    line-height: 1.2;
+    font-size: $banner-font-size;
   }
 
   .post-list {

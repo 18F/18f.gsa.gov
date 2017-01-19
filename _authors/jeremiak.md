@@ -8,7 +8,6 @@ city: New York
 state: NY
 github: jeremiak
 twitter: jeremiak
-team: Delivery
 redirect_from: "/team/jeremiak/"
 published: true
 ---

@@ -7,7 +7,7 @@ authors:
 tags:
 - open source
 - tools you can use
--
+
 excerpt: "We’ve put together a list of facts and references that will help you build the case for open source development in your team or agency and bust myths about using public code repositories. This post is based on our experiences at the federal level, but we hope it’s helpful for anyone working in government."
 description: "We’ve put together a list of facts and references that will help you build the case for open source development in your team or agency and bust myths about using public code repositories."
 image: /assets/blog/github-facts/wh-astronomy-night.jpg

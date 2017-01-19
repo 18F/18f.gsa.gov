@@ -7,7 +7,6 @@ last_name: Thottungal
 name: robin-thottungal
 role: 
 state: 
-team: 
 twitter: 
 guest: true
 redirect_from: 

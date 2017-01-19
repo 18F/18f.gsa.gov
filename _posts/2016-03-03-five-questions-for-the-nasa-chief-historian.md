@@ -13,11 +13,7 @@ image: /assets/blog/nasa-historian/space.jpg
 
 NASA’s design choices — in particular, their iconic [“meatball”](http://history.nasa.gov/meatball.htm) and [“worm”](http://www.nasa.gov/audience/forstudents/5-8/features/symbols-of-nasa.html) logos — have long been a source of public fascination, and no one is better aware of this than Dr. Bill Barry. Barry has served as NASA’s Chief Historian since 2010. His tenure with NASA began in 2001; prior to his current role, he served as NASA’s European Representative at the United States Embassy in Paris and as a Senior International Programs Specialist in NASA’s Office of External Relations.
 
-18F Design Presents is extremely happy to be welcoming Dr. Barry to the 18F headquarters on Friday, March 4, for a discussion of NASA’s logos and the importance of design to government missions. In preparation for the event, we had an email conversation with Dr. Barry about the meatball (and more). Read on for the full conversation. 
-
-![A picture taken from the International Space station showing the Eastern seaboard of the United States]({{site.baseurl}}/assets/blog/nasa-historian/space.jpg)
-
-***
+18F Design Presents is extremely happy to be welcoming Dr. Barry to the 18F headquarters on Friday, March 4, for a discussion of NASA’s logos and the importance of design to government missions. In preparation for the event, we had an email conversation with Dr. Barry about the meatball (and more). Read on for the full conversation.
 
 **Kate Garklavs**: NASA switched from “the meatball” logo, pictured here:
 

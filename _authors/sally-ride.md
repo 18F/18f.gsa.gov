@@ -6,7 +6,6 @@ name: sally-ride
 role: Deputy Director of Infrastructure
 city: San Diego
 state: CA
-team: Infrastructure
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

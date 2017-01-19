@@ -20,3 +20,4 @@ exclude:
 - serve
 - sitemap.xml
 - system-security-plan.yml
+- pages/our-work.html

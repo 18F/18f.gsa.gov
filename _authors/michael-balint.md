@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: 
 twitter: 
-team: 
 redirect_from: "/team/michael-balint/"
 published: false
 ---

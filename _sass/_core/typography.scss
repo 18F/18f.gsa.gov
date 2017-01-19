@@ -29,6 +29,10 @@ h6 {
   font-family: $font-sans;
 }
 
+h4 {
+  font-size: $h4-font-size;
+}
+
 a {
   color: $color-medium;
 
@@ -37,7 +41,9 @@ a {
   }
 }
 
-
+h2 {
+  margin-bottom: 1em;
+}
 
 .h1 {
   @extend h1;
@@ -61,5 +67,17 @@ a {
 
 .h6 {
   @extend h6;
+}
+
+.paragraph-bold {
+  font-weight: $font-bold;
+}
+
+@mixin small-caps {
+  color: $color-gray;
+  font-size: $tiny-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 

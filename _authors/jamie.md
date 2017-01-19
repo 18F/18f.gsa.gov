@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: jamiealbrecht
 twitter: jmealbrecht
-team: Talent
 redirect_from: "/team/jamie/"
 published: true
 ---

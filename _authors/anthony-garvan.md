@@ -7,7 +7,6 @@ last_name: Garvan
 name: anthony-garvan
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/anthony-garvan/"
 published: true

@@ -30,12 +30,36 @@
   }
 }
 
+.usa-flex-vertically-top {
+  margin-bottom: $section-margins;
+}
+
+@include media($medium-screen) {
+  .usa-flex {
+    display: flex;
+  }
+
+  .usa-flex-vertically-top {
+    align-self: flex-start;
+    flex-direction: column;
+  }
+
+  .usa-flex-vertically-bottom {
+    align-self: flex-end;
+    flex-direction: column;
+  }
+}
+
 .usa-section {
   @include padding($section-margins null);
 
   .page-lead {
     margin-top: 0;
   }
+}
+
+.background-gray {
+  background-color: $color-gray-lightest;
 }
 
 .background-dark {

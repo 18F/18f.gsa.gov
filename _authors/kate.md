@@ -8,7 +8,6 @@ city: Portland
 state: OR
 github: 
 twitter: 
-team: Design
 redirect_from: "/team/kate/"
 published: true
 ---

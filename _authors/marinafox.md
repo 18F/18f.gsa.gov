@@ -7,7 +7,6 @@ github:
 last_name: Fox
 role: 
 state: 
-team: 
 twitter: 
 guest: true
 url: https://www.digitalgov.gov/author/mfox/

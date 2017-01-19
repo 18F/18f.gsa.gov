@@ -11,6 +11,7 @@ tags:
 excerpt: "We've been thinking a lot lately about our role within the open source community, and it's our 2016 resolution to increase the number of non-employee contributors to our projects, including: contributors with little previous experience with open source, and contributors to documentation, bug filing, and other non-coding work."
 description: "We've been thinking a lot lately about our role within the open source community, and it's our 2016 resolution to increase the number of non-employee contributors to our projects, including: contributors with little previous experience with open source, and contributors to documentation, bug filing, and other non-coding work."
 image: /assets/blog/open-source/documentation.jpg
+hero: false
 ---
 
 Ah, a brand new year. Time to [reflect on the
