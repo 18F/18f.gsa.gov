@@ -9,7 +9,8 @@ tags:
 - how we work
 excerpt: "Wondering if a writing lab might be right for your organization? Reviewing the benefits 18F has seen from our Writing Lab might help you figure out if starting your own is the way to go."
 description: "Wondering if a writing lab might be right for your organization? Reviewing the benefits 18F has seen from our Writing Lab might help you figure out if starting your own is the way to go."
-Image: /assets/blog/content/writing-lab-issue.jpg
+image: /assets/blog/content/writing-lab-issue.jpg
+hero: false
 ---
 Last month, we posted about [our Guide to the 18F Writing
 Lab](https://18f.gsa.gov/2016/04/28/a-guide-to-the-18f-writing-lab/) to
