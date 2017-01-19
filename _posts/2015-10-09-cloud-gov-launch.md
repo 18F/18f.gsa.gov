@@ -46,7 +46,7 @@ water in a production-worthy state from day one of development.</strong></p>
 
 ---
 
-##Scaling infrastructure expertise and reducing grunt work
+## Scaling infrastructure expertise and reducing grunt work
 
 Previously, infrastructure meant dealing with data centers, procuring
 racks of hardware, flushing out single points of failure, cabling, and
@@ -88,7 +88,7 @@ skillsets, while keeping your headcount under control. 18F has built on
 the open source project [Cloud Foundry](http://www.cloudfoundry.org/)
 to create our own PaaS that we call cloud.gov.
 
-##Creating a feedback loop
+## Creating a feedback loop
 
 Creating cloud.gov has had a tremendous effect for our teams. The job of
 the infrastructure team is shifting from "trying to look after all the
@@ -108,7 +108,7 @@ Giving those teams more time to work on their boat and less time
 worrying about the boat launch allows 18F to keep our teams small, our
 products robust, and our launches frequent.
 
-##Getting your own shipyard
+## Getting your own shipyard
 
 We’re now exploring whether 18F's cloud.gov meets the needs of several
 federal agencies who are participating in a cloud.gov pilot program. We
