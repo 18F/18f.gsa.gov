@@ -96,22 +96,6 @@ footer:
 markdown: kramdown
 highlighter: rouge
 
-include:
-  - _navigation.json
-exclude:
-  - README.md
-  - vendor
-  - node_modules
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - PULL_REQUEST_TEMPLATE.md
-  - ISSUE_TEMPLATE.md
-  - bin
-  - pages/our-work.html
-  - tests/**/*
-  - tests/schema/tags.yml
-
 # jekyll plugins
 gems:
   - jekyll-sitemap

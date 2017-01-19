@@ -36,7 +36,6 @@ exclude:
 - serve
 - serve-blog
 - serve-fast
-- serve-test
 - serve-accesslint
 - sitemap.xml
 - system-security-plan.yml
