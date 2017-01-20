@@ -7,7 +7,6 @@ last_name: Karman
 name: pkarman
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/pkarman/"
 published: true

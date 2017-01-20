@@ -21,7 +21,10 @@
                 </h3>
                 <p>{{ post.excerpt }}</p>
                 <p>
-                  <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+                  <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">
+                    Continue reading
+                    {% include svg/icons/arrow-right.svg %}
+                  </a>
                 </p>
                 <span class="post-tags" itemprop="keywords">
                   {% for tag in post.tags %}

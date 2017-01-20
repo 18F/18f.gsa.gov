@@ -8,7 +8,6 @@ state: CA
 role: Product Lead
 github: 
 twitter: 
-team: DevOps
 redirect_from: "/team/bret/"
 published: true
 ---

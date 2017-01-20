@@ -7,7 +7,6 @@ last_name: Posilkin
 name: jessie-posilkin
 role: 
 state: District of Columbia
-team: 
 twitter: 
 redirect_from: "/team/jessie-posilkin/"
 published: false

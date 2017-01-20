@@ -16,6 +16,7 @@ tags:
 excerpt: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail the strategies people use when interacting with the government."
 description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail the strategies people use when interacting with the government."
 image: /assets/blog/federal-front-door/ffd-microsite.jpg
+hero: false
 ---
 
 

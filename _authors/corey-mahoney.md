@@ -7,7 +7,6 @@ last_name: Mahoney
 name: corey-mahoney
 role: Content designer
 state: CA
-team: Design
 twitter: 
 redirect_from: "/team/corey.mahoney/"
 published: true

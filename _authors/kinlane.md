@@ -7,7 +7,6 @@ last_name: Lane
 name: kinlane
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: 
 alumni: true

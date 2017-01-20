@@ -1,0 +1,19 @@
+.form-checkboxes {
+  margin-bottom: $paragraph-margins-thick;
+}
+
+.form-inline {
+
+  display: inline-block;
+  margin-right: $paragraph-margins-thick;
+  position: relative;
+
+  input {
+    margin-left: 0;
+  }
+
+  input,
+  label {
+    cursor: pointer;
+  }
+}

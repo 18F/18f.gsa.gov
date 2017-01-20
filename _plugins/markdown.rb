@@ -3,10 +3,10 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
     end
-    require "kramdown"
+    require 'kramdown'
     def render(context)
       content = super
-      "#{Kramdown::Document.new(content).to_html}"
+      Kramdown::Document.new(content).to_html.to_s
     end
   end
 end

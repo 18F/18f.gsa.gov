@@ -8,7 +8,6 @@ city: Washington
 state: D.C.
 github: elainekamlley
 twitter: elainekamlley
-team: Outreach
 project:
 - 18f.gsa.gov
 - 18F Blog

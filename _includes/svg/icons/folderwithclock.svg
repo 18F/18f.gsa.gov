@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="59px" viewBox="0 0 56 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Folder with clock icon</title>
+    <desc>Icon image of a folder with a clock in front of it</desc>
+    <defs></defs>
+    <g id="folderwithclock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-541.000000, -803.000000)">
+            <g transform="translate(540.000000, 804.000000)">
+                <path d="M12.8566853,7.21007066 C12.2761355,5.85853777 11.3766285,4 10.6746846,4 L3.81758016,4 C2.81548319,4 2,4.81019956 2,5.80692506 L2,40.4729035 C2,41.4686687 2.81524516,42.2781481 3.81758016,42.2781481 L16.0564928,42.2781481" stroke="#00CFFF" stroke-width="2"></path>
+                <path d="M47.2179998,18.5191509 L47.2179998,9.83381168 C47.2179998,8.82220251 46.4027547,8 45.4013718,8 L41,8" stroke="#00CFFF" stroke-width="2"></path>
+                <path d="M47.0762737,16 L2,16" stroke="#00CFFF" stroke-width="2"></path>
+                <polygon stroke="#00CFFF" stroke-width="2" points="42.18665 15.2590321 7.2353642 15.2590321 6 7.8496071 39.5005065 1"></polygon>
+                <ellipse stroke="#00CFFF" stroke-width="2" cx="38.6057704" cy="39.747485" rx="16.6057704" ry="16.747485"></ellipse>
+                <polyline stroke="#00CFFF" stroke-width="2" points="46.7827492 39.5992633 38 39.5992633 38 27"></polyline>
+                <rect x="0" y="0" width="57.1266683" height="57.6141907"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -6,7 +6,6 @@ name: captain-america
 role: Developer
 city: Washington
 state: DC
-team: Consulting
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

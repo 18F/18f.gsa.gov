@@ -11,6 +11,7 @@ tags:
 description: "What if we told you that most catastrophic digital security vulnerabilities had one common denominator? One overriding contributor to root causes? Would you believe that one factor is also the biggest impediment to great design and software? That one thing? Complexity."
 excerpt: "What if we told you that most catastrophic digital security vulnerabilities had one common denominator? One overriding contributor to root causes? Would you believe that one factor is also the biggest impediment to great design and software? That one thing? Complexity."
 image: /assets/blog/complexity-and-security/security-documentation-1.jpg
+hero: false
 ---
 
 What if we told you that most catastrophic digital security vulnerabilities had one common denominator? One overriding contributor to root causes? Would you believe that *one factor* is *also* the biggest impediment to great design and software?
@@ -33,12 +34,11 @@ When we do invest in documentation, we should overwhelmingly focus on a small an
 
 We're moving in the right direction. The U.S. Computer Emergency Readiness Team (US-CERT) has **[put out five new best practices](https://www.us-cert.gov/ncas/current-activity/2015/07/31/Best-Practices-Protect-You-Your-Network-and-Your-Information)** for both the public and private sector. This list was compiled after responding to a significant number of data breaches over the past year, covering incidents both within and outside the government.
 
->
-1. Implement Two-Factor Authentication: Two-factor authentication works to significantly reduce or eliminate unauthorized access to your networks and information.
-2. Block Malicious Code: Activate application directory whitelisting to prevent non-approved applications from being installed on your network.
-3. Limit Number of Privileged Users: System administrators have privileged access that gives them the “keys to your kingdom.” Limit system administrator privileges only to those who have a legitimate need as defined by your management directives.
-4. Segment Your Network: Don’t put all your eggs in one basket by having a “flat network.” Use segmentation techniques so that if one part of your network is breached that the integrity of the rest of the network is protected.
-5. Lock Your Backdoors: Third parties that share network trust relationships with you may prove to be an Achilles heel by serving as an attack vector into your network. Take action to ensure that all network trust relationships are well-protected using best practices. Have a means to audit the effectiveness of these defenses. Consider terminating or suspending these relationships until sufficient controls are in place to protect your backdoors.
+> 1. Implement Two-Factor Authentication: Two-factor authentication works to significantly reduce or eliminate unauthorized access to your networks and information.
+> 2. Block Malicious Code: Activate application directory whitelisting to prevent non-approved applications from being installed on your network.
+> 3. Limit Number of Privileged Users: System administrators have privileged access that gives them the “keys to your kingdom.” Limit system administrator privileges only to those who have a legitimate need as defined by your management directives.
+> 4. Segment Your Network: Don’t put all your eggs in one basket by having a “flat network.” Use segmentation techniques so that if one part of your network is breached that the integrity of the rest of the network is protected.
+> 5. Lock Your Backdoors: Third parties that share network trust relationships with you may prove to be an Achilles heel by serving as an attack vector into your network. Take action to ensure that all network trust relationships are well-protected using best practices. Have a means to audit the effectiveness of these defenses. Consider terminating or suspending these relationships until sufficient controls are in place to protect your backdoors.
 
 This is a great start! There's nothing new on this list — these are things any organization, either in the public or the private sector, can and should implement ***today***. But that means this is also a summary of what should *already* be true. It doesn't create the roadmap of where we should go from here. All of this is technology that's been available for years.
 

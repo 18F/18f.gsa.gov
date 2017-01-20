@@ -7,7 +7,6 @@ last_name: Antiporta
 name: porta
 role: Product Lead
 state: IL
-team: Product
 twitter: 
 redirect_from: "/team/porta-antiporta"
 published: true

@@ -8,7 +8,6 @@ city: San Francisco
 state: CA
 github: 
 twitter: 
-team: Delivery
 redirect_from: "/team/amos/"
 published: true
 ---

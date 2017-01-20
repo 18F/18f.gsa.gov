@@ -5,8 +5,9 @@ authors:
   matches: _data/author.yml
 tags:
   type: Array
+  one_of: tags.yml
   rules: [no-dash, lowercase]
-excerpt: "string"
+excerpt: "String"
 config:
   path: '_posts'
   ignore:
@@ -14,5 +15,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'layout', 'date', 'image']
+  optional: ['tumblr_url', 'layout', 'date', 'image', 'image_alt']
 ---

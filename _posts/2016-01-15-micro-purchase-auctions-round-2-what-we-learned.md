@@ -11,6 +11,7 @@ tags:
 excerpt: "The auctions have closed, the bids are in, the winners are off coding, and some already have been paid. Let’s look at some early lessons from our latest round of micro-purchase auctions."
 description: "The auctions have closed, the bids are in, the winners are off coding, and some already have been paid. Let’s look at some early lessons from our latest round of micro-purchase auctions."
 image: /assets/blog/micro-purchase/closed-auctions.jpg
+hero: false
 ---
 
 ![A screenshot of two closed auctions]({{ site.baseurl }}/assets/blog/micro-purchase/closed-auctions.jpg)

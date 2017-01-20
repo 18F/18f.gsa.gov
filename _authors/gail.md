@@ -8,7 +8,6 @@ state: IL
 role: User Experience Designer
 github: 
 twitter: 
-team: Design
 redirect_from: "/team/gail/"
 published: false
 ---

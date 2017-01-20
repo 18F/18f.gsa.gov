@@ -6,7 +6,6 @@ name: ada-lovelace
 role: Developer
 city: London
 state: UK
-team: Engineering
 april-fools: 2016
 tags: april fools 2016
 redirect_to: "/april-fools/2016/"

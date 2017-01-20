@@ -7,7 +7,6 @@ last_name: Thurwell
 name: ryan
 role: 
 state: 
-team: 
 twitter: 
 redirect_from: "/team/ryan/"
 published: true

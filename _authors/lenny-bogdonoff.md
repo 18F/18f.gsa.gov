@@ -7,7 +7,6 @@ last_name: Bogdonoff
 name: lenny-bogdonoff
 role: General Developer
 state: NY
-team: 
 twitter: 
 redirect_from: "/team/lenny-bogdonoff/"
 published: false

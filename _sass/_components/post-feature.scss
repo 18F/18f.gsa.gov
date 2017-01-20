@@ -5,6 +5,10 @@
     @include unstyled-list;
   }
 
+  .post-excerpt {
+    font-size: 1.7rem;
+  }
+
   article {
     border-top: $border-accent;
     margin-bottom: $site-margins;
@@ -18,6 +22,18 @@
       text-decoration: none;
     }
   }
+
+  .post {
+    margin-bottom: $paragraph-margins-thick;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include media($medium-screen + $grid-margins) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .posts_feature-heading {
@@ -29,9 +45,6 @@
 }
 
 .post-date {
-  color: $color-gray;
-  font-size: 1.2rem;
-  font-weight: $font-bold;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  @include small-caps;
 }
+

@@ -8,7 +8,6 @@ city: New York
 state: NY
 github: 
 twitter: 
-team: 18F
 redirect_from: "/team/michael-cata/"
 published: false
 ---
