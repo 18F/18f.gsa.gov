@@ -3,9 +3,6 @@ first_name: Betsy
 last_name: Ross
 full_name: Betsy Ross
 name: betsy-ross
-role: Visual Designer
-city: Philadelphia
-state: PA
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

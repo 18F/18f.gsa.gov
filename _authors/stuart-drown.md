@@ -5,8 +5,5 @@ full_name: Stuart Drown
 name: stuart-drown
 guest: true
 published: true
-role: 
-city: 
-state: 
 ---
 

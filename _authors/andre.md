@@ -3,11 +3,6 @@ name: andre
 first_name: Andre
 last_name: Francisco
 full_name: Andre Francisco
-role: Content Designer
-city: Washington
-state: D.C.
-github: awfrancisco
-twitter: andrefrancisco
 project:
 - 18F Blog
 - 18f.gsa.gov

@@ -1,13 +1,8 @@
 ---
-city: 
 first_name: Jackie
 full_name: Jackie Xu
-github: 
 last_name: Xu
 name: jackiexu
-role: 
-state: 
-twitter: 
 redirect_from: "/team/jackiexu/"
 published: false
 ---
