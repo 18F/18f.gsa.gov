@@ -131,7 +131,7 @@
 .header_border,
 .single-post {
   header[role=banner] {
-    border-bottom: 1px solid #cccccc; // See if we can use a WDS color
+    border-bottom: 1px solid $color-gray-lighter;
   }
 }
 

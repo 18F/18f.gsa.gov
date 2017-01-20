@@ -4,7 +4,7 @@ authors:
 - jhunter
 tags:
 - staff profiles
-- acquisition
+- acquisition services
 excerpt: "Mark Hopson joined 18F in January, 2016 after working as a Contracting Officer at the Census Bureau. He works for the TTS Office of Acquisitions on call orders for the Agile BPA, procurement strategy, and other projects that are helping advance the way that government buys technology."
 image: /assets/img/team/mark-hopson.jpg
 hero: false

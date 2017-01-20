@@ -5,7 +5,7 @@
   {% include head.html %}
 
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
-  {% if page.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
+  {% if layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
     {% include header.html %}
 
