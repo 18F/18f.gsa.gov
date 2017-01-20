@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 gem 'redcarpet'
-gem 'jekyll', '~> 3.1'
+gem 'jekyll', '~> 3.3'
 gem 'html-proofer'
 gem 'accesslint-ci', '0.2.6'
 
