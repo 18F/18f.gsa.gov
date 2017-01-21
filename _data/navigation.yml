@@ -90,13 +90,22 @@ assigned:
                         in_subnav: true
     -
         text: About 18F
-        href: pages/about.md
+        href: _about/index.md
         permalink: /about/
+        collections: ['about']
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
-
+            -
+                text: 'History and funding'
+                href: _about/history.md
+                permalink: /history/
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
     -
         text: Join 18F
         href: pages/join.md

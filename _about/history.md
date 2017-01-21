@@ -1,6 +1,7 @@
 ---
 title: History and funding
 path: history
+permalink: /history/
 ---
 
 ## History and name
