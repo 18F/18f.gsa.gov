@@ -58,6 +58,18 @@
         text-align: center;
       }
     }
+
+    .blog-figure-left {
+      float: left;
+    }
+
+    .blog-figure-right {
+      float: right;
+    }
+
+    .blog-figure-center {
+      clear: both;
+    }
   }
 }
 
