@@ -2,6 +2,7 @@
 title: History and funding
 path: history
 permalink: /history/
+image: /assets/img/page-feature/join.jpg
 ---
 
 ## History and name

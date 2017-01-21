@@ -37,6 +37,9 @@ collections:
   about:
     output: true
     permalink: /:path/
+  join:
+    output: true
+    permalink: /join/:path/
   authors:
     output: true
     permalink: /author/:name/
@@ -76,7 +79,13 @@ defaults:
     layout: default-image
     # include_subnav: true
     subnav_anchor: /hire/
-
+ -
+  scope:
+    path: "_about"
+  values:
+    layout: default-image
+    include_subnav: true
+    subnav_anchor: /about/
  -
   scope:
     path: "_styleguide"
