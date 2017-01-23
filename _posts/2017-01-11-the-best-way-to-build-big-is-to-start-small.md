@@ -33,7 +33,7 @@ Big software systems happen in two major varieties:
 [services](https://en.wikipedia.org/wiki/Service-oriented_architecture).
 Before diving into the best way to mix and match these patterns, I want to describe each of their growth patterns and risks.
 
-<figure class="blog-figure-left">
+<figure class="align-left">
   <img alt="A drawing representing a monolith" src="{{site.baseurl}}/assets/blog/build-big/monolith.jpg" width="210">
 </figure>
 
@@ -61,7 +61,7 @@ They may notice awkward graphic transitions as they move between
 applications. Sometimes they’ll be forced to sign into many
 applications.
 
-<figure class="blog-figure-left" >
+<figure class="align-left">
   <img alt="A drawing of a quizzical looking stick figure examining a manageable set of components." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
   <img alt="" src="{{site.baseurl}}/assets/blog/build-big/components.jpg" width="140">
 </figure>
@@ -76,7 +76,7 @@ ideas get packed into the same bloated application, and soon the
 developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
-<figure class="blog-figure-left">
+<figure class="image-center">
   <img alt="A drawing of a quizzical looking stick figure examining an out-of-control monolith." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
   <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="380">
 </figure>

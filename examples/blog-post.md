@@ -1,3 +1,4 @@
+<!-- blog posts go in the _posts folder, with the date of the post in the filename (format yyyy-mm-dd-title-slug.md) -->
 ---
 title: "Post titles use sentence case"
 authors:
@@ -19,19 +20,19 @@ published: false
 <!-- For all figures, replace the alt, src, width, and figcaption -->
 
 <!-- Figure tag for images that should be left-aligned -->
-<figure class="blog-figure-left">
+<figure class="align-left">
   <img alt="Description of the image for people who can't see it" src="{{site.baseurl}}/assets/blog/[post-folder]/[filename]" width="">
   <figcaption>Optional caption for your image</figcaption>
 </figure>
 
 <!-- Figure tag for images that should be right-aligned -->
-<figure class="blog-figure-right">
+<figure class="align-right">
   <img alt="Description of the image for people who can't see it" src="{{site.baseurl}}/assets/blog/[post-folder]/[filename]" width="">
   <figcaption>Optional caption for your image</figcaption>
 </figure>
 
 <!-- Figure tag for images that should be full width -->
-<figure class="blog-figure-center">
+<figure class="image-center">
   <img alt="Description of the image for people who can't see it" src="{{site.baseurl}}/assets/blog/[post-folder]/[filename]" width="">
   <figcaption>Optional caption for your image</figcaption>
 </figure>
