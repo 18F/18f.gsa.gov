@@ -106,57 +106,56 @@ assigned:
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
+    -
+        text: Join 18F
+        href: _join/index.md
+        permalink: /join/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: true
+        children:
             -
-                text: Join 18F
-                href: _about/join/index.md
-                permalink: /join/
-                collections: ['about']
+                text: 'Who we hire'
+                permalink: /join/who-we-hire/
+                collections: ['join']
                 in_menu: false
                 in_drawer: false
-                in_footer: true
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'How to apply'
+                permalink: /join/how-to-apply/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'Interview process'
+                permalink: /join/interview-process/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
                 in_subnav: true
                 children:
-                    -
-                        text: 'Who we hire'
-                        permalink: /join/who-we-hire/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: 'How to apply'
-                        permalink: /join/how-to-apply/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: 'Interview process'
-                        permalink: /join/interview-process/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                        children:
-                    -
-                        text: Government pay grades
-                        permalink: /join/pay-grades/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: 'Benefits and leave'
-                        permalink: /join/benefits-and-leave/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
+            -
+                text: Government pay grades
+                permalink: /join/pay-grades/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'Benefits and leave'
+                permalink: /join/benefits-and-leave/
+                collections: ['join']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
     -
         text: Blog
         href: blog/index.html

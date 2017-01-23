@@ -1,7 +1,6 @@
 ---
 title: How to apply
 path: how-to-apply
-image: /assets/img/page-feature/join.jpg
 ---
 
 When you apply for a role at 18F, you’ll need to submit a [government-style resume](#government-style-resumes), which includes much more detail than a private sector resume.

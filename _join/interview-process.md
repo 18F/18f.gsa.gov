@@ -1,7 +1,6 @@
 ---
 title: Interview process
 path: interview-process
-image: /assets/img/page-feature/join.jpg
 ---
 The interview process is where we get to know you and learn more about your skills, experience, and how you approach your work.
 

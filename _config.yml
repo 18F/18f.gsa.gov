@@ -88,6 +88,13 @@ defaults:
     subnav_anchor: /about/
  -
   scope:
+    path: "_join"
+  values:
+    layout: default-image
+    include_subnav: true
+    subnav_anchor: /join/
+ -
+  scope:
     path: "_styleguide"
   values:
     layout: styleguide

@@ -1,7 +1,6 @@
 ---
 title: Who we're hiring
 path: who-we-hire
-image: /assets/img/page-feature/join.jpg
 ---
 
 ## Eligibility
