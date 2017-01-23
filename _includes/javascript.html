@@ -1,9 +1,18 @@
+{% javascript_asset_tag global %}
+- /assets/js/lib/jquery-1.11.3.min.js
+- /assets/js/index.js
+- /assets/js/lib/uswds.min.js
+- /assets/js/section-filterable.js
+- /assets/js/jekyll-pages-api-search.js
+{% endjavascript_asset_tag %}
+
+<!--
 <script src="{{ '/assets/js/lib/jquery-1.11.3.min.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/index.js' | prepend: site.baseurl  }}"></script>
 <script src="{{ '/assets/js/lib/uswds.min.js' | prepend: site.baseurl  }}"></script>
 
 <script src="{{ '/assets/js/section-filterable.js' | prepend: site.baseurl  }}"></script>
-
+ -->
 <!--
   analytics for DAP, for more info visit
   https://www.digitalgov.gov/services/dap/
@@ -27,37 +36,4 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   ga('send', 'pageview');
 </script>
 
-<script>
-/*
- * Params:
- * - query: query string
- * - results: search results matching the query
- * - doc: window.document object
- * - resultsElem: HTML element to which generated search results elements will
- *     be appended
- */
-function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
-  results.forEach(function(result, index) {
-    var resultTitle = result.title;
-    var errorPages = resultTitle == '404' || resultTitle == '500';
 
-    if (resultTitle && !errorPages) {
-      var item = doc.createElement('li'),
-          link = doc.createElement('a'),
-          text = doc.createTextNode(resultTitle);
-
-      link.appendChild(text);
-      link.title = result.title;
-      link.href = result.url;
-
-      item.appendChild(link);
-      resultsElem.appendChild(item);
-
-      link.tabindex = index;
-      if (index === 0) {
-        link.focus();
-      }
-    }
-  });
-}
-</script>
