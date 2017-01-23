@@ -7,7 +7,6 @@ exclude:
 - .gitignore
 - .gitmodules
 - .hound.yml
-- .python-version
 - _pages
 - api-endpoints
 - bin

@@ -100,7 +100,6 @@ exclude:
 - .gitignore
 - .gitmodules
 - .hound.yml
-- .python-version
 - api-endpoints
 - bin
 - build
