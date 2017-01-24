@@ -17,6 +17,7 @@ $card-image-height: 200px;
 }
 
 .card-link {
+  cursor: pointer;
   display: inline-block;
   text-decoration: none;
   width: 100%;
@@ -25,6 +26,10 @@ $card-image-height: 200px;
   @include media($medium-screen) {
     margin-bottom: 0;
   }
+}
+
+.card-link-tagline {
+  text-decoration: none;
 }
 
 .card-banner {
