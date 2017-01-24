@@ -82,7 +82,7 @@ members use as desktop art, weren’t exactly the highest priority “need”
 item, but they were a fast way to show the team how the new system could
 begin to flex in more exciting ways than just templates.
 
-![An image of text over a picture of 18F's staff and an image of a cloud against a sky, both with 18F's new logo.]({{site.baseurl}}/assets/blog/visual-identity/desktops.jpg)
+![Text over a picture of 18F's staff and an image of a cloud against a sky, both with 18F's new logo.]({{site.baseurl}}/assets/blog/visual-identity/desktops.jpg)
 *[Sky photo](https://commons.wikimedia.org/wiki/File:Jet-sky.jpg)*
 
 Though we’ve made great progress, our work is far from over. For now,
