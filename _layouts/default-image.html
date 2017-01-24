@@ -7,7 +7,7 @@ layout: default
   <h1 class="usa-sr-only">{{ page.title }}</h1>
 
   {% if page.include_subnav %}
-    <aside class="usa-width-one-third">
+    <aside class="usa-width-one-third sticky-subnav sticky">
       {% include navigation.html subnav=true subnav_anchor=page.subnav_anchor %}
     </aside>
     <section class="usa-width-two-thirds">

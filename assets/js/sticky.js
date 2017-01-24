@@ -1,14 +1,14 @@
-/* eslint-disable */
+(function(){
+  /* eslint-disable */
 
-/*
-* Stickyfill -- `position: sticky` polyfill
-* v. 1.1.4 | https://github.com/wilddeer/stickyfill
-* Copyright Oleg Korsunsky | http://wd.dizaina.net/
-*
-* MIT License
-*/
-(function(doc, win){
-  var stickyfill = (function(doc, win) {
+  /*
+  * Stickyfill -- `position: sticky` polyfill
+  * v. 1.1.4 | https://github.com/wilddeer/stickyfill
+  * Copyright Oleg Korsunsky | http://wd.dizaina.net/
+  *
+  * MIT License
+  */
+  var Stickyfill = (function(doc, win) {
       if (!doc) {
           doc = document;
       }
@@ -474,14 +474,15 @@
           stop: stop,
           kill: kill
       };
-  })();
+  });
+
+  var stickyfill = Stickyfill()
 
   // Initialize page stickies
-  [].forEach.call(
-    document.querySelectorAll('.sticky'),
-    function(el) {
+  document.querySelectorAll('.sticky')
+    .forEach(function(el) {
       stickyfill.add(el);
-    }
-  );
+    });
+
 })();
 /* eslint-enable */
