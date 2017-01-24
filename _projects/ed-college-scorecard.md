@@ -14,6 +14,7 @@ project_url: https://collegescorecard.ed.gov/
 permalink: /project/ed-college-scorecard/
 ---
 
+
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.
 
 The Department of Education had worked with the [U.S. Digital Service](https://www.usds.gov/) and other agencies to gather the data, but they needed help getting it online and making it usable.

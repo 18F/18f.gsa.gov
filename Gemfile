@@ -1,28 +1,23 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'redcarpet'
-gem 'jekyll', '~> 3.1'
-gem 'html-proofer'
+
 gem 'accesslint-ci', '0.2.6'
+gem 'html-proofer'
+gem 'jekyll', '~> 3.3.0'
+gem 'jemoji'
 
 group :jekyll_plugins do
-  if ENV['FAST_BUILDS'] == 'true'
-    puts 'not using jekyll-archives because its sloooooooooow'
-  else
-    gem 'jekyll-archives', git: 'https://github.com/18F/jekyll-archives.git'
-  end
-
-  gem 'jekyll_pages_api'
-  gem 'jekyll_pages_api_search'
-  gem 'jekyll-sitemap'
+  gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'
+  gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
-  gem 'jekyll_frontmatter_tests'
-  gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll_frontmatter_tests'
+  gem 'jekyll_pages_api'
+  gem 'jekyll_pages_api_search'
 end
-gem 'jemoji'
 
 group :development do
   gem 'capybara'
@@ -36,6 +31,6 @@ group :development do
 end
 
 group :test do
-  gem 'simplecov'
   gem 'codeclimate-test-reporter', '~> 1.0.0'
+  gem 'simplecov'
 end

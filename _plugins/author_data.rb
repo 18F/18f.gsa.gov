@@ -51,7 +51,7 @@ module SiteData
 
     def update_file(author_path, key, value)
       frontmatter = File.read(author_path)[frontmatter_regex]
-      frontmatter_yml = YAML.load(frontmatter)
+      frontmatter_yml = YAML.safe_load(frontmatter)
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
         frontmatter_yml = delete_value(frontmatter_yml, key) if value == 'delete'
@@ -65,7 +65,7 @@ module SiteData
 
     def delete_value(hash, key)
       puts "deleting #{key}".yellow
-      hash.delete_if {|k, _v| k == key }
+      hash.delete_if { |k, _v| k == key }
     end
 
     def write_update(author_path, updated_file, key, value)

@@ -3,10 +3,6 @@ name: "String"
 first_name: "String"
 last_name: "String"
 full_name: "String"
-role: "String"
-city: "String"
-state: "String"
-role: "String"
 published: Boolean
 config:
   path: '_authors'
@@ -15,5 +11,5 @@ config:
   - ..
   - .
   - .DS_Store
-  optional: ['tumblr_url', 'github', 'twitter', 'role', 'city', 'state', 'team', 'last_name', 'team']
+  optional: ['last_name', 'team']
 ---

@@ -17,3 +17,13 @@
     padding-bottom: initial;
   }
 }
+
+.image-center {
+  clear: both;
+}
+
+img,
+figure,
+svg {
+  @include allow-layout-classes();
+}

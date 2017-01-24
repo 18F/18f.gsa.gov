@@ -93,21 +93,43 @@ footer:
 markdown: kramdown
 highlighter: rouge
 
-include:
-  - _navigation.json
 exclude:
-  - README.md
-  - vendor
-  - node_modules
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - PULL_REQUEST_TEMPLATE.md
-  - ISSUE_TEMPLATE.md
-  - bin
-  - pages/our-work.html
-  - tests/**/*
-  - tests/schema/tags.yml
+- .about.yml
+- .cfignore
+- .codeclimate.yml
+- .gitignore
+- .gitmodules
+- .hound.yml
+- api-endpoints
+- bin
+- build
+- circle.yml
+- CONTRIBUTING.md
+- docker-compse.yml
+- docker_entrypoint.rb
+- Dockerfile
+- favicon.ico
+- feed*
+- Gemfile*
+- humans.txt
+- ISSUE_TEMPLATE.md
+- LICENSE.md
+- node_modules
+- package.json
+- pages/our-work.html
+- PULL_REQUEST_TEMPLATE.md
+- README.md
+- robots.txt
+- search-index*
+- serve
+- serve-blog
+- serve-fast
+- serve-accesslint
+- sitemap.xml
+- system-security-plan.yml
+- tests/
+- tests/schema/tags.yml
+- vendor
 
 # jekyll plugins
 gems:

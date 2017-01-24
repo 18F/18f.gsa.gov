@@ -2,7 +2,10 @@
 
 set -e
 
+ruby config_blog.rb
+
 LC_ALL="en_US.UTF-8" \
 bundle exec jekyll serve \
   --detach \
+  --host 0.0.0.0  \
   --config="_config.yml,_config-blog.yml"

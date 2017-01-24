@@ -36,7 +36,7 @@ skip_index: true
   <div>
     {% if paginator.previous_page %}
       <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}/">
-        Previous {{ paginator.per_page }} posts
+        {% include svg/icons/arrow-left.svg %} Previous {{ paginator.per_page }} posts
       </a>
     {% else %}
     <p></p>
@@ -48,7 +48,7 @@ skip_index: true
   <div>
     {% if paginator.next_page %}
     <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}/">
-      Next {{ paginator.per_page }} posts
+      Next {{ paginator.per_page }} posts {% include svg/icons/arrow-right.svg %}
     </a>
     {% else %}
     <p></p>

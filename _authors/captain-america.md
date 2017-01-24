@@ -3,9 +3,6 @@ first_name: Captain
 last_name: America
 full_name: Captain America
 name: captain-america
-role: Developer
-city: Washington
-state: DC
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

@@ -3,11 +3,6 @@ name: jhunter
 first_name: Jeannine
 last_name: Hunter
 full_name: Jeannine Hunter
-role: Content Strategist
-city: Washington
-state: D.C.
-github: jeanninehunter
-twitter: 
 project:
 - Content Lead
 - USCIS

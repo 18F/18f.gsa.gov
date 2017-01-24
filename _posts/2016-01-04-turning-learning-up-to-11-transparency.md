@@ -14,7 +14,7 @@ image: /assets/blog/turn-up-to-11/skeleton-t-shirt.jpg
 hero: false
 ---
 
-[![An image of a man wearing a skeleton t-shirt from the movie Spinal Tap]({{ site.baseurl }}/assets/blog/turn-up-to-11/skeleton-t-shirt.jpg)](https://i.ytimg.com/vi/XuzpsO4ErOQ/maxresdefault.jpg)[*“This is my exact inner structure, done in a tee shirt. Exactly medically accurate. See?”*](http://www.imdb.com/title/tt0088258/quotes?item=qt0261729)
+[![A man wearing a skeleton t-shirt from the movie Spinal Tap]({{ site.baseurl }}/assets/blog/turn-up-to-11/skeleton-t-shirt.jpg)](https://i.ytimg.com/vi/XuzpsO4ErOQ/maxresdefault.jpg)[*“This is my exact inner structure, done in a tee shirt. Exactly medically accurate. See?”*](http://www.imdb.com/title/tt0088258/quotes?item=qt0261729)
 
 In the [first post of this trilogy](https://18f.gsa.gov/2015/12/30/turning-learning-up-to-11/), I summarized my DevOps Enterprise 2015 talk that focused on transparency, autonomy, and collaboration as primary factors in producing organizational culture change. In this post, I’ll describe a few of the initiatives we’ve undertaken to increase transparency into 18F’s internal operations. While primarily for the benefit of our team members, we hope they will inspire other organizations to adopt similar models and tools.
 
