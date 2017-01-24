@@ -5,6 +5,7 @@ ruby '2.3.1'
 gem 'accesslint-ci', '0.2.6'
 gem 'html-proofer'
 gem 'jekyll', '~> 3.3.0'
+gem 'jekyll-asset-pipeline'
 gem 'jemoji'
 
 group :jekyll_plugins do
