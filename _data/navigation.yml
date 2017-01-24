@@ -98,9 +98,28 @@ assigned:
         in_footer: true
         children:
             -
+                text: 'Our principles'
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'Who we are'
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
                 text: 'History and funding'
-                href: _about/history.md
-                permalink: /history/
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'For press'
                 collections: ['about']
                 in_menu: false
                 in_drawer: false
