@@ -1,4 +1,4 @@
-(function(){
+(function() {
   /*
    * Params:
    * - query: query string
@@ -10,7 +10,7 @@
   function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
     results.forEach(function(result, index) {
       var resultTitle = result.title;
-      var errorPages = resultTitle == '404' || resultTitle == '500';
+      var errorPages = resultTitle === '404' || resultTitle === '500';
 
       if (resultTitle && !errorPages) {
         var item = doc.createElement('li'),
