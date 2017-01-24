@@ -89,38 +89,59 @@ assigned:
                         in_footer: false
                         in_subnav: true
     -
-        text: Join 18F
-        href: pages/join.md
-        permalink: /join/
-        collections: ['join']
+        text: About 18F
+        href: _about/index.md
+        permalink: /about/
+        collections: ['about']
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
             -
-                text: 'So you want to join 18F?'
-                permalink: /join/so-you-want-to-join-18f/
-                collections: ['join']
+                text: 'Our principles'
+                collections: ['about']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: false
+                in_subnav: true
             -
-                text: 'Who we are hiring'
-                permalink: /join/hiring/
-                collections: ['join']
+                text: 'Who we are'
+                collections: ['about']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: false
+                in_subnav: true
             -
-                text: 'Who we are hiring'
-                permalink: /join/hiring/
+                text: 'History and funding'
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+            -
+                text: 'For press'
+                collections: ['about']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+    -
+        text: Join 18F
+        href: _join/index.md
+        permalink: /join/
+        collections: ['join']
+        in_menu: false
+        in_drawer: false
+        in_footer: true
+        children:
+            -
+                text: 'Who we hire'
+                permalink: /join/who-we-hire/
                 collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: false
+                in_subnav: true
             -
                 text: 'How to apply'
                 permalink: /join/how-to-apply/
@@ -128,7 +149,7 @@ assigned:
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: false
+                in_subnav: true
             -
                 text: 'Interview process'
                 permalink: /join/interview-process/
@@ -136,51 +157,19 @@ assigned:
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: false
+                in_subnav: true
                 children:
-                    -
-                        text: 'Child 1'
-                        permalink: /join/interview-process/child-1/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: false
-                    -
-                        text: 'Child 2'
-                        permalink: /join/interview-process/child-2/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: false
-                    -
-                        text: 'Child 2'
-                        permalink: /join/interview-process/child-2/
-                        collections: ['join']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: false
             -
-                text: Benefits
-                permalink: /join/benefits/
+                text: Government pay grades
+                permalink: /join/pay-grades/
                 collections: ['join']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
-                text: 'Government pay grades explained'
-                permalink: /join/government-pay-grades-explained/
-                collections: ['join']
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'Leave policies'
-                permalink: /join/leave-policies/
+                text: 'Benefits and leave'
+                permalink: /join/benefits-and-leave/
                 collections: ['join']
                 in_menu: false
                 in_drawer: false
