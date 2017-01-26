@@ -135,29 +135,25 @@ assigned:
         children:
             -
                 text: How to apply
-                href: #how-to-apply
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
-                text: Interview process
-                href: #the-interview-process
+                text: The interview process
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
                 children:
             -
-                text: After the interview
-                href: #after-the-interview
+                text: After interviews
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: Resources
-                href: #resources
                 in_menu: false
                 in_drawer: false
                 in_footer: false

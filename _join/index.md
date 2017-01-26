@@ -1,7 +1,7 @@
 ---
 title: Join 18F
 permalink: /join/
-layout: default-intro
+layout: default-image
 lead: Help transform how the federal government does technology.
 redirect_from:
   - /apply/
@@ -90,7 +90,7 @@ The GSA hiring process includes a tentative offer followed by an official offer.
 
 ## Resources
 
-If you have any questions, please reach our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
+If you have any questions, please [contact our Talent Team](mailto:join18f@gsa.gov).
 
 We have a lot of information about working at 18F in the [18F Handbook](https://handbook.18f.gov/), including:
 
