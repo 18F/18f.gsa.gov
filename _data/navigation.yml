@@ -99,28 +99,28 @@ assigned:
         children:
             -
                 text: 'Our principles'
-                collections: ['about']
+                href: #our-principles
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'Who we are'
-                collections: ['about']
+                href: #who-we-are
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'History and funding'
-                collections: ['about']
+                href: #history-and-funding
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'For press'
-                collections: ['about']
+                href: #for-press
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -129,48 +129,31 @@ assigned:
         text: Join 18F
         href: _join/index.md
         permalink: /join/
-        collections: ['join']
         in_menu: false
         in_drawer: false
         in_footer: true
         children:
             -
-                text: 'Who we hire'
-                permalink: /join/who-we-hire/
-                collections: ['join']
+                text: How to apply
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
-                text: 'How to apply'
-                permalink: /join/how-to-apply/
-                collections: ['join']
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'Interview process'
-                permalink: /join/interview-process/
-                collections: ['join']
+                text: The interview process
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
                 children:
             -
-                text: Government pay grades
-                permalink: /join/pay-grades/
-                collections: ['join']
+                text: After interviews
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
-                text: 'Benefits and leave'
-                permalink: /join/benefits-and-leave/
-                collections: ['join']
+                text: Resources
                 in_menu: false
                 in_drawer: false
                 in_footer: false
