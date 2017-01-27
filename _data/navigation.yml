@@ -135,12 +135,14 @@ assigned:
         children:
             -
                 text: How to apply
+                permalink: #how-to-apply
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: The interview process
+                permalink: #the-interview-process
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -148,12 +150,14 @@ assigned:
                 children:
             -
                 text: After interviews
+                permalink: #after-interviews
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: Resources
+                permalink: #resources
                 in_menu: false
                 in_drawer: false
                 in_footer: false
