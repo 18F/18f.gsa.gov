@@ -7,10 +7,12 @@
       <li>
         <div class="usa-width-one-whole">
           {% if post.image.size > 0 %}
-            <a class="media_link usa-width-one-whole" href="{{ post.url | prepend: site.baseurl }}" title="link to post">
-              <img src="{{ site.baseurl }}{{ post.image }}" alt="">
-              <p class="usa-sr-only">continue reading</p>
-            </a>
+            <div class="usa-width-one-whole">
+              <a class="media_link" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
+                <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+                <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
+              </a>
+            </div>
           {% endif %}
           {% unless include.limit_metadata %}
             <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
@@ -32,7 +34,8 @@
           {% unless include.limit_metadata %}
             <span class="post-tags" itemprop="keywords">
               {% for tag in post.tags %}
-                <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+                <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">
+                  {{ tag }}
                 </a>
               {% endfor %}
             </span>
