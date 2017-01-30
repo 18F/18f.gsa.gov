@@ -17,11 +17,14 @@
 }
 
 .hero-callout {
-  padding: $section-margins;
-
   @include media($medium-screen + $grid-margins) {
     max-width: 300px;
   }
+}
+
+.hero-callout,
+.hero-callout-full {
+  padding: $section-margins;
 
   > *:first-child {
     @include margin(0 null $site-margins null);

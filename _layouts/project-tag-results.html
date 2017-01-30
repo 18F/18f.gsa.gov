@@ -5,44 +5,49 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="usa-grid usa-section content-focus page-tag-results">
+<section class="page-tag-results">
 
   {% if page.image %}
-    <section class="hero"
-        style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        role="img"
-        title="{{ page.image_accessibility }}">
-      <div class="usa-grid-full">
-        <div class="hero-callout hero-callout-no_button background-dark">
+    <section class="background-dark">
+      <div class="usa-grid-full usa-flex">
+        <div class="usa-width-two-thirds hero-callout-full hero-callout-no_button">
           <h1 class="hero-callout-title">
-            {{ page.agency }}: <br>
-            <span class="hero-callout-alt_color">
-              {{ page.title }}
-            </span>
+            <div class="hero-callout-alt_color">
+              {{ page.agency }}
+            </div>
+            {{ page.title }}
           </h1>
         </div>
+        <div class="usa-width-one-third hero"
+        style="background-image: url({{ site.baseurl }}{{ page.image }});"
+        role="img"
+        title="{{ page.image_accessibility }}"></div>
       </div>
     </section>
+
   {% else %}
     <h1>{{ page.project-type }}: {{ page.title }}</h1>
   {% endif %}
 
-  <section class="usa-section break-bottom">
-    <h2>{{ page.subtitle }}</h2>
+  <div class="usa-grid">
 
-    {{ content }}
-  </section>
+    <section class="usa-section break-bottom">
+      <h2>{{ page.subtitle }}</h2>
 
-  <section class="usa-section">
-    <h2>Our blog posts about this work</h2>
+      {{ content }}
+    </section>
 
-    {%
-      include tag-results.html
-      posts=matching_posts
-      tags=page.tags
-      limit_metadata=true
-      trim_padding=true
-    %}
-  </section>
+    <section class="usa-section">
+      <h2>Our blog posts about this work</h2>
+
+      {%
+        include tag-results.html
+        posts=matching_posts
+        tags=page.tags
+        limit_metadata=true
+        trim_padding=true
+      %}
+    </section>
+  </div>
 
 </section>
