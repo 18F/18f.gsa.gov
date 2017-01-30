@@ -169,20 +169,6 @@ If you apply for a grade level and are not found qualified, you can reapply at a
 
 Federal employees on the general schedule range from GS-1 to GS-15. Find out more about the GS system from the [Office of Personnel Management](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/general-schedule/).
 
-This chart can be useful for thinking about how your qualifications and experience align with the descriptions of each different grade level:
-
-|           | **Grade 13**  |**Grade 14**|**Grade 15**|
-| -----------------:|:-------------:| :-----:| :-----:|
-| **Compensation** | $73,846 to $96,004 base plus locality modifier | $87,263 to $113,444 base plus locality modifier |$102,646 to $133,444 base plus locality modifier |
-| **Supervisory** | You work with a supervisor to develop deadlines, projects, and work to be done |  Your supervisor only provides direction in terms of broadly defined missions | Your supervisor only provides direction in terms of broadly defined missions|
-| **Supervisory** | Your supervisor reviews your work from an overall standpoint to ensure its effectiveness in meeting requirements    |    The results of your work are accepted without change | The results of your work are considered technically authoritative and can be used to establish best practices|
-| **Supervisory** | You independently carry out the assignments, resolving issues as they arise and collaborating with others when necessary | You independently plan, design, and execute programs or projects | You independently plan, develop, and execute vital programs that resolve critical problems and lead to the development of new theories|
-| **Guidelines** | You often handle assignments where documentation or guidance based on previous work is available  |   Your assignments often require that you function independently without guidelines or documentation based on previous work | Your assignments often require that you lead a cross functional team to develop solutions and guidelines for future use|
-| **Complexity** | Your work requires the application of a wide variety of established processes or methods |  Your work requires considerable resourcefulness and inventiveness in the application and development of potential solutions or new methods | Your work requires the coordination and execution of multiple work streams and the support of technical, program and management personnel within and outside of your team|
-| **Scope** | Your work resolves critical problems or delivers improvements to existing programs and/or operations | Your work affects the work of other experts and delivers major progress toward key objectives | Your work affects your entire organization and impacts the well-being of a substantial amount of customers|
-
-#### Compensation in the GS pay system
-
 GS grade levels specify a fixed compensation range for a particular position, in particular geographic localities, within the federal government. Understanding the relationship between GS grade level, location, and compensation is important to understanding how pay works at 18F.
 
 Each GS grade level contains a series of 10 steps, and new GS employees are usually hired at step 1 of a GS grade. However, in special circumstances, agencies may authorize a higher step rate for a newly-appointed federal employee based on a [special need of the agency or superior qualifications of the prospective employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/).
