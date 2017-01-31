@@ -20,34 +20,21 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 When you apply for a role at 18F, you’ll need to submit a [government-style resume](#government-style-resumes), which includes much more detail than a private sector resume.
 
-### Application collection and review
+### Eligibility
+
+Any individual who is not currently a GSA employee or contractor and who is a U.S. citizen, a non-citizen national of the U.S., or has been admitted to the U.S. for permanent residence and holds a valid green card is eligible to apply. **You can live anywhere in the United States.**
+
+### 18F is an equal opportunity employer
+
+We are building a team that looks like the United States. We don't discriminate based on race, color, religion, sex, gender identity or expression, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factors. If you have the skills we need, that’s all that matters.
+
+### How we collect and review applications
 
 We collect applications during the period specified by the job posting (usually five days to two weeks). All applications collected within a period are treated as a cohort and evaluated against each other.
 
 Once the application period ends, you can't add to or modify your application — but there is no limit to the number of times you can apply.
 
-In the first step of the application review process, applications are evaluated using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Each application is evaluated against the competencies listed below and categorized as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
-
-### Application qualification competencies
-
-During the qualification and evaluation process, we assess your application against the following competencies:
-
-- **Analysis and creative problem solving:** Expertise determining user
-needs or identifying market opportunities and designing and
-deploying solutions.
-- **Technology acumen:** Knowledge of standard and emergent web
-technologies.
-- **Entrepreneurship and product management:** Experience delivering
-products or services from concept to market.
-- **Approach and methodology:** Expertise applying frameworks that
-emphasize delivery, iteration, quantitative and qualitative learnings,
-and responsiveness.
-- **Empathy and emotional intelligence:** Experience in client-facing
-roles, navigating bureaucracy, business development, or delivering
-services with a strong user-facing or consumer-oriented element.
-- **Tools and execution:** Experience in design, development, and
-deployment of solutions leveraging current and emergent
-technologies and best practices.
+In the first step of the application review process, applications are evaluated using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Each application is evaluated against specific competencies (you can find these in the position description you're applying for) and categorized as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
 
 Once all applications within the cohort have been evaluated, they're given to the selection panel, which will review and identify which applicants to interview. We also apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx).
 
@@ -174,52 +161,28 @@ It can be helpful to start pulling some documents together in advance. The forms
 
 ### Government pay grades
 
-Most 18F team members are hired against a position description for "Innovation Specialist." The position description has a GS grade level associated to it. Each applicant is required to select the Innovation Specialist position description, which includes the GS grade level for which they wish to be considered.
+18F team members are hired against specific position description, with associated "grade levels." These refer to the federal general schedule, or GS level, at which each position is evaluated and compensated. The qualification requirements for each position and GS level are based on a number of variables, including education, background, accomplishments, and experience.
 
-The qualification requirements for each position description vary and are based on a number of variables including education, background, accomplishments and experience. Compensation is determined by the grade level associated with the position description.
+If you apply for a grade level and are not found qualified, you can reapply at a different grade level. There is no penalty or restriction to reapplying.
 
-It’s important to note that the grade level you select during application submission will be the grade level at which GSA hires you, should you be found qualified and subsequently selected for hire. If you apply for a grade level and are not found qualified, you can reapply at a different grade level. There is no penalty or restriction to reapplying.
+#### Understanding grade levels
 
-#### Selecting a grade level
+Federal employees on the general schedule range from GS-1 to GS-15. Find out more about the GS system from the [Office of Personnel Management](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/general-schedule/).
 
-The following information can be used to help you decide what grade level could be the best fit for you. 
+GS grade levels specify a fixed compensation range for a particular position, in particular geographic localities, within the federal government. Understanding the relationship between GS grade level, location, and compensation is important to understanding how pay works at 18F.
 
-This information is intended as a guideline only. Use this information to help think about how your qualifications and experience align with the descriptions of each different grade level.
+Each GS grade level contains a series of 10 steps, and new GS employees are usually hired at step 1 of a GS grade. However, in special circumstances, agencies may authorize a higher step rate for a newly-appointed federal employee based on a [special need of the agency or superior qualifications of the prospective employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/).
 
-|               | **Grade 13**      |**Grade 14**|**Grade 15**|
-| -----------------:|:-------------:| :-----:| :-----:|
-| **Compensation**     | $73,846 to $96,004 base plus locality modifier | $87,263 to $113,444 base plus locality modifier |$102,646 to $133,444 base plus locality modifier |
-| **Supervisory**     | You work with a supervisor to develop deadlines, projects, and work to be done     |  Your supervisor only provides direction in terms of broadly defined missions | Your supervisor only provides direction in terms of broadly defined missions|
-| **Supervisory** | Your supervisor reviews your work from an overall standpoint to ensure its effectiveness in meeting requirements    |    The results of your work are accepted without change | The results of your work are considered technically authoritative and can be used to establish best practices|
-| **Supervisory**     | You independently carry out the assignments, resolving issues as they arise and collaborating with others when necessary | You independently plan, design, and execute programs or projects | You independently plan, develop, and execute vital programs that resolve critical problems and lead to the development of new theories|
-| **Guidelines**     | You often handle assignments where documentation or guidance based on previous work is available      |   Your assignments often require that you function independently without guidelines or documentation based on previous work | Your assignments often require that you lead a cross functional team to develop solutions and guidelines for future use|
-| **Complexity** | Your work requires the application of a wide variety of established processes or methods     |  Your work requires considerable resourcefulness and inventiveness in the application and development of potential solutions or new methods | Your work requires the coordination and execution of multiple work streams and the support of technical, program and management personnel within and outside of your team|
-| **Scope**     | Your work resolves critical problems or delivers improvements to existing programs and/or operations | Your work affects the work of other experts and delivers major progress toward key objectives | Your work affects your entire organization and impacts the well-being of a substantial amount of customers|
+The annual salary cap for all GS employees is $160,300 per year. You cannot be offered more than this under any circumstance.
 
-#### General Schedule – Grade Levels
-
-Federal employees are hired at a general schedule (GS) grade from 1 to 15. GS grades are based on the combination of a number of variables including education, background, accomplishments, experience, etc. Inside each grade is a series of 10 steps. Employees typically start at step 1 of whatever GS grade they are assigned. 
-
-Find out more about the GS system from the [Office of Personnel Management (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/general-schedule/).
-
-#### Compensation in the GS pay system
-
-GS grade levels specify a fixed compensation range for a particular position, in particular geographic localities, within the federal government. This is also true for 18F, so understanding the relationship between GS grade level, location, and compensation is important when considering applying to our organization.
-
-The annual salary cap for all GS employees is $160,300 per year. You cannot be offered more than this under any circumstance. 
-
-Each GS grade level contains a series of 10 steps which also have an impact on compensation. A new GS employee is usually hired at step 1 of the applicable GS grade. However, in special circumstances, agencies may authorize a higher step rate for a newly-appointed federal employee based on a [special need of the agency or superior qualifications of the prospective employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/).
-
-**Try the [GS Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) if you'd like to see how GS level, step, and locality affect compensation.**
+**The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) shows how GS level, step, and locality affect compensation.**
 
 #### What does "not to exceed two years" mean? 
 
-Most 18F members are "not to exceed" (NTE) employees. NTE is the hiring mechanism we've chosen to use, and it’s part of what has allowed us to grow so fast. The "not to exceed" guidance means you cannot work at 18F in the same position description for more than four years total. Both your tentative and final offer letters state that you can work at 18F for two years, but you’re also eligible to extend your term for another two years, provided you meet certain performance criteria. The only reason your position would not be automatically extended is if you failed to adequately perform your job duties.
+Most 18F members are "not to exceed" (NTE) employees. This means you can't work at 18F in the same position description for more than four years total. Both your tentative and final offer letters state that you can work at 18F for two years, but you’re also eligible to extend your term for another two years, provided you meet certain performance criteria. The only reason your position would not be automatically extended is if you failed to adequately perform your job duties.
 
-#### When will I get a step increase?
+#### Are there raises or bonuses?
 
-There is a different waiting period depending on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven. 
+Step increases are the most common kind of raise for GS employees, and the waiting period depends on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven. 
 
-#### Are there bonuses?
-
-Some bonuses are available, but they come after the year-end review process in late September. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off. 
+Bonuses generally come after the year-end review process in late September. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off. 
