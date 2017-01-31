@@ -5,6 +5,9 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
+<section class="breadcrumb usa-grid">
+  <a class="link-arrow-right" href="{{ site.baseurl }}/">Home </a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}/our-work/">Our work</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page.agency }}</span>
+</section>
 <section class="page-tag-results">
 
   {% if page.image %}
@@ -30,24 +33,80 @@ header_border: true
   {% endif %}
 
   <div class="usa-grid">
+    <div class="usa-width-two-thirds">
+      <section class="usa-section break-bottom">
 
-    <section class="usa-section break-bottom">
-      <h2>{{ page.subtitle }}</h2>
+        <h2>{{ page.subtitle }}</h2>
 
-      {{ content }}
-    </section>
+        {{ content }}
+      </section>
 
-    <section class="usa-section">
-      <h2>Our blog posts about this work</h2>
+      <section class="usa-section">
+        <h2>Our blog posts about this work</h2>
 
-      {%
-        include tag-results.html
-        posts=matching_posts
-        tags=page.tags
-        limit_metadata=true
-        trim_padding=true
-      %}
-    </section>
+        {%
+          include tag-results.html
+          posts=matching_posts
+          tags=page.tags
+          limit_metadata=true
+          trim_padding=true
+        %}
+      </section>
+    </div>
+    {% assign any_clients = page.product_clients.size > 0 %}
+
+    {% if page.agency or page.product_url or page.github_url or any_clients or page.start_date or page.expiration_date %}
+    <aside class="usa-width-one-third">
+      <ul>
+        {% if page.agency %}
+        <li>
+          <div>Agency partner</div>
+          <div>{{ page.agency }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.product_url %}
+        <li>
+          <div>Learn more</div>
+          <div><a href="{{ page.project_url }}">{{ page.project_url }}</a></div>
+        </li>
+        {% endif %}
+
+        {% if page.github_repo %}
+        <li>
+          <div>Github repo</div>
+          <div><a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a></div>
+        </li>
+        {% endif %}
+
+        {% if any_clients %}
+        <li>
+          <div>Agency partners</div>
+          <ul>
+          {% for client in page.product_clients %}
+            <li>{{ client }}</li>
+          {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.start_date or page.expiration_date %}
+        <li>
+          <div>When</div>
+          <div>
+          {% if page.start_date and page.expiration_date %}
+            {{ page.start_date }} – {{ page.expiration_date }}
+          {% elsif page.start_date and !page.expiration_date %}
+            Starts {{ page.start_date }}
+          {% elsif !page.start_date and page.expiration_date %}
+            Ends {{ page.expiration_date }}
+          {% endif %}
+          </div>
+        </li>
+        {% endif %}
+      </ul>
+    </aside>
+    {% endif %}
   </div>
 
 </section>
