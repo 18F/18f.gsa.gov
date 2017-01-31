@@ -6,7 +6,7 @@ subtitle: Designing for every user
 permalink: /project/every-kid-in-a-park/
 excerpt: We helped the Department of the Interior reach fourth graders and help kids discover public lands through the Every Kid in a Park program.
 image: /assets/img/home/hero-ekiap.png
-image_accessibility: "Photograph of a group of children wearing orange shirts at a national park"
+image_accessibility: Children proudly showing their national park badges
 tags:
 - every kid in a park
 expiration_date:
@@ -18,6 +18,7 @@ Today, more than 80 percent of American families live in urban areas, and many l
 
 The challenge was designing a website that fourth graders would be able to use. How do you design a federal website for an audience that doesn’t know the word federal?
 
+#### Approach
 ### Building a federal website for 10-year-olds
 
 Before we got involved, the Department of the Interior had already held events to talk to fourth graders and test out ideas for the website, so they were on the right path toward understanding real users and prioritizing their needs.

@@ -5,4 +5,5 @@ bundle exec jekyll serve \
   --watch \
   --incremental \
   --host 0.0.0.0  \
-  --config="_config.yml,_config-fast-builds.yml"
+  --baseurl /test \
+  --config="_config.yml,_config-fast-builds.yml" \

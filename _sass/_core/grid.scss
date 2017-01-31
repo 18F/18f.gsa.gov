@@ -12,9 +12,7 @@
       @include omega;
     }
   }
-
 }
-
 
 .usa-grid .usa-width-one-half.usa-width-short-one {
   @include media($medium-screen) {
@@ -25,5 +23,14 @@
 .usa-grid .usa-width-one-half.usa-width-shift-one {
   @include media($medium-screen) {
     @include shift(1);
+  }
+}
+
+.usa-grid-reversed {
+  @include media($medium-screen) {
+    .usa-grid-reversed-right {
+      @include omega();
+      float: right;
+    }
   }
 }

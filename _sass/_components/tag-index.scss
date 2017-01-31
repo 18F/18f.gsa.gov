@@ -3,15 +3,12 @@
 
 .page-tag-results {
   .hero {
+    min-height: 250px;
     padding: $section-margins;
   }
 
   .hero-callout {
     padding: $paragraph-margins-thick;
-  }
-
-  .hero-callout-title {
-    font-size: $banner-font-size;
   }
 
   .post-list {
@@ -28,5 +25,18 @@
       border-top: 0;
       padding-top: 0;
     }
+  }
+}
+
+
+.page-tag-results-content {
+  h4 {
+    @include small-caps;
+    margin-top: $section-margins;
+  }
+
+  h4 + h3,
+  h4 + h2, {
+    margin-top: 0;
   }
 }

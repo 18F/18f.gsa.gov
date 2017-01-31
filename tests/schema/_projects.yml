@@ -10,6 +10,7 @@ tags:
 github_repo: "String"
 project_url: "String"
 permalink: "String"
+expiration_date: String
 config:
   path: _projects
   ignore:
@@ -21,7 +22,9 @@ config:
     - image
     - image_accessibility
     - expiration_date
+    - start_date
     - github_repo
     - project_url
     - agency
+    - resources
 ---

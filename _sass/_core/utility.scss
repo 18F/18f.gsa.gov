@@ -27,3 +27,7 @@ figure,
 svg {
   @include allow-layout-classes();
 }
+
+.marginless {
+  margin: 0;
+}
