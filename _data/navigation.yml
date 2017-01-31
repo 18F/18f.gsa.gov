@@ -99,28 +99,28 @@ assigned:
         children:
             -
                 text: 'Our principles'
-                href: #our-principles
+                permalink: /about/#our-principles
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'Who we are'
-                href: #who-we-are
+                permalink: /about/#who-we-are
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'History and funding'
-                href: #history-and-funding
+                permalink: /about/#history-and-funding
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: 'For press'
-                href: #for-press
+                permalink: /about/#for-press
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -135,14 +135,14 @@ assigned:
         children:
             -
                 text: How to apply
-                permalink: #how-to-apply
+                permalink: /join/#how-to-apply
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: The interview process
-                permalink: #the-interview-process
+                permalink: /join/#the-interview-process
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -150,14 +150,14 @@ assigned:
                 children:
             -
                 text: After interviews
-                permalink: #after-interviews
+                permalink: /join/#after-interviews
                 in_menu: false
                 in_drawer: false
                 in_footer: false
                 in_subnav: true
             -
                 text: Resources
-                permalink: #resources
+                permalink: /join/#resources
                 in_menu: false
                 in_drawer: false
                 in_footer: false

@@ -1,12 +1,8 @@
 {% assign nav_items = include.page_data.children | default: include.nav_items %}
 
 <nav class="nav-accordion nav-subnav" role="navigation">
-  <h4>{{ include.page_data.text | page.title }}</h4>
   <ul class="usa-sidenav-list usa-accordion">
     {% assign is_matching = page.url | matches_url: page_data.permalink %}
-    <li>
-      <a href="{{ site.baseurl }}{{ include.page_data.permalink }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
-    </li>
 
   {% for item in nav_items %}
     {% if item.in_subnav %}
@@ -52,7 +48,7 @@
       {% else %}
         {% assign is_matching = page.url | matches_url: item.permalink %}
 
-        <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+        <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
       {% endif %}
     </li>
     {% endif %}
