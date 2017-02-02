@@ -19,7 +19,6 @@ images:
 - /assets/blog/cloud-gov/cloud-pie.png
 hero: false
 ---
-## **cloud.gov is now FedRAMP Authorized for use by federal agencies**
 
 <figure class="blog-figure-center">
   <img src="{{site.baseurl}}{{page.images[0]}}" alt="The cloud.gov logo" height="67">
@@ -41,7 +40,7 @@ Now that cloud.gov has FedRAMP Authorized status, teams can start using
 cloud.gov in production with less upfront work, and using cloud.gov in
 turn enables them to deliver services faster. In this post, we’re going
 to explain more about what this means — and if you’re part of a team
-interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)
+interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)!
 
 **What is cloud.gov**
 
@@ -181,7 +180,7 @@ source](https://github.com/18F/open-source-policy/blob/master/policy.md)
 service with FedRAMP Authorization, and we’ll write more about our open
 source work ([you’re invited to reuse and contribute to
 it](https://cloud.gov/docs/ops/repos/)). If you’d like to get these
-updates, [sign up for the cloud.gov mailing list](https://cloud.gov/#updates)
+updates, [sign up for the cloud.gov mailing list](https://cloud.gov/#updates).
 
 If you’re interested in using cloud.gov, we invite you to [get in touch
 with us](https://cloud.gov/#contact) and [learn more on our website](https://cloud.gov/overview/),
