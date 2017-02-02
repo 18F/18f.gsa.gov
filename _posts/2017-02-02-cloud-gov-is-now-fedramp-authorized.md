@@ -8,15 +8,17 @@ authors:
 tags:
 - cloud.gov
 - platforms
+- tools you can use
 - devops
 excerpt: We’re delighted to announce that cloud.gov is now FedRAMP Authorized, which enables agencies to quickly transition their web-based services to efficient and easy-to-use cloud hosting. FedRAMP Authorized status marks completion of a comprehensive security and compliance assessment that enables federal agencies to start using cloud.gov with significantly reduced effort. cloud.gov is a government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
-image: /assets/blog/slug/image.jpg/png/gif
+
 images:
 - /assets/blog/cloud-gov/logo-badge.png
 - /assets/blog/cloud-gov/fedramp-badge.jpg
 - /assets/blog/cloud-gov/fedramp-ready.png
 - /assets/blog/cloud-gov/intro-diagram.jpg
 - /assets/blog/cloud-gov/cloud-pie.png
+hero: false
 ---
 ## **cloud.gov is now FedRAMP Authorized for use by federal agencies**
 
@@ -40,7 +42,7 @@ Now that cloud.gov has FedRAMP Authorized status, teams can start using
 cloud.gov in production with less upfront work, and using cloud.gov in
 turn enables them to deliver services faster. In this post, we’re going
 to explain more about what this means — and if you’re part of a team
-interested in using cloud.gov, *we’d like to hear from you*!
+interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)
 
 **What is cloud.gov**
 
@@ -78,7 +80,7 @@ P-ATO](https://www.fedramp.gov/resources/faqs/how-does-an-agency-leverage-a-fedr
 service) instead of needing to do all their own independent research.
 
 cloud.gov has received a JAB P-ATO at the Moderate impact level.
-(Federal systems are categorized as *Low, Moderate, or High impact, so*
+(Federal systems are categorized as [Low, Moderate, or High impact](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf#page=6), so
 this means agencies can easily use cloud.gov to host Low and Moderate
 systems, which are the majority of federal systems.) When an agency
 accepts this P-ATO, teams at that agency can leverage the P-ATO for the
@@ -180,10 +182,10 @@ source](https://github.com/18F/open-source-policy/blob/master/policy.md)
 service with FedRAMP Authorization, and we’ll write more about our open
 source work ([you’re invited to reuse and contribute to
 it](https://cloud.gov/docs/ops/repos/)). If you’d like to get these
-updates, *sign up for the cloud.gov mailing list*.
+updates, [sign up for the cloud.gov mailing list](https://cloud.gov/#updates)
 
-If you’re interested in using cloud.gov, we invite you to *get in touch
-with us* and [learn more on our website](https://cloud.gov/overview/),
+If you’re interested in using cloud.gov, we invite you to [get in touch
+with us](https://cloud.gov/#contact) and [learn more on our website](https://cloud.gov/overview/),
 including how agency teams can try out cloud.gov for free. If you’d like
 to see our P-ATO documentation package, you can [request it from
 FedRAMP](https://www.fedramp.gov/files/2015/03/FedRAMP-Package-Request-Form_V4_06192014.pdf).
