@@ -476,13 +476,36 @@
       };
   });
 
-  var stickyfill = Stickyfill()
+  var stickyfill = Stickyfill();
+  var stickies = [];
+  var $document = $(document);
+  var $window = $(window);
 
   // Initialize page stickies
   document.querySelectorAll('.sticky')
     .forEach(function(el) {
       stickyfill.add(el);
+      stickies.push(el);
     });
+
+  var watch = function() {
+    stickies.forEach(function(sticky) {
+      $sticky = $(sticky);
+      var atTop = $sticky.css('position') == 'fixed';
+      var isStuck = $sticky.hasClass('stuck');
+
+      if (atTop && !isStuck) {
+        $sticky.addClass('stuck');
+      } else if (!atTop && isStuck) {
+        $sticky.removeClass('stuck');
+      }
+    });
+  };
+
+  $document.on('scroll.sticky', watch);
+  $window.on('resize.sticky', watch);
+
+  watch();
 
 })();
 /* eslint-enable */
