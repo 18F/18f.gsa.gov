@@ -10,8 +10,6 @@ We are an office within the [General Services Administration](https://www.gsa.go
 
 We've worked with over 50 offices and agencies, on more than 200 engagements. All our projects support agencies in transforming how they deliver digital services and technology products.
 
-Our team is made up of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
-
 ## Our principles
 
 We strive to work in a modern way and use best practices on all our projects. Here's what that means to us:
@@ -26,11 +24,16 @@ We strive to work in a modern way and use best practices on all our projects. He
 
 To learn more about how we work, explore [18F guides](https://pages.18f.gov/guides/).
 
-## Who we are
+## Our team
 
-Our team is made up of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
+We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
 
-Read how our employees describe, in their own words, [why they joined 18F](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/) and [the path they took to get here](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/).
+Get to know our team through these posts:
+
+- [We asked 100 of our coworkers why they joined 18F]({{ site.baseurl }}/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
+- [We asked over 100 of our coworkers: What was your path to 18F?]({{ site.baseurl }}/2016/03/22/what-was-your-path-to-18f/)
+- [We asked over 100 of our coworkers what they've loved working on?]({{ site.baseurl }}/2016/03/23/what-have-you-loved-working-on/)
+- [We asked everyone at 18F to reflect on the most meaningful project they worked on this year]({{ site.baseurl }}/looking-back-2015-our-own-words/)
 
 ## History and funding
 
