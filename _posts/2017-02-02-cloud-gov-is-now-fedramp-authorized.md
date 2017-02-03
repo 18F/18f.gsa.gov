@@ -186,7 +186,7 @@ If you’re interested in using cloud.gov, we invite you to [get in touch
 with us](https://cloud.gov/#contact) and [learn more on our website](https://cloud.gov/overview/),
 including how agency teams can try out cloud.gov for free. If you’d like
 to see our P-ATO documentation package, you can [request it from
-FedRAMP](https://www.fedramp.gov/files/2015/03/FedRAMP-Package-Request-Form_V4_06192014.pdf).
+FedRAMP](https://www.fedramp.gov/).
 
 If you’re part of a vendor or contractor interested in using cloud.gov,
 ask your agency partners to evaluate this option.
