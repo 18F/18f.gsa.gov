@@ -23,7 +23,7 @@ Federal regulations are often dense and filled with terminology that can make th
 
 The Consumer Financial Protection Bureau (CFPB) developed a tool called eRegulations to organize federal regulations and display them in a user-friendly format. This tool helped make CFPB’s regulations more accessible, but other agencies weren’t sure how to adapt it to their needs.
 
-## Using open-source collaboration to expand eRegulations’ reach
+### Using open-source collaboration to expand eRegulations’ reach
 
 18F worked with the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) to adapt the tool so it could handle the complex table structures in ATF regulations. Because we built on existing code, this project took just two months to build.
 
