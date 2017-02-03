@@ -5,44 +5,140 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="usa-grid usa-section content-focus page-tag-results">
+<section class="breadcrumb usa-grid">
+  <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}/how-we-work/">What we deliver</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page.agency }}</span>
+</section>
+<section class="page-tag-results">
 
   {% if page.image %}
-    <section class="hero"
-        style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        role="img"
-        title="{{ page.image_accessibility }}">
-      <div class="usa-grid-full">
-        <div class="hero-callout hero-callout-no_button background-dark">
-          <h1 class="hero-callout-title">
-            {{ page.agency }}: <br>
-            <span class="hero-callout-alt_color">
-              {{ page.title }}
-            </span>
+    <section class="background-dark">
+      <div class="usa-grid-full usa-flex">
+        <div class="usa-grid usa-width-one-half hero-callout-full hero-callout-no_button">
+          <h1 class="h3">
+          <span class="hero-callout-alt_color">{{ page.agency }}</span>
+          </h1>
+          <h1 class="hero-callout-title-secondary">
+            {{ page.title }}
           </h1>
         </div>
+        <div class="usa-width-one-half hero"
+        style="background-image: url({{ site.baseurl }}{{ page.image }});"
+        role="img"
+        title="{{ page.image_accessibility }}"></div>
       </div>
     </section>
+
   {% else %}
     <h1>{{ page.project-type }}: {{ page.title }}</h1>
   {% endif %}
 
-  <section class="usa-section break-bottom">
-    <h2>{{ page.subtitle }}</h2>
+  <div class="usa-grid-full usa-grid-reversed">
+    {% assign any_clients = page.product_clients.size > 0 %}
 
-    {{ content }}
-  </section>
-
-  <section class="usa-section">
-    <h2>Our blog posts about this work</h2>
-
-    {%
-      include tag-results.html
-      posts=matching_posts
-      tags=page.tags
-      limit_metadata=true
-      trim_padding=true
+    {% if page.agency or
+          page.product_url or
+          page.github_url or
+          any_clients or
+          page.start_date or
+          page.expiration_date or
+          page.resources
     %}
-  </section>
+    <aside class="sticky sticky-subnav usa-grid usa-section usa-grid-reversed-right usa-width-one-third aside-card">
+      <ul>
+        {% if page.agency %}
+        <li>
+          <div class="aside-card-header">Agency partner</div>
+          <div>{{ page.agency }}</div>
+        </li>
+        {% endif %}
 
+        {% if page.product_url %}
+        <li>
+          <div class="aside-card-header">Learn more</div>
+          <div><a href="{{ page.project_url }}">{{ page.project_url }}</a></div>
+        </li>
+        {% endif %}
+
+        {% if page.github_repo %}
+        <li>
+          <div class="aside-card-header">Github repo</div>
+          <div><a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a></div>
+        </li>
+        {% endif %}
+
+        {% if any_clients %}
+        <li>
+          <div class="aside-card-header">Agency partners</div>
+          <ul>
+          {% for client in page.product_clients %}
+            <li>{{ client }}</li>
+          {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.start_date or page.expiration_date %}
+        <li>
+          <div class="aside-card-header">When</div>
+          <div>
+          {% if page.start_date and page.expiration_date %}
+            {{ page.start_date }} – {{ page.expiration_date }}
+          {% elsif page.start_date and !page.expiration_date %}
+            Starts {{ page.start_date }}
+          {% elsif !page.start_date and page.expiration_date %}
+            Ends {{ page.expiration_date }}
+          {% endif %}
+          </div>
+        </li>
+        {% endif %}
+
+        {% if page.resources.size > 0 %}
+          <div class="aside-card-header">Resources</div>
+          <ul>
+            {% for resource in page.resources %}
+              <li><a href="{{ resource.href }}">{{ resource.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </ul>
+    </aside>
+    {% endif %}
+
+    <div class="usa-grid usa-width-two-thirds">
+      <section class="usa-section page-tag-results-content">
+
+        <h2>{{ page.subtitle }}</h2>
+
+        {{ content }}
+      </section>
+    </div>
+  </div>
+
+  <div class="background-gray">
+    <div class="usa-section">
+      <section class="usa-grid posts_feature">
+        <div class="usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer">
+          <h2>Related blog posts</h2>
+          <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">See all posts about this project</a>
+        </div>
+        <ul>
+        {% for post in matching_posts limit:3 %}
+          {% include post.html
+             post_date=post.date
+             post_title=post.title
+             post_excerpt=post.excerpt
+             post_url=post.url
+          %}
+        {% endfor %}
+      </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="usa-section">
+    <div class="usa-grid usa-flex usa-flex-pull-right usa-flex-baseline">
+    <h4>We work with federal agencies to approach technology projects in new ways</h4>
+    <div class="usa-width-one-third"><a href="{{ site.baseurl }}/how-we-work/"><button class="usa-button usa-button-secondary marginless">Get in touch</button></a></div>
+  </div>
+  </div>
 </section>

@@ -1,0 +1,13 @@
+.breadcrumb {
+  padding-bottom: $paragraph-margins;
+  padding-top: $paragraph-margins;
+
+  a {
+    text-decoration: none;
+    font-weight: $font-normal;
+  }
+
+  path {
+    fill: $color-gray-medium;
+  }
+}
