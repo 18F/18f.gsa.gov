@@ -22,14 +22,13 @@ U.S. Citizenship and Immigration Services (USCIS) wanted to make the naturalizat
 
 We began by talking to dozens of people who had gone through the naturalization process. We also listened to USCIS customer service center calls, interviewed staff, and visited immigration offices to get a clearer picture of employees’ experiences and obstacles.
 
-Using this data, we helped USCIS radically improve their customer experience. Here’s what we created: 
+Using this data, we helped USCIS radically improve their customer experience. The following resources allow citizenship seekers to more quickly find the information they’re looking for and save USCIS employees time and money by substantially reducing the administrative burden of processing these applications: 
 
-- **Benefits finder:** Customers can enter their current immigration status to have the site show them the benefits they’re eligible for and how to apply.
-- **Improved account system:** Citizenship seekers can log in to an improved account system to see their notices and appointments in a single location.
-- **“What to expect” content:** For Constitution Week, we released plain-language content letting folks know what to expect from the naturalization process.
-- **Civics test resources:** We rewrote study guides using plain language, included more and higher quality images for visual learners, and added audio so people can hear recordings of the questions. 
-- **English or citizenship prep class locator:** This tool allows customers to find community-based English as a Second Language (ESL) resources like ESL classes and study groups near them. 
-
-These resources allow citizenship seekers to more quickly find the information they’re looking for and save USCIS employees time and money by substantially reducing the administrative burden of processing these applications.
+- Our **updates to the N-400 (Application for Naturalization)** describe complex concepts in plain language and give the form an easier-to-follow flow. 
+- USCIS customers can enter their immigration status into our **benefit-finding tool** to see programs and resources they're eligible for, along with how to apply.
+- Citizenship seekers can log into our **improved account system** to see their notices and appointments in a single location.
+- We released **plain-language Constitution Week content** letting folks know what to expect from the naturalization process.
+- We improved the **Civics Test study guides**, which now use plain language, include more and higher quality images, and feature audio recordings of the questions. 
+- Our **English or citizenship prep class locator** allows customers to find community-based English as a Second Language (ESL) resources like ESL classes and study groups near them.
 
 Our work on the myUSCIS site received two awards (one from USCIS and one from the [Center for Plain Language](http://centerforplainlanguage.org/clearmark/2016-clearmark-winners/)) honoring the plain language on the myUSCIS site.
