@@ -9,8 +9,6 @@ image: /assets/img/home/hero-immigration.png
 image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
 tags:
 - uscis
-expiration_date:
-github_repo: 
 project_url: https://my.uscis.gov/
 ---
 
@@ -22,13 +20,13 @@ U.S. Citizenship and Immigration Services (USCIS) wanted to make the naturalizat
 
 We began by talking to dozens of people who had gone through the naturalization process. We also listened to USCIS customer service center calls, interviewed staff, and visited immigration offices to get a clearer picture of employees’ experiences and obstacles.
 
-Using this data, we helped USCIS radically improve their customer experience. The following resources allow citizenship seekers to more quickly find the information they’re looking for and save USCIS employees time and money by substantially reducing the administrative burden of processing these applications: 
+Using this data, we helped USCIS radically improve their customer experience by creating resources that allow users to quickly find the information they’re looking for — and save USCIS employees time and money by reducing the administrative burden of processing applications: 
 
-- Our **updates to the N-400 (Application for Naturalization)** describe complex concepts in plain language and give the form an easier-to-follow flow. 
-- USCIS customers can enter their immigration status into our **benefit-finding tool** to see programs and resources they're eligible for, along with how to apply.
-- Citizenship seekers can log into our **improved account system** to see their notices and appointments in a single location.
+- **Updates to the Application for Naturalization form** (or N-400) make the form easier to follow and describe complex concepts in plain language. 
+- USCIS customers can enter their immigration status into a new **benefit-finding tool** to see programs and resources they're eligible for, along with how to apply.
+- Citizenship seekers can log into the **improved account system** to see their notices and appointments in a single location.
 - We released **plain-language Constitution Week content** letting folks know what to expect from the naturalization process.
-- We improved the **Civics Test study guides**, which now use plain language, include more and higher quality images, and feature audio recordings of the questions. 
-- Our **English or citizenship prep class locator** allows customers to find community-based English as a Second Language (ESL) resources like ESL classes and study groups near them.
+- We helped improve the **Civics Test study guides**, which now use plain language, include more and higher quality images, and feature audio recordings of the questions. 
+- An **English or citizenship prep class locator** allows customers to find community-based English as a Second Language (ESL) resources like ESL classes and study groups near them.
 
-Our work on the myUSCIS site received two awards (one from USCIS and one from the [Center for Plain Language](http://centerforplainlanguage.org/clearmark/2016-clearmark-winners/)) honoring the plain language on the myUSCIS site.
+Our work on the myUSCIS site has received two awards: one from USCIS and one from the [Center for Plain Language](http://centerforplainlanguage.org/clearmark/2016-clearmark-winners/).
