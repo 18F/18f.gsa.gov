@@ -10,6 +10,8 @@ image_accessibility: "New citizens with their hands raised for the citizenship o
 tags:
 - uscis
 project_url: https://my.uscis.gov/
+github_repo: 
+expiration_date: 
 ---
 
 The process of applying for citizenship can be complicated and intimidating. Even a small mistake can result in lost fees or denied citizenship.
