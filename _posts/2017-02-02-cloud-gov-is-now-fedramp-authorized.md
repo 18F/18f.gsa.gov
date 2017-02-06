@@ -16,7 +16,7 @@ images:
 - /assets/blog/cloud-gov/fedramp-badge.jpg
 - /assets/blog/cloud-gov/fedramp-ready.png
 - /assets/blog/cloud-gov/intro-diagram.svg
-- /assets/blog/cloud-gov/cloud-chart.svg
+- /assets/blog/cloud-gov/cloud-gov-chart.svg
 hero: false
 ---
 
