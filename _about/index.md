@@ -64,8 +64,12 @@ The GSA Office of Strategic Communications handles all press questions and can c
 
 If you’re writing a story about 18F, feel free to use any of the images below:
 
-- Organizational logos: [18F (PNG)]({{ site.baseurl }}/assets/img/logos/18F-Logo-M.png) | [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
-- Product logos: [cloud.gov (PNG)]({{ site.baseurl }}/assets/blog/cloud-gov/logo-badge.png) | [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
+- Organizational logos:
+    - [18F (SVG)]({{ site.baseurl }}/assets/img/logos/18f-logo.svg)
+    - [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
+- Product logos:
+    - [cloud.gov (PNG)]({{ site.baseurl }}/blog/cloud-gov/logo-badge.png)
+    - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
 - [Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
 - 18F at work:
     - [Staff photo as of May 2016 (JPG)]({{ site.baseurl }}/assets/blog/join-us/18F-IRL-2016.jpg)
