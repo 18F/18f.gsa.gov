@@ -10,6 +10,7 @@ authors:
 tags:
 - collaboration tools
 - agile
+- navy reserve
 
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 excerpt: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."

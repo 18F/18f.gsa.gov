@@ -10,7 +10,6 @@ header_border: true
 </section>
 <section class="page-tag-results">
 
-  {% if page.image %}
     <section class="background-dark">
       <div class="usa-grid-full usa-flex">
         <div class="usa-grid usa-width-one-half hero-callout-full hero-callout-no_button">
@@ -23,16 +22,19 @@ header_border: true
             {{ page.title }}
           </h1>
         </div>
-        <div class="usa-width-one-half hero"
-        style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        role="img"
-        title="{{ page.image_accessibility }}"></div>
+        {% if page.image %}
+          <div class="usa-width-one-half hero"
+            style="background-image: url({{ site.baseurl }}{{ page.image }});"
+            role="img"
+            title="{{ page.image_accessibility }}">
+          </div>
+        {% else %}
+          <div class="usa-width-one-half hero"
+            style="background-image: none">
+          </div>
+        {% endif %}
       </div>
     </section>
-
-  {% else %}
-    <h1>{{ page.project-type }}: {{ page.title }}</h1>
-  {% endif %}
 
   <div class="usa-grid-full usa-grid-reversed">
     {% assign any_clients = page.product_clients.size > 0 %}

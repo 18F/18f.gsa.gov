@@ -105,8 +105,8 @@ assigned:
                 in_footer: false
                 in_subnav: true
             -
-                text: 'Who we are'
-                permalink: /about/#who-we-are
+                text: 'Our team'
+                permalink: /about/#our-team
                 in_menu: false
                 in_drawer: false
                 in_footer: false

@@ -10,8 +10,6 @@ We are an office within the [General Services Administration](https://www.gsa.go
 
 We've worked with over 50 offices and agencies, on more than 200 engagements. All our projects support agencies in transforming how they deliver digital services and technology products.
 
-Our team is made up of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
-
 ## Our principles
 
 We strive to work in a modern way and use best practices on all our projects. Here's what that means to us:
@@ -26,11 +24,18 @@ We strive to work in a modern way and use best practices on all our projects. He
 
 To learn more about how we work, explore [18F guides](https://pages.18f.gov/guides/).
 
-## Who we are
+## Our team
 
-Our team is made up of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
+We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
 
-Read how our employees describe, in their own words, [why they joined 18F](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/) and [the path they took to get here](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/).
+Want to get to know our team a little better? These blog posts feature the voices of people from across 18F:
+
+- [We asked 100 of our coworkers why they joined 18F]({{ site.baseurl }}/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
+- [We asked over 100 of our coworkers: What was your path to 18F?]({{ site.baseurl }}/2016/03/22/what-was-your-path-to-18f/)
+- [We asked over 100 of our coworkers what they've loved working on?]({{ site.baseurl }}/2016/03/23/what-have-you-loved-working-on/)
+- [We asked everyone at 18F to reflect on the most meaningful project they worked on this year]({{ site.baseurl }}/2015/12/23/looking-back-2015-our-own-words/)
+
+We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-profiles/), if you want to learn more about our day-to-day work.
 
 ## History and funding
 
@@ -53,4 +58,5 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 ## For press
 
-[media@gsa.gov](mailto:media@gsa.gov?Subject=18F%20Media%20Query)
+For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline. The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service.
+
