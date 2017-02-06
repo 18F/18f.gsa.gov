@@ -2,9 +2,11 @@
   background: $color-gray-lightest;
   border-top: 1px solid $color-white;
   font-size: initial;
+  padding: 0;
 
   @include media($medium-screen) {
     background: none;
+    padding-right: $site-margins;
 
     > ul:first-of-type {
       border-top: $border-thick;
@@ -16,12 +18,42 @@
   ul {
     @include unstyled-list;
 
-    li {
-      margin-bottom: $site-margins;
+    background: $color-gray-lightest;
+    border-top: 1px solid $color-gray-lighter;
+    padding-bottom: $site-margins;
+    padding-top: $paragraph-margins;
 
-      &:last-of-type {
-        margin-bottom: 0;
-      }
+    @include media($medium-screen) {
+      background: $color-white;
+      border: 0;
+      padding: 0;
+    }
+  }
+
+  a {
+    overflow-wrap: break-word;
+  }
+
+  .aside-card-list-item {
+    padding-bottom: $site-margins;
+    padding-left: $site-margins;
+    padding-right: $site-margins;
+
+    @include media($medium-screen) {
+      background-color: $color-white;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+
+  .aside-card-button {
+    @include media($medium-screen) {
+      padding-left: 0;
+      padding-top: $section-margins;
     }
   }
 }

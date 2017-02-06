@@ -11,13 +11,13 @@
 .hero-primary {
   background-image: none;
 
-  @include media($medium-screen + $grid-margins) {
+  @include media($tablet-screen) {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
 
 .hero-callout {
-  @include media($medium-screen + $grid-margins) {
+  @include media($tablet-screen) {
     max-width: 300px;
   }
 }

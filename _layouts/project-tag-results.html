@@ -47,31 +47,36 @@ header_border: true
           page.expiration_date or
           page.resources
     %}
-    <aside class="sticky sticky-subnav usa-grid usa-section usa-grid-reversed-right usa-width-one-third aside-card">
-      <ul>
+    <aside class="sticky sticky-subnav usa-grid usa-grid-reversed-right usa-width-one-third aside-card usa-accordion ">
+      {% assign title_slug = 'info-details' %}
+      <button class="usa-accordion-button aside-card-button usa-accordion-button-chevron"
+              aria-expanded="false"
+              aria-controls="{{ title_slug }}">Details</button>
+
+      <ul id="{{ title_slug }}" aria-hidden="true">
         {% if page.agency %}
-        <li>
+        <li class="aside-card-list-item">
           <div class="aside-card-header">Agency partner</div>
           <div>{{ page.agency }}</div>
         </li>
         {% endif %}
 
-        {% if page.product_url %}
-        <li>
+        {% if page.project_url %}
+        <li class="aside-card-list-item">
           <div class="aside-card-header">Learn more</div>
           <div><a href="{{ page.project_url }}">{{ page.project_url }}</a></div>
         </li>
         {% endif %}
 
         {% if page.github_repo %}
-        <li>
+        <li class="aside-card-list-item">
           <div class="aside-card-header">Github repo</div>
           <div><a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a></div>
         </li>
         {% endif %}
 
         {% if any_clients %}
-        <li>
+        <li class="aside-card-list-item">
           <div class="aside-card-header">Agency partners</div>
           <ul>
           {% for client in page.product_clients %}
@@ -82,7 +87,7 @@ header_border: true
         {% endif %}
 
         {% if page.start_date or page.expiration_date %}
-        <li>
+        <li class="aside-card-list-item">
           <div class="aside-card-header">When</div>
           <div>
           {% if page.start_date and page.expiration_date %}

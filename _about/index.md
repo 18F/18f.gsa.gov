@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About 18F
 path: about
 permalink: /about/
 layout: default-image

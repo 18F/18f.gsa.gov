@@ -1,5 +1,8 @@
 // Nav accordion
 .nav-accordion {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray-lighter;
+
   .usa-sidenav-list {
 
     ul {
@@ -11,11 +14,13 @@
     li {
       border-top-color: $color-gray-lighter;
       background: transparent;
+      margin-bottom: 0;
     }
 
     button {
-      background-color: transparent;
+      background-color: $color-white;
       background-position: right 0 center;
+      border-bottom: 1px solid $color-gray-lighter;
       border-radius: 0;
       text-align: left;
 
