@@ -1,4 +1,4 @@
-.aside-card {
+.section-info {
   background: $color-gray-lightest;
   border-top: 1px solid $color-white;
   font-size: initial;
@@ -34,7 +34,7 @@
     overflow-wrap: break-word;
   }
 
-  .aside-card-list-item {
+  .section-info-list-item {
     padding-bottom: $site-margins;
     padding-left: $site-margins;
     padding-right: $site-margins;
@@ -50,7 +50,7 @@
     }
   }
 
-  .aside-card-button {
+  .section-info-button {
     @include media($medium-screen) {
       padding-left: 0;
       padding-top: $section-margins;
@@ -58,6 +58,6 @@
   }
 }
 
-.aside-card-header {
+.section-info-header {
   font-weight: $font-bold;
 }
