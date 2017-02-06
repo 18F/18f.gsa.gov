@@ -16,7 +16,7 @@ images:
 - /assets/blog/cloud-gov/fedramp-badge.jpg
 - /assets/blog/cloud-gov/fedramp-ready.png
 - /assets/blog/cloud-gov/intro-diagram.svg
-- /assets/blog/cloud-gov/cloud-pie.png
+- /assets/blog/cloud-gov/cloud-chart.svg
 hero: false
 ---
 
@@ -101,10 +101,10 @@ underlying platform. Here’s what that looks like:
 <img src="{{site.baseurl}}{{page.images[3]}}" alt="" aria-hidden="true">
 <div class="usa-sr-only">
 <p>You set up and maintain your web application code.</p>
-<p>You can run your application on the programming language stacks that we maintain. Or you can run it on a custom programming language stack that you maintain.</p>
-<p>Your application can user services cloud.gov provides including storage, databases, search services, and CDN services. You can also create and use your own services</p>
-<p>Cloud.gov maintains the security and availability of the platform. We update the operating systems, monitor the platform, and log everything.</p>
-<p>This runs on top of Amazon Web Services (GovCloud), which provisions and maintains the hardware</p>
+<p>You can run your application on the programming language stacks that cloud.gov maintains. Or you can run it on a custom programming language stack that you maintain.</p>
+<p>Your application can user services cloud.gov provides including storage, databases, and CDN services. You can also create and use your own services to meet any special requirements.</p>
+<p>The cloud.gov team maintains the security and availability of the platform. We update the operating systems, monitor the platform, and log everything.</p>
+<p>This runs on top of Amazon Web Services (GovCloud), which provisions and maintains the hardware.</p>
 </div>
 
 This means your team can focus on your unique code instead of managing
