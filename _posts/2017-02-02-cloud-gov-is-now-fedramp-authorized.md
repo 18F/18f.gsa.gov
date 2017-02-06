@@ -120,7 +120,7 @@ implementations for the remaining 15 controls, such as ensuring you make
 data backups and using reliable DNS (Domain Name System) name servers
 for your websites.
 
-![A pie chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two.]({{site.baseurl}}{{page.images[4]}})
+![A bar chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two.]({{site.baseurl}}{{page.images[4]}})
 
 cloud.gov is also a building block for vendors and contractors that
 supply services to federal agencies. They can submit proposals to
