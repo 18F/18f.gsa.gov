@@ -16,7 +16,7 @@ images:
 - /assets/blog/cloud-gov/fedramp-badge.jpg
 - /assets/blog/cloud-gov/fedramp-ready.png
 - /assets/blog/cloud-gov/intro-diagram.svg
-- /assets/blog/cloud-gov/cloud-pie.png
+- /assets/blog/cloud-gov/cloud-gov-chart.svg
 hero: false
 ---
 
@@ -42,7 +42,7 @@ turn enables them to deliver services faster. In this post, we’re going
 to explain more about what this means — and if you’re part of a team
 interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)!
 
-**What is cloud.gov?**
+## What is cloud.gov?
 
 cloud.gov gives federal agencies a fast and easy way to host and update
 websites (and other web applications, such as APIs), so their employees
@@ -54,7 +54,7 @@ website](https://cloud.gov/). We’ll also explain more below, including
 how cloud.gov handles the majority of compliance requirements for
 customers.
 
-**How FedRAMP helps federal agencies use cloud.gov**
+## How FedRAMP helps federal agencies use cloud.gov
 
 Many agencies are interested in using cloud.gov, and historically each
 agency would have to conduct their own in-depth review of cloud.gov’s
@@ -89,7 +89,7 @@ Operate from their agency. In other words: teams can develop and deploy
 new and updated web applications *much faster,* supporting agile
 delivery.
 
-**How cloud.gov helps your team achieve its mission**
+## How cloud.gov helps your team achieve its mission
 
 cloud.gov is for teams that build and deliver websites (and other
 web-based applications) as part of their work — for example, an agency
@@ -101,10 +101,10 @@ underlying platform. Here’s what that looks like:
 <img src="{{site.baseurl}}{{page.images[3]}}" alt="" aria-hidden="true">
 <div class="usa-sr-only">
 <p>You set up and maintain your web application code.</p>
-<p>You can run your application on the programming language stacks that we maintain. Or you can run it on a custom programming language stack that you maintain.</p>
-<p>Your application can user services cloud.gov provides including storage, databases, search services, and CDN services. You can also create and use your own services</p>
-<p>Cloud.gov maintains the security and availability of the platform. We update the operating systems, monitor the platform, and log everything.</p>
-<p>This runs on top of Amazon Web Services (GovCloud), which provisions and maintains the hardware</p>
+<p>You can run your application on the programming language stacks that cloud.gov maintains. Or you can run it on a custom programming language stack that you maintain.</p>
+<p>Your application can user services cloud.gov provides including storage, databases, and CDN services. You can also create and use your own services to meet any special requirements.</p>
+<p>The cloud.gov team maintains the security and availability of the platform. We update the operating systems, monitor the platform, and log everything.</p>
+<p>This runs on top of Amazon Web Services (GovCloud), which provisions and maintains the hardware.</p>
 </div>
 
 This means your team can focus on your unique code instead of managing
@@ -120,7 +120,7 @@ implementations for the remaining 15 controls, such as ensuring you make
 data backups and using reliable DNS (Domain Name System) name servers
 for your websites.
 
-![A pie chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two.]({{site.baseurl}}{{page.images[4]}})
+![A bar chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two.]({{site.baseurl}}{{page.images[4]}})
 
 cloud.gov is also a building block for vendors and contractors that
 supply services to federal agencies. They can submit proposals to
@@ -132,7 +132,7 @@ comfortable and familiar with cloud technology, enabling deeper
 partnerships with both industry cloud providers as well as vendors and
 contractors that prefer to build using cloud platforms.
 
-**A few of the improvements we made along the way**
+## A few of the improvements we made along the way
 
 We [first announced cloud.gov in May
 2015](https://18f.gsa.gov/2015/05/08/layering-innovation/) after two
@@ -170,7 +170,7 @@ cloud services available to government teams. We appreciate the work of
 the FedRAMP Program Management Office, who guided us through each step
 of the process.
 
-**Learn more**
+## Learn more
 
 Over the next few months, we’ll explain more about cloud.gov, give
 examples of live federal systems built on cloud.gov, and share lessons
