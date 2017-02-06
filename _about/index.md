@@ -58,5 +58,22 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 ## For press
 
-For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline. The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service.
+For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
+
+The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
+
+If you’re writing a story about 18F, feel free to use any of the images below:
+
+- Organizational logos: [18F (PNG)]({{ site.baseurl }}/assets/img/logos/18F-Logo-M.png) | [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
+- Product logos: [cloud.gov (PNG)]({{ site.baseurl }}/assets/blog/cloud-gov/logo-badge.png) | [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
+- [Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
+- 18F at work:
+    - [Staff photo as of May 2016 (JPG)]({{ site.baseurl }}/assets/blog/join-us/18F-IRL-2016.jpg)
+    - [Workshop 1 (JPG)]({{ site.baseurl }}/assets/img/page-feature/hire-us.jpg)
+    - [Workshop 2 (JPG)]({{ site.baseurl }}/assets/img/page-feature/join.jpg)
+    - [Workshop 3 (JPG)]({{ site.baseurl }}/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
+    - [Meeting 1 (JPG)]({{ site.baseurl }}/assets/blog/data-act-implementation/data-act-meeting.jpg)
+    - [Meeting 2 (JPG)]({{ site.baseurl }}/assets/blog/meeting-facilitation/workshopping.jpg)
+    - [Lego workshop (JPG)]({{ site.baseurl }}/assets/blog/lego-workshop/sba-execs-legos-2.jpg)
+
 

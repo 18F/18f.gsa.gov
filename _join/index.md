@@ -44,19 +44,9 @@ The interview process begins with a 30-minute preliminary screening by phone or 
 
 If we'd like to chat with you more, we'll ask you to come in to one of our office locations or join us somewhere on the internet for a couple of longer conversations.
 
-**Interviewing for a specific team?**
-
-Check out more interviewing information for each of our teams. 
-
-<ul>
-    {% for interview in site.interviews %}
-        <li><a href="{{site.baseurl}}{{ interview.url }}">{{ interview.title }}</a></li>
-    {% endfor %}
-</ul>
-
 ## After interviews
 
-After the 18F [interview phase]({{ site.baseurl }}/interview-process/), your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
+After the 18F interview phase, your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
 
 Once we hear back from your references, the **GSA Human Resources Team** will ask you for additional documents in order to proceed with the hiring process.
 
