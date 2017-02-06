@@ -42,7 +42,7 @@ turn enables them to deliver services faster. In this post, we’re going
 to explain more about what this means — and if you’re part of a team
 interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)!
 
-**What is cloud.gov?**
+## What is cloud.gov?
 
 cloud.gov gives federal agencies a fast and easy way to host and update
 websites (and other web applications, such as APIs), so their employees
@@ -54,7 +54,7 @@ website](https://cloud.gov/). We’ll also explain more below, including
 how cloud.gov handles the majority of compliance requirements for
 customers.
 
-**How FedRAMP helps federal agencies use cloud.gov**
+## How FedRAMP helps federal agencies use cloud.gov
 
 Many agencies are interested in using cloud.gov, and historically each
 agency would have to conduct their own in-depth review of cloud.gov’s
@@ -89,7 +89,7 @@ Operate from their agency. In other words: teams can develop and deploy
 new and updated web applications *much faster,* supporting agile
 delivery.
 
-**How cloud.gov helps your team achieve its mission**
+## How cloud.gov helps your team achieve its mission
 
 cloud.gov is for teams that build and deliver websites (and other
 web-based applications) as part of their work — for example, an agency
@@ -132,7 +132,7 @@ comfortable and familiar with cloud technology, enabling deeper
 partnerships with both industry cloud providers as well as vendors and
 contractors that prefer to build using cloud platforms.
 
-**A few of the improvements we made along the way**
+## A few of the improvements we made along the way
 
 We [first announced cloud.gov in May
 2015](https://18f.gsa.gov/2015/05/08/layering-innovation/) after two
@@ -170,7 +170,7 @@ cloud services available to government teams. We appreciate the work of
 the FedRAMP Program Management Office, who guided us through each step
 of the process.
 
-**Learn more**
+## Learn more
 
 Over the next few months, we’ll explain more about cloud.gov, give
 examples of live federal systems built on cloud.gov, and share lessons
