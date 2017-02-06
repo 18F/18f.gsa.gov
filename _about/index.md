@@ -71,13 +71,4 @@ If you’re writing a story about 18F, feel free to use any of the images below:
     - [cloud.gov (PNG)]({{ site.baseurl }}/blog/cloud-gov/logo-badge.png)
     - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
 - [Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
-- 18F at work:
-    - [Staff photo as of May 2016 (JPG)]({{ site.baseurl }}/assets/blog/join-us/18F-IRL-2016.jpg)
-    - [Workshop 1 (JPG)]({{ site.baseurl }}/assets/img/page-feature/hire-us.jpg)
-    - [Workshop 2 (JPG)]({{ site.baseurl }}/assets/img/page-feature/join.jpg)
-    - [Workshop 3 (JPG)]({{ site.baseurl }}/assets/blog/midas-oct-hacking/whiteboard_design.jpg)
-    - [Meeting 1 (JPG)]({{ site.baseurl }}/assets/blog/data-act-implementation/data-act-meeting.jpg)
-    - [Meeting 2 (JPG)]({{ site.baseurl }}/assets/blog/meeting-facilitation/workshopping.jpg)
-    - [Lego workshop (JPG)]({{ site.baseurl }}/assets/blog/lego-workshop/sba-execs-legos-2.jpg)
-
 
