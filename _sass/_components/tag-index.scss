@@ -27,16 +27,3 @@
     }
   }
 }
-
-
-.page-tag-results-content {
-  h4 {
-    @include small-caps;
-    margin-top: $section-margins;
-  }
-
-  h4 + h3,
-  h4 + h2, {
-    margin-top: 0;
-  }
-}
