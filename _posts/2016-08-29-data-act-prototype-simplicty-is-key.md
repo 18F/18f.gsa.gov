@@ -11,6 +11,7 @@ tags:
 - agency work
 excerpt: "To ensure that agencies could focus on the important work of joining their internal systems without unnecessary technology distractions, we (the 18F and Treasury prototype team) sought to deliver the simplest possible interface that would accept agency data using the simplest possible format for that data."
 image: /assets/blog/data-act-implementation/logo.png
+hero: false
 ---
 Last week we wrote about [how we diffuse knowledge through shared interests and sharing best practices on the Micro-purchase Platform](https://18f.gsa.gov/2016/08/25/micro-purchase-design-philosophy-do-one-thing-well/). This week, we’ll
 focus on some of the lessons learned during the (completed) DATA Act

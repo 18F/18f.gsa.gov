@@ -8,6 +8,7 @@ tags:
 - culture change
 excerpt: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, Colorado, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
 image: /assets/blog/denver/union-station.jpg
+figcaption: The design of GSA's headquarters in Denver is a good example of what's possible for other agencies. The team works with agencies to find the right design for their space and their culture.
 ---
 In 2019, the Colorado state office of the Bureau of Land Management
 (BLM) will move into a new office on the Denver Federal Center campus.
@@ -53,11 +54,6 @@ the last 30 years.” In situations like that, the employees often know
 their space isn’t performing well but are afraid of the uncertainty of
 change. “We're focused on how people feel about their space and setting
 expectations."
-
-<figure>
-  <img src="{{site.baseurl}}{{page.image}}" alt="GSA's regional headquarters in Denver.">
-  <figcaption>The design of GSA's headquarters in Denver is a good example of what is possible for other agencies. The team works with agencies to find the right design for their space and their culture.</figcaption>
-</figure>
 
 “We like to…inspire change,” Alex Secor, another Workplace Strategist,
 said of their approach with agencies. They help get to the right

@@ -1,8 +1,14 @@
 {% assign include_image = include.image | default: page.image %}
 {% assign include_image_alt = include.image | default: page.image_alt | default: "" %}
+{% assign include_figcaption = include.image_figcaption | default: page.image_figcaption %}
 
 {% if include_image %}
   {% unless page.hero == false %}
-    <div class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')"></div>
-  {% endunless  %}
+    <figure class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')">
+      {% if include_figcaption %}
+        <figcaption>{{ include_figcaption }}</figcaption>
+
+      {% endif %}
+    </figure>
+  {% endunless %}
 {% endif %}

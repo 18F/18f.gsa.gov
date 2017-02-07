@@ -10,6 +10,7 @@ tags:
 excerpt: "Interested in spinning up your own Writing Lab? Use these tips as your starting point."
 description: "Interested in spinning up your own Writing Lab? Use these tips as your starting point."
 image: /assets/blog/writing-lab/writing-lab-screenshot.png
+hero: false
 ---
 
 <figure>
