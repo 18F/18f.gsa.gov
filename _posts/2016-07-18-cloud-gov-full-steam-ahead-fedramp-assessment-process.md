@@ -8,16 +8,10 @@ tags:
 - cloud.gov
 - platforms
 - devops
-excerpt: "Here at 18F on the cloud.gov team, we’re working
-toward getting cloud.gov assessed as FedRAMP compliant, with lots of
-interesting progress — so here’s an update, including our FedRAMP
-Ready status!"
-description: "Here at 18F on the cloud.gov team, we’re working
-toward getting cloud.gov assessed as FedRAMP compliant, with lots of
-interesting progress — so here’s an update, including our FedRAMP
-Ready status!"
+excerpt: "Here at 18F on the cloud.gov team, we’re working toward getting cloud.gov assessed as FedRAMP compliant, with lots of interesting progress — so here’s an update, including our FedRAMP Ready status!"
+description: "Here at 18F on the cloud.gov team, we’re working toward getting cloud.gov assessed as FedRAMP compliant, with lots of interesting progress — so here’s an update, including our FedRAMP Ready status!"
 image: /assets/blog/cloud-gov/ship-going-fast.jpg
-figcaption: <a href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">To always be shipping, you need a shipyard.</a> Image courtesy of the <a href="https://www.flickr.com/photos/usnavy/8428935049/">U.S. Navy / Public domain</a>
+image_figcaption: <a href="https://18f.gsa.gov/2015/10/09/cloud-gov-launch/">To always be shipping, you need a shipyard.</a> Image courtesy of the <a href="https://www.flickr.com/photos/usnavy/8428935049/">U.S. Navy / Public domain</a>
 ---
 
 Here at 18F on the [cloud.gov](https://cloud.gov/) team, we’re working toward getting cloud.gov assessed as [FedRAMP](https://www.fedramp.gov/) compliant, with lots of interesting progress — so here’s an update, including our [FedRAMP Ready](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName&productNameSearch=18f) status!

@@ -11,20 +11,9 @@ tags:
 - health and human services
 excerpt: "This is the story of how the State of California changed direction on a $500 million IT project for Child Welfare Services. To a large degree it’s about technology. But it‘s also about leadership, changing frames for assessing risk, and relationships based on trust."
 image: /assets/blog/ca-child-welfare/ca-team.jpg
-figcaption: The team from the State of California, Code for America, and 18F.
+image_figcaption: The team from the State of California, Code for America, and 18F.
 ---
-*This is the story of how the State of California changed direction on a
-$500 million IT project for Child Welfare Services. To a large degree
-it’s about technology. But it‘s also about leadership, changing frames
-for assessing risk, and relationships based on trust. Many thanks to
-guest bloggers and 18F partners, Mike Wilkening, Undersecretary for the
-California Health and Human Services Agency (CHHS), and Stuart Drown,
-Deputy Secretary for Innovation at the California Government Operations
-Agency (GovOps). CHHS is home to the Department of Social Services and
-the Office of Systems Integration. GovOps hosts several of the state’s
-control entities, including the Department of Technology and the
-Department of General Services, which are responsible for large IT
-contracts and procurement. Here’s the story from Stuart and Mike.*
+*This is the story of how the State of California changed direction on a $500 million IT project for Child Welfare Services. To a large degree it’s about technology. But it‘s also about leadership, changing frames for assessing risk, and relationships based on trust. Many thanks to guest bloggers and 18F partners, Mike Wilkening, Undersecretary for the California Health and Human Services Agency (CHHS), and Stuart Drown, Deputy Secretary for Innovation at the California Government Operations Agency (GovOps). CHHS is home to the Department of Social Services and the Office of Systems Integration. GovOps hosts several of the state’s control entities, including the Department of Technology and the Department of General Services, which are responsible for large IT contracts and procurement. Here’s the story from Stuart and Mike.*
 
 ## Setting the stage
 

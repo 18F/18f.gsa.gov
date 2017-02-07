@@ -12,3 +12,13 @@
     }
   }
 }
+
+figcaption {
+  font-size: $small-font-size;
+  color: $color-gray;
+  text-align: left;
+
+  &.align-center {
+    text-align: center;
+  }
+}
