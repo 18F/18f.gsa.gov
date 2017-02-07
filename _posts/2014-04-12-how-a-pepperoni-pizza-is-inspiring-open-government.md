@@ -12,7 +12,6 @@ tags:
 - api
 - best practices
 - user-centered design
-- partners in government
 ---
 
 Easy access to detailed tracking of processes has become more and more popular. Whether using Amazon.com, UPS, Uber or United Airlines, people expect instant feedback. They want to immediately see the status of a process upon which they depend.

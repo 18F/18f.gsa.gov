@@ -7,8 +7,6 @@ authors:
 - maya
 - colinmacarthur
 tags:
-
-- our projects
 - web design standards
 - u.s. digital service
 - open source

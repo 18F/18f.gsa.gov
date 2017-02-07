@@ -10,7 +10,6 @@ authors:
 tags:
 - events
 - hackathons
-- outreach
 
 excerpt: "Last weekend, thousands of civic hackers from across the country came
 together for the National Day of Civic Hacking to better their communities. We love this kind of stuff, and couldn't help but get involved."

@@ -6,7 +6,6 @@ authors:
 - carolyn
 - michelle-chronister
 tags:
-- our projects
 - user research
 - federal front door
 - transformation services

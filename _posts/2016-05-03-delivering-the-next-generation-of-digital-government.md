@@ -4,7 +4,7 @@ date: 2016-05-03
 authors:
 - deniseroth
 tags:
-- gsa
+- general services administration
 - technology transformation service
 excerpt: "Today we take another step forward helping government develop the technology that the public and taxpayers deserve. I'm pleased to announce the creation of GSA's third service, the Technology Transformation Service."
 image:
