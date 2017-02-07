@@ -1,6 +1,5 @@
 .section-info {
   background: $color-gray-lightest;
-  border-top: 1px solid $color-white;
   font-size: initial;
   padding: 0;
 
@@ -50,12 +49,6 @@
 
     &:last-of-type {
       padding-bottom: 0;
-    }
-  }
-
-  .section-info-button {
-    @include media($medium-screen) {
-      padding-left: 0;
     }
   }
 }

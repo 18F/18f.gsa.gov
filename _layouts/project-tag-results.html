@@ -47,13 +47,8 @@ header_border: true
           page.expiration_date or
           page.resources
     %}
-    <aside class="sticky sticky-subnav usa-grid usa-grid-reversed-right usa-width-one-third section-info usa-accordion">
-      {% assign title_slug = 'info-details' %}
-      <button class="usa-accordion-button section-info-button usa-accordion-button-chevron"
-              aria-expanded="false"
-              aria-controls="{{ title_slug }}">Details</button>
-
-      <ul id="{{ title_slug }}" aria-hidden="true">
+    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info">
+      <ul>
         {% if page.agency %}
         <li class="section-info-list-item">
           <div class="section-info-header">Agency partner</div>
