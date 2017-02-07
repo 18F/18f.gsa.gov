@@ -9,6 +9,8 @@ image: /assets/img/home/hero-immigration.png
 image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
 tags:
 - uscis
+expiration_date:
+github_repo:
 project_url: https://my.uscis.gov/
 github_repo: 
 expiration_date: 

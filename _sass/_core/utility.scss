@@ -31,3 +31,17 @@ svg {
 .marginless {
   margin: 0;
 }
+
+.small-caps {
+  @include small-caps;
+  margin-top: $section-margins;
+}
+
+.small-caps-no-margin {
+  margin-top: 0;
+}
+
+.small-caps + h3,
+.small-caps + h2, {
+  margin-top: $spacer-margins;
+}
