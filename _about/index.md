@@ -68,7 +68,6 @@ If you’re writing a story about 18F, feel free to use any of the images below:
     - [18F (SVG)]({{ site.baseurl }}/assets/img/logos/18f-logo.svg)
     - [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
 - Product logos:
-    - [cloud.gov (PNG)]({{ site.baseurl }}/blog/cloud-gov/logo-badge.png)
+    - [cloud.gov (SVG)]({{ site.baseurl }}/assets/img/logos/cloud-gov-logo.svg)
     - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
 - [Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
-
