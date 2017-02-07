@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="610px" height="190px" viewBox="0 0 610 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Graphic-2-c Copy</title>
+    <title>Graphic-2-c</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Graphic-2-c-Copy">
+        <g id="Graphic-2-c">
             <g id="Group-3" transform="translate(14.000000, 53.000000)">
                 <path d="M0,2.00334454 C0,0.8969279 0.894623033,0 1.99591109,0 L489,0 L489,88 L1.99591109,88 C0.893599835,88 0,87.1003688 0,85.9966555 L0,2.00334454 Z" id="Rectangle-4" fill="#E8E8E8"></path>
-                <rect id="Rectangle-4-Copy" fill="#315786" x="489" y="0" width="63" height="88"></rect>
+                <rect id="Rectangle-4-Copy" fill="#315786" x="489" y="0" width="64" height="88"></rect>
                 <path d="M552,0 L579.006713,0 C580.107575,0 581,0.899631158 581,2.00334454 L581,85.9966555 C581,87.1030721 580.100287,88 579.006713,88 L552,88 L552,0 Z" id="Rectangle-4-Copy-2" fill="#1D304A"></path>
             </g>
-            <text id="320" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="17" font-weight="bold" line-spacing="22" fill="#000000">
-                <tspan x="16" y="28">320</tspan>
+            <text id="325" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="17" font-weight="bold" line-spacing="22" fill="#000000">
+                <tspan x="16" y="28">325</tspan>
             </text>
             <text id="security-controls" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" line-spacing="22" fill="#000000">
                 <tspan x="50" y="27">security controls</tspan>

@@ -112,7 +112,7 @@ infrastructure, which reduces the amount of technical work you have to
 do. And as explained above, cloud.gov substantially reduces the work and
 time required to get Authority to Operate from your agency for your
 system. You only need to prove compliance for your applications. Out of
-the 320 security controls required for Moderate-impact systems,
+the 325 security controls required for Moderate-impact systems,
 cloud.gov handles 269 controls, and 41 controls are a shared
 responsibility (where cloud.gov provides part of the requirement, and
 your applications provide the rest). You only need to provide full
