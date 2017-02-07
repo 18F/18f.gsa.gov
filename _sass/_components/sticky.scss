@@ -9,7 +9,7 @@
   }
 
   &.stuck .nav-subnav {
-    padding-top: $site-margins;
+    // padding-top: $site-margins;
   }
 }
 
@@ -17,4 +17,38 @@
 .sticky::after {
   content: '';
   display: table;
+}
+
+
+.sticky-subnav {
+  ul {
+    background: $color-white;
+
+    &[aria-hidden="true"] {
+      display: none;
+    }
+  }
+
+  @include media($medium-screen) {
+    ul[aria-hidden="true"] {
+      display: inline-block;
+    }
+
+    button {
+      background: $color-white;
+      border-bottom: 1px solid $color-gray-lighter;
+      cursor: default;
+
+      &[aria-expanded] {
+        background: $color-white;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        background: $color-white;
+        cursor: default;
+      }
+    }
+  }
 }

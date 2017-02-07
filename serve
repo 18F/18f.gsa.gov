@@ -5,4 +5,4 @@ bundle exec jekyll serve \
   --watch \
   --incremental \
   --host 0.0.0.0  \
-  --baseurl /test \
+  --baseurl /site \

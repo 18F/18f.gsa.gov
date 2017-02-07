@@ -22,7 +22,7 @@ To dramatically reduce the build time, there are two commands that you can run i
 * `./serve-fast`: This will eliminate all of the blog posts and the search index, but generates all other pages
 * `./serve-blog`: This will eliminate all but the latest three blog posts, but keeps the rest of the site intact.
 
-You should be able to see the site at: http://127.0.0.1:4000
+You should be able to see the site at: http://127.0.0.1:4000/site/
 
 ## Alternative Installation using Docker
 Using Docker can make dependencies management easier, but can also slow down your build time. You can find out more in
