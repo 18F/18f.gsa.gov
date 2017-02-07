@@ -5,7 +5,7 @@ authors:
 - kate
 tags:
 - speaker series
-- partners in government
+- interview
 excerpt: "Dr. Bill Barry — NASA’s Chief Historian since 2010 — will soon be visiting 18F to talk about the history of NASA’s logo. Here, read his insights on why “the meatball” is so popular, his advice to young folks considering careers in aeronautics, and more."
 description: "Dr. Bill Barry — NASA’s Chief Historian since 2010 — will soon be visiting 18F to talk about the history of NASA’s logo. Here, read his insights on why “the meatball” is so popular, his advice to young folks considering careers in aeronautics, and more."
 image: /assets/blog/nasa-historian/space.jpg

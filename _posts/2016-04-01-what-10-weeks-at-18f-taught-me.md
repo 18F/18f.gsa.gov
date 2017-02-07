@@ -5,7 +5,7 @@ authors:
 - cat-langel
 tags:
 - culture
-- gsa
+- general services administration
 - communicart
 excerpt: "Calling 18F home for the past two months has given me the opportunity to
 grow in countless ways. I’ve pushed myself in ways I wasn’t expecting."

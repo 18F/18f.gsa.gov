@@ -3,7 +3,6 @@ title: What 18F is thankful for this Thanksgiving
 authors:
 - boone
 tags:
-- thanksgiving
 - how we work
 - culture
 excerpt: Like all federal employees, we don't work on Thanksgiving. We do work on the day after, though, and this year we thought we'd pause to take a moment and reflect. Here are a few things that we're thankful for, what brings meaning to our lives, and what brings us to work every day.

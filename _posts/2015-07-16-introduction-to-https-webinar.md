@@ -7,7 +7,6 @@ authors:
 - gray
 tags:
 - https
-- partners in government
 - security
 - tools you can use
 - video

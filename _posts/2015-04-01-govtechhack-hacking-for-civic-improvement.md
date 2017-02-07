@@ -7,7 +7,6 @@ image: /assets/blog/govtechhack/IMG_4015.JPG
 tags: 
 - events
 - hackathons
-- outreach
 - open source
 
 authors:

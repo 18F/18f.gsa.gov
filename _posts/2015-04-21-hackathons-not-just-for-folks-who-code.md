@@ -7,7 +7,6 @@ authors:
 tags:
 - hackathons
 - events
-- outreach
 - how we work
 - tools you can use
 
