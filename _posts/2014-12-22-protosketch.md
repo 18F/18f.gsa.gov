@@ -2,16 +2,13 @@
 title: "Sketching with code: protosketching"
 layout: post
 date: 2015-01-06
-
 authors:
 - alan
 - robert
-
 tags:
 - collaboration tools
 - agile
 - navy reserve
-
 description: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 excerpt: Meetings are boring. Prototypes are cool. Use the meeting to build the prototype. We call building a prototype in three hours or less "protosketching."
 
