@@ -2,7 +2,7 @@
 title: About 18F
 path: about
 permalink: /about/
-layout: default-image
+layout: default-intro
 lead: 18F is a technology consulting office inside the government, for the government.
 ---
 

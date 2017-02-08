@@ -73,21 +73,21 @@ defaults:
   scope:
     path: "_hire"
   values:
-    layout: default-image
+    layout: default-intro
     # include_subnav: true
     subnav_anchor: /hire/
  -
   scope:
     path: "_about"
   values:
-    layout: default-image
+    layout: default-intro
     include_subnav: true
     subnav_anchor: /about/
  -
   scope:
     path: "_join"
   values:
-    layout: default-image
+    layout: default-intro
     include_subnav: true
     subnav_anchor: /join/
  -

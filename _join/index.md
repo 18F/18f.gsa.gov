@@ -1,7 +1,7 @@
 ---
 title: Join 18F
 permalink: /join/
-layout: default-image
+layout: default-intro
 lead: Help transform how the federal government does technology.
 redirect_from:
   - /apply/
@@ -80,62 +80,62 @@ Government-style resumes include detailed information about every job you've hel
 
 There are many online guides to building a government-style resume. Here are several resources from other organizations:
 
-- [GoGovernment's Create Your Federal Resume Guide](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php) 
+- [GoGovernment's Create Your Federal Resume Guide](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php)
 - [Food and Drug Administration (FDA)'s Federal Resume Template](http://www.fda.gov/downloads/AboutFDA/WorkingatFDA/UCM279014.pdf)
 
 This guide shows how to format a government-style resume and what information to include:
 
-> **Name**  
-> **City, state of current residence**  
-> **Email address**  
-> **Phone number**  
-> 
+> **Name**
+> **City, state of current residence**
+> **Email address**
+> **Phone number**
+>
 > **TECHNICAL SKILLS & TOOLS**
-> 
+>
 > 8+ years of experience: *List all the skills and tools you have experience with for more than 8 years. If not applicable, do not include this section.*
 > 4-7 years of experience: *List all the skills and tools you have experience with for 4-7 years. If not applicable, do not include this section.*
 > 1-3 years of experience: *List all the skills and tools you have experience with for 1-3 years.*
-> 
+>
 > **PROFESSIONAL EXPERIENCE**
-> 
-> *Start with your current employment or your most recent role and list all the professional experiences you’ve had in reverse chronological order. There needs to be a full chronology, meaning no breaks in time.* 
-> 
+>
+> *Start with your current employment or your most recent role and list all the professional experiences you’ve had in reverse chronological order. There needs to be a full chronology, meaning no breaks in time.*
+>
 > *For your most relevant, recent and/or longest held positions you should list a minimum of 8-10 bullet points. After that, it is ok to gradually lessen the number of bullet point descriptions.*
-> 
+>
 > *Unrelated jobs held many years ago do not need more than 1 or 2 bullet points, however, transferrable skills such as management, communication, and problem solving should be highlighted, as those are relevant skills.*
-> 
+>
 > *See below for employment history formatting.*
-> 
-> **Role/title, Company name**  
-> **City, State if within US or City, Country if outside of US**  
-> **Duration of employment (Start MM/YYYY - End MM/YYYY or “Present”)**  
-> **“Full-Time” or “Part-Time,” Number of hours per week: __**  
+>
+> **Role/title, Company name**
+> **City, State if within US or City, Country if outside of US**
+> **Duration of employment (Start MM/YYYY - End MM/YYYY or “Present”)**
+> **“Full-Time” or “Part-Time,” Number of hours per week: __**
 > *Include a one sentence description of the company, including the mission. This is to understand the scope of work, context of your accomplishments and contributions, scale of the company, and your role in the organization.*
-> 
+>
 > - Each bullet point should be a comprehensive description of your unique accomplishments, duties, and contributions in this role. Although it is great to learn about what your team accomplished as a whole, your resume should highlight the contributions you made.
 > - Please do not be concise. Paragraph format and extreme detail for each bullet point is encouraged.
 > - When possible, please write in layman’s terms.
 > - Quantify anything and everything (number of projects you worked on, number of people you managed, number of widgets you fixed, number of dollars you saved the company, etc.).
-> 
+>
 > *If at any point you were unemployed, please note the section as so. Unemployment is completely acceptable and understood - we just need it noted for a full timeline with no gaps:*
-> 
-> **Unemployed** 
-> **Start MM/YYYY - End MM/YYYY** 
-> 
+>
+> **Unemployed**
+> **Start MM/YYYY - End MM/YYYY**
+>
 > - Brief explanation (“took personal time to travel, be with family, etc.”) to the extent you’re comfortable sharing. It is ok to leave it blank.
-> 
-> **EDUCATION**  
-> **Name of college/university/institution, City, State**  
-> Type of degree, Major and minor, MM/YYYY degree received  
-> Graduation honors if applicable 
-> 
-> **Other sections to include if applicable:**  
-> 
+>
+> **EDUCATION**
+> **Name of college/university/institution, City, State**
+> Type of degree, Major and minor, MM/YYYY degree received
+> Graduation honors if applicable
+>
+> **Other sections to include if applicable:**
+>
 > - Volunteer work (include organization, years of participation, a one-line description of your role)
 > - Relevant awards (include awarding organization, title of award, year received, and any relevant details, such as chosen as award winner out of 300 contenders)
 > - Relevant public speaking engagements and presentations (include title of presentation, name of conference/event presentation was given, month and year of presentation)
-> - Certifications (name of certificate, institution issuing the certificate, year) 
-> - Relevant professional affiliations (organization name, start YYYY - end YYYY) 
+> - Certifications (name of certificate, institution issuing the certificate, year)
+> - Relevant professional affiliations (organization name, start YYYY - end YYYY)
 > - Publications (including internet, personal blog posts) (title of published work, month and year of publication)
 > - Training and courses (name of training/course, organization providing the training/course, MM/YYYY completed)
 
@@ -167,12 +167,12 @@ The annual salary cap for all GS employees is $160,300 per year. You cannot be o
 
 **The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) shows how GS level, step, and locality affect compensation.**
 
-#### What does "not to exceed two years" mean? 
+#### What does "not to exceed two years" mean?
 
 Most 18F members are "not to exceed" (NTE) employees. This means you can't work at 18F in the same position description for more than four years total. Both your tentative and final offer letters state that you can work at 18F for two years, but you’re also eligible to extend your term for another two years, provided you meet certain performance criteria. The only reason your position would not be automatically extended is if you failed to adequately perform your job duties.
 
 #### Are there raises or bonuses?
 
-Step increases are the most common kind of raise for GS employees, and the waiting period depends on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven. 
+Step increases are the most common kind of raise for GS employees, and the waiting period depends on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven.
 
-Bonuses generally come after the year-end review process in late September. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off. 
+Bonuses generally come after the year-end review process in late September. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off.
