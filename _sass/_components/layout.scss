@@ -115,7 +115,6 @@
 
   .section-heading {
     color: $color-bright;
-    display: inline;
     letter-spacing: 0.5px;
   }
 
@@ -173,22 +172,26 @@
 
 // Dark blue page intros
 .section-intro {
-  header {
-    max-width: 81.2rem; // Width of 10 columns
-  }
-
   .section-heading {
     margin-bottom: 0;
   }
 
   .section-heading-alt {
-    font-size: $h2-font-size;
+    font-size: $h3-font-size;
   }
 
   h2 {
     display: inline;
     font-size: $h2-font-size;
     font-weight: $font-bold;
+  }
+}
+
+.section-intro-header {
+  max-width: 81.2rem; // Width of 10 columns
+
+  @include media($medium-screen) {
+    @include span-columns(9);
   }
 }
 

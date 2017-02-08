@@ -149,13 +149,6 @@ assigned:
                 in_subnav: true
                 children:
             -
-                text: After interviews
-                permalink: /join/#after-interviews
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
                 text: Resources
                 permalink: /join/#resources
                 in_menu: false

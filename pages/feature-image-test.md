@@ -1,7 +1,7 @@
 ---
 title: Join 18F
 permalink: /feature-image/
-layout: default-image
+layout: default-intro
 lead: Now’s the time to get involved in transforming how the federal government does technology. Join the digital services movement.
 image: /assets/blog/every-kid-in-a-park/glacier-park.jpg
 ---
