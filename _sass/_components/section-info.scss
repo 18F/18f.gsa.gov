@@ -1,15 +1,9 @@
 .section-info {
   background: $color-gray-lightest;
   font-size: initial;
-  padding: 0;
-
 
   @include media($medium-screen) {
     background: none;
-    padding-right: $site-margins;
-    padding-bottom: $section-margins;
-    padding-top: $section-margins;
-
     > ul:first-of-type {
       border-top: $border-thick;
       border-color: $color-dark;
@@ -21,14 +15,9 @@
     @include unstyled-list;
 
     background: $color-gray-lightest;
-    border-top: 1px solid $color-gray-lighter;
-    padding-bottom: $site-margins;
-    padding-top: $paragraph-margins;
 
     @include media($medium-screen) {
       background: $color-white;
-      border: 0;
-      padding: 0;
     }
   }
 
@@ -38,7 +27,6 @@
 
   .section-info-list-item {
     padding-bottom: $site-margins;
-    padding-left: $site-margins;
     padding-right: $site-margins;
 
     @include media($medium-screen) {
