@@ -16,6 +16,8 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 <!-- <a class="usa-button" href="https://pages.18f.gov/joining-18f/open-positions/">View open positions</a>
  -->
 
+----
+
 ## How to apply
 
 When you apply for a role at 18F, you’ll need to submit a [government-style resume](#government-style-resumes), which includes much more detail than a private sector resume.
@@ -38,15 +40,15 @@ In the first step of the application review process, applications are evaluated 
 
 Once all applications within the cohort have been evaluated, they're given to the selection panel, which will review and identify which applicants to interview. We also apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx).
 
+----
+
 ## The interview process
 
 The interview process begins with a 30-minute preliminary screening by phone or video call. Plan to talk about your skills and experience, what you're passionate about, and the work we do here.
 
 If we'd like to chat with you more, we'll ask you to come in to one of our office locations or join us somewhere on the internet for a couple of longer conversations.
 
-## After interviews
-
-After the 18F interview phase, your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
+After interviews, your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
 
 Once we hear back from your references, the **GSA Human Resources Team** will ask you for additional documents in order to proceed with the hiring process.
 
@@ -63,7 +65,7 @@ The GSA hiring process includes a tentative offer followed by an official offer.
 6. A GSA HR specialist calls you with a final offer.
 7. We work with you to set a start date. Candidates start on the first day of a GSA pay period (every other Monday).
 
-------
+----
 
 ## Resources
 
