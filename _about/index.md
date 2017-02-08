@@ -48,6 +48,7 @@ We strive to work in a modern way and use best practices on all our projects. He
 
 To learn more about how we work, explore [18F guides](https://pages.18f.gov/guides/).
 
+<hr/>
 ## Our team
 
 We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
@@ -61,6 +62,7 @@ Want to get to know our team a little better? These blog posts feature the voice
 
 We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-profiles/), if you want to learn more about our day-to-day work.
 
+<hr/>
 ## History and funding
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
@@ -80,6 +82,7 @@ We are cost-recoverable, which means we don't receive appropriated funds from Co
 
 We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set up the terms of our projects, and bill partners through [Intra-Governmental Payment and Collection](https://www.fiscal.treasury.gov/fsservices/gov/acctg/ipac/ipac_home.htm) (IPAC) on a monthly basis.
 
+<hr/>
 ## For press
 
 For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.

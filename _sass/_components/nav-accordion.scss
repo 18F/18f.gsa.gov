@@ -80,6 +80,12 @@
   }
 }
 
+.nav-accordion-button {
+  @include media($medium-screen) {
+    padding-left: 0;
+  }
+}
+
 .sliding-panel-close {
   @include button-unstyled;
   float: right;
