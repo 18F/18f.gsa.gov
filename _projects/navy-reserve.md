@@ -1,4 +1,3 @@
-<!-- project intros go in the _projects folder, with the following filename format: agency-project.md -->
 ---
 layout: project-tag-results
 agency: Navy Reserve
