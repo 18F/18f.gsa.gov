@@ -8,11 +8,10 @@ tags:
 - agency work
 - treasury
 - agile
-excerpt: "The DATA Act is a “tremendous undertaking …[to] standardize how federal agencies report their spending
-data.” It has the potential to provide unprecedented insight into how the federal government spends money, and it comes with a statutory deadline. Any delay in implementation is a delay in cost savings and transparency,
-so we’re trying to help the government deliver on the promise of the DATA Act in a timely manner "
-description: "Developing and early prototype for the DATA Act with the Treasury Department has helped keep the project on track to deliver on the promise of the DATA Act in a timely manner "
+excerpt: "The DATA Act is a “tremendous undertaking …[to] standardize how federal agencies report their spending data.” It has the potential to provide unprecedented insight into how the federal government spends money, and it comes with a statutory deadline. Any delay in implementation is a delay in cost savings and transparency, so we’re trying to help the government deliver on the promise of the DATA Act in a timely manner."
+description: "Developing and early prototype for the DATA Act with the Treasury Department has helped keep the project on track to deliver on the promise of the DATA Act in a timely manner."
 image: /assets/blog/data-act-implementation/logo.png
+hero: false
 ---
 A lot of people ask us how our projects save money. It’s a tricky
 question to answer because often, the benefits of improved digital

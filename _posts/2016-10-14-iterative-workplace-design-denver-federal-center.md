@@ -8,25 +8,21 @@ tags:
 - general services administration
 excerpt: "Not long ago, the General Service Administration’s regional headquarters on the Denver Federal Center campus looked like a stereotypical office space; today, it is a modern workplace thanks to the iterative work of the Denver GSA’s design team."
 description: "Not long ago, the General Service Administration’s regional headquarters on the Denver Federal Center campus looked like a stereotypical office space; today, it is a modern workplace thanks to the iterative work of the Denver GSA’s design team."
-image: /assets/blog/denver/union-station.jpg
+image: /assets/blog/denver/skylight.jpg
+image_figcaption: The Skylight Cafe has high tables and booth seating that facilitates collaboration and social events among the regional staff. Photo courtesy of GSA PBS Region 8.
 ---
 Not long ago, the General Service Administration’s [regional headquarters on the Denver Federal Center campus](http://gsa.gov/portal/category/21504) looked like a stereotypical office space: cubicles sprawled down a long, fluorescent-lit hallway, and conference rooms and private offices lined the sides of the building with windows looking out on the foothills of the Rockies on one side, and downtown Denver on the other. The GSA’s two primary services, the [Public Buildings Service (PBS)](http://gsa.gov/portal/content/104722) and the [Federal Acquisition Service (FAS)](http://gsa.gov/portal/content/104850), were split with PBS in the main building, and FAS scattered around other buildings in the area. In 2014, the two services were slated to consolidate into one office space, a move that would save the agency money and open up valuable space for other federal agencies. There was only one problem: They didn’t have space to do so. “We were maxed out on cubicles,” said Andrew Myers, one of the leads on the re-design project.
 
 Cubicles and private offices have a certain appeal to them: You can leave things there overnight, put up photos of your family, and keep your work organized on your desk. They also take up a lot of space, much more than most people actually need, and constrain people to working in the same space all the time. When Myers, his colleague Shelly Baxter, and the design team started thinking about how to make more space in the office, they started with the cube walls. “One of the designers took the existing furniture and came up with a pretty creative layout,” Baxter said.
 
 <figure>
-  <img src="{{site.baseurl}}{{page.image}}" alt="">
+  <img src="{{site.baseurl}}/assets/blog/denver/union-station.jpg" alt="">
   <figcaption>A casual seating area inside the "Union Station" area of the GSA offices on the Denver Federal Center campus. Photo courtesy: GSA PBS Region 8</figcaption>
 </figure>
 
 ## Listen and iterate
 
 When tenants tour the GSA space today, they see standing desks, huddle rooms with glass walls, giant windows, and open spaces where people can work together. The only real semi-private office space you’ll see is for the Regional Administrator, [Sue Damour](http://gsa.gov/portal/category/21495), and her door is almost always open. Getting there was a process of testing hypotheses and adjusting to human and policy needs.
-
-<figure>
-  <img src="{{ site.baseurl }}/assets/blog/denver/skylight.jpg" alt="">
-  <figcaption>The Skylight Cafe has high tables and booth seating that facilitates collaboration and social events among the regional staff. Photo courtesy: GSA PBS Region 8 </figcaption>
-</figure>
 
 Part of GSA’s mission is to find innovative ways to [design workplaces that make the federal government more efficient and productive](http://www.gsa.gov/portal/content/134874). The Rocky Mountain Region houses 28 tenants on the Denver Federal Center campus. Myers and Baxter said they set up several workplaces in the building as working showrooms. Each room had different furniture and layouts and the staff would offer tours for their tenants to gauge their reactions and show them what was possible for their own offices.
 

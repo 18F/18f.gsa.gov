@@ -1,5 +1,5 @@
 ---
-title: "The best way to build big is to start small"
+title: The best way to build big is to start small
 authors:
 - kane
 tags:
