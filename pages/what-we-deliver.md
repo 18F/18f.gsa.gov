@@ -8,45 +8,30 @@ redirect_from:
   - /consulting/
 
 ---
-<section class="usa-grid usa-section" is="section-filterable" data-filter=".card">
+<section class="usa-section">
   <h2>Who and how we've helped</h2>
-  <fieldset class="form-checkboxes filterable-form">
-    <legend class="h3">Filter by project type</legend>
-    <formgroup class="form-inline">
-      <input id="public-services" type="checkbox" checked />
-      <label for="public-services">Public services</label>
-    </formgroup>
-    <formgroup class="form-inline">
-      <input id="internal-systems" type="checkbox" checked />
-      <label for="internal-systems">Internal systems</label>
-    </formgroup>
-    <formgroup class="form-inline">
-      <input id="laws-and-mandates" type="checkbox" checked />
-      <label for="laws-and-mandates">Laws and mandates</label>
-    </formgroup>
-  </fieldset>
-
-  {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
-  {% for project in projects_list %}
-    {% include card.html
-     image_src=project.image
-     image_alt=project.image_accessibility
-     title=project.title
-     description=project.excerpt
-     link=project.permalink
-     project_type=project.project_type
-    %}
-  {% endfor %}
+  <div class="usa-flex usa-flex-wrap">
+    {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
+    {% for project in projects_list %}
+      {% include card.html
+       image_src=project.image
+       image_alt=project.image_accessibility
+       tagline=project.title
+       description=project.excerpt
+       link=project.permalink
+      %}
+    {% endfor %}
+  </div>
 </section>
 
-<section class="usa-grid usa-section">
+<section class="usa-section">
   {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
   {% assign partner_groups = agency_partners | in_groups: 3 %}
   <h2>Agency Partners and public offerings</h2>
   <ul class="list-columns">
   {% for group in partner_groups %}
     <li class="usa-width-one-third">
-      <ul>
+      <ul class="list-columns">
       {% for partner in group %}
         <li>
           {% if partner.agency_url %}

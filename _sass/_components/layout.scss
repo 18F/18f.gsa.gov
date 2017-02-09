@@ -59,6 +59,10 @@
     display: flex;
   }
 
+  .usa-flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .usa-flex-vertically-top {
     margin-bottom: $section-margins;
   }
