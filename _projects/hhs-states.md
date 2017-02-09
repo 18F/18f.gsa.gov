@@ -6,14 +6,14 @@ subtitle: Helping states update crucial systems
 permalink: /project/hhs-states/
 excerpt: Health and Human Services hired us to help states implement best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
-image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
+image_accessibility: "Photograph of people meeting in small groups during a workshop"
 tags:
 - state and local practice
 expiration_date:
 github_repo:
 project_url:
-agency_partner_url: /work/hhs/
-project_type: internal-systems
+resources:
+- "[Modular contracting resources for state and local governments](https://modularcontracting.18f.gov/)"
 ---
 
 Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.

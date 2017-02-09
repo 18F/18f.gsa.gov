@@ -29,4 +29,5 @@ config:
     - agency
     - resources
     - quote
+    - quote_source
 ---

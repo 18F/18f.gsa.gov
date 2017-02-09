@@ -51,7 +51,10 @@ header_border: true
       <ul>
         {% if page.quote %}
           <blockquote>
-            &ldquo;{{ page.quote }}&rdquo;
+            <p>&ldquo;{{ page.quote }}&rdquo;</p>
+            {% if page.quote_source %}
+              <cite>{{ page.quote_source | markdownify }}</cite>
+            {% endif %}
           </blockquote>
         {% endif %}
 
@@ -106,7 +109,7 @@ header_border: true
           <div class="section-info-header">Resources</div>
           <ul>
             {% for resource in page.resources %}
-              <li><a href="{{ resource.href }}">{{ resource.title }}</a></li>
+              <li>{{ resource | markdownify }}</li>
             {% endfor %}
           </ul>
         {% endif %}
@@ -130,9 +133,11 @@ header_border: true
   <div class="background-gray">
     <div class="usa-section">
       <section class="usa-grid posts_feature">
-        <div class="usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer">
+        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
           <h2>Related blog posts</h2>
-          <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+          {% if matching_posts.size > 3 %}
+            <a class="link-arrow-right" href="{{ site.baseurl }}/{{ page.tags[0] | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+          {% endif %}
         </div>
         <ul>
         {% for post in matching_posts limit:3 %}

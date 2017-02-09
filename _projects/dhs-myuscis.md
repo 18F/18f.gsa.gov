@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
 agency: Department of Homeland Security
-title: myUSCIS
+title: myUSCIS immigration resources
 subtitle: Humanizing the process of becoming a citizen
 permalink: /project/dhs-myuscis/
 excerpt: We worked with Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
@@ -9,9 +9,7 @@ image: /assets/img/home/hero-immigration.png
 image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
 tags:
 - uscis
-expiration_date:
-github_repo:
-project_url: https://my.uscis.gov/
+project_url: "[myUSCIS website](https://my.uscis.gov/)"
 github_repo: 
 expiration_date: 
 ---

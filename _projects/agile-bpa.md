@@ -16,7 +16,7 @@ learn_more: https://pages.18f.gov/ads-bpa/
 product_clients: 
 - Federal Election Commission
 resources: 
-quote: "This BPA could be a game-changer for government from a cost, innovation and time-to-market perspective."
+quote: "This BPA could be a game-changer for government from a cost, innovation, and time-to-market perspective."
 ---
 
 The federal government spends almost $90 billion dollars per year on information technology. 

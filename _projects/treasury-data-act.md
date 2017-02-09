@@ -6,7 +6,7 @@ subtitle: Opening up federal spending
 permalink: /project/treasury-data-act/
 excerpt: We worked with Treasury to implement the Digital Accountability and Transparency Act successfully.
 image: 
-image_accessibility: ""
+image_accessibility: 
 tags:
 - data act
 expiration_date:

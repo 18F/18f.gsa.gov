@@ -10,10 +10,9 @@ tags:
 - college scorecard
 expiration_date:
 github_repo: https://github.com/RTICWDT/college-scorecard
-project_url: https://collegescorecard.ed.gov/
+project_url: "[College Scorecard](https://collegescorecard.ed.gov/)"
 permalink: /project/ed-college-scorecard/
 ---
-
 
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.
 
