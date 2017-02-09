@@ -106,7 +106,8 @@ module Jekyll
       array = array.map do |object|
         next unless !object[filter].nil? && !object[filter].empty?
         object
-      end.uniq
+      end.compact.uniq
+      array
     end
 
     def in_groups(array, groups)
