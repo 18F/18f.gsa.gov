@@ -1,7 +1,6 @@
 ---
 layout: "String"
 title: "String"
-agency: "String"
 subtitle: "String"
 excerpt: "String"
 tags:
@@ -19,12 +18,15 @@ config:
   - .
   - .DS_Store
   optional:
+    - agency
     - image
     - image_accessibility
     - expiration_date
     - start_date
     - github_repo
     - project_url
+    - learn_more
     - agency
     - resources
+    - quote
 ---

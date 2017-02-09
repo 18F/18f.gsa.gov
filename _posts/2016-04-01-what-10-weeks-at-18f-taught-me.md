@@ -6,7 +6,7 @@ authors:
 tags:
 - culture
 - general services administration
-- communicart
+- c2
 excerpt: "Calling 18F home for the past two months has given me the opportunity to
 grow in countless ways. I’ve pushed myself in ways I wasn’t expecting."
 description: "Cat Langel spent 10 weeks at 18F as part of an executive leadership program aimed at developing future leaders within the federal government. Here's what she learned while working with 18F."

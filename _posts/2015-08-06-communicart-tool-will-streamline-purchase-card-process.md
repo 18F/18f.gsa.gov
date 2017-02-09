@@ -7,7 +7,7 @@ authors:
 
 tags:
 - platforms
-- communicart
+- c2
 - procurement
 
 excerpt: "Our hope is that our new Communicart tool will streamline the purchase card approval process so government employees can spend more time performing their essential work and less time on the paperwork required to buy a new chair."
