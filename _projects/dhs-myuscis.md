@@ -20,7 +20,8 @@ The process of applying for citizenship can be complicated and intimidating. Eve
 
 U.S. Citizenship and Immigration Services (USCIS) wanted to make the naturalization process more human focused and efficient, so they brought on 18F to help design the resources and forms that guide people through that process.
 
-## Using pain points as our starting point
+<div class="small-caps">Approach</div>
+### Using pain points as our starting point
 
 We began by talking to dozens of people who had gone through the naturalization process. We also listened to USCIS customer service center calls, interviewed staff, and visited immigration offices to get a clearer picture of employees’ experiences and obstacles.
 

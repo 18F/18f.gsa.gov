@@ -19,3 +19,6 @@ resources:
 quote: 
 published: false
 ---
+
+
+<div class="small-caps">Approach</div>

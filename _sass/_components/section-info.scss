@@ -9,6 +9,12 @@
       border-color: $color-dark;
       padding-top: $paragraph-margins;
     }
+
+    blockquote {
+      font-size: $h3-font-size;
+      color: $color-medium;
+      border-left: none;
+    }
   }
 
   ul {
@@ -18,6 +24,13 @@
 
     @include media($medium-screen) {
       background: $color-white;
+    }
+
+    ul {
+      li {
+        line-height: $heading-line-height;
+        padding-top: $paragraph-margins;
+      }
     }
   }
 

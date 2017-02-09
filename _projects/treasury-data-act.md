@@ -11,14 +11,15 @@ tags:
 - data act
 expiration_date:
 github_repo: 
-project_url: 
+project_url: "[Federal Spending Transparency collaboration space](https://pages.18f.gov/fedspendingtransparency.github.io/index.html)"
 ---
 
 The U.S. federal government spends $3.8 trillion every year, which is managed by the U.S. Department of the Treasury. For most people, it’s difficult to know exactly where that money goes. 
 
 The Digital Accountability and Transparency Act (DATA Act), which became law in 2014, requires that federal agencies adopt a common data standard so that agencies and the public can better understand how federal money is being spent. Treasury and the Office of Management and Budget are leading the implementation of the DATA Act, but they needed help developing the specifics of the new data standard and its technical implementation.
 
-## Stay flexible to stay ahead of schedule
+<div class="small-caps">Approach</div>
+### Stay flexible to stay ahead of schedule
 
 18F helped build a prototype for the technical implementation of the law to get user feedback before all of the data standards had been finalized. Our iterative approach allowed Treasury to reduce risk, use actual data to make decisions, and speed up implementation of a very complex law.
 

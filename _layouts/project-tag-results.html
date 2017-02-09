@@ -49,6 +49,12 @@ header_border: true
     %}
     <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info">
       <ul>
+        {% if page.quote %}
+          <blockquote>
+            &ldquo;{{ page.quote }}&rdquo;
+          </blockquote>
+        {% endif %}
+
         {% if page.agency %}
         <li class="section-info-list-item">
           <div class="section-info-header">Agency partner</div>
@@ -58,8 +64,8 @@ header_border: true
 
         {% if page.project_url %}
         <li class="section-info-list-item">
-          <div class="section-info-header">Learn more</div>
-          <div><a href="{{ page.project_url }}">{{ page.project_url }}</a></div>
+          <div class="section-info-header">See our work</div>
+          <div>{{ page.project_url | markdownify }}</div>
         </li>
         {% endif %}
 
@@ -104,6 +110,10 @@ header_border: true
             {% endfor %}
           </ul>
         {% endif %}
+
+        {% if page.learn_more %}
+          <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
+        {% endif %}
       </ul>
     </aside>
     {% endif %}
@@ -122,7 +132,7 @@ header_border: true
       <section class="usa-grid posts_feature">
         <div class="usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer">
           <h2>Related blog posts</h2>
-          <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">See all posts about this project</a>
+          <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
         </div>
         <ul>
         {% for post in matching_posts limit:3 %}

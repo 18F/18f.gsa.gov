@@ -4,8 +4,8 @@ agency: Navy Reserve
 title: Ready-2-Serve
 subtitle: Making it easier to serve
 permalink: /project/navy-ready-2-serve/
-excerpt: 100-140 characters
-image: 1300x866px
+excerpt: We worked with the Navy to prototype an app that helps streamline the deployment process for reservists.
+image: 
 image_accessibility: 
 tags:
 - navy reserve
@@ -19,7 +19,8 @@ There are over 50,000 citizens who serve part-time in the U.S. Navy Reserve, acc
 
 Calling up reservists for duty can be difficult. They can’t check deployment orders or submit required paperwork from home; they have to travel to a duty station and use an official computer to do it. It’s inconvenient and time-consuming for reservists, and causes operational headaches for the military.  
 
-## Tying multiple legacy systems into a single user experience
+<div class="small-caps">Approach</div>
+### Tying multiple legacy systems into a single user experience
 
 Reservists must log in to multiple systems to check their status and resolve any issues. The Navy Reserve wanted to have a single, unified user experience that pulled information from those systems together, but they weren’t sure if that was even possible. 18F built a working prototype in just a few hours to show that a unified system was indeed possible, and used that to get buy-in from stakeholders. 
 
