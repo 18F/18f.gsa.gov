@@ -40,3 +40,7 @@ layout: default
     {{ content }}
   {% endif %}
 </section>
+
+{% if page.banner_cta %}
+  {% include banner-cta.html %}
+{% endif %}

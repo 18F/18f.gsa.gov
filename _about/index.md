@@ -4,6 +4,7 @@ path: about
 permalink: /about/
 layout: default-intro
 lead: We help other government agencies build, buy, and share technology products.
+banner_cta: true
 ---
 
 18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA).
