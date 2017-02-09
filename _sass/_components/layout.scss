@@ -98,8 +98,16 @@
   background-color: $color-gray-lightest;
 }
 
+.background-medium {
+  background-color: $color-medium;
+}
+
 .background-dark {
   background-color: $color-dark;
+}
+
+.background-medium,
+.background-dark {
   color: $color-white;
   -webkit-font-smoothing: antialiased;
 
