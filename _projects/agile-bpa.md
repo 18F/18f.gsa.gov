@@ -15,22 +15,22 @@ project_url:
 product_clients: 
 ---
 
-The federal government spends almost $90 billion dollars per year on information technology. 
+The federal government spends over $80 billion dollars per year on information technology.
 
-Many IT contracts rely on development and contract management methods that often produce products that are over budget, late, and don’t meet the needs of their customers. Even if an agency wanted to find a vendor that uses modern software development methods, there’s no easy way to know the difference between who claims to and who actually does. 
+Many IT contracts rely on development and contract management methods that often produce products that are over budget, late, or don’t meet the needs of their customers. Even if an agency wanted to find a vendor that uses modern software development methods, historically it’s been difficult to know the difference between who claims to and who actually does. 
 
 ### Creating a pool of pre-vetted vendors who use agile development methods
 
-18F and the Federal Acquisition Service created a contracting vehicle called the Agile Delivery Services Blanket Purchase Agreement (or Agile BPA), which helps federal agencies find vendors who are ready to work in an agile way, and then helps make those projects successful. We selected 17 vendors that specialize in user-centered design, agile software development, and DevOps to be part of the Agile BPA pool. 
+18F and the GSA’s Federal Acquisition Service created a contracting vehicle called the Agile Delivery Services Blanket Purchase Agreement (Agile BPA). The Agile BPA helps federal agencies find vendors who are capable and interested in working in an agile way, and then helps make those projects successful. We selected 17 vendors that specialize in user-centered design, agile software development, and DevOps to be part of the Agile BPA pool. 
 
 Here’s what the process looks like for procurement officers who want to use the Agile BPA. The 18F team works closely with each agency to: 
 
-- Conduct a scoping workshop with the project’s product owner and stakeholders
-- Write a statement of objectives
-- Facilitate the approvals process
+- Conduct scoping workshops with the project’s product owner, team, and stakeholders to understand what the vendor needs to build
+- Write an agile-friendly statement of objectives
+- Facilitate the procurement process
 - Manage the vendor relationship post-award through delivery
 
-We’ve already seen projects that use the Agile BPA have included more users in the process and delivered results faster than traditional contracting methods. We’ve even seen interest in this model from other government agencies. The State of California is now developing their own vendor pool based on our Agile BPA. 
+We’ve already seen projects that use the Agile BPA include more users in the development process and deliver results faster than traditional contracting methods. We’ve even seen interest in this model from other levels of government agencies. The states of California and Mississippi have developed their own vendor pools based on our Agile BPA. 
 
 Quote: "This BPA could be a game-changer for government from a cost, innovation and time-to-market perspective."  - Adam Horvath, Managing Director, Public Sector, Acumen Solutions
 
