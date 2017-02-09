@@ -32,22 +32,24 @@ gridless: true
     {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <h2>Agency Partners and public offerings</h2>
-    <ul class="list-columns">
-    {% for group in partner_groups %}
-      <li class="usa-width-one-third">
-        <ul class="list-columns">
-        {% for partner in group %}
-          <li>
-            {% if partner.agency_url %}
-              <a href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.agency }}</a>
-            {% else %}
-              {{ partner.agency }}
-            {% endif %}
-          </li>
-        {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-    </ul>
+    <div class="usa-grid-full">
+      <ul class="list-columns">
+      {% for group in partner_groups %}
+        <li class="usa-width-one-third">
+          <ul class="list-columns">
+          {% for partner in group %}
+            <li>
+              {% if partner.agency_url %}
+                <a href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.agency }}</a>
+              {% else %}
+                {{ partner.agency }}
+              {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
   </section>
 </div>
