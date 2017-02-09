@@ -3,9 +3,7 @@ layout: "String"
 title: "String"
 subtitle: "String"
 excerpt: "String"
-tags:
-  type: Array
-  rules: [no-dash, lowercase]
+tag: String
 github_repo: "String"
 project_url: "String"
 permalink: "String"

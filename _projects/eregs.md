@@ -8,8 +8,7 @@ redirect_from: /project/eregulations/
 excerpt: We've helped several agencies adapt an open-source tool that makes regulations easier to find, read, and understand.
 image:
 image_accessibility:
-tags:
-- eregulations
+tag: eregulations
 expiration_date:
 github_repo:
 project_url: "[eRegulations website](https://eregs.github.io/contact/)"

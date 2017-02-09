@@ -7,8 +7,7 @@ permalink: /what-we-deliver/treasury-data-act/
 excerpt: We worked with Treasury to implement the Digital Accountability and Transparency Act successfully.
 image:
 image_accessibility:
-tags:
-- data act
+tag: data act
 expiration_date:
 github_repo:
 project_url: "[Federal Spending Transparency collaboration space](https://pages.18f.gov/fedspendingtransparency.github.io/index.html)"

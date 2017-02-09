@@ -8,8 +8,7 @@ redirect_from: /project/hhs-states/
 excerpt: Health and Human Services hired us to help states implement best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
 image_accessibility: "Photograph of people meeting in small groups during a workshop"
-tags:
-- state and local practice
+tag: state and local practice
 expiration_date:
 github_repo:
 project_url:

@@ -7,8 +7,7 @@ permalink: /what-we-deliver/agile-bpa/
 excerpt: We helped develop the Agile BPA, which helps agencies find the right vendors and set projects up for success.
 image:
 image_accessibility:
-tags:
-- agile bpa
+tag: agile bpa
 expiration_date:
 github_repo:
 project_url:

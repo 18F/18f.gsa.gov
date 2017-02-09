@@ -136,7 +136,7 @@ header_border: true
         <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
           <h2>Related blog posts</h2>
           {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ site.baseurl }}/{{ page.tags[0] | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
           {% endif %}
         </div>
         <ul>

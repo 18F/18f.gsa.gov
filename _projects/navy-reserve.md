@@ -7,8 +7,7 @@ permalink: /what-we-deliver/navy-ready-2-serve/
 excerpt: We worked with the Navy to prototype an app that helps streamline the deployment process for reservists.
 image:
 image_accessibility:
-tags:
-- navy reserve
+tag: navy reserve
 expiration_date:
 github_repo:
 project_url:
