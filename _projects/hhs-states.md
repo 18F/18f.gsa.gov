@@ -3,7 +3,8 @@ layout: project-tag-results
 agency: Health and Human Services
 title: State and local procurement
 subtitle: Helping states update crucial systems
-permalink: /project/hhs-states/
+permalink: /what-we-deliver/hhs-states/
+redirect_from: /project/hhs-states/
 excerpt: Health and Human Services hired us to help states implement best practices and upgrade legacy systems.
 image: /assets/img/projects/hero_stateandlocal.png
 image_accessibility: "Photograph of people meeting in small groups during a workshop"

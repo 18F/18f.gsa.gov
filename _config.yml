@@ -45,7 +45,7 @@ collections:
     permalink: /press/:name/
   projects:
     output: true
-    permalink: /project/:path/
+    permalink: /what-we-deliver/:path/
   hire:
     output: false
     permalink: /hire/:path/

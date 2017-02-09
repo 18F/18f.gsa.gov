@@ -30,4 +30,5 @@ config:
     - resources
     - quote
     - quote_source
+    - redirect_from
 ---

@@ -3,7 +3,8 @@ layout: project-tag-results
 agency: Federal Election Commission
 title: beta.fec.gov
 subtitle: Making campaign data easier to use
-permalink: /project/fec-gov/
+permalink: /what-we-deliver/fec-gov/
+redirect_from: /project/fec-gov/
 excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.
 image: /assets/img/home/hero-fec.png
 image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.

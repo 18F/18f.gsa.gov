@@ -44,7 +44,7 @@ tool to help make this process fast and efficient.
 
 [![Screenshot of the Communicart approval portal]({{site.baseurl}}/assets/blog/communicart/communicart-screenshot.png)](https://cap.18f.gov/)
 
-We call it [Communicart](https://18f.gsa.gov/dashboard/project/C2/).
+We call it [Communicart](https://18f.gsa.gov/what-we-deliver/c2/).
 It’s a tool that took some cues from the process for tracking “carts”
 through an approval process on [GSA Advantage][3], a site government
 employees use to shop at special rates. Our hope is that as this tool
@@ -90,6 +90,6 @@ future, [drop us a line](mailto:gatewaycommunicator@gsa.gov).
 [2]: https://smartpay.gsa.gov/program-coordinators/smartpay-charge-cards/purchase-card/how-it-works
 [3]: https://www.gsaadvantage.gov/advantage/main/start\_page.do
 [4]: https://github.com/18f/C2
-[5]: https://18f.gsa.gov/dashboard/project/C2/
+[5]: https://18f.gsa.gov/what-we-deliver/c2/
 [6]: https://speakerdeck.com/18f/cap-communicart-18f-demo-day-9-may-2014
 [7]: https://cap.18f.gov/

@@ -9,7 +9,7 @@ redirect_from:
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.
 
-We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, but we also have teammates working all over the country. [Read more about how we make our distributed model work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/).
+We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, but we also have teammates working all over the country. [Read more about how we make our distributed model work]({{ site.baseurl }}/2015/10/15/best-practices-for-distributed-teams/).
 
 **We don't have any open positions right now.**
 
