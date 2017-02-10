@@ -12,7 +12,7 @@ header_border: true
 
     <section class="background-dark">
       <div class="usa-grid-full usa-flex">
-        <div class="usa-grid usa-width-one-half hero-callout-full hero-callout-no_button">
+        <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
           {% if page.agency %}
             <h1 class="h3">
             <span class="hero-callout-alt_color">{{ page.agency }}</span>
@@ -29,8 +29,7 @@ header_border: true
             title="{{ page.image_accessibility }}">
           </div>
         {% else %}
-          <div class="usa-width-one-half hero"
-            style="background-image: none">
+          <div class="hero hero-img-collapsed" style="background-image: none">
           </div>
         {% endif %}
       </div>
