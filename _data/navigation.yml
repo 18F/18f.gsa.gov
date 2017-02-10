@@ -128,7 +128,7 @@ assigned:
                 in_subnav: true
     -
         text: Join 18F
-        href: _join/index.md
+        href: _pages/join.md
         permalink: /join/
         in_menu: false
         in_drawer: false
@@ -140,14 +140,14 @@ assigned:
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: true
+                in_subnav: false
             -
                 text: The interview process
                 permalink: /join/#the-interview-process
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: true
+                in_subnav: false
                 children:
             -
                 text: Resources
@@ -155,7 +155,7 @@ assigned:
                 in_menu: false
                 in_drawer: false
                 in_footer: false
-                in_subnav: true
+                in_subnav: false
     -
         text: Blog
         href: blog/index.html
