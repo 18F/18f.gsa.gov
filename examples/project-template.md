@@ -13,9 +13,12 @@ tags:
 expiration_date: 
 github_repo: 
 project_url: 
-agency_partner: 
-agency_partner_url: 
-project_type: 
+learn_more: 
+product_clients: 
+resources: 
+quote: 
 published: false
 ---
 
+
+<div class="small-caps">Approach</div>

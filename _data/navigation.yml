@@ -166,12 +166,4 @@ assigned:
         in_drawer: true
         in_footer: true
         children:
-    -
-        text: Projects
-        permalink: /project/
-        collections: ['projects']
-        in_menu: false
-        in_drawer: false
-        in_footer: false
-        children:
 unassigned: []

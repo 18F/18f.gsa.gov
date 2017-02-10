@@ -6,14 +6,13 @@ subtitle: Turning data into informed choices
 excerpt: We worked with the Department of Education to bring together federal data from several agencies to help students assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
-tags:
-- college scorecard
+tag: college scorecard
 expiration_date:
 github_repo: https://github.com/RTICWDT/college-scorecard
-project_url: https://collegescorecard.ed.gov/
-permalink: /project/ed-college-scorecard/
+project_url: "[College Scorecard](https://collegescorecard.ed.gov/)"
+permalink: /what-we-deliver/ed-college-scorecard/
+redirect_from: /project/ed-college-scorecard/
 ---
-
 
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.
 
