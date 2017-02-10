@@ -26,12 +26,19 @@ You can read more about how we work with agencies in our [Partnership Playbook](
 </section>
 <aside class="usa-width-one-fourth section-info">
       <ul>
-        <li>
+        <li class="section-info-list-item">
           <a class="usa-button" href="mailto:inquiries18F@gsa.gov?subject=18F%20Website%20Inquiry&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Send us an inquiry</a>
         </li>
         <li class="section-info-list-item">
-          <div class="section-info-header"><a href="{{ site.baseurl }}/press/">For press</a></div>
-          <div>{{ page.agency }}</div>
+          <div class="section-info-header">For press</div>
+          <div><a href="mailto:press@media.com">press@media.com</a></div>
+        </li>
+
+        <li class="section-info-list-item">
+          <div class="section-info-header">Social media</div>
+          <div><a href="https://twitter.com/18F">twitter/@18F</a></div>
+          <div><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></div>
+          <div><a href="https://github.com/18F/18f.gsa.gov">GitHub</a></div>
         </li>
 
       </ul>
