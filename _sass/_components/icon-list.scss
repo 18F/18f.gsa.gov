@@ -21,3 +21,13 @@
     height: 50px;
   }
 }
+
+.icon-list-text {
+  .paragraph-bold {
+    margin-bottom: $spacer-margins;
+  }
+
+  &:last-of-type p {
+    margin-top: 0;
+  }
+}
