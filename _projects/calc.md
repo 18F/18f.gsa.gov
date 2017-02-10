@@ -3,7 +3,7 @@ layout: project-tag-results
 agency: General Services Administration
 title: CALC tool
 subtitle: Better tools for better research
-permalink: /project/calc/
+permalink: /what-we-deliver/calc/
 excerpt: We helped build an interactive website for searching past government contracts to find fair hourly rates.
 image: 
 image_accessibility: 

@@ -5,8 +5,8 @@
   @include media($medium-screen) {
     background: none;
     > ul:first-of-type {
-      border-top: $border-thick;
-      border-color: $color-dark;
+      border-top: $border-accent;
+      border-color: $color-medium;
       padding-top: $paragraph-margins;
     }
   }
@@ -14,7 +14,8 @@
   blockquote {
     border-left: none;
     color: $color-medium;
-    font-size: $h3-font-size;
+    font-size: $h4-font-size;
+    line-height: $banner-line-height;
     margin: 0;
     margin-bottom: $site-margins;
     padding-left: 0;
@@ -38,7 +39,7 @@
       margin-top: $spacer-margins;
 
       li {
-        line-height: $heading-line-height;
+        line-height: $banner-line-height;
         list-style-type: disc;
 
         &:last-of-type {
