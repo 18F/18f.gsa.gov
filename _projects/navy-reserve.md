@@ -3,13 +3,13 @@ layout: project-tag-results
 agency: U.S. Navy Reserve
 title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve
-permalink: /what-we-deliver/navy-ready-2-serve/
+permalink: /what-we-deliver/ready-2-serve/
 excerpt: We worked with the Navy to prototype an app that helps streamline the deployment process for reservists.
 image:
 image_accessibility:
 tag: navy reserve
 expiration_date:
-github_repo:
+github_repo: https://github.com/18F/r2s
 project_url:
 product_clients:
 quote: A sailor’s time, and more importantly our nation’s use of it, must be focused to the greatest possible extent on the mission and not on administrative overhead.

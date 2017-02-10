@@ -1,7 +1,7 @@
 ---
 layout: project-tag-results
 agency:
-title: Agile Delivery Services Blanket Purchase Agreement
+title: Agile BPA
 subtitle: Streamlining software procurement
 permalink: /what-we-deliver/agile-bpa/
 excerpt: We helped develop the Agile BPA, which helps agencies find the right vendors and set projects up for success.
@@ -10,12 +10,19 @@ image_accessibility:
 tag: agile bpa
 expiration_date:
 github_repo:
-project_url:
-learn_more: https://pages.18f.gov/ads-bpa/
+project_url: "[Agile BPA website](https://pages.18f.gov/ads-bpa/)"
+learn_more: 
 product_clients:
+- Department of Agriculture
+- Department of Housing and Urban Development
+- Department of Labor
+- Department of State
+- Environmental Protection Agency
 - Federal Election Commission
+- General Services Administration
+- Office of Personnel Management
 resources:
-quote: "This BPA could be a game-changer for government from a cost, innovation, and time-to-market perspective."
+quote: 
 ---
 
 The federal government spends over $80 billion dollars per year on information technology.

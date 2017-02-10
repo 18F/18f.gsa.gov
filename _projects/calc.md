@@ -1,16 +1,16 @@
 ---
 layout: project-tag-results
 agency: General Services Administration
-title: Contract-Awarded Labor Category tool
+title: CALC tool
 subtitle: Better tools for better research
 permalink: /project/calc/
-excerpt: We helped build CALC, an interactive website for searching past government contracts to find fair hourly rates.
+excerpt: We helped build an interactive website for searching past government contracts to find fair hourly rates.
 image: 
 image_accessibility: 
 tags:
 - calc
 expiration_date: 
-github_repo: 
+github_repo: https://github.com/18F/calc
 project_url: "[CALC tool](https://calc.gsa.gov/)"
 ---
 
