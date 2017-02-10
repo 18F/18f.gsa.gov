@@ -11,7 +11,7 @@ image_accessibility: Screenshot of the FEC data explorer with stylized magnifyin
 tag: fec.gov
 expiration_date:
 github_repo: https://github.com/18F/openFEC-web-app
-project_url: https://beta.fec.gov/
+project_url: "[Federal Election Commission website](https://beta.fec.gov/)"
 quote: We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.
 ---
 
