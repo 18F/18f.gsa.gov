@@ -5,16 +5,19 @@ layout: default-intro
 lead: Help transform how the federal government does technology.
 redirect_from:
   - /apply/
+published: false
 ---
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.
 
 We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, but we also have teammates working all over the country. [Read more about how we make our distributed model work](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/).
 
-**We don't have any open positions right now.**
+### Open positions
 
-<!-- <a class="usa-button" href="https://pages.18f.gov/joining-18f/open-positions/">View open positions</a>
- -->
+<!-- **We don't have any open positions right now.** -->
+
+<a class="usa-button" href="{{ site.baseurl }}/positions/">Product manager</a>
+
 
 ----
 
@@ -87,15 +90,15 @@ There are many online guides to building a government-style resume. Here are sev
 
 This guide shows how to format a government-style resume and what information to include:
 
-> **Name**
-> **City, state of current residence**
-> **Email address**
-> **Phone number**
+> **Name**  
+> **City, state of current residence**  
+> **Email address**  
+> **Phone number**  
 >
 > **TECHNICAL SKILLS & TOOLS**
 >
-> 8+ years of experience: *List all the skills and tools you have experience with for more than 8 years. If not applicable, do not include this section.*
-> 4-7 years of experience: *List all the skills and tools you have experience with for 4-7 years. If not applicable, do not include this section.*
+> 8+ years of experience: *List all the skills and tools you have experience with for more than 8 years. If not applicable, do not include this section.*  
+> 4-7 years of experience: *List all the skills and tools you have experience with for 4-7 years. If not applicable, do not include this section.*  
 > 1-3 years of experience: *List all the skills and tools you have experience with for 1-3 years.*
 >
 > **PROFESSIONAL EXPERIENCE**
@@ -108,10 +111,10 @@ This guide shows how to format a government-style resume and what information to
 >
 > *See below for employment history formatting.*
 >
-> **Role/title, Company name**
-> **City, State if within US or City, Country if outside of US**
-> **Duration of employment (Start MM/YYYY - End MM/YYYY or “Present”)**
-> **“Full-Time” or “Part-Time,” Number of hours per week: __**
+> **Role/title, Company name**  
+> **City, State if within US or City, Country if outside of US**  
+> **Duration of employment (Start MM/YYYY - End MM/YYYY or “Present”)**  
+> **“Full-Time” or “Part-Time,” Number of hours per week: __**  
 > *Include a one sentence description of the company, including the mission. This is to understand the scope of work, context of your accomplishments and contributions, scale of the company, and your role in the organization.*
 >
 > - Each bullet point should be a comprehensive description of your unique accomplishments, duties, and contributions in this role. Although it is great to learn about what your team accomplished as a whole, your resume should highlight the contributions you made.
@@ -121,13 +124,13 @@ This guide shows how to format a government-style resume and what information to
 >
 > *If at any point you were unemployed, please note the section as so. Unemployment is completely acceptable and understood - we just need it noted for a full timeline with no gaps:*
 >
-> **Unemployed**
+> **Unemployed**  
 > **Start MM/YYYY - End MM/YYYY**
 >
 > - Brief explanation (“took personal time to travel, be with family, etc.”) to the extent you’re comfortable sharing. It is ok to leave it blank.
 >
-> **EDUCATION**
-> **Name of college/university/institution, City, State**
+> **EDUCATION**  
+> **Name of college/university/institution, City, State**  
 > Type of degree, Major and minor, MM/YYYY degree received
 > Graduation honors if applicable
 >
