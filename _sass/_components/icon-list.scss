@@ -1,6 +1,6 @@
 .icon-list {
   display: flex;
-  margin: ($paragraph-margins / 2) 0;
+  margin-bottom: $paragraph-margins;
 
   @include media($medium-screen) {
     margin-bottom: $paragraph-margins-thick;

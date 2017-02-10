@@ -2,15 +2,15 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding-right: $paragraph-margins;
+  padding-right: 0;
+
+  @include media($medium-screen) {
+    padding-right: $paragraph-margins;
+  }
 
   &.sticky-subnav {
     max-height: 100%;
     overflow: auto;
-  }
-
-  &.stuck .nav-subnav {
-    // padding-top: $site-margins;
   }
 }
 
