@@ -53,6 +53,7 @@
       color: $color-gray;
       font-weight: $font-bold;
       font-size: $h5-font-size;
+      padding-left: ($paragraph-margins * 1.75);
 
       &:hover {
         color: $color-dark;
@@ -61,7 +62,7 @@
       &.usa-current {
         border-left: $border-accent;
         color: $color-dark;
-        padding-left: 2rem;
+        padding-left: ($paragraph-margins * 1.75) - 1rem;
       }
     }
   }

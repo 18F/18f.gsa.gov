@@ -1,6 +1,6 @@
 .icon-list {
   display: flex;
-  margin-bottom: $paragraph-margins;
+  margin: ($paragraph-margins / 2) 0;
 
   @include media($medium-screen) {
     margin-bottom: $paragraph-margins-thick;
@@ -19,5 +19,15 @@
   svg {
     width: 50px;
     height: 50px;
+  }
+}
+
+.icon-list-text {
+  .paragraph-bold {
+    margin-bottom: $spacer-margins;
+  }
+
+  &:last-of-type p {
+    margin-top: 0;
   }
 }
