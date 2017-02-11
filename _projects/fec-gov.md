@@ -12,7 +12,7 @@ tag: fec.gov
 expiration_date:
 github_repo: https://github.com/18F/openFEC-web-app
 project_url: "[Federal Election Commission website](https://beta.fec.gov/)"
-quote: We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.
+quote: 
 ---
 
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.
@@ -33,3 +33,5 @@ As our FEC partners saw the benefits of working iteratively and putting user nee
 - Exploring how to update the online filing process to help political groups and candidates file the right forms.
 
 Through all these projects, we’ve worked closely with FEC teams so they can transform their whole approach to interacting with the public online.
+
+In the words of one product owner at the FEC: “We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.”

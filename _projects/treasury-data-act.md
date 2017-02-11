@@ -3,7 +3,7 @@ layout: project-tag-results
 agency: Department of the Treasury
 title: DATA Act
 subtitle: Opening up federal spending
-permalink: /what-we-deliver/treasury-data-act/
+permalink: /what-we-deliver/data-act/
 excerpt: We worked with Treasury to implement the Digital Accountability and Transparency Act successfully.
 image:
 image_accessibility:
