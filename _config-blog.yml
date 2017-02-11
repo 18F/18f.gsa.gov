@@ -8,6 +8,7 @@ exclude:
 - .gitmodules
 - .hound.yml
 - _pages
+- _projects
 - api-endpoints
 - bin
 - build
