@@ -16,7 +16,7 @@ quote: A sailor’s time, and more importantly our nation’s use of it, must be
 quote_source: "[Navy Reserve Vision 2015-2025 (PDF)](https://www.navyreserve.navy.mil/documents/NR_vision_2015.pdf)"
 ---
 
-There are over 50,000 who serve part-time in the U.S. Navy Reserve, accounting for one out of every five people in the naval force.
+There are more than 50,000 people who serve part-time in the U.S. Navy Reserve, accounting for one out of every five people in the naval force.
 
 Calling up reservists for duty can be difficult. Most have to travel to a duty station and use an official computer to check deployment orders or submit required paperwork rather than doing it from home. It’s inconvenient and time-consuming for reservists, and causes operational headaches for the military.
 
