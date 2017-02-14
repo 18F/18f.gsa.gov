@@ -2,11 +2,11 @@
 
 # 18F’s flagship website
 
-This repo houses the 18F website. We use the [Draft U.S. Web Design standards](https://standards.usa.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.18f.gov).
+This repo houses the 18F website. We use the [Draft U.S. Web Design standards](https://standards.usa.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.fr.cloud.gov/).
 
 ### History
 
-A detailed history of the work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov). An archived copy of the original website can be found [on a Federalist preview](https://federalist.18f.gov/preview/18F/18f.gsa.gov/staging).
+A detailed history of the work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov). An archived copy of the original website can be found [on a Federalist preview](https://federalist.fr.cloud.gov/staging).
 
 ## Installation
 
@@ -42,7 +42,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through the Federalist platform.
 
 1. Federalist runs in its own organization and space in CloudFoundry
-1. Federalist Admin: https://federalist.18f.gov/
+1. Federalist Admin: https://federalist.fr.cloud.gov/
 1. Using the Federalist editor that requires GitHub Oauth and writes commits as auth'd GitHub user, changes are then passed through a webhook back to Federalist
 1. Federalist uses a CloudFoundry S3 service to write to the bucket, the Federalist instance only derives S3 credentials from the CloudFoundry S3 service and can only read/write to federalist.18f.gov/*
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket

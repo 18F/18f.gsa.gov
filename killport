@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#################################################
+# Lists the process running on the passed port  #
+# and then confirms whether you want to kill it #
+#################################################
+#Get the port that the user passed in
+port=$1
+
+if [[ ${#port} == 0 ]]; then
+ echo "Kills a service running on the specified port."
+ echo "usage: killport PORT"
+ exit;
+fi
+
+# Get everything running on this port
+lsofcmd="lsof -i :$port"
+
+# echo the command, and then iterate through each line of the output
+counter=0
+$(echo $lsofcmd) | while read -r line; do
+  echo $line
+  counter=$((counter+1)) # We want to skip the first line, as the first line is the column headers, from lsof
+
+  if [[ $counter > 1 ]]; then
+    procname=$(echo $line | awk '{print $1}')
+    pid=$(echo $line | awk '{print $2}')
+
+    echo "Killing $procname process with PID: $pid"
+    kill -9 $pid;
+  fi
+done

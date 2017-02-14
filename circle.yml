@@ -14,7 +14,7 @@ machine:
 dependencies:
   pre:
     - npm install -g accesslint-cli
-    - bundle install --binstubs
+    - bundle install
 
 test:
   override:
@@ -22,5 +22,5 @@ test:
     - npm run htmlproofer
     - bundle exec rspec
     - CODECLIMATE_REPO_TOKEN=${CODECLIMATE_REPO_TOKEN} bundle exec codeclimate-test-reporter
-  post:
-    - ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000
+  # post:
+    # - ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site

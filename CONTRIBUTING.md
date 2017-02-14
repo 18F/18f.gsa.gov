@@ -81,6 +81,16 @@ This site does not use any heavy JavaScript frameworks, and should always work w
 - jQuery is included in the WDS
 - Ruby gems is used for front end dependency management
 
+## Accessibility
+
+To test the site locally for accessibility errors, we use [pa11y-ci](https://github.com/pa11y/ci) to periodically test the site for accessibility concerns.
+
+To set up, do the following:
+
+1. `npm install`
+2. `npm install -g pa11y-ci`
+3. `npm run pa11y-ci local`
+
 ## Standards and benchmarks
 
 ### Device and browser support
