@@ -17,10 +17,10 @@ redirect_from: /consulting/
 
 If your agency’s project has a digital component, our team of software developers, visual designers, writers, and security experts can help you build it. We can help you:
 
-- Improve a challenging user process by reimagining a daunting task, as we did with the [U.S. Citizenship and Immigration Service](https://my.uscis.gov/) and their immigration and visa processes.
-- Build a new site and API to showcase and synthesize data from multiple sources, as we did with Department of Education's [College Scorecard]({{ site.baseurl }}/project/ed-college-scorecard/).
-- Help you make your data more accessible with a user-friendly site and developer tools, as we did with the [Federal Election Commission]({{ site.baseurl }}/project/fec-gov/).
-- Build web-based tools to streamline internal agency processes, as we did with [Communicart](https://cap.18f.gov/) and [CALC](https://calc.gsa.gov/).
+- Improve a challenging user process by reimagining a daunting task, as we did with the [U.S. Citizenship and Immigration Service]({{ site.baseurl }}/what-we-deliver/myuscis/) and their immigration and visa processes.
+- Build a new site and API to showcase and synthesize data from multiple sources, as we did with Department of Education's [College Scorecard]({{ site.baseurl }}/what-we-deliver/college-scorecard/).
+- Help you make your data more accessible with a user-friendly site and developer tools, as we did with the [Federal Election Commission]({{ site.baseurl }}/what-we-deliver/fec-gov/).
+- Build web-based tools to streamline internal agency processes, as we did with [C2]({{ site.baseurl }}/what-we-deliver/c2/) and [CALC]({{ site.baseurl }}/what-we-deliver/calc/).
 - Scope a solution or collaborate on an idea in a way that empowers you to meet the needs of your users, as we did with the [Department of Labor’s Wage and Hour Division](https://18f.gsa.gov/2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/).
 - Do user research and discovery sprints to promote a new digital model that houses information, as we did with NASA and the National Oceanic and Atmospheric Administration’s [Climate Discovery project](https://climate-data-user-study.18f.gov/).
 {% endmarkdown %}
@@ -37,8 +37,8 @@ If your agency’s project has a digital component, our team of software develop
 
 We believe federal IT acquisitions can be faster, cheaper, and produce better results. If your agency is developing a new request for quotation for IT services or is interested in innovative ways to buy technology, our team is excited to work with you. We can help you:
 
-- Write agile, modular, and user-centered design into your request for quotations through our RFP Ghostwriting service, like we did with the [Department of Health and Human Services]({{ site.baseurl }}/project/hhs-states/).
-- Develop a marketplace to buy IT services using modern techniques, like we did with the [Agile Blanket Purchase Agreement](https://pages.18f.gov/ads-bpa/).
+- Write agile, modular, and user-centered design into your request for quotations through our RFP Ghostwriting service, like we did with the [Department of Health and Human Services]({{ site.baseurl }}/what-we-deliver/hhs-states/).
+- Develop a marketplace to buy IT services using modern techniques, like we did with the [Agile Blanket Purchase Agreement]({{ site.baseurl }}/what-we-deliver/agile-bpa/).
 - Buy small pieces of open source code to advance your projects, like we’re doing with our [micro-purchase platform](https://micropurchase.18f.gov/).
 {% endmarkdown %}
   </div>
@@ -55,7 +55,7 @@ We believe federal IT acquisitions can be faster, cheaper, and produce better re
 Federal agencies face a unique set of technology problems. We’re building a suite of secure, scalable tools and platforms that any agency can use to solve these common problems. Our platforms are built with the needs of government addressed right at the beginning and are being actively improved to meet your needs. We can help you:
 
 - Host your applications in the cloud with our [cloud.gov platform](https://cloud.gov/).
-- Build customizable and easy-to-maintain static sites with the [Federalist platform](https://federalist.18f.gov/).
+- Build customizable and easy-to-maintain static sites with the [Federalist platform]({{ site.baseurl }}/what-we-deliver/federalist/).
 - Release and manage your API with [api.data.gov](https://api.data.gov/).
 {% endmarkdown %}
   </div>

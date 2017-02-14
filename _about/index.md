@@ -57,12 +57,12 @@ We are a team of about 200 designers, software engineers, strategists, and produ
 
 Want to get to know our team a little better? These blog posts feature the voices of people from across 18F:
 
-- [We asked 100 of our coworkers why they joined 18F]({{ site.baseurl }}/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
-- [We asked over 100 of our coworkers: What was your path to 18F?]({{ site.baseurl }}/2016/03/22/what-was-your-path-to-18f/)
-- [We asked over 100 of our coworkers what they've loved working on?]({{ site.baseurl }}/2016/03/23/what-have-you-loved-working-on/)
-- [We asked everyone at 18F to reflect on the most meaningful project they worked on this year]({{ site.baseurl }}/2015/12/23/looking-back-2015-our-own-words/)
+- [We asked 100 of our coworkers why they joined 18F](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/)
+- [We asked over 100 of our coworkers: What was your path to 18F?](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/)
+- [We asked over 100 of our coworkers what they've loved working on?](https://18f.gsa.gov/2016/03/23/what-have-you-loved-working-on/)
+- [We asked everyone at 18F to reflect on the most meaningful project they worked on this year](https://18f.gsa.gov/2015/12/23/looking-back-2015-our-own-words/)
 
-We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-profiles/), if you want to learn more about our day-to-day work.
+We've also published [profiles of individuals](https://18f.gsa.gov/tags/staff-profiles/), if you want to learn more about our day-to-day work.
 
 -----
 
