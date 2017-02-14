@@ -7,7 +7,6 @@ jekyll_pages_api_search:
   skip_index: true
 
 env: "development"
-
 exclude:
 - .about.yml
 - .cfignore
@@ -15,13 +14,13 @@ exclude:
 - .gitignore
 - .gitmodules
 - .hound.yml
-- _pages
 - api-endpoints
 - bin
 - build
 - circle.yml
+- config_blog.rb
 - CONTRIBUTING.md
-- docker-compse.yml
+- docker-compose.yml
 - docker_entrypoint.rb
 - Dockerfile
 - examples/
@@ -30,6 +29,7 @@ exclude:
 - Gemfile*
 - humans.txt
 - ISSUE_TEMPLATE.md
+- killport
 - LICENSE.md
 - node_modules
 - package.json
@@ -43,6 +43,7 @@ exclude:
 - serve-fast
 - serve-accesslint
 - sitemap.xml
+- spec/
 - system-security-plan.yml
 - tests/
 - tests/schema/tags.yml

@@ -14,7 +14,9 @@
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
     "rebuild": "rm -rf _site && bundle exec jekyll serve",
-    "test": "bundle exec jekyll test"
+    "test": "bundle exec jekyll test",
+    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
+    "pa11y-local": "./killport 4000 && ./serve-accesslint && npm run pa11y-ci"
   },
   "repository": {
     "type": "git",
