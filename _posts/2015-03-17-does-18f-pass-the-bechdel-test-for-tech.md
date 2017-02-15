@@ -80,7 +80,7 @@ simplify, streamline, and unify the Small Business Innovation Research
 application process.
 
 
-[*USCIS projects*](https://18f.gsa.gov/what-we-deliver/dhs-myuscis/) - We
+[*USCIS projects*](https://18f.gsa.gov/what-we-deliver/myuscis/) - We
 are helping to re-image and modernize immigration and visa processes:
 building tools that improve the applicant process, providing clear and
 simple information to the public, and creating new tools that make the
@@ -95,8 +95,7 @@ businesses search for opportunities to work with the U.S. government.
 
 ## Almost Bechdels
 
-[*Data
-Act*](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io) -
+[*Data Act*](https://github.com/fedspendingtransparency/fedspendingtransparency.github.io) -
 Consulting engagement to advise on the federal spending data standards
 and corresponding pilot project mandated by the DATA Act. Kaitlin Devine
 mentions, “There isn't actually any code associated with this right now,
