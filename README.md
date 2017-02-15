@@ -39,7 +39,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 
 ## System security controls
 
-The site is a static website with HTML, CSS, and Javascript. Deployments are done through the Federalist.
+The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
 
 1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/)
 1. Federalist Admin: https://federalist.fr.cloud.gov/
