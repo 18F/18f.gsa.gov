@@ -35,23 +35,14 @@ Using Docker can make dependencies management easier, but can also slow down you
 3. Run `docker-compose build` to build the docker image and its dependencies. You only need to build once, but if there was an error with the build , rebuild using  the  `--no-cache` option like so `docker-compose build --no-cache`  to avoid using the old version of the docker image.
 4. Run `docker-compose up`.
    Note: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`)
-5. Visit [http://192.168.99.100:4000](http://192.168.99.100:4000/) in your browser.
+5. Visit [http://192.168.99.100:4000](http://192.168.99.100:4000/site/) in your browser.
 
 ## System security controls
 
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through the Federalist platform.
 
-1. Federalist runs in its own organization and space in CloudFoundry
+1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/)
 1. Federalist Admin: https://federalist.fr.cloud.gov/
-1. Using the Federalist editor that requires GitHub Oauth and writes commits as auth'd GitHub user, changes are then passed through a webhook back to Federalist
-1. Federalist uses a CloudFoundry S3 service to write to the bucket, the Federalist instance only derives S3 credentials from the CloudFoundry S3 service and can only read/write to federalist.18f.gov/*
+1. Federalist creates an instance for the site, derives S3 credentials from the provided S3 service, and uses those credentials to read/write to federalist.fr.cloud.gov/*
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket
 1. We map 18f.gsa.gov URL to the S3 bucket
-
-### Constraints
-
-* We use Cloudfront to map 18f.gsa.gov to an S3 endpoint
-* Federalist, and Cloudfront do not support the following HTTPS implementations:
-  * [HSTS Headers](https://github.com/18F/18f.gsa.gov/issues/1871)
-  * [HTTP/2](https://github.com/18F/18f.gsa.gov/issues/1872)
-  * [OSCP Stapling](https://github.com/18F/18f.gsa.gov/issues/292)
