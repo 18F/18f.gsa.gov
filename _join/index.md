@@ -5,7 +5,6 @@ layout: default-intro
 lead: Help transform how the federal government does technology.
 redirect_from:
   - /apply/
-published: false
 ---
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.
