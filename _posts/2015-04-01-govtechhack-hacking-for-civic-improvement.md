@@ -77,7 +77,7 @@ following day. These projects included:
 -   [**eRegs**](http://cfpb.github.io/eRegulations/) — An application that makes federal regulations easier to
     find, read, and understand
 
--   [**Communicart**](https://18f.gsa.gov/dashboard/what-we-deliver/c2/) — A simplified, email-based purchasing approval tool
+-   [**Communicart**](https://18f.gsa.gov/what-we-deliver/c2/) — A simplified, email-based purchasing approval tool
     for purchase card holders authorized to buy office supplies for
     the government
 
