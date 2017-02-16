@@ -15,12 +15,12 @@
   figcaption {
     background: rgba($color-gray-lightest, 0.85);
     bottom: 0;
-    color: #000;
+    color: $color-black;
     line-height: $paragraph-line-height;
     font-size: $tiny-font-size;
     font-style: italic;
     max-width: 40%;
-    padding: ( $spacer-margins / 2 ) $spacer-margins;
+    padding: ($spacer-margins / 2) $spacer-margins;
     position: absolute;
     right: 0;
   }
