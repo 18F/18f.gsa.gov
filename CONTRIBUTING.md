@@ -20,7 +20,7 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its 
 
 ## 18F contributions
 
-There is a team actively working on the site. You can find us in Slack in the #18f-site or #beta-18F-site channels (limited access).
+There is a team actively working on the site. You can find us in Slack in the #18f-site or #beta-18F-site channels (access is limited to 18F employees).
 
 ### Branches
 
@@ -35,17 +35,19 @@ Because new blog posts are published several times a week, we use several branch
 
 ### Submitting pull requests
 
-If you submit your Pull Request (PR) from the Github website, a form will appear and will be populated with [a template](PULL_REQUEST_TEMPLATE.md). If you are submitting via the Github Client app, a template will not appear and you will need to populate it yourself. You can find the text [here]. If you are not on the 18F Site team, feel free to disregard the template and someone from the team will follow up with you.
+If you submit your Pull Request (PR) from the Github website, a form will appear and will be populated with [a template](PULL_REQUEST_TEMPLATE.md). If you are submitting via the Github Client app, a template will not appear and you will need to populate it yourself. You can find the text [here](PULL_REQUEST_TEMPLATE.md). If you are not on the 18F site team, feel free to disregard the template and someone from the team will follow up with you.
 
-To fill out the template, please start by attaching any issues that this PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the site before, and how it _should_ be.
+To fill out the template, please start by attaching any issues your PR addresses. If the PR changes are not associated with an issue, please leave a brief message detailing what was wrong with the site before, and how it _should_ be.
 
 If the nature of the PR is visual, please replace all instances of `BRANCH_NAME` with the name of the branch that is being merged.
 
-Complete the PR message by detailing all fixes and tagging Github users who should review the work, with a note about what they should be reviewing. In general:
+Complete the PR message by detailing all fixes and tagging GitHub users who should review the work, with a note about what they should be reviewing. In general:
 
-- Don’t merge your own PRs
+- If you are not an admin or member of the 18F site team, tag someone who you would like to review and merge your PR
+- If you are an admin for the repo or a member of the 18F site team, you are responsible for merging your own PRs **after they have been reviewed and approved by someone else on the team**
+- If you have been asked to review a PR, leave a clear message indicating your approval, either through the formal PR review feature or by commenting (at the very least, with a note saying `LGTM`, or "Looks good to me")
 - If your PR includes many small, incremental commits, consider squashing them
-- Don’t merge until linters pass, unless reviewers approve exceptions
+- Don’t merge until linters pass, unless you have discussed with reviewers and approved exceptions
 
 ### Front end architecture
 

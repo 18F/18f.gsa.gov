@@ -7,6 +7,7 @@ tags:
 - user research
 - how we work
 - agile
+- calc
 excerpt: "The CALC team is an agile team of four — six if you count the Scrummaster and the Product Owner — building a simple means to load price data into the original CALC tool. They’re an Agile team, which means everybody pitches in on everything to some degree, and here, in their own words, is some reflection on what happened when they all scrubbed in on the discovery phase."
 description: "The CALC team is an agile team of four — six if you count the Scrummaster and the Product Owner — building a simple means to load price data into the original CALC tool. They’re an Agile team, which means everybody pitches in on everything to some degree, and here,
 in their own words, is some reflection on what happened when they all
