@@ -3,9 +3,10 @@ title: "Introducing 18F Design Methods"
 date: 2015-08-10
 layout: post
 authors:
-- jeremy
-- colinmacarthur
+- andrewmaier
 - bradnunnally
+- colinmacarthur
+- jeremy
 - jthibault
 - russ
 
