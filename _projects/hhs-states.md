@@ -6,7 +6,7 @@ subtitle: Helping states update crucial systems
 permalink: /what-we-deliver/hhs-states/
 redirect_from: /project/hhs-states/
 excerpt: Health and Human Services hired us to help states implement best practices and upgrade legacy systems.
-image: /assets/img/projects/hero_stateandlocal.png
+image: /assets/img/projects/hero_stateandlocal.jpg
 image_accessibility: "Photograph of people meeting in small groups during a workshop"
 tag: state and local practice
 expiration_date:

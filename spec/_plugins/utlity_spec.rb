@@ -1,5 +1,4 @@
 require_relative '../../_plugins/utility'
-require 'pry'
 
 RSpec.describe Jekyll::Utility do
   class UtilityClass

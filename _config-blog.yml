@@ -1,19 +1,19 @@
-env: "development"
-
+---
+env: development
 exclude:
-- .about.yml
-- .cfignore
-- .codeclimate.yml
-- .gitignore
-- .gitmodules
-- .hound.yml
-- _pages
+- ".about.yml"
+- ".cfignore"
+- ".codeclimate.yml"
+- ".gitignore"
+- ".gitmodules"
+- ".hound.yml"
 - api-endpoints
 - bin
 - build
 - circle.yml
+- config_blog.rb
 - CONTRIBUTING.md
-- docker-compse.yml
+- docker-compose.yml
 - docker_entrypoint.rb
 - Dockerfile
 - examples/
@@ -22,6 +22,7 @@ exclude:
 - Gemfile*
 - humans.txt
 - ISSUE_TEMPLATE.md
+- killport
 - LICENSE.md
 - node_modules
 - package.json
@@ -34,7 +35,7 @@ exclude:
 - serve-blog
 - serve-fast
 - serve-accesslint
-- sitemap.xml
+- spec/
 - system-security-plan.yml
 - tests/
 - tests/schema/tags.yml
@@ -316,7 +317,7 @@ exclude:
 - _posts/2016-07-18-cloud-gov-full-steam-ahead-fedramp-assessment-process.md
 - _posts/2016-07-19-strategies-for-starting-your-own-writing-lab.md
 - _posts/2016-07-21-buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem.md
-- _posts/2016-07-22-building-emphathy-with-stakeholder-interviews-part-2-conversation.md
+- _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
 - _posts/2016-07-26-buying-better-digital-products-part-2-setting-the-product-vision-and-strategy.md
 - _posts/2016-07-26-new-pilot-aims-to-streamline-notice-and-comment-process.md
 - _posts/2016-07-28-bret-mogilefsky-finding-big-good-cloud-gov.md
@@ -347,7 +348,6 @@ exclude:
 - _posts/2016-10-14-iterative-workplace-design-denver-federal-center.md
 - _posts/2016-10-24-embracing-opportunities-to-improve-and-innovate.md
 - _posts/2016-10-25-three-small-steps-you-can-take-to-reboot-agile-in-your-organization.md
-- _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
 - _posts/2016-10-26-writing-for-web-easy-writing-for-users-not.md
 - _posts/2016-10-28-california-takes-new-approach-procurement.md
 - _posts/2016-11-04-code-gov-the-next-milestone-federal-open-source-code.md
@@ -366,3 +366,6 @@ exclude:
 - _posts/2017-01-05-building-effective-agile-partnership-between-government-industry.md
 - _posts/2017-01-06-open-source-collaboration-across-agencies-to-improve-https-deployment.md
 - _posts/2017-01-10-mark-hopson-negotiating-on-americas-behalf.md
+- _posts/2017-01-11-the-best-way-to-build-big-is-to-start-small.md
+---
+

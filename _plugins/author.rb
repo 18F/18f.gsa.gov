@@ -1,6 +1,3 @@
-require 'pry'
-require 'rb-readline'
-
 module Jekyll
   class AuthorTag < Liquid::Tag
     def initialize(tag_name, author, tokens)
@@ -24,11 +21,11 @@ module Jekyll
     end
 
     def finder(group, name)
-      data = Jekyll.sites[0].data[group]
       if results.respond_to?('find')
         return results.find { |member| member['name'] == name }
       else
-        require 'pry';        end
+        raise Exception, "No teammate found by that name: #{name}"
+      end
     end
   end
 
@@ -45,7 +42,6 @@ module Jekyll
     def render(context)
       authored = []
       author = context.environments[0]['page']['name']
-      full_name = context.environments[0]['page']['full_name']
       first_name = context.environments[0]['page']['first_name']
       posts = context.environments[0]['site']['posts']
       site_url = context.environments[0]['site']['baseurl']
@@ -145,7 +141,7 @@ module Jekyll
         name = authors[index].data['name'].downcase
         url = "#{site_url}/author/#{name}"
         full_name = authors[index].data['full_name']
-        string = "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
+        "<a class='post-author' itemprop='name' href='#{url}'>#{full_name}</a>"
       end
     end
   end

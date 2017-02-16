@@ -1,10 +1,9 @@
 require_relative '../../_plugins/author_data'
-require 'pry'
-require 'rb-readline'
 
 RSpec.describe SiteData::AuthorData do
   before(:each) do
     root = File.dirname(File.dirname(__FILE__))
+
     @author_data = SiteData::AuthorData.new(root)
     @penned_authors = @author_data.penned_authors
     @excluded_authors = @author_data.excluded_authors

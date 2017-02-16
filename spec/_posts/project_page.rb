@@ -19,7 +19,7 @@
         "project-type": "Partner",
         "title": "Health and Human Services",
         "subtitle": "Helping states update crucial systems",
-        "image": "/assets/img/projects/hero_stateandlocal.png",
+        "image": "/assets/img/projects/hero_stateandlocal.jpg",
         "image_accessibility": "Grayscale photograph of eleven people meeting in small groups during a workshop",
         "tags": [
           "state and local practice"
