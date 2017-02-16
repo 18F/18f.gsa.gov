@@ -4,6 +4,7 @@ permalink: /what-we-deliver/
 layout: default-intro
 lead: We help federal agencies build, buy, and share modern digital services to improve the user experience of government.
 content_wide: true
+content_focus: false
 redirect_from:
   - /consulting/
 banner_cta: true
@@ -11,7 +12,6 @@ gridless: true
 ---
 <div class="usa-grid">
   <section class="usa-section">
-    <h2>Who and how we've helped</h2>
     <div class="usa-flex usa-flex-wrap">
       {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
       {% for project in projects_list %}
@@ -27,8 +27,8 @@ gridless: true
   </section>
 </div>
 
-<div class="usa-grid background-gray">
-  <section class="usa-section">
+<div class="usa-section background-gray">
+  <section class="usa-grid">
     {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <h2>Agency Partners and public offerings</h2>
