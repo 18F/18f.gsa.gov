@@ -1,6 +1,4 @@
 require 'yaml'
-require 'rb-readline'
-require 'pry'
 
 module SiteData
   class AuthorData
@@ -9,13 +7,16 @@ module SiteData
     def initialize(test_path = nil)
       @test_path = test_path
       @basepath = @test_path ? @test_path : Dir.pwd
-      @path = File.join(@basepath, '_authors')
 
-      @site_post_paths = Dir.entries(File.join(Dir.pwd, '_posts')).select do |f|
+      @path = File.join(@basepath, '_authors')
+      cwd = File.dirname(__FILE__)
+      pwd = cwd.split('/')[0...-1].join('/')
+
+      @site_post_paths = Dir.entries(File.join(pwd, '_posts')).select do |f|
         !File.directory? f and f != '.DS_Store'
       end
 
-      @all_authors = Dir.entries(File.join(Dir.pwd, '_authors')).select do |f|
+      @all_authors = Dir.entries(File.join(pwd, '_authors')).select do |f|
         !File.directory? f and f != '.DS_Store'
       end.flatten.uniq
 
