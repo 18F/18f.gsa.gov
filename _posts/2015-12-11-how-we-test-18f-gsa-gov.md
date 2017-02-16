@@ -4,7 +4,7 @@ date: 2015-12-11
 authors:
 - boone
 tags:
-- automated testing
+- testing
 - how we work
 - 18f.gsa.gov
 - communication tools and practices

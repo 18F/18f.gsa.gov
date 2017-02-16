@@ -6,7 +6,7 @@ authors:
 - brethauer
 tags:
 - procurement
-- gsa
+- general services administration
 - acquisition services
 - calc
 - agency work

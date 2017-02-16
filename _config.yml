@@ -31,6 +31,12 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
+  about:
+    output: true
+    permalink: /:path/
+  join:
+    output: true
+    permalink: /join/:path/
   authors:
     output: true
     permalink: /author/:name/
@@ -39,7 +45,7 @@ collections:
     permalink: /press/:name/
   projects:
     output: true
-    permalink: /project/:path/
+    permalink: /what-we-deliver/:path/
   hire:
     output: false
     permalink: /hire/:path/
@@ -67,10 +73,23 @@ defaults:
   scope:
     path: "_hire"
   values:
-    layout: default-image
+    layout: default-intro
     # include_subnav: true
     subnav_anchor: /hire/
-
+ -
+  scope:
+    path: "_about"
+  values:
+    layout: default-intro
+    include_subnav: true
+    subnav_anchor: /about/
+ -
+  scope:
+    path: "_join"
+  values:
+    layout: default-intro
+    include_subnav: true
+    subnav_anchor: /join/
  -
   scope:
     path: "_styleguide"

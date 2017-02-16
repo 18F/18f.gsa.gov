@@ -5,44 +5,156 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="usa-grid usa-section content-focus page-tag-results">
+<section class="breadcrumb usa-grid">
+  <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">What we deliver</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page.title }}</span>
+</section>
+<section class="page-tag-results">
 
-  {% if page.image %}
-    <section class="hero"
-        style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        role="img"
-        title="{{ page.image_accessibility }}">
-      <div class="usa-grid-full">
-        <div class="hero-callout hero-callout-no_button background-dark">
-          <h1 class="hero-callout-title">
-            {{ page.agency }}: <br>
-            <span class="hero-callout-alt_color">
-              {{ page.title }}
-            </span>
+    <section class="background-dark">
+      <div class="usa-grid-full usa-flex">
+        <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+          {% if page.agency %}
+            <h1 class="h3">
+            <span class="hero-callout-alt_color">{{ page.agency }}</span>
+            </h1>
+          {% endif %}
+          <h1 class="hero-callout-title-secondary">
+            {{ page.title }}
           </h1>
         </div>
+        {% if page.image %}
+          <div class="usa-width-one-half hero"
+            style="background-image: url({{ site.baseurl }}{{ page.image }});"
+            role="img"
+            title="{{ page.image_accessibility }}">
+          </div>
+        {% else %}
+          <div class="hero hero-img-collapsed" style="background-image: none">
+          </div>
+        {% endif %}
       </div>
     </section>
-  {% else %}
-    <h1>{{ page.project-type }}: {{ page.title }}</h1>
+
+  <div class="usa-grid-full usa-grid-reversed">
+    {% assign any_clients = page.product_clients.size > 0 %}
+
+    {% if page.agency or
+          page.product_url or
+          page.github_url or
+          any_clients or
+          page.start_date or
+          page.expiration_date or
+          page.resources
+    %}
+    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info">
+      <ul>
+        {% if page.quote %}
+          <blockquote>
+            <p>&ldquo;{{ page.quote }}&rdquo;</p>
+            {% if page.quote_source %}
+              <cite>{{ page.quote_source | prepend: '– ' | markdownify }}</cite>
+            {% endif %}
+          </blockquote>
+        {% endif %}
+
+        {% if page.agency %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Agency partner</div>
+          <div>{{ page.agency }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.project_url %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">See our work</div>
+          <div>{{ page.project_url | markdownify }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.github_repo %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">GitHub repo</div>
+          <div><a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a></div>
+        </li>
+        {% endif %}
+
+        {% if any_clients %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Agency partners</div>
+          <ul class="{% unless page.product_clients.size > 1 %}usa-unstyled-list{% endunless %}">
+          {% for client in page.product_clients %}
+            <li>{{ client }}</li>
+          {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.start_date or page.expiration_date %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">When</div>
+          <div>
+          {% if page.start_date and page.expiration_date %}
+            {{ page.start_date }} – {{ page.expiration_date }}
+          {% elsif page.start_date and !page.expiration_date %}
+            Starts {{ page.start_date }}
+          {% elsif !page.start_date and page.expiration_date %}
+            Ends {{ page.expiration_date }}
+          {% endif %}
+          </div>
+        </li>
+        {% endif %}
+
+        {% if page.resources.size > 0 %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Resources</div>
+          <ul class="{% unless page.resources.size > 1 %}usa-unstyled-list{% endunless %}">
+            {% for resource in page.resources %}
+              <li>{{ resource | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if page.learn_more %}
+          <li class="section-info-list-item">
+            <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
+          </li>
+        {% endif %}
+      </ul>
+    </aside>
+    {% endif %}
+
+    <div class="usa-grid usa-width-two-thirds">
+      <section class="usa-section page-tag-results-content">
+        <div class="small-caps small-caps-no-margin">Background</div>
+        <h3>{{ page.subtitle }}</h3>
+        {{ content }}
+      </section>
+    </div>
+  </div>
+  {% if matching_posts.size > 0 %}
+  <div class="background-gray">
+    <div class="usa-section">
+      <section class="usa-grid posts_feature">
+        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
+          <h2>Related blog posts</h2>
+          {% if matching_posts.size > 3 %}
+            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+          {% endif %}
+        </div>
+        <ul>
+        {% for post in matching_posts limit:3 %}
+          {% include post.html
+             post_date=post.date
+             post_title=post.title
+             post_excerpt=post.excerpt
+             post_url=post.url
+          %}
+        {% endfor %}
+      </ul>
+      </section>
+    </div>
+  </div>
   {% endif %}
 
-  <section class="usa-section break-bottom">
-    <h2>{{ page.subtitle }}</h2>
-
-    {{ content }}
-  </section>
-
-  <section class="usa-section">
-    <h2>Our blog posts about this work</h2>
-
-    {%
-      include tag-results.html
-      posts=matching_posts
-      tags=page.tags
-      limit_metadata=true
-      trim_padding=true
-    %}
-  </section>
-
+  {% include banner-cta.html %}
 </section>

@@ -5,8 +5,9 @@ authors:
 - ryan-sibley
 tags:
 - content design
-- gsa
+- general services administration
 - procurement
+- agency work
 excerpt: "Recently, we partnered with the Office of Integrated Technology Services
 (ITS) here within the General Services Administration (GSA) on a
 four-month effort to develop a plain language guide, informed by

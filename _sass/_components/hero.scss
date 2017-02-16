@@ -8,23 +8,40 @@
   padding: 0;
 }
 
+.hero-img-collapsed {
+  display: none;
+}
+
 .hero-primary {
   background-image: none;
 
-  @include media($medium-screen + $grid-margins) {
+  @include media($tablet-screen) {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
 
 .hero-callout {
-  padding: $section-margins;
-
-  @include media($medium-screen + $grid-margins) {
+  @include media($tablet-screen) {
     max-width: 300px;
   }
+}
+
+.hero-callout,
+.hero-callout-full {
+  padding: $section-margins;
+  padding-left: 0;
 
   > *:first-child {
     @include margin(0 null $site-margins null);
+  }
+}
+
+.usa-grid-full .hero-callout,
+.usa-grid-full .hero-callout-full {
+  padding-left: $paragraph-margins;
+
+  @include media($small-screen) {
+    padding-left: $site-margins;
   }
 }
 
@@ -66,4 +83,12 @@
 .hero-callout-alt_color {
   color: $color-bright;
   display: block;
+}
+
+.hero-callout-title {
+  font-size: $banner-font-size;
+}
+
+.hero-callout-title-secondary {
+  margin-top: $spacer-margins;
 }

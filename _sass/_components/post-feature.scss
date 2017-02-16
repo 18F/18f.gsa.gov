@@ -30,7 +30,7 @@
       margin-bottom: 0;
     }
 
-    @include media($medium-screen + $grid-margins) {
+    @include media($tablet-screen) {
       margin-bottom: 0;
     }
   }

@@ -82,3 +82,9 @@ h2 {
   text-transform: uppercase;
 }
 
+hr {
+  background-color: $color-gray-lighter;
+  border: 0;
+  height: 1px;
+  margin-top: $section-margins;
+}

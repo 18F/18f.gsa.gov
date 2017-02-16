@@ -5,7 +5,6 @@ authors:
 - jhunter
 tags:
 - digital services movement
-- outreach
 - how we work
 
 excerpt: "Across the pond, the motto of the United Kingdom's Government Digital Service (GDS) is “the strategy is delivery.” Over here, we say “delivery is the strategy,” but we’re both focused on the same thing: Fostering positive change across government by shipping quality digital solutions."

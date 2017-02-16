@@ -5,7 +5,7 @@ title: 2. How we work
 
 It’s important for us to build digital services that solve the needs of users and are enjoyable to use. By the time you’re designing a solution, you should have a solid understanding of the users you’re building for and the problems you’re trying to solve. Though the needs of agency stakeholders are important, the satisfaction of citizens or other end-users are the primary way we measure success.
 
-You can see more information about the methods our design team uses at [this site](https://methods.18f.gov/) and read more on our blog about [user interview best practices](https://18f.gsa.gov/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/).
+You can see more information about the methods our design team uses at [this site](https://methods.18f.gov/) and read more on our blog about [user interview best practices]({{ site.baseurl }}/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/).
 
 *Tip: In user-centered design, we conduct interviews with users to understand their needs and how they experience the status quo. Your agency can start by speaking with call center or customer service representatives to sketch out personas — or composite representative descriptions — of types of customers and what their needs and behaviors are.*
 

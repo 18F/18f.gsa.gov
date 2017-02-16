@@ -4,7 +4,7 @@ date: 2016-05-10
 authors:
 - aaron
 tags:
-- gsa
+- general services administration
 - 18f
 - technology transformation service
 excerpt: "The GSA has created the Technology Transformation Service as a third pillar of services for federal agencies alongside the Public Buildings Service and Federal Acquisition Service."

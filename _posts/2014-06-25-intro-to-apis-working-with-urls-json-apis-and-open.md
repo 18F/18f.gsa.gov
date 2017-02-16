@@ -18,8 +18,8 @@ tags:
 - api
 - best practices
 - workshop
-- outreach
 - how we work
+- events
 
 ---
 

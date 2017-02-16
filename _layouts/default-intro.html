@@ -1,18 +1,46 @@
 ---
 layout: default
 ---
-<section class="background-dark usa-section section-intro">
-  <div class="usa-grid">
-    <header>
-      {% if page.lead %}
-        <h1 class="section-heading section-heading-alt">{{ page.title }} </h1>
-        <h2>{{ page.lead }}</h2>
+
+{% if page.image %}
+  {% include feature-image.html %}
+  <h1 class="usa-sr-only">{{ page.title }}</h1>
+{% elsif page.title %}
+  <section class="background-dark usa-section section-intro">
+    <div class="usa-grid">
+      <div class="section-intro-header">
+        {% if page.lead %}
+          <h1 class="section-heading section-heading-alt">{{ page.title }} </h1>
+          <h2>{{ page.lead }}</h2>
         {% else %}
           <h1 class="section-heading">{{ page.title }}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% else %}
+  <h1 class="usa-sr-only">{{ page.title }}</h1>
+{% endif %}
+
+<section class="usa-grid usa-section content-focus{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+  {% if page.include_subnav %}
+    <aside class="usa-width-one-third sticky sticky-subnav">
+      {% include navigation.html subnav=true subnav_anchor=page.subnav_anchor %}
+    </aside>
+    <section class="usa-width-two-thirds">
+      {% if page.image %}
+        <h3 class="page-lead">{{ page.lead }}</h3>
       {% endif %}
-    </header>
-  </div>
+      {{ content }}
+    </section>
+  {% else %}
+    {% if page.image %}
+      <h3 class="page-lead">{{ page.lead }}</h3>
+    {% endif %}
+    {{ content }}
+  {% endif %}
 </section>
-<section class="usa-grid usa-section content-focus{% if page.content_wide %} content-wide{% endif %}">
-  {{ content }}
-</section>
+
+{% if page.banner_cta %}
+  {% include banner-cta.html %}
+{% endif %}

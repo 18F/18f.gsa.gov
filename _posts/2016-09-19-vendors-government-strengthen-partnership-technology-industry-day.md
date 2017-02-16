@@ -4,7 +4,7 @@ authors:
 - andre
 tags:
 - events
-- gsa
+- general services administration
 - video
 - agile bpa
 - micro-purchase platforms
