@@ -7,6 +7,7 @@ exclude:
 - ".gitignore"
 - ".gitmodules"
 - ".hound.yml"
+- _styleguide/
 - api-endpoints
 - bin
 - build
@@ -37,6 +38,7 @@ exclude:
 - serve-accesslint
 - spec/
 - system-security-plan.yml
+- tags/
 - tests/
 - tests/schema/tags.yml
 - vendor

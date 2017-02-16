@@ -1,5 +1,4 @@
 require_relative '../../_plugins/utility'
-require 'pry'
 
 RSpec.describe Jekyll::Utility do
   class UtilityClass
@@ -158,17 +157,17 @@ RSpec.describe Jekyll::Utility do
     end
 
     it 'does not match child nav items to parent nav items' do
-      @utility_class.crawl_pages(@nav_item_project, '/project/fec-gov/')
+      @utility_class.crawl_pages(@nav_item_project, '/what-we-deliver/fec-gov/')
       expect(@utility_class.match).to be_nil
     end
 
     it 'matches with parent if it is an exact match' do
-      @utility_class.crawl_pages(@nav_item_project_with_children, '/project/')
+      @utility_class.crawl_pages(@nav_item_project_with_children, '/what-we-deliver/')
       expect(@utility_class.match).to match @nav_item_project_with_children
     end
 
     it 'matches with the child if it is an exact match' do
-      @utility_class.crawl_pages(@nav_item_project_with_children, '/project/fec-gov/')
+      @utility_class.crawl_pages(@nav_item_project_with_children, '/what-we-deliver/fec-gov/')
       expect(@utility_class.match).to match @nav_item_project_child
     end
   end
