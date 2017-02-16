@@ -6,7 +6,7 @@ subtitle: Humanizing the process of becoming a citizen
 permalink: /what-we-deliver/myuscis/
 redirect_from: /project/dhs-myuscis/
 excerpt: We worked with Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
-image: /assets/img/home/hero-immigration.png
+image: /assets/img/home/hero-immigration.jpg
 image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
 tag: uscis
 project_url: "[myUSCIS website](https://my.uscis.gov/)"

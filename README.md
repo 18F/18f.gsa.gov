@@ -6,7 +6,7 @@ This repo houses the 18F website. We use the [Draft U.S. Web Design standards](h
 
 ### History
 
-A detailed history of the work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov). An archived copy of the original website can be found [on a Federalist preview](https://federalist.fr.cloud.gov/staging).
+A detailed history of the work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
 
 ## Installation
 
