@@ -11,6 +11,8 @@ tag: calc
 expiration_date:
 github_repo: https://github.com/18F/calc
 project_url: "[CALC tool](https://calc.gsa.gov/)"
+quote: CALC was built to save hours spent on market research and price analysis, and has the potential to save millions of dollars on professional services contracts.
+quote_source: "Kelly Bailey, Product Owner of CALC, Federal Acquisition Service"
 ---
 
 The General Services Administration (GSA) plays a central role in helping the rest of the federal government hire contractors to perform professional services. This process requires contracting officers to research past federal contracts to determine a fair hourly rate, which often involves manually searching through stacks of paper contracts to find old labor rates.
