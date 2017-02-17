@@ -50,6 +50,7 @@ You can read more about how we work with agencies in our [Partnership Playbook](
 
 Receive updates about our work and news about the civic tech community
 
+{% include newsletter-ajax.html %}
 
 
 
