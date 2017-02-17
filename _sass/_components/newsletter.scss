@@ -1,0 +1,29 @@
+.newsletter {
+  margin-top: $site-margins;
+
+  label {
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: $font-bold;
+  }
+
+  .form-group {
+    float: left;
+    width: calc(100% - 9rem);
+  }
+
+  input {
+    font-size: $h5-font-size;
+    height: 3.3rem;
+  }
+
+  [type="submit"] {
+    @include margin(1.7rem 0 null 1rem);
+    display: inline;
+    padding: 0;
+    width: 8rem;
+  }
+}
+

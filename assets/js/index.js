@@ -34,38 +34,37 @@ $(function (){
       offset: function() {  return -$(this).height(); }
     });
 
-  //
-  console.log('yo')
-  // I only have one form on the page but you can be more specific if need be.
+  // Mailchimp
   var $form = $('#contact-form');
+  var defaultNewsletterText = $('#newsletter').text();
 
-  if ( $form.length > 0 ) {
-      $('#contact-form input[type="submit"]').bind('click', function ( event ) {
-          console.log('click')
-          if ( event ) event.preventDefault();
-          // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
-          // if ( validate_input($form) ) { register($form); }
-          register($form);
-      });
+  $form.ajaxChimp({
+      callback: callbackFunction
+  });
+
+  function callbackFunction (resp) {
+    console.log(resp)
+    if (resp.result === 'success') {
+        // Do stuff
+        // resp.result = 'somethine else'
+
+        var email = $('#EMAIL').val()
+        // resp.msg
+
+
+        $('#newsletter-email').text(email)
+        // var response =
+        $form.hide()
+        $('#newsletter-success').show();
+
+        // console.log($('#newsletter').text())
+    }
   }
 
-  function register($form) {
-    $.ajax({
-        type: $form.attr('method'),
-        url: $form.attr('action'),
-        data: $form.serialize(),
-        dataType: 'jsonp',
-        cache       : false,
-        dataType    : 'json',
-        contentType: "application/json; charset=utf-8",
-        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-        success     : function(data) {
-            if (data.result != "success") {
-                // Something went wrong, do something to notify the user. maybe alert(data.msg);
-            } else {
-                // It worked, carry on...
-            }
-        }
-    });
-  }
+  $('#button-reset').on('click', function () {
+    $('#newsletter').text(defaultNewsletterText);
+    $('#EMAIL').val('')
+    $form.show()
+    $('#newsletter-success').hide();
+  })
 });

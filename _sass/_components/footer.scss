@@ -105,13 +105,24 @@ footer[role=contentinfo] {
   }
 }
 
+
+.footer-links-wrapper {
+  @include media($medium-screen) {
+    @include span-columns(10);
+    @include omega();
+
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .footer-links {
   margin-top: 1em;
 
   @include media($medium-screen) {
     margin-top: 0;
 
-    @include span-columns(2);
+    @include span-columns(2.5);
   }
 
   &:last-child {
@@ -132,39 +143,5 @@ footer[role=contentinfo] {
 
   img {
     width: 4.4rem;
-  }
-}
-
-.footer-newsletter {
-  margin-top: $site-margins;
-
-  @include media($medium-screen) {
-    @include span-columns(4);
-      margin-top: 0;
-  }
-
-  label {
-    margin-top: 0;
-  }
-
-  p {
-    font-weight: $font-bold;
-  }
-
-  .form-group {
-    float: left;
-    width: calc(100% - 9rem);
-  }
-
-  input {
-    font-size: $h5-font-size;
-    height: 3.3rem;
-  }
-
-  [type="submit"] {
-    @include margin(1.7rem 0 null 1rem);
-    display: inline;
-    padding: 0;
-    width: 8rem;
   }
 }
