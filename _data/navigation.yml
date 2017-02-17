@@ -98,34 +98,6 @@ assigned:
         in_drawer: true
         in_footer: true
         children:
-            -
-                text: 'Our principles'
-                permalink: /about/#our-principles
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'Our team'
-                permalink: /about/#our-team
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'History and funding'
-                permalink: /about/#history-and-funding
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'For press'
-                permalink: /about/#for-press
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
     -
         text: Join 18F
         href: _pages/join.md
