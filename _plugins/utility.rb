@@ -99,14 +99,12 @@ module Jekyll
       document.map(&:data)
     end
 
-    def where_obj(array, first, second)
-      array.map do |object|
-        next unless object[first] && object[second]
-        new_o = {}
-        new_o[first] = object[first]
-        new_o[second] = object[second]
-        new_o
-      end.uniq
+    def where_obj(array, filter)
+      array = array.map do |object|
+        next unless !object[filter].nil? && !object[filter].empty?
+        object
+      end.compact.uniq
+      array
     end
 
     def in_groups(array, groups)
