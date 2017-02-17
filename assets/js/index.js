@@ -35,36 +35,40 @@ $(function (){
     });
 
   // Mailchimp
-  var $form = $('#contact-form');
-  var defaultNewsletterText = $('#newsletter').text();
+  var $form = $('#contact-form'),
+    $newsletter = $('#newsletter'),
+    $newsletterSuccess = $('#newsletter-success'),
+    $newsletterEmail = $('#newsletter-email');
 
-  $form.ajaxChimp({
-      callback: callbackFunction
-  });
+  var defaultNewsletterText = $newsletter.text();
 
-  function callbackFunction (resp) {
-    console.log(resp)
-    if (resp.result === 'success') {
-        // Do stuff
-        // resp.result = 'somethine else'
-
-        var email = $('#EMAIL').val()
-        // resp.msg
-
-
-        $('#newsletter-email').text(email)
-        // var response =
-        $form.hide()
-        $('#newsletter-success').show();
-
-        // console.log($('#newsletter').text())
+  var newsletterForm = {
+    response: function () {
+      var email = $newsletterEmail.val();
+      $('#newsletter-response').text(email);
+      $form.hide();
+      $newsletterSuccess.show();
+    },
+    reset: function (argument) {
+      $newsletter.text(defaultNewsletterText);
+      $newsletterEmail.val('');
+      $form.show();
+      $newsletterSuccess.hide();
     }
   }
 
+  $form.ajaxChimp({
+    callback: callbackFunction
+  });
+
+  function callbackFunction (resp) {
+    if (resp.result === 'success') {
+      newsletterForm.response();
+    }
+  }
+
+
   $('#button-reset').on('click', function () {
-    $('#newsletter').text(defaultNewsletterText);
-    $('#EMAIL').val('')
-    $form.show()
-    $('#newsletter-success').hide();
+    newsletterForm.reset();
   })
 });

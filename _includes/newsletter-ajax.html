@@ -2,8 +2,8 @@
   <p>Receive updates about our work and news from the civic tech community.</p>
   <form action="https://gsa.us9.list-manage.com/subscribe/post-json?u=6f1977de9eff4c384dc8d6527&amp;id=cbc418738b&c=" method="get" id="contact-form">
     <div class="form-group">
-      <label id="newsletter" for="EMAIL">Sign up for our newsletter</label>
-      <input type="email" id="EMAIL" required="" name="EMAIL" placeholder="My email address (ex. name@yours.com)">
+      <label id="newsletter" for="newsletter-email">Your email</label>
+      <input type="email" id="newsletter-email" required="" name="newsletter-email">
     </div>
     <div style="position: absolute; left: -5000px;">
       <input type="hidden" name="b_6f1977de9eff4c384dc8d6527_cbc418738b" tabindex="-1" value="">
@@ -13,7 +13,7 @@
 
   <div id="newsletter-success" style="display: none;">
     <div class="h4">You're subscribed</div>
-    <p>You'll receive the newsletter at <span id="newsletter-email"></span> every week.</p>
+    <p>You'll receive the newsletter at <span id="newsletter-response"></span> every week.</p>
     <button class="usa-button usa-button-primary" id="button-reset">OK</button>
   </div>
 </div>
