@@ -5,7 +5,7 @@ permalink: /about/
 layout: default-intro
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
-nav_items:
+subnav_items:
 -
   text: Our principles
   permalink: /about/#our-principles

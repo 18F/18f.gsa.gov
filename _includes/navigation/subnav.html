@@ -1,4 +1,4 @@
-{% assign nav_items = include.page_data.children | default: include.nav_items %}
+{% assign subnav_items = include.page_data.children | default: include.subnav_items %}
 
 <nav class="nav-accordion nav-subnav usa-accordion" role="navigation">
   {% assign title_slug = page.title | slugify %}
@@ -9,7 +9,7 @@
   <ul id="{{ title_slug }}" class="usa-sidenav-list usa-accordion" aria-hidden="true">
     {% assign is_matching = page.url | matches_url: page_data.permalink %}
 
-  {% for item in nav_items %}
+  {% for item in subnav_items %}
     {% if item.in_subnav %}
     <li>
       {% if item.permalink %}
