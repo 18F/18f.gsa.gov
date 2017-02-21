@@ -51,9 +51,9 @@ You can read more about how we work with agencies in our [Partnership Playbook](
 </div>
 
 <hr/>
+## Join our newsletter
 
 <div class="usa-grid-full">
-  <h2 id="join-our-newsletter">Join our newsletter</h2>
   <div class="usa-width-one-half">
     <p>Receive updates about our work and news about the civic tech community</p>
   </div>
