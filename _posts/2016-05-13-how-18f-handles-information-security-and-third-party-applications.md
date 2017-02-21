@@ -90,4 +90,4 @@ didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
 
-*Editors note:* This post was last updated on 2017-02-21 at 5pm Pacific Daylight Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
+*Editors note:* This post was last updated on 2017-02-21 at noon Mountain Standard Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/master/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
