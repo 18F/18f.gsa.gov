@@ -48,7 +48,7 @@ footer[role=contentinfo] {
 
   .usa-accordion {
     button {
-      @include padding(1.4rem null);
+      @include padding(1.4rem null 1.4rem 0);
       background-position: right 0 center;
     }
 

@@ -3,7 +3,10 @@
 
   @include media($small-screen) {
     @include span-columns(12);
-    @include omega;
+
+    &:last-child {
+      @include omega();
+    }
   }
 
   @include media($medium-screen) {
@@ -33,7 +36,10 @@
 
   @include media($small-screen) {
     @include span-columns(12);
-    @include omega;
+
+    &:last-child {
+      @include omega();
+    }
   }
 
   @include media($medium-screen) {
@@ -62,10 +68,11 @@
 .usa-grid {
 
   @include media-max($medium-screen) {
-    > *:not(.usa-grid):not(.usa-grid-full) {
+    > *:not(.usa-grid):not(.usa-grid-full):not(nav) {
       margin-bottom: $site-margins;
 
-      &:last-child {
+      &:last-child,
+      &:only-child {
         margin-bottom: 0;
       }
     }

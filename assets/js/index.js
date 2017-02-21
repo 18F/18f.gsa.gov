@@ -54,6 +54,7 @@ $(function (){
       $newsletterEmail.val('');
       $form.show();
       $newsletterSuccess.hide();
+      $newsletterEmail.focus();
     }
   }
 
