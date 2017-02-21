@@ -1,6 +1,6 @@
 ---
 title: Hire 18F
-permalink: /hire/
+permalink: /contact/
 layout: default-intro
 lead: Let’s work together to design services that empower your team, better serve the public, and tackle the big problems facing your agency.
 ---

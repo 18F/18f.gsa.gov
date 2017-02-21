@@ -11,6 +11,7 @@ tags:
 - tools you can use
 - devops
 excerpt: We’re delighted to announce that cloud.gov is now FedRAMP Authorized, which enables agencies to quickly transition their web-based services to efficient and easy-to-use cloud hosting. FedRAMP Authorized status marks completion of a comprehensive security and compliance assessment that enables federal agencies to start using cloud.gov with significantly reduced effort. cloud.gov is a government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
+description: what
 images:
 - /assets/blog/cloud-gov/logo-badge.png
 - /assets/blog/cloud-gov/fedramp-badge.jpg

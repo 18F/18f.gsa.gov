@@ -1,5 +1,5 @@
 ---
-permalink: /hire/partnership-playbook/we-build-in-the-open/
+permalink: /contact/partnership-playbook/we-build-in-the-open/
 title: 1. We build in the open
 ---
 
