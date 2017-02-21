@@ -1,3 +1,4 @@
+.usa-grid-full .usa-width-one-third,
 .usa-grid .usa-width-one-third {
 
   @include media($small-screen) {
@@ -22,6 +23,50 @@
 
       &:nth-of-type(3n) {
         @include omega;
+      }
+    }
+  }
+}
+
+.usa-grid-full .usa-width-two-thirds,
+.usa-grid .usa-width-two-thirds {
+
+  @include media($small-screen) {
+    @include span-columns(12);
+    @include omega;
+  }
+
+  @include media($medium-screen) {
+    @include span-columns(8);
+
+    &:nth-of-type(3n) {
+      @include omega;
+    }
+  }
+
+  &.usa-width-tablet {
+
+    @include span-columns(12);
+
+    @include media($tablet-screen) {
+      @include span-columns(8);
+
+      &:nth-of-type(3n) {
+        @include omega;
+      }
+    }
+  }
+}
+
+.usa-grid-full,
+.usa-grid {
+
+  @include media-max($medium-screen) {
+    > *:not(.usa-grid):not(.usa-grid-full) {
+      margin-bottom: $site-margins;
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }

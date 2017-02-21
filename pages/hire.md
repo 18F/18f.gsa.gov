@@ -6,7 +6,7 @@ lead: Let’s work together to tackle your agency’s technology problems and tr
 content_wide: true
 ---
 <div class="usa-grid-full">
-<section class="usa-width-three-fourths">
+<section class="usa-width-two-thirds">
 {% markdown %}
 ## Have a project in mind?
 
@@ -24,7 +24,7 @@ We’ll set up a time to talk more, answer your questions, and ask about what yo
 You can read more about how we work with agencies in our [Partnership Playbook](https://pages.18f.gov/partnership-playbook/).
 {% endmarkdown %}
 </section>
-<aside class="usa-width-one-fourth section-info">
+<aside class="usa-width-one-third section-info">
       <ul>
         <li class="section-info-list-item">
           <a class="usa-button" href="mailto:inquiries18F@gsa.gov?subject=18F%20Website%20Inquiry&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Send us an inquiry</a>
@@ -40,7 +40,12 @@ You can read more about how we work with agencies in our [Partnership Playbook](
           <div><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></div>
           <div><a href="https://github.com/18F/18f.gsa.gov">GitHub</a></div>
         </li>
+      </ul>
 
+      <ul class="icon-list-hz-small usa-flex-always">
+        <li class="icon-list-hz-small-item"><a href="https://twitter.com/18F">{% include svg/icons/twitter-square.svg %}</a></li>
+        <li class="icon-list-hz-small-item"><a href="{{ site.baseurl }}/feed.xml">{% include svg/icons/rss-square.svg %}</a></li>
+        <li class="icon-list-hz-small-item"><a href="https://github.com/18F/18f.gsa.gov">{% include svg/icons/github-square.svg %}</a></li>
       </ul>
     </aside>
 </div>

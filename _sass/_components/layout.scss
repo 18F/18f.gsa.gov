@@ -58,6 +58,10 @@
   }
 }
 
+.usa-flex-always {
+  display: flex;
+}
+
 @include media($medium-screen) {
   .usa-flex {
     display: flex;
