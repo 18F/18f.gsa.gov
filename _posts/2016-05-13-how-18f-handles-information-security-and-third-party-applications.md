@@ -7,8 +7,8 @@ authors:
 tags:
 - security
 - collaboration tools
-excerpt: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge no sensitive information was shared inappropriately."
-description: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago. We did a full investigation and to our knowledge no sensitive information was shared inappropriately."
+excerpt: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago."
+description: "Today the General Services Administration’s Office of Inspector General (an independent part of our agency, entrusted with carefully inspecting agency operations) published a report on a mistake made in the configuration of Slack, an online chat tool we use. We discovered and remedied this issue a couple of months ago."
 image: /assets/blog/ig/slack-gdrive.jpg
 hero: false
 ---
@@ -17,8 +17,7 @@ Today the General Services Administration’s Office of Inspector General
 (an independent part of our agency, entrusted with carefully inspecting
 agency operations) [published a report](https://www.gsaig.gov/sites/default/files/ipa-reports/Alert%20Report-GSA%20Data%20Breach%205.12.16.pdf) on a mistake made in the
 configuration of Slack, an online chat tool we use. We discovered and
-remedied this issue a couple of months ago. We did a full investigation and to our knowledge **no sensitive
-information was shared inappropriately.**
+remedied this issue a couple of months ago.
 
 To help explain what happened and what this means, we’ll share more
 detail about the technical background behind the problem and how we took
@@ -70,10 +69,8 @@ data breach or hack. While roughly 100 people enabled this connection, it did no
 
 Upon discovering that this integration had been accidentally enabled, we
 immediately removed the Google Drive integration from our Slack, and
-then we reviewed all Google Drive files shared between Slack and Drive,
-just to be sure nothing was shared that shouldn't have been. Our review
-indicated no personal health information (PHI), personally identifiable
-information (PII), trade secrets, or intellectual property was shared.
+then we reviewed all Google Drive files shared between Slack and Drive. Our review
+indicated no personal health information (PHI), trade secrets, or intellectual property was shared. Some personally identifiable information (PII) was shared with Slack’s servers, and therefore its employees, but was not available to the larger public.
 
 We make it a practice to regularly remind our team of their onboarding
 and training, and to always read the fine print when creating an OAuth
@@ -93,4 +90,4 @@ didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
 
-*Editors note:* This post was last updated on 2016-05-13 at 5pm Pacific Daylight Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
+*Editors note:* This post was last updated on 2017-02-21 at 5pm Pacific Daylight Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
