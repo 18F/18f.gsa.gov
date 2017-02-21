@@ -31,7 +31,7 @@ You can read more about how we work with agencies in our [Partnership Playbook](
         </li>
         <li class="section-info-list-item">
           <div class="section-info-header">For press</div>
-          <div><a href="mailto:press@media.com">press@media.com</a></div>
+          <div><a href="mailto:press@gsa.gov">press@gsa.gov</a></div>
         </li>
 
         <li class="section-info-list-item">
@@ -48,12 +48,12 @@ You can read more about how we work with agencies in our [Partnership Playbook](
 <hr/>
 
 <div class="usa-grid-full">
-<h2 id="join-our-newsletter">Join our newsletter</h2>
-<div class="usa-width-one-half">
-  <p>Receive updates about our work and news about the civic tech community</p>
-</div>
-<div class="usa-width-one-half">
-{% include newsletter-ajax.html %}
-</div>
+  <h2 id="join-our-newsletter">Join our newsletter</h2>
+  <div class="usa-width-one-half">
+    <p>Receive updates about our work and news about the civic tech community</p>
+  </div>
+  <div class="usa-width-one-half">
+    {% include newsletter.html %}
+  </div>
 </div>
 

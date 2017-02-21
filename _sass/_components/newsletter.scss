@@ -3,10 +3,6 @@
     margin-top: 0;
   }
 
-  p {
-    font-weight: $font-bold;
-  }
-
   .form-group {
     float: left;
     width: calc(100% - 9rem);
@@ -18,10 +14,14 @@
   }
 
   [type="submit"] {
-    @include margin(1.7rem 0 null 1rem);
+    @include margin(null 0 null 1rem);
     display: inline;
     padding: 0;
     width: 8rem;
+  }
+
+  .newsletter-no-margin {
+    margin-bottom: 0;
   }
 }
 

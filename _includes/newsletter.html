@@ -1,13 +1,18 @@
-<div class="footer-newsletter">
-  <p>Receive updates about our work and news from the civic tech community.</p>
-  <form action="https://gsa.us9.list-manage.com/subscribe/post?u=6f1977de9eff4c384dc8d6527&amp;id=cbc418738b" method="post" id="contact-form">
+<div class="newsletter">
+  <form action="https://gsa.us9.list-manage.com/subscribe/post-json?u=6f1977de9eff4c384dc8d6527&amp;id=cbc418738b&c=" method="get" id="contact-form" class="usa-flex usa-flex-end">
     <div class="form-group">
-      <label id="newsletter" for="EMAIL">Your email</label>
-      <input type="email" id="EMAIL" required="" name="EMAIL">
+      <label id="newsletter" for="newsletter-email">Sign up for our newsletter</label>
+      <input class="newsletter-no-margin" type="email" id="newsletter-email" required name="newsletter-email" placeholder="Your email address">
     </div>
-    <div style="position: absolute; left: -5000px;">
+    <div class="usa-sr-only">
       <input type="hidden" name="b_6f1977de9eff4c384dc8d6527_cbc418738b" tabindex="-1" value="">
     </div>
-    <input type="submit" class="button" value="Sign up">
+    <input class="newsletter-no-margin button" type="submit" value="Sign up">
   </form>
+
+  <div id="newsletter-success" style="display: none;">
+    <p class="newsletter-no-margin p-bold">You're subscribed</p>
+    <p class="newsletter-no-margin">You'll receive the newsletter at <span id="newsletter-response"></span> every week.</p>
+    <button class="usa-button usa-button-primary" id="button-reset">OK</button>
+  </div>
 </div>
