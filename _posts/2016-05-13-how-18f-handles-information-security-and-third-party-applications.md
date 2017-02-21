@@ -70,7 +70,7 @@ data breach or hack. While roughly 100 people enabled this connection, it did no
 Upon discovering that this integration had been accidentally enabled, we
 immediately removed the Google Drive integration from our Slack, and
 then we reviewed all Google Drive files shared between Slack and Drive. Our review
-indicated no personal health information (PHI), trade secrets, or intellectual property was shared. Some personally identifiable information (PII) was shared with Slack’s servers, and therefore its employees, but was not available to the larger public.
+indicated no personal health information (PHI), trade secrets, or intellectual property was shared. Some personally identifiable information (PII) was shared with Slack’s servers, and therefore theoretically its employees, but was not available to the larger public.
 
 We make it a practice to regularly remind our team of their onboarding
 and training, and to always read the fine print when creating an OAuth
