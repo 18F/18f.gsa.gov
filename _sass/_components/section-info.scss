@@ -1,10 +1,16 @@
 .section-info {
+  background: $color-gray-lightest;
   font-size: initial;
 
-  > ul:first-of-type {
-    border-top: $border-accent;
-    border-color: $color-medium;
-    padding-top: $paragraph-margins;
+  @include media($medium-screen) {
+    background: none;
+    padding-bottom: 0;
+
+    > ul:first-of-type {
+      border-top: $border-accent;
+      border-color: $color-medium;
+      padding-top: $paragraph-margins;
+    }
   }
 
   blockquote {
@@ -24,7 +30,11 @@
   > ul {
     @include unstyled-list;
 
-    margin-bottom: $site-margins;
+    background: $color-gray-lightest;
+
+    @include media($medium-screen) {
+      background: $color-white;
+    }
 
     ul:not(.usa-unstyled-list) {
       padding-left: $paragraph-margins;
@@ -67,31 +77,4 @@
 
 .section-info-header {
   font-weight: $font-bold;
-}
-
-.section-info-gray {
-  background: $color-gray-lightest;
-
-  @include media($medium-screen) {
-    background: none;
-  }
-
-  > ul {
-    background: $color-gray-lightest;
-
-    @include media($medium-screen) {
-      background: $color-white;
-    }
-
-    @include media-max($medium-screen) {
-      border-top: 0;
-      padding-top: inherit;
-    }
-  }
-
-  .section-info-list-item {
-    @include media($medium-screen) {
-      background: $color-white;
-    }
-  }
 }

@@ -64,21 +64,6 @@
   }
 }
 
-.usa-grid-full,
-.usa-grid {
-
-  @include media-max($medium-screen) {
-    > *:not(.usa-grid):not(.usa-grid-full):not(nav) {
-      margin-bottom: $site-margins;
-
-      &:last-child,
-      &:only-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-}
-
 .usa-grid .usa-width-one-half.usa-width-short-one {
   @include media($medium-screen) {
     @include span-columns(5);
