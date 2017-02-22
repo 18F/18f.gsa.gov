@@ -17,21 +17,6 @@
 #    limitations under the License.
 ##
 
-# Example Usage
-# {% oembed https://www.youtube.com/watch?v=5l-7vmArLJY %}
-#
-# You can also specify attributes that will be placed directly on the iframe
-# {% oembed https://www.youtube.com/watch?v=5l-7vmArLJY width=200 %}
-#
-# Accepted parameters:
-#
-# - title
-# - width
-# - height
-# - type
-# - provider
-#
-
 require 'oembed'
 
 # register all default OEmbed providers
@@ -46,9 +31,7 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      arguments = text.strip.split(' ')
-      @text = arguments[0]
-      @attributes = map_to_object(arguments[1..-1])
+      @text = text
     end
 
     def render(context)
@@ -59,44 +42,7 @@ module Jekyll
       # oembed look up
       result = ::OEmbed::Providers.get(url)
 
-      attributes = extend(result, @attributes)
-
-      extracted_html = extract_html(result)
-
-      iframe = "<iframe title=\"#{attributes['title']}\"" \
-        "width=\"#{attributes['width']}\" height=\"#{attributes['height']}\"" \
-        "src=\"#{extracted_html}\" frameborder=\"0\"" \
-        "allowfullscreen></iframe>"
-      "<div class=\"embed-container #{attributes['type']} #{attributes['provider']}\">#{iframe}</div>"
-    end
-
-    private
-
-    def map_to_object(array)
-      obj = {}
-      array.each do |m|
-        key_value_pair = m.split('=')
-        obj[key_value_pair[0]] = key_value_pair[1]
-      end
-      obj
-    end
-
-    def extend(result, attributes)
-      obj = {}
-      obj['title']       = result.title
-      obj['width']       = result.width
-      obj['height']      = result.height
-      obj['type']        = result.type
-      obj['provider']    = result.fields['provider_name'] || result.fields['provider-name'] || 'unknown'
-
-      attributes.map do |attribute|
-        obj[attribute[0]] = attribute[1]
-      end
-      obj
-    end
-
-    def extract_html(result)
-      result.html[result.html.index('src="')..-1].split('"')[1]
+      "<div class=\"embed-container #{result.fields['type']} #{result.fields['provider']}\">#{result.html}</div>"
     end
   end
 end
