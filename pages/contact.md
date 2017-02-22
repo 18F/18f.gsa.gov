@@ -19,10 +19,10 @@ gridless: true
     <li class="section-info-list-item">
       <div class="section-info-header">Other contacts</div>
       <ul>
-        <li><a href="mailto:press@gsa.gov">Media inquiries: press@gsa.gov</a></li>
-        <li><a href="mailto:18F@gsa.gov">General questions: 18F@gsa.gov</a></li>
-        <li><a href="https://twitter.com/18F">Twitter/@18F</a></li>
-        <li><a href="https://github.com/18F">GitHub/@18F</a></li>
+        <li>Media inquiries: <a href="mailto:press@gsa.gov">press@gsa.gov</a></li>
+        <li>General questions: <a href="mailto:18F@gsa.gov">18F@gsa.gov</a></li>
+        <li>Twitter: <a href="https://twitter.com/18F">@18F</a></li>
+        <li>GitHub: <a href="https://github.com/18F">@18F</a></li>
         <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
       </ul>
     </li>
