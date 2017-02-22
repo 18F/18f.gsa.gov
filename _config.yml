@@ -46,9 +46,9 @@ collections:
   projects:
     output: true
     permalink: /what-we-deliver/:path/
-  hire:
+  contact:
     output: false
-    permalink: /hire/:path/
+    permalink: /contact/:path/
   styleguide:
     output: true
     permalink: /styleguide/:path/
@@ -71,11 +71,11 @@ defaults:
     layout: default-profile
  -
   scope:
-    path: "_hire"
+    path: "_contact"
   values:
     layout: default-intro
     # include_subnav: true
-    subnav_anchor: /hire/
+    subnav_anchor: /contact/
  -
   scope:
     path: "_about"

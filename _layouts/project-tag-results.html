@@ -10,30 +10,30 @@ header_border: true
 </section>
 <section class="page-tag-results">
 
-    <section class="background-dark">
-      <div class="usa-grid-full usa-flex">
-        <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
-          {% if page.agency %}
-            <h1 class="h3">
-            <span class="hero-callout-alt_color">{{ page.agency }}</span>
-            </h1>
-          {% endif %}
-          <h1 class="hero-callout-title-secondary">
-            {{ page.title }}
+  <section class="background-dark">
+    <div class="usa-grid-full usa-flex">
+      <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+        {% if page.agency %}
+          <h1 class="h3">
+          <span class="hero-callout-alt_color">{{ page.agency }}</span>
           </h1>
-        </div>
-        {% if page.image %}
-          <div class="usa-width-one-half hero"
-            style="background-image: url({{ site.baseurl }}{{ page.image }});"
-            role="img"
-            title="{{ page.image_accessibility }}">
-          </div>
-        {% else %}
-          <div class="hero hero-img-collapsed" style="background-image: none">
-          </div>
         {% endif %}
+        <h1 class="hero-callout-title-secondary">
+          {{ page.title }}
+        </h1>
       </div>
-    </section>
+      {% if page.image %}
+        <div class="usa-width-one-half hero"
+          style="background-image: url({{ site.baseurl }}{{ page.image }});"
+          role="img"
+          title="{{ page.image_accessibility }}">
+        </div>
+      {% else %}
+        <div class="hero hero-img-collapsed" style="background-image: none">
+        </div>
+      {% endif %}
+    </div>
+  </section>
 
   <div class="usa-grid-full usa-grid-reversed">
     {% assign any_clients = page.product_clients.size > 0 %}
@@ -46,7 +46,7 @@ header_border: true
           page.expiration_date or
           page.resources
     %}
-    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info">
+    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
       <ul>
         {% if page.quote %}
           <blockquote>

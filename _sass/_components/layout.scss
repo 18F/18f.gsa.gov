@@ -30,8 +30,16 @@
   }
 }
 
+.usa-grid-line {
+  height: 1px;
+}
+
 .usa-flex-baseline {
   align-items: baseline;
+}
+
+.usa-flex-end {
+  align-items: flex-end;
 }
 
 .usa-spacer {
@@ -52,6 +60,10 @@
     min-width: 200px;
     text-align: left;
   }
+}
+
+.usa-flex-always {
+  display: flex;
 }
 
 @include media($medium-screen) {

@@ -28,13 +28,13 @@ layout: default
       {% include navigation.html subnav=true subnav_anchor=page.subnav_anchor %}
     </aside>
     <section class="usa-width-two-thirds">
-      {% if page.image %}
+      {% if page.image and page.lead %}
         <h3 class="page-lead">{{ page.lead }}</h3>
       {% endif %}
       {{ content }}
     </section>
   {% else %}
-    {% if page.image %}
+    {% if page.image and page.lead %}
       <h3 class="page-lead">{{ page.lead }}</h3>
     {% endif %}
     {{ content }}

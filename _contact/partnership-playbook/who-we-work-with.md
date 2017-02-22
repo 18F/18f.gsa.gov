@@ -1,6 +1,6 @@
 ---
-permalink: /hire/partnership-playbook/getting-started/
-title: 4. Getting started
+permalink: /contact/partnership-playbook/who-we-work-with/
+title: 3. Who we work with
 ---
 
 18F ipsum dolor amet user-centered design agency partners test driven development. Agency within government TTS best practices API lean startup model procurement cost-recoverable. Government TTS user-centered design distributed model slack GIF. Cupim GIF government user-centered open transparency 18F.

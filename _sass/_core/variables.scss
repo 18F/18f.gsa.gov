@@ -52,3 +52,6 @@ $border-thick:       4px solid $color-gray-lightest;
 // Grid breakpoints
 $tablet-screen: 768px;
 $tablet: new-breakpoint(min-width $tablet-screen 6);
+
+// Icons
+$icon-diameter: 30px;

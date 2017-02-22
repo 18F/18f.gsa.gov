@@ -105,10 +105,10 @@ Example:
 
 Example:
 ```bash
-{{ '/hire/partnership-playbook/' | matches_url: '/hire/' }}
+{{ '/contact/partnership-playbook/' | matches_url: '/contact/' }}
 > nil
 
-{{ '/hire/partnership-playbook/' | matches_url: '/hire/partnership-playbook/' }}
+{{ '/contact/partnership-playbook/' | matches_url: '/contact/partnership-playbook/' }}
 > true
 ```
 

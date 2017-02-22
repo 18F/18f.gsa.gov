@@ -1,5 +1,5 @@
 ---
-permalink: /hire/partnership-playbook/how-we-work/
+permalink: /contact/partnership-playbook/how-we-work/
 title: 2. How we work
 ---
 

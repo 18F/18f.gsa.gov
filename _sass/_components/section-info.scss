@@ -4,6 +4,8 @@
 
   @include media($medium-screen) {
     background: none;
+    padding-bottom: 0;
+
     > ul:first-of-type {
       border-top: $border-accent;
       border-color: $color-medium;
@@ -46,6 +48,10 @@
           padding-bottom: 0;
         }
       }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
