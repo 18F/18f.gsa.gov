@@ -93,4 +93,4 @@ didn’t expose any sensitive or private data, and appreciate the
 Inspector General’s efforts to help keep GSA efficient, effective, and
 accountable.
 
-*Editors note:* This post was last updated on 2016-05-13 at 5pm Pacific Daylight Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
+*Editors’ note:* A report from the General Services Administration’s Office of Inspector General on [February 21, 2017](https://www.gsaig.gov/sites/default/files/ipa-reports/OIG%20EVALUATION%20REPORT_Evaluation%20of%2018F%20IT%20Security%20Compliance_JEF17-002_February%2021%202017.pdf) included the following: "after concluding a comprehensive review of the [Slack] incident in August 2016, GSA IT found that the vulnerability exposed content containing PII to unauthorized users.” This post was last updated on 2017-02-22 at 9 a.m. Pacific Standard Time. You can see the [full revision history](https://github.com/18F/18f.gsa.gov/commits/staging/_posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md).
