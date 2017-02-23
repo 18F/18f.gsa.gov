@@ -67,12 +67,19 @@ $card-image-height: 200px;
 }
 
 .card-image-bg {
-  background-color: $color-gray-lightest;
+  background-color: $color-white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: 2px solid $color-gray-lightest;
   height: $card-image-height;
   margin: 0;
   padding: 0;
   width: 100%;
+
+  svg {
+    height: 100%;
+    width: 100%;
+    padding: $site-margins;
+  }
 }

@@ -15,7 +15,12 @@
     <div role="img"
          title="{{ include.image_alt }}"
          class="card-image-bg"
-         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"></div>
+         {% if include.image_src %}
+         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}> 
+         {% unless include.image_src %}
+            {% include svg/icons/monitor.svg %}
+         {% endunless %}  
+    </div>
     <div class="card-banner">
       {% if include.agency %}
         <p class="card-tag">{{ include.agency }}</p>
