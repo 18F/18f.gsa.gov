@@ -10,6 +10,7 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
+
 <div class="usa-grid">
   <section class="usa-section">
     <div class="usa-flex usa-flex-wrap">
@@ -31,7 +32,7 @@ gridless: true
   <section class="usa-grid">
     {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
-    <h2>Agency Partners and public offerings</h2>
+    <h2>Agencies we’ve worked with</h2>
     <div class="usa-grid-full">
       <ul class="list-columns">
       {% for group in partner_groups %}
