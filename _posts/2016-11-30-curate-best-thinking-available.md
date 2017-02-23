@@ -60,54 +60,54 @@ based off of this [civic.json](http://open.dc.gov/civic.json/),
 originally defined by BetaNYC and extended by Code for DC and DC
 government employees.
 
-
-    {
-      "agency": "DOABC",
-      "organization": "XYZ Department",
-      "projects": [
-        {
-          "name": "mygov",
-          "description": "A Platform for Connecting People and Government",
-          "license": "https://path.to/license",
-          "openSourceProject": 1,
-          "governmentWideReuseProject": 0,
-          "tags": [
-            "platform",
-            "government",
-            "connecting",
-            "people"
-          ],
-          "contact": {
-            "email": "project@agency.gov",
-            "name": "Project Coordinator Name",
-            "URL": "https://twitter.com/projectname",
-            "phone": "2025551313"
-          },
-          "status": "Alpha",
-          "vcs": "git",
-          "repository": "https://github.com/presidential-innovation-fellows",
-          "homepage": "https://agency.gov/project-homepage",
-          "downloadURL": "https://agency.gov/project/dist.tar.gz",
-          "languages": [
-            "java",
-            "python"
-          ],
-          "partners": [
-            {
-              "name": "DOXYZ",
-              "email": "project@doxyz.gov"
-            }
-          ],
-          "exemption": null,
-          "update": {
-            "lastCommit": "2016-04-13",
-            "metadataLastUpdated": "2016-04-13",
-            "lastModified": "2016-04-12"
+```json
+  {
+    "agency": "DOABC",
+    "organization": "XYZ Department",
+    "projects": [
+      {
+        "name": "mygov",
+        "description": "A Platform for Connecting People and Government",
+        "license": "https://path.to/license",
+        "openSourceProject": 1,
+        "governmentWideReuseProject": 0,
+        "tags": [
+          "platform",
+          "government",
+          "connecting",
+          "people"
+        ],
+        "contact": {
+          "email": "project@agency.gov",
+          "name": "Project Coordinator Name",
+          "URL": "https://twitter.com/projectname",
+          "phone": "2025551313"
+        },
+        "status": "Alpha",
+        "vcs": "git",
+        "repository": "https://github.com/presidential-innovation-fellows",
+        "homepage": "https://agency.gov/project-homepage",
+        "downloadURL": "https://agency.gov/project/dist.tar.gz",
+        "languages": [
+          "java",
+          "python"
+        ],
+        "partners": [
+          {
+            "name": "DOXYZ",
+            "email": "project@doxyz.gov"
           }
+        ],
+        "exemption": null,
+        "update": {
+          "lastCommit": "2016-04-13",
+          "metadataLastUpdated": "2016-04-13",
+          "lastModified": "2016-04-12"
         }
-      ]
-    }
-
+      }
+    ]
+  }
+```
 
 We made [a call for a second round of
 feedback](https://github.com/presidential-innovation-fellows/code-gov-web/issues/44)

@@ -27,9 +27,7 @@ Brown, an information architect, has worked in the district for large swaths of 
 
 He opened his lecture by listing common issues and stakeholder quotes. For example, “Things have changed since we last spoke.”
 
-<iframe width="620" height="349"
-src="https://www.youtube.com/embed/mO8PiHST5CI?start=159"
-frameborder="0" allowfullscreen></iframe>
+{% oembed https://www.youtube.com/watch?time_continue=159&v=mO8PiHST5CI %}
 
 Brown asked who in the audience had been told that before. After a moment, a majority raised their hands. Conflict is a mechanism for positive change, Brown explained. It’s a process, even though it feels negative at times.
 

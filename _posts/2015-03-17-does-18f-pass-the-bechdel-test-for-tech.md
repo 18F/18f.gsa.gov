@@ -18,8 +18,7 @@ excerpt: "How does the Bechdel test, originally designed for evaluating works fo
 Kaitlin Devine, 18F’s Director of Engineering recently noticed this
 tweet:
 
-<blockquote class="twitter-tweet" lang="en"><p>Does your project pass the Bechdel test? To pass, a function written by a woman dev must call a function written by another woman dev.</p>&mdash; Laurie Voss (@seldo) <a href="https://twitter.com/seldo/status/571453200093437952">February 27, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% oembed https://twitter.com/seldo/status/571453200093437952 %}
 
 The coding Bechdel test, as described above, is a variant of the
 original Bechdel test, which was created by writer and graphic novelist
