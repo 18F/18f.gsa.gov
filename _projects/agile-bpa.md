@@ -7,11 +7,12 @@ permalink: /what-we-deliver/agile-bpa/
 excerpt: We helped develop the Agile BPA, which helps agencies find the right vendors and set projects up for success.
 image:
 image_accessibility:
+image_icon: folderwithclock.svg
 tag: agile bpa
 expiration_date:
 github_repo:
 project_url: "[Agile BPA website](https://pages.18f.gov/ads-bpa/)"
-learn_more: 
+learn_more:
 product_clients:
 - Department of Agriculture
 - Department of Housing and Urban Development
@@ -22,7 +23,7 @@ product_clients:
 - General Services Administration
 - Office of Personnel Management
 resources:
-quote: 
+quote:
 ---
 
 The federal government spends over $80 billion dollars per year on information technology.
