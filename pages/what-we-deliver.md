@@ -18,6 +18,7 @@ gridless: true
         {% include card.html
          image_src=project.image
          image_alt=project.image_accessibility
+         image_icon=project.image_icon
          tagline=project.title
          description=project.excerpt
          link=project.permalink
