@@ -7,6 +7,17 @@ $card-image-height: 200px;
 .card {
   margin-bottom: $site-margins;
 
+  &:hover,
+  &:focus {
+    svg g,
+    svg path,
+    svg ellipse,
+    svg polygon,
+    svg polyline {
+      stroke: $color-medium-hover;
+    }
+  }
+
   @include media($medium-screen) {
     &:nth-last-of-type(1),
     &:nth-last-of-type(2),
@@ -83,5 +94,13 @@ $card-image-height: 200px;
     height: 100%;
     width: 100%;
     padding: $site-margins;
+
+    g,
+    path,
+    ellipse,
+    polygon,
+    polyline {
+      stroke: $color-medium;
+    }
   }
 }
