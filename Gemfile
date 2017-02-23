@@ -6,7 +6,6 @@ gem 'accesslint-ci', '0.2.6'
 gem 'html-proofer'
 gem 'jekyll', '~> 3.3.0'
 gem 'jemoji'
-gem 'ruby-oembed'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'
@@ -18,7 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll_frontmatter_tests'
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search'
-  # gem 'jekyll-18f-oembed', path: '~/Projects/jekyll-oembed/'
+  gem 'jekyll_oembed', '~> 0.0.2'
 end
 
 group :development do
