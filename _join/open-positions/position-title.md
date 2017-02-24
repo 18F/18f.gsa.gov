@@ -1,14 +1,22 @@
 ---
 title: Product design content engineer
-permalink: /positions/product-engineer/
+permalink: /join/product-engineer/
 layout: default-intro
 lead: 
+published: true
 subnav_items:
-- Basic information
-- Role summary
-- Duties
-- Interview process
-published: false
+-
+  text: Basic information
+  permalink: /join/product-engineer/#basic-information
+  in_subnav: true
+-
+  text: Interview process
+  permalink: /join/#the-interview-process
+  in_subnav: true
+-
+  text: Resources
+  permalink: /join/#resources
+  in_subnav: true
 ---
 
 ## Basic information
