@@ -25,15 +25,15 @@ Here are some of the meetings Will attends regularly and their purpose:
 -   A weekly 30-minute one-on-one with a manager to plan project next steps and share feedback as needed
 -   A weekly 45-minute check-in with senior management to escalate blocked tasks for action and provide status updates on known risks
 
-Your meeting should have **clear roles** that help fulfill the meeting’s
-**clear purpose**, and each person attending the meeting should know
-their role. Here are some common roles:
+Your meeting should have **clear roles** that help fulfill the meeting’s **clear purpose**, and each person attending the meeting should know their role. Here are some common roles:
 
 -   Leader: whoever convened the meeting and will end the meeting when the agenda is completed. There should be a obvious backup in case the leader is away.
 -   Timekeeper: the “enforcer” who will help to keep the meeting on track and on time if the leader is focused elsewhere.
 -   Notetaker: the person who produces a record of the meeting. Not assigning this role is the most common mistake we see meeting organizers make. However, anyone attending meetings has the authority (and responsibility) to correct this: If you find yourself in a meeting where it’s unclear who is taking notes, ask!
 -   Stakeholder: someone with decision-making authority who can make a decision or help make a decision in or after the meeting.
 -   Information recipient: someone whose job is to listen and ask clarifying questions. Meetings with people in this role are often about information dispersal.
+-   Observer (optional): attends the meeting and provide feedback about your presentation and facilitation skills.
+
 
 As a general rule, once you get into the double digits of attendees, you need to take a hard look at your list and see if everyone truly needs to be there (information dispersal meetings will almost always be the exception to this rule). If you have people on the attendee list without clear roles, ask yourself if they can read the notes afterward and take them off the invite. They will appreciate you.
 
@@ -116,7 +116,3 @@ When the meeting is over, **actually end the meeting and make sure people leave*
 After the meeting is over a bit early, use your extra minutes to **process the notes for inaccuracies** while everything is fresh in your head and save yourself future headaches. Then, **send your notes and action items out in writing**, with explicit owners and timelines for all next steps in the notes — also crucial for any bureaucracy wrangler.
 
 With all of that done, you’ll **revisit the next steps as appropriate** and ensure they’re accomplished! Sometimes, that’s in the next recurring meeting, but reminders are often helpful to keep next steps flowing and ensure that your plans and ideas can keep moving towards delivering value to America.
-
-----
-
-*Note: It can be helpful to ask an observer to attend your meeting and provide feedback about your presentation and facilitation skills.*
