@@ -3,19 +3,28 @@ title: Product design content engineer
 permalink: /join/product-engineer/
 layout: default-intro
 lead: 
-published: true
+published: false
+app_close_date: 
 subnav_items:
 -
   text: Basic information
   permalink: /join/product-engineer/#basic-information
   in_subnav: true
 -
-  text: Interview process
-  permalink: /join/#the-interview-process
+  text: Role summary
+  permalink: /join/product-engineer/#role-summary
   in_subnav: true
 -
-  text: Resources
-  permalink: /join/#resources
+  text: Qualifications
+  permalink: /join/product-engineer/#qualifications
+  in_subnav: true
+-
+  text: Benefits
+  permalink: /join/product-engineer/#benefits
+  in_subnav: true
+-
+  text: Additional information
+  permalink: /join/product-engineer/#additional-information
   in_subnav: true
 ---
 
@@ -42,10 +51,14 @@ Any individual who is not currently a GSA employee or contractor and who is a U.
 
 Do you have a passion for public service? The General Services Administration (GSA) is looking for you! GSA is a federal government agency whose mission is to bring the best value in real estate, acquisition, and technology services to the American people. 18F is an organization inside GSA's branch of technology (Technology Transformation Service (TTS)).
 
+### Any questions regarding this position can be directed to Esther Chang via join18F@gsa.gov.
+
 ## Role summary:
+
 An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies.  You will build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
 
-## Duties:
+### Duties:
+
 The duties of this position include, but are not limited to, the following objectives:
   
 **Objective #1: You will own the product vision and lead end-to-end product development.**
@@ -70,7 +83,7 @@ The duties of this position include, but are not limited to, the following objec
 - Mentor others, give constructive criticism, and improve practices and standards on your teams.
 - Actively engage with the team at large — take part in cross-project and cross-domain conversation, skill- and knowledge-share, and working groups or guilds.
   
-**Objective #3: You will manage relationships with 18F’s agency partners.**  
+**Objective #3: You will manage relationships with 18F’s agency partners.**
 
 - Build trusted relationships with agency partners and help them understand 18F’s user centered, iterative approach to understanding the problem and building a solution.
 - Reinforce 18F’s “way we work” values (building in the open, using open source, etc.).
@@ -79,11 +92,11 @@ The duties of this position include, but are not limited to, the following objec
 - Ensure projects are delivered on budget and within the terms of our agreements. Define and execute plans to successfully transition projects at the end of 18F’s engagements to achieve lasting results.
 - Evaluate potential work for impact, risks, and alignment with 18F’s values.
 
-
 ## Qualifications:
+
 Qualifications are based on length and level of experience.  Therefore, in addition to describing duties performed, applicants must provide the exact dates of each period of employment (from month/year to month/year) and the number of hours per week if part time.  Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
-**Applicants applying for this job must meet the following requirements:**  
+**Applicants applying for this job must meet the following requirements:**
 
 Have product management related experience demonstrating *each* of the five competencies *and* specialized experience listed below:
 
@@ -94,7 +107,9 @@ Have product management related experience demonstrating *each* of the five comp
 - **18F core values alignment**: The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
 
 ### Specialized experience:  
+
 **GS-14**  
+
 To qualify at a GS-14 level you must demonstrate at least one year of specialized experience at the next lower grade level GS-13, or equivalent in the federal service:
 
 - Developing or communicating the product vision and/or developing or managing the product roadmap
@@ -103,6 +118,7 @@ To qualify at a GS-14 level you must demonstrate at least one year of specialize
 - Managing relationships, such as internal, stakeholders, clients, or users
   
 **GS-15**  
+
 To qualify at a GS-15 level you must demonstrate at least one year of specialized experience at the next lower grade level GS-14, or equivalent in the federal service:
 
 - Owning, developing or communicating the product vision and/or developing or managing the product roadmap
@@ -110,7 +126,6 @@ To qualify at a GS-15 level you must demonstrate at least one year of specialize
 - Use of innovation tools and methodologies such as Lean, Agile, Open Source, APIs, or UX
 - Leading cross functional teams to design, develop, and/or deliver digital products or services
 - Managing of a variety of relationships, such as internal, stakeholders, clients, or users
-
 
 ## Benefits
 
@@ -126,11 +141,6 @@ GSA offers its employees a wide range of benefits, including:
 * transit and child care subsidies; and
 * training and development
 
-## Point of contact:
-
-Any questions regarding this position can be directed to Esther Chang via join18F@gsa.gov.
-
-
 ## Additional information:  
 
 **What to expect next**  
@@ -145,5 +155,3 @@ The United States Government does not discriminate in employment on the basis of
   
 **Reasonable accommodations statement**  
 Federal agencies must provide reasonable accommodation to applicants with disabilities where appropriate. Applicants requiring reasonable accommodation for any part of the application and hiring process should contact the hiring agency directly. Determinations on requests for reasonable accommodation will be made on a case-by-case basis. [https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)
-
-## Applications are currently closed
