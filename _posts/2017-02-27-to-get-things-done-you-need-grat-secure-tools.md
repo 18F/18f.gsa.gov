@@ -7,6 +7,7 @@ tags:
 - acquisitions
 - cloud.gov
 excerpt: "To folks new to government, one of the most surprising differences between our work and work in the private sector are the barriers in accessing commercially available software, and commercially available Software as a Service (SaaS) in particular. There are many good reasons for these barriers but digital teams need great tools to get work done and compliance requires tradeoffs associated with time to initial delivery and accommodation of constraints that are different from the private sector."
+hero: false
 ---
 To folks new to government, one of the most surprising differences
 between our work and work in the private sector are the barriers in
