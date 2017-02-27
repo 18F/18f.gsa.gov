@@ -11,12 +11,13 @@ $card-image-height: 200px;
     margin-bottom: 0;
   }
 
-  @include media($medium-screen + $grid-margins) {
+  @include media($tablet-screen) {
     margin-bottom: 0;
   }
 }
 
 .card-link {
+  cursor: pointer;
   display: inline-block;
   text-decoration: none;
   width: 100%;
@@ -25,6 +26,10 @@ $card-image-height: 200px;
   @include media($medium-screen) {
     margin-bottom: 0;
   }
+}
+
+.card-link-tagline {
+  text-decoration: none;
 }
 
 .card-banner {

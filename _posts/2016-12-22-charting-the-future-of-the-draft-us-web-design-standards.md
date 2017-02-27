@@ -6,9 +6,7 @@ tags:
 - web design standards
 - open source
 - design 
-excerpt: "As part of the latest release of the Draft U.S. Web Design Standards, we updated our design principles to better represent the evolving goals of this project. 
-
-This update shows how we’re growing our open source community, focusing on experimenting with more complex components and maturing the Standards to be more mobile-focused."
+excerpt: "As part of the latest release of the Draft U.S. Web Design Standards, we updated our design principles to better represent the evolving goals of this project. This update shows how we’re growing our open source community, focusing on experimenting with more complex components and maturing the Standards to be more mobile-focused."
 image: /assets/blog/web-design-standards/template-landing.png
 hero: false
 ---

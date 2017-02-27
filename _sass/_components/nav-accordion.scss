@@ -1,5 +1,8 @@
 // Nav accordion
 .nav-accordion {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray-lighter;
+
   .usa-sidenav-list {
 
     ul {
@@ -11,11 +14,13 @@
     li {
       border-top-color: $color-gray-lighter;
       background: transparent;
+      margin-bottom: 0;
     }
 
     button {
-      background-color: transparent;
+      background-color: $color-white;
       background-position: right 0 center;
+      border-bottom: 1px solid $color-gray-lighter;
       border-radius: 0;
       text-align: left;
 
@@ -48,6 +53,7 @@
       color: $color-gray;
       font-weight: $font-bold;
       font-size: $h5-font-size;
+      padding-left: ($paragraph-margins * 1.75);
 
       &:hover {
         color: $color-dark;
@@ -56,7 +62,7 @@
       &.usa-current {
         border-left: $border-accent;
         color: $color-dark;
-        padding-left: 2rem;
+        padding-left: ($paragraph-margins * 1.75) - 1rem;
       }
     }
   }
@@ -72,6 +78,12 @@
         padding-left: 3.8rem;
       }
     }
+  }
+}
+
+.nav-accordion-button {
+  @include media($medium-screen) {
+    padding-left: 0;
   }
 }
 

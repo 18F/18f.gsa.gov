@@ -7,16 +7,11 @@ authors:
 tags:
 - open source
 - tools you can use
-
 excerpt: "We’ve put together a list of facts and references that will help you build the case for open source development in your team or agency and bust myths about using public code repositories. This post is based on our experiences at the federal level, but we hope it’s helpful for anyone working in government."
 description: "We’ve put together a list of facts and references that will help you build the case for open source development in your team or agency and bust myths about using public code repositories."
 image: /assets/blog/github-facts/wh-astronomy-night.jpg
+image_figcaption: <a href="http://whitehouse.tumblr.com/post/131519073938/join-president-obama-the-mythbusters-team">President Obama and the MythBusters team welcomed students to ‎Astronomy Night‬ at the White House</a>
 ---
-
-<figure>
-	<img src="{{site.baseurl}}/assets/blog/github-facts/wh-astronomy-night.jpg" alt= "President Obama and the MythBusters team welcomed students to ‎Astronomy Night‬ at the White House">
-	<figcaption><a href="http://whitehouse.tumblr.com/post/131519073938/join-president-obama-the-mythbusters-team">President Obama and the MythBusters team welcomed students to ‎Astronomy Night‬ at the White House</a></figcaption>
-</figure>
 
 At 18F, we believe that [developing software in the open has many benefits](https://github.com/18F/open-source-policy/blob/master/policy.md), and we write about our [open source work as much as we can](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). We get questions from other people in the federal government because they’ve run into legal and practical uncertainties when seeking permission to work in the open from their agency or team.
 

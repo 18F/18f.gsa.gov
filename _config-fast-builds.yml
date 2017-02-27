@@ -3,6 +3,49 @@ gems:
   - jekyll-redirect-from
   - jekyll-feed
 
-jekyll-archives: false
 jekyll_pages_api_search:
   skip_index: true
+
+env: "development"
+exclude:
+- .about.yml
+- .cfignore
+- .codeclimate.yml
+- .gitignore
+- .gitmodules
+- .hound.yml
+- api-endpoints
+- bin
+- build
+- circle.yml
+- config_blog.rb
+- CONTRIBUTING.md
+- docker-compose.yml
+- docker_entrypoint.rb
+- Dockerfile
+- examples/
+- favicon.ico
+- feed*
+- Gemfile*
+- humans.txt
+- ISSUE_TEMPLATE.md
+- killport
+- LICENSE.md
+- node_modules
+- package.json
+- pages/our-work.html
+- PULL_REQUEST_TEMPLATE.md
+- README.md
+- robots.txt
+- search-index*
+- serve
+- serve-blog
+- serve-fast
+- serve-accesslint
+- sitemap.xml
+- spec/
+- system-security-plan.yml
+- tests/
+- tests/schema/tags.yml
+- vendor
+- _posts/

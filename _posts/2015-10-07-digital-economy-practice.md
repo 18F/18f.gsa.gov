@@ -7,7 +7,6 @@ authors:
 tags:
 - transformation services
 - best practices
-- digital economy practice
 
 excerpt: "We’ve come to realize that there may be opportunities to achieve high impact in targeted areas by aligning our subject expertise with our digital expertise. To test our hypothesis, we’re launching an alpha version of our first policy vertical (or niche market) within 18F Consulting: the Digital Economy Practice."
 image: /assets/blog/digital-economy-practice/dep-graphic2.jpg

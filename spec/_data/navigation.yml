@@ -9,6 +9,7 @@ assigned:
     -
         text: What we deliver
         href: pages/what-we-deliver.md
+        colllections: ['projects']
         permalink: /what-we-deliver/
         in_menu: true
         in_drawer: true
@@ -187,13 +188,5 @@ assigned:
         in_menu: true
         in_drawer: true
         in_footer: true
-        children:
-    -
-        text: Projects
-        permalink: /project/
-        collections: ['projects']
-        in_menu: false
-        in_drawer: false
-        in_footer: false
         children:
 unassigned: []

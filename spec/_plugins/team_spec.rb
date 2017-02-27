@@ -1,5 +1,4 @@
 require_relative '../../_plugins/team'
-require 'pry'
 
 RSpec.describe Jekyll::TeamFilter do
   class TeamFilterClass

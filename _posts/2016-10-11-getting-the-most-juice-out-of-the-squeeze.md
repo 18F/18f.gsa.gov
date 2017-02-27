@@ -9,11 +9,8 @@ tags:
 - agency work
 excerpt: "Through analytics and moderated sessions, we can learn what user goals are and enhance the platform to help them achieve those goals. By creating universal search across legal resources, people will be able to locate information more efficiently. This tool will allow them to better understand and comply with campaign finance laws, thus helping advance the FEC's mission."
 image: /assets/blog/fec/microfilm.jpg
+image_figcaption: The FEC Archives’ microfilm catalog of Matters Under Review
 ---
-<figure>
-  <img src="{{site.baseurl}}{{page.image}}" alt="">
-  <figcaption>The FEC Archives’ microfilm catalog of Matters Under Review</figcaption>
-</figure>
 
 The Federal Election Commission’s (FEC) mission is to protect the integrity of the federal campaign finance process by providing transparency and fairly enforcing and administering federal campaign finance laws. The FEC's website is its most important source of instantly accessible information.
 

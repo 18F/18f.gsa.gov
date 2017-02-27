@@ -5,7 +5,7 @@ authors:
 - andrewmcmahon
 tags:
 - events
-- gsa
+- general services administration
 excerpt: "On March 18, the U.S. General Services Administration (GSA) will co-host the San Diego Summit on Emerging Digital Technology and Government as part of our work to bring new, emerging technology to the federal government."
 description: "On March 18, the U.S. General Services Administration (GSA) will co-host the San Diego Summit on Emerging Digital Technology and Government as part of our work to bring new, emerging technology to the federal government."
 image: /assets/blog/events/san-diego.jpg
