@@ -1,13 +1,8 @@
 ---
-city: Chicago
 first_name: Alan
 full_name: Alan Brouilette
-github: 
 last_name: Brouilette
 name: alan-brouilette
-role: Product Manager
-state: IL
-twitter: 
 redirect_from: "/team/alan-brouilette/"
 published: true
 ---

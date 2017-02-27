@@ -8,7 +8,6 @@ tags:
 - fec.gov
 - how we work
 - communication tools and practices
-- partners in government
 - collaboration tools
 excerpt: "How do you work iteratively and in the open in government? How do you transform an agency’s digital presence with agile and user-centered design? We’ve learned a lot about this as we’ve worked alongside our partners at the Federal Election Commission (FEC) on beta.fec.gov, and we want to share some of those lessons here."
 image: /assets/blog/fec/fec-meeting.jpg

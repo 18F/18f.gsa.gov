@@ -3,7 +3,7 @@
 {% assign post_excerpt = include.excerpt | default: post.excerpt %}
 {% assign post_url = include.url | default: post.url %}
 
-<li class="post usa-width-one-third">
+<li class="post usa-width-one-third usa-width-tablet">
   <article>
     <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
     <h3 class="h4 posts_feature-heading">
@@ -13,7 +13,7 @@
     <p>
       <a class="link-arrow-right post-link-continue_reading" href="{{ post_url | prepend: site.baseurl }}">
         Read more
-        <span class="usa-sr-only">{{ post_title }}</span>
+        <span class="usa-sr-only">about {{ post_title }}</span>
         {% include svg/icons/arrow-right.svg %}
       </a>
     </p>

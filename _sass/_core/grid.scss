@@ -5,7 +5,7 @@
     @include omega;
   }
 
-  @include media($medium-screen + $grid-margins) {
+  @include media($medium-screen) {
     @include span-columns(4);
 
     &:nth-of-type(3n) {
@@ -13,8 +13,19 @@
     }
   }
 
-}
+  &.usa-width-tablet {
 
+    @include span-columns(12);
+
+    @include media($tablet-screen) {
+      @include span-columns(4);
+
+      &:nth-of-type(3n) {
+        @include omega;
+      }
+    }
+  }
+}
 
 .usa-grid .usa-width-one-half.usa-width-short-one {
   @include media($medium-screen) {
@@ -27,3 +38,13 @@
     @include shift(1);
   }
 }
+
+.usa-grid-reversed {
+  @include media($medium-screen) {
+    .usa-grid-reversed-right {
+      @include omega();
+      float: right;
+    }
+  }
+}
+

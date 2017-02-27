@@ -10,6 +10,7 @@ button,
 [type='image'] {
   background-color: $color-medium;
   font-family: $font-sans;
+  width: auto;
 
   &:hover {
     background-color: $color-medium-hover;

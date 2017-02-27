@@ -3,11 +3,10 @@ title: How to protosketch
 date: '2015-03-13'
 layout: post
 image: /assets/blog/2014/12/protosketch.jpg
-
 tags:
 - collaboration tools
 - agile
-
+- navy reserve
 authors:
 - alan
 - robert

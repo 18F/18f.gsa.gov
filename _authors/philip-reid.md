@@ -3,9 +3,6 @@ first_name: Philip
 last_name: Reid
 full_name: Philip Reid
 name: philip-reid
-role: Engineer
-city: Washington
-state: DC
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

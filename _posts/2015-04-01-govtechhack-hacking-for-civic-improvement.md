@@ -4,10 +4,9 @@ date: '2015-04-02'
 layout: post
 image: /assets/blog/govtechhack/IMG_4015.JPG
 
-tags: 
+tags:
 - events
 - hackathons
-- outreach
 - open source
 
 authors:
@@ -78,7 +77,7 @@ following day. These projects included:
 -   [**eRegs**](http://cfpb.github.io/eRegulations/) — An application that makes federal regulations easier to
     find, read, and understand
 
--   [**Communicart**](https://18f.gsa.gov/dashboard/project/C2/) — A simplified, email-based purchasing approval tool
+-   [**Communicart**](https://18f.gsa.gov/what-we-deliver/c2/) — A simplified, email-based purchasing approval tool
     for purchase card holders authorized to buy office supplies for
     the government
 

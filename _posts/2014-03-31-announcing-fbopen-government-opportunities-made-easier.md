@@ -12,7 +12,6 @@ tags:
 - api
 - procurement
 - fbopen
-- marketplaces
 - acquisition services
 ---
 

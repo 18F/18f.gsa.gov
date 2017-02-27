@@ -11,3 +11,10 @@ $color-opaque: rgba(0, 0, 0, 0.2);
     box-shadow: $focus-shadow;
   }
 }
+
+// Mobile-first media query helper
+@mixin media-max($bp) {
+  @media screen and (max-width: #{$bp}) {
+    @content;
+  }
+}

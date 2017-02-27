@@ -29,7 +29,7 @@ With that API, searching for candidates and committees will be easier and more i
 
 All of these features are supported by our [public API](http://api.open.fec.gov/developers) so those outside of government can directly benefit from this technology, by making or using their own apps. For example, we created an endpoint that accepts partial names in queries, so you can make your own type-ahead search.
 
-The API is the backbone of [OpenFEC](https://18f.gsa.gov/dashboard/project/openfec/) — the FEC's next digital evolution. It’s also the first public release from our partnership. Be on the lookout for a new app and an eventual site redesign. As with all our projects, looking modern isn’t just an aesthetic choice, it comes from smart design and asking actual website users what they want. Take a look at our [interactive API documentation](https://api.open.fec.gov/developers). It not only has a fresh look, but it’s driven by modern technology underneath the hood.
+The API is the backbone of OpenFEC — the FEC's next digital evolution. It’s also the first public release from our partnership. Be on the lookout for a new app and an eventual site redesign. As with all our projects, looking modern isn’t just an aesthetic choice, it comes from smart design and asking actual website users what they want. Take a look at our [interactive API documentation](https://api.open.fec.gov/developers). It not only has a fresh look, but it’s driven by modern technology underneath the hood.
 
 Releasing the API before it’s complete allows 18F and FEC to get public feedback and ensure the project will continue to grow and adjust to better serve the people.
 

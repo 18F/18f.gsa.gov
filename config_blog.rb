@@ -1,6 +1,6 @@
-require 'pry'
-require 'rb-readline'
 # script to update the blog build config
+require 'yaml'
+
 posts = './_posts'
 post_directory = Dir[File.join(posts, '**', '*')]
 stripped_post_directory = post_directory.map do |post|
@@ -8,18 +8,19 @@ stripped_post_directory = post_directory.map do |post|
 end
 
 post_count = stripped_post_directory.count
-config_path = './_config-blog.yml'
-lines = File.readlines(config_path)
-acceptable_indices = [
-  post_count - 1,
-  post_count - 2,
-  post_count - 3
-]
+config_paths = ['./_config-blog.yml', './_config-accesslint.yml']
+config_paths.each do |config|
+  frontmatter = YAML.load_file(config)
+  # Delete all '_posts/'
+  frontmatter['exclude'].delete_if { |x| x.include?('_posts/') }
+  # Add all posts back to exclude
+  stripped_post_directory.each do |post|
+    frontmatter['exclude'] << post
+  end
 
-stripped_post_directory.each_with_index do |post, index|
-  lines << "- #{post}" if !lines.include?("- #{post}\n") && !acceptable_indices.include?(index)
-end
+  # Remove the last two posts
+  frontmatter['exclude'] = frontmatter['exclude'][0...-2]
 
-File.open(config_path, 'w') do |f|
-  f.puts lines
+  frontmatter_new = YAML.dump(frontmatter) << "---\n\n"
+  File.write(config, frontmatter_new)
 end

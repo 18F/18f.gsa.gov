@@ -1,0 +1,9 @@
+#!/bin/sh
+
+LC_ALL="en_US.UTF-8" \
+bundle exec jekyll serve \
+  --watch \
+  --incremental \
+  --host 0.0.0.0  \
+  --baseurl /site \
+  --config="_config.yml,_config-fast-builds.yml" \

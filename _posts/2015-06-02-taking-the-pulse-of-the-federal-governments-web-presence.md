@@ -9,7 +9,6 @@ authors:
 - jtindel
 tags:
 - pulse.cio.gov
-- analytics
 - https
 - security
 - best practices

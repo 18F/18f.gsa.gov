@@ -1,25 +1,32 @@
 ---
 layout: "String"
 title: "String"
-agency: "String"
 subtitle: "String"
 excerpt: "String"
-tags:
-  type: Array
-  rules: [no-dash, lowercase]
+tag: String
 github_repo: "String"
 project_url: "String"
 permalink: "String"
+expiration_date: String
 config:
-  path: '_projects'
+  path: _projects
   ignore:
   - README.md
   - ..
   - .
   - .DS_Store
   optional:
-    - 'image'
-    - 'image_accessibility'
-    - 'expiration_date'
-    - 'github_repo'
+    - agency
+    - image
+    - image_accessibility
+    - expiration_date
+    - start_date
+    - github_repo
+    - project_url
+    - learn_more
+    - agency
+    - resources
+    - quote
+    - quote_source
+    - redirect_from
 ---

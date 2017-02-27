@@ -1,32 +1,45 @@
-env: "development"
-
+---
+env: development
 exclude:
-- _pages
-- CONTRIBUTING.md
-- README.md
-- PULL_REQUEST_TEMPLATE.md
-- ISSUE_TEMPLATE.md
-- 'Accessibility Scanning Using Pa11y-ci.md'
-- accessibility-scan
+- ".about.yml"
+- ".cfignore"
+- ".codeclimate.yml"
+- ".gitignore"
+- ".gitmodules"
+- ".hound.yml"
 - api-endpoints
+- bin
 - build
 - circle.yml
-- docker-compse.yml
+- config_blog.rb
+- CONTRIBUTING.md
+- docker-compose.yml
 - docker_entrypoint.rb
 - Dockerfile
+- examples/
 - favicon.ico
 - feed*
 - Gemfile*
 - humans.txt
+- ISSUE_TEMPLATE.md
+- killport
+- LICENSE.md
 - node_modules
 - package.json
+- pages/our-work.html
+- PULL_REQUEST_TEMPLATE.md
+- README.md
 - robots.txt
 - search-index*
 - serve
-- sitemap.xml
+- serve-blog
+- serve-fast
+- serve-accesslint
+- spec/
 - system-security-plan.yml
+- tests/
+- tests/schema/tags.yml
 - vendor
-- pages/our-work.html
 - _posts/2014-03-12-coming-soon.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
 - _posts/2014-03-21-29-minutes.md
@@ -304,7 +317,7 @@ exclude:
 - _posts/2016-07-18-cloud-gov-full-steam-ahead-fedramp-assessment-process.md
 - _posts/2016-07-19-strategies-for-starting-your-own-writing-lab.md
 - _posts/2016-07-21-buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem.md
-- _posts/2016-07-22-building-emphathy-with-stakeholder-interviews-part-2-conversation.md
+- _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
 - _posts/2016-07-26-buying-better-digital-products-part-2-setting-the-product-vision-and-strategy.md
 - _posts/2016-07-26-new-pilot-aims-to-streamline-notice-and-comment-process.md
 - _posts/2016-07-28-bret-mogilefsky-finding-big-good-cloud-gov.md
@@ -335,7 +348,6 @@ exclude:
 - _posts/2016-10-14-iterative-workplace-design-denver-federal-center.md
 - _posts/2016-10-24-embracing-opportunities-to-improve-and-innovate.md
 - _posts/2016-10-25-three-small-steps-you-can-take-to-reboot-agile-in-your-organization.md
-- _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
 - _posts/2016-10-26-writing-for-web-easy-writing-for-users-not.md
 - _posts/2016-10-28-california-takes-new-approach-procurement.md
 - _posts/2016-11-04-code-gov-the-next-milestone-federal-open-source-code.md
@@ -347,3 +359,13 @@ exclude:
 - _posts/2016-12-02-presidential-innovation-fellows-now-accepting-applications-spring-2017.md
 - _posts/2016-12-12-connecting-culture-change-at-18F-and-PBS.md
 - _posts/2016-12-13-lowering-risk-of-experimentation-open-source-code.md
+- _posts/2016-12-14-how-to-run-an-efficient-meeting.md
+- _posts/2016-12-15-tts-projects-forward-open-government-partnership-principles.md
+- _posts/2016-12-22-charting-the-future-of-the-draft-us-web-design-standards.md
+- _posts/2017-01-04-tracking-the-us-governments-progress-on-moving-https.md
+- _posts/2017-01-05-building-effective-agile-partnership-between-government-industry.md
+- _posts/2017-01-06-open-source-collaboration-across-agencies-to-improve-https-deployment.md
+- _posts/2017-01-10-mark-hopson-negotiating-on-americas-behalf.md
+- _posts/2017-01-11-the-best-way-to-build-big-is-to-start-small.md
+---
+

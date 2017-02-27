@@ -1,6 +1,6 @@
 project:
   text: Projects
-  permalink: /project/
+  permalink: /what-we-deliver/
   collections: ['projects']
   in_menu: false
   in_drawer: false
@@ -8,15 +8,15 @@ project:
   children:
 project_with_children:
   text: Projects
-  permalink: /project/
+  permalink: /what-we-deliver/
   collections: ['projects']
   in_menu: false
   in_drawer: false
   in_footer: false
   children:
     - text: fec-gov
-      permalink: /project/fec-gov
-      permalink_alt: /project/
+      permalink: /what-we-deliver/fec-gov
+      permalink_alt: /what-we-deliver/
       collections: ['projects']
       in_menu: false
       in_drawer: false

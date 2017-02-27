@@ -11,7 +11,6 @@ authors:
 tags:
 - how we work
 - analytics.usa.gov
-- analytics
 - open data
 - open government
 

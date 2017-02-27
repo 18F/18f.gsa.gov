@@ -1,6 +1,4 @@
 require 'yaml'
-require 'rb-readline'
-require 'pry'
 
 module SiteData
   class AuthorData
@@ -9,13 +7,16 @@ module SiteData
     def initialize(test_path = nil)
       @test_path = test_path
       @basepath = @test_path ? @test_path : Dir.pwd
-      @path = File.join(@basepath, '_authors')
 
-      @site_post_paths = Dir.entries(File.join(Dir.pwd, '_posts')).select do |f|
+      @path = File.join(@basepath, '_authors')
+      cwd = File.dirname(__FILE__)
+      pwd = cwd.split('/')[0...-1].join('/')
+
+      @site_post_paths = Dir.entries(File.join(pwd, '_posts')).select do |f|
         !File.directory? f and f != '.DS_Store'
       end
 
-      @all_authors = Dir.entries(File.join(Dir.pwd, '_authors')).select do |f|
+      @all_authors = Dir.entries(File.join(pwd, '_authors')).select do |f|
         !File.directory? f and f != '.DS_Store'
       end.flatten.uniq
 
@@ -51,7 +52,7 @@ module SiteData
 
     def update_file(author_path, key, value)
       frontmatter = File.read(author_path)[frontmatter_regex]
-      frontmatter_yml = YAML.load(frontmatter)
+      frontmatter_yml = YAML.safe_load(frontmatter)
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
         frontmatter_yml = delete_value(frontmatter_yml, key) if value == 'delete'
@@ -65,7 +66,7 @@ module SiteData
 
     def delete_value(hash, key)
       puts "deleting #{key}".yellow
-      hash.delete_if {|k, _v| k == key }
+      hash.delete_if { |k, _v| k == key }
     end
 
     def write_update(author_path, updated_file, key, value)

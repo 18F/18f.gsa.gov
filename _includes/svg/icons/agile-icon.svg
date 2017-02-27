@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="97px" viewBox="0 0 96 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-hidden="true">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Agile</title>
+    <desc>Cyclical arrows representing iterative design</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-v1" transform="translate(-374.000000, -1035.000000)">
+            <polyline id="Shape" stroke="#00CFFF" stroke-width="4" points="377.4796 1085.1252 386.8736 1075.9092 396.0208 1085.2332"></polyline>
+            <path d="M408.8624,1117.3672 C392.4684,1110.4476 383.9208,1092.7212 386.8736,1075.9092" id="Shape" stroke="#00CFFF" stroke-width="4"></path>
+            <polyline id="Shape" stroke="#00CFFF" stroke-width="4" points="448.4424 1122.0664 435.7536 1118.576 439.2176 1105.982"></polyline>
+            <path d="M460.5456,1078.7308 C462.802,1096.3816 451.7724,1112.68 435.754,1118.576" id="Shape" stroke="#00CFFF" stroke-width="4"></path>
+            <polyline id="Shape" stroke="#00CFFF" stroke-width="4" points="443.7812 1041.1932 447.2468 1053.8884 434.646 1057.3284"></polyline>
+            <path d="M400.3296,1052.8716 C414.3648,1041.9324 434.0088,1043.1128 447.2468,1053.8884" id="Shape" stroke="#00CFFF" stroke-width="4"></path>
+            <rect id="Rectangle-path" x="374" y="1035.004" width="96" height="96"></rect>
+        </g>
+    </g>
+</svg>

@@ -3,9 +3,6 @@ first_name: Alexander
 last_name: Hamilton
 full_name: Alexander Hamilton
 name: alexander-hamilton
-role: Product Lead
-city: New York
-state: NY
 april-fools: 2016
 redirect_to: "/april-fools/2016/"
 joke: |

@@ -9,6 +9,7 @@ tags:
 - department of commerce
 - national technical information service
 - workshop
+- agency work
 excerpt: "This past summer, 18F held an agile workshop for the National Technical Information Service (NTIS), part of the U.S. Department of Commerce. An agency with roots going back to World War II, NTIS is facing a future that requires a strategic realignment towards open data and services."
 image: /assets/blog/agile-workshop/3-steps-team.jpg
 ---

@@ -1,7 +1,14 @@
-if [ -n $FAST_BUILDS ]; then
-  export FAST_BUILDS=true;
-fi
+#!/bin/sh
+
+set -e
 
 ruby config_blog.rb
 
-LC_ALL="en_US.UTF-8" bundle exec jekyll serve --watch --host 0.0.0.0  --config="_config.yml,_config-fast-builds.yml,_config-blog.yml"
+LC_ALL="en_US.UTF-8" \
+bundle exec jekyll serve \
+  --watch \
+  --incremental \
+  --host 0.0.0.0  \
+  --baseurl /site \
+  --config="_config.yml,_config-blog.yml"
+

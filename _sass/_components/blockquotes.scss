@@ -3,6 +3,17 @@ blockquote {
   margin-left: $paragraph-margins;
   margin-right: $paragraph-margins;
   padding-left: $paragraph-margins;
+
+  cite {
+    display: inline;
+    font-size: $small-font-size;
+    padding-left: $paragraph-margins;
+
+    > * {
+      display: inline-block;
+      margin-left: $paragraph-margins;
+    }
+  }
 }
 
 .pquote {
