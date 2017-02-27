@@ -13,6 +13,8 @@ gridless: true
 
 <div class="usa-grid">
   <section class="usa-section">
+    <h3>We’ve worked with over 50 offices and agencies, on more than 200 engagements.</h3>
+    <p>All our projects support agencies in transforming how they deliver digital services and technology products. Here are a few of the projects we’ve worked on with agencies.</p>
     <div class="usa-flex usa-flex-wrap">
       {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
       {% for project in projects_list %}
@@ -29,7 +31,7 @@ gridless: true
   </section>
 </div>
 
-<div class="usa-section background-gray">
+<!-- <div class="usa-section background-gray">
   <section class="usa-grid">
     {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
@@ -54,4 +56,4 @@ gridless: true
       </ul>
     </div>
   </section>
-</div>
+</div> -->
