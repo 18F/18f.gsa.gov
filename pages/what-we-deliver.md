@@ -10,14 +10,18 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
+
 <div class="usa-grid">
   <section class="usa-section">
+    <h3>We’ve worked with over 50 offices and agencies, on more than 200 engagements.</h3>
+    <p>All our projects support agencies in transforming how they deliver digital services and technology products. Here are a few of the projects we’ve worked on with agencies.</p>
     <div class="usa-flex usa-flex-wrap">
       {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
       {% for project in projects_list %}
         {% include card.html
          image_src=project.image
          image_alt=project.image_accessibility
+         image_icon=project.image_icon
          tagline=project.title
          description=project.excerpt
          link=project.permalink
@@ -27,11 +31,11 @@ gridless: true
   </section>
 </div>
 
-<div class="usa-section background-gray">
+<!-- <div class="usa-section background-gray">
   <section class="usa-grid">
     {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
-    <h2>Agency Partners and public offerings</h2>
+    <h2>Agencies we’ve worked with</h2>
     <div class="usa-grid-full">
       <ul class="list-columns">
       {% for group in partner_groups %}
@@ -52,4 +56,4 @@ gridless: true
       </ul>
     </div>
   </section>
-</div>
+</div> -->

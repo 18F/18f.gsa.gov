@@ -14,8 +14,17 @@
   <div class="card-link" onclick='window.location = "{{ card_link }}";' tabindex="-1">
     <div role="img"
          title="{{ include.image_alt }}"
-         class="card-image-bg"
-         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"></div>
+         class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
+         {% if include.image_src %}
+         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
+      {% unless include.image_src %}
+        {% if include.image_icon %}
+          {% include svg/icons/{{ include.image_icon }} %}
+        {% else %}
+          {% include svg/icons/monitor.svg %}
+        {% endif %}
+      {% endunless %}
+    </div>
     <div class="card-banner">
       {% if include.agency %}
         <p class="card-tag">{{ include.agency }}</p>

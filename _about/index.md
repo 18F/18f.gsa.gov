@@ -24,9 +24,7 @@ subnav_items:
   in_subnav: true
 ---
 
-18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA).
-
-We've worked with over 50 offices and agencies, on more than 200 engagements. All our projects support agencies in transforming how they deliver digital services and technology products.
+18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology.
 
 ## Our principles
 

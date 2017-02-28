@@ -21,7 +21,7 @@ gridless: true
         <li>Media inquiries: <a href="mailto:press@gsa.gov">press@gsa.gov</a></li>
         <li>General questions: <a href="mailto:18F@gsa.gov">18F@gsa.gov</a></li>
         <li>Twitter: <a href="https://twitter.com/18F">@18F</a></li>
-        <li>GitHub: <a href="https://github.com/18F">@18F</a></li>
+        <li>GitHub: <a href="https://github.com/18F">18F</a></li>
         <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
       </ul>
     </li>
@@ -34,7 +34,7 @@ gridless: true
 
 After we hear from you, we’ll set up a time to talk more, answer your questions, and ask about what you have in mind. Once we understand your office and the problems you're trying to solve, we'll figure out whether we can help you build or buy a solution.
 
-To learn more about how we work with agencies, see [our principles](https://18f.gsa.gov/about/#our-principles), explore our Partnership Playbook, or learn about [how we’re funded](/about/#funding-and-agreements).
+To learn more about how we work with agencies, see [our principles]({{ site.baseurl }}/about/#our-principles), explore our [Partnership Playbook](https://pages.18f.gov/partnership-playbook/), or learn about [how we’re funded]({{ site.baseurl }}/about/#funding-and-agreements).
 
 {% endmarkdown %}
 </div>
