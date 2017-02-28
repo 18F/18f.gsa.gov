@@ -29,4 +29,5 @@ config:
     - quote
     - quote_source
     - redirect_from
+    - project_weight
 ---

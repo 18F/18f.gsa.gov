@@ -131,7 +131,7 @@ module Jekyll
       end.reverse
 
       weighted_group = weighted_group.sort_by do |key, value|
-        key[weight_name].to_i
+        key[weight_name].to_f
       end.reverse
 
       weighted_group + az_group

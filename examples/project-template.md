@@ -12,11 +12,12 @@ tag: blog tag
 expiration_date:
 github_repo: if there is one
 project_url: "[Page name](url)"
+project_weight: 2 (the higher number the higher on the What we deliver landing page)
 learn_more:
 product_clients:
-- 
-- 
-- 
+-
+-
+-
 resources:
 - "[Page name](url)"
 - "[Page name](url)"
