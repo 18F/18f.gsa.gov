@@ -19,7 +19,7 @@ gridless: true
       <p>All our projects support agencies in transforming how they deliver digital services and technology products. Here are a few of the projects we’ve worked on with agencies.</p>
     </div>
     <div class="usa-flex usa-flex-wrap">
-      {% assign projects_list = site | find_collection: 'projects' | sort: 'title' %}
+      {% assign projects_list = site | find_collection: 'projects' | weighted_sort: 'project_weight', 'title' %}
       {% for project in projects_list %}
         {% include card.html
          image_src=project.image
