@@ -110,6 +110,14 @@
   }
 }
 
+.usa-section-bottom {
+  @include padding(null null $site-margins null);
+
+  @include media($medium-screen) {
+    @include padding(null null $section-margins null);
+  }
+}
+
 .background-gray {
   background-color: $color-gray-lightest;
 }
