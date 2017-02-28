@@ -7,7 +7,8 @@ permalink: /what-we-deliver/data-act/
 excerpt: We worked with Treasury to implement the Digital Accountability and Transparency Act successfully.
 image: /assets/img/projects/data-act-better-data.jpg
 image_accessibility: "Data Act logo alongside the words Better Data"
-image_icon: 
+image_icon:
+project_weight: 2
 tag: data act
 expiration_date:
 github_repo:
