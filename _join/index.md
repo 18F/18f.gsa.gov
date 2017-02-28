@@ -40,8 +40,8 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 <!-- 
   if [position] in [open-positions]
-  for each position that is published:
-    <a class="usa-button" href="{{ site.baseurl }}/[position-title">Product manager</a>
+  for each position for which "published" is true:
+    <a class="usa-button" href="{{ site.baseurl }}/join/product-engineer/">Product manager</a>
   else
   **We don't have any open positions right now.**
 -->

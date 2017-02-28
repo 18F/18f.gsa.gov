@@ -1,9 +1,9 @@
 ---
-title: Product design content engineer
+title: Join 18F
 permalink: /join/product-engineer/
 layout: default-intro
-lead: 
-published: false
+lead: Help transform how the federal government does technology.
+position_title: 
 app_close_date: 
 subnav_items:
 -
@@ -26,6 +26,7 @@ subnav_items:
   text: Additional information
   permalink: /join/product-engineer/#additional-information
   in_subnav: true
+published: true
 ---
 
 ## Basic information
