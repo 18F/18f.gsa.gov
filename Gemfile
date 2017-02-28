@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll_frontmatter_tests'
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search'
+  gem 'jekyll_oembed', '~> 0.0.2'
 end
 
 group :development do

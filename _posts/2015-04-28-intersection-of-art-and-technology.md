@@ -15,10 +15,7 @@ description: "Earlier this month, I went to the Museum of Modern Art in New York
 image: /assets/blog/art-tech/dap-dashboard.png
 ---
 
-<blockquote class="twitter-tweet" lang="en">
-	<p><a href="https://twitter.com/18F">@18F</a>'s <a href="https://analytics.usa.gov">http://analytics.usa.gov</a> site helped me provide sound advice to a government client. Stats &amp; good #UX, terrific. #outreach #marketing.</p>&mdash; Paula Lee Andrese (@PLAndrese) <a href="https://twitter.com/PLAndrese/status/587720655652651009">April 13, 2015</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% oembed https://twitter.com/PLAndrese/status/587720655652651009 %}
 
 Last month, I went to the [Museum of Modern Art in New York City](https://www.moma.org/) for the first time. I was there to see [a special exhibit featuring the pop singer Bjӧrk](https://www.moma.org/visit/calendar/exhibitions/1501), who is currently presenting a retrospective of her life’s work as a musician, artist and technologist. The retrospective spans back from her early beginnings as a childhood folk singer in Iceland all the way through to her most current album release.
 
