@@ -1,28 +1,67 @@
-require 'pry'
-require 'rb-readline'
+require 'colorator' # Comment this out to run the script without colorator
 
-directory_name = 'image_check'
-Dir.mkdir(directory_name) unless File.exist?(directory_name)
+built_path = '_site'
+directory_name = 'tmp'
+unique_path = 'check_images'
 image_path = 'assets/img'
+
+if ARGV.include?('-h') || ARGV.include?('--help')
+  puts 'Welcome to image_checker'
+  puts "\n"
+  puts 'Here are a few help flags:'
+  puts "  -i, -I, or --image: Change the image " \
+    "path. This is defaulted to assets/img"
+  puts "\n"
+  puts "  -b, -B, --built, --built_project: " \
+    "Change the built project path. This is defaulted to _site"
+  puts "\n"
+  puts "  -d, -D, --dir_temp, --temp_dir: " \
+    "Change the data storage path. This is defaulted to tmp"
+  exit
+end
+
+ARGV.map.with_index do|a, index|
+  # Flags:
+  # The image flag allows you to name the image path directory
+  if a === '-i' || a === '-I' || a === '--image'
+    image_path = ARGV[index + 1] ? ARGV[index + 1] : image_path
+  end
+
+  # Set reference for built project
+  if a === '-b' || a === '-B' || a === '--built' || a === '--built_project'
+    built_path = ARGV[index + 1] ? ARGV[index + 1] : built_path
+  end
+
+  # Set folder where images are stored
+  if a === '-d' || a === '-D' || a === '--dir_temp' || a === '--temp_dir'
+    directory_name = ARGV[index + 1] ? ARGV[index + 1] : directory_name
+  end
+end
+
+full_path = File.join(directory_name, unique_path, image_path)
+`mkdir -p #{full_path}` unless File.exist?(full_path)
+
 image_directory = Dir[File.join(image_path, '**', '*')]
 
-removable_images = if File.exist?("#{directory_name}/removable_images.yml")
-                     File.open("#{directory_name}/removable_images.yml", 'r+')
+removable_images_file = File.join(full_path, 'removable_images.yml')
+removable_images = if File.exist?(removable_images_file)
+                     File.open(removable_images_file, 'r+')
                    else
-                     File.open("#{directory_name}/removable_images.yml", 'w')
+                     File.open(removable_images_file, 'w')
                    end
-skipped_images = if File.exist?("#{directory_name}/skipped_images.yml")
-                   File.open("#{directory_name}/skipped_images.yml", 'r+')
+skipped_images_file = File.join(full_path, 'skipped_images.yml')
+skipped_images = if File.exist?(skipped_images_file)
+                   File.open(skipped_images_file, 'r+')
                  else
-                   File.open("#{directory_name}/skipped_images.yml", 'w')
+                   File.open(skipped_images_file, 'w')
                  end
 
 image_directory.map do |image|
-  ignored_items = [] || File.readlines("#{directory_name}/skipped_images.yml")
+  ignored_items = [] || File.readlines(skipped_images_file)
   ignored_items = if ignored_items.any?
                     ignored_items
                   else
-                    File.readlines("#{directory_name}/skipped_images.yml")
+                    File.readlines(skipped_images_file)
                   end
 
   ignore = ignored_items.map do |m|
@@ -30,17 +69,23 @@ image_directory.map do |image|
   end.include? true
 
   if !ignore
-    puts "checking #{image}..."
-    output = `grep -r "#{image}" _site`
+    puts "checking #{image}...".yellow # No colorator: comment this out and use the following line instead
+    # puts "checking #{image}..."
+
+    output = `grep -r "#{image}" #{built_path}`
     if output.empty? || !output
-      puts "added #{image} to the mix"
+      puts "Removeable: #{image}".red # No colorator: comment this out and use the following line instead
+      # puts "Removeable: #{image}"
       removable_images << "#{image}\n"
+    else
+      skipped_images << "#{image}\n"
     end
   else
     skipped_images << "#{image}\n"
   end
 end
-puts '-----------'
-puts 'all checks done!!'
+puts 'all checks done!!'.green # No colorator: comment this out and use the following line instead
+# puts 'all checks done!!'
+
 removable_images.close
 skipped_images.close
