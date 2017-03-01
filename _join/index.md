@@ -58,7 +58,7 @@ Most 18F jobs are "not to exceed" (NTE) positions, which means you can't work at
 
 ### 18F is an equal opportunity employer
 
-We're building a team that looks like the United States. We don't discriminate based on race, color, religion, sex, gender identity or expression, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factors. If you have the skills we need, that’s all that matters.
+We're building a team that reflects the United States. We don't discriminate based on race, color, religion, sex, gender identity or expression, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factors. If you have the skills we need, that’s all that matters.
 
 ### How we collect and review applications
 
@@ -66,9 +66,9 @@ We collect applications during the period specified in the job posting (usually 
 
 Once the application period ends, you can't add to or modify your application. However, there's no limit to the number of times you can apply.
 
-We begin evaluating applications using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Following this process, we evaluate each application against specific competencies (you can find these in the position description you're applying for) and categorized each as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
+We begin evaluating applications using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Following this process, we evaluate each application against specific competencies (you can find these in the position description you're applying for) and categorize each as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
 
-Once we've evaluated all applications within the cohort, we hand them off to the selection panel, which identify which applicants to interview. We also apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx).
+Once we've evaluated all applications within the cohort, we hand them off to the selection panel, which identifies which applicants to interview. We also apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx).
 
 ----
 
@@ -80,7 +80,7 @@ If we'd like to chat with you more, we'll ask you to come in to one of our offic
 
 After interviews, your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
 
-Once we hear back from your references, the **GSA Human Resources Team** will ask you for additional documents in order to continue with the hiring process.
+Once we hear back from your references, the **GSA Human Resources team** will ask you for additional documents in order to continue with the hiring process.
 
 -----
 
@@ -99,7 +99,7 @@ The GSA hiring process includes a tentative offer followed by an official offer.
 
 #### Security clearance documents
 
-All government positions require some kind of background check. Most roles at 18F require a public trust position clearance, which is more thorough than most private-sector background checks but not as intensive as a higher government security clearance. The clearance process adds some time and forms to the hiring process, but GSA's human resources team will guide you through it.
+All government positions require some kind of background check. Most roles at 18F require a public trust position clearance, which is more thorough than most private-sector background checks but not as intensive as a higher government security clearance. The clearance process adds some time and forms to the hiring process, but the GSA Human Resources team will guide you through it.
 
 It can be helpful to start pulling some documents together in advance. The forms you can expect to complete include:
 
@@ -111,7 +111,7 @@ It can be helpful to start pulling some documents together in advance. The forms
 
 ## Government pay grades
 
-18F team members are hired for specific position descriptions, with associated grade levels, which refer to the federal general schedule for evaluation and compensation. The qualification requirements for each position and GS level are based on education, background, accomplishments, and experience.
+18F team members are hired for specific position descriptions, with associated grade levels, which refer to the federal general schedule (GS) for evaluation and compensation. The qualification requirements for each position and GS level are based on education, background, accomplishments, and experience.
 
 If you apply for a grade level and are not found qualified, you can reapply at a different grade level. There is no penalty or restriction to reapplying.
 
