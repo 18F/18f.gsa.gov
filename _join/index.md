@@ -36,11 +36,9 @@ We’re looking for candidates passionate about our mission, with top-notch soft
 
 We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, and we have teammates working all over the country. [Read more about how we make our distributed model work]({{ site.baseurl }}/2015/10/15/best-practices-for-distributed-teams/).
 
-### Open positions
+If you have any questions, please contact our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
 
 {% include open-positions.html %}
-
-If you have any questions, please [contact our Talent Team](mailto:join18f@gsa.gov).
 
 ----
 
