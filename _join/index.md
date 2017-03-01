@@ -38,13 +38,7 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 ### Open positions
 
-<!-- 
-  if [position] in [open-positions]
-  for each position for which "published" is true:
-    <a class="usa-button" href="{{ site.baseurl }}/join/product-engineer/">Product manager</a>
-  else
-  **We don't have any open positions right now.**
--->
+{% include open_positions.html %}
 
 If you have any questions, please [contact our Talent Team](mailto:join18f@gsa.gov).
 
@@ -145,7 +139,7 @@ Bonuses generally come after the year-end review process in late September. You 
 
 The benefits package for federal employees includes medical, vision, and dental insurance, life insurance, paid leave, and the Thrift Savings Plan (the government version of a 401K) with up to five percent matching. Our telework policy affords increased flexibility, and employees who use public transit to commute may claim commuter benefits.
 
-18F also supports employees’ ongoing professional development by providing training opportunities and encouraging employees to participate in conferences, consortia, and other industry events. 
+18F also supports employees’ ongoing professional development by providing training opportunities and encouraging employees to participate in conferences, consortia, and other industry events.
 
 The [18F Handbook](https://handbook.18f.gov/) has more information about working at 18F, including:
 
@@ -158,7 +152,7 @@ The [18F Handbook](https://handbook.18f.gov/) has more information about working
 
 ## Government-style resumes
 
-Unlike private-sector resumes, government-style resumes are often several pages long and include detailed information about every job you've held, your responsibilities, and what you accomplished. 
+Unlike private-sector resumes, government-style resumes are often several pages long and include detailed information about every job you've held, your responsibilities, and what you accomplished.
 
 There are many guides to building a government-style resume. Here are several resources from other organizations:
 
@@ -167,20 +161,20 @@ There are many guides to building a government-style resume. Here are several re
 
 This guide shows how to format a government-style resume and what information to include:
 
-> **Name**  
-> **City and state of current residence**  
-> **Email address**  
-> **Phone number**  
+> **Name**
+> **City and state of current residence**
+> **Email address**
+> **Phone number**
 >
 > **TECHNICAL SKILLS & TOOLS**
 >
-> 8+ years of experience:  
-> - *List skills and tools for which you have more than 8 years of experience.*  
-> 
-> 4-7 years of experience:  
-> - *List skills and tools for which you have 4-7 years of experience.*  
-> 
-> 1-3 years of experience:  
+> 8+ years of experience:
+> - *List skills and tools for which you have more than 8 years of experience.*
+>
+> 4-7 years of experience:
+> - *List skills and tools for which you have 4-7 years of experience.*
+>
+> 1-3 years of experience:
 > - *List skills and tools for which you have 1-3 years of experience.*
 >
 > **PROFESSIONAL EXPERIENCE**
@@ -189,36 +183,36 @@ This guide shows how to format a government-style resume and what information to
 >
 > *See below for employment history formatting.*
 >
-> **Role/title, Company name**  
-> **City, State (if within the U.S.) or City, Country**  
-> **Duration of employment (MM/YYYY - MM/YYYY or Present)**  
-> **“Full-time” or “Part-time,” Number of hours per week: __**  
-> 
+> **Role/title, Company name**
+> **City, State (if within the U.S.) or City, Country**
+> **Duration of employment (MM/YYYY - MM/YYYY or Present)**
+> **“Full-time” or “Part-time,” Number of hours per week: __**
+>
 > For each listing, include a one-sentence description of the company, including the mission. This will help us understand the scope of your work, the context of your contributions, the scale of the company, and your role.
-> 
+>
 > For your most relevant, recent, or longest held position, list 8-10 bullet points about your responsibilities and accomplishments. For each prior position, you can list fewer points, but be as detailed as possible. For jobs held many years ago or unrelated to your current role, list 1-2 bullet points each. If these jobs included transferrable skills (management, communication, and problem solving), mention them.
-> 
+>
 > Here are a few pointers:
-> 
+>
 > * Though we always enjoy learning more about your team, please focus on what you — not your team — accomplished.
 > * **Don't** be concise! Yes, this flies in the face of what you learned in your English classes, but government resumes must include extreme detail.
 > * Use non-technical terminology. If you must use technical terms, include definitions, where applicable.
 > * Quantify as much as you can: number of projects you worked on, number of people you managed, number of dollars you saved the company, and so on.
-> 
+>
 > If you were unemployed at any point, please indicate this. Unemployment is completely acceptable and understood — we just need a full timeline with no gaps. For instance:
-> 
-> **Unemployed**  
-> **Start MM/YYYY - End MM/YYYY**  
+>
+> **Unemployed**
+> **Start MM/YYYY - End MM/YYYY**
 > Brief explanation (Took time to travel, to be with my family, and so on) to the extent you’re comfortable sharing. It's also OK not to include a description.
-> 
-> **EDUCATION**  
-> 
-> **Name of college/university/institution, City, State**  
-> Type of degree, major and minor, MM/YYYY degree received  
+>
+> **EDUCATION**
+>
+> **Name of college/university/institution, City, State**
+> Type of degree, major and minor, MM/YYYY degree received
 > Graduation honors, if applicable
-> 
+>
 > **Other sections to include, if applicable:**
-> 
+>
 > * Volunteer work (include the organization's name, your years of participation, and a one-line description of your role)
 > * Relevant awards (include awarding organization, title of award, year received, and any relevant details, such as chosen as *award winner out of 300 contenders*)
 > * Relevant public speaking engagements and presentations (include title of presentation, name of conference/event, month and year of presentation, and any other relevant details)
