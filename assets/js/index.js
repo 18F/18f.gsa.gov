@@ -15,7 +15,8 @@ $(function (){
 
   var $navItems = $('.nav-subnav a');
   var anchors = $.map($navItems, function(item) {
-    return item.getAttribute('href').replace(window.location.pathname, '');
+    return item.getAttribute('href')
+      .replace(window.location.pathname, '');
   });
 
   var $anchors = $(anchors.join(','));

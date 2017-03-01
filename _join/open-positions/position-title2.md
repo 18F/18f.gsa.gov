@@ -1,32 +1,34 @@
 ---
-title: Join 18F
+title: Open position
 permalink: /join/product-engineer-2/
 layout: default-intro
-lead: Help transform how the federal government does technology.
+lead: Product Engineer 2
 position_title: Product Engineer 2
 app_close_date:
+subnav_title: Product Engineer 2
 subnav_items:
 -
   text: Basic information
-  permalink: /join/product-engineer/#basic-information
+  permalink: /#basic-information
   in_subnav: true
 -
   text: Role summary
-  permalink: /join/product-engineer/#role-summary
+  permalink: /#role-summary
   in_subnav: true
 -
   text: Qualifications
-  permalink: /join/product-engineer/#qualifications
+  permalink: /#qualifications
   in_subnav: true
 -
   text: Benefits
-  permalink: /join/product-engineer/#benefits
+  permalink: /#benefits
   in_subnav: true
 -
   text: Additional information
-  permalink: /join/product-engineer/#additional-information
+  permalink: /#additional-information
   in_subnav: true
-published: true
+breadcrumb: true
+published: false
 ---
 
 ## Basic information

@@ -38,7 +38,7 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 ### Open positions
 
-{% include open_positions.html %}
+{% include open-positions.html %}
 
 If you have any questions, please [contact our Talent Team](mailto:join18f@gsa.gov).
 

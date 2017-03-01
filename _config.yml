@@ -90,6 +90,8 @@ defaults:
     layout: default-intro
     include_subnav: true
     subnav_anchor: /join/
+    parent_title: Join 18F
+    parent_permalink: /join/
  -
   scope:
     path: "_styleguide"
