@@ -22,6 +22,14 @@ layout: default
   <h1 class="usa-sr-only">{{ page.title }}</h1>
 {% endif %}
 
+{% if page.breadcrumb == true %}
+<section class="background-gray">
+  <div class="breadcrumb usa-grid">
+    <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}{{ page.parent_permalink }}">{{ page.parent_title }}</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page.position_title }}</span>
+  </div>
+</section>
+{% endif %}
+
 <section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">

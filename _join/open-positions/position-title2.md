@@ -1,11 +1,11 @@
 ---
 title: Open position
-permalink: /join/product-engineer/
+permalink: /join/product-engineer-2/
 layout: default-intro
-lead: Product Engineer
-position_title: Product Engineer
+lead: Product Engineer 2
+position_title: Product Engineer 2
 app_close_date:
-subnav_title: Product Engineer
+subnav_title: Product Engineer 2
 subnav_items:
 -
   text: Basic information
@@ -28,7 +28,7 @@ subnav_items:
   permalink: /#additional-information
   in_subnav: true
 breadcrumb: true
-published: true
+published: false
 ---
 
 ## Basic information
