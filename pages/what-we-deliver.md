@@ -15,7 +15,7 @@ gridless: true
   <section class="usa-section">
     <div class="usa-section-bottom">
       <div class="small-caps small-caps-no-margin">Projects</div>
-      <h3>We’ve worked with over 50 offices and agencies, on more than 200 engagements.</h3>
+      <h3>We’ve worked with more than 50 offices and agencies on more than 200 engagements.</h3>
       <p>All our projects support agencies in transforming how they deliver digital services and technology products. Here are a few of the projects we’ve worked on with agencies.</p>
     </div>
     <div class="usa-flex usa-flex-wrap">
