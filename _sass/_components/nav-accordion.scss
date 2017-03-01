@@ -84,6 +84,7 @@
 .nav-accordion-button {
   @include media($medium-screen) {
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
