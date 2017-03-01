@@ -1,3 +1,5 @@
+# Find this on Github here: https://gist.github.com/gemfarmer/f3f2e35663b96cd3fa8d90b49e6216a0
+
 require 'colorator' # Comment this out to run the script without colorator
 
 built_path = '_site'
@@ -9,31 +11,31 @@ if ARGV.include?('-h') || ARGV.include?('--help')
   puts 'Welcome to image_checker'
   puts "\n"
   puts 'Here are a few help flags:'
-  puts "  -i, -I, or --image: Change the image " \
-    "path. This is defaulted to assets/img"
+  puts '  -i, -I, or --image: Change the image path'
+  puts '                      This is defaulted to assets/img'
   puts "\n"
-  puts "  -b, -B, --built, --built_project: " \
-    "Change the built project path. This is defaulted to _site"
+  puts '  -b, -B, --built: Change the built project path.'
+  puts '                   This is defaulted to _site'
   puts "\n"
-  puts "  -d, -D, --dir_temp, --temp_dir: " \
-    "Change the data storage path. This is defaulted to tmp"
+  puts '  -d, -D, --dir_temp: Change the data storage path.'
+  puts '                      This is defaulted to tmp'
   exit
 end
 
-ARGV.map.with_index do|a, index|
+ARGV.map.with_index do |a, index|
   # Flags:
   # The image flag allows you to name the image path directory
-  if a === '-i' || a === '-I' || a === '--image'
+  if a == '-i' || a == '-I' || a == '--image'
     image_path = ARGV[index + 1] ? ARGV[index + 1] : image_path
   end
 
   # Set reference for built project
-  if a === '-b' || a === '-B' || a === '--built' || a === '--built_project'
+  if a == '-b' || a == '-B' || a == '--built'
     built_path = ARGV[index + 1] ? ARGV[index + 1] : built_path
   end
 
   # Set folder where images are stored
-  if a === '-d' || a === '-D' || a === '--dir_temp' || a === '--temp_dir'
+  if a == '-d' || a == '-D' || a == '--dir_temp'
     directory_name = ARGV[index + 1] ? ARGV[index + 1] : directory_name
   end
 end
@@ -69,12 +71,14 @@ image_directory.map do |image|
   end.include? true
 
   if !ignore
-    puts "checking #{image}...".yellow # No colorator: comment this out and use the following line instead
+    # No colorator: comment this out and use the following line instead.
+    puts "checking #{image}...".yellow
     # puts "checking #{image}..."
 
     output = `grep -r "#{image}" #{built_path}`
     if output.empty? || !output
-      puts "Removeable: #{image}".red # No colorator: comment this out and use the following line instead
+      # No colorator: comment this out and use the following line instead.
+      puts "Removeable: #{image}".red
       # puts "Removeable: #{image}"
       removable_images << "#{image}\n"
     else
@@ -84,7 +88,8 @@ image_directory.map do |image|
     skipped_images << "#{image}\n"
   end
 end
-puts 'all checks done!!'.green # No colorator: comment this out and use the following line instead
+# No colorator: comment this out and use the following line instead.
+puts 'all checks done!!'.green
 # puts 'all checks done!!'
 
 removable_images.close
