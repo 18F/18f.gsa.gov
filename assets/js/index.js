@@ -35,6 +35,11 @@ $(function (){
       offset: function() {  return -$(this).height(); }
     });
 
+  // Subnav click to top
+  $('.nav-accordion-button-desktop').on('click', function() {
+    window.scrollTo(0, 0);
+  });
+
   // Mailchimp
   var $form = $('#contact-form'),
     $newsletter = $('#newsletter'),
@@ -69,8 +74,7 @@ $(function (){
     }
   }
 
-
   $('#button-reset').on('click', function () {
     newsletterForm.reset();
-  })
+  });
 });

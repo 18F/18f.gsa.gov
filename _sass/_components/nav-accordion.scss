@@ -87,6 +87,23 @@
   }
 }
 
+.nav-accordion-button-desktop {
+  @include media-max($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile {
+  @include media($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile,
+.nav-accordion-button-desktop {
+  cursor: pointer;
+}
+
 .sliding-panel-close {
   @include button-unstyled;
   float: right;

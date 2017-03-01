@@ -2,7 +2,10 @@
 
 <nav class="nav-accordion nav-subnav usa-accordion" role="navigation">
   {% assign title_slug = page.title | slugify %}
-  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button"
+  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button nav-accordion-button-desktop"
+                aria-expanded="false"
+                aria-controls="{{ title_slug }}">{{ page.subnav_title | default: page.title }}</button>
+  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button nav-accordion-button-mobile"
                 aria-expanded="false"
                 aria-controls="{{ title_slug }}">{{ page.subnav_title | default: page.title }}</button>
 
