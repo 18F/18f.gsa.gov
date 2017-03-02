@@ -8,7 +8,7 @@ redirect_from: /project/eregulations/
 excerpt: We've worked with several agencies to adapt an open-source tool that makes regulations easier to find, read, and understand.
 image:
 image_accessibility:
-image_icon: gavel.svg
+image_icon: 
 tag: eregulations
 expiration_date:
 github_repo:

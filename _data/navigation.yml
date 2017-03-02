@@ -32,6 +32,33 @@ assigned:
         in_footer: false
         children:
     -
+        text: About 18F
+        href: _about/index.md
+        permalink: /about/
+        collections: ['about']
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+    -
+        text: Join 18F
+        href: /_join/index.md
+        permalink: /join/
+        in_menu: false
+        in_drawer: false
+        in_footer: true
+        children:
+    -
+        text: Blog
+        href: blog/index.html
+        permalink: /blog/
+        permalink_alt: /tags/
+        collections: ['authors', 'posts']
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+    -
         text: Contact
         href: pages/contact.md
         permalink: /contact/
@@ -89,31 +116,4 @@ assigned:
                         in_drawer: false
                         in_footer: false
                         in_subnav: true
-    -
-        text: About 18F
-        href: _about/index.md
-        permalink: /about/
-        collections: ['about']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-    -
-        text: Join 18F
-        href: /_join/index.md
-        permalink: /join/
-        in_menu: false
-        in_drawer: false
-        in_footer: true
-        children:
-    -
-        text: Blog
-        href: blog/index.html
-        permalink: /blog/
-        permalink_alt: /tags/
-        collections: ['authors', 'posts']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
 unassigned: []
