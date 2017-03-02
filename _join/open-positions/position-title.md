@@ -28,7 +28,7 @@ subnav_items:
   permalink: /#additional-information
   in_subnav: true
 breadcrumb: true
-published: true
+published: false
 ---
 
 ## Basic information
