@@ -48,11 +48,9 @@ When you apply for a role at 18F, you’ll need to submit a [government-style re
 
 ### Eligibility
 
-Anyone who is not currently a GSA employee or contractor and who is a U.S. citizen, non-citizen national of the U.S., or permanent resident with a valid green card is eligible to apply. **You can live anywhere in the United States.**
+Anyone who is not currently a GSA employee or contractor and who is a U.S. citizen, non-citizen national of the U.S., or permanent resident with a valid green card is eligible to apply. **For most of our roles, you can live anywhere in the United States.**
 
-**Most 18F positions are two-year terms, and can be renewed once.**
-
-Most 18F jobs are "not to exceed" (NTE) positions, which means you can't work at 18F in the same position description for more than four years total.
+**Most 18F positions are "not to exceed" (NTE) positions, which means they are two-year terms and can be renewed once, for a total of four years.**
 
 ### 18F is an equal opportunity employer
 
@@ -62,29 +60,27 @@ We're building a team that reflects the United States. We don't discriminate bas
 
 We collect applications during the period specified in the job posting (usually five days to two weeks). We consider all applications collected within a given period a cohort and evaluate them against each other.
 
-Once the application period ends, you can't add to or modify your application. However, there's no limit to the number of times you can apply.
+Once the application period ends, you can't add to or modify your application.
 
-We begin evaluating applications using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Following this process, we evaluate each application against specific competencies (you can find these in the position description you're applying for) and categorize each as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
+We begin evaluating applications using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Following this process, we evaluate each application against specific competencies (you can find these in the job posting) and categorize each as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
 
-Once we've evaluated all applications within the cohort, we hand them off to the selection panel, which identifies which applicants to interview. We also apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx).
+Once we've evaluated all applications within the cohort, we send all the applications and evaluation scores to General Services Administration (GSA) Human Resources, our partner in the hiring process, to apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx) for candidates who claim it. GSA HR returns a list of candidates who were categorized as Superior Qualified, and the selection panel (usually the hiring manager) then identifies which candidates to interview.
 
 ----
 
 ## The interview process
 
-The interview process begins with a 30-minute preliminary screening by phone or video call. Plan to talk about your skills and experience, what you're passionate about, and the work we do here.
+The interview process begins with a 30-minute preliminary screening by phone or video call. Plan to talk about your skills and experience, what you're passionate about, and to learn about the work we do here.
 
-If we'd like to chat with you more, we'll ask you to come in to one of our office locations or join us somewhere on the internet for a couple of longer conversations.
+If we'd like to chat with you more, we'll invite you to a series of video chats with 18F team members for a couple of longer conversations.
 
-After interviews, your point of contact on the 18F Talent Team will ask you for three professional references (names, titles, and email addresses).
-
-Once we hear back from your references, the **GSA Human Resources team** will ask you for additional documents in order to continue with the hiring process.
+If we agree you're a good fit for the role after interviews, your point of contact on the 18F Talent Team will reach out to you with next steps.
 
 -----
 
 ## After your interviews
 
-The GSA hiring process includes a tentative offer followed by an official offer. Here's how that works:
+The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They're in charge of extending tentative and official final offers. Here's how that works:
 
 1. A GSA HR specialist calls you with a tentative offer, including salary. "Tentative" means the offer is contingent on [security clearance](#security-clearance-documents).
 2. If you accept the tentative offer, then we move to the next step.
@@ -129,7 +125,7 @@ The annual salary cap for all GS employees is $160,300 per year. You cannot be o
 
 Step increases are the most common kind of raise for GS employees, and the waiting period depends on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven.
 
-Bonuses generally come after the year-end review process in late September. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off.
+Bonuses generally come after the year-end review process in late September, and are awarded based on the results of that review. You must be an 18F employee for at least three months to get a performance review. Bonuses are either a small percentage of your annual salary or additional paid time off.
 
 -----
 
