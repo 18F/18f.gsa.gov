@@ -84,7 +84,25 @@
 .nav-accordion-button {
   @include media($medium-screen) {
     padding-left: 0;
+    padding-right: 0;
   }
+}
+
+.nav-accordion-button-desktop {
+  @include media-max($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile {
+  @include media($medium-screen) {
+    display: none;
+  }
+}
+
+.nav-accordion-button-mobile,
+.nav-accordion-button-desktop {
+  cursor: pointer;
 }
 
 .sliding-panel-close {

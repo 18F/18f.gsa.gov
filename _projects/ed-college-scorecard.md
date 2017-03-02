@@ -3,7 +3,7 @@ layout: project-tag-results
 agency: Department of Education
 title: College Scorecard
 subtitle: Turning data into informed choices
-excerpt: We worked with the Department of Education to bring together federal data from several agencies to help students assess colleges and universities.
+excerpt: The Department of Education and 18F brought together federal data from several agencies to help students assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
 tag: college scorecard

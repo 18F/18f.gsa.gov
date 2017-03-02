@@ -1,5 +1,5 @@
 ---
-permalink: /hire/partnership-playbook/what-to-expect/
+permalink: /contact/partnership-playbook/what-to-expect/
 title: 5. What to expect
 ---
 

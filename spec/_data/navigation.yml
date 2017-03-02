@@ -24,18 +24,18 @@ assigned:
         in_footer: false
         children:
     -
-        text: Hire 18F
-        href: pages/hire.md
-        permalink: /hire/
-        collections: ['hire']
+        text: Contact
+        href: pages/contact.md
+        permalink: /contact/
+        collections: ['contact']
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
             -
                 text: 'Partnership playbook'
-                permalink: /hire/partnership-playbook/
-                collections: ['hire']
+                permalink: /contact/partnership-playbook/
+                collections: ['contact']
                 in_menu: false
                 in_drawer: false
                 in_footer: false
@@ -43,40 +43,40 @@ assigned:
                 children:
                     -
                         text: '1. We build in the open'
-                        permalink: /hire/partnership-playbook/we-build-in-the-open/
-                        collections: ['hire']
+                        permalink: /contact/partnership-playbook/we-build-in-the-open/
+                        collections: ['contact']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
                         in_subnav: true
                     -
                         text: '2. How we work'
-                        permalink: /hire/partnership-playbook/how-we-work/
-                        collections: ['hire']
+                        permalink: /contact/partnership-playbook/how-we-work/
+                        collections: ['contact']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
                         in_subnav: true
                     -
                         text: '3. Who we work with'
-                        permalink: /hire/partnership-playbook/who-we-work-with/
-                        collections: ['hire']
+                        permalink: /contact/partnership-playbook/who-we-work-with/
+                        collections: ['contact']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
                         in_subnav: true
                     -
                         text: '4. Getting started'
-                        permalink: /hire/partnership-playbook/getting-started/
-                        collections: ['hire']
+                        permalink: /contact/partnership-playbook/getting-started/
+                        collections: ['contact']
                         in_menu: false
                         in_drawer: false
                         in_footer: false
                         in_subnav: true
                     -
                         text: '5. What to expect'
-                        permalink: /hire/partnership-playbook/what-to-expect/
-                        collections: ['hire']
+                        permalink: /contact/partnership-playbook/what-to-expect/
+                        collections: ['contact']
                         in_menu: false
                         in_drawer: false
                         in_footer: false

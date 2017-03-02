@@ -30,8 +30,16 @@
   }
 }
 
+.usa-grid-line {
+  height: 1px;
+}
+
 .usa-flex-baseline {
   align-items: baseline;
+}
+
+.usa-flex-end {
+  align-items: flex-end;
 }
 
 .usa-spacer {
@@ -54,9 +62,17 @@
   }
 }
 
+.usa-flex-always {
+  display: flex;
+}
+
 @include media($medium-screen) {
   .usa-flex {
     display: flex;
+  }
+
+  .usa-flex-wrap {
+    flex-wrap: wrap;
   }
 
   .usa-flex-vertically-top {
@@ -91,6 +107,14 @@
 
   .page-lead {
     margin-top: 0;
+  }
+}
+
+.usa-section-bottom {
+  @include padding(null null $site-margins null);
+
+  @include media($medium-screen) {
+    @include padding(null null $section-margins null);
   }
 }
 

@@ -102,7 +102,6 @@ To fetch the next page of results, append `last_index=230880619&last_contributor
 
 Our goal is to display as much data as possible. For the bulk of candidate and committee information, we’re displaying data starting with the 1980 cycle. For performance and expense reasons, we are limiting Schedule A and B data to the last four years. If you need older data, it is still available in the [FEC’s extensive bulk data offerings](http://www.fec.gov/finance/disclosure/ftpdet.shtml).
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Most profound compliment you can make of an <a href="https://twitter.com/hashtag/opendata?src=hash">#opendata</a> API is to build something with it. Let&#39;s get cracking folks. <a href="https://t.co/TGKTglprLj">https://t.co/TGKTglprLj</a></p>&mdash; Mark Headd (@mheadd) <a href="https://twitter.com/mheadd/status/619098677710340096">July 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% oembed https://twitter.com/mheadd/status/619098677710340096 %}
 
 If you make something with the FEC API, be sure to share your creations with us on [Twitter](https://twitter.com/18f). We would like to highlight some of your great work.

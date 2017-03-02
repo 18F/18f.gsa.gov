@@ -5,20 +5,34 @@ $card-image-height: 200px;
 }
 
 .card {
-  margin-bottom: $paragraph-margins-thick;
+  margin-bottom: $site-margins;
 
-  &:last-of-type {
-    margin-bottom: 0;
+  &:hover,
+  &:focus {
+    svg g,
+    svg path,
+    svg ellipse,
+    svg polygon,
+    svg polyline {
+      stroke: $color-medium-hover;
+    }
   }
 
-  @include media($tablet-screen) {
-    margin-bottom: 0;
+  @include media($medium-screen) {
+    &:nth-last-of-type(1),
+    &:nth-last-of-type(2),
+    &:nth-last-of-type(3) {
+      margin-bottom: 0;
+    }
   }
 }
 
 .card-link {
+  background-color: $color-white;
   cursor: pointer;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   text-decoration: none;
   width: 100%;
 
@@ -34,6 +48,7 @@ $card-image-height: 200px;
 
 .card-banner {
   background-color: $color-white;
+  flex: 1 0 auto;
   float: left;
   padding: $paragraph-margins * 2;
   width: 100%;
@@ -41,6 +56,11 @@ $card-image-height: 200px;
   h4 {
     margin-top: 0;
   }
+}
+
+.card-cta {
+  margin: $paragraph-margins * 2;
+  margin-top: 0;
 }
 
 .card-image {
@@ -58,11 +78,29 @@ $card-image-height: 200px;
 }
 
 .card-image-bg {
+  background-color: $color-gray-lightest;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   height: $card-image-height;
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+.card-image-svg {
+  svg {
+    height: 100%;
+    width: 100%;
+    padding: $site-margins;
+
+    g,
+    path,
+    ellipse,
+    polygon,
+    polyline {
+      stroke: $color-medium;
+    }
+  }
 }

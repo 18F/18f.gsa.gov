@@ -1,19 +1,27 @@
-{% assign nav_items = include.page_data.children | default: include.nav_items %}
+{% assign subnav_items = include.page_data.children | default: include.subnav_items %}
 
 <nav class="nav-accordion nav-subnav usa-accordion" role="navigation">
   {% assign title_slug = page.title | slugify %}
-  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button"
+  <button class="usa-accordion-button nav-accordion-button nav-accordion-button-desktop">{{ page.subnav_title | default: page.title }}</button>
+  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button nav-accordion-button-mobile"
                 aria-expanded="false"
-                aria-controls="{{ title_slug }}">{{ page.title }}</button>
+                aria-controls="{{ title_slug }}">{{ page.subnav_title | default: page.title }}</button>
 
   <ul id="{{ title_slug }}" class="usa-sidenav-list usa-accordion" aria-hidden="true">
     {% assign is_matching = page.url | matches_url: page_data.permalink %}
 
-  {% for item in nav_items %}
+  {% for item in subnav_items %}
     {% if item.in_subnav %}
     <li>
       {% if item.permalink %}
-        {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% assign first_chars = item.permalink | slice: 0, 2 %}
+
+        {% if first_chars == '/#' %}
+          {% assign item_link = item.permalink | slice: 1, item.permalink.size | prepend: page.permalink | prepend: site.baseurl %}
+
+        {% else %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% endif %}
       {% else %}
         {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
       {% endif %}

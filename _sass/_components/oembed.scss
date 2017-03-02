@@ -1,0 +1,12 @@
+.embed-container {
+  iframe {
+    width: 100%;
+  }
+
+  &.rich {
+    iframe {
+      max-height: 519.5px;
+      max-width: 610px;
+    }
+  }
+}

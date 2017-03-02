@@ -32,64 +32,6 @@ assigned:
         in_footer: false
         children:
     -
-        text: Hire 18F
-        href: pages/hire.md
-        permalink: /hire/
-        collections: ['hire']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-            -
-                text: 'Partnership playbook'
-                permalink: /hire/partnership-playbook/
-                collections: ['hire']
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-                children:
-                    -
-                        text: '1. We build in the open'
-                        permalink: /hire/partnership-playbook/we-build-in-the-open/
-                        collections: ['hire']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '2. How we work'
-                        permalink: /hire/partnership-playbook/how-we-work/
-                        collections: ['hire']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '3. Who we work with'
-                        permalink: /hire/partnership-playbook/who-we-work-with/
-                        collections: ['hire']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '4. Getting started'
-                        permalink: /hire/partnership-playbook/getting-started/
-                        collections: ['hire']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '5. What to expect'
-                        permalink: /hire/partnership-playbook/what-to-expect/
-                        collections: ['hire']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-    -
         text: About 18F
         href: _about/index.md
         permalink: /about/
@@ -98,64 +40,14 @@ assigned:
         in_drawer: true
         in_footer: true
         children:
-            -
-                text: 'Our principles'
-                permalink: /about/#our-principles
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'Our team'
-                permalink: /about/#our-team
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'History and funding'
-                permalink: /about/#history-and-funding
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-            -
-                text: 'For press'
-                permalink: /about/#for-press
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
     -
         text: Join 18F
-        href: _pages/join.md
+        href: /_join/index.md
         permalink: /join/
         in_menu: false
         in_drawer: false
         in_footer: true
         children:
-            -
-                text: How to apply
-                permalink: /join/#how-to-apply
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: false
-            -
-                text: The interview process
-                permalink: /join/#the-interview-process
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: false
-                children:
-            -
-                text: Resources
-                permalink: /join/#resources
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: false
     -
         text: Blog
         href: blog/index.html
@@ -166,4 +58,62 @@ assigned:
         in_drawer: true
         in_footer: true
         children:
+    -
+        text: Contact
+        href: pages/contact.md
+        permalink: /contact/
+        collections: ['contact']
+        in_menu: true
+        in_drawer: true
+        in_footer: true
+        children:
+            -
+                text: 'Partnership playbook'
+                permalink: /contact/partnership-playbook/
+                collections: ['contact']
+                in_menu: false
+                in_drawer: false
+                in_footer: false
+                in_subnav: true
+                children:
+                    -
+                        text: '1. We build in the open'
+                        permalink: /contact/partnership-playbook/we-build-in-the-open/
+                        collections: ['contact']
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '2. How we work'
+                        permalink: /contact/partnership-playbook/how-we-work/
+                        collections: ['contact']
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '3. Who we work with'
+                        permalink: /contact/partnership-playbook/who-we-work-with/
+                        collections: ['contact']
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '4. Getting started'
+                        permalink: /contact/partnership-playbook/getting-started/
+                        collections: ['contact']
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
+                    -
+                        text: '5. What to expect'
+                        permalink: /contact/partnership-playbook/what-to-expect/
+                        collections: ['contact']
+                        in_menu: false
+                        in_drawer: false
+                        in_footer: false
+                        in_subnav: true
 unassigned: []

@@ -33,9 +33,7 @@ Aaron Snow, Deputy Director of TTS.
 If you weren’t able to attend, you can watch the first two hours of the
 event below and [download the slidedeck from the morning presentation]({{site.baseurl}}/assets/blog/industry-day/deck-2016.pdf).
 
-<iframe width="610" height="450"
-src="https://www.youtube-nocookie.com/embed/NRAlPdiWXN8" frameborder="0"
-allowfullscreen title="GSA Technology Industry Day"></iframe>
+{% oembed https://www.youtube.com/watch?v=NRAlPdiWXN8 %}
 
 Find out more about the projects and platforms we talked about during
 the Technology Industry Day.
@@ -114,9 +112,7 @@ design, and open source practices into their project. Hear more from
 Stuart Drown, the California Deputy Secretary for Innovation and
 Accountability, about the project.
 
-<iframe width="610" height="450"
-src="https://www.youtube-nocookie.com/embed/JM4VLjRgqWo" frameborder="0"
-allowfullscreen ></iframe>
+{% oembed https://www.youtube.com/watch?v=JM4VLjRgqWo %}
 
 ## login.gov
 

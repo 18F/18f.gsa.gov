@@ -47,8 +47,8 @@ Code block:
 Cost-recoverable user-centered user-centered
 Commissioner, outreach diversity
 user-centered documentation tock slack
-distributed model Federalist. 
-Travel Policy agency API service 
+distributed model Federalist.
+Travel Policy agency API service
 engagement cost-recoverable GSA API.
 ```
 
@@ -71,6 +71,34 @@ Team agile slack diversity Travel Policy. Doner agency partners acquisitiions de
 Block quotes look like this:
 
 > Team agile slack diversity Travel Policy. Doner agency partners acquisitiions design API service. Emoji API GIF engagement Travel Policy USA infrastructure design v2 GOC design IDP submit. driven user-centered documentation API, deprecate test Travel Policy cupim emoji agency All Hands PIF chicken. Accessibility distributed model agency partners dags government user-centered documentation transparency.
+
+Embeds look like this:
+
+{% oembed https://twitter.com/corizarek/status/593525117210103809 %}
+
+If the URL to be embedded is a protected URL, you may need to add raw HTML. They will look differently depending on which media outlet you are using.
+
+Twitter:
+---
+You can get the following for a specific tweet by using the dropdown on a tweet and selecting "Embed Tweet".
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Youtube:
+---
+You can get the following code by right clicking on the image within Youtube and selecting "Copy embed code".
+
+<iframe width="620" height="349"
+src="https://www.youtube.com/embed/mO8PiHST5CI?start=159"
+frameborder="0" allowfullscreen></iframe>
+
+Speakerdeck:
+---
+
+The embed link is located under Share as an `</> Embed` link.
+
+<script async class="speakerdeck-embed" data-id="5604c360b9ea01313bb0227341532047" data-ratio="1.33333333333333" src="https://speakerdeck.com/assets/embed.js"></script>
 
 ### It's a best practice for accessibility
 

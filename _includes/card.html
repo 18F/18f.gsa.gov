@@ -14,18 +14,31 @@
   <div class="card-link" onclick='window.location = "{{ card_link }}";' tabindex="-1">
     <div role="img"
          title="{{ include.image_alt }}"
-         class="card-image-bg"
-         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"></div>
-    <div class="card-banner">
-      <p class="card-tag">{{ include.agency }}</p>
-      <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
-      <p class="card-description">{{ include.description }}</p>
-      <a href="{{ card_link }}" class="link-arrow-right" tabindex="0">
-        Read more
-        <span class="usa-sr-only">about {{ include.tagline }}</span>
-        {% include svg/icons/arrow-right.svg %}
-      </a>
+         class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
+         {% if include.image_src %}
+         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
+      {% unless include.image_src %}
+        {% if include.image_icon %}
+          {% include svg/icons/{{ include.image_icon }} %}
+        {% else %}
+          {% include svg/icons/monitor.svg %}
+        {% endif %}
+      {% endunless %}
     </div>
+    <div class="card-banner">
+      {% if include.agency %}
+        <p class="card-tag">{{ include.agency }}</p>
+      {% endif %}
+      {% if card_link and include.tagline %}
+        <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
+      {% endif %}
+      <p class="card-description">{{ include.description }}</p>
+    </div>
+    <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
+      Read more
+      <span class="usa-sr-only">about {{ include.tagline }}</span>
+      {% include svg/icons/arrow-right.svg %}
+    </a>
   </div>
 </article>
 

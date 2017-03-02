@@ -99,18 +99,42 @@ module Jekyll
       document.map(&:data)
     end
 
-    def where_obj(array, first, second)
-      array.map do |object|
-        next unless object[first] && object[second]
-        new_o = {}
-        new_o[first] = object[first]
-        new_o[second] = object[second]
-        new_o
-      end.uniq
+    def where_obj(array, filter)
+      array = array.map do |object|
+        next unless !object[filter].nil? && !object[filter].empty?
+        object
+      end.compact.uniq
+      array
     end
 
     def in_groups(array, groups)
       array.in_groups(groups)
+    end
+
+    def weighted_sort(array, weight_name, sort_name)
+      weighted_group = []
+      az_group = []
+      array.each do |item|
+        if item[weight_name]
+          weighted_group << item
+        else
+          az_group << item
+        end
+      end
+
+      az_group = az_group.sort_by do |key, value|
+        key[sort_name].downcase
+      end
+
+      weighted_group = weighted_group.sort_by do |key, value|
+        key[sort_name].downcase
+      end.reverse
+
+      weighted_group = weighted_group.sort_by do |key, value|
+        key[weight_name].to_f
+      end.reverse
+
+      weighted_group + az_group
     end
   end
 end

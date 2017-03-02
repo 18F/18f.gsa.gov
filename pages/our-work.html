@@ -39,7 +39,7 @@ redirect_from:
 </section>
 
 <section class="usa-grid usa-section">
-  {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency_partner', 'agency_partner_url' | sort: 'agency_partner' %}
+  {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency_partner' | sort: 'agency_partner' %}
   {% assign partner_groups = agency_partners | in_groups: 3 %}
   <h2>Agency Partners and public offerings</h2>
   <ul class="list-columns">

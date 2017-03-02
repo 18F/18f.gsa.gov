@@ -5,9 +5,10 @@ title: eRegulations
 subtitle: Making regulations easier to read
 permalink: /what-we-deliver/eregulations/
 redirect_from: /project/eregulations/
-excerpt: We've helped several agencies adapt an open-source tool that makes regulations easier to find, read, and understand.
+excerpt: We've worked with several agencies to adapt an open-source tool that makes regulations easier to find, read, and understand.
 image:
 image_accessibility:
+image_icon: 
 tag: eregulations
 expiration_date:
 github_repo:
@@ -16,7 +17,6 @@ product_clients:
 - Bureau of Alcohol, Tobacco, Firearms and Explosives
 - Environmental Protection Agency
 - Federal Elections Commission
-- Office of Management and Budget
 ---
 
 Federal regulations are often dense and filled with terminology that can make them difficult to read and interpret. Even seasoned government employees can have trouble deciphering these regulations, and gathering public comments on changes is often difficult and time-consuming.
@@ -32,7 +32,7 @@ We’ve since helped several other agencies use the eRegulations platform:
 
 - The Federal Elections Commission has included eRegulations as part of their website overhaul, which [makes campaign finance more accessible]({{ sire.baseurl }}/what-we-deliver/fec-gov/).
 - We helped the Environmental Protection Agency modify their regulations platform, allowing the public to comment down to the paragraph level throughout proposed regulations and share their thoughts contextually.
-- We’re helping the Office of Management and Budget adapt eRegulations for more than 8,000 policy documents, helping them organize, sort, and display them so that agencies have a clearer picture of policy mandates and their effects.
+- We’re helping the Office of Management and Budget make more than 8,000 policy documents more usable by organizing, sort, and displaying them so that agencies have a clearer picture of policy mandates and their effects.
 
 Through all of these projects, the 18F team has expanded the platform so it supports more than just traditional regulations; agencies can now include supplementary materials, such as interpretations of regulations, Q&As, and more.
 

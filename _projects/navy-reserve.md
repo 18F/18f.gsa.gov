@@ -4,9 +4,9 @@ agency: U.S. Navy Reserve
 title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve
 permalink: /what-we-deliver/ready-2-serve/
-excerpt: We worked with the Navy to prototype an app that helps streamline the deployment process for reservists.
-image:
-image_accessibility:
+excerpt: We prototyped an app with the Navy Reserve to help streamline the deployment process for reservists.
+image: /assets/img/projects/ready-2-serve-sailors.jpg
+image_accessibility: "Sailors standing on a ship"
 tag: navy reserve
 expiration_date:
 github_repo: https://github.com/18F/r2s

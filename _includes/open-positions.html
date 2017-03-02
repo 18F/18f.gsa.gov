@@ -1,0 +1,11 @@
+  {% assign all_positions = site | find_collection: 'join' | shift %}
+  {% if all_positions.size > 0 %}
+    {% assign open_positions = all_positions | where: "published", true %}
+
+<h3>Open positions</h3>
+  {% for position in open_positions %}
+<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>
+  {% endfor %}
+  {% else %}
+<h4>We don’t have any open positions right now.</h4>
+  {% endif %}
