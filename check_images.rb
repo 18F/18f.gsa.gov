@@ -1,11 +1,13 @@
 # Find this on Github here: https://gist.github.com/gemfarmer/f3f2e35663b96cd3fa8d90b49e6216a0
-
+require 'pry'
+require 'rb-readline'
 require 'colorator' # Comment this out to run the script without colorator
 
 built_path = '_site'
 directory_name = 'tmp'
 unique_path = 'check_images'
 image_path = 'assets/img'
+alt_image_path = '../img'
 
 if ARGV.include?('-h') || ARGV.include?('--help')
   puts 'Welcome to image_checker'
@@ -59,6 +61,7 @@ skipped_images = if File.exist?(skipped_images_file)
                  end
 
 image_directory.map do |image|
+  filename = File.split(image).last
   ignored_items = [] || File.readlines(skipped_images_file)
   ignored_items = if ignored_items.any?
                     ignored_items
@@ -72,15 +75,18 @@ image_directory.map do |image|
 
   if !ignore
     # No colorator: comment this out and use the following line instead.
+    # binding.pry
     puts "checking #{image}...".yellow
     # puts "checking #{image}..."
-
-    output = `grep -r "#{image}" #{built_path}`
-    if output.empty? || !output
+    filename_check = `grep -r "#{filename}" #{built_path}`
+    if filename_check.empty? || !filename_check
+      # output = `grep -r "#{image}" #{built_path}`
+      # if output.empty? || !output
       # No colorator: comment this out and use the following line instead.
       puts "Removeable: #{image}".red
+      # puts
       # puts "Removeable: #{image}"
-      removable_images << "#{image}\n"
+      removable_images << "#{image}: #{output}\n"
     else
       skipped_images << "#{image}\n"
     end
