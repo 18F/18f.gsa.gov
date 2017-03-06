@@ -1,13 +1,13 @@
 # Find this on Github here: https://gist.github.com/gemfarmer/f3f2e35663b96cd3fa8d90b49e6216a0
-require 'pry'
-require 'rb-readline'
 require 'colorator' # Comment this out to run the script without colorator
 
 built_path = '_site'
 directory_name = 'tmp'
 unique_path = 'check_images'
 image_path = 'assets/img'
-alt_image_path = '../img'
+use_relative = false
+ignore_removable = false
+remove_all = false
 
 if ARGV.include?('-h') || ARGV.include?('--help')
   puts 'Welcome to image_checker'
@@ -21,6 +21,12 @@ if ARGV.include?('-h') || ARGV.include?('--help')
   puts "\n"
   puts '  -d, -D, --dir_temp: Change the data storage path.'
   puts '                      This is defaulted to tmp'
+  puts "\n"
+  puts '  -r, -R, --use-relative: Use relative path check.'
+  puts "\n"
+  puts '  --ignore-removable: Don\'t scan files in removable_images.yml.'
+  puts "\n"
+  puts '  --remove: Remove all files in removable_images.yml.'
   exit
 end
 
@@ -40,6 +46,21 @@ ARGV.map.with_index do |a, index|
   if a == '-d' || a == '-D' || a == '--dir_temp'
     directory_name = ARGV[index + 1] ? ARGV[index + 1] : directory_name
   end
+
+  # Use relative file path to scan
+  if a == '-r' || a == '-R' || a == '--use_relative'
+    use_relative = true
+  end
+
+  # Set folder where images are stored
+  if a == '--ignore-removable'
+    ignore_removable = true
+  end
+
+  # Remove all files in removeable.yml
+  if a == '--remove'
+    remove_all = true
+  end
 end
 
 full_path = File.join(directory_name, unique_path, image_path)
@@ -47,56 +68,80 @@ full_path = File.join(directory_name, unique_path, image_path)
 
 image_directory = Dir[File.join(image_path, '**', '*')]
 
-removable_images_file = File.join(full_path, 'removable_images.yml')
-removable_images = if File.exist?(removable_images_file)
-                     File.open(removable_images_file, 'r+')
+unless remove_all
+
+  removable_images_file = File.join(full_path, 'removable_images.yml')
+  removable_images = if File.exist?(removable_images_file)
+                       File.open(removable_images_file, 'r+')
+                     else
+                       File.open(removable_images_file, 'w')
+                     end
+  skipped_images_file = File.join(full_path, 'skipped_images.yml')
+  skipped_images = if File.exist?(skipped_images_file)
+                     File.open(skipped_images_file, 'r+')
                    else
-                     File.open(removable_images_file, 'w')
+                     File.open(skipped_images_file, 'w')
                    end
-skipped_images_file = File.join(full_path, 'skipped_images.yml')
-skipped_images = if File.exist?(skipped_images_file)
-                   File.open(skipped_images_file, 'r+')
-                 else
-                   File.open(skipped_images_file, 'w')
-                 end
 
-image_directory.map do |image|
-  filename = File.split(image).last
-  ignored_items = [] || File.readlines(skipped_images_file)
-  ignored_items = if ignored_items.any?
-                    ignored_items
-                  else
-                    File.readlines(skipped_images_file)
-                  end
+  image_directory.map do |image|
+    img_array = image.split('/')
+    img_relative = "../#{img_array[1...img_array.length].join('/')}"
 
-  ignore = ignored_items.map do |m|
-    image.include?(m.strip)
-  end.include? true
+    ignored_items = [] || File.readlines(skipped_images_file)
+    if ignore_removable
+      ignored_items = ignored_items + File.readlines(removable_images_file)
+    end
+    ignored_items = if ignored_items.any?
+                      ignored_items
+                    else
+                      File.readlines(skipped_images_file)
+                    end
 
-  if !ignore
-    # No colorator: comment this out and use the following line instead.
-    # binding.pry
-    puts "checking #{image}...".yellow
-    # puts "checking #{image}..."
-    filename_check = `grep -r "#{filename}" #{built_path}`
-    if filename_check.empty? || !filename_check
-      # output = `grep -r "#{image}" #{built_path}`
-      # if output.empty? || !output
+    ignore = ignored_items.map do |m|
+      image.include?(m.strip)
+    end.include? true
+    if !ignore
       # No colorator: comment this out and use the following line instead.
-      puts "Removeable: #{image}".red
-      # puts
-      # puts "Removeable: #{image}"
-      removable_images << "#{image}: #{output}\n"
+      if use_relative
+        puts "checking #{img_relative}...".yellow
+        # puts "checking #{image_relative}...".yellow
+        output = `grep -r "#{img_relative}" #{built_path}`
+      else
+        puts "checking #{image}...".yellow
+        # puts "checking #{image}...".yellow
+        output = `grep -r "#{image}" #{built_path}`
+      end
+      # puts "checking #{image}..."
+
+      if output.empty? || !output
+        # No colorator: comment this out and use the following line instead.
+        puts "Removeable: #{image}".red
+        # puts "Removeable: #{image}"
+        removable_images << "#{image}\n"
+      else
+        skipped_images << "#{image}\n"
+      end
     else
       skipped_images << "#{image}\n"
     end
-  else
-    skipped_images << "#{image}\n"
   end
-end
-# No colorator: comment this out and use the following line instead.
-puts 'all checks done!!'.green
-# puts 'all checks done!!'
+  # No colorator: comment this out and use the following line instead.
+  puts 'all checks done!!'.green
+  # puts 'all checks done!!'
 
-removable_images.close
-skipped_images.close
+  removable_images.close
+  skipped_images.close
+else
+  removable_images_file = File.join(full_path, 'removable_images.yml')
+  lines = File.readlines(removable_images_file)
+  lines.each do |line|
+    # No colorator: comment this out and use the following line instead.
+    puts "deleting #{line.sub("\n", "")}".red
+    # puts "deleting #{line.sub("\n", "")}"
+    `rm -rf #{line.sub("\n", "")}`
+  end
+  # No colorator: comment this out and use the following line instead.
+  puts "deleting contents of removable_images.yml".red
+  # puts "deleting contents of removable_images.yml"
+  File.open(removable_images_file, 'w').close
+end
