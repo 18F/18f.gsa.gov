@@ -1,5 +1,8 @@
-<nav class="nav-mobile nav-accordion" role="navigation">
-  <button class="sliding-panel-close">
+{% assign nav_class_suffix = include.nav_class_suffix | default: '' %}
+
+
+<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}" role="navigation">
+  <button class="sliding-panel-close{{ nav_class_suffix }}">
     {% include svg/icons/close.svg %}
   </button>
 

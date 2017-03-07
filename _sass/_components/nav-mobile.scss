@@ -1,12 +1,11 @@
 // Mobile sidenav
 // ==========================
+$sliding-panel-width: 26rem;
 
-.nav-mobile {
-  $sliding-panel-width: 26rem;
+.nav-mobile,
+.nav-mobile-styleguide {
   @include padding (2rem);
-  @include position(fixed, 0 0 0 auto);
   @include size($sliding-panel-width 100%);
-  @include transform(translateX($sliding-panel-width));
   background: $color-white;
   border-left: 1px solid $color-gray-light;
   border-right: 0;
@@ -19,12 +18,21 @@
     margin-top: 6rem;
   }
 
-  @include media($medium-screen + $nav-width-extra) {
-    display: none;
-  }
-
   &.is-visible {
     @include transform(translateX(0));
     @include transition(all 0.3s ease-in-out);
   }
+}
+
+.nav-mobile {
+  @include position(fixed, 0 0 0 auto);
+  @include transform(translateX($sliding-panel-width));
+  @include media($medium-screen + $nav-width-extra) {
+    display: none;
+  }
+}
+
+.nav-mobile-styleguide {
+  @include position(fixed, 0 auto 0 0);
+  @include transform(translateX(-$sliding-panel-width));
 }
