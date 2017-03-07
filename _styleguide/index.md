@@ -2,21 +2,55 @@
 title: 18F site styleguide
 permalink: /styleguide/
 nav_items:
+ - text: Typography
+   permalink: /styleguide/#typography
+   in_drawer: true
  - text: Buttons
    permalink: /styleguide/#buttons
    in_drawer: true
- - text: Button style light
-   permalink: /styleguide/#button-style-light-usa-button
-   in_drawer: true
- - text: Button style on dark
-   permalink: /styleguide/#button-style-on-dark-usa-button-secondary
-   in_drawer: true
- - text: Embed
-   permalink: /styleguide/#embed
+ - text: Embeds
+   permalink: /styleguide/#embeds
    in_drawer: true
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+
+### Typography
+
+$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)
+##### $color-base (#000000)
+
+# h1 3.6 rem, 36px*
+## h2 3.2 / 4.16rem (32/41.6px)
+### h3 2.4 / 1.3rem (24/31.2px)
+#### h4 2rem, 20px
+##### h5 1.4rem, 14px
+
+p 1.8 / 1.5 rem (18 / 27px)
+
+<section class="usa-grid">
+  <a> Link </a>
+  <a> Visited </a>
+</section>
+
+{% capture codeblock %}
+<section class="usa-grid">
+  <a class="link-arrow-right">
+    Link
+    {% include svg/icons/arrow-right.svg %}
+  </a>
+  <a class="link-arrow-left">
+    {% include svg/icons/arrow-left.svg %}
+    Back
+  </a>
+</section>
+{% endcapture %}
+
+{% include details-code.html
+   text="See code"
+   content=codeblock
+   lang="html"
+%}
 
 
 ## Atoms
@@ -62,7 +96,7 @@ nav_items:
    lang="html"
 %}
 
-### Embed
+### Embeds
 
 Here is an example embed and how
 
