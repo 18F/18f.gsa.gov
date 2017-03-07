@@ -48,19 +48,13 @@ ARGV.map.with_index do |a, index|
   end
 
   # Use relative file path to scan
-  if a == '-r' || a == '-R' || a == '--use_relative'
-    use_relative = true
-  end
+  use_relative = true if a == '-r' || a == '-R' || a == '--use_relative'
 
   # Set folder where images are stored
-  if a == '--ignore-removable'
-    ignore_removable = true
-  end
+  ignore_removable = true if a == '--ignore-removable'
 
   # Remove all files in removeable.yml
-  if a == '--remove'
-    remove_all = true
-  end
+  remove_all = true if a == '--remove'
 end
 
 full_path = File.join(directory_name, unique_path, image_path)
@@ -68,7 +62,20 @@ full_path = File.join(directory_name, unique_path, image_path)
 
 image_directory = Dir[File.join(image_path, '**', '*')]
 
-unless remove_all
+if remove_all
+  removable_images_file = File.join(full_path, 'removable_images.yml')
+  lines = File.readlines(removable_images_file)
+  lines.each do |line|
+    # No colorator: comment this out and use the following line instead.
+    puts "deleting #{line.sub("\n", '')}".red
+    # puts "deleting #{line.sub("\n", "")}"
+    `rm -rf #{line.sub("\n", '')}`
+  end
+  # No colorator: comment this out and use the following line instead.
+  puts 'deleting contents of removable_images.yml'.red
+  # puts "deleting contents of removable_images.yml"
+  File.open(removable_images_file, 'w').close
+else
 
   removable_images_file = File.join(full_path, 'removable_images.yml')
   removable_images = if File.exist?(removable_images_file)
@@ -88,9 +95,7 @@ unless remove_all
     img_relative = "../#{img_array[1...img_array.length].join('/')}"
 
     ignored_items = [] || File.readlines(skipped_images_file)
-    if ignore_removable
-      ignored_items = ignored_items + File.readlines(removable_images_file)
-    end
+    ignored_items += File.readlines(removable_images_file) if ignore_removable
     ignored_items = if ignored_items.any?
                       ignored_items
                     else
@@ -131,17 +136,4 @@ unless remove_all
 
   removable_images.close
   skipped_images.close
-else
-  removable_images_file = File.join(full_path, 'removable_images.yml')
-  lines = File.readlines(removable_images_file)
-  lines.each do |line|
-    # No colorator: comment this out and use the following line instead.
-    puts "deleting #{line.sub("\n", "")}".red
-    # puts "deleting #{line.sub("\n", "")}"
-    `rm -rf #{line.sub("\n", "")}`
-  end
-  # No colorator: comment this out and use the following line instead.
-  puts "deleting contents of removable_images.yml".red
-  # puts "deleting contents of removable_images.yml"
-  File.open(removable_images_file, 'w').close
 end
