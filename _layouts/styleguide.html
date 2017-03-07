@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<section class="background-gray usa-section">
+  <div class="usa-grid">
+    <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  </div>
+</section>
 <section class="usa-grid content-focus content-wide">
-  <h1 class="usa-sr-only">{{ page.title }}</h1>
+
   <aside id="styleguide-navbar" class="nav-subnav">
     <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
     {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
