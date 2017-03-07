@@ -2,43 +2,18 @@
 title: 18F site styleguide
 permalink: /styleguide/
 nav_items:
- - text: Atoms
-   permalink: /styleguide/#atoms
-   collections: ['styleguide']
-   in_subnav: true
-   children:
-     - text: Buttons
-       permalink: /styleguide/#buttons
-       collections: ['styleguide']
-       in_subnav: true
-       children:
-     - text: Embeds
-       permalink: /styleguide/#embeds
-       collections: ['styleguide']
-       in_subnav: true
-       children:
- - text: Molecules
-   permalink: /styleguide/#molecules
-   collections: ['styleguide']
-   in_subnav: true
- - text: Organisms
-   permalink: /styleguide/#organisms
-   collections: ['styleguide']
-   in_subnav: true
-   children:
-     - text: Hero banner – centered text
-       permalink: /styleguide/#hero-banner-centered-text
-       collections: ['styleguide']
-       in_subnav: true
-     - text: Card
-       permalink: /styleguide/#card
-       collections: ['styleguide']
-       in_subnav: true
-     - text: Posts
-       permalink: /styleguide/#posts
-       collections: ['styleguide']
-       in_subnav: true
-
+ - text: Buttons
+   permalink: /styleguide/#buttons
+   in_drawer: true
+ - text: Button style light
+   permalink: /styleguide/#button-style-light-usa-button
+   in_drawer: true
+ - text: Button style on dark
+   permalink: /styleguide/#button-style-on-dark-usa-button-secondary
+   in_drawer: true
+ - text: Embed
+   permalink: /styleguide/#embed
+   in_drawer: true
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
