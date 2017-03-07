@@ -1,5 +1,5 @@
 ---
-title: 18F site styleguide
+title: 18F site UI styleguide
 permalink: /styleguide/
 nav_items:
  - text: Typography
@@ -15,7 +15,7 @@ nav_items:
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 
-### Typography
+## Typography
 
 $font-sans: Helvetica Neue (Helvetica, Arial, sans serif)
 ##### $color-base (#000000)
@@ -53,9 +53,7 @@ p 1.8 / 1.5 rem (18 / 27px)
 %}
 
 
-## Atoms
-
-### Buttons
+## Buttons
 <section class="usa-grid">
 <img src="{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png" class="usa-width-one-third" alt="Image of the dimensions and padding of a button on the 18F site" />
 </section>
@@ -96,7 +94,7 @@ p 1.8 / 1.5 rem (18 / 27px)
    lang="html"
 %}
 
-### Embeds
+## Embeds
 
 Here is an example embed and how
 
