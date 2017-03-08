@@ -5,6 +5,9 @@ nav_items:
  - text: Typography
    permalink: /styleguide/#typography
    in_drawer: true
+ - text: Color
+   permalink: /styleguide/#color
+   in_drawer: true
  - text: Buttons
    permalink: /styleguide/#buttons
    in_drawer: true
@@ -43,6 +46,10 @@ p 1.8 / 1.5 rem (18 / 27px)
     {% include svg/icons/arrow-left.svg %}
     Back
   </a>
+  <a class="link-arrow-right visited">
+    Visited
+    {% include svg/icons/arrow-right.svg %}
+  </a>
 </section>
 {% endcapture %}
 
@@ -52,7 +59,61 @@ p 1.8 / 1.5 rem (18 / 27px)
    lang="html"
 %}
 
+## Color
 
+<section class="usa-grid">
+  <div class="color-box-group">
+    <div class="color-box cb-dark"></div>
+    $color-dark | #1c304a
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-medium"></div>
+    $color-medium | #046b99
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-medium-hover"></div>
+    $color-medium-hover | #034c6d
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-bright"></div>
+    $color-bright | #00cfff
+  </div>  
+  <div class="color-box-group">
+    <div class="color-box cb-bright-hover"></div>
+    $color-bright-hover | #00a7ce
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-light"></div>
+    $color-light | #b3efff
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-gray"></div>
+    $color-gray | #5b616b
+  </div>
+  <div class="color-box-group">
+    <div class="color-box cb-gray-lightest"></div>
+    $color-gray-lightest | #f1f1f1
+  </div>
+</section>
+
+## Font Family
+
+<section class="usa-grid usa-section">
+  <div>
+    <p>Helvetica Neue, Regular</p>
+    <span> Aa </span>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
+    <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+    <p>0 1 2 3 4 5 6 7 8 9</p>
+  </div>
+  <div>
+    <p>Helvetica Neue, Regular</p>
+    <span> Aa </span>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
+    <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+    <p>0 1 2 3 4 5 6 7 8 9</p>
+  </div>
+</section>
 ## Buttons
 <section class="usa-grid">
 <img src="{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png" class="usa-width-one-third" alt="Image of the dimensions and padding of a button on the 18F site" />
