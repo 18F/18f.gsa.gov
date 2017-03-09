@@ -43,13 +43,16 @@ gridless: true
       <ul class="list-columns">
       {% for group in partner_groups %}
         <li class="usa-width-one-third">
-          <ul class="list-columns">
+          <ul class="list-columns list-images">
           {% for partner in group %}
-            <li>
+            <li class="list-images-item">
+                {% assign agency_logo = partner.logo | default: '/assets/img/logos/agencies/epa.gif' %}
+                <img class="list-images-image" src="{{ agency_logo | prepend: site.baseurl }}" />
+
               {% if partner.agency_url %}
-                <a href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+                <a class="list-images-text" lhref="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
               {% else %}
-                {{ partner.name }}{% if partner.acronym %} ({{ partner.acronym }}){% endif %}
+                <span class="list-images-text">{{ partner.name }}</span>
               {% endif %}
             </li>
           {% endfor %}

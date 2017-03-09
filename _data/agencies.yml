@@ -2,17 +2,23 @@
   acronym: USAID
 - name: Central Intelligence Agency
   acronym: CIA
+  logo: /assets/img/logos/agencies/cia.svg
 - name: Consumer Financial Protection Bureau
   acronym: CFBP
+  logo: /assets/img/logos/agencies/cfpb.png
 - name: Consumer Product Safety Commission
+  acronym:
 - name: Environmental Protection Agency
   acronym: EPA
+  logo: /assets/img/logos/agencies/epa.gif
 - name: Federal Deposit Insurance Corporation
   acronym: FDIC
 - name: Federal Election Commission
   acronym: FEC
+  logo: /assets/img/logos/agencies/fec.svg
 - name: General Services Administration
   acronym: GSA
+  logo: /assets/img/logos/gsa-logo.svg
 - name: Institute for Museum and Library Services
   acronym:
 - name: Inter-American Foundation
