@@ -1,0 +1,17 @@
+@import "color-box";
+@import "typography";
+
+
+.menu-btn-styleguide {
+  left: 0;
+  position: fixed;
+
+  svg {
+    height: $icon-diameter;
+    width: $icon-diameter;
+
+    path {
+      fill: $color-white;
+    }
+  }
+}

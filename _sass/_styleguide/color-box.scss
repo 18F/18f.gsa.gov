@@ -1,33 +1,9 @@
-
-a {
-	margin: $paragraph-margins;
-}
-
-a:visited {
-	color: $color-visited; 
-}
-
-
-.menu-btn-styleguide {
-  left: 0;
-  position: fixed;
-
-  svg {
-    height: $icon-diameter;
-    width: $icon-diameter;
-
-    path {
-      fill: $color-white;
-    }
-  }
-}
-
 .color-box-group {
 	margin-bottom: 2rem;
 }
 
 .color-box {
-	width: 30rem;
+	width: 70%;
 	height: 6rem;
 }
 
