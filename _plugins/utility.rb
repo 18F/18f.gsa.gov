@@ -122,15 +122,15 @@ module Jekyll
         end
       end
 
-      az_group = az_group.sort_by do |key, value|
+      az_group = az_group.sort_by do |key, _value|
         key[sort_name].downcase
       end
 
-      weighted_group = weighted_group.sort_by do |key, value|
+      weighted_group = weighted_group.sort_by do |key, _value|
         key[sort_name].downcase
       end.reverse
 
-      weighted_group = weighted_group.sort_by do |key, value|
+      weighted_group = weighted_group.sort_by do |key, _value|
         key[weight_name].to_f
       end.reverse
 
@@ -143,30 +143,29 @@ class Array
   # From Rails#in_groups
   # http://api.rubyonrails.org/classes/Array.html#method-i-in_groups
   def in_groups(number, fill_with = nil)
-  # size.div number gives minor group size;
-  # size % number gives how many objects need extra accommodation;
-  # each group hold either division or division + 1 items.
-  division = size.div number
-  modulo = size % number
+    # size.div number gives minor group size;
+    # size % number gives how many objects need extra accommodation;
+    # each group hold either division or division + 1 items.
+    division = size.div number
+    modulo = size % number
 
-  # create a new array avoiding dup
-  groups = []
-  start = 0
+    # create a new array avoiding dup
+    groups = []
+    start = 0
 
-  number.times do |index|
-    length = division + (modulo > 0 && modulo > index ? 1 : 0)
-    groups << last_group = slice(start, length)
-    last_group << fill_with if fill_with != false &&
-      modulo > 0 && length == division
-    last_group = last_group
-    start += length
-  end
+    number.times do |index|
+      length = division + (modulo.positive? && modulo > index ? 1 : 0)
+      groups << last_group = slice(start, length)
+      last_group << fill_with if fill_with != false &&
+                                 modulo.positive? && length == division
+      start += length
+    end
 
-  if block_given?
-    groups.each { |g| yield(g) }
-  else
-    groups
-  end
+    if block_given?
+      groups.each { |g| yield(g) }
+    else
+      groups
+    end
 end
 end
 Liquid::Template.register_filter(Jekyll::Utility)
