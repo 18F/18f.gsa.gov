@@ -108,7 +108,7 @@ module Jekyll
     end
 
     def in_groups(array, groups)
-      array.in_groups(groups)
+      array.in_groups(groups, false)
     end
 
     def weighted_sort(array, weight_name, sort_name)
@@ -140,10 +140,33 @@ module Jekyll
 end
 
 class Array
-  def in_groups(num_groups)
-    return [] if num_groups.zero?
-    slice_size = (size / Float(num_groups)).ceil
-    each_slice(slice_size).to_a
+  # From Rails#in_groups
+  # http://api.rubyonrails.org/classes/Array.html#method-i-in_groups
+  def in_groups(number, fill_with = nil)
+  # size.div number gives minor group size;
+  # size % number gives how many objects need extra accommodation;
+  # each group hold either division or division + 1 items.
+  division = size.div number
+  modulo = size % number
+
+  # create a new array avoiding dup
+  groups = []
+  start = 0
+
+  number.times do |index|
+    length = division + (modulo > 0 && modulo > index ? 1 : 0)
+    groups << last_group = slice(start, length)
+    last_group << fill_with if fill_with != false &&
+      modulo > 0 && length == division
+    last_group = last_group
+    start += length
   end
+
+  if block_given?
+    groups.each { |g| yield(g) }
+  else
+    groups
+  end
+end
 end
 Liquid::Template.register_filter(Jekyll::Utility)

@@ -12,20 +12,17 @@
   flex-wrap: wrap;
 
   .list-images-item .list-images-image {
-    width: $icon-diameter;
     height: auto;
     margin: 0;
     margin-right: $paragraph-margins;
+    width: $icon-diameter;
   }
 }
 
 .list-images-item {
   align-items: center;
   display: inline-flex;
-}
-
-.list-images-image {
-  // width: $icon-diameter;
+  min-height: 54px;
 }
 
 .list-images {

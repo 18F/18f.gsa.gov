@@ -1,85 +1,66 @@
-- name: U.S. Agency for International Development
-  acronym: USAID
 - name: Central Intelligence Agency
   acronym: CIA
-  logo: /assets/img/logos/agencies/cia.svg
+  logo: /assets/img/logos/agencies/CIA.svg
 - name: Consumer Financial Protection Bureau
   acronym: CFBP
-  logo: /assets/img/logos/agencies/cfpb.png
-- name: Consumer Product Safety Commission
-  acronym:
+  logo: /assets/img/logos/agencies/CFPB.png
 - name: Environmental Protection Agency
   acronym: EPA
-  logo: /assets/img/logos/agencies/epa.gif
-- name: Federal Deposit Insurance Corporation
-  acronym: FDIC
+  logo: /assets/img/logos/agencies/EPA.svg
 - name: Federal Election Commission
   acronym: FEC
   logo: /assets/img/logos/agencies/fec.svg
 - name: General Services Administration
   acronym: GSA
   logo: /assets/img/logos/gsa-logo.svg
-- name: Institute for Museum and Library Services
-  acronym:
-- name: Inter-American Foundation
-  acronym:
 - name: National Aeronautics and Space Administration
   acronym: NASA
+  logo: /assets/img/logos/agencies/NASA.svg
 - name: National Archives and Records Administration
   acronym: NARA
-- name: National Endowment for the Arts
-  acronym:
-- name: National Science Foundation
-  acronym: NSF
+  logo: /assets/img/logos/agencies/NARA.svg
 - name: Nuclear Regulatory Commission
-  acronym:
+  logo: /assets/img/logos/agencies/NRC.svg
 - name: Office of Management and Budget
   acronym: OMB
+  logo: /assets/img/logos/agencies/OMB.svg
 - name: Office of Personnel Management
   acronym: OPM
-- name: Peace Corps
-  acronym:
+  logo: /assets/img/logos/agencies/OPM.svg
 - name: U.S. Postal Service
   acronym: USPS
-- name: Privacy and Civil Liberties Oversight Board
-  acronym:
+  logo: /assets/img/logos/agencies/USPS.svg
 - name: Securities and Exchange Commission
   acronym: SEC
+  logo: /assets/img/logos/agencies/SEC.svg
 - name: Small Business Administration
   acronym: SBA
+  logo: /assets/img/logos/agencies/SBA.svg
 - name: Social Security Administration
-  acronym:
+  logo: /assets/img/logos/agencies/SSA.svg
 - name: House of Representatives
-  acronym:
+  logo: /assets/img/logos/agencies/USHR.svg
 - name: Department of Agriculture
-  acronym:
+  logo: /assets/img/logos/agencies/USDA.svg
 - name: Department of Commerce
-  acronym:
+  logo: /assets/img/logos/agencies/USDC.svg
 - name: Department of Defense
-  acronym:
+  logo: /assets/img/logos/agencies/USDD.svg
 - name: Department of Education
-  acronym:
-- name: Department of Energy
-  acronym:
+  logo: /assets/img/logos/agencies/USDEducation.svg
 - name: Department of Health and Human Services
-  acronym:
+  logo: /assets/img/logos/agencies/USDHHS.svg
 - name: Department of Homeland Security
-  acronym:
+  logo: /assets/img/logos/agencies/USDHS.svg
 - name: Department of Housing and Urban Development
-  acronym:
+  logo: /assets/img/logos/agencies/USHUD.svg
 - name: Department of Justice
-  acronym:
-- name: Department of Labor
-  acronym:
-- name: Department of Social Services
-  acronym:
+  logo: /assets/img/logos/agencies/USDOJ.svg
 - name: Department of State
-  acronym:
+  logo: /assets/img/logos/agencies/USDS.svg
 - name: Department of the Interior
-  acronym:
+  logo: /assets/img/logos/agencies/USDOI.svg
 - name: Department of the Treasury
-  acronym:
-- name: Department of Transportation
-  acronym:
+  logo: /assets/img/logos/agencies/USDT.svg
 - name: Department of Veterans Affairs
-  acronym:
+  logo: /assets/img/logos/agencies/USDVA.svg

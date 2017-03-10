@@ -38,7 +38,7 @@ gridless: true
   <section class="usa-grid">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
-    <h2 id="agencies-weve-worked-with">Agencies we’ve worked with</h2>
+    <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
     <div class="usa-grid-full">
       <ul class="list-columns">
       {% for group in partner_groups %}
@@ -46,11 +46,10 @@ gridless: true
           <ul class="list-columns list-images">
           {% for partner in group %}
             <li class="list-images-item">
-                {% assign agency_logo = partner.logo | default: '/assets/img/logos/agencies/epa.gif' %}
-                <img class="list-images-image" src="{{ agency_logo | prepend: site.baseurl }}" />
+              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" />
 
               {% if partner.agency_url %}
-                <a class="list-images-text" lhref="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
               {% else %}
                 <span class="list-images-text">{{ partner.name }}</span>
               {% endif %}
