@@ -20,7 +20,7 @@ nav_items:
 
 ## Typography
 <section class="usa-grid-full">
-    <div class="usa-width-two-thirds">
+    <div class="usa-width-two-thirds top-typography">
         <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
         <h5> $color-base (#000000) </h5>
     </div>
@@ -32,22 +32,26 @@ nav_items:
         <h5> h5 1.4rem, 14px </h5>
         <p> p 1.8 / 1.5 rem (18 / 27px) </p>
     </div>
-    <div class="usa-width-one-half stylguide-links">
-          <a class="styleguide-links"> Link </a>
-          <a class="styleguide-links visited"> Visited </a>
+    <div class="usa-width-one-half">
+         <div class="styleguide-links-section">
+            <a> Link </a>
+            <a class="visited"> Visited </a>
+          </div>
         {% capture codeblock %}
-          <a class="link-arrow-right styleguide-links">
-            Link
-            {% include svg/icons/arrow-right.svg %}
-          </a>
-          <a class="link-arrow-left styleguide-links">
-            {% include svg/icons/arrow-left.svg %}
-            Back
-          </a>
-          <a class="styleguide-links link-arrow-right visited">
-            Visited
-            {% include svg/icons/arrow-right.svg %}
-          </a>
+          <div class="styleguide-links-section">
+            <a class="link-arrow-right">
+              Link
+              {% include svg/icons/arrow-right.svg %}
+            </a>
+            <a class="link-arrow-left">
+              {% include svg/icons/arrow-left.svg %}
+              Back
+            </a>
+            <a class="link-arrow-right visited">
+              Visited
+              {% include svg/icons/arrow-right.svg %}
+            </a>
+          </div>
         {% endcapture %}
 
         {% include details-code.html
@@ -118,7 +122,36 @@ nav_items:
 </section>
 
 ## Backgrounds 
-
+<section class="usa-grid-full">
+  <div class="usa-width-one-third">
+    <div class="background-box banner-footer-box">
+      <div class="p-bold">
+        <p>#F1F1F1</p>
+        <p>Banner & Footer</p>
+      </div>
+      <p>Font: #000000</p>
+    </div>
+  </div>
+  <div class="usa-width-one-third">
+    <div class="background-box navigation-box">
+      <div class="p-bold">
+        <p>#FFFFFF</p>
+        <p>Navigation, Fields, Page</p>
+      </div>
+      <p>Font: #000000</p>
+    </div>
+  </div>
+  <div class="usa-width-one-third">
+    <div class="background-box hero-header-box">
+      <div class="p-bold">
+        <p>#1C304A</p>
+        <p>Hero, Header</p>
+      </div>
+      <p class="highlight">Highlight:#00CFFF</p>
+      <p>Font: #FFFFFF</p>
+    </div>
+  </div>
+</section>
 
 ## Buttons
 <section class="usa-grid">

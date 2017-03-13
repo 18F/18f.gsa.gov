@@ -1,3 +1,4 @@
+//color
 .color-box-group {
 	margin-bottom: 2rem;
 }
@@ -11,29 +12,54 @@
 	background: $color-dark;
 }
 
-.cb-medium{
+.cb-medium {
 	background: $color-medium;
 }
 
-.cb-medium-hover{
+.cb-medium-hover {
 	background: $color-medium-hover;
 }
 
-.cb-bright{
+.cb-bright {
 	background: $color-bright;
 }
-.cb-bright-hover{
+.cb-bright-hover {
 	background: $color-bright-hover;
 }
 
-.cb-light{
+.cb-light {
 	background: $color-light;
 }
 
-.cb-gray{
+.cb-gray {
 	background: $color-gray;
 }
 
-.cb-gray-lightest{
+.cb-gray-lightest {
 	background: $color-gray-lightest;
+}
+
+//backgrounds
+.background-box {
+	width: 100%;
+	height: 25rem;
+	padding: 2rem;
+}
+
+.banner-footer-box {
+	background: $color-gray-lightest;
+}
+
+.navigation-box {
+	background: white;
+	border: 1px solid $color-gray-lightest;
+}
+
+.hero-header-box {
+	background: $color-dark;
+	color: white;
+}
+
+.highlight {
+	color: $color-bright;
 }
