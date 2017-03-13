@@ -14,94 +14,116 @@ nav_items:
  - text: Embeds
    permalink: /styleguide/#embeds
    in_drawer: true
+ - text: Cards
+   permalink: /styleguide/#cards
+   in_drawer: true
+ - text: Posts
+   permalink: /styleguide/#posts
+   in_drawer: true
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 
 ## Typography
-<section class="usa-grid-full">
-    <div class="usa-width-two-thirds top-typography">
-        <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-        <h5> $color-base (#000000) </h5>
-    </div>
-    <div class="usa-width-one-half">
-        <h1>h1 3.6 rem, 36px*</h1>
-        <h2> h2 3.2 / 4.16rem (32/41.6px)</h2>
-        <h3> h3 2.4 / 1.3rem (24/31.2px)</h3>
-        <h4> h4 2rem, 20px </h4>
-        <h5> h5 1.4rem, 14px </h5>
-        <p> p 1.8 / 1.5 rem (18 / 27px) </p>
-    </div>
-    <div class="usa-width-one-half">
-         <div class="styleguide-links-section">
-            <a> Link </a>
-            <a class="visited"> Visited </a>
-          </div>
-        {% capture codeblock %}
-          <div class="styleguide-links-section">
-            <a class="link-arrow-right">
-              Link
-              {% include svg/icons/arrow-right.svg %}
-            </a>
-            <a class="link-arrow-left">
-              {% include svg/icons/arrow-left.svg %}
-              Back
-            </a>
-            <a class="link-arrow-right visited">
-              Visited
-              {% include svg/icons/arrow-right.svg %}
-            </a>
-          </div>
-        {% endcapture %}
 
-        {% include details-code.html
-           text="See code"
-           content=codeblock
-           lang="html"
-        %}
-    </div>
+<section class="usa-grid-full">
+  <div class="usa-width-two-thirds top-typography">
+      <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
+      <h5>$color-base (#000000) </h5>
+  </div>
+  <div class="usa-width-one-half">
+{% capture codeblock %}{% raw %}
+<h1>h1 – 3.8rem, 38px</h1>
+<h2>h2 – 3.4rem 34px</h2>
+<h3>h3 – 2.3rem 23px</h3>
+<h4>h4 – 2.1rem, 21px </h4>
+<h5>h5 – 1.4rem, 14px </h5>
+<p>p – 1.8rem, 18px) </p>
+{% endraw %}{% endcapture %}
+{% include details-code.html
+   text="See code"
+   content=codeblock
+   lang="html"
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
+%}
+  </div>
+  <div class="usa-width-one-half">
+{% capture codeblock %}{% raw %}
+<div class="styleguide-links-section">
+  <a> Link </a>
+  <a class="visited"> Visited </a>
+</div>
+<div class="styleguide-links-section">
+  <a class="link-arrow-right">
+    Link
+    {% include svg/icons/arrow-right.svg %}
+  </a>
+  <a class="link-arrow-left">
+    {% include svg/icons/arrow-left.svg %}
+    Back
+  </a>
+  <a class="link-arrow-right visited">
+    Visited
+    {% include svg/icons/arrow-right.svg %}
+  </a>
+</div>
+{% endraw %}{% endcapture %}
+{% include details-code.html
+   text="See code"
+   content=codeblock
+   lang="html"
+%}
+  </div>
 </section>
+---
 ## Color
 
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
-      <div class="color-box-group">
-        <div class="color-box cb-dark"></div>
-        $color-dark | #1c304a
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-medium"></div>
-        $color-medium | #046b99
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-medium-hover"></div>
-        $color-medium-hover | #034c6d
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-bright"></div>
-        $color-bright | #00cfff
-      </div> 
-  </div> 
-  <div class="usa-width-one-half">
-      <div class="color-box-group">
-        <div class="color-box cb-bright-hover"></div>
-        $color-bright-hover | #00a7ce
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-light"></div>
-        $color-light | #b3efff
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-gray"></div>
-        $color-gray | #5b616b
-      </div>
-      <div class="color-box-group">
-        <div class="color-box cb-gray-lightest"></div>
-        $color-gray-lightest | #f1f1f1
-      </div>
+    <div class="color-box-group">
+      <div class="color-box cb-dark"></div>
+      $color-dark | #1c304a
     </div>
+    <div class="color-box-group">
+      <div class="color-box cb-medium"></div>
+      $color-medium | #046b99
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-medium-hover"></div>
+      $color-medium-hover | #034c6d
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-bright"></div>
+      $color-bright | #00cfff
+    </div>
+  </div>
+  <div class="usa-width-one-half">
+    <div class="color-box-group">
+      <div class="color-box cb-bright-hover"></div>
+      $color-bright-hover | #00a7ce
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-light"></div>
+      $color-light | #b3efff
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-gray"></div>
+      $color-gray | #5b616b
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-gray-lightest"></div>
+      $color-gray-lightest | #f1f1f1
+    </div>
+  </div>
 </section>
 
+{% include details-code.html
+   description='We are using variables defined in the USWDS and our own personal overrides.'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L25-L35'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
+%}
+---
 ## Font Family
 
 <section class="usa-grid-full">
@@ -121,7 +143,12 @@ nav_items:
   </div>
 </section>
 
-## Backgrounds 
+{% include details-code.html
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
+%}
+---
+## Backgrounds
 <section class="usa-grid-full">
   <div class="usa-width-one-third">
     <div class="background-box banner-footer-box">
@@ -152,8 +179,9 @@ nav_items:
     </div>
   </div>
 </section>
-
+---
 ## Buttons
+
 <section class="usa-grid">
 <img src="{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png" class="usa-width-one-third" alt="Image of the dimensions and padding of a button on the 18F site" />
 </section>
@@ -193,22 +221,22 @@ nav_items:
    content=codeblock
    lang="html"
 %}
-
+---
 ## Embeds
 
-Here is an example embed and how
+Here is an example embed and how to use it
 
-{{ "https://www.youtube-nocookie.com/embed/8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}
+{% capture embed_codeblock %}{% raw %}{% oembed https://www.youtube.com/watch?v=8wcFK2jYlWw %}{% endraw %}{% endcapture %}
 
-```liquid
-{% raw %}{{ "https://www.youtube-nocookie.com/embed/8wcFK2jYlWw" | embed: "Acquisition Gateway Homepage Redesign" }}{% endraw %}
-```
 
-## Molecules
+{% include details-code.html
+   text="See code"
+   content=embed_codeblock
+   lang="liquid"
+%}
 
-## Organisms
-
-### Hero banner – centered text
+<!-- --- -->
+<!-- ### Hero banner – centered text -->
 {% capture hero_banner %}
 <section class="background-dark usa-section">
   <div class="usa-grid content-focus align-center">
@@ -218,13 +246,13 @@ Here is an example embed and how
 </section>
 {% endcapture %}
 
-{% include details-code.html
+<!-- {% include details-code.html
    text="See code"
    content=hero_banner
    lang="html"
-%}
+%} -->
 
-### Hero banner – left aligned with image
+<!-- ### Hero banner – left aligned with image -->
 {% capture hero_banner_image %}
 <section class="background-dark usa-section">
   <div class="usa-grid content-focus align-center">
@@ -237,29 +265,29 @@ Here is an example embed and how
 </section>
 {% endcapture %}
 
-{% include details-code.html
+<!-- {% include details-code.html
    text="See code"
    content=hero_banner_image
    lang="html"
-%}
+%} -->
 
+---
+## Cards
 
-### Card
+{% capture card %}{% raw %}
+<section class="usa-grid-full usa-section">
+  {% include card-project.html
+     project='fec-gov'
+  %}
+  {% include card-project.html
+     project='hhs-states'
+  %}
 
-{% capture card %}
-<section class="usa-grid usa-section">
-    {% include card-project.html
-       project='fec-gov'
-    %}
-    {% include card-project.html
-       project='hhs-states'
-    %}
-
-    {% include card-project.html
-       project='doi-every-kid-in-a-park'
-    %}
+  {% include card-project.html
+     project='doi-every-kid-in-a-park'
+  %}
 </section>
-{% endcapture %}
+{% endraw %}{% endcapture %}
 
 {% include details-code.html
    text="See code"
@@ -267,19 +295,31 @@ Here is an example embed and how
    lang="html"
 %}
 
+---
+## Posts
 
-### Posts
-
-{% capture styleguide_post %}
-  <section class="usa-grid usa-section posts_feature">
+{% capture styleguide_post %}{% raw %}
+<section class="usa-grid-full usa-section posts_feature">
   {% include post.html
     date='January 6, 2017'
     title='Dummy title'
     excerpt='This is an example of a post with plenty of example text to give it length'
     url=dead_end_link
   %}
-  </section>
-{% endcapture %}
+  {% include post.html
+    date='January 7, 2017'
+    title='Dummy title 2'
+    excerpt='This is an example of a post with plenty of example text to give it length'
+    url=dead_end_link
+  %}
+  {% include post.html
+    date='January 8, 2017'
+    title='Dummy title 3'
+    excerpt='This is an example of a post with plenty of example text to give it length'
+    url=dead_end_link
+  %}
+</section>
+{% endraw %}{% endcapture %}
 
 
 {% include details-code.html

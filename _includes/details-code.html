@@ -1,13 +1,38 @@
-{% capture code %}
-```{{ include.lang | default: 'text' }}
-{{ include.content }}
-```
-{% endcapture %}
+{% if include.content %}
+  {% capture code %}
+  ```{{ include.lang | default: 'text' }}
+  {{ include.content }}
+  ```
+  {% endcapture %}
 
-{{ include.content }}
+{% if include.liquify != false %}
+  {{ include.content | liquify }}
+{% else %}
+  {{ include.content }}
+{% endif %}
+{% endif %}
 
-<details {% if include.open %}open{% endif %}>
-	<summary>{{ include.text }}</summary>
-	{{ code | markdownify }}
-</details>
+<div class="styleguide-details">
+  <h3>Usage details</h3>
+  {% if include.description %}
+    <p>{{ include.description }}</p>
+  {% endif %}
+  {% if include.uswds_ref || include.scss_ref %}
+    <ul>
+      {% if include.uswds_ref %}
+      <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
+      {% endif %}
+      {% if include.scss_ref %}
+      <li><a href="{{ include.scss_ref }}">SCSS references</a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
 
+  {% if include.content %}
+  <details {% if include.open %}open{% endif %}>
+    <summary>{{ include.text }}</summary>
+    {{ code | markdownify }}
+  </details>
+
+  {% endif %}
+</div>
