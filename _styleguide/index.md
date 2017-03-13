@@ -5,8 +5,8 @@ nav_items:
  - text: Typography
    permalink: /styleguide/#typography
    in_drawer: true
- - text: Color
-   permalink: /styleguide/#color
+ - text: Colors
+   permalink: /styleguide/#colors
    in_drawer: true
  - text: Buttons
    permalink: /styleguide/#buttons
@@ -17,8 +17,8 @@ nav_items:
  - text: Cards
    permalink: /styleguide/#cards
    in_drawer: true
- - text: Posts
-   permalink: /styleguide/#posts
+ - text: Post previews
+   permalink: /styleguide/#post-previews
    in_drawer: true
 ---
 
@@ -42,9 +42,7 @@ nav_items:
 {% endraw %}{% endcapture %}
 {% include details-code.html
    title='typography'
-   text="Code"
    content=codeblock
-   lang="html"
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
@@ -52,8 +50,8 @@ nav_items:
   <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <div class="styleguide-links-section">
-  <a> Link </a>
-  <a class="visited"> Visited </a>
+  <a>Link</a>
+  <a class="visited">Visited</a>
 </div>
 <div class="styleguide-links-section">
   <a class="link-arrow-right">
@@ -71,15 +69,14 @@ nav_items:
 </div>
 {% endraw %}{% endcapture %}
 {% include details-code.html
+   description='To use a link, specify the text, direction that the arrow is pointing, and reference the SVG file for the corresponding arrow.'
    title='links'
-   text="Code"
    content=codeblock
-   lang="html"
 %}
   </div>
 </section>
 ---
-## Color
+## Colors
 
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
@@ -148,14 +145,16 @@ nav_items:
 
 {% include details-code.html
    title='fonts'
+   description='We are overriding the font used by the US Web Design Standards.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
 ---
 ## Backgrounds
+{% capture styleguide_background %}{% raw %}
 <section class="usa-grid-full">
-  <div class="usa-width-one-third">
-    <div class="background-box banner-footer-box">
+  <div class="usa-width-one-fourth">
+    <div class="background-gray styleguide-bg-box">
       <div class="p-bold">
         <p>#F1F1F1</p>
         <p>Banner & Footer</p>
@@ -163,8 +162,8 @@ nav_items:
       <p>Font: #000000</p>
     </div>
   </div>
-  <div class="usa-width-one-third">
-    <div class="background-box navigation-box">
+  <div class="usa-width-one-fourth">
+    <div class="background-white styleguide-bg-box">
       <div class="p-bold">
         <p>#FFFFFF</p>
         <p>Navigation, Fields, Page</p>
@@ -172,46 +171,53 @@ nav_items:
       <p>Font: #000000</p>
     </div>
   </div>
-  <div class="usa-width-one-third">
-    <div class="background-box hero-header-box">
+  <div class="usa-width-one-fourth">
+    <div class="background-medium styleguide-bg-box">
+      <div class="p-bold">
+        <p>#FFFFFF</p>
+        <p>Navigation, Fields, Page</p>
+      </div>
+      <p>Font: #000000</p>
+    </div>
+  </div>
+  <div class="usa-width-one-fourth">
+    <div class="background-dark styleguide-bg-box">
       <div class="p-bold">
         <p>#1C304A</p>
         <p>Hero, Header</p>
       </div>
-      <p class="highlight">Highlight:#00CFFF</p>
+      <p class="section-heading">Highlight: #00CFFF</p>
       <p>Font: #FFFFFF</p>
     </div>
   </div>
 </section>
+{% endraw %}{% endcapture %}
+{% include details-code.html
+   title='backgrounds'
+   content=styleguide_background
+   lang='html'
+   description="We are not overriding the US Web Design Standards background classes. Ours follow a similar pattern, but do not contain a `usa-` prefix."
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss#L121-L189'
+%}
 ---
 ## Buttons
 
 <section class="usa-grid">
-<img src="{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png" class="usa-width-one-third" alt="Image of the dimensions and padding of a button on the 18F site" />
+  <img src='{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png'
+       class='usa-width-one-third'
+       alt='Image of the dimensions and padding of a button on the 18F site' />
 </section>
 
-#### Button style light – .usa-button
 
-{% capture codeblock %}
-<section class="usa-grid">
+{% capture styleguide_buttons %}
+<section class="usa-grid usa-section">
   <button class="usa-button">Normal</button>
   <button class="usa-button-hover">Hover</button>
   <button class="usa-button-active">Active</button>
   <button class="usa-button-focus">Focus</button>
   <button class="usa-button-disabled">Disabled</button>
 </section>
-{% endcapture %}
 
-{% include details-code.html
-   title='buttons-light'
-   text="Code"
-   content=codeblock
-   lang="html"
-%}
-
-#### Button style on dark – .usa-button-secondary
-
-{% capture codeblock %}
 <section class="background-dark usa-grid">
   <button class="usa-button usa-button-secondary">Normal</button>
   <button class="usa-button-hover usa-button-secondary">Hover</button>
@@ -221,12 +227,15 @@ nav_items:
 </section>
 {% endcapture %}
 
+
 {% include details-code.html
-   title='buttons-dark'
-   text="Code"
-   content=codeblock
-   lang="html"
+   title='buttons'
+   description='We are overriding the styles for styles set by the US Web Design Standards.'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
+   content=styleguide_buttons
 %}
+
 ---
 ## Embeds
 
@@ -237,46 +246,11 @@ Here is an example embed and how to use it
 
 {% include details-code.html
    title='embeds'
-   text="Code"
    content=embed_codeblock
-   lang="liquid"
+   lang="html"
+   description='We are using a Jekyll plugin called `jekyll_oembed`.'
+   other_ref='https://github.com/18F/jekyll-oembed#usage'
 %}
-
-<!-- --- -->
-<!-- ### Hero banner – centered text -->
-{% capture hero_banner %}
-<section class="background-dark usa-section">
-  <div class="usa-grid content-focus align-center">
-    <h2>We work with federal agencies to approach technology projects in new ways</h2>
-    <a href="{{ dead_end_link }}"><button class="usa-button usa-button-big usa-button-secondary">Our work</button></a>
-  </div>
-</section>
-{% endcapture %}
-
-<!-- {% include details-code.html
-   text="Code"
-   content=hero_banner
-   lang="html"
-%} -->
-
-<!-- ### Hero banner – left aligned with image -->
-{% capture hero_banner_image %}
-<section class="background-dark usa-section">
-  <div class="usa-grid content-focus align-center">
-    <h2>We work with federal agencies to approach technology projects in new ways</h2>
-    <a href="{{ dead_end_link }}"><button class="usa-button usa-button-big usa-button-secondary">Our work</button></a>
-
-    {% include feature-image.html
-               image='/assets/img/page-feature/hire-us.jpg' %}
-  </div>
-</section>
-{% endcapture %}
-
-<!-- {% include details-code.html
-   text="Code"
-   content=hero_banner_image
-   lang="html"
-%} -->
 
 ---
 ## Cards
@@ -298,13 +272,13 @@ Here is an example embed and how to use it
 
 {% include details-code.html
    title='cards'
-   text="Code"
+   description='To use cards, reference the file path slug in the _projects directory. Use another project as a template to fill in all of the necessary fields.'
+   other_ref='https://github.com/18F/18f.gsa.gov/tree/master/_plugins'
    content=card
-   lang="html"
 %}
 
 ---
-## Posts
+## Post previews
 
 {% capture styleguide_post %}{% raw %}
 <section class="usa-grid-full usa-section posts_feature">
@@ -331,9 +305,8 @@ Here is an example embed and how to use it
 
 
 {% include details-code.html
-   text="Code"
    title='posts'
+   description='Post previews are generated dynamically throughout the site. Each preview requires a few attribtues: `date`, `title`, `excerpt`, and `url`.'
    content=styleguide_post
-   lang="html"
 %}
 

@@ -1,6 +1,6 @@
 {% if include.content %}
   {% capture code %}
-  ```{{ include.lang | default: 'text' }}
+  ```{{ include.lang | default: 'html' }}
   {{ include.content }}
   ```
   {% endcapture %}
@@ -14,7 +14,7 @@
 
 
   <ul class="usa-accordion styleguide-details">
-    {% if include.uswds_ref || include.scss_ref || include.description %}
+    {% if include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
     <li>
       <button class="usa-accordion-button"
         aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
@@ -22,9 +22,9 @@
       </button>
       <div id="{{ include.title | slugify  | append: '-details' }}" class="usa-accordion-content styleguide-border">
         {% if include.description %}
-          <p>{{ include.description }}</p>
+          <p>{{ include.description | markdownify }}</p>
         {% endif %}
-        {% if include.uswds_ref || include.scss_ref %}
+        {% if include.uswds_ref or include.scss_ref or include.other_ref %}
           <ul>
             {% if include.uswds_ref %}
             <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
@@ -32,7 +32,14 @@
             {% if include.scss_ref %}
             <li><a href="{{ include.scss_ref }}">SCSS references</a></li>
             {% endif %}
+            {% if include.other_ref %}
+            <li><a href="{{ include.other_ref }}">Documentation</a></li>
+            {% endif %}
           </ul>
+        {% endif %}
+        {% if include.image %}
+        <img class="usa-width-one-third"
+             src="{{ site.baseurl }}/{{ include.image }}" {% if include.image_alt %}alt="{{ include.image_alt }}"{% endif %} />
         {% endif %}
       </div>
     </li>
@@ -40,7 +47,7 @@
     {% if include.content %}
     <li>
       <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}">
-        {{ include.text }}
+        {{ include.text | default: 'Code' }}
       </button>
       <div id="{{ include.title | slugify }}" class="usa-accordion-content styleguide-border">
         {{ code | markdownify }}
