@@ -1,52 +1,48 @@
 //color
 .color-box-group {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .color-box {
-	width: 70%;
-	height: 6rem;
+  width: 70%;
+  height: 6rem;
 }
 
 .cb-dark {
-	background: $color-dark;
+  background: $color-dark;
 }
 
 .cb-medium {
-	background: $color-medium;
+  background: $color-medium;
 }
 
 .cb-medium-hover {
-	background: $color-medium-hover;
+  background: $color-medium-hover;
 }
 
 .cb-bright {
-	background: $color-bright;
+  background: $color-bright;
 }
 .cb-bright-hover {
-	background: $color-bright-hover;
+  background: $color-bright-hover;
 }
 
 .cb-light {
-	background: $color-light;
+  background: $color-light;
 }
 
 .cb-gray {
-	background: $color-gray;
+  background: $color-gray;
 }
 
 .cb-gray-lightest {
-	background: $color-gray-lightest;
+  background: $color-gray-lightest;
 }
 
 //backgrounds
 .styleguide-bg-box {
-	width: 100%;
-	height: 25rem;
-	padding: $site-margins;
-	border: 1px solid $color-gray-lightest;
-}
-
-.highlight {
-	color: $color-bright;
+  width: 100%;
+  height: 25rem;
+  padding: $site-margins;
+  border: 1px solid $color-gray-lightest;
 }
