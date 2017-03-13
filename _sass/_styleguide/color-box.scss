@@ -40,24 +40,11 @@
 }
 
 //backgrounds
-.background-box {
+.styleguide-bg-box {
 	width: 100%;
 	height: 25rem;
-	padding: 2rem;
-}
-
-.banner-footer-box {
-	background: $color-gray-lightest;
-}
-
-.navigation-box {
-	background: white;
+	padding: $site-margins;
 	border: 1px solid $color-gray-lightest;
-}
-
-.hero-header-box {
-	background: $color-dark;
-	color: white;
 }
 
 .highlight {
