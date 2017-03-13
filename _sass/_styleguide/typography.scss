@@ -1,14 +1,14 @@
 //typography
 .top-typography {
-	margin-bottom:$section-margins;
+	margin-bottom: $section-margins;
 }
+
 .intro-font {
 	color: $color-gray;
-	font-size: 20px;
+	font-size: $h4-font-size;
 }
 
 //links
-
 .styleguide-links-section {
 	margin-bottom: $section-margins;
 
@@ -18,15 +18,10 @@
 }
 
 .visited {
-	color: #4c2c92;
+	color: $color-visited;
 }
 
 //Font Family
 .text-huge {
 	font-size: 80px;
 }
-
-.text-tiny {
-	font-size: 15px;
-}
-

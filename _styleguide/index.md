@@ -2,6 +2,9 @@
 title: 18F site UI styleguide
 permalink: /styleguide/
 nav_items:
+ - text: Font Family
+   permalink: /styleguide/#font-family
+   in_drawer: true
  - text: Typography
    permalink: /styleguide/#typography
    in_drawer: true
@@ -24,12 +27,40 @@ nav_items:
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 
+
+## Font Family
+
+<section class="usa-grid-full">
+  <div class="usa-width-one-half">
+    <p>Helvetica Neue, Regular</p>
+    <div class="text-huge"> Aa </div>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
+    <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+    <p>0 1 2 3 4 5 6 7 8 9</p>
+  </div>
+  <div class="usa-width-one-half p-bold">
+    <p>Helvetica Neue, Bold</p>
+    <div class="text-huge"> Aa </div>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
+    <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+    <p>0 1 2 3 4 5 6 7 8 9</p>
+  </div>
+</section>
+
+{% include details-code.html
+   title='fonts'
+   description='We are overriding the font used by the US Web Design Standards.'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
+%}
+---
+
 ## Typography
 
 <section class="usa-grid-full">
-  <div class="usa-width-two-thirds top-typography">
+  <div class="usa-width-two-thirds usa-section">
       <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-      <h5>$color-base (#000000) </h5>
+      <div class="h5">$color-base (#000000) </div>
   </div>
   <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
@@ -43,6 +74,7 @@ nav_items:
 {% include details-code.html
    title='typography'
    content=codeblock
+   description='To use headers, either use the semantic element, or reference it with a dot-delimited class. For example: `<p class =".h1">` would render the same as `<h1>`.'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
@@ -122,32 +154,6 @@ nav_items:
    description='We are using variables defined in the USWDS and our own personal overrides.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L25-L35'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
-%}
----
-## Font Family
-
-<section class="usa-grid-full">
-  <div class="usa-width-one-half">
-    <p>Helvetica Neue, Regular</p>
-    <span class="text-huge"> Aa </span>
-    <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
-    <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-    <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
-  </div>
-  <div class="usa-width-one-half p-bold">
-    <p>Helvetica Neue, Bold</p>
-    <span class="text-huge"> Aa </span>
-    <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W Z Y Z</p>
-    <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-    <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
-  </div>
-</section>
-
-{% include details-code.html
-   title='fonts'
-   description='We are overriding the font used by the US Web Design Standards.'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
 ---
 ## Backgrounds
