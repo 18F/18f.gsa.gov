@@ -1,12 +1,20 @@
 //typography
-.intro-font{
+.top-typography {
+	margin-bottom:$section-margins;
+}
+.intro-font {
 	color: $color-gray;
 	font-size: 20px;
 }
 
 //links
-.styleguide-links{
-	margin: $paragraph-margins;
+
+.styleguide-links-section {
+	margin-bottom: $section-margins;
+
+	a {
+		margin-right: $paragraph-margins;
+	}
 }
 
 .visited {
@@ -15,7 +23,7 @@
 
 //Font Family
 .text-huge {
-	font-size: 120px;
+	font-size: 80px;
 }
 
 .text-tiny {
