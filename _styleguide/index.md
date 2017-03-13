@@ -41,7 +41,8 @@ nav_items:
 <p>p – 1.8rem, 18px) </p>
 {% endraw %}{% endcapture %}
 {% include details-code.html
-   text="See code"
+   title='typography'
+   text="Code"
    content=codeblock
    lang="html"
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
@@ -70,7 +71,8 @@ nav_items:
 </div>
 {% endraw %}{% endcapture %}
 {% include details-code.html
-   text="See code"
+   title='links'
+   text="Code"
    content=codeblock
    lang="html"
 %}
@@ -119,6 +121,7 @@ nav_items:
 </section>
 
 {% include details-code.html
+   title='colors'
    description='We are using variables defined in the USWDS and our own personal overrides.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L25-L35'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
@@ -144,6 +147,7 @@ nav_items:
 </section>
 
 {% include details-code.html
+   title='fonts'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
@@ -199,7 +203,8 @@ nav_items:
 {% endcapture %}
 
 {% include details-code.html
-   text="See code"
+   title='buttons-light'
+   text="Code"
    content=codeblock
    lang="html"
 %}
@@ -217,7 +222,8 @@ nav_items:
 {% endcapture %}
 
 {% include details-code.html
-   text="See code"
+   title='buttons-dark'
+   text="Code"
    content=codeblock
    lang="html"
 %}
@@ -230,7 +236,8 @@ Here is an example embed and how to use it
 
 
 {% include details-code.html
-   text="See code"
+   title='embeds'
+   text="Code"
    content=embed_codeblock
    lang="liquid"
 %}
@@ -247,7 +254,7 @@ Here is an example embed and how to use it
 {% endcapture %}
 
 <!-- {% include details-code.html
-   text="See code"
+   text="Code"
    content=hero_banner
    lang="html"
 %} -->
@@ -266,7 +273,7 @@ Here is an example embed and how to use it
 {% endcapture %}
 
 <!-- {% include details-code.html
-   text="See code"
+   text="Code"
    content=hero_banner_image
    lang="html"
 %} -->
@@ -290,7 +297,8 @@ Here is an example embed and how to use it
 {% endraw %}{% endcapture %}
 
 {% include details-code.html
-   text="See code"
+   title='cards'
+   text="Code"
    content=card
    lang="html"
 %}
@@ -323,7 +331,8 @@ Here is an example embed and how to use it
 
 
 {% include details-code.html
-   text="See code"
+   text="Code"
+   title='posts'
    content=styleguide_post
    lang="html"
 %}
