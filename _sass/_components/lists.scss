@@ -15,7 +15,8 @@
     height: auto;
     margin: 0;
     margin-right: $paragraph-margins;
-    width: $icon-diameter;
+    min-width: 1.5 * $icon-diameter;
+    width: 1.5 * $icon-diameter;
   }
 }
 
