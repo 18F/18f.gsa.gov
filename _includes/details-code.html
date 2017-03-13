@@ -12,27 +12,39 @@
 {% endif %}
 {% endif %}
 
-<div class="styleguide-details">
-  <h3>Usage details</h3>
-  {% if include.description %}
-    <p>{{ include.description }}</p>
-  {% endif %}
-  {% if include.uswds_ref || include.scss_ref %}
-    <ul>
-      {% if include.uswds_ref %}
-      <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
-      {% endif %}
-      {% if include.scss_ref %}
-      <li><a href="{{ include.scss_ref }}">SCSS references</a></li>
-      {% endif %}
-    </ul>
-  {% endif %}
 
-  {% if include.content %}
-  <details {% if include.open %}open{% endif %}>
-    <summary>{{ include.text }}</summary>
-    {{ code | markdownify }}
-  </details>
-
-  {% endif %}
-</div>
+  <ul class="usa-accordion styleguide-details">
+    {% if include.uswds_ref || include.scss_ref || include.description %}
+    <li>
+      <button class="usa-accordion-button"
+        aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
+        Usage details
+      </button>
+      <div id="{{ include.title | slugify  | append: '-details' }}" class="usa-accordion-content styleguide-border">
+        {% if include.description %}
+          <p>{{ include.description }}</p>
+        {% endif %}
+        {% if include.uswds_ref || include.scss_ref %}
+          <ul>
+            {% if include.uswds_ref %}
+            <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
+            {% endif %}
+            {% if include.scss_ref %}
+            <li><a href="{{ include.scss_ref }}">SCSS references</a></li>
+            {% endif %}
+          </ul>
+        {% endif %}
+      </div>
+    </li>
+    {% endif %}
+    {% if include.content %}
+    <li>
+      <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}">
+        {{ include.text }}
+      </button>
+      <div id="{{ include.title | slugify }}" class="usa-accordion-content styleguide-border">
+        {{ code | markdownify }}
+      </div>
+    </li>
+    {% endif %}
+  </ul>

@@ -17,12 +17,10 @@
 }
 
 .styleguide-details {
-  border: 1px solid $color-gray-lighter;
   margin-bottom: $site-margins;
   margin-top: $site-margins;
-  padding: $site-margins;
 }
 
-.styleguide-light-outline {
-
+.styleguide-border {
+  border: 1px solid $color-gray-lightest;
 }
