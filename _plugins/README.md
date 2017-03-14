@@ -60,6 +60,8 @@ Example usage:
 
 ### embed: Creates an iframe with the specified link. Lives in [embed.rb](embed.rb)
 
+*This is being deprecated* It still works, but the preferable usage is [here](https://github.com/18F/jekyll-oembed#usage), for the `jekyll_oembed` gem.
+
 Example usage:
 
 ```liquid
