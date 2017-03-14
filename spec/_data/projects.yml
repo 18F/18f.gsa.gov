@@ -1,0 +1,10 @@
+- title: Some project
+  weight: 1
+  alt_weight: 2
+- title: Cool project
+  weight: 2
+- title: Alphabetically first project
+  alt_weight: 2
+- title: Ze alphabetically last project
+- title: Heavy project
+  weight: 10

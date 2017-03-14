@@ -1,0 +1,66 @@
+- name: Department of Agriculture
+  logo: /assets/img/logos/agencies/USDA.svg
+- name: Department of Commerce
+  logo: /assets/img/logos/agencies/USDC.png
+- name: Department of Defense
+  logo: /assets/img/logos/agencies/USDD.svg
+- name: Department of Education
+  logo: /assets/img/logos/agencies/USDE.png
+- name: Department of Health and Human Services
+  logo: /assets/img/logos/agencies/USDHHS.png
+- name: Department of Homeland Security
+  logo: /assets/img/logos/agencies/USDHS.svg
+- name: Department of Housing and Urban Development
+  logo: /assets/img/logos/agencies/USHUD.svg
+- name: Department of Justice
+  logo: /assets/img/logos/agencies/USDOJ.png
+- name: Department of State
+  logo: /assets/img/logos/agencies/USDS.png
+- name: Department of the Interior
+  logo: /assets/img/logos/agencies/USDOI.svg
+- name: Department of the Treasury
+  logo: /assets/img/logos/agencies/USDT.png
+- name: Department of Veterans Affairs
+  logo: /assets/img/logos/agencies/USDVA.png
+- name: House of Representatives
+  logo: /assets/img/logos/agencies/USHR.svg
+- name: Central Intelligence Agency
+  acronym: CIA
+  logo: /assets/img/logos/agencies/cia.svg
+- name: Consumer Financial Protection Bureau
+  acronym: CFBP
+  logo: /assets/img/logos/agencies/cfpb.png
+- name: Environmental Protection Agency
+  acronym: EPA
+  logo: /assets/img/logos/agencies/EPA.png
+- name: Federal Election Commission
+  acronym: FEC
+  logo: /assets/img/logos/agencies/fec.svg
+- name: General Services Administration
+  acronym: GSA
+  logo: /assets/img/logos/gsa-logo.svg
+- name: National Aeronautics and Space Administration
+  acronym: NASA
+  logo: /assets/img/logos/agencies/NASA.svg
+- name: National Archives and Records Administration
+  acronym: NARA
+  logo: /assets/img/logos/agencies/NARA.png
+- name: Nuclear Regulatory Commission
+  logo: /assets/img/logos/agencies/NRC.svg
+- name: Office of Management and Budget
+  acronym: OMB
+  logo: /assets/img/logos/agencies/OMB.svg
+- name: Office of Personnel Management
+  acronym: OPM
+  logo: /assets/img/logos/agencies/OPM.png
+- name: Securities and Exchange Commission
+  acronym: SEC
+  logo: /assets/img/logos/agencies/SEC.svg
+- name: Small Business Administration
+  acronym: SBA
+  logo: /assets/img/logos/agencies/SBA.svg
+- name: Social Security Administration
+  logo: /assets/img/logos/agencies/SSA.png
+- name: U.S. Postal Service
+  acronym: USPS
+  logo: /assets/img/logos/agencies/USPS.svg
