@@ -26,6 +26,8 @@ RSpec.describe Jekyll::Utility do
     @project_page = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_posts/project_page.rb')))
     @post_url = @first_post['url']
     @post_url = @utility_class.clip_char(@post_url.to_s.downcase, '/')
+
+    @projects = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/projects.yml')))
   end
 
   describe '#clip_char' do
@@ -191,6 +193,51 @@ RSpec.describe Jekyll::Utility do
     it 'finds a grandchild level page' do
       actual = @utility_class.find_page('/join/interview-process/child-1/', @nav_items)
       expect(actual).to match @nav_item_join['children'][4]['children'][0]
+    end
+  end
+
+  describe '#in_groups' do
+    it 'divides an array into a set of arrays' do
+      actual = @utility_class.in_groups([1, 2, 3], 3)
+      expect(actual).to match [[1], [2], [3]]
+      actual = @utility_class.in_groups([1, 2, 3, 4], 2)
+      expect(actual).to match [[1, 2], [3, 4]]
+    end
+
+    it 'divides an array, with the remainder going to the remaining arrays evenly' do
+      actual = @utility_class.in_groups([1, 2, 3, 4, 5], 3)
+      expect(actual).to match [[1, 2], [3, 4], [5]]
+    end
+
+    it 'divides an array into a set of arrays; Works with all types' do
+      actual = @utility_class.in_groups([1, 'two', nil, [3, 4], 5.6], 3)
+      expect(actual).to match [[1, 'two'], [nil, [3, 4]], [5.6]]
+    end
+  end
+
+  describe '#weighted_sort' do
+    it 'orders an array of objects by the attributes defined' do
+      actual = @utility_class.weighted_sort(@projects, 'weight', 'title')
+      expected = [
+        { 'title' => 'Heavy project', 'weight' => 10 },
+        { 'title' => 'Cool project', 'weight' => 2 },
+        { 'title' => 'Some project', 'weight' => 1, 'alt_weight' => 2 },
+        { 'title' => 'Alphabetically first project', 'alt_weight' => 2 },
+        { 'title' => 'Ze alphabetically last project' }
+      ]
+      expect(actual).to match expected
+    end
+
+    it 'orders an array of objects by the attributes defined' do
+      actual = @utility_class.weighted_sort(@projects, 'alt_weight', 'title')
+      expected = [
+        { 'title' => 'Alphabetically first project', 'alt_weight' => 2 },
+        { 'title' => 'Some project', 'weight' => 1, 'alt_weight' => 2 },
+        { 'title' => 'Cool project', 'weight' => 2 },
+        { 'title' => 'Heavy project', 'weight' => 10 },
+        { 'title' => 'Ze alphabetically last project' }
+      ]
+      expect(actual).to match expected
     end
   end
 end
