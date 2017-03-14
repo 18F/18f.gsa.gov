@@ -2,30 +2,33 @@
 title: 18F site UI styleguide
 permalink: /styleguide/
 nav_items:
- - text: Font Family
-   permalink: /styleguide/#font-family
-   in_drawer: true
- - text: Typography
-   permalink: /styleguide/#typography
-   in_drawer: true
- - text: Colors
-   permalink: /styleguide/#colors
-   in_drawer: true
- - text: Buttons
-   permalink: /styleguide/#buttons
-   in_drawer: true
- - text: Embeds
-   permalink: /styleguide/#embeds
-   in_drawer: true
- - text: Cards
-   permalink: /styleguide/#cards
-   in_drawer: true
- - text: Post previews
-   permalink: /styleguide/#post-previews
-   in_drawer: true
- - text: Blog tags
-   permalink: /styleguide/#blog-tags
-   in_drawer: true
+  - text: Font Family
+    permalink: /styleguide/#font-family
+    in_drawer: true
+  - text: Typography
+    permalink: /styleguide/#typography
+    in_drawer: true
+  - text: Colors
+    permalink: /styleguide/#colors
+    in_drawer: true
+  - text: Buttons
+    permalink: /styleguide/#buttons
+    in_drawer: true
+  - text: Embeds
+    permalink: /styleguide/#embeds
+    in_drawer: true
+  - text: Cards
+    permalink: /styleguide/#cards
+    in_drawer: true
+  - text: Post previews
+    permalink: /styleguide/#post-previews
+    in_drawer: true
+  - text: Blog tags
+    permalink: /styleguide/#blog-tags
+    in_drawer: true
+  - text: Blockquotes
+    permalink: /styleguide/#blockquotes
+    in_drawer: true
 tags:
   - web design standards
   - design
@@ -347,3 +350,55 @@ Here is an example embed and how to use it
    content=styleguide_blog_tags
    other_ref='https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/tags.yml'
 %}
+
+---
+## Blockquotes
+
+
+{% capture styleguide_blockquotes %}{% raw %}
+#### Blockquote as markdown:
+> I'm thankful for a safe workplace that encourages me to raise a hand for help...or a high five. — **Micah Taylor**
+
+#### Our markdown blockquotes support line breaks:
+> We recently welcomed the newest group of Presidential Innovation
+> Fellows into the federal government. This diverse group represents
+> some of the nation’s most talented and creative civic-minded
+> innovators.
+>
+> More than a thousand candidates applied to serve the country in this
+> unique capacity. From this pool of amazing and incredibly motivated
+> applicants, we selected almost 30 designers, developers, entrepreneurs
+> and executives to bring their unique skills into government.
+
+#### Blockquote as HTML:
+<blockquote>
+  I’m thankful for how much I learn every week at 18F — from colleagues, agency partners, and the work itself. — <strong>Corey Mahoney</strong>
+</blockquote>
+
+#### Pull quotes with and without a team image:
+<section class="usa-grid-full">
+  <div class="pquote">
+    {{ "shawn" | team_photo }}
+    <blockquote>
+  “I wanted a new challenge, and I wanted to learn from some of the best
+  minds in design and technology.” - {{ "shawn" | team_link }}
+    </blockquote>
+  </div>
+  <div class="pquote">
+  {{ "laura-gerhardt" | team_photo }}
+    <blockquote>
+      “To work on how technology could improve government service delivery in a deeper way than just as a communications platform.” - {{ "laura-gerhardt" | team_link }}
+    </blockquote>
+  </div>
+</section>
+{% endraw %}{% endcapture %}
+
+{% include details-code.html
+   title='blockquotes'
+   description="Our blockquotes use the `kramdown` renderer, so please defer to the documentation below for details on markdown rendering issues. 18f.gsa.gov does, however, set styles that are unique to 18F brand for both blockquotes and pull quotes."
+   content=styleguide_blockquotes
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blockquotes.scss'
+   other_ref='https://kramdown.gettalong.org/quickref.html#blockquotes'
+%}
+
+
