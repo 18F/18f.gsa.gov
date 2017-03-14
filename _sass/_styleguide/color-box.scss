@@ -47,3 +47,23 @@
   padding: $site-margins;
   border: 1px solid $color-gray-lightest;
 }
+
+// Box
+.box-rem-wrapper {
+  align-items: center;
+  border: 1px solid $color-gray-lightest;
+  display: inline-block;
+  padding: $paragraph-margins;
+}
+
+.box-rem {
+  background: $color-base;
+  display: inline-block;
+  height: 1rem;
+  margin-right: $paragraph-margins;
+  width: 1rem;
+}
+
+.box-base-wrapper {
+  margin-bottom: $site-margins;
+}

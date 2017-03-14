@@ -23,6 +23,13 @@ nav_items:
  - text: Post previews
    permalink: /styleguide/#post-previews
    in_drawer: true
+ - text: Blog tags
+   permalink: /styleguide/#blog-tags
+   in_drawer: true
+tags:
+  - web design standards
+  - design
+  - open source
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
@@ -49,7 +56,7 @@ nav_items:
 
 {% include details-code.html
    title='fonts'
-   description='We are overriding the font used by the US Web Design Standards.'
+   description='We are overriding the font used by the U.S. Web Design Standards.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
@@ -59,8 +66,13 @@ nav_items:
 
 <section class="usa-grid-full">
   <div class="usa-width-two-thirds usa-section">
+    <div class="box-base-wrapper">
       <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-      <div class="h5">$color-base (#000000)</div>
+      <div class="h5">$color-base: #000000</div>
+    </div>
+    <div class="box-rem-wrapper" style="">
+      <div class="box-rem"></div><span>1rem = 10px</span>
+    </div>
   </div>
   <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
@@ -202,7 +214,7 @@ nav_items:
    title='backgrounds'
    content=styleguide_background
    lang='html'
-   description="We are not overriding the US Web Design Standards background classes. Ours follow a similar pattern, but do not contain a `usa-` prefix."
+   description="We are not overriding the U.S. Web Design Standards background classes. Ours follow a similar pattern, but do not contain a `usa-` prefix."
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss#L121-L189'
 %}
 ---
@@ -236,7 +248,7 @@ nav_items:
 
 {% include details-code.html
    title='buttons'
-   description='We are overriding the styles for styles set by the US Web Design Standards.'
+   description='We are overriding the styles for styles set by the U.S. Web Design Standards.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
    content=styleguide_buttons
@@ -315,4 +327,23 @@ Here is an example embed and how to use it
    description='Post previews are generated dynamically throughout the site. Each preview requires a few attribtues: `date`, `title`, `excerpt`, and `url`.'
    content=styleguide_post
 %}
+---
+## Blog tags
 
+{% capture styleguide_blog_tags %}{% raw %}
+<section class="usa-grid-full">
+  <span class="post-tags" itemprop="keywords">
+    {% for tag in page.tags %}
+      <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+      </a>
+    {% endfor %}
+  </span>
+</section>
+{% endraw %}{% endcapture %}
+
+{% include details-code.html
+   title='blog-tags'
+   description="Blog tags are generated and draw from a post's `tags` property. Before you use a tag, make sure that it is in the list of acceptable tags, linked below."
+   content=styleguide_blog_tags
+   other_ref='https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/tags.yml'
+%}
