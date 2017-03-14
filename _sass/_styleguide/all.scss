@@ -3,12 +3,21 @@
 
 
 .menu-btn-styleguide {
+  align-items: flex-start;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   left: 0;
+  margin: 0;
   position: fixed;
+  top: 0;
 
   svg {
     height: $icon-diameter;
+    margin-top: 2.7rem;
     width: $icon-diameter;
+
 
     path {
       fill: $color-white;
