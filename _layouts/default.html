@@ -7,20 +7,24 @@
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
-    {% include header.html %}
+    {% unless layout.title == '18F Styleguide' %}
+      {% include header.html %}
+    {% endunless %}
 
     <div class="main-content" id="main-content">
       {{ content }}
     </div>
 
-    {% include navigation.html drawer=true %}
+    {% unless layout.title == '18F Styleguide' %}
+      {% include navigation.html drawer=true %}
 
-    <footer role="contentinfo">
-      <div class="usa-grid">
+      <footer role="contentinfo">
+        <div class="usa-grid">
 
-      {% include navigation.html footer=true %}
-      </div>
-    </footer>
+        {% include navigation.html footer=true %}
+        </div>
+      </footer>
+    {% endunless %}
 
     {% include javascript.html %}
     {% jekyll_pages_api_search_load %}
