@@ -1,0 +1,32 @@
+@import 'color-box';
+@import 'typography';
+
+
+.menu-btn-styleguide {
+  align-items: flex-start;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+
+  svg {
+    height: $icon-diameter;
+    width: $icon-diameter;
+
+    path {
+      fill: $color-white;
+    }
+  }
+}
+
+.styleguide-details {
+  margin-bottom: $site-margins;
+  margin-top: $site-margins;
+}
+
+.styleguide-border {
+  border: 1px solid $color-gray-lightest;
+}

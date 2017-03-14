@@ -5,6 +5,12 @@ $(function (){
     e.preventDefault();
   });
 
+  // Styleguide drawer
+  $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
+    $('.nav-mobile-styleguide').toggleClass('is-visible');
+    e.preventDefault();
+  });
+
   // Subnav crawling
   var $navItems = $('.nav-subnav a');
   var $window = $(window);
