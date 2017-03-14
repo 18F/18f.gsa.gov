@@ -4,8 +4,6 @@ Fixes issue(s) # .
 
 [:sunglasses: PREVIEW](https://federalist.fr.cloud.gov/preview/18f/18f.gsa.gov/BRANCH_NAME/)
 
-[Preview README for this branch](https://github.com/18F/18f.gsa.gov/blob/BRANCH_NAME/README.md)
-
 Changes proposed in this pull request:
 -
 -
