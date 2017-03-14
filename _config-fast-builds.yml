@@ -47,6 +47,5 @@ exclude:
 - system-security-plan.yml
 - tests/
 - tests/schema/tags.yml
-- tmp/
 - vendor
 - _posts/
