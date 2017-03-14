@@ -1,5 +1,7 @@
 ---
 env: development
+include:
+- 404.html
 exclude:
 - ".about.yml"
 - ".cfignore"
