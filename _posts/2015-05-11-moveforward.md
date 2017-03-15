@@ -29,18 +29,18 @@ Administration (GSA) headquarters.
 The government-employee only event featured the entire digital services
 family including members of [18F](https://18f.gsa.gov/), the
 [Presidential Innovation
-Fellows](https://www.whitehouse.gov/innovationfellows) (PIF), the
+Fellows](https://obamawhitehouse.archives.gov/innovationfellows) (PIF), the
 [U.S. Digital
-Service](https://www.whitehouse.gov/digital/united-states-digital-service)
+Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service)
 (USDS), the [VA Digital Service](http://www.va.gov/ds/), and the
 [White House Office of Science and Technology
-Policy](https://www.whitehouse.gov/administration/eop/ostp). The
+Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp). The
 afternoon event filled with workshopping, lightning talks, and product
 demos was part pep rally and part brown bag.
 
 “A sort of digital flash mob,” said [Ryan Panchadsaram, the federal
 government’s deputy chief technology
-officer](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff),
+officer](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff),
 as he pumped up the crowd. The objective of moveForward(100); is to
 regularly demo the awesome work of federal technologists, recently
 deployed or planned for release in the next 100 days.
@@ -49,7 +49,7 @@ deployed or planned for release in the next 100 days.
 deputy executive director of 18F, as she greeted the crowd in the GSA
 conference center. The demonstration session was kicked off by [U.S.
 Chief Technology Officer Megan
-Smith](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff/smith).
+Smith](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith).
 She recognized the tremendous work being done to increase efficiency and
 transparency across the federal government.
 
@@ -59,7 +59,7 @@ things we can do to help the American people,” said Smith.
 18F and PIF teams shared why certain projects were selected and the
 impact of the innovative project solutions. The presentations included a
 PIF project [using data and technology to improve community
-policing](https://www.whitehouse.gov/blog/2015/04/09/using-technology-and-data-improve-community-policing-police-data-initiative);
+policing](https://obamawhitehouse.archives.gov/blog/2015/04/09/using-technology-and-data-improve-community-policing-police-data-initiative);
 an 18F project resulting in an automated tool that provides better
 access to Federal Elections Commission data; a tool that streamlines the
 immigration application process; and a PIF [crowd-sourced mapping

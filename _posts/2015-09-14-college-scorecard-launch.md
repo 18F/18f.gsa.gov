@@ -15,7 +15,7 @@ description: "How we worked with the Department of Education on new steps to hel
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
 ---
 
-*Editor's note: This post was originally published on [whitehouse.gov](https://www.whitehouse.gov/blog/2015/09/12/under-hood-building-new-college-scorecard-students) by Lisa Gelobter, the Chief Digital Service Officer at the U.S. Department of Education. 18F team members Sarah Allen, Shawn Allen, Michelle Herzfeld, and Yoz Grahame along with Noah Kunin, Ozzy Johnson, Diego Mayer-Cantu, and Holly Allen worked with Lisa and the rest of the team from the U.S. Digital Service and the Education Department to develop College Scorecard.*
+*Editor's note: This post was originally published on [whitehouse.gov](https://obamawhitehouse.archives.gov/blog/2015/09/12/under-hood-building-new-college-scorecard-students) by Lisa Gelobter, the Chief Digital Service Officer at the U.S. Department of Education. 18F team members Sarah Allen, Shawn Allen, Michelle Herzfeld, and Yoz Grahame along with Noah Kunin, Ozzy Johnson, Diego Mayer-Cantu, and Holly Allen worked with Lisa and the rest of the team from the U.S. Digital Service and the Education Department to develop College Scorecard.*
 
 My niece is a smart kid. I’m biased, but I swear she is.
 
@@ -36,7 +36,7 @@ College search resources like [ScholarMatch](http://scholarmatcher.scholarmatch.
 ![A team of people look at a demo of College Scorecard]({{site.baseurl}}/assets/blog/college-scorecard/college-scorecard-1.jpg)
 *One of our many demos.*
 
-This was a truly collaborative team effort: thank you to the [Department of Education](http://www.ed.gov/), White House Domestic Policy Council, White House Council of Economic Advisors, Department of Treasury, Office of Management and Budget, [18F](https://18f.gsa.gov/) (at GSA) and the team at the [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service).
+This was a truly collaborative team effort: thank you to the [Department of Education](http://www.ed.gov/), White House Domestic Policy Council, White House Council of Economic Advisors, Department of Treasury, Office of Management and Budget, [18F](https://18f.gsa.gov/) (at GSA) and the team at the [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service).
 
 **Here are two plays we kept in mind as we went through the process:**
 

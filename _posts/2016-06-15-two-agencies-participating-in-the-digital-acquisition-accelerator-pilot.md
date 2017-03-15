@@ -33,7 +33,7 @@ then complete two digital acquisitions using that new-found knowledge
 with assistance and coaching from the pilot program team.
 
 [Announced in
-March](https://www.whitehouse.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs),
+March](https://obamawhitehouse.archives.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs),
 the pilot was launched in order to help agencies accelerate the adoption
 of emerging digital acquisition practices such as lean-agile and
 human-centered design. This fully-funded U.S. General Services

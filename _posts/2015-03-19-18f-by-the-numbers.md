@@ -42,7 +42,7 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 
 20: People expected to join 18F during the next few weeks
 
-32: Number of current [Presidential Innovation Fellows](https://www.whitehouse.gov/innovationfellows) and program staff
+32: Number of current [Presidential Innovation Fellows](https://obamawhitehouse.archives.gov/innovationfellows) and program staff
 
 87: Total number of Presidential Innovation Fellows
 

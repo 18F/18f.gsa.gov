@@ -113,7 +113,7 @@ Please republish this article or the following links to promote the
 Presidential Innovation Fellow program:
 
 -   Read: [a blog post by Todd Park, U.S. CTO and GSA Administrator Dan
-    Tangherlini.](https://www.whitehouse.gov/blog/2014/03/05/presidential-innovation-fellows-round-3-serve-create-innovate)
+    Tangherlini.](https://obamawhitehouse.archives.gov/blog/2014/03/05/presidential-innovation-fellows-round-3-serve-create-innovate)
 
 -   Watch: U.S. Deputy CTO Jen Pahlka [issue a call to the innovation
     community](https://www.youtube.com/watch?v=KK0HOIqOcHw) to join the
@@ -122,7 +122,7 @@ Presidential Innovation Fellow program:
 
 -   Find: The list of [Round 3 Presidential Innovation Fellows program
     projects
-    here.](https://www.whitehouse.gov/innovationfellows/projects#section-round-3)
+    here.](https://obamawhitehouse.archives.gov/innovationfellows/projects#section-round-3)
 
 **P.S. Consider saving the taxpayer money by contributing to
 Presidential Innovation Fellow open-source projects**

@@ -24,7 +24,7 @@ image: /assets/blog/https-webinar/https-webinar-screen.jpg
 
 ## Introduction to HTTPS for beginners
 
-This presentation explains how communication across the web works today and briefly dives into [whitehouse.gov](https://www.whitehouse.gov/) using an ordinary browser. It then shows [how HTTPS protects users on the web](https://https.cio.gov/faq/), and walks through a number of reasons for the web and the government to use [HTTPS everywhere](https://https.cio.gov/everything/).
+This presentation explains how communication across the web works today and briefly dives into [whitehouse.gov](https://obamawhitehouse.archives.gov/) using an ordinary browser. It then shows [how HTTPS protects users on the web](https://https.cio.gov/faq/), and walks through a number of reasons for the web and the government to use [HTTPS everywhere](https://https.cio.gov/everything/).
 
 There is no technical background required for this video — anyone who has used the web before should be able to understand the concepts discussed.
 

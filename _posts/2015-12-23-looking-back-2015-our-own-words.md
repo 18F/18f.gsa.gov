@@ -29,7 +29,7 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ## Accessibility
 
-*[The White House Office of Science and Technology Policy](https://www.whitehouse.gov/administration/eop/ostp), [18F]({{site.baseurl}}/), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
+*[The White House Office of Science and Technology Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp), [18F]({{site.baseurl}}/), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
 
 “I loved organizing the accessibility hackathon and it’s been a blast working on the [micropurchase experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) and the [Agile BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) work.” - **Alan deLevie**
 
@@ -67,7 +67,7 @@ _Since we wrote about it in February, 14 more.gov domains have been fully preloa
 
 ### analytics.usa.gov
 
-*In March, we worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/ "Digital Analytics Program"), the [U.S. Digital Service (USDS)](https://www.whitehouse.gov/digital/united-states-digital-service "U.S. Digital Service"), and the White House to [build and host](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/ "18F: How we built analytics.usa.gov") a dashboard showing U.S. federal government web traffic.*
+*In March, we worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/ "Digital Analytics Program"), the [U.S. Digital Service (USDS)](https://obamawhitehouse.archives.gov/digital/united-states-digital-service "U.S. Digital Service"), and the White House to [build and host](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/ "18F: How we built analytics.usa.gov") a dashboard showing U.S. federal government web traffic.*
 
 “I really enjoyed working on [analytics.usa.gov](https://analytics.usa.gov/ "U.S. Government Analytics"). Being empowered to build a MVP quickly and well and keep iterating it was very refreshing.” - **Gray Brooks**
 
@@ -149,7 +149,7 @@ _The U.S. Web Design Standards are designed to be viewed on any device._
 
 ### Every Kid in a Park
 
-*Earlier this year, President Obama [formally announced](https://www.whitehouse.gov/the-press-office/2015/09/01/administration-launches-every-kid-park-pass "White House: Every Kid in a Park announcement") the Every Kid in a Park program, which provides fourth graders and their families with free access to more than 2,000 federally-managed sites. 18F worked with the Department of the Interior to create the program’s website, which was written at a fourth grade level [**with the help of fourth graders**](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/ "18F: Every kid in a park").*
+*Earlier this year, President Obama [formally announced](https://obamawhitehouse.archives.gov/the-press-office/2015/09/01/administration-launches-every-kid-park-pass "White House: Every Kid in a Park announcement") the Every Kid in a Park program, which provides fourth graders and their families with free access to more than 2,000 federally-managed sites. 18F worked with the Department of the Interior to create the program’s website, which was written at a fourth grade level [**with the help of fourth graders**](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/ "18F: Every kid in a park").*
 
 “I really enjoyed working on [Every Kid In A Park](https://everykidinapark.gov/ "Every Kid in a Park") because I helped develop a project with an amazing team to help kids get to the park!" - **Christine Cheung**
 

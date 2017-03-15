@@ -39,6 +39,6 @@ We are compiling a [list of open source tools and resources](https://18f.github.
 
 Please feel free to [provide feedback and suggest additional resources](https://github.com/18F/API-All-the-X/issues?state=open); the entire /Developer Program is an [open source project on GitHub](https://github.com/18F/API-All-the-X).
 
-[^1]: This was recommended in the [Digital Government Strategy](https://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html#open-data-default).
+[^1]: This was recommended in the [Digital Government Strategy](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/digital-government/digital-government.html#open-data-default).
 
 [^2]: Credit: [@svt827](https://twitter.com/svt827)

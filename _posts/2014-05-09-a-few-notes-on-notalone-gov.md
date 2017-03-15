@@ -27,10 +27,10 @@ tags:
 At the end of April, Vice President Biden, while [rolling out the final
 report of the White House's 90-day Task Force to Protect Students from
 Sexual
-Assault](https://www.whitehouse.gov/photos-and-video/video/2014/04/29/vice-president-biden-speaks-preventing-campus-sexual-assault),
+Assault](https://obamawhitehouse.archives.gov/photos-and-video/video/2014/04/29/vice-president-biden-speaks-preventing-campus-sexual-assault),
 announced the launch of [NotAlone.gov](https://www.notalone.gov/), a
 website built by [18F](https://18f.gsa.gov/) and the [Presidential
-Innovation Fellows](https://www.whitehouse.gov/innovationfellows).
+Innovation Fellows](https://obamawhitehouse.archives.gov/innovationfellows).
 
 \* \* \*
 
@@ -135,11 +135,11 @@ the live site.
 \* \* \*
 
 We’re honored to have been involved in delivering this site in
-cooperation with [the task force](https://www.whitehouse.gov/1is2many/),
+cooperation with [the task force](https://obamawhitehouse.archives.gov/1is2many/),
 [the White House Office of Science and Technology
-Policy](https://www.whitehouse.gov/administration/eop/ostp), [the Office
+Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp), [the Office
 of the Vice
-President](https://www.whitehouse.gov/administration/vice-president-biden/),
+President](https://obamawhitehouse.archives.gov/administration/vice-president-biden/),
 and our outstanding support team in [GSA's Office of the
 CIO](http://www.gsa.gov/portal/category/21404). We're grateful for such
 an exceptional array of partners for this important project.
