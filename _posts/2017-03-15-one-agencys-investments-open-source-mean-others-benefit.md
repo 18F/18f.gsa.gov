@@ -5,7 +5,7 @@ authors:
 - aaron-burk
 - rebecca-refoy-sidibe
 tags:
-- acquisitions
+- acquisition services
 - open source
 - agency work
 excerpt: "One of the advantages to working across government is that we often have opportunities to share insights from other projects, repurpose code, and connect otherwise disjointed efforts. This happens in direct work with our partners, but also on our blog and in our GitHub repository. Our code, guides, and other work are all free for other government agencies and the public to use for their benefit (and we love when people do)."
