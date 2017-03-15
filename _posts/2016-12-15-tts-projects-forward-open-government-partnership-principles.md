@@ -29,7 +29,7 @@ and accountable.
 
 The U.S. has shown its commitment to the partnership through the [U.S.
 Open Government National Action
-Plans](https://www.whitehouse.gov/sites/default/files/microsites/ostp/final_us_open_government_national_action_plan_3_0.pdf),
+Plans](https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/final_us_open_government_national_action_plan_3_0.pdf),
 which promote the OGP’s principles of transparency, facilitating access
 to government services for the public, and citizen engagement. 18F has
 worked together with several agencies to advance the partnership’s goals
@@ -66,7 +66,7 @@ In addition, the Technology Transformative Service’s Office of Products
 and Programs and the Presidential Innovation Fellows have supported
 agencies’ implementation of the OGP principles. Some examples include:
 [data.gov](https://www.data.gov/), [open policing
-data](https://www.whitehouse.gov/blog/2015/04/09/using-technology-and-data-improve-community-policing-police-data-initiative),
+data](https://obamawhitehouse.archives.gov/blog/2015/04/09/using-technology-and-data-improve-community-policing-police-data-initiative),
 [Blue
 Button](https://www.healthit.gov/patients-families/your-health-data)
 health data, [Green Button](http://energy.gov/data/green-button) energy data, [the Opportunity
@@ -80,7 +80,7 @@ others.
 
 Learn more about the U.S.’s participation in the OGP, and more than 60
 [federal projects that have contributed
-to](https://www.whitehouse.gov/the-press-office/2016/12/07/fact-sheet-united-states-commitment-open-government-partnership-and-open)
+to](https://obamawhitehouse.archives.gov/the-press-office/2016/12/07/fact-sheet-united-states-commitment-open-government-partnership-and-open)
 cost savings, opportunities for private businesses, improved civic
 services, more informed policymaking, new scientific discoveries,
 increased transparency and accountability, and expanded public

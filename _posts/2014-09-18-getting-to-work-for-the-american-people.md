@@ -107,7 +107,7 @@ continue to be inspired and amazed by the number of experienced
 technologists eager to move into public service.
 
 This month, the [fall 2014 cohort of Presidential Innovation
-Fellows](https://www.whitehouse.gov/innovationfellows/meet-the-fellows#section-round-3)
+Fellows](https://obamawhitehouse.archives.gov/innovationfellows/meet-the-fellows#section-round-3)
 also joined 18F, bringing our total number to almost 90. That’s 90
 people right now that are collaborating with government agencies to
 deliver smart, cost effective user-centered digital services. Ninety

@@ -18,7 +18,7 @@ and our national priorities. But as we have seen time and time again,
 the most effective way to govern is to engage with the public directly.
 
 Thanks to the [President’s Executive
-Order](https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-) requiring
+Order](https://obamawhitehouse.archives.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-) requiring
 that agencies make data open, we are democratizing access to data. The
 federal government’s open data site, [data.gov](https://www.data.gov/),
 provides access to nearly 200,000 datasets, making it easy to search,

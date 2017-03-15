@@ -26,9 +26,9 @@ The U.S. federal government now has a public dashboard and dataset for its web t
 
 This data comes from a unified [Google Analytics](https://www.google.com/analytics/) profile that is managed by the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), which (like 18F) is a team inside of the [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration).
 
-18F worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service), and the White House to build and host the dashboard and its public dataset.
+18F worked with the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service), and the White House to build and host the dashboard and its public dataset.
 
-You can read more on the [White House blog](https://www.whitehouse.gov/blog/2015/03/19/turning-government-data-better-public-service) about the project, and some insights from the data.
+You can read more on the [White House blog](https://obamawhitehouse.archives.gov/blog/2015/03/19/turning-government-data-better-public-service) about the project, and some insights from the data.
 
 In this post, we'll explain how the dashboard works, the engineering choices we made, and the open source work we produced along the way.
 

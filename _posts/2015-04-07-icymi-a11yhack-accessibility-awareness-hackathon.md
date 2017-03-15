@@ -39,7 +39,7 @@ networking opportunities, and the opportunity to make a real difference
 on these issues via general project collaboration and reviews of
 different websites (including tips for improving accessibility). The
 [White House Office of Science and Technology
-Policy](https://www.whitehouse.gov/administration/eop/ostp), the
+Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp), the
 [National Institute on Disability, Independent Living, and
 Rehabilitation
 Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html),
@@ -59,7 +59,7 @@ them,” said Nick Bristow, one of the event organizers.
 ![A tweet from Rebecca Williams: "Accessibility advices like, 'don't use read more links, be more descriptive' are also good writing/life advice. #a11yhack"]({{site.baseurl}}/assets/blog/a11yhack/allytweet2.png)
 
 “The hackathon itself was also successful. [Megan
-Smith](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff/smith)
+Smith](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith)
 loved the [508 Procurement
 Playbook](https://18f.github.io/508-procurement-playbook/) that was
 put together, and the video CAPTCHA was great. The basic idea was to
