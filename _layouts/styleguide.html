@@ -10,14 +10,13 @@ title: 18F Styleguide
     </div>
   </div>
 </section>
-<section class="usa-grid content-focus content-wide usa-section">
 
-  <aside id="styleguide-navbar" class="nav-subnav">
-    <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
-    {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
-  </aside>
-  <section>
-    {{ content }}
-  </section>
+<aside id="styleguide-navbar" class="nav-subnav">
+  <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
+  {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
+</aside>
+
+<section class="usa-grid content-focus content-wide usa-section">
+  {{ content }}
 </section>
 

@@ -1,0 +1,39 @@
+.nav-subnav {
+  @include padding (2rem);
+  @include size($sliding-panel-width 100%);
+  position: fixed;
+  background: $color-white;
+  border-right: 1px solid $color-gray-light;
+  display: block;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 999999;
+}
+
+
+.menu-btn-styleguide {
+  @include media($medium-screen + $nav-width-extra) {
+    display: none;
+  }
+
+  align-items: flex-start;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  svg {
+    height: $icon-diameter;
+    width: $icon-diameter;
+
+    path {
+      fill: $color-white;
+    }
+  }
+}
+
+.sliding-panel-close-styleguide {
+    @include media($medium-screen + $nav-width-extra) {
+      display: none;
+    }
+}

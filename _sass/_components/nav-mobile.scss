@@ -2,8 +2,7 @@
 // ==========================
 $sliding-panel-width: 26rem;
 
-.nav-mobile,
-.nav-mobile-styleguide {
+.nav-mobile {
   @include padding (2rem);
   @include position(fixed, 0 0 0 auto);
   @include size($sliding-panel-width 100%);
