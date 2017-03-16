@@ -47,7 +47,7 @@ To learn more about how we work with agencies, see [our principles]({{ site.base
 </div>
 
 
-<div class="usa-grid usa-section">
+<div class="usa-grid usa-section section-newsletter">
   <h2 id="sign-up-for-our-newsletter">Sign up for our newsletter</h2>
   <div class="usa-width-one-half">
     <p>Receive occassional updates about our work and news about the civic tech community.</p>

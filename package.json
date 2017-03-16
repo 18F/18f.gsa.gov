@@ -13,7 +13,7 @@
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
-    "restart": "rm -rf _site && bundle exec jekyll serve",
+    "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
     "test": "bundle exec jekyll test",
     "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
