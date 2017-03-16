@@ -8,6 +8,10 @@
   height: 6rem;
 }
 
+.cb-black {
+  background: $color-black;
+}
+
 .cb-dark {
   background: $color-dark;
 }
@@ -40,12 +44,18 @@
   background: $color-gray-lightest;
 }
 
+.cb-inverse {
+  background: $color-inverse;
+  border: 1px solid $color-gray-lightest;
+}
+
 //backgrounds
 .styleguide-bg-box {
-  width: 100%;
+  width: 70%;
   height: 25rem;
   padding: $site-margins;
   border: 1px solid $color-gray-lightest;
+  margin-bottom: $site-margins;
 }
 
 // Box

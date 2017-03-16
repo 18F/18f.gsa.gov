@@ -1,10 +1,7 @@
 ---
-title: 18F site UI styleguide
+title: 18F site UI style guide
 permalink: /styleguide/
 nav_items:
-  - text: Font Family
-    permalink: /styleguide/#font-family
-    in_drawer: true
   - text: Typography
     permalink: /styleguide/#typography
     in_drawer: true
@@ -38,8 +35,20 @@ tags:
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 
 
-## Font Family
+## Typography
+<section class="usa-grid-full">
+  <div class="usa-width-two-thirds usa-section">
+    <div class="box-base-wrapper">
+      <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
+      <div class="h5">$color-base: #000000</div>
+    </div>
+    <div class="box-rem-wrapper" style="">
+      <div class="box-rem"></div><span>1rem = 10px</span>
+    </div>
+  </div>
+</section>
 
+### Font Family
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <p>Helvetica Neue, Regular</p>
@@ -65,18 +74,9 @@ tags:
 %}
 ---
 
-## Typography
+### Typesetting
 
 <section class="usa-grid-full">
-  <div class="usa-width-two-thirds usa-section">
-    <div class="box-base-wrapper">
-      <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-      <div class="h5">$color-base: #000000</div>
-    </div>
-    <div class="box-rem-wrapper" style="">
-      <div class="box-rem"></div><span>1rem = 10px</span>
-    </div>
-  </div>
   <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <h1>h1 – 3.8rem, 38px</h1>
@@ -94,7 +94,12 @@ tags:
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
   </div>
-  <div class="usa-width-one-half">
+</section> 
+
+### Links
+
+<section class="usa-grid-full">
+<div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <div class="styleguide-links-section">
   <a>Link</a>
@@ -128,38 +133,46 @@ tags:
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <div class="color-box-group">
+      <div class="color-box cb-black"></div>
+      <strong>$color-black</strong> | #000000
+    </div>
+    <div class="color-box-group">
       <div class="color-box cb-dark"></div>
-      $color-dark | #1c304a
+      <strong>$color-dark</strong> | #1c304a
     </div>
     <div class="color-box-group">
       <div class="color-box cb-medium"></div>
-      $color-medium | #046b99
-    </div>
-    <div class="color-box-group">
-      <div class="color-box cb-medium-hover"></div>
-      $color-medium-hover | #034c6d
+      <strong>$color-medium</strong> | #046b99
     </div>
     <div class="color-box-group">
       <div class="color-box cb-bright"></div>
-      $color-bright | #00cfff
+      <strong>$color-bright</strong> | #00cfff
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-light"></div>
+      <strong>$color-light</strong> | #b3efff
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-gray"></div>
+      <strong>$color-gra</strong> | #5b616b
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-gray-lightest"></div>
+      <strong>$color-gray-lightest</strong> | #f1f1f1
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-inverse"></div>
+      <strong>$color-inverse</strong> | #ffffff
     </div>
   </div>
   <div class="usa-width-one-half">
     <div class="color-box-group">
+      <div class="color-box cb-medium-hover"></div>
+      <strong>$color-medium-hover</strong> | #034c6d
+    </div>
+    <div class="color-box-group">
       <div class="color-box cb-bright-hover"></div>
-      $color-bright-hover | #00a7ce
-    </div>
-    <div class="color-box-group">
-      <div class="color-box cb-light"></div>
-      $color-light | #b3efff
-    </div>
-    <div class="color-box-group">
-      <div class="color-box cb-gray"></div>
-      $color-gray | #5b616b
-    </div>
-    <div class="color-box-group">
-      <div class="color-box cb-gray-lightest"></div>
-      $color-gray-lightest | #f1f1f1
+      <strong>$color-bright-hover</strong> | #00a7ce
     </div>
   </div>
 </section>
@@ -174,41 +187,37 @@ tags:
 ## Backgrounds
 {% capture styleguide_background %}{% raw %}
 <section class="usa-grid-full">
-  <div class="usa-width-one-fourth">
-    <div class="background-gray styleguide-bg-box">
-      <div class="p-bold">
-        <p>#F1F1F1</p>
-        <p>Banner & Footer</p>
-      </div>
-      <p>Font: #000000</p>
-    </div>
-  </div>
-  <div class="usa-width-one-fourth">
-    <div class="background-white styleguide-bg-box">
-      <div class="p-bold">
-        <p>#FFFFFF</p>
-        <p>Navigation, Fields, Page</p>
-      </div>
-      <p>Font: #000000</p>
-    </div>
-  </div>
-  <div class="usa-width-one-fourth">
-    <div class="background-medium styleguide-bg-box">
-      <div class="p-bold">
-        <p>#FFFFFF</p>
-        <p>Navigation, Fields, Page</p>
-      </div>
-      <p>Font: #000000</p>
-    </div>
-  </div>
-  <div class="usa-width-one-fourth">
+  <div class="usa-width-one-half">
     <div class="background-dark styleguide-bg-box">
       <div class="p-bold">
-        <p>#1C304A</p>
-        <p>Hero, Header</p>
+        <p>$color-dark 
+          <br>Hero, Header</p>
       </div>
-      <p class="section-heading">Highlight: #00CFFF</p>
-      <p>Font: #FFFFFF</p>
+      <p class="section-heading">Highlight: $color-bright</p>
+      <p>Text: $color-inverse</p>
+    </div>
+    <div class="background-medium styleguide-bg-box">
+      <div class="p-bold">
+        <p>$color-medium
+          <br>Navigation, Fields, Page</p>
+      </div>
+      <p>Text: $color-inverse</p>
+    </div>
+  </div>
+  <div class="usa-width-one-half">
+    <div class="background-gray styleguide-bg-box">
+      <div class="p-bold">
+        <p>$color-gray-lightest
+        <br>Banner & Footer</p>
+      </div>
+      <p>Text: $color-black</p>
+    </div>
+    <div class="background-white styleguide-bg-box">
+      <div class="p-bold">
+        <p>$color-inverse
+        <br>Navigation, Fields, Page</p>
+      </div>
+      <p>Text: $color-black</p>
     </div>
   </div>
 </section>
@@ -223,14 +232,15 @@ tags:
 ---
 ## Buttons
 
+### Anatomy
 <section class="usa-grid">
   <img src='{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png'
        class='usa-width-one-third'
        alt='Image of the dimensions and padding of a button on the 18F site' />
 </section>
 
-
 {% capture styleguide_buttons %}
+### Style on white
 <section class="usa-grid usa-section">
   <button class="usa-button">Normal</button>
   <button class="usa-button-hover">Hover</button>
@@ -239,6 +249,7 @@ tags:
   <button class="usa-button-disabled">Disabled</button>
 </section>
 
+### Style on dark
 <section class="background-dark usa-grid">
   <button class="usa-button usa-button-secondary">Normal</button>
   <button class="usa-button-hover usa-button-secondary">Hover</button>
