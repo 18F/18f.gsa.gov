@@ -1,0 +1,27 @@
+//typography
+.top-typography {
+  margin-bottom: $section-margins;
+}
+
+.intro-font {
+  color: $color-gray;
+  font-size: $h4-font-size;
+}
+
+//links
+.styleguide-links-section {
+  margin-bottom: $section-margins;
+
+  a {
+    margin-right: $paragraph-margins;
+  }
+}
+
+.visited {
+  color: $color-visited;
+}
+
+//Font Family
+.text-huge {
+  font-size: 80px;
+}

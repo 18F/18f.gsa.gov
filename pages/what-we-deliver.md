@@ -34,22 +34,23 @@ gridless: true
   </section>
 </div>
 
-<!-- <div class="usa-section background-gray">
+<div class="usa-section background-gray">
   <section class="usa-grid">
-    {% assign agency_partners = site | find_collection: 'projects' | where_obj: 'agency' | sort: 'agency' %}
+    {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
-    <h2>Agencies we’ve worked with</h2>
+    <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
     <div class="usa-grid-full">
       <ul class="list-columns">
       {% for group in partner_groups %}
         <li class="usa-width-one-third">
-          <ul class="list-columns">
+          <ul class="list-columns list-images">
           {% for partner in group %}
-            <li>
+            <li class="list-images-item">
+              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" />
               {% if partner.agency_url %}
-                <a href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.agency }}</a>
+                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
               {% else %}
-                {{ partner.agency }}
+                <span class="list-images-text">{{ partner.name }}</span>
               {% endif %}
             </li>
           {% endfor %}
@@ -59,4 +60,4 @@ gridless: true
       </ul>
     </div>
   </section>
-</div> -->
+</div>

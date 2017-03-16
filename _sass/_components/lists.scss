@@ -5,3 +5,24 @@
     margin-bottom: $paragraph-margins;
   }
 }
+
+
+.list-images {
+  display: flex;
+  flex-wrap: wrap;
+
+  .list-images-item .list-images-image {
+    height: auto;
+    margin: 0;
+    margin-right: $paragraph-margins;
+    min-width: 1.5 * $icon-diameter;
+    width: 1.5 * $icon-diameter;
+  }
+}
+
+.list-images-item {
+  align-items: center;
+  display: inline-flex;
+  min-height: 54px;
+}
+

@@ -1,0 +1,69 @@
+//color
+.color-box-group {
+  margin-bottom: 2rem;
+}
+
+.color-box {
+  width: 70%;
+  height: 6rem;
+}
+
+.cb-dark {
+  background: $color-dark;
+}
+
+.cb-medium {
+  background: $color-medium;
+}
+
+.cb-medium-hover {
+  background: $color-medium-hover;
+}
+
+.cb-bright {
+  background: $color-bright;
+}
+
+.cb-bright-hover {
+  background: $color-bright-hover;
+}
+
+.cb-light {
+  background: $color-light;
+}
+
+.cb-gray {
+  background: $color-gray;
+}
+
+.cb-gray-lightest {
+  background: $color-gray-lightest;
+}
+
+//backgrounds
+.styleguide-bg-box {
+  width: 100%;
+  height: 25rem;
+  padding: $site-margins;
+  border: 1px solid $color-gray-lightest;
+}
+
+// Box
+.box-rem-wrapper {
+  align-items: center;
+  border: 1px solid $color-gray-lightest;
+  display: inline-block;
+  padding: $paragraph-margins;
+}
+
+.box-rem {
+  background: $color-base;
+  display: inline-block;
+  height: 1rem;
+  margin-right: $paragraph-margins;
+  width: 1rem;
+}
+
+.box-base-wrapper {
+  margin-bottom: $site-margins;
+}

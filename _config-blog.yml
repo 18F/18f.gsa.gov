@@ -7,6 +7,7 @@ exclude:
 - ".gitignore"
 - ".gitmodules"
 - ".hound.yml"
+- 404.html
 - api-endpoints
 - bin
 - build
@@ -39,6 +40,7 @@ exclude:
 - system-security-plan.yml
 - tests/
 - tests/schema/tags.yml
+- tmp/
 - vendor
 - _posts/2014-03-12-coming-soon.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
