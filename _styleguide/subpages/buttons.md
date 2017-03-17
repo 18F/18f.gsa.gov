@@ -14,7 +14,7 @@ permalink: /styleguide/buttons
 
 {% capture styleguide_buttons %}
 ### Style on white
-<section class="usa-grid usa-section">
+<section class="usa-grid">
   <button class="usa-button">Normal</button>
   <button class="usa-button-hover">Hover</button>
   <button class="usa-button-active">Active</button>

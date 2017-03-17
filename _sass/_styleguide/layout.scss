@@ -9,6 +9,10 @@
   margin-top: $site-margins;
 }
 
+.styleguide-border {
+  border: 1px solid $color-gray-lightest;
+}
+
 .styleguide-content-wrapper {
   display: flex;
 
