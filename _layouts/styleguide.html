@@ -1,10 +1,34 @@
 ---
 layout: default
 title: 18F Site Styleguide
+nav_items:
+  - text: Typography
+    permalink: /styleguide/typography
+    in_drawer: true
+  - text: Colors
+    permalink: /styleguide/colors
+    in_drawer: true
+  - text: Buttons
+    permalink: /styleguide/buttons
+    in_drawer: true
+  - text: Embeds
+    permalink: /styleguide/embeds
+    in_drawer: true
+  - text: Cards
+    permalink: /styleguide/cards
+    in_drawer: true
+  - text: Blog components
+    permalink: /styleguide/blog-components
+    in_drawer: true
 ---
+
+{% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+
 <section class="background-gray usa-section styleguide-header-wrapper">
-  <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
-  <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  <a href="{{ site.baseurl }}/styleguide/">
+    <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
+    <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  </a>
   <div class="menu-btn-styleguide-wrapper">
     <button class="menu-btn-styleguide">Menu</button>
   </div>
@@ -12,10 +36,11 @@ title: 18F Site Styleguide
 <div class="styleguide-content-wrapper">
 
   <aside id="styleguide-navbar" class="nav-subnav">
-    {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
+    {% include navigation/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
   </aside>
 
   <section class="styleguide-content">
+    {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
     {{ content }}
   </section>
 </div>
