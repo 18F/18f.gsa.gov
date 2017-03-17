@@ -1,85 +1,38 @@
-
 .nav-mobile-styleguide {
-
   @extend .nav-mobile;
-  width: 26rem;
+  border-right: 1px solid $color-gray-light;
   position: fixed;
   top: 10rem;
-  left: 0;
-  border-right: 1px solid $color-gray-light;
-  // @include size($styleguide-sidenav-width 100vh);
-  // @include transform(translateX(-$styleguide-sidenav-width));
+  width: 26rem;
 
-  // border-right: 1px solid $color-gray-light;
-  // left: 0;
-  // max-width: $styleguide-sidenav-width;
-
-  // .usa-sidenav-list {
-  //   margin-top: 0;
-  // }
-
-  // @include media-max($medium-screen + $nav-width-extra) {
-  //   // left: 2 * -$styleguide-sidenav-width;
-  //   position: fixed !important;
-
-  //   &.is-visible {
-  //     // left: -$styleguide-sidenav-width;
-  //   }
-  // }
+  .usa-sidenav-list {
+    margin-top: $site-margins;
+  }
 
   @include media($medium-screen + $nav-width-extra) {
     display: inline-block;
 
+    left: 0;
     @include transform(translateX(0));
 
     .usa-sidenav-list {
       margin-top: 0;
     }
   }
-
-  // &.is-visible {
-  //   @include transform(translateX(0));
-  // }
 }
 
-// .nav-mobile-styleguide-desktop {
-//   @include size($styleguide-sidenav-width auto);
-//   display: none;
-//   padding: 3rem;
-
-//   @include media($medium-screen + $nav-width-extra) {
-//     display: inline-block;
-//   }
-
-//   .sliding-panel-close-styleguide-desktop {
-//     display: none;
-//   }
-// }
-
+.menu-btn-styleguide-wrapper {
+  width: 100%;
+}
 
 .menu-btn-styleguide {
   @include media($medium-screen + $nav-width-extra) {
     display: none;
   }
 
-  position: fixed;
-  left: 0;
-  top: 0;
-
-  align-items: flex-start;
-  border-radius: 0;
-  display: flex;
-  flex-direction: column;
+  float: right;
+  font-size: $base-font-size;
   margin: 0;
-
-  svg {
-    height: $icon-diameter;
-    width: $icon-diameter;
-
-    path {
-      fill: $color-white;
-    }
-  }
 }
 
 .sliding-panel-close-styleguide {
@@ -88,8 +41,4 @@
   @include media($medium-screen + $nav-width-extra) {
     display: none;
   }
-}
-
-.overlay-styleguide {
-  @extend .overlay;
 }

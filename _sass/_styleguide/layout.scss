@@ -1,0 +1,57 @@
+.styleguide-main-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.styleguide-details {
+  margin-bottom: $site-margins;
+  margin-top: $site-margins;
+}
+
+.styleguide-content-wrapper {
+  display: flex;
+
+  .nav-subnav {
+    position: fixed;
+    top: 10rem;
+  }
+}
+
+.styleguide-header-wrapper {
+  align-items: center;
+  position: fixed;
+  height: 10rem;
+  display: flex;
+  padding: $site-margins;
+  width: 100%;
+
+  > * {
+    display: inline-block;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: $h4-font-size;
+    width: 100%;
+  }
+}
+
+
+.styleguide-content {
+  display: inline-block;
+  margin-left: $site-margins;
+  margin-right: $site-margins;
+  margin-top: 10rem;
+  max-width: $site-max-width;
+
+  @include media($medium-screen + $nav-width-extra) {
+    margin-left: $site-margins + 26rem;
+  }
+}
+
+.styleguide-logo {
+  height: 100%;
+  margin-right: $paragraph-margins;
+  width: auto;
+}

@@ -5,16 +5,12 @@ title: 18F Site Styleguide
 <section class="background-gray usa-section styleguide-header-wrapper">
   <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
   <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
-  <!-- <div class="stylguide-content">
-    <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-    <div>
-
-      <h2 class='h3'><a href="https://18f.gsa.gov">18f.gsa.gov</a> inherits from the U.S. Web Design Standards and 18F brand guidelines to create style that is professional, unique, and informative</h2>
-    </div>
-  </div> -->
+  <div class="menu-btn-styleguide-wrapper">
+    <button class="menu-btn-styleguide">Menu</button>
+  </div>
 </section>
 <div class="styleguide-content-wrapper">
-  <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
+
   <aside id="styleguide-navbar" class="nav-subnav">
     {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
   </aside>
