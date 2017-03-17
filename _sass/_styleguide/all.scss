@@ -1,7 +1,14 @@
+$styleguide-sidenav-width: 26rem;
+
 @import 'color-box';
 @import 'typography';
 @import 'nav';
 
+.styleguide-main-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
 
 .styleguide-details {
   margin-bottom: $site-margins;
@@ -10,4 +17,49 @@
 
 .styleguide-border {
   border: 1px solid $color-gray-lightest;
+}
+
+
+.styleguide-content-wrapper {
+  display: flex;
+
+  .nav-subnav {
+    position: fixed;
+    top: 10rem;
+  }
+}
+
+.styleguide-header-wrapper {
+  align-items: center;
+  position: fixed;
+  height: 10rem;
+  display: flex;
+  padding: $site-margins;
+  width: 100%;
+
+  > * {
+    display: inline-block;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: $h4-font-size;
+  }
+}
+
+
+.styleguide-content {
+  display: inline-block;
+  margin-left: $site-margins + 26rem;
+  margin-right: $site-margins;
+  margin-top: 10rem;
+  max-width: $site-max-width;
+}
+
+.styleguide-logo {
+  margin-right: $paragraph-margins;
+  // max-height: 10rem;
+  // max-width: 10rem;
+  height: 100%;
+  width: auto;
 }

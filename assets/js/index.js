@@ -7,8 +7,11 @@ $(function (){
 
   // Styleguide drawer
   $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
+    console.log('click', $('.nav-mobile-styleguide').hasClass('is-visible'))
+
     $('.nav-mobile-styleguide').toggleClass('is-visible');
     e.preventDefault();
+    // e.stopPropagation();
   });
 
   // Subnav crawling

@@ -1,22 +1,25 @@
 ---
 layout: default
-title: 18F Styleguide
+title: 18F Site Styleguide
 ---
-<section class="background-gray usa-section">
-  <div class="usa-grid">
+<section class="background-gray usa-section styleguide-header-wrapper">
+  <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
+  <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  <!-- <div class="stylguide-content">
     <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-    <div class="usa-width-three-fourths">
+    <div>
+
       <h2 class='h3'><a href="https://18f.gsa.gov">18f.gsa.gov</a> inherits from the U.S. Web Design Standards and 18F brand guidelines to create style that is professional, unique, and informative</h2>
     </div>
-  </div>
+  </div> -->
 </section>
-
-<aside id="styleguide-navbar" class="nav-subnav">
+<div class="styleguide-content-wrapper">
   <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
-  {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
-</aside>
+  <aside id="styleguide-navbar" class="nav-subnav">
+    {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
+  </aside>
 
-<section class="usa-grid content-focus content-wide usa-section">
-  {{ content }}
-</section>
-
+  <section class="styleguide-content">
+    {{ content }}
+  </section>
+</div>
