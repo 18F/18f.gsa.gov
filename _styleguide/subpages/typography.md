@@ -36,7 +36,7 @@ permalink: /styleguide/typography
 
 {% include details-code.html
    title='fonts'
-   description='We are overriding the font used by the U.S. Web Design Standards.'
+   description='We are overriding the font used by the [U.S. Web Design Standards](https://standards.usa.gov/components/typography/) with the font used by the [18F Brand](https://pages.18f.gov/brand/typography/).'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
@@ -54,15 +54,57 @@ permalink: /styleguide/typography
 <h5>h5 – 1.4rem, 14px</h5>
 <p>p – 1.8rem, 18px)</p>
 {% endraw %}{% endcapture %}
+
+{% capture type_description %}
+To use headers, either use the semantic element, or reference it with a dot-delimited class.
+
+For example:
+
+`<p class =".h1"></p>` would render the same as `<h1></h1>`.
+{% endcapture %}
 {% include details-code.html
    title='typography'
    content=codeblock
-   description='To use headers, either use the semantic element, or reference it with a dot-delimited class. For example: `<p class =".h1">` would render the same as `<h1>`.'
+   description=type_description
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
   </div>
 </section>
+
+---
+
+### Font weight
+
+<section class="usa-grid-full">
+  <div class="usa-width-one-half">
+{% capture codeblock %}{% raw %}
+<p class="p-bold">$font-bold: 700</p>
+<p class="p-normal">$font-normal: 400</p>
+<p>$font-normal: 400</p>
+{% endraw %}{% endcapture %}
+
+{% capture weight_description %}
+Font weight is directly inherited from the U.S. Web Design Standards.
+
+**SCSS references:**
+* $font-bold: 700
+* $font-normal: 400
+
+**CSS class refernces:**
+* `.p-bold`: `$font-bold`
+* `.p-normal`: `$font-normal` (this class only needs to be used to be used to override another class)
+{% endcapture %}
+{% include details-code.html
+   title='type-weight'
+   content=codeblock
+   description=weight_description
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L20-L21'
+%}
+  </div>
+</section>
+
+---
 
 ### Links
 

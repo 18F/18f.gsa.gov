@@ -28,7 +28,7 @@ permalink: /styleguide/colors
     </div>
     <div class="color-box-group">
       <div class="color-box cb-gray"></div>
-      <strong>$color-gra</strong> | #5b616b
+      <strong>$color-gray</strong> | #5b616b
     </div>
     <div class="color-box-group">
       <div class="color-box cb-gray-lightest"></div>
@@ -51,9 +51,17 @@ permalink: /styleguide/colors
   </div>
 </section>
 
+{% capture colors_description %}
+We are primarily using [18F Brand colors](https://pages.18f.gov/brand/color-palette/).
+
+Site-specific colors, `$color-medium-hover` and `$color-bright-hover` were created as web-specific extensions of the 18F Brand.
+
+U.S. Web Design standards colors, `$color-gray` and `$color-gray-lightest`, were pulled for utility use.
+{% endcapture %}
+
 {% include details-code.html
    title='colors'
-   description='We are using variables defined in the USWDS and our own personal overrides.'
+   description=colors_description
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L25-L35'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
 %}
@@ -98,10 +106,21 @@ permalink: /styleguide/colors
   </div>
 </section>
 {% endraw %}{% endcapture %}
+
+{% capture backgrounds_description %}
+We are using the [18F Brand](https://pages.18f.gov/brand/color-palette/) color palette for our background colors.
+
+Instead of overriding the SCSS classes and variables used by the U.S. Web Design Standards, we have created a parallel set of background color classes and variables.
+
+* `.background-dark`: `$color-dark`
+* `.background-medium`: `$color-medium`
+* `.background-gray`: `$color-gray`
+* `.background-white`: `$color-inverse`
+{% endcapture %}
 {% include details-code.html
    title='backgrounds'
    content=styleguide_background
    lang='html'
-   description="We are not overriding the U.S. Web Design Standards background classes. Ours follow a similar pattern, but do not contain a `usa-` prefix."
+   description=backgrounds_description
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss#L121-L189'
 %}

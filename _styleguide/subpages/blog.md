@@ -32,11 +32,16 @@ tags:
   %}
 </section>
 {% endraw %}{% endcapture %}
-
-
+{% capture post_description %}
+Post previews are generated dynamically throughout the site. Each preview requires a few attributes:
+* `date`
+* `title`
+* `excerpt`
+* `url`
+{% endcapture %}
 {% include details-code.html
    title='posts'
-   description='Post previews are generated dynamically throughout the site. Each preview requires a few attribtues: `date`, `title`, `excerpt`, and `url`.'
+   description=post_description
    content=styleguide_post
 %}
 ---
@@ -55,9 +60,8 @@ tags:
 
 {% include details-code.html
    title='blog-tags'
-   description="Blog tags are generated and draw from a post's `tags` property. Before you use a tag, make sure that it is in the list of acceptable tags, linked below."
+   description="Blog tags are generated and draw from a post's `tags` property. Before you use a tag, make sure that it is in the [list of acceptable tags](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/tags.yml)."
    content=styleguide_blog_tags
-   other_ref='https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/tags.yml'
 %}
 ---
 ## Blockquotes
@@ -103,9 +107,8 @@ tags:
 
 {% include details-code.html
    title='blockquotes'
-   description="Our blockquotes use the `kramdown` renderer, so please defer to the documentation below for details on markdown rendering issues. 18f.gsa.gov does, however, set styles that are unique to 18F brand for both blockquotes and pull quotes."
+   description="Our blockquotes use the `kramdown` renderer, so please defer to [the documentation](https://kramdown.gettalong.org/quickref.html#blockquotes) for details on markdown rendering issues. 18f.gsa.gov does, however, set styles that are unique to 18F Brand for both blockquotes and pull quotes."
    content=styleguide_blockquotes
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blockquotes.scss'
-   other_ref='https://kramdown.gettalong.org/quickref.html#blockquotes'
 %}
 

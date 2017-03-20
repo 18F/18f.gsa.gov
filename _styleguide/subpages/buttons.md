@@ -35,7 +35,7 @@ permalink: /styleguide/buttons
 
 {% include details-code.html
    title='buttons'
-   description='We are overriding the styles for styles set by the U.S. Web Design Standards.'
+   description='Our button styles closely resemble those defined by the U.S. Web Design Standards. We have overriden them in places to more closely align the look and feel with the 18F Brand.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
    content=styleguide_buttons

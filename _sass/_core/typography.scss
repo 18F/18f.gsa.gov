@@ -70,7 +70,16 @@ h2 {
   @extend h6;
 }
 
-.paragraph-bold {
+
+.p-line-height {
+  line-height: $paragraph-line-height;
+}
+
+.p-normal {
+  font-weight: $font-normal;
+}
+
+.p-bold {
   font-weight: $font-bold;
 }
 
