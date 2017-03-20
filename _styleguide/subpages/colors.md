@@ -3,7 +3,6 @@ title: 18F site UI style guide
 subpage: Colors
 permalink: /styleguide/colors
 ---
-
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <div class="color-box-group">
@@ -14,6 +13,10 @@ permalink: /styleguide/colors
       <div class="color-box cb-dark"></div>
       <strong>$color-dark</strong> | #1c304a
     </div>
+  </div>
+</section>
+<section class="usa-grid-full">
+  <div class="usa-width-one-half">
     <div class="color-box-group">
       <div class="color-box cb-medium"></div>
       <strong>$color-medium</strong> | #046b99
@@ -22,6 +25,21 @@ permalink: /styleguide/colors
       <div class="color-box cb-bright"></div>
       <strong>$color-bright</strong> | #00cfff
     </div>
+  </div>
+  <div class="usa-width-one-half">
+    <div class="color-box-group">
+      <div class="color-box cb-medium-hover"></div>
+      <strong>$color-medium-hover</strong> | #034c6d
+    </div>
+    <div class="color-box-group">
+      <div class="color-box cb-bright-hover"></div>
+      <strong>$color-bright-hover</strong> | #00a7ce
+    </div>
+  </div>
+</section>
+
+<section class="usa-grid-full">
+  <div class="usa-width-one-half">
     <div class="color-box-group">
       <div class="color-box cb-light"></div>
       <strong>$color-light</strong> | #b3efff
@@ -37,16 +55,6 @@ permalink: /styleguide/colors
     <div class="color-box-group">
       <div class="color-box cb-inverse"></div>
       <strong>$color-inverse</strong> | #ffffff
-    </div>
-  </div>
-  <div class="usa-width-one-half">
-    <div class="color-box-group">
-      <div class="color-box cb-medium-hover"></div>
-      <strong>$color-medium-hover</strong> | #034c6d
-    </div>
-    <div class="color-box-group">
-      <div class="color-box cb-bright-hover"></div>
-      <strong>$color-bright-hover</strong> | #00a7ce
     </div>
   </div>
 </section>
