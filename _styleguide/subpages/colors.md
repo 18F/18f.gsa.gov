@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Colors
-permalink: /styleguide/colors
+permalink: /styleguide/colors/
 ---
 <section class="usa-grid-full">
   <div class="usa-width-one-half">

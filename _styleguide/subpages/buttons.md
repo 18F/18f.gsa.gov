@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Buttons
-permalink: /styleguide/buttons
+permalink: /styleguide/buttons/
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Cards
-permalink: /styleguide/cards
+permalink: /styleguide/cards/
 ---
 
 {% capture styleguide_card %}{% raw %}

@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Typography
-permalink: /styleguide/typography
+permalink: /styleguide/typography/
 ---
 
 <section class="usa-grid-full">

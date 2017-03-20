@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Embeds
-permalink: /styleguide/embeds
+permalink: /styleguide/embeds/
 ---
 
 There are plenty of instances where we want to be able to embed content from other web pages. Where there are several ways to do this successfully, we recommend using a Jekyll filter, `oembed`, to handle embeddable content in a consistent way.

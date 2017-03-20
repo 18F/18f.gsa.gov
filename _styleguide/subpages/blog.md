@@ -1,7 +1,7 @@
 ---
 title: 18F site UI style guide
 subpage: Blog components
-permalink: /styleguide/blog-components
+permalink: /styleguide/blog-components/
 tags:
   - web design standards
   - design
