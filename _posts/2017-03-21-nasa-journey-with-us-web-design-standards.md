@@ -6,7 +6,6 @@ tags:
 - web design standards
 - design
 - nasa
-- partners in government
 excerpt: "The U.S. Web Design Standards were created by the government, for the government. They’re currently implemented on hundreds of government sites, with an audience of more than 26 million monthly users. They’ve also been recommended by the Office of Management and Budget for all government agencies to ensure a consistent look and feel of their public-facing digital services. We chatted with Brandon Ruffridge, Senior Software Developer at NASA’s Glenn Research Center, to talk about his team’s use of the U.S. Web Design Standards."
 image: /assets/img/logos/agencies/NASA.svg
 hero: false
