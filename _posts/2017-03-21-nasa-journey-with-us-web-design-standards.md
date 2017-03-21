@@ -6,7 +6,7 @@ tags:
 - web design standards
 - design
 - nasa
-excerpt: "The U.S. Web Design Standards were created by the government, for the government. They’re currently implemented on hundreds of government sites, with an audience of more than 26 million monthly users. They’ve also been recommended by the Office of Management and Budget for all government agencies to ensure a consistent look and feel of their public-facing digital services. We chatted with Brandon Ruffridge, Senior Software Developer at NASA’s Glenn Research Center, to talk about his team’s use of the U.S. Web Design Standards."
+excerpt: "The U.S. Web Design Standards are currently implemented on hundreds of government sites, with an audience of more than 26 million monthly users, and they’ve  been recommended by the Office of Management and Budget for all government agencies. We chatted with Brandon Ruffridge, Senior Software Developer at NASA’s Glenn Research Center, to talk about his team’s use of the U.S. Web Design Standards."
 image: /assets/img/logos/agencies/NASA.svg
 hero: false
 ---
@@ -32,6 +32,6 @@ hero: false
 
 ---
 
-We’re looking to learn more [from agencies that have used the Standards](https://github.com/18F/web-design-standards/blob/staging/WHO_IS_USING_USWDS.md); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov./)!
+We’re looking to learn more [from agencies that have used the Standards](https://github.com/18F/web-design-standards/blob/develop/WHO_IS_USING_USWDS.md); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov./)!
 
 Also, on January 25th, we [hosted a webinar](https://www.youtube.com/watch?v=VUPbn1phbxk) to share more information about the features and [future of the Standards](https://18f.gsa.gov/2016/12/22/charting-the-future-of-the-draft-us-web-design-standards/), including the 1.0 release. Check it out to learn more or follow along at [standards.usa.gov](https://standards.usa.gov/).
