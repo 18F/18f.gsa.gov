@@ -1,5 +1,5 @@
 ---
-title: 18F site UI style guide
+title: 18F UI style guide
 subpage: Typography
 permalink: /styleguide/typography/
 ---
