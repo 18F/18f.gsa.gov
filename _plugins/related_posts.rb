@@ -17,7 +17,7 @@ module Jekyll
           post.data['categories'].each do |category|
             if me.data['categories'].include?(category) && post != me
               cat_freq = @tag_freq[category]
-              related_scores[post] += (1+highest_freq-cat_freq)
+              related_scores[post] += (1 + highest_freq - cat_freq)
             end
           end
         end
@@ -25,17 +25,16 @@ module Jekyll
           post.data['tags'].each do |tag|
             if me.data['tags'].include?(tag) && post != me
               cat_freq = @tag_freq[tag]
-              related_scores[post] += (1+highest_freq-cat_freq)
+              related_scores[post] += (1 + highest_freq - cat_freq)
             end
           end
         end
 
-        if @use_authors
-          post.data['authors'].each do |author|
-            if me.data['authors'].include?(author) && post != me
-              cat_freq = @tag_freq[author]
-              related_scores[post] += (1+highest_freq-cat_freq)
-            end
+        next unless @use_authors
+        post.data['authors'].each do |author|
+          if me.data['authors'].include?(author) && post != me
+            cat_freq = @tag_freq[author]
+            related_scores[post] += (1 + highest_freq - cat_freq)
           end
         end
       end
@@ -48,23 +47,17 @@ module Jekyll
     def tag_freq(posts)
       @tag_freq = Hash.new(0)
       posts.docs.each do |post|
-        if @use_categories
-          post.data['categories'].each {|category| @tag_freq[category] += 1}
-        end
-        if @use_tags
-          post.data['tags'].each {|tag| @tag_freq[tag] += 1}
-        end
+        post.data['categories'].each { |category| @tag_freq[category] += 1 } if @use_categories
+        post.data['tags'].each { |tag| @tag_freq[tag] += 1 } if @use_tags
 
-        if @use_authors
-          post.data['authors'].each {|author| @tag_freq[author] += 1}
-        end
+        post.data['authors'].each { |author| @tag_freq[author] += 1 } if @use_authors
       end
     end
 
     # Sort the related posts in order of their score and date
     # and return just the posts
     def sort_related_posts(related_scores)
-      related_scores.sort do |a,b|
+      related_scores.sort do |a, b|
         if a[1] < b[1]
           1
         elsif a[1] > b[1]
@@ -72,36 +65,28 @@ module Jekyll
         else
           b[0].date <=> a[0].date
         end
-      end.collect {|post,freq| post}
+      end.collect { |post, _freq| post }
     end
 
     def generate(site)
-      if !site.config['related_posts']
-        return
-      end
+      return unless site.config['related_posts']
       n_posts = site.config['related_posts']
       @use_tags = true
       @use_authors = true
       @use_categories = false
-      if site.config['related_categories']
-        @use_categories = true
-      end
-      if site.config['related_tags'] != nil and site.config['related_tags'] != true
-        @use_tags = false
-      end
+      @use_categories = true if site.config['related_categories']
+      @use_tags = false if !site.config['related_tags'].nil? && site.config['related_tags'] != true
 
-      if site.config['related_authors'] != nil and site.config['related_authors'] != true
+      if !site.config['related_authors'].nil? && site.config['related_authors'] != true
         @use_authors = false
       end
 
       tag_freq(site.posts)
 
-      Parallel.map(site.posts.docs.flatten, :in_threads => site.config['n_cores'] ? site.config['n_cores'] : 1) do |post|
+      Parallel.map(site.posts.docs.flatten, in_threads: site.config['n_cores'] ? site.config['n_cores'] : 1) do |post|
         rp = related_posts(post, site.posts)[0, n_posts]
 
-        if rp.size > 0
-          post.data.merge!('related_posts' => rp)
-        end
+        post.data.merge!('related_posts' => rp) if rp.size.positive?
       end
     end
   end
