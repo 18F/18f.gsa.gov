@@ -6,11 +6,13 @@ permalink: /styleguide/images/
 
 ### Source reference
 
+The primary way to use images throughout the site, including the blog is to directly call the image path in
+
 ---
 
 ### SVG include catalog
 
-This is a list of all of the SVGs that are available as includes. All icons are set to their default sizes.
+This is a list of all of the SVGs that are available as includes (in the `_includes` directory). All icons are set to their default sizes.
 
 {% capture catalog_codeblock %}{% raw %}
 

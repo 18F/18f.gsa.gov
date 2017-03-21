@@ -23,6 +23,9 @@ nav_items:
   - text: Blog components
     permalink: /styleguide/blog-components/
     in_drawer: true
+  - text: Sticky subnavigation
+    permalink: /styleguide/sticky-subnavigation/
+    in_drawer: true
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
@@ -38,7 +41,7 @@ nav_items:
 </section>
 <div class="styleguide-content-wrapper">
 
-  <aside id="styleguide-navbar" class="nav-subnav">
+  <aside class="nav-subnav styleguide-subnav">
     {% include navigation/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
   </aside>
 

@@ -51,11 +51,11 @@
 
 //backgrounds
 .styleguide-bg-box {
-  width: 70%;
-  height: 25rem;
-  padding: $site-margins;
   border: 1px solid $color-gray-lightest;
+  height: 25rem;
   margin-bottom: $site-margins;
+  padding: $site-margins;
+  width: 70%;
 }
 
 // Box

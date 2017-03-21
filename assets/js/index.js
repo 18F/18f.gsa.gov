@@ -7,8 +7,6 @@ $(function (){
 
   // Styleguide drawer
   $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
-    console.log('click', $('.nav-mobile-styleguide').hasClass('is-visible'))
-
     $('.nav-mobile-styleguide').toggleClass('is-visible');
     e.preventDefault();
     // e.stopPropagation();
@@ -29,8 +27,11 @@ $(function (){
       .replace(window.location.pathname, '');
   });
 
-  var $anchors = $(anchors.join(','));
+  anchors = anchors.filter(function(anchor) {
+    return anchor[0] == '#';
+  });
 
+  var $anchors = $(anchors.join(','));
   var waypoints = $anchors
     .waypoint(function(direction) {
       $navItems.removeClass('usa-current', direction === 'down');

@@ -1,5 +1,6 @@
 .nav-mobile-styleguide {
   @extend .nav-mobile;
+
   border-right: 1px solid $color-gray-light;
   position: fixed;
   top: 10rem;
@@ -10,10 +11,10 @@
   }
 
   @include media($medium-screen + $nav-width-extra) {
-    display: inline-block;
-
-    left: 0;
     @include transform(translateX(0));
+
+    display: inline-block;
+    left: 0;
 
     .usa-sidenav-list {
       margin-top: 0;

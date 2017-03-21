@@ -1,3 +1,5 @@
+$sg-header-height: 10rem;
+
 .styleguide-main-content {
   margin-left: auto;
   margin-right: auto;
@@ -16,19 +18,20 @@
 .styleguide-content-wrapper {
   display: flex;
 
-  .nav-subnav {
+  .styleguide-subnav {
     position: fixed;
-    top: 10rem;
+    top: $sg-header-height;
   }
 }
 
 .styleguide-header-wrapper {
   align-items: center;
-  position: fixed;
-  height: 10rem;
   display: flex;
+  height: $sg-header-height;
   padding: $site-margins;
+  position: fixed;
   width: 100%;
+  z-index: 10;
 
   a {
     align-items: center;
@@ -54,16 +57,16 @@
   display: inline-block;
   margin-left: $site-margins;
   margin-right: $site-margins;
-  margin-top: 10rem;
+  margin-top: $sg-header-height;
   max-width: $site-max-width;
 
   @include media($medium-screen + $nav-width-extra) {
-    margin-left: $site-margins + 26rem;
+    margin-left: $site-margins + $sliding-panel-width;
   }
 }
 
 .styleguide-logo {
-  height: 4rem;
+  height: $sg-header-height - (2 * $site-margins);
   margin-right: $paragraph-margins;
   width: auto;
 }
