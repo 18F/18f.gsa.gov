@@ -6,6 +6,7 @@ gem 'accesslint-ci', '0.2.6'
 gem 'html-proofer'
 gem 'jekyll', '~> 3.3.0'
 gem 'jemoji'
+gem 'parallel'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'

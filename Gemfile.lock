@@ -208,6 +208,7 @@ DEPENDENCIES
   jekyll_pages_api
   jekyll_pages_api_search
   jemoji
+  parallel
   pry
   rack-jekyll
   rb-readline
