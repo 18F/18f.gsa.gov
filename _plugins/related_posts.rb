@@ -68,9 +68,7 @@ module Jekyll
       end.collect { |post, _freq| post }
     end
 
-    def generate(site)
-      return unless site.config['related_posts']
-      n_posts = site.config['related_posts']
+    def set_presets(site)
       @use_tags = true
       @use_authors = true
       @use_categories = false
@@ -80,10 +78,20 @@ module Jekyll
       if !site.config['related_authors'].nil? && site.config['related_authors'] != true
         @use_authors = false
       end
+    end
 
+    def in_threads(site)
+      site.config['n_cores'] ? site.config['n_cores'] : 1
+    end
+
+    def generate(site)
+      return unless site.config['related_posts']
+      n_posts = site.config['related_posts']
+
+      set_presets(site)
       tag_freq(site.posts)
 
-      Parallel.map(site.posts.docs.flatten, in_threads: site.config['n_cores'] ? site.config['n_cores'] : 1) do |post|
+      Parallel.map(site.posts.docs.flatten, in_threads: in_threads(site)) do |post|
         rp = related_posts(post, site.posts)[0, n_posts]
 
         post.data.merge!('related_posts' => rp) if rp.size.positive?
