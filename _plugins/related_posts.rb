@@ -68,16 +68,13 @@ module Jekyll
       end.collect { |post, _freq| post }
     end
 
-    def set_presets(site)
+    def create_presets(site)
       @use_tags = true
       @use_authors = true
       @use_categories = false
       @use_categories = true if site.config['related_categories']
       @use_tags = false if !site.config['related_tags'].nil? && site.config['related_tags'] != true
-
-      if !site.config['related_authors'].nil? && site.config['related_authors'] != true
-        @use_authors = false
-      end
+      @use_authors = false if !site.config['related_authors'].nil? && site.config['related_authors'] != true
     end
 
     def in_threads(site)
@@ -88,7 +85,7 @@ module Jekyll
       return unless site.config['related_posts']
       n_posts = site.config['related_posts']
 
-      set_presets(site)
+      create_presets(site)
       tag_freq(site.posts)
 
       Parallel.map(site.posts.docs.flatten, in_threads: in_threads(site)) do |post|
