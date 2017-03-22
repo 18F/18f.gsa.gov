@@ -4,7 +4,7 @@
     <title>Monitor icon</title>
     <desc>Improve public facing interfaces</desc>
     <defs></defs>
-    <g id="monitor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-540.000000, -542.000000)" stroke="#00CFFF" stroke-width="2">
             <g transform="translate(541.000000, 543.000000)">
                 <path d="M33.4119424,50 C38.1582333,50 39.249395,53.6406576 40.7129472,56.6090012 C40.7129472,57.1041006 40.2215118,57.5090909 39.6160333,57.5090909 L18.0969139,57.5090909 C17.4914354,57.5090909 17,57.0189976 17,56.5238982 C18.5045677,53.5938509 19.6672564,50 24.3002545,50 L33.4119424,50 L33.4119424,50 Z" id="Shape"></path>
