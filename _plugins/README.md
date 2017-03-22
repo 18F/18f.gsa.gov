@@ -2,8 +2,6 @@
 
 The 18F site uses a variety of custom plugins to modify how the site is rendered.
 
-* [Custom tags](#custom-tags)
-  * [authored_posts](#authored_posts)
 * [Filters](#filters)
   * [team_photo](#team_photo)
   * [lookup](#lookup)
@@ -12,22 +10,12 @@ The 18F site uses a variety of custom plugins to modify how the site is rendered
   * [markdown.rb](markdown.rb)
   * [redcarpet.rb](redcarpet.rb)
 * [Classes and Modules](#classes-and-modules)
-
-## Custom tags
-
-### authored_posts: This tag will return a list of authors based on a pages' list of authors, as specified in the frontmatter.
-
-This tag accepts an option, `heading` that sets a heading tag above the list of authors. If there is no heading tag specified, the tag defaults to an h2 tag.
-
-Usage:
-
-```liquid
-{% authored_posts heading=h2 %}
-```
+  * [AuthorData](#author-data)
 
 ## Filters
 
-### team_photo: accepts the author's name as the first argument. Lives in [team.rb](team.rb)
+### team_photo
+**Accepts the author's name as the first argument. Lives in [team.rb](team.rb)**
 
 Example usage:
 
@@ -41,7 +29,8 @@ Yields:
 <img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="18F team member Brian Hedberg">
 ```
 
-### lookup: that takes an author slug as `input` and extracts from the dataset in the first arg the value of the key in the second arg for `input`. Lives in [author.rb](author.rb)
+### lookup
+**That takes an author slug as `input` and extracts from the dataset in the first arg the value of the key in the second arg for `input`. Lives in [author.rb](author.rb)**
 
 Takes two arguments, `input` and `args`
 
@@ -55,10 +44,12 @@ Example usage:
   {{ "boone" | lookup:"authors, full_name" }}
 ```
 
-### team_link: will look for an entry in the authors data file named "boone" and return a link labeled Greg Boone and linked to his author page. Lives in [author.rb](author.rb)
+### team_link
+**Will look for an entry in the authors data file named "boone" and return a link labeled Greg Boone and linked to his author page. Lives in [author.rb](author.rb)**
 
 
-### embed: Creates an iframe with the specified link. Lives in [embed.rb](embed.rb)
+### embed
+**Creates an iframe with the specified link. Lives in [embed.rb](embed.rb)**
 
 *This is being deprecated* It still works, but the preferable usage is [here](https://github.com/18F/jekyll-oembed#usage), for the `jekyll_oembed` gem.
 
@@ -79,7 +70,8 @@ Returns:
           allowfullscreen></iframe>
 </div>```
 
-#### match_posts: finds posts that match a pages' property. If the property is not specified, it defaults to `tags`
+#### match_posts
+**Finds posts that match a pages' property. If the property is not specified, it defaults to `tags`.**
 
 Example:
 ```
@@ -94,7 +86,8 @@ Example matching authors
 Will look for all the posts on the entire site and return a list of posts that have any properties
 that matches the list defined in a given project's frontmatter
 
-### hash_link: returns a hashed version of a given link. Lives in [utility.md](utility.md).
+### hash_link
+**Returns a hashed version of a given link. Lives in [utility.md](utility.md).**
 
 Example:
 ```bash
@@ -103,7 +96,8 @@ Example:
 ```
 
 
-### matches_url: determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).
+### matches_url
+**Determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).**
 
 Example:
 ```bash
@@ -114,11 +108,13 @@ Example:
 > true
 ```
 
-### matches_url_parent: determines if the current page url is a path decendent of a given url. Lives in [utility.md](utility.md).
+### matches_url_parent
+**Determines if the current page url is a path decendent of a given url. Lives in [utility.md](utility.md).**
 
 Accepts two arguments, `page`, the current page that is being evaluated, and `item`, the navigation item that is being checked (from `navigation.yml`). If a collection is specified in the navigation item, it will first check if the item collection and page collection match.
 
-### find_page: looks at the list of navigation fields in [navigation.yml](navigation.yml) and find the object that corresponds with a given url. Lives in [utility.md](utility.md).
+### find_page
+**Looks at the list of navigation fields in [navigation.yml](navigation.yml) and find the object that corresponds with a given url. Lives in [utility.md](utility.md).**
 
 It takes two arguments, `page_url` and `nav_items`, where `nav_items` is either the entire navigation.yml data file, or a subset of it.
 
@@ -138,8 +134,24 @@ Example:
 }
 ```
 
+### liquify
+** A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
 
-### check_type: debugging tool to pull up a erb shell at a given point in the liquid markup
+Example:
+```bash
+{% capture raw_content %}
+{% raw %}
+{{ 'how-we-work' | has_link }}
+{% endraw %}
+{% endcapture %}
+
+{{ raw_content | liquify }}
+> '#how-we-work'
+```
+
+
+### check_type
+**Debugging tool to pull up a erb shell at a given point in the liquid markup.**
 
 Example:
 ```bash
@@ -155,11 +167,12 @@ This file allows us to use markdown syntax highlighting within a Markdown Block.
 
 Example usage:
 
-```markdown
+<code>
 ```markdown
   ### Example header
 ```
-```
+</code>
+
 
 ## Classes and Modules
 
@@ -173,7 +186,7 @@ Located in [author_data.rb](author_data.rb), `AuthorData` can be referenced with
 
 It is used to access data pertaining to certain authors. It is _sometimes_ preferable to referencing authors data via Jekyll Collections because it contains _all_ the author data, not just the data of the authors that have made blog posts.
 
-AuthorData has three methods, `update`, `fetch`, and `exists?`.
+AuthorData has a few methods, `update`, `fetch`, `exists?`, `all_authors`, `published_authors`, and `unpublished_authors`.
 
 `update` is used to update an author's file. If I wanted to update the file `brian.md` to `published: true`, for instance, I could do as follows:
 
@@ -198,4 +211,25 @@ author_data.fetch('brian', 'published')
 ```ruby
 author_data.exists? 'brian'
 >> true
+```
+
+`all_authors` returns an Array of all the authors who exist on the site.
+
+```ruby
+author_data.all_authors
+>> [..., ...]
+```
+
+`published_authors` returns an Array of all the authors who have published blog posts on [18f.gsa.gov](https://18f.gsa.gov).
+
+```ruby
+author_data.published_authors
+>> [..., ...]
+```
+
+`all_authors` returns an Array of all the authors who exist on the site, but have not published any blog posts.
+
+```ruby
+author_data.unpublished_authors
+>> [..., ...]
 ```
