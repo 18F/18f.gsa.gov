@@ -134,9 +134,15 @@ Post previews are generated dynamically throughout the site. Each preview requir
 </figure>
 {% endraw %}{% endcapture %}
 
+{% capture image_description %}
+There are a few ways we render images on the blog: Hero images, in text images without captions, and in text images with captions. To add images to a blog post:
+* We use `<figure>` and `<figcaption>` tags to set styles
+* We use the `alt` tag to provide screen readable captions for images that do not have a caption. 
+* When specifying the image path use `{{site.baseurl}}`
+{% endcapture %}
 {% include details-code.html
    title='image_captions'
-   description=""
+   description=image_description
    content=image_captions
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
 %}
