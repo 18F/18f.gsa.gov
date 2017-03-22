@@ -119,6 +119,8 @@ Post previews are generated dynamically throughout the site. Each preview requir
 {% capture image_captions %}{% raw %}
 ### Hero image
 
+{% include feature-image.html %}
+
 ### Images with no captions
 <img src="{{site.baseurl}}/assets/blog/web-design-standards/template-landing.png" style="box-shadow:0px 4px 10px rgba(0, 0, 0, 0.3);" alt="home page of the Draft U.S Web Design Standards">
 
