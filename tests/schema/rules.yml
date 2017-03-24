@@ -1,4 +1,4 @@
 no-dash:
-- prohibited: ["-"]
-lowercase:
-- prohibited: ["AZ"]
+  exceptions:
+    - user-centered design
+    - micro-purchase platforms

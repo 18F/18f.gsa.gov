@@ -1,11 +1,11 @@
 ---
-name: "String"
-last_name: "String"
+name: String
+last_name: String
 team:
-  type: "String"
+  type: String
   one_of: ["Test"]
 config:
-  path: 'spec/_test_collection'
+  path: spec/_test_collection
   ignore:
   - ..
   - .
