@@ -113,38 +113,3 @@ Post previews are generated dynamically throughout the site. Each preview requir
    content=styleguide_blockquotes
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blockquotes.scss'
 %}
-
-## Blog images and captions
-
-{% capture image_captions %}{% raw %}
-### Hero image
-
-{% include feature-image.html %}
-
-### Images with no captions
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/template-landing.png" style="box-shadow:0px 4px 10px rgba(0, 0, 0, 0.3);" alt="home page of the Draft U.S Web Design Standards">
-
-### Images with captions
-<figure>
-  <img src="{{site.baseurl}}/assets/blog/content/gds-content-ux.jpg" alt="">
-  <figcaption>The UK Government Digital Service's "Content is user experience" poster.</figcaption>
-</figure>
-
-<figure>
-  <img src="{{ site.baseurl }}/assets/blog/denver/gallery-41.jpg" alt="">
-  <figcaption>This long hallway has public art from local artists hanging in it. This is part of the GSA's <a href="http://www.gsa.gov/fa/">Fine Arts Program.</a> Photo courtesy: GSA PBS Region 8</figcaption>
-</figure>
-{% endraw %}{% endcapture %}
-
-{% capture image_description %}
-There are a few ways we render images on the blog: Hero images, in text images without captions, and in text images with captions. To add images to a blog post:
-* We use `<figure>` and `<figcaption>` tags to set styles
-* We use the `alt` tag to provide screen readable captions for images that do not have a caption. 
-* When specifying the image path use `{{site.baseurl}}`
-{% endcapture %}
-{% include details-code.html
-   title='image_captions'
-   description=image_description
-   content=image_captions
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
-%}

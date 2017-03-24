@@ -2,6 +2,9 @@
 title: 18F UI style guide
 subpage: Images
 permalink: /styleguide/images/
+image: /assets/img/page-feature/join.jpg
+image_alt: Example of hero image
+image_figcaption: Example caption
 ---
 
 Images are used heavily throughout the site, but using them isn't always straightforward.

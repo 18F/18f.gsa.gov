@@ -1,7 +1,7 @@
 ---
 title: 18F UI style guide
-subpage: Cards
-permalink: /styleguide/cards/
+subpage: Project cards
+permalink: /styleguide/project-cards/
 ---
 
 The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary. The design is unique to [18f.gsa.gov](https://18f.gsa.gov), but leans heavily on the stylistic foundation of the U.S. Web Design Standards and 18F Brand guidelines.
