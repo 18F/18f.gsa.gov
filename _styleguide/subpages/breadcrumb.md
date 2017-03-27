@@ -5,7 +5,7 @@ permalink: /styleguide/breadcrumb/
 parent_permalink: /styleguide/
 ---
 
-The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `default-intro` layout by default, but can be added to any layout or custom page as needed.
+The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `default-intro` layout by default, but can be added to any layout or custom page as needed. 
 
 {% capture styleguide_breadcrumb %}{% raw %}
 ### Specifying all attributes
@@ -25,13 +25,14 @@ The site breadcrumb can be used to establish a sense of place within the site. I
 {% endraw %}{% endcapture %}
 
 {% capture breadcrumb_description %}
-The breadcrumb include requires a few attributes to make it appear properly. They can be directly included in the include as variables or text, or left emtpy if those attributes are defined on the page itself.
+The breadcrumb include requires a few attributes to make it appear properly. They can be directly included in the include as variables or text, or left empty if those attributes are defined on the page itself.
 * `parent_title`: Title of the parent page as it should appear on the breadcrumb link
 * `parent_permalink`: This is the link that the parent page goes to
 * `page_title`: Title of the page as it should appear on the breadcrumb
 * `background_class`: The CSS class of the breadcrumb background color. It defaults to no background color
 
 If the breadcrumb is being used as part of the `default-intro` layout, make sure to set `breadcrumb: true` in the page front matter.
+The breadcrumb is included automatically on `project-tag-results` layout. 
 
 For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/docs/includes/).
 {% endcapture %}
