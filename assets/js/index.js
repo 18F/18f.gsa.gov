@@ -9,7 +9,6 @@ $(function (){
   $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
     $('.nav-mobile-styleguide').toggleClass('is-visible');
     e.preventDefault();
-    // e.stopPropagation();
   });
 
   // Subnav crawling
@@ -28,7 +27,7 @@ $(function (){
   });
 
   anchors = anchors.filter(function(anchor) {
-    return anchor[0] == '#';
+    return anchor[0] === '#';
   });
 
   var $anchors = $(anchors.join(','));
