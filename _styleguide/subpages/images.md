@@ -118,6 +118,8 @@ The image list is a pattern used throughout the site.
    scss_ref="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/icon-list.scss"
 %}
 
+---
+
 ### Adding a photo of an 18F team member
 
 Any team member [listed in the `/assets/img/team/` directory](https://github.com/18F/18f.gsa.gov/tree/master/assets/img/team/) can be referenced directly in markdown or HTML.

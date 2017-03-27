@@ -4,7 +4,7 @@ subpage: Blog images
 permalink: /styleguide/blog-images/
 image: /assets/img/page-feature/join.jpg
 image_alt: Example of hero image
-image_figcaption: Caption
+image_figcaption: Hero image with caption
 ---
 
 There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions.
