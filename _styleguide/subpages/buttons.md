@@ -30,6 +30,9 @@ permalink: /styleguide/buttons/
   <button class="usa-button-focus usa-button-secondary">Focus</button>
   <button class="usa-button-disabled usa-button-secondary">Disabled</button>
 </section>
+
+### Using anchor tags instead of buttons
+<a class="usa-button usa-button-secondary" href="{{ dead_end_link }}">Normal</a>
 {% endcapture %}
 
 

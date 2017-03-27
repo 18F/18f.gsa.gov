@@ -2,9 +2,11 @@
   @extend .nav-mobile;
 
   border-right: 1px solid $color-gray-light;
+  overflow: auto;
+  padding-bottom: $sg-header-height + $site-margins;
   position: fixed;
-  top: 10rem;
-  width: 26rem;
+  top: $sg-header-height;
+  width: $sliding-panel-width;
 
   .usa-sidenav-list {
     margin-top: $site-margins;

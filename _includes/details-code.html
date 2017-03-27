@@ -24,7 +24,7 @@
       </div>
     </li>
     {% endif %}
-    {% if include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
+    {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
     <li>
       <button class="usa-accordion-button"
         aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
@@ -34,8 +34,12 @@
         {% if include.description %}
           <p>{{ include.description | markdownify }}</p>
         {% endif %}
-        {% if include.uswds_ref or include.scss_ref or include.other_ref %}
+        {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref %}
+          <p>Additional resources:</p>
           <ul>
+            {% if include.include_ref %}
+            <li><a href="{{ include.include_ref }}">Include reference</a></li>
+            {% endif %}
             {% if include.uswds_ref %}
             <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
             {% endif %}

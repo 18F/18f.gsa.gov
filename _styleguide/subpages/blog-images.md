@@ -7,33 +7,37 @@ image_alt: Example of hero image
 image_figcaption: Caption
 ---
 
+There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions.
+
 ### Hero image with captions
 
 {% capture hero_caption %}{% raw %}
 {% include feature-image.html %}
 {% endraw %}{% endcapture %}
 
-{% capture image_description %}
+{% capture hero_description %}
 Feature images are used used in the `default-intro` and `post` layouts. `default-intro` is the primary layout used throughout the site and `post` is the layout used for blog posts.
 
 If using a layout that needs a feature image, specify the path to the image url with the `image` attribute.
+
+When the image is loaded on to the page, it will be given the CSS class `.post-feature_image`. This will ensure that the image spans the entire width of its surrounding element.
 {% endcapture %}
 
 {% include details-code.html
    title='hero-caption'
-   description=image_description
+   description=hero_description
    content=hero_caption
    lang="html"
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
 %}
 
-### Images with no captions
 {% capture image_captions %}{% raw %}
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/template-landing.png" style="box-shadow:0px 4px 10px rgba(0, 0, 0, 0.3);" alt="home page of the Draft U.S Web Design Standards">
+### Images with no captions
+<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/web-design-standards/template-landing.png" alt="home page of the Draft U.S Web Design Standards">
 
 ### Images with captions
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/content/gds-content-ux.jpg" alt="">
+  <img src="{{ site.baseurl }}/assets/blog/content/gds-content-ux.jpg" alt="">
   <figcaption>The UK Government Digital Service's "Content is user experience" poster.</figcaption>
 </figure>
 
@@ -44,15 +48,18 @@ If using a layout that needs a feature image, specify the path to the image url 
 {% endraw %}{% endcapture %}
 
 {% capture image_description %}
-There are a few ways we render images on the blog: Hero images, in text images without captions, and in text images with captions. To add images to a blog post:
-* We use `<figure>` and `<figcaption>` tags to set styles
+To add basic images to a blog post:
+* We use [`<figure>` and `<figcaption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) tags
 * We use the `alt` tag to provide screen readable captions for images that do not have a caption.
-* When specifying the image path use `{{ site.baseurl }}`
+* If images have a caption, they do not need `alt` text. To make sure that browsers know this, specify `alt=""`
+* Make sure to prepend image path with `{{ site.baseurl }}` to ensure that the file path is pointed to the correct spot.
+* Add the `.image-shadowed` CSS class to give your image depth
 {% endcapture %}
 {% include details-code.html
    title='image_captions'
    description=image_description
    content=image_captions
+   lang='html'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
 %}
 
