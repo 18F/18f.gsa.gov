@@ -29,7 +29,7 @@ Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project
 
 * [author.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author.rb): creates two filters, [`lookup`](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#lookup) and [`team_link`](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_link).
 * [author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author_data.rb): Creates an [API](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#authordata) for using data pertaining to authors throughout the site.
-* [update_author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/update_author_data.rb): Uses the AuthorData API to update the list of published authors. This will happen authomatically every time the site builds.
+* [update_author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/update_author_data.rb): Uses the AuthorData API to update the list of published authors. This will happen automatically every time the site builds.
 * [embed.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#embed): legacy filter for embedding content within the site. The current approach is to use an [OEmbed plugin]({{ site.basurl }}/styleguide/oembeds/).
 * [liquify.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#liquify): liquid parser.
 * [markdown.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#markdown-rendering): markdown parser.
