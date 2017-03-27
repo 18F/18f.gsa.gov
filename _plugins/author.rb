@@ -1,64 +1,4 @@
 module Jekyll
-  class AuthorTag < Liquid::Tag
-    def initialize(tag_name, author, tokens)
-      super
-      @author = author.strip
-      @baseurl = Jekyll.sites[0].config['baseurl']
-    end
-
-    def render(_context)
-      teammate = finder('authors', @author)
-
-      teammate = finder('pif_team', @author) if teammate.nil?
-
-      if teammate
-        "<span class=\"author #{teammate['name']}\">" \
-          "#{teammate['full_name']}" \
-          '</span>'
-      else
-        raise Exception, "No teammate found by that name: #{@author}"
-      end
-    end
-
-    def finder(group, name)
-      if results.respond_to?('find')
-        return results.find { |member| member['name'] == name }
-      else
-        raise Exception, "No teammate found by that name: #{name}"
-      end
-    end
-  end
-
-  class AuthoredPosts < Liquid::Tag
-    def initialize(tag_name, heading, tokens)
-      super
-      @heading = if heading
-                   heading.split('=')[1].strip
-                 else
-                   'h2'
-                 end
-    end
-
-    def render(context)
-      authored = []
-      author = context.environments[0]['page']['name']
-      first_name = context.environments[0]['page']['first_name']
-      posts = context.environments[0]['site']['posts']
-      site_url = context.environments[0]['site']['baseurl']
-      for p in posts
-        authored.push(p) if p.data['authors'] && p.data['authors'].include?(author)
-      end
-      unless authored.empty?
-        list = "<#{@heading}>#{first_name}’s blog posts:</#{@heading}>"
-        list << '<ul>'
-        for a in authored
-          list << "<li><a href='#{site_url}#{a.url}'>#{a.data['title']}</a></li>"
-        end
-        list << '</ul>'
-      end
-    end
-  end
-
   module AuthorFilter
     def initialize(context)
       @page_path = context.environments.first['page']['path']
@@ -147,6 +87,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('author', Jekyll::AuthorTag)
-Liquid::Template.register_tag('authored_posts', Jekyll::AuthoredPosts)
 Liquid::Template.register_filter(Jekyll::AuthorFilter)

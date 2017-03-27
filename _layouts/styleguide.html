@@ -1,23 +1,61 @@
 ---
 layout: default
-title: 18F Styleguide
+title: 18F UI Styleguide
+nav_items:
+  - text: Typography
+    permalink: /styleguide/typography/
+    in_drawer: true
+  - text: Colors
+    permalink: /styleguide/colors/
+    in_drawer: true
+  - text: Buttons
+    permalink: /styleguide/buttons/
+    in_drawer: true
+  - text: Images
+    permalink: /styleguide/images/
+    in_drawer: true
+  - text: Breadcrumb
+    permalink: /styleguide/breadcrumb/
+    in_drawer: true
+  - text: Project cards
+    permalink: /styleguide/project-cards/
+    in_drawer: true
+  - text: Right aligned list
+    permalink: /styleguide/right-aligned-list/
+    in_drawer: true
+  - text: Sticky subnavigation
+    permalink: /styleguide/sticky-subnavigation/
+    in_drawer: true
+  - text: Blog components
+    permalink: /styleguide/blog-components/
+    in_drawer: true
+  - text: Blog images
+    permalink: /styleguide/blog-images/
+    in_drawer: true
+  - text: Using Jekyll
+    permalink: /styleguide/using-jekyll/
+    in_drawer: true
 ---
-<section class="background-gray usa-section">
-  <div class="usa-grid">
-    <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-    <div class="usa-width-three-fourths">
-      <h2 class='h3'><a href="https://18f.gsa.gov">18f.gsa.gov</a> inherits from the U.S. Web Design Standards and 18F brand guidelines to create style that is professional, unique, and informative</h2>
-    </div>
+
+{% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+
+<section class="background-gray usa-section styleguide-header-wrapper">
+  <a href="{{ site.baseurl }}/styleguide/">
+    <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
+    <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  </a>
+  <div class="menu-btn-styleguide-wrapper">
+    <button class="menu-btn-styleguide">Menu</button>
   </div>
 </section>
-<section class="usa-grid content-focus content-wide usa-section">
+<div class="styleguide-content-wrapper">
 
-  <aside id="styleguide-navbar" class="nav-subnav">
-    <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
-    {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
+  <aside class="nav-subnav styleguide-subnav">
+    {% include navigation/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
   </aside>
-  <section>
+
+  <section class="styleguide-content">
+    {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
     {{ content }}
   </section>
-</section>
-
+</div>

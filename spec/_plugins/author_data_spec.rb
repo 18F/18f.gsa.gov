@@ -5,8 +5,8 @@ RSpec.describe SiteData::AuthorData do
     root = File.dirname(File.dirname(__FILE__))
 
     @author_data = SiteData::AuthorData.new(root)
-    @penned_authors = @author_data.penned_authors
-    @excluded_authors = @author_data.excluded_authors
+    @published_authors = @author_data.published_authors
+    @unpublished_authors = @author_data.unpublished_authors
     @all_authors = @author_data.all_authors
   end
 
@@ -170,20 +170,20 @@ RSpec.describe SiteData::AuthorData do
   end
 
   describe 'class variables' do
-    it "generates a list of 'penned_authors'" do
-      expect(@penned_authors).to be_kind_of(Array)
-      expect(@penned_authors).not_to be_empty
-      expect(@penned_authors.size).to be > 0
+    it "generates a list of 'published_authors'" do
+      expect(@published_authors).to be_kind_of(Array)
+      expect(@published_authors).not_to be_empty
+      expect(@published_authors.size).to be > 0
     end
 
-    it "generates a list of 'excluded_authors'" do
-      expect(@excluded_authors).to be_kind_of(Array)
-      expect(@excluded_authors).not_to be_empty
-      expect(@excluded_authors.size).to be > 0
+    it "generates a list of 'unpublished_authors'" do
+      expect(@unpublished_authors).to be_kind_of(Array)
+      expect(@unpublished_authors).not_to be_empty
+      expect(@unpublished_authors.size).to be > 0
     end
 
-    it "'all_authors' should be the sum of 'excluded_authors' and 'penned_authors'" do
-      all_authors_size = @excluded_authors.size + @penned_authors.size
+    it "'all_authors' should be the sum of 'unpublished_authors' and 'published_authors'" do
+      all_authors_size = @unpublished_authors.size + @published_authors.size
       expect(@all_authors.size).to eq all_authors_size
     end
 
@@ -192,13 +192,13 @@ RSpec.describe SiteData::AuthorData do
       expect(aaron_included).to be true
     end
 
-    it "aaron.md is in 'penned_authors'" do
-      aaron_included = @penned_authors.include? 'aaron.md'
+    it "aaron.md is in 'published_authors'" do
+      aaron_included = @published_authors.include? 'aaron.md'
       expect(aaron_included).to be true
     end
 
-    it "aaron.md is not in 'excluded_authors'" do
-      aaron_included = @excluded_authors.include? 'aaron.md'
+    it "aaron.md is not in 'unpublished_authors'" do
+      aaron_included = @unpublished_authors.include? 'aaron.md'
       expect(aaron_included).to be false
     end
 
@@ -207,13 +207,13 @@ RSpec.describe SiteData::AuthorData do
       expect(unpublished_included).to be true
     end
 
-    it "unpublished_author.md is not in 'penned_authors'" do
-      unpublished_included = @penned_authors.include? 'unpublished_author.md'
+    it "unpublished_author.md is not in 'published_authors'" do
+      unpublished_included = @published_authors.include? 'unpublished_author.md'
       expect(unpublished_included).to be false
     end
 
-    it "unpublished_author.md is in 'excluded_authors'" do
-      unpublished_included = @excluded_authors.include? 'unpublished_author.md'
+    it "unpublished_author.md is in 'unpublished_authors'" do
+      unpublished_included = @unpublished_authors.include? 'unpublished_author.md'
       expect(unpublished_included).to be true
     end
   end

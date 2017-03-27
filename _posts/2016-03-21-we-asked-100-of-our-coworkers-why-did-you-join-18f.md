@@ -184,7 +184,7 @@ and the micro-purchase platform.*
 <div class="pquote">
 	{{ "alan" | team_photo }}
 	<blockquote>
-		“I joined 18F to work towards a great mission and to be at a place that allowed me to grow and develop professionally. I was finishing my last year of part-time law school when I joined 18F. I always felt very fortunate that I could start a job somewhere that was flexible about night school. During my time here, I’ve seen countless colleagues receive encouragement and support to develop their skill set outside of 18F. Coming into 18F, I had spent a lot of time interning in different parts of government, and I was never satisfied with the way they handled technology. Being at a place like 18F, where helping government improve its use of technology is our mandate, is a dream job.” {{ "alan" | team_link }}
+		“I joined 18F to work towards a great mission and to be at a place that allowed me to grow and develop professionally. I was finishing my last year of part-time law school when I joined 18F. I always felt very fortunate that I could start a job somewhere that was flexible about night school. During my time here, I’ve seen countless colleagues receive encouragement and support to develop their skill set outside of 18F. Coming into 18F, I had spent a lot of time interning in different parts of government, and I was never satisfied with the way they handled technology. Being at a place like 18F, where helping government improve its use of technology is our mandate, is a dream job.” – {{ "alan" | team_link }}
 	</blockquote>
 </div>
 

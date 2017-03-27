@@ -1,10 +1,12 @@
 $color-opaque: rgba(0, 0, 0, 0.2);
+$site-box-shadow: 0 1px 9px $color-opaque;
+$site-box-shadow-hover: 0 1px 1px $color-opaque;
 
 @mixin hover-box-shadow() {
-  @include prefixer(box-shadow, 0 1px 9px $color-opaque, webkit moz ms o spec);
+  @include prefixer(box-shadow, $site-box-shadow, webkit moz ms o spec);
 
   &:hover {
-    @include prefixer(box-shadow, 0 1px 1px $color-opaque, webkit moz ms o spec);
+    @include prefixer(box-shadow, $site-box-shadow-hover, webkit moz ms o spec);
   }
 
   &:active {

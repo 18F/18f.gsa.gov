@@ -22,11 +22,15 @@
 }
 
 .icon-list-text {
-  .paragraph-bold {
+  .p-bold {
     margin-bottom: $spacer-margins;
   }
 
   &:last-of-type p {
     margin-top: 0;
   }
+}
+
+.icon-list-wrapper {
+  padding-left: 0;
 }
