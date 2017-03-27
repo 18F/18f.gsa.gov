@@ -1,13 +1,10 @@
 ---
-layout: "String"
-title: "String"
-subtitle: "String"
-excerpt: "String"
+layout: String
+title: String
+subtitle: String
+excerpt: String
 tag: String
-github_repo: "String"
-project_url: "String"
-permalink: "String"
-expiration_date: String
+permalink: String
 config:
   path: _projects
   ignore:
@@ -24,7 +21,6 @@ config:
     - github_repo
     - project_url
     - learn_more
-    - agency
     - resources
     - quote
     - quote_source
