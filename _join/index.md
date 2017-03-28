@@ -7,30 +7,18 @@ hero: false
 redirect_from:
   - /apply/
 subnav_items:
-  -
-    text: How to apply
+  - text: How to apply
     permalink: /join/#how-to-apply
-    in_subnav: true
-  -
-    text: Interview process
+  - text: Interview process
     permalink: /join/#the-interview-process
-    in_subnav: true
-  -
-    text: After interviews
+  - text: After interviews
     permalink: /join/#after-your-interviews
-    in_subnav: true
-  -
-    text: Government pay grades
+  - text: Government pay grades
     permalink: /join/#government-pay-grades
-    in_subnav: true
-  -
-    text: Benefits and leave
+  - text: Benefits and leave
     permalink: /join/#benefits-and-leave
-    in_subnav: true
-  -
-    text: Government-style resumes
+  - text: Government-style resumes
     permalink: /join/#government-style-resumes
-    in_subnav: true
 ---
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.

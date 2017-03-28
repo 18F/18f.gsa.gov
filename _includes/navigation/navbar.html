@@ -1,6 +1,5 @@
 <ul class="usa-accordion">
 {% for item in include.nav_items %}
-  {% if item.in_menu %}
   <li>
     {% if item.permalink %}
       {% assign item_link = item.permalink | prepend: site.baseurl %}
@@ -16,6 +15,5 @@
 
     <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
   </li>
-  {% endif %}
 {% endfor %}
 </ul>

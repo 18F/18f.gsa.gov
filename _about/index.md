@@ -6,22 +6,14 @@ layout: default-intro
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
 subnav_items:
--
-  text: Our principles
-  permalink: /about/#our-principles
-  in_subnav: true
--
-  text: Our team
-  permalink: /about/#our-team
-  in_subnav: true
--
-  text: History and funding
-  permalink: /about/#history-and-funding
-  in_subnav: true
--
-  text: For press
-  permalink: /about/#for-press
-  in_subnav: true
+  - text: Our principles
+    permalink: /about/#our-principles
+  - text: Our team
+    permalink: /about/#our-team
+  - text: History and funding
+    permalink: /about/#history-and-funding
+  - text: For press
+    permalink: /about/#for-press
 ---
 
 18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology.

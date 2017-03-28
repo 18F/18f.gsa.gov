@@ -1,34 +1,30 @@
-{% assign current = page.url | downcase | split: '/' %}
-
-{% assign nav_items = site.data.navigation %}
-{% assign nav_items = nav_items['assigned'] %}
+{% assign navigation = site.data.navigation %}
 
 {% if include.navbar %}
+  {% assign nav_items = navigation['navbar'] %}
   {% include navigation/navbar.html nav_items=nav_items %}
 {% endif %}
 
 {% if include.drawer %}
+  {% assign nav_items = navigation['drawer'] %}
   {%
     include navigation/drawer.html
-    children=true
     nav_items=nav_items
   %}
 {% endif %}
 
-
 {% if include.subnav %}
-  {% include navigation/subnav.html %}
+  {% include navigation/subnav.html subnav_items=page.subnav_items %}
 {% endif %}
 
 {% if include.footer %}
+  {% assign nav_items = navigation['footer'] %}
   {%
     include navigation/footer-mobile.html
-    children=false
     nav_items=nav_items
   %}
   {%
     include navigation/footer-desktop.html
-    children=false
     nav_items=nav_items
   %}
 {% endif %}

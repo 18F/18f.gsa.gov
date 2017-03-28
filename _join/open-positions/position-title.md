@@ -7,26 +7,16 @@ position_title: Product Engineer
 app_close_date:
 subnav_title: Product Engineer
 subnav_items:
--
-  text: Basic information
-  permalink: /#basic-information
-  in_subnav: true
--
-  text: Role summary
-  permalink: /#role-summary
-  in_subnav: true
--
-  text: Qualifications
-  permalink: /#qualifications
-  in_subnav: true
--
-  text: Benefits
-  permalink: /#benefits
-  in_subnav: true
--
-  text: Additional information
-  permalink: /#additional-information
-  in_subnav: true
+  - text: Basic information
+    permalink: /#basic-information
+  - text: Role summary
+    permalink: /#role-summary
+  - text: Qualifications
+    permalink: /#qualifications
+  - text: Benefits
+    permalink: /#benefits
+  - text: Additional information
+    permalink: /#additional-information
 breadcrumb: true
 published: false
 ---

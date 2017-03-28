@@ -29,7 +29,10 @@ module Jekyll
         urls = url.map do |u|
           page_url = clip_char(page_url.to_s.downcase, '/').split('/')[0]
           u = clip_char(u.to_s.downcase, '/').split('/')[0]
-          page_url == u || nil
+          # if the url group is 'blog', match date strings
+          is_blog_post = (u == 'blog') && (page_url.to_i > 0)
+          matching_url = (page_url == u) || is_blog_post
+          matching_url || nil
         end
         urls.compact.any? || nil
       else
@@ -44,10 +47,10 @@ module Jekyll
       _type = value.class
       _second_type = second_value.class
       _third_type = third_value.class
-      # puts '---------------------'
-      # puts "#{value} is a #{_type}"
-      # puts '---------------------'
-      # binding.pry
+      puts '---------------------'
+      puts "#{value} is a #{_type}"
+      puts '---------------------'
+      binding.pry
     end
 
     def find_collection(site, collection)

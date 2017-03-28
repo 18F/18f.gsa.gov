@@ -10,7 +10,6 @@
 
   <ul id="{{ title_slug }}" class="usa-sidenav-list usa-accordion" aria-hidden="true">
   {% for item in subnav_items %}
-    {% if item.in_subnav %}
     <li>
       {% if item.permalink %}
         {% assign first_chars = item.permalink | slice: 0, 2 %}
@@ -29,7 +28,6 @@
 
       <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
     </li>
-    {% endif %}
   {% endfor %}
   </ul>
 </nav>

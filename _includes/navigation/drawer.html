@@ -8,7 +8,6 @@
 
   <ul class="usa-sidenav-list usa-accordion">
   {% for item in include.nav_items %}
-    {% if item.in_drawer %}
     <li>
       {% if item.permalink %}
         {% assign item_link = item.permalink | prepend: site.baseurl %}
@@ -24,7 +23,6 @@
 
       <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
     </li>
-    {% endif %}
   {% endfor %}
   </ul>
 </nav>

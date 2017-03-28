@@ -1,61 +1,53 @@
-assigned:
-    -
-        text: Home
-        href: pages/home.md
-        permalink: /
-        in_menu: false
-        in_drawer: false
-        in_footer: false
-    -
-        text: Our work
-        href: pages/our-work.md
-        permalink: /our-work/
-        in_menu: false
-        in_drawer: false
-        in_footer: false
-    -
-        text: What we deliver
-        href: pages/what-we-deliver.md
-        permalink: /what-we-deliver/
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-    -
-        text: How we work
-        href: pages/how-we-work.md
-        permalink: /how-we-work/
-        in_menu: true
-        in_drawer: true
-        in_footer: false
-    -
-        text: About 18F
-        href: _about/index.md
-        permalink: /about/
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-    -
-        text: Join 18F
-        href: /_join/index.md
-        permalink: /join/
-        in_menu: false
-        in_drawer: false
-        in_footer: true
-    -
-        text: Blog
-        href: blog/index.html
-        multiple_permalinks:
-          - /blog/:path/
-          - /tags/:path/
-          - /author/:path/
-        permalink: /blog/
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-    -
-        text: Contact
-        href: pages/contact.md
-        permalink: /contact/
-        in_menu: true
-        in_drawer: true
-unassigned: []
+navbar:
+- text: What we deliver
+  permalink: /what-we-deliver/
+  multiple_permalinks:
+    - /what-we-deliver/:path/
+- text: How we work
+  permalink: /how-we-work/
+- text: About 18F
+  permalink: /about/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
+
+drawer:
+  - text: What we deliver
+    permalink: /what-we-deliver/
+    multiple_permalinks:
+    - /what-we-deliver/:path/
+  - text: How we work
+    permalink: /how-we-work/
+  - text: About 18F
+    permalink: /about/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/
+
+footer:
+  - text: What we deliver
+    permalink: /what-we-deliver/
+    multiple_permalinks:
+    - /what-we-deliver/:path/
+  - text: About 18F
+    permalink: /about/
+  - text: Join 18F
+    permalink: /join/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/

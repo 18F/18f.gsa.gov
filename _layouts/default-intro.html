@@ -32,7 +32,7 @@ layout: default
 <section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">
-      {% include navigation.html subnav=true subnav_anchor=page.subnav_anchor %}
+      {% include navigation.html subnav=true %}
     </aside>
     <section class="usa-width-two-thirds">
       {% if page.image and page.lead %}
