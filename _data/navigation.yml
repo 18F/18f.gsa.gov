@@ -17,7 +17,6 @@ assigned:
         text: What we deliver
         href: pages/what-we-deliver.md
         permalink: /what-we-deliver/
-        collections: ['projects']
         in_menu: true
         in_drawer: true
         in_footer: true
@@ -32,7 +31,6 @@ assigned:
         text: About 18F
         href: _about/index.md
         permalink: /about/
-        collections: ['about']
         in_menu: true
         in_drawer: true
         in_footer: true
@@ -46,9 +44,11 @@ assigned:
     -
         text: Blog
         href: blog/index.html
+        multiple_permalinks:
+          - /blog/:path/
+          - /tags/:path/
+          - /author/:path/
         permalink: /blog/
-        permalink_alt: /tags/
-        collections: ['authors', 'posts']
         in_menu: true
         in_drawer: true
         in_footer: true
@@ -56,7 +56,6 @@ assigned:
         text: Contact
         href: pages/contact.md
         permalink: /contact/
-        collections: ['contact']
         in_menu: true
         in_drawer: true
 unassigned: []
