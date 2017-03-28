@@ -17,22 +17,7 @@
 
 
 {% if include.subnav %}
-  {% if page.subnav_items %}
-    {% assign subnav_items = page.subnav_items %}
-
-    {% include navigation/subnav.html
-       page_data=page
-       subnav_items=subnav_items
-       children=true
-    %}
-  {% else %}
-    {% assign subnav_page_url = include.subnav_anchor | default: page.url %}
-    {% assign page_data = subnav_page_url | find_page: nav_items %}
-    {% include navigation/subnav.html
-       page_data=page_data
-       children=true
-    %}
-  {% endif %}
+  {% include navigation/subnav.html %}
 {% endif %}
 
 {% if include.footer %}

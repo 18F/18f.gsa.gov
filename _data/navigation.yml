@@ -13,7 +13,6 @@ assigned:
         in_menu: false
         in_drawer: false
         in_footer: false
-        children:
     -
         text: What we deliver
         href: pages/what-we-deliver.md
@@ -22,7 +21,6 @@ assigned:
         in_menu: true
         in_drawer: true
         in_footer: true
-        children:
     -
         text: How we work
         href: pages/how-we-work.md
@@ -30,7 +28,6 @@ assigned:
         in_menu: true
         in_drawer: true
         in_footer: false
-        children:
     -
         text: About 18F
         href: _about/index.md
@@ -39,7 +36,6 @@ assigned:
         in_menu: true
         in_drawer: true
         in_footer: true
-        children:
     -
         text: Join 18F
         href: /_join/index.md
@@ -47,7 +43,6 @@ assigned:
         in_menu: false
         in_drawer: false
         in_footer: true
-        children:
     -
         text: Blog
         href: blog/index.html
@@ -57,7 +52,6 @@ assigned:
         in_menu: true
         in_drawer: true
         in_footer: true
-        children:
     -
         text: Contact
         href: pages/contact.md
@@ -65,55 +59,4 @@ assigned:
         collections: ['contact']
         in_menu: true
         in_drawer: true
-        in_footer: true
-        children:
-            -
-                text: 'Partnership playbook'
-                permalink: /contact/partnership-playbook/
-                collections: ['contact']
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-                children:
-                    -
-                        text: '1. We build in the open'
-                        permalink: /contact/partnership-playbook/we-build-in-the-open/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '2. How we work'
-                        permalink: /contact/partnership-playbook/how-we-work/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '3. Who we work with'
-                        permalink: /contact/partnership-playbook/who-we-work-with/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '4. Getting started'
-                        permalink: /contact/partnership-playbook/getting-started/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '5. What to expect'
-                        permalink: /contact/partnership-playbook/what-to-expect/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
 unassigned: []
