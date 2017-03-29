@@ -1,11 +1,11 @@
 ---
 title: 18F UI style guide
-subpage: Breadcrumb
-permalink: /styleguide/breadcrumb/
+subpage: Breadcrumbs
+permalink: /styleguide/breadcrumbs/
 parent_permalink: /styleguide/
 ---
 
-The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `default-intro` layout by default, but can be added to any layout or custom page as needed. 
+The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `default-intro` layout by default, but can be added to any layout or custom page as needed.
 
 {% capture styleguide_breadcrumb %}{% raw %}
 ### Specifying all attributes
@@ -32,7 +32,7 @@ The breadcrumb include requires a few attributes to make it appear properly. The
 * `background_class`: The CSS class of the breadcrumb background color. It defaults to no background color
 
 If the breadcrumb is being used as part of the `default-intro` layout, make sure to set `breadcrumb: true` in the page front matter.
-The breadcrumb is included automatically on `project-tag-results` layout. 
+The breadcrumb is included automatically on `project-tag-results` layout.
 
 For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/docs/includes/).
 {% endcapture %}

@@ -1,7 +1,7 @@
 ---
 title: 18F UI style guide
-subpage: Right aligned list
-permalink: /styleguide/right-aligned-list/
+subpage: Right aligned lists
+permalink: /styleguide/right-aligned-lists/
 ---
 
 This attribute is found in the [contact]({{ site.baseurl }}/contact) and [project pages]({{ site.baseurl }}/what-we-deliver/federalist/) on the 18F site. This feature provides at-a-glance information.
@@ -33,8 +33,8 @@ This attribute is found in the [contact]({{ site.baseurl }}/contact) and [projec
 {% endraw %}{% endcapture %}
 
 {% capture right_list_description %}
-- The right aligned list should be placed first in the `HTML` before the main content on the left. 
-- In the `<aside>` tag we use the `usa-grid-reversed-right` class. This class reverses the order in which the HTML is displayed so that the content that would normally appear on the left will appear on the right instead. The order is not reversed in mobile. 
+- The right aligned list should be placed first in the `HTML` before the main content on the left.
+- In the `<aside>` tag we use the `usa-grid-reversed-right` class. This class reverses the order in which the HTML is displayed so that the content that would normally appear on the left will appear on the right instead. The order is not reversed in mobile.
 
 {% endcapture %}
 {% include details-code.html
