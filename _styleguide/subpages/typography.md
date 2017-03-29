@@ -44,8 +44,6 @@ permalink: /styleguide/typography/
 
 ### Typesetting
 
-<section class="usa-grid-full">
-  <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <h1>h1 – 3.8rem, 38px</h1>
 <h2>h2 – 3.4rem 34px</h2>
@@ -69,15 +67,11 @@ For example:
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
-  </div>
-</section>
 
 ---
 
 ### Font weight
 
-<section class="usa-grid-full">
-  <div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <p class="p-bold">$font-bold: 700</p>
 <p class="p-normal">$font-normal: 400</p>
@@ -101,15 +95,11 @@ Font weight is directly inherited from the U.S. Web Design Standards.
    description=weight_description
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L20-L21'
 %}
-  </div>
-</section>
 
 ---
 
 ### Links
 
-<section class="usa-grid-full">
-<div class="usa-width-one-half">
 {% capture codeblock %}{% raw %}
 <div class="styleguide-links-section">
   <a>Link</a>
@@ -135,5 +125,3 @@ Font weight is directly inherited from the U.S. Web Design Standards.
    title='links'
    content=codeblock
 %}
-  </div>
-</section>

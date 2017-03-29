@@ -1,4 +1,5 @@
 $sg-header-height: 10rem;
+$margins-width: $sliding-panel-width + (2 * $site-margins);
 
 .styleguide-main-content {
   margin-left: auto;
@@ -60,6 +61,8 @@ $sg-header-height: 10rem;
   margin-right: $site-margins;
   margin-top: $sg-header-height;
   max-width: $site-max-width;
+
+  width: calc(100% - #{$margins-width});
 
   @include media($medium-screen + $nav-width-extra) {
     margin-left: $site-margins + $sliding-panel-width;

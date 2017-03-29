@@ -53,14 +53,10 @@ There are a few components that we are using to generate the sticky subnavigatio
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
   ```yml
   subnav_items:
-  -
-    text: Heading 1
-    permalink: /styleguide/sticky-subnavigation/#heading-1
-    in_subnav: true
-  -
-    text: Heading Two
-    permalink: /styleguide/sticky-subnavigation/#heading-two
-    in_subnav: true
+    - text: Heading 1
+      permalink: /styleguide/sticky-subnavigation/#heading-1
+    - text: Heading Two
+      permalink: /styleguide/sticky-subnavigation/#heading-two
   ```
 {% endcapture %}
 

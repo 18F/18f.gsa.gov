@@ -2,7 +2,7 @@
 title: 18F UI style guide
 subpage: Images
 permalink: /styleguide/images/
-image: /assets/img/page-feature/join.jpg
+image: /assets/img/page-feature/hire-us.jpg
 image_alt: Example of hero image
 image_figcaption: Example caption
 ---
