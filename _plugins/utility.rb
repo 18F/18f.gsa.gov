@@ -30,7 +30,7 @@ module Jekyll
           page_url = clip_char(page_url.to_s.downcase, '/').split('/')[0]
           u = clip_char(u.to_s.downcase, '/').split('/')[0]
           # if the url group is 'blog', match date strings
-          is_blog_post = (u == 'blog') && (page_url.to_i > 0)
+          is_blog_post = (u == 'blog') && (page_url.to_i.positive?)
           matching_url = (page_url == u) || is_blog_post
           matching_url || nil
         end
