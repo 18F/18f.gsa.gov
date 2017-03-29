@@ -6,7 +6,8 @@ tags:
 - web design standards
 - design
 excerpt: "In this second post in our series, we met with the team at the U.S. Customs and Border Protection and learned how they used the Draft Standards to train, develop, and design their various websites and applications."
-image: /assets/img/logos/agencies/CBP.png
+image: /assets/img/logos/agencies/cbp.png
+hero: false
 ---
 
 As mentioned in our recent [Q&A with the team at NASA](https://18f.gsa.gov/2017/03/21/nasa-journey-with-us-web-design-standards/), the Draft U.S. Web Design Standards team is sitting down with various agencies that are using the Draft Standards. In this second post in our series, we met with the team at the [U.S. Customs and Border Protection](https://www.cbp.gov/) and learned how they used the Draft Standards to train, develop, and design their various websites and applications.
