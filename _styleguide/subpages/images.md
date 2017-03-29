@@ -4,7 +4,7 @@ subpage: Images
 permalink: /styleguide/images/
 image: /assets/img/page-feature/hire-us.jpg
 image_alt: Example of hero image
-image_figcaption: Example caption
+image_figcaption: Example caption. This caption will be the same for all pages that have image_figcaption specified in their front matter.
 ---
 
 Images are used heavily throughout the site, but using them isn't always straightforward.
@@ -120,9 +120,9 @@ The image list is a pattern used throughout the site.
 
 ---
 
-### Adding a photo of an 18F team member
+### Adding a team photo
 
-Any team member [listed in the `/assets/img/team/` directory](https://github.com/18F/18f.gsa.gov/tree/master/assets/img/team/) can be referenced directly in markdown or HTML.
+Any 18F team member [listed in the `/assets/img/team/` directory](https://github.com/18F/18f.gsa.gov/tree/master/assets/img/team/) can be referenced directly in markdown or HTML.
 
 {% capture icon_list_codeblock %}{% raw %}
 #### Referencing a team member who has a photo
@@ -146,4 +146,66 @@ In the above example `{% raw %}{{ 'brian' | team_photo }}{% endraw %}`, referenc
    lang="markdown"
    description=icon_list_description
    other_ref='https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_photo-accepts-the-authors-name-as-the-first-argument-lives-in-teamrb'
+%}
+
+---
+
+## Blog images
+
+There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions.
+
+### Hero image
+
+{% capture styleguide_hero_image %}{% raw %}
+{% include feature-image.html %}
+{% endraw %}{% endcapture %}
+
+{% capture hero_description %}
+Feature images are used used in the `default-intro` and `post` layouts. `default-intro` is the primary layout used throughout the site and `post` is the layout used for blog posts.
+
+If using a layout that needs a feature image, specify the path to the image url with the `image` attribute.
+
+When the image is loaded on to the page, it will be given the CSS class `.post-feature_image`. This will ensure that the image spans the entire width of its surrounding element.
+
+To add a caption, specify the `image_figcaption` attribute in the page front matter.
+{% endcapture %}
+
+{% include details-code.html
+   title='hero-caption'
+   description=hero_description
+   content=styleguide_hero_image
+   lang="html"
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
+%}
+
+{% capture image_captions %}{% raw %}
+### Images with no captions
+<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/web-design-standards/template-landing.png" alt="home page of the Draft U.S Web Design Standards">
+
+### Images with captions
+<figure>
+  <img src="{{ site.baseurl }}/assets/blog/content/gds-content-ux.jpg" alt="">
+  <figcaption>The UK Government Digital Service's "Content is user experience" poster.</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/blog/denver/gallery-41.jpg" alt="">
+  <figcaption>This long hallway has public art from local artists hanging in it. This is part of the GSA's <a href="http://www.gsa.gov/fa/">Fine Arts Program.</a> Photo courtesy: GSA PBS Region 8</figcaption>
+</figure>
+{% endraw %}{% endcapture %}
+
+{% capture image_description %}
+To add basic images to a blog post:
+* We use [`<figure>` and `<figcaption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) tags
+* We use the `alt` tag to provide screen readable captions for images that do not have a caption.
+* If images have a caption, they do not need `alt` text. To make sure that browsers know this, specify `alt=""`
+* Make sure to prepend image path with `{{ site.baseurl }}` to ensure that the file path is pointed to the correct spot.
+* Add the `.image-shadowed` CSS class to give your image depth
+{% endcapture %}
+{% include details-code.html
+   title='image_captions'
+   description=image_description
+   content=image_captions
+   lang='html'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
 %}
