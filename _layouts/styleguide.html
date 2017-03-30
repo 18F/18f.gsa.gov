@@ -6,10 +6,17 @@ nav_items:
     permalink: /styleguide/
   - text: Typography
     permalink: /styleguide/typography/
-  - text: Colors
-    permalink: /styleguide/colors/
+    children:
+      - text: Font family
+        permalink: /styleguide/typography/#font-family
+      - text: Typesetting
+        permalink: /styleguide/typography/#typesetting
+      - text: Links
+        permalink: /styleguide/typography/#links
   - text: Layout
     permalink: /styleguide/layout/
+  - text: Colors
+    permalink: /styleguide/colors/
   - text: Images
     permalink: /styleguide/images/
     children:
@@ -17,14 +24,8 @@ nav_items:
         permalink: /styleguide/images/#source-reference
       - text: SVG include catalog
         permalink: /styleguide/images/#svg-include-catalog
-      - text: Adding a team photo
-        permalink: /styleguide/images/#adding-a-team-photo
-      - text: Hero images
-        permalink: /styleguide/images/#hero-images
-      - text: Images without captions
-        permalink: /styleguide/images/#images-without-captions
-      - text: Images with captions
-        permalink: /styleguide/images/#images-with-captions
+      - text: Image list
+        permalink: /styleguide/images/#image-list
   - text: Components
     permalink: /styleguide/components/
     children:
@@ -32,16 +33,38 @@ nav_items:
         permalink: /styleguide/components/#buttons
       - text: Breadcrumbs
         permalink: /styleguide/components/#breadcrumbs
-  - text: Project cards
-    permalink: /styleguide/project-cards/
-  - text: Right aligned list
-    permalink: /styleguide/right-aligned-list/
-  - text: Sticky subnavigation
-    permalink: /styleguide/sticky-subnavigation/
-  - text: Blog components
-    permalink: /styleguide/blog-components/
+      - text: Project cards
+        permalink: /styleguide/components/#project-cards
+      - text: Sticky subnavigation
+        permalink: /styleguide/components/#sticky-subnavigation
+      - text: Right aligned list
+        permalink: /styleguide/components/#right-aligned-list
+  - text: Blog
+    permalink: /styleguide/blog/
+    children:
+      - text: Post previews
+        permalink: /styleguide/blog/#post-previews
+      - text: Blog tags
+        permalink: /styleguide/blog/#blog-tags
+      - text: Blockquotes
+        permalink: /styleguide/blog/#blockquotes
+      - text: Embeds
+        permalink: /styleguide/blog/#embeds
+      - text: Hero images
+        permalink: /styleguide/blog/#hero-images
+      - text: Images without captions
+        permalink: /styleguide/blog/#images-without-captions
+      - text: Images with captions
+        permalink: /styleguide/blog/#images-with-captions
+      - text: Adding a team photo
+        permalink: /styleguide/blog/#adding-a-team-photo
   - text: Using Jekyll
     permalink: /styleguide/using-jekyll/
+    children:
+      - text: Plugin gems
+        permalink: /styleguide/using-jekyll/#plugin-gems
+      - text: Custom plugins
+        permalink: /styleguide/using-jekyll/#custom-plugins
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}

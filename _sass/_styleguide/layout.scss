@@ -27,6 +27,7 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 
 .styleguide-header-wrapper {
   align-items: center;
+  border-bottom: 1px solid $color-gray-light;
   display: flex;
   height: $sg-header-height;
   padding: $site-margins;
@@ -62,6 +63,11 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
   margin-top: $sg-header-height;
   max-width: $site-max-width;
   width: 100%;
+
+  > h3 {
+    margin-top: 0;
+    padding-top: $sg-header-height + $site-margins;
+  }
 
   @include media($medium-screen + $nav-width-extra) {
     margin-left: $site-margins + $sliding-panel-width;

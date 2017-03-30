@@ -16,7 +16,9 @@ permalink: /styleguide/typography/
   </div>
 </section>
 
-### Font Family
+---
+
+### Font family
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <p>Helvetica Neue, Regular</p>
@@ -40,6 +42,7 @@ permalink: /styleguide/typography/
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
+
 ---
 
 ### Typesetting
@@ -68,9 +71,7 @@ For example:
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
 
----
-
-### Font weight
+#### Font weight
 
 {% capture codeblock %}{% raw %}
 <p class="p-bold">$font-bold: 700</p>

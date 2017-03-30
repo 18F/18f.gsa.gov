@@ -3,6 +3,7 @@ title: 18F UI style guide
 subpage: Colors
 permalink: /styleguide/colors/
 ---
+
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <div class="color-box-group">
@@ -76,7 +77,7 @@ U.S. Web Design standards colors, `$color-gray` and `$color-gray-lightest`, were
 
 ---
 
-## Backgrounds
+### Backgrounds
 {% capture styleguide_background %}{% raw %}
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
