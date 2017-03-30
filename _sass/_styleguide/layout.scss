@@ -61,11 +61,11 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
   margin-right: $site-margins;
   margin-top: $sg-header-height;
   max-width: $site-max-width;
-
-  width: calc(100% - #{$margins-width});
+  width: 100%;
 
   @include media($medium-screen + $nav-width-extra) {
     margin-left: $site-margins + $sliding-panel-width;
+    width: calc(100% - #{$margins-width});
   }
 }
 
