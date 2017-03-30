@@ -1,63 +1,49 @@
 {% assign nav_class_suffix = include.nav_class_suffix | default: '' %}
 
 
-<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}" role="navigation">
+<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}{% if include.nav_sticky %} sticky {% endif %}" role="navigation">
   <button class="sliding-panel-close{{ nav_class_suffix }}">
     {% include svg/icons/close.svg %}
   </button>
 
   <ul class="usa-sidenav-list usa-accordion">
   {% for item in include.nav_items %}
-    {% if item.in_drawer %}
     <li>
-      {% if item.permalink %}
-        {% assign item_link = item.permalink | prepend: site.baseurl %}
-      {% else %}
-        {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
-      {% endif %}
+    {% if item.children %}
+      {% assign item_slug = item.text | slugify %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
 
-      {% assign enabled_children = item.children | where: "in_drawer", true %}
-      {% assign has_enabled_children = enabled_children != empty | default: false %}
-
-      {% if item.children and has_enabled_children %}
-        {% if include.children %}
-          {% assign item_slug = item.text | slugify %}
-          {% assign is_matching = page | matches_url_parent: item %}
-
-          <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
-                aria-expanded="false"
-                aria-controls="{{ item_slug }}">{{ item.text }}</button>
-
-          <ul id="{{ item_slug }}" class="usa-accordion-content usa-sidenav-sub_list" aria-hidden="true">
-          {% assign is_matching = page.url | matches_url: item.permalink %}
+      <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
+              aria-expanded="{% if is_matching %}true{% else %}false{% endif %}"
+              aria-controls="{{ item_slug }}">{{ item.text }}</button>
+        <ul id="{{ item_slug }}" class="usa-accordion-content usa-sidenav-sub_list" aria-hidden="{% if is_matching %}false{% else %}true{% endif %}">
+        {% for sub_item in item.children %}
           <li>
-            <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
-          </li>
-
-          {% for sub_item in item.children %}
-            {% if sub_item.in_drawer %}
-              <li>
-                {% if sub_item.permalink %}
-                  {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
-                {% else %}
-                  {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
-                {% endif %}
-
-                {% assign is_matching = page.url | matches_url: sub_item.permalink %}
-
-                <a href="{{ sub_item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ sub_item.text }}</a>
-              </li>
+            {% if sub_item.permalink %}
+              {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
+            {% else %}
+              {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
             {% endif %}
-          {% endfor %}
-          </ul>
-        {% endif %}
+            <a href="{{ sub_item_link }}">{{ sub_item.text }}</a>
+          </li>
+        {% endfor %}
+        </ul>
       {% else %}
-        {% assign is_matching = page | matches_url_parent: item %}
+        {% if item.permalink %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% else %}
+          {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+        {% endif %}
+
+        {% if item.multiple_permalinks %}
+          {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+        {% else %}
+          {% assign is_matching = page.url | matches_url: item.permalink %}
+        {% endif %}
 
         <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
       {% endif %}
     </li>
-    {% endif %}
   {% endfor %}
   </ul>
 </nav>

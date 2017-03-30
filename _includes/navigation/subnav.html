@@ -1,5 +1,6 @@
-{% assign subnav_items = include.page_data.children | default: include.subnav_items %}
+{% assign subnav_items = include.subnav_items | default: page.subnav_items %}
 
+{% if subnav_items %}
 <nav class="nav-accordion nav-subnav usa-accordion" role="navigation">
   {% assign title_slug = page.title | slugify %}
   <button class="usa-accordion-button nav-accordion-button nav-accordion-button-desktop">{{ page.subnav_title | default: page.title }}</button>
@@ -8,10 +9,7 @@
                 aria-controls="{{ title_slug }}">{{ page.subnav_title | default: page.title }}</button>
 
   <ul id="{{ title_slug }}" class="usa-sidenav-list usa-accordion" aria-hidden="true">
-    {% assign is_matching = page.url | matches_url: page_data.permalink %}
-
   {% for item in subnav_items %}
-    {% if item.in_subnav %}
     <li>
       {% if item.permalink %}
         {% assign first_chars = item.permalink | slice: 0, 2 %}
@@ -26,45 +24,11 @@
         {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
       {% endif %}
 
-      {% assign enabled_children = item.children | where: "in_subnav", true %}
-      {% assign has_enabled_children = enabled_children != empty | default: false %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
 
-      {% if item.children and has_enabled_children %}
-        {% if include.children %}
-        {% assign item_slug = item.text | slugify %}
-        {% assign is_matching = page | matches_url_parent: item %}
-
-          <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
-                aria-expanded="true"
-                aria-controls="{{ item_slug }}">{{ item.text }}</button>
-
-          <ul id="{{ item_slug }}" class="usa-accordion-content usa-sidenav-sub_list" aria-hidden="false">
-            {% assign is_matching = page.url | matches_url: item.permalink %}
-            <li>
-              <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>Overview</a>
-            </li>
-            {% for sub_item in item.children %}
-              <li>
-                {% if sub_item.permalink %}
-                  {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
-                {% else %}
-                  {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
-                {% endif %}
-
-                {% assign is_matching = page.url | matches_url: sub_item.permalink %}
-
-                <a href="{{ sub_item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ sub_item.text }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      {% else %}
-        {% assign is_matching = page.url | matches_url: item.permalink %}
-
-        <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
-      {% endif %}
+      <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
     </li>
-    {% endif %}
   {% endfor %}
   </ul>
 </nav>
+{% endif %}

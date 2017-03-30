@@ -7,15 +7,15 @@
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
-    {% unless layout.title == '18F Styleguide' %}
+    {% unless layout.title == '18F UI Styleguide' %}
       {% include header.html %}
     {% endunless %}
 
-    <div class="main-content" id="main-content">
+    <div class="main-content {% if layout.title == '18F UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
       {{ content }}
     </div>
 
-    {% unless layout.title == '18F Styleguide' %}
+    {% unless layout.title == '18F UI Styleguide' %}
       {% include navigation.html drawer=true %}
 
       <footer role="contentinfo">

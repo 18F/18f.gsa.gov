@@ -8,9 +8,11 @@ federalist_url: "https://federalist.18f.gov"
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
-feature_image: /assets/img/feature-background.jpg
 tag_dir: tags
 github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+
+related_posts: 3
+
 
 analytics:
   google:
@@ -142,10 +144,6 @@ exclude:
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
 - README.md
-- serve
-- serve-blog
-- serve-fast
-- serve-accesslint
 - spec/
 - system-security-plan.yml
 - tests/

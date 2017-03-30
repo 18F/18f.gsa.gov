@@ -22,3 +22,7 @@ figcaption {
     text-align: center;
   }
 }
+
+.image-shadowed {
+  @include prefixer(box-shadow, $site-box-shadow, webkit moz ms o spec);
+}

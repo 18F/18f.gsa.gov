@@ -4,7 +4,11 @@
 
 This repo houses the 18F website. We use the [Draft U.S. Web Design standards](https://standards.usa.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.fr.cloud.gov/).
 
-As of March 2017, we maintain a styleguide for components used across the site at 18f.gsa.gov/styleguide.
+### Style and style guide
+
+18f.gsa.gov extends the [U.S. Web Design Standards](https://standards.usa.gov/) and [18F Brand guidelines](https://pages.18f.gov/brand/) to create a style that is professional, unique, and informative. The style guide, located at [18f.gsa.gov/styleguide/](https://18f.gsa.gov/styleguide/) documents the patterns and components used to create this theme.
+
+[View style guide](https://18f.gsa.gov/styleguide/)
 
 ### History
 

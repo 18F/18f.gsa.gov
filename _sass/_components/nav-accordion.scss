@@ -105,8 +105,7 @@
   cursor: pointer;
 }
 
-.sliding-panel-close,
-.sliding-panel-close-styleguide {
+.sliding-panel-close {
   @include button-unstyled;
   float: right;
   height: $hit-area;
@@ -130,8 +129,7 @@
   }
 }
 
-.overlay,
-.overlay-styleguide {
+.overlay {
   @include position(fixed, 0);
   background: $color-black;
   opacity: 0;

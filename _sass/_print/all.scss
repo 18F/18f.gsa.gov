@@ -1,0 +1,33 @@
+@media print {
+  nav,
+  input,
+  .post-feature_image,
+  .page-what-we-deliver .usa-section.background-medium,
+  .page-about-18f .usa-section.background-medium,
+  .menu-btn,
+  .link-arrow-right svg,
+  .link-arrow-left svg {
+    display: none !important;
+  }
+
+  img {
+    max-width: 500px !important;
+  }
+
+  a::after {
+    font-size: 1rem !important;
+    content: ' (' attr(href) ') ';
+  }
+
+  .usa-grid.content-focus {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  @import 'what-we-deliver';
+  @import 'how-we-work';
+  @import 'contact';
+  @import 'blog';
+}
+
+

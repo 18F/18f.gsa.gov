@@ -1,49 +1,30 @@
-{% assign current = page.url | downcase | split: '/' %}
-
-{% assign nav_items = site.data.navigation %}
-{% assign nav_items = nav_items['assigned'] %}
+{% assign navigation = site.data.navigation %}
 
 {% if include.navbar %}
+  {% assign nav_items = navigation['navbar'] %}
   {% include navigation/navbar.html nav_items=nav_items %}
 {% endif %}
 
 {% if include.drawer %}
+  {% assign nav_items = navigation['drawer'] %}
   {%
     include navigation/drawer.html
-    children=true
     nav_items=nav_items
   %}
 {% endif %}
 
-
 {% if include.subnav %}
-  {% if page.subnav_items %}
-    {% assign subnav_items = page.subnav_items %}
-
-    {% include navigation/subnav.html
-       page_data=page
-       subnav_items=subnav_items
-       children=true
-    %}
-  {% else %}
-    {% assign subnav_page_url = include.subnav_anchor | default: page.url %}
-    {% assign page_data = subnav_page_url | find_page: nav_items %}
-    {% include navigation/subnav.html
-       page_data=page_data
-       children=true
-    %}
-  {% endif %}
+  {% include navigation/subnav.html subnav_items=page.subnav_items %}
 {% endif %}
 
 {% if include.footer %}
+  {% assign nav_items = navigation['footer'] %}
   {%
     include navigation/footer-mobile.html
-    children=false
     nav_items=nav_items
   %}
   {%
     include navigation/footer-desktop.html
-    children=false
     nav_items=nav_items
   %}
 {% endif %}

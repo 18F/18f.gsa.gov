@@ -36,8 +36,11 @@ $(function (){
       .replace(window.location.pathname, '');
   });
 
-  var $anchors = $(anchors.join(','));
+  anchors = anchors.filter(function(anchor) {
+    return anchor[0] === '#';
+  });
 
+  var $anchors = $(anchors.join(','));
   var waypoints = $anchors
     .waypoint(function(direction) {
       $navItems.removeClass('usa-current', direction === 'down');

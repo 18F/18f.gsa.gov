@@ -1,0 +1,47 @@
+.nav-mobile-styleguide {
+  @extend .nav-mobile;
+
+  border-right: 1px solid $color-gray-light;
+  overflow: auto;
+  padding-bottom: $sg-header-height + $site-margins;
+  position: fixed;
+  top: $sg-header-height;
+  width: $sliding-panel-width;
+
+  .usa-sidenav-list {
+    margin-top: $site-margins;
+  }
+
+  @include media($medium-screen + $nav-width-extra) {
+    @include transform(translateX(0));
+
+    display: inline-block;
+    left: 0;
+
+    .usa-sidenav-list {
+      margin-top: 0;
+    }
+  }
+}
+
+.menu-btn-styleguide-wrapper {
+  width: 50%;
+}
+
+.menu-btn-styleguide {
+  @include media($medium-screen + $nav-width-extra) {
+    display: none;
+  }
+
+  float: right;
+  font-size: $base-font-size;
+  margin: 0;
+}
+
+.sliding-panel-close-styleguide {
+  @extend .sliding-panel-close;
+
+  @include media($medium-screen + $nav-width-extra) {
+    display: none;
+  }
+}

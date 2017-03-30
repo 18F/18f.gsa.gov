@@ -5,9 +5,12 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-<section class="breadcrumb usa-grid">
-  <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}/what-we-deliver/">What we deliver</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page.title }}</span>
-</section>
+
+{% include breadcrumb.html
+  parent_permalink='/what-we-deliver/'
+  parent_title='What we deliver'
+%}
+
 <section class="page-tag-results">
 
   <section class="background-dark">

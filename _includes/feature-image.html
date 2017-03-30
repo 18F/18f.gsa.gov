@@ -3,12 +3,11 @@
 {% assign include_figcaption = include.image_figcaption | default: page.image_figcaption %}
 
 {% if include_image %}
-  {% unless page.hero == false %}
-    <figure class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')">
-      {% if include_figcaption %}
-        <figcaption>{{ include_figcaption }}</figcaption>
-
-      {% endif %}
-    </figure>
-  {% endunless %}
+{% unless page.hero == false %}
+<figure class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')">
+  {% if include_figcaption %}
+    <figcaption>{{ include_figcaption }}</figcaption>
+  {% endif %}
+</figure>
+{% endunless %}
 {% endif %}

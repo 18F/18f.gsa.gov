@@ -1,5 +1,5 @@
 ---
-title: "String"
+title: String
 authors:
   type: Array
   matches: _data/author.yml
@@ -9,7 +9,7 @@ tags:
   rules: [no-dash, lowercase]
 excerpt: "String"
 config:
-  path: '_posts'
+  path: _posts
   ignore:
   - README.md
   - ..

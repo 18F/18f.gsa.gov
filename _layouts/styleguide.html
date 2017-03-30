@@ -1,23 +1,91 @@
 ---
 layout: default
-title: 18F Styleguide
+title: 18F UI Styleguide
+nav_items:
+  - text: Introduction
+    permalink: /styleguide/
+  - text: Layout
+    permalink: /styleguide/layout/
+  - text: Typography
+    permalink: /styleguide/typography/
+    children:
+      - text: Font family
+        permalink: /styleguide/typography/#font-family
+      - text: Typesetting
+        permalink: /styleguide/typography/#typesetting
+      - text: Links
+        permalink: /styleguide/typography/#links
+  - text: Colors
+    permalink: /styleguide/colors/
+  - text: Images
+    permalink: /styleguide/images/
+    children:
+      - text: Source reference
+        permalink: /styleguide/images/#source-reference
+      - text: SVG include catalog
+        permalink: /styleguide/images/#svg-include-catalog
+      - text: Image list
+        permalink: /styleguide/images/#image-list
+  - text: Components
+    permalink: /styleguide/components/
+    children:
+      - text: Buttons
+        permalink: /styleguide/components/#buttons
+      - text: Breadcrumbs
+        permalink: /styleguide/components/#breadcrumbs
+      - text: Project cards
+        permalink: /styleguide/components/#project-cards
+      - text: Sticky subnavigation
+        permalink: /styleguide/components/#sticky-subnavigation
+      - text: Right aligned list
+        permalink: /styleguide/components/#right-aligned-list
+  - text: Blog
+    permalink: /styleguide/blog/
+    children:
+      - text: Post previews
+        permalink: /styleguide/blog/#post-previews
+      - text: Blog tags
+        permalink: /styleguide/blog/#blog-tags
+      - text: Blockquotes
+        permalink: /styleguide/blog/#blockquotes
+      - text: Embeds
+        permalink: /styleguide/blog/#embeds
+      - text: Hero images
+        permalink: /styleguide/blog/#hero-images
+      - text: Images without captions
+        permalink: /styleguide/blog/#images-without-captions
+      - text: Images with captions
+        permalink: /styleguide/blog/#images-with-captions
+      - text: Adding a team photo
+        permalink: /styleguide/blog/#adding-a-team-photo
+  - text: Using Jekyll
+    permalink: /styleguide/using-jekyll/
+    children:
+      - text: Plugin gems
+        permalink: /styleguide/using-jekyll/#plugin-gems
+      - text: Custom plugins
+        permalink: /styleguide/using-jekyll/#custom-plugins
 ---
-<section class="background-gray usa-section">
-  <div class="usa-grid">
-    <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-    <div class="usa-width-three-fourths">
-      <h2 class='h3'><a href="https://18f.gsa.gov">18f.gsa.gov</a> inherits from the U.S. Web Design Standards and 18F brand guidelines to create style that is professional, unique, and informative</h2>
-    </div>
+
+{% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+
+<section class="background-gray usa-section styleguide-header-wrapper">
+  <a href="{{ site.baseurl }}/styleguide/">
+    <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
+    <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
+  </a>
+  <div class="menu-btn-styleguide-wrapper">
+    <button class="menu-btn-styleguide">Menu</button>
   </div>
 </section>
-<section class="usa-grid content-focus content-wide usa-section">
+<div class="styleguide-content-wrapper">
 
-  <aside id="styleguide-navbar" class="nav-subnav">
-    <button class="menu-btn-styleguide">{% include svg/icons/bars.svg %}</button>
-    {% include navigation/drawer.html nav_items=page.nav_items nav_class_suffix='-styleguide' %}
+  <aside class="nav-subnav styleguide-subnav">
+    {% include navigation/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
   </aside>
-  <section>
+
+  <section class="styleguide-content usa-content">
+    {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
     {{ content }}
   </section>
-</section>
-
+</div>

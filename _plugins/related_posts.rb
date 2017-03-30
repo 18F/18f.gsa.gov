@@ -1,69 +1,98 @@
+require 'parallel'
+
 module Jekyll
-  class RelGenerator < Liquid::Tag
-    def initialize(related_posts, text, tokens)
-      super
-      @params = text.split(' ')
-      @baseurl = Jekyll.sites[0].config['baseurl']
-    end
+  class RelatedPostsGenerator < Generator
+    safe :true
+    priority :lower
 
-    # Gets all posts from the site by tag and adds those that match the tags on
-    # the current page. Returns a flattened, deduped, array of post objects
-    def get_posts_by_tag(page, site_tags)
-      tags = page['tags']
-      other_posts = []
-      for tag in tags
-        other_posts.push(site_tags[tag])
-        other_posts = other_posts.flatten.uniq
-        other_posts.delete_if { |post| page['title'] == post['title'] }
-      end
-      other_posts
-    end
+    # Calculate related posts.
+    # Returns [<Post>]
+    def related_posts(me, posts)
+      return [] unless posts.docs.size > 1
+      highest_freq = @tag_freq.values.max
+      related_scores = Hash.new(0)
 
-    # Grabs all posts from the site and matches the authors on the current page
-    # to other posts authored on the site. This may take a long time for large
-    # sites. Returns an array of posts
-    def get_posts_by_author(other_posts, page, site)
-      if page['authors']
-        authors = page['authors']
-        authors.map do |author|
-          site['posts'].map do |post|
-            if post.data['authors'] && post.data['authors'].index(author)
-            then other_posts.push(post)
+      posts.docs.each do |post|
+        if @use_categories
+          post.data['categories'].each do |category|
+            if me.data['categories'].include?(category) && post != me
+              cat_freq = @tag_freq[category]
+              related_scores[post] += (1 + highest_freq - cat_freq)
             end
           end
         end
-      end
-      other_posts.delete_if { |post| page['title'] == post['title'] }
-      other_posts
-    end
-
-    # Creates a list of posts from an array of post objects.
-    def list_posts(other_posts)
-      external = @params[0] || 'ul'
-      internal = @params[1] || 'li'
-      if other_posts
-        related_posts = "<#{external}>"
-        other_posts.flatten.map do |post|
-          related_posts << "<#{internal}><a href='#{@baseurl}#{post.url}' \
-            class='related_posts'>&ldquo;#{post.data['title']}&rdquo;</a></#{internal}>"
+        if @use_tags
+          post.data['tags'].each do |tag|
+            if me.data['tags'].include?(tag) && post != me
+              cat_freq = @tag_freq[tag]
+              related_scores[post] += (1 + highest_freq - cat_freq)
+            end
+          end
         end
-        related_posts << "</#{external}"
-      else
-        related_posts = '<p>No related posts</p>'
+
+        next unless @use_authors
+        post.data['authors'].each do |author|
+          if me.data['authors'].include?(author) && post != me
+            cat_freq = @tag_freq[author]
+            related_scores[post] += (1 + highest_freq - cat_freq)
+          end
+        end
+      end
+
+      sort_related_posts(related_scores)
+    end
+
+    # Calculate the frequency of each tag.
+    # Returns {tag => freq, tag => freq, ...}
+    def tag_freq(posts)
+      @tag_freq = Hash.new(0)
+      posts.docs.each do |post|
+        post.data['categories'].each { |category| @tag_freq[category] += 1 } if @use_categories
+        post.data['tags'].each { |tag| @tag_freq[tag] += 1 } if @use_tags
+
+        post.data['authors'].each { |author| @tag_freq[author] += 1 } if @use_authors
       end
     end
 
-    # Grabs an array of posts by tag. If that array has fewer than 3 posts,
-    # grabs more posts by author. Returns a list of the first five posts in the
-    # array.
-    def render(context)
-      page = context['page']
-      site = context['site']
-      site_tags = site['tags']
-      other_posts = get_posts_by_tag(page, site_tags)
-      other_posts = get_posts_by_author(other_posts, page, site) if other_posts.flatten.length < 3
-      list_posts(other_posts.uniq.take(3))
+    # Sort the related posts in order of their score and date
+    # and return just the posts
+    def sort_related_posts(related_scores)
+      related_scores.sort do |a, b|
+        if a[1] < b[1]
+          1
+        elsif a[1] > b[1]
+          -1
+        else
+          b[0].date <=> a[0].date
+        end
+      end.collect { |post, _freq| post }
+    end
+
+    def create_presets(site)
+      @use_tags = true
+      @use_authors = true
+      @use_categories = false
+      @use_categories = true if site.config['related_categories']
+      @use_tags = false if !site.config['related_tags'].nil? && site.config['related_tags'] != true
+      @use_authors = false if !site.config['related_authors'].nil? && site.config['related_authors'] != true
+    end
+
+    def in_threads(site)
+      site.config['n_cores'] ? site.config['n_cores'] : 1
+    end
+
+    def generate(site)
+      return unless site.config['related_posts']
+      n_posts = site.config['related_posts']
+
+      create_presets(site)
+      tag_freq(site.posts)
+
+      Parallel.map(site.posts.docs.flatten, in_threads: in_threads(site)) do |post|
+        rp = related_posts(post, site.posts)[0, n_posts]
+
+        post.data.merge!('related_posts' => rp) if rp.size.positive?
+      end
     end
   end
 end
-Liquid::Template.register_tag('related_posts', Jekyll::RelGenerator)
