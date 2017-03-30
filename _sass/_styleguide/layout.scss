@@ -1,4 +1,5 @@
 $sg-header-height: 10rem;
+$margins-width: $sliding-panel-width + (2 * $site-margins);
 
 .styleguide-main-content {
   margin-left: auto;
@@ -26,6 +27,7 @@ $sg-header-height: 10rem;
 
 .styleguide-header-wrapper {
   align-items: center;
+  border-bottom: 1px solid $color-gray-light;
   display: flex;
   height: $sg-header-height;
   padding: $site-margins;
@@ -60,9 +62,16 @@ $sg-header-height: 10rem;
   margin-right: $site-margins;
   margin-top: $sg-header-height;
   max-width: $site-max-width;
+  width: 100%;
+
+  > h3 {
+    margin-top: 0;
+    padding-top: $sg-header-height + $site-margins;
+  }
 
   @include media($medium-screen + $nav-width-extra) {
     margin-left: $site-margins + $sliding-panel-width;
+    width: calc(100% - #{$margins-width});
   }
 }
 

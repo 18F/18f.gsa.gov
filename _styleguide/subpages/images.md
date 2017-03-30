@@ -2,9 +2,9 @@
 title: 18F UI style guide
 subpage: Images
 permalink: /styleguide/images/
-image: /assets/img/page-feature/join.jpg
+image: /assets/img/page-feature/hire-us.jpg
 image_alt: Example of hero image
-image_figcaption: Example caption
+image_figcaption: Example caption. This caption will be the same for all pages that have image_figcaption specified in their front matter.
 ---
 
 Images are used heavily throughout the site, but using them isn't always straightforward.
@@ -116,34 +116,4 @@ The image list is a pattern used throughout the site.
    lang="markdown"
    description='This component is not available as a Jekyll include. To use it, copy the code snippet above and update the icon, title, and body text accordingly.'
    scss_ref="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/icon-list.scss"
-%}
-
----
-
-### Adding a photo of an 18F team member
-
-Any team member [listed in the `/assets/img/team/` directory](https://github.com/18F/18f.gsa.gov/tree/master/assets/img/team/) can be referenced directly in markdown or HTML.
-
-{% capture icon_list_codeblock %}{% raw %}
-#### Referencing a team member who has a photo
-{{ 'brian' | team_photo }}
-
-#### Referencing a team member who does not have a photo
-{{ 'greg' | team_photo }}
-{% endraw %}{% endcapture %}
-
-{% capture icon_list_description %}
-The team photo is created by using a custom Jekyll [filter](https://jekyllrb.com/docs/plugins/#liquid-filters) called `team_photo` that allows us to access images programmaticaly without using an `img` tag explicitly. If an image isn't working, make sure that the text use for the filter directly matches the image title for the team member in question.
-
-In the above example `{% raw %}{{ 'brian' | team_photo }}{% endraw %}`, references `/assets/img/team/brian.jpg` and places it in an `img` tag.
-
-[See the code](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/team.rb) to better understand what is going on.
-{% endcapture %}
-
-{% include details-code.html
-   title='icon-list-catalog'
-   content=icon_list_codeblock
-   lang="markdown"
-   description=icon_list_description
-   other_ref='https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_photo-accepts-the-authors-name-as-the-first-argument-lives-in-teamrb'
 %}

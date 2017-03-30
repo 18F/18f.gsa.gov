@@ -9,19 +9,40 @@
   <ul class="usa-sidenav-list usa-accordion">
   {% for item in include.nav_items %}
     <li>
-      {% if item.permalink %}
-        {% assign item_link = item.permalink | prepend: site.baseurl %}
-      {% else %}
-        {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
-      {% endif %}
+    {% if item.children %}
+      {% assign item_slug = item.text | slugify %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
 
-      {% if item.multiple_permalinks %}
-        {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+      <button class="usa-accordion-button{% if is_matching %} usa-current{% endif %}"
+              aria-expanded="{% if is_matching %}true{% else %}false{% endif %}"
+              aria-controls="{{ item_slug }}">{{ item.text }}</button>
+        <ul id="{{ item_slug }}" class="usa-accordion-content usa-sidenav-sub_list" aria-hidden="{% if is_matching %}false{% else %}true{% endif %}">
+        {% for sub_item in item.children %}
+          <li>
+            {% if sub_item.permalink %}
+              {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
+            {% else %}
+              {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
+            {% endif %}
+            <a href="{{ sub_item_link }}">{{ sub_item.text }}</a>
+          </li>
+        {% endfor %}
+        </ul>
       {% else %}
-        {% assign is_matching = page.url | matches_url: item.permalink %}
-      {% endif %}
+        {% if item.permalink %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% else %}
+          {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+        {% endif %}
 
-      <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+        {% if item.multiple_permalinks %}
+          {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+        {% else %}
+          {% assign is_matching = page.url | matches_url: item.permalink %}
+        {% endif %}
+
+        <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+      {% endif %}
     </li>
   {% endfor %}
   </ul>

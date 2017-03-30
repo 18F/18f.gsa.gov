@@ -18,11 +18,17 @@ $card-image-height: 200px;
     }
   }
 
-  @include media($medium-screen) {
+  @include media($tablet-screen) {
     &:nth-last-of-type(1),
     &:nth-last-of-type(2),
     &:nth-last-of-type(3) {
       margin-bottom: 0;
+    }
+
+    &:nth-of-type(1),
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      margin-bottom: $site-margins;
     }
   }
 }

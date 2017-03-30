@@ -8,9 +8,7 @@
   {% assign wds_grid_class = 'usa-width-one-third' %}
 {% endif %}
 
-{% assign project_type = include.project_type | default: 'none' %}
-
-<article class="card {{ wds_grid_class }} usa-width-tablet" data-bucket="{{ project_type }}">
+<article class="card {{ wds_grid_class }} usa-width-tablet">
   <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
     <div role="img"
          title="{{ include.image_alt }}"
