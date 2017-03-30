@@ -2,6 +2,7 @@
 title: 18F UI style guide
 subpage: Components
 permalink: /styleguide/components/
+parent_permalink: /styleguide/
 subnav_items:
 - text: Heading 1
   permalink: /styleguide/components/#heading-1
