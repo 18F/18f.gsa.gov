@@ -11,7 +11,6 @@
   <div class="footer-links">
     <ul>
     {% for item in include.nav_items %}
-      {% if item.in_footer %}
       <li>
         {% if item.permalink %}
           {% assign item_link = item.permalink | prepend: site.baseurl %}
@@ -20,7 +19,6 @@
         {% endif %}
         <a href="{{ item_link }}">{{ item.text }}</a>
       </li>
-      {% endif %}
     {% endfor %}
     </ul>
   </div>

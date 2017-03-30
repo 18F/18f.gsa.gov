@@ -39,11 +39,6 @@ Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project
   * `clip_char`
   * `hash_link`
   * `matches_url`
-  * `matches_collection`
-  * `matches_permalink_alt`
-  * `matches_url_parent`
-  * `crawl_pages`
-  * `find_page`
   * `check_type`
   * `find_collection`
   * `where_obj`

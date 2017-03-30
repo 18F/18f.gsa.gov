@@ -1,119 +1,53 @@
-assigned:
-    -
-        text: Home
-        href: pages/home.md
-        permalink: /
-        in_menu: false
-        in_drawer: false
-        in_footer: false
-    -
-        text: Our work
-        href: pages/our-work.md
-        permalink: /our-work/
-        in_menu: false
-        in_drawer: false
-        in_footer: false
-        children:
-    -
-        text: What we deliver
-        href: pages/what-we-deliver.md
-        permalink: /what-we-deliver/
-        collections: ['projects']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-    -
-        text: How we work
-        href: pages/how-we-work.md
-        permalink: /how-we-work/
-        in_menu: true
-        in_drawer: true
-        in_footer: false
-        children:
-    -
-        text: About 18F
-        href: _about/index.md
-        permalink: /about/
-        collections: ['about']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-    -
-        text: Join 18F
-        href: /_join/index.md
-        permalink: /join/
-        in_menu: false
-        in_drawer: false
-        in_footer: true
-        children:
-    -
-        text: Blog
-        href: blog/index.html
-        permalink: /blog/
-        permalink_alt: /tags/
-        collections: ['authors', 'posts']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-    -
-        text: Contact
-        href: pages/contact.md
-        permalink: /contact/
-        collections: ['contact']
-        in_menu: true
-        in_drawer: true
-        in_footer: true
-        children:
-            -
-                text: 'Partnership playbook'
-                permalink: /contact/partnership-playbook/
-                collections: ['contact']
-                in_menu: false
-                in_drawer: false
-                in_footer: false
-                in_subnav: true
-                children:
-                    -
-                        text: '1. We build in the open'
-                        permalink: /contact/partnership-playbook/we-build-in-the-open/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '2. How we work'
-                        permalink: /contact/partnership-playbook/how-we-work/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '3. Who we work with'
-                        permalink: /contact/partnership-playbook/who-we-work-with/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '4. Getting started'
-                        permalink: /contact/partnership-playbook/getting-started/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-                    -
-                        text: '5. What to expect'
-                        permalink: /contact/partnership-playbook/what-to-expect/
-                        collections: ['contact']
-                        in_menu: false
-                        in_drawer: false
-                        in_footer: false
-                        in_subnav: true
-unassigned: []
+navbar:
+- text: What we deliver
+  permalink: /what-we-deliver/
+  multiple_permalinks:
+    - /what-we-deliver/:path/
+- text: How we work
+  permalink: /how-we-work/
+- text: About 18F
+  permalink: /about/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
+
+drawer:
+  - text: What we deliver
+    permalink: /what-we-deliver/
+    multiple_permalinks:
+    - /what-we-deliver/:path/
+  - text: How we work
+    permalink: /how-we-work/
+  - text: About 18F
+    permalink: /about/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/
+
+footer:
+  - text: What we deliver
+    permalink: /what-we-deliver/
+    multiple_permalinks:
+    - /what-we-deliver/:path/
+  - text: About 18F
+    permalink: /about/
+  - text: Join 18F
+    permalink: /join/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/

@@ -1,15 +1,19 @@
 <ul class="usa-accordion">
 {% for item in include.nav_items %}
-  {% if item.in_menu %}
   <li>
     {% if item.permalink %}
       {% assign item_link = item.permalink | prepend: site.baseurl %}
     {% else %}
       {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
     {% endif %}
-    {% assign is_matching = page | matches_url_parent: item %}
+
+    {% if item.multiple_permalinks %}
+      {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+    {% else %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
+    {% endif %}
+
     <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
   </li>
-  {% endif %}
 {% endfor %}
 </ul>

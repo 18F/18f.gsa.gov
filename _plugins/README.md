@@ -108,32 +108,6 @@ Example:
 > true
 ```
 
-### matches_url_parent
-**Determines if the current page url is a path decendent of a given url. Lives in [utility.md](utility.md).**
-
-Accepts two arguments, `page`, the current page that is being evaluated, and `item`, the navigation item that is being checked (from `navigation.yml`). If a collection is specified in the navigation item, it will first check if the item collection and page collection match.
-
-### find_page
-**Looks at the list of navigation fields in [navigation.yml](navigation.yml) and find the object that corresponds with a given url. Lives in [utility.md](utility.md).**
-
-It takes two arguments, `page_url` and `nav_items`, where `nav_items` is either the entire navigation.yml data file, or a subset of it.
-
-Returns a nested set of navigation originating at the object corresponding to the defined `page_url`
-
-Example:
-```bash
-{{ '/how-we-work/' | find_page: nav_items }}
-> {
-  text: How we work
-  href: pages/how-we-work.md
-  permalink: /how-we-work/
-  in_menu: true
-  in_drawer: true
-  in_footer: false
-  children: nil
-}
-```
-
 ### liquify
 ** A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
 
