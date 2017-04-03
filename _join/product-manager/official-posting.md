@@ -9,30 +9,13 @@ subnav_title: Product Manager
 subnav_items:
   - text: GS-14 Innovation Specialist
     permalink: /#gs-14-innovation-specialist
-  - text: "GS-14: Summary"
-    permalink: /#summary
-  - text: "GS-14: Key Requirements"
-    permalink: /#key-requirements
-  - text: "GS-14: Duties"
-    permalink: /#duties
-  - text: "GS-14: Qualifications"
-    permalink: /#qualifications
-  - text: "GS-14: Evaluation"
-    permalink: /#evaluation
   - text: "GS-15 Innovation Specialist"
     permalink: "/#gs-15-innovation-specialist"
-  - text: "GS-15: Summary"
-    permalink: /#summary-1
-  - text: "GS-15: Key Requirements"
-    permalink: /#key-requirements-1
-  - text: "GS-15: Duties"
-    permalink: /#duties-1
-  - text: "GS-15: Qualifications"
-    permalink: /#qualifications-1
-  - text: "GS-15: Evaluation"
-    permalink: /#evaluation-1
+  - text: "Policies and Benefits"
+    permalink: "/#benefits"
 breadcrumb: true
 published: true
+listed: false
 ---
 
 ## GS-14 Innovation Specialist
@@ -94,11 +77,11 @@ This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical s
 
 ### Key Requirements:
 
-​1. You must be a U.S. Citizen or National.
-2. Suitable for Federal employment, determined by a background investigation.
-3. You may be required to serve a trial period.
-4. Direct Deposit of salary check to financial organization required.
-5. Males born after 12/31/1959 must have registered with the Selective Service​.
+1. You must be a U.S. Citizen or National.
+1. Suitable for Federal employment, determined by a background investigation.
+1. You may be required to serve a trial period.
+1. Direct Deposit of salary check to financial organization required.
+1. Males born after 12/31/1959 must have registered with the Selective Service​.
 
 ### Duties
 
@@ -290,7 +273,7 @@ Typical duties for the fellow include, but are not limited to:
 
 Qualifications are based on length and level of experience. Therefore, in addition to describing duties performed, applicants must provide the exact dates of each period of employment (from month/year to month/year) and the number of hours per week if part time. Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
-### Applicants applying for this job must meet the following requirements:
+#### Applicants applying for this job must meet the following requirements:
 
 Have product management related experience demonstrating *each* of the five competencies *and* specialized experience listed below:
 
