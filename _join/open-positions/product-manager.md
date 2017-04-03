@@ -55,3 +55,9 @@ An 18F Product Manager is the steward who guides a product from concept to deliv
 -   Give agency partners advice they need to hear instead of what they want to hear. Promote best practices by making a strong case even in the face of resistance.
 -   Ensure projects are delivered on budget and within the terms of our agreements. Define and execute plans to successfully transition projects at the end of 18F’s engagements to achieve lasting results.
 -   Evaluate potential work for impact, risks, and alignment with 18F’s values.
+
+## Sound like a good fit?
+
+<section class="usa-grid">
+  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/official-posting/">Click here for the official listing!</a>
+</section>

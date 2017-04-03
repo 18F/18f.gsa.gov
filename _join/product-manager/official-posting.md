@@ -193,6 +193,12 @@ To learn more, please consult the following resources:
 -   [Equal Employment Opportunity (EEO) office at OPM](https://www.opm.gov/about-us/our-people-organization/support-functions/equal-employment-opportunity/)
 -   [Office of Equal Opportunity](http://www.eeoc.gov/eeoc/internal_eeo/index.cfm)
 
+### Ready to apply?
+
+<section class="usa-grid" id="gs-14-apply">
+  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/apply/">Click here to start your GS-14 Innovation Specialist application!</a>
+</section>
+
 ## GS-15 Innovation Specialist
 
 ### Basic Information
@@ -366,3 +372,9 @@ To learn more, please consult the following resources:
 
 -   [Equal Employment Opportunity (EEO) office at OPM](https://www.opm.gov/about-us/our-people-organization/support-functions/equal-employment-opportunity/)
 -   [Office of Equal Opportunity](http://www.eeoc.gov/eeoc/internal_eeo/index.cfm)
+
+### Ready to apply?
+
+<section class="usa-grid" id="gs-15-apply">
+  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/apply/">Click here to start your GS-15 Innovation Specialist application!</a>
+</section>
