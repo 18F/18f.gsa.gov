@@ -1,10 +1,11 @@
   {% assign all_positions = site | find_collection: 'join' | shift %}
   {% if all_positions.size > 0 %}
-    {% assign open_positions = all_positions | where: "published", true %}
+    {% assign published_positions = all_positions | where: "published", true %}
+    {% assign open_positions = published_positions | where: "listed", true %}
 
 <h3>Open positions</h3>
-  {% for position in open_positions %}
-<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>
+  {% for position in open_positions %}{% unless "listed" == false %}
+<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>{% endunless %}
   {% endfor %}
   {% else %}
 <h4>We don’t have any open positions right now.</h4>
