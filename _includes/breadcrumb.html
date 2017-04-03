@@ -1,9 +1,13 @@
 {% assign parent_title = include.parent_title | default: page.parent_title %}
 {% assign parent_permalink = include.parent_permalink | default: page.parent_permalink %}
+
+{% assign sub_parent_title = include.sub_parent_title | default: page.sub_parent_title %}
+{% assign sub_parent_permalink = include.sub_parent_permalink | default: page.sub_parent_permalink %}
+
 {% assign page_title = include.page_title | default: page.title %}
 {% assign background_class = include.background_class %}
 <section {% if background_class %}class="background-gray"{% endif %}>
   <div class="breadcrumb usa-grid">
-    <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}{{ parent_permalink }}">{{ parent_title }}</a> {% include svg/icons/arrow-right.svg %} <span class="link-arrow-right">{{ page_title }}</span>
+    <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a> {% include svg/icons/arrow-right.svg %} <a class="link-arrow-right" href="{{ site.baseurl }}{{ parent_permalink }}">{{ parent_title }}</a> {% include svg/icons/arrow-right.svg %} {% if sub_parent_title and sub_parent_permalink %}<a class="link-arrow-right" href="{{ site.baseurl }}{{ sub_parent_permalink }}">{{ sub_parent_title }}</a> {% include svg/icons/arrow-right.svg %}{% endif %} <span class="link-arrow-right">{{ page_title }}</span>
   </div>
 </section>

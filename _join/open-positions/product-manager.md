@@ -19,6 +19,7 @@ subnav_items:
     permalink: /#objective-3-you-will-manage-relationships-with-18fs-agency-partners
 breadcrumb: true
 published: true
+listed: true
 ---
 ## Position Summary
 
@@ -58,6 +59,4 @@ An 18F Product Manager is the steward who guides a product from concept to deliv
 
 ## Sound like a good fit?
 
-<section class="usa-grid">
-  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/official-posting/">Click here for the official listing!</a>
-</section>
+{% include button-listing.html %}

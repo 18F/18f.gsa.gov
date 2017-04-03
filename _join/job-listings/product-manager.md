@@ -1,26 +1,28 @@
 ---
 title: Innovation Specialist
-permalink: /join/product-manager/official-posting/
+permalink: /join/product-manager/job-listings/
 layout: default-intro
 lead: GSA Excepted Service position description
-position_title: Product Manager
+position_title: Job listings
 app_close_date:
-subnav_title: Product Manager
+subnav_title: Job Listings
 subnav_items:
   - text: GS-14 Innovation Specialist
     permalink: /#gs-14-innovation-specialist
   - text: "GS-15 Innovation Specialist"
     permalink: "/#gs-15-innovation-specialist"
-  - text: "Policies and Benefits"
-    permalink: "/#benefits"
+sub_parent_title: Product Manager
+sub_parent_permalink: /join/product-manager/
 breadcrumb: true
 published: true
 listed: false
 ---
 
+We have opportunities for this role at the GS-14 and GS-15 levels. [Learn more about GS levels](https://18f.gsa.gov/join/#government-pay-grades).
+
 ## GS-14 Innovation Specialist
 
-### Basic Information
+### Basic information
 
 #### Job announcement number:
 
@@ -175,12 +177,6 @@ To learn more, please consult the following resources:
 
 All resumes must be submitted through the GSA Innovation Specialist Job Application (link below in next section). Please fill out all applicable fields.
 
-### GSA Innovation Specialist Application:
-
-[https://18f.gsa.gov/join/product-manager/](https://18f.gsa.gov/join/product-manager/)
-
-IF APPLICABLE, PLEASE *ONLY* SUBMIT ALL VETERAN'S DOCUMENTATION TO JACQUELINE COLEMAN AT [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700254JCDE
-
 ### Contact
 
 If you have any questions about this job opportunity, please email Esther Chang at [join18F@gsa.gov](mailto:join18F@gsa.gov)
@@ -195,13 +191,17 @@ To learn more, please consult the following resources:
 
 ### Ready to apply?
 
-<section class="usa-grid" id="gs-14-apply">
-  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/apply/">Click here to start your GS-14 Innovation Specialist application!</a>
+<section class="usa-grid-full" id="gs-14-apply">
+  <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/join/product-manager/apply/">Click here to start your application!</a>
 </section>
+
+If applicable, please *only* submit all veteran's documentation to Jacqueline Coleman at [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700256JCDE.
+
+---
 
 ## GS-15 Innovation Specialist
 
-### Basic Information
+### Basic information
 
 #### Job announcement number:
 
@@ -355,12 +355,6 @@ All resumes must be submitted through the GSA Innovation Specialist Job
 Application (link below in next section). Please fill out all applicable
 fields.
 
-#### GSA Innovation Specialist (GS-15) Application:
-
-[https://18f.gsa.gov/join/product-manager/](https://18f.gsa.gov/join/product-manager/)
-
-IF APPLICABLE, PLEASE *ONLY* SUBMIT ALL VETERAN'S DOCUMENTATION TO JACQUELINE COLEMAN AT [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700256JCDE.
-
 #### Contact
 
 If you have any questions about this job opportunity, please email Esther Chang at [join18F@gsa.gov](mailto:join18F@gsa.gov)
@@ -373,8 +367,12 @@ To learn more, please consult the following resources:
 -   [Equal Employment Opportunity (EEO) office at OPM](https://www.opm.gov/about-us/our-people-organization/support-functions/equal-employment-opportunity/)
 -   [Office of Equal Opportunity](http://www.eeoc.gov/eeoc/internal_eeo/index.cfm)
 
+
 ### Ready to apply?
 
-<section class="usa-grid" id="gs-15-apply">
-  <a class="usa-button usa-button-secondary" href="{{site.baseurl}}/join/product-manager/apply/">Click here to start your GS-15 Innovation Specialist application!</a>
+<section class="usa-grid-full" id="gs-15-apply">
+  <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/join/product-manager/apply/">Click here to start your application!</a>
 </section>
+
+If applicable, please *only* submit all veteran's documentation to Jacqueline Coleman at [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700256JCDE.
+
