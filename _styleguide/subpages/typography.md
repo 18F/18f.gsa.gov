@@ -49,11 +49,11 @@ permalink: /styleguide/typography/
 
 {% capture codeblock %}{% raw %}
 <h1>h1 – 3.8rem, 38px</h1>
-<h2>h2 – 3.4rem 34px</h2>
-<h3>h3 – 2.3rem 23px</h3>
+<h2>h2 – 3.4rem, 34px</h2>
+<h3>h3 – 2.3rem, 23px</h3>
 <h4>h4 – 2.1rem, 21px</h4>
 <h5>h5 – 1.4rem, 14px</h5>
-<p>p – 1.8rem, 18px)</p>
+<p>p – 1.8rem, 18px</p>
 {% endraw %}{% endcapture %}
 
 {% capture type_description %}
