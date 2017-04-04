@@ -37,7 +37,7 @@ When you apply for a role at 18F, you’ll need to submit a [government-style re
 
 ### Eligibility
 
-Anyone who is not currently a GSA employee or contractor and who is a U.S. citizen, non-citizen national of the U.S., or permanent resident with a valid green card is eligible to apply. **For most of our roles, you can live anywhere in the United States.**
+All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply. **For most of our roles, you can live anywhere in the United States.**
 
 **Most 18F positions are "not to exceed" (NTE) positions, which means they are two-year terms and can be renewed once, for a total of four years.**
 
