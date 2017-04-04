@@ -19,10 +19,10 @@ Blog-specific images live in [`assets/blog/`](https://github.com/18F/18f.gsa.gov
 <img src="{{ site.baseurl }}/assets/img/logos/18F-Logo-S.png" alt="18F logo" />
 
 #### Example of failed image
-<img src="{{ site.basurl }}/assets/img/logos/18F-Logo-S.png" alt="18F logo" />
+<img src="{{ site.baseurl }}/assets/img/logos/18F-Logo-Small.jpg" alt="18F logo" />
 
 #### Example of failed image without alt text
-<img src="{{ site.basurl }}/assets/img/logos/18F-Logo-S.png" />
+<img src="{{ site.baseurl }}/assets/img/logos/18F-Logo-Small.jpg" />
 {% endraw %}{% endcapture %}
 
 {% capture source_ref_description %}
