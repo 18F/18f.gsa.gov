@@ -64,7 +64,8 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
   max-width: $site-max-width;
   width: 100%;
 
-  > h3 {
+  > h3:target,
+  hr + h3 {
     margin-top: 0;
     padding-top: $sg-header-height + $site-margins;
   }

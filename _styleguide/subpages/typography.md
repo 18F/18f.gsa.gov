@@ -71,7 +71,7 @@ For example:
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
 
-#### Font weight
+#### Font weights
 
 {% capture codeblock %}{% raw %}
 <p class="p-bold">$font-bold: 700</p>

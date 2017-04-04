@@ -3,7 +3,7 @@ title: 18F UI style guide
 subpage: Colors
 permalink: /styleguide/colors/
 ---
-
+### Palette
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <div class="color-box-group">
