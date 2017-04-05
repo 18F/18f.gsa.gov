@@ -5,8 +5,14 @@ $(function (){
   }
 
   function updateHash(el) {
+    console.log('el-->', el)
     var hash = typeof(el) === 'string' ? el : $(el).attr('id')
-    window.location.hash = "#" + hash;
+    if(history.pushState) {
+      history.replaceState(null, null, "#" + hash);
+    }
+    else {
+      window.location.hash = "#" + hash;
+    }
   }
 
   var $navItems = $('.nav-subnav a').filter( ".usa-sidenav-list > li > a" );
@@ -28,9 +34,9 @@ $(function (){
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this).addClass('usa-current', direction === 'down');
         var self = this
-        setTimeout(function() {
-          updateHash(self);
-        }, 500);
+        // setTimeout(function() {
+        window.throttle(updateHash(this), 1000);
+        // }, 500);
       }
     }, {
       offset: function() {  return $(this).height(); }
@@ -40,9 +46,9 @@ $(function (){
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this).addClass('usa-current', direction === 'up');
         var self = this
-        setTimeout(function() {
-          updateHash(self);
-        }, 500);
+        // setTimeout(function() {
+        window.throttle(updateHash(this), 1000);
+        // }, 500);
       }
     }, {
       offset: function() {  return -$(this).height(); }
