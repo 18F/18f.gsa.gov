@@ -140,6 +140,8 @@ There are plenty of instances where we want to be able to embed content from oth
 
 There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions.
 
+---
+
 ### Hero images
 
 {% capture styleguide_hero_image %}{% raw %}

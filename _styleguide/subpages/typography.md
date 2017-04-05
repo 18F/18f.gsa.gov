@@ -4,22 +4,19 @@ subpage: Typography
 permalink: /styleguide/typography/
 ---
 
-<section class="usa-grid-full">
-  <div class="usa-width-two-thirds usa-section">
-    <div class="box-base-wrapper">
-      <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-      <div class="h5">$color-base: #000000</div>
-    </div>
-    <div class="box-rem-wrapper" style="">
-      <div class="box-rem"></div><span>1rem = 10px</span>
-    </div>
-  </div>
-</section>
-
----
-
 ### Font family
 <section class="usa-grid-full">
+  <section class="usa-grid-full">
+    <div class="usa-width-two-thirds usa-section">
+      <div class="box-base-wrapper">
+        <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
+        <div class="h5">$color-base: #000000</div>
+      </div>
+      <div class="box-rem-wrapper" style="">
+        <div class="box-rem"></div><span>1rem = 10px</span>
+      </div>
+    </div>
+  </section>
   <div class="usa-width-one-half">
     <p>Helvetica Neue, Regular</p>
     <div class="text-huge"> Aa </div>
@@ -71,6 +68,7 @@ For example:
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
 
+---
 #### Font weights
 
 {% capture codeblock %}{% raw %}

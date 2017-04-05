@@ -4,17 +4,6 @@ $(function (){
     return $('.nav-subnav a[href*=' + $(el).attr('id') + ']');
   }
 
-  function updateHash(el) {
-    console.log('el-->', el)
-    var hash = typeof(el) === 'string' ? el : $(el).attr('id')
-    if(history.pushState) {
-      history.replaceState(null, null, "#" + hash);
-    }
-    else {
-      window.location.hash = "#" + hash;
-    }
-  }
-
   var $navItems = $('.nav-subnav a').filter( ".usa-sidenav-list > li > a" );
 
   var $window = $(window);
@@ -33,10 +22,6 @@ $(function (){
       $navItems.removeClass('usa-current', direction === 'down');
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this).addClass('usa-current', direction === 'down');
-        var self = this
-        // setTimeout(function() {
-        window.throttle(updateHash(this), 1000);
-        // }, 500);
       }
     }, {
       offset: function() {  return $(this).height(); }
@@ -45,10 +30,6 @@ $(function (){
       $navItems.removeClass('usa-current', direction === 'up');
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this).addClass('usa-current', direction === 'up');
-        var self = this
-        // setTimeout(function() {
-        window.throttle(updateHash(this), 1000);
-        // }, 500);
       }
     }, {
       offset: function() {  return -$(this).height(); }

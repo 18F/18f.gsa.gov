@@ -13,6 +13,8 @@ Site-specific images are in multiple places. Many SVGs can be referenced with a 
 
 Blog-specific images live in [`assets/blog/`](https://github.com/18F/18f.gsa.gov/tree/master/assets/blog).
 
+---
+
 ### Source reference
 
 {% capture source_ref_codeblock %}{% raw %}

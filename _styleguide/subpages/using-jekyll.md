@@ -10,6 +10,7 @@ One of the core features of Jekyll is the [Liquid](https://shopify.github.io/liq
 
 Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project's specific needs. When the built-in functionality that Jekyll provides isn't enough, it is possible to build or borrow [plugins](https://jekyllrb.com/docs/plugins) to extend Jekyll.
 
+---
 ### Plugin gems
 
 18f.gsa.gov is using several Ruby gems plugins:
@@ -23,6 +24,8 @@ Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project
 * [`jekyll_pages_api`](https://github.com/18F/jekyll_pages_api): generates a JSON file at [`/api/v1/pages.json`](https://18f.gsa.gov/api/v1/pages.json) that serves as the base for a site search engine.
 * [`jekyll_pages_api_search`](https://github.com/18F/jekyll_pages_api_search): search engine that uses `jekyll_pages_api`
 * [`jekyll_oembed`](https://github.com/18F/jekyll-oembed): creates a Liquid tag that uses [OEmbed](https://github.com/ruby-oembed/ruby-oembed)
+
+---
 
 ### Custom plugins
 18f.gsa.gov uses many [custom plugins](https://github.com/18F/18f.gsa.gov/tree/master/_plugins) for more specific site needs:
