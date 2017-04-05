@@ -37,7 +37,6 @@ $(function (){
 
   // Subnav click to top
   $('.nav-accordion-button-desktop').on('click', function() {
-    updateHash('')
     $window.scrollTop(0, 0);
   });
 });
