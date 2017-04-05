@@ -1,4 +1,4 @@
-$(function (){
+$(function () {
   // Get link by section or article id
   function getRelatedNavigation(el) {
     return $('.nav-subnav a[href*=' + $(el).attr('id') + ']');
