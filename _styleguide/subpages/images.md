@@ -17,12 +17,12 @@ Images are used heavily throughout the site, but using them isn't always straigh
 
 The primary image formats that work well for the web are SVG, JPG, PNG, and GIF. Choosing the correct format can speed up the site and lead to a better user experience. Here are some guidlines that we use when picking images on [18f.gsa.gov](https://18f.gsa.gov):
 
-* **SVG**: the fastest loading images. They are generally best suited for iconography, or less complex graphics. They can be added as a [Jekyll include](#svg-includes), or as an [`img` tag with a source reference](#image-source-references). SVGs added as Jekyll includes are rendered as valid html `svg` elements and can be styled using CSS.
+* **SVG**: the fastest loading images. They are generally best suited for iconography, or less complex graphics. They can be added as a [Jekyll include](#svg-includes), or as an [`img` tag with a source reference](#adding-images). SVGs added as Jekyll includes are rendered as valid html `svg` elements and can be styled using CSS.
 * **JPG**: best for photos and more realistic images.
 * **PNG**: best for text-heavy images, line art, or images with fewer colors.
 * **GIF**: should only be used for simple animations.
 
-JPG, PNG, and GIF can only be added as an [`img` tag with a source reference](#image-source-references).
+JPG, PNG, and GIF can only be added as an [`img` tag with a source reference](#adding-images).
 
 #### Using and optimizing JPG and PNG
 
@@ -125,7 +125,7 @@ This is a list of all of the SVGs that are available as includes (in the `_inclu
 
 To add images to the site:
   1. Add the image to the assets directory.
-    - Blog images go in the `/assets/blog/` directory. The subdirectories are organized by topic, so place the image in the directory that pertains to blog post's primary topic.
+    - Blog images go in the `/assets/blog/` directory. The subdirectories are organized by topic, so place the image in the directory that pertains to blog post's primary topic. For detailed information on adding images to the blog, see [Blog]({{ site.baseurl }}/styleguide/blog).
     - All other images can go in the `/assets/img/` directory.
   2. Reference the file path in an image tag, making sure to prefix the path with `{% raw %}{{ site.baseurl }}{% endraw %}` and adding `alt` text for accessibility purposes.
 
@@ -160,7 +160,7 @@ The primary way to use both site and blog-specific images is to directly call th
 
 ---
 
-### Image list
+### Image lists
 
 The image list is a pattern used throughout the site.
 

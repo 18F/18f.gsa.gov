@@ -138,7 +138,7 @@ There are plenty of instances where we want to be able to embed content from oth
 
 ## Blog images
 
-There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions.
+There are a few ways we render images on the blog: Hero images that span the entire page, in text images without captions, and in text images with captions. For information on adding images to the site, see [Images]({{ site.baseurl }}/styleguide/images).
 
 ---
 
