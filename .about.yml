@@ -42,27 +42,11 @@ testable: true
 team:
 - id: boone
   role: lead
-- id: eric
+- id: brian
   role: developer
 - id: elaine
   role: lead
 - id: andre
-  role: editor
-- id: hillary
-  role: lead
-- id: emileigh
-  role: editor
-- id: jthibault
-  role: design
-- id: mhz
-  role: design
-- id: esgoodman
-  role: research
-- id: kate
-  role: editor
-- id: meghana
-  role: research
-- id: melody
   role: editor
 # Partners for whom the project is developed
 #partners:
