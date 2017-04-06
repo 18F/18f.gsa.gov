@@ -69,7 +69,8 @@ For example:
 %}
 
 ---
-#### Font weights
+
+### Font weights
 
 {% capture codeblock %}{% raw %}
 <p class="p-bold">$font-bold: 700</p>
