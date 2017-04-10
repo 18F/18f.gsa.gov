@@ -2,11 +2,12 @@
   {% if all_positions.size > 0 %}
     {% assign published_positions = all_positions | where: "published", true %}
     {% assign open_positions = published_positions | where: "listed", true %}
-
-<h3>Open positions</h3>
-  {% for position in open_positions %}{% unless "listed" == false %}
-<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>{% endunless %}
-  {% endfor %}
+  {% if open_positions > 0 %}
+    <h3>Open positions</h3>
+      {% for position in open_positions %}{% unless "listed" == false %}
+        <a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>{% endunless %}
+      {% endfor %}
   {% else %}
-<h4>We don’t have any open positions right now.</h4>
+  <h4>We don’t have any open positions right now.</h4>
+  {% endif %}
   {% endif %}

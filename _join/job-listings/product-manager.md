@@ -14,7 +14,7 @@ subnav_items:
 sub_parent_title: Product Manager
 sub_parent_permalink: /join/product-manager/
 breadcrumb: true
-published: true
+published: false
 listed: false
 ---
 
@@ -375,4 +375,3 @@ To learn more, please consult the following resources:
 </section>
 
 If applicable, please *only* submit all veteran's documentation to Jacqueline Coleman at [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700256JCDE.
-
