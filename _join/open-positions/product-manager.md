@@ -19,7 +19,7 @@ subnav_items:
     permalink: /#objective-3-you-will-manage-relationships-with-18fs-agency-partners
 breadcrumb: true
 published: false
-listed: true
+listed: false
 ---
 ## Position Summary
 

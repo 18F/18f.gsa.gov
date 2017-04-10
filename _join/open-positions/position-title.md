@@ -19,7 +19,7 @@ subnav_items:
     permalink: /#additional-information
 breadcrumb: true
 published: false
-listed: true
+listed: false
 ---
 
 ## Basic information
