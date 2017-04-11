@@ -162,8 +162,7 @@ The primary way to use both site and blog-specific images is to directly call th
 
 ### Image lists
 
-The image list is a pattern used throughout the site.
-
+This pattern associates text with an icon to break up text blocks improve user understanding.
 {% capture icon_list_codeblock %}{% raw %}
 <ul class="icon-list-wrapper">
   <li class="icon-list">

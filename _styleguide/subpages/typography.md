@@ -73,8 +73,8 @@ For example:
 ### Font weights
 
 {% capture codeblock %}{% raw %}
-<p class="p-bold">$font-bold: 700</p>
-<p class="p-normal">$font-normal: 400</p>
+<p class="p-bold">$font-bold (.p-normal): 700</p>
+<p class="p-normal">$font-normal (.p-normal): 400</p>
 <p>$font-normal: 400</p>
 {% endraw %}{% endcapture %}
 
@@ -86,8 +86,8 @@ Font weight is directly inherited from the U.S. Web Design Standards.
 * $font-normal: 400
 
 **CSS class refernces:**
-* `.p-bold`: `$font-bold`
-* `.p-normal`: `$font-normal` (this class only needs to be used to be used to override another class)
+* `p-bold`: `$font-bold`
+* `p-normal`: `$font-normal` (this class only needs to be used to be used to override another class)
 {% endcapture %}
 {% include details-code.html
    title='type-weight'
