@@ -168,9 +168,9 @@ The sticky subnavigation:
 
 There are a few components that we are using to generate the sticky subnavigation:
 
-* `.usa-sidenav-list`, including the `.usa-current` class. This is mostly taken wholesale from the standards, but does contain slight overrides to better fit with the 18F Brand.
-* `.usa-accordion` and accompanying accordion styles. We have added to this set of styles with a `.nav-accordion` class that more accurately reflects the look and feel of the site.
-* `.usa-width-one-third` to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
+* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the standards, but does contain slight overrides to better fit with the 18F Brand.
+* The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
+* The `usa-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
 
 #### What to add where
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
@@ -192,7 +192,7 @@ To add items to the subnavigation define the subnavigation items directly within
 
 ---
 
-### Right-aligned list
+### Right-aligned lists
 
 This attribute is found in the [contact]({{ site.baseurl }}/contact) and [project pages]({{ site.baseurl }}/what-we-deliver/federalist/) on the 18F site. This feature provides at-a-glance information.
 

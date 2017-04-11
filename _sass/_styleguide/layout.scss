@@ -58,19 +58,34 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 .styleguide-content {
   display: inline-block;
   margin-bottom: $sg-header-height;
-  margin-left: $site-margins;
-  margin-right: $site-margins;
+  margin-left: 0;
+  margin-right: 0;
   margin-top: $sg-header-height;
   max-width: $site-max-width;
+  padding-left: $site-margins;
+  padding-right: $site-margins;
   width: 100%;
 
-  > h3 {
+  h2 + h3 {
+    margin-top: 0;
+    padding-top: $site-margins;
+  }
+
+  > h3:target,
+  hr + h3 {
     margin-top: 0;
     padding-top: $sg-header-height + $site-margins;
   }
 
+  hr {
+    margin-top: $sg-header-height + $site-margins;
+  }
+
   @include media($medium-screen + $nav-width-extra) {
     margin-left: $site-margins + $sliding-panel-width;
+    margin-right: $site-margins;
+    padding-left: 0;
+    padding-right: 0;
     width: calc(100% - #{$margins-width});
   }
 }

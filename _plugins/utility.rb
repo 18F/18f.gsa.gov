@@ -43,7 +43,7 @@ module Jekyll
     end
 
     # active: debugging
-    def check_type(value, second_value = nil, third_value = nil)
+    def debug(value, second_value = nil, third_value = nil)
       _type = value.class
       _second_type = second_value.class
       _third_type = third_value.class

@@ -3,7 +3,7 @@ title: 18F UI style guide
 subpage: Colors
 permalink: /styleguide/colors/
 ---
-
+### Palette
 <section class="usa-grid-full">
   <div class="usa-width-one-half">
     <div class="color-box-group">
@@ -121,10 +121,12 @@ We are using the [18F Brand](https://pages.18f.gov/brand/color-palette/) color p
 
 Instead of overriding the SCSS classes and variables used by the U.S. Web Design Standards, we have created a parallel set of background color classes and variables.
 
-* `.background-dark`: `$color-dark`
-* `.background-medium`: `$color-medium`
-* `.background-gray`: `$color-gray`
-* `.background-white`: `$color-inverse`
+CSS class | SCSS variable
+--- | ---
+`background-dark` | `$color-dark`
+`background-medium` | `$color-medium`
+`background-gray` | `$color-gray`
+`background-white` | `$color-inverse`
 {% endcapture %}
 {% include details-code.html
    title='backgrounds'
