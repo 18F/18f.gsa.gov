@@ -47,29 +47,27 @@ We're building a team that reflects the United States. We don't discriminate bas
 
 ### How we collect and review applications
 
-We collect applications during the period specified in the job posting (usually five days to two weeks). We consider all applications collected within a given period a cohort and evaluate them against each other.
+We collect applications during the period specified in the job posting (usually five business days). We consider all applications collected within a given period a cohort and evaluate them against each other.
 
-Once the application period ends, you can't add to or modify your application.
+Once the application collection period ends, you can't add to or modify your application.
 
-We begin evaluating applications using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Following this process, we evaluate each application against specific competencies (you can find these in the job posting) and categorize each as Superior Qualified, Best Qualified, Well Qualified, Qualified, or Not Qualified.
-
-Once we've evaluated all applications within the cohort, we send all the applications and evaluation scores to General Services Administration (GSA) Human Resources, our partner in the hiring process, to apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx) for candidates who claim it. GSA HR returns a list of candidates who were categorized as Superior Qualified, and the selection panel (usually the hiring manager) then identifies which candidates to interview.
+A panel of Subject Matter Experts (SMEs) will review each application. The top qualified candidates will be contacted to continue on to the interview process. 
 
 ----
 
 ## The interview process
 
-The interview process begins with a 30-minute preliminary screening by phone or video call. Plan to talk about your skills and experience, what you're passionate about, and to learn about the work we do here.
+The interview process usually begins with a 30-minute preliminary screening by phone or video call. Plan to talk about your skills and experience and what you're passionate about. We'll also share more about our teams and the work we do here.
 
 If we'd like to chat with you more, we'll invite you to a series of video chats with 18F team members for a couple of longer conversations.
 
-If we agree you're a good fit for the role after interviews, your point of contact on the 18F Talent Team will reach out to you with next steps.
+If a strong match is identified after interviews, your 18F recruiter will reach out to you with next steps.
 
 -----
 
 ## After your interviews
 
-The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They're in charge of extending tentative and official final offers. Here's how that works:
+The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They''re responsible for extending tentative and official final offers. Here's how that works:
 
 1. A GSA HR specialist calls you with a tentative offer, including salary. "Tentative" means the offer is contingent on [security clearance](#security-clearance-documents).
 2. If you accept the tentative offer, then we move to the next step.
@@ -94,9 +92,8 @@ It can be helpful to start pulling some documents together in advance. The forms
 
 ## Government pay grades
 
-18F team members are hired for specific position descriptions, with associated grade levels, which refer to the federal general schedule (GS) for evaluation and compensation. The qualification requirements for each position and GS level are based on education, background, accomplishments, and experience.
+18F team members are hired for specific position descriptions at a specific grade level from the federal general schedule (GS). The GS system is a pay system for civilian employees in the federal government; evaluation and compensation varies by grade level. The qualification requirements for each position at a specific GS level are based on education, background, accomplishments, and experience. The specific requirements will always be listed in the job posting. 
 
-If you apply for a grade level and are not found qualified, you can reapply at a different grade level. There is no penalty or restriction to reapplying.
 
 #### Understanding grade levels
 
@@ -106,11 +103,11 @@ GS grade levels specify a fixed compensation range for a particular position, in
 
 Each GS grade level contains a series of 10 steps, and new GS employees are usually hired at step 1 of a GS grade. However, in special circumstances, agencies may authorize a higher step rate for a newly-appointed federal employee based on a [special need of the agency or superior qualifications of the prospective employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/).
 
-The annual salary cap for all GS employees is $160,300 per year. You cannot be offered more than this under any circumstance.
+The annual salary cap for all GS employees is $161,900 per year. You cannot be offered more than this under any circumstance.
 
 **The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) shows how level, step, and locality affect compensation.**
 
-#### Raises or bonuses
+#### Raises and bonuses
 
 Step increases are the most common kind of raise for GS employees, and the waiting period depends on the step. Steps two, three, and four have a one-year period for step increases. Steps five, six, and seven are two years. Steps eight, nine, and ten are three years. So if you come in at step one, the following year you will be a step two. If you come in at a step six, it will take two years to be a step seven.
 
