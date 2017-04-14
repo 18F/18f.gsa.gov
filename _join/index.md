@@ -51,7 +51,7 @@ We collect applications during the period specified in the job posting (usually 
 
 Once the application collection period ends, you can't add to or modify your application.
 
-A panel of Subject Matter Experts (SMEs) will review each application. The top qualified candidates will be contacted to continue on to the interview process. 
+A panel of subject matter experts will review each application using a qualification process called [Category Rating](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating). Once we've evaluated all applications within the cohort, we send all the applications and evaluation scores to General Services Administration (GSA) Human Resources, our partner in the hiring process, to apply [Veterans' Preference](http://www.fedshirevets.gov/job/vetpref/index.aspx) for candidates who claim it. The top qualified candidates will be contacted to continue on to the interview process. 
 
 ----
 
