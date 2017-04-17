@@ -36,7 +36,7 @@ def init
     require 'bundler'
   rescue LoadError
     puts "Installing Bundler gem..."
-    exec_cmd 'gem install bundler'
+    exec_cmd 'sudo gem install bundler'
     puts "Bundler installed; installing gems"
   end
   exec_cmd 'bundle install'

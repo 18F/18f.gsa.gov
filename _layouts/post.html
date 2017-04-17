@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   {% include head.html %}
+  {% if page.jupyter %}
+    {% include jupyter.html %}
+  {% endif %}
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
 
