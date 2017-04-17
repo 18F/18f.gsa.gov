@@ -28,7 +28,7 @@ User experience and usability research is embedded into our projects from the st
 Our developers, designers, and project managers work side-by-side with researchers to understand the impact of our design decisions. Our product teams care about usability and are often found alongside user-experience researchers testing versions of our products to understand how people interact with them.
 
 ##Contact us
-If you work at an agency and are interested in partnering with 18F, send us an email at <a href="mailto:inquiries18f@gsa.gov" itemprop="email"><i title= "email 18F"></i> inquiries18f@gsa.gov</a>.
+If your federal or DC government agency is interested in partnering with 18F, send us an email at <a href="mailto:inquiries18f@gsa.gov" itemprop="email"><i title= "email 18F"></i> inquiries18f@gsa.gov</a>.
 
 ##Learn more about the work we do
 - [Taking the pulse of the federal government’s web presence]({{ site.baseurl }}/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/)
