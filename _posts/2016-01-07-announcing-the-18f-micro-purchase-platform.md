@@ -8,7 +8,7 @@ tags:
 - micro-purchase platforms
 - procurement
 - acquisition services
-
+hero: false
 excerpt: "In October 2015, 18F launched an experiment in micro-purchasing.  Given both vendor and government interest in continuing this task, 18F is happy to announce the launch of a new platform for posting and bidding on micro-purchase tasks."
 description: "In October 2015, 18F launched an experiment in micro-purchasing.  Given both vendor and government interest in continuing this task, 18F is happy to announce the launch of a new platform for posting and bidding on micro-purchase tasks."
 image: /assets/blog/micro-purchase/micro-purchase-homepage.jpg
@@ -31,8 +31,8 @@ contribute open source code to our projects for $3,500 or less.
 
 [![The homepage of the new micro-purchase platform]({{ site.baseurl }}/assets/blog/micro-purchase/micro-purchase-homepage.jpg)
 ](http://micropurchase.18f.gov)
-Developing a posting and bidding platform
------------------------------------------
+
+## Developing a posting and bidding platform
 
 In keeping with lean methodologies, the first micro-purchase
 registration and bidding process was done through a minimum viable
@@ -46,8 +46,7 @@ integration from both GitHub and SAM.gov. We’re aiming to improve the
 bidding experience for potential vendors and provide an easy-to-navigate
 interface for viewing and bidding on auctions.
 
-Auction types: Iterating on reverse auctions (for now!)
--------------------------------------------------------
+## Auction types: Iterating on reverse auctions (for now!)
 
 Our first attempt at the micropurchase experiment featured a reverse
 auction that was ultimately won [for one
@@ -63,8 +62,7 @@ first test the validity of our platform with the next batch of auctions.
 That said, we intend to experiment with auction styles, and we welcome
 your suggestions.
 
-Next steps
-----------
+## Next steps
 
 We’ll be releasing new opportunities soon, so we encourage all potential
 bidders to register for our platform on
