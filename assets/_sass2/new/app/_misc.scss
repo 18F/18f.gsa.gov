@@ -1,0 +1,33 @@
+// grid
+@media #{$breakpoint-md} {
+  .md-col-5th {
+    width: (1/5 * 100%);
+  }
+}
+
+// responsive state
+.sm-show-inline {
+  display: none !important;
+}
+
+@media #{$breakpoint-sm} {
+  .sm-show-inline {
+    display: inline !important;
+  }
+}
+
+// border
+.border-thick {
+  border-width: 8px;
+}
+
+// svg
+.svg-ico {
+  fill: currentcolor;
+  width: 0.85rem;
+}
+
+// type
+.light {
+  font-weight: 300;
+}

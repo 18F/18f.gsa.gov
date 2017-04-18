@@ -34,7 +34,9 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 sass:
-  sass_dir: assets/_sass
+  load_paths:
+    - assets/_sass
+    - assets/_sass2
   style: compressed
 
 permalink: pretty
