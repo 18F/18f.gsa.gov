@@ -22,7 +22,7 @@ _[Recent research](https://www.theacsi.org/news-and-resources/customer-satisfact
 
 _A team of researchers in the General Services Administration studied broad trends in people’s perceptions of and interactions with the government. Those trends will be used to identify and create cross-agency services and resources to improve how the government interacts with the public._
 
-_As a starting point, we conducted extensive research on different people’s views of and interactions with federal agencies. A newly-issued report details our findings and recommendations. You can [read the full report here](https://labs.usa.gov/#research-report). Over the next tens days, we’ll also be publishing the report in full on our blog._
+_As a starting point, we conducted extensive research on different people’s views of and interactions with federal agencies. A newly-issued report details our findings and recommendations. You can [read the full report here](https://labs.usa.gov/#research-report). Over the next ten days, we’ll also be publishing the report in full on our blog._
 
 _This research is not intended to be a critique of specific government agencies. Rather, our aim was to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. The examples we’ve provided illustrate patterns seen across all agencies._
 
