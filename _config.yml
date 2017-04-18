@@ -94,6 +94,8 @@ collections:
   cards:
     output: true
     permalink: /card/:name/
+  irl:
+    output: false
 
 full_rebuild: true
 
