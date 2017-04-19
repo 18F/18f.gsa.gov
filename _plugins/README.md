@@ -124,12 +124,12 @@ Example:
 ```
 
 
-### check_type
+### debug
 **Debugging tool to pull up a erb shell at a given point in the liquid markup.**
 
 Example:
 ```bash
-{{ variable | check_type }}
+{{ variable | debug }}
 
 ```
 

@@ -4,22 +4,19 @@ subpage: Typography
 permalink: /styleguide/typography/
 ---
 
-<section class="usa-grid-full">
-  <div class="usa-width-two-thirds usa-section">
-    <div class="box-base-wrapper">
-      <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-      <div class="h5">$color-base: #000000</div>
-    </div>
-    <div class="box-rem-wrapper" style="">
-      <div class="box-rem"></div><span>1rem = 10px</span>
-    </div>
-  </div>
-</section>
-
----
-
 ### Font family
 <section class="usa-grid-full">
+  <section class="usa-grid-full">
+    <div class="usa-width-two-thirds usa-section">
+      <div class="box-base-wrapper">
+        <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
+        <div class="h5">$color-base: #000000</div>
+      </div>
+      <div class="box-rem-wrapper" style="">
+        <div class="box-rem"></div><span>1rem = 10px</span>
+      </div>
+    </div>
+  </section>
   <div class="usa-width-one-half">
     <p>Helvetica Neue, Regular</p>
     <div class="text-huge"> Aa </div>
@@ -49,11 +46,11 @@ permalink: /styleguide/typography/
 
 {% capture codeblock %}{% raw %}
 <h1>h1 – 3.8rem, 38px</h1>
-<h2>h2 – 3.4rem 34px</h2>
-<h3>h3 – 2.3rem 23px</h3>
+<h2>h2 – 3.4rem, 34px</h2>
+<h3>h3 – 2.3rem, 23px</h3>
 <h4>h4 – 2.1rem, 21px</h4>
 <h5>h5 – 1.4rem, 14px</h5>
-<p>p – 1.8rem, 18px)</p>
+<p>p – 1.8rem, 18px</p>
 {% endraw %}{% endcapture %}
 
 {% capture type_description %}
@@ -62,6 +59,18 @@ To use headers, either use the semantic element, or reference it with a dot-deli
 For example:
 
 `<p class =".h1"></p>` would render the same as `<h1></h1>`.
+
+For size reference:
+
+Element | Font size (rem) | Font size (px)
+--- | --- | ---
+h1 | 3.8rem | 38px
+h2 | 3.4rem | 34px
+h3 | 2.3rem | 23px
+h4 | 2.1rem | 21px
+h5 | 1.4rem | 14px
+p | 1.8rem | 18px
+
 {% endcapture %}
 {% include details-code.html
    title='typography'
@@ -71,24 +80,26 @@ For example:
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
 %}
 
-#### Font weight
+---
+
+### Font weights
+
+There are only two font weights used on 18f.gsa.gov.
 
 {% capture codeblock %}{% raw %}
-<p class="p-bold">$font-bold: 700</p>
-<p class="p-normal">$font-normal: 400</p>
-<p>$font-normal: 400</p>
+<p class="p-bold">Bold</p>
+<p>Normal</p>
 {% endraw %}{% endcapture %}
 
 {% capture weight_description %}
 Font weight is directly inherited from the U.S. Web Design Standards.
 
-**SCSS references:**
-* $font-bold: 700
-* $font-normal: 400
+**Quick usage reference:**
 
-**CSS class refernces:**
-* `.p-bold`: `$font-bold`
-* `.p-normal`: `$font-normal` (this class only needs to be used to be used to override another class)
+SCSS variable | CSS class | Font weight
+-- | -- | ---
+**$font-bold** | **`p-bold`** | **700**
+$font-normal | `p-normal` (only needs to be used to be used to override another class) | 400
 {% endcapture %}
 {% include details-code.html
    title='type-weight'
