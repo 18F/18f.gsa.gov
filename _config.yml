@@ -52,7 +52,7 @@ timezone: America/New_York
 
 # blog archive at /blog
 paginate: 5
-paginate_path: "blog/page/:num"
+paginate_path: "blog/page/:num/"
 
 #emoji
 gems:
