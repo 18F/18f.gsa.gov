@@ -79,7 +79,7 @@ During another hackathon, the U.S. Agency for International Development
 Latin America. This challenge attracted more than 100 people to create
 eight new projects. These projects provide insights by connecting open
 data in a novel way and using software that continuously updates results
-in real time through APIs, or Application Program Interfaces.
+in real time through APIs, or [Application Program Interfaces](https://18f.gsa.gov/2016/04/22/what-is-an-api/).
 
 The winning project externalized perceptions of crime and violence in
 Guatemala, El Salvador, and Honduras through powerful [data
