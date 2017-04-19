@@ -52,7 +52,6 @@ actively improved to meet your needs. We can help you:
 
 -   Host your applications in the cloud with our [cloud.gov platform](https://cloud.gov/).
 -   Build customizable and easy-to-maintain static sites with the [Federalist platform](https://federalist.18f.gov/).
--   Release and manage your API with [api.data.gov](https://api.data.gov/).
 
 ## A path to becoming a digitally-powered organization
 
