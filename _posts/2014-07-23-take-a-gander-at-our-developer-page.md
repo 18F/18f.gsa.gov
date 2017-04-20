@@ -22,4 +22,4 @@ A growing trend both inside government and outside is to have a simple welcoming
 
 Believing in this best practice, we’re launching 18F's [/developer page](https://18f.gsa.gov/developer) to provide a consistent and friendly starting point for other coders — both in the public and within government. There are two main sections, one for our APIs and another for 18F initiatives that are targeted to this community. There’s a good bit there, but we hope you’ll check back often as we add more APIs... a lot more APIs!
 
-[^1]: as recommended in the [Digital Government Strategy](https://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html#open-data-default)
+[^1]: as recommended in the [Digital Government Strategy](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/digital-government/digital-government.html#open-data-default)

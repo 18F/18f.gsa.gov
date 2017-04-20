@@ -27,7 +27,7 @@ Public website analytics
 We worked with the [Digital Analytics
 Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital
 Service
-(USDS)](https://www.whitehouse.gov/digital/united-states-digital-service),
+(USDS)](https://obamawhitehouse.archives.gov/digital/united-states-digital-service),
 and the White House to [build and
 host](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/) a
 dashboard showing real-time U.S. federal government web traffic. This

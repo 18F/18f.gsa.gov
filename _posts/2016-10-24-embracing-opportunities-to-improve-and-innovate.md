@@ -69,7 +69,7 @@ improve the government’s adoption of user-research methods, information
 security, open source software, and APIs. We’ve built tools that have
 been re-used by state and local governments, as well as non-governmental
 entities. The Presidential Innovation Fellowship (PIF) program has been
-codified in an [Executive Order](https://www.whitehouse.gov/the-press-office/2015/08/17/executive-order-presidential-innovation-fellows-program), and
+codified in an [Executive Order](https://obamawhitehouse.archives.gov/the-press-office/2015/08/17/executive-order-presidential-innovation-fellows-program), and
 both PIF and 18F are now part of the General Service Administration’s
 [Technology Transformation Service](http://gsa.gov/tts), established by a GSA Administrative
 Order earlier this year.
