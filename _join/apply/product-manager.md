@@ -1,6 +1,6 @@
 ---
 title: Innovation Specialist
-permalink: /join/product-manager/apply/
+permalink: /join/apply/
 layout: default-intro
 lead: Application
 position_title: Apply
