@@ -306,10 +306,8 @@ You must meet all Qualification requirements.
 You will be evaluated on your overall possession of the following competencies/knowledge, skills, and abilities.
 
 1. Knowledge of and expertise in user centered design, consumer internet technologies, service delivery, and management approaches, allowing the incumbent to provide sound and authoritative leadership on all issues related to the program; Knowledge of product delivery and agile development methodologies.
-2. Knowledge of and expertise in implementing technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems.
-3. Knowledge of and expertise in implementing technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems; Skill in oral communication to present sensitive recommendations to higher authority to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces.
-4. Knowledge of and expertise in driving, implementing, and/or delivering technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems.
-5. Skill in oral communications to present sensitive recommendations to higher authority, to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces.
+2. Knowledge of and expertise in driving, implementing, and/or delivering technology solutions that overcome significant challenges resulting from complex or bureaucratic environments, or technically difficult problems.
+3. Skill in oral communications to present sensitive recommendations to higher authority, to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces.
 
 ### Reasonable Accommodation Policy
 
