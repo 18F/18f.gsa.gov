@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Federal Election Commission
 title: beta.fec.gov
 subtitle: Making campaign data easier to use

@@ -15,7 +15,7 @@
         "categories": [
 
         ],
-        "layout": "project-tag-results",
+        "layout": "project-page",
         "project-type": "Partner",
         "title": "Health and Human Services",
         "subtitle": "Helping states update crucial systems",
@@ -44,7 +44,7 @@
       "categories": [
 
       ],
-      "layout": "project-tag-results",
+      "layout": "project-page",
       "project-type": "Project",
       "title": "The Federal Election Commission",
       "subtitle": "Making campaign data easier to use",
@@ -70,7 +70,7 @@
     "categories": [
 
     ],
-    "layout": "project-tag-results",
+    "layout": "project-page",
     "project-type": "Partner",
     "title": "Health and Human Services",
     "subtitle": "Helping states update crucial systems",
@@ -99,7 +99,7 @@
   "categories": [
 
   ],
-  "layout": "project-tag-results",
+  "layout": "project-page",
   "project-type": "Project",
   "title": "The Federal Election Commission",
   "subtitle": "Making campaign data easier to use",

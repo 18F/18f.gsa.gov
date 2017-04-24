@@ -96,6 +96,11 @@ defaults:
     parent_permalink: /join/
  -
   scope:
+    path: "_projects"
+  values:
+    layout: project-page
+ -
+  scope:
     path: "_styleguide"
   values:
     layout: styleguide

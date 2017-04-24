@@ -15,6 +15,6 @@ The site uses a custom set of styles that inherit from the [U.S. Web Design Stan
 
 While 18f.gsa.gov relies heavily on the U.S. Web Design standards, there are several instances where we have overridden styles with our own set of custom stylesheets. This is primarily to align ourselves more directly with the 18F brand set of fonts, colors, and logos. Additional overrides were made to create custom layouts or components to address user needs that are specific to the marketing of the 18F brand.
 
-<a href="{{ site.baseurl }}/styleguide/typography/">
+<a href="{{ site.baseurl }}/styleguide/layouts/">
   <button class="usa-button">Explore style guide</button>
 </a>

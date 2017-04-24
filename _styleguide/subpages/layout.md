@@ -1,12 +1,23 @@
 ---
 title: 18F UI style guide
-subpage: Layout
-permalink: /styleguide/layout/
+subpage: Layouts
+permalink: /styleguide/layouts/
 ---
+
+### Layouts
+
+These are the primary layout templates that exist on [18f.gsa.gov](https://18f.gsa.gov):
+- [Project page](#project-page): Template for a specific project's page
+- [Blog page](#blog-page): Template for a specific blog post
+- [Guide page](#guide-page): Template for a guide page
+
+---
+
+### Grid
 
 The layout and grid structure inherits from the U.S. Web Design Standards and makes some slight adjustments. Layout changes are not overrides of the standards, but a handful of CSS classes have been added to compliment the Standards.
 
-Class name | Description
+Class name | What it does
 --- | ---
 [`usa-width-tablet`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | A class that allows certain content, namely the [project cards]({{ site.baseurl }}/styleguide/project-cards/), and the [blog previews]({{ site.baseurl }}/styleguide/blog-components/#post-previews) to respond at a different breakpoint, [`$tablet-screen`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss) (768px).
 [`usa-flex`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss) | Wrapper class that sets `display: flex`, and can be used to create more flexible layouts.
@@ -14,3 +25,28 @@ Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pu
 [`usa-grid-reversed`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | This class can be used to alternate the order that content appears in mobile vs desktop screen widths.
 `content-wide` | In the Standards, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://standards.usa.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
 `content-focus` | When the the grid needs to be wider, `content-wide` is used and the content width is controlled by using partial grid layouts.
+
+
+---
+
+### Project page
+
+To add a project page:
+1. Create a new file within the `_projects` directory, named with the following format: `[agency acronym]-[project-name].md`.
+2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file.
+3. Replace all relavent fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_projects.yml).
+4. If you are adding an image, make sure to [check out the wiki](https://github.com/18F/18f.gsa.gov/wiki/Finding-the-right-image-for-a-project-page). If you are not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
+
+```yml
+image_icon: gavel.svg
+```
+5. Populate the sidebar for at a glance information. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter.
+
+---
+
+### Blog page
+
+---
+
+### Guide page
+
