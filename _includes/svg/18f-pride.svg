@@ -5,6 +5,7 @@
    <style>
      path {
        cursor: pointer;
+       stroke-width: 1px;
      }
    </style>
 <path class="logo-18f-svg logo-wrapper" fill="#000000" d="M327.3,0H5.7C2.5,0,0,2.5,0,5.7v321.6c0,3.1,2.5,5.7,5.7,5.7h321.6c3.1,0,5.7-2.5,5.7-5.7V5.7
@@ -20,13 +21,12 @@
   c0-10.6-8.6-19.1-19.1-19.1s-19.1,8.6-19.1,19.1C138.4,145.2,146.9,153.8,157.5,153.8z"/>
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
-
   function generateRandomColor() {
     return "000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
   }
 
   function randomNumberFloored(len) {
-    return Math.floor(Math.random() * len)
+    return Math.floor(Math.random() * len);
   }
 
   // swaps elements at index i and j in array this
@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var i=0, j=1;
     try { [i,j]=[j,i]; }
     catch (e) {}
-    if(i) {
+    if (i) {
       return function(i,j) {
-        [this[i],this[j]] = [this[j],this[i]];
+        [this[i], this[j]] = [this[j], this[i]];
         return this;
       }
     } else {
@@ -53,22 +53,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // shuffles array this
   Array.prototype.shuffle = function() {
     for(var i=this.length; i>1; i--) {
-      this.swap(i-1, Math.floor(i*Math.random()));
+      this.swap(i-1, Math.floor(i * Math.random()));
     }
     return this;
   }
 
   var allPaths = document.querySelectorAll('.logo-18f-svg');
+  var logoWrapper = document.querySelector('.logo-wrapper');
+  var logoLetters = document.querySelectorAll('.logo');
 
   function randomPrideColor(number) {
-    var LGBTQA = ['750787', "004DFF", "008026", "FFED00", "FF8C00", "E40303" ]
+    var LGBTQA = ['750787', "004DFF", "008026", "FFED00", "FF8C00", "E40303" ];
     var shuffledList = LGBTQA.shuffle();
-    var index = randomNumberFloored(LGBTQA.length)
-    if (number) {
-      return shuffledList.slice(0, number)
-    } else {
-      return LGBTQA[index]
-    }
+    var index = randomNumberFloored(LGBTQA.length);
+    return number ? shuffledList.slice(0, number) : LGBTQA[index];
   }
 
   function getContrastYIQ(hexcolor){
@@ -79,38 +77,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return (yiq >= 128) ? 'black' : 'white';
   }
 
-  <!-- function updateLogoColors(logo, wrapper, randomColor, contrast) {
-    wrapper.style.fill = '#' + randomColor;
-    logo.style.fill = contrast;
-  } -->
-
   function updateAllLogoColors(number) {
-    var randomColors = randomPrideColor(number)
-    allPaths.forEach(function(p, i) {
-      p.style.fill = '#' + randomColors[i]
+    var randomColors = randomPrideColor(number);
+    logoWrapper.style.fill = '#' + randomColors[0];
+    var contrast = getContrastYIQ(randomColors[0]);
+    logoLetters.forEach(function(p, i) {
+      p.style.fill = '#' + randomColors[i + 1];
+      p.style.stroke = contrast;
     });
   }
 
-  var logoWrapper = document.querySelector('.logo-wrapper');
-
   setInterval(function() {
-    <!-- var randomColor = generateRandomColor(); -->
-    var randomColor = randomPrideColor();
-    var contrast = getContrastYIQ(randomColor);
-    document.querySelectorAll('.logo').forEach(function(path) {
-      <!-- updateLogoColors(path, logoWrapper, randomColor, contrast); -->
+    logoLetters.forEach(function(path) {
       updateAllLogoColors(allPaths.length);
     })
   }, 5000);
 
-
-
   allPaths.forEach(function(path) {
     path.addEventListener("click", function() {
-      updateAllLogoColors(allPaths.length)
+      updateAllLogoColors(allPaths.length);
     });
   });
-
 });
 
 </script>
