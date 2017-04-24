@@ -79,35 +79,37 @@ The prefered method for adding SVGs on [18f.gsa.gov](https://18f.gsa.gov) is as 
 This is a list of all of the SVGs that are available as includes (in the `_includes` directory). All icons are set to their default sizes.
 
 {% capture catalog_codeblock %}{% raw %}
+**svg/18f-pride.svg:**
+{% include svg/18f-pride.svg %}
 
-**svg/icons/agile-icon:**
+**svg/icons/agile-icon.svg:**
 {% include svg/icons/agile-icon.svg %}
 
-**svg/icons/arrow-left:**
+**svg/icons/arrow-left.svg:**
 {% include svg/icons/arrow-left.svg %}
 
-**svg/icons/arrow-right:**
+**svg/icons/arrow-right.svg:**
 {% include svg/icons/arrow-right.svg %}
 
-**svg/icons/close:**
+**svg/icons/close.svg:**
 {% include svg/icons/close.svg %}
 
-**svg/icons/folderwithclock:**
+**svg/icons/folderwithclock.svg:**
 {% include svg/icons/folderwithclock.svg %}
 
-**svg/icons/gavel:**
+**svg/icons/gavel.svg:**
 {% include svg/icons/gavel.svg %}
 
-**svg/icons/monitor:**
+**svg/icons/monitor.svg:**
 {% include svg/icons/monitor.svg %}
 
-**svg/icons/open-icon:**
+**svg/icons/open-icon.svg:**
 {% include svg/icons/open-icon.svg %}
 
-**svg/icons/respect-icon:**
+**svg/icons/respect-icon.svg:**
 {% include svg/icons/respect-icon.svg %}
 
-**svg/icons/user-centered-icon:**
+**svg/icons/user-centered-icon.svg:**
 {% include svg/icons/user-centered-icon.svg %}
 {% endraw %}{% endcapture %}
 
