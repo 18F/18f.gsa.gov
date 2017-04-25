@@ -22,7 +22,7 @@
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
   function generateRandomColor() {
-    return "000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
+    return "000000".replace(/0/g,function() { return (~~(Math.random()*16)).toString(16); });
   }
 
   function randomNumberFloored(len) {
@@ -32,8 +32,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // swaps elements at index i and j in array this
   // swapping is easy on js 1.7 (feature detection)
   Array.prototype.swap = (function () {
-    var i=0, j=1;
-    try { [i,j]=[j,i]; }
+    var i = 0,
+      j = 1;
+    try { [i, j]=[j, i]; }
     catch (e) {}
     if (i) {
       return function(i,j) {
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // shuffles array this
   Array.prototype.shuffle = function() {
     for(var i=this.length; i>1; i--) {
-      this.swap(i-1, Math.floor(i * Math.random()));
+      this.swap(i - 1, Math.floor(i * Math.random()));
     }
     return this;
   }
@@ -63,18 +64,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var logoLetters = document.querySelectorAll('.logo');
 
   function randomPrideColor(number) {
-    var LGBTQA = ['750787', "004DFF", "008026", "FFED00", "FF8C00", "E40303" ];
+    var LGBTQA = ['750787', "004DFF", "008026", "FFED00", "FF8C00", "E40303"];
     var shuffledList = LGBTQA.shuffle();
     var index = randomNumberFloored(LGBTQA.length);
     return number ? shuffledList.slice(0, number) : LGBTQA[index];
   }
 
   function getContrastYIQ(hexcolor){
-    var r = parseInt(hexcolor.substr(0,2),16);
-    var g = parseInt(hexcolor.substr(2,2),16);
-    var b = parseInt(hexcolor.substr(4,2),16);
-    var yiq = ((r*299)+(g*587)+(b*114))/1000;
-    return (yiq >= 128) ? 'black' : 'white';
+    var r = parseInt(hexcolor.substr(0, 2), 16);
+    var g = parseInt(hexcolor.substr(2, 2), 16);
+    var b = parseInt(hexcolor.substr(4, 2), 16);
+    var yiq = ((r * 299)+(g * 587)+(b * 114)) / 1000;
+    return (yiq >= 128) ? '#000' : '#fff';
   }
 
   function updateAllLogoColors(number) {
