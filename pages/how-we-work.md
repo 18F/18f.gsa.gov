@@ -1,7 +1,7 @@
 ---
 title: How we work
 permalink: /how-we-work/
-layout: default-intro
+layout: primary
 lead: We’ll work hand-in-hand with your team, use modern techniques, and talk with real users to build the right thing, not just any thing.
 ---
 

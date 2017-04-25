@@ -2,7 +2,7 @@
 title: About 18F
 path: about
 permalink: /about/
-layout: default-intro
+layout: primary
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
 subnav_items:

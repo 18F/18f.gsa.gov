@@ -1,7 +1,7 @@
 ---
 title: Open position
 permalink: /join/product-engineer/
-layout: default-intro
+layout: primary
 lead: Product Engineer
 position_title: Product Engineer
 app_close_date:

@@ -1,7 +1,7 @@
 ---
 title: Code of conduct
 permalink: /code-of-conduct/
-layout: default-intro
+layout: primary
 lead:
 ---
 

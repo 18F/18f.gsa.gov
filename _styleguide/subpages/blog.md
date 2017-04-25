@@ -149,7 +149,7 @@ There are a few ways we render images on the blog: Hero images that span the ent
 {% endraw %}{% endcapture %}
 
 {% capture hero_description %}
-Feature images are used used in the `default-intro` and `post` layouts. `default-intro` is the primary layout used throughout the site and `post` is the layout used for blog posts.
+Feature images are used used in the `primary` and `post` layouts. `primary` is the primary layout used throughout the site and `post` is the layout used for blog posts.
 
 If using a layout that needs a feature image, specify the path to the image url with the `image` attribute.
 

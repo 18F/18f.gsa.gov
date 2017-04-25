@@ -10,10 +10,9 @@ These are the primary layout templates that exist on [18f.gsa.gov](https://18f.g
 
 Template | Template file | What it is | Example
 --- | --- | --- | ---
+[Primary template](#primary-template) | [`_layouts/primary.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/primary.html) | Most common template on the site. Commonly used for content or guides | [Guide page]({{ site.baseurl }}/join/)
 [Project page](#project-page) | [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html) | Template for a specific project's page | [Project page]({{ site.baseurl }}/what-we-deliver/fec-gov/)
 [Blog post](#blog-post) | [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/post.html) | Template for an individual blog post | [Blog post]({{ site.baseurl }}/2017/03/21/nasa-journey-with-us-web-design-standards/)
-[Guide page](#guide-page) | [`_layouts/default-intro.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/default-intro.html) | Template for a guide page | [Guide page]({{ site.baseurl }}/join/)
-
 ---
 
 ### Grid
@@ -29,6 +28,9 @@ Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pu
 `content-wide` | In the Standards, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://standards.usa.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
 `content-focus` | When the the grid needs to be wider, `content-wide` is used and the content width is controlled by using partial grid layouts.
 
+---
+
+### Primary template
 
 ---
 
@@ -54,7 +56,5 @@ Located at [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master
 
 There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog]({{ site.baseurl }}/syleguide/blog/)
 
----
 
-### Guide page
 
