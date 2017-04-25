@@ -2,6 +2,7 @@
 agency: Department of Homeland Security
 title: myUSCIS immigration resources
 subtitle: Humanizing the process of becoming a citizen
+permalink: /what-we-deliver/myuscis/
 redirect_from: /project/dhs-myuscis/
 excerpt: We worked with Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
 image: /assets/img/home/hero-immigration.jpg

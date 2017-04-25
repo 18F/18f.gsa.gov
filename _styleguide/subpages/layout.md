@@ -4,12 +4,15 @@ subpage: Layouts
 permalink: /styleguide/layouts/
 ---
 
-### Layouts
+### Templates
 
 These are the primary layout templates that exist on [18f.gsa.gov](https://18f.gsa.gov):
-- [Project page](#project-page): Template for a specific project's page
-- [Blog page](#blog-page): Template for a specific blog post
-- [Guide page](#guide-page): Template for a guide page
+
+Template | Template file | What it is | Example
+--- | --- | --- | ---
+[Project page](#project-page) | [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html) | Template for a specific project's page | [Project page]({{ site.baseurl }}/what-we-deliver/fec-gov/)
+[Blog post](#blog-post) | [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/post.html) | Template for an individual blog post | [Blog post]({{ site.baseurl }}/2017/03/21/nasa-journey-with-us-web-design-standards/)
+[Guide page](#guide-page) | [`_layouts/default-intro.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/default-intro.html) | Template for a guide page | [Guide page]({{ site.baseurl }}/join/)
 
 ---
 
@@ -31,20 +34,25 @@ Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pu
 
 ### Project page
 
-To add a project page:
+Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html), this is the template for creating new project pages as well as [project cards]({{ site.baseurl }}/styleguide/components/#project-cards) that show up at [/what-we-deliver/]({{ site.baseurl }}/what-we-deliver/).
+
+#### Add a project page:
 1. Create a new file within the `_projects` directory, named with the following format: `[agency acronym]-[project-name].md`.
 2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file.
-3. Replace all relavent fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_projects.yml).
+3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_projects.yml).
 4. If you are adding an image, make sure to [check out the wiki](https://github.com/18F/18f.gsa.gov/wiki/Finding-the-right-image-for-a-project-page). If you are not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
-
-```yml
-image_icon: gavel.svg
-```
+  ```yml
+  image_icon: gavel.svg
+  ```
 5. Populate the sidebar for at a glance information. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter.
 
 ---
 
-### Blog page
+### Blog post
+
+Located at [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/post.html), this is the template for creating new blog posts.
+
+There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog]({{ site.baseurl }}/syleguide/blog/)
 
 ---
 
