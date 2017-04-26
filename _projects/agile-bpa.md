@@ -11,7 +11,7 @@ image_icon: folderwithclock.svg
 tag: agile bpa
 expiration_date:
 github_repo:
-project_url: "[Agile BPA website](https://pages.18f.gov/ads-bpa/)"
+project_url: "[Agile BPA website](https://ads.18f.gov/)"
 learn_more:
 product_clients:
 - Department of Agriculture
