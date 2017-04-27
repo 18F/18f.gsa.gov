@@ -1,4 +1,15 @@
----title: "Remembering Larry Mathias, an early partner and excellent civil servant"authors:- nick- kaitlin- joshtags:- agency work- general services administration- procurementexcerpt: "We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month. Larry was a senior contracting officer at the General Services Administration. He managed technology systems for the OASIS program and was instrumental in helping GSA launch this new contract vehicle. Larry was also an early believer in 18F."---
+---
+title: "Remembering Larry Mathias, an early partner and excellent civil servant"
+authors:
+- nick
+- kaitlin
+- josh
+tags:
+- agency work
+- general services administration
+- procurement
+excerpt: "We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month. Larry was a senior contracting officer at the General Services Administration. He managed technology systems for the OASIS program and was instrumental in helping GSA launch this new contract vehicle. Larry was also an early believer in 18F."
+---
 ![Larry Matthias, portrait]({{ site.baseurl }}/assets/blog/larry/larry.png")
 
 We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month.
