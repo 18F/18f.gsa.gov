@@ -52,15 +52,15 @@ We don't use "brainteaser" questions, ask you to code on a whiteboard, or try to
 
 Your interviewer will ask you technical questions about your code sample, for example:
     
-- "how does this part work?"
-- "why did you choose library x here?" 
-- "can you think of other ways you might implement this bit?"
+- "How does this part work?"
+- "Why did you choose library x here?" 
+- "Can you think of other ways you might implement this bit?"
 
 #### Technical Interview 
 
 *(1 hour)*
 
-Your interviewer will ask you questions about your technical experience and your previous work, questions about coding tools and practices you've used, and architectural questions about code or system design. For example, you might get aked questions like one of these:
+Your interviewer will ask you questions about your technical experience and your previous work, questions about coding tools and practices you've used, and architectural questions about code or system design. For example, you might get asked questions like one of these:
 
 * "Imagine you're designing a dashboard to show the spread of a virus outbreak. Talk me through the high-level design. What technical issues do you anticipate?"
 * "Tell me about a time you needed to learn a new piece of technology to solve a problem. What was the problem? How did you learn the new thing? Was it a good solution?"
