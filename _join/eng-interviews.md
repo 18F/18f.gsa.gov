@@ -85,7 +85,7 @@ Again, you'll have about 10 minutes at the end to ask your own questions.
 
 *(1 hour)*
 
-This final interview covers both technical and core values topics (so, similar questions as above). This gives us the chance to compare notes from several interviews, and gives you the chance to give us, collectively, a broader look into your experience. This interview will usually be with one of the engineering supervisors, so it's also an opportunity to ask questions of someone who could end up being your manager.
+This final interview covers both technical and core values topics (so, similar questions as above). This gives us the chance to compare notes from several interviews, and gives you the chance to give us, collectively, a broader look into your experience. This interview will usually be with a more senior member of 18F Engineering, or someone in a leadership role, so it's also an opportunity to ask questions of someone with a broader view of the organization.
 
 As with the other interviews, you'll have a chance at the end to ask your own questions.
 
