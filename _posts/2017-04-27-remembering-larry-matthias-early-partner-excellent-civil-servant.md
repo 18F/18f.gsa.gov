@@ -10,7 +10,7 @@ tags:
 - procurement
 excerpt: "We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month. Larry was a senior contracting officer at the General Services Administration. He managed technology systems for the OASIS program and was instrumental in helping GSA launch this new contract vehicle. Larry was also an early believer in 18F."
 ---
-![Larry Matthias, portrait]({{ site.baseurl }}/assets/blog/larry/larry.png")
+![Larry Matthias, portrait]({{ site.baseurl }}/assets/blog/larry/larry.png)
 
 We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month.
 
@@ -40,6 +40,6 @@ Larry connected us to other civil servants who also wanted to make government be
 
 Larry was passionate about making things. Between meetings we talked about photography and 3D printing and Arduinos and NeoPixels. We loved him so much we named our GitHub bot after him:
 
-![The so-called Larrybot notifying the team on Slack that a pull request was closed.]({{ site.baseurl }}/assets/blog/larry/larrybot.png")
+![The so-called Larrybot notifying the team on Slack that a pull request was closed.]({{ site.baseurl }}/assets/blog/larry/larrybot.png)
 
 We miss him.
