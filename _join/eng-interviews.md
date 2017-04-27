@@ -4,12 +4,12 @@ permalink: /join/eng-interviews/
 layout: default-intro
 lead: Details on 18F's engineering interview process
 subnav_items:
-  - text: Technical "homework" assignment
-    permalink: /join/eng-interviews/#technical-homework-assignment
+  - text: Technical take-home assignment
+    permalink: /join/eng-interviews/#technical-take-home-assignment
   - text: "Interviews:"
     permalink: /join/eng-interviews/#interviews
-  - text: 1. Homework review session
-    permalink: /join/eng-interviews/#homework-review
+  - text: 1. Take-home review
+    permalink: /join/eng-interviews/#take-home-review
   - text: 2. Technical Interview
     permalink: /join/eng-interviews/#technical-interview
   - text: 3. Core Values Interview
@@ -18,15 +18,15 @@ subnav_items:
     permalink: /join/eng-interviews/#wrap-up-interview
 ---
 
-If you're a developer applying to our engineering team, our interview process will have two parts: a short "homework" assignment, and a series of interviews. Here's some details on what to expect:
+If you're a developer applying to our engineering team, our interview process will have two parts: a short take-home assignment, and a series of interviews. Here's some details on what to expect:
 
-### Technical "homework" assignment
+### Technical take-home assignment
 
 We know that the best way to tell if someone's a good engineer is to actually look at their code, so we'll want to see your work in action. You'll be given two options:
 
 1. Complete a short programming assignment. This'll be a realistic sort of task that someone in the role you're interviewing might face at work. For example, you might be given a messy data file and asked to produce a script that parses the data and produces some report. This exercise should take less than three hours. We prefer that you use Python, Ruby, JavaScript or Go for this exercise, but if you don't feel confidant in any of those languages we can probably accommodate another choice.
 
-2. Bring a code sample you've written elsewhere to share with us and discuss. This is subject to a few conditions:
+2. Submit a code sample you've written elsewhere to share with us and discuss. This is subject to a few conditions:
     - You must be allowed to share this code with us (so, nothing you've produced under NDA, etc.). Open source is best.
     - It should be in Python, Ruby, JavaScript or Go -- if it's not, again we can probably accommodate you, but check with us first.
     - It should be short, no longer than around 1,000 lines, and mostly stand-alone (i.e. shouldn't require any dependencies that aren't common in the language you've used).
@@ -34,7 +34,7 @@ We know that the best way to tell if someone's a good engineer is to actually lo
 
 Either option is totally fine, so choose the one you think will be easiest and will present yourself in the best light.
 
-You'll be asked to submit your "homework" at least 24 hours before your "homework" interview, about which more below:
+You'll be asked to submit your work at least 24 hours before your [review session](#take-home-review), so that we've got a chance to review your code before we talk to you about it.
 
 ### Interviews
 
@@ -42,11 +42,11 @@ You'll have four interviews, ranging 30 to 60 minutes each. Each interview will 
 
 We prefer to do our interviews over video chat, but we can accommodate other options if that doesn't work for you. 
 
-Our interviews are all behavioral and experiential, which means we'll ask questions about your experience, situations you've seen in your career, and what you did. None of our questions have "right" answers; we're interested in hearing about your experience and talking through what you've done in detail. We want you to be specific: tell us about what you've accomplished, how you did it, and please feel free to get really deep into the technical details. We love it when candidates tell us detailed stories about cool things they've built!
+Our interviews are all behavioral and experiential, which means we'll ask questions about your experience, situations you've seen in your career, and what you did. None of our questions have right answers; we're interested in hearing about your experience and talking through what you've done in detail. We want you to be specific: tell us about what you've accomplished, how you did it, and please feel free to get really deep into the technical details. We love it when candidates tell us detailed stories about cool things they've built!
 
-We don't use "brainteaser" questions, ask you to code on a whiteboard, or try to "stump" you. 
+We don't use brainteaser questions, ask you to code on a whiteboard, or try to stump you. 
 
-#### "Homework" review
+#### Take-home review
 
 *(30 minutes)*
 
