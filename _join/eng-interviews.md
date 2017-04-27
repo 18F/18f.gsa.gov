@@ -3,11 +3,24 @@ title: 18F Engineering Team interview process
 permalink: /join/eng-interviews/
 layout: default-intro
 lead: Details on 18F's engineering interview process
+subnav_items:
+  - text: Technical "homework" assignment
+    permalink: /join/eng-interviews/#technical-homework-assignment
+  - text: "Interviews:"
+    permalink: /join/eng-interviews/#interviews
+  - text: 1. Homework review session
+    permalink: /join/eng-interviews/#homework-review
+  - text: 2. Technical Interview
+    permalink: /join/eng-interviews/#technical-interview
+  - text: 3. Core Values Interview
+    permalink: /join/eng-interviews/#core-values-interview
+  - text: 4. Wrap-up Interview
+    permalink: /join/eng-interviews/#wrap-up-interview
 ---
 
 If you're a developer applying to our engineering team, our interview process will have two parts: a short "homework" assignment, and a series of interviews. Here's some details on what to expect:
 
-### "Homework" assignment
+### Technical "homework" assignment
 
 We know that the best way to tell if someone's a good engineer is to actually look at their code, so we'll want to see your work in action. You'll be given two options:
 
@@ -33,7 +46,9 @@ Our interviews are all behavioral and experiential, which means we'll ask questi
 
 We don't use "brainteaser" questions, ask you to code on a whiteboard, or try to "stump" you. 
 
-#### "Homework" review (30 minutes)
+#### "Homework" review
+
+*(30 minutes)*
 
 Your interviewer will ask you technical questions about your code sample, for example:
     
@@ -41,7 +56,9 @@ Your interviewer will ask you technical questions about your code sample, for ex
 - "why did you choose library x here?" 
 - "can you think of other ways you might implement this bit?"
 
-#### Technical Interview (1 hour)
+#### Technical Interview 
+
+*(1 hour)*
 
 Your interviewer will ask you questions about your technical experience and your previous work, questions about coding tools and practices you've used, and architectural questions about code or system design. For example, you might get aked questions like one of these:
 
@@ -51,7 +68,9 @@ Your interviewer will ask you questions about your technical experience and your
 
 You'll also have about 10 minutes at the end of the interview to ask your interviewer any queestions you have about their job, working at 18F, etc.
 
-#### Core Values Interview (1 hour)
+#### Core Values Interview 
+
+*(1 hour)*
 
 Working at 18F is a bit different than working at your typical tech company. We'll want to make sure that you share the core values that are important to 18F, so this session will focus on your personal and professional values. Your interviewer will ask questions about how you work with teammates and partners, how you manage bureaucracy, and similar topics. For example, you might get questions like:
 
@@ -62,7 +81,9 @@ Working at 18F is a bit different than working at your typical tech company. We'
 
 Again, you'll have about 10 minutes at the end to ask your own questions.
 
-#### Wrap-up Interview (1 hour)
+#### Wrap-up Interview 
+
+*(1 hour)*
 
 This final interview covers both technical and core values topics (so, similar questions as above). This gives us the chance to compare notes from several interviews, and gives you the chance to give us, collectively, a broader look into your experience. This interview will usually be with one of the engineering supervisors, so it's also an oportunity to ask questions of someone who could end up being your manager.
 
