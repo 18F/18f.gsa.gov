@@ -61,6 +61,8 @@ The interview process usually begins with a 30-minute preliminary screening by p
 
 If we'd like to chat with you more, we'll invite you to a series of video chats with 18F team members for a couple of longer conversations.
 
+If you're interviewing to join our Engineering team, you can [read more details about the interviews we conduct for prospective engineers]({{ site.baseurl }}/join/eng-interviews/).
+
 If 18F identifies you as a strong match after interviews, your 18F recruiter will reach out to you with next steps.
 
 -----
