@@ -7,12 +7,15 @@ permalink: /styleguide/layouts/
 ### Templates
 
 These are the main page templates that exist on [18f.gsa.gov](https://18f.gsa.gov):
+* **Primary template**
 
-Page template | Template file | What it is | Example
---- | --- | --- | ---
-[Primary template](#primary-template) | [`_layouts/primary.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/primary.html) | Most common template on the site. Commonly used for content or guides | [Live guide page]({{ site.baseurl }}/join/)
-[Project page template](#project-page-template) | [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html) | Template for a specific project's page | [Live project page]({{ site.baseurl }}/what-we-deliver/fec-gov/)
-[Blog post template](#blog-post-template) | [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/post.html) | Template for an individual blog post | [Live blog post]({{ site.baseurl }}/2017/03/21/nasa-journey-with-us-web-design-standards/)
+  The most common template on the site. Commonly used for content or guides. [Learn more](#primary-template) or [View live example]({{ site.baseurl }}/join/).
+* **Project page template**
+
+  The template for a specific project's page. [Learn more](#project-page-template) or [View live example]({{ site.baseurl }}/what-we-deliver/fec-gov/).
+* **Blog post template**
+
+  Template for an individual blog post. [Learn more](#blog-post-template) or [View live example]({{ site.baseurl }}/2017/03/21/nasa-journey-with-us-web-design-standards/).
 
 ---
 

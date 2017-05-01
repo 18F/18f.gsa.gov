@@ -44,3 +44,5 @@ Custom plugin name | Description
 [matching_posts.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#match_posts) | creates a `match_posts` filter that creates a list of posts belonging to a specific author.
 [team.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation](http://localhost:4000/site/styleguide/images/#adding-a-photo-of-an-18f-team-member).
 [utility.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#filters) | A list of Liquid filters that can be used for a variety of purposes: `clip_char`, `hash_link`, `matches_url`, `debug`, `find_collection`, `where_obj`, `in_groups`, and `weighted_sort`.
+
+

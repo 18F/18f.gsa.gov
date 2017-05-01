@@ -4,9 +4,9 @@ subpage: Components
 permalink: /styleguide/components/
 parent_permalink: /styleguide/
 subnav_items:
-- text: Heading 1
-  permalink: /styleguide/components/#heading-1
-- text: Heading Two
+- text: Heading one
+  permalink: /styleguide/components/#heading-one
+- text: Heading two
   permalink: /styleguide/components/#heading-two
 ---
 
@@ -129,14 +129,13 @@ Each project card has a number of properties. The only required properties are:
 ### Sticky subnavigation
 
 
-The sticky subnavigation is a pattern that is used frequently throughout the site to make larger bodies of content easier to navigate.
+The sticky subnavigation is a pattern that is used frequently throughout the site to make larger bodies of content easier to navigate. The [About page]({{ site.baseurl }}/about/) is good example of the sticky subnavigation in the live site.
 
 #### What is it?
 
-The sticky subnavigation:
-* is a secondary navigation field that exists on the left side of a page, adjacent to a corresponding field of content.
-* is "sticky", which means that its [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position) isn't absolute or static, but is both, depending on the user's location on the page.
-* provides a sense of location by updating the active section of content that the user is viewing.
+* A secondary navigation field that exists on the left side of a page, adjacent to a corresponding field of content.
+* It is "sticky", which means that its [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position) isn't absolute or static, but is both, depending on the user's location on the page.
+* It provides a sense of location by updating the active section of content that the user is viewing.
 
 ---
 
@@ -176,9 +175,9 @@ There are a few classes that we are using for the sticky subnavigation on the 18
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
   ```yml
   subnav_items:
-    - text: Heading 1
-      permalink: /styleguide/sticky-subnavigation/#heading-1
-    - text: Heading Two
+    - text: Heading one
+      permalink: /styleguide/sticky-subnavigation/#heading-one
+    - text: Heading two
       permalink: /styleguide/sticky-subnavigation/#heading-two
   ```
 {% endcapture %}
