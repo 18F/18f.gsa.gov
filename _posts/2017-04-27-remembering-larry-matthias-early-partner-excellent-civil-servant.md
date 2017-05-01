@@ -1,7 +1,7 @@
 ---
 title: "Remembering Larry Mathias, an early partner and excellent civil servant"
 authors:
-- nick
+- brethauer
 - kaitlin
 - josh
 tags:
