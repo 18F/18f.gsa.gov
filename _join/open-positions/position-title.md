@@ -3,7 +3,6 @@ title: Open position
 permalink: /join/product-engineer/
 layout: primary
 lead: Product Engineer
-position_title: Product Engineer
 app_close_date:
 subnav_title: Product Engineer
 subnav_items:

@@ -4,7 +4,7 @@
 
 <h3>Open positions</h3>
   {% for position in open_positions %}
-<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.position_title | default: position.title }}</a>
+<a class="usa-button" href="{{ site.baseurl }}{{ position.permalink }}">{{ position.subnav_title | default: position.title }}</a>
   {% endfor %}
   {% else %}
 <h4>We don’t have any open positions right now.</h4>

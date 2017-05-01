@@ -12,13 +12,6 @@ subnav_items:
 
 ### Buttons
 
-#### Anatomy
-<section class="usa-grid">
-  <img src='{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png'
-       class='usa-width-one-third'
-       alt='Image of the dimensions and padding of a button on the 18F site' />
-</section>
-
 {% capture styleguide_buttons %}
 #### Style on white
 <section class="usa-grid">
@@ -153,9 +146,9 @@ The sticky subnavigation:
     {% include navigation.html subnav=true %}
   </aside>
   <section class="usa-width-two-thirds">
-    <h3 id="heading-1">Heading 1</h3>
+    <h3 id="heading-one">Heading one</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h3 id="heading-two">Heading Two</h3>
+    <h3 id="heading-two">Heading two</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -164,9 +157,16 @@ The sticky subnavigation:
 {% endraw %}{% endcapture %}
 
 {% capture sticky_description %}
-#### U.S. Web Design Standards
 
-There are a few components that we are using to generate the sticky subnavigation:
+#### How to use
+
+1. Add the classes `sticky` and `sticky-subnav` to the element that you want to be sticky.
+2. Make sure that [sticky.js]({{ site.baseurl }}/assets/js/sticky.js) is included in the page. If you are working on the 18F site, it is included on every page by default.
+3. Make sure that the element that is receiving `position: sticky` is a child of an element with a greater height. If it is not, it will never appear to be stuck.
+
+#### Use of the standards
+
+There are a few classes that we are using for the sticky subnavigation on the 18F site:
 
 * The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the standards, but does contain slight overrides to better fit with the 18F Brand.
 * The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.

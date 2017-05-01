@@ -1,7 +1,7 @@
 ---
 title: 18F UI style guide
 permalink: /styleguide/
-subpage: Introduction
+subpage: Overview
 ---
 
 ### This is the user interface (UI) style guide for [18f.gsa.gov](18f.gsa.gov).
