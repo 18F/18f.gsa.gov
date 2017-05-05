@@ -1,7 +1,7 @@
 ---
 title: 18F UI style guide
-subpage: Using Jekyll
-permalink: /styleguide/using-jekyll/
+subpage: For developers
+permalink: /styleguide/for-developers/
 ---
 
 [18f.gsa.gov](https://18f.gsa.gov), and many 18F websites deployed to [Federalist](federalist.fr.cloud.gov) use [Jekyll](https://jekyllrb.com/) to build static, maintainable websites.
@@ -31,18 +31,16 @@ Plugin gem | Description
 ---
 
 ### Custom plugins
-18f.gsa.gov uses many [custom plugins](https://github.com/18F/18f.gsa.gov/tree/master/_plugins) for more specific site needs:
+18f.gsa.gov uses many [custom plugins]({{ github_url_master }}/_plugins) for more specific site needs:
 
 Custom plugin name | Description
 --- | ---
-[author.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author.rb) | creates two filters, [`lookup`](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#lookup) and [`team_link`](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_link).
-[author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author_data.rb) | Creates an [API](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#authordata) for using data pertaining to authors throughout the site.
+[author.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author.rb) | creates two filters, [`lookup`]({{ github_url_master }}/_plugins#lookup) and [`team_link`]({{ github_url_master }}/_plugins#team_link).
+[author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author_data.rb) | Creates an [API]({{ github_url_master }}/_plugins#authordata) for using data pertaining to authors throughout the site.
 [update_author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/update_author_data.rb) | Uses the AuthorData API to update the list of published authors. This will happen automatically every time the site builds.
-[embed.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#embed) | legacy filter for embedding content within the site. The current approach is to use an [OEmbed plugin]({{ site.basurl }}/styleguide/oembeds/).
-[liquify.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#liquify) | liquid parser.
-[markdown.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#markdown-rendering) | markdown parser.
-[matching_posts.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#match_posts) | creates a `match_posts` filter that creates a list of posts belonging to a specific author.
-[team.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation](http://localhost:4000/site/styleguide/images/#adding-a-photo-of-an-18f-team-member).
-[utility.rb](https://github.com/18F/18f.gsa.gov/tree/master/_plugins#filters) | A list of Liquid filters that can be used for a variety of purposes: `clip_char`, `hash_link`, `matches_url`, `debug`, `find_collection`, `where_obj`, `in_groups`, and `weighted_sort`.
-
-
+[embed.rb]({{ github_url_master }}/_plugins#embed) | legacy filter for embedding content within the site. The current approach is to use an [OEmbed plugin]({{ site.basurl }}/styleguide/oembeds/).
+[liquify.rb]({{ github_url_master }}/_plugins#liquify) | liquid parser.
+[markdown.rb]({{ github_url_master }}/_plugins#markdown-rendering) | markdown parser.
+[matching_posts.rb]({{ github_url_master }}/_plugins#match_posts) | creates a `match_posts` filter that creates a list of posts belonging to a specific author.
+[team.rb]({{ github_url_master }}/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation]({{ site.baseurl }}/styleguide/images/#adding-a-photo-of-an-18f-team-member).
+[utility.rb]({{ github_url_master }}/_plugins#filters) | A list of Liquid filters that can be used for a variety of purposes: `clip_char`, `hash_link`, `matches_url`, `debug`, `find_collection`, `where_obj`, `in_groups`, and `weighted_sort`.

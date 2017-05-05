@@ -81,16 +81,17 @@ nav_items:
         permalink: /styleguide/blog/#images-with-captions
       - text: Adding a team photo
         permalink: /styleguide/blog/#adding-a-team-photo
-  - text: Using Jekyll
-    permalink: /styleguide/using-jekyll/
+  - text: For developers
+    permalink: /styleguide/for-developers/
     children:
       - text: Plugin gems
-        permalink: /styleguide/using-jekyll/#plugin-gems
+        permalink: /styleguide/for-developers/#plugin-gems
       - text: Custom plugins
-        permalink: /styleguide/using-jekyll/#custom-plugins
+        permalink: /styleguide/for-developers/#custom-plugins
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+{% assign github_url_master = "https://github.com/18F/18f.gsa.gov/blob/master/" %}
 
 <section class="background-gray usa-section styleguide-header-wrapper">
   <a href="{{ site.baseurl }}/styleguide/">
