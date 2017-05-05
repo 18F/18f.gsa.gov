@@ -42,5 +42,5 @@ Custom plugin name | Description
 [liquify.rb]({{ github_url_master }}/_plugins#liquify) | liquid parser.
 [markdown.rb]({{ github_url_master }}/_plugins#markdown-rendering) | markdown parser.
 [matching_posts.rb]({{ github_url_master }}/_plugins#match_posts) | creates a `match_posts` filter that creates a list of posts belonging to a specific author.
-[team.rb]({{ github_url_master }}/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation](http://localhost:4000/site/styleguide/images/#adding-a-photo-of-an-18f-team-member).
+[team.rb]({{ github_url_master }}/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation]({{ site.baseurl }}/styleguide/images/#adding-a-photo-of-an-18f-team-member).
 [utility.rb]({{ github_url_master }}/_plugins#filters) | A list of Liquid filters that can be used for a variety of purposes: `clip_char`, `hash_link`, `matches_url`, `debug`, `find_collection`, `where_obj`, `in_groups`, and `weighted_sort`.
