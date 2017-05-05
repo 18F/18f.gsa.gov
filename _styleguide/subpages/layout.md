@@ -98,3 +98,46 @@ Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pu
 [`usa-grid-reversed`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | This class can be used to alternate the order that content appears in mobile vs desktop screen widths.
 `content-wide` | In the Standards, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://standards.usa.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
 `content-focus` | When the the grid needs to be wider, `content-wide` is used and the content width is controlled by using partial grid layouts.
+
+---
+
+### Sidebar
+
+This attribute is found in the [contact]({{ site.baseurl }}/contact) and [project pages]({{ site.baseurl }}/what-we-deliver/federalist/) on the 18F site. This feature provides at-a-glance information.
+
+{% capture sidebar %}{% raw %}
+<div class="usa-grid-full usa-grid-reversed">
+  <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+    <ul>
+      <li class="section-info-list-item">
+        <div class="section-info-header">Section header</div>
+        <p>Supporting subheader</p>
+      </li>
+      <li class="section-info-list-item">
+        <div class="section-info-header">List of helpful reference links</div>
+        <ul>
+          <li>link to agency 1: <a href="">agency1.gov</a></li>
+          <li>link to more info: <a href="">More info</a></li>
+          <li>Twitter: <a href="">@agency</a></li>
+          <li>GitHub: <a href="">link to repo</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+  <div class="usa-grid usa-section usa-width-two-thirds">
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+{% endraw %}{% endcapture %}
+
+{% capture sidebar_description %}
+- The sidebar should be placed first in the HTML before the main content on the left.
+- In the `<aside>` tag we use the `usa-grid-reversed-right` class. This class reverses the order in which the HTML is displayed so that the content that would normally appear on the left will appear on the right instead. The order is not reversed in mobile.
+
+{% endcapture %}
+{% include details-code.html
+   title='sidebar'
+   description=sidebar_description
+   content=sidebar
+%}
