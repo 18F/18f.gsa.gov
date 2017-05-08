@@ -137,15 +137,39 @@ Example:
 
 ### [markdown.rb](markdown.rb)
 
-This file allows us to use markdown syntax highlighting within a Markdown Block.
+This file allows us to render blocks of markdown outside of the normal render cycle.
 
 Example usage:
 
-<code>
+
 ```markdown
-  ### Example header
+{% markdown %}
+### Example header
+{% endmarkdown %}
+
+Example within a table:
+
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        {% markdown %}
+        List:
+        * Item 1
+        * Item 2
+        {% endmarkdown %}
+      </td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
 ```
-</code>
 
 
 ## Classes and Modules

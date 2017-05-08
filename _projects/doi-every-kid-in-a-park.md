@@ -2,6 +2,7 @@
 agency: Department of the Interior
 title: Every Kid in a Park
 subtitle: Designing for every user
+permalink: /what-we-deliver/every-kid-in-a-park/
 redirect_from: /project/every-kid-in-a-park/
 excerpt: We helped the Department of the Interior reach fourth graders and help kids discover public lands through the Every Kid in a Park program.
 image: /assets/img/home/hero-ekiap.jpg
