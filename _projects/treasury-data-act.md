@@ -8,7 +8,7 @@ excerpt: We worked with Treasury to implement the Digital Accountability and Tra
 image: /assets/img/projects/data-act-better-data.jpg
 image_accessibility: "Data Act logo alongside the words Better Data"
 image_icon:
-project_weight: 2
+project_weight: 4
 tag: data act
 expiration_date:
 github_repo:

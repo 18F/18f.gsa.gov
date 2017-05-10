@@ -8,7 +8,7 @@ excerpt: The Wage and Hour Division wanted to use more modern software developme
 image: 
 image_accessibility: 
 image_icon: folderwithclock.svg
-project_weight: 2
+project_weight: 3
 tag: department of labor
 expiration_date:
 github_repo: https://github.com/18F/dol-whd-14c

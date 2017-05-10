@@ -8,6 +8,7 @@ redirect_from: /project/every-kid-in-a-park/
 excerpt: We helped the Department of the Interior reach fourth graders and help kids discover public lands through the Every Kid in a Park program.
 image: /assets/img/home/hero-ekiap.jpg
 image_accessibility: Children proudly showing their national park badges
+project_weight: 2
 tag: every kid in a park
 expiration_date:
 github_repo: https://github.com/18F/ekip-api
