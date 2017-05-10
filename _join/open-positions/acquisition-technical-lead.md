@@ -69,8 +69,8 @@ As a Technology Transformation Service (TTS) Office of Acquisition (OA) technica
 
 ## Sound like a good fit?
 
-{% include button-listing.html grade="13" %}
-{% include button-listing.html grade="14" %}
-{% include button-listing.html grade="15" %}
+{% include button-listing.html role="acquisition" grade="13" %}
+{% include button-listing.html role="acquisition" grade="14" %}
+{% include button-listing.html role="acquisition" grade="15" %}
 
 [Learn more about GS levels](https://18f.gsa.gov/join/#government-pay-grades).
