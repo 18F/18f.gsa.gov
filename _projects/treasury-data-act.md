@@ -12,7 +12,8 @@ project_weight: 4
 tag: data act
 expiration_date:
 github_repo:
-project_url: "[Federal Spending Transparency collaboration space](https://pages.18f.gov/fedspendingtransparency.github.io/index.html)"
+resources: "[Federal Spending Transparency collaboration space](https://pages.18f.gov/fedspendingtransparency.github.io/index.html)"
+project_url: "[beta.usaspending.gov](https://beta.usaspending.gov/#/)"
 ---
 
 The U.S. federal government spends $3.8 trillion every year, which is managed by the U.S. Department of the Treasury. For most people, it’s difficult to know exactly where that money goes.
