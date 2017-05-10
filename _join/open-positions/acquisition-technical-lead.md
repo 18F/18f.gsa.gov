@@ -1,6 +1,6 @@
 ---
 title: Technical Lead Performance Profile
-permalink: /join/product-engineer/
+permalink: /join/acquisition-technical-lead/
 layout: default-intro
 lead: Office of Acquisitions
 position_title: Technical Lead
