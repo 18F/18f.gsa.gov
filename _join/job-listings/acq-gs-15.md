@@ -42,7 +42,7 @@ This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical s
 
 As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. The position involves access to personally identifiable information (PII) data.
 
-**Key Requirements: **
+**Key Requirements:**
 
 ​1. You must be a U.S. Citizen or National.
 
@@ -68,11 +68,15 @@ Typical duties for the fellow include, but are not limited to:
 
 -   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles;
 
--   Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges;
+-   Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
 
 ## Qualifications
 
 Qualifications are based on length and level of experience. Therefore, in addition to describing duties performed, applicants must provide the exact dates of each period of employment (from month/year to month/year) and the number of hours per week if part time. Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
+
+The GS-15 base salary range starts at $103,672 per year. Salary will be determined once the location has been established.  Generally, first time appointees to Federal civilian service have their salary set at the beginning rate of the grade for which they are selected; unless prior approval has been received to adjust the salary based on superior qualifications of the applicant.
+
+This position can be virtual.  Location will be negotiable after selection is completed. Salary will be determined once the location has been established.
 
 **Applicants applying for this job must meet the following requirements:**
 

@@ -66,11 +66,15 @@ Typical duties for the fellow include, but are not limited to:
 
 -   Developing authoritative papers/reports; developing and leading adoption of government­-wide standards for digital services, leading to their adoption across citizen and business­ facing government services;
 
--   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles; and
+-   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles.
 
 ## Qualifications
 
 Qualifications are based on length and level of experience. Therefore, in addition to describing duties performed, applicants must provide the exact dates of each period of employment (from month/year to month/year) and the number of hours per week if part time. Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
+
+The GS-14 base salary range starts at $88,136 per year. Salary will be determined once the location has been established.  Generally, first time appointees to Federal civilian service have their salary set at the beginning rate of the grade for which they are selected; unless prior approval has been received to adjust the salary based on superior qualifications of the applicant.
+
+This position can be virtual.  Location will be negotiable after selection is completed. Salary will be determined once the location has been established.
 
 **Applicants applying for this job must meet the following requirements:**
 

@@ -63,11 +63,15 @@ Typical duties for the fellow include, but are not limited to:
 
 -   Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the GSA at technical symposia and/or conferences;
 
--   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles
+-   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles.
 
 ## Qualifications
 
 Qualifications are based on length and level of experience. Therefore, in addition to describing duties performed, applicants must provide the exact dates of each period of employment (from month/year to month/year) and the number of hours per week if part time. Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
+
+The GS-13 base salary range starts at $74,584 per year. Salary will be determined once the location has been established.  Generally, first time appointees to Federal civilian service have their salary set at the beginning rate of the grade for which they are selected; unless prior approval has been received to adjust the salary based on superior qualifications of the applicant.
+
+This position can be virtual.  Location will be negotiable after selection is completed. Salary will be determined once the location has been established.
 
 **Applicants applying for this job must meet the following requirements:**
 
