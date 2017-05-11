@@ -16,7 +16,7 @@ Before launching the TTS Bug Bounty program, we issued the [TTS vulnerability di
 
 ## What is a “bug bounty” program?
 
-Bug bounty programs have been operated by private companies since as early as 1983, with technology companies recognizing the enthusiasm of people who were fixing bugs and developing workarounds on their own. From the very beginning, these programs had a simple concept, and one that has stood the test of time: reward independent researchers for software bugs they discover, giving the owners time to fix them them before they’re made public.
+Bug bounty programs have been operated by private companies since as early as 1983, with technology companies recognizing the enthusiasm of people who were fixing bugs and developing workarounds on their own. From the very beginning, these programs had a simple concept, and one that has stood the test of time: reward independent researchers for software bugs they discover, giving the owners time to fix them before they’re made public.
 
 For a number of years, few companies operated bug bounties, but the idea has come into its own since 2010, when the most well-known tech giants began to adopt it and launch bug bounty programs of their own. Today, hundreds of companies have requirements similar to ours, with most using one of the major commercial bug bounty providers, and a handful running their own bounty programs.
 
