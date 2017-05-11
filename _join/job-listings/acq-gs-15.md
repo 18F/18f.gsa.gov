@@ -32,7 +32,7 @@ listed: false
 
 **Series & Grade:** 0301-15
 
-**Opening and closing period for this job application:** TKTKTK
+**Opening and closing period for this job application:** May 11, 2017 through May 17, 2017
 
 **Who may apply:** All United States citizens and nationals (residents of American Samoa and Swains Islands)
 
