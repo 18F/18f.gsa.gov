@@ -4,9 +4,9 @@ permalink: /join/position-description/acquisition/gs-15/
 layout: default-intro
 lead: GSA Excepted Service position description
 position_title: GS-15
-app_close_date:
-sub_parent_title:
-sub_parent_permalink:
+app_close_date: May 19, 2017
+sub_parent_title: Acquisition technical lead
+sub_parent_permalink: /join/acquisition-technical-lead/
 breadcrumb: true
 published: true
 listed: false
@@ -32,7 +32,7 @@ listed: false
 
 **Series & Grade:** 0301-15
 
-**Opening and closing period for this job application:** May 11, 2017 through May 17, 2017
+**Opening and closing period for this job application:** May 15, 2017 through May 19, 2017
 
 **Who may apply:** All United States citizens and nationals (residents of American Samoa and Swains Islands)
 
