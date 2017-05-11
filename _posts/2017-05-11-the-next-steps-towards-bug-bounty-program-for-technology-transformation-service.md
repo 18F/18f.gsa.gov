@@ -5,8 +5,7 @@ authors:
 - waldo-jaquith
 - eric
 tags:
-- technology transformation services
-- our projects
+- technology transformation service
 - security
 excerpt: "With bug bounties becoming an established industry-wide best practice, it’s important for us to establish our own. With the results we receive from the TTS Bug Bounty, we look forward to establishing a permanent program that involves most — if not all — TTS-owned websites and web applications."
 image:
