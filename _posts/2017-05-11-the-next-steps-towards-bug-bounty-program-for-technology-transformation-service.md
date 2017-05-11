@@ -22,7 +22,7 @@ For a number of years, few companies operated bug bounties, but the idea has com
 
 ## How will the TTS Bug Bounty be structured?
 
-Draft solicitation documents to hire a private vendor to operate the buy bounty program were posted for review and comment on January 23. We used these drafts to gather input from experts from the private sector, as well as within government, and used the feedback to develop our final [solicitation documents](https://github.com/18F/tts-buy-bug-bounty). Now that we’ve issued an award, HackerOne will work with us to set up bug bounties for several TTS public-facing web applications.
+Draft solicitation documents to hire a private vendor to operate the bug bounty program were posted for review and comment on January 23. We used these drafts to gather input from experts from the private sector, as well as within government, and used the feedback to develop our final [solicitation documents](https://github.com/18F/tts-buy-bug-bounty). Now that we’ve issued an award, HackerOne will work with us to set up bug bounties for several TTS public-facing web applications.
 
 Upon receipt of a bug report, HackerOne will triage submissions first, determining both the validity and severity of the reported bug. Valid bugs will be sent to TTS and the appropriate team in charge of the web application will correct the issue. Anyone from a high school student with an interest in coding to a major security research firm with hundreds of employees can look for bugs and, if successful in their hunt, obtain a payout ranging from $300 to $5,000.
 
