@@ -20,7 +20,7 @@ image:
 If there are two areas in government that would make the biggest splash
 in terms of innovation, you could make a strong argument for federal
 acquisitions and human resources. Recognizing this fact, the Office of
-Federal Procurement Policy (OFPP) [released a memorandum](https://www.whitehouse.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs) today that
+Federal Procurement Policy (OFPP) [released a memorandum](https://obamawhitehouse.archives.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs) today that
 encourages agencies across the federal government to pursue innovative
 approaches to acquiring goods and services. Given the growing importance
 of digital acquisitions, OFPP is also launching a Digital Acquisitions
@@ -58,14 +58,14 @@ improvement:
 Noticing these gaps, a team of [18F](https://18f.gsa.gov/), [Presidential Innovation Fellows](http://pif.gov),
 and [United
 States Digital Services
-(USDS)](https://www.whitehouse.gov/digital/united-states-digital-service)
+(USDS)](https://obamawhitehouse.archives.gov/digital/united-states-digital-service)
 team members are launching the Digital Acquisitions Pilot aimed at
 solving the deficiencies in acquisitions involving digital services and
 products. Using federal acquisitions as the backdrop, this pilot program
 has been designed to increase skills, change processes and policies, and
 increase collaboration with innovative partners.
 
-This pilot was jointly announced with an [OFPP memorandum](https://www.whitehouse.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs) that
+This pilot was jointly announced with an [OFPP memorandum](https://obamawhitehouse.archives.gov/blog/2016/03/09/fostering-culture-innovation-across-government-through-acquisition-innovation-labs) that
 establishes Acquisition Innovation Labs (AILs) at 24 agencies as a
 mechanism for achieving better acquisition outcomes for taxpayers. The
 memo places special emphasis on the development of digital acquisition
@@ -113,7 +113,7 @@ phenomenon. In August 2014 on the heels of the announcement of the
 launch of the USDS, the White House Office of Science Technology Policy
 and OMB released [Innovative
 Contracting Case
-Studies](http://www.whitehouse.gov/sites/default/files/microsites/ostp/innovative_contracting_case_studies_2014_-_august.pdf),
+Studies](http://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/innovative_contracting_case_studies_2014_-_august.pdf),
 an iterative, evolving document that describes ways federal agencies are
 getting more innovation per taxpayer dollar — all under existing laws
 and regulations.

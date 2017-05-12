@@ -19,7 +19,7 @@ Let us count the ways.
 
 This Valentine’s Day, we’re sharing some love from the Standards, which include a library of open source UI components and a visual style guide for U.S. federal government websites.
 
-These tools — and these Valentine’s Day cards — follow industry-standard web accessibility guidelines and use the best practices of existing style libraries and modern web design. Created and maintained by [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service) and [18F](https://18f.gsa.gov/) designers and developers, the Draft Web Design Standards are designed for use by government product teams who want to create beautiful, easy-to-use online experiences for the public.
+These tools — and these Valentine’s Day cards — follow industry-standard web accessibility guidelines and use the best practices of existing style libraries and modern web design. Created and maintained by [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service) and [18F](https://18f.gsa.gov/) designers and developers, the Draft Web Design Standards are designed for use by government product teams who want to create beautiful, easy-to-use online experiences for the public.
 
 So spread a little love this Valentine’s Day...because nothing says “I love you” like sharing our Draft U.S. Web Design Standards cards.
 

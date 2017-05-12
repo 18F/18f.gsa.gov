@@ -22,15 +22,15 @@ projects that they're passionate about. You can think of it as
 time."
 
 The concept of an [Innovation
-Toolkit](https://www.whitehouse.gov/innovationfellows/projects) started
+Toolkit](https://obamawhitehouse.archives.gov/innovationfellows/projects) started
 as a [Presidential Innovation
-Fellows](https://www.whitehouse.gov/innovationfellows) project to give
+Fellows](https://obamawhitehouse.archives.gov/innovationfellows) project to give
 federal employees a place to work on innovative ideas across government
 that may occur outside their normal job or management chain. The
 [Department of State's Office of
 eDiplomacy](http://www.state.gov/m/irm/ediplomacy/) teamed up with [The
 White House Office of Science and Technology
-Policy](https://www.whitehouse.gov/administration/eop/ostp) to prototype
+Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp) to prototype
 a crowdsourced marketplace for innovation.
 
 The history of Midas
@@ -105,7 +105,7 @@ Services](http://www.hhs.gov/idealab/i-want-support/for-hhs-2/)
 also a key component of the Office of Personnel Management's
 [GovConnect](https://www.chcoc.gov/transmittals/TransmittalDetails.aspx?TransmittalID=6076)
 initiative, which is part of the [President's Second Term Management
-Agenda](https://www.whitehouse.gov/blog/2013/07/08/smarter-more-innovative-government-american-people).
+Agenda](https://obamawhitehouse.archives.gov/blog/2013/07/08/smarter-more-innovative-government-american-people).
 Through GovConnect, agencies can experiment, prototype, and implement
 new workforce engagement programs, like Midas.
 

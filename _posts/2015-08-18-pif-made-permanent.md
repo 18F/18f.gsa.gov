@@ -95,7 +95,7 @@ health providers around the country, insurance companies, and labs.
 To date, the Presidential Innovation Fellows have played key roles in
 establishing both [18F](https://18f.gsa.gov/), an innovative consulting
 and agile delivery team, and the [United States Digital
-Services](https://www.whitehouse.gov/digital/united-states-digital-service),
+Services](https://obamawhitehouse.archives.gov/digital/united-states-digital-service),
 a team built to improve the infrastructure and user experience around
 some of the most important services. All are working to reinvent the
 transactions that affect us in our everyday lives, such as accessing

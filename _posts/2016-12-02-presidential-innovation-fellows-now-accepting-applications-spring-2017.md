@@ -36,7 +36,7 @@ If you want to spend a year having a positive impact on how the
 government serves the public, apply to be a Presidential Innovation
 Fellow. Applications for the Spring 2017 cohort are **due by 11:59 p.m.
 EST on December 11, 2016**. Find out more about [why you should
-apply](https://www.whitehouse.gov/blog/2016/11/18/presidential-innovation-fellows-applications-open-come-serve-pif-spring-2017-cohort),
+apply](https://obamawhitehouse.archives.gov/blog/2016/11/18/presidential-innovation-fellows-applications-open-come-serve-pif-spring-2017-cohort),
 see past [fellows](https://presidentialinnovationfellows.gov/fellows)
 and [projects](https://presidentialinnovationfellows.gov/projects),
 and [submit your application](https://apply.pif.gov/). We look forward

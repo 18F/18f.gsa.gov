@@ -80,7 +80,7 @@ our goals by:
 -   Preserving privacy by mitigating privacy risks and adhering to all federal privacy guidelines
 
 President Obama’s [Cybersecurity National Action
-Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan)
+Plan](https://obamawhitehouse.archives.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan)
 calls for, among other things, an initiative to empower Americans to
 secure their online accounts by shifting from just passwords to
 easy-to-use multi-factor authentication so they can further safeguard

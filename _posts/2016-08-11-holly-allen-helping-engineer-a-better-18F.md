@@ -37,7 +37,7 @@ to address big societal problems, I got really inspired.
 **MK: How did you find out about 18F?**
 
 **HA:** Through my alumni network. [Megan
-Smith](https://www.whitehouse.gov/administration/eop/ostp/about/leadershipstaff/smith),
+Smith](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith),
 the Chief Technology Officer of the United States, and I went to same
 college and when she became CTO, a story about that came through the MIT
 alumni network channels. In the same article, it said that former CTO

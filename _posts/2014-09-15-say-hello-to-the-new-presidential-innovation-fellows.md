@@ -35,9 +35,9 @@ Fellows last week. We're excited to welcome them into the 18F family.
 blog.](https://gsablogs.gsa.gov/gsablog/2014/09/15/welcoming-the-third-class-of-presidential-innovation-fellows/)
 
 [Meet the 27
-Fellows.](https://www.whitehouse.gov/innovationfellows/meet-the-fellows)
+Fellows.](https://obamawhitehouse.archives.gov/innovationfellows/meet-the-fellows)
 
 [Read more about the
-projects](https://www.whitehouse.gov/innovationfellows/projects) that
+projects](https://obamawhitehouse.archives.gov/innovationfellows/projects) that
 make up these initiatives, and the previous successes the program has
 helped shape.
