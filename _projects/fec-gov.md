@@ -7,7 +7,7 @@ redirect_from: /project/fec-gov/
 excerpt: We helped the Federal Election Commission make it easier for journalists and members of the public to use their data.
 image: /assets/img/home/hero-fec.png
 image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.
-project_weight: 1
+project_weight: 5
 tag: fec.gov
 expiration_date:
 github_repo: https://github.com/18F/openFEC-web-app
