@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: Federalist
 subtitle: A platform for publishing static government websites

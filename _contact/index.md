@@ -1,7 +1,7 @@
 ---
 title: Hire 18F
 permalink: /contact/
-layout: default-intro
+layout: primary
 lead: Let’s work together to design services that empower your team, better serve the public, and tackle the big problems facing your agency.
 ---
 

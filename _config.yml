@@ -65,7 +65,7 @@ defaults:
   scope:
     path: "pages"
   values:
-    layout: default-intro
+    layout: primary
  -
   scope:
     path: "_authors"
@@ -75,25 +75,30 @@ defaults:
   scope:
     path: "_contact"
   values:
-    layout: default-intro
+    layout: primary
     # include_subnav: true
     subnav_anchor: /contact/
  -
   scope:
     path: "_about"
   values:
-    layout: default-intro
+    layout: primary
     include_subnav: true
     subnav_anchor: /about/
  -
   scope:
     path: "_join"
   values:
-    layout: default-intro
+    layout: primary
     include_subnav: true
     subnav_anchor: /join/
     parent_title: Join 18F
     parent_permalink: /join/
+ -
+  scope:
+    path: "_projects"
+  values:
+    layout: project-page
  -
   scope:
     path: "_styleguide"

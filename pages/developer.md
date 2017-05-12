@@ -1,6 +1,6 @@
 ---
 title: Developer resources
-layout: default-intro
+layout: primary
 permalink: /developer/
 redirect_from: /developers/
 ---

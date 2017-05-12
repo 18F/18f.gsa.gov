@@ -1,7 +1,7 @@
 ---
 title: Linking policy
 permalink: /linking-policy/
-layout: default-intro
+layout: primary
 lead:
 ---
 

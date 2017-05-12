@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of the Interior
 title: Every Kid in a Park
 subtitle: Designing for every user

@@ -4,20 +4,13 @@ subpage: Components
 permalink: /styleguide/components/
 parent_permalink: /styleguide/
 subnav_items:
-- text: Heading 1
-  permalink: /styleguide/components/#heading-1
-- text: Heading Two
+- text: Heading one
+  permalink: /styleguide/components/#heading-one
+- text: Heading two
   permalink: /styleguide/components/#heading-two
 ---
 
 ### Buttons
-
-#### Anatomy
-<section class="usa-grid">
-  <img src='{{ site.baseurl }}/assets/img/styleguide/button-anatomy.png'
-       class='usa-width-one-third'
-       alt='Image of the dimensions and padding of a button on the 18F site' />
-</section>
 
 {% capture styleguide_buttons %}
 #### Style on white
@@ -55,7 +48,7 @@ subnav_items:
 
 ### Breadcrumbs
 
-The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `default-intro` layout by default, but can be added to any layout or custom page as needed.
+The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `primary` layout by default, but can be added to any layout or custom page as needed.
 
 {% capture styleguide_breadcrumb %}{% raw %}
 #### Specifying all attributes
@@ -81,7 +74,7 @@ The breadcrumb include requires a few attributes to make it appear properly. The
 * `page_title`: Title of the page as it should appear on the breadcrumb
 * `background_class`: The CSS class of the breadcrumb background color. It defaults to no background color
 
-If the breadcrumb is being used as part of the `default-intro` layout, make sure to set `breadcrumb: true` in the page front matter.
+If the breadcrumb is being used as part of the `primary` layout, make sure to set `breadcrumb: true` in the page front matter.
 The breadcrumb is included automatically on `project-tag-results` layout.
 
 For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/docs/includes/).
@@ -136,14 +129,13 @@ Each project card has a number of properties. The only required properties are:
 ### Sticky subnavigation
 
 
-The sticky subnavigation is a pattern that is used frequently throughout the site to make larger bodies of content easier to navigate.
+The sticky subnavigation is a pattern that is used frequently throughout the site to make larger bodies of content easier to navigate. The [About page]({{ site.baseurl }}/about/) is good example of the sticky subnavigation in the live site.
 
 #### What is it?
 
-The sticky subnavigation:
-* is a secondary navigation field that exists on the left side of a page, adjacent to a corresponding field of content.
-* is "sticky", which means that its [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position) isn't absolute or static, but is both, depending on the user's location on the page.
-* provides a sense of location by updating the active section of content that the user is viewing.
+* A secondary navigation field that exists on the left side of a page, adjacent to a corresponding field of content.
+* It is "sticky", which means that its [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position) isn't absolute or static, but is both, depending on the user's location on the page.
+* It provides a sense of location by updating the active section of content that the user is viewing.
 
 ---
 
@@ -153,9 +145,9 @@ The sticky subnavigation:
     {% include navigation.html subnav=true %}
   </aside>
   <section class="usa-width-two-thirds">
-    <h3 id="heading-1">Heading 1</h3>
+    <h3 id="heading-one">Heading one</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h3 id="heading-two">Heading Two</h3>
+    <h3 id="heading-two">Heading two</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -164,9 +156,16 @@ The sticky subnavigation:
 {% endraw %}{% endcapture %}
 
 {% capture sticky_description %}
-#### U.S. Web Design Standards
 
-There are a few components that we are using to generate the sticky subnavigation:
+#### How to use
+
+1. Add the classes `sticky` and `sticky-subnav` to the element that you want to be sticky.
+2. Make sure that [sticky.js]({{ site.baseurl }}/assets/js/sticky.js) is included in the page. If you are working on the 18F site, it is included on every page by default.
+3. Make sure that the element that is receiving `position: sticky` is a child of an element with a greater height. If it is not, it will never appear to be stuck.
+
+#### Use of the standards
+
+There are a few classes that we are using for the sticky subnavigation on the 18F site:
 
 * The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the standards, but does contain slight overrides to better fit with the 18F Brand.
 * The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
@@ -176,9 +175,9 @@ There are a few components that we are using to generate the sticky subnavigatio
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
   ```yml
   subnav_items:
-    - text: Heading 1
-      permalink: /styleguide/sticky-subnavigation/#heading-1
-    - text: Heading Two
+    - text: Heading one
+      permalink: /styleguide/sticky-subnavigation/#heading-one
+    - text: Heading two
       permalink: /styleguide/sticky-subnavigation/#heading-two
   ```
 {% endcapture %}
@@ -188,48 +187,5 @@ To add items to the subnavigation define the subnavigation items directly within
    content=sticky_codeblock
    lang="html"
    description=sticky_description
-%}
-
----
-
-### Right-aligned lists
-
-This attribute is found in the [contact]({{ site.baseurl }}/contact) and [project pages]({{ site.baseurl }}/what-we-deliver/federalist/) on the 18F site. This feature provides at-a-glance information.
-
-{% capture right_aligned_list %}{% raw %}
-<div class="usa-grid-full usa-grid-reversed">
-  <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
-    <ul>
-      <li class="section-info-list-item">
-        <div class="section-info-header">Section header</div>
-        <p>Supporting subheader</p>
-      </li>
-      <li class="section-info-list-item">
-        <div class="section-info-header">List of helpful reference links</div>
-        <ul>
-          <li>link to agency 1: <a href="">agency1.gov</a></li>
-          <li>link to more info: <a href="">More info</a></li>
-          <li>Twitter: <a href="">@agency</a></li>
-          <li>GitHub: <a href="">link to repo</a></li>
-        </ul>
-      </li>
-    </ul>
-  </aside>
-  <div class="usa-grid usa-section usa-width-two-thirds">
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-</div>
-{% endraw %}{% endcapture %}
-
-{% capture right_list_description %}
-- The right aligned list should be placed first in the HTML before the main content on the left.
-- In the `<aside>` tag we use the `usa-grid-reversed-right` class. This class reverses the order in which the HTML is displayed so that the content that would normally appear on the left will appear on the right instead. The order is not reversed in mobile.
-
-{% endcapture %}
-{% include details-code.html
-   title='right-list'
-   description=right_list_description
-   content=right_aligned_list
 %}
 

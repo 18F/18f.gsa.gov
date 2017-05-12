@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of Homeland Security
 title: myUSCIS immigration resources
 subtitle: Humanizing the process of becoming a citizen
