@@ -1,6 +1,5 @@
 <!-- project intros go in the _projects folder, with the following filename format: agency-project.md -->
 ---
-layout: project-tag-results
 agency: Agency name
 title: Fewer than 30 characters
 subtitle: 20-40 characters
@@ -10,6 +9,8 @@ image: 1300x866px
 image_accessibility: Description of image for screenreaders.
 tag: blog tag
 expiration_date:
+published: false
+<!-- Sidebar data -->
 github_repo: if there is one
 project_url: "[Page name](url)"
 project_weight: 2 (the higher number the higher on the What we deliver landing page)
@@ -23,7 +24,7 @@ resources:
 - "[Page name](url)"
 - "[Page name](url)"
 quote:
-published: false
+
 ---
 
 Intro sentences or paragraphs.

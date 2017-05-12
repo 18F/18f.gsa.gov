@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of Education
 title: College Scorecard
 subtitle: Turning data into informed choices

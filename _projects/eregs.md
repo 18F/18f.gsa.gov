@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: eRegulations
 subtitle: Making regulations easier to read
@@ -8,7 +7,7 @@ redirect_from: /project/eregulations/
 excerpt: We've worked with several agencies to adapt an open-source tool that makes regulations easier to find, read, and understand.
 image:
 image_accessibility:
-image_icon: 
+image_icon:
 tag: eregulations
 expiration_date:
 github_repo:

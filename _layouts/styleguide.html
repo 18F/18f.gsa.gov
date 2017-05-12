@@ -2,10 +2,23 @@
 layout: default
 title: 18F UI Styleguide
 nav_items:
-  - text: Introduction
+  - text: Overview
     permalink: /styleguide/
-  - text: Layout
-    permalink: /styleguide/layout/
+  - text: Layouts
+    permalink: /styleguide/layouts/
+    children:
+      - text: Templates
+        permalink: /styleguide/layouts/#templates
+      - text: Primary template
+        permalink: /styleguide/layouts/#primary-template
+      - text: Project page template
+        permalink: /styleguide/layouts/#project-page-template
+      - text: Blog post template
+        permalink: /styleguide/layouts/#blog-post-template
+      - text: Grid
+        permalink: /styleguide/layouts/#grid
+      - text: Sidebar
+        permalink: /styleguide/layouts/#sidebar
   - text: Typography
     permalink: /styleguide/typography/
     children:
@@ -48,37 +61,30 @@ nav_items:
         permalink: /styleguide/components/#project-cards
       - text: Sticky subnavigation
         permalink: /styleguide/components/#sticky-subnavigation
-      - text: Right aligned lists
-        permalink: /styleguide/components/#right-aligned-lists
-  - text: Blog
-    permalink: /styleguide/blog/
+  - text: Blog components
+    permalink: /styleguide/blog-components/
     children:
       - text: Post previews
-        permalink: /styleguide/blog/#post-previews
+        permalink: /styleguide/blog-components/#post-previews
       - text: Blog tags
-        permalink: /styleguide/blog/#blog-tags
+        permalink: /styleguide/blog-components/#blog-tags
       - text: Blockquotes
-        permalink: /styleguide/blog/#blockquotes
+        permalink: /styleguide/blog-components/#blockquotes
       - text: Embeds
-        permalink: /styleguide/blog/#embeds
-      - text: Hero images
-        permalink: /styleguide/blog/#hero-images
-      - text: Images without captions
-        permalink: /styleguide/blog/#images-without-captions
-      - text: Images with captions
-        permalink: /styleguide/blog/#images-with-captions
-      - text: Adding a team photo
-        permalink: /styleguide/blog/#adding-a-team-photo
-  - text: Using Jekyll
-    permalink: /styleguide/using-jekyll/
+        permalink: /styleguide/blog-components/#embeds
+      - text: Images
+        permalink: /styleguide/blog-components/#images
+  - text: For developers
+    permalink: /styleguide/for-developers/
     children:
       - text: Plugin gems
-        permalink: /styleguide/using-jekyll/#plugin-gems
+        permalink: /styleguide/for-developers/#plugin-gems
       - text: Custom plugins
-        permalink: /styleguide/using-jekyll/#custom-plugins
+        permalink: /styleguide/for-developers/#custom-plugins
 ---
 
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
+{% assign github_url_master = "https://github.com/18F/18f.gsa.gov/blob/master/" %}
 
 <section class="background-gray usa-section styleguide-header-wrapper">
   <a href="{{ site.baseurl }}/styleguide/">

@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Health and Human Services
 title: State and local procurement
 subtitle: Helping states update crucial systems

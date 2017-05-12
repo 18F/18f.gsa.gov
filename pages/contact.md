@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: /contact/
-layout: default-intro
+layout: primary
 content_wide: true
 image: /assets/img/page-feature/join.jpg
 redirect_from: /hire/

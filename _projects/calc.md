@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: General Services Administration
 title: CALC tool
 subtitle: Better tools for better research

@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of the Treasury
 title: DATA Act
 subtitle: Opening up federal spending

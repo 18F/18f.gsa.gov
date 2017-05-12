@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: U.S. Navy Reserve
 title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve

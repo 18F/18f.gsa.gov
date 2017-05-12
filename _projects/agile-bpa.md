@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: Agile BPA
 subtitle: Streamlining software procurement

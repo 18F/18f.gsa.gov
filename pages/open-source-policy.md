@@ -1,7 +1,7 @@
 ---
 title: Open source policy
 permalink: /open-source-policy/
-layout: default-intro
+layout: primary
 lead:
 ---
 
