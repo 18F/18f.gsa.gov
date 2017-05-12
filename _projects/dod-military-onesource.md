@@ -9,7 +9,7 @@ image:
 image_accessibility: 
 image_icon: monitor.svg
 project_weight: 2
-tag: false
+tag: military
 expiration_date:
 github_repo:
 project_url: "[Beta Military OneSource website](http://beta.militaryonesource.mil)"
