@@ -43,7 +43,7 @@ turn enables them to deliver services faster. In this post, we’re going
 to explain more about what this means — and if you’re part of a team
 interested in using cloud.gov, [we’d like to hear from you](https://cloud.gov/#contact)!
 
-## What is cloud.gov?
+## What is cloud.gov? 
 
 cloud.gov gives federal agencies a fast and easy way to host and update
 websites (and other web applications, such as APIs), so their employees
@@ -193,3 +193,4 @@ If you’re part of a vendor or contractor interested in using cloud.gov,
 ask your agency partners to evaluate this option.
 
 For press inquiries, email [press@gsa.gov](mailto:press@gsa.gov).
+
