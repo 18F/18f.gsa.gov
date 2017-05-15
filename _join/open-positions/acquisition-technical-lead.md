@@ -4,6 +4,7 @@ permalink: /join/acquisition-technical-lead/
 layout: primary
 lead: Office of Acquisitions
 position_title: Technical Lead
+description: As a Technology Transformation Service (TTS) Office of Acquisition (OA) technical lead, you’ll need to possess excellent judgment, technical skills, and an unflinching belief that federal procurement can not only be efficient, but joyful, too.
 app_close_date:
 subnav_title: Technical Lead
 subnav_items:
