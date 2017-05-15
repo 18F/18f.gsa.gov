@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Office of the Secretary of Defense
 title: Military OneSource
 subtitle: Supporting military personnel and their families

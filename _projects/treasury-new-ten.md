@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of the Treasury
 title: The New Ten
 subtitle: Shaping the story of the New Ten

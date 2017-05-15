@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: cloud.gov
 subtitle: Doing more with less
