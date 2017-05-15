@@ -37,7 +37,7 @@ As a Technology Transformation Service (TTS) Office of Acquisition (OA) technica
 
 **Objective \#2: You will promote the adoption of modern technology practices through research, teaching, coaching, and knowledge sharing, and will contribute high-quality, well-tested, maintainable code using those same practices.**
 
--   Reinforce TTS’s “[*the way we work” values*](https://18f.gsa.gov/open-source-policy/) (building in the open, using open source, and so on.)
+-   Reinforce TTS’s [“the way we work” values](https://18f.gsa.gov/open-source-policy/) (building in the open, using open source, and so on.)
 
 -   Explore new tools and methodologies, and share the lessons you learn with teammates.
 
