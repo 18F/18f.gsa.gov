@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: Micro-purchase Marketplace
 subtitle: An marketplace for open source tasks

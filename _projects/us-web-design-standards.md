@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency:
 title: U.S. Web Design Standards
 subtitle: A design library for government developers

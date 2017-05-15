@@ -1,7 +1,7 @@
 ---
 title: Technical Lead Performance Profile
 permalink: /join/acquisition-technical-lead/
-layout: default-intro
+layout: primary
 lead: Office of Acquisitions
 position_title: Technical Lead
 app_close_date:

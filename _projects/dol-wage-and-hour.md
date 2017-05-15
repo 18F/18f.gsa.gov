@@ -1,5 +1,4 @@
 ---
-layout: project-tag-results
 agency: Department of Labor
 title: Wage and Hour Division
 subtitle: Becoming a digital-first agency
