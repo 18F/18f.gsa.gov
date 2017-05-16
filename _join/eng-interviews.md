@@ -1,7 +1,7 @@
 ---
 title: 18F Engineering Team interview process
 permalink: /join/eng-interviews/
-layout: default-intro
+layout: primary
 lead: Details on 18F's engineering interview process
 subnav_items:
   - text: Technical take-home assignment

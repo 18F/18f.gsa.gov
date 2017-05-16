@@ -1,7 +1,7 @@
 ---
 title: Product Manager Performance Profile
 permalink: /join/product-manager/
-layout: default-intro
+layout: primary
 lead: Product Manager
 position_title: Product Manager
 app_close_date:
