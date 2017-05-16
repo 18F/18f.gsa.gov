@@ -172,13 +172,9 @@ To learn more, please consult the following resources:
 
 ## Instructions for Submitting Resumes:
 
-All resumes must be submitted through the GSA Innovation Specialist Job Application (link below in next section). Please fill out all applicable fields.
-
-## GSA Innovation Specialist Application:
-
-<https://18f.gsa.gov/join/apply/>
-
-If applicable, please only submit all Veteran’s documentation to Jacqueline Coleman &lt;<jacqueline.coleman@gsa.gov>&gt;. Please subjec the email “Veteran’s documentation for Job Announcement 1700262JCDE”
+All resumes must be submitted through the GSA Innovation Specialist Job Application (link below). Please fill out all applicable fields.
+  		  
+If applicable, please only submit all Veteran’s documentation to Jacqueline Coleman at jacqueline.coleman@gsa.gov. Please use “Veteran’s documentation for Job Announcement 1700263BHDE” as the subject of the email.
 
 ## Contact
 
