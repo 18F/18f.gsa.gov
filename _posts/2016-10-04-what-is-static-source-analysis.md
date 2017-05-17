@@ -105,21 +105,21 @@ Consider some code that describes your daily activities, by day of the
 week and time of day. It might look something like this:
 
 ```
-If it is Monday…
+If it is Monday...
   If it is morning...
     Eat breakfast
     Take a shower
     Go to work
-If it is noon...
-  Eat lunch
-  Go for a walk
-If it is five o’clock...
-  Go to the gym
-  Workout
-  Go home
-  Eat dinner
-If it is 11 o’clock...
-  Go to sleep
+  If it is noon...
+    Eat lunch
+    Go for a walk
+  If it is five o’clock...
+    Go to the gym
+    Workout
+    Go home
+    Eat dinner
+  If it is 11 o’clock...
+    Go to sleep
 ```
 
 While the full math around cyclomatic complexity is a bit hairy, *there
