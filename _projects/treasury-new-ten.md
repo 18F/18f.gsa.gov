@@ -30,7 +30,7 @@ find the information they needed and include a clear call to action to
 encourage people to share their thoughts on the New Ten.
 
 <div class="small-caps">Approach</div>
-### Crafting a comprehensive digital strategy**
+### Crafting a comprehensive digital strategy
 
 Our team started by learning more about the project’s context and users.
 Using this knowledge, they crafted a digital strategy to maximize the
