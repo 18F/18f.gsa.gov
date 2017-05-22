@@ -1,26 +1,33 @@
 ---
-title: Technical Lead Performance Profile
+title: Performance profile
 permalink: /join/acquisition-technical-lead/
 layout: primary
-lead: Office of Acquisitions
+lead: Office of Acquisitions Technical Lead
 position_title: Innovation Specialist — Technical Lead
-description: As a Technology Transformation Service (TTS) Office of Acquisition (OA) technical lead, you’ll need to possess excellent judgment, technical skills, and an unflinching belief that federal procurement can not only be efficient, but joyful, too.
+description: As a Technology Transformation Service (TTS) Office of Acquisition technical lead, you’ll need to possess excellent judgment, technical skills, and an unflinching belief that federal procurement can not only be efficient, but joyful, too.
 app_close_date:
-subnav_title: Technical Lead
+subnav_title: About the role
 subnav_items:
   - text: Position summary
     permalink: /#position-summary
   - text: Key objectives
     permalink: /#key-objectives
+  - text: Application links
+    permalink: /#sound-like-a-good-fit
 breadcrumb: true
 published: false
 listed: false
 ---
-## Position summary
+
+## Innovation Specialist - Technical Lead
+
+### Position summary
 
 As a Technology Transformation Service (TTS) Office of Acquisition technical lead, you’ll need to possess excellent judgment, technical skills, and an unflinching belief that federal procurement can not only be efficient, but joyful, too. You will contribute to our team and help our agency partners in three main ways: first, by helping teams (internal and partner agencies) support digital services through their procurement efforts; second, by investigating other agencies’ tools and processes and finding ways to improve both; and third, by working with a cross-functional team to identify, prototype, acquire, and build goods and services for TTS and our partner agencies. Applicants don’t need to have previous federal acquisition experience, but such experience would definitely be helpful for this role. Good humor and empathy are key requirements.
 
-## Key Objectives
+-----
+
+### Key objectives
 
 **Objective \#1: You will help make the government a better customer by providing technical advice related to how we buy and support digital services.**
 
