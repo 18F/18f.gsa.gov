@@ -13,8 +13,8 @@ subnav_items:
   - text: Key objectives
     permalink: /#key-objectives
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
 ## Position summary
 
