@@ -2,13 +2,33 @@
 title: Innovation Specialist
 permalink: /join/position-description/acquisition/gs-15/
 layout: primary
-lead: GSA Excepted Service position description
+lead: Office of Acquisitions Technical Lead, GS-15
 position_title: GS-15
 app_close_date: May 19, 2017
-sub_parent_title: Acquisition technical lead
+sub_parent_title: About the role
 sub_parent_permalink: /join/acquisition-technical-lead/
+subnav_title: Job description - GS-15
+subnav_items:
+  - text: Basic information
+    permalink: /#basic-information
+  - text: Summary
+    permalink: /#summary
+  - text: Duties
+    permalink: /#duties
+  - text: Qualifications
+    permalink: /#qualifications
+  - text: Evaluation
+    permalink: /#evaluation
+  - text: Benefits
+    permalink: /#benefits
+  - text: Policies
+    permalink: /#policies
+  - text: Veterans’ Preference
+    permalink: /#veterans-preference
+  - text: Instructions for applying
+    permalink: /#instructions-for-submitting-resumes
 breadcrumb: true
-published: true
+published: false
 listed: false
 ---
 
@@ -45,13 +65,9 @@ As an Innovation Specialist, the team member serves the government and makes an 
 **Key Requirements:**
 
 ​1. You must be a U.S. Citizen or National.
-
 2. Suitable for Federal employment, determined by a background investigation.
-
 3. You may be required to serve a trial period.
-
 4. Direct Deposit of salary check to financial organization required.
-
 5. Males born after 12/31/1959 must have registered with the Selective Service​.
 
 ## Duties
@@ -59,15 +75,10 @@ As an Innovation Specialist, the team member serves the government and makes an 
 Typical duties for the fellow include, but are not limited to:
 
 -   Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward thinking design and development principles to product or services development, delivery and program management, such as lean startup, user centered design, and agile development;
-
 -   Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
-
 -   Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
-
 -   Developing authoritative papers/reports; developing and leading adoption of government­-wide standards for digital services, leading to their adoption across citizen and business­ facing government services;
-
 -   Demonstrating thought leadership and contributing best practices in a variety of technologies and principles;
-
 -   Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
 
 ## Qualifications
@@ -122,16 +133,6 @@ You will be evaluated on your overall possession of the following competencies/k
 
 -   Skill in oral communication to present sensitive recommendations to higher authority to obtain compliance with policies from activities nationwide, to articulate positions/policy of vast technical complexity and to represent the agency on task forces.
 
-## Reasonable Accommodation Policy
-
-Federal agencies must provide reasonable accommodation to applicants with disabilities where appropriate. Applicants requiring reasonable accommodation for any part of the application and hiring process should contact the hiring agency directly. Determinations on requests for reasonable accommodation will be made on a case-by-case basis.
-
-To learn more, please consult the following resources:
-
--   [Disability Employment - Reasonable Accommodations (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)
-
--   [How to contact an agency](https://www.usajobs.gov/Help/how-to/application/agency/contact/)
-
 ## Benefits
 
 GSA has been repeatedly named as one of the 'Best Place\[s\] to Work' in the federal government.
@@ -152,6 +153,25 @@ GSA offers its employees a wide range of benefits, including:
 
 -   training and development
 
+## Policies
+
+### Reasonable Accommodation Policy
+
+Federal agencies must provide reasonable accommodation to applicants with disabilities where appropriate. Applicants requiring reasonable accommodation for any part of the application and hiring process should contact the hiring agency directly. Determinations on requests for reasonable accommodation will be made on a case-by-case basis.
+
+To learn more, please consult the following resources:
+
+-   [Disability Employment - Reasonable Accommodations (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)
+-   [How to contact an agency](https://www.usajobs.gov/Help/how-to/application/agency/contact/)
+
+### Equal Employment Opportunity Policy
+
+The United States Government does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor.
+
+-   [Equal Employment Opportunity (EEO) office at OPM](https://www.opm.gov/about-us/our-people-organization/support-functions/equal-employment-opportunity/)
+-   [Office of Equal Opportunity](http://www.eeoc.gov/eeoc/internal_eeo/index.cfm)
+
+
 ## Veteran’s Preference
 
 Veterans who served on active duty in the U.S. Armed Forces and were separated under honorable conditions may be eligible for veterans’ preference. When claiming preference, veterans must provide a copy of their DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation.
@@ -163,39 +183,25 @@ Veterans’ preference does not apply to positions in the Senior Executive Servi
 To learn more, please consult the following resources:
 
 -   [Feds Hire Vets](http://www.fedshirevets.gov/)
-
 -   [Veterans’ Preference Advisor](http://webapps.dol.gov/elaws/vets/vetpref/choice.htm)
-
 -   [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)
-
 -   [Veterans Employment Initiative (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/)
 
-## Instructions for Submitting Resumes:
+
+## How to apply
 
 All resumes must be submitted through the GSA Innovation Specialist Job Application (link below). Please fill out all applicable fields.
   		  
-If applicable, please only submit all Veteran’s documentation to Jacqueline Coleman at jacqueline.coleman@gsa.gov. Please use “Veteran’s documentation for Job Announcement 1700263BHDE” as the subject of the email.
+If applicable, please *only* submit all veteran's documentation to Jacqueline Coleman at [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700262JCDE.
+
+<section class="usa-grid-full" id="gs-14-apply">
+  <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/join/apply/">Start your application</a>
+</section>
+
+You can also apply for this position at the GS-13 and GS-14 levels. [Read the GS-13 position description here]({{site.baseurl}}/join/position-description/gs-13/). And [read the GS-14 position description here.]({{site.baseurl}}/join/position-description/gs-14/)
+
+---
 
 ## Contact
 
 If you have any questions about this job opportunity, please email Esther Chang at <join18F@gsa.gov>
-
-## Equal Employment Opportunity Policy
-
-The United States Government does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor.
-
-## To learn more, please consult the following resources:
-
--   [Equal Employment Opportunity (EEO) office at OPM](https://www.opm.gov/about-us/our-people-organization/support-functions/equal-employment-opportunity/)
-
--   [Office of Equal Opportunity](http://www.eeoc.gov/eeoc/internal_eeo/index.cfm)
-
-### Ready to apply?
-
-<section class="usa-grid-full" id="gs-14-apply">
-  <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/join/apply/">Click here to start your application!</a>
-</section>
-
-If applicable, please *only* submit all veteran's documentation to Jacqueline Coleman at [jacqueline.coleman@gsa.gov](mailto:jacqueline.coleman@gsa.gov). In the subject line of your email put: Veteran’s Documentation for 1700262JCDE.
-
-You can also apply for this position at the GS-13 and GS-14 levels. [Read the GS-13 position description here]({{site.baseurl}}/join/position-description/gs-13/). And [read the GS-14 position description here.]({{site.baseurl}}/join/position-description/gs-14/)
