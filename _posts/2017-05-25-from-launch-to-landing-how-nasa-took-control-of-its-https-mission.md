@@ -6,7 +6,7 @@ tags:
 - https
 - security
 excerpt: "In 2015, the White House Office of Management and Budget released M-15-13, a \"Policy to Require Secure Connections across Federal Websites and Web Services\" the memo emphasizes the importance of protecting the privacy and security of the public's browsing activities on teh web. This is a guest post by Karim Said of NASA who was instrumental in NASA's successful HTTPS and HSTS migration."
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/nasa-https/pshtt-code.png
 ---
 
 (This is a guest post by Karim Said of NASA. Karim was instrumental in NASA’s successful HTTPS and HSTS migration, and we’re happy to help Karim share the lessons NASA learned from that process.)
