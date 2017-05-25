@@ -1,5 +1,5 @@
 ---
-title: "From Launch to Landing: How NASA Took Control of its HTTPS Mission"
+title: "From launch to landing: How NASA took control of its HTTPS mission"
 authors:
 - karim-said
 tags:
@@ -9,7 +9,7 @@ excerpt: "In 2015, the White House Office of Management and Budget released M-15
 image: /assets/blog/nasa-https/pshtt-code.png
 ---
 
-(This is a guest post by Karim Said of NASA. Karim was instrumental in NASA’s successful HTTPS and HSTS migration, and we’re happy to help Karim share the lessons NASA learned from that process.)
+_Editor's note: This is a guest post by Karim Said of NASA. Karim was instrumental in NASA’s successful HTTPS and HSTS migration, and we’re happy to help Karim share the lessons NASA learned from that process._
 
 In 2015, the White House Office of Management and Budget released [M-15-13](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf), a "Policy to Require Secure Connections across Federal Websites and Web Services". The memorandum emphasizes the importance of protecting the privacy and security of the public's browsing activities on the web, and sets a goal to bring all federal websites and services to a consistent standard of enforcing HTTPS and HSTS.
 
@@ -21,7 +21,7 @@ Moving to full HTTPS deployment for NASA represented a significant challenge. We
 
 However, by May 2017, after several months of working through these challenges, NASA was able to reach over a 95 percent compliance rate.
 
-NASA's success hinged on a few key aspects, all rooted in clear (and frequent) communication and teamwork. What follows are some of our strategies and "lessons learned".
+NASA's success hinged on a few key aspects, all rooted in clear (and frequent) communication and teamwork. What follows are some of our strategies and lessons that we learned.
 
 ## Leadership buy-in
 
@@ -53,7 +53,7 @@ To address the entire community, the agency core team stood up multiple communic
 * A weekly meeting for center representatives to discuss progress and voice any pressing questions and concerns. Systems administrators would often also phone into these meetings if there were technical issues that were pertinent to the larger community.
 * Targeted group meetings with systems administrator teams, center representatives, the agency core team, and occasionally vendor technical support. These meetings occasionally would result in vendor teams taking actions to develop remediation plans for their products; as these vendors were often serving multiple federal agencies, the impact could be significant and of broader benefit than just to NASA.
 
-One pertinent "lesson learned": The core team underestimated the volume of communication through the "hotline" mailing list, as well as the similarity of discussion across multiple disparate threads (there was lots of text snippet cut-and-pasting). Moving forward, as the agency shifts focus to non-public networks, use of chat channels and more dynamic platforms for communication may be more useful.
+One pertinent lesson: The core team underestimated the volume of communication through the "hotline" mailing list, as well as the similarity of discussion across multiple disparate threads (there was lots of text snippet cut-and-pasting). Moving forward, as the agency shifts focus to non-public networks, use of chat channels and more dynamic platforms for communication may be more useful.
 
 ## Tool and reporting consistency
 
