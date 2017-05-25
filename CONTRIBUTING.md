@@ -7,6 +7,8 @@ This document is about how to contribute to the 18f.gsa.gov site. This process l
     - [Standards and benchmarks](#standards-and-benchmarks)
 * [Public domain](#public-domain)
 
+No matter who you are, if you spot an error, omission, or bug, you're welcome to open an issue in this repo!
+
 ## Public contributions
 
 We're so glad you're thinking about contributing to an 18F open source project! If you're unsure about anything, just [send us an email](mailto:18f@gsa.gov) with your question — or submit the issue or pull request anyway. The worst that can happen is you'll be politely asked to change something. We love all friendly contributions.
