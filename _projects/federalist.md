@@ -6,7 +6,7 @@ permalink: /what-we-deliver/federalist/
 excerpt: We created Federalist to help agencies build websites quickly and focus on content instead of compliance.
 image: /assets/img/projects/federalist-background-blue.jpg
 image_accessibility: "Abstract image of the Federalist Papers in bluescale"
-project_weight: 2
+project_weight: 3
 tag: federalist
 expiration_date:
 github_repo: https://github.com/18F/federalist

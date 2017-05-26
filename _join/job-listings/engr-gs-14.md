@@ -1,7 +1,7 @@
 ---
 title: Innovation Specialist
 permalink: /join/position-description/gs-14/
-layout: default-intro
+layout: primary
 lead: GSA Excepted Service position description
 position_title: GS-14
 app_close_date:

@@ -1,7 +1,7 @@
 ---
 title: Backend Software Engineer Performance Profile
 permalink: /join/backend-software-engineer/
-layout: default-intro
+layout: primary
 lead: Backend Software Engineer
 position_title: Backend Software Engineer
 app_close_date:

@@ -51,7 +51,7 @@ GEM
     html-pipeline (2.5.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (3.4.0)
+    html-proofer (3.6.0)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colored (~> 1.2)
@@ -195,7 +195,7 @@ DEPENDENCIES
   chromedriver-helper
   codeclimate-test-reporter (~> 1.0.0)
   colorize
-  html-proofer
+  html-proofer (~> 3.6.0)
   jekyll (~> 3.3.0)
   jekyll-archives!
   jekyll-feed
@@ -220,4 +220,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.7
+   1.14.6
