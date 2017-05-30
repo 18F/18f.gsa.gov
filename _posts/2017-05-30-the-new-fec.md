@@ -5,7 +5,6 @@ authors:
 tags:
 - fec.gov
 - agency work
--
 excerpt: "Today, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data."
 image: /assets/blog/fec/0-herofec.png
 image_figcaption: "The previous and new FEC website designs"
