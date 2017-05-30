@@ -34,7 +34,7 @@ When the [U.S. Web Design Standards](https://standards.usa.gov/) launched, we st
 
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/fec/1-oldfec.png" alt="An image of the new and previous FEC website navigation systems">
-  <figcaption>The new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site, the old FEC.gov presented users with over ten different top-level navigation elements.</figcaption>
+  <figcaption>The new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site. The old FEC.gov presented users with over ten different top-level navigation elements.</figcaption>
 </figure>
 
 The campaign finance data section has grown since the initial beta launch to include even more datasets — like the ability to get all raw data from electronic filings as soon as it comes in, right alongside processed data — and we redesigned major features like the candidate and committee profile pages based on user feedback. 
