@@ -2,6 +2,7 @@
 title: "The new FEC.gov"
 authors:
 - manger
+- jthibault
 tags:
 - fec.gov
 - agency work
