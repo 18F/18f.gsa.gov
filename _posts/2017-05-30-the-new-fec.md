@@ -5,12 +5,12 @@ authors:
 tags:
 - fec.gov
 - agency work
-excerpt: "Today, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data."
+excerpt: "Last week, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data."
 image: /assets/blog/fec/0-herofec.png
 image_figcaption: "The previous and new FEC website designs"
 ---
 
-Today, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data. It provides user-centered content for understanding the reporting and compliance requirements for people participating in federal elections, redesigned tools for exploring legal resources, and more. 
+Last week, the Federal Election Commission (FEC) unveiled their new website at [FEC.gov](https://www.fec.gov/). This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data. It provides user-centered content for understanding the reporting and compliance requirements for people participating in federal elections, redesigned tools for exploring legal resources, and more. 
 
 ## Why it matters
 
@@ -34,7 +34,7 @@ When the [U.S. Web Design Standards](https://standards.usa.gov/) launched, we st
 
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/fec/1-oldfec.png" alt="An image of the new and previous FEC website navigation systems">
-  <figcaption>The old FEC.gov presented users with over ten different top-level navigation elements, the new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site.</figcaption>
+  <figcaption>The new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site, the old FEC.gov presented users with over ten different top-level navigation elements.</figcaption>
 </figure>
 
 The campaign finance data section has grown since the initial beta launch to include even more datasets — like the ability to get all raw data from electronic filings as soon as it comes in, right alongside processed data — and we redesigned major features like the candidate and committee profile pages based on user feedback. 
@@ -56,10 +56,10 @@ The help for candidates and committees section unifies content that previously l
 
 <figure>
   <img src="{{ site.baseurl }}/assets/blog/fec/4-candidatehelp.png" alt="An image of the new content structure in the Help for candidate and committees section">
-  <figcaption>The new Help for candidates and committees section brings together content that previously lived in many parts of the site, and groups it by type of committee.</figcaption>
+  <figcaption>"The new Help for candidates and committees section brings together content that previously lived in many parts of the site, and groups it by type of committee."</figcaption>
 </figure>
 
-Under the hood, the entire thing runs on cloud.gov, resulting in cost-savings of over $1.2 million a year, and providing a secure infrastructure that’s easy to deploy and scale to meet demand.
+Under the hood, the entire thing runs on [cloud.gov](https://cloud.gov/), resulting in cost-savings of over $1.2 million a year, and providing a secure infrastructure that’s easy to deploy and scale to meet demand.
 
 ## What’s next
 
@@ -83,5 +83,5 @@ There are also several major new features we’ll still be working on, including
 
 Meanwhile, we know that change is hard, and a massive change like this carries a lot of risk. That’s why the entire old experience will continue to be available at [classic.fec.gov](http://classic.fec.gov). That way, users who are used to the old way of navigating will be able to have a fallback in case they need it.
 
-There’s still a lot to do and we will continue working with our partners to ensure that this new FEC.gov meets user needs. We're eager to get feedback from real users and are listening by [email](mailto:webmanager@fec.gov) and on [Github](https://github.com/18f/fec). But we crossed a major milestone this week, and so to our partners, our users, and everyone who helped along the way, all we can say is thank you. 
+There’s still a lot to do and we will continue working with our partners to ensure that this new FEC.gov meets user needs. We're eager to get feedback from real users and are listening by [email](mailto:webmanager@fec.gov) and on [GitHub](https://github.com/18f/fec). But we crossed a major milestone last week, and so to our partners, our users, and everyone who helped along the way, all we can say is thank you. 
 
