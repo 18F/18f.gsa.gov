@@ -1,5 +1,5 @@
 ---
-title: "Federalist is out of beta and open for business!"
+title: "Federalist is out of beta and open for business"
 authors:
 - will
 - jonathanhooper
@@ -21,4 +21,4 @@ It shouldn't be that way.
 
 We believe federal web content specialists shouldn’t have to also be information security experts. That’s why we built Federalist on cloud.gov, a FedRAMP Authorized platform from GSA, that adheres to FISMA requirements and is monitored and maintained by us. We have customers at Treasury, Interior, Education, and the National Science Foundation running sites with rich content and intricate data visualizations. Here at GSA, we run more than 60 sites on Federalist. We like it so much we even use it to run 18F’s [own website](https://18f.gsa.gov/2016/05/18/why-were-moving-18f-gsa-gov-to-federalist/).
 
-If you want to know more, contact us at f[ederalist-inquiries@gsa.gov](mailto:federalist-inquiries@gsa.gov) or visit Federalist’s [documentation site](https://federalist-docs.18f.gov/). 
+If you want to know more, contact us at [federalist-inquiries@gsa.gov](mailto:federalist-inquiries@gsa.gov) or visit Federalist’s [documentation site](https://federalist-docs.18f.gov/). 
