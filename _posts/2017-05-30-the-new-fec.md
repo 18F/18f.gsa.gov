@@ -7,7 +7,7 @@ tags:
 - fec.gov
 - agency work
 excerpt: "Last week, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data."
-image: /assets/blog/fec/0-herofec.png
+image: /assets/blog/fec/0-herofecbig.png
 image_figcaption: "The previous and new FEC website designs"
 ---
 
@@ -34,7 +34,7 @@ The first thing most visitors familiar with the old FEC.gov will notice is the c
 When the [U.S. Web Design Standards](https://standards.usa.gov/) launched, we started using their components with the new FEC styles — even contributing back to the project as a use case for research on how to use the Standards with your own styles. Since the site is responsive, it looks great no matter what device you’re using. And whereas the old FEC.gov presented users with over ten different top-level navigation elements, the new FEC.gov reduces the primary navigation to three main items to reflect the three primary focus areas that users need when coming to the site. 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/1-oldfec.png" alt="An image of the new and previous FEC website navigation systems">
+  <img src="{{ site.baseurl }}/assets/blog/fec/1-fecnavs.png" alt="An image of the new and previous FEC website navigation systems">
   <figcaption>The new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site. The old FEC.gov presented users with over ten different top-level navigation elements.</figcaption>
 </figure>
 
