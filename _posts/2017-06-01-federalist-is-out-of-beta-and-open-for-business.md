@@ -15,7 +15,7 @@ If you're a program manager or a federal web developer you've probably been give
 
 It shouldn't be that way.
 
-[Federalist](https://18f.gsa.gov/what-we-deliver/federalist/) allows you to simplify. In one package, we provide [a trusted, FedRAMP authorized platform](https://cloud.gov/) for hosting your site with flexibility to scale and security compliance built in. On top of the technical advantages, we also provide some basic templates built to meet Section 508 standards, and a guide to help you shape your content. All of this lets you focus on designing the content and structure of your site and leave the rest to us.
+[Federalist](https://18f.gsa.gov/what-we-deliver/federalist/) allows you to simplify. In one package, built on [a trusted, FedRAMP authorized platform](https://cloud.gov/), we provide a hosting solution for your site with flexibility to scale and security compliance built in. On top of the technical advantages, we also provide some basic templates built to meet Section 508 standards, and a guide to help you shape your content. All of this lets you focus on designing the content and structure of your site and leave the rest to us.
 
 [Accessing Federalist](https://federalist.18f.gov) is straightforward. Our team will demo Federalist in a meeting and you’ll be able to spin up your own test, non-production site as part of evaluating how Federalist works. As soon as you sign an inter-agency agreement with GSA, you get unlimited access to launch sites on Federalist for roughly $2,300 per month. This means, the next time you launch a prototype or site for a new initiative for your organization, you’ve already paid for the platform.
 
