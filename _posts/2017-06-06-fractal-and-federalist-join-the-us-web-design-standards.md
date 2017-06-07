@@ -5,7 +5,7 @@ authors:
 tags:
 - web design standards
 - open source
-excerpt: "We've added two powerful, new tools to the U.S. Web Design Standards development workflow."
+excerpt: "We've added two powerful, new tools to the U.S. Web Design Standards development workflow. Fractal is a development, testing, and documentation tool, and Federalist is an 18F hosting platform that makes it easy to generate previews and simplify our process."
 ---
 
 We've recently added two powerful tools to the [U.S. Web Design Standards](https://standards.usa.gov/) development workflow that allow us to preview, test, and publish the Standards code more quickly and easily.
