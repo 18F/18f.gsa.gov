@@ -42,23 +42,23 @@ When we started, we held workshops with our pilot forests — Mt. Baker-Snoqualm
  
 We based our discovery work on assumptions we heard from Forest Service staff. Below are these assumptions and our findings based on our research.
  
-**Assumption**: It takes a lot of time for Forest Service staff to prepare for, reconcile and report on Christmas tree tag sales. 
-
+#### Assumption: It takes a lot of time for Forest Service staff to prepare for, reconcile and report on Christmas tree tag sales. 
 **Finding**: Confirmed. Based on our observations, we estimate that each frontline supervisor spends 5-8 hours per week on these processes (in addition to the the time they spend selling any Christmas tree permits). Although the public transaction is brief (less than two minutes), the back-end processes are duplicative and time consuming.
  
-**Assumption**: When issuing Christmas tree tags takes a long time, the Forest Service staff involved can’t focus on other worthwhile activities, like public outreach and forest patrol. 
+
+#### Assumption: When issuing Christmas tree tags takes a long time, the Forest Service staff involved can’t focus on other worthwhile activities, like public outreach and forest patrol. 
 
 **Finding**: Confirmed. Forest Service staff in all our interviews spoke about decreased time in the field and time for outreach to surrounding business, which serve visitors.
  
-**Assumption**: People are frustrated with the current hours and availability of Christmas tree permits.
+#### Assumption: People are frustrated with the current hours and availability of Christmas tree permits.
 
 **Finding**: Challenged. We didn’t find much evidence that customers are unhappy with the current hours and availability of Christmas tree permits. That doesn’t mean they wouldn’t like the ability to purchase permits elsewhere at other times; but it’s not a big source of frustration now. The public tend to be more confused about learning the basics of Christmas tree permitting: where they are allowed to cut, where permits can be purchased, etc.
  
-**Assumption**: Christmas tree and outfitter/guide ePermitting are solving different problems. Therefore, we should think of them as two separate projects with two separate visions.
+#### Assumption: Christmas tree and outfitter/guide ePermitting are solving different problems. Therefore, we should think of them as two separate projects with two separate visions.
 
 **Finding**: Challenged. The speed, complexity, inconsistency, and legacy systems of the “back office” processes involved in both the Christmas tree and outfitters/guides frustrate customers. While frustration surfaced quickly in our Christmas tree workshop, similar frustration with the outfitters and guides only surfaced after longer communication. 
  
-**Assumption**: Outfitter/guide permittees don’t feel like they receive good or consistent customer service from the Forest Service.
+#### Assumption: Outfitter/guide permittees don’t feel like they receive good or consistent customer service from the Forest Service.
 
 **Finding**: Challenged. This assumption was partially true. Permittees certainly feel that the process is drastically different from district to district and forest to forest. But they typically don’t feel like that’s the fault of the Forest Service staff they work with. Rather, they feel those staff are trapped within a “ridiculous” system they’re trying hard to implement.
  
