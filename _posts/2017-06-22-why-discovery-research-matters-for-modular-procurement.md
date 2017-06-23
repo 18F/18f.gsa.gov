@@ -12,6 +12,8 @@ tags:
 excerpt: "The Technology Transformation Service (TTS) has been working with the Forest Service since August 2016 on what will eventually be an agency-wide system to process permit applications. TTS is primarily helping the Forest Service hire private vendors for this work, rather than build it ourselves, and one way we’re improving that process is through “discovery research.” "
 ---
 
+*Rebecca and Colin work here at TTS on our Acquisitions team. Aaron Burk is a Senior Project Manager at the Forest Service and the Product Owner for our engagement.
+
 The Technology Transformation Service (TTS) has been working with the Forest Service since August 2016 on what will eventually be an agency-wide system to process permit applications. TTS is primarily helping the Forest Service hire private vendors for this work, rather than build it ourselves, and one way we’re improving that process is through “discovery research.”  
  
 ## What’s discovery research?
