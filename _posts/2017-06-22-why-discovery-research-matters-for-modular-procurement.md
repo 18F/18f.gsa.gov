@@ -3,7 +3,7 @@ title: "Why discovery research matters for modular procurement"
 authors:
 - colinmacarthur
 - rebecca-refoy-sidibe
-- aaronburk
+- aaron-burk
 tags:
 - forest service
 - agile bpa
