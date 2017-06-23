@@ -24,7 +24,7 @@ The Technology Transformation Service (TTS) has been working with the Forest Ser
  
 ## When to start a modular procurement with discovery research
 
-Our engagement with the Forest Service is part of our [Agile Blanket Purchase Agreement (BPA) work,](https://18f.gsa.gov/what-we-deliver/agile-bpa/) but we’ve handled this one a little differently. Instead of jumping straight into buying modules to help the Forest Service with their permitting system, we started with discovery research. We don’t start all our Agile BPA projects this way, but several elements of this project led us to suggest a discovery period:
+Our engagement with the Forest Service is part of our [Agile Blanket Purchase Agreement (BPA) work](https://18f.gsa.gov/what-we-deliver/agile-bpa/), but we’ve handled this one a little differently. Instead of jumping straight into buying modules to help the Forest Service with their permitting system, we started with discovery research. We don’t start all our Agile BPA projects this way, but several elements of this project led us to suggest a discovery period:
  
 - The system was going to serve many different groups of users. It also had to integrate with more than two systems.
 - We walked away from our kickoff workshops with a good sense of the problem, but needed to understand more to pinpoint how our work would fix it.
@@ -33,9 +33,9 @@ Our engagement with the Forest Service is part of our [Agile Blanket Purchase Ag
  
 ## What we did
 
-We started by conducting [interviews](https://github.com/18F/fs-online-permitting/blob/master/docs/round1-findings-reccomendations.pdf) with Forest Service staff who are involved in permitting. We showed them a [prototype](https://github.com/18F/forest-service-prototype) for a particular type of permit, while leaving other conversations wide open. Ultimately, we settled on the permits that allow people to cut down a Christmas tree from a National Forest, because of the simplicity of that permitting process. By way of research, we [observed Christmas tree permitting in action](https://github.com/18F/fs-online-permitting/blob/master/docs/christmas-tree-permitting-options.pdf) at two forests and talked to people obtaining Christmas trees.
+We started by [conducting interviews with Forest Service staff](https://github.com/18F/fs-online-permitting/blob/master/docs/round1-findings-reccomendations.pdf) who are involved in permitting. We showed them [a prototype for a particular type of permit](https://github.com/18F/forest-service-prototype), while leaving other conversations wide open. Ultimately, we settled on the permits that allow people to cut down a Christmas tree from a National Forest, because of the simplicity of that permitting process. By way of research, we [observed Christmas tree permitting in action](https://github.com/18F/fs-online-permitting/blob/master/docs/christmas-tree-permitting-options.pdf) at two forests and talked to people obtaining Christmas trees.
  
-We focused on “end users,” or people who, as members of the public or the Forest Service, were on the ground using our software. We didn’t ignore higher-level policy makers or experts, but made sure that our work focused on end users. You can read more about our approach in our project’s GitHub [repository](https://github.com/18F/fs-online-permitting/wiki/Introduction). 
+We focused on “end users,” or people who, as members of the public or the Forest Service, were on the ground using our software. We didn’t ignore higher-level policy makers or experts, but made sure that our work focused on end users. You can read more about our approach in [our project’s GitHub repository](https://github.com/18F/fs-online-permitting/wiki/Introduction). 
  
 ## What we found
 When we started, we held workshops with our pilot forests — Mt. Baker-Snoqualmie for special uses and Shoshone, Araphoe-Roosevelt, Mt. Hood, and Flathead National Forests for Christmas trees — to align on the direction of the project. At that time, we understood the permitting problem across all permits to be that the Forest Service was not providing “modern” services to the public to facilitate access and connection to public lands. 
