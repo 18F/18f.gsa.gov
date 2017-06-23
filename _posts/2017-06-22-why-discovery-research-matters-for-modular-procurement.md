@@ -33,7 +33,7 @@ Our engagement with the Forest Service is part of our [Agile Blanket Purchase Ag
  
 ## What we did
 
-We started by conducting [interviews](https://github.com/18F/fs-online-permitting/blob/master/docs/round1-findings-reccomendations.pdf) with Forest Service staff involved in permitting. We showed them a [prototype](https://github.com/18F/forest-service-prototype) for a particular type of permit, while leaving other conversations wide open. We [observed](https://github.com/18F/fs-online-permitting/blob/master/docs/christmas-tree-permitting-options.pdf) Christmas tree permitting in action at two forests and talked to people obtaining Christmas trees. 
+We started by conducting [interviews](https://github.com/18F/fs-online-permitting/blob/master/docs/round1-findings-reccomendations.pdf) with Forest Service staff involved in permitting. We showed them a [prototype](https://github.com/18F/forest-service-prototype) for a particular type of permit, while leaving other conversations wide open. Ultimately, we settled on the permits that allow people to cut down a Christmas tree from a National Forest, because of the simplicity of that permitting process. By way of research, we [observed Christmas tree permitting in action](https://github.com/18F/fs-online-permitting/blob/master/docs/christmas-tree-permitting-options.pdf) at two forests and talked to people obtaining Christmas trees.
  
 We focused on “end users” or people who, as members of the public or the Forest Service, were on the ground using our software. We didn’t ignore higher-level policy makers or experts, but made sure that our work focused on end users. You can read more about our approach in our project’s GitHub [repository](https://github.com/18F/fs-online-permitting/wiki/Introduction). 
  
