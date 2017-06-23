@@ -56,7 +56,7 @@ We based our discovery work on assumptions we heard from Forest Service staff. B
  
 #### Assumption: Christmas tree and outfitter/guide ePermitting are solving different problems. Therefore, we should think of them as two separate projects with two separate visions.
 
-**Finding**: Challenged. The speed, complexity, inconsistency, and legacy systems of the “back office” processes involved in both the Christmas tree and outfitters/guides frustrate customers. While frustration surfaced quickly in our Christmas tree workshop, similar frustration with the outfitters and guides only surfaced after longer communication. 
+**Finding**: Challenged. The speed, complexity, inconsistency, and legacy systems of the “back office” processes involved in permitting for both the Christmas tree and outfitters/guides frustrate customers. While frustration surfaced quickly in our Christmas tree workshop, similar frustration with the outfitters and guides only surfaced after longer communication. 
  
 #### Assumption: Outfitter/guide permittees don’t feel like they receive good or consistent customer service from the Forest Service.
 
