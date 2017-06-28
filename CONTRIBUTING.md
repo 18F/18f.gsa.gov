@@ -26,7 +26,7 @@ There is a team actively working on the site. You can find us in Slack in the #1
 
 ### Branches
 
-Any 18F team member should be able to make a branch of the site and submit a pull request. Doing so will also generate a preview URL we can use to inspect your changes.
+Any 18F team member should be able to make a branch of the site and submit a pull request. Doing so will also generate a preview URL we can use to inspect your changes. Please do not submit a pull request from a fork of the site, because that does not permit us to inspect your changes.
 
 Because new blog posts are published several times a week, we use several branches to manage parallel work in a predictable way:
 
