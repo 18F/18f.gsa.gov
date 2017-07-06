@@ -94,8 +94,7 @@ It can be helpful to start pulling some documents together in advance. The forms
 
 ## Government pay grades
 
-18F team members are hired for specific position descriptions at a specific grade level from the federal general schedule (GS). The GS system is a pay system for civilian employees in the federal government; evaluation and compensation varies by grade level. The qualification requirements for each position at a specific GS level are based on education, background, accomplishments, and experience. The specific requirements will always be listed in the job posting. 
-
+18F team members are hired for specific position descriptions at a specific grade level from the federal general schedule (GS). The GS system is a pay system for civilian employees in the federal government; evaluation and compensation varies by grade level. The qualification requirements for each position at a specific GS level are based on education, background, accomplishments, and experience. The specific requirements will always be listed in the job posting. Salaries of federal employees are public information, and your salary may become publicly available on sites like [FederalPay.org](https://www.federalpay.org/employees).
 
 #### Understanding grade levels
 
