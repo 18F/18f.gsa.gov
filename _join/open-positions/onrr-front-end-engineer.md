@@ -84,7 +84,8 @@ Conduct workshops to identify use cases and promote understanding of the data se
 
 
 **Key Objective #3: You will act as an agent of culture change within ONRR**
-- Participate in or lead (as necessary) an open dialogue within ONRR on implementing modern development standards, including transparency, user-centered design, and agile methodologies. Understand and communicate the "why" of these standards, not just the "what."
+- Participate in or lead (as necessary) an open dialogue within ONRR on implementing modern development standards, including transparency, user-centered design, and agile methodologies. 
+- Demonstrate resilience in the face of bureaucracy. 
 - Push the boundaries of what is possible within ONRR, while maintaining an understanding of the complexities of the organization. Push back against the things that can be pushed back against and take a longer view for the things that can't.
 - Own the vision and keep the team moving through technical leadership. Be an advocate for user-centered design practices. 
 - Be a product advocate and evangelist.
