@@ -78,14 +78,13 @@ The Innovation Design Team will manage the U.S. Extractive Industries Transparen
 
 **Objective #2: You will find and create tools and resources to help ONRR address their data management needs.** 
 - Acquire broad knowledge of the landscape of past and present data management challenges that exist within ONRR. 
-- Recommend existing data-management tools and resources based on ONRR’s unique needs
+- Recommend existing data-management tools and resources based on ONRR’s unique needs.
 - Prototype tools and/or build data management infrastructure for ONRR
 Conduct workshops to identify use cases and promote understanding of the data sets.  
 
 
 **Key Objective #3: You will act as an agent of culture change within ONRR**
 - Participate in or lead (as necessary) an open dialogue within ONRR on implementing modern development standards, including transparency, user-centered design, and agile methodologies. Understand and communicate the "why" of these standards, not just the "what."
-- Demonstrate resilience in the face of bureaucracy. When faced with a hurdle, determine the root cause and address that in addition to the hurdle itself.
 - Push the boundaries of what is possible within ONRR, while maintaining an understanding of the complexities of the organization. Push back against the things that can be pushed back against and take a longer view for the things that can't.
 - Own the vision and keep the team moving through technical leadership. Be an advocate for user-centered design practices. 
 - Be a product advocate and evangelist.
