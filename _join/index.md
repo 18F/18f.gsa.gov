@@ -27,6 +27,13 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
 
+----
+
+18F is currently partnering with other federal agencies to build up digital innovation teams. These are opportunities outside of 18F, within other federal agencies. The positions that are available are listed below. 
+
+**Department of Interior (DOI) Office of Natural Resources Revenue (ONRR)** 
+Please note that US citizenship is required.
+
 {% include open-positions.html %}
 
 ----
