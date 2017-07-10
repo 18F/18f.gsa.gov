@@ -201,3 +201,5 @@ This guide shows how to format a government-style resume and what information to
 > * Relevant professional affiliations (organization name, your years of participation)
 > * Publications (including personal blog posts) (title of published work, month and year of publication)
 > * Training and courses (name of training or course, organization providing the training, MM/YYYY completed)
+
+
