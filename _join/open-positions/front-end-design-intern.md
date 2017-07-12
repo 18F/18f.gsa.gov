@@ -19,7 +19,8 @@ listed: true
 
 ## Basic information
 
-**Title:** Service/visual design intern
+**Title:** 
+title: 18F – Front end design intern
 
 **Agency:** 
 State Department’s Virtual Student Foreign Service (VSFS)  
