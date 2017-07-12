@@ -29,7 +29,7 @@ If you have any questions, please contact our Talent Team at [join18f@gsa.gov](m
 
 ----
 
-18F is currently partnering with the Department of the Interior (DOI) to build up a digital innovation team. One of the positions below is an opportunity with DOI, not 18F. The agency of each position is designated in the beginning of the tittle.
+18F is currently partnering with the Department of the Interior (DOI) to build up a digital innovation team. One of the positions below is an opportunity with DOI, not 18F. The agency of each position is designated in the beginning of the title.
 
 {% include open-positions.html %}
 
