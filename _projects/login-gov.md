@@ -13,7 +13,7 @@ tag:
 expiration_date:
 github_repo: 
 project_url: "[https://www.login.gov/](https://www.login.gov/)"
-resources: "[Login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
+resources: "[login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
 product_clients: 
 - Customs and Border Protection
 ---
