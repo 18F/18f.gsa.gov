@@ -29,10 +29,7 @@ If you have any questions, please contact our Talent Team at [join18f@gsa.gov](m
 
 ----
 
-18F is currently partnering with other federal agencies to build up digital innovation teams. These are opportunities outside of 18F, within other federal agencies. The positions that are available are listed below. 
-
-**Department of Interior (DOI) Office of Natural Resources Revenue (ONRR)** 
-Please note that US citizenship is required.
+18F is currently partnering with the Department of the Interior (DOI) to build up a digital innovation team. One of the positions below is an opportunity with DOI, not 18F. The agency of each position is designated in the beginning of the title.
 
 {% include open-positions.html %}
 

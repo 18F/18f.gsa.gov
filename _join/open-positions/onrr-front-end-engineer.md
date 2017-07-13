@@ -1,10 +1,10 @@
 ---
-title: ONRR Front End Engineer
+title: DOI – Front end engineer
 permalink: /join/front-end-engineer/
 layout: primary
-lead: ONRR Front End Engineer
+lead: 
 app_close_date:
-subnav_title: Product Engineer
+subnav_title: Front end engineer
 subnav_items:
   - text: Basic information
     permalink: /#basic-information
@@ -21,7 +21,7 @@ listed: true
 
 ## Basic information
 
-**Title:** ONRR Front End Engineer
+**Title:** DOI ONRR Front end engineer
 
 **Agency:** 
 US Department of Interior (DOI), Office of Natural Resources Revenue (ONRR),  
