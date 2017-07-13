@@ -20,7 +20,7 @@ listed: true
 ## Basic information
 
 **Title:** 
-title: 18F – Front end design intern
+18F – Front end design intern
 
 **Agency:** 
 State Department’s Virtual Student Foreign Service (VSFS)  
@@ -34,18 +34,17 @@ You must be:
 
 **Time commitment:**
 
-Internships will start in September 2017 and run through May 2018. Interns will  contribute at least 10 hours each week to their projects and meet with internship supervisors least once a week for stand-ups, pairing,  design critiques, and other collaborative design activities. 18F is a geographically distributed organization, and the projects selected are those that do not require in-person interaction.  During those ten hours, we expect interns to participate in online project collaboration. However, the hours and schedule are flexible.  We welcome applications from people who are part-time students or otherwise juggling educational, professional, and personal commitments.
+Internships will start in September 2017 and run through May 2018. Interns will contribute at least 10 hours each week to their projects and meet with internship supervisors least once a week. However, the hours and schedule are flexible. We welcome applications from people who are part-time students or otherwise juggling educational, professional, and personal commitments. 
 
 **Location:** 
 
 There are no location or residency requirements.
 
-However, interns are welcome to spend time in 18F offices. These are located in Washington D.C., San Francisco, New York City, and Chicago. 
+18F is a geographically distributed organization, and the internship project will not require in-person interaction. However, interns are welcome to spend time in 18F offices. These are located in Washington D.C., San Francisco, New York City, and Chicago. 
 
 **Compensation:**
 
-Internships are unpaid. Interns are not federal government employees and are not entitled to employee benefits. However,  interns may work with their educational institutions to get course credit for participation. 
-
+Internships are unpaid. Interns are not federal government employees and are not entitled to employee benefits. However,  interns may work with their educational institutions to get course credit for participation.  
 
 ## Role summary:
 
@@ -53,7 +52,7 @@ Internships are unpaid. Interns are not federal government employees and are not
 
 The U.S. Web Design Standards are a library of design guidelines and code to help developers and designers quickly create trustworthy, accessible, and consistent digital government services. This open source project supports more than 100 sites across dozens of agencies, from NASA to the Navy.
 
-We're seeking a code-inclined individual to support the Web Design Standards by maintaining and improving its supporting site generators, templates, integrations, and deployments. This is a great opportunity for someone who wants to get hands-on with design systems and gain deep experience with modern agile development in cross-functional teams. Be prepared to provide code samples. 
+We're seeking a code-inclined individual to support the Web Design Standards by maintaining and improving its supporting site generators, templates, integrations, and deployments. This is a great opportunity for someone who wants to get hands-on with design systems, gain experience with modern agile development in cross-functional teams, and work closely with mentors. Along with independent coding, interns will actively participate in collaborative activities such as stand-ups, pairing, and design critiques. While complete mastery of all the skills listed below isn't required, be prepared to provide some code samples. 
 
 #### Skills we're looking for: 
 
