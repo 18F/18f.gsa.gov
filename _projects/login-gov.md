@@ -10,7 +10,6 @@ image_icon:
 project_weight: 4
 tag: 
 - identity 
-- login.gov
 expiration_date:
 github_repo: 
 project_url: "[https://www.login.gov/](https://www.login.gov/)"
