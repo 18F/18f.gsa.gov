@@ -8,8 +8,7 @@ image: /assets/img/projects/login-gov.png
 image_accessibility: "The login.gov logo over a blue background with red and blue circlar lines surrounding the logo"
 image_icon: 
 project_weight: 4
-tag: 
-- identity 
+tag: identity 
 expiration_date:
 github_repo: 
 project_url: "[https://www.login.gov/](https://www.login.gov/)"
