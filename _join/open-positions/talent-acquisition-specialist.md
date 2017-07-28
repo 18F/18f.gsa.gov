@@ -30,7 +30,7 @@ We're hiring a Talent Acquisition Specialist to help us build an amazing team. T
 
 ### Talent Acquisition Specialist
 
-As a Talent Acquisition Specialist for the Technology Transformation Service (TTS) Talent Team, you’ll act as an ambassador for TTS, representing our work and job opportunities to a diverse set of highly skilled candidates. You will be recruiting for a range of disciplines including: design (visual, UX, front end, and content), engineering (front end, back end, full stack, and site reliability), product leads and managers. You’ll work closely with hiring managers and recruitment coordinators to implement targeted attraction strategies, and you’ll also collaborate with process leads to ensure that all of our candidates have a pleasant application experience.
+As a Talent Acquisition Specialist for the Technology Transformation Service (TTS) Talent Team, you’ll act as an ambassador for TTS, representing our work and job opportunities to a diverse set of highly skilled candidates. You'll be recruiting for a range of disciplines including: design (visual, UX, front end, and content), engineering (front end, back end, full stack, and site reliability), product leads and managers. You’ll work closely with hiring managers and recruitment coordinators to implement targeted attraction strategies, and you’ll also collaborate with process leads to ensure that all of our candidates have a pleasant application experience.
 
 
 ## Key Objectives
@@ -38,7 +38,7 @@ As a Talent Acquisition Specialist for the Technology Transformation Service (TT
 ### Objective #1: You'll attract dozens of highly qualified and engaged candidates to TTS and shepherd them through the application process.
 - Attract engaged, civic-minded folks to apply to TTS by demonstrating and sharing the story of our people, the work we do, and why it matters. 
 - Act as a true ambassador of TTS, representing and delivering our message through one-on-one conversations, at professional events (such as meetups and conferences), on social media channels, and in blog posts.
-- Create an enjoyable experience for our candidates: deliver personalized interactions and always ensure that candidates are treated like people, not applications.  
+- Create an enjoyable experience for our candidates. Deliver personalized interactions and always ensure that candidates are treated like people, not applications.  
 - Share your passion for the incredible impact that digital solutions, platforms, and products can have on the civic space — and ultimately, on the American public.
 - Conduct super-sleuth searches to identify highly qualified passive candidates and attract those like-minded change makers to join our organization.
 
