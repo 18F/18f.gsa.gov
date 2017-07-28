@@ -24,30 +24,30 @@ breadcrumb: true
 published: true
 listed: true
 ---
-We are hiring a Talent Engagement Lead to help us build an amazing team. This person will work with all of TTS to recruit, interview, evaluate, etc. This page includes key objectives for the role, as well as the official job description. 
+We're hiring a Talent Engagement Lead to help us build an amazing team. This person will work with all of TTS to recruit, interview, and evaluate candidates. This page includes key objectives for the role as well as the official job description. 
 
 ## Role Summary: 
 
 ### Talent Engagement Lead
 
-As a Talent Engagement Lead you will be integral on the Technology Transformation Service (TTS) Talent team. As leader of the Talent Engagement function you will guiding a team of Talent Engagement Specialists in the management of the recruiting pipeline with a specific emphasis on candidate experience. You’ll be supporting the team by coordinating interviews, managing our job postings, maintaining our candidate database and improving candidate experience, always keeping our processes organized and running smoothly. You will track all incoming candidates and will manage and continually monitor our interview pipeline, providing follow-up correspondence to candidates on their status. 
+As a Talent Engagement Lead you will be an integral part of the Technology Transformation Service (TTS) Talent team. As leader of the Talent Engagement function, you will guide a team of Talent Engagement Specialists in the management of the recruiting pipeline with a specific emphasis on candidate experience. You’ll be supporting the team by coordinating interviews, managing our job postings, maintaining our candidate database, and improving candidate experience, always keeping our processes organized and running smoothly. You will track all incoming candidates and will manage and continually monitor our interview pipeline, providing follow-up correspondence to candidates on their status. 
 
 
 ## Key Objectives
 
 ### Objective #1: You will lead the Talent Engagement function,  managing a high volume recruitment pipeline ensuring an effective and efficient hiring manager and candidate experience.
-- Establish and the vision and strategy for the Talent Engagement function
+- Establish the vision and strategy for the Talent Engagement function
 - Coach and mentor junior team members
-- Ensure that all activity is promptly and accurately document within talent team tracking tools	
-- Schedule and coordinate phone, video and in-person interviews
+- Ensure that all activity is promptly and accurately documented within talent team tracking tools	
+- Schedule and coordinate phone, video, and in-person interviews
 - Guide candidates through all stages of the recruitment process
 - Manage schedule conflicts by proactively identifying events or other obstacles that could hinder or interrupt the hiring process 
-- Provide timely updates to candidates, hiring managers and the talent team
+- Provide timely updates to candidates, hiring managers, and the talent team
 - Identify and communicate to the talent team any risks or issues that may cause the candidate to withdraw from the process
 - Support the recruiting team in successfully attracting top talent into TTS
 
 ### Objective #2: You will establish trusting relationships with the TTS team and develop a deep understanding of their projects.
-- Attend team meetings regularly to understand the TTS projects and the problems that they are trying to solve
+- Attend team meetings regularly to understand TTS projects and the problems that they're trying to solve
 - Maintain consistent lines of communication with your hiring managers and project leads 
 - Embody the spirit of customer service and genuinely engage with all members of TTS
 - Be the champion of both the candidate and hiring manager experience
