@@ -182,10 +182,10 @@ For each job on your resume, provide:
 Submit a complete online application prior to 11:59 pm Eastern Time on the closing date of the posting. Please fill out all applicable fields.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSf7qHWyNYXc5M9_FgjwdjS0uPAQPBkN_voi4qsSVSiKT5gDyA/viewform?usp=sf_link">Click here to apply</a>
+  <a class="usa-button usa-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSe_DX2yluw0iL5qhzJseFVw2AbXioOZNy5rIY9RFKXOganZ_g/viewform?usp=sf_link">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email** [join18F@gsa.gov](mailto:oin18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email** [join18F@gsa.gov](mailto:join18F@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
