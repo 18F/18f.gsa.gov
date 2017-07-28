@@ -1,8 +1,8 @@
 ---
-title: TTS Talent 
+title: TTS Talent Engagement Lead 
 permalink: /join/talent-engagement-lead/
 layout: primary
-lead: Talent Engagement Lead
+lead: 
 app_close_date:
 subnav_title: Talent Engagement Lead
 subnav_items:

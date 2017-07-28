@@ -1,5 +1,5 @@
 ---
-title: 18F – Service/visual design intern
+title: 18F Service/visual design intern
 permalink: /join/service-visual-design-intern/
 layout: primary
 lead:

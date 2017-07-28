@@ -1,5 +1,5 @@
 ---
-title: 18F – Front end design intern
+title: 18F Front end design intern
 permalink: /join/front-end-design-intern/
 layout: primary
 lead: 
