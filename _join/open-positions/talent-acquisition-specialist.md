@@ -57,7 +57,7 @@ As a Talent Acquisition Specialist for the Technology Transformation Service (TT
 1700572JCDE
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Sunday 8/6/17 11:59PM EST
+Monday 7/31/17 - Friday 8/4/17 11:59PM EST
 
 **Job Title:** 
 Innovation Operations Manager

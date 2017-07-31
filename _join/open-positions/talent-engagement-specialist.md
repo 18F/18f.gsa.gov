@@ -3,7 +3,7 @@ title: TTS Talent Engagement Specialist
 permalink: /join/talent-engagement-specialist/
 layout: primary
 lead: 
-app_close_date:
+app_close_date: 
 subnav_title: Talent Engagement Specialist
 subnav_items:
   - text: Role summary
@@ -57,7 +57,7 @@ As a Talent Engagement Specialist you will be integral on the Technology Transfo
 1700568JCDE
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Sunday 8/6/17 11:59PM EST
+Monday 7/31/17 - Friday 8/4/17 11:59PM EST
 
 **Job Title:** 
 Innovation Operations Specialist

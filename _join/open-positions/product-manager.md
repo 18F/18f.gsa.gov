@@ -21,8 +21,8 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
 
 ## Role Summary: 
