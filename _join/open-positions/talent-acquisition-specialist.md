@@ -21,8 +21,8 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: false
-listed: false
+published: true
+listed: true
 ---
 We're hiring a Talent Acquisition Specialist to help us build an amazing team. This person will work with all of TTS to recruit, interview, and evaluate candidates. This page includes key objectives for the role as well as the official job description. 
 
@@ -57,7 +57,7 @@ As a Talent Acquisition Specialist for the Technology Transformation Service (TT
 1700572JCDE
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Friday 8/4/17 11:59PM EST
+Monday 7/31/17 - Friday 8/4/17 9:00PM EST
 
 **Job Title:** 
 Innovation Operations Manager
