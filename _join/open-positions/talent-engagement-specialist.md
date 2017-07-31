@@ -57,7 +57,7 @@ As a Talent Engagement Specialist, you'll be an integral part of the Technology 
 1700568JCDE
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Friday 8/4/17 11:59PM EST
+Monday 7/31/17 - Friday 8/4/17 9:00PM EST
 
 **Job Title:** 
 Innovation Operations Specialist
