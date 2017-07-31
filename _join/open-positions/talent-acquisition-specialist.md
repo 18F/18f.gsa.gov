@@ -1,10 +1,10 @@
 ---
-title: 18F Product Manager 
-permalink: /join/product-manager/
+title: TTS Talent Acquisition Specialist 
+permalink: /join/talent-acquisition-specialist/
 layout: primary
 lead: 
 app_close_date:
-subnav_title: Product Manager
+subnav_title: Talent Acquisition Specialist
 subnav_items:
   - text: Role summary
     permalink: /#role-summary
@@ -24,60 +24,49 @@ breadcrumb: true
 published: false
 listed: false
 ---
+We're hiring a Talent Acquisition Specialist to help us build an amazing team. This person will work with all of TTS to recruit, interview, and evaluate candidates. This page includes key objectives for the role as well as the official job description. 
 
 ## Role Summary: 
 
-### 18F Product Manager
+### Talent Acquisition Specialist
 
-An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies.  You will build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
+As a Talent Acquisition Specialist for the Technology Transformation Service (TTS) Talent Team, you’ll act as an ambassador for TTS, representing our work and job opportunities to a diverse set of highly skilled candidates. You'll be recruiting for a range of disciplines including: design (visual, UX, front end, and content), engineering (front end, back end, full stack, and site reliability), product leads and managers. You’ll work closely with hiring managers and recruitment coordinators to implement targeted attraction strategies, and you’ll also collaborate with process leads to ensure that all of our candidates have a pleasant application experience.
+
 
 ## Key Objectives
 
-### Objective #1: You will own the product vision and lead end-to-end product development.
-- Establish a shared vision and understanding across the team. Ensure all members of the 18F and partner teams have a shared understanding of the project’s objectives and goals. 
-- Navigate complex bureaucratic relationships to bring stakeholders together around a common goal.
-- Apply user-centered design methods to ensure we’re building the right product.
-- Revisit and revise project direction based on the outcome of experiments and user-based learning.
-- Analyze market fit and make build vs. buy recommendations.
-- Use evidence (user research, analytics, and other metrics) to make product decisions, ask “why” a lot, and recognize the difference between “we can’t do that because of bureaucracy” and “we can’t do that because of the law.”
-- Work with other teams at 18F, GSA, and partner organizations to ensure compliance with federal regulations such as Authority to Operate, the Paperwork Reduction Act, and Section 508.
+### Objective #1: You'll attract dozens of highly qualified and engaged candidates to TTS and shepherd them through the application process.
+- Attract engaged, civic-minded folks to apply to TTS by demonstrating and sharing the story of our people, the work we do, and why it matters. 
+- Act as a true ambassador of TTS, representing and delivering our message through one-on-one conversations, at professional events (such as meetups and conferences), on social media channels, and in blog posts.
+- Create an enjoyable experience for our candidates. Deliver personalized interactions and always ensure that candidates are treated like people, not applications.  
+- Share your passion for the incredible impact that digital solutions, platforms, and products can have on the civic space — and ultimately, on the American public.
+- Conduct super-sleuth searches to identify highly qualified passive candidates and attract those like-minded change makers to join our organization.
 
 
-### Objective #2: You will assemble and lead a cross-functional team to deliver the right product using agile-based methodologies.
-- Determine the size, skills, and roles necessary for a team to deliver and help identify those team members.
-- Lead and manage a cross-functional delivery team and focus team efforts towards current goals and priorities.
-- Believe in and practice agile as a philosophy, not necessarily agile as a dogma.
-- Establish the bar for quality and the definition of done.
-Identify and proactively address project risks.
-- Explore new tools, methodologies, processes, etc. and share lessons with other product leads.
-- Mentor others, give constructive criticism, and improve practices and standards on your teams.
-- Actively engage with the team at large — take part in cross-project and cross-domain conversation, skill- and knowledge-share, and working groups or guilds.
 
-### Objective #3: You will manage relationships with 18F’s agency partners.
-- Build trusted relationships with agency partners and help them understand 18F’s user centered, iterative approach to understanding the problem and building a solution.
-- Reinforce 18F’s “way we work” values (building in the open, using open source, etc.).
-- Make sure agency partners are fully engaged members of the team and help them manage expectations with their stakeholders.
-- Give agency partners advice they need to hear instead of what they want to hear. Promote best practices by making a strong case even in the face of resistance.
-- Ensure projects are delivered on budget and within the terms of our agreements. Define and execute plans to successfully transition projects at the end of 18F’s engagements to achieve lasting results.
-- Evaluate potential work for impact, risks, and alignment with 18F’s values.
+### Objective #2: You will develop and institutionalize a comprehensive and highly successful recruitment strategy for your discipline.
+- Cultivate a deep knowledge of and curiosity about the technology space. 
+- Identify gaps and issues with the hiring process by conducting user research; use concrete data (user analytics) to develop solutions. 
+- Generate high-impact, tailored content for outreach materials, presentations, and communications; find ways to meaningfully connect with our candidates.
+- Diligently maintain our applicant data and find new ways to use that data to inform the decisions we make.
 
 
 ## Basic Information
 
 **Job announcement number:** 
-
+1700572JCDE
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Friday 8/4/2017 11:59pm Eastern 
+Monday 7/31/17 - Friday 8/4/17 11:59PM EST
 
 **Job Title:** 
-Innovation Specialist 
+Innovation Operations Manager
 
 **Series & Grade:** 
 0301-15
 
 **Promotion Potential**
-N/a
+GS-15
 
 **Salary Range:** 
 
@@ -90,7 +79,7 @@ Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Phoenix, AZ; Virtu
 
 
 **Number of vacancies:** 
-2 (Additional vacancies may be filled from this announcement as needed)    
+1 (Additional vacancies may be filled from this announcement as needed)  
 
 **Supervisory status:** 
 No
@@ -114,11 +103,7 @@ Excepted Service – Not to exceed 2 years; may be extended for an additional 2 
 
 ## Job Summary
 
-This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 
-
-As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. The position involves access to personally identifiable information (PII) data. 
-
-This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of 18F.
+As an Innovation Operations Manager, the incumbent serves a technical project expert/consultant and project/program manager responsible for providing expert advice to generate new programs and program components to explore state­ of the art in efficiency and effectiveness of GSA critical projects.
 
 GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
@@ -150,28 +135,23 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 
 ## Duties 
 
-- Typical duties for the fellow include, but are not limited to: 
-- Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward thinking design and development principles to product or services development, delivery and program management, such as lean startup, user centered design, and agile development;
-- Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
-- Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
-- Developing authoritative papers/reports; developing and leading adoption of government­-wide standards for digital services, leading to their adoption across citizen and business­ facing government services;
-- Demonstrating thought leadership and contributing best practices in a variety of technologies and principles; 
-- Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges
-
+Typical duties for the fellow include, but are not limited to: 
+- Serves as a program manager and execution arm to senior level management and provides expert advice to generate and develop new hypotheses and theories of program components to explore state of the art in efficiency and effectiveness of mission critical operating programs.
+- Develops new insights into situations and applies innovative solutions to make organizational and operational improvements; creates a work environment that encourages creative thinking and innovation; designs and implements new or cutting‐edge operational programs/business processes. Keeps up to date with developments in the private sector; seeks out best practice; and identifies and seizes opportunities that are not obvious to others. 
+- Understands that risk taking means trying something new, and possibly better, in the sense of stretching beyond what has been done in the past; and that the constant  challenge is to learn how to assess choices responsibly, weighing the possible outcomes against his/her values and responsibilities. 
 
 ## Evaluations
 
-We will use a method called Category Rating to assess your application. Here's how it will work: 
+We will use a method called Category Rating to assess your application.  
 
-You will be scored based on a review of your application materials, measuring your possession of each of the following competencies below. 
+**Here’s how it will work:**
 
-**Applicants applying for this job must meet the following requirements:**
-Have product management related experience demonstrating each of the five competencies and specialized experience listed below:
-- **Communication:** Ability to communicate effectively with a variety of audiences to establish a shared vision and understanding of the project’s objectives and goals.
-- **Product experience:** Ability to deliver the right digital product using user-centered and agile-based methodologies.
-- **Leadership:** Ability to effectively lead a cross-functional team to meet digital project/product objectives.
-- **Innovation:** Ability to apply innovative tools and technologies and to help partners make strategic & tactical decisions toward innovation.
-- **18F core values alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
+You will be scored based on a review of your application materials, measuring your possession of each of the following competencies:
+- **Recruiting Craft:** The ability to source and attract highly qualified applicants and the business acumen and negotiation skills to close the deal.
+- **Problem Solving:** The ability to design, analyze, synthesize and/or evaluate information to produce and defend a desired solution.
+- **Customer Service:** The ability to develop and maintain customer relationships by anticipating and exhibiting concern for their needs and providing highly engaging and personal solutions.
+- **Teamwork & Collaboration:** The ability to work cooperatively with others to accomplish objectives and build inclusive and mutually-beneficial partnerships.
+- **TTS Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact driven environment.
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
@@ -182,12 +162,14 @@ Within each category, veterans will receive selection priority over non-veterans
 
 ## Qualifications
 
-To qualify at a GS-15 level you must demonstrate at least one year of specialized experience at the next lower grade level GS-14 in the federal service or equivalent:
-- Owning, developing or communicating the product vision and/or developing or managing the product roadmap
-- Leading projects with cutting edge or complex technology, missions, or stakeholders, or a high degree of uncertainty, such as greenfield/startups, legacy migrations, projects at scale, or integrations
-- Use of innovation tools and methodologies such as Lean, Agile, Open Source, APIs, or UX
-- Leading cross functional teams to design, develop, and/or deliver digital products or services
-- Managing of a variety of relationships, such as internal, stakeholders, clients, or users
+To qualify, you must have one year of specialized experience equivalent to the GS-14 in the Federal service.  Specialized experience is:
+- Conducting direct recruitment outreach via a variety of methods (e.g. networking, email, social media, events, job postings and cold calling)
+- Sourcing candidates using Boolean, LinkedIn and alternative search techniques
+- Working with hiring teams to drive recruiting efforts, increase hiring efficacy, and improve process efficiency
+- Training and mentoring new recruiters or recruiting coordinators
+- Recruiting for disciplines including: design (visual, UX, front end or content) or engineering (front end, back end, full stack, or site reliability) or product managers.
+- Implementing targeted recruitment attraction and acquisition strategies
+- Working on cross functional teams using collaboration, open communication, or working across functional borders
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
@@ -201,7 +183,7 @@ For each job on your resume, provide:
 Submit a complete online application prior to 11:59 pm Eastern Time on the closing date of the posting. Please fill out all applicable fields.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="">Click here to apply</a>
+  <a class="usa-button usa-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSf7qHWyNYXc5M9_FgjwdjS0uPAQPBkN_voi4qsSVSiKT5gDyA/viewform">Click here to apply</a>
 </section>
 
 **Need Assistance in applying or have questions regarding this job opportunity, please email** [join18F@gsa.gov](mailto:join18F@gsa.gov).

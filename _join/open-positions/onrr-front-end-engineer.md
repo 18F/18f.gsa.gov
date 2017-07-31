@@ -1,5 +1,5 @@
 ---
-title: DOI – Front end engineer
+title: DOI Front end engineer
 permalink: /join/front-end-engineer/
 layout: primary
 lead: 
