@@ -30,18 +30,18 @@ We're hiring a Talent Engagement Specialist to help us build an amazing team. Th
 
 ### Talent Engagement Specialist
 
-As a Talent Engagement Specialist you will be integral on the Technology Transformation Service (TTS) Talent team helping manage recruiting activities and building candidate relationships. You’ll be supporting the team by coordinating interviews, managing our job postings, maintaining our candidate database and improving candidate experience, always keeping our processes organized and running smoothly. You will track all incoming candidates and will manage and continually monitor our interview pipeline, providing follow-up correspondence to candidates on their status. 
+As a Talent Engagement Specialist, you'll be an integral part of the Technology Transformation Service (TTS) Talent Team by helping manage recruiting activities and building candidate relationships. You’ll be supporting the team by coordinating interviews, managing our job postings, maintaining our candidate database, and improving candidate experience, always keeping our processes organized and running smoothly. You'll track all incoming candidates and will manage and continually monitor our interview pipeline, providing follow-up correspondence to candidates on their status. 
 
 
 ## Key Objectives
 
-### Objective #1: You will manage a high volume recruitment pipeline ensuring an effective and efficient hiring manager and candidate experience.
+### Objective #1: You will manage a high-volume recruitment pipeline ensuring an effective and efficient hiring manager and candidate experience.
 - Promptly and accurately document all activity within talent team tracking tools 
-- Schedule and coordinate phone, video and in-person interviews
+- Schedule and coordinate phone, video, and in-person interviews
 - Guide candidates through all stages of the recruitment process
 - Manage schedule conflicts by proactively identifying events or other obstacles that could hinder or interrupt the hiring process 
-- Provide timely updates to candidates, hiring managers and the talent team
-- Identify and communicate to the talent team any risks or issues that may cause the candidate to withdraw from the process
+- Provide timely updates to candidates, hiring managers, and the Talent Team
+- Identify and communicate to the Talent Team any risks or issues that may cause the candidate to withdraw from the process
 - Support the recruiting team in successfully attracting top talent into TTS
 
 

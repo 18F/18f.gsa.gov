@@ -36,7 +36,7 @@ An 18F Product Manager is the steward who guides a product from concept to deliv
 ### Objective #1: You will own the product vision and lead end-to-end product development.
 - Establish a shared vision and understanding across the team. Ensure all members of the 18F and partner teams have a shared understanding of the project’s objectives and goals. 
 - Navigate complex bureaucratic relationships to bring stakeholders together around a common goal.
-- Apply user centered design methods to ensure we’re building the right product.
+- Apply user-centered design methods to ensure we’re building the right product.
 - Revisit and revise project direction based on the outcome of experiments and user-based learning.
 - Analyze market fit and make build vs. buy recommendations.
 - Use evidence (user research, analytics, and other metrics) to make product decisions, ask “why” a lot, and recognize the difference between “we can’t do that because of bureaucracy” and “we can’t do that because of the law.”
