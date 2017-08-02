@@ -13,8 +13,8 @@ subnav_items:
   - text: How to apply
     permalink: /#how-to-apply
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
 
 ## Basic information

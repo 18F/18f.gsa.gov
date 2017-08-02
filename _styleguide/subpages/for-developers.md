@@ -4,7 +4,7 @@ subpage: For developers
 permalink: /styleguide/for-developers/
 ---
 
-[18f.gsa.gov](https://18f.gsa.gov), and many 18F websites deployed to [Federalist](federalist.fr.cloud.gov) use [Jekyll](https://jekyllrb.com/) to build static, maintainable websites.
+[18f.gsa.gov](https://18f.gsa.gov), and many 18F websites deployed to [Federalist](https://federalist.fr.cloud.gov) use [Jekyll](https://jekyllrb.com/) to build static, maintainable websites.
 
 One of the core features of Jekyll is the [Liquid](https://shopify.github.io/liquid/) templating language, which has a series of [filters](https://shopify.github.io/liquid/filters/round/) and [tags](https://shopify.github.io/liquid/tags/iteration/) that allow developers programmatically generate content.
 
