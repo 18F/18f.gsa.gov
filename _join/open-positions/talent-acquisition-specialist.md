@@ -21,8 +21,8 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
 We're hiring a Talent Acquisition Specialist to help us build an amazing team. This person will work with all of TTS to recruit, interview, and evaluate candidates. This page includes key objectives for the role as well as the official job description. 
 
