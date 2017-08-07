@@ -21,19 +21,21 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: false
-listed: false
+published: true
+listed: true
 ---
+
+We're hiring a Product Manager to help us build amazing products for our clients. This person will work closely with our partner agencies to scope, assess, and deliver user-centered products. This page includes key objectives for the role as well as the official job description. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 ## Role Summary: 
 
 ### 18F Product Manager
 
-An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies.  You will build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
+An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies. You'll build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
 
 ## Key Objectives
 
-### Objective #1: You will own the product vision and lead end-to-end product development.
+### Objective #1: You'll own the product vision and lead end-to-end product development.
 - Establish a shared vision and understanding across the team. Ensure all members of the 18F and partner teams have a shared understanding of the project’s objectives and goals. 
 - Navigate complex bureaucratic relationships to bring stakeholders together around a common goal.
 - Apply user-centered design methods to ensure we’re building the right product.
@@ -43,17 +45,17 @@ An 18F Product Manager is the steward who guides a product from concept to deliv
 - Work with other teams at 18F, GSA, and partner organizations to ensure compliance with federal regulations such as Authority to Operate, the Paperwork Reduction Act, and Section 508.
 
 
-### Objective #2: You will assemble and lead a cross-functional team to deliver the right product using agile-based methodologies.
+### Objective #2: You'll assemble and lead a cross-functional team to deliver the right product using agile-based methodologies.
 - Determine the size, skills, and roles necessary for a team to deliver and help identify those team members.
 - Lead and manage a cross-functional delivery team and focus team efforts towards current goals and priorities.
 - Believe in and practice agile as a philosophy, not necessarily agile as a dogma.
 - Establish the bar for quality and the definition of done.
-Identify and proactively address project risks.
+- Identify and proactively address project risks.
 - Explore new tools, methodologies, processes, etc. and share lessons with other product leads.
 - Mentor others, give constructive criticism, and improve practices and standards on your teams.
 - Actively engage with the team at large — take part in cross-project and cross-domain conversation, skill- and knowledge-share, and working groups or guilds.
 
-### Objective #3: You will manage relationships with 18F’s agency partners.
+### Objective #3: You'll manage relationships with 18F’s agency partners.
 - Build trusted relationships with agency partners and help them understand 18F’s user centered, iterative approach to understanding the problem and building a solution.
 - Reinforce 18F’s “way we work” values (building in the open, using open source, etc.).
 - Make sure agency partners are fully engaged members of the team and help them manage expectations with their stakeholders.
@@ -65,10 +67,10 @@ Identify and proactively address project risks.
 ## Basic Information
 
 **Job announcement number:** 
-
+1700584JCOTR
 
 **Opening and closing period for this job application:**
-Monday 7/31/17 - Friday 8/4/2017 11:59pm Eastern 
+Monday 8/7/17 - Friday 8/11/2017 11:59pm Eastern 
 
 **Job Title:** 
 Innovation Specialist 
@@ -201,10 +203,10 @@ For each job on your resume, provide:
 Submit a complete online application prior to 11:59 pm Eastern Time on the closing date of the posting. Please fill out all applicable fields.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="">Click here to apply</a>
+  <a class="usa-button usa-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSenKx94fnZAS6Bcwc4w_WF_pOfSTD7gZRBFeud97RdSh9j2gg/viewform?usp=sf_link">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email** [join18F@gsa.gov](mailto:join18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email Esther Chang at** [join18F@gsa.gov](mailto:join18F@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
@@ -219,7 +221,7 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
 	- If you are claiming 10-point preference or derived preference (a spouse, widow or widower, or parent of a deceased or disabled veteran), submit both of the following in addition to the DD-214:
 		- completed [SF-15](http://www.opm.gov/forms/pdf_fill/SF15.pdf) form; and
 		- proof of your entitlement; refer to [SF-15](http://www.opm.gov/forms/pdf_fill/SF15.pdf) for complete list.
-		- **If you are claiming veterans preference**, you **MUST** submit all Veteran’s documentation to Jacqueline Coleman <jacqueline.coleman@gsa.gov> by the job posting closing date. Please subject the email “Veteran’s documentation for Job Posting 1700572JCDE”.
+		- **If you are claiming veterans preference**, you **MUST** submit all Veteran’s documentation to Jacqueline Coleman <jacqueline.coleman@gsa.gov> by the job posting closing date. Please subject the email “Veteran’s documentation for Job Posting 1700584JCOTR”.
 - **If you are active duty military:** Certification on a letterhead from your military branch that includes your rank, character of service (must be under honorable conditions) & military service dates including discharge/release date (must be no later than 120 days after the date the certification is submitted).
 
 ## Other Information 
