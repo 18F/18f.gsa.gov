@@ -29,11 +29,11 @@ listed: true
 
 ### 18F Product Manager
 
-An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies.  You will build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
+An 18F Product Manager is the steward who guides a product from concept to delivery. As a Product Manager, you’ll lead cross-functional teams to deliver user-centered products using agile methodologies. You'll build collaborative relationships with our partners and customers to help meet the needs of their mission and users, and to achieve lasting transformation in the way they build and buy digital services.
 
 ## Key Objectives
 
-### Objective #1: You will own the product vision and lead end-to-end product development.
+### Objective #1: You'll own the product vision and lead end-to-end product development.
 - Establish a shared vision and understanding across the team. Ensure all members of the 18F and partner teams have a shared understanding of the project’s objectives and goals. 
 - Navigate complex bureaucratic relationships to bring stakeholders together around a common goal.
 - Apply user-centered design methods to ensure we’re building the right product.
@@ -43,17 +43,17 @@ An 18F Product Manager is the steward who guides a product from concept to deliv
 - Work with other teams at 18F, GSA, and partner organizations to ensure compliance with federal regulations such as Authority to Operate, the Paperwork Reduction Act, and Section 508.
 
 
-### Objective #2: You will assemble and lead a cross-functional team to deliver the right product using agile-based methodologies.
+### Objective #2: You'll assemble and lead a cross-functional team to deliver the right product using agile-based methodologies.
 - Determine the size, skills, and roles necessary for a team to deliver and help identify those team members.
 - Lead and manage a cross-functional delivery team and focus team efforts towards current goals and priorities.
 - Believe in and practice agile as a philosophy, not necessarily agile as a dogma.
 - Establish the bar for quality and the definition of done.
-Identify and proactively address project risks.
+- Identify and proactively address project risks.
 - Explore new tools, methodologies, processes, etc. and share lessons with other product leads.
 - Mentor others, give constructive criticism, and improve practices and standards on your teams.
 - Actively engage with the team at large — take part in cross-project and cross-domain conversation, skill- and knowledge-share, and working groups or guilds.
 
-### Objective #3: You will manage relationships with 18F’s agency partners.
+### Objective #3: You'll manage relationships with 18F’s agency partners.
 - Build trusted relationships with agency partners and help them understand 18F’s user centered, iterative approach to understanding the problem and building a solution.
 - Reinforce 18F’s “way we work” values (building in the open, using open source, etc.).
 - Make sure agency partners are fully engaged members of the team and help them manage expectations with their stakeholders.
