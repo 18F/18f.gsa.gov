@@ -88,7 +88,7 @@ Base salary GS-15 - $103,672 to $134,776.
 Total compensation will include locality pay based on the individual's duty location. For locality pay details, please visit [https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/). If you are a new federal employee, your starting salary will likely be set at the Step 1 of the grade for which you are selected.  
 
 **Location:**
-Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Phoenix, AZ; Virtual (100% remote) 
+Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Virtual (100% remote) 
 
 
 **Number of vacancies:** 
