@@ -27,6 +27,8 @@ listed: true
 
 We're hiring a Product Manager to help us build amazing products for our clients. This person will work closely with our partner agencies to scope, assess, and deliver user-centered products. This page includes key objectives for the role as well as the official job description. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
+**Please note: Innovation Specialist is the offical government title for this Product Manager position.**
+
 ## Role Summary: 
 
 ### 18F Product Manager
