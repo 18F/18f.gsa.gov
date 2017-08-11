@@ -193,7 +193,7 @@ This guide shows how to format a government-style resume and what information to
 >
 > **EDUCATION**
 >
-> **Name of college/university/institution, City, State**
+> **Name of college/university/institution, City, State**  
 > Type of degree, major and minor, MM/YYYY degree received
 > Graduation honors, if applicable
 >
