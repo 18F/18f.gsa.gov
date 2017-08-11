@@ -29,6 +29,9 @@ US Department of Interior (DOI), Office of Natural Resources Revenue (ONRR),
 **Position Type:**
 Excepted Service - Time-Limited Appointment - Not to exceed 24 months; may be extended for a maximum of 4 years total
 
+**Location:**
+Washington, DC; Denver, CO; Virtual (100% remote) 
+
 **Compensation/Grade Level:**
 GS-13 to GS-15
 [Overview of General Schedule Classification and Pay](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/general-schedule/)
