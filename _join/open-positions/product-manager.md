@@ -20,8 +20,8 @@ subnav_items:
     permalink: /#other-information
   - text: What to expect
     permalink: /#what-to-expect
-breadcrumb: true
-published: true
+breadcrumb: false
+published: false
 listed: true
 ---
 
