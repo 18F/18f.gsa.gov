@@ -27,6 +27,10 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
 
+----
+
+18F is currently partnering with the Department of the Interior (DOI) to build up a digital innovation team. One of the positions below is an opportunity with DOI, not 18F. The agency of each position is designated in the beginning of the title.
+
 {% include open-positions.html %}
 
 ----
@@ -94,8 +98,7 @@ It can be helpful to start pulling some documents together in advance. The forms
 
 ## Government pay grades
 
-18F team members are hired for specific position descriptions at a specific grade level from the federal general schedule (GS). The GS system is a pay system for civilian employees in the federal government; evaluation and compensation varies by grade level. The qualification requirements for each position at a specific GS level are based on education, background, accomplishments, and experience. The specific requirements will always be listed in the job posting. 
-
+18F team members are hired for specific position descriptions at a specific grade level from the federal general schedule (GS). The GS system is a pay system for civilian employees in the federal government; evaluation and compensation varies by grade level. The qualification requirements for each position at a specific GS level are based on education, background, accomplishments, and experience. The specific requirements will always be listed in the job posting. Salaries of federal employees are public information, and your salary may become publicly available on sites like [FederalPay.org](https://www.federalpay.org/employees).
 
 #### Understanding grade levels
 
@@ -202,3 +205,5 @@ This guide shows how to format a government-style resume and what information to
 > * Relevant professional affiliations (organization name, your years of participation)
 > * Publications (including personal blog posts) (title of published work, month and year of publication)
 > * Training and courses (name of training or course, organization providing the training, MM/YYYY completed)
+
+

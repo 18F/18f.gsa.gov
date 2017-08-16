@@ -55,6 +55,6 @@ elements, including:
 -   Color
 
 The Standards are open source and free to use, but the 18F team is also
-available to help train federal agency teams on how to implement that
-standards or build custom design elements to meet an agency’s specific
+available to help train federal agency teams on how to implement the
+Standards or build custom design elements to meet an agency’s specific
 needs.

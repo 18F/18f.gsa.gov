@@ -3,6 +3,7 @@ title: Code of conduct
 permalink: /code-of-conduct/
 layout: primary
 lead:
+published: false
 ---
 
 This is a copy of the 18F code of conduct. The [official document lives in GitHub](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md). If you would like to comment or suggest a change to the policy, please do so there.

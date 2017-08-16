@@ -49,12 +49,18 @@ Along similar lines, it’s always better to be overstaffed than understaffed. I
 
 ## Plan what services you’ll offer
 
-<figure class="align-right">
+<figure class="align-left">
 	<img src="{{site.baseurl}}/assets/blog/writing-lab/kate-garklavs-confab.jpg" alt="Kate Garklavs speaking at Confab about the Writing Lab">
 	<figcaption>Kate Garklavs speaking at <a href="https://youtu.be/FQVZJKR2Tk4?list=PLnoM8YHGYeM0ZvGiPQO6mHUHJxUEsmoZv">Confab about the Writing Lab</a></figcaption>
 </figure>
 
+
 After you’ve assembled your core team, you can decide what type of services you’ll offer your clients. Our recommendation is to always prioritize user need, which will help you create a better customer experience by solving the problems people actually have (rather than the ones you _think_ they might have). 
+
+<figure class="align-left">
+	<img src="{{site.baseurl}}/assets/blog/writing-lab/kate-garklavs-confab.jpg" alt="Kate Garklavs speaking at Confab about the Writing Lab">
+	<figcaption>Kate Garklavs speaking at <a href="https://youtu.be/FQVZJKR2Tk4?list=PLnoM8YHGYeM0ZvGiPQO6mHUHJxUEsmoZv">Confab about the Writing Lab</a></figcaption>
+</figure>
 
 As excited as you are to get started, be realistic about the help your lab will be able to offer. It’s a solid plan to identify your top two or three user needs and address those first; you can always expand your service offerings later. What’s more, it’s much nicer — for you and your clients — to scale up gradually than it is to hastily remove offerings from your service menu.
 
