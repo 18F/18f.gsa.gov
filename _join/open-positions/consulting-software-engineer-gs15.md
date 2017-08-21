@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Consulting Software Engineer GS-15 to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. [Duties]({{site.baseurl}}/join/consulting-software-engineer-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/consulting-software-engineer-gs15/#qualifications) are specific to GS-15 level. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Consulting Software Engineer GS-15 to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/consulting-software-engineer-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/consulting-software-engineer-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the offical government title for this Consulting Software Engineer position.**
 
@@ -35,9 +35,9 @@ We're hiring a Consulting Software Engineer GS-15 to help us build amazing produ
 
 ### Consulting Software Engineer GS-15
 
-18F is looking for talented backend software developers who will help our partner agencies deliver better digital services to the public. As a Consulting Engineer at 18F, you will be a builder, contributor, and catalyst. Working with folks across the organization, you will solve large, complex problems while promoting user-centered, open, and transparent culture. The role involves diverse responsibilities — you might be writing code one day, meeting with members from partner agencies another day, and launching a new product that will impact the lives of Americans across the country the next week. [18F is an open-source team](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/), so most of what you work on will be open source.
+18F is looking for talented backend software developers who will help our partner agencies deliver better digital services to the public. As a Consulting Engineer at 18F, you'll be a builder, contributor, and catalyst. Working with folks across the organization, you will solve large, complex problems while promoting user-centered, open, and transparent culture. The role involves diverse responsibilities — you might be writing code one day, meeting with members from partner agencies another day, and launching a new product that will impact the lives of Americans across the country the next week. [18F is an open-source team](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/), so most of what you work on will be open source.
 
-This role may be perfect for you if you have the technical skills to tackle engineering problems, the social skills to face human-factors problems, and the judgement to differentiate between the two. Our ideal candidate will be equally excited about sticky technical issues and intricate human ones. Impact in this role can’t be measure on a GitHub contribution graph; ideal candidates should be equally comfortable solving technical problems by writing code, explaining technical design architecture to technical and less technical folks alike, and leading organizational strategy and change. 
+This role may be perfect for you if you have the technical skills to tackle engineering problems, the social skills to face human-factors problems, and the judgement to differentiate between the two. Our ideal candidate will be equally excited about sticky technical issues and intricate human ones. Impact in this role can’t be measured on a GitHub contribution graph; ideal candidates should be equally comfortable solving technical problems by writing code, explaining technical design architecture to technical and less technical folks alike, and leading organizational strategy and change. 
 
 18F’s core languages are Ruby, Python, JavaScript, and Go. You should have strong, demonstrable experience with at least one of these languages and should be proficient in web development, relational databases, and using Unix-like operating systems. You should understand engineering best practices such as source control, automated testing, continuous integration and deployment, and peer review. The strongest candidates will have a background working on cross-functional, multidisciplinary teams that deliver digital products and services in an incremental, user-focused environment.
 
@@ -76,7 +76,7 @@ Practice human-centered design, user testing, feature prioritization, DevOps, an
 - Keep up-to-date on policies and trends that affect the organization and shape stakeholders’ views. 
 - Adapt to change and quickly integrate new information. 
 - Formulate and execute consistently against objectives and priorities.
-- Take a long-term view and build a shared vision with people across TTS, GSA, and across the US Government.
+- Take a long-term view and build a shared vision with people across TTS, GSA, and across the U.S. government.
 
 
 ## Basic Information
