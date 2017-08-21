@@ -215,7 +215,7 @@ For each job on your resume, provide:
 
 ## How To Apply
 
-Submit a complete online application prior to 9:00 pm Eastern Time on the closing date of the posting. Please fill out all applicable fields.
+Submit a complete online application prior to 11:59 pm Eastern Time on the closing date of the posting. Please fill out all applicable fields.
 
 <section class="usa-grid-full">
   <a class="usa-button usa-button-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSfJq-0lV7Diu4qswzPRrTzDaglC_C0mmjkw-N1WMkMskERmww/viewform?usp=sf_link">Click here to apply</a>
