@@ -36,6 +36,9 @@ collections:
   about:
     output: true
     permalink: /:path/
+  playbook:
+    output: true
+    permalink: /playbook/:path/
   join:
     output: true
     permalink: /join/:path/
@@ -85,6 +88,13 @@ defaults:
     layout: primary
     include_subnav: true
     subnav_anchor: /about/
+ -
+  scope:
+    path: "_playbook"
+  values:
+    layout: primary
+    include_subnav: true
+    subnav_anchor: /playbook/
  -
   scope:
     path: "_join"
