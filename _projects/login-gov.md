@@ -26,6 +26,6 @@ To improve this experience, 18F and the U.S. Digital Service worked together to 
 
 Two of the core principles for the login.gov team were to make a product that had a user experience on par with top tech industry websites and to focus on privacy and security from the very beginning. The focus on user-centered design means login.gov makes it easy and intuitive for users to choose a username, password, and multifactor authentication. 
 
-On the security side, login.gov guarantees an industry-leading degree of security with privacy and end-to-end encryption as core tenets of the platform. Users own their own data, it’s strongly encrypted, and none of it is shared across agencies unless a user explicitly logs into the those agencies. 
+On the security side, login.gov guarantees an industry-leading degree of security with privacy and end-to-end encryption as core tenets of the platform. Users own their own data, it’s strongly encrypted, and none of it is shared across agencies unless a user explicitly logs into those agencies. 
 
 By using the login.gov platform, agencies can save time, money, and significant customer support resources they would have devoted to managing their login systems. Those resources can be better spent on their core missions and serving their users. 
