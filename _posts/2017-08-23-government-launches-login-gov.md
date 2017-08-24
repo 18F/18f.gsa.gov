@@ -16,7 +16,7 @@ image: /assets/blog/login-gov/login-gov-launch.png
 
 _Joel Minton, a member of the U.S. Digital Service, is working with GSA’s Technology Transformation Service as the director of login.gov. Tom Mills is the Chief Technology Architect at U.S. Customs and Border Protection._
 
-Today, the U.S. Digital Service and 18F are excited to announce the launch of [login.gov](https://login.gov/), a single sign-on solution for government websites that will enable citizens to access public services across agencies with the same username and password.
+In early April, the U.S. Digital Service and 18F launched [login.gov](https://login.gov/), a single sign-on solution for government websites that will enable citizens to access public services across agencies with the same username and password.
 
 Login.gov is currently in action at the U.S. Department of Homeland Security’s Customs and Border Protection Agency (CBP), where Tom Mills is driving transformation of CBP customer experiences. Right now, it’s being used for the [CBP Jobs App](https://itunes.apple.com/us/app/cbp-jobs/id1210368989?mt=8), which allows candidates to see the status of their progress as they’re moving through the recruitment and hiring pipeline. Logging into this system was previously so cumbersome that some candidates dropped out.
 
