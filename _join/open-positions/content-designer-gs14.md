@@ -35,8 +35,7 @@ We're hiring a Content Designer GS-14 to help us build amazing products for our 
 
 ### Content-designer GS-14
 
-As an 18F Content Designer, you’ll collaborate with agency partners, product managers, other designers, and engineers to deliver user-centered content. You will lead efforts to plan, create, organize, and continually refine content for audiences inside and outside of government.
-
+As an 18F Content Designer, you’ll collaborate with 18F's partners at other federal agencies, product managers, other designers, and engineers to deliver user-centered content. You will lead efforts to plan, create, organize, and continually refine content for audiences inside and outside of government.
 
 ## Key Objectives
 
@@ -47,9 +46,6 @@ As an 18F Content Designer, you’ll collaborate with agency partners, product m
 - Navigate complex organizational relationships to bring stakeholders together around common editorial goals and priorities.
 - Give agency partners and peers advice they need to hear over what they want to hear, in a manner that respects their intelligence and experience.
 
-
-
-
 ### Objective #2:  Deliver high-quality, user-centered content for agency partners.
 - Create clear, accessible, and concise content in an fast-paced, collaborative environment. Examples include landing pages, interface writing, navigation labels, notifications, research findings, and launch materials.
 - Iterate quickly by writing, editing, and collaborating on drafts.
@@ -58,7 +54,6 @@ As an 18F Content Designer, you’ll collaborate with agency partners, product m
 - Maintain consistency with our style and standards in the [18F Content Guide](https://content-guide.18f.gov/). Work with partner agencies to evolve their style where appropriate.
 - Uphold our team values of being clear, concise, inclusive, curious, and honest — in both your writing and daily collaboration.
 
-
 ### Key objective #3:  Contribute to the continued success of the content team and shared resources.
 - Continually promote 18F’s ways of working by making a strong case for iterative, user-centered design on every project.
 - Contribute to team-wide resources and training materials, including tutorials, guides, presentations, and design toolkits.
@@ -66,7 +61,6 @@ As an 18F Content Designer, you’ll collaborate with agency partners, product m
 - Share your work in an unfinished state and give peer feedback in weekly critique sessions and drop-in labs.
 - Promote the practice of content design in workshops, office hours, brown bags, and content-related events.
 - Write and publish conversational blog posts to raise awareness about the team’s work and promote the 18F brand.
-
 
 ## Basic Information
 
