@@ -52,7 +52,7 @@ inform public debate and enhance trust.
 
 Each country implements the EITI standard locally with the support of
 the broader EITI coalition, and through a multi-stakeholder group of
-government, civil society and industry.. Having an abundance of natural
+government, civil society and industry. Having an abundance of natural
 resources like oil and gas may seem like a good thing, but historically
 it has carried a few negative side effects such as an under-performing
 economy, a higher incidence of conflict, and poor governance. However,
