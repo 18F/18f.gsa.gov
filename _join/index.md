@@ -110,7 +110,7 @@ Each GS grade level contains a series of 10 steps, and new GS employees are usua
 
 The annual salary cap for all GS employees is $161,900 per year. You cannot be offered more than this under any circumstance.
 
-**The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) shows how level, step, and locality affect compensation.**
+**The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2017/general-schedule-gs-salary-calculator/) shows how level, step, and locality affect compensation.**
 
 #### Raises and bonuses
 
