@@ -7,6 +7,8 @@ navbar:
   permalink: /how-we-work/
 - text: About 18F
   permalink: /about/
+- text: Partnership Playbook
+  permalink: /playbook/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
@@ -25,6 +27,8 @@ drawer:
     permalink: /how-we-work/
   - text: About 18F
     permalink: /about/
+  - text: Partnership Playbook
+    permalink: /playbook/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:
@@ -41,6 +45,8 @@ footer:
     - /what-we-deliver/:path/
   - text: About 18F
     permalink: /about/
+  - text: Partnership Playbook
+    permalink: /playbook/
   - text: Join 18F
     permalink: /join/
   - text: Blog

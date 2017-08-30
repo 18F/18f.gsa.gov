@@ -5,19 +5,17 @@ layout: primary
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
 subnav_items:
-  - text: Our principles
-    permalink: /about/#our-principles
-  - text: Our team
-    permalink: /about/#our-team
-  - text: History and funding
-    permalink: /about/#history-and-funding
-  - text: For press
-    permalink: /about/#for-press
+  - text: Collaboration Principles
+    permalink: /playbook/#collaboration-principles
+  - text: Project Structure
+    permalink: /playbook/#project-structure
+  - text: Questions
+    permalink: /playbook/#questions
 ---
 
 18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology.
 
-## Our principles
+## Collaboration Principles
 
 We strive to work in a modern way and use best practices on all our projects. Here's what that means to us:
 
@@ -59,7 +57,7 @@ To learn more about how we work, explore [18F guides](https://pages.18f.gov/guid
 
 -----
 
-## Our team
+## Project Structure
 
 We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
 
@@ -74,7 +72,7 @@ We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-pro
 
 -----
 
-## History and funding
+## Questions
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
 
@@ -95,20 +93,3 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 -----
 
-## For press
-
-For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
-
-The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
-
-If you’re writing a story about 18F, feel free to use any of the images below.
-
-**Organizational logos:**
-  - [18F (SVG)]({{ site.baseurl }}/assets/img/logos/18f-logo.svg)
-  - [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
-
-**Product logos:**
-  - [cloud.gov (SVG)]({{ site.baseurl }}/assets/img/logos/cloud-gov-logo.svg)
-  - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
-
-[Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
