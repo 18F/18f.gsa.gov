@@ -187,7 +187,7 @@ You will be scored based on a review of your application materials, measuring yo
 - **Software Engineering Practices:** Ability to apply tools, technologies, and established engineering best practices to help deliver innovative technical solutions and products.
 - **Communication:** Ability to communicate effectively with a variety of audiences, particularly in consulting scenarios, to establish a shared vision and understanding of a project’s technical implementation, objectives and goals.
 - **Technical Strategy:** The ability to advise on technical strategy, agile development, software tools, and technical architecture.
-**18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
+- **18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
