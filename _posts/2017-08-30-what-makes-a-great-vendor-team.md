@@ -16,7 +16,7 @@ When our acquisition team helps an agency develop a product, we form a joint tea
 - Modern development techniques
 - Agile development 
 
-When each component of the our joint team is on the same page about these principles, we can effectively collaborate and build the trust necessary to successfully complete our work. Below, I’ll outline each of these concepts as they apply to cross-functional teams in the post-award IT services environment. 
+When each component of our joint team is on the same page about these principles, we can effectively collaborate and build the trust necessary to successfully complete our work. Below, I’ll outline each of these concepts as they apply to cross-functional teams in the post-award IT services environment. 
 
 ## Open software development
 
