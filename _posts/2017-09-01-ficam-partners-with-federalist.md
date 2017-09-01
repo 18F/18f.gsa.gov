@@ -8,7 +8,7 @@ tags:
 - identity
 - federalist
 - platforms
-excerpt: ""
+excerpt: "The General Services Administration has developed digital versions of its Federal Identity, Credential and Access Management Roadmap and associated implementation guidance and put them online with the adoption of 18F’s Federalist platform."
 image: 
 ---
 
