@@ -75,3 +75,44 @@
     @include unstyled-list;
   }
 }
+
+// ===icons====
+.icon-list-blog {
+  display: flex;
+  margin-bottom: 1rem;
+
+  @include media($medium-screen) {
+    margin-bottom: 1rem;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.icon-list-image-blog {
+  margin: 0;
+  margin-right: $site-margins;
+
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icon-list-text-blog {
+  margin-top: 2em;
+
+  .p-bold {
+    margin-bottom: $spacer-margins;
+  }
+
+  &:last-of-type p {
+    margin-top: 0;
+  }
+}
+
+.icon-list-wrapper-blog {
+  padding-left: 0;
+}
+
