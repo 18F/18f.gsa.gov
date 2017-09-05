@@ -1,6 +1,6 @@
 ---
 title: "FICAM partners with Federalist on new federal identity playbooks"
-date: 2017-09-01 (optional)
+date: 2017-09-05
 authors:
 - jim-sheire
 tags:
