@@ -21,7 +21,7 @@ subnav_items:
     permalink: /#key-objective-4-youll-lead-change-within-and-outside-the-organization-to-meet-organizational-goals-youll-help-establish-an-organizational-vision-and-implement-it-in-a-continuously-changing-environment
 breadcrumb: true
 published: false
-listed: true
+listed: false
 ---
 
 ## Position Summary
