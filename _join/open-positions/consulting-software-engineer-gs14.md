@@ -23,8 +23,8 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
  
 We're hiring a Consulting Software Engineer GS-14 to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/consulting-software-engineer-gs14/#duties) and [Qualifications]({{site.baseurl}}/join/consulting-software-engineer-gs14/#qualifications) ont his page are specific to the GS-14 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
