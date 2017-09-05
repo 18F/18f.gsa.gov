@@ -8,7 +8,7 @@ tags:
 - identity
 - federalist
 - platforms
-excerpt: ""
+excerpt: "This past year, GSA’s Office of Government-wide Policy (OGP) Federal Identity, Credential, and Access Management (FICAM) team launched a series of revamped digital tools designed to update and replace the Federal ICAM Enterprise Architecture and Roadmap. To modernize the original FICAM Roadmap and implementation guidance, a cross-government team began migrating the information to interactive FICAM Playbooks. These playbooks provide common patterns to help agencies properly implement and execute FICAM"
 image: 
 ---
 
@@ -25,12 +25,40 @@ What may not be obvious from the surface is that the new FICAM Playbooks are bui
 The FICAM team had already been using GitHub to host, develop, and publish content for the FICAM playbooks, but our goal was to find a platform that’d allow agencies to share valuable expertise in an easier, more collaborative manner. We worked with GSA’s 18F team, whose role is to partner with agencies to fix technical problems, build products, and improve how government serves the public through technology. When we began revamping the playbooks, choosing the Federalist platform was an easy decision considering the following benefits:
 
 ### What we got from Federalist
-      
-- Low-cost platform as a service that included Operations and Maintenance (O&M) and an Authorization to Operate (ATO)    
-- Government-hosted compliance using a .gov domain and conformance with HTTPS best practices 
-- Available to any contributor to submit suggestions and edits 
-- Minimal identity and access management administrative costs 
-- Automated deployments / scalability 
+
+<section class="usa-grid">
+	<div class="icon-list-blog">
+		<figure class="icon-list-image">{% include svg/blog/money_coins.svg %}</figure>
+		<div class="icon-list-text-blog">
+ 			<p class="p-bold">Low-cost platform as a service that included Operations and Maintenance (O&M) and an Authorization to Operate (ATO) </p>
+		</div>
+	</div>
+	<div class="icon-list-blog">
+		<figure class="icon-list-image-blog">{% include svg/blog/to_do_list_done.svg %}</figure>
+		<div class="icon-list-text-blog">
+			<p class="p-bold">Government-hosted compliance using a .gov domain and conformance with HTTPS best practices </p>
+		</div>
+	</div>
+	<div class="icon-list-blog">
+		<figure class="icon-list-image-blog">{% include svg/blog/brain_thinking.svg %}</figure>
+		<div class="icon-list-text-blog">
+		  <p class="p-bold">Available to any contributor to submit suggestions and edits</p>
+		</div>
+	</div>
+	<div class="icon-list-blog">
+		<figure class="icon-list-image-blog">{% include svg/blog/laptop_user_login.svg %}</figure>
+		<div class="icon-list-text-blog">
+		  <p class="p-bold">Minimal identity and access management administrative costs</p>
+		</div>
+	</div>
+	<div class="icon-list-blog">
+		<figure class="icon-list-image-blog">{% include svg/blog/upload_cloud.svg %}</figure>
+		<div class="icon-list-text-blog">
+		  <p class="p-bold">Automated deployments / scalability</p>
+		</div>
+	</div>
+</section>
+        
 
 The Federalist platform has allowed for easy and efficient creation and editing of Playbook content by the FICAM team and outside contributors. Three FICAM Playbook sites are now live:
 - **Personal Identity Verification (PIV) Guide** – focuses on using PIV credentials for logical access, like authenticating to networks or applications.
