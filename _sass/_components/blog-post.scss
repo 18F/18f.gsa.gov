@@ -79,7 +79,7 @@
 // ===icons====
 .icon-list-blog {
   display: flex;
-  margin-bottom: $paragraph-margins;
+  margin-bottom: 1rem;
 
   @include media($medium-screen) {
     margin-bottom: $paragraph-margins-thick;
