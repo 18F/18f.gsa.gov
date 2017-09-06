@@ -12,7 +12,7 @@ excerpt: "The General Services Administration has developed digital versions of 
 image: 
 ---
 
-_Jim Sheire is the director of the Federal Identity, Credential, and Access Management (FICAM) program._ 
+_Jim Sheire is the director of the Federal Identity, Credential, and Access Management (FICAM) program. Originally published on [GSA's blog](https://gsablogs.gsa.gov/gsablog/2017/08/22/ficam-program-collaborates-with-18f-to-deliver-key-gsa-cyber-security-tools-and-resources/)._ 
 
 This past year, GSA’s Office of Government-wide Policy (OGP) Federal Identity, Credential, and Access Management (FICAM) team launched a series of revamped digital tools designed to update and replace the [Federal ICAM Enterprise Architecture](https://arch.idmanagement.gov/) and [Roadmap](https://www.idmanagement.gov/build/#roadmap). To modernize the original FICAM Roadmap and implementation guidance, a cross-government team began migrating the information to interactive [FICAM Playbooks](https://www.idmanagement.gov/build/#playbooks). These playbooks provide common patterns to help agencies properly implement and execute FICAM.  
 
