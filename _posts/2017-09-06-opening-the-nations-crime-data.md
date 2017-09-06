@@ -7,6 +7,7 @@ tags:
 - department of justice
 - fbi
 - open data
+- agency work
 excerpt: ""
 image: /assets/blog/fbi-crime-data/homicide-line-graph.png
 ---
@@ -19,17 +20,17 @@ For more than eight decades, the Federal Bureau of Investigation has collected n
 </figure>
 
 
-The UCR Program is one of the nation’s most sought after crime datasets, and, until now, was spread across four FBI publications: _Crime in the United States, National Incident-Based Reporting System, Law Enforcement Officers Killed and Assaulted, and Hate Crime Statistics_. The Crime Data Explorer brings all of those sources together in one easy-to-use interface.You can use the Crime Data Explorer to look at changes in trends over time or download specialized datasets, like drug arrests, for your own analyses. The Crime Data Explorer is also powered by an open [API](https://crime-data-explorer.fr.cloud.gov/api) (application programming interface) that can be used by others to build their own applications using UCR data.
+The UCR Program is one of the nation’s most sought after crime datasets, and, until now, was spread across four FBI publications: _Crime in the United States, National Incident-Based Reporting System, Law Enforcement Officers Killed and Assaulted,_ and _Hate Crime Statistics_. The Crime Data Explorer brings all of those sources together in one easy-to-use interface. You can use the Crime Data Explorer to look at changes in trends over time or download specialized datasets, like drug arrests, for your own analyses. The Crime Data Explorer is also powered by an open [API](https://crime-data-explorer.fr.cloud.gov/api) (application programming interface) that can be used by others to build their own applications using UCR data.
 
 Broadening access to this data helps people better understand crime in their communities. It aso helps promote citizen engagement, improve resource allocation for communities, and will lead to more transparency and accountability within law enforcement agencies. Further, law enforcement can use this tool to benchmark their progress and see how reported crime rates compare across the nation.
 
 Specifically, users of the site can:
 
-- Easily search, sort, and compare crime statistics by location (both nationwide and in each of the 50 states), time period, and type of crime using a national map or various drop down filters; 
-- After filtering results, view charts and graphs that break down data in a variety of formats; 
-- Display data in either summary statistics and incident-based reports (if available); 
-- Download tailored reports produced by queries, NIBRS information by location/year, and bulk datasets going back several decades; and
-= Use the API to build their own web applications.
+- Easily search, sort, and compare crime statistics by location (both nationwide and in each of the 50 states), time period, and type of crime using a national map or various drop down filters
+- After filtering results, view charts and graphs that break down data in a variety of formats 
+- Display data in either summary statistics and incident-based reports (if available) 
+- Download tailored reports produced by queries, NIBRS information by location/year, and bulk datasets going back several decades
+- Use the API to build their own web applications.
 
 [https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide)
 
