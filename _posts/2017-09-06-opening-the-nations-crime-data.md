@@ -8,21 +8,25 @@ tags:
 - fbi
 - open data
 - agency work
-excerpt: ""
-image: /assets/blog/fbi-crime-data/homicide-line-graph.png
+excerpt: "For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the Uniform Crime Reporting (UCR) Program. While the data has always been publicly available via static reports, the first release of the Crime Data Explorer makes it easier than ever for anyone to access and use the data. 
+"
 ---
 
 For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the [Uniform Crime Reporting (UCR) Program](https://ucr.fbi.gov/). While the data has always been publicly available via static reports, the first release of the [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/) makes it easier than ever for anyone to access and use the data. 
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/crime-data-explorer-home.png" alt="The home page of Crime Data Explorer"/>
-   	<figcaption>Crime Data Explorer home page</figcaption>
+   	<figcaption><a href="https://crime-data-explorer.fr.cloud.gov/">Crime Data Explorer</a> home page</figcaption>
 </figure>
 
 
 The UCR Program is one of the nation’s most sought after crime datasets, and, until now, was spread across four FBI publications: _Crime in the United States, National Incident-Based Reporting System, Law Enforcement Officers Killed and Assaulted,_ and _Hate Crime Statistics_. The Crime Data Explorer brings all of those sources together in one easy-to-use interface. You can use the Crime Data Explorer to look at changes in trends over time or download specialized datasets, like drug arrests, for your own analyses. The Crime Data Explorer is also powered by an open [API](https://crime-data-explorer.fr.cloud.gov/api) (application programming interface) that can be used by others to build their own applications using UCR data.
 
 Broadening access to this data helps people better understand crime in their communities. It aso helps promote citizen engagement, improve resource allocation for communities, and will lead to more transparency and accountability within law enforcement agencies. Further, law enforcement can use this tool to benchmark their progress and see how reported crime rates compare across the nation.
+
+
+![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/fbi-crime-data/az-breakdown.gif)
+
 
 Specifically, users of the site can:
 
@@ -32,22 +36,16 @@ Specifically, users of the site can:
 - Download tailored reports produced by queries, NIBRS information by location/year, and bulk datasets going back several decades
 - Use the API to build their own web applications.
 
-[https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide)
-
-
-![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/fbi-crime-data/az-breakdown.gif)
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/homicide-line-graph.png" alt="A line graph of the state of Arizona's homicide rate between 2004 - 2014"/>
-   	<figcaption>Breakdown of the state of Arizona's homicide rate</figcaption>
+   	<figcaption>Breakdown of the state of <a href="https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide">Arizona's homicide rate</a></figcaption>
 </figure>
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/homicide-bar-graph.png" alt="A bar graph depicting rates of homicide as reported by the Phoenix Police from 2004-2014"/>
-	<figcaption>Homicide rates as reported by the Phoenix Police from 2004-2014</figcaption>
+	<figcaption>Homicide rates as reported by the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide">Phoenix Police from 2004-2014</a></figcaption>
 </figure>
-
-[https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide)
 
 The major goals for this project included applying [open data principles](https://project-open-data.cio.gov/principles/) to UCR Program data and building the tool in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and optimize our work and tested the tool with nearly 150 people inside and outside of the government. 
 
