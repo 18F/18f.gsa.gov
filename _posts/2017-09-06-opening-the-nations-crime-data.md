@@ -32,22 +32,21 @@ Specifically, users of the site can:
 - Download tailored reports produced by queries, NIBRS information by location/year, and bulk datasets going back several decades
 - Use the API to build their own web applications.
 
-[https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide)
 
 
 ![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/fbi-crime-data/az-breakdown.gif)
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/homicide-line-graph.png" alt="A line graph of the state of Arizona's homicide rate between 2004 - 2014"/>
-   	<figcaption>Breakdown of the state of Arizona's homicide rate</figcaption>
+   	<figcaption>Breakdown of the state of [Arizona's homicide rate](https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/homicide)</figcaption>
 </figure>
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/homicide-bar-graph.png" alt="A bar graph depicting rates of homicide as reported by the Phoenix Police from 2004-2014"/>
-	<figcaption>Homicide rates as reported by the Phoenix Police from 2004-2014</figcaption>
+	<figcaption>Homicide rates as reported by the [Phoenix Police from 2004-2014](https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide)</figcaption>
 </figure>
 
-[https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide)
+[https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide]
 
 The major goals for this project included applying [open data principles](https://project-open-data.cio.gov/principles/) to UCR Program data and building the tool in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and optimize our work and tested the tool with nearly 150 people inside and outside of the government. 
 
