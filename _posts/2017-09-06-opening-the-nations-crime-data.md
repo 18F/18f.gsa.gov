@@ -44,7 +44,7 @@ Specifically, users of the site can:
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/homicide-bar-graph.png" alt="A bar graph depicting rates of homicide as reported by the Phoenix Police from 2004-2014"/>
-	<figcaption>caption here</figcaption>
+	<figcaption>Homicide rates as reported by the Phoenix Police from 2004-2014</figcaption>
 </figure>
 
 [https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide](https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide)
