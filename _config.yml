@@ -36,9 +36,9 @@ collections:
   about:
     output: true
     permalink: /:path/
-  playbook:
+  principles:
     output: true
-    permalink: /playbook/:path/
+    permalink: /partnership-principles/:path/
   join:
     output: true
     permalink: /join/:path/
@@ -90,11 +90,11 @@ defaults:
     subnav_anchor: /about/
  -
   scope:
-    path: "_playbook"
+    path: "_principles"
   values:
     layout: primary
     include_subnav: true
-    subnav_anchor: /playbook/
+    subnav_anchor: /partnership-principles/
  -
   scope:
     path: "_join"
