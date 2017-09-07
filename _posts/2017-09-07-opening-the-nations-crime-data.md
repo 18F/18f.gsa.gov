@@ -1,6 +1,6 @@
 ---
 title: "Opening the nation’s crime data"
-date: 2017-09-06 (optional)
+date: 2017-09-07 (optional)
 authors: 
 - ryan-sibley
 tags:
@@ -10,6 +10,7 @@ tags:
 - agency work
 excerpt: "For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the Uniform Crime Reporting (UCR) Program. While the data has always been publicly available via static reports, the first release of the Crime Data Explorer makes it easier than ever for anyone to access and use the data. 
 "
+image: /assets/blog/fbi-crime-data/fbi-hero-1040.png
 ---
 
 For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the [Uniform Crime Reporting (UCR) Program](https://ucr.fbi.gov/). While the data has always been publicly available via static reports, the first release of the [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/) makes it easier than ever for anyone to access and use the data. 
