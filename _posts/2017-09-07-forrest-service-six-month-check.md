@@ -12,6 +12,9 @@ tags:
 - procurement
 excerpt: "The Technology Transformation Services has been working with the Forest Service in an effort to move their permitting process online. In this post, we’ll focus on how taking a step back to check your assumptions can reduce the risk that your project will go off course."
 ---
+
+_Rebecca and Michael work here at TTS. Aaron Burk is a Senior Project Manager at the Forest Service and the product owner for this project with the Forest Service._
+
 The Technology Transformation Services has been working with the Forest Service in an effort to move their permitting process online. We’ve previously written about how doing this [work in the open can benefit other agencies](https://18f.gsa.gov/2017/03/15/one-agencys-investments-open-source-mean-others-benefit/) with permit systems. In this post, we’ll focus on how taking a step back to check your assumptions can reduce the risk that your project will go off course. 
 
 ## Stepping back
