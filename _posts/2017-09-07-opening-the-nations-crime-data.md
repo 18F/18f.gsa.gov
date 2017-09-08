@@ -23,7 +23,7 @@ For more than eight decades, the Federal Bureau of Investigation has collected n
 
 The UCR Program is one of the nation’s most sought after crime datasets, and, until now, was spread across four FBI publications: _Crime in the United States, National Incident-Based Reporting System, Law Enforcement Officers Killed and Assaulted,_ and _Hate Crime Statistics_. The Crime Data Explorer brings all of those sources together in one easy-to-use interface. You can use the Crime Data Explorer to look at changes in trends over time or download specialized datasets, like drug arrests, for your own analyses. The Crime Data Explorer is also powered by an open [API](https://crime-data-explorer.fr.cloud.gov/api) (application programming interface) that can be used by others to build their own applications using UCR data.
 
-Broadening access to this data helps people better understand crime in their communities. It aso helps promote citizen engagement, improve resource allocation for communities, and will lead to more transparency and accountability within law enforcement agencies. Further, law enforcement can use this tool to benchmark their progress and see how reported crime rates compare across the nation.
+Broadening access to this data helps people better understand crime in their communities. It also helps promote citizen engagement, improve resource allocation for communities, and will lead to more transparency and accountability within law enforcement agencies. Further, law enforcement can use this tool to benchmark their progress and see how reported crime rates compare across the nation.
 
 
 ![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/fbi-crime-data/az-breakdown.gif)
