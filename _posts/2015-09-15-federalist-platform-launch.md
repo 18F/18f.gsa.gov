@@ -19,7 +19,7 @@ hero: false
 
 ![The new White House Social and Behavioral Sciences Team homepage]({{site.baseurl}}/assets/blog/federalist/sbst-screenshot-2.jpg)
 
-_Summer 2017 Update: Federalist [left beta in June 2017](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/) and is currently seeking new customers. Email us at inquiries18f@gsa.gov or fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform) if you're interested in using Federalist for your office._
+_Summer 2017 Update: Federalist [left beta in June 2017](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/) and is currently seeking new customers. Email us at federalist-inquiries@gsa.gov or fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform) if you're interested in using Federalist for your office._
 
 Today, the White House Social and Behavioral Sciences Team (SBST)
 [launched their new website](https://sbst.gov/).
