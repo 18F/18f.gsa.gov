@@ -10,6 +10,7 @@ tags:
 - agile bpa
 - acquisition services
 - procurement
+redirect_from: /2017/09/08/forrest-service-six-month-check/
 excerpt: "The Technology Transformation Services has been working with the Forest Service in an effort to move their permitting process online. In this post, we’ll focus on how taking a step back to check your assumptions can reduce the risk that your project will go off course."
 ---
 
