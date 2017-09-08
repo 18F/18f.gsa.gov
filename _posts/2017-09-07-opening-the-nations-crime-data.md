@@ -62,9 +62,4 @@ In making this data more accessible, we’re optimistic that more agencies will 
 
 Creating the Crime Data Explorer was a bold step towards improving transparency around crime reporting for the FBI. This was an explicit goal and benefit of building this product. Additionally, the staff at the FBI’s Criminal Justice Information Services Division (the team responsible for facilitating UCR data and now the Crime Data Explorer) worked closely with 18F throughout the design and development process, participated in usability testing, and showed a lot of patience and commitment to delivering the best possible product as they adapted to new ways of working. The FBI team embraced agile software development, user-centered design, iterative releases, using plain language, and open source technology — all of which paves the way for further innovation within the Uniform Crime Reporting Program and inside the FBI.  
 
-
-
-
-
-
-
+_Visuals by Aviva Oskow._
