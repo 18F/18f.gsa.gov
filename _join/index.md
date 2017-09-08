@@ -146,9 +146,9 @@ There are many guides to building a government-style resume. Here are several re
 
 This guide shows how to format a government-style resume and what information to include:
 
-> **Name**
-> **City and state of current residence**
-> **Email address**
+> **Name**  
+> **City and state of current residence**  
+> **Email address**  
 > **Phone number**
 >
 > **TECHNICAL SKILLS & TOOLS**
@@ -168,9 +168,9 @@ This guide shows how to format a government-style resume and what information to
 >
 > *See below for employment history formatting.*
 >
-> **Role/title, Company name**
-> **City, State (if within the U.S.) or City, Country**
-> **Duration of employment (MM/YYYY - MM/YYYY or Present)**
+> **Role/title, Company name**  
+> **City, State (if within the U.S.) or City, Country**  
+> **Duration of employment (MM/YYYY - MM/YYYY or Present)**  
 > **“Full-time” or “Part-time,” Number of hours per week: __**
 >
 > For each listing, include a one-sentence description of the company, including the mission. This will help us understand the scope of your work, the context of your contributions, the scale of the company, and your role.
@@ -186,13 +186,14 @@ This guide shows how to format a government-style resume and what information to
 >
 > If you were unemployed at any point, please indicate this. Unemployment is completely acceptable and understood — we just need a full timeline with no gaps. For instance:
 >
-> **Unemployed**
+> **Unemployed**  
 > **Start MM/YYYY - End MM/YYYY**
+>
 > Brief explanation (Took time to travel, to be with my family, and so on) to the extent you’re comfortable sharing. It's also OK not to include a description.
 >
 > **EDUCATION**
 >
-> **Name of college/university/institution, City, State**
+> **Name of college/university/institution, City, State**  
 > Type of degree, major and minor, MM/YYYY degree received
 > Graduation honors, if applicable
 >
