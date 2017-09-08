@@ -1,6 +1,6 @@
 ---
 title: "Forest Service: Six months in, checking our assumptions"
-date: 2017-09-07
+date: 2017-09-08
 authors:
 - rebecca-refoy-sidibe
 - michael-torres
