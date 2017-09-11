@@ -4,7 +4,7 @@ permalink: /join/acquisition-technical-lead-gs14/
 layout: primary
 lead:
 app_close_date: Friday, September 22, 2017
-subnav_title: Technical Lead  GS-14 
+subnav_title: Technical Lead  GS-14
 subnav_items:
   - text: Role summary
     permalink: /#role-summary
@@ -26,12 +26,12 @@ breadcrumb: true
 published: true
 listed: true
 ---
- 
+
 We're hiring a Technical Lead to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/acquisition-technical-lead-gs14/#duties) and [Qualifications]({{site.baseurl}}/join/acquisition-technical-lead-gs14/#qualifications) on this page are specific to the GS-14 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Technical Lead position.**
 
-## Role Summary: 
+## Role Summary:
 
 ### Technical Lead GS-14
 
@@ -72,16 +72,16 @@ Identify and analyze problems in a constructive manner.
 
 ## Basic Information
 
-**Job announcement number:** 
+**Job announcement number:**
 1700617JCOTR
 
 **Opening and closing period for this job application:**
-(open) Monday September 11 to Friday September 22, 2017, 11:59 pm Eastern Time (close) 
+(open) Monday September 11 to Friday September 22, 2017, 11:59 pm Eastern Time (close)
 
-**Job Title:** 
+**Job Title:**
 Innovation Specialist
 
-**Series & Grade:** 
+**Series & Grade:**
 0301-14
 
 **Promotion Potential:**
@@ -91,25 +91,25 @@ GS-14
 
 Total compensation will include locality pay based on the individual's duty location. With locality pay, the pay may range from $88,136 to $121,778. For locality pay details, please visit [https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/). If you are a new federal employee, your starting salary will likely be set at the Step 1 of the grade for which you are selected.  
 
-**Location:** 
-Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Virtual (100% remote) 
+**Location:**
+Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Virtual (100% remote)
 
-**Number of vacancies:** 
+**Number of vacancies:**
 1 (Additional vacancies may be filled from this announcement as needed)  
 
-**Supervisory status:** 
+**Supervisory status:**
 No
 
-**Travel requirement:** 
-Occasional travel may be required up to 10% per year 
+**Travel requirement:**
+Occasional travel may be required up to 10% per year
 
 **Who May Apply:**
 All United States citizens and nationals (residents of American Samoa and Swains Islands) and applicants must not be GSA employees or contractors
 
-**Security clearance:** 
-Public trust. Background investigation required. 
+**Security clearance:**
+Public trust. Background investigation required.
 
-**Work Schedule:** 
+**Work Schedule:**
 Full time
 
 **Appointment Type:**
@@ -117,14 +117,14 @@ Excepted Service – Not to exceed 2 years; may be extended for an additional 2 
 
 ## Job Summary
 
-This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 
+This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology.
 
-As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. 
+As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government.
 
-This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of 18F.
+This position is located within the General Services Administration (GSA), Technology Transformation Services (TTS), Office of Acquisition.
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'.
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
 - Health insurance (choose from a wide range of plans)
@@ -143,7 +143,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
 2. Suitable for federal employment, determined by a background investigation.
 3. You may be required to serve a trial period.
-4. Direct Deposit of salary check to financial organization required. 
+4. Direct Deposit of salary check to financial organization required.
 5. Register with Selective Service, if you are a male born after 12/31/1959.
 
 
@@ -154,7 +154,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
 
-## Duties 
+## Duties
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward-thinking design and development principles to product or services development, delivery and program management, such as lean startup, user-centered design, and agile development;
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
 - Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
@@ -167,22 +167,22 @@ We will use a method called Category Rating to assess your application.
 
 **Here’s how it will work:**
 
-You will be scored based on a review of your application materials, measuring your possession of each of the following competencies: 
+You will be scored based on a review of your application materials, measuring your possession of each of the following competencies:
 
-- **Software Engineering Technical Experience:** The ability to use software engineering technologies to ensure the delivery of technical solutions and products. 
-- **Software Engineering Practices:** The ability to apply tools, technologies, and established engineering best practices to help ensure the delivery of innovative technical solutions and products. 
+- **Software Engineering Technical Experience:** The ability to use software engineering technologies to ensure the delivery of technical solutions and products.
+- **Software Engineering Practices:** The ability to apply tools, technologies, and established engineering best practices to help ensure the delivery of innovative technical solutions and products.
 - **Communication:** The ability to communicate effectively with a variety of audiences to establish and advocate for a shared vision and understanding of a project’s technical implementation, objectives, and goals.
-- **Technical Strategy:** The ability to advise on technical strategy, agile development, software tools, and technical architecture. 
-- **TTS Core Values Alignment:** The ability to work with integrity, transparency, and resiliency in civic minded or high impact environments. 
+- **Technical Strategy:** The ability to advise on technical strategy, agile development, software tools, and technical architecture.
+- **TTS Core Values Alignment:** The ability to work with integrity, transparency, and resiliency in civic minded or high impact environments.
 
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
-If your resume does not support your possession of the competencies listed above, we may lower your score, which could place you in a lower category. 
-  
+If your resume does not support your possession of the competencies listed above, we may lower your score, which could place you in a lower category.
+
 Within each category, veterans will receive selection priority over non-veterans if supported by appropriate documentation.
 
-## Qualifications 
+## Qualifications
 
 - To qualify, you must have one year of specialized experience equivalent to the GS-13 in the Federal service. Specialized experience is:
 - Use of innovative software engineering technologies such as dynamic programming languages, relational and/or non-relational database programming, web development, containerization, cloud technologies, infrastructure automation, configuration management, and/or Unix-based operating systems.
@@ -211,10 +211,10 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
 - **Resume**
-	- For a brief video on creating a federal resume, click [here](http://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx). 
+	- For a brief video on creating a federal resume, click [here](http://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx).
 	- If you have volunteered your service through a National Service program (e.g. Peace Corps, Americorps), we encourage you to apply and include this experience on your resume.
 
-- **Completed application** 
+- **Completed application**
 
 - **If you are claiming veterans preference:**
 	- Copy of your Certificate of Release or Discharge From Active Duty, DD-214 that shows the dates of your active duty service.  If selected, a DD-214 showing your type of discharge (member 4 copy) will be required prior to appointment.  
@@ -224,7 +224,7 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
 		- **If you are claiming veterans preference**, you **MUST** submit all Veteran’s documentation to Jacqueline Coleman <jacqueline.coleman@gsa.gov> by the job posting closing date. Please subject the email “Veteran’s documentation for Job Posting 1700617JCOTR”.
 - **If you are active duty military:** Certification on a letterhead from your military branch that includes your rank, character of service (must be under honorable conditions) & military service dates including discharge/release date (must be no later than 120 days after the date the certification is submitted).
 
-## Other Information 
+## Other Information
 Bargaining Unit status: Non Bargaining Unit
 
 Relocation-related expenses are not approved and will be your responsibility.  
@@ -257,5 +257,3 @@ After the closing date:
 4. **FINAL JOB OFFER:** Once our security office determines you can come on board, you will be given a final offer.
 
 **Thank you for your interest in working for U.S. General Services Administration!**
-
-
