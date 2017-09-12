@@ -7,7 +7,7 @@ authors:
 tags:
 - state and local practice
 - acquisition services
-excerpt: "Alaska’s Department of Health & SocialServices is working
+excerpt: "Alaska’s Department of Health & Social Services is working
 with the Technology Transformation Services’ Office of Acquisition on a
 new approach to product and acquisition management to develop a modern,
 integrated eligibility system for their Division of Public
@@ -19,8 +19,7 @@ image:
 *Randy works here at TTS. Jon Geselle is the Contracts and Procurement Manager at Alaska’s
 Department of Health & Social Services.*
 
-[Alaska’s Department of Health & Social
-Services](http://www.dhss.alaska.gov/Pages/default.aspx) is working
+[Alaska’s Department of Health & Social Services](http://www.dhss.alaska.gov/Pages/default.aspx) is working
 with the Technology Transformation Services’ Office of Acquisition on a
 new approach to product and acquisition management to develop a modern,
 integrated eligibility system for their [Division of Public
@@ -37,8 +36,7 @@ Being open
 
 Turning the tide of all-too-common, problem-plagued government
 technology procurements requires avoiding doing things the same old way.
-That’s what the State of Alaska’s Department of Health and Social
-Services, Division of Public Assistance is doing in its effort to
+That’s what the State of Alaska’s Department of Health and Social Services, Division of Public Assistance is doing in its effort to
 modernize its eligibility systems.
 
 Shrouding the procurement preparation process in secrecy is one of those
