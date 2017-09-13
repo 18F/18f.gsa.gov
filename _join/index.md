@@ -73,7 +73,7 @@ If 18F identifies you as a strong match after interviews, your 18F recruiter wil
 
 ## After your interviews
 
-The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They''re responsible for extending tentative and official final offers. Here's how that works:
+The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They're responsible for extending tentative and official final offers. Here's how that works:
 
 1. A GSA HR specialist calls you with a tentative offer, including salary. "Tentative" means the offer is contingent on [security clearance](#security-clearance-documents).
 2. If you accept the tentative offer, then we move to the next step.
