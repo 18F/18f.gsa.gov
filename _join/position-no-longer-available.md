@@ -18,6 +18,7 @@ redirect_from:
   - /join/consulting-software-engineer-gs15/
   - /join/content-designer-gs14/
   - /join/content-designer-gs15/
+  - /join/front-end-engineer/
 ---
 
 Head over to the [Join 18F page](https://18f.gsa.gov/join/) to see current open positions or learn more about the application process. You can also [sign up for the 18F Newsletter](https://18f.gsa.gov/contact/) to receive regular updates, including new open positions. 
