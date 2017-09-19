@@ -43,6 +43,6 @@ Empowering agencies to transform the way they’ve historically designed technol
    	<figcaption>With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate.</figcaption>
 </figure>
 
-### Back to testing
+## Back to testing
 
 We used human-centered design techniques to guide these changes to the cards, and now we’re back at it to test how well they work — with real users. If you’d like to reach out about your experience using the cards, you can reach us at [18F@gsa.gov](mailto:18F@gsa.gov) or give us feedback on the new site in a [GitHub issue](https://github.com/18F/methods/issues). We will let you know what our research turns up!
