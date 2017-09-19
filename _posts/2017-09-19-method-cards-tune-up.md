@@ -11,10 +11,10 @@ tags:
 - user centered design
 - open source
 - how we work
-excerpt: "A couple of weeks ago, 18F released a new version of the Method Cards, a collection of tools that offer simple, “how-to” descriptions of research and design methods with a special emphasis on the use of those methods in government work. With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate."
+excerpt: "Recently, 18F released a new version of the Method Cards, a collection of tools that offer simple, “how-to” descriptions of research and design methods with a special emphasis on the use of those methods in government work. With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate."
 ---
 
-A couple of weeks ago, 18F released [a new version of the Method Cards](https://methods.18f.gov/), a collection of tools that offer simple, “how-to” descriptions of research and design methods with a special emphasis on the use of those methods in government work. With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate. We’ve also made it simpler for 18F to maintain the cards, which means you’ll get updates more frequently. The goal for all of this is to help people choose and apply human-centered design approaches when solving problems in government.
+Recently, 18F released [a new version of the Method Cards](https://methods.18f.gov/), a collection of tools that offer simple, “how-to” descriptions of research and design methods with a special emphasis on the use of those methods in government work. With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate. We’ve also made it simpler for 18F to maintain the cards, which means you’ll get updates more frequently. The goal for all of this is to help people choose and apply human-centered design approaches when solving problems in government.
 
 ## Meeting people where they are
 
