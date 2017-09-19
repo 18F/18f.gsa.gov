@@ -14,7 +14,7 @@ tags:
 excerpt: "The Technology Transformation Services (TTS) has been working with the Forest Service in an effort to move their permitting process online. We’ve previously written about how doing this work in the open can benefit other agencies with permit systems. In this post, we’ll focus on why it’s important to have a product owner, what that looks like from the Forest Service’s perspective, and why a product owner is critical to successful projects."
 ---
 
-_Rebecca work here at TTS. Aaron Burk is a Senior Project Manager at the Forest Service and the product owner for this project with the Forest Service._
+_Rebecca works here at TTS. Aaron Burk is a Senior Project Manager at the Forest Service and the product owner for this project with the Forest Service._
 
 The Technology Transformation Services (TTS) has been working with the Forest Service in an effort to move their permitting process online. We’ve previously written about how doing this [work in the open can benefit other agencies](https://18f.gsa.gov/2017/03/15/one-agencys-investments-open-source-mean-others-benefit/) with permit systems. In this post, we’ll focus on why it’s important to have a product owner, what that looks like from the Forest Service’s perspective, and why a product owner is critical to successful projects.
 
