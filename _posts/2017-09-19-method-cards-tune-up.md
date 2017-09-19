@@ -8,7 +8,7 @@ authors:
 tags:
 - design
 - guides
-- user centered design
+- user-centered design
 - open source
 - how we work
 excerpt: "Recently, 18F released a new version of the Method Cards, a collection of tools that offer simple, “how-to” descriptions of research and design methods with a special emphasis on the use of those methods in government work. With this new release, the Method Cards have become easier to read and understand, as well as easier to print and circulate."
