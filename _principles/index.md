@@ -27,9 +27,9 @@ The first thing you may notice when partnering with 18F is that your team will b
 - [Understanding your problem first]({{site.baseurl}}/partnership-principles/#understanding-your-problem-first)
 - [Partnering with an empowered product owner]({{site.baseurl}}/partnership-principles/#partnering-with-an-empowered-product-owner)
 
-In this document, we’ll explain each idea and how it will influence our work together. We’ll also provide some prompting questions you can use with stakeholders in your agency to make sure your team is ready to work with 18F. 
+In this document, we’ll explain each idea and how it will influence our work together. 
 
-[Download a PDF version of the Playbook here]({{site.baseurl}}/partnership-principles/18FPartnershipPrinciples.pdf)
+[Download a PDF version of the Principles here]({{site.baseurl}}/partnership-principles/18FPartnershipPrinciples.pdf)
 
 # Methodologies
 
@@ -43,7 +43,7 @@ We'll interview and observe users interacting with your service or product and u
 
 ## <a name="working-in-an-agile-way"></a> Working in an agile way
 
-We develop software using [agile](https://pages.18f.gov/agile/) and lean methodologies. These approaches are the norm in the private sector, and they differ considerably from basing work on requirement documents. Instead of determining all our necessary features up front, we’ll build the product in stages, testing along the way to ensure that we’re meeting user needs and responding quickly to any changes in requirements, goals, policy, or outside factors.
+We develop software using [agile](https://pages.18f.gov/agile/) and lean methodologies. These approaches are the norm in the private sector, and they differ considerably from basing work on requirement documents. Instead of determining all the necessary features up front, we’ll build the product in stages, testing along the way to ensure that we’re meeting user needs and responding quickly to any changes in requirements, goals, policy, or outside factors.
 
 It can be stressful to start a project without being able to clearly list the final features. But we will start out with a very clear sense of your goals, and our techniques will ensure that we hew to those goals closely, building on successes along the way. Our techniques will also give your agency good visibility into the project’s evolution, timeframe, and budget.
 
@@ -60,7 +60,7 @@ One of 18F’s core principles is to make our work available to the public whene
 Using open source code in product development
 Conducting project activities in publicly-viewable forums whenever possible
 
-These methods are proven to help build stronger services, save government resources, and better fulfill our duty to serve the public. Learn more from the Federal Open Source Policy.
+These methods are proven to help build stronger services, save government resources, and better fulfill our duty to serve the public. Learn more from the [Federal Open Source Policy](https://sourcecode.cio.gov/).
 
 Of course, we’ll work together to ensure that any contracting, national security, personally identifiable, or other sensitive information is properly protected. 
 
@@ -101,6 +101,6 @@ The product owner will be an integral part of the project team. While they may n
 
 # Got questions?
 
-If you already have a primary contact at 18F, they can answer any questions you may have about these principles. If you don’t yet have a primary contact, please reach out to our Agency Partnerships team at inquiries18f@gsa.gov. We’ll be more than happy to discuss possibilities and concerns. 
+If you already have a primary contact at 18F, they can answer any questions you may have about these principles. If you don’t yet have a primary contact, please reach out to our Agency Partnerships team at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov). We’ll be more than happy to discuss possibilities and concerns. 
 
 
