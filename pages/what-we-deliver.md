@@ -2,7 +2,7 @@
 title: What we deliver
 permalink: /what-we-deliver/
 layout: primary
-lead: We help federal agencies build, buy, and share modern digital services to improve the user experience of government.
+lead: We partner with federal agencies to build, buy, and share digital services that improve the user experience of government.
 content_wide: true
 content_focus: false
 redirect_from:
@@ -15,8 +15,8 @@ gridless: true
   <section class="usa-section">
     <div class="usa-section-bottom">
       <div class="small-caps small-caps-no-margin">Projects</div>
-      <h3>We’ve worked with more than 50 offices and agencies on more than 200 engagements.</h3>
-      <p>All our projects support agencies in transforming how they deliver digital services and technology products. Here are a few of the projects we’ve worked on.</p>
+      <h3>Proven experience helping agencies across the government better serve their users</h3>
+      <p>With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
     </div>
     <div class="usa-flex usa-flex-wrap">
       {% assign projects_list = site | find_collection: 'projects' | weighted_sort: 'project_weight', 'title' %}
