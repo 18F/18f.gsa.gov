@@ -1,6 +1,6 @@
 ---
 title: "Walking the talk: what went into the Method Cards’ tune up"
-date: 2017-09-19
+date: 2017-09-21
 authors:
 - melissa-braxton
 - nicky-krause
