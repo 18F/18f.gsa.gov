@@ -5,7 +5,7 @@ layout: primary
 lead: Together, we create a unified team by pairing our technical expertise with your program knowledge.
 ---
 
-18F partners with federal agencies to help you deliver exceptional digital experiences that address your strategic initiatives. Each engagement is structured as a close partnership between an 18F team and your agency. Our work together is guided by focusing on user-centered development, testing to validate hypotheses, and deploying products in the open. Learn a little bit more below or find more information in the 18F Partnership Principles and the [U.S. Digital Services Playbook](https://playbook.cio.gov/).
+18F partners with federal agencies to help you deliver digital experiences that address your strategic initiatives. Each engagement is structured as a close partnership between an 18F team and your agency. Our work together is guided by focusing on user-centered development, testing to validate hypotheses, and deploying products in the open. Learn a little bit more below or find more information in the [18F Partnership Principles]({{site.baseurl}}/partnership-principles/) and the [U.S. Digital Services Playbook](https://playbook.cio.gov/).
 
 <ul class="icon-list-wrapper">
   <li class="icon-list">
@@ -43,7 +43,7 @@ lead: Together, we create a unified team by pairing our technical expertise with
 
 ### Our guides
 
-Below are a number of technical guides we've created for 18F. They show specifically how we implement the principles above and may be helpful if your team would like to adopt similar methods. These guides, and all of 18F's work, are in the [worldwide public domain](https://github.com/18F/18f.gsa.gov/blob/master/LICENSE.md). You are free to copy and adapt them as you choose.
+Below are a number of technical guides we've created for 18F. They help us bring these principles into our day-to-day work and may be helpful if your team would like to adopt similar methods. These guides, and all of 18F's work, are in the [worldwide public domain](https://github.com/18F/18f.gsa.gov/blob/master/LICENSE.md). You are free to copy and adapt them as you choose.
 
 <div class="usa-grid-full graphic-row">
   <div class="graphic-list-item">
