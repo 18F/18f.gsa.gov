@@ -1,6 +1,6 @@
 ---
 title: "Managing custom software development in government when you're not a software engineer"
-date: 2017-09-19
+date: 2017-09-20
 authors:
 - kaitlin
 tags:
@@ -29,9 +29,9 @@ Agile development really just means continuous and incremental improvement. Don�
 
 If you can, start off targeting the simplest possible version of your product that works [end to end](https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/), even if that just means a site that displays the text “Hello” but is actually functioning live on the internet somewhere. Deploying software is almost always the most difficult part of the whole process. By deploying something basic at the beginning, you not only save yourself a lot of future pain, but you’ve already got a live, demo-able product! This will come in handy very soon, when you inevitably need to convince your peers that this is an acceptable way of working in government. 
 
-There are a [million](https://modularcontracting.18f.gov/projects/agile-development/) [resources](https://youtu.be/FpBjClJTVQ0) [out](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/) [there](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) to understand agile software development and there are many different ways to do it. But I often see projects in government missing the very basics, while still having a very elaborate and self-described agile process. At a minimum, you must:
+There are a [million](https://modularcontracting.18f.gov/projects/agile-development/) [resources](https://youtu.be/FpBjClJTVQ0) [out](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/) [there](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) to understand agile software development, and there are many different ways to do it. But I often see projects in government missing the very basics, while still having a very elaborate and self-described agile process. At a minimum, you must:
 
-1. Have frequent (measured in weeks not months) demos of working software. Showing documents and spreadsheets to the team is not a demo!
+1. Have frequent (measured in weeks not months) demos of working software. Showing documents and spreadsheets to the team is not a demo.
 2. Have regular retrospectives. A dedicated time on a regular basis (usually right after the demos) for your team to think critically about how to improve your team and product going forward.
 3. Prioritize features _ruthlessly_. If everything is a priority, then nothing is. 
 
@@ -45,7 +45,7 @@ Many people in charge of a software product make the mistake of thinking they’
 
 What is usability testing? Simply put: You put something (a sketch, a wireframe, a prototype) in front of people who will actually be using your product at some point in the future and collect feedback, as soon as possible. Don’t be afraid to show users something that seems unfinished. You don’t need to act on every piece of feedback, but look for common themes, and if the theme repeats enough times, turn it into a feature. Add this feature into the next versions of your sketches or wireframes, or into the product itself. 
 
-If you can, avoid building things that are completely untested. It’s fine to stand in as a proxy for your users when building a cheap [wireframe](https://www.usability.gov/how-to-and-tools/methods/wireframing.html) or first sketch of the page, but make sure you test the wireframe with actual users before building out the software version. As a product owner, you’ll need to help surface real users that your team can talk to, and not just other stakeholders or “proxy” users. The [18F Design Method Cards](https://18f.gsa.gov/2015/08/10/18f-design-methods/) are a good place to start if you’re looking for actual testing techniques.  
+If you can, avoid building things that are completely untested. It’s fine to stand in as a proxy for your users when building a cheap [wireframe](https://www.usability.gov/how-to-and-tools/methods/wireframing.html) or first sketch of the page, but make sure you test the wireframe with actual users before building out the software version. As a product owner, you’ll need to help surface real users that your team can talk to, and not just other stakeholders or “proxy” users. The [18F Method Cards](https://18f.gsa.gov/2015/08/10/18f-design-methods/) are a good place to start if you’re looking for actual testing techniques.  
 
 You’ll also need to learn to let go of what you think are “must-haves” (and convince your higher-ups to do the same). It doesn’t do any good to do usability testing if you’re going to ignore the results. Think long and hard about what makes these desired features or content so critical. If it’s just confusing your users, it’s doing more harm than doing nothing at all. If another stakeholder is demanding a feature, present the evidence to them. Incorporate their feature into a wireframe and test both versions. You can even invite them to the test, if they agree not to interfere. In my experience this is very effective at quelling the problem of “design by committee.” You might call it “evidence-based designing.” 
 
