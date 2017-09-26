@@ -9,6 +9,7 @@ tags:
 - devops
 - how we work
 - tools you can use
+- technical guides
 excerpt: "Often when developing open source software, and especially software that relies on outside services, you’ll find that you have to manage sensitive information. While there are a large number of things that can be considered sensitive, open source developers often deal with sensitive items such as API tokens, passwords, and private keys that are required for the system to function. Here's how we approached keeping this information safe."
 ---
 
