@@ -41,6 +41,8 @@ footer:
     - /what-we-deliver/:path/
   - text: About 18F
     permalink: /about/
+  - text: Partnership Principles
+    permalink: /partnership-principles/
   - text: Join 18F
     permalink: /join/
   - text: Blog
