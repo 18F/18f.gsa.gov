@@ -20,7 +20,7 @@ Being a remote team doesn’t mean you should forgo any of your research rituals
 
 Here are tools we use: 
 
-- A good virtual room like [Google Hangouts](https://hangouts.google.com/) or [Appear.in](https://appear.in/)
+- A virtual room like [Google Hangouts](https://hangouts.google.com/) or [Appear.in](https://appear.in/)
 - [Mural](https://mural.co/) or a similar sticky-note tool
 - A collaborative writing tool like [Google Docs](https://www.google.com/docs/about/) to develop a report
 - A project planning tool like [Trello](https://trello.com/), [Waffle](https://waffle.io/), or [ZenHub](https://www.zenhub.com/)
@@ -69,7 +69,7 @@ Your documentation can continue to evolve as you learn more about your users. Yo
 
 - [Department of the Interior Extractives Data](https://github.com/18F/doi-extractives-data/wiki)
 - [FBI Crime Data Explorer](https://github.com/18F/crime-data-explorer/wiki)
-- [FEC](https://github.com/18F/fec-testing/issues)
+- [Federal Election Commission](https://github.com/18F/fec-testing/issues)
 - [Forest Service ePermitting](https://github.com/18F/fs-online-permitting/wiki/Entry-research-(June-2017))
 - [U.S. Web Design Standards](https://github.com/18F/web-design-standards/wiki)
 - [18F website](https://github.com/18F/18f.gsa.gov/wiki)
@@ -80,6 +80,3 @@ Even though we’re a distributed team, we recognize that not all research metho
 
 ---
 How do you manage remote research projects? Let us know on Twitter: [@18F](https://twitter.com/18F/)
-
-
-
