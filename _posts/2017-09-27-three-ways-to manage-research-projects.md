@@ -20,10 +20,10 @@ Being a remote team doesn’t mean you should forgo any of your research rituals
 
 Here are tools we use: 
 
-- A virtual room like [Google Hangouts](https://hangouts.google.com/) or [Appear.in](https://appear.in/)
-- [Mural](https://mural.co/) or a similar sticky-note tool
-- A collaborative writing tool like [Google Docs](https://www.google.com/docs/about/) to develop a report
-- A project planning tool like [Trello](https://trello.com/), [Waffle](https://waffle.io/), or [ZenHub](https://www.zenhub.com/)
+- A virtual room like Google Hangouts or Appear.in
+- Mural or a similar sticky-note tool
+- A collaborative writing tool like Google Docs to develop a report
+- A project planning tool like Trello, Waffle, or ZenHub
 
 These tools almost make it feel like we’re in the same physical room — but it’s not perfect. We’ve been through those long hours of back-to-back video calls and hundreds of open browser tabs.
 
