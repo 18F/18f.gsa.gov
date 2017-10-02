@@ -27,20 +27,20 @@ published: true
 listed: true
 ---
  
-We're hiring a Design Lead GS-14 to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/acquisition-design-lead-gs14/#duties) and [Qualifications]({{site.baseurl}}/join/acquisition-technical-lead-gs14/#qualifications) on this page are specific to the GS14 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Design Lead GS-14 to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/acquisition-design-lead-gs14/#duties) and [Qualifications]({{site.baseurl}}/join/acquisition-technical-lead-gs14/#qualifications) on this page are specific to the GS-14 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Design Lead position.**
 
 ## Role Summary: 
 
 ### Design Lead GS-14
-As a member of the Technology Transformation Service’s (TTS) Office of Acquisition (often referred to as the AcqStack team), a User Experience (UX) Design Lead possesses two key qualities: empathy for end users and an unflinching belief that Federal procurement can be joyful. The UX Design Lead will foster best practices in user-centered design within AcqStack and across  the Federal Government through advocacy and coaching.
+As a member of the Technology Transformation Service’s (TTS) Office of Acquisition (often referred to as the AcqStack team), a User Experience (UX) Design Lead possesses two key qualities: empathy for end users and an unflinching belief that federal procurement can be joyful. The UX Design Lead will foster best practices in user-centered design within AcqStack and across  the federal government through advocacy and coaching.
 
 UX leads in acquisition must be skilled in at least two UX sub-disciplines, but will likely identify most strongly with user research (both field research and usability testing). Other areas of proficiency may include interaction design and visual design.
 
-As a UX design lead, you’ll work as part of a focused, cross-functional team of other digital service specialists, all of them experts in design, product strategy, technical architecture, software engineering, data science, and procurement. In addition, you will join the broader network of TTS, which includes over 200 digital specialists.
+As a UX design lead, you’ll work as part of a focused, cross-functional team of other digital service specialists with expertise in design, product strategy, technical architecture, software engineering, data science, and procurement. In addition, you will join the broader network of TTS, which includes over 200 digital specialists.
 
-If you believe that the Government can — and should — buy digital services with a focus on the user, this is the position for you.
+If you believe that the government can — and should — buy digital services with a focus on the user, this is the position for you.
 
 ## Key objectives
 
@@ -63,9 +63,9 @@ Successful UX design leads:
 UX design leads provide guidance to teams, both agency and contractor, to develop or mature user-centered design practices.
 
 Successful UX design leads:
-- Coach and mentor partner agency staff in modern user-centered design practices as they plan, buy, design, and build products.
-- Provide design oversight and mentorship to UX research and design contractors on AcqStack projects 
-- Ensure that design activities (research, design studios, and more) are a normal part of project process. 
+- Coach and mentor staff from partner agencies in modern user-centered design practices as they plan, buy, design, and build products.
+- Provide design oversight and mentorship to UX research and design contractors on AcqStack projects. 
+- Ensure that design activities (research, design studios, and more) are a normal part of the project process. 
 - Contribute to the development and refinement of the UX practice at AcqStack and within the larger TTS team.
 - Share knowledge, techniques, tools, patterns, and expert advice with colleagues, partners, and the public.
 - Create — and encourage other folks to find — opportunities for research and exploration among your colleagues.
@@ -79,7 +79,7 @@ Successful UX design leads:
 - Advocate effectively for user-centered design at all levels of the client organization, from senior leadership to agency staff. Explain the benefits of involving end users early and often.
 - Clearly explain the relationships among design disciplines and how each furthers our mission to other parts of TTS, to the federal government, and to the general public.
 - Design and deploy workshops that introduce agency staff to basic user-centered design principles and practices.
-- Develop initiatives for the continuous improvement of acquisitions design methods and measurement
+- Develop initiatives for the continuous improvement of acquisitions design methods and measurement.
 - Find ways to measure and share design successes (such as team health, effectiveness, or client satisfaction).
 - Share our work with the public through event speaking, blog posts, and other external activities — and encourage your team to participate.
 
@@ -137,7 +137,6 @@ As an Innovation Specialist, the team member serves the government and makes an 
 
 This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of Acquisition.
 
-
 GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
@@ -160,21 +159,18 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
 
-
 ## Employment Requirements
 - Serve a one year trial period, if required.
 - Undergo and pass a background investigation.  You must be granted this clearance before you can start the job.
 - Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
-
 ## Duties 
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward-thinking design and development principles to product or services development, delivery and program management, such as lean startup, user-centered design, and agile development;
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
-- Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
+- Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
 - Developing authoritative papers/reports; developing and leading adoption of government-wide standards for digital services, leading to their adoption across citizen and business-facing government services;
 - Demonstrating thought leadership and contributing best practices in a variety of technologies and principles
-
 
 ## Evaluations
 We will use a method called Category Rating to assess your application.  
@@ -188,7 +184,6 @@ Screen Interaction Design: The ability to design interactive digital products, e
 Coaching and Mentoring: The ability to guide others to improve their design craft and communication without micro-management. 
 Teamwork & Collaboration: The ability to work cooperatively with others to accomplish objectives and build inclusive and mutually-beneficial partnerships. 
 TTS Core Values Alignment: The ability to work with integrity, transparency and resiliency in civic minded or high impact driven environment.
-
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
@@ -209,7 +204,6 @@ Qualification determinations cannot be made when resumes do not include the requ
 For each job on your resume, provide:
 - the exact dates you held each job (from month/year to month/year or “present”)
 - number of hours per week you worked (if part time)
-
 
 ## How To Apply
 
