@@ -140,10 +140,6 @@ From a technical standpoint, we needed to ensure the fonts we provide would perf
 	<img src="{{site.baseurl}}/assets/blog/web-design-standards/library/12-font-hierarchy-meri.png" alt="A list of font examples. Merriweather headings and Source Sans Pro body font pairing"/>
 	<figcaption>Merriweather headings and Source Sans Pro body font pairing</figcaption>
 </figure>
-<figure>
-	<img src="{{site.baseurl}}/assets/blog/web-design-standards/library/11-font.jpg" alt="A list of font examples. Source Sans Pro headings and Merriweather body font pairing"/>
-	<figcaption>Source Sans Pro headings and Merriweather body font pairing</figcaption>
-</figure>
 
 ### Colors
 
