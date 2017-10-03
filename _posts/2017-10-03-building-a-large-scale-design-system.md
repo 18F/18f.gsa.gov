@@ -1,12 +1,12 @@
 ---
 title: "Building a large-scale design system: How we created a design system for the U.S. government"
-date: 2017-10-02 (optional)
+date: 2017-10-03
 authors:
 - maya
 tags:
 - web design standards
 - design
-excerpt: ""
+excerpt: "The U.S. Web Design Standards launched in September 2015 as a visual style guide and UI component library with the goal of bringing a common design language for government websites all under one hood. Learn how the team unified a complex system with numerous rules to serve users from all corners of the country."
 ---
 
 Today, there are nearly [30,000 U.S federal websites](https://18f.gsa.gov/2017/01/04/tracking-the-us-governments-progress-on-moving-https/) with almost no consistency between them. Between the hundreds of thousands of government employees working in technology, there’s nothing in common with how these websites are built or maintained.
