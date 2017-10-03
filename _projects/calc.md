@@ -4,9 +4,9 @@ title: CALC tool
 subtitle: Better tools for better research
 permalink: /what-we-deliver/calc/
 excerpt: We helped build an interactive website for searching past government contracts to find fair hourly rates.
-image:
+image: /assets/img/projects/calc.png
 image_accessibility:
-image_icon: folderwithclock.svg
+image_icon: 
 tag: calc
 expiration_date:
 github_repo: https://github.com/18F/calc
