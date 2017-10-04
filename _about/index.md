@@ -5,8 +5,6 @@ layout: primary
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
 subnav_items:
-  - text: Our principles
-    permalink: /about/#our-principles
   - text: Our team
     permalink: /about/#our-team
   - text: History and funding
@@ -15,47 +13,7 @@ subnav_items:
     permalink: /about/#for-press
 ---
 
-18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology.
-
-## Our principles
-
-We strive to work in a modern way and use best practices on all our projects. Here's what that means to us:
-
-<ul class="icon-list-wrapper">
-  <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/respect-icon.svg %}</figure>
-    <div class="icon-list-text">
-      <p class="p-bold">Respect for government workers</p>
-      <p>Civil servants have tremendous knowledge about what it takes to achieve their agency’s mission. We help clear technical and governmental hurdles to better serve the public.</p>
-    </div>
-  </li>
-
-  <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/user-centered-icon.svg %}</figure>
-    <div class="icon-list-text">
-      <p class="p-bold">Human-centered design</p>
-      <p>We listen to real users to understand their needs and build things that will be useful to them — without sacrificing technical or regulatory requirements.</p>
-    </div>
-  </li>
-
-  <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/agile-icon.svg %}</figure>
-    <div class="icon-list-text">
-      <p class="p-bold">Agile methods</p>
-      <p>We help you move faster and adopt new approaches that reduce risk on your projects. We pay careful attention to what succeeds, and use metrics and feedback to inform what we build.</p>
-    </div>
-  </li>
-
-  <li class="icon-list">
-    <figure class="icon-list-image">{% include svg/icons/open-icon.svg %}</figure>
-    <div class="icon-list-text">
-      <p class="p-bold">Open technology</p>
-      <p>Our projects are designed and built in public. That means open source, open data, and open APIs. Working transparently helps us develop faster, make better decisions, provide code for many others to reuse, and keep costs low.</p>
-    </div>
-  </li>
-</ul>
-
-To learn more about how we work, explore [18F guides](https://pages.18f.gov/guides/).
+18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 18F is part of the Technology Transformation Services, which is within the Federal Acquisition Service.
 
 -----
 

@@ -36,6 +36,9 @@ collections:
   about:
     output: true
     permalink: /:path/
+  principles:
+    output: true
+    permalink: /partnership-principles/:path/
   join:
     output: true
     permalink: /join/:path/
@@ -85,6 +88,13 @@ defaults:
     layout: primary
     include_subnav: true
     subnav_anchor: /about/
+ -
+  scope:
+    path: "_principles"
+  values:
+    layout: primary
+    include_subnav: true
+    subnav_anchor: /partnership-principles/
  -
   scope:
     path: "_join"
