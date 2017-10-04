@@ -26,6 +26,7 @@ redirect_from:
   - /join/job-listings/acq-gs-13/
   - /join/acquisition-technical-lead-gs14/
   - /join/acquisition-technical-lead-gs15/
+  - /join/acquisition-design-lead/
 ---
 
 Head over to the [Join 18F page](https://18f.gsa.gov/join/) to see current open positions or learn more about the application process. You can also [sign up for the 18F Newsletter](https://18f.gsa.gov/contact/) to receive regular updates, including new open positions. 
