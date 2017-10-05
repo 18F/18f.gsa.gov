@@ -1,10 +1,11 @@
 ---
 title: "18F and federal laboratories work together to bring better data to businesses"
-date: 2017-10-04 (optional)
+date: 2017-10-05
 authors:
 - aaron-sauers
 tags:
 - agency work
+- data access
 - workshop
 excerpt: "Working with 18F helped the Federal Laboratory Consortium for Technology Transfer create the largest collection of federal laboratory data and technology resources available online."
 ---
