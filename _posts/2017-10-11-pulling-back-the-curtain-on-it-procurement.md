@@ -1,6 +1,6 @@
 ---
 title: "Pulling back the curtain on IT procurement"
-date: 2017-10-10
+date: 2017-10-11
 authors:
 - alla
 - mheadd
