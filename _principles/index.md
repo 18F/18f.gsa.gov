@@ -57,8 +57,9 @@ At each stage, we’ll jointly define metrics that we’ll use to test whether o
 ## <a name="building-in-the-open"></a>Building in the open
 
 One of 18F’s core principles is to make our work available to the public whenever possible, magnifying the value of our joint efforts. We do this in two ways: 
-Using open source code in product development
-Conducting project activities in publicly-viewable forums whenever possible
+
+- Using open source code in product development
+- Conducting project activities in publicly-viewable forums whenever possible
 
 These methods are proven to help build stronger services, save government resources, and better fulfill our duty to serve the public. Learn more from the [Federal Open Source Policy](https://sourcecode.cio.gov/).
 
