@@ -24,11 +24,6 @@ Dorothy and her friends realize rather abruptly that there is no
 all-powerful Wizard who can magically fulfill their dreams of returning
 home or having courage, a heart, or a brain.
 
-<figure>
-	<img src="{{site.baseurl}}/assets/blog/wizard-of-oz/wizardofoz.jpg" alt="An image from the movie The Wizard of OZ where the characters see the Wizard behind the curtain."/>
-  	<figcaption>A peak behind the curtain</figcaption>
-</figure>
-
 As strange as it sounds, there are some parallels between this scene and
 the world of government IT contracting. *Monolithic procurement* —
 large, complex, multi-year contracts, which are common in government IT
