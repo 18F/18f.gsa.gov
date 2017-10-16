@@ -3,9 +3,9 @@ agency: Department of Labor
 title: Wage and Hour Division
 subtitle: Becoming a digital-first agency
 permalink: /what-we-deliver/dol-wage-and-hour/
-excerpt: The Wage and Hour Division wanted to use more modern software development methods, but they wanted proof these methods would address their particular challenges.
+excerpt: Success on a small project helped the Wage and Hour Division begin transforming into a digital-first agency.
 image: 
-image_accessibility: 
+image_accessibility:
 image_icon: folderwithclock.svg
 project_weight: 3
 tag: department of labor

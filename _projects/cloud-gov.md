@@ -3,7 +3,7 @@ agency:
 title: cloud.gov
 subtitle: Doing more with less
 permalink: /what-we-deliver/cloud-gov/
-excerpt: cloud.gov is a government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
+excerpt: A government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
 image: /assets/img/projects/cg.png
 image_accessibility: "The cloud.gov logo of a white star over a black and blue hexagon"
 image_icon: folderwithclock.svg
