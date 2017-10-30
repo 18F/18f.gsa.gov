@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Feedback Analytics Engineer in the Office of Products and Platforms at the GS-15 to help us build amazing products for our clients. 
+We're hiring a Feedback Analytics Engineer in the Office of Products and Platforms at the GS-15 level to help us build amazing products for our clients. Note that the Office of Products and Platforms is a separate division from 18F, but both are part of the [Technology Transformation Service](https://www.gsa.gov/tts) and work closely with one another. 
 
 This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/feedback-analytics-engineer-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/feedback-analytics-engineer-gs15/#qualifications) on this page are specific to the GS-xx level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
@@ -36,9 +36,9 @@ This page includes key objectives for the role as well as the official job descr
 ## Role Summary: 
 
 ### Feedback Analytics Engineer GS-15
-The Technology Transformation Service (TTS) team in the U.S. General Services Administration (GSA) is looking for a talented software developer to help us deliver better digital services to the public. As a developer in the Feedback Analytics program, you will build tools across multiple platforms and agencies to better understand public feedback on the use of agency websites, features and services. You will develop tools in an open, user-centered and transparent environment to improve the way agencies deliver information, services, and interact with the public. You will have the opportunity to make government-wide impact by improving the capabilities of federal agencies to serve the American public. 
+The Technology Transformation Service (TTS) team in the U.S. General Services Administration (GSA) is looking for a talented software developer to help us deliver better digital services to the public. As a developer in the Feedback Analytics program, you will build tools across multiple platforms and agencies to better understand public feedback on the use of agency websites, features, and services. You will develop tools in an open, user-centered, and transparent environment to improve the way agencies deliver information, services, and interact with the public. You will have the opportunity to make government-wide impact by improving the capabilities of federal agencies to serve the American public. 
 
-This position is in the Data and Analytics Portfolio of the Office of Products and Programs in TTS. The Portfolio seeks to empower the public and agencies by making government information more open and discoverable and leveraging data as a strategic asset for decision-making, continual improvement, and creative solutions. The Portfolio is comprised of Data.gov, the federal government’s open data site, the Digital Analytics Program (DAP) and Feedback Analytics. This position will focus on developing tools that use public feedback and customer satisfaction data to empower federal agencies with actionable insight to continually improve their services.
+This position is in the Data and Analytics Portfolio of the Office of Products and Programs in TTS. The Portfolio seeks to empower the public and agencies by making government information more open and discoverable and leveraging data as a strategic asset for decision-making, continual improvement, and creative solutions. The Portfolio is comprised of Data.gov, the Federal Government’s open data site, the Digital Analytics Program (DAP) and Feedback Analytics. This position will focus on developing tools that use public feedback and customer satisfaction data to empower federal agencies with actionable insight to continually improve their services.
 
 The core language requirement is Javascript for frontend development, but full stack experience with node.js, Python, Ruby, or Go is desired. Javascript expertise should include experience working with a major Javascript framework such as Angular, Backbone, or React.
 
@@ -116,7 +116,7 @@ Excepted Service – Not to exceed 2 years; may be extended for an additional 2 
 
 ## Job Summary
 
-This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 
+This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service, and Technology Transformation Service (including 18F, The Presidential Innovation Fellows Program, and The Office of Products and Programs). The Technology Transformation Service is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 
 
 As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. 
 
