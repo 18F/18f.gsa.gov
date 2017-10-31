@@ -27,9 +27,9 @@ published: true
 listed: true
 ---
  
-We're hiring a Feedback Analytics Engineer in the Office of Products and Platforms at the GS-15 level to help us build amazing products for our clients. Note that the Office of Products and Platforms is a separate division from 18F, but both are part of the [Technology Transformation Service](https://www.gsa.gov/tts) and work closely with one another. 
+We're hiring a Feedback Analytics Engineer in the Office of Products and Programs at the GS-15 level to help us build amazing products for our clients. Note that the Office of Products and Programs is a separate division from 18F, but both are part of the [Technology Transformation Service](https://www.gsa.gov/tts) and work closely with one another. 
 
-This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/feedback-analytics-engineer-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/feedback-analytics-engineer-gs15/#qualifications) on this page are specific to the GS-xx level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/feedback-analytics-engineer/#duties) and [Qualifications]({{site.baseurl}}/join/feedback-analytics-engineer/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Feedback Analytics Engineer position.**
 
@@ -120,7 +120,7 @@ This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical s
 
 As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. 
 
-This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of Products and Platforms (OPP).
+This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of Products and Programs (OPP).
 
 
 GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
