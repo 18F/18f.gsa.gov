@@ -9,12 +9,11 @@ tags:
 - procurement
 - agile
 - acquisition services
-excerpt: "Monolithic procurement — large, complex, multi-year contracts, which are common in government IT procurement — can create a number of compelling illusions to agencies that use them. The Technology Transformation Services (TTS) is a strong advocate for an alternative approach known as modular contracting (aka modular procurement)."
+excerpt: "Monolithic procurement — large, complex, multi-year contracts, which are common in government IT procurement — can appear compelling to agencies that use them. The Technology Transformation Services (TTS) is a strong advocate for an alternative approach known as modular contracting (aka modular procurement)."
 image:
 ---
 
-There's a scene in the classic movie "The Wizard of Oz" that has become
-synonymous with broken illusions.
+There's a scene in the classic movie "The Wizard of Oz" that has become synonymous with the difference between perception and reality.
 
 While Dorothy and her companions stand before the Wizard in the Emerald
 City, and tremble at his sound and fury, her little dog Toto pulls back
@@ -26,12 +25,12 @@ home or having courage, a heart, or a brain.
 As strange as it sounds, there are some parallels between this scene and
 the world of government IT contracting. *Monolithic procurement* —
 large, complex, multi-year contracts, which are common in government IT
-procurement — can create a number of compelling illusions to agencies
+procurement — can appear compelling to agencies
 that use them:
 
--   The illusion that complex, interdependent project requirements can be completely addressed by devoting enough time up front to capture them all in one Request for Proposal (RFP)
--   The illusion that government can eliminate risk by including just the right contract terms to hold vendors responsible if they fail to meet project goals
--   The illusion that agencies are better off relying on vendors for technical expertise rather than trying to hire in-house staff
+-   The perception that complex, interdependent project requirements can be completely addressed by devoting enough time up front to capture them all in one Request for Proposal (RFP)
+-   The perception that government can eliminate risk by including just the right contract terms to hold vendors responsible if they fail to meet project goals
+-   The perception that agencies are better off relying on vendors for technical expertise rather than trying to hire in-house staff
 
 The Technology Transformation Services (TTS) is a strong advocate for an
 alternative approach known as *modular contracting (*aka *modular
@@ -194,8 +193,7 @@ the confidence they need to try something new.
 The familiarity of practices around monolithic contracting can be
 comforting and lull agencies into thinking that success will come if
 only they collect enough requirements up front, or include the right
-terms and conditions in an RFP. And it’s certainly tempting to believe
-the illusion that risk and responsibility can be outsourced to a single
+terms and conditions in an RFP. And it’s certainly tempting to believe that risk and responsibility can be outsourced to a single
 all-powerful wizard (aka vendor) in hopes they’ll make all the problems
 disappear. Unfortunately, a peek behind the curtain shows us otherwise.
 
