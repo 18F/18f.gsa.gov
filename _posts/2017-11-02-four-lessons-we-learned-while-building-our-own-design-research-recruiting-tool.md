@@ -11,7 +11,7 @@ excerpt: "As of September, GSA is running its own recruiting tool for moderated 
 image: /assets/blog/user-interview/four-lessons-hero.jpg
 ---
 
-In November 2016, design researchers at GSA learned we could no longer use one of the tools we’d come to rely on to recruit folks to participate in our moderated design research. This made a few of us wonder: What would it take for GSA to run its own design research recruiting service? 
+In November 2016, design researchers at GSA discovered that one of the tools we used to recruit folks for our moderated design research ultimately wouldn’t comply with the security needs of our organization. This made a few of us wonder: _What would it take for GSA to design its own recruiting service, taking compliance into account from the outset?_
 
 As of September of this year we have found a way to pilot our own research recruiting service. But rather than focus on the service itself — something for a future blog post, no doubt — we’d like to share four lessons we learned along the way, including the ways in which software development can serve as a starting point for broader conversations about government information practices, privacy, and security. 
 
@@ -27,7 +27,7 @@ There are a few complicating factors. For starters, **recruiting implicates fede
 
 Thus GSA worked to procure software that could help streamline its recruiting process. Once we'd identified off-the-shelf software that potentially met our needs, we began piloting that software in early 2015. In this context, a “pilot” simply refers to a testing period in which GSA works with its IT office, GSA IT, to use software on limited basis and evaluate if we should conduct a formal procurement.
 
-Over the next few months, design researchers participating in the pilot came to rely heavily on the software in question. Things were looking good. The next step was figuring out if the software vendor would be willing to work with GSA IT to assess the degree to which their product complied with GSA’s security requirements. After weeks of negotiation, the vendor ultimately expressed that they had no interest in participating in a security review (Aside: this [isn’t the first time](https://boise.18f.gov/post-discovery/synthesis/) we’ve heard this). As a result, GSA IT ultimately decided that we needed to discontinue our use of this software.
+Over the next few months, design researchers participating in the pilot came to rely heavily on the software in question. Things were looking good. The next step was figuring out if the software vendor would be willing to work with GSA IT to assess the degree to which their product complied with GSA’s security requirements. After weeks of negotiation, the vendor ultimately expressed that they had no interest in participating in a security review. As a result, GSA IT ultimately decided that we needed to discontinue our use of this software.
 
 At this point design researchers at GSA were in a bind: We increasingly worried that no off-the-shelf vendor would be willing to comply with GSA IT’s security requirements in a reasonable amount of time. At the same time, 18F was actively recruiting for usability tests to support our human-centered design process. We had a strong interest in “keeping the lights on” for recruiting, protecting people’s privacy, and meeting our security requirements. This ultimately raised the question which opened this post: What would it take for GSA to run its own remote recruiting service? 
 
