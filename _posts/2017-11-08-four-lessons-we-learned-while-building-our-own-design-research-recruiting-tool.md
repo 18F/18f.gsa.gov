@@ -1,6 +1,6 @@
 ---
 title: "4 lessons from building our own recruiting tool"
-date: 2017-11-2
+date: 2017-11-8
 authors:
 - andrewmaier
 - lauren-ancona
@@ -53,7 +53,7 @@ Shortly after our conversation with Richard, 18F met with GSA's Feedback Analyti
 
 To answer this question we consulted GSA IT, who explained that the uniqueness of a system’s boundary — that is, the “boundary” separating a federal information system from its broader environment — directly affects the degree to which it must be evaluated before it can receive an [Authority to Operate (ATO)](https://www.fedramp.gov/resources/faqs/what-is-an-authority-to-operate-ato/). Practically speaking, this meant that while our prototype largely depended on a system that was already authorized, the fact that it relied on just a few lines of custom javascript meant it would need a bespoke security analysis. This could slow down our ability to launch by a few months!
 
-So we explored other options. Because Google Apps has its own scripting language, we ultimately decided to reverse-engineer our original prototype using only that language. And that’s how we learned that, when it comes to federal IT, it’s easiest to test software by developing it entirely within the boundary of a previously authorized system. 
+So we explored other options. Because Google Apps has its own scripting language, we ultimately decided to reverse-engineer our original prototype using only that language. And that’s how we learned that, **when it comes to federal IT, it’s easiest to test software by developing it entirely within the boundary of a previously authorized system.** 
 
 ### Lesson 3: In the federal government, privacy has its own vocabulary. 
 
@@ -67,24 +67,24 @@ In conversations across GSA our team was frequently asked to consider how a recr
     <th>Applied to a recruiting service</th></b> 
   </tr>
   <tr>
-    <td><a href="https://www.whitehouse.gov/omb/inforeg_infocoll">The Paperwork Reduction Act</a> requires that agencies obtain approval from the Office of Management and Budget before requesting most types of information from the public. </td>
-    <td>Per <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf">this memo</a>, our recruiting form would not trigger the Paperwork Reduction Act’s requirements so long as it only collected name and email address, mailing address, and/or phone number.</td> 
+    <td><p><a href="https://www.whitehouse.gov/omb/inforeg_infocoll">The Paperwork Reduction Act</a> requires that agencies obtain approval from the Office of Management and Budget before requesting most types of information from the public.<p></td>
+    <td><p>Per <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf">this memo</a>, our recruiting form would not trigger the Paperwork Reduction Act’s requirements so long as it only collected name and email address, mailing address, and/or phone number.</p></td> 
   </tr>
   <tr>
-    <td>The <a href="https://www.justice.gov/opcl/overview-privacy-act-1974-2015-edition">Privacy Act of 1974</a> establishes a code of fair information practices that governs the collection, maintenance, use, and dissemination of information about individuals that is maintained in systems of records by federal agencies. </td>
-    <td>Design researchers must be mindful of the Fair Information Practice Principles and abide by their agency’s Privacy Program. Our team worked with the GSA Privacy Office to see if a System of Records Notices already existed for the system in which we’d collect and use recruiting data.</td> 
+    <td><p>The <a href="https://www.justice.gov/opcl/overview-privacy-act-1974-2015-edition">Privacy Act of 1974</a> establishes a code of fair information practices that governs the collection, maintenance, use, and dissemination of information about individuals that is maintained in systems of records by federal agencies.</p></td>
+    <td><p>Design researchers must be mindful of the Fair Information Practice Principles and abide by their agency’s Privacy Program. Our team worked with the GSA Privacy Office to see if a System of Records Notices already existed for the system in which we’d collect and use recruiting data.</p></td> 
   </tr>
   <tr>
-    <td>The <a href="https://www.justice.gov/opcl/e-government-act-2002">E-Government Act of 2002</a> recognizes that technological advances have important ramifications for the protection of personal information contained in government records and systems. Section 208 of the Act stipulates that all federal agencies that develop or procure information systems which employ information in identifiable form must complete a Privacy Impact Assessment (PIA).</td>
-    <td>Our use case involved recording feedback collected directly from identifiable individuals, so we needed to conduct a PIA to fully articulate and critically assess our information practices. </td> 
+    <td><p>The <a href="https://www.justice.gov/opcl/e-government-act-2002">E-Government Act of 2002</a> recognizes that technological advances have important ramifications for the protection of personal information contained in government records and systems. Section 208 of the Act stipulates that all federal agencies that develop or procure information systems which employ information in identifiable form must complete a Privacy Impact Assessment (PIA).</p></td>
+    <td><p>Our use case involved recording feedback collected directly from identifiable individuals, so we needed to conduct a PIA to fully articulate and critically assess our information practices.</p></td> 
   </tr>
 </table>   
 
-We began to understand that privacy, **as it relates to federal information systems, has its own vocabulary**: Depending on their collection and use of information about people, federal information systems must be accompanied by things like System of Records Notices (SORNs), Privacy Act Statements or Notices (kind of mini-SORNs), and Privacy Impact Assessments.
+We began to understand that **privacy, as it relates to federal information systems, has its own vocabulary**: Depending on their collection and use of information about people, federal information systems must be accompanied by things like System of Records Notices (SORNs), Privacy Act Statements or Notices (kind of mini-SORNs), and Privacy Impact Assessments.
 
 <figure>
   <img class="image-shadowed" src="{{site.baseurl}}/assets/blog/user-interview/four-lessons-2.png" alt="A screenshot of GSA’s Privacy Act Statement for Design Research"/>
-  <figcaption>A screenshot of GSA’s Privacy Act Statement for Design Researchs</figcaption>
+  <figcaption>A screenshot of GSA’s Privacy Act Statement for Design Research</figcaption>
 </figure>
 
 In our case, the GSA Privacy Office helped us determine:
