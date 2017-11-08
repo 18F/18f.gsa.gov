@@ -63,8 +63,8 @@ In conversations across GSA our team was frequently asked to consider how a recr
 
 <table>
   <tr>
-    <b><th>Name and description</th>
-    <th>Applied to a recruiting service</th></b> 
+    <th><b>Name and description</b></th>
+    <th><b>Applied to a recruiting service</b></th>
   </tr>
   <tr>
     <td><p><a href="https://www.whitehouse.gov/omb/inforeg_infocoll">The Paperwork Reduction Act</a> requires that agencies obtain approval from the Office of Management and Budget before requesting most types of information from the public.<p></td>
