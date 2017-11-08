@@ -25,18 +25,17 @@ There are a few complicating factors. For starters, **recruiting implicates fede
 
 ## From pilot to prototype
 
-Thus GSA worked to procure software that could help streamline its recruiting process. Once we'd identified off-the-shelf software that potentially met our needs, we began piloting that software in early 2015. In this context, a “pilot” simply refers to a testing period in which GSA works with its IT office, GSA IT, to use software on limited basis and evaluate if we should conduct a formal procurement.
+Thus, GSA worked to procure software that could help streamline its recruiting process. Once we'd identified off-the-shelf software that potentially met our needs, we began piloting that software in early 2015. In this context, a “pilot” simply refers to a testing period in which GSA works with its IT office, GSA IT, to use software on a limited basis and evaluate if we should conduct a formal procurement.
 
 Over the next few months, design researchers participating in the pilot came to rely heavily on the software in question. Things were looking good. The next step was figuring out if the software vendor would be willing to work with GSA IT to assess the degree to which their product complied with GSA’s security requirements. After weeks of negotiation, the vendor ultimately expressed that they had no interest in participating in a security review. As a result, GSA IT ultimately decided that we needed to discontinue our use of this software.
 
-At this point design researchers at GSA were in a bind: We increasingly worried that no off-the-shelf vendor would be willing to comply with GSA IT’s security requirements in a reasonable amount of time. At the same time, 18F was actively recruiting for usability tests to support our human-centered design process. We had a strong interest in “keeping the lights on” for recruiting, protecting people’s privacy, and meeting our security requirements. This ultimately raised the question which opened this post: What would it take for GSA to run its own remote recruiting service? 
+At this point design researchers at GSA were in a bind: We increasingly worried that no off-the-shelf vendor would be willing to comply with GSA IT’s security requirements in a reasonable amount of time. At the same time, 18F was actively recruiting for usability tests to support our human-centered design process. We had a strong interest in “keeping the lights on” for recruiting, protecting people’s privacy, and meeting our security requirements. This ultimately raised the question that opened this post: What would it take for GSA to run its own remote recruiting service? 
 
-In search of an answer, we decided to dust off an old prototype we’d initially made to help describe the kind of software we were looking to procure. Internally, this was known as our “[Call Me Maybe](https://github.com/18F/call-me-maybe)” prototype. To better ensure our idea could meet GSA security requirements we wired our prototype up to Google Apps using the Google Apps API. Google Apps is an information system that is already authorized by GSA’s Chief Information Officer (CIO). This meant that, outside of a few lines of custom javascript, our prototype was mostly just an thin interface into an already approved, secure information system.
+In search of an answer, we decided to dust off an old prototype we’d initially made to help describe the kind of software we were looking to procure. Internally, this was known as our “[Call Me Maybe](https://github.com/18F/call-me-maybe)” prototype. To better ensure our idea could meet GSA security requirements, we wired our prototype up to Google Apps using the Google Apps API. Google Apps is an information system that is already authorized by GSA’s Chief Information Officer (CIO). This meant that, outside of a few lines of custom javascript, our prototype was mostly just an thin interface into an already approved, secure information system.
 
 <figure>
   <img src="{{site.baseurl}}/assets/blog/user-interview/four-lessons-1.png" alt="Screenshot of a call to action"/>
 </figure>
-
 
 After discussing the pros and cons of this idea, we decided it had legs. To see what it would take to actually put this pilot into practice, our next stop was GSA’s Privacy Office. What followed was a series of conversations with various stakeholders across the agency. And in lieu of a blow by blow, let’s cover the lessons we learned as things progressed.
 
@@ -111,7 +110,6 @@ As of September, we've launched an internal pilot of the GSA Recruiter tool to s
   <img src="{{site.baseurl}}/assets/blog/user-interview/four-lessons-3.png" alt="An example of a landing page for the GSA Recruiter on the National Science Foundation’s website."/>
   <figcaption>An example of a landing page for the GSA Recruiter on the National Science Foundation’s website.</figcaption>
 </figure>
- 
 
 In bringing this recruiting service to life we’ve worked hard to document, share, and socialize what we’re learning. In addition to publishing the Design Research PIA and this blog post, we’ve also updated our [privacy method card](https://methods.18f.gov/#privacy) and the privacy section of our [Before You Ship guide](http://before-you-ship.18f.gov/privacy/). To further discuss this work, we’re participating in (read: asking a bunch of questions about design research and usability testing during) the [Federal Privacy Bootcamp](https://www.fpc.gov/education-and-training-sub-committee/). Over the next few months we hope to more thoroughly consider and document the ways in which simple, custom software can help streamline design research across government. 
 
