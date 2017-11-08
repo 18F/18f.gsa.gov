@@ -108,7 +108,7 @@ As of September, we've launched an internal pilot of the GSA Recruiter tool to s
 
 <figure>
   <img src="{{site.baseurl}}/assets/blog/user-interview/four-lessons-3.png" alt="An example of a landing page for the GSA Recruiter on the National Science Foundation’s website."/>
-  <figcaption>An example of a landing page for the GSA Recruiter on the National Science Foundation’s website.</figcaption>
+  <figcaption>The GSA Recruiter as it appeared on the National Science Foundation’s website.</figcaption>
 </figure>
 
 In bringing this recruiting service to life we’ve worked hard to document, share, and socialize what we’re learning. In addition to publishing the Design Research PIA and this blog post, we’ve also updated our [privacy method card](https://methods.18f.gov/#privacy) and the privacy section of our [Before You Ship guide](http://before-you-ship.18f.gov/privacy/). To further discuss this work, we’re participating in (read: asking a bunch of questions about design research and usability testing during) the [Federal Privacy Bootcamp](https://www.fpc.gov/education-and-training-sub-committee/). Over the next few months we hope to more thoroughly consider and document the ways in which simple, custom software can help streamline design research across government. 
