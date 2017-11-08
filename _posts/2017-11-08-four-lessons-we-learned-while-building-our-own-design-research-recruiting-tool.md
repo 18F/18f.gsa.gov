@@ -1,6 +1,6 @@
 ---
 title: "4 lessons from building our own recruiting tool"
-date: 2017-11-8
+date: 2017-11-2
 authors:
 - andrewmaier
 - lauren-ancona
@@ -11,9 +11,9 @@ excerpt: "As of September, GSA is running its own recruiting tool for moderated 
 image: /assets/blog/user-interview/four-lessons-hero.jpg
 ---
 
-In November 2016, design researchers at GSA discovered that one of the tools we used to recruit folks for our moderated design research ultimately wouldn’t comply with the security needs of our organization. This made a few of us wonder: _What would it take for GSA to design its own recruiting service, taking compliance into account from the outset?_
+In November 2016, design researchers at GSA discovered that one of the tools we used to recruit folks for our moderated design research ultimately wouldn’t comply with the security needs of our organization. This made a few of us wonder: _What would it take for GSA to design and operate its own recruiting service, taking compliance into account from the outset?_
 
-As of September of this year we have found a way to pilot our own research recruiting service. But rather than focus on the service itself — something for a future blog post, no doubt — we’d like to share four lessons we learned along the way, including the ways in which software development can serve as a starting point for broader conversations about government information practices, privacy, and security. 
+As of September of this year we _have_ found a way to pilot our own research recruiting service. But rather than focus on the service itself — something for a future blog post, no doubt — we’d like to share four lessons we learned along the way, including the ways in which software development can serve as a starting point for broader conversations about government information practices, privacy, and security. 
 
 Let’s start by reviewing how GSA’s recruiting process works for moderated design research.
 
@@ -29,7 +29,7 @@ Thus, GSA worked to procure software that could help streamline its recruiting p
 
 Over the next few months, design researchers participating in the pilot came to rely heavily on the software in question. Things were looking good. The next step was figuring out if the software vendor would be willing to work with GSA IT to assess the degree to which their product complied with GSA’s security requirements. After weeks of negotiation, the vendor ultimately expressed that they had no interest in participating in a security review. As a result, GSA IT ultimately decided that we needed to discontinue our use of this software.
 
-At this point design researchers at GSA were in a bind: We increasingly worried that no off-the-shelf vendor would be willing to comply with GSA IT’s security requirements in a reasonable amount of time. At the same time, 18F was actively recruiting for usability tests to support our human-centered design process. We had a strong interest in “keeping the lights on” for recruiting, protecting people’s privacy, and meeting our security requirements. This ultimately raised the question that opened this post: What would it take for GSA to run its own remote recruiting service? 
+At this point design researchers at GSA were in a bind: We increasingly worried that no off-the-shelf vendor would be willing to comply with GSA IT’s security requirements in a reasonable amount of time. At the same time, 18F was actively recruiting for usability tests to support our human-centered design process. We had a strong interest in “keeping the lights on” for recruiting, protecting people’s privacy, and meeting our security requirements. This ultimately raised the question that opened this post: What would it take for GSA to design and operate its own recruiting service, taking compliance into account from the outset?
 
 In search of an answer, we decided to dust off an old prototype we’d initially made to help describe the kind of software we were looking to procure. Internally, this was known as our “[Call Me Maybe](https://github.com/18F/call-me-maybe)” prototype. To better ensure our idea could meet GSA security requirements, we wired our prototype up to Google Apps using the Google Apps API. Google Apps is an information system that is already authorized by GSA’s Chief Information Officer (CIO). This meant that, outside of a few lines of custom javascript, our prototype was mostly just an thin interface into an already approved, secure information system.
 
@@ -43,7 +43,7 @@ After discussing the pros and cons of this idea, we decided it had legs. To see 
 
 ### Lesson 1: It’s useful to frame design research as proactive customer service.
 
-One of the first questions Richard Speidel, GSA’s Chief Privacy Officer, asked us when we approached him about standing up a recruiting service was to identify the authority we were working under. After considering a [few options](https://www.digitalgov.gov/resources/government-customer-service-policies-requirements-1993-to-present/), we realized that Executive Order 13571, _[Streamlining Service Delivery and Improving Customer Service](https://obamawhitehouse.archives.gov/the-press-office/2011/04/27/executive-order-13571-streamlining-service-delivery-and-improving-custom)_, most directly related to our goals. This Executive Order directs agencies to “establish mechanisms to solicit customer feedback on government services and, using such feedback [...] regularly make improvements to government services.” 
+One of the first questions Richard Speidel, GSA’s Chief Privacy Officer, asked us when we approached him about standing up a recruiting service was to identify the authority we were working under. After considering a [few options](https://www.digitalgov.gov/resources/government-customer-service-policies-requirements-1993-to-present/), we decided that Executive Order 13571, _[Streamlining Service Delivery and Improving Customer Service](https://obamawhitehouse.archives.gov/the-press-office/2011/04/27/executive-order-13571-streamlining-service-delivery-and-improving-custom)_, most directly related to our goals. This Executive Order directs agencies to “establish mechanisms to solicit customer feedback on government services and, using such feedback [...] regularly make improvements to government services.” 
 
 Thinking about design research through the lens of customer service also helped us find a useful framing for it in future conversations across the agency: **Design research is really just a form of proactive customer service**. Think about it. Most folks are upset by the time they’ve contacted customer service because they’ve already had to complain to resolve their individual issue. But when designers fix bugs they’ve found during [usability testing](https://methods.18f.gov/#usability-testing), on the other hand, they’re seeking customer feedback to improve the experience for everyone — that’s proactive customer service.
 
@@ -100,7 +100,7 @@ For readers who are unfamiliar, federal agencies conduct and publish privacy imp
 
 Over the next few weeks we identified additional privacy risks facing our program. We worked with Richard and his office, studied up on privacy law and norms in government, and convened a cross-agency group of stakeholders to meet every other week. Over time, we learned that **privacy impact assessments require the input and close collaboration of people at all levels of the organization.** 
 
-Slowly and steadily, things came together. We invited our Office of General Counsel and our Chief Information Security Officer to weigh in, which prompted a few final updates to [our design research participant agreement](https://methods.18f.gov/participant-agreement). You can see the results in the final [Privacy Impact Assessment for Design Research](https://www.gsa.gov/portal/getMediaData?mediaId=167954).
+Slowly and steadily, things came together. We invited our Office of General Counsel and our Chief Information Security Officer to weigh in, which prompted a few final updates to [our design research participant agreement](https://methods.18f.gov/participant-agreement). You can see the results in the final P[rivacy Impact Assessment for Design Research](https://www.gsa.gov/portal/getMediaData?mediaId=167954).
 
 ## Where we’re headed next 
 
