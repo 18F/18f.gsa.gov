@@ -67,7 +67,7 @@ In conversations across GSA our team was frequently asked to consider how a recr
     <th><b>Applied to a recruiting service</b></th>
   </tr>
   <tr>
-    <td><p><a href="https://www.whitehouse.gov/omb/inforeg_infocoll">The Paperwork Reduction Act</a> requires that agencies obtain approval from the Office of Management and Budget before requesting most types of information from the public.<p></td>
+    <td><p><a href="https://www.whitehouse.gov/omb/inforeg_infocoll">The Paperwork Reduction Act</a> requires that agencies obtain approval from the Office of Management and Budget before requesting most types of information from the public.</p></td>
     <td><p>Per <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf">this memo</a>, our recruiting form would not trigger the Paperwork Reduction Act’s requirements so long as it only collected name and email address, mailing address, and/or phone number.</p></td> 
   </tr>
   <tr>
