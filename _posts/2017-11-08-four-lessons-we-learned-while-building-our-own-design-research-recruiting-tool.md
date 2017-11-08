@@ -1,6 +1,6 @@
 ---
 title: "4 lessons from building our own recruiting tool"
-date: 2017-11-2
+date: 2017-11-8
 authors:
 - andrewmaier
 - lauren-ancona
