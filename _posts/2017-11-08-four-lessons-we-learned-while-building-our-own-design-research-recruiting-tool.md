@@ -100,7 +100,7 @@ For readers who are unfamiliar, federal agencies conduct and publish privacy imp
 
 Over the next few weeks we identified additional privacy risks facing our program. We worked with Richard and his office, studied up on privacy law and norms in government, and convened a cross-agency group of stakeholders to meet every other week. Over time, we learned that **privacy impact assessments require the input and close collaboration of people at all levels of the organization.** 
 
-Slowly and steadily, things came together. We invited our Office of General Counsel and our Chief Information Security Officer to weigh in, which prompted a few final updates to [our design research participant agreement](https://methods.18f.gov/participant-agreement). You can see the results in the final P[rivacy Impact Assessment for Design Research](https://www.gsa.gov/portal/getMediaData?mediaId=167954).
+Slowly and steadily, things came together. We invited our Office of General Counsel and our Chief Information Security Officer to weigh in, which prompted a few final updates to [our design research participant agreement](https://methods.18f.gov/participant-agreement). You can see the results in the final [Privacy Impact Assessment for Design Research](https://www.gsa.gov/portal/getMediaData?mediaId=167954).
 
 ## Where we’re headed next 
 
