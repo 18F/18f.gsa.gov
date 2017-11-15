@@ -3,10 +3,10 @@ agency: General Services Administration
 title: CALC tool
 subtitle: Better tools for better research
 permalink: /what-we-deliver/calc/
-excerpt: We helped build an interactive website for searching past government contracts to find fair hourly rates.
+excerpt: An efficient way for contracting officers to search past government contracts for fair hourly rates.
 image: /assets/img/projects/calc.png
 image_accessibility:
-image_icon: 
+image_icon:
 tag: calc
 expiration_date:
 github_repo: https://github.com/18F/calc
