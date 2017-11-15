@@ -4,7 +4,7 @@ title: myUSCIS immigration resources
 subtitle: Humanizing the process of becoming a citizen
 permalink: /what-we-deliver/myuscis/
 redirect_from: /project/dhs-myuscis/
-excerpt: Designing resources and guides for U.S. Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
+excerpt: Resources and guides for U.S. Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
 image: /assets/img/home/hero-immigration.jpg
 image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
 tag: uscis

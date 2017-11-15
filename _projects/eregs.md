@@ -4,7 +4,7 @@ title: eRegulations
 subtitle: Making regulations easier to read
 permalink: /what-we-deliver/eregulations/
 redirect_from: /project/eregulations/
-excerpt: An open-source tool that makes regulations easier to find, read, and understand.
+excerpt: An open-source tool that makes government regulations easier to find, read, and understand.
 image:
 image_accessibility:
 image_icon:

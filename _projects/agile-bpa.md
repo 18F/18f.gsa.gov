@@ -3,7 +3,7 @@ agency:
 title: Agile BPA
 subtitle: Streamlining software procurement
 permalink: /what-we-deliver/agile-bpa/
-excerpt: A pool of pre-vetted vendors to help agencies find the right industry partners and set projects up for success.
+excerpt: A group of pre-vetted vendors ready to help agencies use agile development techniques to build digital services..
 image:
 image_accessibility:
 image_icon: folderwithclock.svg
