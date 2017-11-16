@@ -35,50 +35,48 @@ We're hiring a Director of Communications and Marketing for the Presidential Inn
 
 ### PIF Director of Communications and Marketing GS-15
 
-The Presidential Innovation Fellows pairs top technologists, entrepreneurs, designers and innovators from the private sector to team up with forward-thinking agency partners to tackle hard problems for the American people. 
+The Presidential Innovation Fellows pairs top technologists, entrepreneurs, designers, and innovators from the private sector to team up with forward-thinking agency partners to tackle hard problems for the public. 
 
-This new class of fellows will be digging in on a range of important work including helping bring Smart Cities become a reality through the Department of Transportation, helping deliver critical services to our nation's veterans in a simple and human-centered way at the VA, and helping improve the match between patients and clinical trials that could help them at the National Cancer Institute (NCI).  Over the next few weeks we will be sharing the names and backgrounds of the new fellows. 
+This new class of fellows will be digging in on a range of important work including helping Smart Cities become a reality through the Department of Transportation, helping deliver critical services to our nation's veterans in a simple and human-centered way at the VA, and helping improve the match between patients and clinical trials that could help them at the National Cancer Institute. Over the next few weeks, we'll be sharing the names and backgrounds of the new fellows. 
 
 Does this type of work sound like something you could passionately endorse? Do you love to inspire people to action? Are you amazing at telling a story that really pulls people in and truly engages them? You could be the right person to join the PIF program team and serve as our next Deputy Director of Communications and Marketing. 
 
-This position requires a confident leader who is assertive and able to bring big ideas to the table. A creative, conceptual thinker with big, outside-of-the-box ideas who is also a tireless executor,  able to roll up their sleeves and translate those big ideas into action and business results. 
+This position requires a confident leader who is assertive and able to bring big ideas to the table. A creative, conceptual thinker with big, outside-of-the-box ideas who is also a tireless executor, able to roll up their sleeves and translate those big ideas into action and business results. 
 
 ## Key Objectives
 
-### Objective #1: You will lay the groundwork for a broader marketing and communications strategy 
+### Objective #1: You'll lay the groundwork for a broader marketing and communications strategy 
 - Shape PIF brand and messaging
 - Increase awareness of and clarify the PIF Program's mission and service offerings 
 - Identify and engage with media and influencers
-- Maintain relationships through responsive and proactive touch points.
-- Define a plan for internal engagement with government agencies & external engagement with leading tech, innovation and academia communities
+- Maintain relationships through responsive and proactive touch points
+- Define a plan for internal engagement with government agencies and external engagement with leading tech, innovation, and academia communities
 - Include metrics to report out on progress toward objectives and course correct when necessary
-- Stay current on trends and thinking innovation in order to recommend stories / pitches / events to the Executive Director
+- Stay current on trends and thinking innovation in order to recommend storie, pitches, and events to the Executive Director
 
-### Objective #2: You will deliver on more immediate process and operational communications needs
-- Lead announcement and rollout of incoming PIF class in coordination with GSA, OSTP, and OMB partners
-- Identify best practices for capturing and sharing project highlights/challenges/successes, specifically developing offboarding and knowledge transfer plans for our current Fellows
-- Reboot external channels (e.g. PIF social media accounts, the newsletter, blog) in alignment with TTS and GSA comms policies
-- Become the resident PIF expert on speaking/conference/events approvals & processes
-- Manage the wordsmith refresh of talking points, fact sheets, presentations, and other materials adapting written and verbal communication style to fit any situation or medium
-- Oversee program digital platforms to maintain a consistent brand and tone of voice
-- Showcase impact of PIFs work through case studies, interviews and efficacy narratives
-- Press outreach (including mainstream, government and tech media) featuring user-centered stories to convey the impact of PIF projects
+### Objective #2: You'll deliver on more immediate process and operational communications needs
+- Lead announcement and rollout of incoming PIF class in coordination with General Services Administration, Office of Science and Technology Policy, and Office of Management and Budget partners
+- Identify best practices for capturing and sharing project highlights, challenges, and successes, specifically developing offboarding and knowledge transfer plans for our current fellows
+- Reboot external channels (for example, PIF social media accounts, the newsletter, blog) in alignment with Technology Transformation Services and General Services Administration communication policies
+- Become the resident PIF expert on speaking, conference, and events approvals and processes
+- Edit talking points, fact sheets, presentations, and other materials while adapting written and verbal communication style to fit any situation or medium
+- Oversee PIF digital platforms to maintain a consistent brand and tone of voice
+- Showcase impact of PIF's work through case studies, interviews, and efficacy narratives
+- Press outreach (including mainstream, government, and tech media) featuring user-centered stories to convey the impact of PIF projects
 - Design and help lead key program events, including PIF cohort on-boarding, annual retreat, etc. 
 - Develop speaking and event roadmap for PIF and leadership team 
-- Regularly attend industry, federal civic technology events, roundtables and panel discussions
+- Regularly attend industry, federal civic technology events, roundtables, and panel discussions
 
-
-### Objective #3: You will assist with managing day-to-day operations, program management and events
+### Objective #3: You'll assist with managing day-to-day operations, program management, and events
 - Assume responsibility for tracking all action items to completion, using existing tools and proposing the implementation of new processes when necessary
-- Work closely with agency partners to help scope projects and with the PIFs to help them achieve amazing outcomes.  
-- Collaborate with and serve as a strategic advisor to the PIF Program Team consisting of the Executive Director (ED or Acting ED) and the other Deputy Director. 
-- Sometimes attend meetings or events on behalf of the ED (or Acting ED).
+- Work closely with agency partners to help scope projects and with the PIFs to help them achieve amazing outcomes  
+- Collaborate with and serve as a strategic advisor to the PIF Program Team consisting of the Executive Director (ED or Acting ED) and the other Deputy Director 
+- Sometimes attend meetings or events on behalf of the ED (or Acting ED)
 - Brainstorm and execute on the components of a successful orientation relying on insights from current PIFs and alumni (i.e. analyze existing survey data, review previous schedules, conduct workshops, hold strategic 1:1s/coffees, etc.)
-- Support incoming PIFs as a program POC and get to know current PIFs and what they’re working on
-- Gain knowledge of the overall PIF journey and contribute to building community and the design of a 2-week Orientation for incoming PIFs.
+- Support incoming PIFs as a program point of contact and get to know current PIFs and what they’re working on
+- Gain knowledge of the overall PIF journey and contribute to building community and the design of a two-week orientation for incoming PIFs
 - Conduct follow-up calls and meetings for inbound requests as well as ongoing check-ins with agency partners for the Fall 2017 class
 - At the direction of the ED, participate in outbound business development and marketing opportunities for future PIFs
-
 
 ## Basic Information
 
@@ -135,7 +133,7 @@ This position is located within the General Services Administration (GSA), Techn
 
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the federal government. 
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
 - Health insurance (choose from a wide range of plans)
@@ -152,7 +150,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 ## Key Requirements
 
 1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
-2. Suitable for Federal employment, determined by a background investigation.
+2. Suitable for federal employment, determined by a background investigation.
 3. You may be required to serve a trial period.
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
@@ -160,8 +158,8 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 
 ## Employment Requirements
 - Serve a one year trial period, if required.
-- Undergo and pass a background investigation.  You must be granted this clearance before you can start the job.
-- Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
+- Undergo and pass a background investigation. You must be granted this clearance before you can start the job.
+- Have your identity and work status eligibility verified if you are not a GSA employee. We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
 
@@ -170,7 +168,7 @@ Typical duties for the Presidential Innovation Fellow include, but are not limit
 
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions; 
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward­thinking design and development principles to product development and program management, such as lean startup, user­centered design, and agile development ; 
-- Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field; representing the agency at technical symposia and/or conferences; 
+- Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field; representing the agency at technical symposia and/or conferences; 
 - Developing authoritative papers/reports; developing and leading adoption of government­wide standards for digital services, leading to their adoption across citizen and business­facing government services; Demonstrating thought leadership and contributing best practices in a variety of technologies and principles; and 
 - Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
 
@@ -196,7 +194,7 @@ Within each category, veterans will receive selection priority over non-veterans
 
 ## Qualifications 
 
-To qualify, you must have one year of specialized experience equivalent to the GS-15 in the Federal service. Specialized experience is:
+To qualify, you must have one year of specialized experience equivalent to the GS-15 in the federal service. Specialized experience is:
 - Defines brand and marketing vision and develops annual marketing strategy and roadmaps outlining multi-channel engagement programs and tactics across the marketing mix
 - Ability to craft storytelling copy including online media, video and print materials used for the purpose of advertising or marketing
 - Using varying marketing tools and techniques tailored to each audience to communicate and tell stories including videos, blogs, screencast presentations, articles, and social media.
@@ -229,7 +227,7 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
 - **Completed application** 
 
 - **If you are claiming veterans preference:**
-	- Copy of your Certificate of Release or Discharge From Active Duty, DD-214 that shows the dates of your active duty service.  If selected, a DD-214 showing your type of discharge (member 4 copy) will be required prior to appointment.  
+	- Copy of your Certificate of Release or Discharge From Active Duty, DD-214 that shows the dates of your active duty service. If selected, a DD-214 showing your type of discharge (member 4 copy) will be required prior to appointment.  
 	- If you are claiming 10-point preference or derived preference (a spouse, widow or widower, or parent of a deceased or disabled veteran), submit both of the following in addition to the DD-214:
 		- completed [SF-15](http://www.opm.gov/forms/pdf_fill/SF15.pdf) form; and
 		- proof of your entitlement; refer to [SF-15](http://www.opm.gov/forms/pdf_fill/SF15.pdf) for complete list.
