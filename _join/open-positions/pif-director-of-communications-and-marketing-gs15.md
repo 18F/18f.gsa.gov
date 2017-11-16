@@ -95,7 +95,7 @@ Innovation Specialist
 **Promotion Potential:**
 None
 
-**Salary Range:** Base salary GS-15: $131,767 - $161,900
+**Salary Range:** Base salary GS-15: $131,767
 
 Total compensation will include locality pay based on the individual's duty location. For locality pay details, please visit [https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/). If you are a new federal employee, your starting salary will likely be set at the Step 1 of the grade for which you are selected.  
 
