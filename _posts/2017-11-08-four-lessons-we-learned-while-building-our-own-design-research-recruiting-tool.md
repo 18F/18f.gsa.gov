@@ -113,7 +113,7 @@ As of September, we've launched an internal pilot of the GSA Recruiter tool to s
 
 In bringing this recruiting service to life we’ve worked hard to document, share, and socialize what we’re learning. In addition to publishing the Design Research PIA and this blog post, we’ve also updated our [privacy method card](https://methods.18f.gov/#privacy) and the privacy section of our [Before You Ship guide](http://before-you-ship.18f.gov/privacy/). To further discuss this work, we’re participating in (read: asking a bunch of questions about design research and usability testing during) the [Federal Privacy Bootcamp](https://www.fpc.gov/education-and-training-sub-committee/). Over the next few months we hope to more thoroughly consider and document the ways in which simple, custom software can help streamline design research across government. 
 
-Finally, in the spirit of proactive customer service, it feels fitting to end this post with a call to action: We'd love your feedback! Please send an email to [18f-research@gsa.gov](18f-research@gsa.gov) if you’ve found this post useful, and let us know if you’ve conducted similar assessments of design research practices within your agency.
+Finally, in the spirit of proactive customer service, it feels fitting to end this post with a call to action: We'd love your feedback! Please send an email to [18f-research@gsa.gov](mailto:18f-research@gsa.gov) if you’ve found this post useful, and let us know if you’ve conducted similar assessments of design research practices within your agency.
 
 ## Credit where it’s due
 
