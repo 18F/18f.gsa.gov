@@ -1,6 +1,6 @@
 ---
 title: "Improving government outcomes through an agile contract format"
-date: 2017-11-28
+date: 2017-11-29
 authors:
 - mchopson
 tags:
@@ -24,7 +24,7 @@ Using the UCF for a contract causes the government to issue solicitations thicke
 
 An advantage of agile work methods is that they focus on discovering a solution to a problem after the contract is awarded, that is, during post-award execution, rather than specifying the detailed solution up front as with Part 15. An agile contract tries to specify problems requiring detailed solutions, often as Product Backlog Items that describe high level contract delivery areas.
 
-Understanding this problem, the Office of Management and Budget and Office of Federal Procurement Policy [directed agencies](https://georgewbush-whitehouse.archives.gov/omb/procurement/pbsa/guide_pbsc.html) to stop using SOWs and shift to using a Performance Work Statement (PWS) for acquiring services. A PWS “[should state requirements in general terms of what (result) is to be done, rather than how (method) it is done](https://dap.dau.mil/acquipedia/Pages/ArticleDetails.aspx?aid=488854b0-d8ee-4e32-aa3e-301d2ac8ffca)” Good contracting officers advise agencies that by buying expert services, it implies that you’re not the most knowledgeable in “how” work is done. As the mission owner, _you are the expert in “what,”_ must get accomplished, but conflating the two puts your mission at risk and makes it harder for a contract to provide value. 
+Understanding this problem, the Office of Management and Budget and Office of Federal Procurement Policy [directed agencies](https://georgewbush-whitehouse.archives.gov/omb/procurement/pbsa/guide_pbsc.html) to stop using SOWs and shift to using a Performance Work Statement (PWS) for acquiring services. A PWS “should state requirements in general terms of what (result) is to be done, rather than how (method) it is done” Good contracting officers advise agencies that by buying expert services, it implies that you’re not the most knowledgeable in “how” work is done. As the mission owner, _you are the expert in “what,”_ must get accomplished, but conflating the two puts your mission at risk and makes it harder for a contract to provide value. 
 
 Rather than make this substantive shift from how to what, some government buyers just retitle their old Statements of Work to be a “Performance Work Statement.” This helps agencies comply with oversight mandates, but doesn’t actually change the nature of their requests to industry. The length and complexity remains the same, so industry continues to lose time and effort just getting through documents to try and understand what the government wants from it. The government gets to be in the perennial position of saying, “That’s not what I wanted.” There’s an easier way to get started, especially when it comes to agile development.
 
@@ -34,7 +34,7 @@ Contracting officers can avoid the negative side effects of using SOWs by instea
 
 A SOO is:
 
->A summary of key agency goals, outcomes, or both, that is incorporated into performance-based service acquisitions so that competitors may propose their solutions, including a technical approach, performance standards, and a quality assurance surveillance plan based upon commercial business practices./[cite](https://dap.dau.mil/acquipedia/Pages/ArticleDetails.aspx?aid=488854b0-d8ee-4e32-aa3e-301d2ac8ffca)> 
+>A summary of key agency goals, outcomes, or both, that is incorporated into performance-based service acquisitions so that competitors may propose their solutions, including a technical approach, performance standards, and a quality assurance surveillance plan based upon commercial business practices. 
 
 FAR 37.602(c) provides that a SOO only requires a few sections:
 
@@ -78,4 +78,4 @@ Delivery is the strategy here at TTS Office of Acquisition. The contract is the 
 
 This is one piece towards a broader method of contracting for agile development services. Through this method, you can save time, reduce risk, improve quality, and [avoid agilefall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/) by allowing industry to apply their expertise. That’s why you’re contracting in the first place. 
 
-If you’re looking for examples we’ve done to date go [here](), and if you’re interested in chatting with TTS on how we may be able to help email us at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).  
+If you’re looking for examples we’ve done to date go [here](https://modularcontracting.18f.gov/), and if you’re interested in chatting with TTS on how we may be able to help email us at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).  
