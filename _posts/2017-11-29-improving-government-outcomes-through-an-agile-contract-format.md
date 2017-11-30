@@ -18,7 +18,7 @@ Unfortunately, this practice means new contracts often repeat the shortcomings t
 
 ## The role of the Uniform Contract Format 
 
-If you’ve ever been involved in the government acquisition process, you’ve almost certainly encountered the Uniform Contract Format (UCF), whether you realize it or not. Though the UCF is common, the Federal Acquisition Regulation (FAR) only requires the use of the UCF to create a solicitation in very limited circumstances  — mainly FAR Part 15. For almost any type of IT acquisition, using FAR Part 15 - Contracting by Negotiation should be **avoided at all cost**. Using the UCF in conjunction with FAR Part 15 is the reason why so many government acquisitions involve a timeline of 18 to 24 months when another format could be much faster 
+If you’ve ever been involved in the government acquisition process, you’ve almost certainly encountered the Uniform Contract Format (UCF), whether you realize it or not. Though the UCF is common, the Federal Acquisition Regulation (FAR) only requires the use of the UCF to create a solicitation in very limited circumstances  — mainly FAR Part 15. For almost any type of IT acquisition, using FAR Part 15 - Contracting by Negotiation should be **avoided at all cost**. Using the UCF in conjunction with FAR Part 15 is the reason why so many government acquisitions involve a timeline of 18 to 24 months when another format could be much faster.
 
 Using the UCF for a contract causes the government to issue solicitations thicker than great works of literature, but far less enjoyable. The crux of the problem rests with the UCF’s use of a Statement of Work (SOW) to describe the government’s need, or what acquisition professionals call the “requirements.” SOWs are the least desirable format for the government to communicate its requirements for industry’s services because it tells companies _how_ to do something not _what_ needs to be done. Making SOWs _prescriptive_ rather than _descriptive_, which is akin to going to see a doctor and asking for a specific surgery before there’s even been a diagnosis. Additionally, SOWs don’t account for pivots or design changes based on user feedback. What this usually means is that the government tries to imagine everything that may possibly happen or be needed and add it to the UCF’s SOW like a wish list.
 
@@ -53,7 +53,7 @@ At 18F, we typically do our work in four person teams comprised of an agile coac
 
 We meet with the agency we’re partnering with for a multi-day workshop that is designed with three objectives in mind:
 1. Establish a baseline of vocabulary and knowledge about agile product development methods.
-2. Create an initial, high-level user personas and a product backlog that describes the major features of the system to be built and identify the scope of the first modular contract.
+2. Create initial, high-level user personas and a product backlog that describes the major features of the system to be built and identify the scope of the first modular contract.
 3. Create a draft of the first solicitation.
 
 At the end, we get something that looks like this:
@@ -74,7 +74,7 @@ Instead of years and back and forth, by going through agile workshops and using 
 
 ## Towards better contracting
 
-Delivery is the strategy here at TTS Office of Acquisition. The contract is the means _not the end_. Writing down every possible future requirement you can think of can feel like it reduces risk and ensures the project will succeed. But that’s not borne out by the evidence of years of government contracting.
+Delivery is the strategy here at the TTS Office of Acquisition. The contract is the means _not the end_. Writing down every possible future requirement you can think of can feel like it reduces risk and ensures the project will succeed. But that’s not borne out by the evidence of years of government contracting.
 
 This is one piece towards a broader method of contracting for agile development services. Through this method, you can save time, reduce risk, improve quality, and [avoid agilefall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/) by allowing industry to apply their expertise. That’s why you’re contracting in the first place. 
 
