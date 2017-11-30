@@ -1,6 +1,6 @@
 ---
 title: "Improving government outcomes through an agile contract format"
-date: 2017-11-29
+date: 2017-11-30
 authors:
 - mchopson
 tags:
@@ -9,7 +9,6 @@ tags:
 - acquisition services
 excerpt: "The way government is writing contracts is wasting time, handcuffing industry, and preventing programs from meeting mission mandates. There’s a better way through an Agile Contract Format."
 description: ""
-
 ---
 
 Although it doesn’t get as much attention in the conversation around improving government acquisitions, one area that really _does matter_ is the style of solicitation documents. The format and structure of contracts has a huge impact on vendor participation, the competition process, finding qualified vendors, and, therefore, contract outcomes. When I started as a contract specialist, I was given hand-me-downs of past solicitations. It’s a fairly common practice to start the acquisition process by asking others for their documents, or just searching the internet or document repositories like [FedBizOpps](https://www.fbo.gov/) to replace names and dates. 
