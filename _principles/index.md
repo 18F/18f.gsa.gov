@@ -92,7 +92,7 @@ Achieving success depends on building a close working relationship between 18F a
 ### A successful product owner has:
 
 - **Authority to make decisions:** The product owner removes obstacles and helps the team work as quickly as they can. They make decisions independently and have sufficient authority to make changes large and small to the product without additional review from superiors. 
-- **Time to work with us:** The product owner is just as much a part of the team as designers, researchers, and developers. Product owners should lead the product team: crafting a product vision and strategy, prioritizing work, evangelizing to stakeholders and users, working with developers and designers and measuring results.
+- **Time to work with us:** The product owner is just as much a part of the team as designers, researchers, and developers. Product owners should lead the product team: crafting a product vision and strategy, prioritizing work, evangelizing to stakeholders and users, working with developers and designers, and measuring results.
 - **Subject matter expertise:** Public service work is detail-oriented. It’s often focused in the niche areas of expertise our team doesn’t have. While we bring technical expertise, your product owners provide guidance and expertise about your program and users.
 - **Advocacy inside your agency:** The product owner can identify stakeholders inside your agency and gain their support. Whether we have research results to present, a major milestone to celebrate, or questions for another office in your agency, the product owner is our connection to the relevant people.
 
@@ -103,5 +103,3 @@ The product owner will lead the product team. While they may not already know be
 # Got questions?
 
 If you already have a primary contact at 18F, they can answer any questions you may have about these principles. If you don’t yet have a primary contact, please reach out to our Agency Partnerships team at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov). We’ll be more than happy to discuss possibilities and concerns. 
-
-
