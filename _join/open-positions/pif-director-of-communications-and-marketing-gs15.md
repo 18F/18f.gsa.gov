@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
 
-We're hiring a Director of Communications and Marketing for the Presidential Innovation Fellows Program which resides within the General Services Administration (GSA). This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/PIF-Director-of-Communications-and-Marketing-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/PIF-Director-of-Communications-and-Marketing-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Director of Communications and Marketing for the Presidential Innovation Fellows Program which resides within the General Services Administration (GSA). This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/pif-director-of-communications-and-marketing-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/pif-director-of-communications-and-marketing-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Industry Specialist is the official government title for this position.**
 
