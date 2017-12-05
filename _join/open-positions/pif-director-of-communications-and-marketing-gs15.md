@@ -39,7 +39,7 @@ The Presidential Innovation Fellows pairs top technologists, entrepreneurs, desi
 
 This new class of fellows will be digging in on a range of important work including helping bring Smart Cities become a reality through the Department of Transportation, helping deliver critical services to our nation's veterans in a simple and human-centered way at the Veterans Affairs (VA), and helping improve the match between patients and clinical trials that could help them at the National Cancer Institute (NCI). Over the next few weeks, we'll be sharing the names and backgrounds of the new fellows. 
 
-Does this type of work sound like something you could passionately endorse? Do you love to inspire people to action? Are you amazing at telling a story that really pulls people in and truly engages them? You could be the right person to join the PIF program team and serve as our next Deputy Director of Communications and Marketing. 
+Does this type of work sound like something you could passionately endorse? Do you love to inspire people to action? Are you amazing at telling a story that really pulls people in and truly engages them? You could be the right person to join the PIF program team and serve as our next Director of Communications and Marketing. 
 
 This position requires a confident leader who is assertive and able to bring big ideas to the table. A creative, conceptual thinker with big, outside-of-the-box ideas who is also a tireless executor, able to roll up their sleeves and translate those big ideas into action and business results. 
 
