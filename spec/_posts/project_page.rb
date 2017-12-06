@@ -54,7 +54,7 @@
         "fec.gov"
       ],
       "expiration_date": nil,
-      "github_repo": "https://github.com/18F/openFEC-web-app",
+      "github_repo": "https://github.com/18F/FEC",
       "project_url": "https://beta.fec.gov/",
       "slug": "fec-gov",
       "ext": ".md",
@@ -109,7 +109,7 @@
     "fec.gov"
   ],
   "expiration_date": nil,
-  "github_repo": "https://github.com/18F/openFEC-web-app",
+  "github_repo": "https://github.com/18F/FEC",
   "project_url": "https://beta.fec.gov/",
   "slug": "fec-gov",
   "ext": ".md",

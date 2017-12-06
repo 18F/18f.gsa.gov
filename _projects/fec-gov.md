@@ -10,7 +10,7 @@ image_accessibility: Screenshot of the FEC data explorer with stylized magnifyin
 project_weight: 5
 tag: fec.gov
 expiration_date:
-github_repo: https://github.com/18F/openFEC-web-app
+github_repo: https://github.com/18F/FEC
 project_url: "[Federal Election Commission website](https://beta.fec.gov/)"
 quote:
 ---
