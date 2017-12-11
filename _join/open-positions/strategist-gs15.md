@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Strategist in the Office of 18F at the GS-15 level to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Strategist in 18F at the GS-15 level to help us build amazing products for our federal agnecy partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Strategist position.**
 
@@ -35,9 +35,9 @@ We're hiring a Strategist in the Office of 18F at the GS-15 level to help us bui
 
 ### Strategist GS-15
 
-Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the American public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems. 
+Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems. 
 
-We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design/strategy, user research, product or software development. Experience in an agile development environment a plus.
+We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design orstrategy, user research, or product or software development. Experience in an agile development environment a plus.
 
 
 ## Key Objectives
@@ -125,7 +125,7 @@ As an Innovation Specialist, the team member serves the government and makes an 
 This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of 18F.
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the federal government. 
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
 - Health insurance (choose from a wide range of plans)
@@ -142,7 +142,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 ## Key Requirements
 
 1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
-2. Suitable for Federal employment, determined by a background investigation.
+2. Suitable for federal employment, determined by a background investigation.
 3. You may be required to serve a trial period.
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
@@ -154,16 +154,13 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 - Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
-
 ## Duties 
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward ­thinking design and development principles to product or services development, delivery and program management, such as lean startup, user­ centered design, and agile development;
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
-- Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
+- Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
 - Developing authoritative papers/reports; developing and leading adoption of government­wide standards for digital services, leading to their adoption across citizen and business­ facing government services;
 - Demonstrating thought leadership and contributing best practices in a variety of technologies and principles;
 - Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
-
-
 
 ## Evaluations
 We will use a method called Category Rating to assess your application.  
@@ -186,9 +183,9 @@ Within each category, veterans will receive selection priority over non-veterans
 
 ## Qualifications 
 
-To qualify, you must have one year of specialized experience equivalent to the GS-14 in the Federal service. Specialized experience is:
-- Experience in user-centered design disciplines such as service design, user experience design, content strategy, design strategy, product management or software development.
-- Experience conducting user research such as observational research, usability testing, user interviews and stakeholder interviews.
+To qualify, you must have one year of specialized experience equivalent to the GS-14 in the federal service. Specialized experience is:
+- Experience in user-centered design disciplines such as service design, user experience design, content strategy, design strategy, product management, or software development.
+- Experience conducting user research such as observational research, usability testing, user interviews, and stakeholder interviews.
 - Experience leading projects in a consulting role.
 - Working on cross-functional, multidisciplinary teams that deliver digital products and services in an incremental, user-focused environment.
 
@@ -212,7 +209,7 @@ Submit a completed online application prior to the closing date of the posting. 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
 - **Resume**
-  - For a brief video on creating a Federal resume, [click here](https://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx)
+  - For a brief video on creating a federal resume, [click here](https://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx)
 	- If you have volunteered your service through a National Service program (e.g. Peace Corps, Americorps), we encourage you to apply and include this experience on your resume.
 
 - **Completed application** 
@@ -258,5 +255,3 @@ After the closing date:
 4. **FINAL JOB OFFER:** Once our security office determines you can come on board, you will be given a final offer.
 
 **Thank you for your interest in working for U.S. General Services Administration!**
-
-
