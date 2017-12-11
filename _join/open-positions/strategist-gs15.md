@@ -204,7 +204,7 @@ Submit a completed online application prior to the closing date of the posting. 
   <a class="usa-button usa-button-secondary" href="https://goo.gl/forms/3fsabnU2T4sF4xU83">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email Elizabeth Scott at** [join18F@gsa.gov](mailto:join18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email Elizabeth Scott at** [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
