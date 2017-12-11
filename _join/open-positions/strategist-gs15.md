@@ -147,11 +147,11 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
 
-
 ## Employment Requirements
 - Serve a one year trial period, if required.
-- Undergo and pass a background investigation.  You must be granted this clearance before you can start the job.
-- Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
+- Undergo and pass a background investigation. You must be granted this clearance before you can start the job.
+- Have your identity and work status eligibility verified if you are not a GSA employee. We will use the Department of Homeland Security’s e-Verify system for this.
+- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
 ## Duties 
