@@ -46,7 +46,7 @@ We're looking for senior-level candidates who have consulting experience along w
 - Navigate complex organizational relationships to bring stakeholders together around common goals and priorities.
 - Identify user and organizational needs through formal interviews, informal conversations, contextual inquiry, workshops, and analytics research.
 - Work comfortably amidst uncertainty.
-- Provide strategic value to partners early, reduce the risks of improperly-scoped work, and allow the team to quickly steer the project in the right direction.
+- Provide strategic value to partners early, reduce the risks of improperly scoped work, and allow the team to quickly steer the project in the right direction.
 - Create artifacts to communicate what you learn in a way that resonates with our agency partners. 
 
 
