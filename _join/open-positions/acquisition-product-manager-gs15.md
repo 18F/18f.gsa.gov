@@ -184,11 +184,11 @@ We will use a method called Category Rating to assess your application.
 
 You will be scored based on a review of your application materials, measuring your possession of each of the following competencies: 
 
-- **Communication:** Ability to communicate effectively with a variety of audiences to establish a shared vision and understanding of the project’s objectives and goals. (0-20 points) 
- - **Product Experience:** Ability to deliver the right digital product using user-centered and agile-based methodologies  (0-20 points)  
-- **Leadership:** Ability to effectively lead a cross-functional team to meet digital project/product objectives. (0-20 points)  
-- **Innovation:** Ability to apply innovative tools and technologies  and to help partners make strategic & tactical decisions toward innovation. (0-20 points) 
--**18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
+- **Communication:** Ability to communicate effectively with a variety of audiences to establish a shared vision and understanding of the project’s objectives and goals.
+ - **Product Experience:** Ability to deliver the right digital product using user-centered and agile-based methodologies.
+- **Leadership:** Ability to effectively lead a cross-functional team to meet digital project/product objectives. 
+- **Innovation:** Ability to apply innovative tools and technologies  and to help partners make strategic & tactical decisions toward innovation.
+- **18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
@@ -220,11 +220,12 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
   <a class="usa-button usa-button-secondary" href="https://goo.gl/forms/W4RXIvtb7Y6OtYB82">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email Leigh Finkel ** [join18F@gsa.gov](mailto:join18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email Leigh Finkel at ** [join18F@gsa.gov](mailto:join18F@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
 - **Resume**
+  - For a brief video on creating a Federal resume, [click here](https://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx)
 	- If you have volunteered your service through a National Service program (e.g. Peace Corps, Americorps), we encourage you to apply and include this experience on your resume.
 
 - **Completed application** 

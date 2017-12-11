@@ -212,6 +212,7 @@ Submit a completed online application prior to the closing date of the posting. 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
 - **Resume**
+  - For a brief video on creating a Federal resume, [click here](https://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx)
 	- If you have volunteered your service through a National Service program (e.g. Peace Corps, Americorps), we encourage you to apply and include this experience on your resume.
 
 - **Completed application** 
