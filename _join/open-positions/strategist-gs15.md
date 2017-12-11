@@ -37,7 +37,7 @@ We're hiring a Strategist in 18F at the GS-15 level to help us build amazing pro
 
 Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems. 
 
-We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design orstrategy, user research, or product or software development. Experience in an agile development environment a plus.
+We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design or strategy, user research, or product or software development. Experience in an agile development environment a plus.
 
 
 ## Key Objectives
