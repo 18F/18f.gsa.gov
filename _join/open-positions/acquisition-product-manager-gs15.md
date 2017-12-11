@@ -133,14 +133,14 @@ Excepted Service – Not to exceed 2 years; may be extended for an additional 2 
 
 ## Job Summary
 
-This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Service, U.S. Digital Service 18 F Fellowship Program. The 18F office is charged with developing innovative digital tools and services. 18F uses lean start­up and agile development principles to make easy things easy and hard things possible. 
+This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Service, U.S. Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services. 18F uses lean start­up and agile development principles to make easy things easy and hard things possible. 
 
 As an Innovation Specialist the incumbent serves the government and makes an impact on a truly massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages his/her experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposals, and provide technical, policy, and programmatic guidance to government.
 
 This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of 18F Acquisition.
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the Federal Government'. 
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the federal government. 
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
 - Health insurance (choose from a wide range of plans)
@@ -157,11 +157,10 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 ## Key Requirements
 
 1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
-2. Suitable for Federal employment, determined by a background investigation.
+2. Suitable for federal employment, determined by a background investigation.
 3. You may be required to serve a trial period.
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
-
 
 ## Employment Requirements
 - Serve a one year trial period, if required.
@@ -173,12 +172,10 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 ## Duties 
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward­ thinking design and development principles to product or services development, delivery and program management, such as lean startup, user­centered design, and agile development
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions
-- Assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences
+- Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences
 - Developing authoritative papers/reports; developing and leading adoption of government­wide standards for digital services, leading to their adoption across citizen and business­facing government services
 - Demonstrating thought leadership and contributing best practices in a variety of technologies and principles
 - Contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges
-
-
 
 ## Evaluations
 We will use a method called Category Rating to assess your application.  
@@ -201,7 +198,7 @@ Within each category, veterans will receive selection priority over non-veterans
 
 ## Qualifications 
 
-To qualify, you must have one year of specialized experience equivalent to the GS-14 in the Federal service. Specialized experience is:
+To qualify, you must have one year of specialized experience equivalent to the GS-14 in the federal service. Specialized experience is:
 - Owning, developing or communicating the product vision and/or developing or managing the product roadmap
 - Leading projects with cutting edge or complex technology, missions, or stakeholders, or a high degree of uncertainty, such as greenfield/startups, legacy migrations, projects at scale, or integrations
 - Use of innovation tools and methodologies such as Lean, Agile, Open Source, APIs, or UX
