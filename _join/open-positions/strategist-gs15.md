@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Strategist in 18F at the GS-15 level to help us build amazing products for our federal agnecy partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Strategist in 18F at the GS-15 level to help us build amazing products for our federal agency partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Strategist position.**
 
