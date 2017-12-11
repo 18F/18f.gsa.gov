@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Strategist in 18F at the GS-15 level to help us build amazing products for our federal agnecy partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Strategist in 18F at the GS-15 level to help us build amazing products for our federal agency partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Strategist position.**
 
@@ -37,7 +37,7 @@ We're hiring a Strategist in 18F at the GS-15 level to help us build amazing pro
 
 Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems. 
 
-We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design orstrategy, user research, or product or software development. Experience in an agile development environment a plus.
+We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design or strategy, user research, or product or software development. Experience in an agile development environment a plus.
 
 
 ## Key Objectives
@@ -46,7 +46,7 @@ We're looking for senior-level candidates who have consulting experience along w
 - Navigate complex organizational relationships to bring stakeholders together around common goals and priorities.
 - Identify user and organizational needs through formal interviews, informal conversations, contextual inquiry, workshops, and analytics research.
 - Work comfortably amidst uncertainty.
-- Provide strategic value to partners early, reduce the risks of improperly-scoped work, and allow the team to quickly steer the project in the right direction.
+- Provide strategic value to partners early, reduce the risks of improperly scoped work, and allow the team to quickly steer the project in the right direction.
 - Create artifacts to communicate what you learn in a way that resonates with our agency partners. 
 
 
@@ -147,11 +147,11 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 4. Direct Deposit of salary check to financial organization required. 
 5. Register with Selective Service, if you are a male born after 12/31/1959.
 
-
 ## Employment Requirements
 - Serve a one year trial period, if required.
-- Undergo and pass a background investigation.  You must be granted this clearance before you can start the job.
-- Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
+- Undergo and pass a background investigation. You must be granted this clearance before you can start the job.
+- Have your identity and work status eligibility verified if you are not a GSA employee. We will use the Department of Homeland Security’s e-Verify system for this.
+- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
 ## Duties 
@@ -173,7 +173,7 @@ You will be scored based on a review of your application materials, measuring yo
 - **Collaboration:** The ability to work closely with others to accomplish shared goals and build strong working relationships. 
 - **Communication:** The ability to convey information and ideas clearly, succinctly and effectively with a variety of audiences to establish a shared vision and understanding.
 - **Leadership:** The ability to effectively lead a cross-functional team to meet organization and project objectives. 
-**18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
+- **18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
@@ -204,7 +204,7 @@ Submit a completed online application prior to the closing date of the posting. 
   <a class="usa-button usa-button-secondary" href="https://goo.gl/forms/3fsabnU2T4sF4xU83">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email Elizabeth Scott at** [join18F@gsa.gov](mailto:join18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email Elizabeth Scott at** [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.

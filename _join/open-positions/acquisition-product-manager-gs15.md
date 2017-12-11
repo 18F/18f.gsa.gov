@@ -27,7 +27,7 @@ published: true
 listed: true
 ---
  
-We're hiring a Product Manager for the 18F Acquisition team at the GS-15 level to help us build amazing products for our clients. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/product-manager-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/product-manager-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
+We're hiring a Product Manager for the 18F Acquisition team at the GS-15 level to help us build amazing products for our agency partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/product-manager-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/product-manager-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Product Manager position.**
 
@@ -165,7 +165,8 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 ## Employment Requirements
 - Serve a one year trial period, if required.
 - Undergo and pass a background investigation.  You must be granted this clearance before you can start the job.
-- Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.- Any discrepancies must be resolved as a condition of continued employment.
+- Have your identity and work status eligibility verified if you are not a GSA employee.  We will use the Department of Homeland Security’s e-Verify system for this.
+- Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
 
@@ -220,7 +221,7 @@ Submit a complete online application prior to 11:59 pm Eastern Time on the closi
   <a class="usa-button usa-button-secondary" href="https://goo.gl/forms/W4RXIvtb7Y6OtYB82">Click here to apply</a>
 </section>
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email Leigh Finkel at ** [join18F@gsa.gov](mailto:join18F@gsa.gov).
+**Need Assistance in applying or have questions regarding this job opportunity, please email Leigh Finkel at** [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
 ### Required Documents
 **ALL** required documents must be submitted before the closing date to be considered for the role. Review the following list to determine what you need to submit.
