@@ -31,7 +31,7 @@ them differently is more risky, but humans do have a tendency to see it
 that way. For all we know, the way we’re doing things now *is* high
 risk, but we just don’t acknowledge it.
 
-If you’re looking to change the way your team design and develops
+If you’re looking to change the way your team designs and develops
 software projects take a look at the tips below.
 
 The initial hook
