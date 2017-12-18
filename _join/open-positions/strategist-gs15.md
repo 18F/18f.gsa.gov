@@ -2,9 +2,9 @@
 title: 18F Strategist
 permalink: /join/strategist-gs15/
 layout: primary
-lead: 
+lead:
 app_close_date: DECEMBER 15, 2017
-subnav_title: STRATEGIST GS-15 
+subnav_title: STRATEGIST GS-15
 subnav_items:
   - text: Role summary
     permalink: /#role-summary
@@ -23,19 +23,19 @@ subnav_items:
   - text: What to expect
     permalink: /#what-to-expect
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
- 
+
 We're hiring a Strategist for 18F at the GS-15 level to help us build amazing products for our federal agency partners. This page includes key objectives for the role as well as the official job description. The [Duties]({{site.baseurl}}/join/strategist-gs15/#duties) and [Qualifications]({{site.baseurl}}/join/strategist-gs15/#qualifications) on this page are specific to the GS-15 level position. You can apply at the bottom or learn more about the application process at [Joining 18F](https://18f.gsa.gov/join/#how-to-apply).
 
 **Please note: Innovation Specialist is the official government title for this Strategist position.**
 
-## Role Summary: 
+## Role Summary:
 
 ### Strategist GS-15
 
-Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems. 
+Federal government agencies often approach 18F for help with improving an internal process or redesigning the way they present information to the public. As a strategist with 18F, you’ll lead early efforts with these agency partners to define what problem they’re trying to solve and identify what’s needed to ensure successful next steps. Your work will include aligning stakeholders, talking to end users, turning vague ideas into concrete priorities, and minimizing risk in the product development process. And you’ll do all this in a spirit of partnership, with a sense of humility and empathy for our partners and the people who use their systems.
 
 We're looking for senior-level candidates who have consulting experience along with a background in a user-centered design or strategy discipline such as digital strategy, service design, user experience design, content design or strategy, user research, or product or software development. Experience in an agile development environment a plus.
 
@@ -47,42 +47,42 @@ We're looking for senior-level candidates who have consulting experience along w
 - Identify user and organizational needs through formal interviews, informal conversations, contextual inquiry, workshops, and analytics research.
 - Work comfortably amidst uncertainty.
 - Provide strategic value to partners early, reduce the risks of improperly scoped work, and allow the team to quickly steer the project in the right direction.
-- Create artifacts to communicate what you learn in a way that resonates with our agency partners. 
+- Create artifacts to communicate what you learn in a way that resonates with our agency partners.
 
 
 ### Objective #2: Deliver recommendations that frame next steps
 - Give agency partners and peers the advice they need to hear over what they want to hear, in a manner that respects their intelligence and experience.
-- Provide visibility into the project’s progress, communicate blockers and challenges, and ask for help when you need it. 
+- Provide visibility into the project’s progress, communicate blockers and challenges, and ask for help when you need it.
 - Explain issues clearly to both technical and non-technical audiences.
 - Help agency partners tell their own story within their organization.
-- Take a position on what needs to happen in order for a project to be set up for success, and communicate this position in a way that’s easy for stakeholders to understand. 
+- Take a position on what needs to happen in order for a project to be set up for success, and communicate this position in a way that’s easy for stakeholders to understand.
 
 ### Objective #3: Model the behaviors we want to see partners adopt
 - Teach agency teams how to take risks and validate ideas.
 - Demonstrate how to incorporate users into the product development process.
 - Help teams discover their internal creative thinkers and champions.
-- Hold yourself and your team accountable for measurable, high-quality, timely, and cost-effective results. 
-- Demonstrate credibility in your area of expertise, deliver high-quality work, and accept responsibility for mistakes. 
+- Hold yourself and your team accountable for measurable, high-quality, timely, and cost-effective results.
+- Demonstrate credibility in your area of expertise, deliver high-quality work, and accept responsibility for mistakes.
 
-### Objective #4: Contribute to your team’s continued success 
+### Objective #4: Contribute to your team’s continued success
 - Continually promote 18F’s ways of working by making a strong case for iterative, user-centered design on every project.
 - Contribute to team-wide reusable resources and materials.
 - Recognize when practices no longer serve the team and recommend a way forward.
 - Share your work in an unfinished state and give peer feedback in critique sessions.
-- Support a safe, inclusive workplace and a positive team culture where all team members value diversity and individual differences. 
+- Support a safe, inclusive workplace and a positive team culture where all team members value diversity and individual differences.
 
 ## Basic Information
 
-**Job announcement number:** 
+**Job announcement number:**
 1800179JCOTR
 
 **Opening and closing period for this job application:**
-(open) Monday, December 11th to Friday, December 15th, 2017 11:59pm Eastern (close) 
+(open) Monday, December 11th to Friday, December 15th, 2017 11:59pm Eastern (close)
 
-**Job Title:** 
+**Job Title:**
 Innovation Specialist
 
-**Series & Grade:** 
+**Series & Grade:**
 0301-15
 
 **Promotion Potential:**
@@ -92,25 +92,25 @@ GS-15
 
 Total compensation will include locality pay based on the individual's duty location. For locality pay details, please visit [https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/). If you are a new federal employee, your starting salary will likely be set at the Step 1 of the grade for which you are selected.  
 
-**Locations:** 
-Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Virtual (100% remote) 
+**Locations:**
+Washington, DC; San Francisco, CA; Chicago, IL; New York, NY; Virtual (100% remote)
 
-**Number of vacancies:** 
+**Number of vacancies:**
 6 (Additional vacancies may be filled from this announcement as needed)  
 
-**Supervisory status:** 
+**Supervisory status:**
 No
 
-**Travel requirement:** 
-Occasional travel may be required between 10%-20% per year 
+**Travel requirement:**
+Occasional travel may be required between 10%-20% per year
 
 **Who May Apply:**
 All United States citizens and nationals (residents of American Samoa and Swains Islands) and applicants must not be GSA employees or contractors
 
-**Security clearance:** 
-Public trust. Background investigation required. 
+**Security clearance:**
+Public trust. Background investigation required.
 
-**Work Schedule:** 
+**Work Schedule:**
 Full time
 
 **Appointment Type:**
@@ -118,14 +118,14 @@ Excepted Service – Not to exceed 2 years; may be extended for an additional 2 
 
 ## Job Summary
 
-This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 
+This is a Schedule A position under 5 CFR 213.3102(r) to hire unique technical skills to develop innovative digital tools and services in the Excepted Services, US Digital Service 18F Fellowship Program. The 18F office is charged with developing innovative digital tools and services and uses lean startup and agile development principles to collaborate with other agencies to fix technical problems, build products, and improve how government serves the public through technology.
 
-As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government. 
+As an Innovation Specialist, the team member serves the government and makes an impact on a massive scale. The position requires that fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The incumbent leverages their experience deploying high quality, user centric platforms and services to lead major initiatives, consult on systems and policy proposal, and provide technical, policy, and programmatic guidance to government.
 
 This position is located within the General Services Administration (GSA), Technology Transformation Service (TTS), Office of 18F.
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the federal government. 
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)  in the federal government.
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
 - Health insurance (choose from a wide range of plans)
@@ -144,7 +144,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
 2. Suitable for federal employment, determined by a background investigation.
 3. You may be required to serve a trial period.
-4. Direct Deposit of salary check to financial organization required. 
+4. Direct Deposit of salary check to financial organization required.
 5. Register with Selective Service, if you are a male born after 12/31/1959.
 
 ## Employment Requirements
@@ -154,7 +154,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 - Any discrepancies must be resolved as a condition of continued employment.
 - Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position.
 
-## Duties 
+## Duties
 - Conceiving/recommending projects/studies to advance the state of the art in the specialty area; applying forward ­thinking design and development principles to product or services development, delivery and program management, such as lean startup, user­ centered design, and agile development;
 - Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions;
 - Assessing the state of digital services provided by the federal government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field, representing the agency at technical symposia and/or conferences;
@@ -167,21 +167,21 @@ We will use a method called Category Rating to assess your application.
 
 **Here’s how it will work:**
 
-You will be scored based on a review of your application materials, measuring your possession of each of the following competencies: 
+You will be scored based on a review of your application materials, measuring your possession of each of the following competencies:
 
 - **Problem Solving:** The ability to research, synthesize, and evaluate information to define problems and propose solutions effectively.    
-- **Collaboration:** The ability to work closely with others to accomplish shared goals and build strong working relationships. 
+- **Collaboration:** The ability to work closely with others to accomplish shared goals and build strong working relationships.
 - **Communication:** The ability to convey information and ideas clearly, succinctly and effectively with a variety of audiences to establish a shared vision and understanding.
-- **Leadership:** The ability to effectively lead a cross-functional team to meet organization and project objectives. 
+- **Leadership:** The ability to effectively lead a cross-functional team to meet organization and project objectives.
 - **18F Core Values Alignment:** The ability to work with integrity, transparency and resiliency in civic minded or high impact environment.
 
 Your score will be used to place you in one of the 3 categories: Superior, Qualified, or Not Qualified.
 
-If your resume does not support your possession of the competencies listed above, we may lower your score, which could place you in a lower category. 
-  
+If your resume does not support your possession of the competencies listed above, we may lower your score, which could place you in a lower category.
+
 Within each category, veterans will receive selection priority over non-veterans if supported by appropriate documentation.
 
-## Qualifications 
+## Qualifications
 
 To qualify, you must have one year of specialized experience equivalent to the GS-14 in the federal service. Specialized experience is:
 - Experience in user-centered design disciplines such as service design, user experience design, content strategy, design strategy, product management, or software development.
@@ -212,7 +212,7 @@ Submit a completed online application prior to the closing date of the posting. 
   - For a brief video on creating a federal resume, [click here](https://hru.gov/Studio_Recruitment/videos/Writing_Your_Federal_Resume.aspx)
 	- If you have volunteered your service through a National Service program (e.g. Peace Corps, Americorps), we encourage you to apply and include this experience on your resume.
 
-- **Completed application** 
+- **Completed application**
 
 - **If you are claiming veterans preference:**
 	- Copy of your Certificate of Release or Discharge From Active Duty, DD-214 that shows the dates of your active duty service.  If selected, a DD-214 showing your type of discharge (member 4 copy) will be required prior to appointment.  
@@ -222,7 +222,7 @@ Submit a completed online application prior to the closing date of the posting. 
 		- **If you are claiming veterans preference**, you **MUST** submit all Veteran’s documentation to Jacqueline Coleman <jacqueline.coleman@gsa.gov> by the job posting closing date. Please subject the email “Veteran’s documentation for Job Posting 1800179JCOTR”.
 - **If you are active duty military:** Certification on a letterhead from your military branch that includes your rank, character of service (must be under honorable conditions) & military service dates including discharge/release date (must be no later than 120 days after the date the certification is submitted).
 
-## Other Information 
+## Other Information
 Bargaining Unit status: Non Bargaining Unit
 
 Relocation-related expenses are not approved and will be your responsibility.  
