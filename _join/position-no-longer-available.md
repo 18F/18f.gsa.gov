@@ -30,6 +30,7 @@ redirect_from:
   - /join/feedback-analytics-engineer-gs15/
   - /join/pif-director-of-communications-and-marketing-gs15/
   - /join/strategist-gs15/
+  - /join/product-manager-gs15/
 ---
 
 Head over to the [Join 18F page](https://18f.gsa.gov/join/) to see current open positions or learn more about the application process. You can also [sign up for the 18F Newsletter](https://18f.gsa.gov/contact/) to receive regular updates, including new open positions.
