@@ -5,7 +5,7 @@ authors:
 - vdavez
 tags:
 - 18f
-- technology transformation service
+- technology transformation services
 - transparency
 excerpt: "Today the GSA Inspector General (IG) issued a report that identified areas for improvement, and we are thankful for their oversight. We have made many improvements over the last few months to address the issues outlined in this report and will take all additional actions necessary."
 image:
@@ -37,8 +37,8 @@ Chief Information Officer (CIO) by, among other things, having a CIO lead who re
 technology projects for 18F. In addition, the CFO is in the process of
 establishing dedicated resources to support 18F, which will help
 strengthen financial operations even further. Finally, we have created a
-Chief Operating Officer position within the 
-[Technology Transformation Service](http://gsa.gov/tts) (TTS) to ensure an 
+Chief Operating Officer position within the
+[Technology Transformation Service](http://gsa.gov/tts) (TTS) to ensure an
 ongoing focus on internal operations of all parts of the organization, including 18F.
 
 In addition, we agree that we must continue to refine business

@@ -12,7 +12,7 @@ tags:
 - cloud.gov
 - data act
 - rfp ghostwriting
-- technology transformation service
+- technology transformation services
 excerpt: "The Technology Transformation Service (TTS) is already absorbing the first-mover risk of introducing modern tools and techniques, but we know that only with the help of industry will this transformation be able to spread across the federal government. As we all bring agile methodologies, human-centered design, and modular design to the government, the opportunity to improve federal digital services is immense."
 description: "Last week, the General Services Administration (GSA) held a Technology Industry Day to talk to industry leaders about the products and solutions developed by GSA and to hear feedback on how we can better engage industry on some of our emerging technology efforts, particularly as we’re establishing the Technology Transformation Service. We’re thrilled that more than 300 members of the technology industry in person and via the live stream were able to join us for this first step towards a closer partnership."
 image: /assets/blog/industry-day/slide1.jpg

@@ -36,7 +36,7 @@ We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-pro
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
 
-In 2016, 18F became part of the [Technology Transformation Service](https://www.gsa.gov/tts) (TTS), which also includes the Presidential Innovation Fellows program, the Office of Acquisitions, and the [Office of Products and Programs](https://www.gsa.gov/portal/content/124174). Like GSA's other services (the Federal Acquisition Service and the Public Building Service), TTS provides tools, services, and resources to help other agencies serve the public.
+In 2016, 18F became part of the [Technology Transformation Services](https://www.gsa.gov/tts) (TTS), which also includes the Presidential Innovation Fellows program, the Office of Acquisitions, and the [Office of Products and Programs](https://www.gsa.gov/portal/content/124174). Like GSA's other services (the Federal Acquisition Service and the Public Building Service), TTS provides tools, services, and resources to help other agencies serve the public.
 
 **What does 18F mean?**
 
@@ -57,7 +57,7 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
 
-The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
+The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Services. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
 
 If you’re writing a story about 18F, feel free to use any of the images below.
 
