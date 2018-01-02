@@ -9,7 +9,7 @@ tags:
 - data act
 - college scorecard
 - eregulations
-- technology transformation service
+- technology transformation services
 excerpt: "The U.S. Open Government National Action Plans promote the Open Government Partnership’s principles of transparency, facilitating access to government services for the public, and citizen engagement. 18F has worked with several agencies to advance the these goals through projects like DATA Act, eRegulations, USEITI, College Scorecard, and the Public Participation Playbook."
 hero: false
 ---
