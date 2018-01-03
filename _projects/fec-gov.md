@@ -1,17 +1,17 @@
 ---
 agency: Federal Election Commission
-title: beta.fec.gov
+title: FEC.gov
 subtitle: Making campaign data easier to use
 permalink: /what-we-deliver/fec-gov/
 redirect_from: /project/fec-gov/
-excerpt: Rethinking how the Federal Election Commission provides data, instructions, and legal resources to the public. 
+excerpt: Rethinking how the Federal Election Commission provides data, instructions, and legal resources to the public.
 image: /assets/img/home/hero-fec.png
 image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.
 project_weight: 5
 tag: fec.gov
 expiration_date:
-github_repo: https://github.com/18F/openFEC-web-app
-project_url: "[Federal Election Commission website](https://beta.fec.gov/)"
+github_repo: https://github.com/18F/fec-cms
+project_url: "[Federal Election Commission website](https://www.fec.gov/)"
 quote:
 ---
 
@@ -24,7 +24,7 @@ The FEC has published campaign finance data for decades, but their legacy websit
 
 We started by working with the FEC to launch an API (application programming interface), which allows technical users (like journalists) to access data in a predictable way.
 
-Next, we launched a [public beta](https://beta.fec.gov), which allowed us to get feedback from real users and build new features based on what we learned.
+Next, we launched a public beta, which allowed us to get feedback from real users and build new features based on what we learned.
 
 As our FEC partners saw the benefits of working iteratively and putting user needs first, they asked us to work alongside them to solve other problems, including:
 
