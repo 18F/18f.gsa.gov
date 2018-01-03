@@ -1,7 +1,7 @@
 module Jekyll
   module TeamFilter
     def team_photo(name)
-      if site.env != 'development'
+      if Jekyll.sites[0].config['env'] != 'development'
         baseurl = Jekyll.sites[0].config['baseurl']
         default = "<img class='img-circle team-img bio-clip' "\
           "src='#{baseurl}/assets/img/logos/18F-Logo-M.png' alt='18F logo'>"
