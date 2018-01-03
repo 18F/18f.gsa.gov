@@ -4,7 +4,7 @@ date: 2016-09-27 14:00
 authors:
 - yoz
 tags:
-- technology transformation service
+- technology transformation services
 - user-centered design
 excerpt: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
 description: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
