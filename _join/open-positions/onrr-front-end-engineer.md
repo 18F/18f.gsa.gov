@@ -15,8 +15,8 @@ subnav_items:
   - text: Role summary
     permalink: /#role-summary
 breadcrumb: true
-published: true
-listed: true
+published: false
+listed: false
 ---
 
 ## Basic information

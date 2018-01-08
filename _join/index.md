@@ -25,11 +25,14 @@ We’re looking for candidates passionate about our mission, with top-notch soft
 
 We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, and we have teammates working all over the country. [Read more about how we make our distributed model work]({{ site.baseurl }}/2015/10/15/best-practices-for-distributed-teams/).
 
-If you have any questions, please contact our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
+If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
 ----
 
-18F is currently partnering with the Department of the Interior (DOI) to build up a digital innovation team. One of the positions below is an opportunity with DOI, not 18F. The agency of each position is designated in the beginning of the title.
+We partner with other federal agencies and within the General Services Administration (GSA) to build up digital innovation teams across government. Positions for both 18F and our partners across the government will be posted here. For positions outside 18F, we'll indicate the partner team or agency in the title and job description.
+
+18F is a part of the Technology Transformation Services (TTS) which houses the Office of Products and Programs (OPP), the Presidential Innovation Fellows (PIF), and the TTS Office of Acquisition.
+
 
 {% include open-positions.html %}
 
@@ -73,7 +76,7 @@ If 18F identifies you as a strong match after interviews, your 18F recruiter wil
 
 ## After your interviews
 
-The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They''re responsible for extending tentative and official final offers. Here's how that works:
+The hiring process continues in partnership with GSA HR, our parent federal agency’s human resources office. They're responsible for extending tentative and official final offers. Here's how that works:
 
 1. A GSA HR specialist calls you with a tentative offer, including salary. "Tentative" means the offer is contingent on [security clearance](#security-clearance-documents).
 2. If you accept the tentative offer, then we move to the next step.
@@ -108,9 +111,9 @@ GS grade levels specify a fixed compensation range for a particular position, in
 
 Each GS grade level contains a series of 10 steps, and new GS employees are usually hired at step 1 of a GS grade. However, in special circumstances, agencies may authorize a higher step rate for a newly-appointed federal employee based on a [special need of the agency or superior qualifications of the prospective employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/).
 
-The annual salary cap for all GS employees is $161,900 per year. You cannot be offered more than this under any circumstance.
+The annual salary cap for all GS employees is $164,200 per year. You cannot be offered more than this under any circumstance.
 
-**The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule-gs-salary-calculator/) shows how level, step, and locality affect compensation.**
+**The [GS salary calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2017/general-schedule-gs-salary-calculator/) shows how level, step, and locality affect compensation.**
 
 #### Raises and bonuses
 
@@ -146,10 +149,10 @@ There are many guides to building a government-style resume. Here are several re
 
 This guide shows how to format a government-style resume and what information to include:
 
-> **Name**
-> **City and state of current residence**
-> **Email address**
-> **Phone number**
+> **Name**  
+> **City and state of current residence**  
+> **Email address**  
+> **Phone number**  
 >
 > **TECHNICAL SKILLS & TOOLS**
 >
@@ -168,9 +171,9 @@ This guide shows how to format a government-style resume and what information to
 >
 > *See below for employment history formatting.*
 >
-> **Role/title, Company name**
-> **City, State (if within the U.S.) or City, Country**
-> **Duration of employment (MM/YYYY - MM/YYYY or Present)**
+> **Role/title, Company name**  
+> **City, State (if within the U.S.) or City, Country**  
+> **Duration of employment (MM/YYYY - MM/YYYY or Present)**  
 > **“Full-time” or “Part-time,” Number of hours per week: __**
 >
 > For each listing, include a one-sentence description of the company, including the mission. This will help us understand the scope of your work, the context of your contributions, the scale of the company, and your role.
@@ -186,14 +189,15 @@ This guide shows how to format a government-style resume and what information to
 >
 > If you were unemployed at any point, please indicate this. Unemployment is completely acceptable and understood — we just need a full timeline with no gaps. For instance:
 >
-> **Unemployed**
-> **Start MM/YYYY - End MM/YYYY**
+> **Unemployed**  
+> **Start MM/YYYY - End MM/YYYY** 
+>
 > Brief explanation (Took time to travel, to be with my family, and so on) to the extent you’re comfortable sharing. It's also OK not to include a description.
 >
 > **EDUCATION**
 >
-> **Name of college/university/institution, City, State**
-> Type of degree, major and minor, MM/YYYY degree received
+> **Name of college/university/institution, City, State**  
+> Type of degree, major and minor, MM/YYYY degree received  
 > Graduation honors, if applicable
 >
 > **Other sections to include, if applicable:**

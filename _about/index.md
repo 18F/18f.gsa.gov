@@ -5,6 +5,8 @@ layout: primary
 lead: We help other government agencies build, buy, and share technology products.
 banner_cta: true
 subnav_items:
+  - text: Our mission
+    permalink: /about/#our-mission
   - text: Our team
     permalink: /about/#our-team
   - text: History and funding
@@ -14,6 +16,14 @@ subnav_items:
 ---
 
 18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 18F is part of the Technology Transformation Services, which is within the Federal Acquisition Service.
+
+-----
+
+## Our mission
+
+We envision a country whose government consistently offers digital services that instill pride and trust, meet user needs, are secure, and are delivered quickly and at reasonable cost.
+
+We develop partnerships with agencies to help them deliver exceptional digital experiences that address their strategic initiatives. Through our work together, we also aim to strengthen government technology practices in ways that last beyond our formal partnerships. We effect change by practicing user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open.
 
 -----
 

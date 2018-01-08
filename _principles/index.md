@@ -57,8 +57,9 @@ At each stage, we’ll jointly define metrics that we’ll use to test whether o
 ## <a name="building-in-the-open"></a>Building in the open
 
 One of 18F’s core principles is to make our work available to the public whenever possible, magnifying the value of our joint efforts. We do this in two ways: 
-Using open source code in product development
-Conducting project activities in publicly-viewable forums whenever possible
+
+- Using open source code in product development
+- Conducting project activities in publicly-viewable forums whenever possible
 
 These methods are proven to help build stronger services, save government resources, and better fulfill our duty to serve the public. Learn more from the [Federal Open Source Policy](https://sourcecode.cio.gov/).
 
@@ -86,21 +87,19 @@ Other partners might take the time to do this, too. But we carve out this initia
 
 ## <a name="partnering-with-an-empowered-product-owner"></a>Partnering with an empowered product owner
 
-Achieving success depends on building a close working relationship between 18F and your team. To make that happen, we’ll work with an empowered [product owner](https://playbook.cio.gov/#play6) from your agency. An empowered product owner is someone who understands your organization, the problem we’re solving, and can advocate for the product we ultimately build together. They’ll be responsible for carrying the long-term vision of the project and guiding its progress, as informed by user research. This person will work closely with the 18F team as a subject matter expert on your agency and help us jointly navigate the complexities of interoffice and stakeholder relationships.
+Achieving success depends on building a close working relationship between 18F and your team. To make that happen, we’ll work with an empowered [product owner](https://playbook.cio.gov/#play6) from your agency. An empowered product owner is someone who understands your organization, the problem we’re solving, and can advocate for the product we ultimately build together. They’ll be responsible for establishing and carrying the long-term vision of the project, implementing a strategy, and guiding its progress, as informed by user research. This person will work closely with the 18F team as a subject matter expert on your agency and help us jointly navigate the complexities of interoffice and stakeholder relationships.
 
 ### A successful product owner has:
 
-- **Authority to make decisions:** The product owner removes obstacles and helps the team work as quickly as they can. They make decisions independently and have sufficient authority to make changes large and small to the project without additional review from superiors. 
-- **Time to work with us:** The product owner is just as much a part of the team as designers, researchers, and developers. Most product owners need 15-20 hours of their week to work with us.
+- **Authority to make decisions:** The product owner removes obstacles and helps the team work as quickly as they can. They make decisions independently and have sufficient authority to make changes large and small to the product without additional review from superiors. 
+- **Time to work with us:** The product owner is just as much a part of the team as designers, researchers, and developers. Product owners should lead the product team: crafting a product vision and strategy, prioritizing work, evangelizing to stakeholders and users, working with developers and designers, and measuring results.
 - **Subject matter expertise:** Public service work is detail-oriented. It’s often focused in the niche areas of expertise our team doesn’t have. While we bring technical expertise, your product owners provide guidance and expertise about your program and users.
 - **Advocacy inside your agency:** The product owner can identify stakeholders inside your agency and gain their support. Whether we have research results to present, a major milestone to celebrate, or questions for another office in your agency, the product owner is our connection to the relevant people.
 
 ### What does this mean for you? 
 
-The product owner will be an integral part of the project team. While they may not know agile or lean methodologies at the outset, our team will help them learn the skills necessary. In addition, while a time commitment of 15-20 hour per week is significant, we’ve found that an empowered product owner dramatically shortens the length of a project, reduces overall risk, and creates solutions that help meet project goals. 
+The product owner will lead the product team. While they may not already know best practices in product management, or agile or lean methodologies at the outset, our team will coach them to learn the necessary skills. We've found that an empowered product owner dramatically shortens the time to delivery, reduces overall risk, and creates solutions that align with the agency mission while serving user needs. 
 
 # Got questions?
 
 If you already have a primary contact at 18F, they can answer any questions you may have about these principles. If you don’t yet have a primary contact, please reach out to our Agency Partnerships team at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov). We’ll be more than happy to discuss possibilities and concerns. 
-
-

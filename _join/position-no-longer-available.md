@@ -13,8 +13,26 @@ redirect_from:
   - /join/talent-engagement-lead/
   - /join/talent-engagement-specialist/
   - /join/product-manager/
+  - /join/consulting-software-engineer-gs13/
+  - /join/consulting-software-engineer-gs14/
+  - /join/consulting-software-engineer-gs15/
+  - /join/content-designer-gs14/
+  - /join/content-designer-gs15/
+  - /join/front-end-engineer/
+  - /join/job-listings/engr-gs-15/
+  - /join/job-listings/engr-gs-14/
+  - /join/job-listings/acq-gs-15/
+  - /join/job-listings/acq-gs-14/
+  - /join/job-listings/acq-gs-13/
+  - /join/acquisition-technical-lead-gs14/
+  - /join/acquisition-technical-lead-gs15/
+  - /join/acquisition-design-lead/
+  - /join/feedback-analytics-engineer-gs15/
+  - /join/pif-director-of-communications-and-marketing-gs15/
+  - /join/strategist-gs15/
+  - /join/product-manager-gs15/
 ---
 
-Head over to the [Join 18F page](https://18f.gsa.gov/join/) to see current open positions or learn more about the application process. You can also [sign up for the 18F Newsletter](https://18f.gsa.gov/contact/) to receive regular updates, including new open positions. 
+Head over to the [Join 18F page](https://18f.gsa.gov/join/) to see current open positions or learn more about the application process. You can also [sign up for the 18F Newsletter](https://18f.gsa.gov/contact/) to receive regular updates, including new open positions.
 
 Questions? Contact the Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov).
