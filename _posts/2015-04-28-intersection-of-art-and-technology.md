@@ -15,8 +15,6 @@ description: "Earlier this month, I went to the Museum of Modern Art in New York
 image: /assets/blog/art-tech/dap-dashboard.png
 ---
 
-{% oembed https://twitter.com/PLAndrese/status/587720655652651009 %}
-
 Last month, I went to the [Museum of Modern Art in New York City](https://www.moma.org/) for the first time. I was there to see [a special exhibit featuring the pop singer Bjӧrk](https://www.moma.org/visit/calendar/exhibitions/1501), who is currently presenting a retrospective of her life’s work as a musician, artist and technologist. The retrospective spans back from her early beginnings as a childhood folk singer in Iceland all the way through to her most current album release.
 
 Being a huge fan of Bjӧrk’s work, and having a fine art background myself, I equate this experience to visiting an ancient historical site, relic or monument.
