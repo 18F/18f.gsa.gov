@@ -4,7 +4,7 @@ title: U.S. Web Design Standards
 subtitle: A design library for government developers
 permalink: /what-we-deliver/us-web-design-standards/
 excerpt: A library of design components that can help developers quickly make trustworthy, accessible, and consistent digital government services.
-image: 
+image:
 image_accessibility:
 image_icon: monitor.svg
 project_weight: 2

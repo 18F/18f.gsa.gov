@@ -2,7 +2,7 @@
 agency: Department of Education
 title: College Scorecard
 subtitle: Turning data into informed choices
-excerpt: The Department of Education and 18F brought together federal data from several agencies to help students assess colleges and universities.
+excerpt: A powerful data tool that allows students and their families to assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
 tag: college scorecard
@@ -31,4 +31,3 @@ Ultimately, we decided to build several tools that would help get the data to th
 College Scorecard has become a go-to resource for students and provided the data for many other tools that guide students in their decision-making process — even Google has integrated the data into search results.
 
 The process of building College Scorecard also had a profound effect on the Department of Education: their in-house digital service team has extended these iterative development and user-centered design techniques to other projects.
-

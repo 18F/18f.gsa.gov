@@ -42,8 +42,6 @@ testable: true
 team:
 - id: boone
   role: lead
-- id: brian
-  role: developer
 - id: elaine
   role: lead
 - id: andre

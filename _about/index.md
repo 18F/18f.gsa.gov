@@ -67,7 +67,7 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
 
-The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
+The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Services. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
 
 If you’re writing a story about 18F, feel free to use any of the images below.
 
