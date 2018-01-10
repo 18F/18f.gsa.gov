@@ -13,6 +13,8 @@ project_url:
 product_clients:
 quote: A sailor’s time, and more importantly our nation’s use of it, must be focused to the greatest possible extent on the mission and not on administrative overhead.
 quote_source: "[Navy Reserve Vision 2015-2025 (PDF)](https://www.navyreserve.navy.mil/documents/NR_vision_2015.pdf)"
+published: false
+listed: false
 ---
 
 There are more than 50,000 people who serve part-time in the U.S. Navy Reserve, accounting for one out of every five people in the naval force.

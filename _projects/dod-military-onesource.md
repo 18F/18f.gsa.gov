@@ -14,6 +14,8 @@ github_repo:
 project_url: "[Beta Military OneSource website](http://beta.militaryonesource.mil)"
 learn_more:
 product_clients:
+published: false
+listed: false
 ---
 
 The Military Community and Family Policy group, within the Office of the
