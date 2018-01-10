@@ -18,8 +18,6 @@ product_clients:
 - Federal Election Commission
 published: false
 listed: false
-redirect-to:
-- /what-we-deliver
 ---
 
 Often, government technology projects are built by large companies using
