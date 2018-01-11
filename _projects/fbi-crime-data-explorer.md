@@ -23,7 +23,7 @@ to create a digital tool that provides law enforcement and the general
 public with improved access to the UCR data.
 
 <div class="small-caps">Approach</div>
-### Crafting a comprehensive digital strategy
+### Becoming a digital organization
 
 The UCR information has a huge potential audience including researchers,
 law enforcement officers, and the general public. 18F and the FBI team
