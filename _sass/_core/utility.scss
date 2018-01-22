@@ -25,9 +25,10 @@ svg {
 }
 
 .pad-top-bottom {
-  padding-top:$paragraph-margins-thick;
+  padding-top: $paragraph-margins-thick;
   padding-bottom: $paragraph-margins-thick;
 }
+
 .small-caps {
   @include small-caps;
   margin-top: $section-margins;
