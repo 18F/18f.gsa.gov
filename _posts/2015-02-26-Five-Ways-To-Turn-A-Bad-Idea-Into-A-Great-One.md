@@ -21,9 +21,9 @@ Last Friday, consultant and author [Steve Portigal](http://www.portigal.com/) le
 
 We encourage you to watch the [entirety of Steve’s presentation](https://www.youtube.com/watch?v=B0qK94cCnQs#t=430) (including the Q&A), and you can [view his Slideshare here](http://www.slideshare.net/steveportigal/the-power-of-bad-ideas). Of course, we also encourage you to read his book [*Interviewing Users: How To Uncover Compelling Insights*](http://rosenfeldmedia.com/books/interviewing-users/), and check out his podcast ([Dollars to Donuts podcast](https://itunes.apple.com/us/podcast/dollars-to-donuts/id956673263)), too. For a quick recap of Friday’s event, read on.
 
-Steve began by defining the bad idea as one that causes a visceral reaction: the gut-punch, stomach-drop feeling you get when you hear something so ridiculous you feel you must have heard wrong. 
+Steve began by defining the bad idea as one that causes a visceral reaction: the gut-punch, stomach-drop feeling you get when you hear something so ridiculous you feel you must have heard wrong.
 
-Definition established, Steve got right to the crux of his argument: The generation of bad ideas is necessary for the discovery of good ones. How can you harness the power of bad ideas to increase your team’s creative output? By keeping the following in mind: 
+Definition established, Steve got right to the crux of his argument: The generation of bad ideas is necessary for the discovery of good ones. How can you harness the power of bad ideas to increase your team’s creative output? By keeping the following in mind:
 
 ## Bad ideas pave the way for good ones
 
@@ -46,12 +46,12 @@ In fact, lots of famous creatives rely on bad ideas to get them to their great o
 
 ## Bad is judged by the marketplace
 
-Bad ideas are great during the ideation process, but can be harmful if they make their way into the world. One powerful example: The [Homeless Hotspots](http://www.wired.com/2012/03/the-damning-backstory-behind-homeless-hotspots-at-sxswi/) created for SxSW in 2012. What was conceived as a charitable experiment drew flak for its creators’ apparent lack of cultural awareness. A similar idea for mobile battery-charging stations, which were [staffed by Craigslist-sourced contractors](https://storify.com/vdlr/fedex-homeless-hotspot-charged-with-exploiting-peo), drew far less criticism. Though both promotions offered similar services and both came from a place of good intent, one hit on complex convictions about the employment and marginalization of different populations. Before implementing an idea, always consider the context into which you’re introducing it and the cultural implications your idea may carry.
+Bad ideas are great during the ideation process, but can be harmful if they make their way into the world. One powerful example: The [Homeless Hotspots](http://www.wired.com/2012/03/the-damning-backstory-behind-homeless-hotspots-at-sxswi/) created for SxSW in 2012. What was conceived as a charitable experiment drew flak for its creators’ apparent lack of cultural awareness. A similar idea for mobile battery-charging stations, which were staffed by Craigslist-sourced contractors, drew far less criticism. Though both promotions offered similar services and both came from a place of good intent, one hit on complex convictions about the employment and marginalization of different populations. Before implementing an idea, always consider the context into which you’re introducing it and the cultural implications your idea may carry.
 
 ## *Bad* helps us define the criteria for *good*
 
-Being confronted by shockingly bad ideas — those that stand in decided opposition to established social norms — can actually help us refine and concretize our definition of bad. Encountering a truly terrible idea gives us the chance to discuss why that idea is terrible and develop shared evaluative principles — a common vocabulary for what’s good. 
+Being confronted by shockingly bad ideas — those that stand in decided opposition to established social norms — can actually help us refine and concretize our definition of bad. Encountering a truly terrible idea gives us the chance to discuss why that idea is terrible and develop shared evaluative principles — a common vocabulary for what’s good.
 
 Many thanks to Steve for coming to talk to us, and thanks to all who attended and participated in the Q&A.
 
-Our next speaker, Knight-Mozilla Fellow Livia Labate, will be presenting in March — stay tuned for more details! 
+Our next speaker, Knight-Mozilla Fellow Livia Labate, will be presenting in March — stay tuned for more details!
