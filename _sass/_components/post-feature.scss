@@ -48,3 +48,7 @@
   @include small-caps;
 }
 
+.post-border {
+  border-bottom: $border-accent-medium;
+  padding-bottom: $paragraph-margins-thick;
+}

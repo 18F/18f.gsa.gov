@@ -3,6 +3,7 @@ title: How we work
 permalink: /how-we-work/
 layout: primary
 lead: Together, we create a unified team by pairing our technical expertise with your program knowledge.
+banner_cta: true
 ---
 
 18F partners with federal agencies to help you deliver exceptional digital experiences that address your strategic initiatives. Each engagement is structured as a close partnership between an 18F team and your agency. Our work together is guided by understanding the needs of users, testing to validate hypotheses, shipping often, and making our work open to the public. Learn a little bit more below or find more information in the [18F Partnership Principles]({{site.baseurl}}/partnership-principles/) and the [U.S. Digital Services Playbook](https://playbook.cio.gov/).
@@ -124,3 +125,4 @@ Below are a number of technical guides we've created for 18F. They help us bring
     </a>
   </div>
 </div>
+
