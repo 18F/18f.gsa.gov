@@ -4,7 +4,7 @@ date: 2016-05-17
 authors:
 - melody
 tags:
-- web design standards
+- web design system
 - design
 excerpt: "Andrew Miller, a user-interface designer and front end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."
 description: "Andrew Miller, a user-interface designer and front end web developer working with Sandia National Labs, decided to use the Draft U.S. Web Design Standards to reimagine cia.gov as well as a prototype for a new mobile and web experience for the Internal Revenue Service (IRS)."

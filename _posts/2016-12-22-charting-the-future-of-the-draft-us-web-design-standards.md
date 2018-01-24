@@ -3,7 +3,7 @@ title: "Charting the future of the Draft U.S. Web Design Standards"
 authors:
 - willsullivan
 tags:
-- web design standards
+- web design system
 - open source
 - design
 excerpt: "As part of the latest release of the Draft U.S. Web Design Standards, we updated our design principles to better represent the evolving goals of this project. This update shows how we’re growing our open source community, focusing on experimenting with more complex components and maturing the Standards to be more mobile-focused."

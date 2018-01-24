@@ -35,7 +35,7 @@ permalink: /styleguide/typography/
 
 {% include details-code.html
    title='fonts'
-   description='We are overriding the font used by the [U.S. Web Design Standards](https://standards.usa.gov/components/typography/) with the font used by the [18F Brand](https://pages.18f.gov/brand/typography/).'
+   description='We are overriding the font used by the [U.S. Web Design System](https://designsystem.digital.gov/components/typography/) with the font used by the [18F Brand](https://pages.18f.gov/brand/typography/).'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
@@ -92,7 +92,7 @@ There are only two font weights used on 18f.gsa.gov.
 {% endraw %}{% endcapture %}
 
 {% capture weight_description %}
-Font weight is directly inherited from the U.S. Web Design Standards.
+Font weight is directly inherited from the U.S. Web Design System.
 
 **Quick usage reference:**
 

@@ -11,7 +11,7 @@ tags:
 - federal front door
 - user research
 - best practices
-- web design standards
+- web design system
 - user-centered design
 excerpt: "We're publishing a full report to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. Today we end the series with a look at what we’ll focus on in the next stage of research."
 description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. Today we end the series with a look at what we’ll focus on in the next stage of research."
@@ -27,7 +27,7 @@ _Yesterday, we shared [what people think about before deciding to share personal
 
 ## What's next?
 
-Our research confirmed what many of us have observed in less formal settings: People want the government to treat them with respect. As they interact with various agencies, they want clear communication, insight into the processes they’re entering into, and the ability to quickly and easily access the information they need. 
+Our research confirmed what many of us have observed in less formal settings: People want the government to treat them with respect. As they interact with various agencies, they want clear communication, insight into the processes they’re entering into, and the ability to quickly and easily access the information they need.
 
 In the next phase of our project, we’ll focus on finding innovative answers to these questions:
 
@@ -35,8 +35,8 @@ In the next phase of our project, we’ll focus on finding innovative answers to
 - How can we open the black box of government and give people better transparency into their status with an agency or process?
 - How can we rebuild public trust in government services and tools?
 - How can we create ways for agencies to safely and quickly share people’s information (when people so authorize)?
-- How can we provide enough choices to the public without overwhelming them? 
-- How can we better inform the public about what services are available to them? 
+- How can we provide enough choices to the public without overwhelming them?
+- How can we better inform the public about what services are available to them?
 - What could we do to better meet people where they are, instead of expecting them to come to us?
 
 Recognizing the interplay between life events, digital access and literacy, and attitudes toward the government is just our first step in offering the public better resources. Informed by the knowledge that complex or opaque interactions with agencies can worsen the stress of life events, we can move forward in designing services that are accessible, transparent, and easy for all to use.

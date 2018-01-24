@@ -11,14 +11,14 @@ tags:
 - federal front door
 - user research
 - best practices
-- web design standards
+- web design system
 - user-centered design
 excerpt: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail our initial research questions and what we learned."
 description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail our initial research questions and what we learned."
 image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
-_[Recent research](https://www.theacsi.org/news-and-resources/customer-satisfaction-reports/reports-2014/acsi-federal-government-report-2014) has made clear that federal agencies need to improve the public’s interactions with the government across the board. Overall, Americans’ satisfaction with federal services is dropping, and currently ranks below their satisfaction with private-sector and local-government services._ 
+_[Recent research](https://www.theacsi.org/news-and-resources/customer-satisfaction-reports/reports-2014/acsi-federal-government-report-2014) has made clear that federal agencies need to improve the public’s interactions with the government across the board. Overall, Americans’ satisfaction with federal services is dropping, and currently ranks below their satisfaction with private-sector and local-government services._
 
 _A team of researchers in the General Services Administration studied broad trends in people’s perceptions of and interactions with the government. Those trends will be used to identify and create cross-agency services and resources to improve how the government interacts with the public._
 
@@ -30,7 +30,7 @@ _In today’s installment, we detail our initial research questions and what we 
 
 ## Lines of inquiry: our research questions
 
-We structured our research so we could better understand the following questions: 
+We structured our research so we could better understand the following questions:
 
 - What touch points do people think they have with the federal government?
 
@@ -52,7 +52,7 @@ During October and November 2015, we conducted 35 scheduled interviews (each of 
 
 As a result of our research, we found:
 
-- People have diverse attitudes toward the government and use varied strategies to get information from it. 
+- People have diverse attitudes toward the government and use varied strategies to get information from it.
 
 - Digital literacy, access, and language fluency are challenges for many people who interact with the government’s services.
 
@@ -60,7 +60,7 @@ As a result of our research, we found:
 
 - The government is a black box: People don’t understand what goes on inside it.
 
-- People feel ill equipped to make choices about government services when the government presents too many options or inadequate information about those options. 
+- People feel ill equipped to make choices about government services when the government presents too many options or inadequate information about those options.
 
 - People trust the government to varying degrees, based on the context of their interaction. Their experience is shaped not only by their past experience with an agency, but also by the urgency of their request and the life event they’re experiencing.
 
@@ -68,22 +68,16 @@ As a result of our research, we found:
 
 - Agencies may be able to share users’ information with each other under certain circumstances.
 
-- Most people we interviewed were comfortable with the prospect of an agency sharing their personal information with another agency; they were not comfortable with the prospect of an agency sharing their information with a private company. 
+- Most people we interviewed were comfortable with the prospect of an agency sharing their personal information with another agency; they were not comfortable with the prospect of an agency sharing their information with a private company.
 
 We also discovered three distinct barriers that prevent many members of  the public from having pleasant interactions with the government. These include:
 
 - **Capacity** — There is a shortage of public servants available to assist the number of people interacting with federal agencies.
 
-- **Digital infrastructure** — Systems do not cross agency boundaries, and they provide the public little assistance with completing forms and navigating complex processes. 
+- **Digital infrastructure** — Systems do not cross agency boundaries, and they provide the public little assistance with completing forms and navigating complex processes.
 
-- **One-size-fits-all approach** — Because complex and simple applications are given equal resources, the current process for managing applications suffers from many bottlenecks and delays. 
+- **One-size-fits-all approach** — Because complex and simple applications are given equal resources, the current process for managing applications suffers from many bottlenecks and delays.
 
 *Tomorrow, we’ll share the various interaction strategies people use when interacting with government systems.*
 
 *Additional contributors to this report include Katherine Garklavs, 18F, GSA and Ryan Thurlwell, 18F, GSA. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team.*
-
-
-
-
-
-

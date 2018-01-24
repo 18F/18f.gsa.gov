@@ -65,7 +65,7 @@ We are primarily using [18F Brand colors](https://pages.18f.gov/brand/color-pale
 
 Site-specific colors, `$color-medium-hover` and `$color-bright-hover` were created as web-specific extensions of the 18F Brand.
 
-U.S. Web Design standards colors, `$color-gray` and `$color-gray-lightest`, were pulled for utility use.
+U.S. Web Design System colors, `$color-gray` and `$color-gray-lightest`, were pulled for utility use.
 {% endcapture %}
 
 {% include details-code.html
@@ -119,7 +119,7 @@ U.S. Web Design standards colors, `$color-gray` and `$color-gray-lightest`, were
 {% capture backgrounds_description %}
 We are using the [18F Brand](https://pages.18f.gov/brand/color-palette/) color palette for our background colors.
 
-Instead of overriding the SCSS classes and variables used by the U.S. Web Design Standards, we have created a parallel set of background color classes and variables.
+Instead of overriding the SCSS classes and variables used by the U.S. Web Design System, we have created a parallel set of background color classes and variables.
 
 CSS class | SCSS variable
 --- | ---
