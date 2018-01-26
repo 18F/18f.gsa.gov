@@ -5,7 +5,7 @@ authors:
 - maya
 - marco
 tags:
-- web design standards
+- web design system
 - best practices
 excerpt: "We’ve received many questions about the UI components that are in the
 Draft U.S. Web Design Standards. In this post,

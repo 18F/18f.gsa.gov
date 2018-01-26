@@ -8,7 +8,7 @@ tags:
 - federal front door
 - user research
 - user-centered design
-- web design standards
+- web design system
 - best practices
 excerpt: "We launched the Draft U.S. Web Design Standards last September, and over the next month, we plan to explore various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."
 description: "We launched the Draft U.S. Web Design Standards last September, and over the next month, we plan to explore various topics related to design standards. In this post, we detail how our user research informed the decision decisions we made."

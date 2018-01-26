@@ -3,7 +3,7 @@ title: "How the U.S. Customs and Border Protection uses the U.S. Web Design Stan
 authors:
 - julia
 tags:
-- web design standards
+- web design system
 - design
 excerpt: "In this second post in our series, we met with the team at the U.S. Customs and Border Protection and learned how they used the Standards to train, develop, and design their various websites and applications."
 image: /assets/img/logos/agencies/cbp.png

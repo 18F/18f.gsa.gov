@@ -3,7 +3,7 @@ title: "NASA’s journey with the U.S. Web Design Standards"
 authors:
 - julia
 tags:
-- web design standards
+- web design system
 - design
 - nasa
 excerpt: "The U.S. Web Design Standards are currently implemented on hundreds of government sites, with an audience of more than 26 million monthly users, and they’ve  been recommended by the Office of Management and Budget for all government agencies. We chatted with Brandon Ruffridge, Senior Software Developer at NASA’s Glenn Research Center, to talk about his team’s use of the U.S. Web Design Standards."

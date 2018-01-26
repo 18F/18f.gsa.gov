@@ -88,7 +88,7 @@ There is extensive documentation for how to [publish a blog post](https://github
 
 ### Grid
 
-The layout and grid structure inherits from the U.S. Web Design Standards and makes some slight adjustments. Layout changes are not overrides of the standards, but a handful of CSS classes have been added to compliment the Standards.
+The layout and grid structure inherits from the U.S. Web Design System and makes some slight adjustments. Layout changes are not overrides of the Design System, but a handful of CSS classes have been added to compliment the Design System.
 
 Class name | What it does
 --- | ---
@@ -96,7 +96,7 @@ Class name | What it does
 [`usa-flex`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss) | Wrapper class that sets `display: flex`, and can be used to create more flexible layouts.
 Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pull-right`, `usa-flex-always`, `usa-flex-wrap`, `usa-flex-vertically-top`, `usa-flex-pull-right`, and `usa-flex-vertically-bottom`.
 [`usa-grid-reversed`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | This class can be used to alternate the order that content appears in mobile vs desktop screen widths.
-`content-wide` | In the Standards, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://standards.usa.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
+`content-wide` | In the Design System, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://designsystem.digital.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
 `content-focus` | When the the grid needs to be wider, `content-wide` is used and the content width is controlled by using partial grid layouts.
 
 ---

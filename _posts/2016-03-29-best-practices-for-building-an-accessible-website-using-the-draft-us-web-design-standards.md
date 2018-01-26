@@ -8,7 +8,7 @@ authors:
 - nick
 tags:
 - best practices
-- web design standards
+- web design system
 - accessibility
 excerpt: "When you work for the federal government, accessibility isn’t simply a nice-to-have — it’s the law. That’s why the Draft U.S. Web Design Standards set developers on the path of creating websites that anyone can use. The Draft Standards feature documentation that can help you keep your websites accessible, even after you make modifications."
 description: "TWhen you work for the federal government, accessibility isn’t simply a nice-to-have — it’s the law. That’s why the Draft U.S. Web Design Standards set developers on the path of creating websites that anyone can use. The Draft Standards feature documentation that can help you keep your websites accessible, even after you make modifications."

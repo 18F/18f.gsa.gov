@@ -38,7 +38,7 @@ subnav_items:
 
 {% include details-code.html
    title='buttons'
-   description='Our button styles closely resemble those defined by the U.S. Web Design Standards. We have overriden them in places to more closely align the look and feel with the 18F Brand.'
+   description='Our button styles closely resemble those defined by the U.S. Web Design System. We have overriden them in places to more closely align the look and feel with the 18F Brand.'
    scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
    uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
    content=styleguide_buttons
@@ -92,7 +92,7 @@ For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/
 
 ### Project cards
 
-The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary. The design is unique to [18f.gsa.gov](https://18f.gsa.gov), but leans heavily on the stylistic foundation of the U.S. Web Design Standards and 18F Brand guidelines.
+The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary. The design is unique to [18f.gsa.gov](https://18f.gsa.gov), but leans heavily on the stylistic foundation of the U.S. Web Design System and 18F Brand guidelines.
 
 
 {% capture styleguide_card %}{% raw %}
@@ -163,11 +163,11 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
 2. Make sure that [sticky.js]({{ site.baseurl }}/assets/js/sticky.js) is included in the page. If you are working on the 18F site, it is included on every page by default.
 3. Make sure that the element that is receiving `position: sticky` is a child of an element with a greater height. If it is not, it will never appear to be stuck.
 
-#### Use of the standards
+#### Use of the Design System
 
 There are a few classes that we are using for the sticky subnavigation on the 18F site:
 
-* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the standards, but does contain slight overrides to better fit with the 18F Brand.
+* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the Design System, but does contain slight overrides to better fit with the 18F Brand.
 * The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
 * The `usa-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
 
@@ -188,4 +188,3 @@ To add items to the subnavigation define the subnavigation items directly within
    lang="html"
    description=sticky_description
 %}
-

@@ -11,7 +11,7 @@ tags:
 - federal front door
 - user research
 - best practices
-- web design standards
+- web design system
 - user-centered design
 excerpt: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail how people interact with the government using proxies."
 description: "Over the next two weeks, we’re publishing a full report with findings from our research to better understand the public's overall experience interacting with the federal government and their attitudes about sharing information with government agencies. In today’s installment, we detail how people interact with the government using proxies."
@@ -26,13 +26,13 @@ _In yesterday’s post, we [detailed how people learn to navigate government ser
 ![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
 
 
-## Interacting with the government using proxies 
+## Interacting with the government using proxies
 
 It’s common to rely on  social networks for help during major life events or difficult experiences. As mentioned before, certain populations are more likely to ask friends and family for help accessing government services during major life events. Those who are most likely to rely on others include seniors, non-native English speakers, and people with disabilities. People from these populations often rely on outside support when navigating complex processes.
 
-This guidance-focused relationship extends to getting help with difficult government interactions. For example, Alvaro S. helps his Spanish-speaking parents file their taxes every year, collecting their income information and filling out the online tax forms himself. 
+This guidance-focused relationship extends to getting help with difficult government interactions. For example, Alvaro S. helps his Spanish-speaking parents file their taxes every year, collecting their income information and filling out the online tax forms himself.
 
-When social networks break down,  at-risk people can slip through the cracks and lose their ability to effectively seek government support. Low-income seniors and people with disabilities may have limited social networks, and consequently have no one to help them access government services. 
+When social networks break down,  at-risk people can slip through the cracks and lose their ability to effectively seek government support. Low-income seniors and people with disabilities may have limited social networks, and consequently have no one to help them access government services.
 
 Some people will seek assistance elsewhere, asking librarians, senior center staff, and other agency staff to help them with online applications.  In many cases, these “helpers” are forbidden by their employers to provide such assistance. When Maria K. visited a career center to file for unemployment benefits, a staff member showed her to a computer and pulled up the online application, but was unable to help her further when she had questions about the application itself.  
 
@@ -43,9 +43,3 @@ _On Monday, we'll detail the need for transparency in government so that the pub
 
 
 _Additional contributors to this report include Katherine Garklavs, 18F, GSA and Ryan Thurlwell, 18F, GSA. To contact the Federal Front Door team, email [federalfrontdoor@gsa.gov](mailto:federalfrontdoor@gsa.gov). You can read the complete report on [labs.usa.gov](https://labs.usa.gov), a new site that will house all of the research conducted by this team._
-
-
-
-
-
-

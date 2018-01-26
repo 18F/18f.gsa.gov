@@ -6,7 +6,7 @@ authors:
   - melody
   - maya
 tags:
-  - web design standards
+  - web design system
   - design
 excerpt: "One of the most common questions we receive is: Should I integrate the
 Draft U.S. Web Design Standards into my existing project? The answer is: it depends."

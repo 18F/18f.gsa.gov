@@ -7,7 +7,7 @@ authors:
 tags:
 - general services administration
 - design
-- web design standards
+- web design system
 excerpt: "GSA unveiled a refreshed gsa.gov website yesterday with a more crisp design layout, improved usability, and features geared more toward mobile users."
 description: "GSA unveiled a refreshed gsa.gov website yesterday with a more crisp design layout, improved usability, and features geared more toward mobile users."
 image: /assets/blog/gsa-homepage/gsa-homepage.jpg
