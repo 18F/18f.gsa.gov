@@ -15,6 +15,10 @@ gridless: true
       <p>Want to see if 18F can help your agency? Email Dan Kenny on our Agency Partnerships team at <a href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">inquiries18F@gsa.gov</a>.</p>
     </li>
     <li class="section-info-list-item">
+      <div class="section-info-header">Looking for a job at 18F?</div>
+      <p>You can see open positions on the <a href="https://join.18f.gov">Join 18F page</a>, or you can email the Talent Team at <a href="mailto:joinTTS@gsa.gov">joinTTS@gsa.gov</a>.</p>
+    </li>
+    <li class="section-info-list-item">
       <div class="section-info-header">Other contacts</div>
       <ul>
         <li>Media inquiries: <a href="mailto:press@gsa.gov">press@gsa.gov</a></li>
