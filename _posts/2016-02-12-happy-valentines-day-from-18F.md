@@ -6,7 +6,7 @@ authors:
     - erica
     - maya
 tags:
-    - web design standards
+    - web design system
     - best practices
     - tools you can use
 image: /assets/img/vday/roses-violets.png
