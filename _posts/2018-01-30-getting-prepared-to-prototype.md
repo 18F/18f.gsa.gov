@@ -11,7 +11,7 @@ tags:
 excerpt: "In product development, we often use prototypes to understand user needs and reduce risk. Prototypes are a great way to test out ideas or approaches before you actually commit to building anything, but governments are not always set up to develop and use prototypes efficiently before building digital services. "
 ---
 
-> Fortune favors the prepared mind. - **Louis Pasteur**
+> Fortune favors the prepared mind. - Louis Pasteur
 
 In product development, we often use [prototypes](https://methods.18f.gov/#prototyping) — small, lightweight, temporary applications or artifacts — to understand user needs and reduce risk. Prototypes are a great way to test out ideas or approaches **before** you actually commit to building anything.
 
@@ -46,7 +46,7 @@ Through our work, we’ve learned firsthand that finding users to evaluate a pro
 
 <figure>
 	<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/prototype/paid-fam-leave.png" alt="A prototype for paid family leave. Top of the screen is light blue with header">
-	<figcaption>An 18F prototype built to<a href="ttps://github.com/18F/Paid-Leave-Prototype">provide technical guidance</a> for the Department of Labor with websites for their Paid Family Medical Leave programs.</figcaption>
+	<figcaption>An 18F prototype built to <a href="https://github.com/18F/Paid-Leave-Prototype">provide technical guidance</a> for the Department of Labor with websites for their Paid Family Medical Leave programs.</figcaption>
 </figure>
 
 
