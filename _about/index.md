@@ -1,5 +1,5 @@
 ---
-title: About 18F
+title: About
 permalink: /about/
 layout: primary
 lead: We help other government agencies build, buy, and share technology products.
