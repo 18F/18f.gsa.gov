@@ -7,6 +7,11 @@ content_wide: true
 content_focus: false
 redirect_from:
   - /consulting/
+  - /what-we-deliver/military-onesource/
+  - /what-we-deliver/every-kid-in-a-park/
+  - /what-we-deliver/micro-purchase-marketplace/
+  - /what-we-deliver/ready-2-serve/
+  - /what-we-deliver/new-ten/
 banner_cta: true
 gridless: true
 ---

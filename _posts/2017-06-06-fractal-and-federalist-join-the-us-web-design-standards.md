@@ -3,7 +3,7 @@ title: "Fractal and Federalist join the U.S. Web Design Standards"
 authors:
  - shawn
 tags:
-- web design standards
+- web design system
 - open source
 - federalist
 excerpt: "We've added two powerful, new tools to the U.S. Web Design Standards development workflow. Fractal is a development, testing, and documentation tool, and Federalist is an 18F hosting platform that makes it easy to generate previews and simplify our process."

@@ -5,7 +5,7 @@ authors:
 - carolyn
 - melody
 tags:
-- web design standards
+- web design system
 - best practices
 - user-centered design
 - design

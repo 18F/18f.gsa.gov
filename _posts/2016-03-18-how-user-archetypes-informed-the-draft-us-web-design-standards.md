@@ -4,7 +4,7 @@ date: 2016-03-18
 authors:
 - carolyn
 tags:
-- web design standards
+- web design system
 - user research
 - how we work
 excerpt: "To celebrate Sunshine Week, we’re highlighting some groundbreaking open government work by the Department of the Treasury, one of 18F’s partner agencies."

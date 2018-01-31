@@ -1,5 +1,5 @@
 ---
-title: About 18F
+title: About
 permalink: /about/
 layout: primary
 lead: We help other government agencies build, buy, and share technology products.
@@ -13,6 +13,8 @@ subnav_items:
     permalink: /about/#history-and-funding
   - text: For press
     permalink: /about/#for-press
+  - text: Contact us
+    permalink: /contact/
 ---
 
 18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 18F is part of the Technology Transformation Services, which is within the Federal Acquisition Service.
@@ -67,7 +69,7 @@ We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set 
 
 For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
 
-The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Service. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
+The GSA Office of Strategic Communications handles all press questions and can connect you with the proper people at 18F and the Technology Transformation Services. See the [GSA newsroom](https://www.gsa.gov/portal/category/26627) for news releases and official resources.
 
 If you’re writing a story about 18F, feel free to use any of the images below.
 

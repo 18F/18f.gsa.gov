@@ -3,9 +3,9 @@ agency: Office of the Secretary of Defense
 title: Military OneSource
 subtitle: Supporting military personnel and their families
 permalink: /what-we-deliver/military-onesource/
-excerpt: 18F and the Military Community and Family Policy group held a two-day agile acquisition workshop to shape the strategy for hiring a private vendor to redesign Military OneSource.
+excerpt: A two-day agile acquisition workshop helped the Military Community and Family Policy group shape the strategy for hiring a private vendor to redesign Military OneSource.
 image:
-image_accessibility: 
+image_accessibility:
 image_icon: monitor.svg
 project_weight: 2
 tag: military
@@ -14,6 +14,8 @@ github_repo:
 project_url: "[Beta Military OneSource website](http://beta.militaryonesource.mil)"
 learn_more:
 product_clients:
+published: false
+listed: false
 ---
 
 The Military Community and Family Policy group, within the Office of the

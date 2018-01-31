@@ -4,8 +4,8 @@ title: Micro-purchase Marketplace
 subtitle: An marketplace for open source tasks
 permalink: /what-we-deliver/micro-purchase-marketplace/
 excerpt: A reverse auction house where agencies can work with 18F to post coding tasks and vendors can bid on how much they would be willing to be paid to complete the task.
-image: 
-image_accessibility: 
+image:
+image_accessibility:
 image_icon: folderwithclock.svg
 project_weight: 2
 tag: micro-purchase platforms
@@ -16,6 +16,8 @@ learn_more:
 product_clients:
 - General Services Administration
 - Federal Election Commission
+published: false
+listed: false
 ---
 
 Often, government technology projects are built by large companies using

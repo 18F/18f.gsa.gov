@@ -132,7 +132,7 @@ for new projects.)
 Not everyone can get to a nearby city to hack on the National Civic Day
 of Hacking, but this doesn’t mean they should be excluded from
 participating. During our
-[GovTechHack](https://storify.com/ultrasaurus/govtechhack-sf-march-27-28),
+GovTechHack,
 members of the 18F team – maintainers of the projects, especially – were
 available for questions and consultations, even if participants weren’t
 physically in San Francisco. You can connect with people in many ways,

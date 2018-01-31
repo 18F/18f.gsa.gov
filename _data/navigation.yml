@@ -5,7 +5,7 @@ navbar:
     - /what-we-deliver/:path/
 - text: How we work
   permalink: /how-we-work/
-- text: About 18F
+- text: About
   permalink: /about/
 - text: Blog
   permalink: /blog/
@@ -23,7 +23,7 @@ drawer:
     - /what-we-deliver/:path/
   - text: How we work
     permalink: /how-we-work/
-  - text: About 18F
+  - text: About
     permalink: /about/
   - text: Blog
     permalink: /blog/
@@ -39,7 +39,7 @@ footer:
     permalink: /what-we-deliver/
     multiple_permalinks:
     - /what-we-deliver/:path/
-  - text: About 18F
+  - text: About
     permalink: /about/
   - text: Partnership Principles
     permalink: /partnership-principles/

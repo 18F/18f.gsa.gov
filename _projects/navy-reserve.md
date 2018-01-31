@@ -3,7 +3,7 @@ agency: U.S. Navy Reserve
 title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve
 permalink: /what-we-deliver/ready-2-serve/
-excerpt: We prototyped an app with the Navy Reserve to help streamline the deployment process for reservists.
+excerpt: Understanding the experience of Navy Reservists to help streamline the deployment process.
 image: /assets/img/projects/ready-2-serve-sailors.jpg
 image_accessibility: "Sailors standing on a ship"
 tag: navy reserve
@@ -13,6 +13,8 @@ project_url:
 product_clients:
 quote: A sailor’s time, and more importantly our nation’s use of it, must be focused to the greatest possible extent on the mission and not on administrative overhead.
 quote_source: "[Navy Reserve Vision 2015-2025 (PDF)](https://www.navyreserve.navy.mil/documents/NR_vision_2015.pdf)"
+published: false
+listed: false
 ---
 
 There are more than 50,000 people who serve part-time in the U.S. Navy Reserve, accounting for one out of every five people in the naval force.

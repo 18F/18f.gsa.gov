@@ -11,6 +11,8 @@ subnav_items:
     permalink: /partnership-principles/#tactics
   - text: Questions
     permalink: /partnership-principles/#got-questions
+  - text: Contact us
+    permalink: /contact/
 ---
 This guide will help you understand how your agency team and 18F can work together successfully. You'll learn what to expect and how our two teams will form a fed-to-fed partnership that may be different from work you’ve done with private vendors. Many of these ideas build on the [U.S. Digital Services Playbook](https://playbook.cio.gov).
 

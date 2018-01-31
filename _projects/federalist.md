@@ -3,7 +3,7 @@ agency:
 title: Federalist
 subtitle: A platform for publishing static government websites
 permalink: /what-we-deliver/federalist/
-excerpt: We created Federalist to help agencies build websites quickly and focus on content instead of compliance.
+excerpt: A government-created platform to help agencies build websites quickly and easily while meeting compliance requirements.
 image: /assets/img/projects/federalist-background-blue.jpg
 image_accessibility: "Abstract image of the Federalist Papers in bluescale"
 project_weight: 3

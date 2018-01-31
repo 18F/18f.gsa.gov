@@ -122,6 +122,7 @@ header_border: true
             <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
           </li>
         {% endif %}
+          <li>{% include side-cta.html %}</li>
       </ul>
     </aside>
     {% endif %}
@@ -136,7 +137,7 @@ header_border: true
   </div>
   {% if matching_posts.size > 0 %}
   <div class="background-gray">
-    <div class="usa-section">
+    <div class="usa-section post-border">
       <section class="usa-grid posts_feature">
         <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
           <h2>Related blog posts</h2>
@@ -158,6 +159,4 @@ header_border: true
     </div>
   </div>
   {% endif %}
-
-  {% include banner-cta.html %}
 </section>

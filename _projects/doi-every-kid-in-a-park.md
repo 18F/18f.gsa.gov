@@ -4,7 +4,7 @@ title: Every Kid in a Park
 subtitle: Designing for every user
 permalink: /what-we-deliver/every-kid-in-a-park/
 redirect_from: /project/every-kid-in-a-park/
-excerpt: We helped the Department of the Interior reach fourth graders and help kids discover public lands through the Every Kid in a Park program.
+excerpt: Using research to design a federal website for an audience that doesn’t know the word federal.
 image: /assets/img/home/hero-ekiap.jpg
 image_accessibility: Children proudly showing their national park badges
 project_weight: 2
@@ -12,6 +12,8 @@ tag: every kid in a park
 expiration_date:
 github_repo: https://github.com/18F/ekip-api
 project_url: "[Every Kid in a Park website](https://www.everykidinapark.gov)"
+published: false
+listed: false
 ---
 
 Today, more than 80 percent of American families live in urban areas, and many lack easy access to outdoor spaces. The Department of the Interior created the Every Kid in a Park program to make it easier for fourth graders to discover public lands — but they needed a way for the program to reach fourth graders.

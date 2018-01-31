@@ -54,7 +54,7 @@ Complete the PR message by detailing all fixes and tagging GitHub users who shou
 ### Front end architecture
 
 This site is based on the [U.S.
-Web Design Standards](https://standards.usa.gov/) (WDS). It is developed using [Jekyll](https://jekyllrb.com/), a static site generator based on the Ruby programming language.
+Web Design System](https://designsystem.digital.gov/) (WDS). It is developed using [Jekyll](https://jekyllrb.com/), a static site generator based on the Ruby programming language.
 
 We default to using [semantic HTML5](http://www.w3schools.com/html/html5_semantic_elements.asp).
 
