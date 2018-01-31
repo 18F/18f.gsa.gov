@@ -34,7 +34,7 @@ the current market of tech entrepreneurs.
 
 Together, 18F and the NSF team began prototyping a new website and brand
 for the SBIR/STTR program. The team started with the [U.S. Web Design
-Standards](https://standards.usa.gov/) and modified it to use design
+System](https://designsystem.digital.gov/) and modified it to use design
 patterns the team found during research with tech entrepreneurs. They
 then iterated on the designs, based on feedback gathered through
 prototype testing with actual users. For example, on the portfolio page,
