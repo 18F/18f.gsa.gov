@@ -9,7 +9,7 @@ tags:
 - legacy
 - technical guides
 excerpt: "Securely connecting Azure with an on-premises server environment provides the benefits of a modern, cloud infrastructure, while making it trivial for application developers to interface with an on-premises legacy environment."
-Image: 
+image: 
 ---
 
 In our work with government agencies, we sometimes help them move from legacy systems to modern systems. A tricky proposition no matter how you do it, we’ve had great luck using an [encasement strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/). 
