@@ -1,5 +1,5 @@
 ---
-title: "Transitioning a legacy, Microsoft environment to the cloud"
+title: "Moving a legacy Microsoft environment to the Azure cloud"
 date: 2018-02-01
 authors:
 - clinton-troxel
@@ -10,6 +10,8 @@ tags:
 - technical guides
 excerpt: "Securely connecting Azure with an on-premises server environment provides the benefits of a modern, cloud infrastructure, while making it trivial for application developers to interface with an on-premises legacy environment."
 image: 
+redirect_from:
+-  /2018/02/01/transitioning-a-legacy-microsoft-environment-to-the-cloud/
 ---
 
 In our work with government agencies, we sometimes help them move from legacy systems to modern systems. A tricky proposition no matter how you do it, we’ve had great luck using an [encasement strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/). 
