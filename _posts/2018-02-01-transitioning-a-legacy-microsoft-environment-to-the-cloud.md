@@ -5,7 +5,9 @@ authors:
 - clinton-troxel
 - waldo-jaquith
 tags: 
+- encasement
 - legacy
+- technical guides
 excerpt: "Securely connecting Azure with an on-premises server environment provides the benefits of a modern, cloud infrastructure, while making it trivial for application developers to interface with an on-premises legacy environment."
 Image: 
 ---
