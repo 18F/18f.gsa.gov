@@ -27,10 +27,11 @@ figcaption {
   @include prefixer(box-shadow, $site-box-shadow, webkit moz ms o spec);
 }
 
-.image-reduce{
+.image-reduce {
   height: 50%;
   width: 50%;
 }
+
 .right-aligned {
   float: right;
   margin-left: $paragraph-margins;
