@@ -5,7 +5,7 @@ authors:
 - angela-colter
 tags:
 - user research
-excerpt: ""
+excerpt: "As a consultant who does user research, I’ve found that the way consultants present “findings and recommendations” to clients isn’t always effective: findings immediately followed by recommendations, all at once in a single presentation. A better approach in sharing user research findings with a partner is “findings, consensus, and recommendations.” "
 ---
 
 As a consultant who does user research, I’ve found that the way consultants present “findings and recommendations” to clients isn’t always effective: findings immediately followed by recommendations, all at once in a single presentation. The findings may be insightful and the advice sounds great, but somehow the client never implements the recommendations. 
