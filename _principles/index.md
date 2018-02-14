@@ -83,7 +83,7 @@ The first thing we’ll do together is gain a shared understanding of your probl
 
 ### What does this mean for you?
 
-Most likely, our work together will start with a “Foundation Engagement.” A Foundation Engagement typically lasts eight to ten weeks, and we use that time to gain a deep understanding and shared vision for your problem. At the end of this phase, we’ll provide a roadmap forward that defines your problem in terms a technical team can use to hit the ground running. 
+Most likely, our work together will start with a “Path Analysis.” A Path Analysis typically lasts eight to ten weeks, and we use that time to gain a deep understanding and shared vision for your problem. At the end of this phase, we’ll provide a roadmap forward that defines your problem in terms a technical team can use to hit the ground running. 
 
 Other partners might take the time to do this, too. But we carve out this initial stage, rather than lumping it into the whole project, so that at the end of the phase, you have excellent documentation to build or buy an effective solution with any partner — whether that’s 18F or a private vendor. Indeed, if we determine we aren’t the best partner to meet your needs, we can help you get set up with another office within the Technology Transformation Services or help you hire a private vendor.
 
