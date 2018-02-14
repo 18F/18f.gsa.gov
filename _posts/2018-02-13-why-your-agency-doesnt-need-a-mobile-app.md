@@ -31,9 +31,9 @@ The British Government Digital Service (GDS) has gone as far to write in it’s 
 
 For government services, this is a judicious stance to take and one we encourage with our partners too.
 
-### Developing multiple version can significantly raise costs
+### Developing multiple versions can significantly raise costs
 
-Building native apps cost exponentially more to maintain because you have to build the same thing, multiple times for different platforms — at least Android and iOS, and maybe others depending on your audience. Then you have to keep your apps up to date with the rapidly evolving mobile operating system space where every year new versions with new APIs and functionality are released. This rapid evolution of operating system versions has helped tremendously in expanding what’s possible to do on these devices, but it creates a high level of maintenance and updating for app creators to stay current with modern devices and support the older ones too. 
+Building native apps costs exponentially more to maintain because you have to build the same thing, multiple times for different platforms — at least Android and iOS, and maybe others depending on your audience. Then you have to keep your apps up to date with the rapidly evolving mobile operating system space where every year new versions with new APIs and functionality are released. This rapid evolution of operating system versions has helped tremendously in expanding what’s possible to do on these devices, but it creates a high level of maintenance and updating for app creators to stay current with modern devices and support the older ones too. 
 
 That rapid development requires significant resources to continuously update, maintain, test, and deploy. Now multiply that times each platform you have to support. The government needs to serve people of all economic means, so that means making sure to continue to support older versions of operating systems and devices.
 
