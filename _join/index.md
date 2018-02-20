@@ -29,12 +29,13 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ----
 
-We partner with other federal agencies and within the General Services Administration (GSA) to build up digital innovation teams across government. Positions for both 18F and our partners across the government will be posted here. For positions outside 18F, we'll indicate the partner team or agency in the title and job description.
+## Open positions
 
-18F is a part of the Technology Transformation Services (TTS) which houses the Office of Products and Programs (OPP), the Presidential Innovation Fellows (PIF), and the TTS Office of Acquisition.
+Links below will take you to the Technology Transformation Services join page to apply.
 
-
-{% include open-positions.html %}
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/product-manager-gs15/">18F Product Manager</a>
+</section>
 
 ----
 
