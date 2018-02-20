@@ -16,7 +16,7 @@ The Plain Language Action and Information Network (PLAIN) is one of the longest-
 
 <figure>
   <img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/plainlang/plainlanggov.png" alt="Screenshot of the plainlanguage.gov home page">
-  <figcaption>plainlanguage.gov home page</figcaption>
+  <figcaption>The new plainlanguage.gov home page.</figcaption>
 </figure>
 
 
