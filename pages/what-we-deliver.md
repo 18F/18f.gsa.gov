@@ -22,7 +22,7 @@ gridless: true
       <h3> Services </h3>
        <p>With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
       <div class="usa-flex usa-flex-wrap">
-        {% assign projects_list = site | find_collection: 'service_projects' | weighted_sort: 'project_weight', 'title' %}
+        {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
           {% include card.html
            image_src=project.image
@@ -39,7 +39,7 @@ gridless: true
      <p>With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
 
     <div class="usa-flex usa-flex-wrap">
-      {% assign projects_list = site | find_collection: 'projects' | weighted_sort: 'project_weight', 'title' %}
+      {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
       {% for project in projects_list %}
         {% include card.html
          image_src=project.image
