@@ -1,5 +1,5 @@
 
-{% assign project = site | find_collection: 'projects' | where: 'slug', include.project | first %}
+{% assign project = site | find_collection: 'services_projects' | where: 'slug', include.project | first %}
 
 {% include card.html
    image_src=project.image
