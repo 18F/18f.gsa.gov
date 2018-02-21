@@ -8,13 +8,13 @@ title: "Say hello to the new Presidential Innovation Fellows"
 description: The third class of Presidential Innovation Fellows was sworn into duty last week by former CTO Todd Park. We are excited to welcome them into the 18F family.
 
 excerpt: The third class of Presidential Innovation Fellows was sworn into duty last week by former CTO Todd Park. We are excited to welcome them into the 18F family.
-image: 
+image:
 authors:
 - garren
 
 tags:
 - presidential innovation fellows
-- hiring
+- join us
 
 ---
 

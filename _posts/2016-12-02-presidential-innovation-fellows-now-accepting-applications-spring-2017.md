@@ -4,7 +4,7 @@ authors:
 - andre
 tags:
 - presidential innovation fellows
-- hiring
+- join us
 excerpt: "If you’re looking for a way to have an impact on the digital services
 the government provides to the public, now’s your opportunity. The
 Presidential Innovation Fellows program is currently accepting
