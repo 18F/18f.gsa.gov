@@ -1,6 +1,6 @@
 ---
 title: "A new home for the federal plain language community"
-date: 2018-02-20
+date: 2018-02-22
 authors:
 - nicole-fenton
 - corey-mahoney
