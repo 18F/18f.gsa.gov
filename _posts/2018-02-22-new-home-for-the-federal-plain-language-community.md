@@ -10,6 +10,8 @@ tags:
 - federalist
 - interview
 excerpt: "The Plain Language Action and Information Network (PLAIN) is one of the longest-standing champions for great content and user experience in government. A small team from 18F worked closely with DigitalGov and PLAIN to redesign plainlanguage.gov, making it more modern and usable."
+redirect_from: 
+  - /2018/02/20/new-home-for-the-federal-plain-language-community/
 ---
 
 The Plain Language Action and Information Network (PLAIN) is one of the longest-standing champions for great content and user experience in government. Since the 90s, this incredible community has shepherded the adoption of plain language in federal regulations and communications with the public. Last year, we were honored to partner with them to update and redesign [plainlanguage.gov](https://www.plainlanguage.gov/).
