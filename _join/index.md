@@ -27,6 +27,8 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
+**We currently have no open positions at 18F.**
+
 ----
 
 ## How to apply
