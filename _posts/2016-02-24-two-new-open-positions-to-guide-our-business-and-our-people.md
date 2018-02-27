@@ -4,7 +4,6 @@ date: 2016-02-24
 authors:
 - jamie
 tags:
-- hiring
 - join us
 excerpt: "The Talent Team is thrilled to announce the opening of two new leadership positions here at 18F: Director of Chapters and Director of Custom Partner Solutions"
 description: "The Talent Team is thrilled to announce the opening of two new leadership positions here at 18F: Director of Chapters and Director of Custom Partner Solutions"
