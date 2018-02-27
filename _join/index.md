@@ -29,16 +29,6 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ----
 
-## Open positions
-
-Links below will take you to the Technology Transformation Services join page to apply.
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/product-manager-gs15/">18F Product Manager</a>
-</section>
-
-----
-
 ## How to apply
 
 When you apply for a role at 18F, you’ll need to submit a [government-style resume](#government-style-resumes), which includes much more detail than a private-sector resume.
