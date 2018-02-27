@@ -2,7 +2,7 @@
 title: What we deliver
 permalink: /what-we-deliver/
 layout: primary
-lead: We partner with federal agencies to build, buy, and share digital services that improve the user experience of government.
+lead: Websites, applications, and strategies that help agencies provide excellent value to the public.
 content_wide: true
 content_focus: false
 redirect_from:
@@ -20,7 +20,7 @@ gridless: true
   <section class="usa-section">
     <div class="usa-section-bottom">
       <h3> Services </h3>
-       <p>With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
+       <p>We partner with federal agencies to build, buy, and share digital services that improve the user experience of government. With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
       <div class="usa-flex usa-flex-wrap">
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
@@ -36,7 +36,7 @@ gridless: true
       </div>
     </div>
     <h3> Products </h3>
-     <p>With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
+     <p>In addition to 18F’s custom services, we also operate a number of products that agencies can use to reduce costs and improve the security and usability of their services. These products work together to make building and releasing systems easier, and they can integrate with your existing services.</p>
 
     <div class="usa-flex usa-flex-wrap">
       {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
