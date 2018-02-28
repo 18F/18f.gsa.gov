@@ -23,7 +23,7 @@ Collecting data and making it available to the public is no easy feat. With any 
 
 In terms of the content of your data, understanding the various risks will be important. Are you collecting Personally Identifiable Information (PII)? If so, you may need to take a closer look at how you will collect, store, and share this data. I recommend evaluating your systems and security practices as a first step. Here’s [GSA’s policy on PII](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act).
 
-While this may seem daunting, the good news is that you’re not alone. Many agencies, likely including your own, have done this in the past. Look up data other agencies have made public and reach out to the team. To find people who maintain data sets, go to [data.gov](https://www.data.gov/) and look up contact information associated with similar data sets. Sharing best practice, or even tools, amongst fellow federal workers is a great starting point. 
+While this may seem daunting, the good news is that you’re not alone. Many agencies, likely including your own, have done this in the past. Look up data other agencies have made public and reach out to the team. To find people who maintain data sets, go to [data.gov](https://www.data.gov/) and look up contact information associated with similar data sets. Sharing best practices, or even tools, amongst fellow federal workers is a great starting point. 
 
 My recommendation is to start small, understand the risks, and reach out for support. Good luck!
 
