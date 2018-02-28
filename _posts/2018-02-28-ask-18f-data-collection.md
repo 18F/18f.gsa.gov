@@ -6,7 +6,7 @@ authors:
 tags:
 - ask 18f
 - data access 
-excerpt: "We are launching a new series called Ask 18F – an advice column that answers questions sent in by federal employees. Our technical experts hope to dispel myths and ease fears about building or buying technology in government. We aim to give you suggested resources, questions to ask your team and lastly, a good starting off point to tackle the problem you wish to solve. "
+excerpt: "We are launching a new series called Ask 18F – an advice column that answers questions sent in by federal employees. Our technical experts hope to dispel myths and ease fears about building or buying technology in government. We aim to give you suggested resources, questions to ask your team and lastly, a good starting off point to tackle the problem you wish to solve."
 ---
 
 We’re launching a new series called, “Ask 18F” – an advice column that answers questions sent in by federal employees. Our technical experts hope to dispel myths and ease fears about building or buying technology in government. We’ll give you helpful resources, questions to ask your team, and a good starting point to tackle your problem.
@@ -17,7 +17,7 @@ To get this column started, we have answers from two of our data experts to a qu
 
 ## My office gathers data from a wide variety of sources. How can I make this process easier for our office and our sources? Where should I start?
 
-### [Lindsay Young]({{ site.baseurl }}/author/lindsay/) - 18F Developer working with the Federal Election Committee 
+### [Lindsay Young]({{ site.baseurl }}/author/lindsay/) - 18F Developer working with the Federal Election Commission 
 
 Collecting data and making it available to the public is no easy feat. With any large project, I recommend starting small. You may be able to collect data by email or use spreadsheet software to make a prototype. Make sure to document the format you need and logic you use to update your data so you can scale prototypes into larger solutions as needed. 
 
