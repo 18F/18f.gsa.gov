@@ -17,7 +17,7 @@ To get this column started, we have answers from two of our data experts to a qu
 
 ## My office gathers data from a wide variety of sources. How can I make this process easier for our office and our sources? Where should I start?
 
-### Lindsay Young - 18F Developer working with the Federal Election Committee 
+### [Lindsay Young]({{ site.baseurl }}/author/lindsay/) - 18F Developer working with the Federal Election Committee 
 
 Collecting data and making it available to the public is no easy feat. With any large project, I recommend starting small. You may be able to collect data by email or use spreadsheet software to make a prototype. Make sure to document the format you need and logic you use to update your data so you can scale prototypes into larger solutions as needed. 
 
@@ -27,7 +27,7 @@ While this may seem daunting, the good news is that you’re not alone. Many age
 
 My recommendation is to start small, understand the risks, and reach out for support. Good luck!
 
-### Tony Garvan - Data Lead at 18F 
+### [Tony Garvan]({{ site.baseurl }}/author/anthony-garvan/) - Data Lead at 18F 
 
 Easing data ingest for the public and for your office is a big undertaking — you likely won’t be able to tackle it all at once. The good news is that things that lessen the burden for the public usually also lessen the burden for your office: less back and forth and more validation up front helps both parties. Digitizing a paper form into a responsive website is generally a good first step. Choose the form that has the biggest impact and that can be deployed in less than six months (generally one with less than five pages). Don’t reinvent the wheel: consider using tools like [login.gov](https://www.login.gov/), [cloud.gov](https://cloud.gov/) and the [U.S. Web Design System](https://designsystem.digital.gov/) to accelerate development and deployment. Once you’ve had success with that, you can move on to bigger fish!
 
