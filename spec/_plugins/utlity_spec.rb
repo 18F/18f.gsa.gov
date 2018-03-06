@@ -17,7 +17,12 @@ RSpec.describe Jekyll::Utility do
     @nav_item_blog_single_collection = blog_variations['blog_single_collection']
     @nav_item_blog_collectionless = blog_variations['blog_collectionless']
 
-    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/project.yml')))
+    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/services_project.yml')))
+    @nav_item_project = project_variations['project']
+    @nav_item_project_with_children = project_variations['project_with_children']
+    @nav_item_project_child = @nav_item_project_with_children['children'][0]
+
+    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/products_project.yml')))
     @nav_item_project = project_variations['project']
     @nav_item_project_with_children = project_variations['project_with_children']
     @nav_item_project_child = @nav_item_project_with_children['children'][0]
