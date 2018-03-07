@@ -17,13 +17,13 @@ RSpec.describe Jekyll::Utility do
     @nav_item_blog_single_collection = blog_variations['blog_single_collection']
     @nav_item_blog_collectionless = blog_variations['blog_collectionless']
 
-    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/services_project.yml')))
-    @nav_item_project = project_variations['project']
+    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/services_projects.yml')))
+    @nav_item_project = project_variations['services_project']
     @nav_item_project_with_children = project_variations['project_with_children']
     @nav_item_project_child = @nav_item_project_with_children['children'][0]
 
-    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/products_project.yml')))
-    @nav_item_project = project_variations['project']
+    project_variations = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/products_projects.yml')))
+    @nav_item_project = project_variations['products_project']
     @nav_item_project_with_children = project_variations['project_with_children']
     @nav_item_project_child = @nav_item_project_with_children['children'][0]
 
@@ -32,7 +32,9 @@ RSpec.describe Jekyll::Utility do
     @post_url = @first_post['url']
     @post_url = @utility_class.clip_char(@post_url.to_s.downcase, '/')
 
-    @projects = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/projects.yml')))
+    @services_project = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/services_project.yml')))
+
+    @products_project = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/products_project.yml')))
   end
 
   describe '#clip_char' do
@@ -132,7 +134,7 @@ RSpec.describe Jekyll::Utility do
 
   describe '#weighted_sort' do
     it 'orders an array of objects by the attributes defined' do
-      actual = @utility_class.weighted_sort(@projects, 'weight', 'title')
+      actual = @utility_class.weighted_sort(@services_project, 'weight', 'title')
       expected = [
         { 'title' => 'Heavy project', 'weight' => 10 },
         { 'title' => 'Cool project', 'weight' => 2 },
@@ -141,10 +143,10 @@ RSpec.describe Jekyll::Utility do
         { 'title' => 'Ze alphabetically last project' }
       ]
       expect(actual).to match expected
-    end
-
+  end
+  
     it 'orders an array of objects by the attributes defined' do
-      actual = @utility_class.weighted_sort(@projects, 'alt_weight', 'title')
+      actual = @utility_class.weighted_sort(@products_project, 'alt_weight', 'title')
       expected = [
         { 'title' => 'Alphabetically first project', 'alt_weight' => 2 },
         { 'title' => 'Some project', 'weight' => 1, 'alt_weight' => 2 },
