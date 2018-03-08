@@ -134,15 +134,15 @@ RSpec.describe Jekyll::Utility do
 
   describe '#weighted_sort' do
     it 'orders an array of objects by the attributes defined' do
-        actual = @utility_class.weighted_sort(@services_wieght, 'weight', 'title')
-        expected = [
-          { 'title' => 'Heavy project', 'weight' => 10 },
-          { 'title' => 'Cool project', 'weight' => 2 },
-          { 'title' => 'Some project', 'weight' => 1, 'alt_weight' => 2 },
-          { 'title' => 'Alphabetically first project', 'alt_weight' => 2 },
-          { 'title' => 'Ze alphabetically last project' }
-        ]
-        expect(actual).to match expected
+      actual = @utility_class.weighted_sort(@services_wieght, 'weight', 'title')
+      expected = [
+        { 'title' => 'Heavy project', 'weight' => 10 },
+        { 'title' => 'Cool project', 'weight' => 2 },
+        { 'title' => 'Some project', 'weight' => 1, 'alt_weight' => 2 },
+        { 'title' => 'Alphabetically first project', 'alt_weight' => 2 },
+        { 'title' => 'Ze alphabetically last project' }
+      ]
+      expect(actual).to match expected
     end
 
     it 'orders an array of objects by the attributes defined' do
