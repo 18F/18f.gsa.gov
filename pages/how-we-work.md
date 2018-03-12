@@ -8,7 +8,10 @@ banner_cta: true
 
 18F partners with civilian and military federal agencies to help you deliver exceptional digital experiences that address your strategic initiatives. Work with 18F to build a strategy, and then execute it either with 18F’s technical experts or with a private sector procurement guided by our acquisitions staff. 
 
-> _“We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology. Now, it’s not just IT; it’s educating the entire staff on the agile methodology.”_  - **Federal Election Commission about the [new FEC.gov](https://18f.gsa.gov/what-we-deliver/fec-gov/).**
+<div class="hww-blockquote">
+  We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology. Now, it’s not just IT; it’s educating the entire staff on the agile methodology.
+    <span>- Federal Election Commission about the <a href="https://18f.gsa.gov/what-we-deliver/fec-gov/">new FEC.gov</a>.</span>
+</div>
 
 18F works with partners that have federal funding and, as a cost recoverable office, we’re required to charge for our work. 18F works on all types of projects from internal financial systems to public-facing data websites, and to ensure that we bring you tremendous value, we break our work into stages: Path Analysis, then Experiment and Iterate.
 
@@ -19,6 +22,10 @@ If you’ve got a problem, 18F can help you make an informed, confident decision
 We can help your office investigate how to integrate disparate data sources, find the pain points in internal systems, or survey the market for COTS solutions. **Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution.** 
 
 This phase lays the groundwork for continued progress with 18F or another technical team inside or outside of government. A Path Analysis typically assigns two or three 18F staff to your project for eight to ten weeks. 
+
+<div class="usa-grid-line">
+  <hr/>
+</div>
 
 *Do you have a project that needs technical expertise and an innovative strategy to move forward? Email us at [inquiries18F@gsa.gov](mailto: inquiries18F@gsa.gov), and we’ll set up a meeting.* 
 
