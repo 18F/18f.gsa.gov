@@ -1,7 +1,7 @@
 ---
 agency: National Science Foundation
-title: America's Seed Fund powered by NSF
-subtitle: Rebranding to better reach their audience
+title: Designing to reach your audience
+subtitle: Communicating with tech entrepreneurs
 permalink: /what-we-deliver/seed-fund/
 excerpt: Rebranding with well-tested content and design to better communicate with tech entrepreneurs.
 image:
