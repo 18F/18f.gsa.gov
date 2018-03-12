@@ -1,7 +1,7 @@
 ---
-agency:
-title: Agile BPA
-subtitle: Streamlining software procurement
+agency: Agile Blanket Purchase Agreement
+title: Streamlining software procurement
+subtitle: Contractors ready for modern development
 permalink: /what-we-deliver/agile-bpa/
 excerpt: A group of pre-vetted vendors ready to help agencies use agile development techniques to build digital services.
 image:
@@ -10,7 +10,7 @@ image_icon: folderwithclock.svg
 tag: agile bpa
 expiration_date:
 github_repo:
-project_url: "[Agile BPA website](https://ads.18f.gov/)"
+project_url: "[agile-bpa.18f.gov](https://agile-bpa.18f.gov/)"
 learn_more:
 product_clients:
 - Department of Agriculture

@@ -1,7 +1,7 @@
 ---
 agency: Department of the Treasury
-title: Opening federal spending
-subtitle: Implementing a government-wide transparency law
+title: Implementing a government-wide law
+subtitle: A new way to track federal spending
 permalink: /what-we-deliver/data-act/
 excerpt: Implementing the Digital Accountability and Transparency Act with one of the largest government-wide agile projects ever undertaken.
 image: /assets/img/projects/data-act-better-data.jpg

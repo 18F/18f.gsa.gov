@@ -1,7 +1,7 @@
 ---
-agency:
-title: eRegulations
-subtitle: Making regulations easier to read
+agency: eRegulations
+title: Easy-to-read regulations
+subtitle: A shared service for user-friendly regulations
 permalink: /what-we-deliver/eregulations/
 redirect_from: /project/eregulations/
 excerpt: An open-source tool that makes government regulations easier to find, read, and understand.
