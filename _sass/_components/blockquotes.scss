@@ -72,37 +72,37 @@ p ~ .pquote:not(.pquote-single) {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
-.hww-blockquote{
+.hww-blockquote {
   font-size: 1em;
-  width:100%;
-  margin:3.5rem auto;
-  font-style:italic;
+  width: 100%;
+  margin: 3.5rem auto;
+  font-style: italic;
   color: $color-dark;
-  padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid $color-medium;
-  line-height:$banner-line-height;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid $color-medium;
+  line-height: $banner-line-height;
   position: relative;
   background: $color-gray-lightest;
 
-  ::before{
-    content: "\201C";
+  ::before {
+    content: '\201C';
     color: $color-medium;
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     left: 10px;
-    top:-10px;
+    top: -10px;
   }
 
-  ::after{
+  ::after {
     content: '';
   }
 
-  span{
-    display:block;
+  span {
+    display: block;
     color: $color-medium;
     font-style: normal;
     font-weight: bold;
-    margin-top:1em;
+    margin-top: 1em;
   }
 
 }
