@@ -34,6 +34,12 @@
   height: 1px;
 }
 
+.usa-grid-line-hww {
+  border-top: 0.5rem solid;
+  border-color: $color-medium;
+  margin-top: $section-margins;
+}
+
 .usa-flex-baseline {
   align-items: baseline;
 }

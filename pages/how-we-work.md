@@ -23,11 +23,9 @@ We can help your office investigate how to integrate disparate data sources, fin
 
 This phase lays the groundwork for continued progress with 18F or another technical team inside or outside of government. A Path Analysis typically assigns two or three 18F staff to your project for eight to ten weeks. 
 
-<div class="usa-grid-line">
-  <hr/>
-</div>
+<div class="usa-grid-line-hww"></div>
 
-*Do you have a project that needs technical expertise and an innovative strategy to move forward? Email us at [inquiries18F@gsa.gov](mailto: inquiries18F@gsa.gov), and we’ll set up a meeting.* 
+Do you have a project that needs technical expertise and an innovative strategy to move forward? **Email us at [inquiries18F@gsa.gov](mailto: inquiries18F@gsa.gov), and we’ll set up a meeting.** 
 
 ## Experiment and Iterate
 
