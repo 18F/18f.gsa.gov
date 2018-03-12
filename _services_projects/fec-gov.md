@@ -1,7 +1,7 @@
 ---
 agency: Federal Election Commission
-title: FEC.gov
-subtitle: Making campaign data easier to use
+title: Easy-to-use campaign data
+subtitle: Tackling decades of data
 permalink: /what-we-deliver/fec-gov/
 redirect_from: /project/fec-gov/
 excerpt: Rethinking how the Federal Election Commission provides data, instructions, and legal resources to the public.

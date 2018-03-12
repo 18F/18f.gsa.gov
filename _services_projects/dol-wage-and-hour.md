@@ -1,10 +1,10 @@
 ---
 agency: Department of Labor
-title: Wage and Hour Division
-subtitle: Becoming a digital-first agency
+title: Becoming a digital-first agency
+subtitle: Bringing technology to vital services
 permalink: /what-we-deliver/dol-wage-and-hour/
 excerpt: Success on a small project helped the Wage and Hour Division begin transforming into a digital-first agency.
-image: 
+image:
 image_accessibility:
 image_icon: folderwithclock.svg
 project_weight: 3

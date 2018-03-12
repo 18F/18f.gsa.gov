@@ -1,7 +1,7 @@
 ---
 agency: Forest Service
-title: ePermits
-subtitle: Moving public land permits online
+title: Moving land permits online
+subtitle: Easing access to public lands
 permalink: /what-we-deliver/forest-service/
 excerpt: Using prototypes and modular contracting to help the Forest Service buy an online permit system.
 image:

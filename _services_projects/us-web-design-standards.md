@@ -1,7 +1,7 @@
 ---
-agency:
-title: U.S. Web Design System
-subtitle: A design system for the federal government
+agency: U.S. Web Design System
+title: A design system for the federal government
+subtitle: Building trust through consistency
 permalink: /what-we-deliver/us-web-design-system/
 excerpt: A library of design components that can help developers quickly make trustworthy, accessible, and consistent digital government services.
 image:
