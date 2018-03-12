@@ -143,7 +143,7 @@ RSpec.describe Jekyll::Utility do
         { 'title' => 'Ze alphabetically last project' }
       ]
       expect(actual).to match expected
-      end
+    end
 
     it 'orders an array of objects by the attributes defined' do
       actual = @utility_class.weighted_sort(@products_wieght, 'alt_weight', 'title')
