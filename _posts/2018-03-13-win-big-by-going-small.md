@@ -8,7 +8,7 @@ tags:
 - modular contracting
 - devops
 - acquisition
-excerpt: ""
+excerpt: "Adopting this “smaller is better” mindset as a way to overhaul a large, complex legacy system can feel counterintuitive. But the notion of smallness — of distilling complex, interdependent tasks into achievable units of work — is fundamental to building modern software in both the private and public sector."
 ---
 
 > When eating an elephant, take one bite at a time -- **Creighton Abrams**
@@ -21,7 +21,7 @@ Adopting this “smaller is better” mindset as a way to overhaul a large, comp
 
 ## Modular contracting
 
-The core principles of modular contracting are not new; they’re enshrined in [FAR Part 39](http://farsite.hill.af.mil/reghtml/regs/far2afmcfars/fardfars/far/39.htm#P33_5051) and have been around since the late 1990’s. Lifting directly from the FAR, we can summarize the basic idea behind modular contracting as:
+The core principles of modular contracting are not new; they’re enshrined in [FAR Part 39](http://farsite.hill.af.mil/reghtml/regs/far2afmcfars/fardfars/far/39.htm#P33_5051) and have been around since the late 1990s. Lifting directly from the FAR, we can summarize the basic idea behind modular contracting as:
 
 >[the] delivery, implementation, and testing of workable systems or solutions in discrete increments, each of which comprises a system or solution that is not dependent on any subsequent increment in order to perform its principal functions.
 
