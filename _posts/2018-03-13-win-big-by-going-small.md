@@ -7,7 +7,7 @@ tags:
 - agile
 - modular contracting
 - devops
-- acquisition
+- acquisition services
 excerpt: "Adopting this “smaller is better” mindset as a way to overhaul a large, complex legacy system can feel counterintuitive. But the notion of smallness — of distilling complex, interdependent tasks into achievable units of work — is fundamental to building modern software in both the private and public sector."
 ---
 

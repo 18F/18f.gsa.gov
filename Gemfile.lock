@@ -119,7 +119,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     netrc (0.11.0)
-    nokogiri (1.7.0.1)
+    nokogiri (1.8.1)
       mini_portile2 (~> 2.1.0)
     parallel (1.10.0)
     pathutil (0.14.0)
