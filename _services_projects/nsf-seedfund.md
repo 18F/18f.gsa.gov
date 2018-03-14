@@ -10,7 +10,7 @@ image_icon:
 project_weight: 2
 tag: national science foundation
 expiration_date:
-github_repo: https://github.com/18F/nsf-sbir
+github_repo: "[https://github.com/18F/nsf-sbir](https://github.com/18F/nsf-sbir)"
 project_url: "[America's Seed Fund powered by NSF website](https://seedfund.nsf.gov/)"
 learn_more:
 product_clients:

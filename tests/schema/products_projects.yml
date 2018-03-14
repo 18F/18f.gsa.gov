@@ -5,7 +5,7 @@ excerpt: String
 tag: String
 permalink: String
 config:
-  path: _projects
+  path: _products_projects
   ignore:
   - README.md
   - ..

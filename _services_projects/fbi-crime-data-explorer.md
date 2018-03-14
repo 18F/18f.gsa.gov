@@ -10,7 +10,7 @@ image_icon:
 project_weight: 2
 tag: fbi
 expiration_date:
-github_repo: https://github.com/18F/crime-data-explorer
+github_repo: "[https://github.com/18F/crime-data-explorer](https://github.com/18F/crime-data-explorer)"
 project_url: "[Crime Data Explorer website](https://crime-data-explorer.fr.cloud.gov/)"
 learn_more:
 product_clients:

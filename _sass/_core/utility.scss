@@ -24,6 +24,11 @@ svg {
   margin: 0;
 }
 
+.margin-spacing {
+  margin-top: $section-margins;
+  margin-bottom: $section-margins;
+}
+
 .pad-top-bottom {
   padding-top: $paragraph-margins-thick;
   padding-bottom: $paragraph-margins-thick;

@@ -10,7 +10,7 @@ image_icon: monitor.svg
 project_weight: 2
 tag: web design system
 expiration_date:
-github_repo: https://github.com/uswds/uswds
+github_repo: "[https://github.com/uswds/uswds](https://github.com/uswds/uswds)"
 project_url: "[U.S. Web Design System website](https://designsystem.digital.gov/)"
 learn_more:
 product_clients:

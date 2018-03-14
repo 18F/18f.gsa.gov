@@ -9,7 +9,7 @@ image_accessibility:
 image_icon:
 tag: calc
 expiration_date:
-github_repo: https://github.com/18F/calc
+github_repo: "[https://github.com/18F/calc](https://github.com/18F/calc)"
 project_url: "[calc.gsa.gov](https://calc.gsa.gov/)"
 quote: CALC was built to save hours spent on market research and price analysis for federal government contracts, and has the potential to save millions of taxpayer dollars on services contracts.
 quote_source: "Kelly Bailey, Product Owner of CALC, Federal Acquisition Service"

@@ -10,7 +10,7 @@ image_icon: folderwithclock.svg
 project_weight: 3
 tag: cloud.gov
 expiration_date:
-github_repo: https://cloud.gov/docs/ops/repos/
+github_repo: "[https://cloud.gov/docs/ops/repos/](https://cloud.gov/docs/ops/repos/)"
 project_url: "[cloud.gov](https://cloud.gov/)"
 learn_more:
 product_clients:
