@@ -11,13 +11,13 @@ project_weight: 2
 tag: forest service
 expiration_date:
 github_repo:
+  - "[https://github.com/18F/bpa-fs-epermit-api](https://github.com/18F/bpa-fs-epermit-api)"
+  - "[https://github.com/18F/bpa-fs-epermit-intake](https://github.com/18F/bpa-fs-epermit-intake)"
+  - "[https://github.com/18F/bpa-fs-xmas-trees](https://github.com/18F/bpa-fs-xmas-trees)"
 project_url:
 learn_more:
 product_clients:
 resources:
-  - "[GitHub repository for API module](https://github.com/18F/bpa-fs-epermit-api)"
-  - "[GitHub repository for intake module](https://github.com/18F/bpa-fs-epermit-intake)"
-  - "[GitHub repository for Christmas tree module](https://github.com/18F/bpa-fs-xmas-trees)"
 ---
 
 The U.S. Department of Agriculture’s Forest Service issues permits to
