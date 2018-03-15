@@ -1,7 +1,7 @@
 ---
-agency:
-title: cloud.gov
-subtitle: Doing more with less
+agency: cloud.gov
+title: Expedited path to the cloud
+subtitle: Reducing the compliance and labor burden of moving to the cloud
 permalink: /what-we-deliver/cloud-gov/
 excerpt: A government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
 image: /assets/img/projects/cg.png
@@ -10,8 +10,8 @@ image_icon: folderwithclock.svg
 project_weight: 3
 tag: cloud.gov
 expiration_date:
-github_repo: https://cloud.gov/docs/ops/repos/
-project_url: "[cloud.gov website](https://cloud.gov/)"
+github_repo: "[https://cloud.gov/docs/ops/repos/](https://cloud.gov/docs/ops/repos/)"
+project_url: "[cloud.gov](https://cloud.gov/)"
 learn_more:
 product_clients:
 - Department of Commerce

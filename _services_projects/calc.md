@@ -1,7 +1,7 @@
 ---
 agency: General Services Administration
-title: CALC tool
-subtitle: Better tools for better research
+title: Better tools for better research
+subtitle: Streamlining a critical contracting task
 permalink: /what-we-deliver/calc/
 excerpt: An efficient way for contracting officers to search past government contracts for fair hourly rates.
 image: /assets/img/projects/calc.png
@@ -9,8 +9,8 @@ image_accessibility:
 image_icon:
 tag: calc
 expiration_date:
-github_repo: https://github.com/18F/calc
-project_url: "[CALC tool](https://calc.gsa.gov/)"
+github_repo: "[https://github.com/18F/calc](https://github.com/18F/calc)"
+project_url: "[calc.gsa.gov](https://calc.gsa.gov/)"
 quote: CALC was built to save hours spent on market research and price analysis for federal government contracts, and has the potential to save millions of taxpayer dollars on services contracts.
 quote_source: "Kelly Bailey, Product Owner of CALC, Federal Acquisition Service"
 ---

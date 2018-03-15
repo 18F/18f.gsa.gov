@@ -76,8 +76,12 @@ header_border: true
 
         {% if page.github_repo %}
         <li class="section-info-list-item">
-          <div class="section-info-header">GitHub repo</div>
-          <div><a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a></div>
+          <div class="section-info-header">See the code on GitHub</div>
+            <ul class="{% unless page.github_repo.size > 1 %}usa-unstyled-list{% endunless %}">
+            {% for repo in page.github_repo %}
+              <li>{{ repo | markdownify }}</a></li>
+            {% endfor %}
+            </ul>
         </li>
         {% endif %}
 
@@ -122,8 +126,8 @@ header_border: true
             <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
           </li>
         {% endif %}
-          <li>{% include side-cta.html %}</li>
       </ul>
+      <div>{% include side-cta.html %}</div>
     </aside>
     {% endif %}
 

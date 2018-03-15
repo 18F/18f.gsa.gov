@@ -10,7 +10,7 @@ image_icon: folderwithclock.svg
 project_weight: 2
 tag: micro-purchase platforms
 expiration_date:
-github_repo: https://github.com/18F/micropurchase
+github_repo: "[https://github.com/18F/micropurchase](https://github.com/18F/micropurchase)"
 project_url: "[Micro-purchase Marketplace website](https://micropurchase.18f.gov/)"
 learn_more:
 product_clients:

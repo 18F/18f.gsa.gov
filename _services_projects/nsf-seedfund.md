@@ -1,7 +1,7 @@
 ---
 agency: National Science Foundation
-title: America's Seed Fund powered by NSF
-subtitle: Rebranding to better reach their audience
+title: Designing to reach your audience
+subtitle: Communicating with tech entrepreneurs
 permalink: /what-we-deliver/seed-fund/
 excerpt: Rebranding with well-tested content and design to better communicate with tech entrepreneurs.
 image:
@@ -10,7 +10,7 @@ image_icon:
 project_weight: 2
 tag: national science foundation
 expiration_date:
-github_repo: https://github.com/18F/nsf-sbir
+github_repo: "[https://github.com/18F/nsf-sbir](https://github.com/18F/nsf-sbir)"
 project_url: "[America's Seed Fund powered by NSF website](https://seedfund.nsf.gov/)"
 learn_more:
 product_clients:

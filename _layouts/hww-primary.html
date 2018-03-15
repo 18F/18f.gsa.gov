@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+{% if page.image %}
+  {% include feature-image.html %}
+  <h1 class="usa-sr-only">{{ page.title }}</h1>
+{% elsif page.title %}
+  <section class="background-dark usa-section section-intro">
+    <div class="usa-grid">
+      <div class="section-intro-header">
+        {% if page.lead %}
+          <h1 class="section-heading section-heading-alt">{{ page.title }} </h1>
+          <h2>{{ page.lead }}</h2>
+        {% else %}
+          <h1 class="section-heading">{{ page.title }}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% else %}
+  <h1 class="usa-sr-only">{{ page.title }}</h1>
+{% endif %}
+
+{% assign page_title = page.subnav_title | default: page.title %}
+
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html
+  page_title=page_title
+  background_class='background-gray'
+%}
+{% endif %}
+
+<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+  {% if page.include_subnav %}
+    <aside class="usa-width-one-third sticky sticky-subnav">
+      {% include navigation.html subnav=true %}
+    </aside>
+    <section class="usa-width-two-thirds">
+      {% if page.image and page.lead %}
+        <h3 class="page-lead">{{ page.lead }}</h3>
+      {% endif %}
+      {{ content }}
+    </section>
+  {% else %}
+    {% if page.image and page.lead %}
+      <h3 class="page-lead">{{ page.lead }}</h3>
+    {% endif %}
+    {{ content }}
+  {% endif %}
+</section>
+
+<section class="usa-section background-gray">
+  <section class="usa-grid">
+
+    {% include card-project.html
+       project='fbi-crime-data-explorer'
+    %}
+    {% include card-project.html
+       project='fec-gov'
+    %}
+
+    {% include card-project.html
+       project='calc'
+    %}
+  </section>
+</section>
+
+{% if page.banner_cta %}
+  {% include banner-cta.html %}
+{% endif %}

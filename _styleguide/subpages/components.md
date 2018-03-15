@@ -107,7 +107,7 @@ The card component is used as a preview for project pages, but could be adapted 
 
 
 {% capture card_description %}
-To use cards, reference the file path slug in the _projects directory. Use another project as a template to fill in all of the necessary fields.
+To use cards, reference the file path slug in the `projects directory`. Use another project as a template to fill in all of the necessary fields.
 
 Each project card has a number of properties. The only required properties are:
 * `image_src`: the project `image` field, and is the image portion of the card

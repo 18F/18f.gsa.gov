@@ -1,7 +1,7 @@
 ---
 agency: Health and Human Services
-title: State and local procurement
-subtitle: Helping states update crucial systems
+title: Updating critical state and local systems
+subtitle: Extending impact to state and local governments
 permalink: /what-we-deliver/hhs-states/
 redirect_from: /project/hhs-states/
 excerpt: Working with Health and Human Services to help states implement best practices and upgrade legacy systems.

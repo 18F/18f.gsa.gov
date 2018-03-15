@@ -48,7 +48,10 @@ collections:
   press:
     output: true
     permalink: /press/:name/
-  projects:
+  products_projects:
+    output: true
+    permalink: /what-we-deliver/:path/
+  services_projects:
     output: true
     permalink: /what-we-deliver/:path/
   contact:
@@ -106,9 +109,15 @@ defaults:
     parent_permalink: /join/
  -
   scope:
-    path: "_projects"
+    path: "_products_projects"
   values:
     layout: project-page
+ -
+  scope:
+    path: "_services_projects"
+  values:
+    layout: project-page
+
  -
   scope:
     path: "_styleguide"

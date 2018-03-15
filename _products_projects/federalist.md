@@ -1,7 +1,7 @@
 ---
-agency:
-title: Federalist
-subtitle: A platform for publishing static government websites
+agency: Federalist
+title: A government publishing platform
+subtitle: Build websites quickly and easily
 permalink: /what-we-deliver/federalist/
 excerpt: A government-created platform to help agencies build websites quickly and easily while meeting compliance requirements.
 image: /assets/img/projects/federalist-background-blue.jpg
@@ -9,8 +9,8 @@ image_accessibility: "Abstract image of the Federalist Papers in bluescale"
 project_weight: 3
 tag: federalist
 expiration_date:
-github_repo: https://github.com/18F/federalist
-project_url: "[Federalist website](https://federalist.18f.gov/)"
+github_repo: "[https://github.com/18F/federalist](https://cloud.gov/docs/ops/repos/)"
+project_url: "[federalist.18f.gov](https://federalist.18f.gov/)"
 learn_more:
 product_clients:
 - Department of Education
