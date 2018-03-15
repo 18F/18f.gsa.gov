@@ -28,6 +28,7 @@ gridless: true
            image_src=project.image
            image_alt=project.image_accessibility
            image_icon=project.image_icon
+           agency=project.agency
            tagline=project.title
            description=project.excerpt
            link=project.permalink
@@ -45,6 +46,7 @@ gridless: true
          image_src=project.image
          image_alt=project.image_accessibility
          image_icon=project.image_icon
+         agency=project.agency
          tagline=project.title
          description=project.excerpt
          link=project.permalink
