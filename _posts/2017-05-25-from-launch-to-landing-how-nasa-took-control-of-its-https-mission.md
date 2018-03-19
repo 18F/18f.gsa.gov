@@ -90,6 +90,6 @@ To resolve these cases, we reviewed the spirit and letter of OMB’s HTTPS polic
 
 ## Ever onward!
 
-Although NASA has made significant improvements to HTTPS and HSTS deployment to our public web services, we’re excited to get to work on applying the same technical rigor to our internal services. Additionally, NASA intends to eventually preload the \*.nasa.gov domain, fitting into the larger federal government effort to [preload federal .gov domains by default](https://cio.gov/automatic-https-enforcement-new-executive-branch-gov-domains/).
+Although NASA has made significant improvements to HTTPS and HSTS deployment to our public web services, we’re excited to get to work on applying the same technical rigor to our internal services. Additionally, NASA intends to eventually preload the \*.nasa.gov domain, fitting into the larger federal government effort to [preload federal .gov domains by default](https://www.cio.gov/2017/01/19/automatic-https-enforcement-new-executive-branch-gov-domains/).
 
 But most importantly, NASA looks forward to further collaboration with our federal and commercial partners. Privacy and security are complex problems, but the lessons learned through efforts like meeting the HTTPS-Only standard teach us how to make them surmountable. These challenges require coordinating smart minds at work across our government. By continuing to work together, NASA sees the potential to make important changes for the benefit of all.
