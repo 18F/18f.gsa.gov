@@ -13,7 +13,6 @@ description: "To celebrate Sunshine Week, we’re highlighting some groundbreaki
 image: /assets/blog/data-act-implementation/data-act-meeting.jpg
 ---
 
-
 To celebrate [Sunshine Week](http://www.sunshineweek.org/), we’re
 highlighting some groundbreaking open government work by the Department
 of the Treasury, one of 18F’s partner agencies.
@@ -41,7 +40,7 @@ project](http://fedspendingtransparency.github.io/act-ivity/2016/02/29/first-gov
 ![Representatives from the Department of Education, the Department of the Interior, the Department of the Treasury, and the Pension Benefit Guaranty Corporation gather for a sandbox testing session.]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-meeting.jpg)
 *Representatives from the Department of Education, the Department of the Interior, the Department of the Treasury, and the Pension Benefit Guaranty Corporation gather for a sandbox testing session.*
 
-##The DATA Act schema
+## The DATA Act schema
 
 The first example of this iterative work is the DATA Act schema, a
 standard format for agencies to use when reporting their financial data.
@@ -61,7 +60,7 @@ Office:
 Version 1.0 of the DATA Act schema will reflect the lessons learned from
 this early work.
 
-##The new USAspending.gov
+## The new USAspending.gov
 
 Federal spending information collected as part of the DATA Act will be
 available to the public online. The next version of what is now called
