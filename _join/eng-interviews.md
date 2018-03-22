@@ -24,7 +24,7 @@ If you're a developer applying to our engineering team, our interview process wi
 
 We know that the best way to tell if someone's a good engineer is to actually look at their code, so we'll want to see your work in action. You'll be given two options:
 
-1. Complete a short programming assignment. This'll be a realistic sort of task that someone in the role you're interviewing might face at work. For example, you might be given a messy data file and asked to produce a script that parses the data and produces some report. This exercise should take less than three hours. We prefer that you use Python, Ruby, JavaScript or Go for this exercise, but if you don't feel confidant in any of those languages we can probably accommodate another choice.
+1. Complete a short programming assignment. This'll be a realistic sort of task that someone in the role you're interviewing might face at work. For example, you might be given a messy data file and asked to produce a script that parses the data and produces some report. This exercise should take less than three hours. We prefer that you use Python, Ruby, JavaScript or Go for this exercise, but if you don't feel confident in any of those languages we can probably accommodate another choice.
 
 2. Submit a code sample you've written elsewhere to share with us and discuss. This is subject to a few conditions:
     - You must be allowed to share this code with us (so, nothing you've produced under NDA, etc.). Open source is best.
