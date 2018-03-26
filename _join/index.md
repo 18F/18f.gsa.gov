@@ -27,7 +27,15 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
-**We currently have no open positions at 18F.**
+<!-- **We currently have no open positions at 18F.** -->
+
+## Open position
+
+Links below will take you to the Technology Transformation Services join page to apply.
+ 
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-design-lead-gs15/">Office of Acq - UX Design Lead</a>
+</section>
 
 ----
 
