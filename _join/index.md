@@ -34,7 +34,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 Links below will take you to the Technology Transformation Services join page to apply.
  
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-design-lead-gs15/">Office of Acqusition - User Experience Design Lead</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-design-lead-gs15/">Office of Acquisition - User Experience Design Lead</a>
 </section>
 
 ----
