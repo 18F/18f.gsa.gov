@@ -27,14 +27,7 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
-----
-
-We partner with other federal agencies and within the General Services Administration (GSA) to build up digital innovation teams across government. Positions for both 18F and our partners across the government will be posted here. For positions outside 18F, we'll indicate the partner team or agency in the title and job description.
-
-18F is a part of the Technology Transformation Services (TTS) which houses the Office of Products and Programs (OPP), the Presidential Innovation Fellows (PIF), and the TTS Office of Acquisition.
-
-
-{% include open-positions.html %}
+**We currently have no open positions at 18F.**
 
 ----
 
