@@ -29,12 +29,12 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 <!-- **We currently have no open positions at 18F.** -->
 
-## Open position
+## Open positions
 
 Links below will take you to the Technology Transformation Services join page to apply.
  
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-design-lead-gs15/">Office of Acq - UX Design Lead</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-design-lead-gs15/">Office of Acqusition - User Experience Design Lead</a>
 </section>
 
 ----
