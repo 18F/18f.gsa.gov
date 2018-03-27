@@ -10,13 +10,12 @@ tags:
 - cloud.gov
 - web design system
 - federalist
-excerpt: ""
+excerpt: "When Performance.gov re-launched on February 12, it became one of hopefully many websites to use the full suite of the Technology Transformation Services’ (TTS) products and services, from hosting to design."
 ---
-
 
 _Amin Mehr is the Program Manager for Performance.gov and Lauren Anderson is a member of the Eagle Hill Consulting team that supports the Performance.gov site._
 
-When Performance.gov re-launched on February 12, it became one of hopefully many  websites to use the full suite of the Technology Transformation Services’ (TTS) products and services, from hosting to design. Our team identified four key benefits of using the stack, which we’ll explain below. But first, some background on Performance.gov.
+When Performance.gov re-launched on February 12, it became one of hopefully many websites to use the full suite of the Technology Transformation Services’ (TTS) products and services, from hosting to design. Our team identified four key benefits of using the stack, which we’ll explain below. But first, some background on Performance.gov.
 
 ## What is Performance.gov?
 
@@ -39,10 +38,10 @@ As a result, when the site launched, Performance.gov became one of the first fed
 
 The team found four key benefits associated with using the TTS technology stack:
 
-1. Save time and money. By using the TTS technology stack, the GSA and the federal government saved time and money that would have been spent on procurement, discovery, and research. We were able to cut our costs by more than half, which in a landscape of legacy operations and maintenance spending makes the product all that more worthwhile. 
-2. Avoid creating from scratch. These products and services are available so that federal agencies don’t need to build from scratch. For us, this meant we didn’t have to spend months creating any custom code. Since our team sits in the Office of Shared Services and Performance Improvement, we felt it made sense for us to use the same shared services we promote so we could confidently recommend other agencies and programs take a similar approach.
-3. Gain an invested partner. GSA not only provides support to other agencies, but uses the products for its own projects. When using TTS products, we were able to turn to a larger community of users to get quick answers to complex questions.
-4. Open source code makes projects, and teams, more resilient. The team built Performance.gov with open source code, which helps the site benefit from and contribute to a broader ecosystem of talent and information. Other development teams, including state and local agencies, can comment on or replicate our code. Other developers could also help us by adding code or functionality to Performance.gov. An open source build also insulates the success of the site from changes to the development team. Information is not proprietary, so the team can easily onboard and offboard team members. By the way, [here](https://github.com/GSA/InterimPerformance-Dot-Gov-2018) is our GitHub page in case you want to check out our code.
+1. **Save time and money.** By using the TTS technology stack, the GSA and the federal government saved time and money that would have been spent on procurement, discovery, and research. We were able to cut our costs by more than half, which in a landscape of legacy operations and maintenance spending makes the product all that more worthwhile. 
+2. **Avoid creating from scratch.** These products and services are available so that federal agencies don’t need to build from scratch. For us, this meant we didn’t have to spend months creating any custom code. Since our team sits in the Office of Shared Services and Performance Improvement, we felt it made sense for us to use the same shared services we promote so we could confidently recommend other agencies and programs take a similar approach.
+3. **Gain an invested partner.** GSA not only provides support to other agencies, but uses the products for its own projects. When using TTS products, we were able to turn to a larger community of users to get quick answers to complex questions.
+4. **Open source code makes projects, and teams, more resilient.** The team built Performance.gov with open source code, which helps the site benefit from and contribute to a broader ecosystem of talent and information. Other development teams, including state and local agencies, can comment on or replicate our code. Other developers could also help us by adding code or functionality to Performance.gov. An open source build also insulates the success of the site from changes to the development team. Information is not proprietary, so the team can easily onboard and offboard team members. By the way, [here](https://github.com/GSA/InterimPerformance-Dot-Gov-2018) is our GitHub page in case you want to check out our code.
 
 Finally, within days of launching Performance.gov, the team saw a significant increase in meaningful visits to the site, and we’ve continued to see an upward trend from our previous legacy site. An uptick in web metrics and positive reactions from our external stakeholders have validated our approach.
 
