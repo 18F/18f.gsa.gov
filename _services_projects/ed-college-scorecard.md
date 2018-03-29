@@ -7,7 +7,7 @@ image: /assets/blog/college-scorecard/college-scorecard-3.jpg
 image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
 tag: college scorecard
 expiration_date:
-github_repo: "[https://github.com/RTICWDT/college-scorecard](https://github.com/RTICWDT/college-scorecard)"
+github_repo: "[College Scorecard code](https://github.com/RTICWDT/college-scorecard)"
 project_url: "[collegescorecard.ed.gov](https://collegescorecard.ed.gov/)"
 permalink: /what-we-deliver/college-scorecard/
 redirect_from: /project/ed-college-scorecard/
@@ -28,6 +28,6 @@ Ultimately, we decided to build several tools that would help get the data to th
 -   An interactive website where students can browse data about affordability, graduation rates, and how much students earn after graduation.
 -   A data site that supports academics, journalists, and researchers who are exploring college outcomes.
 
-College Scorecard has become a go-to resource for students and provided the data for many other tools that guide students in their decision-making process — even Google has integrated the data into search results.
+College Scorecard has become a go-to resource for students and provided the data for [many other tools](https://github.com/RTICWDT/college-scorecard/wiki) that guide students in their decision-making process — even Google has integrated the data into search results.
 
 The process of building College Scorecard also had a profound effect on the Department of Education: their in-house digital service team has extended these iterative development and user-centered design techniques to other projects.

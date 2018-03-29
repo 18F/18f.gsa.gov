@@ -11,13 +11,16 @@ project_weight: 2
 tag: forest service
 expiration_date:
 github_repo:
-  - "[https://github.com/18F/bpa-fs-epermit-api](https://github.com/18F/bpa-fs-epermit-api)"
-  - "[https://github.com/18F/bpa-fs-epermit-intake](https://github.com/18F/bpa-fs-epermit-intake)"
-  - "[https://github.com/18F/bpa-fs-xmas-trees](https://github.com/18F/bpa-fs-xmas-trees)"
+  - "[Project repository](https://github.com/18F/fs-online-permitting)"
+  - "[U.S. Forest Service Permit Platform](https://github.com/18F/fs-permit-platform)"
+  - "[ePermit Middlelayer API](https://github.com/18F/fs-middlelayer-api)"
 project_url:
 learn_more:
 product_clients:
 resources:
+    - "[e-Permit API task order](https://github.com/18F/bpa-fs-epermit-api)"
+    - "[e-Permit intake task order](https://github.com/18F/bpa-fs-epermit-intake)"
+    - "[Christmas Tree task order](https://github.com/18F/bpa-fs-xmas-trees)"
 ---
 
 The U.S. Department of Agriculture’s Forest Service issues permits to

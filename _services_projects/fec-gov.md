@@ -10,7 +10,13 @@ image_accessibility: Screenshot of the FEC data explorer with stylized magnifyin
 project_weight: 5
 tag: fec.gov
 expiration_date:
-github_repo: "[https://github.com/18F/FEC](https://github.com/18F/FEC)"
+github_repo:
+    - "[General discussion forum](https://github.com/fecgov/fec)"
+    - "[openFEC: RESTful API](https://github.com/fecgov/openfec)"
+    - "[Code of Federal Regulations explorer](https://github.com/fecgov/fec-eregs)"
+    - "[Content management system](https://github.com/fecgov/fec-cms)"
+    - "[Proxy application](https://github.com/fecgov/fec-proxy)"
+    - "[Infrastructure management](https://github.com/fecgov/fec-infrastructure)"
 project_url: "[Federal Election Commission website](https://www.fec.gov/)"
 quote:
 ---
