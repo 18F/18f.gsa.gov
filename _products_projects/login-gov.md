@@ -11,7 +11,10 @@ project_weight: 4
 tag: identity
 expiration_date:
 github_repo:
-project_url: "[https://www.login.gov/](https://www.login.gov/)"
+    - "[Identity Management System](https://github.com/18F/identity-idp)"
+    - "[login.gov website code](https://github.com/18F/identity-site)"
+    - "[Style guide](https://github.com/18F/identity-style-guide)"
+project_url: "[login.gov](https://www.login.gov/)"
 resources: "[login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
 product_clients:
 - Customs and Border Protection

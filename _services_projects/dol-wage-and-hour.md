@@ -10,7 +10,7 @@ image_icon: folderwithclock.svg
 project_weight: 3
 tag: department of labor
 expiration_date:
-github_repo: "[https://github.com/18F/dol-whd-14c](https://github.com/18F/dol-whd-14c)"
+github_repo: "[Code for the 14(c) Web Application Tool](https://github.com/18F/dol-whd-14c)"
 project_url:
 learn_more:
 product_clients:

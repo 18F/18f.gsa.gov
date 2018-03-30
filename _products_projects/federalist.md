@@ -9,8 +9,10 @@ image_accessibility: "Abstract image of the Federalist Papers in bluescale"
 project_weight: 3
 tag: federalist
 expiration_date:
-github_repo: "[https://github.com/18F/federalist](https://cloud.gov/docs/ops/repos/)"
+github_repo:
+    - "[Federalist](https://github.com/18F/federalist)"
 project_url: "[federalist.18f.gov](https://federalist.18f.gov/)"
+resources: "[Documentation](https://federalist-docs.18f.gov/)"
 learn_more:
 product_clients:
 - Department of Education

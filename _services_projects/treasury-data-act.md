@@ -11,8 +11,11 @@ project_weight: 4
 tag: data act
 expiration_date:
 github_repo:
+   - "[USAspending.gov code](https://github.com/fedspendingtransparency/usaspending-website)"
+   - "[Data broker back end](https://github.com/fedspendingtransparency/data-act-broker-backend)"
+   - "[Additional DATA Act code repositories](https://github.com/fedspendingtransparency)"
 resources: "[Federal Spending Transparency collaboration space](https://pages.18f.gov/fedspendingtransparency.github.io/index.html)"
-project_url: "[beta.usaspending.gov](https://beta.usaspending.gov/#/)"
+project_url: "[USAspending.gov](https://www.usaspending.gov/#/)"
 ---
 
 The U.S. federal government spends $3.8 trillion every year, which is managed by the U.S. Department of the Treasury. For most people, it’s difficult to know exactly where that money goes.
