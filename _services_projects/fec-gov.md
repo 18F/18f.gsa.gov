@@ -25,7 +25,7 @@ The Federal Election Commission (FEC) regulates how candidates and political gro
 
 The FEC has published campaign finance data for decades, but their legacy website was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
 
-<div class="hww-blockquote">
+<div class="testimonial-blockquote">
   We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
     <span>- Alec Palmer, FEC’s Chief Information Officer</span>
 </div>

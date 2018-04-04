@@ -31,7 +31,7 @@ Federal agencies that develop web-based services have to meet certain infrastruc
 
 <div class="testimonial-blockquote">
   The new [<a href="https://www.fec.gov/">FEC.gov</a>] will save FEC approximately $1.2 million annually, reducing spend on internal systems the agency will retire once all the content can be moved over. I don’t have to buy servers anymore.
-    <span>- Alec Palmer, FEC’s Chief Information Officer</span>
+    <span>- Alec Palmer, FEC’s Chief Information Officer on hosting the new FEC.gov on cloud.gov</span>
 </div>
 
 <div class="small-caps">Approach</div>
