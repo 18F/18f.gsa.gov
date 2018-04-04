@@ -18,7 +18,7 @@ The process of applying for citizenship can be complicated and intimidating. Eve
 U.S. Citizenship and Immigration Services (USCIS) wanted to make the naturalization process more human focused and efficient, so they brought on 18F to help design the resources and forms that guide people through that process.
 
 <div class="funfact-blockquote">
-	Our work on the myUSCIS site has received two awards: one from USCIS and one from the Center for Plain Language. It was also mentioned as one of the <a href="https://www.govloop.com/community/blog/9-impressive-government-successes-2017/">9 most impressive government successes of 2017</a> by Govloop
+	18F's work on the myUSCIS site has received awards from USCIS and the Center for Plain Language. GovLoop called it one of the <a href="https://www.govloop.com/community/blog/9-impressive-government-successes-2017/">9 most impressive government successes of 2017</a>.
 </div>
 
 <div class="small-caps">Approach</div>
