@@ -20,6 +20,12 @@ Health and Human Services (HHS) is a federal agency, but many crucial HHS progra
 
 HHS encourages states to upgrade legacy systems by offering funding incentives, but many states struggle to manage risk and build usable systems while navigating federal and state contracting rules. HHS hired 18F to step in and help states set these projects up for success through the technology acquisition process.
 
+<div class="testimonial-blockquote">
+  Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed.
+    <span>- Monica Windom, Director Division of Public Assistance, Health and Social Services, State of Alaska</span>
+</div>
+
+
 <div class="small-caps">Approach</div>
 ### Reducing risk by breaking up contracts
 
