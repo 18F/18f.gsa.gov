@@ -32,7 +32,7 @@ Ultimately, we decided to build several tools that would help get the data to th
 College Scorecard has become a go-to resource for students and provided the data for [many other tools](https://github.com/RTICWDT/college-scorecard/wiki) that guide students in their decision-making process — even Google has integrated the data into search results.
 
 <div class="funfact-blockquote">
-	The day Collage Scorecard launched, 11 organizations were already using the data and API to enhance existing tools or build new products to better serve their customers
+	The day Collage Scorecard launched, 11 organizations were already using the data and API to enhance existing tools or build new products to better serve their customers.
 </div>
 
 The process of building College Scorecard also had a profound effect on the Department of Education: their in-house digital service team has extended these iterative development and user-centered design techniques to other projects.
