@@ -8,7 +8,7 @@ banner_cta: true
 
 18F partners with civilian and military federal agencies to help you deliver exceptional digital experiences that address your strategic initiatives. Work with 18F to build a strategy, and then execute it either with 18F’s technical experts or with a private sector procurement guided by our acquisitions staff. 
 
-<div class="hww-blockquote">
+<div class="testimonial-blockquote">
   We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology. Now, it’s not just IT; it’s educating the entire staff on the agile methodology.
     <span>- Federal Election Commission about the <a href="https://18f.gsa.gov/what-we-deliver/fec-gov/">new FEC.gov</a>.</span>
 </div>

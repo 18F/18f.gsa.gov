@@ -17,6 +17,11 @@ quote_source: "Kelly Bailey, Product Owner of CALC, Federal Acquisition Service"
 
 The General Services Administration (GSA) plays a central role in helping the rest of the federal government hire contractors to perform professional services. This process requires contracting officers to research past federal contracts to determine a fair hourly rate, which often involves manually searching through stacks of paper contracts to find old labor rates.
 
+<div class="testimonial-blockquote">
+  WOW — I saw your blog post announcement for the Contract Awarded Labor Category Tool (CALC) and all I gotta say is WOW! I am not sure why trumpets are not blaring, horns are not tooting and bells are not ringing! This is truly a great day...This tool will make the whole process a whole lot more accurate, easier and faster.
+    <span>- Email from CALC user</span>
+</div>
+
 <div class="small-caps">Approach</div>
 ### Stacked paper to searchable data
 

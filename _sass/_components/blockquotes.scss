@@ -72,7 +72,7 @@ p ~ .pquote:not(.pquote-single) {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
-.hww-blockquote {
+.testimonial-blockquote {
   font-size: 1em;
   width: 100%;
   margin: 3.5rem auto;
@@ -105,6 +105,20 @@ p ~ .pquote:not(.pquote-single) {
     margin-top: 1em;
   }
 
+}
+
+// Does not have the quote mark, use for facts and other information to highlight
+.funfact-blockquote {
+  font-size: 1em;
+  width: 100%;
+  margin: 3.5rem auto;
+  font-style: italic;
+  color: $color-dark;
+  padding: 1.2em 30px;
+  border-left: 8px solid $color-medium;
+  line-height: $banner-line-height;
+  position: relative;
+  background: $color-gray-lightest;
 }
 
 

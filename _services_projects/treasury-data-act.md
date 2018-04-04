@@ -22,6 +22,12 @@ The U.S. federal government spends $3.8 trillion every year, which is managed by
 
 The Digital Accountability and Transparency Act (DATA Act), which became law in 2014, requires that federal agencies adopt a common data standard so that agencies and the public can better understand how federal money is being spent. Treasury and the Office of Management and Budget are leading the implementation of the DATA Act, but they needed help developing the specifics of the new data standard and its technical implementation.
 
+<div class="testimonial-blockquote">
+  The commitment of the team and the participation of 18F subject matter experts actually simplified our job.  While many organizations publicly buy into the concept and value of Agile, this team demonstrated how it would succeed.  Our sponsor was committed, our product owners were engaged, and with our 18F Agile leaders helping to demonstrate best practice – our workstreams coordinated seamlessly.
+    <span>- Sherry L. Weir, 
+    	Kearney & Company, prime contractor on the DATA Act project</span>
+</div>
+
 <div class="small-caps">Approach</div>
 ### Stay flexible to stay ahead of schedule
 
