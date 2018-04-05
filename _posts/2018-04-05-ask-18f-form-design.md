@@ -20,15 +20,13 @@ _Ask 18F is an advice column that answers questions sent in by federal employees
 
 Form design is not just a User Interface (UI) or Visual Design question. A good form requires elements of [User Experience](https://uxplanet.org/10-rules-for-efficient-form-design-e13dc1fb0e03) (UX), [research](http://www.pewresearch.org/methodology/u-s-survey-research/questionnaire-design/), content, and development. It’s what you ask, how you ask it, what information you’re collecting, and what you intend to do with it. It’s also about how you build it, implement it, and store that information.
 
-For the UI design, I usually start from a boilerplate like the [U.S. Web Design System](https://designsystem.digital.gov/components/form-templates/) because a lot of best-practice principles are built in. It’s accessible and works on desktop and mobile. 
-
-When I design on a new form from scratch, I use principles from Luke Wroblewski’s book, Web Form Design: Filling in the Blanks. He also offers a [handy, free PDF resource](https://static.lukew.com/webforms_lukew.pdf), that I like to send to agency partners. 
+For the UI design, I usually start from a boilerplate like the [U.S. Web Design System](https://designsystem.digital.gov/components/form-templates/) because a lot of best-practice principles are built in. It’s accessible and works on desktop and mobile. When I design a new form from scratch, I use principles from Luke Wroblewski’s [Best Practices for Form Design](https://static.lukew.com/webforms_lukew.pdf). 
 
 For languages that read left to right and top to bottom, here are some simple ways to design a form that will generally help with reducing reading errors and decreasing the time it takes to complete:
 
 - **Align text and form elements to the left so a user's eyes don’t have to dart across their screen and arraign them in one vertical line.**
-	- Stack the labels on top of the form fields
-	- Align the primary call to action (usually `submit` or `next` button) to the left, underneath the forms and labels,
+	- Stack the labels on top of the form fields.
+	- Align the primary call to action (usually `submit` or `next` button) to the left, underneath the forms and labels.
 - **Make the form easy to fill out and _appear_ easy to fill out.**
 	- Reduce visual noise, clutter, and extraneous information.
 	- Use white space and generous vertical space between elements.
@@ -37,8 +35,8 @@ For languages that read left to right and top to bottom, here are some simple wa
 - **Make the form [accessible](https://a11yproject.com/checklist#forms).** 
 	- Don’t rely solely on color to indicate required fields or error messages.
 	- Make sure there is enough color contrast between the background and text.
-	- Use attributes like `tabindex` so user actions are keyboard-friendly instead of mouse to navigate through a form.
-	- Use tags like `<label>` so content types can be distinguished by a screen reader
+	- Use attributes like `tabindex` so user actions are keyboard-friendly instead of requiring a mouse to navigate through a form.
+	- Use tags like `<label>` so content types can be distinguished by a screen reader.
 	- Consider adding helper text above an input field so it can be read by a screen reader in a logical order.
 - **Make content a priority.**
 	- Keep questions to the point, and ordered logically.
@@ -48,24 +46,18 @@ For languages that read left to right and top to bottom, here are some simple wa
 	- Consider the input type you are using to collect responses (for example long form field vs. radio button vs. short form field vs. checkbox, etc.) 
 - **Keep it human-centered and test with your users!**
 
-You can also start off with an out-of-the-box solution like [Survey Monkey]( https://www.surveymonkey.com) or [Google forms](https://www.google.com/forms/about/) — a lot of research has gone into making those platforms successful. Also, nothing beats usability testing to make sure you’re designing a form for your specific user and business needs.
+You can also start off with a out-of-the-box solution like [Survey Monkey]( https://www.surveymonkey.com) or [Google forms](https://www.google.com/forms/about/) — a lot of research has gone into making those platforms successful. Also, nothing beats usability testing to make sure you’re designing a form for your specific user and business needs.
+
+Here is an example of a form that applies principles like text alignment, grouping, and typography hierarchy.
 
 <figure>
   <img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/advice/form.png" alt="An example of a form. Three sections all numbered from one to three. Each section has two text forms. At the bottom is a blue submit button and a cancel hyperlink that is red">
-  <figcaption>Here is an example of a form that applies principles like text alignment, grouping, and typography hierarchy</figcaption>
 </figure>
 
 #### Helpful links and examples:
-- [10 Rules For Efficient Form Design](https://uxplanet.org/10-rules-for-efficient-form-design-e13dc1fb0e03)
-- [Pew research methodology](http://www.pewresearch.org/methodology/u-s-survey-research/questionnaire-design/)
 - [Designing UX: forms](https://www.uxmatters.com/mt/archives/2017/05/designing-ux-forms.php)
 - [Designing more efficient forms: assistance and validation](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d)
-- [U.S. Web Design System](https://designsystem.digital.gov/components/form-templates/)
-- [Luke W’s free PDF resource](https://static.lukew.com/webforms_lukew.pdf)
-- [Typographic hierarchy](https://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636) 
 - [Plainlanguage.gov](https://www.plainlanguage.gov/)
-- [Survey Monkey]( https://www.surveymonkey.com)
-- [Google forms](https://www.google.com/forms/about/)
 - [FOIA’s request form](https://www.foia.gov/request/agency-component/25d63aa1-021a-4ff1-8ece-43fdea022601/#main) (based on [USWDS](https://designsystem.digital.gov/components/form-templates/), visual design by 18F’s Aviva Oskow): 
 - [A11y](https://a11yproject.com/)
 - [10 Best Practices for Designing User-Friendly Forms](https://www.uxmatters.com/mt/archives/2017/05/designing-ux-forms.php)
