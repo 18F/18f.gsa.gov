@@ -200,28 +200,27 @@ It really helps to have good pictures to help us highlight project work — but 
 
 **If possible:**
 
-1. Image should relate to the project title, the department, the process (in order of preference)
+1. Image should relate to the project title, the department, or the process (in order of preference)
 1. Show real users that benefit from this project
 1. Show a screenshot from the project
-1. Mix it up! look at the current project list do you see too many of the same type of image (e.g. mostly screenshots, mostly brainstorming sessions)
+1. Mix it up! Look at the current project list. Do you see too many of the same type of image (for example, mostly screenshots, mostly brainstorming sessions)
 
 **Consider accessibility and try to avoid images that:**
 
 * Are low-contrast
 * Have wording on them
 
-
 **Consider the audience (government employees and potential partners!) and try to avoid images with the following:**
 
-* Sensitive subject material (e.g. children when writing about Child Protective Services)
+* Sensitive subject material (for example, children when writing about Child Protective Services)
 * Uninteresting subjects
 * Super meta imagery (too much of a cognitive leap when relating to subject matter)
 
 **Size:**
 
-* Banner: size 1300x 866
+* Banner: Size 1300x866
 
 **Additional guidance:**
 
 * Look at images on site for ideas
-* Ask on #18f-branding, #visual-design, or #beta-18f-site
+* Ask in #18f-branding, #visual-design, or #18f-site
