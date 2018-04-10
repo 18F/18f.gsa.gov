@@ -15,6 +15,10 @@ github_repo: if there is one
 project_url: "[Page name](url)"
 project_weight: 2 (the higher number the higher on the What we deliver landing page)
 learn_more:
+github_repo: 
+- "[Page name](url)"
+- "[Page name](url)"
+- "[Page name](url)"
 product_clients:
 -
 -
@@ -23,12 +27,20 @@ resources:
 - "[Page name](url)"
 - "[Page name](url)"
 - "[Page name](url)"
-quote:
 
 ---
 
-Intro sentences or paragraphs.
+Intro sentences or paragraphs about project.
 
+=== Testimonial or fun fact ===
+<div class="testimonial-blockquote">
+  18F has helped us [something built] that lead to [insert impact]
+    <span>- [name], [position], [agency]</span>
+</div>
+
+<div class="funfact-blockquote">
+	The day [platform] launched, [x-number]organizations were already using the data and API to enhance existing tools or build new products to better serve their customers.
+</div>
 <div class="small-caps">Approach</div>
 ### Approach subtitle goes here
 
