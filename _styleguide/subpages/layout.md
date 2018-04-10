@@ -62,13 +62,13 @@ Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tre
 
 #### Add a project page
 1. Determine if the project is a service or a product and find the corresponding directory
-2. Create a new file within either `_products_projects` or `_servicess_projects` directory, named with the following format: `[agency acronym]-[project-name].md`.
+2. Create a new file within either the `_products_projects` or `_servicess_projects` directory and name it with the following format: `[agency acronym]-[project-name].md`.
 2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file. Here you can build out the page to include:
-  - main content on the project's background and 18F's approach
-  - the sidebar for at a glance information like the project's website or github repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
-  - testimonials or fun facts styling within the body of the page  
+  - Main content on the project's background and 18F's approach
+  - The sidebar for at-a-glance information like the project's website or GitHub repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
+  - Testimonials or fun facts styling within the body of the page  
 3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_services_projects.yml).
-4. If you are adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you are not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
+4. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
   ```yml
   image_icon: gavel.svg
   ```
