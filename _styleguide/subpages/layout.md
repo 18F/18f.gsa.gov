@@ -48,6 +48,13 @@ Attribute | Type | What it does
 `image_figcaption` | String | _(optional)_ A caption that will be displayed on top of the image
 `breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`. [View breadcrumb component]({{ site.baseurl }}/styleguide/components/#breadcumbs)
 
+### How we work page
+
+`/how-we-work` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components:
+
+- Project cards are placed at the bottom of the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.[View project cards component]({{ site.baseurl }}/styleguide/components/#project-cards)
+- Testimonal quote is used within the body of the content. Bringing the voices of our partner agencies front and center is a top priority. [View testimonial component]({{ site.baseurl }}/styleguide/components/#testimonials-and-fun-facts)
+
 ---
 
 ### Project page template
