@@ -194,7 +194,7 @@ To add items to the subnavigation define the subnavigation items directly within
 
 ### Testimonials and fun facts
 
-Testimonials and fun facts are used throughout the site to highlight the impact 18F has made with our partner agencies. You can find the styling used on the home page, how we work and various project pages. 
+Testimonials and fun facts are used throughout the site to highlight the impact 18F has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages. 
 
 {% capture testimonial_codeblock %}{% raw %}
 
@@ -213,7 +213,7 @@ Testimonials and fun facts are used throughout the site to highlight the impact 
 
 #### How to use
 
-- For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position and agency within the `<span>` tag. This bolds, adds color and removes italics to the text. 
+- For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position, and agency within the `<span>` tag. This bolds, adds color, and removes italics to the text. 
 - For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text. 
 
 {% endcapture %}
