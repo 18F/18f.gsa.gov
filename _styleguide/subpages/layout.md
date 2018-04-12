@@ -52,7 +52,7 @@ Attribute | Type | What it does
 
 `/how-we-work` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components:
 
-- Project cards are placed at the bottom of the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.[View project cards component]({{ site.baseurl }}/styleguide/components/#project-cards)
+- Project cards are placed at the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.[View project cards component]({{ site.baseurl }}/styleguide/components/#project-cards)
 - Testimonal quote is used within the body of the content. Bringing the voices of our partner agencies front and center is a top priority. [View testimonial component]({{ site.baseurl }}/styleguide/components/#testimonials-and-fun-facts)
 
 ---
