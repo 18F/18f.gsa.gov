@@ -1,5 +1,5 @@
 ---
-title: "So you’re a Product Owner..."
+title: "So, you’re a Product Owner..."
 date: 2018-04-17
 authors:
 - hannah-kane
