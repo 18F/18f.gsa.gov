@@ -121,5 +121,40 @@ p ~ .pquote:not(.pquote-single) {
   background: $color-gray-lightest;
 }
 
+//Home page testimonial
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
+.home-testimonial {
+  font-size: 23px;
+  width: 100%;
+  margin: 3.5rem auto;
+  font-style: italic;
+  color: $color-gray;
+  padding: 1.2em 30px 1.2em 75px;
+  line-height: $banner-line-height;
+  position: relative;
+
+  ::before {
+    content: '\201C';
+    color: $color-medium;
+    font-size: 5em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+
+  ::after {
+    content: '';
+  }
+
+  span {
+    display: block;
+    color: $color-medium;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+}
