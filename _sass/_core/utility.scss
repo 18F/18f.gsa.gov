@@ -34,6 +34,10 @@ svg {
   padding-bottom: $paragraph-margins-thick;
 }
 
+.pad-right-left {
+  padding-right: 9%;
+  padding-left: 9%;
+}
 .small-caps {
   @include small-caps;
   margin-top: $section-margins;
