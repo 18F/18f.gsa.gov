@@ -52,9 +52,6 @@ TEMPLATE:
   <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-product-manager/">Product Manager</a>
 </section>
 
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/strategist-gs15/">Strategist</a>
-</section>
 
 ----
 
