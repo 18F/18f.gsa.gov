@@ -41,15 +41,7 @@ TEMPLATE:
 -->
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-ux-designer/">UX Designer</a>
-</section>
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/consulting-software-engineer/">Software Engineer</a>
-</section>
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-product-manager/">Product Manager</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-visual-designer/">Visual Designer</a>
 </section>
 
 
