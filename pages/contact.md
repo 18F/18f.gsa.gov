@@ -57,6 +57,6 @@ To learn more about how we work with agencies, read up on our [past projects]({{
     <p>Receive occassional updates about our work and news about the civic tech community.</p>
   </div>
   <div class="usa-width-one-half">
-    {% include newsletter.html %}
+    <a class="usa-button usa-button-marginless" href="https://goo.gl/forms/OZfJDUBSJTeNKFAo1">Subscribe</a>
   </div>
 </div>
