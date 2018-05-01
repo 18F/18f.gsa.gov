@@ -48,6 +48,13 @@ Attribute | Type | What it does
 `image_figcaption` | String | _(optional)_ A caption that will be displayed on top of the image
 `breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`. [View breadcrumb component]({{ site.baseurl }}/styleguide/components/#breadcumbs)
 
+### How we work page
+
+`/how-we-work` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components:
+
+- Project cards are placed at the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.[View project cards component]({{ site.baseurl }}/styleguide/components/#project-cards)
+- Testimonal quote is used within the body of the content. Bringing the voices of our partner agencies front and center is a top priority. [View testimonial component]({{ site.baseurl }}/styleguide/components/#testimonials-and-fun-facts)
+
 ---
 
 ### Project page template
@@ -61,14 +68,17 @@ Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tre
 
 
 #### Add a project page
-1. Create a new file within the `_projects` directory, named with the following format: `[agency acronym]-[project-name].md`.
-2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file.
-3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_projects.yml).
-4. If you are adding an image, make sure to [check out the wiki](https://github.com/18F/18f.gsa.gov/wiki/Finding-the-right-image-for-a-project-page). If you are not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
+1. Determine if the project is a service or a product and find the corresponding directory
+2. Create a new file within either the `_products_projects` or `_servicess_projects` directory and name it with the following format: `[agency acronym]-[project-name].md`.
+2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file. Here you can build out the page to include:
+  - Main content on the project's background and 18F's approach
+  - The sidebar for at-a-glance information like the project's website or GitHub repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
+  - Testimonials or fun facts styling within the body of the page  
+3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_services_projects.yml).
+4. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
   ```yml
   image_icon: gavel.svg
   ```
-5. Populate the sidebar for at a glance information. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter.
 
 ---
 

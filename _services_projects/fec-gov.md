@@ -10,7 +10,13 @@ image_accessibility: Screenshot of the FEC data explorer with stylized magnifyin
 project_weight: 5
 tag: fec.gov
 expiration_date:
-github_repo: "[https://github.com/18F/FEC](https://github.com/18F/FEC)"
+github_repo:
+    - "[General discussion forum](https://github.com/fecgov/fec)"
+    - "[openFEC: RESTful API](https://github.com/fecgov/openfec)"
+    - "[Code of Federal Regulations explorer](https://github.com/fecgov/fec-eregs)"
+    - "[Content management system](https://github.com/fecgov/fec-cms)"
+    - "[Proxy application](https://github.com/fecgov/fec-proxy)"
+    - "[Infrastructure management](https://github.com/fecgov/fec-infrastructure)"
 project_url: "[Federal Election Commission website](https://www.fec.gov/)"
 quote:
 ---
@@ -18,6 +24,11 @@ quote:
 The Federal Election Commission (FEC) regulates how candidates and political groups raise and spend money in federal elections.
 
 The FEC has published campaign finance data for decades, but their legacy website was dense and hard to use. They wanted to make it easier for journalists, transparency groups, and members of the public to use their data and learn how money flows through federal campaigns.
+
+<div class="testimonial-blockquote">
+  We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
+    <span>- Alec Palmer, FEC’s Chief Information Officer</span>
+</div>
 
 <div class="small-caps">Approach</div>
 ### Start small, learn together

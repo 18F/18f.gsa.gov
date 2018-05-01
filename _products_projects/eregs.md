@@ -11,11 +11,15 @@ image_icon:
 tag: eregulations
 expiration_date:
 github_repo:
-project_url: "[eRegulations website](https://eregs.github.io/contact/)"
+    - "[eRegulations platform repositories](https://github.com/eregs)"
+    - "[Bureau of Alcohol, Tobacco, Firearms and Explosives eRegulations code](https://github.com/18F/atf-eregs)"
+    - "[Office of Management and Budget eRegulations code](https://github.com/18F/omb-eregs)"
+    - "[Federal Election Commission eRegulations code](https://github.com/fecgov/fec-eregs)"
+project_url: "[eRegulations website](https://eregs.github.io/)"
 product_clients:
 - Bureau of Alcohol, Tobacco, Firearms and Explosives
 - Environmental Protection Agency
-- Federal Elections Commission
+- Federal Election Commission
 ---
 
 Federal regulations are often dense and filled with terminology that can make them difficult to read and interpret. Even seasoned government employees can have trouble deciphering these regulations, and gathering public comments on changes is often difficult and time-consuming.
