@@ -7,7 +7,7 @@ excerpt: Moving critical crime data to an interactive website that includes an o
 image: /assets/blog/fbi-crime-data/fbi-hero.png
 image_accessibility: "Crime data graphs laid over a map of the U.S."
 image_icon:
-project_weight: 2
+project_weight: 10
 tag: fbi
 expiration_date:
 github_repo:

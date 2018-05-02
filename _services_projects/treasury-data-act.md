@@ -7,7 +7,7 @@ excerpt: Implementing the Digital Accountability and Transparency Act with one o
 image: /assets/img/projects/data-act-better-data.jpg
 image_accessibility: "Data Act logo alongside the words Better Data"
 image_icon:
-project_weight: 4
+project_weight: 11
 tag: data act
 expiration_date:
 github_repo:

@@ -11,6 +11,7 @@ github_repo: "[College Scorecard code](https://github.com/RTICWDT/college-scorec
 project_url: "[collegescorecard.ed.gov](https://collegescorecard.ed.gov/)"
 permalink: /what-we-deliver/college-scorecard/
 redirect_from: /project/ed-college-scorecard/
+project_weight: 4
 ---
 
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.

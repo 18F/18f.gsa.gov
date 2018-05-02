@@ -7,7 +7,7 @@ excerpt: Using prototypes and modular contracting to help the Forest Service buy
 image: /assets/blog/forrest-service/xmas-tree-permit.png
 image_accessibility:
 image_icon:
-project_weight: 2
+project_weight: 8
 tag: forest service
 expiration_date:
 github_repo:

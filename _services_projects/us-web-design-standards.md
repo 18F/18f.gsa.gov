@@ -7,7 +7,7 @@ excerpt: A library of design components that can help developers quickly make tr
 image: /assets/blog/web-design-standards/wds-home-new-2x.png
 image_accessibility: Image of designed typography and headers 
 image_icon:
-project_weight: 2
+project_weight: 7
 tag: web design system
 expiration_date:
 github_repo:
