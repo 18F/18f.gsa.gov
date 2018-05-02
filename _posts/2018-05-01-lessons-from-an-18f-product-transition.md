@@ -18,8 +18,8 @@ Natural Resources Revenue.*
 
 Rewind to July 2014: 18F was embarking on one of its earliest partner
 engagements with the Department of the Interior’s Office of Natural
-Resources Revenue (ONRR). ONRR sought to build an interactive, open data
-site to support the department’s participation in the [Extractive
+Resources Revenue (ONRR). ONRR sought to build an [interactive, open data
+site](https://revenuedata.doi.gov/) to support the department’s participation in the [Extractive
 Industries Transparency Initiative](https://eiti.org/) (EITI). The
 project served as an early model for 18F’s style of collaboratively
 building digital products
