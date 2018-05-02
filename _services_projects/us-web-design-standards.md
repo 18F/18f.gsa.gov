@@ -4,9 +4,9 @@ title: A design system for the federal government
 subtitle: Building trust through consistency
 permalink: /what-we-deliver/us-web-design-system/
 excerpt: A library of design components that can help developers quickly make trustworthy, accessible, and consistent digital government services.
-image:
-image_accessibility:
-image_icon: monitor.svg
+image: /assets/blog/web-design-standards/wds-home-new-2x.png
+image_accessibility: Image of designed typography and headers 
+image_icon:
 project_weight: 2
 tag: web design system
 expiration_date:

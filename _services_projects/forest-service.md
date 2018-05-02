@@ -4,7 +4,7 @@ title: Moving land permits online
 subtitle: Easing access to public lands
 permalink: /what-we-deliver/forest-service/
 excerpt: Using prototypes and modular contracting to help the Forest Service buy an online permit system.
-image:
+image: /assets/blog/forrest-service/xmas-tree-permit.png
 image_accessibility:
 image_icon:
 project_weight: 2
