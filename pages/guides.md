@@ -2,11 +2,11 @@
 title: Guides
 permalink: /guides/
 layout: primary
-lead: These help us bring standards and principles into our day-to-day work.
+lead: Principles and standards that shape our work
 banner_cta: true
 ---
 
-Below are a number of technical guides we've created for 18F. They help us bring these principles into our day-to-day work and may be helpful if your team would like to adopt similar methods. These guides, and all of 18F's work, are in the [worldwide public domain](https://github.com/18F/18f.gsa.gov/blob/master/LICENSE.md). You are free to copy and adapt them as you choose.
+18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day work.
 
 <div class="page-guides">
   <div class="usa-grid-full graphic-row">
@@ -66,3 +66,7 @@ Below are a number of technical guides we've created for 18F. They help us bring
     </div>
   </div>
 </div>
+
+Beyond helping 18F staff do their best work, we hope these guides will inspire other federal agencies to adopt new practices. 18F’s projects with other federal agencies show that these techniques can help projects stay within budget, provide excellent value to the public, and fulfill federal rules.
+
+These guides, and all of 18F's work, are in the [worldwide public domain](https://github.com/18F/18f.gsa.gov/blob/master/LICENSE.md). You are free to copy and adapt them as you choose. If you see something amiss or want to suggest a change, there are links at the bottom of each guide to help you contribute.
