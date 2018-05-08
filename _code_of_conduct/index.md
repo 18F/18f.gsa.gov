@@ -8,15 +8,13 @@ subnav_items:
   - text: Introduction
     permalink: /code-of-conduct/#introduction
   - text: What we strive for
-    permalink: /code-of-conduct/##what-we-strive-for
+    permalink: /code-of-conduct/#what-we-strive-for
   - text: Unacceptable behavior
     permalink: /code-of-conduct/#unacceptable-behavior
   - text: Reporting violations
     permalink: /code-of-conduct/#reporting-violations
   - text: Credits
     permalink: /code-of-conduct/#credits
-  - text: Version
-    permalink: /code-of-conduct/#version
 ---
 
 # The Technology Transformation Services (TTS) Code of Conduct
