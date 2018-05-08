@@ -108,7 +108,3 @@ Laws and Policies Concerning Workplace Harassment:
 - [Laws enforced by the Equal Employment Opportunity Commission](https://www.eeoc.gov/laws/statutes/index.cfm)
 - [Types of Discrimination prohibited by law](https://www.eeoc.gov/laws/types/)
 - [New and proposed regulations](https://www.eeoc.gov/laws/regulations/index.cfm)
-
-## Version
-
-Approved May 1, 2018 | Published May 7, 2018
