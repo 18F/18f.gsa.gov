@@ -19,7 +19,7 @@ gridless: true
   <section class="usa-section">
     <div class="usa-width-two-thirds">
       <h3> Services </h3>
-      <p>We partner with federal agencies to build, buy, and share digital services that improve the user experience of government. With help from 18F, agencies have moved paper processes online, increased data access, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples:</p>
+      <p>We partner with federal agencies to build, buy, and share digital services. With help from 18F, agencies have moved paper processes online, increased data access, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples:</p>
     </div>
   </section>
 </div>
