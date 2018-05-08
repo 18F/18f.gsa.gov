@@ -12,9 +12,9 @@ published: true
 
 [Introduction](#introduction)
 
-[What We Strive For](#what-we-strive-for)
+[What we strive for](#what-we-strive-for)
 
-[Unacceptable Behavior](#unacceptable-behavior)
+[Unacceptable behavior](#unacceptable-behavior)
 
 [Reporting](#reporting-violations)
 
