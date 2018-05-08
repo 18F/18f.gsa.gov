@@ -6,7 +6,7 @@ permalink: /what-we-deliver/myuscis/
 redirect_from: /project/dhs-myuscis/
 excerpt: Resources and guides for U.S. Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
 image: /assets/img/home/hero-immigration.jpg
-image_accessibility: "New citizens with their hands raised for the citizenship oath at a naturalization ceremony"
+image_accessibility: New citizens with their hands raised for the citizenship oath at a naturalization ceremony
 tag: uscis
 project_url: "[my.uscis.gov](https://my.uscis.gov/)"
 github_repo:

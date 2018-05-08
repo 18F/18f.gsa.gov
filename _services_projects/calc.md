@@ -5,7 +5,7 @@ subtitle: Streamlining a critical contracting task
 permalink: /what-we-deliver/calc/
 excerpt: An efficient way for contracting officers to search past government contracts for fair hourly rates.
 image: /assets/img/projects/calc.png
-image_accessibility:
+image_accessibility: Blue bar graph of various wage estimates
 image_icon:
 tag: calc
 expiration_date:

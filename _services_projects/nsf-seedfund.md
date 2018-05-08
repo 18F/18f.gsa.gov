@@ -5,7 +5,7 @@ subtitle: Communicating with tech entrepreneurs
 permalink: /what-we-deliver/seed-fund/
 excerpt: Rebranding with well-tested content and design to better communicate with tech entrepreneurs.
 image: /assets/blog/nsf/seedfund-nsf-gov.png
-image_accessibility:
+image_accessibility: Screenshot of seedfund website
 image_icon:
 project_weight: 6
 tag: national science foundation

@@ -4,7 +4,7 @@ title: Turning data into informed choices
 subtitle: Reliable information for big decisions
 excerpt: A powerful data tool that allows students and their families to assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
-image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
+image_accessibility: Grayscale photograph of eleven people meeting in small groups during a workshop
 tag: college scorecard
 expiration_date:
 github_repo: "[College Scorecard code](https://github.com/RTICWDT/college-scorecard)"

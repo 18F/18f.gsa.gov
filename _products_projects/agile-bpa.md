@@ -4,9 +4,9 @@ title: Streamlined software procurement
 subtitle: Contractors ready for modern development
 permalink: /what-we-deliver/agile-bpa/
 excerpt: A group of pre-vetted vendors ready to help agencies use agile development techniques to build digital services.
-image:
-image_accessibility:
-image_icon: folderwithclock.svg
+image: /assets/img/projects/scrumboardimage.jpg
+image_accessibility: Stylized scrum board. Three blue columns with various sticky notes in each column.
+image_icon: 
 tag: agile bpa
 expiration_date:
 github_repo:
