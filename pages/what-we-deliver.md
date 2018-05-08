@@ -19,7 +19,7 @@ gridless: true
   <section class="usa-section">
     <div class="usa-width-two-thirds">
       <h3> Services </h3>
-      <p>We partner with federal agencies to build, buy, and share digital services that improve the user experience of government. With help from 18F, agencies have moved manual paper processes online, greatly increased data access and usability, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples of the projects we’ve worked on with more than 50 offices and agencies.</p>
+      <p>We partner with federal agencies to build, buy, and share digital services that improve the user experience of government. With help from 18F, agencies have moved paper processes online, increased data access, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples:</p>
     </div>
   </section>
 </div>
@@ -49,7 +49,7 @@ gridless: true
   <section class="usa-section">
     <div class="usa-width-two-thirds">
     <h3> Products </h3>
-     <p>In addition to 18F’s custom services, we also operate a number of products that agencies can use to reduce costs and improve the security and usability of their services. These products work together to make building and releasing systems easier, and they can integrate with your existing services.</p>
+     <p>In addition to 18F’s custom services, we also operate products that you can use to reduce costs and improve the security and usability of your services.</p>
    </div>
  </section>
 </div>
