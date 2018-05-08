@@ -6,7 +6,7 @@ lead: Principles and standards that shape our work
 banner_cta: true
 ---
 
-18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day work.
+18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. **Below are the technical guides that bring those principles into our day-to-day work.**
 
 <div class="page-guides">
   <div class="usa-grid-full graphic-row">

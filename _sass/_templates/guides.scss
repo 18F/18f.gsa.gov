@@ -8,20 +8,22 @@
 
     @include media($medium-screen) {
       @include span-columns(3);
+      width: 30%;
     }
   }
 
   .graphic-row {
     &:first-of-type {
       @include media($medium-screen) {
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
       }
     }
 
     &:last-of-type {
       .graphic-list-link {
         @include media($medium-screen) {
-          margin-bottom: 0;
+          margin-bottom: 2rem;
         }
       }
     }
