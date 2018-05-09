@@ -4,10 +4,10 @@ title: Designing to reach your audience
 subtitle: Communicating with tech entrepreneurs
 permalink: /what-we-deliver/seed-fund/
 excerpt: Rebranding with well-tested content and design to better communicate with tech entrepreneurs.
-image:
-image_accessibility:
+image: /assets/blog/nsf/seedfund-nsf-gov.png
+image_accessibility: Screenshot of seedfund website
 image_icon:
-project_weight: 2
+project_weight: 6
 tag: national science foundation
 expiration_date:
 github_repo:
