@@ -4,13 +4,14 @@ title: Turning data into informed choices
 subtitle: Reliable information for big decisions
 excerpt: A powerful data tool that allows students and their families to assess colleges and universities.
 image: /assets/blog/college-scorecard/college-scorecard-3.jpg
-image_accessibility: "Grayscale photograph of eleven people meeting in small groups during a workshop"
+image_accessibility: Grayscale photograph of eleven people meeting in small groups during a workshop
 tag: college scorecard
 expiration_date:
 github_repo: "[College Scorecard code](https://github.com/RTICWDT/college-scorecard)"
 project_url: "[collegescorecard.ed.gov](https://collegescorecard.ed.gov/)"
 permalink: /what-we-deliver/college-scorecard/
 redirect_from: /project/ed-college-scorecard/
+project_weight: 4
 ---
 
 Higher education may be the single most important investment students can make in their futures, but finding reliable information about affordability and value can be difficult. The Department of Education wanted to bring together data from several agencies to help students make informed choices about what school to attend.
