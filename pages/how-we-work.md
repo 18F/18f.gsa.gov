@@ -13,7 +13,7 @@ banner_cta: true
 
 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services that address your initiatives.
 
-18F works with partners that have federal funding and, as a cost recoverable office, **we’re required to charge for our work.** We break projects into two stages: Path Analysis, then Experiment and Iterate.
+**18F works with partners that have federal funding and, as a cost recoverable office, we’re required to charge for our work.** We break projects into two stages: Path Analysis, then Experiment and Iterate.
 
 ## Step 1: Path Analysis
 
@@ -23,11 +23,7 @@ Details:
 - Typically $175,000 - $195,000
 - 1 Path Analysis per project
 
-18F can help you make an informed, confident decision about how to address your technology problems. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, features to shelve, and the best ways to deliver value to your users. Each Path Analysis is customized to the needs of an agency, with the **goal of moving you from identifying a problem to working on a solution.**
-
-<div class="usa-grid-line-hww"></div>
-
-Do you have a project that needs technical expertise and an innovative strategy to move forward? **Email us at [inquiries18F@gsa.gov](mailto: inquiries18F@gsa.gov), and we’ll set up a meeting.**
+18F can help you make an informed, confident decision about how to address your technology problems. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. Each Path Analysis is customized to the needs of an agency, with the **goal of moving you from identifying a problem to working on a solution.**
 
 ## Step 2: Experiment & Iterate
 
@@ -38,5 +34,9 @@ Details:
 - Flexible number of phases based on project needs
 
 Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on investigating user needs, building a working product, or preparing your team to take over development. This model allows you to **stay in control of your budget and remain flexible.**
+
+<div class="usa-grid-line-hww"></div>
+
+Do you have a project that needs technical expertise and an innovative strategy to move forward? **Email us at [inquiries18F@gsa.gov](mailto: inquiries18F@gsa.gov), and we’ll set up a meeting.**
 
 ### Here are a couple of projects we’ve built with federal agencies using a Path Analysis followed by Experiment & Iterate phases.
