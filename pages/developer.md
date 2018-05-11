@@ -37,7 +37,7 @@ The [OpenFEC API](https://api.open.fec.gov/developers) is the first RESTful API 
 
 ### /Developer Program
 
-The [/Developer Program](http://18f.github.io/API-All-the-X/) is a suite of tools and resources to assist in the production and management of government APIs. The information is available to all and can be readily repurposed to the needs of individual agencies.  Furthermore, the program includes various options for direct support which are available to any federal agency. Learn more from the [blog post announcing the program]({{ site.baseurl }}/2014/05/29/announcing-the-developer-program-a-new-hub-for/).
+The [/Developer Program](https://api-all-the-x.18f.gov/) is a suite of tools and resources to assist in the production and management of government APIs. The information is available to all and can be readily repurposed to the needs of individual agencies.  Furthermore, the program includes various options for direct support which are available to any federal agency. Learn more from the [blog post announcing the program]({{ site.baseurl }}/2014/05/29/announcing-the-developer-program-a-new-hub-for/).
 
 ### api.data.gov
 
