@@ -44,7 +44,7 @@ the team discovered that founder stories and data visualizations didn’t
 perform as well as a short text list of NSF-funded companies.
 
 A separate initiative that funds the NSF program changed the program
-name to America’s Seed Fun. The NSF team took their research and the new
+name to America’s Seed Fund. The NSF team took their research and the new
 name to create “America’s Seed Fund powered by NSF.” The new website
 used concise language and bold design to speak directly to the target
 audience. The website also surfaced features of the NSF program that
