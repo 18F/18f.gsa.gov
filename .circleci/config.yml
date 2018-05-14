@@ -7,6 +7,8 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: dev
     steps:
       - checkout
+      - run: bundle install
+      - run: npm install
       - run: npm run test
       - run: npm run htmlproofer
       - run: bundle exec rspec
