@@ -1,4 +1,7 @@
+[![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov.svg?style=svg)](https://circleci.com/gh/18F/18f.gsa.gov)
+
 [![Code Climate](https://codeclimate.com/github/18F/18f.gsa.gov/badges/gpa.svg)](https://codeclimate.com/github/18F/18f.gsa.gov) [![Test Coverage](https://codeclimate.com/github/18F/18f.gsa.gov/badges/coverage.svg)](https://codeclimate.com/github/18F/18f.gsa.gov/coverage)
+
 
 # 18F’s flagship website
 
