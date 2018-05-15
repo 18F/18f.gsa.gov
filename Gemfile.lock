@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/jekyll/jekyll-archives.git
+  remote: https://github.com/jekyll/jekyll-archives.git
   revision: 112c508031acf3cf1d9024b005f99b2752133769
   ref: 112c508
   specs:
