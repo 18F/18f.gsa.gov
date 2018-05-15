@@ -24,10 +24,6 @@ The [Discovery API](https://discovery.gsa.gov/docs/) drives the [Discovery Marke
 
 The [FOIA Modernization API](http://foia-hub.readthedocs.org/en/latest/api.html) lists all agencies for whom a FOIA request can be submitted.  It also includes components within those agencies that are large enough (and well known enough) to have their own FOIA system.
 
-### Hub
-
-The [Hub API](https://18f.gsa.gov/hub/api/) provides web services for the [18F Hub](https://18f.gsa.gov/hub/), a repository of team and project information ([more details here]({{ site.baseurl }}/2014/12/23/hub/)).
-
 
 ### OpenFEC
 
