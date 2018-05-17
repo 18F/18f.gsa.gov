@@ -27,16 +27,20 @@ We’re a remote-first team with offices in DC, New York, Chicago, and San Franc
 
 If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
-**We currently have no open positions at 18F.** 
+## Open positions
 
-<!-- ## Open positions -->
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://apply.pif.gov/">2018 Fall Presidential Innovation Fellowship</a>
+</section> 
+
+<!--**We currently have no open positions at 18F.**   -->
 
 <!-- Links below will take you to the Technology Transformation Services join page to apply. -->
 
 <!-- 
 TEMPLATE:
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="LINK">JOB TITLE</a>
+  <a class="usa-button usa-button-secondary" href="https://apply.pif.gov/">JOB TITLE</a>
 </section> 
 -->
 
