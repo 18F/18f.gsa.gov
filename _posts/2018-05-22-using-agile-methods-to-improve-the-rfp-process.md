@@ -1,6 +1,6 @@
 ---
 title: "Using agile methods to improve the RFP process"
-date: 2018-05-21
+date: 2018-05-22
 authors:
 - randy-hart
 - mheadd
