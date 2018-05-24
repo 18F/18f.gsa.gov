@@ -13,7 +13,7 @@ them and what the future looks like for them. So, we asked a few of our
 partner agencies to talk about their experience."
 ---
 
-18F has long espoused the benefits of using open source technologies and
+18F has long espoused the benefits of using open source technologies and,
 more broadly, the value of working in the open. Our [open source
 policy](https://18f.gsa.gov/open-source-policy/) that is included in
 all our work includes:
@@ -129,6 +129,7 @@ negatives.
 to continue to develop and enhance the National FOIA Portal by working
 in the open going forward.
 
+---
 
 Using open source code and working in the open isn’t something just 18F
 or GSA are doing. Other agencies are working this way too; you can find
