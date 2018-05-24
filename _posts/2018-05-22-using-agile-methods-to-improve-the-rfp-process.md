@@ -10,7 +10,7 @@ tags:
 - procurement
 - state and local practice
 excerpt: "The process of developing and issuing RFPs is often viewed as
-a one off - a special activity that occur infrequently and in isolation.
+a one off - a special activity that occurs infrequently and in isolation.
 What if we applied the principles of iteration and continuous
 improvement to the way that RFPs are developed?"
 ---
