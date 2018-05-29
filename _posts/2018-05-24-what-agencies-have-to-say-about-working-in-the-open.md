@@ -63,8 +63,8 @@ to a partnership with 18F. Once the project began, we established a
 monthly update with the CIO to review how the open source project was
 progressing.
 
-**Department of the Interior’s Office of Natural Resources Revenue**: Our Leadership was supportive of open source code because it aligned
-with the EITI Principles and with the last administration’s pledge of
+**Department of the Interior’s Office of Natural Resources Revenue**: Our leadership was supportive of open source code because it aligned
+with the EITI Principles and with the administration’s pledge of
 a more transparent, participatory, and collaborative government. It
 promotes increased transparency, greater accountability, and good
 governance; and builds trust.
