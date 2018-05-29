@@ -34,14 +34,6 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 </section> 
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/consulting-software-engineer-gs15/">18F Consulting Software Engineer</a>
-</section> 
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-user-experience-designer-gs15/">18F User Experience Designer</a>
-</section> 
-
-<section class="usa-grid-full">
   <a class="usa-button usa-button-secondary" href="https://apply.pif.gov/">2018 Fall Presidential Innovation Fellowship</a>
 </section> 
 
