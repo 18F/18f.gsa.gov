@@ -58,4 +58,9 @@ $(function (){
   $('#button-reset').on('click', function () {
     newsletterForm.reset();
   });
+  
+
+  $('.search-interface').on("submit", function(){
+    $("#search-loading").show();
+  })
 });

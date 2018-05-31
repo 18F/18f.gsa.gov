@@ -32,7 +32,3 @@ function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
     }
   });
 }
-
-$('.search-interface').on("submit", function(){
-  $("#search-loading").show();
-})
