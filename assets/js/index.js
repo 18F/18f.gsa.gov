@@ -1,3 +1,4 @@
+/*eslint-env jquery*/
 $(function (){
   // Onclick window location handler
   $('.card-link').on('click', function(e) {
