@@ -30,6 +30,10 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 ## Open positions
 
 <section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/18f-product-manager/">18F Product Manager</a>
+</section> 
+
+<section class="usa-grid-full">
   <a class="usa-button usa-button-secondary" href="https://apply.pif.gov/">2018 Fall Presidential Innovation Fellowship</a>
 </section> 
 
