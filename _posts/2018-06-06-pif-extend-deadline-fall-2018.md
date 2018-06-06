@@ -59,6 +59,6 @@ from around the nation for this prestigious and highly competitive
 opportunity. To date, these fellows have joined more than 30 government
 agencies for tours of duty.
 
-If you're an entrepreneur, data scientist, designer, and other type of technologist,
+If you're an entrepreneur, data scientist, designer, or another type of technologist,
 **[apply for the Fall 2018 cohort](https://apply.pif.gov/)
 by 11:59 p.m. EST on June 24.**
