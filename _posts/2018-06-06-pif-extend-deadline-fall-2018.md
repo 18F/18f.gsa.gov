@@ -44,7 +44,7 @@ The PIF program pairs talented problem solvers, thought leaders, and
 innovators with top civil servants and change makers working at the
 highest levels of the federal government. Fellows in the Fall 2018
 cohort will take on projects selected by the PIF program from agencies
-all across the government. Some of the perspective roles include chief
+all across the government. Some of the prospective roles include chief
 data officer at the State Department and chief digital officer for the
 U.S. Marines Corps.
 
@@ -61,4 +61,4 @@ agencies for tours of duty.
 
 If you're an entrepreneur, data scientist, designer, or another type of technologist,
 **[apply for the Fall 2018 cohort](https://apply.pif.gov/)
-by 11:59 p.m. EST on June 24.**
+by 11:59 p.m. ET on June 24.**
