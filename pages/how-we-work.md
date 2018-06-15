@@ -20,7 +20,7 @@ banner_cta: true
 Details:
 - 2-3 person team
 - 8-10 weeks
-- Typically $175,000 - $195,000
+- Typically $195,000
 - 1 Path Analysis per project
 
 18F can help you make an informed, confident decision about how to address your technology problems. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. Each Path Analysis is customized to the needs of an agency, with the **goal of moving you from identifying a problem to working on a solution.**
