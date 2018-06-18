@@ -1,3 +1,4 @@
+/* eslint-env jquery */
 $(function (){
   // Onclick window location handler
   $('.card-link').on('click', function(e) {
@@ -58,4 +59,8 @@ $(function (){
   $('#button-reset').on('click', function () {
     newsletterForm.reset();
   });
+
+  $('.search-interface').on("submit", function(){
+    $("#search-loading").show();
+  })
 });
