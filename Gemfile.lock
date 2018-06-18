@@ -97,7 +97,7 @@ GEM
     jekyll_pages_api (0.1.6)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.4.4)
+    jekyll_pages_api_search (0.4.5)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
     jemoji (0.8.0)
@@ -206,7 +206,7 @@ DEPENDENCIES
   jekyll_frontmatter_tests (~> 0.1.0)
   jekyll_oembed
   jekyll_pages_api
-  jekyll_pages_api_search
+  jekyll_pages_api_search (~> 0.4.5)
   jemoji
   parallel
   pry
@@ -220,4 +220,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
