@@ -8,6 +8,7 @@
  *     be appended
  */
 function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
+  $("#search-loading").hide();
   results.forEach(function(result, index) {
     var resultTitle = result.title;
     var errorPages = resultTitle === '404' || resultTitle === '500' || resultTitle === '';
