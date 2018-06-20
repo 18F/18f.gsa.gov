@@ -1,3 +1,4 @@
+// (function() {
 /*
  * Params:
  * - query: query string
@@ -7,12 +8,10 @@
  *     be appended
  */
 function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
-  $("#search-loading").hide();
-  
   results.forEach(function(result, index) {
     var resultTitle = result.title;
-    var errorPages = resultTitle === '404' || resultTitle === '500';
-
+    var errorPages = resultTitle === '404' || resultTitle === '500' || resultTitle === '';
+    
     if (resultTitle && !errorPages) {
       var item = doc.createElement('li'),
           link = doc.createElement('a'),
@@ -32,3 +31,4 @@ function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
     }
   });
 }
+// })();
