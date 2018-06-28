@@ -137,7 +137,7 @@ as the rules would be changing over the course of the prototype. If CSVs
 were a good common denominator for accepting data, perhaps they would be
 a good format for defining simple validation rules?
 
-| fieldname | required | data_type   field_length   unique |
+| fieldname | required | data_type | field_length | unique |
 |---------- | -------- | --------- | ------------ | ------ |
 | AwardandModificationEntryID   | False | int | 25 | False |
 | PlaceOfPerformanceEntryNumber | False | int | 25 | False |

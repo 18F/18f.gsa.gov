@@ -66,7 +66,7 @@ meeting.” This ultimately does three things:
 
 1.  It raises important questions and surfaces any constraints for which you’ll need to account.
 2.  It builds trust by showing that you’re open to receiving feedback.
-3.  It drives alignment (something I’ve also called a “[shared understanding](http://ngenworks.com/design/an-unlikely-byproduct/)”) both inside and outside the team.
+3.  It drives alignment (something I’ve also called a “[shared understanding](https://web.archive.org/web/20160324033740/http://ngenworks.com/design/an-unlikely-byproduct/)”) both inside and outside the team.
 
 Properly executed, stakeholder interviews help you reduce the time it
 takes to reach a *viable* solution for the people who will take receipt
