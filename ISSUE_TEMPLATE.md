@@ -9,7 +9,7 @@
 - [ ]
 - [ ]
 
-## This is issue is done when:
+## This issue is done when:
 - [ ]
 - [ ]
 - [ ]
