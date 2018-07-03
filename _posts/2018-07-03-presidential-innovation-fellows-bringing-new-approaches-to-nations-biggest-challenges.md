@@ -1,16 +1,18 @@
 ---
-title: "Ask 18F — Can you share any tips or suggestions on how to shift the cultural mindset of my organization?"
-date: 2018-06-14
+title: "Presidential Innovation Fellows bringing new approaches to nation’s biggest challenges"
+date: 2018-07-03
 authors:
-- dahianna
-- kara-reinsel
+- gil-alterovitz
+- justin-koufopoulos
 tags:
-- ask 18f
-- product
-excerpt: "Ask 18F is an advice column that answers questions sent in by
-federal employees. In this edition, we’ll talk about how to shift the
-cultural mindset in an organization from traditional business
-intelligence to more predictive solutions."
+- presidential innovation fellows
+- day in the life
+- health and human services
+excerpt: "As the application process for the Presidential Innovation
+Fellows (PIF) program ramps up, a number of applicants have been asking:
+What is it like to be a Presidential Innovation Fellow? Two Fellows, Dr.
+Gil Alterovitz and Justin Koufopoulos, share the origins of their
+collaboration and a typical day in the life of a Fellow."
 image:
 ---
 
