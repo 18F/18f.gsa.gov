@@ -35,7 +35,7 @@ started creating smaller ones for my team when joining a new project.
 These documents are most successful when everyone is contributing, so
 don’t let it live as a read-only page on your intranet. Put it somewhere
 where everyone can add or update terms, like in a shared Google Sheet or
-your project wiki and then make sure you link to it in your shared
+your project wiki, and then make sure you link to it in your shared
 resources. Use the tools your team uses most often, an imperfect tool
 that more people use often is better than a perfect tool that people
 barely use.
