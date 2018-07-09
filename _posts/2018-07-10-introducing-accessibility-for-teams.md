@@ -7,7 +7,7 @@ tags:
 - accessibility
 - design
 excerpt: "The Accessibility Guild in the Technology Transformation Services (TTS) at the U.S. General Services Administration (GSA) set out to understand how people in different roles practice accessibility. We asked designers, developers, and product managers across our organization to share their accessibility practices, from self-testing to asking for help."
-image: /assets/blog/accessibility/accesability-logo.png
+image: /assets/blog/accessibility/accessibility-logo.png
 ---
 Accessibility is a crucial part of government product design. First,
 [it's the law](https://www.access-board.gov/the-board/laws/rehabilitation-act-of-1973#508).
@@ -43,25 +43,19 @@ your role. So that’s how we structured the guide, with a separate
 section for each of five roles:
 
 -   Product management
-
 -   Content design
-
 -   UX design
-
 -   Visual design
-
 -   Front-end development
 
 This guide provides:
 
 -   An overview of how each role can contribute to a product’s accessibility
-
 -   A framework for thinking about accessibility and inclusive design in your role
-
 -   An understanding of the human need behind accessibility practices, introduced with clear questions and [personas](https://digital.gov/2015/04/06/using-personas-to-better-understand-customers-usa-gov-case-study.md/) that describe people who would experience particular accessibility issues
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/accessibility/accesability-guide.png" alt="Screenshot of accessibility guide"/>
+  <img src="{{site.baseurl}}/assets/blog/accessibility/accessibility-guide.png" alt="Screenshot of accessibility guide"/>
 </figure>
 
 We’ve shared the guide with accessibility practitioners across
