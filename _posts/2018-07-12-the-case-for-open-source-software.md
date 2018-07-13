@@ -73,7 +73,7 @@ support their own football field–sized supercomputing facilities.)
 For example, we’re developing open source tools with the NNSA’s
 [Advanced Simulation and Computing Program](https://www.exascaleproject.org/more-on-the-software-that-underpins-the-exascale-computing-project/) to make HPC codes portable to next-generation architectures. The DOE’s [Exascale Computing Project](https://www.exascaleproject.org/) depends on open source technology to share work among participating institutions, including LLNL and other national labs.
 
-One of our most popular open source HPC projects is ZFS on Linux, which,
+One of our most popular open source HPC projects is [ZFS on Linux](http://zfsonlinux.org/), which,
 as the name states, is a version of the ZFS file system that supports
 the Linux operating system. Embodying the community’s quid pro quo, we
 could adapt the software to Linux because the [original
@@ -81,7 +81,7 @@ ZFS](http://open-zfs.org/wiki/History) (which only supported the
 Solaris operating system) was open source.
 
 We create software that resonates with the open source community due to
-its flexibility with a variety of use cases. LNLL’s Spack, a collection
+its flexibility with a variety of use cases. [LLNL's Spack](https://spack.io), a collection
 of recipes for managing software packages, averages hundreds of
 downloads every day. High usage combined with external contributions
 make it incredibly stable and widely relevant to many platforms,
