@@ -79,7 +79,7 @@ written proposals that often contain more fluff than meaningful content.
 As we thought about how to run a streamlined process that would help us
 quickly assess the technical approaches to our task order solicitations,
 we got in touch with GSA’s [Federal Acquisition Service (FAS) Region
-3](https://www.gsa.gov/about-us/regions/welcome-to-the-midatlantic-region-3/products-and-services/assisted-acquisition-services). They shared their
+3](https://www.gsa.gov/about-us/regions/welcome-to-the-midatlantic-region-3). They shared their
 approach of using an “Interview-Style Oral Presentation” — in essence,
 asking their vendors’ technical team to meet with the government
 evaluation team to answer questions about how they would approach a
