@@ -13,8 +13,8 @@ tags:
 - rfp ghostwriting
 - procurement
 excerpt: "Here are five procurement hacks — both in the context of our
-[*Agile Blanket Purchase
-Agreement*](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+[Agile Blanket Purchase
+Agreement](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
 (BPA) and in general — that we’ve made in the past few years to make the
 procurement process a bit more joyful and effective"
 ---
