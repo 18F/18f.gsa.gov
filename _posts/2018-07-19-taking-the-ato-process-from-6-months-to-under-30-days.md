@@ -120,7 +120,7 @@ on those outcomes.
 
 ## Tracking
 
-The Infrastructure Leads keep a [*kanban*](https://18f.gsa.gov/2016/08/31/kanban-for-government/) board
+The Infrastructure Leads keep a [kanban](https://18f.gsa.gov/2016/08/31/kanban-for-government/) board
 to track the status of ATOs:
 
 <figure>
@@ -143,12 +143,12 @@ As systems move through the ATO process, we learn more and more about
 what works well for systems compliance-wise.
 
 Almost all of the systems run on top of
-[*cloud.gov*](https://cloud.gov), a Platform-as-a-Service with a FedRAMP
+[cloud.gov](https://cloud.gov), a Platform-as-a-Service with a FedRAMP
 authorization, which handles a lot of the compliance at the platform
 level. For the parts that are the responsibility of the customer system,
 we worked with GSA Security to develop a [System Security Plan
 (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template for systems
-running on [*cloud.gov*](https://cloud.gov), which cut out the security
+running on [cloud.gov](https://cloud.gov), which cut out the security
 controls handled by the platform.
 
 Working in the constraints of what Software-as-a-Service was approved or
@@ -227,7 +227,7 @@ systems that went through for achieving compliance!
 
 # See also
 
--   [*Before You Ship*](https://before-you-ship.18f.gov/) - 18F’s guide
+-   [Before You Ship](https://before-you-ship.18f.gov/) - 18F’s guide
     to ATOs and Infrastructure
 -   [“To get things done, you need great, secure
     tools”](https://18f.gsa.gov/2017/02/27/to-get-things-done-you-need-great-secure-tools/) blog post
