@@ -28,7 +28,7 @@ are otherwise asynchronously involved in a time-intensive, complex
 process with a clear target. For example: a long list of job applicants
 to review, procurements to complete, etc.*
 
-# Background
+## Background
 
 Every federal information system must go through the Risk Management
 Framework created by the National Institute of Standards and Technology
@@ -52,7 +52,7 @@ focus.
 Under the ATO Sprinting Team, **our ATOs have gone down from more than
 six months to under a month**.
 
-# How did we get there?
+## How did we get there?
 
 18F launches new software all the time, and since ATOs are such a big
 part of doing so, we’ve identified a number of ways to make ATOs faster:
@@ -62,14 +62,12 @@ part of doing so, we’ve identified a number of ways to make ATOs faster:
     be. This makes them harder to create and harder for assessors to
     evaluate. The smaller the systems, timeframes, and packages, the
     easier for everyone.
-
 -   **More focused process.** There is a [switching
     cost](https://www.apa.org/research/action/multitask.aspx) when
     people try to multitask; this applies to our project teams trying
     to do their ATO while doing feature development and assessors
     reviewing multiple systems at once. The more focused everyone
     involved is on the ATO, the fewer the human-hours to complete it.
-
 -   **Use consistent tooling and processes.** Assessors are there to
     ensure the system meets the compliance requirements, and to do so,
     they need to understand what’s going on in the system. If every
@@ -82,17 +80,11 @@ part of doing so, we’ve identified a number of ways to make ATOs faster:
     -   Reduce the learning curve to understand each system for
         assessors
 
--   **More inheritance.** As noted in the “smaller” and “more
-    consistent” bullets above, the more custom parts of the system,
-    the more complex the ATO process. The more we [reuse a proven technology stack](https://18f.gsa.gov/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/) the fewer security requirements need to be addressed by the system under evaluation. For example, by standardizing a few ways to do user authentication, each system doesn’t have to assess a new technology for the same functionality.
-
--   **More integration between security and project teams.** Similar to
-    “more focused” above, having all ATO process interactions happen asynchronously over email means that open questions and blockers can’t be resolved right away, and details can be lost. Having the security team / assessors working alongside the project team in real time means that these issues can get resolved quickly, and the entire process is more collaborative.
+-   **More inheritance.** As noted in the “smaller” and “more consistent” bullets above, the more custom parts of the system, the more complex the ATO process. The more we [reuse a proven technology stack](https://18f.gsa.gov/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/) the fewer security requirements need to be addressed by the system under evaluation. For example, by standardizing a few ways to do user authentication, each system doesn’t have to assess a new technology for the same functionality.
+-   **More integration between security and project teams.** Similar to “more focused” above, having all ATO process interactions happen asynchronously over email means that open questions and blockers can’t be resolved right away, and details can be lost. Having the security team / assessors working alongside the project team in real time means that these issues can get resolved quickly, and the entire process is more collaborative.
 
 To implement these, we needed a well-functioning team. Here’s how it was
 structured:
-
-# The format
 
 ## Roles
 
@@ -101,7 +93,6 @@ The Sprinting Team consisted of:
 -   **Security.** This usually consisted of someone who focused on the
     documentation and assessment of the overall system, as well as a
     penetration tester.
-
 -   **The System Owner.** This was generally a TTS developer on the
     project team who had a good understanding of the system going
     through the process, who can:
@@ -109,7 +100,7 @@ The Sprinting Team consisted of:
     -   Answer questions about the system
     -   Fix things as they come up, or at least take those issues to the
         appropriate person
-
+       
 -   **An Infrastructure Lead.** A TTS team member with ATO experience
     who can help with preparation for the assessment, and translate
     between Security and the System Owner.
@@ -165,7 +156,7 @@ we also standardized tools, procedures, and control language around:
 We have the advantage of building and launching systems constantly, so
 we have lots of opportunity to learn and iterate on the ATO process.
 
-# Challenges
+## Challenges
 
 There were a handful of issues we ran into:
 
@@ -177,18 +168,16 @@ There were a handful of issues we ran into:
     requirements and compliance-specific jargon. This meant that the
     Infrastructure Leads had to not only be knowledgeable about
     security compliance, but also be patient coaches.
-
 -   **Measurement.** ATO processes are largely human, so gathering data
     about the start and stop of each stage for every system to date
     took hours of combing through dialogue in our chat and email
     conversations, kanban board, and PDFs of signed ATOs.
-
 -   **Communication.** The ATO Sprinting Team would constantly improve
     the process and guidance as we went, but System Owners weren’t
     always aware of the changes, and would sometimes get frustrated at
     moving targets.
 
-## Things to watch out for
+### Things to watch out for
 
 If you are at another agency and are interested in applying the
 principles of an ATO Sprinting Team, make sure to:
@@ -196,19 +185,17 @@ principles of an ATO Sprinting Team, make sure to:
 -   **Get buy-in from the Security team.** We were lucky to have willing
     and capable partners in GSA Security. A Sprinting Team only works
     if all the stakeholders are willing participants.
-
 -   **Get people dedicated to working on this.** Our Infrastructure
     Leads have to understand the process, make judgement calls, and
     shepherd project teams through. You need people able and willing
     to commit the time.
-
 -   **Think of ways to measure.** As mentioned earlier, we didn’t think
     about metrics early enough, so determining our success
     quantitatively was a backwards-looking, manual process. Determine
     your success metrics early, implement the collection early,
     establish a baseline, and review them regularly.
 
-# The results
+## The results
 
 As mentioned above, we have been dramatically improving the time to ATO:
 
@@ -225,7 +212,7 @@ Congrats to the Sprinting Team for clearing the backlog, our GSA
 Security counterparts for being so great to work with, and all the
 systems that went through for achieving compliance!
 
-# See also
+## See also
 
 -   [Before You Ship](https://before-you-ship.18f.gov/) - 18F’s guide
     to ATOs and Infrastructure
