@@ -100,7 +100,7 @@ The Sprinting Team consisted of:
     -   Answer questions about the system
     -   Fix things as they come up, or at least take those issues to the
         appropriate person
-       
+
 -   **An Infrastructure Lead.** A TTS team member with ATO experience
     who can help with preparation for the assessment, and translate
     between Security and the System Owner.
@@ -115,7 +115,9 @@ The Infrastructure Leads keep a [kanban](https://18f.gsa.gov/2016/08/31/kanban-f
 to track the status of ATOs:
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/ato/ato-kanban.png" alt="Screenshot of the ATO Kanban board on GitHub."/>
+  <a href="{{site.baseurl}}/assets/blog/ato/ato-kanban.png">
+    <img src="{{site.baseurl}}/assets/blog/ato/ato-kanban.png" alt="Screenshot of the ATO Kanban board on GitHub."/>
+  </a>
 </figure>
 
 Systems are prioritized based on their launch deadlines, whether they
