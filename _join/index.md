@@ -24,11 +24,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 ## Open positions
 Links below will take you to the Technology Transformation Services join page to apply.
 
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov//join/content-designer/">18F Content Designer</a>
-</section>
-
-<!--**We currently have no open positions at 18F.**   -->
+ **TTS is hiring and will be sharing information on new upcoming jobs as well as releasing new job postings frequently. Please check back or if you would like to be notified when new jobs are posted, [sign up for the Join TTS mailing list](https://docs.google.com/forms/d/e/1FAIpQLSf-HCWKQp_3TKJs0ss-3IqzbI0HY16rH5LnV8CRpIBykeH07g/viewform?usp=sf_link).**
 
 <!-- Links below will take you to the Technology Transformation Services join page to apply. -->
 
