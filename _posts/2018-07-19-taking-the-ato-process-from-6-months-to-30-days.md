@@ -1,5 +1,5 @@
 ---
-title: "Taking the ATO process from 6 months to under 30 days"
+title: "Taking the ATO process from 6 months to 30 days"
 date: 2018-07-19
 authors:
 - afeld
