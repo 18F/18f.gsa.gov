@@ -126,9 +126,9 @@ team. We limit ourselves to at most one ATO in active assessment at any
 given time.
 
 We also keep track of system launch dates, to make sure we’re getting
-ahead on ATOs before it’s a time crunch. The ATO Sprinting Team model
-was focused as much on reducing the passive time an ATO wasn’t getting
-done as the active time working on it.
+ahead on ATOs before it’s a time crunch. **The ATO Sprinting Team model
+was focused as much on reducing the an ATO _wasn’t_ getting
+done as the active time working on it.**
 
 ## Artifacts
 
@@ -167,7 +167,7 @@ There were a handful of issues we ran into:
     to fill out System Security Plans, what a security control is,
     what happens during a penetration test, etc. On top of that,
     security compliance can be frustrating because of its complex
-    requirements and compliance-specific jargon. This meant that the
+    requirements and jargon. This meant the
     Infrastructure Leads had to not only be knowledgeable about
     security compliance, but also be patient coaches.
 -   **Measurement.** ATO processes are largely human, so gathering data
@@ -202,7 +202,7 @@ principles of an ATO Sprinting Team, make sure to:
 As mentioned above, we have been dramatically improving the time to ATO:
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/ato/ato-completion-date-graph.png" alt="Graph showing ATO completion timeline with starting date on the x- axis, and the dates to complete on the y-axis."/>
+  <img src="{{site.baseurl}}/assets/blog/ato/ato-completion-date-graph.png" alt="Graph showing ATO completion timeline with starting date on the x- axis, and the dates to complete on the y-axis. There is a clear trend downward."/>
 </figure>
 
 *“ATO effort started on” is measured from when we acknowledged “this
