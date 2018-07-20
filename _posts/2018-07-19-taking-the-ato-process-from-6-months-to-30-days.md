@@ -127,7 +127,7 @@ given time.
 
 We also keep track of system launch dates, to make sure we’re getting
 ahead on ATOs before it’s a time crunch. **The ATO Sprinting Team model
-was focused as much on reducing the an ATO _wasn’t_ getting
+was focused as much on reducing the passive time an ATO _wasn’t_ getting
 done as the active time working on it.**
 
 ## Artifacts
