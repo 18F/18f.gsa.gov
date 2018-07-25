@@ -6,7 +6,6 @@
   {% for post in page.related_posts %}
     <li class="usa-width-one-third">
       <article>
-        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
         <h3 class="posts_feature-heading">
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
           {% if post.series %}
