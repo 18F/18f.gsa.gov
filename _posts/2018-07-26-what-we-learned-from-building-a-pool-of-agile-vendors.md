@@ -2,8 +2,8 @@
 title: "What we learned from building a pool of agile vendors"
 date: 2018-07-26
 authors:
-- alla
 - rebecca-refoy-sidibe
+- alla
 tags:
 - acquisition services
 - agile bpa
@@ -46,7 +46,7 @@ ultimately awarded the contract to 17 vendors, both large and small,
 from all over the country.
 
 We knew we wanted great vendors that could build software using agile
-and human centered methodologies and that we needed these types of
+and user-centered methodologies and that we needed these types of
 acquisitions to work at the speed of agile development cycles. When we
 set out to begin issuing task orders, we intended the projects to take
 less than four weeks from solicitation to contract kickoff, and from
@@ -79,7 +79,7 @@ project. 18F served as the Contracting Officer’s Representative (COR) on
 all the buys and ensured that all packages contained transparent pre-
 and post-award procedures to set clear expectations and
 responsibilities. We experienced time and time again that the
-partnership between Agile BPA vendors, 18F, and our client agencies
+partnership between Agile BPA vendors, 18F, and our partner agencies
 created the kind of trusted relationship required to build and deploy
 complicated software projects.
 
