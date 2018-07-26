@@ -15,7 +15,7 @@ services using agile development techniques. We wanted to see what would
 happen if we used an existing government process (called a blanket
 purchase agreement) and tailored it to the needs of agencies looking to
 update their digital services."
-image: /assets/blog/agile-bpa/agile-bpa-projects.png
+image:
 ---
 
 In 2015, 18F had [an idea](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) for a better way for federal agencies to hire private vendors to build products and
