@@ -50,7 +50,7 @@ job postings.
 Most 18F positions are in the Excepted Service and are “not to exceed”
 (NTE) positions, which means **they are two-year terms and can be
 renewed once, for a total of four years**. To apply for these Excepted
-Service positions, you must be a United States citizens or national
+Service positions, you must be a United States citizen or national
 (residents of American Samoa and Swains Islands) and you must not be a
 current GSA employee or contractor.
 
