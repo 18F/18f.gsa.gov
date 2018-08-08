@@ -104,7 +104,7 @@ Many factors can make matching more challenging, such as weight gain or
 loss, changes in facial hair, injuries to the face, changing hair color,
 and the fact that some travel photos like those issued in [Washington
 D.C.](https://dmv.dc.gov/service/dc-dmv-real-id-driver-license) are
-taken in in black and white with security features embedded in them. We
+taken in black and white with security features embedded in them. We
 used a selection of images of the same person over time, and different
 people of the same national origin, biological sex, and approximate age
 to approximate the use case of travel and identity documents. The
