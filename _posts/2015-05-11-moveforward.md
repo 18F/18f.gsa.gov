@@ -93,8 +93,6 @@ ultimate goal is to provide a tool that allows all members of the public
 — even those without deep knowledge of the election process — to quickly
 and easily access relevant data.
 
-{% oembed https://twitter.com/gulielmus/status/593525730480271360 %}
-<br />
 {% oembed https://twitter.com/corizarek/status/593525117210103809 %}
 
 Leah Bannon, an 18F product manager, and Charles Worthington of USDS
