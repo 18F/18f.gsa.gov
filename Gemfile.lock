@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/jekyll/jekyll-archives.git
+  remote: https://github.com/jekyll/jekyll-archives.git
   revision: 112c508031acf3cf1d9024b005f99b2752133769
   ref: 112c508
   specs:
@@ -196,7 +196,7 @@ DEPENDENCIES
   codeclimate-test-reporter (~> 1.0.0)
   colorize
   html-proofer (~> 3.6.0)
-  jekyll (~> 3.3.0)
+  jekyll (~> 3.3.1)
   jekyll-archives!
   jekyll-feed
   jekyll-paginate
