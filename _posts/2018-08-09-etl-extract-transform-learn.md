@@ -6,6 +6,7 @@ authors:
 tags:
 - data access
 - best practices
+- technical guides
 excerpt: "Providing government data to the public almost always requires
 building a data processing pipeline between its place of origin and the
 systems that will serve it. Data must be copied, transferred between
@@ -138,9 +139,8 @@ puzzling it out afterward involves detailed detective work, slow-running
 queries, or both. Retaining information about data origins saves work
 and uncertainty later.
 
-Advanced SQL like array functions and [Common Table Expressions with
-RETURNING clauses](https://rob.conery.io/2015/02/08/inserting-using-new-record-postgres)
-can help. A simple array example:
+Advanced SQL like array functions and Common Table Expressions with
+RETURNING clauses can help. A simple array example:
 
 ```
 INSERT INTO locations
