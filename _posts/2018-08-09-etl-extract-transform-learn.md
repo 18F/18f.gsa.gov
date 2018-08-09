@@ -142,6 +142,7 @@ Advanced SQL like array functions and [Common Table Expressions with
 RETURNING clauses](https://rob.conery.io/2015/02/08/inserting-using-new-record-postgres)
 can help. A simple array example:
 
+```
 INSERT INTO locations
 SELECT recip_city AS city,
   recip_state AS state,
@@ -149,6 +150,7 @@ SELECT recip_city AS city,
   ARRAY_AGG(id) AS source_ids
 FROM grants
 GROUP BY 1, 2, 3
+```
 
 For more precise debugging, record not just source row IDs, but the name
 of the ETL script you used and its version control commit identifier.
