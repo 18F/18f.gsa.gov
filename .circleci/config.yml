@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.3-node
-    enviroment:
+    environment:
       ACCESSLINT_MASTER_BRANCH: dev
     steps:
       - checkout
@@ -13,7 +13,7 @@ jobs:
       - run: npm run htmlproofer
       - run: bundle exec rspec
       - run: CODECLIMATE_REPO_TOKEN=${CODECLIMATE_REPO_TOKEN} bundle exec codeclimate-test-reporter
-      - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
+      # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
 workflows:
   version: 2
   commit:
