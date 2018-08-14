@@ -1,3 +1,4 @@
+---
 title: Shared infrastructure as code
 date: 2018-08-14
 authors:
