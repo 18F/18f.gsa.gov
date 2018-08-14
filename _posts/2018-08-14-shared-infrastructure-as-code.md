@@ -73,10 +73,8 @@ they’re configured**, all in one place.
 
 <figure>
 <img src="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png" alt="Screenshot of GitHub showing a list of Terraform files. Each corresponds to a domain"/>
+<figcaption><a href="https://github.com/18F/dns/tree/master/terraform">List of Terraform files that correspond to domains</a></figcaption>
 </figure>
-
-[*List of Terraform files that correspond to
-domains*](https://github.com/18F/dns/tree/master/terraform)
 
 [Changes to records](https://github.com/18F/dns#making-changes) are
 made by [pull
@@ -84,9 +82,8 @@ request](https://github.com/18F/dns/pulls?utf8=%E2%9C%93&q=is%3Apr).
 
 <figure>
 <img src="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png" alt="Screenshot of a pull request in GitHub, with an explanation of why the change is being made. It also shows that an issue from another repository links to the pull request"/>
+  <figcaption><a href="https://github.com/18F/dns/pull/273">Example pull request</a></figcaption>
 </figure>
-
-[*Example pull request*](https://github.com/18F/dns/pull/273)
 
 After submission, changes are checked automatically via [continuous
 integration
@@ -95,10 +92,8 @@ integration
 <figure>
 <img src="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png" alt="Two browser windows, one from GitHub showing the changes to the code, the other showing the resulting changes from Terraform in
 CircleCI"/>
+  <figcaption><a href="https://github.com/18F/dns/pull/267/files">Example diff</a> and <a href="https://circleci.com/gh/18F/dns/483">continuous integration</a> output</figcaption>
 </figure>
-
-Example [*diff*](https://github.com/18F/dns/pull/267/files) and
-[*continuous integration*](https://circleci.com/gh/18F/dns/483) output*
 
 While this is mostly checking for simple things like valid syntax right now, we have ideas for expanding, like [reporting unused
 records](https://github.com/18F/dns/issues/176).
