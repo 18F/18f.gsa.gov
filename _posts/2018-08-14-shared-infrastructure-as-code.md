@@ -7,12 +7,7 @@ tags:
 - technical guides
 - devops
 - 18f.gsa.gov
-excerpt: “At many government agencies, a central IT team manages DNS
-directly. Other teams must request changes using help desk tickets,
-which can have inconsistent turnaround times, and are susceptible to
-human error. Having DNS records as code and doing changes through pull
-requests brought turnaround time down from multiple days to under ten
-minutes.”
+excerpt: "At many government agencies, a central IT team manages DNS directly. Other teams must request changes using help desk tickets, which can have inconsistent turnaround times, and are susceptible to human error. Having DNS records as code and doing changes through pull requests brought turnaround time down from multiple days to under ten minutes."
 ---
 
 If you follow [DevOps
