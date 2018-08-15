@@ -1,6 +1,6 @@
 ---
 title: Shared infrastructure as code
-date: 2018-08-14
+date: 2018-08-15
 authors:
 - afeld
 tags:
