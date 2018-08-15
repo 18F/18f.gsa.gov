@@ -32,23 +32,16 @@ TTS manages DNS for a number of domains. When you visit somewebsite.gov,
 DNS tells your browser which server to query for the website. Think of
 DNS like a phone book for the internet, mapping names to numbers (in
 this case, hostnames to IP addresses). As an example, the two-column
-output below shows that 18f.gsa.gov points to a CloudFront domain, which
+output below shows that 18f.gsa.gov points to a CloudFront [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) domain, which
 in turn points to a handful of IP addresses.
 
 ```
-
-$ dig +noall +answer 18f.gsa.gov | awk '{print \$1,\$5}' | column -t
-
-18f.gsa.gov. d42vcigf8s480.cloudfront.net.
-
-d42vcigf8s480.cloudfront.net. 13.33.35.170
-
-d42vcigf8s480.cloudfront.net. 13.33.35.190
-
-d42vcigf8s480.cloudfront.net. 13.33.35.226
-
-d42vcigf8s480.cloudfront.net. 13.33.35.27
-
+$ dig +noall +answer 18f.gsa.gov | awk '{print $1,$5}' | column -t
+18f.gsa.gov.                   d42vcigf8s480.cloudfront.net.
+d42vcigf8s480.cloudfront.net.  13.33.35.145
+d42vcigf8s480.cloudfront.net.  13.33.35.139
+d42vcigf8s480.cloudfront.net.  13.33.35.4
+d42vcigf8s480.cloudfront.net.  13.33.35.200
 ```
 
 At many government agencies, a central IT team manages DNS directly.
@@ -72,8 +65,10 @@ can go through and see immediately what domains we manage as well as how
 they’re configured**, all in one place.
 
 <figure>
-<img src="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png" alt="Screenshot of GitHub showing a list of Terraform files. Each corresponds to a domain"/>
-<figcaption><a href="https://github.com/18F/dns/tree/master/terraform">List of Terraform files that correspond to domains</a></figcaption>
+  <a href="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png">
+    <img src="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png" alt="Screenshot of GitHub showing a list of Terraform files. Each corresponds to a domain."/>
+  </a>
+  <figcaption><a href="https://github.com/18F/dns/tree/master/terraform">List of Terraform files that correspond to domains</a></figcaption>
 </figure>
 
 [Changes to records](https://github.com/18F/dns#making-changes) are
@@ -81,7 +76,9 @@ made by [pull
 request](https://github.com/18F/dns/pulls?utf8=%E2%9C%93&q=is%3Apr).
 
 <figure>
-<img src="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png" alt="Screenshot of a pull request in GitHub, with an explanation of why the change is being made. It also shows that an issue from another repository links to the pull request"/>
+  <a href="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png">
+    <img src="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png" alt="Screenshot of a pull request in GitHub, with an explanation of why the change is being made. It also shows that an issue from another repository links to the pull request."/>
+  </a>
   <figcaption><a href="https://github.com/18F/dns/pull/273">Example pull request</a></figcaption>
 </figure>
 
@@ -90,8 +87,9 @@ integration
 (CI)](https://docs.microsoft.com/en-us/azure/devops/what-is-continuous-integration) in CircleCI.
 
 <figure>
-<img src="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png" alt="Two browser windows, one from GitHub showing the changes to the code, the other showing the resulting changes from Terraform in
-CircleCI"/>
+  <a href="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png">
+    <img src="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png" alt="Two browser windows, one from GitHub showing the changes to the code, the other showing the resulting changes from Terraform in CircleCI."/>
+  </a>
   <figcaption><a href="https://github.com/18F/dns/pull/267/files">Example diff</a> and <a href="https://circleci.com/gh/18F/dns/483">continuous integration</a> output</figcaption>
 </figure>
 
@@ -112,12 +110,12 @@ Earlier this year, we needed to move our DNS records to a new Amazon Web Service
 With the configuration in code and version control, we were able to
 [modify our continuous
 deployment](https://github.com/18F/dns/pull/178) so that every change
-to the records was deployed to the old and new accounts.
+to the records was deployed to the old _and_ new accounts.
 
 The
 [declarative](https://tylermcginnis.com/imperative-vs-declarative-programming/)
 nature of Terraform means that you tell it what state you want the
-infrastructure to be in, and it figures out what changes to make to get there. On its first run against the new account, Terraform saw that none of the records were in place, so it created them. **Time from zero to hundreds of records present in the new account? About a half hour.**
+infrastructure to be in, and it figures out what changes to make to get there. On its first run against the new account, Terraform saw that none of the records were in place, so it created them. **Time from zero to hundreds of records present in the new account? A half hour.**
 
 With the records in both accounts, we gradually transitioned our domains to point to the new nameservers in the new account. When complete, we simply [removed the code deploying to the old
 account](https://github.com/18F/dns/pull/214) and deleted the old
