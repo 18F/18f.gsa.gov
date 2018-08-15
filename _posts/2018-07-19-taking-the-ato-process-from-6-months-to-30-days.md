@@ -80,7 +80,10 @@ part of doing so, we’ve identified a number of ways to make ATOs faster:
     -   Reduce the learning curve to understand each system for
         assessors
 
--   **More inheritance.** As noted in the “smaller” and “more consistent” bullets above, the more custom parts of the system, the more complex the ATO process. The more we [reuse a proven technology stack](https://18f.gsa.gov/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/) the fewer security requirements need to be addressed by the system under evaluation. For example, by standardizing a few ways to do user authentication, each system doesn’t have to assess a new technology for the same functionality.
+-   **More inheritance.** As noted in the “smaller” and “more consistent” bullets above, the more custom parts of the system, the more complex the ATO process. The more we [reuse a proven technology stack](https://18f.gsa.gov/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/) the fewer security requirements need to be addressed by the system under evaluation.
+    - By standardizing [a few ways to do user authentication](https://before-you-ship.18f.gov/security/mfa/), each system doesn’t have to assess a new technology for the same functionality.
+    - By leveraging [cloud.gov](https://cloud.gov) for (nearly) all of our backend code and databases, we cut out a _huge_ amount of operational and [compliance](https://cloud.gov/docs/compliance/ato-process/) burden.
+    - Sites deployed on [Federalist](https://federalist.18f.gov) can be [folded in to the Federalist ATO](https://federalist-docs.18f.gov/pages/about-federalist/why-use-federalist/). **Sites on Federalist can be assessed and authorized in a matter of days.**
 -   **More integration between security and project teams.** Similar to “more focused” above, having all ATO process interactions happen asynchronously over email means that open questions and blockers can’t be resolved right away, and details can be lost. Having the security team / assessors working alongside the project team in real time means that these issues can get resolved quickly, and the entire process is more collaborative.
 
 To implement these, we needed a well-functioning team. Here’s how it was
