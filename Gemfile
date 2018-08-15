@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search', '~> 0.4.5'
   gem 'jekyll_oembed'
+  gem 'jekyll-time-to-read'
 end
 
 group :development do

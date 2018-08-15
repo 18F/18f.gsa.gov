@@ -24,6 +24,9 @@ layout: default
           </a>
         {% endfor %}
       </span>
+      <p class="post-time-to-read">
+        Time to read: {{ content | reading_time_as_s }}
+      </p>
     </header>
 
     <div class="post-content" itemprop="articleBody">

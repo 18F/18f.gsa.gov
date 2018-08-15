@@ -87,6 +87,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.0.0)
       jekyll (~> 3.3)
+    jekyll-time-to-read (0.1.2)
+      jekyll
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     jekyll_frontmatter_tests (0.1.0)
@@ -203,6 +205,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-time-to-read
   jekyll_frontmatter_tests (~> 0.1.0)
   jekyll_oembed
   jekyll_pages_api
@@ -220,4 +223,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.16.1
+   1.16.3
