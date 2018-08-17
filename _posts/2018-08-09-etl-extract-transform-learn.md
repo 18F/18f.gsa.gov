@@ -83,7 +83,7 @@ extensive ETL process.
 But [agile, user-centered
 design](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture)
 means you can’t know the application's final format at the beginning of
-a project; it evolves continually with the the experiences of the
+a project; it evolves continually with the experiences of the
 developers, product owner, and end users. Our front-end developers made
 extensive changes as needs were clarified and discovered.
 
