@@ -31,17 +31,18 @@ through pull requests rather than tickets brought turnaround time down from mult
 TTS manages DNS for a number of domains. When you visit somewebsite.gov,
 DNS tells your browser which server to query for the website. Think of
 DNS like a phone book for the internet, mapping names to numbers (in
-this case, hostnames to IP addresses). As an example, the two-column
+this case, hostnames to IP addresses). As an example, the
 output below shows that 18f.gsa.gov points to a CloudFront [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) domain, which
 in turn points to a handful of IP addresses.
 
 ```
-$ dig +noall +answer 18f.gsa.gov | awk '{print $1,$5}' | column -t
-18f.gsa.gov.                   d42vcigf8s480.cloudfront.net.
-d42vcigf8s480.cloudfront.net.  13.33.35.145
-d42vcigf8s480.cloudfront.net.  13.33.35.139
-d42vcigf8s480.cloudfront.net.  13.33.35.4
-d42vcigf8s480.cloudfront.net.  13.33.35.200
+$ host 18f.gsa.gov
+18f.gsa.gov is an alias for d42vcigf8s480.cloudfront.net.
+d42vcigf8s480.cloudfront.net has address 52.85.89.103
+d42vcigf8s480.cloudfront.net has address 52.85.89.67
+d42vcigf8s480.cloudfront.net has address 52.85.89.75
+d42vcigf8s480.cloudfront.net has address 52.85.89.8
+...
 ```
 
 At many government agencies, a central IT team manages DNS directly.
