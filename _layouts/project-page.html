@@ -152,7 +152,6 @@ header_border: true
         <ul>
         {% for post in matching_posts limit:3 %}
           {% include post.html
-             post_date=post.date
              post_title=post.title
              post_excerpt=post.excerpt
              post_url=post.url
