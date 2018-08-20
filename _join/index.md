@@ -149,4 +149,4 @@ at 18F, including:
 -   [Benefits](https://handbook.18f.gov/benefits/)
 -   [Leave](https://handbook.18f.gov/benefits/#leave)
 -   [Telework and virtual worker policy](https://handbook.18f.gov/telework/)
--   [Professional development and training processes](https://handbook.18f.gov/professional-development-and-training/#speaking-at-conferences)
+-   [Professional development and training processes](https://handbook.18f.gov/attending-conferences/)
