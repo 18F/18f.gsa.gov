@@ -6,14 +6,6 @@
     {% for post in posts %}
       <li>
         <div class="usa-width-one-whole">
-          {% if post.image.size > 0 %}
-            <div class="usa-width-one-whole">
-              <a class="media_link" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
-                <img src="{{ site.baseurl }}{{ post.image }}" alt="">
-                <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
-              </a>
-            </div>
-          {% endif %}
           {% unless include.limit_metadata %}
             <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
           {% endunless %}
@@ -23,7 +15,21 @@
           {% unless include.limit_metadata %}
             {% include post-author.html context='post' %}
           {% endunless %}
+        </div>
+        {% if post.image.size > 0 %}
+        <div class="usa-width-one-third">
+          <a class="media_link" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+            <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
+          </a>
+        </div>
+        <div class="usa-width-two-thirds">
+        {% else %}
+        <div class="usa-width-one-whole">
+        {% endif %}
           {{ post.excerpt }}
+        </div>
+        <div class="usa-width-one-whole">
           <p>
             <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">
               Continue reading
