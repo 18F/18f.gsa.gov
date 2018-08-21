@@ -23,7 +23,8 @@
 .post-tags {
   a {
     @include padding(0.6rem null);
-    background-color: $color-medium;
+    background-color: $color-gray-lightest;
+    color: $color-medium;
     display: inline-block;
     font-size: $h6-font-size;
     font-weight: $font-bold;
@@ -34,12 +35,12 @@
     text-transform: lowercase;
 
     &:hover {
-      background-color: $color-medium-hover;
+      background-color: $color-gray-hover;
     }
 
     &:hover,
     &:visited {
-      color: $color-white;
+      color: $color-medium-hover;
     }
   }
 }
