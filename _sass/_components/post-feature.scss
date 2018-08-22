@@ -57,11 +57,13 @@ time {
   + time {
     white-space: nowrap;
     margin-bottom: $paragraph-margins-thick;
-    &:before {
-      content: "\2022";
+
+    &::before {
+      content: '\2022';
       height: 1em;
       width: 1em;
-      margin: 0 1rem 0 $spacer-margins ; // to accommodate for adjoning p margin
+      margin-right: 1rem;
+      margin-left: $spacer-margins; // to accommodate for adjoning p margin
       color: $color-gray;
       font-size: 0.8em;
     }
