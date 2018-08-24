@@ -9,6 +9,7 @@ tags:
 - presidential innovation fellows
 - procurement
 - training
+- modern practices
 excerpt: This is the second in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 description: This is the second in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 ---
@@ -45,7 +46,7 @@ If youre interested in facilitating on your own or want to see how we did it, [h
 concise manner and describe a shared goal that provides direction but is
 broad enough to facilitate creativity.” - Roman Pichler*
 
-Capturing assumptions and hypotheses 
+Capturing assumptions and hypotheses
 -------------------------------------
 
 On the second day of the workshop, we set the product vision and

@@ -12,6 +12,7 @@ tags:
 - acquisition services
 - rfp ghostwriting
 - procurement
+- lessons learned
 excerpt: "Here are five procurement hacks — both in the context of our Agile Blanket Purchase Agreement (BPA) and in general — that we’ve made in the past few years to make the procurement process a bit more joyful and effective."
 ---
 

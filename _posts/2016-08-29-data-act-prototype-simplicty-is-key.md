@@ -9,6 +9,7 @@ tags:
 - treasury
 - technical guides
 - agency work
+- lessons learned
 excerpt: "To ensure that agencies could focus on the important work of joining their internal systems without unnecessary technology distractions, we (the 18F and Treasury prototype team) sought to deliver the simplest possible interface that would accept agency data using the simplest possible format for that data."
 image: /assets/blog/data-act-implementation/logo.png
 hero: false

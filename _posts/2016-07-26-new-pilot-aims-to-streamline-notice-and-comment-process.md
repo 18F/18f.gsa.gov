@@ -8,6 +8,7 @@ tags:
 - agency work
 - environmental protection agency
 - eregulations
+- product launch
 excerpt: "Today, the Environmental Protection Agency (EPA) began asking the public to comment on a new proposed rule that would affect how the EPA tracks hazardous waste as it moves around the country. This rule is also the pilot of the new notice and comment feature of the eRegulations platform."
 description: "Today, the Environmental Protection Agency (EPA) began asking the public to comment on a new proposed rule that would affect how the EPA tracks hazardous waste as it moves around the country. This rule is also the pilot of the new notice and comment feature of the eRegulations platform."
 image: /assets/blog/eregs-comments/eregs-comment.gif

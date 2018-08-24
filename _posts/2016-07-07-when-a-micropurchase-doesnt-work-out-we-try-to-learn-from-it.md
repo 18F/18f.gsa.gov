@@ -8,6 +8,7 @@ tags:
 - acquisition services
 - agile
 - how we work
+- lessons learned
 excerpt: "Two months ago, the 18F acquisitions team ran a public micro-purchase
 auction to find a vendor to develop a small new feature for 18F's cloud.gov, and for the first time after several successful micro-purchases for other products, the contracted vendor didn’t deliver the code on time. This was very interesting to us we’re early in the life of the micro-purchase platform, and we believe that failure is a great way to learn. In the spirit of experimentation and sharing our lessons, here’s how we went about analyzing this, and here’s what we learned."
 description: "Two months ago, the 18F acquisitions team ran a public micro-purchase

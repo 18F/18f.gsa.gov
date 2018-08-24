@@ -4,13 +4,11 @@ date: 2015-09-15
 layout: post
 authors:
 - melody
-
 tags:
 - platforms
 - federalist
 - tools you can use
-
-
+- product launch
 excerpt: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
 description: "18F’s new Federalist platform is a suite of tools designed to make it faster for government agencies to build websites that are secure, responsive, and accessible."
 image: /assets/blog/federalist/sbst-screenshot-2.jpg

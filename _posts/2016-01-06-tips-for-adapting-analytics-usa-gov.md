@@ -9,7 +9,7 @@ tags:
 - analytics.usa.gov
 - interview
 - tools you can use
-
+- lessons learned
 excerpt: "The city of Philadelphia, the city of Boulder, and the Tennessee Department of Environment and Conservation have all adapted analytics.usa.gov for their own use. We recently talked to them about how they adapted the platform and what advice they’d have for others who'd like to do the same."
 description: "The city of Philadelphia, the city of Boulder, and the Tennessee Department of Environment and Conservation have all adapted analytics.usa.gov for their own use. We talked to them about how they adapted the platform and what advice they’d have for others who'd like to do the same."
 image: /assets/blog/dap/screen.png

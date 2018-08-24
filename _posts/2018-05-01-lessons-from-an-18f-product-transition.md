@@ -8,6 +8,7 @@ tags:
 - agency work
 - useiti
 - how we work
+- lessons learned
 excerpt: "Four years into 18F’s work, transition is a topic of frequent conversation among our team. Every organization and every project is different. At the same time, every transition offers lessons that can be applied to the next."
 image: "/assets/blog/product-transition/product-transition.jpg"
 ---

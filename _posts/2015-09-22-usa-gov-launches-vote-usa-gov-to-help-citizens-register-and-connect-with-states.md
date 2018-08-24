@@ -5,6 +5,7 @@ authors:
 tags:
 - presidential innovation fellows
 - vote.usa.gov
+- product launch
 excerpt: One of the most important rights of American citizens is the right to vote. It is the foundation of our democracy, and in many ways, the basis of our government. This is why the team at USA.gov is excited to announce the launch of vote.USA.gov.
 description: Every American citizen has a right to vote but many don't know how to register. Vote.usa.gov is a website to help citizens register to vote in their state.
 image: /assets/blog/vote-usa-gov/vote.jpg

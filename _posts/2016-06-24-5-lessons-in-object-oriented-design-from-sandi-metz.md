@@ -5,6 +5,7 @@ authors:
 - jessie
 tags:
 - best practices
+- lessons learned
 excerpt: "Last month, I completed Sandi Metz's object-oriented design course. It was
 three intense days of working through refactoring exercises and
 discussing code as a group with my class of 30 students. I got a ton out

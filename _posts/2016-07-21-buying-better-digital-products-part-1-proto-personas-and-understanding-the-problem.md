@@ -9,6 +9,7 @@ tags:
 - presidential innovation fellows
 - procurement
 - training
+- modern practices
 image: /assets/blog/digital-acquisition-accelerator/complete-persona.jpg
 excerpt: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 description: Recently, 18F launched the Digital Acquisition Accelerator, a 6-8 month program aimed at creating change agents within two agencies to inspire a cultural shift within those agencies. This is the first in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
@@ -95,7 +96,7 @@ completed persona:
 	<figcaption>Example of proto-persona</figcaption>
 </figure>
 
-### Writing problem statements and breaking down the problem 
+### Writing problem statements and breaking down the problem
 
 After thinking through their product’s target users in the morning, we
 kicked off the afternoon with a session to understand the problem each

@@ -7,6 +7,7 @@ authors:
 tags:
 - technical debt
 - best practices
+- modern practices
 image: /assets/blog/technical-debt/iceberg-noaa.jpg
 description: "In the final part of our series on technical debt, we talk about ways to minimize accumulating bad or unnecessary technical debt in the first place."
 excerpt: "In the final part of our series on technical debt, we talk about ways to minimize accumulating bad or unnecessary technical debt in the first place."
