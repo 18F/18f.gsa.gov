@@ -67,7 +67,7 @@ Rails/TimeZone:
     - strict
     - flexible
 
-Style/AlignParameters:
+Layout/AlignParameters:
   # Alignment of parameters in multi-line method calls.
   #
   # The `with_first_parameter` style aligns the following lines along the same
@@ -108,7 +108,7 @@ Style/Documentation:
     - 'spec/**/*'
     - 'test/**/*'
 
-Style/DotPosition:
+Layout/DotPosition:
   Description: Checks the position of the dot in multi-line method calls.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains
   EnforcedStyle: trailing
@@ -127,7 +127,7 @@ Style/EmptyElse:
     - nil
     - both
 
-Style/ExtraSpacing:
+Layout/ExtraSpacing:
   # When true, allows most uses of extra spacing if the intent is to align
   # things with the previous or next line, not counting empty lines or comment
   # lines.
@@ -145,10 +145,9 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: true
-  MaxLineLength: 100
 
 # Checks the indentation of the first element in an array literal.
-Style/IndentArray:
+Layout/IndentArray:
   # The value `special_inside_parentheses` means that array literals with
   # brackets that have their opening bracket on the same line as a surrounding
   # opening round parenthesis, shall have their first element indented relative
@@ -169,7 +168,7 @@ Style/IndentArray:
   # But it can be overridden by setting this parameter
   IndentationWidth: ~
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: aligned
   SupportedStyles:
     - aligned
@@ -207,11 +206,22 @@ Style/TrailingCommaInArguments:
     - consistent_comma
     - no_comma
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
   # If `comma`, the cop requires a comma after the last item in an array or
   # hash, but only when each item is on its own line.
   # If `consistent_comma`, the cop requires a comma after the last item of all
-  # non-empty array and hash literals.
+  # non-empty array literals.
+  EnforcedStyleForMultiline: no_comma
+  SupportedStyles:
+    - comma
+    - consistent_comma
+    - no_comma
+
+Style/TrailingCommaInHashLiteral:
+  # If `comma`, the cop requires a comma after the last item in an array or
+  # hash, but only when each item is on its own line.
+  # If `consistent_comma`, the cop requires a comma after the last item of all
+  # non-empty hash literals.
   EnforcedStyleForMultiline: no_comma
   SupportedStyles:
     - comma
