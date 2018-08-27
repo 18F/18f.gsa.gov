@@ -7,16 +7,17 @@ tags:
 - agile bpa
 - acquisition services
 - procurement
+- lessons learned
 excerpt: "From our experience with the Agile Blanket Purchase Agreement (BPA), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles"
 ---
 
-When our acquisition team helps an agency develop a product, we form a joint team between the Technology Transformation Services (TTS) acquisition staff, the federal agency we’re partnering with, and a private vendor. From our experience with the [Agile Blanket Purchase Agreement (BPA)](https://18f.gsa.gov/what-we-deliver/agile-bpa/), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles: 
+When our acquisition team helps an agency develop a product, we form a joint team between the Technology Transformation Services (TTS) acquisition staff, the federal agency we’re partnering with, and a private vendor. From our experience with the [Agile Blanket Purchase Agreement (BPA)](https://18f.gsa.gov/what-we-deliver/agile-bpa/), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles:
 - Open software development
 - User-centered design
 - Modern development techniques
-- Agile development 
+- Agile development
 
-When each component of our joint team is on the same page about these principles, we can effectively collaborate and build the trust necessary to successfully complete our work. Below, I’ll outline each of these concepts as they apply to cross-functional teams in the post-award IT services environment. 
+When each component of our joint team is on the same page about these principles, we can effectively collaborate and build the trust necessary to successfully complete our work. Below, I’ll outline each of these concepts as they apply to cross-functional teams in the post-award IT services environment.
 
 ## Open software development
 
@@ -24,7 +25,7 @@ TTS builds software in the open to streamline communication, build public trust,
 
 ## User-centered design
 
-The satisfaction of citizens and other end-users is our primary measure of success. We work best with vendors who make it a practice to talk directly to users about their business processes and tools. Successful vendors can help agencies learn more about user needs through interviews and usability tests. In selecting our vendors, we look for demonstrated skills in planning, conducting and, most importantly, using research to drive design decisions. 
+The satisfaction of citizens and other end-users is our primary measure of success. We work best with vendors who make it a practice to talk directly to users about their business processes and tools. Successful vendors can help agencies learn more about user needs through interviews and usability tests. In selecting our vendors, we look for demonstrated skills in planning, conducting and, most importantly, using research to drive design decisions.
 
 ## Building modern software
 

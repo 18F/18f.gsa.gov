@@ -8,6 +8,7 @@ tags:
 - platforms
 - identity
 - security
+- modern practices
 excerpt: "18F is working iteratively with a team of technologists from across the government to build a platform for users who need to log in to government services. Every consumer-facing service the government offers will benefit from this platform, enhancing the privacy and security of online interactions for the public and for agencies."
 description: "18F is working iteratively with a team of technologists from across the government to build a platform for users who need to log in to government services. Every consumer-facing service the government offers will benefit from this platform, enhancing the privacy and security of online interactions for the public and for agencies."
 image: /assets/blog/login-gov/diagram.png
