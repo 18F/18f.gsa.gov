@@ -170,7 +170,7 @@ the work did not align with their core company strengths or business
 objectives. However, we didn’t have a mechanism to easily offboard
 vendors that weren’t interested in bidding on the work going forward.
 Since we created the BPA from GSA Schedules, onboarding new vendors to
-the vehicle would have required to use same evaluation criteria from the
+the vehicle would have required using the same evaluation criteria from the
 original solicitation. This would have replicated the problems we
 already experienced with getting the right labor category mix and
 required our staff to take time away from client work.
