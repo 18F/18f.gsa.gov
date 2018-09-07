@@ -9,6 +9,7 @@ tags:
 - open government
 - transparency
 - how we work
+- convincing stakeholders
 excerpt: "We've always been open about our code, but we decided to experiment with being open with our project management as well. We've opened up the Trello board for a project we're working on with the Environmental Protection Agency to the public, and the results have been fantastic."
 description: "We've always been open about our code, but we decided to experiment with being open with our project management as well. We've opened up the Trello board for a project we're working on with the Environmental Protection Agency to the public, and the results have been fantastic."
 image: /assets/blog/e-manifest/e-manifest-trello.jpg

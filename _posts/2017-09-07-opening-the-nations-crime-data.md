@@ -1,19 +1,20 @@
 ---
 title: "Opening the nation’s crime data"
 date: 2017-09-07 (optional)
-authors: 
+authors:
 - ryan-sibley
 tags:
 - department of justice
 - fbi
 - open data
 - agency work
-excerpt: "For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the Uniform Crime Reporting (UCR) Program. While the data has always been publicly available via static reports, the first release of the Crime Data Explorer makes it easier than ever for anyone to access and use the data. 
+- product launch
+excerpt: "For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the Uniform Crime Reporting (UCR) Program. While the data has always been publicly available via static reports, the first release of the Crime Data Explorer makes it easier than ever for anyone to access and use the data.
 "
 image: /assets/blog/fbi-crime-data/fbi-hero.png
 ---
 
-For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the [Uniform Crime Reporting (UCR) Program](https://ucr.fbi.gov/). While the data has always been publicly available via static reports, the first release of the [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/) makes it easier than ever for anyone to access and use the data. 
+For more than eight decades, the Federal Bureau of Investigation has collected nationwide crime data under the [Uniform Crime Reporting (UCR) Program](https://ucr.fbi.gov/). While the data has always been publicly available via static reports, the first release of the [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/) makes it easier than ever for anyone to access and use the data.
 
 <figure>
 	<img class="image-shadowed" src="{{site.baseurl}}/assets/blog/fbi-crime-data/crime-data-explorer-home.png" alt="The home page of Crime Data Explorer"/>
@@ -32,8 +33,8 @@ Broadening access to this data helps people better understand crime in their com
 Specifically, users of the site can:
 
 - Easily search, sort, and compare crime statistics by location (both nationwide and in each of the 50 states), time period, and type of crime using a national map or various drop down filters
-- After filtering results, view charts and graphs that break down data in a variety of formats 
-- Display data in either summary statistics and incident-based reports (if available) 
+- After filtering results, view charts and graphs that break down data in a variety of formats
+- Display data in either summary statistics and incident-based reports (if available)
 - Download tailored reports produced by queries, NIBRS information by location/year, and bulk datasets going back several decades
 - Use the API to build their own web applications.
 
@@ -48,15 +49,15 @@ Specifically, users of the site can:
 	<figcaption>Homicide rates as reported by the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/agency/AZ0072300/homicide">Phoenix Police from 2004-2014</a></figcaption>
 </figure>
 
-The major goals for this project included applying [open data principles](https://project-open-data.cio.gov/principles/) to UCR Program data and building the tool in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and optimize our work and tested the tool with nearly 150 people inside and outside of the government. 
+The major goals for this project included applying [open data principles](https://project-open-data.cio.gov/principles/) to UCR Program data and building the tool in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and optimize our work and tested the tool with nearly 150 people inside and outside of the government.
 
 Another goal for the Crime Data Explorer is to educate users on what can and can’t be done with UCR Program data. For instance, the data provides a snapshot in time based on available reports, but can’t tell you how a case progressed or if a person was charged, convicted, or acquitted. Other limitations include varying levels of participation across the nation, as not all law enforcement agencies report UCR data, which may lead to gaps in the data.
 
 ## What’s in the data
 
-The API makes data available for the years 1960-2015, 1960 being the year the FBI began digitizing its data. National and state estimates and all local agency data is available via the website for the years 1995-2015. The FBI plans to continue to update the CDE with new data as it becomes available. The data is machine readable and in a form that users should be able to navigate easily. We’re providing metadata packages that include dataset descriptions and a data dictionary to help users understand what they have access to. 
+The API makes data available for the years 1960-2015, 1960 being the year the FBI began digitizing its data. National and state estimates and all local agency data is available via the website for the years 1995-2015. The FBI plans to continue to update the CDE with new data as it becomes available. The data is machine readable and in a form that users should be able to navigate easily. We’re providing metadata packages that include dataset descriptions and a data dictionary to help users understand what they have access to.
 
-In making this data more accessible, we’re optimistic that more agencies will participate in UCR Program and the volume and quality of the data will improve. 
+In making this data more accessible, we’re optimistic that more agencies will participate in UCR Program and the volume and quality of the data will improve.
 
 ## Building change beyond the Crime Data Explorer
 

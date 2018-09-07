@@ -6,6 +6,7 @@ authors:
 tags:
 - accessibility
 - design
+- product launch
 excerpt: "The Accessibility Guild in the Technology Transformation Services (TTS) at the U.S. General Services Administration (GSA) set out to understand how people in different roles practice accessibility. We asked designers, developers, and product managers across our organization to share their accessibility practices, from self-testing to asking for help."
 image: /assets/blog/accessibility/accessibility-logo.png
 ---

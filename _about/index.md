@@ -17,7 +17,7 @@ subnav_items:
     permalink: /contact/
 ---
 
-18F is an office within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 18F is part of the Technology Transformation Services, which is within the Federal Acquisition Service.
+18F is an office of federal employees within the [General Services Administration](https://www.gsa.gov/) (GSA) that collaborates with other agencies to fix technical problems, build products, and improve how government serves the public through technology. 18F is part of the Technology Transformation Services, which is within the Federal Acquisition Service.
 
 -----
 
@@ -31,7 +31,7 @@ We develop partnerships with agencies to help them deliver exceptional digital e
 
 ## Our team
 
-We are a team of about 200 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
+We are a team of about 120 designers, software engineers, strategists, and product managers — all federal employees. We have offices in DC, San Francisco, Chicago, and New York, as well as team members working remotely from all over the country.
 
 Want to get to know our team a little better? These blog posts feature the voices of people from across 18F:
 
@@ -61,7 +61,7 @@ We are cost-recoverable, which means we don't receive appropriated funds from Co
 - Acquisition Services Fund (ASF) reimbursement authority: for work related to acquisitions
 - [Economy Act (PDF)](http://www.gc.noaa.gov/documents/mou-economyact.pdf) reimbursement authority: for projects that cannot use ASF reimbursement authority
 
-We use [Interagency Agreements](https://pages.18f.gov/iaa-forms/) (IAAs) to set up the terms of our projects, and bill partners through [Intra-Governmental Payment and Collection](https://www.fiscal.treasury.gov/fsservices/gov/acctg/ipac/ipac_home.htm) (IPAC) on a monthly basis.
+We use [Interagency Agreements](https://www.fiscal.treasury.gov/fsreports/ref/fincMgmtStdzn/iaa_forms.htm) (IAAs) to set up the terms of our projects, and bill partners through [Intra-Governmental Payment and Collection](https://www.fiscal.treasury.gov/fsservices/gov/acctg/ipac/ipac_home.htm) (IPAC) on a monthly basis.
 
 -----
 

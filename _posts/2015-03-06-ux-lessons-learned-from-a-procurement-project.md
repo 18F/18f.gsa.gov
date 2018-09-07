@@ -1,15 +1,14 @@
 ---
 title: "UX lessons learned from a procurement project"
 layout: post
-image: /assets/blog/discovery-launch/discovery-dashboard.png 
+image: /assets/blog/discovery-launch/discovery-dashboard.png
 date: 2015-03-06
-
 tags:
 - procurement
 - discovery.gsa.gov
 - user research
 - agency work
-
+- lessons learned
 authors:
 - boone
 - elaine
@@ -261,4 +260,3 @@ practices. I think that’s really cool.
 (Related — [Making Procurement Easier: Some Questions with
 18F’s Kaitlin
 Devine](https://18f.gsa.gov/2015/03/05/making-procurement-easier-some-questions-for-developer-kaitlin-devine/).)
-

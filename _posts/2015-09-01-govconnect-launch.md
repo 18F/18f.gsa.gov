@@ -7,7 +7,7 @@ authors:
 - sarah
 tags:
 - agency work
-
+- product launch
 excerpt: "We recently began our partnership with the Office of Personnel Management (OPM) on the GovConnect initiative, which helps agencies create a culture of excellence based on collaboration and teamwork."
 description: "We recently began our partnership with the Office of Personnel Management (OPM) on the GovConnect initiative, which helps agencies create a culture of excellence based on collaboration and teamwork."
 image:

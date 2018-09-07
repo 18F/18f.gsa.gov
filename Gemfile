@@ -4,12 +4,12 @@ ruby '~>2.3.1'
 
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
-gem 'jekyll', '~> 3.3.0'
+gem 'jekyll', '~> 3.3.1'
 gem 'jemoji'
 gem 'parallel'
 
 group :jekyll_plugins do
-  gem 'jekyll-archives', git: 'git://github.com/jekyll/jekyll-archives.git', ref: '112c508'
+  gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'

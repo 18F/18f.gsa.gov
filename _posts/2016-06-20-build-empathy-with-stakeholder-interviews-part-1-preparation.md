@@ -7,6 +7,7 @@ tags:
 - user research
 - user-centered design
 - how we work
+- convincing stakeholders
 excerpt: "In this post, I'll cover what stakeholder interviews are, why they’re
 valuable, and how to prepare for them. In the second post, I’ll cover how to actually
 run the interviews as well as some tips for synthesizing and integrating
@@ -21,7 +22,7 @@ image:
 A few weeks ago, the State Department held its first conference
 dedicated to user experience design, UX Exponential. The conference
 organizers invited me to speak, and in this two-part series, I'd like to
-summarize (as best as possible) the presentation I gave, &ldquo;<a href="https://speakerdeck.com/andrewmaier/foster-the-people-building-empathy-with-stakeholder-interviews">Foster The People: Building Empathy with Stakeholder Interviews</a>.&rdquo; 
+summarize (as best as possible) the presentation I gave, &ldquo;<a href="https://speakerdeck.com/andrewmaier/foster-the-people-building-empathy-with-stakeholder-interviews">Foster The People: Building Empathy with Stakeholder Interviews</a>.&rdquo;
 
 In this post, I'll cover what stakeholder interviews are, why they’re
 valuable, and how to prepare for them. In [the second post](https://18f.gsa.gov/2016/07/22/building-empathy-with-stakeholder-interviews-part-2-conversation/), I’ll cover how to actually

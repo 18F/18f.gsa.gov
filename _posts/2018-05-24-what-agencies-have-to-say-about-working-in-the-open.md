@@ -6,6 +6,7 @@ authors:
 tags:
 - open source
 - how we work
+- convincing stakeholders
 excerpt: "18F has long espoused the benefits of using open source
 technologies and more broadly, the value of working in the open. We
 wanted to hear from other agencies about how open source has worked for

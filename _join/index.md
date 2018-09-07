@@ -25,18 +25,19 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 Links below will take you to the Technology Transformation Services join page to apply.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/user-experience-designer//">18F User Experience Designer</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/consulting-technical-lead/">TTS Consulting Technical Lead</a>
 </section>
 
-<!--**We currently have no open positions at 18F.**   -->
-
 <!-- Links below will take you to the Technology Transformation Services join page to apply. -->
+
+<!-- **We currently have no open positions at 18F.** -->
 
 <!--
 TEMPLATE:
 <section class="usa-grid-full">
   <a class="usa-button usa-button-secondary" href="LINK">JOB TITLE</a>
 </section>
+
 -->
 
 ## How to apply
@@ -54,7 +55,7 @@ job postings.
 Most 18F positions are in the Excepted Service and are “not to exceed”
 (NTE) positions, which means **they are two-year terms and can be
 renewed once, for a total of four years**. To apply for these Excepted
-Service positions, you must be a United States citizens or national
+Service positions, you must be a United States citizen or national
 (residents of American Samoa and Swains Islands) and you must not be a
 current GSA employee or contractor.
 
@@ -153,4 +154,4 @@ at 18F, including:
 -   [Benefits](https://handbook.18f.gov/benefits/)
 -   [Leave](https://handbook.18f.gov/benefits/#leave)
 -   [Telework and virtual worker policy](https://handbook.18f.gov/telework/)
--   [Professional development and training processes](https://handbook.18f.gov/professional-development-and-training/#speaking-at-conferences)
+-   [Professional development and training processes](https://handbook.18f.gov/attending-conferences/)

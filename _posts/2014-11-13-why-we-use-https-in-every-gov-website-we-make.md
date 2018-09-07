@@ -4,15 +4,13 @@ title: "Why we use HTTPS for every .gov we make"
 image:
 description: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
 excerpt: 18F uses HTTPS in every .gov website we make, so that our users have a fast, secure, private connection.
-
 authors:
  - eric
-
 tags:
 - security
 - best practices
 - https
-
+- modern practices
 ---
 The `.gov` in government websites carries a lot of weight. Citizens expect government websites to be secure, trustworthy, and reliable. Citizens expect anything they read on a `.gov` website to be official, and they expect any information they submit to that website &mdash; especially if they're submitting personal information &mdash; to be sent safely and only to the government.
 

@@ -8,11 +8,12 @@ tags:
 - devops
 - agile
 - security
+- convincing stakeholders
 excerpt: "Agile without DevOps is a bundle of potential energy with no outlet. We’ve found that it’s easier to get agency buy-in for DevOps if automated security audits are part of that work."
 ---
 
 In our experience working with federal, state, and local governments that practice agile software development, we’ve seen a common problem when those teams go to deploy their code to production. Using agile, government developers and contractors are improving software quickly and incrementally, but crucial questions pop up a couple of sprints in. _How will these software components be assembled into a working system? Where will all of this code run? How will it be deployed?_ These matters usually fit under the umbrella of “operations,” not development, which is often the responsibility of a different department operating under a different budget.
-In the private sector, these problems are often overcome by having development and operations teams work together as one DevOps team. For this to be successful in government, we’ve found it important to add in the security team to create a “DevSecOps” team. 
+In the private sector, these problems are often overcome by having development and operations teams work together as one DevOps team. For this to be successful in government, we’ve found it important to add in the security team to create a “DevSecOps” team.
 
 ## Operations then and now
 
