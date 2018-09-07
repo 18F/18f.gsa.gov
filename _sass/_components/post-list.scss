@@ -23,7 +23,7 @@
     display: inline-block;
     margin-top: $section-margins;
     padding-bottom: $section-margins;
-    margin-bottom: $paragraph-margins;
+    margin-bottom: 0;
 
     &:first-child {
       margin-top: 0;

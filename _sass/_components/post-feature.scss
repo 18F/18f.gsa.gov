@@ -24,7 +24,7 @@
   }
 
   .post {
-    margin-bottom: $paragraph-margins-thick;
+    margin-bottom: $paragraph-margins;
 
     &:last-of-type {
       margin-bottom: 0;
@@ -72,5 +72,5 @@ time {
 
 .post-border {
   border-bottom: $border-accent-medium;
-  padding-bottom: $paragraph-margins-thick;
+  padding-bottom: $paragraph-margins;
 }
