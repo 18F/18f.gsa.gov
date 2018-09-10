@@ -7,10 +7,17 @@
 }
 
 .sidebar {
-  label {
+  label,
+  h4 {
     font-size: $small-font-size;
     font-weight: $font-bold;
     margin-bottom: $paragraph-margins;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -28,6 +35,10 @@
   label {
     margin-top: 0;
   }
+}
+
+.sidebar-callout {
+  background-color: $color-gray-lightest;
 }
 
 .blog-footer {
