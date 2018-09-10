@@ -7,14 +7,14 @@
   h2 {
     font-size: $h3-font-size;
     margin-top: 0.5em;
-
+    margin-bottom: $paragraph-margins;
     a {
       color: $color-base;
       text-decoration: none;
     }
     + .post-byline {
       margin-top: 0;
-      margin-bottom: $paragraph-margins-thick;
+      margin-bottom: $paragraph-margins;
     }
   }
 
@@ -22,7 +22,7 @@
     border-bottom: $border-gray;
     display: inline-block;
     margin-top: $section-margins;
-    padding-bottom: $section-margins;
+    padding-bottom: $paragraph-margins-thick;
     margin-bottom: 0;
 
     &:first-child {

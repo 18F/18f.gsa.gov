@@ -28,7 +28,7 @@
 
 .post-tags {
   display: block;
-  margin-bottom: $section-margins;
+  margin-bottom: $paragraph-margins-thick;
   a {
     @include padding(0.6rem null);
     background-color: $color-gray-lightest;
