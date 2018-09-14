@@ -4,15 +4,15 @@
 .post-byline {
   color: $color-gray;
   font-size: $h5-font-size;
+  display: inline-block;
 }
 
 .post-author {
-  color: $color-gray;
-  font-weight: $font-bold;
+  color: $color-medium;
   text-decoration: none;
 
   &:visited {
-    color: $color-gray;
+    color: $color-medium;
   }
 }
 
@@ -20,13 +20,21 @@
   margin-left: -3px;
 }
 
+// currently a bullet, which renders too large when at the same size as the font
+.post-meta-separator {
+  color: $color-gray;
+  font-size: 0.8em;
+}
+
 .post-tags {
+  display: block;
+  margin-bottom: $paragraph-margins-thick;
   a {
     @include padding(0.6rem null);
-    background-color: $color-medium;
+    background-color: $color-gray-lightest;
+    color: $color-medium;
     display: inline-block;
     font-size: $h6-font-size;
-    font-weight: $font-bold;
     line-height: 1;
     margin-bottom: 4px;
     margin-right: 0;
@@ -34,12 +42,12 @@
     text-transform: lowercase;
 
     &:hover {
-      background-color: $color-medium-hover;
+      background-color: $color-gray-hover;
     }
 
     &:hover,
     &:visited {
-      color: $color-white;
+      color: $color-medium-hover;
     }
   }
 }
