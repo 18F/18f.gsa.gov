@@ -35,6 +35,7 @@ $color-medium-hover: #00547A;
 
 $color-gray-lightest: #f1f1f1; // Adding bc used in our $border-light in this file.
 $color-gray-hover   : #fafafa;
+$color-gray-divider: #bbbbbb;
 
 // Spacing
 $spacer-margins:  0.5rem;
@@ -50,6 +51,7 @@ $border-accent-height: 1rem;
 $border-accent:        $border-accent-height solid $color-bright;
 $border-accent-medium: $border-accent-height solid $color-medium;
 $border-light:         1px solid $color-gray-lightest;
+$border-gray: 1px solid $color-gray-divider;
 $border-thick:       4px solid $color-gray-lightest;
 
 // Grid breakpoints
