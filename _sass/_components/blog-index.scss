@@ -1,25 +1,46 @@
 // Blog index
 // ==========================
 
-.blog-content {
+.blog-content,
+.sidebar {
   margin-top: $section-margins;
+}
+
+.sidebar {
+  label {
+    font-size: $small-font-size;
+    font-weight: $font-bold;
+    margin-bottom: $paragraph-margins;
+  }
 }
 
 .blog-search {
   float: right;
   width: 100%;
+  padding-bottom: $paragraph-margins;
+  margin-bottom: $paragraph-margins;
+  border-bottom: 10px solid $color-primary;
 
   @include media($medium-screen) {
     max-width: 29rem;
   }
+
+  label {
+    margin-top: 0;
+  }
 }
 
-.page-blog {
-  .background-dark {
-    .section-heading {
-      @include media($medium-screen) {
-        display: initial;
-      }
-    }
+.blog-footer {
+  h2 {
+    font-size: $base-font-size;
+    font-weight: normal;
   }
+
+  a.usa-button {
+    margin: 0;
+  }
+}
+
+.media-link img {
+  width: 100%;
 }
