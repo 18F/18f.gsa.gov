@@ -30,7 +30,7 @@ capabilities. But as many agencies across government try to implement
 this new way, we’ve observed a number of antipatterns that hinder the
 success of agile contracts (an antipattern is “... a common response to a recurring problem that is usually ineffective and risks being highly counterproductive”).
 
-Let’s look at with how agencies can problematically describe their
+Let’s look at how agencies can problematically describe their
 requirements trying to be agile.
 
 ## Antipattern: Laundry lists of user stories
