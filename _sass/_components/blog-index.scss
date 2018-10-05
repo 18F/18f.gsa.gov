@@ -6,10 +6,13 @@
   margin-top: $section-margins;
 }
 
+.blog-content {
+  padding-right: 10px;
+}
+
 .sidebar {
-  label,
-  h4 {
-    font-size: $small-font-size;
+  label {
+    font-size: $h3-font-size;
     font-weight: $font-bold;
     margin-bottom: $paragraph-margins;
   }
@@ -18,6 +21,7 @@
     list-style: none;
     padding-left: 0;
     margin-left: 0;
+    margin-bottom: $section-margins;
   }
 }
 
@@ -39,6 +43,18 @@
 
 .sidebar-callout {
   background-color: $color-gray-lightest;
+  padding: 20px;
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: $paragraph-margins-thick;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .blog-footer {
