@@ -7,27 +7,27 @@
   h2 {
     font-size: $h3-font-size;
     margin-top: 0.5em;
-
+    margin-bottom: $paragraph-margins;
     a {
       color: $color-base;
       text-decoration: none;
     }
+    + .post-byline {
+      margin-top: 0;
+      margin-bottom: $paragraph-margins;
+    }
   }
 
   li {
-    border-bottom: $border-light;
+    border-bottom: $border-gray;
     display: inline-block;
     margin-top: $section-margins;
-    padding-bottom: $section-margins;
-    margin-bottom: $paragraph-margins;
+    padding-bottom: $paragraph-margins-thick;
+    margin-bottom: 0;
 
     &:first-child {
       margin-top: 0;
     }
-  }
-
-  .post-tags {
-    margin-top: 1em;
   }
 
   .media_link {
@@ -42,5 +42,30 @@
 
   img {
     max-width: 29rem;
+    width: 100%;
   }
+}
+
+.post-click-target {
+  color: $color-black;
+  text-decoration: none;
+
+  &:visited,
+  &:hover,
+  &:focus,
+  &:hover:visited,
+  &:hover:focus {
+    color: $color-black;
+    text-decoration: none;
+  }
+
+  p {
+    color: $color-black;
+    text-decoration: none;
+  }
+}
+
+// a two-thirds wide excerpt is preceded by an image thumbnail. Pad the thumbnail.
+.usa-width-two-thirds .post-click-target p {
+  margin-left: $paragraph-margins;
 }
