@@ -1,10 +1,9 @@
 ---
 title: "Implementing rules without rules engines"
 date: 2018-10-09
-Authors:
+authors:
 - ed-mullen
 tags:
-- human services
 - technical guides
 excerpt: "If you’re building a rules-based system, don’t assume that you
 need a separate business rules engine product. Rules can be implemented
