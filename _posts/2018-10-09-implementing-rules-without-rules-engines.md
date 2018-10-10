@@ -103,7 +103,7 @@ Federal oversight bodies as well as the public can review your code and see exac
 
 **If you’re building a rules-based system, don’t assume that you need a separate business rules engine product.** Rules can be implemented more easily and with less overhead by cross-functional teams working to describe the rules and policy directly in code using general purpose programming languages like Python, Ruby, etc. This approach opens you to well-supported communities that can more readily be accessed to support the maintenance of the rules and systems over time. It also creates opportunities for openness that can increase reuse, collaboration, trust, and integrity.
 
-18F is always available to help work through questions like this. Feel free to reach out to our team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov) to set up a time
+18F is always available to help work through questions like this. Feel free to reach out to our team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov?subject=Inquiry%20related%20to%20the%20Implementing%20Rules%20Without%20Rules%20Engines%20blog%20post&cc=eligibility.rules.service@gsa.gov) to set up a time
 to talk.
 
 *This post is largely a distillation of the work of a number of 18F
