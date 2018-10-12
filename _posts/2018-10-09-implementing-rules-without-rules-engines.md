@@ -96,7 +96,7 @@ costs and effort of hiring vendors or individuals are more reasonable, as you ar
 
 ### It fosters openness and accountability.
 
-When you use common programming languages to describe the rules in code, you open yourself to the benefits of open source software: improved quality, security, reusability, and trustworthiness. The code can readily be shared through a public code repository, as you can see with the [DATA Act rules on GitHub](https://github.com/fedspendingtransparency/data-act-broker-backend/tree/48e3323/dataactvalidator/config/sqlrules).
+When you use common programming languages to describe the rules in code, you open yourself to the benefits of open source software: improved quality, security, reusability, and trustworthiness. The code can readily be shared through a public code repository, as you can see with the [DATA Act rules on GitHub](https://github.com/fedspendingtransparency/data-act-broker-backend/tree/master/dataactvalidator/config/sqlrules).
 Federal oversight bodies as well as the public can review your code and see exactly how the rules are being implemented, creating confidence that the policies set by the federal and state agencies are being accurately applied. Non-governmental partners can view the rules as implemented and integrate public APIs or reuse your rulesets to aid their clients in determining their best options. Government partners can repurpose the rules without the need to procure the same rules engine. Legislators could use the code to run tests against test data to investigate impacts of potential legislative changes.  
 
 ## Take the easier approach
