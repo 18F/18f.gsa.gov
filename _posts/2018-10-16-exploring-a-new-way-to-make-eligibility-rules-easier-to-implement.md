@@ -3,7 +3,7 @@ title: "Exploring a new way to make eligibility rules easier to
 implement"
 date: 2018-10-16
 authors:
--ed-mullen
+- ed-mullen
 tags:
 - health and human services
 excerpt: "Here at 18F, we've worked with many talented and dedicated civil servants who deliver critical services to residents across the country. These programs are managed at the federal level, but administered at the state agency level, and often executed at the local level. The challenge is
