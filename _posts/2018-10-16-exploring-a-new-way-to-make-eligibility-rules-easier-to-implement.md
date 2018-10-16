@@ -21,8 +21,6 @@ This translation of federal policy into many state systems, with many
 technology partners in between, creates opportunities for implementation errors and represents significant duplicated effort, since most states (and territories, and sometimes each county and tribal organization) manage their own separate IT system(s) to run these programs.
 
 ![Animation: describing the scale of the challenge. Text reads: Sometimes eligibility criteria for federal programs change. When this happens states review the changes, identify needed system changes to implement the policy, prioritize system changes against all their other work, turn policy into business requirements, and procure or conduct implementation work. Federal oversight of this progress happens all along. And after all the time, effort, and money, sometimes the process is a success, and sometimes it’s not. And this happens over and over, in every state, and every territory, and sometimes in tribal organizations as well.]({{site.baseurl}}/assets/blog/eligibility-rules-policy/rules-policy-review.gif)
-</figure>
-
 
 Given all this duplicative effort and the [corresponding risk](https://www.standishgroup.com/sample_research_files/Haze4.pdf),
 we got to thinking about opportunities for improvement.
