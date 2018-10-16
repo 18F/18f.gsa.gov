@@ -6,8 +6,8 @@ authors:
 - ed-mullen
 tags:
 - health and human services
-excerpt: "Here at 18F, we've worked with many talented and dedicated civil servants who deliver critical services to residents across the country. The challenge is that when federal agencies issue a policy change, say income eligibility guidelines, that policy gets communicated down to the states as text on the Federal Register or via PDF. This translation of federal policy into many state systems, with many technology partners in between, creates opportunities for implementation errors. Given all this duplicative effort and the corresponding risk we got to thinking about opportunities for improvement."
-image: assets/blog/eligibility-rules-policy/eligibility-rules-policy.jpg
+excerpt: "When federal agencies issue a policy change, say income eligibility guidelines, that policy gets communicated down to the states as text on the Federal Register or via PDF. This translation of federal policy into many state systems, with many technology partners in between, creates opportunities for implementation errors. Given all this duplicative effort and the corresponding risk, we got to thinking about opportunities for improvement."
+image: /assets/blog/eligibility-rules-policy/eligibility-rules-policy.jpg
 ---
 
 Here at 18F, [we've worked with many talented and dedicated civil servants who deliver critical services to residents across the country](https://github.com/18F/human-services) through programs
