@@ -6,8 +6,7 @@ authors:
 - ed-mullen
 tags:
 - health and human services
-excerpt: "Here at 18F, we've worked with many talented and dedicated civil servants who deliver critical services to residents across the country. These programs are managed at the federal level, but administered at the state agency level, and often executed at the local level. The challenge is
-that when federal agencies issue a policy change, say income eligibility guidelines, that policy gets communicated down to the states as text on the Federal Register or via PDF. This translation of federal policy into many state systems, with many technology partners in between, creates opportunities for implementation errors. Given all this duplicative effort and the corresponding risk we got to thinking about opportunities for improvement."
+excerpt: "Here at 18F, we've worked with many talented and dedicated civil servants who deliver critical services to residents across the country. The challenge is that when federal agencies issue a policy change, say income eligibility guidelines, that policy gets communicated down to the states as text on the Federal Register or via PDF. This translation of federal policy into many state systems, with many technology partners in between, creates opportunities for implementation errors. Given all this duplicative effort and the corresponding risk we got to thinking about opportunities for improvement."
 image: assets/blog/eligibility-rules-policy/eligibility-rules-policy.jpg
 ---
 
@@ -26,7 +25,7 @@ This translation of federal policy into many state systems, with many
 technology partners in between, creates opportunities for implementation errors and represents significant duplicated effort, since most states (and territories, and sometimes each county and tribal organization) manage their own separate IT system(s) to run these programs.
 
 <figure>
-  <img src="{{site.baseurl}}assets/blog/eligibility-rules-policy/rules-policy-review.gif" alt=Animation describing the scale of the challenge. Text reads:
+  <img src="{{site.baseurl}}/assets/blog/eligibility-rules-policy/rules-policy-review.gif" alt=Animation describing the scale of the challenge. Text reads:
 “Sometimes eligibility criteria for federal programs change. When this happens states review the changes, identify needed system changes to implement the policy, prioritize system changes against all their other work, turn policy into business requirements, and procure or conduct implementation work. Federal oversight of this progress happens all along. And after all the time, effort, and money, sometimes the process is a success, and sometimes it’s not. And this happens over and over, in every state, and every territory, and sometimes in tribal organizations as well.”/>
 </figure>
 
@@ -42,7 +41,7 @@ In learning more about this problem, we thought to ourselves...
 criteria into a single, central** ***web service*** **that states could use to help determine eligibility?**
 
 <figure>
-  <img src="{{site.baseurl}}assets/blog/eligibility-rules-policy/eligibility-process.gif" alt=Animation describing the eligibility rules service concept.
+  <img src="{{site.baseurl}}/assets/blog/eligibility-rules-policy/eligibility-process.gif" alt=Animation describing the eligibility rules service concept.
   Text reads: “When someone applies to a program, their data is evaluated against eligibility criteria by a rules engine the state operates. Most states operate their own. Each state’s rules engine needs to change when the policies change how eligibility is determined. (This is where all the effort and risk comes in.) But there is a way that a single, central rules service could be accessed by many states so they wouldn’t have to
   manage their own. States would still have their own systems but the
   rules part would be handled by a central rules service which would be managed by the federal agency. The state systems would talk to the rules service over the internet using an application programming interface or API.”
