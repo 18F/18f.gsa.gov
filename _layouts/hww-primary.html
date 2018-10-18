@@ -31,7 +31,7 @@ layout: default
 %}
 {% endif %}
 
-<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %} usa-content">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">
       {% include navigation.html subnav=true %}
@@ -50,8 +50,17 @@ layout: default
   {% endif %}
 </section>
 
+<section class="usa-section background-dark">
+  <div class="usa-grid">
+    <p>Do you have a project that needs technical expertise and an innovative strategy to move forward?</p>
+    <a class="usa-button usa-button-secondary" href="#">Give us a call</a>
+  </div>
+</section>
+
 <section class="usa-section background-gray">
-  <section class="usa-grid">
+  <div class="usa-grid">
+  <h2>Case studies</h2>
+  <p>Here are a couple of projects we’ve built with federal agencies using a Path Analysis followed by Experiment & Iterate phases.</p>
 
     {% include card-project.html
        project='fbi-crime-data-explorer'
@@ -63,7 +72,7 @@ layout: default
     {% include card-project.html
        project='calc'
     %}
-  </section>
+  </div>
 </section>
 
 {% if page.banner_cta %}
