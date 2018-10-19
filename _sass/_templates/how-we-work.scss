@@ -1,0 +1,36 @@
+// How we work
+// ==========================
+
+.page-how-we-work {
+  .graphic-list {
+    list-style: none;
+    max-width: 100%;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      font-size: $h4-font-size;
+      font-weight: $font-bold;
+      vertical-align: top;
+
+      @include media($medium-screen) {
+        width: 24%;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.hww-subheading {
+  @include h2;
+  color: $color-medium;
+  margin-top: 0;
+}
+
+.hww-list-small {
+  font-size: $base-font-size;
+  font-weight: $font-normal;
+}
