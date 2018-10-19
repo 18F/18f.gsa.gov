@@ -7,8 +7,8 @@ image: /assets/img/page-feature/join.jpg
 redirect_from: /hire/
 gridless: true
 ---
-<div class="usa-grid-full usa-grid-reversed">
-<aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+<div class="usa-grid usa-grid-reversed">
+<aside class="usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
   <ul>
     <li class="section-info-list-item">
       <div class="section-info-header">Have a project in mind?</div>
@@ -30,7 +30,7 @@ gridless: true
     </li>
   </ul>
 </aside>
-<div class="usa-grid usa-section usa-width-two-thirds">
+<div class="usa-section usa-width-two-thirds">
 {% markdown %}
 
 ### Let’s work together to improve the user experience of government.
@@ -50,18 +50,22 @@ To learn more about how we work with agencies, read up on our [past projects]({{
   <hr/>
 </div>
 
-
-<form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==" />
-<fieldset>
-<fieldset style="border:none;padding:0;margin-top:0px;background: #333333;border-top: 10px solid #00cfff;padding:15px">
-
-<div style="color:#ffffff;font-size: 13px">
-<b>Sign up for the 18F newsletter.</b>
+<div class="usa-section usa-grid">
+  <h2>Sign up for the 18F newsletter</h2>
+  <div class="usa-width-one-half">
+    <p>Receive occassional updates about our work and news about the civic tech community.</p>
+  </div>
+  <div class="usa-width-one-half">
+    <form class="newsletter" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
+      <input name="utf8" type="hidden" value="&#x2713;">
+      <input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==">
+      <fieldset>
+        <div class="form-group">
+          <label for="email">Your email address</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <input type="submit" name="commit" value="Sign up" class="form_button">
+      </fieldset>
+    </form>
+  </div>
 </div>
-<input type="text" name="email" id="email" placeholder="Enter your email address" style="display: inline-block;width:100%;font-size: 12px;height: auto !important" />
-
-
-<input type="submit" name="commit" value="Submit" class="form_button" style="display: inline-block;background: #005591 !important;color: #fff;border-color:#005591 !important;text-shadow: none !important;border-radius: 0px !important;font-size: 13px;padding: 4px 9px !important;margin-top:8px;margin-bottom:0px !important;height:auto !important" />
-
-</fieldset>
-</form>
