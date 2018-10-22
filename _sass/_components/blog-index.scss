@@ -42,7 +42,7 @@
 
 .sidebar-callout {
   background-color: $color-gray-lightest;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   padding: 20px;
 
   ul {
@@ -56,6 +56,10 @@
       margin-bottom: 0;
     }
   }
+}
+
+.sidebar-heading-topic {
+  margin-top: 2.3rem;
 }
 
 .blog-footer {
