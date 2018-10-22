@@ -51,6 +51,7 @@
 
   li {
     margin-bottom: $paragraph-margins-thick;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -63,7 +64,7 @@
     font-weight: normal;
   }
 
-  a.usa-button {
+  .usa-button {
     margin: 0;
   }
 }
