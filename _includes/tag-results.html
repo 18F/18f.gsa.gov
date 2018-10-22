@@ -6,9 +6,9 @@
     {% for post in posts %}
       <li>
         <div class="usa-width-one-whole">
-          <h2>
+          <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
+          </h3>
           {% unless include.limit_metadata %}
             {% include post-author.html context='post' %}
             <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
