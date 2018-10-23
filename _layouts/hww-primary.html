@@ -31,7 +31,7 @@ layout: default
 %}
 {% endif %}
 
-<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %} usa-content">
+<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %} usa-content hww-main-content">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">
       {% include navigation.html subnav=true %}
@@ -48,13 +48,6 @@ layout: default
     {% endif %}
     {{ content }}
   {% endif %}
-</section>
-
-<section class="usa-section background-dark">
-  <div class="usa-grid">
-    <p>Do you have a project that needs technical expertise and an innovative strategy to move forward?</p>
-    <a class="usa-button usa-button-secondary" href="#">Give us a call</a>
-  </div>
 </section>
 
 <section class="usa-section background-gray">

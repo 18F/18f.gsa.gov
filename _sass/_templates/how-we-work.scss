@@ -9,13 +9,26 @@
 
     li {
       display: inline-block;
-      font-size: $h4-font-size;
       font-weight: $font-bold;
+      width: 48%;
       vertical-align: top;
 
       @include media($medium-screen) {
         width: 24%;
       }
+
+      &:nth-last-child(-n+2) {
+        padding-top: 3rem;
+
+        @include media($medium-screen) {
+          padding-top: 0;
+        }
+      }
+    }
+
+    img {
+      width: max-content;
+      height: 60px;
     }
   }
 
@@ -25,12 +38,20 @@
 }
 
 .hww-subheading {
-  @include h2;
-  color: $color-medium;
+  @include h3;
   margin-top: 0;
 }
 
-.hww-list-small {
-  font-size: $base-font-size;
-  font-weight: $font-normal;
+.hww-main-content {
+  h2 {
+    @extend .small-caps;
+  }
+}
+
+.section-cta {
+  p {
+    @include h3;
+    line-height: $heading-line-height;
+    max-width: 44ch;
+  }
 }
