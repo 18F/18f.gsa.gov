@@ -109,8 +109,8 @@ In the following months, this engagement transitioned to a “lean UX”
 approach of building, measuring, learning. My colleagues and I held
 internal bake-offs in which [design studios](https://methods.18f.gov/design-studio/) gave way to [dot voting](https://methods.18f.gov/feature-dot-voting/) sessions and
 [prototyping](https://methods.18f.gov/make/prototyping/). Once we’d
-built enough to put in front of users, we conducted evaluative research
-([usability testing](https://methods.18f.gov/validate/usability-testing/)) to
+built enough to put in front of users, we conducted validative research —
+[usability testing](https://methods.18f.gov/validate/usability-testing/) — to
 determine whether our ideas were too hot, too cold, or just right.
 
 As I approached the end of this engagement, I began to wonder how I
@@ -133,14 +133,14 @@ research.
 A research review proceeds in two parts. In the first, the product team
 reviews the design of and findings from recent studies (a natural
 prerequisite here is that you’ll need to have conducted a few studies
-before doing a research review). In the second, the team conducts a
-retrospective focused on research practices.
+beforehand). In the second, the team conducts a retrospective focused
+on research practices.
 
 <figure>
   <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png">
     <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png" alt="Screenshot of slides for a research review session."/>
   </a>
-  <figcaption>Research review</figcaption>
+  <figcaption>Slides that provide an overview of the team's recent research.</figcaption>
 </figure>
 
 As I mentioned, this was a five-month engagement that began with two
@@ -176,9 +176,9 @@ Next, I reviewed the design of the four studies we’d conducted. I
 described the problem statements that framed these studies, the methods
 we employed, the insights we gained, and the design decisions we made.
 
-Summarizing our research to date put us in a great position to do a
-summative research retrospective. After inviting the team to a shared
-document, I asked everyone to spend two minutes each answering the
+Summarizing our research to date put us in a great position to do a 
+practice-related research retrospective. After inviting the team to 
+a shared document, I asked everyone to spend two minutes each answering the
 following questions:
 
 -   **Liked:** What have you liked about the research we’ve done so far?
@@ -195,9 +195,8 @@ foundational and generative research.
 ## Yes, chef
 
 While the primary benefit of these exercises is becoming a better
-research practitioner, the social nature of these exercises promises
-additional benefits. Specifically, routinely performing these exercises
-can:
+researcher, their social nature promises additional benefits. Specifically,
+routinely performing these exercises can:
 
 1.  Demonstrate humility
 2.  Encourage awareness that listening is a foundational part of a designer’s toolkit
