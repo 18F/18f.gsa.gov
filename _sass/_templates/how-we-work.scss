@@ -39,6 +39,7 @@
 
 .hww-subheading {
   @include h3;
+  margin-bottom: 3rem;
   margin-top: 0;
 }
 
@@ -48,7 +49,19 @@
   }
 }
 
+.section-case-studies-text {
+  margin-bottom: 4rem;
+}
+
 .section-cta {
+  img {
+    margin-bottom: 2rem;
+
+    @include media($large-screen) {
+      margin-bottom: 0;
+    }
+  }
+
   p {
     @include h3;
     line-height: $heading-line-height;
