@@ -7,7 +7,7 @@ banner_cta: true
 content_focus: false
 ---
 
-<div class="" markdown="1" style="max-width: 700px;">
+<div class="hww-intro" markdown="1">
 ### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
 
 18F works with partners that have federal funding and, as a cost recoverable office, we’re required to charge for our work.

@@ -1,0 +1,15 @@
+.section-cta {
+  img {
+    margin-bottom: 2rem;
+
+    @include media($large-screen) {
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    @include h3;
+    line-height: $heading-line-height;
+    max-width: 44ch;
+  }
+}
