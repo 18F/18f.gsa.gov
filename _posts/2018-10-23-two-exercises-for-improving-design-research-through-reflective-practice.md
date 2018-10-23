@@ -75,7 +75,7 @@ task).
   <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/feedback.png">
     <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/feedback.png" alt="Screenshot of feedback from researcher suggesting an alternate UI design. Highlighted text reads: You discussed possibilities not in the design. She had a problem with the magnifying glass icon, and you suggested a plus icon. It may have been better to ask what she would prefer first."/>
   </a>
-  <figcaption>Experienced researcher feedback</a></figcaption>
+  <figcaption>Experienced researcher feedback</figcaption>
 </figure>
 
 Third, socialize the performance-related feedback you receive. In this
@@ -140,7 +140,7 @@ retrospective focused on research practices.
   <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png">
     <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png" alt="Screenshot of slides for a research review session."/>
   </a>
-  <figcaption>Research review</a></figcaption>
+  <figcaption>Research review</figcaption>
 </figure>
 
 As I mentioned, this was a five-month engagement that began with two
@@ -210,7 +210,7 @@ can:
 9.  Potentially make findings more actionable
 
 If you decide to give them a try, let us know how these exercises work
-for you at [*18f-research@gsa.gov*](mailto:18f-research@gsa.gov).
+for you at [18f-research@gsa.gov](mailto:18f-research@gsa.gov).
 
 *Note: Thanks to Dan Brown, Dave Hora, Anne Petersen, Steve Portigal,
 Jeff Maher, Brigette Metzler, Kate Towsey, and Victor Udoewa for
