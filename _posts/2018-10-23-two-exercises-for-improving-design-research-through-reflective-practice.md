@@ -68,7 +68,7 @@ task).
   <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/usability-test.png">
     <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/usability-test.png" alt="Screenshot of usability test video."/>
   </a>
-  <figcaption>Usability test</a></figcaption>
+  <figcaption>Usability test</figcaption>
 </figure>
 
 <figure>
@@ -159,7 +159,7 @@ describing research across various levels:
   <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/tweet.png">
     <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/tweet.png" alt="Screenshot of a tweet by Dave Malouf. Text reads: A great framing I use is there are 3 levels of research: Foundational: akin to problem-space rsearch. (Opportunity for design) Generative: product idea generation w/in a space (get to the right design) Validative: is the product I've got good. (is the Design right?)"/>
   </a>
-  <figcaption>Tweet by Dave Malouf</a></figcaption>
+  <figcaption>Tweet by Dave Malouf</figcaption>
 </figure>
 
 I also shared this local-maxima diagram I learned about from [Joshua Porter’s 52 Weeks of UX](http://52weeksofux.com/post/694598769/the-local-maximum).
