@@ -10,8 +10,8 @@
     li {
       display: inline-block;
       font-weight: $font-bold;
-      width: 48%;
       vertical-align: top;
+      width: 48%;
 
       @include media($medium-screen) {
         width: 24%;
@@ -27,8 +27,8 @@
     }
 
     img {
-      width: max-content;
       height: 60px;
+      width: max-content;
     }
   }
 
