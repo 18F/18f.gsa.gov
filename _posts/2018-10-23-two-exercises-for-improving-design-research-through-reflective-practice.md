@@ -6,7 +6,7 @@ authors:
 - andrewmaier
 tags:
 - design
-- research
+- user research
 excerpt: "Maturing your design research practice is a bit like honing your skills
 at cooking. Experienced researchers rely on a refined set of sensibilities, or tastes,
 in their use and application of research methods; they create, curate, and refine
