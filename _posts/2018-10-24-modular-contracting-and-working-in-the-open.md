@@ -1,7 +1,7 @@
 ---
 title: "Modular contracting and working in the open"
 date: 2018-10-24
-Authors:
+authors:
 - ed-mullen
 - mark-headd
 tags:
