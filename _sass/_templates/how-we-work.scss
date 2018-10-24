@@ -3,37 +3,39 @@
 
 .page-how-we-work {
   .graphic-list {
+    border-top: $border-accent;
+    border-color: $color-medium;
+    font-size: initial;
     list-style: none;
-    max-width: 100%;
     padding-left: 0;
+    padding-top: $paragraph-margins;
 
     li {
-      display: inline-block;
+      display: table;
       font-weight: $font-bold;
-      vertical-align: top;
-      width: 48%;
-
-      @include media($medium-screen) {
-        width: 24%;
-      }
-
-      &:nth-last-child(-n+2) {
-        padding-top: 3rem;
-
-        @include media($medium-screen) {
-          padding-top: 0;
-        }
-      }
+      margin-bottom: 0;
     }
 
     img {
       height: 60px;
+      margin-right: 3rem;
       width: max-content;
+    }
+
+    span {
+      display: inherit;
+      margin-top: 16px;
+      overflow: hidden;
     }
   }
 
   h2 {
     margin-bottom: 0;
+  }
+
+  .graphic-list-img {
+    float: left;
+    width: 90px;
   }
 }
 
