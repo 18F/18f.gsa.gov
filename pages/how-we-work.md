@@ -65,7 +65,7 @@ content_focus: false
 Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on investigating user needs, building a working product, or preparing your team to take over development. This model allows you to stay in control of your budget and remain flexible.
 {% endcapture %}
 
-<div class="usa-grid-full usa-section">
+<div class="usa-grid-full">
   <div class="usa-width-two-thirds" markdown="1">
     {{ ei-1 }}
   </div>

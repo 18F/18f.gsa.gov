@@ -7,8 +7,13 @@
     border-color: $color-medium;
     font-size: initial;
     list-style: none;
+    margin-top: 3rem;
     padding-left: 0;
     padding-top: $paragraph-margins;
+
+    @include media($medium-screen) {
+      margin-top: 0;
+    }
 
     li {
       display: table;
