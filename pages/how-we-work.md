@@ -19,7 +19,7 @@ content_focus: false
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
-- ![]({{ site.baseurl }}/assets/img/people.svg)  
+- ![]({{ site.baseurl }}/assets/img/team-sm.svg)  
   2-3 person team
 - ![]({{ site.baseurl }}/assets/img/calendar.svg)  
   8-10 weeks
@@ -35,7 +35,7 @@ content_focus: false
 ### Exploring user-centered solutions.
 {: .hww-subheading}
 
-- ![]({{ site.baseurl }}/assets/img/people.svg)  
+- ![]({{ site.baseurl }}/assets/img/team-lg.svg)  
   4-6 person team
 - ![]({{ site.baseurl }}/assets/img/calendar.svg)  
   12 weeks
