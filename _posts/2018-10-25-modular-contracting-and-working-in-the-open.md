@@ -2,7 +2,7 @@
 title: "Modular contracting and working in the open"
 date: 2018-10-25
 authors:
-- mark-headd
+- mheadd
 - ed-mullen
 tags:
 - acquisition services
