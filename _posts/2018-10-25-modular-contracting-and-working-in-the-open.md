@@ -2,8 +2,8 @@
 title: "Modular contracting and working in the open"
 date: 2018-10-25
 authors:
-- ed-mullen
 - mark-headd
+- ed-mullen
 tags:
 - acquisition services
 - lessons learned
