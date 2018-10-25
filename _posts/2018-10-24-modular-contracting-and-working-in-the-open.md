@@ -15,7 +15,7 @@ between governments and vendor partners. Read about how the State of
 Alaska is using openness and code sharing to foster greater trust
 between government project teams and vendor teams as part of a large
 legacy system overhaul."
-Image: /assets/blog/modular-contracting/i-see-what-you-did-there.jpg
+image: /assets/blog/modular-contracting/i-see-what-you-did-there.jpg
 ---
 
 In 18F’s work with federal and state partners on technology
