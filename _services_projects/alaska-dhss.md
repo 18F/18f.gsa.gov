@@ -3,6 +3,7 @@ agency: Alaska Department of Health and Social Services
 title: Modernizing Access to Healthcare
 subtitle: Modernizing public benefit eligibility systems
 permalink: /what-we-deliver/alaska-dhss/
+redirect_from: /project/alaska-dhss/
 excerpt: Using prototypes and modular contracting to help the Forest Service buy an online permit system.
 image: /assets/img/alaska-flag.png
 image_accessibility: Alaska state flag. The flag consists of eight gold stars, forming the Big Dipper and Polaris, on a dark blue field.
@@ -23,6 +24,10 @@ The Alaska Department of Health and Social Services administers public benefit p
 
 Their eligibility systems have performed well in the past, but the now outdated technology can make it difficult and time-consuming to make modifications in response to federal or state policy changes. The Department approached 18F to help them devise a procurement strategy and develop practices that would deliver better service to Alaskans in need and allow the State to be more responsive to policymakers in both Juneau and Washington. 
 
+<div class="testimonial-blockquote">
+  Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed.
+    <span>- Monica Windom, Director Division of Public Assistance, Health and Social Services, State of Alaska</span>
+</div>
 
 <div class="small-caps">Approach</div>
 ### Finding the right vendors through modular contracting and an open process
