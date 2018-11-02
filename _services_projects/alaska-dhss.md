@@ -5,7 +5,7 @@ subtitle: Modernizing public benefit eligibility systems
 permalink: /what-we-deliver/alaska-dhss/
 redirect_from: /project/alaska-dhss/
 excerpt: Introducing modern digital methods to the State of Alaska’s eligibility system modernization project.
-image: /assets/img/alaska-flag.png
+image: /assets/img/projects/alaska-flag.png
 image_accessibility: Alaska state flag. The flag consists of eight gold stars, forming the Big Dipper and Polaris, on a dark blue field.
 image_icon:
 project_weight: 3
