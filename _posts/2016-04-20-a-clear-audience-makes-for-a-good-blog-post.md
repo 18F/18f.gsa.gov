@@ -16,7 +16,7 @@ The most important advice I give 18F staff while they’re working on a
 blog post is to define their audience as clearly and as narrowly as
 possible. This focus has helped us overcome numerous hurdles to
 publishing quality blog posts, and it’s also the part of our new [18F
-Blogging Guide](https://pages.18f.gov/blogging-guide/index.html) that
+Blogging Guide](https://handbook.18f.gov/blogging/) that
 I’m most excited about.
 
 We use a private GitHub repository to manage our blog editing and
@@ -31,7 +31,7 @@ process.
 Each issue has five metadata headings, including audience, that the
 author must fill out before the issue can move through our process.
   Here’s what our guide has to say about [the importance of defining your
-audience](https://pages.18f.gov/blogging-guide/content-guidelines/):
+audience](https://handbook.18f.gov/blogging/#write-a-user-story-to-determine-your-audience):
 
 > It’s crucial to decide on your target audience before you start
 > drafting a blog post. Being as specific as you can will help you
@@ -68,9 +68,9 @@ most want to convey.
 
 You can read the rest of our Blogging Guide to learn about [how we use
 GitHub to manage our
-process](https://pages.18f.gov/blogging-guide/publishing-process/) and
+process](https://handbook.18f.gov/blogging/#blog-management) and
 to [see the other tips we give
-authors](https://pages.18f.gov/blogging-guide/content-guidelines/).
+authors](https://handbook.18f.gov/blogging/#writing-a-great-post).
 We’re sharing this guide because our [open source
 policy](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/)
 extends beyond our code, and because we think our editorial process can
