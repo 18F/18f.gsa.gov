@@ -4,7 +4,7 @@
 
 # 18F’s flagship website
 
-This repo houses the 18F website. We use the [Draft U.S. Web Design System](https://designsystem.digital.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.fr.cloud.gov/).
+This repo houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
 
 ### Style and style guide
 
@@ -50,6 +50,6 @@ Using Docker can make dependencies management easier, but can also slow down you
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
 
 1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/).
-1. Federalist Admin: https://federalist.fr.cloud.gov/.
+1. Federalist Admin: https://federalist.18f.gov/.
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
 1. We map 18f.gsa.gov URL to the S3 bucket.
