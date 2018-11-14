@@ -120,7 +120,7 @@ this depicted in the following way:
 
 <figure>
     <img src="{{site.baseurl}}/assets/blog/remote-usability-test/ux-hands.png" alt="M.C Escher image of two hands forming a circle one representing design and the other usability testing"/>
-  <figcaption>M.C Escher's Drawing Hands</figcaption>
+  <figcaption>M.C. Escher's Drawing Hands</figcaption>
 </figure>
 
 ## Closer than you think
