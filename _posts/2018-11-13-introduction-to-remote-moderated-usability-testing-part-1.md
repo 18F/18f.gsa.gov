@@ -36,7 +36,7 @@ moderated usability testing. In part one, we’ll explain what usability
 testing is and why it’s important, differentiate usability testing from
 user acceptance testing, and talk about things that *aren’t* required to
 do a usability test. In part two, we’ll share a simple, five-step
-process for running your first usability test.
+process for running your first round of usability tests.
 
 ## Help us help you
 
