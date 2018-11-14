@@ -1,6 +1,5 @@
 ---
-title: "Introduction to remote moderated usability testing, part 1: What
-and why"
+title: "Introduction to remote moderated usability testing, part 1: What and why"
 date: 2018-11-13
 authors:
 - andrewmaier
@@ -138,7 +137,7 @@ directs agencies to “establish mechanisms to solicit customer feedback…” a
 
 (Many people wonder if the Paperwork Reduction Act, or PRA, prohibits
 federal agencies from performing remote moderated usability testing
-altogether, But [a 2010 OIRA memo](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/PRAPrimer_04072010.pdf)
+altogether. But [a 2010 OIRA memo](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/PRAPrimer_04072010.pdf)
 confirms that “facts or opinions collected through direct observation do
 not count as information under the PRA.” Civil servants should, however,
 chat with their agency privacy office about how to appropriately store
