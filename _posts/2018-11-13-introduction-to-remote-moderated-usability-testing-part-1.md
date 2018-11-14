@@ -1,6 +1,6 @@
 ---
 title: "Introduction to remote moderated usability testing, part 1: What and why"
-date: 2018-11-13
+date: 2018-11-14
 authors:
 - andrewmaier
 - sarah-eckert
