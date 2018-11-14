@@ -58,7 +58,7 @@ the test begins). Note especially how Krug interacts with the
 participant.
 
 <figure>
-  <a href="{{site.baseurl}}/assets/blog/remote-usability-test/nih-screenshot.png"> <a href="https://youtu.be/6fjn1Zz3lMU?t=2340">
+  <a href="https://youtu.be/6fjn1Zz3lMU?t=2340">
     <img src="{{site.baseurl}}/assets/blog/remote-usability-test/nih-screenshot.png" alt="Screenshot of video showing NIH site. When clicked it will take you to the video"/>
   </a>
   <figcaption>Steve Krug usability test for NIH</figcaption>
@@ -120,9 +120,7 @@ usability tests power its design. With apologies to the artist [M.C. Escher](htt
 this depicted in the following way:
 
 <figure>
-  <a href="{{site.baseurl}}/assets/blog/remote-usability-test/ux-hands.png">
     <img src="{{site.baseurl}}/assets/blog/remote-usability-test/ux-hands.png" alt="M.C Escher image of two hands forming a circle one representing design and the other usability testing"/>
-  </a>
   <figcaption>M.C Escher's Drawing Hands</figcaption>
 </figure>
 
