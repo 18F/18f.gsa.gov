@@ -1,5 +1,6 @@
-[![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov.svg?style=svg)](https://circleci.com/gh/18F/18f.gsa.gov)
+[![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov.svg?style=shield)](https://circleci.com/gh/18F/18f.gsa.gov)
 [![Known Vulnerabilities](https://snyk.io/test/github/18F/18f.gsa.gov/badge.svg)](https://snyk.io/test/github/18F/18f.gsa.gov)
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
 
 # 18F’s flagship website
