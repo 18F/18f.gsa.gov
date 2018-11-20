@@ -24,7 +24,7 @@ round of tests:
 1.  Choosing what to test
 2.  Planning for research
 3.  Recruiting users and informing their consent
-4.  Running the sessions (we recommend three sessions at 30-45 minutes each)
+4.  Running the sessions (we recommend three sessions at 45 minutes each)
 5.  Discussing and sharing the results
 
 This process roughly approximates how 18F routinely conducts usability
@@ -104,7 +104,7 @@ three.
 
 <figure>
     <img src="{{site.baseurl}}/assets/blog/remote-usability-test/user-card.png" alt="Drawing of a card with an immigration officer's essential task. The text reads: As an immigration officer I want to view an applicant's paperwork so that I can process their claim"/>
-  <figcaption>Essential task for an immigration officer</figcaption>
+  <figcaption>An example user story describing an essential task for an immigration officer</figcaption>
 </figure>
 
 Next, collaboratively author a brief, believable, relatable *scenario*
@@ -155,7 +155,7 @@ Once your privacy office gives the okay, share the recruiter on
 listservs, social media, or even a popup on your website (which [we prefer](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/)).
 For example, a social media-based recruiter could just say
 
->*“Help us improve the design of 18F.gov! Sign up to participate in a remote usability test by emailing participate-18F@gsa.gov. Learn more about how we’ll protect your information at https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research”*
+>*“Help us improve the design of OPM.gov! Sign up to participate in a remote usability test by emailing participate-18F@gsa.gov. Learn more about how we’ll protect your information at https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research”*
 
 Give potential participants a couple of days to respond to the
 recruiter. In the interim, block off time on the calendars of those who
@@ -165,7 +165,7 @@ post-interview rituals). Block off three hours for three tests.
 
 <figure>
     <img src="{{site.baseurl}}/assets/blog/remote-usability-test/ux-test-cal-invite.png" alt="Screenshot of an appointment slot in Google calendar"/>
-  <figcaption>Appointmet slot in a calendar</figcaption>
+  <figcaption>Example calendar block using 30-minute appointment slots</figcaption>
 </figure>
 
 Once you’ve heard from potential participants, reply to a handful of
@@ -179,7 +179,7 @@ or filled your three appointment slots.) Here’s an example email:
 
 >Hi there,  
 >
->My name’s Andrew. I'm working with 18F to incorporate feedback into our design process. I’m reaching out to confirm your interest in participating in a usability test.  
+>My name’s Andrew. I'm working with OPM to incorporate feedback into our design process. I’m reaching out to confirm your interest in participating in a usability test.  
 >
 >Do you have any time in the next week to share your thoughts? We'll only need about 45 minutes. During the test, we’ll ask you to share your screen and accomplish some tasks using a design concept. If that works for you, please book an appointment with our team at the following link: [Calendar appointment link]  
 >
