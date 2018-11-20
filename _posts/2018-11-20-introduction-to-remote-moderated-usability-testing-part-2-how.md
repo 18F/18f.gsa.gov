@@ -303,6 +303,6 @@ that helped make this blog post-series possible. We’d like to thank:
 
 -   **Amirah Aziz** in GSA’s Office of the Chief Data Officer, who recently organized and ran GSA’s 2018 Data Summit, which provided a great forum for internal knowledge sharing;
 -   **Anahita Reilly, Matthew Ford,** and **Sheev Dave** in GSA’s Office of Customer Experience for encouraging us to present on 18F’s approach to usability testing;
--   **Aviva Oskow** and **Emmanuel Presley** in Andrew’s critique group for providing feedback on our initial presentation;
+-   **Aviva Oskow** and **Emmanuel Pressley** in Andrew’s critique group for providing feedback on our initial presentation;
 -   **Amy Ashida, Julia Lindpaintner, Victor Udoewa,** and **Ben Peterson** in GSA’s Research Guild for helping to draft many of the templates (such as the interview checklist) referenced in this post; and
 -   **Marcela Souaya** and **Richard Speidel** in the GSA Privacy Office for reviewing the information provided in this series.
