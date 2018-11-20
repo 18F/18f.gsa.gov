@@ -12,8 +12,7 @@ tags:
 excerpt: "This is the second in a two-part series exploring the basics of running
 a remote moderated usability test. In part one, we explored
 usability testing at a high level: what it is and why it’s important. In
-this post we’ll review a five-step process for conducting your first
-round of tests"
+this post we’ll review a five-step process for conducting your first round of tests"
 ---
 
 This is the second in a two-part series exploring the basics of running
@@ -179,11 +178,15 @@ Repeat until you’ve either exhausted your list of potential participants
 or filled your three appointment slots.) Here’s an example email:
 
 >Hi there,  
-My name’s Andrew. I'm working with 18F to incorporate feedback into our design process. I’m reaching out to confirm your interest in participating in a usability test.  
-Do you have any time in the next week to share your thoughts? We'll only need about 45 minutes. During the test, we’ll ask you to share your screen and accomplish some tasks using a design concept. If that works for you, please book an appointment with our team at the following link: [Calendar appointment link]  
-Thanks,  
-Andrew  
-PS: If you do not wish to participate in this test, please ignore this email. If you do not wish to be contacted for *any* future test related to my work, please reply to this email requesting to be removed from my contact list.
+>
+>My name’s Andrew. I'm working with 18F to incorporate feedback into our design process. I’m reaching out to confirm your interest in participating in a usability test.  
+>
+>Do you have any time in the next week to share your thoughts? We'll only need about 45 minutes. During the test, we’ll ask you to share your screen and accomplish some tasks using a design concept. If that works for you, please book an appointment with our team at the following link: [Calendar appointment link]  
+>
+>Thanks,  
+>Andrew  
+>
+>PS: If you do not wish to participate in this test, please ignore this email. If you do not wish to be contacted for *any* future test related to my work, please reply to this email requesting to be removed from my contact list.
 
 Next, prepare a [participant
 agreement](https://methods.18f.gov/participant-agreement/) (GSA
