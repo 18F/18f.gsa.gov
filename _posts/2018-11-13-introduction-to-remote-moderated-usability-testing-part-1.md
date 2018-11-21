@@ -35,7 +35,7 @@ In this two-part series, we’ll provide an introduction to remote
 moderated usability testing. In part one, we’ll explain what usability
 testing is and why it’s important, differentiate usability testing from
 user acceptance testing, and talk about things that *aren’t* required to
-do a usability test. In part two, we’ll share a simple, five-step
+do a usability test. In [part two](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/), we’ll share a simple, five-step
 process for running your first round of usability tests.
 
 ## Help us help you
@@ -159,6 +159,6 @@ describes their awesome work in helping veterans apply for health care
 benefits online. Do check it out. Closer to the end of the post there
 are some great demos of public servants moderating usability tests.
 
-Hopefully you’re just as jazzed as we are. In part two of this series,
+Hopefully you’re just as jazzed as we are. In [part two](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/) of this series,
 we’ll share our five-step approach for running remote moderated
 usability tests.
