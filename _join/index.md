@@ -26,19 +26,19 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 Links below will take you to the Technology Transformation Services join page to apply.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/cloud-adoption-specialist/">Cloud Adoption Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/cloud-adoption-specialist/">Centers of Excellence - Cloud Adoption Specialist</a>
 </section>
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/customer-experience-specialist/">Customer Experience Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/customer-experience-specialist/">Centers of Excellence - Customer Experience Specialist</a>
 </section>
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/contact-center-optimization-specialist/">Contact Center Optimization Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/contact-center-optimization-specialist/">Centers of Excellence - Contact Center Optimization Specialist</a>
 </section>
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/infrastructure-optimization-specialist/">Infrastructure Optimization Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/infrastructure-optimization-specialist/">Centers of Excellence - Infrastructure Optimization Specialist</a>
 </section>
 
 <!--**We currently have no open positions at 18F.**-->
