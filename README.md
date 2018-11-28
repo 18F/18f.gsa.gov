@@ -5,7 +5,7 @@
 
 # 18F’s flagship website
 
-This repo houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) as a front end framework. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
+This repository houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) for the front end interface. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
 
 ### Style and style guide
 
