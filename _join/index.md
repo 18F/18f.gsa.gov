@@ -26,19 +26,11 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 Links below will take you to the Technology Transformation Services join page to apply.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/cloud-adoption-specialist/">Centers of Excellence - Cloud Adoption Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/data-and-analytics-specialist/">Centers of Excellence - Data & Analytics Specialist</a>
 </section>
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/customer-experience-specialist/">Centers of Excellence - Customer Experience Specialist</a>
-</section>
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/contact-center-optimization-specialist/">Centers of Excellence - Contact Center Optimization Specialist</a>
-</section>
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/infrastructure-optimization-specialist/">Centers of Excellence - Infrastructure Optimization Specialist</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/site-lead/">Centers of Excellence - Site Lead</a>
 </section>
 
 <!--**We currently have no open positions at 18F.**-->
