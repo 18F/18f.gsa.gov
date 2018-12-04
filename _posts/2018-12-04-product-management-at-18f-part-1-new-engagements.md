@@ -38,7 +38,7 @@ our partners can continue to support and evolve those products.
 
 When working with an agency, identifying the right problem to focus on
 is often the first challenge. That’s why we have [Path
-Analyses](https://18f.gsa.gov/how-we-work/): short engagements to
+Analyses](https://18f.gsa.gov/how-we-work/#path-analysis): short engagements to
 survey the landscape and align everyone on a path forward. Most Path
 Analysis projects are staffed by a nimble team of 2-3 people. During
 these engagements, PMs leverage their research and strategic skills to
@@ -49,7 +49,7 @@ synthesizing complex organizational and technical problems into a
 cohesive story that our partners can use.
 
 Once the vision is established, partners may continue to engage with 18F
-by [experimenting and iterating](https://18f.gsa.gov/how-we-work/) on
+by [experimenting and iterating](https://18f.gsa.gov/how-we-work/#experiment-iterate) on
 a solution. These Experiment & Iterate phases, or E&I for short, involve
 larger, cross-functional teams of strategists, designers, engineers, and
 agency partners, all stewarded by a PM. During an E&I, the team
