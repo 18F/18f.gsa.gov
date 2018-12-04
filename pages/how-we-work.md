@@ -16,13 +16,13 @@ content_focus: false
 ---
 
 {% capture pa-1 %}
+<a name="path-analysis"></a>
 ## Path Analysis:
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
 Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. 
 {% endcapture %}
-
 <div class="usa-grid-full usa-section">
   <div class="usa-width-two-thirds" markdown="1">
     {{ pa-1 }}
@@ -58,6 +58,7 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
 </div>
 
 {% capture ei-1 %}
+<a name="experiment-iterate"></a>
 ## Experiment & Iterate:
 ### Exploring user-centered solutions.
 {: .hww-subheading}
