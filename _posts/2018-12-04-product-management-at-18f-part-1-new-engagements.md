@@ -1,5 +1,5 @@
 ---
-title: Product management at 18F, part 1: New engagements
+title: Product management at 18F, part 1 - New engagements
 date: 2018-12-04
 authors:
 - porta
