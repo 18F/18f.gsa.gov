@@ -5,9 +5,10 @@ authors:
 - randy-hart
 - jon-geselle
 tags:
-- state and local practice
-- alaska
 - acquisition services
+- alaska
+- health and human services
+- state and local practice
 excerpt: "Alaska’s Department of Health & Social Services is working
 with the Technology Transformation Services’ Office of Acquisition on a
 new approach to product and acquisition management to develop a modern,
