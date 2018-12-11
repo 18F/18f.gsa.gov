@@ -6,7 +6,7 @@ authors:
 tags:
 - how we work
 - product
-- acquisitions
+- acquisition services
 excerpt: "In the previous post, we wrote about how product management works in Path Analysis and
 Experiment & Iterate phases. In this post, we’ll discuss how 18F product
 managers support our partner agencies who are *procuring* the services
