@@ -1,5 +1,5 @@
 ---
-title: “Product management at 18F, part 2: Acquisitions”
+title: “Product management at 18F, part 2 - Acquisitions”
 date: 2018-12-11
 authors:
 - hannah-kane
