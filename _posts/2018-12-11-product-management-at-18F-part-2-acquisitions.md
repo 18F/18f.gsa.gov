@@ -44,7 +44,7 @@ evaluation panel to review potential contractors.
 
 Once a contractor has been selected, the build begins, and the product
 manager role might look similar to what was described in [the previous post](https://18f.gsa.gov/2018/12/04/product-management-at-18f-part-1-new-engagements/). We will be focused on coaching the [*Product Owner*](https://18f.gsa.gov/2018/04/17/so-youre-a-product-owner/) at
-your partner agency and developing their skills. Critically, they’ll
+our partner agency and developing their skills. Critically, we’ll
 also be providing oversight of the contractor, and ensuring they’re
 delivering the best possible work to our partner agency.
 
