@@ -23,10 +23,17 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ## Open positions
 
-<!--Links below will take you to the Technology Transformation Services join page to apply.*-->
+Links below will take you to the Technology Transformation Services join page to apply.
 
-**We currently have no open positions at 18F.**
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/cloud-consulting-tech-lead/">Cloud Consulting Technical Lead</a>
+</section>
 
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/cloud-platform-lead/">Cloud Platform Lead</a>
+</section>
+
+<!--**We currently have no open positions at 18F.**-->
 <!--
 TEMPLATE:
 <section class="usa-grid-full">
