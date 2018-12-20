@@ -10,6 +10,9 @@ tags:
 excerpt: "In the previous post, we wrote about how product management works in Path Analysis and Experiment & Iterate phases. In this post, we’ll discuss how 18F product managers support our partner agencies who are procuring the services of industry contractors to help achieve their mission."
 ---
 
+*This is the second of a series of blog posts that will provide a glimpse into what it’s like to be a product manager at 18F.*
+
+
 In the [previous post](https://18f.gsa.gov/2018/12/04/product-management-at-18f-part-1-new-engagements/),
 we wrote about how product management works in Path Analysis and
 Experiment & Iterate phases. In this post, we’ll discuss how 18F product
