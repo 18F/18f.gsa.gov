@@ -23,7 +23,7 @@ individual customer. This work requires that we constantly evaluate
 market needs, ensure the product matches those needs, and support the
 business side of product management.
 
-Cloud.gov and Federalist are two of these products. Together they power
+[Cloud.gov](https://cloud.gov/) and [Federalist](https://federalist.18f.gov/) are two of these products. Together they power
 hundreds of .gov sites, including the websites for the Federal Election
 Commission (FEC) and the Federal Deposit Insurance Corporation (FDIC),
 as well as high profile informational sites like vote.gov, cio.gov, and
