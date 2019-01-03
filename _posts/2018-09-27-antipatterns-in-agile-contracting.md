@@ -79,7 +79,7 @@ Delivery/Indefinite Quantity (IDIQ) contract, was an intentional
 experiment in modular contracting to try to discover a solution. It’s
 one that many have replicated or attempted to replicate. The goal of
 using IDIQ is to try to deal with the overhead of managing multiple
-vendor bids at once, which helps reduce the administrative burden on the government acquisition workforce. It’s one that many have replicated or attempted to replicate.
+vendor bids at once, which helps reduce the administrative burden on the government acquisition workforce.
 
 However, from a competitive standpoint, antipatterns happen when you try pre-establishing vendor pools with long durations. They can overly favor large businesses as primes by increasing the anticipated number of personnel and scope; and, because of this aggregation, small businesses are less likely to receive awards as primes. In many cases, this can mean limited opportunities to directly support an agency’s mission for
 many years. For agencies, this can also raise the likelihood of a
