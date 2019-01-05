@@ -99,4 +99,4 @@ Leveraging lessons learned and lowering the costs of entry for quality vendors t
 
 These are just a few of the many antipatterns we’ve observed over the
 years in our work with partners. The danger inherent in these
-antipatterns is that an organization’s business processes can snuff out any hope of adopting agile development before it has even really gotten started. As we discover more of these antipatterns we’ll share them as early and often as possible. In the meantime, continue making procurement joyful.
+antipatterns is that an organization’s business processes can snuff out any hope of adopting agile development before it has even really gotten started. As we discover more of these antipatterns we’ll share them as early and often as possible. In the meantime, continue making procurement joyful. 
