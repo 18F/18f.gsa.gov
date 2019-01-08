@@ -58,7 +58,13 @@
   <link rel="image_src" href="{{ siteurl }}{{ site.baseurl }}{{ page.image }}">
   <meta name="image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}">
   <meta property="og:image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}" />
-  <meta name="twitter:image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}">
+
+  {% if page.image %}
+    <meta name="twitter:image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}">
+  {% else %}
+    <meta name="twitter:image" content="{{ siteurl }}{{ site.baseurl }}/assets/img/logos/18f-logo.svg">
+  {% endif %}
+  
   {% if page.image_accessibility %}
     <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
   {% endif %}
