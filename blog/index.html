@@ -3,7 +3,6 @@ layout: default
 title: 18F Blog
 skip_index: true
 blog_tagline: Delivering civic technology
-footer_text: Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.
 redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
 ---
 
@@ -122,11 +121,4 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
     {% endif %}
   </div>
 </section>
-<section class="blog-footer usa-section background-dark">
-  <div class="usa-grid">
-    <h2 class="usa-width-three-fourths">{{ page.footer_text }}</h2>
-    <div class="usa-width-one-fourth">
-      <a class="usa-button usa-button-secondary" href="/contact/">Get in touch</a>
-    </div>
-  </div>
-</section>
+{% include contact-button.html %}
