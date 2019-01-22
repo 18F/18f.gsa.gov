@@ -10,8 +10,9 @@ image_accessibility: Screenshot of the uskpa.org front page
 project_weight: 10
 tag: uskpa
 expiration_date:
-github_repo: https://github.com/USKPA-dev/uskpa
-project_url: https://www.uskpa.org/
+github_repo:
+    - "[USKPA project code](https://github.com/USKPA-dev/uskpa)"
+project_url: "[The United States Kimberley Process Authority website](https://www.uskpa.org/)"
 resources:
 ---
 
