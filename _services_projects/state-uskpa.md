@@ -4,7 +4,7 @@ title: Fitting our analysis to your challenge
 subtitle: Improving the tracking of rough diamonds
 permalink: /what-we-deliver/state-uskpa/
 redirect_from: /project/state-uskpa/
-excerpt: Leveraging our technical expertise and innate understanding of the federal landscape to improve the tracking of rough diamonds
+excerpt: Leveraging our technical expertise with USKPA's program knowledge to improve the tracking of rough diamonds
 image: /assets/img/projects/uskpa.png
 image_accessibility: Screenshot of the uskpa.org front page
 project_weight: 10
