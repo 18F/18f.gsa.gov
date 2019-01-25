@@ -33,7 +33,7 @@ The Forest Service wanted to make their permits and applications available onlin
 Before helping Forest Service hire vendors to build a permit tool, we conducted a series of workshops with the Forest Service to investigate the business process behind permit applications. With that information, we built a small prototype of the type of online permit tool that could address their issues. We tested this prototype with both public and Forest Service staff users and used that research to draft an RFP using 18F
 [Acquisition’s Agile Blanket Purchase Agreement](https://18f.gsa.gov/what-we-deliver/agile-bpa/) (BPA).
 
-Instead of putting the entire permit application tool into one RFP, we started by building an API to connect to a legacy system within the Forest Service. By breaking the work into pieces (called modules) the Forest Service was able to get functionality quickly while reducing risk on each module.
+Instead of putting the entire permit application tool into one RFP, we started by procuring a team to build an API to connect to a legacy system within the Forest Service. By breaking the work into pieces (called modules) the Forest Service was able to get functionality quickly while reducing risk on each module.
 
 Working with the Forest Service and the vendor, we built the initial API module in four months. We provided technical and design guidance to the vendor as well as coaching and strategies for the Forest Service to serve as product owners.
 
