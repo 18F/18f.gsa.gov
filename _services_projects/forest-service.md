@@ -35,7 +35,7 @@ Before helping Forest Service hire vendors to build a permit tool, we conducted 
 
 Instead of putting the entire permit application tool into one RFP, we started by procuring a team to build an API to connect to a legacy system within the Forest Service. By breaking the work into pieces (called modules) the Forest Service was able to get functionality quickly while reducing risk on each module.
 
-Working with the Forest Service and the vendor, we built the initial API module in four months. We provided technical and design guidance to the vendor as well as coaching and strategies for the Forest Service to serve as product owners.
+The Forest Service and vendor team built the initial API module in four months. We provided technical and design guidance to the vendor as well as coaching and strategies for the Forest Service to serve as product owners.
 
 With the API module in hand and working well, we then helped the Forest Service draft, award, and manage additional RFPs to build a public-facing application, a module to support Christmas tree permits, and a module to support Special Uses permits. We also integrated the application with [login.gov](http://login.gov) so users could securely log in to the system and [Pay.gov](https://pay.gov) for credit card payment processing.
 
