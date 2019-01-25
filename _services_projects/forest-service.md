@@ -23,7 +23,7 @@ resources:
     - "[Christmas tree task order](https://github.com/18F/bpa-fs-xmas-trees)"
 ---
 
-The U.S. Department of Agriculture’s Forest Service issues permits so the public can use National Forest lands for things like outfitting trips, organizing large scale events, and harvesting Christmas trees. 
+The U.S. Department of Agriculture’s Forest Service issues permits to care for the land and serve the public through activities and use such as outfitting trips, large scale events, and Christmas trees harvests. 
 
 The Forest Service wanted to make their permits and applications available online to create a more predictable application process that was not limited to regular business hours.
 
