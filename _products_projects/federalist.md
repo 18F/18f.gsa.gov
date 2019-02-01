@@ -4,7 +4,7 @@ title: A government publishing platform
 subtitle: Build websites quickly and easily
 permalink: /what-we-deliver/federalist/
 excerpt: A government-created platform to help agencies build websites quickly and easily while meeting compliance requirements.
-image: /assets/img/projects/federalist-background-blue.jpg
+image: /assets/img/projects/federalist-logo.svg
 image_accessibility: "Abstract image of the Federalist Papers in bluescale"
 project_weight: 3
 tag: federalist
