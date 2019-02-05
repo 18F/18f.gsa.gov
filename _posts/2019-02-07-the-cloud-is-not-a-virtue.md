@@ -5,13 +5,9 @@ authors:
 - afeld
 - laura-gerhardt
 tags:
-- cloud
 - lessons learned
-excerpt: "Federal agencies, like every other industry, are moving to
-cloud computing for their infrastructure. The economies of scale lead to
-a number of benefits, but unfortunately, having a server launched in the
-cloud does not magically make infrastructure better. Government should
-leverage cloud wisely to yield benefits"
+- best practices
+excerpt: "Federal agencies, like every other industry, are moving to cloud computing for their infrastructure. The economies of scale lead to a number of benefits, but unfortunately, having a server launched in the cloud does not magically make infrastructure better. Government should leverage cloud wisely to yield benefits"
 ---
 
 Federal agencies, [like every other industry](https://www.forbes.com/sites/louiscolumbus/2017/04/23/2017-state-of-cloud-adoption-and-security/#564bd0841848), are moving to cloud computing for their infrastructure. The economies of scale lead to a number of benefits, but unfortunately, having a server launched in the cloud does not magically make infrastructure better. Government should leverage cloud wisely to yield benefits; **lift and shift strategies miss valuable opportunities for modernization.** What should we focus on instead?
