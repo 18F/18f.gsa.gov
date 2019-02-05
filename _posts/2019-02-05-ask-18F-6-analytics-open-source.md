@@ -14,7 +14,7 @@ excerpt: " Ask 18F is an advice column that answers questions sent in by federal
 
 **Dear 18F: How can I best advocate for the addition of open-source tools? The leading tools in the analytics space (R and Python) are both open-source tools that are not currently supported at my agency.**
 
-**Andrew Burnes and Tadhg O'Higgins – Engineers**
+**Andrew Burnes with contributions from Tadhg O'Higgins – Engineers**
 
 Before joining 18F, I ran into the same conundrum doing geographical analysis at two different agencies within the U.S. Department of Agriculture and the U.S. Department of the Interior. How do you use these great tools when your agency is unaware of their capabilities? Your best shot will be a two-pronged approach:
 
