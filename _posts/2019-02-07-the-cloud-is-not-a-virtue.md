@@ -98,9 +98,9 @@ While automation itself is not an end goal, it’s a great way to achieve things
 
 Rather than trying to migrate a legacy system as it stands, try doing
 some automation in-place using open source tools like
-[*Ansible*](https://docs.ansible.com/ansible/latest/index.html) or
-[*Chef*](https://www.chef.io/chef/). This will allow the team to get
-comfortable with the tooling, will improve the existing deployment, and will be useful for any new ones (cloud or not). Another bonus is that this work won’t be [blocked by procurement of infrastructure](https://docs.google.com/document/d/12pKabIY8Zzb7K-oCOrUD_Ju38Z255SpxwA3Dxhv_E94/edit#).
+[Ansible](https://docs.ansible.com/ansible/latest/index.html) or
+[Chef](https://www.chef.io/chef/). This will allow the team to get
+comfortable with the tooling, will improve the existing deployment, and will be useful for any new ones (cloud or not). Another bonus is that this work won’t be blocked by procurement of infrastructure.
 
 ## A better cloud experience
 
