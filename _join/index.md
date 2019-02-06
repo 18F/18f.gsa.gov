@@ -104,7 +104,7 @@ employee](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration
 The annual salary cap for all GS employees is \$164,200 per year. You
 cannot be offered more than this under any circumstance. Use this [OPM
 General Schedule (GS) Salary
-Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2017/general-schedule-gs-salary-calculator/)
+Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2018/general-schedule-gs-salary-calculator/)
 to help you understand how GS level, step, and locality affect
 compensation.
 
