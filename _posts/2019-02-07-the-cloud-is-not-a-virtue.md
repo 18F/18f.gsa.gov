@@ -16,13 +16,13 @@ Federal agencies, [like every other industry](https://www.forbes.com/sites/louis
 
 Moving to the cloud has been a White House priority in both the current and previous administrations from the [Cloud First policy](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/egov_docs/federal-cloud-computing-strategy.pdf), to the [Data Center Optimization Initiative](https://policy.cio.gov/dcoi/transition-to-cloud-datacenter/), and most recently in the [Executive Order on Strengthening the Cybersecurity of Federal Networks and Critical Infrastructure](https://www.whitehouse.gov/presidential-actions/presidential-executive-order-strengthening-cybersecurity-federal-networks-critical-infrastructure/).
 
-Despite this pressure, [“under half of government organizations are actively using cloud services.”](https://www.gartner.com/smarterwithgartner/understanding-cloud-adoption-in-government/)
+Despite this pressure, [under half of government organizations are actively using cloud services.](https://www.gartner.com/smarterwithgartner/understanding-cloud-adoption-in-government/)
 When agencies *do* make the move, it is **too often about checking a box rather than using cloud in a way that meets NIST’s definition of
 cloud.** Recognizing this shortfall, the federal CIO Council has sought to reframe cloud migration to highlight desired outcomes.
 
 <div class="testimonial-blockquote">
   “A cloud migration strategy should not be considered a question of who owns the computing resources, data, and facility, but rather can this solution improve service delivery to citizens. Evaluating specific capabilities of services, such as automatic scalability, is useful when evaluating solutions, rather than just considering if an application is “cloud” or not.”
-  <span>- [From Cloud First to Cloud Smart](https://cloud.cio.gov/strategy/) </span>
+  <span>- From Cloud First to Cloud Smart </span>
   </div>
 
 The cloud is not a virtue. Saying you are “in the cloud” is not the
@@ -74,8 +74,8 @@ through API’s and code, which provides a papertrail of who created or
 changed what when in an environment. These actions to create and manage resources are also readily logged by cloud service providers, generating a compliance-ready manifest of infrastructural activities. A handy side benefit of these auditable actions is that they can help product teams debug and triage site bugs and performance issues.
 
 **If you can achieve high agility and incredible reliability using a
-data center or [*even a
-mainframe*](https://www.youtube.com/watch?v=7Tcv9Jj6QmM), go for it!** Note, however, this is very difficult to do when you’re dealing with
+data center or [even a
+mainframe](https://www.youtube.com/watch?v=7Tcv9Jj6QmM), go for it!** Note, however, this is very difficult to do when you’re dealing with
 hardware.
 
 ## Migration
