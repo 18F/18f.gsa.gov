@@ -26,7 +26,7 @@ cloud.** Recognizing this shortfall, the Federal Chief Information Officer has s
   </div>
 
 The cloud is not a virtue. Saying you are “in the cloud” is not the
-point. Cloud is really improving your agency’s ability to adapt to
+point. Cloud is really about improving your agency’s ability to adapt to
 changing mission needs by outsourcing common IT infrastructure problems to reliable, mature, secure, commodizided services.
 
 ## Outcomes
@@ -67,11 +67,11 @@ Just like we’ve come to depend on smartphones or personal email, cloud is at a
 **Security:** Cloud service providers probably have much larger security teams than you do, and their business is built on maintaining the trust of their customers.
 
 **Recoverability:** A side benefit of cloud scalability is its
-redundancy, which allows you to swap out a flagging or failing resource easily through replicating or activating mirrored systems as well as quickly save back-ups. Cloud systems also can be resilient against increased use by bringing online additional resources when loads increase.
+redundancy, which allows you to swap out a flagging or failing resource easily through replicating or activating mirrored systems as well as quickly saving back-ups. Cloud systems also can be resilient against increased use by bringing online additional resources when loads increase.
 
 **Auditability:** Cloud services can be provisioned and configured
-through API’s and code, which provides a papertrail of who created or
-changed what when in an environment. These actions to create and manage resources are also readily logged by cloud service providers, generating a compliance-ready manifest of infrastructural activities. A handy side benefit of these auditable actions is that they can help product teams debug and triage site bugs and performance issues.
+through API’s and code, which provides a virtual paper trail of who created or
+changed what in an environment and when they changed it. These actions to create and manage resources are also readily logged by cloud service providers, generating a compliance-ready manifest of infrastructure activities. A handy side benefit of these auditable actions is that they can help product teams debug and triage site bugs and performance issues.
 
 **If you can achieve high agility and incredible reliability using a
 data center or [even a
@@ -84,7 +84,7 @@ If you do decide to move to the cloud, don’t treat it like a data center and l
 
 ### Start small
 
-Rather than trying to migrate an entire system from a data center to the cloud all at once, **start small**. Deploy the smallest component you can think of, and that prototype an Authority to Operate (ATO), which could be just a single line of text displayed in a browser. Doing so will force you to **get your security and compliance teams involved early**, and view the challenges of migrating to the cloud from a compliance perspective, and limit the scope of their concerns for each assessment.
+Rather than trying to migrate an entire system from a data center to the cloud all at once, **start small**. Deploy the smallest component you can think of, which could be just a single line of text displayed in a browser, and work to obtain an Authority to Operate (ATO) for the prototype. Doing so will force you to **get your security and compliance teams involved early**, and view the challenges of migrating to the cloud from a compliance perspective, and limit the scope of their concerns for each assessment.
 
 Small, iterative deployments will help you figure out the patterns that will work for your agency and team in terms of managing accounts, putting security protections in place, meeting various security controls, and the many other things that will come up. Doing a small cloud deployment all the way through will make subsequent deployments much easier.
 
