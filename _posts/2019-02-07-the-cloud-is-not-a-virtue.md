@@ -18,7 +18,7 @@ Moving to the cloud has been a White House priority in both the current and prev
 
 Despite this pressure, [under half of government organizations are actively using cloud services.](https://www.gartner.com/smarterwithgartner/understanding-cloud-adoption-in-government/)
 When agencies *do* make the move, it is **too often about checking a box rather than using cloud in a way that meets NIST’s definition of
-cloud.** Recognizing this shortfall, the federal CIO Council has sought to reframe cloud migration to highlight desired outcomes.
+cloud.** Recognizing this shortfall, the Federal Chief Information Officer has sought to reframe cloud migration to highlight desired outcomes.
 
 <div class="testimonial-blockquote">
   “A cloud migration strategy should not be considered a question of who owns the computing resources, data, and facility, but rather can this solution improve service delivery to citizens. Evaluating specific capabilities of services, such as automatic scalability, is useful when evaluating solutions, rather than just considering if an application is “cloud” or not.”
@@ -84,9 +84,7 @@ If you do decide to move to the cloud, don’t treat it like a data center and l
 
 ### Start small
 
-Rather than trying to migrate an entire system from a data center to the cloud all at once, **start small**. Deploy the smallest component you can think of, and that prototype an Authority to Operate (ATO), which could be just a single line of
-text displayed in a browser. Doing so will force you to **get your
-security and compliance teams involved early**, and limit the scope of their concerns for each assessment.
+Rather than trying to migrate an entire system from a data center to the cloud all at once, **start small**. Deploy the smallest component you can think of, and that prototype an Authority to Operate (ATO), which could be just a single line of text displayed in a browser. Doing so will force you to **get your security and compliance teams involved early**, and view the challenges of migrating to the cloud from a compliance perspective, and limit the scope of their concerns for each assessment.
 
 Small, iterative deployments will help you figure out the patterns that will work for your agency and team in terms of managing accounts, putting security protections in place, meeting various security controls, and the many other things that will come up. Doing a small cloud deployment all the way through will make subsequent deployments much easier.
 
