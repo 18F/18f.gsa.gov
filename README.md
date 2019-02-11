@@ -43,7 +43,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 2. Make sure Docker is running and `cd` into your project folder.
 3. Run `docker-compose build` to build the docker image and its dependencies. You only need to build once, but if there was an error with the build , rebuild using  the  `--no-cache` option like so `docker-compose build --no-cache`  to avoid using the old version of the docker image.
 4. Run `docker-compose up`.
-   **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**. Specifically this command will hang on `jekyll_pages_api_search: checking for Node.js`, upwards of 30 minutes for me.
+   **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**. Specifically this command will hang on `jekyll_pages_api_search: checking for Node.js` for upwards of 30 minutes on first run.
 5. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
 
 ## System security controls
