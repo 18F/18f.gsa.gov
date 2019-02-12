@@ -45,6 +45,8 @@ TEMPLATE:
 
 -->
 
+Head over to the [TTS Join website](https://join.tts.gsa.gov/) to see all open and upcoming 18F and TTS positions.
+
 ## How to apply
 
 To apply to positions at 18F and elsewhere in the Technology
