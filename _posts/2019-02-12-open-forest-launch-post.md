@@ -7,8 +7,7 @@ tags:
 - product launch
 - forest service
 excerpt: "After a two year partnership with the Forest Service, we're excited to announce the launch of Open Forest where you can buy a permit to cut down your own Christmas tree in a National Forest."
-image: assets/blog/open-forest/open-forest-christmas-permits-front-page.png
-
+image: /assets/blog/open-forest/open-forest-christmas-permits-front-page.png
 ---
 
 Sometimes in our work, we have to see the trees for the forest, or about
