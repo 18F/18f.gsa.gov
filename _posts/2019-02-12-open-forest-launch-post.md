@@ -44,8 +44,8 @@ service or their phone battery.
 
 With the 2018 holiday season past, Open Forest will soon pilot its
 Special Use permits, which include outfitters and many non-commercial
-uses like weddings and other large-scale gatherings in a national
-forest. The Special Use project will start with the Mount Baker
+uses like weddings and other large-scale gatherings in a National
+Forest. The Special Use project will start with the Mount Baker
 Snoqualmie National Forest, and then scale to additional forests.
 
 Check out [Open Forest](http://openforest.fs.usda.gov), or learn more
