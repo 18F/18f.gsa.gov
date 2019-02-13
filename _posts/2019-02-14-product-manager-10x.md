@@ -5,7 +5,7 @@ authors:
 -   eddie-tejeda
 -   elizabeth-ayer
 tags:
--   How we work
+-   how we work
 -   product
 excerpt: "10x projects let anyone in government pitch an idea that could
 have a massive impact on the public. So how does 10x go about developing
