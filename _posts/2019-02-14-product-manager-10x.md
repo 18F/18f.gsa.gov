@@ -12,9 +12,8 @@ have a massive impact on the public. So how does 10x go about developing
 these ideas? Each pitch requires a lead investigator who will need to
 develop an understanding of the idea and make recommendations. Although
 it’s not limited to product managers, the tools of product management
-can come in handy when creating a process to determine if the idea is
+can come in handy when creating a process to determine if the idea is 
 worth pursuing."
-image: /assets/blog/10x/10x-screenshot.png
 ---
 
 *This is the fourth and last in a series of blog posts that will provide
