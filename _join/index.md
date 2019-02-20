@@ -31,7 +31,7 @@ Links below will take you to the Technology Transformation Services join page to
   <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/visual-designer/">18F - Visual Designer</a>
 </section>
 
-<!--**We currently have no open positions at 18F.**-->
+<!--**We currently have no open positions at 18F. Visit the [Technology Transformation Services join page](https://join.tts.gsa.gov/#upcoming-positions) to find positions we will be opening soon.  **-->
 
 <!--Links below will take you to the Technology Transformation Services join page to apply.-->
 <!--**We currently have no open positions at 18F.**-->
