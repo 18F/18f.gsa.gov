@@ -54,7 +54,7 @@ Transformation Services, you’ll need:
 -   A completed application
 -   Additional documents if you are claiming veterans preference
 
-You can find links to these document and more information in individual
+You can find links to these documents and more information in individual
 job postings.
 
 Most 18F positions are in the Excepted Service and are “not to exceed”
