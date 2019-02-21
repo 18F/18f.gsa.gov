@@ -7,34 +7,7 @@ redirect_from: /hire/
 gridless: true
 lead: Let’s work together to improve the user experience of government.
 ---
-<div class="usa-grid usa-grid-reversed">
-<aside class="usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
-  <ul>
-    <li class="section-info-list-item">
-      <div class="section-info-header">Learn more about 18F</div>
-      <ul>
-        <li><a href="https://18f.gsa.gov/what-we-deliver/">Past projects</a></li>
-        <li><a href="https://18f.gsa.gov/partnership-principles/">Partnership principles</a></li>
-        <li><a href="https://18f.gsa.gov/about/#funding-and-agreements">How we're funded</a></li>
-      </ul>
-    </li>
-    <li class="section-info-list-item">
-      <div class="section-info-header">Follow 18F</div>
-      <ul class="usa-unstyled-list">
-        <li>
-          <!-- Inline CSS styles because these are only used this way here -->
-          <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
-        </li>
-        <li>
-          <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F</a> on GitHub
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS" />RSS Feed</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</aside>
+<div class="usa-grid">
 <div class="usa-section usa-width-two-thirds">
 {% markdown %}
 
@@ -53,6 +26,27 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
 
 </div>
 
+<aside class="usa-section usa-grid-reversed-right usa-width-one-third">
+  <h4 class="sidebar-heading-border">Learn more about 18F</h4>
+  <ul>
+    <li><a href="https://18f.gsa.gov/what-we-deliver/">Past projects</a></li>
+    <li><a href="https://18f.gsa.gov/partnership-principles/">Partnership principles</a></li>
+    <li><a href="https://18f.gsa.gov/about/#funding-and-agreements">How we're funded</a></li>
+  </ul>
+  <h4 class="sidebar-heading-border">Follow 18F</h4>
+  <ul class="usa-unstyled-list">
+    <li>
+      <!-- Inline CSS styles because these are only used this way here -->
+      <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
+    </li>
+    <li>
+      <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F</a> on GitHub
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS" />RSS Feed</a>
+    </li>
+  </ul>
+</aside>
 </div>
 
 <div class="usa-grid usa-grid-line">
