@@ -29,7 +29,7 @@
   width: 100%;
   padding-bottom: 4.5rem;
   margin-bottom: $paragraph-margins;
-  border-bottom: 10px solid $color-primary;
+  border-bottom: 10px solid $color-medium;
 
   @include media($medium-screen) {
     max-width: 29rem;

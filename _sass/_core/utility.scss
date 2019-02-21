@@ -52,3 +52,9 @@ svg {
 .small-caps + h2, {
   margin-top: $spacer-margins;
 }
+
+.sidebar-heading-border {
+  padding-top: 2.3rem;
+  margin-top: 4.5rem;
+  border-top: 10px solid $color-medium;
+}
