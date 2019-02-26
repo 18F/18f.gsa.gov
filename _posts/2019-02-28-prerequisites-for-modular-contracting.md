@@ -1,5 +1,5 @@
 ---
-title: "Prerequisites for Modular Contracting"
+title: "Prerequisites for modular contracting"
 date: 2019-02-28
 authors:
 - waldo-jaquith
@@ -33,14 +33,15 @@ building toward a shared set of objectives. [That’s agile](https://agile.18f.g
 (CORs) or Contracting Officers (COs) who may be accustomed to
 adversarial relationships with software vendors under a traditional
 procurement, working with an agile software team is a very different
-reality. By having a development team ship a functioning, documented,
+reality. 
+
+By having a development team ship a functioning, documented,
 tested product every couple of weeks, it’s obvious whether they’re
 working effectively, and it’s easy for a new development team to pick up
 where a prior one left off. By dividing a big project into smaller,
 stand-alone projects, each of those can be completed by a single agile
 team, and those teams can even be at different vendors under different
-contracts. By having somebody within the agency serve as the [product owner](https://agile.18f.gov/agile-lexicon/#roles), and thus as the
-fulcrum for all work, key knowledge and decisions remain within the
+contracts. By having somebody within the agency serve as the [product owner](https://agile.18f.gov/agile-lexicon/#roles), and thus as the fulcrum for all work, key knowledge and decisions remain within the
 government, making it easier to end contracts that aren’t performing,
 knowing that a replacement team can pick up where the prior one left
 off. It is crucial that agencies always be able to cancel a contract if
