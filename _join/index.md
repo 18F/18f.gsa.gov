@@ -24,11 +24,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 Links below will take you to the Technology Transformation Services join page to apply.
 
 <section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/consulting-software-engineer/">18F - Consulting Software Engineer </a>
-</section>
-
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/visual-designer/">18F - Visual Designer</a>
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/strategist/">18F - Strategist  </a>
 </section>
 
 <!--**We currently have no open positions at 18F. Visit the [Technology Transformation Services join page](https://join.tts.gsa.gov/#upcoming-positions) to find positions we will be opening soon.  **-->
