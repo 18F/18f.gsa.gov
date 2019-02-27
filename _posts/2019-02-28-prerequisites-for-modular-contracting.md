@@ -14,23 +14,24 @@ familiar with the fundamentals of modern software development
 practices."
 ---
 
-At 18F Acquisition, we often advocate for [modular contracting](https://18f.gsa.gov/2017/10/11/pulling-back-the-curtain-on-it-procurement/)
+At 18F, we often advocate for [modular contracting](https://18f.gsa.gov/2017/10/11/pulling-back-the-curtain-on-it-procurement/)
 — the practice of breaking up large, custom software procurements into a
 small constellation of smaller contracts. In doing so, we’ve learned
 that we’re more effective when promoting that message to people who are
 familiar with the fundamentals of modern software development practices.
 
 We’ve run dozens of workshops to teach our state and federal clients
-about modular contracting. Like any good Agile organization, we
+about modular contracting. Like any good agile organization, we
 constantly re-examine what we’re teaching and why. In doing so, we’ve
 learned that modular procurement requires agile, product thinking,
 user-centered design, DevSecOps, and loosely-coupled architecture.
 
-**Agile software development.** It is not difficult to manage the
+## Agile software development
+
+It's not difficult to manage the
 contract for a software development team that is small, self-contained,
 self-motivated, self-improving, self-organizing, customer-focused, and
-building toward a shared set of objectives. [That’s agile](https://agile.18f.gov/). For Contracting Officer Representatives
-(CORs) or Contracting Officers (COs) who may be accustomed to
+building toward a shared set of objectives. [That’s agile](https://agile.18f.gov/). For Contracting Officer Representatives or Contracting Officers who may be accustomed to
 adversarial relationships with software vendors under a traditional
 procurement, working with an agile software team is a very different
 reality. 
@@ -46,11 +47,11 @@ government, making it easier to end contracts that aren’t performing,
 knowing that a replacement team can pick up where the prior one left
 off. It is crucial that agencies always be able to cancel a contract if
 the agile team isn’t performing, or if the agency discovers what they
-envisioned at the time of the RFP doesn’t serve user needs. fire
-(termination for cause/default) non-performing agile teams, and agile
-helps to ensure that the agency is always in a position to do that.
+envisioned at the time of the RFP doesn’t serve user needs. Agile helps to ensure that the agency is always in a position to do that.
 
-**Product thinking.** Users of software are trying to solve a problem,
+## Product thinking
+
+Users of software are trying to solve a problem,
 and [product thinking](https://18f.gsa.gov/2018/12/11/product-management-at-18F-part-2-acquisitions/)
 is about identifying that problem, connecting it to a vision for the
 overall work, and the strategy for accomplishing that. That work,
@@ -61,7 +62,9 @@ this key knowledge stays with the agency, while vendors come and go.
 This is a different person than the product owner — the work being done
 here is higher-level.
 
-**User-centered design.** Nobody knows the end-users of the software
+## User-centered design
+
+Nobody knows the end-users of the software
 better than the agency, and [user-centered design](https://product-guide.18f.gov/working-in-a-way-that-reflects-our-values/user-centered-design/)
 centers the experiences and needs of those people throughout the design
 process. The agency can remain in control by having the vendor build
@@ -69,7 +72,9 @@ software that is centered on the user needs by employing a user research
 process that’s coordinated with product management, so that the product
 owner can ensure that the vendor is producing high-value work.
 
-**DevSecOps.** One vendor can use the infrastructure established by
+## DevSecOps
+
+One vendor can use the infrastructure established by
 another vendor with absolutely minimal setup time, if they use
 standardized continuous integration and [continuous deployment practices](https://18f.gsa.gov/tags/devops/), ideally with
 infrastructure-as-a-service (often referred to “IaaS”) providers. After
@@ -78,7 +83,9 @@ continuous integration service, static and dynamic analysis service, and
 gated deployment to a cloud host, subsequent vendors can easily use that
 same pipeline with a few minutes of configuration work.
 
-**Components loosely coupled via APIs.** The old model was to design
+## Components loosely coupled via APIs
+
+The old model was to design
 monolithic systems (often referred to as legacy systems) containing
 complex interactions, and attempt to coordinate work between vendors
 collaborating on it. Now we have vendors build a series of smaller,
