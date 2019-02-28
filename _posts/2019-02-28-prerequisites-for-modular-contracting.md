@@ -91,10 +91,10 @@ complex interactions, and attempt to coordinate work between vendors
 collaborating on it. Now we have vendors build a series of smaller,
 standalone systems, with only one vendor working on any one of those
 systems. Each of those components communicates with the others via
-standardized, documented API methods, e.g.
-[*REST*](https://en.wikipedia.org/wiki/Representational_state_transfer).
+standardized, documented API methods, for example,
+[REST](https://en.wikipedia.org/wiki/Representational_state_transfer).
 (This approach is also known as building
-“[*microservices*](https://www.martinfowler.com/articles/microservices.html).”)
+“[microservices](https://en.wikipedia.org/wiki/Microservices).”)
 This simplicity facilitates “emergent architecture,” in which the
 structure of an overall application can be designed gradually, as it is
 needed, instead of being designed up front, which facilitates agile.
