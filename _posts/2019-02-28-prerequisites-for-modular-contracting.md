@@ -98,6 +98,8 @@ This simplicity facilitates “emergent architecture,” in which the
 structure of an overall application can be designed gradually, as it is
 needed, instead of being designed up front, which facilitates agile.
 
+## Each prerequisite matters
+
 Collectively, these practices make modular procurement viable. If agile
 was omitted, it would be difficult for a new vendor to pick up the work
 of an old vendor. If DevSecOps were omitted, it wouldn’t be plausible to
@@ -107,5 +109,7 @@ a system that wouldn’t address user needs. And so on.
 
 Modular procurement of custom products is often wise, and we’ll continue
 to advocate for it and support our partner agencies in that goal, but
-*it is part* of a larger process that includes all of these
+it is part of a larger process that includes all of these
 prerequisites that are necessary for modular procurement to be viable.
+
+*Thanks to Alan Atlas, Mark Hopson, and Vicki McFadden for their work in identifying these prerequisites for modular procurement*
