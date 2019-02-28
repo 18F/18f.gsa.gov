@@ -6,12 +6,11 @@ authors:
 tags:
 - acquisition services
 - procurement
-excerpt: "At 18F Acquisition, we often advocate for modular contracting
+excerpt: "At 18F, we often advocate for modular contracting
 — the practice of breaking up large, custom software procurements into a
 small constellation of smaller contracts. In doing so, we’ve learned
 that we’re more effective when promoting that message to people who are
-familiar with the fundamentals of modern software development
-practices."
+familiar with the fundamentals of modern software development practices."
 ---
 
 At 18F, we often advocate for [modular contracting](https://18f.gsa.gov/2017/10/11/pulling-back-the-curtain-on-it-procurement/)
