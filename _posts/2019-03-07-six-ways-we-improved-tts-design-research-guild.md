@@ -13,8 +13,7 @@ we’ll share the six ways we’ve recently worked to improve the guild."
 ---
 
 <div class="testimonial-blockquote">
-*Communities of practice are groups of people who share a concern or a passion for something they do and learn how to do it better as they
-interact regularly.*
+  Communities of practice are groups of people who share a concern or a passion for something they do and learn how to do it better as they interact regularly.
     <span>- Etienne Wenger-Trayner and Beverly Wenger-Trayner</span>
 </div>
 
