@@ -1,7 +1,7 @@
 ---
 title: "Six ways we’ve recently improved TTS’s Design Research Guild"
 date: 2019-03-07
-Authors:
+authors:
 - andrewmaier
 tags:
 - how we work
