@@ -86,8 +86,8 @@ In a nutshell, our speaker series works like this:
 9. We email the speaker to thank them and ask for feedback on their experience
 
 The Research Guild has hosted three speakers so far in 2019. In addition to Jessica, we’ve heard from Elissa Olinsky (who spoke about
-accessibility considerations for researchers) and Kate Towsey (who spoke about research operations). And since we’ve reached out to a number of potential speakers, we’ve added [*frequently requested
-topics*](https://github.com/18F/g-research/blob/master/README.md) to our guild readme for quick reference.
+accessibility considerations for researchers) and Kate Towsey (who spoke about research operations). And since we’ve reached out to a number of potential speakers, we’ve added [frequently requested
+topics](https://github.com/18F/g-research/blob/master/README.md) to our guild readme for quick reference.
 
 ## Posting a weekly bulletin board
 
