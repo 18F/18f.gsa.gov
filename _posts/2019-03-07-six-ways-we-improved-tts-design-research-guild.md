@@ -110,6 +110,6 @@ Initially, we set the posting frequency to **once every other week.** We didn’
 
 The last thing we decided to do was hit the digital pavement. To better alert people to the guild’s presence, Ben and I met with our colleagues in GSA’s Office of Customer Experience as well as Jean Fox and Silvia Salazar, who moderate the governmentwide [UX community of practice](https://digital.gov/communities/user-experience/) about how we might invite dialog between our communities.
 
-We’ve created a simple, 10-slide presentation to help people know what the guild’s about and why they should join. Our presentation showcases noteworthy guild activities like hearing from GSA’s Privacy Office, discussing [*18F Methods*](https://methods.18f.gov), collaboratively planning research, etc.
+We’ve created a simple, 10-slide presentation to help people know what the guild’s about and why they should join. Our presentation showcases noteworthy guild activities like hearing from GSA’s Privacy Office, discussing [18F Methods](https://methods.18f.gov), collaboratively planning research, etc.
 
-These are just some of the ideas that we’re trying in 2019 to increase engagement in our guild. Do you run a design- or research-related community of practice within your agency? We’d love to hear ways that you’re improving things and encouraging engagement. Tell us at [*18F-research@gsa.gov*](mailto:18F@gsa.gov).
+These are just some of the ideas that we’re trying in 2019 to increase engagement in our guild. Do you run a design- or research-related community of practice within your agency? We’d love to hear ways that you’re improving things and encouraging engagement. Tell us at [18F-research@gsa.gov](mailto:18F@gsa.gov).
