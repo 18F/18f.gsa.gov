@@ -4,8 +4,7 @@ title: Visualizing public lands data
 subtitle: Opening up complex data
 permalink: /what-we-deliver/onrr-data-site/
 redirect_from: /project/onrr-data-site/
-excerpt: Natural Resources Revenue Data (NRRD) helps the public learn
-about extractive activities on public lands and waters.
+excerpt: Natural Resources Revenue Data (NRRD) helps the public learn about extractive activities on public lands and waters.
 Image: /assets/img/projects/nrrd-site.png/
 image_accessibility: Screenshot of the revenuedata.doi.gov front page
 project_weight:
