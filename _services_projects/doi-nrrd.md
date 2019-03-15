@@ -3,17 +3,16 @@ agency: Department of the Interior’s Office of Natural Resources Revenue
 title: Visualizing public lands data
 subtitle: Opening up complex data
 permalink: /what-we-deliver/onrr-data-site/
-redirect\_from: /project/onrr-data-site/
+redirect_from: /project/onrr-data-site/
 excerpt: Natural Resources Revenue Data (NRRD) helps the public learn
 about extractive activities on public lands and waters.
 Image: /assets/img/projects/nrrd-site.png/
-image\_accessibility: Screenshot of the revenuedata.doi.gov front page
-project\_weight: 4
+image_accessibility: Screenshot of the revenuedata.doi.gov front page
+project_weight: 4
 tag: nrrd
-expiration\_date:
-Github\_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
-Project\_url: "[Natural Resources Revenue Data site](https://revenuedata.doi.gov/)"
-resources:
+expiration_date:
+Github_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
+Project_url: "[Natural Resources Revenue Data site](https://revenuedata.doi.gov/)"
 ---
 
 Previously, if you looked out your window and saw an oil rig on public
