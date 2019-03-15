@@ -9,9 +9,7 @@ Image: /assets/img/projects/nrrd-site.png
 image_accessibility: Screenshot of the revenuedata.doi.gov front page
 project_weight: 12
 tag: nrrd
-expiration_date:
-Github_repo:
-    - "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
+Github_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
 Project_url: "[Natural Resources Revenue Data site](https://revenuedata.doi.gov/)"
 resources:
 ---
