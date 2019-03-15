@@ -7,11 +7,13 @@ redirect_from: /project/onrr-data-site/
 excerpt: Natural Resources Revenue Data (NRRD) helps the public learn about extractive activities on public lands and waters.
 Image: /assets/img/projects/nrrd-site.png/
 image_accessibility: Screenshot of the revenuedata.doi.gov front page
-project_weight:
+project_weight: 12
 tag: nrrd
 expiration_date:
-Github_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
+Github_repo:
+    - "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
 Project_url: "[Natural Resources Revenue Data site](https://revenuedata.doi.gov/)"
+resources:
 ---
 
 Previously, if you looked out your window and saw an oil rig on public
@@ -23,7 +25,7 @@ to help the public learn more about that oil rig and other extractive
 activities on public lands and waters.
 
 <div class="testimonial-blockquote">
-Our small digital team at the [Office of Natural Resources Revenue](https://www.onrr.gov/) continues the work of user-centered and open-data design started by 18F.
+Our small digital team at the Office of Natural Resources Revenue continues the work of user-centered and open-data design started by 18F.
     <span>- Digital team at the Office of Natural Resources Revenue</span>
 </div>
 
