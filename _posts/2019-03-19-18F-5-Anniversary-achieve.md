@@ -44,13 +44,13 @@ By working with multiple agencies in similar fields, some of our team members ha
 Previously, gaining that kind of knowledge has been a happy accident. But in 2018, we decided to become more intentional about preserving our experience in these fields. That way, we can better help our partners solve their challenges and in turn help them deliver more value for the people they serve.
 
 Our first iteration of this idea is the **Human Services Portfolio**, a dedicated team working with federal and state agencies that support health and human service programs. You can find a list of the projects we’re working on in this [GitHub
-repo](https://github.com/18F/human-services/blob/master/README.md#current-projects) – right now we’re focused on helping replace legacy systems via an iterative, modular approach.
+repo](https://github.com/18F/human-services/blob/master/README.md#current-projects) — right now we’re focused on helping replace legacy systems via an iterative, modular approach.
 
 And of course, we continue our commitment to a human-centered approach at every step of our work. As part of that commitment, we coach our partners on how to conduct and learn from user research, so they can keep improving their systems long after 18F has transitioned out of the project.
 
 ## How we’ve made an impact
 
-We know we’ve done our job right when a partner doesn’t need us anymore. Over the last year we’ve wrapped up long-term projects with the **Federal Election Commission** (FEC), the Department of Interior’s **Office of Natural Resources Revenue** (ONRR), and the **National Science Foundation** (NSF), two of which we’ve worked on since 18F began. These projects have been successfully transitioned to their home agencies, who are now developing and maintaining these projects on their own.
+We know we’ve done our job right when a partner doesn’t need us anymore. Over the last year, we’ve wrapped up long-term projects with the **Federal Election Commission** (FEC), the Department of Interior’s **Office of Natural Resources Revenue** (ONRR), and the **National Science Foundation** (NSF), two of which we’ve worked on since 18F began. These projects have been successfully transitioned to their home agencies, who are now developing and maintaining these projects on their own.
 
 Alex Palmer, the staff director and chief information officer at the
 FEC, had this to say about us:
@@ -65,19 +65,19 @@ The Forest Service, another long-term partner, shared similar thoughts:
 Selling permits just is part of the story. We are learning how to position the agency for the future.
   </div>
 
-But it doesn’t take years, or a multi-phase project, before agencies start seeing a return on their investment from 18F. For example, one partner came to us last year with a massive time management problem – workflows that involved staff processing thousands of emails for 10
+But it doesn’t take years, or a multi-phase project, before agencies start seeing a return on their investment from 18F. For example, one partner came to us last year with a massive time management problem — workflows that involved staff processing thousands of emails for 10
 hours per day. Within a **single eight-week engagement**, we were able to identify the root cause of the problem and propose new ways of working. Now, instead of 1,000 emails a day, the team gets 50; instead of spending 10 hours a day processing, they can focus on fulfilling their mission.
 
 ## What we’ve learned
 
-We’re immensely grateful for our founders and our former colleagues – we wouldn’t be here today without them. In the past year or two, we’ve revisited some of the values that were core to our identity in those early years, and refined them as we learned from our agency partners and project experiences. Here’s where our heads are now, and how that’s changing our approach to our work.
+We’re immensely grateful for our founders and our former colleagues — we wouldn’t be here today without them. In the past year or two, we’ve revisited some of the values that were core to our identity in those early years, and refined them as we learned from our agency partners and project experiences. Here’s where our heads are now, and how that’s changing our approach to our work.
 
 ### Delivery isn’t the *only* strategy
 
 Inspired by Mike Bracken and the UK’s [Government Digital Service](https://gds.blog.gov.uk/), our early work was focused on delivery. This was the right move in 2014, when a big part of our job was simply proving that what we wanted to do was possible.
 
 But today, the question isn’t *if* government tech can be built in
-modern ways. [It’s *how* that modern tech should be built](https://18f.gsa.gov/how-we-work/) – what needs to be in place behind the scenes to make it sustainable. And in response, we’ve learned that our real value isn’t just in websites. It’s in helping our partners uncover the teams, the skills, and the processes they need to maintain technology in ways they weren’t capable of before.
+modern ways. [It’s *how* that modern tech should be built](https://18f.gsa.gov/how-we-work/) — what needs to be in place behind the scenes to make it sustainable. And in response, we’ve learned that our real value isn’t just in websites. It’s in helping our partners uncover the teams, the skills, and the processes they need to maintain technology in ways they weren’t capable of before.
 
 In 2018, we wrapped a long-term engagement with our partners at the
 Department of the Interior’s Office of Natural Resources Revenue (ONRR). We spent the last phase of our work together building [a seamless transition between 18F and ONRR](https://18f.gsa.gov/2018/05/01/lessons-from-an-18f-product-transition/), from hiring to coaching to revisiting the product vision entirely. ONRR now has the capacity in house to build, manage, and maintain their own human-centered design projects, including [the site we built together](https://revenuedata.doi.gov/) when we started working together in 2014.
@@ -95,7 +95,7 @@ were suggesting. It wasn’t enough to just put the forms on the internet; to pr
 
 At 18F, we put in the hours to understand our partners’ work — but for this project, we knew we couldn’t do it alone. In addition to a product owner, we asked CMS for a policy person who could guide us through the project’s financial and regulatory hurdles. He partnered with us to help us stay compliant and present information clearly, even (and especially) when that meant making design choices we might not otherwise have made.
 
-As a result, within two months we had a fully clickable prototype that CMS experts could find believable and trustworthy. And by passing the sniff test for accuracy, we could all focus on what the new tables offered – hundreds of hours saved on manually checking Word documents or errors — instead of what needed to change.
+As a result, within two months we had a fully clickable prototype that CMS experts could find believable and trustworthy. And by passing the sniff test for accuracy, we could all focus on what the new tables offered — hundreds of hours saved on manually checking Word documents or errors — instead of what needed to change.
 
 ### Don’t do ALL THE THINGS
 
@@ -116,7 +116,7 @@ We didn’t really start to feel the effects of our relatively short shelf lives
 
 Skills transfer and succession building aren’t just key to our partner engagements. They’re key to how we run our own organization, too. So in addition to what we share externally, we’re working to better write down what we’ve tried and learned. This helps us stay consistent (memory is a fickle thing) and prevents upcoming generations of 18F from having to rediscover findings or re-make our mistakes.
 
-In the past few months we’ve been experimenting with a new role we’re calling the Chief of Projects. It’s now someone’s job to research, synthesize, document, and disseminate best practice across the organization — to make sure that as little as possible gets lost when folks reach their term-out dates. Our first Chief of Projects has been creating templates, codifying roles, and mapping out 18F engagements to help us all more clearly understand and learn from each other’s work.
+In the past few months, we’ve been experimenting with a new role we’re calling the Chief of Projects. It’s now someone’s job to research, synthesize, document, and disseminate best practice across the organization — to make sure that as little as possible gets lost when folks reach their term-out dates. Our first Chief of Projects has been creating templates, codifying roles, and mapping out 18F engagements to help us all more clearly understand and learn from each other’s work.
 
 ## What’s next
 
@@ -128,4 +128,4 @@ Second, we’re working with our talent team and GSA HR to start hiring **career
 
 And last but not least, we’ll be creating **new portfolios** based on what we’ve learned from the Human Services Portfolio. Our goal is to help define 18F’s areas of expertise for partners while creating stronger internal skills for solving common problems throughout government. If this model works, we’ll be able to increase our impact and better serve our partner agencies.
 
-Today’s 18F is different from the 18F of 2014. We’re a little quieter, a little more pragmatic — and we can take that approach because previous 18Fers blazed a trail for us. Thanks to them, we don’t have to prove our concept anymore. We can just get on with the work of helping government create smart, digital, data-driven change.
+Today’s 18F is different from the 18F of 2014. We’re a little quieter, a little more pragmatic — and we can take that approach because previous 18F staff blazed a trail for us. Thanks to them, we don’t have to prove our concept anymore. We can just get on with the work of helping government create smart, digital, data-driven change.
