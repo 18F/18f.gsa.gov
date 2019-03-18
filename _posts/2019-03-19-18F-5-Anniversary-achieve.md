@@ -24,9 +24,9 @@ We wanted to celebrate our fifth birthday with a look back. Here’s what we’v
 
 We may be small, but we are mighty. Our team of 118 employees worked with 22 different federal agencies and three states last year on everything from modernizing legacy Air Force schedulers to making background investigations more secure nationwide. Some of our most notable projects include:
 
-- Helping the **U.S. Forest Service** sell [Christmas tree permits online](https://18f.gsa.gov/2019/02/12/open-forest-launch-post/), simplifying the tree-buying process for the public and minimizing the administrative burden for Forest Service staff
-- Working with **Alaska’s Department of Health and Social Services** to explore [modern procurement methods](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/) that get the right vendor partners working sooner rather than later
-- Via [10x](https://10x.gsa.gov/) funding, building a tool for the **U.S. Department of Agriculture** that reduces error and waste by giving states a single, centrally owned way to check federal benefit [eligibility rules](https://18f.gsa.gov/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/)
+- Helping the **U.S. Forest Service** sell [Christmas tree permits online](https://18f.gsa.gov/2019/02/12/open-forest-launch-post/), simplifying the tree-buying process for the public and minimizing the administrative burden for Forest Service staff.
+- Working with **Alaska’s Department of Health and Social Services** to explore [modern procurement methods](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/) that get the right vendor partners working sooner rather than later.
+- Via [10x](https://10x.gsa.gov/) funding, building a tool for the **U.S. Department of Agriculture** that reduces error and waste by giving states a single, centrally owned way to check federal benefit [eligibility rules](https://18f.gsa.gov/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/).
 
 ### Products
 
