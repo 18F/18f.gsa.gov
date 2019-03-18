@@ -1,5 +1,5 @@
 ---
-agency: Department of the Interior’s Office of Natural Resources Revenue
+agency: Department of the Interior
 title: Visualizing public lands data
 subtitle: Opening up complex data
 permalink: /what-we-deliver/onrr-data-site/
