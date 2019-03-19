@@ -34,7 +34,7 @@ Many of our partner projects depend on products, which support the
 day-to-day efforts of agencies across government, too. For example:
 
 - [**Federalist**](https://federalist.18f.gov/), our website managing tool, hosts 134 .gov sites with more than 65 million hits per year. [Vote.gov](https://vote.gov/) and [FedRAMP](https://fedramp.gov/) both rely on Federalist to keep their sites functional, accessible, and easy to maintain.
-- [**cloud.gov**](http://www.cloud.gov), our Platform as a Service (PaaS), hosts 37 systems for agencies including the Federal Bureau of Investigations and the Internal Revenue Service. By automating infrastructure and managing most of the compliance, it’s a simpler way to get legacy systems onto the cloud.
+- [**cloud.gov**](http://www.cloud.gov), our Platform as a Service (PaaS), hosts 37 systems for agencies including the Federal Bureau of Investigations and the Internal Revenue Service. It also hosts some of our own products like Federalist. By automating infrastructure and managing most of the compliance, it’s a simpler way to get systems onto the cloud.
 - And [**login.gov**](http://www.login.gov), our single sign-on solution, protects data for 12 million account holders. It offers the public secure, private access to sites like USAJobs.gov and the Trusted Traveler programs.
 
 ### Portfolios
