@@ -21,7 +21,7 @@ experience of government. We asked staff from acquisitions to strategy
 to share what project they loved working on during the past year. We
 received many fabulous nominations, and we’re sharing with you the top four submissions (in no particular order).
 
-## Centers for Medicaid and Medicare Services Electronic Advanced Planning Document (eAPD)
+## Centers for Medicaid and Medicare Services Electronic Advanced Planning Document
 
 **Greg Walker, Engineering**
 
@@ -90,7 +90,7 @@ days using mostly the Google tools that GSA provides, reducing the
 amount of infrastructure. The site has barely needed any maintenance
 since its inception.
 
-## United States Marine Corps Logistics IT
+## U.S. Marine Corps Logistics IT
 
 **Sarah Eckert, Strategy**
 
@@ -130,7 +130,7 @@ contracting. The interest we have received from within the logistics
 community and higher echelons within the USMC indicate that these new
 practices could be widely adopted across the Marine Corps.
 
-## U.S. Navy NAVAIR
+## U.S. Navy Naval Air Systems Command
 
 **Andrew Suprenant, Product**
 
