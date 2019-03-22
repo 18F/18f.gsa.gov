@@ -1,5 +1,5 @@
 ---
-title: "18F’s five favorite projects of 2018"
+title: "18F’s four favorite projects of 2018"
 date: 2019-03-22
 authors:
 - dahianna
@@ -19,10 +19,7 @@ To continue our birthday celebrations, we’re saluting those projects and
 partners that inspired our team to do their best to improve the user
 experience of government. We asked staff from acquisitions to strategy
 to share what project they loved working on during the past year. We
-received many fabulous nominations, and since it’s our fifth
-anniversary, we’re sharing with you the top five submissions.
-
-Here are 18F’s fav5 of 2018 (in no particular order):
+received many fabulous nominations, and we’re sharing with you the top four submissions (in no particular order).
 
 ## Centers for Medicaid and Medicare Services Electronic Advanced Planning Document (eAPD)
 
@@ -132,42 +129,6 @@ process built on agile, DevOps/product thinking, and modular
 contracting. The interest we have received from within the logistics
 community and higher echelons within the USMC indicate that these new
 practices could be widely adopted across the Marine Corps.
-
-## Department of State Operations Center
-
-**Kara Reinsel, Product**
-
-### About the project
-
-The Operations Center is the Secretary's and the Department's
-communications and crisis management center. It monitors world events,
-prepares briefings for the Secretary and other Department principals,
-and facilitates communication between the Department and the rest of the
-world. The Operations Center was in need of a content management system
-(CMS), since they were relying on email to track and share the creation
-and publishing of content products. In need of direction, 18F was
-brought in to identify a path forward and lay out the plan to get them
-there.
-
-### Why is it meaningful?
-
-Long term, the operations center will have a CMS and content strategy
-that enables and empowers them to create the right content products for
-the right audience at the right time, and makes their content easily
-accessible so that it can be retrieved quickly and accurately during
-times of crisis.
-
-### Positive outcomes
-
-We established a deep amount of respect with the Operations Center and
-became a trusted advisor and partner to their team and leadership. They
-were extremely motivated to adopt the recommendations in the [Path Analysis](https://18f.gsa.gov/how-we-work/) and signed on for an
-[Experiment & Iterate](https://18f.gsa.gov/how-we-work/) phase, which
-began in October 2018. They also implemented two of our recommendations
-from the Path Analysis before we had even returned to do the Experiment
-& Iterate work. Adapting the recommendations of the Path Analysis has
-freed up their teams to move from repetitive work and focus on higher
-value, higher impact work.
 
 ## U.S. Navy NAVAIR
 
