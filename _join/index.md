@@ -23,9 +23,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 Links below will take you to the Technology Transformation Services join page to apply.
 
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/devops-engineer/">Login.gov - DevOps/ Site Reliability Engineer </a>
-</section>
+**We currently have no open positions at 18F.**
 
 <!--Links below will take you to the Technology Transformation Services join page to apply.-->
 <!--**We currently have no open positions at 18F.**-->
