@@ -23,7 +23,9 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 Links below will take you to the Technology Transformation Services join page to apply.
 
-**We currently have no open positions at 18F.**
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/security-ops-engineer/">Login.gov - Security Ops Engineer</a>
+</section>
 
 <!--Links below will take you to the Technology Transformation Services join page to apply.-->
 <!--**We currently have no open positions at 18F.**-->
