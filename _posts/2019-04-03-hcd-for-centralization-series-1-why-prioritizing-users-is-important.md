@@ -13,7 +13,6 @@ centralization will result in services that work better for the people
 they serve. As part of a 10x project, we’ve talked to users who
 understand how centralization has impacted their day-to-day work and
 gathered lessons learned and best practices."
-image: /assets/blog/slug/image.jpg/png/gif\
 ---
 
 *This is the kick-off post in a [series](https://18f.gsa.gov/tags/it-centralization/) of posts on the importance of human-centered design when evaluating IT centralization. As part of a [10x](https://10x.gsa.gov/) project, we've synthesized 18F's learnings from agency partners who’ve been through centralization efforts before and have wisdom to share. The series explores how and why taking the time to prioritize users will mitigate risks and yield services that work better for the people they serve.*
