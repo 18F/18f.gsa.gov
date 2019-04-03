@@ -7,7 +7,6 @@ authors:
 - amy-ashida
 tags:
 - 10x
-- it centralization
 - best practices
 excerpt: " At 18F, we believe directly engaging users while evaluating IT
 centralization will result in services that work better for the people
