@@ -17,6 +17,8 @@ gathered lessons learned and best practices."
 
 *This is the kick-off post in a [series](https://18f.gsa.gov/tags/it-centralization/) of posts on the importance of human-centered design when evaluating IT centralization. As part of a [10x](https://10x.gsa.gov/) project, we've synthesized 18F's learnings from agency partners who’ve been through centralization efforts before and have wisdom to share. The series explores how and why taking the time to prioritize users will mitigate risks and yield services that work better for the people they serve.*
 
+## Bringing users into the conversation
+
 When you read about IT centralization and shared services, you don’t
 always hear how users are affected by the process. Instead, the focus is
 typically on reduced costs and increased efficiency, often the driving
@@ -38,6 +40,8 @@ centralization will result in services that work better for the people
 they serve. This means less rework and fewer support issues down the
 road. An iterative process, not a waterfall approach, also decreases
 risk. Human-centered design methods can help every step of the way.
+
+## Design and centralization can work together 
 
 A good example of this approach in action is the [U.S. Web Design System](https://v2.designsystem.digital.gov/). With nearly 30,000 U.S
 federal websites and almost no consistency between them, it was crucial
