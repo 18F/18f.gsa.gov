@@ -8,6 +8,7 @@ tags:
 - modular contracting
 - devops
 - acquisition services
+- alaska
 excerpt: "Adopting this “smaller is better” mindset as a way to overhaul a large, complex legacy system can feel counterintuitive. But the notion of smallness — of distilling complex, interdependent tasks into achievable units of work — is fundamental to building modern software in both the private and public sector."
 ---
 
@@ -35,11 +36,11 @@ In our work with the State of Alaska on the [overhaul of their legacy public ben
 
 More and more agencies report familiarity with or adoption of [agile practices](https://agile.18f.gov/), but this exposure to agile practices can sometimes be one dimensional. There may be a lack of clarity on the interconnection between some of the core ideas of agile and other strategies that agencies need to overhaul large legacy systems.
 
-One of the key tenets of agile is to build in small, minimally viable increments to get working features to users more quickly, so that assumptions can be tested and feedback can be incorporated into future iterations. Breaking work down into smaller chunks helps focus a team’s efforts on delivery of specific items that have been deemed a high priority by a product owner. 
+One of the key tenets of agile is to build in small, minimally viable increments to get working features to users more quickly, so that assumptions can be tested and feedback can be incorporated into future iterations. Breaking work down into smaller chunks helps focus a team’s efforts on delivery of specific items that have been deemed a high priority by a product owner.
 
 The idea that large pieces of work should be broken up into smaller pieces that are achievable, testable, and deliverable makes up part of the foundation for agile practices.
 
-Agile methodologies are a key component of how 18F works with partners, and they’re also a key strategy that governments need to successfully work with technology vendors. 18F has developed [its own pool of agile vendors](https://18f.gsa.gov/what-we-deliver/agile-bpa/), and also worked [directly with states](https://18f.gsa.gov/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/) to help them craft their own agile vendor pools. 
+Agile methodologies are a key component of how 18F works with partners, and they’re also a key strategy that governments need to successfully work with technology vendors. 18F has developed [its own pool of agile vendors](https://18f.gsa.gov/what-we-deliver/agile-bpa/), and also worked [directly with states](https://18f.gsa.gov/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/) to help them craft their own agile vendor pools.
 
 Learning how to adopt agile practices is a key part of being able to work with vendors to overhaul complex legacy systems.
 
@@ -53,7 +54,6 @@ Because DevOps focuses on [automated testing and scanning](https://18f.gsa.gov/2
 
 As part of our work with the State of Alaska, we [helped the state adopt DevOps practices](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/) and build out their first continuous integration/continuous delivery (CI/CD) pipeline. CI/CD is an essential part of how the state is working with outside vendors and is a foundational component of their legacy modernization efforts.
 
-Governments face significant challenges in modernizing legacy systems. Often the size and complexity of these systems can seem to present insurmountable challenges to government officials faced with limited resources and high expectations. 
+Governments face significant challenges in modernizing legacy systems. Often the size and complexity of these systems can seem to present insurmountable challenges to government officials faced with limited resources and high expectations.
 
 But breaking the work down into small chunks can make the process more manageable, and employing DevOps for continuous testing and deployment can provide confidence that everything is heading in the right direction, each step of the way.  
-

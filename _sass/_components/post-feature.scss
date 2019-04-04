@@ -24,7 +24,7 @@
   }
 
   .post {
-    margin-bottom: $paragraph-margins-thick;
+    margin-bottom: $paragraph-margins;
 
     &:last-of-type {
       margin-bottom: 0;
@@ -44,11 +44,33 @@
   }
 }
 
-.post-date {
-  @include small-caps;
+.post-date,
+time {
+  font-weight: normal;
+  font-size: $h5-font-size;
+  color: $color-gray;
+  margin-bottom: $paragraph-margins-thick;
+}
+
+.post-byline {
+  + .post-date,
+  + time {
+    white-space: nowrap;
+    margin-bottom: $paragraph-margins-thick;
+
+    &::before {
+      content: '\2022';
+      height: 1em;
+      width: 1em;
+      margin-right: 1rem;
+      margin-left: $spacer-margins; // to accommodate for adjoning p margin
+      color: $color-gray;
+      font-size: 0.8em;
+    }
+  }
 }
 
 .post-border {
   border-bottom: $border-accent-medium;
-  padding-bottom: $paragraph-margins-thick;
+  padding-bottom: $paragraph-margins;
 }
