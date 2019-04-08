@@ -141,9 +141,9 @@ Layout grids give any website visual coherence. The [USWDS 2.0 layout grid](http
   on a colorful website"/>
 </figure>
 
-## Introducing Public Sans**
+## Introducing Public Sans
 
-### A free, open source typeface from USWDS**
+### A free, open source typeface from USWDS
 
 USWDS 2.0 adds built-in support for custom typefaces, but sometimes you need something free, simple, and readable that just isn’t Helvetica. [Public Sans](https://github.com/uswds/public-sans) is an open source, open license (SIL Open Font License 1.1) typeface designed and maintained by USWDS, adapted from Libre Franklin. We intend Public Sans to be a model of how to design an open source typeface in public, with contributions and feedback *from* the public — to deliver a useful, neutral, sans serif now *and* continuously improve it into the future.
 
