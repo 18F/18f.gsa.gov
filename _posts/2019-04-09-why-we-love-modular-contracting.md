@@ -11,7 +11,6 @@ tags:
 excerpt: "Modular contracting is an acquisition strategy that 18F uses
 with many of our partners and our internal programs. So, why we love
 modular contracting and how does it make procurement better?"
-image: /assets/blog/slug/image.jpg/png/gif\
 ---
 
 Modular contracting is an acquisition strategy that we use with many of
