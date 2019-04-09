@@ -48,7 +48,7 @@ You don’t need to totally redesign your existing site to [get started with USW
 -   Provides resilient, modular components
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/new-content.png" alt="Side by side illustrations show before-and-after examples of a web page. One has the original page and the other shows that page with just a few design system components added"/>
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/easier-incremental-adoption--alt.jpg" alt="Side by side illustrations show before-and-after examples of a web page. One has the original page and the other shows that page with just a few design system components added"/>
 </figure>
 
 ## Practical Design Tokens
@@ -70,7 +70,7 @@ design token means that designers and developers spend less time fussing over pi
 -   Typescale outputs consistently and predictably, regardless of typeface
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/designers.png" alt="An illustration of three designers and developers using design tokens to communicate their intention. They move from themes to components to a finished website."/>
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/practical-design-tokens--alt.jpg" alt="An illustration of three designers and developers using design tokens to communicate their intention. They move from themes to components to a finished website."/>
 </figure>
 
 ## Accessible Color System
@@ -86,7 +86,7 @@ The difference between any two colors’ grades is what we call the magic number
 -   Is the foundation for expressive color families
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/colors.png" alt="Two rows of colors from light to dark and their accessible
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/accessible-color-system-alt.jpg" alt="Two rows of colors from light to dark and their accessible
   color combinations."/>
 </figure>
 
@@ -102,7 +102,7 @@ Every project is different. Different audiences, different missions, and differe
 -   Integrated with tokens and utilities
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/themes.png" alt="An illustration shows five images of websites at different
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/expressive-theming--alt.jpg" alt="An illustration shows five images of websites at different
   screen sizes, ranging from small to large — each with a different look and feel."/>
 </figure>
 
@@ -121,7 +121,7 @@ deliver actionable prototypes quickly and consistently, and make quick modificat
 -   25 KB gzipped, but optional
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/new-symbols.png" alt="This illustration shows another before-and-after example of how a website can use utility classes to change the styles of site elements. Five stylized examples of code are given below the two versions of the page"/>
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/powerful-utility-classes--alt.jpg" alt="This illustration shows another before-and-after example of how a website can use utility classes to change the styles of site elements. Five stylized examples of code are given below the two versions of the page"/>
 </figure>
 
 ## Simplified 12-Column Layout Grid
@@ -137,7 +137,7 @@ Layout grids give any website visual coherence. The [USWDS 2.0 layout grid](http
 -   Designed to be mobile-first and responsive
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/grid.png" alt="An illustration shows a yellow 12-column grid system overlaid
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/simplified-12-column-layout-grid--alt.jpg" alt="An illustration shows a yellow 12-column grid system overlaid
   on a colorful website"/>
 </figure>
 
@@ -155,9 +155,7 @@ USWDS 2.0 adds built-in support for custom typefaces, but sometimes you need som
 -   Features tabular numerals for data design
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/font.png" alt="Seven ways to say hello—Hi, Hello, Hey, Hola, Howdy, Heya,
-  and Hai—are displayed in the new Public Sans font in various font
-  weights."/>
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/public-sans-hello--alt.jpg" alt="Hello is displayed in the new Public Sans font"/>
 </figure>
 
 ## Built to Grow
@@ -178,7 +176,7 @@ build with it.
 -   Prepared to grow and adapt to user needs and industry best practices
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/new-logo.png" alt="An expanding geometric flower formed from the USWDS logo"/>
+  <img src="{{site.baseurl}}/assets/blog/uswds2-launch/built-to-grow--alt.jpg" alt="An expanding geometric flower formed from the USWDS logo"/>
 </figure>
 
 Like any true 2.0, this is a living product. We’ll continue to test our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore USWDS 2.0, contribute your own code and ideas, and leave feedback on
