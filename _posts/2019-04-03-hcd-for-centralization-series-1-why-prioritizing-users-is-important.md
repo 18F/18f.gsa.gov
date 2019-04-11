@@ -65,7 +65,7 @@ collected insights about how this plays out.
 
 Our multi-part series shares learnings and best practices from real scenarios, with a focus on the following topics:
 
--   [Deciding whether or not to centralize](https://github.com/18F/HCD_for_IT_Centralization/blob/master/deciding_whether_or_not_to_centralize.md)
+-   [Deciding whether or not to centralize](https://18f.gsa.gov/2019/04/11/hcd-for-centralization-series-2-deciding-whether-or-not-to-centralize/)
 -   [Working with vendors to build a centralized solution](https://github.com/18F/HCD_for_IT_Centralization/blob/master/working_with_vendors_to_build_a_centralized_solution.md)
 -   [What happens after you centralize?](https://github.com/18F/HCD_for_IT_Centralization/blob/master/what_happens_after_you_centralize.md)
 -   [Centralization gone right! A case study on the U.S. Web Design System](https://github.com/18F/HCD_for_IT_Centralization/blob/master/case_study_USWDS.md)
