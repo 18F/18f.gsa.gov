@@ -14,13 +14,14 @@ initiative, we’ve developed some best practices for navigating this big questi
 
 *This is Part 2 in a series of posts on the importance of human-centered design when evaluating IT centralization. As part of a [10x](https://10x.gsa.gov/) project, we've synthesized 18F's learnings from agency partners who’ve been through centralization efforts before and have wisdom to share. The series explores how and why taking the time to prioritize users will mitigate risks and yield services that work better for the people they serve. In this post, we’ll help you answer the “to centralize or not to centralize” question.*
 
-Many agencies are eager to improve their internal IT strategy and wonder if centralization is the answer. While there might be opportunities to consolidate, streamline, and reorganize common IT functions across departments, there may be some concerns:
+
+Many agencies trying to improve their internal IT strategy wonder if centralization is the answer. While there might be opportunities to consolidate, streamline, and reorganize common IT functions across departments, there may also be concerns:
 
 -   Does it make sense to reorganize and streamline some IT services but not others?
--   Would this effort reduce costs and increase efficiency or would it be a budget drain?
--   Would it make employees happy or be a burden on them?
+-   Will this effort reduce costs and increase efficiency or would it be a budget drain?
+-   Will it help employees or be a burden on them?
 
-After interviewing several folks who’ve been through a centralization initiative, we’ve developed some best practices for navigating this big question in a more user-centered way.
+After interviewing several folks who’ve been through a centralization initiative, we’ve developed some best practices for navigating these questions in a user-centered way:
 
 1.  Set specific, realistic, measurable goals
 2.  Bring the right people to the table
@@ -28,10 +29,7 @@ After interviewing several folks who’ve been through a centralization initiati
 4.  Avoid one-size-fits-all
 5.  Anticipate the hurdles
 
-Most importantly, incorporating human-centered design into your
-centralization evaluation should be part of your strategy. Because at
-the end of the day, if your users are not benefiting from the
-centralization, it’s probably not a good idea.
+Most importantly, incorporating human-centered design into your centralization evaluation should be part of your strategy. Because at the end of the day, if your users are not benefiting from the centralization, it’s probably not a good idea.
 
 ## 1. Set specific, realistic, measurable goals
 
