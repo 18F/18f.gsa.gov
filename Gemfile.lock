@@ -206,7 +206,7 @@ DEPENDENCIES
   codeclimate-test-reporter (~> 1.0.0)
   colorize
   html-proofer (~> 3.6.0)
-  jekyll (~> 3.x)
+  jekyll (~> 3.3)
   jekyll-archives!
   jekyll-feed
   jekyll-paginate
