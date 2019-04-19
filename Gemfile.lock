@@ -206,7 +206,7 @@ DEPENDENCIES
   codeclimate-test-reporter (~> 1.0.0)
   colorize
   html-proofer (~> 3.6.0)
-  jekyll (~> 3.3)
+  jekyll (~> 3.6)
   jekyll-archives!
   jekyll-feed
   jekyll-paginate
@@ -230,4 +230,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
