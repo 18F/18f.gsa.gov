@@ -7,7 +7,6 @@ authors:
 tags:
 - 10x
 - best practices
-- it centralization
 excerpt: "This is Part 2 in a series of posts on the importance of
 human-centered design when evaluating IT centralization. In this post, we’ll help you decide if IT centralization makes sense for your agency. After interviewing several folks who’ve been through a centralization
 initiative, we’ve developed some best practices for navigating this big question in a more user-centered way."

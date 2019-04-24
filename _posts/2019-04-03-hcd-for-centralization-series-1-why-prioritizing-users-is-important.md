@@ -8,7 +8,6 @@ authors:
 tags:
 - 10x
 - best practices
-- it centralization
 excerpt: " At 18F, we believe directly engaging users while evaluating IT
 centralization will result in services that work better for the people
 they serve. As part of a 10x project, we’ve talked to users who
