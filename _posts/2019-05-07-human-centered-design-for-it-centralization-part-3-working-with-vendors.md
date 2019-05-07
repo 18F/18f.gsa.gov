@@ -27,7 +27,6 @@ mind when working with vendors:
 3.  Avoid vendor-lock in
 4.  A few pointers on writing RFPs
 5.  DevSecOps is the secret ingredient
-    > **
 
 ## 1. Think small
 
@@ -60,7 +59,7 @@ vendor begins to miss deadlines or underperform, agencies can’t hire a new one
 
 Avoid lock-in by drafting RFPs for small, independent services rather than for large, labyrinthine IT systems. Each service can be built by separate vendors yet come together to form a complete system. This way if one vendor or module isn’t working, you can easily change course.
 
-When applied to legacy systems, this is sometimes called an [*encasement strategy*](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/). Having this flexibility is important. Your users will have more trust in you as well.
+When applied to legacy systems, this is sometimes called an [encasement strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/). Having this flexibility is important. Your users will have more trust in you as well.
 
 This approach has been used by several 18F partners like the
 [California Department of Health and Human Services](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) and [Alaska’s Department of Health & Social Services](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/).
@@ -85,7 +84,7 @@ In the context of IT centralization, an agency can buy or build a new IT system 
 production. Another common scenario is agencies will introduce a new IT system with no way of updating it later when users start complaining about issues that need attention.
 
 Creating a cross-functional DevSecOps team helps avoid these pitfalls by bringing developers, security, and operations teams together. We’ve found that communication early and often among these teams helps reduce the amount of time it takes to get things into production. It also helps everyone feel more comfortable and confident in the process. (You can read more on this practice
-[*here*](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/) — and
+[here](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/) — and
 we’ll talk more about the role of DevSecOps after the rollout in the
 next post in our series.)
 
