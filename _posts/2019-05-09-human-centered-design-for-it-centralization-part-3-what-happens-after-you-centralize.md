@@ -62,7 +62,7 @@ Setting up feedback loops doesn’t have to be hard. There are plenty of tools o
 -   A project portal for users to share suggestions
 -   A ticketing system
 -   Live feedback sessions (group sessions or interviews) with sticky notes
--   Regularly scheduled [*interviews*](https://methods.18f.gov/discover/stakeholder-and-user-interviews/)
+-   Regularly scheduled [interviews](https://methods.18f.gov/discover/stakeholder-and-user-interviews/)
 -   Qualitative open-ended surveys (avoid “yes” or “no” questions)
 -   Retrospectives
 -   In-person observations to see how users interact with the service
