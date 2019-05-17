@@ -11,7 +11,7 @@ tags:
 excerpt: "Two teams working together to help agencies become more effective at meeting the needs of citizens."
 ---
 
-*This post was originally published on the [DigitalGov blog](https://digital.gov/2019/05/07/two-complementary-teams-with-same-goal/). Angela Colter is the Acting Executive Director of 18F. Adam Drake and Dan Williams are Presidential Innovation Fellows.*
+*This post was originally published on the [DigitalGov blog](https://digital.gov/2019/05/07/two-complementary-teams-with-same-goal/). Angela Colter is the Acting Executive Director of 18F. Adam Drake and Justin Koufopoulos are Presidential Innovation Fellows.*
 
 We are often asked, just how is the [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) (PIF) program
 different from [18F](https://18f.gsa.gov/)? Both teams work from
