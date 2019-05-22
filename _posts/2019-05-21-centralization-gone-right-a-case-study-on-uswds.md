@@ -8,6 +8,7 @@ tags:
 - 10x
 - it centralization
 - best practices
+- web design system
 excerpt: "This is part 5 and the last post in a series on the importance
 of human-centered design when evaluating IT centralization. Learn
 through a case study how The U.S. Web Design System came together to
