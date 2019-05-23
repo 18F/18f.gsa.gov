@@ -122,7 +122,7 @@ websites as well as what they all had in common.
 ## 4. Prioritize certain areas of focus
 
 There are many methods to help a group prioritize areas of focus. One of
-the simplest methods is [dot-voting](https://methods.18f.gov/discover/feature-dot-voting/). Allow the group to vote on different issues or themes that are most important to address first to help you rank priorities.
+the simplest methods is [dot-voting](https://methods.18f.gov/discover/dot-voting/). Allow the group to vote on different issues or themes that are most important to address first to help you rank priorities.
 
 For the USWDS team, dot-voting helped the team figure out 1) which areas
 to start working on first and 2) which design styles they favored most
