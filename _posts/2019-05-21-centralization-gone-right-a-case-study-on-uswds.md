@@ -62,7 +62,7 @@ that’s supposed to help her instead stood in her way. Creating
 consistency across federal systems helps people like Joanne access
 services they need and increases their trust in the government.
 
-A team of designers and developers from 18F along with other agencies
+A team of designers and developers from 18F and USDS, along with other agencies
 (Department of Education, U.S. Citizens and Immigration Services,
 Consumer Financial Protection Bureau, U.S. Department of Agriculture,
 and USA.gov) went to work unifying a complex web of different
