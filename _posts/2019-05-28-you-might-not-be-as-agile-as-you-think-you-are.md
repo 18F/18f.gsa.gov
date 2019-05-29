@@ -11,7 +11,7 @@ tags:
 excerpt: "The mandate to be agile is everywhere. But agile isn’t an
 on-off switch. It’s a skill and a mindset that is developed over time,
 through dedicated work, open teams, and lots (and lots) of practice"
-image: /assets/blog/agile/notas-agile.png
+image: /assets/blog/agile/not-as-agile.png
 ---
 
 At 18F, we work with partners throughout federal and state government to
