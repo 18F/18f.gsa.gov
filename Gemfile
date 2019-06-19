@@ -4,7 +4,7 @@ ruby '~>2.5.1'
 
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
-gem 'jekyll', '~> 3.3.1'
+gem 'jekyll', '~> 3.6.3'
 gem 'jemoji'
 gem 'parallel'
 
