@@ -1,18 +1,18 @@
 ---
 agency: Federalist
-title: A government publishing platform
+title: A publishing platform that creates modern, compliant government websites 
 subtitle: Build websites quickly and easily
 permalink: /what-we-deliver/federalist/
 excerpt: A government-created platform to help agencies build websites quickly and easily while meeting compliance requirements.
-image: /assets/img/projects/federalist-background-blue.jpg
-image_accessibility: "Abstract image of the Federalist Papers in bluescale"
+image: /assets/img/projects/federalist-blue-logo.png
+image_accessibility: "Federalist logo: Feather with the word Federalist"
 project_weight: 3
 tag: federalist
 expiration_date:
 github_repo:
     - "[Federalist](https://github.com/18F/federalist)"
 project_url: "[federalist.18f.gov](https://federalist.18f.gov/)"
-resources: "[Documentation](https://federalist-docs.18f.gov/)"
+resources: "[Documentation](https://federalist.18f.gov/)"
 learn_more:
 product_clients:
 - Department of Education
@@ -22,19 +22,20 @@ product_clients:
 - National Science Foundation
 ---
 
-All government agencies need well-designed websites to communicate with the public, but not everyone has the technical resources to build sites from scratch. It can be especially hard to make sure sites are compliant with federal accessibility and security requirements.
+_There’s no easier way to build, launch, and manage government sites_.
 
-18F created Federalist to help agencies build websites quickly and easily while meeting compliance requirements. We wanted to help federal software developers stand up static sites quickly and publish content to the public in a compliant way.
+Federalist is a publishing platform for modern government websites. In a matter of hours, you can publish a site that’s 21st Century IDEA Act and 508-compliant, has been given an Authority to Operate (ATO), and hosted on secure, FedRAMP-authorized infrastructure in the cloud.
 
 <div class="small-caps">Approach</div>
-### Accessibility, security, and compliance — out of the box
+### Manage your design, content, and data in one place
 
-Federalist draws on existing tools and platforms to make it easier than ever to create useful, compliant sites. Here are just some of the features the platform includes:
+Federalist can get you started quickly and as your needs change, Federalist can grow with you. When you get started, you will have a modern design that includes a blog, customizable pages, a search interface, built-in site analytics, and the ability to host and view data visualizations on a single platform. 
 
-- **Flexibility and scalability:** We know each agency’s needs are different. Whether your agency needs a text-heavy site or an image-rich one, Federalist’s customizable templates can help you publish the content you need.
-- **Top-notch security:** Federalist is hosted on cloud.gov, a platform with security and compliance verified by the FedRAMP Joint Authorization Board, which means your agency can focus on content instead of compliance.
-- **Cloud-based hosting:** [cloud.gov](https://cloud.gov/)’s flexible storage is built on top of the proven reliability of Amazon Web Services GovCloud.
-- **Accessibility:** All of Federalist’s default templates meet Section 508 standards, which makes it easier to build a site that complies with federal accessibility requirements.
-- **Content guidance:** Federalist’s content guide offers primers on different types of web content and strategies for creating content that will resonate with your users.
+- **Move to production quickly** - Every template is easy to use and built to U.S. Web Design System standards, letting you focus on your content without the need for change orders or inflexible content management systems. 
 
-As one user said of moving their site to Federalist, “Wow. That worked remarkably well. It’s magical.”
+- **Rely on top-notch security** - Federalist has its own ATO, so you don’t need to procure one yourself. Federalist is hosted on cloud.gov, a platform with security and compliance verified by the FedRAMP Joint Authorization Board. By inheriting our security controls, your agency can focus on content instead of compliance.
+
+- **Connect to databases with an API** - If you need dynamic content on your website, you can connect Federalist to cloud.gov’s flexible storage via an API.
+
+
+As one user said of moving their site to Federalist, "Wow. That worked remarkably well. It’s magical."

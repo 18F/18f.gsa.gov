@@ -23,7 +23,7 @@ analytics:
 
 # blog archive at /blog
 paginate: 5
-paginate_path: "blog/page/:num"
+paginate_path: "blog/page/:num/"
 
 jekyll-archives:
   enabled:
@@ -193,6 +193,8 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll_pages_api_search
+  - jekyll_oembed
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:

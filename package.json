@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "engines": {
-    "node": ">=5.12"
+    "node": ">=10.14"
   },
   "scripts": {
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",

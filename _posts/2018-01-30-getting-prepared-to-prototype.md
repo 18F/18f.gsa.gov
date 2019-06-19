@@ -8,6 +8,7 @@ tags:
 - acquisition services
 - data act
 - state and local practice
+- alaska
 excerpt: "In product development, we often use prototypes to understand user needs and reduce risk. Prototypes are a great way to test out ideas or approaches before you actually commit to building anything, but governments are not always set up to develop and use prototypes efficiently before building digital services. "
 ---
 
@@ -15,7 +16,7 @@ excerpt: "In product development, we often use prototypes to understand user nee
 
 In product development, we often use [prototypes](https://methods.18f.gov/#prototyping) — small, lightweight, temporary applications or artifacts — to understand user needs and reduce risk. Prototypes are a great way to test out ideas or approaches **before** you actually commit to building anything.
 
-Although more people are recognizing the value of prototyping, governments are not always set up to develop and use prototypes efficiently before building digital services. Through our work with federal agencies and state governments, we’ve used prototypes to help clarify technical complexity, understand user needs, and to inform software procurements. 
+Although more people are recognizing the value of prototyping, governments are not always set up to develop and use prototypes efficiently before building digital services. Through our work with federal agencies and state governments, we’ve used prototypes to help clarify technical complexity, understand user needs, and to inform software procurements.
 
 Here are a list of factors that governments should consider to become better prepared to build prototypes in designing and improving digital services.
 
@@ -42,7 +43,7 @@ Thinking clearly ahead of time about the reasons for building a prototype, and t
 
 ## Recruiting participants
 
-Through our work, we’ve learned firsthand that finding users to evaluate a prototype [can sometimes be a challenge](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/). Identifying users that can provide meaningful feedback and reaching out to recruit them can require multiple steps, and often prior approvals. As a general rule of thumb, the larger the call for feedback, the more hurdles you’ll have to overcome to identify and contact volunteers. 
+Through our work, we’ve learned firsthand that finding users to evaluate a prototype [can sometimes be a challenge](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/). Identifying users that can provide meaningful feedback and reaching out to recruit them can require multiple steps, and often prior approvals. As a general rule of thumb, the larger the call for feedback, the more hurdles you’ll have to overcome to identify and contact volunteers.
 
 <figure>
 	<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/prototype/paid-fam-leave.png" alt="A prototype for paid family leave. Top of the screen is light blue with header">
@@ -62,7 +63,7 @@ Thinking in advance about potential steps required for recruiting users and [dev
 
 If you’re building a code-based prototype, you’ll likely need to use data. It will probably be important to have access to test data that is comparable to production data, both in its format and in its access mechanism. This is particularly true if you’re building a prototype to test different data access methods or if the data will be displayed to end users.
 
-In our work on legacy system modernization in particular, we’ve observed that governments often have not established adequate test environments to support the development of prototypes that need data that is similar to production. Establishing test environments that mirror production systems is important for many reasons, but making test environments available in advance for the development of prototypes can greatly assist this process. 
+In our work on legacy system modernization in particular, we’ve observed that governments often have not established adequate test environments to support the development of prototypes that need data that is similar to production. Establishing test environments that mirror production systems is important for many reasons, but making test environments available in advance for the development of prototypes can greatly assist this process.
 
 In addition, if the digital service you’re building prototypes for has data in multiple backend systems, creating a comprehensive set of test data across these systems can be important. For example, if a prototype is meant to query information about a specific thing across multiple backend systems (for example, a person or a case), will you have test data available that links relevant data across these systems?
 
@@ -70,7 +71,7 @@ The closer your test environment and data are to actual production data, the mor
 
 ## Deploying prototype applications
 
-In some of our work, we’ve also observed that policies on where application can be deployed, and how they’re reviewed and approved prior to deployment, can significantly impact the prototyping process. Some governments [establish mechanisms for deploying code-based prototypes](https://www.gov.uk/service-manual/design/making-prototypes#sharing-code-prototypes) to environments where they can be accessed by users, but many do not. 
+In some of our work, we’ve also observed that policies on where application can be deployed, and how they’re reviewed and approved prior to deployment, can significantly impact the prototyping process. Some governments [establish mechanisms for deploying code-based prototypes](https://www.gov.uk/service-manual/design/making-prototypes#sharing-code-prototypes) to environments where they can be accessed by users, but many do not.
 
 The [standard government Authority to Operate](https://before-you-ship.18f.gov/) process for production applications is typically not well suited for prototypes, which are only meant to be temporary and will never be deployed to a production environment.
 

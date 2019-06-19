@@ -5,7 +5,7 @@ date: 2018-07-17
 authors:
 - alla
 - rebecca-refoy-sidibe
-- mark-headd
+- mheadd
 - randy-hart
 - steven-reilly
 tags:

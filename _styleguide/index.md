@@ -6,7 +6,7 @@ subpage: Overview
 
 ### This is the user interface (UI) style guide for [18f.gsa.gov](18f.gsa.gov).
 
-The site uses a custom set of styles that inherit from the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F brand](https://pages.18f.gov/brand) guidelines to create style that is professional, unique, and informative. The guide has a two-fold purpose:
+The site uses a custom set of styles that inherit from the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F brand](https://brand.18f.gov) guidelines to create style that is professional, unique, and informative. The guide has a two-fold purpose:
 
 1. **Speed up onboarding of future maintainers of the site**.
 While most of this guide addresses content needs, there is some [technical documentation]({{ site.baseurl }}/styleguide/for-developers/) for how we have extended Jekyll's out-of-the-box functionality.

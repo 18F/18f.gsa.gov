@@ -48,7 +48,9 @@ We've also published [profiles of individuals]({{ site.baseurl }}/tags/staff-pro
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
 
-In 2016, 18F became part of the [Technology Transformation Services](https://www.gsa.gov/tts) (TTS), which also includes the Presidential Innovation Fellows program, the Office of Acquisitions, and the [Office of Products and Programs](https://www.gsa.gov/portal/content/124174). Like GSA's other services (the Federal Acquisition Service and the Public Building Service), TTS provides tools, services, and resources to help other agencies serve the public.
+In 2016, 18F became part of the [Technology Transformation Services](https://www.gsa.gov/tts) (TTS), which also includes the Presidential Innovation Fellows program, the Office of Acquisitions, the [Office of Products and Programs](https://www.gsa.gov/portal/content/124174), and the [IT Modernization Centers of Excellence](https://coe.gsa.gov/). 
+
+In 2017, TTS became part of GSA's existing [Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
 
 **What does 18F mean?**
 

@@ -7,6 +7,8 @@ authors:
 tags:
 - agile
 - acquisition services
+- alaska
+- health and human services
 - procurement
 - state and local practice
 excerpt: "The process of developing and issuing RFPs is often viewed as

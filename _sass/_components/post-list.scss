@@ -4,14 +4,16 @@
 .post-list {
   @include unstyled-list;
 
-  h2 {
-    font-size: $h3-font-size;
+  h3 {
+    font-size: 2.8rem;
     margin-top: 0.5em;
     margin-bottom: $paragraph-margins;
+
     a {
       color: $color-base;
       text-decoration: none;
     }
+
     + .post-byline {
       margin-top: 0;
       margin-bottom: $paragraph-margins;
