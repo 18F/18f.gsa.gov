@@ -4,12 +4,12 @@
 .post-feature_image {
   background-position: center;
   background-size: cover;
-  height: 36rem;
+  height: 20rem;
   margin: 0;
   position: relative;
 
   @include media($medium-screen) {
-    height: 40rem;
+    height: 23rem;
   }
 
   figcaption {

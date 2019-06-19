@@ -3,60 +3,72 @@ title: Contact
 permalink: /contact/
 layout: primary
 content_wide: true
-image: /assets/img/page-feature/join.jpg
 redirect_from: /hire/
 gridless: true
+lead: Let’s work together to improve the user experience of government.
 ---
-<div class="usa-grid-full usa-grid-reversed">
-<aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+<div class="usa-grid">
+<div class="usa-section usa-width-two-thirds">
+{% markdown %}
+
+### Want to see if 18F can help your agency?
+Email Kenny Daniel on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
+
+### Looking for a job at 18F?
+You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent Team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
+
+### Are you a member of the press?
+Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
+
+### Anything else?
+For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
+{% endmarkdown %}
+
+</div>
+
+<aside class="usa-section usa-grid-reversed-right usa-width-one-third">
+  <h4 class="sidebar-heading-border">Learn more about 18F</h4>
   <ul>
-    <li class="section-info-list-item">
-      <div class="section-info-header">Have a project in mind?</div>
-      <p>Want to see if 18F can help your agency? Email Lindsay Young on our Agency Partnerships team at <a href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">inquiries18F@gsa.gov</a>.</p>
+    <li><a href="https://18f.gsa.gov/what-we-deliver/">Past projects</a></li>
+    <li><a href="https://18f.gsa.gov/partnership-principles/">Partnership principles</a></li>
+    <li><a href="https://18f.gsa.gov/about/#funding-and-agreements">How we're funded</a></li>
+  </ul>
+  <h4 class="sidebar-heading-border">Follow 18F</h4>
+  <ul class="usa-unstyled-list">
+    <li>
+      <!-- Inline CSS styles because these are only used this way here -->
+      <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
     </li>
-    <li class="section-info-list-item">
-      <div class="section-info-header">Looking for a job at 18F?</div>
-      <p>You can see open positions on the <a href="https://join.18f.gov">Join 18F page</a>, or you can email the Talent Team at <a href="mailto:joinTTS@gsa.gov">joinTTS@gsa.gov</a>.</p>
+    <li>
+      <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F</a> on GitHub
     </li>
-    <li class="section-info-list-item">
-      <div class="section-info-header">Other contacts</div>
-      <ul>
-        <li>Media inquiries: <a href="mailto:press@gsa.gov">press@gsa.gov</a></li>
-        <li>General questions: <a href="mailto:18F@gsa.gov">18F@gsa.gov</a></li>
-        <li>Twitter: <a href="https://twitter.com/18F">@18F</a></li>
-        <li>GitHub: <a href="https://github.com/18F">18F</a></li>
-        <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
-      </ul>
+    <li>
+      <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS" />RSS Feed</a>
     </li>
   </ul>
 </aside>
-<div class="usa-grid usa-section usa-width-two-thirds">
-{% markdown %}
-
-### Let’s work together to improve the user experience of government.
-
-Use the button below to email us about the problem you'd like to solve, and we’ll set up a time to talk and answer your questions. As fellow federal employees, we want to make sure you find the team that's best suited to your situation, even if it isn't 18F. After our initial conversations, we'll recommend a path to success, whether it's with 18F, another office in GSA, or a private vendor. Either way, 18F has short, low-cost options to help prepare your team to find the right solution.
-
-To learn more about how we work with agencies, read up on our [past projects]({{ site.baseurl }}/what-we-deliver), explore our [Partnership Principles]({{site.baseurl}}/partnership-principles/), or learn about [how we’re funded]({{ site.baseurl }}/about/#funding-and-agreements).
-
-{% endmarkdown %}
-
-<a class="usa-button usa-button-marginless" href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Email us</a>
-</div>
-
 </div>
 
 <div class="usa-grid usa-grid-line">
   <hr/>
 </div>
 
-
-<div class="usa-grid usa-section section-newsletter">
-  <h2 id="sign-up-for-our-newsletter">Sign up for our newsletter</h2>
+<div class="usa-section usa-grid">
+  <h2>Sign up for the 18F newsletter</h2>
   <div class="usa-width-one-half">
-    <p>Receive occassional updates about our work and news about the civic tech community.</p>
+    <p>Receive occasional updates about our work and news about the civic tech community.</p>
   </div>
   <div class="usa-width-one-half">
-    <a class="usa-button usa-button-marginless" href="https://goo.gl/forms/OZfJDUBSJTeNKFAo1">Subscribe</a>
+    <form class="newsletter" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
+      <input name="utf8" type="hidden" value="&#x2713;">
+      <input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==">
+      <fieldset>
+        <div class="form-group">
+          <label for="email">Your email address</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <input type="submit" name="commit" value="Sign up" class="form_button">
+      </fieldset>
+    </form>
   </div>
 </div>

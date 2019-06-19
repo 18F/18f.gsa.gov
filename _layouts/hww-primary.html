@@ -31,7 +31,7 @@ layout: default
 %}
 {% endif %}
 
-<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+<section class="{% unless page.gridless %}usa-grid usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %} usa-content hww-main-content">
   {% if page.include_subnav %}
     <aside class="usa-width-one-third sticky sticky-subnav">
       {% include navigation.html subnav=true %}
@@ -50,12 +50,19 @@ layout: default
   {% endif %}
 </section>
 
-<section class="usa-section background-gray">
-  <section class="usa-grid">
+{% if page.banner_cta %}
+  {% include banner-cta.html %}
+{% endif %}
+
+<section class="usa-section background-gray section-case-studies post-border">
+  <div class="usa-grid usa-content">
+    <h2>Case studies</h2>
+    <p class="section-case-studies-text">Here are a couple of projects we’ve built with federal agencies using a Path Analysis followed by Experiment & Iterate phases.</p>
 
     {% include card-project.html
        project='fbi-crime-data-explorer'
     %}
+
     {% include card-project.html
        project='fec-gov'
     %}
@@ -63,9 +70,5 @@ layout: default
     {% include card-project.html
        project='calc'
     %}
-  </section>
+  </div>
 </section>
-
-{% if page.banner_cta %}
-  {% include banner-cta.html %}
-{% endif %}

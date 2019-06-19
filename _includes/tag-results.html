@@ -6,31 +6,13 @@
     {% for post in posts %}
       <li>
         <div class="usa-width-one-whole">
-          {% if post.image.size > 0 %}
-            <div class="usa-width-one-whole">
-              <a class="media_link" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
-                <img src="{{ site.baseurl }}{{ post.image }}" alt="">
-                <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
-              </a>
-            </div>
-          {% endif %}
-          {% unless include.limit_metadata %}
-            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-          {% endunless %}
-          <h2>
+          <h3>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
+          </h3>
           {% unless include.limit_metadata %}
             {% include post-author.html context='post' %}
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
           {% endunless %}
-          {{ post.excerpt }}
-          <p>
-            <a class="link-arrow-right" href="{{ post.url | prepend: site.baseurl }}">
-              Continue reading
-              <span class="usa-sr-only">about {{ post.title }}</span>
-              {% include svg/icons/arrow-right.svg %}
-            </a>
-          </p>
           {% unless include.limit_metadata %}
             <span class="post-tags" itemprop="keywords">
               {% for tag in post.tags %}
@@ -40,6 +22,19 @@
               {% endfor %}
             </span>
           {% endunless %}
+        </div>
+        <a class="post-click-target" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
+          {% if post.image.size > 0 %}
+          <div class="usa-width-one-third">
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+          </div>
+          <div class="usa-width-two-thirds">
+          {% else %}
+          <div class="usa-width-one-whole">
+          {% endif %}
+            <p>{{ post.excerpt }}</p>
+            <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
+          </a>
         </div>
       </li>
     {% endfor %}
