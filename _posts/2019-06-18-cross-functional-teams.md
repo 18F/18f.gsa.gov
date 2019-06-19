@@ -11,7 +11,7 @@ excerpt: "A core concept of agile is that teams are cross-functional:
 the team collectively possesses all of the skills necessary to get the
 job done. We embrace that at 18F, and take it a little farther, and not
 just on agile teams."
-image: /assets/blog/slug/image.jpg/png/gif\
+image: /assets/blog/cross-functional-teams/different-parts-coming-together.jpg
 ---
 
 A core concept of agile is that teams are cross-functional: the team
