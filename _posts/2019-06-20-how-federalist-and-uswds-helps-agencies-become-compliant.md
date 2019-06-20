@@ -10,7 +10,7 @@ tags:
 excerpt: "Two month ago the U.S. Web Design System 2.0 (USWDS) launched
 exciting new features including improved accessibility and flexible
 layouts. This is great news for content editors and website managers. In
-today’s blog, we'd like to show you how you, your team, or your agency
+today’s post, we'd like to show you how you, your team, or your agency
 can get started with USWDS 2.0 using 18F’s Federalist platform."
 ---
 
@@ -21,7 +21,7 @@ don’t have to do this step yourself. This is particularly important for
 public government websites and web projects.
 
 Two month ago the U.S. Web Design System 2.0 (USWDS) launched [exciting new features including improved accessibility and flexible layouts.](https://18f.gsa.gov/2019/04/08/uswds2-launch-post/) This is
-great news for content editors and website managers. In today’s blog,
+great news for content editors and website managers. In today’s post,
 we'd like to show you how you, your team, or your agency can get started
 with USWDS 2.0 using 18F’s [Federalist](https://federalist.18f.gov/)
 platform.
