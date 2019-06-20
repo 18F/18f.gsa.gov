@@ -12,7 +12,6 @@ exciting new features including improved accessibility and flexible
 layouts. This is great news for content editors and website managers. In
 today’s blog, we'd like to show you how you, your team, or your agency
 can get started with USWDS 2.0 using 18F’s Federalist platform."
-image: /assets/blog/federalist/federalist-logo.png
 ---
 
 Here at 18F, we understand the importance of federal compliance -
