@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.3-node
+      - image: circleci/ruby:2.5-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
     steps:
@@ -11,7 +11,9 @@ jobs:
       - run: npm install
       - run: npm run test
       - run: npm run htmlproofer
-      - run: bundle exec rspec
+      - run:
+          name: Run rspec
+          command: bundle exec rspec `pwd`/spec/
       # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
 workflows:
   version: 2
