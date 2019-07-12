@@ -1,4 +1,4 @@
-FROM ruby:2.5.1
+FROM ruby:2.6.3
 
 # set locales
 RUN  apt-get update >/dev/null && \
