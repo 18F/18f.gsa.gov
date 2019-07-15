@@ -1,6 +1,6 @@
 ---
 title: "On The Road to Innovation"
-date:2019-07-16
+date: 2019-07-16
 authors:
 - clarice-chan
 - sarayu-srinivasan
