@@ -36,11 +36,12 @@ module Jekyll
     # works locally, on Federalist, and in production
     def set_site_url
       baseurl = Jekyll.sites[0].config['baseurl']
+      base_url = baseurl ? baseurl : ''
       config_url = Jekyll.sites[0].config['url']
-      if baseurl.include? 'site/18F/18f.gsa.gov'
+      if base_url.include? 'site/18F/18f.gsa.gov'
         config_url
       else
-        baseurl
+        base_url
       end
     end
 
