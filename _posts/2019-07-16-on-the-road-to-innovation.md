@@ -11,7 +11,7 @@ excerpt: "For the past few months, Presidential Innovation Fellows have
 traveled across the nation to learn more about their projects. Meet
 Fellows Clarice Chan and Sarayu Srinivasan who share more about their
 work at the VA and NIST."
-image: /assets/blog/pif/pif-reunion.jpg
+image: /assets/blog/pif/pif-reunion-19.jpg
 ---
 
 For the past few months, Presidential Innovation Fellows have traveled
