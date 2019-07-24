@@ -261,6 +261,22 @@ legend {
   cursor: not-allowed;
 }
 
+@media print {
+  [type=checkbox]:checked + label::before,
+  [type=checkbox]:checked:disabled + label::before {
+    background-image: none;
+    background-color: $color-white;
+    content: url('#{$image-path}/correct8-alt.png');
+    content: url('#{$image-path}/correct8-alt.svg');
+    text-indent: 0;
+  }
+
+  [type=radio]:checked:disabled + label::before,
+  [type=radio]:checked + label::before {
+    box-shadow: 0 0 0 2px $color-white, inset 0 0 0 14px $color-primary, 0 0 0 4px $color-primary;
+  }
+}
+
 // Range inputs
 
 // Change to $color-focus in 2.0

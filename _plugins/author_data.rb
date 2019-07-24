@@ -82,9 +82,10 @@ module SiteData
 
     def find_published_authors
       published_authors = []
+      base_path = Dir.pwd
       @site_post_paths.each do |post_path|
-        next unless File.exist? File.join(Dir.pwd, '_posts', post_path)
-        frontmatter = YAML.load_file(File.join(Dir.pwd, '_posts', post_path))
+        next unless File.exist? File.join(base_path, '_posts', post_path)
+        frontmatter = YAML.load_file(File.join(base_path, '_posts', post_path))
         checks = frontmatter['output'] != false && frontmatter['published'] != false
         next unless checks
         authors = frontmatter['authors'].map { |a| "#{a}.md" }

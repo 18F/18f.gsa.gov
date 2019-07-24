@@ -1,4 +1,4 @@
-/*! uswds v1.6.8 */
+/*! uswds v1.6.10 */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -811,7 +811,22 @@ body {
   /* stylelint-disable-line declaration-no-important */
 }
 
-*:focus,
+input:not([disabled]):focus,
+select:not([disabled]):focus,
+textarea:not([disabled]):focus,
+button:not([disabled]):focus {
+  outline: 2px dotted #aeb0b5;
+  outline-offset: 3px;
+}
+
+iframe:focus,
+[href]:focus,
+[tabindex]:focus,
+[contentEditable=true]:focus {
+  outline: 2px dotted #aeb0b5;
+  outline-offset: 3px;
+}
+
 .usa-focus {
   outline: 2px dotted #aeb0b5;
   outline-offset: 3px;
@@ -1639,6 +1654,21 @@ legend {
   background: #f1f1f1;
   box-shadow: 0 0 0 1px #aeb0b5;
   cursor: not-allowed;
+}
+
+@media print {
+  [type=checkbox]:checked + label::before,
+  [type=checkbox]:checked:disabled + label::before {
+    background-image: none;
+    background-color: #ffffff;
+    content: url("../img/correct8-alt.png");
+    content: url("../img/correct8-alt.svg");
+    text-indent: 0;
+  }
+  [type=radio]:checked:disabled + label::before,
+  [type=radio]:checked + label::before {
+    box-shadow: 0 0 0 2px #ffffff, inset 0 0 0 14px #0071bc, 0 0 0 4px #0071bc;
+  }
 }
 
 [type=range] {
@@ -3678,6 +3708,11 @@ fieldset {
   }
 }
 
+.usa-header-extended {
+  /* stylelint-disable selector-no-id, declaration-no-important  */
+  /* stylelint-enable */
+}
+
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-header {
     border-bottom: none;
@@ -3775,6 +3810,16 @@ fieldset {
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-megamenu {
     padding-left: 3rem;
+  }
+}
+
+.usa-header-extended .usa-search[hidden] {
+  display: block !important;
+}
+
+@media screen and (min-width: 951px) {
+  .usa-header-extended .usa-search[hidden] {
+    display: none !important;
   }
 }
 

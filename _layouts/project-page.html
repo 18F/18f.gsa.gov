@@ -39,12 +39,10 @@ header_border: true
   </section>
 
   <div class="usa-grid-full usa-grid-reversed">
-    {% assign any_clients = page.product_clients.size > 0 %}
-
     {% if page.agency or
           page.project_url or
           page.github_repo or
-          any_clients or
+          page.product_clients.size > 0 or
           page.start_date or
           page.expiration_date or
           page.resources
@@ -85,7 +83,7 @@ header_border: true
         </li>
         {% endif %}
 
-        {% if any_clients %}
+        {% if page.product_clients.size > 0 %}
         <li class="section-info-list-item">
           <div class="section-info-header">Agency partners</div>
           <ul class="{% unless page.product_clients.size > 1 %}usa-unstyled-list{% endunless %}">
@@ -102,9 +100,9 @@ header_border: true
           <div>
           {% if page.start_date and page.expiration_date %}
             {{ page.start_date }} – {{ page.expiration_date }}
-          {% elsif page.start_date and !page.expiration_date %}
+          {% elsif page.start_date and page.expiration_date == false %}
             Starts {{ page.start_date }}
-          {% elsif !page.start_date and page.expiration_date %}
+          {% elsif page.start_date == false and page.expiration_date %}
             Ends {{ page.expiration_date }}
           {% endif %}
           </div>
