@@ -17,32 +17,52 @@ $(function () {
     return anchor[0] === '#';
   });
 
-  var $anchors = $(anchors.join(','));
-  $anchors
-    .waypoint(function(direction) {
+  function directionDown(relatedElement) {
+    return function(direction) {
       $navItems
         .removeClass('usa-current', direction === 'down');
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this)
           .addClass('usa-current', direction === 'down');
       }
-    }, {
-      offset: function() {
-        return $(this).height();
-      }
-    })
-    .waypoint(function(direction) {
+    }
+  }
+
+  function directionUp(relatedElement) {
+    return function(direction) {
       $navItems.removeClass('usa-current', direction === 'up');
       if ($window.scrollTop() !== 0) {
-        getRelatedNavigation(this)
+        getRelatedNavigation(relatedElement)
           .addClass('usa-current', direction === 'up');
       }
-    }, {
-      offset: function() {
-        return -$(this).height();
-      }
-    });
+    }
+  }
 
+  function waypointMapper(elements) {
+    var waypointDown = elements.map(function(element) {
+      var elementId = element.replace('#', '');
+      var upHandler = directionUp(element);
+      var downHandler = directionDown(element);
+
+      var waypointDown = new Waypoint({
+        element: document.getElementById(elementId),
+        handler: downHandler,
+        offset: function() {
+          return $(element).height();
+        }
+      })
+
+      var waypointUp = new Waypoint({
+        element: document.getElementById(elementId),
+        handler: upHandler,
+        offset: function() {
+          return -$(element).height();
+        }
+      })
+    })
+  }
+
+  waypointMapper(anchors)
   // Subnav click to top
   $('.nav-accordion-button-desktop').on('click', function() {
     $window.scrollTop(0, 0);

@@ -10,7 +10,7 @@ $site-box-shadow-hover: 0 1px 1px $color-opaque;
   }
 
   &:active {
-    box-shadow: $focus-shadow;
+    box-shadow: $box-shadow;
   }
 }
 

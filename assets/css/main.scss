@@ -12,7 +12,7 @@
 // USWDS
 // ==========================
 
-@import "_libs/wds/stylesheets/all";
+@import "_libs/uswds/scss/all";
 @import "_core/mixins";
 
 // Core
@@ -29,6 +29,7 @@
 @import "_components/details";
 @import "_components/buttons";
 @import "_components/blockquotes";
+@import "_components/disclaimer";
 @import "_components/header";
 @import "_components/hero";
 @import "_components/figure";
@@ -60,6 +61,7 @@
 @import "_components/nav-subnav";
 @import "_components/oembed";
 @import "_components/section-contact-cta";
+@import "_components/skipnav";
 
 // 18F site templates
 // ==========================
