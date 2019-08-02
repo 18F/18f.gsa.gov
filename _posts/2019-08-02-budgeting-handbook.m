@@ -1,8 +1,8 @@
 title: "Announcing the State Software Budgeting Handbook"
 date: 2019-08-05
 authors:
-- Waldo Jaquith
-- Robin Carnahan
+- waldo-jaquith
+- robin-carnahan
 tags:
 - best practices
 - modular contracting
