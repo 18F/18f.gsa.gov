@@ -9,7 +9,6 @@ tags:
 - modular contracting
 - state and local practice
 excerpt: "We’re proud to announce the release of our state software budgeting handbook, a 40-page guide for executives, budget specialists, legislators, and other decision makers who fund or oversee state government technology projects."
-image: /assets/blog/slug/image.jpg/png/gif
 ---
 Today we’re proud to announce the release of our [state software budgeting handbook](https://github.com/18F/technology-budgeting/blob/master/handbook.md), “De-risking custom technology projects: A handbook for state budgeting and oversight” a 40-page guide for executives, budget specialists, legislators, and other decision makers who fund or oversee state government technology projects.
 
