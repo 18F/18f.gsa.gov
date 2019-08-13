@@ -1,11 +1,11 @@
 ---
 title: "Keeping your accounts secure"
 date: 2019-08-15
-Authors:
+authors:
 - laura-gerhardt
 - alex-dalessio
 - andy-brody
-Tags:
+tags:
 - security
 - login.gov
 - best practices
