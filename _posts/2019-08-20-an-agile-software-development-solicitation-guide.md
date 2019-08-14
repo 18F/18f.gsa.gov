@@ -7,8 +7,8 @@ authors:
 - mchopson
 - vicki-mcfadden
 tags:
--acquisition services
--
+- acquisition services
+- agile
 excerpt: "This is part 2 in a series about how to contract for agile software
 development services. In this post we'll show you how to create a complete solicitation in hours, not months, using our agile contract format"
 image: /assets/blog/Acquisitions/acquisition-post-header.png
