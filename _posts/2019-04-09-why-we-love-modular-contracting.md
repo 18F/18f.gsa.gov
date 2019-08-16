@@ -83,4 +83,4 @@ If your team isn’t comfortable with the methods and responsibilities
 outlined above, it might be time to rethink whether or not you’re ready for modular contracting. Want help breaking down your needs into manageable components? Come [talk to us](mailto:inquiries18f@gsa.gov) about how to start doing modular
 contracting in your agency.
 
-*This post was originally from the modularcontracting.18f.gov site, which we are now sunsetting in favor of a series of blogposts. The original text of the site will be available in our [github repository](https://github.com/18F/Modular-Contracting-And-Agile-Development).*
+*This post was originally from the modularcontracting.18f.gov site, which we are now sunsetting in favor of a [series of blogposts](https://18f.gsa.gov/tags/modular-contracting/). The original text of the site will be available in our [github repository](https://github.com/18F/Modular-Contracting-And-Agile-Development).*
