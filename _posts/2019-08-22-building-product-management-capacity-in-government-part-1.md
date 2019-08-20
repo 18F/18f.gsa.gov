@@ -20,8 +20,6 @@ product management capacity in government agencies. The series explores
 the process of helping agency staff transition into product management
 roles, from both an 18F and partner agency perspective.*
 
-## Part I: our coaching philosophy
-
 While standard practice in the private sector, product management is
 still in its infancy in the government. We believe that [government needs product managers](https://medium.com/the-u-s-digital-service/the-importance-of-product-management-in-government-b59933d01874)
 to bridge many disciplines and lead diverse teams to identify and
@@ -41,7 +39,7 @@ At 18F, we work with partners to develop product management capacity in
 their existing teams. This series is all about how we do that, from both
 our perspective and our partner’s point of view.
 
-### Finding our product managers
+## Finding our product managers
 
 At the beginning of a project we ask our partners to play the role of a
 product owner. While we take on the bulk of the responsibility for
@@ -68,7 +66,7 @@ seen that it’s often a lot easier for our partners to learn the basics
 of digital product development than for our team of designers and
 developers to learn the ins and outs of their agency.
 
-### Learning product management
+## Learning product management
 
 Because most of our partners have never worked in product management
 before, and generally still have day jobs, we’re very intentional about
@@ -106,7 +104,7 @@ also introduce more advanced topics, like user research methods or agile
 development frameworks, now that our partners have the hands-on
 experiences to make sense of this information.
 
-### Owning product management**
+## Owning product management
 
 Once our partners are able to fully own the software development
 process, we migrate the project to their agency and ramp down our
