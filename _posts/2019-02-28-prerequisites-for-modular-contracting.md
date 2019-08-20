@@ -11,6 +11,7 @@ excerpt: "At 18F, we often advocate for modular contracting
 small constellation of smaller contracts. In doing so, we’ve learned
 that we’re more effective when promoting that message to people who are
 familiar with the fundamentals of modern software development practices."
+image: /assets/blog/Acquisitions/acquisition-post-header.png
 ---
 
 At 18F, we often advocate for [modular contracting](https://18f.gsa.gov/2017/10/11/pulling-back-the-curtain-on-it-procurement/)
