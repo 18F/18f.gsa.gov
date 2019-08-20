@@ -1,5 +1,5 @@
 ---
-title: Building product management capacity in government part 1 – Our coaching philosophy
+title: "Building product management capacity in government part 1 – Our coaching philosophy"
 date: 2019-08-22
 authors:
 - nikki-lee
