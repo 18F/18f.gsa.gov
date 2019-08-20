@@ -12,7 +12,7 @@ excerpt: "This is the kick-off post in a in a series about
 building product management capacity in government agencies. The series
 explores the process of helping agency staff transition into product
 management roles, from both an 18F and partner agency perspective"
-image:/assets/blog/product-guide/product-manager.jpg
+image: /assets/blog/product-guide/product-manager.jpg
 ---
 
 *This is the kick-off post in a in a series of posts about building
