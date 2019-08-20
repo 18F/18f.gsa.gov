@@ -22,7 +22,7 @@ Government solicitations to procure custom software are often long and
 complicated, include many pages of requirements, and can take months —
 even years — to write. But an agency can hire an agile software
 contractor with a solicitation that’s only a dozen pages, written in an
-afternoon, using our [agile contract format](https://github.com/18F/18f.gsa.gov/blob/master/assets/presentations/agile-software-development-solicitation-template.docx). It can be done under
+afternoon, using our [agile contract format](https://18f.gsa.gov/assets/presentations/agile-software-development-solicitation-template.docx). It can be done under
 existing procurement regulations and within contracting officers’
 existing authority. The savings, in time and money, can be enormous.
 
