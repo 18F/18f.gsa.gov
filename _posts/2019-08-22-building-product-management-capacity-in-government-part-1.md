@@ -8,7 +8,7 @@ tags:
 - best practices
 - product
 - culture change
-excerpt: "This is the kick-off post in a in a series about
+excerpt: "This is the kick-off post in a series about
 building product management capacity in government agencies. The series
 explores the process of helping agency staff transition into product
 management roles, from both an 18F and partner agency perspective"
