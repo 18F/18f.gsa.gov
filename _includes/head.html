@@ -1,8 +1,4 @@
-{% if site.baseurl | blank %}
-  {% assign siteurl = site.url %}
-{% else %}
-  {% assign siteurl = site.federalist_url %}
-{% endif %}
+{% assign siteurl = site.url %}
 
 <!-- site.url: {{ site.url }} -->
 <!-- site.baseurl: {{ site.baseurl }} -->
@@ -60,7 +56,7 @@
   <meta property="og:image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}" />
 
   <meta name="twitter:image" content="{{ siteurl }}{{ site.baseurl }}{{ page.image }}">
-  
+
   {% if page.image_accessibility %}
     <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
   {% endif %}
@@ -107,4 +103,3 @@
 =================================================== -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" media="all" />
   <link rel="stylesheet" href="{{ "/assets/css/print.css" | prepend: site.baseurl }}" media="print" />
-
