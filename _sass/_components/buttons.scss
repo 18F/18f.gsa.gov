@@ -141,7 +141,7 @@ button,
 .back-blog {
   display: inline-block;
   font-size: $h6-font-size;
-  margin-top: $section-margins;
+  margin-top: $section-margins !important;
 
   @include media($medium-screen + 200px) {
     margin-top: 0.7rem;
