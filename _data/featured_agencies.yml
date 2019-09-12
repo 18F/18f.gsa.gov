@@ -1,0 +1,18 @@
+- name: National Aeronautics and Space Administration
+  acronym: NASA
+  logo: /assets/img/logos/agencies/NASA.svg
+- name: Central Intelligence Agency
+  acronym: CIA
+  logo: /assets/img/logos/agencies/cia.svg
+- name: National Archives and Records Administration
+  acronym: NARA
+  logo: /assets/img/logos/agencies/NARA.png
+- name: Federal Election Commission
+  acronym: FEC
+  logo: /assets/img/logos/agencies/fec.svg
+- name: Environmental Protection Agency
+  acronym: EPA
+  logo: /assets/img/logos/agencies/EPA.png
+- name: Department of Justice
+  acronym: DOJ
+  logo: /assets/img/logos/agencies/USDOJ.png

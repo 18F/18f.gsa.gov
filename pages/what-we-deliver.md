@@ -2,7 +2,7 @@
 title: What we deliver
 permalink: /what-we-deliver/
 layout: primary
-lead: Websites, applications, and strategies that help agencies provide excellent value to the public.
+lead: Strategies, services, and products that help agencies provide excellent value to the public.
 content_wide: true
 content_focus: false
 redirect_from:
@@ -15,48 +15,68 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="usa-grid">
-  <section class="usa-section">
+<div class="usa-grid usa-section break-bottom-gray">
+  <section>
     <div class="usa-width-two-thirds">
-      <h3> Services </h3>
-      <p>We are federal employees that partner with other federal agencies to build, buy, and share digital services. With help from 18F, agencies have moved paper processes online, increased data access, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples:</p>
+      <h2>Services &amp; products</h2>
+      <p>
+        18F partners with federal agencies to improve the user experience of government
+        services by helping them build and buy technology. If you're looking to implement
+        a requirement, update a public-facing website, or digitize a process, 18F can work
+        with you to build a product or craft and execute an effective agile acquisition
+        strategy.
+      </p>
+      <p>
+        In addition to 18F's custom services, we also operate products that you can use
+        to reduce costs and improve the security and usability of your services.
+      </p>
     </div>
   </section>
 </div>
 
 <div class="usa-grid">
-  <section class="usa-section">
+  <section class="usa-section break-bottom-gray">
     <div class="usa-section-bottom">
+      <h2>Services</h2>
       <div class="usa-flex usa-flex-wrap">
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
-          {% include card.html
-           image_src=project.image
-           image_alt=project.image_accessibility
-           image_icon=project.image_icon
-           agency=project.agency
-           tagline=project.title
-           description=project.excerpt
-           link=project.permalink
-          %}
+          {% if forloop.index < 7 %}
+            {% include card.html
+            image_src=project.image
+            image_alt=project.image_accessibility
+            image_icon=project.image_icon
+            agency=project.agency
+            tagline=project.title
+            description=project.excerpt
+            link=project.permalink
+            %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>
+    <p>
+      <a class="link-arrow-right post-link-continue_reading" href="{{ '/how-we-work/' | prepend: site.baseurl }}">
+        See all case studies
+        {% include svg/icons/arrow-right.svg %}
+      </a>
+    </p>
   </section>
 </div>
 
-<div class="usa-grid">
-  <section class="usa-section">
-    <div class="usa-width-two-thirds">
-    <h3> Products </h3>
-     <p>In addition to 18F’s custom services, we also operate products that you can use to reduce costs and improve the security and usability of your services.</p>
-   </div>
- </section>
-</div>
+<section class="usa-grid usa-section break-bottom-gray">
+  <section class="pad-right-left">
+    <div class="home-testimonial">
+      We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
+      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
+    </div>
+  </section>
+</section>
 
 <div class="usa-grid">
   <section class="usa-section">
     <div class="usa-section-bottom">
+      <h2>Products</h2>
       <div class="usa-flex usa-flex-wrap">
         {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
