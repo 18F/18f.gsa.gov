@@ -149,7 +149,7 @@ p ~ .pquote:not(.pquote-single) {
     position: absolute;
     font-size: 3em;
     left: 30px;
-    top: 0px;
+    top: 0;
 
     @include media($medium-screen) {
       font-size: 4em;
