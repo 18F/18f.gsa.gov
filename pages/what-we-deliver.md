@@ -67,8 +67,10 @@ gridless: true
 <section class="usa-grid usa-section break-bottom-gray">
   <section class="pad-right-left">
     <div class="home-testimonial">
-      We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
-      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
+      18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.
+      <span>
+        - Christina Ho, Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury
+      </span>
     </div>
   </section>
 </section>
