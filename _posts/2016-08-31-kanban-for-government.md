@@ -15,7 +15,7 @@ image:
 
 Some months ago, 18F started playing with kanban as a way to manage and improve our processes. (It turns out that “DO ALL THE THINGS!” was maybe not the best motto.) Kanban is a methodology that helps you to remove inefficiencies and reduce waste by visualizing workflow. It’s also used to balance capacity and demand by implementing a “pull system” and limiting the amount of work in progress. You don’t have to change anything when you first start to use it, you just put up a board, represent your current work process, put in some work limits, and start tracking what you’re doing and learning from it.
 
-In starting to build a board to track all of 18F’s in-flight projects, we called in 18F’s Agreements team, Josh Bailes, Matt Spencer, and Victor Valdiviezo, to answer a few questions about pieces of business in the [Interagency Agreements](https://pages.18f.gov/iaa-forms/primer.html) (IAA) phase of our work. We asked them a few questions. Then we told them what a WIP limit was, and the questions started flowing the other way:
+In starting to build a board to track all of 18F’s in-flight projects, we called in 18F’s Agreements team, Josh Bailes, Matt Spencer, and Victor Valdiviezo, to answer a few questions about pieces of business in the [Interagency Agreements](https://trello.com/b/1DeHImIq/iaa) (IAA) phase of our work. We asked them a few questions. Then we told them what a WIP limit was, and the questions started flowing the other way:
 
 “Wait, what’s WIP?”
 
