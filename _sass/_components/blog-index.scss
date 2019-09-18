@@ -3,11 +3,11 @@
 
 .blog-content,
 .sidebar {
-  margin-top: $section-margins;
+  margin-top: $section-margins !important;
 }
 
 .blog-content {
-  padding-right: 10px;
+  padding-right: 10px !important;
 }
 
 .sidebar {

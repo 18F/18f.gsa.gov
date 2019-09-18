@@ -1,0 +1,28 @@
+.search-interface {
+  width: 100%;
+
+  .label-text {
+    display: block;
+    padding-bottom: $spacer-margins;
+    font-size: 2.1rem;
+    font-weight: 700;
+  }
+
+  input {
+    &[type=search] {
+      border-right: 0.1rem solid $color-gray-border;
+    }
+  }
+
+  button {
+    &[type=submit] {
+      height: 3.3rem;
+      margin: 0 $spacer-margins;
+      line-height: .5;
+
+      @media screen and (max-width: 505px) {
+        margin: $spacer-margins 0;
+      }
+    }
+  }
+}
