@@ -39,28 +39,28 @@ gridless: true
     <div class="usa-section-bottom">
       <h2>Services</h2>
       <div class="usa-flex usa-flex-wrap">
+        {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
-        {% for project in projects_list %}
-          {% if forloop.index < 7 %}
-            {% include card.html
-            image_src=project.image
-            image_alt=project.image_accessibility
-            image_icon=project.image_icon
-            agency=project.agency
-            tagline=project.title
-            description=project.excerpt
-            link=project.permalink
-            %}
-          {% endif %}
+        {% for featured in featured_services %}
+          {% assign project = projects_list | where: "agency", featured.agency | first %}
+          {% include card.html
+          image_src=project.image
+          image_alt=project.image_accessibility
+          image_icon=project.image_icon
+          agency=project.agency
+          tagline=project.title
+          description=project.excerpt
+          link=project.permalink
+          %}
         {% endfor %}
       </div>
     </div>
-    <p>
+    {%- comment -%} <p>
       <a class="link-arrow-right post-link-continue_reading" href="{{ '/how-we-work/' | prepend: site.baseurl }}">
         See all case studies
         {% include svg/icons/arrow-right.svg %}
       </a>
-    </p>
+    </p> {%- endcomment -%}
   </section>
 </div>
 

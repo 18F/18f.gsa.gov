@@ -1,18 +1,16 @@
-- name: National Aeronautics and Space Administration
-  acronym: NASA
-  logo: /assets/img/logos/agencies/NASA.svg
-- name: Central Intelligence Agency
-  acronym: CIA
-  logo: /assets/img/logos/agencies/cia.svg
-- name: National Archives and Records Administration
-  acronym: NARA
-  logo: /assets/img/logos/agencies/NARA.png
-- name: Federal Election Commission
-  acronym: FEC
-  logo: /assets/img/logos/agencies/fec.svg
-- name: Environmental Protection Agency
-  acronym: EPA
-  logo: /assets/img/logos/agencies/EPA.png
-- name: Department of Justice
-  acronym: DOJ
-  logo: /assets/img/logos/agencies/USDOJ.png
+- name: Department of Agriculture
+  acronym: USDA
+  logo: /assets/img/logos/agencies/USDA.svg
+- name: U.S. Marine Corps
+  acronym: USMC
+  logo: /assets/img/logos/agencies/usmc.png
+- name: Office of Management and Budget
+  acronym: OMB
+  logo: /assets/img/logos/agencies/OMB.svg
+- name: Center for Medicaid and Medicare Services
+  logo: /assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
+- name: U.S. Air Force
+  logo: /assets/img/logos/agencies/usaf.png
+- name: National Geospatial-Intelligence Agency
+  acronym: NGA
+  logo: /assets/img/logos/agencies/nga.png
