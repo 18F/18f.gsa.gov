@@ -128,20 +128,40 @@ p ~ .pquote:not(.pquote-single) {
 .home-testimonial {
   font-size: 23px;
   width: 100%;
-  margin: 3.5rem auto;
+  margin: auto;
   font-style: italic;
   color: $color-gray;
   padding: 1.2em 30px 1.2em 75px;
   line-height: $banner-line-height;
   position: relative;
 
+  @include media($medium-screen) {
+    font-size: 25px;
+  }
+
+  @include media($large-screen) {
+    font-size: 28px;
+  }
+
   ::before {
     content: '\201C';
     color: $color-medium;
-    font-size: 5em;
     position: absolute;
-    left: 10px;
-    top: -10px;
+    font-size: 3em;
+    left: 30px;
+    top: 0;
+
+    @include media($medium-screen) {
+      font-size: 4em;
+      left: 20px;
+      top: -5px;
+    }
+
+    @include media($large-screen) {
+      font-size: 5em;
+      left: 10px;
+      top: -10px;
+    }
   }
 
   ::after {

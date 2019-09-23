@@ -27,32 +27,79 @@ redirect_from: /developer/
 </section>
 
 <section class="usa-section usa-grid">
-  <h2>We support your mission</h2>
   <section>
-    <section class="usa-width-one-half usa-width-short-one">
-      <h3 class="p-line-height p-normal pad-bottom-mobile">As an office within the General Services Administration, we know how to work with government. Federal, state, and local governments can partner with 18F to deliver projects that fulfill federal rules, stay within budget, and provide excellent value to the public.</h3>
+    <h2>We support your mission</h2>
+    <section class="usa-width-two-thirds">
+      <h3 class="p-line-height p-normal pad-bottom-mobile">As an office within the General Services Administration, we know how to work with government. Partner with 18F to deliver projects that fulfill federal rules, stay within budget, and provide excellent value to the public.</h3>
     </section>
-    <aside class="usa-width-one-half usa-width-shift-one">
-      <h4 class="break-bottom-small">Partner with 18F to:</h4>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Improve public-facing services like websites or applications</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/gavel.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Implement laws or requirements while introducing new techniques to your agency</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/folderwithclock.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Digitize and streamline internal systems to save time and increase accuracy</p>
-        </div>
-      </div>
-    </aside>
+  </section>
+</section>
+
+<section class="usa-section background-gray">
+  <section class="usa-grid">
+    {% assign agency_partners = site.data.featured_agencies %}
+    {% assign partner_groups = agency_partners | in_groups: 3 %}
+    <h2>Some agencies we’ve worked with</h2>
+    <div class="usa-grid-full">
+      <ul class="list-columns">
+      {% for group in partner_groups %}
+        <li class="usa-width-one-third">
+          <ul class="list-columns list-images">
+          {% for partner in group %}
+            <li class="list-images-item">
+              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.logo }} logo" />
+              {% if partner.agency_url %}
+                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+              {% else %}
+                <span class="list-images-text">{{ partner.name }}</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <p>
+      <a class="link-arrow-right post-link-continue_reading" href="{{ '/what-we-deliver/#some-agencies-weve-worked-with' | prepend: site.baseurl }}">
+        See more agency partners
+        {% include svg/icons/arrow-right.svg %}
+      </a>
+    </p>
+  </section>
+</section>
+
+<section class="usa-section">
+  <section class="usa-grid">
+    <h2>What 18F can do</h2>
+    <div class="usa-grid-full">
+      <ul class="list-columns">
+        <li class="usa-width-one-third">
+          <div class="icon-list">
+            <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
+            <div class="icon-list-text">
+              <p class="p-bold">Improve public-facing services like websites or applications</p>
+            </div>
+          </div>
+        </li>
+        <li class="usa-width-one-third">
+          <div class="icon-list">
+            <figure class="icon-list-image">{% include svg/icons/gavel.svg %}</figure>
+            <div class="icon-list-text">
+              <p class="p-bold">Implement laws or requirements while introducing new techniques to your agency</p>
+            </div>
+          </div>
+        </li>
+        <li class="usa-width-one-third">
+          <div class="icon-list">
+            <figure class="icon-list-image">{% include svg/icons/folderwithclock.svg %}</figure>
+            <div class="icon-list-text">
+              <p class="p-bold">Digitize and streamline internal systems to save time and increase accuracy</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
 </section>
 

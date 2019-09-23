@@ -1,0 +1,16 @@
+- name: Department of Agriculture
+  acronym: USDA
+  logo: /assets/img/logos/agencies/USDA.svg
+- name: U.S. Marine Corps
+  acronym: USMC
+  logo: /assets/img/logos/agencies/usmc.png
+- name: Office of Management and Budget
+  acronym: OMB
+  logo: /assets/img/logos/agencies/OMB.svg
+- name: Center for Medicaid and Medicare Services
+  logo: /assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
+- name: U.S. Air Force
+  logo: /assets/img/logos/agencies/usaf.png
+- name: National Geospatial-Intelligence Agency
+  acronym: NGA
+  logo: /assets/img/logos/agencies/nga.png

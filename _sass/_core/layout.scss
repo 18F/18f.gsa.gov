@@ -10,6 +10,11 @@ h4 + p {
   padding-bottom: $section-margins;
 }
 
+.break-bottom-gray {
+  border-bottom: $border-gray;
+  padding-bottom: $section-margins;
+}
+
 .break-bottom-small {
   border-bottom: $border-light;
   padding-bottom: $paragraph-margins;

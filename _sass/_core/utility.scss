@@ -35,8 +35,13 @@ svg {
 }
 
 .pad-right-left {
-  padding-right: 9%;
-  padding-left: 9%;
+  padding-right: 1%;
+  padding-left: 1%;
+
+  @include media($medium-screen) {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
 }
 
 .small-caps {
