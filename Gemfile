@@ -29,7 +29,7 @@ group :development do
   gem 'rack-jekyll'
   gem 'rb-readline'
   gem 'rspec'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 3.1.0'
 end
 
 group :test do
