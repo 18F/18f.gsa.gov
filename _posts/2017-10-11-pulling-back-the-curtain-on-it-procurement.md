@@ -52,7 +52,7 @@ documents](https://github.com/search?q=topic%3Aagile-bpa+org%3A18F&type=Reposito
 publicly that others can use as inspiration or templates.
 
 Modular procurement is [not a new
-idea](https://www.govinfo.gov/content/pkg/CFR-2010-title48-vol1/pdf/CFR-2010-title48-vol1-sec39-103.pdf/), but there are some
+idea](https://www.govinfo.gov/content/pkg/CFR-2010-title48-vol1/pdf/CFR-2010-title48-vol1-sec39-103.pdf), but there are some
 misconceptions about how it works because, until recently, few agencies
 have attempted to use it for government technology buys.
 
