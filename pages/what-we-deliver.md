@@ -31,7 +31,7 @@ gridless: true
 <div class="usa-grid">
   <section class="usa-section break-bottom-gray">
     <div class="usa-section-bottom">
-      <h2>Services</h2>
+      <h2>Case Studies</h2>
       <div class="usa-flex usa-flex-wrap">
         {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
