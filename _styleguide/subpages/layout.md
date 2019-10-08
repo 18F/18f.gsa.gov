@@ -92,7 +92,7 @@ Located at [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master
 </figure>
 
 
-There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog]({{ site.baseurl }}/syleguide/blog/).
+There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog](https://18f.gsa.gov/styleguide/blog-components/).
 
 ---
 
