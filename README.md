@@ -46,6 +46,10 @@ Using Docker can make dependencies management easier, but can also slow down you
    **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**. Specifically this command will hang on `jekyll_pages_api_search: checking for Node.js` for upwards of 30 minutes on first run.
 5. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
 
+## Testing
+
+When adding a new tag in a blog post's `tags` key, you may need to add the new tag to the tests in the [/tests/schema/tags.yml](/tests/schema/tags.yml) list.  Note, this only applies to tags that have not already been added to the tag list.
+
 ## System security controls
 
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
