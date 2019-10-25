@@ -138,8 +138,7 @@ to share and further discuss them with the engineering chapter.
 -   We started by presenting the results to the engineering leadership team.
 -   We then hosted an all-hands team meeting to share and discuss the results with everyone on the team.
 -   We also brainstormed possible actions to take based on the results, for example
-    -   We [*made changes to our organization’s
-        > Handbook*](https://handbook.18f.gov/leading-projects/#rotating-tasks-among-teammates) to capture recommendations on how teams can work better by rotating administrative tasks.
+    -   We [*made changes to our organization’s Handbook*](https://handbook.18f.gov/leading-projects/#rotating-tasks-among-teammates) to capture recommendations on how teams can work better by rotating administrative tasks.
     -   Since we saw some room to improve on “I am growing as an engineer,” we decided to turn our 2019 in-person engineering team gathering into an internal engineering conference.
 -   Finally, when we saw responses or answers in the survey that concerned us and the respondent chose to include their name, we followed up to learn more about their particular situation and what we could do to help.
 
@@ -154,8 +153,4 @@ own culture and climate survey:
 
 3.  Follow-up actions are key. Make sure to plan time when the entire team can gather to share and discuss the results of the survey. Consider what actions you will take to address what you find before sending the survey.
 
-We see the survey as one way to create a space for discussion. We have
-continued to share what we’ve learned with other parts of the
-organization — for example, by presenting key findings to our teammates
-across 18F. And we will keep exploring ways to maintain and improve our
-engineering team culture.
+We see the survey as one way to create a space for discussion. We have continued to share what we’ve learned with other parts of the organization — for example, by presenting key findings to our teammates across 18F. And we will keep exploring ways to maintain and improve our engineering team culture.
