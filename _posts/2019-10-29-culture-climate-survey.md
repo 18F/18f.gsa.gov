@@ -77,6 +77,8 @@ When we analyzed the responses, we found results that made us proud, and
 others that showed where our culture needs improvement. Some questions
 had dramatically positive results:
 
+![Chart - "It is easy to ask other members of this team for help"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg)
+
 **“It is easy to ask other members of this team for help.”** (1 means
 “Strongly Disagree”, 7 means “Strongly Agree,” trend: 7.)
 
