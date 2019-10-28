@@ -79,13 +79,18 @@ had dramatically positive results:
 
 ![Chart - "It is easy to ask other members of this team for help"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg)
 
+<div class="usa-sr-only">
 **“It is easy to ask other members of this team for help.”** (1 means
 “Strongly Disagree”, 7 means “Strongly Agree,” trend: 7.)
 
 |---------------|---|---|---|---|---|---|----|
 | *Score*       | 1 | 2 | 3 | 4 | 5 | 6 | 7  |
 | *How many?*   | 0 | 0 | 0 | 1 | 2 | 4 | 15 |
+</div>
 
+![Chart - "On this team, I can voice a contrary opinion without fear of negative consequences"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg)
+
+<div class="usa-sr-only">
 **“On this team, I can voice a contrary opinion without fear of negative
 consequences.”** (1 means “Strongly Disagree”, 7 means “Strongly Agree,
 trend: 7.”)
@@ -93,23 +98,32 @@ trend: 7.”)
 |--------------|---|---|---|---|---|---|---|
 | *Score*      | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | *How many?*  | 0 | 0 | 0 | 2 | 2 | 8 | 1 |
+</div>
 
 Other questions also showed strengths, but with more room for
 improvement — trending at 5 instead of 7.
 
+![Chart - "I am satisfied with my work"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg)
+
+<div class="usa-sr-only">
 **“I am satisfied with my work.”** (1 means “Strongly Disagree”, 7 means
 “Strongly Agree, trend: 5.”)
 
 |--------------|---|---|---|---|----|---|---|
 | *Score*      | 1 | 2 | 3 | 4 | 5  | 6 | 7 |
 | *How many?*  | 0 | 1 | 0 | 0 | 10 | 6 | 5 |
+</div>
 
+![Chart - "I feel I am growing as an engineer"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg)
+
+<div class="usa-sr-only">
 **“I feel I am growing as an engineer.”** (1 means “Strongly Disagree”,
 7 means “Strongly Agree, trend: 5.”)
 
 |--------------|---|---|---|---|----|---|---|
 | *Score*      | 1 | 2 | 3 | 4 | 5  | 6 | 7 |
 | *How many?*  | 0 | 0 | 1 | 5 | 10 | 5 | 1 |
+</div>
 
 When we analyzed the data through the lens of self-identified status as
 belonging to an under-represented group in technology, we saw important
@@ -117,6 +131,10 @@ patterns.
 
 For example:
 
+![Chart - "Administrative or clerical tasks that don’t have a specific owner are
+fairly divided"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-administrative-tasks-fairly-divided.svg)
+
+<div class="usa-sr-only">
 **“Administrative or clerical tasks that don’t have a specific owner are
 fairly divided.”** (1 means “Strongly Disagree”, 7 means “Strongly
 Agree.”)
@@ -125,6 +143,7 @@ Agree.”)
 | *Score*                                             | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | *How many? (Self-ID as well-represented in tech.)*  | 0 | 0 | 2 | 1 | 4 | 3 | 3 |
 | *How many? (Self-ID as under-represented in tech.)* | 0 | 2 | 1 | 1 | 0 | 2 | 2 |
+</div>
 
 The data showed us that different teammates had different perspectives
 on how fairly tasks were being divided in the organization. And the two
