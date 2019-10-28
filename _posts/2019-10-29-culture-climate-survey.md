@@ -13,8 +13,8 @@ image: /assets/blog/slug/image.jpg/png/gif
 ---
 
 As a team of public servants, one of our key values at 18F is to
-[*reflect the diversity of the public we
-serve*](https://handbook.18f.gov/tts-history/#our-values). To be
+[reflect the diversity of the public we
+serve](https://handbook.18f.gov/tts-history/#our-values). To be
 inclusive and effective, a team needs a culture where everyone is
 respected, treated fairly, and feels that they belong. We don’t see this
 diversity, equity, and inclusion work as a “nice-to-have” or optional —
@@ -38,8 +38,8 @@ what’s known about optimal team environments, diversity, and inclusion.
 ## What did we choose to measure and why?
 
 Designing a survey is hard work. We’re not psychometricians by any
-stretch, but we decided to devote some of our [*eight hours a
-week*](https://handbook.18f.gov/tock/#how-many-hours-am-i-expected-to-bill-per-week)
+stretch, but we decided to devote some of our [eight hours a
+week](https://handbook.18f.gov/tock/#how-many-hours-am-i-expected-to-bill-per-week)
 of non-billable time to develop and usability test a short culture and
 climate survey. Members of 18F’s engineering team who lead our DevOps
 guild worked with teammates focused on diversity and inclusion to expand
@@ -51,8 +51,8 @@ other surveys. We ended up adopting questions from a mix of sources: the
 annual Accelerate State of DevOps report, CultureAmp, Google’s Project
 Aristotle, and past 18F engineering surveys.
 
-We ended up [*with 21 statements about team
-culture*](https://gist.github.com/alexsoble/305714b7f9bd4bc13af3cc69895b770e)
+We ended up [with 21 statements about team
+culture](https://gist.github.com/alexsoble/305714b7f9bd4bc13af3cc69895b770e)
 — covering topics from team dynamics (“I feel like I belong on this
 team”) to individual satisfaction and growth (“I feel I am growing as an
 engineer”). We iterated on the questions and improved the wording
@@ -160,7 +160,7 @@ to share and further discuss them with the engineering chapter.
 -   We started by presenting the results to the engineering leadership team.
 -   We then hosted an all-hands team meeting to share and discuss the results with everyone on the team.
 -   We also brainstormed possible actions to take based on the results, for example
-    -   We [*made changes to our organization’s Handbook*](https://handbook.18f.gov/leading-projects/#rotating-tasks-among-teammates) to capture recommendations on how teams can work better by rotating administrative tasks.
+    -   We [made changes to our organization’s Handbook](https://handbook.18f.gov/leading-projects/#rotating-tasks-among-teammates) to capture recommendations on how teams can work better by rotating administrative tasks.
     -   Since we saw some room to improve on “I am growing as an engineer,” we decided to turn our 2019 in-person engineering team gathering into an internal engineering conference.
 -   Finally, when we saw responses or answers in the survey that concerned us and the respondent chose to include their name, we followed up to learn more about their particular situation and what we could do to help.
 
