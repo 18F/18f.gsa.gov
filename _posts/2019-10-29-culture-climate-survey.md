@@ -2,8 +2,9 @@
 title: "Measuring culture on our engineering team"
 date: 2019-10-29
 authors:
-- alex-soble
 - amy-mok
+- alex-soble
+- peter-burkholder
 tags:
 - culture
 - tools you can use
