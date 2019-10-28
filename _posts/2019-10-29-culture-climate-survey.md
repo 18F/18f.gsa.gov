@@ -77,8 +77,9 @@ When we analyzed the responses, we found results that made us proud, and
 others that showed where our culture needs improvement. Some questions
 had dramatically positive results:
 
+<div aria-hidden="true" markdown="1">
 ![Chart - "It is easy to ask other members of this team for help"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg)
-
+</div>
 <div class="usa-sr-only" markdown="1">
 **“It is easy to ask other members of this team for help.”** (1 means
 “Strongly Disagree”, 7 means “Strongly Agree,” trend: 7.)
@@ -87,9 +88,9 @@ had dramatically positive results:
 | *Score*       | 1 | 2 | 3 | 4 | 5 | 6 | 7  |
 | *How many?*   | 0 | 0 | 0 | 1 | 2 | 4 | 15 |
 </div>
-
+<div aria-hidden="true" markdown="1">
 ![Chart - "On this team, I can voice a contrary opinion without fear of negative consequences"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg)
-
+</div>
 <div class="usa-sr-only" markdown="1">
 **“On this team, I can voice a contrary opinion without fear of negative
 consequences.”** (1 means “Strongly Disagree”, 7 means “Strongly Agree,
@@ -103,8 +104,9 @@ trend: 7.”)
 Other questions also showed strengths, but with more room for
 improvement — trending at 5 instead of 7.
 
+<div aria-hidden="true" markdown="1">
 ![Chart - "I am satisfied with my work"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg)
-
+</div>
 <div class="usa-sr-only" markdown="1">
 **“I am satisfied with my work.”** (1 means “Strongly Disagree”, 7 means
 “Strongly Agree, trend: 5.”)
@@ -113,9 +115,9 @@ improvement — trending at 5 instead of 7.
 | *Score*      | 1 | 2 | 3 | 4 | 5  | 6 | 7 |
 | *How many?*  | 0 | 1 | 0 | 0 | 10 | 6 | 5 |
 </div>
-
+<div aria-hidden="true" markdown="1">
 ![Chart - "I feel I am growing as an engineer"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg)
-
+</div>
 <div class="usa-sr-only" markdown="1">
 **“I feel I am growing as an engineer.”** (1 means “Strongly Disagree”,
 7 means “Strongly Agree, trend: 5.”)
@@ -131,9 +133,10 @@ patterns.
 
 For example:
 
+<div aria-hidden="true" markdown="1">
 ![Chart - "Administrative or clerical tasks that don’t have a specific owner are
 fairly divided"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-administrative-tasks-fairly-divided.svg)
-
+</div>
 <div class="usa-sr-only" markdown="1">
 **“Administrative or clerical tasks that don’t have a specific owner are
 fairly divided.”** (1 means “Strongly Disagree”, 7 means “Strongly
