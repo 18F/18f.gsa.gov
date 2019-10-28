@@ -92,7 +92,6 @@ trend: 7.”)
 
 |--------------|---|---|---|---|---|---|---|
 | *Score*      | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|--------------| --|---|---|---|---|---|---|
 | *How many?*  | 0 | 0 | 0 | 2 | 2 | 8 | 1 |
 
 Other questions also showed strengths, but with more room for
@@ -101,16 +100,16 @@ improvement — trending at 5 instead of 7.
 **“I am satisfied with my work.”** (1 means “Strongly Disagree”, 7 means
 “Strongly Agree, trend: 5.”)
 
-  *Score*       1   2   3   4   5    6   7
-  ------------- --- --- --- --- ---- --- ---
-  *How many?*   0   1   0   0   10   6   5
+|--------------|---|---|---|---|----|---|---|
+| *Score*      | 1 | 2 | 3 | 4 | 5  | 6 | 7 |
+| *How many?*  | 0 | 1 | 0 | 0 | 10 | 6 | 5 |
 
 **“I feel I am growing as an engineer.”** (1 means “Strongly Disagree”,
 7 means “Strongly Agree, trend: 5.”)
 
-  *Score*       1   2   3   4   5    6   7
-  ------------- --- --- --- --- ---- --- ---
-  *How many?*   0   0   1   5   10   5   1
+|--------------|---|---|---|---|----|---|---|
+| *Score*      | 1 | 2 | 3 | 4 | 5  | 6 | 7 |
+| *How many?*  | 0 | 0 | 1 | 5 | 10 | 5 | 1 |
 
 When we analyzed the data through the lens of self-identified status as
 belonging to an under-represented group in technology, we saw important
@@ -122,10 +121,10 @@ For example:
 fairly divided.”** (1 means “Strongly Disagree”, 7 means “Strongly
 Agree.”)
 
-  *Score*                                               1   2   3   4   5   6   7
-  ----------------------------------------------------- --- --- --- --- --- --- ---
-  *How many? (Self-ID as well-represented in tech.)*    0   0   2   1   4   3   3
-  *How many? (Self-ID as under-represented in tech.)*   0   2   1   1   0   2   2
+|-----------------------------------------------------|---|---|---|---|---|---|---|
+| *Score*                                             | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| *How many? (Self-ID as well-represented in tech.)*  | 0 | 0 | 2 | 1 | 4 | 3 | 3 |
+| *How many? (Self-ID as under-represented in tech.)* | 0 | 2 | 1 | 1 | 0 | 2 | 2 |
 
 The data showed us that different teammates had different perspectives
 on how fairly tasks were being divided in the organization. And the two
