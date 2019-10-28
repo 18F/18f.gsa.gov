@@ -146,4 +146,8 @@ This attribute is found in the [contact]({{ site.baseurl }}/contact) and [projec
 - In the `<aside>` tag we use the `usa-grid-reversed-right` class. This class reverses the order in which the HTML is displayed so that the content that would normally appear on the left will appear on the right instead. The order is not reversed in mobile.
 
 {% endcapture %}
-{% include details-code.html title='sidebar' content=sidebar_codeblock lang="html" description=sidebar_description %}
+{% include details-code.html
+   title='sidebar'
+   description=sidebar_description
+   content=sidebar
+%}
