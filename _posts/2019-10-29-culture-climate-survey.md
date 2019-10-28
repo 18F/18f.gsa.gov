@@ -82,9 +82,10 @@ had dramatically positive results:
 **“It is easy to ask other members of this team for help.”** (1 means
 “Strongly Disagree”, 7 means “Strongly Agree,” trend: 7.)
 
-  *Score*       1   2   3   4   5   6   7
-  ------------- --- --- --- --- --- --- ----
-  *How many?*   0   0   0   1   2   4   15
+|             |   |   |   |   |   |   |    |
+|-------------|---|---|---|---|---|---|----|
+| Score       | 1 | 2 | 3 | 4 | 5 | 6 | 7  |
+| How many    | 0 | 0 | 0 | 1 | 2 | 4 | 15 |
 
 **“On this team, I can voice a contrary opinion without fear of negative
 consequences.”** (1 means “Strongly Disagree”, 7 means “Strongly Agree,
