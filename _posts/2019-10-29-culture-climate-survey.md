@@ -292,3 +292,6 @@ own culture and climate survey:
 3.  Follow-up actions are key. Make sure to plan time when the entire team can gather to share and discuss the results of the survey. Consider what actions you will take to address what you find before sending the survey.
 
 We see the survey as one way to create a space for discussion. We have continued to share what we’ve learned with other parts of the organization. And we will keep exploring ways to maintain and improve our engineering team culture.
+
+<br/>
+<br/>
