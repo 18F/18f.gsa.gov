@@ -9,7 +9,7 @@ tags:
 - culture
 - tools you can use
 excerpt: ""
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/culture-climate-survey-2019/header.png
 ---
 
 As a team of public servants, one of our key values at 18F is to
