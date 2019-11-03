@@ -62,5 +62,20 @@ $(function (){
 
   $('.search-interface').on("submit", function(){
     $("#search-loading").show();
-  })
+  });
+
+  $('.footer-mobile button').on('click', function() {
+
+    var ref = $(this).attr('aria-controls');
+    var $element = $(this).parent().find('#' + ref);
+
+    if($element[0].hasAttribute('hidden')) {
+      $element.removeAttr('hidden');
+      $(this).attr('aria-expanded', 'false');
+    } else {
+      $element.attr('hidden', true);
+      $(this).attr('aria-expanded', 'true');
+    }
+
+  });
 });

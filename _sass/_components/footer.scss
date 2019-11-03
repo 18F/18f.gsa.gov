@@ -29,6 +29,8 @@ footer[role=contentinfo] {
 
   .usa-sidenav-list {
     @include unstyled-list;
+    margin-right: 0;
+    margin-left: 0;
 
     > li {
       border-top-color: $color-gray-lighter;
@@ -72,6 +74,8 @@ footer[role=contentinfo] {
 
   .usa-accordion-content {
     background-color: $color-gray-lightest;
+    position: relative;
+    left: 0;
 
     li {
       border-top: 1px solid $color-gray-lighter;
