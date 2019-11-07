@@ -12,7 +12,6 @@ tags:
 - 10x
 excerpt: "Last summer, we embarked on a 10x project to explore (and potentially
 improve) user-centered design practices across the federal government."
-image: /assets/blog/slug/image.jpg/png/gif
 ---
 
 Last summer, my colleague Anna Heller Sebok and I embarked on a
