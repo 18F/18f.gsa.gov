@@ -1,5 +1,5 @@
 ---
-title: Building product management capacity in government part 2 –
+title: Building product management capacity in government part 2 – Interview with a product manager
 date: 2019-11-19
 authors:
 - nikki-lee
