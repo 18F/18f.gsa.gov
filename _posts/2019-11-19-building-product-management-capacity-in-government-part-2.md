@@ -16,7 +16,7 @@ image: /assets/blog/product-guide/product-manager.jpg
 
 We chatted with Jerome Lee of the Centers for Medicare & Medicaid Services (CMS) about our work helping CMS streamline the funding application process for state Medicaid agencies seeking money to improve their IT systems.
 
-## One reason why this project has been so successful is because you’ve been really present for the team. Can you talk about how you’ve made time for this given your other duties?
+### One reason why this project has been so successful is because you’ve been really present for the team. Can you talk about how you’ve made time for this given your other duties?
 
 This project was a priority for CMS leadership from day one. While I’ve had to balance my existing workload, CMS leadership has given me a high level of autonomy about how to do my day-to-day, but the reality of doing your day job while also adding project work requires a real effort in time management.
 
@@ -24,7 +24,7 @@ At the start of the project, CMS didn’t have the capacity to provide one full-
 
 More recently, I’ve taken on the responsibilities as the product manager on the project, which has created a different set of time management challenges, but when you are surrounded with a great team and strong leadership support, it makes it that much easier to carve out time to keep the project moving forward - especially when you have multiple competing priorities.
 
-## Something we often see folks struggle with is decision-making. Your decisiveness when defining the CMS product really helped us keep moving. How do you make these types of decisions?
+### Something we often see folks struggle with is decision-making. Your decisiveness when defining the CMS product really helped us keep moving. How do you make these types of decisions?
 
 One of the first things the 18F team provided me with was a framing document template to help us identify very specific details: the problem we were trying to solve, the project goals, and how we would measure success. This template helped us stay oriented to the high-level goals.
 
@@ -36,7 +36,7 @@ Leadership needs to trust and support the team and be open-minded to changes in 
 
 Transparency is also key. Because we’re developing everything in the open, leadership and other stakeholders know the direction we're headed and see us adjust our course as we develop and refine the product.
 
-## You’ve become more comfortable writing issues, running sprints, sharing sketches, editing content, and even writing code. Many folks we work with are nervous to do these things because they haven’t done them before. Did you feel intimidated at all? How confident do you feel working in an agile way now?
+### You’ve become more comfortable writing issues, running sprints, sharing sketches, editing content, and even writing code. Many folks we work with are nervous to do these things because they haven’t done them before. Did you feel intimidated at all? How confident do you feel working in an agile way now?
 
 I was totally intimidated! I was surrounded by designers, developers, and product managers with real-world experiences and successes in large, well-known companies, and here I was just putting on my product manager training wheels.
 
@@ -48,7 +48,7 @@ Testing code in minutes and hours instead of weeks and months is a real eye-open
 
 The 18F team was always willing to teach, prod, and gauge where I was in my journey of software development. I knew I wasn’t going to be judged negatively whenever I tried something new, whether that was writing an issue in GitHub, merging a pull request, or running a meeting.
 
-## You’ve done a lot of work to evangelize this product and incorporate feedback from end users. This has really paid off, especially in the excitement we’re seeing from end users and internal leadership. How do you make space for this?
+### You’ve done a lot of work to evangelize this product and incorporate feedback from end users. This has really paid off, especially in the excitement we’re seeing from end users and internal leadership. How do you make space for this?
 
 At the end of the day, we believe in the product so speaking about it comes naturally to us, but if we make something that nobody wants to use, we’ve failed.
 
@@ -56,14 +56,14 @@ I want people to tell us *why* they don’t want to use the product so we can fi
 
 The forward momentum is encouraging and the fact that we built something that’s ready to go is huge. If we were years from releasing something, it’d be much harder. We’ve narrowed it down to an MVP that we can describe really well, and we’ve been able to successfully pilot the first iteration of the eAPD with real users in a relatively short period of time.
 
-## What have been some of the challenges with this project, and how did you conquer them?
+### What have been some of the challenges with this project, and how did you conquer them?
 
 - **Team building:** As the team was forming, I think there was a general sense of divide among 18F and CMS teams. While we’re all federal employees—and it wasn’t intentional—we brought many different expectations, life experiences, and organizational cultures to the project. From a CMS perspective, I came in with very defined expectations, parameters, and timelines for the project. The 18F team was very accommodating, but it wasn’t until I realized those expectations were unrealistic and unfair did the whole team have a chance to fully flex their creative muscles and technical expertise. “One team, one dream” has become a favorite motto of mine.
 - **Dealing with rejection from users:** In our first round of user testing, we received what you might call negative feedback—basically, “Why would you want to do it this way?!” I’ll never forget the disappointment on the team’s faces. Nikki of 18F rallied the team together and reminded us: this is exactly why we do user testing, and we should take the opportunity to pivot and make a better product. Dealing with any type of rejection is hard, but we trusted the process and iterated on the design and tested it again before committing development resources to a full implementation. Our next round of user testing yielded much more positive results, giving us a renewed sense that we were headed in the right direction. This experience also brought the team closer together.
 - **Compliance and security:** We’ve had to navigate a lot of existing structures and processes that don’t necessarily align with this style of software development. On-demand staging servers for unit and integration testing, continuous integration and delivery with multiple code deploys to production daily, and human-centered design may be common in other sectors, but this idea can be quite foreign to teams who’ve only worked in primarily traditional waterfall-style development. When questions come up asking about changing control board procedures and resources required for a dedicated staging server, we’ve often had to serve as evangelists and educators for how we’ve approached the development of this project, while making sure we’ve done our best to work within the system as it is.
 - **Work stoppages:** First I want to make clear that CMS and 18F/GSA leadership have been super supportive throughout this project. The challenge we’ve faced has been around timelines and getting our agreements renewed or amended in a timely fashion. Everyone did great work to make sure we kept moving, but we had to put the brakes on due to timing of available funds or ensuring clarity of scope within our agreements. There’s nothing like a work stoppage, even a short one, to take some momentum out of our sails. Large organizations of any kind are a complex interconnection of various legal, financial, information technology, and human resource systems, but it’s important to call out in our environment that it’s not as simple as saying “go build something.” Navigating this system takes time, energy, and work to make sure the path is clear for all parties. Having our contracting officers and legal departments in frequent communication, often with facilitation from members outside our development team, has been hugely critical to moving the project forward.
 
-## What has been the best part of the 18F + CMS collaboration for you?
+### What has been the best part of the 18F + CMS collaboration for you?
 
 The people!
 
