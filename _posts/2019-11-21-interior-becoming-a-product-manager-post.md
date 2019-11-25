@@ -9,7 +9,7 @@ tags:
 - modern practices
 - agency work
 excerpt: "If you had asked me two years ago what a product manager is, I wouldn’t have known. And, yet, today, that is one of my titles. Along the way, I have been lucky to receive guidance and coaching from experienced product managers at the General Services Administration’s 18F. Even though I’ve only been in this role for a year, and I am still learning, my experience so far has helped shape the way I view my responsibility as a public servant."
-image: /assets/blog/slug/image.jpg/png/gif
+image: /assets/blog/eiti-nrrd/nrrd-home.png
 ---
 
 *This post was originally published on the blog for the Open Data Design team at the U.S. Department of the Interior. Jennifer Malcolm is a product manager at the Office of Natural Resources Revenue.*
