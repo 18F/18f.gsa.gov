@@ -22,7 +22,7 @@ Although this is a common approach, it is a very risky one, because:
 1. Handing off software to a completely new team squanders hard-won knowledge.
 2. Handoff to operations & maintenance brings a "keep the lights on" mindset, rather than planning for active continuous delivery.
 
-Former Presidential Innovation Fellow Sarah Allen wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/)." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
+Former Presidential Innovation Fellow [Sarah Allen]({{site.baseurl}}/author/sarah) wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/)." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
 
 If you find your agency planning an abrupt handover to O&M after a software launch, we hope this post will provide you with reasoning and examples to support a different approach: building a technical team for the long term.
 
