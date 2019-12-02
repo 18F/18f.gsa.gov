@@ -50,7 +50,7 @@ Instead of dividing your grant funding into "build" and "operation & maintenance
 
 1. ***Initial Prototyping ➡️ Launch***: This is the initial "build" phase; the one where you might spend most of your grant funding under a traditional model. For a government agency, the ATO process happens here.
 
-2. ***Launch ➡️ Ongoing Development***: In this phase, your team will build new features and change existing ones based on user feedback; actively monitor and improve your security posture; and deal with the bugs and issues that invariably crop up only when real users being using a product.
+2. ***Launch ➡️ Ongoing Development***: In this phase, your team will build new features and change existing ones based on user feedback; actively monitor and improve your security posture; and deal with the bugs and issues that invariably crop up only when real users begin using a product.
 
 3. ***Ongoing Development ➡️ Sunset***: Nothing lasts forever, especially on the web. The last phase of a project is concerned with how to responsibly and thoughtfully shut it down and help users move to a better solution.
 
