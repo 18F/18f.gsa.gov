@@ -83,3 +83,5 @@ This screenshot of development work from the Open Forest GitHub repository shows
 Don't let your agency waste knowledge and opportunity. Instead of planning for a handoff to O&M, plan for a long-term team. Instead of launching and then keeping it running, plan for ongoing development.
 
 Your funder or boss may be skeptical. Print this post, leave it on their desk, and encourage them to plan toward a team that can deliver over the longer term.
+
+_Header image and graph images by Nick Ng, 18F._
