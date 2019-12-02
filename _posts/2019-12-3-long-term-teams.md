@@ -5,6 +5,10 @@ authors:
 - alex-soble
 - elizabeth-ayer
 tags:
+- agency work
+- culture change
+- best practices
+- transformation services
 excerpt: "Don’t let your agency waste knowledge and opportunity. Instead of planning for a handoff to operations and maintenance, plan for a long-term team. Instead of launching your project and then keeping it running, plan for ongoing development."
 image: /assets/blog/long-term-teams/header.png
 ---
