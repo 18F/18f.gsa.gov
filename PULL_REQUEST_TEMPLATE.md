@@ -12,7 +12,7 @@ Changes proposed in this pull request:
 -
 
 Checklist:
-- [ ] All images being added have been optimized **_--> [learn more](18f.gsa.gov/styleguide/images/#using-and-optimizing-jpg-and-png) about how to optimize images <--_**
+- [ ] All images being added have been optimized **_--> [learn more](https://18f.gsa.gov/styleguide/images) about how to optimize images <--_**
 
 
 /cc @relevant-people
