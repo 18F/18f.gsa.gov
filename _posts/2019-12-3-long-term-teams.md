@@ -70,7 +70,7 @@ How are they building out a team to carry the work forward, one slice of product
 
 The Open Forest effort explored potential partnerships with other internal government IT services before settling on their partnership with the Forest Service ACIO, making sure the two agencies shared the same product goals and technical directions.
 
-"There is amazing talent within the Forest Service. Our Forest Service partners identified people with subject matter expertise to work alongside us and deepen their knowledge and experience with iterative software development. Those folks are now continuing to develop the product on their own, further embedding this way of working within the organization," said Melissa Braxton, former 18F design and product lead on Open Forest.
+"There is amazing talent within the Forest Service. Our Forest Service partners identified people with subject matter expertise to work alongside us and deepen their knowledge and experience with iterative software development. Those folks are now continuing to develop the product on their own, further embedding this way of working within the organization," said [Melissa Braxton]({{site.baseurl}}/author/melissa-braxton), former 18F design and product lead on Open Forest.
 
 What advice does Aaron have for other agencies embarking on a similar agile journey? "Choose a low-risk option to build your pilot. We didn't choose a complex permitting process to start. Starting small mitigates risk as you develop new services, and allows you to identify capability and skill gaps."
 
