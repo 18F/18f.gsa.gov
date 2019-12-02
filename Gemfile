@@ -5,7 +5,7 @@ ruby '~>2.6.3'
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
 gem 'jekyll', '~> 3.6.3'
-gem 'jemoji', '>= 0.10.1'
+gem 'jemoji', '>= 0.11.1'
 gem 'parallel'
 
 group :jekyll_plugins do
@@ -22,8 +22,8 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'capybara', '>= 3.13.2'
-  gem 'chromedriver-helper', '>= 1.0.0'
+  gem 'capybara', '>= 3.28.0'
+  gem 'chromedriver-helper', '>= 2.1.1'
   gem 'colorize'
   gem 'pry'
   gem 'rack-jekyll'
