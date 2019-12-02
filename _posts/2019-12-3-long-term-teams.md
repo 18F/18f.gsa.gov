@@ -85,7 +85,6 @@ Don't let your agency waste knowledge and opportunity. Instead of planning for a
 Your funder or boss may be skeptical. Print this post, leave it on their desk, and encourage them to plan toward a team that can deliver over the longer term.
 
 <br/>
-<br/>
 
 _Header image and graph images by Nick Ng, 18F._
 
