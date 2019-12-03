@@ -8,7 +8,9 @@ authors:
 tags:
 - culture
 - tools you can use
-excerpt: ""
+excerpt: "To be inclusive and effective, a team needs a culture where everyone is
+respected, treated fairly, and feels that they belong. We don’t see this
+diversity, equity, and inclusion work as a “nice-to-have” or optional."
 image: /assets/blog/culture-climate-survey-2019/header.png
 ---
 
