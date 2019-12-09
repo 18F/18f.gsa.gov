@@ -21,14 +21,6 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ## Open positions
 
-Links below will take you to the Technology Transformation Services join page to apply.
-
-TEMPLATE:
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="https://join.tts.gsa.gov/join/executive-director/">18F - Executive Director </a>
-</section>
-
-<!--**We currently have no open positions at 18F.**-->
 <!--Links below will take you to the Technology Transformation Services join page to apply.-->
 <!--
 TEMPLATE:
