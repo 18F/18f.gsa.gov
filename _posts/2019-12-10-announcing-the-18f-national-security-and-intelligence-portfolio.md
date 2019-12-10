@@ -8,7 +8,7 @@ tags:
 - portfolios
 excerpt: "18F is launching a new National Security and Intelligence Portfolio to deepen our impact working with agencies working on national
 defense issues."
-Image: /assets/blog/def-intel-portfolio/uncle-sam.jpg
+image: /assets/blog/def-intel-portfolio/uncle-sam.jpg
 ---
 
 As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas. As our Executive Director, Angela Colter, put it in a [blog post](https://18f.gsa.gov/2019/03/19/18F-5-Anniversary-achieve/) earlier this year:
