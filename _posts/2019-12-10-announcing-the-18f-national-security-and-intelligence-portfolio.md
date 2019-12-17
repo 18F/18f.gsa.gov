@@ -18,7 +18,7 @@ Previously, gaining that kind of knowledge has been a happy accident. But in 201
 
 The first iteration of this idea was the creation of the [Human Services Portfolio](https://github.com/18F/human-services/blob/master/README.md#current-projects), an internal team working with federal and state agencies that support health and human service programs. Building on our work over the last several years in the Department of Defense and intelligence community, we’ve put together another team to support our partners in this field—the **18F National Security and Intelligence Portfolio**.
 
-This team will include staff from a range of disciplines from across 18F that are well suited to address the particular challenges agencies face in adopting or acquiring new digital solutions in support of national defense. They will partner with traditional defense and intelligence agencies, as well as other agencies working on projects related to national defense.
+This team will include staff from a range of disciplines from across 18F that are well suited to address the particular challenges agencies face in adopting or acquiring new digital solutions in support of national defense. They will partner with traditional defense and intelligence agencies,  civilian agencies working on projects related to national defense, and the private industry to better ensure delivery of high-quality digital services. 
 
 ## Why a Focus on National Security and Intelligence?
 
@@ -26,7 +26,7 @@ At 18F, we see technical challenges and barriers across government. As an organi
 
 The unique dynamics at work on our national security engagements will help 18F validate and evolve current practices and theories of change. How we conduct user research, foster iterative delivery, and advocate for adoption of open source technology are core to our work with agencies. These pillars will be tested rigorously on national security engagements, helping our practices become more adaptable and durable to broaden our impact.
 
-One of the most important outcomes of 18F’s work assisting agencies in efficiently adopting new technology and digital solutions is improving stewardship of public money. No area of government has the potential to generate these benefits more than in the national security and intelligence area. Our work with defense and intelligence agencies has already generated hundreds of millions of dollars in savings.
+One of the most important outcomes of 18F’s work assisting agencies in efficiently adopting new technology and digital solutions is improving stewardship of public money. No area of government has the potential to generate these benefits more than in the national security and intelligence area. Our work with defense and intelligence agencies and partners in the private industry has already generated hundreds of millions of dollars in savings.
 
 Most importantly, we have an opportunity to support the success of agencies responsible for keeping our country safe. When these agencies face challenges fulfilling their mission, our nation’s security is at risk. 18F can have an enormously beneficial impact on the work of these agencies, and - as a result - directly impact our national security and save lives.
 
