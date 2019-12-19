@@ -6,7 +6,7 @@ blockquote {
 
   cite {
     display: inline;
-    font-size: $small-font-size;
+    font-size: $theme-small-font-size;
     padding-left: $paragraph-margins;
 
     > * {
@@ -22,7 +22,7 @@ blockquote {
   margin-bottom: $paragraph-margins-thick;
   margin-top: $paragraph-margins-thick;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     flex-direction: row;
   }
 
@@ -47,7 +47,7 @@ blockquote {
   margin-top: 0;
   width: 100%;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-bottom: 0;
     margin-right: $paragraph-margins;
     width: 200px;
@@ -82,7 +82,7 @@ p ~ .pquote:not(.pquote-single) {
   border-left: 8px solid $color-medium;
   line-height: $banner-line-height;
   position: relative;
-  background: $color-gray-lightest;
+  background: color('gray-cool-5');
 
   ::before {
     content: '\201C';
@@ -118,7 +118,7 @@ p ~ .pquote:not(.pquote-single) {
   border-left: 8px solid $color-medium;
   line-height: $banner-line-height;
   position: relative;
-  background: $color-gray-lightest;
+  background: color('gray-cool-5');
 }
 
 //Home page testimonial
@@ -130,16 +130,16 @@ p ~ .pquote:not(.pquote-single) {
   width: 100%;
   margin: auto;
   font-style: italic;
-  color: $color-gray;
+  color: color('gray-cool-60');
   padding: 1.2em 30px 1.2em 75px;
   line-height: $banner-line-height;
   position: relative;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     font-size: 25px;
   }
 
-  @include media($large-screen) {
+  @include at-media('desktop-lg') {
     font-size: 28px;
   }
 
@@ -151,13 +151,13 @@ p ~ .pquote:not(.pquote-single) {
     left: 30px;
     top: 0;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       font-size: 4em;
       left: 20px;
       top: -5px;
     }
 
-    @include media($large-screen) {
+    @include at-media('desktop-lg') {
       font-size: 5em;
       left: 10px;
       top: -10px;

@@ -28,7 +28,7 @@
 .section-deliver-icon {
   float: left;
   margin-top: 3rem;
-  padding-right: $site-margins;
+  padding-right: $theme-site-margins-width;
   width: 50%;
 
   &:nth-child(odd) {
@@ -40,7 +40,7 @@
   }
 
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     $icon-padding: 6%;
     padding-right: $icon-padding;
     width: 20%;
@@ -59,7 +59,7 @@
   }
 
   p {
-    font-weight: $font-bold;
+    font-weight: $theme-font-weight-bold;
     margin-top: 2rem;
   }
 }

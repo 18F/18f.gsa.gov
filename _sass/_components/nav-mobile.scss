@@ -3,16 +3,21 @@
 $sliding-panel-width: 26rem;
 
 .nav-mobile {
-  @include padding (2rem);
-  @include position(fixed, 0 0 0 auto);
-  @include size($sliding-panel-width 100%);
-  @include transform(translateX($sliding-panel-width));
-  background: $color-white;
-  border-left: 1px solid $color-gray-light;
+  @include u-padding(2rem);
+  @include u-position(fixed);
+  @include u-top(0);
+  @include u-right(0);
+  @include u-bottom(0);
+  @include u-left(auto);
+  @include u-width($sliding-panel-width);
+  @include u-height(100%);
+  background: color('white');
+  border-left: 1px solid color('gray-cool-30');
   border-right: 0;
   display: block;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  transform: translateX($sliding-panel-width);
   z-index: 999999;
 
   .usa-sidenav-list {
@@ -20,14 +25,14 @@ $sliding-panel-width: 26rem;
   }
 
   &.is-visible {
-    @include transform(translateX(0));
-    @include transition(all 0.3s ease-in-out);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(0);
   }
 }
 
 .nav-mobile {
 
-  @include media($medium-screen + $nav-width-extra) {
+  @include at-media('tablet-lg') {
     display: none;
   }
 }

@@ -4,7 +4,7 @@
 }
 
 .intro-font {
-  color: $color-gray;
+  color: color('gray-cool-60');
   font-size: $h4-font-size;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .visited {
-  color: $color-visited;
+  color: $theme-link-visited-color;
 }
 
 //Font Family

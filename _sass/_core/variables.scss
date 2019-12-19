@@ -24,8 +24,8 @@ $font-monospace:     Consolas, Monaco, "Andale Mono", monospace;
 // Color
 $color-light:        #b3efff; // $color-light / $color-secondary-light
 $color-bright:       #00cfff; // $color-bright / $color-secondary
-$color-medium:       #046b99; // $color-medium / $color-primary
-$color-dark:         #1C304A; // $color-dark / $color-primary-dark
+$color-medium:       #046b99; // $color-medium / $theme-color-primary
+$color-dark:         #1C304A; // $color-dark / $theme-color-primary-dark
 $color-base:         #1F2E4A;
 $color-black:        #000000;
 $color-inverse:      #ffffff;
@@ -52,12 +52,12 @@ $text-max-width:     60.6rem;
 $border-accent-height: 1rem;
 $border-accent:        $border-accent-height solid $color-bright;
 $border-accent-medium: $border-accent-height solid $color-medium;
-$border-light:         1px solid $color-gray-lightest;
+$border-light:         1px solid color('gray-cool-5');
 $border-gray:          1px solid $color-gray-divider;
-$border-thick:         4px solid $color-gray-lightest;
+$border-thick:         4px solid color('gray-cool-5');
 
 // Grid breakpoints
-$tablet-screen: 768px;
+$tablet-screen: 'tablet';
 $tablet: new-breakpoint(min-width $tablet-screen 6);
 
 // Icons

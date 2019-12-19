@@ -36,7 +36,7 @@
     margin-top: $paragraph-margins;
     margin-bottom: $paragraph-margins;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       float: left;
       margin-top: 0;
     }

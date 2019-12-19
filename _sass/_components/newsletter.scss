@@ -14,7 +14,8 @@
   }
 
   [type="submit"] {
-    @include margin(null 0 null 1rem);
+    @include u-margin-right(0);
+    @include u-margin-left(1rem);
     display: inline;
     padding: 0;
     width: 8rem;
@@ -28,4 +29,3 @@
     margin-bottom: 0;
   }
 }
-

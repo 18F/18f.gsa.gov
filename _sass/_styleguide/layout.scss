@@ -1,5 +1,5 @@
 $sg-header-height: 10rem;
-$margins-width: $sliding-panel-width + (2 * $site-margins);
+$margins-width: $sliding-panel-width + (2 * $theme-site-margins-width);
 
 .styleguide-main-content {
   margin-left: auto;
@@ -8,12 +8,12 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 }
 
 .styleguide-details {
-  margin-bottom: $site-margins;
-  margin-top: $site-margins;
+  margin-bottom: $theme-site-margins-width;
+  margin-top: $theme-site-margins-width;
 }
 
 .styleguide-border {
-  border: 1px solid $color-gray-lightest;
+  border: 1px solid color('gray-cool-5');
 }
 
 .styleguide-content-wrapper {
@@ -27,10 +27,10 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 
 .styleguide-header-wrapper {
   align-items: center;
-  border-bottom: 1px solid $color-gray-light;
+  border-bottom: 1px solid color('gray-cool-30');
   display: flex;
   height: $sg-header-height;
-  padding: $site-margins;
+  padding: $theme-site-margins-width;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -61,29 +61,29 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
   margin-left: 0;
   margin-right: 0;
   margin-top: $sg-header-height;
-  max-width: $site-max-width;
-  padding-left: $site-margins;
-  padding-right: $site-margins;
+  max-width: $theme-site-max-width;
+  padding-left: $theme-site-margins-width;
+  padding-right: $theme-site-margins-width;
   width: 100%;
 
   h2 + h3 {
     margin-top: 0;
-    padding-top: $site-margins;
+    padding-top: $theme-site-margins-width;
   }
 
   > h3:target,
   hr + h3 {
     margin-top: 0;
-    padding-top: $sg-header-height + $site-margins;
+    padding-top: $sg-header-height + $theme-site-margins-width;
   }
 
   hr {
-    margin-top: $sg-header-height + $site-margins;
+    margin-top: $sg-header-height + $theme-site-margins-width;
   }
 
-  @include media($medium-screen + $nav-width-extra) {
-    margin-left: $site-margins + $sliding-panel-width;
-    margin-right: $site-margins;
+  @include at-media('tablet-lg') {
+    margin-left: $theme-site-margins-width + $sliding-panel-width;
+    margin-right: $theme-site-margins-width;
     padding-left: 0;
     padding-right: 0;
     width: calc(100% - #{$margins-width});
@@ -91,7 +91,7 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 }
 
 .styleguide-logo {
-  height: $sg-header-height - (2 * $site-margins);
+  height: $sg-header-height - (2 * $theme-site-margins-width);
   margin-right: $paragraph-margins;
   width: auto;
 }

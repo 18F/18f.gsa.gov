@@ -4,10 +4,10 @@
 
   a {
     text-decoration: none;
-    font-weight: $font-normal;
+    font-weight: $theme-font-weight-normal;
   }
 
   path {
-    fill: $color-gray-medium;
+    fill: color('gray-50');
   }
 }

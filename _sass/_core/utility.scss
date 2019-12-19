@@ -3,9 +3,9 @@
 }
 
 .pad-bottom-mobile {
-  padding-bottom: $site-margins;
+  padding-bottom: $theme-site-margins-width;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-bottom: initial;
   }
 }
@@ -38,7 +38,7 @@ svg {
   padding-right: 1%;
   padding-left: 1%;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-right: 4%;
     padding-left: 4%;
   }

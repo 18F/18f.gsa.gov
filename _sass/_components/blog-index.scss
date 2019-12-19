@@ -13,7 +13,7 @@
 .sidebar {
   label {
     font-size: $h4-font-size;
-    font-weight: $font-bold;
+    font-weight: $theme-font-weight-bold;
     margin-bottom: $paragraph-margins;
   }
 
@@ -31,7 +31,7 @@
   margin-bottom: $paragraph-margins;
   border-bottom: 10px solid $color-medium;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     max-width: 29rem;
   }
 
@@ -41,7 +41,7 @@
 }
 
 .sidebar-callout {
-  background-color: $color-gray-lightest;
+  background-color: color('gray-cool-5');
   margin-bottom: 4rem;
   padding: 20px;
 

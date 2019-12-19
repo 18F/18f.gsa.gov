@@ -15,13 +15,13 @@
 .hero-primary {
   background-image: none;
 
-  @include media($tablet-screen) {
+  @include at-media($tablet-screen) {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
 
 .hero-callout {
-  @include media($tablet-screen) {
+  @include at-media($tablet-screen) {
     max-width: 300px;
   }
 }
@@ -32,7 +32,8 @@
   padding-left: 0;
 
   > *:first-child {
-    @include margin(0 null $site-margins null);
+    @include u-margin-top(0);
+    @include u-margin-bottom($theme-site-margins-width);
   }
 }
 
@@ -40,8 +41,8 @@
 .usa-grid-full .hero-callout-full {
   padding-left: $paragraph-margins;
 
-  @include media($small-screen) {
-    padding-left: $site-margins;
+  @include at-media('mobile-lg') {
+    padding-left: $theme-site-margins-width;
   }
 }
 
@@ -57,7 +58,7 @@
     margin-bottom: $section-margins;
   }
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     min-width: 350px;
     padding-right: $section-margins;
   }

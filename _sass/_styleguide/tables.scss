@@ -1,4 +1,4 @@
- @include media($medium-screen + $nav-width-extra) {
+ @include at-media('tablet-lg') {
   .styleguide-content table td:first-of-type {
     min-width: 180px;
   }

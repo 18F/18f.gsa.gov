@@ -76,23 +76,23 @@ h2 {
 }
 
 .p-normal {
-  font-weight: $font-normal;
+  font-weight: $theme-font-weight-normal;
 }
 
 .p-bold {
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
 }
 
 @mixin small-caps {
-  color: $color-gray;
+  color: color('gray-cool-60');
   font-size: $tiny-font-size;
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 hr {
-  background-color: $color-gray-lighter;
+  background-color: color('gray-cool-10');
   border: 0;
   height: 1px;
   margin-top: $section-margins;

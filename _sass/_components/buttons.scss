@@ -32,8 +32,8 @@ button,
 }
 
 %link-arrow {
-  font-weight: $font-bold;
-  font-size: $small-font-size;
+  font-weight: $theme-font-weight-bold;
+  font-size: $theme-small-font-size;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ button,
   }
 
   &:visited path {
-    fill: $color-visited;
+    fill: $theme-link-visited-color;
   }
 
   &:hover path {
@@ -104,7 +104,7 @@ button,
 
   a {
     &:visited .link-arrow-#{$direction} {
-      @include display-arrow($direction, $color-visited);
+      @include display-arrow($direction, $theme-link-visited-color);
     }
 
     &:hover .link-arrow-#{$direction} {
@@ -143,7 +143,7 @@ button,
   font-size: $h6-font-size;
   margin-top: $section-margins !important;
 
-  @include media($medium-screen + 200px) {
+  @include at-media('tablet' + 200px) {
     margin-top: 0.7rem;
     position: absolute;
   }
@@ -183,8 +183,8 @@ button,
 
     &.usa-button:disabled,
     &.usa-button-disabled {
-      background-color: $color-gray-lighter;
-      color: $color-gray-dark;
+      background-color: color('gray-cool-10');
+      color: color('gray-cool-70');
     }
   }
 }

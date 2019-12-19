@@ -1,9 +1,9 @@
 .usa-disclaimer {
-    background-color: $color-gray-lightest;
+    background-color: color('gray-cool-5');
     font-size: 1.2rem;
     height: 2.3rem;
 
-    @include media($small-screen) {
+    @include at-media('mobile-lg') {
       font-size: $h6-font-size;
     }
   }
@@ -12,11 +12,12 @@
     display: inline-block;
 
     p {
-      @include margin(3px 0);
+      @include u-margin-y(3px);
+      @include u-margin-x(0);
       display: inline-block;
 
-      @include media($small-screen) {
-        @include margin(2px null);
+      @include at-media('mobile-lg') {
+        @include u-margin-y(2px);
       }
     }
 
@@ -31,11 +32,11 @@
   // This hides the stage note (i.e. alpha, beta, etc) of the disclaimer for
   // anything smaller than large screen sizes
   .usa-disclaimer-stage {
-    @include margin(2px null);
+    @include u-margin-y(2px);
     display: none;
     float: right;
 
-    @include media($large-screen) {
+    @include at-media('desktop-lg') {
       display: block;
     }
   }

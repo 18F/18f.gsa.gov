@@ -1,8 +1,8 @@
 .section-info {
-  background: $color-gray-lightest;
+  background: color('gray-cool-5');
   font-size: initial;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     background: none;
     padding-bottom: 0;
 
@@ -19,7 +19,7 @@
     font-size: $h4-font-size;
     line-height: $banner-line-height;
     margin: 0;
-    margin-bottom: $site-margins;
+    margin-bottom: $theme-site-margins-width;
     padding-left: 0;
   }
 
@@ -30,10 +30,10 @@
   > ul {
     @include unstyled-list;
 
-    background: $color-gray-lightest;
+    background: color('gray-cool-5');
 
-    @include media($medium-screen) {
-      background: $color-white;
+    @include at-media('tablet') {
+      background: color('white');
     }
 
     ul:not(.usa-unstyled-list) {
@@ -60,11 +60,11 @@
   }
 
   .section-info-list-item {
-    padding-bottom: $site-margins;
-    padding-right: $site-margins;
+    padding-bottom: $theme-site-margins-width;
+    padding-right: $theme-site-margins-width;
 
-    @include media($medium-screen) {
-      background-color: $color-white;
+    @include at-media('tablet') {
+      background-color: color('white');
       padding-left: 0;
       padding-right: 0;
     }
@@ -76,5 +76,5 @@
 }
 
 .section-info-header {
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
 }

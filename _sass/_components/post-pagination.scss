@@ -2,11 +2,11 @@
 // ==========================
 
 @mixin widget-small() {
-  @include padding(2rem null);
+  @include u-padding-y(2rem);
   border-bottom: $border-light;
   border-top: $border-light;
   font-size: $h5-font-size;
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
 }
 
 .post-pagination {
@@ -16,7 +16,7 @@
     &:last-child {
       margin-top: 1.5em;
 
-      @include media($medium-screen) {
+      @include at-media('tablet') {
         margin-top: 0;
         text-align: right;
       }

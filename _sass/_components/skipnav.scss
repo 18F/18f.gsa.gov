@@ -9,7 +9,7 @@
     z-index: 100;
 
     &:focus {
-      background: $color-white;
+      background: color('white');
       left: 0;
       outline: 0;
       position: absolute;

@@ -2,7 +2,7 @@
   display: flex;
   margin-bottom: $paragraph-margins;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-bottom: $paragraph-margins;
   }
 
@@ -13,7 +13,7 @@
 
 .icon-list-image {
   margin: 0;
-  margin-right: $site-margins;
+  margin-right: $theme-site-margins-width;
 
   svg {
     width: 50px;

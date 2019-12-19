@@ -1,20 +1,20 @@
 .page-guides {
   .graphic-list-item {
-    @include span-columns(6);
+    @include grid-col(6);
 
     &:nth-child(2n) {
       margin-right: 0;
     }
 
-    @include media($medium-screen) {
-      @include span-columns(3);
+    @include at-media('tablet') {
+      @include grid-col(3);
       width: 30%;
     }
   }
 
   .graphic-row {
     &:first-of-type {
-      @include media($medium-screen) {
+      @include at-media('tablet') {
         margin-bottom: 3rem;
         margin-top: 3rem;
       }
@@ -22,7 +22,7 @@
 
     &:last-of-type {
       .graphic-list-link {
-        @include media($medium-screen) {
+        @include at-media('tablet') {
           margin-bottom: 2rem;
         }
       }
@@ -30,7 +30,7 @@
   }
 
   .graphic-list-link {
-    @include margin(2rem null);
+    @include u-margin-y(2rem);
     @include media-link;
     text-decoration: none;
     width: 100%;
@@ -53,7 +53,7 @@
   }
 
   .link-lean {
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       width: 10rem;
     }
   }
