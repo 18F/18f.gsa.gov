@@ -12,7 +12,7 @@ excerpt: "This is part two in a series of posts about building product managemen
 image: /assets/blog/product-guide/product-manager.jpg
 ---
 
-*This is part two in a series of posts about building product management capacity in government agencies. The series explores the process of helping agency staff transition into product management roles, from both the 18F and partner agency perspective. For this post, we chatted with Jerome Lee of the Centers for Medicare & Medicaid Services about his experience as a product manager on our current project. These are Jerome's opinions and are not official views of the Centers for Medicare & Medicaid Services or the US Public Health Service.*
+*This is part two in a series of posts about building product management capacity in government agencies. The series explores the process of helping agency staff transition into product management roles, from both the [18F](https://18f.gsa.gov/2019/08/22/building-product-management-capacity-in-government-part-1/) and partner agency perspective. For this post, we chatted with Jerome Lee of the Centers for Medicare & Medicaid Services about his experience as a product manager on our current project. These are Jerome's opinions and are not official views of the Centers for Medicare & Medicaid Services or the US Public Health Service.*
 
 We chatted with Jerome Lee of the Centers for Medicare & Medicaid Services (CMS) about our work helping CMS streamline the funding application process for state Medicaid agencies seeking money to improve their IT systems.
 
