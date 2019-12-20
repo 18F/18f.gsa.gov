@@ -39,7 +39,7 @@ which is a succinct and shared understanding of what we need.
 The best way to surface how end-user considerations might map to a COTS
 product is through a [value mapping exercise](https://www.epa.gov/sites/production/files/2015-06/documents/module_3_vsm.pdf).
 These exercises help you identify which of your users' needs are unique
-and which are a commodity. Use design research to start to evaluate user
+and which are a commodity. Use user research to start to evaluate user
 needs, identify existing tools, and map out the components of the system
 (for example, infrastructure, an email service, or an authentication
 service). You can take advantage of the [18F
