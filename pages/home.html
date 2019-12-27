@@ -7,11 +7,20 @@ redirect_from: /developer/
 ---
 
 <section class="background-dark">
-  <section class="hero hero-primary">
-    <div class="usa-grid">
-      <div class="hero-callout hero-callout-primary background-dark usa-width-one-third usa-width-tablet">
-        <h2>18F partners with agencies to improve the user experience of government services by helping them build and buy technology.</h2>
-        <a href="{{ site.baseurl }}/contact/" tabindex="-1"><button class="usa-button usa-button-big usa-button-secondary">Get in touch</button></a>
+  <section class="usa-hero usa-hero--primary">
+    <div class="grid-container">
+      <div
+        class="usa-hero__callout background-dark usa-width-one-third usa-width-tablet"
+      >
+        <h2>
+          18F partners with agencies to improve the user experience of
+          government services by helping them build and buy technology.
+        </h2>
+        <a href="{{ site.baseurl }}/contact/" tabindex="-1"
+          ><button class="usa-button usa-button--big usa-button--secondary">
+            Get in touch
+          </button></a
+        >
       </div>
     </div>
   </section>
@@ -20,7 +29,9 @@ redirect_from: /developer/
 <section class="usa-section usa-grid">
   <section class="pad-right-left">
     <div class="home-testimonial">
-    We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
+      We engaged with 18F, and it was a game-changer for us. They came in and
+      helped the IT team and business owners get involved in the agile
+      development process. It changed our whole methodology.
       <span>- Alec Palmer, FEC’s Chief Information Officer</span>
     </div>
   </section>
@@ -30,40 +41,55 @@ redirect_from: /developer/
   <section>
     <h2>We support your mission</h2>
     <section class="usa-width-two-thirds">
-      <h3 class="p-line-height p-normal pad-bottom-mobile">As an office within the General Services Administration, we know how to work with government. Federal, state, and local governments can partner with 18F to deliver projects that fulfill their mission, stay within budget, and use leading technology practices.</h3>
+      <h3 class="p-line-height p-normal pad-bottom-mobile">
+        As an office within the General Services Administration, we know how to
+        work with government. Federal, state, and local governments can partner
+        with 18F to deliver projects that fulfill their mission, stay within
+        budget, and use leading technology practices.
+      </h3>
     </section>
   </section>
 </section>
 
 <section class="usa-section background-gray">
   <section class="usa-grid">
-    {% assign agency_partners = site.data.featured_agencies %}
-    {% assign partner_groups = agency_partners | in_groups: 3 %}
+    {% assign agency_partners = site.data.featured_agencies %} {% assign
+    partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
     <div class="usa-grid-full">
       <ul class="list-columns">
-      {% for group in partner_groups %}
+        {% for group in partner_groups %}
         <li class="usa-width-one-third">
           <ul class="list-columns list-images">
-          {% for partner in group %}
+            {% for partner in group %}
             <li class="list-images-item">
-              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.logo }} logo" />
+              <img
+                class="list-images-image"
+                src="{{ partner.logo | prepend: site.baseurl }}"
+                alt="{{ partner.logo }} logo"
+              />
               {% if partner.agency_url %}
-                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+              <a
+                class="list-images-text"
+                href="{{ partner.agency_url | prepend: site.baseurl }}"
+                >{{ partner.name }}</a
+              >
               {% else %}
-                <span class="list-images-text">{{ partner.name }}</span>
+              <span class="list-images-text">{{ partner.name }}</span>
               {% endif %}
             </li>
-          {% endfor %}
+            {% endfor %}
           </ul>
         </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
     </div>
     <p>
-      <a class="link-arrow-right post-link-continue_reading" href="{{ '/what-we-deliver/#some-agencies-weve-worked-with' | prepend: site.baseurl }}">
-        See more agency partners
-        {% include svg/icons/arrow-right.svg %}
+      <a
+        class="link-arrow-right post-link-continue_reading"
+        href="{{ '/what-we-deliver/#some-agencies-weve-worked-with' | prepend: site.baseurl }}"
+      >
+        See more agency partners {% include svg/icons/arrow-right.svg %}
       </a>
     </p>
   </section>
@@ -76,25 +102,39 @@ redirect_from: /developer/
       <ul class="list-columns">
         <li class="usa-width-one-third">
           <div class="icon-list">
-            <figure class="icon-list-image">{% include svg/icons/user-centered-icon.svg %}</figure>
+            <figure class="icon-list-image">
+              {% include svg/icons/user-centered-icon.svg %}
+            </figure>
             <div class="icon-list-text">
-              <p class="p-bold">Modernize software development processes while introducing good agile and human-centered design practices to your agency</p>
+              <p class="p-bold">
+                Modernize software development processes while introducing good
+                agile and human-centered design practices to your agency
+              </p>
             </div>
           </div>
         </li>
         <li class="usa-width-one-third">
           <div class="icon-list">
-            <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
+            <figure class="icon-list-image">
+              {% include svg/icons/monitor.svg %}
+            </figure>
             <div class="icon-list-text">
-              <p class="p-bold">Improve public-facing services like websites or applications</p>
+              <p class="p-bold">
+                Improve public-facing services like websites or applications
+              </p>
             </div>
           </div>
         </li>
         <li class="usa-width-one-third">
           <div class="icon-list">
-            <figure class="icon-list-image">{% include svg/icons/folderwithclock.svg %}</figure>
+            <figure class="icon-list-image">
+              {% include svg/icons/folderwithclock.svg %}
+            </figure>
             <div class="icon-list-text">
-              <p class="p-bold">Digitize and streamline internal systems to save time and increase accuracy</p>
+              <p class="p-bold">
+                Digitize and streamline internal systems to save time and
+                increase accuracy
+              </p>
             </div>
           </div>
         </li>
@@ -106,29 +146,17 @@ redirect_from: /developer/
 <section class="usa-section background-gray">
   <section class="usa-grid">
     <h2>Featured projects</h2>
-    {% include card-project.html
-       project='fec-gov'
-    %}
-    {% include card-project.html
-       project='treasury-data-act'
-    %}
-
-    {% include card-project.html
-       project='calc'
-    %}
+    {% include card-project.html project='fec-gov' %} {% include
+    card-project.html project='treasury-data-act' %} {% include
+    card-project.html project='calc' %}
   </section>
 </section>
 
 <section class="usa-grid usa-section posts_feature">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
   <ul>
-    {% for post in site.posts limit:3 %}
-      {% include post.html
-         post_date=post.date
-         post_title=post.title
-         post_excerpt=post.excerpt
-         post_url=post.url
-      %}
-    {% endfor %}
+    {% for post in site.posts limit:3 %} {% include post.html
+    post_date=post.date post_title=post.title post_excerpt=post.excerpt
+    post_url=post.url %} {% endfor %}
   </ul>
 </section>

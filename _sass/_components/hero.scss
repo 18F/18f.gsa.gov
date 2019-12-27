@@ -1,7 +1,7 @@
 // Hero feature
 // ==========================
 
-.hero {
+.usa-hero {
   background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
@@ -12,7 +12,7 @@
   display: none;
 }
 
-.hero-primary {
+.usa-hero--primary {
   background-image: none;
 
   @include at-media($tablet-screen) {
