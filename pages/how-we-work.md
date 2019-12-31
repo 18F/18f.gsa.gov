@@ -16,49 +16,50 @@ content_focus: false
 ---
 
 {% capture pa-1 %}
-<a name="path-analysis"></a>
 ## Path Analysis:
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
 Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. 
 {% endcapture %}
-<div class="usa-grid-full usa-section">
-  <div class="usa-width-two-thirds" markdown="1">
-    {{ pa-1 }}
-  </div>
-  <div class="usa-width-one-third">
-    <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
-        </div>
-        <span>2-3 person team</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>8-10 weeks</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Typically $195,000</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
-        </div>
-        <span>1 path analysis per project</span>
-      </li>
-    </ul>
+
+<div class="grid-container usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8">
+      {{ pa-1 | markdownify }}
+    </div>
+    <div class="tablet:grid-col-4">
+      <ul class="graphic-list">
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+          </div>
+          <span>2-3 person team</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+          </div>
+          <span>8-10 weeks</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+          </div>
+          <span>Typically $195,000</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
+          </div>
+          <span>1 path analysis per project</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
 {% capture ei-1 %}
-<a name="experiment-iterate"></a>
 ## Experiment & Iterate:
 ### Exploring user-centered solutions.
 {: .hww-subheading}
@@ -66,36 +67,38 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
 Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
 {% endcapture %}
 
-<div class="usa-grid-full">
-  <div class="usa-width-two-thirds" markdown="1">
-    {{ ei-1 }}
-  </div>
-  <div class="usa-width-one-third">
-    <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
-        </div>
-        <span>4-6 person team</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>12 weeks</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Typically $630,000 - $750,000</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
-        </div>
-        <span>Flexible number of phases based on project needs</span>
-      </li>
-    </ul>
+<div class="grid-container usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8">
+      {{ ei-1 | markdownify }}
+    </div>
+    <div class="tablet:grid-col-4">
+      <ul class="graphic-list">
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+          </div>
+          <span>4-6 person team</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+          </div>
+          <span>12 weeks</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+          </div>
+          <span>Typically $630,000 - $750,000</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
+          </div>
+          <span>Flexible number of phases based on project needs</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
