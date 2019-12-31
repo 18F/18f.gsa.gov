@@ -26,7 +26,7 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section usa-grid">
+<section class="usa-section grid-container">
   <section class="pad-right-left">
     <div class="home-testimonial">
       We engaged with 18F, and it was a game-changer for us. They came in and
@@ -37,8 +37,8 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section usa-grid">
-  <section>
+<section class="usa-section grid-container">
+  <section class="grid-row">
     <h2>We support your mission</h2>
     <section class="usa-width-two-thirds">
       <h3 class="p-line-height p-normal pad-bottom-mobile">
@@ -52,11 +52,11 @@ redirect_from: /developer/
 </section>
 
 <section class="usa-section background-gray">
-  <section class="usa-grid">
+  <section class="grid-container">
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
-    <div class="usa-grid-full">
+    <div class="grid-container-full">
       <ul class="list-columns">
         {% for group in partner_groups %}
         <li class="usa-width-one-third">
@@ -96,9 +96,9 @@ redirect_from: /developer/
 </section>
 
 <section class="usa-section">
-  <section class="usa-grid">
+  <section class="grid-container">
     <h2>What 18F can do</h2>
-    <div class="usa-grid-full">
+    <div class="grid-container-full">
       <ul class="list-columns">
         <li class="usa-width-one-third">
           <div class="icon-list">
@@ -144,7 +144,7 @@ redirect_from: /developer/
 </section>
 
 <section class="usa-section background-gray">
-  <section class="usa-grid">
+  <section class="grid-container">
     <h2>Featured projects</h2>
     {% include card-project.html project='fec-gov' %} {% include
     card-project.html project='treasury-data-act' %} {% include
@@ -152,7 +152,7 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-grid usa-section posts_feature">
+<section class="grid-container usa-section posts_feature">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
   <ul>
     {% for post in site.posts limit:3 %} {% include post.html
