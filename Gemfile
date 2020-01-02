@@ -22,11 +22,11 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'capybara', '>= 3.28.0'
+  gem 'capybara', '>= 3.29.0'
   gem 'chromedriver-helper', '>= 2.1.1'
   gem 'colorize'
   gem 'pry'
-  gem 'rack-jekyll'
+  gem 'rack-jekyll', '>= 0.5.0'
   gem 'rb-readline'
   gem 'rspec'
   gem 'selenium-webdriver', '>= 3.1.0'
