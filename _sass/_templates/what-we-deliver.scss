@@ -35,4 +35,10 @@
       padding-bottom: 0;
     }
   }
+
+  @include at-media('tablet') {
+    .card {
+      @include u-margin-bottom(4);
+    }
+  }
 }
