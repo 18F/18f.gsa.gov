@@ -10,20 +10,20 @@ lead: Let’s work together to improve the user experience of government.
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <div class="usa-section tablet:grid-col-8">
-    {% markdown %}
+{% markdown %}
 
-    ### Want to see if 18F can help your agency?
-    Email Kenny Daniel on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
+### Want to see if 18F can help your agency?
+Email Kenny Daniel on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
 
-    ### Looking for a job at 18F?
-    You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent Team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
+### Looking for a job at 18F?
+You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent Team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
 
-    ### Are you a member of the press?
-    Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
+### Are you a member of the press?
+Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 
-    ### Anything else?
-    For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
-    {% endmarkdown %}
+### Anything else?
+For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
+{% endmarkdown %}
 
     </div>
 
