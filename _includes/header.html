@@ -18,22 +18,24 @@
   </header>
 </div>
 <div class="overlay"></div>
-<header class="usa-header">
-  <div class="usa-navbar">
-    <div class="usa-logo">
-      <a class="site-logo media_link" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
-        logo" {% if page.url == '/' %} aria-hidden="true" {% endif %} ></a
-      >
-      {% if page.url == '/' %}
-      <h1 class="usa-sr-only">18F</h1>
-      {% else %}
-      <span class="usa-sr-only">18F</span>
-      {% endif %}
-      <button class="usa-menu-btn">Menu</button>
+<header class="usa-header usa-header--basic ">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo">
+        <a class="site-logo media_link" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
+          logo" {% if page.url == '/' %} aria-hidden="true" {% endif %} ></a
+        >
+        {% if page.url == '/' %}
+        <h1 class="usa-sr-only">18F</h1>
+        {% else %}
+        <span class="usa-sr-only">18F</span>
+        {% endif %}
+        <button class="usa-menu-btn">Menu</button>
+      </div>
     </div>
+    <nav class="usa-nav" aria-label="Primary Navigation">
+      {% include navigation.html navbar=true %}
+    </nav>
   </div>
-  <nav class="usa-nav" aria-label="Primary Navigation">
-    {% include navigation.html navbar=true %}
-  </nav>
 </header>
