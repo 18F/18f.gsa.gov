@@ -47,10 +47,10 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://pages.18f.gov/frontend/">
-        <img src="{{ site.baseurl }}/assets/img/guides/front-end.svg" alt="">
+      <a class="graphic-list-link" href="https://engineering.18f.gov/">
+        <img src="{{ site.baseurl }}/assets/img/guides/engineering.svg" alt="">
         <p class="link-arrow-right">
-          Front end
+          Engineering
           {% include svg/icons/arrow-right.svg %}
         </p>
       </a>
