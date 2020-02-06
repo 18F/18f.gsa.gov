@@ -37,7 +37,7 @@ We use USWDS at 18F because it helps us:
   <a href="{{site.baseurl}}/assets/blog/uswds2-launch/uswds-assets.png">
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/uswds-assets.png" alt="This illustration shows another before-and-after example of how a website can use utility classes to change the styles of site elements. Five stylized examples of code are given below the two versions of the page"/>
   </a>
-  <figcaption>*You can easily change classes to customize the look and feel of the USWDS template*.</figcaption>
+  <figcaption>You can easily change classes to customize the look and feel of the USWDS template.</figcaption>
 </figure>
 
 But, a pattern library doesn’t answer all design decisions. In fact, teams make their first design decisions way before they get to patterns. They have to answer questions like:
@@ -70,7 +70,7 @@ USWDS and other design systems give flexibility so teams can build the right sol
   <a href="{{site.baseurl}}/assets/blog/uswds2-launch/swot-exercise.png">
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/swot-exercise.png" alt="A wall covered with handwritten notes from a project brainstorming session with a large team. The image focuses on the team's notes on the project's strengths, weaknesses, opportunities, and threats."/>
   </a>
-  <figcaption>*Photograph of a brainstorming activity where a large team is discussing and voting on the top strengths, weaknesses, opportunities, and threats of a project.*</figcaption>
+  <figcaption>Photograph of a brainstorming activity where a large team is discussing and voting on the top strengths, weaknesses, opportunities, and threats of a project.</figcaption>
 </figure>
 
 Using human-centered [service design](https://civicservicedesign.com/what-is-civic-service-design-9fd9deebef99), we put humans first—learning their needs, and then trying to solve their problems with or without technology. Service design allows us to think about the whole ecosystem of a product or service. This helps us think about the effects, intended or not, on all people who would touch what we're creating, making sure we’re thinking inclusively and responsibly about what we create.
@@ -83,7 +83,7 @@ Understanding the problem allows us to narrow the scope of a project, which is n
   <a href="{{site.baseurl}}/assets/blog/uswds2-launch/sahmsa-before-after.png">
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/sahmsa-before-after.png" alt="Before and after screenshots of the SAMHSA treatment finder homepage. The first image shows the original, text-heavy site, and the second image shows the new site with a simpler navigation and clear call to action."/>
   </a>
-  <figcaption>*Before and after screenshots of SAMHSA Behavioral Health Treatment Services Locator, rebranded as [Findtreatment.gov](https://findtreatment.gov/).*</figcaption>
+  <figcaption>Before and after screenshots of SAMHSA Behavioral Health Treatment Services Locator, rebranded as [Findtreatment.gov](https://findtreatment.gov/).</figcaption>
 </figure>
 
 Visual design is just one part in the wide world of design—it balances form and function, establishes identity, and employs principles that allow users to get information as effortlessly as possible. Visual design also considers people with different visual impairments.
@@ -102,7 +102,7 @@ and [Adobe XD](https://designsystem.digital.gov/files/uswds-for-designers/uswds-
   <a href="{{site.baseurl}}/assets/blog/uswds2-launch/testing-proto.png">
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/testing-proto.png" alt="A person in the woods is looking at a paper map while also holding their smartphone."/>
   </a>
-  <figcaption>*This paper map is also accessible on a smartphone in a low-reception area in the middle of a national forest.*</figcaption>
+  <figcaption>This paper map is also accessible on a smartphone in a low-reception area in the middle of a national forest.</figcaption>
 </figure>
 
 Although many considerations for accessibility are baked into USWDS, 508 compliance is not enough. [Accessibility.18f.gov](https://accessibility.18f.gov/) has a lot of
@@ -131,7 +131,7 @@ and abilities.
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/lead-water-before-after.png" alt="A screenshot from plainlanguage.gov showing how language can be made clearer. Language before:
     Infants and children who drink water containing lead in excess of the action level could experience delays in their physical or mental development. Children could show slight deficits in attention span and learning abilities. Adults who drink this water over many years could develop kidney problems or high blood pressure. Language after: Lead in drinking water can make you sick. Here are some possible health effects of high lead levels in your drinking water: Children:Delayed growth, Learning disabilities. Short attention span. Adults: Kidney problems, High blood pressure."/>
   </a>
-  <figcaption>*Before and after content from plainlanguage.gov about the effects of lead in drinking water.*</figcaption>
+  <figcaption>Before and after content from plainlanguage.gov about the effects of lead in drinking water.</figcaption>
 </figure>
 
 Easy-to-read language lowers a person’s [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load). That means
