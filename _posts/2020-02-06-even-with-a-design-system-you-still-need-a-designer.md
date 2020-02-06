@@ -1,10 +1,11 @@
 ---
-title: "Even with a design system you still need a designer"
+title: "Even with a design system, you still need a designer"
 date: 2020-02-06
 authors:
 - christine-bath
 - austin-hernandez
 tags:
+- design
 - web design system
 - tools you can use
 - how we work
@@ -93,8 +94,8 @@ The way something looks is how sighted people initially make judgments on people
 All government websites shouldn’t look exactly the same because trust and recognition are not universal. Instead, the design must match the tone and subject matter of each agency’s unique mission.
 
 Visual designers at 18F start with USWDS to bring best practices and consistency to projects. We work with agencies, developers, and product managers to identify which parts of the design system to customize if any, to keep projects feasible and within budget. USWDS 2 has
-[Sketch](https://designsystem.digital.gov/files/uswds-for-designers/uswds-assets-sketch.zip)
-and [Adobe XD](https://designsystem.digital.gov/files/uswds-for-designers/uswds-assets-adobe-xd.zip) design files that define common patterns, and [built-in design tokens](https://designsystem.digital.gov/design-tokens/) for discrete style elements. These tools give visual designers the flexibility to add unique layouts, fonts, colors, and images while still speaking the USWDS design language.
+[Sketch](https://designsystem.digital.gov/documentation/designers/)
+and [Adobe XD](https://designsystem.digital.gov/documentation/designers/) design files that define common patterns, and [built-in design tokens](https://designsystem.digital.gov/design-tokens/) for discrete style elements. These tools give visual designers the flexibility to add unique layouts, fonts, colors, and images while still speaking the USWDS design language.
 
 ### Design for people in a wide-variety of situations
 
