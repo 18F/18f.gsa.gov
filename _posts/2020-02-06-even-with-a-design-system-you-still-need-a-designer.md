@@ -15,7 +15,7 @@ image: /assets/blog/uswds2-launch/design-system-designer-banner.jpg
 
 [The U.S. Web Design System (USWDS)](http://designsystem.digital.gov)
 is a design system for the federal government that allows you to start from a customizable, thoroughly-tested, and responsive template with an extensive component library. It lets you be creative while still being accessible, consistent, and efficient. It’s also free, open source, and
-on [GitHub](http://github.com/uswds/uswds) or [Drupal](http://github.com/uswds/uswds), so anyone can use it.
+on [GitHub](http://github.com/uswds/uswds) or [Drupal](https://designsystem.digital.gov/documentation/implementations/), so anyone can use it.
 
 Designers at 18F ❤️USWDS. We use it as the starting point on almost every project.
 
