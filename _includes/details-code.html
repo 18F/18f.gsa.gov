@@ -13,49 +13,52 @@
 {% endif %}
 
 
-  <ul class="usa-accordion styleguide-details">
-    {% if include.content %}
-    <li>
-      <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}">
+<div class="usa-accordion usa-accordion--bordered styleguide-details">
+  {% if include.content %}
+    <h2 class="usa-accordion__heading">
+      <button class="usa-accordion__button"
+        aria-expanded="true"
+        aria-controls="accordion-for-{{ include.title | slugify }}">
         {{ include.text | default: 'Code' }}
       </button>
-      <div id="{{ include.title | slugify }}" class="usa-accordion-content styleguide-border">
-        {{ code | markdownify }}
-      </div>
-    </li>
-    {% endif %}
-    {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
-    <li>
-      <button class="usa-accordion-button"
-        aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
+    </h2>
+    <div id="accordion-for-{{ include.title | slugify }}" class="usa-accordion__content usa-prose">
+      {{ code | markdownify }}
+    </div>
+  {% endif %}
+  {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
+    <h2 class="usa-accordion__heading">
+      <button class="usa-accordion__button"
+        aria-expanded="true"
+        aria-controls="accordion-for-{{ include.title | slugify | append: '-details' }}">
         Documentation
       </button>
-      <div id="{{ include.title | slugify  | append: '-details' }}" class="usa-accordion-content styleguide-border">
-        {% if include.description %}
-          <p>{{ include.description | markdownify }}</p>
-        {% endif %}
-        {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref %}
-          <p>Additional resources:</p>
-          <ul>
-            {% if include.include_ref %}
+    </h2>
+    <div id="accordion-for-{{ include.title | slugify | append: '-details' }}" class="usa-accordion__content usa-prose">
+      {% if include.description %}
+        <p>{{ include.description | markdownify }}</p>
+      {% endif %}
+      {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref %}
+        <p>Additional resources:</p>
+        <ul>
+          {% if include.include_ref %}
             <li><a href="{{ include.include_ref }}">Include reference</a></li>
-            {% endif %}
-            {% if include.uswds_ref %}
+          {% endif %}
+          {% if include.uswds_ref %}
             <li><a href="{{ include.uswds_ref }}">USWDS references</a></li>
-            {% endif %}
-            {% if include.scss_ref %}
+          {% endif %}
+          {% if include.scss_ref %}
             <li><a href="{{ include.scss_ref }}">SCSS references</a></li>
-            {% endif %}
-            {% if include.other_ref %}
+          {% endif %}
+          {% if include.other_ref %}
             <li><a href="{{ include.other_ref }}">Additional documentation</a></li>
-            {% endif %}
-          </ul>
-        {% endif %}
-        {% if include.image %}
+          {% endif %}
+        </ul>
+      {% endif %}
+      {% if include.image %}
         <img class="usa-width-one-third"
-             src="{{ site.baseurl }}/{{ include.image }}" {% if include.image_alt %}alt="{{ include.image_alt }}"{% endif %} />
-        {% endif %}
-      </div>
-    </li>
-    {% endif %}
-  </ul>
+          src="{{ site.baseurl }}/{{ include.image }}" {% if include.image_alt %}alt="{{ include.image_alt }}"{% endif %} />
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

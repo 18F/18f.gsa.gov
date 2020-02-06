@@ -42,9 +42,11 @@ exclude:
 - _posts/2016-08-16-what-happens-when-the-whole-team-joins-user-interviews.md
 - _posts/2014-03-21-29-minutes.md
 - _posts/2015-12-08-using-emoji-for-knowledge-sharing.md
+- _posts/2019-03-22-18F-5-anniv-fav-project.md
 - _posts/2015-10-29-welcome-to-betafec.md
 - _posts/2016-05-17-reimagining-federal-websites-with-the-draft-us-web-design-standards.md
 - _posts/2016-04-04-national-earthquake-information-centers-open-source-team.md
+- _posts/2019-02-12-open-forest-launch-post.md
 - _posts/2015-02-27-making-procurement-easier-some-questions-for-developer-kaitlin-devine.md
 - _posts/2015-03-12-day-in-the-life-of-an-18F-content-designer.md
 - _posts/2018-02-13-why-your-agency-doesnt-need-a-mobile-app.md
@@ -54,6 +56,7 @@ exclude:
 - _posts/2016-06-15-two-agencies-participating-in-the-digital-acquisition-accelerator-pilot.md
 - _posts/2016-08-02-jacob-harris-from-big-data-journalism-to-micro-purchase-platforms.md
 - _posts/2015-10-05-managing-technical-debt.md
+- _posts/2019-05-16-how-18f-and-pif-work-together-in-agencies.md
 - _posts/2015-02-17-three-18f-products-that-will-help-your-workplace.md
 - _posts/2017-09-28-three-ways-to manage-research-projects.md
 - _posts/2015-11-03-content-strategy-for-all-insights-from-cfpb-natalie-kurz.md
@@ -83,11 +86,13 @@ exclude:
 - _posts/2016-12-22-charting-the-future-of-the-draft-us-web-design-standards.md
 - _posts/2015-02-09-the-first-gov-domains-hardcoded-into-your-browser-as-all-https.md
 - _posts/2018-09-27-antipatterns-in-agile-contracting.md
+- _posts/2019-04-03-hcd-for-centralization-series-1-why-prioritizing-users-is-important.md
 - _posts/2018-10-25-modular-contracting-and-working-in-the-open.md
 - _posts/2016-03-10-what-people-think-about-before-sharing-personal-information.md
 - _posts/2016-03-25-how-design-consistency-helps-users-navigate-federal-websites.md
 - _posts/2016-03-01-what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government.md
 - _posts/2015-05-19-five-questions-with-dan-brown.md
+- _posts/2019-02-05-ask-18F-6-analytics-open-source.md
 - _posts/2017-11-08-four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool.md
 - _posts/2015-06-02-taking-the-pulse-of-the-federal-governments-web-presence.md
 - _posts/2016-08-26-mark-trammell-unlocking-the-true-potential-of-public-service.md
@@ -110,6 +115,8 @@ exclude:
 - _posts/2017-03-15-one-agencys-investments-open-source-mean-others-benefit.md
 - _posts/2014-07-15-hot-off-the-press-18fs-api-standards.md
 - _posts/2014-04-28-18f-demo-day-may-9-2014.md
+- _posts/2019-11-21-interior-becoming-a-product-manager-post.md
+- _posts/2019-03-26-when-to-use-COTS.md
 - _posts/2015-02-26-Five-Ways-To-Turn-A-Bad-Idea-Into-A-Great-One.md
 - _posts/2015-03-04-annoucing-oasis-discovery-making-market-research-easier.md
 - _posts/2015-12-03-power-of-mindset-normatives-matthew-milan.md
@@ -149,6 +156,7 @@ exclude:
 - _posts/2017-08-30-what-makes-a-great-vendor-team.md
 - _posts/2016-04-25-lean-on-me-asking-for-help-on-the-content-team.md
 - _posts/2017-09-26-automated-scanning-for-sensitive-information.md
+- _posts/2019-02-07-the-cloud-is-not-a-virtue.md
 - _posts/2016-05-10-gsa-invests-in-18fs-work-with-new-service.md
 - _posts/2015-11-17-gsa-gov-refreshed-with-eye-toward-mobile-users.md
 - _posts/2016-04-08-how-we-get-high-availability-with-elasticsearch-and-ruby-on-rails.md
@@ -158,6 +166,7 @@ exclude:
 - _posts/2018-07-06-ask-18f-plain-language-government-terms.md
 - _posts/2016-01-15-micro-purchase-auctions-round-2-what-we-learned.md
 - _posts/2015-02-24-how-to-use-github-and-the-terminal-a-guide.md
+- _posts/2019-03-07-six-ways-we-improved-tts-design-research-guild.md
 - _posts/2015-10-08-updated-18f-content-guide.md
 - _posts/2016-10-14-iterative-workplace-design-denver-federal-center.md
 - _posts/2016-03-28-interesting-things-we-learned-from-examining-traffic-patterns-on-analytics-usa-gov.md
@@ -171,9 +180,12 @@ exclude:
 - _posts/2015-03-05-Labor-Category-Descriptions-for-Agile-Procurements.md
 - _posts/2016-04-06-take-our-code-18f-projects-you-can-reuse.md
 - _posts/2014-12-23-hub.md
+- _posts/2019-08-02-budgeting-handbook.md
+- _posts/2019-05-07-human-centered-design-for-it-centralization-part-3-working-with-vendors.md
 - _posts/2016-10-24-embracing-opportunities-to-improve-and-innovate.md
 - _posts/2015-05-07-layering-innovation.md
 - _posts/2015-03-19-how-we-built-analytics-usa-gov.md
+- _posts/2019-10-29-culture-climate-survey.md
 - _posts/2015-05-01-pair-programming-why-two-heads-are-better-than-one.md
 - _posts/2015-03-19-18f-by-the-numbers.md
 - _posts/2018-05-22-using-agile-methods-to-improve-the-rfp-process.md
@@ -193,17 +205,20 @@ exclude:
 - _posts/2017-06-06-fractal-and-federalist-join-the-us-web-design-standards.md
 - _posts/2015-10-26-micro-purchase-criteria-announcement.md
 - _posts/2015-04-01-govtechhack-hacking-for-civic-improvement.md
+- _posts/2019-03-19-18F-5-Anniversary-achieve.md
 - _posts/2015-05-28-18F-guides.md
 - _posts/2018-08-09-etl-extract-transform-learn.md
 - _posts/2015-10-02-building-a-better-government-design-team.md
 - _posts/2015-09-04-what-is-technical-debt.md
 - _posts/2016-06-24-5-lessons-in-object-oriented-design-from-sandi-metz.md
+- _posts/2019-02-28-prerequisites-for-modular-contracting.md
 - _posts/2016-10-12-announcing-the-digital-acquisition-accelerator-playbook.md
 - _posts/2016-04-20-a-clear-audience-makes-for-a-good-blog-post.md
 - _posts/2014-05-29-announcing-the-developer-program-a-new-hub-for.md
 - _posts/2016-07-14-elaine-kamlley-a-developer-commited-diversity.md
 - _posts/2014-09-25-design-studio-onrr.md
 - _posts/2016-12-12-connecting-culture-change-at-18F-and-PBS.md
+- _posts/2019-11-19-building-product-management-capacity-in-government-part-2.md
 - _posts/2015-12-30-turning-learning-up-to-11.md
 - _posts/2015-12-22-uk-digital-service-visits-us-to-begin-series-of-exchanges.md
 - _posts/2016-07-22-building-empathy-with-stakeholder-interviews-part-2-conversation.md
@@ -212,7 +227,10 @@ exclude:
 - _posts/2016-04-18-the-teams-they-are-a-changin.md
 - _posts/2016-02-02-new-us-digital-registry-authenticates-official-public-service-accounts.md
 - _posts/2016-06-30-6-ways-a-writing-lab-will-help-your-organization.md
+- _posts/2019-04-11-hcd-for-centralization-series-2-deciding-whether-or-not-to-centralize.md
+- _posts/2019-12-10-announcing-the-18f-national-security-and-intelligence-portfolio.md
 - _posts/2016-08-25-micro-purchase-design-philosophy-do-one-thing-well.md
+- _posts/2019-07-16-on-the-road-to-innovation.md
 - _posts/2017-05-30-the-new-fec.md
 - _posts/2016-07-18-cloud-gov-full-steam-ahead-fedramp-assessment-process.md
 - _posts/2015-11-06-micro-purchase-lessons.md
@@ -225,6 +243,7 @@ exclude:
 - _posts/2015-03-30-new-rfp-ghostwriting-service-to-improve-contract-success.md
 - _posts/2014-12-10-great-community-turnout-for-open-source-hack-night.md
 - _posts/2017-09-18-a-day-in-the-life-of-an-18f-product-owner.md
+- _posts/2019-06-20-how-federalist-and-uswds-helps-agencies-become-compliant.md
 - _posts/2015-04-21-hackathons-not-just-for-folks-who-code.md
 - _posts/2016-10-25-three-small-steps-you-can-take-to-reboot-agile-in-your-organization.md
 - _posts/2017-01-17-life-changing-magic-writing-release-notes.md
@@ -242,10 +261,12 @@ exclude:
 - _posts/2015-06-15-building-a-better-welcome-wagon.md
 - _posts/2015-04-29-18f-how-we-write.md
 - _posts/2016-03-29-best-practices-for-building-an-accessible-website-using-the-draft-us-web-design-standards.md
+- _posts/2019-03-05-the-us-data-federation.md
 - _posts/2016-04-01-what-10-weeks-at-18f-taught-me.md
 - _posts/2016-03-03-how-people-learn-to-navigate-government-services.md
 - _posts/2017-05-25-from-launch-to-landing-how-nasa-took-control-of-its-https-mission.md
 - _posts/2015-06-17-what-estonia-can-teach-us-about-government-records.md
+- _posts/2018-12-20-product-management-at-18F-part-3.md
 - _posts/2015-12-09-an-open-source-government-is-a-faster-more-efficient-government.md
 - _posts/2014-03-12-coming-soon.md
 - _posts/2017-09-21-method-cards-tune-up.md
@@ -258,6 +279,8 @@ exclude:
 - _posts/2015-09-14-college-scorecard-launch.md
 - _posts/2016-05-24-the-user-centered-redesign-of-identitytheft-gov.md
 - _posts/2016-05-03-delivering-the-next-generation-of-digital-government.md
+- _posts/2019-05-21-centralization-gone-right-a-case-study-on-uswds.md
+- _posts/2019-05-28-you-might-not-be-as-agile-as-you-think-you-are.md
 - _posts/2014-07-31-working-in-public-from-day-1.md
 - _posts/2015-01-21-join-us.md
 - _posts/2016-09-27-usa-gov-updates-vote-gov-now-leaner-faster-multilingual.md
@@ -265,10 +288,13 @@ exclude:
 - _posts/2016-12-14-how-to-run-an-efficient-meeting.md
 - _posts/2017-10-23-how-reusable-is-open-source-software.md
 - _posts/2014-03-19-hello-world-we-are-18f.md
+- _posts/2019-08-22-building-product-management-capacity-in-government-part-1.md
 - _posts/2017-02-27-to-get-things-done-you-need-great-secure-tools.md
 - _posts/2016-06-07-building-better-by-building-together-with-the-federal-election-commission.md
 - _posts/2015-05-21-TockingTime.md
 - _posts/2016-03-02-strategies-people-use-when-interacting-with-the-federal-government.md
+- _posts/2019-05-09-human-centered-design-for-it-centralization-part-4-what-happens-after-you-centralize.md
+- _posts/2019-08-15-keeping-your-accounts-secure.md
 - _posts/2015-10-09-cloud-gov-launch.md
 - _posts/2016-07-29-live-streamed-demos-for-exponential-transparency-and-information-sharing.md
 - _posts/2015-06-08-data-act-data-act-explainer.md
@@ -297,6 +323,7 @@ exclude:
 - _posts/2017-11-30-improving-government-outcomes-through-an-agile-contract-format.md
 - _posts/2016-02-23-software-maintenance-is-an-anti-pattern.md
 - _posts/2016-07-19-strategies-for-starting-your-own-writing-lab.md
+- _posts/2019-11-07-barriers-to-governments-adoption-of-user-centered-design-and-how-to-address-them.md
 - _posts/2018-03-27-four-benefits-to-using-the-full-TTS-tech-stack.md
 - _posts/2017-09-05-ficam-partners-with-federalist.md
 - _posts/2014-06-25-intro-to-apis-working-with-urls-json-apis-and-open.md
@@ -304,10 +331,14 @@ exclude:
 - _posts/2014-12-18-a-complete-list-of-gov-domains.md
 - _posts/2018-07-26-what-we-learned-from-building-a-pool-of-agile-vendors.md
 - _posts/2014-08-21-creating-an-open-fec.md
+- _posts/2019-06-18-cross-functional-teams.md
 - _posts/2015-06-03-giving-back-to-open-source.md
 - _posts/2017-01-05-building-effective-agile-partnership-between-government-industry.md
+- _posts/2019-04-08-uswds2-launch-post.md
 - _posts/2016-05-10-building-a-modern-shared-authentication-platform.md
+- _posts/2019-08-20-an-agile-software-development-solicitation-guide.md
 - _posts/2016-05-19-content-debt-what-it-is-where-to-find-it-and-how-to-prevent-it-in-the-first-place.md
+- _posts/2019-04-09-why-we-love-modular-contracting.md
 - _posts/2015-03-17-for-public-comment-the-https-only-standard.md
 - _posts/2014-12-22-protosketch.md
 - _posts/2017-09-12-how-alaska-is-using-transparency.md
@@ -325,6 +356,7 @@ exclude:
 - _posts/2016-01-04-turning-learning-up-to-11-transparency.md
 - _posts/2015-04-06-day-in-the-life-of-talent-manager.md
 - _posts/2018-01-25-getting-devops-buy-in.md
+- _posts/2018-12-04-product-management-at-18f-part-1-new-engagements.md
 - _posts/2015-06-11-moveforward-map-give-video.md
 - _posts/2016-02-12-happy-valentines-day-from-18F.md
 - _posts/2016-07-07-when-a-micropurchase-doesnt-work-out-we-try-to-learn-from-it.md
@@ -373,8 +405,10 @@ exclude:
 - _posts/2016-05-11-tackling-challenges-facing-cities-in-collaboration-with-all-levels-of-government.md
 - _posts/2016-03-11-designing-services-that-are-accessible-transparent-and-easy-to-use.md
 - _posts/2016-09-19-vendors-government-strengthen-partnership-technology-industry-day.md
+- _posts/2019-12-3-long-term-teams.md
 - _posts/2015-12-07-what-exactly-do-we-even-do-all-day.md
 - _posts/2016-10-03-using-rfps-make-every-dollar-count.md
+- _posts/2019-02-14-product-manager-10x.md
 - _posts/2015-05-18-myusa.md
 - _posts/2016-08-30-sign-up-for-the-technology-industry-day.md
 - _posts/2015-06-24-thomas-vander-wal-event.md
@@ -427,6 +461,7 @@ exclude:
 - _posts/2015-12-16-useiti-whats-in-first-report.md
 - _posts/2015-03-20-one-year-in-and-looking-forward.md
 - _posts/2016-11-30-curate-best-thinking-available.md
+- _posts/2018-12-11-product-management-at-18F-part-2-acquisitions.md
 - _posts/2017-03-30-how-us-customs-border-protection-uses-us-web-design-standards.md
 - _posts/2015-01-08-an-open-source-tool-for-easier-database-testing.md
 - _posts/2015-04-23-the-dat-team-talks-data-streams.md

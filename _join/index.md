@@ -7,8 +7,6 @@ hero: false
 redirect_from:
   - /apply/
 subnav_items:
-  - text: Open positions
-    permalink: /join/#open-positions
   - text: How to apply
     permalink: /join/#how-to-apply
 ---
