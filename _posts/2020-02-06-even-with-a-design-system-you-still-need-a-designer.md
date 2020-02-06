@@ -2,8 +2,8 @@
 title: "Even with a design system you still need a designer"
 date: 2020-02-06
 authors:
-- austin-hernandez
 - christine-bath
+- austin-hernandez
 tags:
 - web design system
 - tools you can use
