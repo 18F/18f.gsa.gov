@@ -84,7 +84,7 @@ Understanding the problem allows us to narrow the scope of a project, which is n
   <a href="{{site.baseurl}}/assets/blog/uswds2-launch/sahmsa-before-after.png">
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/sahmsa-before-after.png" alt="Before and after screenshots of the SAMHSA treatment finder homepage. The first image shows the original, text-heavy site, and the second image shows the new site with a simpler navigation and clear call to action."/>
   </a>
-  <figcaption>Before and after screenshots of SAMHSA Behavioral Health Treatment Services Locator, rebranded as [Findtreatment.gov](https://findtreatment.gov/).</figcaption>
+  <figcaption>Before and after screenshots of SAMHSA Behavioral Health Treatment Services Locator, rebranded as       Findtreatment.gov.</figcaption>
 </figure>
 
 Visual design is just one part in the wide world of design—it balances form and function, establishes identity, and employs principles that allow users to get information as effortlessly as possible. Visual design also considers people with different visual impairments.
