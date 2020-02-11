@@ -160,7 +160,7 @@ In each of our projects, our teams will work to build your agency’s capacity f
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
         </div>
-        <span>Starting at $400,000</span>
+        <span>Starting at $750,000</span>
       </li>
     </ul>
   </div>
