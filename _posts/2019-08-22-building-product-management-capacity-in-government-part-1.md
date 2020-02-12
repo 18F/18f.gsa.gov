@@ -18,7 +18,7 @@ image: /assets/blog/product-guide/product-manager.jpg
 *This is the kick-off post in a in a series of posts about building
 product management capacity in government agencies. The series explores
 the process of helping agency staff transition into product management
-roles, from both an 18F and partner agency perspective.*
+roles, from both an 18F and partner [agency perspective](https://18f.gsa.gov/2019/11/19/building-product-management-capacity-in-government-part-2/).*
 
 While standard practice in the private sector, product management is
 still in its infancy in the government. We believe that [government needs product managers](https://medium.com/the-u-s-digital-service/the-importance-of-product-management-in-government-b59933d01874)

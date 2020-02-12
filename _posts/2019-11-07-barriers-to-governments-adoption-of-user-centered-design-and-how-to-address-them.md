@@ -64,7 +64,7 @@ a one time occurance. Some consider reaching out to their audience as a
 manifestation of their own incompetence: that asking users about their
 needs risks showing that agencies are unaware of those needs.
 
-Others mentioned a recent failures in public view (or those that
+Others mentioned recent failures in public view (or those that
 required Congressional intervention) as motivation to adopt a more
 user-centered approach. Some mentioned that working in a user-centered
 approach helped them understand what the users DIDN’T need and what NOT
@@ -113,21 +113,21 @@ Sometimes it’s more politically expedient to focus on output over
 end-user outcomes: it's difficult to measure the success of research and
 user experience as these are primarily qualitative. Quantifying the
 return on investment for any research or UX effort is difficult;
-satisfaction can seem extremely qualitative and vague. On interviewee
+satisfaction can seem extremely qualitative and vague. One interviewee
 mentioned that their product development is tied to external timelines
 (congressional or policy driven) needing them to turn around products
 quickly.
 
 ### How to address this:
 
-- **[Learn about your users and their needs](https://playbook.cio.gov/#play1)**: don’t expect them to solve it for you! A common mistake agencies make is - asking questions geared towards a solution they have in mind already or asking users to propose solutions, which is really bad! Users don’t always know what best serves their need until they see the product. They see solutions that fits their particular needs rather than a solution that caters to a large audience base. [Ask the right questions](https://methods.18f.gov/discover/stakeholder-and-user-interviews/) so your teams can prioritize solutions.
+- **[Learn about your users and their needs](https://playbook.cio.gov/#play1)**: don’t expect them to solve it for you! Two common mistakes agencies make are: asking questions geared towards a solution they have in mind already; or asking users to propose solutions, which is really bad! Users don’t always know what best serves their need until they see the product. They see solutions that fits their particular needs rather than a solution that caters to a large audience base. [Ask the right questions](https://methods.18f.gov/discover/stakeholder-and-user-interviews/) so your teams can prioritize solutions.
     -   *For example, DON’T ask your users if they want to see an app. DO ask questions to learn how they interact with your product, how they access it (mobile/desktop, etc) and hypothesize if the features they need are best optimized via an app*.
 -   **“Build more choosers”** - Create features that compel your users to choose your product. Products/solutions built in the government are usually the only solution for your users without competing products to choose from. In such cases, focus on delivering the best user experience to get their needs met. Making user adoption and retention a priority will mean more users choosing your product vs using your product for lack of an alternative.
 
-User research in the government comes with challenges, but isn’t impossible. Your teams should reflect on these 3 questions frequently:
+User research in the government comes with challenges, but isn’t impossible. Your teams should reflect on these three questions frequently:
 
--   Who are we building the product for,
--   Why do we feel our product will solve for their needs and
--   When do we know we have added value for users
+-   Who are we building the product for?
+-   Why do we feel our product will solve for their needs?
+-   When do we know we have added value for users?
 
 Lastly, as our project name goes - USERS always come FIRST.

@@ -21,10 +21,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ## Open positions
 
-We currently have no open positions at 18F.
-
 <!--Links below will take you to the Technology Transformation Services join page to apply.-->
-<!--**We currently have no open positions at 18F.**-->
 <!--
 TEMPLATE:
 <section class="usa-grid-full">
