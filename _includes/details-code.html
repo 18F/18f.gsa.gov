@@ -16,10 +16,10 @@
   <ul class="usa-accordion styleguide-details">
     {% if include.content %}
     <li>
-      <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}">
+      <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}-accordion">
         {{ include.text | default: 'Code' }}
       </button>
-      <div id="{{ include.title | slugify }}" class="usa-accordion-content styleguide-border">
+      <div id="{{ include.title | slugify }}-accordion" class="usa-accordion-content styleguide-border">
         {{ code | markdownify }}
       </div>
     </li>
