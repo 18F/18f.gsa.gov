@@ -10,7 +10,9 @@ content_focus: false
 <div class="hww-intro" markdown="1">
 ### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
 
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 18F also offers procurement services, including to state and local governments with access to federal funds.
+18F helps agencies define a strategy and work towards a solution through our Path Analysis and Experiment and Iterate services. We also offer procurement services, including to state and local governments with access to federal funds.
+
+18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 
 </div>
 
 ---
@@ -115,7 +117,7 @@ Your contracting officer will conduct the procurement with guidance and coaching
 - Conduct user research and discovery
 - Develop the procurement package and any necessary justification materials
 - Conduct a three-day acquisition workshop to draft a solicitation
-- Conduct market research, help identify qualified contractors, support Q&A, serve as advisors to the evaluation panel, and support the contractor kick-off meeting.
+- Assist with market research, help identify qualified contractors, support Q&A, serve as advisors to the evaluation panel, and support the contractor kick-off meeting.
 - De-risk the procurement through prototyping  
 - Support the contractor kick-off meeting
 
