@@ -35,6 +35,8 @@ broader federal community, we created this Federalist resource. The
 resource is a living document that will continually be updated by the
 Federalist team.
 
+To set up a form, users also need what's called a form service to handle form submissions and see results. From our research, we developed a list of available form services and instructions to get started using them, however we intentionally didn't publish this content in the new resource. That's to comply with federal laws which prohibit federal agencies from giving the appearance of endorsement of particular vendors on public sites. Although we were initially disappointed to have to omit this content, it gave our project team a chance to collaborate with a couple folks we'd like to briefly mention. A representative of GSA's Office of General Counsel (OGC) worked with us to clarify endorsement and identifying several alternative solutions. Even though we couldn't make those solutions work, this effort represents the collaborative spirit begind the project. We also got to work with a representative of the Office of Management and Budget (OMB) to boil down complex legal language into clear, concise, and accurate guidance.
+
 So hop on over to the new [Federalist form page](https://federalist.18f.gov/documentation/forms/) to check it out.
 Interested in adding forms to your Federalist site? Submit a support
 ticket to [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov).
