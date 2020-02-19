@@ -35,9 +35,7 @@ broader federal community, we created this Federalist resource. The
 resource is a living document that will continually be updated by the
 Federalist team.
 
-Federalist pages are static websites. This means that while you can add a form to your site, there is no mechanism to handle the form submission to store and see the results. You’ll need to use a separate form service to use a digital form on your agency’s site. Our research identified a list of service providers and setup instructions. This list is not shared on the site to comply with federal laws that prohibit federal agencies from giving the appearance of endorsement of particular vendors. 
-
-Although we were not able to share this content, it gave our project team a chance to collaborate with a couple folks we'd like to briefly mention. A representative of GSA's Office of General Counsel (OGC) worked with us to clarify endorsement and identify several alternative solutions. We also worked with a representative of the Office of Management and Budget (OMB) to simplify complex legal language and create clear, concise, and accurate guidance. Even though we couldn't make those solutions work, this effort represents the collaborative spirit behind the project.
+Federalist pages are static websites. This means that while you can add a form to your site, there is no mechanism to handle the form submission to store and see the results. You’ll need to use a separate form service to use a digital form on your agency’s site.
 
 So hop on over to the new [Federalist form page](https://federalist.18f.gov/documentation/forms/) to check it out.
 Interested in adding forms to your Federalist site? Submit a support
