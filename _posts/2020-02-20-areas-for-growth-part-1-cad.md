@@ -1,7 +1,7 @@
 ---
 title: "Areas for growth part 1: continual appreciative dialogue"
 date: 2020-02-20
-Authors:
+authors:
 - victor-udoewa
 - shawnique
 - elisa-chen
