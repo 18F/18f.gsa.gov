@@ -42,10 +42,10 @@ $u-border-radius: (
     property: "",
     values:
       map-collect(
-        get-palettes($theme-border-radius-md-palettes),
-        $theme-border-radius-md-manual-values
+        get-palettes($border-radius-palettes),
+        $border-radius-manual-values
       ),
-    settings: $theme-border-radius-md-settings,
+    settings: $border-radius-settings,
     type: "utility"
   )
 );

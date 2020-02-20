@@ -1,9 +1,9 @@
 <a class="skipnav" href="#main-content">Skip to main content</a>
 {% include banner.html %}
 <div class="overlay"></div>
-<header class="usa-header usa-header--basic ">
+<header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
-    <div class="usa-navbar">
+    <div class="usa-navbar height-auto flex-align-center">
       <div class="usa-logo">
         <a class="site-logo media_link" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
@@ -14,8 +14,8 @@
         {% else %}
         <span class="usa-sr-only">18F</span>
         {% endif %}
-        <button class="usa-menu-btn">Menu</button>
       </div>
+      <button class="usa-menu-btn menu-btn">Menu</button>
     </div>
     <nav class="usa-nav" aria-label="Primary Navigation">
       {% include navigation.html navbar=true %}

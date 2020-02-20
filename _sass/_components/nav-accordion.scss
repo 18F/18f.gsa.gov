@@ -49,8 +49,8 @@
 
     a,
     li > button {
-      @include u-padding-y(1rem);
-      @include u-padding-left(3rem);
+      @include u-padding-y(1);
+      @include u-padding-left(3);
 
       color: color('gray-cool-60');
       font-weight: $theme-font-weight-bold;
@@ -138,7 +138,7 @@
   opacity: 0;
   transition: all 0.2s ease-in-out;
   visibility: hidden;
-  z-index: 9999;
+  z-index: 499;
 
   &.is-visible {
     opacity: 0.1;

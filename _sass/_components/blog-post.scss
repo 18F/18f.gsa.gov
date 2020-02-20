@@ -30,7 +30,7 @@
   article {
     @include u-margin-bottom($section-margins);
 
-    @include at-media('tablet' + 200px) {
+    @include at-media('tablet-lg') {
       @include u-margin-y($section-margins);
       @include u-margin-x(auto);
       max-width: 61rem;

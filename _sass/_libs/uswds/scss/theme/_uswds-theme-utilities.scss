@@ -7,13 +7,13 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS 2.3.1
+USWDS 2.5.0
 ----------------------------------------
 UTILITIES SETTINGS
 ----------------------------------------
 Read more about settings and
 USWDS utilities in the documentation:
-https://v2.designsystem.digital.gov/utilities
+https://designsystem.digital.gov/utilities
 ----------------------------------------
 */
 
@@ -125,7 +125,7 @@ $border-color-settings: (
   visited: false
 );
 
-$theme-border-radius-md-settings: (
+$border-radius-settings: (
   output: true,
   responsive: true,
   active: false,
@@ -608,8 +608,8 @@ $border-color-manual-values: ();
 
 // .border-radius
 
-$theme-border-radius-md-palettes: ("palette-border-radius-default");
-$theme-border-radius-md-manual-values: ();
+$border-radius-palettes: ("palette-border-radius-default");
+$border-radius-manual-values: ();
 
 // .border-style
 

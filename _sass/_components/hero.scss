@@ -15,13 +15,13 @@
 .usa-hero--primary {
   background-image: none;
 
-  @include at-media($tablet-screen) {
+  @include at-media('tablet') {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
 
 .hero-callout {
-  @include at-media($tablet-screen) {
+  @include at-media('tablet') {
     max-width: 300px;
   }
 }

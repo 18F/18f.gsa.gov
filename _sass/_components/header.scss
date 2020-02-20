@@ -1,13 +1,5 @@
 // Header
 // ==========================
-.usa-disclaimer {
-  border-bottom: 1px solid color('white');
-  font-size: 1.1rem;
-}
-.usa-disclaimer-official {
-  display: block;
-}
-
 header[role=banner] {
   ul {
     @include unstyled-list;
@@ -19,8 +11,8 @@ header[role=banner] {
       width: auto;
 
       a {
-        @include u-padding-y(2.3rem);
-        @include u-padding-x(2rem);
+        @include u-padding-y(2.5);
+        @include u-padding-x(2);
 
         color: color('gray-cool-60');
         font-weight: $theme-font-weight-bold;
@@ -57,7 +49,7 @@ header[role=banner] {
   }
 
   nav[role=navigation] {
-    @include u-margin-y(2.15rem);
+    @include u-margin-y(2);
     display: none;
     float: right;
     font-size: $theme-small-font-size;
@@ -69,12 +61,12 @@ header[role=banner] {
 }
 
 .site-logo {
-  @include u-margin-y(1rem null);
+  @include u-margin-y(1);
   display: block;
   float: left;
 
   img {
-    width: 4.4rem;
+    width: 3rem;
   }
 }
 
@@ -82,19 +74,19 @@ header[role=banner] {
 .menu-btn {
   @include button-unstyled;
   background-color: $color-medium;
-  border-radius: $theme-border-radius-md;
+  border-radius: units($theme-border-radius-md);
   color: color('white');
   display: inline;
   float: right;
   font-size: $h6-font-size;
-  line-height: 4rem;
-  height: 4rem;
-  margin-top: 1.2rem;
+  line-height: 2rem;
+  height: 3rem;
+  margin-right: 1rem;
   width: 5.8rem;
   text-align: center;
   text-decoration: none;
 
-  @include at-media('tablet-lg') {
+  @include at-media('desktop') {
     display: none;
   }
 

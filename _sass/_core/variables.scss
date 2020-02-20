@@ -1,13 +1,13 @@
 // Typography
-$h1-font-size:       3.8rem;
-$h2-font-size:       3.4rem;
-$h3-font-size:       2.3rem;
-$h4-font-size:       2.1rem;
-$h5-font-size:       1.4rem;
-$h6-font-size:       1.2rem;
+$h1-font-size:       3rem;
+$h2-font-size:       2.5rem;
+$h3-font-size:       2rem;
+$h4-font-size:       1.8rem;
+$h5-font-size:       1.2rem;
+$h6-font-size:       1rem;
 
-$base-font-size:     1.8rem;
-$tiny-font-size:     1.2rem;
+$base-font-size:     1.5rem;
+$tiny-font-size:     1rem;
 
 $paragraph-line-height: 1.5;
 
@@ -40,11 +40,11 @@ $color-gray-divider:  #bbbbbb;
 $color-gray-border:   #5b616b;
 
 // Spacing
-$spacer-margins:     0.5rem;
+$spacer-margins:     0.5;
 $grid-margins:       100px;
-$section-margins:    5rem;
-$paragraph-margins:  1.5rem;
-$paragraph-margins-thick: 3rem;
+$section-margins:    5;
+$paragraph-margins:  1.5;
+$paragraph-margins-thick: 3;
 $nav-width-extra:    88px; // width needed to add so nav doesn't break on medium-screen size
 $text-max-width:     60.6rem;
 

@@ -30,7 +30,7 @@
       margin-bottom: 0;
     }
 
-    @include at-media($tablet-screen) {
+    @include at-media('tablet') {
       margin-bottom: 0;
     }
   }

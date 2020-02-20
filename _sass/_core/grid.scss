@@ -21,7 +21,7 @@
 
     @include grid-col(12);
 
-    @include at-media($tablet-screen) {
+    @include at-media('tablet') {
       @include grid-col(4);
 
       &:nth-of-type(3n) {
@@ -54,7 +54,7 @@
 
     @include grid-col(12);
 
-    @include at-media($tablet-screen) {
+    @include at-media('tablet') {
       @include grid-col(8);
 
       &:nth-of-type(3n) {

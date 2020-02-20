@@ -1,1 +1,37 @@
-@import "_libs/uswds/scss/_all.scss";
+// Import theme
+@import '_libs/uswds/scss/theme/uswds-theme-general';
+@import '_libs/uswds/scss/theme/uswds-theme-typography';
+@import '_libs/uswds/scss/theme/uswds-theme-spacing';
+@import '_libs/uswds/scss/theme/uswds-theme-color';
+@import '_libs/uswds/scss/theme/uswds-theme-utilities';
+@import '_libs/uswds/scss/theme/uswds-theme-custom-styles';
+
+// Import required and global packages...
+// -------------------------------------
+@import '_libs/uswds/scss/packages/required';
+@import '_libs/uswds/scss/packages/global';
+
+// Then import individual component packages...
+@import '_libs/uswds/scss/packages/form-controls';
+@import '_libs/uswds/scss/packages/form-templates';
+@import '_libs/uswds/scss/packages/layout-grid';
+@import '_libs/uswds/scss/packages/typography';
+@import '_libs/uswds/scss/packages/validation';
+@import '_libs/uswds/scss/packages/usa-accordion';
+@import '_libs/uswds/scss/packages/usa-alert';
+@import '_libs/uswds/scss/packages/usa-banner';
+@import '_libs/uswds/scss/packages/usa-button';
+@import '_libs/uswds/scss/packages/usa-footer';
+@import '_libs/uswds/scss/packages/usa-header';
+@import '_libs/uswds/scss/packages/usa-hero';
+@import '_libs/uswds/scss/packages/usa-media-block';
+// @import "packages/usa-megamenu";
+@import '_libs/uswds/scss/packages/usa-nav-container';
+@import '_libs/uswds/scss/packages/usa-nav';
+@import '_libs/uswds/scss/packages/usa-navbar';
+@import '_libs/uswds/scss/packages/usa-search';
+@import '_libs/uswds/scss/packages/usa-sidenav';
+@import '_libs/uswds/scss/packages/usa-skipnav';
+@import '_libs/uswds/scss/packages/usa-table';
+@import '_libs/uswds/scss/packages/usa-tag';
+@import '_libs/uswds/scss/packages/uswds-utilities';

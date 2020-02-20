@@ -1,5 +1,8 @@
 <!-- prettier-ignore -->
-<div class="usa-nav__inner">
+<nav aria-label="Primary navigation" class="usa-nav">
+  <button class="usa-nav__close">
+    <img src="{{ '/assets/img/close.svg' | prepend: site.baseurl }}" alt="close">
+  </button>
   <ul class="usa-nav__primary usa-accordion">
     {% for item in include.nav_items %}
     <li class="usa-nav__primary-item">
@@ -19,4 +22,4 @@
       </li>
     {% endfor %}
   </ul>
-</div>
+</nav>

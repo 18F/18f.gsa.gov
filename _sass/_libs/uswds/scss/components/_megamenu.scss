@@ -1,20 +1,21 @@
 @mixin outer-megamenu {
-  @include u-pin('y');
-  background-color: color('primary-darker');
-  content: '';
+  @include u-pin("y");
+  background-color: color("primary-darker");
+  content: "";
   display: block;
   position: absolute;
   width: 100%;
 }
 
-// .usa-megamenu {
-//   .usa-col {
-//     @include u-flex(1);
-//     @include at-media($theme-header-min-width) {
-//       @include u-flex(12 / $theme-megamenu-columns);
-//     }
-//   }
-// }
+.usa-megamenu {
+  .usa-col {
+    @include u-flex(1);
+    @include at-media($theme-header-min-width) {
+      // needs this round() to avoid a compile bug
+      @include u-flex(round(12 / $theme-megamenu-columns));
+    }
+  }
+}
 
 .usa-megamenu.usa-nav__submenu {
   @include at-media($theme-header-min-width) {

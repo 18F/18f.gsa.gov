@@ -1,54 +1,21 @@
-// /*
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
 
-// Mapping old variables to tokens
-
-// */
-
-// // Screen Sizes
-// 'mobile-lg': "modile-lg";
-// 'tablet': "tablet";
-// 'desktop-lg': "desktop-lg";
-
-// // Base colors
-// $color-blue: "blue-60v";
-// $color-blue-darker: "blue-warm-70v";
-// $color-blue-darkest: "blue-warm-80v";
-// $color-aqua: "cyan-30v";
-// $color-aqua-dark: "cyan-40v";
-// $color-aqua-darkest: "blue-cool-60v";
-// $color-aqua-light: "blue-cool-20v";
-// $color-aqua-lightest: "blue-cool-5v";
-// $color-red:	"red-cool-50v";
-// $color-red-dark: "red-60v";
-// $color-red-darkest: "red-70v";
-// $color-red-light: "red-30";
-// $color-red-lightest: "red-cool-10v";
-// $color-white: "white";
-// $color-black: "black";
-// $color-black-light: "gray-90";
-// color('gray-cool-70'): "gray-cool-70";
-// $color-gray: "gray-cool-60";
-// color('gray-50'): "gray-50";
-// color('gray-cool-30'): "gray-cool-30";
-// color('gray-cool-10'): "gray-cool-10";
-// color('gray-cool-5'): $color-gray-cool-5;
-// $color-gray-warm-dark: "gray-warm-70";
-// $color-gray-warm-light: "gray-warm-10";
-// $color-gray-cool-light: "blue-warm-10";
-// $color-gold: "gold-20v";
-// $color-gold-light: "yellow-20v";
-// $color-gold-lighter: "gold-10v";
-// $color-gold-lightest: "gold-5v";
-// $color-green: "green-cool-50v";
-// $color-green-light: "green-cool-40";
-// $color-green-lighter: "green-cool-20";
-// $color-green-lightest: "green-cool-5";
-// $color-cool-blue: "blue-warm-60";
-// $color-cool-blue-light: "blue-warm-50";
-// $color-cool-blue-lighter: "blue-warm-30";
-// $color-cool-blue-lightest: "blue-warm-10";
-// $color-purple: "violet-70v";
-
-// // Shadow
-// $site-box-shadow: 2;
-// $site-box-shadow-hover: 3;
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/

@@ -12,7 +12,7 @@
 // USWDS
 // ==========================
 
-@import "_libs/uswds/scss/all";
+@import "main";
 @import "_core/mixins";
 
 // Core
@@ -29,7 +29,6 @@
 @import "_components/details";
 @import "_components/buttons";
 @import "_components/blockquotes";
-@import "_components/disclaimer";
 @import "_components/header";
 @import "_components/hero";
 @import "_components/figure";

@@ -18,7 +18,7 @@ $card-image-height: 200px;
     }
   }
 
-  @include at-media($tablet-screen) {
+  @include at-media('tablet') {
     &:nth-last-of-type(1),
     &:nth-last-of-type(2),
     &:nth-last-of-type(3) {
