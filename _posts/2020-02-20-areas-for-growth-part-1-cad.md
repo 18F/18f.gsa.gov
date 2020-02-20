@@ -1,5 +1,5 @@
 ---
-title: "Areas for growth part 1: continual appreciative dialogue"
+title: "Areas for growth part 1: Continual appreciative dialogue"
 date: 2020-02-20
 authors:
 - victor-udoewa
@@ -10,15 +10,15 @@ tags:
 - culture
 - how we work
 - lessons learned
-excerpt: "At 18F, we practice Continual Appreciative Dialogue with each other. Even though some of our term-limited employees will be leaving this year, when we offer farewell appreciation, it will not be cumulative or a surprise. It will be another expression of how we already regularly appreciate them"
+excerpt: "At 18F, we practice continual appreciative dialogue with each other. Even though some of our term-limited employees will be leaving this year, when we offer farewell appreciation, it will not be cumulative or a surprise. It will be another expression of how we already regularly appreciate them"
 ---
 
 *Usually organizational blogs, especially blogs by civic tech
 organizations, focus primarily on sharing successes. However, we have
 found that we actually learn far more from the failures of others than
-from their successes.
+from their successes.*
 
-So, we created this series to share our areas for growth, in hopes that
+*So, we created this series to share our areas for growth, in hopes that
 you can learn just as much from our process as from our successes. This
 series was developed from ongoing conversations by a diverse group of
 18F members, including both term-limited and career employees who have
