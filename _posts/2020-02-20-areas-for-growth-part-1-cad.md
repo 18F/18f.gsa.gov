@@ -15,8 +15,8 @@ excerpt: "At 18F, we practice continual appreciative dialogue with each other. E
 
 *Usually organizational blogs, especially blogs by civic tech
 organizations, focus primarily on sharing successes. However, we have
-found that we actually learn far more from the failures of others than
-from their successes.*
+found that we actually learn far more from our failures than
+from our successes.*
 
 *So, we created this series to share our areas for growth, in hopes that
 you can learn just as much from our process as from our successes. This
