@@ -11,16 +11,18 @@ $(function (){
   });
 
   // Drawer
-  $('.menu-btn, .overlay, .sliding-panel-close, .usa-nav__close').on('click touchstart', function (e) {
-    $('.nav-mobile, .overlay').toggleClass('is-visible');
-    e.preventDefault();
-  });
+  $('.menu-btn, .overlay, .sliding-panel-close, .usa-nav__close')
+    .on('click touchstart', function (e) {
+      $('.nav-mobile, .overlay').toggleClass('is-visible');
+      e.preventDefault();
+    });
 
   // Styleguide drawer
-  $('.menu-btn-styleguide, .sliding-panel-close-styleguide, .usa-nav__close').on('click touchstart', function (e) {
-    $('.nav-mobile-styleguide').toggleClass('is-visible');
-    e.preventDefault();
-  });
+  $('.menu-btn-styleguide, .sliding-panel-close-styleguide, .usa-nav__close')
+    .on('click touchstart', function (e) {
+      $('.nav-mobile-styleguide').toggleClass('is-visible');
+      e.preventDefault();
+    });
 
   // Mailchimp
   var $form = $('#contact-form'),
