@@ -10,11 +10,11 @@ excerpt: "In software, a README is the documentation that tells you how to start
 image: /assets/blog/readmes-for-you-and-me/icebergs-with-moon.jpg
 ---
 
-18F is proud to be a remote-first organization. Not only do we put in conscious work to build a strong distributed 18F team overall, many of us work on multiple projects in a given year, so we form and join new project teams regularly. The ability to quickly form strong distributed teams is important for us.
+18F is proud to be a remote-first organization. Many of us work on multiple projects in a given year, so we form and join new project teams regularly. The ability to quickly form strong distributed teams is important to our success.
 
-We have lots of great tools in our toolbox for making remote teams work — take a look at “18F's best practices for making distributed teams work,” if you haven’t already read it. Recently, we’ve been experimenting with a new practice: writing and sharing personal READMEs.
+We have lots of great tools in our toolbox for making remote teams work — take a look at [“18F's best practices for making distributed teams work”](/2015/10/15/best-practices-for-distributed-teams/) if you haven’t already read it.
 
-In software, a README is the documentation that tells you how to start using and understanding a new piece of software. In an organization, a personal README is a way to tell your coworkers how they can best communicate with you, work with you, give you feedback, and support you.
+Recently, we’ve been experimenting with a new practice: writing and sharing personal READMEs. In software, a README is the documentation that tells you how to start using and understanding a new piece of software. In an organization, a personal README is a way to tell your coworkers how they can best communicate with you, work with you, give you feedback, and support you.
 
 Your README can start small and grow over time. It doesn’t have to be complete or perfect from the very beginning. Since we are always learning about ourselves and growing, your README will always be a work-in-progress document — and that’s OK!
 
@@ -72,7 +72,7 @@ _How do you tend to work on teams? Do you need a push to speak up in group setti
 
 ## Technical preferences
 
-_Share your favorite technical tools, frameworks, choices and approaches in this section._
+_Share your favorite technical tools, frameworks, choices and approaches in this section, if applicable._
 
 ## Feedback preferences
 
