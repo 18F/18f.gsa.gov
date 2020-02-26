@@ -12,7 +12,7 @@ image: /assets/blog/readmes-for-you-and-me/icebergs-with-moon.jpg
 
 18F is proud to be a remote-first organization. Many of us work on multiple projects in a given year, so we form and join new project teams regularly. The ability to quickly form strong distributed teams is important to our success.
 
-We have lots of great tools in our toolbox for making remote teams work — take a look at [“18F's best practices for making distributed teams work”](/2015/10/15/best-practices-for-distributed-teams/) if you haven’t already read it.
+We have lots of great tools in our toolbox for making remote teams work — take a look at [“18F's best practices for making distributed teams work”](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) if you haven’t already.
 
 Recently, we’ve been experimenting with a new practice: writing and sharing personal READMEs. In software, a README is the documentation that tells you how to start using and understanding a new piece of software. In an organization, a personal README is a way to tell your coworkers how they can best communicate with you, work with you, give you feedback, and support you.
 
