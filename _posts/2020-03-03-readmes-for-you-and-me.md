@@ -90,5 +90,7 @@ _And thank your reader for making it all the way to the end!_
 
 Thank you to Princess Ojiaku, Julia Lindpaintner, and Qituwra Anderson for suggestions and ideas that made this README template much better!
 
+Thank you to Christine Bath for creating the beautiful illustration that accompanies this post!
+
 <br/>
 <br/>
