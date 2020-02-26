@@ -1,12 +1,13 @@
 ---
 title: "READMEs for you and me"
-date: 2020-03-03
+date: 2020-02-24
 authors:
 - alex-soble
 tags:
 - culture
 - tools you can use
 excerpt: "In software, a README is the documentation that tells you how to start using and understanding a new piece of software. In an organization, a personal README is a way to tell your coworkers how they can best communicate with you, work with you, give you feedback, and support you."
+image: /assets/blog/readmes-for-you-and-me/icebergs-with-moon.jpg
 ---
 
 18F is proud to be a remote-first organization. Not only do we put in conscious work to build a strong distributed 18F team overall, many of us work on multiple projects in a given year, so we form and join new project teams regularly. The ability to quickly form strong distributed teams is important for us.
