@@ -3,9 +3,6 @@ title: "Areas for growth part 2: mixed methods"
 date: 2020-02-27
 authors:
 - victor-udoewa
-- elisa-chen
-- qituwra-anderson
-- shawnique
 tags:
 - user research
 - how we work
