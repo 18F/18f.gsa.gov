@@ -3,14 +3,11 @@ title: "Areas for growth part 1: Continual appreciative dialogue"
 date: 2020-02-20
 authors:
 - victor-udoewa
-- shawnique
-- elisa-chen
-- qituwra-anderson
 tags:
 - culture
 - how we work
 - lessons learned
-excerpt: "At 18F, we practice continual appreciative dialogue with each other. Even though some of our term-limited employees will be leaving this year, when we offer farewell appreciation, it will not be cumulative or a surprise. It will be another expression of how we already regularly appreciate them"
+excerpt: "Continual Appreciative Dialogue (CAD) is the practice of expressing recurring praise or gratitude to a teammate or collaborator in conversation and throughout a working relationship. The practice of CAD is special because it is uncommon."
 ---
 
 *Usually organizational blogs, especially blogs by civic tech
@@ -39,8 +36,7 @@ praise or thanks can often be surprised since this person may be hearing
 the appreciation for the first time. In contrast to CAF, CAD is not
 triggered by a farewell but offers appreciation in the moment.
 
-At 18F, we practice CAD with each other. Even though some of our
-term-limited employees will be leaving this year, when we offer farewell
+Even though some of our term-limited employees will be leaving this year, when we offer farewell
 appreciation, it will not be cumulative or a surprise. It will be
 another expression of how we already regularly appreciate them.
 
