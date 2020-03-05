@@ -40,13 +40,13 @@ redirect_from: /developer/
 <section class="usa-section grid-container">
   <section class="grid-row grid-gap">
     <h2>We support your mission</h2>
-    <section class="tablet:grid-col-8 usa-prose">
-      <p class="p-line-height p-normal pad-bottom-mobile">
+    <section class="tablet:grid-col-8">
+      <h3 class="p-line-height p-normal pad-bottom-mobile">
         As an office within the General Services Administration, we know how to
         work with government. Federal, state, and local governments can partner
         with 18F to deliver projects that fulfill their mission, stay within
         budget, and use leading technology practices.
-      </p>
+      </h3>
     </section>
   </section>
 </section>
@@ -56,7 +56,7 @@ redirect_from: /developer/
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
-    <ul class="grid-row list-columns">
+    <ul class="grid-row list-columns grid-gap">
       {% for group in partner_groups %}
       <li class="tablet:grid-col-4">
         <ul class="list-columns list-images">
@@ -97,7 +97,7 @@ redirect_from: /developer/
   <section class="grid-container">
     <h2>What 18F can do</h2>
     <div class="grid-col-12">
-      <ul class="grid-row list-columns">
+      <ul class="grid-row list-columns grid-gap">
         <li class="tablet:grid-col-4">
           <div class="icon-list">
             <figure class="icon-list-image">
@@ -154,7 +154,7 @@ redirect_from: /developer/
 
 <section class="grid-container usa-section posts_feature">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
-  <ul class="grid-row">
+  <ul class="grid-row grid-gap">
     {% for post in site.posts limit:3 %} {% include post.html
     post_date=post.date post_title=post.title post_excerpt=post.excerpt
     post_url=post.url %} {% endfor %}

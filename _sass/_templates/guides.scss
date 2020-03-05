@@ -30,7 +30,7 @@
   }
 
   .graphic-list-link {
-    @include u-margin-y(2rem);
+    @include u-margin-y(2);
     @include media-link;
     text-decoration: none;
     width: 100%;

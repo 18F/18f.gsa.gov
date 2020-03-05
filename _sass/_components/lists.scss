@@ -2,7 +2,7 @@
   @include unstyled-list();
 
   li {
-    margin-bottom: $paragraph-margins;
+    @include u-margin-bottom($paragraph-margins);
   }
 }
 
@@ -14,9 +14,9 @@
   .list-images-item .list-images-image {
     height: auto;
     margin: 0;
-    margin-right: $paragraph-margins;
     min-width: 1.5 * $icon-diameter;
     width: 1.5 * $icon-diameter;
+    @include u-margin-right($paragraph-margins);
   }
 }
 
@@ -26,4 +26,3 @@
   min-height: 54px;
   width: 100%;
 }
-

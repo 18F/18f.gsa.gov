@@ -2,7 +2,7 @@
 // ==========================
 
 @mixin widget-small() {
-  @include u-padding-y(2rem);
+  @include u-padding-y(2);
   border-bottom: $border-light;
   border-top: $border-light;
   font-size: $h5-font-size;

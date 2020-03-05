@@ -36,7 +36,7 @@ footer[role=contentinfo] {
     }
 
     a {
-      @include u-padding-y(1.25rem);
+      @include u-padding-y(1);
       color: $color-medium;
       font-size: $h6-font-size;
 
@@ -48,7 +48,7 @@ footer[role=contentinfo] {
 
   .usa-accordion {
     button {
-      @include u-padding-y(1.4rem);
+      @include u-padding-y(1.5);
       @include u-padding-left(0);
       background-position: right 0 center;
     }

@@ -7,6 +7,7 @@
 
   .post-excerpt {
     font-size: 1.7rem;
+    @include u-line-height('body', 3);
   }
 
   article {
@@ -41,6 +42,7 @@
 
   a {
     color: $color-base;
+    @include u-line-height('body', 3);
   }
 }
 

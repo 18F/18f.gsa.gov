@@ -1,10 +1,9 @@
 // Import theme
-@import '_libs/uswds/scss/theme/uswds-theme-general';
-@import '_libs/uswds/scss/theme/uswds-theme-typography';
-@import '_libs/uswds/scss/theme/uswds-theme-spacing';
-@import '_libs/uswds/scss/theme/uswds-theme-color';
-@import '_libs/uswds/scss/theme/uswds-theme-utilities';
-@import '_libs/uswds/scss/theme/uswds-theme-custom-styles';
+@import '_theme/uswds-theme-color';
+@import '_theme/uswds-theme-general';
+@import '_theme/uswds-theme-spacing';
+@import '_theme/uswds-theme-typography';
+@import '_theme/uswds-theme-utilities';
 
 // Import required and global packages...
 // -------------------------------------

@@ -53,10 +53,10 @@ $card-image-height: 200px;
 }
 
 .card-banner {
+  @include u-padding($paragraph-margins * 2);
   background-color: color('white');
   flex: 1 0 auto;
   float: left;
-  padding: $paragraph-margins * 2;
   width: 100%;
 
   h4 {
@@ -65,7 +65,7 @@ $card-image-height: 200px;
 }
 
 .card-cta {
-  margin: $paragraph-margins * 2;
+  @include u-margin($paragraph-margins * 2);
   margin-top: 0;
 }
 

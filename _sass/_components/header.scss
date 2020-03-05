@@ -61,12 +61,12 @@ header[role=banner] {
 }
 
 .site-logo {
-  @include u-margin-y(1);
+  @include u-margin-y(0);
   display: block;
   float: left;
 
   img {
-    width: 3rem;
+    width: 4.4rem;
   }
 }
 

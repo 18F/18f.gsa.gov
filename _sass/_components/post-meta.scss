@@ -30,7 +30,7 @@
   display: block;
   margin-bottom: $paragraph-margins-thick !important;
   a {
-    @include u-padding-y(0.6rem);
+    @include u-padding-y(0.5);
 
     background-color: color('gray-cool-5');
     color: $color-medium;
