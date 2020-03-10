@@ -7,7 +7,7 @@ authors:
 - miatta-myers
 - rebecca-refoy-sidibe
 - uchenna-moka-solana
-Tags:
+tags:
 - Acquisition Services
 - Best Practices
 excerpt: "Ask 18F is an advice column that answers questions sent in by
