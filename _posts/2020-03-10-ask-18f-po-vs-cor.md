@@ -8,8 +8,8 @@ authors:
 - rebecca-refoy-sidibe
 - uchenna-moka-solana
 tags:
-- Acquisition Services
-- Best Practices
+- acquisition services
+- best practices
 excerpt: "Ask 18F is an advice column that answers questions sent in by
 federal employees. In this edition, we’ll talk about the difference
 between a Contracting Officer’s Representative and a Product Owner on
