@@ -1,0 +1,189 @@
+backend:
+  name: github
+  repo: 18f/18f.gsa.gov
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  branch: master
+  use_graphql: true
+
+media_folder: assets/blog
+public_folder: /assets/blog
+publish_mode: editorial_workflow
+logo_url: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+
+collections:
+  - label: Posts
+    name: posts
+    folder: _posts/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {
+          label: "Authors",
+          name: "authors",
+          widget: "list",
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "select",
+          options: [
+            "10x",
+            "18f",
+            "18f.gsa.gov",
+            "accessibility",
+            "acquisition services",
+            "agency work",
+            "agile",
+            "agile bpa",
+            "alaska",
+            "analytics.usa.gov",
+            "anniversary",
+            "api",
+            "ask 18f",
+            "best practices",
+            "c2",
+            "calc",
+            "cloud.gov",
+            "code.gov",
+            "collaboration tools",
+            "college scorecard",
+            "communicart",
+            "communication tools and practices",
+            "content design",
+            "convincing stakeholders",
+            "culture",
+            "culture change",
+            "data access",
+            "data act",
+            "day in the life",
+            "demo day",
+            "department of commerce",
+            "department of defense",
+            "department of justice",
+            "department of labor",
+            "design",
+            "devops",
+            "digital acquisition accelerator",
+            "digital services movement",
+            "digitalgov community",
+            "discovery.gsa.gov",
+            "distributed",
+            "education",
+            "encasement",
+            "environmental protection agency",
+            "eregulations",
+            "evangelism",
+            "events",
+            "every kid in a park",
+            "fbi",
+            "fbopen",
+            "fec.gov",
+            "federal front door",
+            "federalist",
+            "foia",
+            "forest service",
+            "general services administration",
+            "gov.uk",
+            "guides",
+            "gsa",
+            "hackathons",
+            "health and human services",
+            "hiring",
+            "how we work",
+            "https",
+            "hub",
+            "identity",
+            "interview",
+            "it centralization",
+            "jekyll",
+            "join us",
+            "legacy",
+            "lessons learned",
+            "login.gov",
+            "machine learning",
+            "micro-purchase platforms",
+            "midas",
+            "military",
+            "modern practices",
+            "modular contracting",
+            "myusa",
+            "nasa",
+            "navy reserve",
+            "national science foundation",
+            "national security",
+            "national technical information service",
+            "navy reserve",
+            "new ten",
+            "onboarding",
+            "open data",
+            "open government",
+            "open opportunities",
+            "open source",
+            "peace corps",
+            "platforms",
+            "portfolios",
+            "presidential innovation fellows",
+            "product",
+            "product launch",
+            "procurement",
+            "public buildings service",
+            "pulse.cio.gov",
+            "rfp ghostwriting",
+            "second anniversary",
+            "security",
+            "speaker series",
+            "staff profiles",
+            "state and local practice",
+            "talent",
+            "technical debt",
+            "technical guides",
+            "technology transformation services",
+            "testing",
+            "tools you can use",
+            "training",
+            "transformation services",
+            "transparency",
+            "treasury",
+            "u.s. digital service",
+            "u.s. geological survey",
+            "usability",
+            "uscis",
+            "useiti",
+            "user research",
+            "user-centered design",
+            "video",
+            "vote.usa.gov",
+            "web design system",
+            "workshop"
+          ]
+        }
+      - {
+          label: "Excerpt",
+          name: "excerpt",
+          widget: "string"
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          default: "/assets/blog",
+          allow_multiple: false
+        }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown"
+        }
