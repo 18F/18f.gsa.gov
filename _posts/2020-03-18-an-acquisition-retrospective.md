@@ -10,10 +10,8 @@ tags:
 - acquisition services
 - modern practices
 - how we work
-excerpt: "CoE and 18F worked together with GSA’s Region 1 Assisted
-Acquisition Services to create the Discovery BPA, which will allow CoE
-to quickly staff the industry side of the CoE teams embedded at agency
-partners."
+excerpt: "The Centers of Excellence and 18F worked together with the General Services Administration’s Region 1 Assisted
+Acquisition Services to create the Discovery BPA, which allows the Centers of Excellence to quickly staff the industry side of the their teams embedded at agency partners."
 ---
 
 TTS continuously iterates on our acquisition practices to incorporate
@@ -25,6 +23,7 @@ two agency partners. The industry partners who helped with our initial
 Discovery work at those two agencies helped provide examples and “tests”
 based on industry best practices that the government as a whole (not
 just CoE) could use to identify quality contractors to work with.
+
 [18F](https://18f.gsa.gov/) and CoE wanted to build a vehicle that
 provided CoE the ability to staff new agency discovery teams, with
 industry partners who specialized in key functional areas. Additionally,
