@@ -1,7 +1,7 @@
 ---
 title: "Six years improving the experience of government"
 date: 2020-03-19
-Authors:
+authors:
 - brian-whittaker
 tags:
 - anniversary
@@ -10,7 +10,7 @@ tags:
 excerpt: "We’re celebrating another birthday at 18F, and
 we thought we’d take the opportunity to reflect on how our organization
 has grown and progressed in the last year"
-Image: /assets/blog/6-anniversary/image-blog-dark.jpg
+image: /assets/blog/6-anniversary/image-blog-dark.jpg
 ---
 
 We’re excited to celebrate another birthday here at 18F, and we thought
