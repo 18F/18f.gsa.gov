@@ -55,7 +55,7 @@ work in their [Github Repo](https://github.com/18F/national-security-portfolio)
 Medicaid information systems have had difficulties delivering value for
 money in states’ projects, with many instances of large contracts not
 delivering good outcomes or failing entirely. The Center for Medicaid
-and Chip Services (CMCS), the main investor in these projects,
+and CHIP Services (CMCS), the main investor in these projects,
 recognized that states spent excessive time and resources on the
 paperwork of an Advanced Planning Document (APD), which not only took
 attention off of the real outcomes, but also did a poor job conveying
