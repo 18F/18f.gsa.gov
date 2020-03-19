@@ -144,7 +144,7 @@ because of its people. The folks that work at 18F come to this
 organization because of how we work, the problems we solve, and the
 investment we make into our culture. We plan on doubling down on culture
 this year by increasing employee engagement with a focus on prioritizing
-inclusion, growing our skills and expertise, identifying mentors,
+diversity and inclusion, growing our skills and expertise, identifying mentors,
 building our peer networks, and pursuing projects that stretch our
 capabilities.
 
