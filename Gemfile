@@ -33,6 +33,6 @@ group :development do
 end
 
 group :test do
-  gem 'codeclimate-test-reporter', '~> 1.0.0'
-  gem 'simplecov'
+  gem 'codeclimate-test-reporter', '~> 1.0.6'
+  gem 'simplecov', '>= 0.13.0'
 end
