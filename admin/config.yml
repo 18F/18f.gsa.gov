@@ -13,6 +13,19 @@ publish_mode: editorial_workflow
 logo_url: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
 
 collections:
+  - label: Authors
+    name: authors
+    folder: _authors/
+    create: true
+    slug: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "First Name", name: "first_name", widget: "string"}
+      - {label: "Last Name", name: "last_name", widget: "string"}
+      - {label: "Full Name", name: "full_name", widget: "string"}
+      - {label: "Published", name: "published", widget: "boolean"}
   - label: Posts
     name: posts
     folder: _posts/
@@ -33,7 +46,12 @@ collections:
       - {
           label: "Authors",
           name: "authors",
-          widget: "list",
+          widget: "relation",
+          collection: "authors",
+          searchFields: ["first_name", "last_name", "full_name"],
+          valueField: "name",
+          displayFields: ["name"],
+          multiple: true
         }
       - {
           label: "Tags",
@@ -168,7 +186,8 @@ collections:
             "vote.usa.gov",
             "web design system",
             "workshop"
-          ]
+          ],
+          multiple: true
         }
       - {
           label: "Excerpt",
@@ -179,7 +198,6 @@ collections:
           label: "Image",
           name: "image",
           widget: "image",
-          default: "/assets/blog",
           allow_multiple: false
         }
       - {
