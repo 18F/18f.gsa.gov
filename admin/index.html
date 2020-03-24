@@ -1,4 +1,6 @@
 ---
+{% assign site_baseurl = '{{ site.baseurl }}' %}
+
 <!doctype html>
 <html>
 <head>
@@ -11,6 +13,61 @@
   <script src="{{ '/assets/js/lib/netlify-cms.js' | prepend: site.baseurl  }}"></script>
   <script>
     CMS.registerPreviewStyle("{{ '/assets/css/main.css' | prepend: site.baseurl }}");
+    CMS.registerEditorComponent({
+      label: 'Image',
+      id: 'image',
+      fromBlock: function (match) {
+        return match && {
+          image: match[2],
+          alt: match[1],
+          title: match[4],
+        };
+      },
+      toBlock: function (opts) {
+        var alt = opts.alt;
+        var image = opts.image;
+        var title = opts.title;
+
+        return "![".concat(alt || '', "](")
+          .concat("{{ site_baseurl }}")
+          .concat(image || '')
+          .concat(title ? " \""
+          .concat(title.replace(/"/g, '\\"'), "\"") : '', ")");
+      },
+      toPreview: function (opts, getAsset, fields) {
+        var alt = opts.alt;
+        var image = opts.image;
+        var title = opts.title;
+        var _fields;
+
+        var imageField = (_fields = fields) === null || _fields === void 0 ?
+          void 0 :
+          _fields.find(function (f) {
+            return f.get('widget') === 'image';
+          });
+        var src = getAsset(image, imageField);
+        return "<img src={src || ''} alt={alt || ''} title={title || ''} />;";
+      },
+      pattern: /^!\[(.*)\]\((.*?)(\s"(.*)")?\)$/,
+      fields: [
+        {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          media_library: {
+            allow_multiple: false,
+          },
+        },
+        {
+          label: 'Alt Text',
+          name: 'alt',
+        },
+        {
+          label: 'Title',
+          name: 'title',
+        },
+      ],
+    });
   </script>
   <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
   <style>
