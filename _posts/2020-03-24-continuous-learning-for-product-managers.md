@@ -1,12 +1,11 @@
 ---
 title: "Continuous learning for product managers"
-date: YYYY-MM-DD (optional)
+date: 2020-03-24
 authors:
 - kara-reinsel
 tags:
 - product
 - lessons learned
--
 excerpt: "As product managers, we never stop learning because products never stop evolving and changing. You need to quickly get up to speed on a product’s technical implementation, design, user research, and business needs."
 ---
 
