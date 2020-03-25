@@ -26,38 +26,39 @@ collections:
       - {label: "Last Name", name: "last_name", widget: "string"}
       - {label: "Full Name", name: "full_name", widget: "string"}
       - {label: "Published", name: "published", widget: "boolean"}
-  - label: Posts
-    name: posts
-    folder: _posts/
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  - label: Services Projects
+    name: services-projects
+    folder: _services_projects/
+    slug: "{{permalink}}"
     editor:
       preview: false
     fields:
+      - {label: "Agency", name: "agency", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          format: 'MMMM D, YYYY',
-          dateFormat: 'MMMM D, YYYY',
-          timeFormat: false
+          label: "Permalink",
+          name: "permalink",
+          widget: "string",
+          hint: "/what-we-deliver/<agency-name>/",
+          pattern: ['\/what-we-deliver\/([0-9a-zA-Z-]+)\w+\/', 'Must follow hint structure']
+        }
+      - {label: "Redirect From", name: "redirect_from", widget: "string", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", default: ""}
+      - {label: "Image", name: "image", widget: "string", default: ""}
+      - {label: "Image Accessibility", name: "image_accessibility", widget: "string", default: ""}
+      - {
+          label: "Project Weight",
+          name: "project_weight",
+          widget: "number",
+          valueType: "int",
+          required: false
         }
       - {
-          label: "Authors",
-          name: "authors",
-          widget: "relation",
-          collection: "authors",
-          searchFields: ["first_name", "last_name", "full_name"],
-          valueField: "name",
-          displayFields: ["name"],
-          multiple: true
-        }
-      - {
-          label: "Tags",
-          name: "tags",
+          label: "Tag",
+          name: "tag",
           widget: "select",
-          options: [
+          options: &tagsanchor [
             "10x",
             "18f",
             "18f.gsa.gov",
@@ -186,7 +187,51 @@ collections:
             "vote.usa.gov",
             "web design system",
             "workshop"
-          ],
+          ]
+        }
+      - {label: "Expiration Date", name: "expiration_date", widget: "date", required: false}
+      - {label: "Github Repo", name: "github_repo", widget: "string", required: false}
+      - {label: "Project URL", name: "project_url", widget: "string", required: false}
+      - {label: "Quote", name: "quote", widget: "string", required: false}
+      - {label: "Resources", name: "resources", widget: "string", required: false}
+      - {label: "Image Icon", name: "image_icon", widget: "string", required: false}
+      - {label: "Quote Source", name: "quote_source", widget: "string", required: false}
+      - {label: "Learn More", name: "learn_more", widget: "string", required: false}
+      - {label: "Product Clients", name: "product_clients", widget: "list", required: false}
+      - {label: "Published", name: "published", widget: "boolean", required: false}
+      - {label: "Listed", name: "listed", widget: "boolean", required: false}
+  - label: Posts
+    name: posts
+    folder: _posts/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {
+          label: "Authors",
+          name: "authors",
+          widget: "relation",
+          collection: "authors",
+          searchFields: ["first_name", "last_name", "full_name"],
+          valueField: "name",
+          displayFields: ["name"],
+          multiple: true
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "select",
+          options: *tagsanchor,
           multiple: true
         }
       - {
