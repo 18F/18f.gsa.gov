@@ -76,7 +76,7 @@ Of course, there are still unknowns. We need to figure out what the integration 
 Over the next several months, we’ll be collaborating with a new federal partner and one or two states to get clarity on some of the remaining unknowns. We’ll track this work through our [GitHub repository](https://github.com/18F/eligibility-rules-service) as we have so far.
 
 **If you're interested in learning more, implementing a similar effort, or even if you just generally have feedback or questions for us about this idea, please reach out to us at
-[eligibility.rules.service@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov?subject=Inquiry%20related%20to%2018F%20blog%20post%20Exploring%20A%20New%20Way%20to%20Make%20Eligibility%20Rules%20Easier%20to%20Implement&cc=inquiries18F@gsa.gov)!** We need your expertise and help to make this the most effective resource that it can be.
+[eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov?subject=Inquiry%20related%20to%2018F%20blog%20post%20Exploring%20A%20New%20Way%20to%20Make%20Eligibility%20Rules%20Easier%20to%20Implement&cc=inquiries18F@gsa.gov)!** We need your expertise and help to make this the most effective resource that it can be.
 
 *A number of people have contributed ideas to this subject, including Alex Pandel, Shawnique Muller, Catherine Devlin, and Tony Garvan.*
 
