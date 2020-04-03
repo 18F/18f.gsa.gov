@@ -232,7 +232,8 @@ collections:
           name: "tags",
           widget: "select",
           options: *tagsanchor,
-          multiple: true
+          multiple: true,
+          required: false
         }
       - {
           label: "Excerpt",
@@ -243,7 +244,8 @@ collections:
           label: "Image",
           name: "image",
           widget: "image",
-          allow_multiple: false
+          allow_multiple: false,
+          required: false
         }
       - {
           label: "Body",
