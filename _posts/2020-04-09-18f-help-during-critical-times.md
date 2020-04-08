@@ -8,8 +8,8 @@ authors:
 - ayushi-roy
 tags:
 - portfolios
-- what we deliver
-- agencies work
+- transformation services
+- agency work
 excerpt: "Government agencies are seeing their systems and staff stretched to the max as they do their best to serve the public. 18F is a team of government employees with expertise in modern digital tools and practices, and we’re here to help"
 ---
 
