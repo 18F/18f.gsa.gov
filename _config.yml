@@ -4,7 +4,6 @@ description: "18F builds effective, user-centric digital services focused on the
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
-federalist_url: "https://federalist.18f.gov"
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
