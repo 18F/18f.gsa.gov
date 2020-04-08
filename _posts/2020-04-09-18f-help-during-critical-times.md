@@ -28,12 +28,12 @@ As a team of government employees, [18F’s mission](https://18f.gsa.gov/about/)
 Since 2014, [18F has partnered with federal, state, and local governments](https://18f.gsa.gov/what-we-deliver/#some-agencies-weve-worked-with) to improve the technology and processes that help ensure families receive the food, housing, and healthcare assistance they need. Over the past 6 years, we’ve worked on eligibility systems, application forms, grant and procurement processes, treatment finders, and more. We have helped our agency partners modernize mainframe backend systems, build and buy new modular pieces, and navigate the grey area in between.
 
 <div class="testimonial-blockquote">
-Our experience with 18F has been unique, and uniquely effective. They have helped us learn **agile development** as members of our team. The daily standups have really helped us form a close working relationship with them. They have **introduced us to new tools that I expect we will continue to use when our work with them is completed.**.
+Our experience with 18F has been unique, and uniquely effective. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to new tools that I expect we will continue to use when our work with them is completed.
   <span>- Monica Windom, Director Division of Public Assistance, State of Alaska</span>
 </div>
 
 <div class="testimonial-blockquote">
-It’s a mind-bending conversation when we can show that **deploying changes to production can be done and tested within minutes rather than days or weeks**. We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and **deliver value early and often.**
+It’s a mind-bending conversation when we can show that deploying changes to production can be done and tested within minutes rather than days or weeks. We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often.
   <span>- Jerome Lee, Centers for Medicare and Medicaid Services</span>
 </div>
 
