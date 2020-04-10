@@ -47,3 +47,9 @@ digital services to rapidly shifting demands.
 Here to serve,
 
 — 18F
+
+~
+
+*Thank you to Amy Ashida, Elizabeth Ayer, Harry Lee and Dahianna Salazar Foreman for feedback and comments on an early draft of this post.*
+
+*Thank you to TTS Outreach and GSA's Office of Stategic Communications for their support during the publishing process.*
