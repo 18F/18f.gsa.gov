@@ -69,4 +69,7 @@ Finally: we recognize that this is a time of extreme strain and burden on all ar
 
 ~
 
-<sup>1</sup>  See [Why you should code your COVID-19 policies and laws](https://medium.com/@tjharrop/why-you-should-code-your-covid-19-policies-and-laws-ea2d7c423d29), by TJ Harrop.
+<sup>1</sup> *See [Why you should code your COVID-19 policies and laws](https://medium.com/@tjharrop/why-you-should-code-your-covid-19-policies-and-laws-ea2d7c423d29), by TJ Harrop.*
+
+<br/>
+<br/>
