@@ -15,7 +15,7 @@ image: /assets/blog/rapid-implementation-of-policy-as-code/header.png
 
 No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.
 
-But these changes are only effective once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation. These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
+But these changes are only effective once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation.<sup>1</sup> These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
 
 **Especially during a crisis, speed and accuracy are critically important.** If you work for a government agency that is creating, revising, or interpreting new rules right now, you may be wondering:
 
@@ -38,3 +38,9 @@ In collaboration with policy experts at the federal level, we created an experim
 * **Verifiable as accurate**: Our prototype includes automated tests that check to make sure outputs stay accurate and predictable, even in a rapidly changing policy environment. We use [Gherkin](https://docs.behat.org/en/v2.5/guides/1.gherkin.html) for our automated tests, so even policy experts unfamiliar with code can take part in confirming that the coded logic is correct.
 
 We characterize this work as a [prototype](https://18f.gsa.gov/2018/01/30/getting-prepared-to-prototype/) because it’s meant to be a small and lightweight proof of concept. To visualize the kind of application that our eligibility API can power, we created a pre-screener:
+
+![GIF of Eligibility API Pre-Screener](/assets/blog/rapid-implementation-of-policy-as-code/prescreener-gif.gif)
+
+~
+
+<sup>1</sup>  See [Why you should code your COVID-19 policies and laws](https://medium.com/@tjharrop/why-you-should-code-your-covid-19-policies-and-laws-ea2d7c423d29), by TJ Harrop.
