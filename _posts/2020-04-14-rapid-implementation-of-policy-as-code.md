@@ -41,6 +41,32 @@ We characterize this work as a [prototype](https://18f.gsa.gov/2018/01/30/gettin
 
 ![GIF of Eligibility API Pre-Screener](/assets/blog/rapid-implementation-of-policy-as-code/prescreener-gif.gif)
 
+So far, our prototype has been focused on the financial aspects of SNAP eligibility. When SNAP’s eligibility policy changed in response to the current crisis, this provided an opportunity to test the value of our approach.
+
+## Responding quickly to policy change
+
+Recently, USDA [granted waivers](https://www.fns.usda.gov/disaster/pandemic/snap-emergency-allotments) that allow states to issue emergency SNAP allotments. This change in policy will affect the amount SNAP beneficiaries receive: in states with SNAP emergency allotment waivers, households will now be automatically given the maximum benefit for their household size, rather than an amount calculated based on household income and deductions.
+
+We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. We found that we could add the rule in a single morning.
+
+Of course, it’s much easier to change a rule in a lightweight, low-stakes prototype than in a production Integrated Eligibility System responsible for real-world SNAP determinations. This example, however, still demonstrates how rapid the implementation of new, important policy changes could be. Our approach allows for the following:
+
+* Because our code is open-source, anyone can double-check our work, raise issues or questions with our modeling, and help us keep it up-to-date.
+
+* Because our code uses automated tests, we can push new policies and rules with extra confidence, reduced risk, and built-in quality control.
+
+* Because our approach is API-driven, multiple applications could all benefit at the same time from a single rules update, helping implement a new policy or rule quickly across an entire ecosystem.
+
+If you are managing an in-production benefits system, a first step in this direction might be to bring policy and technical staff together the next time rules need to be added to or changed within the system and have them collaborate, rather than translating those rules into code after the fact.
+
+## What’s next?
+
+If your agency would be interested in learning more about these approaches, we want to hear from you. Would more rapid policy implementation as code help your agency implement its mission, especially in times of crisis? Might our early pre-screener prototype be of value in your state? **We are actively seeking agency partners in this work — reach out to us at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).**
+
+Finally: we recognize that this is a time of extreme strain and burden on all areas of the human safety net. We thank and appreciate all safety net staff and workers at this time for your critical work to serve and support others.
+
+*Thank you to Elizabeth Ayer, Alex Pandel, and Abbey Kos for feedback and comments on early drafts of this post.*
+
 ~
 
 <sup>1</sup>  See [Why you should code your COVID-19 policies and laws](https://medium.com/@tjharrop/why-you-should-code-your-covid-19-policies-and-laws-ea2d7c423d29), by TJ Harrop.
