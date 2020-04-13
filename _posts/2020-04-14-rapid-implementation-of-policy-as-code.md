@@ -47,9 +47,7 @@ So far, our prototype has been focused on the financial aspects of SNAP eligibil
 
 Recently, USDA [granted waivers](https://www.fns.usda.gov/disaster/pandemic/snap-emergency-allotments) that allow states to issue emergency SNAP allotments. This change in policy will affect the amount SNAP beneficiaries receive: in states with SNAP emergency allotment waivers, households will now be automatically given the maximum benefit for their household size, rather than an amount calculated based on household income and deductions.
 
-We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. We found that we could add the rule in a single morning.
-
-Of course, it’s much easier to change a rule in a lightweight, low-stakes prototype than in a production Integrated Eligibility System responsible for real-world SNAP determinations. This example, however, still demonstrates how rapid the implementation of new, important policy changes could be. Our approach allows for the following:
+We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. We found that we could add the rule in a single morning. Of course, it’s much easier to change a rule in a lightweight, low-stakes prototype than in a production Integrated Eligibility System responsible for real-world SNAP determinations. This example, however, still demonstrates how rapid the implementation of new, important policy changes could be. Our approach allows for the following:
 
 * Because our code is open-source, anyone can double-check our work, raise issues or questions with our modeling, and help us keep it up-to-date.
 
@@ -64,6 +62,8 @@ If you are managing an in-production benefits system, a first step in this direc
 If your agency would be interested in learning more about these approaches, we want to hear from you. Would more rapid policy implementation as code help your agency implement its mission, especially in times of crisis? Might our early pre-screener prototype be of value in your state? **We are actively seeking agency partners in this work — reach out to us at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).**
 
 Finally: we recognize that this is a time of extreme strain and burden on all areas of the human safety net. We thank and appreciate all safety net staff and workers at this time for your critical work to serve and support others.
+
+~
 
 *Thank you to Elizabeth Ayer, Alex Pandel, and Abbey Kos for feedback and comments on early drafts of this post.*
 
