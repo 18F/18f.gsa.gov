@@ -12,7 +12,7 @@ excerpt: "We recently worked with the cloud.gov team to update their public site
 ---
 
 We recently worked with the cloud.gov team to update their public site, [cloud.gov](https://cloud.gov/), to [United States Web Design System 2 (USWDS 2)](https://designsystem.digital.gov/). This was our first time digging into Version 2 of the system.
-Using the latest version of the web design system lets us easily correct some usability concerns with the site, and work towards compliance with the [21st Century Idea Act web design standards](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
+Using the latest version of the web design system lets us easily correct some usability concerns with the site, and work towards compliance with the [21st Century IDEA web design standards](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
 
 Designers and developers use different tools and vocabulary to deliver
 government digital services and the USWDS provided concepts we were able
@@ -21,7 +21,7 @@ fidelity results once we understood how to use them.
 
 ## Theming
 
-USWDS provides variables, scss, and structure for custom themes that lets teams customize their government websites. Themes allowed us to use the consistent development and design patterns of the USWDS to showcase cloud.gov’s unique brand identity. We learned that these themes are extensive and allow lots of flexibility to design sites that reflect an agency’s visual style. We leveraged the default user experience behavior of the USWDS 2, while updating the colors and typography to match the brand identity of cloud.gov.
+USWDS provides variables, scss, and structure for custom themes that lets teams customize their government websites. Themes allowed us to use the consistent development and design patterns of the USWDS while showcasing cloud.gov’s unique brand identity. We learned that these themes are extensive and allow lots of flexibility to design sites that reflect an agency’s visual style. We leveraged the default user experience behavior of the USWDS 2, while updating the colors and typography to match the brand identity of cloud.gov.
 
 The themes are modified by updating the variables in [Sass (Syntactically Awesome Style Sheets)](https://en.wikipedia.org/wiki/Sass_(stylesheet_language))
 `dist/scss/theme` folder of the USWDS
@@ -31,11 +31,11 @@ For more on how the themes work, take [a look at the USWDS documentation](https:
 The USWDS SCSS files are broken out by area including color, components,
 spacing, typography, and utilities. Since our theme included cloud.gov
 fonts, colors, and layouts we copied the entire theme directory and then
-referenced it from our main SCSS file,` index.scss`.
+referenced it from our main SCSS file,`index.scss`.
 
 To organize our custom styles, we followed an internal practice of
 placing new styles into our `index.scss` and put adapted USWDS element
-styles into the `uswds-theme-custom-styles.scss.` For applying themed
+styles into the `uswds-theme-custom-styles.scss`. For applying themed
 elements we used the great [USWDS utility classes](https://designsystem.digital.gov/utilities/) if we wanted to
 change a single element, and the utility or token mixins if we wanted to
 apply that pattern to multiple elements or wanted to apply a number of
@@ -66,7 +66,7 @@ of Don’t Repeat yourself (DRY).
 
 ## Colors
 
-We wanted cloud.gov to be easy to recognize , and color can be a
+We wanted cloud.gov to be easy to recognize, and color can be a
 powerful identifier for sighted people. One of our first steps in the
 USWDS migration was to audit the color space on the current cloud.gov
 and map those colors to the USWDS2 theme using color tokens.
@@ -78,7 +78,7 @@ that map to preset CSS variables and classes to give teams flexibility.
 This robust color system made it easy for us to find the USWDS color
 tokens that matched cloud.gov’s branding. It also gave us a vocabulary
 to talk about colors without having to use hex codes. Soon, we were
-talking about how the sidebar background should be `accent-warm` (USWDS color token `gray-warm-10`) rather than`#E6E6E2`.
+talking about how the sidebar background should be `accent-warm` (USWDS color token `gray-warm-10`) rather than `#E6E6E2`.
 
 <figure>
   <a href="{{site.baseurl}}/assets/blog/web-design-standards/cloud.gov-uswds-tokens.jpg">
@@ -89,7 +89,7 @@ talking about how the sidebar background should be `accent-warm` (USWDS color to
 
 In the design files, we were able to use the USWDS color library to test
 and import colors into our design. USWDS color tokens include [a graded system](https://designsystem.digital.gov/design-tokens/color/overview/)
-that helps designers check color contrast on the fly, sowe could make
+that helps designers check color contrast on the fly, so we could make
 sure our designs would be accessible. We chose to create a single color
 library for the entire theme, which made it easier for us to see how
 theme colors interacted with one another. The USWDS team [recently updated their design assets](https://github.com/uswds/uswds-for-designers/releases/tag/v2.0)
