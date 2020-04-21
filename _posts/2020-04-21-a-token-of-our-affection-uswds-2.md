@@ -45,13 +45,13 @@ of Don’t Repeat yourself (DRY).
 
 <table>
   <tr>
-    <td style="width: 50%">
+    <td style="width: 50%; padding: 0;">
   <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.png">
     <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.png" alt="A screenshot of an html file that uses USWDS utlity classes."/>
   </a>
 
 </td>
-    <td style="width: 50%">
+    <td style="width: 50%; padding: 0;">
         <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.png">
     <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.png" alt="A screenshot of an CSS file that uses USWDS utlity mixins."/>
   </a>
