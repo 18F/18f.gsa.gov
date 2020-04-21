@@ -43,6 +43,27 @@ styles to a single element or class. We may not have been perfect in
 keeping this consistent, but in general we tried to follow the principle
 of Don’t Repeat yourself (DRY).
 
+<table class="tg">
+  <tr>
+    <td><figure>
+  <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.jpg">
+    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.jpg" alt="A screenshot of an html file that uses USWDS utlity classes."/>
+  </a>
+</figure>
+</td>
+    <td>
+        <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.jpg">
+    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.jpg" alt="A screenshot of an CSS file that uses USWDS utlity mixins."/>
+  </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Utility class</td>
+    <td>Utility mixins</td>
+  </tr>
+</table>
+
+
 ## Colors
 
 We wanted cloud.gov to be easy to recognize , and color can be a
