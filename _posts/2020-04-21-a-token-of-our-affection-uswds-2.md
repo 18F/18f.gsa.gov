@@ -46,14 +46,14 @@ of Don’t Repeat yourself (DRY).
 <table class="tg">
   <tr>
     <td><figure>
-  <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.jpg">
-    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.jpg" alt="A screenshot of an html file that uses USWDS utlity classes."/>
+  <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.png">
+    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-classes.png" alt="A screenshot of an html file that uses USWDS utlity classes."/>
   </a>
 </figure>
 </td>
     <td>
-        <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.jpg">
-    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.jpg" alt="A screenshot of an CSS file that uses USWDS utlity mixins."/>
+        <a href="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.png">
+    <img src="{{site.baseurl}}/assets/blog/web-design-standards/utility-mixins.png" alt="A screenshot of an CSS file that uses USWDS utlity mixins."/>
   </a>
     </td>
   </tr>
