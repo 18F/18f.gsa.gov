@@ -11,7 +11,7 @@ tags:
 excerpt: "We recently worked with the cloud.gov team to update their public site, cloud.gov, to United States Web Design System 2. The USWDS provided concepts we were able to use to translate designs into code a lot faster and deliver higher fidelity results once we understood how to use them."
 ---
 
-We recently worked with the cloud.gov team to update their public site, [cloud.gov](https://cloud.gov/), to United States Web Design System 2 (USWDS 2). This was our first time digging into Version 2 of the system.
+We recently worked with the cloud.gov team to update their public site, [cloud.gov](https://cloud.gov/), to [United States Web Design System 2 (USWDS 2)](https://designsystem.digital.gov/). This was our first time digging into Version 2 of the system.
 Using the latest version of the web design system lets us easily correct some usability concerns with the site, and work towards compliance with the [21st Century Idea Act web design standards](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).
 
 Designers and developers use different tools and vocabulary to deliver
