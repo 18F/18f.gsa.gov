@@ -1,5 +1,5 @@
 ---
-title: "A token of our affection - A field guide USWDS 2"
+title: "A token of our affection - A field guide to USWDS 2"
 date: 2020-04-21
 authors:
 - christine-bath
