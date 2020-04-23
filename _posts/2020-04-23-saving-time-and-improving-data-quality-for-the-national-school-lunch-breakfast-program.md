@@ -5,12 +5,13 @@ title: >-
 date: 'April 23, 2020'
 authors:
   - julia-lindpaintner
+  - mike-gintz
 tags:
   - 10x
   - data access
   - open data
 excerpt: >-
-  "In February 2020, pilot states reported back on their experience implementing
+  In February 2020, pilot states reported back on their experience implementing
   and using a new data validation service during the fall of 2019. They agreed
   that it had significantly improved the data collection and submission process
   for their teams, citing time savings, fewer errors returned, greater ability
