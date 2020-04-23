@@ -16,6 +16,32 @@ content_focus: false
 </div>
 
 ---
+{% capture pa-1 %}
+## Crisis Support for Acquisitions:
+### Supporting your IT acquisitions for COVID-19 response.
+{: .hww-subheading}
+
+We will work with your team to:
+- Develop an effective acquisition plan and procurement strategy during an emergency
+- Draft your procurement documents or quickly review your drafts
+- Guide you through the vendor evaluation process to ensure the vendor is qualified to do the work 
+[Learn more about how we can help]().
+{% endcapture %}
+<div class="usa-grid-full usa-section hww-item" id="crisis-support">
+  <div class="usa-width-two-thirds" markdown="1">
+    {{ aa-1 }}
+  </div>
+  <div class="usa-width-one-third">
+    <ul class="graphic-list">
+      <li>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+        </div>
+        <span>Starting at $</span>
+      </li>
+    </ul>
+  </div>
+</div>
 
 {% capture pa-1 %}
 ## Path Analysis:
