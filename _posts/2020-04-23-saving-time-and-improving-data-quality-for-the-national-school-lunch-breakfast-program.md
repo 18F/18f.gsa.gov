@@ -16,6 +16,7 @@ excerpt: >-
   that it had significantly improved the data collection and submission process
   for their teams, citing time savings, fewer errors returned, greater ability
   to plan ahead, and lower stress.
+image: /assets/blog/us-data-fed/Blog-FNS-Before&After-01-01.png
 ---
 In March of 2019, we published a post describing the ambition of the 10x U.S. Data Federation project: our work was motivated by the goal of [making it easier to collect, combine, and exchange data across government](https://18f.gsa.gov/2019/03/05/the-us-data-federation/). We hypothesized that this could be done by making reusable tools and repeatable processes more available across government.
 
