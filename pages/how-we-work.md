@@ -25,7 +25,8 @@ We will work with your team to:
 - Develop an effective acquisition plan and procurement strategy during an emergency
 - Draft your procurement documents or quickly review your drafts
 - Guide you through the vendor evaluation process to ensure the vendor is qualified to do the work 
-[Learn more about how we can help].
+
+**[Learn more about how we can help](https://18f.gsa.gov/assets/presentations/18f-crisis-support-it-acquisitions.pdf)**
 {% endcapture %}
 <div class="usa-grid-full usa-section hww-item" id="crisis-support">
   <div class="usa-width-two-thirds" markdown="1">
