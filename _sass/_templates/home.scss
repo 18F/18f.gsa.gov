@@ -94,12 +94,12 @@ section.posts_feature h2 a {
 }
 
 .announcement__body {
-  background-image: url('../img/page-feature/info.png');
+  background-image: url('../img/page-feature/info.svg');
   background-repeat: no-repeat;
   background-size: $icon-size;
   background-position: 0 $spacing-md-small;
   padding: $spacing-md-small 0;
-  padding-left: calc(#{$icon-size} + #{$spacing-md-small});
+  padding-left: $icon-size + $spacing-md-small;
 }
 
 .announcement__text{
