@@ -87,21 +87,3 @@ section.posts_feature h2 a {
   color: #1F2E4A;
   text-decoration: none;
 }
-
-//New Feature announcement
-.announcement {
-  background-color: $color-light;
-}
-
-.announcement__body {
-  background-image: url('../img/page-feature/info.svg');
-  background-repeat: no-repeat;
-  background-size: $icon-size;
-  background-position: 0 $spacing-md-small;
-  padding: $spacing-md-small 0;
-  padding-left: $icon-size + $spacing-md-small;
-}
-
-.announcement__text {
-  margin: 0 auto;
-}
