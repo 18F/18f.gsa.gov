@@ -15,7 +15,7 @@ image: /assets/blog/rapid-implementation-of-policy-as-code/header.png
 
 No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.
 
-But policy changes only create impact once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation.<sup>1</sup> These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
+But policy changes only create impact once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation. These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
 
 If you are working on implementing new rules during this critical time, you may be wondering:
 
@@ -68,10 +68,6 @@ Finally: we recognize that this is a time of extreme strain and burden on all ar
 ~
 
 *Thank you to Elizabeth Ayer, Alex Pandel, and Abbey Kos for feedback and comments on early drafts of this post.*
-
-~
-
-<sup>1</sup> *See [Why you should code your COVID-19 policies and laws](https://medium.com/@tjharrop/why-you-should-code-your-covid-19-policies-and-laws-ea2d7c423d29), by TJ Harrop.*
 
 <br/>
 <br/>
