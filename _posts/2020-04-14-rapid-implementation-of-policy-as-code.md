@@ -15,9 +15,9 @@ image: /assets/blog/rapid-implementation-of-policy-as-code/header.png
 
 No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.
 
-But these changes are only effective once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation.<sup>1</sup> These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
+But policy changes only create impact once they are implemented. And in 2020, almost all social service programs use digital systems to manage eligibility and enrollment. Most policies written into legal code will eventually need to be programmed into these digital systems as part of implementation.<sup>1</sup> These digital systems include tools used by caseworkers, front-end portals used by clients, and back-end systems that administer benefits.
 
-**Especially during a crisis, speed and accuracy are critically important.** If you work for a government agency that is creating, revising, or interpreting new rules right now, you may be wondering:
+If you are working on implementing new rules during this critical time, you may be wondering:
 
 > *“What can I do to speed up the implementation of these new rules? What can I do to make sure that my agency’s updated rules are interpreted and implemented accurately in our digital systems?”*
 
@@ -47,7 +47,9 @@ So far, our prototype has been focused on the financial aspects of SNAP eligibil
 
 Recently, USDA [granted waivers](https://www.fns.usda.gov/disaster/pandemic/snap-emergency-allotments) that allow states to issue emergency SNAP allotments. This change in policy will affect the amount SNAP beneficiaries receive: in states with SNAP emergency allotment waivers, households will now be automatically given the maximum benefit for their household size, rather than an amount calculated based on household income and deductions.
 
-We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. We found that we could add the rule in a single morning. Of course, it’s much easier to change a rule in a lightweight, low-stakes prototype than in a production Integrated Eligibility System responsible for real-world SNAP determinations. This example, however, still demonstrates how rapid the implementation of new, important policy changes could be. Our approach allows for the following:
+We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. **We found that we could add the rule in a single morning.**
+
+Of course, it’s much easier to change a rule in a lightweight, low-stakes prototype than in a production Integrated Eligibility System responsible for real-world SNAP determinations. This example, however, still demonstrates how rapid the implementation of new, important policy changes could be. Our approach allows for the following:
 
 * Because our code is open-source, anyone can double-check our work, raise issues or questions with our modeling, and help us keep it up-to-date.
 
