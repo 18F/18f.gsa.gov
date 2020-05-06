@@ -1,6 +1,6 @@
 ---
 title: "Rapid implementation of policy as code"
-date: 2020-05-05
+date: 2020-05-07
 authors:
 - alex-soble
 - mike-gintz
