@@ -45,7 +45,7 @@ So far, our prototype has been focused on the financial aspects of SNAP eligibil
 
 ## Responding quickly to policy change
 
-Recently, USDA [granted waivers](https://www.fns.usda.gov/disaster/pandemic/snap-emergency-allotments) that allow states to issue emergency SNAP allotments. This change in policy will affect the amount SNAP beneficiaries receive: in states with SNAP emergency allotment waivers, households will now be automatically given the maximum benefit for their household size, rather than an amount calculated based on household income and deductions.
+Recently, USDA [granted waivers](https://www.fns.usda.gov/disaster/pandemic/snap-emergency-allotments) that allow states to issue emergency SNAP allotments. This change in policy affects the amount SNAP beneficiaries receive: in states with SNAP emergency allotments, households automatically receive the maximum benefit for their household size, rather than an amount calculated based on household income and deductions.
 
 We decided to challenge ourselves and see how quickly we could add this new rule to our prototype. **We found that we could add the rule in a single morning.**
 
