@@ -2,7 +2,9 @@
 title: Design & research in critical times
 date: June 2, 2020
 authors:
-  - 18F
+  - matt-dobson
+  - ann-morey
+  - mark-trammell
 tags:
   - design
   - user research
