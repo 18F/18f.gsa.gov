@@ -47,14 +47,14 @@ The availability of our teams is also subject to shifting demands. Remember that
 
 We can address some of the participation challenges we face by seeking to understand people’s reasons for participating. Ask yourself what your participants really need and want to get out of it, and help them get it. Explain how their input connects back to the end goal and shapes the development of products and services so that they feel invested in the process and like their time is valued. To further cultivate that investment, consider debriefing participants after a session, explaining the intent of the research and inviting active co-creation and participation.
 
-**Consider other participants**\
+**Consider other participants**
 Design research is often targeted to specific groups of participants to help us better understand the people that use our products and services. This approach can be critical to some research but we should also consider other approaches.
 
 * Determine which questions could be answered by doing research with a general audience rather than a narrow selection of people.
 * Identify people who find themselves with increased free time. With everyone at home and settling in to a new normal, now might be a really good time to do remote research. Folks might be looking for a distraction and be interested in taking some time to talk with us.
 * If at all possible, compensate participants. Providing compensation makes it easier to recruit a wider range of participants and in a time when many people are out of work, being able to compensate participants can be increasingly meaningful.
 
-**Be flexible with scheduling**\
+**Be flexible with scheduling**
 To continue to do research in these tumultuous times we need to become more flexible with scheduling and creating time for research.
 
 * Can you provide a variety of options for participants?
@@ -104,5 +104,4 @@ Is your design and research team trying to shift to fully remote work at this cr
 
 Contact 18F-inquiries@gsa.gov if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
 
-**\
-Thank you** to everyone in the 18F Design Team and the TTS Research Guild who participated in the conversations that led to this post. Thanks to Ron Bronson for leading the initial conversation, Anne Petersen for direction and guidance, and Malaika Carpenter for editing.
+**Thank you** to everyone in the 18F Design Team and the TTS Research Guild who participated in the conversations that led to this post. Thanks to Ron Bronson for leading the initial conversation, Anne Petersen for direction and guidance, and Malaika Carpenter for editing.
