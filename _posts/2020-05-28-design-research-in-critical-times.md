@@ -51,7 +51,7 @@ We can address some of the participation challenges we face by seeking to unders
 Design research is often targeted to specific groups of participants to help us better understand the people that use our products and services. This approach can be critical to some research but we should also consider other approaches.
 
 * Determine which questions could be answered by doing research with a general audience rather than a narrow selection of people.
-* Identify people who find themselves with increased free time. With everyone at home and settling in to a new normal, now might be a really good time to do remote research. Folks might be looking for a distraction and be interested in taking some time to talk with us.
+* Identify people who find themselves with increased free time. With many people at home and settling into a new normal, now might be a really good time to do remote research. Folks might be looking for a distraction and be interested in taking some time to talk with us.
 * If at all possible, compensate participants. Providing compensation makes it easier to recruit a wider range of participants and in a time when many people are out of work, being able to compensate participants can be increasingly meaningful.
 
 **Be flexible with scheduling**
