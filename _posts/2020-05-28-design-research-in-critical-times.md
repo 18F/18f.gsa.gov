@@ -20,7 +20,7 @@ Among the many challenges during critical times is a change to how we work. Sudd
 
 GSA’s 18F staff is distributed across the country and the majority of our research has been and will continue to be facilitated remotely. Our team has been working this way since our organization’s inception [six years ago](https://18f.gsa.gov/2020/03/19/sixth-anniversary/). We hope our experience will help guide designers and researchers as they adapt to new ways of working and provide some additional considerations to keep in mind while conducting research in critical times.
 
-## Scheduling and Time Constraints
+## Scheduling and time constraints
 
 Everyone’s schedules and priorities are shifting in response to the current challenges. Some people are finding themselves with an abundance of time and others face ever increasing demands for their time and attention. We need to adapt to the dynamic situation and needs of everyone involved.
 
@@ -47,14 +47,14 @@ The availability of our teams is also subject to shifting demands. Remember that
 
 We can address some of the participation challenges we face by seeking to understand people’s reasons for participating. Ask yourself what your participants really need and want to get out of it, and help them get it. Explain how their input connects back to the end goal and shapes the development of products and services so that they feel invested in the process and like their time is valued. To further cultivate that investment, consider debriefing participants after a session, explaining the intent of the research and inviting active co-creation and participation.
 
-**Consider other participants**
+**Consider other participants**  
 Design research is often targeted to specific groups of participants to help us better understand the people that use our products and services. This approach can be critical to some research but we should also consider other approaches.
 
 * Determine which questions could be answered by doing research with a general audience rather than a narrow selection of people.
 * Identify people who find themselves with increased free time. With many people at home and settling into a new normal, now might be a really good time to do remote research. Folks might be looking for a distraction and be interested in taking some time to talk with us.
 * If at all possible, compensate participants. Providing compensation makes it easier to recruit a wider range of participants and in a time when many people are out of work, being able to compensate participants can be increasingly meaningful.
 
-**Be flexible with scheduling**
+**Be flexible with scheduling**  
 To continue to do research in these tumultuous times we need to become more flexible with scheduling and creating time for research.
 
 * Can you provide a variety of options for participants?
@@ -62,7 +62,7 @@ To continue to do research in these tumultuous times we need to become more flex
 * How can you make research asynchronous if that’s the ideal approach?
 * How can you adjust the length or number of sessions and still have valuable research?
 
-## Methods and Fidelity
+## Methods and fidelity
 
 With increasing demands on people's time and other restrictions we may not be able to proceed with research as planned. We can consider how to shift methods in response.
 
@@ -77,7 +77,7 @@ With increasing demands on people's time and other restrictions we may not be ab
 * Be flexible on fidelity. For example, if you can only get participation by phone but not video, is the input still helpful?
 * If research plans are postponed, this could be an opportunity to explore ideas that have been identified but not yet fully shaped. This exploratory design work can help keep teams engaged and boost morale.
 
-## Emotional and Psychological Impact
+## Emotional and psychological impact
 
 These are stressful times. In addition to increasing demands on people’s time, we are all under increased emotional and psychological stress. We should be mindful of the impact of our research on our team and participants.
 
@@ -100,7 +100,7 @@ At 18F, our team of 100 designers, software engineers, strategists, and product 
 
 Our mission remains the same: to improve the user experience of government services by helping our partners build and buy technology more effectively. And we’re here to help your team.
 
-Is your design and research team trying to shift to fully remote work at this critical moment?With expertise in modern digital tools and practices, 18F can equip your staff with strategies to maximize effective collaboration in a distributed setting. We can also help implement or create online options for processes that are currently only available in-person.
+Is your design and research team trying to shift to fully remote work at this critical moment? With expertise in modern digital tools and practices, 18F can equip your staff with strategies to maximize effective collaboration in a distributed setting. We can also help implement or create online options for processes that are currently only available in-person.
 
 Contact 18F-inquiries@gsa.gov if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
 
