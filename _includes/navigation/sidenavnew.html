@@ -1,0 +1,42 @@
+{% assign nav_class_suffix = include.nav_class_suffix | default: '' %}
+
+
+<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}{% if include.nav_sticky %} sticky {% endif %}" role="navigation">
+  <button class="sliding-panel-close{{ nav_class_suffix }}">
+    {% include svg/icons/close.svg %}
+  </button>
+
+  <ul class="usa-sidenav">
+  {% for item in include.nav_items %}
+    <li>
+    {% if item.permalink %}
+      {% assign item_link = item.permalink | prepend: site.baseurl %}
+    {% else %}
+      {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+    {% endif %}
+
+    {% if item.multiple_permalinks %}
+      {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+    {% else %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
+    {% endif %}
+
+    <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+    {% if item.children and is_matching %}
+      <ul class="usa-sidenav__sublist">
+      {% for sub_item in item.children %}
+        <li>
+          {% if sub_item.permalink %}
+            {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
+          {% else %}
+            {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
+          {% endif %}
+          <a href="{{ sub_item_link }}">{{ sub_item.text }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</nav>
