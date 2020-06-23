@@ -4,6 +4,9 @@ date: June 23, 2020
 authors:
   - jeffrey-durland
   - cordelia-yu
+  - michelle-rago
+  - amanda-costello
+  - ryan-johnson
 tags:
   - content design
   - accessibility
@@ -14,7 +17,7 @@ excerpt: Lately, the 18F content team has been thinking about how to communicate
   essential to earning the trust of the public. Here, we will explain how to
   embody those qualities on the web in user-centered ways.
 ---
-Lately, the 18F content team has been thinking about how to communicate well in a crisis—providing clear, understandable content is especially important.
+Lately, the 18F content team has been thinking about how to communicate well in a crisis—a time when clear, understandable content is especially important.
 
 To help guide our own work, we’ve been referencing the CDC’s Field Epidemiology Manual, which provides advice for public health professionals about communicating during a public health emergency. In a section called “[Trust and Credibility](https://www.cdc.gov/eis/field-epi-manual/chapters/Communicating-Investigation.html#anchor_1543608940),” it discusses how much the ability to persuade people to take action depends on how well an organization can establish itself as a trusted source.
 
