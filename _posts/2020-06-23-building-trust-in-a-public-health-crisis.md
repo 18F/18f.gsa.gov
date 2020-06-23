@@ -3,6 +3,7 @@ title: Building trust in a public health crisis
 date: June 23, 2020
 authors:
   - jeffrey-durland
+  - cordelia-yu
 tags:
   - content design
   - accessibility
