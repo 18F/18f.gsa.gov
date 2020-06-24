@@ -1,5 +1,5 @@
 $sg-header-height: 10rem;
-$margins-width: $sliding-panel-width + (2 * $theme-site-margins-width);
+$margins-width: 170px;
 
 .styleguide-main-content {
   margin-left: auto;
@@ -82,7 +82,7 @@ $margins-width: $sliding-panel-width + (2 * $theme-site-margins-width);
   }
 
   @include at-media('tablet-lg') {
-    margin-left: $theme-site-margins-width + $sliding-panel-width;
+    margin-left: 170px;
     margin-right: $theme-site-margins-width;
     padding-left: 0;
     padding-right: 0;

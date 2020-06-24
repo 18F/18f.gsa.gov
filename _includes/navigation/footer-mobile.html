@@ -1,10 +1,10 @@
 <nav class="usa-accordion footer-mobile">
-  <ul class="usa-sidenav-list">
+  <ul class="usa-sidenav">
     <li>
       <button aria-expanded="false" aria-controls="amendment-1">
         Site menu
       </button>
-      <ul id="amendment-1" class="usa-accordion-content usa-sidenav-sub_list">
+      <ul id="amendment-1" class="usa-accordion-content usa-sidenav__sublist">
       {% for item in include.nav_items %}
         <li>
           {% if item.permalink %}
@@ -21,7 +21,7 @@
       <button aria-controls="amendment-2">
         Policies and Standards
       </button>
-      <ul id="amendment-2" class="usa-accordion-content usa-sidenav-sub_list">
+      <ul id="amendment-2" class="usa-accordion-content usa-sidenav__sublist">
         <li>
           <a href="{{ site.baseurl }}/guides">Guides</a>
         </li>
@@ -43,7 +43,7 @@
       <button aria-controls="amendment-3">
         Contact us
       </button>
-      <ul id="amendment-3" class="usa-accordion-content usa-sidenav-sub_list">
+      <ul id="amendment-3" class="usa-accordion-content usa-sidenav__sublist">
         <li>
           <a href="{{ site.baseurl }}/about/#for-press">Press</a>
         </li>
