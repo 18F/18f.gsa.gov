@@ -13,6 +13,8 @@ $(function (){
   // Drawer
   $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
     $('.nav-mobile, .overlay').toggleClass('is-visible');
+    var overlay = document.getElementById('sitenav');
+    overlay.focus();
     e.preventDefault();
   });
 
