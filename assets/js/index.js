@@ -13,6 +13,9 @@ $(function (){
   // Drawer
   $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
     $('.nav-mobile, .overlay').toggleClass('is-visible');
+    $('.menu-btn').attr('aria-expanded', function (i, attr) {
+      return attr == 'true' ? 'false' : 'true'
+    });
     var overlay = document.getElementById('sitenav');
     overlay.focus();
     e.preventDefault();
