@@ -88,23 +88,38 @@ nav_items:
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 {% assign github_url_master = "https://github.com/18F/18f.gsa.gov/blob/master/" %}
 
-<section class="background-gray usa-section styleguide-header-wrapper">
-  <a href="{{ site.baseurl }}/styleguide/">
-    <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/logos/18F-Logo-L.png" alt="18F logo" />
-    <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
-  </a>
-  <div class="menu-btn-styleguide-wrapper">
-    <button class="menu-btn-styleguide">Menu</button>
+<div class="position-fixed z-top width-full">
+<a class="skipnav" href="#styleguide-content">Skip to main content</a>
+{% include banner.html %}
+<header class="usa-header usa-header--basic bg-gray-5 width-full">
+  <div class="usa-nav-container">
+    <div class="usa-navbar height-auto flex-align-center">
+      <div class="usa-logo">
+        <a class="site-logo media_link" href="{{ site.baseurl }}/styleguide">
+          <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
+          logo" {% if page.url == '/' %} aria-hidden="true" {% endif %} ></a
+        >
+        <span class="text-heavy padding-left-1" id="{{ page.title | slugify }}">
+          {{ page.title }}
+        </span>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
+    </div>
   </div>
-</section>
-<div class="styleguide-content-wrapper">
+</header>
+</div>
 
-  <aside class="nav-subnav styleguide-subnav">
-    {% include navigation/sidenavnew.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
-  </aside>
+<div class="padding-bottom-4 padding-top-9">
+  <div class="grid-container padding-top-5">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-3 border-right border-base-light">
+        {% include navigation/sidenavnew.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
+      </div>
 
-  <section class="styleguide-content usa-content">
-    {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
-    {{ content }}
-  </section>
+      <main class="usa-content desktop:grid-col-9 grid-col-12" id="styleguide-content">
+        {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
+        {{ content }}
+      </main>
+    </div>
+  </div>
 </div>

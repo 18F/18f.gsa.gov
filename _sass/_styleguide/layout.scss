@@ -1,12 +1,6 @@
 $sg-header-height: 10rem;
 $margins-width: 170px;
 
-.styleguide-main-content {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
 .styleguide-details {
   margin-bottom: $theme-site-margins-width;
   margin-top: $theme-site-margins-width;
@@ -51,42 +45,6 @@ $margins-width: 170px;
     font-size: $h4-font-size;
     margin: 0;
     width: 100%;
-  }
-}
-
-
-.styleguide-content {
-  display: inline-block;
-  margin-bottom: $sg-header-height;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: $sg-header-height;
-  max-width: $theme-site-max-width;
-  padding-left: $theme-site-margins-width;
-  padding-right: $theme-site-margins-width;
-  width: 100%;
-
-  h2 + h3 {
-    margin-top: 0;
-    padding-top: $theme-site-margins-width;
-  }
-
-  > h3:target,
-  hr + h3 {
-    margin-top: 0;
-    padding-top: $sg-header-height + $theme-site-margins-width;
-  }
-
-  hr {
-    margin-top: $sg-header-height + $theme-site-margins-width;
-  }
-
-  @include at-media('tablet-lg') {
-    margin-left: 170px;
-    margin-right: $theme-site-margins-width;
-    padding-left: 0;
-    padding-right: 0;
-    width: calc(100% - #{$margins-width});
   }
 }
 
