@@ -1,75 +1,34 @@
-/*
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-========================================
-========================================
-========================================
-----------------------------------------
-USWDS 2.5.0
-----------------------------------------
-UTILITIES SETTINGS
-----------------------------------------
-Read more about settings and
-USWDS utilities in the documentation:
-https://designsystem.digital.gov/utilities
-----------------------------------------
-*/
+
 
 $utilities-use-important: false;
 $output-all-utilities: true;
 
-/*
-----------------------------------------
-Utility breakpoints
-----------------------------------------
-Which breakpoints does your project
-need? Select as `true` any breakpoint
-used by utilities or layout grid
-----------------------------------------
-*/
 
 $theme-utility-breakpoints: (
-  "card": false,
+  'card': false,
   // 160px
-    "card-lg": false,
+    'card-lg': false,
   // 240px
-    "mobile": false,
+    'mobile': false,
   // 320px
-    "mobile-lg": true,
+    'mobile-lg': true,
   // 480px
-    "tablet": true,
+    'tablet': true,
   // 640px
-    "tablet-lg": false,
+    'tablet-lg': false,
   // 800px
-    "desktop": true,
+    'desktop': true,
   // 1024px
-    "desktop-lg": false,
+    'desktop-lg': false,
   // 1200px
-    "widescreen": false,
+    'widescreen': false,
   // 1400px
 );
 
-/*
-----------------------------------------
-Global colors
-----------------------------------------
-The following palettes will be added to
-- background-color
-- border-color
-- color
-- text-decoration-color
-----------------------------------------
-*/
 
-$global-color-palettes: ("palette-color-default");
+$global-color-palettes: ('palette-color-default');
 
-/*
-----------------------------------------
-Settings
-----------------------------------------
-*/
+
 
 $add-aspect-settings: (
   output: true,
@@ -588,7 +547,7 @@ $add-aspect-manual-values: ();
 
 // .align-items
 
-$align-items-palettes: ("palette-align-items-default");
+$align-items-palettes: ('palette-align-items-default');
 $align-items-manual-values: ();
 
 // .background-color
@@ -598,7 +557,7 @@ $background-color-manual-values: ();
 
 // .border
 
-$border-palettes: ("palette-border-default");
+$border-palettes: ('palette-border-default');
 $border-manual-values: ();
 
 // .border-color
@@ -608,35 +567,35 @@ $border-color-manual-values: ();
 
 // .border-radius
 
-$border-radius-palettes: ("palette-border-radius-default");
+$border-radius-palettes: ('palette-border-radius-default');
 $border-radius-manual-values: ();
 
 // .border-style
 
-$border-style-palettes: ("palette-border-style-default");
+$border-style-palettes: ('palette-border-style-default');
 $border-style-manual-values: ();
 
 // .border-width
 
-$border-width-palettes: ("palette-border-width-default");
+$border-width-palettes: ('palette-border-width-default');
 $border-width-manual-values: ();
 
 // .bottom
 
-$bottom-palettes: ("palette-bottom-default");
+$bottom-palettes: ('palette-bottom-default');
 
 $bottom-manual-values: ();
 
 // .box-shadow
 
 $box-shadow-palettes: (/*
-  */ "palette-box-shadow-default");
+  */ 'palette-box-shadow-default');
 
 $box-shadow-manual-values: ();
 
 // .circle
 
-$circle-palettes: ("palette-circle-default");
+$circle-palettes: ('palette-circle-default');
 $circle-manual-values: ();
 
 // .color
@@ -646,171 +605,171 @@ $color-manual-values: ();
 
 // .cursor
 
-$cursor-palettes: ("palette-cursor-default");
+$cursor-palettes: ('palette-cursor-default');
 $cursor-manual-values: ();
 
 // .display
 
-$display-palettes: ("palette-display-default");
+$display-palettes: ('palette-display-default');
 $display-manual-values: ();
 
 // .flex
 
-$flex-palettes: ("palette-flex-default");
+$flex-palettes: ('palette-flex-default');
 $flex-manual-values: ();
 
 // .flex-direction
 
-$flex-direction-palettes: ("palette-flex-direction-default");
+$flex-direction-palettes: ('palette-flex-direction-default');
 $flex-direction-manual-values: ();
 
 // .flex-wrap
 
-$flex-wrap-palettes: ("palette-flex-wrap-default");
+$flex-wrap-palettes: ('palette-flex-wrap-default');
 $flex-wrap-manual-values: ();
 
 // .float
 
-$float-palettes: ("palette-float-default");
+$float-palettes: ('palette-float-default');
 $float-manual-values: ();
 
 // .font
 
-$font-palettes: ("palette-font-default");
+$font-palettes: ('palette-font-default');
 $font-manual-values: ();
 
 // .font-family
 
-$font-family-palettes: ("palette-font-family-default");
+$font-family-palettes: ('palette-font-family-default');
 $font-family-manual-values: ();
 
 // .font-feature-settings
 
-$font-feature-palettes: ("palette-font-feature-settings-default");
+$font-feature-palettes: ('palette-font-feature-settings-default');
 $font-feature-manual-values: ();
 
 // .font-style
 
-$font-style-palettes: ("palette-font-style-default");
+$font-style-palettes: ('palette-font-style-default');
 $font-style-manual-values: ();
 
 // .font-weight
 
-$font-weight-palettes: ("palette-font-weight-default");
+$font-weight-palettes: ('palette-font-weight-default');
 $font-weight-manual-values: ();
 
 // .height
 
-$height-palettes: ("palette-height-default");
+$height-palettes: ('palette-height-default');
 $height-manual-values: ();
 
 // .justify-content
 
-$justify-content-palettes: ("palette-justify-content-default");
+$justify-content-palettes: ('palette-justify-content-default');
 $justify-content-manual-values: ();
 
 // .left
 
-$left-palettes: ("palette-left-default");
+$left-palettes: ('palette-left-default');
 $left-manual-values: ();
 
 // .letter-spacing
 
-$letter-spacing-palettes: ("palette-letter-spacing-default");
+$letter-spacing-palettes: ('palette-letter-spacing-default');
 $letter-spacing-manual-values: ();
 
 // .line-height
 
-$line-height-palettes: ("palette-line-height-default");
+$line-height-palettes: ('palette-line-height-default');
 $line-height-manual-values: ();
 
 // .margin
 
-$margin-palettes: ("palette-margin-default");
+$margin-palettes: ('palette-margin-default');
 $margin-manual-values: ();
-$margin-vertical-palettes: ("palette-margin-vertical-default");
+$margin-vertical-palettes: ('palette-margin-vertical-default');
 $margin-vertical-manual-values: ();
-$margin-horizontal-palettes: ("palette-margin-horizontal-default");
+$margin-horizontal-palettes: ('palette-margin-horizontal-default');
 $margin-horizontal-manual-values: ();
 
 // .max-height
 
-$max-height-palettes: ("palette-max-height-default");
+$max-height-palettes: ('palette-max-height-default');
 $max-height-manual-values: ();
 
 // .max-width
 
-$max-width-palettes: ("palette-max-width-default");
+$max-width-palettes: ('palette-max-width-default');
 $max-width-manual-values: ();
 
 // .measure
 
-$measure-palettes: ("palette-measure-default");
+$measure-palettes: ('palette-measure-default');
 $measure-manual-values: ();
 
 // .min-height
 
-$min-height-palettes: ("palette-min-height-default");
+$min-height-palettes: ('palette-min-height-default');
 $min-height-manual-values: ();
 
 // .min-width
 
-$min-width-palettes: ("palette-min-width-default");
+$min-width-palettes: ('palette-min-width-default');
 $min-width-manual-values: ();
 
 // .opacity
 
-$opacity-palettes: ("palette-opacity-default");
+$opacity-palettes: ('palette-opacity-default');
 $opacity-manual-values: ();
 
 // .order
 
-$order-palettes: ("palette-order-default");
+$order-palettes: ('palette-order-default');
 $order-manual-values: ();
 
 // .outline
 
-$outline-palettes: ("palette-outline-default");
+$outline-palettes: ('palette-outline-default');
 $outline-manual-values: ();
 
 // .outline-color
 
-$outline-color-palettes: ("palette-outline-color-default");
+$outline-color-palettes: ('palette-outline-color-default');
 $outline-color-manual-values: ();
 
 // .overflow
 
-$overflow-palettes: ("palette-overflow-default");
+$overflow-palettes: ('palette-overflow-default');
 $overflow-manual-values: ();
 
 // .padding
 
-$padding-palettes: ("palette-padding-default");
+$padding-palettes: ('palette-padding-default');
 $padding-manual-values: ();
 
 // .position
 
-$position-palettes: ("palette-position-default");
+$position-palettes: ('palette-position-default');
 $position-manual-values: ();
 
 // .right
 
-$right-palettes: ("palette-right-default");
+$right-palettes: ('palette-right-default');
 $right-manual-values: ();
 
 // .square
 
-$square-palettes: ("palette-square-default");
+$square-palettes: ('palette-square-default');
 $square-manual-values: ();
 
 // .text-align
 
-$text-align-palettes: ("palette-text-align-default");
+$text-align-palettes: ('palette-text-align-default');
 $text-align-manual-values: ();
 
 // .text-decoration
 
-$text-decoration-palettes: ("palette-text-decoration-default");
+$text-decoration-palettes: ('palette-text-decoration-default');
 $text-decoration-manual-values: ();
 
 // .text-decoration-color
@@ -820,35 +779,35 @@ $text-decoration-color-manual-values: ();
 
 // .text-indent
 
-$text-indent-palettes: ("palette-text-indent-default");
+$text-indent-palettes: ('palette-text-indent-default');
 $text-indent-manual-values: ();
 
 // .text-transform
 
-$text-transform-palettes: ("palette-text-transform-default");
+$text-transform-palettes: ('palette-text-transform-default');
 $text-transform-manual-values: ();
 
 // .top
 
-$top-palettes: ("palette-top-default");
+$top-palettes: ('palette-top-default');
 $top-manual-values: ();
 
 // .vertical-align
 
-$vertical-align-palettes: ("palette-vertical-align-default");
+$vertical-align-palettes: ('palette-vertical-align-default');
 $vertical-align-manual-values: ();
 
 // .white-space
 
-$whitespace-palettes: ("palette-white-space-default");
+$whitespace-palettes: ('palette-white-space-default');
 $whitespace-manual-values: ();
 
 // .width
 
-$width-palettes: ("palette-width-default");
+$width-palettes: ('palette-width-default');
 $width-manual-values: ();
 
 // .z-index
 
-$z-index-palettes: ("palette-z-index-default");
+$z-index-palettes: ('palette-z-index-default');
 $z-index-manual-values: ();
