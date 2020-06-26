@@ -62,16 +62,14 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
       <p>Receive occasional updates about our work and news about the civic tech community.</p>
     </div>
   <div class="tablet:grid-col-6">
-    <form class="newsletter" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
+    <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
       <input name="utf8" type="hidden" value="&#x2713;">
       <input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==">
-      <fieldset>
         <div class="form-group">
           <label for="email">Your email address</label>
           <input type="text" name="email" id="email">
+          <input type="submit" name="commit" value="Sign up" class="form_button">
         </div>
-      <input type="submit" name="commit" value="Sign up" class="form_button">
-    </fieldset>
     </form>
   </div>
   </div>
