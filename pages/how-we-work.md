@@ -10,7 +10,7 @@ content_focus: false
 <div class="hww-intro" markdown="1">
 ### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
 
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 18F also offers procurement services to state and local governments with access to federal funds. 
+18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 18F also offers procurement services to state and local governments with access to federal funds.
 </div>
 
 ---
@@ -20,10 +20,10 @@ content_focus: false
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
-Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. 
+Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
 {% endcapture %}
 
-<div class="grid-container usa-section">
+<div class="grid-row usa-section">
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-8">
       {{ pa-1 | markdownify }}
@@ -67,7 +67,7 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
 Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
 {% endcapture %}
 
-<div class="grid-container usa-section">
+<div class="grid-row usa-section">
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-8">
       {{ ei-1 | markdownify }}

@@ -31,7 +31,7 @@ layout: default
 %}
 {% endif %}
 
-<section class="{% unless page.gridless %}grid-container usa-section {% endunless %}{% unless page.content_focus == false %} content-focus {% endunless %}{% if page.content_wide %} content-wide{% endif %} {% if page.include_subnav %} content-wide{% endif %}">
+<section class="{% unless page.gridless %}grid-container usa-section {% endunless %}{% if page.include_subnav %} content-wide {% endif %}">
   {% if page.include_subnav %}
   <div class="grid-row grid-gap">
     <aside class="tablet:grid-col-4 sticky sticky-subnav">
