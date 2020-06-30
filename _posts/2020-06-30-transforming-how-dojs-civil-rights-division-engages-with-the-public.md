@@ -5,6 +5,7 @@ authors:
   - malaika-carpenter
   - lalitha-jonnalagadda
   - uchenna-moka-solana
+  - aviva-oskow
 tags:
   - product launch
   - agency work
@@ -28,7 +29,7 @@ Today, the Civil Rights Division estimates that they receive over 100,000 report
 
 The Division also receives reports of potential voting rights violations, particularly during election season.
 
-![](https://lh3.googleusercontent.com/8Yp5Xlb3JdIsSkK59V11iy-1iiQGo6xslBn6Qh-55o-CPVbaPHlsBXi6ssa7jpyq4Xs843y318F0jAcWyASwdP65q1JFGxzrFQbcdwtHUqQfFAKUI2izsm7ZQquV6eOWVZV324ih)
+![Previous “how to file a complaint” experience]({{ site.baseurl }}https://lh3.googleusercontent.com/8Yp5Xlb3JdIsSkK59V11iy-1iiQGo6xslBn6Qh-55o-CPVbaPHlsBXi6ssa7jpyq4Xs843y318F0jAcWyASwdP65q1JFGxzrFQbcdwtHUqQfFAKUI2izsm7ZQquV6eOWVZV324ih "doj-crt-how-to-file-complaint-original")
 
 Up until now, the experience of filing a report was confusing and inconsistent for the public. The Civil Rights Division is a complex organization with several specialized units (or “sections”). This complexity was confusing for some victims of civil rights violations. A victim reporting a violation had to pick among dozens of possible reporting pathways. Without clear guidance and expectation setting, many people submitted reports that required extensive follow-up to collect missing information, or submitted reports that fell outside the purview of the Division altogether.
 
@@ -65,8 +66,6 @@ We plan to publish a series of blog posts that dive deeper into key factors that
 \
 Stay tuned!
 
-
-
 *18F launch team: Heather Battaglia, Lalitha Jonnalagadda, Joe Krzystan, Olesya Minina, Uchenna Moka-Solana, Aviva Oskow, Jacklynn Pham, James Tranovich, Lindsay Young*
 
-*And thank you to the many people who helped along the way:**Elizabeth Ayer, Adam Biaganti, Malaika Carpenter, Rhys Fureigh, Ryan Johnson, Nikki Lee, Dan Perkins, Peter Rowland, Alex Soble, Julie Strothman, Nikki Zeichner, Erin Zimmer Strenio, and the many others who provided feedback*
+*And thank you to the many people who helped along the way:\*\*Elizabeth Ayer, Adam Biaganti, Malaika Carpenter, Rhys Fureigh, Ryan Johnson, Nikki Lee, Dan Perkins, Peter Rowland, Alex Soble, Julie Strothman, Nikki Zeichner, Erin Zimmer Strenio, and the many others who provided feedback*
