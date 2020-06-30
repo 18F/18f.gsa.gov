@@ -77,11 +77,11 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
         >
           <div class="form-group">
             <label for="email">Your email address</label>
-            <div class="grid-row grid-gap">
+            <div class="grid-row">
               <div class="grid-col-fill">
                 <input class="usa-input margin-0" type="text" name="email" id="email">
               </div>
-              <div class="grid-col-auto">
+              <div class="grid-col-fill">
                 <input class="usa-button margin-0 text-white" type="submit" name="commit" value="Sign up">
               </div>
             </div>
