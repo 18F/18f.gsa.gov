@@ -35,7 +35,7 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
           <li><a href="https://18f.gsa.gov/about/#funding-and-agreements">How we're funded</a></li>
         </ul>
         <h4 class="sidebar-heading-border">Follow 18F</h4>
-        <ul class="usa-unstyled-list">
+        <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
             <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
@@ -58,18 +58,35 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
 <div class="usa-section grid-container">
   <h2>Sign up for the 18F newsletter</h2>
   <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-6">
+    <div class="padding-y-2 tablet:grid-col-6">
       <p>Receive occasional updates about our work and news about the civic tech community.</p>
     </div>
-  <div class="tablet:grid-col-6">
-    <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
-      <input name="utf8" type="hidden" value="&#x2713;">
-      <input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==">
-        <div class="form-group">
-          <label for="email">Your email address</label>
-          <input type="text" name="email" id="email">
-          <input type="submit" name="commit" value="Sign up" class="form_button">
-        </div>
+  <div class="padding-y-2 tablet:grid-col-6">
+    <form
+      id="GD-snippet-form"
+      action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8"
+      method="post"
+      target="_blank"
+    >
+      <fieldset class="usa-fieldset">
+        <input name="utf8" type="hidden" value="&#x2713;">
+        <input
+          type="hidden"
+          name="authenticity_token"
+          value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ=="
+        >
+          <div class="form-group">
+            <label for="email">Your email address</label>
+            <div class="grid-row grid-gap">
+              <div class="grid-col-fill">
+                <input class="usa-input margin-0" type="text" name="email" id="email">
+              </div>
+              <div class="grid-col-auto">
+                <input class="usa-button margin-0 text-white" type="submit" name="commit" value="Sign up">
+              </div>
+            </div>
+          </div>
+      </fieldset>
     </form>
   </div>
   </div>

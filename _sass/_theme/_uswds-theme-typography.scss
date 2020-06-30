@@ -1,19 +1,13 @@
 
 
 $theme-respect-user-font-size: false;
+$theme-root-font-size: 11px;
 
-
-$theme-root-font-size: 10px;
-
-
-
-$theme-global-paragraph-styles: false;
-$theme-global-link-styles: false;
-$theme-global-content-styles: false;
-
+$theme-global-paragraph-styles: true;
+$theme-global-link-styles: true;
+$theme-global-content-styles: true;
 
 $theme-font-path: '../fonts';
-
 
 $theme-typeface-tokens: (
   example-serif-token: (
@@ -25,7 +19,6 @@ $theme-typeface-tokens: (
     cap-height: 364px
   )
 );
-
 
 // condensed
 $theme-font-type-cond: false;
@@ -45,15 +38,12 @@ $theme-font-type-sans: 'source-sans-pro';
 // serif
 $theme-font-type-serif: 'merriweather';
 
-
 $theme-font-cond-custom-stack: false;
 $theme-font-icon-custom-stack: false;
 $theme-font-lang-custom-stack: false;
 $theme-font-mono-custom-stack: false;
 $theme-font-sans-custom-stack: false;
 $theme-font-serif-custom-stack: false;
-
-
 
 $theme-font-cond-custom-src: false;
 $theme-font-icon-custom-src: false;
@@ -62,14 +52,11 @@ $theme-font-mono-custom-src: false;
 $theme-font-sans-custom-src: false;
 $theme-font-serif-custom-src: false;
 
-
-
 $theme-font-role-ui: 'sans';
 $theme-font-role-heading: 'serif';
 $theme-font-role-body: 'sans';
 $theme-font-role-code: 'mono';
 $theme-font-role-alt: 'serif';
-
 
 $theme-type-scale-3xs: 2;
 $theme-type-scale-2xs: 3;
@@ -80,7 +67,6 @@ $theme-type-scale-lg: 9;
 $theme-type-scale-xl: 12;
 $theme-type-scale-2xl: 14;
 $theme-type-scale-3xl: 15;
-
 
 $theme-font-weight-thin: false;
 $theme-font-weight-light: 300;
@@ -95,8 +81,6 @@ $theme-font-weight-heavy: false;
 // regardless of the assignments above?
 
 $theme-generate-all-weights: false;
-
-
 
 // Body settings are the equivalent of setting the <body> element
 $theme-body-font-family: 'body';
