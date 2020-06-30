@@ -31,7 +31,7 @@ Today, the Civil Rights Division estimates that they receive over 100,000 report
 
 The Division also receives reports of potential voting rights violations, particularly during election season.
 
-![Previous “how to file a complaint” experience]({{ site.baseurl }}{{ site.baseurl }}https://lh3.googleusercontent.com/8Yp5Xlb3JdIsSkK59V11iy-1iiQGo6xslBn6Qh-55o-CPVbaPHlsBXi6ssa7jpyq4Xs843y318F0jAcWyASwdP65q1JFGxzrFQbcdwtHUqQfFAKUI2izsm7ZQquV6eOWVZV324ih "doj-crt-how-to-file-complaint-original")
+![Previous “how to file a complaint” experience]({{ site.baseurl }}/assets/blog/doj-crt-how-to-file-complaint-original.gif "doj-crt-how-to-file-complaint-original")
 
 Up until now, the experience of filing a report was confusing and inconsistent for the public. The Civil Rights Division is a complex organization with several specialized units (or “sections”). This complexity was confusing for some victims of civil rights violations. A victim reporting a violation had to pick among dozens of possible reporting pathways. Without clear guidance and expectation setting, many people submitted reports that required extensive follow-up to collect missing information, or submitted reports that fell outside the purview of the Division altogether.
 
