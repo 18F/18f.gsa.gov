@@ -22,7 +22,7 @@ content_focus: false
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
-Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
+Each Path Analysis is customized to the needs of your agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
 {% endcapture %}
 <div class="usa-grid-full usa-section hww-item" id="path-analysis">
   <div class="usa-width-two-thirds" markdown="1">
@@ -40,13 +40,13 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span>8-10 weeks</span>
+        <span>10 weeks</span>
       </li>
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
         </div>
-        <span>Typically $195,000</span>
+        <span>$250,000</span>
       </li>
       <li>
         <div class="graphic-list-img">
@@ -63,7 +63,7 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
 ### Exploring user-centered solutions.
 {: .hww-subheading}
 
-Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
+Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. We'll work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
 {% endcapture %}
 <div class="usa-grid-full usa-section hww-item" id="experiment-iterate">
   <div class="usa-width-two-thirds" markdown="1">
@@ -87,13 +87,48 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
         </div>
-        <span>Typically $630,000 - $750,000</span>
+        <span>Starting at $655,000</span>
       </li>
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
         </div>
         <span>Flexible number of phases based on project needs</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% capture bundle-1 %}
+## Bundle: Path Analysis + Experiment & Iterate:
+### Assess and explore.
+{: .hww-subheading}
+
+We’ll start with a Path Analysis and move directly to an Experiment & Iterate phase (both described above) as soon as possible. With this bundle option, we are able to more flexibly move between the phases of the project, without losing momentum.
+{% endcapture %}
+<div class="usa-grid-full usa-section hww-item" id="bundle">
+  <div class="usa-width-two-thirds" markdown="1">
+    {{ bundle-1 }}
+  </div>
+  <div class="usa-width-one-third">
+    <ul class="graphic-list">
+      <li>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+        </div>
+        <span>4-6 person team</span>
+      </li>
+      <li>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+        </div>
+        <span>20 weeks</span>
+      </li>
+      <li>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+        </div>
+        <span>Starting at $855,000</span>
       </li>
     </ul>
   </div>
@@ -133,7 +168,7 @@ Your contracting officer will conduct the procurement with guidance and coaching
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
         </div>
-        <span>Starting at $400,000</span>
+        <span>Starting at $869,000</span>
       </li>
     </ul>
   </div>
@@ -162,8 +197,11 @@ In each of our projects, our teams will work to build your agency’s capacity f
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
         </div>
-        <span>Starting at $750,000</span>
+        <span>Starting at $990,000</span>
       </li>
     </ul>
   </div>
+</div>
+
+<div>Prices are current as of June 30, 2020
 </div>
