@@ -1,5 +1,19 @@
 /* eslint-env jquery */
 $(function (){
+  var TABBABLE_SELECTOR = [
+    'a[href]',
+    'area[href]',
+    'input:not([disabled])',
+    'select:not([disabled])',
+    'textarea:not([disabled])',
+    'button:not([disabled])',
+    'iframe',
+    'object',
+    'embed',
+    '[tabindex="0"]',
+    '[contenteditable]'
+  ].join();
+
   // Onclick window location handler
   $('.card-link').on('click', function(e) {
     var url = $(this).data().href;
@@ -10,14 +24,17 @@ $(function (){
     }
   });
 
+  function toggleMenu(isOpen) {
+    $('.nav-mobile, .overlay').toggleClass('is-visible', isOpen);
+    $('.menu-btn').attr('aria-expanded', isOpen);
+    var focusTarget = $(isOpen ? '#sitenav' : '.menu-btn');
+    focusTarget.focus();
+  }
+
   // Drawer
   $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
-    $('.nav-mobile, .overlay').toggleClass('is-visible');
-    $('.menu-btn').attr('aria-expanded', function (i, attr) {
-      return attr == 'true' ? 'false' : 'true'
-    });
-    var overlay = document.getElementById('sitenav');
-    overlay.focus();
+    var isCurrentlyOpen = $('.nav-mobile').hasClass('is-visible');
+    toggleMenu(!isCurrentlyOpen);
     e.preventDefault();
   });
 
