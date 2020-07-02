@@ -60,7 +60,7 @@
   }
 
   .section-info-list-item {
-    padding-bottom: $theme-site-margins-width;
+    padding-bottom: 3rem;
     padding-right: $theme-site-margins-width;
 
     @include at-media('tablet') {

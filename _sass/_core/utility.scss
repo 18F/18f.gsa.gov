@@ -25,13 +25,13 @@ svg {
 }
 
 .margin-spacing {
-  margin-top: $section-margins;
-  margin-bottom: $section-margins;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .pad-top-bottom {
-  padding-top: $paragraph-margins-thick;
-  padding-bottom: $paragraph-margins-thick;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pad-right-left {
@@ -46,7 +46,7 @@ svg {
 
 .small-caps {
   @include small-caps;
-  margin-top: $section-margins;
+  margin-top: 5rem;
 }
 
 .small-caps-no-margin {
@@ -55,7 +55,7 @@ svg {
 
 .small-caps + h3,
 .small-caps + h2, {
-  margin-top: $spacer-margins;
+  margin-top: 0.5rem;
 }
 
 .sidebar-heading-border {
