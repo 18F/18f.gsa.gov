@@ -27,7 +27,7 @@ $(function (){
   function toggleMenu(isOpen) {
     $('.nav-mobile, .overlay').toggleClass('is-visible', isOpen);
     $('.menu-btn').attr('aria-expanded', isOpen);
-    var focusTarget = $(isOpen ? '#sitenav' : '.menu-btn');
+    var focusTarget = $(isOpen ? '.nav-mobile' : '.menu-btn');
     focusTarget.focus();
   }
 
@@ -63,7 +63,7 @@ $(function (){
     e.preventDefault();
   });
 
-  $('#sitenav').on('keydown', function(event) {
+  $('.nav-mobile').on('keydown', function(event) {
     switch (event.which) {
       case 27: // Escape
         toggleMenu(false);
