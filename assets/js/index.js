@@ -38,6 +38,14 @@ $(function (){
     e.preventDefault();
   });
 
+  $('#sitenav').on('keydown', function(event) {
+    switch (event.which) {
+      case 27: // Escape
+        toggleMenu(false);
+        break;
+    }
+  });
+
   // Styleguide drawer
   $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
     $('.nav-mobile-styleguide').toggleClass('is-visible');
