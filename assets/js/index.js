@@ -33,7 +33,7 @@ $(function (){
 
   function trapFocus(event) {
     var wrapper = event.currentTarget,
-      tabbables = Array.prototype.slice.call(wrapper.querySelectorAll(TABBABLE_SELECTOR)),
+      tabbables = [].slice.call(wrapper.querySelectorAll(TABBABLE_SELECTOR)),
       index = tabbables.indexOf(event.target),
       isReverse = event.shiftKey,
       nextTarget;
