@@ -148,7 +148,7 @@ header_border: true
             <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
           {% endif %}
         </div>
-        <ul>
+        <ul class="grid-row grid-gap">
         {% for post in matching_posts limit:3 %}
           {% include post.html
              post_date=post.date

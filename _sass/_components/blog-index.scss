@@ -21,7 +21,7 @@
     list-style: none;
     padding-left: 0;
     margin-left: 0;
-    margin-bottom: $section-margins;
+    margin-bottom: 5rem;
   }
 }
 
@@ -50,7 +50,7 @@
   }
 
   li {
-    margin-bottom: $paragraph-margins-thick;
+    margin-bottom: 3rem;
 
     &:last-child {
       margin-bottom: 0;
