@@ -14,8 +14,8 @@ header_border: true
 <section class="page-tag-results">
 
   <section class="background-dark">
-    <div class="grid-container grid-col-12 usa-flex">
-      <div class="grid-container {% if page.image %}grid-col-6{% else %}grid-col-12{% endif %} hero-callout-full hero-callout-no_button">
+    <div class="grid-container padding-x-0 usa-flex">
+      <div class="grid-container {% if page.image %}tablet:grid-col-6{% else %}padding-x-0{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
           <h1 class="h3">
           <span class="hero-callout-alt_color">{{ page.agency }}</span>
@@ -26,7 +26,7 @@ header_border: true
         </h1>
       </div>
       {% if page.image %}
-        <div class="grid-col-6 usa-hero hero"
+        <div class="tablet:grid-col-6 usa-hero hero"
           style="background-image: url({{ site.baseurl }}{{ page.image }});"
           role="img"
           title="{{ page.image_accessibility }}">
@@ -48,14 +48,14 @@ header_border: true
           page.resources
     %}
   <div class="grid-row grid-gap">
-    <div class="grid-container grid-col-8">
+    <div class="grid-container tablet:grid-col-8">
       <section class="usa-section page-tag-results-content">
         <div class="small-caps small-caps-no-margin">Background</div>
         <h3>{{ page.subtitle }}</h3>
         {{ content }}
       </section>
     </div>
-    <aside class="grid-container usa-section grid-container-reversed-right grid-col-4 section-info section-info-gray">
+    <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4 section-info section-info-gray">
       <ul>
         {% if page.quote %}
           <blockquote>

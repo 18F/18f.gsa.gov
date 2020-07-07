@@ -28,8 +28,18 @@
 
 .hero-callout,
 .hero-callout-full {
-  padding: $section-margins;
-  padding-left: 0;
+  padding: 5rem;
+  @include u-padding-left(1.5);
+  @include at-media('mobile-lg') {
+    @include u-padding-left(1.5);
+  }
+  @include at-media('tablet') {
+    @include u-padding-left(3);
+  }
+  @include at-media('desktop') {
+    @include u-padding-left(6);
+  }
+  
 
   > *:first-child {
     @include u-margin-top(0);
@@ -84,7 +94,7 @@
 .hero-callout-alt_color {
   color: $color-bright;
   display: block;
-  margin-top: 4rem;
+  
 }
 
 .hero-callout-title {
