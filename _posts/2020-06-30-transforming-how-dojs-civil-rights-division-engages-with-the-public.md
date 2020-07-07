@@ -78,13 +78,13 @@ The core development team across the Civil Rights Division and 18F is still iter
 
 We plan to publish a series of blog posts that dive deeper into key factors that made this engagement and product such a success, including:
 
-* [org-wide Agile transformation](https://docs.google.com/document/d/1WJcyWU9kuffWkRAwLjkQAZjnHc-pUs0V9vjk5jr5k0k/edit#heading=h.uz22mu3e74ez)
+* organization-wide Agile transformation
 * human-centered design
 * working with an empowered Product Owner
-* and more
+* and more...
 
 Stay tuned!
 
 *18F launch team: Heather Battaglia, Lalitha Jonnalagadda, Joe Krzystan, Olesya Minina, Uchenna Moka-Solana, Aviva Oskow, Jacklynn Pham, James Tranovich, Lindsay Young*
 
-*And thank you to the many people who helped along the way:\*\*Elizabeth Ayer, Adam Biaganti, Malaika Carpenter, Rhys Fureigh, Ryan Johnson, Nikki Lee, Dan Perkins, Peter Rowland, Alex Soble, Julie Strothman, Nikki Zeichner, Erin Zimmer Strenio, and the many others who provided feedback*
+*And thank you to the many people who helped along the way: Elizabeth Ayer, Adam Biaganti, Malaika Carpenter, Rhys Fureigh, Ryan Johnson, Nikki Lee, Dan Perkins, Peter Rowland, Alex Soble, Julie Strothman, Nikki Zeichner, Erin Zimmer Strenio, and the many others who provided feedback*
