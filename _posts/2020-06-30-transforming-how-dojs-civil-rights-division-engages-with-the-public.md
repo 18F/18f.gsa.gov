@@ -17,6 +17,7 @@ excerpt: In order to be more responsive to the public’s changing communication
   collaboration with 18F, has launched  a user-friendly online submission
   experience at civilrights.justice.gov that transforms the way the Division
   collects, sorts, and responds to civil rights reports.
+image: /assets/blog/blog-post_header-2.png
 ---
 On Feb. 7, 1961, James Meredith submitted a letter to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state. Through the combined efforts of the local NAACP, the Department of Justice, and the US Supreme Court, Meredith eventually became the first African-American student admitted to the university.
 
