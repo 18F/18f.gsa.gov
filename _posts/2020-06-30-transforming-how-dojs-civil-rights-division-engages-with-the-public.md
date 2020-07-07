@@ -1,6 +1,6 @@
 ---
 title: Transforming how DOJ's Civil Rights Division engages with the public
-date: 2020-07-07
+date: 2020-07-07T00:00:00.000Z
 authors:
   - malaika-carpenter
   - lalitha-jonnalagadda
@@ -19,6 +19,8 @@ excerpt: In order to be more responsive to the public’s changing communication
   collects, sorts, and responds to civil rights reports.
 ---
 On Feb. 7, 1961, James Meredith submitted a letter to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state. Through the combined efforts of the local NAACP, the Department of Justice, and the US Supreme Court, Meredith eventually became the first African-American student admitted to the university.
+
+![how to file old site]({{ site.baseurl }}/assets/blog/how-to-file_old.gif "doj-crt-how-to-file-old-site")
 
 <figure>
   <a href="{{site.baseurl}}/assets/blog/james-meredith-letter.png">
