@@ -20,6 +20,8 @@ excerpt: In order to be more responsive to the public’s changing communication
 ---
 On Feb. 7, 1961, James Meredith submitted a letter to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state. Through the combined efforts of the local NAACP, the Department of Justice, and the US Supreme Court, Meredith eventually became the first African-American student admitted to the university.
 
+![Image of James Meredith letter submitted to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state]({{ site.baseurl }}/assets/blog/james-meredith-letter-sm.png "james-meredith-letter-small")
+
 <figure>
   <a href="{{site.baseurl}}/assets/blog/james-meredith-letter.png">
     <img src="{{site.baseurl}}/assets/blog/james-meredith-letter.png" alt="Image of James Meredith letter submitted to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state."/>
