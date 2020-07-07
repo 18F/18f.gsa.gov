@@ -6,8 +6,8 @@ authors:
   - lalitha-jonnalagadda
   - uchenna-moka-solana
   - olesya-minina
-  - jacklynn-pham
   - aviva-oskow
+  - jacklynn-pham
 tags:
   - product launch
   - agency work
