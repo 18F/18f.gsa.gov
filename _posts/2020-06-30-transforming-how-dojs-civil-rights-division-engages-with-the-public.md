@@ -1,6 +1,6 @@
 ---
 title: Transforming how DOJ's Civil Rights Division engages with the public
-date: July 7, 2020
+date: 2020-07-07
 authors:
   - malaika-carpenter
   - lalitha-jonnalagadda
