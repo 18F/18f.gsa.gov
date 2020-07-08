@@ -41,7 +41,7 @@ layout: default
 {% if page.previous or page.next %}
   <section class="post-pagination grid-container">
     <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-6">
+      <div class="grid-col-6">
         {% if page.previous %}
         <a href="{{ site.baseurl }}{{ page.previous.url }}">
           <span class="link-arrow-left">
@@ -52,7 +52,7 @@ layout: default
         </a>
         {% endif %}
       </div>
-      <div class="tablet:grid-col-6">
+      <div class="grid-col-6">
         {% if page.next %}
         <a href="{{ site.baseurl }}{{ page.next.url }}">
           <span class="link-arrow-right">
