@@ -12,6 +12,11 @@ tags:
   - product launch
   - agency work
   - department of justice
+  - form design
+  - content design
+  - user-centered design
+  - case management system
+  - civil rights
 excerpt: In order to be more responsive to the public’s changing communication
   needs and the increased reporting volume,the Civil Rights Division, in close
   collaboration with 18F, has launched  a user-friendly online submission
