@@ -13,7 +13,7 @@
   article {
     border-top: $border-accent;
     margin-bottom: $theme-site-margins-width;
-    padding-top: $theme-site-margins-width;
+    padding-top: 1rem;
 
     @include at-media('tablet') {
       margin-bottom: 0;
@@ -51,7 +51,7 @@ time {
   font-weight: normal;
   font-size: $h5-font-size;
   color: color('gray-cool-60');
-  margin-bottom: $paragraph-margins-thick;
+  margin-bottom: 1em;
 }
 
 .post-byline {
