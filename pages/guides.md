@@ -9,7 +9,7 @@ banner_cta: true
 18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. **Below are the technical guides that bring those principles into our day-to-day work.**
 
 <div class="page-guides">
-  <div class="usa-grid-full graphic-row">
+  <div class="usa-grid-full grid-row">
     <div class="graphic-list-item">
       <a class="graphic-list-link" href="https://pages.18f.gov/accessibility/">
         <img src="{{ site.baseurl }}/assets/img/guides/accessibility.svg" alt="">
