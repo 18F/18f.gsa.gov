@@ -1,8 +1,8 @@
 {% assign nav_class_suffix = include.nav_class_suffix | default: '' %}
 
 
-<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}{% if include.nav_sticky %} sticky {% endif %}" role="navigation">
-  <button class="sliding-panel-close{{ nav_class_suffix }}">
+<nav class="nav-accordion nav-mobile{{ nav_class_suffix }}{% if include.nav_sticky %} sticky {% endif %}" role="navigation" aria-label="site navigation" tabindex="-1">
+  <button class="sliding-panel-close{{ nav_class_suffix }}" aria-label="close navigation menu">
     {% include svg/icons/close.svg %}
   </button>
 
