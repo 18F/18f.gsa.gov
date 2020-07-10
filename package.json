@@ -41,6 +41,6 @@
   "dependencies": {
     "accesslint-cli": "^2.0.0",
     "netlify-cms": "^2.10.51",
-    "uswds": "^1.6.13"
+    "uswds": "^2.8.0"
   }
 }
