@@ -60,4 +60,34 @@ $(function (){
   $('.search-interface').on("submit", function(){
     $("#search-loading").show();
   })
+
+  // Side Nav
+
+  // Set accordion state on load
+  function setSubnav() {
+    let subnavButton;
+    const screenWidth = window.innerWidth;
+    const subnavButtons = document.querySelectorAll('[aria-controls=subnav-list]');
+    const subnavContent = document.getElementById('subnav-list');
+
+    if (subnavButtons.length > 0) {
+      subnavButton = subnavButtons[0];
+    }
+
+    if (subnavButton && screenWidth < 640) {
+      subnavButton.setAttribute('aria-expanded', false);
+      subnavContent.setAttribute('hidden', '');
+    }
+
+    if (subnavButton && screenWidth >= 640) {
+      subnavButton.setAttribute('aria-expanded', true);
+      subnavContent.removeAttribute('hidden');
+    }
+  }
+
+  // Set accordion onload
+  setSubnav();
+
+  // Set accordion collapse while resize on max size tablet
+  window.addEventListener('resize', setSubnav);
 });
