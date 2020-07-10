@@ -15,7 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jekyll_frontmatter_tests', '~> 0.1.0'
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search', '~> 0.4.5'
   gem 'jekyll_oembed'
@@ -34,6 +33,7 @@ group :development do
 end
 
 group :test do
+  gem 'jekyll_frontmatter_tests', '~> 0.1.0'
   gem 'codeclimate-test-reporter', '~> 1.0.0'
   gem 'simplecov'
 end
