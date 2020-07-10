@@ -27,7 +27,7 @@ group :development do
   gem 'colorize'
   gem 'pry'
   gem 'rack', '>=2.1.4'
-  gem 'rack-jekyll', git: 'git@github.com:adaoraul/rack-jekyll.git', ref: 'a997bd0'
+  gem 'rack-jekyll', git: 'https://github.com/adaoraul/rack-jekyll', ref: 'a997bd0'
   gem 'rb-readline'
   gem 'rspec'
   gem 'selenium-webdriver', '>= 3.1.0'
