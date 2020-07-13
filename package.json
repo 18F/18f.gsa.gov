@@ -10,7 +10,7 @@
     "node": ">=10.14"
   },
   "scripts": {
-    "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_WITHOUT: \"development:test\"' > ./.bundle/config",
+    "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_WITHOUT: \"development:test:jekyll_plugins.jekyll_frontmatter_tests\"' > ./.bundle/config",
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
