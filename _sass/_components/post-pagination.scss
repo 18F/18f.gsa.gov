@@ -14,7 +14,6 @@
 
   .grid-col-6 {
     &:last-child {
-    
       @include at-media('tablet') {
         margin-top: 0;
         text-align: right;

@@ -4,7 +4,7 @@
   }
 
   .usa-accordion__button {
-    background-color: white;
+    background-color: #ffffff;
 
     @include at-media('tablet') {
       background-image: none;
@@ -18,7 +18,7 @@
   }
 
   .usa-sidenav__sublist {
-    .usa-sidenav__item:first-child {
+  .usa-sidenav__item:first-child {
       @include u-border-top('05');
     }
   }
