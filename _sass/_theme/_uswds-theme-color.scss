@@ -18,7 +18,7 @@ $theme-color-base: 'gray-cool-50';
 $theme-color-base-dark: 'gray-cool-60';
 $theme-color-base-darker: 'gray-cool-70';
 $theme-color-base-darkest: 'gray-90';
-$theme-color-base-ink: 'gray-90';
+$theme-color-base-ink: $color-base;
 
 // Primary colors
 $theme-color-primary-family: $color-medium;
@@ -53,13 +53,13 @@ $theme-color-accent-warm-darker: 'orange-60';
 $theme-color-accent-warm-darkest: false;
 
 // Accent cool colors
-$theme-color-accent-cool-family: 'blue-cool';
+$theme-color-accent-cool-family: false;
 $theme-color-accent-cool-lightest: false;
-$theme-color-accent-cool-lighter: 'blue-cool-5v';
-$theme-color-accent-cool-light: 'blue-cool-20v';
-$theme-color-accent-cool: 'cyan-30v';
-$theme-color-accent-cool-dark: 'blue-cool-40v';
-$theme-color-accent-cool-darker: 'blue-cool-60v';
+$theme-color-accent-cool-lighter: false;
+$theme-color-accent-cool-light: false;
+$theme-color-accent-cool: $color-gsa-blue;
+$theme-color-accent-cool-dark: "blue-cool-70v";
+$theme-color-accent-cool-darker: "blue-cool-80";
 $theme-color-accent-cool-darkest: false;
 
 

@@ -13,11 +13,7 @@
 {% if include.footer %}
   {% assign nav_items = navigation['footer'] %}
   {%
-    include navigation/footer-mobile.html
-    nav_items=nav_items
-  %}
-  {%
-    include navigation/footer-desktop.html
+    include navigation/footer.html
     nav_items=nav_items
   %}
 {% endif %}

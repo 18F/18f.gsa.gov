@@ -57,8 +57,8 @@
 }
 
 .usa-footer__primary-link {
-  @include u-padding-x($theme-site-margins-mobile-width);
-  @include u-padding-y(2);
+  padding-bottom: 1rem;
+  padding-top: .5rem;
   @include u-text("ink", "no-underline", "bold");
   display: block;
 
