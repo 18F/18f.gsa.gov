@@ -65,11 +65,6 @@
   @include at-media("mobile-lg") {
     @include u-padding-x(0);
   }
-
-  &:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
 }
 
 .usa-footer__secondary-link {

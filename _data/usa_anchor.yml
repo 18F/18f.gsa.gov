@@ -14,11 +14,12 @@ anchor_data:
       org_primary_email: tts-info@gsa.gov
       org_primary_about: https://www.gsa.gov/tts/
       org_primary_bio: "As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies and technologies to improve the public’s experience with government. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions."
-      org_secondary: Office of Solutions
+      org_secondary: Office of 18f
+      org_secondary_a: Office of 18f
       org_secondary_acronym: TTS Solutions
-      org_secondary_url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions
+      org_secondary_url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/18f
       org_secondary_email: tts-info@gsa.gov
-      org_secondary_about: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions
+      org_secondary_about: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/18f
       org_secondary_bio: "TTS Solutions is a portfolio of products and services that help agencies improve delivery of information and services to the public."
       foia_request_url: "https://www.gsa.gov/reference/freedom-of-information-act-foia"
       fraud_waste_abuse_url: "https://www.gsaig.gov/"

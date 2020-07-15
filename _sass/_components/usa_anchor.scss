@@ -91,7 +91,7 @@
             @include u-margin-bottom('05');
             @include u-text('white');
 
-            a {
+  a {
               @include u-text('no-underline');
               @include u-border-bottom('1px', 'solid', 'white');
 
@@ -103,11 +103,11 @@
             }
           }
         }
-        p {
+  p {
           @include u-text('white');
 
         }
-        a {
+  a {
           @include u-text('base-lightest');
           &:hover{
             @include u-text('white');
@@ -117,8 +117,7 @@
         }
       }
     }
-  
-    button.btn-learn-more {
+  button.btn-learn-more {
       @include u-text('white');
       @include u-border('1px', 'solid', 'white');
       @include u-radius('md');
@@ -221,8 +220,6 @@
       }
     }
   }
-  
-  
   .usa-button-sm {
     @include u-margin-x('05');
     @include u-padding-y('05');
@@ -232,6 +229,6 @@
   .arrow-down {
     @include u-margin-left('105');
     @include u-width('105');
-    
+
   }
   

@@ -18,7 +18,7 @@ footer[role=contentinfo] {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
       color: $color-medium;
