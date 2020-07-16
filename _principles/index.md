@@ -10,9 +10,7 @@ subnav_items:
   - text: Tactics
     permalink: /partnership-principles/#tactics
   - text: Questions
-    permalink: /partnership-principles/#got-questions
-  - text: Contact us
-    permalink: /contact/
+    permalink: /partnership-principles/#questions
 ---
 This guide will help you understand how your agency team and 18F can work together successfully. You'll learn what to expect and how our two teams will form a fed-to-fed partnership that may be different from work you’ve done with private vendors. Many of these ideas build on the [U.S. Digital Services Playbook](https://playbook.cio.gov).
 
@@ -102,6 +100,6 @@ Achieving success depends on building a close working relationship between 18F a
 
 The product owner will lead the product team. While they may not already know best practices in product management, or agile or lean methodologies at the outset, our team will coach them to learn the necessary skills. We've found that an empowered product owner dramatically shortens the time to delivery, reduces overall risk, and creates solutions that align with the agency mission while serving user needs. 
 
-# Got questions?
+# Questions
 
 If you already have a primary contact at 18F, they can answer any questions you may have about these principles. If you don’t yet have a primary contact, please reach out to our Agency Partnerships team at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov). We’ll be more than happy to discuss possibilities and concerns. 

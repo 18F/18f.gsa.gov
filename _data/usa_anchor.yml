@@ -14,8 +14,8 @@ anchor_data:
       org_primary_email: tts-info@gsa.gov
       org_primary_about: https://www.gsa.gov/tts/
       org_primary_bio: "As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies and technologies to improve the public’s experience with government. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions."
-      org_secondary: Office of 18f
-      org_secondary_a: Office of 18f
+      org_secondary: Office of 18F
+      org_secondary_b: Office of 18F
       org_secondary_acronym: TTS Solutions
       org_secondary_url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/18f
       org_secondary_email: tts-info@gsa.gov
