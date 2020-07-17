@@ -7,10 +7,10 @@ hero: false
 redirect_from:
   - /apply/
 subnav_items:
+  - text: Open positions
+    permalink: /join/#open-positions     
   - text: How to apply
     permalink: /join/#how-to-apply
-  - text: Open positions
-    permalink: /join/#open-positions
 ---
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.
