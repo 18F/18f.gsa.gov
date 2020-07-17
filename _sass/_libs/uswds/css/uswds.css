@@ -5849,7 +5849,7 @@ input[type=search]{
 }
 .usa-sidenav .usa-current{
   position:relative;
-  color:#005ea2;
+  color:#046b99
   font-weight:bold;
 }
 .usa-sidenav .usa-current::after{
