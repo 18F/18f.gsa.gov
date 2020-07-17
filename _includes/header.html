@@ -7,7 +7,7 @@
       <div class="usa-logo">
         <a class="site-logo media_link" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
-          logo" {% if page.url == '/' %} aria-hidden="true" {% endif %} ></a
+          logo" {% if page.url == '/' %} aria-hidden="false" {% endif %} ></a
         >
         {% if page.url == '/' %}
         <h1 class="usa-sr-only">18F</h1>
@@ -15,7 +15,7 @@
         <span class="usa-sr-only">18F</span>
         {% endif %}
       </div>
-      <button class="usa-menu-btn">Menu</button>
+      <button class="usa-button--accent-cool usa-menu-btn">Menu</button>
     </div>
       {% include navigation.html navbar=true %}
   </div>
