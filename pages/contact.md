@@ -30,9 +30,9 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
     <aside class="usa-section tablet:grid-col-4 col-last">
       <h4 class="sidebar-heading-border">Learn more about 18F</h4>
         <ul>
-          <li><a href="https://18f.gsa.gov/what-we-deliver/">Past projects</a></li>
-          <li><a href="https://18f.gsa.gov/partnership-principles/">Partnership principles</a></li>
-          <li><a href="https://18f.gsa.gov/about/#funding-and-agreements">How we're funded</a></li>
+          <li><a href="{{ site.baseurl }}/what-we-deliver/">Past projects</a></li>
+          <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
+          <li><a href="{{ site.baseurl }}/about/#funding-and-agreements">How we're funded</a></li>
         </ul>
         <h4 class="sidebar-heading-border">Follow 18F</h4>
         <ul class="usa-list usa-list--unstyled">
