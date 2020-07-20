@@ -10,6 +10,7 @@
     "node": ">=10.14"
   },
   "scripts": {
+    "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "lint-508": "bash ./accessibility-scan",
@@ -40,7 +41,8 @@
   },
   "dependencies": {
     "accesslint-cli": "^2.0.0",
-    "netlify-cms": "^2.10.51",
+    "jquery": "^3.5.1",
+    "netlify-cms": "^2.10.54",
     "uswds": "^1.6.13"
   }
 }
