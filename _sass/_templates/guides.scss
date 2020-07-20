@@ -10,6 +10,9 @@
       @include grid-col(3);
       width: 30%;
     }
+    img {
+      max-width: 6rem;
+    }
   }
 
   .graphic-row {
@@ -42,11 +45,12 @@
         color: $color-medium-hover;
       }
     }
+    img {
+      max-width: 6rem;
+    }
   }
 
-  img {
-    max-width: 6rem;
-  }
+
 
   .link-arrow-right {
     margin-top: 3rem;
