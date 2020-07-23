@@ -61,7 +61,7 @@ header_border: true
           <blockquote>
             <p>&ldquo;{{ page.quote }}&rdquo;</p>
             {% if page.quote_source %}
-              <cite>{{ page.quote_source | prepend: '– ' | markdownify }}</cite>
+              <h5>{{ page.quote_source | prepend: '– ' | markdownify }}</h5>
             {% endif %}
           </blockquote>
         {% endif %}

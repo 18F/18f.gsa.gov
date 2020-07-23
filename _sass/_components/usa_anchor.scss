@@ -1,19 +1,19 @@
 // Anchor component - - - - - - - - - - - - - - -
 // Using the USWDS Design Tokens
-
 .component-anchor { 
   background-color: $theme-color-base-ink;
   @include u-text('white');
   h3 {
-      @include u-font('sans', 'md');
+    @include u-font('sans', 'md');
+
     }
   .org-short {
-      @include u-padding-y(3);
-      @include u-display('block');
-      @include at-media('tablet') {
-        @include u-display('flex');
-        @include u-flex('align-center');
-        @include u-flex('justify');
+    @include u-padding-y(3);
+    @include u-display('block');
+    @include at-media('tablet') {
+      @include u-display('flex');
+      @include u-flex('align-center');
+      @include u-flex('justify');
 
       }
   span {
@@ -21,20 +21,22 @@
 
       }
   .org-copy {
-        @include u-display('flex');
-        @include u-flex('align-start');
-        @include at-media('tablet'){
-        @include u-flex('align-center');
+    @include u-display('flex');
+    @include u-flex('align-start');
+    @include at-media('tablet'){
+      @include u-flex('align-center');
+    
+    }
 
-        }
-  p {
-          @include u-text('white');
-          @include u-margin(0);
-          @include at-media('tablet'){
-            @include u-measure(5);
+   p {
+     @include u-text('white');
+     @include u-margin(0);
+     @include at-media('tablet'){
+       @include u-measure(5);
 
           }
         }
+        
   .org-img {
           @include u-margin-right(2);
           @include u-maxw(7);
@@ -60,7 +62,7 @@
           @include u-text('white');
 
         }
-        .more{
+        .more {
           @include u-text('underline');
 
         }
@@ -103,13 +105,15 @@
             }
           }
         }
+
   p {
           @include u-text('white');
 
         }
+
   a {
           @include u-text('base-lightest');
-          &:hover{
+          &:hover {
             @include u-text('white');
             @include u-border-bottom('2px', 'solid', 'white');
 
@@ -117,6 +121,7 @@
         }
       }
     }
+
   button.btn-learn-more {
       @include u-text('white');
       @include u-border('1px', 'solid', 'white');
@@ -124,7 +129,6 @@
       background: none;
       box-shadow: none;
       @include u-width('auto');
-  
       @include u-margin(0);
       @include u-margin-left(9);
       @include u-margin-top(1);
@@ -148,23 +152,22 @@
       }
     }
     .usa-accordion__button[aria-expanded=false] {
-      background-image: url('../img/angle-arrow-down-white.svg'),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+      background-image: url('../img/angle-arrow-down-white.svg'), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
       background-size: .85rem;
       background-repeat: no-repeat;
       background-position: 6.65em center;
     }
     .usa-accordion__button[aria-expanded=true] {
-      background-image: url('../img/angle-arrow-up-white.svg'),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+      background-image: url('../img/angle-arrow-up-white.svg'), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
       background-size: .85rem;
       background-repeat: no-repeat;
       background-position: 6.65em center;
     }
   }
-  
   .component-anchor-support {
     @include u-bg('black');
     @include u-text('white');
-    .usagov{
+    .usagov {
       @include u-padding-y(1);
       @include u-display('block');
       @include at-media('tablet') {
