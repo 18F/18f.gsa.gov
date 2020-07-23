@@ -36,7 +36,7 @@
     
       }
     }
-    
+
   .org-img {
           @include u-margin-right(2);
           @include u-maxw(7);
@@ -110,9 +110,10 @@
 
   a {
       @include u-text('base-lightest');
-      &:hover {
-        @include u-text('white');
-        @include u-border-bottom('2px', 'solid', 'white');
+  
+  &:hover {
+    @include u-text('white');
+    @include u-border-bottom('2px', 'solid', 'white');
 
         }
       }
