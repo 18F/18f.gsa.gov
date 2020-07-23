@@ -17,9 +17,9 @@
     @include u-padding(0);
   }
 
-    .usa-sidenav__sublist {
-      .usa-sidenav__item:first-child {
-        @include u-border-top('05');
+  .usa-sidenav__sublist {
+    .usa-sidenav__item:first-child {
+      @include u-border-top('05');
 
     }
   }
