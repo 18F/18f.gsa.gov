@@ -3,8 +3,8 @@
 
 @mixin widget-small() {
   @include u-padding-y(2);
-  border-bottom: 1px solid #f1f1f1;
-  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid $color-gray-lightest;
+  border-top: 1px solid $color-gray-lightest;
   font-size: $h5-font-size;
   font-weight: $theme-font-weight-bold;
 }
