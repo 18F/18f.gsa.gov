@@ -44,6 +44,7 @@ exclude:
 - _posts/2015-12-08-using-emoji-for-knowledge-sharing.md
 - _posts/2019-03-22-18F-5-anniv-fav-project.md
 - _posts/2015-10-29-welcome-to-betafec.md
+- _posts/2020-03-05-readmes-for-you-and-me.md
 - _posts/2016-05-17-reimagining-federal-websites-with-the-draft-us-web-design-standards.md
 - _posts/2016-04-04-national-earthquake-information-centers-open-source-team.md
 - _posts/2019-02-12-open-forest-launch-post.md
@@ -62,6 +63,7 @@ exclude:
 - _posts/2015-11-03-content-strategy-for-all-insights-from-cfpb-natalie-kurz.md
 - _posts/2016-11-04-code-gov-the-next-milestone-federal-open-source-code.md
 - _posts/2016-09-27-pro-tips-for-data-friendly-regulations-proposals.md
+- _posts/2020-06-30-transforming-how-dojs-civil-rights-division-engages-with-the-public.md
 - _posts/2018-08-02-ask-18f-talent.md
 - _posts/2015-03-24-making-twitter-images-more-accessible.md
 - _posts/2018-02-28-ask-18f-data-collection.md
@@ -71,6 +73,7 @@ exclude:
 - _posts/2018-02-21-technology-transformation-services-launches-new-job-site.md
 - _posts/2015-03-17-does-18f-pass-the-bechdel-test-for-tech.md
 - _posts/2018-07-03-presidential-innovation-fellows-bringing-new-approaches-to-nations-biggest-challenges.md
+- _posts/2020-03-24-continuous-learning-for-product-managers.md
 - _posts/2015-06-25-improving-healthcare-gov-experience.md
 - _posts/2016-11-25-what-18f-is-thankful-for-this-thanksgiving.md
 - _posts/2018-04-17-so-youre-a-product-owner.md
@@ -113,6 +116,7 @@ exclude:
 - _posts/2014-05-10-make-gov-apis-better-with-user-experience.md
 - _posts/2015-07-15-openfec-api-update.md
 - _posts/2017-03-15-one-agencys-investments-open-source-mean-others-benefit.md
+- _posts/2020-04-23-saving-time-and-improving-data-quality-for-the-national-school-lunch-breakfast-program.md
 - _posts/2014-07-15-hot-off-the-press-18fs-api-standards.md
 - _posts/2014-04-28-18f-demo-day-may-9-2014.md
 - _posts/2019-11-21-interior-becoming-a-product-manager-post.md
@@ -131,6 +135,7 @@ exclude:
 - _posts/2018-07-19-taking-the-ato-process-from-6-months-to-30-days.md
 - _posts/2016-10-28-california-takes-new-approach-procurement.md
 - _posts/2014-09-04-a-new-look-at-the-freedom-of-information-act.md
+- _posts/2020-06-03-making-critical-government-information-more-resilient.md
 - _posts/2016-04-05-three-teams-using-the-draft-us-web-design-standards-talk-about-their-experiences.md
 - _posts/2015-08-10-18f-design-methods.md
 - _posts/2015-07-17-the-new-10.md
@@ -139,13 +144,17 @@ exclude:
 - _posts/2015-06-08-the-us-government-is-moving-to-https-everywhere.md
 - _posts/2016-03-22-helping-california-buy-a-new-child-welfare-system.md
 - _posts/2015-03-31-focus-on-accessibility.md
+- _posts/2020-02-20-areas-for-growth-part-1-cad.md
 - _posts/2014-12-11-large-scale-development-culture-change.md
 - _posts/2016-03-04-how-people-use-proxies-to-interact-with-the-government.md
 - _posts/2017-05-11-the-next-steps-towards-bug-bounty-program-for-technology-transformation-service.md
+- _posts/2020-06-23-building-trust-in-a-public-health-crisis.md
 - _posts/2015-12-11-how-we-test-18f-gsa-gov.md
 - _posts/2014-11-17-taking-control-of-our-website-with-jekyll-and-webhooks.md
+- _posts/2020-03-18-an-acquisition-retrospective.md
 - _posts/2015-05-11-moveforward.md
 - _posts/2015-12-29-is-your-project-using-agilefall.md
+- _posts/2020-03-10-ask-18f-po-vs-cor.md
 - _posts/2016-04-26-thinking-about-the-future-of-the-post-office-an-interview-with-amanda-weaver.md
 - _posts/2018-07-12-the-case-for-open-source-software.md
 - _posts/2015-10-06-how-we-start-a-new-project.md
@@ -172,7 +181,9 @@ exclude:
 - _posts/2016-03-28-interesting-things-we-learned-from-examining-traffic-patterns-on-analytics-usa-gov.md
 - _posts/2016-08-11-holly-allen-helping-engineer-a-better-18F.md
 - _posts/2016-01-08-18f-new-years-resolution-be-even-more-open.md
+- _posts/2020-05-28-design-research-in-critical-times.md
 - _posts/2016-05-13-how-18f-handles-information-security-and-third-party-applications.md
+- _posts/2020-02-18-forms-resource-federalist.md
 - _posts/2016-01-21-what-we-can-learn-from-the-interiors-social-feeds.md
 - _posts/2015-08-06-communicart-tool-will-streamline-purchase-card-process.md
 - _posts/2016-01-25-how-user-story-estimation-helps-my-team-deliver-value.md
@@ -202,8 +213,10 @@ exclude:
 - _posts/2016-02-09-tips-for-capturing-the-best-data-from-user-interviews.md
 - _posts/2016-05-18-why-were-moving-18f-gsa-gov-to-federalist.md
 - _posts/2014-09-18-getting-to-work-for-the-american-people.md
+- _posts/2020-03-19-sixth-anniversary.md
 - _posts/2017-06-06-fractal-and-federalist-join-the-us-web-design-standards.md
 - _posts/2015-10-26-micro-purchase-criteria-announcement.md
+- _posts/2020-02-06-even-with-a-design-system-you-still-need-a-designer.md
 - _posts/2015-04-01-govtechhack-hacking-for-civic-improvement.md
 - _posts/2019-03-19-18F-5-Anniversary-achieve.md
 - _posts/2015-05-28-18F-guides.md
@@ -253,6 +266,7 @@ exclude:
 - _posts/2016-02-24-two-new-open-positions-to-guide-our-business-and-our-people.md
 - _posts/2016-07-26-buying-better-digital-products-part-2-setting-the-product-vision-and-strategy.md
 - _posts/2017-09-08-forest-service-six-month-check.md
+- _posts/2020-05-12-rapid-implementation-of-policy-as-code.md
 - _posts/2016-01-12-hacking-inclusion-by-customizing-a-slack-bot.md
 - _posts/2016-10-26-writing-for-web-easy-writing-for-users-not.md
 - _posts/2017-09-20-managing-custom-software-development-in-government-when-youre-not-a-software-engineer.md
@@ -273,6 +287,7 @@ exclude:
 - _posts/2016-05-12-introducing-18fs-new-visual-identity.md
 - _posts/2016-08-08-facts-about-publishing-open-source-code-in-government.md
 - _posts/2015-05-12-on-culture-change-a-code-of-conduct.md
+- _posts/2020-04-09-18f-help-during-critical-times.md
 - _posts/2015-12-23-looking-back-2015-our-own-words.md
 - _posts/2017-10-03-building-a-large-scale-design-system.md
 - _posts/2016-11-14-modular-procurement-state-local-government.md
@@ -319,6 +334,7 @@ exclude:
 - _posts/2014-05-14-hacking-bureaucracy-improving-hiring-and-software.md
 - _posts/2016-04-19-looking-at-the-different-ways-to-test-content.md
 - _posts/2014-05-09-a-few-notes-on-notalone-gov.md
+- _posts/2020-04-21-a-token-of-our-affection-uswds-2.md
 - _posts/2015-09-28-web-design-standards.md
 - _posts/2017-11-30-improving-government-outcomes-through-an-agile-contract-format.md
 - _posts/2016-02-23-software-maintenance-is-an-anti-pattern.md
@@ -369,6 +385,7 @@ exclude:
 - _posts/2018-10-16-exploring-a-new-way-to-make-eligibility-rules-easier-to-implement.md
 - _posts/2017-01-10-mark-hopson-negotiating-on-americas-behalf.md
 - _posts/2016-07-13-3-ways-for-digital-acqusition-teams-to-work-better.md
+- _posts/2020-02-27-areas-for-growth-2-mixed-methods.md
 - _posts/2014-04-11-open-source-terms-of-service-a-better-developer.md
 - _posts/2016-08-09-the-role-of-bot-bidding-in-micro-purchase-auctions.md
 - _posts/2018-08-15-shared-infrastructure-as-code.md
@@ -425,6 +442,7 @@ exclude:
 - _posts/2015-09-15-federalist-platform-launch.md
 - _posts/2015-09-21-new-citizenship-resources.md
 - _posts/2014-05-19-packaging-up-api-usability-testing-for-agency-re-use.md
+- _posts/2020-03-31-building-a-collaborative-culture.md
 - _posts/2015-05-14-18Fpages.md
 - _posts/2018-03-13-win-big-by-going-small.md
 - _posts/2016-06-02-open-data-democratizes-innovation.md

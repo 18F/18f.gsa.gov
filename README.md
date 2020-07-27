@@ -17,7 +17,9 @@ This repository houses the 18F website. We use the [U.S. Web Design System](http
 
 A detailed history of the past work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
 
-## Installation
+## Installation and Deployment
+
+__*Note:*__ _The Federalist platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the Federalist deployment and keep the tests working in CI, a Federalist specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The Federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the Federalist platform._
 
 Run each of the following steps to get the site up and running.
 

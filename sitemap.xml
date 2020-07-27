@@ -4,12 +4,10 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   {% if site.url %}
-    {% if site.baseurl == "" %}
-      {% assign site_url = site.url | append: site.baseurl %}
-    {% elsif site.baseurl == '/site' %}
+    {% if site.baseurl == '/site' %}
       {% assign site_url = site.localhost | append: site.baseurl %}
     {% else %}
-      {% assign site_url = site.federalist_url | append: site.baseurl %}
+      {% assign site_url = site.url | append: site.baseurl %}
     {% endif %}
   {% else %}
     {% assign site_url = site.github.url %}

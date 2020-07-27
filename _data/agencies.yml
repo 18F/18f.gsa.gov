@@ -10,7 +10,7 @@
 - name: Center for Medicaid and Medicare Services
   logo: /assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
 - name: Consumer Financial Protection Bureau
-  acronym: CFBP
+  acronym: CFPB
   logo: /assets/img/logos/agencies/cfpb.png
 - name: Department of Agriculture
   acronym: USDA
@@ -55,7 +55,7 @@
   logo: /assets/img/logos/agencies/nsf.png
 - name: The Library of Congress
   logo: /assets/img/logos/agencies/loc.png
-- name: United Sates Tax Court
+- name: United States Tax Court
   logo: /assets/img/logos/agencies/tax-court.png
 - name: Environmental Protection Agency
   acronym: EPA
@@ -74,7 +74,7 @@
 - name: Office of Personnel Management
   acronym: OPM
   logo: /assets/img/logos/agencies/OPM.png
-- name: Alaska Department of Health and Human Services
+- name: Alaska Department of Health and Social Services
   logo: /assets/img/logos/agencies/alaska-dhss.png
 - name: California Child Welfare Digital Services
   acronym: CWDS
