@@ -23,7 +23,7 @@
   .org-copy {
     @include u-display('flex');
     @include u-flex('align-start');
-    @include at-media('tablet'){
+    @include at-media('tablet') {
       @include u-flex('align-center');
   
   }
@@ -108,6 +108,7 @@
 
   a {
     @include u-text('base-lightest');
+    
     &:hover {
       @include u-text('white');
       @include u-border-bottom('2px', 'solid', 'white');
