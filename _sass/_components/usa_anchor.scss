@@ -107,11 +107,11 @@
     }
 
   a {
-    @include u-text('base-lightest');
-    
-    &:hover {
-      @include u-text('white');
-      @include u-border-bottom('2px', 'solid', 'white');
+      @include u-text('base-lightest');
+      
+      &:hover {
+        @include u-text('white');
+        @include u-border-bottom('2px', 'solid', 'white');
 
         }
       }
