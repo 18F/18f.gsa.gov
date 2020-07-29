@@ -113,11 +113,11 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
 
 We’ll start with a Path Analysis and move directly to an Experiment & Iterate phase (both described above) as soon as possible. With this bundle option, we are able to more flexibly move between the phases of the project, without losing momentum.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="bundle">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="bundle">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ bundle-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
@@ -165,11 +165,11 @@ Your contracting officer will conduct the procurement with guidance and coaching
 
 18F can also provide post-award support for additional fees.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="acquisition-consulting">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="acquisition-consulting">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ ac-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
@@ -194,11 +194,11 @@ Your contracting officer will conduct the procurement with guidance and coaching
 In each of our projects, our teams will work to build your agency’s capacity for agile digital service delivery. We’ll empower your team to continue to do this work beyond our engagement.
 
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="assisted-acquisition">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="assisted-acquisition">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ aa-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
