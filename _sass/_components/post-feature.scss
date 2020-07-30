@@ -58,7 +58,7 @@ time {
   + .post-date,
   + time {
     white-space: nowrap;
-    margin-bottom: $paragraph-margins-thick;
+    margin-bottom: 3rem;
 
     &::before {
       content: '\2022';
