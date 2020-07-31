@@ -1,0 +1,42 @@
+{% assign nav_class_suffix = include.nav_class_suffix | default: '' %}
+
+
+<nav class="usa-nav nav-accordion position-fixed z-500" role="navigation" aria-label="Primary Side Navigation">
+  <button class="usa-nav__close">
+    <img src="{{ '/assets/img/close.svg' | prepend: site.baseurl }}" alt="close">
+  </button>
+
+  <ul class="usa-sidenav">
+  {% for item in include.nav_items %}
+    <li class="usa-sidenav__item">
+    {% if item.permalink %}
+      {% assign item_link = item.permalink | prepend: site.baseurl %}
+    {% else %}
+      {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+    {% endif %}
+
+    {% if item.multiple_permalinks %}
+      {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+    {% else %}
+      {% assign is_matching = page.url | matches_url: item.permalink %}
+    {% endif %}
+
+    <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+    {% if item.children and is_matching %}
+      <ul class="usa-sidenav__sublist">
+      {% for sub_item in item.children %}
+        <li class="usa-sidenav__item">
+          {% if sub_item.permalink %}
+            {% assign sub_item_link = sub_item.permalink | prepend: site.baseurl %}
+          {% else %}
+            {% assign sub_item_link = sub_item.text | slugify | hash_link | prepend: site.baseurl %}
+          {% endif %}
+          <a href="{{ sub_item_link }}">{{ sub_item.text }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</nav>

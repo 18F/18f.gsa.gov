@@ -15,9 +15,9 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="usa-grid usa-section break-bottom-gray">
-  <section>
-    <div class="usa-width-two-thirds">
+<div class="grid-container usa-section break-bottom-gray">
+  <section class="grid-row">
+    <div class="tablet:grid-col-8">
       <p>
         18F partners with federal agencies to improve the user experience of government 
         services by helping them build and buy technology. If you're looking to implement 
@@ -28,11 +28,11 @@ gridless: true
   </section>
 </div>
 
-<div class="usa-grid">
+<div class="grid-container">
   <section class="usa-section break-bottom-gray">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
-      <div class="usa-flex usa-flex-wrap">
+      <div class="grid-row grid-gap">
         {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for featured in featured_services %}
@@ -58,7 +58,7 @@ gridless: true
   </section>
 </div>
 
-<section class="usa-grid usa-section break-bottom-gray">
+<section class="grid-container usa-section break-bottom-gray">
   <section class="pad-right-left">
     <div class="home-testimonial">
       18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.
@@ -70,14 +70,14 @@ gridless: true
 </section>
 
 <div class="usa-section background-gray">
-  <section class="usa-grid">
+  <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
-    <div class="usa-grid-full">
-      <ul class="list-columns">
+    <div>
+      <ul class="list-columns grid-row grid-gap">
       {% for group in partner_groups %}
-        <li class="usa-width-one-third">
+        <li class="tablet:grid-col-4">
           <ul class="list-columns list-images">
           {% for partner in group %}
             <li class="list-images-item">

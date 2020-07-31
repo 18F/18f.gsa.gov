@@ -1,10 +1,10 @@
-<section class="usa-grid usa-section posts_feature">
+<section class="grid-container usa-section posts_feature">
   {% if site.related_posts.size > 0 %}
     <h2>Related posts</h2>
   {% endif %}
-  <ul>
+  <ul class="grid-row grid-gap">
   {% for post in page.related_posts %}
-    <li class="usa-width-one-third">
+    <li class="tablet:grid-col-4">
       <article>
         <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
         <h3 class="posts_feature-heading">

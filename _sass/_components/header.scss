@@ -1,13 +1,5 @@
 // Header
 // ==========================
-.usa-disclaimer {
-  border-bottom: 1px solid $color-white;
-  font-size: 1.1rem;
-}
-.usa-disclaimer-official {
-  display: block;
-}
-
 header[role=banner] {
   ul {
     @include unstyled-list;
@@ -19,10 +11,11 @@ header[role=banner] {
       width: auto;
 
       a {
-        @include padding(2.3rem 2rem);
+        @include u-padding-y(2.5);
+        @include u-padding-x(2);
 
-        color: $color-gray;
-        font-weight: $font-bold;
+        color: color('gray-cool-60');
+        font-weight: $theme-font-weight-bold;
         text-decoration: none;
 
         &:hover,
@@ -32,7 +25,7 @@ header[role=banner] {
         }
 
         &:active {
-          background-color: $color-gray-lightest;
+          background-color: color('gray-cool-5');
         }
 
         &.usa-current {
@@ -56,19 +49,19 @@ header[role=banner] {
   }
 
   nav[role=navigation] {
-    @include margin(2.15rem null);
+    @include u-margin-y(2);
     display: none;
     float: right;
-    font-size: $small-font-size;
+    font-size: $theme-small-font-size;
 
-    @include media($medium-screen + $nav-width-extra) {
+    @include at-media('tablet-lg') {
       display: block;
     }
   }
 }
 
 .site-logo {
-  @include margin(1rem null);
+  @include u-margin-y(0);
   display: block;
   float: left;
 
@@ -81,29 +74,29 @@ header[role=banner] {
 .menu-btn {
   @include button-unstyled;
   background-color: $color-medium;
-  border-radius: $border-radius;
-  color: $color-white;
+  border-radius: units($theme-border-radius-md);
+  color: color('white');
   display: inline;
   float: right;
   font-size: $h6-font-size;
-  line-height: 4rem;
-  height: 4rem;
-  margin-top: 1.2rem;
+  line-height: 2rem;
+  height: 3rem;
+  margin-right: 1rem;
   width: 5.8rem;
   text-align: center;
   text-decoration: none;
 
-  @include media($medium-screen + $nav-width-extra) {
+  @include at-media('desktop') {
     display: none;
   }
 
   &:hover {
-    color: $color-white;
+    color: color('white');
     background-color: $color-dark;
   }
 
   &:visited {
-    color: $color-white;
+    color: color('white');
   }
 }
 // scss-lint:enable PropertyCount

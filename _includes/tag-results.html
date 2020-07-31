@@ -11,7 +11,7 @@
           </h3>
           {% unless include.limit_metadata %}
             {% include post-author.html context='post' %}
-            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
           {% endunless %}
           {% unless include.limit_metadata %}
             <span class="post-tags" itemprop="keywords">

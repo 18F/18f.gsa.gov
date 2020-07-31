@@ -1,20 +1,19 @@
 .nav-mobile-styleguide {
   @extend .nav-mobile;
 
-  border-right: 1px solid $color-gray-light;
+  border-right: 1px solid color('gray-cool-30');
   overflow: auto;
-  padding-bottom: $sg-header-height + $site-margins;
+  padding-bottom: $sg-header-height + $theme-site-margins-width;
   position: fixed;
   top: $sg-header-height;
   width: $sliding-panel-width;
 
   .usa-sidenav-list {
-    margin-top: $site-margins;
+    margin-top: $theme-site-margins-width;
   }
 
-  @include media($medium-screen + $nav-width-extra) {
-    @include transform(translateX(0));
-
+  @include at-media('tablet-lg') {
+    transform: translateX(0);
     display: inline-block;
     left: 0;
 
@@ -29,7 +28,7 @@
 }
 
 .menu-btn-styleguide {
-  @include media($medium-screen + $nav-width-extra) {
+  @include at-media('tablet-lg') {
     display: none;
   }
 
@@ -41,7 +40,7 @@
 .sliding-panel-close-styleguide {
   @extend .sliding-panel-close;
 
-  @include media($medium-screen + $nav-width-extra) {
+  @include at-media('tablet-lg') {
     display: none;
   }
 }

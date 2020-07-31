@@ -8,12 +8,12 @@
   margin: 0;
   position: relative;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     height: 23rem;
   }
 
   figcaption {
-    background: rgba($color-gray-lightest, 0.85);
+    background: rgba(color('gray-cool-5'), 0.85);
     bottom: 0;
     color: $color-black;
     line-height: $paragraph-line-height;
@@ -28,10 +28,10 @@
 
 .single-post {
   article {
-    @include margin(0 null $section-margins null);
+    @include u-margin-bottom($section-margins);
 
-    @include media($medium-screen + 200px) {
-      @include margin($section-margins auto);
+    @include at-media('tablet-lg') {
+      @include u-margin-x(auto);
       max-width: 61rem;
     }
 
@@ -40,7 +40,7 @@
     }
 
     img {
-      @include margin($site-margins null);
+      @include u-margin-top($theme-site-margins-width);
     }
 
     img.pquote-img,
@@ -49,25 +49,25 @@
       margin-right: 0;
       margin-top: 0;
 
-      @include media($medium-screen) {
+      @include at-media('tablet') {
         margin-bottom: 0;
         margin-right: $paragraph-margins;
       }
     }
 
     figure {
-      @include margin($site-margins null);
+      @include u-margin-top($theme-site-margins-width);
       text-align: center; // center image if less than full width
 
       img {
-        @include margin(0 null);
+        @include u-margin-top(0);
       }
     }
   }
 }
 
 .post-header {
-  margin-bottom: $section-margins;
+  margin-bottom: 4rem;
 }
 
 .posts {
@@ -81,7 +81,7 @@
   display: flex;
   margin-bottom: 1rem;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-bottom: 1rem;
   }
 
@@ -92,7 +92,7 @@
 
 .icon-list-image-blog {
   margin: 0;
-  margin-right: $site-margins;
+  margin-right: $theme-site-margins-width;
 
   svg {
     width: 50px;
@@ -115,4 +115,3 @@
 .icon-list-wrapper-blog {
   padding-left: 0;
 }
-

@@ -1,19 +1,13 @@
 $sg-header-height: 10rem;
-$margins-width: $sliding-panel-width + (2 * $site-margins);
-
-.styleguide-main-content {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
+$margins-width: 170px;
 
 .styleguide-details {
-  margin-bottom: $site-margins;
-  margin-top: $site-margins;
+  margin-bottom: $theme-site-margins-width;
+  margin-top: $theme-site-margins-width;
 }
 
 .styleguide-border {
-  border: 1px solid $color-gray-lightest;
+  border: 1px solid color('gray-cool-5');
 }
 
 .styleguide-content-wrapper {
@@ -27,10 +21,10 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
 
 .styleguide-header-wrapper {
   align-items: center;
-  border-bottom: 1px solid $color-gray-light;
+  border-bottom: 1px solid color('gray-cool-30');
   display: flex;
   height: $sg-header-height;
-  padding: $site-margins;
+  padding: $theme-site-margins-width;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -54,44 +48,8 @@ $margins-width: $sliding-panel-width + (2 * $site-margins);
   }
 }
 
-
-.styleguide-content {
-  display: inline-block;
-  margin-bottom: $sg-header-height;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: $sg-header-height;
-  max-width: $site-max-width;
-  padding-left: $site-margins;
-  padding-right: $site-margins;
-  width: 100%;
-
-  h2 + h3 {
-    margin-top: 0;
-    padding-top: $site-margins;
-  }
-
-  > h3:target,
-  hr + h3 {
-    margin-top: 0;
-    padding-top: $sg-header-height + $site-margins;
-  }
-
-  hr {
-    margin-top: $sg-header-height + $site-margins;
-  }
-
-  @include media($medium-screen + $nav-width-extra) {
-    margin-left: $site-margins + $sliding-panel-width;
-    margin-right: $site-margins;
-    padding-left: 0;
-    padding-right: 0;
-    width: calc(100% - #{$margins-width});
-  }
-}
-
 .styleguide-logo {
-  height: $sg-header-height - (2 * $site-margins);
+  height: $sg-header-height - (2 * $theme-site-margins-width);
   margin-right: $paragraph-margins;
   width: auto;
 }

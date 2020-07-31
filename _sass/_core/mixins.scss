@@ -1,16 +1,14 @@
 $color-opaque: rgba(0, 0, 0, 0.2);
-$site-box-shadow: 0 1px 9px $color-opaque;
-$site-box-shadow-hover: 0 1px 1px $color-opaque;
 
 @mixin hover-box-shadow() {
-  @include prefixer(box-shadow, $site-box-shadow, webkit moz ms o spec);
+  @include u-shadow(2);
 
   &:hover {
-    @include prefixer(box-shadow, $site-box-shadow-hover, webkit moz ms o spec);
+    @include u-shadow(3);
   }
 
   &:active {
-    box-shadow: $box-shadow;
+    box-shadow: u-shadow(2);
   }
 }
 
@@ -18,5 +16,55 @@ $site-box-shadow-hover: 0 1px 1px $color-opaque;
 @mixin media-max($bp) {
   @media screen and (max-width: #{$bp}) {
     @content;
+  }
+}
+
+@mixin allow-layout-classes {
+  @include u-margin-x(auto);
+
+  &.width-one-half {
+    @include at-media('tablet') {
+      width: 50%;
+    }
+  }
+
+  &.width-one-third {
+    @include at-media('tablet') {
+      width: 33%;
+    }
+  }
+
+  &.width-two-thirds {
+    @include at-media('tablet') {
+      width: 67%;
+    }
+  }
+
+  &.width-one-fourth {
+    @include at-media('tablet') {
+      width: 25%;
+    }
+  }
+
+  &.width-three-fourths {
+    @include at-media('tablet') {
+      width: 75%;
+    }
+  }
+
+  &.align-left {
+    @include at-media('tablet') {
+      float: left;
+      margin-right: 2em;
+      margin-top: 0.5em;
+    }
+  }
+
+  &.align-right {
+    @include at-media('tablet') {
+      float: right;
+      margin-left: 2em;
+      margin-top: 0.5em;
+    }
   }
 }

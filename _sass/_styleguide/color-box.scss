@@ -37,31 +37,31 @@
 }
 
 .cb-gray {
-  background: $color-gray;
+  background: color('gray-cool-60');
 }
 
 .cb-gray-lightest {
-  background: $color-gray-lightest;
+  background: color('gray-cool-5');
 }
 
 .cb-inverse {
   background: $color-inverse;
-  border: 1px solid $color-gray-lightest;
+  border: 1px solid color('gray-cool-5');
 }
 
 //backgrounds
 .styleguide-bg-box {
-  border: 1px solid $color-gray-lightest;
+  border: 1px solid color('gray-cool-5');
   height: 25rem;
-  margin-bottom: $site-margins;
-  padding: $site-margins;
+  margin-bottom: $theme-site-margins-width;
+  padding: $theme-site-margins-width;
   width: 70%;
 }
 
 // Box
 .box-rem-wrapper {
   align-items: center;
-  border: 1px solid $color-gray-lightest;
+  border: 1px solid color('gray-cool-5');
   display: inline-block;
   padding: $paragraph-margins;
 }
@@ -75,5 +75,5 @@
 }
 
 .box-base-wrapper {
-  margin-bottom: $site-margins;
+  margin-bottom: $theme-site-margins-width;
 }

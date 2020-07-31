@@ -1,28 +1,22 @@
 <a class="skipnav" href="#main-content">Skip to main content</a>
-<header role="banner">
-  <div class="usa-disclaimer">
-    <div class="usa-disclaimer-official usa-grid">
-      <img src="{{ site.baseurl }}/assets/img/global/usa-flag.png" alt="U.S. flag">
-      <p>An official website of the United States government</p>
-    </div>
-  </div>
-  <div class="site-navbar usa-grid">
-    <button class="menu-btn" aria-expanded="false">Menu</button>
-    <a class="site-logo media_link" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F logo"
-      {% if page.url == '/' %}
-        aria-hidden="true"
-      {% endif %}
-      ></a>
-    {% if page.url == '/' %}
-      <h1 class="usa-sr-only">18F</h1>
-      {% else %}
+{% include banner.html %}
+<div class="overlay"></div>
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar height-auto flex-align-center">
+      <div class="usa-logo">
+        <a class="site-logo media_link" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
+          logo" {% if page.url == '/' %} aria-hidden="false" {% endif %} ></a
+        >
+        {% if page.url == '/' %}
+        <h1 class="usa-sr-only">18F</h1>
+        {% else %}
         <span class="usa-sr-only">18F</span>
-    {% endif %}
-    <nav role="navigation">
+        {% endif %}
+      </div>
+      <button class="usa-button--accent-cool usa-menu-btn">Menu</button>
+    </div>
       {% include navigation.html navbar=true %}
-    </nav>
   </div>
 </header>
-<div class="overlay"></div>
-

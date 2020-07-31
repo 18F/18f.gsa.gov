@@ -2,15 +2,11 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding-right: 0;
 
-  @include media($medium-screen) {
-    padding-right: $paragraph-margins;
-  }
-
-  &.sticky-subnav {
-    max-height: 100%;
-    overflow: auto;
+  &:before,
+  &:after {
+    content: '';
+    display: table;
   }
 }
 
@@ -23,30 +19,30 @@
 
 .sticky-subnav {
   ul {
-    background: $color-white;
+    background: color('white');
 
     &[aria-hidden="true"] {
       display: none;
     }
   }
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     ul[aria-hidden="true"] {
       display: inline-block;
     }
 
     button {
-      background: $color-white;
-      border-bottom: 1px solid $color-gray-lighter;
+      background: color('white');
+      border-bottom: 1px solid color('gray-cool-10');
 
       &[aria-expanded] {
-        background: $color-white;
+        background: color('white');
       }
 
       &:hover,
       &:active,
       &:focus {
-        background: $color-white;
+        background: color('white');
         cursor: default;
       }
     }

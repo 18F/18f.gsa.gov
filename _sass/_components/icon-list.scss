@@ -1,9 +1,9 @@
 .icon-list {
   display: flex;
-  margin-bottom: $paragraph-margins;
+  @include u-margin-bottom($paragraph-margins);
 
-  @include media($medium-screen) {
-    margin-bottom: $paragraph-margins;
+  @include at-media('tablet') {
+    @include u-margin-bottom($paragraph-margins);
   }
 
   &:last-of-type {
@@ -13,7 +13,7 @@
 
 .icon-list-image {
   margin: 0;
-  margin-right: $site-margins;
+  @include u-margin-right($paragraph-margins);
 
   svg {
     width: 50px;
@@ -23,7 +23,7 @@
 
 .icon-list-text {
   .p-bold {
-    margin-bottom: $spacer-margins;
+    @include u-margin-bottom($spacer-margins);
   }
 
   &:last-of-type p {

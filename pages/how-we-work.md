@@ -12,7 +12,8 @@ content_focus: false
 
 18F helps agencies define a strategy and work towards a solution through our Path Analysis and Experiment and Iterate services. We also offer procurement services, including to state and local governments with access to federal funds.
 
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 
+18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work.
+
 </div>
 
 ---
@@ -22,39 +23,42 @@ content_focus: false
 ### Asking the right questions, solving the right problems.
 {: .hww-subheading}
 
-Each Path Analysis is customized to the needs of your agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
+Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="path-analysis">
-  <div class="usa-width-two-thirds" markdown="1">
-    {{ pa-1 }}
-  </div>
-  <div class="usa-width-one-third">
-    <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
-        </div>
-        <span>2-3 person team</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>10 weeks</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>$250,000</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
-        </div>
-        <span>1 path analysis per project</span>
-      </li>
-    </ul>
+
+<div class="grid-row usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8">
+      {{ pa-1 | markdownify }}
+    </div>
+    <div class="tablet:grid-col-4">
+      <ul class="graphic-list">
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+          </div>
+          <span>2-3 person team</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+          </div>
+          <span>8-10 weeks</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+          </div>
+          <span>Typically $195,000</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
+          </div>
+          <span>1 path analysis per project</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -65,37 +69,40 @@ Each Path Analysis is customized to the needs of your agency, with the goal of m
 
 Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. We'll work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="experiment-iterate">
-  <div class="usa-width-two-thirds" markdown="1">
-    {{ ei-1 }}
-  </div>
-  <div class="usa-width-one-third">
-    <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
-        </div>
-        <span>4-6 person team</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>12 weeks</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Starting at $655,000</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
-        </div>
-        <span>Flexible number of phases based on project needs</span>
-      </li>
-    </ul>
+
+<div class="grid-row usa-section">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8">
+      {{ ei-1 | markdownify }}
+    </div>
+    <div class="tablet:grid-col-4">
+      <ul class="graphic-list">
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+          </div>
+          <span>4-6 person team</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+          </div>
+          <span>12 weeks</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+          </div>
+          <span>Typically $630,000 - $750,000</span>
+        </li>
+        <li>
+          <div class="graphic-list-img">
+            <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
+          </div>
+          <span>Flexible number of phases based on project needs</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -106,11 +113,11 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
 
 We’ll start with a Path Analysis and move directly to an Experiment & Iterate phase (both described above) as soon as possible. With this bundle option, we are able to more flexibly move between the phases of the project, without losing momentum.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="bundle">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="bundle">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ bundle-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
@@ -153,16 +160,16 @@ Your contracting officer will conduct the procurement with guidance and coaching
 - Develop the procurement package and any necessary justification materials
 - Conduct a three-day acquisition workshop to draft a solicitation
 - Assist with market research, help identify qualified contractors, support Q&A, serve as advisors to the evaluation panel, and support the contractor kick-off meeting.
-- De-risk the procurement through prototyping  
+- De-risk the procurement through prototyping
 - Support the contractor kick-off meeting
 
 18F can also provide post-award support for additional fees.
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="acquisition-consulting">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="acquisition-consulting">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ ac-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
@@ -187,11 +194,11 @@ Your contracting officer will conduct the procurement with guidance and coaching
 In each of our projects, our teams will work to build your agency’s capacity for agile digital service delivery. We’ll empower your team to continue to do this work beyond our engagement.
 
 {% endcapture %}
-<div class="usa-grid-full usa-section hww-item" id="assisted-acquisition">
-  <div class="usa-width-two-thirds" markdown="1">
+<div class="grid-row grid-gap usa-section" id="assisted-acquisition">
+  <div class="tablet:grid-col-8" markdown="1">
     {{ aa-1 }}
   </div>
-  <div class="usa-width-one-third">
+  <div class="tablet:grid-col-4">
     <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">

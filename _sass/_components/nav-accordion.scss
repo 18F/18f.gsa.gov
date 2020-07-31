@@ -1,7 +1,7 @@
 // Nav accordion
 .nav-accordion {
-  background-color: $color-white;
-  border-bottom: 1px solid $color-gray-lighter;
+  background-color: color('white');
+  border-bottom: 1px solid color('gray-cool-10');
 
   .usa-sidenav-list {
 
@@ -12,15 +12,15 @@
     }
 
     li {
-      border-top-color: $color-gray-lighter;
+      border-top-color: color('gray-cool-10');
       background: transparent;
       margin-bottom: 0;
     }
 
     button {
-      background-color: $color-white;
+      background-color: color('white');
       background-position: right 0 center;
-      border-bottom: 1px solid $color-gray-lighter;
+      border-bottom: 1px solid color('gray-cool-10');
       border-radius: 0;
       text-align: left;
 
@@ -43,15 +43,17 @@
 
       &:hover,
       &:focus {
-        background-color: $color-gray-lightest;
+        background-color: color('gray-cool-5');
       }
     }
 
     a,
     li > button {
-      @include padding(1rem null 1rem 3rem);
-      color: $color-gray;
-      font-weight: $font-bold;
+      @include u-padding-y(1);
+      @include u-padding-left(3);
+
+      color: color('gray-cool-60');
+      font-weight: $theme-font-weight-bold;
       font-size: $h5-font-size;
       padding-left: ($paragraph-margins * 1.75);
 
@@ -73,8 +75,8 @@
 
       &.usa-current {
         border-left: 0;
-        color: $color-primary;
-        font-weight: $font-bold;
+        color: $theme-color-primary;
+        font-weight: $theme-font-weight-bold;
         padding-left: 3.8rem;
       }
     }
@@ -82,20 +84,20 @@
 }
 
 .nav-accordion-button {
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 .nav-accordion-button-desktop {
-  @include media-max($medium-screen) {
+  @include media-max('tablet') {
     display: none;
   }
 }
 
 .nav-accordion-button-mobile {
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     display: none;
   }
 }
@@ -108,19 +110,19 @@
 .sliding-panel-close {
   @include button-unstyled;
   float: right;
-  height: $hit-area;
+  height: $size-touch-target;
   margin-top: -1.2rem;
   margin-right: -1.5rem;
   margin-bottom: 2.4rem;
   margin-left: auto;
   text-align: center;
-  width: $hit-area;
+  width: $size-touch-target;
 
 
   &:active,
   &:hover,
   &:focus {
-    background-color: $color-gray-lightest;
+    background-color: color('gray-cool-5');
   }
 
   svg {
@@ -130,12 +132,13 @@
 }
 
 .overlay {
-  @include position(fixed, 0);
+  @include u-position(fixed);
+  @include u-pin-all;
   background: $color-black;
   opacity: 0;
   transition: all 0.2s ease-in-out;
   visibility: hidden;
-  z-index: 9999;
+  z-index: 499;
 
   &.is-visible {
     opacity: 0.1;

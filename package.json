@@ -19,7 +19,7 @@
     "test": "bundle exec jekyll test",
     "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
     "pa11y-local": "./killport 4000 && ./serve-accesslint && npm run pa11y-ci",
-    "update-uswds": "cp -r node_modules/uswds/dist _sass/_libs/uswds"
+    "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,6 @@
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.5.1",
     "netlify-cms": "^2.10.54",
-    "uswds": "^1.6.13"
+    "uswds": "^2.7.1"
   }
 }

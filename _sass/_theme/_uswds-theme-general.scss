@@ -1,0 +1,44 @@
+
+//USWDS 2.5.0
+// GENERAL SETTINGS
+// Read more about settings and
+// USWDS style tokens in the documentation:
+// https://designsystem.digital.gov/design-tokens
+
+//Image Path
+//Relative image file path
+
+$theme-image-path: '../img';
+
+
+$theme-show-compile-warnings: true;
+$theme-show-notifications: false;
+
+
+
+$theme-namespace: (
+  'grid': (
+    namespace: 'grid-',
+    output: true
+  ),
+  'utility': (
+    namespace: 'u-',
+    output: false
+  )
+);
+
+
+$theme-layout-grid-use-important: false !default;
+
+
+$theme-global-border-box-sizing: true;
+
+
+$theme-focus-color: 'blue-40v';
+$theme-focus-offset: 0;
+$theme-focus-style: solid;
+$theme-focus-width: 0.5;
+
+
+
+$theme-icon-image-size: 2;

@@ -57,29 +57,36 @@ $(function (){
   }
 
   // Drawer
-  $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
-    var isCurrentlyOpen = $('.nav-mobile').hasClass('is-visible');
-    toggleMenu(!isCurrentlyOpen);
-    e.preventDefault();
-  });
+  $('.overlay, .sliding-panel-close')
+    .on('click touchstart', function(e) {
+      $('.nav-mobile, .overlay').toggleClass('is-visible');
+      e.preventDefault();
+    });
 
-  $('.nav-mobile').on('keydown', function(event) {
-    switch (event.which) {
-      case 27: // Escape
-        toggleMenu(false);
-        break;
+  // TODO - test drawer keydown functionality
+  // $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
+  //   var isCurrentlyOpen = $('.nav-mobile').hasClass('is-visible');
+  //   toggleMenu(!isCurrentlyOpen);
+  //   e.preventDefault();
+  // });
 
-      case 9: // Tab
-        trapFocus(event);
-        break;
-    }
-  });
+  // $('.nav-mobile').on('keydown', function(event) {
+  //   switch (event.which) {
+  //     case 27: // Escape
+  //       toggleMenu(false);
+  //       break;
 
-  // Styleguide drawer
-  $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
-    $('.nav-mobile-styleguide').toggleClass('is-visible');
-    e.preventDefault();
-  });
+  //     case 9: // Tab
+  //       trapFocus(event);
+  //       break;
+  //   }
+  // });
+
+  // // Styleguide drawer
+  // $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
+  //   $('.nav-mobile-styleguide').toggleClass('is-visible');
+  //   e.preventDefault();
+  // });
 
   // Mailchimp
   var $form = $('#contact-form'),
@@ -122,4 +129,34 @@ $(function (){
   $('.search-interface').on("submit", function(){
     $("#search-loading").show();
   })
+
+  // Side Nav
+
+  // Set accordion state on load
+  function setSubnav() {
+    let subnavButton;
+    const screenWidth = window.innerWidth;
+    const subnavButtons = document.querySelectorAll('[aria-controls=subnav-list]');
+    const subnavContent = document.getElementById('subnav-list');
+
+    if (subnavButtons.length > 0) {
+      subnavButton = subnavButtons[0];
+    }
+
+    if (subnavButton && screenWidth < 640) {
+      subnavButton.setAttribute('aria-expanded', false);
+      subnavContent.setAttribute('hidden', '');
+    }
+
+    if (subnavButton && screenWidth >= 640) {
+      subnavButton.setAttribute('aria-expanded', true);
+      subnavContent.removeAttribute('hidden');
+    }
+  }
+
+  // Set accordion onload
+  setSubnav();
+
+  // Set accordion collapse while resize on max size tablet
+  window.addEventListener('resize', setSubnav);
 });

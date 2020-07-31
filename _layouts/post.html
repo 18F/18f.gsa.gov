@@ -5,7 +5,7 @@ layout: default
 
 {% include feature-image.html %}
 
-<div class="usa-grid">
+<div class="grid-container usa-section">
 
   <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
     {% include svg/icons/arrow-left.svg %}
@@ -39,9 +39,10 @@ layout: default
 </div>
 
 {% if page.previous or page.next %}
-  <section class="post-pagination usa-grid">
-    <div class="usa-width-one-half">
-      {% if page.previous %}
+  <section class="post-pagination grid-container">
+    <div class="grid-row grid-gap">
+      <div class="grid-col-6">
+        {% if page.previous %}
         <a href="{{ site.baseurl }}{{ page.previous.url }}">
           <span class="link-arrow-left">
             {% include svg/icons/arrow-left.svg %}
@@ -49,22 +50,22 @@ layout: default
           </span>
           <h5>&ldquo;{{ page.previous.title }}&rdquo;</h5>
         </a>
-      {% endif %}
-    </div>
-    <div class="usa-width-one-half">
-      {% if page.next %}
-          <a href="{{ site.baseurl }}{{ page.next.url }}">
-            <span class="link-arrow-right">
-              Next Post
-              {% include svg/icons/arrow-right.svg %}
-            </span>
-            <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
-          </a>
-      {% endif %}
+        {% endif %}
+      </div>
+      <div class="grid-col-6">
+        {% if page.next %}
+        <a href="{{ site.baseurl }}{{ page.next.url }}">
+          <span class="link-arrow-right">
+            Next Post
+            {% include svg/icons/arrow-right.svg %}
+          </span>
+          <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
+        </a>
+        {% endif %}
+      </div>
     </div>
   </section>
 {% endif %}
 
 {% include related-posts.html hide_date=true  %}
 {% include contact-button.html %}
-

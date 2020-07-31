@@ -1,6 +1,6 @@
 code,
 pre {
-  background-color: $color-gray-lightest;
+  background-color: color('gray-cool-5');
   font-family: $font-monospace;
   font-size: 1.3rem;
 }
@@ -19,7 +19,7 @@ pre {
 }
 
 code {
-  @include padding(0.2em null);
+  @include u-padding-y(0.5);
 
   &::before,
   &::after {
@@ -30,7 +30,7 @@ code {
 
 .highlight {
   pre {
-    max-width: $lead-max-width;
+    max-width: $theme-lead-measure;
   }
 }
 

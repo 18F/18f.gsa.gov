@@ -5,13 +5,6 @@
   {% include navigation/navbar.html nav_items=nav_items %}
 {% endif %}
 
-{% if include.drawer %}
-  {% assign nav_items = navigation['drawer'] %}
-  {%
-    include navigation/drawer.html
-    nav_items=nav_items
-  %}
-{% endif %}
 
 {% if include.subnav %}
   {% include navigation/subnav.html subnav_items=page.subnav_items %}
@@ -20,11 +13,7 @@
 {% if include.footer %}
   {% assign nav_items = navigation['footer'] %}
   {%
-    include navigation/footer-mobile.html
-    nav_items=nav_items
-  %}
-  {%
-    include navigation/footer-desktop.html
+    include navigation/footer.html
     nav_items=nav_items
   %}
 {% endif %}

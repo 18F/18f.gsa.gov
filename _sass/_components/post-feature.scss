@@ -7,14 +7,15 @@
 
   .post-excerpt {
     font-size: 1.7rem;
+    @include u-line-height('body', 3);
   }
 
   article {
     border-top: $border-accent;
-    margin-bottom: $site-margins;
-    padding-top: $site-margins;
+    margin-bottom: $theme-site-margins-width;
+    padding-top: 1rem;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       margin-bottom: 0;
     }
 
@@ -30,7 +31,7 @@
       margin-bottom: 0;
     }
 
-    @include media($tablet-screen) {
+    @include at-media('tablet') {
       margin-bottom: 0;
     }
   }
@@ -41,6 +42,7 @@
 
   a {
     color: $color-base;
+    @include u-line-height('body', 3);
   }
 }
 
@@ -48,8 +50,8 @@
 time {
   font-weight: normal;
   font-size: $h5-font-size;
-  color: $color-gray;
-  margin-bottom: $paragraph-margins-thick;
+  color: color('gray-cool-60');
+  margin-bottom: 1em;
 }
 
 .post-byline {
@@ -64,7 +66,7 @@ time {
       width: 1em;
       margin-right: 1rem;
       margin-left: $spacer-margins; // to accommodate for adjoning p margin
-      color: $color-gray;
+      color: color('gray-cool-60');
       font-size: 0.8em;
     }
   }

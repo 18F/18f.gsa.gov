@@ -1,19 +1,25 @@
-<ul class="usa-accordion">
-{% for item in include.nav_items %}
-  <li>
-    {% if item.permalink %}
-      {% assign item_link = item.permalink | prepend: site.baseurl %}
-    {% else %}
-      {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
-    {% endif %}
+<!-- prettier-ignore -->
+<nav aria-label="Primary navigation" class="usa-nav">
+  <button class="usa-nav__close">
+    <img src="{{ '/assets/img/close.svg' | prepend: site.baseurl }}" alt="close">
+  </button>
+  <ul class="usa-nav__primary usa-accordion">
+    {% for item in include.nav_items %}
+    <li class="usa-nav__primary-item">
+        {% if item.permalink %}
+          {% assign item_link = item.permalink | prepend: site.baseurl %}
+        {% else %}
+          {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+        {% endif %}
 
-    {% if item.multiple_permalinks %}
-      {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
-    {% else %}
-      {% assign is_matching = page.url | matches_url: item.permalink %}
-    {% endif %}
+        {% if item.multiple_permalinks %}
+          {% assign is_matching = page.url | matches_url: item.multiple_permalinks %}
+        {% else %}
+          {% assign is_matching = page.url | matches_url: item.permalink %}
+        {% endif %}
 
-    <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
-  </li>
-{% endfor %}
-</ul>
+        <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

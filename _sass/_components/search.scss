@@ -16,8 +16,9 @@
 
   button {
     &[type=submit] {
-      height: 3.3rem;
+      height: 2.9rem;
       margin: 0 $spacer-margins;
+      color: $color-inverse;
       line-height: .5;
 
       @media screen and (max-width: 505px) {

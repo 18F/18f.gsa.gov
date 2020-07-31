@@ -5,7 +5,7 @@ $card-image-height: 200px;
 }
 
 .card {
-  margin-bottom: $site-margins;
+  margin-bottom: $theme-site-margins-width;
 
   &:hover,
   &:focus {
@@ -18,7 +18,7 @@ $card-image-height: 200px;
     }
   }
 
-  @include media($tablet-screen) {
+  @include at-media('tablet') {
     &:nth-last-of-type(1),
     &:nth-last-of-type(2),
     &:nth-last-of-type(3) {
@@ -28,13 +28,13 @@ $card-image-height: 200px;
     &:nth-of-type(1),
     &:nth-of-type(2),
     &:nth-of-type(3) {
-      margin-bottom: $site-margins;
+      margin-bottom: $theme-site-margins-width;
     }
   }
 }
 
 .card-link {
-  background-color: $color-white;
+  background-color: color('white');
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ $card-image-height: 200px;
   width: 100%;
 
   @include hover-box-shadow;
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-bottom: 0;
   }
 }
@@ -53,10 +53,10 @@ $card-image-height: 200px;
 }
 
 .card-banner {
-  background-color: $color-white;
+  @include u-padding($paragraph-margins * 2);
+  background-color: color('white');
   flex: 1 0 auto;
   float: left;
-  padding: $paragraph-margins * 2;
   width: 100%;
 
   h4 {
@@ -65,7 +65,7 @@ $card-image-height: 200px;
 }
 
 .card-cta {
-  margin: $paragraph-margins * 2;
+  @include u-margin($paragraph-margins * 2);
   margin-top: 0;
 }
 
@@ -80,11 +80,11 @@ $card-image-height: 200px;
 
 .card-tag {
   @include small-caps;
-  color: $color-gray-dark;
+  color: color('gray-cool-70');
 }
 
 .card-image-bg {
-  background-color: $color-gray-lightest;
+  background-color: color('gray-cool-5');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +98,7 @@ $card-image-height: 200px;
   svg {
     height: 100%;
     width: 100%;
-    padding: $site-margins;
+    padding: $theme-site-margins-width;
 
     g,
     path,

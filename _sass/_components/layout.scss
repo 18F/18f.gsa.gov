@@ -49,7 +49,7 @@
 }
 
 .usa-spacer {
-  margin-bottom: $site-margins;
+  margin-bottom: $theme-site-margins-width;
 
   > * {
     margin-bottom: $spacer-margins;
@@ -72,7 +72,7 @@
   display: flex;
 }
 
-@include media($medium-screen) {
+@include at-media('tablet') {
   .usa-flex {
     display: flex;
   }
@@ -88,7 +88,7 @@
   .usa-flex-pull-right {
     > *:last-child {
       float: right;
-      margin-left: $site-margins;
+      margin-left: $theme-site-margins-width;
       text-align: right;
     }
   }
@@ -105,10 +105,10 @@
 }
 
 .usa-section {
-  @include padding($site-margins null);
+  @include u-padding-y($theme-site-margins-width);
 
-  @include media($medium-screen) {
-    @include padding($section-margins null);
+  @include at-media('tablet') {
+    @include u-padding-y($section-margins);
   }
 
   .page-lead {
@@ -117,15 +117,15 @@
 }
 
 .usa-section-bottom {
-  @include padding(null null $site-margins null);
+  @include u-padding-right($theme-site-margins-width);
 
-  @include media($medium-screen) {
-    @include padding(null null $section-margins null);
+  @include at-media('tablet') {
+    @include u-padding-right($section-margins);
   }
 }
 
 .background-gray {
-  background-color: $color-gray-lightest;
+  background-color: color('gray-cool-5');
 }
 
 .background-medium {
@@ -138,7 +138,7 @@
 
 .background-medium,
 .background-dark {
-  color: $color-white;
+  color: color('white');
   -webkit-font-smoothing: antialiased;
 
   h1,
@@ -148,7 +148,7 @@
   h5,
   h6,
   p {
-    color: $color-white;
+    color: color('white');
   }
 
   .section-heading {
@@ -158,6 +158,7 @@
 
   h2 {
     letter-spacing: 0.5px;
+    margin-bottom: 2rem;
   }
 
   a
@@ -190,21 +191,14 @@
   input[type="week"],
   textarea,
   select {
-    border-color: $color-white;
+    border-color: color('white');
   }
 }
-
-// boone did this, we should do it the right way eventually
-.background-dark .usa-button.usa-button-secondary:hover {
-   color: $color-black;
-}
-
-// end of stuff boone did
 
 .header_border,
 .single-post {
   header[role=banner] {
-    border-bottom: 1px solid $color-gray-lighter;
+    border-bottom: 1px solid color('gray-cool-10');
   }
 }
 
@@ -221,15 +215,15 @@
   h2 {
     display: inline;
     font-size: $h2-font-size;
-    font-weight: $font-bold;
+    font-weight: $theme-font-weight-bold;
   }
 }
 
 .section-intro-header {
   max-width: 81.2rem; // Width of 10 columns
 
-  @include media($medium-screen) {
-    @include span-columns(9);
+  @include at-media('tablet') {
+    @include grid-col(9);
   }
 }
 
@@ -243,7 +237,8 @@
 }
 
 .content-focus {
-  @include margin(0 auto);
+  @include u-margin-y(0);
+  @include u-margin-x(auto);
   max-width: 64.063rem; // 8 column width at full screen
 }
 
@@ -254,13 +249,5 @@
 }
 
 .content-focus.content-wide {
-  max-width: $site-max-width;
-}
-
-.usa-content {
-  blockquote,
-  ol,
-  ul {
-    max-width: $text-max-width;
-  }
+  max-width: $theme-site-max-width;
 }

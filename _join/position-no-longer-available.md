@@ -4,7 +4,6 @@ permalink: /join/position-no-longer-available/
 layout: primary
 lead:
 redirect_from:
-  - /join/backend-software-engineer/
   - /join/acquisition-technical-lead/
   - /join/product-manager/
   - /join/front-end-design-intern/

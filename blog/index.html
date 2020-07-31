@@ -7,7 +7,7 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
 ---
 
 <section class="usa-section background-dark section-intro">
-  <div class="usa-grid">
+  <div class="grid-container">
     <div class="section-intro-header">
       <h1 class="section-heading section-heading-alt">{{ page.title }}</h1>
       <h2>{{ page.blog_tagline }}</h2>
@@ -15,110 +15,116 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
   </div>
 </section>
 
-<section class="usa-grid">
-  <div class="usa-width-three-fourths content-focus page-tag-results">
-    {%
+<section class="grid-container usa-section content-wide">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-8 content-focus page-tag-results">
+      {%
       include tag-results.html
       posts=paginator.posts
       tags=page.tags
       trim_padding=true
-    %}
-  </div>
-  <aside class="sidebar usa-width-one-third">
-    <div class="blog-search">
-      <form class="usa-search usa-search-small" action="{{ site.baseurl }}/search/">
-        <div role="search">
-          <label for="search-field-small">Search</label>
-          <input id="search-field-small" type="search" name="q">
-          <button type="submit">
-            <span class="usa-sr-only">Search</span>
-          </button>
+      %}
+      <section class="pagination grid-row content-focus">
+        <div>
+          {% if paginator.previous_page %}
+            <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
+              {% include svg/icons/arrow-left.svg %} Previous {{ paginator.per_page }} posts
+            </a>
+          {% else %}
+          <p></p>
+          {% endif %}
         </div>
-      </form>
-      <!-- <p><a class="link-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a></p> -->
+        <div>
+          <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+        </div>
+        <div>
+          {% if paginator.next_page %}
+          <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
+            Next {{ paginator.per_page }} posts {% include svg/icons/arrow-right.svg %}
+          </a>
+          {% else %}
+          <p></p>
+          {% endif %}
+        </div>
+      </section>
     </div>
-    <h4 class="sidebar-heading-topic">Browse by topic</h4>
-    <ul>
-      <li>
-        <a href="{{ site.baseurl }}/tags/lessons-learned">Lessons learned</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/tags/modern-practices">Modern practices</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/tags/convincing-stakeholders">Convincing stakeholders</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/tags/culture-change">Culture change</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/tags/product-launch">Product launch</a>
-      </li>
-    </ul>
-    <div class="sidebar-callout">
-      <h4>Most popular</h4>
+   
+    <aside class="sidebar tablet:grid-col-4">
+      <div class="blog-search">
+              <form class="usa-search usa-search--small" action="{{ site.baseurl }}/search/">
+                <label for="search-field-small">Search</label>
+                <div role="search">
+            <input class="usa-input" id="search-field-small" type="search" name="q">
+            <button class="usa-button" type="submit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+        <!-- <p><a class="link-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a></p> -->
+      </div>
+      <h4 class="sidebar-heading-topic">Browse by topic</h4>
       <ul>
         <li>
-          <a href="{{ site.baseurl }}/2018/07/19/taking-the-ato-process-from-6-months-to-30-days/">
-            Taking the ATO process from 6 months to 30 days
-          </a>
+          <a href="{{ site.baseurl }}/tags/lessons-learned">Lessons learned</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}/2018/01/25/getting-devops-buy-in/">
-            Getting DevOps buy-in to facilitate agile
-          </a>
+          <a href="{{ site.baseurl }}/tags/modern-practices">Modern practices</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}/2018/02/13/why-your-agency-doesnt-need-a-mobile-app/">
-            Why your agency (likely) doesn’t need a mobile app
-          </a>
+          <a href="{{ site.baseurl }}/tags/convincing-stakeholders">Convincing stakeholders</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}/2017/11/30/improving-government-outcomes-through-an-agile-contract-format/">
-            Improving government outcomes through an agile contract format
-          </a>
+          <a href="{{ site.baseurl }}/tags/culture-change">Culture change</a>
         </li>
         <li>
-          <a href="{{ site.baseurl }}/2017/10/03/building-a-large-scale-design-system/">
-            Building a large-scale design system: How we created a design system for the U.S. government
-          </a>
+          <a href="{{ site.baseurl }}/tags/product-launch">Product launch</a>
         </li>
       </ul>
-    </div>
-    <a class="sidebar-icons media_link" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-      <img class="sidebar-icon-rss" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS">
-    </a>
-    <a class="sidebar-icons media_link" href="https://twitter.com/18F">
-      <img class="sidebar-icon-twitter" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">
-    </a>
-    <a class="sidebar-icons media_link" href="https://github.com/18F/">
-      <img class="sidebar-icon-github" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">
-    </a>
-  </aside>
-</section>
-
-<!-- Pagination links -->
-<section class="pagination usa-grid content-focus">
-  <div>
-    {% if paginator.previous_page %}
-      <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-        {% include svg/icons/arrow-left.svg %} Previous {{ paginator.per_page }} posts
+      <div class="sidebar-callout">
+        <h4>Most popular</h4>
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/2018/07/19/taking-the-ato-process-from-6-months-to-30-days/">
+              Taking the ATO process from 6 months to 30 days
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/2018/01/25/getting-devops-buy-in/">
+              Getting DevOps buy-in to facilitate agile
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/2018/02/13/why-your-agency-doesnt-need-a-mobile-app/">
+              Why your agency (likely) doesn’t need a mobile app
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/2017/11/30/improving-government-outcomes-through-an-agile-contract-format/">
+              Improving government outcomes through an agile contract format
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}/2017/10/03/building-a-large-scale-design-system/">
+              Building a large-scale design system: How we created a design system for the U.S. government
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a class="sidebar-icons media_link" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+        <img class="sidebar-icon-rss" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS">
       </a>
-    {% else %}
-    <p></p>
-    {% endif %}
+      <a class="sidebar-icons media_link" href="https://twitter.com/18F">
+        <img class="sidebar-icon-twitter" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">
+      </a>
+      <a class="sidebar-icons media_link" href="https://github.com/18F/">
+        <img class="sidebar-icon-github" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">
+      </a>
+    </aside>
   </div>
-  <div>
-    <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
-  </div>
-  <div>
-    {% if paginator.next_page %}
-    <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-      Next {{ paginator.per_page }} posts {% include svg/icons/arrow-right.svg %}
-    </a>
-    {% else %}
-    <p></p>
-    {% endif %}
-  </div>
-</section>
-{% include contact-button.html %}
+  </section>
+  {% include contact-button.html %}
+  
+  <!-- Pagination links -->
+  
+
+

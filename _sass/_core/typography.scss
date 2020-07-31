@@ -17,6 +17,8 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, section {
+  line-height: 1.5;
+  color: $color-base;
 }
 
 
@@ -27,6 +29,7 @@ h4,
 h5,
 h6 {
   font-family: $font-sans;
+  line-height: 1.3;
 }
 
 h4 {
@@ -76,23 +79,23 @@ h2 {
 }
 
 .p-normal {
-  font-weight: $font-normal;
+  font-weight: $theme-font-weight-normal;
 }
 
 .p-bold {
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
 }
 
 @mixin small-caps {
-  color: $color-gray;
+  color: color('gray-cool-60');
   font-size: $tiny-font-size;
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 hr {
-  background-color: $color-gray-lighter;
+  background-color: color('gray-cool-10');
   border: 0;
   height: 1px;
   margin-top: $section-margins;

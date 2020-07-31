@@ -4,6 +4,6 @@ app:
   volumes:
     - .:/app
   entrypoint: ruby /app/docker_entrypoint.rb
-  command: ./serve
+  command: ./serve-blog
   ports:
     - "4000:4000"

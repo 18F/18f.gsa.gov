@@ -11,13 +11,13 @@
     padding-left: 0;
     padding-top: $paragraph-margins;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       margin-top: 0;
     }
 
     li {
       display: table;
-      font-weight: $font-bold;
+      font-weight: $theme-font-weight-bold;
       margin-bottom: 0;
     }
 

@@ -2,21 +2,23 @@
 // ==========================
 
 footer[role=contentinfo] {
-  @include padding($site-margins null);
-  background-color: $color-gray-lightest;
+
+  padding-top: 1rem;
+  background-color: color('gray-cool-5');
   font-size: $tiny-font-size;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 
   ul {
     @include unstyled-list;
   }
 
   li {
-    font-weight: $font-bold;
+    font-weight: $theme-font-weight-bold;
     line-height: 2.1rem;
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
       color: $color-medium;
@@ -31,24 +33,24 @@ footer[role=contentinfo] {
     @include unstyled-list;
 
     > li {
-      border-top-color: $color-gray-lighter;
+      border-top-color: color('gray-cool-10');
       color: $color-medium;
     }
 
     a {
-      @include padding(1.25rem null);
+      @include u-padding-y(1);
       color: $color-medium;
       font-size: $h6-font-size;
 
       &:hover {
-        background-color: $color-gray-lighter;
+        background-color: color('gray-cool-10');
       }
     }
   }
-
   .usa-accordion {
     button {
-      @include padding(1.4rem null 1.4rem 0);
+      @include u-padding-y(1.5);
+      @include u-padding-left(0);
       background-position: right 0 center;
     }
 
@@ -66,21 +68,21 @@ footer[role=contentinfo] {
   button {
     font-size: $h6-font-size;
     font-family: $font-sans;
-    font-weight: $font-normal;
+    font-weight: $theme-font-weight-normal;
     text-align: left;
   }
 
   .usa-accordion-content {
-    background-color: $color-gray-lightest;
+    background-color: color('gray-cool-5');
 
     li {
-      border-top: 1px solid $color-gray-lighter;
+      border-top: 1px solid color('gray-cool-10');
     }
   }
 }
 
 .footer-mobile {
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     display: none;
   }
 
@@ -94,22 +96,22 @@ footer[role=contentinfo] {
 .footer-desktop {
   display: none;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     display: block;
   }
 }
 
 .footer-logo-links {
-  @include media($medium-screen) {
-    @include span-columns(2);
+  @include at-media('tablet') {
+    @include grid-col(2);
   }
 }
 
 
 .footer-links-wrapper {
-  @include media($medium-screen) {
-    @include span-columns(10);
-    @include omega();
+  @include at-media('tablet') {
+    @include grid-col(10);
+    @include u-margin-bottom(0);
 
     display: flex;
     justify-content: flex-end;
@@ -119,16 +121,16 @@ footer[role=contentinfo] {
 .footer-links {
   margin-top: 1em;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-top: 0;
 
-    @include span-columns(2.5);
+    @include grid-col(2);
   }
 }
 
 .footer-links-heading {
   font-size: $tiny-font-size;
-  font-weight: $font-normal;
+  font-weight: $theme-font-weight-normal;
   margin: 0;
 }
 

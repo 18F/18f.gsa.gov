@@ -1,11 +1,10 @@
 $(function () {
   // Get link by section or article id
   function getRelatedNavigation(el) {
-    return $('.nav-subnav a[href*=' + $(el).attr('id') + ']');
+    return $(el+'-link');
   }
 
-  var $navItems = $('.nav-subnav a')
-    .filter( ".usa-sidenav-list > li > a" );
+  var $navItems = $('.subnav-anchor');
 
   var $window = $(window);
   var anchors = $.map($navItems, function(item) {
@@ -22,7 +21,7 @@ $(function () {
       $navItems
         .removeClass('usa-current', direction === 'down');
       if ($window.scrollTop() !== 0) {
-        getRelatedNavigation(this)
+        getRelatedNavigation(relatedElement)
           .addClass('usa-current', direction === 'down');
       }
     }
@@ -39,7 +38,7 @@ $(function () {
   }
 
   function waypointMapper(elements) {
-    var waypointDown = elements.map(function(element) {
+    elements.map(function(element) {
       var elementId = element.replace('#', '');
       var upHandler = directionUp(element);
       var downHandler = directionDown(element);
