@@ -9,8 +9,8 @@ tags:
   - user-centered design
 excerpt: "At GSA’s 18F, one thing we do on every project is human-centered
   design. We use the broader term user experience (UX) design to refer to a set
-  of human-centered methods and practices we use in our work. We’ve released the
-  UX Guide! It documents some of our practices and holds helpful resources. "
+  of human-centered methods and practices we use in our work. Our new UX Guide
+  documents some of our practices and holds helpful resources. "
 ---
 At GSA’s 18F, one thing we do on every project is human-centered design. We use the broader term user experience (UX) design to refer to a set of human-centered methods and practices we use in our work.
 
