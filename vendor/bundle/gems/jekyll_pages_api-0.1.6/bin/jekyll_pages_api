@@ -1,0 +1,49 @@
+#! /usr/bin/env ruby
+# Author: Mike Bland <michael.bland@gsa.gov>
+# Date:   2015-06-21
+
+require_relative '../lib/jekyll_pages_api'
+
+USAGE=<<END_USAGE
+#{$0}: generate Jekyll Pages API output from a pregenerated site
+
+Usage:
+  #{$0} baseurl basedir title_prefix body_element_tag > pages.json
+  #{$0} -h
+
+Arguments:
+  -h
+    Print this help message
+  baseurl
+    URL prefix of every page of the generated site
+  basedir
+    Path to the generated site's root directory
+  title_prefix
+    Prefix to strip from page titles
+  body_element_tag
+    Tag (or tag prefix) identifying the main content element within the <body>
+    element of each document. Can be a complete tag (ending in '>'), or the
+    prefix of a longer tag. Used to strip boilerplate out of the content
+    exported via the API.
+END_USAGE
+
+if ARGV.length == 1 && ARGV[0] == '-h'
+  puts USAGE
+  exit
+end
+
+if ARGV.length != 4
+  $stderr.puts USAGE
+  exit 1
+end
+
+baseurl, basedir, title_prefix, body_element_tag = ARGV
+unless Dir.exist?(basedir)
+  $stderr.puts "#{basedir} does not exist"
+  exit 1
+end
+
+generator = ::JekyllPagesApi::Generator.new(
+  ::JekyllPagesApi::GeneratedSite.new(
+    baseurl, basedir, title_prefix, body_element_tag))
+puts generator.page.output

@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require "codeclimate-test-reporter"
+
+repo_token = ENV["CODECLIMATE_REPO_TOKEN"]
+if repo_token.nil? || repo_token.empty?
+  STDERR.puts "Cannot post results: environment variable CODECLIMATE_REPO_TOKEN must be set."
+  exit
+end
+
+COVERAGE_FILE = ARGV.first || "coverage/.resultset.json"
+
+abort "Coverage results not found" unless File.exist?(COVERAGE_FILE)
+
+begin
+  results = JSON.parse(File.read(COVERAGE_FILE))
+rescue JSON::ParserError => e
+  abort "Error encountered while parsing #{COVERAGE_FILE}: #{e}"
+end
+
+CodeClimate::TestReporter.run(results)

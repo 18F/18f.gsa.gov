@@ -1,0 +1,7 @@
+require 'jekyll_pages_api/filters'
+require 'jekyll_pages_api/generated_site'
+require 'jekyll_pages_api/generator'
+require 'jekyll_pages_api/page'
+require 'jekyll_pages_api/page_without_a_file'
+require 'jekyll_pages_api/version'
+require_relative 'jekyll/site'

@@ -1,0 +1,15 @@
+#!/bin/bash --login
+
+set -e
+
+rvm use 1.9.3
+ruby -v
+bundle install --gemfile Gemfile.ruby-19
+bundle exec rake
+
+rvm use 2.2.2
+ruby -v
+bundle install
+bundle exec rake
+
+CODECLIMATE_REPO_TOKEN=c4881e09870b0fac1291c93339b36ffe36210a2645c1ad25e52d8fda3943fb4d bundle exec codeclimate-test-reporter

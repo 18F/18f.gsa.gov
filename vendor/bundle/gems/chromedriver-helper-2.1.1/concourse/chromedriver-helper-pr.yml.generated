@@ -1,0 +1,125 @@
+anchors:
+  notify_failure_to_pr: &notify_failure_to_pr
+    put: chromedriver-helper-pr
+    params: {path: chromedriver-helper-pr, status: FAILURE}
+
+resource_types:
+- name: pull-request
+  type: docker-image
+  source:
+    repository: teliaoss/github-pr-resource
+
+resources:
+  - name: ci
+    type: git
+    source:
+      uri: https://github.com/flavorjones/chromedriver-helper/
+      branch: master
+      disable_ci_skip: true # always get the latest pipeline configuration
+
+  - name: chromedriver-helper-pr
+    type: pull-request
+    check_every: 15m
+    # webhook: https://ci.nokogiri.org/api/v1/teams/flavorjones/pipelines/chromedriver-helper-pr/resources/chromedriver-helper-pr/check/webhook?webhook_token=WEBHOOK_TOKEN
+    webhook_token: ((chromedriver-helper-pr-webhook-token))
+    source:
+      repository: flavorjones/chromedriver-helper
+      access_token: {{github-repo-status-access-token}}
+      ignore_paths:
+        - concourse/
+
+jobs:
+  - name: pr-pending
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper-pr
+        trigger: true
+        version: every
+      - put: chromedriver-helper-pr
+        params: {path: chromedriver-helper-pr, status: PENDING}
+
+  - name: ruby-2.5
+    public: true
+    max_in_flight: 1
+    plan:
+      - get: ci
+      - get: chromedriver-helper-pr
+        trigger: true
+        version: every
+        passed: [pr-pending]
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: ruby, tag: "2.5"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper-pr
+              path: chromedriver-helper
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+        on_failure: *notify_failure_to_pr
+  - name: ruby-2.6
+    public: true
+    max_in_flight: 1
+    plan:
+      - get: ci
+      - get: chromedriver-helper-pr
+        trigger: true
+        version: every
+        passed: [pr-pending]
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: ruby, tag: "2.6"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper-pr
+              path: chromedriver-helper
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+        on_failure: *notify_failure_to_pr
+
+  - name: jruby-9.2
+    public: true
+    max_in_flight: 1
+    plan:
+      - get: ci
+      - get: chromedriver-helper-pr
+        trigger: true
+        version: every
+        passed: [pr-pending]
+      - task: rake-test
+        attempts: 3
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: jruby, tag: "9.2-jdk"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper-pr
+              path: chromedriver-helper
+          params:
+            JAVA_OPTS: "-Dfile.encoding=UTF8" # https://github.com/docker-library/openjdk/issues/32
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+        on_failure: *notify_failure_to_pr
+
+  - name: pr-success
+    public: true
+    disable_manual_trigger: true
+    plan:
+      - get: chromedriver-helper-pr
+        trigger: true
+        version: every
+        passed:
+        - ruby-2.5
+        - ruby-2.6
+        - jruby-9.2
+      - put: chromedriver-helper-pr
+        params: {path: chromedriver-helper-pr, status: SUCCESS}

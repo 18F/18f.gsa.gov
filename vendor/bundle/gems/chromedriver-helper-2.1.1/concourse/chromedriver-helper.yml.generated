@@ -1,0 +1,125 @@
+resources:
+  - name: ci
+    type: git
+    source:
+      uri: https://github.com/flavorjones/chromedriver-helper/
+      branch: master
+      disable_ci_skip: true # always get the latest pipeline configuration
+
+  - name: chromedriver-helper
+    type: git
+    source:
+      uri: https://github.com/flavorjones/chromedriver-helper/
+      branch: master
+      ignore_paths:
+        - concourse/**
+
+jobs:
+  - name: ruby-2.5
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: ruby, tag: "2.5"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+  - name: ruby-2.6
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: ruby, tag: "2.6"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+
+  - name: win-ruby-2.5-devkit
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: windows
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          params:
+            WIN_RUBY_VERSION: "2.5"
+          run:
+            path: powershell
+            args: ["-File", "ci/concourse/tasks/rake-test/run.ps1"]
+  - name: win-ruby-2.6-devkit
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: windows
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          params:
+            WIN_RUBY_VERSION: "2.6"
+          run:
+            path: powershell
+            args: ["-File", "ci/concourse/tasks/rake-test/run.ps1"]
+
+  - name: jruby-9.1
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: jruby, tag: "9.1-jdk"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          params:
+            JAVA_OPTS: "-Dfile.encoding=UTF8" # https://github.com/docker-library/openjdk/issues/32
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh
+  - name: jruby-9.2
+    public: true
+    plan:
+      - get: ci
+      - get: chromedriver-helper
+        trigger: true
+      - task: rake-test
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source: {repository: jruby, tag: "9.2-jdk"}
+          inputs:
+            - name: ci
+            - name: chromedriver-helper
+          params:
+            JAVA_OPTS: "-Dfile.encoding=UTF8" # https://github.com/docker-library/openjdk/issues/32
+          run:
+            path: ci/concourse/tasks/rake-test/run.sh

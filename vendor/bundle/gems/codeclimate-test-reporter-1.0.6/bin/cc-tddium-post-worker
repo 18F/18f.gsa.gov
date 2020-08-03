@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require "codeclimate-test-reporter"
+require "tmpdir"
+
+if ENV["CODECLIMATE_REPO_TOKEN"]
+  tmpdir = Dir.tmpdir
+  puts "Searching #{tmpdir} for files to POST."
+  coverage_report_files = Dir.glob("#{tmpdir}/codeclimate-test-coverage-*")
+  if coverage_report_files.any?
+    puts "Found: "
+    puts coverage_report_files.join("\n")
+    client = CodeClimate::TestReporter::Client.new
+    print "Sending reports to #{client.host}..."
+    client.batch_post_results(coverage_report_files)
+    puts "done."
+  else
+    puts "No files found to POST."
+  end
+else
+  $stderr.puts "Cannot batch post - environment variable CODECLIMATE_REPO_TOKEN must be set."
+  exit(1)
+end

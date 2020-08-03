@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+73e5197f710bf59321e2dfcd2d24c51a49ce4b0c refs/heads/3.0
+58ffaffe7a2e44314d4a8677ee60390c125a7ff0 refs/heads/archives
+1ad3e033f08b4f3d9d86e48cea9d82ab7ba2c76b refs/heads/enabled-archives
+9d3d3cb0bca5c3c169699676200278c4159091d1 refs/heads/master
+e35d6dde782e1583d6f524e98e28e91f894a3864 refs/heads/page-dot-date
+3f1e268814ddc563d92cbe066562d18efc5cf378 refs/heads/travis-config
+ff2c7fdaf21ef82923bc2bcbc7f145f8b3038466 refs/heads/travis-update
+629cf2e16d536ca9e95847e0b0dabebbc0da126c refs/tags/v1.0.0
+970596828b8709eb0391eb2fc04d0ce9f741301c refs/tags/v2.0.0
+cc728455a723d57cd4ff7293fa7936dcff61d6ed refs/tags/v2.1.0
+90bfe8446c0fcb2f5d75a86553e090ef27be2350 refs/tags/v2.1.1
+db8055df05fbd62ff4ddae88844715621524102a refs/tags/v2.2.1
+^44e357429136e8b70d31537814d1532f107b8932
