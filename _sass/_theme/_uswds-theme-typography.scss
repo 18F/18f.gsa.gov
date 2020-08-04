@@ -33,7 +33,7 @@ $theme-font-type-lang: false;
 $theme-font-type-mono: 'roboto-mono';
 
 // sans-serif
-$theme-font-type-sans: 'source-sans-pro';
+$theme-font-type-sans: 'helvetica';
 
 // serif
 $theme-font-type-serif: 'merriweather';
@@ -53,10 +53,10 @@ $theme-font-sans-custom-src: false;
 $theme-font-serif-custom-src: false;
 
 $theme-font-role-ui: 'sans';
-$theme-font-role-heading: 'serif';
+$theme-font-role-heading: 'sans';
 $theme-font-role-body: 'sans';
 $theme-font-role-code: 'mono';
-$theme-font-role-alt: 'serif';
+$theme-font-role-alt: 'sans';
 
 $theme-type-scale-3xs: 2;
 $theme-type-scale-2xs: 3;
