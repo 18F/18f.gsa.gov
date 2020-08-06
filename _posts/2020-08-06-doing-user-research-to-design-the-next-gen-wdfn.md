@@ -1,8 +1,11 @@
 ---
 title: Doing user research to design the next-gen WDFN
-date: August 3, 2020
+date: August 6, 2020
 authors:
+  - charlotte-snow
+  - shawna-gregory
   - norah-maki
+  - amy-mok
 tags:
   - user-centered design
   - agency work
