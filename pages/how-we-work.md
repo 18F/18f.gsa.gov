@@ -49,7 +49,7 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
           </div>
-          <span>Typically $195,000</span>
+          <span>Typically $250,000</span>
         </li>
         <li>
           <div class="graphic-list-img">
