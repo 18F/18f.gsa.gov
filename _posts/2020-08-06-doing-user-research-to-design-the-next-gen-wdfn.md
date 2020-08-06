@@ -9,7 +9,7 @@ authors:
 tags:
   - user-centered design
   - agency work
-excerpt: "The USGS Water Resources Mission Area (WMA) is striving to make their
+excerpt: "The USGS Water Resources Mission Area is striving to make their
   water data easier to access for their users. This involves stepping back and
   reviewing how users currently use waterdata.usgs.gov so that we can make
   informed decisions moving forward. "
