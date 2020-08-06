@@ -3,6 +3,9 @@ title: Doing user research to design the next-gen WDFN
 date: August 3, 2020
 authors:
   - norah-maki
+tags:
+  - user-centered design
+  - agency work
 excerpt: "The USGS Water Resources Mission Area (WMA) is striving to make their
   water data easier to access for their users. This involves stepping back and
   reviewing how users currently use waterdata.usgs.gov so that we can make
