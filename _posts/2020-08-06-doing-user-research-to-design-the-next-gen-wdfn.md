@@ -14,7 +14,7 @@ excerpt: "The USGS Water Resources Mission Area (WMA) is striving to make their
   reviewing how users currently use waterdata.usgs.gov so that we can make
   informed decisions moving forward. "
 ---
-This post was originally published on the [Water Data for the Nation Blog](https://waterdata.usgs.gov/blog/18f-research/). Charlotte Snow and Shawna Gregory are product owners in the U.S. Geological Survey Water Resources Mission Area. Norah Maki and Amy Mok are a change strategist and an engineer at 18F.
+*This post was originally published on the [Water Data for the Nation Blog](https://waterdata.usgs.gov/blog/18f-research/). Charlotte Snow and Shawna Gregory are product owners in the U.S. Geological Survey Water Resources Mission Area. Norah Maki and Amy Mok are a change strategist and an engineer at 18F.*
 
 The USGS Water Resources Mission Area (WMA) is striving to make our water data easier to access for our users. This involves stepping back and reviewing how users currently use [waterdata.usgs.gov](https://waterdata.usgs.gov/) so that we can make informed decisions moving forward.
 
