@@ -15,17 +15,17 @@ This post was originally published on the [Water Data for the Nation Blog](https
 
 The USGS Water Resources Mission Area (WMA) is striving to make our water data easier to access for our users. This involves stepping back and reviewing how users currently use [waterdata.usgs.gov](https://waterdata.usgs.gov/) so that we can make informed decisions moving forward.
 
-# Who is 18F?
+## Who is 18F?
 
 This year USGS has partnered with [18F](https://18f.gsa.gov/), a digital services group in the General Services Administration, that supports government agencies by improving web experiences through user-centric research and testing. 18F was brought in to specifically identify areas of improvement in user experience, including navigating our site and helping users find our data quickly and efficiently.
 
-# What problem is USGS trying to solve?
+## What problem is USGS trying to solve?
 
 The USGS WMA has been providing online access to water data for 25 years and over that time the data has grown in size, scope, and complexity. Many new measurement locations have been established and new data types have been collected; striving to provide access to all of this data has made the USGS's websites increasingly complicated.
 
 As a part of our website modernization effort, the WMA seeks to streamline the user experience when interacting with the data on waterdata.usgs.gov. A broad set of users interact with the data available on the site, and users come in with varying levels of knowledge about the page organization and the underlying data structures by which they are organized. In order to develop a new solution that better serves our community of users, we first needed to understand more about our users’ goals and patterns of use.
 
-# UX research - How the 18F approach is different
+## UX research - How the 18F approach is different
 
 We are using user-centered research and software development methods that help us manage risk and make sure what we build will work for people's needs.
 
@@ -46,15 +46,13 @@ A second area of focus was to understand more about the individual user. Histori
 * How different are general versus expert use cases / workflows?
 * Is our data accessible and engaging? Who does it work for? Who are we not serving well?
 
-# Who did we talk to?
+## Who did we talk to?
 
 USGS serves a broad variety of users, but we wanted to be targeted about which users we engaged during this round of research, prioritizing those who are most important to answering our research questions and those who we know least about.
 
-![Snapshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research](https://lh5.googleusercontent.com/AJwZ_U7VNJ4LRfqrVG70WXr-LVShJ4YAxZwoOeXbsKgug6EOcE82kKWHf8ivoEZ8-Uoi7DcXovduCvWAurAIo4qxrmbrYlhX3_aclDR1a1tkI7MPh1gqQbirXRsIc75pZrxLUr0L)
+![Snapshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research]({{ site.baseurl }}https://lh5.googleusercontent.com/AJwZ_U7VNJ4LRfqrVG70WXr-LVShJ4YAxZwoOeXbsKgug6EOcE82kKWHf8ivoEZ8-Uoi7DcXovduCvWAurAIo4qxrmbrYlhX3_aclDR1a1tkI7MPh1gqQbirXRsIc75pZrxLUr0L "Screenshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research")
 
-Screenshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research
-
-# What were our assumptions?
+## What were our assumptions?
 
 USGS has traditionally grouped users by professional affiliation, but that didn't necessarily correspond to how they used waterdata.usgs.gov. Our goal was to identify shared user needs and behaviors that we can design for. We referenced trends in site analytics and other background information to make informed guesses about some preliminary groups we needed to learn more about:
 
@@ -62,7 +60,7 @@ USGS has traditionally grouped users by professional affiliation, but that didn'
 * Users who routinely access a single data point, page, or visualization. Site analytics also showed that more than 60% of sessions were on the USGS “current conditions” pages. We thought this group of users might be homeowners living in flood prone areas who regularly check a nearby monitoring site, or outdoor enthusiasts who check certain gages before going out.
 * Users who query the API to get datasets. USGS has a large network of partners and collaborators who need to pull down large volumes of data. We thought this group would include researchers, data scientists, USGS staff, and large federal partners like NOAA and the US Army Corps of Engineers.
 
-# What did we learn?
+## What did we learn?
 
 After we identified these user groups, we needed to interview them to understand and observe how they use the system. Finding users to participate in research can be challenging. In this case, USGS was able to reach out to its large network of partners and collaborators to find certain types of participants, and we combed through dozens of help desk emails to find others. We also set up a recruitment form with [Touchpoints](https://touchpoints.digital.gov/) to allow site visitors to opt-in to give feedback.
 
@@ -74,20 +72,23 @@ After doing five interviews with the three different groups, we started to see e
 
 After we solidified on these emerging groups, we were able to find a path forward to make using our site easier and more efficient. We looked at their journeys through the system and identified the areas we could improve to make the biggest impact for our users.
 
-# Takeaways
+## Takeaways
 
 * Research may invalidate your assumptions and that's okay
-* * Original assumptions may be incorrect, go in with an open mind
-* Take detailed notes to help with synthesis later
-* * You can organize them into themes to surface patterns
-* See how people actually navigate your system
-* * It is not enough to have users talk about how they use it because they will skip over the shortcuts and navigation patterns they rely on. The only way to know is to observe while they use your system
 
-# What are the next steps?
+  * Original assumptions may be incorrect, go in with an open mind
+* Take detailed notes to help with synthesis later
+
+  * You can organize them into themes to surface patterns
+* See how people actually navigate your system
+
+  * It is not enough to have users talk about how they use it because they will skip over the shortcuts and navigation patterns they rely on. The only way to know is to observe while they use your system
+
+## What are the next steps?
 
 We have recently begun the next phase of the engagement with 18F: Experiment and Iterate. For 12 weeks we will conduct user testing with prototypes of varying fidelities. The goal here is to get designs in front of users and again ask them how they would potentially complete a given task with the interface. After each interview we will tweak the design based on what we have learned. Each iteration will get us closer to the goal of a page that is easy to navigate and retrieve the data from.
 
-# Related resources
+## Related resources
 
 [18F Method Cards](https://methods.18f.gov/)
 
