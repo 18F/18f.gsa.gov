@@ -64,6 +64,15 @@ banner_cta: true
         </p>
       </a>
     </div>
+    <div class="graphic-list-item">
+      <a class="graphic-list-link" href="https://ux-guide.18f.gov/">
+        <img src="{{ site.baseurl }}/assets/img/guides/user-interviews-love--c.svg" alt="">
+        <p class="link-arrow-right">
+          User experience
+          {% include svg/icons/arrow-right.svg %}
+        </p>
+      </a>
+    </div>
   </div>
 </div>
 
