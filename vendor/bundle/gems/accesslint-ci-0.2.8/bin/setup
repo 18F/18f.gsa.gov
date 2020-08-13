@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
-set -vx
-
-bundle install
-
-brew install wget
-npm install -g accesslint-cli

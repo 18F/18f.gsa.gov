@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-require "accesslint/ci"
-
-Accesslint::Ci::Cli.start

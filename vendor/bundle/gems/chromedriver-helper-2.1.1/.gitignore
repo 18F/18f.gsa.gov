@@ -1,7 +1,0 @@
-*.gem
-.bundle
-.tags
-Gemfile.lock
-chromedriver.log
-concourse/private.yml
-pkg/*

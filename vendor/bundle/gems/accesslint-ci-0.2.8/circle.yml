@@ -1,8 +1,0 @@
-machine:
-  node:
-    version: 6.1.0
-
-dependencies:
-  override:
-    - bundle install
-    - npm install -g accesslint-cli

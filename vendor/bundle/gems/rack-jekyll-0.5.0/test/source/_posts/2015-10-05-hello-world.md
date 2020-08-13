@@ -1,3 +1,0 @@
----
----
-Rack-Jekyll post
