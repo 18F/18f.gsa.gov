@@ -2,7 +2,7 @@
 title: 10 weeks improving government through technology
 date: August 13, 2020
 authors:
-  - dahianna
+  - abdulrahim-tahlil
 tags:
   - how we work
   - 18f.gsa.gov
