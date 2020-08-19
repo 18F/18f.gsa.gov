@@ -37,7 +37,7 @@
   },
   "homepage": "https://18f.gsa.gov",
   "devDependencies": {
-    "pa11y-ci": "^2.3.0"
+    "pa11y-ci": "^2.4.0"
   },
   "dependencies": {
     "accesslint-cli": "^2.0.0",
