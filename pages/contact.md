@@ -13,7 +13,7 @@ lead: Let’s work together to improve the user experience of government.
 {% markdown %}
 
 ### Want to see if 18F can help your agency?
-Email Kenny Daniel on our Agency Partnerships team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
+Email our Business Development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
 
 ### Looking for a job at 18F?
 You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent Team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
