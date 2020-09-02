@@ -34,8 +34,7 @@ As a result, CRT staff spent most of their time processing unactionable complain
 <div class="small-caps">Approach</div>
 ### Building a unified portal using human-centered design
 
-The CRT partnered with 18F, an office within TTS that partners with other agencies to build and buy digital services that improve the user experience of the government.
-Through this partnership, they streamlined the complaint submission process and provided a more unified and straightforward experience for victims of civil rights violations.
+The CRT partnered with 18F and streamlined the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.
 
 Together, we crafted design principles for the new experience, which subsequent designs, prototypes, and builds were tested against:
 - Informative, but clear and concise
@@ -48,6 +47,5 @@ The result was the [Civil Rights Reporting Portal](civilrights.justice.gov), a u
 Built on cloud.gov and using the United States Web Design System (USWDS), the new Reporting Portal consolidates more than 30 unique reporting pathways into a single, coordinated experience. Thanks to cloud.gov, the site can scale with traffic, and CRT can minimize time spent on operations and management. Thanks to USWDS, the site can stay accessible and compliant with little to no design maintenance work required. With 18F’s help, both the public and CRT employees can benefit from a high-quality tool developed using Agile and Devsecops practices and that was delivered on time, on budget, and to a private sector standard.
 
 The portal dramatically eases the burden on victims of civil rights violations to identify the proper reporting channel. Now, the public will find it easier to tell their story, submit their report, and receive guidance on what to expect next.
-For Division staff, this new experience creates a more consistent, collaborative, and transparent process. It allows staff to easily review, sort, and redirect reports to the appropriate team for analysis. This saves time and energy, freeing up more capacity for the Division to focus on advancing civil rights.
-The portal reduces operational expenditure incurred with development, maintenance and security and scalability of the legacy systems. With a unified portal as the single source of data, CRT is able to draw business intelligence and spot trends and patterns.
-This allows the division to make more informed program decisions around processes, resourcing, hiring, etc. By developing resilient, reliable and secure systems, CRT is able to maintain the integrity of the data submitted via the new portal.
+
+For Division staff, this new experience creates a more consistent, collaborative, and transparent process. It allows staff to easily review, sort, and redirect reports to the appropriate team for analysis. This saves time and energy, freeing up more capacity for the Division to focus on advancing civil rights. The portal reduces operational expenditure incurred with development, maintenance and security and scalability of the legacy systems. With a unified portal as the single source of data, CRT is able to draw business intelligence and spot trends and patterns. This allows the division to make more informed program decisions around processes, resourcing, hiring, etc. By developing resilient, reliable and secure systems, CRT is able to maintain the integrity of the data submitted via the new portal.
