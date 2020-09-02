@@ -200,6 +200,11 @@ collections:
       - {label: "Product Clients", name: "product_clients", widget: "list", required: false}
       - {label: "Published", name: "published", widget: "boolean", required: false}
       - {label: "Listed", name: "listed", widget: "boolean", required: false}
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown"
+        }
   - label: Posts
     name: posts
     folder: _posts/
