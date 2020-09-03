@@ -2,7 +2,10 @@
 title: A federal guide to de-risk government technology projects
 date: September 8, 2020
 authors:
+  - alicia-rouault
+  - rebecca-refoy-sidibe
   - vicki-mcfadden
+  - mchopson
 tags:
   - best practices
   - how we work
@@ -13,7 +16,7 @@ excerpt: We’re proud to announce a second field guide, de-risking technology
   recommendations to address the common challenges agencies face when adopting
   agile and user-centered design methodologies.
 ---
-ast August, we released a [de-risking government technology field guide for states](https://github.com/18F/derisking-gov-tech/blob/master/State%20Field%20Guide%20-%20Agile%20Budgeting%20%26%20Oversight.pdf). The guide offers state staff with tools to make custom technology projects more successful. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
+Last August, we released a [de-risking government technology field guide for states](https://github.com/18F/derisking-gov-tech/blob/master/State%20Field%20Guide%20-%20Agile%20Budgeting%20%26%20Oversight.pdf). The guide offers state staff with tools to make custom technology projects more successful. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
 
 Today, we’re proud to announce a second field guide, de-risking technology field guide for federal agencies. The guide provides actionable recommendations to address the common challenges agencies face when adopting agile and user-centered design methodologies. Ultimately, the goal is to help teams reduce risk and improve outcomes for the agency’s end-users.
 
