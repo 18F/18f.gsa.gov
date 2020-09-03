@@ -2,8 +2,7 @@
 title: A federal guide to de-risk government technology projects
 date: September 8, 2020
 authors:
-  - mchopson
-  - gsa-blog-team
+  - alicia-rouault
 tags:
   - best practices
   - how we work
