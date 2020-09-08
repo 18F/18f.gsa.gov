@@ -11,15 +11,17 @@ tags:
   - how we work
   - lessons learned
   - acquisition services
+  - agile
+  - guides
 excerpt: We’re proud to announce the de-risking technology field guide for
   federal agencies. This guide provides actionable recommendations to address
   the common challenges agencies face when adopting agile and user-centered
   design methodologies.
 image: /assets/blog/agbudg_blogimage_03.jpg
 ---
-Today, we’re proud to announce the De-risking Government Technology Field Guide for federal agencies. This field guide provides actionable recommendations to address the common challenges agencies face when adopting agile and user-centered design methodologies. Ultimately, the goal is to help teams reduce risk and improve outcomes for the agency’s end-users.
+Last August, we released a [de-risking government technology field guide for states](https://github.com/18F/derisking-gov-tech/blob/master/State%20Field%20Guide%20-%20Agile%20Budgeting%20%26%20Oversight.pdf). The guide offers state staff with tools to make custom technology projects more successful. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
 
-Last August, we released a [de-risking government technology field guide for state](https://github.com/18F/derisking-gov-tech/blob/master/State%20Field%20Guide%20-%20Agile%20Budgeting%20%26%20Oversight.pdf) governments. The guide offers state staff with tools to make custom technology projects more successful. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
+Today, we’re proud to announce a second field guide, de-risking technology field guide for federal agencies. The guide provides actionable recommendations to address the common challenges agencies face when adopting agile and user-centered design methodologies. Ultimately, the goal is to help teams reduce risk and improve outcomes for the agency’s end-users.
 
 Each section provides straight-forward recommendations and templates for agency staff to address common pitfalls in planning and implementing modern software development projects. These recommendations include considerations in build-or-buy decisions, how to write a contract for agile software development, what to look for in a high-quality contractor proposal, and meaningful metrics for agile development.
 
