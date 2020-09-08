@@ -24,7 +24,7 @@ This work was written by [18F](https://18f.gsa.gov/) and funded by the Technolog
 
 This latest release is a federal compliment to the [Agile Budgeting & Oversight Guide for State Governments](https://derisking-guide.18f.gov/state-field-guide/) published in 2019. The guide for state governments offers tools and advice on delivering custom technology projects. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
 
-Both field guides are available now, online and in PDF format. We will continue to edit and add to this work as we learn more.
+Both field guides are available now, [online](https://derisking-guide.18f.gov/) and in PDF format. We will continue to edit and add to this work as we learn more.
 
 If you have questions, suggestions, or any kind of feedback, we’d be happy to hear from you. 
 
