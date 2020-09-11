@@ -4,9 +4,3 @@
 .background-dark .usa-button-secondary.usa-button:focus {
   color: $color-gray-lightest;
 }
-
-// Fix side nav a:hover text contrast
-
-.usa-sidenav a:hover {
-  color: $color-medium-hover;
-}
