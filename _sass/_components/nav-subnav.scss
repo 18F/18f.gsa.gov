@@ -27,6 +27,10 @@
 
 .usa-sidenav__item {
   a {
-    @include u-text('bold')
+    @include u-text('bold');
+
+    &:hover {
+      color: $color-medium-hover;
+    }
   }
 }
