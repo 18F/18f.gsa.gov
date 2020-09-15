@@ -100,3 +100,10 @@ header[role=banner] {
   }
 }
 // scss-lint:enable PropertyCount
+
+//Fix alignment of navigation items
+.usa-header--basic .usa-nav {
+  @include at-media('desktop') {
+    padding-left: 0;
+  }
+}
