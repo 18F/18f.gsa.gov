@@ -33,7 +33,7 @@
   }
 
   .graphic-list-link {
-    @include u-margin-y(2);
+    @include u-margin-y(3);
     @include media-link;
     text-decoration: none;
     width: 100%;
@@ -53,7 +53,7 @@
 
 
   .link-arrow-right {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .link-lean {
