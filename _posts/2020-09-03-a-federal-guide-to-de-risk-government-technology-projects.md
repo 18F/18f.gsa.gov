@@ -22,7 +22,7 @@ The field guide is written for federal agency cross-functional teams delivering 
 
 This work was written by [18F](https://18f.gsa.gov/) and funded by the Technology Transformation Services’ (TTS) [10x](https://10x.gsa.gov/) program, housed within GSA’s Federal Acquisition Service. To inform this work our researchers collected information across TTS project work with agencies, researched federal policies and reports, examined lessons learned from failed IT projects, and interviewed agencies to uncover common pain points.
 
-This latest release is a federal compliment to the [Agile Budgeting & Oversight Guide for State Governments](https://derisking-guide.18f.gov/state-field-guide/) published in 2019. The guide for state governments offers tools and advice on delivering custom technology projects. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
+This latest release is a federal complement to the [Agile Budgeting & Oversight Guide for State Governments](https://derisking-guide.18f.gov/state-field-guide/) published in 2019. The guide for state governments offers tools and advice on delivering custom technology projects. We documented over a dozen best practices, including budgeting for software as an operational expense, limiting contract size, measuring success iteratively, and hiring in-house tech talent.
 
 Both field guides are available now, [online](https://derisking-guide.18f.gov/) and in PDF format. We will continue to edit and add to this work as we learn more.
 
