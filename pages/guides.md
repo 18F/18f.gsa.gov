@@ -38,6 +38,15 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
+      <a class="graphic-list-link" href="https://derisking-guide.18f.gov/">
+        <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
+        <p class="link-arrow-right">
+          Derisking
+          {% include svg/icons/arrow-right.svg %}
+        </p>
+      </a>
+    </div>
+    <div class="graphic-list-item">
       <a class="graphic-list-link" href="https://methods.18f.gov/">
         <img src="{{ site.baseurl }}/assets/img/guides/design-methods.svg" alt="">
         <p class="link-arrow-right">
