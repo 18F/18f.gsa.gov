@@ -12,7 +12,6 @@ header[role=banner] {
 
       a {
         @include u-padding-y(2.5);
-        @include u-padding-x(2);
 
         color: color('gray-cool-60');
         font-weight: $theme-font-weight-bold;
@@ -99,11 +98,12 @@ header[role=banner] {
     color: color('white');
   }
 }
-// scss-lint:enable PropertyCount
 
-//Fix alignment of navigation items
-.usa-header--basic .usa-nav {
-  @include at-media('desktop') {
-    padding-left: 0;
+.usa-nav__primary > .usa-nav__primary-item {
+  a {
+    @include at-media('desktop') {
+      @include u-padding-x(1);
+
+    }
   }
 }
