@@ -18,7 +18,7 @@ analytics:
     code: 'UA-48605964-1' # Change this to your GSA analytics code
   dap:
     agency: GSA    # Change this to your agency
-    subagency: 18F # Change this to your agency
+    subagency: TTS,18F # Change this to your agency
 
 # blog archive at /blog
 paginate: 5

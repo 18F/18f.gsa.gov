@@ -1,11 +1,11 @@
 ---
 name: rebecca-refoy-sidibe
 first_name: Rebecca
-last_name: Refoy-Sidibe
-full_name: Rebecca Refoy-Sidibe
+last_name: Refoy
+full_name: Rebecca Refoy
 city: Washington
 state: D.C.
-team: Acquisitions
-role: Product manager
+team: Account Management
+role: Account manager
 published: true
 ---

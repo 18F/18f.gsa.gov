@@ -5,8 +5,8 @@ navbar:
     - /what-we-deliver/:path/
 - text: How we work
   permalink: /how-we-work/
-- text: About
-  permalink: /about/
+- text: Guides
+  permalink: /guides/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
