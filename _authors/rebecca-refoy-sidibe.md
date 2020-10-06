@@ -1,5 +1,5 @@
 ---
-name: rebecca-refoy
+name: rebecca-refoy-sidibe
 first_name: Rebecca
 last_name: Refoy
 full_name: Rebecca Refoy
