@@ -36,8 +36,8 @@ permalink: /styleguide/typography/
 {% include details-code.html
    title='fonts'
    description='We are overriding the font used by the [U.S. Web Design System](https://designsystem.digital.gov/components/typography/) with the font used by the [18F Brand](https://pages.18f.gov/brand/typography/).'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L20-L21'
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/variables.scss#L20-L21'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_libs/wds/stylesheets/core/_variables.scss#L17-L18'
 %}
 
 ---
@@ -76,8 +76,8 @@ p | 1.8rem | 18px
    title='typography'
    content=codeblock
    description=type_description
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L2-L14'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_libs/wds/stylesheets/core/_variables.scss#L2-L15'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/variables.scss#L2-L14'
 %}
 
 ---
@@ -105,7 +105,7 @@ $font-normal | `p-normal` (only needs to be used to be used to override another 
    title='type-weight'
    content=codeblock
    description=weight_description
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L20-L21'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_libs/wds/stylesheets/core/_variables.scss#L20-L21'
 %}
 
 ---

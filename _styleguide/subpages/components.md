@@ -39,8 +39,8 @@ subnav_items:
 {% include details-code.html
    title='buttons'
    description='Our button styles closely resemble those defined by the U.S. Web Design System. We have overriden them in places to more closely align the look and feel with the 18F Brand.'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/buttons.scss'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
    content=styleguide_buttons
 %}
 
@@ -84,7 +84,7 @@ For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/
    title='breadcrumb'
    lang='markdown'
    description=breadcrumb_description
-   include_ref='https://github.com/18F/18f.gsa.gov/blob/master/_includes/breadcrumb.html'
+   include_ref='https://github.com/18F/18f.gsa.gov/blob/main/_includes/breadcrumb.html'
    content=styleguide_breadcrumb
 %}
 
@@ -194,7 +194,7 @@ To add items to the subnavigation define the subnavigation items directly within
 
 ### Testimonials and fun facts
 
-Testimonials and fun facts are used throughout the site to highlight the impact 18F has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages. 
+Testimonials and fun facts are used throughout the site to highlight the impact 18F has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages.
 
 {% capture testimonial_codeblock %}{% raw %}
 
@@ -213,8 +213,8 @@ Testimonials and fun facts are used throughout the site to highlight the impact 
 
 #### How to use
 
-- For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position, and agency within the `<span>` tag. This bolds, adds color, and removes italics to the text. 
-- For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text. 
+- For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position, and agency within the `<span>` tag. This bolds, adds color, and removes italics to the text.
+- For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text.
 
 {% endcapture %}
 

@@ -1122,7 +1122,7 @@ body .markdown-body
 <ol>
 <li>Create a new file within the <code>_projects</code> directory, named with the following format: <code>[agency acronym]-[project-name].md</code>.</li>
 <li>Copy the <a href="https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md">project page template</a> to that file.</li>
-<li>Replace all relavent front matter fields. To see if a field is required, see the <a href="https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_projects.yml">project page schema</a>.</li>
+<li>Replace all relavent front matter fields. To see if a field is required, see the <a href="https://github.com/18F/18f.gsa.gov/blob/main/tests/schema/_projects.yml">project page schema</a>.</li>
 <li>If you are adding an image, make sure to <a href="https://github.com/18F/18f.gsa.gov/wiki/Finding-the-right-image-for-a-project-page">check out the wiki</a>. If you are not adding an image, make sure to specify an <code>image_icon</code> property in the front matter, and reference an SVG available in the <a href="{{ site.basurl }}/images/svg-include-catalog">SVG catalog</a> like so:<br />
   <pre><code class="yml">image_icon: gavel.svg
 </code></pre></li>
@@ -1136,7 +1136,7 @@ body .markdown-body
   <figcaption>Example of a blog post template. Found at <a href="{{ site.baseurl }}/2017/03/21/nasa-journey-with-us-web-design-standards/">NASA's journey with the U.S. Web Design Standards</a>.</figcaption>
 </figure>
 
-<p>There is extensive documentation for how to <a href="https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post">publish a blog post</a> on the wiki and an <a href="https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md">example blog post</a> to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at <a href="{{ site.baseurl }}/syleguide/blog/">Blog</a>.</p>
+<p>There is extensive documentation for how to <a href="https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post">publish a blog post</a> on the wiki and an <a href="https://github.com/18F/18f.gsa.gov/blob/main/examples/blog-post.md">example blog post</a> to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at <a href="{{ site.baseurl }}/syleguide/blog/">Blog</a>.</p>
 <hr />
 <h3 id="grid"><a name="user-content-grid" href="#grid" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Grid</h3>
 <p>The layout and grid structure inherits from the U.S. Web Design Standards and makes some slight adjustments. Layout changes are not overrides of the standards, but a handful of CSS classes have been added to compliment the Standards.</p>
@@ -1149,11 +1149,11 @@ body .markdown-body
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss"><code>usa-width-tablet</code></a></td>
-<td>A class that allows certain content, namely the <a href="{{ site.baseurl }}/styleguide/project-cards/">project cards</a>, and the <a href="{{ site.baseurl }}/styleguide/blog-components/#post-previews">blog previews</a> to respond at a different breakpoint, <a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss"><code>$tablet-screen</code></a> (768px).</td>
+<td><a href="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/grid.scss"><code>usa-width-tablet</code></a></td>
+<td>A class that allows certain content, namely the <a href="{{ site.baseurl }}/styleguide/project-cards/">project cards</a>, and the <a href="{{ site.baseurl }}/styleguide/blog-components/#post-previews">blog previews</a> to respond at a different breakpoint, <a href="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/variables.scss"><code>$tablet-screen</code></a> (768px).</td>
 </tr>
 <tr>
-<td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss"><code>usa-flex</code></a></td>
+<td><a href="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/layout.scss"><code>usa-flex</code></a></td>
 <td>Wrapper class that sets <code>display: flex</code>, and can be used to create more flexible layouts.</td>
 </tr>
 <tr>
@@ -1161,12 +1161,12 @@ body .markdown-body
 <td><code>usa-flex-baseline</code>, <code>usa-flex-end</code>, <code>usa-flex-pull-right</code>, <code>usa-flex-always</code>, <code>usa-flex-wrap</code>, <code>usa-flex-vertically-top</code>, <code>usa-flex-pull-right</code>, and <code>usa-flex-vertically-bottom</code>.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss"><code>usa-grid-reversed</code></a></td>
+<td><a href="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/grid.scss"><code>usa-grid-reversed</code></a></td>
 <td>This class can be used to alternate the order that content appears in mobile vs desktop screen widths.</td>
 </tr>
 <tr>
 <td><code>content-wide</code></td>
-<td>In the Standards, the primary way to improve readability is via the <code>usa-content</code> class, which <a href="https://standards.usa.gov/components/typography/#typesetting">limits content to 75 characters</a>. Instead of relying on this mechanism, the site wraps site content with the <code>content-focus</code> class, <a href="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss">limiting the entire grid to roughly 100 characters</a>.</td>
+<td>In the Standards, the primary way to improve readability is via the <code>usa-content</code> class, which <a href="https://standards.usa.gov/components/typography/#typesetting">limits content to 75 characters</a>. Instead of relying on this mechanism, the site wraps site content with the <code>content-focus</code> class, <a href="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/layout.scss">limiting the entire grid to roughly 100 characters</a>.</td>
 </tr>
 <tr>
 <td><code>content-focus</code></td>

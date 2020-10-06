@@ -73,8 +73,8 @@ Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tre
 2. Copy the [project page template](https://raw.githubusercontent.com/18F/18f.gsa.gov/master/examples/project-template.md) to that file. Here you can build out the page to include:
   - Main content on the project's background and 18F's approach
   - The sidebar for at-a-glance information like the project's website or GitHub repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
-  - Testimonials or fun facts styling within the body of the page  
-3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/_services_projects.yml).
+  - Testimonials or fun facts styling within the body of the page
+3. Replace all relavent front matter fields. To see if a field is required, see the [project page schema](https://github.com/18F/18f.gsa.gov/blob/main/tests/schema/_services_projects.yml).
 4. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
   ```yml
   image_icon: gavel.svg
@@ -92,7 +92,7 @@ Located at [`_layouts/post.html`](https://github.com/18F/18f.gsa.gov/tree/master
 </figure>
 
 
-There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/master/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog](https://18f.gsa.gov/styleguide/blog-components/).
+There is extensive documentation for how to [publish a blog post](https://github.com/18F/18f.gsa.gov/wiki/Publishing-a-blog-post) on the wiki and an [example blog post](https://github.com/18F/18f.gsa.gov/blob/main/examples/blog-post.md) to assist with adding metadata and frequently used blog components. A deeper dive into those components is available at [Blog](https://18f.gsa.gov/styleguide/blog-components/).
 
 ---
 
@@ -102,11 +102,11 @@ The layout and grid structure inherits from the U.S. Web Design System and makes
 
 Class name | What it does
 --- | ---
-[`usa-width-tablet`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | A class that allows certain content, namely the [project cards]({{ site.baseurl }}/styleguide/project-cards/), and the [blog previews]({{ site.baseurl }}/styleguide/blog-components/#post-previews) to respond at a different breakpoint, [`$tablet-screen`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss) (768px).
-[`usa-flex`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss) | Wrapper class that sets `display: flex`, and can be used to create more flexible layouts.
+[`usa-width-tablet`](https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/grid.scss) | A class that allows certain content, namely the [project cards]({{ site.baseurl }}/styleguide/project-cards/), and the [blog previews]({{ site.baseurl }}/styleguide/blog-components/#post-previews) to respond at a different breakpoint, [`$tablet-screen`](https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/variables.scss) (768px).
+[`usa-flex`](https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/layout.scss) | Wrapper class that sets `display: flex`, and can be used to create more flexible layouts.
 Classes used with `usa-flex` | `usa-flex-baseline`, `usa-flex-end`, `usa-flex-pull-right`, `usa-flex-always`, `usa-flex-wrap`, `usa-flex-vertically-top`, `usa-flex-pull-right`, and `usa-flex-vertically-bottom`.
-[`usa-grid-reversed`](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/grid.scss) | This class can be used to alternate the order that content appears in mobile vs desktop screen widths.
-`content-wide` | In the Design System, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://designsystem.digital.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss).
+[`usa-grid-reversed`](https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/grid.scss) | This class can be used to alternate the order that content appears in mobile vs desktop screen widths.
+`content-wide` | In the Design System, the primary way to improve readability is via the `usa-content` class, which [limits content to 75 characters](https://designsystem.digital.gov/components/typography/#typesetting). Instead of relying on this mechanism, the site wraps site content with the `content-focus` class, [limiting the entire grid to roughly 100 characters](https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/layout.scss).
 `content-focus` | When the the grid needs to be wider, `content-wide` is used and the content width is controlled by using partial grid layouts.
 
 ---

@@ -71,8 +71,8 @@ U.S. Web Design System colors, `$color-gray` and `$color-gray-lightest`, were pu
 {% include details-code.html
    title='colors'
    description=colors_description
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_core/variables.scss#L25-L35'
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_core/variables.scss#L25-L35'
+   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_libs/wds/stylesheets/core/_variables.scss#L24-L74'
 %}
 
 ---
@@ -133,5 +133,5 @@ CSS class | SCSS variable
    content=styleguide_background
    lang='html'
    description=backgrounds_description
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/layout.scss#L121-L189'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/layout.scss#L121-L189'
 %}
