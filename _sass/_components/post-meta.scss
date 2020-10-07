@@ -30,7 +30,8 @@
   display: block;
   margin-bottom: 3rem !important;
   a {
-    @include u-padding-y(0.5);
+    @include u-padding('05');
+    @include u-margin('05');
 
     background-color: color('gray-cool-5');
     color: $color-medium;
