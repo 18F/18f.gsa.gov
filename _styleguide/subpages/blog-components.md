@@ -12,7 +12,7 @@ image_figcaption: The 18F team gathered in the GSA building in May 2016.
 
 ### Post previews
 
-Post previews are seen on the home page of [18f.gsa.gov](https://18f.gsa.gov/) and at the bottom of every blog post for example, [this post](https://18f.gsa.gov/2017/03/21/nasa-journey-with-us-web-design-standards/). This feature provides the user a preview of a blog that includes the publish date, title, an excpert, a link to the full post, and tags. 
+Post previews are seen on the home page of [18f.gsa.gov](https://18f.gsa.gov/) and at the bottom of every blog post for example, [this post](https://18f.gsa.gov/2017/03/21/nasa-journey-with-us-web-design-standards/). This feature provides the user a preview of a blog that includes the publish date, title, an excpert, a link to the full post, and tags.
 
 {% capture styleguide_post %}{% raw %}
 <section class="usa-grid-full usa-section posts_feature">
@@ -66,7 +66,7 @@ Post previews are generated dynamically throughout the site. Each preview requir
 
 {% include details-code.html
    title='blog-tags'
-   description="Blog tags are generated and draw from a post's `tags` property. Before you use a tag, make sure that it is in the [list of acceptable tags](https://github.com/18F/18f.gsa.gov/blob/master/tests/schema/tags.yml)."
+   description="Blog tags are generated and draw from a post's `tags` property. Before you use a tag, make sure that it is in the [list of acceptable tags](https://github.com/18F/18f.gsa.gov/blob/main/tests/schema/tags.yml)."
    content=styleguide_blog_tags
 %}
 
@@ -116,14 +116,14 @@ Post previews are generated dynamically throughout the site. Each preview requir
    title='blockquotes'
    description="Our blockquotes use the `kramdown` renderer, so please defer to [the documentation](https://kramdown.gettalong.org/quickref.html#blockquotes) for details on markdown rendering issues. 18f.gsa.gov does, however, set styles that are unique to 18F Brand for both blockquotes and pull quotes."
    content=styleguide_blockquotes
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blockquotes.scss'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/blockquotes.scss'
 %}
 
 ---
 
 ### Images
 
-There are a few ways we render images on the blog: Hero images that span the entire page, within blog post, and team photos. For information on adding images to the site see: 
+There are a few ways we render images on the blog: Hero images that span the entire page, within blog post, and team photos. For information on adding images to the site see:
 
 - [Hero images]({{ site.baseurl }}/styleguide/blog-components/#hero-images)
 - [Images in blog posts]({{ site.baseurl }}/styleguide/blog-components/#images-within-blog-posts)
@@ -132,7 +132,7 @@ There are a few ways we render images on the blog: Hero images that span the ent
 ---
 
 ### Hero images
-Hero images are used in the [primary]({{ site.baseurl }}/styleguide/layouts/#primary-template) and [blog post]({{ site.baseurl }}/styleguide/layouts/##blog-post-template) layouts.Here is a view of a [live example]({{ site.baseurl }}/2016/12/14/how-to-run-an-efficient-meeting/). 
+Hero images are used in the [primary]({{ site.baseurl }}/styleguide/layouts/#primary-template) and [blog post]({{ site.baseurl }}/styleguide/layouts/##blog-post-template) layouts.Here is a view of a [live example]({{ site.baseurl }}/2016/12/14/how-to-run-an-efficient-meeting/).
 
 
 {% capture styleguide_hero_image %}{% raw %}
@@ -153,13 +153,13 @@ To add a caption, specify the `image_figcaption` attribute in the page front mat
    description=hero_description
    content=styleguide_hero_image
    lang="html"
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/blog-post.scss'
 %}
 
 ---
 ### Images within blog posts
 
-Images can be any visual that supports the content of the post. We often use screen shots of platforms, people active in an design thinking excercise or images of people and our team.  Below is an example of an image with a caption. 
+Images can be any visual that supports the content of the post. We often use screen shots of platforms, people active in an design thinking excercise or images of people and our team.  Below is an example of an image with a caption.
 
 {% capture image_captions %}{% raw %}
 <figure>
@@ -171,19 +171,19 @@ Images can be any visual that supports the content of the post. We often use scr
 {% capture image_description %}
 To add basic images to a blog post:
 * Use `<figure>` tag for all blog images. To learn more about this tag go to [the developer page on mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
-* Use `<figcaption></figcaption>` tags for image captions. This is a preferred practice but is optional. 
+* Use `<figcaption></figcaption>` tags for image captions. This is a preferred practice but is optional.
 * Use the `alt` tag to provide screen readable captions for images that do not have a caption.
 * If images have a caption, they do not need `alt` text. To make sure that browsers know this, specify `alt=""`
 * Make sure to prepend image path with `{{ site.baseurl }}` to ensure that the file path is pointed to the correct spot.
 * Add the `class=image-shadowed` CSS class to give images with white backgrounds addition depth. [This blog post]({{ site.baseurl }}/2016/12/22/charting-the-future-of-the-draft-us-web-design-standards/) is a live example.
-* If images are are small, use the `class="align-left"` example: `<figure class="align-left>`. [This blog post]({{ site.baseurl }}/2017/01/11/the-best-way-to-build-big-is-to-start-small/) is a live example. 
+* If images are are small, use the `class="align-left"` example: `<figure class="align-left>`. [This blog post]({{ site.baseurl }}/2017/01/11/the-best-way-to-build-big-is-to-start-small/) is a live example.
 {% endcapture %}
 {% include details-code.html
    title='image_captions'
    description=image_description
    content=image_captions
    lang='html'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/blog-post.scss'
+   scss_ref='https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/blog-post.scss'
 %}
 
 
@@ -206,7 +206,7 @@ The team photo is created by using a custom Jekyll [filter](https://jekyllrb.com
 
 In the above example `{% raw %}{{ 'brian' | team_photo }}{% endraw %}`, references `/assets/img/team/brian.jpg` and places it in an `img` tag.
 
-[See the code](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/team.rb) to better understand what is going on.
+[See the code](https://github.com/18F/18f.gsa.gov/blob/main/_plugins/team.rb) to better understand what is going on.
 {% endcapture %}
 
 {% include details-code.html
@@ -216,4 +216,3 @@ In the above example `{% raw %}{{ 'brian' | team_photo }}{% endraw %}`, referenc
    description=icon_list_description
    other_ref='https://github.com/18F/18f.gsa.gov/tree/master/_plugins#team_photo-accepts-the-authors-name-as-the-first-argument-lives-in-teamrb'
 %}
-

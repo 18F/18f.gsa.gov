@@ -35,9 +35,9 @@ Plugin gem | Description
 
 Custom plugin name | Description
 --- | ---
-[author.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author.rb) | creates two filters, [`lookup`]({{ github_url_master }}/_plugins#lookup) and [`team_link`]({{ github_url_master }}/_plugins#team_link).
-[author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/author_data.rb) | Creates an [API]({{ github_url_master }}/_plugins#authordata) for using data pertaining to authors throughout the site.
-[update_author_data.rb](https://github.com/18F/18f.gsa.gov/blob/master/_plugins/update_author_data.rb) | Uses the AuthorData API to update the list of published authors. This will happen automatically every time the site builds.
+[author.rb](https://github.com/18F/18f.gsa.gov/blob/main/_plugins/author.rb) | creates two filters, [`lookup`]({{ github_url_master }}/_plugins#lookup) and [`team_link`]({{ github_url_master }}/_plugins#team_link).
+[author_data.rb](https://github.com/18F/18f.gsa.gov/blob/main/_plugins/author_data.rb) | Creates an [API]({{ github_url_master }}/_plugins#authordata) for using data pertaining to authors throughout the site.
+[update_author_data.rb](https://github.com/18F/18f.gsa.gov/blob/main/_plugins/update_author_data.rb) | Uses the AuthorData API to update the list of published authors. This will happen automatically every time the site builds.
 [embed.rb]({{ github_url_master }}/_plugins#embed) | legacy filter for embedding content within the site. The current approach is to use an [OEmbed plugin]({{ site.basurl }}/styleguide/oembeds/).
 [liquify.rb]({{ github_url_master }}/_plugins#liquify) | liquid parser.
 [markdown.rb]({{ github_url_master }}/_plugins#markdown-rendering) | markdown parser.

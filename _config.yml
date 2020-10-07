@@ -8,7 +8,7 @@ localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+github_repo: https://github.com/18F/18f.gsa.gov/blob/main
 
 related_posts: 3
 
