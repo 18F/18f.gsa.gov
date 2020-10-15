@@ -20,7 +20,6 @@ $z-index-overlay: 400;
   @include typeset($theme-header-font-family);
   @include border-box-sizing;
   z-index: z-index($z-index-header);
-  border-bottom: 1px solid #d6d7d9;
 
   a {
     border-bottom: none;
@@ -127,7 +126,7 @@ $z-index-overlay: 400;
   position: fixed;
   background: color("black");
   opacity: opacity(0);
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity $project-easing;
   visibility: hidden;
   z-index: z-index($z-index-overlay);
 
@@ -185,7 +184,6 @@ $z-index-overlay: 400;
 
     .usa-search {
       top: 0;
-      padding: 2rem;
     }
   }
   &.usa-header--megamenu {
