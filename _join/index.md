@@ -37,7 +37,7 @@ Head over to the [TTS Join website](https://join.tts.gsa.gov/) to see all open a
 To apply to positions at 18F and elsewhere in the Technology
 Transformation Services, you’ll need:
 
--   A [government-style resume](https://join.tts.gsa.gov/hiring-process/#government-style-resumes)
+-   A [government-style resume](https://join.tts.gsa.gov/resume/)
 -   A completed application
 -   Additional documents if you are claiming veterans preference
 
