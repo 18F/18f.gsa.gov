@@ -200,7 +200,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
-    ruby-oembed (0.13.1)
+    ruby-oembed (0.14.0)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
