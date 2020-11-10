@@ -5,12 +5,14 @@ ruby '~>2.6.3'
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
 gem 'jekyll', '~> 3.9'
+gem "sprockets", "~> 3.7"
 gem 'jemoji', '>= 0.11.1'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
+  gem 'jekyll-assets', '~> 3.0'
   gem 'jekyll-feed'
   gem 'jekyll_frontmatter_tests', '~> 0.1.0'
   gem 'jekyll-paginate'
