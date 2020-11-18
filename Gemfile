@@ -9,6 +9,7 @@ gem "sprockets", '~> 3.7'
 gem 'jemoji', '>= 0.11.1'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
+gem 'ruby-oembed', '0.13.1'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
