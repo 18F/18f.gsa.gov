@@ -15,7 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
   gem 'jekyll-assets', '~> 3.0'
   gem 'jekyll-feed'
-  gem 'jekyll_frontmatter_tests', '~> 0.1.0'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
