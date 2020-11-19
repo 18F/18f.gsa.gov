@@ -12,7 +12,6 @@ github_repo: https://github.com/18F/18f.gsa.gov/blob/main
 
 related_posts: 3
 
-
 analytics:
   google:
     code: 'UA-48605964-1' # Change this to your GSA analytics code
@@ -211,3 +210,8 @@ jekyll_pages_api_search:
     url:
       boost: 5
     body:
+
+# Jekyll Assets
+assets:
+  sources:
+    - node_modules/netlify-cms/dist
