@@ -8,10 +8,9 @@ localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+github_repo: https://github.com/18F/18f.gsa.gov/blob/main
 
 related_posts: 3
-
 
 analytics:
   google:
@@ -211,3 +210,8 @@ jekyll_pages_api_search:
     url:
       boost: 5
     body:
+
+# Jekyll Assets
+assets:
+  sources:
+    - node_modules/netlify-cms/dist

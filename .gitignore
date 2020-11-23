@@ -27,3 +27,5 @@ _team/mbland.md
 /coverage
 tmp
 .bundle
+.vscode
+.jekyll-cache

@@ -189,7 +189,7 @@ This pattern associates text with an icon to break up text blocks improve user u
    content=icon_list_codeblock
    lang="markdown"
    description='This component is not available as a Jekyll include. To use it, copy the code snippet above and update the icon, title, and body text accordingly.'
-   scss_ref="https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/icon-list.scss"
+   scss_ref="https://github.com/18F/18f.gsa.gov/blob/main/_sass/_components/icon-list.scss"
 %}
 
 ---

@@ -3,7 +3,7 @@
 <div class="overlay"></div>
 <header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
-    <div class="usa-navbar height-auto flex-align-center">
+    <div class="usa-navbar desktop:maxw-card height-auto flex-align-center">
       <div class="usa-logo">
         <a class="site-logo media_link" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg" alt="18F
@@ -17,15 +17,6 @@
       </div>
       <button class="usa-button--accent-cool usa-menu-btn">Menu</button>
     </div>
-      {% include navigation.html navbar=true %}
-      <form class="usa-search usa-search--small" role="search"  id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
-        <input name="utf8" type="hidden" value="&#x2713;" />
-            <label class="usa-sr-only" for="search-field-small">Search</label>
-        <input class="usa-input" type="hidden" name="affiliate" id="affiliate" value="18f-site" >
-        <input class="usa-input" type="search" name="query" id="query" autocomplete="off">
-            <button class="usa-button" type="submit">
-              <span class="usa-sr-only">Search</span>
-            </button>
-          </form> 
+    {% include navigation.html navbar=true %}
   </div>
 </header>
