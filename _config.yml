@@ -55,9 +55,6 @@ collections:
   contact:
     output: false
     permalink: /contact/:path/
-  code_of_conduct:
-    output: true
-    permalink: /code-of-conduct/:path/
   styleguide:
     output: true
     permalink: /styleguide/:path/
@@ -92,13 +89,6 @@ defaults:
     layout: primary
     include_subnav: true
     subnav_anchor: /about/
- -
-  scope:
-    path: "_code_of_conduct"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /code-of-conduct/
  -
   scope:
     path: "_principles"
