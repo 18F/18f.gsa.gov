@@ -1,7 +1,7 @@
 ---
-name: igor-kornfeld
+name: igor-korenfeld
 first_name: Igor
-last_name: Kornfeld
-full_name: Igor Kornfeld
+last_name: Korenfeld
+full_name: Igor Korenfeld
 published: true
 ---
