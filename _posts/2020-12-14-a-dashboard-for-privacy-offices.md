@@ -28,7 +28,7 @@ The task of protecting the public’s privacy is growing more complex each day a
 
 ## Prototypes and research
 
-Over four months, using rigorous user research and other agile methods, our team partnered with [GSA’s Privacy Office]([www.gsa.gov/privacy](http://www.gsa.gov/privacy) to build a custom dashboard inventory of the PII collected in their systems. 
+Over four months, using rigorous user research and other agile methods, our team partnered with [GSA’s Privacy Office](http://www.gsa.gov/privacy) to build a custom dashboard inventory of the PII collected in their systems. 
 
 Through our research, we learned that this information was only available in two privacy compliance documents: Privacy Impact Assessments (PIAs) and System of Record Notices (SORNs). Privacy offices, which are multi-disciplinary organizations, rely on system owners to provide information about their systems, which they review and then publish in the form of PIAs and SORNs. However, we learned it’s a struggle to keep PIAs and SORNs up to date, and it is difficult to use these documents to answer questions about what PII GSA collects and stores as an organization across all its systems. Our partners told us that they routinely have to ‘crosswalk’ their PIAs and SORNs manually to find answers to important questions about GSA’s privacy management, which was very time consuming.
 
