@@ -205,3 +205,4 @@ jekyll_pages_api_search:
 assets:
   sources:
     - node_modules/netlify-cms/dist
+    - _assets/js
