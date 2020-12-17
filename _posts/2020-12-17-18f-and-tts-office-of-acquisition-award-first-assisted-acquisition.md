@@ -5,6 +5,7 @@ authors:
   - laura-gerhardt
   - miatta-myers
   - christine-bath
+  - selena-juneau-vogel
 tags:
   - procurement
   - how we work
