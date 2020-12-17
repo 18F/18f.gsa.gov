@@ -6,6 +6,7 @@ authors:
   - miatta-myers
   - christine-bath
   - selena-juneau-vogel
+  - brian-burns
 tags:
   - procurement
   - how we work
