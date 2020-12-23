@@ -166,6 +166,7 @@ exclude:
 - _posts/2015-08-07-technical-debt-1.md
 - _posts/2015-11-19-delivery-partnership-playbook.md
 - _posts/2016-07-11-conversation-about-static-dynamic-websites.md
+- _posts/2020-12-14-a-dashboard-for-privacy-offices.md
 - _posts/2017-08-30-what-makes-a-great-vendor-team.md
 - _posts/2016-04-25-lean-on-me-asking-for-help-on-the-content-team.md
 - _posts/2017-09-26-automated-scanning-for-sensitive-information.md
@@ -475,6 +476,7 @@ exclude:
 - _posts/2014-05-11-18f-shows-what-is-possible-in-government-with-fbopen.md
 - _posts/2014-04-01-ask-us-almost-anything.md
 - _posts/2014-09-15-say-hello-to-the-new-presidential-innovation-fellows.md
+- _posts/2020-11-23-the-key-role-of-product-owners-in-federated-data-projects.md
 - _posts/2016-04-21-checklistomania-makes-it-easy-to-keep-track-of-relative-tasks.md
 - _posts/2014-04-12-how-a-pepperoni-pizza-is-inspiring-open-government.md
 - _posts/2016-10-04-what-is-static-source-analysis.md
