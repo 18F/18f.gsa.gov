@@ -29,3 +29,4 @@ tmp
 .bundle
 .vscode
 .jekyll-cache
+vendor
