@@ -1,5 +1,5 @@
 ---
-title: 18f and TTS Office of Acquisition award first assisted acquisition
+title: 18F and TTS Office of Acquisition award first assisted acquisition
 date: December 17, 2020
 authors:
   - laura-gerhardt
