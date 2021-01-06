@@ -26,7 +26,8 @@ Run each of the following steps to get the site up and running.
 1. `git clone git@github.com:18F/18f.gsa.gov`
 2. `cd 18f.gsa.gov`
 3. `bundle install`
-4. `./serve`
+4. `npm install`
+5. `./serve`
 
 To dramatically reduce the build time, there are two commands that you can run instead of `./serve`:
 
