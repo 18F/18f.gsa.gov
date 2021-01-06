@@ -107,3 +107,8 @@ header[role=banner] {
     }
   }
 }
+
+.usa-header--basic .usa-nav__primary-item > .usa-current::after,
+.usa-header--basic .usa-nav__link:hover::after {
+  background-color: $color-medium;
+}
