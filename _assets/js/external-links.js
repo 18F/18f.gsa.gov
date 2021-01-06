@@ -18,7 +18,8 @@
       (tld === 'mil') ||
       (tld === 'gov') ||
       (tld === 'http://localhost') ||
-      (tld === '1')
+      (tld === '1') ||
+      (tld === '0')
     );
   }
 
@@ -36,10 +37,12 @@
     for (let step = 0; step < totalAnchors; step++) {
       const a = anchors[step];
       const isSocialLink = anchorHasClass(a, 'usa-social-link');
+      const isSidebarIcons = anchorHasClass(a, 'sidebar-icons');
       const isLogo = anchorHasClass(a, 'usa-identifier__logo');
       const domain = matchDomain(a.href);
       const shouldGetIcon = isNonGovDomain(domain)
         && !isSocialLink
+        && !isSidebarIcons
         && !isLogo;
 
       if (shouldGetIcon) {
