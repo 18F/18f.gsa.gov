@@ -50,7 +50,6 @@
 }
 
 .post-click-target {
-  color: $color-black;
   text-decoration: none;
 
   &:visited,
@@ -58,12 +57,10 @@
   &:focus,
   &:hover:visited,
   &:hover:focus {
-    color: $color-black;
     text-decoration: none;
   }
 
   p {
-    color: $color-black;
     text-decoration: none;
   }
 }
