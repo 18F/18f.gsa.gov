@@ -55,13 +55,13 @@ footer[role=contentinfo] {
     }
 
     [aria-expanded=false] {
-      background-image: url("../img/global/plus-alt.png");
-      background-image: url("../img/global/plus-alt.svg");
+      background-image: url("../assets/img/global/plus-alt.png");
+      background-image: url("../assets/img/global/plus-alt.svg");
     }
 
     [aria-expanded=true] {
-      background-image: url("../img/global/minus-alt.png");
-      background-image: url("../img/global/minus-alt.svg");
+      background-image: url("../assets/img/global/minus-alt.png");
+      background-image: url("../assets/img/global/minus-alt.svg");
     }
   }
 

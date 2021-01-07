@@ -39,8 +39,8 @@ button,
 
 @mixin display-icon($icon, $direction, $size) {
   &:#{$direction} {
-    background-image: url('../img/#{$icon}.png');
-    background-image: url('../img/#{$icon}.svg');
+    background-image: url('../assets/img/#{$icon}.png');
+    background-image: url('../assets/img/#{$icon}.svg');
     background-size: 100%;
     content: '';
     display: inline-block;
@@ -56,8 +56,8 @@ button,
   }
 
   &:hover::#{$direction} {
-    background-image: url('../img/#{$icon}-hover.png');
-    background-image: url('../img/#{$icon}-hover.svg');
+    background-image: url('../assets/img/#{$icon}-hover.png');
+    background-image: url('../assets/img/#{$icon}-hover.svg');
   }
 
   &:visited {

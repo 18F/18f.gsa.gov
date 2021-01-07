@@ -126,10 +126,6 @@ $(function (){
     newsletterForm.reset();
   });
 
-  $('.search-interface').on("submit", function(){
-    $("#search-loading").show();
-  })
-
   // Side Nav
 
   // Set accordion state on load

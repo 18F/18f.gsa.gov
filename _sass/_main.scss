@@ -7,34 +7,34 @@
 
 // Import required and global packages...
 // -------------------------------------
-@import '_libs/uswds/scss/packages/required';
-@import '_libs/uswds/scss/packages/global';
+@import 'packages/required';
+@import 'packages/global';
 
 // Then import individual component packages...
-@import '_libs/uswds/scss/packages/form-controls';
-@import '_libs/uswds/scss/packages/form-templates';
-@import '_libs/uswds/scss/packages/layout-grid';
-@import '_libs/uswds/scss/packages/typography';
-@import '_libs/uswds/scss/packages/validation';
-@import '_libs/uswds/scss/packages/usa-accordion';
-@import '_libs/uswds/scss/packages/usa-alert';
-@import '_libs/uswds/scss/packages/usa-banner';
-@import '_libs/uswds/scss/packages/usa-button';
-@import '_libs/uswds/scss/packages/usa-footer';
-@import '_libs/uswds/scss/packages/usa-header';
-@import '_libs/uswds/scss/packages/usa-hero';
-@import '_libs/uswds/scss/packages/usa-identifier';
-@import '_libs/uswds/scss/packages/usa-media-block';
+@import 'packages/form-controls';
+@import 'packages/form-templates';
+@import 'packages/layout-grid';
+@import 'packages/typography';
+@import 'packages/validation';
+@import 'packages/usa-accordion';
+@import 'packages/usa-alert';
+@import 'packages/usa-banner';
+@import 'packages/usa-button';
+@import 'packages/usa-footer';
+@import 'packages/usa-header';
+@import 'packages/usa-hero';
+@import 'packages/usa-identifier';
+@import 'packages/usa-media-block';
 // @import "packages/usa-megamenu";
-@import '_libs/uswds/scss/packages/usa-nav-container';
-@import '_libs/uswds/scss/packages/usa-nav';
-@import '_libs/uswds/scss/packages/usa-navbar';
-@import '_libs/uswds/scss/packages/usa-search';
-@import '_libs/uswds/scss/packages/usa-sidenav';
-@import '_libs/uswds/scss/packages/usa-skipnav';
-@import '_libs/uswds/scss/packages/usa-table';
-@import '_libs/uswds/scss/packages/usa-tag';
-@import '_libs/uswds/scss/packages/uswds-utilities';
+@import 'packages/usa-nav-container';
+@import 'packages/usa-nav';
+@import 'packages/usa-navbar';
+@import 'packages/usa-search';
+@import 'packages/usa-sidenav';
+@import 'packages/usa-skipnav';
+@import 'packages/usa-table';
+@import 'packages/usa-tag';
+@import 'packages/uswds-utilities';
 
 // Import theme customization
 @import '_theme/uswds-theme-custom-styles';
