@@ -40,7 +40,6 @@ button,
 @mixin display-icon($icon, $direction, $size) {
   &:#{$direction} {
     background-image: url('../assets/img/#{$icon}.png');
-    background-image: url('../assets/img/#{$icon}.svg');
     background-size: 100%;
     content: '';
     display: inline-block;
@@ -57,7 +56,6 @@ button,
 
   &:hover::#{$direction} {
     background-image: url('../assets/img/#{$icon}-hover.png');
-    background-image: url('../assets/img/#{$icon}-hover.svg');
   }
 
   &:visited {

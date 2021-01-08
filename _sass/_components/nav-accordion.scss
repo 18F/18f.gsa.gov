@@ -33,12 +33,10 @@
 
       &[aria-expanded=true] {
         background-image: url('../assets/img/global/minus-alt.png');
-        background-image: url('../assets/img/global/minus-alt.svg');
       }
 
       &[aria-expanded=false] {
         background-image: url('../assets/img/global/plus-alt.png');
-        background-image: url('../assets/img/global/plus-alt.svg');
       }
 
       &:hover,

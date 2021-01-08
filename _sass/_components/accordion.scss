@@ -1,11 +1,9 @@
 .usa-accordion-button-chevron {
   &[aria-expanded=false] {
     background-image: url('../assets/img/arrow-down.png');
-    background-image: url('../assets/img/arrow-down.svg');
   }
 
   &[aria-expanded=true] {
     background-image: url('../assets/img/arrow-up.png');
-    background-image: url('../assets/img/arrow-up.svg');
   }
 }
