@@ -18,8 +18,6 @@ At the General Services Administration’s 18F, we’ve seen that remote work ca
 
 We spend a lot of time thinking about [how we collaborate with one another and with our partners](https://handbook.tts.gsa.gov/how-we-collaborate/). What we find is that building effective distributed teams is very much a matter of cultural values. 
 
-
-
 ## Inclusivity
 
 Successful distributed teams don’t happen by accident. They require thoughtfulness and intent. 
@@ -27,8 +25,6 @@ Successful distributed teams don’t happen by accident. They require thoughtful
 One important component of successful distributed teams is inclusivity: making sure that nobody is being accidentally left out of conversations and that decision-making is equitable. Communicating proactively and equally is also important, to help keep people in the loop about what’s going on. Creating documentation of decisions as they are made helps others who can’t attend a synchronous meeting for whatever reason, as well as new teammates who may join in later.
 
 While “distributed team,” “virtual employee,” “remote work” and “telework” are often used interchangeably, at 18F we like the idea of “distributed first.” That means even when there’s a mix of people remote and in-office, we’re being thoughtfully inclusive of everyone involved. If you have a mix of people in the office and remote, be sure the focus stays on the people who aren’t in the room. Your distributed team is only fully engaged when everyone is engaged.
-
-
 
 ## Accessibility
 
@@ -38,31 +34,25 @@ In terms of accessibility, many remote-friendly strategies and tools exist, rang
 
 Accessibility benefits everyone: for instance, captioning is useful for people with dyslexia, ADHD, or a crying baby in the background. Also, having a transcript of the meeting helps when other people may be late to the meeting or have to run out for a bathroom break.
 
-
-
 ## Trust and patience
 
-On  distributed teams, everyone needs to practice extra patience with their colleagues. When we’re working out of sight, it’s easy to make unkind assumptions when we don’t get immediate responses to our questions. 
+On distributed teams, everyone needs to practice extra patience with their colleagues. When we’re working out of sight, it’s easy to make unkind assumptions when we don’t get immediate responses to our questions. 
 
 You wouldn’t expect someone in an office to respond to every email immediately. Similarly, someone working from home may not respond to a message right away. That should be okay.
-
-
 
 ## Staying present
 
 Video chat is essential for distributed teams. It helps you catch the facial expressions and body language you’d miss on calls or text chats. However, video chat only works when everyone turns their cameras on. It can be scary to be on video at first, but relationships are easier to build and sustain when you can see each other. 
 
-Come to your video meetings prepared and paying attention. Try to limit distractions such as email or other chat conversations. Treat your video meetings just like you’re talking to people in person. And remember, it’s rude (and evident!) when a person splits their concentration from the meeting at hand to answer a question via text, especially in a 1:1 meeting.
+Come to your video meetings prepared and paying attention. Try to limit distractions such as email or other chat conversations. Treat your video meetings just like you’re talking to people in person. And remember, it’s rude (and evident!) when a person splits their concentration from the meeting at hand to answer a question coming in from another venue, especially in a 1:1 meeting.
 
 As more people are distributed and may only be “meeting” people via video conferences, being present, making eye contact, and enjoying each other’s company is a huge advantage. Take time to check in on your colleagues and allow social time on your meeting agendas. 
-
-
 
 ## Making space for everyone
 
 Video chats are better than calls and text, but they have limitations, too. For example, there’s a gap between when someone speaks and when everyone else hears them. This lag can make it difficult for people to jump into the conversation because they’re worried about talking over someone else. Encourage pauses to make room for others to join in, and watch for signs that someone wants to speak (such as someone unmuting their audio). You can also ask the room to agree to signals such as raising your hand or messaging the chat function in the video meeting. 
 
-Be wary of  “unmoderated caucus” meetings. When speakers can claim the floor by speaking first or by interrupting, it creates frustration and reduces inclusivity. Instead, favor facilitated meetings with clear paths for participants to add agenda items and express their thoughts. Be certain your introverted colleagues are being heard, and that extroverts aren’t getting a disproportionate share of speaking time. 
+Be wary of “unmoderated caucus” meetings. When speakers can claim the floor by speaking first or by interrupting, it creates frustration and reduces inclusivity. Instead, favor facilitated meetings with clear paths for participants to add agenda items and express their thoughts. Be certain your introverted colleagues are being heard, and that extroverts aren’t getting a disproportionate share of speaking time. 
 
 And be sure to leverage all the capabilities of your video tools. “Whiteboard” features let everyone write and draw together for collaborative brainstorming sessions. The ability to record a meeting lets you include teammates who aren’t able to attend, so they don’t get left out. 
 
@@ -70,27 +60,21 @@ If your tool offers breakout rooms, facilitators can split participants into sma
 
 Whatever video tool you choose, take advantage of all the features available to you to increase presence and make your remote meetings as inclusive as possible.
 
-
-
 ## Communicating
 
-Distributed teams thrive on communication. Frequent and open communication is the cornerstone of remote work, and for most teams a text chat tool is how that happens. It’s how your team will maintain connections with the work and with each other, and how they’ll resolve problems as they arise. 
+Distributed teams thrive on communication. Frequent and open communication is the cornerstone of remote work, and for most teams a messaging app is how that happens. It’s how your team will maintain connections with the work and with each other, and how they’ll resolve problems as they arise. 
 
-18F uses text chat to group conversations according to team, topic, interest, and business function. This helps keep conversations focused and allows people to come and go from channels as needed to find information and participate in discussions. We also invite staff members from our partner agencies into project-specific channels where we collaborate in a centralized area so that information isn’t siloed or lost. 
+18F uses a messaging app to group conversations according to team, topic, interest, and business function. This helps keep conversations focused and allows people to come and go from channels as needed to find information and participate in discussions. We also invite staff members from our partner agencies into project-specific channels where we collaborate in a centralized area so that information isn’t siloed or lost. 
 
-By focusing conversation into these many channels in our text chat tool, we’re sharing a lot of knowledge that would be nearly impossible to access and search for in email. Chat brings us together in serious, professional, and personal ways that work well for our remote, distributed team. 
+By focusing conversation into these many channels in the messaging app, we’re sharing a lot of knowledge that would be nearly impossible to access and search for in email. Chatting brings us together in serious, professional, and personal ways that work well for our remote, distributed team. 
 
-Your text chat tool is also an excellent place to begin recreating the office watercooler – a place for the informal conversations that aren’t really work-related, but are crucial for establishing interpersonal relationships and trusting, high-functioning teams. 
-
-
+The messaging app is also an excellent place to begin recreating the office watercooler – a place for the informal conversations that aren’t really work-related, but are crucial for establishing interpersonal relationships and trusting, high-functioning teams. 
 
 ## Respecting time
 
 With team members distributed across time zones, we consciously try to find common times for remote co-working sessions which allow us to align and create more refined work. When scheduling meetings, be aware of time zones of everyone you’re inviting. Don’t ask your coworkers to come to meetings that are ridiculously early or late in their time zone. Encourage everyone to include some geographical information in their profiles, so everyone can take this into account.
 
 When we can’t resolve time zone issues and work directly together, we use asynchronous efforts to keep work moving. An example of this is when our colleagues on the East Coast are done for the day, our West Coast team members can work on items to have ready for review and further work when the East Coast-ers arrive the next morning. 
-
-
 
 ## Being intently human
 
