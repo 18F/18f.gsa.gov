@@ -164,7 +164,7 @@
     }
   }
   .usa-accordion__button[aria-expanded=false] {
-    background-image: url('../img/angle-arrow-down-white.svg'),
+    background-image: url('../assets/img/angle-arrow-down-white.svg'),
       -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
     background-size: 0.85rem;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@
 
   }
   .usa-accordion__button[aria-expanded=true] {
-    background-image: url('../img/angle-arrow-up-white.svg'),
+    background-image: url('../assets/img/angle-arrow-up-white.svg'),
       -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
     background-size: 0.85rem;
     background-repeat: no-repeat;

@@ -20,8 +20,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jekyll_pages_api'
-  gem 'jekyll_pages_api_search', '~> 0.4.5'
   gem 'jekyll_oembed'
 end
 

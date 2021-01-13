@@ -24,8 +24,6 @@ Plugin gem | Description
 [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) | adds metadata tags for search engines and social networks.
 [`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap) | generates a sitemap at [`/sitemap.xml`](https://18f.gsa.gov/sitemap.xml). This makes it easier for search engines to find us.
 [`jekyll_frontmatter_tests`](https://github.com/18F/jekyll_frontmatter_tests) | tests to see if the correct front matter (meta data) is present on pages throughout our website.
-[`jekyll_pages_api`](https://github.com/18F/jekyll_pages_api) | generates a JSON file at [`/api/v1/pages.json`](https://18f.gsa.gov/api/v1/pages.json) that serves as the base for a site search engine.
-[`jekyll_pages_api_search`](https://github.com/18F/jekyll_pages_api_search) | search engine that uses `jekyll_pages_api`
 [`jekyll_oembed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses [OEmbed](https://github.com/ruby-oembed/ruby-oembed)
 
 ---
