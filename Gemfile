@@ -36,6 +36,7 @@ group :development do
 end
 
 group :test do
+  gem 'nokogiri', '>= 1.11.1'
   gem 'codeclimate-test-reporter', '~> 1.0.0'
   gem 'simplecov'
 end
