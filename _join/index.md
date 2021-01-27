@@ -44,12 +44,5 @@ Transformation Services, you’ll need:
 You can find links to these documents and more information in individual
 job postings.
 
-Most 18F positions are in the Excepted Service and are “not to exceed”
-(NTE) positions, which means **they are two-year terms and can be
-renewed once, for a total of four years**. To apply for these Excepted
-Service positions, you must be a United States citizen or national
-(residents of American Samoa and Swains Islands) and you must not be a
-current GSA employee or contractor.
-
 See all open positions and full instructions on the [Technology
 Transformation Services join page](https://join.tts.gsa.gov/).
