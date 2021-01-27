@@ -37,19 +37,12 @@ Head over to the [TTS Join website](https://join.tts.gsa.gov/) to see all open a
 To apply to positions at 18F and elsewhere in the Technology
 Transformation Services, you’ll need:
 
--   A [government-style resume](https://join.tts.gsa.gov/hiring-process/#government-style-resumes)
+-   A [government-style resume](https://join.tts.gsa.gov/resume/)
 -   A completed application
 -   Additional documents if you are claiming veterans preference
 
 You can find links to these documents and more information in individual
 job postings.
-
-Most 18F positions are in the Excepted Service and are “not to exceed”
-(NTE) positions, which means **they are two-year terms and can be
-renewed once, for a total of four years**. To apply for these Excepted
-Service positions, you must be a United States citizen or national
-(residents of American Samoa and Swains Islands) and you must not be a
-current GSA employee or contractor.
 
 See all open positions and full instructions on the [Technology
 Transformation Services join page](https://join.tts.gsa.gov/).
