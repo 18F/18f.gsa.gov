@@ -14,15 +14,5 @@ default: post.url %} {% assign hide_date = include.hide_date | default: false %}
       >
     </h3>
     <p class="post-excerpt usa-prose">{{ post_excerpt }}</p>
-    <p>
-      <a
-        class="link-arrow-right post-link-continue_reading"
-        href="{{ post_url | prepend: site.baseurl }}"
-      >
-        Read more
-        <span class="usa-sr-only">about {{ post_title }}</span>
-        {% include svg/icons/arrow-right.svg %}
-      </a>
-    </p>
   </article>
 </li>

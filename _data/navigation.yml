@@ -3,7 +3,7 @@ navbar:
   permalink: /what-we-deliver/
   multiple_permalinks:
     - /what-we-deliver/:path/
-- text: Process
+- text: Our process
   permalink: /how-we-work/
 - text: Guides
   permalink: /guides/
@@ -15,17 +15,15 @@ navbar:
     - /blog/:path/
     - /tags/:path/
     - /author/:path/
-- text: Get in touch
-  permalink: /contact/
 
 drawer:
-  - text: What we deliver
+  - text: Projects
     permalink: /what-we-deliver/
     multiple_permalinks:
     - /what-we-deliver/:path/
-  - text: How we work
+  - text: Our process
     permalink: /how-we-work/
-  - text: About
+  - text: About us
     permalink: /about/
   - text: Blog
     permalink: /blog/
@@ -33,7 +31,7 @@ drawer:
       - /blog/:path/
       - /tags/:path/
       - /author/:path/
-  - text: Contact
+  - text: Get in touch
     permalink: /contact/
 
 footer:

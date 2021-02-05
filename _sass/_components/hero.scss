@@ -2,10 +2,13 @@
 // ==========================
 
 .usa-hero {
-  background-image: url('../assets/img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
   padding: 0;
+
+  h2 {
+    font-weight: 300;
+  }
 }
 
 .hero-img-collapsed {
@@ -14,10 +17,6 @@
 
 .usa-hero--primary {
   background-image: none;
-
-  @include at-media('tablet') {
-    background-image: url('../assets/img/page-feature/hire-us.jpg');
-  }
 }
 
 .hero-callout {

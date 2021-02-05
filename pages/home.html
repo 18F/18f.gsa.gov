@@ -8,50 +8,114 @@ redirect_from: /developer/
 
 <section class="background-dark">
   <section class="usa-hero usa-hero--primary">
-    <div class="grid-container">
-      <div
-        class="usa-hero__callout background-dark tablet:grid-col-8"
-      >
+    <div class="grid-container grid-row padding-y-6">
+      <div class="tablet:grid-col-6">
+        <h1>
+          18F is a technology and design consultancy for the U.S. Government,
+          inside the government.
+        </h1>
         <h2>
-          18F partners with agencies to improve the user experience of
-          government services by helping them build and buy technology.
+          We partner with agencies to improve the user experience of government
+          services by helping them build and buy technology.
         </h2>
         <a href="{{ site.baseurl }}/contact/" tabindex="-1"
-          ><button class="usa-button usa-button-secondary usa-button--big">
+          ><button class="usa-button usa-button-primary usa-button--big">
             Get in touch
-          </button></a
-        >
+          </button>
+        </a>
+      </div>
+      <div class="tablet:grid-col-6">
+        <img src="{{ site.baseurl }}/assets/img/homepage-graphic.png" alt="">
       </div>
     </div>
   </section>
 </section>
 
-<section class="usa-section grid-container">
-  <section class="pad-right-left">
-    <div class="home-testimonial">
-      We engaged with 18F, and it was a game-changer for us. They came in and
-      helped the IT team and business owners get involved in the agile
-      development process. It changed our whole methodology.
-      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
-    </div>
-  </section>
+<section class="usa-section grid-container grid-row">
+  <div class="tablet:grid-col-9">
+    "We engaged with 18F, and it was a game-changer for us. They came in and
+    helped the IT team and business owners get involved in the agile
+    development process. It changed our whole methodology."
+  </div>
+  <div class="tablet:grid-col-3">
+    <img src="{{ site.baseurl }}/assets/img/logos/agencies/fec.svg" alt="FEC logo" class="square-6">
+    <p><strong>&#8212; Alec Palmer</strong><br />
+      <em>Chief Information Officer, The Federal Election Commission (FEC)</em>
+      <p>
+  </div>
 </section>
 
-<section class="usa-section grid-container">
-  <section class="grid-gap">
-    <h2>We support your mission</h2>
-    <section class="tablet:grid-col-8">
+<section class="usa-section background-gray">
+  <div class="grid-row grid-container">
+    <div class="tablet:grid-col-6">
+      <h2>We support your mission</h2>
       <h3 class="p-line-height p-normal pad-bottom-mobile">
         As an office within the General Services Administration, we know how to
         work with government. Federal, state, and local governments can partner
         with 18F to deliver projects that fulfill their mission, stay within
         budget, and use leading technology practices.
       </h3>
-    </section>
+    </div>
+    <div class="tablet:grid-col-4">
+      <img src="{{ site.baseurl }}/assets/img/2people-talking.jpg" alt>
+    </div>
+  </div>
+</section>
+
+<section class="usa-section">
+  <section class="grid-container">
+    <div class="grid-col-12">
+      <ul class="grid-row list-columns grid-gap">
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              
+              <img src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+                <strong>Modernize</strong> software development processes while introducing good
+                agile and human-centered design practices to your agency
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              <img src="{{ site.baseurl }}/assets/img/tablet-hand--c.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+                <strong>Improve</strong> public-facing services like websites or applications
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              <img src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+                <strong>Digitize and streamline</strong> internal systems to save time and
+                increase accuracy
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
 </section>
 
 <section class="usa-section background-gray">
+  <section class="usa-section grid-container">
+    <h2>Case studies</h2>
+    <div class="grid-row grid-gap">
+      {% include card-project.html project='fec-gov' %}
+      {% include card-project.html project='treasury-data-act' %}
+      {% include card-project.html project='calc' %}
+    </div>
+  </section>
+</section>
+
+<section class="usa-section">
   <section class="grid-container">
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
@@ -93,70 +157,12 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section">
-  <section class="grid-container">
-    <h2>What 18F can do</h2>
-    <div class="grid-col-12">
-      <ul class="grid-row list-columns grid-gap">
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/user-centered-icon.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Modernize software development processes while introducing good
-                agile and human-centered design practices to your agency
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/monitor.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Improve public-facing services like websites or applications
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/folderwithclock.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Digitize and streamline internal systems to save time and
-                increase accuracy
-              </p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-</section>
-
-<section class="usa-section background-gray">
-  <section class="usa-section grid-container">
-    <h2>Featured projects</h2>
-    <div class="grid-row grid-gap">
-      {% include card-project.html project='fec-gov' %} {% include
-      card-project.html project='treasury-data-act' %} {% include
-      card-project.html project='calc' %}
-    </div>
-  </section>
-</section>
-
 <section class="grid-container usa-section posts_feature">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
   <ul class="grid-row grid-gap">
-    {% for post in site.posts limit:3 %} {% include post.html
-    post_date=post.date post_title=post.title post_excerpt=post.excerpt
-    post_url=post.url %} {% endfor %}
+    {% for post in site.posts limit:3 %}
+      {% include post.html post_date=post.date post_title=post.title post_excerpt=post.excerpt
+      post_url=post.url %}
+    {% endfor %}
   </ul>
 </section>
