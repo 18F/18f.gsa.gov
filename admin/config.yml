@@ -271,23 +271,26 @@ collections:
           name: "body",
           widget: "markdown"
         }
-  - label: Blog topics
-    name: blogtopics
-    file: "site/data/featured_blog_topics.yml"
-    fields:
-      - label: "Topics"
-        name: "topics"
-        widget: "list"
-        fields: 
-          - {label: "Topics", name: "topic", widget: "string"}
-          - {label: "tag", name: "tag", widget: "string"}
-  - label: Promoted posts
-    name: promoted_posts
-    file: "site/data/featured_blog_posts.yml"
-    fields:
-      - label: "Topics"
-        name: "topics"
-        widget: "list"
-        fields: 
-          - {label: "Topics", name: "topic", widget: "string"}
-          - {label: "tag", name: "tag", widget: "string"}
+  - label: Promoted content
+    name: promotedcontent
+    files:
+      - label: Blog topics
+        name: blogtopics
+        file: "site/data/featured_blog_topics.yml"
+        fields:
+          - label: "Topics"
+            name: "topics"
+            widget: "list"
+            fields: 
+              - {label: "Topics", name: "topic", widget: "string"}
+              - {label: "tag", name: "tag", widget: "string"}
+      - label: Promoted posts
+        name: promoted_posts
+        file: "site/data/featured_blog_posts.yml"
+        fields:
+          - label: "Topics"
+            name: "topics"
+            widget: "list"
+            fields: 
+              - {label: "Topics", name: "topic", widget: "string"}
+              - {label: "tag", name: "tag", widget: "string"}
