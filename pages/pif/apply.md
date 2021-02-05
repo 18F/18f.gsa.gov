@@ -1,6 +1,6 @@
 ---
 permalink: /pif/apply/
 redirect_to:
-  - https://apply.pif.gov/
+  - https://presidentialinnovationfellows.gov/
 skip_index: true
 ---
