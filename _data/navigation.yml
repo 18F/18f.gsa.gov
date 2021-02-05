@@ -1,12 +1,14 @@
 navbar:
-- text: What we deliver
+- text: Projects
   permalink: /what-we-deliver/
   multiple_permalinks:
     - /what-we-deliver/:path/
-- text: How we work
+- text: Process
   permalink: /how-we-work/
 - text: Guides
   permalink: /guides/
+- text: About us
+  permalink: /about/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
