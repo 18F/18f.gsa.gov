@@ -1,11 +1,11 @@
-# backend:
-#   name: github
-#   repo: 18f/18f.gsa.gov
-#   base_url: https://federalistapp.18f.gov
-#   auth_endpoint: external/auth/github
-#   preview_context: federalist/build
-#   branch: main
-#   use_graphql: true
+backend:
+  name: github
+  repo: 18f/18f.gsa.gov
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  branch: main
+  use_graphql: true
 
 ##
 ## Uncomment when doing local development on Netlify CMS
@@ -14,9 +14,9 @@
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ##
 
-backend:
-  name: git-gateway
-local_backend: true
+# backend:
+#   name: git-gateway
+# local_backend: true
 
 ##
 ##
