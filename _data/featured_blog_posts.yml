@@ -1,13 +1,3 @@
-topics:
-  - topic: Acquisition Services
-    tag: acquisition-services
-  - topic: Agile
-    url: agile
-  - topic: Culture change
-    url: culture-change
-  - topic: How we work
-    url: how-we-work
-popular_posts:
   - title: 18F and TTS Office of Acquisition award first assisted acquisition
     url: /2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/
   - title: A dashboard for privacy offices
