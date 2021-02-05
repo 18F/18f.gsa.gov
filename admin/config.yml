@@ -276,7 +276,7 @@ collections:
     files:
       - label: Blog topics
         name: blogtopics
-        file: "site/data/featured_blog_topics.yml"
+        file: "_data/featured_blog_topics.yml"
         fields:
           - label: "Topics"
             name: "topics"
@@ -286,11 +286,11 @@ collections:
               - {label: "tag", name: "tag", widget: "string"}
       - label: Promoted posts
         name: promoted_posts
-        file: "site/data/featured_blog_posts.yml"
+        file: "_data/featured_blog_posts.yml"
         fields:
-          - label: "Topics"
-            name: "topics"
+          - label: "Posts"
+            name: "promoted_posts"
             widget: "list"
             fields: 
-              - {label: "Topics", name: "topic", widget: "string"}
-              - {label: "tag", name: "tag", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
