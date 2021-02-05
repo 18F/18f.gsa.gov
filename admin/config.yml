@@ -1,11 +1,11 @@
-backend:
-  name: github
-  repo: 18f/18f.gsa.gov
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  branch: main
-  use_graphql: true
+# backend:
+#   name: github
+#   repo: 18f/18f.gsa.gov
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   branch: main
+#   use_graphql: true
 
 ##
 ## Uncomment when doing local development on Netlify CMS
@@ -14,9 +14,9 @@ backend:
 ## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 ##
 
-# backend:
-#   name: git-gateway
-# local_backend: true
+backend:
+  name: git-gateway
+local_backend: true
 
 ##
 ##
@@ -273,21 +273,18 @@ collections:
         }
   - label: Promoted content
     name: promotedcontent
+    preview: false
     files:
-      - label: Blog topics
-        name: blogtopics
-        file: "_data/featured_blog_topics.yml"
+      - label: Promoted content
+        name: promoted_conent
+        file: "_data/featured_blog_content.yml"
         fields:
           - label: "Topics"
             name: "topics"
             widget: "list"
             fields: 
               - {label: "Topics", name: "topic", widget: "string"}
-              - {label: "tag", name: "tag", widget: "string"}
-      - label: Promoted posts
-        name: promoted_posts
-        file: "_data/featured_blog_posts.yml"
-        fields:
+              - {label: "Tag", name: "tag", widget: "string"}
           - label: "Posts"
             name: "promoted_posts"
             widget: "list"

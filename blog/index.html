@@ -48,12 +48,11 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
         </div>
       </section>
     </div>
-    {% assign featured_blog_topics = site.data.featured_blog_topics %}
-    {% assign featured_blog_posts = site.data.featured_blog_posts %}
+    {% assign featured_blog_content = site.data.featured_blog_content %}
     <aside class="sidebar tablet:grid-col-4">
       <h4 class="sidebar-heading-topic">Browse by topic</h4>
       <ul>
-        {% for item in featured_blog_topics %}
+        {% for item in featured_blog_content.topics %}
         <li>
           <a href="{{ site.baseurl }}/tags/{{ item.tag }}">{{ item.topic }}</a>
         </li>
@@ -62,7 +61,7 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
       <div class="sidebar-callout">
         <h4>Most popular</h4>
         <ul>
-          {% for item in featured_blog_posts %}
+          {% for item in featured_blog_content.popular_posts %}
           <li>
             <a href="{{ site.baseurl }}{{ item.url }}">
               {{ item.title }}
