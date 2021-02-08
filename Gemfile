@@ -10,7 +10,7 @@ gem 'jemoji', '>= 0.11.1'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 gem 'ruby-oembed', '0.13.1'
-gem "autoprefixer-rails"
+gem 'autoprefixer-rails'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
