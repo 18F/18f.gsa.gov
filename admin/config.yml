@@ -12,6 +12,13 @@ public_folder: /assets/blog
 publish_mode: editorial_workflow
 logo_url: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
 
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
+    
 collections:
   - label: Authors
     name: authors
