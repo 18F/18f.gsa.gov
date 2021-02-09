@@ -5,7 +5,6 @@ ruby '~>2.6.6'
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.17.2'
 gem 'jekyll', '~> 4.2'
-gem "sprockets", '~> 3.7'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 gem 'ruby-oembed', '0.15.0'
@@ -16,6 +15,8 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jemoji', '>= 0.12.0'
+  gem "jekyll-archives", "~> 2.2"
 end
 
 group :development do
@@ -31,4 +32,3 @@ group :test do
   gem 'simplecov'
 end
 
-gem "jekyll-archives", "~> 2.2"

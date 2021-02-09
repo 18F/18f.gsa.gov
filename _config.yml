@@ -161,7 +161,6 @@ exclude:
 - ISSUE_TEMPLATE.md
 - killport
 - LICENSE.md
-- node_modules
 - package.json
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
@@ -171,7 +170,11 @@ exclude:
 - tests/
 - tests/schema/tags.yml
 - tmp/
-- vendor
+
+include:
+- node_modules/uswds/dist/js
+- node_modules/netlify-cms/dist
+- node_modules/uswds/dist/scss
 
 # jekyll plugins
 plugins:
@@ -182,13 +185,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-# Jekyll Assets
-assets:
-  sources:
-    - _assets/css
-    - _assets/js
-    - _sass/
-    - node_modules/netlify-cms/dist
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+sass:
+    load_paths:
+      - _sass
+      - node_modules
+

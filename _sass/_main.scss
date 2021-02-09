@@ -5,36 +5,7 @@
 @import '_theme/uswds-theme-typography';
 @import '_theme/uswds-theme-utilities';
 
-// Import required and global packages...
-// -------------------------------------
-@import 'packages/required';
-@import 'packages/global';
-
-// Then import individual component packages...
-@import 'packages/form-controls';
-@import 'packages/form-templates';
-@import 'packages/layout-grid';
-@import 'packages/typography';
-@import 'packages/validation';
-@import 'packages/usa-accordion';
-@import 'packages/usa-alert';
-@import 'packages/usa-banner';
-@import 'packages/usa-button';
-@import 'packages/usa-footer';
-@import 'packages/usa-header';
-@import 'packages/usa-hero';
-@import 'packages/usa-identifier';
-@import 'packages/usa-media-block';
-// @import "packages/usa-megamenu";
-@import 'packages/usa-nav-container';
-@import 'packages/usa-nav';
-@import 'packages/usa-navbar';
-@import 'packages/usa-search';
-@import 'packages/usa-sidenav';
-@import 'packages/usa-skipnav';
-@import 'packages/usa-table';
-@import 'packages/usa-tag';
-@import 'packages/uswds-utilities';
+@import "uswds/dist/scss/uswds";
 
 // Import theme customization
 @import '_theme/uswds-theme-custom-styles';

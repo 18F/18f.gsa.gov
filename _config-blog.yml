@@ -1,5 +1,13 @@
 ---
 env: development
+include:
+- node_modules/uswds/dist/js
+- node_modules/uswds/dist/scss
+- node_modules/netlify-cms/dist
+sass:
+  load_paths:
+  - _sass
+  - node_modules
 exclude:
 - ".about.yml"
 - ".cfignore"
@@ -25,7 +33,6 @@ exclude:
 - ISSUE_TEMPLATE.md
 - killport
 - LICENSE.md
-- node_modules
 - package.json
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
@@ -37,7 +44,6 @@ exclude:
 - tests/
 - tests/schema/tags.yml
 - tmp/
-- vendor
 - _posts/2017-12-12-renata-maziarz-model-civil-servant.md
 - _posts/2016-08-16-what-happens-when-the-whole-team-joins-user-interviews.md
 - _posts/2014-03-21-29-minutes.md

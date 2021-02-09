@@ -2,7 +2,7 @@
 // ==========================
 
 .usa-hero {
-  background-image: url('../assets/img/page-feature/hire-us.jpg');
+  background-image: url('../img/page-feature/hire-us.jpg');
   background-position: center;
   background-size: cover;
   padding: 0;
@@ -16,7 +16,7 @@
   background-image: none;
 
   @include at-media('tablet') {
-    background-image: url('../assets/img/page-feature/hire-us.jpg');
+    background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
 
