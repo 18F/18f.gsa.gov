@@ -33,7 +33,7 @@ module Jekyll
         result = ::OEmbed::Providers.get(url)
 
         html_output(result)
-      rescue
+      rescue 
         error_message(url)
         ''
       end
