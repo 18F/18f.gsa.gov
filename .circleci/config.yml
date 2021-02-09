@@ -2,10 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6-node
+      - image: circleci/ruby:2.7-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
-      BUNDLER_VERSION: 2.2.9
     steps:
       - checkout
       - run: bundle install
