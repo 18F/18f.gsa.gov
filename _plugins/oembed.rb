@@ -48,7 +48,7 @@ module Jekyll
       # Silent error. This seems preferable to a hard fail
       # because a user could make a URL private anytime.
       puts "OEmbedError: The url, #{url}, is not available as an oembed. " \
-        'Consider using an HTML embed instead.'.red
+        "Consider using an HTML embed instead.".red
     end
   end
 end
