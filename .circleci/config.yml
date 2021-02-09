@@ -5,6 +5,7 @@ jobs:
       - image: circleci/ruby:2.6-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
+      BUNDLER_VERSION: 2.2.9
     steps:
       - checkout
       - run: bundle install
