@@ -159,7 +159,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  x86_64-darwin-18
+  x86_64-darwin-19
 
 DEPENDENCIES
   accesslint-ci (= 0.2.8)
@@ -184,7 +184,7 @@ DEPENDENCIES
   simplecov
 
 RUBY VERSION
-   ruby 2.6.6p146
+   ruby 2.7.2p137
 
 BUNDLED WITH
    2.2.9
