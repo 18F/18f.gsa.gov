@@ -181,7 +181,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll_oembed
 
 # Jekyll Assets
 assets:

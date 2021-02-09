@@ -1,9 +1,9 @@
 # Require all of the necessary gems
 require 'rspec'
 require 'capybara'
-require 'capybara/rspec'
-require 'rack/jekyll'
-require 'rack/test'
+# require 'capybara/rspec'
+# require 'rack/jekyll'
+# require 'rack/test'
 require 'pry'
 require 'simplecov'
 
@@ -51,15 +51,15 @@ RSpec.configure do |config|
   end
 
   # Configure Capybara to use Selenium.
-  Capybara.register_driver :selenium do |app|
-    # Configure selenium to use Chrome.
-    Capybara::Selenium::Driver.new(app, browser: :chrome)
+  # Capybara.register_driver :selenium do |app|
+  #   # Configure selenium to use Chrome.
+  #   Capybara::Selenium::Driver.new(app, browser: :chrome)
   end
   # Configure Capybara to load the website through rack-jekyll.
   # (force_build: true) builds the site before the tests are run,
   # so our tests are always running against the latest version
   # of our jekyll site.
-  Capybara.app = Rack::Jekyll.new(force_build: true)
+  # Capybara.app = Rack::Jekyll.new(force_build: true)
 
   # This option will default to `:apply_to_host_groups` in RSpec 4 (and will
   # have no way to turn it off -- the option exists only for backwards
