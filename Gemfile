@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '~>2.6.3'
+ruby '~>2.6.6'
 
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
-gem 'jekyll', '~> 3.9'
+gem 'jekyll', '~> 4.2'
 gem "sprockets", '~> 3.7'
 gem 'jemoji', '>= 0.11.1'
 gem 'kramdown-parser-gfm'
