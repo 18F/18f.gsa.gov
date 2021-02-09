@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run: bundle install
       - run: npm install
-      - run: bundle exec jekyll build --config="_config.yml,_config-fast-builds.yml"
+      - run: bundle exec jekyll build
       - run: npm run htmlproofer
       - run:
           name: Run rspec
