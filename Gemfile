@@ -16,7 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jemoji', '>= 0.12.0'
-  gem "jekyll-archives", "~> 2.2"
+  gem 'jekyll-archives', '~> 2.2'
 end
 
 group :development do
