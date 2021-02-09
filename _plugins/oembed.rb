@@ -35,7 +35,7 @@ module Jekyll
         html_output(result)
       rescue StandardError
         error_message(url)
-        ""
+        ''
       end
     end
 
