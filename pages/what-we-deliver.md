@@ -69,7 +69,7 @@ gridless: true
   </section>
 </section>
 
-<div class="usa-section background-gray">
+<div class="usa-section bg-base-lightest">
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}

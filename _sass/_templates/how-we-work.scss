@@ -3,9 +3,8 @@
 
 .page-how-we-work {
   .graphic-list {
-    border-top: $theme-color-secondary;;
-    border-color: $theme-color-secondary-dark;
-    font-size: initial;
+    @include u-border-top(1);
+    @include u-border-top('accent-cool');
     list-style: none;
     margin-top: 3rem;
     padding-left: 0;

@@ -94,7 +94,7 @@ U.S. Web Design System colors, `$color-gray` and `$theme-color-base-lightest`, w
     </div>
   </div>
   <div class="usa-width-one-half">
-    <div class="background-gray styleguide-bg-box">
+    <div class="bg-base-lightest styleguide-bg-box">
       <div class="p-bold">
         <p>$theme-color-base-lightest
         <br>Banner & Footer</p>

@@ -56,14 +56,14 @@ The site breadcrumb can be used to establish a sense of place within the site. I
   parent_permalink=page.parent_permalink
   parent_title=page.title
   page_title='Buttons'
-  background_class='background-gray'
+  background_class='bg-base-lightest'
 %}
 #### Specifying only needed attributes
 `parent_permalink` is set as a page attribute in this example, so it doesn't need to be directly included.
 {% include breadcrumb.html
   parent_title=page.title
   page_title='Buttons'
-  background_class='background-gray'
+  background_class='bg-base-lightest'
 %}
 {% endraw %}{% endcapture %}
 
