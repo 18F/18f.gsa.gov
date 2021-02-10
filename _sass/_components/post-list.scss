@@ -7,22 +7,20 @@
   h3 {
     font-size: 2.8rem;
     margin-top: 0.5em;
-    margin-bottom: $paragraph-margins;
 
     a {
-      color: $color-base;
+      color: $theme-color-base;
       text-decoration: none;
       line-height: 1.3;
     }
 
     + .post-byline {
       margin-top: 0;
-      margin-bottom: $paragraph-margins;
     }
   }
 
   li {
-    border-bottom: $border-gray;
+    border-bottom: color('gray-cool-50');
     display: inline-block;
     margin-top: 3rem;
     padding-bottom: 3rem;
@@ -34,8 +32,6 @@
   }
 
   .media_link {
-    margin-top: $paragraph-margins;
-    margin-bottom: $paragraph-margins;
 
     @include at-media('tablet') {
       float: left;
@@ -67,5 +63,4 @@
 
 // a two-thirds wide excerpt is preceded by an image thumbnail. Pad the thumbnail.
 .usa-width-two-thirds .post-click-target p {
-  margin-left: $paragraph-margins;
 }

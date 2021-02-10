@@ -126,12 +126,11 @@ defaults:
 
 scripts:
   - /assets/uswds/js/uswds.min.js
-  - /assets/js/private-eye.js
   - /assets/js/index.js
   - /assets/js/jquery.min.js
   - /assets/js/waypoints.min.js
   - /assets/js/sticky.js
-  - /assets/js/external-links.js'
+  - /assets/js/external-links.js
 
 footer:
   image: /assets/img/logos/18F-Logo-M.png
@@ -179,9 +178,7 @@ exclude:
 - tmp/
 
 include:
-- node_modules/uswds/dist/js
 - node_modules/netlify-cms/dist
-- node_modules/uswds/dist/scss
 
 # jekyll plugins
 plugins:

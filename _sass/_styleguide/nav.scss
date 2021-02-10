@@ -1,12 +1,10 @@
 .nav-mobile-styleguide {
-  @extend .nav-mobile;
 
   border-right: 1px solid color('gray-cool-30');
   overflow: auto;
   padding-bottom: $sg-header-height + $theme-site-margins-width;
   position: fixed;
   top: $sg-header-height;
-  width: $sliding-panel-width;
 
   .usa-sidenav-list {
     margin-top: $theme-site-margins-width;
@@ -33,16 +31,7 @@
   }
 
   float: right;
-  font-size: $base-font-size;
   margin: 0;
-}
-
-.sliding-panel-close-styleguide {
-  @extend .sliding-panel-close;
-
-  @include at-media('tablet-lg') {
-    display: none;
-  }
 }
 
 // .styleguide-subnav {

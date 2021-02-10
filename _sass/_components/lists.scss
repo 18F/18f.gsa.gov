@@ -1,9 +1,5 @@
 .list-columns {
   @include unstyled-list();
-
-  li {
-    @include u-margin-bottom($paragraph-margins);
-  }
 }
 
 

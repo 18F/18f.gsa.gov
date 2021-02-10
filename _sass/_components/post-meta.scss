@@ -3,16 +3,16 @@
 
 .post-byline {
   color: color('gray-cool-60');
-  font-size: $h5-font-size;
+  font-size: $theme-h5-font-size;
   display: inline-block;
 }
 
 .post-author {
-  color: $color-medium;
+  color: $theme-color-secondary-dark;
   text-decoration: none;
 
   &:visited {
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
   }
 }
 
@@ -34,21 +34,21 @@
     @include u-margin('05');
 
     background-color: color('gray-cool-5');
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     display: inline-block;
-    font-size: $h6-font-size;
+    font-size: $theme-h6-font-size;
     line-height: 1;
     margin-bottom: 4px;
     text-decoration: none;
     text-transform: lowercase;
 
     &:hover {
-      background-color: $color-gray-hover;
+      background-color: $theme-color-base-lightest;
     }
 
     &:hover,
     &:visited {
-      color: $color-medium-hover;
+      color: $theme-color-secondary-darker;
     }
   }
 }

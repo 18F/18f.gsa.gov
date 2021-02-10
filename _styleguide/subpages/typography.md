@@ -10,7 +10,7 @@ permalink: /styleguide/typography/
     <div class="usa-width-two-thirds usa-section">
       <div class="box-base-wrapper">
         <span class="intro-font">$font-sans: Helvetica Neue (Helvetica, Arial, sans serif)</span>
-        <div class="h5">$color-base: #000000</div>
+        <div class="h5">$theme-color-base: #000000</div>
       </div>
       <div class="box-rem-wrapper" style="">
         <div class="box-rem"></div><span>1rem = 10px</span>

@@ -1,17 +1,15 @@
+$banner-line-height: 1.4;
+
 blockquote {
-  border-left: $border-thick;
-  margin-left: $paragraph-margins;
-  margin-right: $paragraph-margins;
-  padding-left: $paragraph-margins;
+  border-left:  4px solid color('gray-cool-5');
+
 
   cite {
     display: inline;
     font-size: $theme-small-font-size;
-    padding-left: $paragraph-margins;
 
     > * {
       display: inline-block;
-      margin-left: $paragraph-margins;
     }
   }
 }
@@ -19,8 +17,6 @@ blockquote {
 .pquote {
   display: flex;
   flex-direction: column;
-  margin-bottom: $paragraph-margins-thick;
-  margin-top: $paragraph-margins-thick;
 
   @include at-media('tablet') {
     flex-direction: row;
@@ -41,7 +37,6 @@ blockquote {
 .pquote-img,
 .pquote img {
   align-self: flex-end;
-  margin-bottom: $paragraph-margins;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -49,7 +44,6 @@ blockquote {
 
   @include at-media('tablet') {
     margin-bottom: 0;
-    margin-right: $paragraph-margins;
     width: 200px;
   }
 }
@@ -64,8 +58,7 @@ p ~ .pquote:not(.pquote-single) {
 }
 
 .pquote-single {
-  padding-left: $paragraph-margins-thick;
-  padding-right: $paragraph-margins-thick;
+
 }
 
 /// How we work block quote
@@ -77,16 +70,16 @@ p ~ .pquote:not(.pquote-single) {
   width: 100%;
   margin: 3.5rem auto;
   font-style: italic;
-  color: $color-dark;
+  color: $theme-color-primary-dark;
   padding: 1.2em 30px 1.2em 75px;
-  border-left: 8px solid $color-medium;
+  border-left: 8px solid $theme-color-secondary-dark;
   line-height: $banner-line-height;
   position: relative;
   background: color('gray-cool-5');
 
   ::before {
     content: '\201C';
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     font-size: 4em;
     position: absolute;
     left: 10px;
@@ -99,7 +92,7 @@ p ~ .pquote:not(.pquote-single) {
 
   span {
     display: block;
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     font-style: normal;
     font-weight: bold;
     margin-top: 1em;
@@ -113,9 +106,9 @@ p ~ .pquote:not(.pquote-single) {
   width: 100%;
   margin: 3.5rem auto;
   font-style: italic;
-  color: $color-dark;
+  color: $theme-color-primary-dark;
   padding: 1.2em 30px;
-  border-left: 8px solid $color-medium;
+  border-left: 8px solid $theme-color-secondary-dark;
   line-height: $banner-line-height;
   position: relative;
   background: color('gray-cool-5');
@@ -145,7 +138,7 @@ p ~ .pquote:not(.pquote-single) {
 
   ::before {
     content: '\201C';
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     position: absolute;
     font-size: 5.45rem;
     left: 30px;
@@ -170,7 +163,7 @@ p ~ .pquote:not(.pquote-single) {
 
   span {
     display: block;
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     font-style: normal;
     font-size: 20px;
     font-weight: bold;

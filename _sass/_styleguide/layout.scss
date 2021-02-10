@@ -42,7 +42,7 @@ $margins-width: 170px;
   }
 
   h1 {
-    font-size: $h4-font-size;
+    font-size: $theme-h4-font-size;
     margin: 0;
     width: 100%;
   }
@@ -50,6 +50,5 @@ $margins-width: 170px;
 
 .styleguide-logo {
   height: $sg-header-height - (2 * $theme-site-margins-width);
-  margin-right: $paragraph-margins;
   width: auto;
 }

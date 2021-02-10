@@ -39,10 +39,10 @@
     width: 100%;
 
     &:visited {
-      color: $color-medium;
+      color: $theme-color-secondary-dark;
 
       &:hover {
-        color: $color-medium-hover;
+        color: $theme-color-secondary-darker;
       }
     }
   img {

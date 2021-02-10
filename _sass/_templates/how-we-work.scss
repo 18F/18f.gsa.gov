@@ -3,13 +3,12 @@
 
 .page-how-we-work {
   .graphic-list {
-    border-top: $border-accent;
-    border-color: $color-medium;
+    border-top: $theme-color-secondary;;
+    border-color: $theme-color-secondary-dark;
     font-size: initial;
     list-style: none;
     margin-top: 3rem;
     padding-left: 0;
-    padding-top: $paragraph-margins;
 
     @include at-media('tablet') {
       margin-top: 0;
@@ -52,13 +51,6 @@
   @include h3;
   margin-bottom: 3rem;
   margin-top: 0;
-}
-
-.hww-item {
-  h2 {
-    @extend .small-caps;
-    margin-top: 0;
-  }
 }
 
 .section-case-studies-text {

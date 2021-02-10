@@ -12,9 +12,8 @@
 
 .sidebar {
   label {
-    font-size: $h4-font-size;
+    font-size: $theme-h4-font-size;
     font-weight: $theme-font-weight-bold;
-    margin-bottom: $paragraph-margins;
   }
 
   ul {
@@ -45,12 +44,11 @@
 
 .sidebar-heading-topic {
   padding-top: 2.3rem;
-  border-top: 10px solid $color-medium;
+  border-top: 10px solid $theme-color-secondary-dark;
 }
 
 .blog-footer {
   h2 {
-    font-size: $base-font-size;
     font-weight: normal;
   }
 

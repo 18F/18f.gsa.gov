@@ -19,8 +19,8 @@ header[role=banner] {
 
         &:hover,
         &:focus {
-          background-color: $color-gray-hover;
-          color: $color-black;
+          background-color: $theme-color-base-lightest;
+          color: $theme-color-base;
         }
 
         &:active {
@@ -28,7 +28,7 @@ header[role=banner] {
         }
 
         &.usa-current {
-          color: $color-black;
+          color: $theme-color-base;
 
           span {
             border-bottom: $border-accent;
@@ -72,12 +72,12 @@ header[role=banner] {
 // scss-lint:disable PropertyCount
 .menu-btn {
   @include button-unstyled;
-  background-color: $color-medium;
+  background-color: $theme-color-secondary-dark;
   border-radius: units($theme-border-radius-md);
   color: color('white');
   display: inline;
   float: right;
-  font-size: $h6-font-size;
+  font-size: $theme-h6-font-size;
   line-height: 2rem;
   height: 3rem;
   margin-right: 1rem;
@@ -91,7 +91,7 @@ header[role=banner] {
 
   &:hover {
     color: color('white');
-    background-color: $color-dark;
+    background-color: $theme-color-primary-dark;
   }
 
   &:visited {
@@ -110,5 +110,5 @@ header[role=banner] {
 
 .usa-header--basic .usa-nav__primary-item > .usa-current::after,
 .usa-header--basic .usa-nav__link:hover::after {
-  background-color: $color-medium;
+  background-color: $theme-color-secondary-dark;
 }

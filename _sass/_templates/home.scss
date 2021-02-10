@@ -5,19 +5,19 @@
   a {
     display: inline-block;
     margin-top: 5rem;
-    font-size: $h5-font-size;
+    font-size: $theme-h5-font-size;
 
     &:visited {
-      color: $color-bright;
+      color: $theme-color-secondary;
 
       &:hover {
-        color: $color-bright-hover;
+        color: $theme-color-secondary-darker;
       }
     }
   }
 
   p {
-    font-size: $h5-font-size;
+    font-size: $theme-h5-font-size;
   }
 }
 

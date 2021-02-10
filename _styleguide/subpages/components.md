@@ -23,7 +23,7 @@ subnav_items:
 </section>
 
 #### Style on dark
-<section class="background-dark usa-grid">
+<section class="bg-primary-darker usa-grid">
   <button class="usa-button usa-button-secondary">Normal</button>
   <button class="usa-button-hover usa-button-secondary">Hover</button>
   <button class="usa-button-active usa-button-secondary">Active</button>

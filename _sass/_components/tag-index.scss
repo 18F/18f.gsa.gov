@@ -4,18 +4,12 @@
 .page-tag-results {
   .hero {
     min-height: 250px;
-    padding: $section-margins;
-  }
-
-  .hero-callout {
-    padding: $paragraph-margins-thick;
   }
 
   .post-list {
     li {
       &:first-child {
-        border-top: $border-light;
-        padding-top: $section-margins;
+        border-top: $theme-color-base-light;
       }
     }
   }

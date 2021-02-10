@@ -9,31 +9,27 @@
 }
 
 .cb-black {
-  background: $color-black;
+  background: $theme-color-base;
 }
 
 .cb-dark {
-  background: $color-dark;
+  background: $theme-color-primary-dark;
 }
 
 .cb-medium {
-  background: $color-medium;
+  background: $theme-color-secondary-dark;
 }
 
 .cb-medium-hover {
-  background: $color-medium-hover;
+  background: $theme-color-secondary-darker;
 }
 
 .cb-bright {
-  background: $color-bright;
-}
-
-.cb-bright-hover {
-  background: $color-bright-hover;
+  background: $theme-color-secondary;
 }
 
 .cb-light {
-  background: $color-light;
+  background: $theme-color-secondary-light;
 }
 
 .cb-gray {
@@ -42,11 +38,6 @@
 
 .cb-gray-lightest {
   background: color('gray-cool-5');
-}
-
-.cb-inverse {
-  background: $color-inverse;
-  border: 1px solid color('gray-cool-5');
 }
 
 //backgrounds
@@ -63,14 +54,12 @@
   align-items: center;
   border: 1px solid color('gray-cool-5');
   display: inline-block;
-  padding: $paragraph-margins;
 }
 
 .box-rem {
-  background: $color-base;
+  background: $theme-color-base;
   display: inline-block;
   height: 1rem;
-  margin-right: $paragraph-margins;
   width: 1rem;
 }
 

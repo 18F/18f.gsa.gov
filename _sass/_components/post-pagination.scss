@@ -3,9 +3,9 @@
 
 @mixin widget-small() {
   @include u-padding-y(2);
-  border-bottom: 1px solid $color-gray-lightest;
-  border-top: 1px solid $color-gray-lightest;
-  font-size: $h5-font-size;
+  border-bottom: 1px solid $theme-color-base-lightest;
+  border-top: 1px solid $theme-color-base-lightest;
+  font-size: $theme-h5-font-size;
   font-weight: $theme-font-weight-bold;
 }
 
@@ -22,15 +22,15 @@
   }
 
   a {
-    color: $color-medium;
+    color: $theme-color-secondary-dark;
     text-decoration: none;
 
     &:hover {
-      color: $color-medium-hover;
+      color: $theme-color-secondary-darker;
     }
 
     h5 {
-      color: $color-base;
+      color: $theme-color-base;
       margin-top: 1rem;
     }
   }
