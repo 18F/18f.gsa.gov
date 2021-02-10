@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '~>2.6.3'
 
 gem 'accesslint-ci', '0.2.8'
+gem 'autoprefixer-rails'
 gem 'html-proofer', '~> 3.6.0'
 gem 'jekyll', '~> 3.9'
 gem "sprockets", '~> 3.7'
