@@ -3,14 +3,8 @@
 
 .usa-hero {
   background-image: url('../img/page-feature/hire-us.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 0;
 }
 
-.hero-img-collapsed {
-  display: none;
-}
 
 .usa-hero--primary {
   background-image: none;
@@ -18,93 +12,4 @@
   @include at-media('tablet') {
     background-image: url('../img/page-feature/hire-us.jpg');
   }
-}
-
-.hero-callout {
-  @include at-media('tablet') {
-    max-width: 300px;
-  }
-}
-
-.hero-callout,
-.hero-callout-full {
-  padding: 5rem;
-  @include u-padding-left(1.5);
-
-  @include at-media('mobile-lg') {
-    @include u-padding-left(1.5);
-
-  }
-
-  @include at-media('tablet') {
-    @include u-padding-left(3);
-
-  }
-
-  @include at-media('desktop') {
-    @include u-padding-left(6);
-
-  }
-
-  > *:first-child {
-    @include u-margin-top(0);
-    @include u-margin-bottom($theme-site-margins-width);
-  }
-}
-
-.usa-grid-full .hero-callout,
-.usa-grid-full .hero-callout-full {
-  padding-left: $paragraph-margins;
-
-  @include at-media('mobile-lg') {
-    padding-left: $theme-site-margins-width;
-  }
-}
-
-.hero-callout-primary {
-  max-width: initial;
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-
-  h2 {
-    font-size: $banner-font-size;
-    line-height: $banner-line-height;
-    margin-bottom: $section-margins;
-  }
-
-  @include at-media('tablet') {
-    min-width: 350px;
-    padding-right: $section-margins;
-  }
-
-  &::before {
-    background-color: $color-dark;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 1000%;
-    right: 100%;
-  }
-}
-
-.hero-callout-no_button {
-  > *:first-child {
-    margin-bottom: 0;
-  }
-}
-
-.hero-callout-alt_color {
-  color: $color-bright;
-  display: block;
-}
-
-.hero-callout-title {
-  font-size: $banner-font-size;
-}
-
-.hero-callout-title-secondary {
-  margin-top: 0.5rem;
 }

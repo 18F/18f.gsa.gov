@@ -22,6 +22,12 @@ https://designsystem.digital.gov/design-tokens/color
 Theme palette colors
 ----------------------------------------
 */
+//18F Palette Colors
+$color-bright-light: #B3EFFF;
+$color-bright: #00CFFF;
+$color-medium: #046B99;
+$color-dark: #1C304A;
+$color-medium-hover: #00547a;
 
 // Base colors
 $theme-color-base-family: "gray-cool";
@@ -41,19 +47,19 @@ $theme-color-primary-lighter: "blue-10";
 $theme-color-primary-light: "blue-30";
 $theme-color-primary: "blue-60v";
 $theme-color-primary-vivid: "blue-warm-60v";
-$theme-color-primary-dark: "blue-warm-70v";
+$theme-color-primary-dark: $color-dark;
 $theme-color-primary-darker: "blue-warm-80v";
 $theme-color-primary-darkest: false;
 
 // Secondary colors
 $theme-color-secondary-family: "red";
 $theme-color-secondary-lightest: false;
-$theme-color-secondary-lighter: "red-cool-10";
-$theme-color-secondary-light: "red-30";
-$theme-color-secondary: "red-50";
-$theme-color-secondary-vivid: "red-cool-50v";
-$theme-color-secondary-dark: "red-60v";
-$theme-color-secondary-darker: "red-70v";
+$theme-color-secondary-lighter: false;
+$theme-color-secondary-light: $color-bright-light;
+$theme-color-secondary: $color-bright;
+$theme-color-secondary-vivid: $color-bright;
+$theme-color-secondary-dark: $color-medium-hover;
+$theme-color-secondary-darker: $color-dark;
 $theme-color-secondary-darkest: false;
 
 // Accent warm colors
@@ -71,7 +77,7 @@ $theme-color-accent-cool-family: "blue-cool";
 $theme-color-accent-cool-lightest: false;
 $theme-color-accent-cool-lighter: "blue-cool-5v";
 $theme-color-accent-cool-light: "blue-cool-20v";
-$theme-color-accent-cool: "cyan-30v";
+$theme-color-accent-cool: $color-medium;;
 $theme-color-accent-cool-dark: "blue-cool-40v";
 $theme-color-accent-cool-darker: "blue-cool-60v";
 $theme-color-accent-cool-darkest: false;
@@ -127,7 +133,7 @@ General colors
 */
 
 // Links
-$theme-link-color: "primary";
+$theme-link-color: "secondary-dark";
 $theme-link-visited-color: "violet-70v";
 $theme-link-hover-color: "primary-dark";
 $theme-link-active-color: "primary-darker";

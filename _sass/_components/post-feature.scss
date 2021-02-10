@@ -11,7 +11,10 @@
   }
 
   article {
-    border-top: $theme-color-secondary;
+
+    @include u-border-top(1);
+    @include u-border-top('secondary');
+    // border-top: $theme-color-secondary solid;
     margin-bottom: $theme-site-margins-width;
     padding-top: 1rem;
 

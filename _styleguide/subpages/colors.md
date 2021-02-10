@@ -119,10 +119,6 @@ Instead of overriding the SCSS classes and variables used by the U.S. Web Design
 
 CSS class | SCSS variable
 --- | ---
-`background-dark` | `$color-dark`
-`background-medium` | `$theme-color-secondary-dark`
-`background-gray` | `$color-gray`
-`background-white` | `$color-inverse`
 {% endcapture %}
 {% include details-code.html
    title='backgrounds'
