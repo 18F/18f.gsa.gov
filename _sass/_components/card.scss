@@ -73,7 +73,7 @@ $card-image-height: 200px;
 }
 
 .card-description {
-  font-size: 1.7rem;
+  @include u-font('sans', 'md');
 }
 
 .card-tag {

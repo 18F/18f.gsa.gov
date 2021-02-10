@@ -33,3 +33,14 @@
   color: $theme-color-base-lightest;
 }
 
+// -------------------------------------
+// page introduction
+section.usa-section.bg-primary-darker {
+  h1 {
+      color: $theme-color-secondary;
+  }
+
+  h2 {
+      color: #FFF;
+  }
+}

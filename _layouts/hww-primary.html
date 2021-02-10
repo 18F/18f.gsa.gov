@@ -6,16 +6,14 @@ layout: default
   {% include feature-image.html %}
   <h1 class="usa-sr-only">{{ page.title }}</h1>
 {% elsif page.title %}
-  <section class="bg-primary-darker usa-section section-intro">
+  <section class="bg-primary-darker usa-section">
     <div class="grid-container">
-      <div class="section-intro-header">
         {% if page.lead %}
           <h1 class="section-heading section-heading-alt">{{ page.title }} </h1>
           <h2>{{ page.lead }}</h2>
         {% else %}
           <h1 class="section-heading">{{ page.title }}</h1>
         {% endif %}
-      </div>
     </div>
   </section>
 {% else %}
