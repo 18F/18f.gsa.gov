@@ -1,8 +1,6 @@
 ---
 env: development
 include:
-- node_modules/uswds/dist/js
-- node_modules/uswds/dist/scss
 - node_modules/netlify-cms/dist
 sass:
   load_paths:

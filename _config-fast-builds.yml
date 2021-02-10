@@ -6,9 +6,8 @@ gems:
 env: "development"
 
 include:
-- node_modules/uswds/dist/js
 - node_modules/netlify-cms/dist
-- node_modules/uswds/dist/scss
+
 
 sass:
     load_paths:

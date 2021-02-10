@@ -8,6 +8,7 @@ gem 'jekyll', '~> 4.2'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 gem 'ruby-oembed', '0.15.0'
+gem 'uswds-jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-feed'

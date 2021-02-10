@@ -9,6 +9,7 @@ env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
 github_repo: https://github.com/18F/18f.gsa.gov/blob/main
+theme: uswds-jekyll
 
 related_posts: 3
 
@@ -123,8 +124,14 @@ defaults:
     layout: styleguide
     include_subnav: true
 
-frontmatter_tests:
-  path: "tests/schema"
+scripts:
+  - /assets/uswds/js/uswds.min.js
+  - /assets/js/private-eye.js
+  - /assets/js/index.js
+  - /assets/js/jquery.min.js
+  - /assets/js/waypoints.min.js
+  - /assets/js/sticky.js
+  - /assets/js/external-links.js'
 
 footer:
   image: /assets/img/logos/18F-Logo-M.png
