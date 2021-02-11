@@ -42,6 +42,7 @@ exclude:
 - _posts/2016-08-16-what-happens-when-the-whole-team-joins-user-interviews.md
 - _posts/2014-03-21-29-minutes.md
 - _posts/2015-12-08-using-emoji-for-knowledge-sharing.md
+- _posts/2021-02-01-path-analysis-technical-assessments-toward-more-durable-usable-systems.md
 - _posts/2019-03-22-18F-5-anniv-fav-project.md
 - _posts/2015-10-29-welcome-to-betafec.md
 - _posts/2020-03-05-readmes-for-you-and-me.md
@@ -270,6 +271,7 @@ exclude:
 - _posts/2016-07-26-buying-better-digital-products-part-2-setting-the-product-vision-and-strategy.md
 - _posts/2017-09-08-forest-service-six-month-check.md
 - _posts/2020-05-12-rapid-implementation-of-policy-as-code.md
+- _posts/2021-01-11-building-distributed-teams.md
 - _posts/2016-01-12-hacking-inclusion-by-customizing-a-slack-bot.md
 - _posts/2016-10-26-writing-for-web-easy-writing-for-users-not.md
 - _posts/2017-09-20-managing-custom-software-development-in-government-when-youre-not-a-software-engineer.md
