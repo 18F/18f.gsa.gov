@@ -34,13 +34,18 @@
 }
 
 // -------------------------------------
-// page introduction
+// page introduction and call to action
 section.usa-section.bg-primary-darker {
   h1 {
       color: $theme-color-secondary;
   }
 
-  h2 {
+  h2, p {
       color: #FFF;
   }
+
+  p {
+    font-size: $theme-h3-font-size;
+  }
+
 }
