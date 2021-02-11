@@ -5,7 +5,6 @@
   a {
     display: inline-block;
     margin-top: 5rem;
-    font-size: $theme-h5-font-size;
 
     &:visited {
       color: $theme-color-secondary;
@@ -14,10 +13,6 @@
         color: $theme-color-secondary-darker;
       }
     }
-  }
-
-  p {
-    font-size: $theme-h5-font-size;
   }
 }
 

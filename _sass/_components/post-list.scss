@@ -5,13 +5,11 @@
   @include unstyled-list;
 
   h3 {
-    font-size: 2.8rem;
     margin-top: 0.5em;
 
     a {
       color: $theme-color-base;
       text-decoration: none;
-      line-height: 1.3;
     }
 
     + .post-byline {

@@ -1,7 +1,7 @@
 
 
 $theme-respect-user-font-size: false;
-$theme-root-font-size: 16px;
+$theme-root-font-size: 18px;
 
 $theme-global-paragraph-styles: true;
 $theme-global-link-styles: true;
@@ -85,7 +85,7 @@ $theme-generate-all-weights: false;
 // Body settings are the equivalent of setting the <body> element
 $theme-body-font-family: 'body';
 $theme-body-font-size: 'md';
-$theme-body-line-height: 1;
+$theme-body-line-height: 3;
 
 // If true, explicitly style the <body> element with the base styles
 $theme-style-body-element: false;
