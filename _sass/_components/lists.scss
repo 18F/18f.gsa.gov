@@ -14,6 +14,10 @@
     width: 45px;
 
   }
+
+  .list-images-image {
+    @include u-margin-right('105');
+  }
 }
 
 .list-images-item {

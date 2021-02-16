@@ -13,17 +13,17 @@ header_border: true
 
 <section class="page-tag-results">
 
-  <section class="bg-primary-darker">
+  <section class="bg-primary-darker usa-section">
     <div class="grid-container padding-x-0 usa-flex">
       <div class="grid-container {% if page.image %}tablet:grid-col-6{% else %}padding-x-0{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
-          <h1 class="h3">
-          <span class="hero-callout-alt_color">{{ page.agency }}</span>
+          <h1>
+          {{ page.agency }}
           </h1>
         {% endif %}
-        <h1 class="hero-callout-title-secondary">
+        <h2>
           {{ page.title }}
-        </h1>
+        </h2>
       </div>
       {% if page.image %}
         <div class="tablet:grid-col-6 usa-hero hero"
