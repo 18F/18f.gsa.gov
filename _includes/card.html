@@ -8,34 +8,50 @@
   {% assign wds_grid_class = 'tablet:grid-col-4' %}
 {% endif %}
 
-<article class="card {{ wds_grid_class }} margin-bottom-4">
-  <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
-    <div role="img"
-         title="{{ include.image_alt }}"
-         class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
-         {% if include.image_src %}
-         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
-      {% unless include.image_src %}
-        {% if include.image_icon %}
-          {% include svg/icons/{{ include.image_icon }} %}
-        {% else %}
-          {% include svg/icons/monitor.svg %}
+
+<li class="usa-card {{ wds_grid_class }}">
+    <div class="usa-card__container" data-href="/site/what-we-deliver/forest-service/" tabindex="-1">
+      
+      <header class="usa-card__header">
+        {% if include.agency %}
+          <h6 class="card-tag">{{ include.agency }}</h6>
         {% endif %}
-      {% endunless %}
+        {% if card_link and include.tagline %}
+          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h2 class="h4">{{ include.tagline }}</h2></a>
+        {% endif %}        
+      </header>
+
+      <div class="usa-card__media">
+      <div role="img"
+          title="{{ include.image_alt }}"
+          class="usa-card__img {% unless include.image_src %} card-image-svg {% endunless %}">
+          
+          {% if include.image_src %}
+            <img src="{{ site.baseurl }}{{ include.image_src }}">
+          {% endif %}
+        {% unless include.image_src %}
+          {% if include.image_icon %}
+            {% include svg/icons/{{ include.image_icon }} %}
+          {% else %}
+            {% include svg/icons/monitor.svg %}
+          {% endif %}
+        {% endunless %}
+      </div>
+      </div>
+      
+      <div class="usa-card__body">
+        <p class="card-description">{{ include.description }}</p>
+      </div>
+      
+      <div class="usa-card__footer">
+        <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
+          Read more
+          <span class="usa-sr-only">about {{ include.tagline }}</span>
+          {% include svg/icons/arrow-right.svg %}
+        </a>
+      </div>
+
     </div>
-    <div class="card-banner">
-      {% if include.agency %}
-        <p class="card-tag">{{ include.agency }}</p>
-      {% endif %}
-      {% if card_link and include.tagline %}
-        <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
-      {% endif %}
-      <p class="card-description">{{ include.description }}</p>
-    </div>
-    <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
-      Read more
-      <span class="usa-sr-only">about {{ include.tagline }}</span>
-      {% include svg/icons/arrow-right.svg %}
-    </a>
-  </div>
-</article>
+  
+  </li>
+

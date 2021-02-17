@@ -33,6 +33,7 @@ gridless: true
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">
+      <ul class="usa-card-group">
         {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for featured in featured_services %}
@@ -47,6 +48,7 @@ gridless: true
           link=project.permalink
           %}
         {% endfor %}
+      </ul>
       </div>
     </div>
     {%- comment -%} <p>
