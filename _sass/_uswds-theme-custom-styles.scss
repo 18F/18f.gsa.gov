@@ -53,3 +53,9 @@ section.usa-section.bg-primary-darker {
   }
 
 }
+
+// -------------------------------------
+// fix card img height so images are the same size
+.usa-card__img {
+  height: 200px;
+}
