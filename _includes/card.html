@@ -14,10 +14,11 @@
       
       <header class="usa-card__header">
         {% if include.agency %}
-          <h6 class="card-tag">{{ include.agency }}</h6>
+          <h6 class="font-sans-8 text-bold text-base-darker
+          ">{{ include.agency }}</h6>
         {% endif %}
         {% if card_link and include.tagline %}
-          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h2 class="h4">{{ include.tagline }}</h2></a>
+          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="text-black">{{ include.tagline }}</h3></a>
         {% endif %}        
       </header>
 
@@ -44,7 +45,9 @@
       </div>
       
       <div class="usa-card__footer">
-        <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
+        <a href="{{ card_link }}" class="text-no-underline
+
+        text-bold font-sans-lg link-arrow-right" tabindex="0">
           Read more
           <span class="usa-sr-only">about {{ include.tagline }}</span>
           {% include svg/icons/arrow-right.svg %}
