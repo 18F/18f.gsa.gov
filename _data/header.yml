@@ -25,6 +25,8 @@ logo:
   alt: 18F
   external: true
 
+title: ''
+
 # this is a key into _data/navigation.yml
 primary:
   links: primary
