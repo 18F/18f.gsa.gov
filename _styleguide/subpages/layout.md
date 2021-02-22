@@ -25,7 +25,7 @@ Attribute | Type | What it does
 `image` | String | _(optional)_ Path to hero image. This image will also display on blog post preview cards
 `image_alt` | String | _(optional)_ Accessibility text for the image
 `image_figcaption` | String | _(optional)_ A caption that will be displayed on top of the image
-`breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`. [View breadcrumb component]({{ site.baseurl }}/styleguide/components/#breadcumbs)
+`breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`.
 
 ### How we work page
 
