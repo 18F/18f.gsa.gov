@@ -53,6 +53,8 @@ If there was an error with the build, rebuild using  the  `--no-cache` option li
 
 The site relies primarily on USWDS2 styles pulled in via the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme.
 
+Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
+
 Per this, there are generally two main scss files:
 
 * **_sass/_uswds-theme-theme-settings.scss** This stylesheet pulls in all of the [USWDS2 theme variables](https://designsystem.digital.gov/documentation/developers/#sass-and-theme-settings) that are set in the `_sass/_theme` directory. When updating a style **first check** if it can be updated globally in the theme prior to creating a custom theme.
@@ -73,6 +75,21 @@ The site is a static website with HTML, CSS, and Javascript. Deployments are don
 1. [Federalist Admin](https://federalist.18f.gov/).
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
 1. We map 18f.gsa.gov URL to the S3 bucket.
+
+## Plugins
+
+18f.gsa.gov is using several Ruby gems plugins:
+
+Plugin gem | Description
+--- | ---
+[`jekyll-archives`](https://github.com/jekyll/jekyll-archives) | creates and manages blog-related pages.
+[`jekyll-feed`](https://github.com/jekyll/jekyll-feed) | generates an Atom (RSS-like) feed at [`/feed.xml`](https://18f.gsa.gov/feed.xml).
+[`jekyll-paginate`](https://jekyllrb.com/docs/pagination/) | allows for pagination of blog pages, or pages with long lists of items.
+[`jekyll-redirect-from`](https://github.com/jekyll/jekyll-redirect-from) | enables redirecting from pages that are no longer active.
+[`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) | adds metadata tags for search engines and social networks.
+[`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap) | generates a sitemap at [`/sitemap.xml`](https://18f.gsa.gov/sitemap.xml). This makes it easier for search engines to find us.
+[`jekyll_frontmatter_tests`](https://github.com/18F/jekyll_frontmatter_tests) | tests to see if the correct front matter (meta data) is present on pages throughout our website.
+[`jekyll_oembed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses [OEmbed](https://github.com/ruby-oembed/ruby-oembed)
 
 ## History
 
