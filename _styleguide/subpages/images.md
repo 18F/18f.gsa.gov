@@ -1,5 +1,5 @@
 ---
-title: 18F UI style guide
+title: 18F site style guide
 subpage: Images
 permalink: /styleguide/images/
 image: /assets/img/page-feature/hire-us.jpg
