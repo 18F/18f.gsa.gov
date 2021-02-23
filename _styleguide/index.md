@@ -4,7 +4,7 @@ permalink: /styleguide/
 subpage: Overview
 ---
 
-### This is the user interface (UI) style guide for [18f.gsa.gov](18f.gsa.gov)
+### This is the user interface (UI) style guide for [18f.gsa.gov](https://18f.gsa.gov)
 
 The site uses a custom set of styles that inherit from the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F brand](https://brand.18f.gov) guidelines to create style that is professional, unique, and informative.
 

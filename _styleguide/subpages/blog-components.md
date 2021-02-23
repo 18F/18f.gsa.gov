@@ -31,7 +31,7 @@ Post previews are seen on the home page of [18f.gsa.gov](https://18f.gsa.gov/) a
 
 ### Hero images
 
-Hero images are used in the [primary]({{ site.baseurl }}/styleguide/layouts/#primary-template) and [blog post]({{ site.baseurl }}/styleguide/layouts/##blog-post-template) layouts.Here is a view of a [live example]({{ site.baseurl }}/2016/12/14/how-to-run-an-efficient-meeting/).
+Hero images are used in the [primary]({{ site.baseurl }}/styleguide/layouts/#primary-template) and [blog post]({{ site.baseurl }}/styleguide/layouts/#blog-post-template) layouts.Here is a view of a [live example]({{ site.baseurl }}/2016/12/14/how-to-run-an-efficient-meeting/).
 
 {% capture styleguide_hero_image %}{% raw %}
 {% include feature-image.html %}

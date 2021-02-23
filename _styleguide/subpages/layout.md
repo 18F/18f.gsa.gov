@@ -19,7 +19,7 @@ Attribute | Type | What it does
 `layout` | String | Should be set to `primary`
 `lead` | String | _(optional)_ Large white text that renders on the top blue banner
 `banner_cta` | Boolean | _(optional)_ Set to `false` by default. Generates a light blue call to action banner when set to `true`.
-`subnav_items` | Object | _(optional)_ Navigation items object that contains a list of subnavigation items that contain a `permalink` and `text`. Renders a [sticky subnav]({{ site.baseurl }}/styleguide/components/#sticky-subnavigation) on the left side of the page.
+`subnav_items` | Object | _(optional)_ Navigation items object that contains a list of subnavigation items that contain a `permalink` and `text`. Renders a [sidenav](https://designsystem.digital.gov/components/sidenav/) on the left side of the page.
 `subnav_title` | String| _(optional)_ Set if you want the subnav title or breadcumb text to differ from the page `title`.
 `hero` | Boolean | _(optional)_ Enables a hero image in the banner. Defaults to `true`, so set to `false` to hide the image
 `image` | String | _(optional)_ Path to hero image. This image will also display on blog post preview cards
@@ -29,16 +29,13 @@ Attribute | Type | What it does
 
 ### How we work page
 
-`/how-we-work` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components:
-
-* Cards are placed at the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.
-* Testimonal quote is used within the body of the content. Bringing the voices of our partner agencies front and center is a top priority. [View testimonial component]({{ site.baseurl }}/styleguide/components/#testimonials-and-fun-facts)
+`/how-we-work` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components the cards are placed at the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.
 
 ---
 
 ### Project page template
 
-Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html), this is the template for creating new project pages as well as [project cards]({{ site.baseurl }}/styleguide/components/#project-cards) that show up at [/what-we-deliver/]({{ site.baseurl }}/what-we-deliver/).
+Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html), this is the template for creating new project pages as well as project cards that show up at [/what-we-deliver/]({{ site.baseurl }}/what-we-deliver/).
 
 #### Add a project page
 
@@ -49,7 +46,8 @@ Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tre
     * Main content on the project's background and 18F's approach
     * The sidebar for at-a-glance information like the project's website or GitHub repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
     * Testimonials or fun facts styling within the body of the page
-5. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog]({{ site.basurl }}/images/svg-include-catalog) like so:
+4. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog](https://github.com/18F/18f.gsa.gov/tree/main/_includes/svg/icons) like so:
+
   ```yml
   image_icon: gavel.svg
   ```
