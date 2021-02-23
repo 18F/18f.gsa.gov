@@ -125,7 +125,6 @@ defaults:
     include_subnav: true
 
 scripts:
-  - /assets/uswds/js/uswds.min.js
   - /assets/js/index.js
   - /assets/js/jquery.min.js
   - /assets/js/waypoints.min.js
@@ -177,9 +176,6 @@ exclude:
 - tests/
 - tests/schema/tags.yml
 - tmp/
-
-include:
-- node_modules/netlify-cms/dist
 
 # jekyll plugins
 plugins:
