@@ -160,7 +160,6 @@ exclude:
 - docker-compose.yml
 - docker_entrypoint.rb
 - Dockerfile
-- docs/
 - examples/
 - favicon.ico
 - Gemfile*
