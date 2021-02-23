@@ -5,8 +5,7 @@ gems:
 
 env: "development"
 
-include:
-- node_modules/netlify-cms/dist
+
 
 
 sass:
