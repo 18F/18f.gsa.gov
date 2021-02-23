@@ -1,35 +1,52 @@
 ---
-layout: default
-title: 18F UI Styleguide
-nav_items:
+layout: page
+title: 18F site styleguide
+sidenav:
   - text: Overview
-    permalink: /styleguide/
+    href: /styleguide/
   - text: Layouts
-    permalink: /styleguide/layouts/
+    href: /styleguide/layouts/
     children:
       - text: Templates
-        permalink: /styleguide/layouts/#templates
+        href: /styleguide/layouts/#templates
       - text: Primary template
-        permalink: /styleguide/layouts/#primary-template
+        href: /styleguide/layouts/#primary-template
       - text: Project page template
-        permalink: /styleguide/layouts/#project-page-template
+        href: /styleguide/layouts/#project-page-template
       - text: Blog post template
-        permalink: /styleguide/layouts/#blog-post-template
+        href: /styleguide/layouts/#blog-post-template
   - text: Images
-    permalink: /styleguide/images/
+    href: /styleguide/images/
     children:
       - text: Image lists
-        permalink: /styleguide/images/#image-lists
+        href: /styleguide/images/#image-lists
       - text: Project page images
-        permalink: /styleguide/images/#project-page-images
+        href: /styleguide/images/#project-page-images
   - text: Blog components
-    permalink: /styleguide/blog-components/
+    href: /styleguide/blog-components/
     children:
       - text: Post previews
-        permalink: /styleguide/blog-components/#post-previews
+        href: /styleguide/blog-components/#post-previews
       - text: Blog tags
-        permalink: /styleguide/blog-components/#blog-tags
+        href: /styleguide/blog-components/#blog-tags
       - text: Images
-        permalink: /styleguide/blog-components/#images
+        href: /styleguide/blog-components/#images
 ---
+<div class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap flex-align-start">
+      {% assign sidenav = layout.sidenav %}
+      {% if sidenav %}
+        <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
+          {% include sidenav.html links=sidenav %}
+        </div>
+      {% endif %}
+
+      <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</div>
+
 

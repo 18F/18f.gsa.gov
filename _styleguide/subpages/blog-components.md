@@ -1,5 +1,5 @@
 ---
-title: 18F UI style guide
+title: 18F site style guide
 subpage: Blog
 permalink: /styleguide/blog-components/
 tags:
