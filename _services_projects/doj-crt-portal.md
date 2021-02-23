@@ -43,7 +43,7 @@ Together, we crafted design principles for the new experience, which subsequent 
 - Helpful and honest
 - Forward-thinking and relevant
 
-The result was the [Civil Rights Reporting Portal](civilrights.justice.gov), a unified portal for complaint intake and processing that improves user experience and transforms the way CRT collects, sorts, and responds to civil rights reports.
+The result was the [Civil Rights Reporting Portal](https://civilrights.justice.gov), a unified portal for complaint intake and processing that improves user experience and transforms the way CRT collects, sorts, and responds to civil rights reports.
 
 Built on [cloud.gov](https://cloud.gov/) and using the [United States Web Design System (USWDS)](https://designsystem.digital.gov/), the new Reporting Portal consolidates more than 30 unique reporting pathways into a single, coordinated experience. Thanks to cloud.gov, the site can scale with traffic, and CRT can minimize time spent on operations and management. Thanks to USWDS, the site can stay accessible and compliant with little to no design maintenance work required. With 18F’s help, both the public and CRT employees can benefit from a high-quality tool developed using Agile and Devsecops practices and that was delivered on time, on budget, and to a private sector standard.
 
