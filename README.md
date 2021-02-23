@@ -57,7 +57,7 @@ Please ensure that style updates are consistent with our brand's [colors](https:
 
 Per this, there are generally two main scss files:
 
-* **_sass/_uswds-theme-theme-settings.scss** This stylesheet pulls in all of the [USWDS2 theme variables](https://designsystem.digital.gov/documentation/developers/#sass-and-theme-settings) that are set in the `_sass/_theme` directory. When updating a style **first check** if it can be updated globally in the theme prior to creating a custom theme.
+* **_sass/_uswds-theme-theme-settings.scss** This stylesheet pulls in all of the [USWDS2 theme variables](https://designsystem.digital.gov/documentation/developers/#sass-and-theme-settings) that are set in the `_sass/_theme` directory. If you want to modify a style, try to make the change globally using the provided theme variables before creating a custom style.
 
 * **_sass/_uswds-theme-custom-styles.scss** This stylesheet pulls in custom styling from the `_sass/_components`, `_sass/templates`, and `_sass/styleguide` directories.
 
