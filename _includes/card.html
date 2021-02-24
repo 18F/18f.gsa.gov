@@ -1,4 +1,5 @@
 {% assign card_link = include.link | prepend: site.baseurl %}
+{% assign project = site | find_collection: 'services_projects' | where: 'slug', include.project | first %}
 
 {% assign columns = include.columns | default: 3 %}
 
@@ -10,12 +11,11 @@
 
 
 <li class="usa-card {{ wds_grid_class }}">
-    <div class="usa-card__container shadow-2" data-href="/site/what-we-deliver/forest-service/" tabindex="-1">
+    <div class="usa-card__container shadow-2" tabindex="-1">
       
       <header class="usa-card__header">
         {% if include.agency %}
-          <h6 class="font-sans-8 text-bold text-base-darker
-          ">{{ include.agency }}</h6>
+          <h6>{{ include.agency }}</h6>
         {% endif %}
         {% if card_link and include.tagline %}
           <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="text-black">{{ include.tagline }}</h3></a>
@@ -45,9 +45,7 @@
       </div>
       
       <div class="usa-card__footer">
-        <a href="{{ card_link }}" class="text-no-underline
-
-        text-bold font-sans-lg link-arrow-right" tabindex="0">
+        <a href="{{ card_link }}" class="link-arrow-right" tabindex="0">
           Read more
           <span class="usa-sr-only">about {{ include.tagline }}</span>
           {% include svg/icons/arrow-right.svg %}
