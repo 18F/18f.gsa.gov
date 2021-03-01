@@ -23,7 +23,7 @@ Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 
 ### Anything else?
 For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
-{% endmarkdown %}
+</div>
 
     </div>
 
