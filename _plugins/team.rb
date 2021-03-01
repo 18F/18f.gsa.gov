@@ -11,7 +11,7 @@ module Jekyll
           full_name = author_data.fetch(name, 'full_name')
           image = File.join('assets', 'img', 'team', "#{name}.jpg")
           image_file = File.join(Jekyll.sites[0].config['baseurl'], image)
-          if File.exist?(image_file) or File.exists?(image)
+          if File.exist?(image_file) or File.exist?(image)
             "<img class='circle-15' "\
             "src='#{baseurl}/#{image}' alt='18F team member #{full_name}'>"
           else
