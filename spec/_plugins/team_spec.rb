@@ -7,7 +7,7 @@ RSpec.describe Jekyll::TeamFilter do
   before(:each) do
     @team_filter = TeamFilterClass.new
     @team_filter.extend(Jekyll::TeamFilter)
-    conf = Jekyll.configuration(:source => './', :destination => './_site', :baseurl => '')
+    conf = Jekyll.configuration(source: './', destination: './_site', baseurl: '')
     @site = Jekyll::Site.new(conf)
     @baseurl =''
   end
