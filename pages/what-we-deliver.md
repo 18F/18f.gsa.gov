@@ -37,9 +37,8 @@ gridless: true
         {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for featured in featured_services %}
-          {% assign project = projects_list | where: "agency", featured.agency | first %}
-          {% include card.html project=project
-          %}
+          {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
+          {% include card.html project=featured_project.slug %}
         {% endfor %}
       </ul>
       </div>
