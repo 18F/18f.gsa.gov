@@ -10,8 +10,8 @@ lead: Let’s work together to improve the user experience of government.
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <div class="usa-section tablet:grid-col-8">
-{% markdown %}
 
+<div markdown="1">
 ### Want to see if 18F can help your agency?
 Email our Business Development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
 
