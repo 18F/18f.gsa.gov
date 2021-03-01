@@ -38,14 +38,7 @@ gridless: true
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for featured in featured_services %}
           {% assign project = projects_list | where: "agency", featured.agency | first %}
-          {% include card.html
-          image_src=project.image
-          image_alt=project.image_accessibility
-          image_icon=project.image_icon
-          agency=project.agency
-          tagline=project.title
-          description=project.excerpt
-          link=project.permalink
+          {% include card.html project=project
           %}
         {% endfor %}
       </ul>
