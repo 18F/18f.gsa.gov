@@ -7,10 +7,8 @@ RSpec.describe Jekyll::TeamFilter do
   before(:each) do
     @team_filter = TeamFilterClass.new
     @team_filter.extend(Jekyll::TeamFilter)
-    # allow(Jekyll::Site).to receive(:config).and_return('')
-    opts = {skip_config_files: true}
-    @site = Jekyll::Site.new(opts)
-    # Jekyll.any_instance.stub(:sites).and_return([{config: {env: '',baseurl: '' }}])
+    conf = Jekyll.configuration(:source => './', :destination => './_site')
+    @site = Jekyll::Site.new(conf)
     @baseurl =''
   end
 
