@@ -9,7 +9,7 @@ RSpec.describe Jekyll::TeamFilter do
     @team_filter.extend(Jekyll::TeamFilter)
     conf = Jekyll.configuration(source: './', destination: './_site', baseurl: '')
     @site = Jekyll::Site.new(conf)
-    @baseurl =''
+    @baseurl = ''
   end
 
   it 'returns an image given a name that is an author and has an image' do
