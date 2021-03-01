@@ -13,7 +13,6 @@ RSpec.describe Jekyll::TeamFilter do
   end
 
   it 'returns an image given a name that is an author and has an image' do
-    
     actual = @team_filter.team_photo('aaron')
     expected = "<img class='circle-15'"\
       " src='#{@baseurl}/assets/img/team/aaron.jpg' alt='18F team member Aaron Snow'>"
