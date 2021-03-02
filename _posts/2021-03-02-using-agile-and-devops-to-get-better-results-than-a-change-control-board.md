@@ -8,10 +8,7 @@ tags:
   - agile
   - agency work
   - department of justice
-excerpt: Agile is a way of quickly reacting to the demands of your project and
-  DevOps for building infrastructure and applications that is able to adapt and
-  change quickly. Using these methods, you can avoid many of the pitfalls of
-  traditional waterfall practices.
+excerpt: Agile is a way of quickly reacting to the demands of your project and DevOps is a methodology for building infrastructure and applications that is able to adapt and change quickly. Using these methods, you can avoid many of the pitfalls of traditional waterfall practices described above.
 ---
 Governance and strategy can be extremely hard to implement for organizations that take care of large and complex systems. Top-down structures can move slowly, smother innovation, and have unintended consequences when they are implemented months or years later. 
 
@@ -159,7 +156,7 @@ Someone creates process, code, or app changes as described in a ticket. After th
   * Key functionality should be checked with tests
   * Making sure changes fit the security baseline
 
-You can see the code base, including how we do tests at automated deployment [on Github](https://github.com/usdoj-crt/crt-porta). Using cloud.gov helps to keep the deployment process simple, secure and low maintenance for developers.
+You can see the code base, including how we do tests at automated deployment [on Github](https://github.com/usdoj-crt/crt-portal). Using cloud.gov helps to keep the deployment process simple, secure and low maintenance for developers.
 
 ### Step two, Release QA:
 
