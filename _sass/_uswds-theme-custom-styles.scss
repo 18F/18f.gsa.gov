@@ -54,13 +54,7 @@ section.usa-section.bg-primary-darker {
 
 }
 
-// -------------------------------------
-// fix card img height so images are the same size
-.usa-card__img {
-  height: 200px;
-}
-
-// special case for hww page
+// special case for border on hww page
 .section-case-studies {
   border-bottom: 1rem solid $color-medium;
 }
