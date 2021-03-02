@@ -13,7 +13,9 @@ excerpt: Agile is a way of quickly reacting to the demands of your project where
   change quickly. Using these methods, you can avoid many of the pitfalls of
   traditional waterfall practices.
 ---
-Governance and strategy can be extremely hard to implement for organizations that take care of large and complex systems. Top-down structures can move slowly, smother innovation, and have unintended consequences when they are implemented months or years later. Conversely, a lack of structure can lead to inconsistencies that make working across the organization difficult, because interoperability can be undervalued the further you are from central decision making. You can also get very inconsistent results, with some projects falling behind standards. We have compliance standards in government that we need to document to show we are making choices and changes responsibly.
+Governance and strategy can be extremely hard to implement for organizations that take care of large and complex systems. Top-down structures can move slowly, smother innovation, and have unintended consequences when they are implemented months or years later. 
+
+Conversely, a lack of structure can lead to inconsistencies that make working across the organization difficult, because interoperability can be undervalued the further you are from central decision making. You can also get very inconsistent results, with some projects falling behind standards. We have compliance standards in government that we need to document to show we are making choices and changes responsibly.
 
 The added value of using agile and DevOps is that: 
 
@@ -21,21 +23,21 @@ The added value of using agile and DevOps is that: 
 * More information and context for decisions when they are getting made
 * We can make course corrections quickly, with fewer bureaucratic bottlenecks
 
-## Traditional Change Control Board
+## Traditional change control board
 
 Traditional change control boards and most software lifecycle management approaches in government were born in the age of waterfall processes. As software development practices evolve, change control processes that were not designed for agile product development processes often become a major point of friction.
 
-Detailed planning up-front: With waterfall processes, project planning happens first— you must anticipate all needs that the project will have in the future through requirements gathering. Absolutely everything needs to be documented during the requirements phase since the deliverable is often handed off to an entirely different implementation team. The documation can vary widely in quality, depending on who produces and reviews it. This really long report needs to contain everything that might be needed in the future, because changing course after you start will be hard and costly. Making thousands of small decisions, without having prototypes to test your conclusions with actual users is a Herculean task that often fails. 
+**Detailed planning up-front**: With waterfall processes, project planning happens first— you must anticipate all needs that the project will have in the future through requirements gathering. Absolutely everything needs to be documented during the requirements phase since the deliverable is often handed off to an entirely different implementation team. The documentation can vary widely in quality, depending on who produces and reviews it. This really long report needs to contain everything that might be needed in the future, because changing course after you start will be hard and costly. Making thousands of small decisions, without having prototypes to test your conclusions with actual users is a Herculean task that often fails. 
 
 Traditional change control boards use these large documents as their main artifacts for review. Though it may feel safe at the time, requirements gathering is a very risky and flawed practice. It is impossible to anticipate the needs of all your users and stakeholders, and business needs and policies will undoubtedly change. The bigger the engagement, the more likely you won’t be able to plan or anticipate everything. 
 
-Anticipating user needs: Often requirements fail to take into account every eventuality, the needs of every user group and how needs and policies will change. People are blamed for not planning well, instead of evaluating the planning process. Since no one is omniscient, this can be an impossible task. The bigger the project, the greater likelihood that something doesn't go as planned. Since everything was planned up front, these bottlenecks can create ripple effects, magnifying even small forecasting errors.
+**Anticipating user needs**: Often requirements fail to take into account every eventuality, the needs of every user group and how needs and policies will change. People are blamed for not planning well, instead of evaluating the planning process. Since no one is omniscient, this can be an impossible task. The bigger the project, the greater likelihood that something doesn't go as planned. Since everything was planned up front, these bottlenecks can create ripple effects, magnifying even small forecasting errors.
 
-Security as an afterthought: Security is also often considered at the beginning of the project but then implementation and checks for security are left until the very end. At that point making corrections can be cumbersome and these massive reviews can lead to lots of back and forth communication. 
+**Security as an afterthough**t: Security is also often considered at the beginning of the project but then implementation and checks for security are left until the very end. At that point making corrections can be cumbersome and these massive reviews can lead to lots of back and forth communication. 
 
-Stakeholder driven decisions: All decisions are made upfront by stakeholders. They have to take a long time because there are a lot of requirements and they have to think of all contingencies in advance. 
+**Stakeholder driven decisions**: All decisions are made upfront by stakeholders. They have to take a long time because there are a lot of requirements and they have to think of all contingencies in advance. 
 
-Rigidity: More flexible systems tend to adapt better to chances. The worst project results usually come from the most rigid structures that don't have good contingencies for when things don't go to plan or when the unexpected throws a wrench into the grand plan. Failures are generally blamed on not enough planning or on poor planning, but the people working in these traditional ways are already very good at planning. Change control boards are usually filled with smart, highly-capable people, making decisions the best that they can in a broken framework. This isn't a problem that can be solved with better up front planning.
+**Rigidity**: More flexible systems tend to adapt better to chances. The worst project results usually come from the most rigid structures that don't have good contingencies for when things don't go to plan or when the unexpected throws a wrench into the grand plan. Failures are generally blamed on not enough planning or on poor planning, but the people working in these traditional ways are already very good at planning. Change control boards are usually filled with smart, highly-capable people, making decisions the best that they can in a broken framework. This isn't a problem that can be solved with better up front planning.
 
 Once there is a plan, vendors spend years implementing all the requirements.
 
@@ -43,14 +45,14 @@ Finally, you get the thing you asked for years ago, but not the thing you want n
 
 ## Agile and DevOps case study 
 
-Agile is a way of quickly reacting to the demands of your project where DevOps(which combines software development and IT Operations) is a methodology for building infrastructure and applications that is able to adapt and change quickly. Using these methods, you can avoid many of the pitfalls of traditional waterfall practices described above. 
+Agile is a way of quickly reacting to the demands of your project where DevOps (which combines software development and IT Operations) is a methodology for building infrastructure and applications that is able to adapt and change quickly. Using these methods, you can avoid many of the pitfalls of traditional waterfall practices described above. 
 
 ### Getting started
 
 1. Outline the scope of the project, what kind of data the project needs and what technical stack it will run on. Define the product not by final goals, but the leanest version of that product that will be useful. Consider what future features may be useful when making decisions but first focus on core functionality. Here is a resource for [setting product vision and strategy](https://18f.gsa.gov/2016/07/26/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/).
 2. Check in with enterprise architecture teams, security teams, the operations team, and PRA and privacy office contacts if you are planning to use forms or house data. Look for other similar projects in your agency: are they happy with their product? What would they change? Getting buy-in from a wide range of people early can save you time later. 
 3. This is a good time to agree on some mission and quality outcomes to strive for. Create goals such as security scan protocols that all releases will go though. Set up bi-weekly or monthly accessibility checks with an accessibility expert. Be precise about the kind of milestones that need to be met before personal data is added to the system. It is more important to frame these as outcome-oriented goals and not process goals. You want the flexibility to improve your processes, but make sure as processes change the outcomes for standards are consistent.
-4. Start by  some of the riskiest parts of the project. Tackle whatever might make the project fail first. Are there simple ways to test the viability of your project? These could be a mock-ups, a google form, or another way to quickly confirm you are using the right strategy to solve the right problem. Next, think about deployment or a tricky integration. 
+4. Start by approaching some of the riskiest parts of the project. Tackle whatever might make the project fail first. Are there simple ways to test the viability of your project? These could be mock-ups, a google form, or another way to quickly confirm you are using the right strategy to solve the right problem. Next, think about deployment or a tricky integration. 
 
 ## Example workflow for project growth and maintenance
 
@@ -64,7 +66,7 @@ To achieve these goals, we needed to understand the needs of various users and b
 
 Below is an example roadmap from the project that shows how we broke up the problem into smaller pieces and prioritized. While this roadmap describes the features to be developed, an underlying backlog incorporated security, compliance and accessibility tasks to contextualize feature development.
 
-![Table labeled Thin Slice "first step" Features. It has three rows first, next and later. Each row has proposed functionality like "submit a complaint" and the functionality is color coded to show internal vs. external features]({{ site.baseurl }}/assets/blog/image2.png "Thin Slice First Step Features")
+![Table labeled Thin Slice "first step" Features. It has three rows first, next and later. Each row has proposed functionality like "submit a complaint" and the functionality is color coded to show internal vs. external features]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/image2.png "Thin Slice First Step Features")
 
 Roadmaps are a great starting point but it is important to remember that they  are not a list of requirements—the point of agile development is to make changes as you learn more about your users, problem space, and the other realities of your project. The relative importance of any particular feature may not be what you thought  after you implement some and learn more about your needs. 
 
@@ -76,9 +78,9 @@ Each milestone in your roadmap is high-level and can be implemented in many diff
 
 As an example, a user story from our project: 
 
-<As a public user, I want to know that my complaint was submitted so that I can complete the process and save the information for my records.>
+As a public user, I want to know that my complaint was submitted so that I can complete the process and save the information for my records.
 
-If you are new to user stories, we have an and previous blog post [describing the process for mapping user stories.](https://18f.gsa.gov/2016/08/04/buying-better-digital-products-part-3-mapping-user-stories/) 
+If you are new to user stories, we have a blog post [describing the process for mapping user stories.](https://18f.gsa.gov/2016/08/04/buying-better-digital-products-part-3-mapping-user-stories/) 
 
 There are several agile methods for breaking user stories into manageable workflows for your team, including SCRUM and kanban which are commonly used by development teams. The most important considerations when choosing a method for your team are:
 
@@ -88,9 +90,9 @@ There are several agile methods for breaking user stories into manageable workfl
 
 For more, you can check the [18F Practices](https://agile.18f.gov/agile-fundamentals/) for a deeper introduction to agile. 
 
-If you are new to agile, there are a couple common pitfalls watch out for: 
+If you are new to agile, there are a couple common pitfalls to watch out for: 
 
-* Agilefall: A common trap for teams new to agile is adding more meetings with agile-sounding names and sprint cadences while keeping waterfall development processes without the agile practices of regularly testing and iterating based on feedback. This is referred to as "agilefall" and typically leads to poor results and makes everyone less happy with the process and outcome. If this sounds familiar, you should read [you might not be as agile as you think you are](https://18f.gsa.gov/2019/05/29/you-might-not-be-as-agile-as-you-think-you-are/).
+* Agilefall: A common trap for teams new to agile is adding more meetings with agile-sounding names and sprint cadences while keeping waterfall development processes without the agile practices of regularly testing and iterating based on feedback. This is referred to as "agilefall" and typically leads to poor results and makes everyone less happy with the process and outcome. If this sounds familiar, you should read our blog post ["You might not be as agile as you think you are"](https://18f.gsa.gov/2019/05/29/you-might-not-be-as-agile-as-you-think-you-are/).
 * Lack of structure: The other pitfall can be chaos. Agile isn't a lack of planning, it is breaking down planning into smaller chunks and doing that planning as needed. While you might not yet know the full solution to a problem, your team should have a shared understanding of what your approach will be, who will be doing what, and when you start working on it. I was once on a call where someone answered a concrete question about their product security, which should have been in their roadmap with "We are sculpting a David right now, we haven't chiseled out those details." That kind of response lacks communication about what you hope to achieve, the scope of your project. Collaborators and stakeholders will be hesitant to adopt new ways if you can't explain them. You should be able to identify the plan for what you are building and how you want to approach the problem. You can make changes to the plan, but there should still be a general plan. That plan needs to be socialized early across teams that you collaborate with. 
 
 ### DevOps
@@ -132,17 +134,17 @@ The DOJ-18F team currently has automated tests for:
 * Ensuring code is written and formatted to an industry standard
 * Accessibility
 
-![Slide showing a launch prep testing guidance]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/image3.png "Launch prep testing guide")
+![Slide showing a launch prep testing guidance]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/image3.png "Launch prep testing guide")
 
 Automated testing doesn't replace the need for people with context who approve new work, but it does reduce the risk of introducing errors or vulnerabilities. It can make sure certain bugs are not reintroduced, catch common security vulnerabilities, and accessibility errors.
 
-![Slide showing a launch prep automated testing and deployment pipeline, including: 1. PR Review, 2. Release QA, and 3. Production release]({{ site.baseurl }}/assets/blog/image1.png "Automated testing and deployment pipeline")
+![Slide showing a launch prep automated testing and deployment pipeline, including: 1. PR Review, 2. Release QA, and 3. Production release]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/image1.png "Automated testing and deployment pipeline")
 
 ### Step one, PR review:
 
 User stories are broken down into development tickets. These tickets will be more detailed with design and implementation components. 
 
-Someone creates process, code, or app changes as described in a ticket. After that standalone task or story from a ticket is completed, that portion of code is proposed as a pull request. This see [PR documentation](https://github.com/usdoj-crt/crt-portal/blob/master/docs/pull_requests.md) for a complete list of checks for PR review.
+Someone creates process, code, or app changes as described in a ticket. After that standalone task or story from a ticket is completed, that portion of code is proposed as a pull request. See this [PR documentation](https://github.com/usdoj-crt/crt-portal/blob/master/docs/pull_requests.md) for a complete list of checks for PR review.
 
 #### It ensures:
 
