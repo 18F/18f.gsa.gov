@@ -124,13 +124,6 @@ defaults:
     layout: styleguide
     include_subnav: true
 
-scripts:
-  - /assets/js/index.js
-  - /assets/js/jquery.min.js
-  - /assets/js/waypoints.min.js
-  - /assets/js/sticky.js
-  - /assets/js/external-links.js
-
 footer:
   image: /assets/img/logos/18F-Logo-M.png
   email:
