@@ -1,37 +1,31 @@
-{% assign card_link = include.link | prepend: site.baseurl %}
 
-{% assign columns = include.columns | default: 3 %}
-
-{% if columns == 2 %}
-  {% assign wds_grid_class = 'tablet:grid-col-6' %}
-{% else %}
-  {% assign wds_grid_class = 'tablet:grid-col-4' %}
-{% endif %}
+{% assign project = site | find_collection: 'services_projects' | where: 'slug', include.project | first %}
+{% assign card_link = project.permalink | prepend: site.baseurl %}
 
 
-<li class="usa-card {{ wds_grid_class }}">
-    <div class="usa-card__container" data-href="/site/what-we-deliver/forest-service/" tabindex="-1">
+<li class="usa-card tablet:grid-col-4">
+    <div class="usa-card__container shadow-2" tabindex="-1">
       
       <header class="usa-card__header">
-        {% if include.agency %}
-          <h6 class="card-tag">{{ include.agency }}</h6>
+        {% if project.agency %}
+          <h6>{{ project.agency }}</h6>
         {% endif %}
-        {% if card_link and include.tagline %}
-          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h2 class="h4">{{ include.tagline }}</h2></a>
+        {% if card_link and project.title %}
+          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="text-black">{{ project.title }}</h3></a>
         {% endif %}        
       </header>
 
       <div class="usa-card__media">
       <div role="img"
-          title="{{ include.image_alt }}"
-          class="usa-card__img {% unless include.image_src %} card-image-svg {% endunless %}">
+          title="{{ project.image_accessibility }}"
+          class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}">
           
-          {% if include.image_src %}
-            <img src="{{ site.baseurl }}{{ include.image_src }}">
+          {% if project.image %}
+            <img src="{{ site.baseurl }}{{ project.image }}">
           {% endif %}
-        {% unless include.image_src %}
-          {% if include.image_icon %}
-            {% include svg/icons/{{ include.image_icon }} %}
+        {% unless project.image %}
+          {% if project.image_icon %}
+            {% include svg/icons/{{ project.image_icon }} %}
           {% else %}
             {% include svg/icons/monitor.svg %}
           {% endif %}
@@ -40,13 +34,13 @@
       </div>
       
       <div class="usa-card__body">
-        <p class="card-description">{{ include.description }}</p>
+        <p class="card-description">{{ project.excerpt }}</p>
       </div>
       
       <div class="usa-card__footer">
-        <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
+        <a href="{{ card_link }}" class="link-arrow-right" tabindex="0">
           Read more
-          <span class="usa-sr-only">about {{ include.tagline }}</span>
+          <span class="usa-sr-only">about {{ project.title }}</span>
           {% include svg/icons/arrow-right.svg %}
         </a>
       </div>

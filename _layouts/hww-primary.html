@@ -52,23 +52,29 @@ layout: default
   {% include banner-cta.html %}
 {% endif %}
 
-<section class="usa-section bg-base-lightest section-case-studies post-border">
-  <div class="grid-container usa-content">
-    <h2>Case studies</h2>
-    <p class="section-case-studies-text">Here are a couple of projects we’ve built with federal agencies using a Path Analysis followed by Experiment & Iterate phases.</p>
 
-    <div class="grid-row grid-gap">
-      {% include card-project.html
-      project='fbi-crime-data-explorer'
-      %}
+  <section class="usa-section section-case-studies bg-base-lightest">
+    <div class="grid-container">
+      <div class="usa-section-bottom">
+      <h2>Case studies</h2>
+      <p class="section-case-studies-text">Here are a couple of projects we’ve built with federal agencies using a Path Analysis followed by Experiment & Iterate phases.</p>
+      
+      <div class="grid-row grid-gap">
+      <ul class="usa-card-group">
+        {% include card.html
+        project='fbi-crime-data-explorer'
+        %}
 
-      {% include card-project.html
-      project='fec-gov'
-      %}
+        {% include card.html
+        project='fec-gov'
+        %}
 
-      {% include card-project.html
-      project='calc'
-      %}
+        {% include card.html
+        project='calc'
+        %}
+      </ul>
+      </div>
     </div>
-  </div>
-</section>
+    </div>
+  </section>
+

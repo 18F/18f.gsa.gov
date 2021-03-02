@@ -145,9 +145,11 @@ redirect_from: /developer/
   <section class="usa-section grid-container">
     <h2>Featured projects</h2>
     <div class="grid-row grid-gap">
-      {% include card-project.html project='fec-gov' %} {% include
-      card-project.html project='treasury-data-act' %} {% include
-      card-project.html project='calc' %}
+      <ul class="usa-card-group">
+        {% include card.html project='fec-gov' %} 
+        {% include card.html project='treasury-data-act' %} 
+        {% include card.html project='calc' %}
+      </ul>
     </div>
   </section>
 </section>
