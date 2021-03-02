@@ -8,7 +8,7 @@ tags:
   - agile
   - agency work
   - department of justice
-excerpt: Agile is a way of quickly reacting to the demands of your project where
+excerpt: Agile is a way of quickly reacting to the demands of your project and
   DevOps for building infrastructure and applications that is able to adapt and
   change quickly. Using these methods, you can avoid many of the pitfalls of
   traditional waterfall practices.
