@@ -1,17 +1,27 @@
 // Post meta
 // ==========================
 
+.back-blog {
+  text-decoration: none;
+  font-weight: bold;
+  @include u-font('sans', 'xs');
+}
+
+article.post {
+  margin-top: 2rem;
+}
+
 .post-byline {
   color: color('gray-cool-60');
   display: inline-block;
 }
 
 .post-author {
-  color: $theme-color-secondary-dark;
+  @include u-color('secondary-dark');
   text-decoration: none;
 
   &:visited {
-    color: $theme-color-secondary-dark;
+    @include u-color('secondary-dark');
   }
 }
 

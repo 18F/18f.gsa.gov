@@ -7,8 +7,8 @@
   h3 {
     margin-top: 0.5em;
 
-    a {
-      color: $theme-color-base;
+    a, a:visited {
+      color: color('base-darker');
       text-decoration: none;
     }
 
