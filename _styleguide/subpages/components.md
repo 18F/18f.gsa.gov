@@ -98,9 +98,9 @@ The card component is used as a preview for project pages, but could be adapted 
 {% capture styleguide_card %}{% raw %}
 <div class="usa-grid-full">
   <section class="usa-flex usa-flex-wrap">
-    {% include card-project.html project='fec-gov' %}
-    {% include card-project.html project='hhs-states' %}
-    {% include card-project.html project='dhs-myuscis' %}
+    {% include card.html project='fec-gov' %}
+    {% include card.html project='hhs-states' %}
+    {% include card.html project='dhs-myuscis' %}
   </section>
 </div>
 {% endraw %}{% endcapture %}
