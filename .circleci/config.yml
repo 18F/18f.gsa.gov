@@ -1,4 +1,5 @@
-version: 2
+version: 2.1
+
 jobs:
   build:
     docker:
@@ -7,8 +8,32 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: dev
     steps:
       - checkout
-      - run: bundle install
+      - restore_cache:
+          keys:
+          # NOTE: remove space between { { here and in all below examples
+          - v1-dependencies-bundler-{ { checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-bundler-
+      - run: 
+          name: Bundle install dependencies
+          command: |
+            bundle config set path 'vendor/bundle'
+            bundle install --jobs=4 --retry=3
+      - save_cache:
+          paths:
+            - vendor/bundle
+          key: v1-dependencies-bundler-{ { checksum "Gemfile.lock" }}
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-npm-{ { checksum "package-lock.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-npm-
       - run: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-npm-{ { checksum "package-lock.json" }}
       - run: bundle exec jekyll build
       - run: npm run htmlproofer
       - run:

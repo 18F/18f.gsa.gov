@@ -23,7 +23,7 @@ Most of us serve 2-to-4-year terms with 18F, which means people leave and join t
 
 In creating this guide, we reflected on what the role of UX designer at 18F entails, what we choose to do in this role, and why.
 
-![Screenshot from a collaborative brainstorming session. Blue squares are responses contributed by 18F UX team members.]({{ site.baseurl }}/assets/blog/collaborative-brainstorming-session..png)
+![Screenshot from a collaborative brainstorming session. Blue squares are responses contributed by 18F UX team members.]({{ site.baseurl }}/assets/blog/collaborative-brainstorming-session.png)
 
 The resulting guide is a distillation of our perspectives on UX design in government—it documents effective approaches we’ve seen and describes how the 18F UX team works today and how we would like it to work in the future. The guide was developed collaboratively by our team and reflects the combined learnings, expertise, and contributions of many folks who have done UX work at 18F over the years.
 
