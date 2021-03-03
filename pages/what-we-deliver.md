@@ -52,15 +52,13 @@ gridless: true
   </section>
 </div>
 
-<section class="grid-container usa-section break-bottom-gray">
-  <section class="pad-right-left">
+<section class="usa-section grid-container">
     <div class="home-testimonial">
       18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.
       <span>
         - Christina Ho, Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury
       </span>
     </div>
-  </section>
 </section>
 
 <div class="usa-section bg-base-lightest">

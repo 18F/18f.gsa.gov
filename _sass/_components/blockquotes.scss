@@ -96,7 +96,7 @@ blockquote {
   margin: auto;
   font-style: italic;
   color: color('gray-cool-60');
-  padding: 1.2em 30px 1.2em 75px;
+  padding: 0 5.5rem;
   position: relative;
 
   @include at-media('tablet') {
@@ -105,26 +105,20 @@ blockquote {
 
   @include at-media('desktop-lg') {
     font-size: 28px;
+    line-height: 2rem;
   }
 
   ::before {
     content: '\201C';
     color: $theme-color-secondary-dark;
     position: absolute;
-    font-size: 5.45rem;
-    left: 30px;
-    top: 0;
-
-    @include at-media('tablet') {
-      font-size: 7.25rem;
-      left: 20px;
-      top: -5px;
-    }
+    font-size: 5.5rem;
+    left: 10px;
+    top: -10px;
 
     @include at-media('desktop-lg') {
-      font-size: 9rem;
       left: 10px;
-      top: -10px;
+      top: 30px;
     }
   }
 
