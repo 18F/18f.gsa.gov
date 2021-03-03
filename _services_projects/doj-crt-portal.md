@@ -32,7 +32,7 @@ As a result, CRT staff spent most of their time processing unactionable complain
     <span>- Daniel Yi, Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division</span>
 </div>
 
-<div class="small-caps">Approach</div>
+<div class="text-uppercase">Approach</div>
 ### Building a unified portal using human-centered design
 
 The CRT partnered with 18F and streamlined the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.

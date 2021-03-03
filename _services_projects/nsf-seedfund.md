@@ -31,7 +31,7 @@ Business Innovation Research (SBIR) and Small Business Technology
 Transfer (STTR) program — didn’t communicate the program’s purpose to
 the current market of tech entrepreneurs.
 
-<div class="small-caps">Approach</div>
+<div class="text-uppercase">Approach</div>
 ### Embrace testing and iteration to build what's right
 
 Together, 18F and the NSF team began prototyping a new website and brand
