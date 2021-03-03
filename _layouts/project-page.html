@@ -13,29 +13,31 @@ header_border: true
 
 <section class="page-tag-results">
 
-  <section class="bg-primary-darker usa-section">
+  <section class="bg-primary-darker usa-section padding-y-0">
     <div class="grid-container padding-x-0 usa-flex">
-      <div class="grid-container {% if page.image %}tablet:grid-col-6{% else %}padding-x-0{% endif %} hero-callout-full hero-callout-no_button">
-        {% if page.agency %}
-          <h1>
-          {{ page.agency }}
-          </h1>
+      <div class="grid-row">
+        <div class="{% if page.image %}tablet:grid-col-6 padding-4{% else %}padding-x-0{% endif %}">
+          {% if page.agency %}
+            <h1>
+            {{ page.agency }}
+            </h1>
+          {% endif %}
+          <h2>
+            {{ page.title }}
+          </h2>
+        </div>
+        {% if page.image %}
+          <div class="tablet:grid-col-6 usa-hero hero"
+            style="background-image: url({{ site.baseurl }}{{ page.image }});"
+            role="img"
+            title="{{ page.image_accessibility }}">
+          </div>
+        {% else %}
+          <div class="hero hero-img-collapsed" style="background-image: none">
+          </div>
         {% endif %}
-        <h2>
-          {{ page.title }}
-        </h2>
       </div>
-      {% if page.image %}
-        <div class="tablet:grid-col-6 usa-hero hero"
-          style="background-image: url({{ site.baseurl }}{{ page.image }});"
-          role="img"
-          title="{{ page.image_accessibility }}">
-        </div>
-      {% else %}
-        <div class="hero hero-img-collapsed" style="background-image: none">
-        </div>
-      {% endif %}
-    </div>
+      </div>
   </section>
 
   <div class="grid-container content-wide">
@@ -69,14 +71,14 @@ header_border: true
         {% if page.agency %}
         <li>
           <h5>Agency partner</h5>
-          <div class="content">{{ page.agency }}</div>
+          {{ page.agency }}
         </li>
         {% endif %}
 
         {% if page.project_url %}
         <li>
           <h5>See our work</div>
-          <div class="content">{{ page.project_url | markdownify }}</div>
+          {{ page.project_url | markdownify }}
         </li>
         {% endif %}
 

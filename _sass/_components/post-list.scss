@@ -12,6 +12,10 @@
       text-decoration: none;
     }
 
+    a:hover {
+      text-decoration: underline;
+    }
+
     + .post-byline {
       margin-top: 0;
     }
