@@ -5,19 +5,26 @@
 {% assign sub_parent_permalink = include.sub_parent_permalink | default: page.sub_parent_permalink %}
 
 {% assign page_agency = include.page_agency | default: page.agency %}
-{% assign background_class = include.background_class %}
-<section {% if background_class %}class="bg-base-lightest"{% endif %}>
-  <div class="breadcrumb grid-container">
-    <div class="grid-col">
-      <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a>
-      {% include svg/icons/arrow-right.svg %}
-      <a class="link-arrow-right" href="{{ site.baseurl }}{{ parent_permalink }}">{{ parent_title }}</a>
-      {% include svg/icons/arrow-right.svg %}
-      {% if sub_parent_title and sub_parent_permalink %}
-        <a class="link-arrow-right" href="{{ site.baseurl }}{{ sub_parent_permalink }}">{{ sub_parent_agency }}</a>
-        {% include svg/icons/arrow-right.svg %}
-      {% endif %}
-      <span class="link-arrow-right">{{ page_agency }}</span>
-    </div>
-  </div>
-</section>
+<div class="grid-container">
+<nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+  <ol class="usa-breadcrumb__list">
+    <li class="usa-breadcrumb__list-item">
+      <a href="{{ site.baseurl }}/" class="usa-breadcrumb__link">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="{{ site.baseurl }}{{ parent_permalink }}" class="usa-breadcrumb__link">
+        <span>{{ parent_title }}</span>
+      </a>
+    </li>
+    {% if sub_parent_title and sub_parent_permalink %}
+    <li class="usa-breadcrumb__list-item">
+      <a href="{{ site.baseurl }}{{ sub_parent_permalink }}" class="usa-breadcrumb__link">
+        <span>{{ sub_parent_agency }}</span>
+      </a>
+    </li>
+    {% endif %}
+  </ol>
+</nav>
+</div>

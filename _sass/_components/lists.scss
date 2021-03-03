@@ -26,3 +26,15 @@
   min-height: 54px;
   width: 100%;
 }
+
+
+// Project page lists
+
+.partner-info {
+  @include u-border-top(1);
+  @include u-border-top('accent-cool');
+
+  .content {
+    @include u-padding-y(2)
+  }
+}
