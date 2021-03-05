@@ -47,12 +47,6 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
         </li>
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-          </div>
-          <span>Typically $250,000</span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
           </div>
           <span>1 path analysis per project</span>
@@ -91,12 +85,6 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
         </li>
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-          </div>
-          <span>Typically $630,000 - $750,000</span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
           </div>
           <span>Flexible number of phases based on project needs</span>
@@ -130,12 +118,6 @@ We’ll start with a Path Analysis and move directly to an Experiment & Iterate 
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
         <span>20 weeks</span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Starting at $855,000</span>
       </li>
     </ul>
   </div>
@@ -171,12 +153,6 @@ Your contracting officer will conduct the procurement with guidance and coaching
   </div>
   <div class="tablet:grid-col-4">
     <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Starting at $869,000</span>
-      </li>
     </ul>
   </div>
 </div>
@@ -200,12 +176,6 @@ In each of our projects, our teams will work to build your agency’s capacity f
   </div>
   <div class="tablet:grid-col-4">
     <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Starting at $990,000</span>
-      </li>
     </ul>
   </div>
 </div>
