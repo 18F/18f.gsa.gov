@@ -3,6 +3,8 @@ title: Technical problems are not the hardest ones to solve
 date: March 4, 2021
 authors:
   - laura-gerhardt
+  - andrew-dunkman
+  - heather-battaglia
 tags:
   - join us
   - how we work
