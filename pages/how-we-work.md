@@ -180,5 +180,3 @@ In each of our projects, our teams will work to build your agency’s capacity f
   </div>
 </div>
 
-<div>Prices are current as of June 30, 2020
-</div>
