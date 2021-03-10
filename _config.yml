@@ -20,9 +20,6 @@ analytics:
     agency: GSA    # Change this to your agency
     subagency: TTS,18F # Change this to your agency
 
-# enable search bar
-search_site_handle: 18F-site
-
 # blog archive at /blog
 paginate: 5
 paginate_path: "blog/page/:num/"
@@ -185,3 +182,4 @@ sass:
     load_paths:
       - _sass
       - node_modules
+
