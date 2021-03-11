@@ -51,18 +51,16 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
   </div>
 </div>
 
-<div class="usa-grid usa-grid-line">
-  <hr/>
-</div>
-
-<div class="usa-section grid-container">
-  <h2>Sign up for the 18F newsletter</h2>
-  <div class="grid-row grid-gap">
-    <div class="padding-y-2 tablet:grid-col-6">
-      <p>Receive occasional updates about our work and news about the civic tech community.</p>
-    </div>
-  <div class="padding-y-2 tablet:grid-col-6">
-    <form
+<section class="usa-section bg-primary-dark">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-3">
+        <img src="{{ site.baseurl }}/assets/img/talk-bubble.svg" alt="talk bubble">
+      </div>
+      <div class="tablet:grid-col-9">
+      <h2>Sign up for the 18F newsletter</h2>
+        <p>Receive occasional updates about our work and news about the civic tech community.</p>
+        <form
       id="GD-snippet-form"
       action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8"
       method="post"
@@ -76,18 +74,19 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
           value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ=="
         >
           <div class="form-group">
-            <label for="email">Your email address</label>
+            <label for="email" class="text-white">Your email address</label>
             <div class="grid-row">
               <div class="grid-col-fill">
                 <input class="usa-input margin-0" type="text" name="email" id="email">
               </div>
               <div class="grid-col-fill">
-                <input class="usa-button margin-0 text-white" type="submit" name="commit" value="Sign up">
+                <input class="usa-button usa-button--secondary no-left-radius" type="submit" name="commit" value="Sign up">
               </div>
             </div>
           </div>
       </fieldset>
     </form>
+      </div>
+    </div>
   </div>
-  </div>
-</div>
+</section>

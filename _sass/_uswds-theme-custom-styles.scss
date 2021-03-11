@@ -43,7 +43,7 @@
 
 // -------------------------------------
 // page introduction and call to action
-section.usa-section.bg-primary-dark {
+.usa-section.bg-primary-dark {
   h1 {
       color: color('secondary');
   }
@@ -78,4 +78,12 @@ section.usa-section.bg-primary-dark {
   a {
     color: color('accent-cool');
   }
+}
+
+.no-left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  margin-top: 1px;
+  height: 38px;
 }
