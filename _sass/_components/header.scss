@@ -1,0 +1,50 @@
+.usa-header {
+  @if variable-exists(header-bg) {
+    background-color: color($header-bg);
+  }
+
+  .usa-logo {
+    a {
+      @if variable-exists(header-title) {
+        color: color($header-title);
+      }
+      align-items: center;
+      display: flex;
+    }
+
+    .usa-logo-img {
+      float: left;
+      height: units(3);
+      margin-right: units(1);
+
+      @include at-media($theme-header-min-width) {
+        margin-top: 0;
+        height: units(6);
+      }
+
+      & + .usa-logo__text {
+        float: left;
+      }
+    }
+  }
+
+  &.usa-header--extended .usa-logo-img {
+    @include at-media($theme-header-min-width) {
+      height: units(9);
+    }
+  }
+
+  .usa-nav__secondary-links {
+    a {
+      @if variable-exists(header-link) {
+        color: color($header-link);
+      }
+
+      &:hover {
+        @if variable-exists(header-link-hover) {
+          color: color($header-link-hover);
+        }
+      }
+    }
+  }
+}
