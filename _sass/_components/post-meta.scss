@@ -12,7 +12,7 @@
 }
 
 .post-byline {
-  color: color('gray-cool-60');
+  color: color('base-dark');
   display: inline-block;
 }
 
@@ -31,7 +31,7 @@
 
 // currently a bullet, which renders too large when at the same size as the font
 .post-meta-separator {
-  color: color('gray-cool-60');
+  color: color('base-dark');
   font-size: 0.8em;
 }
 
@@ -43,21 +43,21 @@
     @include u-margin('05');
 
     background-color: color('gray-cool-5');
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     display: inline-block;
-    font-size: $theme-h6-font-size;
+    font-size: font-size($theme-body-font-family, $theme-h6-font-size);
     line-height: 1;
     margin-bottom: 4px;
     text-decoration: none;
     text-transform: lowercase;
 
     &:hover {
-      background-color: $theme-color-base-lightest;
+      background-color: color('base-lightest');
     }
 
     &:hover,
     &:visited {
-      color: $theme-color-secondary-darker;
+      color: color('secondary-darker');
     }
   }
 }

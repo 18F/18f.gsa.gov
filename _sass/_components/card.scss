@@ -10,11 +10,11 @@
 
   h6 {
     font-weight: bold;
-    color: $theme-color-base-dark;
+    color: color('base-dark');
   }
 
   h3 {
-    color: $theme-color-primary-dark;
+    color: color('primary-dark');
   }
 
   .usa-card__footer {

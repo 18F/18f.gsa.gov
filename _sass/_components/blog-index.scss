@@ -12,7 +12,7 @@
 
 .sidebar {
   label {
-    font-size: $theme-h4-font-size;
+    font-size: font-size($theme-body-font-family, $theme-h4-font-size);
     font-weight: $theme-font-weight-bold;
   }
 
