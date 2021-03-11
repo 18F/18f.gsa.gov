@@ -13,6 +13,11 @@
     img {
       max-width: 6rem;
     }
+
+    .icon {
+      height: .65rem;
+      width: .65rem;
+    }
   }
 
   .graphic-row {
@@ -37,12 +42,17 @@
     @include media-link;
     text-decoration: none;
     width: 100%;
+    color: color('primary-dark');
+
+    &:hover {
+      color: color('accent-cool');
+    }
 
     &:visited {
       color: color('primary-dark');
-
+      
       &:hover {
-        color: color('primary-dark');
+        color: color('accent-cool');
       }
     }
   img {
