@@ -32,9 +32,10 @@
 // Fix hero area button:focus text contrast
 .bg-primary-dark .usa-button--secondary.usa-button {
   color: color('primary-dark');
+
   &:focus,
   &:hover {
-      color: color('base-lightest');
+    color: color('base-lightest');
   }
 }
 
@@ -66,7 +67,7 @@ section.usa-section.bg-primary-dark {
   border-bottom: 1rem solid $color-medium;
 }
 
-//footer 
+//footer
 .usa-footer {
 
   h4 {
