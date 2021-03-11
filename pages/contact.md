@@ -55,7 +55,7 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-3">
-        <img src="{{ site.baseurl }}/assets/img/talk-bubble.svg" alt="talk bubble">
+        <img src="{{ site.baseurl }}/assets/img/tablet-hand--c.svg" alt="talk bubble" class="square-card">
       </div>
       <div class="tablet:grid-col-9">
       <h2>Sign up for the 18F newsletter</h2>
