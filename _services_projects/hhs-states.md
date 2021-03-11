@@ -20,7 +20,7 @@ Health and Human Services (HHS) is a federal agency, but many crucial HHS progra
 
 HHS encourages states to upgrade legacy systems by offering funding incentives, but many states struggle to manage risk and build usable systems while navigating federal and state contracting rules. HHS hired 18F to step in and help states set these projects up for success through the technology acquisition process.
 
-<div class="small-caps">Approach</div>
+<div class="text-uppercase">Approach</div>
 ### Reducing risk by breaking up contracts
 
 In our first project with HHS, we helped California get on the right path to buying a new system for child welfare case management by facilitating a two-day workshop to break a monolithic contract into smaller pieces (along with colleagues from California’s Department of Social Services, the Office of Systems Integration, and Code for America).

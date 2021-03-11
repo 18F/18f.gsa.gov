@@ -13,29 +13,31 @@ header_border: true
 
 <section class="page-tag-results">
 
-  <section class="bg-primary-darker usa-section">
+  <section class="bg-primary-darker usa-section padding-y-0">
     <div class="grid-container padding-x-0 usa-flex">
-      <div class="grid-container {% if page.image %}tablet:grid-col-6{% else %}padding-x-0{% endif %} hero-callout-full hero-callout-no_button">
-        {% if page.agency %}
-          <h1>
-          {{ page.agency }}
-          </h1>
+      <div class="grid-row">
+        <div class="{% if page.image %}tablet:grid-col-6 padding-4{% else %}padding-x-0{% endif %}">
+          {% if page.agency %}
+            <h1>
+            {{ page.agency }}
+            </h1>
+          {% endif %}
+          <h2>
+            {{ page.title }}
+          </h2>
+        </div>
+        {% if page.image %}
+          <div class="tablet:grid-col-6 usa-hero hero"
+            style="background-image: url({{ site.baseurl }}{{ page.image }});"
+            role="img"
+            title="{{ page.image_accessibility }}">
+          </div>
+        {% else %}
+          <div class="hero hero-img-collapsed" style="background-image: none">
+          </div>
         {% endif %}
-        <h2>
-          {{ page.title }}
-        </h2>
       </div>
-      {% if page.image %}
-        <div class="tablet:grid-col-6 usa-hero hero"
-          style="background-image: url({{ site.baseurl }}{{ page.image }});"
-          role="img"
-          title="{{ page.image_accessibility }}">
-        </div>
-      {% else %}
-        <div class="hero hero-img-collapsed" style="background-image: none">
-        </div>
-      {% endif %}
-    </div>
+      </div>
   </section>
 
   <div class="grid-container content-wide">
@@ -50,13 +52,13 @@ header_border: true
   <div class="grid-row grid-gap">
     <div class="grid-container tablet:grid-col-8">
       <section class="usa-section page-tag-results-content">
-        <div class="small-caps small-caps-no-margin">Background</div>
+        <div class="text-uppercase">Background</div>
         <h3>{{ page.subtitle }}</h3>
         {{ content }}
       </section>
     </div>
-    <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4 section-info section-info-gray">
-      <ul>
+    <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4">
+      <ul class="usa-sidenav partner-info">
         {% if page.quote %}
           <blockquote>
             <p>&ldquo;{{ page.quote }}&rdquo;</p>
@@ -67,44 +69,44 @@ header_border: true
         {% endif %}
 
         {% if page.agency %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">Agency partner</div>
-          <div>{{ page.agency }}</div>
+        <li>
+          <h5>Agency partner</h5>
+          {{ page.agency }}
         </li>
         {% endif %}
 
         {% if page.project_url %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">See our work</div>
-          <div>{{ page.project_url | markdownify }}</div>
+        <li>
+          <h5>See our work</div>
+          {{ page.project_url | markdownify }}
         </li>
         {% endif %}
 
         {% if page.github_repo %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">See the code on GitHub</div>
-            <ul class="{% unless page.github_repo.size > 1 %}usa-unstyled-list{% endunless %}">
+        <li>
+          <h5>See the code on GitHub</h5>
+            <ul class="{% if page.github_repo.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for repo in page.github_repo %}
-              <li>{{ repo | markdownify }}</a></li>
+              <li class="usa-sidenav__item">{{ repo | markdownify }}</a></li>
             {% endfor %}
             </ul>
         </li>
         {% endif %}
 
         {% if page.product_clients.size > 0 %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">Agency partners</div>
-          <ul class="{% unless page.product_clients.size > 1 %}usa-unstyled-list{% endunless %}">
+        <li>
+          <h5>Agency partners</h5>
+          <ul class="{% if page.product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
           {% for client in page.product_clients %}
-            <li>{{ client }}</li>
+            <li class="usa-sidenav__item">{{ client }}</li>
           {% endfor %}
           </ul>
         </li>
         {% endif %}
 
         {% if page.start_date or page.expiration_date %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">When</div>
+        <li>
+          <h5>When</h5>
           <div>
           {% if page.start_date and page.expiration_date %}
             {{ page.start_date }} – {{ page.expiration_date }}
@@ -118,17 +120,17 @@ header_border: true
         {% endif %}
 
         {% if page.resources.size > 0 %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">Resources</div>
-          <ul class="{% unless page.resources.size > 1 %}usa-unstyled-list{% endunless %}">
+        <li>
+          <h5>Resources</h5>
+          <ul class="{% if page.resources.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for resource in page.resources %}
-              <li>{{ resource | markdownify }}</li>
+              <li class="usa-sidenav__item">{{ resource | markdownify }}</li>
             {% endfor %}
           </ul>
         {% endif %}
 
         {% if page.learn_more %}
-          <li class="section-info-list-item">
+          <li>
             <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
           </li>
         {% endif %}

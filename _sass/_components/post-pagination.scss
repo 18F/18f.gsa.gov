@@ -1,15 +1,11 @@
 // Post pagination
 // ==========================
 
-@mixin widget-small() {
-  @include u-padding-y(2);
-  border-bottom: 1px solid $theme-color-base-lightest;
-  border-top: 1px solid $theme-color-base-lightest;
-  font-weight: $theme-font-weight-bold;
-}
-
 .post-pagination {
-  @include widget-small;
+  @include u-padding-y(2);
+  @include u-border-top('base-lightest');
+  @include u-border-bottom('base-lightest');
+  font-weight: $theme-font-weight-bold;
 
   .grid-col-6 {
     &:last-child {

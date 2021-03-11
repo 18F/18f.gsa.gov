@@ -39,14 +39,14 @@
     width: 100%;
 
     &:visited {
-      color: $theme-color-secondary-dark;
+      color: color('primary-dark');
 
       &:hover {
-        color: $theme-color-secondary-darker;
+        color: color('primary-dark');
       }
     }
   img {
-      max-width: 6rem;
+    @include u-square(10);
     }
   }
 
@@ -54,6 +54,7 @@
 
   .link-arrow-right {
     margin-top: 1.5rem;
+    font-weight: bold;
   }
 
   .link-lean {

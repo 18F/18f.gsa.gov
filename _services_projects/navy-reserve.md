@@ -21,7 +21,7 @@ There are more than 50,000 people who serve part-time in the U.S. Navy Reserve, 
 
 Calling up reservists for duty can be difficult. Most have to travel to a duty station and use an official computer to check deployment orders or submit required paperwork rather than doing it from home. It’s inconvenient and time-consuming for reservists, and causes operational headaches for the military.
 
-<div class="small-caps">Approach</div>
+<div class="text-uppercase">Approach</div>
 ### Tying multiple legacy systems into a single user experience
 
 Reservists must log in to multiple systems to check their status and resolve any issues. The Navy Reserve wanted to have a single, unified user experience that pulled information from those systems together, but they weren’t sure if that was even possible. 18F built a working prototype in just a few hours to show that a unified system was indeed possible, and used that to get buy-in from stakeholders.

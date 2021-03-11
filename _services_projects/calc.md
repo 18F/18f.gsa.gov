@@ -23,7 +23,7 @@ The General Services Administration (GSA) plays a central role in helping the re
     <span>- Email from CALC user</span>
 </div>
 
-<div class="small-caps">Approach</div>
+<div class="text-uppercase">Approach</div>
 ### Stacked paper to searchable data
 
 When GSA asked 18F to help improve this process, we started by gathering the documents that contracting officers were using to conduct their research and extracting the data. Using that information, we built a searchable, interactive website called the Contract-Awarded Labor Category tool, or CALC for short. Now, anyone can search thousands of past government contracts for specific labor categories to find fair hourly rates. They can even refine their search by years of experience or education level.
