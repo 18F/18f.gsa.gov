@@ -20,7 +20,8 @@
   }
 }
 
-.list-images-item {
+li.list-images-item {
+  @include u-margin-bottom(2);
   align-items: center;
   display: inline-flex;
   min-height: 54px;

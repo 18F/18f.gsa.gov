@@ -15,7 +15,7 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="grid-container usa-section border-base-lighter border-bottom-1px padding-y-5">
+<div class="grid-container usa-section case-section">
   <section class="grid-row">
     <div class="tablet:grid-col-9">
       <p class="font-sans-lg">
@@ -29,7 +29,7 @@ gridless: true
 </div>
 
 <div class="grid-container">
-  <section class="usa-section border-base-lighter border-bottom-1px padding-y-5">
+  <section class="usa-section case-section">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">
@@ -61,7 +61,7 @@ gridless: true
     </div>
 </section>
 
-<div class="usa-section bg-base-lightest">
+<div class="usa-section bg-base-lightest padding-y-5">
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
