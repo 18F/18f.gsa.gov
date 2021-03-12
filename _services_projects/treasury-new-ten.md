@@ -31,7 +31,7 @@ introduction of the New Ten would have the desired impact — namely, that
 find the information they needed and include a clear call to action to
 encourage people to share their thoughts on the New Ten.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader">Approach</div>
 ### Crafting a comprehensive digital strategy
 
 Our team started by learning more about the project’s context and users.

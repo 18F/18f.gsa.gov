@@ -29,7 +29,7 @@ Their eligibility systems have performed well in the past, but the now outdated 
     <span>- Monica Windom, Director Division of Public Assistance, Health and Social Services, State of Alaska</span>
 </div>
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader">Approach</div>
 ### Finding the right vendors through modular contracting and an open process
 
 Building on the work we’re doing with other states, 18F is helping introduce modular contracting, agile software development, DevOps, and user-centered design to the State of Alaska’s eligibility system modernization project. 

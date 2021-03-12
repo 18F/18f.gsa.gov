@@ -26,7 +26,7 @@ data from all over the country as part of the Uniform Crime Reporting
 to create a digital tool that provides law enforcement and the general
 public with improved access to the UCR data.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader">Approach</div>
 ### Becoming a digital organization
 
 The UCR information has a huge potential audience including researchers,

@@ -30,7 +30,7 @@ build trust with users, help people clearly identify official websites,
 and make services easier to use — and saves the government time and
 money.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader">Approach</div>
 ### Create better experiences for the American public
 
 The U.S. Web Design System is a library of design components that

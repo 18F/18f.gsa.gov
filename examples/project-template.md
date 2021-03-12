@@ -41,7 +41,7 @@ Intro sentences or paragraphs about project.
 <div class="funfact-blockquote">
 	The day [platform] launched, [x-number]organizations were already using the data and API to enhance existing tools or build new products to better serve their customers.
 </div>
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader">Approach</div>
 ### Approach subtitle goes here
 
 Paragraphs or lists about what we did.
