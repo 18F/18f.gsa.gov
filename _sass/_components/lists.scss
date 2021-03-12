@@ -38,7 +38,7 @@
 .partner-info {
   @include u-border-top(1);
   @include u-border-top('accent-cool');
-  
+
   a {
     color: color('accent-cool');
     text-decoration: underline;

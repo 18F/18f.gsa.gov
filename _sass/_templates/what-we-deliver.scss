@@ -6,12 +6,6 @@
   @include u-border-bottom('1px');
 }
 
-.bg-accent-cool {
-  h3 {
-    color: color('white');
-  }
-}
-
 // Case Study page
 // ==========================
 .case-study-preheader {
@@ -27,6 +21,7 @@
 
 //Project page CTA
 .bg-accent-cool h3 {
+  color: color('white');
   letter-spacing: ls(1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
