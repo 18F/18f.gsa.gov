@@ -51,7 +51,7 @@
 
 // set color and size of bar underneath nav items.
 @mixin nav-border-basic {
-  @include add-bar(0.5, "accent-cool", "bottom", 0, 2, -0.5);
+  @include add-bar(0.5, "accent-cool", "bottom", 0, 3, -0.5);
 }
 
 // usa-header--basic
