@@ -46,6 +46,7 @@
 .usa-section.bg-primary-dark {
   h1 {
       color: color('secondary');
+      font-size: font-size('sans', '3xl');
   }
 
   h2, p {
@@ -54,6 +55,7 @@
 
   h2 {
     margin-top: .25em;
+    font-weight: normal;
   }
 
   p {
