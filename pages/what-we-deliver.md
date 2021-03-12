@@ -15,10 +15,10 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="grid-container usa-section break-bottom-gray">
+<div class="grid-container usa-section border-base-lighter border-bottom-1px padding-y-5">
   <section class="grid-row">
-    <div class="tablet:grid-col-8">
-      <p>
+    <div class="tablet:grid-col-9">
+      <p class="font-sans-lg">
         18F partners with federal agencies to improve the user experience of government 
         services by helping them build and buy technology. If you're looking to implement 
         a requirement, update a public-facing website, or digitize a process, 18F can work with 
@@ -29,7 +29,7 @@ gridless: true
 </div>
 
 <div class="grid-container">
-  <section class="usa-section break-bottom-gray">
+  <section class="usa-section border-base-lighter border-bottom-1px padding-y-5">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">

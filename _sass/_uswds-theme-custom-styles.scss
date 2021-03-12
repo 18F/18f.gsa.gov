@@ -29,6 +29,12 @@
 
 
 // -------------------------------------
+// Because the USWDS link token was incorrect about AA contrast
+a {
+  color: color('accent-cool');
+}
+
+// -------------------------------------
 // Fix hero area button:focus text contrast
 .bg-primary-dark .usa-button--secondary.usa-button {
   color: color('primary-dark');
@@ -75,10 +81,6 @@
   h4 {
     font-size: font-size($theme-font-role-heading, 'lg');
     margin-bottom: 1rem;
-  }
-
-  a {
-    color: color('accent-cool');
   }
 }
 
