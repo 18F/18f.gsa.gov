@@ -1,5 +1,9 @@
 .list-columns {
   @include unstyled-list();
+
+  li {
+    @include u-margin-bottom(2);
+  }
 }
 
 
@@ -20,8 +24,9 @@
   }
 }
 
-li.list-images-item {
-  @include u-margin-bottom(2);
+
+.list-images-item {
+  
   align-items: center;
   display: inline-flex;
   min-height: 54px;
