@@ -48,3 +48,37 @@
     }
   }
 }
+
+// set color and size of bar underneath nav items.
+@mixin nav-border-basic {
+  @include add-bar(0.5, "accent-cool", "bottom", 0, 2, -0.5);
+}
+
+// usa-header--basic
+// ---------------------------------
+
+.usa-header--basic {
+  @include at-media($theme-header-min-width) {
+    .usa-navbar {
+      position: relative;
+      width: $theme-header-logo-text-width; // TODO: review this more
+    }
+
+    .usa-nav {
+      @include u-flex("row", "align-center", "justify-end");
+      display: flex;
+      padding: 0 0 units(0.5) units(1);
+      width: 100%;
+    }
+
+    .usa-nav-container {
+      @include u-flex("align-end", "justify");
+      display: flex;
+    }
+
+    .usa-nav__primary-item > .usa-current,
+    .usa-nav__link:hover {
+      @include nav-border-basic;
+    }
+  }
+}
