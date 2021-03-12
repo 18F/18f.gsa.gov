@@ -82,3 +82,11 @@
     }
   }
 }
+
+  // The search <input>
+  [type="search"] {
+    min-width: 0; // Fix a Firefox display quirk
+    width: calc(
+        #{$theme-search-min-width} + #{units($theme-button-small-width)}
+    );
+  }
