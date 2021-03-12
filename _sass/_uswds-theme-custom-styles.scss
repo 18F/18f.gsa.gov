@@ -34,6 +34,7 @@
   color: color('primary-dark');
 
   &:focus,
+
   &:hover {
     color: color('base-lightest');
   }
@@ -43,13 +44,14 @@
 
 // -------------------------------------
 // page introduction and call to action
-section.usa-section.bg-primary-dark {
+.usa-section.bg-primary-dark {
   h1 {
-      color: color('secondary');
+    color: color('secondary');
   }
 
-  h2, p {
-      color: #FFF;
+  h2,
+  p {
+    color: #FFF;
   }
 
   h2 {
