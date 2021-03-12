@@ -43,7 +43,6 @@ blockquote {
   font-size: 1em;
   width: 100%;
   margin: 3.5rem auto;
-  font-style: italic;
   color: color('primary-dark');
   padding: 1.2em 30px 1.2em 75px;
   border-left: 8px solid $theme-color-secondary-dark;
@@ -90,49 +89,20 @@ blockquote {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
-.home-testimonial {
-  font-size: 23px;
-  width: 100%;
-  margin: auto;
-  font-style: italic;
-  color: color('base-dark');
-  padding: 0 5.5rem;
-  position: relative;
+.testimonial {
+  color: color('base-darker');
 
-  @include at-media('tablet') {
-    font-size: 25px;
-  }
-
-  @include at-media('desktop-lg') {
-    font-size: 28px;
+  .testimonial__body {
+    font-size: font-size('sans', 'lg');
     line-height: 2rem;
   }
 
-  ::before {
-    content: '\201C';
-    color: color('secondary-dark');
-    position: absolute;
-    font-size: 5.5rem;
-    left: 10px;
-    top: -10px;
+  .testimonial__attribution {
+    font-style: italic;
 
-    @include at-media('desktop-lg') {
-      left: 10px;
-      top: 30px;
+    span {
+      font-style:normal;
+      font-weight: bold;
     }
   }
-
-  ::after {
-    content: '';
-  }
-
-  span {
-    display: block;
-    color: color('secondary-dark');
-    font-style: normal;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 1em;
-  }
-
 }
