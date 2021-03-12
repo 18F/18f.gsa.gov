@@ -13,4 +13,23 @@
   }
 }
 
+// Case Study page
+// ==========================
+.case-study-preheader {
+  @include u-text('uppercase');
+  font-size: font-size('sans', '2xs');
+  @include u-margin-top(6);
+  font-weight: bold;
+}
+
+.case-study h3 {
+  @include u-margin-top('05');
+}
+
+//Project page CTA
+.bg-accent-cool h3 {
+  letter-spacing: ls(1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 

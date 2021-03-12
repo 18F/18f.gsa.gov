@@ -51,7 +51,7 @@ header_border: true
     %}
   <div class="grid-row grid-gap">
     <div class="grid-container tablet:grid-col-8">
-      <section class="usa-section page-tag-results-content">
+      <section class="usa-section page-tag-results-content case-study">
         <div class="case-study-preheader">Background</div>
         <h3>{{ page.subtitle }}</h3>
         {{ content }}
@@ -69,7 +69,7 @@ header_border: true
         {% endif %}
 
         {% if page.agency %}
-        <li>
+        <li class="agency-partner-name">
           <h5>Agency partner</h5>
           {{ page.agency }}
         </li>
@@ -87,7 +87,7 @@ header_border: true
           <h5>See the code on GitHub</h5>
             <ul class="{% if page.github_repo.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for repo in page.github_repo %}
-              <li class="usa-sidenav__item">{{ repo | markdownify }}</a></li>
+              <li>{{ repo | markdownify }}</a></li>
             {% endfor %}
             </ul>
         </li>
@@ -98,7 +98,7 @@ header_border: true
           <h5>Agency partners</h5>
           <ul class="{% if page.product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
           {% for client in page.product_clients %}
-            <li class="usa-sidenav__item">{{ client }}</li>
+            <li>{{ client }}</li>
           {% endfor %}
           </ul>
         </li>
@@ -124,7 +124,7 @@ header_border: true
           <h5>Resources</h5>
           <ul class="{% if page.resources.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for resource in page.resources %}
-              <li class="usa-sidenav__item">{{ resource | markdownify }}</li>
+              <li >{{ resource | markdownify }}</li>
             {% endfor %}
           </ul>
         {% endif %}

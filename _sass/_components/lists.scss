@@ -38,8 +38,28 @@
 .partner-info {
   @include u-border-top(1);
   @include u-border-top('accent-cool');
+  
+  a {
+    color: color('accent-cool');
+    text-decoration: underline;
+  }
+
+  .usa-sidenav__sublist a {
+    padding-left: 0;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: unset;
+      color: color('primary-dark');
+    }
+  }
 
   h5 {
-    @include u-padding-y(2);
+    @include u-padding-top(1);
+    @include u-padding-bottom(2);
+  }
+
+  .agency-partner-name {
+    line-height: 1.6rem;
   }
 }
