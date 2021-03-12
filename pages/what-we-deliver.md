@@ -28,8 +28,7 @@ gridless: true
   </section>
 </div>
 
-<div class="grid-container">
-  <section class="usa-section case-section">
+<section class="usa-section case-section grid-container">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">
@@ -49,23 +48,14 @@ gridless: true
         {% include svg/icons/arrow-right.svg %}
       </a>
     </p> {%- endcomment -%}
-  </section>
-</div>
-
-<section class="usa-section grid-container testimonial">
-  <div class="grid-row">
-    <div class="tablet:grid-col-8 testimonial__body">
-      "18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
-    </div>
-    <div class="tablet:grid-col-4 testimonial__attribution">
-    <img class="circle-10" src="/site/assets/img/logos/agencies/USDT.png" alt="/assets/img/logos/agencies/USDT.png logo">
-        <p>
-          <span>&mdash; Christina Ho</span><br>
-          Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury
-        </p>
-    </div>
-  </div>
 </section>
+
+{% include testimonial.html
+ quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
+ attribution="Christina Ho"
+ position="Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury"
+ agency_image="USDT.png"
+ %}
 
 <div class="usa-section bg-base-lightest padding-y-5">
   <section class="grid-container">

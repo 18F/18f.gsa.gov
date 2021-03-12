@@ -94,11 +94,13 @@ blockquote {
 
   .testimonial__body {
     font-size: font-size('sans', 'lg');
+    font-weight: 300;
     line-height: 2rem;
   }
 
   .testimonial__attribution {
     font-style: italic;
+    font-size: font-size('sans', 'xs');
 
     span {
       font-style:normal;

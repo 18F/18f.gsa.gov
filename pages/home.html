@@ -26,21 +26,14 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section grid-container testimonial">
-  <div class="grid-row">
-    <div class="tablet:grid-col-8 testimonial__body">
-      "We engaged with 18F, and it was a game-changer for us. They came in and
-      helped the IT team and business owners get involved in the agile
-      development process. It changed our whole methodology."
-    </div>
-    <div class="tablet:grid-col-4 testimonial__attribution">
-      <img class="circle-10" src="/site/assets/img/logos/agencies/fec.svg" alt="FEC logo">
-      <p><span>&#8212; Alec Palmer</span><br>
-      FEC’s Chief Information Officer
-      </p>
-    </div>
-  </section>
-</section>
+{% include testimonial.html
+  quote="We engaged with 18F, and it was a game-changer for us. They came in and
+  helped the IT team and business owners get involved in the agile
+  development process. It changed our whole methodology."
+  attribution="Alec Palmer"
+  position="FEC’s Chief Information Officer"
+  agency_image="fec.svg"
+  %}
 
 <section class="usa-section grid-container">
   <section class="grid-gap">
