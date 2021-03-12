@@ -24,9 +24,25 @@
 @import '_templates/what-we-deliver';
 
 // -------------------------------------
-// Because the USWDS link token was incorrect about AA contrast
+// Links and link arrows
 a {
   color: color('accent-cool');
+}
+
+.link-arrow-right {
+  margin-top: 1.5rem;
+  font-weight: bold;
+
+  .icon {
+    height: .65rem;
+    width: .65rem;
+  }
+}
+
+// -------------------------------------
+// USA Section padding
+.usa-section {
+  @include u-padding-y(5);
 }
 
 // -------------------------------------

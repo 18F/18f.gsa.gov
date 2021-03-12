@@ -144,10 +144,15 @@ header_border: true
   <div class="bg-base-lightest">
     <div class="usa-section post-border">
       <section class="grid-container posts_feature">
-        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
-          <h2>Related blog posts</h2>
+        <div class="{% if matching_posts.size > 3 %}grid-row grid-gap{% endif %}">
+          <div class="tablet:grid-col-8">
+            <h2>Related blog posts</h2>
+          </div>
           {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+          <div class="tablet:grid-col-4">
+            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+          </div>
+            
           {% endif %}
         </div>
         <ul class="grid-row grid-gap">

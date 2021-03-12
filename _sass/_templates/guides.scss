@@ -13,11 +13,6 @@
     img {
       max-width: 6rem;
     }
-
-    .icon {
-      height: .65rem;
-      width: .65rem;
-    }
   }
 
   .graphic-row {
@@ -58,13 +53,6 @@
   img {
     @include u-square(10);
     }
-  }
-
-
-
-  .link-arrow-right {
-    margin-top: 1.5rem;
-    font-weight: bold;
   }
 
   .link-lean {

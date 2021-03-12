@@ -4,7 +4,6 @@
 .usa-section.case-section {
   @include u-border-bottom('base-lighter');
   @include u-border-bottom('1px');
-  @include u-padding-y(5);
 }
 
 .bg-accent-cool {
