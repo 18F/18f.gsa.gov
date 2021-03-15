@@ -25,12 +25,12 @@
         </div>
         <a class="post-click-target" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
           {% if post.image.size > 0 %}
-          <div class="usa-width-one-third">
+          <div class="usa-width-one-third post-excerpt">
             <img src="{{ site.baseurl }}{{ post.image }}" alt="">
           </div>
           <div class="usa-width-two-thirds">
           {% else %}
-          <div class="usa-width-one-whole">
+          <div class="usa-width-one-whole post-excerpt">
           {% endif %}
             <p>{{ post.excerpt }}</p>
             <span class="usa-sr-only">Continue reading about {{ post.title }}</span>

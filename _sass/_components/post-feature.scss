@@ -42,25 +42,16 @@
 .post-date,
 time {
   font-weight: normal;
-  font-size: font-size($theme-body-font-family, $theme-h5-font-size);
+  font-size: font-size($theme-body-font-family, 'xs');
   color: color('base-dark');
   margin-bottom: 1em;
+  @include u-margin-top(2);
 }
 
 .post-byline {
   + .post-date,
   + time {
     white-space: nowrap;
-
-    &::before {
-      content: '\2022';
-      height: 1em;
-      width: 1em;
-      margin-right: 1rem;
-      @include u-margin-left(0.5); // to accommodate for adjoning p margin
-      color: color('base-dark');
-      font-size: 0.8em;
-    }
   }
 }
 

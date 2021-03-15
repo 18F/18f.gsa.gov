@@ -6,6 +6,7 @@
 
   h3 {
     margin-top: 0.5em;
+    font-size: font-size('sans', 'xl');
 
     a,
     a:visited {
@@ -18,12 +19,12 @@
     }
 
     + .post-byline {
-      margin-top: 0;
+      @include u-margin-top(1);
     }
   }
 
   li {
-    border-bottom: color('gray-cool-50');
+    border-bottom: 1px solid color('base-lightest');
     display: inline-block;
     margin-top: 3rem;
     padding-bottom: 3rem;
@@ -57,7 +58,11 @@
   &:hover:visited,
   &:hover:focus {
     text-decoration: none;
-    color: color('base-darker');
+    color: color('ink');
+  }
+
+  .grid-col-8 {
+    @include u-margin-top(4);
   }
 
   p {
