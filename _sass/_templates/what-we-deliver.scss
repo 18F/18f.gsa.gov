@@ -2,16 +2,16 @@
 // ==========================
 
 .usa-section.case-section {
-  @include u-border-bottom('base-lighter');
-  @include u-border-bottom('1px');
+  border-bottom: units('1px') solid color('base-lightest');
+  @include u-padding-y(5);
 }
 
 // Case Study page
 // ==========================
 .case-study-preheader {
+  color: color('base-dark');
   @include u-text('uppercase');
   font-size: font-size('sans', '2xs');
-  margin-top: units(6);
   font-weight: bold;
 }
 

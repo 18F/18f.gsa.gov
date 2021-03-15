@@ -36,16 +36,13 @@
 // Project page lists
 
 .partner-info {
-  @include u-border-top(1);
-  @include u-border-top('accent-cool');
-
   a {
     color: color('accent-cool');
     text-decoration: underline;
   }
 
   .usa-sidenav__sublist a {
-    padding-left: 0;
+    padding: units('05') 0;
     text-decoration: underline;
 
     &:hover {
@@ -55,7 +52,8 @@
   }
 
   h5 {
-    padding: units(1) 0 units(2);
+    padding-top: units(2);
+    padding-bottom: units(1);
   }
 
   .agency-partner-name {

@@ -9,9 +9,8 @@ lead: Let’s work together to improve the user experience of government.
 ---
 <div class="grid-container">
   <div class="grid-row grid-gap">
-    <div class="usa-section tablet:grid-col-8">
+    <div class="usa-section tablet:grid-col-8" markdown="1">
 
-<div markdown="1">
 ### Want to see if 18F can help your agency?
 Email our Business Development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
 
@@ -24,17 +23,14 @@ Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 ### Anything else?
 For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
 </div>
-
-    </div>
-
-    <aside class="usa-section tablet:grid-col-4 col-last">
-      <h4 class="sidebar-heading-border">Learn more about 18F</h4>
+ <aside class="usa-section tablet:grid-col-4 col-last">
+      <h4 class="thick-accent-border padding-top-1">Learn more about 18F</h4>
         <ul>
           <li><a href="{{ site.baseurl }}/what-we-deliver/">Past projects</a></li>
           <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
           <li><a href="{{ site.baseurl }}/about/#funding-and-agreements">How we're funded</a></li>
         </ul>
-        <h4 class="sidebar-heading-border">Follow 18F</h4>
+        <h4>Follow 18F</h4>
         <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
@@ -48,8 +44,10 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
           </li>
         </ul>
     </aside>
-  </div>
 </div>
+</div>
+
+
 
 <section class="usa-section bg-primary-dark">
   <div class="grid-container">
@@ -87,4 +85,3 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
       </form>
     </div>
   </div>
-</section>

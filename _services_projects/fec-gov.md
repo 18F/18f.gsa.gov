@@ -30,7 +30,7 @@ The FEC has published campaign finance data for decades, but their legacy websit
     <span>- Alec Palmer, FEC’s Chief Information Officer</span>
 </div>
 
-<div class="case-study-preheader">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Start small, learn together
 
 We started by working with the FEC to launch an API (application programming interface), which allows technical users (like journalists) to access data in a predictable way.
