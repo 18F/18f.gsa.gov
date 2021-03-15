@@ -26,7 +26,7 @@ _There’s no easier way to build, launch, and manage government sites_.
 
 Federalist is a publishing platform for modern government websites. In a matter of hours, you can publish a site that’s 21st Century IDEA Act and 508-compliant, has been given an Authority to Operate (ATO), and hosted on secure, FedRAMP-authorized infrastructure in the cloud.
 
-<div class="case-study-preheader">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Manage your design, content, and data in one place
 
 Federalist can get you started quickly and as your needs change, Federalist can grow with you. When you get started, you will have a modern design that includes a blog, customizable pages, a search interface, built-in site analytics, and the ability to host and view data visualizations on a single platform. 
