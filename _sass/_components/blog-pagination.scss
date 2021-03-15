@@ -3,7 +3,7 @@
 
 .pagination {
   color: color('base-dark');
-  font-size: font-size($theme-body-font-family, $theme-h5-font-size);
+  font-size: font-size($theme-body-font-family, 'sm');
   margin-top: 2rem;
 
   > div {
