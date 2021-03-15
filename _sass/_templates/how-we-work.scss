@@ -2,8 +2,7 @@
 // ==========================
 
   .graphic-list {
-    @include u-border-top(1);
-    @include u-border-top('accent-cool');
+    border-top: units(1) solid color('accent-cool');
 
     list-style: none;
     margin-top: 3rem;
