@@ -40,6 +40,7 @@ a {
   color: color('primary-dark');
 
   &:focus,
+
   &:hover {
     color: color('base-lightest');
   }
@@ -55,8 +56,9 @@ a {
     font-size: font-size('sans', '3xl');
   }
 
-  h2, p {
-      color: #FFF;
+  h2,
+  p {
+    color: #fff;
   }
 
   h2 {
@@ -84,10 +86,15 @@ a {
   }
 }
 
+
 .no-left-radius {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   margin-left: -1px;
   margin-top: 1px;
   height: 38px;
+}
+  a {
+    color: color('accent-cool');
+  }
 }
