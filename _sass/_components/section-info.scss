@@ -26,7 +26,7 @@
     }
 
     ul:not(.usa-unstyled-list) {
-      @include u-margin-top(0.5);
+      margin-top: units('0.5');
 
       li {
         list-style-type: disc;

@@ -42,7 +42,7 @@ a {
 // -------------------------------------
 // USA Section padding
 .usa-section {
-  @include u-padding-y(5);
+  padding: units(5);
 }
 
 // -------------------------------------

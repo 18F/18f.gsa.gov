@@ -37,11 +37,11 @@
 
 .post-tags {
   display: block;
-  @include u-margin-top(2);
+  margin-top: units(2);
 
   a {
-    @include u-padding(1);
-    @include u-margin('05');
+    padding: units(2);
+    margin: units('05');
 
     background-color: color('gray-cool-5');
     color: color('secondary-dark');
@@ -68,5 +68,5 @@
 }
 
 .post-excerpt {
-  @include u-margin-top(4);
+  margin-top: units(4);
 }

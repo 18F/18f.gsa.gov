@@ -2,7 +2,7 @@
 // ==========================
 
 .post-pagination {
-  @include u-padding-y(2);
+  padding: units(2) 0;
   @include u-border-top('base-lightest');
   @include u-border-bottom('base-lightest');
   font-weight: $theme-font-weight-bold;

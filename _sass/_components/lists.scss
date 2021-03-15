@@ -2,7 +2,7 @@
   @include unstyled-list();
 
   li {
-    @include u-margin-bottom(2);
+    margin-bottom: units(2);
   }
 }
 
@@ -20,7 +20,7 @@
   }
 
   .list-images-image {
-    @include u-margin-right('105');
+    margin-right: units('105');
   }
 }
 
@@ -55,8 +55,7 @@
   }
 
   h5 {
-    @include u-padding-top(1);
-    @include u-padding-bottom(2);
+    padding: units(1) 0 units(2);
   }
 
   .agency-partner-name {

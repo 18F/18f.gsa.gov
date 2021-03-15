@@ -20,7 +20,7 @@
     }
 
     + .post-byline {
-      @include u-margin-top(1);
+      margin-top: units(1);
     }
   }
 
@@ -61,11 +61,7 @@
     text-decoration: none;
     color: color('ink');
   }
-
-  .grid-col-8 {
-    @include u-margin-top(4);
-  }
-
+  
   p {
     text-decoration: none;
   }

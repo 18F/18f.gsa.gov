@@ -11,12 +11,12 @@
 .case-study-preheader {
   @include u-text('uppercase');
   font-size: font-size('sans', '2xs');
-  @include u-margin-top(6);
+  margin-top: units(6);
   font-weight: bold;
 }
 
 .case-study h3 {
-  @include u-margin-top('05');
+  margin-top: units('05');
 }
 
 //Project page CTA
