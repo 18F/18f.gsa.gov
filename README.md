@@ -67,6 +67,10 @@ Per this, there are generally two main scss files:
 
 * **`_sass/_styleguide`** is a directory of stylesheets specifically for the `/styleguide` portion of the site.
 
+### Adding testimonials
+
+Testimonials can be added as a compontent as long as an agency logo is place in the `assets/img/agencies` directory.
+
 ## Deployment
 
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
@@ -88,8 +92,7 @@ Plugin gem | Description
 [`jekyll-redirect-from`](https://github.com/jekyll/jekyll-redirect-from) | enables redirecting from pages that are no longer active.
 [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) | adds metadata tags for search engines and social networks.
 [`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap) | generates a sitemap at [`/sitemap.xml`](https://18f.gsa.gov/sitemap.xml). This makes it easier for search engines to find us.
-[`jekyll_frontmatter_tests`](https://github.com/18F/jekyll_frontmatter_tests) | tests to see if the correct front matter (meta data) is present on pages throughout our website.
-[`jekyll_oembed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses [OEmbed](https://github.com/ruby-oembed/ruby-oembed)
+[`embed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses OEmbed
 
 ## History
 

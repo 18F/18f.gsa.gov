@@ -1,13 +1,9 @@
 // What we deliver page
 // ==========================
 
-.page-what-we-deliver {
-  .main-content {
-    img {
-      width: 8rem;
-      margin-bottom: $theme-site-margins-width;
-    }
-  }
+.usa-section.case-section {
+  border-bottom: units('1px') solid color('base-lightest');
+  @include u-padding-y(5);
 }
 
 .bg-accent-cool {
@@ -15,3 +11,5 @@
     color: color('white');
   }
 }
+
+

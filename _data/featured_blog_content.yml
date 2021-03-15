@@ -1,0 +1,22 @@
+topics:
+  - topic: Acquisition Services
+    tag: acquisition-services
+  - topic: Agile
+    tag: agile
+  - topic: Culture change
+    tag: culture-change
+  - topic: How we work
+    tag: how-we-work
+  - topic: Lessons Learned
+    tag: lessons-learned
+promoted_posts:
+  - title: 18F and TTS Office of Acquisition award first assisted acquisition
+    url: /2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/
+  - title: A dashboard for privacy offices
+    url: /2020/12/15/a-dashboard-for-privacy-offices/
+  - title: Introducing the U.S. Web Design Standards
+    url: /2015/09/28/web-design-standards/
+  - title: An agile software development solicitation guide
+    url: /2019/08/20/an-agile-software-development-solicitation-guide/
+  - title: 18F’s best practices for making distributed teams work
+    url: /2015/10/15/best-practices-for-distributed-teams/

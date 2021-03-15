@@ -1,5 +1,9 @@
 .list-columns {
   @include unstyled-list();
+
+  li {
+    @include u-margin-bottom(2);
+  }
 }
 
 
@@ -20,6 +24,7 @@
   }
 }
 
+
 .list-images-item {
   align-items: center;
   display: inline-flex;
@@ -30,11 +35,6 @@
 
 // Project page lists
 
-.partner-info {
-  @include u-border-top(1);
-  @include u-border-top('accent-cool');
-
-  h5 {
+.partner-info h5 {
     @include u-padding-y(2);
-  }
 }

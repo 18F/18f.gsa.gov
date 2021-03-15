@@ -46,54 +46,26 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
         </div>
       </section>
     </div>
-
+    {% assign featured_blog_content = site.data.featured_blog_content %}
     <aside class="sidebar tablet:grid-col-4">
       <h4 class="sidebar-heading-topic">Browse by topic</h4>
       <ul>
+        {% for item in featured_blog_content.topics %}
         <li>
-          <a href="{{ site.baseurl }}/tags/acquisition-services">Acquisition Services</a>
+          <a href="{{ site.baseurl }}/tags/{{ item.tag }}">{{ item.topic }}</a>
         </li>
-        <li>
-          <a href="{{ site.baseurl }}/tags/agile">Agile</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/tags/culture-change">Culture change</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/tags/how-we-work">How we work</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/tags/lessons-learned">Lessons Learned</a>
-        </li>
+        {% endfor %}
       </ul>
       <div class="sidebar-callout">
         <h4>Most popular</h4>
         <ul>
+          {% for item in featured_blog_content.promoted_posts %}
           <li>
-            <a href="{{ site.baseurl }}/2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/">
-              18F and TTS Office of Acquisition award first assisted acquisition
+            <a href="{{ site.baseurl }}{{ item.url }}">
+              {{ item.title }}
             </a>
           </li>
-          <li>
-            <a href="{{ site.baseurl }}/2020/12/15/a-dashboard-for-privacy-offices/">
-              A dashboard for privacy offices
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/2015/09/28/web-design-standards/">
-              Introducing the U.S. Web Design Standards
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/2019/08/20/an-agile-software-development-solicitation-guide/">
-              An agile software development solicitation guide
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/2015/10/15/best-practices-for-distributed-teams/">
-              18F’s best practices for making distributed teams work
-            </a>
-          </li>
+          {% endfor %}
         </ul>
       </div>
       <a class="sidebar-icons media_link" href="{{ "/feed.xml" | prepend: site.baseurl }}">

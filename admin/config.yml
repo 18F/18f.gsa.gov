@@ -7,6 +7,20 @@ backend:
   branch: main
   use_graphql: true
 
+##
+## Uncomment when doing local development on Netlify CMS
+## Run `npx netlify-cms-proxy-server` to start working locally
+## In another terminal, start the app with `npm start`
+## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+##
+
+# backend:
+#   name: git-gateway
+# local_backend: true
+
+##
+##
+
 media_folder: assets/blog
 public_folder: /assets/blog
 publish_mode: editorial_workflow
@@ -257,3 +271,23 @@ collections:
           name: "body",
           widget: "markdown"
         }
+  - label: Promoted content
+    name: promotedcontent
+    preview: false
+    files:
+      - label: Promoted content
+        name: promoted_conent
+        file: "_data/featured_blog_content.yml"
+        fields:
+          - label: "Topics"
+            name: "topics"
+            widget: "list"
+            fields: 
+              - {label: "Topics", name: "topic", widget: "string"}
+              - {label: "Tag", name: "tag", widget: "string"}
+          - label: "Posts"
+            name: "promoted_posts"
+            widget: "list"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
