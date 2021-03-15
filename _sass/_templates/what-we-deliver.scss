@@ -2,8 +2,7 @@
 // ==========================
 
 .usa-section.case-section {
-  @include u-border-bottom('base-lighter');
-  @include u-border-bottom('1px');
+  border-bottom: units('1px') solid color('base-lightest');
   @include u-padding-y(5);
 }
 
