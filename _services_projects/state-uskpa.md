@@ -25,7 +25,7 @@ The platform needed an overhaul to ensure it could continue to meet the needs of
 
 In need of direction and a solution that fit its budget, the State Department reached out to 18F to evaluate the system through a Path Analysis.
 
-<div class="case-study-preheader">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Working efficiently with our partners to stay within budget
 
 18F’s two-person team began the Path Analysis, exploring the USKPA data, user interface, and website. During the first round of interviews and demonstrations, the team members identified the problem statement and path forward. Feeling confident in the initial findings, they presented a detailed, prioritized, three-tiered product vision for the replacement solution. The team leveraged its technical expertise and innate understanding of the federal landscape to readily identify the partner’s needs.

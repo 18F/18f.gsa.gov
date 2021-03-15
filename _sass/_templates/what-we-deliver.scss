@@ -9,9 +9,9 @@
 // Case Study page
 // ==========================
 .case-study-preheader {
+  color: color('base-dark');
   @include u-text('uppercase');
   font-size: font-size('sans', '2xs');
-  @include u-margin-top(6);
   font-weight: bold;
 }
 

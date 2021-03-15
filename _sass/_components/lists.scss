@@ -42,7 +42,7 @@
   }
 
   .usa-sidenav__sublist a {
-    padding-left: 0;
+    padding: units('05') 0;
     text-decoration: underline;
 
     &:hover {
@@ -52,8 +52,8 @@
   }
 
   h5 {
-    @include u-padding-top(1);
-    @include u-padding-bottom(2);
+    padding-top: units(2);
+    padding-bottom: units(1);
   }
 
   .agency-partner-name {

@@ -31,7 +31,7 @@ because of the administrative burden of securing many government
 contracts. But there happens to be an existing option that makes very
 small purchases much easier.
 
-<div class="case-study-preheader">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Leveraging the micro-purchase authority
 
 18F, like other government organizations, is able to buy items under
