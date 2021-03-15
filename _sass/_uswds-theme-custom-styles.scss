@@ -30,19 +30,28 @@
 
 // -------------------------------------
 // Fix hero area button:focus text contrast
-.bg-primary-dark .usa-button-secondary.usa-button:focus {
-  color: $theme-color-base-lightest;
+.bg-primary-dark .usa-button--secondary.usa-button {
+  color: color('primary-dark');
+
+  &:focus,
+
+  &:hover {
+    color: color('base-lightest');
+  }
 }
+
+
 
 // -------------------------------------
 // page introduction and call to action
-section.usa-section.bg-primary-darker {
+.usa-section.bg-primary-dark {
   h1 {
-      color: $theme-color-secondary;
+    color: color('secondary');
   }
 
-  h2, p {
-      color: #FFF;
+  h2,
+  p {
+    color: #fff;
   }
 
   h2 {
@@ -50,7 +59,7 @@ section.usa-section.bg-primary-darker {
   }
 
   p {
-    font-size: $theme-h3-font-size;
+    font-size: font-size($theme-body-font-family, $theme-h3-font-size);
   }
 
 }
@@ -58,4 +67,17 @@ section.usa-section.bg-primary-darker {
 // special case for border on hww page
 .section-case-studies {
   border-bottom: 1rem solid $color-medium;
+}
+
+//footer
+.usa-footer {
+
+  h4 {
+    font-size: font-size($theme-font-role-heading, 'lg');
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: color('accent-cool');
+  }
 }

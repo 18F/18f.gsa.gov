@@ -44,7 +44,7 @@ blockquote {
   width: 100%;
   margin: 3.5rem auto;
   font-style: italic;
-  color: $theme-color-primary-dark;
+  color: color('primary-dark');
   padding: 1.2em 30px 1.2em 75px;
   border-left: 8px solid $theme-color-secondary-dark;
   position: relative;
@@ -52,7 +52,7 @@ blockquote {
 
   ::before {
     content: '\201C';
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     font-size: 4em;
     position: absolute;
     left: 10px;
@@ -65,7 +65,7 @@ blockquote {
 
   span {
     display: block;
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     font-style: normal;
     font-weight: bold;
     margin-top: 1em;
@@ -79,7 +79,7 @@ blockquote {
   width: 100%;
   margin: 3.5rem auto;
   font-style: italic;
-  color: $theme-color-primary-dark;
+  color: color('primary-dark');
   padding: 1.2em 30px;
   border-left: 8px solid $theme-color-secondary-dark;
   position: relative;
@@ -95,7 +95,7 @@ blockquote {
   width: 100%;
   margin: auto;
   font-style: italic;
-  color: color('gray-cool-60');
+  color: color('base-dark');
   padding: 0 5.5rem;
   position: relative;
 
@@ -110,7 +110,7 @@ blockquote {
 
   ::before {
     content: '\201C';
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     position: absolute;
     font-size: 5.5rem;
     left: 10px;
@@ -128,7 +128,7 @@ blockquote {
 
   span {
     display: block;
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     font-style: normal;
     font-size: 20px;
     font-weight: bold;

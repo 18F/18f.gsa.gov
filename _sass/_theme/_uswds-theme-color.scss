@@ -23,10 +23,10 @@ Theme palette colors
 ----------------------------------------
 */
 //18F Palette Colors
-$color-bright-light: #B3EFFF;
-$color-bright: #00CFFF;
-$color-medium: #046B99;
-$color-dark: #1C304A;
+$color-bright-light: #b3efff;
+$color-bright: #00cfff;
+$color-medium: #046b99;
+$color-dark: #1c304a;
 $color-medium-hover: #00547a;
 
 // Base colors
@@ -48,7 +48,7 @@ $theme-color-primary-light: 'blue-30';
 $theme-color-primary: 'blue-60v';
 $theme-color-primary-vivid: 'blue-warm-60v';
 $theme-color-primary-dark: $color-dark;
-$theme-color-primary-darker: 'blue-warm-80v';
+$theme-color-primary-darker: $color-dark;
 $theme-color-primary-darkest: false;
 
 // Secondary colors
@@ -77,7 +77,7 @@ $theme-color-accent-cool-family: 'blue-cool';
 $theme-color-accent-cool-lightest: false;
 $theme-color-accent-cool-lighter: 'blue-cool-5v';
 $theme-color-accent-cool-light: 'blue-cool-20v';
-$theme-color-accent-cool: $color-medium;;
+$theme-color-accent-cool: $color-medium;
 $theme-color-accent-cool-dark: 'blue-cool-40v';
 $theme-color-accent-cool-darker: 'blue-cool-60v';
 $theme-color-accent-cool-darkest: false;

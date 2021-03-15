@@ -8,7 +8,7 @@
 
     > ul:first-of-type {
       border-top: $theme-color-secondary;;
-      border-color: $theme-color-secondary-dark;
+      border-color: color('secondary-dark');
     }
   }
 

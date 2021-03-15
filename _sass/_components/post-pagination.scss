@@ -17,15 +17,15 @@
   }
 
   a {
-    color: $theme-color-secondary-dark;
+    color: color('secondary-dark');
     text-decoration: none;
 
     &:hover {
-      color: $theme-color-secondary-darker;
+      color: color('secondary-darker');
     }
 
     h5 {
-      color: $theme-color-base;
+      color: color('base');
       margin-top: 1rem;
     }
   }

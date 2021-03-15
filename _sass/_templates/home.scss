@@ -7,10 +7,10 @@
     margin-top: 5rem;
 
     &:visited {
-      color: $theme-color-secondary;
+      color: color('secondary');
 
       &:hover {
-        color: $theme-color-secondary-darker;
+        color: color('secondary-darker');
       }
     }
   }
