@@ -54,7 +54,7 @@ gridless: true
  quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
  attribution="Christina Ho"
  position="Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury"
- agency_image="USDT.png"
+ agency_image="treasury.svg"
  %}
 
 <div class="usa-section bg-base-lightest padding-y-5">
