@@ -49,9 +49,10 @@
   }
 }
 
-// set color and size of bar underneath nav items.
+// set color and size of bar underneath nav items
+// add-bar(weight, color, side, length, offset-x)
 @mixin nav-border-basic {
-  @include add-bar(0.5, "accent-cool", "bottom", 0, 3, -0.5);
+  @include add-bar(0.5, "accent-cool", "bottom", 0, 2, -0.5);
 }
 
 // usa-header--basic
@@ -67,7 +68,7 @@
     .usa-nav {
       @include u-flex("row", "align-center", "justify-end");
       display: flex;
-      padding: 0 0 units(0.5) units(1);
+      padding: 0 0 units(2) units(1);
       width: 100%;
     }
 
