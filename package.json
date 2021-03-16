@@ -43,6 +43,6 @@
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.6.0",
     "netlify-cms": "^2.10.99",
-    "uswds": "^2.9.0"
+    "uswds": "^2.10.3"
   }
 }
