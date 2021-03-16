@@ -3,9 +3,14 @@
 
 .post-pagination {
   padding: units(2) 0;
-  @include u-border-top('base-lightest');
-  @include u-border-bottom('base-lightest');
+  @include u-border-y('base-lightest');
+  @include u-border-y('1px');
   font-weight: $theme-font-weight-bold;
+
+  .link-arrow-left.icon {
+    height: .75rem;
+    width: .75rem;
+  }
 
   .grid-col-6 {
     &:last-child {

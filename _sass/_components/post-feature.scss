@@ -10,6 +10,10 @@
     margin-bottom: $theme-site-margins-width;
     padding-top: 1rem;
 
+    .post-date {
+      margin-top: 0;
+    }
+
     @include at-media('tablet') {
       margin-bottom: 0;
     }
