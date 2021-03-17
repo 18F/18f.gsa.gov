@@ -13,3 +13,12 @@
     background-image: url('../img/page-feature/hire-us.jpg');
   }
 }
+
+.page-join-18f,
+.page-contact {
+  .post-feature_image {
+    @include at-media('tablet') {
+      background-position: center 7%;
+    }
+  }
+}

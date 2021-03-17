@@ -7,6 +7,14 @@
   @include u-font('sans', 'xs');
 }
 
+.post-feature_image {
+  background-position: center;
+  background-size: cover;
+  height: units('card-lg');
+  margin: 0;
+  position: relative;
+}
+
 .post {
   margin-top: 2rem;
 }
@@ -69,4 +77,37 @@
 
 .post-excerpt {
   margin-top: units(4);
+}
+
+// Post pagination
+// ==========================
+
+.post-pagination {
+  padding: units(2) 0;
+  @include u-border-y('base-lightest');
+  @include u-border-y('1px');
+  font-weight: $theme-font-weight-bold;
+
+  .grid-col-6 {
+    &:last-child {
+      @include at-media('tablet') {
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+  }
+
+  a {
+    color: color('secondary-dark');
+    text-decoration: none;
+
+    &:hover {
+      color: color('secondary-darker');
+    }
+
+    h5 {
+      color: color('base');
+      margin-top: 1rem;
+    }
+  }
 }
