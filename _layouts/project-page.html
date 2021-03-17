@@ -77,15 +77,17 @@ header_border: true
 
         {% if page.project_url %}
         <li>
-          <h5>See our work</div>
-          {{ page.project_url | markdownify }}
+          <h5>See our work</h5>
+          <ul class="usa-sidenav__sublist">
+            <li> {{ page.project_url | markdownify }} </li>
+          </ul>
         </li>
         {% endif %}
 
         {% if page.github_repo %}
         <li>
           <h5>See the code on GitHub</h5>
-            <ul class="{% if page.github_repo.size > 1 %}usa-sidenav__sublist{% endif %}">
+            <ul class="usa-sidenav__sublist">
             {% for repo in page.github_repo %}
               <li>{{ repo | markdownify }}</a></li>
             {% endfor %}
@@ -152,7 +154,7 @@ header_border: true
           <div class="tablet:grid-col-4">
             <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
           </div>
-            
+
           {% endif %}
         </div>
         <ul class="grid-row grid-gap">
