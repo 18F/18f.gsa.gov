@@ -13,8 +13,7 @@ tag: civil rights
 expiration_date:
 github_repo:
   - "[Project respository](https://github.com/18F/civil-rights-complaints)"
-project_url: 
-  - "[civilrights.justice.gov](https://civilrights.justice.gov/)"
+project_url: "[civilrights.justice.gov](https://civilrights.justice.gov/)"
 learn_more:
 product_clients:
 resources:
@@ -32,7 +31,7 @@ As a result, CRT staff spent most of their time processing unactionable complain
     <span>- Daniel Yi, Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division</span>
 </div>
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Building a unified portal using human-centered design
 
 The CRT partnered with 18F and streamlined the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.

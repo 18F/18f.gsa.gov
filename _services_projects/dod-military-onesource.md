@@ -30,7 +30,7 @@ mobile users. Updating Military OneSource meant undertaking a big
 procurement, and the Military Community and Family Policy group wanted
 to reduce costs and lower the risk of delays.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Demonstrating that agile acquisition practices can reduce risk, save money, and deliver great outcomes
 
 18F and the Military Community and Family Policy group held a two-day

@@ -8,7 +8,7 @@ default: post.url %} {% assign hide_date = include.hide_date | default: false %}
     {% if hide_date == true %}
     <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
     {% endif %}
-    <h3 class="h4 posts_feature-heading">
+    <h3 class="posts_feature-heading">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"
         >{{ post_title }}</a
       >

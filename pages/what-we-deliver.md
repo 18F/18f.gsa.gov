@@ -57,7 +57,7 @@ gridless: true
  agency_image="treasury.svg"
  %}
 
-<div class="usa-section bg-base-lightest padding-y-5">
+<div class="usa-section bg-base-lightest">
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}

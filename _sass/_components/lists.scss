@@ -35,6 +35,28 @@
 
 // Project page lists
 
-.partner-info h5 {
-    @include u-padding-y(2);
+.partner-info {
+  a {
+    color: color('accent-cool');
+    text-decoration: underline;
+  }
+
+  .usa-sidenav__sublist a {
+    padding: units('05') 0;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: unset;
+      color: color('primary-dark');
+    }
+  }
+
+  h5 {
+    padding-top: units(2);
+    padding-bottom: units(1);
+  }
+
+  .agency-partner-name {
+    line-height: 1.6rem;
+  }
 }

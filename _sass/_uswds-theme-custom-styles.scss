@@ -23,15 +23,26 @@
 @import '_templates/how-we-work';
 @import '_templates/what-we-deliver';
 
-//18F styleguide
-// ===========================
-@import '_styleguide/all';
-
-
 // -------------------------------------
-// Because the USWDS link token was incorrect about AA contrast
+// Links and link arrows
 a {
   color: color('accent-cool');
+}
+
+.link-arrow-right {
+  margin-top: 1.5rem;
+  font-weight: bold;
+
+  .icon {
+    height: .65rem;
+    width: .65rem;
+  }
+}
+
+// -------------------------------------
+// USA Section padding
+.usa-section {
+  @include u-padding-y(5);
 }
 
 // -------------------------------------

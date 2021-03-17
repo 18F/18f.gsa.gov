@@ -51,8 +51,8 @@ header_border: true
     %}
   <div class="grid-row grid-gap">
     <div class="grid-container tablet:grid-col-8">
-      <section class="usa-section page-tag-results-content">
-        <div class="text-uppercase">Background</div>
+      <section class="usa-section page-tag-results-content case-study">
+        <div class="case-study-preheader">Background</div>
         <h3>{{ page.subtitle }}</h3>
         {{ content }}
       </section>
@@ -69,7 +69,7 @@ header_border: true
         {% endif %}
 
         {% if page.agency %}
-        <li>
+        <li class="agency-partner-name">
           <h5>Agency partner</h5>
           {{ page.agency }}
         </li>
@@ -77,17 +77,19 @@ header_border: true
 
         {% if page.project_url %}
         <li>
-          <h5>See our work</div>
-          {{ page.project_url | markdownify }}
+          <h5>See our work</h5>
+          <ul class="usa-sidenav__sublist">
+            <li> {{ page.project_url | markdownify }} </li>
+          </ul>
         </li>
         {% endif %}
 
         {% if page.github_repo %}
         <li>
           <h5>See the code on GitHub</h5>
-            <ul class="{% if page.github_repo.size > 1 %}usa-sidenav__sublist{% endif %}">
+            <ul class="usa-sidenav__sublist">
             {% for repo in page.github_repo %}
-              <li class="usa-sidenav__item">{{ repo | markdownify }}</a></li>
+              <li>{{ repo | markdownify }}</a></li>
             {% endfor %}
             </ul>
         </li>
@@ -98,7 +100,7 @@ header_border: true
           <h5>Agency partners</h5>
           <ul class="{% if page.product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
           {% for client in page.product_clients %}
-            <li class="usa-sidenav__item">{{ client }}</li>
+            <li>{{ client }}</li>
           {% endfor %}
           </ul>
         </li>
@@ -124,7 +126,7 @@ header_border: true
           <h5>Resources</h5>
           <ul class="{% if page.resources.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for resource in page.resources %}
-              <li class="usa-sidenav__item">{{ resource | markdownify }}</li>
+              <li >{{ resource | markdownify }}</li>
             {% endfor %}
           </ul>
         {% endif %}
@@ -144,10 +146,15 @@ header_border: true
   <div class="bg-base-lightest">
     <div class="usa-section post-border">
       <section class="grid-container posts_feature">
-        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
-          <h2>Related blog posts</h2>
+        <div class="{% if matching_posts.size > 3 %}grid-row grid-gap{% endif %}">
+          <div class="tablet:grid-col-8">
+            <h2>Related blog posts</h2>
+          </div>
           {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+          <div class="tablet:grid-col-4">
+            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+          </div>
+
           {% endif %}
         </div>
         <ul class="grid-row grid-gap">

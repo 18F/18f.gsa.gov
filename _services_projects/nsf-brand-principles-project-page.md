@@ -27,7 +27,7 @@ NSF also wanted to make sure that its visual and content identities
 reflected its organizational values and the innovative research it
 supports.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Using research and iteration to inform design
 
 We began by conducting research with internal stakeholders. Our goal was

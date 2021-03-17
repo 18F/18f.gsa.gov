@@ -25,7 +25,7 @@ development methods, but they wanted proof that these new methods would
 address the division’s particular challenges before seeking buy-in from
 their leadership. They approached 18F to see how we could help.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Starting with small projects to demonstrate quick wins
 
 The first thing we did was share how 18F implements user-centered

@@ -33,11 +33,7 @@
 
 .posts_feature-heading {
   margin-top: 0;
-
-  a {
-    color: color('base');
-    @include u-line-height('body', 3);
-  }
+  color: color('accent-cool');
 }
 
 .post-date,

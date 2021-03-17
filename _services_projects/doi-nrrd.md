@@ -27,7 +27,7 @@ Our small digital team at the Office of Natural Resources Revenue continues the 
     <span>- Digital team at the Office of Natural Resources Revenue</span>
 </div>
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Moving from PDFs to interactive websites using the Federalist platform
 
 Traditionally, these types of reports were compiled once a year as

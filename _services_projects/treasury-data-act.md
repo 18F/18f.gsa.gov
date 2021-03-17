@@ -28,7 +28,7 @@ The Digital Accountability and Transparency Act (DATA Act), which became law in 
     	Kearney & Company, prime contractor on the DATA Act project</span>
 </div>
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Stay flexible to stay ahead of schedule
 
 18F helped build a prototype for the technical implementation of the law to get user feedback before all of the data standards had been finalized. Our iterative approach allowed Treasury to reduce risk, use actual data to make decisions, and speed up implementation of a very complex law.

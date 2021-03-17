@@ -25,7 +25,7 @@ resources:
 
 The U.S. Department of Agriculture’s Forest Service issues permits to the public for activities such as outfitting trips, large scale events, and Christmas trees harvests. The Forest Service wanted to make their permits and applications available online to create a more predictable application process that was not limited to regular business hours.
 
-<div class="text-uppercase">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Breaking the work into modules
 
 Before helping Forest Service hire vendors to build a permit tool, we conducted a series of workshops with the Forest Service to investigate the business process behind permit applications. With that information, we built a small prototype of an online permit tool that could address their issues. We tested this prototype with both public and Forest Service staff users and used that research to draft an RFP using 18F's Agile Blanket Purchase Agreement.
