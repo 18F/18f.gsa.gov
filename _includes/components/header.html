@@ -22,16 +22,14 @@
               src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
               alt="{{ header.logo.alt }}">
           {% endif %}
-          <!-- <em class="usa-logo__text">
-            {{ header.title | default: site.title }}
-          </em> -->
+          <!-- em for logo-text from uswds-jekyll template removed -->
         </a>
       </div>
       <button class="usa-menu-btn">Menu</button>
     </div>
 
+    <!-- usa-nav__inner div removed to fit navigation -->
     <nav role="navigation" class="usa-nav">
-      <!-- <div class="usa-nav__inner"> -->
         <button class="usa-nav__close">
           <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
         </button>
@@ -153,7 +151,6 @@
 
 
         </div>
-      <!-- </div> -->
     </nav>
   {% if header.type == 'basic' or header.type == 'basic-mega' %}
     </div>

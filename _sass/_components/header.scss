@@ -52,7 +52,7 @@
 // set color and size of bar underneath nav items
 // add-bar(weight, color, side, length, offset-x)
 @mixin nav-border-basic {
-  @include add-bar(0.5, "accent-cool", "bottom", 0, 2, -0.5);
+  @include add-bar(0.5, 'accent-cool', 'bottom', 0, 2, -0.5);
 }
 
 // usa-header--basic
@@ -66,7 +66,7 @@
     }
 
     .usa-nav {
-      @include u-flex("row", "align-center", "justify-end");
+      @include u-flex('row', 'align-center', 'justify-end');
       display: flex;
       padding-top: 0;
       padding-right: 0;
@@ -76,7 +76,7 @@
     }
 
     .usa-nav-container {
-      @include u-flex("align-end", "justify");
+      @include u-flex('align-end', 'justify');
       display: flex;
     }
 
@@ -88,7 +88,7 @@
 }
 
   // The search <input>
-  [type="search"] {
+[type="search"] {
     min-width: 0; // Fix a Firefox display quirk
     width: calc(
         #{$theme-search-min-width} + #{units($theme-button-small-width)}
