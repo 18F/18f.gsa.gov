@@ -30,33 +30,77 @@
 
 
 // -------------------------------------
-// Fix hero area button:focus text contrast
-.bg-primary-dark .usa-button-secondary.usa-button:focus {
-  color: $theme-color-base-lightest;
+// Because the USWDS link token was incorrect about AA contrast
+a {
+  color: color('accent-cool');
 }
 
 // -------------------------------------
+// Fix hero area button:focus text contrast
+.bg-primary-dark .usa-button--secondary.usa-button {
+  color: color('primary-dark');
+
+  &:focus,
+
+  &:hover {
+    color: color('base-lightest');
+  }
+}
+
+.thick-accent-border {
+  border-top: units(1) solid color('accent-cool');
+}
+
+
+// -------------------------------------
 // page introduction and call to action
-section.usa-section.bg-primary-darker {
+.usa-section.bg-primary-dark {
   h1 {
-      color: $theme-color-secondary;
+    color: color('secondary');
+    font-size: font-size('sans', '3xl');
   }
 
-  h2, p {
-      color: #FFF;
+  h2,
+  p {
+    color: #fff;
   }
 
   h2 {
     margin-top: .25em;
+    font-weight: normal;
   }
 
   p {
-    font-size: $theme-h3-font-size;
+    font-size: font-size($theme-body-font-family, $theme-h3-font-size);
   }
 
 }
 
+.usa-graphic-list__heading {
+  font-size: size('sans', 'xl');
+}
+
 // special case for border on hww page
 .section-case-studies {
-  border-bottom: 1rem solid $color-medium;
+  border-bottom: 1rem solid color('accent-cool');
+}
+
+
+
+//footer
+.usa-footer {
+
+  h4 {
+    font-size: font-size($theme-font-role-heading, 'lg');
+    margin-bottom: 1rem;
+  }
+}
+
+
+.no-left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  margin-top: 1px;
+  height: 38px;
 }

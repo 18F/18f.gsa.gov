@@ -15,10 +15,10 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="grid-container usa-section break-bottom-gray">
+<div class="grid-container usa-section case-section">
   <section class="grid-row">
-    <div class="tablet:grid-col-8">
-      <p>
+    <div class="tablet:grid-col-9">
+      <p class="font-sans-lg">
         18F partners with federal agencies to improve the user experience of government 
         services by helping them build and buy technology. If you're looking to implement 
         a requirement, update a public-facing website, or digitize a process, 18F can work with 
@@ -28,8 +28,7 @@ gridless: true
   </section>
 </div>
 
-<div class="grid-container">
-  <section class="usa-section break-bottom-gray">
+<section class="usa-section case-section grid-container">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">
@@ -49,19 +48,16 @@ gridless: true
         {% include svg/icons/arrow-right.svg %}
       </a>
     </p> {%- endcomment -%}
-  </section>
-</div>
-
-<section class="usa-section grid-container">
-    <div class="home-testimonial">
-      18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.
-      <span>
-        - Christina Ho, Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury
-      </span>
-    </div>
 </section>
 
-<div class="usa-section bg-base-lightest">
+{% include testimonial.html
+ quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
+ attribution="Christina Ho"
+ position="Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury"
+ agency_image="treasury.svg"
+ %}
+
+<div class="usa-section bg-base-lightest padding-y-5">
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}

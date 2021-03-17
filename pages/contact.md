@@ -9,9 +9,8 @@ lead: Let’s work together to improve the user experience of government.
 ---
 <div class="grid-container">
   <div class="grid-row grid-gap">
-    <div class="usa-section tablet:grid-col-8">
+    <div class="usa-section tablet:grid-col-8" markdown="1">
 
-<div markdown="1">
 ### Want to see if 18F can help your agency?
 Email our Business Development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
 
@@ -24,17 +23,14 @@ Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 ### Anything else?
 For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
 </div>
-
-    </div>
-
-    <aside class="usa-section tablet:grid-col-4 col-last">
-      <h4 class="sidebar-heading-border">Learn more about 18F</h4>
+ <aside class="usa-section tablet:grid-col-4 col-last">
+      <h4 class="thick-accent-border padding-top-1">Learn more about 18F</h4>
         <ul>
           <li><a href="{{ site.baseurl }}/what-we-deliver/">Past projects</a></li>
           <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
           <li><a href="{{ site.baseurl }}/about/#funding-and-agreements">How we're funded</a></li>
         </ul>
-        <h4 class="sidebar-heading-border">Follow 18F</h4>
+        <h4>Follow 18F</h4>
         <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
@@ -48,46 +44,44 @@ For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto
           </li>
         </ul>
     </aside>
-  </div>
+</div>
 </div>
 
-<div class="usa-grid usa-grid-line">
-  <hr/>
-</div>
 
-<div class="usa-section grid-container">
-  <h2>Sign up for the 18F newsletter</h2>
-  <div class="grid-row grid-gap">
-    <div class="padding-y-2 tablet:grid-col-6">
-      <p>Receive occasional updates about our work and news about the civic tech community.</p>
-    </div>
-  <div class="padding-y-2 tablet:grid-col-6">
-    <form
-      id="GD-snippet-form"
-      action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8"
-      method="post"
-      target="_blank"
-    >
-      <fieldset class="usa-fieldset">
-        <input name="utf8" type="hidden" value="&#x2713;">
-        <input
-          type="hidden"
-          name="authenticity_token"
-          value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ=="
-        >
-          <div class="form-group">
-            <label for="email">Your email address</label>
-            <div class="grid-row">
-              <div class="grid-col-fill">
-                <input class="usa-input margin-0" type="text" name="email" id="email">
-              </div>
-              <div class="grid-col-fill">
-                <input class="usa-button margin-0 text-white" type="submit" name="commit" value="Sign up">
+
+<section class="usa-section bg-primary-dark">
+  <div class="grid-container">
+    <div class="usa-graphic-list__row grid-row grid-gap">
+        <div class="usa-media-block tablet:grid-col">
+          <img class="usa-media-block__img square-card"  src="{{ site.baseurl }}/assets/img/tablet-hand--c.svg" alt="Alt text">
+          <div class="usa-media-block__body">
+            <h2 class="usa-graphic-list__heading">Sign up for the 18F newsletter</h2>
+            <p>Receive occasional updates about our work and news about the civic tech community.</p>
+          <form
+        id="GD-snippet-form"
+        action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8"
+        method="post"
+        target="_blank"
+      >
+        <fieldset class="usa-fieldset">
+          <input name="utf8" type="hidden" value="&#x2713;">
+          <input
+            type="hidden"
+            name="authenticity_token"
+            value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ=="
+          >
+            <div class="form-group">
+              <label for="email" class="text-white">Your email address</label>
+              <div class="grid-row">
+                <div class="grid-col-fill">
+                  <input class="usa-input margin-0" type="text" name="email" id="email">
+                </div>
+                <div class="grid-col-fill">
+                  <input class="usa-button usa-button--secondary no-left-radius" type="submit" name="commit" value="Sign up">
+                </div>
               </div>
             </div>
-          </div>
-      </fieldset>
-    </form>
+        </fieldset>
+      </form>
+    </div>
   </div>
-  </div>
-</div>

@@ -2,8 +2,8 @@
 // ==========================
 
 .pagination {
-  color: color('gray-cool-60');
-  font-size: $theme-h5-font-size;
+  color: color('base-dark');
+  font-size: font-size($theme-body-font-family, $theme-h5-font-size);
   margin-top: 2rem;
 
   > div {

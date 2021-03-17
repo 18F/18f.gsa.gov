@@ -6,11 +6,11 @@ redirect_from: /dashboard/
 redirect_from: /developer/
 ---
 
-<section class="bg-primary-darker">
+<section class="bg-primary-dark">
   <section class="usa-hero usa-hero--primary">
     <div class="grid-container">
       <div
-        class="usa-hero__callout bg-primary-darker tablet:grid-col-8"
+        class="usa-hero__callout bg-primary-dark tablet:grid-col-8"
       >
         <h2>
           18F partners with agencies to improve the user experience of
@@ -26,16 +26,14 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section grid-container">
-  <section class="pad-right-left">
-    <div class="home-testimonial">
-      We engaged with 18F, and it was a game-changer for us. They came in and
-      helped the IT team and business owners get involved in the agile
-      development process. It changed our whole methodology.
-      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
-    </div>
-  </section>
-</section>
+{% include testimonial.html
+  quote="We engaged with 18F, and it was a game-changer for us. They came in and
+  helped the IT team and business owners get involved in the agile
+  development process. It changed our whole methodology."
+  attribution="Alec Palmer"
+  position="FEC’s Chief Information Officer"
+  agency_image="fec.svg"
+  %}
 
 <section class="usa-section grid-container">
   <section class="grid-gap">

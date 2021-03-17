@@ -6,10 +6,7 @@
   }
 
   article {
-
-    @include u-border-top(1);
-    @include u-border-top('secondary');
-    // border-top: $theme-color-secondary solid;
+    border-top: units(1) solid color('secondary');
     margin-bottom: $theme-site-margins-width;
     padding-top: 1rem;
 
@@ -38,7 +35,7 @@
   margin-top: 0;
 
   a {
-    color: $theme-color-base;
+    color: color('base');
     @include u-line-height('body', 3);
   }
 }
@@ -46,8 +43,8 @@
 .post-date,
 time {
   font-weight: normal;
-  font-size: $theme-h5-font-size;
-  color: color('gray-cool-60');
+  font-size: font-size($theme-body-font-family, $theme-h5-font-size);
+  color: color('base-dark');
   margin-bottom: 1em;
 }
 
@@ -62,7 +59,7 @@ time {
       width: 1em;
       margin-right: 1rem;
       @include u-margin-left(0.5); // to accommodate for adjoning p margin
-      color: color('gray-cool-60');
+      color: color('base-dark');
       font-size: 0.8em;
     }
   }

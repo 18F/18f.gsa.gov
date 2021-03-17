@@ -42,7 +42,7 @@ $margins-width: 170px;
   }
 
   h1 {
-    font-size: $theme-h4-font-size;
+    font-size: font-size($theme-body-font-family, $theme-h4-font-size);
     margin: 0;
     width: 100%;
   }
