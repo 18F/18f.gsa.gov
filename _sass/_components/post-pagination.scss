@@ -7,9 +7,11 @@
   @include u-border-y('1px');
   font-weight: $theme-font-weight-bold;
 
-  .link-arrow-left.icon {
-    height: .75rem;
-    width: .75rem;
+  .link-arrow-left .icon {
+    height: .65rem;
+    width: .65rem;
+
+
   }
 
   .grid-col-6 {

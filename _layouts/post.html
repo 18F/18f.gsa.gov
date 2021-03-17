@@ -6,36 +6,41 @@ layout: default
 {% include feature-image.html %}
 
 <div class="grid-container usa-section">
-
-  <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
-    {% include svg/icons/arrow-left.svg %}
-    <span class="usa-sr-only">Back to</span>
-    Blog
-  </a>
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <p class="post-byline">
-      {% include post-author.html context="page" %}
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-      </p>
-      <span class="post-tags" itemprop="keywords">
-        {% for tag in page.tags %}
-          <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
-          </a>
-        {% endfor %}
-      </span>
-    </header>
-
-    <div class="post-content" itemprop="articleBody">
-      {% if page.image and page.image_feature_small == true %}
-        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
-      {% endif %}
-
-      {{ content }}
+  <div class="grid-row grid-gap">
+    <div class="grid-col-1">
+      <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
+        {% include svg/icons/arrow-left.svg %}
+        <span class="usa-sr-only">Back to</span>
+        Blog
+      </a>
     </div>
+    <div class="grid-col-8">
+      <article class="post-article" itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+          <h1 itemprop="name headline">{{ page.title }}</h1>
+          <p class="post-byline">
+          {% include post-author.html context="page" %}
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+          </p>
+          <span class="post-tags" itemprop="keywords">
+            {% for tag in page.tags %}
+              <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+              </a>
+            {% endfor %}
+          </span>
+        </header>
 
-  </article>
+        <div class="post-content" itemprop="articleBody">
+          {% if page.image and page.image_feature_small == true %}
+            <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
+          {% endif %}
+
+          {{ content }}
+        </div>
+
+      </article>
+    </div>
+  </div>
 </div>
 
 {% if page.previous or page.next %}
