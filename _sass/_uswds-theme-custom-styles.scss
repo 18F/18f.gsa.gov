@@ -29,14 +29,15 @@ a {
   color: color('accent-cool');
 }
 
-.link-arrow-right {
+.link-arrow_right {
   margin-top: 1.5rem;
   font-weight: bold;
 
-  .icon {
-    height: .65rem;
-    width: .65rem;
-  }
+}
+
+.caret {
+  height: .65rem;
+  width: .65rem;
 }
 
 // -------------------------------------

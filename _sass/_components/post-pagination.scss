@@ -7,13 +7,6 @@
   @include u-border-y('1px');
   font-weight: $theme-font-weight-bold;
 
-  .link-arrow-left .icon {
-    height: .65rem;
-    width: .65rem;
-
-
-  }
-
   .grid-col-6 {
     &:last-child {
       @include at-media('tablet') {
