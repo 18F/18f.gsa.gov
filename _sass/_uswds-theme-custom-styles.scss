@@ -64,6 +64,7 @@ a {
     p {
       font-size: font-size($theme-body-font-family, $theme-h3-font-size);
     }
+  }
 }
 
 // -------------------------------------
@@ -85,7 +86,6 @@ a {
 
 // -------------------------------------
 // page introduction and call to action
-
 
 .usa-graphic-list__heading {
   font-size: size('sans', 'xl');
