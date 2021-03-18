@@ -91,7 +91,6 @@ blockquote {
 
 .testimonial {
   color: color('base-darker');
-
   .testimonial__body {
     font-size: font-size('sans', 'lg');
     font-weight: 300;
@@ -99,8 +98,14 @@ blockquote {
   }
 
   .testimonial__attribution {
+    display: flex;
+    margin-top: units(2);
     font-style: italic;
     font-size: font-size('sans', 'xs');
+
+    p {
+      margin: 0 units(1.5);
+    }
 
     span {
       font-style: normal;

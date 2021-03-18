@@ -24,6 +24,9 @@ analytics:
 paginate: 5
 paginate_path: "blog/page/:num/"
 
+# enable search bar
+search_site_handle: 18F-site
+
 jekyll-archives:
   enabled:
     - 'tags'
@@ -135,6 +138,12 @@ footer:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
 
 exclude:
 - .about.yml
