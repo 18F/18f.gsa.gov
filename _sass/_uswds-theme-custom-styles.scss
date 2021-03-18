@@ -84,6 +84,21 @@ a {
     font-size: font-size($theme-body-font-family, $theme-h3-font-size);
   }
 
+  // Mobile styling for ctas
+  .usa-media-block {
+    flex-wrap: wrap;
+  }
+
+  .usa-media-block__body {
+    margin-top: units(2);
+    flex: 1 1 65%;
+
+    @include at-media('tablet') {
+      margin-top: 0;
+      margin-left: units(2);
+    }
+  }
+
 }
 
 .usa-graphic-list__heading {
