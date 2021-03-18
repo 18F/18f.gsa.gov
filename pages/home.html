@@ -8,19 +8,24 @@ redirect_from: /developer/
 
 <section class="bg-primary-dark">
   <section class="usa-hero usa-hero--primary">
-    <div class="grid-container">
-      <div
-        class="usa-hero__callout bg-primary-dark tablet:grid-col-8"
-      >
-        <h2>
+    <div class="grid-container grid-row padding-y-6">
+      <div class="tablet:grid-col-6">
+      <h1>
+        18F is a technology and design consultancy for the U.S. Government,
+        inside the government.
+      </h1>
+        <h2 class="text-light">
           18F partners with agencies to improve the user experience of
           government services by helping them build and buy technology.
         </h2>
-        <a href="{{ site.baseurl }}/contact/" tabindex="-1"
-          ><button class="usa-button usa-button-secondary usa-button--big">
+        <a href="{{ site.baseurl }}/contact/" tabindex="-1" class="margin-y-3 display-block">
+          <button class="usa-button usa-button--secondary usa-button--big">
             Get in touch
-          </button></a
-        >
+          </button>
+        </a>
+      </div>
+      <div class="tablet:grid-col-6">
+        <img src="{{ site.baseurl }}/assets/img/homepage-graphic-2021.png" alt="">
       </div>
     </div>
   </section>
@@ -35,22 +40,88 @@ redirect_from: /developer/
   agency_image="fec.svg"
   %}
 
-<section class="usa-section grid-container">
-  <section class="grid-gap">
-    <h2>We support your mission</h2>
-    <section class="tablet:grid-col-8">
-      <h3 class="p-line-height p-normal pad-bottom-mobile">
-        As an office within the General Services Administration, we know how to
-        work with government. Federal, state, and local governments can partner
-        with 18F to deliver projects that fulfill their mission, stay within
-        budget, and use leading technology practices.
-      </h3>
-    </section>
+<section class="usa-section bg-base-lightest padding-y-0">
+  <div class="grid-container">
+    <div class="grid-row grid-gap ">
+      <div class="tablet:grid-col-8 padding-y-5">
+        <h2>We support your mission</h2>
+        <p>
+          As an office within the General Services Administration, we know how to
+          work with government. Federal, state, and local governments can partner
+          with 18F to deliver projects that fulfill their mission, stay within
+          budget, and use leading technology practices.
+        </p>
+      </div>
+      <div class="tablet:grid-col-4">
+        <img src="{{ site.baseurl }}/assets/img/2people-talking.jpeg" alt>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="usa-section">
+  <section class="grid-container">
+    <h2>What 18F can do</h2>
+    <div class="grid-col-12">
+      <ul class="grid-row list-columns grid-gap">
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              <img src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+              <p>
+                <strong>Modernize</strong> software development processes while introducing good
+                agile and human-centered design practices to your agency
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              <img src="{{ site.baseurl }}/assets/img/tablet-hand--c.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+              <p>
+                <strong>Improve</strong> public-facing services like websites or applications
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="tablet:grid-col-4">
+          <div class="icon-list">
+            <figure class="icon-list-image">
+              <img src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
+            </figure>
+            <div class="icon-list-text">
+              <p>
+                <strong>Digitize and streamline</strong> internal systems to save time and
+                increase accuracy
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
 </section>
 
 <section class="usa-section bg-base-lightest">
-  <section class="grid-container">
+  <section class="usa-section grid-container">
+    <h2>Featured projects</h2>
+    <div class="grid-row grid-gap">
+      <ul class="usa-card-group">
+        {% include card.html project='fec-gov' %} 
+        {% include card.html project='treasury-data-act' %} 
+        {% include card.html project='calc' %}
+      </ul>
+    </div>
+  </section>
+</section>
+
+<section class="usa-section">
+  <div class="grid-container">
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
@@ -88,68 +159,7 @@ redirect_from: /developer/
         See more agency partners {% include svg/icons/arrow-right.svg %}
       </a>
     </p>
-  </section>
-</section>
-
-<section class="usa-section">
-  <section class="grid-container">
-    <h2>What 18F can do</h2>
-    <div class="grid-col-12">
-      <ul class="grid-row list-columns grid-gap">
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/user-centered-icon.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Modernize software development processes while introducing good
-                agile and human-centered design practices to your agency
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/monitor.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Improve public-facing services like websites or applications
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="tablet:grid-col-4">
-          <div class="icon-list">
-            <figure class="icon-list-image">
-              {% include svg/icons/folderwithclock.svg %}
-            </figure>
-            <div class="icon-list-text">
-              <p class="p-bold">
-                Digitize and streamline internal systems to save time and
-                increase accuracy
-              </p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-</section>
-
-<section class="usa-section bg-base-lightest">
-  <section class="usa-section grid-container">
-    <h2>Featured projects</h2>
-    <div class="grid-row grid-gap">
-      <ul class="usa-card-group">
-        {% include card.html project='fec-gov' %} 
-        {% include card.html project='treasury-data-act' %} 
-        {% include card.html project='calc' %}
-      </ul>
-    </div>
-  </section>
+  </div>
 </section>
 
 <section class="grid-container usa-section featured-posts">

@@ -1,17 +1,8 @@
 // Hero feature
 // ==========================
 
-.usa-hero {
-  background-image: url('../img/page-feature/hire-us.jpg');
-}
-
-
 .usa-hero--primary {
   background-image: none;
-
-  @include at-media('tablet') {
-    background-image: url('../img/page-feature/hire-us.jpg');
-  }
 }
 
 .page-join-18f,
