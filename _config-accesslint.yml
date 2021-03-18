@@ -150,6 +150,7 @@ exclude:
 - _posts/2016-03-22-helping-california-buy-a-new-child-welfare-system.md
 - _posts/2015-03-31-focus-on-accessibility.md
 - _posts/2020-02-20-areas-for-growth-part-1-cad.md
+- _posts/2021-03-05-technical-problems-are-not-the-hardest-ones-to-solve.md
 - _posts/2014-12-11-large-scale-development-culture-change.md
 - _posts/2016-03-04-how-people-use-proxies-to-interact-with-the-government.md
 - _posts/2017-05-11-the-next-steps-towards-bug-bounty-program-for-technology-transformation-service.md
@@ -463,6 +464,7 @@ exclude:
 - _posts/2016-03-03-five-questions-for-the-nasa-chief-historian.md
 - _posts/2016-08-10-patterns-for-managing-multi-tenant-cloud-environments.md
 - _posts/2017-02-02-cloud-gov-is-now-fedramp-authorized.md
+- _posts/2021-03-02-using-agile-and-devops-to-get-better-results-than-a-change-control-board.md
 - _posts/2014-05-16-slides-from-the-inaugural-18f-demo-day.md
 - _posts/2015-04-03-18f-discussion-should-project-teams-code-first-or-design-first.md
 - _posts/2016-06-20-build-empathy-with-stakeholder-interviews-part-1-preparation.md

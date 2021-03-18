@@ -43,6 +43,12 @@ a {
 // USA Section padding
 .usa-section {
   padding: units(5);
+
+  &.padding-y-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
   &.bg-primary-dark {
     h1 {
       color: color('secondary');
