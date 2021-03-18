@@ -14,6 +14,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.8.6.5)
       execjs
+
     codeclimate-test-reporter (1.0.9)
       simplecov (<= 0.13)
     coderay (1.1.3)
