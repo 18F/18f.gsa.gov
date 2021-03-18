@@ -1,9 +1,7 @@
 // -------------------------------------
 // 18F site components
 @import '_components/blockquotes';
-
 @import '_components/card';
-@import '_components/icons';
 @import '_components/hero';
 @import '_components/lists';
 @import '_components/post-list';
@@ -26,6 +24,11 @@
 // Links and link arrows
 a {
   color: color('accent-cool');
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
 }
 
 .link-arrow_right {
