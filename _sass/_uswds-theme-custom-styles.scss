@@ -43,6 +43,26 @@ a {
 // USA Section padding
 .usa-section {
   padding: units(5);
+  &.bg-primary-dark {
+    h1 {
+      color: color('secondary');
+      font-size: font-size('sans', '3xl');
+    }
+
+    h2,
+    p {
+      color: color('white');
+    }
+
+    h2 {
+      margin-top: .25em;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: font-size($theme-body-font-family, $theme-h3-font-size);
+    }
+  }
 }
 
 // -------------------------------------
@@ -64,6 +84,7 @@ a {
 
 // -------------------------------------
 // page introduction and call to action
+
 .usa-section.bg-primary-dark {
   h1 {
     color: color('secondary');
