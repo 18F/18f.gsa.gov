@@ -36,6 +36,12 @@
 // Project page lists
 
 .partner-info {
+  
+  padding-left: units(2);
+  @include at-media('tablet') {
+    padding-left: 0;
+  }
+  
   a {
     color: color('accent-cool');
     text-decoration: underline;
