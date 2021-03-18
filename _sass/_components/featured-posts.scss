@@ -7,10 +7,16 @@
 
   h2 {
     margin-bottom: units(2);
+
     @include at-media('tablet'){
       margin-bottom: 0;
     }
+
+    a {
+      color: color('primary-dark');
+    }
   }
+
   article {
     border-top: units(1) solid color('secondary');
     margin-bottom: $theme-site-margins-width;
