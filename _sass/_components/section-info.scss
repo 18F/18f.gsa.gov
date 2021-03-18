@@ -7,7 +7,7 @@
     padding-bottom: 0;
 
     > ul:first-of-type {
-      border-top: $theme-color-secondary;;
+      border-top: color('secondary');
       border-color: color('secondary-dark');
     }
   }

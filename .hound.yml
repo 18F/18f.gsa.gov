@@ -1,5 +1,9 @@
 scss:
+  enabled: true
   config_file: .scss-lint.yml
+
+sass-lint:
+  enabled: false
 
 jshint:
   enabled: false
