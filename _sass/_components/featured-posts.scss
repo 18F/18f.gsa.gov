@@ -1,6 +1,6 @@
-// Post feature
+// Featured and related posts
 // ==========================
-.posts_feature {
+.featured-posts {
   > ul {
     @include unstyled-list;
   }
@@ -14,10 +14,9 @@
   article {
     border-top: units(1) solid color('secondary');
     margin-bottom: $theme-site-margins-width;
-    padding-top: 1rem;
 
     .post-date {
-      margin-top: 0;
+      margin-top: units(1);
     }
 
     @include at-media('tablet') {
@@ -41,7 +40,7 @@
   }
 }
 
-.posts_feature-heading {
+.featured-posts__heading {
   margin-top: 0;
   color: color('accent-cool');
 }
