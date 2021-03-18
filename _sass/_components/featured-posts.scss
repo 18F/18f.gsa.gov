@@ -8,7 +8,7 @@
   h2 {
     margin-bottom: units(2);
 
-    @include at-media('tablet'){
+    @include at-media('tablet') {
       margin-bottom: 0;
     }
 
