@@ -48,7 +48,7 @@ a {
     padding-top: 0;
     padding-bottom: 0;
   }
-  
+
   &.bg-primary-dark {
     h1 {
       color: color('secondary');
@@ -67,6 +67,21 @@ a {
 
     p {
       font-size: font-size($theme-body-font-family, $theme-h3-font-size);
+    }
+
+    // Mobile styling for ctas
+    .usa-media-block {
+      flex-wrap: wrap;
+    }
+  
+    .usa-media-block__body {
+      margin-top: units(2);
+      flex: 1 1 65%;
+  
+      @include at-media('tablet') {
+        margin-top: 0;
+        margin-left: units(2);
+      }
     }
   }
 }
@@ -91,43 +106,6 @@ a {
 // -------------------------------------
 // page introduction and call to action
 
-.usa-section.bg-primary-dark {
-  h1 {
-    color: color('secondary');
-    font-size: font-size('sans', '3xl');
-  }
-
-  h2,
-  p {
-    color: #fff;
-  }
-
-  h2 {
-    margin-top: .25em;
-    font-weight: normal;
-  }
-
-  p {
-    font-size: font-size($theme-body-font-family, $theme-h3-font-size);
-  }
-
-  // Mobile styling for ctas
-  .usa-media-block {
-    flex-wrap: wrap;
-  }
-
-  .usa-media-block__body {
-    margin-top: units(2);
-    flex: 1 1 65%;
-
-    @include at-media('tablet') {
-      margin-top: 0;
-      margin-left: units(2);
-    }
-  }
-
-}
-
 .usa-graphic-list__heading {
   font-size: size('sans', 'xl');
 }
@@ -136,8 +114,6 @@ a {
 .section-case-studies {
   border-bottom: 1rem solid color('accent-cool');
 }
-
-
 
 //footer
 .usa-footer {
