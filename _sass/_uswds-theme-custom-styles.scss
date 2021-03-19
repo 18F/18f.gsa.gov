@@ -44,10 +44,10 @@ a {
 .usa-section {
   padding: units(2);
 
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     padding: units(5);
   }
-  
+
   &.padding-y-0 {
     padding-top: 0;
     padding-bottom: 0;
