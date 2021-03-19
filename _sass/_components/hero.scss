@@ -13,3 +13,32 @@
     }
   }
 }
+
+// -------------------------------------
+// Fix hero area button:focus text contrast
+.bg-primary-dark .usa-button--secondary.usa-button {
+  color: color('primary-dark');
+
+  &:focus,
+
+  &:hover {
+    color: color('base-lightest');
+  }
+}
+
+.thick-accent-border {
+  border-top: units(1) solid color('accent-cool');
+}
+
+
+// -------------------------------------
+// page introduction and call to action
+
+.usa-graphic-list__heading {
+  font-size: size('sans', 'xl');
+}
+
+// special case for border on hww page
+.section-case-studies {
+  border-bottom: 1rem solid color('accent-cool');
+}

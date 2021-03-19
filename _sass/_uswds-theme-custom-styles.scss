@@ -14,7 +14,6 @@
 
 // 18F site templates
 // ==========================
-@import '_templates/home';
 @import '_templates/blog-template';
 @import '_templates/guides';
 @import '_templates/how-we-work';
@@ -29,12 +28,6 @@ a {
 .icon {
   height: 1rem;
   width: 1rem;
-}
-
-.link-arrow_right {
-  margin-top: 1.5rem;
-  font-weight: bold;
-
 }
 
 .caret {
@@ -89,33 +82,19 @@ a {
   }
 }
 
-// -------------------------------------
-// Fix hero area button:focus text contrast
-.bg-primary-dark .usa-button--secondary.usa-button {
-  color: color('primary-dark');
+//adjust home container
+.home-mission-container {
 
-  &:focus,
+  img {
+    display: none;
+    object-fit: cover;
+    height: 100%;
+    max-height: 260px;
 
-  &:hover {
-    color: color('base-lightest');
+    @include at-media('desktop') {
+      display: block;
+    }
   }
-}
-
-.thick-accent-border {
-  border-top: units(1) solid color('accent-cool');
-}
-
-
-// -------------------------------------
-// page introduction and call to action
-
-.usa-graphic-list__heading {
-  font-size: size('sans', 'xl');
-}
-
-// special case for border on hww page
-.section-case-studies {
-  border-bottom: 1rem solid color('accent-cool');
 }
 
 //footer
@@ -132,7 +111,6 @@ a {
 
   }
 }
-
 
 .no-left-radius {
   border-top-left-radius: 0;
