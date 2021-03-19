@@ -48,7 +48,7 @@
   margin-top: units(2);
 
   a {
-    padding: units(2);
+    padding: units(1);
     margin: units('05');
 
     background-color: color('gray-cool-5');
@@ -60,7 +60,7 @@
     text-decoration: none;
     text-transform: lowercase;
 
-    &:first {
+    &:first-of-type {
       margin-left: 0;
     }
 
@@ -76,7 +76,7 @@
 }
 
 .post-excerpt {
-  margin-top: units(4);
+  margin-top: units(2);
 }
 
 // Post pagination

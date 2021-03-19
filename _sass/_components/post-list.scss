@@ -5,7 +5,6 @@
   @include unstyled-list;
 
   h3 {
-    margin-top: 0.5em;
     font-size: font-size('sans', 'xl');
     line-height: lh('heading', 3);
 
@@ -45,7 +44,6 @@
   }
 
   img {
-    max-width: 29rem;
     width: 100%;
   }
 }
