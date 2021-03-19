@@ -20,6 +20,8 @@ layout: default
           <h1 itemprop="name headline">{{ page.title }}</h1>
           <p class="post-byline">
           {% include post-author.html context="page" %}
+          </p>
+          <p>
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
           <span class="post-tags" itemprop="keywords">
