@@ -1,5 +1,6 @@
 .usa-header,
 .usa-sidenav-list {
+
   @include at-media($theme-header-min-width) {
 
     .usa-button {
