@@ -38,7 +38,11 @@ a {
 // -------------------------------------
 // USA Section padding
 .usa-section {
-  padding: units(5);
+  padding: units(2);
+
+  @include at-media('tablet') {
+    padding: units(5);
+  }
 
   &.padding-y-0 {
     padding-top: 0;
