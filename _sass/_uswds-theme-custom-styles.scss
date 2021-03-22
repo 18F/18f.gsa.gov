@@ -1,18 +1,15 @@
 // -------------------------------------
 // 18F site components
 @import '_components/blockquotes';
-@import '_components/blog-index';
+
 @import '_components/card';
 @import '_components/icons';
 @import '_components/hero';
-@import '_components/image-adjustments';
 @import '_components/lists';
 @import '_components/post-list';
-@import '_components/blog-pagination';
-@import '_components/post-pagination';
-@import '_components/post-meta';
+@import '_components/post-details';
 @import '_components/tag-index';
-@import '_components/post-feature';
+@import '_components/featured-posts';
 @import '_components/social-links';
 @import '_components/header';
 @import '_components/nav-buttons';
@@ -20,6 +17,7 @@
 // 18F site templates
 // ==========================
 @import '_templates/home';
+@import '_templates/blog-template';
 @import '_templates/guides';
 @import '_templates/how-we-work';
 @import '_templates/what-we-deliver';
@@ -30,20 +28,30 @@ a {
   color: color('accent-cool');
 }
 
-.link-arrow-right {
+.link-arrow_right {
   margin-top: 1.5rem;
   font-weight: bold;
 
-  .icon {
-    height: .65rem;
-    width: .65rem;
-  }
+}
+
+.caret {
+  height: .65rem;
+  width: .65rem;
 }
 
 // -------------------------------------
 // USA Section padding
 .usa-section {
-  @include u-padding-y(5);
+  padding: units(2);
+
+  @include at-media('tablet') {
+    padding: units(5);
+  }
+
+  &.padding-y-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
   &.bg-primary-dark {
     h1 {
@@ -63,6 +71,21 @@ a {
 
     p {
       font-size: font-size($theme-body-font-family, $theme-h3-font-size);
+    }
+
+    // Mobile styling for ctas
+    .usa-media-block {
+      flex-wrap: wrap;
+    }
+
+    .usa-media-block__body {
+      margin-top: units(2);
+      flex: 1 1 65%;
+
+      @include at-media('tablet') {
+        margin-top: 0;
+        margin-left: units(2);
+      }
     }
   }
 }
@@ -96,14 +119,18 @@ a {
   border-bottom: 1rem solid color('accent-cool');
 }
 
-
-
 //footer
 .usa-footer {
 
   h4 {
     font-size: font-size($theme-font-role-heading, 'lg');
     margin-bottom: 1rem;
+    margin-top: units(3);
+
+    @include at-media('tablet') {
+      margin-top: units(0);
+    }
+
   }
 }
 

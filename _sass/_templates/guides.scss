@@ -6,9 +6,12 @@
       margin-right: 0;
     }
 
+    padding-right: units(1);
+
     @include at-media('tablet') {
       @include grid-col(3);
       width: 30%;
+      padding-right: units(0);
     }
     img {
       max-width: 6rem;

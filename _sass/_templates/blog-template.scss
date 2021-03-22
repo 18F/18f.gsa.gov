@@ -1,18 +1,13 @@
 // Blog index
 // ==========================
 
-.blog-content,
-.sidebar {
-  margin-top: 2rem;
-}
-
 .blog-content {
   padding-right: 10px;
 }
 
 .sidebar {
   label {
-    font-size: font-size($theme-body-font-family, $theme-h4-font-size);
+    font-size: font-size('body', $theme-h4-font-size);
     font-weight: $theme-font-weight-bold;
   }
 
@@ -20,7 +15,8 @@
     list-style: none;
     padding-left: 0;
     margin-left: 0;
-    margin-bottom: 5rem;
+    margin-bottom: units(5);
+    font-size: font-size('body', 'sm');
   }
 }
 
@@ -35,8 +31,8 @@
 }
 
 .sidebar-heading-topic {
-  padding-top: 2.3rem;
-  border-top: 10px solid $theme-color-secondary-dark;
+  padding-top: units(2);
+  border-top: 10px solid color('secondary-dark');
 }
 
 .blog-footer {
@@ -68,4 +64,28 @@
 
 .sidebar-icon-github {
   width: 24px;
+}
+
+// Blog pagination
+// ==========================
+
+.pagination {
+  color: color('base-dark');
+  font-size: font-size('body', 'sm');
+  margin-top: 2rem;
+
+  > div {
+    float: left;
+    width: 33%;
+
+    &:nth-child(2) {
+      text-align: center;
+    }
+
+    &:last-child {
+      a {
+        float: right;
+      }
+    }
+  }
 }

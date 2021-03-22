@@ -1,14 +1,30 @@
-// Post feature
+// Featured and related posts
 // ==========================
-.posts_feature {
+.featured-posts {
   > ul {
     @include unstyled-list;
+  }
+
+  h2 {
+    margin-bottom: units(2);
+
+    @include at-media('tablet') {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: color('primary-dark');
+    }
+
   }
 
   article {
     border-top: units(1) solid color('secondary');
     margin-bottom: $theme-site-margins-width;
-    padding-top: 1rem;
+
+    .post-date {
+      margin-top: units(1);
+    }
 
     @include at-media('tablet') {
       margin-bottom: 0;
@@ -28,10 +44,11 @@
     @include at-media('tablet') {
       margin-bottom: 0;
     }
+
   }
 }
 
-.posts_feature-heading {
+.featured-posts__heading {
   margin-top: 0;
   color: color('accent-cool');
 }
@@ -39,25 +56,16 @@
 .post-date,
 time {
   font-weight: normal;
-  font-size: font-size($theme-body-font-family, $theme-h5-font-size);
+  font-size: font-size($theme-body-font-family, 'xs');
   color: color('base-dark');
   margin-bottom: 1em;
+  margin-top: units(2);
 }
 
 .post-byline {
   + .post-date,
   + time {
     white-space: nowrap;
-
-    &::before {
-      content: '\2022';
-      height: 1em;
-      width: 1em;
-      margin-right: 1rem;
-      @include u-margin-left(0.5); // to accommodate for adjoning p margin
-      color: color('base-dark');
-      font-size: 0.8em;
-    }
   }
 }
 

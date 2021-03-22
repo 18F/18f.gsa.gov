@@ -5,7 +5,8 @@
   @include unstyled-list;
 
   h3 {
-    margin-top: 0.5em;
+    font-size: font-size('sans', 'xl');
+    line-height: lh('heading', 3);
 
     a,
     a:visited {
@@ -18,12 +19,12 @@
     }
 
     + .post-byline {
-      margin-top: 0;
+      margin-top: units(1);
     }
   }
 
   li {
-    border-bottom: color('gray-cool-50');
+    border-bottom: 1px solid color('base-lightest');
     display: inline-block;
     margin-top: 3rem;
     padding-bottom: 3rem;
@@ -43,7 +44,6 @@
   }
 
   img {
-    max-width: 29rem;
     width: 100%;
   }
 }
@@ -57,10 +57,11 @@
   &:hover:visited,
   &:hover:focus {
     text-decoration: none;
-    color: color('base-darker');
+    color: color('ink');
   }
 
   p {
+    color: color('ink');
     text-decoration: none;
   }
 }

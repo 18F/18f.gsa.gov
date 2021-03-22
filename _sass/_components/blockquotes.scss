@@ -1,7 +1,7 @@
 $banner-line-height: 1.4;
 
 blockquote {
-  border-left:  4px solid color('gray-cool-5');
+  border-left: 4px solid color('gray-cool-5');
 
 
   cite {
@@ -91,6 +91,7 @@ blockquote {
 
 .testimonial {
   color: color('base-darker');
+
   .testimonial__body {
     font-size: font-size('sans', 'lg');
     font-weight: 300;
