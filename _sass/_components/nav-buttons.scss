@@ -4,13 +4,14 @@
 
     .usa-button {
       margin: 0;
-    //   width: auto;
     }
+
   }
+
   .usa-button {
     color: color('white');
     background-color: color('accent-cool');
-    // padding: units(1.5);
+
     &:hover {
       background-color: color('secondary-dark');
       color: color('white');

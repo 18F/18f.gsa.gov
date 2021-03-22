@@ -32,7 +32,7 @@ Their eligibility systems have performed well in the past, but the now outdated 
 <div class="case-study-preheader margin-top-6">Approach</div>
 ### Finding the right vendors through modular contracting and an open process
 
-Building on the work we’re doing with other states, 18F is helping introduce modular contracting, agile software development, DevOps, and user-centered design to the State of Alaska’s eligibility system modernization project. 
+Building on the work we’re doing with other states, 18F is helping introduce modular contracting, agile software development, DevOps, and user-centered design to the State of Alaska’s eligibility system modernization project.
 
 During the course of this project, we’ve assisted the Alaska Department of Health and Social Services in releasing, awarding, and managing its very first modular procurement. To do this, 
 we used a transparent procurement process starting with laying out the product vision statement, strategy, and roadmap in a publicly-accessible [GitHub repository](https://github.com/AlaskaDHSS/RFP-Search-Unification). In support of this work, we also helped the Alaska Department of Health and Social Services develop and adopt a CI/CD pipeline, build lean prototypes to de-risk technology issues, embrace open source for their procurement work, and develop their first ever product roadmap.

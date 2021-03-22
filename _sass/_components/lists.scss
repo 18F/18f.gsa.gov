@@ -2,7 +2,7 @@
   @include unstyled-list();
 
   li {
-    @include u-margin-bottom(2);
+    margin-bottom: units(2);
   }
 }
 
@@ -20,7 +20,7 @@
   }
 
   .list-images-image {
-    @include u-margin-right('105');
+    margin-right: units('105');
   }
 }
 
@@ -36,6 +36,13 @@
 // Project page lists
 
 .partner-info {
+
+  padding-left: units(2);
+
+  @include at-media('tablet') {
+    padding-left: 0;
+  }
+
   a {
     color: color('accent-cool');
     text-decoration: underline;

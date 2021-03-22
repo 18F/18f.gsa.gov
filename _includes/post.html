@@ -4,11 +4,11 @@ include.excerpt | default: post.excerpt %} {% assign post_url = include.url |
 default: post.url %} {% assign hide_date = include.hide_date | default: false %}
 
 <li class="post tablet:grid-col-4">
-  <article>
+  <article class="padding-top-2">
     {% if hide_date == true %}
     <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
     {% endif %}
-    <h3 class="posts_feature-heading">
+    <h3 class="featured-posts__heading">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"
         >{{ post_title }}</a
       >

@@ -23,7 +23,7 @@
 
 .icon-list-text {
   .p-bold {
-    @include u-margin-bottom(0.5);
+    margin-bottom: units('05');
   }
 
   &:last-of-type p {

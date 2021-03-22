@@ -138,6 +138,12 @@ footer:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
 
 exclude:
 - .about.yml

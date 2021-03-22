@@ -16,7 +16,7 @@
 }
 
 .case-study h3 {
-  @include u-margin-top('05');
+  margin-top: units('05');
 }
 
 //Project page CTA
