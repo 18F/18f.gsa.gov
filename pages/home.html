@@ -43,7 +43,7 @@ redirect_from: /developer/
 <section class="usa-section bg-base-lightest padding-y-0">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-6 padding-y-6">
+      <div class="tablet:grid-col-6 padding-y-2 tablet:padding-y-6">
         <h2>We support your mission</h2>
         <p>
           As an office within the General Services Administration, we know how to
@@ -63,8 +63,8 @@ redirect_from: /developer/
   <div class="grid-container">
     <h2 class="margin-bottom-2">What 18F can do</h2>
     <div class="grid-row grid-gap">
-      <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
+      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
+        <img class="usa-media-block__img" src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
         <div class="usa-media-block__body">
           <p>
           <strong>Modernize</strong> software development processes while introducing good
@@ -72,16 +72,16 @@ redirect_from: /developer/
           </p>
         </div>
       </div>
-      <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/tablet-hand-blue--c.svg" alt="">
+      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
+        <img class="usa-media-block__img " src="{{ site.baseurl }}/assets/img/tablet-hand-blue--c.svg" alt="">
         <div class="usa-media-block__body">
           <p>
             <strong>Improve</strong> public-facing services like websites or applications
           </p>
         </div>
       </div>
-      <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
+      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
+        <img class="usa-media-block__img" src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
         <div class="usa-media-block__body">
           <p>
             <strong>Digitize and streamline</strong> internal systems to save time and
@@ -110,7 +110,7 @@ redirect_from: /developer/
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
-    <ul class="grid-row grid-gap usa-unstyled-list">
+    <ul class="grid-row grid-gap usa-list--unstyled">
       {% for group in partner_groups %}
       <li class="tablet:grid-col-4">
         <ul class="agency-lists list-images">

@@ -72,7 +72,6 @@ a {
     // Mobile styling for ctas
     .usa-media-block {
       flex-wrap: wrap;
-      margin-bottom: units(2);
 
       @include at-media('tablet') {
         margin-bottom: 0;
@@ -103,8 +102,17 @@ a {
 }
 
 .usa-media-block__cando {
-  margin-right: units(2);
-  @include u-square(6);
+  margin-bottom: units(2);
+
+  @include at-media('tablet') {
+    margin-bottom: 0;
+  }
+
+  .usa-media-block__img {
+    margin-right: units(2);
+    @include u-square(6);
+  }
+
 }
 
 //footer

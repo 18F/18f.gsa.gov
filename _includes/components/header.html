@@ -101,7 +101,7 @@
         {% if header.type == 'extended' or header.type == 'extended-mega' %}
           {% assign _secondary = header.secondary %}
           <div class="usa-nav__secondary">
-            <ul class="usa-unstyled-list usa-nav__secondary-links">
+            <ul class="usa-list--unstyled usa-nav__secondary-links">
               {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
               {% for _link in secondary_links %}
                 <li class="usa-nav__secondary-item">

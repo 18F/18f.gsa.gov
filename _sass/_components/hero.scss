@@ -9,8 +9,12 @@
     line-height: lh('heading', 3);
   }
 
-  padding-top: units(5);
-  padding-bottom: units(5);
+  @include u-padding-y(2);
+
+  @include at-media('tablet') {
+
+    @include u-padding-y(2);
+  }
 }
 
 .page-join-18f,
