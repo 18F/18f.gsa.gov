@@ -7,9 +7,9 @@ $hero-graphic-md: 45%;
 }
 
 .hero__tagline {
-  letter-spacing: 0.025em;
-  line-height: lh('heading', 3);
   font-size: size('heading', 'xl');
+  letter-spacing: ls(1);
+  line-height: lh('heading', 3);
   order: 1;
 }
 
