@@ -72,6 +72,11 @@ a {
     // Mobile styling for ctas
     .usa-media-block {
       flex-wrap: wrap;
+      margin-bottom: units(2);
+
+      @include at-media('tablet') {
+        margin-bottom: 0;
+      }
     }
 
     .usa-media-block__body {
@@ -90,14 +95,10 @@ a {
 .home-mission-container {
 
   img {
-    display: none;
+    display: block;
     object-fit: cover;
-    height: 100%;
-    max-height: 294px;
-
-    @include at-media('desktop') {
-      display: block;
-    }
+    width: 100%;
+    max-height: 292px;
   }
 }
 
