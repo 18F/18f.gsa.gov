@@ -152,6 +152,7 @@ exclude:
 - .gitignore
 - .gitmodules
 - .hound.yml
+- .github/
 - 404.html
 - api-endpoints
 - bin
@@ -165,12 +166,10 @@ exclude:
 - examples/
 - favicon.ico
 - Gemfile*
-- ISSUE_TEMPLATE.md
 - killport
 - LICENSE.md
 - package.json
 - pages/our-work.html
-- PULL_REQUEST_TEMPLATE.md
 - README.md
 - spec/
 - system-security-plan.yml
