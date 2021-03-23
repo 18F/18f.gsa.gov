@@ -1,20 +1,20 @@
-navbar:
+primary:
 - text: What we deliver
-  permalink: /what-we-deliver/
+  href: /what-we-deliver/
   multiple_permalinks:
     - /what-we-deliver/:path/
 - text: How we work
-  permalink: /how-we-work/
+  href: /how-we-work/
 - text: Guides
-  permalink: /guides/
+  href: /guides/
 - text: Blog
-  permalink: /blog/
+  href: /blog/
   multiple_permalinks:
     - /blog/:path/
     - /tags/:path/
     - /author/:path/
 - text: Contact
-  permalink: /contact/
+  href: /contact/
 
 drawer:
   - text: What we deliver

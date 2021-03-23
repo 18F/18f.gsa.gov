@@ -7,21 +7,9 @@
     padding-bottom: 0;
 
     > ul:first-of-type {
-      border-top: $border-accent;
-      border-color: $color-medium;
-      padding-top: $paragraph-margins;
+      border-top: color('secondary');
+      border-color: color('secondary-dark');
     }
-  }
-
-  blockquote {
-    border-left: none;
-    color: $color-medium;
-    font-size: $h4-font-size;
-    line-height: $banner-line-height;
-    margin: 0;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
-    padding-left: 0;
   }
 
   p {
@@ -38,11 +26,9 @@
     }
 
     ul:not(.usa-unstyled-list) {
-      padding-left: $paragraph-margins;
-      margin-top: $spacer-margins;
+      margin-top: units('0.5');
 
       li {
-        line-height: $banner-line-height;
         list-style-type: disc;
 
         &:last-of-type {

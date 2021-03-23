@@ -6,9 +6,12 @@
       margin-right: 0;
     }
 
+    padding-right: units(1);
+
     @include at-media('tablet') {
       @include grid-col(3);
       width: 30%;
+      padding-right: units(0);
     }
     img {
       max-width: 6rem;
@@ -37,23 +40,22 @@
     @include media-link;
     text-decoration: none;
     width: 100%;
+    color: color('primary-dark');
+
+    &:hover {
+      color: color('accent-cool');
+    }
 
     &:visited {
-      color: $color-medium;
+      color: color('primary-dark');
 
       &:hover {
-        color: $color-medium-hover;
+        color: color('accent-cool');
       }
     }
   img {
-      max-width: 6rem;
+    @include u-square(10);
     }
-  }
-
-
-
-  .link-arrow-right {
-    margin-top: 1.5rem;
   }
 
   .link-lean {

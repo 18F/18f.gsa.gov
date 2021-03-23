@@ -6,8 +6,8 @@ full_name: Burt Reynolds
 role: Executive Director
 city: Washington
 state: D.C.
-github: 
-twitter: 
+github:
+twitter:
 team: 18F
 redirect_from: "/team/burt/"
 alumni: true

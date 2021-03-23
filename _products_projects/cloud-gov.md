@@ -34,7 +34,7 @@ Federal agencies that develop web-based services have to meet certain infrastruc
     <span>- Alec Palmer, FEC’s Chief Information Officer on hosting the new FEC.gov on cloud.gov</span>
 </div>
 
-<div class="small-caps">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Allowing developers to spend more time improving services and less time managing servers
 
 18F built cloud.gov to address the specific needs of federal agencies

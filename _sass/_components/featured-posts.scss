@@ -1,0 +1,74 @@
+// Featured and related posts
+// ==========================
+.featured-posts {
+  > ul {
+    @include unstyled-list;
+  }
+
+  h2 {
+    margin-bottom: units(2);
+
+    @include at-media('tablet') {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: color('primary-dark');
+    }
+
+  }
+
+  article {
+    border-top: units(1) solid color('secondary');
+    margin-bottom: $theme-site-margins-width;
+
+    .post-date {
+      margin-top: units(1);
+    }
+
+    @include at-media('tablet') {
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .post {
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include at-media('tablet') {
+      margin-bottom: 0;
+    }
+
+  }
+}
+
+.featured-posts__heading {
+  margin-top: 0;
+  color: color('accent-cool');
+}
+
+.post-date,
+time {
+  font-weight: normal;
+  font-size: font-size($theme-body-font-family, 'xs');
+  color: color('base-dark');
+  margin-bottom: 1em;
+  margin-top: units(2);
+}
+
+.post-byline {
+  + .post-date,
+  + time {
+    white-space: nowrap;
+  }
+}
+
+.post-border {
+  border-bottom: $theme-color-secondary;
+}

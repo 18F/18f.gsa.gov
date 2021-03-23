@@ -1,23 +1,23 @@
 // What we deliver section
 // ==========================
+.usa-hero__callout {
+  h2 {
+    margin-bottom: units(2);
+  }
+}
 
 .section-deliver {
   a {
     display: inline-block;
     margin-top: 5rem;
-    font-size: $h5-font-size;
 
     &:visited {
-      color: $color-bright;
+      color: color('secondary');
 
       &:hover {
-        color: $color-bright-hover;
+        color: color('secondary-darker');
       }
     }
-  }
-
-  p {
-    font-size: $h5-font-size;
   }
 }
 
@@ -79,11 +79,4 @@
 
 .section-deliver-cta {
   clear: both;
-}
-
-// Blog section
-// boone did this, we should do it the right way some day
-section.posts_feature h2 a {
-  color: #1F2E4A;
-  text-decoration: none;
 }

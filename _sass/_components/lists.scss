@@ -2,7 +2,7 @@
   @include unstyled-list();
 
   li {
-    @include u-margin-bottom($paragraph-margins);
+    margin-bottom: units(2);
   }
 }
 
@@ -14,15 +14,56 @@
   .list-images-item .list-images-image {
     height: auto;
     margin: 0;
-    min-width: 1.5 * $icon-diameter;
-    width: 1.5 * $icon-diameter;
-    @include u-margin-right($paragraph-margins);
+    min-width: 45px;
+    width: 45px;
+    margin-right: 12px;
+  }
+
+  .list-images-image {
+    margin-right: units('105');
   }
 }
+
 
 .list-images-item {
   align-items: center;
   display: inline-flex;
   min-height: 54px;
   width: 100%;
+}
+
+
+// Project page lists
+
+.partner-info {
+
+  padding-left: units(2);
+
+  @include at-media('tablet') {
+    padding-left: 0;
+  }
+
+  a {
+    color: color('accent-cool');
+    text-decoration: underline;
+  }
+
+  .usa-sidenav__sublist a {
+    padding: units('05') 0;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: unset;
+      color: color('primary-dark');
+    }
+  }
+
+  h5 {
+    padding-top: units(2);
+    padding-bottom: units(1);
+  }
+
+  .agency-partner-name {
+    line-height: 1.6rem;
+  }
 }

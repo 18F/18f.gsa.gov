@@ -15,10 +15,10 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="grid-container usa-section break-bottom-gray">
+<div class="grid-container usa-section case-section">
   <section class="grid-row">
-    <div class="tablet:grid-col-8">
-      <p>
+    <div class="tablet:grid-col-9">
+      <p class="font-sans-lg">
         18F partners with federal agencies to improve the user experience of government 
         services by helping them build and buy technology. If you're looking to implement 
         a requirement, update a public-facing website, or digitize a process, 18F can work with 
@@ -28,25 +28,18 @@ gridless: true
   </section>
 </div>
 
-<div class="grid-container">
-  <section class="usa-section break-bottom-gray">
+<section class="usa-section case-section grid-container">
     <div class="usa-section-bottom">
       <h2>Case Studies</h2>
       <div class="grid-row grid-gap">
+      <ul class="usa-card-group">
         {% assign featured_services = site.data.featured_services %}
         {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for featured in featured_services %}
-          {% assign project = projects_list | where: "agency", featured.agency | first %}
-          {% include card.html
-          image_src=project.image
-          image_alt=project.image_accessibility
-          image_icon=project.image_icon
-          agency=project.agency
-          tagline=project.title
-          description=project.excerpt
-          link=project.permalink
-          %}
+          {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
+          {% include card.html project=featured_project.slug %}
         {% endfor %}
+      </ul>
       </div>
     </div>
     {%- comment -%} <p>
@@ -55,21 +48,16 @@ gridless: true
         {% include svg/icons/arrow-right.svg %}
       </a>
     </p> {%- endcomment -%}
-  </section>
-</div>
-
-<section class="grid-container usa-section break-bottom-gray">
-  <section class="pad-right-left">
-    <div class="home-testimonial">
-      18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.
-      <span>
-        - Christina Ho, Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury
-      </span>
-    </div>
-  </section>
 </section>
 
-<div class="usa-section background-gray">
+{% include testimonial.html
+ quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
+ attribution="Christina Ho"
+ position="Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury"
+ agency_image="treasury.svg"
+ %}
+
+<div class="usa-section bg-base-lightest">
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}

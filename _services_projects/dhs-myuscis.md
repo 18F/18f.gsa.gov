@@ -22,7 +22,7 @@ U.S. Citizenship and Immigration Services (USCIS) wanted to make the naturalizat
 	18F's work on the myUSCIS site has received awards from USCIS and the Center for Plain Language. GovLoop called it one of the <a href="https://www.govloop.com/community/blog/9-impressive-government-successes-2017/">9 most impressive government successes of 2017</a>.
 </div>
 
-<div class="small-caps">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Using pain points as our starting point
 
 We began by talking to dozens of people who had gone through the naturalization process. We also listened to USCIS customer service center calls, interviewed staff, and visited immigration offices to get a clearer picture of employees’ experiences and obstacles.

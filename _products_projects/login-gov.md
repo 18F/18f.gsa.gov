@@ -24,7 +24,7 @@ Hundreds of applications across government websites require visitors to log in. 
 
 To improve visitors' experience and increase federal efficiency, 18F and the U.S. Digital Service worked together to create login.gov. Login.gov offers a single sign-on solution for government websites that lets the public access services across select agencies with the same username and password. Because the service is maintained centrally, it reduces duplication across agencies.
 
-<div class="small-caps">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Making the platform simple and secure
 
 The login.gov team was guided by two principles: 1) create a user experience on par with top tech industry websites; and 2) focus on privacy and security from the very beginning. With a user-centered design approach, login.gov makes it easy and intuitive for visitors to choose their login credentials. On the safety side, login.gov guarantees an industry-leading degree of security, with privacy and end-to-end encryption as core tenets of the platform. Users own their own data, it’s strongly encrypted, and none of it is shared across agencies unless a user explicitly allows it.

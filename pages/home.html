@@ -6,11 +6,11 @@ redirect_from: /dashboard/
 redirect_from: /developer/
 ---
 
-<section class="background-dark">
+<section class="bg-primary-dark">
   <section class="usa-hero usa-hero--primary">
     <div class="grid-container">
       <div
-        class="usa-hero__callout background-dark tablet:grid-col-8"
+        class="usa-hero__callout bg-primary-dark tablet:grid-col-8"
       >
         <h2>
           18F partners with agencies to improve the user experience of
@@ -26,16 +26,14 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section grid-container">
-  <section class="pad-right-left">
-    <div class="home-testimonial">
-      We engaged with 18F, and it was a game-changer for us. They came in and
-      helped the IT team and business owners get involved in the agile
-      development process. It changed our whole methodology.
-      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
-    </div>
-  </section>
-</section>
+{% include testimonial.html
+  quote="We engaged with 18F, and it was a game-changer for us. They came in and
+  helped the IT team and business owners get involved in the agile
+  development process. It changed our whole methodology."
+  attribution="Alec Palmer"
+  position="FEC’s Chief Information Officer"
+  agency_image="fec.svg"
+  %}
 
 <section class="usa-section grid-container">
   <section class="grid-gap">
@@ -51,7 +49,7 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section background-gray">
+<section class="usa-section bg-base-lightest">
   <section class="grid-container">
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
@@ -141,18 +139,20 @@ redirect_from: /developer/
   </section>
 </section>
 
-<section class="usa-section background-gray">
+<section class="usa-section bg-base-lightest">
   <section class="usa-section grid-container">
     <h2>Featured projects</h2>
     <div class="grid-row grid-gap">
-      {% include card-project.html project='fec-gov' %} {% include
-      card-project.html project='treasury-data-act' %} {% include
-      card-project.html project='calc' %}
+      <ul class="usa-card-group">
+        {% include card.html project='fec-gov' %} 
+        {% include card.html project='treasury-data-act' %} 
+        {% include card.html project='calc' %}
+      </ul>
     </div>
   </section>
 </section>
 
-<section class="grid-container usa-section posts_feature">
+<section class="grid-container usa-section featured-posts">
   <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
   <ul class="grid-row grid-gap">
     {% for post in site.posts limit:3 %} {% include post.html

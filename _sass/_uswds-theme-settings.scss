@@ -1,0 +1,10 @@
+// -------------------------------------
+// USWDS Thme
+@import '_theme/uswds-theme-general';
+@import '_theme/uswds-theme-typography';
+@import '_theme/uswds-theme-spacing';
+@import '_theme/uswds-theme-color';
+@import '_theme/uswds-theme-utilities';
+
+// components import needs to be last
+@import '_theme/uswds-theme-components';

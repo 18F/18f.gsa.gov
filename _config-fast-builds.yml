@@ -4,6 +4,15 @@ gems:
   - jekyll-feed
 
 env: "development"
+
+
+
+
+sass:
+    load_paths:
+      - _sass
+      - node_modules
+
 exclude:
 - .about.yml
 - .cfignore
@@ -29,7 +38,6 @@ exclude:
 - ISSUE_TEMPLATE.md
 - killport
 - LICENSE.md
-- node_modules
 - package.json
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
@@ -42,5 +50,4 @@ exclude:
 - tests/
 - tests/schema/tags.yml
 - tmp/
-- vendor
 - _posts/

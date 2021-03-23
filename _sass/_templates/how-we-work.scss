@@ -1,15 +1,12 @@
 // How we work
 // ==========================
 
-.page-how-we-work {
   .graphic-list {
-    border-top: $border-accent;
-    border-color: $color-medium;
-    font-size: initial;
+    border-top: units(1) solid color('accent-cool');
+
     list-style: none;
     margin-top: 3rem;
     padding-left: 0;
-    padding-top: $paragraph-margins;
 
     @include at-media('tablet') {
       margin-top: 0;
@@ -42,7 +39,6 @@
     float: left;
     width: 90px;
   }
-}
 
 .hww-intro {
   max-width: 700px;
@@ -52,13 +48,6 @@
   @include h3;
   margin-bottom: 3rem;
   margin-top: 0;
-}
-
-.hww-item {
-  h2 {
-    @extend .small-caps;
-    margin-top: 0;
-  }
 }
 
 .section-case-studies-text {

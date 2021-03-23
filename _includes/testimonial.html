@@ -1,0 +1,15 @@
+<section class="usa-section grid-container testimonial">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-offset-2 tablet:grid-col-8 testimonial__body">
+        &#8220;{{ include.quote }}&#8221;
+      </div>
+    </div>
+    <div class="grid-row grid gap">
+      <div class="tablet:grid-offset-2 tablet:grid-col-6 testimonial__attribution">
+        <img class="circle-7" src="{{ site.baseurl }}/assets/img/logos/agencies/{{ include.agency_image }}" alt="">
+        <p><span>&#8212; {{ include.attribution }}</span><br>
+            {{ include.position }}
+        </p>
+      </div>
+    </div>
+</section>

@@ -1,44 +1,29 @@
 // What we deliver page
 // ==========================
 
-.page-what-we-deliver {
-  .main-content {
-    img {
-      width: 8rem;
-      margin-bottom: $theme-site-margins-width;
-    }
-  }
-
-  .usa-width-one-sixth {
-    text-align: center;
-
-    @include at-media('tablet') {
-      @include grid-col(2);
-
-      &:nth-child(3n) {
-        @include grid-col(2);
-      }
-
-      &:nth-child(6n) {
-        margin-right: 0;
-      }
-    }
-  }
-
-  .section-list {
-    &:first-child {
-      padding-top: 0;
-    }
-
-    &:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-  }
-
-  @include at-media('tablet') {
-    .card {
-      @include u-margin-bottom(4);
-    }
-  }
+.usa-section.case-section {
+  border-bottom: units('1px') solid color('base-lightest');
+  @include u-padding-y(5);
 }
+
+// Case Study page
+// ==========================
+.case-study-preheader {
+  color: color('base-dark');
+  @include u-text('uppercase');
+  font-size: font-size('sans', '2xs');
+  font-weight: bold;
+}
+
+.case-study h3 {
+  margin-top: units('05');
+}
+
+//Project page CTA
+.bg-accent-cool h3 {
+  color: color('white');
+  letter-spacing: ls(1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

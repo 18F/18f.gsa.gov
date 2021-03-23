@@ -10,7 +10,8 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  {% asset netlify-cms.js %}
+  <script src="{{ '/assets/js/netlify-cms.js' | prepend: site.baseurl  }}"></script>
+
   <script>
     CMS.registerPreviewStyle("{{ '/assets/css/main.css' | prepend: site.baseurl }}");
     CMS.registerEditorComponent({

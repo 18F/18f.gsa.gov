@@ -1,110 +1,26 @@
-$card-image-height: 200px;
+.usa-card {
 
-.card[aria-hidden=true] {
-  display: none;
-}
-
-.card {
-  margin-bottom: $theme-site-margins-width;
-
-  &:hover,
-  &:focus {
-    svg g,
-    svg path,
-    svg ellipse,
-    svg polygon,
-    svg polyline {
-      stroke: $color-medium-hover;
-    }
+  a {
+    text-decoration: none;
   }
 
-  @include at-media('tablet') {
-    &:nth-last-of-type(1),
-    &:nth-last-of-type(2),
-    &:nth-last-of-type(3) {
-      margin-bottom: 0;
+  .usa-card__img {
+    height: 200px;
+  }
+
+  h6 {
+    font-weight: bold;
+    color: color('base-dark');
+    margin-bottom: units('05');
+  }
+
+  h3 {
+    color: color('primary-dark');
+  }
+
+  .usa-card__footer {
+    font-weight: bold;
+    font-size: $theme-type-scale-lg;
     }
 
-    &:nth-of-type(1),
-    &:nth-of-type(2),
-    &:nth-of-type(3) {
-      margin-bottom: $theme-site-margins-width;
-    }
-  }
-}
-
-.card-link {
-  background-color: color('white');
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  text-decoration: none;
-  width: 100%;
-
-  @include hover-box-shadow;
-  @include at-media('tablet') {
-    margin-bottom: 0;
-  }
-}
-
-.card-link-tagline {
-  text-decoration: none;
-}
-
-.card-banner {
-  @include u-padding($paragraph-margins * 2);
-  background-color: color('white');
-  flex: 1 0 auto;
-  float: left;
-  width: 100%;
-
-  h4 {
-    margin-top: 0;
-  }
-}
-
-.card-cta {
-  @include u-margin($paragraph-margins * 2);
-  margin-top: 0;
-}
-
-.card-image {
-  float: left;
-}
-
-.card-description {
-  font-size: 1.7rem;
-}
-
-.card-tag {
-  @include small-caps;
-  color: color('gray-cool-70');
-}
-
-.card-image-bg {
-  background-color: color('gray-cool-5');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: $card-image-height;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.card-image-svg {
-  svg {
-    height: 100%;
-    width: 100%;
-    padding: $theme-site-margins-width;
-
-    g,
-    path,
-    ellipse,
-    polygon,
-    polyline {
-      stroke: $color-medium;
-    }
-  }
 }

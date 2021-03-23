@@ -1,0 +1,10 @@
+# Header colors
+colors:  
+  header:
+    header-bg: 'white'
+  top-navigation:
+    top-nav-bg: 'white'
+    top-nav-link: 'base-dark'
+    top-nav-link-hover: 'accent-cool'
+    top-nav-link-hover-bg: 'white'
+    top-nav-link-current: 'accent-cool'

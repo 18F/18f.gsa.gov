@@ -1,0 +1,91 @@
+// Blog index
+// ==========================
+
+.blog-content {
+  padding-right: 10px;
+}
+
+.sidebar {
+  label {
+    font-size: font-size('body', $theme-h4-font-size);
+    font-weight: $theme-font-weight-bold;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: units(5);
+    font-size: font-size('body', 'sm');
+  }
+}
+
+.sidebar-callout {
+  background-color: color('gray-cool-5');
+  margin-bottom: 4rem;
+  padding: 20px;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.sidebar-heading-topic {
+  padding-top: units(2);
+  border-top: 10px solid color('secondary-dark');
+}
+
+.blog-footer {
+  h2 {
+    font-weight: normal;
+  }
+
+  .usa-button {
+    margin: 0;
+  }
+}
+
+.media-link img {
+  width: 100%;
+}
+
+.sidebar-icons {
+  text-decoration: none;
+}
+
+.sidebar-icon-twitter {
+  margin-right: 8px;
+  width: 40px;
+}
+
+.sidebar-icon-rss {
+  width: 40px;
+}
+
+.sidebar-icon-github {
+  width: 24px;
+}
+
+// Blog pagination
+// ==========================
+
+.pagination {
+  color: color('base-dark');
+  font-size: font-size('body', 'sm');
+  margin-top: 2rem;
+
+  > div {
+    float: left;
+    width: 33%;
+
+    &:nth-child(2) {
+      text-align: center;
+    }
+
+    &:last-child {
+      a {
+        float: right;
+      }
+    }
+  }
+}

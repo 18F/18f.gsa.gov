@@ -1,0 +1,29 @@
+.usa-header,
+.usa-sidenav-list {
+
+  @include at-media($theme-header-min-width) {
+
+    .usa-button {
+      margin: 0;
+    }
+
+  }
+
+  .usa-button {
+    color: color('white');
+    background-color: color('accent-cool');
+
+    &:hover {
+      background-color: color('secondary-dark');
+      color: color('white');
+      text-decoration: none;
+    }
+  }
+}
+
+.usa-sidenav-list,
+.usa-footer-nav .usa-footer-primary-content {
+  .usa-button {
+    margin: units(1.5) 0;
+  }
+}

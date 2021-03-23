@@ -20,7 +20,7 @@ Today, more than 80 percent of American families live in urban areas, and many l
 
 The challenge was designing a website that fourth graders would be able to use. How do you design a federal website for an audience that doesn’t know the word federal?
 
-<div class="small-caps">Approach</div>
+<div class="case-study-preheader margin-top-6">Approach</div>
 ### Building a federal website for 10-year-olds
 
 Before we got involved, the Department of the Interior had already held events to talk to fourth graders and test out ideas for the website, so they were on the right path toward understanding real users and prioritizing their needs.

@@ -92,7 +92,7 @@ If startups and companies like General Electric can do it, why not the
 U.S. Government? Our goal with this approach is two-fold: build
 user-centered digital services, and prove that building technology in an
 agile manner is possible in government at scale. [Let us
-know]({{ site.baseurl }}/#contact) how we can help you, and how you can
+know]({{ site.baseurl }}/contact/) how we can help you, and how you can
 help us (hint: we want you!).
 
-[Team 18F]({{ site.baseurl }}/#team)
+[Team 18F]({{ site.baseurl }}/about/#our-team)

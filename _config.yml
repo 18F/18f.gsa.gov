@@ -9,6 +9,7 @@ env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
 github_repo: https://github.com/18F/18f.gsa.gov/blob/main
+theme: uswds-jekyll
 
 related_posts: 3
 
@@ -22,6 +23,9 @@ analytics:
 # blog archive at /blog
 paginate: 5
 paginate_path: "blog/page/:num/"
+
+# enable search bar
+search_site_handle: 18F-site
 
 jekyll-archives:
   enabled:
@@ -123,9 +127,6 @@ defaults:
     layout: styleguide
     include_subnav: true
 
-frontmatter_tests:
-  path: "tests/schema"
-
 footer:
   image: /assets/img/logos/18F-Logo-M.png
   email:
@@ -167,7 +168,6 @@ exclude:
 - ISSUE_TEMPLATE.md
 - killport
 - LICENSE.md
-- node_modules
 - package.json
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
@@ -177,7 +177,6 @@ exclude:
 - tests/
 - tests/schema/tags.yml
 - tmp/
-- vendor
 
 # jekyll plugins
 plugins:
@@ -187,15 +186,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll_oembed
 
-# Jekyll Assets
-assets:
-  sources:
-    - _assets/css
-    - _assets/js
-    - _sass/
-    - node_modules/netlify-cms/dist
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+sass:
+    load_paths:
+      - _sass
+      - node_modules
+

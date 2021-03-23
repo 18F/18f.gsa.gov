@@ -1,114 +1,96 @@
-// Header
-// ==========================
-header[role=banner] {
-  ul {
-    @include unstyled-list;
+.usa-header {
+  @if variable-exists(header-bg) {
+    background-color: color($header-bg);
+  }
 
-    // *TODO*: De-nest this once we fix lists in WDS
-    li {
-      display: inline-block;
-      background: transparent;
-      width: auto;
+  .usa-logo {
+    a {
+      @if variable-exists(header-title) {
+        color: color($header-title);
+      }
+      align-items: center;
+      display: flex;
+    }
 
-      a {
-        @include u-padding-y(2.5);
+    .usa-logo-img {
+      float: left;
+      height: units(3);
+      margin-right: units(1);
 
-        color: color('gray-cool-60');
-        font-weight: $theme-font-weight-bold;
-        text-decoration: none;
+      @include at-media($theme-header-min-width) {
+        margin-top: 0;
+        height: units(6);
+      }
 
-        &:hover,
-        &:focus {
-          background-color: $color-gray-hover;
-          color: $color-black;
-        }
-
-        &:active {
-          background-color: color('gray-cool-5');
-        }
-
-        &.usa-current {
-          color: $color-black;
-
-          span {
-            border-bottom: $border-accent;
-            padding-bottom: 1.4rem;
-
-            @-moz-document url-prefix() {
-              padding-bottom: 1.3rem; // Current nav link border highlight fix for Firefox
-            }
-
-            @media screen and (-webkit-min-device-pixel-ratio:0) {
-              padding-bottom: 1.45rem; // Current nav link border highlight fix for Safari
-            }
-          }
-        }
+      + .usa-logo__text {
+        float: left;
       }
     }
   }
 
-  nav[role=navigation] {
-    @include u-margin-y(2);
-    display: none;
-    float: right;
-    font-size: $theme-small-font-size;
+  &.usa-header--extended .usa-logo-img {
+    @include at-media($theme-header-min-width) {
+      height: units(9);
+    }
+  }
 
-    @include at-media('tablet-lg') {
-      display: block;
+  .usa-nav__secondary-links {
+    a {
+      @if variable-exists(header-link) {
+        color: color($header-link);
+      }
+
+      &:hover {
+        @if variable-exists(header-link-hover) {
+          color: color($header-link-hover);
+        }
+      }
     }
   }
 }
 
-.site-logo {
-  @include u-margin-y(0);
-  display: block;
-  float: left;
-
-  img {
-    width: 4.4rem;
-  }
+// set color and size of bar underneath nav items
+// add-bar(weight, color, side, length, offset-x)
+@mixin nav-border-basic {
+  @include add-bar(0.5, 'accent-cool', 'bottom', 0, 2, -0.5);
 }
 
-// scss-lint:disable PropertyCount
-.menu-btn {
-  @include button-unstyled;
-  background-color: $color-medium;
-  border-radius: units($theme-border-radius-md);
-  color: color('white');
-  display: inline;
-  float: right;
-  font-size: $h6-font-size;
-  line-height: 2rem;
-  height: 3rem;
-  margin-right: 1rem;
-  width: 5.8rem;
-  text-align: center;
-  text-decoration: none;
+// usa-header--basic
+// ---------------------------------
 
-  @include at-media('desktop') {
-    display: none;
-  }
+.usa-header--basic {
+  @include at-media($theme-header-min-width) {
+    .usa-navbar {
+      position: relative;
+      width: $theme-header-logo-text-width; // TODO: review this more
+    }
 
-  &:hover {
-    color: color('white');
-    background-color: $color-dark;
-  }
+    .usa-nav {
+      @include u-flex('row', 'align-center', 'justify-end');
+      display: flex;
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: units(2);
+      padding-left: units(1);
+      width: 100%;
+    }
 
-  &:visited {
-    color: color('white');
-  }
-}
+    .usa-nav-container {
+      @include u-flex('align-end', 'justify');
+      display: flex;
+    }
 
-.usa-nav__primary > .usa-nav__primary-item {
-  a {
-    @include at-media('desktop') {
-      @include u-padding-x(1);
-
+    .usa-nav__primary-item > .usa-current,
+    .usa-nav__link:hover {
+      @include nav-border-basic;
     }
   }
 }
 
-.usa-header--basic .usa-nav__primary-item > .usa-current::after,
-.usa-header--basic .usa-nav__link:hover::after {
-  background-color: $color-medium;
+// The search <input>
+[type="search"] {
+  min-width: 0; // Fix a Firefox display quirk
+  width: calc(
+      #{$theme-search-min-width} + #{units($theme-button-small-width)}
+  );
 }
