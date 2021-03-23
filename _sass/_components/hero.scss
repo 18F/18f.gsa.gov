@@ -3,6 +3,14 @@
 
 .usa-hero--primary {
   background-image: none;
+
+  h1,
+  h2 {
+    line-height: lh('heading', 3);
+  }
+
+  padding-top: units(5);
+  padding-bottom: units(5);
 }
 
 .page-join-18f,

@@ -63,10 +63,10 @@ gridless: true
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
     <div>
-      <ul class="list-columns grid-row grid-gap">
+      <ul class="agency-lists grid-row grid-gap">
       {% for group in partner_groups %}
         <li class="tablet:grid-col-4">
-          <ul class="list-columns list-images">
+          <ul class="agency-lists list-images">
           {% for partner in group %}
             <li class="list-images-item">
               <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.logo }} logo" />

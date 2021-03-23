@@ -8,7 +8,7 @@ redirect_from: /developer/
 
 <section class="bg-primary-dark">
   <section class="usa-hero usa-hero--primary">
-    <div class="grid-container grid-row padding-y-6">
+    <div class="grid-container grid-row">
       <div class="tablet:grid-col-6">
       <h1>
         18F is a technology and design consultancy for the U.S. Government,
@@ -42,8 +42,8 @@ redirect_from: /developer/
 
 <section class="usa-section bg-base-lightest padding-y-0">
   <div class="grid-container">
-    <div class="grid-row grid-gap ">
-      <div class="tablet:grid-col-8 padding-y-5">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-6 padding-y-6">
         <h2>We support your mission</h2>
         <p>
           As an office within the General Services Administration, we know how to
@@ -52,7 +52,7 @@ redirect_from: /developer/
           budget, and use leading technology practices.
         </p>
       </div>
-      <div class="tablet:grid-col-4 home-mission-container">
+      <div class="tablet:grid-col-6 home-mission-container">
         <img src="{{ site.baseurl }}/assets/img/2people-talking.jpeg" alt>
       </div>
     </div>
@@ -61,10 +61,10 @@ redirect_from: /developer/
 
 <section class="usa-section">
   <div class="grid-container">
-    <h2>What 18F can do</h2>
-    <div class="grid-row">
+    <h2 class="margin-bottom-2">What 18F can do</h2>
+    <div class="grid-row grid-gap">
       <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img square-6"  src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
+        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
         <div class="usa-media-block__body">
           <p>
           <strong>Modernize</strong> software development processes while introducing good
@@ -73,7 +73,7 @@ redirect_from: /developer/
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img square-6"  src="{{ site.baseurl }}/assets/img/tablet-hand-blue--c.svg" alt="">
+        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/tablet-hand-blue--c.svg" alt="">
         <div class="usa-media-block__body">
           <p>
             <strong>Improve</strong> public-facing services like websites or applications
@@ -81,7 +81,7 @@ redirect_from: /developer/
         </div>
       </div>
       <div class="usa-media-block tablet:grid-col">
-        <img class="usa-media-block__img square-6"  src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
+        <img class="usa-media-block__img usa-media-block__cando" src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
         <div class="usa-media-block__body">
           <p>
             <strong>Digitize and streamline</strong> internal systems to save time and
@@ -110,10 +110,10 @@ redirect_from: /developer/
     {% assign agency_partners = site.data.featured_agencies %} {% assign
     partner_groups = agency_partners | in_groups: 3 %}
     <h2>Some agencies we’ve worked with</h2>
-    <ul class="grid-row list-columns grid-gap">
+    <ul class="grid-row grid-gap usa-unstyled-list">
       {% for group in partner_groups %}
       <li class="tablet:grid-col-4">
-        <ul class="list-columns list-images">
+        <ul class="agency-lists list-images">
           {% for partner in group %}
           <li class="list-images-item">
             <img
@@ -139,7 +139,7 @@ redirect_from: /developer/
     <p>
       <a
         class="link-arrow-right post-link-continue_reading"
-        href="{{ '/what-we-deliver/#some-agencies-weve-worked-with' | prepend: site.baseurl }}"
+        href="{{ site.baseurl }}/what-we-deliver/"
       >
         See more agency partners {% include svg/icons/arrow-right.svg %}
       </a>
@@ -147,11 +147,13 @@ redirect_from: /developer/
   </div>
 </section>
 
-<section class="grid-container usa-section featured-posts">
-  <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
-  <ul class="grid-row grid-gap">
-    {% for post in site.posts limit:3 %} {% include post.html
-    post_date=post.date post_title=post.title post_excerpt=post.excerpt
-    post_url=post.url %} {% endfor %}
-  </ul>
+<section class="usa-section featured-posts">
+  <div class="grid-container">
+    <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
+    <ul class="grid-row grid-gap">
+      {% for post in site.posts limit:3 %} {% include post.html
+      post_date=post.date post_title=post.title post_excerpt=post.excerpt
+      post_url=post.url %} {% endfor %}
+    </ul>
+  </div>
 </section>

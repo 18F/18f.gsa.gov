@@ -93,12 +93,17 @@ a {
     display: none;
     object-fit: cover;
     height: 100%;
-    max-height: 260px;
+    max-height: 294px;
 
     @include at-media('desktop') {
       display: block;
     }
   }
+}
+
+.usa-media-block__cando {
+  margin-right: units(2);
+  @include u-square(6);
 }
 
 //footer
