@@ -1,6 +1,7 @@
 $hero-max-height: 460px;
 $hero-graphic-lg: 75%;
 $hero-graphic-md: 45%;
+$tablet-md: 760px;
 
 .hero__container {
   flex-direction: column;
@@ -31,14 +32,14 @@ $hero-graphic-md: 45%;
   order: 4;
 }
 
-@include at-media('desktop') {
+@include at-media('tablet') {
   .hero__container {
     max-height: $hero-max-height;
   }
 
   .hero__tagline {
     @include grid-col(6);
-    font-size: size('heading', '2xl');
+    font-size: size('heading', 'lg');
   }
 
   .hero__graphic {
@@ -52,9 +53,26 @@ $hero-graphic-md: 45%;
   .hero__sub-tagline {
     @include grid-col(6);
     order: 2;
+    font-size: size('heading', 'md');
   }
 
   .hero__contact-button {
     order: 3;
+  }
+}
+
+@include at-media($tablet-md) {
+  .hero__tagline {
+    font-size: size('heading', 'xl');
+  }
+}
+
+@include at-media('desktop') {
+  .hero__tagline {
+    font-size: size('heading', '2xl')
+  }
+
+  .hero__sub-tagline {
+    font-size: size('heading', 'lg');
   }
 }
