@@ -115,6 +115,19 @@ a {
 
 }
 
+// -------------------------------------
+// page introduction and call to action
+
+.usa-graphic-list__heading {
+  font-size: size('sans', 'xl');
+}
+
+// special case for border on hww page
+.section-case-studies {
+  border-bottom: 1rem solid color('accent-cool');
+}
+
+
 //footer
 .usa-footer {
 
