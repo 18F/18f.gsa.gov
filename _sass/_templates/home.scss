@@ -69,7 +69,7 @@ $tablet-md: 760px;
 
 @include at-media('desktop') {
   .hero__tagline {
-    font-size: size('heading', '2xl')
+    font-size: size('heading', '2xl');
   }
 
   .hero__sub-tagline {
