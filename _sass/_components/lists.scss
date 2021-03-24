@@ -1,8 +1,9 @@
-.list-columns {
+.agency-lists {
   @include unstyled-list();
+  line-height: lh('body', 3);
 
   li {
-    margin-bottom: units(2);
+    margin-bottom: units(3);
   }
 }
 

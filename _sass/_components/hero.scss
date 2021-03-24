@@ -3,6 +3,18 @@
 
 .usa-hero--primary {
   background-image: none;
+
+  h1,
+  h2 {
+    line-height: lh('heading', 3);
+  }
+
+  @include u-padding-y(2);
+
+  @include at-media('tablet') {
+
+    @include u-padding-y(5);
+  }
 }
 
 .page-join-18f,
@@ -28,17 +40,4 @@
 
 .thick-accent-border {
   border-top: units(1) solid color('accent-cool');
-}
-
-
-// -------------------------------------
-// page introduction and call to action
-
-.usa-graphic-list__heading {
-  font-size: size('sans', 'xl');
-}
-
-// special case for border on hww page
-.section-case-studies {
-  border-bottom: 1rem solid color('accent-cool');
 }

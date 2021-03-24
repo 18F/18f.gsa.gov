@@ -73,6 +73,10 @@ a {
     // Mobile styling for ctas
     .usa-media-block {
       flex-wrap: wrap;
+
+      @include at-media('tablet') {
+        margin-bottom: 0;
+      }
     }
 
     .usa-media-block__body {
@@ -91,16 +95,39 @@ a {
 .home-mission-container {
 
   img {
-    display: none;
+    display: block;
     object-fit: cover;
-    height: 100%;
-    max-height: 260px;
-
-    @include at-media('desktop') {
-      display: block;
-    }
+    width: 100%;
+    max-height: 292px;
   }
 }
+
+.usa-media-block__cando {
+  margin-bottom: units(2);
+
+  @include at-media('tablet') {
+    margin-bottom: 0;
+  }
+
+  .usa-media-block__img {
+    margin-right: units(2);
+    @include u-square(6);
+  }
+
+}
+
+// -------------------------------------
+// page introduction and call to action
+
+.usa-graphic-list__heading {
+  font-size: size('sans', 'xl');
+}
+
+// special case for border on hww page
+.section-case-studies {
+  border-bottom: 1rem solid color('accent-cool');
+}
+
 
 //footer
 .usa-footer {
