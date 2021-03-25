@@ -8,24 +8,22 @@ redirect_from: /developer/
 
 <section class="bg-primary-dark">
   <section class="usa-hero usa-hero--primary">
-    <div class="grid-container grid-row">
-      <div class="tablet:grid-col-6">
-      <h1>
+    <div class="grid-container">
+      <div class="grid-row hero__container">
+        <h1 class="hero__tagline">
         18F is a technology and design consultancy for the U.S. Government,
         inside the government.
-      </h1>
-        <h2 class="text-light">
+        </h1>
+        <h2 class="text-light hero__sub-tagline">
           18F partners with agencies to improve the user experience of
           government services by helping them build and buy technology.
         </h2>
-        <a href="{{ site.baseurl }}/contact/" tabindex="-1" class="margin-y-3 display-block">
+        <a class="hero__contact-button" href="{{ site.baseurl }}/contact/" tabindex="-1" class="margin-y-3 display-block">
           <button class="usa-button usa-button--secondary usa-button--big">
             Get in touch
           </button>
         </a>
-      </div>
-      <div class="tablet:grid-col-6">
-        <img src="{{ site.baseurl }}/assets/img/homepage-graphic-2021.png" alt="">
+        <img class="hero__graphic" src="{{ site.baseurl }}/assets/img/homepage-graphic-2021.svg" alt="">
       </div>
     </div>
   </section>
@@ -97,8 +95,8 @@ redirect_from: /developer/
     <h2>Featured projects</h2>
     <div class="grid-row grid-gap">
       <ul class="usa-card-group">
-        {% include card.html project='fec-gov' %} 
-        {% include card.html project='treasury-data-act' %} 
+        {% include card.html project='fec-gov' %}
+        {% include card.html project='treasury-data-act' %}
         {% include card.html project='calc' %}
       </ul>
     </div>
