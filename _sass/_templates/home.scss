@@ -3,6 +3,7 @@ $hero-graphic-lg: 75%;
 $hero-graphic-md: 45%;
 $tablet-md: 760px;
 
+// Home page Hero elements
 .hero__container {
   flex-direction: column;
 }
@@ -75,4 +76,36 @@ $tablet-md: 760px;
   .hero__sub-tagline {
     font-size: size('heading', 'lg');
   }
+}
+
+// Other home section styling
+//adjust home container
+.home-mission-container {
+  margin-top: units(2);
+
+  @include at-media('tablet') {
+    margin-top: 0;
+  }
+
+  img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    max-height: 292px;
+  }
+}
+
+.usa-media-block__cando {
+  
+  margin-bottom: units(2);
+
+  @include at-media('tablet') {
+    margin-bottom: 0;
+  }
+
+  .usa-media-block__img {
+    margin-right: units(2);
+    @include u-square(6);
+  }
+
 }
