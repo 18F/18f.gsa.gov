@@ -44,25 +44,24 @@
 }
 
 .post-tags {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: units(2);
 
   a {
     padding: units(1);
     margin: units('05');
+    margin-right: units(1);
+    margin-left: 0;
 
     background-color: color('gray-cool-5');
     color: color('secondary-dark');
     display: inline-block;
     font-size: font-size($theme-body-font-family, 'xs');
     line-height: 1;
-    margin-bottom: 4px;
     text-decoration: none;
     text-transform: lowercase;
 
-    &:first-of-type {
-      margin-left: 0;
-    }
 
     &:hover {
       background-color: color('base-lightest');
