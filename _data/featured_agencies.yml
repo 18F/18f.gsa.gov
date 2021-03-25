@@ -1,9 +1,9 @@
 - name: Health and Human Services
   acronym: HHS
   logo: /assets/img/logos/agencies/HHS.svg
-- name: U.S. Marine Corps
-  acronym: USMC
-  logo: /assets/img/logos/agencies/usmc.png
+- name: U.S. Air Force
+  acronym: USAF
+  logo: /assets/img/logos/agencies/usaf.png
 - name: Department of Justice
   acronym: DOJ
   logo: /assets/img/logos/agencies/USDOJ.svg
