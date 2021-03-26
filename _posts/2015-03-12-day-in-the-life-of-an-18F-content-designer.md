@@ -1,5 +1,6 @@
 ---
 title: "A day in the life of an 18F content designer"
+date: 2015-03-12
 layout: post
 image: /assets/blog/day-in-life-content/kate.JPG
 

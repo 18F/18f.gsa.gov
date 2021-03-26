@@ -2,6 +2,7 @@
 layout: post
 
 title: "User-centered design at 18F: a design studio for natural resource revenues"
+date: 2014-09-25
 
 image: /assets/blog/eiti/eiti1.jpg
 

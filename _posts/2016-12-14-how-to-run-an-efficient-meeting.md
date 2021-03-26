@@ -1,5 +1,6 @@
 ---
 title: "How to run an efficient meeting"
+date: 2016-12-14
 authors:
 - will
 - alex-bisker

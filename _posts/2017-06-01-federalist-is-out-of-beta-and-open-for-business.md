@@ -1,5 +1,6 @@
 ---
 title: "Federalist is out of beta and open for business"
+date: 2017-06-01
 authors:
 - will
 - jonathanhooper

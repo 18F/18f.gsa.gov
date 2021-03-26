@@ -1,5 +1,6 @@
 ---
 title: "James Scott: Automating and engineering a better government"
+date: 2016-09-12
 authors:
 - melody
 tags:

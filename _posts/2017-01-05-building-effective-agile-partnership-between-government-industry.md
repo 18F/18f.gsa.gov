@@ -1,5 +1,6 @@
 ---
 title: "Building an effective agile partnership between government and industry"
+date: 2017-01-05
 authors:
 - rebecca-refoy-sidibe
 tags:

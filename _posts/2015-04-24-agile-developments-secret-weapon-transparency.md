@@ -1,5 +1,6 @@
 ---
 title: "Agile development’s secret weapon: transparency"
+date: 2015-04-24
 layout: post
 authors:
 - vdavez

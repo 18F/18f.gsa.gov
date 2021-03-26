@@ -1,5 +1,6 @@
 ---
 title: "To get things done, you need great, secure tools"
+date: 2017-02-27
 authors:
 - vdavez
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "U.S. Web Design Standards releases version 1.0"
+date: 2017-03-13
 authors:
 - willsullivan
 tags:

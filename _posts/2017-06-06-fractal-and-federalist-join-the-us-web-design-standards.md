@@ -1,5 +1,6 @@
 ---
 title: "Fractal and Federalist join the U.S. Web Design Standards"
+date: 2017-06-06
 authors:
  - shawn
 tags:

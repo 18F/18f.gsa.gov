@@ -1,5 +1,6 @@
 ---
 title: "3 ways for digital acquisition teams to work better"
+date: 2016-07-13
 authors:
 - amy-wilson
 - clara-tsao

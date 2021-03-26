@@ -1,5 +1,6 @@
 ---
 title: "Patterns for managing multi-tenant cloud environments"
+date: 2016-08-10
 authors:
 - jez-humble
 tags:

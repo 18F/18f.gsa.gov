@@ -1,5 +1,6 @@
 ---
 title: Why we’re moving 18f.gsa.gov to Federalist
+date: 2016-05-18
 authors:
 - boone
 tags:

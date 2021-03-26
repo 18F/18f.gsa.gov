@@ -1,5 +1,6 @@
 ---
 title: "Focus on accessibility"
+date: 2015-03-31
 layout: post
 image: /assets/blog/accessibility/pictureintweet.png
 tags:

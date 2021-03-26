@@ -1,6 +1,6 @@
 ---
 title: Building distributed teams
-date: January 12, 2021
+date: 2021-01-11
 authors:
   - 18F
 tags:

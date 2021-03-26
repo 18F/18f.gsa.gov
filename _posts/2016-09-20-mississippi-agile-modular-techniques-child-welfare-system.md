@@ -1,5 +1,6 @@
 ---
 title: "Mississippi brings agile and modular techniques to child welfare system contract"
+date: 2016-09-20
 authors:
 - zaccohn
 - boone

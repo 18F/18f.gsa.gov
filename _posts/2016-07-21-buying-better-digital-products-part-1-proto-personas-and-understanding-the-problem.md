@@ -1,5 +1,6 @@
 ---
 title: "Buying better digital products part 1: Proto-personas and understanding the problem"
+date: 2016-07-21
 authors:
 - clara-tsao
 - amy-wilson

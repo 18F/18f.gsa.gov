@@ -2,6 +2,7 @@
 layout: post
 
 title: "Introducing the CSS coding style guide"
+date: 2016-01-11
 
 image: /assets/blog/css-guide/css-guide.png
 

@@ -1,5 +1,6 @@
 ---
 title: 'Nicole Fenton: A wordsmith joins the government'
+date: 2016-09-06
 authors:
 - melody
 tags:

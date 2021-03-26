@@ -1,5 +1,6 @@
 ---
 title: We are hiring
+date: 2015-02-25
 layout: post
 image: /assets/blog/were-hiring/18fdc-pif.jpg
 tags:

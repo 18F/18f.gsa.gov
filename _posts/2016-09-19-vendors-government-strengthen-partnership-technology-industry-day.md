@@ -1,5 +1,6 @@
 ---
 title: "Vendors and government strengthen partnership at Technology Industry Day"
+date: 2016-09-19
 authors:
 - andre
 tags:

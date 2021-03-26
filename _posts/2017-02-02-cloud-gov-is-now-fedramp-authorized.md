@@ -1,5 +1,6 @@
 ---
 title: cloud.gov is now FedRAMP Authorized for use by federal agencies
+date: 2017-02-02
 authors:
 - britta-gustafson
 - jameshupp

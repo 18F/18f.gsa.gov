@@ -1,5 +1,6 @@
 ---
 title: "California takes a new approach to procurement"
+date: 2016-10-28
 authors:
 - alla
 - robin-carnahan

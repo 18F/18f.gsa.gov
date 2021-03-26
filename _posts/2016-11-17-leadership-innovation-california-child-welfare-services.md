@@ -1,5 +1,6 @@
 ---
 title: "Leadership and innovation at California's Child Welfare Services"
+date: 2016-11-17
 authors:
 - stuart-drown
 - mike-wilkening

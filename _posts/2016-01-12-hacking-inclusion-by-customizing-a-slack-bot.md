@@ -2,6 +2,7 @@
 layout: post
 
 title: "Hacking inclusion: How we customized a bot to gently correct people who use the word 'guys'"
+date: 2016-01-12
 
 image:
 

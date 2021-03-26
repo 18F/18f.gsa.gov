@@ -1,5 +1,6 @@
 ---
 title: "Great community turnout for Midas open source hack night"
+date: 2014-12-10
 authors:
 - sarah
 

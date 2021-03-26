@@ -1,5 +1,6 @@
 ---
 title: "18F discussion: Should project teams code first or design first?"
+date: 2015-04-03
 layout: post
 image: "/assets/blog/code-design/decisions-blue.png"
 

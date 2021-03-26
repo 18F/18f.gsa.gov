@@ -1,5 +1,6 @@
 ---
 title: "Writing for the web is easy. Writing for users is not."
+date: 2016-10-26
 authors:
 - christopher-goranson
 - emileigh

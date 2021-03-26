@@ -1,5 +1,6 @@
 ---
 title: "What’s in the first U.S. Extractives Industries Transparency Initiative report"
+date: 2015-12-16
 authors:
 - boone
 - corey-mahoney

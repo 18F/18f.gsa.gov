@@ -1,6 +1,6 @@
 ---
 title: A dashboard for privacy offices
-date: December 15, 2020
+date: 2020-12-14
 authors:
   - andrew-hyder
   - igor-korenfeld

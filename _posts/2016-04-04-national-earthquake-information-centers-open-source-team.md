@@ -1,5 +1,6 @@
 ---
 title: A visit to the National Earthquake Information Center’s open source team
+date: 2016-04-04
 authors:
 - boone
 tags:

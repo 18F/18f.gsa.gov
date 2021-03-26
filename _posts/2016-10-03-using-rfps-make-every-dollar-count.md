@@ -1,5 +1,6 @@
 ---
 title: "Using RFPs to make every dollar count"
+date: 2016-10-03
 authors:
 - mchopson
 - brendan

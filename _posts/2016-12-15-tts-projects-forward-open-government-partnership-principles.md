@@ -1,5 +1,6 @@
 ---
 title: "TTS projects forward Open Government Partnership principles"
+date: 2016-12-15
 authors:
 - dahianna
 - andre

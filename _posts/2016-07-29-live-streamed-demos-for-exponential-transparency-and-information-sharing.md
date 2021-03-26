@@ -1,5 +1,6 @@
 ---
 title: "Live streamed demos for exponential transparency and information sharing"
+date: 2016-07-29
 authors:
 - willsullivan
 tags:

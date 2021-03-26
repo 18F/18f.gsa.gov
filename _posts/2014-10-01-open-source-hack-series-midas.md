@@ -2,6 +2,7 @@
 layout: post
 
 title: "18F open source hack series: Midas"
+date: 2014-10-01
 
 image: /assets/blog/midas-oct-hacking/coding.jpg
 

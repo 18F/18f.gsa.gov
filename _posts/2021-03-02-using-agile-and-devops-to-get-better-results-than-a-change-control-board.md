@@ -1,6 +1,6 @@
 ---
 title: Using agile and DevOps to get better results than a change control board
-date: March 2, 2021
+date: 2021-03-02
 authors:
   - lindsay
 tags:

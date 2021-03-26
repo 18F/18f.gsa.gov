@@ -1,5 +1,6 @@
 ---
 title: "Mark Hopson: Negotiating on America’s behalf"
+date: 2017-01-10
 authors:
 - jhunter
 tags:

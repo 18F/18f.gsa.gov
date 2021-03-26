@@ -1,5 +1,6 @@
 ---
 title: "What is static source analysis?"
+date: 2016-10-04
 authors:
 - michael-walker
 tags:

@@ -1,5 +1,6 @@
 ---
 title: We asked everyone at 18F to reflect on the most meaningful project they worked on this year
+date: 2015-12-23
 authors:
 - melody
 tags:

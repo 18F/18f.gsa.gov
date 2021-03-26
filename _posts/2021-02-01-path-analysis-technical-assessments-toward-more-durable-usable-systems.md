@@ -1,6 +1,6 @@
 ---
 title: "Path Analysis: Technical Assessments toward more durable, usable systems"
-date: February 2, 2021
+date: 2021-02-01
 authors:
   - amy-mok
 tags:

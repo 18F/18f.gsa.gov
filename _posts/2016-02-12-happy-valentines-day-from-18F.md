@@ -1,5 +1,6 @@
 ---
 title: Happy Valentine's Day from the U.S. Web Design Standards team
+date: 2016-02-12
 authors:
     - melody
     - carolyn

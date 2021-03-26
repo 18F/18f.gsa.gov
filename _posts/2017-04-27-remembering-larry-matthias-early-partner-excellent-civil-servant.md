@@ -1,5 +1,6 @@
 ---
 title: "Remembering Larry Mathias, an early partner and excellent civil servant"
+date: 2017-04-27
 authors:
 - brethauer
 - kaitlin

@@ -1,5 +1,6 @@
 ---
 title: "How to use more open source in your next federal IT acquisition"
+date: 2014-11-26
 layout: post
 authors:
  - robert

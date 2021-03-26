@@ -1,5 +1,6 @@
 ---
 title: New citizenship resources demystify the naturalization process
+date: 2015-09-21
 tags:
 - design
 - how we work

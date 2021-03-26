@@ -1,5 +1,6 @@
 ---
 title: "A conversation about static and dynamic websites"
+date: 2016-07-11
 authors:
 - boone
 - will

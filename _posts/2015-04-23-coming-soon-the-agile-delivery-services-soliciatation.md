@@ -1,5 +1,6 @@
 ---
 title: "Coming soon: the agile delivery services solicitation"
+date: 2015-04-23
 layout: post
 image: 
 authors:

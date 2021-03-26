@@ -1,5 +1,6 @@
 ---
 title: "Charting the future of the Draft U.S. Web Design Standards"
+date: 2016-12-22
 authors:
 - willsullivan
 tags:

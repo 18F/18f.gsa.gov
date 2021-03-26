@@ -1,5 +1,6 @@
 ---
 title: "The life-changing magic of writing release notes"
+date: 2017-01-17
 authors:
 - manger
 tags:

@@ -1,5 +1,6 @@
 ---
 title: What 18F is thankful for this Thanksgiving
+date: 2016-11-25
 authors:
 - boone
 tags:

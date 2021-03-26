@@ -1,5 +1,6 @@
 ---
 title: "Announcing OASIS Discovery: making market research easier"
+date: 2015-03-04
 layout: post
 image: /assets/blog/discovery-launch/discovery-dashboard.png
 

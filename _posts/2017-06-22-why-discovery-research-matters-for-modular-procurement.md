@@ -1,5 +1,6 @@
 ---
 title: "Why discovery research matters for modular procurement"
+date: 2017-06-22
 authors:
 - colinmacarthur
 - rebecca-refoy-sidibe

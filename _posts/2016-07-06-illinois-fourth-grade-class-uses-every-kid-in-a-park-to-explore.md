@@ -1,5 +1,6 @@
 ---
 title: "Illinois fourth grade class uses Every Kid in a Park to explore
+date: 2016-07-06
 national parks and beyond"
 authors:
 - melody

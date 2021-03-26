@@ -1,5 +1,6 @@
 ---
 title: "From launch to landing: How NASA took control of its HTTPS mission"
+date: 2017-05-25
 authors:
 - karim-said
 tags:

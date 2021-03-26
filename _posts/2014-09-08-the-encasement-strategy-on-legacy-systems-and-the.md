@@ -1,6 +1,7 @@
 ---
 title: "The encasement strategy: on legacy systems and the importance of APIs"
-date: September 8, 2014
+date: 2014-09-08
+date: 2014-09-08
 authors:
   - robert
   - mhz

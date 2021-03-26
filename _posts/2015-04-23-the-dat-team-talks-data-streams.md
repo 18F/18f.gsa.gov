@@ -1,5 +1,6 @@
 ---
 title: "The dat team talks data Streams"
+date: 2015-04-23
 layout: post
 authors:
 - eric

@@ -1,5 +1,6 @@
 ---
 title: "Get the most juice out of the squeeze"
+date: 2016-10-11
 authors:
 - porta
 tags:

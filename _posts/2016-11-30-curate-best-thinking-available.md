@@ -1,5 +1,6 @@
 ---
 title: "Curate the best thinking available"
+date: 2016-11-30
 authors:
 - theresa
 tags:

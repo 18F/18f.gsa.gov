@@ -1,5 +1,6 @@
 ---
 title: "The next step towards a bug bounty program for the Technology Transformation Service"
+date: 2017-05-11
 authors:
 - omid-ghaffari-tabrizi
 - waldo-jaquith

@@ -1,6 +1,6 @@
 ---
 title: Building trust in a public health crisis
-date: June 23, 2020
+date: 2020-06-23
 authors:
   - jeffrey-durland
   - cordelia-yu

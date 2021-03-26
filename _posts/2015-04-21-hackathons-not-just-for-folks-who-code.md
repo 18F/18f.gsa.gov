@@ -1,5 +1,6 @@
 ---
 title: "Hackathons: not just for folks who code"
+date: 2015-04-21
 layout: post
 authors:
 - kate

@@ -1,5 +1,6 @@
 ---
 title: "cloud.gov is full steam ahead on its FedRAMP assessment process"
+date: 2016-07-18
 authors:
 - bret
 - diego

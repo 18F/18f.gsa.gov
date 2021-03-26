@@ -1,5 +1,6 @@
 ---
 title: "Bret Mogilefsky: Finding the big good in cloud.gov"
+date: 2016-07-28
 authors:
 - melody
 tags:

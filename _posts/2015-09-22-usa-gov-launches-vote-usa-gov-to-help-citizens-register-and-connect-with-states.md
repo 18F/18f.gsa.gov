@@ -1,5 +1,6 @@
 ---
 title: USA.gov launches vote.USA.gov to help citizens register and connect with states
+date: 2015-09-22
 authors:
 - sarahcrane
 tags:

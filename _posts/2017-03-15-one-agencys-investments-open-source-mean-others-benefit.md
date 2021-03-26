@@ -1,5 +1,6 @@
 ---
 title: One agency’s investments in open source mean others benefit
+date: 2017-03-15
 authors:
 - christopher-goranson
 - aaron-burk

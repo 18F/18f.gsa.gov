@@ -1,5 +1,6 @@
 ---
 title: "Buying better digital products part 2: Setting the product vision and strategy"
+date: 2016-07-26
 authors:
 - amy-wilson
 - clara-tsao

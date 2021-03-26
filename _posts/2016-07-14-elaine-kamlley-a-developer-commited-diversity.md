@@ -1,5 +1,6 @@
 ---
 title: "Elaine Kamlley: A developer committed to diversity"
+date: 2016-07-14
 authors:
 - melody
 tags:

@@ -2,6 +2,7 @@
 layout: post
 
 title: "Large scale development culture change: Google and the U.S. government"
+date: 2014-12-11
 
 image: /assets/blog/large-scale-development-culture-change/crossing-the-chasm-rainbow-of-death.jpg
 

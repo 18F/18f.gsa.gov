@@ -1,5 +1,6 @@
 ---
 title: "Micro-purchase’s design philosophy: Do one thing well"
+date: 2016-08-25
 authors:
 - alan
 - jacobharris

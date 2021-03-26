@@ -1,5 +1,6 @@
 ---
 title: "When a micro-purchase doesn’t work out, we try to learn from it"
+date: 2016-07-07
 authors:
 - michael-torres
 - vdavez

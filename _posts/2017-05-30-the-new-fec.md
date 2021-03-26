@@ -1,5 +1,6 @@
 ---
 title: "The new FEC.gov"
+date: 2017-05-30
 authors:
 - manger
 - jthibault

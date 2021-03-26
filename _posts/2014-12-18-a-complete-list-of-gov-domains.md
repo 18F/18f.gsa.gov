@@ -2,6 +2,7 @@
 layout: post
 
 title: "A complete list of .gov domains"
+date: 2014-12-18
 
 image: /assets/blog/dotgovs/dot-govs-screen.png
 

@@ -1,5 +1,6 @@
 ---
 title: "DATA Act prototype: Simplicity is key"
+date: 2016-08-29
 authors:
 - cm
 - becky

@@ -1,5 +1,6 @@
 ---
 title: "Presidential Innovation Fellows now accepting applications for Spring 2017"
+date: 2016-12-02
 authors:
 - andre
 tags:

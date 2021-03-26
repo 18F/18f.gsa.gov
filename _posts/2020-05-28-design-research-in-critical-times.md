@@ -1,6 +1,6 @@
 ---
 title: Design & research in critical times
-date: June 2, 2020
+date: 2020-05-28
 authors:
   - matt-dobson
   - ann-morey

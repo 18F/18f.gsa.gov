@@ -1,6 +1,6 @@
 ---
 title: Introducing the UX Guide
-date: August 4, 2020
+date: 2020-08-03
 authors:
   - melissa-braxton
   - norah-maki

@@ -1,5 +1,6 @@
 ---
 title: "Three small steps you can take to reboot agile in your organization"
+date: 2016-10-25
 authors:
 - christopher-goranson
 - michael-torres

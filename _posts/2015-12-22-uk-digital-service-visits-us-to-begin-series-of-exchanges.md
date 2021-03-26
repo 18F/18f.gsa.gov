@@ -1,5 +1,6 @@
 ---
 title: U.K. digital service visits U.S. to begin series of exchanges
+date: 2015-12-22
 authors:
 - andre
 - jhunter

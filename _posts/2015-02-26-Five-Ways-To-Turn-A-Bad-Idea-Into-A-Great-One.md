@@ -1,5 +1,6 @@
 ---
 title: "Five ways to turn a bad idea into a great one: Steve Portigal event recap"
+date: 2015-02-26
 layout: post
 image: /assets/blog/portigal-event-image/portigalevent.jpg
 

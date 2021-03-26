@@ -1,5 +1,6 @@
 ---
 title: "The intersection of art and technology"
+date: 2015-04-28
 layout: post
 authors:
 - julia
