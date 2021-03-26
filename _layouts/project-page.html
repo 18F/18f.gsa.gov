@@ -144,7 +144,7 @@ header_border: true
   </div>
   </div>
 
-  {% if matching_posts.size > 0 %}
+  <!-- {% if matching_posts.size > 0 %}
   <div class="bg-base-lightest">
     <div class="usa-section post-border">
       <section class="grid-container featured-posts">
@@ -172,5 +172,11 @@ header_border: true
       </section>
     </div>
   </div>
-  {% endif %}
+  {% endif %} -->
+  {% include related-posts.html
+    hide_date=true
+    title="Related blog posts"
+    related_posts=matching_posts
+    show_tags=false
+  %}
 </section>

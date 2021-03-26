@@ -1,9 +1,19 @@
+{% assign featured_posts = include.related_posts %}
 <section class="grid-container usa-section featured-posts">
-  {% if site.related_posts.size > 0 %}
-    <h2>Related posts</h2>
+  {% if featured_posts.size > 0 %}
+  <div class="{% if featured_posts.size > 3 %}grid-row grid-gap{% endif %}">
+    <div class="tablet:grid-col-8">
+      <h2>{{ include.title }}</h2>
+    </div>
+    {% if featured_posts.size > 3 %}
+    <div class="tablet:grid-col-4">
+      <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+    </div>
+    {% endif %}
+  </div>
   {% endif %}
   <ul class="grid-row grid-gap">
-  {% for post in page.related_posts %}
+  {% for post in featured_posts %}
     <li class="tablet:grid-col-4">
       <article>
         <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
@@ -17,17 +27,19 @@
         <p>{{ post.excerpt }}</p>
         <p>
           <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">
-            Continue reading
+            Read more
             <span class="usa-sr-only">about {{ post.title }}</span>
             {% include svg/icons/arrow-right.svg %}
           </a>
         </p>
+        {% if include.show_tags %}
         <span class="post-tags" itemprop="keywords">
           {% for tag in post.tags %}
             <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
             </a>
           {% endfor %}
         </span>
+        {% endif %}
       </article>
     </li>
     {% if forloop.index > 2 %}
