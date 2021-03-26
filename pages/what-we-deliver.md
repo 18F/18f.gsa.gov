@@ -62,7 +62,6 @@ gridless: true
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
-    <div>
       <ul class="agency-lists grid-row grid-gap">
       {% for group in partner_groups %}
         <li class="tablet:grid-col-4">
@@ -81,6 +80,5 @@ gridless: true
         </li>
       {% endfor %}
       </ul>
-    </div>
   </section>
 </div>
