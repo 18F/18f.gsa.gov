@@ -35,7 +35,7 @@
   .post {
     margin-bottom: units(3);
 
-    @include at-media('tablet'){
+    @include at-media('tablet') {
       margin-bottom: 0;
     }
 
