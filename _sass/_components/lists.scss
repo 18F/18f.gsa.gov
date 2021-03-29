@@ -1,8 +1,22 @@
-.list-columns {
+.agency-lists {
   @include unstyled-list();
+  line-height: lh('body', 3);
+  margin-top: units(2);
 
   li {
-    margin-bottom: units(2);
+    margin-bottom: units(3);
+
+    &:last-child {
+      margin-bottom: units(3);
+
+      @include at-media('tablet') {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .agency-lists {
+    margin-top: 0;
   }
 }
 
@@ -14,8 +28,8 @@
   .list-images-item .list-images-image {
     height: auto;
     margin: 0;
-    min-width: 45px;
-    width: 45px;
+    min-width: units(7);
+    width: units(7);
     margin-right: 12px;
   }
 

@@ -1,82 +1,111 @@
-// What we deliver section
-// ==========================
-.usa-hero__callout {
-  h2 {
-    margin-bottom: units(2);
+$hero-max-height: 460px;
+$hero-graphic-lg: 75%;
+$hero-graphic-md: 45%;
+$tablet-md: 760px;
+
+// Home page Hero elements
+.hero__container {
+  flex-direction: column;
+}
+
+.hero__tagline {
+  font-size: size('heading', 'xl');
+  letter-spacing: ls(1);
+  line-height: lh('heading', 3);
+  order: 1;
+}
+
+.hero__graphic {
+  align-self: flex-start;
+  max-width: $hero-graphic-lg;
+  margin-top: units(4);
+  order: 2;
+}
+
+.hero__sub-tagline {
+  font-size: size('heading', 'lg');
+  line-height: lh('heading', 3);
+  order: 3;
+}
+
+.hero__contact-button {
+  margin-top: units(4);
+  order: 4;
+}
+
+@include at-media('tablet') {
+  .hero__container {
+    max-height: $hero-max-height;
+  }
+
+  .hero__tagline {
+    @include grid-col(6);
+    font-size: size('heading', 'lg');
+  }
+
+  .hero__graphic {
+    @include grid-col(6);
+    align-self: flex-start;
+    margin-top: 0;
+    max-width: $hero-graphic-md;
+    order: 4;
+  }
+
+  .hero__sub-tagline {
+    @include grid-col(6);
+    order: 2;
+    font-size: size('heading', 'md');
+  }
+
+  .hero__contact-button {
+    order: 3;
   }
 }
 
-.section-deliver {
-  a {
-    display: inline-block;
-    margin-top: 5rem;
-
-    &:visited {
-      color: color('secondary');
-
-      &:hover {
-        color: color('secondary-darker');
-      }
-    }
+@include at-media($tablet-md) {
+  .hero__tagline {
+    font-size: size('heading', 'xl');
   }
 }
 
-.section-deliver-icons {
-  margin-top: 4.6rem;
+@include at-media('desktop') {
+  .hero__tagline {
+    font-size: size('heading', '2xl');
+  }
+
+  .hero__sub-tagline {
+    font-size: size('heading', 'lg');
+  }
 }
 
-.section-deliver-icon {
-  float: left;
-  margin-top: 3rem;
-  padding-right: $theme-site-margins-width;
-  width: 50%;
-
-  &:nth-child(odd) {
-    clear: left;
-  }
-
-  &:nth-child(even) {
-    padding-right: 0;
-  }
-
+// Other home section styling
+//adjust home container
+.home-mission-container {
+  margin-top: units(2);
 
   @include at-media('tablet') {
-    $icon-padding: 6%;
-    padding-right: $icon-padding;
-    width: 20%;
-
-    &:last-child {
-      padding-right: 0;
-    }
-
-    &:nth-child(odd) {
-      clear: none;
-    }
-
-    &:nth-child(even) {
-      padding-right: $icon-padding;
-    }
+    margin-top: 0;
   }
 
-  p {
-    font-weight: $theme-font-weight-bold;
-    margin-top: 2rem;
+  img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    max-height: 292px;
   }
 }
 
-.section-deliver-icon-img {
-  min-height: 6.8rem;
-  text-align: center;
-}
+.usa-media-block__cando {
 
-.section-deliver-icon-government {
-  margin-top: -2px;
-}
+  margin-bottom: units(2);
 
-.section-deliver-icon-path {
-  margin-top: 8px;
-}
+  @include at-media('tablet') {
+    margin-bottom: 0;
+  }
 
-.section-deliver-cta {
-  clear: both;
+  .usa-media-block__img {
+    margin-right: units(2);
+    @include u-square(6);
+  }
+
 }

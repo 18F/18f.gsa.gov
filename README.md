@@ -71,6 +71,34 @@ Per this, there are generally two main scss files:
 
 Testimonials can be added as a compontent as long as an agency logo is place in the `assets/img/agencies` directory.
 
+### Images
+
+#### Project page images
+
+It really helps to have good pictures to help us highlight project work — but you might need a little more guidance about how to get pictures that will tell a story best. Here are some helpful tips:
+
+**If possible:**
+
+1. Image should relate to the project title, the department, or the process (in order of preference)
+1. Show real users that benefit from this project
+1. Show a screenshot from the project
+1. Mix it up! Look at the current project list. Do you see too many of the same type of image (for example, mostly screenshots, mostly brainstorming sessions)
+
+**Consider accessibility and try to avoid images that:**
+
+* Are low-contrast
+* Have wording on them
+
+**Consider the audience (government employees and potential partners!) and try to avoid images with the following:**
+
+* Sensitive subject material (for example, children when writing about Child Protective Services)
+* Uninteresting subjects
+* Super meta imagery (too much of a cognitive leap when relating to subject matter)
+
+**Size:**
+
+* Banner: Size 1300x866
+
 ## Deployment
 
 The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.

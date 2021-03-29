@@ -46,7 +46,7 @@ Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tre
     * Main content on the project's background and 18F's approach
     * The sidebar for at-a-glance information like the project's website or GitHub repos. To do this, update the front matter related to the sidebar. If you don't want something to show up in the sidebar, remove it from the front matter
     * Testimonials or fun facts styling within the body of the page
-4. If you're adding an image, make sure to [check out tips on picking a project page image]({{ site.baseurl }}/styleguide/images/#project-page-images ). If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog](https://github.com/18F/18f.gsa.gov/tree/main/_includes/svg/icons) like so:
+4. If you're adding an image, make sure to the readme for tips. If you're not adding an image, make sure to specify an `image_icon` property in the front matter, and reference an SVG available in the [SVG catalog](https://github.com/18F/18f.gsa.gov/tree/main/_includes/svg/icons) like so:
 
   ```yml
   image_icon: gavel.svg

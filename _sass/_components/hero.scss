@@ -1,16 +1,19 @@
 // Hero feature
 // ==========================
 
-.usa-hero {
-  background-image: url('../img/page-feature/hire-us.jpg');
-}
-
-
 .usa-hero--primary {
   background-image: none;
 
+  h1,
+  h2 {
+    line-height: lh('heading', 3);
+  }
+
+  @include u-padding-y(2);
+
   @include at-media('tablet') {
-    background-image: url('../img/page-feature/hire-us.jpg');
+
+    @include u-padding-y(5);
   }
 }
 
@@ -20,5 +23,17 @@
     @include at-media('tablet') {
       background-position: center 7%;
     }
+  }
+}
+
+// -------------------------------------
+// Fix hero area button:focus text contrast
+.bg-primary-dark .usa-button--secondary.usa-button {
+  color: color('primary-dark');
+
+  &:focus,
+
+  &:hover {
+    color: color('base-lightest');
   }
 }

@@ -1,25 +1,22 @@
 // Featured and related posts
 // ==========================
 .featured-posts {
-  > ul {
+  ul {
     @include unstyled-list;
   }
 
   h2 {
     margin-bottom: units(2);
 
-    @include at-media('tablet') {
-      margin-bottom: 0;
-    }
-
     a {
       color: color('primary-dark');
+      text-decoration: none;
     }
 
   }
 
   article {
-    border-top: units(1) solid color('secondary');
+    border-top: units(1) solid color('accent-cool');
     margin-bottom: $theme-site-margins-width;
 
     .post-date {
@@ -36,6 +33,11 @@
   }
 
   .post {
+    margin-bottom: units(3);
+
+    @include at-media('tablet') {
+      margin-bottom: 0;
+    }
 
     &:last-of-type {
       margin-bottom: 0;

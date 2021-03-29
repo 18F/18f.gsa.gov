@@ -1,9 +1,7 @@
 // -------------------------------------
 // 18F site components
 @import '_components/blockquotes';
-
 @import '_components/card';
-@import '_components/icons';
 @import '_components/hero';
 @import '_components/lists';
 @import '_components/post-list';
@@ -13,14 +11,15 @@
 @import '_components/social-links';
 @import '_components/header';
 @import '_components/nav-buttons';
+@import '_components/utilities';
 
 // 18F site templates
 // ==========================
-@import '_templates/home';
 @import '_templates/blog-template';
 @import '_templates/guides';
 @import '_templates/how-we-work';
 @import '_templates/what-we-deliver';
+@import '_templates/home';
 
 // -------------------------------------
 // Links and link arrows
@@ -28,29 +27,12 @@ a {
   color: color('accent-cool');
 }
 
-.link-arrow_right {
-  margin-top: 1.5rem;
-  font-weight: bold;
-
-}
-
-.caret {
-  height: .65rem;
-  width: .65rem;
-}
-
 // -------------------------------------
 // USA Section padding
 .usa-section {
-  padding: units(2);
 
   @include at-media('tablet') {
     padding: units(5);
-  }
-
-  &.padding-y-0 {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   &.bg-primary-dark {
@@ -76,6 +58,10 @@ a {
     // Mobile styling for ctas
     .usa-media-block {
       flex-wrap: wrap;
+
+      @include at-media('tablet') {
+        margin-bottom: 0;
+      }
     }
 
     .usa-media-block__body {
@@ -88,35 +74,18 @@ a {
       }
     }
   }
-}
 
-// -------------------------------------
-// Fix hero area button:focus text contrast
-.bg-primary-dark .usa-button--secondary.usa-button {
-  color: color('primary-dark');
-
-  &:focus,
-
-  &:hover {
-    color: color('base-lightest');
+  &.padding-y-0 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
-
-.thick-accent-border {
-  border-top: units(1) solid color('accent-cool');
-}
-
 
 // -------------------------------------
 // page introduction and call to action
 
 .usa-graphic-list__heading {
   font-size: size('sans', 'xl');
-}
-
-// special case for border on hww page
-.section-case-studies {
-  border-bottom: 1rem solid color('accent-cool');
 }
 
 //footer
@@ -132,13 +101,4 @@ a {
     }
 
   }
-}
-
-
-.no-left-radius {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  margin-left: -1px;
-  margin-top: 1px;
-  height: 38px;
 }

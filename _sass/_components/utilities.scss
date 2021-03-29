@@ -1,0 +1,41 @@
+//Mobile helper for usa-section
+.usa-section.usa-section--mobile-no-x {
+  @include u-padding-x(0);
+
+  @include at-media('tablet') {
+    @include u-padding-x(5);
+  }
+}
+
+// Special border
+.section-case-studies {
+  border-bottom: 1rem solid color('accent-cool');
+}
+
+.thick-accent-border {
+  border-top: units(1) solid color('accent-cool');
+}
+
+// Caret and icons
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.caret {
+  height: .65rem;
+  width: .65rem;
+}
+
+// Not left radius for signup button
+.no-left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  margin-top: 1px;
+  height: 38px;
+}
+
+.align-items-center {
+  align-items: center;
+}
