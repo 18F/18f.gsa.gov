@@ -1,16 +1,17 @@
-- name: Department of Agriculture
-  acronym: USDA
-  logo: /assets/img/logos/agencies/USDA.svg
-- name: U.S. Marine Corps
-  acronym: USMC
-  logo: /assets/img/logos/agencies/usmc.png
+- name: Health and Human Services
+  acronym: HHS
+  logo: /assets/img/logos/agencies/HHS.svg
+- name: U.S. Air Force
+  acronym: USAF
+  logo: /assets/img/logos/agencies/usaf.png
+- name: Department of Justice
+  acronym: DOJ
+  logo: /assets/img/logos/agencies/USDOJ.svg
+- name: Department of Interior
+  logo: /assets/img/logos/agencies/USDOI.svg
+  acronym: DOI
+- name: State of Wisconsin
+  logo: /assets/img/logos/agencies/wisconsin.svg
 - name: Office of Management and Budget
   acronym: OMB
   logo: /assets/img/logos/agencies/OMB.svg
-- name: Center for Medicaid and Medicare Services
-  logo: /assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
-- name: U.S. Air Force
-  logo: /assets/img/logos/agencies/usaf.png
-- name: National Geospatial-Intelligence Agency
-  acronym: NGA
-  logo: /assets/img/logos/agencies/nga.png
