@@ -4,6 +4,14 @@
 
   li {
     margin-bottom: units(3);
+
+    &:last-child {
+      margin-bottom: units(3);
+
+      @include at-media('tablet') {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
