@@ -6,13 +6,15 @@ authors:
   - alex-pandel
 tags:
   - health and human services
-  - how we work
-  - agency work
   - user-centered design
-excerpt: 18F’s Public Benefits Portfolio team has been honored by the privilege
-  to support social safety net programs to strengthen the digital infrastructure
-  and tools they use to get critical benefits into the hands of the people they
-  serve efficiently and equitably.
+  - data access
+excerpt: Pairing our deepening domain knowledge of the unique nuances of
+  benefits administration and delivery across programs and levels of government
+  with our core expertise in modern technology and digital service delivery,
+  18F’s Public Benefits Portfolio team helped empower our partners to take some
+  important leaps forward to rise to the critical challenges of the current
+  moment, and we’re thrilled to highlight some of their achievements from this
+  past year.
 ---
 It would be the understatement of the century to say the last 12 months have been an intense time for our country and our government. In particular, our country’s social safety net programs have been working in overdrive for the past year, as demand for their services have skyrocketed in light of the economic upheaval caused by the COVID-19 pandemic. 
 
@@ -34,7 +36,7 @@ After years of collaboration and coaching, in 2020 **we were able to wind down 1
 
 Today, **our CMS partners have an established design research practice in place, and are successfully leading a full development team on their own**. Since 18F left, they have expanded the beta program to more states, and are making steady progress towards fully launching eAPD later this year. By bringing this product management capacity in-house, our CMS partners are now well-situated to lead other impactful digital services efforts themselves, and use these skills to better support their state partners in their efforts to improve their Medicaid systems as well.
 
-![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
+![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
 
 > We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet! - CMS partner
 >
@@ -52,8 +54,6 @@ As part of this shift, we co-developed and piloted a set of tools and a discussi
 
 > It has increased my confidence and given me a reliable resource where I can know what I’m doing, and when I know what I’m doing, I can help the states. I love it! - CMS State Officers
 
-
-
 ### **Making benefits eligibility rules more transparent and reusable**
 
 After years of partnering with state governments, our team has witnessed firsthand the painstaking efforts states and territories have to individually undertake to interpret new policy rules and update their IT systems when federal eligibility rules change. In response, we created [the Eligibility APIs Initiative](https://github.com/18F/eligibility-rules-service/blob/master/README.md) to investigate promising approaches to address this pain point. 
@@ -66,8 +66,6 @@ This year, we are exploring ways for federal partners to reuse the eligibility r
 
 > 18F created a tool that filled a massive pothole we have been trying to address for years. Now, checking one’s eligibility is a snap due to this incredibly accessible calculator – which hundreds of Virginians use every week. - A legal aid staff attorney in Virginia 
 
-
-
 ### Data-informed grantee services with the Office of Head Start
 
 Head Start promotes school readiness among young children from low-income families through grants and support to local agencies in communities nationwide. Through the Training and Technical Assistance (TTA) program, the Office of Head Start (OHS) assists program staff and grantees in delivering quality services to children and families, with an aim towards continuous improvement.
@@ -79,8 +77,6 @@ Over the past year, **18F and OHS have partnered to address this challenge by se
 Through our user research, we learned that different people interpreted the data in different ways, making it difficult to use data to drive decision making throughout the TTA system. As OHS builds the foundation for a new data system, we are establishing common language and data definitions with the people that use and create the data. This effort should improve OHS’s ability to continuously improve the TTA services they offer to local providers, and ultimately to improve outcomes for children and families. 18F is proud to support this thoughtful work from our visionary Head Start partners.
 
 > Last fall we had a super big, clunky, swamp-of-a-problem, and a complicated charge to build trust in many directions. Today we are no longer in the muck; we have some promising tools for users, a committed vendor, and partners who are starting to count on us as much as we count on them. I hope you feel proud. I do. Thanks for bringing your superpowers to OHS - Our OHS partner
-
-
 
 ## Playing the long game
 
