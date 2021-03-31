@@ -1,5 +1,5 @@
 ---
-title: 18F Public Benefits Portfolio reflects on the last year
+title: The 18F Public Benefits Portfolio reflects on the last year
 date: March 31, 2021
 authors:
   - elizabeth-ayer
@@ -36,7 +36,7 @@ After years of collaboration and coaching, in 2020 **we were able to wind down 1
 
 Today, **our CMS partners have an established design research practice in place, and are successfully leading a full development team on their own**. Since 18F left, they have expanded the beta program to more states, and are making steady progress towards fully launching eAPD later this year. By bringing this product management capacity in-house, our CMS partners are now well-situated to lead other impactful digital services efforts themselves, and use these skills to better support their state partners in their efforts to improve their Medicaid systems as well.
 
-![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
+![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
 
 <div class="testimonial-blockquote">
 We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet!
@@ -113,7 +113,7 @@ Interested, but not sure where you’d start? Have you considered...
 * Prototyping the digital delivery side of your proposed policies before they are finalized in order to identify system impacts, surface potential implementation challenges, and understand the impact on program beneficiaries while there is still time to revise the proposed policy
 * Creating connectivity between your data systems to decrease burden, improve security increase data’s usefulness for your team or the public  
 
-Or, want to roll up your sleeves and join our team? **Stay in the loop on opportunities to join the 18F team at** <https://join.tts.gsa.gov>!
+Or, want to roll up your sleeves and join our team? **Keep an eye on opportunities to join the 18F team at** <https://join.tts.gsa.gov>!
 
 # Stay in touch
 
