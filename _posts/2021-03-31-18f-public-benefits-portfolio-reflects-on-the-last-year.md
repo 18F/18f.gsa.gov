@@ -36,12 +36,13 @@ After years of collaboration and coaching, in 2020 **we were able to wind down 1
 
 Today, **our CMS partners have an established design research practice in place, and are successfully leading a full development team on their own**. Since 18F left, they have expanded the beta program to more states, and are making steady progress towards fully launching eAPD later this year. By bringing this product management capacity in-house, our CMS partners are now well-situated to lead other impactful digital services efforts themselves, and use these skills to better support their state partners in their efforts to improve their Medicaid systems as well.
 
-![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
+![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
 
 > We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet! - CMS partner
->
+
 > It takes a lot less time because I’m not formatting a bunch of Word docs. Just not needing to do tables, saves at least a day’s worth of work. - State end-user
-> **Asking better questions to put program & end-user outcomes at the center of state Medicaid system development**
+
+**Asking better questions to put program & end-user outcomes at the center of state Medicaid system development**
 
 eAPD represents an improvement to the early stages of a Medicaid IT investment, when a state seeks initial funding from CMS. However, CMS knows that meaningfully improving the outcomes of these investments also requires a shift in how they monitor ongoing project health throughout the development and operation of these systems as well. 
 
