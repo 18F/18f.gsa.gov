@@ -145,13 +145,11 @@ redirect_from: /developer/
   </div>
 </section>
 
-<section class="usa-section featured-posts usa-section--mobile-no-x">
-  <div class="grid-container">
-    <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
-    <ul class="grid-row grid-gap">
-      {% for post in site.posts limit:3 %} {% include post.html
-      post_date=post.date post_title=post.title post_excerpt=post.excerpt
-      post_url=post.url %} {% endfor %}
-    </ul>
-  </div>
-</section>
+{% assign latest_posts = site.posts | slice:0,3 %}
+{% include related-posts.html
+  hide_date=true
+  title="Recent blog posts"
+  related_posts=latest_posts
+  show_tags=false
+  additional_class="usa-section--mobile-no-x"
+%}
