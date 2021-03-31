@@ -1,3 +1,12 @@
+//Mobile helper for usa-section
+.usa-section.usa-section--mobile-no-x {
+  @include u-padding-x(0);
+
+  @include at-media('tablet') {
+    @include u-padding-x(5);
+  }
+}
+
 // Special border
 .section-case-studies {
   border-bottom: 1rem solid color('accent-cool');
