@@ -36,7 +36,7 @@ After years of collaboration and coaching, in 2020 **we were able to wind down 1
 
 Today, **our CMS partners have an established design research practice in place, and are successfully leading a full development team on their own**. Since 18F left, they have expanded the beta program to more states, and are making steady progress towards fully launching eAPD later this year. By bringing this product management capacity in-house, our CMS partners are now well-situated to lead other impactful digital services efforts themselves, and use these skills to better support their state partners in their efforts to improve their Medicaid systems as well.
 
-![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
+![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
 
 <div class="testimonial-blockquote">
 We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet!
