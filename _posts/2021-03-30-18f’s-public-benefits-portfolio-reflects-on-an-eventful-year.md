@@ -1,5 +1,5 @@
 ---
-title: 18F’s Public Benefits Portfolio reflects on an... eventful year
+title: 18F’s Public Benefits Portfolio reflects on the last year
 date: March 30, 2021
 authors:
   - elizabeth-ayer
