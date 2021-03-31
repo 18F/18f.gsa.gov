@@ -122,6 +122,12 @@ Plugin gem | Description
 [`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap) | generates a sitemap at [`/sitemap.xml`](https://18f.gsa.gov/sitemap.xml). This makes it easier for search engines to find us.
 [`embed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses OEmbed
 
+## Components
+
+### Featured posts
+
+This component will showcase the first 3 posts of a given component.
+
 ## History
 
 A detailed history of the past work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
