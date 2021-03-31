@@ -38,9 +38,15 @@ Today, **our CMS partners have an established design research practice in place,
 
 ![A screenshot of the Alaska APD Home page. Showing the Summary budget by activity for FFY21]({{ site.baseurl }}/assets/blog/ak-apd-homepage.png "eAPD product (2021)")
 
-> We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet! - CMS partner
+<div class="testimonial-blockquote">
+We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the eAPD to meet user needs and deliver value early and often. We aren’t done yet!
+<span>- CMS partner </span>
+</div>
 
-> It takes a lot less time because I’m not formatting a bunch of Word docs. Just not needing to do tables, saves at least a day’s worth of work. - State end-user
+<div class="testimonial-blockquote">
+It takes a lot less time because I’m not formatting a bunch of Word docs. Just not needing to do tables, saves at least a day’s worth of work.
+ <span>- State end-user </span>
+</div>
 
 **Asking better questions to put program & end-user outcomes at the center of state Medicaid system development**
 
@@ -52,7 +58,10 @@ For the last year, **we’ve been supporting CMS’ shift away from compliance c
 
 As part of this shift, we co-developed and piloted a set of tools and a discussion-based professional development program to support this major transformation to their approach, which we hope to share in the coming months, and have heard great feedback from the State Officer team thus far
 
-> It has increased my confidence and given me a reliable resource where I can know what I’m doing, and when I know what I’m doing, I can help the states. I love it! - CMS State Officers
+<div class="testimonial-blockquote">
+It has increased my confidence and given me a reliable resource where I can know what I’m doing, and when I know what I’m doing, I can help the states. I love it!
+ <span>- CMS State Officers </span>
+</div>
 
 ### Making benefits eligibility rules more transparent and reusable
 
@@ -64,7 +73,10 @@ Since then, volunteers have extended the prototype with eligibility information 
 
 This year, we are exploring ways for federal partners to reuse the eligibility rules API developed in 2020, and we’re excited about what’s ahead!
 
-> 18F created a tool that filled a massive pothole we have been trying to address for years. Now, checking one’s eligibility is a snap due to this incredibly accessible calculator – which hundreds of Virginians use every week. - A legal aid staff attorney in Virginia 
+<div class="testimonial-blockquote">
+18F created a tool that filled a massive pothole we have been trying to address for years. Now, checking one’s eligibility is a snap due to this incredibly accessible calculator – which hundreds of Virginians use every week.
+ <span>- A legal aid staff attorney in Virginia </span>
+</div>
 
 ### Data-informed grantee services with the Office of Head Start
 
@@ -76,7 +88,10 @@ Over the past year, **18F and OHS have partnered to address this challenge by se
 
 Through our user research, we learned that different people interpreted the data in different ways, making it difficult to use data to drive decision making throughout the TTA system. As OHS builds the foundation for a new data system, we are establishing common language and data definitions with the people that use and create the data. This effort should improve OHS’s ability to continuously improve the TTA services they offer to local providers, and ultimately to improve outcomes for children and families. 18F is proud to support this thoughtful work from our visionary Head Start partners.
 
-> Last fall we had a super big, clunky, swamp-of-a-problem, and a complicated charge to build trust in many directions. Today we are no longer in the muck; we have some promising tools for users, a committed vendor, and partners who are starting to count on us as much as we count on them. I hope you feel proud. I do. Thanks for bringing your superpowers to OHS - Our OHS partner
+<div class="testimonial-blockquote">
+Last fall we had a super big, clunky, swamp-of-a-problem, and a complicated charge to build trust in many directions. Today we are no longer in the muck; we have some promising tools for users, a committed vendor, and partners who are starting to count on us as much as we count on them. I hope you feel proud. I do. Thanks for bringing your superpowers to OHS.
+ <span>- Our OHS partner </span>
+</div>
 
 ## Playing the long game
 
