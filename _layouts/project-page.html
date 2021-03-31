@@ -143,40 +143,11 @@ header_border: true
     {% endif %}
   </div>
   </div>
-
-  <!-- {% if matching_posts.size > 0 %}
-  <div class="bg-base-lightest">
-    <div class="usa-section post-border">
-      <section class="grid-container featured-posts">
-        <div class="{% if matching_posts.size > 3 %}grid-row grid-gap{% endif %}">
-          <div class="tablet:grid-col-8">
-            <h2>Related blog posts</h2>
-          </div>
-          {% if matching_posts.size > 3 %}
-          <div class="tablet:grid-col-4">
-            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
-          </div>
-
-          {% endif %}
-        </div>
-        <ul class="grid-row grid-gap">
-        {% for post in matching_posts limit:3 %}
-          {% include post.html
-             post_date=post.date
-             post_title=post.title
-             post_excerpt=post.excerpt
-             post_url=post.url
-          %}
-        {% endfor %}
-      </ul>
-      </section>
-    </div>
-  </div>
-  {% endif %} -->
+</section>
   {% include related-posts.html
     hide_date=true
     title="Related blog posts"
     related_posts=matching_posts
     show_tags=false
+    additional_class="bg-base-lightest"
   %}
-</section>
