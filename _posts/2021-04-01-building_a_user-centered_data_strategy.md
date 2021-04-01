@@ -3,7 +3,8 @@ title: Building a user-centered data strategy
 date: April 1, 2021
 authors:
   - princess-ojiaku
-  - mark-headd
+  - edwin-torres
+  - mheadd
 tags:
   - data access
   - user-centered design
