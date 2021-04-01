@@ -40,7 +40,7 @@ Our approach to data projects is summed up in these principles: 
 
 Developing a data strategy is challenging. The ever increasing availability of powerful new data tools, and the urgent need to derive new insights from data often results in a more tactical, less strategic approach. They know they want to do something, but often their specific goals are unclear.
 
-18F works with agencies to help them understand  their current data and what they hope to achieve with it. This starts with user research, a process that helps us understand who produces and uses data. This user-centric approach ensures that agencies understand who the real users of data are, and what they actually need to do their jobs more effectively.  
+18F works with agencies to help them understand their current data and what they hope to achieve with it. This starts with user research, a process that helps us understand who produces and uses data. This user-centric approach ensures that agencies understand who the real users of data are, and what they actually need to do their jobs more effectively.  
 
 As one example, the partnership between [18F and the USGS Water Resources Mission Area](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/) partnered to understand their goals for making better use of data. They made use of the following user research questions: 
 
