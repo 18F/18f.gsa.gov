@@ -21,7 +21,7 @@ The Federal Government is one of the world's biggest data producers. Finding, ac
 The 18F team has experience in this area. We have: 
 
 * Assisted the Treasury Department [implement the DATA ACT](https://18f.gsa.gov/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/)
-* Helped federal laboratories [organize and share their data more effectively](https://18f.gsa.gov/2017/10/05/18f-and-federal-laboratories-work-together-to-bring-better-data-to-businesses/) with industry partners; and,
+* Helped federal laboratories [organize and share their data more effectively](https://18f.gsa.gov/2017/10/05/18f-and-federal-laboratories-work-together-to-bring-better-data-to-businesses/) with industry partners
 * [Saved time and improved data quality](https://18f.gsa.gov/2020/04/23/saving-time-and-improving-data-quality-for-the-national-school-lunch-breakfast-program/) for the National School Lunch & Breakfast Program.
 * Worked with many other agencies to help create sustainable data practices. We discuss some highlights of these projects below.
 
