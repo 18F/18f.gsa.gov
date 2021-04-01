@@ -67,7 +67,7 @@ Putting users at the center of an agency data strategy means we need to deliver 
 
 As an example, 18F worked with the Federal Bureau of Investigation to [publicly release the nation’s crime data](https://18f.gsa.gov/2017/09/07/opening-the-nations-crime-data/). The project's goals included applying open data principles to the FBI’s data and building the tool for the public in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and iterate on our work, testing the tool with nearly 150 people inside and outside of the government.
 
-Agile and Human-centered design work together. They’re more commonly used in software development, but are also useful for data-driven projects and strategies.This kind of work is needed regardless of the data maturity level of the agency. The combination of data expertise and iterative, user-centered development can  — if pursued together  —  create the conditions for a user-oriented data strategy.
+Agile and Human-centered design work together. They’re more commonly used in software development, but are also useful for data-driven projects and strategies.This kind of work is needed regardless of the data maturity level of the agency. The combination of data expertise and iterative, user-centered development can — if pursued together — create the conditions for a user-oriented data strategy.
 
 ## Leverage open resources
 
