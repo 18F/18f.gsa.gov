@@ -16,7 +16,7 @@ excerpt: 18F can help agencies with the process of developing an effective data
 ---
 The Federal Government is one of the world's biggest data producers. Finding, accessing, using, reusing, and protecting this data are challenges for which there have been several different initiatives during the past decade. The latest initiative is the [Federal Data Strategy](https://strategy.data.gov/), which provides a set of data principles and best practices in implementing data innovations that drive value for the public. This strategy includes an annual action plan for establishing processes, building capacity, and aligning existing efforts. Despite these guidelines and plans, it can be hard to know where to start when putting together a data strategy for your agency or organization.
 
-18F can assist agencies interested in developing a data strategy. Making a plan to effectively use data is rarely straightforward. Making a plan to effectively use data is rarely straightforward, and involves technical skills, excellent communication, change management, and iterative development.
+18F can assist agencies interested in developing a data strategy. Making a plan to effectively use data is rarely straightforward, and involves technical skills, excellent communication, change management, and iterative development.
 
 The 18F team has experience in this area. We have: 
 
