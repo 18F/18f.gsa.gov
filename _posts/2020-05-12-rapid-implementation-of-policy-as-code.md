@@ -8,7 +8,7 @@ tags:
 - api
 - 10x
 - transformation services
-- health and human services
+- public benefits
 - rules as code
 excerpt: "No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher."
 image: /assets/blog/rapid-implementation-of-policy-as-code/header.png
