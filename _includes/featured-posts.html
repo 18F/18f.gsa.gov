@@ -1,0 +1,27 @@
+{% assign featured_posts = include.related_posts %}
+<section class="usa-section featured-posts {{ include.additional_class }}">
+  <div class="grid-container">
+  {% if featured_posts.size > 0 %}
+  <div class="{% if featured_posts.size > 3 %}grid-row grid-gap margin-bottom-2 tablet:margin-bottom-0{% endif %}">
+    <div class="tablet:grid-col-8">
+      <h2>{{ include.title }}</h2>
+    </div>
+    {% if featured_posts.size > 3 %}
+    <div class="tablet:grid-col-4">
+      <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+  <ul class="grid-row grid-gap">
+  {% for post in featured_posts %}
+    {% include post.html
+      post_date=post.date post_title=post.title post_excerpt=post.excerpt
+      post_url=post.url show_tags=inlcude.show_tags %}
+    {% if forloop.index > 2 %}
+      {% break %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+  </div>
+</section>

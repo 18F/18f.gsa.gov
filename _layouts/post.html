@@ -74,5 +74,9 @@ layout: default
   </section>
 {% endif %}
 
-{% include related-posts.html hide_date=true  %}
+{% include featured-posts.html 
+  hide_date=false 
+  title="Related posts" 
+  related_posts=page.related_posts 
+  show_tags=true %}
 {% include banner-cta.html %}
