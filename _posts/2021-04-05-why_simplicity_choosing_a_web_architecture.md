@@ -2,6 +2,8 @@
 title: Why simplicity? Choosing a web architecture
 date: April 5, 2021
 authors:
+  - kendrick-daniel
+  - eleni-chappen
   - alex-soble
   - andrew-dunkman
 tags:
@@ -45,7 +47,7 @@ Below is our outline of different web application architectures that you might c
 * **What this means**: A static site sends the same content every time you reload it. The content doesn’t change unless the site owner updates it — for example, by publishing a new page on a blog. In general, all users of the site see the same content. A public agency headquarters website is a classic example: [18f.gsa.gov](https://18f.gsa.gov/) is a static site! 
 * **Why and when it’s a good choice**: Many government agencies just need to publish information to the web. Static sites are generally the simplest kind to build, maintain, and host. They are lower-cost, compared to more complex web architectures. And U.S. federal agencies can use [federalist.18f.gov](https://federalist.18f.gov/) to build, launch, and manage their static sites.
 
-  ![Screenshot of the 18F site with a hero image showing folks at work]({{ site.baseurl }}/assets/blog/18f_site.png "The 18F website is an example of a static site. You are reading this blog post on a static site, right now.")
+  ![Screenshot of the 18F site with a hero image showing folks at work]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/18f_site.png "The 18F website is an example of a static site. You are reading this blog post on a static site, right now.")
 
 The 18F website is an example of a static site. You are reading this blog post on a static site, right now.
 
@@ -64,7 +66,7 @@ These frameworks meet our preference for using stable (but still very much activ
 
 One example of a server-rendered web application is 18F’s internal timekeeping application, [Tock](https://github.com/18F/tock). Tock helps 18F team members submit timesheets and manage our time. Each user of the app needs to see different data, and the data needs to be tracked in the database, which makes it a good fit for a server-rendered architecture. Tock has been up and running since 2015. Its simple architecture and use of stable, tried-and-true technology has made it easier to maintain over time.
 
-![Tock, 18F’s time-tracking application, is an example of a server-rendered architecture]({{ site.baseurl }}/assets/blog/tock_screenshot.png "Tock, 18F’s time-tracking application, is an example of a server-rendered architecture")
+![Tock, 18F’s time-tracking application, is an example of a server-rendered architecture]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/tock_screenshot.png "Tock, 18F’s time-tracking application, is an example of a server-rendered architecture")
 
 Tock, 18F’s time-tracking application, is an example of a server-rendered architecture.
 
@@ -94,12 +96,12 @@ Some may argue that Single Page Apps “feel more modern.” We feel that a mode
 
 Asking questions is one of a product owner’s most powerful tools when working with their engineers. Below are a few that you can ask when navigating web architecture choices on a project:
 
-* What impact would these different options have on accessibility?
-* What impact would these different options have on the user experience?
-* What impact would these different options have on security?
-* How many different programming languages or skill sets will we need to fix issues in this application?
-* How many different programming languages or skill sets will we need to deploy updates to this application?
-* Can you show me an example of an application with this technology in our department or agency that has been maintained over several years?
-* What if team members are offered new jobs or win the lottery — how easy or difficult will it be to hire developers with skills to fix issues or deploy updates?
+* *What impact would these different options have on accessibility?*
+* *What impact would these different options have on the user experience?*
+* *What impact would these different options have on security?*
+* *How many different programming languages or skill sets will we need to fix issues in this application?*
+* *How many different programming languages or skill sets will we need to deploy updates to this application?*
+* *Can you show me an example of an application with this technology in our department or agency that has been maintained over several years?*
+* *What if team members are offered new jobs or win the lottery — how easy or difficult will it be to hire developers with skills to fix issues or deploy updates?*
 
 We hope that these questions and advice will be useful. Good luck as you push for simplicity and all the benefits that come with it!
