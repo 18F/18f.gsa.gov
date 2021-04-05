@@ -8,7 +8,7 @@ tags:
 - acquisition services
 - procurement
 - video
-- health and human services
+- public benefits
 excerpt: "The Technology Transformation Service recently held an industry day to talk to the private sector community about our vision, our projects, and how GSA and vendors can work together to bring modern digital services to the federal government. For that event, California’s Stuart Drown recorded a short video talking about 18F’s work with California on their Child Welfare System."
 image:
 ---

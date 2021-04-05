@@ -5,7 +5,7 @@ date: 2018-10-16
 authors:
 - ed-mullen
 tags:
-- health and human services
+- public benefits
 excerpt: "When federal agencies issue a policy change, say income eligibility guidelines, that policy gets communicated down to the states as text on the Federal Register or via PDF. This translation of federal policy into many state systems creates opportunities for implementation errors."
 image: /assets/blog/eligibility-rules-policy/eligibility-rules-policy.jpg
 ---

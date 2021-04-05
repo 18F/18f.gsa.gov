@@ -10,7 +10,8 @@ authors:
 tags:
   - procurement
   - how we work
-  - health and human services
+  - public benefits
+  - hhs
   - user research
 excerpt: The Administration for Children & Families’ Office of Family
   Assistance, TTS, and the vendor community worked together to improve the TANF
