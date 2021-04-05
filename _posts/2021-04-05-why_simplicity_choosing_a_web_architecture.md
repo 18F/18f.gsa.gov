@@ -87,7 +87,7 @@ The question is: given these trade-offs, how much client-side interactivity do y
 Single Page Apps can be the right choice when you and your team have weighed these trade-offs, and determined that heavy client-side interactivity is necessary in order to deliver the core features of your app. Some specific situations where Single Page Apps can really shine might be: 
 
 * Web applications where offline support is crucial, such as an application designed for workers in the field where internet access might be spotty. Storing data and logic in the browser could be very important in scenarios like these. 
-* Web applications designed to read from an existing data source — for example, an web application designed to show visualizations or dashboards based on existing datasets.
+* Web applications designed to read from an existing data source — for example, a web application designed to show visualizations or dashboards based on existing datasets.
 * A “calculator” application that can use public rules or data to help users calculate the outcomes of different scenarios. If the data needed to run the calculator is public and lightweight, the use case might not need a database or a server at all. 
 
 Some may argue that Single Page Apps “feel more modern.” We feel that a modern web application is designed based on user needs, highly accessible, and easy to maintain — whether or not it's a Single Page App.
