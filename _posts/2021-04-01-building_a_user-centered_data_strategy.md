@@ -53,7 +53,7 @@ In another recent partnership with an Intelligence Community agency, 18F helped 
 
 ## Let users be the guideposts
 
-Human-centered design or “user-centered design” is a methodology that integrates feedback from the people for whom you are designing during the process. The goal of user-centered design is to create a solution that meets real people’s needs, with minimal lost effort and reduced risk.
+Human-centered design or user-centered design is a methodology that integrates feedback from the people for whom you are designing during the process. The goal of user-centered design is to create a solution that meets real people’s needs, with minimal lost effort and reduced risk.
 
 User-centered design supports the development of a successful data strategy, through frequent and continuous end-user feedback during the design process. [Prototypes](https://methods.18f.gov/make/prototyping/) are a way to get feedback from users, test hypotheses, and validate technology choices.
 
