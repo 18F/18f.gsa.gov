@@ -103,7 +103,7 @@ We love working on public-facing tools and interfaces, but many of our biggest w
 
 In addition to continuing work with many of our existing partners, we’re thrilled to be digging into several new engagements over the next few months, and we’re always eager for more opportunities to help.
 
-If your agency could use the help of a team of modern technology and acquisition specialists with deep experience in the benefits space to improve the effectiveness of your digital services, **don’t hesitate to get in touch at** [18F-inquiries@gsa.gov](mailto:18F-inquiries@gsa.gov).
+If your agency could use the help of a team of modern technology and acquisition specialists with deep experience in the benefits space to improve the effectiveness of your digital services, **don’t hesitate to get in touch at** [inquiries18F@gsa.gov ](mailto:inquiries18F@gsa.gov).
 
 Interested, but not sure where you’d start? Have you considered...
 
