@@ -69,7 +69,7 @@ One example of a server-rendered web application is 18F’s internal timekeeping
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/blog/tock_screenshot.png" alt="Screenshot of the Tock time-tracking application" />
-	<figcaption>Tock, 18F’s time-tracking application, is an example of a server-rendered architecture</figcaption>
+	<figcaption>Tock, 18F’s time-tracking application, is an example of a server-rendered architecture.</figcaption>
 </figure>
 
 ### If your use case requires a bit of client-side interactivity, use the above options with a bit of JavaScript. 
