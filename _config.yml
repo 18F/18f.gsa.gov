@@ -13,12 +13,12 @@ theme: uswds-jekyll
 
 related_posts: 3
 
-analytics:
-  google:
-    code: 'UA-48605964-1' # Change this to your GSA analytics code
-  dap:
-    agency: GSA    # Change this to your agency
-    subagency: TTS,18F # Change this to your agency
+# Configuration for Google Analytics, add your UA code here:
+google_analytics_ua: 'UA-48605964-1'
+
+# Configuration for DAP, add your agency ID here:
+dap_agency: GSA
+dap_subagency: TTS,18F
 
 # blog archive at /blog
 paginate: 5
