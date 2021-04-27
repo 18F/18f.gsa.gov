@@ -19,11 +19,11 @@ excerpt: This is part four in a series of posts about building product
 
 Bill Laughman of the DOJ Civil Rights Division (CRT) spoke about collaborating with 18F to streamline their civil rights violation report intake process and establishing case management processes in order to improve and modernize IT systems within the Division.
 
-## Thanks for taking the time to chat with us Bill. Let’s begin with your background at DOJ’s Civil Rights (CRT) Department prior to the 18F engagement.
+### Thanks for taking the time to chat with us Bill. Let’s begin with your background at DOJ’s Civil Rights (CRT) Department prior to the 18F engagement.
 
 Bill: I’ve been with the Civil Rights Division for about 20 years serving various roles, with my latest role in leading complaint intake and processing violation reports of the Administrative Management Section. I’m the primary correspondence liaison for Division-wide report triage. I also serve as the main point of contact for congressional inquiries to the Department.
 
-## Bill, let's go back in time to Jan 2019, when the 18F team submitted their recommendations around modernizing your intake process and a new case management system. What was your initial reaction and your thoughts around 18F’s proposal on agile, user centric, outcome oriented product development processes? 
+### Bill, let's go back in time to Jan 2019, when the 18F team submitted their recommendations around modernizing your intake process and a new case management system. What was your initial reaction and your thoughts around 18F’s proposal on agile, user centric, outcome oriented product development processes? 
 
 Initial thoughts:
 
@@ -32,17 +32,16 @@ Initial thoughts:
 * **Skeptical!** Prior to this project, our legacy systems were developed in a waterfall manner and iterative development was new. I wasn’t around for the original development of the legacy systems, but I did take part in testing updated versions just prior to release. The testing window was so close to release that, absent any major bugs, you were testing the finished product – “What you see is what you get leaving no room for feedback or edits. We asked for some previous projects that 18F had successfully implemented so that we could collectively set expectations.
 * **Not having a project plan or an anticipated output or timeline was confusing and daunting!** There was a lot of research before development was started. The stakeholders’ pain points were documented and they were excited by the prospect of a new system that addressed many of them. We had to temper their excitement by assuring them the product will not be released until it performed as expected and met the user needs. Although there wasn’t a project plan, the entire team was comfortable after they experienced functionality being delivered steadily every two weeks. It took a few successful sprints and positive feedback from users to adjust to not having a plan. 
 
-## How did your perception and comfort with these practices change over time?
+### How did your perception and comfort with these practices change over time?
 
 * **Show value**: We worked on a small increment, collected feedback from users, launched the functionality and continued until our short term roadmap was met. 
-
   * With no predefined project plan to feel comfortable with, we started off with a “thin slice” product roadmap. The thin slice was a list of absolute must-haves our users needed in the product to derive value once deployed. This roadmap was our guide post to iterate upon, rather than an estimated timeline.
 * **Feedback**: Shorter feedback cycles with the general public, intake teams, development and design teams helped us validate our progress, which was huge! Our notion of a team is redefined. Our team now included end users invested in making the portal useful and valuable.
 * **Pivot if necessary**: After developing on an initial tech stack for about two months, we hit roadblocks preventing us from progressing further. We revisited the vision, conducted risk/benefit analysis and decided that investing in a new stack would allow us to be scalable and resilient for years to come. Although it was a tough decision, our stakeholders weighed on the consequences of developing further on a legacy stack and decided to pivot toward a modern tech stack even after spending significant development time and effort. 
 * **Embrace failure**: We celebrated all milestones together. Success and failures remained a part of the process and we used feedback from blameless retros to guide our practices and deliver results.
 * **Overall uptick in morale!** Our division worked as a collective team rather than individual sections. The 18F team established open communication and transparency while sharing information at all times, which helped build trust amongst internal DOJ teams, stakeholders and 18F teams. 18F teams facilitated a lot of discussions allowing for inclusive conversations where all team members participated to provide feedback, rather than a few voices who got their requests incorporated. 
 
-## You were a key player in developing and launching civilrights.justice.gov. What do you account this success to? How were you supported in your growth as a Product Owner (PO)? 
+### You were a key player in developing and launching civilrights.justice.gov. What do you account this success to? How were you supported in your growth as a Product Owner (PO)? 
 
 * **Supportive and invested stakeholders:** Our stakeholders were extremely aware and invested in learning about user (both internal and public) frustrations/needs and were completely on board with the process. Our senior leadership team met with the product team every two weeks to learn about the progress, limitations to clear roadblocks and help make decisions for teams to stay focused on the development and launch of the portal.
 * **Reallocation of resources**: With the support from our leadership and their willingness to re-allocate my time in order to fulfil my new duties as a product owner (PO), my team took on a good portion of my duties so I could focus on the product management work. My success was absolutely a result of collective team effort across the Administrative Management Section.
@@ -55,7 +54,7 @@ I never want to accept the status quo. How can we make anything better?
 
 * **Trusting Agile**: Once you buy into the Agile methodology, you have to sell the rest of your team on it as well. Momentum increased as we continued to incorporate user feedback into our development. Our end users are empowered throughout the development process and recognize the value of the Agile approach. 
 
-## What traits/skills did you pick up as a product owner during your engagement with 18F? How are you sustaining these skills?
+### What traits/skills did you pick up as a product owner during your engagement with 18F? How are you sustaining these skills?
 
 * **Decision making**: We make decisions that seem great, but then, being able to prioritize and say “no” to certain things was necessary. Retrospectives always helped us learn if a wrong decision was made so we can adjust and iterate. 
 
@@ -68,7 +67,7 @@ Get comfortable saying ‘no’
 * **Technical complexities**: Everything involved in developing an idea into a feature — I had no idea! I was always an end user but didn't know much about developing a product. Understanding all the levers that are involved in developing and launching a product in the government from ATO’s(Authority to Operate), compliance tasks — Paperwork Reduction Act, compliance with Section 508 and privacy, incident management, etc was new to me! Users don’t necessarily see everything that happens in the background for a product to function. For example, one functionality at times can equate to about 20 mini user stories that need to be worked in sequence so the feature is complete.
 * **Outcome driven thinking permeates beyond product development**: I’ve learnt that I am using my learnings from agile and outcome driven thinking across the rest of my work outside of portal work as well as my day-to-day activities. 
 
-## Finally, what would you tell a new agency team trying to identify a product owner to manage new product development? What qualities should they be looking for?
+### Finally, what would you tell a new agency team trying to identify a product owner to manage new product development? What qualities should they be looking for?
 
 Product management is novel in the federal government, so finding someone with prior experience is difficult. When identifying a new product owner, I would advise to focus on these qualities instead.
 
