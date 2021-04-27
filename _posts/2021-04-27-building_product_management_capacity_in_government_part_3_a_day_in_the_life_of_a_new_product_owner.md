@@ -9,6 +9,7 @@ tags:
   - product
   - culture change
   - department of justice
+  - civil rights
 excerpt: This is part four in a series of posts about building product
   management capacity in government agencies. For this post, we chatted with
   Bill Laughman from DOJ’s Civil Rights Division about his experience as a
