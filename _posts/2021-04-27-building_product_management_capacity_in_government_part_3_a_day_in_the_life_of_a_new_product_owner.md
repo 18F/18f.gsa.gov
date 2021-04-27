@@ -4,6 +4,7 @@ title: "Building product management capacity in government part 3: A day in the
 date: April 29, 2021
 authors:
   - lalitha-jonnalagadda
+  - bill-laughman-guest-doj
 tags:
   - product
   - culture change
