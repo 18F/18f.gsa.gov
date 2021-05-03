@@ -10,6 +10,7 @@ tags:
   - how we work
 excerpt: "We asked our team: “why did you join 18F?” and got all kinds of
   inspiring answers. "
+image: /assets/blog/screen_shot_2021-04-23_at_3.57.09_pm.png
 ---
 Our 18F team is spread out across the country and comes from a diverse range of backgrounds, but we all at some point became interested in improving the user experience of government. We asked our team: “why did you join 18F?” and got all kinds of inspiring answers. 
 
