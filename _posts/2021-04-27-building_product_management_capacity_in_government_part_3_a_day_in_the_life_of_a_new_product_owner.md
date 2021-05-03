@@ -1,7 +1,7 @@
 ---
 title: "Building product management capacity in government part 3: A day in the
   life of a new product owner "
-date: April 29, 2021
+date: May 3, 2021
 authors:
   - lalitha-jonnalagadda
   - bill-laughman-guest-doj
@@ -72,13 +72,8 @@ Get comfortable saying ‘no’
 
 Product management is novel in the federal government, so finding someone with prior experience is difficult. When identifying a new product owner, I would advise to focus on these qualities instead.
 
-* **Do-er/multi-tasker**: Someone willing to get the job done by every and all means. Be ready to wear a lot of hats! 
+* **Do-er/multi-tasker**: Someone willing to get jobs to done. Be ready to wear a lot of hats! 
 * **Jack of all trades**: Don’t need experts to become product owners. Anyone with enough knowledge to understand the inner workings of a group at a federal agency is ideal.
 * **Knows someone who knows someone**: A successful PO will have a lot of contacts at the agency. If they cannot get the job done, they will need to be able to figure out who can help get the job done. 
 * **Consistent/persistent**: All of this takes a lot of work! 
-
-<div class="testimonial-blockquote">
-Be open to change
-</div> 
-
 * **Coachable**: Always be open to coaching! Coaching doesn’t always have to be top down necessarily, but being open to coaching from your peers as well.
