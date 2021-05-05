@@ -35,7 +35,7 @@ Interested in joining our team? Check out open positions and how to apply [on ou
 
 [Back to the table of contents](#contents)
 
-![Laura Ponce (she/her) smiling confidently to the camera]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/18f-team-2021/ponce_laura.png "laura-ponce")
+![Laura Ponce (she/her) smiling confidently to the camera]({{ site.baseurl }}{{ site.baseurl }}/assets/blog/ponce_laura.png "laura-ponce")
 
 <div class="testimonial-blockquote">
 The 18F Methods site was my first impression of 18F. I was thrilled to learn more about the team within the federal government that is sharing user-centered design practices and putting everything out in the open for others to use. I wanted to be part of the organization that’s helping improve the user experience of government.
