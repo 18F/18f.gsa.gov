@@ -19,15 +19,11 @@ Interested in joining our team? Check out open positions and how to apply [on ou
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 * [Design](#design)
-* [Acquisitions](#acquisitions)
-* [Operations](#operations)
-* [Outreach](#outreach)
-* [Product](#product)
-* [Strategy](#strategy)
-* [Infrastructure](#infrastructure)
 * [Engineering](#engineering)
-* [Talent](#talent)
-* [Business Strategy](#business-strategy)
+* [Product](#product)
+* [Account management](#Account management)
+* [18F front office](#18F front office)
+* [Acquisitions](#acquisitions)
 
 <!-- /TOC -->
 
@@ -291,7 +287,7 @@ Joining 18F was a chance to apply my whole self to things that really matter —
 <span>- Nikki Lee, Product Manager </span>
 </div>
 
-## Account Management
+## Account management
 
 ![Hannah Kane (she/her) smiling confidently at the camera]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/hannah_kane.jpg "hannah-kane")
 
@@ -307,7 +303,7 @@ After spending most of my career in the private sector (advertising and tech), i
 <span>- Glenn Grieves, Account Manager </span>
 </div>
 
-## 18F Front Office
+## 18F front office
 
 ![Alan Brouilette (he/him) looking confidently away from the camera]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/brouilette_alan.jpg "alan-brouilette")
 
