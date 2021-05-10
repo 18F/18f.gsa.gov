@@ -334,10 +334,7 @@ When I joined 18F, I had been in the federal acquisition field for over 10 years
 </div>
 
 
-![No image available, instead we used the 18F logo]
-<img class="maxw-tablet">
-({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
-</img>
+![No image available, instead we used the 18F logo]({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
 
 <div class="testimonial-blockquote">
 I was a contracting officer for about 15 years before joining 18F. I was growing frustrated by the status quo and was interested in the idea of experimenting with new approaches to contracting for IT services. I also wanted to learn more about the digital services I was buying on behalf of my customers, and thought 18F would help me become a better buyer. It’s been a great experience and I love being able to work with other contracting officers that have similar interests in improving the nature of procurement. I’ve found the vast majority of procurement folks we’ve worked with are excited about the prospect of trying new approaches, and it’s led to better outcomes and helped expand the marketplace.
