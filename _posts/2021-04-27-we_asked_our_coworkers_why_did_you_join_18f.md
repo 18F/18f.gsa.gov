@@ -23,8 +23,8 @@ Interested in joining our team? Check out open positions and how to apply [on th
 * [Design](#design)
 * [Engineering](#engineering)
 * [Product](#product)
-* [Account management](#account management)
-* [18F front office](#18F front office)
+* [Account management](#account-management)
+* [18F front office](#18F-front-office)
 * [Acquisitions](#acquisitions)
 
 <!-- /TOC -->
@@ -322,7 +322,7 @@ The magnitude of the problem 18F is trying to help solve. This problem won’t b
 <span>- Alan Brouilette, Chief of Staff </span>
 </div>
 
-## Acquisition
+## Acquisitions
 
 [Back to the table of contents](#chapters)
 
@@ -333,8 +333,10 @@ When I joined 18F, I had been in the federal acquisition field for over 10 years
 <span>- Miatta Myers, Acquisition Lead </span>
 </div>
 
+
+![No image available, instead we used the 18F logo]
 <img class="maxw-tablet">
-![No image available, instead we used the 18F logo]({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
+({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
 </img>
 
 <div class="testimonial-blockquote">
