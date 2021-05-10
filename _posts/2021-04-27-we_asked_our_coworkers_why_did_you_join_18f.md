@@ -14,14 +14,16 @@ image: /assets/blog/screen_shot_2021-04-23_at_3.57.09_pm.png
 ---
 Our 18F team is spread out across the country and comes from a diverse range of backgrounds, but we all at some point became interested in improving the user experience of government. We asked our team: “why did you join 18F?” and got all kinds of inspiring answers. 
 
-Interested in joining our team? Check out open positions and how to apply [on our join page](https://pages.18f.gov/joining-18f/index.html).
+Interested in joining our team? Check out open positions and how to apply [on the TTS join page](https://join.tts.gsa.gov/).
 
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+## Chapters
 
 * [Design](#design)
 * [Engineering](#engineering)
 * [Product](#product)
-* [Account management](#Account management)
+* [Account management](#account management)
 * [18F front office](#18F front office)
 * [Acquisitions](#acquisitions)
 
@@ -29,7 +31,7 @@ Interested in joining our team? Check out open positions and how to apply [on ou
 
 ## Design
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#chapters)
 
 ![Laura Ponce (she/her) smiling confidently to the camera]({{ site.baseurl }}/assets/blog/ponce_laura.png "laura-ponce")
 
@@ -159,6 +161,8 @@ I started working in government tech in 2016 and quickly became a fan of 18F fro
 
 ## Engineering
 
+[Back to the table of contents](#chapters)
+
 ![No image available, instead we used the 18F logo]({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
 
 <div class="testimonial-blockquote">
@@ -238,6 +242,8 @@ Prior to 18F, I was a federal civil servant in another agency, happily building 
 
 ## Product
 
+[Back to the table of contents](#chapters)
+
 ![Colin Murphy (he/him) confidently looking at the camera]({{ site.baseurl }}/assets/blog/colin_murphy_headshot.jpg "colin-murphy")
 
 <div class="testimonial-blockquote">
@@ -289,6 +295,8 @@ Joining 18F was a chance to apply my whole self to things that really matter —
 
 ## Account management
 
+[Back to the table of contents](#chapters)
+
 ![Hannah Kane (she/her) smiling confidently at the camera]({{ site.baseurl }}/assets/blog/hannah_kane.jpg "hannah-kane")
 
 <div class="testimonial-blockquote">
@@ -305,6 +313,8 @@ After spending most of my career in the private sector (advertising and tech), i
 
 ## 18F front office
 
+[Back to the table of contents](#chapters)
+
 ![Alan Brouilette (he/him) looking confidently away from the camera]({{ site.baseurl }}/assets/blog/brouilette_alan.jpg "alan-brouilette")
 
 <div class="testimonial-blockquote">
@@ -314,6 +324,8 @@ The magnitude of the problem 18F is trying to help solve. This problem won’t b
 
 ## Acquisition
 
+[Back to the table of contents](#chapters)
+
 ![Miatta Myers (she/her) smiling happily at the camera]({{ site.baseurl }}/assets/blog/miatta-myers.png "miatta-myers")
 
 <div class="testimonial-blockquote">
@@ -321,7 +333,9 @@ When I joined 18F, I had been in the federal acquisition field for over 10 years
 <span>- Miatta Myers, Acquisition Lead </span>
 </div>
 
+<img class="maxw-tablet">
 ![No image available, instead we used the 18F logo]({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
+</img>
 
 <div class="testimonial-blockquote">
 I was a contracting officer for about 15 years before joining 18F. I was growing frustrated by the status quo and was interested in the idea of experimenting with new approaches to contracting for IT services. I also wanted to learn more about the digital services I was buying on behalf of my customers, and thought 18F would help me become a better buyer. It’s been a great experience and I love being able to work with other contracting officers that have similar interests in improving the nature of procurement. I’ve found the vast majority of procurement folks we’ve worked with are excited about the prospect of trying new approaches, and it’s led to better outcomes and helped expand the marketplace.
