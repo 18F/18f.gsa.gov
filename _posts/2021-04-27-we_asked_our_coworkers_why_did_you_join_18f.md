@@ -159,6 +159,13 @@ I started working in government tech in 2016 and quickly became a fan of 18F fro
 <span>- Dave Luetger, UX Designer </span>
 </div>
 
+![No image available, instead we used the 18F logo]({{ site.baseurl }}/assets/blog/18f-logo-l.png "18f-logo")
+
+<div class="testimonial-blockquote">
+I joined 18F because 18F has an incredible, practical model of change: here, you can design with the public at scale to make their interactions with government easier for everyone, working alongside civil servants throughout the rest of government at all levels. The proportion and impact is immense, the timeline is both finite and generational, and while it can feel like an uphill climb, you can also see the progress you’re helping to make.
+<span>- Anne Petersen, UX Designer </span>
+</div>
+
 ## Engineering
 
 [Back to the table of contents](#chapters)
