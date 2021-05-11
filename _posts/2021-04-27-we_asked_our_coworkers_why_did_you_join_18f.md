@@ -96,7 +96,7 @@ I believe that design is impactful and can change people’s lives. So, I wanted
 <span>- Jacklynn Pham, UX Designer </span>
 </div>
 
-![Black and white picture of Igor Korenfeld (he/him) smiling calmly at the camera]({{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}{{ site.baseurl }}/assets/blog/korenfeld_igor.jpg "igor-korenfeld")
+![Black and white picture of Igor Korenfeld (he/him) smiling calmly at the camera]({{ site.baseurl }}/assets/blog/korenfeld_igor.jpg "igor-korenfeld")
 
 <div class="testimonial-blockquote">
 I wanted to join 18F because it was a place where I could work on improving the interface between the government and the public - to ease people’s access to public services, remove barriers and frustrations, and to increase trust in the government.”
