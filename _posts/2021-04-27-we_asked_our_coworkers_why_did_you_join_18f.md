@@ -24,7 +24,7 @@ Interested in joining our team? Check out open positions and how to apply [on th
 * [Engineering](#engineering)
 * [Product](#product)
 * [Account management](#account-management)
-* [18F front office](#18F-front-office)
+* [18F front office](#front-office)
 * [Acquisitions](#acquisitions)
 
 <!-- /TOC -->
@@ -318,7 +318,7 @@ After spending most of my career in the private sector (advertising and tech), i
 <span>- Glenn Grieves, Account Manager </span>
 </div>
 
-## 18F front office
+## Front office
 
 [Back to the table of contents](#chapters)
 
