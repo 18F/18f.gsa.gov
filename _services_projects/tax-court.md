@@ -32,7 +32,7 @@ A dedicated Product Owner and Technical Lead from the Court led the project with
 <div class="case-study-preheader margin-top-6">Approach</div>
 ### Structuring contracts and teams to support user-centered delivery
 
-18F paired with the U.S. Tax Court to develop a solicitation for a new, open source, case management system that would be built using modern software development best practices. The resulting contract was flexible enough to allow the U.S. Tax Court and its industry partner to learn and iterate towards meeting end-user needs throughout the project. All told, from the time the final solicitation was posted to the first commit of code, the process took 70 days
+18F paired with the U.S. Tax Court to develop a solicitation for a new, open source, case management system that would be built using modern software development best practices. The resulting contract was flexible enough to allow the U.S. Tax Court and its industry partner to learn and iterate towards meeting end-user needs throughout the project. All told, from the time the final solicitation was posted to the first commit of code, the process took 70 days.
 
 The Court built the [new case management system](https://dawson.ustaxcourt.gov/) under the direction of an empowered, dedicated Product Owner. Using the flexibility of the contract, she directed the industry partner’s team, managed the product backlog, and determined how the technology stack evolved over time based on current court needs and user research and usability learnings. 
 
