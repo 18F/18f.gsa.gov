@@ -3,14 +3,21 @@ title: Improving the way the U.S. Tax Court engages with the public
 date: June 15, 2021
 authors:
   - andrew-dunkman
+  - mark-meyer
+  - jessica-marine
+  - mike-marcotte
   - vicki-mcfadden
 tags:
   - agency work
+  - data access
+  - open source
+  - acquisition services
 excerpt: The United States Tax Court is an independent federal court that
   provides a forum for settling disputes between taxpayers and the Internal
   Revenue Service. After 30 years, the Court shifted the way it manages Court
   operations — here’s how 18F and the Court worked together to improve the
   public’s experience.
+image: /assets/blog/ustc-header-image.png
 ---
 The United States Tax Court is an independent federal court that provides a forum for settling disputes between taxpayers and the Internal Revenue Service. The Court had used a modified COTS product to manage Court operations since the 1980s. Of the 60,000 petitions filed each year, about 60% are filed by people without lawyers, and traditionally had to be done in-person or via mail. After 30 years, the Court shifted the way it manages Court operations — here’s how 18F and the Court worked together to improve the public’s experience.
 
