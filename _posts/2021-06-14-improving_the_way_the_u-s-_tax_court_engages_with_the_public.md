@@ -17,7 +17,6 @@ excerpt: The United States Tax Court is an independent federal court that
   Revenue Service. After 30 years, the Court shifted the way it manages Court
   operations — here’s how 18F and the Court worked together to improve the
   public’s experience.
-image: /assets/blog/ustc-header-image.png
 ---
 The United States Tax Court is an independent federal court that provides a forum for settling disputes between taxpayers and the Internal Revenue Service. The Court had used a modified COTS product to manage Court operations since the 1980s. Of the 60,000 petitions filed each year, about 60% are filed by people without lawyers, and traditionally had to be done in-person or via mail. After 30 years, the Court shifted the way it manages Court operations — here’s how 18F and the Court worked together to improve the public’s experience.
 
@@ -29,6 +28,8 @@ Once I hit that button, it’s a done deal? That’s cool.
 The Court reached out to 18F to help write a solicitation for a new, open-source case management system that the Court can maintain into the future without stepping into a long-term, sole-source maintenance agreement with a new vendor. The Court ensured research and user needs direct the project by appointing a dedicated Product Owner, establishing clear project sponsorship, and being willing to adopt new tools and techniques to implement the new system. 
 
 18F conducted a three-day workshop with the Court to develop the [solicitation](https://github.com/ustaxcourt/case-management-rfq) that was descriptive of the kind of work to be done but not prescriptive about how to do it, allowing ongoing adjustments based on user research as to what features were developed. The solicitation leveraged a time-and-material (T&M) contract type with a not-to-exceed ceiling to achieve this flexibility. We then helped the Court conduct market research to identify qualified companies on [GSA Schedules](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedule) and coached the Court’s evaluation team on [what to look](https://derisking-guide.18f.gov/federal-field-guide/deciding-what-to-buy/#evaluate-contractor-proposals-based-on-industry-best-practices) for in a qualified industry partner. 
+
+![Screenshot of the US Tax Court's DAWSON case-management application"]({{ site.baseurl }}/assets/blog/ustc-header-image.png)
 
 The Court awarded the contract to an industry partner that brought strong software development and user-centered design skills to the project. All told, from the time the final solicitation was posted to the first commit of code, the process took 70 days. 
 
