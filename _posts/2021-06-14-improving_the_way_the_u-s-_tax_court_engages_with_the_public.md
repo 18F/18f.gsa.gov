@@ -5,8 +5,7 @@ authors:
   - andrew-dunkman
   - vicki-mcfadden
 tags:
-  - how we work
-  - product
+  - agency work
 excerpt: The United States Tax Court is an independent federal court that
   provides a forum for settling disputes between taxpayers and the Internal
   Revenue Service. After 30 years, the Court shifted the way it manages Court
