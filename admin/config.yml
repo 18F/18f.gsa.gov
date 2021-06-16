@@ -48,6 +48,7 @@ collections:
       - {label: "Published", name: "published", widget: "boolean"}
   - label: Services Projects
     name: services-projects
+    create: true
     folder: _services_projects/
     slug: "{{permalink}}"
     editor:
