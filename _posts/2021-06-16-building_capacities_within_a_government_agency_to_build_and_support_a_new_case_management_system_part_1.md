@@ -4,6 +4,7 @@ title: "Building capacities within a government agency to build and support a
 date: June 16, 2021
 authors:
   - jessica-marine
+  - vicki-mcfadden
 tags:
   - product
   - open source
