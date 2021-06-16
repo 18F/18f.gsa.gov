@@ -18,7 +18,7 @@ excerpt: The United States Tax Court is an independent federal court that
   operations — here’s how 18F and the Court worked together to improve the
   public’s experience.
 ---
-The United States Tax Court is an independent federal court that provides a forum for settling disputes between taxpayers and the Internal Revenue Service. The Court had used a modified COTS product to manage Court operations since the 1980s. Of the 60,000 petitions filed each year, about 60% are filed by people without lawyers, and traditionally had to be done in-person or via mail. After 30 years, the Court shifted the way it manages Court operations — here’s how 18F and the Court worked together to improve the public’s experience.
+The United States Tax Court is an independent federal court that provides a forum for settling disputes between taxpayers and the Internal Revenue Service. The Court had used a modified COTS product to manage Court operations since the 1980s. Of the 25,000 to 35,000 petitions filed each year, about 60% are filed by people without lawyers, and traditionally had to be done in-person or via mail. After 30 years, the Court shifted the way it manages Court operations — here’s how 18F and the Court worked together to improve the public’s experience.
 
 <div class="testimonial-blockquote">
 Once I hit that button, it’s a done deal? That’s cool.
