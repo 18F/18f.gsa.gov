@@ -3,14 +3,15 @@ title: "Architecture Decision Records: Helpful now, invaluable later"
 date: July 6, 2021
 authors:
   - eleni-chappen
+  - ryan-hofschneider
+  - michael-king
+  - tim-ballard
 tags:
   - culture change
   - best practices
 excerpt: An Architecture Decision Record is like a journal entry for the life of
   your software
 ---
-
-
 **TL;DR**
 
 * People need to know how software has changed over time
@@ -66,7 +67,9 @@ Generally a record describes:
 3. **Consequences**: What will happen as a result of this change?
 4. **Status**: Has the decision been implemented, or is it still being researched?
 
-Here is an example ADR documenting the selection of a database product:[![](https://lh4.googleusercontent.com/3IdYNL0TbRIZ6q4XoUVqmCAHdQiR-UDsNVHj6YS5XmbPpYibOk2_HIO_IprqUB-h8wT8OIQvjtfNJ3xQnPJOsEaZoy796dfr9IPHdC03vdSwa7QFzhp8Oc_8oMbYXts3MwgoLP50)](https://github.com/18F/piipan/blob/dev/docs/adr/0004-default-database.md)
+Here is an example ADR documenting the selection of a database product
+
+![Title: Default database Date: 2020-10-22 Status: Accepted Context: We will likely need several relational database cluster instances (and likely per-state logical databases) in order to provide good data isolation within the system. However, usage within an individual database is expected to be fairly basic and undemanding. Decision: We have decide to use Blank Database for PostgreSQL across the system and maximize the use of database-agnostic SQL Consequences: Blank Database for Postgre SQL, being based on an open source platform, is about 1/3 the hourly price of Blank SQL Database]({{ site.baseurl }}/assets/blog/adr.png)
 
 The audience for ADRs are engineers, product managers, and anyone else who’s able to change the code. ADRs may be a little too “in the weeds'' for product owners or program managers, and that’s okay—other types of documentation should cater to these groups.
 
@@ -102,7 +105,7 @@ ADRs should be kept as close to your code as possible. If you have a code reposi
 
 Each ADR should follow the same [template](https://github.com/transcom/mymove/blob/master/docs/adr/template.md). There are many to choose from, and they range from the [simple](https://github.com/18F/piipan/blob/main/docs/adr/0001-record-architecture-decisions.md) to the [complex](https://github.com/transcom/mymove/blob/master/docs/adr/template.md). Don’t sweat about finding the perfect template—it’s more important that you just pick one and start writing. 
 
-A newcomer should be able to skim the file names of your ADRs and get a concise, high-level overview of the life of your product. Have a consistent naming convention for your ADR files that briefly and accurately describes the decision. For example, a file name like `use-postgresql-for-database.md `that’s written in an active voice is more readable than `database-selection.md`.
+A newcomer should be able to skim the file names of your ADRs and get a concise, high-level overview of the life of your product. Have a consistent naming convention for your ADR files that briefly and accurately describes the decision. For example, a file name like `use-postgresql-for-database.md`that’s written in an active voice is more readable than `database-selection.md`.
 
 Because ADRs represent a point-in-time decision, an ADR shouldn’t be altered once it’s added to the collection. Instead, a new ADR should be created to mark the change. 
 
