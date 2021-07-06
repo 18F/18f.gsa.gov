@@ -67,7 +67,7 @@ Generally a record describes:
 3. **Consequences**: What will happen as a result of this change?
 4. **Status**: Has the decision been implemented, or is it still being researched?
 
-Here is an example ADR documenting the selection of a database product
+Here is an example ADR documenting the selection of a database product:
 
 <pre style="word-wrap: break-word; overflow-x: auto; white-space: pre-wrap; margin: 2rem 0;">
 #4. Default database
@@ -88,7 +88,7 @@ We have decided to use PostgreSQL across the system and maximize the use of data
 
 ## Consequences
 
-- PostgreSQL, being based on an open source platform, is about 1/3 the hourly price of its SQL equivalent.
+- The PostgreSQL Product-as-a-Service (PaaS), being based on an open source platform, is about 1/3 the hourly price of a similar, commercial database PaaS.
 - We do not have data on whether or not PostgreSQL is commonly used at the partner agency. By using database-agnostic SQL, we aim to mitigate the risk of introducing a new tool into the partner agency's environment.
 - PostgreSQL is 18F's default datastore – this eases engineering onboarding during the engagement.
 </pre>
