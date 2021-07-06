@@ -105,7 +105,7 @@ ADRs should be kept as close to your code as possible. If you have a code reposi
 
 Each ADR should follow the same [template](https://github.com/transcom/mymove/blob/master/docs/adr/template.md). There are many to choose from, and they range from the [simple](https://github.com/18F/piipan/blob/main/docs/adr/0001-record-architecture-decisions.md) to the [complex](https://github.com/transcom/mymove/blob/master/docs/adr/template.md). Don’t sweat about finding the perfect template—it’s more important that you just pick one and start writing. 
 
-A newcomer should be able to skim the file names of your ADRs and get a concise, high-level overview of the life of your product. Have a consistent naming convention for your ADR files that briefly and accurately describes the decision. For example, a file name like `use-postgresql-for-database.md`that’s written in an active voice is more readable than `database-selection.md`.
+A newcomer should be able to skim the file names of your ADRs and get a concise, high-level overview of the life of your product. Have a consistent naming convention for your ADR files that briefly and accurately describes the decision. For example, a file name like `use-postgresql-for-database.md` that’s written in an active voice is more readable than `database-selection.md`.
 
 Because ADRs represent a point-in-time decision, an ADR shouldn’t be altered once it’s added to the collection. Instead, a new ADR should be created to mark the change. 
 
