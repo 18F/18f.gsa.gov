@@ -69,7 +69,29 @@ Generally a record describes:
 
 Here is an example ADR documenting the selection of a database product
 
-![Title: Default database Date: 2020-10-22 Status: Accepted Context: We will likely need several relational database cluster instances (and likely per-state logical databases) in order to provide good data isolation within the system. However, usage within an individual database is expected to be fairly basic and undemanding. Decision: We have decide to use Blank Database for PostgreSQL across the system and maximize the use of database-agnostic SQL Consequences: Blank Database for Postgre SQL, being based on an open source platform, is about 1/3 the hourly price of Blank SQL Database]({{ site.baseurl }}/assets/blog/adr.png)
+<pre>
+#4. Default database
+
+Date: 2020-10-22
+
+**Status**
+
+Accepted
+
+**Context**
+
+We will likely need several relational database cluster instances (and likely per-state logical databases) in order to provide good data isolation within the system. However, usage within an individual database is expected to be fairly basic and undemanding.
+
+**Decision**
+
+We have decided to use XYZ Database for PostgreSQL across the system and maximize the use of database-agnostic SQL.
+
+**Consequences**
+
+- XYZ Database for PostgreSQL, being based on an open source platform, is about 1/3 the hourly price of XYZ SQL Database.
+- While it is part of the Microsoft ecosystem, we do not have data on whether or not XYZ Database for PostgreSQL is commonly used at the partner agency. By using database-agnostic SQL, we aim to mitigate the risk of introducing a new tool into the partner agency's environment.
+- PostgreSQL is 18F's default datastore – this eases engineering onboarding during the engagement.
+</pre>
 
 The audience for ADRs are engineers, product managers, and anyone else who’s able to change the code. ADRs may be a little too “in the weeds'' for product owners or program managers, and that’s okay—other types of documentation should cater to these groups.
 
