@@ -69,27 +69,27 @@ Generally a record describes:
 
 Here is an example ADR documenting the selection of a database product
 
-<pre>
+<pre style="word-wrap: break-word; overflow-x: auto; white-space: pre-wrap; margin: 2rem 0;">
 #4. Default database
 
 Date: 2020-10-22
 
-**Status**
+## Status
 
 Accepted
 
-**Context**
+## Context
 
 We will likely need several relational database cluster instances (and likely per-state logical databases) in order to provide good data isolation within the system. However, usage within an individual database is expected to be fairly basic and undemanding.
 
-**Decision**
+## Decision
 
-We have decided to use XYZ Database for PostgreSQL across the system and maximize the use of database-agnostic SQL.
+We have decided to use PostgreSQL across the system and maximize the use of database-agnostic SQL.
 
-**Consequences**
+## Consequences
 
-- XYZ Database for PostgreSQL, being based on an open source platform, is about 1/3 the hourly price of XYZ SQL Database.
-- While it is part of the Microsoft ecosystem, we do not have data on whether or not XYZ Database for PostgreSQL is commonly used at the partner agency. By using database-agnostic SQL, we aim to mitigate the risk of introducing a new tool into the partner agency's environment.
+- PostgreSQL, being based on an open source platform, is about 1/3 the hourly price of its SQL equivalent.
+- We do not have data on whether or not PostgreSQL is commonly used at the partner agency. By using database-agnostic SQL, we aim to mitigate the risk of introducing a new tool into the partner agency's environment.
 - PostgreSQL is 18F's default datastore – this eases engineering onboarding during the engagement.
 </pre>
 
