@@ -18,7 +18,7 @@ excerpt: This is part two in a two-part series with our partner team at the U.S.
 ---
 *This is part two in a two-part series with our partner team at the U.S. Tax Court about their experiences building their new, [open source](https://github.com/ustaxcourt/ef-cms) case management system, [DAWSON](https://dawson.ustaxcourt.gov/). For this post, we talked to Mike Marcotte, Technical Lead on the project. Mike joined the Court a few months before launch and hit the ground running to scale the product up to production and expertly steer it through a successful launch. These are Mike’s opinions and are not the official views of the U.S. Tax Court.*
 
-*Quick plug: The Court is hiring for two remote positions: Product Specialist, and DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!*
+*Quick plug: The Court is hiring for a remote position: DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!*
 
 
 
