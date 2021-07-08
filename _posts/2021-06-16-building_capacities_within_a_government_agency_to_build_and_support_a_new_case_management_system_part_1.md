@@ -18,7 +18,7 @@ excerpt: This is part one in a two-part series with our partner team at the U.S.
 ---
 *This is part one in a two-part series with our partner team at the U.S. Tax Court about their experiences building their new, [open source](https://github.com/ustaxcourt/ef-cms) case management system, [DAWSON](https://dawson.ustaxcourt.gov/). For this post, we chatted with Jessica Marine, Product Owner and Deputy Clerk of the Court, Case Services Officer. Jessica is the epitome of what makes a good product owner in government – strong ability to define success with clear objectives and execute against those objectives, excellent communication skills to build alignment, and a strong sense of mission. Bravo, Jessica, on all that you’ve accomplished. These are Jessica’s opinions and are not the official views of the U.S. Tax Court.*
 
-*Quick plug: The Court is hiring for two remote positions: Product Specialist, and DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!*
+*Quick plug: The Court is hiring for a remote position: DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!*
 
 
 

@@ -49,7 +49,7 @@ I’m now able to draft orders on my tablet from the comfort of my leather recli
 <span>- Judge, U.S. Tax Court </span>
 </div>
 
-**The Court is hiring for two remote positions**: Product Specialist, and DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!
+**The Court is hiring for a remote position**: DevSecOps Engineer. If you’re interested, please consider [applying](https://www.ustaxcourt.gov/vacancy_announcements.html)!
 
 *Launch team – Court: Jessica Marine and Mike Marcotte; 18F: Andrew Dunkman, Mark Meyer, Julia Allen, Laura Gerhardt, Olesya Minina, and Vicki McFadden.* 
 
