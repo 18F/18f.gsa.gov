@@ -14,10 +14,10 @@ How is your content created and maintained? Who does what? How do you decide wha
 
 Effective content governance can: 
 
-* Clarify roles and responsibilities for content owners
-* Establish a basis to manage content strategically
-* Help content owners plan, prioritize, and allocate resources
-* Guide decisions throughout the content lifecycle
+* Clarify roles and responsibilities for content owners.
+* Establish a basis to manage content strategically.
+* Help content owners plan, prioritize, and allocate resources.
+* Guide decisions throughout the content lifecycle.
 
 Get started with content governance and become a content hero!  
 
@@ -74,5 +74,5 @@ Start small and keep going. Create a roadmap that aligns with your vision to pla
 
 ## Read more
 
-* [Content strategy and life cycle](https://www.usda.gov/digital-strategy/content/plays#content2) (USDA Digital Strategy Playbook)
 * [How agile and lean principles can improve content strategy and governance](https://www.joshtong.io/blog/2015/6/7/how-agile-and-lean-principles-can-improve-content-strategy-and-governance) (Josh Tong blog post)
+* [Content strategy and life cycle](https://www.usda.gov/digital-strategy/content/plays#content2) (USDA Digital Strategy Playbook)
