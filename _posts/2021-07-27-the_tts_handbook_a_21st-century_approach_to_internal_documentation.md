@@ -11,7 +11,6 @@ tags:
 excerpt: "In this post, we introduce the Technology Transformation Services
   Handbook: an open, crowd-sourced, accessible, and living resource that aims to
   provide the information our team needs to do their work."
-image: /assets/blog/handbook-landing-page.png
 ---
 *This summer TTS welcomed Dylan Irlbeck as a Coding it Forward Civic Digital fellow. Dylan worked with the TTS Technology Portfolio and Outreach teams to improve the TTS Handbook. Dylan has offered to share with us a bit of history about the Handbook and how he’s been tackling this project. Take it away Dylan!*
 
