@@ -37,7 +37,7 @@ As an organization, the Technology Transformation Services (TTS) is [committed t
 Overall, the Handbook has been incredibly successful for TTS. It reduces a lot of headache with onboarding new employees, results in fewer duplicative questions via email or Slack, and, more generally, demonstrates our commitment to transparency as an organization. The default to using plain language has also been a breath of fresh air for staff. One of our colleagues put it best when they said:
 
 <div class="testimonial-blockquote">
-\[The] TTS handbook is really, really awesome.  I can't think of another organization I've been with that has such comprehensive, easy to use documentation… the handbook empowers a culture of openness, collaboration, and transparency, like we're all working together towards a common good.
+[The] TTS handbook is really, really awesome.  I can't think of another organization I've been with that has such comprehensive, easy to use documentation… the handbook empowers a culture of openness, collaboration, and transparency, like we're all working together towards a common good.
 <span>- TTS Employee </span>
 </div>
 
