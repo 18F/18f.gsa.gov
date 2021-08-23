@@ -10,11 +10,10 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          # NOTE: remove space between { { here and in all below examples
-          - v1-dependencies-bundler-{ { checksum "Gemfile.lock" }}
+          - v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
           # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-bundler-
-      - run: 
+          - v2-dependencies-bundler-
+      - run:
           name: Bundle install dependencies
           command: |
             bundle config set path 'vendor/bundle'
@@ -22,18 +21,18 @@ jobs:
       - save_cache:
           paths:
             - vendor/bundle
-          key: v1-dependencies-bundler-{ { checksum "Gemfile.lock" }}
+          key: v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
 
       - restore_cache:
           keys:
-          - v1-dependencies-npm-{ { checksum "package-lock.json" }}
+          - v1-dependencies-npm-{{ checksum "package-lock.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-npm-
       - run: npm install
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-npm-{ { checksum "package-lock.json" }}
+          key: v1-dependencies-npm-{{ checksum "package-lock.json" }}
       - run: bundle exec jekyll build
       - run: npm run htmlproofer
       - run:
