@@ -64,3 +64,5 @@ Envío mis comentarios sobre el blog y regreso a trabajar con el prototipo. Más
 Al evaluar la diferencia entre este trabajo y mis experiencias previas en el sector privado, concluyo que la principal diferencia es que 18F es una organización con una misión clara y precisa. Las personas llegan a 18F porque quieren crear cambios dentro del Gobierno y ser parte de un equipo que busca mejorar el acceso a los servicios digitales. Con nuestro trabajo queremos tener un impacto positivo en millones de personas. 
 
 En eso enfoco mis esfuerzos dentro de 18F. Además creo que parte de mejorar esa accesibilidad es tener más y mejores servicios digitales en español. Para eso necesitamos personas como tú, con la experiencia técnica y el dominio de los idiomas inglés y español, entre otros, que nos ayuden a crear mejores servicios digitales y más accesibles.
+
+**An English version of this post will be available next week.**
