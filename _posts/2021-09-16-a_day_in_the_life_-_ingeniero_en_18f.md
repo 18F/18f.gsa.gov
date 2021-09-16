@@ -1,6 +1,6 @@
 ---
 title: A day in the life - Ingeniero en 18F
-date: September 16, 2021
+date: September 21, 2021
 authors:
   - edwin-torres
 tags:
@@ -10,7 +10,7 @@ tags:
 excerpt: Según estimados del Censo, cerca de 41 millones de personas hablan
   español en Estados Unidos. En 18F imaginamos un país cuyo Gobierno ofrezca
   servicios digitales consistentes y confiables para todos sus usuarios. Nuestro
-  ingeniero, Edwin Torres nos habla de su dia de trabajo y porque es importante
+  ingeniero, Edwin Torres nos habla de su dia de trabajo y pq es importante
   tener empleados bilingues.
 ---
 Según estimados del Censo, cerca de 41 millones de personas hablan español en Estados Unidos. Millones de estas personas no hablan o hablan muy poco inglés. Esta realidad le dificulta a muchos tener acceso a servicios del Gobierno; lo que resulta en más obstáculos para las comunidades hispanohablantes.
