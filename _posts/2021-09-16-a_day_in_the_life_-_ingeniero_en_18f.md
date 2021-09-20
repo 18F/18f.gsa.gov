@@ -27,6 +27,8 @@ Sabemos que personas como tú, interesadas en 18F, tienen muchas preguntas y es 
 
 ## Bienvenidos
 
+![Edwin (el) posa sonriendo en frente de su escritorio. El tiene piel blanca bronzeada y largo cabello negro.  En su escritorio hay 5 monitores, uno se encuentra apagado, tres de ellos tienen la foto de un astronauta en el espacio, y el quinto el logo del GSA. En su escritorio tambien hay una taza de cafe con el logo de 18F, una decoracion de madera con la bandera de Puerto Rico, y un figurin del Mandalorian. A la par de su escritorio hay un estante con tres plantas verdes]({{ site.baseurl }}/assets/blog/edwin_gsa.jpg)
+
 ¡Hola! Mi nombre es Edwin Torres. Soy ingeniero de software en 18F, una de las organizaciones de consultoría en tecnología y diseño más peculiares del mundo, dado que está formada por empleados gubernamentales que trabajan como consultores para otras agencias del Gobierno. En otras palabras, 18F trabaja con otras agencias para mejorar la experiencia del usuario a la hora de acceder a servicios gubernamentales. 18F ayuda a estos otros grupos a desarrollar y adquirir tecnología.  
 
 Antes de trabajar aquí, trabajaba como consultor para el Departamento de Educación de Puerto Rico. Fue ahí cuando me encontré por primera vez con 18F. La misión y calidad del trabajo de 18F capturaron mi imaginación y me sirvieron de inspiración.
