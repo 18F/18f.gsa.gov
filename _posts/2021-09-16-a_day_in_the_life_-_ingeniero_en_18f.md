@@ -32,7 +32,7 @@ Sabemos que personas como tú, interesadas en 18F, tienen muchas preguntas y es 
 
 Antes de trabajar aquí, trabajaba como consultor para el Departamento de Educación de Puerto Rico. Fue ahí cuando me encontré por primera vez con 18F. La misión y calidad del trabajo de 18F capturaron mi imaginación y me sirvieron de inspiración.
 
-18F es una organización amigable al trabajo remoto desde hace años. Así que he podido trabajar desde Puerto Rico. Soy la primera persona trabajando a tiempo completo para TTS desde el archipiélago caribeño. 
+18F es una organización amigable al trabajo remoto desde hace años. Así que he podido trabajar desde Puerto Rico. Soy la primera persona trabajando a tiempo completo para 18F desde el archipiélago caribeño. 
 
 ## Una mañana de trabajo técnico
 
