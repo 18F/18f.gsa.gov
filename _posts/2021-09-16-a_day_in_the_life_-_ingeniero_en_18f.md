@@ -28,7 +28,7 @@ Sabemos que personas como tú, interesadas en 18F, tienen muchas preguntas y es 
 
 ![Edwin (el) posa sonriendo en frente de su escritorio. El tiene piel blanca bronzeada y largo cabello negro.  En su escritorio hay 5 monitores, uno se encuentra apagado, tres de ellos tienen la foto de un astronauta en el espacio, y el quinto el logo del GSA. En su escritorio tambien hay una taza de cafe con el logo de 18F, una decoracion de madera con la bandera de Puerto Rico, y un figurin del Mandalorian. A la par de su escritorio hay un estante con tres plantas verdes]({{ site.baseurl }}/assets/blog/edwin_gsa.jpg)
 
-¡Hola! Mi nombre es Edwin Torres. Soy ingeniero de software en 18F, una de las organizaciones de consultoría en tecnología y diseño más peculiares del mundo, dado que está formada por empleados gubernamentales que trabajan como consultores para otras agencias del Gobierno. En otras palabras, 18F trabaja con otras agencias para mejorar la experiencia del usuario a la hora de acceder a servicios gubernamentales. 18F ayuda a estos otros grupos a desarrollar y adquirir tecnología.  
+¡Hola! Mi nombre es Edwin Torres. Soy ingeniero de software en 18F, una de las organizaciones de consultoría en tecnología y diseño más excepcionales del mundo, dado que está formada por empleados gubernamentales que trabajan como consultores para otras agencias del Gobierno. En otras palabras, 18F trabaja con otras agencias para mejorar la experiencia del usuario a la hora de acceder a servicios gubernamentales. 18F ayuda a estos otros grupos a desarrollar y adquirir tecnología.  
 
 Antes de trabajar aquí, trabajaba como consultor para el Departamento de Educación de Puerto Rico. Fue ahí cuando me encontré por primera vez con 18F. La misión y calidad del trabajo de 18F capturaron mi imaginación y me sirvieron de inspiración.
 
@@ -48,7 +48,7 @@ La tecnología que utilizamos en cada proyecto depende en gran medida de las cir
 
 Cerca del mediodía comienzo a prepararme para nuestra reunión diaria con la agencia que estamos trabajando. En esta reunión discutimos el avance y cualquier asunto que pueda estar retrasando el progreso del proyecto. Estas reuniones son, por lo general, en la mañana, pero siendo una “organización distribuida” debemos ser sensibles a las diferencias de hora por lo que la mayoría de las reuniones ocurren entre las 11AM y las 5PM (hora del Este) y por supuesto, son a través de video llamada.
 
-Además de este tipo de reuniones, gran parte de la comunicación dentro de 18F se desarrolla en Slack a través de un centenar de canales de todo tipo que mantienen viva la cultura organizacional. Esta fue una de las partes que más me llamó la atención cuando comencé aquí.
+Además de este tipo de reuniones, gran parte de la comunicación dentro de 18F se desarrolla a través de un centenar de canales virtuales de todo tipo que mantienen viva la cultura organizacional. Esta fue una de las partes que más me llamó la atención cuando comencé aquí.
 
 ## No solo es el aspecto técnico
 
@@ -65,5 +65,8 @@ Envío mis comentarios sobre el blog y regreso a trabajar con el prototipo. Más
 Al evaluar la diferencia entre este trabajo y mis experiencias previas en el sector privado, concluyo que la principal diferencia es que 18F es una organización con una misión clara y precisa. Las personas llegan a 18F porque quieren crear cambios dentro del Gobierno y ser parte de un equipo que busca mejorar el acceso a los servicios digitales. Con nuestro trabajo queremos tener un impacto positivo en millones de personas. 
 
 En eso enfoco mis esfuerzos dentro de 18F. Además creo que parte de mejorar esa accesibilidad es tener más y mejores servicios digitales en español. Para eso necesitamos personas como tú, con la experiencia técnica y el dominio de los idiomas inglés y español, entre otros, que nos ayuden a crear mejores servicios digitales y más accesibles.
+
+## Comienza
+¿Interesado en unirse a [nuestro equipo?](https://18f.gsa.gov/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/) Consulte las posiciones abiertas y cómo postularse en la [página de TTS](https://join.tts.gsa.gov/)(en inglés).
 
 **An English version of this post will be available next week.**
