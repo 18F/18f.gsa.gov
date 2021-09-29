@@ -107,6 +107,80 @@ I learned the importance of making people feel comfortable before user interview
 
 ## On human-centered design
 
+### Foster a safe space and be curious.
+
+<div class="testimonial-blockquote" markdown=1>
+Fostering a safe space lets us check our ego and ask questions that help us learn and grow. To be truly human centered in your work requires being curious and open. Read more about [our partnership principles](https://18f.gsa.gov/partnership-principles/) and collaboration approaches to help your project succeed.
+<span>– Ben Peterson, UX designer </span>
+</div>
+
+### Asking for help is a sign of strength.
+
+<div class="testimonial-blockquote" markdown=1>
+Power does not come from being the only one who knows. Be enthusiastic about sharing and showing—this is such a big part of the 18F culture. When there's something you don't know and want to learn, or when you ask for help understanding something, our colleagues are generally happy to teach you, share their knowledge, and show you how it's done.
+<span>– Melissa Braxton, UX designer </span>
+</div>
+
+### There’s power, humility, and equity within not knowing something.
+
+<div class="testimonial-blockquote" markdown=1>
+Many of my colleagues at 18F have demonstrated to me (and our partners) that there’s power, humility, and equity within not knowing something. User-centered design fundamentally depends upon a designer constantly acknowledging and re-acknowledging what they don’t know, and using their expertise to ask better questions, not to assume answers. A strong team values ‘knowing the answer’ less and ‘learning the answer’ more.
+<span>– Mike Gintz, Designer </span>
+</div>
+
 ## On leadership and consulting
 
+### Great leaders empower others.
+
+<div class="testimonial-blockquote" markdown=1>
+At 18F, leadership roles are framed not as positions to ascend to once you have attained a certain level of expertise, but rather as opportunities to serve your colleagues, support the organization, and grow as an individual. I’ve learned so much from my colleagues in the Design Chapter as they exemplify the principles of servant leadership: using their positions to empower others, foster inclusion and cohesion, and support their teams in achieving their goals.
+<span>– Julia Lindpaintner, UX designer </span>
+</div>
+
+### Think like a consultant.
+
+<div class="testimonial-blockquote" markdown=1>
+As a UX designer, it’s easy to go into projects looking for new things to design. During my time at 18F, I’ve learned how to approach the work from a consulting mindset which has helped me to recognize hidden opportunities. For example, on some partner-facing projects it may be most effective to do a deep dive into their organization and power structure, or investigate who owns which technologies and why. Rather than designing a new system, sometimes the best solutions for our partners have to do with connecting two separated teams and making introductions or simply helping them document an internal process. To me, thinking like a consultant means focusing on what’s going to be the most impactful to our partners.
+<span>– Laura Poncé, UX designer </span>
+</div>
+
+### Here’s a sticky-noting trick you should know!
+
+<div class="testimonial-blockquote" markdown=1>
+While working on an [affinity mapping](https://methods.18f.gov/decide/affinity-mapping/) exercise in person with one of my project partners, I learned that there’s a trick to getting sticky notes to stay on the wall. The best way to use them is to peel a new note from side-to-side off of the stack instead of from bottom-to-top. It’ll lay flat on the wall and won’t fall off as easily!
+<span>– Laura Poncé, UX designer </span>
+</div>
+
 ## On working in government
+
+### Get excited instead of intimidated!
+
+<div class="testimonial-blockquote" markdown=1>
+When I started working on a project with the Office of Management and Budget (OMB) at the White House, they introduced me to [The Reg Map (informal rulemaking)](https://www.reginfo.gov/public/reginfo/Regmap/regmap.pdf) that outlines the rulemaking process. I’d learned how a bill becomes a law in high school civics class, but I was in the dark about rulemaking (how a law becomes policy). The nine step multi-level diagram made my head spin at first, but it was a great tool to help me learn key concepts quickly and, most importantly, ask better questions of the subject-matter experts I was working with at OMB.
+
+Government is complex because its work is complex, but even complex processes can be clear. Sometimes this means stating that a process is complex—nobody may have ever acknowledged that in plain language before! We have the opportunity to bring this clarity to so many areas of the government, and I think that’s more exciting than intimidating. 
+<span>– Laura Poncé, UX designer </span>
+</div>
+
+### Working in the open is valuable for current and future teams.
+
+<div class="testimonial-blockquote" markdown=1>
+I learned from 18F designer/researcher alum Colin MacArthur and our Chief of Staff Alan Brouilette the value of working in the open. This shared [synthesis of usability testing on Github](https://github.com/USDAForestService/fs-open-forest/wiki/Usability-Testing-Special-Uses-(Non-Commercial-and-Outfitters-modules) with login.gov is so broadly helpful. I reference it when speaking at conferences, and to a ton of potential new colleagues when having virtual caffeines (informal video chats) with people interested in working here. Early on, when I would ask a question via DM, I got redirected to ask it in an open channel so others could also benefit. And I often go back and reference those answers to others.
+<span>– Anne Petersen, Designer</span>
+</div>
+
+### Regional offices are a powerful vector to interact with an agency.
+
+<div class="testimonial-blockquote" markdown=1>
+I learned from fellow designer Mark Trammell that the Forest Service has 9 regions numbered 1 through 10 (7 is missing: [here’s why](https://www.fs.usda.gov/detail/r9/learning/history-culture/?c#:~:text=In%20response%20to%20the%20span,among%20Regions%208%20and%209.).) It’s a huge way to do research closer to home, in ‘ride-alongs’ or contextual inquiry: what do customer service folks have posted up on their monitors that they reference often? Regional Town Halls at GSA are also a huge way to have a bigger impact, demonstrate what we do, spread the word.
+<span>– Anne Petersen, Designer </span>
+</div>
+
+<div class="testimonial-blockquote" markdown=1>
+Ideas rarely succeed based purely on their own inherent value—this concept of ripeness I learned from former 18F strategist Ed Mullen. Even the best, most revolutionary, creative idea needs an appropriate environment in which to take root and flourish. Is the time right for this idea? Is the climate right? Are people ready? If not, what should we do instead, rather than bashing our idea into a wall over and over again? Should we divert some/more/all of our energy towards designing the environment rather than the idea?
+<span>– Mike Gintz, Designer </span>
+</div>
+
+## Join us!
+
+It was really fun for us to broaden our view and intentionally reflect on how enriching our work is, and we’re always looking for new people to share and grow with us. Learn more on the [TTS website](https://join.tts.gsa.gov/) about our open positions, and find out how we work in our [UX Design Guide](https://ux-guide.18f.gov/our-approach/values-and-principles/), [18F Methods](https://methods.18f.gov/), and [Content Guide](https://content-guide.18f.gov/) (or [look through our other guides](https://18f.gsa.gov/guides/)).
