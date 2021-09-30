@@ -69,4 +69,4 @@ En eso enfoco mis esfuerzos dentro de 18F. Además creo que parte de mejorar esa
 ## Comienza
 ¿Interesado en unirse a [nuestro equipo?](https://18f.gsa.gov/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/) Consulte las posiciones abiertas y cómo postularse en la [página de TTS](https://join.tts.gsa.gov/)(en inglés).
 
-**An English version of this post will be available next week.**
+[**English version.**](https://18f.gsa.gov/2021/09/30/a_day_in_the_life_of_an_18f_engineer/)
