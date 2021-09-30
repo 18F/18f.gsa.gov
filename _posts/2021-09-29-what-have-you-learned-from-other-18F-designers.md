@@ -44,9 +44,9 @@ It’s natural to check in about how the project tasks are going but what about 
 
 Each person on the team independently answers a set of questions and then shares and discusses their answers with the rest of the team:
 
-- Energy. What is and what isn’t bringing you energy while working on the project?
-- Focus. What would you like to do more of and how can you make room for that?
-- Growth. What is one thing you’re looking to be better at?
+- **Energy.** What is and what isn’t bringing you energy while working on the project?
+- **Focus.** What would you like to do more of and how can you make room for that?
+- **Growth.** What is one thing you’re looking to be better at?
 
 This is an opportunity to deepen working relationships and give people a chance to discuss how to adjust the way they work to support the strengths, energy levels, and growth opportunities of everyone on the team.   
 <span>– Malaika Carpenter, Content strategist </span>
@@ -82,7 +82,7 @@ Our teams are cross-functional by design. Everybody and their perspective matter
 <span>– Ben Peterson, UX designer </span>
 </div>
 
-### “Foster relationships, over-communicate, and be ready to pass the baton to the next person.”
+### Foster relationships, over-communicate, and be ready to pass the baton to the next person.
 
 <div class="testimonial-blockquote" markdown=1>
 I learned from fellow UX designer Melissa Braxton how to foster relationships and how to over-communicate. This means regular 1:1s with teammates but also research session debriefs, weekly ships, biweekly retros, and regular project health checks (we do them biweekly for all 18F projects as a quick 5-minute form to flag any issues). We’ve documented many of these practices in the [TTS Handbook](https://handbook.tts.gsa.gov/general-information-and-resources/how-we-collaborate/). I also came to understand that our work isn’t going away. It’s a relay race: take it as far as you can but be ready to pass the baton to the next person.
@@ -103,6 +103,20 @@ We have a big design team at 18F, and we get to see how different people approac
 <div class="testimonial-blockquote" markdown=1>
 I learned the importance of making people feel comfortable before user interviews from fellow UX designer Melissa Braxton. We want people to feel comfortable so that they’ll speak candidly about their experiences. We rely on their candor and openness in order to properly assess and address their challenges and needs so we can offer the appropriate solutions.
 <span>– Qituwra Anderson, UX designer </span>
+</div>
+
+### Start a workshop with an icebreaker.
+
+<div class="testimonial-blockquote" markdown=1>
+I picked up some workshop facilitation tips from fellow UX designer Ben Peterson. One tip is to start with an icebreaker. It’s a low pressure way to get everyone in the room working together. Another tip is to have guidelines and rules visible throughout the workshop. Bring a few of your own and ask folks at the beginning of the workshop if they have any to add to the list. Here are a couple of examples: share all of your ideas, speak up if you don’t agree, no one leaves the room unhappy with the outcome/direction.
+<span>– Qituwra Anderson, UX designer </span>
+</div>
+
+### Be impartial without being impersonal.
+
+<div class="testimonial-blockquote" markdown=1>
+I’ve learned how to model facilitation during user interviews; how to stay engaged with the conversation and how to be impartial without appearing impersonal or disinterested. I give verbal cues, ask follow-up questions, and reflect back what I heard from participants. The goal is to make participants feel heard and to communicate that we truly value their time and the experiences they share with us.
+<span>– Igor Korenfeld, Product designer </span>
 </div>
 
 ## On human-centered design
@@ -159,13 +173,13 @@ While working on an [affinity mapping](https://methods.18f.gov/decide/affinity-m
 When I started working on a project with the Office of Management and Budget (OMB) at the White House, they introduced me to [The Reg Map (informal rulemaking)](https://www.reginfo.gov/public/reginfo/Regmap/regmap.pdf) that outlines the rulemaking process. I’d learned how a bill becomes a law in high school civics class, but I was in the dark about rulemaking (how a law becomes policy). The nine step multi-level diagram made my head spin at first, but it was a great tool to help me learn key concepts quickly and, most importantly, ask better questions of the subject-matter experts I was working with at OMB.
 
 Government is complex because its work is complex, but even complex processes can be clear. Sometimes this means stating that a process is complex—nobody may have ever acknowledged that in plain language before! We have the opportunity to bring this clarity to so many areas of the government, and I think that’s more exciting than intimidating. 
-<span>– Laura Poncé, UX designer </span>
+<span>– Amanda Costello, Content strategist </span>
 </div>
 
 ### Working in the open is valuable for current and future teams.
 
 <div class="testimonial-blockquote" markdown=1>
-I learned from 18F designer/researcher alum Colin MacArthur and our Chief of Staff Alan Brouilette the value of working in the open. This shared [synthesis of usability testing on Github](https://github.com/USDAForestService/fs-open-forest/wiki/Usability-Testing-Special-Uses-(Non-Commercial-and-Outfitters-modules) with login.gov is so broadly helpful. I reference it when speaking at conferences, and to a ton of potential new colleagues when having virtual caffeines (informal video chats) with people interested in working here. Early on, when I would ask a question via DM, I got redirected to ask it in an open channel so others could also benefit. And I often go back and reference those answers to others.
+I learned from 18F designer/researcher alum Colin MacArthur and our Chief of Staff Alan Brouilette the value of working in the open. This shared [synthesis of usability testing on Github](https://github.com/USDAForestService/fs-open-forest/wiki/Usability-Testing-Special-Uses-(Non-Commercial-and-Outfitters-modules)) with login.gov is so broadly helpful. I reference it when speaking at conferences, and to a ton of potential new colleagues when having virtual caffeines (informal video chats) with people interested in working here. Early on, when I would ask a question via DM, I got redirected to ask it in an open channel so others could also benefit. And I often go back and reference those answers to others.
 <span>– Anne Petersen, Designer</span>
 </div>
 
