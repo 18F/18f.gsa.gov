@@ -1,4 +1,4 @@
-FROM ruby:2.7.2
+FROM ruby:2.7
 
 # set locales
 RUN  apt-get update >/dev/null && \
