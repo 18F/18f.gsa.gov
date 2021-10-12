@@ -8,11 +8,12 @@ authors:
   - ryan-ahearn
   - nick-kramer
 tags:
-  - how-we-work
   - ATO
+  - lessons learned
+  - testing
+  - transparency
 excerpt: |
   ATO processes work differently at different federal agencies. As a technology and design consultancy inside the United States government, 18F has worked on ATOs at many of them. We are still learning and experimenting, but there are definite patterns we have seen work well across multiple agencies.
-# image: /assets/blog/slug/image.jpg/png/gif
 ---
 
 If you work in the federal government and want to deliver custom web applications, you will almost certainly need to go through an Authority to Operate (ATO) compliance process. An ATO is an authorization approved by an Authorizing Official (AO) who accepts a system’s security risk. We say "ATO process" as shorthand. The process generally includes a series of steps to categorize, prepare, implement, assess, authorize, and monitor a system to ensure it meets an acceptable level of security – and that the system complies with the many laws and regulations applicable to federal information technology.
@@ -34,6 +35,8 @@ In order to successfully work with security compliance teams to ship software in
 - [Maintain your documentation alongside your source code](#maintain-your-documentation-alongside-your-source-code)
 
 ## Architect systems anticipating the ATO process
+
+<img src="{{site.baseurl}}/assets/blog/navigating-atos/boundary-diagram.png" alt="boundary diagram with lines describing the types of connections between entities such as an API and routers">
 
 As you explore the requirements of your system, consider selecting an architectural foundation that allows you to inherit as many of the [NIST 800-53 controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) as possible from an existing provider or product. This can dramatically reduce the scope of work required for the ATO, reduce timelines, and improve overall system security.
 
@@ -84,6 +87,8 @@ Cut initial scope down to a minimum reviewable size. A minimum reviewable size w
 You can still make changes and keep building and improving your system after its initial ATO. [Further changes and functionality may flow through Agile and DevOps processes](https://18f.gsa.gov/2021/03/02/using-agile-and-devops-to-get-better-results-than-a-change-control-board/), ([or through a Change Control Board, in a waterfall environment](https://18f.gsa.gov/2021/03/02/using-agile-and-devops-to-get-better-results-than-a-change-control-board/)). You may need to seek a new or modified ATO if or when you find that your system will need to change in major ways — for example, if you need a new system architecture or need to connect to a new external system.
 
 ## Embrace DevOps, continuous integration, and automated testing, while staying flexible on format
+
+<img src="{{site.baseurl}}/assets/blog/navigating-atos/zap.png" alt="ZAP scanning report indicating several findings">
 
 DevOps, continuous integration, automated testing, automated security scanning using open-source tools such as OWASP ZAP: all of these modern software development practices show your team’s commitment to rigorous testing of your system. Take the time to walk through the practices your team is employing, and show how these techniques test and verify the security of your system. If your development team is running a full suite of automated tests for correctness, security, and accessibility on every proposed code change, make sure your security compliance team knows this is happening and sees the benefits! You may need to be flexible on the format you use to share information about the testing you are doing. Taking the time to put results into a familiar format like Word, PDF, or an HTML page can go a long way.
 
