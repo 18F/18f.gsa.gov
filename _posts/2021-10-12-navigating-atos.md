@@ -36,7 +36,7 @@ In order to successfully work with security compliance teams to ship software in
 
 ## Architect systems anticipating the ATO process
 
-<img src="{{site.baseurl}}/assets/blog/navigating-atos/boundary-diagram.png" alt="boundary diagram with lines describing the types of connections between entities such as an API and routers">
+<img src="{{site.baseurl}}/assets/blog/navigating-atos/example-boundary-diagram.png" alt="boundary diagram with lines describing the types of connections between entities such as an API and routers">
 
 As you explore the requirements of your system, consider selecting an architectural foundation that allows you to inherit as many of the [NIST 800-53 controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) as possible from an existing provider or product. This can dramatically reduce the scope of work required for the ATO, reduce timelines, and improve overall system security.
 
