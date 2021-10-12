@@ -2,8 +2,8 @@
 date: 2021-09-21
 title: Navigating ATOs
 authors:
-  - ryan-hofschneider
   - alex-soble
+  - ryan-hofschneider
   - jessica-dussault
   - ryan-ahearn
   - nick-kramer
@@ -43,7 +43,7 @@ Finally, evaluate shared services within the federal government — such as [log
 
 ## Stay curious through a complex process
 
-When starting on any new ATO process, ask lots of questions. Your security compliance partners will likely assign your project an ISSO (Information System Security Officer) to guide you through the process. Invite your ISSO to your system design meetings and sprint demos to avoid surprises later in the process. Seeking out other people and teams who have successfully navigated ATO processes within the agency is also a good idea.
+When starting on any new ATO process, ask lots of questions. Your security compliance partners will likely assign your project an Information System Security Officers (ISSO) to guide you through the process. Invite your ISSO to your system design meetings and sprint demos to avoid surprises later in the process. Seeking out other people and teams who have successfully navigated ATO processes within the agency is also a good idea.
 
 At the beginning of the process, you may want to ask your ISSO questions like these:
 
