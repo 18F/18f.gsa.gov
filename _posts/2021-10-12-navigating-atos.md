@@ -32,7 +32,7 @@ In order to successfully work with security compliance teams to ship software in
 - [Build in time to focus on the ATO](#build-in-time-to-focus-on-the-ato)
 - [Scope to de-risk](#scope-to-de-risk)
 - [Embrace DevOps, continuous integration, and automated testing, while staying flexible on format](#embrace-devops-continuous-integration-and-automated-testing-while-staying-flexible-on-format)
-- [Maintain your documentation alongside your source code](#maintain-your-documentation-alongside-your-source-code)
+- [Maintain documentation alongside source code](#maintain-documentation-alongside-source-code)
 
 ## Architect systems anticipating the ATO process
 
@@ -92,7 +92,7 @@ You can still make changes and keep building and improving your system after its
 
 DevOps, continuous integration, automated testing, automated security scanning using open-source tools such as OWASP ZAP: all of these modern software development practices show your team’s commitment to rigorous testing of your system. Take the time to walk through the practices your team is employing, and show how these techniques test and verify the security of your system. If your development team is running a full suite of automated tests for correctness, security, and accessibility on every proposed code change, make sure your security compliance team knows this is happening and sees the benefits. You may need to be flexible on the format you use to share information about the testing you are doing. Taking the time to put results into a familiar format like Word, PDF, or an HTML page can go a long way.
 
-## Maintain your documentation alongside your source code
+## Maintain documentation alongside source code
 
 Very frequently, ATO documentation is authored solely for the purposes of the compliance process and then is reviewed, approved, and archived – not to see the light of day until the next review or reauthorization, a year or more later.
 
