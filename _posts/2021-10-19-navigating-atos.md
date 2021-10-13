@@ -1,5 +1,5 @@
 ---
-date: 2021-10-12
+date: 2021-10-19
 title: Navigating ATOs
 authors:
   - alex-soble
