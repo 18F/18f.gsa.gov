@@ -73,7 +73,7 @@ As soon as you know that your software project will need an ATO, get started on 
 
 ## Build in time to focus on the ATO
 
-The ATO process can take a surprising amount of time and energy, even when things are going well. You will be juggling working on your system, creating documentation, collaborating with others, communicating with your ISSO, and iterating through the process to respond to feedback. The time required for your ATO may vary; a FISMA Moderate system will need more attention than a FISMA Low system.[[1]](#footnote) Regardless, it's a good idea to plan ahead for a lot of time in case you need it. Talk with your ISSO early about checkpoints and deadlines so you can work towards meeting them.
+The ATO process can take a surprising amount of time and energy, even when things are going well. You will be juggling working on your system, creating documentation, collaborating with others, communicating with your ISSO, and iterating through the process to respond to feedback. The time required for your ATO may vary; [a FISMA Moderate system will need more attention than a FISMA Low system](https://engineering.18f.gov/security/#fisma). Regardless, it's a good idea to plan ahead for a lot of time in case you need it. Talk with your ISSO early about checkpoints and deadlines so you can work towards meeting them.
 
 ## Scope to de-risk
 
@@ -105,11 +105,3 @@ Of course, there are nuances to this approach, especially if [you embrace open s
 As one excellent example of doing security and compliance work in the open, our sibling organization cloud.gov published their [configuration management approach](https://cloud.gov/docs/ops/configuration-management/), [contingency plan](https://cloud.gov/docs/ops/contingency-plan/), and [incident response checklist](https://cloud.gov/docs/ops/security-ir-checklist/). Working in this way has benefits to the entire ecosystem, since other projects can learn and benefit from the security and compliance work done by cloud.gov. At the ecosystem level, we are also optimistically tracking efforts like [OSCAL](https://pages.nist.gov/OSCAL/), which are building standardized formats and tools to ease ATO compliance work.
 
 Happy trails, and good luck!
-
-## Footnote
-
-Standards for categorizing information systems into categories like Low, Medium and High are defined in FIPS PUB 199, [Standards for Security Categorization of Federal Information and Information Systems](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf).
-
-A system can also be Moderate but classified as a High Value Asset, in which case there is another level of inspection by the Department of Homeland Security that should be accounted for in the timeline.
-
-For more, see [https://www.cisa.gov/publication/high-value-asset-control-overlay](https://www.cisa.gov/publication/high-value-asset-control-overlay).
