@@ -22,7 +22,7 @@ At 18F, we envision a country whose government consistently offers digital servi
 
 Given the public's need to have access to services in Spanish, 18F seeks to attract talent who can and wants to continue building an accessible government for the millions of Spanish-speakers in the United States.
 
-We know that potential bilingual candidates interested in 18F have many questions. This is why we published [our first Spanish post](https://18f.gsa.gov/2021/09/21/a_day_in_the_life_-_ingeniero_en_18f/) to share what a working day is like in our organization from our bilingual engineer, Edwin Torres.
+We know that potential bilingual candidates interested in 18F have many questions. This is why we published [our first Spanish post](https://18f.gsa.gov/2021/09/21/a_day_in_the_life_-_ingeniero_en_18f/) to share what a working day is like in our organization from one of our bilingual engineers, Edwin Torres.
 
 ## Welcome
 
