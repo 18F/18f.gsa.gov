@@ -1,6 +1,6 @@
 ---
 title: "The weekly ship: what it is, why it's useful, and how to create your own"
-date: October 18, 2021
+date: October 21, 2021
 authors:
   - logan-mcdonald
 tags:
