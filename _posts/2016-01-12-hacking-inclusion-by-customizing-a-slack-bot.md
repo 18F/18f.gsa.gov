@@ -16,7 +16,7 @@ authors:
 tags:
 - how we work
 - communication tools and practices
-published: false
+published: true
 redirect_to: "/blog/"
 ---
 
