@@ -36,12 +36,12 @@
   },
   "homepage": "https://18f.gsa.gov",
   "devDependencies": {
-    "pa11y-ci": "^2.4.2"
+    "pa11y-ci": "^3.0.0"
   },
   "dependencies": {
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.6.0",
-    "netlify-cms": "^2.10.178",
+    "netlify-cms": "^2.10.180",
     "uswds": "^2.12.2"
   }
 }
