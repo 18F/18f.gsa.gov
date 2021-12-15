@@ -41,7 +41,7 @@
   "dependencies": {
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.6.0",
-    "netlify-cms": "^2.10.180",
+    "netlify-cms": "^2.10.181",
     "uswds": "^2.12.2"
   }
 }
