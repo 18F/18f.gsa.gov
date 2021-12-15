@@ -17,7 +17,6 @@ tags:
 - how we work
 - communication tools and practices
 published: true
-redirect_to: "/blog/"
 ---
 
 How do you nudge people to make better decisions with their language?
