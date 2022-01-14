@@ -1,6 +1,6 @@
 ---
 title: "We asked our coworkers: What have you learned from other 18F designers?"
-date: September 29, 2021
+date: January 21, 2022
 authors:
   - 18F
   - erin-strenio
@@ -10,8 +10,8 @@ tags:
   - how we work
   - user-centered design
 excerpt: "We asked 18F designers what they've learned from fellow designers while working together. Here's what they said."
-
 ---
+
 ![Image of team brainstorming]({{ site.baseurl }}/assets/blog/team_brainstorming.png)
 
 18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, leaving real-time feedback in docs, everywhere we can) with teammates. 
