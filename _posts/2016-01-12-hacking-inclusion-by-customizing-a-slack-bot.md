@@ -16,8 +16,7 @@ authors:
 tags:
 - how we work
 - communication tools and practices
-published: false
-redirect_to: "/blog/"
+published: true
 ---
 
 How do you nudge people to make better decisions with their language?
