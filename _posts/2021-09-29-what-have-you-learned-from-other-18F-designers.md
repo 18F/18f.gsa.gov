@@ -9,16 +9,16 @@ tags:
   - culture
   - how we work
   - user-centered design
-excerpt: "In a February 2021 design chapter meeting our then-Design Director Anne Petersen asked: “What have you learned from others at 18F?” Here’s what our team of designers had to say."
-image:
----
-18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, by instant messaging in docs, everywhere we can) with teammates. 
+excerpt: "We asked 18F designers what they've learned from fellow designers while working together. Here's what they said."
 
-In a February 2021 design chapter meeting our then-Design Director Anne Petersen asked: “What have you learned from others at 18F?” Here’s what our team of designers had to say. 
+---
+![Image of team brainstorming]({{ site.baseurl }}/assets/blog/team_brainstorming.png)
+
+18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, leaving real-time feedback in docs, everywhere we can) with teammates. 
+
+In a recent design chapter meeting, we asked the team: “What have you learned from others at 18F?” Here’s what our designers had to say. 
 
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
-
-## Chapters
 
 - [On fostering teamwork and healthy communication](#on-fostering-teamwork-and-healthy-communication)
 - [On user research and facilitation](#on-user-research-and-facilitation)
@@ -27,6 +27,8 @@ In a February 2021 design chapter meeting our then-Design Director Anne Petersen
 - [On working in government](#on-working-in-government)
 
 <!-- /TOC -->
+
+![Image of woman thinking]({{ site.baseurl }}/assets/blog/woman_thinking.png)
 
 ## On fostering teamwork and healthy communication
 
