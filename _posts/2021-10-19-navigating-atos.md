@@ -65,7 +65,7 @@ Teams that are steeped in agile approaches and methodologies might experience so
 
 The ATO process is not just a paperwork exercise — it offers benefits to your team and the software you are delivering. For example, the ATO process strongly emphasizes documentation. Great software development teams also strongly emphasize documentation. At times the amount of documentation required by your security compliance process might feel overwhelming. It might be helpful to think of this process as a "forcing function" that will emphasize and strengthen the team’s ability to deliver documentation.
 
-The ATO also helps you secure your web application by guiding you through steps and reminding you about procedures. Have you worked through a disaster preparation exercise recently? Are your scans as complete as they ought to be? Do you have a plan to restore your database quickly if something happens to it? The ATO will prompt you to consider an array of scenarios and concerns that will help make your web application better.
+The ATO also helps you secure your web application by guiding you through steps and reminding you about procedures. Have you worked through a disaster recovery or incident response exercise recently? Are your scans as complete as they ought to be? Do you have a plan to restore your database quickly if something happens to it? The ATO will prompt you to consider an array of scenarios and concerns that will help make your web application better.
 
 ## Start early to deliver early
 
