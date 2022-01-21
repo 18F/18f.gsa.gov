@@ -183,7 +183,7 @@ Government is complex because its work is complex, but even complex processes ca
 ### Working in the open is valuable for current and future teams.
 
 <div class="testimonial-blockquote" markdown=1>
-I learned from 18F designer/researcher alum Colin MacArthur and our Chief of Staff Alan Brouilette the value of working in the open. This shared [synthesis of usability testing on Github](https://github.com/USDAForestService/fs-open-forest/wiki/Usability-Testing-Special-Uses-(Non-Commercial-and-Outfitters-modules)) with login.gov is so broadly helpful. I reference it when speaking at conferences, and to a ton of potential new colleagues when having virtual caffeines (informal video chats) with people interested in working here. Early on, when I would ask a question via DM, I got redirected to ask it in an open channel so others could also benefit. And I often go back and reference those answers to others.
+I learned from 18F designer/researcher alum Colin MacArthur and our Chief of Staff Alan Brouilette the value of working in the open. This shared [synthesis of usability testing on Github](https://github.com/USDAForestService/fs-open-forest/wiki/Usability-Testing-Special-Uses-(Non-Commercial-and-Outfitters-modules)) with login.gov is so broadly helpful. I reference it when speaking at conferences, and to a ton of potential new colleagues when having virtual caffeines (informal video chats) with people interested in working here. Early on, when I would ask a question via direct message, I got redirected to ask it in an open channel so others could also benefit. And I often go back and reference those answers to others.
 <span>– Anne Petersen, Designer</span>
 </div>
 
