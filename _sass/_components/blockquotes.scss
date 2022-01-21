@@ -49,7 +49,7 @@ blockquote {
   position: relative;
   background: color('gray-cool-5');
 
-  ::before {
+  &::before {
     content: '\201C';
     color: color('secondary-dark');
     font-size: 4em;
