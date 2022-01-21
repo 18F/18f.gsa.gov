@@ -18,7 +18,7 @@ Special thanks to designer Jia Gu for the images in this post
 
 18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, leaving real-time feedback in docs, everywhere we can) with teammates. 
 
-In a recent design chapter meeting, we asked the team: “What have you learned from others at 18F?” Here’s what our designers had to say.
+In a design chapter meeting, we asked the team: “What have you learned from others at 18F?” Here’s what our designers had to say.
 
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
 
