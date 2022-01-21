@@ -13,10 +13,12 @@ excerpt: "We asked 18F designers what they've learned from fellow designers whil
 ---
 
 ![Image of team brainstorming]({{ site.baseurl }}/assets/blog/team_brainstorming.png)
+Special thanks to designer Jia Gu for the images in this post
+{: .font-alt-xs }
 
 18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, leaving real-time feedback in docs, everywhere we can) with teammates. 
 
-In a recent design chapter meeting, we asked the team: “What have you learned from others at 18F?” Here’s what our designers had to say. 
+In a recent design chapter meeting, we asked the team: “What have you learned from others at 18F?” Here’s what our designers had to say.
 
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
 
@@ -27,8 +29,6 @@ In a recent design chapter meeting, we asked the team: “What have you learned 
 - [On working in government](#on-working-in-government)
 
 <!-- /TOC -->
-
-![Image of woman thinking]({{ site.baseurl }}/assets/blog/woman_thinking.png)
 
 ## On fostering teamwork and healthy communication
 
@@ -90,6 +90,8 @@ Our teams are cross-functional by design. Everybody and their perspective matter
 I learned from fellow UX designer Melissa Braxton how to foster relationships and how to over-communicate. This means regular 1:1s with teammates but also research session debriefs, weekly ships, biweekly retros, and regular project health checks (we do them biweekly for all 18F projects as a quick 5-minute form to flag any issues). We’ve documented many of these practices in the [TTS Handbook](https://handbook.tts.gsa.gov/general-information-and-resources/how-we-collaborate/). I also came to understand that our work isn’t going away. It’s a relay race: take it as far as you can but be ready to pass the baton to the next person.
 <span>– Mark Trammell, UX designer </span>
 </div>
+
+![Image of woman thinking]({{ site.baseurl }}/assets/blog/woman_thinking.png)
 
 ## On user research and facilitation
 
