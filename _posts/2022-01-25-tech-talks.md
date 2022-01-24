@@ -1,6 +1,6 @@
 ---
 title: "Tech talks with One OHS"
-date: January 24, 2022
+date: January 25, 2022
 authors:
   - davida-marion
 tags:
