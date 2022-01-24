@@ -13,7 +13,7 @@ excerpt: "Building cross-system interoperability is long-term work, but the tech
 
 
 ![An older model computer whose screen reads "Building Trust With Tech Talks"]({{ site.baseurl }}/assets/blog/tech-talks/building-trust.png)
-Special thanks to Jessica Dussalt for this image!
+Special thanks to Jessica Dussault for this image!
 {: .font-alt-xs }
 
 ## An unlevel playing field
