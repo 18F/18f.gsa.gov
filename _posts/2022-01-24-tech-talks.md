@@ -34,7 +34,7 @@ Preparing these talks also allowed us to slow down and think about our audience,
 
 The tech talks worked as we’d hoped: our partners leveled up their knowledge of agile practices and increased their buy-in. It was exciting to work with them so actively to increase their understanding. We noticed a number of other benefits from the tech talks for our team that we had not anticipated.
 
-## Building Trust
+## Building trust
 
 The One OHS project spanned 4 technical systems and different areas of oversight and development, which meant that each team member worked more closely with one of the four stakeholders. Since the stakeholders all committed to attending all the tech talks, each talk was an opportunity for an 18F team member to demonstrate mastery and build trust with all the stakeholders on the OHS side. 
 
@@ -60,15 +60,15 @@ Historically, the OHS systems and teams have been siloed. Creating a collaborati
 
 Dedicating time to leveling up our partners’ knowledge had a lot of benefits that went beyond the scope of what we initially guessed. We did have a few takeaways that made our talks more successful.
 
-### Schedule a recurring meeting and make it mandatory.
+### Schedule a recurring meeting and make it mandatory
 
 It’s hard to schedule ad-hoc meetings with many participants. Carving out a specific, recurring time that works for your team and your partners signals that learning is a priority for the project. While you can always be flexible about attendance, making the meeting mandatory for your team will demonstrate the importance of the subject matter.
 
-### Include your partners in topic selection.
+### Include your partners in topic selection
 
 Asking our partners what they wanted to learn was an opportunity to better understand their interests, as well as giving them ownership over their own learning. Creating a curriculum together is an easy way to demonstrate your commitment to the partnership.
 
-### Use the talks to unpack future recommendations.
+### Use the talks to unpack future recommendations
 
 In an ideal world, our final project presentation and report should only include concepts that our partners are deeply familiar with. In reality, we didn’t have time to drill deeply into every subject. If you’re leaning towards specific recommendations, tech talks are a perfect chance to explore those ideas so thoroughly that by the time a project is over, they’ve already internalized the approach!
 
