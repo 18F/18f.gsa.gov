@@ -9,6 +9,7 @@ tags:
   - agency work
   - communication tools and practices
 excerpt: "Building cross-system interoperability is long-term work, but the tech talks became an early step in establishing shared understandings and contexts for OHS."
+image: /assets/blog/tech-talks/building-trust.png
 ---
 
 
