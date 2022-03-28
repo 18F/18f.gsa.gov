@@ -107,7 +107,7 @@ Whereas dynamic websites generate their content every time someone
 visits the page, static websites are delivered to users exactly as they
 are stored on a server. Dave Cole, the lead developer on the project,
 has [written
-extensively](https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/)
+extensively](https://developmentseed.org/blog/2012-07-27-how-we-build-cms-free-websites)
 about static sites, and how they can help make websites cheaper, faster,
 and more reliable. Federalist uses features already offered in GitHub to
 store and manage content.
