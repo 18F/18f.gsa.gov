@@ -40,7 +40,7 @@ The deliverables in the QASP should reinforce the existing behaviors and activit
 
 ### Deliverables are objectively measurable
 
-As much as possible, QASP deliverables should be objectively measurable by automated tools. There is less room for interpretation in " code has zero linting errors" than there is in "code is well-written". Some examples of objective measures include:
+As much as possible, QASP deliverables should be objectively measurable by automated tools. There is less room for interpretation in "code has zero linting errors" than there is in "code is well-written". Some examples of objective measures include:
 
 - Percentage of code covered by tests
 - Count of linting errors
