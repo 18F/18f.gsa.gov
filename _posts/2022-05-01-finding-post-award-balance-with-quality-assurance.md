@@ -1,5 +1,5 @@
 ---
-date: 2022-04-01
+date: 2022-05-01
 title: Finding post-award balance with quality assurance
 authors:
   - ryan-ahearn
@@ -8,6 +8,7 @@ authors:
 tags:
   - QASP
   - post-award management
+image:
 excerpt: |
   If you’re one of the many federal employees carrying out your mission through contracting, you might have an important question: how do I know if my contractor is doing a good job?
   Even if you don't have a strong technical background, there are steps you can take to build your confidence in the project’s maintainability and sustainability.
@@ -25,6 +26,9 @@ In this post, we’ll talk about what this might look like for a project’s tec
 But first, let’s talk about QASPs.
 
 ## What is a Quality Assurance Surveillance Plan?
+
+<img src="{{site.baseurl}}/assets/blog/finding-post-award-balance/loc-fdr-study.jpg" alt="Franklin Roosevelt inspects stamps with a magnifying glass">
+<figcaption><em>Franklin Roosevelt may not have inspected vendor code, but if he did we imagine it would have looked something like this. Image source: <a href="https://www.loc.gov/resource/hec.40758/" rel="noreferrer" target="_blank">Library of Congress</a></em></figcaption>
 
 A Quality Assurance Surveillance Plan, or QASP, is a document used to evaluate the work a contractor does on behalf of a federal agency. A QASP contains a list of desired outcomes and a method to measure the outcome's success which both parties have agreed to: the federal agency by writing it and the contractor by accepting the contract.
 
