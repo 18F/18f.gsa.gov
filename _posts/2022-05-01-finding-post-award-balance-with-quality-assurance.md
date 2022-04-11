@@ -38,9 +38,9 @@ When a federal agency relies on a contractor to build or maintain a product, the
 
 The deliverables in the QASP should reinforce the existing behaviors and activities of a well-functioning development team. Importantly, none of these deliverables are themselves reports, but rather are byproducts of the actual development work. This allows the development team to focus on delivering, not report-writing.
 
-### Deliverables should be objectively measurable
+### Deliverables are objectively measurable
 
-As much as possible, QASP deliverables should be objectively measurable by automated tools. There is less room for interpretation for "zero code linting errors" than there is for "I prefer code that uses tabs over spaces." Some examples of objective measures include:
+As much as possible, QASP deliverables should be objectively measurable by automated tools. There is less room for interpretation in " code has zero linting errors" than there is in "code is well-written". Some examples of objective measures include:
 
 - Percentage of code covered by tests
 - Count of linting errors
@@ -48,17 +48,18 @@ As much as possible, QASP deliverables should be objectively measurable by autom
 - Count of security scan findings
 - Whether the application can be automatically deployed or not
 
-Of course, nothing can be fully automated, so there will still be some subjective measures. This is true both in support of objective measures and as separate deliverables. Some examples of important measures that are still subjective are:
+Of course, nothing can be fully automated, so there will be some subjective measures. This is true both in support of objective measures and as separate deliverables. Generally, objective and subjective measures work together to provide both qualitatitave and quantitative data, giving you a fuller picture. Some examples of important measures that are still subjective are:
 
 - The team is meaningfully testing their code. Tests are meaningful when they accurately exercise the behavior of the code that is being tested. Tests would fail this measure if they are written in a way that they are guaranteed to pass no matter what the code does.
 - The team is conducting usability testing and user research and results are incorporated into the product.
-With both objective and subjective measures, an agency technical lead should work to focus the oversight, helping to sort the signal from the noise.
+
+With both objective and subjective measures, an agency technical lead should work to focus the oversight, helping to sort the signal from the noise. By automating the objective measures, a technical lead can greatly reduce their repetitive tasks, freeing up time and brainpower for the project's strategic work.
 
 ### Deliverables are connected to successful outcomes
 
 Metrics aren’t neutral, and some deliverables are unrelated to success. For example, it’s enticing to track the number of story points delivered in a sprint. However, tracking a metric encourages team members to maximize it. Because story points are an arbitrary value, this incentivizes performative work over productive work.
 
-In addition, the deliverables must connect to outcomes that the team actually controls. Setting a deliverable of zero security vulnerabilities found would be impossible; new vulnerabilities are disclosed every day. Instead, standards for zero vulnerabilities _introduced_ by the team's changes as well as rapid mitigation and remediation are both within the team’s control.
+In addition, the deliverables must connect to outcomes that the team actually controls. Setting a deliverable of zero security vulnerabilities found would be impossible; new vulnerabilities are disclosed every day. Instead, standards for zero vulnerabilities _introduced_ by the team's changes as well as rapid mitigation and remediation are both within the team’s control. If you are unsure about the best standard for your team's needs, talk it over with your vendor. By being open about your incentives and constraints, you can arrive at an approach that is mutually beneficial.
 
 Because the project’s priorities will shift over time, an agency technical lead should keep an eye on the team’s progress towards its ultimate goal, focusing on outcomes over outputs.
 
@@ -98,9 +99,9 @@ When balancing time versus quality, focusing on the work that's most valuable to
 - Use plain language to ensure understanding of specialized concepts across the whole team
 - Don’t overfocus on rigid adherence when that’s not helpful
 
-For instance, at the beginning of a process, the team will need to build out the continuous integration / continuous deployment (CI/CD) pipeline that is responsible for automated tests and scans. As a result, it’s not possible to be fully in compliance with the QASP until that work is complete. For this kickoff stage, feel comfortable postponing aspects of the QASP as long as there are known paths to getting to compliance.
+For instance, at the beginning of a process, the team will need to build out the continuous integration / continuous deployment (CI/CD) pipeline that is responsible for automated tests and scans. You'll need to select and align on standards, such as the linting rules to be used. As a result, it’s not possible to be fully in compliance with the QASP until that work is complete. For this kickoff stage, feel comfortable postponing aspects of the QASP as long as there are known paths to getting to compliance.
 
-## Conclusion
+## The real quality assurance is the friends we made along the way
 
 Remember, a QASP is not a substitute for a working relationship. Even the best designed Quality Assurance Surveillance Plan will not improve the product without  cooperation, trust, and shared understanding between the federal and contractor staff. The QASP inserts formal steps into the middle of this human relationship and is an extra process on top of each team's normal workflow. It requires both the agency and contractor to step out of their comfort zone initially.
 
