@@ -26,4 +26,4 @@ This post is part one in a series that proposes four specific recommendations to
 3. Initiate more direct interaction to build rapport
 4. Use stories as leading indicators
 
-_Special thanks to the following people for contributing to this series, including Daniel Yi, Matt Cloyd, Mike Gintz, Anne Peterson, and Waldo Jaquith._
+_Special thanks to the following people for contributing to this series, including Daniel Yi, Matt Cloyd, Mike Gintz, Anne Petersen, and Waldo Jaquith._
