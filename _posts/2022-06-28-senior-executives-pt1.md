@@ -10,7 +10,7 @@ tags:
   - stakeholder management
   - modern practices
   - agile
-excerpt: Reframing the role of senior leaders in modern software design
+excerpt: Successfully delivering software in government requires people to work differently. Without clear answers for how to do this, well-intentioned executives and teams default to existing processes that risk undermining their own success. This is part one in a series on how to evolve that relationship.
 ---
 The relationship between senior executives and tech teams can often be transactional: Executives devote attention, money, people; teams output code, releases, fixes. Understanding is often lost in this transaction. When senior executives and tech teams operate in silos they can't respond well to changing priorities in their products, fix root problems, and serve their users. Only 13% of large government software projects succeed, according to the Standish Group's 'Haze' report. We have to work differently.
 
