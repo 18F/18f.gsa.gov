@@ -79,4 +79,4 @@ We made it a priority to test the content with people with disabilities at every
 Our partners at the Department of Justice continue to iterate on the site, developing new, plain-language content that aligns with the product vision and incorporates user feedback.
 The challenge continues as well: writing for action while avoiding oversimplification of the law. It’s among the most difficult and rewarding aspects of writing in a legal context.
 
-_18F launch team: Allison Norman, Michael King, Ryan Johnson, Joe Krzystan, Olesya Minina, Aviva Oskow, Kevin Mori, Colin Murphy, Brian Hurst, Austin Hernandez, Rebecca Refoy, Miatta Myers, Norah Maki, and Laura Poncé_
+_18F launch team: Allison Norman, Michael King, Laura Poncé, Ryan Johnson, Joe Krzystan, Olesya Minina, Aviva Oskow, Kevin Mori, Brian Hurst, Austin Hernandez, Rebecca Refoy, Miatta Myers, Norah Maki, and Colin Murphy_
