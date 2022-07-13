@@ -1,5 +1,5 @@
 ---
-date: 2022-07-12
+date: 2022-07-13
 title: "Content design for beta.ada.gov: writing for action <em>and</em> flexibility"
 authors:
   - ryan-johnson
