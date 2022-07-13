@@ -45,7 +45,7 @@ With this in mind, we attempted to write clear and actionable content that would
 
 Here are two examples of that direct communication:
 
-![Screenshot from revised service animals page with clear heading text: Service animals are and Service animals are not, followed by three bullet lists written in plain language like, Any breed and any size of dog]({{ site.baseurl }}/assets/blog/content/ada-service-animals-1.png)
+![Screenshot from revised service animals page with clear heading text, Service animals are and Service animals are not, followed by three bulleted lists for each written in plain language including service animals are dogs and any breed and any size of dog, and service animals are not required to be certified or go through a professional training program]({{ site.baseurl }}/assets/blog/content/ada-service-animals-1.png)
 
 ## Writing for action _and_ flexibility
 Returning to the product vision — the foundation for the ADA.gov content strategy — we wanted to _empower_ users to understand their rights and obligations under the ADA. To do that, we needed to tell users as clearly and directly as possible what the ADA requires. This is hard, because some definitions in the regulations are intentionally broad for purposes of flexibility.
