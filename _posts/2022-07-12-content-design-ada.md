@@ -65,7 +65,7 @@ Here’s the example we used for the term _fundamentally alter_:
 This example helps illustrate how the law might apply in a specific situation—making it more tangible for the reader. It’s a map to help the user situate themselves and their circumstances in the context of the law. It is descriptive without being _prescriptive_.
 
 ### Collapse complexity
-We didn’t want to force users to read content that wasn’t relevant to them, so when we included extra detail or definitions, we used accordions, or other collapsible design patterns.
+We didn’t want to force users to read content that isn't relevant to them, so when we included extra detail or definitions, we used accordions, or other collapsible design patterns.
 
 ![Screenshot from revised service animals page that shows a heading with a plus sign that can be expanded to get more detail. The heading is phrased as a question, What does fundamentally alter mean? The screenshot is animated to show the heading being expanded to display the answer and closed again]({{ site.baseurl }}/assets/blog/content/ada-accordion.gif)
 
