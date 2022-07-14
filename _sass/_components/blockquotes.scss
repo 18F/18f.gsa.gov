@@ -2,7 +2,8 @@ $banner-line-height: 1.4;
 
 blockquote {
   border-left: 4px solid color('gray-cool-5');
-
+  padding-left: .7rem;
+  font-style: italic;
 
   cite {
     display: inline;
