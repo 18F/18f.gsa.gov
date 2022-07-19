@@ -1,6 +1,6 @@
 ---
 title: Senior executives are the allies tech teams need, part 1
-date: 2022-07-19
+date: 2022-07-20
 authors:
   - colin-murphy
   - allison-press
