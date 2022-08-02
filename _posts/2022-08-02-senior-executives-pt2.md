@@ -12,7 +12,7 @@ tags:
   - agile
 excerpt: "In order to ultimately succeed at delivering human-centered software, two critical groups need to work closely together: the product team and a champions group. This is part two in a series on how senior executives and tech teams can be better allies."
 ---
-_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{ site.baseurl }}/07/20/senior-executives-pt1/))_
+_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/07/20/senior-executives-pt1/))_
 
 In "The Innovator's Dilemma" Clayton M. Christensen says that organizations often fail because of good management, not bad. "The very decision-making and resource allocation processes that are key to the success of established companies are the very processes that reject disruptive technologies." When an organization pursues a new initiative to change the organization, it is met with systemic barriers that undervalue, slow down or impede success.
 
