@@ -10,7 +10,7 @@ tags:
   - stakeholder management
   - modern practices
   - agile
-excerpt: In order to ultimately succeed at delivering human-centered software, two critical groups need to work closely together — the product team and a champions group. This is part two in a series on how senior executives and tech teams can be better allies.
+excerpt: "In order to ultimately succeed at delivering human-centered software, two critical groups need to work closely together: the product team and a champions group. This is part two in a series on how senior executives and tech teams can be better allies."
 ---
 _This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{ site.baseurl }}/2022-07-20-senior-executives-pt1.md))_
 
