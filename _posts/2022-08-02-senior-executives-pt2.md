@@ -20,9 +20,9 @@ To work around these systemic barriers, Clayton recommends “pulling relevant p
 
 **The goal is to make strategic decisions based on user feedback.** This requires the tightest possible feedback loop between a cross-functional product team leading the work and a small group of champions overseeing its success. Otherwise, you'll spend more time justifying the work rather than doing it.
 
-A cross-functional, product team: 
+A cross-functional product team: 
 -   Consists of five to nine dedicated people, with the user research, design, content, software development, and/or security skills necessary to get the job done
--   Has a full-time product owner leading the team, who can make decisions and is accountable to the team, organization, and end users.
+-   Has a full-time product owner leading the team, who can make decisions and is accountable to the team, organization, and end users
 -   Focuses initially on understanding user needs, validating the path forward, assessing risks, building the new product, and validating and testing the product strategy
 -   Costs between $1-4M in the first year (depending partly on whether they need clearances). A more detailed cost estimate is in [18F's guide to de-risking government technology projects]([url](https://derisking-guide.18f.gov/federal-field-guide/planning/#software-development-efforts-should-be-tightly-scoped-to-reduce-risk-and-avoid-overspending))
 
