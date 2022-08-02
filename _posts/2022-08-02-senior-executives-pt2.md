@@ -34,7 +34,7 @@ A small group of champions:
 -   Clears organizational roadblocks for the product team
 
 For example, this is the Champions group the Department of Justice, Civil Rights Division established to support our work with them.
-<table class="usa-table usa-table--borderless">
+<table>
   <thead>
     <tr>
       <th scope="col">Role</th>
