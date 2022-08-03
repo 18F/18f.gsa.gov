@@ -1,5 +1,5 @@
 ---
-title: Senior executives part 2: Work outside the traditional hierarchy to set up an initiative for success
+title: "Senior executives part 2: Work outside the traditional hierarchy to set up an initiative for success"
 date: 2022-08-02
 authors:
   - colin-murphy
