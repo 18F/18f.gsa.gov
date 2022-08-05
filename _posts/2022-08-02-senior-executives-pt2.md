@@ -69,4 +69,4 @@ For example, this is the Champions group the Department of Justice, Civil Rights
   </tbody>
 </table>
 
-After using this approach to lead the launch of several important Department of Justice (DOJ) products, Daniel Yi, Senior Advisor on Innovation, reflected, “a champion’s best role is defining what problems are worth tackling, defining what success looks like if we solve that problem, and what indicators are convincing enough to show success. Then leave the team alone.”
+After using this approach to lead the launch of several important Department of Justice (DOJ) products, Daniel Yi, Senior Counsel for Legal Innovation, reflected, “a champion’s best role is defining what problems are worth tackling, defining what success looks like if we solve that problem, and what indicators are convincing enough to show success. Then leave the team alone.”
