@@ -11,7 +11,7 @@ tags:
   - stakeholder management
   - modern practices
   - agile
-excerpt: "Major technology decisions are driven by deadlines. They can force you to make long-term decisions without much certainty they’ll be successful. In the grand scheme, it doesn’t take much time to seek understanding and be confident in these decisions. This is part three in a series on how senior executives and tech teams can be better allies."
+excerpt: "Deadlines often force executives to make long-term decisions about technology without certainty it’ll be successful. Modern software development strategies help reduce this risk by leveraging a product team to incrementally test software upfront. This is part three in a series on how senior executive and tech teams can be better allies."
 ---
 _This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/2022/07/20/senior-executives-pt1/))_
 
