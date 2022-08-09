@@ -1,6 +1,6 @@
 ---
 title: "Senior executives part 3: Use short-term initiatives to build confidence in long-term decisions"
-date: 2022-08-09
+date: 2022-08-11
 authors:
   - colin-murphy
   - stacy-dion
