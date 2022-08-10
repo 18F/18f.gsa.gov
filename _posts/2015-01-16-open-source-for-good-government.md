@@ -35,8 +35,8 @@ We then built upon it as part of [our own open source policy](https://18f.gsa.go
 
 Earlier this week, we [shared a tool](https://18f.gsa.gov/2015/01/13/an-open-source-tool-for-easier-database-testing/) built by an 18F team member that helps developers test their products with a small portion of their own datasets. Open source projects allow developers like Catherine to share solutions rather than re-solve the same problem over and over. Our readers were excited at the prospects:
 
-<center><blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Since our launch in March, we have had a number of informal conversations with our counterparts at GDS on a host of issues – technical, policy, and operational – further strengthening our relationship and fostering our open collaboration.
 
