@@ -10,7 +10,7 @@ tags:
   - stakeholder management
   - modern practices
   - agile
-excerpt: "Early on in a technology initiative, it’s very difficult to quantify user satisfaction and success. Don’t rely on metrics to do so. Instead qualify success early through stories pulled from interviews, product demonstrations, and reactions."
+excerpt: "Executives often rely on productivity metrics to measure success, but these measures can obscure whether the software is actually working for users. Stories are a better resource to build a strategy between a senior executive and a product team. This is part five in a series on how senior executive and tech teams can be better allies."
 ---
 _This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/2022/07/20/senior-executives-pt1/))_
 
