@@ -1,0 +1,9 @@
+#!/bin/sh
+# Run locally as `./serve-pa11yci
+set -e
+
+LC_ALL="en_US.UTF-8" \
+bundle exec jekyll serve \
+    --detach \
+    --baseurl /site \
+    --host 0.0.0.0
