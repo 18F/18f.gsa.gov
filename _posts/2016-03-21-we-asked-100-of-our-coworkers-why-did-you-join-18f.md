@@ -47,7 +47,7 @@ page](https://pages.18f.gov/joining-18f/index.html).
 *18F Design provides content, visual, and interactive design to the rest
 of the organization.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "shawn" | team_photo }}
@@ -172,7 +172,7 @@ contracting officers, developers, and product manager who manage access
 to the Agile Delivery Services Marketplace, RFP ghostwriting consulting,
 and the micro-purchase platform.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "robin-carnahan" | team_photo }}
@@ -234,7 +234,7 @@ and the micro-purchase platform.*
 
 *Team Ops handles all activities related to travel, non-travel purchases, legal matters, and equipment requests.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "joshbailes" | team_photo }}
@@ -262,7 +262,7 @@ and the micro-purchase platform.*
 
 *The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F’s public-facing website](https://18f.gsa.gov/), [our blog](https://18f.gsa.gov/blog/), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "boone" | team_photo }}
@@ -289,7 +289,7 @@ and the micro-purchase platform.*
 
 *Each project at 18F has a product lead whose job is to ensure the project is moving forward. A product lead looks at the whole picture and figures out how to make it work, including making sure we’re user-centered and agile, taking care of billing and logistics, and handling other details so that the rest of the team can do its job. We tend to be generalists, often with skills in code or other disciplines as well as product. More information about our Product team is available in the [18F Product Guide](https://pages.18f.gov/product-guide/index.html)*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "sarah" | team_photo }}
@@ -353,7 +353,7 @@ and the micro-purchase platform.*
 
 *We help agencies transform into modern, high-functioning organizations through new management models, culture change, modern practices, empowered talent, data access, technology, and collaboration tools. We transform how agencies understand and execute projects: what to build, how to build, and who will build it.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "alan-atlas" | team_photo }}
@@ -450,7 +450,7 @@ and the micro-purchase platform.*
 
 *The infrastructure team helps 18F navigate the “federal compliance architecture.” This work applies to much more than technology: it applies to our entire operation, including how we work inside the law, how we secure our systems, how we collect data from the public, and how we spend money.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
   {{ "jez-humble" | team_photo }}
@@ -491,7 +491,7 @@ and the micro-purchase platform.*
 
 *18F Engineering is responsible for delivering high quality, robust, open source software. We also evangelize best practices relating to software testing, scalability, security, and agile development.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "holly" | team_photo }}
@@ -677,7 +677,7 @@ and the micro-purchase platform.*
 
 *The Talent Team is a group of problem solvers dedicated to making government the most sought-after workplace. In short, we are building the team that delivers the beautiful, useful services that make up our 21st century digital government.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
 	{{ "cristina" | team_photo }}
@@ -697,7 +697,7 @@ and the micro-purchase platform.*
 
 *Intake is the process by which 18F listens to potential partners, discusses possible solutions to their challenges, and determines appropriate next steps. In short, it’s how we do business development for inbound inquiries.*
 
-[Back to the table of contents](#contents)
+[Back to the table of contents](#teams)
 
 <div class="pquote">
   {{ "olesya-minina" | team_photo }}
