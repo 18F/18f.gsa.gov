@@ -6,6 +6,7 @@ jobs:
       - image: circleci/ruby:2.7-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
+      LANG: en_US.UTF-8
     steps:
       - checkout
       - restore_cache:
@@ -41,7 +42,7 @@ jobs:
       # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
       - run:
           name: Run pa11yci
-          command: ./serve-pa11yci && sleep 10; npm run pa11yci
+          command: ./serve-pa11yci && npm run pa11yci
 workflows:
   version: 2
   commit:
