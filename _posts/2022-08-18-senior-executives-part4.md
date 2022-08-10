@@ -10,7 +10,7 @@ tags:
   - stakeholder management
   - modern practices
   - agile
-excerpt: "It’s critical that senior executives and product teams make incremental decisions over time for new or important technology initiatives. The main question here is, how? How does that work and what does good look like?"
+excerpt: "It’s critical that senior executives and product teams make small decisions over time about important technology initiatives to be able to adjust plans as things change. How does that work? What works well?  This is part four in a series on how senior executive and tech teams can be better allies."
 ---
 _This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/2022/07/20/senior-executives-pt1/))_
 
