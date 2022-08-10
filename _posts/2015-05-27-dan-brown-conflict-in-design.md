@@ -27,7 +27,15 @@ Brown, an information architect, has worked in the district for large swaths of 
 
 He opened his lecture by listing common issues and stakeholder quotes. For example, “Things have changed since we last spoke.”
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mO8PiHST5CI?start=159" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe
+ width="560"
+ height="315"
+ src="https://www.youtube.com/embed/mO8PiHST5CI?start=159"
+ frameborder="0"
+ allow="autoplay; encrypted-media"
+ allowfullscreen
+ title="18F Design Presents: Dan M. Brown video"
+></iframe>
 
 Brown asked who in the audience had been told that before. After a moment, a majority raised their hands. Conflict is a mechanism for positive change, Brown explained. It’s a process, even though it feels negative at times.
 
