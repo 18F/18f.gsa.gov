@@ -3,12 +3,19 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7-node
+      - image: cimg/ruby:2.7-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
       LANG: "en_US.UTF-8"
+      LANGUAGE: "en_US.UTF-8"
       LC_ALL: "en_US.UTF-8"
     steps:
+      - run:
+          name: Fix locales
+          command: |
+            sudo locale-gen en_US.UTF-8 \
+            sudo locale-gen en en_US en_US.UTF-8 \
+            sudo dpkg-reconfigure locales
       - checkout
       - restore_cache:
           keys:
