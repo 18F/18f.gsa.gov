@@ -13,8 +13,8 @@ jobs:
       - run:
           name: Fix locales
           command: |
-            sudo locale-gen en_US.UTF-8 \
-            sudo locale-gen en en_US en_US.UTF-8 \
+            sudo locale-gen en_US.UTF-8
+            sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
       - checkout
       - restore_cache:
