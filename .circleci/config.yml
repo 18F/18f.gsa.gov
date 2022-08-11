@@ -6,7 +6,8 @@ jobs:
       - image: circleci/ruby:2.7-node
     environment:
       ACCESSLINT_MASTER_BRANCH: dev
-      LANG: en_US.UTF-8
+      LANG: "en_US.UTF-8"
+      LC_ALL: "en_US.UTF-8"
     steps:
       - checkout
       - restore_cache:
