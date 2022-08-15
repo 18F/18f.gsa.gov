@@ -16,6 +16,21 @@ jobs:
             sudo locale-gen en_US.UTF-8
             sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
+      - run:
+          name: Install Chrome dependencies
+          command: |
+            sudo apt update
+            sudo apt install -y \
+              libxcomposite1 \
+              libxdamage1 \
+              libxtst6 \
+              libnss3 \
+              libnspr4 \
+              libcups2 \
+              libatk1.0-0 \
+              libatk-bridge2.0-0 \
+              libatspi2.0-0 \
+              libgtk-3-0
       - checkout
       - restore_cache:
           keys:
