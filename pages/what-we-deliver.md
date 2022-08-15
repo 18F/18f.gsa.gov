@@ -68,7 +68,7 @@ gridless: true
           <ul class="agency-lists list-images">
           {% for partner in group %}
             <li class="list-images-item">
-              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" />
+              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt=" " />
               {% if partner.agency_url %}
                 <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
               {% else %}
