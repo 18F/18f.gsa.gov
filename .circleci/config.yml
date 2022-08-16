@@ -5,7 +5,6 @@ jobs:
     docker:
       - image: cimg/ruby:2.7-node
     environment:
-      ACCESSLINT_MASTER_BRANCH: dev
       LANG: "en_US.UTF-8"
       LANGUAGE: "en_US.UTF-8"
       LC_ALL: "en_US.UTF-8"
@@ -63,7 +62,6 @@ jobs:
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
-      # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
       - run:
           name: Run pa11yci
           command: ./serve-pa11yci && npm run pa11y-ci
