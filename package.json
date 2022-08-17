@@ -15,7 +15,7 @@
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
-    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude /admin/ --sitemap-exclude /2016/01/21/what-we-can-learn-from-the-interiors-social-feeds/ --sitemap-exclude /2014/05/14/hacking-bureaucracy-improving-hiring-and-software/",
+    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude \"/admin/|/2016/01/21/what-we-can-learn-from-the-interiors-social-feeds/|/2014/05/14/hacking-bureaucracy-improving-hiring-and-software/\"",
     "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
     "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
   },
