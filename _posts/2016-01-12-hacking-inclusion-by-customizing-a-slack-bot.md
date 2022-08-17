@@ -52,4 +52,4 @@ Even though many people see "guys" as a harmless, genderless word, not everybody
 
 This little bot is a small way we can bake in our values, culture, and practices into a communication tool we use every day.
 
-_Inspiration for this came from Jina Bolton and Scott Cranfill._
+_Inspiration for this came from Jina Anne and Scott Cranfill._
