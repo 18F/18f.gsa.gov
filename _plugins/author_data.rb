@@ -51,7 +51,7 @@ module SiteData
     private
 
     def update_file(author_path, key, value)
-      frontmatter = File.read(author_path)[frontmatter_regex]
+      frontmatter = File.read(author_path, encoding: "utf-8")[frontmatter_regex]
       frontmatter_yml = YAML.safe_load(frontmatter)
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value

@@ -33,7 +33,15 @@ Aaron Snow, Deputy Director of TTS.
 If you weren’t able to attend, you can watch the first two hours of the
 event below and [download the slidedeck from the morning presentation]({{site.baseurl}}/assets/blog/industry-day/deck-2016.pdf).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NRAlPdiWXN8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe
+ width="560"
+ height="315"
+ src="https://www.youtube.com/embed/NRAlPdiWXN8"
+ frameborder="0"
+ allow="autoplay; encrypted-media"
+ allowfullscreen
+ title="GSA Technology Industry Day video"
+></iframe>
 
 Find out more about the projects and platforms we talked about during
 the Technology Industry Day.

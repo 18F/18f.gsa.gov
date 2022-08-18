@@ -155,7 +155,7 @@ Your contracting officer will conduct the procurement with guidance and coaching
 18F can also provide post-award support for additional fees.
 {% endcapture %}
 
-<div class="grid-row grid-gap" id="acquisition-consulting">
+<div class="grid-row grid-gap" id="acquisition-consulting-box">
   <div class="tablet:grid-col-8" markdown="1">
     {{ ac-1 }}
   </div>
@@ -181,7 +181,7 @@ In each of our projects, our teams will work to build your agency’s capacity f
 
 {% endcapture %}
 
-<div class="grid-row grid-gap" id="assisted-acquisition">
+<div class="grid-row grid-gap" id="assisted-acquisition-box">
   <div class="tablet:grid-col-8" markdown="1">
     {{ aa-1 }}
   </div>

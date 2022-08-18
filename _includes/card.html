@@ -21,7 +21,10 @@
           class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}">
           
           {% if project.image %}
-            <img src="{{ site.baseurl }}{{ project.image }}">
+            <img 
+              src="{{ site.baseurl }}{{ project.image }}"
+              alt="{{ project.image_accessibility }}"
+            >
           {% endif %}
         {% unless project.image %}
           {% if project.image_icon %}
