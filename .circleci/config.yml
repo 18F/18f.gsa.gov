@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:2.7-browsers
     environment:
       LANG: "en_US.UTF-8"
       LANGUAGE: "en_US.UTF-8"
@@ -15,22 +15,6 @@ jobs:
             sudo locale-gen en_US.UTF-8
             sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
-      - run:
-          name: Install Chrome dependencies
-          command: |
-            sudo apt update
-            sudo apt install -y \
-              libxcomposite1 \
-              libxdamage1 \
-              libxtst6 \
-              libnss3 \
-              libnspr4 \
-              libcups2 \
-              libatk1.0-0 \
-              libatk-bridge2.0-0 \
-              libatspi2.0-0 \
-              libgtk-3-0 \
-              libgbm1
       - checkout
       - restore_cache:
           keys:
