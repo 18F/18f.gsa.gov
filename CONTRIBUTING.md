@@ -80,7 +80,8 @@ The 18F-site team will update the WDS library when it publishes a change require
 
 #### JavaScript
 
-This site does not use any heavy JavaScript frameworks, and should always work without JavaScript.
+This site does not use any heavy JavaScript frameworks, and should always work without [JavaScript](https://www.scaler.com/topics/javascript/
+).
 
 - jQuery is included in the WDS
 - Ruby gems is used for front end dependency management
