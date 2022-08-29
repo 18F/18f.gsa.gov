@@ -21,9 +21,9 @@ In “A Civic Technologist’s Practice Guide,” Cyd Harrell wrote that “a si
 So how do you do that, in reality? Which decisions should be made together, which separately? What should a senior executive own and what should the product team own? Senior executives do not often have the bandwidth to participate in every team ceremony, and adding another person to the core team creates more work to manage. 18F has learned how to overcome these challenges and bridge the gap between executives and their teams. 
 
 This post is part one in a series that proposes four specific recommendations to reset the relationship between senior executives and product teams, including:
-1. [Work outside the traditional hierarchy to set up an initiative for success]({{site.baseurl}}/2022/07/20/senior-executives-pt2/))
-2. [Invest in short-term initiatives to build confidence in long-term decisions]({{site.baseurl}}/2022/07/20/senior-executives-pt3/))
-3. [Initiate more direct interaction to build rapport]({{site.baseurl}}/2022/07/20/senior-executives-pt4/))
-4. [Use stories as leading indicators]({{site.baseurl}}/2022/07/20/senior-executives-pt5/))
+1. [Work outside the traditional hierarchy to set up an initiative for success]({{site.baseurl}}/2022/08/02/senior-executives-pt2/)
+2. [Invest in short-term initiatives to build confidence in long-term decisions]({{site.baseurl}}/2022/08/11/senior-executives-pt3/)
+3. [Initiate more direct interaction to build rapport]({{site.baseurl}}/2022/08/18/senior-executives-part4/)
+4. [Use stories as leading indicators]({{site.baseurl}}/2022/08/25/senior-executives-pt5/)
 
 _Special thanks to the following people for contributing to this series, including Daniel Yi, Matt Cloyd, Mike Gintz, Anne Petersen, and Waldo Jaquith._
