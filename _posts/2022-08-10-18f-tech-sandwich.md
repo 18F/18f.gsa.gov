@@ -1,6 +1,6 @@
 ---
-title: "The 18F engineering sandwich: cloud based web apps"
-date: 2022-08-10
+title: "The 18F engineering sandwich for cloud based web apps"
+date: 2022-08-31
 authors:
   - alex-bielen
   - laura-gerhardt
@@ -23,7 +23,7 @@ Bread represents commercial or government cloud hosting options. We use cloud co
 ## Protein: open-source programming languages
 ![use empty attribute](<INSERT IMAGE>)
 
-The protein is what makes our sandwich tasty. These are the open-source programming languages with which we have experience. We use well-supported open source languages with active communities, which helps us to ensure security support, develop language-specific practices, and write reusable code. We develop mostly in Python, Ruby,  and JavaScript. We also have some experience developing with C# in the .NET Core ecosystem.
+The protein is what makes our sandwich tasty. These are the open-source programming languages with which we have experience. We use well-supported open source languages with active communities, which helps us to ensure security support, develop language-specific practices, and write reusable code. These days, we develop mostly in Python, Ruby,  and JavaScript. We also have some experience developing with C# in the .NET Core ecosystem.
 
 Our commitment to open source languages and tools allows us to work in the open, and help ensure public input to our work.
 
@@ -38,10 +38,10 @@ Together, these technologies make up most of the 18F Engineering "sandwich": clo
 
 ## Why is "our menu" important?
 
-By sticking to our menu, we enable developer efficiency and flexibility. We can use our existing [programming languages](https://engineering.18f.gov/language-selection/) practices and [tools for running our applications in the cloud](https://engineering.18f.gov/integrations/). It's important to note that we do not dictate any particular technology, though, since any particular choice might be inappropriate for the specific problems we encounter in our work.
+By having a core menu, we enable developer efficiency and flexibility. We can use our existing [programming languages](https://engineering.18f.gov/language-selection/) practices and [tools for running our applications in the cloud](https://engineering.18f.gov/integrations/). It's important to note that we do not dictate any particular technology, though, since any particular choice might be inappropriate for the specific problems we encounter in our work.
 
-Another consideration is our hiring materials. We've developed these around our technology choices and we have specific examples of "what good looks like" for the programming languages and methodologies that we support.
+Another consideration is our hiring materials. We've developed these around our technology choices and we have specific examples of "what good looks like" for the programming languages and methodologies that we support. We look for candidates with strengths in at least some of our core technology choices, and who have solid experience developing modern web applications on cross-functional teams. For example, here’s our [engineer job post from early 2022](https://join.tts.gsa.gov/join/tts-engineer/).
 
-When we go outside of this set of technologies, it's like a sandwich shop doing a pizza night. We'll serve you good pizza, but it might be expensive and it might take up to two hours to serve you. Going "off-menu" would be at the expense of delivering value to the public.
+We'd prefer not to work too far outside our areas of expertise, but if an agency partner needs help in those spaces, we usually can consult with them to help them find a restaurant that serves the menu they need and can serve food in the timeframe and delivery path that 18F recommends.
 
 We encourage you to take a look at our [open-source repositories](https://github.com/18F) and [hiring materials](https://eng-hiring.18f.gov/) to see if there's work you can reuse or develop further.
