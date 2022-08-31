@@ -10,6 +10,7 @@ tags:
 - see tests/schema/tags.yml if you need a list
 excerpt: "Excerpt, possibly lightly edited, about 300-400 characters. This should help potential readers understand what the article is about and make them want to keep reading. This will be shown on the 18F homepage, tag and author rollup pages, and sometimes project pages. You can't use any Markdown here."
 image: /assets/blog/[post-folder]/[filename]
+image_alt: Alt text for the image
 hero: false (if the image above should not be used full-width on the post page)
 published: false
 ---
