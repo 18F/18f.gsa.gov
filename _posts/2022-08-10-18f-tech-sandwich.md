@@ -9,19 +9,21 @@ tags:
   - how-we-work
   - application-development
 excerpt: "We often talk about 18F Engineering as a technology shop, but that's too broad. There are very few technology choices we actually make at the project level. When we build, we usually build open-source cloud-based web applications. We combine a limited set of technologies to make our applications. To explain this, we'll use the metaphor of a sandwich shop."
+image: /assets/blog/eng-sandwich/image1.png
 ---
 We often talk about 18F Engineering as a technology shop, but that's too broad. There are very few technology choices we actually make at the project level. When we build, we usually build open-source cloud-based web applications.
 
-We combine a limited set of technologies to make our applications. To explain this, we'll use the metaphor of a sandwich shop. 
+We combine a limited set of technologies to make our applications. To explain this, we'll use the metaphor of a sandwich shop.
 
-![use empty attribute](<INSERT IMAGE>)
+![A sketch of a hoagie sandwich. A line drawing sketch of a long sandwich with cheese and topped with an olive on a toothpick.]({{ site.baseurl }}/assets/blog/image2.png)
 
 ## Bread: cloud-based application hosting
+![ ]({{ site.baseurl }}/assets/blog/image3.png)
+{: .float-left.padding-right-2.padding-bottom-2 }
 Bread represents commercial or government cloud hosting options. We use cloud computing to be [agile and resilient](https://18f.gsa.gov/2019/02/07/the-cloud-is-not-a-virtue/) and so that we can integrate security with our development. We host several of our applications on a government cloud provider called [cloud.gov](http://cloud.gov) which [meets many compliance requirements](https://cloud.gov/docs/compliance/ato-process/). We also have experience using our partner agencies' commercial cloud providers.
-![use empty attribute](<INSERT IMAGE>)
 
 ## Protein: open-source programming languages
-![use empty attribute](<INSERT IMAGE>)
+![ ]({{ site.baseurl }}/assets/blog/image4.png)
 
 The protein is what makes our sandwich tasty. These are the open-source programming languages with which we have experience. We use well-supported open source languages with active communities, which helps us to ensure security support, develop language-specific practices, and write reusable code. These days, we develop mostly in Python, Ruby,  and JavaScript. We also have some experience developing with C# in the .NET Core ecosystem.
 
