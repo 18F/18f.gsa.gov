@@ -19,12 +19,12 @@ We combine a limited set of technologies to make our applications. To explain th
 ![An array of food vector drawings. For bread, a baguette and slice of white bread; for protein, poultry, t-bone steak, and a cube of tofu; for fillings, mustard, chili, and tomato]({{ site.baseurl }}/assets/blog/eng-sandwich/image2.png)
 
 ## Bread: cloud-based application hosting
-![ ]({{ site.baseurl }}/assets/blog/eng-sandwich/image3.png)
+![ ]({{ site.baseurl }}/assets/blog/eng-sandwich/image4.png)
 {: .float-left.padding-right-2.padding-bottom-2 }
 Bread represents commercial or government cloud hosting options. We use cloud computing to be [agile and resilient](https://18f.gsa.gov/2019/02/07/the-cloud-is-not-a-virtue/) and so that we can integrate security with our development. We host several of our applications on a government cloud provider called [cloud.gov](http://cloud.gov) which [meets many compliance requirements](https://cloud.gov/docs/compliance/ato-process/). We also have experience using our partner agencies' commercial cloud providers.
 
 ## Protein: open-source programming languages
-![ ]({{ site.baseurl }}/assets/blog/eng-sandwich/image4.png)
+![ ]({{ site.baseurl }}/assets/blog/eng-sandwich/image3.png)
 {: .float-left.padding-right-2.padding-bottom-2 }
 
 The protein is what makes our sandwich tasty. These are the open-source programming languages with which we have experience. We use well-supported open source languages with active communities, which helps us to ensure security support, develop language-specific practices, and write reusable code. These days, we develop mostly in Python, Ruby,  and JavaScript. We also have some experience developing with C# in the .NET Core ecosystem.
