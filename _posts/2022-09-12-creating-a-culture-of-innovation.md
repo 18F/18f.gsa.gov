@@ -10,16 +10,17 @@ tags:
 - culture change
 - lessons learned
 - user-centered design
-image:
+image: /assets/blog/inno-labs/portfolio-scope.png
+image_alt: |
+  A rectangular graphic in landscape orientation with a white background. On the left is a cluster of nine small and medium-sized circles in shades of blue, gray, and black. The cluster is above a line of text that says, Overly-broad portfolio. On the right is a cluster with a large dark blue circle and three smaller ones to its right; medium blue, black, and gray. The text below them reads, More narrow scope with a specialized focus. Between the two lines of text, a thin, dark arrow points to the right, indicating that one should aim for a more narrow, focused scope for better success.
 excerpt: |
-  When we talk about "innovation" in government tech, what do we mean?
-  Through our work with the Library of Congress’ digital innovation lab, LC Labs, 18F surveyed various digital innovation groups in cultural heritage institutions and federal agencies on this very question.
+  When we talk about "innovation" in government tech, what do we mean? 18F surveyed multiple digital innovation groups in cultural heritage institutions and federal agencies on this very question.
   As an innovation group ourselves, the results both challenged us and strengthened our confidence in the importance of trying new approaches in the government space.
 ---
 
 When we talk about "innovation" in government tech, what do we mean?
 
-Through our work with the Library of Congress’ digital innovation lab, [LC Labs](https://labs.loc.gov/), 18F surveyed various digital innovation groups in cultural heritage institutions and federal agencies on this very question.
+18F worked with the Library of Congress's digital innovation lab, [LC Labs](https://labs.loc.gov/), to help them understand the impact innovation can have at the Library. During this engagement, 18F surveyed multiple digital innovation groups in cultural heritage institutions and federal agencies on this very question.
 
 As an innovation group ourselves, the results both challenged us and strengthened our confidence in the importance of trying new approaches in the government space. Through our research, we identified:
 
@@ -39,7 +40,7 @@ Throughout our research, we asked interviewees to define innovation and took not
 - _"Non-linear"_
 - _"Having an open mind"_
 
-Although _innovation_ is often paired with the word _digital_, none of the definitions we heard are specific to digital innovations or technology at all! We learned to define innovation as looking for new ways to approach old situations.
+Although _innovation_ is often paired with the word _digital_, none of the definitions we heard are specific to digital innovations or technology at all! We learned to define innovation as looking for new ways to approach familiar situations.
 
 ### What innovation looks like
 
@@ -47,7 +48,7 @@ Innovation isn’t always a formal process and can be called by other names. It 
 
 What we learned from interviews also raised a strong counterpoint to the belief that innovation is inherently risky. Our research indicated that more mature external innovation labs use experimentation as a way to de-risk and future-focus their work. In other words, they found that success comes from experimenting, getting feedback, and adapting from lessons learned. Often the cost of doing nothing is greater than the cost of being wrong because there’s an opportunity cost to simply continuing with the status quo.
 
-## Common challenges facing other innovation labs and how they can be overcome
+## Common challenges facing innovation labs and how they can be overcome
 
 ### Lack of leadership support
 
@@ -89,9 +90,9 @@ Many of the innovation groups we spoke to do not support long-term products. Thi
 
 Experimentation outcomes that are being handed off to a new production home are at risk of failure if the receiving team is not adequately prepared to provide the necessary support. Multiple innovation groups who had experienced this problem explained how they minimize this risk:
 
-- Only pursue ideas with an interested potential long-term owner.
-- Collaborate with the team who will ultimately host any outcomes throughout the experimentation process.
-- Slowly shift the responsibility and ownership of experimentation and iteration to the long-term owners.
+- Only pursue ideas with an interested potential long-term owner
+- Collaborate with the team who will ultimately host any outcomes throughout the experimentation process
+- Slowly shift the responsibility and ownership of experimentation and iteration to the long-term owners
 
 Identify eventual homes for final products early on. This establishes implicit stakeholder buy-in and provides a place for the product to land. The sooner in the experimentation pipeline this happens, the better, because it frees up the limited bandwidth on the innovation groups to focus on the next thing.
 
