@@ -26,7 +26,7 @@
         <a class="post-click-target" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
           {% if post.image.size > 0 %}
           <div class="usa-width-one-third post-excerpt">
-            <img src="{{ site.baseurl }}{{ post.image }}" alt="">
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{post.image_alt}}">
           </div>
           <div class="usa-width-two-thirds">
           {% else %}
