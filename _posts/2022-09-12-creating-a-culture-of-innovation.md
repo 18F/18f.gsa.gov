@@ -20,7 +20,7 @@ excerpt: |
 
 When we talk about "innovation" in government tech, what do we mean?
 
-18F worked with the Library of Congress's digital innovation lab, [LC Labs](https://labs.loc.gov/), to help them understand the impact innovation can have at the Library. During this engagement, 18F surveyed multiple digital innovation groups in cultural heritage institutions and federal agencies on this very question.
+During a recent project, 18F partnered with a government innovation lab to help them understand the impact innovation can have at their organization. During this engagement, 18F surveyed multiple digital innovation groups in cultural heritage institutions and federal agencies on this very question.
 
 As an innovation group ourselves, the results both challenged us and strengthened our confidence in the importance of trying new approaches in the government space. Through our research, we identified:
 
