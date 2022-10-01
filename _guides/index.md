@@ -13,7 +13,7 @@ banner_cta: true
 <div class="page-guides">
   <div class="usa-grid-full grid-row">
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://pages.18f.gov/accessibility/">
+      <a class="graphic-list-link" href="{{ site.baseurl }}/{{ page.collection }}/accessibility/">
         <img src="{{ site.baseurl }}/assets/img/guides/accessibility.svg" alt="">
         <p class="link-arrow-right">
           Accessibility
