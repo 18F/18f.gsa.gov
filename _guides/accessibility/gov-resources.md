@@ -3,7 +3,6 @@ title: Government Accessibility Resources
 description: 'Other accessibility resources from the U.S. Government'
 permalink:
 page_title: Government Accessibility Resources
-layout: post
 ---
 This 18F Accessibility Guide is just one of many helpful accessibility sites and resources available from the U.S. Government. Here are some others:
 

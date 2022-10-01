@@ -4,7 +4,6 @@ permalink: /guides/accessibility/
 filename: index.md
 title: Accessibility Guide
 page_title: Accessibility Guide
-layout: post
 sidenav: docs
 ---
 

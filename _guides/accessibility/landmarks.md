@@ -3,7 +3,6 @@ title: Landmarks
 description: 'Proper page layout using Landmarks'
 permalink:
 page_title: Landmark
-layout: post
 sidenav: docs
 ---
 

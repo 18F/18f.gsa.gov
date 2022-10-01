@@ -3,7 +3,6 @@ title: Headings
 description: 'Proper use of heading elements'
 permalink:
 page_title: Headings
-layout: post
 sidenav: docs
 ---
 

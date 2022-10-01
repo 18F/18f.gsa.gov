@@ -3,7 +3,6 @@ title: Hidden content
 description: 'How and when to hide content'
 permalink:
 page_title: Hidden Content
-layout: post
 sidenav: docs
 ---
 

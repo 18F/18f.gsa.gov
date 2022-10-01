@@ -3,7 +3,6 @@ title: Tables
 description: 'How we deal with tables'
 permalink:
 page_title: Tables
-layout: post
 sidenav: docs
 ---
 

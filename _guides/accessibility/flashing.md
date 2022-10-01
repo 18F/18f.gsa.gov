@@ -3,7 +3,6 @@ title: Flashing
 description: 'How we deal with flashing'
 permalink:
 page_title: Flashing
-layout: post
 sidenav: docs
 scripts:
 - assets/js/flashing.js

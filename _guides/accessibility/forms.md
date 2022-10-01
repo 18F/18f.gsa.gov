@@ -3,7 +3,6 @@ title: Forms
 description: 'How we work with forms'
 permalink:
 page_title: Forms
-layout: post
 sidenav: docs
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.

@@ -113,12 +113,17 @@ defaults:
       path: "_services_projects"
     values:
       layout: project-page
-
   - scope:
       path: "_styleguide"
     values:
       layout: styleguide
       include_subnav: true
+  - scope:
+      path: "_guides/*/*"
+    values:
+      layout: secondary
+      include_subnav: true
+      breadcrumb: true
 
 footer:
   image: /assets/img/logos/18F-Logo-M.png
