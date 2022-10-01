@@ -1,13 +1,13 @@
 ---
 title: Hidden content
 description: 'How and when to hide content'
-permalink: /hidden-content/
+permalink:
 page_title: Hidden Content
 layout: post
 sidenav: docs
 ---
 
-Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both. 
+Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both.
 
 ## Techniques
 {% capture css_display_none %}
@@ -21,9 +21,9 @@ Hiding content is very useful for accessibility. We can hide things visually and
 {% capture css_sr_only %}
   ```css
     .sr-only {
-      border: 0; 
-      clip: rect(0 0 0 0); 
-      height: 1px; 
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
       margin: -1px;
       overflow: hidden;
       padding: 0;
@@ -96,10 +96,10 @@ Hiding content is very useful for accessibility. We can hide things visually and
   </tr>
 </tbody>
 </table>
- 
+
 ## Aria hidden
 
-aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`. 
+aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`.
 
 Items with `aria-hidden='true'` are always ignored by the screen reader.
 This is useful for:
@@ -108,11 +108,11 @@ This is useful for:
 - Repetitive information
 - Off screen content
 
-If an element has multiple states, its visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden='false'` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS. 
+If an element has multiple states, its visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden='false'` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS.
 
 ## CSS
 
-CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here, 
+CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here,
 
 ```css
 .sr-only {
@@ -135,7 +135,7 @@ Using this we can:
 - Provide context to page elements
 - Add additional instructions for navigation
 
-We can also use CSS to hide content visually and from screen readers. 
+We can also use CSS to hide content visually and from screen readers.
 
 ```css
 {
@@ -143,7 +143,7 @@ We can also use CSS to hide content visually and from screen readers.
 }
 ```
 
-This will hide completely and is the same as `<div aria-hidden='true' hidden>content</div>` Note that `aria-hidden='true'` should be used for additional compatibility. 
+This will hide completely and is the same as `<div aria-hidden='true' hidden>content</div>` Note that `aria-hidden='true'` should be used for additional compatibility.
 
 `display: none;` and `hidden` can be used for:
 
@@ -153,7 +153,7 @@ This will hide completely and is the same as `<div aria-hidden='true' hidden>con
 
 ## Additional resources
 
-For more information on this topic, see these articles. 
+For more information on this topic, see these articles.
 
 - [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.tpgi.com/html5-accessibility-chops-hidden-and-aria-hidden/)
 - [The state of hidden content support in 2016](https://www.tpgi.com/the-state-of-hidden-content-support-in-2016/)

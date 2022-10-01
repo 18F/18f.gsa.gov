@@ -1,16 +1,16 @@
 ---
 title: CSS dependence
 description: 'How we deal with CSS'
-permalink: /css/
+permalink:
 page_title: CSS dependence
 layout: post
 sidenav: docs
 ---
-CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS. 
+CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS.
 
 For example, images displayed through CSS are completely ignored by assistive technology. Images loaded by CSS do not have alt attributes and would require the images content to be displayed in some other manner on the page. It is recommended that all CSS images be decorative and content images be on the page with `<img>` tags.
 
-Another common CSS dependence issue is content order. Content can be reordered with CSS. This can be an issue because assistive technology will read the content in a different order. Content should be ordered without CSS. 
+Another common CSS dependence issue is content order. Content can be reordered with CSS. This can be an issue because assistive technology will read the content in a different order. Content should be ordered without CSS.
 
 ## Testing
 

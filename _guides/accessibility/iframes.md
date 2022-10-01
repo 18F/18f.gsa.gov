@@ -1,7 +1,7 @@
 ---
 title: Inline frames (iframes)
 description: 'How we deal with iframes'
-permalink: /iframes/
+permalink:
 page_title: iframes
 layout: post
 sidenav: docs

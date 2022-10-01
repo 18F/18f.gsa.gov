@@ -1,7 +1,7 @@
 ---
 title: Timeouts
 description: 'How we deal with Time Outs'
-permalink: /timeouts/
+permalink:
 page_title: Timeouts
 layout: post
 sidenav: docs

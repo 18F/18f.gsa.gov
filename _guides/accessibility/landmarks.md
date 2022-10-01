@@ -1,7 +1,7 @@
 ---
 title: Landmarks
 description: 'Proper page layout using Landmarks'
-permalink: /landmarks/
+permalink:
 page_title: Landmark
 layout: post
 sidenav: docs

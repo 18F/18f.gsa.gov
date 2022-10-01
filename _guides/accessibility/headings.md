@@ -1,7 +1,7 @@
 ---
 title: Headings
 description: 'Proper use of heading elements'
-permalink: /headings/
+permalink:
 page_title: Headings
 layout: post
 sidenav: docs
@@ -15,22 +15,22 @@ When using heading elements, reserve the `<h1>` element for the page title. On t
 
 For sub sections, use `<h2>` to `<h6>` in document outline order. `<h1>` is the most important and `<h6>` is the least. Avoid skipping headings. Avoid breaking document outline order (you may go from `<h1>` to `<h3>`, but never `<h3>` to `<h1>`).
 
-For logos that are text-based, use `<em>` element. 
+For logos that are text-based, use `<em>` element.
 
 If your logo is an image and acting as the main heading of the page, add an `<h1>` element for its text and use a `sr-only` rule so it's visibly hidden but accessible to screen reader users.
 
 The following code snippet shows one example of proper section and subsection heading hierarchy.
 
 ```html
-<h2>Section</h2> 
-lorum ipsum 
+<h2>Section</h2>
+lorum ipsum
 <h3>Sub Section</h3>
 lorum ipsum
-``` 
+```
 
 ## Testing
 
-1. Identify visual 'heading' elements 
+1. Identify visual 'heading' elements
 2. Check that all visual 'heading' elements use an `<h>` tag
 3. Verify that all sub heading elements have a higher number
 
@@ -51,22 +51,22 @@ lorum ipsum
 <div>
   <h3>Category</h3>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
   <h4>Sub category 1</h4>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. 
-    Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh.
+    Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
   <h4>Sub category 2</h4>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. 
-    Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh.
+    Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
   </p>
 </div>
@@ -89,23 +89,23 @@ lorum ipsum
 <div>
   <h3>Category</h3>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. 
-    Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh.
+    Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
   </p>
   <h2>Sub category 1</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. 
-    Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh.
+    Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
    </p>
   <h5>Sub category 2</h5>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam sit amet auctor lectus. Curabitur non est nibh. 
-    Suspendisse vehicula fermentum quam. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nam sit amet auctor lectus. Curabitur non est nibh.
+    Suspendisse vehicula fermentum quam.
     Donec lobortis diam a ligula faucibus mattis.
   </p>
 </div>

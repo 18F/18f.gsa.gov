@@ -1,7 +1,7 @@
 ---
 title: Language
 description: 'How we tell assistive technology what language a page is in'
-permalink: /language/
+permalink:
 page_title: Language
 layout: post
 sidenav: docs

@@ -1,7 +1,7 @@
 ---
 title: Writing guide
 description: 'When writing about accessibility, here are some things to keep in mind'
-permalink: /writing-guide/
+permalink:
 page_title: Accessibility writing guide
 layout: post
 sidenav: docs
