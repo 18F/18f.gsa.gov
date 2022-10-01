@@ -14,7 +14,7 @@ theme: uswds-jekyll
 related_posts: 3
 
 # Configuration for Google Analytics, add your UA code here:
-google_analytics_ua: 'UA-48605964-1'
+google_analytics_ua: "UA-48605964-1"
 
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
@@ -29,10 +29,10 @@ search_site_handle: 18F-site
 
 jekyll-archives:
   enabled:
-    - 'tags'
+    - "tags"
   layout: tag-results
   permalinks:
-    tag: '/tags/:name/'
+    tag: "/tags/:name/"
 
 collections:
   about:
@@ -64,68 +64,58 @@ collections:
     permalink: /styleguide/:path/
 
 defaults:
- -
-  scope:
-    type: "posts" # an empty string here means all files in the project
-  values:
-    layout: post
- -
-  scope:
-    path: "pages"
-  values:
-    layout: primary
- -
-  scope:
-    path: "_authors"
-  values:
-    layout: default-profile
- -
-  scope:
-    path: "_contact"
-  values:
-    layout: primary
-    # include_subnav: true
-    subnav_anchor: /contact/
- -
-  scope:
-    path: "_about"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /about/
- -
-  scope:
-    path: "_principles"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /partnership-principles/
- -
-  scope:
-    path: "_join"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /join/
-    parent_title: Join 18F
-    parent_permalink: /join/
- -
-  scope:
-    path: "_products_projects"
-  values:
-    layout: project-page
- -
-  scope:
-    path: "_services_projects"
-  values:
-    layout: project-page
+  - scope:
+      type: "posts" # an empty string here means all files in the project
+    values:
+      layout: post
+  - scope:
+      path: "pages"
+    values:
+      layout: primary
+  - scope:
+      path: "_authors"
+    values:
+      layout: default-profile
+  - scope:
+      path: "_contact"
+    values:
+      layout: primary
+      # include_subnav: true
+      subnav_anchor: /contact/
+  - scope:
+      path: "_about"
+    values:
+      layout: primary
+      include_subnav: true
+      subnav_anchor: /about/
+  - scope:
+      path: "_principles"
+    values:
+      layout: primary
+      include_subnav: true
+      subnav_anchor: /partnership-principles/
+  - scope:
+      path: "_join"
+    values:
+      layout: primary
+      include_subnav: true
+      subnav_anchor: /join/
+      parent_title: Join 18F
+      parent_permalink: /join/
+  - scope:
+      path: "_products_projects"
+    values:
+      layout: project-page
+  - scope:
+      path: "_services_projects"
+    values:
+      layout: project-page
 
- -
-  scope:
-    path: "_styleguide"
-  values:
-    layout: styleguide
-    include_subnav: true
+  - scope:
+      path: "_styleguide"
+    values:
+      layout: styleguide
+      include_subnav: true
 
 footer:
   image: /assets/img/logos/18F-Logo-M.png
@@ -146,36 +136,36 @@ autoprefixer:
     - not dead
 
 exclude:
-- .about.yml
-- .cfignore
-- .codeclimate.yml
-- .gitignore
-- .gitmodules
-- .hound.yml
-- .github/
-- 404.html
-- api-endpoints
-- bin
-- build
-- circle.yml
-- config_blog.rb
-- CONTRIBUTING.md
-- docker-compose.yml
-- docker_entrypoint.rb
-- Dockerfile
-- examples/
-- favicon.ico
-- Gemfile*
-- killport
-- LICENSE.md
-- package.json
-- pages/our-work.html
-- README.md
-- spec/
-- system-security-plan.yml
-- tests/
-- tests/schema/tags.yml
-- tmp/
+  - .about.yml
+  - .cfignore
+  - .codeclimate.yml
+  - .gitignore
+  - .gitmodules
+  - .hound.yml
+  - .github/
+  - 404.html
+  - api-endpoints
+  - bin
+  - build
+  - circle.yml
+  - config_blog.rb
+  - CONTRIBUTING.md
+  - docker-compose.yml
+  - docker_entrypoint.rb
+  - Dockerfile
+  - examples/
+  - favicon.ico
+  - Gemfile*
+  - killport
+  - LICENSE.md
+  - package.json
+  - pages/our-work.html
+  - README.md
+  - spec/
+  - system-security-plan.yml
+  - tests/
+  - tests/schema/tags.yml
+  - tmp/
 
 # jekyll plugins
 plugins:
@@ -187,7 +177,6 @@ plugins:
   - jekyll-paginate
 
 sass:
-    load_paths:
-      - _sass
-      - node_modules
-
+  load_paths:
+    - _sass
+    - node_modules
