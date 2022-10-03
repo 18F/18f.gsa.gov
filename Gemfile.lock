@@ -91,7 +91,8 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    libv8-node (16.10.0.0)
+    libv8-node (16.10.0.0-x86_64-darwin)
+    libv8-node (16.10.0.0-x86_64-linux)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -101,13 +102,13 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_portile2 (2.8.0)
-    mini_racer (0.4.0)
-      libv8-node (~> 15.14.0.0)
+    mini_racer (0.6.3)
+      libv8-node (~> 16.10.0.0)
     minitest (5.16.3)
     netrc (0.11.0)
-    nokogiri (1.13.8)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.8-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -171,7 +172,8 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   accesslint-ci (= 0.2.8)
