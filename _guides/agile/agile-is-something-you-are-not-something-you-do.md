@@ -1,7 +1,5 @@
 ---
 title:  Agile is something you are, not something you do
-permalink: /agile-is-something-you-are/
-layout: secondary
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---

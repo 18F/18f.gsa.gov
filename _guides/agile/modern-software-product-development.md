@@ -1,7 +1,5 @@
 ---
 title:  "Modern Software Product Development"
-permalink: /modern-software-product-development/
-layout: secondary
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---

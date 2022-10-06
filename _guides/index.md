@@ -22,7 +22,7 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://agile.18f.gov/">
+      <a class="graphic-list-link" href="{{ site.baseurl }}/{{ page.collection }}/agile/">
         <img src="{{ site.baseurl }}/assets/img/guides/agile.svg" alt="">
         <p class="link-arrow-right">
           Agile

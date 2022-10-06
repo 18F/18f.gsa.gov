@@ -1,7 +1,5 @@
 ---
 title:  "Agile fundamentals"
-permalink: /agile-fundamentals/
-layout: secondary
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---

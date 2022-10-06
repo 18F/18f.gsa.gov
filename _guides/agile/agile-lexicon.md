@@ -1,7 +1,5 @@
 ---
 title:  Agile lexicon
-permalink: /agile-lexicon/
-layout: secondary
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---

@@ -1,7 +1,5 @@
 ---
 title:  18F Agile based project approach
-permalink: /18f-agile-approach/
-layout: secondary
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---

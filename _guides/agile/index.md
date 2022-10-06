@@ -1,5 +1,6 @@
 ---
-title: Agile Guide
+title: Agile Guide Introduction
+permalink: /guides/agile/
 parent_title: Agile
 parent_permalink: /guides/agile/
 ---
