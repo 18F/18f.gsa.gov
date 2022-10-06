@@ -3,6 +3,8 @@ title: Our approach
 permalink: /our-approach/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Start with user needs
     href: '#start-with-user-needs'

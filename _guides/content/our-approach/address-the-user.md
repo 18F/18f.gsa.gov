@@ -1,8 +1,9 @@
 ---
 title: Address the user
-permalink: /our-approach/address-the-user/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 ---
 
 Content on government sites often makes a direct appeal to the public to get involved or take action.

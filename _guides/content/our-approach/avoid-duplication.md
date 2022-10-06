@@ -1,8 +1,9 @@
 ---
 title: Avoid duplication
-permalink: /our-approach/avoid-duplication/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 ---
 If something is written once and links to relevant information easily and well, people are more likely to trust the content. Duplicate content produces poor search results, confuses the user, and damages the credibility of our websites.
 
@@ -14,7 +15,7 @@ Before you publish something, check that the user need you’re trying to addres
 
 - Search for the content using search engines like Google, Bing, or DuckDuckGo. This is how most users will start, too. If content is already easy to find, duplicating it can lead us to compete with ourselves for search results.
 
-- Often, 18F team members write about a government service, tool, or program. Think authoritatively: What department or agency controls the thing you’re writing about? What information have they produced already? Use [usa.gov][] to search federal, state, and local government websites for the public. 
+- Often, 18F team members write about a government service, tool, or program. Think authoritatively: What department or agency controls the thing you’re writing about? What information have they produced already? Use [usa.gov][] to search federal, state, and local government websites for the public.
 
 - Start significant projects with a [content audit][]. Identify how any existing information is used and whether it will be helpful to your users in its current state. If it isn’t, what must change for it to help you address your users’ needs? Focus your work on those changes.
 

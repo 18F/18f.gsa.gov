@@ -1,10 +1,10 @@
 ---
 title: About this guide
 permalink: /guides/content
-parent_title: Content Guide
-parent_permalink: /guides/content/
 sidenav: overview
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: If you work at 18F
     href: '#if-you-work-at-18f'

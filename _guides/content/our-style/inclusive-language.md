@@ -1,8 +1,9 @@
 ---
 title: Inclusive language
-permalink: /our-style/inclusive-language/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Ability and disability
     href: '#ability-and-disability'
@@ -11,9 +12,9 @@ subnav:
   - text: Gender and sexuality
     href: '#gender-and-sexuality'
   - text: Nationality
-    href: '#nationality'     
+    href: '#nationality'
   - text: Race, ethnicity, and religion
-    href: '#race-ethnicity-and-religion'        
+    href: '#race-ethnicity-and-religion'
 redirect_from:
   - /conscious-style/
 ---

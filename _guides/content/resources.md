@@ -3,6 +3,8 @@ title: Resources
 permalink: /resources/
 sidenav: overview
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Style guides
     href: "#style-guides"

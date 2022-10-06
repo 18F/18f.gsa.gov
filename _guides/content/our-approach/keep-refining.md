@@ -1,8 +1,9 @@
 ---
 title: Keep refining
-permalink: /our-approach/keep-refining/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Testing and ongoing research
     href: '#testing-and-ongoing-research'

@@ -1,8 +1,9 @@
 ---
 title: Abbreviations and acronyms
-permalink: /our-style/abbreviations-and-acronyms/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 redirect_from:
   - /faqs
   - /how-users-read/

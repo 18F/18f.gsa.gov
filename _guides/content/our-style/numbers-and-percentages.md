@@ -1,15 +1,16 @@
 ---
 title: Numbers and percentages
-permalink: /our-style/numbers-and-percentages/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Numbers
     href: '#numbers'
   - text: Dates
     href: '#dates'
   - text: Percentages
-    href: '#percentages'    
+    href: '#percentages'
 ---
 
 ## Numbers

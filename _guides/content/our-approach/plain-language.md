@@ -1,8 +1,9 @@
 ---
 title: Use plain language
-permalink: /our-approach/plain-language/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 redirect_from:
   - /legal-and-technical-terms/
 subnav:

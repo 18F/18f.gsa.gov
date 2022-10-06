@@ -1,8 +1,9 @@
 ---
 title: Technical and interface writing
-permalink: /our-style/technical-and-interface-writing/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Basics
     href: '#basics'
@@ -73,7 +74,7 @@ Include a short two- or three-sentence summary about the document to help the re
 
 Use [backticks](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) to style text and code snippets readers may want to copy and paste. For example:
 
->  Use the `legend` element to offer a label within each form element.  
+>  Use the `legend` element to offer a label within each form element.
 
 > Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
 
@@ -96,7 +97,7 @@ Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks 
 
 The same rules apply to pieces of text that must be used exactly as presented, such as passwords or Wi-Fi network names:
 
-> `someCl3v3rN4me` is the name of our Wi-Fi network.  
+> `someCl3v3rN4me` is the name of our Wi-Fi network.
 > Your password is `PleaseChangeMeSoon`.
 
 ### Interface elements
@@ -110,8 +111,8 @@ Use clear verbs to tell readers how to interact with interface elements:
 
 In the 18F Handbook, we emphasize the name of the interface label like so:
 
-> 1. In the **File** menu, choose **Save**.  
-> 2. Select **I agree**.  
+> 1. In the **File** menu, choose **Save**.
+> 2. Select **I agree**.
 > 3. Click **Continue**.
 
 ### Tables

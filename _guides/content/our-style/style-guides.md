@@ -1,8 +1,9 @@
 ---
 title: Style guides
-permalink: /our-style/style-guides/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Guidelines
     href: '#guidelines'

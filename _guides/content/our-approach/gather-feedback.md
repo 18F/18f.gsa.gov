@@ -1,8 +1,9 @@
 ---
 title: Gather feedback
-permalink: /our-approach/gather-feedback/
 sidenav: our-approach
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: How to give feedback
     href: '#how-to-give-feedback'

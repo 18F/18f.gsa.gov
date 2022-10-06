@@ -1,8 +1,9 @@
 ---
 title: Trademarks and brands
-permalink: /our-style/trademarks-and-brands/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Common trademarked words
     href: '#common-trademarked-words-with-alternative-terms'

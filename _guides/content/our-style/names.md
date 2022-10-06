@@ -1,8 +1,9 @@
 ---
 title: Names
-permalink: /our-style/names/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: Personal names
     href: '#personal-names'

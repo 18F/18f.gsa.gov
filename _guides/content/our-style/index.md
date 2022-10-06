@@ -1,8 +1,10 @@
 ---
-title: Our style 
+title: Our style
 permalink: /our-style/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 ---
 
 By giving writers rules, whether they are about how to use punctuation or how to present your brand or agency, a style guide helps your users understand what you are trying to say. By promoting consistency, you avoid making users reinterpret your words over and over.

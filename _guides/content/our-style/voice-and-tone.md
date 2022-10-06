@@ -1,8 +1,9 @@
 ---
 title: Voice and tone
-permalink: /our-style/voice-and-tone/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: The difference between voice and tone
     href: '#the-difference-between-voice-and-tone'
@@ -11,7 +12,7 @@ subnav:
   - text: Establish your own voice
     href: '#establishing-your-own-voice'
   - text: Further reading
-    href: '#further-reading'    
+    href: '#further-reading'
 ---
 
 If you’re like many folks, you might not be sure of the difference between voice and tone. Maybe you’ve never deliberately crafted a voice and don’t know where to start. Not to fret! In this section, we’ll discuss the differences between voice and tone, how we describe our organizational voice, how to establish your own voice, and how to choose a tone that’s appropriate for whatever you’re writing.
@@ -40,11 +41,11 @@ Here are a few sentences, taken from this guide, that exemplify our voice:
 
 > We created this guide for reference on an as-needed basis. It’s here when you’re wondering whether to capitalize the word _federal_, for instance, or when you’re wondering how to create a friendly, informational tone.
 
-### Use contractions  
+### Use contractions
 
 In all of the communication we produce, we want to create a strong connection with our users. We want to get them the information they need in a straightforward way and show that we know what’s important to them. As a government organization, we need to sound somewhat official; we also recognize that official doesn’t need to translate to stuffy, archaic, or aloof.
 
-For this reason, we use contractions in the writing we create for our site. We also encourage clients to consider using contractions, too, though we recognize this may not be the right choice for all contexts.  
+For this reason, we use contractions in the writing we create for our site. We also encourage clients to consider using contractions, too, though we recognize this may not be the right choice for all contexts.
 
 The government is run by people for the benefit of people, and we never want users to forget that 18F is a group of enthusiastic, dedicated, hardworking (and friendly) folks. This desire informs how we craft our voice.
 
@@ -100,7 +101,7 @@ If you’re having trouble finding an appropriate tone, try reframing the situat
 ## Further reading
 
 * **[MailChimp’s voice and tone guide](http://voiceandtone.com/)**: This beautifully designed tool allows you to select different content types and learn more about what the user might be feeling while reading them, along with examples of tones appropriate to those content types. Super simple to use, this is a great quick reference for creating diverse types of content.
-* **[The nonviolent communication (NVC) framework for feelings](http://thrivinglifenvc.org/feelings)**: Pinpointing the most appropriate tone for a piece of content starts with identifying what your readers might be feeling when they read that content. This list of feelings is broken into two categories — feelings you experience when your needs are being met and when they aren’t. 
+* **[The nonviolent communication (NVC) framework for feelings](http://thrivinglifenvc.org/feelings)**: Pinpointing the most appropriate tone for a piece of content starts with identifying what your readers might be feeling when they read that content. This list of feelings is broken into two categories — feelings you experience when your needs are being met and when they aren’t.
 * **[Jeff Goins’s voice activities](http://goinswriter.com/writing-voice/)**: Use author Jeff Goins’s ten-step exercise to pinpoint your authorial voice. The “steps” are actually discrete activities and can be undertaken in any order.
-* If you’re still a little confused about voice and tone, **[Wheaton College](http://www.wheaton.edu/Academics/Services/Writing-Center/Writing-Resources/Style-Diction-Tone-and-Voice)** provides an excellent breakdown of those — and more — writing components. 
+* If you’re still a little confused about voice and tone, **[Wheaton College](http://www.wheaton.edu/Academics/Services/Writing-Center/Writing-Resources/Style-Diction-Tone-and-Voice)** provides an excellent breakdown of those — and more — writing components.
 * **[Fast Company](http://www.fastcompany.com/3029356/work-smart/the-best-examples-questions-and-guides-to-find-your-social-media-marketing-voice)** has also weighed in on the voice and tone discussion.

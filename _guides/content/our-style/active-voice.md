@@ -1,8 +1,9 @@
 ---
 title: Active voice
-permalink: /our-style/active-voice/
 sidenav: our-style
 sticky_sidenav: true
+parent_title: Content Guide
+parent_permalink: /guides/content/
 subnav:
   - text: How to recognize the passive voice
     href: '#how-to-recognize-the-passive-voice'
@@ -14,12 +15,12 @@ Our writing should be concise and direct. We prefer the active voice because it 
 
 The active voice helps the reader identify the subject of the sentence. In the following example, the person who submits the form is essential information. Omitting that leads to a confusing and impersonal sentence.
 
-**Passive**: _The request form must be submitted to the approving official._  
+**Passive**: _The request form must be submitted to the approving official._
 **Active**: _You must submit the request form to the approving official._
 
 Along with deemphasizing who should take an action, the passive voice is usually longer, too. Wordy instructions are harder to follow.
 
-**Passive**: _The case number should be saved in your records. It will be required for future inquiries._  
+**Passive**: _The case number should be saved in your records. It will be required for future inquiries._
 **Active**: _Save the case number in your records. You will need it for future inquiries._
 
 When in doubt, cut directly to the verb and give the reader clear directions.
@@ -36,6 +37,6 @@ You may occasionally need to use the passive voice to soften an error message or
 
 Rewording either of these sentences to use the active voice would complicate the sentence or pull focus away from its main point:
 
-> Forms __issued by the Office of Government Ethics__ include the OGE-450 and the OGE-278.  
+> Forms __issued by the Office of Government Ethics__ include the OGE-450 and the OGE-278.
 
 > The agency __is required__ to respond to requests within 20 working days.
