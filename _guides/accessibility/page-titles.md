@@ -4,6 +4,8 @@ description: 'How we deal with page titles'
 permalink:
 page_title: Page titles
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 Page titles are important because they help a user navigate their browser. Most users have multiple tabs open at once. It's easier to jump between pages if each page title is unique. It's also helpful to have the unique portion first, usually the name of the page.
 

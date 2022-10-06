@@ -3,8 +3,10 @@ layout: default
 ---
 
 {% if page.breadcrumb == true %}
+{% assign parent_title = page.parent_title %}
 {% include breadcrumb.html
-background_class='bg-base-lightest'
+  page_title=title
+  background_class='bg-base-lightest'
 %}
 {% endif %}
 

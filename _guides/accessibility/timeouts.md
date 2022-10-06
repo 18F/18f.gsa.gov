@@ -4,6 +4,8 @@ description: 'How we deal with Time Outs'
 permalink:
 page_title: Timeouts
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 scripts:
 - assets/js/time-outs.js
 ---

@@ -3,6 +3,8 @@ title: Checklist
 description: 'A simple checklist for determining if your site is accessible'
 page_title: checklist
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
 

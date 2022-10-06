@@ -4,6 +4,8 @@ description: 'Tools we use to improve and test accessibility'
 permalink:
 page_title: Accessibility-friendly Tools
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 ## Color tools

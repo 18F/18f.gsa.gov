@@ -4,6 +4,8 @@ description: 'How we deal with flashing'
 permalink:
 page_title: Flashing
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 scripts:
 - assets/js/flashing.js
 ---

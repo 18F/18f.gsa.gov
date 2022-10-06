@@ -4,6 +4,8 @@ description: 'Videos and trainings from around the web'
 permalink: /guides/accessibility/training-videos/
 page_title: Accessibility training and videos
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 There are tons of great talks and videos about accessibility online. This is a collection of training and videos we found useful.

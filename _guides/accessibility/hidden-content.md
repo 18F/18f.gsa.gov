@@ -4,6 +4,8 @@ description: 'How and when to hide content'
 permalink:
 page_title: Hidden Content
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both.

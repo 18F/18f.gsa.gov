@@ -4,6 +4,8 @@ description: 'How we work with forms'
 permalink:
 page_title: Forms
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 

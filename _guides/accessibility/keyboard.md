@@ -4,6 +4,8 @@ description: 'How we work with keyboards only'
 permalink:
 page_title: Keyboard access
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 scripts:
 - assets/js/keyboard-access.js
 ---

@@ -4,6 +4,8 @@ description: 'When writing about accessibility, here are some things to keep in 
 permalink:
 page_title: Accessibility writing guide
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 ## The law

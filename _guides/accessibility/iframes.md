@@ -4,6 +4,8 @@ description: 'How we deal with iframes'
 permalink:
 page_title: iframes
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 When using `iframe`s, it’s important that all content contained in them is accessible.
 

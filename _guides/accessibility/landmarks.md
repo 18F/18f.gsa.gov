@@ -4,6 +4,8 @@ description: 'Proper page layout using Landmarks'
 permalink:
 page_title: Landmark
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 All elements on a page should be contained in a landmark element. This helps users of AT quickly navigate a page. HTML5 provides built in landmark elements such as `main`, `nav`, `aside`, `header`, `footer`. When using HTML5 elements, don't define role.

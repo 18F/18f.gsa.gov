@@ -4,6 +4,8 @@ description: 'How we deal with links and repetitive content'
 permalink:
 page_title: Links and Repetitive Content
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 Links are commonly used to quickly navigate a site when someone is using assistive technology. Often, screen reader users won’t read through an entire page to find what they are looking for. They may simply move from link to link.
 

@@ -4,6 +4,8 @@ description: 'How we deal with tables'
 permalink:
 page_title: Tables
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 
 When tables are used to show data, the header cells that relate to the data cells need to be programmatically linked. This makes table navigation for screen readers more accurate and meaningful.

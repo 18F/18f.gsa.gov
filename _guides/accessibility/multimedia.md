@@ -4,6 +4,8 @@ description: 'How we deal with multimedia'
 permalink:
 page_title: Multimedia
 sidenav: docs
+parent_title: Accessibility
+parent_permalink: /guides/accessibility/
 ---
 When using multimedia, we must provide means for everyone to consume the media. Multimedia is anything that uses audio and video.
 

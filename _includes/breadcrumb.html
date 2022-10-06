@@ -6,28 +6,35 @@
 
 {% assign page_agency = include.page_agency | default: page.agency %}
 <div class="grid-container">
-<nav class="usa-breadcrumb" aria-label="Breadcrumbs">
-  <ol class="usa-breadcrumb__list">
-    <li class="usa-breadcrumb__list-item">
-      <a href="{{ site.baseurl }}/" class="usa-breadcrumb__link">
-        <span>Home</span>
-      </a>
-    </li>
-    <li class="usa-breadcrumb__list-item">
-      <a href="{{ site.baseurl }}{{ parent_permalink }}" class="usa-breadcrumb__link">
-        <span>{{ parent_title }}</span>
-      </a>
-    </li>
-    {% if sub_parent_title and sub_parent_permalink %}
-    <li class="usa-breadcrumb__list-item">
-      <a href="{{ site.baseurl }}{{ sub_parent_permalink }}" class="usa-breadcrumb__link">
-        <span>{{ sub_parent_agency }}</span>
-      </a>
-    </li>
-    {% endif %}
-    <li class="usa-breadcrumb__list-item">
-      <span>{{ page_agency }}</span>
-    </li>
-  </ol>
-</nav>
+  <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+    <ol class="usa-breadcrumb__list">
+      <li class="usa-breadcrumb__list-item">
+        <a href="{{ site.baseurl }}/" class="usa-breadcrumb__link">
+          <span>Home</span>
+        </a>
+      </li>
+      {% if page.collection == 'guides' %}
+      <li class="usa-breadcrumb__list-item">
+        <a href="{{ site.baseurl }}/{{ page.collection }}/" class="usa-breadcrumb__link">
+          <span>{{ page.collection | capitalize }}</span>
+        </a>
+      </li>
+      {% endif %}
+      <li class="usa-breadcrumb__list-item">
+        <a href="{{ site.baseurl }}{{ parent_permalink }}" class="usa-breadcrumb__link">
+          <span>{{ parent_title }}</span>
+        </a>
+      </li>
+      {% if sub_parent_title and sub_parent_permalink %}
+      <li class="usa-breadcrumb__list-item">
+        <a href="{{ site.baseurl }}{{ sub_parent_permalink }}" class="usa-breadcrumb__link">
+          <span>{{ sub_parent_agency }}</span>
+        </a>
+      </li>
+      {% endif %}
+      <li class="usa-breadcrumb__list-item">
+        <span>{{ page_agency }}</span>
+      </li>
+    </ol>
+  </nav>
 </div>
