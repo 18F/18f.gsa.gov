@@ -13,10 +13,11 @@ layout: default
 <div class="grid-container usa-section">
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-2">
+      {%- assign collection_pages = site.guides | where: "parent_title", page.parent_title -%}
       <ul>
-        {% for guide_page in site.guides %}
+        {% for collection_page in collection_pages %}
         <li>
-          <a href="{{ site.baseurl }}{{ guide_page.url }}">{{ guide_page.title }}</a>
+          <a href="{{ site.baseurl }}{{ collection_page.url }}">{{ collection_page.title }}</a>
         </li>
         {% endfor %}
       </ul>
