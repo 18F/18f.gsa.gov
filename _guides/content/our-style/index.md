@@ -1,6 +1,6 @@
 ---
 title: Our style
-permalink: /our-style/
+permalink: /guides/content/our-style/
 sidenav: our-style
 sticky_sidenav: true
 parent_title: Content Guide

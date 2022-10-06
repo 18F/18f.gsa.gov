@@ -1,6 +1,6 @@
 ---
 title: Our approach
-permalink: /our-approach/
+permalink: /guides/content/our-approach/
 sidenav: our-approach
 sticky_sidenav: true
 parent_title: Content Guide
