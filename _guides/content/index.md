@@ -1,11 +1,11 @@
 ---
 title: About this guide
-permalink: /guides/content
+permalink: /guides/content/
 sidenav: overview
 sticky_sidenav: true
 parent_title: Content Guide
 parent_permalink: /guides/content/
-subnav:
+old_subnav:
   - text: If you work at 18F
     href: '#if-you-work-at-18f'
   - text: If you work at another organization
