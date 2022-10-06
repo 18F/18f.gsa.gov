@@ -31,7 +31,7 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://pages.18f.gov/content-guide/">
+      <a class="graphic-list-link" href="{{ site.baseurl }}/{{ page.collection }}/content/">
         <img src="{{ site.baseurl }}/assets/img/guides/content.svg" alt="">
         <p class="link-arrow-right">
           Content
@@ -67,7 +67,7 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://product-guide.18f.gov/">
+      <a class="graphic-list-link" href="{{ site.baseurl }}/{{ page.collection }}/product/">
         <img src="{{ site.baseurl }}/assets/img/guides/product.svg" alt="">
         <p class="link-arrow-right">
           Product
@@ -76,7 +76,7 @@ banner_cta: true
       </a>
     </div>
     <div class="graphic-list-item">
-      <a class="graphic-list-link" href="https://ux-guide.18f.gov/">
+      <a class="graphic-list-link" href="{{ site.baseurl }}/{{ page.collection }}/ux/">
         <img src="{{ site.baseurl }}/assets/img/guides/user-interviews-love--c.svg" alt="">
         <p class="link-arrow-right">
           User experience
