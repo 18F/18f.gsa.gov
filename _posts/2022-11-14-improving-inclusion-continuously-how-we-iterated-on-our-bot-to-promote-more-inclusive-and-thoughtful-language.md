@@ -10,8 +10,7 @@ tags:
   - culture change
   - inclusion
 excerpt: >
-  In 2015, TTS introduced a bot to help us use more inclusive language. Over the
-  years, we observed that our bot was far from perfect. So starting in 2019, we
+  In 2015, TTS created a Slack bot to help us use more inclusive language. Over time, we found this bot could use some improvements. So starting in 2019, we
   began conducting research and iterating on our bot to further our goal of
   a welcoming, inclusive culture.
 ---
