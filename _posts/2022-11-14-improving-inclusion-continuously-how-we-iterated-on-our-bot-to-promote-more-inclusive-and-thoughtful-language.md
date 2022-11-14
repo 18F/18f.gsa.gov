@@ -26,10 +26,7 @@ chat’s Slackbot](https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizi
 auto-response: whenever it saw the word “guys,” it would respond and ask if the
 person meant something else, such as “friends” or “y’all.”
 
-![A screenshot from Slack showing the legacy bot response. It is a message with
-the text "custom response" above it. It is from the user Slackbot and the
-message says, "Did you mean y'all?" It also includes a link with the text
-"What's this?"]({{site.baseurl}}/assets/blog/inclusion-bot/legacy-guys-bot.png)
+![A screenshot from Slack showing the legacy bot response. It is a message with the text "custom response" above it. It is from the user Slackbot and the message says, "Did you mean y'all?" It also includes a link with the text "What's this?"]({{site.baseurl}}/assets/blog/inclusion-bot/legacy-guys-bot.png)
 
 Telling the stories of our work through avenues such as our blog is an important
 way we adhere to our core values like working in the open and scaling our impact
@@ -78,36 +75,12 @@ suggesting different language. To help with these concerns, we updated the bot
 so that only the person who triggers it will see a response. The Inclusion Bot
 also adds an emoji to the original statement, signifying that it has responded:
 
-![A screenshot taken from Slack. A user named Charlie Demonstrata, displaying
-pronouns as he/him and displaying their location as DC, says, "Hey guys! Just
-wanted to let you know this project was being grandfathered into the previous
-structure." This message has an emoji response of a waving hand. Beneath the
-message is a response from a user named Inclusion Bot. This message has the
-text "Only visible to you" above it, and says, "Hello! Our inclusive TTS culture
-is built one interaction at a time, and inclusive language is the foundation.
-This bot helps us practice our inclusive values here in TTS. Some of your
-message could be unintentionally non-inclusive. Here are some alternatives that
-might work better." It then suggests, "Instead of saying grandfathered, how
-about included retroactively?" and "Instead of saying guys, how about folks?"
-There is a button to the right that reads, "Why this suggestion?" At the bottom,
-there is small text that reads, "You can view the full list of words and phrases
-this bot watches for." The text is blue, indicating a link.]({{site.baseurl}}/assets/blog/inclusion-bot/bot-response.png)
+![A screenshot taken from Slack. A user named Charlie Demonstrata, displaying pronouns as he/him and displaying their location as DC, says, "Hey guys! Just wanted to let you know this project was being grandfathered into the previous structure." This message has an emoji response of a waving hand. Beneath the message is a response from a user named Inclusion Bot. This message has the text "Only visible to you" above it, and says, "Hello! Our inclusive TTS culture is built one interaction at a time, and inclusive language is the foundation. This bot helps us practice our inclusive values here in TTS. Some of your message could be unintentionally non-inclusive. Here are some alternatives that might work better." It then suggests, "Instead of saying grandfathered, how about included retroactively?" and "Instead of saying guys, how about folks?" There is a button to the right that reads, "Why this suggestion?" At the bottom, there is small text that reads, "You can view the full list of words and phrases this bot watches for." The text is blue, indicating a link.]({{site.baseurl}}/assets/blog/inclusion-bot/bot-response.png)
 
 Additionally, we added a button that users can click to get more information
 about why the highlighted words or phrases can be problematic:
 
-![A screenshot of a Slack popup message. The header is an icon representing the
-bot Charlie, and the header text says "Inclusion Bot." The first paragraph
-reads, "'Guys' is commonly used to refer to groups of people, but it is a
-gendered pronoun. It can make people who do not identify as 'guys' feel excluded
-even if that's not the intent. Regardless of our cultural background or innocent
-intent, we recommend alternative language that makes it clear everyone is
-included in the conversation! Consider a word like 'y'all' or 'folks' instead!"
-The second paragraph reads, "'Grandfathered' arose from voter restrictions that
-prevented Black people from voting. We want to avoid slavery and racist
-oppression references." The third paragraph is small text that reads, "See our
-blog post for more information about this bot." The words "blog post" are blue,
-indicating a link.]({{site.baseurl}}/assets/blog/inclusion-bot/bot-info-popup.png)
+![A screenshot of a Slack popup message. The header is an icon representing the bot Charlie, and the header text says "Inclusion Bot." The first paragraph reads, "'Guys' is commonly used to refer to groups of people, but it is a gendered pronoun. It can make people who do not identify as 'guys' feel excluded even if that's not the intent. Regardless of our cultural background or innocent intent, we recommend alternative language that makes it clear everyone is included in the conversation! Consider a word like 'y'all' or 'folks' instead!" The second paragraph reads, "'Grandfathered' arose from voter restrictions that prevented Black people from voting. We want to avoid slavery and racist oppression references." The third paragraph is small text that reads, "See our blog post for more information about this bot." The words "blog post" are blue, indicating a link.]({{site.baseurl}}/assets/blog/inclusion-bot/bot-info-popup.png)
 
 ## Why it matters to TTS
 
