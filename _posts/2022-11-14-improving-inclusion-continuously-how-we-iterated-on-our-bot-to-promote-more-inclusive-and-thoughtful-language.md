@@ -115,8 +115,8 @@ public, open source
 the bot is listening for and an active community contributing to the list,
 refining not just what language we want to be thoughtful about but also how we
 want to educate ourselves about that language. Anyone (including you!) can make
-suggested changes directly to the word list through a GitHub repository. Once
-it’s been approved and merged, the additions will appear in the bot immediately.
+suggested changes directly to the word list through the GitHub repository. Once
+changes have been approved and merged, the additions will appear in the bot immediately.
 The goal is to make maintaining and modifying the bot as accessible and
 inclusive as possible, in the spirit of the bot itself.
 
