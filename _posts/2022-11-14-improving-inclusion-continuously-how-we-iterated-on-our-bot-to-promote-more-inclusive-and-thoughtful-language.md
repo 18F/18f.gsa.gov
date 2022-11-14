@@ -1,5 +1,5 @@
 ---
-date: 2022-09-12
+date: 2022-11-14
 title: >
   Improving inclusion, continuously: how we iterated on our bot to promote more
   inclusive and thoughtful language
