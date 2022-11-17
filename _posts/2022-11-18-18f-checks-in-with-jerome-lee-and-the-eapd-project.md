@@ -1,5 +1,5 @@
 ---
-date: 2022-11-16
+date: 2022-11-18
 title: >
   18F Checks In With Jerome Lee and the eAPD Project
 authors:
@@ -7,7 +7,7 @@ authors:
   - michael-walker
   - jerome-lee
 tags:
-  - 
+  -
 excerpt: >
   At 18F, we like to keep in touch with our project partners. 18F partnered with
   the Centers for Medicare and Medicaid Services (CMS) from December 2017 to
@@ -39,7 +39,7 @@ Medicare & Medicaid Services or the US Public Health Service.
 A whole lot! 18F helped us transition to a new vendor in 2020. We took the
 codebase, pipeline, and design work and got it ready for ATO. In the summer of
 2021, we took eAPD live to all states for
-[HITECH (Health Information Technology for Economic and Clinical Health)](https://www.medicaid.gov/medicaid/data-systems/health-information-exchange/federal-financial-participation-for-hit-and-hie/index.html) APDs. HITECH 
+[HITECH (Health Information Technology for Economic and Clinical Health)](https://www.medicaid.gov/medicaid/data-systems/health-information-exchange/federal-financial-participation-for-hit-and-hie/index.html) APDs. HITECH
 is a funding source focused on promoting interoperability between electronic
 health records and with external sources.
 
@@ -50,29 +50,38 @@ process, getting our Quality Team involved in conversations at the design stage
 about questions like “what are acceptance criteria?” and “what does it look like
 when a user is interacting with these designs?”
 
+To prepare for the next major phase of the project, we’ve also spent time
+preparing other parts of our infrastructure to receive other types of APDs. Next
+up, MMIS (Medicaid Management Information System) Implementation IAPDs! This is
+a really important step in the project because MMIS IAPDs make up the largest
+volume of APDs that I receive as a state officer and probably holds the most
+interest for our state partners. We’ve already started working on it and are
+looking to pilot it in the next couple months.
+
 We started this project as an experiment to demonstrate what it means to have a
 business owner who is deeply tied to development of the product, and I think
 we’ve demonstrated that it is a value-add. As a Medicaid Enterprise Systems
 State Officer who has reviewed APDs for almost eight years, I have insight into
 the pain points that states and federal reviewers experience in the process. I
 review APDs, and at the same time serve as Product Owner for a product to make
-the APD process simpler — to “build products that you’d want to use.” 
+the APD process simpler — to “build products that you’d want to use.”
 
 ### _Can you talk about the process of preparing the app for public release?_
 
 CMS is piloting a continuous authority-to-operate (ATO) process. One of my
 colleagues helped manage that process by getting the security documents in
-place, going through penetration testing, and coordinating the final signoff. 
+place, going through penetration testing, and coordinating the final signoff.
 
-For accessibility testing, we worked with a group of non-sighted users who were
-able to load up the eAPD product, navigate it with screen readers, and report
-back to us on any issues. We remediated the issues that the user group reported,
-and we keep an ongoing focus on accessibility.
+For accessibility testing, we worked with CMS’ 508 compliance team which
+includes non-sighted testers who were able to load up the eAPD product, navigate
+it with screen readers, and report back to us on any issues. We remediated the
+issues that the user group reported, and we keep an ongoing focus on
+accessibility.
 
 When we got the green light to go live it was a very exciting moment. Because of
 our DevOps approach, we had been deploying code through our pipeline the whole
 time, so we knew the deploy pipeline was stable. It was as simple as sending an
-email as saying “the system is live” once we finished the ATO process. 
+email as saying “the system is live” once we finished the ATO process.
 
 ### _How has the experience of reviewing APDs changed for states and state officers using eAPD?_
 
