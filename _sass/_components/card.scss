@@ -4,6 +4,12 @@
     text-decoration: none;
   }
 
+  .usa-card__container:hover {
+    h3 {
+      color: $color-dark;
+    }
+  }
+
   .usa-card__img {
     height: 200px;
   }
@@ -15,7 +21,7 @@
   }
 
   h3 {
-    color: color('primary-dark');
+    color: $color-medium;
   }
 
   .usa-card__footer {
