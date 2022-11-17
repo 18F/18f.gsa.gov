@@ -4,14 +4,15 @@
 
 
 <li class="usa-card tablet:grid-col-4">
-    <div class="usa-card__container shadow-2" tabindex="-1">
+  <a href="{{ card_link }}" aria-label="{{ project.title }}">
+    <div class="usa-card__container shadow-2 hover:shadow-5" tabindex="-1">
       
       <header class="usa-card__header">
         {% if project.agency %}
           <h6>{{ project.agency }}</h6>
         {% endif %}
         {% if card_link and project.title %}
-          <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="text-black">{{ project.title }}</h3></a>
+          <h3 class="card-link-tagline">{{ project.title }}</h3>
         {% endif %}        
       </header>
 
@@ -39,16 +40,7 @@
       <div class="usa-card__body">
         <p class="card-description">{{ project.excerpt }}</p>
       </div>
-      
-      <div class="usa-card__footer">
-        <a href="{{ card_link }}" class="link-arrow-right" tabindex="0">
-          Read more
-          <span class="usa-sr-only">about {{ project.title }}</span>
-          {% include svg/icons/arrow-right.svg %}
-        </a>
-      </div>
-
     </div>
   
-  </li>
-
+  </a>
+</li>
