@@ -1,5 +1,5 @@
 ---
-date: 2022-11-18
+date: 2022-11-29
 title: >
   18F Checks In With Jerome Lee and the eAPD Project
 authors:
@@ -52,11 +52,12 @@ when a user is interacting with these designs?”
 
 To prepare for the next major phase of the project, we’ve also spent time
 preparing other parts of our infrastructure to receive other types of APDs. Next
-up, MMIS (Medicaid Management Information System) Implementation IAPDs! This is
-a really important step in the project because MMIS IAPDs make up the largest
-volume of APDs that I receive as a state officer and probably holds the most
-interest for our state partners. We’ve already started working on it and are
-looking to pilot it in the next couple months.
+up, MMIS (Medicaid Management Information System) Implementation Advance
+Planning Documents (IAPDs)! This is a really important step in the project
+because MMIS IAPDs make up the largest volume of APDs that I receive as a state
+officer and probably holds the most interest for our state partners. We’ve
+already started working on it and are looking to pilot it in the next couple
+months.
 
 We started this project as an experiment to demonstrate what it means to have a
 business owner who is deeply tied to development of the product, and I think
@@ -72,7 +73,7 @@ CMS is piloting a continuous authority-to-operate (ATO) process. One of my
 colleagues helped manage that process by getting the security documents in
 place, going through penetration testing, and coordinating the final signoff.
 
-For accessibility testing, we worked with CMS’ 508 compliance team which
+For accessibility testing, we worked with CMS’s 508 compliance team which
 includes non-sighted testers who were able to load up the eAPD product, navigate
 it with screen readers, and report back to us on any issues. We remediated the
 issues that the user group reported, and we keep an ongoing focus on
