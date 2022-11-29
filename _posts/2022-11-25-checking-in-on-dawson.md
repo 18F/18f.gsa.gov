@@ -54,4 +54,4 @@ Every week we think of new opportunities to bring to the system - it’s been gr
 
 -----
 
-#### Shout-out and kudos to the many, many team members at the Tax Court, 18F, and industry partners who worked on this project over the years and brought DAWSON to where it is today! :heart:
+Shout-out and kudos to the many, many team members at the Tax Court, 18F, and industry partners who worked on this project over the years and brought DAWSON to where it is today! :heart:
