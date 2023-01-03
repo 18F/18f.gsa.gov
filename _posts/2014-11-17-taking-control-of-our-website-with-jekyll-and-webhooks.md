@@ -120,10 +120,6 @@ This way, we can update team names in one place and have it automatically update
 
 Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xml) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
 
-For example, the below IFTTT recipe will email you every time 18F publishes something:
-
-<a href="https://ifttt.com/view_embed_recipe/214709-a-new-18f-blog-post-email-me-a-link-to-go-read-it-right-away" target = "_blank" class="embed_recipe embed_recipe-l_63" id= "embed_recipe-214709"><img src= 'https://ifttt.com/recipe_embed_img/214709' title="IFTTT Recipe: A new 18F blog post?!" alt="IFTTT Recipe: A new 18F blog post?! Email me a link to go read it right away! connects feed to email" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src="https://ifttt.com/assets/embed_recipe.js"></script>
-
 ## Automatic deployment
 
 Even though we're not using GitHub Pages, we really wanted any changes to show up on our staging and live sites immediately and automatically. Automatic deployment changes team behavior, and makes anyone feel empowered to make changes without going through a bottleneck.
