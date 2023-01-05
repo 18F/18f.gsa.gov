@@ -21,7 +21,7 @@ excerpt: >
 
 ![The USTC DAWSON electronic case file system's homepage]({{ site.baseurl }}/assets/blog/ustc-dawson-checkin/dawson-home.png)
 
-The United States Tax Court is an independent federal court that settles disputes between taxpayers and the Internal Revenue Service. Since the 1980s, the Court has used a modified commercial software product to manage its operations. Last year the Court introduced [DAWSON](https://www.dawson.ustaxcourt.gov), a modern open-source case management system developed with assistance from an industry partner and 18F. DAWSON streamlined Court operations and changed the way the public interacts with the Court.
+The United States Tax Court is an independent federal court that settles disputes between taxpayers and the Internal Revenue Service. Since the 1980s, the Court has used a modified commercial software product to manage its operations. In December 2020 the Court introduced [DAWSON](https://www.dawson.ustaxcourt.gov), a modern open-source case management system developed with assistance from an industry partner and 18F. DAWSON streamlined Court operations and changed the way the public interacts with the Court.
 
 We checked in with Mike Marcotte, Director of Enterprise Applications and Tech Lead on the DAWSON project, and Chris Holly, DAWSON’s Product Owner, to see how the project has been going.
 
