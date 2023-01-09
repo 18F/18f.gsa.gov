@@ -6,7 +6,11 @@ authors:
   - amy-mok
   - emily-read
 tags:
-  -
+  - 18f
+  - agency work
+  - interview
+  - usgs
+  - u.s. geological survey
 excerpt: >
   At 18F, we like to keep in touch with our project partners. 18F partnered with
   the USGS Water Mission Area (WMA) from March 2020 to
@@ -15,6 +19,10 @@ excerpt: >
 ---
 
 _This is the second in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Jerome Lee and the eAPD Project](https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/)._
+
+![USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge.]({{ site.baseurl }}/assets/blog/usgs-wma-checkin/20210722_150403.jpg)
+USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low)
+{: .font-alt-xs }
 
 18F partnered with USGS on four different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: Water Mission Area (WMA) Platform Modernization Path Analysis, Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network (NGWMN) Path Analysis; and National Water Information System (NWIS) Data Strategy. 
 
@@ -39,4 +47,5 @@ I'm proud that we are the first group in our agency to work with 18F, and throug
 ### _What are some recent challenges or interesting problems that you have been working on?_
 
 We have a historically very large web product portfolio that has required a lot of product owners operating mostly independently. We are intentionally narrowing the portfolio down to deliver the same data through fewer endpoints. As we narrow the portfolio, it raises the question of how ongoing product management will need to shift and adapt as our products become more interconnected, interdependent, and less duplicative. Following the findings from user research and tech analysis, we know we also need to make the products we do develop more adaptable to new data types that become available. So instead of developing a new web app for every new data type — which is really confusing for a user — we need to work carefully and thoughtfully to understand how new data can be served through existing endpoints when possible to meet user needs. We don’t have a playbook for this but recognize it as a challenge we need to address. 
+
 We are also starting to think about what it looks like when these products are modernized, i.e. how much does continuous development on a modernized data product cost? What does ongoing product management look like? We have more questions and exploration we need to do here, but have so much more confidence in doing so knowing that we’re not alone in it. Maybe this will be a topic of future partnership!
