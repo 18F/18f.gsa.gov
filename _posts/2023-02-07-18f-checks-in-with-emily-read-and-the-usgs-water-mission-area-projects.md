@@ -24,7 +24,7 @@ _This is the second in a series of blog posts where 18F checks in with our partn
 USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low)
 {: .font-alt-xs }
 
-18F partnered with USGS on four different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: Water Mission Area (WMA) Platform Modernization Path Analysis, Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network (NGWMN) Path Analysis; and National Water Information System (NWIS) Data Strategy. 
+18F partnered with USGS on four different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: [Water Mission Area (WMA) Platform Modernization Path Analysis](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/), Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network (NGWMN) Path Analysis; and National Water Information System (NWIS) Data Strategy. 
 
 _A terminology note: a [Path Analysis](https://18f.gsa.gov/2021/02/02/path-analysis-technical-assessments-toward-more-durable-usable-systems/) is an 18F offering that helps identify the right problems that need to be solved through user research and analysis, and an [Experiment & Iterate](https://18f.gsa.gov/how-we-work/) is a follow-on offering after completing a Path Analysis to work on a solution to the identified problem together. This can focus on building a working product, preparing a procurement package, or training a team to take over development._
 
