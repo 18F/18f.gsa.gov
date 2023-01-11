@@ -102,6 +102,4 @@ To fetch the next page of results, append `last_index=230880619&last_contributor
 
 Our goal is to display as much data as possible. For the bulk of candidate and committee information, we’re displaying data starting with the 1980 cycle. For performance and expense reasons, we are limiting Schedule A and B data to the last four years. If you need older data, it is still available in the [FEC’s extensive bulk data offerings](http://www.fec.gov/finance/disclosure/ftpdet.shtml).
 
-{% oembed https://twitter.com/mheadd/status/619098677710340096 %}
-
 If you make something with the FEC API, be sure to share your creations with us on [Twitter](https://twitter.com/18f). We would like to highlight some of your great work.
