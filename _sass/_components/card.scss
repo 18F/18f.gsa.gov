@@ -5,10 +5,15 @@
   }
 
   a:focus {
-    div {
+
+    .usa-card__container {
       @include u-shadow(5);
       h3 {
         color: $color-dark;
+      }
+
+      .card-link-tagline {
+        text-decoration:underline
       }
     }
   }
@@ -21,6 +26,10 @@
     @include u-shadow(5);
     h3 {
       color: $color-dark;
+    }
+
+    .card-link-tagline {
+      text-decoration:underline
     }
   }
 
