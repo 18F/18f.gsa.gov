@@ -4,7 +4,21 @@
     text-decoration: none;
   }
 
+  a:focus {
+    div {
+      @include u-shadow(5);
+      h3 {
+        color: $color-dark;
+      }
+    }
+  }
+
+  .usa-card__container {
+    @include u-shadow(2);
+  }
+
   .usa-card__container:hover {
+    @include u-shadow(5);
     h3 {
       color: $color-dark;
     }
