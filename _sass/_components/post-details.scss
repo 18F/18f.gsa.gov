@@ -21,7 +21,7 @@
 }
 
 .post-author {
-  @include u-color('secondary-dark');
+  @include u-color('accent-cool');
   text-decoration: none;
 
   &:visited {
@@ -51,7 +51,7 @@
     margin-left: 0;
 
     background-color: color('gray-cool-5');
-    color: color('secondary-dark');
+    color: color('accent-cool');
     display: inline-block;
     font-size: font-size($theme-body-font-family, 'xs');
     line-height: 1;
