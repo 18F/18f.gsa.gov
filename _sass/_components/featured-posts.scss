@@ -30,6 +30,13 @@
     a {
       text-decoration: none;
     }
+
+    h3 {
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
   }
 
   .post {
