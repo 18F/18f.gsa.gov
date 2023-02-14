@@ -1,0 +1,28 @@
+name: Add new issues to the Delivery Assurance project board
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  initialize:
+    name: Initialize new issue
+    runs-on: ubuntu-latest
+    steps:
+      # Rather than use a personal access token to interact with the project, we
+      # can use this GitHub App. There's an API for exchanging app credentials
+      # for a short-term token, and we use that API here.
+      - name: get token
+        uses: tibdex/github-app-token@v1
+        id: app_token
+        with:
+          app_id: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_APP_ID }}
+          installation_id: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_INSTALLATION_ID }}
+          private_key: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_PRIVATE_KEY }}
+      # Now we can add the issue to the project board.
+      - name: add to project board
+        uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/orgs/18F/projects/41
+          github-token: ${{ steps.app_token.outputs.token }}
