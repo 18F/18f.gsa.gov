@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest a new feature
 title: ''
-labels: 'type:bug'
+labels: 'type:blog-feature'
 assignees: ''
 ---
 

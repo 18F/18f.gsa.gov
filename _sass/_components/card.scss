@@ -4,9 +4,32 @@
     text-decoration: none;
   }
 
+  a:focus {
+
+    .usa-card__container {
+      @include u-shadow(5);
+      h3 {
+        color: $color-dark;
+      }
+
+      .card-link-tagline {
+        text-decoration:underline
+      }
+    }
+  }
+
+  .usa-card__container {
+    @include u-shadow(2);
+  }
+
   .usa-card__container:hover {
+    @include u-shadow(5);
     h3 {
       color: $color-dark;
+    }
+
+    .card-link-tagline {
+      text-decoration:underline
     }
   }
 

@@ -5,9 +5,9 @@ authors:
   - alex-bielen
   - laura-gerhardt
 tags:
-  - open-source
-  - how-we-work
-  - application-development
+  - open source
+  - how we work
+  - application development
 excerpt: "We often talk about 18F Engineering as a technology shop, but that's too broad. There are very few technology choices we actually make at the project level. When we build, we usually build open-source cloud-based web applications. We combine a limited set of technologies to make our applications. To explain this, we'll use the metaphor of a sandwich shop."
 image: /assets/blog/eng-sandwich/image1.png
 image_alt: "A sketch of a hoagie sandwich. A line drawing sketch of a long sandwich with cheese and topped with an olive on a toothpick."
