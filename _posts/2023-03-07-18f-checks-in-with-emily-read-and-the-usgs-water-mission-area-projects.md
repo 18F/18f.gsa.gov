@@ -1,7 +1,7 @@
 ---
 date: 2023-03-07
 title: >
-  18F Checks In With Emily Read and the USGS Water Mission Area Projects
+  18F Checks In With Emily Read and the USGS Water Resources Mission Area Projects
 authors:
   - amy-mok
   - emily-read
@@ -12,7 +12,7 @@ tags:
   - usgs
   - u.s. geological survey
 excerpt: >
-  At 18F, we like to keep in touch with our project partners. 18F partnered with the USGS Water Mission Area (WMA) from March 2020 to June 2022 on a wide variety of projects together. We caught up with Emily Read, Chief for the Web Communications Branch at USGS Water Mission Area.
+  At 18F, we like to keep in touch with our project partners. 18F partnered with the USGS Water Resources Mission Area (WMA) from March 2020 to June 2022 on a wide variety of projects together. We caught up with Emily Read, Chief for the Web Communications Branch at USGS Water Resources Mission Area.
 ---
 
 _This is the second in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Jerome Lee and the eAPD Project](https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/)._
@@ -21,11 +21,11 @@ _This is the second in a series of blog posts where 18F checks in with our partn
 USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low)
 {: .font-alt-xs }
 
-18F partnered with the U.S. Geological Survey (USGS) on a few different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: [Water Mission Area (WMA) Platform Modernization Path Analysis](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/), Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network (NGWMN) Path Analysis; and National Water Information System (NWIS) Data Delivery Strategy.
+18F partnered with the U.S. Geological Survey (USGS) on a few different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: [Water Resources Mission Area (WMA) Platform Modernization Path Analysis](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/), Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network (NGWMN) Path Analysis; and National Water Information System (NWIS) Data Delivery Strategy.
 
 _A terminology note: a [Path Analysis](https://18f.gsa.gov/2021/02/02/path-analysis-technical-assessments-toward-more-durable-usable-systems/) is an 18F offering that helps identify the right problems that need to be solved through user research and analysis, and an [Experiment & Iterate](https://18f.gsa.gov/how-we-work/#experiment--iterate) is a follow-on offering after completing a Path Analysis to work on a solution to the identified problem together. This can focus on building a working product, preparing a procurement package, or training a team to take over development. [Acquisition Consulting](https://18f.gsa.gov/how-we-work/#acquisition-consulting) is an offering in Acquisitions Services that coaches a partner's team through the procurement process with their own contracting officer._
 
-We had a conversation with Emily Read, Chief for the Web Communications Branch at USGS Water Mission Area, to see how their agency is continuing with the work.
+We had a conversation with Emily Read, Chief for the Web Communications Branch at USGS Water Resources Mission Area, to see how their agency is continuing with the work.
 
 ### _What has been going on with this work since 18F rolled off?_
 
