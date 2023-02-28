@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '~>2.7.2'
 
-gem 'html-proofer', '~> 3.17.2'
+gem 'html-proofer', '~> 4.3.0b'
 gem 'jekyll', '~> 4.2'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
