@@ -20,6 +20,9 @@ See the [blogpost example file](examples/blog-post.md) for a template and instru
 
 __*Note:*__ _The Federalist platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the Federalist deployment and keep the tests working in CI, a Federalist specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The Federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the Federalist platform._
 
+Make sure you have Ruby 2.7.2 and Python 3.9 installed and active for the project
+directory. Python 3.7, 3.8, or 3.9 is required for some of the dependency builds.
+
 Run each of the following steps to get the site up and running.
 
 1. `git clone git@github.com:18F/18f.gsa.gov`
@@ -31,6 +34,16 @@ Run each of the following steps to get the site up and running.
 To reduce the build time, instead of `./serve` you can run `./serve-fast`. This will eliminate all of the blog posts and the search index, but generates all other pages
 
 You should be able to see the site at: [http://127.0.0.1:4000/site/](http://127.0.0.1:4000/site/)
+
+> **NOTE:** If you are using an M-series Mac (M1, M2, etc.), you may need to
+> configure bundler to use special build flags for eventmachine. To do that, run:
+>
+> ```
+> bundle config --local build.eventmachine "--with-ldflags=\"-Wl,-undefined,dynamic_lookup\""
+> ```
+>
+> You may also have to run the `bundle install` step 2 or 3 times for everything
+> to finish building.
 
 ### Local development using docker
 
