@@ -183,7 +183,7 @@ DEPENDENCIES
   uswds-jekyll
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 2.7.1
 
 BUNDLED WITH
    2.4.1
