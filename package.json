@@ -11,7 +11,7 @@
   },
   "scripts": {
     "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
-    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore 18f@gsa.gov",
+    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore 18f@gsa.gov",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --empty-alt-ignore --url-ignore localhost:4000",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
