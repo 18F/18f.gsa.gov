@@ -154,7 +154,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
-    uswds-jekyll (5.4.0)
+    uswds-jekyll (5.5.0)
       jekyll (>= 4.0, < 5)
       jekyll-autoprefixer
       mini_racer
