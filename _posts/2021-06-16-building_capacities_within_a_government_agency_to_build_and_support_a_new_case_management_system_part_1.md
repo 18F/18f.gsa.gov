@@ -88,7 +88,7 @@ We then talked with the engineering team about the level of effort with each opt
 
 ## What has been your most rewarding experience on the project?
 
-Actually bringing the product into production. We were told when we started out about how many IT projects fail, especially projects of this scope. We were also told that because we were doing big-bang cutover launch, it increased our chances of failure. So the likelihood of success was stacked against us. Actually being able to launch, and to be on the other side of that launch, in production and continuing to deploy new features, is a huge accomplishment and a testament to the team we had working on this project.  
+Actually bringing the product into production. We were told when we started out about how many IT projects fail, especially projects of this scope. We were also told that because we were doing big-bang cut-over launch, it increased our chances of failure. So the likelihood of success was stacked against us. Actually being able to launch, and to be on the other side of that launch, in production and continuing to deploy new features, is a huge accomplishment and a testament to the team we had working on this project.  
 
 
 
