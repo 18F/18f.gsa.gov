@@ -63,7 +63,7 @@ In addition to using a second factor, at login.gov we don’t allow you to
 use common passwords, and have an ever-growing list of **banned
 passwords** used by malicious actors.
 
-## Use unphishable 2FA methods
+## Use un-phishable 2FA methods
 
 **Phishing** is when someone pretends to be a real service to collect
 information from you using fake websites, phone calls, or fraudulent
@@ -77,13 +77,13 @@ Hackers have various methods to collect your six-digit code in the text
 and use it to access your account.
 
 To defend against this, login.gov supports several second factors that
-are unphishable. We recommend using a FIDO-compliant physical security
+are un-phishable. We recommend using a FIDO-compliant physical security
 key that must be connected to your phone or computer to sign in.
 Additionally, phones and laptops have fingerprint readers that work the
 same way and can be used as the second factor on login.gov if your
 browser supports it, through something called **WebAuthn**. Federal
 government employees and contractors can also use their CAC or PIV
-cards. All of these methods are unphishable as they require a physical
+cards. All of these methods are un-phishable as they require a physical
 factor - a device or a fingerprint - to authenticate.
 
 Learn more about how to keep your information safe over at [login.gov](https://login.gov).
