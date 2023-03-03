@@ -121,7 +121,7 @@ with "fake" data using the JSON and jQuery API trick mentioned above.
 However, you may decide you need to implement a durable, changing data
 store. Such a data store cannot be easily realized with GitHub Pages. If
 you must run a small web server to have a changable data store, such as
-somenthing as simple as Ruby's Sinatra or Python's Flask, then [*localtunnel*](https://localtunnel.me/) makes
+something as simple as Ruby's Sinatra or Python's Flask, then [*localtunnel*](https://localtunnel.me/) makes
 it very easy to provide a temporary public URL that points to your
 computer's localhost.
 
