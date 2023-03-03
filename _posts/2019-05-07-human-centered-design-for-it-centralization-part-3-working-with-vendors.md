@@ -55,7 +55,7 @@ A single product may have some components that are built and some that are bough
 
 Vendor lock-in occurs when an agency is dependent on one vendor to
 build, operate, and/or update a mission-critical service. Even if the
-vendor begins to miss deadlines or underperform, agencies can’t hire a new one because the costs are too high to switch. In cases where vendors use proprietary code, agencies can get charged for any future fixes or updates. This hurts agencies in the long run as it limits their ability to develop in-house skills, control their own destiny, and give users more opportunity to shape the process through two-way feedback loops.
+vendor begins to miss deadlines or under-perform, agencies can’t hire a new one because the costs are too high to switch. In cases where vendors use proprietary code, agencies can get charged for any future fixes or updates. This hurts agencies in the long run as it limits their ability to develop in-house skills, control their own destiny, and give users more opportunity to shape the process through two-way feedback loops.
 
 Avoid lock-in by drafting RFPs for small, independent services rather than for large, labyrinthine IT systems. Each service can be built by separate vendors yet come together to form a complete system. This way if one vendor or module isn’t working, you can easily change course.
 
