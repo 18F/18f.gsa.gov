@@ -49,7 +49,7 @@ In addition to visiting Summit, Sarayu had the opportunity to visit
 ORNL's applied research facilities including the Manufacturing
 Demonstration Facility; National Transportation Research Center; Grid
 Research, Integration, and Deployment Center; and the Carbon Fiber
-Technology Facility. She also stopped by ORNL’s Big Science tools to
+Technology Facility. She also stopped by ORNL's Big Science tools to
 check out the Spallation Neutron Source and Oak Ridge Leadership
 Computing Facility, home to Summit.
 
@@ -84,7 +84,7 @@ Before diving into designing solutions, Clarice toured VA’s across the
 country on an immersive listening tour. She spent time observing VA
 Hospitals hard at work, as well as shadowed how VA Regional Offices
 process claims and benefits. Clarice’s principal focus within the VA
-CTO’s Office is digital transformation in Veteran communications. It’s
+CTO's Office is digital transformation in Veteran communications. It’s
 incredibly important that our Veterans receive timely and effective
 correspondence throughout their claims process as we look to modernize
 government services.
