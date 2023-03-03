@@ -30,7 +30,7 @@ Traditional change control boards use these large documents as their main artifa
 
 **Anticipating user needs**: Often requirements fail to take into account every eventuality, the needs of every user group and how needs and policies will change. People are blamed for not planning well, instead of evaluating the planning process. Since no one is omniscient, this can be an impossible task. The bigger the project, the greater likelihood that something doesn't go as planned. Since everything was planned up front, these bottlenecks can create ripple effects, magnifying even small forecasting errors.
 
-**Security as an afterthough**t: Security is also often considered at the beginning of the project but then implementation and checks for security are left until the very end. At that point making corrections can be cumbersome and these massive reviews can lead to lots of back and forth communication. 
+**Security as an afterthought**: Security is also often considered at the beginning of the project but then implementation and checks for security are left until the very end. At that point making corrections can be cumbersome and these massive reviews can lead to lots of back and forth communication. 
 
 **Stakeholder driven decisions**: All decisions are made upfront by stakeholders. They have to take a long time because there are a lot of requirements and they have to think of all contingencies in advance. 
 
