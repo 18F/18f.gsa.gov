@@ -14,4 +14,4 @@ And make sure that automated checks are ok
 - fix houndci feedback
 - ensure tests pass
 - federalist builds
-- no new SNYK vulnerabilities are introdcued
+- no new SNYK vulnerabilities are introduced
