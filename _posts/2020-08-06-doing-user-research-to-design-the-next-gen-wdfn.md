@@ -26,7 +26,7 @@ This year USGS has partnered with [18F](https://18f.gsa.gov/), a digital service
 
 The USGS WMA has been providing online access to water data for 25 years and over that time the data has grown in size, scope, and complexity. Many new measurement locations have been established and new data types have been collected; striving to provide access to all of this data has made the USGS's websites increasingly complicated.
 
-As a part of our website modernization effort, the WMA seeks to streamline the user experience when interacting with the data on waterdata.usgs.gov. A broad set of users interact with the data available on the site, and users come in with varying levels of knowledge about the page organization and the underlying data structures by which they are organized. In order to develop a new solution that better serves our community of users, we first needed to understand more about our users’ goals and patterns of use.
+As a part of our website modernization effort, the WMA seeks to streamline the user experience when interacting with the data on <waterdata.usgs.gov>. A broad set of users interact with the data available on the site, and users come in with varying levels of knowledge about the page organization and the underlying data structures by which they are organized. In order to develop a new solution that better serves our community of users, we first needed to understand more about our users’ goals and patterns of use.
 
 ## UX research - How the 18F approach is different
 
@@ -57,7 +57,7 @@ USGS serves a broad variety of users, but we wanted to be targeted about which u
 
 ## What were our assumptions?
 
-USGS has traditionally grouped users by professional affiliation, but that didn't necessarily correspond to how they used waterdata.usgs.gov. Our goal was to identify shared user needs and behaviors that we can design for. We referenced trends in site analytics and other background information to make informed guesses about some preliminary groups we needed to learn more about:
+USGS has traditionally grouped users by professional affiliation, but that didn't necessarily correspond to how they used <waterdata.usgs.gov>. Our goal was to identify shared user needs and behaviors that we can design for. We referenced trends in site analytics and other background information to make informed guesses about some preliminary groups we needed to learn more about:
 
 * Users who are new to USGS water: Site analytics showed us that over 50% of people coming to the site were new users. We thought this group might include members of the public searching for water information online (such as homeowners, educators, etc.) as well as recent hires at USGS.
 * Users who routinely access a single data point, page, or visualization. Site analytics also showed that more than 60% of sessions were on the USGS “current conditions” pages. We thought this group of users might be homeowners living in flood prone areas who regularly check a nearby monitoring site, or outdoor enthusiasts who check certain gages before going out.
