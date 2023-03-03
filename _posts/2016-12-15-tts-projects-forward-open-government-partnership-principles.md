@@ -54,7 +54,7 @@ reused](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/
 by the public and other governments. For example,
 [analytics.usa.gov](https://analytics.usa.gov/) both provides the
 public with increased transparency into traffic to federal websites and
-has inspiried [11 other
+has inspired [11 other
 governments](https://github.com/18F/analytics.usa.gov/blob/master/README.md)
 to launch their own analytics dashboard. Because the code for the
 platform was open and easily reusable, it allowed other governments to
