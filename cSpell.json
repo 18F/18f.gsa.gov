@@ -100,5 +100,6 @@
         "Frontmatter"
     ],
     "ignorePaths": [
+        "_posts/2021-09-16-a_day_in_the_life_-_ingeniero_en_18f.md"
     ]
 }
