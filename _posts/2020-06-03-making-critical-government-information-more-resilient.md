@@ -47,7 +47,7 @@ Another common way to reduce unneeded requests is leveraging a content delivery 
 
 Like a CDN, a proxy server sits in-between the consumers of your information and the platform serving your website. A proxy provides several methods of reducing load. A **reverse proxy** server can be used to intercept requests for web content and modify them (for example, by adding or removing HTTP headers) or to redirect requests to another location. A **load balancer** can be used to spread out web traffic among several different web hosting instances, or reduce load on an instance. A **content cache** can act much like a CDN and stores a temporary copy of your content. Serving cached content can be especially helpful on dynamic sites where a server has to pull multiple streams of data together to build a web web. Instead of doing this each time a page is requested, you can simply serve the results of all that server effort from a content cache.
 
-It should be noted that none of these approaches is mutually exclusive. Consider using all of them as part of your overall resilience strategy. It’s also worth noting that none of the steps outlined above requires reengineering or rebuilding your website, though you may want to consider how doing so might make your site more resilient.
+It should be noted that none of these approaches is mutually exclusive. Consider using all of them as part of your overall resilience strategy. It’s also worth noting that none of the steps outlined above requires re-engineering or rebuilding your website, though you may want to consider how doing so might make your site more resilient.
 
 ## The Need for Speed
 
