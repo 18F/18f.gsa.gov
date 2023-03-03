@@ -12,7 +12,7 @@ image_figcaption: The 18F team gathered in the GSA building in May 2016.
 
 ### Post previews
 
-Post previews are seen on the home page of [18f.gsa.gov](https://18f.gsa.gov/) and at the bottom of every blog post for example, [this post](https://18f.gsa.gov/2017/03/21/nasa-journey-with-us-web-design-standards/). This feature provides the user a preview of a blog that includes the publish date, title, an excpert, a link to the full post, and tags.
+Post previews are seen on the home page of [18f.gsa.gov](https://18f.gsa.gov/) and at the bottom of every blog post for example, [this post](https://18f.gsa.gov/2017/03/21/nasa-journey-with-us-web-design-standards/). This feature provides the user a preview of a blog that includes the publish date, title, an excerpt, a link to the full post, and tags.
 
 ### Blog tags
 
