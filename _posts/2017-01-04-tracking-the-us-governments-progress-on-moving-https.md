@@ -72,7 +72,7 @@ Though we don't have time series data for subdomains, we can compare a snapshot 
 
 When broadened to include subdomains, the numbers are lower than when only measuring parent domains. This is likely in part because identifying parent domains is much easier (even inside an agency), and in part because most agencies have a "long tail" of unused, abandoned, testing, or staging subdomains.
 
-This is an important point, because not all web services are equal. If the goal is to increase the number of secure connections to federal services, it's a bigger deal if whitehouse.gov or aids.gov use HTTPS than if little old 18f.gsa.gov supports HTTPS. Also, some subdomains that appear in this dataset are unmaintained or misconfigured, or just lead to an error page of some kind. While these subdomains should use HTTPS too, we should also try to consider overall user impact.
+This is an important point, because not all web services are equal. If the goal is to increase the number of secure connections to federal services, it's a bigger deal if <whitehouse.gov> or aids.gov use HTTPS than if little old 18f.gsa.gov supports HTTPS. Also, some subdomains that appear in this dataset are unmaintained or misconfigured, or just lead to an error page of some kind. While these subdomains should use HTTPS too, we should also try to consider overall user impact.
 
 ## Measuring overall user impact using analytics.usa.gov
 
