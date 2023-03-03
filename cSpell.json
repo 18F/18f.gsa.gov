@@ -13,6 +13,7 @@
         "FISMA",
         "FOSS",
         "FPRS",
+        "Frontmatter",
         "HITECH",
         "IAPDs",
         "ISSO",
@@ -99,6 +100,11 @@
             "name": "Frontmatter",
             "pattern": "/^(-{3}|[+]{3})$[\\s\\S]*?^\\1$/gm",
             "description": "Reference: https://github.com/streetsidesoftware/cspell/discussions/3456"
+        },
+        {
+            "name": "Liquid Syntax With Dashes",
+            "pattern": "\\{[%]-? (.*) -?[%]\\}",
+            "description": "Some of the GitHub docs have this syntax"
         }
     ],
     "ignoreRegExpList": [
@@ -111,7 +117,8 @@
         "Multi-line code blocks",
         "HTML Tags",
         "Liquid Syntax",
-        "Frontmatter"
+        "Frontmatter",
+        "Liquid Syntax With Dashes"
     ],
     "ignorePaths": [
         "_posts/2021-09-16-a_day_in_the_life_-_ingeniero_en_18f.md"
