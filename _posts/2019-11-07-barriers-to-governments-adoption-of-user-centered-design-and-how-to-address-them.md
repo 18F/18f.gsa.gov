@@ -83,7 +83,7 @@ buy-in from their users early on, reducing the risk of failure.
 This is a counterintuitive truism: government agencies aren't always incentivized to work towards cost savings. Indeed, many agencies will
 see their future funding slashed if they spend significantly less money than they've been allocated.
 
-As a result, risk-mitigation techniques like design research can get deprioritized. Design research presents a wealth of benefits—like
+As a result, risk-mitigation techniques like design research can get de-prioritized. Design research presents a wealth of benefits—like
 helping us create simpler, more beautiful, more usable products and
 services. It can be difficult to measure these things, especially in
 dollars. What's the dollar value of more usable government services (and
