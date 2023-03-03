@@ -8,6 +8,7 @@ tags:
 excerpt: Like all federal employees, we don't work on Thanksgiving. We do work on the day after, though, and this year we thought we'd pause to take a moment and reflect. Here are a few things that we're thankful for, what brings meaning to our lives, and what brings us to work every day.
 image: /assets/blog/join-us/18F-IRL-2016.jpg
 image_figcaption: The 18F team gathered in the GSA building in May 2016.
+cSpell: ignore Schonfeld, Posilkin, Emileigh, Huie, Karman, Cohn, Britta, Gustafson, Fenton, Milstein, Vishal, Iyer, Elman, Kimber, Dowsett, Troxel, Romke, Haan
 ---
 
 {{ page.excerpt }}
