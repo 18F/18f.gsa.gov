@@ -45,7 +45,7 @@ observing users as they attempt to use a product or service while they
 think out loud. The primary goal of a usability test is to understand a
 product or service’s usability, which is roughly how learnable and
 adaptable it is, and how good it is at preventing users from making
-unfixable errors. This sounds simple — and it is — but it’s important to
+un-fixable errors. This sounds simple — and it is — but it’s important to
 realize that [watching someone use something you made](https://twitter.com/DesignUXUI/status/576432203560685568) can be
 an emotionally difficult, humbling thing to do.
 
