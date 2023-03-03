@@ -13,6 +13,7 @@ excerpt: "This is the second in a two-part series exploring the basics of runnin
 a remote moderated usability test. In part one, we explored
 usability testing at a high level: what it is and why it’s important. In
 this post we’ll review a five-step process for conducting your first round of tests"
+cSpell: ignore Amirah, Aziz, Anahita, Sheev, Pressley, Marcela, Souaya, Speidel
 ---
 
 This is the second in a two-part series exploring the basics of running

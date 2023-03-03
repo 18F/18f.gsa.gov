@@ -8,6 +8,7 @@ tags:
 - ask 18f
 - open source
 excerpt: " Ask 18F is an advice column that answers questions sent in by federal employees. In this edition, two of our enginners share how to best advocate for the addition of open-source tools in the analytics space."
+cSpell: ignore Burnes, Tadhg
 ---
 
 *Ask 18F is an advice column that answers questions sent in by federal employees. Our technical experts aim to provide you helpful resources and a good starting point to tackle your problem. Got a question? No matter how small the task or how big the project, email us at [18f@gsa.gov](mailto:8f@gsa.gov).*
