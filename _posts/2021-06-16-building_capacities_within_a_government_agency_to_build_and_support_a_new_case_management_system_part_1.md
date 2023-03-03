@@ -44,7 +44,7 @@ With respect to open source, that was a completely novel and foreign concept to 
 
 ## How did those decisions work out for you?
 
-It worked out great! We have built our new case management system and the only off-the-shelf product that we've incorporated was a scanning tool. So besides that one product, our project has been exclusively open source. And taking an agile approach has allowed us to reprioritize the work as we're going, making sure we were getting exactly what we needed for our minimally viable product (MVP). Ultimately, we launched in December of 2020, and have a great product to show for it.
+It worked out great! We have built our new case management system and the only off-the-shelf product that we've incorporated was a scanning tool. So besides that one product, our project has been exclusively open source. And taking an agile approach has allowed us to re-prioritize the work as we're going, making sure we were getting exactly what we needed for our minimally viable product (MVP). Ultimately, we launched in December of 2020, and have a great product to show for it.
 
 
 
