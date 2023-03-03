@@ -150,7 +150,7 @@ materials will feel more consistent, and users will develop a stronger attachmen
 
 We create in the open so anyone can replicate our processes. Once you’ve identified that a web-based solution is best, USWDS and some of our open source design resources can help you meet your agency’s unique mission:
 
-- [Plainlanguage.gov](https://www.plainlanguage.gov/): Best practices for writing content that users understand and reflect an agency’s brand to build and maintain trust.
-- [Accessibility.digital.gov](https://accessibility.digital.gov/): Guidelines to help teams create accessible products and services.
-- [Methods.18F.gov](https://methods.18f.gov/): Useful approaches and tools to bring human-centered design into any project. Feel free to [create an issue on GitHub](https://github.com/18F/methods/issues/new) if you have a suggestion for any of these methods.
+- <https://www.plainlanguage.gov>: Best practices for writing content that users understand and reflect an agency’s brand to build and maintain trust.
+- <https://accessibility.digital.gov>: Guidelines to help teams create accessible products and services.
+- <https://methods.18f.gov>: Useful approaches and tools to bring human-centered design into any project. Feel free to [create an issue on GitHub](https://github.com/18F/methods/issues/new) if you have a suggestion for any of these methods.
 - [18F’s Content Style Guide](https://content-guide.18f.gov/voice-and-tone/): Guidance for building out your voice and tone.
