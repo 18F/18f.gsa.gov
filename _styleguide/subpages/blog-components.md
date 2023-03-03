@@ -55,7 +55,7 @@ To add a caption, specify the `image_figcaption` attribute in the page front mat
 %}
 Images within blog posts
 
-Images can be any visual that supports the content of the post. We often use screen shots of platforms, people active in an design thinking excercise or images of people and our team.  Below is an example of an image with a caption.
+Images can be any visual that supports the content of the post. We often use screen shots of platforms, people active in an design thinking exercise or images of people and our team.  Below is an example of an image with a caption.
 
 {% capture image_captions %}{% raw %}
 <figure>
