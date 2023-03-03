@@ -30,7 +30,7 @@ In addition to these recurring touchpoints, **it’s important for a product tea
 
 As a product team, we often get feedback from various stakeholders on specific, strategic points before proposing a recommendation. For example:
 * We asked leaders of FNS SNAP Quality Control Branch and FNS Office of Information Technology to weigh in on the primary users we should focus on.
-* We asked an executive of DOJ’s Civil Rights Division to prioritize which content to start writing or migrating over to their knowledge management system.
+* We asked an executive of DOJ's Civil Rights Division to prioritize which content to start writing or migrating over to their knowledge management system.
 * We asked various judges of the US Courts to discuss different technical approaches to building a case management system.
 
 Gathering data, including experiences or feedback, across all stakeholders (user, organization, technology, and especially senior executives) will position the product team as an unbiased advocate. Early on, when the priorities and definition of success are ambiguous, it’s important to have more frequent planning sessions (every 2 weeks or sprint) between product team and senior stakeholders. Then, as the product team builds momentum, milestone planning discussions and decisions with senior executives can happen less frequently (every 1-2 months)  as the roadmap priorities change or mature. By regularly showing your work and getting feedback from senior executives , product teams will earn senior executives' trust, and therefore be empowered to make strategic decisions.
