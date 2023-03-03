@@ -4,10 +4,14 @@
     "words": [
         "ACIO",
         "ACOR",
+        "auditability",
+        "backchannel",
+        "callout",
         "CFPB",
         "CMCS",
         "COTR",
         "DOJ's",
+        "duplicative",
         "EITI",
         "eventmachine",
         "exfiltrate",
@@ -26,9 +30,16 @@
         "roadmaps",
         "SaltAire",
         "SBIR",
+        "signoff",
+        "Skillsharing",
         "Slackbot",
         "STTR",
+        "timesheets",
+        "toolkits",
+        "touchpoint",
+        "touchpoints",
         "USCIS",
+        "USDS",
         "USFS",
         "USGS",
         "USKPA",
@@ -52,7 +63,8 @@
         "Refoy",
         "Miatta",
         "Norah",
-        "Maki"
+        "Maki",
+        "styleguide"
     ],
     "patterns": [
         {
