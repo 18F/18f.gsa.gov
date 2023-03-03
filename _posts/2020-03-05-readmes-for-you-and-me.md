@@ -76,7 +76,7 @@ _Share your favorite technical tools, frameworks, choices and approaches in this
 
 ## Feedback preferences
 
-_How do you like to receive feedback? Do you prefer feedback in writing (email, Slack), over videocall, or in-person if possible? Does it take you a while to process feedback? How do you prefer to get positive feedback versus constructive feedback?_
+_How do you like to receive feedback? Do you prefer feedback in writing (email, Slack), over video call, or in-person if possible? Does it take you a while to process feedback? How do you prefer to get positive feedback versus constructive feedback?_
 
 _Giving and receiving feedback is essential to good teamwork, and giving and receiving feedback can also be very hard to do well. Make it as easy as possible for your teammates to give you feedback by letting them know your preferences._
 
