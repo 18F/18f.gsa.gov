@@ -54,7 +54,7 @@ Here’s how that choice played out on two distinct projects.
 
 Under the DATA Act, a variety of federal agencies are required to submit
 detailed spending information to a central store for exposure to the
-public at [www.usaspending.gov](https://www.usaspending.gov/). We
+public at <https://www.usaspending.gov>. We
 needed to collect and validate financial data submitted as simple CSVs. A number of validation rules are applied to incoming data submissions to guard the accuracy of the data.
 
 The DATA Act team evaluated a number of rules engines and technologies to implement these validations, and settled on expressing each rule in SQL. The team chose SQL for its expressiveness, speed, familiarity of both the development and business teams, and for not restricting other development choices. The shared, well-understood language shaved off significant startup cost for everyone involved and will simplify future maintenance.
