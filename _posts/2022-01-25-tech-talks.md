@@ -18,7 +18,7 @@ image_alt: "An older model computer whose screen reads 'Building Trust With Tech
 Special thanks to Jessica Dussault for this image!
 {: .font-alt-xs }
 
-## An unlevel playing field
+## An un-level playing field
 
 In June of 2021, 18F embarked on a new kind of partnership with the Office of Head Start (OHS). Several 18F teams had successfully worked across OHS since August 2019, and their work surfaced common issues shared across the agency. In an effort to tackle their systemic issues in a more comprehensive way, we consolidated three different projects into one. 
 
