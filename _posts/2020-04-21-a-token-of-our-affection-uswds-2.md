@@ -26,7 +26,7 @@ USWDS provides variables, scss, and structure for custom themes that lets teams 
 The themes are modified by updating the variables in [Sass (Syntactically Awesome Style Sheets)](https://en.wikipedia.org/wiki/Sass_(stylesheet_language))
 `dist/scss/theme` folder of the USWDS
 [project](https://designsystem.digital.gov/documentation/developers/#download).
-To update the theme, you’ll need a build system that recompiles your CSS. We used this built-in capability with Jekyll running on Federalist.
+To update the theme, you’ll need a build system that re-compiles your CSS. We used this built-in capability with Jekyll running on Federalist.
 For more on how the themes work, take [a look at the USWDS documentation](https://designsystem.digital.gov/documentation/developers/#customization-theming-and-tokens).
 The USWDS SCSS files are broken out by area including color, components,
 spacing, typography, and utilities. Since our theme included cloud.gov
