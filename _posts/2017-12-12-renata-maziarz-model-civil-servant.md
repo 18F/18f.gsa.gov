@@ -7,6 +7,7 @@ tags:
 - data act
 - treasury
 excerpt: "In the course of our engagements, we’ve had many amazing partners who have been practicing similar innovative techniques long before 18F existed, but usually in isolation. Today, we’re highlighting one of those amazing partners: Renata Maziarz, at the Bureau of Fiscal Service in the Department of the Treasury."
+cSpell: ignore Renata, Maziarz
 ---
 <figure>
 	<img src="{{site.baseurl}}/assets/blog/data-act-implementation/renata.jpg" alt="Two women smiling, standing side by side. Woman on the right is holding a certificate.">

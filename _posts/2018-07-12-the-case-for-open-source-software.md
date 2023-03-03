@@ -8,6 +8,7 @@ tags:
 - open government
 excerpt: "Software is everywhere at Lawrence Livermore National Laboratory. Much of their software portfolio is open source. They began releasing software in the 1990s — long before the Federal Source Code Policy required government institutions to make their code available to each other and to release at least 20 percent to the public."
 image: /assets/blog/llnl/llnl-software-repo.png
+cSpell: ignore Hendrickson, Bristow, Spack, Springmeyer, Neely, Exascale
 ---
 
 *Editors note: This is a guest post by Ian Lee. Ian is a computer engineer committed to improving Lawrence Livermore National Laboratory’s engagement with the open source software community.*
