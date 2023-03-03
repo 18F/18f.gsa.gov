@@ -10,6 +10,7 @@ tags:
 - convincing stakeholders
 excerpt: "As of September, GSA is running its own recruiting tool for moderated design research. In this post, we would like to share four key lessons we learned while building this tool, including the ways in which software development can serve as a starting point for broader conversations about information practice, privacy, and security."
 image: /assets/blog/user-interview/four-lessons-hero.jpg
+cSpell: ignore Speidel, Jeremia, Kimelman, Anahita, Stapleton, Schrider
 ---
 
 In November 2016, design researchers at GSA discovered that one of the tools we used to recruit folks for our moderated design research ultimately wouldn’t comply with the security needs of our organization. This made a few of us wonder: _What would it take for GSA to design and operate its own recruiting service, taking compliance into account from the outset?_
