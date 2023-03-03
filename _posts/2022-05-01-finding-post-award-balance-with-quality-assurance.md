@@ -109,4 +109,4 @@ Who enforces the QASP? You do, and you’ll be good at it. Ideally, you have fam
 
 Please see the [The 18F De-risking Guide](https://derisking-guide.18f.gov/federal-field-guide/doing-the-work/#monitor-conformance-with-the-qasp-at-the-end-of-every-sprint) for more information about the quality assurance process, as well as a [sample QASP](https://derisking-guide.18f.gov/qasp/).
 
-_Thank you to Alex Bielen, Andrew Dunkman, Laura Gerhardt, Mark Hopson, and Matt Jadud for their insight and guidance in writing this blogpost._
+_Thank you to Alex Bielen, Andrew Dunkman, Laura Gerhardt, Mark Hopson, and Matt Jadud for their insight and guidance in writing this blog post._
