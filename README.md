@@ -53,7 +53,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 *To try this out on MacOS:*
 
 1. Install Docker via the GSA Self Service and make sure Docker is running
-2. Open a termninal window and navigate into your project folder `cd`.
+2. Open a terminal window and navigate into your project folder `cd`.
 3. Run `docker-compose build` to build the docker image and its dependencies.
 4. Run `docker-compose up`.
    **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**.
