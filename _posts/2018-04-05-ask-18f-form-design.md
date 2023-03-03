@@ -57,7 +57,7 @@ Here is an example of a form that applies principles like text alignment, groupi
 #### Helpful links and examples:
 - [Designing UX: forms](https://www.uxmatters.com/mt/archives/2017/05/designing-ux-forms.php)
 - [Designing more efficient forms: assistance and validation](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d)
-- [Plainlanguage.gov](https://www.plainlanguage.gov/)
+- <https://www.plainlanguage.gov>
 - [FOIA’s request form](https://www.foia.gov/request/agency-component/25d63aa1-021a-4ff1-8ece-43fdea022601/#main) (based on [USWDS](https://designsystem.digital.gov/components/form-templates/), visual design by 18F’s Aviva Oskow): 
 - [A11y](https://a11yproject.com/)
 - [10 Best Practices for Designing User-Friendly Forms](https://www.uxmatters.com/mt/archives/2017/05/designing-ux-forms.php)
