@@ -46,7 +46,7 @@ of rows multiplied, and the number of columns increased, making it more
 and more difficult to manage. Our last spreadsheet time tracker had 55
 line items and over 60 employees, and it was clear this process would
 not scale. Our operations team and product leads had the unenviable task
-of ensuring people didn’t accidently type in the wrong cell. Once the
+of ensuring people didn’t accidentally type in the wrong cell. Once the
 timesheet was completed, they then had to spend even more time
 converting the spreadsheet into account statements that we could send to
 our partners. While this approach worked well when we were a small group
