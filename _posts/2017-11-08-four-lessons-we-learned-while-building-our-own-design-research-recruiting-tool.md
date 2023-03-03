@@ -120,7 +120,7 @@ Finally, in the spirit of proactive customer service, it feels fitting to end th
 ## Credit where it’s due
 
 We wanted to take a moment to celebrate a few of the agencies, offices, and civil servants that have helped make this work possible:
-- At 18F: **Elizabeth Goodman, Jeremy Canfield, Colin MacArthur** and other research guild leaders for helping us manage expectations and stay focused; **Jeremia Kimelman, Maya Benari,** and **Aidan Feldman** for helping with the initial prototype; and **John Yuda** for encouraging us to stay nimble and not overspecify.
+- At 18F: **Elizabeth Goodman, Jeremy Canfield, Colin MacArthur** and other research guild leaders for helping us manage expectations and stay focused; **Jeremia Kimelman, Maya Benari,** and **Aidan Feldman** for helping with the initial prototype; and **John Yuda** for encouraging us to stay nimble and not over-specify.
 - GSA Chief Privacy Officer **Richard Speidel** for shepherding privacy-related discussions, and Privacy Officer **Jackie Henry** for answering questions and wrangling signatures on the PIA.
 - GSA IT Security Engineer **Tom Eaton** for answering our initial questions about system security boundaries.
 - GSA’s Chief Customer Experience Officer, **Anahita Reilly**, and Designer **Matthew Ford** for discussing customer experience design at length.
