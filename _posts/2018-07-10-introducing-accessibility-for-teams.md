@@ -9,6 +9,7 @@ tags:
 - product launch
 excerpt: "The Accessibility Guild in the Technology Transformation Services (TTS) at the U.S. General Services Administration (GSA) set out to understand how people in different roles practice accessibility. We asked designers, developers, and product managers across our organization to share their accessibility practices, from self-testing to asking for help."
 image: /assets/blog/accessibility/accessibility-logo.png
+cSpell: ignore Bristow
 ---
 Accessibility is a crucial part of government product design. First,
 [it's the law](https://www.access-board.gov/the-board/laws/rehabilitation-act-of-1973#508).

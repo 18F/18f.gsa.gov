@@ -11,6 +11,7 @@ tags:
 - acquisition services
 excerpt: "Monolithic procurement — large, complex, multi-year contracts, which are common in government IT procurement — can appear compelling to agencies that use them. The Technology Transformation Services (TTS) is a strong advocate for an alternative approach known as modular contracting (aka modular procurement)."
 image:
+cSpell: ignore Baccigalupi, Cohn
 ---
 
 There's a scene in the classic movie "The Wizard of Oz" that has become synonymous with the difference between perception and reality.
