@@ -11,6 +11,7 @@ tags:
 excerpt: "Transitioning to agile development doesn’t need to be a big, sweeping,
 organizational change. Here are some tips to make it more approachable and less scary by introducing it in
 small chunks."
+cSpell: ignore Gribben
 ---
 
 *Note: This is the second post in the series [Managing custom
