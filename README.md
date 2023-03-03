@@ -83,7 +83,7 @@ Per this, there are generally two main scss files:
 
 ### Adding testimonials
 
-Testimonials can be added as a compontent as long as an agency logo is place in the `assets/img/agencies` directory.
+Testimonials can be added as a component as long as an agency logo is place in the `assets/img/agencies` directory.
 
 ### Images
 
