@@ -20,7 +20,7 @@ Attribute | Type | What it does
 `lead` | String | _(optional)_ Large white text that renders on the top blue banner
 `banner_cta` | Boolean | _(optional)_ Set to `false` by default. Generates a light blue call to action banner when set to `true`.
 `subnav_items` | Object | _(optional)_ Navigation items object that contains a list of subnavigation items that contain a `permalink` and `text`. Renders a [sidenav](https://designsystem.digital.gov/components/sidenav/) on the left side of the page.
-`subnav_title` | String| _(optional)_ Set if you want the subnav title or breadcumb text to differ from the page `title`.
+`subnav_title` | String| _(optional)_ Set if you want the subnav title or breadcrumb text to differ from the page `title`.
 `hero` | Boolean | _(optional)_ Enables a hero image in the banner. Defaults to `true`, so set to `false` to hide the image
 `image` | String | _(optional)_ Path to hero image. This image will also display on blog post preview cards
 `image_alt` | String | _(optional)_ Accessibility text for the image
