@@ -74,7 +74,7 @@ The Open Forest effort explored potential partnerships with other internal gover
 
 What advice does Aaron have for other agencies embarking on a similar agile journey? "Choose a low-risk option to build your pilot. We didn't choose a complex permitting process to start. Starting small mitigates risk as you develop new services, and allows you to identify capability and skill gaps."
 
-![GitHub commit graph showing ongoing techical development work]({{site.baseurl}}/assets/blog/long-term-teams/github-graph.png)
+![GitHub commit graph showing ongoing technical development work]({{site.baseurl}}/assets/blog/long-term-teams/github-graph.png)
 
 This screenshot of development work from the Open Forest GitHub repository shows sustained development over time. The Open Forest site launched in February — so the graph hints at ongoing improvement, iteration, and feature-building post launch!
 
