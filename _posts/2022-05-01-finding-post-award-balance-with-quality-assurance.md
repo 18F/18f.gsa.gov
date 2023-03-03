@@ -48,7 +48,7 @@ As much as possible, QASP deliverables should be objectively measurable by autom
 - Count of security scan findings
 - Whether the application can be automatically deployed or not
 
-Of course, nothing can be fully automated, so there will be some subjective measures. This is true both in support of objective measures and as separate deliverables. Generally, objective and subjective measures work together to provide both qualitatitave and quantitative data, giving you a fuller picture. Some examples of important measures that are still subjective are:
+Of course, nothing can be fully automated, so there will be some subjective measures. This is true both in support of objective measures and as separate deliverables. Generally, objective and subjective measures work together to provide both qualitative and quantitative data, giving you a fuller picture. Some examples of important measures that are still subjective are:
 
 - The team is meaningfully testing their code. Tests are meaningful when they accurately exercise the behavior of the code that is being tested. Tests would fail this measure if they are written in a way that they are guaranteed to pass no matter what the code does.
 - The team is conducting usability testing and user research and results are incorporated into the product.
