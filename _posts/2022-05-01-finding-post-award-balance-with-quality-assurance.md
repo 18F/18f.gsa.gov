@@ -97,7 +97,7 @@ When balancing time versus quality, focusing on the work that's most valuable to
 
 - Match up with product roadmap and prioritization
 - Use plain language to ensure understanding of specialized concepts across the whole team
-- Don’t overfocus on rigid adherence when that’s not helpful
+- Don’t over-focus on rigid adherence when that’s not helpful
 
 For instance, at the beginning of a process, the team will need to build out the continuous integration / continuous deployment (CI/CD) pipeline that is responsible for automated tests and scans. You'll need to select and align on standards, such as the linting rules to be used. As a result, it’s not possible to be fully in compliance with the QASP until that work is complete. For this kickoff stage, feel comfortable postponing aspects of the QASP as long as there are known paths to getting to compliance.
 
