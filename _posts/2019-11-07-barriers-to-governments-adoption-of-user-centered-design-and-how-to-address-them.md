@@ -60,7 +60,7 @@ research can be difficult. One interviewee shared that they were
 constantly asked by their senior managers as to when user research would
 end. The interviewee was met with pushback when they mentioned that
 user-centered design is a continuous and iterative process, rather than
-a one time occurance. Some consider reaching out to their audience as a
+a one time occurrence. Some consider reaching out to their audience as a
 manifestation of their own incompetence: that asking users about their
 needs risks showing that agencies are unaware of those needs.
 
