@@ -16,6 +16,7 @@ integrated eligibility system for their Division of Public
 Assistance. We’re experimenting with a transparent approach so that anyone can see, and
 provide public feedback on, our progress."
 image:
+cSpell: ignore Geselle
 ---
 
 *Randy works here at TTS. Jon Geselle is the Contracts and Procurement Manager at Alaska’s

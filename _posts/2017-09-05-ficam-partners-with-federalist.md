@@ -10,6 +10,7 @@ tags:
 - platforms
 excerpt: "The General Services Administration has developed digital versions of its Federal Identity, Credential and Access Management Roadmap and associated implementation guidance and put them online with the adoption of 18F’s Federalist platform."
 image: 
+cSpell: ignore Sheire
 ---
 
 _Jim Sheire is the director of the Federal Identity, Credential, and Access Management (FICAM) program. Originally published on [GSA's blog](https://gsablogs.gsa.gov/gsablog/2017/08/22/ficam-program-collaborates-with-18f-to-deliver-key-gsa-cyber-security-tools-and-resources/)._ 
