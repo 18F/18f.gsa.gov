@@ -275,7 +275,7 @@ In the private sector, I worked to solve problems that just didn't feel like rea
 <img class="height-card-lg" alt="Selena Juneau-Vogel (she/her) staring confidently at the camera" src="{{ site.baseurl }}/assets/blog/juneau-vogel_selena.jpg">
 
 <div class="testimonial-blockquote">
-I’ve worked in service organizations for my whole career but I assumed the government, especially the federal government, was too monolithic and staid for me to grow or contribute. But when a friend pointed me to an 18F job posting, I was drawn in by the exciting language of human-centered design, open source, and product thinking. I’m so grateful to be in this community of diverse, talented, and driven changemakers who widen the cracks in the monolith to let the light in.
+I’ve worked in service organizations for my whole career but I assumed the government, especially the federal government, was too monolithic and staid for me to grow or contribute. But when a friend pointed me to an 18F job posting, I was drawn in by the exciting language of human-centered design, open source, and product thinking. I’m so grateful to be in this community of diverse, talented, and driven change-makers who widen the cracks in the monolith to let the light in.
 <span>- Selena Juneau-Vogel, Product Manager </span>
 </div>
 
