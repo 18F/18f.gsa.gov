@@ -14,4 +14,4 @@ assignees: ''
 
 As an ___________, I want to ____________ so I can _____________.
 
-## Other considerations and design implementaiton suggestions
+## Other considerations and design implementation suggestions
