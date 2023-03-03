@@ -8,6 +8,7 @@ tags:
 excerpt: "“One kid did not get up from his chair and every time he got a problem right, he did a little dance in his chair and then his mom would celebrate with him.”"
 description: "50 kids swung by 18F to learn how to code. Turns out, some of them already knew how..."
 image: /assets/blog/kids-to-work-day/kids-to-work-note.jpg
+cSpell:ignore codeing
 ---
 
 The 90 or so kids who took part in the General Service Administration’s
