@@ -63,7 +63,7 @@ If there was an error with the build, rebuild using  the  `--no-cache` option li
 
 ## Updating content
 
-## Upating styling
+## Updating styling
 
 The site relies primarily on USWDS2 styles pulled in via the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme.
 
