@@ -11,6 +11,7 @@ tags:
 - tools you can use
 - technical guides
 excerpt: "Often when developing open source software, and especially software that relies on outside services, you’ll find that you have to manage sensitive information. While there are a large number of things that can be considered sensitive, open source developers often deal with sensitive items such as API tokens, passwords, and private keys that are required for the system to function. Here's how we approached keeping this information safe."
+cSpell: ignore seekret
 ---
 
 Often when developing open source software, and especially software that relies on outside services, you’ll find that you have to manage sensitive information. While there are a large number of things that can be considered sensitive, open source developers often deal with sensitive items such as API tokens, passwords, and private keys that are required for the system to function. In addition, there may be other things to consider private, especially when dealing with infrastructure as code, such as IP addresses.
@@ -33,7 +34,7 @@ We started our research with a set of requirements that would be ideal to meet o
 - Easily tested
 - Open source
 
-After an evaluation period with several tools, we decided to go with [git-seekret]. [git-seekret] is a cross-platform, open source, [Golang] application through a pre-commit [git hook], that can inspect the files that are staged for the commit and if there is anything found in either the files or the commit message that matches any of the enabled rules it will prevent that commit from making its way into your repository. It also can scan existing commits and notify you of any sensitive information that has already made its way into your repository.
+After an evaluation period with several tools, we decided to go with `git-seekret`. `git-seekret` is a cross-platform, open source, [Golang] application through a pre-commit [git hook], that can inspect the files that are staged for the commit and if there is anything found in either the files or the commit message that matches any of the enabled rules it will prevent that commit from making its way into your repository. It also can scan existing commits and notify you of any sensitive information that has already made its way into your repository.
 
 ### How does git-seekret work?
 Once installed, git-seekret can be called as a sub-command of git much like `git clone`, or `git branch`. For example, you may want to look at the rules that are installed for you automatically, like so:
