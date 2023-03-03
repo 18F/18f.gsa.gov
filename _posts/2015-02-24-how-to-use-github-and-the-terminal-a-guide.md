@@ -147,7 +147,7 @@ In Terminal, enter the following commands:
 
 This last command will show you a little bit of information about what you're working on right now. Let's take this apart line by line:
 
-* _"On branch staging"_ tells you what branch you are currently working on (remember it's `staging` by default). If you made any changes and commited them, you'd commit them to the `staging` branch.
+* _"On branch staging"_ tells you what branch you are currently working on (remember it's `staging` by default). If you made any changes and committed them, you'd commit them to the `staging` branch.
 * _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin." A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
 * _"Nothing to commit / working directory clean"_ means you're completely up to date and haven't made any changes.
 
