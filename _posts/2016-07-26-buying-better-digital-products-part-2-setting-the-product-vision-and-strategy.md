@@ -40,7 +40,7 @@ right solution. Note that to yield the best results in the workshop
 below, we recommend you have a skilled facilitator lead the session to
 avoid leadership by consensus.
 
-If youre interested in facilitating on your own or want to see how we did it, [here is the presentation used in this inception workshop](https://github.com/18F/digitalaccelerator/blob/18f-pages/assets/workshop-day-two.pdf).
+If you're interested in facilitating on your own or want to see how we did it, [here is the presentation used in this inception workshop](https://github.com/18F/digitalaccelerator/blob/18f-pages/assets/workshop-day-two.pdf).
 
 *“The vision should communicate the essence of the future product in a
 concise manner and describe a shared goal that provides direction but is
