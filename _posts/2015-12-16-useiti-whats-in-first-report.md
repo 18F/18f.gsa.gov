@@ -86,7 +86,7 @@ context. This lets anybody, regardless of how well they already
 understand the industry, leave the site more informed than when they
 entered.
 
-> We recognise that a public understanding of government revenues and  expenditure over time could help public debate and inform choice of appropriate and realistic options for sustainable development. – The EITI Principles
+> We recognize that a public understanding of government revenues and  expenditure over time could help public debate and inform choice of appropriate and realistic options for sustainable development. – The EITI Principles
 
 Informing public debate is a [key goal of the global Extractives
 Industry Transparency Initiative](https://eiti.org/eiti). The bulk of
