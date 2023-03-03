@@ -2,7 +2,15 @@
     "version": "0.2",
     "language": "en",
     "words": [
+        "DOJ's",
         "FOSS",
+        "IAPDs",
+        "MMIS",
+        "roadmap",
+        "roadmaps",
+        "Slackbot",
+        "USGS",
+        "USKPA",
         "USWDS"
     ],
     "ignoreWords": [
@@ -59,7 +67,7 @@
             "name": "Frontmatter",
             "pattern": "/^(-{3}|[+]{3})$[\\s\\S]*?^\\1$/gm",
             "description": "Reference: https://github.com/streetsidesoftware/cspell/discussions/3456"
-          }
+        }
     ],
     "ignoreRegExpList": [
         "Markdown links",
