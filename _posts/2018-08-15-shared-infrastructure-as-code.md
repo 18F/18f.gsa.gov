@@ -28,7 +28,7 @@ through pull requests rather than tickets brought turnaround time down from mult
 
 ## What’s DNS?
 
-TTS manages DNS for a number of domains. When you visit somewebsite.gov,
+TTS manages DNS for a number of domains. When you visit `somewebsite.gov`,
 DNS tells your browser which server to query for the website. Think of
 DNS like a phone book for the internet, mapping names to numbers (in
 this case, hostnames to IP addresses). As an example, the
