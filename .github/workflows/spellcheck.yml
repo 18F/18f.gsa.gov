@@ -1,0 +1,23 @@
+name: Documentation Checks
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  spellcheck:
+    name: "Docs: Spellcheck"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Check out the code
+      - uses: actions/setup-node@v1
+        name: Setup node
+        with:
+          node-version: "18"
+      - name: Install cSpell
+        run: npm install -g cspell
+      - name: Run cSpell
+        run: cspell --config ./cSpell.json "**/*.md" --no-progress # Update for path to the markdown files
