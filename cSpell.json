@@ -11,6 +11,7 @@
         "CFPB",
         "CMCS",
         "CODEOWNERS",
+        "Componentized",
         "COTR",
         "DOJ's",
         "duplicative",
@@ -21,7 +22,9 @@
         "FOSS",
         "FPRS",
         "Frontmatter",
+        "geosciences",
         "HITECH",
+        "hydrographs",
         "IAPDs",
         "Inclusivity",
         "ISSO",
@@ -29,6 +32,7 @@
         "NAVAIR",
         "NOAA",
         "ONRR",
+        "Operationalized",
         "QASP",
         "roadmap",
         "roadmaps",
@@ -55,7 +59,8 @@
         "USGS",
         "USKPA",
         "USWDS",
-        "watercooler"
+        "watercooler",
+        "workstreams"
     ],
     "ignoreWords": [
         "amet",
