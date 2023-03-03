@@ -71,7 +71,7 @@ state officers compared to the existing document-based process.
 As a pilot, the benefits of eAPD are still being realized as the
 application is built out and eventually rolled out to all states and
 territories. Even at the pilot stage, though, state officers are already
-making better judgements about their investments because they’ve had
+making better judgments about their investments because they’ve had
 first-hand experience developing software. This means CMCS is making
 more funding decisions which work with, rather than against, good
 practice to improve outcomes for states and the public.
