@@ -43,6 +43,7 @@
         "signoff",
         "Skillsharing",
         "Slackbot",
+        "Speakerdeck",
         "standups",
         "STTR",
         "TANF",
@@ -89,7 +90,8 @@
         "Gerhardt",
         "Hopson",
         "Jadud",
-        "Jacklynn Pham",
+        "Jacklynn",
+        "Pham",
         "Malaika",
         "Strenio",
         "Braxton",
@@ -98,7 +100,14 @@
         "Korenfeld",
         "Lindpaintner",
         "Brouilette",
-        "Dussault"        
+        "Dussault",
+        "Strothman",
+        "Koljonen",
+        "Choyce",
+        "Cata",
+        "Hartsock",
+        "Battaglia",
+        "Rago"        
     ],
     "patterns": [
         {
