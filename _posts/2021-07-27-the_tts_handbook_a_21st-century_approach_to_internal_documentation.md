@@ -56,7 +56,7 @@ Tethered to unclear ownership is an issue that crops up in the review process: r
 
 **Solution:** To address the reviewer ambiguity, we made use of [GitHub’s “code owners” feature](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners). Our ownership assignments, from a content and code perspective, are maintained in a [CODEOWNERS file](https://github.com/18F/handbook/blob/main/CODEOWNERS). In this file, GitHub teams are assigned as “owners” of certain folders. Later, they are automatically added as reviewers to pull requests affecting their content.
 
-![By writing a CODOWNERS file, reviewers are automatically added to pull requests]({{ site.baseurl }}/assets/blog/code-owners-file.png "CODOWNERS file")
+![By writing a CODEOWNERS file, reviewers are automatically added to pull requests]({{ site.baseurl }}/assets/blog/code-owners-file.png "CODOWNERS file")
 
 ### Unclear governance
 
