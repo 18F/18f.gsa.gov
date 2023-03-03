@@ -10,7 +10,7 @@ This repository houses the 18F website. We use the [U.S. Web Design System](http
 
 18f.gsa.gov extends the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F Brand guidelines](https://pages.18f.gov/brand/) to create a style that is professional, unique, and informative. This relies on the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme to minimize the amount of custom styling and components of the site.
 
-The style guide, located at [18f.gsa.gov/styleguide/](https://18f.gsa.gov/styleguide/) documents the patterns and components used to create this theme.
+The style guide, located at <https://18f.gsa.gov/styleguide> documents the patterns and components used to create this theme.
 
 ## Add a blog post
 
