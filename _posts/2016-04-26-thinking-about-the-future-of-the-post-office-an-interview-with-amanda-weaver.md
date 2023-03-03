@@ -95,7 +95,7 @@ These opportunities would compare with those of certain foreign postal organizat
 
 Here’s a photo of one of our whiteboards, where we track complaints of the RARCers who bike to work everyday.
 
-![A whiteboard with stick figures for every day o fthe week and a chart about the benefits of biking to work.]({{site.baseurl}}/assets/blog/partners-in-government/rarc.jpg)
+![A whiteboard with stick figures for every day of the week and a chart about the benefits of biking to work.]({{site.baseurl}}/assets/blog/partners-in-government/rarc.jpg)
 
 Check out these links ([1](https://www.instagram.com/rootchopper/), [2](https://www.flickr.com/photos/rootchopper/sets/72157662509216092), [3](https://rootchopper.wordpress.com/2015/12/11/the-office-bike-commuting-matrix/)) to see where others have been posted by another RARCer, John Pickett:
 
