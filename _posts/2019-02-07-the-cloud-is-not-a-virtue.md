@@ -27,7 +27,7 @@ cloud.** Recognizing this shortfall, the Federal Chief Information Officer has s
 
 The cloud is not a virtue. Saying you are “in the cloud” is not the
 point. Cloud is really about improving your agency’s ability to adapt to
-changing mission needs by outsourcing common IT infrastructure problems to reliable, mature, secure, commodizided services.
+changing mission needs by outsourcing common IT infrastructure problems to reliable, mature, secure, commoditized services.
 
 ## Outcomes
 
