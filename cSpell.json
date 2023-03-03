@@ -108,6 +108,7 @@
         "ISSO",
         "Jumpstart",
         "kanban",
+        "Kickstarter",
         "Legos",
         "listserv",
         "listservs",
@@ -157,6 +158,10 @@
         "PORO",
         "POROs",
         "proto",
+        "Protosketch",
+        "protosketched",
+        "protosketcher",
+        "protosketches",
         "protosketching",
         "psychometricians",
         "pushback",
@@ -205,7 +210,9 @@
         "telework",
         "templating",
         "themeable",
+        "timebox",
         "timeboxed",
+        "timeboxes",
         "timeframe",
         "timeframes",
         "timesheet",
@@ -237,7 +244,8 @@
         "wirelessly",
         "workstreams",
         "XBRL",
-        "Xpress"
+        "Xpress",
+        "yada"
     ],
     "ignoreWords": [
         "amet",
