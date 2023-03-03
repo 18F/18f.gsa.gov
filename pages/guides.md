@@ -43,7 +43,7 @@ banner_cta: true
       <a class="graphic-list-link" href="https://derisking-guide.18f.gov/">
         <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
         <p class="link-arrow-right">
-          Derisking
+          De-risking
           {% include svg/icons/arrow-right.svg %}
         </p>
       </a>
