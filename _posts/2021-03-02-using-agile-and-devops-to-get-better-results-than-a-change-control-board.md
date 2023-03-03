@@ -119,9 +119,9 @@ DevOps is aimed at reducing the risks of system downtime and failures when you d
 
 Finally, testing and monitoring makes sure that problems are caught and fixed early in the development process. It also helps ensure software is functional, business requirements are met, and all parties are getting the results that they agreed to. There are many kinds of testing that you can add to your automated deployments—application functionality, security, and accessibility are good places to start. 
 
-## DevOps on the new civilrights.justice.gov site
+## DevOps on the new <https://civilrights.justice.gov> site
 
-Our overall goal was reduce risk while allowing for faster updates to the DOJ’s civil rights portal. To do so, we wanted to make sure that the team has small, frequent deploys while ensuring proper quality checks. Before we deploy any updates to the site, code goes  through three human evaluations and at least three rounds of automated testing.
+Our overall goal was reduce risk while allowing for faster updates to the DOJ's civil rights portal. To do so, we wanted to make sure that the team has small, frequent deploys while ensuring proper quality checks. Before we deploy any updates to the site, code goes  through three human evaluations and at least three rounds of automated testing.
 
 The DOJ-18F team currently has automated tests for:
 
