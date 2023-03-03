@@ -4,6 +4,7 @@
     "words": [
         "ACIO",
         "ACOR",
+        "CFPB",
         "CMCS",
         "COTR",
         "DOJ's",
@@ -17,9 +18,11 @@
         "MMIS",
         "NAVAIR",
         "ONRR",
+        "QASP",
         "roadmap",
         "roadmaps",
         "Slackbot",
+        "USCIS",
         "USFS",
         "USGS",
         "USKPA",
@@ -96,5 +99,6 @@
         "Liquid Syntax",
         "Frontmatter"
     ],
-    "ignorePaths": []
+    "ignorePaths": [
+    ]
 }
