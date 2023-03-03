@@ -10,6 +10,7 @@
         "DOJ's",
         "EITI",
         "eventmachine",
+        "exfiltrate",
         "FISMA",
         "FOSS",
         "FPRS",
@@ -23,6 +24,7 @@
         "QASP",
         "roadmap",
         "roadmaps",
+        "SaltAire",
         "SBIR",
         "Slackbot",
         "STTR",
@@ -97,6 +99,10 @@
             "pattern": "\\{[%] (.*) [%]\\}"
         },
         {
+            "name": "Liquid Syntax 2",
+            "pattern": "\\{\\{ (.*) \\}\\}"
+        },
+        {
             "name": "Frontmatter",
             "pattern": "/^(-{3}|[+]{3})$[\\s\\S]*?^\\1$/gm",
             "description": "Reference: https://github.com/streetsidesoftware/cspell/discussions/3456"
@@ -118,7 +124,8 @@
         "HTML Tags",
         "Liquid Syntax",
         "Frontmatter",
-        "Liquid Syntax With Dashes"
+        "Liquid Syntax With Dashes",
+        "Liquid Syntax 2"
     ],
     "ignorePaths": [
         "_posts/2021-09-16-a_day_in_the_life_-_ingeniero_en_18f.md"
