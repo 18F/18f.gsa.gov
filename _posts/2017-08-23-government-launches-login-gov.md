@@ -13,6 +13,7 @@ tags:
 - product launch
 excerpt: "Today, the U.S. Digital Service and 18F are excited to announce the launch of login.gov, a single sign-on solution for government websites that will enable citizens to access public services across agencies with the same username and password."
 image: /assets/blog/login-gov/login-gov-launch.png
+cSpell: ignore Minton
 ---
 
 _Joel Minton, a member of the U.S. Digital Service, is working with GSA’s Technology Transformation Service as the director of login.gov. Tom Mills is the Chief Technology Architect at U.S. Customs and Border Protection._
