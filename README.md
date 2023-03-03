@@ -35,15 +35,15 @@ To reduce the build time, instead of `./serve` you can run `./serve-fast`. This 
 
 You should be able to see the site at: [http://127.0.0.1:4000/site/](http://127.0.0.1:4000/site/)
 
-> **NOTE:** If you are using an M-series Mac (M1, M2, etc.), you may need to
-> configure bundler to use special build flags for eventmachine. To do that, run:
->
-> ```
-> bundle config --local build.eventmachine "--with-ldflags=\"-Wl,-undefined,dynamic_lookup\""
-> ```
->
-> You may also have to run the `bundle install` step 2 or 3 times for everything
-> to finish building.
+**NOTE:** If you are using an M-series Mac (M1, M2, etc.), you may need to
+configure bundler to use special build flags for eventmachine. To do that, run:
+
+```
+bundle config --local build.eventmachine "--with-ldflags=\"-Wl,-undefined,dynamic_lookup\""
+```
+
+You may also have to run the `bundle install` step 2 or 3 times for everything
+to finish building.
 
 ### Local development using docker
 
