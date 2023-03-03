@@ -66,7 +66,7 @@ We use [CircleCI](https://circleci.com/) to run HTML Code Sniffer.
 
 CSS methodology is inherited from the WDS, which inherits mostly from the [18f front end guide](https://pages.18f.gov/frontend/css-coding-styleguide/architecture/).
 
-- Use [18F modifed BEM naming convention](https://pages.18f.gov/frontend/css-coding-styleguide/naming/)
+- Use [18F modified BEM naming convention](https://pages.18f.gov/frontend/css-coding-styleguide/naming/)
 - Componentized CSS: start with tag rules and only becomes more specific as necessary, using component classes
 
 The 18F-site team will update the WDS library when it publishes a change required by the site; otherwise it will update bi-monthly (see [issue #1877](https://github.com/18F/18f.gsa.gov/issues/1877))
