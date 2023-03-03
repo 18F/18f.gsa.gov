@@ -48,7 +48,7 @@ room or even the same time zone.
   members to meet in person. Our teams working on the [Federal Front
   Door](https://18f.gsa.gov/2016/02/29/informing-the-future-of-the-federal-front-door/)
   and the Diversity and Inclusion Working Group did extensive research
-  in different cities as well as remotely. When it came time to analyse
+  in different cities as well as remotely. When it came time to analyze
   and synthesize the findings, each team intentionally met in person for
   a few days.
 
