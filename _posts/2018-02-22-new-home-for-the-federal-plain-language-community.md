@@ -18,17 +18,17 @@ The Plain Language Action and Information Network (PLAIN) is one of the longest-
 
 <figure>
   <img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/plainlang/plainlanggov.png" alt="Screenshot of the plainlanguage.gov home page">
-  <figcaption>The new plainlanguage.gov home page.</figcaption>
+  <figcaption>The new <plainlanguage.gov> home page.</figcaption>
 </figure>
 
 
-As a volunteer-run organization, their old site was trapped in a legacy system that was hard for them to access and maintain. After an initial pitch, we were able to secure an incremental investment from the Technology Transformation Services’ 10x program, which supports experiments and early-stage investigations. We set out to explore how DigitalGov and TTS can support government-wide communities of practice. A small team from 18F worked closely with DigitalGov and PLAIN to redesign [plainlanguage.gov](https://www.plainlanguage.gov/), making it more modern and usable. We used existing tools including [Federalist](https://federalist.18f.gov/) and the [U.S. Web Design System](https://designsystem.digital.gov/) to help complete the project in less than six months and make it easier to maintain over the long run.
+As a volunteer-run organization, their old site was trapped in a legacy system that was hard for them to access and maintain. After an initial pitch, we were able to secure an incremental investment from the Technology Transformation Services’ 10x program, which supports experiments and early-stage investigations. We set out to explore how DigitalGov and TTS can support government-wide communities of practice. A small team from 18F worked closely with DigitalGov and PLAIN to redesign <https://www.plainlanguage.gov>, making it more modern and usable. We used existing tools including [Federalist](https://federalist.18f.gov/) and the [U.S. Web Design System](https://designsystem.digital.gov/) to help complete the project in less than six months and make it easier to maintain over the long run.
 
-Recently, we talked with Katherine Spivey, co-chair of PLAIN and coordinator of the [plain language program at GSA](https://www.gsa.gov/governmentwide-initiatives/plain-language), and Miriam Vincent, PLAIN’s web manager and an attorney at the [Office of the Federal Register](https://www.ofr.gov/), about the redesign of plainlanguage.gov and how volunteers can get involved. 
+Recently, we talked with Katherine Spivey, co-chair of PLAIN and coordinator of the [plain language program at GSA](https://www.gsa.gov/governmentwide-initiatives/plain-language), and Miriam Vincent, PLAIN’s web manager and an attorney at the [Office of the Federal Register](https://www.ofr.gov/), about the redesign of <plainlanguage.gov> and how volunteers can get involved. 
 
 ## Interview
 
-**Before we talk about the new plainlanguage.gov, can you tell us a little bit about PLAIN, and what you do on a daily basis?**
+**Before we talk about the new <plainlanguage.gov>, can you tell us a little bit about PLAIN, and what you do on a daily basis?**
 
 **Katherine Spivey:** We communicate the importance of plain language, how it can work, and how we do things. On a day-to-day basis, we respond to emails that are sometimes outside of what we do, and other times, folks are looking for resources or requesting training. We also maintain the plain language community and are working on getting more volunteers.
 
@@ -88,7 +88,7 @@ As Katherine said, there are some things on the site that I use all the time, an
 
 **Was there anything that you thought would be a problem that turned out to be not so bad?**
 
-**Miriam:** The fact that you did all of the conversion [to Markdown and HTML], was a huge gift to us and a great surprise. Until this website and this iteration of plainlanguage.gov, all of the coding and design, everything, was done by plain language volunteers. And I’ve basically been working on the website since 2000. So the fact that I didn’t actually have to do it — I just said, “Here, I’ll download it for you,” and you just did it — that was wonderful.
+**Miriam:** The fact that you did all of the conversion [to Markdown and HTML], was a huge gift to us and a great surprise. Until this website and this iteration of <plainlanguage.gov>, all of the coding and design, everything, was done by plain language volunteers. And I’ve basically been working on the website since 2000. So the fact that I didn’t actually have to do it — I just said, “Here, I’ll download it for you,” and you just did it — that was wonderful.
 
 **Katherine:** That was fantastic. I haven’t dealt with domain names, and the fact that it happened pretty magically was super cool. It just happened! Hot diggity!
 
