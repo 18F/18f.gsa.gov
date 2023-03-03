@@ -132,7 +132,7 @@ and abilities.
     <img src="{{site.baseurl}}/assets/blog/uswds2-launch/lead-water-before-after.png" alt="A screenshot from plainlanguage.gov showing how language can be made clearer. Language before:
     Infants and children who drink water containing lead in excess of the action level could experience delays in their physical or mental development. Children could show slight deficits in attention span and learning abilities. Adults who drink this water over many years could develop kidney problems or high blood pressure. Language after: Lead in drinking water can make you sick. Here are some possible health effects of high lead levels in your drinking water: Children:Delayed growth, Learning disabilities. Short attention span. Adults: Kidney problems, High blood pressure."/>
   </a>
-  <figcaption>Before and after content from plainlanguage.gov about the effects of lead in drinking water.</figcaption>
+  <figcaption>Before and after content from <plainlanguage.gov> about the effects of lead in drinking water.</figcaption>
 </figure>
 
 Easy-to-read language lowers a person’s [cognitive load](https://en.wikipedia.org/wiki/Cognitive_load). That means
