@@ -116,7 +116,7 @@ restructuring the work into smaller chunks to avoid risk and complexity. 18F’s
 ### Give users a choice
 
 A centralized service offering will be better received if users feel
-like they have a choice. Mandating that users use specific tools is more likely to lead to users developing work arounds and using shadow IT. You can develop and maintain trust by making it voluntary and low-to-no cost to use your centralized offering. The competition with other tools will also help you focus on delivering more value to the users than other options.
+like they have a choice. Mandating that users use specific tools is more likely to lead to users developing workarounds and using shadow IT. You can develop and maintain trust by making it voluntary and low-to-no cost to use your centralized offering. The competition with other tools will also help you focus on delivering more value to the users than other options.
 
 Keep track of which tools people are using and identify which
 tools/services are most popular among users. This practice will help you understand how your users are currently solving problems. It’s also a fairly lightweight way to allow users to drive IT investments.
