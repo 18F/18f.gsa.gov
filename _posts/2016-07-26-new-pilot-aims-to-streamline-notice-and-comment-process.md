@@ -54,6 +54,6 @@ While this comment feature is only live for this EPA regulation, we’re interes
 
 Also, the eRegulations platform is [open source](https://eregs.github.io/) so anyone can spin up their own instance or fork and build new features. We believe this platform has the potential to transform the state of rules and regulations across the federal government. We’re excited to work with our amazing partners at the EPA and to learn from the first iteration of this feature so we can continue to improve the eRegulations platform with lessons from real, live users.
 
-If you’d like to contribute to the eRegulations project or explore how your agency can work with us or adapt it for your own use, you can find more information at [eregs.github.io](https://eregs.github.io/).
+If you’d like to contribute to the eRegulations project or explore how your agency can work with us or adapt it for your own use, you can find more information at <https://eregs.github.io>.
 
 _Special thanks to Bill Noggle and the EPA eManifest team for their tremendous expertise, support, and feedback on the product development process and Valerie Brecher-Kovacevic and the Regulations.gov team for their support with the API that makes this pilot project possible._
