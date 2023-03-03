@@ -14,7 +14,7 @@ The style guide, located at [18f.gsa.gov/styleguide/](https://18f.gsa.gov/styleg
 
 ## Add a blog post
 
-See the [blogpost example file](examples/blog-post.md) for a template and instructions on how to create a new post.
+See the [blog post example file](examples/blog-post.md) for a template and instructions on how to create a new post.
 
 ## Local development
 
