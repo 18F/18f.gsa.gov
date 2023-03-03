@@ -5,7 +5,12 @@
         "FOSS",
         "USWDS"
     ],
-    "ignoreWords": [],
+    "ignoreWords": [
+        "amet",
+        "cupim",
+        "Doner",
+        "tock"
+    ],
     "patterns": [
         {
             "name": "Markdown links",
