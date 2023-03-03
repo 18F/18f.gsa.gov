@@ -58,7 +58,7 @@ You don’t need to totally redesign your existing site to [get started with USW
 Design and development are all about decision making. Making decisions and communicating their details with the team takes time and has a cost, both in money and energy. [USWDS 2.0 design tokens](https://v2.designsystem.digital.gov/design-tokens/) are the
 common building blocks of visual design decisions (like color,
 typescale, and spacing units) that all USWDS projects share. Using a
-design token means that designers and developers spend less time fussing over pixels, eyedroppering hex codes, and redlining, and more time solving problems.
+design token means that designers and developers spend less time fussing over pixels, eye-droppering hex codes, and redlining, and more time solving problems.
 
 -   Design tokens are a common language between designers and developers
 -   Creates simple standardized palettes
