@@ -11,6 +11,7 @@ tags:
 excerpt: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
 description: "Some months ago, 18F started playing with kanban as a way to manage and improve our processes. For the 18F Agreements team, adopting kanban has caused a dramatic positive change in how they manage their work."
 image:
+cSPell: ignore rogress, Bailes, Valdiviezo
 ---
 
 Some months ago, 18F started playing with kanban as a way to manage and improve our processes. (It turns out that “DO ALL THE THINGS!” was maybe not the best motto.) Kanban is a methodology that helps you to remove inefficiencies and reduce waste by visualizing workflow. It’s also used to balance capacity and demand by implementing a “pull system” and limiting the amount of work in progress. You don’t have to change anything when you first start to use it, you just put up a board, represent your current work process, put in some work limits, and start tracking what you’re doing and learning from it.
