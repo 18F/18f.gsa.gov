@@ -20,4 +20,4 @@ jobs:
       - name: Install cSpell
         run: npm install -g cspell
       - name: Run cSpell
-        run: cspell --config ./cSpell.json "**/*.md" --no-progress # Update for path to the markdown files
+        run: cspell --config ./cSpell.json "**/*.md" --no-progress
