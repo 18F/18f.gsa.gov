@@ -33,7 +33,7 @@ In this document, we’ll explain each idea and how it will influence our work t
 
 # Methodologies
 
-## <a name="letting-users-guide-our-work"></a>Letting users guide our work
+## Letting users guide our work
 
 For your project, the most important people are those who’ll use the product or service that we build together. They might be part of the public interacting with your agency for the first time, experienced outside stakeholders, or staff inside your organization. These people have goals to achieve and obstacles in their way. Together, we’ll ensure that the design, development, and implementation of your solution helps lower those obstacles and allows your users to be successful.
 
@@ -41,7 +41,7 @@ For your project, the most important people are those who’ll use the product o
 
 We'll interview and observe users interacting with your service or product and use that information to help guide the team’s work. Later, our joint team will put real prototypes in the hands of users every couple weeks and interview them about whether the product is meeting their needs. This frequent testing with real users will help ensure that the product we build together is intuitive for them to use and solves the right problems. You know your program and mission best, and you’ll help identify and recruit users for the joint team to interview. 
 
-## <a name="working-in-an-agile-way"></a> Working in an agile way
+## Working in an agile way
 
 We develop software using [agile](https://pages.18f.gov/agile/) and lean methodologies. These approaches are the norm in the private sector, and they differ considerably from basing work on requirement documents. Instead of determining all the necessary features up front, we’ll build the product in stages, testing along the way to ensure that we’re meeting user needs and responding quickly to any changes in requirements, goals, policy, or outside factors.
 
@@ -54,7 +54,7 @@ Every couple weeks, your team will work with the 18F team to generate a list of 
 At each stage, we’ll jointly define metrics that we’ll use to test whether our work is supporting your goals. This approach allows our teams to stay both on target and flexible. The tradeoff is that the confidence we’ll gain is limited to work in the near future, and we won’t be able to say exactly what features will be in your solution by a certain date. But by regularly revisiting our desired outcomes and prioritizing the needs of your users, you’ll know that we’re building the most important functionality at every phase of the project. 
 
 
-## <a name="building-in-the-open"></a>Building in the open
+## Building in the open
 
 One of 18F’s core principles is to make our work available to the public whenever possible, magnifying the value of our joint efforts. We do this in two ways: 
 
@@ -75,7 +75,7 @@ Of course, we’ll work together to ensure that any contracting, national securi
 
 # Tactics
 
-## Understanding your problem first<a name="understanding-your-problem-first"></a>
+## Understanding your problem first
 
 The first thing we’ll do together is gain a shared understanding of your problem so that we can translate it into information that a technical team can use to build or buy a solution. 
 
@@ -85,7 +85,7 @@ Most likely, our work together will start with a “Path Analysis.” A Path Ana
 
 Other partners might take the time to do this, too. But we carve out this initial stage, rather than lumping it into the whole project, so that at the end of the phase, you have excellent documentation to build or buy an effective solution with any partner — whether that’s 18F or a private vendor. Indeed, if we determine we aren’t the best partner to meet your needs, we can help you get set up with another office within the Technology Transformation Services or help you hire a private vendor.
 
-## <a name="partnering-with-an-empowered-product-owner"></a>Partnering with an empowered product owner
+## Partnering with an empowered product owner
 
 Achieving success depends on building a close working relationship between 18F and your team. To make that happen, we’ll work with an empowered [product owner](https://playbook.cio.gov/#play6) from your agency. An empowered product owner is someone who understands your organization, the problem we’re solving, and can advocate for the product we ultimately build together. They’ll be responsible for establishing and carrying the long-term vision of the project, implementing a strategy, and guiding its progress, as informed by user research. This person will work closely with the 18F team as a subject matter expert on your agency and help us jointly navigate the complexities of interoffice and stakeholder relationships.
 
