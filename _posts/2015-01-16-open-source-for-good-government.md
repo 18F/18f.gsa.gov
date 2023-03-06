@@ -18,7 +18,7 @@ excerpt: 'Organizations like 18F and the U.K.’s Government Digital Service (GD
 ---
 <img src="{{ site.baseurl }}/assets/blog/join-us/18f_govuk.png" alt="18F and GDS logos">
 
-A common misconception of open source is that it is just a licence for using software. For individuals and organizations involved with open source projects, it is a philosophy of openness and collaboration embedded in the project from idea to launch. Whether it’s designing an interface, or deploying an application, open source is fundamental to everything we do. Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and this commitment to openness and transparency is transforming the delivery of government digital services in both countries.
+A common misconception of open source is that it is just a license for using software. For individuals and organizations involved with open source projects, it is a philosophy of openness and collaboration embedded in the project from idea to launch. Whether it’s designing an interface, or deploying an application, open source is fundamental to everything we do. Organizations like 18F and the U.K.’s Government Digital Service (GDS) fully embrace open source, and this commitment to openness and transparency is transforming the delivery of government digital services in both countries.
 
 GDS [set the standard](https://www.gov.uk/service-manual/making-software/open-standards-and-licensing.html) for this. By implementing open standards for software interoperability, data and document formats, government is:
 
