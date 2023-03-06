@@ -195,7 +195,7 @@ With an open source component, it is at least possible to understand how much co
 
 ### Security of your own code
 
-Make all your code open and examinable from the start. Moreover, it is best to encourage as many people to look at it, because the more people who seriously review the code the more likely a security flaw is to be found. Programmers will code more securely when theircode is in the public's eyefrom the beginning.
+Make all your code open and examinable from the start. Moreover, it is best to encourage as many people to look at it, because the more people who seriously review the code the more likely a security flaw is to be found. Programmers will code more securely when their code is in the public's eye from the beginning.
 
 Code that you write or contract to have written should be open source from the start, because it relieves you of the terrible risk and burden of maintaining the secrecy of the codebase. This means not only that it is published under an open source license as explained in our [open source policy](https://github.com/18F/open-source-policy/blob/master/policy.md), but that it is published in a [modern source code control system](http://ben.balter.com/2014/09/29/our-code-deserves-better/).
 
