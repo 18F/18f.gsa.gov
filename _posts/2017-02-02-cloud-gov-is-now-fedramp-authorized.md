@@ -19,6 +19,7 @@ images:
 - /assets/blog/cloud-gov/intro-diagram.svg
 - /assets/blog/cloud-gov/cloud-gov-chart.svg
 hero: false
+cSpell: ignore Veris
 ---
 
 <figure class="blog-figure-center">

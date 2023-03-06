@@ -10,6 +10,7 @@ tags:
 excerpt: "Cameron Dixon at the Department of Homeland Security writes for 18F: To facilitate secure connections for citizens, immigrants, and other users, the Department of Homeland Security began delivering 'HTTPS Reports' directly to federal agencies. We open-sourced the tool we scan with, in collaboration with our colleagues at 18F."
 image: /assets/blog/pshtt-post/https-report-title.png
 hero: false
+cSpell: ignore Balter
 ---
 
 ![Cover of HTTPS report delivered by DHS to agency security offices.]({{site.baseurl}}/assets/blog/pshtt-post/https-report-title.png)
