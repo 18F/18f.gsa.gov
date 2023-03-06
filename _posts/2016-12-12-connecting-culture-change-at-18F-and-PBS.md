@@ -9,6 +9,7 @@ tags:
 excerpt: "Designing the workplace is one of many services offered by GSA's Public Buildings Service. In Lakewood, Colorado, the team approaches the task as consultants working with agencies to change their space and the culture to go with it."
 image: /assets/blog/denver/union-station.jpg
 image_figcaption: The design of GSA's headquarters in Denver is a good example of what's possible for other agencies. The team works with agencies to find the right design for their space and their culture.
+cSpell: ignore Neujahr, Secor
 ---
 In 2019, the Colorado state office of the Bureau of Land Management (BLM) will move into a new office on the Denver Federal Center campus. The state office has about 150 employees, some of whom have been working in the same place, in Lakewood, Colorado, for more than 33 years — the entire life of the state BLM office. Moving an agency's entire office is a process that requires working with the General Services Administration's Public Buildings Administration (PBS) on many levels. There's the details of the lease, identifying a new building suitable enough for all the employees to move into, and design and construction, either of an entirely new building or renovating an existing space.
 
