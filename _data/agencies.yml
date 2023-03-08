@@ -7,7 +7,7 @@
   logo: /assets/img/logos/agencies/usmc.png
 - name: U.S. Navy
   logo: /assets/img/logos/agencies/us-navy.png
-- name: Center for Medicaid and Medicare Services
+- name: Centers for Medicare and Medicaid Services
   logo: /assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
 - name: Consumer Financial Protection Bureau
   acronym: CFPB
@@ -73,7 +73,7 @@
   logo: /assets/img/logos/agencies/OMB.svg
 - name: Office of Personnel Management
   acronym: OPM
-  logo: /assets/img/logos/agencies/OPM.png
+  logo: /assets/img/logos/agencies/OPM.svg
 - name: Alaska Department of Health and Social Services
   logo: /assets/img/logos/agencies/alaska-dhss.png
 - name: California Child Welfare Digital Services
