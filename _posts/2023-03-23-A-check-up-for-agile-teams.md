@@ -3,12 +3,12 @@ GitHub issue URL:https://github.com/18F/blog-drafts/issues/847
 title: "Am I doing it right? A check up for agile teams"
 date: 2023-03-23
 authors:
-- lindsay
+  - lindsay
 tags:
-- agile
-- best practices
-- how we work
-- modern practices
+  - agile
+  - best practices
+  - how we work
+  - modern practices
 excerpt: "Even on the best teams, things need to be monitored and adjusted. If you are doing this for the first time, it can be even harder. In this article, I share some signals of what success looks like and what to do if you are stuck in one of the many common pitfalls."
 ---
 
