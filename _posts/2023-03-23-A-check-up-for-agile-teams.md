@@ -1,4 +1,4 @@
-GitHub issue URL:
+GitHub issue URL:https://github.com/18F/blog-drafts/issues/847
 ---
 title: "Am I doing it right? A check up for agile teams"
 date: 2023-03-23
