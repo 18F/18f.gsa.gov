@@ -66,7 +66,7 @@ If you have been transitioning to agile but are not seeing increased collaborati
 
 If making changes to your systems scares you, this is a sign you need more automation and more DevOps practices. DevOps, or DevSecOps, are practices to automate creation and deployment of software.
 
-DevOps practices include cross-functional collaboration where people with different specialties are working together to solve problems. Adding automation decreases the amount of staff time and standardizes deployment to make results more predictable, andmore frequent deployments reduce risks when making changes. Finally there is automated and manual testing to ensure quality of application, infrastructure, and security.
+DevOps practices include cross-functional collaboration where people with different specialties are working together to solve problems. Adding automation decreases the amount of staff time and standardizes deployment to make results more predictable, and more frequent deployments reduce risks when making changes. Finally there is automated and manual testing to ensure quality of application, infrastructure, and security.
 
 Source control is a great place to start with DevOps practices. Make sure all your code and configuration is in source control. This means everything from infrastructure set up, to database routines to internal app configuration. Using source control for everything  is the foundation for adding additional automation. If you already have these fundamentals in place, good next steps are managing data migrations and automating deployments.
 
@@ -110,10 +110,10 @@ Here is an [example of an RFP](https://github.com/ustaxcourt/case-management-rfq
 
 This is a sign that you still need to implement some changes to transition away from traditional, waterfall project management. A good place to start is replacing detailed plans with a project roadmap. Culture is a huge component of agile adoption that takes time and practice. A good starting point for culture is focusing on how to make meetings more collaborative. How do you need to change your culture so that people are eager to contribute?
 
-If you feel like something is wrong. Listen to your feelings. Ask yourself why do you feel this way? Are you out of your comfort zone or are there some doubts hanging over you?
+If you feel like something is wrong, listen to your feelings. Ask yourself: why do you feel this way? Are you out of your comfort zone or are there some doubts hanging over you?
 
 If you feel that things are not working, talk to your team constructively, without trying to blame individuals or teams. Talk about why you think things are not working and frame the discussion around what it would take to make sure you meet your end goals.  
 
 ### Change is hard
 
-It is easy to look at a wall of problems and then get discouraged. But, this is not an all or nothing journey. In your projects, think about your transformation in an agile way. Try to find small, meaningful changes that you can make now and use as a foundation for additional changes. It can be good to try and implement change incrementally. By using phased approaches like pilot projects, you can increase your chances of success. Seeing an example of a working project can be an extremely powerful communication tool. It is the best way to win over well meaning people who (for good reasons) are skeptical of new ways of working. If you can find a small team and set them up for a small success, you can set the stage for wide-spread change.
+It is easy to look at a wall of problems and then get discouraged, but this is not an all or nothing journey. In your projects, think about your transformation in an agile way. Try to find small, meaningful changes that you can make now and use as a foundation for additional changes. It can be good to try and implement change incrementally. By using phased approaches like pilot projects, you can increase your chances of success. Seeing an example of a working project can be an extremely powerful communication tool. It is the best way to win over well-meaning people who (for good reasons) are skeptical of new ways of working. If you can find a small team and set them up for a small success, you can set the stage for widespread change.
