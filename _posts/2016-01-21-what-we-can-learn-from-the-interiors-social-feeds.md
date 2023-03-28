@@ -14,6 +14,35 @@ hero: false
 ---
 <blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/_-fx45Au4w/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by U.S. Department of the Interior (@usinterior)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-01-01T00:35:27+00:00">Dec 31, 2015 at 4:35pm PST</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script><br />
+{% raw %}
+<script>
+  (() => {
+    // There's no way to tell Instagram to include a title attribute in the
+    // iframe that their script creates, so we'll just watch for that iframe to
+    // be created and add the title ourselves. On DOM mutations, we'll get an
+    // event containing a list of change records and a reference to the observer
+    const observer = new MutationObserver((records, self) => {
+      // Each record is a single DOM mutation.
+      for(const mutation of records) {
+        // We're watching for an iframe to be added, so we can look at any nodes
+        // that are added. We can ignore any other parts of the mutation record
+        mutation.addedNodes.forEach(node => {
+          if(node.tagName.toUpperCase() === "IFRAME") {
+            // Once we find an iframe, set its title.
+            node.setAttribute("title", "Instagram embed of a photograph by the US Department of the Interior");
+            // And disconnect the mutation observer from the DOM. Seems like a
+            // best practice, but on a static site like this... seems silly. :P
+            self.disconnect();
+          }
+        })
+      }
+    });
+    // Lastly, hook up the observer. We want to watch everything so we don't
+    // have to figure out where in the DOM the iframe will be inserted.
+    observer.observe(document.body, { childList: true, subtree: true });
+  })();
+</script>
+{% endraw %}
 
 We frequently look to other government agencies for inspiration and guidance while building our own projects or thinking about how to communicate their value. One of my favorite projects is the U.S. Department of the Interior’s work on social media. Their [Instagram feed](https://www.instagram.com/usinterior/) boasts almost 900,000 followers and features stunning landscapes inside America’s national parks. Their [Twitter account](https://twitter.com/Interior) has half a million followers and quickly replies to queries.
 
