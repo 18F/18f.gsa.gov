@@ -22,19 +22,10 @@ jobs:
           app_id: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_APP_ID }}
           installation_id: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_INSTALLATION_ID }}
           private_key: ${{ secrets.DELIVERY_ASSURANCE_PROJECT_PRIVATE_KEY }}
-      - name: add label
-        uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ["new"]
-            })
       # Now we can add the issue to the project board.
       - name: add to project board
-        uses: actions/add-to-project@v0.4.0
+        uses: actions/add-to-project@v0.5.0
         with:
           project-url: https://github.com/orgs/18F/projects/41
           github-token: ${{ steps.app_token.outputs.token }}
+          labeled: new
