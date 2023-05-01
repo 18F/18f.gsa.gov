@@ -1,13 +1,13 @@
 ---
-date: 2023-04-20
+date: 2023-05-01
 title: >
   “Hi” from the 18F design chapter
 
 authors:
- - Melissa Braxton
- - Ron Bronson
- - Amanda Costello
- - Laura Nash 
+ - Melissa-Braxton
+ - Ron-Bronson
+ - Amanda-Costello
+ - Laura-Nash 
 tags:
   - join us
   - culture
