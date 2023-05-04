@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4.2)
+    activesupport (7.0.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     autoprefixer-rails (9.8.6.5)
       execjs
@@ -85,6 +85,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     libv8-node (16.10.0.0)
+    libv8-node (16.10.0.0-x86_64-darwin)
     libv8-node (16.10.0.0-x86_64-darwin-19)
     libv8-node (16.10.0.0-x86_64-linux)
     liquid (4.0.4)
@@ -96,13 +97,13 @@ GEM
     mini_portile2 (2.8.1)
     mini_racer (0.6.3)
       libv8-node (~> 16.10.0.0)
-    minitest (5.17.0)
-    nokogiri (1.14.2)
+    minitest (5.18.0)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-darwin)
+    nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
@@ -158,6 +159,7 @@ GEM
 PLATFORMS
   ruby
   x86_64-darwin-19
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
@@ -186,4 +188,4 @@ RUBY VERSION
    ruby 2.7.4
 
 BUNDLED WITH
-   2.4.7
+   2.4.0
