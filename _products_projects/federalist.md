@@ -6,6 +6,6 @@ tag: federalist
 layout: primary
 ---
 
-The platform formerly known as Federalist is now cloud.gov Pages — a fast, secure, and compliant Platform as a Service (PaaS) for federal agencies. It is no longer maintained by 18F.
+The platform formerly known as Federalist is now [cloud.gov Pages](https://cloud.gov/pages/) — a fast way for federal agencies to build, host, and manage websites. It is now maintained by the cloud.gov team.
 
-Visit [cloud.gov Pages](https://cloud.gov/pages/) to learn more.
+cloud.gov Pages enables teams to quickly launch attractive, secure, and accessible public websites. Visit [cloud.gov Pages](https://cloud.gov/pages/) to learn more.
