@@ -1,13 +1,13 @@
 ---
-date: 2023-04-20
+date: 2023-05-02
 title: >
   “Hi” from the 18F design chapter
 
 authors:
- - Melissa Braxton
- - Ron Bronson
- - Amanda Costello
- - Laura Nash 
+ - melissa-braxton
+ - ron-bronson
+ - amanda-costello
+ - laura-nash
 tags:
   - join us
   - culture
@@ -20,7 +20,7 @@ image:
 
 With over 30 designers, 18F has assembled one of the largest groups of designers within the federal government, each with our own set of experiences and skills. Some of our designers have worked in the private sector on large-scale products, while others have worked in public sector environments helping agencies across the country at all levels – local, state & federal – navigate the complexities of design. 
 
-## How Design Works (In Government) 
+## How design works (in government) 
 Our design work is unique because it often goes beyond just doing hands-on, tactical design work. Sometimes, our projects vary in scale or require different elements. Sometimes, the work is straightforward and comes together naturally. Other times, the complexity of the work is more opaque. As the scale of the work increases, it might require different people focused on different aspects for it all to go well.
 
 While all 18F designers have a core set of skills in human-centered design, our work and skills are far from homogeneous. We often hire designers who are skilled in more than one design discipline. Technology-enabled public services are complex, and require different types of complex humans to pull it off. 
