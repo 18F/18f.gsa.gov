@@ -1,7 +1,7 @@
 ---
 date: 2023-05-08
 title: >
-  Andrew Hyder Government Service Improvement Award recognizes comittment to serving the public
+  Andrew Hyder Government Service Improvement Award recognizes commitment to serving the public
 authors:
   - keith-wilson
   - amanda-costello
