@@ -8,7 +8,7 @@ authors:
 tags:
   - public service
 excerpt: >
-    TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government. This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who tragically passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need. As we open the 2023 award nomination period to those in TTS internally, we’d like to recognize the work of 2022 honorees Jessica Dussalt (18F) and Will Cahoe (10x).
+    TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government. This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who tragically passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need. As we open the 2023 award nomination period to those in TTS internally, we’d like to recognize the work of 2022 honorees Jessica Dussault (18F) and Will Cahoe (10x).
 ---
 TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 
@@ -20,7 +20,7 @@ This award commemorates the life and work of Andrew Hyder, a consulting software
 
 It’s easy when you’re working at a high level to forget to pause, adjust, and take in the impacts of our work on everyday people. Andrew always encouraged us to do this, at all phases of work, gently calling us back to earth when we’d gotten stuck in the clouds. His presence is both deeply missed, and daily cherished. 
 
-As we open the 2023 award nomination period to those in TTS internally, we’d like to recognize the work of 2022 honorees Jessica Dussalt (18F) and Will Cahoe (10x). 
+As we open the 2023 award nomination period to those in TTS internally, we’d like to recognize the work of 2022 honorees Jessica Dussault (18F) and Will Cahoe (10x). 
 
 ![Jess Dussault profile picture](/assets/blog/andrew-hyder-award-2023/jess-dussault-hyder-award.png)
 
