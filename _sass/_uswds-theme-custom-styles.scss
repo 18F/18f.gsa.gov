@@ -102,3 +102,8 @@ a {
 
   }
 }
+
+// unset order for a11y
+footer {
+  order: unset;
+}
