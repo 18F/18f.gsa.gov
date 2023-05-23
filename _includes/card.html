@@ -5,44 +5,43 @@
 
 <li class="usa-card tablet:grid-col-4">
   
-    <div class="usa-card__container">
-      
-      <header class="usa-card__header">
-        {% if project.agency %}
-          <p class="card-agency-name">{{ project.agency }}</p>
-        {% endif %}
-        {% if card_link and project.title %}
-        <a href="{{ card_link }}">
-          <h3 class="card-link-tagline">{{ project.title }}</h3>
-        </a>
-        {% endif %}        
-      </header>
+  <div class="usa-card__container">
+    
+    <header class="usa-card__header">
+      {% if project.agency %}
+        <p class="card-agency-name">{{ project.agency }}</p>
+      {% endif %}
+      {% if card_link and project.title %}
+      <a href="{{ card_link }}">
+        <h3 class="card-link-tagline">{{ project.title }}</h3>
+      </a>
+      {% endif %}        
+    </header>
 
-      <div class="usa-card__media">
-      <div role="img"
-          title="{{ project.image_accessibility }}"
-          class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}">
-          
-          {% if project.image %}
-            <img 
-              src="{{ site.baseurl }}{{ project.image }}"
-              alt="{{ project.image_accessibility }}"
-            >
-          {% endif %}
-        {% unless project.image %}
-          {% if project.image_icon %}
-            {% include svg/icons/{{ project.image_icon }} %}
-          {% else %}
-            {% include svg/icons/monitor.svg %}
-          {% endif %}
-        {% endunless %}
-      </div>
-      </div>
-      
-      <div class="usa-card__body">
-        <p class="card-description">{{ project.excerpt }}</p>
-      </div>
+    <div class="usa-card__media">
+    <div role="img"
+        title="{{ project.image_accessibility }}"
+        class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}">
+        
+        {% if project.image %}
+          <img 
+            src="{{ site.baseurl }}{{ project.image }}"
+            alt="{{ project.image_accessibility }}"
+          >
+        {% endif %}
+      {% unless project.image %}
+        {% if project.image_icon %}
+          {% include svg/icons/{{ project.image_icon }} %}
+        {% else %}
+          {% include svg/icons/monitor.svg %}
+        {% endif %}
+      {% endunless %}
     </div>
-  
-  </a>
+    </div>
+    
+    <div class="usa-card__body">
+      <p class="card-description">{{ project.excerpt }}</p>
+    </div>
+  </div>
+
 </li>
