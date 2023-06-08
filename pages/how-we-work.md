@@ -16,7 +16,8 @@ content_focus: false
 
 </div>
 
-
+<hr aria-hidden="true" />
+    
 {% capture pa-1 %}
 
 ## Path Analysis
@@ -126,6 +127,7 @@ We’ll start with a Path Analysis and move directly to an Experiment & Iterate 
   </div>
 </div>
 
+<hr aria-hidden="true" />
 
 <div class="acq-intro" markdown="1">
 ## Acquisitions Services
