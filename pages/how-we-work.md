@@ -16,7 +16,7 @@ content_focus: false
 
 </div>
 
-<hr aria-hidden="true" />
+<div class="separator"></div>
     
 {% capture pa-1 %}
 
@@ -127,7 +127,7 @@ We’ll start with a Path Analysis and move directly to an Experiment & Iterate 
   </div>
 </div>
 
-<hr aria-hidden="true" />
+<div class="separator"></div>
 
 <div class="acq-intro" markdown="1">
 ## Acquisitions Services
