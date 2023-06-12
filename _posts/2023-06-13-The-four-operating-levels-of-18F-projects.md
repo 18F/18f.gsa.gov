@@ -15,20 +15,32 @@ At 18F, we partner with government agencies to help them deliver new or moderniz
 * Product development
 * Post-18F sustainability
 * Learning to the broader government community
-| **Project management**
 
-Building an healthy 18F engagement               |
-| -------------------------------------------------------------------- |
-| **Product delivery**
 
-Building a user-centered product                   |
-| Current work                                                         | Near-term work |
-| **Post-18F sustainability**
-
-Building a partner environment for delivery |
-| Short term capacity building                                         | Post-18F sustainability and capacity building |
-| **Learn from the work**                                                  |
-
+<table>
+<tbody>
+  <tr style="background-color:#d9d2e9;">
+    <td colspan="2"><strong>Project management</strong><br/>Building an healthy 18F engagement</td>
+  </tr>
+  <tr style="background-color:#c9daf8;">
+    <td colspan="2"><strong>Product delivery</strong><br/>Building a user-centered product</td>
+  </tr>
+  <tr style="background-color:#c9daf8;">
+    <td>Current Work</td>
+    <td>Near-term work</td>
+  </tr>
+  <tr style="background-color:#fce5cd;">
+    <td colspan="2"><strong>Post-18F sustainability</strong><br /> Building a partner environment for delivery</td>
+  </tr>
+  <tr style="background-color:#fce5cd;">
+    <td>Short term capacity building</td>
+    <td>Post-18F sustainability and capacity building</td>
+  </tr>
+  <tr style="background-color:#d9ead3;">
+    <td colspan="2"><strong>Learn from the work</strong></td>
+  </tr>
+</tbody>
+</table>
 
 ## Project management
 Throughout the engagement, we want to make sure that we are aligning stakeholders, monitoring our budget, and providing the appropriate resources to a project. This can mean introducing new agreements, adjusting staff, or revisiting the project scope or deliverables as the project progresses.  We make sure we have the appropriate paperwork and support to kick off the project. 
