@@ -18,26 +18,27 @@ At 18F, we partner with government agencies to help them deliver new or moderniz
 
 
 <table>
+  
 <tbody>
   <tr style="background-color:#d9d2e9;">
-    <td colspan="2"><strong>Project management</strong><br/>Building an healthy 18F engagement</td>
+    <td style="background-color:unset;" colspan="2"><strong>Project management</strong><br/>Building an healthy 18F engagement</td>
   </tr>
   <tr style="background-color:#c9daf8;">
-    <td colspan="2"><strong>Product delivery</strong><br/>Building a user-centered product</td>
+    <td colspan="2" style="background-color:unset;"><strong>Product delivery</strong><br/>Building a user-centered product</td>
   </tr>
   <tr style="background-color:#c9daf8;">
-    <td>Current Work</td>
-    <td>Near-term work</td>
+    <td style="background-color:unset;">Current Work</td>
+    <td style="background-color:unset;">Near-term work</td>
   </tr>
   <tr style="background-color:#fce5cd;">
-    <td colspan="2"><strong>Post-18F sustainability</strong><br /> Building a partner environment for delivery</td>
+    <td colspan="2" style="background-color:unset;"><strong>Post-18F sustainability</strong><br /> Building a partner environment for delivery</td>
   </tr>
   <tr style="background-color:#fce5cd;">
-    <td>Short term capacity building</td>
-    <td>Post-18F sustainability and capacity building</td>
+    <td style="background-color:unset;">Short term capacity building</td>
+    <td style="background-color:unset;">Post-18F sustainability and capacity building</td>
   </tr>
   <tr style="background-color:#d9ead3;">
-    <td colspan="2"><strong>Learn from the work</strong></td>
+    <td colspan="2" style="background-color:unset;"><strong>Learn from the work</strong></td>
   </tr>
 </tbody>
 </table>
