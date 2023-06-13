@@ -62,9 +62,10 @@
     margin-bottom: units(5);
   }
 
-  hr {
+.separator {
     margin: units(5) 0;
-    border: 1px solid color($theme-color-base-lighter)
+    height: 1px; 
+    background: $theme-color-base-lighter;
   }
 }
 
