@@ -4,10 +4,10 @@ title: >
   “Hi” from the 18F design chapter
 
 authors:
- - melissa-braxton
- - ron-bronson
- - amanda-costello
- - laura-nash 
+  - melissa-braxton
+  - ron-bronson
+  - amanda-costello
+  - laura-nash 
 tags:
   - join us
   - culture
