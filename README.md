@@ -54,7 +54,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 
 1. Install Docker Desktop via the GSA Self Service or download from [their website](https://www.docker.com/).
 2. Make sure Docker is running (you should see the whale icon in the taskbar or menu bar). 
-3. Open a termninal window and navigate into your project folder `cd`.
+3. Open a termninal window (CMD+Space on Mac, Start > Run > "cmd" on Windows) and navigate into your project folder `cd folder_name_with_code`.
 4. Run `docker compose build` to build the docker image and its dependencies.
 5. Run `docker compose up`.
    **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker compose run app <COMMAND>` (for instance, you can run bundle  `docker compose run app bundle install`). Our site is large, so **this could take awhile**.
