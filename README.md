@@ -52,14 +52,15 @@ Using Docker can make dependencies management easier, but can also slow down you
 
 *To try this out on MacOS:*
 
-1. Install Docker via the GSA Self Service and make sure Docker is running
-2. Open a termninal window and navigate into your project folder `cd`.
-3. Run `docker-compose build` to build the docker image and its dependencies.
-4. Run `docker-compose up`.
-   **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker-compose run app <COMMAND>` (for instance, you can run bundle  `docker-compose run app bundle install`). Our site is large, so **this could take awhile**.
-5. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
+1. Install Docker Desktop via the GSA Self Service or download from [their website](https://www.docker.com/).
+2. Make sure Docker is running (you should see the whale icon in the taskbar or menu bar). 
+3. Open a termninal window and navigate into your project folder `cd`.
+4. Run `docker compose build` to build the docker image and its dependencies.
+5. Run `docker compose up`.
+   **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker compose run app <COMMAND>` (for instance, you can run bundle  `docker compose run app bundle install`). Our site is large, so **this could take awhile**.
+6. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
 
-If there was an error with the build, rebuild using  the  `--no-cache` option like so `docker-compose build --no-cache`  to avoid using the old version of the docker image.
+If there was an error with the build, rebuild using  the  `--no-cache` option like so `docker compose build --no-cache`  to avoid using the old version of the docker image.
 
 ## Updating content
 
