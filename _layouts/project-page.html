@@ -61,14 +61,19 @@ header_border: true
     <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4">
       <ul class="usa-sidenav partner-info thick-accent-border">
         {% if page.quote %}
-          <blockquote>
-            <p>&ldquo;{{ page.quote }}&rdquo;</p>
+        <li>
+          <blockquote class="border-0 margin-x-0 margin-y-1 padding-x-0">
+            <p class="font-sans-md text-light text-no-italic">
+              &ldquo;{{ page.quote }}&rdquo;
+            </p>
             {% if page.quote_source %}
-              <h3>{{ page.quote_source | prepend: '– ' | markdownify }}</h3>
+            <figcaption class="font-sans-xs margin-top-1 text-bold text-base-dark">
+              {{ page.quote_source | prepend: '– ' | markdownify }}
+            </figcaption>
             {% endif %}
           </blockquote>
+        </li>
         {% endif %}
-
         {% if page.agency %}
         <li class="agency-partner-name">
           <h3>Agency partner</h3>
