@@ -115,13 +115,13 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
         </div>
-        <span>4-6 person team</span>
+        <span>...</span>
       </li>
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span>20 weeks</span>
+        <span>...</span>
       </li>
     </ul>
   </div>
