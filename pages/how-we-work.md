@@ -1,18 +1,16 @@
 ---
-title: How we work
+title: Work with us
 permalink: /how-we-work/
 layout: hww-primary
-lead: Together, we create a unified team by pairing our technical expertise with your program knowledge.
+lead: As federal employees, we share your dedication to serving the American public. 
 banner_cta: true
 content_focus: false
 ---
 
 <div class="hww-intro" markdown="1">
-### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
+### Transform the way you work
 
-18F helps agencies define a strategy and work towards a solution through our Path Analysis and Experiment and Iterate services. We also offer procurement services, including to state and local governments with access to federal funds.
-
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work.
+Because [87% of large government IT projects fail](https://derisking-guide.18f.gov/), government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
 
 </div>
 
@@ -20,12 +18,12 @@ content_focus: false
     
 {% capture pa-1 %}
 
-## Path Analysis
-
-### Asking the right questions, solving the right problems.
+## Ask the right questions, solve the right problems
 {: .hww-subheading}
 
-Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users.
+We take the time and have the experience to understand the specific mission of your organization. In an 18F engagement, we work together to understand what problem you need to solve. 
+
+18F has [deep expertise in _talking to people_](https://18f.gov/guides). When you talk to users and staff, you get to the heart of the problem by learning how people use your services and technology. That's how we uncover insights and find new solutions.
 
 {% endcapture %}
 
@@ -39,19 +37,19 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
           </div>
-          <span>2-3 person team</span>
+          <span>Link to guides...</span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
           </div>
-          <span>8-10 weeks</span>
+          <span>Link to guides.../span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
           </div>
-          <span>1 path analysis per project</span>
+          <span>Link to guides...</span>
         </li>
       </ul>
     </div>
@@ -59,12 +57,15 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
 
 {% capture ei-1 %}
 
-## Experiment & Iterate
+## Choose the path that’s best for your mission and your users
 
 ### Exploring user-centered solutions.
 {: .hww-subheading}
 
-Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. We'll work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
+We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
+
+Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
+
 {% endcapture %}
 
   <div class="grid-row grid-gap">
@@ -77,19 +78,19 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
           </div>
-          <span>4-6 person team</span>
+          <span>Link to de-risking and methods</span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
           </div>
-          <span>12 weeks</span>
+          <span>Link to de-risking and methods</span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
           </div>
-          <span>Flexible number of phases based on project needs</span>
+          <span>Link to de-risking and methods</span>
         </li>
       </ul>
     </div>
@@ -97,12 +98,16 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
 
 {% capture bundle-1 %}
 
-## Bundle: Path Analysis + Experiment&nbsp;&&nbsp;Iterate
+## Tech that adapts and grows with your needs
 
-### Assess and explore.
 {: .hww-subheading}
 
-We’ll start with a Path Analysis and move directly to an Experiment & Iterate phase (both described above) as soon as possible. With this bundle option, we are able to more flexibly move between the phases of the project, without losing momentum.
+18F engagements are designed to end. Since we're part of the federal government, we don't have a vested interest in extending engagements unnecessarily or selling you things you don't need. 
+
+Instead, we involve your team in creating solutions and ensure they have everything they need to maintain and improve systems long after we're gone.
+
+[Future case study-related copy here](#)
+
 {% endcapture %}
 
 <div class="grid-row grid-gap" id="bundle">
