@@ -30,7 +30,7 @@ gridless: true
 
 <section class="usa-section case-section grid-container">
     <div class="usa-section-bottom">
-      <h2>Case Studies</h2>
+      <h2>Case studies</h2>
       <div class="grid-row grid-gap">
       <ul class="usa-card-group">
         {% assign featured_services = site.data.featured_services %}
