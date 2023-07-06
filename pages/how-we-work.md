@@ -43,7 +43,7 @@ We take the time and have the experience to understand the specific mission of y
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
           </div>
-          <span>Link to guides.../span>
+          <span>Link to guides...</span>
         </li>
         <li>
           <div class="graphic-list-img">
