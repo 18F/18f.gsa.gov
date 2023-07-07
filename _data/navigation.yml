@@ -1,5 +1,5 @@
 primary:
-- text: What we deliver
+- text: Our work
   href: /what-we-deliver/
   multiple_permalinks:
     - /what-we-deliver/:path/
@@ -17,7 +17,7 @@ primary:
   href: /contact/
 
 drawer:
-  - text: What we deliver
+  - text: Our work
     permalink: /what-we-deliver/
     multiple_permalinks:
     - /what-we-deliver/:path/
@@ -35,7 +35,7 @@ drawer:
     permalink: /contact/
 
 footer:
-  - text: What we deliver
+  - text: Our work
     permalink: /what-we-deliver/
     multiple_permalinks:
     - /what-we-deliver/:path/
