@@ -1,12 +1,11 @@
 ---
 title: Our work
-permalink: /our-work/
+permalink: /what-we-deliver/
 layout: primary
 lead: Strategies and services that help agencies provide excellent value to the public.
 content_wide: true
 content_focus: false
 redirect_from:
-  - /what-we-deliver/
   - /consulting/
   - /what-we-deliver/military-onesource/
   - /what-we-deliver/every-kid-in-a-park/
