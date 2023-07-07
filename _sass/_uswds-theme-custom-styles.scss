@@ -108,3 +108,10 @@ a {
 footer {
   order: unset;
 }
+
+// increase height for hero section
+@media (min-width: 640px) {
+  .hero__container {
+      max-height: 550px;
+  }
+}
