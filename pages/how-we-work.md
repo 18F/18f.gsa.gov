@@ -9,7 +9,7 @@ content_focus: false
 
 <div class="hww-intro" markdown="1">
 
-### Transform the way you work
+## Transform the way you work
 
 Because [87% of large government IT projects fail](https://derisking-guide.18f.gov/), government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
 
