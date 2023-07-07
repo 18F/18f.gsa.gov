@@ -7,7 +7,7 @@ assigned:
         in_drawer: false
         in_footer: false
     -
-        text: What we deliver
+        text: Our work
         href: pages/what-we-deliver.md
         colllections: ['projects']
         permalink: /what-we-deliver/
