@@ -37,19 +37,19 @@ We take the time and have the experience to understand the specific mission of y
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
           </div>
-          <span>[Human-centered design](https://methods.18f.gov/)</span>
+          <span><a href="https://methods.18f.gov/">Human-centered design</a></span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
           </div>
-          <span>[User experience](https://ux-guide.18f.gov/)</span>
+          <span><a href="https://ux-guide.18f.gov/">User experience</a></span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
           </div>
-          <span>[Product management](https://product-guide.18f.gov/)</span>
+          <span><a href="https://product-guide.18f.gov/">Product management</a></span>
         </li>
       </ul>
     </div>
@@ -75,7 +75,7 @@ Some software projects are the right size and shape for 18F to build with you; o
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
           </div>
-          <span>[Derisk government technology projects](https://derisking-guide.18f.gov/)</span>
+          <span><a href="https://derisking-guide.18f.gov/">Derisk government technology projects</a></span>
         </li>
       </ul>
     </div>
@@ -103,13 +103,13 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
         </div>
-         <span>[Agile software development principles](https://agile.18f.gov/)</span>
+         <span><a href="https://agile.18f.gov/">Agile software development principles</a></span>
       </li>
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span>[Engineering best practices](https://engineering.18f.gov/)</span>
+        <span><a href="https://engineering.18f.gov/">Engineering best practices]</a></span>
       </li>
     </ul>
   </div>
