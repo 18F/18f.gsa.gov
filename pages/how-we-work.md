@@ -16,8 +16,8 @@ content_focus: false
 
 </div>
 
-* * *
-
+<div class="separator"></div>
+    
 {% capture pa-1 %}
 
 ## Path Analysis
@@ -127,7 +127,7 @@ We’ll start with a Path Analysis and move directly to an Experiment & Iterate 
   </div>
 </div>
 
-* * *
+<div class="separator"></div>
 
 <div class="acq-intro" markdown="1">
 ## Acquisitions Services

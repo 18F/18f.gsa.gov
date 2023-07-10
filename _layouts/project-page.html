@@ -61,24 +61,29 @@ header_border: true
     <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4">
       <ul class="usa-sidenav partner-info thick-accent-border">
         {% if page.quote %}
-          <blockquote>
-            <p>&ldquo;{{ page.quote }}&rdquo;</p>
+        <li>
+          <blockquote class="border-0 margin-x-0 margin-y-1 padding-x-0">
+            <p class="font-sans-md text-light text-no-italic">
+              &ldquo;{{ page.quote }}&rdquo;
+            </p>
             {% if page.quote_source %}
-              <h5>{{ page.quote_source | prepend: '– ' | markdownify }}</h5>
+            <figcaption class="font-sans-xs margin-top-1 text-bold text-base-dark">
+              {{ page.quote_source | prepend: '– ' | markdownify }}
+            </figcaption>
             {% endif %}
           </blockquote>
+        </li>
         {% endif %}
-
         {% if page.agency %}
         <li class="agency-partner-name">
-          <h5>Agency partner</h5>
+          <h3>Agency partner</h3>
           {{ page.agency }}
         </li>
         {% endif %}
 
         {% if page.project_url %}
         <li>
-          <h5>See our work</h5>
+          <h3>See our work</h3>
           <ul class="usa-sidenav__sublist">
             <li> {{ page.project_url | markdownify }} </li>
           </ul>
@@ -87,7 +92,7 @@ header_border: true
 
         {% if page.github_repo %}
         <li>
-          <h5>See the code on GitHub</h5>
+          <h3>See the code on GitHub</h3>
             <ul class="usa-sidenav__sublist">
             {% for repo in page.github_repo %}
               <li>{{ repo | markdownify }}</a></li>
@@ -98,7 +103,7 @@ header_border: true
 
         {% if page.product_clients.size > 0 %}
         <li>
-          <h5>Agency partners</h5>
+          <h3>Agency partners</h3>
           <ul class="{% if page.product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
           {% for client in page.product_clients %}
             <li>{{ client }}</li>
@@ -109,7 +114,7 @@ header_border: true
 
         {% if page.start_date or page.expiration_date %}
         <li>
-          <h5>When</h5>
+          <h3>When</h3>
           <div>
           {% if page.start_date and page.expiration_date %}
             {{ page.start_date }} – {{ page.expiration_date }}
@@ -124,7 +129,7 @@ header_border: true
 
         {% if page.resources.size > 0 %}
         <li>
-          <h5>Resources</h5>
+          <h3>Resources</h3>
           <ul class="{% if page.resources.size > 1 %}usa-sidenav__sublist{% endif %}">
             {% for resource in page.resources %}
               <li >{{ resource | markdownify }}</li>

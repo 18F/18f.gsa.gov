@@ -63,7 +63,7 @@
   }
 
   .usa-sidenav__sublist a {
-    padding: units('05') 0;
+    padding: 0 0 units(1);
     text-decoration: underline;
 
     &:hover {
@@ -72,7 +72,8 @@
     }
   }
 
-  h5 {
+  h3 {
+    font-size:size('heading', 'xs');
     padding-top: units(2);
     padding-bottom: units(1);
   }

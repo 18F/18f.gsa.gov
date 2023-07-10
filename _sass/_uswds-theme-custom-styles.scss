@@ -2,6 +2,7 @@
 // 18F site components
 @import '_components/blockquotes';
 @import '_components/card';
+@import '_components/cta';
 @import '_components/hero';
 @import '_components/lists';
 @import '_components/post-list';
@@ -91,7 +92,7 @@ a {
 //footer
 .usa-footer {
 
-  h4 {
+  h2 {
     font-size: font-size($theme-font-role-heading, 'lg');
     margin-bottom: 1rem;
     margin-top: units(3);
@@ -101,4 +102,9 @@ a {
     }
 
   }
+}
+
+// unset order for a11y
+footer {
+  order: unset;
 }
