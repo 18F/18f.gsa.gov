@@ -37,19 +37,19 @@ We take the time and have the experience to understand the specific mission of y
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
           </div>
-          <span>Link to guides...</span>
+          <span>[Human-centered design](https://methods.18f.gov/)</span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
           </div>
-          <span>Link to guides...</span>
+          <span>[User experience](https://ux-guide.18f.gov/)</span>
         </li>
         <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
           </div>
-          <span>Link to guides...</span>
+          <span>[Product management](https://product-guide.18f.gov/)</span>
         </li>
       </ul>
     </div>
@@ -75,19 +75,7 @@ Some software projects are the right size and shape for 18F to build with you; o
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
           </div>
-          <span>Link to de-risking and methods</span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-          </div>
-          <span>Link to de-risking and methods</span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
-          </div>
-          <span>Link to de-risking and methods</span>
+          <span>[Derisk government technology projects](https://derisking-guide.18f.gov/)</span>
         </li>
       </ul>
     </div>
@@ -115,13 +103,13 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
         </div>
-        <span>...</span>
+         <span>[Agile software development principles](https://agile.18f.gov/)</span>
       </li>
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span>...</span>
+        <span>[Engineering best practices](https://engineering.18f.gov/)</span>
       </li>
     </ul>
   </div>
