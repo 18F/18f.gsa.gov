@@ -35,21 +35,21 @@ We take the time and have the experience to understand the specific mission of y
       <ul class="graphic-list">
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+            <img src="{{ site.baseurl }}/assets/img/guides/design-methods.svg" alt="">
           </div>
-          <span><a href="https://methods.18f.gov/">Human-centered design</a></span>
+          <span><a href="https://methods.18f.gov/">Human-centered design methods</a></span>
         </li>
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+            <img src="{{ site.baseurl }}/assets/img/guides/user-interviews-love--c.svg" alt="">
           </div>
-          <span><a href="https://ux-guide.18f.gov/">User experience</a></span>
+          <span><a href="https://ux-guide.18f.gov/">User experience guide</a></span>
         </li>
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
+            <img src="{{ site.baseurl }}/assets/img/guides/product.svg" alt="">
           </div>
-          <span><a href="https://product-guide.18f.gov/">Product management</a></span>
+          <span><a href="https://product-guide.18f.gov/">Product management guide</a></span>
         </li>
       </ul>
     </div>
@@ -73,9 +73,9 @@ Some software projects are the right size and shape for 18F to build with you; o
       <ul class="graphic-list">
         <li>
           <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+            <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
           </div>
-          <span><a href="https://derisking-guide.18f.gov/">Derisk government technology projects</a></span>
+          <span><a href="https://derisking-guide.18f.gov/">De-risking government technology guide</a></span>
         </li>
       </ul>
     </div>
@@ -89,7 +89,6 @@ Some software projects are the right size and shape for 18F to build with you; o
 
 Instead, we involve your team in creating solutions and ensure they have everything they need to maintain and improve systems long after we're gone.
 
-[Future case study-related copy here](#)
 
 {% endcapture %}
 
@@ -97,8 +96,14 @@ Instead, we involve your team in creating solutions and ensure they have everyth
   <div class="tablet:grid-col-8" markdown="1">
     {{ bundle-1 }}
   </div>
-  <div class="tablet:grid-col-4">
-    <ul class="graphic-list">
+  <div class="tablet:grid-col-4 graphic-list">
+    <span class="padding-top-3">Some check-ins with agencies after 18F's engagement:</span>
+      <ul>
+        <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">DAWSON Project at the U.S. Tax Court</a></li>
+        <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area Projects</a></li>
+        <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">eAPD Project</a></li>
+      </ul>
+    <!-- <ul class="graphic-list">
       <li>
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
@@ -111,7 +116,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         </div>
         <span><a href="https://engineering.18f.gov/">Engineering best practices</a></span>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </div>
 

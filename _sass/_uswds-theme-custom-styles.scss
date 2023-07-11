@@ -115,3 +115,19 @@ footer {
       max-height: 550px;
   }
 }
+
+// Vertical align graphic list items
+.graphic-list {
+  li {
+    padding:0.7em 0;
+  }
+  img {
+  display:table-cell;
+  vertical-align: middle;
+  }
+  span {
+  margin-top:0;
+  display:table-cell;
+  vertical-align: middle;
+  }
+}
