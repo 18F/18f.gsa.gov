@@ -2,7 +2,7 @@
 title: Our work
 permalink: /what-we-deliver/
 layout: primary
-lead: Strategies and services that help agencies provide excellent value to the public.
+lead: See how we’ve helped agencies deliver value to the American people.
 content_wide: true
 content_focus: false
 redirect_from:
@@ -19,7 +19,7 @@ gridless: true
   <section class="grid-row">
     <div class="tablet:grid-col-9">
       <p class="font-sans-lg">
-        Since 2014, 18F has worked with federal, state, and local agencies to improve the user experience of the government. Here’s some of our work; get in touch to talk about how we can work together.
+        Since 2014, 18F has worked with federal, state, and local agencies to improve the user experience of government. Get in touch to talk about how we can work together.
       </p>
     </div>
     <div class="tablet:grid-col-3">
