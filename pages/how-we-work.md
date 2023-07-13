@@ -14,9 +14,9 @@ content_focus: false
 Because [87% of large government IT projects fail](https://derisking-guide.18f.gov/), government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
 
 </div>
-    
+    <div class="separator"></div>
 {% capture pa-1 %}
-<div class="separator"></div>
+
 
 ## Ask the right questions, solve the right problems
 
@@ -60,7 +60,7 @@ We take the time and have the experience to understand the specific mission of y
     </div>
   </div>
 
-{% capture ei-1 %}
+{% capture bundle-1 %}
 
 ## Choose the path that’s best for your mission and your users
 
@@ -68,8 +68,10 @@ We don’t offer one-size-fits-all solutions. Instead, we work with you to desig
 
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
 
-{% endcapture %}
+
 <div class="separator"></div>
+
+{% endcapture %}
 
 {% capture bundle-1 %}
 
