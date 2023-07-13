@@ -14,8 +14,6 @@ content_focus: false
 Because [87% of large government IT projects fail](https://derisking-guide.18f.gov/), government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
 
 </div>
-
-<div class="separator"></div>
     
 {% capture pa-1 %}
 
@@ -61,7 +59,6 @@ We take the time and have the experience to understand the specific mission of y
     </div>
   </div>
 
-<div class="separator"></div>
 {% capture ei-1 %}
 
 ## Choose the path that’s best for your mission and your users
