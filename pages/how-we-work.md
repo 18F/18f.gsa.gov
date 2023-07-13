@@ -61,7 +61,6 @@ We take the time and have the experience to understand the specific mission of y
     </div>
   </div>
 
-<div class="separator"></div>
 {% capture ei-1 %}
 
 ## Choose the path that’s best for your mission and your users
@@ -86,9 +85,10 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 ### Partner check-ins after working with 18F
 
 We check in with our partners after our engagement ends. Read about how these agencies continued making progress after working with 18F.
-- <a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">U.S. Tax Court: DAWSON project</a>
-- <a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area projects</a>
-- <a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">Centers for Medicare and Medicaid Services: eAPD project</a>
-   
+      <ul>
+        <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">U.S. Tax Court: DAWSON project</a></li>
+        <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area projects</a></li>
+        <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">Centers for Medicare and Medicaid Services: eAPD project</a></li>
+      </ul>
 
 
