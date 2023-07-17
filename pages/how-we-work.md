@@ -51,26 +51,7 @@ We take the time and have the experience to understand the specific mission of y
           </div>
           <span><a href="https://product-guide.18f.gov/">Product management guide</a></span>
         </li>
-      </ul>
-    </div>
-  </div>
-
-{% capture ei-1 %}
-
-## Choose the path that’s best for your mission and your users
-
-We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
-
-Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
-{% endcapture %}
-
-  <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-8">
-      {{ ei-1 | markdownify }}
-    </div>
-    <div class="tablet:grid-col-4">
-      <ul class="graphic-list">
-        <li>
+                <li>
           <div class="graphic-list-img">
             <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
           </div>
@@ -79,6 +60,16 @@ Some software projects are the right size and shape for 18F to build with you; o
       </ul>
     </div>
   </div>
+
+
+## Choose the path that’s best for your mission and your users
+
+We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
+
+Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
+{% endcapture %}
+
+<div class="separator"></div>
 
 {% capture bundle-1 %}
 
