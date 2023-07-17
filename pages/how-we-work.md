@@ -16,7 +16,6 @@ Because [87% of large government IT projects fail](https://derisking-guide.18f.g
 </div>
     
 {% capture pa-1 %}
-<div class="separator"></div>
 
 ## Ask the right questions, solve the right problems
 
@@ -69,7 +68,7 @@ We don’t offer one-size-fits-all solutions. Instead, we work with you to desig
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
 
 {% endcapture %}
-<div class="separator"></div>
+
 
 {% capture bundle-1 %}
 
