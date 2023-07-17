@@ -105,6 +105,7 @@ a {
 }
 
 // unset order for a11y
-footer {
-  // order: unset;
+.usa-layout-docs__sidenav {
+  order: unset;
+  padding-bottom:2em;
 }
