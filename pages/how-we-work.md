@@ -71,11 +71,8 @@ We don’t offer one-size-fits-all solutions. Instead, we work with you to desig
 
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
 
-{% endcapture %}
-
 <div class="separator"></div>
 
-{% capture bundle-1 %}
 
 ## Tech that adapts and grows with your needs
 
