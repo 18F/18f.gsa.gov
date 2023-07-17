@@ -17,8 +17,6 @@ Because [87% of large government IT projects fail](https://derisking-guide.18f.g
 
 <div class="separator"></div>
     
-    
-{% capture pa-1 %}
 
 ## Ask the right questions, solve the right problems
 
@@ -26,7 +24,6 @@ We take the time and have the experience to understand the specific mission of y
 
 18F has [deep expertise](https://18f.gov/guides) in _talking to people_. When you talk to users and staff, you get to the heart of the problem by learning how people use your services and technology. That's how we uncover insights and find new solutions.
 
-{% endcapture %}
 
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-8">
@@ -62,19 +59,14 @@ We take the time and have the experience to understand the specific mission of y
     </div>
   </div>
 
-{% capture ei-1 %}
-
 ## Choose the path that’s best for your mission and your users
 
 We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
 
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
 
-{% endcapture %}
 <div class="separator"></div>
 
-
-{% capture bundle-1 %}
 
 ## Tech that adapts and grows with your needs
 
@@ -82,8 +74,6 @@ Some software projects are the right size and shape for 18F to build with you; o
 
 Instead, we involve your team in creating solutions and ensure they have everything they need to maintain and improve systems long after we're gone.
 
-
-{% endcapture %}
 
 <div class="grid-row grid-gap" id="bundle">
   <div class="tablet:grid-col-8" markdown="1">
