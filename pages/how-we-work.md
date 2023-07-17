@@ -114,7 +114,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span><a href="https://engineering.18f.gov/">Engineering best practices</a></span>
+        <span><a href="https://engineering.18f.gov/">Engineering best practices]</a></span>
       </li>
     </ul> -->
   </div>
