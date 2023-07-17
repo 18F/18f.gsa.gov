@@ -67,7 +67,6 @@ We take the time and have the experience to understand the specific mission of y
 We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
 
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
-{% endcapture %}
 
 <div class="separator"></div>
 
