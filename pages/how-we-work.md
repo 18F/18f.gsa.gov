@@ -51,21 +51,35 @@ We take the time and have the experience to understand the specific mission of y
           </div>
           <span><a href="https://product-guide.18f.gov/">Product management guide</a></span>
         </li>
-                <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
-          </div>
-          <span><a href="https://derisking-guide.18f.gov/">De-risking government technology guide</a></span>
-        </li>
       </ul>
     </div>
   </div>
+
+{% capture mission-path %}
 
 ## Choose the path that’s best for your mission and your users
 
 We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
 
 Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
+
+{% endcapture %}
+
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col-8" markdown="1">
+    {{ mission-path | markdownify }}
+  </div>
+  <div class="tablet:grid-col-4">
+    <ul class="graphic-list">
+      <li>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
+        </div>
+        <span><a href="https://derisking-guide.18f.gov/">De-risking government technology guide</a></span>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <div class="separator"></div>
 
@@ -80,11 +94,11 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 
 <div class="grid-row grid-gap" id="bundle">
   <div class="tablet:grid-col-8" markdown="1">
-    {{ bundle-1 }}
+    {{ bundle-1 | markdownify }}
   </div>
-  <div class="tablet:grid-col-4 graphic-list">
-    <span class="padding-top-3">Partner check-ins after working with 18F</span>
-      <ul>
+  <div class="tablet:grid-col-4">
+    <h3 class="padding-top-3 graphic-list">Partner check-ins after working with 18F</h3>
+      <ul class="padding-0">
         <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">U.S. Tax Court: DAWSON project</a></li>
         <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area projects</a></li>
         <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">Centers for Medicare and Medicaid Services: eAPD project</a></li>
