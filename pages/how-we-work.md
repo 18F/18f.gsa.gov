@@ -80,6 +80,7 @@ Some software projects are the right size and shape for 18F to build with you; o
 
 Instead, we involve your team in creating solutions and ensure they have everything they need to maintain and improve systems long after we're gone.
 
+{% endcapture %}
 
 ### Partner check-ins after working with 18F
 
