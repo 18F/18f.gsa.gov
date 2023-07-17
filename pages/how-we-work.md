@@ -94,29 +94,15 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 
 <div class="grid-row grid-gap" id="bundle">
   <div class="tablet:grid-col-8" markdown="1">
-    {{ bundle-1 }}
+    {{ bundle-1 | markdownify }}
   </div>
   <div class="tablet:grid-col-4 graphic-list">
-    <span class="padding-top-3">Some check-ins with agencies after 18F's engagement:</span>
+    <span class="padding-top-3">Partner check-ins after working with 18F</span>
       <ul>
-        <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">DAWSON Project at the U.S. Tax Court</a></li>
-        <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area Projects</a></li>
-        <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">eAPD Project</a></li>
+        <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">U.S. Tax Court: DAWSON project</a></li>
+        <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area projects</a></li>
+        <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">Centers for Medicare and Medicaid Services: eAPD project</a></li>
       </ul>
-    <!-- <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
-        </div>
-         <span><a href="https://agile.18f.gov/">Agile software development principles</a></span>
-      </li>
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span><a href="https://engineering.18f.gov/">Engineering best practices]</a></span>
-      </li>
-    </ul> -->
   </div>
 </div>
 
