@@ -8,7 +8,7 @@ tags:
   - culture
   - how we work
 excerpt: >
-   At 18F, we partner with government agencies to help them deliver new or modernized digital services. In our experience, we have identified four operating levels that best support successful project outcomes. By tracking project management, project development, post-18F sustainability and learning to the broader government community, we produce measurable improvements and positive engagements.
+   At 18F, we partner with government agencies to help them deliver new or modernized digital services. In our experience, we have identified four operating levels that best support successful project outcomes.
 ---
 At 18F, we partner with government agencies to help them deliver new or modernized digital services and help set them up for success after we conclude the project. To support these outcomes, we set up our work to track on four levels:
 * Project management

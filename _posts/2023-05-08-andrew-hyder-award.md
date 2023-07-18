@@ -8,7 +8,7 @@ authors:
 tags:
   - public service
 excerpt: >
-    TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government. This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who tragically passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need. As we open the 2023 award nomination period to those in TTS internally, we’d like to recognize the work of 2022 honorees Jessica Dussault (18F) and Will Cahoe (10x).
+    TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 ---
 TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 
