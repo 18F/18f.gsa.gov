@@ -1,7 +1,7 @@
 {% assign subnav_items = include.subnav_items | default: page.subnav_items %}
 
 {% if subnav_items %}
-<nav role="navigation" class="subnav sticky usa-accordion" aria-label="Secondary navigation">
+<nav class="subnav sticky usa-accordion" aria-label="Secondary navigation">
   {% assign title_slug = page.title | slugify %}
   <ul class="usa-sidenav">
     <li class="usa-sidenav__item">
