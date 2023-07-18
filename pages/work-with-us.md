@@ -1,10 +1,12 @@
 ---
 title: Work with us
-permalink: /how-we-work/
+permalink: /work-with-us/
 layout: hww-primary
 lead: As federal employees, we share your dedication to serving the American public. 
 banner_cta: true
 content_focus: false
+redirect_from:
+  - /how-we-work
 ---
 
 <div class="hww-intro" markdown="1">
