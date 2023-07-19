@@ -1,6 +1,6 @@
 ---
 title: Federalist is now cloud.gov Pages
-permalink: /what-we-deliver/federalist/
+permalink: /our-work/federalist/
 excerpt: A government-created platform to help agencies build websites quickly and easily while meeting compliance requirements.
 tag: federalist
 layout: primary
