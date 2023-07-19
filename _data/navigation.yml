@@ -4,7 +4,7 @@ primary:
   multiple_permalinks:
     - /what-we-deliver/:path/
 - text: Work with us
-  href: /how-we-work/
+  href: /work-with-us/
 - text: Guides
   href: /guides/
 - text: Blog
@@ -22,7 +22,7 @@ drawer:
     multiple_permalinks:
     - /what-we-deliver/:path/
   - text: Work with us
-    permalink: /how-we-work/
+    permalink: /work-with-us/
   - text: About
     permalink: /about/
   - text: Blog
