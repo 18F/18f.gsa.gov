@@ -17,8 +17,8 @@ assigned:
         children:
     -
         text: How we work
-        href: pages/how-we-work.md
-        permalink: /how-we-work/
+        href: pages/work-with-us.md
+        permalink: /work-with-us/
         in_menu: true
         in_drawer: true
         in_footer: false
