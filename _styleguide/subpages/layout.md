@@ -29,13 +29,13 @@ Attribute | Type | What it does
 
 ### Work with us page
 
-`/work-with-us` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components the cards are placed at the bottom of the page to highlight past work and to bring users to `/what-we-deliver`.
+`/work-with-us` page is similar to the primary template but with a few adjustments that help to highlight how we support our customers. We pull these components the cards are placed at the bottom of the page to highlight past work and to bring users to `/our-work`.
 
 ---
 
 ### Project page template
 
-Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html), this is the template for creating new project pages as well as project cards that show up at [/what-we-deliver/]({{ site.baseurl }}/what-we-deliver/).
+Located at [`_layouts/project-page.html`](https://github.com/18F/18f.gsa.gov/tree/master/_layouts/project-page.html), this is the template for creating new project pages as well as project cards that show up at [/our-work/]({{ site.baseurl }}/our-work/).
 
 #### Add a project page
 
