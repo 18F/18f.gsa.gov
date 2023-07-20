@@ -12,10 +12,10 @@ lead: Let’s work together to improve the user experience of government.
     <div class="usa-section tablet:grid-col-8" markdown="1">
 
 ### Want to see if 18F can help your agency?
-Email our Business Development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
+Contact our [Business Development team](link to form).
 
 ### Looking for a job at 18F?
-You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent Team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
+You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
 
 ### Are you a member of the press?
 Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
