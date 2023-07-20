@@ -3,7 +3,7 @@
 agency: Agency name
 title: Fewer than 30 characters
 subtitle: 20-40 characters
-permalink: /what-we-deliver/project-name/
+permalink: /our-work/project-name/
 excerpt: 100-140 characters in the format We did X which accomplishes Y or solves Z problem.
 image: 1300x866px
 image_accessibility: Description of image for screenreaders.

@@ -1,11 +1,12 @@
 ---
 title: Our work
-permalink: /what-we-deliver/
+permalink: /our-work/
 layout: primary
 lead: See how we’ve helped agencies deliver value to the American people.
 content_wide: true
 content_focus: false
 redirect_from:
+  - /what-we-deliver/
   - /consulting/
   - /what-we-deliver/military-onesource/
   - /what-we-deliver/every-kid-in-a-park/
@@ -46,7 +47,7 @@ gridless: true
       </div>
     </div>
     {%- comment -%} <p>
-      <a class="link-arrow-right post-link-continue_reading" href="{{ '/how-we-work/' | prepend: site.baseurl }}">
+      <a class="link-arrow-right post-link-continue_reading" href="{{ '/work-with-us/' | prepend: site.baseurl }}">
         See all case studies
         {% include svg/icons/arrow-right.svg %}
       </a>

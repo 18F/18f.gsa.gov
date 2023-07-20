@@ -1,10 +1,10 @@
 primary:
 - text: Our work
-  href: /what-we-deliver/
+  href: /our-work/
   multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /our-work/:path/
 - text: Work with us
-  href: /how-we-work/
+  href: /work-with-us/
 - text: Guides
   href: /guides/
 - text: Blog
@@ -18,11 +18,11 @@ primary:
 
 drawer:
   - text: Our work
-    permalink: /what-we-deliver/
+    permalink: /our-work/
     multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /our-work/:path/
   - text: Work with us
-    permalink: /how-we-work/
+    permalink: /work-with-us/
   - text: About
     permalink: /about/
   - text: Blog
@@ -36,12 +36,12 @@ drawer:
 
 footer:
   - text: Our work
-    permalink: /what-we-deliver/
+    permalink: /our-work/
     multiple_permalinks:
-    - /what-we-deliver/:path/
+    - /our-work/:path/
   - text: About
     permalink: /about/
-  - text: Partnership Principles
+  - text: Partnership principles
     permalink: /partnership-principles/
   - text: Join 18F
     permalink: /join/

@@ -52,10 +52,10 @@ collections:
     permalink: /press/:name/
   products_projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /our-work/:path/
   services_projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /our-work/:path/
   contact:
     output: false
     permalink: /contact/:path/

@@ -8,17 +8,17 @@ assigned:
         in_footer: false
     -
         text: Our work
-        href: pages/what-we-deliver.md
+        href: pages/our-work.md
         colllections: ['projects']
-        permalink: /what-we-deliver/
+        permalink: /our-work/
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
     -
         text: How we work
-        href: pages/how-we-work.md
-        permalink: /how-we-work/
+        href: pages/work-with-us.md
+        permalink: /work-with-us/
         in_menu: true
         in_drawer: true
         in_footer: false
