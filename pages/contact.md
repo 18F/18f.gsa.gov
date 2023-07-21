@@ -34,7 +34,7 @@ For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.g
         <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
-            <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
+            <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F on Twitter</a>
           </li>
           <li>
             <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F on GitHub</a>
