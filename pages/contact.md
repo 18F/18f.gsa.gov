@@ -26,7 +26,7 @@ For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.g
  <aside class="usa-section tablet:grid-col-4 col-last">
       <h4 class="thick-accent-border padding-top-1">Learn more about 18F</h4>
         <ul>
-          <li><a href="{{ site.baseurl }}/what-we-deliver/">Past projects</a></li>
+          <li><a href="{{ site.baseurl }}/our-work/">Past projects</a></li>
           <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
           <li><a href="{{ site.baseurl }}/about/#funding-and-agreements">How we're funded</a></li>
         </ul>

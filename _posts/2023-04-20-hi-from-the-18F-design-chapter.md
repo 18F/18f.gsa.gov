@@ -15,7 +15,7 @@ tags:
   - how we work
   - user centered design
 excerpt: >
-  Designing technology-enabled public services requires deep expertise in how different elements of the experience come together (or don’t!).  The 18F design chapter comprises four discipline-specific cohorts — service design, user experience (UX) design, product design, and content strategy — each of which has a primary focus, with corresponding tools, methods, and techniques."
+  Designing technology-enabled public services requires deep expertise in how different elements of the experience come together (or don’t!).  The 18F design chapter comprises four discipline-specific cohorts — service design, user experience (UX) design, product design, and content strategy.
 image: 
 ---
 

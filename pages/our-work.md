@@ -1,11 +1,12 @@
 ---
-title: What we deliver
-permalink: /what-we-deliver/
+title: Our work
+permalink: /our-work/
 layout: primary
-lead: Strategies and services that help agencies provide excellent value to the public.
+lead: See how we’ve helped agencies deliver value to the American people.
 content_wide: true
 content_focus: false
 redirect_from:
+  - /what-we-deliver/
   - /consulting/
   - /what-we-deliver/military-onesource/
   - /what-we-deliver/every-kid-in-a-park/
@@ -19,18 +20,21 @@ gridless: true
   <section class="grid-row">
     <div class="tablet:grid-col-9">
       <p class="font-sans-lg">
-        18F partners with federal agencies to improve the user experience of government 
-        services by helping them build and buy technology. If you're looking to implement 
-        a requirement, update a public-facing website, or digitize a process, 18F can work with 
-        you to build a product or craft and execute an effective agile acquisition strategy.
+        Since 2014, 18F has worked with federal, state, and local agencies to improve the user experience of government. Get in touch to talk about how we can work together.
       </p>
+    </div>
+    <div class="tablet:grid-col-3">
+      <a class="usa-button usa-button--big float-right margin-y-3 display-block"
+              href="{{ site.baseurl }}/contact/">
+            Get in touch
+          </a>
     </div>
   </section>
 </div>
 
 <section class="usa-section case-section grid-container">
     <div class="usa-section-bottom">
-      <h2>Case Studies</h2>
+      <h2>Case studies</h2>
       <div class="grid-row grid-gap">
       <ul class="usa-card-group">
         {% assign featured_services = site.data.featured_services %}
@@ -43,7 +47,7 @@ gridless: true
       </div>
     </div>
     {%- comment -%} <p>
-      <a class="link-arrow-right post-link-continue_reading" href="{{ '/how-we-work/' | prepend: site.baseurl }}">
+      <a class="link-arrow-right post-link-continue_reading" href="{{ '/work-with-us/' | prepend: site.baseurl }}">
         See all case studies
         {% include svg/icons/arrow-right.svg %}
       </a>

@@ -30,3 +30,4 @@ tmp
 .bundle
 .vscode
 .jekyll-cache
+.ruby-version

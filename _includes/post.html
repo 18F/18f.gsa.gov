@@ -3,7 +3,7 @@
 include.excerpt | default: post.excerpt %} {% assign post_url = include.url |
 default: post.url %} {% assign hide_date = include.hide_date | default: false %}
 
-<li class="post tablet:grid-col-4">
+<li class="post margin-top-5 desktop:grid-col-4">
   <article class="padding-top-2">
     {% if hide_date == true %}
     <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>

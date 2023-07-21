@@ -110,3 +110,26 @@ a {
   padding-bottom: 2em;
   padding-top: 0;
 }
+
+// increase height for hero section
+@media (min-width: 640px) {
+  .hero__container {
+      max-height: 550px;
+  }
+}
+
+// Vertical align graphic list items
+.graphic-list {
+  li {
+    padding:0.7em 0;
+  }
+  img {
+  display:table-cell;
+  vertical-align: middle;
+  }
+  span {
+  margin-top:0;
+  display:table-cell;
+  vertical-align: middle;
+  }
+}
