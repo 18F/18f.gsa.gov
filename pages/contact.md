@@ -37,10 +37,10 @@ For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.g
             <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F</a> on Twitter
           </li>
           <li>
-            <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F</a> on GitHub
+            <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F on GitHub</a>
           </li>
           <li>
-            <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS" />RSS Feed</a>
+            <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS"/>RSS feed</a>
           </li>
         </ul>
     </aside>
