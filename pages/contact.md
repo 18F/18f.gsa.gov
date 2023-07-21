@@ -12,16 +12,16 @@ lead: Let’s work together to improve the user experience of government.
     <div class="usa-section tablet:grid-col-8" markdown="1">
 
 ### Want to see if 18F can help your agency?
-Contact our [Business Development team](link to form).
+Contact our [business development team](https://forms.gle/V3Qj3iQuWGEEf9EH8).
 
 ### Looking for a job at 18F?
-You can see open positions on the [Join 18F page](https://join.18f.gov), or you can email the Talent team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
+18F is part of GSA's Technology Transformation Services (TTS). View all [TTS open positions](https://join.tts.gsa.gov/) or email the talent team at [joinTTS@gsa.gov](mailto:joinTTS@gsa.gov).
 
 ### Are you a member of the press?
 Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 
 ### Anything else?
-For all other inquiries, you can reach our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
+For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
 </div>
  <aside class="usa-section tablet:grid-col-4 col-last">
       <h4 class="thick-accent-border padding-top-1">Learn more about 18F</h4>
