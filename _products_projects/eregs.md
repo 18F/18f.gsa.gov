@@ -2,7 +2,7 @@
 agency: eRegulations
 title: Easy-to-read regulations
 subtitle: A shared service for user-friendly regulations
-permalink: /what-we-deliver/eregulations/
+permalink: /our-work/eregulations/
 redirect_from: /project/eregulations/
 excerpt: An open-source tool that makes government regulations easier to find, read, and understand.
 image: /assets/blog/eregs/regulations-atf-gov.png
@@ -33,7 +33,7 @@ The Consumer Financial Protection Bureau (CFPB) developed a tool called eRegulat
 
 We’ve since helped several other agencies use the eRegulations platform:
 
-- The Federal Elections Commission has included eRegulations as part of their website overhaul, which [makes campaign finance more accessible]({{ sire.baseurl }}/what-we-deliver/fec-gov/).
+- The Federal Elections Commission has included eRegulations as part of their website overhaul, which [makes campaign finance more accessible]({{ sire.baseurl }}/our-work/fec-gov/).
 - We helped the Environmental Protection Agency modify their regulations platform, allowing the public to comment down to the paragraph level throughout proposed regulations and share their thoughts contextually.
 - We’re helping the Office of Management and Budget make more than 8,000 policy documents more usable by organizing, sort, and displaying them so that agencies have a clearer picture of policy mandates and their effects.
 

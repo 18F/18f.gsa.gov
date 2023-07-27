@@ -26,7 +26,7 @@ The Technology Transformation Service (TTS) has been working with the Forest Ser
  
 ## When to start a modular procurement with discovery research
 
-Our engagement with the Forest Service is part of our [Agile Blanket Purchase Agreement (BPA) work](https://18f.gsa.gov/what-we-deliver/agile-bpa/), but we’ve handled this one a little differently. Instead of jumping straight into buying modules to help the Forest Service with their permitting system, we started with discovery research. We don’t start all our Agile BPA projects this way, but several elements of this project led us to suggest a discovery period:
+Our engagement with the Forest Service is part of our [Agile Blanket Purchase Agreement (BPA) work](https://18f.gsa.gov/our-work/agile-bpa/), but we’ve handled this one a little differently. Instead of jumping straight into buying modules to help the Forest Service with their permitting system, we started with discovery research. We don’t start all our Agile BPA projects this way, but several elements of this project led us to suggest a discovery period:
  
 - The system was going to serve many different groups of users. It also had to integrate with more than two systems.
 - We walked away from our kickoff workshops with a good sense of the problem, but needed to understand more to pinpoint how our work would fix it.

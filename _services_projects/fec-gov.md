@@ -2,7 +2,7 @@
 agency: Federal Election Commission
 title: Easy-to-use campaign data
 subtitle: Tackling decades of data
-permalink: /what-we-deliver/fec-gov/
+permalink: /our-work/fec-gov/
 redirect_from: /project/fec-gov/
 excerpt: Rethinking how the Federal Election Commission provides data, instructions, and legal resources to the public.
 image: /assets/img/home/hero-fec.png

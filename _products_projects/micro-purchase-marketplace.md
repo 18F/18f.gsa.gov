@@ -2,7 +2,7 @@
 agency:
 title: Micro-purchase Marketplace
 subtitle: An marketplace for open source tasks
-permalink: /what-we-deliver/micro-purchase-marketplace/
+permalink: /our-work/micro-purchase-marketplace/
 excerpt: A reverse auction house where agencies can work with 18F to post coding tasks and vendors can bid on how much they would be willing to be paid to complete the task.
 image:
 image_accessibility:

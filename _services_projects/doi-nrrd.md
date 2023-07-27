@@ -2,7 +2,7 @@
 agency: Department of the Interior
 title: Visualizing public lands data
 subtitle: Opening up complex data
-permalink: /what-we-deliver/onrr-data-site/
+permalink: /our-work/onrr-data-site/
 redirect_from: /project/onrr-data-site/
 excerpt: Natural Resources Revenue Data (NRRD) helps the public learn about extractive activities on public lands and waters.
 image: /assets/img/projects/nrrd-site.png

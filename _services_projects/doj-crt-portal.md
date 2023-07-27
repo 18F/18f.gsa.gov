@@ -2,7 +2,7 @@
 agency: Department of Justice
 title: Improving access to justice through a user-friendly online submission experience
 subtitle: Building civilrights.justice.gov
-permalink: /what-we-deliver/doj-crt/
+permalink: /our-work/doj-crt/
 redirect_from: /project/doj-crt/
 excerpt: Developing a user-friendly online submission experience for the civil rights complaint portal
 image: /assets/blog/doj-crt-complaint-form.png

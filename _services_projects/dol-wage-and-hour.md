@@ -2,7 +2,7 @@
 agency: Department of Labor
 title: Becoming a digital-first agency
 subtitle: Bringing technology to vital services
-permalink: /what-we-deliver/dol-wage-and-hour/
+permalink: /our-work/dol-wage-and-hour/
 excerpt: Success on a small project helped the Wage and Hour Division begin transforming into a digital-first agency.
 image: /assets/blog/labor-handbook/group-2.jpg
 image_accessibility: the team working out of the 18F common space. Developers on the left. Investigators (users) and product owners talking about needs on the right. Taped to the windows are the progress boards (Backlog, Current, Done).

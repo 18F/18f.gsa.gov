@@ -11,7 +11,7 @@ tags:
 excerpt: "From our experience with the Agile Blanket Purchase Agreement (BPA), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles"
 ---
 
-When our acquisition team helps an agency develop a product, we form a joint team between the Technology Transformation Services (TTS) acquisition staff, the federal agency we’re partnering with, and a private vendor. From our experience with the [Agile Blanket Purchase Agreement (BPA)](https://18f.gsa.gov/what-we-deliver/agile-bpa/), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles:
+When our acquisition team helps an agency develop a product, we form a joint team between the Technology Transformation Services (TTS) acquisition staff, the federal agency we’re partnering with, and a private vendor. From our experience with the [Agile Blanket Purchase Agreement (BPA)](https://18f.gsa.gov/our-work/agile-bpa/), we’ve found that in order to build effective cross-functional teams and successful IT projects, we need alignment on several principles:
 - Open software development
 - User-centered design
 - Modern development techniques

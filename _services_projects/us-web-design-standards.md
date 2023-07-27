@@ -2,7 +2,7 @@
 agency: U.S. Web Design System
 title: A design system for the federal government
 subtitle: Building trust through consistency
-permalink: /what-we-deliver/us-web-design-system/
+permalink: /our-work/us-web-design-system/
 excerpt: A library of design components that can help developers quickly make trustworthy, accessible, and consistent digital government services.
 image: /assets/blog/web-design-standards/wds-home-new-2x.png
 image_accessibility: Image of designed typography and headers 
@@ -16,7 +16,7 @@ github_repo:
 project_url: "[U.S. Web Design System website](https://designsystem.digital.gov/)"
 learn_more:
 product_clients:
-redirect_from: /what-we-deliver/us-web-design-standards/
+redirect_from: /our-work/us-web-design-standards/
 ---
 
 Across the government, developers frequently have to tackle the same

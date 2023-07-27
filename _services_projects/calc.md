@@ -2,7 +2,7 @@
 agency: General Services Administration
 title: Better tools for better research
 subtitle: Streamlining a critical contracting task
-permalink: /what-we-deliver/calc/
+permalink: /our-work/calc/
 excerpt: An efficient way for contracting officers to search past government contracts for fair hourly rates.
 image: /assets/img/projects/calc.png
 image_accessibility: Blue bar graph of various wage estimates
