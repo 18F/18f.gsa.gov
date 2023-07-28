@@ -24,7 +24,7 @@ Reach out to GSA's media team at [press@gsa.gov](mailto:press@gsa.gov).
 For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.gov).
 </div>
  <aside class="usa-section tablet:grid-col-4 col-last">
-      <h4 class="thick-accent-border padding-top-1">Learn more about 18F</h4>
+      <h4 class="sidebar-heading-topic">Learn more about 18F</h4>
         <ul>
           <li><a href="{{ site.baseurl }}/our-work/">Past projects</a></li>
           <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
