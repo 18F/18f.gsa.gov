@@ -47,8 +47,17 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
       </section>
     </div>
     {% assign featured_blog_content = site.data.featured_blog_content %}
-  <aside class="usa-section tablet:grid-col-4 col-last">
-        <h4>Follow 18F</h4>
+    <aside class="sidebar tablet:grid-col-4">
+      <h4 class="sidebar-heading-topic">Browse by topic</h4>
+      <ul>
+        {% for item in featured_blog_content.topics %}
+        <li>
+          <a href="{{ site.baseurl }}/tags/{{ item.tag }}">{{ item.topic }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+        <h4 class="sidebar-heading-topic">Follow 18F</h4>
         <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
