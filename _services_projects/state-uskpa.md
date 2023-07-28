@@ -2,7 +2,7 @@
 agency: Department of State
 title: Fitting our analysis to your challenge
 subtitle: Improving the tracking of rough diamonds
-permalink: /what-we-deliver/state-uskpa/
+permalink: /our-work/state-uskpa/
 redirect_from: /project/state-uskpa/
 excerpt: Leveraging our technical expertise with USKPA's program knowledge to improve the tracking of rough diamonds
 image: /assets/img/projects/uskpa.png

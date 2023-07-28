@@ -2,7 +2,7 @@
 agency: Department of Homeland Security
 title: Humanizing the citizenship process
 subtitle: From a form-based process to a person-based one
-permalink: /what-we-deliver/myuscis/
+permalink: /our-work/myuscis/
 redirect_from: /project/dhs-myuscis/
 excerpt: Resources and guides for U.S. Citizenship and Immigration Services to make the process of applying for citizenship a little friendlier.
 image: /assets/img/home/hero-immigration.jpg

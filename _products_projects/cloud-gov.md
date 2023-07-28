@@ -2,7 +2,7 @@
 agency: cloud.gov
 title: Expedited path to the cloud
 subtitle: Reducing the compliance and labor burden of moving to the cloud
-permalink: /what-we-deliver/cloud-gov/
+permalink: /our-work/cloud-gov/
 excerpt: A government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
 image: /assets/img/projects/cg.png
 image_accessibility: "The cloud.gov logo of a white star over a black and blue hexagon"

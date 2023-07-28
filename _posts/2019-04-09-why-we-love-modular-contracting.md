@@ -17,7 +17,7 @@ Modular contracting is an acquisition strategy that we use with many of
 our partners and our internal programs. With modular contracting we
 break up large, complex projects into multiple, tightly-scoped
 procurements to implement technology systems in successive, interoperable
-increments. We’ve used this strategy in our work with the [Forest Service](https://18f.gsa.gov/what-we-deliver/forest-service/) and the [State of California](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) to mitigate
+increments. We’ve used this strategy in our work with the [Forest Service](https://18f.gsa.gov/our-work/forest-service/) and the [State of California](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) to mitigate
 risk, reduce vendor lock in, and encourage the delivery of working
 software to users more rapidly. When this practice is combined with
 human-centered, agile practices, and modern infrastructure, it can

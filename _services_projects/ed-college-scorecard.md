@@ -9,7 +9,7 @@ tag: college scorecard
 expiration_date:
 github_repo: "[College Scorecard code](https://github.com/RTICWDT/college-scorecard)"
 project_url: "[collegescorecard.ed.gov](https://collegescorecard.ed.gov/)"
-permalink: /what-we-deliver/college-scorecard/
+permalink: /our-work/college-scorecard/
 redirect_from: /project/ed-college-scorecard/
 project_weight: 4
 ---

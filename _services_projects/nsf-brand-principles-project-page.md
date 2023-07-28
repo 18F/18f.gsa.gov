@@ -2,7 +2,7 @@
 agency: National Science Foundation
 title: Creating brand principles for stronger storytelling
 subtitle: Providing valuable science information to the American public
-permalink: /what-we-deliver/nsf-brand-principles/
+permalink: /our-work/nsf-brand-principles/
 redirect_from: /project/nsf-brand-principles/
 excerpt: The National Science Foundation shares it organizational values and research interests with the public.
 image: /assets/img/projects/nsf-brand-principles-site.png
@@ -10,7 +10,7 @@ image_accessibility: Screenshot of a nsf site
 project_weight: 12
 tag: nsf-brand-principles
 github_repo: "[Project management board](https://github.com/nsf-open/nsf/projects/2)"
-resources: "[See 18F’s other work with NSF](https://18f.gsa.gov/what-we-deliver/seed-fund/)"
+resources: "[See 18F’s other work with NSF](https://18f.gsa.gov/our-work/seed-fund/)"
 ---
 
 The National Science Foundation (NSF) was created in 1950 to promote the

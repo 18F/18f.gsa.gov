@@ -2,7 +2,7 @@
 agency: U.S. Tax Court
 title: Making it easier to resolve tax disputes
 subtitle: Building DAWSON, the U.S. Tax Court’s new case management system
-permalink: /what-we-deliver/tax-court/
+permalink: /our-work/tax-court/
 redirect_from: /project/tax-court/
 excerpt: Developing a new petition and document-filing experience for taxpayers without lawyers, and a better case management workflow for Tax Court employees
 image: /assets/blog/ustc-header-image.png

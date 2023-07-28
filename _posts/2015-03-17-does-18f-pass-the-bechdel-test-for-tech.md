@@ -79,7 +79,7 @@ simplify, streamline, and unify the Small Business Innovation Research
 application process.
 
 
-[*USCIS projects*](https://18f.gsa.gov/what-we-deliver/myuscis/) - We
+[*USCIS projects*](https://18f.gsa.gov/our-work/myuscis/) - We
 are helping to re-image and modernize immigration and visa processes:
 building tools that improve the applicant process, providing clear and
 simple information to the public, and creating new tools that make the

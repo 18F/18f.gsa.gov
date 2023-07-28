@@ -61,8 +61,8 @@ collections:
           label: "Permalink",
           name: "permalink",
           widget: "string",
-          hint: "/what-we-deliver/<agency-name>/",
-          pattern: ['\/what-we-deliver\/([0-9a-zA-Z-]+)\w+\/', 'Must follow hint structure']
+          hint: "/our-work/<agency-name>/",
+          pattern: ['\/our-work\/([0-9a-zA-Z-]+)\w+\/', 'Must follow hint structure']
         }
       - {label: "Redirect From", name: "redirect_from", widget: "string", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "string", default: ""}

@@ -2,7 +2,7 @@
 agency: Department of the Interior
 title: Every Kid in a Park
 subtitle: Designing for every user
-permalink: /what-we-deliver/every-kid-in-a-park/
+permalink: /our-work/every-kid-in-a-park/
 redirect_from: /project/every-kid-in-a-park/
 excerpt: Using research to design a federal website for an audience that doesn’t know the word federal.
 image: /assets/img/home/hero-ekiap.jpg
