@@ -30,7 +30,7 @@ For other inquiries, contact our outreach team at [18F@gsa.gov](mailto:18F@gsa.g
           <li><a href="{{ site.baseurl }}/partnership-principles/">Partnership principles</a></li>
           <li><a href="{{ site.baseurl }}/about/#funding-and-agreements">How we're funded</a></li>
         </ul>
-        <h4>Follow 18F</h4>
+        <h4 class="sidebar-heading-topic">Follow 18F</h4>
         <ul class="usa-list usa-list--unstyled">
           <li>
             <!-- Inline CSS styles because these are only used this way here -->
