@@ -24,12 +24,12 @@ Outdated technology was making it difficult for the Alaska Department of Health 
 
 <div class="case-study-preheader margin-top-6">Approach</div>
 * Together we created a product vision statement, strategy, and roadmap.  
-* We helped staff adopt [DevOps practices](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/) and establish a [build and deployment pipeline](https://18f.gsa.gov/2018/02/01/moving-a-legacy-microsoft-environment-to-the-azure-cloud/) to allow the state to accept work from outside vendors.  
-* Before the state [issued the RFP](https://18f.gsa.gov/2018/02/01/moving-a-legacy-microsoft-environment-to-the-azure-cloud/) to identify a vendor, we used lean prototypes to validate some early technology choices. This also gave our partner confidence that a selected vendor would be able to do the work.  
-* An [agile approach to the RFP documents](https://18f.gsa.gov/2018/05/22/using-agile-methods-to-improve-the-rfp-process/) allowed the final RFP to include comments and address questions from vendors and other stakeholders. 
+* We helped staff adopt DevOps practices and establish a build and deployment pipeline to allow the state to accept work from outside vendors.  
+* Before the state issued the RFP to identify a vendor, we used lean prototypes to validate some early technology choices. This also gave our partner confidence that a selected vendor would be able to do the work.  
+* An agile approach to the RFP documents allowed the final RFP to include comments and address questions from vendors and other stakeholders. 
 
 <div class="case-study-preheader margin-top-6">Outcomes</div>
-* The Alaska Department of Health and Social Services released, awarded, and managed its first [modular procurement](https://18f.gsa.gov/2018/03/13/win-big-by-going-small/). 
+* The Alaska Department of Health and Social Services released, awarded, and managed its first modular procurement.
 * Transparent working processes and good DevOps practices and tools helped foster more trusting, productive relationships between agencies and vendors.
 
 <div class="testimonial-blockquote">
