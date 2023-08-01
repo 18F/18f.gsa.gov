@@ -1,7 +1,7 @@
 ---
 agency: Alaska Department of Health and Social Services
 title: Modernize access to healthcare
-subtitle: Modernize public benefit eligibility systems
+subtitle:
 permalink: /our-work/alaska-dhss/
 redirect_from: /project/alaska-dhss/
 excerpt: Introducing modern digital methods to the State of Alaska’s eligibility system modernization project.
