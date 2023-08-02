@@ -40,6 +40,7 @@ The FEC has published campaign finance data for decades, but its legacy website 
 <div class="testimonial-blockquote">
   We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
     <span>- Alec Palmer, FEC’s Chief Information Officer</span>  
+    
 
 “We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.”
 <span>- FEC product owner</span>
