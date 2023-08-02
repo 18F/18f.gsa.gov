@@ -4,7 +4,7 @@ title: Make it easier to resolve tax disputes
 subtitle:
 permalink: /our-work/tax-court/
 redirect_from: /project/tax-court/
-excerpt: Developing a new petition and document-filing experience for taxpayers without lawyers, and a better case management workflow for Tax Court employees
+excerpt: Developing a new petition and document-filing experience for taxpayers without lawyers, and a better case management workflow for Tax Court employees.
 image: /assets/blog/ustc-header-image.png
 image_accessibility: Screenshot of the new interface
 project_weight: 12
