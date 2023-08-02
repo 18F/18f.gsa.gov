@@ -31,6 +31,6 @@ The Federal Bureau of Investigation collects U.S. crime data as part of the Unif
 <div class="case-study-preheader margin-top-6">Outcomes</div>
 * The site helped the FBI reach a far broader audience, promote citizen engagement, and improve resource allocation for communities.
 * Working in the open helped push the team to better meet the transparency and public service missions of their program.
-* The process of working with 18F helped the Criminal Justice Information Services office begin thinking of itself as a digital organization. 
-* Beyond launching their first open-source, cloud-based app, working with 18F allowed the FBI to use new ways of working that will help modernize how it builds and buys technology.
+* The process of working with 18F helped the Criminal Justice Information Services office begin thinking of itself as a digital organization. Beyond launching their first open-source, cloud-based app, it opened the door for the FBI to use new ways of working that will help modernize how it builds and buys technology.
+
 
