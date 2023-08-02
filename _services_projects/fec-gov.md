@@ -32,15 +32,14 @@ The FEC has published campaign finance data for decades, but its legacy website 
 <div class="case-study-preheader margin-top-6">Outcomes</div>
 * We worked closely with FEC teams to help them transform their whole approach to interacting with the public online.
 * FEC saw the benefits of working iteratively and putting user needs first. They asked us to work with them to solve other problems, including:
- - Creating search tools so laws, regulations, and enforcement actions are easier to find and use
- - Migrating confusing legacy content into a new structure so visitors can find the information they need
- - Exploring how to update the online filing process to help political groups and candidates file the right forms
+    * Creating search tools so laws, regulations, and enforcement actions are easier to find and use
+    * Migrating confusing legacy content into a new structure so visitors can find the information they need
+    * Exploring how to update the online filing process to help political groups and candidates file the right forms
 
 
 <div class="testimonial-blockquote">
   We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
-    <span>- Alec Palmer, FEC’s Chief Information Officer</span>
-
+    <span>- Alec Palmer, FEC’s Chief Information Officer</span>  
 
 “We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.”
 <span>- FEC product owner</span>
