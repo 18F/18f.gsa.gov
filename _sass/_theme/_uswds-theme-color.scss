@@ -42,14 +42,14 @@ $theme-color-base-ink: 'gray-90';
 
 // Primary colors
 $theme-color-primary-family: 'blue';
-$theme-color-primary-lightest: false;
-$theme-color-primary-lighter: 'blue-10';
-$theme-color-primary-light: 'blue-30';
-$theme-color-primary: 'blue-60v';
+$theme-color-primary-lightest: $color-bright-light;
+$theme-color-primary-lighter: 'blue-cool-20v';
+$theme-color-primary-light: 'blue-cool-40v';
+$theme-color-primary: $color-medium;
 $theme-color-primary-vivid: 'blue-warm-60v';
-$theme-color-primary-dark: $color-dark;
+$theme-color-primary-dark: 'blue-70v';
 $theme-color-primary-darker: $color-dark;
-$theme-color-primary-darkest: false;
+$theme-color-primary-darkest: 'blue-90';
 
 // Secondary colors
 $theme-color-secondary-family: 'red';
@@ -73,14 +73,14 @@ $theme-color-accent-warm-darker: 'orange-60';
 $theme-color-accent-warm-darkest: false;
 
 // Accent cool colors
-$theme-color-accent-cool-family: 'blue-cool';
-$theme-color-accent-cool-lightest: false;
-$theme-color-accent-cool-lighter: 'blue-cool-5v';
-$theme-color-accent-cool-light: 'blue-cool-20v';
-$theme-color-accent-cool: $color-medium;
-$theme-color-accent-cool-dark: 'blue-cool-40v';
-$theme-color-accent-cool-darker: 'blue-cool-60v';
-$theme-color-accent-cool-darkest: false;
+$theme-color-accent-cool-family: 'cyan';
+$theme-color-accent-cool-lightest: 'blue-5';
+$theme-color-accent-cool-lighter: 'cyan-10v';
+$theme-color-accent-cool-light: 'cyan-20v';
+$theme-color-accent-cool: $color-bright;
+$theme-color-accent-cool-dark: 'cyan-50v';
+$theme-color-accent-cool-darker: 'cyan-70v';
+$theme-color-accent-cool-darkest: 'cyan-80v';
 
 /*
 ----------------------------------------
