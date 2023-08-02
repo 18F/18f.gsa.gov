@@ -32,6 +32,37 @@
     }
   }
 
+  .usa-nav__primary-item .button--dark  span,
+  .usa-nav__primary-item .usa-nav__link span {
+    @include u-font('sans', 'md');
+    font-weight: font-weight('medium');
+  }
+
+  .usa-nav__primary-item .usa-nav__link span {
+    color: color('primary-dark');
+  }
+
+// Contact link/button
+  .button--dark span {
+    @include u-radius('md');
+    background-color: color('primary-dark');
+    color: white;
+    padding: units(1.5) units(2.5);
+
+    &:focus,
+    &:hover {
+      background-color: color('primary-darker');
+    }
+
+    &:active {
+      background-color: color('primary-darkest');
+    }
+  }
+
+  .button--dark.usa-current span {
+    background-color: color('primary-darkest');
+  }
+
   .usa-nav__secondary-links {
     a {
       @if variable-exists(header-link) {
@@ -48,9 +79,9 @@
 }
 
 // set color and size of bar underneath nav items
-// add-bar(weight, color, side, length, offset-x)
+// add-bar(weight, color, side, radius, offset-x, offset-y)
 @mixin nav-border-basic {
-  @include add-bar(0.5, 'accent-cool', 'bottom', 0, 2, -0.5);
+  @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
 }
 
 // usa-header--basic
@@ -60,9 +91,8 @@
   #header-logo {
     display: flex;
   }
-  
+ 
   @include at-media($theme-header-min-width) {
-   
     .usa-navbar {
       position: relative;
       width: $theme-header-logo-text-width; // TODO: review this more
@@ -93,7 +123,5 @@
 // The search <input>
 [type="search"] {
   min-width: 0; // Fix a Firefox display quirk
-  width: calc(
-      #{$theme-search-min-width} + #{units($theme-button-small-width)}
-  );
+  width: calc( #{$theme-search-min-width} + #{units($theme-button-small-width)};
 }

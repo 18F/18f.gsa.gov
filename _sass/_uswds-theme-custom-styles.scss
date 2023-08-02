@@ -1,135 +1,28 @@
-// -------------------------------------
-// 18F site components
-@import '_components/blockquotes';
-@import '_components/card';
-@import '_components/cta';
-@import '_components/hero';
-@import '_components/lists';
-@import '_components/post-list';
-@import '_components/post-details';
-@import '_components/tag-index';
-@import '_components/featured-posts';
-@import '_components/social-links';
-@import '_components/header';
-@import '_components/nav-buttons';
-@import '_components/utilities';
+// // -------------------------------------
+// // 18F site components
+// @import '_components/blockquotes';
+// @import '_components/card';
+// @import '_components/cta';
+// @import '_components/hero';
+// @import '_components/lists';
+// @import '_components/post-list';
+// @import '_components/post-details';
+// @import '_components/tag-index';
+// @import '_components/featured-posts';
+// @import '_components/social-links';
+ @import '_components/header';
+// @import '_components/nav-buttons';
+// @import '_components/utilities';
 
-// 18F site templates
-// ==========================
-@import '_templates/blog-template';
-@import '_templates/guides';
-@import '_templates/how-we-work';
-@import '_templates/what-we-deliver';
-@import '_templates/home';
+// // 18F site templates
+// // ==========================
+// @import '_templates/blog-template';
+// @import '_templates/guides';
+// @import '_templates/how-we-work';
+// @import '_templates/what-we-deliver';
+// @import '_templates/home';
 
-// -------------------------------------
-// Links and link arrows
-a {
-  color: color('accent-cool');
-}
 
-// -------------------------------------
-// USA Section padding
-.usa-section {
-
-  @include at-media('tablet') {
-    padding: units(5);
-  }
-
-  &.bg-primary-dark {
-    h1 {
-      color: color('secondary');
-      font-size: font-size('sans', '3xl');
-    }
-
-    h2,
-    p {
-      color: color('white');
-    }
-
-    h2 {
-      margin-top: .25em;
-      font-weight: normal;
-    }
-
-    p {
-      font-size: font-size($theme-body-font-family, $theme-h3-font-size);
-    }
-
-    // Mobile styling for ctas
-    .usa-media-block {
-      flex-wrap: wrap;
-
-      @include at-media('tablet') {
-        margin-bottom: 0;
-      }
-    }
-
-    .usa-media-block__body {
-      margin-top: units(2);
-      flex: 1 1 65%;
-
-      @include at-media('tablet') {
-        margin-top: 0;
-        margin-left: units(2);
-      }
-    }
-  }
-
-  &.padding-y-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-
-// -------------------------------------
-// page introduction and call to action
-
-.usa-graphic-list__heading {
-  font-size: size('sans', 'xl');
-}
-
-//footer
-.usa-footer {
-
-  h2 {
-    font-size: font-size($theme-font-role-heading, 'lg');
-    margin-bottom: 1rem;
-    margin-top: units(3);
-
-    @include at-media('tablet') {
-      margin-top: units(0);
-    }
-
-  }
-}
-
-// unset order for a11y
-.usa-layout-docs__sidenav {
-  order: unset;
-  padding-bottom: 2em;
-  padding-top: 0;
-}
-
-// increase height for hero section
-@media (min-width: 640px) {
-  .hero__container {
-      max-height: 550px;
-  }
-}
-
-// Vertical align graphic list items
-.graphic-list {
-  li {
-    padding:0.7em 0;
-  }
-  img {
-  display:table-cell;
-  vertical-align: middle;
-  }
-  span {
-  margin-top:0;
-  display:table-cell;
-  vertical-align: middle;
-  }
+h1 {
+  @include u-text('normal');
 }

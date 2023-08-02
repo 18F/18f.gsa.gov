@@ -33,7 +33,6 @@
         <button class="usa-nav__close">
           <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
         </button>
-
         {% assign _primary = header.primary.links %}
         {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
         {% if primary_links %}
@@ -73,16 +72,21 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
-            {% if header.type == 'basic' or header.type == 'extended' %}
-            </ul>
-            {% endif %}
-            {% if header.type == 'basic-mega' or header.type == 'extended-mega' %}
-              </div><!-- /grid-row -->
-            </div>
-            {% endif %}
+              {% if header.type == 'basic' or header.type == 'extended' %}
+              </ul>
+              {% endif %}
+              {% if header.type == 'basic-mega' or header.type == 'extended-mega' %}
+                </div><!-- /grid-row -->
+              </div>
+              {% endif %}
             {% else %}
-              <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %} {% if _section.href == '/blog/' and page.permalink == False %}usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-                <span>{{ _section.text }}</span>
+              <a class="{%- if _section.class -%}{{ _section.class }}
+                        {%- elsif _section.href contains '/contact' %}button--dark
+                        {%- else -%}usa-nav__link
+                        {%- endif -%}
+                        {% if _section.href == page.permalink %} usa-current {% endif %}
+                        {%- if _section.href == '/blog/' and page.permalink == False -%} usa-current {%- endif -%}"
+                 href="{% if _section.external %} {{ _section.href }} {% else %} {{ _section.href | relative_url }} {% endif %}"> <span>{{ _section.text }}</span>
               </a>
             {% endif %}
           </li>
