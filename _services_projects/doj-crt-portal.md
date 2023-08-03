@@ -23,7 +23,7 @@ The Civil Rights Division (CRT) within the Department of Justice upholds the civ
 
 The public reports over 100,000 possible civil rights violations to CRT each year. Filing was a confusing and inconsistent process, with more than 30 ways to report a complaint. 
 
-CRT received reports by web, email, phone, fax, and physical letter. Most reports had missing or incomplete information. Staff spent most of their time processing unactionable complaints instead of supporting victims.
+CRT received reports by web, email, phone, fax, and physical letter. Most had missing or incomplete information. Staff spent most of their time processing unactionable complaints instead of supporting victims.
 
 <div class="case-study-preheader margin-top-6">Approach</div>
 * The CRT partnered with 18F to streamline the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.
@@ -34,9 +34,9 @@ CRT received reports by web, email, phone, fax, and physical letter. Most report
     * A redesigned [civilrights.justice.gov](https://civilrights.justice.gov/). This site explains in clear language the scope of civil rights enforced by CRT, examples of violations, and the complaints process. 
     * A complaint intake form. The new form has a progress tracker and clear instructions. The form design ensures more complete submissions.
     * Back-end ticketing and tracking system. We designed and built a system to easily route and track complaints through the investigation process. CRT staff have clear visibility into all open complaints. They can review, sort, and route complaints to the right team for investigation.
-* While the investigation process can be complex, complaints are no longer languishing in the unknown. Members of the public can submit complaints and know what to expect next. 
+* While the investigation process can be complex, complaints no longer languish in the unknown. Members of the public can submit complaints and know what to expect next. 
 * CRT staff no longer have to spend hours per week chasing missing information and routing complaints. They can devote more time to helping victims. 
-* The portal is a single source of data about civil rights complaints, and has become a powerful tool for spotting trends and patterns. 
+* The portal is a single source of data about civil rights complaints and has become a powerful tool for spotting trends and patterns. 
 
 <div class="testimonial-blockquote">
   Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization.
