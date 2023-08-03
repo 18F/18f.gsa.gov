@@ -81,7 +81,7 @@
               {% endif %}
             {% else %}
               <a class="{%- if _section.class -%}{{ _section.class }}
-                        {%- elsif _section.href contains '/contact' %}button--dark
+                        {%- elsif _section.href contains '/contact' %}an18f-button--dark margin-top-3 desktop:margin-top-0
                         {%- else -%}usa-nav__link
                         {%- endif -%}
                         {% if _section.href == page.permalink %} usa-current {% endif %}

@@ -32,7 +32,7 @@
     }
   }
 
-  .usa-nav__primary-item .button--dark  span,
+  .usa-nav__primary-item .an18f-button--dark  span,
   .usa-nav__primary-item .usa-nav__link span {
     @include u-font('sans', 'md');
     font-weight: font-weight('medium');
@@ -43,7 +43,7 @@
   }
 
 // Contact link/button
-  .button--dark span {
+  .an18f-button--dark span {
     @include u-radius('md');
     background-color: color('primary-dark');
     color: white;
@@ -59,7 +59,7 @@
     }
   }
 
-  .button--dark.usa-current span {
+  .an18f-button--dark.usa-current span {
     background-color: color('primary-darkest');
   }
 

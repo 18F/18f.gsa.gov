@@ -53,6 +53,29 @@ redirect_from: /developer/
 <!--   </section> -->
 <!-- </section> -->
 
+<section class="bg-base-lightest padding-y-10"> 
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col">
+        <figure class="margin-x-0 margin-y-2"> 
+          <blockquote class="font-sans-2xl line-height-sans-3 margin-top-0 margin-x-0
+                             text-outdent-2"
+          > 
+            &ldquo;We engaged with 18F, and it was a game-changer for us. They came in and
+            helped the IT team and business owners get involved in the agile
+            development process. It changed our whole methodology.&rdquo;
+          </blockquote>
+          <figcaption class="font-sans-lg">
+            <strong>&mdash;Alec Palmer</strong>, FEC’s Chief Information Officer 
+          </figcaption> 
+        </figure>
+      </div>
+    </div>
+  </div>
+  <p> </p>
+</section>
+
+{% comment %}
 {% include testimonial.html
   quote="We engaged with 18F, and it was a game-changer for us. They came in and
   helped the IT team and business owners get involved in the agile
@@ -61,26 +84,131 @@ redirect_from: /developer/
   position="FEC’s Chief Information Officer"
   agency_image="fec.svg"
   %}
+{% endcomment %}
 
-<section class="usa-section bg-base-lightest padding-y-0 usa-section--mobile-no-x">
+
+<section class="usa-section usa-section--dark">
   <div class="grid-container">
-    <div class="grid-row grid-gap align-items-center">
-      <div class="tablet:grid-col-6 padding-y-2 tablet:padding-y-5">
-        <h2>We support your mission</h2>
-        <p>
-          As an office within the General Services Administration, we know how to
-          work with government. Federal, state, and local governments can partner
-          with 18F to deliver projects that fulfill their mission, stay within
-          budget, and use leading technology practices.
-        </p>
+    <div class="grid-row margin-bottom-6">
+      <h2> What 18F can do</h2>
+    </div>
+
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
+        {% include graphic-block.html
+           img_path="/assets/img/home/can-do_illo-1.svg"
+           body_text="Modernize software development processes"
+        %}
       </div>
-      <div class="tablet:grid-col-6 home-mission-container">
-        <img src="{{ site.baseurl }}/assets/img/2people-talking.jpeg" alt>
+
+      <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
+        {% include graphic-block.html
+           img_path="/assets/img/home/can-do_illo-2.svg"
+           body_text="Improve public-facing services like websites or applications"
+        %}
       </div>
+
+      <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
+        {% include graphic-block.html
+           img_path="/assets/img/home/can-do_illo-3.svg"
+           body_text="Digitize and streamline internal systems"
+        %}
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <img src="{{ site.baseurl }}/assets/img/home/can-do_illo-4.svg">
+    </div>
+
+    <div class="grid-row margin-top-4">
+      <p class="font-sans-xl measure-6">
+        Each 18F engagement is tailored to your agency needs and capabilities.
+        We listen to your needs, then take action together.
+      </p>
+    </div>
+
+    <a href="{{ site.baseurl }}/how-we-work/" 
+       class="usa-button usa-button--big a18f-button--accent margin-top-4"
+    > Work with us 
+    </a>
+
+  </div>
+</section>
+
+<section class="usa-section bg-base-lightest usa-section--mobile-no-x">
+  <div class="grid-container">
+    <h2>Featured projects</h2>
+    <div class="grid-row grid-gap-lg margin-top-5">
+      <ul class="usa-card-group">
+        {% include card.html project='fec-gov' %}
+        {% include card.html project='treasury-data-act' %}
+        {% include card.html project='calc' %}
+      </ul>
     </div>
   </div>
 </section>
 
+<section class="usa-section usa-section--mobile-no-x">
+  <div class="grid-container">
+    {% assign agency_partners = site.data.featured_agencies %} {% assign
+    partner_groups = agency_partners | in_groups: 3 %}
+    <h2>Some agencies we’ve worked with</h2>
+    <ul class="grid-row grid-gap usa-list--unstyled">
+      {% for group in partner_groups %}
+      <li class="tablet:grid-col-4">
+        <ul class="agency-lists list-images">
+          {% for partner in group %}
+          <li class="display-flex flex-align-center">
+            <img
+              class="margin-right-105 maxw-7"
+              src="{{ partner.logo | prepend: site.baseurl }}"
+              alt=""
+            />
+            {% if partner.agency_url %}
+            <a
+              class="list-images-text"
+              href="{{ partner.agency_url | prepend: site.baseurl }}"
+              >{{ partner.name }}</a
+            >
+            {% else %}
+            <span class="list-images-text">{{ partner.name }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+    <p>
+      <a
+        class="link-arrow-right post-link-continue_reading"
+        href="{{ site.baseurl }}/our-work/"
+      >
+        See more agency partners {% include svg/icons/arrow-right.svg %}
+      </a>
+    </p>
+  </div>
+</section>
+
+<!--   <div class="grid-container"> -->
+<!--     <div class="grid-row grid-gap align-items-center"> -->
+<!--       <div class="tablet:grid-col-6 padding-y-2 tablet:padding-y-5"> -->
+<!--         <h2>We support your mission</h2> -->
+<!--         <p> -->
+<!--           As an office within the General Services Administration, we know how to -->
+<!--           work with government. Federal, state, and local governments can partner -->
+<!--           with 18F to deliver projects that fulfill their mission, stay within -->
+<!--           budget, and use leading technology practices. -->
+<!--         </p> -->
+<!--       </div> -->
+<!--       <div class="tablet:grid-col-6 home-mission-container"> -->
+<!--         <img src="{{ site.baseurl }}/assets/img/2people-talking.jpeg" alt> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
+
+{% comment %}
 <section class="usa-section usa-section--mobile-no-x">
   <div class="grid-container">
     <h2 class="margin-bottom-2">What 18F can do</h2>
@@ -125,61 +253,10 @@ redirect_from: /developer/
 </section>
 
 
-<section class="usa-section bg-base-lightest usa-section--mobile-no-x">
-  <div class="grid-container">
-    <h2>Case studies</h2>
-    <div class="grid-row grid-gap">
-      <ul class="usa-card-group">
-        {% include card.html project='fec-gov' %}
-        {% include card.html project='treasury-data-act' %}
-        {% include card.html project='calc' %}
-      </ul>
-    </div>
-  </div>
-</section>
 
-<section class="usa-section usa-section--mobile-no-x">
-  <div class="grid-container">
-    {% assign agency_partners = site.data.featured_agencies %} {% assign
-    partner_groups = agency_partners | in_groups: 3 %}
-    <h2>Some agencies we’ve worked with</h2>
-    <ul class="grid-row grid-gap usa-list--unstyled">
-      {% for group in partner_groups %}
-      <li class="tablet:grid-col-4">
-        <ul class="agency-lists list-images">
-          {% for partner in group %}
-          <li class="list-images-item">
-            <img
-              class="list-images-image"
-              src="{{ partner.logo | prepend: site.baseurl }}"
-              alt=""
-            />
-            {% if partner.agency_url %}
-            <a
-              class="list-images-text"
-              href="{{ partner.agency_url | prepend: site.baseurl }}"
-              >{{ partner.name }}</a
-            >
-            {% else %}
-            <span class="list-images-text">{{ partner.name }}</span>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-      {% endfor %}
-    </ul>
-    <p>
-      <a
-        class="link-arrow-right post-link-continue_reading"
-        href="{{ site.baseurl }}/our-work/"
-      >
-        See more agency partners {% include svg/icons/arrow-right.svg %}
-      </a>
-    </p>
-  </div>
-</section>
+{% endcomment %}
 
+{%comment%}
 {% assign latest_posts = site.posts | slice:0,3 %}
 {% include featured-posts.html
   hide_date=true
@@ -188,3 +265,4 @@ redirect_from: /developer/
   show_tags=false
   additional_class="usa-section--mobile-no-x"
 %}
+{% endcomment %}

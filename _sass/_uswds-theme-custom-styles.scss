@@ -26,3 +26,63 @@
 h1 {
   @include u-text('normal');
 }
+
+h2 {
+  @include u-font('heading', '2xl');
+  @include u-text('normal');
+}
+
+h3 {
+  @include u-font('heading', 'xl');
+  @include u-text('bold');
+}
+
+// Dark section overrides
+.usa-section--dark {
+  h2 {
+    color: white;
+  }
+
+  .a18f-button--accent {
+    &:focus,
+    &:hover {
+      color: color('primary-darkest');
+    }
+
+    &:active {
+      color: white;
+    }
+  }
+}
+
+// Custom button style 
+.a18f-button--accent {
+  background-color: color('primary-lightest'); 
+  color: color('primary-darkest');
+
+  &:visited {
+    color: initial; 
+  }
+
+  &:focus,
+  &:hover {
+    background-color: color('primary-lighter');
+  }
+
+  &:active {
+    background-color: color('primary');
+    color: white;
+  }
+}
+
+
+
+// Custom utitlities, TODO: Move to utils file
+
+.text-outdent-1 {
+  text-indent: units(-1);
+}
+
+.text-outdent-2 {
+  text-indent: units(-2);
+}

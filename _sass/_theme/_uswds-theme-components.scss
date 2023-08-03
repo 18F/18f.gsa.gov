@@ -55,7 +55,7 @@ $theme-button-stroke-width: 2px;
 $theme-card-border-color: 'base-lighter';
 $theme-card-border-radius: 'md';
 $theme-card-border-width: 0;
-$theme-card-gap: 2;
+$theme-card-gap: 3;
 $theme-card-flag-min-width: 'tablet';
 $theme-card-flag-image-width: 'card-lg';
 $theme-card-font-family: 'body';
@@ -81,7 +81,7 @@ $theme-input-state-border-width: 0.5;
 $theme-header-font-family: 'ui';
 $theme-header-logo-text-width: 15%;
 $theme-header-max-width: 'desktop-lg';
-$theme-header-min-width: 'desktop';
+$theme-header-min-width: 'desktop-lg';
 
 // Hero
 $theme-hero-image: '#{$theme-image-path}/hero.png';
@@ -90,7 +90,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 $theme-identifier-font-family: 'ui';
 $theme-identifier-background-color: 'base-darkest';
 $theme-identifier-identity-domain-color: 'base-light';
-$theme-identifier-max-width: 'desktop';
+$theme-identifier-max-width: 'desktop-lg';
 $theme-identifier-secondary-link-color: 'base-light';
 
 // Navigation
