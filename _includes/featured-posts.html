@@ -1,4 +1,5 @@
 {% assign featured_posts = include.related_posts %}
+{% comment %}
 <section class="usa-section featured-posts {{ include.additional_class }}">
   <div class="grid-container">
   {% if featured_posts.size > 0 %}
@@ -24,4 +25,26 @@
     {% endfor %}
   </ul>
   </div>
+
 </section>
+{% endcomment %}
+-----
+
+
+  {% if featured_posts.size > 0 %}
+  <div class="grid-container">
+    <div class="grid-row">
+      {% for post in featured_posts %}
+      <div class="tablet:grid-col-4">
+        {% include post.html 
+           post_date=post.date 
+           post_title=post.title 
+           post_url=post.url 
+           excerpt=false
+           show_tags=include.show_tags %}
+       </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+

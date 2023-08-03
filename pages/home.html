@@ -150,15 +150,11 @@ redirect_from: /developer/
 
 <section class="usa-section usa-section--mobile-no-x">
   <div class="grid-container">
-    {% assign agency_partners = site.data.featured_agencies %} {% assign
-    partner_groups = agency_partners | in_groups: 3 %}
+    {% assign agency_partners = site.data.featured_agencies %}
     <h2>Some agencies we’ve worked with</h2>
     <ul class="grid-row grid-gap usa-list--unstyled">
-      {% for group in partner_groups %}
-      <li class="tablet:grid-col-4">
-        <ul class="agency-lists list-images">
-          {% for partner in group %}
-          <li class="display-flex flex-align-center">
+      {% for partner in agency_partners %}
+      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-3">
             <img
               class="margin-right-105 maxw-7"
               src="{{ partner.logo | prepend: site.baseurl }}"
@@ -173,22 +169,24 @@ redirect_from: /developer/
             {% else %}
             <span class="list-images-text">{{ partner.name }}</span>
             {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
+        </li>
       {% endfor %}
     </ul>
-    <p>
       <a
-        class="link-arrow-right post-link-continue_reading"
+        class="usa-button usa-button--large margin-top-4"
         href="{{ site.baseurl }}/our-work/"
-      >
-        See more agency partners {% include svg/icons/arrow-right.svg %}
+      > See all agency partners 
       </a>
-    </p>
   </div>
 </section>
+{% assign latest_posts = site.posts | slice:0,6 %}
+{% include featured-posts.html
+  hide_date=true
+  title="Recent blog posts"
+  related_posts=latest_posts
+  show_tags=false
+  additional_class="usa-section--mobile-no-x"
+%}
 
 <!--   <div class="grid-container"> -->
 <!--     <div class="grid-row grid-gap align-items-center"> -->
