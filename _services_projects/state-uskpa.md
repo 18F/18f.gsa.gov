@@ -1,6 +1,6 @@
 ---
 agency: Department of State
-title: An essential tool redesigned within a limited budget
+title: Redesign an essential tool
 subtitle:
 permalink: /our-work/state-uskpa/
 redirect_from: /project/state-uskpa/
