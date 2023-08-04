@@ -138,7 +138,7 @@ redirect_from: /developer/
 <section class="usa-section bg-base-lightest usa-section--mobile-no-x">
   <div class="grid-container">
     <h2>Featured projects</h2>
-    <div class="grid-row grid-gap-lg margin-top-5">
+    <div class="grid-row grid-gap-lg margin-top-6">
       <ul class="usa-card-group">
         {% include card.html project='fec-gov' %}
         {% include card.html project='treasury-data-act' %}
@@ -179,14 +179,31 @@ redirect_from: /developer/
       </a>
   </div>
 </section>
-{% assign latest_posts = site.posts | slice:0,6 %}
-{% include featured-posts.html
-  hide_date=true
-  title="Recent blog posts"
-  related_posts=latest_posts
-  show_tags=false
-  additional_class="usa-section--mobile-no-x"
-%}
+
+
+<section class="usa-section usa-section--dark bg-primary-dark"> 
+  <div class="grid-container">
+    <div class="grid-row margin-bottom-6">
+      <h2> Recent blog posts </h2> 
+    </div>
+
+    {% assign latest_posts = site.posts | slice:0,6 %}
+    {% include featured-posts.html
+      hide_date=true
+      title="Recent blog posts"
+      related_posts=latest_posts
+      show_tags=false
+      additional_class="usa-section--mobile-no-x"
+    %}
+    
+    <a href="{{ site.baseurl }}/blog/" 
+       class="usa-button usa-button--big a18f-button--accent margin-top-4"
+    > See all blog posts
+    </a>
+
+  </div>
+</section>
+
 
 <!--   <div class="grid-container"> -->
 <!--     <div class="grid-row grid-gap align-items-center"> -->
@@ -249,7 +266,6 @@ redirect_from: /developer/
     </div>
   </div>
 </section>
-
 
 
 {% endcomment %}

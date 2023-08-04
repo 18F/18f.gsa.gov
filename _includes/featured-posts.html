@@ -1,5 +1,33 @@
 {% assign featured_posts = include.related_posts %}
+
+{% if featured_posts.size > 0 %}
+  <ul class="grid-row grid-gap usa-list--unstyled">
+    {% for post in featured_posts %}
+    <li class="tablet:grid-col-4"> 
+      <a href="{{ site.baseurl }}/{{ post.url }}" class="text-no-underline">
+        <h3 class="border-top-05 border-primary-lightest 
+                   margin-bottom-5 padding-top-3 text-white"
+        >
+          {{ post.title }}
+        </h3>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% comment %}
+//TODO: Remove if unusued
+        {% include post.html
+          post_date=post.date
+          post_title=post.title
+          post_url=post.url
+          excerpt=false
+          show_tags=include.show_tags %}
+{% endcomment %}
+
+{% comment %}
+//TODO: Remove if unusued
 <section class="usa-section featured-posts {{ include.additional_class }}">
   <div class="grid-container">
   {% if featured_posts.size > 0 %}
@@ -28,23 +56,4 @@
 
 </section>
 {% endcomment %}
------
-
-
-  {% if featured_posts.size > 0 %}
-  <div class="grid-container">
-    <div class="grid-row">
-      {% for post in featured_posts %}
-      <div class="tablet:grid-col-4">
-        {% include post.html 
-           post_date=post.date 
-           post_title=post.title 
-           post_url=post.url 
-           excerpt=false
-           show_tags=include.show_tags %}
-       </div>
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
 

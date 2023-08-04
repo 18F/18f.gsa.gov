@@ -22,6 +22,7 @@
 // @import '_templates/what-we-deliver';
 // @import '_templates/home';
 
+$letter-spacing-xs: 0.0125em;
 
 h1 {
   @include u-text('normal');
@@ -35,6 +36,8 @@ h2 {
 h3 {
   @include u-font('heading', 'xl');
   @include u-text('bold');
+  @include u-line-height('heading', 3);
+  letter-spacing: $letter-spacing-xs;
 }
 
 // Dark section overrides
@@ -53,12 +56,17 @@ h3 {
       color: white;
     }
   }
+  
+  .text-white {
+    color: white;
+  }
 }
 
 // Custom button style 
 .a18f-button--accent {
   background-color: color('primary-lightest'); 
   color: color('primary-darkest');
+  letter-spacing: $letter-spacing-xs;
 
   &:visited {
     color: initial; 
@@ -78,6 +86,10 @@ h3 {
 
 
 // Custom utitlities, TODO: Move to utils file
+
+.text-ls-05 {
+  letter-spacing: $letter-spacing-xs;
+}
 
 .text-outdent-1 {
   text-indent: units(-1);
