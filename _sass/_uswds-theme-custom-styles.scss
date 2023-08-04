@@ -83,9 +83,37 @@ h3 {
   }
 }
 
+.an18f-button--dark {
+  @include u-radius('md');
+  background-color: color('primary-dark');
+  color: white;
+  padding: units(1.5) units(2.5);
+
+  &:focus,
+  &:hover {
+    background-color: color('primary-darker');
+  }
+
+  &:active {
+    background-color: color('primary-darkest');
+  }
+}
+
 
 
 // Custom utitlities, TODO: Move to utils file
+
+.list-space-1 {
+  li {
+    margin-bottom: units(1);
+  }
+}
+
+.list-space-2 {
+  li {
+    margin-bottom: units(2);
+  }
+}
 
 .text-ls-05 {
   letter-spacing: $letter-spacing-xs;

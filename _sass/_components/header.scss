@@ -42,21 +42,9 @@
     color: color('primary-dark');
   }
 
-// Contact link/button
+// Contact link/button overrrides
   .an18f-button--dark span {
-    @include u-radius('md');
-    background-color: color('primary-dark');
     color: white;
-    padding: units(1.5) units(2.5);
-
-    &:focus,
-    &:hover {
-      background-color: color('primary-darker');
-    }
-
-    &:active {
-      background-color: color('primary-darkest');
-    }
   }
 
   .an18f-button--dark.usa-current span {
