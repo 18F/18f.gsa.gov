@@ -32,28 +32,6 @@ redirect_from: /developer/
   </div>
 </section>
 
-<!-- <section class="bg-primary-dark"> -->
-<!--   <section class="usa-hero usa-hero--primary"> -->
-<!--     <div class="grid-container"> -->
-<!--       <div class="grid-row hero__container"> -->
-<!--         <h1 class="hero__tagline"> -->
-<!--         18F knows how to work within government — because we’re already here. -->
-<!--         </h1> -->
-<!--         <h2 class="text-light hero__sub-tagline"> -->
-<!--           As federal employees, we don’t have conflicts of interest, just dedication to your mission. Together with our government agency partners, we deliver projects that stay within budget and improve their technology. -->
-<!--         </h2> -->
-<!--         <div class="hero__contact-button"> -->
-<!--           <a class="hero__contact-button usa-button usa-button--secondary usa-button--big margin-y-3" -->
-<!--               href="{{ site.baseurl }}/contact/"> -->
-<!--             Get in touch -->
-<!--           </a> -->
-<!--         </div> -->
-<!--         <img class="hero__graphic" src="{{ site.baseurl }}/assets/img/homepage-graphic-2021.svg" alt=""> -->
-<!--       </div> -->
-<!--     </div> -->
-<!--   </section> -->
-<!-- </section> -->
-
 <section class="bg-base-lightest padding-y-10"> 
   <div class="grid-container">
     <div class="grid-row">
@@ -75,17 +53,6 @@ redirect_from: /developer/
   </div>
   <p> </p>
 </section>
-
-{% comment %}
-{% include testimonial.html
-  quote="We engaged with 18F, and it was a game-changer for us. They came in and
-  helped the IT team and business owners get involved in the agile
-  development process. It changed our whole methodology."
-  attribution="Alec Palmer"
-  position="FEC’s Chief Information Officer"
-  agency_image="fec.svg"
-  %}
-{% endcomment %}
 
 <section class="usa-section usa-section--dark">
   <div class="grid-container">
@@ -131,7 +98,6 @@ redirect_from: /developer/
        class="usa-button usa-button--big a18f-button--accent margin-top-4"
     > Work with us 
     </a>
-
   </div>
 </section>
 
@@ -180,7 +146,6 @@ redirect_from: /developer/
   </div>
 </section>
 
-
 <section class="usa-section usa-section--dark bg-primary-dark"> 
   <div class="grid-container">
     <div class="grid-row margin-bottom-6">
@@ -200,83 +165,6 @@ redirect_from: /developer/
        class="usa-button usa-button--big a18f-button--accent margin-top-4"
     > See all blog posts
     </a>
-
   </div>
 </section>
-
-<!--   <div class="grid-container"> -->
-<!--     <div class="grid-row grid-gap align-items-center"> -->
-<!--       <div class="tablet:grid-col-6 padding-y-2 tablet:padding-y-5"> -->
-<!--         <h2>We support your mission</h2> -->
-<!--         <p> -->
-<!--           As an office within the General Services Administration, we know how to -->
-<!--           work with government. Federal, state, and local governments can partner -->
-<!--           with 18F to deliver projects that fulfill their mission, stay within -->
-<!--           budget, and use leading technology practices. -->
-<!--         </p> -->
-<!--       </div> -->
-<!--       <div class="tablet:grid-col-6 home-mission-container"> -->
-<!--         <img src="{{ site.baseurl }}/assets/img/2people-talking.jpeg" alt> -->
-<!--       </div> -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </section> -->
-
-{% comment %}
-<section class="usa-section usa-section--mobile-no-x">
-  <div class="grid-container">
-    <h2 class="margin-bottom-2">What 18F can do</h2>
-    <div class="grid-row grid-gap">
-      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
-        <img class="usa-media-block__img" src="{{ site.baseurl }}/assets/img/user-interviews--c.svg" alt="">
-        <div class="usa-media-block__body">
-          <p>
-          <strong>Modernize</strong> software development processes
-          </p>
-        </div>
-      </div>
-      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
-        <img class="usa-media-block__img " src="{{ site.baseurl }}/assets/img/tablet-hand-blue--c.svg" alt="">
-        <div class="usa-media-block__body">
-          <p>
-            <strong>Improve</strong> public-facing services like websites or applications
-          </p>
-        </div>
-      </div>
-      <div class="usa-media-block usa-media-block__cando tablet:grid-col">
-        <img class="usa-media-block__img" src="{{ site.baseurl }}/assets/img/clock.svg" alt="">
-        <div class="usa-media-block__body">
-          <p>
-            <strong>Digitize and streamline</strong> internal systems
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap margin-top-4">
-      <div class="grid-col-8">
-        <p>Each 18F engagement is tailored to your agency needs and capabilities. We listen to your needs, then take action together.</p>
-      </div>
-      <div class="grid-col-4">
-        <a class="usa-button usa-button--big float-right margin-y-3 display-block" 
-            href="{{ site.baseurl }}/how-we-work/">
-          Work with us
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-{% endcomment %}
-
-{%comment%}
-{% assign latest_posts = site.posts | slice:0,3 %}
-{% include featured-posts.html
-  hide_date=true
-  title="Recent blog posts"
-  related_posts=latest_posts
-  show_tags=false
-  additional_class="usa-section--mobile-no-x"
-%}
-{% endcomment %}
 
