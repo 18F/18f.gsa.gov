@@ -47,6 +47,8 @@ h3 {
   }
 
   .a18f-button--accent {
+    color: initial; 
+
     &:focus,
     &:hover {
       color: color('primary-darkest');
@@ -88,6 +90,10 @@ h3 {
   background-color: color('primary-dark');
   color: white;
   padding: units(1.5) units(2.5);
+
+  &:visited {
+    color: initial;
+  }
 
   &:focus,
   &:hover {
