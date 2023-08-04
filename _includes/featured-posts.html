@@ -1,7 +1,7 @@
 {% assign featured_posts = include.related_posts %}
 
 {% if featured_posts.size > 0 %}
-  <ul class="grid-row grid-gap usa-list--unstyled">
+  <ul class="grid-row grid-gap-lg usa-list--unstyled">
     {% for post in featured_posts %}
     <li class="tablet:grid-col-4"> 
       <a href="{{ site.baseurl }}/{{ post.url }}" class="text-no-underline">
