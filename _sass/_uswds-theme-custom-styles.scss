@@ -34,10 +34,15 @@ h2 {
 }
 
 h3 {
-  @include u-font('heading', 'xl');
+  @include u-font('heading', 'lg');
   @include u-text('bold');
   @include u-line-height('heading', 3);
   letter-spacing: $letter-spacing-xs;
+}
+// Section overrides
+.usa-section {
+  padding-top: units(10);
+  padding-bottom: units(6);
 }
 
 // Dark section overrides
