@@ -46,7 +46,7 @@ h3 {
     color: white;
   }
 
-  .a18f-button--accent {
+  .an18f-button--accent {
     color: initial; 
 
     &:focus,
@@ -65,7 +65,7 @@ h3 {
 }
 
 // Custom button style 
-.a18f-button--accent {
+.an18f-button--accent {
   background-color: color('primary-lightest'); 
   color: color('primary-darkest');
   letter-spacing: $letter-spacing-xs;
