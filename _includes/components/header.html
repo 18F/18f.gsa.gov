@@ -99,7 +99,12 @@
           {% assign _secondary = header.secondary %}
           {% if site.search_site_handle  %}
           <a href="https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=18F-site&query=&commit="
-             class="usa-button padding-x-2" > <img src="{{site.baseurl}}/assets/uswds/img/usa-icons-bg/search--white.svg"></a>
+             class="usa-button padding-x-2"
+          >
+            <img src="{{site.baseurl}}/assets/uswds/img/usa-icons-bg/search--white.svg"
+                 alt="Search"
+            >
+          </a>
             {% comment %}
             {% include components/search.html %}
             {% endcomment %}
