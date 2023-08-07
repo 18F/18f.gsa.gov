@@ -36,7 +36,7 @@ redirect_from: /developer/
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-col">
-        <figure class="margin-y-2"> 
+        <figure class="margin-y-0"> 
           <blockquote class="font-sans-xl tablet-lg:font-sans-2xl line-height-sans-3 
                              margin-top-0 margin-x-1 tablet:margin-x-0 text-outdent-2"
           > 
@@ -117,10 +117,10 @@ redirect_from: /developer/
 <section class="usa-section usa-section--mobile-no-x">
   <div class="grid-container">
     {% assign agency_partners = site.data.featured_agencies %}
-    <h2>Some agencies we’ve worked with</h2>
+    <h2 class="margin-bottom-3">Some agencies we’ve worked with</h2>
     <ul class="grid-row grid-gap usa-list--unstyled">
       {% for partner in agency_partners %}
-      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-3">
+      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-4">
             <img
               class="margin-right-105 maxw-7"
               src="{{ partner.logo | prepend: site.baseurl }}"

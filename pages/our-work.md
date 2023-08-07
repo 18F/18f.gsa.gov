@@ -26,7 +26,7 @@ gridless: true
       </p>
     </div>
     <div class="grid-col-12">
-      <a class="usa-button a18f-button--accent"
+      <a class="usa-button an18f-button--accent"
          href="{{ site.baseurl }}/contact/"
        >Get in touch
        </a>
@@ -51,12 +51,15 @@ gridless: true
       </ul>
       </div>
     </div>
-    {%- comment -%} <p>
+
+    {%- comment -%} 
+    <p>
       <a class="link-arrow-right post-link-continue_reading" href="{{ '/work-with-us/' | prepend: site.baseurl }}">
         See all case studies
         {% include svg/icons/arrow-right.svg %}
       </a>
-    </p> {%- endcomment -%}
+    </p> 
+    {%- endcomment -%}
 </section>
 
 {% include testimonial.html
@@ -73,7 +76,7 @@ gridless: true
     {% assign partner_groups = agency_partners | in_groups: 3 %}
     <ul class="grid-row grid-gap usa-list--unstyled">
       {% for partner in agency_partners %}
-      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-3">
+      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-4">
             <img
               class="margin-right-105 maxw-7"
               src="{{ partner.logo | prepend: site.baseurl }}"
