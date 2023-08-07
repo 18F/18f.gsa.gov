@@ -1,6 +1,5 @@
 ---
 agency: General Services Administration
-agency-logo: /assets/img/logos/gsa-logo.svg
 title: Better tools for better research
 subtitle: Streamlining a critical contracting task
 permalink: /our-work/calc/

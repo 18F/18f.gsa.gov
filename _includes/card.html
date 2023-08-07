@@ -10,8 +10,15 @@
     <header class="usa-card__header">
       {% if project.agency %}
         <div class="display-flex flex-align-center"> 
-          {% if project.agency-logo %} 
-          <img src= "{{ site.baseurl }}/{{project.agency-logo}}" 
+          {% assign agency = site.data.agencies | where: "name", project.agency | first %}
+          {% assign agency_logo = agency.logo %}
+          {% unless agency_logo %}
+            {% if project.agency_logo %}
+              {% assign agency_logo = project.agency_logo %}
+            {% endif %}
+          {% endunless %}
+          {% if agency_logo %} 
+          <img src= "{{ site.baseurl }}/{{ agency_logo }}" 
                class="maxw-8 margin-right-2"
                alt=""
           >

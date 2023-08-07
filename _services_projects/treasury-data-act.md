@@ -1,6 +1,5 @@
 ---
 agency: Department of the Treasury
-agency-logo: /assets/img/logos/agencies/treasury.svg
 title: Implementing a government-wide law
 subtitle: A new way to track federal spending
 permalink: /our-work/data-act/

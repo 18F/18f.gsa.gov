@@ -1,6 +1,6 @@
 ---
 agency: Federal Election Commission
-agency-logo: /assets/img/logos/agencies/fec.svg
+agency_logo: /assets/img/logos/agencies/fec.svg
 title: Easy-to-use campaign data
 subtitle: Tackling decades of data
 permalink: /our-work/fec-gov/
