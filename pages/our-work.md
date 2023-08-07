@@ -16,25 +16,30 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<div class="grid-container usa-section case-section">
-  <section class="grid-row">
-    <div class="tablet:grid-col-9">
+
+<section class="bg-primary-dark"> 
+<div class="grid-container usa-section usa-section--dark bg-primary-dark">
+  <div class="grid-row">
+    <div class="grid-col-12 margin-bottom-4">
       <p class="font-sans-lg">
         Since 2014, 18F has worked with federal, state, and local agencies to improve the user experience of government. Get in touch to talk about how we can work together.
       </p>
     </div>
-    <div class="tablet:grid-col-3">
-      <a class="usa-button usa-button--big float-right margin-y-3 display-block"
-              href="{{ site.baseurl }}/contact/">
-            Get in touch
-          </a>
+    <div class="grid-col-12">
+      <a class="usa-button a18f-button--accent"
+         href="{{ site.baseurl }}/contact/"
+       >Get in touch
+       </a>
     </div>
-  </section>
+  </div>
 </div>
+</section>
 
-<section class="usa-section case-section grid-container">
-    <div class="usa-section-bottom">
-      <h2>Case studies</h2>
+<section class="usa-section case-section bg-base-lightest">
+    <div class="grid-container">
+      <div clas="grid-row"> 
+          <h2 class="margin-bottom-5">Case studies</h2>
+      </div>
       <div class="grid-row grid-gap">
       <ul class="usa-card-group">
         {% assign featured_services = site.data.featured_services %}
@@ -57,7 +62,8 @@ gridless: true
 {% include testimonial.html
  quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
  attribution="Christina Ho"
- position="Former Deputy Assistant Secretary, Office of Accounting Policy & Financial Transparency, Department of the Treasury"
+ position="Former Deputy Assistant Secretary"
+ organization="Office of Accounting Policy & Financial Transparency, Department of the Treasury"
  agency_image="treasury.svg"
  %}
 
@@ -65,6 +71,27 @@ gridless: true
   <section class="grid-container">
     {% assign agency_partners = site.data.agencies %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
+    <ul class="grid-row grid-gap usa-list--unstyled">
+      {% for partner in agency_partners %}
+      <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-3">
+            <img
+              class="margin-right-105 maxw-7"
+              src="{{ partner.logo | prepend: site.baseurl }}"
+              alt=""
+            />
+            {% if partner.agency_url %}
+            <a
+              class="list-images-text"
+              href="{{ partner.agency_url | prepend: site.baseurl }}"
+              >{{ partner.name }}</a
+            >
+            {% else %}
+            <span class="list-images-text">{{ partner.name }}</span>
+            {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% comment %}
     <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
       <ul class="agency-lists grid-row grid-gap">
       {% for group in partner_groups %}
@@ -84,5 +111,6 @@ gridless: true
         </li>
       {% endfor %}
       </ul>
+     {% endcomment %}
   </section>
 </div>
