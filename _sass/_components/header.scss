@@ -105,6 +105,10 @@
     .usa-nav__link:hover {
       @include nav-border-basic;
     }
+
+    .usa-nav__primary-item > .usa-current span {
+      color: color('primary-darkest');
+    }
   }
 }
 

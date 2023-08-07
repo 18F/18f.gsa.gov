@@ -17,8 +17,8 @@ banner_cta: true
 gridless: true
 ---
 
-<section class="bg-primary-dark"> 
-<div class="grid-container usa-section usa-section--dark bg-primary-dark">
+<section class="bg-primary-darker usa-section--dark"> 
+<div class="grid-container usa-section">
   <div class="grid-row">
     <div class="grid-col-12 margin-bottom-4">
       <p class="font-sans-lg">
