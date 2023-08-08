@@ -164,19 +164,20 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     {% for project in projects %} 
       {% assign project_details = site | find_collection: 'services_projects' | where: 'slug', project | first %}
       {% assign project_agency = site.data.agencies | where: "name", project_details.agency | first %}
+      {% assign project_link = site.baseurl | append: project_details.permalink %}
       <div class="grid-col-6">
         {% include card-with-image.html 
-           card_color="primary-dark"
            img_path=project_agency.logo
-           img_alt_text=project_agency.logo
-           link_url="https://accessibility.18f.gov/"
-           text_content=project_details.excerpt
+           img_alt_text=project_agency.name
+           img_size="md"
+           link_url= project_link
+           text_content=project_details.mini_excerpt
         %}
       </div>
     {% endfor %}
     </div>
-   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
-     Browse our guides 
+   <a href="{{ site.baseurl }}/our-work/" class="usa-button usa-button--outline margin-top-3">
+     Read our case studies
    </a>
   </div>
 </section>

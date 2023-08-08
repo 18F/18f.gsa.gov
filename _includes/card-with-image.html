@@ -5,7 +5,7 @@
 
   {% capture card_image %}
   <img src="{{ site.baseurl }}{{include.img_path}}" 
-       class="maxw-8 height-6 margin-top-0 {% unless include.img_side == "right" %} margin-right-2 {% endunless %}"
+       class="{%- if include.img_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless include.img_side == "right" %} margin-right-2 {% endunless %}"
        alt="{{- include.img_alt_text -}}"
   >
   {% endcapture %}
