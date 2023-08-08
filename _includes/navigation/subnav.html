@@ -1,19 +1,11 @@
 {% assign subnav_items = include.subnav_items | default: page.subnav_items %}
 
 {% if subnav_items %}
-<nav class="subnav sticky usa-accordion" aria-label="Secondary navigation">
+<nav class="subnav position-sticky top-1" aria-label="Secondary navigation">
   {% assign title_slug = page.title | slugify %}
-  <ul class="usa-sidenav">
-    <li class="usa-sidenav__item">
-      <button class="usa-accordion__button"
-        aria-expanded="true"
-        aria-controls="subnav-list"
-      >
-      {{ page.subnav_title | default: page.title }}
-      </button>
-    <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
+  <ul class="usa-sidenav border-top-05-primary-dark mary-dark margin-top-1">
       {% for item in subnav_items %}
-      <li class="usa-sidenav__item">
+      <li class="usa-sidenav__item padding-y-2 text-primary-dark">
         {% if item.permalink %}
           {% assign first_chars = item.permalink | slice: 0, 2 %}
 
@@ -28,11 +20,9 @@
         {% endif %}
 
         {% assign is_matching = page.url | matches_url: item.permalink %}
-        <a id="{{ item.text | slugify }}-link" class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+        <a id="{{ item.text | slugify }}-link" class="font-sans-md subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
       </li>
       {% endfor %}
     </ul>
-    </li>
-  </ul>
 </nav>
 {% endif %}
