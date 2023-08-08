@@ -1,10 +1,10 @@
 ---
 agency: Department of Justice
-title: Improving access to justice through a user-friendly online submission experience
-subtitle: Building civilrights.justice.gov
+title: Transform the process for civil rights complaints
+subtitle: 
 permalink: /our-work/doj-crt/
 redirect_from: /project/doj-crt/
-excerpt: Developing a user-friendly online submission experience for the civil rights complaint portal
+excerpt: Developing a user-friendly online submission experience for the civil rights complaint portal.
 image: /assets/blog/doj-crt-complaint-form.png
 image_accessibility: Screenshots of the new complaint portal interface
 image_icon:
@@ -19,33 +19,26 @@ product_clients:
 resources:
 ---
 
-The Civil Rights Division (CRT) within the Department of Justice (DOJ) works to uphold the civil and constitutional rights of all Americans.
-It enforces federal statutes prohibiting discrimination on the basis of race, color, sex, disability, religion, familial status, and national origin. They do this through enforcement, education and coordination with other federal agencies.
+The Civil Rights Division (CRT) within the Department of Justice upholds the civil rights of all people in the United States. It enforces federal laws that protect people from discrimination based on race, color, national origin, disability status, sex, religion, familial status, or loss of other constitutional rights.
 
-Currently, when citizens believe a civil rights violation has taken place, they can submit a complaint to the CRT in a variety of ways. CRT estimates that they receive over 100,000 reports per year sent by physical letter, email, phone, as well as some web submissions.
-Filing these reports was a confusing and inconsistent experience for the public, and most reports filed had missing or inaccurate data.
-As a result, CRT staff spent most of their time processing unactionable complaints instead of providing remedies for victims.
+The public reports over 100,000 possible civil rights violations to CRT each year. Filing was a confusing and inconsistent process, with more than 30 ways to report a complaint. 
+
+CRT received reports by web, email, phone, fax, and physical letter. Most had missing or incomplete information. Staff spent most of their time processing unactionable complaints instead of supporting victims.
+
+<div class="case-study-preheader margin-top-6">Approach</div>
+* The CRT partnered with 18F to streamline the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.
+* Together, we crafted design principles for each part of this new experience against which all designs, prototypes, and builds would be tested.
+<div class="case-study-preheader margin-top-6">Outcomes</div>
+
+* The new Civil Rights Reporting Portal transformed the way CRT collects, routes, tracks, and responds to civil rights complaints. It includes:
+    * A redesigned [civilrights.justice.gov](https://civilrights.justice.gov/). This site explains in clear language the scope of civil rights enforced by CRT, examples of violations, and the complaints process. 
+    * A complaint intake form. The new form has a progress tracker and clear instructions. The form design ensures more complete submissions.
+    * Back-end ticketing and tracking system. We designed and built a system to easily route and track complaints through the investigation process. CRT staff have clear visibility into all open complaints. They can review, sort, and route complaints to the right team for investigation.
+* While the investigation process can be complex, complaints no longer languish in the unknown. Members of the public can submit complaints and know what to expect next. 
+* CRT staff no longer have to spend hours per week chasing missing information and routing complaints. They can devote more time to helping victims. 
+* The portal is a single source of data about civil rights complaints and has become a powerful tool for spotting trends and patterns. 
 
 <div class="testimonial-blockquote">
   Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization.
     <span>- Daniel Yi, Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division</span>
 </div>
-
-<div class="case-study-preheader margin-top-6">Approach</div>
-### Building a unified portal using human-centered design
-
-The CRT partnered with 18F and streamlined the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.
-
-Together, we crafted design principles for the new experience, which subsequent designs, prototypes, and builds were tested against:
-- Informative, but clear and concise
-- Intuitive and prompts a narrative
-- Helpful and honest
-- Forward-thinking and relevant
-
-The result was the [Civil Rights Reporting Portal](https://civilrights.justice.gov), a unified portal for complaint intake and processing that improves user experience and transforms the way CRT collects, sorts, and responds to civil rights reports.
-
-Built on [cloud.gov](https://cloud.gov/) and using the [United States Web Design System (USWDS)](https://designsystem.digital.gov/), the new Reporting Portal consolidates more than 30 unique reporting pathways into a single, coordinated experience. Thanks to cloud.gov, the site can scale with traffic, and CRT can minimize time spent on operations and management. Thanks to USWDS, the site can stay accessible and compliant with little to no design maintenance work required. With 18F’s help, both the public and CRT employees can benefit from a high-quality tool developed using Agile and Devsecops practices and that was delivered on time, on budget, and to a private sector standard.
-
-The portal dramatically eases the burden on victims of civil rights violations to identify the proper reporting channel. Now, the public will find it easier to tell their story, submit their report, and receive guidance on what to expect next.
-
-For Division staff, this new experience creates a more consistent, collaborative, and transparent process. It allows staff to easily review, sort, and redirect reports to the appropriate team for analysis. This saves time and energy, freeing up more capacity for the Division to focus on advancing civil rights. The portal reduces operational expenditure incurred with development, maintenance and security and scalability of the legacy systems. With a unified portal as the single source of data, CRT is able to draw business intelligence and spot trends and patterns. This allows the division to make more informed program decisions around processes, resourcing, hiring, etc. By developing resilient, reliable and secure systems, CRT is able to maintain the integrity of the data submitted via the new portal.
