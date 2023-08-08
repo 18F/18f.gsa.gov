@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  @include u-font('heading', 'lg');
+  @include u-font('heading', 'xl');
   @include u-text('bold');
   @include u-line-height('heading', 3);
   letter-spacing: $letter-spacing-xs;
