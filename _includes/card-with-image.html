@@ -1,0 +1,26 @@
+<a href="{{include.link_url}}" 
+   class="card-with-image {%- if include.card_color == "primary-dark" %} card-with-image--dark {% endif %}"
+>
+<div class="dark display-flex flex-align-center {%- if include.img_side == "right" %} flex-justify {% endif %} padding-4 radius-lg">
+
+  {% capture card_image %}
+  <img src="{{ site.baseurl }}{{include.img_path}}" 
+       class="maxw-8 height-6 margin-top-0 {% unless include.img_side == "right" %} margin-right-2 {% endunless %}"
+       alt="{{- include.img_alt_text -}}"
+  >
+  {% endcapture %}
+
+  {% capture card_text %}
+  <p class="font-sans-lg margin-y-0 text-no-underline">{{ include.text_content }}</p> 
+  {% endcapture %}
+
+{% if include.img_side == "right" %}
+  {{ card_text }}
+  {{ card_image }}
+{% else %}
+  {{ card_image }}
+  {{ card_text }}
+{% endif %}
+
+  </div>
+</a>

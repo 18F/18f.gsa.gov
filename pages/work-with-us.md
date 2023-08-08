@@ -1,24 +1,30 @@
 ---
 title: Work with us
 permalink: /work-with-us/
-layout: hww-primary
-lead: As federal employees, we share your dedication to serving the American public. 
+layout: primary
+lead: As federal employees, we share your dedication to serving the American&nbsp;public. 
 banner_cta: true
 content_focus: false
 redirect_from: /how-we-work/
+gridless: true
 ---
 
-<div class="hww-intro" markdown="1">
 
-## Transform the way you work
-
-Because [87% of large government IT projects fail](https://derisking-guide.18f.gov/), government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
-
+<section class="usa-section usa-section--dark bg-primary-darker section-padding-6">
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="grid-col">
+    <h2>Transform the way you work</h2>
+    <p> 
+        Because <a href="https://derisking-guide.18f.gov/" class="text-primary-lightest">87% of large government IT projects fail</a>, government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
+    </p>
+    </div>
+  </div>
 </div>
+</section>
 
-<div class="separator"></div>
-    
-{% capture pa-1 %}
+
+{% capture ask-qs %}
 
 ## Ask the right questions, solve the right problems
 
@@ -28,33 +34,55 @@ We take the time and have the experience to understand the specific mission of y
 
 {% endcapture %}
 
-  <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-8">
-      {{ pa-1 | markdownify }}
+<section class="usa-section bg-base-lightest"> 
+  <div class="grid-container"> 
+    <div class="grid-row grid-gap">
+      <div class="tablet-lg:grid-col-7">
+        {{ ask-qs | markdownify }}
+      </div>
+      <div class="tablet-lg:grid-col-5">
+        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-1.svg" 
+        alt=""
+        >
+      </div>
+    </div> 
+    <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
+    <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
+    <div class="grid-row grid-gap-md">
+      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+      {% include card-with-image.html 
+         card_color="primary-dark"
+         text_content="Accessibility"
+         link_url="https://accessibility.18f.gov/"
+         img_path="/assets/img/guides/accessibility-lightest.svg"
+      %}
+      </div>
+      
+      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+      {% include card-with-image.html 
+         card_color="primary-dark"
+         text_content="Agile"
+         link_url="https://agile.18f.gov/"
+         img_path="/assets/img/guides/agile-lightest.svg"
+      %}
+      </div>
+
+      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+      {% include card-with-image.html 
+         card_color="primary-dark"
+         img_path="/assets/img/guides/content-lightest.svg"
+         link_url="https://content-guide.18f.gov/"
+         text_content="Content"
+      %}
+      </div>
     </div>
-    <div class="tablet:grid-col-4">
-      <ul class="graphic-list">
-        <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/guides/design-methods.svg" alt="">
-          </div>
-          <span><a href="https://methods.18f.gov/">Human-centered design methods</a></span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/guides/user-interviews-love--c.svg" alt="">
-          </div>
-          <span><a href="https://ux-guide.18f.gov/">User experience guide</a></span>
-        </li>
-        <li>
-          <div class="graphic-list-img">
-            <img src="{{ site.baseurl }}/assets/img/guides/product.svg" alt="">
-          </div>
-          <span><a href="https://product-guide.18f.gov/">Product management guide</a></span>
-        </li>
-      </ul>
-    </div>
+   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
+     Browse our guides 
+   </a>
   </div>
+</section>
+
+  
 
 {% capture mission-path %}
 
@@ -66,25 +94,47 @@ Some software projects are the right size and shape for 18F to build with you; o
 
 {% endcapture %}
 
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col-8" markdown="1">
-    {{ mission-path | markdownify }}
+<section class="usa-section"> 
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet-lg:grid-col-7">
+         {{ mission-path | markdownify }}
+      </div>
+      <div class="tablet-lg:grid-col-5">
+        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-2.svg" 
+        alt=""
+        >
+      </div>
+    </div>
+    <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
+    <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
+    <div class="grid-row grid-gap-md">
+      <div class="grid-col-6">
+      {% include card-with-image.html 
+         card_color="primary-dark"
+         img_path="/assets/img/guides/state-guide-lightest.svg"
+         link_url="https://accessibility.18f.gov/"
+         text_content="State Software Budgeting Handbook"
+      %}
+      </div>
+      
+      <div class="grid-col-6">
+      {% include card-with-image.html 
+         card_color="primary-dark"
+         img_path="/assets/img/guides/federal-guide-lightest.svg"
+         link_url="https://agile.18f.gov/"
+         text_content="Federal Field Guide"
+      %}
+      </div>
+    </div>
+   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
+     Browse our guides 
+   </a>
   </div>
-  <div class="tablet:grid-col-4">
-    <ul class="graphic-list">
-      <li>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/guides/derisking.svg" alt="">
-        </div>
-        <span><a href="https://derisking-guide.18f.gov/">De-risking government technology guide</a></span>
-      </li>
-    </ul>
-  </div>
-</div>
+</section>
 
-<div class="separator"></div>
 
-{% capture bundle-1 %}
+{% capture tech-adapt %}
 
 ## Tech that adapts and grows with your needs
 
@@ -93,18 +143,40 @@ Some software projects are the right size and shape for 18F to build with you; o
 Instead, we involve your team in creating solutions and ensure they have everything they need to maintain and improve systems long after we're gone.
 {% endcapture %}
 
-<div class="grid-row grid-gap" id="bundle">
-  <div class="tablet:grid-col-8" markdown="1">
-    {{ bundle-1 | markdownify }}
-  </div>
-  <div class="tablet:grid-col-4">
-    <h3 class="padding-top-3 graphic-list">Partner check-ins after working with 18F</h3>
-      <ul class="padding-0">
-        <li><a href="https://18f.gsa.gov/2023/04/25/18f-checks-in-with-the-dawson-project-at-the-us-tax-court/">U.S. Tax Court: DAWSON project</a></li>
-        <li><a href="https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/">USGS Water Resources Mission Area projects</a></li>
-        <li><a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">Centers for Medicare and Medicaid Services: eAPD project</a></li>
-      </ul>
-  </div>
-</div>
 
 
+<section class="usa-section bg-base-lightest"> 
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet-lg:grid-col-7">
+         {{ tech-adapt | markdownify }}
+      </div>
+      <div class="tablet-lg:grid-col-5">
+        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-3.svg" 
+        alt=""
+        >
+      </div>
+    </div>
+    <h3 class="text-normal">Read related case studies</h3>
+    <p class="font-sans-lg">Read short project summaries demonstrating how we’ve helped some of the largest federal agencies.</p>
+    <div class="grid-row grid-gap-md">
+    {% assign projects = 'fec-gov, treasury-data-act' | split: ", " %}
+    {% for project in projects %} 
+      {% assign project_details = site | find_collection: 'services_projects' | where: 'slug', project | first %}
+      {% assign project_agency = site.data.agencies | where: "name", project_details.agency | first %}
+      <div class="grid-col-6">
+        {% include card-with-image.html 
+           card_color="primary-dark"
+           img_path=project_agency.logo
+           img_alt_text=project_agency.logo
+           link_url="https://accessibility.18f.gov/"
+           text_content=project_details.excerpt
+        %}
+      </div>
+    {% endfor %}
+    </div>
+   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
+     Browse our guides 
+   </a>
+  </div>
+</section>
