@@ -35,10 +35,16 @@ h2 {
 
 h3 {
   @include u-font('heading', 'xl');
-  @include u-text('bold');
   @include u-line-height('heading', 3);
+  @include u-text('normal');
   letter-spacing: $letter-spacing-xs;
 }
+
+// usa-prose overrides
+.usa-prose > * + h2, * + h2 {
+  margin-top: units(6);
+}
+
 // Section overrides
 .usa-section {
   padding-top: units(10);
@@ -53,6 +59,10 @@ h3 {
 .section-padding-sm {
   padding-top: units(6);
   padding-bottom: units(6);
+}
+
+.section-padding-top-0 {
+  padding-top: 0;
 }
 
 // Dark section overrides
@@ -127,6 +137,9 @@ h3 {
 
 
 // Custom utitlities, TODO: Move to utils file
+.border-top-05-primary-dark {
+  border-top: units(0.5) solid color('primary-dark');
+}
 
 .list-space-1 {
   li {
@@ -195,4 +208,15 @@ h3 {
   &:active {
     background-color: color('primary-darkest'); 
   }
+}
+
+// Sidenav overrides
+.usa-sidenav a:not(.usa-button) {
+  padding-left: 0;
+}
+
+.usa-section hr {
+  border: 1px solid color('primary-darker');
+  margin-top: units(6);
+  margin-bottom: units(4);
 }
