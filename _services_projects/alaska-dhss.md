@@ -12,7 +12,7 @@ project_weight: 3
 tag: alaska
 expiration_date:
 github_repo:
-  - "[Project respository](https://github.com/AlaskaDHSS/EIS-Modernization)"
+  - "[Project repository](https://github.com/AlaskaDHSS/EIS-Modernization)"
   - "[State of Alaska RFP for a Unified Search Interface](https://github.com/AlaskaDHSS/RFP-Search-Unification)"
 project_url:
 learn_more:
