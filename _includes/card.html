@@ -1,3 +1,7 @@
+{% comment %} 
+Moved to card-project.html as this partial was  specfic to projects.
+TODO: Remove if still unused (i.e. using card-project instead).
+------
 
 {% assign project = site | find_collection: 'services_projects' | where: 'slug', include.project | first %}
 {% assign card_link = project.permalink | prepend: site.baseurl %}
@@ -37,6 +41,7 @@
       <p class="margin-top-2">{{ project.excerpt }}</p>
     </div>
   </div>
+{% endcomment %} 
 
   {% comment %}
   //TODO: Remove
