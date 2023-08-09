@@ -304,9 +304,9 @@ $theme-type-scale-3xs: 2;
 $theme-type-scale-2xs: 3;
 $theme-type-scale-xs: 4;
 $theme-type-scale-sm: 5;
-$theme-type-scale-md: 6;
+$theme-type-scale-md: 7;
 $theme-type-scale-lg: 9;
-$theme-type-scale-xl: 12;
+$theme-type-scale-xl: 11;
 $theme-type-scale-2xl: 14;
 $theme-type-scale-3xl: 15;
 
@@ -322,7 +322,7 @@ Or use `false` for unneeded weights.
 $theme-font-weight-thin: false;
 $theme-font-weight-light: 300;
 $theme-font-weight-normal: 400;
-$theme-font-weight-medium: false;
+$theme-font-weight-medium: 500;
 $theme-font-weight-semibold: false;
 $theme-font-weight-bold: 700;
 $theme-font-weight-heavy: false;
@@ -399,7 +399,7 @@ $theme-body-line-height: 5;
 $theme-style-body-element: false;
 
 // Headings
-$theme-h1-font-size: '2xl';
+$theme-h1-font-size: '3xl';
 $theme-h2-font-size: 'xl';
 $theme-h3-font-size: 'lg';
 $theme-h4-font-size: 'sm';

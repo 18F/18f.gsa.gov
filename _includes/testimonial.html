@@ -1,15 +1,21 @@
-<section class="usa-section grid-container testimonial">
+<section class="usa-section bg-primary-darker testimonial">
+  <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="tablet:grid-offset-2 tablet:grid-col-8 testimonial__body">
-        &#8220;{{ include.quote }}&#8221;
+      <div class="grid-col-12 tablet:grid-offset-1 tablet:grid-col-10">
+        <p class="large-quotemark">&ldquo;</p>
+        <blockquote class="font-sans-lg tablet:font-sans-xl line-height-sans-3 
+                           measure-5 margin-top-4
+                           text-center text-ls-05 text-white"
+        >
+          <em>{{ include.quote }}</em>
+        </blockquote>
+        <figcaption class="font-sans-md tablet:font-sans-lg line-height-sans-4 
+                           text-center text-primary-lightest"
+        >
+        <strong>&mdash;{{ include.attribution }}</strong> {{ include.position }}<br>
+          <em>{{ include.organization }}</em>
+        </figcaption>
       </div>
     </div>
-    <div class="grid-row grid gap">
-      <div class="tablet:grid-offset-2 tablet:grid-col-6 testimonial__attribution">
-        <img class="circle-7" src="{{ site.baseurl }}/assets/img/logos/agencies/{{ include.agency_image }}" alt="">
-        <p><span>&#8212; {{ include.attribution }}</span><br>
-            {{ include.position }}
-        </p>
-      </div>
-    </div>
+  </div>
 </section>

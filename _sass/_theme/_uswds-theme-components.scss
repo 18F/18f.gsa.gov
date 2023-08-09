@@ -32,7 +32,7 @@ $theme-alert-padding-x: 2.5;
 $theme-banner-background-color: 'base-lightest';
 $theme-banner-font-family: 'ui';
 $theme-banner-link-color: default;
-$theme-banner-max-width: 'desktop';
+$theme-banner-max-width: 'desktop-lg';
 
 // Breadcrumb
 $theme-breadcrumb-background-color: 'white';
@@ -55,7 +55,7 @@ $theme-button-stroke-width: 2px;
 $theme-card-border-color: 'base-lighter';
 $theme-card-border-radius: 'md';
 $theme-card-border-width: 0;
-$theme-card-gap: 2;
+$theme-card-gap: 3;
 $theme-card-flag-min-width: 'tablet';
 $theme-card-flag-image-width: 'card-lg';
 $theme-card-font-family: 'body';
@@ -80,7 +80,7 @@ $theme-input-state-border-width: 0.5;
 // Header
 $theme-header-font-family: 'ui';
 $theme-header-logo-text-width: 15%;
-$theme-header-max-width: 'desktop';
+$theme-header-max-width: 'desktop-lg';
 $theme-header-min-width: 'desktop';
 
 // Hero
@@ -90,7 +90,7 @@ $theme-hero-image: '#{$theme-image-path}/hero.png';
 $theme-identifier-font-family: 'ui';
 $theme-identifier-background-color: 'base-darkest';
 $theme-identifier-identity-domain-color: 'base-light';
-$theme-identifier-max-width: 'desktop';
+$theme-identifier-max-width: 'desktop-lg';
 $theme-identifier-secondary-link-color: 'base-light';
 
 // Navigation

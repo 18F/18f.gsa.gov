@@ -1,6 +1,88 @@
-<footer class="usa-footer site-footer">
-  <div class="footer-section-bottom bg-base-lightest">
+<footer>
+  <div class="grid-container padding-y-6">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-3">
+        <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg"
+             class="maxw-5"
+             alt="18F logo"
+        > 
+        <p>
+          Work with us to plan successful projects, choose better vendors, build custom
+          software, or learn how to work in new ways.
+        </p>
+        <a class="usa-button an18f-button--dark">Contact us</a>
+      </div>
+
+      <div class="tablet:grid-offset-1 tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-bottom-4"> Pages </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+        {% for item in site.data.navigation.primary %}
+        <li> <a href="{{ site.baseurl }}/{{ item.href }}"> {{item.text}} </a> </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-bottom-4"> Policies </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+          <li><a href="{{ site.baseurl }}/linking-policy/"> Linking policy </a></li>
+          <li><a href="{{ site.baseurl }}/open-source-policy/"> Open source policy </a></li>
+          <li><a href="{{ site.baseurl }}/vulnerability-disclosure-policy/"> Vulnerability disclosure </a></li>
+          <li><a href="{{ site.baseurl }}/code-of-conduct/"> Code of conduct </a></li>
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-bottom-4"> Contact </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+          <li><a href="{{ site.baseurl }}/contact/"> Get in touch </a></li>
+          <li><a href="{{ site.baseurl }}/about/#for-press"> Press </a></li>
+          <li><a href="https://github.com/18F/18f.gsa.gov/issues/new"> Report a bug </a></li>
+          <li><a href="{{ site.baseurl }}/join/"> Join 18F </a></li>
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2">
+        <h2 class="font-heading-md text-medium margin-bottom-4"> Social </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2">
+          <li class="display-flex flex-align-center">
+            <a href="https://github.com/18F">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/github-dark-2.svg"
+                   class="maxw-205 margin-right-1 text-tbottom"
+                   alt=""
+              >Github
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/18F">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter-dark.svg"
+                   class="maxw-205 margin-right-1"
+                   alt=""
+              >Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/gsa18f/">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/linkedin-dark.svg"
+                   class="maxw-205 margin-right-1"
+                   alt=""
+              >LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {%- include usa-identifier.html -%} 
+</footer>
+
+
+
+    {% comment %}
+<div class="footer-section-bottom bg-base-lightest">
     <div class="grid-container">
+
       <div class="grid-row grid-gap padding-y-4">
         <div class="tablet:grid-col-3">
           <h2>Work with us</h2>
@@ -95,110 +177,6 @@
       </div>
     </div>
   </div>
+  {% endcomment %}
 
-  {% assign anchor = site.data.usa_anchor.anchor_data[0] %}
-  <div class="usa-identifier">
-    <section
-      class="usa-identifier__section usa-identifier__section--masthead"
-      aria-label="Agency identifier"
-    >
-      <div class="usa-identifier__container">
-        <div class="usa-identifier__logos">
-          <a href="https://www.gsa.gov/" class="usa-identifier__logo">
-            <img
-              class="usa-identifier__logo-img"
-              src="{{ site.baseurl }}{{ anchor.agency_logo }}"
-              alt="GSA logo"
-            />
-          </a>
-        </div>
-        <div class="usa-identifier__identity text-base-lightest" aria-label="Agency description">
-          <p class="usa-identifier__identity-domain">18f.gsa.gov</p>
-          <p class="usa-identifier__identity-disclaimer text-base-lightest">An official website of the
-            <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">
-              GSA’s Technology Transformation Services
-            </a>
-          </p>
-        </div>
-      </div>
-    </section>
-    <nav
-      class="usa-identifier__section usa-identifier__section--required-links"
-      aria-label="Important links"
-    >
-      <div class="usa-identifier__container">
-        <ul class="usa-identifier__required-links-list">
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.about_gsa_url }}"
-              title="About GSA"
-            >
-              About GSA
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.accessibility_url }}"
-              title="Accessibility support"
-            >
-              Accessibility support
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.foia_request_url }}"
-              title="FOIA requests"
-            >
-              FOIA requests
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.no_fear_act_url }}"
-              title="No FEAR Act data"
-            >
-              No FEAR Act data
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.fraud_waste_abuse_url }}"
-              title="Office of the Inspector General"
-            >
-              Office of the Inspector General
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.budget_performance_url }}"
-              title="Performance reports"
-            >
-              Performance reports
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a
-              class="usa-identifier__required-link usa-link"
-              href="{{ anchor.privacy_policy_url }}"
-              title="Privacy Policy"
-            >
-              Privacy policy
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services">
-      <div class="usa-identifier__container">
-        <div class="usa-identifier__usagov-description text-base-lightest">Looking for U.S. government information and services?</div>
-        <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
-      </div>
-    </section>
-  </div>
-</footer>
+

@@ -12,7 +12,7 @@
 
     .usa-logo-img {
       float: left;
-      height: units(3);
+      height: units(5);
       margin-right: 0;
 
       @include at-media($theme-header-min-width) {
@@ -32,6 +32,25 @@
     }
   }
 
+  .usa-nav__primary-item .an18f-button--dark  span,
+  .usa-nav__primary-item .usa-nav__link span {
+    @include u-font('sans', 'md');
+    font-weight: font-weight('medium');
+  }
+
+  .usa-nav__primary-item .usa-nav__link span {
+    color: color('primary-dark');
+  }
+
+// Contact link/button overrrides
+  .an18f-button--dark span {
+    color: white;
+  }
+
+  .an18f-button--dark.usa-current span {
+    background-color: color('primary-darkest');
+  }
+
   .usa-nav__secondary-links {
     a {
       @if variable-exists(header-link) {
@@ -48,9 +67,9 @@
 }
 
 // set color and size of bar underneath nav items
-// add-bar(weight, color, side, length, offset-x)
+// add-bar(weight, color, side, radius, offset-x, offset-y)
 @mixin nav-border-basic {
-  @include add-bar(0.5, 'accent-cool', 'bottom', 0, 2, -0.5);
+  @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
 }
 
 // usa-header--basic
@@ -60,9 +79,17 @@
   #header-logo {
     display: flex;
   }
-  
+
+  & + main,
+  .usa-navbar, {
+    border: none;
+  }
+
+  .usa-navbar {
+    align-items: flex-end;
+  }
+ 
   @include at-media($theme-header-min-width) {
-   
     .usa-navbar {
       position: relative;
       width: $theme-header-logo-text-width; // TODO: review this more
@@ -87,13 +114,17 @@
     .usa-nav__link:hover {
       @include nav-border-basic;
     }
+
+    .usa-nav__primary-item > .usa-current span {
+      color: color('primary-darkest');
+    }
   }
 }
 
 // The search <input>
 [type="search"] {
   min-width: 0; // Fix a Firefox display quirk
-  width: calc(
-      #{$theme-search-min-width} + #{units($theme-button-small-width)}
-  );
+  // width: calc(
+  //     #{$theme-search-min-width} + #{units($theme-button-small-width)}
+  // );
 }

@@ -3,45 +3,64 @@
 {% assign card_link = project.permalink | prepend: site.baseurl %}
 
 
-<li class="usa-card tablet:grid-col-4">
+<li class="usa-card tablet-lg:grid-col-4">
   
   <div class="usa-card__container">
     
     <header class="usa-card__header">
       {% if project.agency %}
-        <p class="card-agency-name">{{ project.agency }}</p>
+        <div class="display-flex flex-align-center"> 
+          {% assign agency = site.data.agencies | where: "name", project.agency | first %}
+          {% assign agency_logo = agency.logo %}
+          {% unless agency_logo %}
+            {% if project.agency_logo %}
+              {% assign agency_logo = project.agency_logo %}
+            {% endif %}
+          {% endunless %}
+          {% if agency_logo %} 
+          <img src= "{{ site.baseurl }}{{ agency_logo }}" 
+               class="maxw-8 margin-right-2"
+               alt=""
+          >
+          {% endif %}
+          <p class="line-height-sans-2 text-bold margin-top-0">{{ project.agency }}</p>
+        </div>
       {% endif %}
       {% if card_link and project.title %}
       <a href="{{ card_link }}">
-        <h3 class="card-link-tagline">{{ project.title }}</h3>
+        <h3 class="margin-top-3">{{ project.title }}</h3>
       </a>
       {% endif %}        
     </header>
 
-    <div class="usa-card__media">
-    <div role="img"
-        title="{{ project.image_accessibility }}"
-        class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}">
-        
-        {% if project.image %}
-          <img 
-            src="{{ site.baseurl }}{{ project.image }}"
-            alt="{{ project.image_accessibility }}"
-          >
-        {% endif %}
-      {% unless project.image %}
-        {% if project.image_icon %}
-          {% include svg/icons/{{ project.image_icon }} %}
-        {% else %}
-          {% include svg/icons/monitor.svg %}
-        {% endif %}
-      {% endunless %}
-    </div>
-    </div>
-    
     <div class="usa-card__body">
-      <p class="card-description">{{ project.excerpt }}</p>
+      <p class="margin-top-2">{{ project.excerpt }}</p>
     </div>
   </div>
+
+  {% comment %}
+  //TODO: Remove
+  {% endcomment %}
+    <!-- <div class="usa-card__media"> --
+    <!-- <div role="img" -->
+    <!--     title="{{ project.image_accessibility }}" -->
+    <!--     class="usa-card__img {% unless project.image %} card-image-svg {% endunless %}"> -->
+        
+    <!--     {% if project.image %} -->
+    <!--       <img --> 
+    <!--         src="{{ site.baseurl }}{{ project.image }}" -->
+    <!--         alt="{{ project.image_accessibility }}" -->
+    <!--       > -->
+    <!--     {% endif %} -->
+    <!--   {% unless project.image %} -->
+    <!--     {% if project.image_icon %} -->
+    <!--       {% include svg/icons/{{ project.image_icon }} %} -->
+    <!--     {% else %} -->
+    <!--       {% include svg/icons/monitor.svg %} -->
+    <!--     {% endif %} -->
+    <!--   {% endunless %} -->
+    <!-- </div> -->
+    <!-- </div> -->
+    
 
 </li>

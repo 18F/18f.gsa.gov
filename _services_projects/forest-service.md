@@ -1,5 +1,6 @@
 ---
 agency: U.S. Forest Service
+agency_logo: /assets/img/logos/agencies/usfs.svg
 title: Moving land permits online
 subtitle: Easing access to public lands
 permalink: /our-work/forest-service/
