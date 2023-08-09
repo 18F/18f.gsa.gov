@@ -1,28 +1,37 @@
 {% assign posts = include.posts %}
 
 <div class="blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-  <ul class="post-list{% if include.trim_padding %} post-list-no-padding{% endif %}">
+  <ul class="usa-list usa-list--unstyled post-list">
   {% if posts %}
     {% for post in posts %}
-      <li>
-        <div class="usa-width-one-whole">
-          <h3>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          {% unless include.limit_metadata %}
-            {% include post-author.html context='post' %}
-            <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-          {% endunless %}
-          {% unless include.limit_metadata %}
-            <span class="post-tags" itemprop="keywords">
-              {% for tag in post.tags %}
-                <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">
-                  {{ tag }}
-                </a>
-              {% endfor %}
-            </span>
-          {% endunless %}
-        </div>
+      <li class="border-bottom-1px border-base-lighter padding-y-6">
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}"
+             class="post-link text-no-underline" 
+             >
+             {{ post.title }}
+          </a>
+        </h2>
+        {% unless include.limit_metadata %}
+        <p>
+          {% include post-author.html context='post' %} on
+          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </p>
+        {% endunless %}
+        <p>{{ post.excerpt }}</p>
+        {% unless include.limit_metadata %}
+        <span class="post-tags display-flex flex-wrap" itemprop="keywords">
+          {% for tag in post.tags %}
+          <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/" 
+             class="usa-label post-tag"
+          >
+            {{ tag }}
+          </a>
+          {% endfor %}
+        </span>
+        {% endunless %}
+      </li>
+
         <a class="post-click-target" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
           {% if post.image.size > 0 %}
           <div class="usa-width-one-third post-excerpt">
@@ -32,11 +41,9 @@
           {% else %}
           <div class="usa-width-one-whole post-excerpt">
           {% endif %}
-            <p>{{ post.excerpt }}</p>
             <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
           </a>
         </div>
-      </li>
     {% endfor %}
   {% else %}
     No posts yet.

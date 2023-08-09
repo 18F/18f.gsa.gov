@@ -6,17 +6,17 @@
 // @import '_components/hero';
 // @import '_components/lists';
 // @import '_components/post-list';
-// @import '_components/post-details';
+@import '_components/post-details';
 // @import '_components/tag-index';
 // @import '_components/featured-posts';
 // @import '_components/social-links';
- @import '_components/header';
+@import '_components/header';
 // @import '_components/nav-buttons';
 // @import '_components/utilities';
 
 // // 18F site templates
 // // ==========================
-// @import '_templates/blog-template';
+@import '_templates/blog-template';
 // @import '_templates/guides';
 // @import '_templates/how-we-work';
 // @import '_templates/what-we-deliver';
@@ -180,6 +180,12 @@ h3 {
   margin-top: units(6);
   margin-bottom: 0;
   text-align: center;
+}
+
+.caret {
+  height: units(1.5);
+  width: units(1.5);
+  padding-top: units('2px');
 }
 
 .card-with-image {

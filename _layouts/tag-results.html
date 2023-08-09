@@ -2,7 +2,10 @@
 layout: default
 header_border: true
 ---
-
+{% comment %}
+Unclear if this one is being used, if not:
+TODO: remove if unused
+{% endcomment %}
 <section class="bg-primary-dark usa-section">
   <div class="grid-container">
     <a class="link-arrow-left" href="{{ site.baseurl }}/blog/">
@@ -15,7 +18,6 @@ header_border: true
     <h2>{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged with "{{ page.title }}"</h2>
   </div>
 </section>
-
 
   
 <section class="grid-container content-focus page-tag-results">
