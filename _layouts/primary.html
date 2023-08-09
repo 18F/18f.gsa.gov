@@ -31,9 +31,14 @@ layout: default
     <div class="tablet:grid-col-7">
       {{ content }}
     </div>
-    {% if page.include_subnav %}
+    {% if page.include_subnav or page.side_cta %}
     <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
-      {% include navigation.html subnav=true %}
+      {% if page.include_subnav %} 
+        {% include navigation.html subnav=true %}
+      {% endif %}
+      {% if page.side_cta %} 
+        {% include side-cta.html %}
+      {% endif %}
     </aside>
     {% endif %}
   </div>

@@ -5,7 +5,7 @@ layout: primary
 lead: We help other government agencies build, buy, and share technology products.  18F is a team of designers, software engineers, strategists, and product managers within the General Services Administration. We collaborate with other agencies to fix technical problems, build products, and improve public service through technology.
 img: /assets/img/about/gsahq.jpg
 img_alt_text: "General Services Administration headquarters"
-banner_cta: true
+side_cta: true
 subnav_items:
   - text: History
     permalink: /about/#history

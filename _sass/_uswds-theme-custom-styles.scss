@@ -212,8 +212,14 @@ h3 {
 
 // Sidenav overrides
 .usa-sidenav a:not(.usa-button) {
+  padding-top: units(2);
+  padding-bottom: units(2);
   padding-left: 0;
+ }
+.usa-sidenav .usa-sidenav__item:hover {
+
 }
+
 
 .usa-section hr {
   border: 1px solid color('primary-darker');
