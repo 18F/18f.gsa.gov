@@ -12,7 +12,7 @@ project_weight: 12
 tag: civil rights
 expiration_date:
 github_repo:
-  - "[Project respository](https://github.com/18F/civil-rights-complaints)"
+  - "[Project repository](https://github.com/18F/civil-rights-complaints)"
 project_url: "[civilrights.justice.gov](https://civilrights.justice.gov/)"
 learn_more:
 product_clients:
