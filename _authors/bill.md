@@ -4,6 +4,6 @@ full_name: Bill Rooney
 last_name: Rooney
 name: bill
 redirect_from: "/team/bill/"
-published: true
+published: false
 ---
 

@@ -7,6 +7,6 @@ project:
 - cloud.gov
 - DevOps Guild
 redirect_from: "/team/diego/"
-published: true
+published: false
 ---
 

@@ -6,6 +6,6 @@ full_name: Will Slack
 project:
 - Federalist
 redirect_from: "/team/will/"
-published: true
+published: false
 ---
 

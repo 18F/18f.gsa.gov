@@ -6,6 +6,6 @@ full_name: Marco Segreto
 proejct:
 - Front End Guild
 redirect_from: "/team/marco/"
-published: true
+published: false
 ---
 

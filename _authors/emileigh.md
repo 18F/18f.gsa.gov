@@ -9,6 +9,6 @@ project:
 - Every Kid in a Park
 - OpenFEC
 redirect_from: "/team/emileigh/"
-published: true
+published: false
 ---
 

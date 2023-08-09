@@ -4,6 +4,7 @@ first_name: Josh
 last_name: Ruihley
 full_name: Josh Ruihley
 redirect_from: "/team/josh/"
-published: true
+published: false
 guest: true
 ---
+

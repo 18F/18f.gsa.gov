@@ -8,6 +8,6 @@ project:
 - 18f.gsa.gov
 - 18F Consulting
 redirect_from: "/team/andre/"
-published: true
+published: false
 ---
 

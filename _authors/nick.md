@@ -6,6 +6,6 @@ full_name: Nick Bristow
 project:
 - Accessibility Guild
 redirect_from: "/team/nick/"
-published: true
+published: false
 ---
 

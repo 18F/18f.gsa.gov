@@ -6,6 +6,6 @@ full_name: Yoz Grahame
 project:
 - Project Review
 redirect_from: "/team/yoz/"
-published: true
+published: false
 ---
 

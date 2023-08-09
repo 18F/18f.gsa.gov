@@ -6,6 +6,6 @@ full_name: Theresa Summa
 project:
 - CALC
 redirect_from: "/team/theresa/"
-published: true
+published: false
 ---
 

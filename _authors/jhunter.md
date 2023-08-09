@@ -15,6 +15,6 @@ project:
 - Eligibility Platform Sprint
 - FEC
 redirect_from: "/team/jhunter/"
-published: true
+published: false
 ---
 

@@ -3,7 +3,8 @@ name: jim-sheire
 first_name: Jim
 last_name: Sheire
 full_name: Jim Sheire
-redirect_from: 
-published: true
+redirect_from:
+published: false
 guest: true
 ---
+

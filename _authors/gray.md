@@ -10,6 +10,6 @@ project:
 - analytics.usa.gov
 - pulse.cio.gov
 redirect_from: "/team/gray/"
-published: true
+published: false
 ---
 

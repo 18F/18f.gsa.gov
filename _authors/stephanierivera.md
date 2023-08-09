@@ -6,6 +6,6 @@ full_name: Stephanie Rivera
 project:
 - 18F Intake
 redirect_from: "/team/stephanierivera/"
-published: true
+published: false
 ---
 

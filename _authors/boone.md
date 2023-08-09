@@ -8,6 +8,6 @@ project:
 - Dashboard
 - 18F EDU
 redirect_from: "/team/boone/"
-published: true
+published: false
 ---
 

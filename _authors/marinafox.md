@@ -5,7 +5,7 @@ full_name: Marina Fox
 last_name: Fox
 guest: true
 url: https://www.digitalgov.gov/author/mfox/
-redirect_from: 
-published: true
+redirect_from:
+published: false
 ---
 

@@ -12,6 +12,6 @@ project:
 - 18F Dashboard
 redirect_from: "/team/melody/"
 alumni: true
-published: true
+published: false
 ---
 

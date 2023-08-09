@@ -5,6 +5,6 @@ last_name: Givens
 full_name: Garren Givens
 redirect_from: "/team/garren/"
 alumni: true
-published: true
+published: false
 ---
 
