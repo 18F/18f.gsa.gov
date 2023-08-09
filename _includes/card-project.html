@@ -6,38 +6,34 @@ This partial outputs a card that displays a project title, the associated agency
 {% assign card_link = project.permalink | prepend: site.baseurl %}
 
 
-<li class="usa-card tablet-lg:grid-col-4">
-  
-  <div class="usa-card__container">
-    
-    <header class="usa-card__header">
-      {% if project.agency %}
-        <div class="display-flex flex-align-center"> 
-          {% assign agency = site.data.agencies | where: "name", project.agency | first %}
-          {% assign agency_logo = agency.logo %}
-          {% unless agency_logo %}
-            {% if project.agency_logo %}
-              {% assign agency_logo = project.agency_logo %}
-            {% endif %}
-          {% endunless %}
-          {% if agency_logo %} 
-          <img src= "{{ site.baseurl }}{{ agency_logo }}" 
-               class="maxw-8 margin-right-2"
-               alt=""
-          >
+<div class="usa-card__container maring-bottom-4">
+  <header class="usa-card__header">
+    {% if project.agency %}
+      <div class="display-flex flex-align-center"> 
+        {% assign agency = site.data.agencies | where: "name", project.agency | first %}
+        {% assign agency_logo = agency.logo %}
+        {% unless agency_logo %}
+          {% if project.agency_logo %}
+            {% assign agency_logo = project.agency_logo %}
           {% endif %}
-          <p class="line-height-sans-2 text-bold margin-top-0">{{ project.agency }}</p>
-        </div>
-      {% endif %}
-      {% if card_link and project.title %}
-      <a href="{{ card_link }}">
-        <h3 class="margin-top-3 text-bold">{{ project.title }}</h3>
-      </a>
-      {% endif %}        
-    </header>
+        {% endunless %}
+        {% if agency_logo %} 
+        <img src= "{{ site.baseurl }}{{ agency_logo }}" 
+             class="maxw-8 margin-right-2"
+             alt=""
+        >
+        {% endif %}
+        <p class="line-height-sans-2 text-bold margin-top-0">{{ project.agency }}</p>
+      </div>
+    {% endif %}
+    {% if card_link and project.title %}
+    <a href="{{ card_link }}">
+      <h3 class="margin-top-3 text-bold">{{ project.title }}</h3>
+    </a>
+    {% endif %}        
+  </header>
 
-    <div class="usa-card__body">
-      <p class="margin-top-2">{{ project.excerpt }}</p>
-    </div>
+  <div class="usa-card__body">
+    <p class="margin-top-2">{{ project.excerpt }}</p>
   </div>
-
+</div>

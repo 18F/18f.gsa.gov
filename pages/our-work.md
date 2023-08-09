@@ -36,21 +36,24 @@ gridless: true
 </section>
 
 <section class="usa-section case-section bg-base-lightest">
-    <div class="grid-container">
-      <div clas="grid-row"> 
-          <h2 class="margin-bottom-5">Case studies</h2>
-      </div>
-      <div class="grid-row grid-gap">
-      <ul class="usa-card-group">
-        {% assign featured_services = site.data.featured_services %}
-        {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
-        {% for featured in featured_services %}
-          {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
-          {% include card.html project=featured_project.slug %}
-        {% endfor %}
-      </ul>
-      </div>
+  <div class="grid-container">
+    <div clas="grid-row"> 
+      <h2 class="margin-bottom-5">Case studies</h2>
     </div>
+    <div class="grid-row grid-gap">
+      <ul class="usa-card-group">
+      {% assign featured_services = site.data.featured_services %}
+      {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
+      {% for featured in featured_services %}
+        {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
+        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+          {% include card-project.html project=featured_project.slug %}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
 
     {%- comment -%} 
     <p>
@@ -60,7 +63,6 @@ gridless: true
       </a>
     </p> 
     {%- endcomment -%}
-</section>
 
 {% include testimonial.html
  quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
@@ -95,6 +97,9 @@ gridless: true
         </li>
       {% endfor %}
     </ul>
+  </section>
+</div>
+
     {% comment %}
     <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
       <ul class="agency-lists grid-row grid-gap">
@@ -116,5 +121,4 @@ gridless: true
       {% endfor %}
       </ul>
      {% endcomment %}
-  </section>
-</div>
+

@@ -106,9 +106,15 @@ redirect_from: /developer/
     <h2>Featured projects</h2>
     <div class="grid-row grid-gap-lg margin-top-6">
       <ul class="usa-card-group">
-        {% include card-project.html project='fec-gov' %}
-        {% include card-project.html project='treasury-data-act' %}
-        {% include card-project.html project='calc' %}
+        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+          {% include card-project.html project='fec-gov' %}
+        </li>
+        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+          {% include card-project.html project='treasury-data-act' %}
+        </li>
+        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+          {% include card-project.html project='calc' %}
+        </li>
       </ul>
     </div>
   </div>
