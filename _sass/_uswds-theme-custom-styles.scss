@@ -153,6 +153,14 @@ h3 {
   }
 }
 
+.footer-hr {
+  border: none;
+  border-top: 1px solid color('primary-dark');
+  color: color('primary-dark');
+  margin-top: calc(#{units(-6)} - 2px); // Extra 2px to hide the rule in the cta
+  margin-bottom: units(6);
+}
+
 .text-ls-05 {
   letter-spacing: $letter-spacing-xs;
 }
