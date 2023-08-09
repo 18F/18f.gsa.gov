@@ -11,7 +11,7 @@ project_weight: 12
 tag: tax court
 expiration_date:
 github_repo:
-  - "[Project respository](https://github.com/ustaxcourt/ef-cms)"
+  - "[Project repository](https://github.com/ustaxcourt/ef-cms)"
 project_url: "[dawson.ustaxcourt.gov](https://dawson.ustaxcourt.gov/)"
 learn_more:
 product_clients:
