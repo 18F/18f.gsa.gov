@@ -3,7 +3,7 @@
 {% if subnav_items %}
 <nav class="subnav" aria-label="Secondary navigation">
   {% assign title_slug = page.title | slugify %}
-  <ul class="usa-sidenav border-top-05-primary-dark mary-dark margin-top-1">
+  <ul class="usa-sidenav border-top-05-primary-dark margin-top-1">
       {% for item in subnav_items %}
       <li class="usa-sidenav__item text-primary-dark">
         {% if item.permalink %}
