@@ -4,7 +4,7 @@ title: 18F Blog
 lead: Delivering civic technology
 gridless: true
 skip_index: true
-blog_tagline: Delivering civic technology
+banner_cta: true
 redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
 ---
 <section class="usa-section section-padding-top-0">
@@ -59,7 +59,9 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
         <ul class="usa-list usa-list--unstyled">
           {% for item in site.data.social_media %}
           <li class="margin-bottom-2">
-            <a href="{{ item.link }}" class="usa-link--alt">
+            <a href="{% if item.platform == "RSS feed" %}{{ site.baseurl }}{% endif %}{{ item.link }}"
+              class="usa-link--alt"
+            >
               <img src="{{ site.baseurl }}{{ item.image.light }}"
                    class="maxw-3 margin-right-2 text-sub"
                    alt="">
@@ -73,6 +75,4 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
   </div>
   </div>
   </section>
-  {% include banner-cta.html %}
 
-  <!-- Pagination links -->
