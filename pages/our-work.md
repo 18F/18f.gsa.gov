@@ -1,7 +1,6 @@
 ---
 title: Our work
 permalink: /our-work/
-layout: primary
 lead: See how we’ve helped agencies deliver value to the American people.
 content_wide: true
 content_focus: false
@@ -14,7 +13,6 @@ redirect_from:
   - /what-we-deliver/ready-2-serve/
   - /what-we-deliver/new-ten/
 banner_cta: true
-gridless: true
 ---
 
 <section class="bg-primary-darker usa-section--dark section-padding-md"> 
