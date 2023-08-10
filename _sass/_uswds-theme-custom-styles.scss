@@ -162,7 +162,11 @@ hr {
 .hr-1-dark {
   border: none;
   border-top: 1px solid color('primary-dark');
-  color: color('primary-dark');
+}
+
+.hr-1-base-lighter {
+  border: none;
+  border-top: 1px solid color('base-lighter');
 }
 
 .footer-hr-alignment {

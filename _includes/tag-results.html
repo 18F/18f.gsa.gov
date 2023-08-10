@@ -20,18 +20,12 @@
         {% endunless %}
         <p>{{ post.excerpt }}</p>
         {% unless include.limit_metadata %}
-        <span class="post-tags display-flex flex-wrap" itemprop="keywords">
-          {% for tag in post.tags %}
-          <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/" 
-             class="usa-label post-tag"
-          >
-            {{ tag }}
-          </a>
-          {% endfor %}
-        </span>
+          {% include post-tags.html post_tags=post.tags %}
         {% endunless %}
       </li>
 
+      {% comment %}
+      // TODO: Remove
         <a class="post-click-target" href="{{ post.url | prepend: site.baseurl }}" title="link to post" tabindex="-1">
           {% if post.image.size > 0 %}
           <div class="usa-width-one-third post-excerpt">
@@ -44,6 +38,7 @@
             <span class="usa-sr-only">Continue reading about {{ post.title }}</span>
           </a>
         </div>
+        {% endcomment%}
     {% endfor %}
   {% else %}
     No posts yet.

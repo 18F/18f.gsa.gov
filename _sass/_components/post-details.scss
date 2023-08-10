@@ -51,10 +51,9 @@
   padding: units(1);
   text-decoration: none;
   text-transform: lowercase;
-  text-wrap: no-wrap;
 
   &:visited {
-    color: initial
+    color: color('primary');
   }
 
   &:focus,
@@ -64,8 +63,7 @@
   }
 
   &:focus,
-  &:hover,
-  &:visited {
+  &:hover {
     color: color('primary-darkest');
   }
 }
@@ -81,6 +79,22 @@
 
 // // Post pagination
 // // ==========================
+
+
+
+.post-pagination__heading {
+  @include u-font('heading', 'lg');
+  @include u-text('bold');
+  color: color('primary');
+}
+
+.post-pagination__link:focus, 
+.post-pagination__link:hover {
+  .post-pagination__heading {
+    color: color('primary-darker'); 
+  }
+}
+
 
 // .post-pagination {
 //   padding: units(2) 0;
