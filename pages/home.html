@@ -160,11 +160,8 @@ redirect_from: /developer/
 
     {% assign latest_posts = site.posts | slice:0,6 %}
     {% include featured-posts.html
-      hide_date=true
-      title="Recent blog posts"
+      color_mode="dark"
       related_posts=latest_posts
-      show_tags=false
-      additional_class="usa-section--mobile-no-x"
     %}
     
     <a href="{{ site.baseurl }}/blog/" 
