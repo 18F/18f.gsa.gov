@@ -69,23 +69,23 @@
 // Blog pagination
 // ==========================
 
-.pagination {
-  color: color('base-dark');
-  font-size: font-size('body', 'sm');
-  margin-top: 2rem;
+// .pagination {
+//   color: color('base-dark');
+//   font-size: font-size('body', 'sm');
+//   margin-top: 2rem;
 
-  > div {
-    float: left;
-    width: 33%;
+//   > div {
+//     float: left;
+//     width: 33%;
 
-    &:nth-child(2) {
-      text-align: center;
-    }
+//     &:nth-child(2) {
+//       text-align: center;
+//     }
 
-    &:last-child {
-      a {
-        float: right;
-      }
-    }
-  }
-}
+//     &:last-child {
+//       a {
+//         float: right;
+//       }
+//     }
+//   }
+// }

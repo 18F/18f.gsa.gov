@@ -6,17 +6,22 @@
 // @import '_components/hero';
 // @import '_components/lists';
 // @import '_components/post-list';
-@import '_components/post-details';
+// @import '_components/post-details';
 // @import '_components/tag-index';
 // @import '_components/featured-posts';
 // @import '_components/social-links';
+@import '_components/blog';
+@import '_components/button';
+@import '_components/card-with-image';
 @import '_components/header';
+@import '_components/section';
+@import '_components/quotemark';
 // @import '_components/nav-buttons';
-// @import '_components/utilities';
+@import '_components/utilities';
 
 // // 18F site templates
 // // ==========================
-@import '_templates/blog-template';
+// @import '_templates/blog-template';
 // @import '_templates/guides';
 // @import '_templates/how-we-work';
 // @import '_templates/what-we-deliver';
@@ -33,6 +38,10 @@ h2 {
   @include u-text('normal');
 }
 
+* + h2 {
+  margin-top: units(6);
+}
+
 h3 {
   @include u-font('heading', 'xl');
   @include u-line-height('heading', 3);
@@ -40,215 +49,3 @@ h3 {
   letter-spacing: $letter-spacing-xs;
 }
 
-// usa-prose overrides
-.usa-prose > * + h2, * + h2 {
-  margin-top: units(6);
-}
-
-// Section overrides
-.usa-section {
-  padding-top: units(10);
-  padding-bottom: units(10);
-}
-
-.section-padding-md {
-  padding-top: units(8);
-  padding-bottom: units(8);
-}
-
-.section-padding-sm {
-  padding-top: units(6);
-  padding-bottom: units(6);
-}
-
-.section-padding-top-0 {
-  padding-top: 0;
-}
-
-// Dark section overrides
-.usa-section--dark {
-  h2 {
-    color: white;
-  }
-
-  .an18f-button--accent {
-    color: initial; 
-
-    &:focus,
-    &:hover {
-      color: color('primary-darkest');
-    }
-
-    &:active {
-      color: white;
-    }
-  }
-  
-  .text-white {
-    color: white;
-  }
-
-  .text-primary-lightest {
-    color: color('primary-lightest');
-  }
-}
-
-// Custom button style 
-.an18f-button--accent {
-  background-color: color('primary-lightest'); 
-  color: color('primary-darkest');
-  letter-spacing: $letter-spacing-xs;
-
-  &:visited {
-    color: initial; 
-  }
-
-  &:focus,
-  &:hover {
-    background-color: color('primary-lighter');
-  }
-
-  &:active {
-    background-color: color('primary');
-    color: white;
-  }
-}
-
-.an18f-button--dark {
-  @include u-radius('md');
-  background-color: color('primary-dark');
-  color: white;
-  padding: units(1.5) units(2.5);
-
-  &:visited {
-    color: initial;
-  }
-
-  &:focus,
-  &:hover {
-    background-color: color('primary-darker');
-  }
-
-  &:active {
-    background-color: color('primary-darkest');
-  }
-}
-
-
-
-// Custom utitlities, TODO: Move to utils file
-.border-top-05-primary-dark {
-  border-top: units(0.5) solid color('primary-dark');
-}
-
-.list-space-1 {
-  li {
-    margin-bottom: units(1);
-  }
-}
-
-.list-space-2 {
-  li {
-    margin-bottom: units(2);
-  }
-}
-
-hr {
-  border: 1px solid color('primary-darker');
-  margin-top: units(6);
-  margin-bottom: units(4);
-}
-
-.hr-1-dark {
-  border: none;
-  border-top: 1px solid color('primary-dark');
-}
-
-.hr-1-base-lighter {
-  border: none;
-  border-top: 1px solid color('base-lighter');
-}
-
-.footer-hr-alignment {
-  margin-top: calc(#{units(-6)} - 2px); // Extra 2px to hide the rule in the cta
-  margin-bottom: units(6);
-}
-
-.text-ls-05 {
-  letter-spacing: $letter-spacing-xs;
-}
-
-.text-outdent-1 {
-  text-indent: units(-1);
-}
-
-.text-outdent-2 {
-  text-indent: units(-2);
-}
-
-.large-quotemark {
-  color: color('primary-lightest');
-  font-size: units(15);
-  line-height: 0;
-  margin-top: units(6);
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.caret {
-  height: units(1.5);
-  width: units(1.5);
-  padding-top: units('2px');
-}
-
-.card-with-image {
-  &:visited {
-    color: initial;
-  }
-  text-decoration: none; 
-}
-.card-with-image div {
-  box-sizing: border-box;
-  border: 1px solid transparent;
-  background-color: white;
-
-
-  &:focus,
-  &:hover {
-    border: 1px solid color('primary-dark');
-  }
-
-  &:active {
-    background-color: color('base-lighter'); 
-  }
-}
-
-.card-with-image--dark div {
-  color: white;
-  background-color: color('primary-dark');
-
-  &:focus,
-  &:hover {
-    background-color: color('primary-darker');
-  }
-
-  &:active {
-    background-color: color('primary-darkest'); 
-  }
-}
-
-// Sidenav overrides
-.usa-sidenav a:not(.usa-button) {
-  padding-top: units(2);
-  padding-bottom: units(2);
-  padding-left: 0;
- }
-
-// Helps override 0 margin on unstyled list
-.usa-list--unstyled .margin-bottom-2 {
-  margin-bottom: units(2);
-}
-
-.usa-list--unstyled .margin-bottom-5 {
-  margin-bottom: units(5);
-}
