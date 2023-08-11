@@ -35,10 +35,16 @@ h2 {
 
 h3 {
   @include u-font('heading', 'xl');
-  @include u-text('bold');
   @include u-line-height('heading', 3);
+  @include u-text('normal');
   letter-spacing: $letter-spacing-xs;
 }
+
+// usa-prose overrides
+.usa-prose > * + h2, * + h2 {
+  margin-top: units(6);
+}
+
 // Section overrides
 .usa-section {
   padding-top: units(10);
@@ -53,6 +59,10 @@ h3 {
 .section-padding-sm {
   padding-top: units(6);
   padding-bottom: units(6);
+}
+
+.section-padding-top-0 {
+  padding-top: 0;
 }
 
 // Dark section overrides
@@ -127,6 +137,9 @@ h3 {
 
 
 // Custom utitlities, TODO: Move to utils file
+.border-top-05-primary-dark {
+  border-top: units(0.5) solid color('primary-dark');
+}
 
 .list-space-1 {
   li {
@@ -138,6 +151,14 @@ h3 {
   li {
     margin-bottom: units(2);
   }
+}
+
+.footer-hr {
+  border: none;
+  border-top: 1px solid color('primary-dark');
+  color: color('primary-dark');
+  margin-top: calc(#{units(-6)} - 2px); // Extra 2px to hide the rule in the cta
+  margin-bottom: units(6);
 }
 
 .text-ls-05 {
@@ -159,4 +180,57 @@ h3 {
   margin-top: units(6);
   margin-bottom: 0;
   text-align: center;
+}
+
+.card-with-image {
+  &:visited {
+    color: initial;
+  }
+  text-decoration: none; 
+}
+.card-with-image div {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: white;
+
+
+  &:focus,
+  &:hover {
+    border: 1px solid color('primary-dark');
+  }
+
+  &:active {
+    background-color: color('base-lighter'); 
+  }
+}
+
+.card-with-image--dark div {
+  color: white;
+  background-color: color('primary-dark');
+
+  &:focus,
+  &:hover {
+    background-color: color('primary-darker');
+  }
+
+  &:active {
+    background-color: color('primary-darkest'); 
+  }
+}
+
+// Sidenav overrides
+.usa-sidenav a:not(.usa-button) {
+  padding-top: units(2);
+  padding-bottom: units(2);
+  padding-left: 0;
+ }
+.usa-sidenav .usa-sidenav__item:hover {
+
+}
+
+
+.usa-section hr {
+  border: 1px solid color('primary-darker');
+  margin-top: units(6);
+  margin-bottom: units(4);
 }

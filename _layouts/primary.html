@@ -1,6 +1,57 @@
 ---
 layout: default
 ---
+
+{% assign page_title = page.subnav_title | default: page.title %}
+
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html
+  page_title=page_title
+  background_class='bg-base-lightest'
+%}
+{% endif %}
+
+<section class="usa-section section-padding-sm {% if page.include_subnav %} content-wide {% endif %}">
+  <div class="grid-container"> 
+    <h1> {{ page.title }} </h1>
+    {% if page.lead %} 
+      <p class="font-sans-xl line-height-sans-3"> {{ page.lead }} </p>
+    {% endif %}
+    {% if page.img %}
+      <img src="{{ site.baseurl }}{{ page.img }}" alt="{{ page.img_alt_text }}" class="margin-top-4">
+    {% endif %}
+  </div>
+</section>
+{% if page.gridless %}  
+ {{ content }}
+{% else %}
+<section class="usa-section section-padding-top-0">
+<div class="grid-container"> 
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-7">
+      {{ content }}
+    </div>
+    {% if page.include_subnav or page.side_cta %}
+    <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
+      {% if page.include_subnav %} 
+        {% include navigation.html subnav=true %}
+      {% endif %}
+      {% if page.side_cta %} 
+        {% include side-cta.html %}
+      {% endif %}
+    </aside>
+    {% endif %}
+  </div>
+</div>
+</section>
+{% endif %}
+
+{% if page.banner_cta %}
+  {% include banner-cta.html %}
+{% endif %}
+
+{% comment %}
+// TODO delete if unused
 {% if page.image %}
   {% include feature-image.html %}
   <h1 class="usa-sr-only">{{ page.title }}</h1>
@@ -20,37 +71,4 @@ layout: default
 {% else %}
   <h1 class="usa-sr-only">{{ page.title }}</h1>
 {% endif %}
-
-{% assign page_title = page.subnav_title | default: page.title %}
-
-{% if page.breadcrumb == true %}
-{% include breadcrumb.html
-  page_title=page_title
-  background_class='bg-base-lightest'
-%}
-{% endif %}
-
-<section class="{% unless page.gridless %}grid-container usa-section {% endunless %}{% if page.include_subnav %} content-wide {% endif %}">
-  {% if page.include_subnav %}
-  <div class="grid-row grid-gap">
-    <aside class="tablet:grid-col-4 margin-bottom-2 z-top bg-white sticky">
-      {% include navigation.html subnav=true %}
-    </aside>
-    <section class="tablet:grid-col-8">
-      {% if page.image and page.lead %}
-      <h3 class="page-lead">{{ page.lead }}</h3>
-      {% endif %}
-      {{ content }}
-    </section>
-    {% else %}
-    {% if page.image and page.lead %}
-    <h3 class="page-lead">{{ page.lead }}</h3>
-    {% endif %}
-    {{ content }}
-    {% endif %}
-  </div>
-</section>
-
-{% if page.banner_cta %}
-  {% include banner-cta.html %}
-{% endif %}
+{% endcomment %}
