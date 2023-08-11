@@ -7,13 +7,13 @@
 //   @include u-font('sans', 'xs');
 // }
 
-// .post-feature_image {
-//   background-position: center;
-//   background-size: cover;
-//   height: units('card-lg');
-//   margin: 0;
-//   position: relative;
-// }
+.post-feature_image {
+  background-position: center;
+  background-size: cover;
+  height: units('card-lg');
+  margin: 0;
+  position: relative;
+}
 
 // .post-byline {
 //   color: color('base-dark');
@@ -94,7 +94,6 @@
     color: color('primary-darker'); 
   }
 }
-
 
 // .post-pagination {
 //   padding: units(2) 0;

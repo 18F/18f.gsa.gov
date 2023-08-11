@@ -2,8 +2,9 @@
 layout: default
 ---
 
-
-{% include feature-image.html %}
+{% if page.image %}
+  {% include feature-image.html %}
+{% endif %}
 
 <article id="main-content" class="post-article margin-top-6" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="grid-container">
