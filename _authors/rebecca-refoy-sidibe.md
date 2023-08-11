@@ -7,6 +7,5 @@ city: Washington
 state: D.C.
 team: Account Management
 role: Account manager
-published: false
+published: true
 ---
-

@@ -1,8 +1,7 @@
 ---
 name: selena-juneau-vogel
-first_name: 'Selena '
+first_name: "Selena "
 last_name: Juneau-Vogel
 full_name: Selena Juneau-Vogel
-published: false
+published: true
 ---
-

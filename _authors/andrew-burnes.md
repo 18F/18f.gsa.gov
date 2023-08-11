@@ -4,6 +4,5 @@ full_name: Andrew Burnes
 last_name: Burnes
 name: andrew-burnes
 redirect_from:
-published: false
+published: true
 ---
-
