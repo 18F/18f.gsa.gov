@@ -22,8 +22,8 @@ layout: default
       </div>
     </div>
     <hr class="hr-1-dark">
-    <div class="grid-row-grid-gap">
-      <div class ="tablet:grid-col-7 margin-top-6">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-7 margin-top-6">
         <div class="post-content" itemprop="articleBody">
           {% if page.image and page.image_feature_small == true %}
             <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
@@ -32,6 +32,9 @@ layout: default
           {{ content }}
         </div>
       </div>
+      <aside class="tablet:grid-offset-1 tablet:grid-col-4"> 
+        {% include social-media.html %}
+      </aside>
     </div>
   </div>
 </article>
