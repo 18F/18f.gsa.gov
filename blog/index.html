@@ -17,7 +17,7 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
       tags=page.tags
       trim_padding=true
       %}
-      <section class="pagination grid-row content-focus flex-align-center">
+      <section class="pagination grid-row flex-align-center flex-justify">
         <div>
           {% if paginator.previous_page %}
             <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
@@ -30,7 +30,7 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
         <div>
           <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
         </div>
-        <div class="display-flex">
+        <div class="display-flex flex-justify-end margin-right-neg-2px">
           {% if paginator.next_page %}
           <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
             Next {{ paginator.per_page }} posts {% include svg/icons/arrow-right.svg %}
