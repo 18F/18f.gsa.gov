@@ -78,7 +78,7 @@ defaults:
   scope:
     path: "_authors"
   values:
-    layout: default-profile
+    layout: author-results
  -
   scope:
     path: "_contact"

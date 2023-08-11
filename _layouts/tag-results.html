@@ -12,12 +12,14 @@ Layout for clicking on Browse by Topic
   </div>
 </section>
 
-<section class="grid-container content-focus page-tag-results">
-  <hr class="hr-1-dark margin-y-0">
-  {%
-    include tag-results.html
-    posts=page.posts
-    tags=page.tags
-    trim_padding=true
-  %}
+<section class="padding-sm page-tag-results">
+  <div class="grid-container">
+    <hr class="hr-1-dark margin-y-0">
+    {%
+      include tag-results.html
+      posts=page.posts
+      tags=page.tags
+      trim_padding=true
+    %}
+  </div>
 </section>
