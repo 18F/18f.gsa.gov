@@ -6,7 +6,7 @@ Layout for clicking on Browse by Topic
 {% endcomment %}
 <section class="usa-section section-padding-sm">
   <div class="grid-container"> 
-    <a href="{{ site.baseurl }}/blog/"><span class="usa-sr-only">Back to</span>{%- include svg/icons/arrow-left.svg -%}<span class="margin-left-neg-2px"> 18F Blog </span> </a>
+    <a href="{{ site.baseurl }}/blog/" class="display-flex flex-align-center"><span class="usa-sr-only">Back to</span>{%- include svg/icons/arrow-left.svg -%}<span class="margin-left-05">18F Blog </span> </a>
     {% assign numberof = page.posts | size %}
     <h1 class="margin-top-2">{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged with "{{ page.title }}" </h1>
   </div>
