@@ -4,13 +4,157 @@ header_border: true
 ---
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
+<section class="usa-section section-padding-sm project-page">
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    {% if page.agency %}
+      <div class="grid-col-12">
+        <h1> {{ page.agency }} </h1>
+      </div>
+      <div class="grid-col-12">
+        <h2 class="margin-top-4"> {{ page.title }} </h2>
+      </div>
+    {% else %}
+      <div class="grid-col-12">
+        <h1> {{  page.title }} </h1>
+      </div>
+    {% endif %}
+  {% if page.image %}
+    <img src="{{ site.baseurl }}/{{ page.image }}"
+         class="margin-top-6"
+         alt="{{ page.image_accessibility }}"
+    >
+  {% endif %}
+  </div>
+  <div class="grid-row grid-gap margin-top-8">
+  <div class="tablet:grid-col-7 project-page__content">
+    <h2> Project details </h2>
+    {{ content }}
+  </div>
+  {% if page.agency or
+        page.project_url or
+        page.github_repo or
+        page.product_clients.size > 0 or
+        page.start_date or
+        page.expiration_date or
+        page.resources
+  %}
+  <div class="tablet:grid-offset-1 tablet:grid-col-4 project-page__sidebar">
+    <div class="border-top-05-primary-dark padding-y-2">
+
+      <div>
+        <h3 class="font-sans-md text-bold margin-top-0"> Agency partner </h3>
+        <p> {{ page.agency }} </p>
+        </div>
+
+        {% if page.project_url %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">
+            See our work
+          </h3>
+          <a> {{ page.project_url | markdownify }} </a>
+        </div>
+        {% endif %}
+
+        {% if page.github_repo %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">
+            See the code on GitHub
+          </h3>
+            <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+            {% for repo in page.github_repo %}
+              <li>{{ repo | markdownify }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {% comment %}
+        TODO: Revisit, and possibly rephrase or combine with agency partner (singular)
+        {% endcomment %}
+        {% if page.product_clients.size > 0 %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1"> Agency partners </h3>
+          {% if page.product_client.size == 1 %}
+            {{ page.product_client }}
+          {% else %}
+          <ul class="{% if page.product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
+          {% for client in page.product_clients %}
+            <li>{{ client }}</li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
 
 
-{% include breadcrumb.html
-  parent_permalink='/our-work/'
-  parent_title='Our work'
-%}
+        {% if page.start_date or page.expiration_date %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">When</h3>
+          <p>
+          {% if page.start_date and page.expiration_date %}
+          {{ page.start_date }} – {{ page.expiration_date }}
+          {% elsif page.start_date and page.expiration_date == false %}
+          Starts {{ page.start_date }}
+          {% elsif page.start_date == false and page.expiration_date %}
+          Ends {{ page.expiration_date }}
+          {% endif %}
+          </p>
+        </div>
+        {% endif %}
 
+        {% if page.resources.size > 0 %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">Resources</h3>
+          {% if page.resources.size > 1 %}
+            <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+              {% for resource in page.resources %}
+                <li >{{ resource | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p> {{ pages.resources | markdownify }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+
+        {% if page.learn_more %}
+        <div class="margin-top-4">
+          <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% if matching_posts.size > 0 %}
+<section class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row margin-bottom-6">
+      <div class="tablet:grid-col-8">
+        <h2> Related blog posts </h2>
+      </div>
+      {% if matching_posts.size > 3 %}
+      <div class="tablet:grid-col-4 flex-align-self-end margin-top-2 tablet:text-right ">
+        <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+      </div>
+      {% endif %}
+    </div>
+    {% include featured-posts.html
+    related_posts=matching_posts
+    max_num_posts=3
+    show_tags=false
+    show_excerpt=true
+    additional_class="bg-base-lightest"
+    %}
+  </div>
+</section>
+{% endif %}
+
+{% comment %}
+-------------------------------------------------------------
 <section class="page-tag-results">
 
   <section class="bg-primary-dark usa-section padding-y-0">
@@ -57,7 +201,7 @@ header_border: true
         {{ content }}
       </section>
     </div>
-    
+
     <aside class="grid-container usa-section grid-container-reversed-right tablet:grid-col-4">
       <ul class="usa-sidenav partner-info thick-accent-border">
         {% if page.quote %}
@@ -138,9 +282,7 @@ header_border: true
         {% endif %}
 
         {% if page.learn_more %}
-          <li>
-            <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
-          </li>
+          <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
         {% endif %}
       </ul>
       <div>{% include side-cta.html %}</div>
@@ -149,10 +291,4 @@ header_border: true
   </div>
   </div>
 </section>
-  {% include featured-posts.html
-    hide_date=true
-    title="Related blog posts"
-    related_posts=matching_posts
-    show_tags=false
-    additional_class="bg-base-lightest"
-  %}
+{% endcomment %}
