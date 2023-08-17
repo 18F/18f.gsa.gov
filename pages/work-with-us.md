@@ -1,14 +1,11 @@
 ---
 title: Work with us
 permalink: /work-with-us/
-layout: primary
 lead: As federal employees, we share your dedication to serving the American&nbsp;public. 
 banner_cta: true
 content_focus: false
 redirect_from: /how-we-work/
-gridless: true
 ---
-
 
 <section class="usa-section usa-section--dark bg-primary-darker section-padding-6">
 <div class="grid-container">

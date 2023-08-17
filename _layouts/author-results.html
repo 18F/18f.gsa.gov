@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
+{% comment %}
+Layout for posts by author
+{% endcomment %}
+
 {% assign matching_posts = page | match_posts:'authors' | sort:'date' | reverse %}
 
-<section class="bg-primary-dark usa-section">
+<section class="usa-section section-padding-sm">
   <div class="grid-container">
     <header>
       {% if page.full_name %}
@@ -12,12 +16,15 @@ layout: default
     </header>
   </div>
 </section>
-<section class="grid-container usa-section content-focus page-tag-results">
-  {%
-    include tag-results.html
-    posts=matching_posts
-    tags=page.tags
-    limit_metadata=true
-    trim_padding=true
-  %}
+<section class="padding-sm page-tag-results">
+  <div class="grid-container">
+    <hr class="hr-1-dark margin-y-0">
+    {%
+      include post-previews.html
+      posts=matching_posts
+      tags=page.tags
+      limit_metadata=true
+      trim_padding=true
+    %}
+  </div>
 </section>

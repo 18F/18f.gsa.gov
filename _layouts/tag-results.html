@@ -1,28 +1,25 @@
 ---
 layout: default
-header_border: true
 ---
-
-<section class="bg-primary-dark usa-section">
-  <div class="grid-container">
-    <a class="link-arrow-left" href="{{ site.baseurl }}/blog/">
-      <h1 class="section-heading section-heading-alt">
-        <span class="usa-sr-only">Back to</span>
-          &#10094; 18F Blog
-      </h1>
-    </a>
+{% comment %}
+Layout for clicking on Browse by Topic
+{% endcomment %}
+<section class="usa-section section-padding-sm">
+  <div class="grid-container"> 
+    <a href="{{ site.baseurl }}/blog/" class="display-flex flex-align-center"><span class="usa-sr-only">Back to</span>{%- include svg/icons/arrow-left.svg -%}<span class="margin-left-05">18F Blog </span> </a>
     {% assign numberof = page.posts | size %}
-    <h2>{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged with "{{ page.title }}"</h2>
+    <h1 class="margin-top-2">{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged with "{{ page.title }}" </h1>
   </div>
 </section>
 
-
-  
-<section class="grid-container content-focus page-tag-results">
-  {%
-    include tag-results.html
-    posts=page.posts
-    tags=page.tags
-    trim_padding=true
-  %}
+<section class="padding-sm page-tag-results">
+  <div class="grid-container">
+    <hr class="hr-1-dark margin-y-0">
+    {%
+      include post-previews.html
+      posts=page.posts
+      tags=page.tags
+      trim_padding=true
+    %}
+  </div>
 </section>

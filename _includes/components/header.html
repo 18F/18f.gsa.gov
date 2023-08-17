@@ -80,12 +80,22 @@
               </div>
               {% endif %}
             {% else %}
-              <a class="{%- if _section.class -%}{{ _section.class }}
-                        {%- elsif _section.href contains '/contact' %}an18f-button--dark margin-top-3 desktop:margin-top-0 margin-x-2
-                        {%- else -%}usa-nav__link
-                        {%- endif -%}
-                        {% if _section.href == page.permalink %} usa-current {% endif %}
-                        {%- if _section.href == '/blog/' and page.permalink == False -%} usa-current {%- endif -%}"
+              {% assign nav_item_class = "" %}
+              {% assign current_item  = "" %}
+              {%- if _section.class -%}
+                {% assign nav_item_class = _section.class %} 
+              {%- elsif _section.href contains '/contact' -%}
+                {% assign nav_item_class = "an18f-button--dark margin-top-3 desktop:margin-top-0 margin-x-2"  %}
+              {%- else -%} 
+                {% assign nav_item_class = "usa-nav__link" %}
+              {%- endif -%} 
+              {% if _section.href == page.permalink %} 
+                {% assign current_item = "usa-current" %}
+              {% endif %} 
+              {% if _section.href == '/blog/' and page.permalink == False -%} 
+                {% assign current_item = "usa-current" %}
+              {% endif -%}
+              <a class="{{ nav_item_class }} {{ current_item }}"
                  href="{% if _section.external %} {{ _section.href }} {% else %} {{ _section.href | relative_url }} {% endif %}"> <span>{{ _section.text }}</span>
               </a>
             {% endif %}

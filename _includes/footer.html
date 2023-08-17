@@ -1,6 +1,6 @@
 <footer>
   <div class="grid-container padding-y-6">
-    <hr class="footer-hr"> 
+    <hr class="hr-1-dark footer-hr-alignment"> 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-3">
         <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg"
@@ -16,7 +16,7 @@
 
       <div class="tablet:grid-offset-1 tablet:grid-col-2"> 
         <h2 class="font-heading-md text-medium margin-bottom-4"> Pages </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
         {% for item in site.data.navigation.primary %}
         <li> <a href="{{ site.baseurl }}/{{ item.href }}"> {{item.text}} </a> </li>
           {% endfor %}
@@ -25,7 +25,7 @@
 
       <div class="tablet:grid-col-2"> 
         <h2 class="font-heading-md text-medium margin-bottom-4"> Policies </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
           <li><a href="{{ site.baseurl }}/linking-policy/"> Linking policy </a></li>
           <li><a href="{{ site.baseurl }}/open-source-policy/"> Open source policy </a></li>
           <li><a href="{{ site.baseurl }}/vulnerability-disclosure-policy/"> Vulnerability disclosure </a></li>
@@ -35,7 +35,7 @@
 
       <div class="tablet:grid-col-2"> 
         <h2 class="font-heading-md text-medium margin-bottom-4"> Contact </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2"> 
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
           <li><a href="{{ site.baseurl }}/contact/"> Get in touch </a></li>
           <li><a href="{{ site.baseurl }}/about/#for-press"> Press </a></li>
           <li><a href="https://github.com/18F/18f.gsa.gov/issues/new"> Report a bug </a></li>
@@ -45,7 +45,7 @@
 
       <div class="tablet:grid-col-2">
         <h2 class="font-heading-md text-medium margin-bottom-4"> Social </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-space-2">
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
           <li class="display-flex flex-align-center">
             <a href="https://github.com/18F">
               <img src="{{ site.baseurl }}/assets/img/social-icons/svg/github-dark-2.svg"

@@ -22,29 +22,8 @@ layout: default
     {% endif %}
   </div>
 </section>
-{% if page.gridless %}  
+
  {{ content }}
-{% else %}
-<section class="usa-section section-padding-top-0">
-<div class="grid-container"> 
-  <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-7">
-      {{ content }}
-    </div>
-    {% if page.include_subnav or page.side_cta %}
-    <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
-      {% if page.include_subnav %} 
-        {% include navigation.html subnav=true %}
-      {% endif %}
-      {% if page.side_cta %} 
-        {% include side-cta.html %}
-      {% endif %}
-    </aside>
-    {% endif %}
-  </div>
-</div>
-</section>
-{% endif %}
 
 {% if page.banner_cta %}
   {% include banner-cta.html %}

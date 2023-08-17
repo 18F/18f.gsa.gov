@@ -1,41 +1,116 @@
-//Mobile helper for usa-section
-.usa-section.usa-section--mobile-no-x {
-  @include u-padding-x(0);
+@import "variables.scss";
 
-  @include at-media('tablet') {
-    @include u-padding-x(5);
-  }
-}
-
-// Special border
-.section-case-studies {
-  border-bottom: 1rem solid color('accent-cool');
-}
-
-.thick-accent-border {
-  border-top: units(1) solid color('accent-cool');
-}
-
-// Caret and icons
-.icon {
-  height: 1rem;
-  width: 1rem;
+.border-top-05-primary-dark {
+  border-top: units(0.5) solid color('primary-dark');
 }
 
 .caret {
-  height: .65rem;
-  width: .65rem;
+  height: units(1.5);
+  width: units(1.5);
+  padding-top: units('2px');
 }
 
-// Not left radius for signup button
-.no-left-radius {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  margin-left: -1px;
-  margin-top: 1px;
-  height: 38px;
+hr {
+  border: 1px solid color('primary-darker');
+  margin-top: units(6);
+  margin-bottom: units(4);
 }
 
-.align-items-center {
-  align-items: center;
+.hr-1-dark {
+  border: none;
+  border-top: 1px solid color('primary-dark');
 }
+
+.hr-1-base-lighter {
+  border: none;
+  border-top: 1px solid color('base-lighter');
+}
+
+.footer-hr-alignment {
+  margin-top: calc(#{units(-6)} - 2px); // Extra 2px to hide the rule in the cta
+  margin-bottom: units(6);
+}
+
+// Sets the spacing of the list items on a unorded list (ul)
+.list-item-spacing-1 {
+  li {
+    margin-bottom: units(1);
+  }
+}
+
+.list-item-spacing-2 {
+  li {
+    margin-bottom: units(2);
+  }
+}
+
+// Overrides for the 0 bottom margin on usa-list--unstyled 
+.usa-list--unstyled .margin-bottom-2 {
+  margin-bottom: units(2);
+}
+
+.usa-list--unstyled .margin-bottom-5 {
+  margin-bottom: units(5);
+}
+
+.text-ls-05 {
+  letter-spacing: $letter-spacing-xs;
+}
+
+.text-outdent-1 {
+  text-indent: units(-1);
+}
+
+.text-outdent-2 {
+  text-indent: units(-2);
+}
+
+.usa-sidenav a:not(.usa-button) {
+  padding-top: units(2);
+  padding-bottom: units(2);
+  padding-left: 0;
+ }
+
+// =============================================
+
+//Mobile helper for usa-section
+// .usa-section.usa-section--mobile-no-x {
+//   @include u-padding-x(0);
+
+//   @include at-media('tablet') {
+//     @include u-padding-x(5);
+//   }
+// }
+
+// // Special border
+// .section-case-studies {
+//   border-bottom: 1rem solid color('accent-cool');
+// }
+
+// .thick-accent-border {
+//   border-top: units(1) solid color('accent-cool');
+// }
+
+// // Caret and icons
+// .icon {
+//   height: 1rem;
+//   width: 1rem;
+// }
+
+// .caret {
+//   height: .65rem;
+//   width: .65rem;
+// }
+
+// // Not left radius for signup button
+// .no-left-radius {
+//   border-top-left-radius: 0;
+//   border-bottom-left-radius: 0;
+//   margin-left: -1px;
+//   margin-top: 1px;
+//   height: 38px;
+// }
+
+// .align-items-center {
+//   align-items: center;
+// }
