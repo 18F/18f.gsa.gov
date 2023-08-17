@@ -137,8 +137,10 @@ header_border: true
         <h2> Related blog posts </h2>
       </div>
       {% if matching_posts.size > 3 %}
-      <div class="tablet:grid-col-4 flex-align-self-end margin-top-2 tablet:text-right ">
-        <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
+      <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 text-right">
+        <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">
+          See all posts about this project {% include svg/icons/arrow-right.svg %}
+        </a>
       </div>
       {% endif %}
     </div>
