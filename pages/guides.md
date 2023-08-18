@@ -29,8 +29,8 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
           {% include card-with-image.html 
              text_content=guide.name
              link_url=guide.link
-             img_path=guide.image.dark
-             img_side="right"
+             image_path=guide.image.dark
+             image_side="right"
           %}
         </div>
       {% endfor %}

@@ -51,7 +51,7 @@ We take the time and have the experience to understand the specific mission of y
          card_color="primary-dark"
          text_content="Accessibility"
          link_url="https://accessibility.18f.gov/"
-         img_path="/assets/img/guides/accessibility-lightest.svg"
+         image_path="/assets/img/guides/accessibility-lightest.svg"
       %}
       </div>
       
@@ -60,14 +60,14 @@ We take the time and have the experience to understand the specific mission of y
          card_color="primary-dark"
          text_content="Agile"
          link_url="https://agile.18f.gov/"
-         img_path="/assets/img/guides/agile-lightest.svg"
+         image_path="/assets/img/guides/agile-lightest.svg"
       %}
       </div>
 
       <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
       {% include card-with-image.html 
          card_color="primary-dark"
-         img_path="/assets/img/guides/content-lightest.svg"
+         image_path="/assets/img/guides/content-lightest.svg"
          link_url="https://content-guide.18f.gov/"
          text_content="Content"
       %}
@@ -109,7 +109,7 @@ Some software projects are the right size and shape for 18F to build with you; o
       <div class="grid-col-6">
       {% include card-with-image.html 
          card_color="primary-dark"
-         img_path="/assets/img/guides/state-guide-lightest.svg"
+         image_path="/assets/img/guides/state-guide-lightest.svg"
          link_url="https://accessibility.18f.gov/"
          text_content="State Software Budgeting Handbook"
       %}
@@ -118,7 +118,7 @@ Some software projects are the right size and shape for 18F to build with you; o
       <div class="grid-col-6">
       {% include card-with-image.html 
          card_color="primary-dark"
-         img_path="/assets/img/guides/federal-guide-lightest.svg"
+         image_path="/assets/img/guides/federal-guide-lightest.svg"
          link_url="https://agile.18f.gov/"
          text_content="Federal Field Guide"
       %}
@@ -164,9 +164,9 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% assign project_link = site.baseurl | append: project_details.permalink %}
       <div class="grid-col-6">
         {% include card-with-image.html 
-           img_path=project_agency.logo
-           img_alt_text=project_agency.name
-           img_size="md"
+           image_path=project_agency.logo
+           image_alt_text=project_agency.name
+           image_size="md"
            link_url= project_link
            text_content=project_details.mini_excerpt
         %}
