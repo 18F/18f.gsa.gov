@@ -34,7 +34,7 @@ Outdated technology was making it difficult for the Alaska Department of Health 
 
 <!--  -->
 {% include testimonial.html 
-  type="project"
+  size="md"
   quote=" Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed."
   attribution="Monica Windom"
   position="Director Division of Public Assistance"

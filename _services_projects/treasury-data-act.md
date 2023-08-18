@@ -38,7 +38,7 @@ Congress passed the Digital Accountability and Transparency Act (DATA Act) of 20
 
 <!-- -->
 {% include testimonial.html 
-  type="project"
+  size="md"
   quote="The commitment of the team and the participation of 18F subject matter experts actually simplified our job. While many organizations publicly buy into the concept and value of Agile, this team demonstrated how it would succeed. Our sponsor was committed, our product owners were engaged. and with our 18F Agile leaders helping to demonstrate best practice, our workstreams coordinated seamlessly."
   attribution="Sherry L. Weir"
   organization="Kearney & Company, prime contractor on the DATA Act project"
