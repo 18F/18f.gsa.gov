@@ -19,12 +19,12 @@ resources:
 The Department of State and the U.S. Kimberley Process Authority (USKPA) manage domestic implementation of the [Kimberley Process](https://www.state.gov/conflict-diamonds-and-the-kimberley-process/), which aims to prevent trade in conflict diamonds. USKPA.org, a website critical to supporting legal export of rough diamonds from the U.S., needed an overhaul to meet the needs of its varied users. In need of a solution that fit a limited budget, the State Department reached out to 18F for help moving forward. 
 
 
-<div class="case-study-preheader margin-top-6">Approach</div>
+### Approach
 
 * 18F’s two-person team conducted a [technical assessment](https://18f.gsa.gov/2021/02/02/path-analysis-technical-assessments-toward-more-durable-usable-systems/) of USKPA.org that identified the problem to solve and the path forward in two weeks rather than the typical eight weeks for such work.
 
 
-<div class="case-study-preheader margin-top-6">Outcomes</div>
+### Outcomes
 * The project delivered a complete upgrade of the certificate tracking system, including a rebuilt database with increased usability, security, support, and data accuracy. New features include improved search, an address book, and the ability to manage changes to certificates electronically—work that previously was performed manually.
 * [USKPA.org](https://www.uskpa.org/) received a complete design update: a new logo, refreshed visual styling, and improved organization of content.
 * Documentation and training from 18F has enabled the partner to continue to enhance the site on its own as needed. 

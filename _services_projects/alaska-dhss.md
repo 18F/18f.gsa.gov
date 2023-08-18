@@ -22,17 +22,21 @@ resources:
 
 Outdated technology was making it difficult for the Alaska Department of Health and Social Services to update its eligibility systems for public benefit programs to reflect changes to federal or state policy. They asked 18F for help developing a procurement strategy that would allow them to deliver better service to those in need. 
 
-<div class="case-study-preheader margin-top-6">Approach</div>
+### Approach
 * Together we created a product vision statement, strategy, and roadmap.  
 * We helped staff adopt DevOps practices and establish a build and deployment pipeline to allow the state to accept work from outside vendors.  
 * Before the state issued the RFP to identify a vendor, we used lean prototypes to validate some early technology choices. This also gave our partner confidence that a selected vendor would be able to do the work.  
 * An agile approach to the RFP documents allowed the final RFP to include comments and address questions from vendors and other stakeholders. 
 
-<div class="case-study-preheader margin-top-6">Outcomes</div>
+### Outcomes
 * The Alaska Department of Health and Social Services released, awarded, and managed its first modular procurement.
 * Transparent working processes and good DevOps practices and tools helped foster more trusting, productive relationships between agencies and vendors.
 
-<div class="testimonial-blockquote">
-  Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed.
-    <span>- Monica Windom, Director Division of Public Assistance, Health and Social Services, State of Alaska</span>
-</div>
+<!--  -->
+{% include testimonial.html 
+  type="project"
+  quote=" Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed."
+  attribution="Monica Windom"
+  position="Director Division of Public Assistance"
+  organization="Health and Social Services, State of Alaska"
+%}
