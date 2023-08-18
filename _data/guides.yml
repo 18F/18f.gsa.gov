@@ -2,46 +2,46 @@
   link: "https://accessibility.18f.gov"
   image:
     light: "/assets/img/guides/accessibility-lightest.svg"
-    dark: "/assets/img/guides/accessibility.svg"
+    dark: "/assets/img/guides/accessibility-darker.svg"
 
 - name: "Agile"
   link: "https://agile.18f.gov"
   image:
     light: "/assets/img/guides/agile-lightest.svg"
-    dark: "/assets/img/guides/agile.svg"
+    dark: "/assets/img/guides/agile-darker.svg"
 
 - name: "Content"
-  link: "https://content.18f.gov"
+  link: "https://content-guide.18f.gov"
   image:
     light: "/assets/img/guides/content-lightest.svg"
-    dark: "/assets/img/guides/content.svg"
+    dark: "/assets/img/guides/content-darker.svg"
 
 - name: "De-risking"
-  link: "https://derisking.18f.gov"
+  link: "https://derisking-guide.18f.gov"
   image:
     light: ""
-    dark: "/assets/img/guides/derisking.svg"
+    dark: "/assets/img/guides/derisking-darker.svg"
 
 - name: "Design Methods"
   link: "https://methods.18f.gov"
   image:
     light: ""
-    dark: "/assets/img/guides/design-methods.svg"
+    dark: "/assets/img/guides/design-methods-darker.svg"
 
 - name: "Engineering"
   link: "https://engineering.18f.gov"
   image:
     light: ""
-    dark: "/assets/img/guides/engineering.svg"
+    dark: "/assets/img/guides/engineering-darker.svg"
 
 - name: "Product"
-  link: "https://product.18f.gov"
+  link: "https://product-guide.18f.gov"
   image:
     light: "/assets/img/guides/product-lightest.svg"
-    dark: "/assets/img/guides/product.svg"
+    dark: "/assets/img/guides/product-darker.svg"
 
 - name: "User Experience"
   link: "https://ux-guide.18f.gov"
   image:
     light: "/assets/img/guides/ux-lightest.svg"
-    dark: "/assets/img/guides/ux.svg"
+    dark: "/assets/img/guides/ux-darker.svg"
