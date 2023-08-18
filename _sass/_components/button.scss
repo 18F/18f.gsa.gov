@@ -12,6 +12,7 @@
 
   &:focus,
   &:hover {
+    color: color('primary-darkest');
     background-color: color('primary-lighter');
   }
 
@@ -23,7 +24,7 @@
 
 .usa-section--dark {
 
-  .usa-button.an18f-button--accent {
+  .an18f-button--accent {
     color: initial; 
 
     &:focus,
