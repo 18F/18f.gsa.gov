@@ -25,7 +25,7 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
     </div>
     <div class="grid-row grid-gap margin-top-5">
       {% for guide in site.data.guides %}
-        <div class="grid-col-6 margin-bottom-5">
+        <div class="tablet:grid-col-6 margin-bottom-5">
           {% include card-with-image.html 
              text_content=guide.name
              link_url=guide.link

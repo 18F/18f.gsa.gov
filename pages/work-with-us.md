@@ -46,7 +46,7 @@ We take the time and have the experience to understand the specific mission of y
     <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
-      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
       {% include card-with-image.html 
          card_color="primary-dark"
          text_content="Accessibility"
@@ -54,8 +54,8 @@ We take the time and have the experience to understand the specific mission of y
          image_path="/assets/img/guides/accessibility-lightest.svg"
       %}
       </div>
-      
-      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+     
+      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
       {% include card-with-image.html 
          card_color="primary-dark"
          text_content="Agile"
@@ -63,8 +63,8 @@ We take the time and have the experience to understand the specific mission of y
          image_path="/assets/img/guides/agile-lightest.svg"
       %}
       </div>
-
-      <div class="grid-col-6 tablet:grid-col-4 margin-top-3">
+    
+      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
       {% include card-with-image.html 
          card_color="primary-dark"
          image_path="/assets/img/guides/content-lightest.svg"
@@ -106,7 +106,7 @@ Some software projects are the right size and shape for 18F to build with you; o
     <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
-      <div class="grid-col-6">
+      <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
       {% include card-with-image.html 
          card_color="primary-dark"
          image_path="/assets/img/guides/state-guide-lightest.svg"
@@ -115,7 +115,7 @@ Some software projects are the right size and shape for 18F to build with you; o
       %}
       </div>
       
-      <div class="grid-col-6">
+      <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
       {% include card-with-image.html 
          card_color="primary-dark"
          image_path="/assets/img/guides/federal-guide-lightest.svg"
@@ -123,8 +123,7 @@ Some software projects are the right size and shape for 18F to build with you; o
          text_content="Federal Field Guide"
       %}
       </div>
-    </div>
-   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
+    </div> <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
      Browse our guides 
    </a>
   </div>
@@ -162,7 +161,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% assign project_details = site | find_collection: 'services_projects' | where: 'slug', project | first %}
       {% assign project_agency = site.data.agencies | where: "name", project_details.agency | first %}
       {% assign project_link = site.baseurl | append: project_details.permalink %}
-      <div class="grid-col-6">
+      <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
         {% include card-with-image.html 
            image_path=project_agency.logo
            image_alt_text=project_agency.name

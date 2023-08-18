@@ -13,9 +13,9 @@ image_size - if set to "md" will set the max image size to 8 units. Otherwise th
 {% endcomment %}
 
 <a href="{{include.link_url}}" 
-   class="card-with-image {%- if include.card_color == "primary-dark" %} card-with-image--dark {% endif %}"
+   class="card-with-image {%- if include.card_color == "dark" %} card-with-image--dark {% endif %}"
 >
-<div class="dark display-flex flex-align-center {%- if include.image_side == "right" %} flex-justify {% endif %} padding-4 radius-lg">
+<div class="display-flex flex-align-center {%- if include.image_side == "right" %} flex-justify {% endif %} height-full padding-4 radius-lg">
 
   {% capture card_image %}
   <img src="{{ site.baseurl }}{{include.image_path}}" 
