@@ -1,6 +1,5 @@
 ---
 layout: default
-header_border: true
 ---
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
@@ -27,7 +26,7 @@ header_border: true
   {% endif %}
   </div>
   <div class="grid-row grid-gap margin-top-8">
-  <div class="tablet:grid-col-7 project-page__content">
+  <div class="tablet:grid-col-7 margin-bottom-4 project-page__content">
     <h2> Project details </h2>
     {{ content }}
   </div>
@@ -40,7 +39,7 @@ header_border: true
         page.resources
   %}
   <div class="tablet:grid-offset-1 tablet:grid-col-4 project-page__sidebar">
-    <div class="border-top-05-primary-dark padding-y-2">
+    <div class="border-top-05-primary-dark padding-y-2 margin-top-1">
 
       <div>
         <h3 class="font-sans-md text-bold margin-top-0"> Agency partner </h3>
@@ -137,7 +136,7 @@ header_border: true
         <h2> Related blog posts </h2>
       </div>
       {% if matching_posts.size > 3 %}
-      <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 text-right">
+      <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 posts__see-all">
         <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">
           See all posts about this project {% include svg/icons/arrow-right.svg %}
         </a>

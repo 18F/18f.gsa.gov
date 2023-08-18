@@ -64,3 +64,8 @@
   }
 }
 
+.posts__see-all {
+  @include at-media('tablet') {
+    text-align: right;
+  }
+}
