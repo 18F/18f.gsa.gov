@@ -12,7 +12,7 @@ redirect_from: /how-we-work/
   <div class="grid-row">
     <div class="grid-col">
     <h2>Transform the way you work</h2>
-    <p> 
+    <p class="font-sans-lg"> 
         Because <a href="https://derisking-guide.18f.gov/" class="text-primary-lightest">87% of large government IT projects fail</a>, government’s approach to this work needs to change. We believe that projects have the best chance for success when agency leaders and staff themselves are closely involved in developing the solutions they need. We can help.
     </p>
     </div>
