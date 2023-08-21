@@ -3,6 +3,9 @@ layout: primary
 ---
 <section class="usa-section section-padding-top-0">
 <div class="grid-container"> 
+  {% if page.title_rule %}
+  <hr class="hr-1-dark margin-top-0 margin-bottom-8">
+  {% endif %}
   <div class="grid-row grid-gap">
     {%- if page.subnav_items or page.side_cta or page.social_media -%}
       <div class="tablet:grid-col-7">
