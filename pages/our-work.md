@@ -42,7 +42,7 @@ redirect_from:
       {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
       {% for featured in featured_services %}
         {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
-        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+        <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-4">
           {% include card-project.html project=featured_project.slug %}
         </li>
       {% endfor %}
