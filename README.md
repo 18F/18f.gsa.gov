@@ -53,7 +53,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 *To try this out on MacOS:*
 
 1. Install Docker Desktop via the GSA Self Service or download from [their website](https://www.docker.com/).
-2. Make sure Docker is running (you should see the whale icon in the taskbar or menu bar). 
+2. Make sure Docker is running (you should see the whale icon in the taskbar or menu bar).
 3. Open a termninal window (CMD+Space on Mac, Start > Run > "cmd" on Windows) and navigate into your project folder `cd folder_name_with_code`.
 4. Run `docker compose build` to build the docker image and its dependencies.
 5. Run `docker compose up`.
@@ -139,9 +139,99 @@ Plugin gem | Description
 
 ## Components
 
-### Featured posts
+### card-with-image
+This component outputs a small card with image and text. The whole card is a clickable link.
 
-This component will showcase the first 3 posts of a given component.
+**Expected arguments**:
+`link_url` - the url the card will link to (href).
+`image_path` - the path to the image, note that the partial will prepend the site baseurl. It should start with a leading forward slash (“/”).
+`text_content` - the text to be displayed next to the image
+
+**Optional arguments**:
+`card_color` - if set to "dark" will make the card background the primary-dark color. Otherwise  the background will default to a white color.
+`image_alt_text` - will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+
+`image_side` - if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
+`image_size` - if set to "md" will set the max image size to 8 units. Otherwise the image will
+default to a max size of 6 units.
+
+**Example**
+A light card with the image on the left
+```
+{% include card-with-image.html
+  img_path=”/asset/img/guides/accessibility-darker.svg”
+  img_size="md"
+  link_url= “https://accessibility.18f.gov”
+  text_content=”Accessibility”
+%}
+```
+
+### featured-posts
+
+This component outputs a list of post previews to be displayed on pages that are not part of the blog. Each preview will take up 12 columns on mobile screens, 6 columns on tablet screens, and 4 columns on screens larger than a tablet.
+
+**Expected arguments**:
+`related_posts` - This is the computed list of posts that should be displayed as post previews
+
+**Optional arguments**:
+`color_mode` - If set to “dark” the post previews will use a white text color and the primary-lightest border color.
+`max_num_posts` - Sets a limit on how many post previews to output.
+`show_excerpts`- If set to true will show an excerpt from the blog post. The excerpt must be set in the front matter of the blog post.
+
+**Example**
+```
+{% assign matching_posts = page | match_posts | sort:'date' | reverse %}
+
+{% include featured-posts.html
+  related_posts=matching_posts
+  max_num_posts=3
+  show_excerpt=true
+%}
+```
+
+### graphic-block
+This component will output a styled component with an image and text below the image, and light border on the bottom.
+
+**Expected arguments**:
+`body-text` - the text that will be displayed below the image.
+`image_path` - the path to the image, note that the partial will prepend the site baseurl. It should start with a leading forward slash (“/”).
+
+**Optional arguments**:
+`image_alt_text` - will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+
+**Example**
+```
+{% include graphic-block.html
+  image_path="/assets/img/home/cando_illo_1.svg"
+  body_text="Modernize software development processes"
+ %}
+```
+
+### social-media
+This component will output a block with links to 18F’s social media pages (including the RSS feed). The data used to generate this component is in `_data/social_media.yml`. This data file lists out the platforms, links, and the image path to the relevant social media icons to be displayed.
+
+### testimonial
+This partial will output a formatted blockquote. The testimonial will be on a dark background with white text and a large, stylized opening quote mark.
+
+**Expected arguments**:
+`quote` - The quoted text that will makeup the testimonial.
+`attribution` - The quote’s author
+
+**Optional arguments**:
+`size` - If set to “md” this will output a slightly smaller blockquote that will fit within the project template’s main text. Otherwise it will default to the larger size.
+`position` - The quote author’s position. In general we will want to include either position or organization (i.e. at least one of the two fields).
+`organization` - The author's organization.  In general we will want to include either position or organization (i.e. at least one of the two fields).
+
+**Example**
+```
+{% include testimonial.html
+  size="md"
+  quote=" Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed."
+  attribution="Monica Windom"
+  position="Director Division of Public Assistance"
+  organization="Health and Social Services, State of Alaska"
+%}
+```
 
 ## History
 
