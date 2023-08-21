@@ -4,23 +4,26 @@ layout: primary
 <section class="usa-section section-padding-top-0">
 <div class="grid-container"> 
   <div class="grid-row grid-gap">
-    {% if page.include_subnav or page.side_cta %}
-    <div class="tablet:grid-col-7">
-    {% else %}
-    <div class="tablet:grid-col-8">
-    {% endif %}
-      {{ content }}
-    </div>
-    {% if page.include_subnav or page.side_cta %}
-    <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
-      {% if page.include_subnav %} 
-        {% include navigation.html subnav=true %}
-      {% endif %}
-      {% if page.side_cta %} 
-        {% include side-cta.html %}
-      {% endif %}
-    </aside>
-    {% endif %}
+    {%- if page.subnav_items or page.side_cta or page.social_media -%}
+      <div class="tablet:grid-col-7">
+        {{ content }}
+      </div>
+      <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
+        {%- if page.subnav_items %} 
+          {% include navigation.html subnav=true %}
+        {% endif %}
+        {%- if page.side_cta -%} 
+          {% include side-cta.html %}
+        {% endif -%}
+        {%- if page.social_media -%} 
+          {% include social-media.html %}
+        {%- endif -%}
+      </aside>
+      {%- else -%}
+      <div class="tablet:grid-col-8">
+        {{ content }}
+      </div>
+    {%- endif -%}
   </div>
 </div>
 </section>
