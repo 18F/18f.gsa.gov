@@ -96,25 +96,3 @@ redirect_from:
   </section>
 </div>
 
-    {% comment %}
-    <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
-      <ul class="agency-lists grid-row grid-gap">
-      {% for group in partner_groups %}
-        <li class="tablet:grid-col-4">
-          <ul class="agency-lists list-images">
-          {% for partner in group %}
-            <li class="list-images-item">
-              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="" />
-              {% if partner.agency_url %}
-                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
-              {% else %}
-                <span class="list-images-text">{{ partner.name }}</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-          </ul>
-        </li>
-      {% endfor %}
-      </ul>
-     {% endcomment %}
-
