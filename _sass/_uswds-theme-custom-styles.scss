@@ -19,6 +19,7 @@
 @import '_components/quotemark';
 // @import '_components/nav-buttons';
 @import '_components/utilities';
+@import 'variables.scss';
 
 // // 18F site templates
 // // ==========================
@@ -27,8 +28,6 @@
 // @import '_templates/how-we-work';
 // @import '_templates/what-we-deliver';
 // @import '_templates/home';
-
-$letter-spacing-xs: 0.0125em;
 
 h1 {
   @include u-text('normal');
