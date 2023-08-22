@@ -1,7 +1,7 @@
 ---
 title: Thank you for subscribing to the 18F newsletter!
 permalink: /thank-you/
-layout: primary
+layout: styled-container
 lead:
 ---
 
