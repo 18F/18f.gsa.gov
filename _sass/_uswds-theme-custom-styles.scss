@@ -10,14 +10,6 @@
 @import '_components/utilities';
 @import 'variables.scss';
 
-// // 18F site templates
-// // ==========================
-// @import '_templates/blog-template';
-// @import '_templates/guides';
-// @import '_templates/how-we-work';
-// @import '_templates/what-we-deliver';
-// @import '_templates/home';
-
 h1 {
   @include u-text('normal');
 }
