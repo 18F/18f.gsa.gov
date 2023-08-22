@@ -12,6 +12,7 @@
 
   &:focus,
   &:hover {
+    color: color('primary-darkest');
     background-color: color('primary-lighter');
   }
 
