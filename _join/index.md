@@ -1,7 +1,7 @@
 ---
 title: Join 18F
 permalink: /join/
-layout: primary
+layout: styled-container
 lead: Help transform how the federal government does technology.
 hero: false
 redirect_from:
