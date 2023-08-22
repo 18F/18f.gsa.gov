@@ -24,8 +24,8 @@
             <em>{{ include.quote }}</em>
           </blockquote>
           <figcaption class="{{ figcaption_class }}" >
-            <strong>&mdash;{{ include.attribution }}</strong>, {{ include.position }}<br>
-            <em>{{ include.organization }}</em>
+            <strong>&mdash;{{ include.attribution }}</strong>{%- if include.position%}, {{ include.position }}{%- endif %} {%- if include.organization %}<br>
+            <em>{{ include.organization }}</em>{%- endif %}
           </figcaption>
         </div>
       </div>
