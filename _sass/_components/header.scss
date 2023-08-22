@@ -49,26 +49,15 @@
 
   .an18f-button--dark.usa-current, 
   .an18f-button--dark.usa-current:visited {
-    background-color: color('primary-darkest');
+    background-color: color('accent-cool-lightest');
+    border: 2px solid color('primary-darkest');
 
     span {
-      color: white;
+      color: color('primary-darkest');
     }
 
     &:after {
-      background-color: white;
-      top: auto;
-      right: auto;
-      bottom: units(-0.5); 
-      left: auto;
-      height: units('2px');
-      width: 100%;
-      position: relative;
-
-      @include at-media('desktop') {
-        position: absolute;
-        width: auto;
-      }
+      width: 0;
     }
   }
 
