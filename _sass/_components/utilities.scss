@@ -10,26 +10,6 @@
   padding-top: units('2px');
 }
 
-hr {
-  border: 1px solid color('primary-darker');
-  margin-top: units(6);
-  margin-bottom: units(4);
-}
-
-.hr-1-dark {
-  border: none;
-  border-top: 1px solid color('primary-dark');
-}
-
-.hr-1-base-lighter {
-  border: none;
-  border-top: 1px solid color('base-lighter');
-}
-
-.footer-hr-alignment {
-  margin-top: calc(#{units(-6)} - 2px); // Extra 2px to hide the rule in the cta
-  margin-bottom: units(6);
-}
 
 // Sets the spacing of the list items on a unorded list (ul)
 .list-item-spacing-1 {
