@@ -3,7 +3,6 @@ title: Guides
 permalink: /guides/
 layout: primary
 lead: Principles and standards that shape our work
-banner_cta: true
 ---
 
 {% capture intro %}

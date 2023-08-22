@@ -2,9 +2,8 @@
 title: Work with us
 permalink: /work-with-us/
 lead: As federal employees, we share your dedication to serving the American&nbsp;public. 
-banner_cta: true
-content_focus: false
 redirect_from: /how-we-work/
+hide_footer_rule: true
 ---
 
 {% capture intro %}

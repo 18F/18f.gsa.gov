@@ -2,8 +2,7 @@
 title: Our work
 permalink: /our-work/
 lead: See how we’ve helped agencies deliver value to the American people.
-content_wide: true
-content_focus: false
+hide_footer_rule: true
 redirect_from:
   - /what-we-deliver/
   - /consulting/
@@ -12,7 +11,6 @@ redirect_from:
   - /what-we-deliver/micro-purchase-marketplace/
   - /what-we-deliver/ready-2-serve/
   - /what-we-deliver/new-ten/
-banner_cta: true
 ---
 
 <section class="bg-primary-darker usa-section--dark section-padding-md"> 
