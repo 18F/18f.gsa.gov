@@ -227,15 +227,16 @@ This partial will output a formatted block quote. The testimonial will be on a d
 
 `quote` - the quoted text that will make up the testimonial.
 
-`attribution` - the quote’s author.
+`attribution` - the quote’s author. Comma added dynamically.
+
 
 **Optional arguments**:
 
 `size` - if set to `“md”`, this will output a slightly smaller block quote that will fit within the project template’s main text. Otherwise it will default to the larger size.
 
-`position` - the quote author’s professional position. In general, we will want to include either position or organization (i.e., at least one of the two fields).
+`position` - the quote author’s professional position. If `organization` is defined, `position` displays before it.
 
-`organization` - The author's organization.  In general we will want to include either position or organization (i.e. at least one of the two fields).
+`organization` - The quote author's organization. If defined, displays as last element.
 
 **Example**
 
