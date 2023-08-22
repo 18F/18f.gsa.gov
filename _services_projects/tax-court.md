@@ -32,7 +32,7 @@ Each year, taxpayers file 35,000 petitions with the United States Tax Court to s
 
 <!-- -->
 {% include testimonial.html 
-  type="project"
+  size="md"
   quote="  If you think about bowling, 18F was like the bumpers on the lane, making sure I didn't go off-track."
   attribution=" Jessica Marine"
   organization=""

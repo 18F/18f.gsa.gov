@@ -17,8 +17,11 @@ layout: default
     {% if page.lead %} 
       <p class="font-sans-xl line-height-sans-3"> {{ page.lead }} </p>
     {% endif %}
-    {% if page.img %}
-      <img src="{{ site.baseurl }}{{ page.img }}" alt="{{ page.img_alt_text }}" class="margin-top-4">
+    {% if page.image %}
+      <img src="{{ site.baseurl }}{{ page.image }}" 
+           alt="{{ page.image_alt_text }}" 
+           class="margin-top-4"
+      >
     {% endif %}
   </div>
 </section>

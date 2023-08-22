@@ -1,4 +1,5 @@
 .card-with-image {
+
   &:visited {
     color: initial;
   }
@@ -7,18 +8,22 @@
 
 .card-with-image div {
   box-sizing: border-box;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   background-color: white;
-
 
   &:focus,
   &:hover {
-    border: 1px solid color('primary-dark');
+    background-color: color('accent-cool-lightest');
+    border: 2px solid color('primary');
   }
 
   &:active {
-    background-color: color('base-lighter'); 
+    background-color: color('primary-lightest'); 
   }
+}
+
+.card-with-image p {
+  color: color('primary-darker');
 }
 
 .card-with-image--dark div {
@@ -35,3 +40,6 @@
   }
 }
 
+.card-with-image--dark p {
+  color: white;
+}

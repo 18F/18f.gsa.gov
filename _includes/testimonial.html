@@ -1,4 +1,4 @@
-{% if include.type=="project" %}
+{% if include.size=="md" %}
   {% assign blockquote_class = "font-sans-lg line-height-sans-4 margin-0 padding-0 text-white text-ls-05" %}
   {% assign figcaption_class = "font-sans-md line-height-sans-3 margin-top-3 text-white" %}
   {% assign organization_class = "font-sans-sm" %}
@@ -24,8 +24,8 @@
             <em>{{ include.quote }}</em>
           </blockquote>
           <figcaption class="{{ figcaption_class }}" >
-            <strong>&mdash;{{ include.attribution }}</strong>, {{ include.position }}<br>
-            <em>{{ include.organization }}</em>
+            <strong>&mdash;{{ include.attribution }}</strong>{%- if include.position%}, {{ include.position }}{%- endif %} {%- if include.organization %}<br>
+            <em>{{ include.organization }}</em>{%- endif %}
           </figcaption>
         </div>
       </div>

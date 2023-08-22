@@ -1,26 +1,27 @@
 {% comment %}
-This partial outputs a card with image and text, and the whole card is a clickable link. 
+This partial outputs a card with image and text. The whole card is a clickable link. 
 
 The expected arguments for this partial are:
 link_url - the url the card will link to (href)
-img_path - the path to the image, note that the partial will prepend the site baseurl
+image_path - the path to the image, note that the partial will prepend the site baseurl
 text_content - the text to be displayed next to the image
 
 Optional arguments:
-card_color - if set to "primary-dark" will make the card background the primary-dark color. Otherwise will default to a white background.,
-img_side - if set to "right" will place the image on the right side of teh card. Otherwise the image will default to the left side.
-img_size - if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+card_color - if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
+image_alt_text - will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+image_side - if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
+image_size - if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
 {% endcomment %}
 
 <a href="{{include.link_url}}" 
-   class="card-with-image {%- if include.card_color == "primary-dark" %} card-with-image--dark {% endif %}"
+   class="card-with-image {%- if include.card_color == "dark" %} card-with-image--dark {% endif %}"
 >
-<div class="dark display-flex flex-align-center {%- if include.img_side == "right" %} flex-justify {% endif %} padding-4 radius-lg">
+<div class="display-flex flex-align-center {%- if include.image_side == "right" %} flex-justify {% endif %} height-full padding-4 radius-lg">
 
   {% capture card_image %}
-  <img src="{{ site.baseurl }}{{include.img_path}}" 
-       class="{%- if include.img_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless include.img_side == "right" %} margin-right-2 {% endunless %}"
-       alt="{{- include.img_alt_text -}}"
+  <img src="{{ site.baseurl }}{{include.image_path}}" 
+       class="{%- if include.image_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless include.image_side == "right" %} margin-right-2 {% endunless %}"
+       alt="{{- include.image_alt_text -}}"
   >
   {% endcapture %}
 
@@ -28,7 +29,7 @@ img_size - if set to "md" will set the max image size to 8 units. Otherwise the 
   <p class="font-sans-lg margin-y-0 text-no-underline">{{ include.text_content }}</p> 
   {% endcapture %}
 
-{% if include.img_side == "right" %}
+{% if include.image_side == "right" %}
   {{ card_text }}
   {{ card_image }}
 {% else %}
