@@ -2,32 +2,32 @@
 layout: primary
 ---
 <section class="usa-section section-padding-top-0">
-<div class="grid-container"> 
-  {% if page.title_rule %}
-  <hr class="hr-1-dark margin-top-0 margin-bottom-8">
-  {% endif %}
-  <div class="grid-row grid-gap">
-    {%- if page.subnav_items or page.side_cta or page.social_media -%}
+  <div class="grid-container"> 
+    {% if page.title_rule %}
+    <hr class="hr-1-dark margin-top-0 margin-bottom-8">
+    {% endif %}
+    <div class="grid-row grid-gap">
+      {%- if page.subnav_items or page.side_cta or page.social_media -%}
       <div class="tablet:grid-col-7">
         {{ content }}
       </div>
       <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
         {%- if page.subnav_items %} 
-          {% include navigation.html subnav=true %}
+        {% include navigation.html subnav=true %}
         {% endif %}
         {%- if page.side_cta -%} 
-          {% include side-cta.html %}
+        {% include side-cta.html %}
         {% endif -%}
         {%- if page.social_media -%} 
-          {% include social-media.html %}
+        {% include social-media.html %}
         {%- endif -%}
       </aside>
       {%- else -%}
       <div class="tablet:grid-col-8">
         {{ content }}
       </div>
-    {%- endif -%}
+      {%- endif -%}
+    </div>
   </div>
-</div>
 </section>
 
