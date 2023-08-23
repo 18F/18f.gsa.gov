@@ -15,7 +15,8 @@
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore localhost:4000 --enforce-https false",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
-    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
+    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|/google\\d'",
+    "pa11y-fast": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|(/author/)|(/\\d+/)|/tags/|/google\\d'",
     "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
     "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
   },
