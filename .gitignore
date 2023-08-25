@@ -31,3 +31,8 @@ tmp
 .vscode
 .jekyll-cache
 .ruby-version
+/assets/uswds/
+/assets/css/
+/assets/img/*.svg
+/assets/img/favicons/favicon*
+

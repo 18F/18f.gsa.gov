@@ -17,18 +17,20 @@ uswds.settings.version = 3;
 * Set as many as you need
 */
 uswds.paths.src.projectSass = "./_sass";
-uswds.paths.dist.img = "./_site/assets/uswds/img";
-uswds.paths.dist.fonts = "./_site/assets/uswds/fonts";
-uswds.paths.dist.js = "./_site/assets/uswds/js";
-uswds.paths.dist.css = "./_site/assets/css";
+uswds.paths.dist.img = "./assets/img";
+uswds.paths.dist.fonts = "./assets/uswds/fonts";
+uswds.paths.dist.js = "./assets/uswds/js";
+uswds.paths.dist.css = "./assets/css";
 uswds.paths.dist.theme = "./_sass/";
 
 /**
 * Exports
 * Add as many as you need
 */
-exports.copyAssets = uswds.copyAssets;
 exports.compile = uswds.compile;
+exports.compileIcons = uswds.compileIcons;
 exports.compileSass = uswds.compileSass;
+exports.copyAssets = uswds.copyAssets;
+exports.copyImages = uswds.copyImages;
 exports.watch = uswds.watch;
 exports.default = this.watch;
