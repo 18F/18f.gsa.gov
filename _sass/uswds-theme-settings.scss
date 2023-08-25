@@ -38,9 +38,15 @@ $color-medium-hover: #00547a;
   /*---------------------------------------------------------
   # Typography Settings
   ----------------------------------------------------------*/
+  $theme-respect-user-font-size: false,
+
+  $theme-root-font-size: 18px,
+
   $theme-global-paragraph-styles: true,
   $theme-global-link-styles: true,
   $theme-global-content-styles: true,
+
+  $theme-font-type-sans: "helvetica",
 
   $theme-font-role-heading: 'sans',
   $theme-font-role-alt: 'sans',
@@ -50,7 +56,7 @@ $color-medium-hover: #00547a;
 
   $theme-font-weight-medium: 500,
 
-  $theme-body-font-size: 'md',
+  $theme-body-font-size: 'lg',
   $theme-h1-font-size: '3xl',
 
   /*---------------------------------------------------------
