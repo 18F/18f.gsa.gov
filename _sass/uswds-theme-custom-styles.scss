@@ -1,14 +1,17 @@
 // -------------------------------------
+@use 'uswds-core' as *;
+
 // 18F site components
-@import '_components/blog';
-@import '_components/button';
-@import '_components/card-with-image';
-@import '_components/header';
-@import '_components/hr';
-@import '_components/quotemark';
-@import '_components/section';
-@import '_components/utilities';
-@import 'variables.scss';
+@use 'variables.scss' as *;
+
+// @import '_components/blog';
+// @import '_components/button';
+// @import '_components/card-with-image';
+// @import '_components/header';
+// @import '_components/hr';
+// @import '_components/quotemark';
+// @import '_components/section';
+// @import '_components/utilities';
 
 h1 {
   @include u-text('normal');
