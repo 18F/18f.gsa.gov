@@ -1,3 +1,5 @@
+@use 'uswds-core' as *;
+
 .large-quotemark {
   color: color('primary-lightest');
   font-size: units(15) + units(3);

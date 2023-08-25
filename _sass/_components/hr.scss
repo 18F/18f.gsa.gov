@@ -1,3 +1,5 @@
+@use 'uswds-core' as *;
+
 hr {
   border: 1px solid color('primary-darker');
   margin-top: units(6);

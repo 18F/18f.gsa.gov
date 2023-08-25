@@ -1,3 +1,5 @@
+@use 'uswds-core' as *;
+
 .usa-header {
   @if variable-exists(header-bg) {
     background-color: color($header-bg);
@@ -78,9 +80,9 @@
 
 // set color and size of bar underneath nav items
 // add-bar(weight, color, side, radius, offset-x, offset-y)
-@mixin nav-border-basic {
-  @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
-}
+// @mixin nav-border-basic-custom {
+//   @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
+// }
 
 // usa-header--basic
 // ---------------------------------
@@ -122,7 +124,7 @@
 
     .usa-nav__primary-item > .usa-current,
     .usa-nav__link:hover {
-      @include nav-border-basic;
+      @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
     }
 
     .usa-nav__primary-item > .usa-current span {

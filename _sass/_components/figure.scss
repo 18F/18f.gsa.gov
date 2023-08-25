@@ -4,6 +4,8 @@
 // Fix for IE 10 & 11 where the image overflows the grid item container and
 // doesn't respect the image's max-width to fill the container.
 
+@use 'uswds-core' as *;
+
 [class^="usa-width-"],
 [class*=" usa-width-"] {
   > .media_link {
