@@ -96,7 +96,7 @@
                 {% assign current_item = "usa-current" %}
               {% endif -%}
               <a class="{{ nav_item_class }} {{ current_item }}"
-                 href="{% if _section.external %} {{ _section.href }} {% else %} {{ _section.href | relative_url }} {% endif %}"> <span>{{ _section.text }}</span>
+                 href="{%- if _section.external -%} {{ _section.href }} {%- else -%} {{ _section.href | relative_url }} {%- endif -%}"><span>{{ _section.text }}</span>
               </a>
             {% endif %}
           </li>
@@ -115,9 +115,6 @@
                  alt="Search"
             >
           </a>
-            {% comment %}
-            {% include components/search.html %}
-            {% endcomment %}
           {% endif %}
         {% endif %}
 

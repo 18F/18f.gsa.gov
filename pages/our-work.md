@@ -42,7 +42,7 @@ redirect_from:
       {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
       {% for featured in featured_services %}
         {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
-        <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
+        <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-4">
           {% include card-project.html project=featured_project.slug %}
         </li>
       {% endfor %}
@@ -95,26 +95,4 @@ redirect_from:
     </ul>
   </section>
 </div>
-
-    {% comment %}
-    <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
-      <ul class="agency-lists grid-row grid-gap">
-      {% for group in partner_groups %}
-        <li class="tablet:grid-col-4">
-          <ul class="agency-lists list-images">
-          {% for partner in group %}
-            <li class="list-images-item">
-              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="" />
-              {% if partner.agency_url %}
-                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
-              {% else %}
-                <span class="list-images-text">{{ partner.name }}</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-          </ul>
-        </li>
-      {% endfor %}
-      </ul>
-     {% endcomment %}
 

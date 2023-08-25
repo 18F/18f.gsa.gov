@@ -2,7 +2,7 @@
 layout: default
 ---
 {% comment %}
-Layout for clicking on Browse by Topic
+Layout for posts by tag
 {% endcomment %}
 <section class="usa-section section-padding-sm">
   <div class="grid-container"> 
@@ -19,7 +19,6 @@ Layout for clicking on Browse by Topic
       include post-previews.html
       posts=page.posts
       tags=page.tags
-      trim_padding=true
     %}
   </div>
 </section>

@@ -102,7 +102,7 @@
   @include at-media($theme-header-min-width) {
     .usa-navbar {
       position: relative;
-      width: $theme-header-logo-text-width; // TODO: review this more
+      width: $theme-header-logo-text-width; 
     }
 
     .usa-nav {
