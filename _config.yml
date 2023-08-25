@@ -152,6 +152,7 @@ exclude:
 - .gitmodules
 - .hound.yml
 - .github/
+- _sass/
 - 404.html
 - api-endpoints
 - bin
