@@ -185,7 +185,7 @@ This component outputs a list of blog post previews to be displayed on pages oth
 
 `max_num_posts` - Sets a limit on how many post previews to output.
 
-`show_excerpts`- If set to true, will show an excerpt from the blog post. The excerpt must be storedset in the front matter of the blog post.
+`show_excerpts`- If set to true, will show an excerpt from the blog post. The excerpt must be defined in the front matter of the blog post.
 
 **Example**
 

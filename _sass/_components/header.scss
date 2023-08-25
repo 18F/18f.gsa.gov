@@ -47,8 +47,18 @@
     color: white;
   }
 
-  .an18f-button--dark.usa-current span {
-    background-color: color('primary-darkest');
+  .an18f-button--dark.usa-current, 
+  .an18f-button--dark.usa-current:visited {
+    background-color: color('accent-cool-lightest');
+    outline: 2px solid color('primary-darkest');
+
+    span {
+      color: color('primary-darkest');
+    }
+
+    &:after {
+      width: 0;
+    }
   }
 
   .usa-nav__secondary-links {
