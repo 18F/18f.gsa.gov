@@ -32,12 +32,13 @@
     "url": "https://github.com/18F/18f.gsa.gov/issues"
   },
   "homepage": "https://18f.gsa.gov",
-  "devDependencies": {
-  },
   "dependencies": {
+    "@uswds/uswds": "3.5.0",
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.7.0",
-    "netlify-cms": "^2.10.192",
-    "uswds": "^2.14.0"
+    "netlify-cms": "^2.10.192"
+  },
+  "devDependencies": {
+    "@uswds/compile": "^1.0.0"
   }
 }
