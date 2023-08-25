@@ -10,7 +10,7 @@
     "node": ">=10.14"
   },
   "scripts": {
-    "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
+    "federalist": "npm run uswds-build && mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore 18f@gsa.gov --enforce-https false",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore localhost:4000 --enforce-https false",
     "restart": "rm -rf _site && ./serve",
