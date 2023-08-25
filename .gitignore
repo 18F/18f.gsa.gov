@@ -35,4 +35,12 @@ tmp
 /assets/css/
 /assets/img/*.svg
 /assets/img/favicons/favicon*
+/assets/img/hero.jpg
+/assets/img/hero.webp
+/assets/img/loader.gif
+/assets/img/material-icons-deprecated/
+/assets/img/material-icons/
+/assets/img/usa-icons-bg/
+/assets/img/usa-icons/
+/assets/img/uswds-icons/
 
