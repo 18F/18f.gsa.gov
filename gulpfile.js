@@ -17,7 +17,7 @@ uswds.settings.version = 3;
 * Set as many as you need
 */
 uswds.paths.src.projectSass = "./_sass";
-uswds.paths.dist.img = "./assets/img";
+uswds.paths.dist.img = "./assets/uswds/img";
 uswds.paths.dist.fonts = "./assets/uswds/fonts";
 uswds.paths.dist.js = "./assets/uswds/js";
 uswds.paths.dist.css = "./assets/css";
