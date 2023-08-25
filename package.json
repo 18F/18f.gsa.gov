@@ -15,6 +15,11 @@
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore localhost:4000 --enforce-https false",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
+    "uswds-compile-sass": "npx gulp compileSass",
+    "uswds-compile": "npx gulp compile",
+    "uswds-copy-assets": "npx gulp copyAssets",
+    "uswds-build": "npm run uswds-copy-assets && npm run uswds-compile",
+    "uswds-watch": "npx gulp watch",
     "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
   },
   "repository": {
