@@ -36,6 +36,7 @@
 }
 
 .an18f-button--dark {
+  @include u-font('body', 'sm');
   @include u-radius('md');
   background-color: color('primary-dark');
   color: white;
