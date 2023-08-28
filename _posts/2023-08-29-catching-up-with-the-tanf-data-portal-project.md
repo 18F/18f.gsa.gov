@@ -1,6 +1,6 @@
 ---
 title: "Catching up with the TANF Data Portal project"
-date: YYYY-MM-DD (optional)
+date: 2023-08-29 (optional)
 authors: 
 - Lauren Frohlich
 - Alex Pennington
@@ -15,7 +15,7 @@ tags:
 - public benefits
 - hhs
 excerpt: "Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. 18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF. We caught up with Office of Family Assistance leaders to see how their agency is continuing with the work."
-image: 
+image: assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png
 ---
 
 Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. States, tribes, and territories use federal block grant funds to administer the program, and they must report data back to the federal government on a quarterly basis. 
@@ -53,9 +53,8 @@ _It sounds like you might have trade-offs between introducing new features and g
 _We charted the emotional ups and downs as the product owner for this project back in 2021. Can we add emotional touchpoints to the chart after 2021?_
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-Alt text: A line chart showing the emotional highs and lows of the TANF product owner over 5 years. 
-The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system.
-Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.
+![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png "TANF product owner emotion chart")
+
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
 
