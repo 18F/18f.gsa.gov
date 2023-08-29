@@ -54,7 +54,7 @@ _We charted the emotional ups and downs as the product owner for this project ba
 
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg "TANF product owner emotion chart")
+![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.]({{ site.baseurl }}assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg "TANF product owner emotion chart")
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
 
@@ -76,6 +76,6 @@ _Can you tell me what makes you most proud about this project in the work that's
 
 Shout-out and kudos to the many, many team members at Administration for Children and Families, 18F, and industry partners who’ve supported this project and brought the TANF Data Portal to where it is today! ❤️
 
-_Interested in how 18F can help your agency with legacy tech transformation, user research, and acquisition? We’d love to hear from you at inquiries@18f.gov_
+_Interested in how 18F can help your agency with legacy tech transformation, user research, and acquisition? We’d love to hear from you at [inquires@18f.gov](mailto:inquires@18f.gov)_
 
 
