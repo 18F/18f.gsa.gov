@@ -1,6 +1,6 @@
 ---
 title: "Catching up with the TANF Data Portal project"
-date: 2023-08-29 (optional)
+date: YYYY-MM-DD
 authors: 
 - Lauren Frohlich
 - Alex Pennington
@@ -53,7 +53,7 @@ _It sounds like you might have trade-offs between introducing new features and g
 _We charted the emotional ups and downs as the product owner for this project back in 2021. Can we add emotional touchpoints to the chart after 2021?_
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png "TANF product owner emotion chart")
+![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--banner--emotion-chart.jpg)
 
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
