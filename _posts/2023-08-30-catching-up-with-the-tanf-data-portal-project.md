@@ -51,9 +51,10 @@ _It sounds like you might have trade-offs between introducing new features and g
 **Alex Pennington**: I would agree, and just to add onto that: Sometimes there are bugs, right? We prioritize fixing them if it prevents users from doing the minimum of what they need to do, submitting data. If there's a problem, like maybe the files are too large or something, and we catch that, then that's a hotfix. But other things, we put off until we're beyond parity.
 
 _We charted the emotional ups and downs as the product owner for this project back in 2021. Can we add emotional touchpoints to the chart after 2021?_
+
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--banner--emotion-chart.jpg)
+![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.](assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg "TANF product owner emotion chart")
 
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
