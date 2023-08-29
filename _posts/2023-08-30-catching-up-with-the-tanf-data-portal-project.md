@@ -1,6 +1,6 @@
 ---
 title: "Catching up with the TANF Data Portal project"
-date: YYYY-MM-DD
+date: 2023-08-30
 authors: 
 - Lauren Frohlich
 - Alex Pennington
