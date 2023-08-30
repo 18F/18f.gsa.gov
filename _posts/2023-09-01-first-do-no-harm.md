@@ -1,3 +1,17 @@
+---
+date: 2023-09-01
+title: >
+ First, do no harm: mistakes to avoid in creating accessible user experiences
+authors: 
+  - jason-nakai
+tags: 
+- best practices
+- accessibility
+excerpt: > 
+  Accessible design and development practices help us build inclusive experiences. But we can lose sight of the people we serve if we don’t steadily work to better understand our users. To create accessible experiences, avoid these mistakes.
+image:
+---
+
 # First, do no harm
 Digital accessibility is about creating products, services, environments, and content that anyone can use and understand regardless of device or ability. Accessible design and development practices can help us build inclusive, barrier-free experiences. However, we can inadvertently lose sight of the people we serve if we don’t question our assumptions or continuously work to better understand our audience.
 
