@@ -6,7 +6,7 @@ authors:
 - alex-pennington
 - christine-bath
 - alex-soble
-- selena-juneau-Vogel
+- selena-juneau-vogel
 - laura-gerhardt
 
 tags:
