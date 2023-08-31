@@ -1,6 +1,6 @@
 ---
 title: "Catching up with the TANF Data Portal project"
-date: 2023-08-30
+date: 2023-08-31
 authors: 
 - lauren-frohlich
 - alex-pennington
@@ -20,7 +20,7 @@ image: /assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png
 
 Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. States, tribes, and territories use federal block grant funds to administer the program, and they must report data back to the federal government on a quarterly basis. 
 
-18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF to replace one over 20 years old. This new portal would upgrade the data reporting experience, improve data quality, inform better policy and programs, and ultimately help the low-income families that receive TANF. We last blogged about this work in 2020.
+18F and the [Administration for Children & Families’ Office of Family Assistance](https://www.acf.hhs.gov/ofa) partnered on building a new data portal for TANF to replace one over 20 years old. This new portal would upgrade the data reporting experience, improve data quality, inform better policy and programs, and ultimately help the low-income families that receive TANF. [We last blogged about this work in 2020.](https://18f.gsa.gov/2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/)
 
 We caught up with Office of Family Assistance leaders Lauren Frohlich (product owner), and Alex Pennington (technical lead) to see how their agency is continuing with the work.
 
@@ -28,7 +28,7 @@ We caught up with Office of Family Assistance leaders Lauren Frohlich (product o
 
 **Lauren Frohlich**:  A lot has happened. I think we were just getting our Authority to Operate (ATO) right as 18F was rolling off — so, we've had our ATO for two years now. We are in production and bringing in users; over 85% of our users have created accounts in the system, and we're getting great feedback. We're finally into the exciting parts of development with our vendor, and I think we see the end in sight for our old system.
 
-**Alex Pennington**: The system is in use; that’s huge! Not only do we have the system up, but OFA is operating and maintaining the system, and regularly pushing new updates to the code. 
+**Alex Pennington**: The system is in use; that’s huge! Not only do we have the system up, but OFA is operating and maintaining the system, and [regularly pushing new updates to the code.](https://github.com/HHS/TANF-app) 
 
 <div class="testimonial-blockquote" markdown=1>
 Designing the contract and the system the way we did — for OFA to have control and input and be so involved in the development — I think it facilitates the ability to be responsive. It’s just 180 degrees from our past experience. It's so refreshing.
