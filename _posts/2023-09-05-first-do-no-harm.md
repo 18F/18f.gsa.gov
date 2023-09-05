@@ -1,5 +1,5 @@
 ---
-date: 2023-09-01
+date: 2023-09-05
 title: >
  First, do no harm: mistakes to avoid in creating accessible user experiences
 authors: 
