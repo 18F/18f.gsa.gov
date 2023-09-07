@@ -7,7 +7,7 @@ authors:
   - michael-walker
   - jerome-lee
 tags:
-  -
+  - 18f checks in
 excerpt: >
   At 18F, we like to keep in touch with our project partners. 18F partnered with
   the Centers for Medicare and Medicaid Services (CMS) from December 2017 to
