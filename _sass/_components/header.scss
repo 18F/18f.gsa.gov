@@ -78,14 +78,6 @@
   }
 }
 
-// set color and size of bar underneath nav items
-// add-bar(weight, color, side, radius, offset-x, offset-y)
-// @mixin nav-border-basic-custom {
-//   @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
-// }
-
-// usa-header--basic
-// ---------------------------------
 
 .usa-header--basic {
   #header-logo {
@@ -136,7 +128,4 @@
 // The search <input>
 [type="search"] {
   min-width: 0; // Fix a Firefox display quirk
-  // width: calc(
-  //     #{$theme-search-min-width} + #{units($theme-button-small-width)}
-  // );
 }
