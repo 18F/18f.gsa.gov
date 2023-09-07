@@ -80,6 +80,6 @@ Designing the contract and the system the way we did — for OFA to have control
 
 Shout-out and kudos to the many, many team members at Administration for Children and Families, 18F, and industry partners who’ve supported this project and brought the TANF Data Portal to where it is today! ❤️
 
-_Interested in how 18F can help your agency with legacy tech transformation, user research, and acquisition? We’d love to hear from you at [inquires@18f.gov](mailto:inquires@18f.gov)_
+_Interested in how 18F can help your agency with legacy tech transformation, user research, and acquisition? We’d love to hear from you at [Inquiries18F@gsa.gov](mailto:Inquiries18F@gsa.gov)_
 
 
