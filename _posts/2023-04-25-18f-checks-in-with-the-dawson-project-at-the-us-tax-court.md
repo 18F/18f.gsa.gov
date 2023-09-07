@@ -14,6 +14,7 @@ tags:
   - interview
   - open source
   - tax court
+  - 18f checks in
 excerpt: >
   The United States Tax Court is an independent federal court that settles disputes between taxpayers and the Internal Revenue Service. Since the 1980s, the Court has used a modified commercial software product to manage its operations. In December 2020, the Court introduced DAWSON, a modern open-source case management system developed with assistance from an industry partner and 18F. DAWSON streamlined Court operations and changed the way the public interacts with the Court.
 ---

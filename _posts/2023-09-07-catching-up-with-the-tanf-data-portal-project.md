@@ -8,12 +8,12 @@ authors:
 - alex-soble
 - selena-juneau-vogel
 - laura-gerhardt
-
 tags:
 - agency work
 - interview
 - public benefits
 - hhs
+- 18f checks in
 excerpt: "Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. 18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF. We caught up with Office of Family Assistance leaders to see how their agency is continuing with the work."
 image: /assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png
 image_alt: "An illustration of three potted plants in a line. The plants start small, then become bigger and heartier."
