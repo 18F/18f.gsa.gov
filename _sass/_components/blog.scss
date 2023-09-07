@@ -21,6 +21,24 @@
   }
 }
 
+.post-article figcaption {
+  @include u-font('sans', 'xs');
+  @include u-line-height('sans', 5);
+  margin-top: units(1);
+}
+
+.post-article blockquote {
+  @include u-font('sans', 'lg');
+  @include u-text('italic');
+  border-left: units(0.5) solid color('primary');
+  margin: units(3) 0;
+  padding-left: units(3);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
 .post-feature_image {
   background-position: center;
   background-size: cover;

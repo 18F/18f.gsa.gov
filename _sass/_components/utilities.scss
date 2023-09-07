@@ -37,6 +37,18 @@
  }
 }
 
+.hover-primary-dark {
+ &:focus,
+ &:hover {
+   color: color('primary-dark');
+   text-decoration: underline;
+ }
+
+ &:active {
+   color: color('primary-darkest');
+ }
+}
+
 // Overrides for the 0 bottom margin on usa-list--unstyled 
 .usa-list--unstyled .margin-bottom-2 {
   margin-bottom: units(2);
