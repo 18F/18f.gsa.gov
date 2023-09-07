@@ -1,7 +1,7 @@
 {% assign subnav_items = include.subnav_items | default: page.subnav_items %}
 
 {% if subnav_items %}
-<nav class="subnav" aria-label="Secondary navigation">
+<nav class="subnav display-none tablet:display-block" aria-label="Secondary navigation">
   {% assign title_slug = page.title | slugify %}
   <ul class="usa-sidenav border-top-05-primary-dark margin-top-1">
       {% for item in subnav_items %}
