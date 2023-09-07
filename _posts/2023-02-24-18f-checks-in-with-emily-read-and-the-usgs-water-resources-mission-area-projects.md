@@ -11,6 +11,7 @@ tags:
   - interview
   - usgs
   - u.s. geological survey
+  - 18f checks in
 excerpt: >
   At 18F, we like to keep in touch with our project partners. 18F partnered with the USGS Water Resources Mission Area from March 2020 to June 2022 on a wide variety of projects together. We caught up with Emily Read, Chief for the Web Communications Branch at USGS Water Resources Mission Area.
 ---
