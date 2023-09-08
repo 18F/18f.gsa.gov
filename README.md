@@ -4,21 +4,11 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/18F/18f.gsa.gov/badge.svg)](https://snyk.io/test/github/18F/18f.gsa.gov)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
-This repository houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) for the front end interface. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
-
-## Style and style guide
-
-18f.gsa.gov extends the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F Brand guidelines](https://pages.18f.gov/brand/) to create a style that is professional, unique, and informative. This relies on the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme to minimize the amount of custom styling and components of the site.
-
-The style guide, located at [18f.gsa.gov/styleguide/](https://18f.gsa.gov/styleguide/) documents the patterns and components used to create this theme.
-
-## Add a blog post
-
-See the [blogpost example file](examples/blog-post.md) for a template and instructions on how to create a new post.
+This repository houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) for the front end interface. The site is built and served through [the cloud.gov Pages platform](https://federalist.18f.gov/).
 
 ## Local development
 
-__*Note:*__ _The Federalist platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the Federalist deployment and keep the tests working in CI, a Federalist specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The Federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the Federalist platform._
+__*Note:*__ _The cloud.gov Pages platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the cloud.gov Pages deployment and keep the tests working in CI, a cloud.gov Pages specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the cloud.gov Pages platform._
 
 Make sure you have Ruby 2.7.4 and Python 3.9 installed and active for the project
 directory. Python 3.7, 3.8, or 3.9 is required for some of the dependency builds.
@@ -62,65 +52,13 @@ Using Docker can make dependencies management easier, but can also slow down you
 
 If there was an error with the build, rebuild using  the  `--no-cache` option like so `docker compose build --no-cache`  to avoid using the old version of the docker image.
 
-## Updating content
-
-## Upating styling
-
-The site relies primarily on USWDS2 styles pulled in via the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme.
-
-Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
-
-Per this, there are generally two main scss files:
-
-* **_sass/_uswds-theme-theme-settings.scss** This stylesheet pulls in all of the [USWDS2 theme variables](https://designsystem.digital.gov/documentation/developers/#sass-and-theme-settings) that are set in the `_sass/_theme` directory. If you want to modify a style, try to make the change globally using the provided theme variables before creating a custom style.
-
-* **_sass/_uswds-theme-custom-styles.scss** This stylesheet pulls in custom styling from the `_sass/_components`, `_sass/templates`, and `_sass/styleguide` directories.
-
-* **`_sass/_components`** is a directory of 18f site specific components. Where possible [USWDS2 components](https://designsystem.digital.gov/components/) should be used in lieu of custom components, because they will be better maintained.
-
-* **`_sass/templates`** is a directory of page specific stylesheets. Where possible, pages should use reusable site components over custom page layouts.
-
-* **`_sass/_styleguide`** is a directory of stylesheets specifically for the `/styleguide` portion of the site.
-
-### Adding testimonials
-
-Testimonials can be added as a compontent as long as an agency logo is place in the `assets/img/agencies` directory.
-
-### Images
-
-#### Project page images
-
-It really helps to have good pictures to help us highlight project work — but you might need a little more guidance about how to get pictures that will tell a story best. Here are some helpful tips:
-
-**If possible:**
-
-1. Image should relate to the project title, the department, or the process (in order of preference)
-1. Show real users that benefit from this project
-1. Show a screenshot from the project
-1. Mix it up! Look at the current project list. Do you see too many of the same type of image (for example, mostly screenshots, mostly brainstorming sessions)
-
-**Consider accessibility and try to avoid images that:**
-
-* Are low-contrast
-* Have wording on them
-
-**Consider the audience (government employees and potential partners!) and try to avoid images with the following:**
-
-* Sensitive subject material (for example, children when writing about Child Protective Services)
-* Uninteresting subjects
-* Super meta imagery (too much of a cognitive leap when relating to subject matter)
-
-**Size:**
-
-* Banner: Size 1300x866
-
 ## Deployment
 
-The site is a static website with HTML, CSS, and Javascript. Deployments are done through Federalist.
+The site is a static website with HTML, CSS, and Javascript. Deployments are done through cloud.gov Pages.
 
-1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/).
-1. [Federalist Admin](https://federalist.18f.gov/).
-1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
+1. cloud.gov Pages runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/).
+1. [Federalist Admin](https://pages.cloud.gov/).
+1. cloud.gov Pages responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
 1. We map 18f.gsa.gov URL to the S3 bucket.
 
 ## Plugins
@@ -137,9 +75,26 @@ Plugin gem | Description
 [`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap) | generates a sitemap at [`/sitemap.xml`](https://18f.gsa.gov/sitemap.xml). This makes it easier for search engines to find us.
 [`embed`](https://github.com/18F/jekyll-oembed) | creates a Liquid tag that uses OEmbed
 
+## Styles
+
+The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css. 
+Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
+There are three main style files located in the `_sass` folder:
+styles.css serves as the entry point for all of style files. This file forwards all of the other styles used in the project (i.e. the USWDS source code, the settings, and all custom stylesheets).
+`uswds-theme-custom-styles.scss` contains global custom styles
+`uswds-theme-settings.scss`  contains all the customized USWDS settings (e.g. primary colors, typography settings, site width, etc…). When you’d like to make a style change, first check the [USWDS settings](https://designsystem.digital.gov/documentation/settings/) to check if the setting could be adjusted, rather than creating a new style. 
+
+
+In addition to the style files listed above, there are component specific style files in the `_sass/_components` directory. Where possible [USWDS components](https://designsystem.digital.gov/components/) should be used in lieu of custom components, because they will be better maintained.
+ Additionally, the `variables.scss` file contains defined variables that are reused throughout the site.
+
+
 ## Components
 
+We have a number of custom components that are used as repeatable elements throughout the site. Some components like the testimonial may be particularly useful when updating case studies. 
+
 ### card-with-image
+
 This component outputs a small card with image and text. The whole card is a clickable link.
 
 **Expected arguments**:
@@ -173,6 +128,7 @@ A light card with the image on the left:
 ```
 
 ### featured-posts
+
 This component outputs a list of blog post previews to be displayed on pages other than the blog. Each preview will take up 12 columns on mobile screens, 6 columns on tablet screens, and 4 columns on screens larger than a tablet.
 
 **Expected arguments**:
@@ -200,6 +156,7 @@ This component outputs a list of blog post previews to be displayed on pages oth
 ```
 
 ### graphic-block
+
 This component will output a styled component with an image and text below the image, and light border on the bottom.
 
 **Expected arguments**:
@@ -220,7 +177,12 @@ This component will output a styled component with an image and text below the i
 %}
 ```
 
+### social-media
+
+This component will output a block with links to 18F’s social media pages, as well as  the RSS feed. The data used to generate this component is in `_data/social_media.yml`. This data file lists out the platforms, links, and the image path to the relevant social media icons to be displayed.
+
 ### testimonial
+
 This partial will output a formatted block quote. The testimonial will be on a dark background with white text and a large, stylized open-quote mark.
 
 **Expected arguments**:
@@ -249,11 +211,131 @@ This partial will output a formatted block quote. The testimonial will be on a d
   organization="Health and Social Services, State of Alaska"
 %}
 ```
+## Layouts
 
-### social-media
-This component will output a block with links to 18F’s social media pages, as well as  the RSS feed. The data used to generate this component is in `_data/social_media.yml`. This data file lists out the platforms, links, and the image path to the relevant social media icons to be displayed.
+### default
+
+The default layout serves as the base layout for all of the other layouts. It adds the header and footer elements, along with the styles and scripts tags.
+
+### primary
+
+The primary layout is used on Home, Work with us, and Our work pages. The layout will automatically add an `h1` heading, along with the lead text, and the page image if those two options are set to the front-matter. The layout will add the remaining page content without adding any additional styling or containers to it.
+
+#### Front matter options
+
+The primary template uses [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/) heavily to account for variations within the site. Below are the the potential front matter attributes that you can use. Some are listed as _(optional)_. These can be used to alter the appearance of a page.
+
+Attribute | Type | What it does 
+--- | --- | --- 
+`title` | String | Title for the page visible in blue banner at the top of the page
+`permalink` | String | Path that the page renders relative to the site's `baseurl`
+`layout` | String | The type of layout to use for this page
+`lead` | String | Large text that renders below the `h1` heading
+`image` | String | _(optional)_ Path to hero image for the page.
+`image_alt_text` | String | _(optional)_ Accessibility text for the image. If not set the alt text will default to "" and the screen readers will ignore the image.
 
 
-## History
+`breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`.
 
-A detailed history of the past work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
+`banner_cta` | Boolean | _(optional)_ Set to `false` by default. Generates a light blue call to action banner when set to `true`.
+
+### styled-container
+
+This layout is based on the primary layout and is meant to be used with pages that are primarily composed of text without additional markup. The layout will place the page content into a 7 column container on tablet-sized screens and up. 
+
+#### Front matter options
+
+In addition to the front matter options available in the `primary` layout, the `styled-container` layout has a few additional layout options:
+
+Attribute | Type | What it does 
+--- | --- | --- 
+`side_cta` | Boolean | _(optional)_ Set to `false` by default. When set to `true`, generates a rectangular banner with a call to action to the right side of the main content. The content for this component is in `side-cta.html`.
+`social_media` | Boolean | _(optional)_ Set to `false` by default. When set to `true`, generates a rectangular banner with links to 18F's social media (the `social-media.html` component). The data used to generate this component is in `_data/social_media`.
+`subnav_items` | Object | _(optional)_ Navigation items object that contains a list of subnavigation items that contain a `permalink` and `text`. Renders a [sidenav](https://designsystem.digital.gov/components/sidenav/).
+`subnav_title` | String | _(optional)_ Set if you want the subnav title or breadcumb text to differ from the page `title`.
+
+### post
+
+The `post` layout is used for blog posts.
+
+#### Front matter options
+
+Attribute | Type | What it does 
+`authors` | Object | The list of this post's authors
+`date` | String | The publication date for the blog post.
+`excerpt` | String | A short summary of the post that will appear on in lists of blog post previews.
+`title` | String | The title for the blog post.
+`tags` | Object | The list of tags that are relevant to this post
+`image` | String | _(optional)_ Path to hero image for the page.
+`image_alt` | String | _(optional)_ Accessibility text for the image. If not set the alt text will default to "" and the screen readers will ignore the image.
+
+### project-page
+
+The layout for case studies. This layout is automatically applied to any case study in the`_products_projects` or the `_services_projects/` folders. 
+
+#### front matter options
+
+Attribute | Type | What it does 
+`agency` | String | The agency partner for the project.
+`title` | String | The title for the case study. 
+`subtitle` | String | The subtitle for the case study. 
+`permalink` | String | Path that the page renders relative to the site's `baseurl`.
+`redirect_from` | String or Object | Path that should be redirected to this page.
+`excerpt` | String | A short summary of the project. This text will be displayed as a preview in the `card-project`.
+`mini_excerpt` | String | _(optional)_ An even shorter, tweet length summary of the project. This summary is used in a `card_with_image`.
+`image` | String | _(optional)_ Path to hero image for the page.
+`image_alt` | String | _(optional)_ Accessibility text for the image. If not set the alt text will default to "" and the screen readers will ignore the image.
+`project_url` | String | _(optional)_ A url to the project website.
+`github_repo` | String | _(optional)_ A url to the github repo for the project.
+`resources` | String | _(optional)_ A url to any relevant resources for the project.
+
+
+`project_weight` | Integer | A number use to determine the case study's position order in list of case studies. Larger numbers are listed first?
+
+### Layouts for dynamically generated pages
+A number of layouts are used for pages that are dynamically and automatically created when a blog post is added. In general these layouts should not be used for manually created pages. 
+
+#### author results
+The layout for displaying blog post previews by author.
+
+#### tag-index 
+A list of all of the tags used by the blog. 
+
+#### tag-results 
+The layout for displaying blog post previews by tag.
+
+## Adding and updating content
+
+### Blog posts
+See the [blogpost example file](examples/blog-post.md) for a template and instructions on how to create a new post.
+
+### Project case studies
+1. Determine if the project is a service or a product and find the corresponding directory
+2. Create a new file within either the `_products_projects` or `_services_projects` directory and name it with the following format: `[agency acronym]-[project-name].md`.
+3. Set the values for the relevant front matter as it applies to this case study. Please see the documentation on the [project-page layout](#project-page) to see the available options.
+
+#### Project page images
+
+It really helps to have good pictures to help us highlight project work — but you might need a little more guidance about how to get pictures that will tell a story best. Here are some helpful tips:
+
+**If possible:**
+
+1. Image should relate to the project title, the department, or the process (in order of preference)
+1. Show real users that benefit from this project
+1. Show a screenshot from the project
+1. Mix it up! Look at the current project list. Do you see too many of the same type of image (for example, mostly screenshots, mostly brainstorming sessions)
+
+**Consider accessibility and try to avoid images that:**
+
+* Are low-contrast
+* Have wording on them
+
+**Consider the audience (government employees and potential partners!) and try to avoid images with the following:**
+
+* Sensitive subject material (for example, children when writing about Child Protective Services)
+* Uninteresting subjects
+* Super meta imagery (too much of a cognitive leap when relating to subject matter)
+
+**Size:**
+Future guidance to come. 
+
