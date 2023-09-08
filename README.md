@@ -77,21 +77,24 @@ Plugin gem | Description
 
 ## Styles
 
-The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css. 
+The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css.
 Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
+
 There are three main style files located in the `_sass` folder:
-styles.css serves as the entry point for all of style files. This file forwards all of the other styles used in the project (i.e. the USWDS source code, the settings, and all custom stylesheets).
-`uswds-theme-custom-styles.scss` contains global custom styles
-`uswds-theme-settings.scss`  contains all the customized USWDS settings (e.g. primary colors, typography settings, site width, etc…). When you’d like to make a style change, first check the [USWDS settings](https://designsystem.digital.gov/documentation/settings/) to check if the setting could be adjusted, rather than creating a new style. 
+- `styles.css` serves as the entry point for all of style files. This file forwards all of the other styles used in the project (i.e. the USWDS source code, the settings, and all custom stylesheets).
+- `uswds-theme-custom-styles.scss` contains global custom styles
+- `uswds-theme-settings.scss`  contains all the customized USWDS settings (e.g. primary colors, typography settings, site width, etc…).
+
+When you’d like to make a style change, first check the [USWDS settings](https://designsystem.digital.gov/documentation/settings/) to check if the setting could be adjusted, rather than creating a new style.
 
 
 In addition to the style files listed above, there are component specific style files in the `_sass/_components` directory. Where possible [USWDS components](https://designsystem.digital.gov/components/) should be used in lieu of custom components, because they will be better maintained.
- Additionally, the `variables.scss` file contains defined variables that are reused throughout the site.
+ Finally, the `variables.scss` file contains defined variables that are reused throughout the site.
 
 
 ## Components
 
-We have a number of custom components that are used as repeatable elements throughout the site. Some components like the testimonial may be particularly useful when updating case studies. 
+We have a number of custom components that are used as repeatable elements throughout the site. Some components like the testimonial may be particularly useful when updating case studies.
 
 ### card-with-image
 
@@ -198,7 +201,7 @@ This partial will output a formatted block quote. The testimonial will be on a d
 
 `position` - the quote author’s professional position. If `organization` is defined, `position` displays before it.
 
-`organization` - The quote author's organization. If defined, displays as last element.
+`organization` - The quote author's organization. If defined, displays as the last element.
 
 **Example**
 
@@ -225,8 +228,8 @@ The primary layout is used on Home, Work with us, and Our work pages. The layout
 
 The primary template uses [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/) heavily to account for variations within the site. Below are the the potential front matter attributes that you can use. Some are listed as _(optional)_. These can be used to alter the appearance of a page.
 
-Attribute | Type | What it does 
---- | --- | --- 
+Attribute | Type | What it does
+--- | --- | ---
 `title` | String | Title for the page visible in blue banner at the top of the page
 `permalink` | String | Path that the page renders relative to the site's `baseurl`
 `layout` | String | The type of layout to use for this page
@@ -234,21 +237,16 @@ Attribute | Type | What it does
 `image` | String | _(optional)_ Path to hero image for the page.
 `image_alt_text` | String | _(optional)_ Accessibility text for the image. If not set the alt text will default to "" and the screen readers will ignore the image.
 
-
-`breadcrumb` | Boolean | _(optional)_ Set to `false` by default. Specify `true` to enable the breadcrumb. If set to `true`, set `subnav_title` if the breadcrumb text differs from the page `title`.
-
-`banner_cta` | Boolean | _(optional)_ Set to `false` by default. Generates a light blue call to action banner when set to `true`.
-
 ### styled-container
 
-This layout is based on the primary layout and is meant to be used with pages that are primarily composed of text without additional markup. The layout will place the page content into a 7 column container on tablet-sized screens and up. 
+This layout is based on the primary layout and is meant to be used with pages that are primarily composed of text without additional markup. The layout will place the page content into a 7 column container on tablet-sized screens and up.
 
 #### Front matter options
 
 In addition to the front matter options available in the `primary` layout, the `styled-container` layout has a few additional layout options:
 
-Attribute | Type | What it does 
---- | --- | --- 
+Attribute | Type | What it does
+--- | --- | ---
 `side_cta` | Boolean | _(optional)_ Set to `false` by default. When set to `true`, generates a rectangular banner with a call to action to the right side of the main content. The content for this component is in `side-cta.html`.
 `social_media` | Boolean | _(optional)_ Set to `false` by default. When set to `true`, generates a rectangular banner with links to 18F's social media (the `social-media.html` component). The data used to generate this component is in `_data/social_media`.
 `subnav_items` | Object | _(optional)_ Navigation items object that contains a list of subnavigation items that contain a `permalink` and `text`. Renders a [sidenav](https://designsystem.digital.gov/components/sidenav/).
@@ -260,7 +258,8 @@ The `post` layout is used for blog posts.
 
 #### Front matter options
 
-Attribute | Type | What it does 
+Attribute | Type | What it does
+--- | --- | ---
 `authors` | Object | The list of this post's authors
 `date` | String | The publication date for the blog post.
 `excerpt` | String | A short summary of the post that will appear on in lists of blog post previews.
@@ -271,14 +270,15 @@ Attribute | Type | What it does
 
 ### project-page
 
-The layout for case studies. This layout is automatically applied to any case study in the`_products_projects` or the `_services_projects/` folders. 
+The layout for case studies. This layout is automatically applied to any case study in the`_products_projects` or the `_services_projects/` folders.
 
 #### front matter options
 
-Attribute | Type | What it does 
+Attribute | Type | What it does
+--- | --- | ---
 `agency` | String | The agency partner for the project.
-`title` | String | The title for the case study. 
-`subtitle` | String | The subtitle for the case study. 
+`title` | String | The title for the case study.
+`subtitle` | String | The subtitle for the case study.
 `permalink` | String | Path that the page renders relative to the site's `baseurl`.
 `redirect_from` | String or Object | Path that should be redirected to this page.
 `excerpt` | String | A short summary of the project. This text will be displayed as a preview in the `card-project`.
@@ -289,19 +289,16 @@ Attribute | Type | What it does
 `github_repo` | String | _(optional)_ A url to the github repo for the project.
 `resources` | String | _(optional)_ A url to any relevant resources for the project.
 
-
-`project_weight` | Integer | A number use to determine the case study's position order in list of case studies. Larger numbers are listed first?
-
 ### Layouts for dynamically generated pages
-A number of layouts are used for pages that are dynamically and automatically created when a blog post is added. In general these layouts should not be used for manually created pages. 
+A number of layouts are used for pages that are dynamically and automatically created when a blog post is added. In general these layouts should not be used for manually created pages.
 
 #### author results
 The layout for displaying blog post previews by author.
 
-#### tag-index 
-A list of all of the tags used by the blog. 
+#### tag-index
+A list of all of the tags used by the blog.
 
-#### tag-results 
+#### tag-results
 The layout for displaying blog post previews by tag.
 
 ## Adding and updating content
@@ -337,5 +334,5 @@ It really helps to have good pictures to help us highlight project work — but 
 * Super meta imagery (too much of a cognitive leap when relating to subject matter)
 
 **Size:**
-Future guidance to come. 
+Future guidance to come.
 
