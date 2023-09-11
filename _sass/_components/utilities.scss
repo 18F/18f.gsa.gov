@@ -1,4 +1,5 @@
-@import "variables.scss";
+@use 'uswds-core' as *;
+@use "variables.scss" as *;
 
 .border-top-05-primary-dark {
   border-top: units(0.5) solid color('primary-dark');

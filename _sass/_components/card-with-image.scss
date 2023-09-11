@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use 'variables.scss' as *;
+
 .card-with-image {
 
   &:visited {
