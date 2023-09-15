@@ -22,13 +22,13 @@ product_clients:
 
 The Federal Bureau of Investigation collects U.S. crime data as part of the Uniform Crime Reporting program. The data has a huge potential audience including researchers, law enforcement officers, and the public. In 2017, the FBI began working with 18F to create a digital tool that improves access to the data.
 
-<div class="case-study-preheader margin-top-6">Approach</div>
+### Approach
 
 * We started with user research. 18F and the FBI team from Criminal Justice Information Services interviewed different types of users to find out how they use the data. This helped us prioritize a set of features to build.
 * We built the [Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home), a new website with trend data, datasets for download, and an open API (application programming interface) so the public can build tools using the data.
 * The underlying code and team discussions are also public. Agencies with strict security and privacy rules can be hesitant to work and publish in the open. We helped the FBI realize the benefits of working in the open and using open source tools.
   
-<div class="case-study-preheader margin-top-6">Outcomes</div>
+### Outcomes
 * The site helped the FBI reach a far broader audience, promote citizen engagement, and improve resource allocation for communities.
 * Working in the open helped push the team to better meet the transparency and public service missions of their program.
 * The process of working with 18F helped the Criminal Justice Information Services office begin thinking of itself as a digital organization. Beyond launching their first open source, cloud-based app, it opened the door for the FBI to use new ways of working that will help modernize how it builds and buys technology.

@@ -80,15 +80,13 @@ Plugin gem | Description
 The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css.
 Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
 
-There are three main style files located in the `_sass` folder:
+There are two main style files located in the `_sass` folder:
 - `styles.css` serves as the entry point for all of style files. This file forwards all of the other styles used in the project (i.e. the USWDS source code, the settings, and all custom stylesheets).
 - `uswds-theme-custom-styles.scss` contains global custom styles
-- `uswds-theme-settings.scss`  contains all the customized USWDS settings (e.g. primary colors, typography settings, site width, etc…).
 
 When you’d like to make a style change, first check the [USWDS settings](https://designsystem.digital.gov/documentation/settings/) to check if the setting could be adjusted, rather than creating a new style.
 
-
-In addition to the style files listed above, there are component specific style files in the `_sass/_components` directory. Where possible [USWDS components](https://designsystem.digital.gov/components/) should be used in lieu of custom components, because they will be better maintained.
+In addition to the style files listed above, the `typography.scss` file sets site-wide styles for headings. There are also custom component specific style files in the `_sass/_components` directory. Where possible [USWDS components](https://designsystem.digital.gov/components/) should be used in lieu of custom components, because they will be better maintained.
  Finally, the `variables.scss` file contains defined variables that are reused throughout the site.
 
 

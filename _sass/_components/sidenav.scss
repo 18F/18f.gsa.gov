@@ -1,0 +1,10 @@
+@use 'uswds-core' as *;
+
+.usa-sidenav a:not(.usa-button) {
+  padding-top: units(2);
+  padding-bottom: units(2);
+
+  @include at-media('tablet') {
+    padding-left: 0;
+  }
+}

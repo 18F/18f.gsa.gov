@@ -13,13 +13,13 @@ layout: primary
       </div>
       <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
         {%- if page.subnav_items %} 
-        {% include navigation.html subnav=true %}
+          {% include subnav.html subnav_items=page.subnav_items %}
         {% endif %}
         {%- if page.side_cta -%} 
-        {% include side-cta.html %}
+          {% include side-cta.html %}
         {% endif -%}
         {%- if page.social_media -%} 
-        {% include social-media.html %}
+          {% include social-media.html %}
         {%- endif -%}
       </aside>
       {%- else -%}
