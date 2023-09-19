@@ -77,8 +77,7 @@ Plugin gem | Description
 
 ## Styles
 
-The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css.
-Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
+The site relies primarily on USWDS version 3. We use [uswds-compile](https://github.com/uswds/uswds-compile) to copy over USWDS assets and compile the css. We use a utility-class-first approach, using the appropriate USWDS utility classes to style components whenever possible. Please ensure that style updates are consistent with our brand's [colors](https://brand.18f.gov/color-palette/), [typography](https://brand.18f.gov/typography/), and [iconography](https://brand.18f.gov/icons/).
 
 There are two main style files located in the `_sass` folder:
 - `styles.css` serves as the entry point for all of style files. This file forwards all of the other styles used in the project (i.e. the USWDS source code, the settings, and all custom stylesheets).
