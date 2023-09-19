@@ -13,7 +13,11 @@
           Work with us to plan successful projects, choose better vendors, build custom
           software, or learn how to work in new ways.
         </p>
-        <a class="usa-button an18f-button--dark">Contact us</a>
+        <a href="{{ site.baseurl }}/contact/" 
+           class="usa-button an18f-button--dark"
+        >
+          Contact us
+        </a>
       </div>
 
       <div class="tablet:grid-offset-1 tablet:grid-col-2"> 
@@ -22,7 +26,7 @@
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
         {% for item in site.data.navigation.primary %}
-        <li> <a href="{{ site.baseurl }}/{{ item.href }}"> {{item.text}} </a> </li>
+        <li> <a href="{{ site.baseurl }}{{ item.href }}"> {{item.text}} </a> </li>
           {% endfor %}
         </ul>
       </div>
