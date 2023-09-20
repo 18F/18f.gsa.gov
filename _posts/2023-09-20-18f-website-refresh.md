@@ -8,20 +8,20 @@ tags:
 excerpt: "A website redesign doesn't have to be a big project. By approaching it as a process of iteration, we launched a refreshed site in the span of several weeks."
 ---
 
-This summer, we decided to refresh the 18F website. Since the last big redesign four years ago, we’d made a few tweaks, but not any significant changes. So why now?
+This past summer, we decided to refresh the 18F website. Since the last big redesign four years ago, we’d made a few tweaks, but not any significant changes. So why now?
 
-The passage of time on its own isn’t a good reason to do a redesign. Changes in user or organizational needs should drive that choice. In our case, we realized the site no longer reflected our goals. Additionally, there was a small window of time between client projects, where a cascade of designers had capacity to ship aspects of the site. 
+The passage of time on its own isn’t a good reason to do a redesign. Changes in user or organizational needs should drive that choice. In our case, we realized the site no longer reflected our goals. Additionally, some of our designers had windows of time to work on parts of the site between client projects. 
 
 We also realized that we could use a small redesign to jumpstart an ongoing process of refinement, which we could pursue without disrupting other priority work. 
 
 ## We set boundaries
-Our wish list of improvements spanned from ambitious to modest. We set aside those that would need a lot of research and discussion to settle on a solution. (For instance, we’d like to move the site to a new static site generator in the interest of sustainability. We decided it was out of scope for this refresh as it entails more labor for set-up and content migration.)
+Our wish list of improvements spanned from ambitious to modest. We set aside those that would need a lot of research and discussion to settle on a solution. (For instance, we’d like to move the site to a new static site generator in the interest of sustainability. We decided it was out of scope for this refresh as that would entail more labor for set-up and content migration.)
 
 We selected issues that were ready to move forward right away and that could be completed quickly or at a steady clip.
 
 ## We rallied our resources
 
-We figured out a process for coordinating a “tag team” of staff that organized operational work into small pieces, and then completed tasks in pockets of time between projects.
+We figured out a process for coordinating a “tag team” of staff to organize operational work into small pieces, which then completed tasks in pockets of time between projects.
 
 Two supervisors lead this work. They manage a backlog of issues in GitHub, collected from various sources. They also have standing meetings with leadership stakeholders. (That detail is important to this story as it meant work wasn't delayed waiting on reviews and approvals.)
 
@@ -47,7 +47,7 @@ A product designer used the new copy to draft new page layouts, including a new 
 
 Thanks to that standing meeting with leadership, the new designs received quick attention and signoff. After a little refinement by a UX designer, they were handed off to a UX engineer to build.
 
-Yes—a UX engineer. One thing that enabled us to refresh the site rapidly is, we intentionally hired several designers who can also code. Industry best practices are moving in this direction, and we’ve also seen the benefit of having designers who can flex their skills as UX engineers. This gives us more agility to ship projects quickly, while freeing up software engineers for more complex engagements. 
+Yes—a UX engineer. One thing that enabled us to refresh the site rapidly is that we intentionally hired several designers who can also code. Industry best practices are moving in this direction and we’ve also seen the benefit of having designers who can flex their skills as UX engineers. This gives us more agility to ship projects quickly and to free up software engineers for more complex engagements. 
 
 ## We (re)wrote just enough code
 
@@ -63,9 +63,9 @@ Because the previous site also used the U.S. Web Design System (USWDS), translat
 
 That’s how we launched a new 18f.gsa.gov in the course of several weeks. It wasn’t a simple process, but it was a steady one thanks to clear goals, disciplined decisions, and good coordination. 
 
-Next, we’ll plan and conduct user testing to assess how well the refreshed site serves our users’ needs and our goals. We’ll also continue to iterate based on FY24 goals and priorities. Whatever issues are identified will be addressed by available staff as opportunity allows. Future work sprints on the 18F website should be easier to coordinate and execute, based on what we’ve learned during this site refresh. 
+Next, we’ll plan and conduct user testing to assess how well the refreshed site serves our users’ needs and our goals. We’ll also continue to iterate based on FY24 goals and priorities. Whatever issues are identified will be addressed by available staff as opportunity allows. Based on what we’ve learned during this site refresh, future work sprints on the 18F website should be easier to coordinate and execute.
 
-Websites aren’t meant to stand the test of time. They are a flexible medium that should serve their users’ needs and organizational goals. While that can seem like a monumental amount of work, identifying smaller tasks can help you publish and update your site without waiting years.
+Websites aren’t meant to stand the test of time. They are a flexible medium that should serve their users’ needs and organizational goals. While that can seem like a monumental amount of work, identifying smaller tasks can help you publish and update your site at intervals you can measure in weeks or months rather than years.
 
 
 _With special thanks to the people who made the refresh possible:_
