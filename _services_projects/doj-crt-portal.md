@@ -25,11 +25,11 @@ The public reports over 100,000 possible civil rights violations to CRT each yea
 
 CRT received reports by web, email, phone, fax, and physical letter. Most had missing or incomplete information. Staff spent most of their time processing unactionable complaints instead of supporting victims.
 
-<div class="case-study-preheader margin-top-6">Approach</div>
+### Approach
 * The CRT partnered with 18F to streamline the complaint submission process to provide a more unified and straightforward experience for victims of civil rights violations.
 * Together, we crafted design principles for each part of this new experience against which all designs, prototypes, and builds would be tested.
-<div class="case-study-preheader margin-top-6">Outcomes</div>
 
+### Outcomes
 * The new Civil Rights Reporting Portal transformed the way CRT collects, routes, tracks, and responds to civil rights complaints. It includes:
     * A redesigned [civilrights.justice.gov](https://civilrights.justice.gov/). This site explains in clear language the scope of civil rights enforced by CRT, examples of violations, and the complaints process. 
     * A complaint intake form. The new form has a progress tracker and clear instructions. The form design ensures more complete submissions.
@@ -38,7 +38,10 @@ CRT received reports by web, email, phone, fax, and physical letter. Most had mi
 * CRT staff no longer have to spend hours per week chasing missing information and routing complaints. They can devote more time to helping victims. 
 * The portal is a single source of data about civil rights complaints and has become a powerful tool for spotting trends and patterns. 
 
-<div class="testimonial-blockquote">
-  Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization.
-    <span>- Daniel Yi, Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division</span>
-</div>
+<!-- -->
+{% include testimonial.html 
+  size="md"
+  quote="Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization."
+  attribution="Daniel Yi"
+  position="Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division"
+%}

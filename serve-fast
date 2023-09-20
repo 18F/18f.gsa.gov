@@ -1,5 +1,6 @@
 #!/bin/sh
 
+npm run uswds-build && \ 
 LC_ALL="en_US.UTF-8" \
 bundle exec jekyll serve \
   --watch \
@@ -8,3 +9,4 @@ bundle exec jekyll serve \
   --baseurl /site \
   --trace \
   --config="_config.yml,_config-fast-builds.yml" \
+& npm run uswds-watch \

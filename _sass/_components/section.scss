@@ -1,0 +1,41 @@
+/* Additional styles and overrides for usa-section */
+@use 'uswds-core' as *;
+
+.usa-section {
+  padding-top: units(10);
+  padding-bottom: units(10);
+}
+
+.section-padding-md {
+  padding-top: units(8);
+  padding-bottom: units(8);
+}
+
+.section-padding-sm {
+  padding-top: units(6);
+  padding-bottom: units(6);
+}
+
+.section-padding-top-0 {
+  padding-top: 0;
+}
+
+// Dark section overrides
+.usa-section--dark {
+  h2 {
+    color: white;
+  }
+
+  a {
+    color: color('primary-lightest');
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .text-primary-lightest {
+    color: color('primary-lightest');
+  }
+}
+

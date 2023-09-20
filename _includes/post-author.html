@@ -1,4 +1,4 @@
-<p class="post-byline">
+<span class="post-byline">
 {% if include.context == 'page' and page.authors %}
   {% assign authors = page.authors %}
 {% elsif include.context == 'post' and post.authors %}
@@ -10,10 +10,10 @@
         {{ author | team_link }}
     </span>
     {% assign authorCount = authors | size %}
-    {% if authorCount > 1 %}
-      {% unless forloop.last %}
-        <span class="post-author-comma">,</span>
-      {% endunless %}
-    {% endif %}
+    {%- if authorCount > 1 -%}
+      {%- unless forloop.last -%}
+      <span class="post-author-comma margin-left-neg-05">{{',' | strip }}</span>
+      {%- endunless -%}
+    {%- endif -%}
   {% endfor %}
-</p>
+</span>

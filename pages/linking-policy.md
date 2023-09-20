@@ -1,7 +1,7 @@
 ---
 title: Linking policy
 permalink: /linking-policy/
-layout: primary
+layout: styled-container
 lead:
 ---
 

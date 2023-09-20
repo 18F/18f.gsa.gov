@@ -1,28 +1,21 @@
 ---
-layout: default
+layout: primary
 title: 18F Blog
+lead: Delivering civic technology
 skip_index: true
-blog_tagline: Delivering civic technology
 redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
 ---
-
-<section class="usa-section bg-primary-dark">
-  <div class="grid-container">
-      <h1 class="section-heading section-heading-alt">{{ page.title }}</h1>
-      <h2>{{ page.blog_tagline }}</h2>
-  </div>
-</section>
-
-<section class="grid-container usa-section content-wide">
+<section class="usa-section section-padding-top-0">
+  <div class="grid-container padding-top-0">
+  <hr class="hr-1-dark margin-y-0">
   <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-8 content-focus page-tag-results">
+    <div class="tablet:grid-col-7 page-tag-results">
       {%
-      include tag-results.html
+      include post-previews.html
       posts=paginator.posts
       tags=page.tags
-      trim_padding=true
       %}
-      <section class="pagination grid-row content-focus">
+      <section class="pagination grid-row flex-align-center flex-justify">
         <div>
           {% if paginator.previous_page %}
             <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
@@ -35,7 +28,7 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
         <div>
           <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
         </div>
-        <div>
+        <div class="display-flex flex-justify-end margin-right-neg-2px">
           {% if paginator.next_page %}
           <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
             Next {{ paginator.per_page }} posts {% include svg/icons/arrow-right.svg %}
@@ -47,32 +40,20 @@ redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
       </section>
     </div>
     {% assign featured_blog_content = site.data.featured_blog_content %}
-    <aside class="sidebar tablet:grid-col-4">
-      <h4 class="sidebar-heading-topic">Browse by topic</h4>
-      <ul>
+    <aside class="sidebar tablet:grid-offset-1 tablet:grid-col-4 padding-y-6">
+      <h2 class="font-sans-md text-bold border-top-05-primary-dark padding-y-2">
+        Browse by topic
+      </h2>
+      <ul class="usa-sidenav margin-bottom-6">
         {% for item in featured_blog_content.topics %}
-        <li>
+        <li class="usa-sidenav__item">
           <a href="{{ site.baseurl }}/tags/{{ item.tag }}">{{ item.topic }}</a>
         </li>
         {% endfor %}
       </ul>
-
-        <h4 class="sidebar-heading-topic">Follow 18F</h4>
-        <ul class="usa-list usa-list--unstyled">
-          <li>
-            <!-- Inline CSS styles because these are only used this way here -->
-            <a href="https://twitter.com/18F"><img class="sidebar-icon-twitter" style="position: relative; top: 5px; left: -8px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" alt="Twitter">@18F on Twitter</a>
-          </li>
-          <li>
-            <a href="https://github.com/18F"><img class="sidebar-icon-github" style="position: relative; top: 5px; margin-right: 25px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/github.svg" alt="GitHub">18F on GitHub</a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/feed.xml"><img class="sidebar-icon-rss" style="position: relative; top: 5px; left: -9px; margin-right: 10px;" src="{{ site.baseurl }}/assets/img/social-icons/svg/rss25.svg" alt="RSS"/>RSS feed</a>
-          </li>
-        </ul>
+      {% include social-media.html%}
     </aside>
   </div>
+  </div>
   </section>
-  {% include banner-cta.html %}
 
-  <!-- Pagination links -->

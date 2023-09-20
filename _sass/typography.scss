@@ -1,0 +1,27 @@
+// -------------------------------------
+@use 'uswds-core' as *;
+
+// 18F site components
+@use 'variables.scss' as *;
+
+h1 {
+  @include u-text('normal');
+}
+
+h2 {
+  @include u-font('heading', '2xl');
+  @include u-text('normal');
+}
+
+* + h2 {
+  margin-top: units(6);
+}
+
+h3 {
+  @include u-font('heading', 'xl');
+  @include u-line-height('heading', 3);
+  @include u-text('normal');
+  letter-spacing: $letter-spacing-xs;
+}
+
+

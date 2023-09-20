@@ -1,0 +1,23 @@
+@use 'uswds-core' as *;
+
+hr {
+  border: 1px solid color('primary-darker');
+  margin-top: units(6);
+  margin-bottom: units(4);
+}
+
+.hr-1-dark {
+  border: none;
+  border-top: 1px solid color('primary-dark');
+}
+
+.hr-1-base-lighter {
+  border: none;
+  border-top: 1px solid color('base-lighter');
+}
+
+.footer-hr-alignment {
+  margin-top: units(-6); 
+  margin-bottom: units(6);
+}
+

@@ -1,27 +1,30 @@
 {% assign featured_posts = include.related_posts %}
-<section class="usa-section featured-posts {{ include.additional_class }}">
-  <div class="grid-container">
-  {% if featured_posts.size > 0 %}
-  <div class="{% if featured_posts.size > 3 %}grid-row grid-gap margin-bottom-2 tablet:margin-bottom-0{% endif %}">
-    <div class="desktop:grid-col-8">
-      <h2>{{ include.title }}</h2>
-    </div>
-    {% if featured_posts.size > 3 %}
-    <div class="desktop:grid-col-4">
-      <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project {% include svg/icons/arrow-right.svg %}</a>
-    </div>
+
+{% if featured_posts.size > 0 %}
+{% if include.color_mode == "dark"%}
+  {% assign border_color = "border-primary-lightest" %}
+  {% assign text_color = "text-white" %}
+  {% assign hover_color = "hover-primary-lightest" %}
+{% else %}
+  {% assign border_color = "border-primary" %}
+  {% assign hover_color = "hover-primary-dark" %}
+{% endif %}
+  <ul class="grid-row grid-gap usa-list--unstyled">
+    {% for post in featured_posts %}
+    {% if include.max_num_posts and forloop.index > include.max_num_posts %} 
+      {% break %} 
     {% endif %}
-  </div>
-  {% endif %}
-  <ul class="grid-row grid-gap">
-  {% for post in featured_posts %}
-    {% include post.html
-      post_date=post.date post_title=post.title post_excerpt=post.excerpt
-      post_url=post.url show_tags=include.show_tags %}
-    {% if forloop.index > 2 %}
-      {% break %}
-    {% endif %}
+    <li class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-5 "> 
+      <a href="{{ site.baseurl }}/{{ post.url }}" class="text-no-underline">
+        <h3 class="border-top-05 {{border_color}} {{ hover_color }} padding-top-3 margin-bottom-3 text-bold {{ text_color }}">
+          {{ post.title }}
+        </h3>
+      </a>
+      {% if include.show_excerpt %} 
+        {{ post.excerpt }}
+      {% endif %} 
+    </li>
     {% endfor %}
   </ul>
-  </div>
-</section>
+{% endif %}
+

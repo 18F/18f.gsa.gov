@@ -10,13 +10,19 @@
     "node": ">=10.14"
   },
   "scripts": {
-    "federalist": "mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
+    "federalist": "npm run uswds-build && mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore 18f@gsa.gov --enforce-https false",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore localhost:4000 --enforce-https false",
+    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|/google\\d'",
+    "pa11y-limited": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|(/author/)|(/\\d+/)|/tags/|/google\\d'",
+    "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
-    "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml",
-    "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
+    "uswds-compile-sass": "npx gulp compileSass",
+    "uswds-compile": "npx gulp compile",
+    "uswds-copy-assets": "npx gulp copyAssets",
+    "uswds-build": "npm run uswds-copy-assets && npm run uswds-compile",
+    "uswds-watch": "npx gulp watch",
     "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
   },
   "repository": {
@@ -35,12 +41,13 @@
   },
   "homepage": "https://18f.gsa.gov",
   "devDependencies": {
+    "@uswds/compile": "^1.0.0",
     "pa11y-ci": "^3.0.1"
   },
   "dependencies": {
+    "@uswds/uswds": "3.5.0",
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.7.0",
-    "netlify-cms": "^2.10.192",
-    "uswds": "^2.14.0"
+    "netlify-cms": "^2.10.192"
   }
 }

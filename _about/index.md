@@ -1,22 +1,23 @@
 ---
-title: About
+title: About 18F
 permalink: /about/
-layout: primary
-lead: We help other government agencies build, buy, and share technology products.
-banner_cta: true
+layout: styled-container
+lead: We help other government agencies build, buy, and share technology products. 18F is a team of designers, software engineers, strategists, and product managers within the General Services Administration. We collaborate with other agencies to fix technical problems, build products, and improve public service through technology.
+image: /assets/img/about/gsahq.jpg
+image_alt_text: "General Services Administration headquarters"
+side_cta: true
 subnav_items:
-  - text: History and funding
-    permalink: /about/#history-and-funding
+  - text: History
+    permalink: /about/#history
+  - text: What does 18F mean?
+    permalink: /about/#what-does-18f-mean
+  - text: Funding and agreements
+    permalink: /about/#funding-and-agreements
   - text: For press
     permalink: /about/#for-press
 ---
 
-18F is a team of designers, software engineers, strategists, and product managers within the [General Services Administration](https://www.gsa.gov/) (GSA). We collaborate with other agencies to fix technical problems, build products, and improve public service through technology.
-
-
------
-
-## History and funding
+## History
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
 
@@ -24,11 +25,11 @@ In 2016, 18F became part of the [Technology Transformation Services](https://www
 
 In 2017, TTS became part of GSA's existing [Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
 
-**What does 18F mean?**
+## What does 18F mean?
 
 Our name is short for the address of GSA headquarters in Washington, DC: 1800 F Street.
 
-### Funding and agreements
+## Funding and agreements
 
 We are cost-recoverable, which means we don't receive appropriated funds from Congress and must charge partner agencies for our work. There are two authorities we use to recover costs:
 
@@ -38,7 +39,6 @@ We are cost-recoverable, which means we don't receive appropriated funds from Co
 We use Interagency Agreements (IAAs) to set up the terms of our projects, and bill partners through [Intra-Governmental Payment and Collection](https://www.fiscal.treasury.gov/fsservices/gov/acctg/ipac/ipac_home.htm) (IPAC) on a monthly basis.
 
 -----
-
 ## For press
 
 For all press inquiries, please email [press@gsa.gov](mailto:press@gsa.gov?Subject=18F%20Media%20Query) with the topic you’d like to talk about and your deadline.
@@ -47,11 +47,11 @@ The GSA Office of Strategic Communications handles all press questions and can c
 
 If you’re writing a story about 18F, feel free to use any of the images below.
 
-**Organizational logos:**
+### Organizational logos
   - [18F (SVG)]({{ site.baseurl }}/assets/img/logos/18f-logo.svg)
   - [GSA (JPG)]({{ site.baseurl }}/assets/img/logos/gsa-logo-dark.jpg)
 
-**Product logos:**
+### Product logos
   - [cloud.gov (SVG)]({{ site.baseurl }}/assets/img/logos/cloud-gov-logo.svg)
   - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
 

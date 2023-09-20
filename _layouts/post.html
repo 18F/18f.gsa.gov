@@ -2,36 +2,29 @@
 layout: default
 ---
 
+{% if page.image %}
+  {% include feature-image.html %}
+{% endif %}
 
-{% include feature-image.html %}
-
-<div class="grid-container usa-section width-full">
-  <div class="grid-row grid-gap">
-    <div class="tablet:grid-col-2">
-      <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
-        {% include svg/icons/arrow-left.svg %}
-        <span class="usa-sr-only">Back to</span>
-        Blog
-      </a>
-    </div>
-    <div class="tablet:grid-col-8">
-      <article id="main-content" class="post-article" itemscope itemtype="http://schema.org/BlogPosting">
+<article id="main-content" class="post-article margin-top-6" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-12">
         <header>
           <h1 itemprop="name headline">{{ page.title }}</h1>
-          <p class="post-byline">
-          {% include post-author.html context="page" %}
+          <p class="margin-top-3 margin-bottom-0">
+            {% include post-author.html context="page" %}
           </p>
-          <p>
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+          <p class="margin-top-1">
+            Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
-          <span class="post-tags" itemprop="keywords">
-            {% for tag in page.tags %}
-              <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
-              </a>
-            {% endfor %}
-          </span>
+          {% include post-tags.html post_tags=page.tags %} 
         </header>
-
+      </div>
+    </div>
+    <hr class="hr-1-dark">
+    <div class="grid-row grid-gap margin-top-8">
+      <div class="tablet:grid-col-7">
         <div class="post-content" itemprop="articleBody">
           {% if page.image and page.image_feature_small == true %}
             <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
@@ -39,44 +32,57 @@ layout: default
 
           {{ content }}
         </div>
-
-      </article>
+      </div>
+      <aside class="tablet:grid-offset-1 tablet:grid-col-4"> 
+        {% include social-media.html %}
+      </aside>
     </div>
   </div>
-</div>
+</article>
 
 {% if page.previous or page.next %}
-  <section class="post-pagination grid-container">
+<section class="margin-top-6 post-pagination">
+  <div class="grid-container">
+    <hr class="hr-1-base-lighter">
     <div class="grid-row grid-gap">
       <div class="grid-col-6">
         {% if page.previous %}
-        <a href="{{ site.baseurl }}{{ page.previous.url }}">
-          <span class="link-arrow-left">
+        <a href="{{ site.baseurl }}{{ page.previous.url }}"
+           class="text-no-underline post-pagination__link" 
+        >
+          <h2 class="post-pagination__heading">
             {% include svg/icons/arrow-left.svg %}
             Previous Post
-          </span>
-          <h5>&ldquo;{{ page.previous.title }}&rdquo;</h5>
+          </h2>
+          <p class="measure-1 text-bold text-primary-darkest">{{ page.previous.title }}</p>
         </a>
         {% endif %}
       </div>
-      <div class="grid-col-6">
+      <div class="grid-col-6 text-right">
         {% if page.next %}
-        <a href="{{ site.baseurl }}{{ page.next.url }}">
-          <span class="link-arrow-right">
+        <a href="{{ site.baseurl }}{{ page.next.url }}"
+           class="text-no-underline post-pagination__link" 
+        >
+          <h2 class="post-pagination__heading">
             Next Post
             {% include svg/icons/arrow-right.svg %}
-          </span>
-          <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
+          </h2>
+          <p class="measure-1 float-right text-bold text-primary-darkest text-right">&ldquo;{{ page.next.title }}&rdquo;</p>
         </a>
         {% endif %}
       </div>
     </div>
-  </section>
+    <hr class="hr-1-base-lighter">
+  </div>
+</section>
 {% endif %}
 
-{% include featured-posts.html 
-  hide_date=false 
-  title="Related posts" 
-  related_posts=page.related_posts 
-  show_tags=true %}
-{% include banner-cta.html %}
+<section class="margin-top-3 margin-bottom-6"> 
+  <div class="grid-container">
+    {% include featured-posts.html 
+      related_posts=page.related_posts 
+      show_excerpt="true"
+    %}
+    </div>
+  </div>
+</section>

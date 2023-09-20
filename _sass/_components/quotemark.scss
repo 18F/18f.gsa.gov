@@ -1,0 +1,13 @@
+@use 'uswds-core' as *;
+
+.large-quotemark {
+  color: color('primary-lightest');
+  font-size: units(15) + units(3);
+  line-height: 0;
+  margin-top: units(6);
+  text-align: center;
+}
+
+.large-quotemark--left {
+  text-align: left;
+}

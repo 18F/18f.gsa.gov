@@ -3,11 +3,10 @@ source 'https://rubygems.org'
 ruby '~> 2.7.4'
 
 gem 'html-proofer', '~> 4.3.0b'
-gem 'jekyll', '4.2.2'
+gem 'jekyll', '4.3'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 gem 'ruby-oembed', '0.15.0'
-gem 'uswds-jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '~> 2.2'
