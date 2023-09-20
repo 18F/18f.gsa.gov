@@ -23,7 +23,7 @@ We selected issues that were ready to move forward right away and that could be 
 
 We figured out a process for coordinating a “tag team” of staff to organize operational work into small pieces, which then completed tasks in pockets of time between projects.
 
-Two supervisors lead this work. They manage a backlog of issues in GitHub, collected from various sources. They also have standing meetings with leadership stakeholders. (That detail is important to this story as it meant work wasn't delayed waiting on reviews and approvals.)
+Two supervisors lead this work. They manage a backlog of issues in GitHub, collected from various sources. They also have standing meetings with leadership stakeholders.
 
 Like all of our work at 18F, tasks are managed through agile methods. Daily syncs and blocks of time for coworking ensure everyone knows who’s working on what and can get help as needed. Biweekly planning meetings aligned priority issues to available skills. Biweekly retrospective meetings surface and remediate issues within work processes quickly. These processes make onboarding and offboarding staff routine and effective. (It also allows us to work on a range of priority work concurrently.)
 
@@ -31,7 +31,7 @@ Like all of our work at 18F, tasks are managed through agile methods. Daily sync
 
 At the top of our wish list was to enable users to quickly find what they’re looking for. We also wanted them to easily understand our services and resources.
 
-We started by digging into our existing trove of research. We knew from years of Google Analytics data what content our users search for the most and spend the most time on. 
+We started by digging into our existing trove of research. We knew from years of web analytics data what content our users search for the most and spend the most time on. 
 
 Interviews with our leadership team also clarified current organizational priorities and goals.
 
@@ -47,7 +47,7 @@ A product designer used the new copy to draft new page layouts, including a new 
 
 Thanks to that standing meeting with leadership, the new designs received quick attention and signoff. After a little refinement by a UX designer, they were handed off to a UX engineer to build.
 
-Yes—a UX engineer. One thing that enabled us to refresh the site rapidly is that we intentionally hired several designers who can also code. Industry best practices are moving in this direction and we’ve also seen the benefit of having designers who can flex their skills as UX engineers. This gives us more agility to ship projects quickly and to free up software engineers for more complex engagements. 
+Yes—a UX engineer. One thing that enabled us to refresh the site rapidly is that we intentionally hired several designers who can also code. Industry best practices are moving in this direction and we’ve also seen the benefit of having designers who can flex their skills as UX engineers. This gives us more agility to match people to projects based on appropriate skills and to ship projects quickly.
 
 ## We (re)wrote just enough code
 
@@ -69,5 +69,4 @@ Websites aren’t meant to stand the test of time. They are a flexible medium th
 
 
 _With special thanks to the people who made the refresh possible:_
-
-_Ron Bronson, Anita Cheng, Mel Choyce, Amanda Costello, Jennifer Damis, Jeff Durland, Austin Hernandez, Igor Korenfeld, and Michelle Rago_
+<br>_Ron Bronson, Anita Cheng, Mel Choyce, Amanda Costello, Jennifer Damis, Jeff Durland, Austin Hernandez, Igor Korenfeld, and Michelle Rago_
