@@ -115,7 +115,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% include card-with-image.html 
          card_color="dark"
          image_path="/assets/img/guides/state-guide-lightest.svg"
-         link_url="https://accessibility.18f.gov/"
+         link_url="https://derisking-guide.18f.gov/state-field-guide/"
          text_content="State Software Budgeting Handbook"
       %}
       </div>
@@ -124,7 +124,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% include card-with-image.html 
          card_color="dark"
          image_path="/assets/img/guides/federal-guide-lightest.svg"
-         link_url="https://agile.18f.gov/"
+         link_url="https://derisking-guide.18f.gov/federal-field-guide/"
          text_content="Federal Field Guide"
       %}
       </div>
