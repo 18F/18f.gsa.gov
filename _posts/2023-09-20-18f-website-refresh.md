@@ -66,3 +66,7 @@ That’s how we launched a new 18f.gsa.gov in the course of several weeks. It wa
 Next, we’ll plan and conduct user testing to assess how well the refreshed site serves our users’ needs and our goals. We’ll also continue to iterate based on FY24 goals and priorities. Whatever issues are identified will be addressed by available staff as opportunity allows. Future work sprints on the 18F website should be easier to coordinate and execute, based on what we’ve learned during this site refresh. 
 
 Websites aren’t meant to stand the test of time. They are a flexible medium that should serve their users’ needs and organizational goals. While that can seem like a monumental amount of work, identifying smaller tasks can help you publish and update your site without waiting years.
+
+
+_With special thanks to the people who made the refresh possible:_
+_Ron Bronson, Anita Cheng, Mel Choyce, Amanda Costello, Jennifer Damis, Jeff Durland, Austin Hernandez, Igor Korenfeld, and Michelle Rago_
