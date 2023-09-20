@@ -69,4 +69,5 @@ Websites aren’t meant to stand the test of time. They are a flexible medium th
 
 
 _With special thanks to the people who made the refresh possible:_
+
 _Ron Bronson, Anita Cheng, Mel Choyce, Amanda Costello, Jennifer Damis, Jeff Durland, Austin Hernandez, Igor Korenfeld, and Michelle Rago_
