@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.7.2)
+    activesupport (7.0.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -25,9 +25,9 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (3.24.1)
-    google-protobuf (3.24.1-x86_64-darwin)
-    google-protobuf (3.24.1-x86_64-linux)
+    google-protobuf (3.24.3)
+    google-protobuf (3.24.3-x86_64-darwin)
+    google-protobuf (3.24.3-x86_64-linux)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -90,7 +90,7 @@ GEM
     mercenary (0.4.0)
     method_source (1.0.0)
     mini_portile2 (2.8.4)
-    minitest (5.19.0)
+    minitest (5.20.0)
     nokogiri (1.15.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -129,11 +129,13 @@ GEM
     rspec-support (3.12.1)
     ruby-oembed (0.15.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.54.6)
-      google-protobuf (~> 3.19)
-      rake (>= 10.0.0)
-    sass-embedded (1.54.6-x86_64-darwin)
-      google-protobuf (~> 3.19)
+    sass-embedded (1.67.0)
+      google-protobuf (~> 3.23)
+      rake (>= 13.0.0)
+    sass-embedded (1.67.0-x86_64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.67.0-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     simplecov (0.13.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -160,7 +162,7 @@ DEPENDENCIES
   codeclimate-test-reporter (~> 1.0.0)
   colorize
   html-proofer (~> 4.3.0b)
-  jekyll (= 4.3)
+  jekyll (~> 4.3)
   jekyll-archives (~> 2.2)
   jekyll-feed
   jekyll-paginate
