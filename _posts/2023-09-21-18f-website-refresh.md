@@ -57,7 +57,7 @@ Since one of our goals was to continue to make the site easy to maintain and upd
 
 Because the previous site also used the U.S. Web Design System (USWDS), translating the new designs into code required revising rather than writing new code. We used this site refresh as an opportunity to migrate to USWDS 3.0, to make use of its [new modular approach](https://designsystem.digital.gov/whats-new/updates/2022/04/28/introducing-uswds-3-0/).
 
-## Website are living products
+## Websites are living products
 
 ![A ribbon cutting ceremony with the new 18F website in the background on a stage at GSA Headquarters.]({{ site.baseurl }}/assets/blog/18f-website-refresh/refreshed-website-ribbon-cutting.jpg "A ribbon-cutting ceremony celebrating the refreshed 18F Website")
 
