@@ -27,15 +27,25 @@
   margin-top: units(1);
 }
 
-.post-article blockquote {
+.post-article blockquote,
+.post-article .testimonial-blockquote {
   @include u-font('sans', 'lg');
   @include u-text('italic');
   border-left: units(0.5) solid color('primary');
+  color: color('primary-darker');
   margin: units(3) 0;
   padding-left: units(3);
 
   &:first-child {
     margin-top: 0;
+  }
+
+  span {
+    @include u-font('sans', 'md');
+    color: color('base-darker');
+    display: block;
+    font-weight: font-weight('medium');
+    margin-top: units(1);
   }
 }
 
