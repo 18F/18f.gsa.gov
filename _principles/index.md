@@ -1,7 +1,7 @@
 ---
 title: 18F Partnership Principles
 permalink: /partnership-principles/
-layout: primary
+layout: styled-container
 lead: Collaboration approaches to help your project succeed
 subnav_items:
   - text: Methodologies
