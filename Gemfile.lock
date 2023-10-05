@@ -37,6 +37,7 @@ GEM
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+    google-protobuf (3.24.3-arm64-darwin)
     google-protobuf (3.24.3-x86_64-darwin)
     hashery (2.1.2)
     html-pipeline (2.14.3)
@@ -101,6 +102,8 @@ GEM
     mercenary (0.4.0)
     method_source (1.0.0)
     minitest (5.20.0)
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.23.0)
@@ -140,6 +143,8 @@ GEM
     ruby-oembed (0.15.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
+    sass-embedded (1.68.0-arm64-darwin)
+      google-protobuf (~> 3.23)
     sass-embedded (1.68.0-x86_64-darwin)
       google-protobuf (~> 3.23)
     simplecov (0.22.0)
@@ -162,6 +167,7 @@ GEM
     zeitwerk (2.6.11)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-22
 
 DEPENDENCIES
