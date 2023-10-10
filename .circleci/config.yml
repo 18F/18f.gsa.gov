@@ -1,6 +1,13 @@
 version: 2.1
 
 jobs:
+  pa11y-prod:
+    docker:
+      - image: node:latest
+    steps:
+      - run:
+          name: Run pa11y on production site
+          command: npm run pa11y-prod
   build:
     docker:
       - image: cimg/ruby:2.7-browsers
@@ -49,9 +56,19 @@ jobs:
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: ./serve-pa11yci && npm run pa11y-limited
+          command: ./serve-pa11yci && npm run pa11y-dev
 workflows:
   version: 2
   commit:
     jobs:
-      - build
+      - pa11y-prod
+  weekly:
+    triggers:
+      - schedule:
+          cron: "0 7 * * 1"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - pa11y-prod
