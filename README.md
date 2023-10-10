@@ -37,6 +37,8 @@ You should be able to see the site at: [http://127.0.0.1:4000/site/](http://127.
 
 ### Local development using docker
 
+:warning: **Docker development is currently broken because of [Zscaler issues](https://docs.google.com/document/d/1u8UBS46NnmglyIPEGw5WfgQaKEChH2WbtzgesniyKOE/edit#heading=h.wm2hpcqy6pew).**
+
 Using Docker can make dependencies management easier, but can also slow down your build time. You can find out more in
 [this discussion](https://github.com/18F/18f.gsa.gov/pull/1688#issue-152998027).
 
