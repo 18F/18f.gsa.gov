@@ -6,8 +6,11 @@ jobs:
       - image: node:latest
     steps:
       - run:
+          name: install pa11y
+          command: npm install -g pa11y-ci
+      - run:
           name: Run pa11y on production site
-          command: npm run pa11y-prod
+          command: pa11y-ci --sitemap https://18f.gsa.gov/sitemap.xml --sitemap-exclude ".pdf|/google\\d"
   build:
     docker:
       - image: cimg/ruby:2.7-browsers
