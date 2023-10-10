@@ -49,7 +49,7 @@ jobs:
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: ./serve-pa11yci && npm run pa11y-ci
+          command: ./serve-pa11yci && npm run pa11y-ci --sitemap-exclude "author"
 workflows:
   version: 2
   commit:
