@@ -14,7 +14,7 @@
     "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore 18f@gsa.gov --enforce-https false",
     "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --url-ignore localhost:4000 --enforce-https false",
     "pa11y-ci": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|/google\\d'",
-    "pa11y-limited": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|[^2023]'",
+    "pa11y-limited": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|(/author/)|(/\\d+/)|/tags/|/google\\d|2022|2021|2020|2019|2018|2017|2016|2015|2014'",
     "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
     "restart": "rm -rf _site && ./serve",
     "restart-fast": "rm -rf _site && ./serve-fast",
