@@ -40,7 +40,10 @@ module SiteData
     end
 
     def fetch(name, key)
-      YAML.load_file("#{@path}/#{name}.md")[key] if exists? name
+      YAML.load_file(
+        "#{@path}/#{name}.md",
+        permitted_classes: [Date, Time]
+      )[key] if exists? name
     end
 
     def create_file_path(file)
@@ -85,7 +88,10 @@ module SiteData
       base_path = Dir.pwd
       @site_post_paths.each do |post_path|
         next unless File.exist? File.join(base_path, '_posts', post_path)
-        frontmatter = YAML.load_file(File.join(base_path, '_posts', post_path))
+        frontmatter = YAML.load_file(
+          File.join(base_path, '_posts', post_path),
+          permitted_classes: [Date, Time]
+        )
         checks = frontmatter['output'] != false && frontmatter['published'] != false
         next unless checks
         authors = frontmatter['authors'].map { |a| "#{a}.md" }

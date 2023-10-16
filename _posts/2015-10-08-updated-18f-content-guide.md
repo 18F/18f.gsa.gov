@@ -29,7 +29,7 @@ href="http://t.co/vf3NYoAuhJ">http://t.co/vf3NYoAuhJ</a></p>&mdash;
 CIO Council (@ciodotgov) <a
 href="https://twitter.com/ciodotgov/status/619227441626775552">July 9,
 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js"
+<script async src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
 
 More exciting, though, are all the suggestions for updates and
