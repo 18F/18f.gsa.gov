@@ -49,7 +49,7 @@ jobs:
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: ./serve-pa11yci && npm run pa11y-ci
+          command: sudo apt-get update && sudo apt install libxshmfence1 libglu1 && ./serve-pa11yci && npm run pa11y-ci
 workflows:
   version: 2
   commit:
