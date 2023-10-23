@@ -54,7 +54,7 @@ Early in the project, the FEC expressed concern about releasing betaFEC before w
 An early release of data tools for heavy users is often a good step. This was still a leap of faith for our partners, but it paid off. The open data and campaign finance communities were thrilled. The Sunlight Foundation [said](http://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/), “The FEC is taking a huge step forward.”
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m completely won over. The new FEC API is awesome. <a href="https://t.co/N6EeKq6HZp">https://t.co/N6EeKq6HZp</a></p>&mdash; Andrew McGill (@andrewmcgill) <a href="https://twitter.com/andrewmcgill/status/619237229504937984">July 9, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This positive response helped build trust that was instrumental in the [early release of beta.fec.gov](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/). This site was obviously incomplete — the home page had huge areas marked “Coming soon” and navigation items listed as “TBD” — but it allowed us to get something real in the hands of our users, which has led to invaluable input.
 

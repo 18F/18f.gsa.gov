@@ -53,7 +53,7 @@ A second area of focus was to understand more about the individual user. Histori
 
 USGS serves a broad variety of users, but we wanted to be targeted about which users we engaged during this round of research, prioritizing those who are most important to answering our research questions and those who we know least about.
 
-![Snapshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research](https://lh5.googleusercontent.com/AJwZ_U7VNJ4LRfqrVG70WXr-LVShJ4YAxZwoOeXbsKgug6EOcE82kKWHf8ivoEZ8-Uoi7DcXovduCvWAurAIo4qxrmbrYlhX3_aclDR1a1tkI7MPh1gqQbirXRsIc75pZrxLUr0L "Screenshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research")
+![Snapshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research]({{ site.baseurl }}https://lh5.googleusercontent.com/AJwZ_U7VNJ4LRfqrVG70WXr-LVShJ4YAxZwoOeXbsKgug6EOcE82kKWHf8ivoEZ8-Uoi7DcXovduCvWAurAIo4qxrmbrYlhX3_aclDR1a1tkI7MPh1gqQbirXRsIc75pZrxLUr0L "Screenshot of the result of a team brainstorming session to identify the groups we knew the least about and were the most important to this round of research")
 
 ## What were our assumptions?
 

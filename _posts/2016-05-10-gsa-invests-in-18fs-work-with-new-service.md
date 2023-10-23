@@ -49,7 +49,7 @@ change and help government agencies embark on their transformation
 journey.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">18F is no longer an experiment. It’s growing up, effective immediately. <a href="https://t.co/wDVIAROBcE">https://t.co/wDVIAROBcE</a></p>&mdash; Waldo Jaquith (@waldojaquith) <a href="https://twitter.com/waldojaquith/status/727560853755703296">May 3, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This important step for GSA will help 18F continue to deliver the
 products and services our federal agency partners have come to expect

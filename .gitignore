@@ -30,6 +30,7 @@ tmp
 .bundle
 .vscode
 .jekyll-cache
+.ruby-version
 /assets/uswds/
 /assets/css/
 /assets/img/*.svg
