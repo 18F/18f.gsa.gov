@@ -40,7 +40,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-npm-{{ checksum "package-lock.json" }}
+          key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
       - run: npm run uswds-build
       - run: bundle exec jekyll build
       - run: npm run htmlproofer
