@@ -45,7 +45,7 @@
     "pa11y-ci": "^3.0.1"
   },
   "dependencies": {
-    "@uswds/uswds": "3.6.1",
+    "@uswds/uswds": "3.7.0",
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.7.1",
     "netlify-cms": "^2.10.192"
