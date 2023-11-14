@@ -18,7 +18,7 @@ By partnering with 18F, you can better understand how and why people use your we
 
 By engaging with 18F, partners gain access to a specialized team focused on the nuances of customer experience in the digital realm, backed by the broad experience and resources of 18F. Together, we create the best outcomes for your mission and the people you serve.
 
-Learn if 18F Web Transformation services are right for you by emailing us at [inquiries18F@gsa.gov](inquiries18F@gsa.gov).
+Learn if 18F Web Transformation services are right for you by emailing us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a>.
 {% endcapture %}
 
 

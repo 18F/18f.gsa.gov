@@ -21,7 +21,7 @@ We research and establish best practices for ethical AI usage, ensuring your AI 
 ## Learn more
 In partnership with the 18F, your agency can not only embrace AI innovation but will do so with a clear vision and strategy. Together, we will ensure that your AI initiatives lead to meaningful outcomes for your mission and the public.
 
-Learn if 18F AI services are right for you by emailing us at [inquiries18F@gsa.gov](inquiries18F@gsa.gov).
+Learn if 18F AI services are right for you by emailing us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a>.
 {% endcapture %}
 
 <section class="usa-section bg-base-lightest section-padding-6">

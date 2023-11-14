@@ -20,7 +20,7 @@ We partner with government agencies to:
 - Find the right vendor to set you up for long-term success
 - [Create AI service strategies]({{ site.baseurl }}/AI-services)
 
-To take the next step, email us at [inquiries18F@gsa.gov](inquiries18F@gsa.gov) and tell us what your needs are.
+To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a> and tell us what your needs are.
 {% endcapture %}
 
 {% capture mission-path %}
