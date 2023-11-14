@@ -65,7 +65,7 @@ Just as we advise our partners to be agile and adaptable, we expect our
 teams to embody that adaptability.
 
 We generally espouse the tenets of the [Agile
-Manifesto](https://agile.18f.gov/) and model these behaviors to adapt
+Manifesto](https://guides.18f.gov/agile/) and model these behaviors to adapt
 to the needs, strengths, weaknesses and dynamics of the full team—both
 the 18F side and partner side—and the project itself, in order to
 deliver value to our partners.

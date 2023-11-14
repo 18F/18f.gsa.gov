@@ -5,7 +5,7 @@
     dark: "/assets/img/guides/accessibility-darker.svg"
 
 - name: "Agile"
-  link: "https://agile.18f.gov"
+  link: "https://guides.18f.gov/agile/"
   image:
     light: "/assets/img/guides/agile-lightest.svg"
     dark: "/assets/img/guides/agile-darker.svg"

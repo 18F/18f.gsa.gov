@@ -70,7 +70,7 @@ responsibilities to a government employee’s primary job.
 
 ## What is a PO?
 
-A [product owner](https://agile.18f.gov/agile-lexicon/) is a key
+A [product owner](https://guides.18f.gov/agile/agile-lexicon/) is a key
 leadership role in agile software development that advocates for the
 business stakeholders and users to the software development team. The
 product owner must be empowered to make decisions in response to

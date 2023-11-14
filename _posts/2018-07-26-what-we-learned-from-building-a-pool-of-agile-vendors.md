@@ -27,7 +27,7 @@ update their digital services.
 ## What we tried
 
 18F’s goal was to create a pool of vendors capable of delivering
-software in an [agile way](https://agile.18f.gov/). Once we selected
+software in an [agile way](https://guides.18f.gov/agile/). Once we selected
 these vendors they would be placed into a contracting vehicle called the
 Agile Delivery Services Blanket Purchase Agreement, or Agile BPA for
 short. Then, agencies could work with 18F to select vendors from this
