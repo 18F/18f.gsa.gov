@@ -11,11 +11,16 @@ Because [87% of large government IT projects don't succeed](https://derisking-gu
 {% endcapture %}
 
 {% capture ask-qs %}
-## Ask the right questions, solve the right problems
+## Service Offerings
 
-We take the time and have the experience to understand the specific mission of your organization. In an 18F engagement, we work together to understand what problem you need to solve.
+18F supports you with a custom team of designers, engineers, product managers, and procurement specialists. In each engagement, we take the time to understand your mission and the challenges you confront. Then, we draw from our expertise to create practical solutions to deliver the best outcomes for you and the people you serve.
+We partner with government agencies to:
+- [Make your website work for you]({{ site.baseurl }}/website-transformation)
+- Design processes to implement mandates and initiatives
+- Find the right vendor to set you up for long-term success
+- [Create AI service strategies]({{ site.baseurl }}/AI-services)
 
-18F has [deep expertise in _talking to people_](https://18f.gov/guides). When you talk to users and staff, you get to the heart of the problem by learning how people use your services and technology. That's how we uncover insights and find new solutions.
+To take the next step, email us at [inquiries18F@gsa.gov](inquiries18F@gsa.gov) and tell us what your needs are.
 {% endcapture %}
 
 {% capture mission-path %}
@@ -55,44 +60,11 @@ Instead, we involve your team in creating solutions and ensure they have everyth
         {{ ask-qs | markdownify }}
       </div>
       <div class="tablet-lg:grid-col-5">
-        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-1.svg"
+        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-2.svg"
         alt=""
         >
       </div>
     </div>
-    <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
-    <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
-    <div class="grid-row grid-gap-md">
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html
-         card_color="dark"
-         text_content="Accessibility"
-         link_url="https://accessibility.18f.gov/"
-         image_path="/assets/img/guides/accessibility-lightest.svg"
-      %}
-      </div>
-
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html
-         card_color="dark"
-         text_content="Agile"
-         link_url="https://agile.18f.gov/"
-         image_path="/assets/img/guides/agile-lightest.svg"
-      %}
-      </div>
-
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html
-         card_color="dark"
-         image_path="/assets/img/guides/content-lightest.svg"
-         link_url="https://content-guide.18f.gov/"
-         text_content="Content"
-      %}
-      </div>
-    </div>
-   <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
-     Browse our guides
-   </a>
   </div>
 </section>
 
@@ -103,7 +75,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
          {{ mission-path | markdownify }}
       </div>
       <div class="tablet-lg:grid-col-5">
-        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-2.svg"
+        <img src="{{ site.baseurl }}/assets/img/work-with-us/work-with-us-illo-1.svg"
         alt=""
         >
       </div>
