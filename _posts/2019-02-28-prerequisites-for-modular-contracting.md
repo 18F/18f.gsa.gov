@@ -42,7 +42,7 @@ working effectively, and it’s easy for a new development team to pick up
 where a prior one left off. By dividing a big project into smaller,
 stand-alone projects, each of those can be completed by a single agile
 team, and those teams can even be at different vendors under different
-contracts. By having somebody within the agency serve as the [product owner](https://agile.18f.gov/agile-lexicon/#roles), and thus as the fulcrum for all work, key knowledge and decisions remain within the
+contracts. By having somebody within the agency serve as the [product owner](https://guides.18f.gov/agile/agile-lexicon/#roles), and thus as the fulcrum for all work, key knowledge and decisions remain within the
 government, making it easier to end contracts that aren’t performing,
 knowing that a replacement team can pick up where the prior one left
 off. It is crucial that agencies always be able to cancel a contract if

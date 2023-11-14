@@ -34,7 +34,7 @@ In our work with the State of Alaska on the [overhaul of their legacy public ben
 
 ## Agile development
 
-More and more agencies report familiarity with or adoption of [agile practices](https://agile.18f.gov/), but this exposure to agile practices can sometimes be one dimensional. There may be a lack of clarity on the interconnection between some of the core ideas of agile and other strategies that agencies need to overhaul large legacy systems.
+More and more agencies report familiarity with or adoption of [agile practices](https://guides.18f.gov/agile/), but this exposure to agile practices can sometimes be one dimensional. There may be a lack of clarity on the interconnection between some of the core ideas of agile and other strategies that agencies need to overhaul large legacy systems.
 
 One of the key tenets of agile is to build in small, minimally viable increments to get working features to users more quickly, so that assumptions can be tested and feedback can be incorporated into future iterations. Breaking work down into smaller chunks helps focus a team’s efforts on delivery of specific items that have been deemed a high priority by a product owner.
 

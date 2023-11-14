@@ -63,32 +63,16 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html 
-         card_color="dark"
-         text_content="Accessibility"
-         link_url="https://accessibility.18f.gov/"
-         image_path="/assets/img/guides/accessibility-lightest.svg"
-      %}
-      </div>
-     
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html 
-         card_color="dark"
-         text_content="Agile"
-         link_url="https://agile.18f.gov/"
-         image_path="/assets/img/guides/agile-lightest.svg"
-      %}
-      </div>
-    
-      <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html 
-         card_color="dark"
-         image_path="/assets/img/guides/content-lightest.svg"
-         link_url="https://content-guide.18f.gov/"
-         text_content="Content"
-      %}
-      </div>
+      {% for guide in site.data.guides limit:3 %}
+        <div class="grid-col-12 tablet:grid-col-4 margin-top-3 tablet:margin-top-0">
+          {% include card-with-image.html 
+            card_color="dark"
+            text_content=guide.name
+            link_url=guide.link
+            image_path=guide.image.light
+          %}
+        </div>
+      {% endfor %}
     </div>
    <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
      Browse our guides 
