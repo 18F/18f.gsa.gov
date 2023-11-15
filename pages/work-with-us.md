@@ -11,7 +11,7 @@ Because [87% of large government IT projects don't succeed](https://derisking-gu
 {% endcapture %}
 
 {% capture ask-qs %}
-## Service Offerings
+## Service offerings
 
 18F supports you with a custom team of designers, engineers, product managers, and procurement specialists. In each engagement, we take the time to understand your mission and the challenges you confront. Then, we draw from our expertise to create practical solutions to deliver the best outcomes for you and the people you serve.
 We partner with government agencies to:
