@@ -12,6 +12,8 @@ lead: Navigate your next technology acquisition with a team of government procur
 |1 year <br>$2M|We will support you through issuance of the package, and potentially to award, based on your contracting office’s timelines|
 |2 years <br>$3M+|Full cycle; we will support you through issuance, award, onboarding, and post award management|
 
+We can work with your contracting office or we can buy your solution through GSA's own contracting shop. Costs vary based on timelines and acquisition needs, so please contact us for more information. The previous chart illustrates what you’ll achieve with each level of investment.
+
 To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a>.
 
 {% endcapture %}
@@ -27,8 +29,6 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 <section class="usa-section section-padding-6">
 <div class="grid-container">
   <div>
-    <p class="width-tablet">We can work with your contracting office or we can buy your solution through GSA's own contracting shop. Costs vary based on timelines and acquisition needs, so please contact us for more information. The chart below illustrates what you’ll achieve with each level of investment.
-    </p>
     {{ body | markdownify}}
   </div>
 </div>
