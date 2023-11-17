@@ -27,10 +27,10 @@ The following table is a rough estimate of resources for the kinds of projects w
 
 | Offering      | Benefits  | Approx Resources |
 | ----------- | ----------- | ----------- |
-|Strategy Development   | Evaluate your options to get actionable recommendations to achieve your goals.  | 3 months   $400k|
-|Vendor Acquisition Support   |Learn what you need to buy and get help issuing and managing a procurement, from RFI to award.   | 1 year    $3M||
-|Website Modernization  | Reimagine your complete website experience. Prototype, implement improvements, and get the tools and coaching to manage your new site.  |6 months $1M  |
-|Digital Service Transformation  |Research, prototype, launch, and manage your digital products from start to finish. Get support and coaching on how to continually improve upon your success.   | 2.5 years $6M|
+|[Strategy Development]({{ site.baseurl }}/strategy-development/)   | Evaluate your options to get actionable recommendations to achieve your goals.  | 3 months   $400k|
+|[Vendor Acquisition Support]({{ site.baseurl }}/vendor-acquisition-support/)   |Learn what you need to buy and get help issuing and managing a procurement, from RFI to award.   | 1 year    $3M|
+|[Website Modernization]({{ site.baseurl }}/website-modernization/)  | Reimagine your complete website experience. Prototype, implement improvements, and get the tools and coaching to manage your new site.  |6 months $1M  |
+|[Digital Service Transformation]({{ site.baseurl }}/digital-service-transformation/)  |Research, prototype, launch, and manage your digital products from start to finish. Get support and coaching on how to continually improve upon your success.   | 2.5 years $6M|
 
 
 To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a> and tell us what your needs are.

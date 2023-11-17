@@ -5,7 +5,6 @@ lead: Navigate your next technology acquisition with a team of government procur
 ---
 
 {% capture body %}
-We can work with your contracting office or we can buy your solution through GSA's own contracting shop. Costs vary based on timelines and acquisition needs, so please contact us for more information. The chart below illustrates what you’ll achieve with each level of investment.
 
 |Approximate Investment |Outcomes |
 |---|---|
@@ -28,7 +27,9 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 <section class="usa-section section-padding-6">
 <div class="grid-container">
   <div>
+    <p class="width-tablet">We can work with your contracting office or we can buy your solution through GSA's own contracting shop. Costs vary based on timelines and acquisition needs, so please contact us for more information. The chart below illustrates what you’ll achieve with each level of investment.
+    </p>
     {{ body | markdownify}}
   </div>
 </div>
-</section
+</section>

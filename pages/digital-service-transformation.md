@@ -1,5 +1,5 @@
 ---
-title: 18F
+title: 18F digital service transformation
 permalink: /digital-service-transformation/
 lead: Our Digital Service Transformation team partners with you to discover, design, build, and continually improve on your digital services. We will build the right systems to support your work and to excel at your service goals, and grow your capacity along the way so you are empowered to continue to evolve your services to meet changing needs.
 ---
@@ -35,4 +35,4 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
     {{ body | markdownify}}
   </div>
 </div>
-</section
+</section>
