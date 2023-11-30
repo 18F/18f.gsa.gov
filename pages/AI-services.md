@@ -10,7 +10,7 @@ Duration: 3 months
 
 At 18F, we understand the transformative power of Artificial Intelligence (AI) and its potential to revolutionize the way federal agencies operate and serve the public. Our AI teams are composed of federal employees who can help you make sense of your data and build a foundation for developing AI services.
 
-### How We Support Your AI Goals
+### How we support your AI goals
 Unlock data science and machine learning capabilities through actionable paths to improve data discovery.
 Build an AI foundation through data collection and dissemination strategy.
 
