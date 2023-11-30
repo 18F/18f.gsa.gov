@@ -1,37 +1,30 @@
 ---
 title: 18F AI Services
 permalink: /AI-services/
-lead: Emerging technology projects can go wrong fast when they become a solution in search of a problem. You may spend a lot of money on new tools only to find out they aren't the right tools for the right purpose, you won't have much to show for it. That is why 18F starts with your mission and objectives and helps you identify the emerging technologies that are going to help you achieve your goals.
-hide_footer_rule: true
+lead: Make the most of emergent technologies to best serve those who depend on your mission. 18F supports you with a custom team of designers, engineers, product managers, and procurement specialists. We are federal employees who help you deliver on your mission.
 ---
 {% capture body %}
-## Embark on your AI journey
-Emerging technology projects can go wrong fast when they become a solution in search of a problem. You may spend a lot of money on new tools only to find out they aren't the right tools for the right purpose, you won't have much to show for it. That is why 18F starts with your mission and objectives and helps you identify the emerging technologies that are going to help you achieve your goals.
+## Building a foundation for AI
+Investment: $400k
+Duration: 3 months
 
-How we support your AI initiatives:
-### Use case identification
-We collaborate with you to pinpoint the most impactful applications for AI within your agency. Then we work with you to strategically pilot your new AI projects. Because we look at your success holistically, this approach combines research, implementation and change management.
-### Infrastructure recommendations
-Our team provides tailored advice on enhancing your infrastructure to support AI and data science initiatives. Having the right tools and data governance is an important first step toward implementing AI and next generation solutions.
-### AI maturity assessment
-We evaluate your current AI capabilities and offer insights to advance your maturity in the AI space. We make customized recommendations to identify new opportunities and mitigate risks.
-### Responsible AI practices
-We research and establish best practices for ethical AI usage, ensuring your AI solutions are developed with integrity. Our subject matter experts can help you codify best practices to accelerate responsible adoption of AI technologies.
+At 18F, we understand the transformative power of Artificial Intelligence (AI) and its potential to revolutionize the way federal agencies operate and serve the public. Our AI teams are composed of federal employees who can help you make sense of your data and build a foundation for developing AI services.
 
-## Learn more
-In partnership with the 18F, your agency can not only embrace AI innovation but will do so with a clear vision and strategy. Together, we will ensure that your AI initiatives lead to meaningful outcomes for your mission and the public.
+### How we support your AI goals
+Unlock data science and machine learning capabilities through actionable paths to improve data discovery.
+Build an AI foundation through data collection and dissemination strategy.
 
-Learn if 18F AI services are right for you by emailing us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a>.
+Provides tailored advice on enhancing your infrastructure to support AI and data science initiatives.
+
+The path to integrating AI should not be paved with aimless investments in new technologies. Without a clear mission alignment, such projects risk becoming costly endeavors with little return. That's why 18F's approach begins with your agency's mission and objectives at the forefront. We help you assess and select the emerging technologies that will truly propel you toward your goals. Together, we will ensure that your AI initiatives lead to meaningful outcomes for your mission and the public.
+
+Take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a>.
 {% endcapture %}
 
-<section class="usa-section bg-base-lightest section-padding-6">
+<section class="usa-section section-padding-6">
 <div class="grid-container">
-  <div class="grid-row">
-    <div class="grid-col">
-      <div class="tablet-lg:grid-col-7">
-        {{ body | markdownify}}
-      </div>
-    </div>
+  <div>
+    {{ body | markdownify}}
   </div>
 </div>
-</section>
+</section
