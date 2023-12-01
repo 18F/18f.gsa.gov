@@ -27,4 +27,4 @@ Take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries1
     {{ body | markdownify}}
   </div>
 </div>
-</section
+</section>
