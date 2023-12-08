@@ -11,13 +11,13 @@
     dark: "/assets/img/guides/agile-darker.svg"
 
 - name: "Content"
-  link: "https://content-guide.18f.gov"
+  link: "https://guides.18f.gov/content-guide/"
   image:
     light: "/assets/img/guides/content-lightest.svg"
     dark: "/assets/img/guides/content-darker.svg"
 
 - name: "De-risking"
-  link: "https://derisking-guide.18f.gov"
+  link: "https://guides.18f.gov/derisking/"
   image:
     light: ""
     dark: "/assets/img/guides/derisking-darker.svg"
@@ -41,7 +41,7 @@
     dark: "/assets/img/guides/product-darker.svg"
 
 - name: "User Experience"
-  link: "https://ux-guide.18f.gov"
+  link: "https://guides.18f.gov/ux-guide/"
   image:
     light: "/assets/img/guides/ux-lightest.svg"
     dark: "/assets/img/guides/ux-darker.svg"
