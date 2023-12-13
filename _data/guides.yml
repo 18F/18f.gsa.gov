@@ -1,5 +1,5 @@
 - name: "Accessibility"
-  link: "https://accessibility.18f.gov"
+  link: "https://guides.18f.gov/accessibility"
   image:
     light: "/assets/img/guides/accessibility-lightest.svg"
     dark: "/assets/img/guides/accessibility-darker.svg"
@@ -29,13 +29,13 @@
     dark: "/assets/img/guides/design-methods-darker.svg"
 
 - name: "Engineering"
-  link: "https://engineering.18f.gov"
+  link: "https://guides.18f.gov/engineering"
   image:
     light: ""
     dark: "/assets/img/guides/engineering-darker.svg"
 
 - name: "Product"
-  link: "https://product-guide.18f.gov"
+  link: "https://guides.18f.gov/product"
   image:
     light: "/assets/img/guides/product-lightest.svg"
     dark: "/assets/img/guides/product-darker.svg"
