@@ -25,12 +25,12 @@ In each engagement, we take the time to understand your mission and the challeng
 
 The following table is a rough estimate of resources for the kinds of projects we engage in. We can customize our support to help wherever you are in the process of transforming your digital services.
 
-| Offering      | Benefits  | Approx Resources |
+| Offering      | Benefits  | Approx time |
 | ----------- | ----------- | ----------- |
-|[Strategy Development]({{ site.baseurl }}/strategy-development/)   | Evaluate your options to get actionable recommendations to achieve your goals.  | 3 months   $400k|
-|[Vendor Acquisition Support]({{ site.baseurl }}/vendor-acquisition-support/)   |Learn what you need to buy and get help issuing and managing a procurement, from RFI to award.   | 1 year    $3M|
-|[Website Modernization]({{ site.baseurl }}/website-modernization/)  | Reimagine your complete website experience. Prototype, implement improvements, and get the tools and coaching to manage your new site.  |6 months $1M  |
-|[Digital Service Transformation]({{ site.baseurl }}/digital-service-transformation/)  |Research, prototype, launch, and manage your digital products from start to finish. Get support and coaching on how to continually improve upon your success.   | 2.5 years $6M|
+|[Strategy Development]({{ site.baseurl }}/strategy-development/)   | Evaluate your options to get actionable recommendations to achieve your goals.  | 3 months  |
+|[Vendor Acquisition Support]({{ site.baseurl }}/vendor-acquisition-support/)   |Learn what you need to buy and get help issuing and managing a procurement, from RFI to award.   |6 months - 1.5 years|
+|[Website Modernization]({{ site.baseurl }}/website-modernization/)  | Reimagine your complete website experience. Prototype, implement improvements, and get the tools and coaching to manage your new site.  |3 months - 1 year  |
+|[Digital Service Transformation]({{ site.baseurl }}/digital-service-transformation/)  |Research, prototype, launch, and manage your digital products from start to finish. Get support and coaching on how to continually improve upon your success.   | 2.5 years|
 
 
 To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiries18F@gsa.gov</a> and tell us what your needs are.
