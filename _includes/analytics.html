@@ -1,6 +1,12 @@
 {% if site.google_analytics_ua %}
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBYXWFP794"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-HBYXWFP794'); </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_ua }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics_ua }}', { 'anonymize_ip': true });
+</script>
 {% endif %}
 
 {% if site.dap_agency %}
