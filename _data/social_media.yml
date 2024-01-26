@@ -1,5 +1,5 @@
-- platform: "Github"
-  link: "https://github.com/18F" 
+- platform: "GitHub"
+  link: "https://github.com/18F"
   image:
     light: "/assets/img/social-icons/svg/github-lightest.svg"
     dark: "/assets/img/social-icons/svg/github-darkest.svg"
