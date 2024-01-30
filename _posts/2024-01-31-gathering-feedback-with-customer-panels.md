@@ -46,11 +46,6 @@ From the memo [Social Media Guidance](https://www.whitehouse.gov/wp-content/uplo
 
 _Under existing OMB policy, agency uses of general or undifferentiated “suggestion boxes” are not covered by the PRA. Similarly, an agency does not trigger the PRA’s requirements when it posts its email address or uses an application for brainstorming or idea generating on its website to enable the public to submit feedback. However, if an agency requests information from respondents beyond name and email or mailing address (e.g., age, sex, race/ethnicity, employment, or citizenship status), this request is covered by the PRA because it seeks information beyond what is “necessary” for self-identification of the respondent._
 
-<div class="testimonial-blockquote" markdown=1>
-Getting feedback from real users is critical to building the right thing. By creating a customer panel, we’ve been able to hear from users shortly after they complete their first use of our product, and that’s produced some really useful insights as we build new features.
-<span>–Cameron Dixon, CISA</span>
-</div>
-
 ## Outcomes
 
 We conducted two rounds of tests on [our MVP](https://beta.get.gov/) of get.gov and the new application process. Participants recruited through the current site were especially crucial in giving feedback to the team, helping us to measure value added against the current site. 
@@ -60,6 +55,10 @@ Thanks to the panel, we were able to:
 - Make usability updates to the design system and form functionality
 - Generate ideas for future features around domain management and updates
 
+<div class="testimonial-blockquote" markdown=1>
+Getting feedback from real users is critical to building the right thing. By creating a customer panel, we’ve been able to hear from users shortly after they complete their first use of our product, and that’s produced some really useful insights as we build new features.
+<span>–Cameron Dixon, CISA</span>
+</div>
 
 ## Key points when considering a customer panel
 
