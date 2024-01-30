@@ -40,16 +40,16 @@ Current users of the service receive an email notifying them when their request 
 
 Asking participants if they’d like to provide feedback does not necessarily initiate the need for the Paperwork Reduction Act (PRA). If the call for feedback is open-ended and asks for no information to schedule a session other than a name or email address, it falls under the Social Media Guidance memo from 2010.
 
-From the memo [Social Media Guidance](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf), dated 4/7/2010.
+From the memo [Social Media Guidance](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf), dated 4/7/2010:
 
 **_Feedback requests._**
 
 _Under existing OMB policy, agency uses of general or undifferentiated “suggestion boxes” are not covered by the PRA. Similarly, an agency does not trigger the PRA’s requirements when it posts its email address or uses an application for brainstorming or idea generating on its website to enable the public to submit feedback. However, if an agency requests information from respondents beyond name and email or mailing address (e.g., age, sex, race/ethnicity, employment, or citizenship status), this request is covered by the PRA because it seeks information beyond what is “necessary” for self-identification of the respondent._
 
-## Partner quote
-
-“Getting feedback from real users is critical to building the right thing. By creating a customer panel, we’ve been able to hear from users shortly after they complete their first use of our product, and that’s produced some really useful insights as we build new features.”  
-- Cameron Dixon (CISA)
+<div class="testimonial-blockquote" markdown=1>
+Getting feedback from real users is critical to building the right thing. By creating a customer panel, we’ve been able to hear from users shortly after they complete their first use of our product, and that’s produced some really useful insights as we build new features.
+<span>–Cameron Dixon, CISA</span>
+</div>
 
 ## Outcomes
 
