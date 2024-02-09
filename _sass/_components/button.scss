@@ -32,6 +32,10 @@
     &:hover {
       color: color('primary-darkest');
     }
+
+    &:visited {
+      color: initial; 
+    }
   }
 }
 
