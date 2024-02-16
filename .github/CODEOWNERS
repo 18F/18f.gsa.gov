@@ -1,0 +1,14 @@
+# This file defines what approvals are needed to update both code and content.
+#
+# GitHub will automatically tag these people for review when anyone opens a pull request,
+# so no need to use this file directly unless you are updating it.
+#
+# Unless another rule applies below, request review from someone on the TLC crew. The pull request
+# template has instructions about when to tag in the leadership team Outreach POC.
+* @18F/18f-tlc-crew
+
+# The pull request template and CODEOWNERS files should be reviewed by the leadership team
+# Outreach POC; placed at the end of the file to ensure they are not overridden by another rule.
+/.github/pull_request_template.md @quarterback
+/.github/CODEOWNERS @quarterback
+
