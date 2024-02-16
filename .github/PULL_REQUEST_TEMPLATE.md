@@ -6,8 +6,9 @@
 
 ## Reminder - please do the following before assigning reviewer
 
-- [ ] update readme
+- [ ] Update readme
 - [ ] For frontend changes, ensure design review
+- [ ] For content changes beyond typos, add Ron Bronson as a reviewer
 
 And make sure that automated checks are ok
 
@@ -15,3 +16,5 @@ And make sure that automated checks are ok
 - ensure tests pass
 - federalist builds
 - no new SNYK vulnerabilities are introdcued
+
+
