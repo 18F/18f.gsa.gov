@@ -48,7 +48,7 @@ As much as possible, QASP deliverables should be objectively measurable by autom
 - Count of security scan findings
 - Whether the application can be automatically deployed or not
 
-Of course, nothing can be fully automated, so there will be some subjective measures. This is true both in support of objective measures and as separate deliverables. Generally, objective and subjective measures work together to provide both qualitatitave and quantitative data, giving you a fuller picture. Some examples of important measures that are still subjective are:
+Of course, nothing can be fully automated, so there will be some subjective measures. This is true both in support of objective measures and as separate deliverables. Generally, objective and subjective measures work together to provide both qualitative and quantitative data, giving you a fuller picture. Some examples of important measures that are still subjective are:
 
 - The team is meaningfully testing their code. Tests are meaningful when they accurately exercise the behavior of the code that is being tested. Tests would fail this measure if they are written in a way that they are guaranteed to pass no matter what the code does.
 - The team is conducting usability testing and user research and results are incorporated into the product.
@@ -67,7 +67,7 @@ Because the project’s priorities will shift over time, an agency technical lea
 
 Faster feedback means higher confidence and faster improvements. Automated scans and tests provide feedback to the development team every time code is pushed to the repository. This rapid feedback makes it easier to meet the QASP, reduces the time a manual review takes to complete, and reduces the back-and-forth during the manual review.
 
-Manual reviews should be completed at the fastest pace possible. This may be per-feature or per-sprint; each has its benefits:
+Manual reviews should be completed at the fastest pace possible. This may be per feature or per sprint; each has its benefits:
 
 - Reviewing feature branches as they are merged into main means more reviews, but each one is more focused and has a smaller scope, which makes it easier to identify issues as well as celebrate improvements.
 - Reviewing all of the code a team completes every two weeks is much more difficult to do, but has the advantage of happening on a regular schedule.
@@ -97,7 +97,7 @@ When balancing time versus quality, focusing on the work that's most valuable to
 
 - Match up with product roadmap and prioritization
 - Use plain language to ensure understanding of specialized concepts across the whole team
-- Don’t overfocus on rigid adherence when that’s not helpful
+- Don’t over-focus on rigid adherence when that’s not helpful
 
 For instance, at the beginning of a process, the team will need to build out the continuous integration / continuous deployment (CI/CD) pipeline that is responsible for automated tests and scans. You'll need to select and align on standards, such as the linting rules to be used. As a result, it’s not possible to be fully in compliance with the QASP until that work is complete. For this kickoff stage, feel comfortable postponing aspects of the QASP as long as there are known paths to getting to compliance.
 
@@ -109,4 +109,4 @@ Who enforces the QASP? You do, and you’ll be good at it. Ideally, you have fam
 
 Please see the [The 18F De-risking Guide](https://derisking-guide.18f.gov/federal-field-guide/doing-the-work/#monitor-conformance-with-the-qasp-at-the-end-of-every-sprint) for more information about the quality assurance process, as well as a [sample QASP](https://derisking-guide.18f.gov/qasp/).
 
-_Thank you to Alex Bielen, Andrew Dunkman, Laura Gerhardt, Mark Hopson, and Matt Jadud for their insight and guidance in writing this blogpost._
+_Thank you to Alex Bielen, Andrew Dunkman, Laura Gerhardt, Mark Hopson, and Matt Jadud for their insight and guidance in writing this blog post._

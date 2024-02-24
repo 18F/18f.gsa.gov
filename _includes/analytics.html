@@ -5,9 +5,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-
-  // `forceSSL` was used for analytics.js (the older Google Analytics script). It isn't documented for gtag.js, but the term occurs in the gtag.js code; figure it doesn't hurt to leave it in. -@afeld, 5/29/19
-  gtag('config', '{{ site.google_analytics_ua }}', { 'anonymize_ip': true, 'forceSSL': true });
+  gtag('config', '{{ site.google_analytics_ua }}', { 'anonymize_ip': true });
 </script>
 {% endif %}
 
