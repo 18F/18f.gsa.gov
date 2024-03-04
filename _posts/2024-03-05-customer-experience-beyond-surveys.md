@@ -31,7 +31,7 @@ This is one of the most important questions to ask yourself and your team. Measu
 ## Who are your users?
 Next, identify which users you want to learn from. Try to add at least some level of specificity. “Members of the public” or “agency employees” may be too broad. “Members of the public who applied for benefits in 2024”, “taxpayers who are eligible but not enrolled in this program”, or “agency employees who processed permits in the last quarter” can help you make more informed decisions and more easily target these users during recruitment. 
 
-This Mad Libs-style thought starter can help you hone in on your own audience: [user type] who [have completed an action or fit certain criteria] within [timeframe]
+This Mad Libs-style thought starter can help you hone in on your own audience: `[user type] who [have completed an action or fit certain criteria] within [timeframe]`
 
 A key aspect of customer experience is considering not just end users but agency employees or other stakeholders who administer or support your government program.
 Also, keep accessibility and underserved communities in mind throughout this process so you can provide an equitable customer experience. Later in this exercise, as you plan out what method(s) you’ll use to learn from users, you should consider ways to reach people with disabilities or whose first language is not English, like including multilingual content, involving interpreters in interviews, or ensuring a screen reader can access your survey.
