@@ -80,5 +80,5 @@ Here are other resources on learning about your users based on different methods
  - [Touchpoints](https://touchpoints.digital.gov/)
 
 ### Analytics
- - [Web analytics playbook](https://digital.gov/guides/web-analytics-playbook/)https://digital.gov/guides/web-analytics-playbook/
+ - [Web analytics playbook](https://digital.gov/guides/web-analytics-playbook/)
 
