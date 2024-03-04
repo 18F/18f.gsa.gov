@@ -8,7 +8,7 @@ tags:
   - join us
   - culture
   - how we work
-  - user centered design
+  - user-centered design
 excerpt: >
   We asked our design team what they learned in 2022, and what they are looking forward to in 2023. Here’s what some of our team members had to say.
 ---
