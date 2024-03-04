@@ -23,7 +23,7 @@
     dark: "/assets/img/guides/derisking-darker.svg"
 
 - name: "Design Methods"
-  link: "https://methods.18f.gov"
+  link: "https://guides.18f.gov/methods/"
   image:
     light: ""
     dark: "/assets/img/guides/design-methods-darker.svg"
