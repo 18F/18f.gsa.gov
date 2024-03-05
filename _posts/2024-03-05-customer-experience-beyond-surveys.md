@@ -48,7 +48,7 @@ Then brainstorm what sources or methods make sense for collecting this informati
 
 Find inspiration for different methods by reviewing [18F’s Methods cards](https://guides.18f.gov/methods/).
 
-## Choose your method
+## What method(s) should you choose?
 As you choose a method or set of methods with your team, consider risks, limitations, and constraints, like timeline, budget, or administrative burden on the public. 
 
 Also be mindful of any tradeoffs that come with each method you’ve brainstormed. For example, it is easy to over-index on survey scores like [Customer Satisfaction Score (CSAT)](https://digital.gov/2016/08/05/csat-nps-ces-3-easy-ways-to-measure-customer-experience-cx/). They have neat and tidy numbers and are easy to show on a slide deck, but they don’t provide context.  
