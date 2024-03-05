@@ -69,16 +69,16 @@ Finally, after aligning with your team and going through any other steps to prep
 
 Here are other resources on learning about your users based on different methods:
 
-### User interviews
+**User interviews**
  - [18F’s UX Guide](https://guides.18f.gov/ux-guide/research/plan/)
  - [Recruiting customers with feedback panels](https://18f.gsa.gov/2024/02/01/gathering-feedback-with-customer-panels/)
 
-### Usability testing
+**Usability testing**
  - [18F Methods card on usability testing](https://guides.18f.gov/methods/validate/usability-testing/)
 
-### Surveys
+**Surveys**
  - [Touchpoints](https://touchpoints.digital.gov/)
 
-### Analytics
+**Analytics**
  - [Web analytics playbook](https://digital.gov/guides/web-analytics-playbook/)
 
