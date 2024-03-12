@@ -27,9 +27,7 @@ The Cybersecurity and Infrastructure Security Agency (CISA) .gov registry manage
 
 **Transparency**: The registrar we developed is open source. [Follow the work on GitHub](https://github.com/cisagov/manage.get.gov).
 
-**Agile development**: We practiced agile development to continually improve our product. We operated on a two-week sprint cycle. We released improvements to production a few times per week. We conducted sprint planning, retros, and backlog refinement sessions. 
-
-We acquired the services of an excellent, agile software development team to work with an existing federal team. The vendor team worked in an incremental manner and delivered solid code that served user needs.
+**Agile development**: We practiced agile development to continually improve our product. We operated on a two-week sprint cycle. We released improvements to production a few times per week. We conducted sprint planning, retros, and backlog refinement sessions.
 
 **Empowered product owner**: Our federal product owner had the authority to speak for the .gov program, communicate directly with users, make decisions, prioritize, assign work, and hire staff. 
 
@@ -43,4 +41,4 @@ We acquired the services of an excellent, agile software development team to wor
 
 **Support for the .gov team**: We built and launched an internal system for .gov analysts to manage domain requests and support domain managers.
 
-**Federal/vendor agile development team**: We built a user-centered, agile, cross-disciplinary team that included federal government and vendor staff.
+**Federal/vendor agile development team**: We acquired the services of an excellent, agile software development team to work with the federal team. Together we built a user-centered, agile, cross-disciplinary team.
