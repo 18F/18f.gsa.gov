@@ -4,7 +4,7 @@ title: Build a better way to request and manage .gov domains
 subtitle: 
 permalink: /our-work/cisa-get-gov/
 excerpt: We made it easier for eligible government organizations to request and manage .gov domains. 
-image: /assets/img/logos/agencies/cisa-getgov.svg
+image: /assets/img/logos/agencies/cisa-getgov.png
 image_accessibility: Screenshot of the get.gov homepage
 image_icon:
 project_weight: 8
