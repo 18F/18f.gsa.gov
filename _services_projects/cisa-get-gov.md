@@ -13,9 +13,11 @@ expiration_date:
 github_repo:
   - "[Project repository for the .gov registrar](https://github.com/cisagov/manage.get.gov)"
   - "[Project repository for the get.gov website](https://github.com/cisagov/get.gov)"
-Project_url: https://get.gov/
+project_url: "[get.gov](https://get.gov/)"
 learn_more:
 product_clients:
+resources:
+
 ---
 The Cybersecurity and Infrastructure Security Agency (CISA) .gov registry manages the .gov top-level domain. Together we built a new way to request and manage .gov domains. The project included three phases and went from discovery to build to launch. 
 
