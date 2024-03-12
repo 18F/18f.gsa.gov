@@ -43,4 +43,4 @@ We acquired the services of an excellent, agile software development team to wor
 
 **Support for the .gov team**: We built and launched an internal system for .gov analysts to manage domain requests and support domain managers.
 
-**Agile development**: We built a user-centered, agile, cross-disciplinary team that included federal government and vendor staff.
+**Federal/vendor agile development team**: We built a user-centered, agile, cross-disciplinary team that included federal government and vendor staff.
