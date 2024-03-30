@@ -13,33 +13,39 @@ image_side - if set to "right" will place the image on the right side of the car
 image_size - if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
 {% endcomment %}
 
-<div href="{{include.link_url}}" 
-   class="card-with-image {%- if include.card_color == "dark" %} card-with-image--dark {% endif %}"
->
-<div class="display-flex flex-align-center {%- if include.image_side == "right" %} flex-justify {% endif %} height-full padding-4 radius-lg">
+<div class="card-with-image-guides display-flex flex-column radius-lg minh-card-lg">
 
-  {% capture card_image %}
-  <img src="{{ site.baseurl }}{{include.image_path}}" 
-       class="{%- if include.image_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless include.image_side == "right" %} margin-right-2 {% endunless %}"
-       alt="{{- include.image_alt_text -}}"
-  >
-  {% endcapture %}
-
-  {% capture card_text %}
-  <p class="font-sans-lg margin-y-0 text-no-underline">{{ include.text_content }}</p>  
-  {% endcapture %}
-
-{% if include.image_side == "right" %}
-  {{ card_text }}
-  {{ card_image }}
-{% else %}
-  {{ card_image }}
-  {{ card_text }}
-{% endif %}
-
+  {% if include.hero_url %}
+  <!-- <div style="background-image: url({{include.hero_url}}); background-size:cover; background-position:center; min-height:300px; border-top-left-radius:inherit; border-top-right-radius: inherit;"></div>  -->
+  <div class="padding-4 display-flex flex-column bg-primary-dark" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
+    <img class="flex-align-self-center" src="{{ site.baseurl }}{{include.hero_url}}">
   </div>
-  <div>
-    <p class="font-sans-lg margin-y-0 text-no-underline">{{ include.text_descrip }}</p>
-    <a href="{{include.link_url}}">Read {{include.text_link}} guide</a>
-  </div>
+  {% endif %}
+
+  <div class="padding-4 display-flex flex-column minh-card-lg">
+    <div class="margin-bottom-2 display-flex {%- if include.image_side == "right" %} flex-justify {% endif %} height-full">
+
+      {% capture card_image %}
+      <img src="{{ site.baseurl }}{{include.image_path}}" 
+          class="{%- if include.image_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless include.image_side == "right" %} margin-right-2 {% endunless %}"
+          alt="{{- include.image_alt_text -}}"
+      >
+      {% endcapture %}
+
+      {% capture card_text %}
+      <a href="{{include.link_url}}" class="text-no-underline"><h3 class="text-bold margin-y-0">{{ include.text_content }}</h3></a>
+      {% endcapture %}
+
+    {% if include.image_side == "right" %}
+      {{ card_text }}
+      {{ card_image }}
+    {% else %}
+      {{ card_image }}
+      {{ card_text }}
+    {% endif %}
+
+    </div>
+  
+    <p class="font-sans-md margin-y-0 text-no-underline">{{ include.text_descrip }}</p>
+    <a href="{{include.link_url}}" class="text-bold flex-align-end">Read <span class="text-lowercase">{{ include.text_content }}</span> guide</a>  </div>
 </div>

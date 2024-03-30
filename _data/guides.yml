@@ -1,63 +1,73 @@
+#"important" is being used for layout field, only two guides should be set to important=true
+
 - name: "Accessibility"
   link: "https://guides.18f.gov/accessibility"
   description: "Make websites more accessible so everyone can use them."
-  read-link-name: "accessibility"
+  important: false
   image:
     light: "/assets/img/guides/accessibility-lightest.svg"
     dark: "/assets/img/guides/accessibility-darker.svg"
+    hero: ""
 
 - name: "Agile"
   link: "https://guides.18f.gov/agile/"
   description: "Move toward an agile approach to stay within budget and provide value to the public."
-  read-link-name: "agile"
+  important: false
   image:
     light: "/assets/img/guides/agile-lightest.svg"
     dark: "/assets/img/guides/agile-darker.svg"
+    hero: ""
 
 - name: "Content"
   link: "https://guides.18f.gov/content-guide/"
   description: "Create content in plain language to help the public save time and build trust."
-  read-link-name: "content"
+  important: false
   image:
     light: "/assets/img/guides/content-lightest.svg"
     dark: "/assets/img/guides/content-darker.svg"
+    hero: ""
 
 - name: "Derisking"
   link: "https://guides.18f.gov/derisking/"
   description: "Save millions of dollars and reduce risk in your technology projects."
-  read-link-name: "derisking"
+  important: true
   image:
     light: ""
     dark: "/assets/img/guides/derisking-darker.svg"
+    hero: "/assets/img/guides/derisking-hero.svg"
 
 - name: "Design Methods"
   link: "https://guides.18f.gov/methods/"
   description: "Involve the people who will use your service in the design process."
-  read-link-name: "design methods"
+  important: true
   image:
     light: ""
     dark: "/assets/img/guides/design-methods-darker.svg"
+    hero: "/assets/img/guides/design-methods-hero.svg"
 
 - name: "Engineering"
   link: "https://guides.18f.gov/engineering"
   description: "Develop secure software in the cloud, which can reduce costs and scale to meet public need."
-  read-link-name: "engineering"
+  important: false
   image:
     light: ""
     dark: "/assets/img/guides/engineering-darker.svg"
+    hero: ""
 
 - name: "Product"
   link: "https://guides.18f.gov/product"
   description: "Support a team to deliver the right product to the right audience."
-  read-link-name: "product"
+  important: false
   image:
     light: "/assets/img/guides/product-lightest.svg"
     dark: "/assets/img/guides/product-darker.svg"
+    hero: ""
 
 - name: "User Experience"
   link: "https://guides.18f.gov/ux-guide/"
   description: "Make your products and services work for the people that use them."
-  read-link-name: "UX"
+  important: false
   image:
     light: "/assets/img/guides/ux-lightest.svg"
     dark: "/assets/img/guides/ux-darker.svg"
+    hero: ""

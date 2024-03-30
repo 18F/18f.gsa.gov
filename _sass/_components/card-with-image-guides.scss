@@ -1,0 +1,16 @@
+@use 'uswds-core' as *;
+@use 'variables.scss' as *;
+
+.card-with-image-guides {
+
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  background-color: white;
+  border-radius: radius-lg;
+  flex-grow: 0;
+}
+
+.card-with-image-guides p{
+  text-wrap: pretty;
+  flex-grow: 1;
+}

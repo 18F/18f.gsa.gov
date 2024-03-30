@@ -23,17 +23,35 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
       </div>
     </div>
     <div class="grid-row grid-gap margin-top-5">
+    
       {% for guide in site.data.guides %}
-        <div class="tablet:grid-col-6 margin-bottom-5">
-          {% include card-with-image-guides.html 
-             text_content=guide.name
-             text_descrip=guide.description
-             text_link=guide.read-link-name
-             link_url=guide.link
-             image_path=guide.image.dark
-             image_side="right"
-          %}
-        </div>
+        {% if guide.important == true %}
+          <div class="tablet:grid-col-6 margin-bottom-5">
+            {% include card-with-image-guides.html 
+              text_content=guide.name
+              text_descrip=guide.description
+              link_url=guide.link
+              image_path=guide.image.dark
+              image_side="right"
+              hero_url=guide.image.hero
+            %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="grid-row grid-gap margin-top-2 display-flex flex-row">
+      {% for guide in site.data.guides %}
+        {% if guide.important == false %}
+          <div class="tablet:grid-col-4 margin-bottom-5">
+            {% include card-with-image-guides.html 
+              text_content=guide.name
+              text_descrip=guide.description
+              link_url=guide.link
+              image_path=guide.image.dark
+              image_side="right"
+            %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="grid-row">
