@@ -15,15 +15,16 @@ image_size - if set to "md" will set the max image size to 8 units. Otherwise th
 
 <div class="card-with-image-guides display-flex flex-column radius-lg minh-card-lg">
 
+  <!--The card only attempts to render a hero image (and the background color) if it has one assigned, which right now is only reserved for guides labeled "important"-->
+  <!--Using a few inline styles here to force the hero div to respect the border radii of the card, but there might be a more elegant way of doing that-->
   {% if include.hero_url %}
-  <!-- <div style="background-image: url({{include.hero_url}}); background-size:cover; background-position:center; min-height:300px; border-top-left-radius:inherit; border-top-right-radius: inherit;"></div>  -->
-  <div class="padding-4 display-flex flex-column bg-primary-dark" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
+  <div class="padding-4 display-flex flex-column bg-primary-dark hero-container" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
     <img class="flex-align-self-center" src="{{ site.baseurl }}{{include.hero_url}}">
   </div>
   {% endif %}
 
-  <div class="padding-4 display-flex flex-column minh-card-lg">
-    <div class="margin-bottom-2 display-flex {%- if include.image_side == "right" %} flex-justify {% endif %} height-full">
+  <div class="padding-4 display-flex flex-column">
+    <div class="margin-bottom-2 display-flex flex-align-center {%- if include.image_side == "right" %} flex-justify {% endif %} height-full">
 
       {% capture card_image %}
       <img src="{{ site.baseurl }}{{include.image_path}}" 
