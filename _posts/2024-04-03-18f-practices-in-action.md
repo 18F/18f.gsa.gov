@@ -10,7 +10,7 @@ tags:
 - 18f
 - how we work
 excerpt: >
- How well do 18F software development practices work? We reflected on a recent project to see how well 18F recommendations aligned with what we actually did. 
+ Do 18F software development principles really work? We reflected on a recent project to see how well 18F recommendations aligned with what we actually did. 
 ---
 
 18F just completed a successful two-year partnership with the Cybersecurity and Infrastructure Security Agency (CISA) [.gov registry](https://get.gov/about/). Together with an excellent vendor team, we built a [new way to request and manage .gov domains](https://get.gov/posts/2024-01-31-new-way-to-get-a-.gov/). The project included three phases: discovery, build, and launch. Because 18F so rarely works on a project all the way from discovery through to a public launch, this is a great opportunity to examine how well the CISA project aligned with [software development practices recommended by 18F](https://guides.18f.gov/derisking/federal-field-guide/basic-principles/). 
