@@ -1,4 +1,4 @@
-#"important" is being used for layout field, only two guides should be set to important=true
+#"promoted" is being used for layout, and per the design, it should only be set to true for two guides at a time
 
 - name: "Accessibility"
   link: "https://guides.18f.gov/accessibility"

@@ -1,16 +1,22 @@
 {% comment %}
-This partial outputs a card with image and text. The whole card is a clickable link. 
+This partial outputs a card with a heading, icon, descriptive text, a link, and, optionally, a hero image. 
+It was spun off from the "card-with-image" partial to accomodate the unique needs of the guides index page. 
+The whole card is no longer a clickable link. In the future, these might be condensed back down 
+into a single partial and class, but it will probably require some more conditional statements 
+because the behaviors are so different. 
 
 The expected arguments for this partial are:
-link_url - the url the card will link to (href)
+link_url - the url the links on the card will link to (href)
 image_path - the path to the image, note that the partial will prepend the site baseurl
-text_content - the text to be displayed next to the image
+text_content - the text to be displayed next to the image; the guide name
+text_descrip - the longer description to be displayed under the card heading
 
 Optional arguments:
 card_color - if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
 image_alt_text - will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
 image_side - if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
 image_size - if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+hero.url - for guides where "promoted" = true, this will be the hero image for the card.
 {% endcomment %}
 
 <div class="card-with-image-guides display-flex flex-column radius-lg minh-card-lg">
