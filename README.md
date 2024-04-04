@@ -129,6 +129,45 @@ A light card with the image on the left:
 %}
 ```
 
+### card-with-image-guides
+
+This component is a spin off of `card-with-image`, made for the unique case on `guides.html`, and outputs a card with a heading, icon, descriptive text, a link, and, optionally, a hero image. It was spun off from the "card-with-image" partial to accomodate the unique needs of the guides index page. The whole card is no longer a clickable link. In the future, these might be condensed back down into a single partial and class, but it will probably require some more conditional statements because the behaviors are so different. 
+
+**Expected arguments**:
+
+`link_url` - the url the links on the card will link to (href).
+
+`image_path` - the path to the icon. Note that the partial will prepend the site baseurl. It should start with a leading forward slash (“/”).
+
+`text_content` - the text to be displayed next to the icon; the guide name
+
+`text_descrip` - the longer description to be displayed under the card heading
+
+**Optional arguments**:
+
+`card_color` - if set to `"dark"`, will make the card background the primary-dark color. Otherwise  the background will default to a white color.
+
+`image_alt_text` - will be the alt text for the image. If this argument isn’t provided, alt text will be set to “” and screen readers will ignore the image.
+
+`image_side` - if set to `"right"`, will place the image on the right side of the card. Otherwise the image will default to the left side.
+
+`image_size` - if set to `"md"`, will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+
+`hero.url` - for guides where `promoted` == true, this will be the hero image for the card. Like the icon, the partial will prepend the site baseurl. It should start with a leading forward slash (“/”).
+
+**Example**
+A card on the guides index page that has a hero image. In the current implementation, these values are being brought in `guide.yml` as variables.
+```
+{% include card-with-image-guides.html 
+  text_content="Design Methods"
+  text_descrip="Involve the people who will use your service in the design process."
+  link_url="https://guides.18f.gov/methods/"
+  image_path="/assets/img/guides/design-methods-darker.svg"
+  image_side="right"
+  hero_url="/assets/img/guides/design-methods-hero.svg"
+%}
+```
+
 ### featured-posts
 
 This component outputs a list of blog post previews to be displayed on pages other than the blog. Each preview will take up 12 columns on mobile screens, 6 columns on tablet screens, and 4 columns on screens larger than a tablet.
