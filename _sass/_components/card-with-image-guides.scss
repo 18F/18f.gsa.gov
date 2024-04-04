@@ -8,6 +8,11 @@
   background-color: white;
   border-radius: radius-lg;
   flex-grow: 0;
+  min-height: 260px;
+}
+
+.card-content{
+  flex-grow: 1;
 }
 
 .card-with-image-guides p{
