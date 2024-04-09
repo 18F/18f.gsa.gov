@@ -21,7 +21,7 @@ resources:
 
 The Civil Rights Division (CRT) within the Department of Justice upholds the civil rights of all people in the United States. It enforces federal laws that protect people from discrimination based on race, color, national origin, disability status, sex, religion, familial status, or loss of other constitutional rights.
 
-The public reports over 100,000 possible civil rights violations to CRT each year. Filing was a confusing and inconsistent process, with more than 30 ways to report a complaint. 
+The public reports possible civil rights violations to CRT each year. Filing was a confusing and inconsistent process, with more than 30 ways to report a complaint. 
 
 CRT received reports by web, email, phone, fax, and physical letter. Most had missing or incomplete information. Staff spent most of their time processing unactionable complaints instead of supporting victims.
 
