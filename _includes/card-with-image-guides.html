@@ -25,7 +25,7 @@ hero.url - for guides where "promoted" = true, this will be the hero image for t
   <!--Using a few inline styles here to force the hero div to respect the border radii of the card, but there might be a more elegant way of doing that-->
   {% if include.hero_url %}
   <div class="padding-4 display-flex flex-column bg-primary-dark hero-container" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
-    <img class="flex-align-self-center" src="{{ site.baseurl }}{{include.hero_url}}">
+    <img class="flex-align-self-center" alt="" src="{{ site.baseurl }}{{include.hero_url}}">
   </div>
   {% endif %}
 
@@ -40,7 +40,7 @@ hero.url - for guides where "promoted" = true, this will be the hero image for t
       {% endcapture %}
 
       {% capture card_text %}
-      <a href="{{include.link_url}}" class="text-no-underline"><h3 class="text-bold margin-y-0">{{ include.text_content }}</h3></a>
+      <h3 class="text-bold margin-y-0">{{ include.text_content }}</h3>
       {% endcapture %}
 
     {% if include.image_side == "right" %}
