@@ -3,6 +3,7 @@ title: Guides
 permalink: /guides/
 layout: guides
 lead: Principles and standards that shape our work
+hide_footer_rule: true
 ---
 
 {% capture intro %}
@@ -23,7 +24,6 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
       </div>
     </div>
     <div class="grid-row grid-gap margin-top-5">
-    
       {% for guide in site.data.guides %}
         {% if guide.promoted %}
           <div class="tablet:grid-col-6 margin-bottom-5">
