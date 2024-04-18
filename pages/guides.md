@@ -51,7 +51,7 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
               image_side="right"
             %}
           </div>
-        {% endif %}
+        {% endunless %}
       {% endfor %}
     </div>
     <div class="grid-row">
