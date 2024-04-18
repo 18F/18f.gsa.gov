@@ -6,7 +6,7 @@ main:
 
 {% assign page_title = page.subnav_title | default: page.title %}
 
-{% if page.breadcrumb == true %}
+{% if page.breadcrumb %}
 {% include breadcrumb.html
   page_title=page_title
   background_class='bg-base-lightest'
