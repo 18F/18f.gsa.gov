@@ -41,7 +41,7 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
     </div>
     <div class="grid-row grid-gap margin-top-2 display-flex flex-row">
       {% for guide in site.data.guides %}
-        {% if guide.promoted == false %}
+        {% unless guide.promoted %}
           <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
             {% include card-with-image-guides.html 
               text_content=guide.name
