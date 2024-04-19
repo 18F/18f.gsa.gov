@@ -49,9 +49,9 @@ Initial thoughts:
 * **Patient and knowledgeable mentors**: Having mentors who coached me on Agile and product practices was key. Everyone learns and develops at their own pace and having support via coaching from 18F helped me build the confidence I needed to succeed. COACHING IS A MUST!
 * **Personal drive and dedication**: Having internal benchmarks/internal compass and believing in what you are doing is a must. Reassessing yourself often and ample self care is an absolute priority. In order to be successful, you need to be persistent and dedicated to learn this new craft.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 I never want to accept the status quo. How can we make anything better?
-</div>
+</blockquote>
 
 * **Trusting Agile**: Once you buy into the Agile methodology, you have to sell the rest of your team on it as well. Momentum increased as we continued to incorporate user feedback into our development. Our end users are empowered throughout the development process and now recognize the value of an Agile approach. 
 
@@ -59,9 +59,9 @@ I never want to accept the status quo. How can we make anything better?
 
 * **Decision making**: We make decisions that seem great, but then, being able to prioritize and say “no” to certain things was necessary. Retrospectives always helped us learn if a wrong decision was made so we could adjust and iterate. 
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 Get comfortable saying ‘no’
-</div>
+</blockquote>
 
 * **Empathy**: Being user centric meant we stand in the users’ shoes to understand and empathize with them. I learnt that extending empathy not just to users, but also your teams keeps teams healthy.
 * **Empowerment**: Our leadership empowered me to make decisions and helped clear roadblocks as we learned of them so I can focus on taking the product forward. Entrusting me with decision making and seeing my decisions materialize helped me gain confidence in sharpening my PO skills further. 

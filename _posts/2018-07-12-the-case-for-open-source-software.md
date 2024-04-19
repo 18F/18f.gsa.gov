@@ -22,10 +22,10 @@ computing (HPC) center to advance science and technology. Our software
 developers produce millions of lines of code every year to support these
 goals.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   Our large collection of software is a precious Laboratory asset, one that benefits both Lawrence Livermore and other national laboratories, and in many cases, the public at large.
     <span>- Bruce Hendrickson, LLNL's Associate Director for Computation </span>
-</div>
+</blockquote>
 
 Much of our software portfolio is open source. We began releasing
 software in the 1990s — long before the [Federal Source Code
@@ -61,14 +61,14 @@ their goals and make the most of external resources. We can share
 projects and avoid redundancies. (After all, not everyone can build and
 support their own football field–sized supercomputing facilities.)
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   With open source software [OSS], we are in control and can develop quickly and efficiently. It gives us the freedom to choose the best
   computer hardware instead of being locked into one company’s hardware
   solution. OSS is not for every organization, but for an organization
   like LLNL, whose job is to build innovative solutions for national
   security, OSS has been an essential tool.
     <span>- Terri Quinn, LLNL’s Advanced Simulation and Computing Program leader</span>
-</div>
+</blockquote>
 
 For example, we’re developing open source tools with the NNSA’s
 [Advanced Simulation and Computing Program](https://www.exascaleproject.org/more-on-the-software-that-underpins-the-exascale-computing-project/) to make HPC codes portable to next-generation architectures. The DOE’s [Exascale Computing Project](https://www.exascaleproject.org/) depends on open source technology to share work among participating institutions, including LLNL and other national labs.
@@ -90,14 +90,14 @@ well, and it works well because users actively participate in its
 development. It’s cost-effective, too: We improve the quality and
 portability of our software when users are willing to test it for free.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   [Livermore Computing] has contributed software and leadership to the
   HPC community since before it was called HPC. Our developers consider
   the broader ecosystem, not just particular tools. Our original
   production tools for managing and using Linux clusters have been in
   use since we stood up our very first clusters.
     <span>- Becky Springmeyer, LLNL’s Livermore Computing division leader</span>
-</div>
+</blockquote>
 
 Open source software also demonstrates a developer’s skills. Just as a
 scientist can publish research papers, a software developer can release
@@ -142,7 +142,7 @@ activities around the Lab, like hackathons, that nurture open source
 development. Management’s buy-in is essential, plus it’s great for
 morale.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   Open source software not only reduces barriers to collaboration and
   helps reduce duplication of effort, but it helps establish the
   reputation of individuals, organizations, and entire nations as
@@ -151,7 +151,7 @@ morale.
   source solutions, and LLNL is major contributor to that ecosystem.
     <span>- Rob Neely, LLNL’s Exascale Computing Project software delivery and
     ecosystem leader</span>
-</div>
+</blockquote>
 
 Another challenge is finding the sweet spot within an institution’s
 release policy. The ideal release policy acknowledges that open source

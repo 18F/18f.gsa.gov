@@ -55,10 +55,10 @@ Thanks to the panel, we were able to:
 - Make usability updates to the design system and form functionality
 - Generate ideas for future features around domain management and updates
 
-<div class="testimonial-blockquote" markdown=1>
+<blockquote class="testimonial-blockquote" markdown=1>
 Getting feedback from real users is critical to building the right thing. By creating a customer panel, we’ve been able to hear from users shortly after they complete their first use of our product, and that’s produced some really useful insights as we build new features.
 <span>–Cameron Dixon, CISA</span>
-</div>
+</blockquote>
 
 ## Key points when considering a customer panel
 

@@ -38,9 +38,9 @@ Those managing longer contracts struggle to account for inevitable
 changes in leadership, legislative and other policy constraints or
 emerging technologies. In contrast, the vast majority of larger projects are over budget or failing. The Standish Group found that:
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 Of 3,555 projects from 2003 to 2012 that had labor costs of at least $10 million, only 6.4% were successful. The Standish data showed that 52% of the large projects were “challenged,” meaning they were over budget, behind schedule or didn’t meet user expectations. The remaining 41.4% were failures — they were either abandoned or started anew from scratch.
-  </div>
+</blockquote>
 
 Managing many smaller contracts increases administrative burden. It
 requires a dedicated program management team to “connect the dots” and coordinate various teams under their direction. While this may seem like more work up-front, it allows the program office to intervene earlier, and be more flexible. Many offices across government could benefit from shifting their mindset and requiring training to handle this type of managerial complexity.

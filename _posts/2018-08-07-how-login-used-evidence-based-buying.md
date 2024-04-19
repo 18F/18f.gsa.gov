@@ -131,10 +131,10 @@ mask, using a photo of a person, using software to manipulate images and
 video, or working around the limits of different sensors and the
 differences between capturing still photos vs videos.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   Finding the right solution is a mixture of technology, policy, and operational factors. IARPA welcomes collaboration with GSA and others. Working together as a collective government team we are able to ensure effective, safe, and user friendly solutions for the American people.
   <span>- Dr. Chris Boehnen, Senior Program Manager, IARPA </span>
-  </div>
+</blockquote>
 
 The other partner, the **National Institute of Standards and Technology**, runs an ongoing program called the [Facial Recognition
 Vendor Test

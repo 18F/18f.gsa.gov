@@ -20,10 +20,10 @@ Despite this pressure, [under half of government organizations are actively usin
 When agencies *do* make the move, it is **too often about checking a box rather than using cloud in a way that meets NIST’s definition of
 cloud.** Recognizing this shortfall, the Federal Chief Information Officer has sought to reframe cloud migration to highlight desired outcomes.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   “A cloud migration strategy should not be considered a question of who owns the computing resources, data, and facility, but rather can this solution improve service delivery to citizens. Evaluating specific capabilities of services, such as automatic scalability, is useful when evaluating solutions, rather than just considering if an application is “cloud” or not.”
   <span>- From Cloud First to Cloud Smart </span>
-  </div>
+</blockquote>
 
 The cloud is not a virtue. Saying you are “in the cloud” is not the
 point. Cloud is really about improving your agency’s ability to adapt to
