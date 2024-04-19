@@ -1,8 +1,9 @@
 ---
 title: Guides
 permalink: /guides/
-layout: primary
+layout: guides
 lead: Principles and standards that shape our work
+hide_footer_rule: true
 ---
 
 {% capture intro %}
@@ -15,7 +16,7 @@ Beyond helping 18F staff do their best work, we hope these guides will inspire o
 These guides, and all of 18F's work, are in the [worldwide public domain](https://github.com/18F/18f.gsa.gov/blob/main/LICENSE.md){:.usa-link--alt}. You are free to copy and adapt them as you choose. If you see something amiss or want to suggest a change, there are links at the bottom of each guide to help you contribute.
 {% endcapture%}
 
-<section class="usa-section usa-section--dark section-padding-sm bg-primary-darker">
+<section class="usa-section section-padding-sm bg-base-lightest">
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-col-12 font-sans-lg">
@@ -24,14 +25,33 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
     </div>
     <div class="grid-row grid-gap margin-top-5">
       {% for guide in site.data.guides %}
-        <div class="tablet:grid-col-6 margin-bottom-5">
-          {% include card-with-image.html 
-             text_content=guide.name
-             link_url=guide.link
-             image_path=guide.image.dark
-             image_side="right"
-          %}
-        </div>
+        {% if guide.promoted %}
+          <div class="tablet:grid-col-6 margin-bottom-5">
+            {% include card-with-image-guides.html 
+              text_content=guide.name
+              text_descrip=guide.description
+              link_url=guide.link
+              image_path=guide.image.dark
+              image_side="right"
+              hero_url=guide.image.hero
+            %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="grid-row grid-gap margin-top-2 display-flex flex-row">
+      {% for guide in site.data.guides %}
+        {% unless guide.promoted %}
+          <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
+            {% include card-with-image-guides.html 
+              text_content=guide.name
+              text_descrip=guide.description
+              link_url=guide.link
+              image_path=guide.image.dark
+              image_side="right"
+            %}
+          </div>
+        {% endunless %}
       {% endfor %}
     </div>
     <div class="grid-row">
