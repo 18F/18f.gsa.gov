@@ -19,9 +19,9 @@ Spoiler alert: These practices really work!
 
 ## User-centered design
 
-<div class="testimonial-blockquote" markdown=1>
+<blockquote class="testimonial-blockquote" markdown=1>
 18F recommendation: “All software development should be [centered on the needs of the software's actual end users](https://guides.18f.gov/derisking/federal-field-guide/basic-principles/#user-centered-design), the specific people who are expected to use it."
-</div>
+</blockquote>
 
 We conducted user research during each phase of this project. We interviewed users, conducted usability testing sessions, and reviewed metrics reports and help desk reports. Team members from all disciplines participated in our research with new users (those who were eligible for a .gov domain, but didn’t yet have one) and existing users (those who already managed one or more .gov domains). We created a [customer panel](https://18f.gsa.gov/2024/02/01/gathering-feedback-with-customer-panels/) to get feedback from existing users.
 
