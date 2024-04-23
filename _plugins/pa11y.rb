@@ -65,13 +65,7 @@ end
 # This constant replaces a mysterious empty string when
 # calling #destination.
 NO_ROOT_PATH = "".freeze
-
 PA11Y_TARGET_FILE = ENV.fetch('PA11Y_TARGET_FILE') { 'pa11y_targets' }
-
-# Changes to files in these directories trigger a global check
-# @todo Is there a way to grab these more dynamically?
-SITEWIDE_FOLDERS = ["_includes", "_sass"]
-
 DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
 
 # Outputs posts and pages to scan to a file.
@@ -89,78 +83,80 @@ Jekyll::Hooks.register :documents, :post_render do |doc|
   end
 end
 
-# Collects
-# @todo This is first-draft working code, I don't feel settled about
-#   the design.
-class PageCollector
+# Produces a sample set of pages needed for a site-wide pa11y test.
+class SiteSampler
 
-  attr_accessor :config
+  attr_reader :config, :site_files, :permalinks
 
-  def initialize(config)
+  def initialize(config, site_files=nil, permalinks=nil)
     @config = config
+    @site_files = site_files || default_site_files
+    @permalinks = permalinks || default_permalinks
   end
 
   def pages
-    sampled_collection_paths + sampled_blog_archive_paths
+    folders.flat_map { |folder| sample folder }
   end
 
-  # Sample 3 files from each collection
-  def sampled_collection_paths
-    collection_paths.map { |path| sample_folder(path) }.flatten.uniq
-  end
+  private
 
-  def sample_folder(path)
-    Dir.glob("_site" + path + "/**/*")
-      .reject { |f| File.directory?(f) }
-      .sample(3)
-  end
-
-  # All of the paths to collections in the site config
-  # @todo The /styleguide collection can probably be deleted
-  def collection_paths
-    paths = config["collections"].each_pair.map do |name, data|
-      # Get the folder path from the permalink
-      data.fetch("permalink").split("/").first(2).join("/")
+  # Samples 3 files from a given folder, and its index
+  def sample(folder)
+    if ["_site/", "_site/blog/"].include?(folder)
+      [ File.join(folder, "index.html") ]
+    else
+      folder_regex = Regexp.new("^" + folder)
+      index_regex = Regexp.new("^" + File.join(folder, "index.html") + "$")
+      site_files.select do |file|
+        file.match?(folder_regex) || file.match?(index_regex)
+      end.sample(3)
     end
-    paths.delete("/:path")
-    paths.delete("/styleguide")
-    paths.uniq
   end
 
-  # Sample first, last, and random middle page of blog archive
-  # @smell Mutating AND a while loop? At the same time??
-  def sampled_blog_archive_paths
-    get_integer(blog_pages.last) / 2
-    [blog_pages.first, blog_pages.last, middle_blog_archive_page]
+  def folders
+    permalinks.map do |permalink|
+      File.join("_site", parameterless_path(permalink), "/")
+    end.uniq.sort
   end
 
-  def middle_blog_archive_page
-    middle_page_num = get_integer(blog_pages.last) / 2
-    finder = Regexp.new("/#{middle_page_num}/")
-    blog_pages.detect { |x| x.match? finder }
+  # Default list of all the files in the site
+  def default_site_files
+    Dir.glob("_site/**/*").reject { |f| File.directory?(f) }
   end
 
-  # Blog archive page paths, sorted by page number (/blog/page/:number)
-  def blog_pages
-    @blog_pages ||= Dir.glob("_site/blog/page/**/*.html")
-      .sort_by { |path| get_integer(path) }
+  # Default list of all the permalink URL templates as given
+  # in the config document. These form the basis for the sampled
+  # pages later on.
+  def default_permalinks
+    [
+      config["jekyll-archives"]["permalinks"].values,
+      config["collections"].map { |_name, data| data["permalink"] },
+      config["paginate_path"],
+      "blog/"
+    ].flatten.uniq
   end
 
-  def get_integer(text)
-    text.match(/(\d+)/).captures.first.to_i
+  # Follows the file paths until reaching a :param
+  def parameterless_path(path)
+    Pathname.new(path).each_filename.take_while { |x| !x.match? "^:" }.join("/")
   end
 end
 
-# If files have changed in any global directories, sample folders
-# across the site and add them to the list of files to check with
-# pa11y for this PR
+
+# Changes to files in these directories trigger a global check
+# @todo Is there a way to get these more dynamically?
+SITEWIDE_FOLDERS = ["assets", "_includes", "_sass"]
+
+# If files have changed in any of the folders that trigger a site-wide scan,
+# sample folders across the site and add them to the list of files to check
+# with pa11y for a given Pull Request.
 # @todo Is there a way to unnest this code? Jekyll hooks don't allow
 #   early returns.
 Jekyll::Hooks.register :site, :post_render do |site|
   global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "^#{x}" }.join("|")
   if DIFFER.changed_files.grep(global_files).any?
     File.open(PA11Y_TARGET_FILE, 'a') do |f|
-      PageCollector.new(site.config).pages.each do |path|
+      SiteSampler.new(site.config).pages.each do |path|
         f.write(path + "\n")
       end
     end

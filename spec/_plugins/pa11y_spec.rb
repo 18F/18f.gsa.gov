@@ -66,3 +66,26 @@ RSpec.describe Document do
   end
 
 end
+
+
+RSpec.describe SiteSampler do
+
+  describe "#folders" do
+    context "with no site files or permalinks" do
+      let(:collector) { SiteSampler.new({}, [], []) }
+      it "lists no pages" do
+        expect(collector.pages.count).to eq(0)
+      end
+    end
+
+    context "with site files and permalinks" do
+      let(:site_files) { ["_site/blog/index.html", "_site/blog/page/2/index.html"] }
+      let(:permalinks) { ["blog/page/:num/", "blog/"] }
+      let(:collector) { SiteSampler.new({}, site_files, permalinks) }
+      it "lists pages" do
+        expect(collector.pages.count).to eq(2)
+      end
+    end
+
+  end
+end
