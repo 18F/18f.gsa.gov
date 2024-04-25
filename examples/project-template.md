@@ -33,10 +33,10 @@ resources:
 Intro sentences or paragraphs about project.
 
 === Testimonial or fun fact ===
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   18F has helped us [something built] that lead to [insert impact]
     <span>- [name], [position], [agency]</span>
-</div>
+</blockquote>
 
 <div class="funfact-blockquote">
 	The day [platform] launched, [x-number]organizations were already using the data and API to enhance existing tools or build new products to better serve their customers.

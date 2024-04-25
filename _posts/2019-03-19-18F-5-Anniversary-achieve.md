@@ -55,15 +55,15 @@ We know we’ve done our job right when a partner doesn’t need us anymore. Ove
 Alex Palmer, the staff director and chief information officer at the
 FEC, had this to say about us:
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology. Now, it’s not just IT; it’s educating the entire staff on the agile methodology. Agile doesn’t just apply to IT, but also [to] business.
-  </div>
+</blockquote>
 
 The Forest Service, another long-term partner, shared similar thoughts:
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 Selling permits just is part of the story. We are learning how to position the agency for the future.
-  </div>
+</blockquote>
 
 But it doesn’t take years, or a multi-phase project, before agencies start seeing a return on their investment from 18F. For example, one partner came to us last year with a massive time management problem — workflows that involved staff processing thousands of emails for 10
 hours per day. Within a **single eight-week engagement**, we were able to identify the root cause of the problem and propose new ways of working. Now, instead of 1,000 emails a day, the team gets 50; instead of spending 10 hours a day processing, they can focus on fulfilling their mission.

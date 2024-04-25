@@ -22,10 +22,10 @@ federal land. The Natural Resources Revenue Data (NRRD) site is designed
 to help the public learn more about that oil rig and other extractive
 activities on public lands and waters.
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 Our small digital team at the Office of Natural Resources Revenue continues the work of user-centered and open-data design started by 18F.
     <span>- Digital team at the Office of Natural Resources Revenue</span>
-</div>
+</blockquote>
 
 <div class="case-study-preheader margin-top-6">Approach</div>
 ### Moving from PDFs to interactive websites using the Federalist platform

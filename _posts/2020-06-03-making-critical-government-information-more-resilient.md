@@ -17,11 +17,11 @@ excerpt: A roundup of steps that federal agencies, and other government
   serve information more efficiently to the people that need it
 ---
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   Agencies are encouraged to update their .gov websites to the greatest extent practicable to provide agency service delivery information to Federal Government consumers and to direct Federal Government consumers to the appropriate digital and telephonic resources to obtain needed services.
     <span>- OMB Memorandum M-20-19: Harnessing Technology to Support Mission Continuity
 </span>
-</div>
+</blockquote>
 
 It’s important for government agencies to provide easy access for citizens to critical information online.This is even more imperative during a crisis. The increased demand for critical information on government websites can place an additional load on the infrastructure supporting these sites, which are too often not engineered to handle the increased load efficiently.
 

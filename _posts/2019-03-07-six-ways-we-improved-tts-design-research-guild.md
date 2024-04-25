@@ -12,10 +12,10 @@ brainstorming ways to better position itself for success. In this post,
 we’ll share the six ways we’ve recently worked to improve the guild."
 ---
 
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
   Communities of practice are groups of people who share a concern or a passion for something they do and learn how to do it better as they interact regularly.
     <span>- Etienne Wenger-Trayner and Beverly Wenger-Trayner</span>
-</div>
+</blockquote>
 
 The [TTS Research Guild](https://github.com/18F/g-research) is a
 GSA-local community of practice for design researchers and

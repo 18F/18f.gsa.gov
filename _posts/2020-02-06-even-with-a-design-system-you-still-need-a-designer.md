@@ -55,9 +55,9 @@ It can be tempting to jump right into building something new when patterns and c
 won't solve every problem outright. This is why [USWDS guides new users](https://designsystem.digital.gov/maturity-model/) to integrate user-centered design principles and follow UX and user research guidance before implementing any specific USWDS patterns.
 
 Cathy Dutton explains this more in her article “The Problem with Patterns.”
-<div class="testimonial-blockquote">
+<blockquote class="testimonial-blockquote">
 Having a library of design components can sometimes give the impression that all the design work has been completed… Although patterns do help teams hesitate less and build things in shorter amounts of time, it is how and why a group of patterns and components are stitched together that results in great design.
-  </div>
+</blockquote>
 
 USWDS and other design systems give flexibility so teams can build the right solution for users, but there are still plenty of design decisions that teams need to make to be successful.
 

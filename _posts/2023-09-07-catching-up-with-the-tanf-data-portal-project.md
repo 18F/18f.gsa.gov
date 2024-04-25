@@ -31,10 +31,10 @@ We caught up with Office of Family Assistance leaders Lauren Frohlich (product o
 
 **Alex Pennington**: The system is in use; that’s huge! Not only do we have the system up, but OFA is operating and maintaining the system, and [regularly pushing new updates to the code.](https://github.com/HHS/TANF-app) 
 
-<div class="testimonial-blockquote" markdown=1>
+<blockquote class="testimonial-blockquote" markdown=1>
 Designing the contract and the system the way we did — for OFA to have control and input and be so involved in the development — I think it facilitates the ability to be responsive. It’s just 180 degrees from our past experience. It's so refreshing.
 <span>–Lauren Frohlich, Product Owner for the TANF Data Portal</span>
-</div>
+</blockquote>
 
 ### _Yeah, that's a huge deal! We know there were certain things about the legacy system that were challenging. Can you talk a little bit about what's changing with the new system?_
 
