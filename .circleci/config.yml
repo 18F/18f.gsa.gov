@@ -46,7 +46,7 @@ jobs:
           name: Jekyll build
           command: |
             bundle exec jekyll build
-            echo "export PA11Y_TARGETS=_site/2016/03/03/five-questions-for-the-nasa-chief-historian/index.html" >> "$BASH_ENV"
+            echo "export PA11Y_TARGETS=$(cat pa11y_targets)" >> "$BASH_ENV"
             source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
@@ -54,7 +54,7 @@ jobs:
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: cat ./pa11y_targets && ./serve-pa11yci && npm run pa11y-ci
+          command: echo $PA11Y_TARGETS && ./serve-pa11yci && npm run pa11y-ci
 workflows:
   version: 2
   commit:
