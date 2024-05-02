@@ -54,7 +54,7 @@ jobs:
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: echo $PA11Y_TARGETS && ./serve-pa11yci && npm run pa11y-ci
+          command: npm run pa11y-changed-files
 workflows:
   version: 2
   commit:
