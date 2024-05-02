@@ -42,14 +42,19 @@ jobs:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
       - run: npm run uswds-build
-      - run: bundle exec jekyll build
+      - run:
+          name: Jekyll build
+          command: |
+            bundle exec jekyll build
+            echo "export PA11Y_TARGETS=_site/2016/03/03/five-questions-for-the-nasa-chief-historian/index.html" >> "$BASH_ENV"
+            source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
       - run:
           name: Run pa11yci
-          command: ./serve-pa11yci && npm run pa11y-ci
+          command: echo $PA11Y_TARGETS && ./serve-pa11yci && npm run pa11y-ci
 workflows:
   version: 2
   commit:
