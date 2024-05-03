@@ -47,7 +47,8 @@ jobs:
           name: Jekyll build
           command: |
             bundle exec jekyll build
-            echo "export PA11Y_TARGETS=$(cat pa11y_targets)" >> "$BASH_ENV"
+            echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64)" >> "$BASH_ENV"
+            source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
@@ -55,7 +56,7 @@ jobs:
       # Invoke pa11y-ci and pass in our list of changed files
       - run:
           name: Run pa11yci
-          command: npm run pa11y-ci -- $PA11Y_TARGETS
+          command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
 workflows:
   version: 2
   commit:
