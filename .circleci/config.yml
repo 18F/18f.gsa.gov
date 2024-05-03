@@ -47,7 +47,8 @@ jobs:
           name: Jekyll build
           command: |
             bundle exec jekyll build
-            echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64)" >> "$BASH_ENV"
+            echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+            source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
