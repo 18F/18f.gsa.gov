@@ -29,8 +29,6 @@ duty to radically improve the delivery of government digital services.
 Why should you (yes, YOU) take time out of your busy schedule to apply
 (**deadline: April 7**)? Three important reasons:
 
-### Some file changes to trigger a diff
-
 ### 1. Uncle Sam wants YOU to help millions
 
 Working with Innovation Partners inside government agencies, Rounds One
