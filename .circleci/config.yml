@@ -46,7 +46,6 @@ jobs:
       - run:
           name: Jekyll build
           command: |
-            rm pa11y_targets
             bundle exec jekyll build
             echo "export PA11Y_TARGETS=$(cat pa11y_targets)" >> "$BASH_ENV"
       - run: npm run htmlproofer
