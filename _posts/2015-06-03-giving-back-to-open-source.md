@@ -15,8 +15,6 @@ description: "We love when we're able to contribure to open source projects from
 image: /assets/blog/google-auth-proxy/bitly_oauth_github.jpg
 ---
 
-File changes
-
 Many of our products depend on reusable open source software, and we
 also publish our own work as open source. What's even cooler is when
 we’re able to contribute to an open source product from another
