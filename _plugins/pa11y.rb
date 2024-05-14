@@ -68,22 +68,28 @@ NO_ROOT_PATH = "".freeze
 PA11Y_TARGET_FILE = ENV.fetch('PA11Y_TARGET_FILE') { 'pa11y_targets' }
 DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
 
-# Outputs posts and pages to scan to a file.
-# @todo Implement the stylesheet checker (third bullet above)
-# @todo The :documents collection does not include the pages/ directory, :pages does
-# there's also :site but not all files coming in from that hook have a relative_path
-Jekyll::Hooks.register :documents, :post_render do |doc|
+def check_file_for_changes(file)
   document = Document.new(
-    doc.relative_path,
-    doc.data["layout"],
+    file.relative_path,
+    file.data["layout"],
     DIFFER
   )
 
   if document.to_scan?
     File.open(PA11Y_TARGET_FILE, 'a') { |f|
-      f.write(doc.destination(NO_ROOT_PATH) + "\n")
+      f.write(file.destination(NO_ROOT_PATH) + "\n")
     }
   end
+end
+
+# Outputs posts and pages to scan to a file.
+Jekyll::Hooks.register :documents, :post_render do |doc|
+  check_file_for_changes(doc)
+end
+
+# The :documents hook above doesn't seem to touch the pages/ directory
+Jekyll::Hooks.register :pages, :post_render do |doc|
+  check_file_for_changes(doc)
 end
 
 # Produces a sample set of pages needed for a site-wide pa11y test.
@@ -115,7 +121,7 @@ class SiteSampler
       index_regex = Regexp.new("^" + File.join(folder, "index.html") + "$")
       site_files.select do |file|
         file.match?(folder_regex) || file.match?(index_regex)
-      end.sample(3)
+      end.reject {|filename| filename.match?(/.pdf$/i)}.sample(3)
     end
   end
 
@@ -159,7 +165,8 @@ SITEWIDE_FOLDERS = ["assets", "_includes", "_sass"]
 # @todo Is there a way to unnest this code? Jekyll hooks don't allow
 #   early returns.
 Jekyll::Hooks.register :site, :post_render do |site|
-  global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "^#{x}" }.join("|")
+  # https://rubular.com/r/nfFL9P69KHSBoY
+  global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "\^#{x}" }.join("|")
   if DIFFER.changed_files.grep(global_files).any?
     File.open(PA11Y_TARGET_FILE, 'a') do |f|
       SiteSampler.new(site.config).pages.each do |path|
