@@ -86,6 +86,15 @@ RSpec.describe SiteSampler do
         expect(collector.pages.count).to eq(2)
       end
     end
+    
+    context "ignores PDF files" do
+      let(:site_files) { ["_site/blog/index.html", "_site/blog/page/2/index.html", "_site/partnership-principles/18FPartnershipPrinciples.pdf"] }
+      let(:permalinks) { ["blog/page/:num/", "blog/"] }
+      let(:collector) { SiteSampler.new({}, site_files, permalinks) }
+      it "lists pages" do
+        expect(collector.pages.count).to eq(2)
+      end
+    end
 
   end
 end
