@@ -70,12 +70,15 @@ DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
 
 # Outputs posts and pages to scan to a file.
 # @todo Implement the stylesheet checker (third bullet above)
+# @todo The :documents collection does not include the pages/ directory, :pages does
+# there's also :site but not all files coming in from that hook have a relative_path
 Jekyll::Hooks.register :documents, :post_render do |doc|
   document = Document.new(
     doc.relative_path,
     doc.data["layout"],
     DIFFER
   )
+
   if document.to_scan?
     File.open(PA11Y_TARGET_FILE, 'a') { |f|
       f.write(doc.destination(NO_ROOT_PATH) + "\n")
