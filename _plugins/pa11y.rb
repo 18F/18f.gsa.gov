@@ -124,8 +124,6 @@ class SiteSampler
   private
 
   # Samples 3 files from a given folder, and its index
-  # @todo Blog folder should sample 3 blog posts as well _site/blog/\d{4}/**/**
-  # @todo Site folder should sample 3 site pages _site/**/index.html
   # @todo The matcher should change, not the list of files being returned
   def sample(folder)
     if ["_site/", "_site/blog/"].include?(folder)
