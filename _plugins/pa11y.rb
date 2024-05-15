@@ -22,7 +22,7 @@ Previously, checking every page resulted in excessive CI runtimes.
 # @param differ [Object, #changed_files] The collaborator which lists
 #   the files that were changed in the last commit.
 # @todo Are there cases when the document being checked has no layout?
-Document = Struct.new(:path, :layout, :differ) do
+Document = Struct.new(:path, :layout, :destination, :differ) do
   # @return [Boolean] Whether to scan this document in pa11y-ci
   def to_scan?
     source_changed? || layout_changed?
@@ -81,12 +81,13 @@ class FileChecker
     document = Document.new(
       file.relative_path,
       file.data["layout"],
+      file.destination(NO_ROOT_PATH),
       differ
     )
 
     if document.to_scan?
       File.open(pa11y_target_file, 'a') { |f|
-        f.write(file.destination(NO_ROOT_PATH) + "\n")
+        f.write(document.destination + "\n")
       }
     end
   end
