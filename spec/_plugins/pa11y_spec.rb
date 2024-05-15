@@ -5,6 +5,7 @@ RSpec.describe Document do
   let(:blog_path) { "_posts/2024-04-10-working-with-oracle-databases.md" }
   let(:blog_layout) { "post" }
   let(:blog_layout_path) { "_layouts/post.html" }
+  let(:destination_path) { "_site/2024/4/10/working-with-oracle-databases/index.html" }
 
   # Stand-in for file diffing (GitDiffer), so tests don't rely on
   # git history.
@@ -25,7 +26,7 @@ RSpec.describe Document do
   describe "#to_scan?" do
     context "source files" do
       let(:document) {
-        Document.new(blog_path, blog_layout, test_differ)
+        Document.new(blog_path, blog_layout, destination_path, test_differ)
       }
 
       context "with a matching changed source file" do
