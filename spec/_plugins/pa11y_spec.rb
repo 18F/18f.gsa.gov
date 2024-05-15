@@ -5,7 +5,7 @@ RSpec.describe Document do
   let(:blog_path) { "_posts/2024-04-10-working-with-oracle-databases.md" }
   let(:blog_layout) { "post" }
   let(:blog_layout_path) { "_layouts/post.html" }
-  let(:destination_path) { "_site/2024/4/10/working-with-oracle-databases/index.html" }
+  let(:destination_path) { "_site/2024/04/10/working-with-oracle-databases/index.html" }
 
   # Stand-in for file diffing (GitDiffer), so tests don't rely on
   # git history.
