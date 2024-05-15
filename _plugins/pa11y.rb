@@ -178,8 +178,10 @@ SITEWIDE_FOLDERS = ["assets", "_includes", "_sass"]
 # @todo Is there a way to unnest this code? Jekyll hooks don't allow
 #   early returns.
 Jekyll::Hooks.register :site, :post_render do |site|
+  # This rubular link shows an example of the generated regular expression
+  # and how it works against an imagined set of changed files
   # https://rubular.com/r/nfFL9P69KHSBoY
-  global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "\^#{x}" }.join("|")
+  global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "^#{x}" }.join("|")
   if DIFFER.changed_files.grep(global_files).any?
     File.open(PA11Y_TARGET_FILE, 'a') do |f|
       SiteSampler.new(site.config).pages.each do |path|
