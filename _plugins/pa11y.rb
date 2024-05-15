@@ -61,35 +61,48 @@ class CommitDiffer < Differ
   end
 end
 
-# Jekyll::Document#destination requires a root path parameter
-# This constant replaces a mysterious empty string when
-# calling #destination.
-NO_ROOT_PATH = "".freeze
-PA11Y_TARGET_FILE = ENV.fetch('PA11Y_TARGET_FILE') { 'pa11y_targets' }
-DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
 
-def check_file_for_changes(file)
-  document = Document.new(
-    file.relative_path,
-    file.data["layout"],
-    DIFFER
-  )
+class FileChecker
 
-  if document.to_scan?
-    File.open(PA11Y_TARGET_FILE, 'a') { |f|
-      f.write(file.destination(NO_ROOT_PATH) + "\n")
-    }
+  # Jekyll::Document#destination requires a root path parameter
+  # This constant replaces a mysterious empty string when
+  # calling #destination.
+  NO_ROOT_PATH = "".freeze
+
+  attr_reader :file, :pa11y_target_file, :differ
+
+  def initialize(file, pa11y_target_file, differ)
+    @file = file
+    @pa11y_target_file = pa11y_target_file
+    @differ = differ
+  end
+
+  def check_file_for_changes
+    document = Document.new(
+      file.relative_path,
+      file.data["layout"],
+      differ
+    )
+
+    if document.to_scan?
+      File.open(pa11y_target_file, 'a') { |f|
+        f.write(file.destination(NO_ROOT_PATH) + "\n")
+      }
+    end
   end
 end
 
+PA11Y_TARGET_FILE = ENV.fetch('PA11Y_TARGET_FILE') { 'pa11y_targets' }
+DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
+
 # Outputs posts and pages to scan to a file.
 Jekyll::Hooks.register :documents, :post_render do |doc|
-  check_file_for_changes(doc)
+  FileChecker.new(doc, PA11Y_TARGET_FILE, DIFFER).check_file_for_changes
 end
 
 # The :documents hook above doesn't seem to touch the pages/ directory
 Jekyll::Hooks.register :pages, :post_render do |doc|
-  check_file_for_changes(doc)
+  FileChecker.new(doc, PA11Y_TARGET_FILE, DIFFER).check_file_for_changes
 end
 
 # Produces a sample set of pages needed for a site-wide pa11y test.
