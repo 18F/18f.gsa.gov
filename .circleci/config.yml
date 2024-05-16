@@ -64,7 +64,7 @@ jobs:
       # which satisfies this condition
       - when:
           condition:
-            equal: [ scheduled_pipeline, << pipeline.trigger_source >> ]
+            equal: [ schedule, << pipeline.trigger_source >> ]
           steps:
             - run:
                 name: Run full pa11y scan
@@ -90,7 +90,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "40 * * * *"
+          cron: "45 * * * *"
           filters:
             branches:
               only:
