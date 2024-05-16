@@ -108,7 +108,7 @@ jobs:
       # Invoke pa11y-ci and pass in our list of changed files
       - run:
           name: Run pa11yci
-          command: npm run pa11y-sitemap
+          command: ./serve-pa11yci && npm run pa11y-sitemap
 
 workflows:
   version: 2
