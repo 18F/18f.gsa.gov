@@ -75,7 +75,7 @@ jobs:
             - run:
                 name: Run pa11y scan on changed files
                 command: |
-                  if [[ -z $"{PA11Y_TARGETS}" ]]; then
+                  if [[ -z "${PA11Y_TARGETS}" ]]; then
                     npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
                   else
                     echo "The pa11y targets environment variable was not found, no pa11y scan performed."
@@ -87,7 +87,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "10 * * * *"
+          cron: "15 * * * *"
           filters:
             branches:
               only:
