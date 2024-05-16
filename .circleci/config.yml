@@ -41,32 +41,22 @@ jobs:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
       - run: npm run uswds-build
-      # When the source of the job trigger is the scheduled nightly build
-      - when:
-          condition:
-            equal: [ 'scheduled_pipeline', << pipeline.trigger_source >> ]
-          steps:
-            - run:
-                name: Jekyll build
-                command: |
-                  bundle exec jekyll build
-      # When someone pushes to a branch on GitHub it makes a webhook POST
-      # to CircleCI and that is the trigger to satisfy this condition
-      - when:
-          condition:
-            equal: [ 'webhook', << pipeline.trigger_source >> ]
-          steps:
-            - run:
-                name: Jekyll build and store pa11y_targets
-                # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
-                command: |
-                  bundle exec jekyll build
-                  echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
-                  source "$BASH_ENV"
+      - run:
+          name: Jekyll build and store pa11y_targets
+          # We export the changed file list in pa11y_targets source
+          # that we can make pa11y-ci scan only those changed files
+          # in the "Run pa11y scan on changed files" step if it's
+          # needed, a full site scan does not use the pa11y_targets file
+          command: |
+            bundle exec jekyll build
+            echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+            source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
+      # The nightly full pa11y scan is triggered from a scheduled pipeline
+      # which satisfies this condition
       - when:
           condition:
             equal: [ 'scheduled_pipeline', << pipeline.trigger_source >> ]
@@ -74,6 +64,8 @@ jobs:
             - run:
                 name: Run full pa11y scan
                 command: ./serve-pa11yci && npm run pa11y-sitemap
+      # When someone pushes to a branch on GitHub with an open pull request
+      # it makes a webhook POST to CircleCI that satisfies this condition
       - when:
           condition:
             equal: [ 'webhook', << pipeline.trigger_source >> ]
