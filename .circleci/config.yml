@@ -112,13 +112,13 @@ jobs:
 
 workflows:
   version: 2
-  commit:
+  nightly:
     triggers:
       - schedule:
-          cron: "40 * * * *"
+          cron: "48 * * * *"
           filters:
             branches:
               only:
-                - main
+                - caley/nightly-pa11y-run
     jobs:
       - full_scan
