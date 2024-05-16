@@ -119,6 +119,6 @@ workflows:
           filters:
             branches:
               only:
-                - caley/nightly-pa11y-run
+                - caley/nightly-pa11y-scan
     jobs:
       - full_scan
