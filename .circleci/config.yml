@@ -44,43 +44,43 @@ jobs:
       # When the source of the job trigger is the scheduled nightly build
       - when:
           condition:
-            equal: [ 'scheduled_pipeline', pipeline.trigger_source]
+            equal: [ 'scheduled_pipeline', << pipeline.trigger_source >> ]
           steps:
             - run:
-              name: Jekyll build
-              command: |
-                bundle exec jekyll build
+                name: Jekyll build
+                command: |
+                  bundle exec jekyll build
       # When someone pushes to a branch on GitHub it makes a webhook POST
       # to CircleCI and that is the trigger to satisfy this condition
       - when:
           condition:
-            equal: [ 'webhook', pipeline.trigger_source]
+            equal: [ 'webhook', << pipeline.trigger_source >> ]
           steps:
             - run:
-              name: Jekyll build
-              # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
-              command: |
-                bundle exec jekyll build
-                echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
-                source "$BASH_ENV"
+                name: Jekyll build and store pa11y_targets
+                # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
+                command: |
+                  bundle exec jekyll build
+                  echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+                  source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
       - when:
           condition:
-            equal: [ 'scheduled_pipeline', pipeline.trigger_source]
+            equal: [ 'scheduled_pipeline', << pipeline.trigger_source >> ]
           steps:
             - run:
-              name: Run full pa11y scan
-              command: ./serve-pa11yci && npm run pa11y-sitemap
+                name: Run full pa11y scan
+                command: ./serve-pa11yci && npm run pa11y-sitemap
       - when:
           condition:
-            equal: [ 'webhook', pipeline.trigger_source]
+            equal: [ 'webhook', << pipeline.trigger_source >> ]
           steps:
             - run:
-              name: Run pa11y scan on changed files
-              command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
+                name: Run pa11y scan on changed files
+                command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
 workflows:
   version: 2
   nightly:
