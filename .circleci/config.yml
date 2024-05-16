@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build:
+ build:
     docker:
       - image: cimg/ruby:3.2-browsers
     environment:
@@ -41,84 +41,59 @@ jobs:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
       - run: npm run uswds-build
-      # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
-      - run:
-          name: Jekyll build
-          command: |
-            bundle exec jekyll build
-            echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
-            source "$BASH_ENV"
+      # When the source of the job trigger is the scheduled nightly build
+      - when:
+          condition:
+            equal: [ 'scheduled_pipeline', pipeline.trigger_source]
+          steps:
+            - run:
+              name: Jekyll build
+              command: |
+                bundle exec jekyll build
+      # When someone pushes to a branch on GitHub it makes a webhook POST
+      # to CircleCI and that is the trigger to satisfy this condition
+      - when:
+          condition:
+            equal: [ 'webhook', pipeline.trigger_source]
+          steps:
+            - run:
+              name: Jekyll build
+              # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
+              command: |
+                bundle exec jekyll build
+                echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+                source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
-      # Invoke pa11y-ci and pass in our list of changed files
-      - run:
-          name: Run pa11yci
-          command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
-  full_scan:
-    docker:
-      - image: cimg/ruby:3.2-browsers
-    environment:
-      LANG: "en_US.UTF-8"
-      LANGUAGE: "en_US.UTF-8"
-      LC_ALL: "en_US.UTF-8"
-    steps:
-      - run:
-          name: Fix locales
-          command: |
-            sudo locale-gen en_US.UTF-8
-            sudo locale-gen en en_US en_US.UTF-8
-            sudo dpkg-reconfigure locales
-      - checkout
-      - restore_cache:
-          keys:
-          - v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
-          # fallback to using the latest cache if no exact match is found
-          - v2-dependencies-bundler-
-      - run:
-          name: Bundle install dependencies
-          command: |
-            bundle config set path 'vendor/bundle'
-            bundle install --jobs=4 --retry=3
-      - save_cache:
-          paths:
-            - vendor/bundle
-          key: v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
-      - restore_cache:
-          keys:
-          - v2-dependencies-npm-{{ checksum "package-lock.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v2-dependencies-npm-
-      - run: npm install
-      - save_cache:
-          paths:
-            - node_modules
-          key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
-      - run: npm run uswds-build
-      # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
-      - run:
-          name: Jekyll build
-          command: |
-            bundle exec jekyll build
-      - run: npm run htmlproofer
-      - run:
-          name: Run rspec
-          command: bundle exec rspec `pwd`/spec/
-      # Invoke pa11y-ci and pass in our list of changed files
-      - run:
-          name: Run pa11yci
-          command: ./serve-pa11yci && npm run pa11y-sitemap
-
+      - when:
+          condition:
+            equal: [ 'scheduled_pipeline', pipeline.trigger_source]
+          steps:
+            - run:
+              name: Run full pa11y scan
+              command: ./serve-pa11yci && npm run pa11y-sitemap
+      - when:
+          condition:
+            equal: [ 'webhook', pipeline.trigger_source]
+          steps:
+            - run:
+              name: Run pa11y scan on changed files
+              command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
 workflows:
   version: 2
   nightly:
     triggers:
       - schedule:
-          cron: "48 * * * *"
+          # Run nightly at 10am UTC / 5am ET
+          cron: "20 * * * *"
           filters:
             branches:
               only:
                 - caley/nightly-pa11y-scan
     jobs:
-      - full_scan
+      - build
+  commit:
+    jobs:
+      - build
