@@ -112,10 +112,10 @@ jobs:
 
 workflows:
   version: 2
-  nightly:
+  commit:
     triggers:
       - schedule:
-          cron: "35 * * * *"
+          cron: "40 * * * *"
           filters:
             branches:
               only:
