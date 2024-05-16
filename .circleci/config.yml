@@ -22,9 +22,6 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v2-dependencies-bundler-
       - run:
-          name: Check CircleCI values
-          command: "echo << pipeline.trigger_source >>"
-      - run:
           name: Bundle install dependencies
           command: |
             bundle config set path 'vendor/bundle'
@@ -90,7 +87,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "45 * * * *"
+          cron: "0 10 * * *"
           filters:
             branches:
               only:
