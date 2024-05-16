@@ -61,7 +61,7 @@ jobs:
       # which satisfies this condition
       - when:
           condition:
-            equal: [ 'scheduled_pipeline', << pipeline.trigger_source >> ]
+            equal: [ scheduled_pipeline, << pipeline.trigger_source >> ]
           steps:
             - run:
                 name: Run full pa11y scan
@@ -70,7 +70,7 @@ jobs:
       # it makes a webhook POST to CircleCI that satisfies this condition
       - when:
           condition:
-            equal: [ 'webhook', << pipeline.trigger_source >> ]
+            equal: [ webhook, << pipeline.trigger_source >> ]
           steps:
             - run:
                 name: Run pa11y scan on changed files
@@ -87,7 +87,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "15 * * * *"
+          cron: "25 * * * *"
           filters:
             branches:
               only:
