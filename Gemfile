@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '~> 3.2.3'
 
 gem 'html-proofer', '~> 5.0.8'
-gem 'jekyll', '~> 4.3'
+gem 'jekyll', '~> 4.3', '>= 4.3.3'
 gem 'kramdown-parser-gfm'
 gem 'parallel'
 gem 'ruby-oembed', '0.15.0'
