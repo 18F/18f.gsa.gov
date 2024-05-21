@@ -1,4 +1,4 @@
-require 'oembed'
+require "oembed"
 
 # Register all default OEmbed providers
 ::OEmbed::Providers.register_all
@@ -33,15 +33,15 @@ module Jekyll
         result = ::OEmbed::Providers.get(url)
 
         html_output(result)
-      rescue StandardError
+      rescue
         error_message(url)
-        ''
+        ""
       end
     end
 
     def html_output(result)
-      "<div class=\"embed-container #{result.fields['type']} " \
-        "#{result.fields['provider']}\">#{result.html}</div>"
+      "<div class=\"embed-container #{result.fields["type"]} " \
+        "#{result.fields["provider"]}\">#{result.html}</div>"
     end
 
     def error_message(url)
@@ -53,4 +53,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('oembed', Jekyll::OEmbedPlugin)
+Liquid::Template.register_tag("oembed", Jekyll::OEmbedPlugin)

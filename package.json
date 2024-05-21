@@ -44,12 +44,20 @@
   "homepage": "https://18f.gsa.gov",
   "devDependencies": {
     "@uswds/compile": "^1.1.0",
-    "pa11y-ci": "^3.1.0"
+    "pa11y-ci": "^3.1.0",
+    "standard": "*"
   },
   "dependencies": {
     "@uswds/uswds": "3.8.0",
     "accesslint-cli": "^2.0.0",
     "jquery": "^3.7.1",
     "netlify-cms": "^2.10.192"
+  },
+  "standard": {
+    "ignore": [
+      "assets/js/**/*.min.js",
+      "assets/js/lib/",
+      "_sass/_libs/uswds/js/**/*.js"
+    ]
   }
 }

@@ -4,8 +4,8 @@ module Jekyll
     # page property
     def map_post_to_page(property)
       post_map = {
-        authors: 'name',
-        tags: 'tags'
+        authors: "name",
+        tags: "tags"
       }
       post_map[property.to_sym]
     end
@@ -23,7 +23,7 @@ module Jekyll
     # and return a list of posts that have any tag
     # that matches the list of `project_tags` defined
     # in a given project's frontmatter
-    def match_posts(page, property = 'tags')
+    def match_posts(page, property = "tags")
       matching_posts = []
       page_property = map_post_to_page(property)
       page_criteria = Array(page[page_property]) || []

@@ -2,13 +2,13 @@ module Jekyll
   module Utility
     attr_reader :match
 
-    def clip_char(str, char = '-')
+    def clip_char(str, char = "-")
       str = str.to_s
       str = if str[0] == char
-              str[1...str.length]
-            else
-              str
-            end
+        str[1...str.length]
+      else
+        str
+      end
       if str[-1] == char
         str[0...-1]
       else
@@ -17,7 +17,7 @@ module Jekyll
     end
 
     def hash_link(str)
-      if str[0] == '#'
+      if str[0] == "#"
         str.to_s
       else
         "##{str}"
@@ -27,17 +27,17 @@ module Jekyll
     def matches_url(page_url, url)
       if url.is_a? Array
         urls = url.map do |u|
-          page_url = clip_char(page_url.to_s.downcase, '/').split('/')[0]
-          u = clip_char(u.to_s.downcase, '/').split('/')[0]
+          page_url = clip_char(page_url.to_s.downcase, "/").split("/")[0]
+          u = clip_char(u.to_s.downcase, "/").split("/")[0]
           # if the url group is 'blog', match date strings
-          is_blog_post = (u == 'blog') && (page_url.to_i.positive?)
+          is_blog_post = (u == "blog") && page_url.to_i.positive?
           matching_url = (page_url == u) || is_blog_post
           matching_url || nil
         end
         urls.compact.any? || nil
       else
-        page_url = clip_char(page_url.to_s.downcase, '/')
-        url = clip_char(url.to_s.downcase, '/')
+        page_url = clip_char(page_url.to_s.downcase, "/")
+        url = clip_char(url.to_s.downcase, "/")
         page_url == url || nil
       end
     end
@@ -54,16 +54,12 @@ module Jekyll
     end
 
     def find_collection(site, collection)
-      document = site.collections.select { |c| c.label == collection }[0].docs
+      document = site.collections.find { |c| c.label == collection }.docs
       document.map(&:data)
     end
 
     def where_obj(array, filter)
-      array = array.map do |object|
-        next unless !object[filter].nil? && !object[filter].empty?
-        object
-      end.compact.uniq
-      array
+      array.select { |object| !object[filter].nil? && !object[filter].empty? }.uniq
     end
 
     def in_groups(array, groups)
@@ -113,10 +109,10 @@ class Array
     start = 0
 
     number.times do |index|
-      length = division + (modulo.positive? && modulo > index ? 1 : 0)
+      length = division + ((modulo.positive? && modulo > index) ? 1 : 0)
       groups << last_group = slice(start, length)
       last_group << fill_with if fill_with != false &&
-                                 modulo.positive? && length == division
+        modulo.positive? && length == division
       start += length
     end
 
