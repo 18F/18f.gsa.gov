@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "engines": {
-    "node": ">=10.14"
+    "node": ">=18.7",
+    "npm": ">=7.24"
   },
   "scripts": {
     "federalist": "npm run uswds-build && mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
