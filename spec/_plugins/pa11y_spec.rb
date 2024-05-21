@@ -1,27 +1,11 @@
-require_relative '../../_plugins/pa11y'
+require_relative "../../_plugins/pa11y"
+require_relative "../support/test_differ"
 
 RSpec.describe Document do
-
   let(:blog_path) { "_posts/2024-04-10-working-with-oracle-databases.md" }
   let(:blog_layout) { "post" }
   let(:blog_layout_path) { "_layouts/post.html" }
   let(:destination_path) { "_site/2024/04/10/working-with-oracle-databases/index.html" }
-
-  # Stand-in for file diffing (GitDiffer), so tests don't rely on
-  # git history.
-  class TestDiffer
-    attr_reader :changed_files
-
-    def initialize(*paths)
-      @changed_files = *paths
-    end
-  end
-
-  # @example Use the convenience method
-  #   TestDiffer("_layouts/default.html", "_posts/2024-04-10-new-post.md")
-  def TestDiffer(*paths)
-    TestDiffer.new(*paths)
-  end
 
   describe "#to_scan?" do
     context "source files" do
@@ -65,12 +49,9 @@ RSpec.describe Document do
       end
     end
   end
-
 end
 
-
 RSpec.describe SiteSampler do
-
   describe "#folders" do
     context "with no site files or permalinks" do
       let(:collector) { SiteSampler.new({}, [], []) }
@@ -87,7 +68,7 @@ RSpec.describe SiteSampler do
         expect(collector.pages.count).to eq(2)
       end
     end
-    
+
     context "with HTML and PDF files" do
       let(:site_files) { ["_site/blog/index.html", "_site/blog/page/2/index.html", "_site/partnership-principles/18FPartnershipPrinciples.pdf"] }
       let(:permalinks) { ["blog/page/:num/", "blog/"] }
@@ -96,6 +77,5 @@ RSpec.describe SiteSampler do
         expect(collector.pages.count).to eq(2)
       end
     end
-
   end
 end

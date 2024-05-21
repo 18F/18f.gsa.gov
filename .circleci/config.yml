@@ -41,6 +41,12 @@ jobs:
           paths:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
+      - run:
+          name: Check Ruby style
+          command: bundle exec standardrb
+      - run:
+          name: Check JavaScript style
+          command: npm run standard
       - run: npm run uswds-build
       # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
       - run:
