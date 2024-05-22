@@ -36,6 +36,7 @@ GEM
     ffi (1.15.5)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
+    foreman (0.88.1)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (3.24.3-arm64-darwin)
@@ -216,6 +217,7 @@ PLATFORMS
 DEPENDENCIES
   codeclimate-test-reporter (~> 1.0.0)
   colorize
+  foreman
   html-proofer (~> 5.0.8)
   jekyll (~> 4.3)
   jekyll-archives (~> 2.2)

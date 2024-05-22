@@ -34,12 +34,29 @@ RSpec.describe Author do
     end
   end
 
+  describe ".find_by!" do
+    before(:each) { Author.files_dir = files_dir }
+    context "finding an existing author" do
+      let(:slug) { "matt-cloyd" }
+      it "retrieves the author data from file" do
+        expect(Author.find_by!(slug: slug)).to respond_to(:data)
+      end
+    end
+    context "finding a missing author" do
+      let(:slug) { "nobody" }
+      it "returns nil" do
+        expect { Author.find_by!(slug: slug) }.to raise_error RuntimeError
+      end
+    end
+  end
+
   # @smell This matches the coupling in lib/author
   # Ideally this should be tested in AuthorPhoto, not here,
   #   but it's not important enough at the moment.
   describe "#photo_tag" do
     before(:each) { Author.files_dir = files_dir }
     let(:config) { { "baseurl" => "spec/support" } }
+
     context "for an author with a photo" do
       let(:author) { Author.find_by(slug: "matt-cloyd") }
       let(:photo_tag) { author.photo_tag(config: config) }
@@ -52,24 +69,6 @@ RSpec.describe Author do
       let(:photo_tag) { author.photo_tag(config: config) }
       it "returns a placeholder photo tag" do
         expect(photo_tag).to match(/Placeholder image for post author No Face \(18F logo\)/)
-      end
-    end
-  end
-
-  describe "#published?" do
-    before(:each) { Author.files_dir = files_dir }
-    context "with an author who has a published blog post" do
-      let(:list) { ["matt-cloyd", "no-face"] }
-      let(:author) { Author.find_by(slug: "matt-cloyd") }
-      it "returns true" do
-        expect(author.published?(list: list)).to be true
-      end
-    end
-    context "with an author who authored nothing" do
-      let(:list) { ["no-face"] }
-      let(:author) { Author.find_by(slug: "matt-cloyd") }
-      it "returns false" do
-        expect(author.published?(list: list)).to be false
       end
     end
   end

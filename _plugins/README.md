@@ -4,13 +4,11 @@ The 18F site uses a variety of custom plugins to modify how the site is rendered
 
 * [Filters](#filters)
   * [team_photo](#team_photo)
-  * [lookup](#lookup)
+  * [team_link](#team_link)
   * [embed](#embed)
 * [Markdown rendering](#markdown-rendering)
   * [markdown.rb](markdown.rb)
   * [redcarpet.rb](redcarpet.rb)
-* [Classes and Modules](#classes-and-modules)
-  * [AuthorData](#author-data)
 
 ## Filters
 
@@ -27,21 +25,6 @@ Yields:
 
 ```html
 <img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="18F team member Brian Hedberg">
-```
-
-### lookup
-**That takes an author slug as `input` and extracts from the dataset in the first arg the value of the key in the second arg for `input`. Lives in [author.rb](author.rb)**
-
-Takes two arguments, `input` and `args`
-
-```ruby
-lookup(input, args)
-```
-
-Example usage:
-
-```liquid
-  {{ "boone" | lookup:"authors, full_name" }}
 ```
 
 ### team_link
@@ -131,72 +114,4 @@ Example:
 ```bash
 {{ variable | debug }}
 
-```
-
-
-
-## Classes and Modules
-
-### SiteData
-
-The site data modules contains a single class, `AuthorData` and can be found in [author_data.rb](author_data.rb)
-
-### AuthorData
-
-Located in [author_data.rb](author_data.rb), `AuthorData` can be referenced within any of the plugins as `SiteData::AuthorData`.
-
-It is used to access data pertaining to certain authors. It is _sometimes_ preferable to referencing authors data via Jekyll Collections because it contains _all_ the author data, not just the data of the authors that have made blog posts.
-
-AuthorData has a few methods, `update`, `fetch`, `exists?`, `all_authors`, `published_authors`, and `unpublished_authors`.
-
-#### `update`
-Used to update an author's file. If I wanted to update the file `brian.md` to `published: true`, for instance, I could do as follows:
-
-```ruby
-author_data = SiteData::AuthorData.new
-author_data.update('brian.md', 'published', true)
-```
-
-#### `fetch`
-Can be used to find an attribute associated with an author. If I wanted to confirm that the `published` attribute was changed, I could do as follows:
-
-```ruby
-author_data.fetch('brian', 'published')
->> true
-```
-
-#### `exists?`
-Returns a Boolean and can be used to verify that an author has a file to update or fetch:
-
-    def exists?(name)
-      File.exist? "#{@path}/#{name}.md"
-    end
-
-```ruby
-author_data.exists? 'brian'
->> true
-```
-
-#### `all_authors`
-Returns an Array of all the authors who exist on the site.
-
-```ruby
-author_data.all_authors
->> [..., ...]
-```
-
-#### `published_authors`
-Returns an Array of all the authors who have published blog posts on [18f.gsa.gov](https://18f.gsa.gov).
-
-```ruby
-author_data.published_authors
->> [..., ...]
-```
-
-#### `all_authors`
-returns an Array of all the authors who exist on the site, but have not published any blog posts.
-
-```ruby
-author_data.unpublished_authors
->> [..., ...]
 ```

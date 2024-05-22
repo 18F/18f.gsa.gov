@@ -1,7 +1,8 @@
 module Jekyll
   module EmbedFilter
-    # Pass a url like {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
-    # It will spit out a standardized embed
+    # Given a URL, returns an embed
+    # Example:
+    #   {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
     def embed(input, title = "")
       title = title.empty? ? input : title
       "<div class='embed-container'><iframe src='#{input}' title='#{title}'" \

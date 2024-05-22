@@ -1,14 +1,14 @@
-class AuthorPhoto
+class Photo
 
   attr_reader :slug, :full_name, :config
 
-  def initialize(slug: , full_name: , config: Jekyll.sites[0].config)
+  def initialize(slug: , full_name: nil, config: Jekyll.sites[0].config)
     @slug = slug
-    @full_name = full_name
+    @full_name = full_name || humanized_name
     @config = config
   end
 
-  def photo_tag
+  def tag
     src, alt = image_src_and_alt
     "<img class='circle-15' src='#{src}' alt='#{alt}'>"
   end
@@ -30,5 +30,9 @@ class AuthorPhoto
 
   def placeholder_path
     @memo ||= File.join(config.fetch("baseurl"), "assets", "img", "logos", "18F-Logo-M.png")
+  end
+
+  def humanized_name
+    slug.split("-").map(&:capitalize).join(" ")
   end
 end
