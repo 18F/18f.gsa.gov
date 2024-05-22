@@ -77,6 +77,6 @@ Raktabija also queries Chandika on a daily basis to discover which services are 
 
 These tools should be considered *beta* quality since they’re still evolving rapidly. As always, we welcome pull requests and feedback!
 
-*Thanks to {{ "jayhuie" | team_link }}, {{ "holly" | team_link}}, and {{ "noah" | team_link }} for comprehensive feedback on early drafts of this blog post*
+*Thanks to {{ "jayhuie" | staff_link }}, {{ "holly" | staff_link}}, and {{ "noah" | staff_link }} for comprehensive feedback on early drafts of this blog post*
 
 *The web pages linked to in the article provided information for this post and readers may find them useful. However links do not represent an endorsement of these resources by 18F or the General Services Administration.*

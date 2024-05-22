@@ -20,6 +20,7 @@ end
 
 group :development do
   gem "colorize"
+  gem "foreman"
   gem "pry"
   gem "rb-readline"
   gem "rspec"

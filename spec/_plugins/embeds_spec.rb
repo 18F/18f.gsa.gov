@@ -1,4 +1,4 @@
-require_relative "../../_plugins/embeds"
+require_relative "../../_plugins/embed"
 
 RSpec.describe Jekyll::EmbedFilter do
   before(:each) do
