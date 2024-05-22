@@ -51,11 +51,13 @@ jobs:
             bundle exec jekyll build
             if test -f pa11y_targets; then
               echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+              export DO_PA11Y_SCAN=true >> "$BASH_ENV"
               echo "Changed files detected, pa11y scan will be performed on those files."
-              source "$BASH_ENV"
             else
+              export DO_PA11Y_SCAN=false >> "$BASH_ENV"
               echo "No changed files detected, pa11y scan will be skipped."
             fi
+            source "$BASH_ENV"
       - run: npm run htmlproofer
       - run:
           name: Run rspec
@@ -68,30 +70,25 @@ jobs:
           steps:
             - run:
                 name: Run full pa11y scan
-                command: |
-                  echo "Doing full pa11y scan."
-                  ./serve-pa11yci && npm run pa11y-sitemap
+                command: ./serve-pa11yci && npm run pa11y-sitemap
       # When someone pushes to a branch on GitHub with an open pull request
       # it makes a webhook POST to CircleCI that satisfies this condition
       - when:
           condition:
+          and:
             equal: [ webhook, << pipeline.trigger_source >> ]
+            equal: [ true, $DO_PA11Y_SCAN ]
           steps:
             - run:
                 name: Run pa11y scan on changed files
-                command: |
-                  if [[ -z "${PA11Y_TARGETS}" ]]; then
-                    echo "The pa11y targets environment variable was not found, no pa11y scan performed."
-                  else
-                    npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
-                  fi
+                command: npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
 workflows:
   version: 2
   nightly:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "45 * * * *"
+          cron: "0 * * * *"
           filters:
             branches:
               only:
