@@ -47,23 +47,34 @@ jobs:
           # that we can make pa11y-ci scan only those changed files
           # in the "Run pa11y scan on changed files" step if it's
           # needed, a full site scan does not use the pa11y_targets file
+          # If this pipeline run is triggered from a GitHub PR commit webhook
+          # we check for the pa11y_targets file
+          #  - if the file exists it means Jekyll found changed files and we will scan that list
+          #  - if the file does not exist it means Jekyll didn't detect any changed files and we skip the pa11y scan
+          # If this pipeline run is triggered by a schedule that's our nightly full pa11y scan
+          # which doesn't need to interact with PA11Y_TARGETS since it runs off the sitemap to do a fulll scan
           command: |
             bundle exec jekyll build
-            if test -f pa11y_targets; then
-              echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
-              export DO_PA11Y_SCAN=true >> "$BASH_ENV"
-              echo "Changed files detected, pa11y scan will be performed on those files."
-            else
-              export DO_PA11Y_SCAN=false >> "$BASH_ENV"
-              echo "No changed files detected, pa11y scan will be skipped."
+            if [[ << pipeline.trigger_source >> == "webhook" ]]; then
+              if test -f pa11y_targets; then
+                echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+                export DO_PA11Y_SCAN=true >> "$BASH_ENV"
+                echo "Changed files detected, pa11y scan will be performed on those files."
+              else
+                export DO_PA11Y_SCAN=false >> "$BASH_ENV"
+                echo "No changed files detected, pa11y scan will be skipped."
+              fi
+              source "$BASH_ENV"
             fi
-            source "$BASH_ENV"
+            
+            if [[ << pipeline.trigger_source >> == "schedule" ]]; then
+              echo "Scheduled workflow detected, full pa11y scan will be performed."
+            fi
       - run: npm run htmlproofer
       - run:
           name: Run rspec
           command: bundle exec rspec `pwd`/spec/
-      # The nightly full pa11y scan is triggered from a scheduled pipeline
-      # which satisfies this condition
+      # The nightly full pa11y scan is triggered from a scheduled pipeline which satisfies this condition
       - when:
           condition:
             equal: [ schedule, << pipeline.trigger_source >> ]
@@ -88,7 +99,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "25 * * * *"
+          cron: "15 * * * *"
           filters:
             branches:
               only:
