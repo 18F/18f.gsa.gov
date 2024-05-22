@@ -10,6 +10,9 @@ jobs:
       LC_ALL: "en_US.UTF-8"
     steps:
       - run:
+          name: Test env secret
+          command: echo $FOOBAR
+      - run:
           name: Fix locales
           command: |
             sudo locale-gen en_US.UTF-8
