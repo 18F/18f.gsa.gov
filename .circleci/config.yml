@@ -51,7 +51,10 @@ jobs:
             bundle exec jekyll build
             if test -f pa11y_targets; then
               echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
+              echo "Changed files detected, pa11y scan will be performed on those files."
               source "$BASH_ENV"
+            else
+              echo "No changed files detected, pa11y scan will be skipped."
             fi
       - run: npm run htmlproofer
       - run:
@@ -65,7 +68,9 @@ jobs:
           steps:
             - run:
                 name: Run full pa11y scan
-                command: ./serve-pa11yci && npm run pa11y-sitemap
+                command: |
+                  echo "Doing full pa11y scan."
+                  ./serve-pa11yci && npm run pa11y-sitemap
       # When someone pushes to a branch on GitHub with an open pull request
       # it makes a webhook POST to CircleCI that satisfies this condition
       - when:
@@ -76,10 +81,10 @@ jobs:
                 name: Run pa11y scan on changed files
                 command: |
                   if [[ -z "${PA11Y_TARGETS}" ]]; then
-                    npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
-                  else
                     echo "The pa11y targets environment variable was not found, no pa11y scan performed."
                     exit 1
+                  else
+                    npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
                   fi
 workflows:
   version: 2
