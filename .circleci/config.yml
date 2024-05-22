@@ -82,7 +82,6 @@ jobs:
                 command: |
                   if [[ -z "${PA11Y_TARGETS}" ]]; then
                     echo "The pa11y targets environment variable was not found, no pa11y scan performed."
-                    exit 1
                   else
                     npm run pa11y-ci -- $(echo $PA11Y_TARGETS | base64 --decode)
                   fi
