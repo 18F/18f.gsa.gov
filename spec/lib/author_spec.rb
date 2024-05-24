@@ -136,4 +136,21 @@ RSpec.describe Author do
       end
     end
   end
+
+  describe "link_tag" do
+    before(:each) { Author.files_dir = files_dir }
+    let(:config) { {"baseurl" => "spec/support"} }
+    let(:post_authors) { ["19G"] }
+    let(:link_tag) {
+      author.link_tag(list: post_authors, config: config)
+    }
+
+    context "with special 18F case (upper-case F)" do
+      let(:author) { Author.find_by(slug: "19G") }
+      it "produces a downcased path in the tag" do
+        expect(link_tag).to match(/author\/19g/)
+        expect(link_tag).to_not match(/author\/19G/)
+      end
+    end
+  end
 end

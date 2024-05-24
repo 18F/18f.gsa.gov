@@ -29,20 +29,20 @@ class Author < Collection
     Photo.new(slug: slug, config: config).tag
   end
 
-  def path(config: Jekyll.sites[0].config)
-    "#{config.fetch("baseurl")}/author/#{slug}"
-  end
-
-  def link_tag(config: Jekyll.sites[0].config)
-    if published?
-      "<a class='post-author' itemprop='name' href='#{path}'>#{full_name}</a>"
+  # @smell Too many dependencies being injected. This maybe wants to
+  #  be a service object.
+  def link_tag(list: Post.author_slugs, config: Jekyll.sites[0].config)
+    if published?(list: list)
+      "<a class='post-author' itemprop='name' href='#{path(config: config)}'>#{full_name}</a>"
     else
       full_name
     end
   end
 
+  # Most slugs are fine as-is, but 18F needs to be downcased because
+  # of how it's specified in author frontmatter
   def published?(list: Post.author_slugs)
-    list.include?(slug)
+    list.map(&:downcase).include?(slug.downcase)
   end
 
   def update_published!(list: Post.author_slugs)
@@ -81,6 +81,10 @@ class Author < Collection
   end
 
   private
+
+  def path(config: Jekyll.sites[0].config)
+    "#{config.fetch("baseurl")}/author/#{slug.downcase}"
+  end
 
   def warn_about_unpublishing
     warn "Author #{full_name} was formerly published, updating to un-published. This shouldn't be a normal occurrence."
