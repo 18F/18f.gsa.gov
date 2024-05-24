@@ -8,10 +8,11 @@ require_relative './post'
 # powers the staff_link and staff_photo filters.
 class Author < Collection
 
-  attr_reader :data
+  attr_reader :data, :file
 
   def initialize(slug)
-    @data = YAML.load_file(File.join(self.class.files_dir, "#{slug}.md"))
+    @file = File.join(self.class.files_dir, "#{slug}.md")
+    load_data
   end
 
   # @return [String] The author's full name
@@ -45,6 +46,14 @@ class Author < Collection
     list.include?(slug)
   end
 
+  def update_published!(list: Post.author_slugs)
+    return false if data.fetch("published") == published?(list: list)
+    warn_about_unpublishing if data["published"]
+    @data["published"] = !@data["published"]
+    File.open(file, "w") { |f| f.write @data.to_yaml }
+    load_data
+  end
+
   # @return [Array<Author>] All authors
   def self.all
     all_slugs.map { |slug| new(slug) }
@@ -58,6 +67,14 @@ class Author < Collection
   end
 
   private
+
+  def warn_about_unpublishing
+    warn "Author #{full_name} was formerly published, updating to un-published. This shouldn't be a normal occurrence."
+  end
+
+  def load_data
+    @data = YAML.load_file(file)
+  end
 
   # Ensures that the slug in the author file path (e.g. "_authors/matt-cloyd.md") matches
   #   the author `name` property inside the file. Mismatched slugs could cause problems.

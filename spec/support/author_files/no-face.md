@@ -1,7 +1,6 @@
 ---
 name: no-face
-first_name: "No"
+first_name: 'No'
 last_name: Face
 full_name: No Face
-published: true
----
+published: false
