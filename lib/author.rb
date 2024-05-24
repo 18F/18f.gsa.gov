@@ -4,7 +4,8 @@ require_relative './collection'
 require_relative './photo'
 require_relative './post'
 
-
+# This Author collection class manages author data, and
+# powers the staff_link and staff_photo filters.
 class Author < Collection
 
   attr_reader :data
@@ -13,10 +14,12 @@ class Author < Collection
     @data = YAML.load_file(File.join(self.class.files_dir, "#{slug}.md"))
   end
 
+  # @return [String] The author's full name
   def full_name
     @data.fetch("full_name")
   end
 
+  # @return [String] The author's slug, aka the `name` property in the file.
   def slug
     @data.fetch("name")
   end
@@ -42,12 +45,14 @@ class Author < Collection
     list.include?(slug)
   end
 
+  # @return [Array<Author>] All authors
   def self.all
     all_slugs.map { |slug| new(slug) }
   end
 
   # Gets author slugs (e.g. "matt-cloyd") from all the files in the authors collection (e.g. "_authors")
   # Used to determine who has published a blog post
+  # @return [Array<String>]
   def self.all_slugs
     @all_slugs ||= self.files.map { |path| ensure_matching_slug(path) }
   end
@@ -56,6 +61,7 @@ class Author < Collection
 
   # Ensures that the slug in the author file path (e.g. "_authors/matt-cloyd.md") matches
   #   the author `name` property inside the file. Mismatched slugs could cause problems.
+  # @return [String] The matching slug
   def self.ensure_matching_slug(path)
     path_slug = File.basename(path, File.extname(path))
     file_slug = YAML.load_file(path).fetch("name")

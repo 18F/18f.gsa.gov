@@ -1,3 +1,5 @@
+# This Photo class handles the logic behind fetching
+# and displaying photos of team members.
 class Photo
 
   attr_reader :slug, :full_name, :config
