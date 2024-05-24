@@ -1,13 +1,12 @@
-require 'yaml'
-require 'jekyll'
-require_relative './collection'
-require_relative './photo'
-require_relative './post'
+require "yaml"
+require "jekyll"
+require_relative "collection"
+require_relative "photo"
+require_relative "post"
 
 # This Author collection class manages author data, and
 # powers the staff_link and staff_photo filters.
 class Author < Collection
-
   attr_reader :data, :file
 
   def initialize(slug)
@@ -50,7 +49,7 @@ class Author < Collection
     return false if data.fetch("published") == published?(list: list)
     warn_about_unpublishing if data["published"]
     @data["published"] = !@data["published"]
-    File.open(file, "w") { |f| f.write @data.to_yaml }
+    File.write(file, @data.to_yaml)
     load_data
   end
 
@@ -63,7 +62,22 @@ class Author < Collection
   # Used to determine who has published a blog post
   # @return [Array<String>]
   def self.all_slugs
-    @all_slugs ||= self.files.map { |path| ensure_matching_slug(path) }
+    @all_slugs ||= files.map { |path| ensure_matching_slug(path) }
+  end
+
+  # Ensures that the slug in the author file path (e.g. "_authors/matt-cloyd.md") matches
+  #   the author `name` property inside the file. Mismatched slugs could cause problems.
+  # @return [String] The matching slug
+  class << self
+    def ensure_matching_slug(path)
+      path_slug = File.basename(path, File.extname(path))
+      file_slug = YAML.load_file(path).fetch("name")
+      return path_slug if path_slug == file_slug
+      raise <<~ERR
+        Author slug in file `#{path}` does not match the `name` property inside, "#{file_slug}".
+        Please change either the file path or the `name` property to make them match.
+      ERR
+    end
   end
 
   private
@@ -74,18 +88,5 @@ class Author < Collection
 
   def load_data
     @data = YAML.load_file(file)
-  end
-
-  # Ensures that the slug in the author file path (e.g. "_authors/matt-cloyd.md") matches
-  #   the author `name` property inside the file. Mismatched slugs could cause problems.
-  # @return [String] The matching slug
-  def self.ensure_matching_slug(path)
-    path_slug = File.basename(path, File.extname(path))
-    file_slug = YAML.load_file(path).fetch("name")
-    return path_slug if path_slug == file_slug
-    raise RuntimeError, <<~ERR
-      Author slug in file `#{path}` does not match the `name` property inside, \"#{file_slug}\".
-      Please change either the file path or the `name` property to make them match.
-    ERR
   end
 end

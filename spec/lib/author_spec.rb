@@ -54,7 +54,7 @@ RSpec.describe Author do
   # Testing file paths is proving tricky.
   describe "#photo_tag" do
     before(:each) { Author.files_dir = files_dir }
-    let(:config) { { "baseurl" => "spec/support" } }
+    let(:config) { {"baseurl" => "spec/support"} }
 
     let(:author) { Author.find_by(slug: "matt-cloyd") }
     let(:photo_tag) { author.photo_tag(config: config) }
@@ -79,11 +79,11 @@ RSpec.describe Author do
     end
   end
 
-  def set_author_file_published(slug, status=true)
+  def set_author_file_published(slug, status = true)
     path = author_file_path(slug)
     data = YAML.load_file(path)
     data["published"] = status
-    File.open(path, "w") { |f| f.write data.to_yaml }
+    File.write(path, data.to_yaml)
   end
 
   def author_file_published?(slug)
@@ -136,5 +136,4 @@ RSpec.describe Author do
       end
     end
   end
-
 end

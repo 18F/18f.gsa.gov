@@ -1,14 +1,14 @@
 # Abstract class for managing collections (e.g. Posts, Authors)
 class Collection
-  def self.find_by(slug: )
+  def self.find_by(slug:)
     return nil unless all_slugs.detect { |file_slug| file_slug == slug }
     new(slug)
   end
 
-  def self.find_by!(slug: )
+  def self.find_by!(slug:)
     maybe_record = find_by(slug: slug)
     if maybe_record.nil?
-      raise RuntimeError, "No #{self.name} record found for \"#{slug}\""
+      raise "No #{name} record found for \"#{slug}\""
     end
     maybe_record
   end
@@ -20,10 +20,10 @@ class Collection
   end
 
   def self.files_dir
-    @files_dir ||= "_#{self.name.downcase}s"
+    @files_dir ||= "_#{name.downcase}s"
   end
 
   def self.files(ext: "*.md")
-    Dir.glob(File.join(self.files_dir, ext))
+    Dir.glob(File.join(files_dir, ext))
   end
 end

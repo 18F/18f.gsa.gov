@@ -3,7 +3,7 @@ require_relative "../../lib/photo"
 describe Photo do
   let(:slug) { "matt-cloyd" }
   let(:full_name) { "Matt Cloyd" }
-  let(:config) { { "baseurl" => "spec/support" } }
+  let(:config) { {"baseurl" => "spec/support"} }
   let(:photo) { Photo.new(slug: slug, full_name: full_name, config: config) }
 
   describe "#tag" do

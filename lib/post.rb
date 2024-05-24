@@ -1,5 +1,5 @@
-require 'date'
-require 'yaml'
+require "date"
+require "yaml"
 
 # This Post collection class is primarily used for collecting
 # author slugs from posts, so that Author#published? can

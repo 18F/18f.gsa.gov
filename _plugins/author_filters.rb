@@ -1,5 +1,5 @@
-require_relative '../lib/author'
-require_relative '../lib/photo'
+require_relative "../lib/author"
+require_relative "../lib/photo"
 
 module Jekyll
   module AuthorLinkFilter

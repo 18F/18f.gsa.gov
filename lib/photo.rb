@@ -1,10 +1,9 @@
 # This Photo class handles the logic behind fetching
 # and displaying photos of team members.
 class Photo
-
   attr_reader :slug, :full_name, :config
 
-  def initialize(slug: , full_name: nil, config: Jekyll.sites[0].config)
+  def initialize(slug:, full_name: nil, config: Jekyll.sites[0].config)
     @slug = slug
     @full_name = full_name || humanized_name
     @config = config
