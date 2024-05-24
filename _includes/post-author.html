@@ -7,7 +7,7 @@
   By
   {% for author in authors %}
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        {{ author | team_link }}
+        {{ author | staff_link }}
     </span>
     {% assign authorCount = authors | size %}
     {%- if authorCount > 1 -%}

@@ -3,8 +3,8 @@
 The 18F site uses a variety of custom plugins to modify how the site is rendered.
 
 * [Filters](#filters)
-  * [team_photo](#team_photo)
-  * [team_link](#team_link)
+  * [staff_photo](#staff_photo)
+  * [staff_link](#staff_link)
   * [embed](#embed)
 * [Markdown rendering](#markdown-rendering)
   * [markdown.rb](markdown.rb)
@@ -12,13 +12,13 @@ The 18F site uses a variety of custom plugins to modify how the site is rendered
 
 ## Filters
 
-### team_photo
+### staff_photo
 **Accepts the author's name as the first argument. Lives in [team.rb](team.rb)**
 
 Example usage:
 
 ```liquid
-{{ 'brian' | team_photo }}
+{{ 'brian' | staff_photo }}
 ```
 
 Yields:
@@ -27,7 +27,7 @@ Yields:
 <img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="18F team member Brian Hedberg">
 ```
 
-### team_link
+### staff_link
 **Will look for an entry in the authors data file named "boone" and return a link labeled Greg Boone and linked to his author page. Lives in [author.rb](author.rb)**
 
 
