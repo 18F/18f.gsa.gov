@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "mocha": true
+  },
+  "ignorePatterns": ["/_site"],
+  "extends": ["eslint-config-airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-param-reassign": ["error", { "props": false }],
+    "quotes": ["error", "single"],
+    "no-iterator": ["off"],
+    "no-return-await": ["off"]
+  }
+}

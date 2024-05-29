@@ -1,0 +1,20 @@
+@media (min-width: 64em) {
+  /*
+    Overrides USWDS extended header submenu.
+    This is fixed in https://github.com/uswds/uswds/pull/5649
+    and will be released in v3.7.1
+  */
+  .usa-nav__submenu .usa-nav__submenu-item a {
+    padding-left: 1rem;
+  }
+  /* end override */
+
+
+  /* Adds white border around submenu to accommodate dark banners underneath submenu */
+  .usa-nav__submenu {
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-top: 0;
+  }
+}

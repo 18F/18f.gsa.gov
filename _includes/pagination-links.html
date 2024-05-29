@@ -1,0 +1,161 @@
+{% for p in pagination.pages %}
+  {% if page.url == pagination.hrefs[ forloop.index0 ] %}
+    {% assign current_page_number = forloop.index %}
+  {% endif %}
+{% endfor %}
+
+
+{% assign total_pages = pagination.pages | size %}
+{% assign first_page_diff = current_page_number | minus: 1 %}
+{% assign last_page_diff = total_pages | minus: current_page_number %}
+
+{% if total_pages > 1 %}
+<nav aria-label="Pagination" class="usa-pagination padding-top-2">
+  <ul class="usa-pagination__list">
+    {% if pagination.href.previous %}
+    <li class="usa-pagination__item usa-pagination__arrow">
+      <a
+        href="{{ pagination.href.previous | url }}"
+        class="usa-pagination__link usa-pagination__previous-page"
+        aria-label="Previous page"
+      >
+        {% uswds_icon "navigate_before" %}
+        <span class="usa-pagination__link-text"> Previous </span>
+      </a>
+    </li>
+    {% endif %}
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="{{ pagination.href.first | url }}"
+        class="usa-pagination__button{% if current_page_number == 1 %} usa-current{% endif %}"
+        aria-label="Page {{pagination.href.first}}"
+      >
+        1
+      </a>
+    </li>
+
+    {% if first_page_diff >= 3 %}
+      <li
+        class="usa-pagination__item usa-pagination__overflow"
+        role="presentation"
+      >
+        <span> … </span>
+      </li>
+    {% endif %}
+
+    {% comment %} Show all five pages button links {% endcomment %}
+    {% if total_pages <= 5 and total_pages > 2 %}
+      {% assign midpages = total_pages | minus: 1 %}
+      {% for pageIndex in (2..midpages) %}
+        {% comment %} Account for the 0 index {% endcomment %}
+        {% assign pageIndex0 = pageIndex | minus: 1 %}
+        <li class="usa-pagination__item usa-pagination__page-no">
+          <a
+            href="{{ pagination.hrefs[pageIndex0] | url }}"
+            class="usa-pagination__button{% if current_page_number == pageIndex %} usa-current{% endif %}"
+            aria-label="Page {{pagination.hrefs[pageIndex0]}}"
+          >
+            {{ pageIndex }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% comment %} Show three page button links in between the first and last {% endcomment %}
+    {% if first_page_diff >= 3 and last_page_diff >= 3 %}
+      {% assign previous_page_number = current_page_number | minus: 1 %}
+      {% assign next_page_number = current_page_number | plus: 1 %}
+      {% for pageIndex in (previous_page_number..next_page_number) %}
+        {% comment %} Account for the 0 index {% endcomment %}
+        {% assign pageIndex0 = pageIndex | minus: 1 %}
+        <li class="usa-pagination__item usa-pagination__page-no">
+          <a
+            href="{{ pagination.hrefs[pageIndex0] | url }}"
+            class="usa-pagination__button{% if current_page_number == pageIndex %} usa-current{% endif %}"
+            aria-label="Page {{pagination.hrefs[pageIndex0]}}"
+          >
+            {{ pageIndex }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% comment %} Show the starting page button links and a trail to the last {% endcomment %}
+    {% if first_page_diff < 3 and last_page_diff >= 3 %}
+      {% assign previous_page_number = current_page_number | minus: 1 %}
+      {% assign next_page_number = current_page_number | plus: 1 %}
+      {% for pageIndex in (previous_page_number..next_page_number) %}
+        {% if pageIndex <= 1 %}
+          {% continue %}
+        {% endif %}
+        {% comment %} Account for the 0 index {% endcomment %}
+        {% assign pageIndex0 = pageIndex | minus: 1 %}
+        <li class="usa-pagination__item usa-pagination__page-no">
+          <a
+            href="{{ pagination.hrefs[pageIndex0] | url }}"
+            class="usa-pagination__button{% if current_page_number == pageIndex %} usa-current{% endif %}"
+            aria-label="Page {{pagination.hrefs[pageIndex0]}}"
+          >
+            {{ pageIndex }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% comment %} Show the starting page button link, a trail to the last page button links {% endcomment %}
+    {% if first_page_diff >= 3 and last_page_diff < 3 %}
+      {% assign previous_page_number = current_page_number | minus: 1 %}
+      {% assign next_page_number = current_page_number | plus: 1 %}
+      {% for pageIndex in (previous_page_number..next_page_number) %}
+        {% comment %} Account for the 0 index {% endcomment %}
+        {% if pageIndex >= total_pages %}
+          {% continue %}
+        {% endif %}
+        {% assign pageIndex0 = pageIndex | minus: 1 %}
+        <li class="usa-pagination__item usa-pagination__page-no">
+          <a
+            href="{{ pagination.hrefs[pageIndex0] | url }}"
+            class="usa-pagination__button{% if current_page_number == pageIndex %} usa-current{% endif %}"
+            aria-label="Page {{pagination.hrefs[pageIndex0]}}"
+          >
+            {{ pageIndex }}
+          </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if last_page_diff >= 3 %}
+      <li
+        class="usa-pagination__item usa-pagination__overflow"
+        role="presentation"
+      >
+        <span> … </span>
+      </li>
+    {% endif %}
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="{{ pagination.href.last | url }}"
+        class="usa-pagination__button{% if current_page_number == total_pages %} usa-current{% endif %}"
+        aria-label="Page {{pagination.href.last}}"
+      >
+        {{ total_pages }}
+      </a>
+    </li>
+
+    {% if pagination.href.next %}
+    <li class="usa-pagination__item usa-pagination__arrow">
+      <a
+        href="{{ pagination.href.next | url }}"
+        class="usa-pagination__link usa-pagination__next-page"
+        aria-label="Next page"
+      >
+        <span class="usa-pagination__link-text"> Next </span>
+        {% uswds_icon "navigate_next" %}
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}

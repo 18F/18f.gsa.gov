@@ -1,0 +1,97 @@
+name: pull request
+
+on: [pull_request]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    outputs:
+      cache_key: ${{ steps.cache_key.outputs.cache_key }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - id: cache_key
+        run: echo "cache_key=${{ hashFiles('**/**') }}-v1" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v3
+        id: cache
+        with:
+          path: .
+          key: ${{ steps.cache_key.outputs.cache_key }}
+      - if: steps.cache.outputs.cache-hit != true
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - if: steps.cache.outputs.cache-hit != true
+        run: npm install
+      - if: steps.cache.outputs.cache-hit != true
+        env:
+          ELEVENTY_ENV: production
+        run: npm run build
+
+  pa11y-scan:
+    # Pinned to 20.04 because pa11y-ci fails to run on 22.04
+    # See the discussion on https://github.com/pa11y/pa11y-ci/issues/198
+    # and https://github.com/pa11y/pa11y/issues/651
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install node dependencies
+        run: npm install
+      - name: Refresh assets
+        run: npm run assets:refresh
+      - name: Accessibility scan
+        run: npm run test:pa11y-ci
+
+  validate_html:
+    needs: [build]
+    name: validate html
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v3
+        with:
+          key: ${{ needs.build.outputs.cache_key }}
+          path: .
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm run test:html-validation
+
+
+  check_links:
+    needs: [build]
+    name: Check all links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v3
+        with:
+          key: ${{ needs.build.outputs.cache_key }}
+          path: .
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Test all links
+        run: npm run test:links
+
+  lint:
+    name: Run linter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install node dependencies
+        run: npm install
+      - name: Run eslint
+        run: npm run lint

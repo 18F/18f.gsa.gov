@@ -1,0 +1,84 @@
+@use 'brand-colors' as *;
+@use 'uswds-core' as * with (
+
+  /*---------------------------------------------------------
+  # Meta Settings
+  ----------------------------------------------------------*/
+  $theme-show-notifications: false,
+  $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
+
+
+  /*---------------------------------------------------------
+  # Global Settings
+  ----------------------------------------------------------*/
+  $theme-global-link-styles: true,
+
+
+  /*---------------------------------------------------------
+  # Typography Settings
+  ----------------------------------------------------------*/
+  $theme-font-type-sans: 'helvetica',
+  $theme-font-role-heading: 'sans',
+  $theme-body-font-size: 'md',
+  $theme-font-weight-semibold: 700,
+
+
+  /*---------------------------------------------------------
+  # Color Settings
+  ----------------------------------------------------------*/
+
+  /*------------------------------------------------
+  ## Primary color
+  -------------------------------------------------*/
+  $theme-color-primary-darkest: 'blue-90',
+  $theme-color-primary-darker: $brand-color-dark,
+  $theme-color-primary-dark: 'blue-70v',
+  $theme-color-primary: $brand-color-medium,
+  $theme-color-primary-light: 'blue-cool-40v',
+  $theme-color-primary-lighter: 'blue-cool-20v',
+  $theme-color-primary-lightest: $brand-color-light,
+
+  /*------------------------------------------------
+  ## Ink color
+  -------------------------------------------------*/ 
+  $theme-color-base-ink: 'blue-90',
+
+  /*------------------------------------------------
+  ## Accent color
+  -------------------------------------------------*/
+  $theme-color-accent-cool-darkest: 'cyan-80v',
+  $theme-color-accent-cool-darker: 'cyan-70v',
+  $theme-color-accent-cool-dark: 'cyan-50v',
+  $theme-color-accent-cool: $brand-color-bright,
+  $theme-color-accent-cool-light: 'cyan-20v',
+  $theme-color-accent-cool-lighter: 'cyan-10v',
+  $theme-color-accent-cool-lightest: 'blue-5',
+
+  /*------------------------------------------------
+  ## Error color
+  -------------------------------------------------*/
+  $theme-color-error-lighter: 'red-warm-5v',
+   
+  /*---------------------------------------------------------
+  # Component Settings
+  ----------------------------------------------------------*/
+
+  /*------------------------------------------------
+  ## Header width
+  -------------------------------------------------*/ 
+  $theme-header-logo-text-width: 70%,
+
+  /*---------------------------------------------------------
+  # Utility Settings
+  ----------------------------------------------------------*/
+  $theme-utility-breakpoints: (
+    'tablet-lg': true,
+  ),
+
+  /*------------------------------------------------
+  ## Tables
+  -------------------------------------------------*/ 
+  $theme-table-header-background-color: base-lightest,
+
+);

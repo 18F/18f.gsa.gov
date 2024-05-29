@@ -1,0 +1,14 @@
+<!-- BEGIN META REDIRECT -->
+<head>
+  {% if is_index %}
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
+  {% else %}
+    <meta name="robots" content="noindex" />
+    {% assign guide_name = tags[0] %}
+    {% assign redirect_base = redirect_bases[guide_name] %}
+    {% assign page_path = page.url | remove: titles_roots[guide_name].root %}
+    <meta http-equiv="refresh" content="0;URL='{{redirect_base | append: page_path}}'" />
+  {% endif %}
+</head>
+<!-- END META REDIRECT -->

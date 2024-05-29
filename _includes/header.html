@@ -1,93 +1,68 @@
-{% include usa-banner.html %}
-<div class="usa-overlay"></div>
-  <header class="usa-header usa-header--basic usa-header--basic-megamenu" role="banner">
-    <div class="usa-nav-container">
-      <div class="usa-navbar">
-        <div class="usa-logo" id="header-logo">
-          <a
-            href="{{ site.baseurl }}/"
-            title="Home"
-          >
-            <img
-                class="usa-logo-img"
-                src="{{site.baseurl}}/assets/img/logos/18f-logo.svg"
-                alt="18F home page"
-            >
-          </a>
-        </div>
-      <button class="usa-menu-btn">Menu</button>
-    </div>
+{% comment %}
+This appears at the top of the page letting the user know it's an
+official government website
+{% endcomment %}
 
-    <!-- usa-nav__inner div removed to fit navigation -->
-    <nav role="navigation" class="usa-nav">
-      <button class="usa-nav__close">
-        <img src="{{ site.baseurl }}/assets/uswds/img/usa-icons/close.svg" alt="close">
-      </button>
-      {%- assign primary_links = site.data.navigation.primary -%}
-      {%- if primary_links -%}
-      <ul class="usa-nav__primary usa-accordion">
-        {% for _section in primary_links %}
-        <li class="usa-nav__primary-item">
-        {% if _section.links %}
-          {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
-          {% assign _section_id = _section.id %}
-          {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ _section_id }}">
-            <span>{{ _section.text }}</span>
-          </button>
-          <div id="{{ _section_id }}" class="usa-nav__submenu usa-megamenu">
-            <div class="grid-row grid-gap-4">
-              {% for _link in section_links %}
-                <!-- wrap every 3 links in a usa-megamenu-col div -->
-                {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
-                  {% if modulo == '1' %}
-                  <div class="desktop:grid-col-3">
-                    <ul class="usa-nav__submenu-list">
-                  {% endif %}
-                      <li class="usa-nav__submenu-item">
-                        <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
-                      </li>
-                  {% if modulo == '0' or forloop.last %}
-                    </ul>
-                  </div>
-                  {% endif %}
-              {% endfor %}
-            </div><!-- /grid-row -->
-          </div>
-        {% else %}
-          {% assign nav_item_class = "" %}
-          {% assign current_item  = "" %}
-        {%- if _section.class -%}
-          {% assign nav_item_class = _section.class %} 
-        {%- elsif _section.href contains '/contact' -%}
-          {% assign nav_item_class = "usa-button an18f-button--dark margin-top-3 desktop:margin-top-0 desktop:margin-x-2"  %}
-        {%- else -%} 
-          {% assign nav_item_class = "usa-nav__link" %}
-        {%- endif -%} 
-        {% if _section.href == page.permalink %} 
-          {% assign current_item = "usa-current" %}
-        {% endif %} 
-        {% if _section.href == '/blog/' and page.permalink == False -%} 
-          {% assign current_item = "usa-current" %}
-        {% endif -%}
-          <a class="{{ nav_item_class }} {{ current_item }}"
-             href="{%- if _section.external -%} {{ _section.href }} {%- else -%} {{ _section.href | relative_url }} {%- endif -%}"><span>{{ _section.text }}</span>
-          </a>
-            {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if site.search_site_handle  %}
-      <a href="https://search.usa.gov/search?utf8=%E2%9C%93&affiliate=18F-site&query=&commit="
-         class="usa-button padding-x-2"
+<div class="page-landing-page layout-demo ">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <section
+        id="gov-banner-header-section"
+        aria-label="USA Gov banner section header"
+        class="usa-banner__header"
       >
-        <img src="{{site.baseurl}}/assets/uswds/img/usa-icons-bg/search--white.svg"
-             alt="Search"
-        >
-      </a>
-      {% endif %}
-    </nav>
+        <div class="usa-banner__inner">
+          <div class="grid-col-auto">
+            {% image_with_class "./node_modules/@uswds/uswds/dist/img/us_flag_small.png" "usa-banner__header-flag" "U.S. flag" %}
+          </div>
+          <div class="grid-col-fill tablet:grid-col-auto">
+            <p class="usa-banner__header-text">
+              An official website of the United States government
+            </p>
+            <p class="usa-banner__header-action" aria-hidden="true">
+              Here’s how you know
+            </p>
+          </div>
+          <button
+            class="usa-accordion__button usa-banner__button"
+            aria-expanded="false"
+            aria-controls="gov-banner"
+            type="button"
+          >
+            <span class="usa-banner__button-text">Here's how you know</span>
+          </button>
+        </div>
+      </section>
+      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+        <div class="grid-row grid-gap-lg">
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            {% comment %} {% image_with_class "./node_modules/@uswds/uswds/dist/img/icon-dot-gov.svg" "usa-banner__icon usa-media-block__img" "Dot gov" %} {% endcomment %}
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br />
+                Federal government websites often end in .gov or .mil. Before
+                sharing sensitive information, make sure you’re on a federal
+                government site.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            {% comment %} {% image_with_class "./node_modules/@uswds/uswds/dist/img/icon-https.svg" "usa-banner__icon usa-media-block__img" "Https" %} {% endcomment %}
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The site is secure.</strong>
+                <br />
+                The <strong>https://</strong> ensures that you are connecting to
+                the official website and that any information you provide is
+                encrypted and transmitted securely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</header>
+  <div class="usa-overlay"></div>
+</div>

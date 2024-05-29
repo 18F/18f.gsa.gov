@@ -1,0 +1,24 @@
+---
+layout: layouts/base
+---
+
+{% comment %}
+This template is used when you want to fill the width of the page. By default, it's only used in the homepage
+{% endcomment %}
+
+<div id="main-content" class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <main class="grid-col-12 usa-prose">
+        {%- if title -%}
+        <h1> {{ title }}</h1>
+        {%- endif -%}
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</div>
+
+{% if script %}
+  <script src="{{ script | url }}"></script>
+{% endif %}

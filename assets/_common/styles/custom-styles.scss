@@ -1,0 +1,205 @@
+@use 'uswds-core' as * ;
+
+$bullet-spacing: 1.25rem;
+
+// Highlight TODO links to make them visually standout
+.todo-link,
+a[href*="/TODO/"] {
+  color: color('blue-80v') !important;
+  background-color: color('gold-10v') !important;
+  padding: 0 units(0.5);
+
+  &:after  {
+    content: ' [link TBD]';
+  }
+
+  &:visited {
+    color: color('blue-80v') !important;
+  }
+}
+.todo-link.usa-link--external:after,
+a[href*="/TODO/"].usa-link--external:after {
+  background-color: inherit;
+  background-image: none;
+  margin-left: 0;
+  padding-left: units(0.5);
+  vertical-align: baseline;
+  -webkit-mask-image: none;
+}
+
+// Set heading colors
+h1, h2, h3, h4, h5, h6 {
+  color: color('primary-darker');
+}
+
+// Anchor link icon styling
+.heading-permalink {
+  opacity: 0.4;
+
+  &:visited {
+    color: color('primary');
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+  }
+
+  .usa-icon {
+    vertical-align: sub;
+    max-width: units(3);
+  }
+}
+
+// usa-prose overrides
+.usa-prose {
+  blockquote {
+    max-width: measure(2);
+  }
+
+  code {
+    word-wrap: break-word;
+  }
+
+  h2 {
+    margin-top: units(5);
+    &.page-title {
+      margin-top: units(0);
+      &.derisking {
+        padding-top: units(1);
+        border-top: 1px solid #1C304A;
+      }
+    }
+  }
+
+  li p {
+    margin-bottom: 0;
+  }
+}
+
+
+// usa-section overrides
+.hero .section__heading--white {
+  color: color('white');
+}
+
+// accent button
+a.usa-button--accent {
+  color: color('primary-darker');
+  background-color: color('accent-cool');
+
+  &:visited {
+    color: color('primary-darker');
+    background-color: inherit;
+  }
+
+  &:focus,
+  &:hover {
+    color: color('primary-darker');
+    background-color: color('accent-cool-lighter');
+  }
+
+  &:active {
+    background-color: color('accent-cool-lightest');
+  }
+}
+
+// Custom utilities
+.width-200 {
+  width: 200px;
+}
+
+// De-risking guide
+.first_page > h1 {
+  @include u-font('sans', '3xl');
+}
+
+.first_page > h2 {
+  @include u-font('sans', '2xl');
+  border-top: 1px solid color('primary-dark');
+  padding-top: units(1.5);
+}
+
+#footnotes {
+  @include u-font('sans', 'md');
+  border-top: 1px solid color('primary-dark');
+  padding-top: units(1.5);
+}
+
+.footnotes-list {
+  @include u-font('sans', 'xs');
+  max-width: measure(5);
+  padding-left: units(2);
+}
+
+figcaption {
+  font-style: italic;
+}
+
+figcaption details {
+  font-style: normal;
+}
+
+// Engineering Guide
+.heading-md {
+  @include u-font('sans', 'md');
+}
+
+h2.heading-md {
+  margin-top: units(2);
+}
+
+/* checklists and key questions */
+.guide-checklist,
+.key-questions {
+  @include u-font('sans','md');
+  color: color('white');
+  padding: units(1);
+}
+
+.guide-checklist {
+  background-color: color('primary');
+}
+
+.key-questions {
+  background-color: color('primary-darker');
+}
+
+.guide-checklist + ul,
+.key-questions + ul {
+  background-color: color('blue-5');
+  margin-top:0;
+  padding-top: units(1);
+  padding-right: units(2);
+  padding-bottom: units(1);
+}
+
+.guide-checklist + ul li,
+.key-questions + ul li {
+  margin-bottom: units(1);
+}
+
+.guide-checklist + ul,
+.guide-checklist + ul ul,
+.guide-checklist--single + ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: units(1);
+}
+
+.guide-checklist + ul li,
+.guide-checklist--single + ul li {
+  padding-left: $bullet-spacing;
+  text-indent: (-1 * $bullet-spacing);
+
+  &:before {
+    content: '\25A1';
+    padding-right: units(1);
+  }
+}
+
+/* interview templates */
+
+.example-user-interview-script code {
+  background: yellow;
+}

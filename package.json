@@ -1,63 +1,75 @@
 {
-  "name": "18f.gsa.gov",
-  "version": "1.0.0",
-  "description": "18F's flagship website",
-  "main": "config.yml",
-  "directories": {
-    "test": "tests"
-  },
-  "engines": {
-    "node": ">=18.7",
-    "npm": ">=7.24"
-  },
+  "name": "11ty-uswds-template",
+  "version": "0.0.2",
+  "description": "A 11ty UWDS template.",
+  "main": "index.js",
   "scripts": {
-    "federalist": "npm run uswds-build && mkdir ./.bundle && echo '---\nBUNDLE_GEMFILE: \"GemfileFederalist\"' > ./.bundle/config",
-    "htmlproofer": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --ignore_urls \"18f@gsa.gov\" --no-enforce-https",
-    "htmlproofer-local": "bundle exec htmlproofer _site --disable-external --allow-hash-href --ignore-empty-alt --ignore_urls \"localhost:4000\" --no-enforce-https --swap-urls \"^/site/:/\"",
-    "pa11y-ci": "pa11y-ci",
-    "pa11y-sitemap": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|/google\\d'",
-    "pa11y-limited": "pa11y-ci --sitemap http://localhost:4000/site/sitemap.xml --sitemap-exclude '.pdf|(/author/)|(/\\d+/)|/tags/|/google\\d'",
-    "pa11y-local": "./killport 4000 && ./serve-pa11yci && npm run pa11y-ci",
-    "restart": "rm -rf _site && ./serve",
-    "restart-fast": "rm -rf _site && ./serve-fast",
-    "uswds-compile-sass": "npx gulp compileSass",
-    "uswds-compile": "npx gulp compile",
-    "uswds-copy-assets": "npx gulp copyAssets",
-    "uswds-build": "npm run uswds-copy-assets && npm run uswds-compile",
-    "uswds-watch": "npx gulp watch",
-    "update-uswds": "cp -r node_modules/uswds/dist/* _sass/_libs/uswds"
+    "build": "npm run assets:build && npx @11ty/eleventy",
+    "assets:autoprefix": "postcss _site/assets/styles/*.css _site/assets/methods/styles/*.css -r --use autoprefixer",
+    "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
+    "assets:clean": "rimraf _site/assets",
+    "assets:refresh": "npm run assets:clean && npm run assets:build",
+    "assets:watch": "chokidar 'assets/' -c 'npm run assets:refresh' --polling",
+    "clean": "rimraf _site",
+    "dev": "npm run clean && npm-run-all -p dev:assets dev:serve",
+    "dev:clean": "npm run clean && npm run dev",
+    "dev:assets": "npm run assets:refresh && npm run assets:watch",
+    "dev:debug": "DEBUG=* npx @11ty/eleventy --serve --watch",
+    "dev:serve": "npx @11ty/eleventy --serve --watch",
+    "dev:cms": "npx netlify-cms-proxy-server",
+    "federalist": "npm run build",
+    "lint": "eslint .",
+    "pa11y-ci:sitemap": "sleep 10; pa11y-ci --sitemap http://localhost:8080/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\" --sitemap-find \"^/\" --sitemap-replace \"http://localhost:8080/\"",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:links": "npx check-html-links _site --ignore-link-pattern '**/TODO/' 2>&1 | tee /dev/stderr | grep ✅",
+    "test:links-internal": "npx check-html-links _site --ignore-link-pattern '**/TODO/'",
+    "test:html-validation": "html-validate _site/**/*.html",
+    "test:pa11y-ci": "npx start-server-and-test start 8080 pa11y-ci:sitemap"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/18F/18f.gsa.gov.git"
-  },
-  "keywords": [
-    "18f",
-    "site",
-    "blog"
-  ],
-  "author": "18F",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/18F/18f.gsa.gov/issues"
-  },
-  "homepage": "https://18f.gsa.gov",
+  "author": "",
+  "license": "CC0-1.0",
   "devDependencies": {
-    "@uswds/compile": "^1.1.0",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "chai": "^4.4.1",
+    "check-html-links": "^0.2.4",
+    "chokidar-cli": "^3.0.0",
+    "eleventy-plugin-svg-sprite": "^1.3.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "html-validate": "^8.18.2",
+    "js-yaml": "^4.1.0",
+    "jsdom": "^22.1.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6",
+    "mocha": "^10.4.0",
+    "netlify-cms": "^2.8.0",
+    "netlify-cms-proxy-server": "^1.3.23",
+    "npm-run-all": "^4.1.5",
     "pa11y-ci": "^3.1.0",
-    "standard": "*"
+    "postcss": "^8.4.38",
+    "postcss-cli": "^9.1.0",
+    "prettier": "3.2.5",
+    "rimraf": "^3.0.2",
+    "start-server-and-test": "^2.0.3"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.8",
     "@uswds/uswds": "3.8.0",
-    "accesslint-cli": "^2.0.0",
-    "jquery": "^3.7.1",
+    "autoprefixer": "^10.4.19",
+    "esbuild": "^0.20.2",
+    "esbuild-sass-plugin": "^3.2.0",
+    "luxon": "^2.3.1",
+    "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192"
   },
-  "standard": {
-    "ignore": [
-      "assets/js/**/*.min.js",
-      "assets/js/lib/",
-      "_sass/_libs/uswds/js/**/*.js"
-    ]
+  "mocha": {
+    "timeout": 15000
   }
 }

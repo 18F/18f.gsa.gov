@@ -1,0 +1,12 @@
+{% comment %}
+Use this partial when headings links aren't generated through markdown.
+Add this partial within the heading you want to link.
+Heading id must be the same as the slug passed to this partial.
+{% endcomment %}
+<a href="#{{ slug }}"
+  class="heading-permalink"
+  aria-label="Permalink for this section">
+  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+    <use xlink:href="#svg-link"></use>
+  </svg>
+</a>
