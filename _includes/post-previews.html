@@ -7,20 +7,20 @@
       <li class="border-bottom-1px border-base-lighter padding-y-6">
         <h2>
           <a href="{{ post.url | prepend: site.baseurl }}"
-             class="post-link text-no-underline" 
+             class="post-link text-no-underline"
              >
              {{ post.title }}
           </a>
         </h2>
         {% unless include.limit_metadata %}
         <p>
-          {% include post-author.html context='post' %} on
+          {% include "post-author.html" context='post' %} on
           <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         </p>
         {% endunless %}
         <p>{{ post.excerpt }}</p>
         {% unless include.limit_metadata %}
-          {% include post-tags.html post_tags=post.tags %}
+          {% include "post-tags.html" post_tags=post.tags %}
         {% endunless %}
       </li>
     {% endfor %}

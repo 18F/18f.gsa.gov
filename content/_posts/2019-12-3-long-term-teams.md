@@ -1,6 +1,6 @@
 ---
 title: "Long-term teams, not sudden handoffs"
-date: 2019-12-3
+date: 2019-12-03
 authors:
 - alex-soble
 - elizabeth-ayer

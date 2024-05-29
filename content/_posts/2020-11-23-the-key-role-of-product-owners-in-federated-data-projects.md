@@ -1,6 +1,6 @@
 ---
 title: The Key Role of Product Owners in Federated Data Projects
-date: November 24, 2020
+date: 2020-11-24
 authors:
   - princess-ojiaku
   - jennifer-damis

@@ -1,7 +1,7 @@
 ---
 title: "Building capacities within a government agency to build and support a
   new case management system: part 2"
-date: June 17, 2021
+date: 2021-06-17
 authors:
   - mike-marcotte
   - mark-meyer

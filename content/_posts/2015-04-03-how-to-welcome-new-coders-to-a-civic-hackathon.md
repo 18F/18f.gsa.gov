@@ -20,7 +20,7 @@ excerpt: "The National Day of Civic Hacking is a great time to attend — or ho
 description: "The National Day of Civic Hacking is a great time to attend — or host your first hackathon. We’ve outlined some strategies for first-time hackathon hosts to ensure new participants feel welcome, and help them maximize their contributions."
 ---
 
-{% oembed https://twitter.com/phildini/status/580879418337316864 %}
+{% oembed "https://twitter.com/phildini/status/580879418337316864" %}
 
 At 18F, our projects are [open source from the
 beginning](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) and

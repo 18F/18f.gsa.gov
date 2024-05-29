@@ -1,6 +1,6 @@
 ---
 title: "Exciting additions to analytics.usa.gov"
-date: 2016-06-17 12:00-400
+date: 2016-06-17 12:00:00 -4
 authors:
 - timlowden
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Does 18F pass the Bechdel test for tech?
-date: 2015-03-17 14:00:00
+date: 2015-03-17 14:00:00 -4
 layout: post
 image: /assets/blog/bechdel/team.jpg
 
@@ -18,7 +18,7 @@ excerpt: "How does the Bechdel test, originally designed for evaluating works fo
 Kaitlin Devine, 18F’s Director of Engineering recently noticed this
 tweet:
 
-{% oembed https://twitter.com/seldo/status/571453200093437952 %}
+{% oembed "https://twitter.com/seldo/status/571453200093437952" %}
 
 The coding Bechdel test, as described above, is a variant of the
 original Bechdel test, which was created by writer and graphic novelist

@@ -2,7 +2,10 @@
 {% if include.context == 'page' and page.authors %}
   {% assign authors = page.authors %}
 {% elsif include.context == 'post' and post.authors %}
-  {% assign authors = post.authors | to_yaml %}
+  {% comment %}
+    TODO: Removed to_yaml filter from this assignment. Does this break anything?
+  {% endcomment %}
+  {% assign authors = post.authors %}
 {% endif %}
   By
   {% for author in authors %}

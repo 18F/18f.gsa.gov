@@ -27,7 +27,7 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
       {% for guide in site.data.guides %}
         {% if guide.promoted %}
           <div class="tablet:grid-col-6 margin-bottom-5">
-            {% include card-with-image-guides.html 
+            {% include "card-with-image-guides.html"
               text_content=guide.name
               text_descrip=guide.description
               link_url=guide.link
@@ -43,7 +43,7 @@ These guides, and all of 18F's work, are in the [worldwide public domain](https:
       {% for guide in site.data.guides %}
         {% unless guide.promoted %}
           <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
-            {% include card-with-image-guides.html 
+            {% include "card-with-image-guides.html"
               text_content=guide.name
               text_descrip=guide.description
               link_url=guide.link

@@ -1,6 +1,6 @@
 ---
 title: "3 ways to manage research projects remotely"
-date: 2017-09-27 (optional)
+date: 2017-09-27
 authors: 
 - nicole-fenton
 - jamie

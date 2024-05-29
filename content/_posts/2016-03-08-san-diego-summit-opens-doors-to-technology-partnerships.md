@@ -1,6 +1,6 @@
 ---
 title: "San Diego summit opens doors to technology partnerships"
-date: 2016-03-08 13:22
+date: 2016-03-08 13:22:00 -5
 authors:
 - andrewmcmahon
 tags:

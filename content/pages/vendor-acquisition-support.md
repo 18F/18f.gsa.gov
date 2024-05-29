@@ -18,7 +18,7 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 
 {% endcapture %}
 
-{% include testimonial.html
+{% include "testimonial.html"
     quote="Designing the contract and the system the way we did — for OFA [our office] to have control and input and be so involved in the development — I think it facilitates the ability to be responsive. It’s just 180 degrees from our past experience. It’s so refreshing."
     attribution="Lauren Frohlich"
     position="Product Owner"

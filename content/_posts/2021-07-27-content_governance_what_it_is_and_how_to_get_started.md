@@ -1,6 +1,6 @@
 ---
 title: "Content governance: What it is and how to get started"
-date: July 27, 2021
+date: 2021-07-27
 authors:
   - michelle-rago
 tags:

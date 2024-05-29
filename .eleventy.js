@@ -6,7 +6,20 @@ const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
-const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
+const { readableDate
+      , htmlDateString
+      , head
+      , min
+      , filterTagList
+      , embed
+      , team_photo
+      , team_link
+      , find_collection
+      , markdownify
+      , weighted_sort
+      , in_groups
+      , oembed
+      , relative_url } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
 const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
 const privateLinks = require ('./config/privateLinksList.js');
@@ -77,6 +90,21 @@ module.exports = function (config) {
   config.addFilter('head', head); // Get the first `n` elements of a collection.
   config.addFilter('min', min); // Return the smallest number argument
   config.addFilter('filterTagList', filterTagList);
+  // Add an iframe / embedded content
+  config.addFilter('embed', embed);
+  // Add a photo for an 18F team member
+  config.addFilter('team_photo', team_photo);
+  // Add a link to an 18F team member's author page
+  config.addFilter('team_link', team_link);
+  config.addFilter('find_collection', find_collection);
+  config.addFilter('weighted_sort', weighted_sort);
+  config.addFilter('in_groups', in_groups);
+  config.addShortcode('oembed', oembed);
+  config.addFilter('relative_url', relative_url);
+
+  // FIXME (see other FIXME)
+  config.addFilter('markdownify', markdownify);
+
   // Color contrast checkers for the color matrix in the Brand guide
   config.addFilter('contrastRatio', contrastRatio);
   config.addFilter('humanReadableContrastRatio', humanReadableContrastRatio);
@@ -335,6 +363,7 @@ module.exports = function (config) {
     dir: {
       input: '.',
       includes: '_includes',
+      layouts: '_includes/layouts',
       data: '_data',
       output: '_site',
     },

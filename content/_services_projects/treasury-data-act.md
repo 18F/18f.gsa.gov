@@ -37,7 +37,7 @@ Congress passed the Digital Accountability and Transparency Act (DATA Act) of 20
 * 18F provided the development expertise, procurement strategy and product management to ensure a successful project.
 
 <!-- -->
-{% include testimonial.html 
+{% include "testimonial.html"
   size="md"
   quote="The commitment of the team and the participation of 18F subject matter experts actually simplified our job. While many organizations publicly buy into the concept and value of Agile, this team demonstrated how it would succeed. Our sponsor was committed, our product owners were engaged. and with our 18F Agile leaders helping to demonstrate best practice, our workstreams coordinated seamlessly."
   attribution="Sherry L. Weir"

@@ -1,6 +1,6 @@
 ---
 title: Building a user-centered data strategy
-date: April 1, 2021
+date: 2021-04-01
 authors:
   - princess-ojiaku
   - edwin-torres

@@ -12,7 +12,7 @@ excerpt: "The Federal Election Commission (FEC) has been working since the 1970s
 github: https://github.com/18F/blog-drafts/issues/267
 image: /assets/blog/fec/registration-reporting.jpg
 image_accessibility: Screenshot of the new registration and reporting page
-date: 2015-12-17 12:00
+date: 2015-12-17 12:00:00 -5
 ---
 
 Campaign finance is complicated.

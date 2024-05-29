@@ -1,6 +1,6 @@
 ---
 title: Why simplicity? Choosing a web architecture
-date: April 5, 2021
+date: 2021-04-05
 authors:
   - kendrick-daniel
   - eleni-chappen

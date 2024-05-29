@@ -1,6 +1,6 @@
 ---
 title: "How we get high availability with Elasticsearch and Ruby on Rails"
-date: 2016-04-08 12:05
+date: 2016-04-08 12:05:00 -4
 authors:
 - pkarman
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "The role of bot-bidding in Micro-purchase auctions"
-date: 2016-08-09 (optional)
+date: 2016-08-09
 authors:
 - michael-torres
 - alan

@@ -2,7 +2,7 @@
 layout: primary
 ---
 <section class="usa-section section-padding-top-0">
-  <div class="grid-container"> 
+  <div class="grid-container">
     {% if page.title_rule %}
     <hr class="hr-1-dark margin-top-0 margin-bottom-8">
     {% endif %}
@@ -12,14 +12,14 @@ layout: primary
         {{ content }}
       </div>
       <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
-        {%- if page.subnav_items %} 
-          {% include subnav.html subnav_items=page.subnav_items %}
+        {%- if page.subnav_items %}
+          {% include "subnav.html" subnav_items=page.subnav_items %}
         {% endif %}
-        {%- if page.side_cta -%} 
-          {% include side-cta.html %}
+        {%- if page.side_cta -%}
+          {% include "side-cta.html" %}
         {% endif -%}
-        {%- if page.social_media -%} 
-          {% include social-media.html %}
+        {%- if page.social_media -%}
+          {% include "social-media.html" %}
         {%- endif -%}
       </aside>
       {%- else -%}

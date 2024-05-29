@@ -7,9 +7,19 @@ eleventyExcludeFromCollections: true
 
 ## Overview
 
-Content for the guides is written using markdown, and pages are styled based on the layouts which are stored in `/includes/layouts`. Individual guide pages are customized using front matter, which is the set of key-value pairs you see at the top of many pages and posts. Front matter is written in YAML format and sets up some configuration for the page.
+Content for the 18F website is written using Markdown, and pages are styled based on the layouts which are stored in `_includes/layouts`. Individual posts and pages are customized using front matter, which is the set of key-value pairs you see at the top of many pages and posts. Front matter is written in YAML format and sets up some configuration for the page.
 
-This document is a work in progress. If you don't see the information you're looking for, please open a [new issue](https://github.com/18F/guides/issues).
+This document is a work in progress. If you don't see the information you're looking for, please open a [new issue](https://github.com/18F/18f.gsa.gov/issues).
+
+## Debugging
+
+For debugging, prepend your command with `DEBUG=Eleventy:{scope}`, where `scope` is the subset of errors you want to see in the log. To see everything, use `DEBUG=Eleventy:*`, and the log is tagged with all the error types.
+
+We've found the following command to be useful. It writes any exception logs to a file called debug.log while running `npm run dev`.
+
+```sh
+$ DEBUG=Eleventy:EleventyErrorHandler npm run dev > debug.log 2>&1
+```
 
 ## Testing and CI/CD
 

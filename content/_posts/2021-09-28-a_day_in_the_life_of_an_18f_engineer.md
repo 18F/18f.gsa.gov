@@ -1,6 +1,6 @@
 ---
 title: A day in the life of an 18F Engineer
-date: September 30, 2021
+date: 2021-09-30
 authors:
   - edwin-torres
 tags:

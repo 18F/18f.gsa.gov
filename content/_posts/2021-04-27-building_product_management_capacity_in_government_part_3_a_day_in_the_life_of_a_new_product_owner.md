@@ -1,7 +1,7 @@
 ---
 title: "Building product management capacity in government part 3: A day in the
   life of a new product owner "
-date: May 3, 2021
+date: 2021-05-03
 authors:
   - lalitha-jonnalagadda
   - bill-laughman-guest-doj

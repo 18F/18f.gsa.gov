@@ -1,6 +1,6 @@
 ---
 title: "Five questions for NASA's Chief Historian, Dr. Bill Barry"
-date: 2016-03-03 3:00
+date: 2016-03-03 15:00:00 -5
 authors:
 - kate
 tags:

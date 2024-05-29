@@ -43,7 +43,7 @@ redirect_from:
       {% for featured in featured_services %}
         {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
         <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-4">
-          {% include card-project.html project=featured_project.slug %}
+          {% include "card-project.html" project=featured_project.slug %}
         </li>
       {% endfor %}
       </ul>
@@ -60,7 +60,7 @@ redirect_from:
     </p> 
     {%- endcomment -%}
 
-{% include testimonial.html
+{% include "testimonial.html"
  quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
  attribution="Christina Ho"
  position="Former Deputy Assistant Secretary"

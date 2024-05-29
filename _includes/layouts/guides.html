@@ -7,30 +7,30 @@ main:
 {% assign page_title = page.subnav_title | default: page.title %}
 
 {% if page.breadcrumb %}
-{% include breadcrumb.html
+{% include "breadcrumb.html"
   page_title=page_title
   background_class='bg-base-lightest'
 %}
 {% endif %}
 
 <section class="usa-section section-padding-sm">
-  <div class="grid-container"> 
+  <div class="grid-container">
     <h1> {{ page.title }} </h1>
-    {% if page.lead %} 
+    {% if page.lead %}
       <p class="font-sans-xl line-height-sans-3"> {{ page.lead }} </p>
     {% endif %}
     {% if page.image %}
-      <img src="{{ site.baseurl }}{{ page.image }}" 
-           alt="{{ page.image_alt_text }}" 
+      <img src="{{ site.baseurl }}{{ page.image }}"
+           alt="{{ page.image_alt_text }}"
            class="margin-top-4"
       >
     {% endif %}
   </div>
-</section>  
+</section>
 
  {{ content }}
 
 {% if page.banner_cta %}
-  {% include banner-cta.html %}
+  {% include "banner-cta.html" %}
 {% endif %}
 

@@ -1,6 +1,6 @@
 ---
 title: "We asked our coworkers: Why did you join 18F?"
-date: May 11, 2021
+date: 2021-05-11
 authors:
   - 18F
   - erin-strenio

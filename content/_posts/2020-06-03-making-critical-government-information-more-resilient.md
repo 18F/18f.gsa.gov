@@ -1,6 +1,6 @@
 ---
 title: Making Critical Government Information More Resilient
-date: June 4, 2020
+date: 2020-06-04
 authors:
   - mheadd
   - timlowden

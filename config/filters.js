@@ -27,10 +27,40 @@ const filterTagList = (tags) => (tags || []).filter(
   (tag) => ['all', 'nav', 'post', 'posts'].indexOf(tag) === -1,
 );
 
+const embed = (url, title=url) => {
+  return `<div class='embed-container'><iframe src='${url}' title='${title}' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>`
+}
+
+// TODO These all need implementation, they're just placeholders so the site builds at all
+const team_photo = (slug) => { return `TODO PHOTO FOR ${slug}` }
+const team_link = (slug) => { return `TODO LINK FOR ${slug}` }
+const find_collection = (site, collection) => { return [] }
+const weighted_sort = (array, weight_name, sort_name) => { return array }
+const in_groups = (array, groups) => { return array }
+const oembed = (url) => { return `TODO EMBED ${url}` }
+const relative_url = (url) => { return url }
+
+// FIXME
+// The markdownify filter in this site is mostly a smell,
+// indicating that a different layout should be used.
+// This is a placeholder, so I can get the site to build.
+// My sense is it should not be used in production.
+const markdownify = (content) => { return content }
+
+
 module.exports = {
   readableDate,
   htmlDateString,
   head,
   min,
   filterTagList,
+  embed,
+  team_photo,
+  team_link,
+  find_collection,
+  markdownify,
+  weighted_sort,
+  in_groups,
+  oembed,
+  relative_url,
 };

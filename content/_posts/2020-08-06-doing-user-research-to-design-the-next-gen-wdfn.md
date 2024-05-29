@@ -1,6 +1,6 @@
 ---
 title: Doing user research to design the next-gen WDFN
-date: August 6, 2020
+date: 2020-08-06
 authors:
   - charlotte-snow
   - shawna-gregory

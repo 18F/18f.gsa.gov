@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Digital Acquisition Accelerator Playbook"
-date: 2016-10-12 (optional)
+date: 2016-10-12
 authors:
 - duane-rollins
 tags:

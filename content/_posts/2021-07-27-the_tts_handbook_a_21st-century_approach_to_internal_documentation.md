@@ -1,6 +1,6 @@
 ---
 title: "The TTS Handbook: A 21st-century approach to internal documentation"
-date: July 27, 2021
+date: 2021-07-27
 authors:
   - dylan-irlbeck
 tags:

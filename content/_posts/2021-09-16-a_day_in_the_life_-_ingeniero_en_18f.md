@@ -1,6 +1,6 @@
 ---
 title: A day in the life - Ingeniero en 18F
-date: September 21, 2021
+date: 2021-09-21
 authors:
   - edwin-torres
 tags:

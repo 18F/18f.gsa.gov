@@ -1,6 +1,6 @@
 ---
 title: "Mark Trammell: Unlocking the true potential of public service"
-date: 2016-08-26 (optional)
+date: 2016-08-26
 authors:
 - melody
 tags:
