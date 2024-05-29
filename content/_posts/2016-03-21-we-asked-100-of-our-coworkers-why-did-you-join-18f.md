@@ -1,6 +1,6 @@
 ---
 title: "We asked over 100 of our coworkers: Why did you join 18F?"
-date: 2016-03-21 12:00 EDT
+date: 2016-03-21 12:00:00 -4
 authors:
 - melody
 tags:

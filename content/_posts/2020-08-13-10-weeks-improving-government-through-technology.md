@@ -1,6 +1,6 @@
 ---
 title: 10 weeks improving government through technology
-date: August 13, 2020
+date: 2020-08-13
 authors:
   - abdulrahim-tahlil
 tags:

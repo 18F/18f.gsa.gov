@@ -1,6 +1,6 @@
 ---
-title: "What 10 weeks at 18F taught me "
-date: 2016-04-01 10:30
+title: "What 10 weeks at 18F taught me"
+date: 2016-04-01 10:30:00 -4
 authors:
 - cat-langel
 tags:

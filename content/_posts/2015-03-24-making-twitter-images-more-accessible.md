@@ -21,15 +21,15 @@ We think a lot about accessibility at 18F. We want to make sure any images we po
 
 Feedback from our audience was positive, and several people offered even more helpful suggestions on how we could improve our initial strategy. [@travelingheidi](https://twitter.com/travelingheidi/status/578569906834264064) suggested also including a link to the original Tweet in the response Tweet, which is a great idea (and will improve accessibility even more).
 
-{% oembed https://twitter.com/travelingheidi/status/578569906834264064 %}
+{% oembed "https://twitter.com/travelingheidi/status/578569906834264064" %}
 
 [@kimberlymunoz](https://twitter.com/kimberlymunoz) suggested creating a second Twitter account to respond to any Tweets that include an image:
 
-{% oembed https://twitter.com/kimberlymunoz/status/578571119164264449 %}
+{% oembed "https://twitter.com/kimberlymunoz/status/578571119164264449" %}
 
 And [@thebenedict](https://twitter.com/thebenedict/status/578572813155590144) suggested creating an Inception-like experience for users, which is just funny and worth sharing:
 
-{% oembed https://twitter.com/thebenedict/status/578572813155590144 %}
+{% oembed "https://twitter.com/thebenedict/status/578572813155590144" %}
 
 Please let us know in [this GitHub thread](https://github.com/18F/18f.gsa.gov/issues/648) if you have a suggestion or feedback on this approach, because we’d love to continue the discussion.
 

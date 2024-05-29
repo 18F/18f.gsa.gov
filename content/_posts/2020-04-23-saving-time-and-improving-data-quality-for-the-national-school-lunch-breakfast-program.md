@@ -2,7 +2,7 @@
 title: >-
   Saving time and improving data quality for the National School Lunch &
   Breakfast Program
-date: 'April 23, 2020'
+date: 2020-04-23
 authors:
   - julia-lindpaintner
   - mike-gintz

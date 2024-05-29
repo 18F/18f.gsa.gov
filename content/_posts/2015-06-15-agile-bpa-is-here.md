@@ -1,6 +1,6 @@
 ---
 title: "The Agile Delivery BPA is here!"
-date: 2015-06-15 12:30:00
+date: 2015-06-15 12:30:00 -4
 layout: post
 authors:
 - vdavez

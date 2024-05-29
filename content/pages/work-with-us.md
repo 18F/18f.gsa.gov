@@ -97,7 +97,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html
+      {% include "card-with-image.html"
          card_color="dark"
          image_path="/assets/img/guides/state-guide-lightest.svg"
          link_url="https://derisking-guide.18f.gov/state-field-guide/"
@@ -106,7 +106,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       </div>
 
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-      {% include card-with-image.html
+      {% include "card-with-image.html"
          card_color="dark"
          image_path="/assets/img/guides/federal-guide-lightest.svg"
          link_url="https://derisking-guide.18f.gov/federal-field-guide/"
@@ -140,7 +140,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% assign project_agency = site.data.agencies | where: "name", project_details.agency | first %}
       {% assign project_link = site.baseurl | append: project_details.permalink %}
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-        {% include card-with-image.html
+        {% include "card-with-image.html"
            image_path=project_agency.logo
            image_alt_text=project_agency.name
            image_size="md"

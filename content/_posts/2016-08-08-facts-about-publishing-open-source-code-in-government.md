@@ -1,6 +1,6 @@
 ---
 title: "Facts about publishing open source code in government"
-date: 2016-08-08 (optional)
+date: 2016-08-08
 authors:
 - britta-gustafson
 - will

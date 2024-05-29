@@ -1,6 +1,6 @@
 ---
 title: 'We asked over 100 of our coworkers: What was your path to 18F?'
-date: '2016-03-22 14:00 EDT'
+date: 2016-03-22 14:00:00 -4
 authors:
   - melody
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Technology Transformation Service looking for new commissioner"
-date: 2016-07-13 15:00
+date: 2016-07-13 15:00:00 -4
 authors:
 - 18F
 tags:

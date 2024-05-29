@@ -1,6 +1,6 @@
 ---
 title: Improving the way the U.S. Tax Court engages with the public
-date: June 15, 2021
+date: 2021-06-15
 authors:
   - andrew-dunkman
   - mark-meyer

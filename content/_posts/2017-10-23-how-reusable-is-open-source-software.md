@@ -1,6 +1,6 @@
 ---
 title: "How reusable is open source software?"
-date: 2017-10-23 (optional)
+date: 2017-10-23
 authors: 
 - laura-gerhardt
 tags:

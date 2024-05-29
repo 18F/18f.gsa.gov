@@ -1,6 +1,6 @@
 ---
 title: "We asked our coworkers: What have you learned from other 18F designers?"
-date: January 21, 2022
+date: 2022-01-22
 authors:
   - 18F
   - erin-strenio

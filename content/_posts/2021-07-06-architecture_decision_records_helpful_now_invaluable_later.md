@@ -1,6 +1,6 @@
 ---
 title: "Architecture Decision Records: Helpful now, invaluable later"
-date: July 6, 2021
+date: 2021-07-06
 authors:
   - eleni-chappen
   - ryan-hofschneider

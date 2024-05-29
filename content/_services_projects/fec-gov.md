@@ -39,7 +39,7 @@ The FEC has published campaign finance data for decades, but its legacy website 
 
 
 <!-- -->
-{% include testimonial.html 
+{% include "testimonial.html"
   size="md"
   quote="We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology."
   attribution="Alec Palmer"
@@ -47,7 +47,7 @@ The FEC has published campaign finance data for decades, but its legacy website 
 %}
 
 
-{% include testimonial.html 
+{% include "testimonial.html"
   size="md"
   quote="We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile."
   attribution="FEC product owner"

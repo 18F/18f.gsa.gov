@@ -1,6 +1,6 @@
 ---
 title: "18F year two: By the numbers"
-date: 2016-03-18 13:50
+date: 2016-03-18 13:50:00 -5
 authors:
 - boone
 tags:

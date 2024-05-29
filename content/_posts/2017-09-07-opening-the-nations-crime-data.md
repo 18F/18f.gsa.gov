@@ -1,6 +1,6 @@
 ---
 title: "Opening the nation’s crime data"
-date: 2017-09-07 (optional)
+date: 2017-09-07
 authors:
 - ryan-sibley
 tags:

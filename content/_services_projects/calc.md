@@ -28,7 +28,7 @@ The General Services Administration plays a central role in helping the rest of 
 * Local governments, like the City of Boston, are making use of CALC as well.
 
 <!-- -->
-{% include testimonial.html 
+{% include "testimonial.html"
   size="md"
   quote="WOW — I saw your blog post announcement for the Contract Awarded Labor Category Tool (CALC) and all I gotta say is WOW! I am not sure why trumpets are not blaring, horns are not tooting and bells are not ringing! This is truly a great day...This tool will make the whole process a whole lot more accurate, easier and faster."
   attribution="Email from CALC user"

@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.image %}
-  {% include feature-image.html %}
+  {% include "feature-image.html" %}
 {% endif %}
 
 <article id="main-content" class="post-article margin-top-6" itemscope itemtype="http://schema.org/BlogPosting">
@@ -13,12 +13,12 @@ layout: default
         <header>
           <h1 itemprop="name headline">{{ page.title }}</h1>
           <p class="margin-top-3 margin-bottom-0">
-            {% include post-author.html context="page" %}
+            {% include "post-author.html" context="page" %}
           </p>
           <p class="margin-top-1">
-            Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+            Published on <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
-          {% include post-tags.html post_tags=page.tags %} 
+          {% include "post-tags.html" post_tags=page.tags %}
         </header>
       </div>
     </div>
@@ -33,8 +33,8 @@ layout: default
           {{ content }}
         </div>
       </div>
-      <aside class="tablet:grid-offset-1 tablet:grid-col-4"> 
-        {% include social-media.html %}
+      <aside class="tablet:grid-offset-1 tablet:grid-col-4">
+        {% include "social-media.html" %}
       </aside>
     </div>
   </div>
@@ -48,7 +48,7 @@ layout: default
       <div class="grid-col-6">
         {% if page.previous %}
         <a href="{{ site.baseurl }}{{ page.previous.url }}"
-           class="text-no-underline post-pagination__link" 
+           class="text-no-underline post-pagination__link"
         >
           <h2 class="post-pagination__heading">
             {% include svg/icons/arrow-left.svg %}
@@ -61,7 +61,7 @@ layout: default
       <div class="grid-col-6 text-right">
         {% if page.next %}
         <a href="{{ site.baseurl }}{{ page.next.url }}"
-           class="text-no-underline post-pagination__link" 
+           class="text-no-underline post-pagination__link"
         >
           <h2 class="post-pagination__heading">
             Next Post
@@ -77,10 +77,10 @@ layout: default
 </section>
 {% endif %}
 
-<section class="margin-top-3 margin-bottom-6"> 
+<section class="margin-top-3 margin-bottom-6">
   <div class="grid-container">
-    {% include featured-posts.html 
-      related_posts=page.related_posts 
+    {% include "featured-posts.html"
+      related_posts=page.related_posts
       show_excerpt="true"
     %}
     </div>

@@ -21,7 +21,7 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 
 {% endcapture %}
 
-{% include testimonial.html
+{% include "testimonial.html"
     quote="We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile."
     attribution="Wei Lou"
     position="Product Owner"

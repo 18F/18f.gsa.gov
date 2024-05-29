@@ -1,6 +1,6 @@
 ---
 title: "Build empathy with stakeholder interviews, part 2: Conversation"
-date: 2016-07-22 (optional)
+date: 2016-07-22
 authors:
 - andrewmaier
 tags:

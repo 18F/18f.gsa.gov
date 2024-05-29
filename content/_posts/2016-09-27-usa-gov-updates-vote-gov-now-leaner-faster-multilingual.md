@@ -1,6 +1,6 @@
 ---
 title: "USA.gov updates vote.gov: now it’s leaner, faster and multi-lingual"
-date: 2016-09-27 14:00
+date: 2016-09-27
 authors:
 - yoz
 tags:

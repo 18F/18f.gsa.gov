@@ -1,6 +1,6 @@
 ---
 title: 18F and TTS Office of Acquisition award first assisted acquisition
-date: December 17, 2020
+date: 2020-12-17
 authors:
   - laura-gerhardt
   - miatta-myers

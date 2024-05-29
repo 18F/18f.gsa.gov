@@ -2,8 +2,6 @@
 permalink: /
 layout: default
 title: Home
-redirect_from: /dashboard/
-redirect_from: /developer/
 ---
 
 <section class="usa-section">
@@ -60,21 +58,21 @@ redirect_from: /developer/
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
-        {% include graphic-block.html
+        {% include "graphic-block.html"
         image_path="/assets/img/home/cando_illo_1.svg"
         body_text="Modernize software development processes"
         %}
       </div>
 
       <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
-        {% include graphic-block.html
+        {% include "graphic-block.html"
         image_path="/assets/img/home/cando_illo_2.svg"
         body_text="Improve public-facing services like websites or applications"
         %}
       </div>
 
       <div class="tablet:grid-col-4 margin-bottom-6 tablet:display-flex">
-        {% include graphic-block.html
+        {% include "graphic-block.html"
         image_path="/assets/img/home/cando_illo_3.svg"
         body_text="Digitize and streamline internal systems"
         %}
@@ -104,13 +102,13 @@ redirect_from: /developer/
     <div class="grid-row grid-gap-lg margin-top-6">
       <ul class="usa-card-group">
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include card-project.html project='fec-gov' %}
+          {% include "card-project.html" project='fec-gov' %}
         </li>
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include card-project.html project='treasury-data-act' %}
+          {% include "card-project.html" project='treasury-data-act' %}
         </li>
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include card-project.html project='calc' %}
+          {% include "card-project.html" project='calc' %}
         </li>
       </ul>
     </div>
@@ -145,7 +143,7 @@ redirect_from: /developer/
     </div>
 
     {% assign latest_posts = site.posts | slice:0,6 %}
-    {% include featured-posts.html
+    {% include "featured-posts.html"
     color_mode="dark"
     related_posts=latest_posts
     %}

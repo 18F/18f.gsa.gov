@@ -1,6 +1,6 @@
 ---
 title: "Building a modern shared authentication platform"
-date: 2016-05-10 14:00
+date: 2016-05-10 14:00:00 -4
 authors:
 - joel-minton
 tags:

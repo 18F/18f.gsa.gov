@@ -1,6 +1,6 @@
 ---
 title: "How to integrate the Draft U.S. Web Design Standards into existing projects"
-date: "2016-03-23 09:00 EDT"
+date: 2016-03-23
 authors:
   - carolyn
   - melody

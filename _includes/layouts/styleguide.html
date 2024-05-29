@@ -31,7 +31,7 @@ sidenav:
       {% assign sidenav = layout.sidenav %}
       {% if sidenav %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
-          {% include sidenav.html links=sidenav %}
+          {% include "sidenav.html" links=sidenav %}
         </div>
       {% endif %}
 

@@ -28,31 +28,31 @@ The FICAM team had already been using GitHub to host, develop, and publish conte
 
 <section class="usa-grid">
 	<div class="icon-list-blog">
-		<figure class="icon-list-image">{% include svg/blog/money_coins.svg %}</figure>
+		<figure class="icon-list-image">{% image "assets/blog/money_coins.svg" %}</figure>
 		<div class="icon-list-text-blog">
  			<p class="p-bold">Low-cost platform as a service that included Operations and Maintenance (O&M) and an Authorization to Operate (ATO) </p>
 		</div>
 	</div>
 	<div class="icon-list-blog">
-		<figure class="icon-list-image-blog">{% include svg/blog/to_do_list_done.svg %}</figure>
+		<figure class="icon-list-image-blog">{% image "assets/blog/to_do_list_done.svg" %}</figure>
 		<div class="icon-list-text-blog">
 			<p class="p-bold">Government-hosted compliance using a .gov domain and conformance with HTTPS best practices </p>
 		</div>
 	</div>
 	<div class="icon-list-blog">
-		<figure class="icon-list-image-blog">{% include svg/blog/brain_thinking.svg %}</figure>
+		<figure class="icon-list-image-blog">{% image "assets/blog/brain_thinking.svg" %}</figure>
 		<div class="icon-list-text-blog">
 		  <p class="p-bold">Available to any contributor to submit suggestions and edits</p>
 		</div>
 	</div>
 	<div class="icon-list-blog">
-		<figure class="icon-list-image-blog">{% include svg/blog/laptop_user_login.svg %}</figure>
+		<figure class="icon-list-image-blog">{% image "assets/blog/laptop_user_login.svg" %}</figure>
 		<div class="icon-list-text-blog">
 		  <p class="p-bold">Minimal identity and access management administrative costs</p>
 		</div>
 	</div>
 	<div class="icon-list-blog">
-		<figure class="icon-list-image-blog">{% include svg/blog/upload_cloud.svg %}</figure>
+		<figure class="icon-list-image-blog">{% image "assets/blog/upload_cloud.svg" %}</figure>
 		<div class="icon-list-text-blog">
 		  <p class="p-bold">Automated deployments / scalability</p>
 		</div>
