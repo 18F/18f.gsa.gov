@@ -39,6 +39,7 @@ const weighted_sort = (array, weight_name, sort_name) => { return array }
 const in_groups = (array, groups) => { return array }
 const oembed = (url) => { return `TODO EMBED ${url}` }
 const relative_url = (url) => { return url }
+const match_posts = (page, property="tags") => { return [] }
 
 // FIXME
 // The markdownify filter in this site is mostly a smell,
@@ -63,4 +64,5 @@ module.exports = {
   in_groups,
   oembed,
   relative_url,
+  match_posts,
 };

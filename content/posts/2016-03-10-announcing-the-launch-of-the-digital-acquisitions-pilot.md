@@ -1,6 +1,6 @@
 ---
 title: "Announcing the launch of the Digital Acquisitions Pilot"
-date: 2016-03-10
+date: 2016-03-10 14:45:00 -5
 authors:
 - amy-wilson
 - chrisc

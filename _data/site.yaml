@@ -1,18 +1,20 @@
-title: 18F Guides
+title: "18F: Digital service delivery"
 description: >- # this means to ignore newlines
-  A central resources for all 18F guides and methods
+  18F builds effective, user-centric digital services focused on the
+  interaction between government and the people and businesses
+  it serves.
 
-host: https://guides.18f.gov
+host: https://18f.gsa.gov
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
 dap:
   agency: GSA
-  subagency: TTS
+  subagency: TTS,18F
 
 ga:
-  ua: G-94QF2Z1S0G
+  ua: 'G-HBYXWFP794'
 
 # Search.gov configuration
 #
@@ -26,6 +28,7 @@ searchgov:
   endpoint: https://search.usa.gov
 
   # Replace this with your search.gov account.
+  # TODO rename?
   affiliate: 18f-guides
 
   # Replace this with your access key.
