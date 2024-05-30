@@ -10,8 +10,8 @@ Layout for posts by author
 <section class="usa-section section-padding-sm">
   <div class="grid-container">
     <header>
-      {% if page.full_name %}
-        <h1>Blog posts by {{ page.full_name }}{% if page.alumni %} <span>(18F alumni)</span>{% endif %}{% if page.guest %} <span>(guest author)</span>{% endif %}:</h1>
+      {% if full_name %}
+        <h1>Blog posts by {{ full_name }}{% if alumni %} <span>(18F alumni)</span>{% endif %}{% if guest %} <span>(guest author)</span>{% endif %}:</h1>
       {% endif %}
     </header>
   </div>
@@ -20,9 +20,9 @@ Layout for posts by author
   <div class="grid-container">
     <hr class="hr-1-dark margin-y-0">
     {%
-      include post-previews.html
+      include "post-previews.html"
       posts=matching_posts
-      tags=page.tags
+      tags=tags
     %}
   </div>
 </section>

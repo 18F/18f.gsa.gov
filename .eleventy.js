@@ -19,7 +19,8 @@ const { readableDate
       , weighted_sort
       , in_groups
       , oembed
-      , relative_url } = require("./config/filters");
+      , relative_url
+      , match_posts } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
 const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
 const privateLinks = require ('./config/privateLinksList.js');
@@ -47,15 +48,13 @@ module.exports = function (config) {
   config.addPassthroughCopy("./assets/_common/js/*");
   config.addPassthroughCopy("./assets/**/js/*");
 
+  // @TODO This is one place where the _site/img folder gets produced
+  // Let's find a way to keep everything in assets
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
 
-  // Set download paths
-  // Place files for download in assets/{guide}/dist/{filename.ext}
-  config.addPassthroughCopy("./assets/**/dist/*");
-
-  // methods pdfs
-  config.addPassthroughCopy({ "./content/methods/assets/downloads/": "./methods/assets/downloads/" });
+  config.addPassthroughCopy({'content/robots.txt': '/robots.txt' });
+  config.addPassthroughCopy('google16a62a069d0c4fa4.html');
 
   // Add plugins
   config.addPlugin(pluginRss);
@@ -101,6 +100,7 @@ module.exports = function (config) {
   config.addFilter('in_groups', in_groups);
   config.addShortcode('oembed', oembed);
   config.addFilter('relative_url', relative_url);
+  config.addFilter('match_posts', match_posts);
 
   // FIXME (see other FIXME)
   config.addFilter('markdownify', markdownify);
@@ -123,6 +123,25 @@ module.exports = function (config) {
     return value.charAt(0).toUpperCase() + value.slice(1);
   });
 
+  // Converts strings or dates to date objects
+  const dateObject = ((date) => {
+    switch(typeof date) {
+    case "object": return date;
+    case "string": return new Date(date)
+    }
+  })
+
+  // Generates the "yyyy/mm/dd" part of permalinks for blog posts
+  // @example date is Jan 1, 2020
+  //    returns "2020/01/01"
+  config.addFilter("toDatePath", (date) => {
+    return dateObject(date).toISOString().split('T')[0].split('-').join('/')
+  });
+
+  config.addFilter("toISOString", (date) => {
+    return dateObject(date).toISOString()
+  });
+
   // Create an array of all tags
   config.addCollection('tagList', function (collection) {
     let tagSet = new Set();
@@ -133,6 +152,7 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
+  // TODO probably remove
   config.addCollection('methods', (collectionApi) => {
     /* sort all methods in alpha order */
     return collectionApi.getFilteredByTag("methods").sort((a, b) => {

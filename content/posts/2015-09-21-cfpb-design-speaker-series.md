@@ -1,6 +1,6 @@
 ---
 title: Four questions with the CFPB design team
-date: 2015-09-21
+date: 2015-09-21 16:52:00 -4
 tags:
 - events
 - design
