@@ -27,6 +27,7 @@ const privateLinks = require ('./config/privateLinksList.js');
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const yaml = require("js-yaml");
+const { parse } = require('csv-parse/sync');
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
@@ -78,7 +79,12 @@ module.exports = function (config) {
   config.addPlugin(syntaxHighlight);
 
   // Allow yaml to be used in the _data dir
-  config.addDataExtension("yaml", contents => yaml.load(contents));
+  config.addDataExtension("yml, yaml", contents => yaml.load(contents));
+
+  config.addDataExtension("csv", (contents) => {
+    return parse(contents, {columns: true, skip_empty_lines: true});
+  });
+
 
   // Filters
   // Add filter function defintions to config/filters.js, then add the functions
