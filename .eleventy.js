@@ -138,7 +138,8 @@ module.exports = function (config) {
     return dateObject(date).toISOString().split('T')[0].split('-').join('/')
   });
 
-  config.addFilter("toISOString", (date) => {
+  // TODO: Not sure this is returning exactly the right string, re: datetimes
+  config.addFilter("date_to_xmlschema", (date) => {
     return dateObject(date).toISOString()
   });
 
