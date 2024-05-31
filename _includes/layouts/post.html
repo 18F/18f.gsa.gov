@@ -16,7 +16,7 @@ layout: default
             {% include "post-author.html" context="page" %}
           </p>
           <p class="margin-top-1">
-            Published on <time datetime="{{ page.date | toISOString }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+            Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
           {% include "post-tags.html" post_tags=page.tags %}
         </header>
