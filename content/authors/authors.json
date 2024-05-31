@@ -1,4 +1,0 @@
-{
-  "layout": "author",
-  "permalink": "/author/{{ name | slugify }}/"
-}

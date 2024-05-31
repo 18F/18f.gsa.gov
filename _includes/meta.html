@@ -3,12 +3,6 @@
   to modify some of the meta-data for the site, this is the place to do it.
 {% endcomment %}
 
-{%- if tags -%}
-  {%- assign guide = tags -%}
-{%- else -%}
-  {%- assign guide = 'default' -%}
-{%- endif -%}
-
 <head>
   <!-- Basic Page Needs
        ================================================== -->
@@ -26,20 +20,20 @@
        ================================================== -->
 
   {% if seo_title %}
-    {% assign page_title = seo_title | append : ' | 18F ' %}
+    {% assign page_title = seo_title | append: ' | 18F ' %}
   {% else %}
-    {% assign page_title = title | append : ' | 18F ' %}
+    {% assign page_title = title | append: ' | 18F ' %}
   {% endif %}
 
-  <title>{{page_title}}{{ titles_roots[guide].title }} </title>
-  <meta property="og:title" content="{{page_title}}{{ titles_roots[guide].title }}" />
-  <meta name="description" content="{{description}}" />
-  <meta property="og:description" content="{{description}}" />
+  <title>{{ page_title }}</title>
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta name="description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{title}}" />
-  <meta name="twitter:description" content="{{description}}" />
+  <meta name="twitter:site" content="@{{ site.twitter }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
 
   <meta property="og:type" content="article" />
   <link rel="canonical" href="{{ page.url }}" />
