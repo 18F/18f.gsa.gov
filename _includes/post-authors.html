@@ -1,0 +1,12 @@
+<span class="post-byline">
+  {%- assign authorCount = authors.size -%}
+  By
+  {%- for author in authors -%}
+    {% include "post-author.html", author: author %}
+    {%- if authorCount > 1 -%}
+      {%- unless forloop.last -%}
+      <span class="post-author-comma margin-left-neg-05">{{',' | strip }}</span>
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+</span>
