@@ -1,22 +1,3 @@
-<span class="post-byline">
-{% if include.context == 'page' and page.authors %}
-  {% assign authors = page.authors %}
-{% elsif include.context == 'post' and post.authors %}
-  {% comment %}
-    TODO: Removed to_yaml filter from this assignment. Does this break anything?
-  {% endcomment %}
-  {% assign authors = post.authors %}
-{% endif %}
-  By
-  {% for author in authors %}
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        {{ author | team_link }}
-    </span>
-    {% assign authorCount = authors | size %}
-    {%- if authorCount > 1 -%}
-      {%- unless forloop.last -%}
-      <span class="post-author-comma margin-left-neg-05">{{',' | strip }}</span>
-      {%- endunless -%}
-    {%- endif -%}
-  {% endfor %}
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+  {{ author | team_link }}
 </span>

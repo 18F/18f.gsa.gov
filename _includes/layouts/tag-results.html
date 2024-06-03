@@ -16,9 +16,9 @@ Layout for posts by tag
   <div class="grid-container">
     <hr class="hr-1-dark margin-y-0">
     {%
-      include "post-previews.html"
-      posts=page.posts
-      tags=page.tags
+      include "post-previews.html",
+      posts: page.posts,
+      tags: page.tags
     %}
   </div>
 </section>

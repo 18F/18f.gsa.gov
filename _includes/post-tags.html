@@ -1,6 +1,6 @@
 <span class="post-tags display-flex flex-wrap" itemprop="keywords">
-  {% for tag in include.post_tags %}
-  <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/" 
+  {% for tag in tags %}
+  <a href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/"
      class="usa-label post-tag"
      >
      {{ tag }}

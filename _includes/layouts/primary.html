@@ -7,9 +7,9 @@ main:
 {% assign page_title = page.subnav_title | default: page.title %}
 
 {% if page.breadcrumb == true %}
-{% include "breadcrumb.html"
-  page_title=page_title
-  background_class='bg-base-lightest'
+{% include "breadcrumb.html",
+  page_title: page_title,
+  background_class: 'bg-base-lightest'
 %}
 {% endif %}
 
@@ -17,7 +17,7 @@ main:
   <div class="grid-container">
     <h1> {{ page.title }} </h1>
     {% if page.lead %}
-      <p class="font-sans-xl line-height-sans-3"> {{ page.lead }} </p>
+      <p class="font-sans-xl line-height-sans-3">{{ page.lead }}</p>
     {% endif %}
     {% if page.image %}
       <img src="{{ site.baseurl }}{{ page.image }}"

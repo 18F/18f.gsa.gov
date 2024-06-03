@@ -107,6 +107,14 @@ module.exports = function (config) {
   config.addShortcode('oembed', oembed);
   config.addFilter('relative_url', relative_url);
   config.addFilter('match_posts', match_posts);
+  config.addFilter("limit", function (arr, limit) {
+    return arr.slice(0, limit);
+  });
+  config.addFilter('matching', function(collection, author) {
+    return collection.filter((post) => {
+      return post.data.authors.includes(author)
+    });
+  });
 
   // FIXME (see other FIXME)
   config.addFilter('markdownify', markdownify);
@@ -159,14 +167,8 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  // TODO probably remove
-  config.addCollection('methods', (collectionApi) => {
-    /* sort all methods in alpha order */
-    return collectionApi.getFilteredByTag("methods").sort((a, b) => {
-      if(a.data.title < b.data.title) { return -1; }
-      if(a.data.title > b.data.title) { return 1; }
-      return 0;
-    });
+  config.addCollection('post', function (collection) {
+    return collection.getFilteredByGlob('content/posts/*.md')
   });
 
   // Customize Markdown library and settings

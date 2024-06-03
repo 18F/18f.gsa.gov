@@ -1,19 +1,14 @@
 ---
 layout: default
 eleventyComputed:
-  title: "{%- if author.full_name != \"\" -%}{{- author.full_name -}}{%- else -%}{{- author.first_name }} {{ author.last_name -}}{%- endif -%}"
+  display_name: "{%- if author.full_name != \"\" -%}{{- author.full_name -}}{%- else -%}{{- author.first_name }} {{ author.last_name -}}{%- endif -%}"
+  title: "{{ display_name }}"
 ---
 {% comment %}
 Layout for author page with their blog posts
 {% endcomment %}
 
-{% assign matching_posts = page | match_posts:'authors' | sort:'date' | reverse %}
-
-{%- if author.full_name != "" -%}
-  {%- capture display_name -%}{{- author.full_name -}}{%- endcapture -%}
-{%- else -%}
-  {%- capture display_name -%}{{- author.first_name }} {{ author.last_name -}}{%- endcapture -%}
-{%- endif -%}
+{% assign matching_posts = collections.post | matching: author.id | sort: 'date' | limit: 3 %}
 
 <section class="usa-section section-padding-sm">
   <div class="grid-container">
@@ -25,10 +20,6 @@ Layout for author page with their blog posts
 <section class="padding-sm page-tag-results">
   <div class="grid-container">
     <hr class="hr-1-dark margin-y-0">
-    {%
-      include "post-previews.html"
-      posts=matching_posts
-      tags=tags
-    %}
+    {% include "post-previews.html", posts: matching_posts, tags: tags %}
   </div>
 </section>

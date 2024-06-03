@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% comment %}
+Some of the `page.` references will need to be deleted — but I'm not yet sure which.
+{% endcomment %}
 
 {% if page.image %}
   {% include "feature-image.html" %}
@@ -11,14 +14,14 @@ layout: default
     <div class="grid-row">
       <div class="tablet:grid-col-12">
         <header>
-          <h1 itemprop="name headline">{{ page.title }}</h1>
+          <h1 itemprop="name headline">{{ title }}</h1>
           <p class="margin-top-3 margin-bottom-0">
-            {% include "post-author.html" context="page" %}
+            {% include "post-authors.html", authors: authors %}
           </p>
           <p class="margin-top-1">
             Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
-          {% include "post-tags.html" post_tags=page.tags %}
+          {% include "post-tags.html", post: page %}
         </header>
       </div>
     </div>
@@ -79,9 +82,9 @@ layout: default
 
 <section class="margin-top-3 margin-bottom-6">
   <div class="grid-container">
-    {% include "featured-posts.html"
-      related_posts=page.related_posts
-      show_excerpt="true"
+    {% include "featured-posts.html",
+      related_posts: page.related_posts,
+      show_excerpt: true
     %}
     </div>
   </div>

@@ -291,7 +291,7 @@ _We help agencies transform into modern, high-functioning organizations through 
   </blockquote>
 </div>
 
-<div class="pquote">{{ "harding" | team_photo }}
+<div class="pquote">{{ "philip-harding" | team_photo }}
   <blockquote>
   “A non-traditional life intertwined with tech entrepreneurship, online startups, interactive design, and public service. Served as youth pastor, founded a brand design firm, scaled a tech training organization, worked on Capitol Hill and was a Resident in the Venture Incubation Program at the Harvard Innovation Lab working on applying fantasy football to the legislative process. After graduating from my master's program at Harvard's Kennedy School, found my way to a place where all the pieces of my life come together.” – Philip Harding
   </blockquote>

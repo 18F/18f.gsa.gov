@@ -1,0 +1,9 @@
+<li class="border-bottom-1px border-base-lighter padding-y-6">
+  {% include "post-title.html", title: post.data.title, url: post.url %}
+  <p>
+    {% include "post-authors.html", authors: post.data.authors -%}
+    {%- include "post-date.html", date: post.date %}
+  </p>
+  {% include "post-excerpt.html", excerpt: post.data.excerpt %}
+  {% include "post-tags.html", tags: post.tags %}
+</li>

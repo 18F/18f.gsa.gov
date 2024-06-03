@@ -11,9 +11,9 @@ permalink: /blog/
   <hr class="hr-1-dark margin-y-0">
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-7 page-tag-results">
-      {% include "post-previews.html"
-         posts=paginator.posts
-         tags=page.tags
+      {% include "post-previews.html",
+         posts: paginator.posts,
+         tags: page.tags
       %}
       <section class="pagination grid-row flex-align-center flex-justify">
         <div>
