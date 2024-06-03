@@ -100,3 +100,8 @@
     text-align: right;
   }
 }
+
+pre.highlight {
+  overflow-x: auto;
+  background-color: rgb(0,0,0, .05);
+}
