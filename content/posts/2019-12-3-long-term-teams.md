@@ -26,7 +26,7 @@ Although this is a common approach, it is a very risky one, because:
 1. Handing off software to a completely new team squanders hard-won knowledge.
 2. Handoff to operations & maintenance brings a "keep the lights on" mindset, rather than planning for active continuous delivery.
 
-Former Presidential Innovation Fellow [Sarah Allen]({{site.baseurl}}/author/sarah) wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/)." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
+Former Presidential Innovation Fellow {{ "sarah" | team_link }} wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/)." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
 
 If you find your agency planning an abrupt handover to O&M after a software launch, we hope this post will provide you with reasoning and examples to support a different approach: building a technical team for the long term.
 
@@ -70,7 +70,7 @@ How are they building out a team to carry the work forward, one slice of product
 
 The Open Forest effort explored potential partnerships with other internal government IT services before settling on their partnership with the Forest Service ACIO, making sure the two agencies shared the same product goals and technical directions.
 
-"There is amazing talent within the Forest Service. Our Forest Service partners identified people with subject matter expertise to work alongside us and deepen their knowledge and experience with iterative software development. Those folks are now continuing to develop the product on their own, further embedding this way of working within the organization," said [Melissa Braxton]({{site.baseurl}}/author/melissa-braxton), former 18F design and product lead on Open Forest.
+"There is amazing talent within the Forest Service. Our Forest Service partners identified people with subject matter expertise to work alongside us and deepen their knowledge and experience with iterative software development. Those folks are now continuing to develop the product on their own, further embedding this way of working within the organization," said {{ "melissa-braxton" | team_link }}, former 18F design and product lead on Open Forest.
 
 What advice does Aaron have for other agencies embarking on a similar agile journey? "Choose a low-risk option to build your pilot. We didn't choose a complex permitting process to start. Starting small mitigates risk as you develop new services, and allows you to identify capability and skill gaps."
 
