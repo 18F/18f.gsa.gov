@@ -1,33 +1,33 @@
 const fs = require('fs');
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
+const svgSprite = require('eleventy-plugin-svg-sprite');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const yaml = require('js-yaml');
+const { parse } = require('csv-parse/sync'); /* eslint-disable-line import/no-unresolved */
 const { readableDate
       , htmlDateString
       , head
       , min
       , filterTagList
       , embed
-      , team_photo
-      , team_link
-      , find_collection
+      , teamPhoto
+      , teamLink
+      , findCollection
       , markdownify
-      , weighted_sort
-      , in_groups
+      , weightedSort
+      , inGroups
       , oembed
-      , relative_url
-      , match_posts } = require("./config/filters");
-const { headingLinks } = require("./config/headingLinks");
-const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
-const privateLinks = require ('./config/privateLinksList.js');
-const svgSprite = require("eleventy-plugin-svg-sprite");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const yaml = require("js-yaml");
-const { parse } = require('csv-parse/sync');
+      , asRelativeUrl
+      , matchPosts } = require('./config/filters');
+const { headingLinks } = require('./config/headingLinks');
+const { contrastRatio, humanReadableContrastRatio } = require('./config/wcagColorContrast');
+const privateLinks = require ('./config/privateLinksList');
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
@@ -39,15 +39,18 @@ module.exports = function (config) {
 
   config.addPlugin(EleventyRenderPlugin);
 
+  // copying assets did something weird and this fixed it
+  config.setServerPassthroughCopyBehavior('passthrough');
   // Copy the `admin` folders to the output
   config.addPassthroughCopy('admin');
+  config.addPassthroughCopy('assets');
 
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
   // Specific scripts to guides
-  config.addPassthroughCopy("./assets/_common/js/*");
-  config.addPassthroughCopy("./assets/**/js/*");
+  config.addPassthroughCopy('./assets/_common/js/*');
+  config.addPassthroughCopy('./assets/**/js/*');
 
   // @TODO This is one place where the _site/img folder gets produced
   // Let's find a way to keep everything in assets
@@ -61,16 +64,16 @@ module.exports = function (config) {
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNavigation);
 
-  //// SVG Sprite Plugin for USWDS USWDS icons
+  /// / SVG Sprite Plugin for USWDS USWDS icons
   config.addPlugin(svgSprite, {
-    path: "./node_modules/@uswds/uswds/dist/img/uswds-icons",
+    path: './node_modules/@uswds/uswds/dist/img/uswds-icons',
     svgSpriteShortcode: 'uswds_icons_sprite',
     svgShortcode: 'uswds_icons'
   });
 
-  //// SVG Sprite Plugin for USWDS USA icons
+  /// / SVG Sprite Plugin for USWDS USA icons
   config.addPlugin(svgSprite, {
-    path: "./node_modules/@uswds/uswds/dist/img/usa-icons",
+    path: './node_modules/@uswds/uswds/dist/img/usa-icons',
     svgSpriteShortcode: 'usa_icons_sprite',
     svgShortcode: 'usa_icons'
   });
@@ -79,11 +82,9 @@ module.exports = function (config) {
   config.addPlugin(syntaxHighlight);
 
   // Allow yaml to be used in the _data dir
-  config.addDataExtension("yml, yaml", contents => yaml.load(contents));
+  config.addDataExtension('yml, yaml', contents => yaml.load(contents));
 
-  config.addDataExtension("csv", (contents) => {
-    return parse(contents, {columns: true, skip_empty_lines: true});
-  });
+  config.addDataExtension('csv', (contents) => parse(contents, {columns: true, skip_empty_lines: true}));
 
 
   // Filters
@@ -98,25 +99,17 @@ module.exports = function (config) {
   // Add an iframe / embedded content
   config.addFilter('embed', embed);
   // Add a photo for an 18F team member
-  config.addFilter('team_photo', team_photo);
+  config.addFilter('team_photo', teamPhoto);
   // Add a link to an 18F team member's author page
-  config.addFilter('team_link', team_link);
-  config.addFilter('find_collection', find_collection);
-  config.addFilter('weighted_sort', weighted_sort);
-  config.addFilter('in_groups', in_groups);
+  config.addFilter('team_link', teamLink);
+  config.addFilter('find_collection', findCollection);
+  config.addFilter('weighted_sort', weightedSort);
+  config.addFilter('in_groups', inGroups);
   config.addShortcode('oembed', oembed);
-  config.addFilter('relative_url', relative_url);
-  config.addFilter('match_posts', match_posts);
-  config.addFilter("limit", function (arr, limit) {
-    return arr.slice(0, limit);
-  });
-  config.addFilter('matching', function(collection, author) {
-    return collection.filter((post) => {
-      return post.data.authors.includes(author)
-    });
-  });
-
-  // FIXME (see other FIXME)
+  config.addFilter('relative_url', asRelativeUrl);
+  config.addFilter('match_posts', matchPosts);
+  config.addFilter('limit', (arr, limit) => arr.slice(0, limit));
+  config.addFilter('matching', (collection, author) => collection.filter((post) => post.data.authors.includes(author)));
   config.addFilter('markdownify', markdownify);
 
   // Color contrast checkers for the color matrix in the Brand guide
@@ -125,41 +118,34 @@ module.exports = function (config) {
 
   // Create absolute urls
   config.addFilter('asAbsoluteUrl', (relativeUrl) => {
-    const host = siteData.host;
+    const {host} = siteData;
     return new URL(relativeUrl, host).href;
   });
 
-  config.addFilter("makeUppercase", (value) => {
-    return value.toUpperCase();
-  });
+  config.addFilter('makeUppercase', (value) => value.toUpperCase());
 
-  config.addFilter("capitalize", (value) =>{
-    return value.charAt(0).toUpperCase() + value.slice(1);
-  });
+  config.addFilter('capitalize', (value) =>value.charAt(0).toUpperCase() + value.slice(1));
 
   // Converts strings or dates to date objects
   const dateObject = ((date) => {
     switch(typeof date) {
-    case "object": return date;
-    case "string": return new Date(date)
+    case 'object': return date;
+    case 'string': return new Date(date);
+    default: throw new Error(`Expected date (${date}) to be string or object`)
     }
   })
 
   // Generates the "yyyy/mm/dd" part of permalinks for blog posts
   // @example date is Jan 1, 2020
   //    returns "2020/01/01"
-  config.addFilter("toDatePath", (date) => {
-    return dateObject(date).toISOString().split('T')[0].split('-').join('/')
-  });
+  config.addFilter('toDatePath', (date) => dateObject(date).toISOString().split('T')[0].split('-').join('/'));
 
   // TODO: Not sure this is returning exactly the right string, re: datetimes
-  config.addFilter("date_to_xmlschema", (date) => {
-    return dateObject(date).toISOString()
-  });
+  config.addFilter('date_to_xmlschema', (date) => dateObject(date).toISOString());
 
   // Create an array of all tags
-  config.addCollection('tagList', function (collection) {
-    let tagSet = new Set();
+  config.addCollection('tagList', (collection) => {
+    const tagSet = new Set();
     collection.getAll().forEach((item) => {
       (item.data.tags || []).forEach((tag) => tagSet.add(tag));
     });
@@ -167,12 +153,11 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  config.addCollection('post', function (collection) {
-    return collection.getFilteredByGlob('content/posts/*.md')
-  });
+  config.addCollection('post', (collection) => collection.getFilteredByGlob('content/posts/*.md'));
+  config.addCollection('service', (collection) => collection.getFilteredByGlob('content/pages/projects/services/*.md'));
 
   // Customize Markdown library and settings
-  let markdownLibrary = markdownIt({
+  const markdownLibrary = markdownIt({
     html: true,
     breaks: false,
     linkify: false,
@@ -213,7 +198,7 @@ module.exports = function (config) {
     const baseURL = new URL('https://guides.18f.gov/');
     const hrefValue = token.attrGet('href');
 
-    if (!(new URL(hrefValue, baseURL).hostname.endsWith(".gov"))) {
+    if (!(new URL(hrefValue, baseURL).hostname.endsWith('.gov'))) {
       // Add the external link class if it hasn't been added yet
       if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
         token.attrJoin('class', 'usa-link usa-link--external');
@@ -224,7 +209,7 @@ module.exports = function (config) {
         token.attrJoin('rel', 'noreferrer');
       }
     }
-    return openDefaultRender(tokens, idx, options, env, self) + `${prefixIcon}`;
+    return `${openDefaultRender(tokens, idx, options, env, self)  }${prefixIcon}`;
   };
 
   const defaultHtmlBlockRender = markdownLibrary.renderer.rules.html_block ||
@@ -234,10 +219,10 @@ module.exports = function (config) {
 
   markdownLibrary.renderer.rules.html_block = (tokens, idx, options, env, self) => {
     const token = tokens[idx];
-    let content = token.content;
+    let {content} = token;
     // Capture the class portion of the element if it exists so it can be interacted with later
     // https://regexr.com/7udrd
-    const hrefRE = /<a href=\"[^"]*\" class=\"([^"]*)\">|href=\"([^"]*)\"/g;
+    const hrefRE = /<a href="[^"]*" class="([^"]*)">|href="([^"]*)"/g;
     const htmlIncludesLinks = content.includes('http') && hrefRE.test(token.content);
 
     if (htmlIncludesLinks) {
@@ -248,7 +233,7 @@ module.exports = function (config) {
           if (!anchorElement.includes('class=')) {
             if (!anchorElement.includes('usa-link--external')) {
               // Since no class is present, we can safely just append our classes after the href property
-              const newUrl = anchorElement + ' class="usa-link usa-link--external"';
+              const newUrl = `${anchorElement  } class="usa-link usa-link--external"`;
               content = content.replace(anchorElement, newUrl);
               tokens[idx].content = content;
             }
@@ -256,7 +241,7 @@ module.exports = function (config) {
             // Handle URLs with classes already present
             const classRE = /class="([^"]*)"/;
             const [classString, oldClassList] = anchorElement.match(classRE);
-            const newClassList = oldClassList + ' usa-link usa-link--external';
+            const newClassList = `${oldClassList  } usa-link usa-link--external`;
 
             // If someone uses the class property but doesn't actually put any classes in it, the class list will be empty
             if (classString === 'class=""') {
@@ -283,10 +268,10 @@ module.exports = function (config) {
   markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) => {
     const token=tokens[idx];
     if (linkOpenRE.test(token.content) && token.content.includes('http')) {
-      let content = token.content;
+      let {content} = token;
 
-      //Add private link icon
-      const hrefRE = /href=\"([^"]*)/;
+      // Add private link icon
+      const hrefRE = /href="([^"]*)/;
       // get the matching capture group
       const contentUrl =  content.match(hrefRE)[1];
       if (privateLinks.some((privateLink) => contentUrl.indexOf(privateLink) >= 0)) {
@@ -329,13 +314,13 @@ module.exports = function (config) {
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({
     callbacks: {
-      ready: function (err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404/index.html');
+      ready (err, browserSync) {
+        const content404 = fs.readFileSync('_site/404/index.html');
 
         browserSync.addMiddleware('*', (req, res) => {
           // Provides the 404 content without redirect.
           res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
-          res.write(content_404);
+          res.write(content404);
           res.end();
         });
       },
@@ -347,12 +332,10 @@ module.exports = function (config) {
   // Set image shortcodes
   config.addLiquidShortcode('image', imageShortcode);
   config.addLiquidShortcode('image_with_class', imageWithClassShortcode);
-  config.addLiquidShortcode("uswds_icon", function (name) {
-    return `
+  config.addLiquidShortcode('uswds_icon', (name) => `
     <svg class="usa-icon" aria-hidden="true" role="img">
       <use xlink:href="#svg-${name}"></use>
-    </svg>`;
-  });
+    </svg>`);
 
   // If BASEURL env variable exists, update pathPrefix to the BASEURL
   if (process.env.BASEURL) {
@@ -385,7 +368,7 @@ module.exports = function (config) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: pathPrefix,
+    pathPrefix,
     // -----------------------------------------------------------------
 
     // These are all optional (defaults are shown):

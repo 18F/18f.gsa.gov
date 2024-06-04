@@ -13,7 +13,7 @@ redirect_from:
   - /what-we-deliver/new-ten/
 ---
 
-<section class="bg-primary-darker usa-section--dark section-padding-md"> 
+<section class="bg-primary-darker usa-section--dark section-padding-md">
 <div class="grid-container">
   <div class="grid-row">
     <div class="grid-col-12 margin-bottom-4">
@@ -31,41 +31,34 @@ redirect_from:
 </div>
 </section>
 
+
+{% assign featured_services = site.data.featured_services %}
+{% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
+
 <section class="usa-section case-section bg-base-lightest">
   <div class="grid-container">
-    <div clas="grid-row"> 
+    <div class="grid-row">
       <h2 class="margin-bottom-5">Case studies</h2>
     </div>
     <div class="grid-row grid-gap">
       <ul class="usa-card-group">
-      {% assign featured_services = site.data.featured_services %}
-      {% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
-      {% for featured in featured_services %}
-        {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
-        <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-4">
-          {% include "card-project.html" project=featured_project.slug %}
-        </li>
-      {% endfor %}
+        {% for featured in featured_services %}
+          {% assign featured_project = projects_list | where: "agency", featured.agency | first %}
+          <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-4">
+            {% include "card-project.html" project: featured_project.slug %}
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
 </section>
 
-    {%- comment -%} 
-    <p>
-      <a class="link-arrow-right post-link-continue_reading" href="{{ '/work-with-us/' | prepend: site.baseurl }}">
-        See all case studies
-        {% include svg/icons/arrow-right.svg %}
-      </a>
-    </p> 
-    {%- endcomment -%}
-
-{% include "testimonial.html"
- quote="18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities."
- attribution="Christina Ho"
- position="Former Deputy Assistant Secretary"
- organization="Office of Accounting Policy & Financial Transparency, Department of the Treasury"
- agency_image="treasury.svg"
+{% include "testimonial.html",
+   quote: "18F’s philosophy to build everything openly by default has been a key success factor in our ability to build credibility with the external stakeholders who have been critical of us previously. More importantly, this way of building facilitates innovation in an eco-centric manner as opposed to just within the government or a few entities.",
+   attribution: "Christina Ho",
+   position: "Former Deputy Assistant Secretary",
+   organization: "Office of Accounting Policy & Financial Transparency, Department of the Treasury",
+   agency_image: "treasury.svg"
  %}
 
 <div class="usa-section bg-base-lightest">
@@ -95,4 +88,3 @@ redirect_from:
     </ul>
   </section>
 </div>
-

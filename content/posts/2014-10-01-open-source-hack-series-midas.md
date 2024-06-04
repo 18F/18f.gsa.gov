@@ -31,7 +31,7 @@ tags:
 
 ## What is Midas?
 
-[Midas is an online marketplace of skill building opportunities]({{site.baseurl}}/2014/07/16/midas-a-marketplace-for-innovation-in-government) which matches people to projects that they’re passionate about. Our goal is to foster innovation across team boundaries by connecting projects or challenges that need help within federal government agencies to people who want to work collaboratively on the solution.
+[Midas is an online marketplace of skill building opportunities]({{site.baseurl}}/2014/07/16/midas-a-marketplace-for-innovation-in-government/) which matches people to projects that they’re passionate about. Our goal is to foster innovation across team boundaries by connecting projects or challenges that need help within federal government agencies to people who want to work collaboratively on the solution.
 
 "It's like a Kickstarter for people's time." –Joe Polastre at [18F Demo Day](https://speakerdeck.com/18f/innovation-toolkit-18f-demo-day-9-may-2014?slide=3)
 

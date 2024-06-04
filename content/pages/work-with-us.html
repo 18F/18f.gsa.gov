@@ -19,7 +19,7 @@ We partner with government agencies to:
 - Make your website work for you
 - Design processes to implement mandates and initiatives
 - Find the right vendor to set you up for long-term success
-- [Create AI service strategies]({{ site.baseurl }}/AI-services)
+- [Create AI service strategies]({{ site.baseurl }}/AI-services/)
 
 In each engagement, we take the time to understand your mission and the challenges you confront. Then, we draw from our deep well of technical expertise to create practical solutions to deliver the best outcomes for you and the people you serve.
 
@@ -59,7 +59,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     <div class="grid-col">
       <h2>Transform the way you work</h2>
       <div class="font-sans-lg">
-        {{ intro | markdownify}}
+        {{ intro | markdownify }}
       </div>
     </div>
   </div>
@@ -97,20 +97,20 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-      {% include "card-with-image.html"
-         card_color="dark"
-         image_path="/assets/img/guides/state-guide-lightest.svg"
-         link_url="https://derisking-guide.18f.gov/state-field-guide/"
-         text_content="State Software Budgeting Handbook"
+      {% include "card-with-image.html",
+         card_color: "dark",
+         image_path: "/assets/img/guides/state-guide-lightest.svg",
+         link_url: "https://derisking-guide.18f.gov/state-field-guide/",
+         text_content: "State Software Budgeting Handbook"
       %}
       </div>
 
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-      {% include "card-with-image.html"
-         card_color="dark"
-         image_path="/assets/img/guides/federal-guide-lightest.svg"
-         link_url="https://derisking-guide.18f.gov/federal-field-guide/"
-         text_content="Federal Field Guide"
+      {% include "card-with-image.html",
+         card_color: "dark",
+         image_path: "/assets/img/guides/federal-guide-lightest.svg",
+         link_url: "https://derisking-guide.18f.gov/federal-field-guide/",
+         text_content: "Federal Field Guide"
       %}
       </div>
     </div> <a href="{{ site.baseurl }}/guides/" class="usa-button usa-button--outline margin-top-3">
@@ -136,16 +136,16 @@ Instead, we involve your team in creating solutions and ensure they have everyth
     <div class="grid-row grid-gap-md">
     {% assign projects = 'fec-gov, treasury-data-act' | split: ", " %}
     {% for project in projects %}
-      {% assign project_details = site | find_collection: 'services_projects' | where: 'slug', project | first %}
-      {% assign project_agency = site.data.agencies | where: "name", project_details.agency | first %}
-      {% assign project_link = site.baseurl | append: project_details.permalink %}
+      {% assign project_details = collections.service | where: 'fileSlug', project | first %}
+      {% assign project_agency = project_details.data.agencies | where: "name", project_details.data.agency | first %}
+      {% assign project_link = site.baseurl | append: project_details.data.permalink %}
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-        {% include "card-with-image.html"
-           image_path=project_agency.logo
-           image_alt_text=project_agency.name
-           image_size="md"
-           link_url= project_link
-           text_content=project_details.mini_excerpt
+        {% include "card-with-image.html",
+           image_path: project_agency.logo,
+           image_alt_text: project_agency.name,
+           image_size: "md",
+           link_url: project_link,
+           text_content: project_details.data.mini_excerpt
         %}
       </div>
     {% endfor %}

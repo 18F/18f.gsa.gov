@@ -26,7 +26,7 @@ There's more detail and caveats below — and in particular, this focuses only o
 
 * The White House policy generated significant HTTPS adoption in the U.S. government, to the point that **[the government now outpaces the private sector on HTTPS](#did-we-need-a-formal-https-policy)**.
 * HTTPS has gone from **[a clear minority to a clear majority](#evaluating-adoption)** of support across executive branch .gov domains since the release of the policy.
-* Web traffic data suggests that **[HTTPS is now used for most web requests](#measuring-overall-user-impact-using-analyticsusagov)** to executive branch .gov web services.
+* Web traffic data suggests that **[HTTPS is now used for most web requests](#measuring-overall-user-impact-using-analytics-usa-gov)** to executive branch .gov web services.
 * In 2017, agencies should focus on closing gaps through the use of **[inexpensive and free certificates](#recommendations-and-data)**, and by **[preloading their domains](#recommendations-and-data)** wherever possible.
 
 ## Measuring .gov domains and subdomains

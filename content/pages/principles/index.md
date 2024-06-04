@@ -28,7 +28,7 @@ The first thing you may notice when partnering with 18F is that your team will b
 
 In this document, we’ll explain each idea and how it will influence our work together. 
 
-[Download a PDF version of the Principles here]({{site.baseurl}}/partnership-principles/18FPartnershipPrinciples.pdf)
+[Download a PDF version of the Principles here]({{site.baseurl}}/assets/presentations/18FPartnershipPrinciples.pdf)
 
 # Methodologies
 
