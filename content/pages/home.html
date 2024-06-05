@@ -18,7 +18,7 @@ title: Home
           your mission. Together with our government agency partners, we deliver projects
           that stay within budget and improve their technology.
         </p>
-        <a class="usa-button usa-button--big margin-top-6" href="{{ site.baseurl }}/work-with-us/">
+        <a class="usa-button usa-button--big margin-top-6" href="{{ "/work-with-us/" | url }}">
           Work with us
         </a>
       </div>
@@ -90,7 +90,7 @@ title: Home
       </p>
     </div>
 
-    <a href="{{ site.baseurl }}/work-with-us/" class="usa-button usa-button--big an18f-button--accent margin-top-4"> Work
+    <a href="{{ "/work-with-us/" | url }}" class="usa-button usa-button--big an18f-button--accent margin-top-4"> Work
       with us
     </a>
   </div>
@@ -102,13 +102,13 @@ title: Home
     <div class="grid-row grid-gap-lg margin-top-6">
       <ul class="usa-card-group">
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include "card-project.html" project='fec-gov' %}
+          {% include "card-project.html" project_id: 'fec-gov' %}
         </li>
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include "card-project.html" project='treasury-data-act' %}
+          {% include "card-project.html" project_id: 'treasury-data-act' %}
         </li>
         <li class="usa-card tablet-lg:grid-col-4 margin-bottom-4">
-          {% include "card-project.html" project='calc' %}
+          {% include "card-project.html" project_id: 'calc' %}
         </li>
       </ul>
     </div>
@@ -117,21 +117,20 @@ title: Home
 
 <section class="usa-section usa-section--mobile-no-x">
   <div class="grid-container">
-    {% assign agency_partners = site.data.featured_agencies %}
     <h2 class="margin-bottom-3">Some agencies we’ve worked with</h2>
     <ul class="grid-row grid-gap usa-list--unstyled">
-      {% for partner in agency_partners %}
+      {% for agency in agencies | where: "featured", true %}
       <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-4">
-        <img class="margin-right-105 maxw-7" src="{{ partner.logo | prepend: site.baseurl }}" alt="" />
-        {% if partner.agency_url %}
-        <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+        <img class="margin-right-105 maxw-7" src="/assets/img/logos/agencies/{{ agency.logo | prepend: site.baseurl }}" alt="" />
+        {% if agency.url %}
+        <a class="list-images-text" href="{{ agency.url | prepend: site.baseurl }}">{{ agency.name }}</a>
         {% else %}
-        <span class="list-images-text">{{ partner.name }}</span>
+        <span class="list-images-text">{{ agency.name }}</span>
         {% endif %}
       </li>
       {% endfor %}
     </ul>
-    <a class="usa-button usa-button--big margin-top-4" href="{{ site.baseurl }}/our-work/"> See all agency partners
+    <a class="usa-button usa-button--big margin-top-4" href="{{ "/our-work/" | url }}"> See all agency partners
     </a>
   </div>
 </section>
@@ -139,16 +138,15 @@ title: Home
 <section class="usa-section usa-section--dark bg-primary-dark">
   <div class="grid-container">
     <div class="grid-row margin-bottom-6">
-      <h2> Recent blog posts </h2>
+      <h2>Recent blog posts</h2>
     </div>
 
-    {% assign latest_posts = site.posts | slice:0,6 %}
-    {% include "featured-posts.html"
-    color_mode="dark"
-    related_posts=latest_posts
+    {% include "featured-posts.html",
+       color_mode: "dark",
+       related_posts: collections.posts | slice: 0, 6
     %}
 
-    <a href="{{ site.baseurl }}/blog/" class="usa-button usa-button--big an18f-button--accent margin-top-4"> See all
+    <a href="{{ "/blog/" | url }}" class="usa-button usa-button--big an18f-button--accent margin-top-4"> See all
       blog posts
     </a>
   </div>

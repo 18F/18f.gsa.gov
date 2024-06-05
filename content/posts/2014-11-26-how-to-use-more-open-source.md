@@ -201,7 +201,7 @@ Code that you write or contract to have written should be open source from the s
 
 ## 18F Consulting
 
-The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the federal government procurement process. We created [18F Consulting]({{ site.baseurl }}/consulting/) to provide this much needed technical expertise on a consultative basis at cost to guide federal programs toward a modular architecture using agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
+The key to reuse is simple, but beyond the scope of this article: a modular architecture. In recent years, much of the technical expertise has been outsourced from the federal government procurement process. We created [18F Consulting]({{ "/consulting/" | url }}) to provide this much needed technical expertise on a consultative basis at cost to guide federal programs toward a modular architecture using agile methodologies. Please [contact us](mailto:18f@gsa.gov) for more information.
 
 ## Glossary
 
@@ -219,7 +219,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
     </tr>
     <tr>
       <td>18F Consulting</td>
-      <td>A <a href="{{ site.baseurl }}/consulting/">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
+      <td>A <a href="{{ "/consulting/" | url }}">consultancy</a> within 18F that provides services to federal program managers and other leaders who need assistance with designing and managing software acquisitions that use modern development techniques (e.g., agile, lean, open source).</td>
     </tr>
     <tr>
       <td>application framework</td>

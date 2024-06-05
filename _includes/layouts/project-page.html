@@ -137,9 +137,9 @@ layout: default
       </div>
       {% endif %}
     </div>
+    {% assign related_posts = matching_posts | slice: 0, 3 %}
     {% include "featured-posts.html"
-       related_posts: matching_posts,
-       max_num_posts: 3,
+       related_posts: related_posts,
        show_excerpt: true
     %}
   </div>

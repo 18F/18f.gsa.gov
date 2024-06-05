@@ -23,7 +23,7 @@ redirect_from:
     </div>
     <div class="grid-col-12">
       <a class="usa-button an18f-button--accent"
-         href="{{ site.baseurl }}/contact/"
+         href="{{ "/contact/" | url }}"
        >Get in touch
        </a>
     </div>
@@ -33,7 +33,7 @@ redirect_from:
 
 
 {% assign featured_services = site.data.featured_services %}
-{% assign projects_list = site | find_collection: 'services_projects' | weighted_sort: 'project_weight', 'title' %}
+{% assign projects_list = collections.services | weighted_sort: 'project_weight', 'title' %}
 
 <section class="usa-section case-section bg-base-lightest">
   <div class="grid-container">

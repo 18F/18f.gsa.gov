@@ -20,6 +20,7 @@
     "federalist": "npm run build",
     "lint": "eslint .",
     "pa11y-ci:sitemap": "sleep 10; pa11y-ci --sitemap http://localhost:8080/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\" --sitemap-find \"^/\" --sitemap-replace \"http://localhost:8080/\"",
+    "precommit": "npm run lint && rm -rf _site && npm run build && npm run test:html-validation && npm run test:links",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
