@@ -153,8 +153,8 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  config.addCollection('post', (collection) => collection.getFilteredByGlob('content/posts/*.md'));
-  config.addCollection('service', (collection) => collection.getFilteredByGlob('content/pages/projects/services/*.md'));
+  config.addCollection('posts', (collection) => collection.getFilteredByGlob('content/posts/*.md'));
+  config.addCollection('services', (collection) => collection.getFilteredByGlob('content/pages/projects/services/*.md'));
 
   // Customize Markdown library and settings
   const markdownLibrary = markdownIt({

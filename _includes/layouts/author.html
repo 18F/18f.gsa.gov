@@ -8,8 +8,6 @@ eleventyComputed:
 Layout for author page with their blog posts
 {% endcomment %}
 
-{% assign matching_posts = collections.post | matching: author.id | sort: 'date' | reverse %}
-
 <section class="usa-section section-padding-sm">
   <div class="grid-container">
     <header>
@@ -20,6 +18,7 @@ Layout for author page with their blog posts
 <section class="padding-sm page-tag-results">
   <div class="grid-container">
     <hr class="hr-1-dark margin-y-0">
-    {% include "post-previews.html", posts: matching_posts, tags: tags %}
+    {% assign matching_posts = collections.posts | matching: author.id | sort: 'date' | reverse %}
+    {% include "post-previews.html", posts: matching_posts %}
   </div>
 </section>

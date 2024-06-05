@@ -2,38 +2,37 @@
 This partial outputs a card that displays a project title, the associated agency logo, and an excerpt. The expected argument for this partial is the markdown file name for the project, which is in the "_services_projects" directory.
 {% endcomment %}
 
-{% assign project = site | find_collection: 'services_projects' | where: 'slug', include.project | first %}
-{% assign card_link = project.permalink | prepend: site.baseurl %}
-
+{% assign project = collections.services | where: 'fileSlug', project_id | first %}
 
 <div class="usa-card__container">
   <header class="usa-card__header">
-    {% if project.agency %}
-      <div class="display-flex flex-align-center"> 
-        {% assign agency = site.data.agencies | where: "name", project.agency | first %}
-        {% assign agency_logo = agency.logo %}
-        {% unless agency_logo %}
-          {% if project.agency_logo %}
-            {% assign agency_logo = project.agency_logo %}
-          {% endif %}
-        {% endunless %}
-        {% if agency_logo %} 
-        <img src= "{{ site.baseurl }}{{ agency_logo }}" 
+    {% comment %}
+      code smell: nil checks / timid code
+      This template is uncertain about the presence of project.data.agency, agency.logo, project.url, and project.data.title. If any of those are missing, this template doesn't work or look good.
+
+      A better way to handle would be to enforce some data guarantees in a pre-build stage, or have the
+      template error out.
+    {% endcomment %}
+    {% if project.data.agency %}
+      <div class="display-flex flex-align-center">
+        {% assign agency = agencies | where: "name", project.data.agency | first %}
+        {% if agency.logo %}
+        <img src="/assets/img/logos/agencies/{{ agency.logo }}"
              class="maxw-8 margin-right-2"
              alt=""
         >
         {% endif %}
-        <p class="line-height-sans-2 text-bold margin-top-0">{{ project.agency }}</p>
+        <p class="line-height-sans-2 text-bold margin-top-0">{{ agency.name }}</p>
       </div>
     {% endif %}
-    {% if card_link and project.title %}
-    <a href="{{ card_link }}">
-      <h3 class="margin-top-3 text-bold">{{ project.title }}</h3>
+    {% if project.url and project.data.title %}
+    <a href="{{ project.url }}">
+      <h3 class="margin-top-3 text-bold">{{ project.data.title }}</h3>
     </a>
-    {% endif %}        
+    {% endif %}
   </header>
 
   <div class="usa-card__body">
-    <p class="margin-top-2">{{ project.excerpt }}</p>
+    <p class="margin-top-2">{{ project.data.excerpt }}</p>
   </div>
 </div>

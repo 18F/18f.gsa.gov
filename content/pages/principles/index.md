@@ -17,18 +17,18 @@ The first thing you may notice when partnering with 18F is that your team will b
 
 ### Methodologies we’ll use together
 
-- [Letting users guide our work]({{site.baseurl}}/partnership-principles/#letting-users-guide-our-work)
-- [Working in an agile way]({{site.baseurl}}/partnership-principles/#working-in-an-agile-way)
-- [Building in the open]({{site.baseurl}}/partnership-principles/#building-in-the-open)
+- [Letting users guide our work]({{ "/partnership-principles/#letting-users-guide-our-work" | url }})
+- [Working in an agile way]({{ "/partnership-principles/#working-in-an-agile-way" | url }})
+- [Building in the open]({{" /partnership-principles/#building-in-the-open" | url }})
 
 ### Tactics we’ll use together
 
-- [Understanding your problem first]({{site.baseurl}}/partnership-principles/#understanding-your-problem-first)
-- [Partnering with an empowered product owner]({{site.baseurl}}/partnership-principles/#partnering-with-an-empowered-product-owner)
+- [Understanding your problem first]({{ "/partnership-principles/#understanding-your-problem-first" | url }})
+- [Partnering with an empowered product owner]({{ "/partnership-principles/#partnering-with-an-empowered-product-owner" | url }})
 
 In this document, we’ll explain each idea and how it will influence our work together. 
 
-[Download a PDF version of the Principles here]({{site.baseurl}}/assets/presentations/18FPartnershipPrinciples.pdf)
+[Download a PDF version of the Principles here]({{ "/assets/presentations/18FPartnershipPrinciples.pdf" | url }})
 
 # Methodologies
 
