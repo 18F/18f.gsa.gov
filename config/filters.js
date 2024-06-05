@@ -86,7 +86,7 @@ const teamPhoto = (slug) => {
 
 const teamLink = (slug) => {
   const name = fullName(findPerson(slug))
-  return `<a href="/author/${slug}/">${name}</a>`
+  return `<a href="/author/${slug.toLowerCase()}/">${name}</a>`
 }
 
 // TODO These all need implementation, they're just placeholders so the site builds at all
