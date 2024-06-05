@@ -2,39 +2,33 @@
 layout: primary
 title: 18F Blog
 lead: Delivering civic technology
-skip_index: true
-permalink: /blog/
-# redirect_from: "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/"
 ---
 <section class="usa-section section-padding-top-0">
-  <div class="grid-container padding-top-0">
+<div class="grid-container padding-top-0">
   <hr class="hr-1-dark margin-y-0">
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-7 page-tag-results">
-      {% include "post-previews.html",
-         posts: paginator.posts,
-         tags: page.tags
-      %}
+      {% include "post-previews.html", posts: posts %}
       <section class="pagination grid-row flex-align-center flex-justify">
         <div>
-          {% if paginator.previous_page %}
-            <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-              {% include "svg/icons/arrow-left.svg" %} Previous {{ paginator.per_page }} posts
+          {% if pagination.href.previous %}
+            <a class="link-arrow-left" href="{{ pagination.href.previous }}">
+              {% include "svg/icons/arrow-left.svg" %} Previous {{ posts.size }} posts
             </a>
           {% else %}
-          <p></p>
+            <p></p>
           {% endif %}
         </div>
         <div>
-          <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+          <p>Page {{ pagination.pageNumber }} of {{ pagination.pages.size }}</p>
         </div>
         <div class="display-flex flex-justify-end margin-right-neg-2px">
-          {% if paginator.next_page %}
-          <a class="link-arrow-right" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-            Next {{ paginator.per_page }} posts {% include "svg/icons/arrow-right.svg" %}
-          </a>
+          {% if pagination.href.next %}
+            <a class="link-arrow-right" href="{{ pagination.href.next }}">
+              Next {{ posts.size }} posts {% include "svg/icons/arrow-right.svg" %}
+            </a>
           {% else %}
-          <p></p>
+            <p></p>
           {% endif %}
         </div>
       </section>
@@ -42,18 +36,17 @@ permalink: /blog/
     {% assign featured_blog_content = site.data.featured_blog_content %}
     <aside class="sidebar tablet:grid-offset-1 tablet:grid-col-4 padding-y-6">
       <h2 class="font-sans-md text-bold border-top-05-primary-dark padding-y-2">
-        Browse by topic
+      Browse by topic
       </h2>
       <ul class="usa-sidenav margin-bottom-6">
         {% for item in featured_blog_content.topics %}
-        <li class="usa-sidenav__item">
-          <a href="{{ site.baseurl }}/tags/{{ item.tag }}">{{ item.topic }}</a>
-        </li>
+          <li class="usa-sidenav__item">
+            <a href="/tags/{{ item.tag }}">{{ item.topic }}</a>
+          </li>
         {% endfor %}
       </ul>
       {% include "social-media.html"%}
     </aside>
   </div>
-  </div>
-  </section>
-
+</div>
+</section>
