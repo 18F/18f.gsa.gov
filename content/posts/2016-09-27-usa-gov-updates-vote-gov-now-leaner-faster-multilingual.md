@@ -11,7 +11,7 @@ description: "One year ago this week, we launched vote.gov. It was a concise and
 hero: false
 ---
 <figure>
-  {% image "assets/blog/vote-usa-gov/vote-gov.jpg" "Screenshot" %}
+  {% image "assets/blog/vote-usa-gov/vote-gov.jpg" "" %}
   <figcaption>Homepage of the new vote.gov</figcaption>
 </figure>
 

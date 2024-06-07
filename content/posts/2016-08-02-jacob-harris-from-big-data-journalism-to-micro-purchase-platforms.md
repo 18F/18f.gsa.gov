@@ -12,7 +12,7 @@ hero: false
 ---
 
 <figure class="align-right">
-	{% image "assets/img/team/jacobharris.jpg" "Jabob Harris." %}
+	{% image "assets/img/team/jacobharris.jpg" "Profile photo for Jabob Harris." %}
 	<figcaption class="align-center">Jacob Harris, 18F team member</figcaption>
 </figure>
 

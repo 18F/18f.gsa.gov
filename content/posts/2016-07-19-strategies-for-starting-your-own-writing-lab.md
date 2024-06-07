@@ -14,7 +14,7 @@ hero: false
 ---
 
 <figure>
-	{% image "assets/blog/writing-lab/writing-lab-screenshot.png" "Screenshot of a GitHub page" %}
+	{% image "assets/blog/writing-lab/writing-lab-screenshot.png" "Screen shot of writing lab GitHub page" %}
 	<figcaption>The internal README of the 18F Writing Lab</figcaption>
 </figure>
 <br>

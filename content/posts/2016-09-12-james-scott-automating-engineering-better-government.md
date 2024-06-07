@@ -10,7 +10,7 @@ description: "James Scott's career has taken him from The University of Virginia
 hero: false
 ---
 <figure class="align-right">
-	{% image "assets/img/team/jamesscott.jpg" "James Scott" %}
+	{% image "assets/img/team/jamesscott.jpg" "picture of James Scott" %}
 	<figcaption>James Scott, Software engineer at 18F</figcaption>
 </figure><br>
 

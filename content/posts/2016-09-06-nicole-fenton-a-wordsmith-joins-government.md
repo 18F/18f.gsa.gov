@@ -16,7 +16,7 @@ description: Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole w
 hero: false
 ---
 <figure class="align-right">
-	{% image "assets/img/team/nicole-fenton.jpg" "Nicole Fenton" %}
+	{% image "assets/img/team/nicole-fenton.jpg" "" %}
 	<figcaption class="align-center">Nicole Fenton, content designer at 18F</figcaption>
 </figure><br>
 
