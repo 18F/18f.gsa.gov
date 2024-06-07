@@ -14,7 +14,7 @@ front-end developer and a member of our Outreach Team*.*"
 hero: false
 ---
 <figure class="align-right">
-	{% image "assets/img/team/elaine.jpg" "Elaine Kamlley." %}
+	{% image "assets/img/team/elaine.jpg" "Profile photo for Elaine Kamlley." %}
 	<figcaption class="align-center">Elaine Kamlley, 18F team member</figcaption>
 </figure>
 

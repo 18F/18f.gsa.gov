@@ -11,7 +11,7 @@ description: "Holly Allen came to 18F from Dreamworks Animation and the Public L
 hero: false
 ---
 <figure class="align-right">
-	{% image "assets/img/team/holly.jpg" "Holly Allen." %}
+	{% image "assets/img/team/holly.jpg" "Profile photo for Holly Allen." %}
 	<figcaption class="align-center">Holly Allen, Director of Engineering</figcaption>
 </figure><br>
 

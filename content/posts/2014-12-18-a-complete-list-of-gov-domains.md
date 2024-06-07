@@ -19,7 +19,7 @@ tags:
 ---
 
 <figure>
-  {% image "assets/blog/dotgovs/dot-govs-screen.png" "A section of the .gov domain list in a spreadsheet" %}
+  {% image "assets/blog/dotgovs/dot-govs-screen.png" "A section of a spreadsheet of the .gov domain list" %}
   <figcaption>Excerpt of the <a href="https://github.com/GSA/data/blob/master/dotgov-domains/current-full.csv">.gov domain list (CSV)</a></figcaption>
 </figure>
 

@@ -154,10 +154,7 @@ websites and services.
 
 
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">
-<figure>
-{% image "assets/blog/federal-front-door/image01.jpg" "A two-by-two grid showing how people think when confidence is plotted against resilience." %}
-<figcaption> When confidence and resilience are both high, people &ldquo;will keep trying until a goal is achieved.&rdquo; When confidence is high but resilience is low, people may apply once but will give up if it doesn't go well. With resilience high and low confidence, people may try a few times but will doubt themselves. And when both resilience and confidence are low, they probably won't apply at all.</figcaption>
-</figure>
+{% image "assets/blog/federal-front-door/image01.jpg" "A two-by-two grid showing how people think when confidence is plotted against resilience. When confidence and resilience are both high, people &ldquo;will keep trying until a goal is achieved.&rdquo; When confidence is high but resilience is low, people may apply once but will give up if it doesn't go well. With resilience high and low confidence, people may try a few times but will doubt themselves. And when both resilience and confidence are low, they probably won't apply at all." %}
 </div>
 
 Before using a government service or applying for benefits, people
