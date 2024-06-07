@@ -28,7 +28,7 @@ After spending the first two weeks of a six-week project interviewing various us
 Once our partners had bought into what we had seen and heard during our research, we asked them to prioritize the findings. This request left them a bit confused. “Aren’t _you_ supposed to tell us what the priorities should be?” they asked. We told them that while we certainly had an opinion on what the highest priority issues were, especially from a user-experience perspective, it was important for us to know what _their_ organizational priorities were.  
 
 <figure>
-	<img class= "image-reduce right-aligned" src="{{ site.baseurl }}/assets/blog/user-interview/hi-med-low.jpg" alt="image of a large white butcher paper with three columns.  Each column has a header that relate to level of priority - High, medium, low. Below each header are various post-its">
+	{% image_with_class "assets/blog/user-interview/hi-med-low.jpg" "image-reduce right-aligned" "image of a large white butcher paper with three columns.  Each column has a header that relate to level of priority - High, medium, low. Below each header are various post-its" %}
 </figure>
 
 We conducted this exercise using a very low-tech approach: writing findings on sticky notes, then asking the partner to put them into low-priority, medium-priority, and high-priority groups.

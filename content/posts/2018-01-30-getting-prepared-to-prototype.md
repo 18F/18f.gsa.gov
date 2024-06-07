@@ -25,7 +25,7 @@ Here are a list of factors that governments should consider to become better pre
 You can create prototypes in [many different forms](https://github.com/18F?utf8=%E2%9C%93&q=prototype), and you don’t necessarily have to [write software code](https://18f.gsa.gov/2015/01/06/protosketch/). You can use prototypes as a way to get feedback from real or anticipated users, or you can use them as a way to test hypotheses or validate technology choices.
 
 <figure>
-	<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/prototype/design-prototype.png" alt="mock up of a prototype">
+	{% image_with_class "assets/blog/prototype/design-prototype.png" "image-shadowed" "mock up of a prototype" %}
 	<figcaption>A design prototype built for the State of Alaska to demonstrate a new modular product design strategy for the state’s Medicaid Eligibility System modernization project.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Thinking clearly ahead of time about the reasons for building a prototype, and t
 Through our work, we’ve learned firsthand that finding users to evaluate a prototype [can sometimes be a challenge](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/). Identifying users that can provide meaningful feedback and reaching out to recruit them can require multiple steps, and often prior approvals. As a general rule of thumb, the larger the call for feedback, the more hurdles you’ll have to overcome to identify and contact volunteers.
 
 <figure>
-	<img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/prototype/paid-fam-leave.png" alt="A prototype for paid family leave. Top of the screen is light blue with header">
+	{% image_with_class "assets/blog/prototype/paid-fam-leave.png" "image-shadowed" "A prototype for paid family leave. Top of the screen is light blue with header" %}
 	<figcaption>An 18F prototype built to <a href="https://github.com/18F/Paid-Leave-Prototype">provide technical guidance</a> for the Department of Labor with websites for their Paid Family Medical Leave programs.</figcaption>
 </figure>
 
