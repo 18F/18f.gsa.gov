@@ -11,11 +11,10 @@ front-end developer and a member of our Outreach Team"
 description: "All throughout the summer, we’ll be profiling members
 across the 18F team. We’re starting with Elaine Kamlley, who is both a
 front-end developer and a member of our Outreach Team*.*"
-image: /assets/img/team/elaine.jpg
 hero: false
 ---
 <figure class="align-right">
-	<img src="{{site.baseurl}}{{page.image}}" alt="Profile photo for Elaine Kamlley.">
+	{% image "assets/img/team/elaine.jpg" "Elaine Kamlley." %}
 	<figcaption class="align-center">Elaine Kamlley, 18F team member</figcaption>
 </figure>
 

@@ -65,14 +65,14 @@ For NASA, tool selection began with delving into use of [`pshtt`](https://github
 
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/nasa-https/pshtt-code.png" alt="The configuration file, in python, for the psst tool.">
+  {% image "assets/blog/nasa-https/pshtt-code.png" "The configuration file, in python, for the psst tool." %}
   <figcaption>Go, pshtt, go! - NASA made extensive use of DHS' open source tool for assessing compliant HTTPS implementations, regularly scanning thousands of target websites and services.</figcaption>
 </figure>
 
 We also augmented reports to track targets longitudinally, monitoring for endpoints that disappeared or changed between scans. This sort of analysis was helpful for one-on-one troubleshooting, which the core team supported by offering spot check scans for system administrators that were unable to run `pshtt` independently. For these purposes, the agency core team maintained a troubleshooting branch off of the canonical `pshtt` master branch to support checks with multiple timeouts to account for many of NASA's high-latency targets, and to use an augmented trust store that included the Federal Common Policy CA.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/nasa-https/pshtt-report.png" alt="A spreadsheet showing a pshtt report.">
+  {% image "assets/blog/nasa-https/pshtt-report.png" "A spreadsheet showing a pshtt report." %}
   <figcaption>NASA "prettified" pshtt reports to better meet the needs of various stakeholder groups, with color-coding and mappings to additional data.</figcaption>
 </figure>
 

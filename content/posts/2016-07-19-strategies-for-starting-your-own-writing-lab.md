@@ -14,7 +14,7 @@ hero: false
 ---
 
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/writing-lab/writing-lab-screenshot.png" alt="Screen shot of writing lab GitHub page">
+	{% image "assets/blog/writing-lab/writing-lab-screenshot.png" "Screenshot of a GitHub page" %}
 	<figcaption>The internal README of the 18F Writing Lab</figcaption>
 </figure>
 <br>

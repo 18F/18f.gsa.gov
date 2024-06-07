@@ -8,11 +8,10 @@ tags:
 - user-centered design
 excerpt: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
 description: "One year ago this week, we launched vote.gov. It was a concise and simple site with a single mission: direct citizens through the voter registration process as quickly as possible. Today, on National Voter Registration Day, we're launching this new version."
-image: /assets/blog/vote-usa-gov/vote-gov.jpg
 hero: false
 ---
 <figure>
-  <img src="{{site.baseurl}}{{page.image}}" alt="">
+  {% image "assets/blog/vote-usa-gov/vote-gov.jpg" "Screenshot" %}
   <figcaption>Homepage of the new vote.gov</figcaption>
 </figure>
 

@@ -19,7 +19,9 @@ image: /assets/blog/speaker-series/d-brown.jpg
 hero: false
 ---
 
-<div class="align-left"><img alt="Dan Brown" src="/assets/blog/speaker-series/d-brown.jpg"></div>
+<div class="align-left">
+  {% image "assets/blog/speaker-series/d-brown.jpg" "Dan Brown" %}
+</div>
 
 Dan Brown, co-founder of D.C.-based design firm [EightShapes](http://eightshapes.com/) and author of “[Communicating Design](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463)” and “[Designing Together](http://www.amazon.com/Designing-Together-collaboration-management-professionals/dp/0321918630/ref=sr_1_1?s=books&ie=UTF8&qid=1431552817&sr=1-1&keywords=Designing+Together+Dan+Brown),” is fascinated by conflict — but not in the way you might think. Brown has spent years studying how and why conflict arises in the workplace, its centrality to good design, the differences between healthy and unhealthy conflict, and more.
 

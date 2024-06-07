@@ -99,7 +99,7 @@ You should work to **develop a presentation style** through iterative practice a
 
 When leading a discussion, pay attention to who has a loud voice in the room and **elevate other voices** to ensure the meeting is useful to everyone. You can seek feedback with a show of hands and call on people that didn’t talk as much in the meeting. When moving on from a topic, be deliberate and don’t allow someone to keep the conversation frozen because they are emphatic — that rewards their insistence and harms your authority.
 
-<img src="{{site.baseurl}}/assets/blog/meeting-facilitation/workshopping.jpg" alt="Members of the 18F team at a workshop meeting.">
+{% image "assets/blog/meeting-facilitation/workshopping.jpg" "Members of the 18F team at a workshop meeting." %}
 
 ### Wrapping up
 

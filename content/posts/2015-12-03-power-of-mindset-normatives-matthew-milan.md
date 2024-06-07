@@ -20,7 +20,9 @@ What changed?
 
 In short, *how* Engelbart’s unique mindset was presented shifted his colleagues’ opinion of him. Stewart Brand, editor of the Whole Earth Catalog and co-founder of the Long Now Foundation, helped to shape Engelbart’s raw material into a presentation that was direct, convincing, and easy to comprehend.
 
-<div style="float: right; margin-left: 10px;"><img src="{{ site.baseurl }}/assets/blog/speaker-series/matthew-milan.jpg" alt="Matthew Milan"></div>
+<div style="float: right; margin-left: 10px;">
+  {% image "assets/blog/speaker-series/matthew-milan.jpg" "Matthew Milan" %}
+</div>
 
 This concept — the transformative power of shared mindset — was the focus of Matthew Milan’s recent talk for the 18F Design Presents speaker series. Milan, founder of and design leader at software design firm [Normative](http://www.normative.com/), has fifteen years’ experience in the domain of emerging technologies, and he excels at translating complex information into compelling user experiences.
 

@@ -68,7 +68,7 @@ strategic planning internally but should not be viewed as a substitute
 for talking with actual users.
 
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-template.jpg" alt="A persona template for participants.">
+	{% image "assets/blog/digital-acquisition-accelerator/persona-template.jpg" "A card-shaped template with blanks for name, age, role, goals & objectives, behaviors, and traits." %}
 	<figcaption>Example of template used by participants to fill out key traits of users.</figcaption>
 </figure><br>
 
@@ -78,7 +78,7 @@ they were asked to create a name then outline that user’s demographic
 information, needs, and goals as well as behaviors and beliefs, like
 below:
 
-<img alt="A template for sketching personas to give to participants." src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/persona-sketch.jpg"><br>
+{% image "assets/blog/digital-acquisition-accelerator/persona-sketch.jpg" "A template with four quadrants: demographic information; name and sketch; needs and goals; and behaviors and beliefs." %}<br>
 
 Then, agency teams determined a series of 5-7 traits to compare across
 proto-personas. Using these traits, teams narrowed down their options
@@ -92,7 +92,7 @@ for the solicitation in the coming weeks. Here’s an example of a
 completed persona:
 
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/digital-acquisition-accelerator/complete-persona.jpg" alt="A completed proto-persona" />
+	{% image "assets/blog/digital-acquisition-accelerator/complete-persona.jpg" "A proto-persona card for Susan Kennedy, 36, Director of Accounts, with a photo and completed sections for goals & objectives, behaviors, and traits." %}
 	<figcaption>Example of proto-persona</figcaption>
 </figure>
 

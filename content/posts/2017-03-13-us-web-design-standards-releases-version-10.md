@@ -14,7 +14,7 @@ The U.S. Web Design Standards are a library of design guidelines and code to hel
 By using the well-tested and easy-to-implement code from the Standards, developers can quickly create new websites or have a leg-up in updating existing services to have a modern, consistent feel. It includes code and guidelines for forms, typography, buttons, alerts, and more. The Standards are open source and free to use, but our team is also available to work closely with federal agencies to develop custom features or train teams on implementing the Standards.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/web-design-standards/before-after-epa.jpg" alt="">
+  {% image "assets/blog/web-design-standards/before-after-epa.jpg" "Before and after screenshots of epa.gov homepage." %}
   <figcaption>The Environmental Protection Agency used the Standards to redesign epa.gov.</figcaption>
 </figure>
 

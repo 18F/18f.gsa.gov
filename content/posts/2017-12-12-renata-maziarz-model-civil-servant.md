@@ -9,7 +9,7 @@ tags:
 excerpt: "In the course of our engagements, we’ve had many amazing partners who have been practicing similar innovative techniques long before 18F existed, but usually in isolation. Today, we’re highlighting one of those amazing partners: Renata Maziarz, at the Bureau of Fiscal Service in the Department of the Treasury."
 ---
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/data-act-implementation/renata.jpg" alt="Two women smiling, standing side by side. Woman on the right is holding a certificate.">
+	{% image "assets/blog/data-act-implementation/renata.jpg" "Two women smiling, standing side by side. Woman on the right is holding a certificate." %}
 	<figcaption>Renata, left, receives an award from the Secretary of the Treasury, presented by Deputy Assistant Secretary Christina Ho.</figcaption>
 </figure>
 Although 18F talks a lot about technology, agile software development, and user-centered design, these aren’t the real products we’re selling. While these tools help, they’re the means and not the end. What 18F really seeks when working with a partner is sustained, organizational change that helps agencies deliver on their mission more effectively, whether that's through better technology and design practices, or some other way. 
