@@ -1,6 +1,7 @@
 ---
 title: A day in the life - Ingeniero en 18F
 date: 2021-09-21
+locale: es-PR
 authors:
   - edwin-torres
 tags:
@@ -67,6 +68,6 @@ Al evaluar la diferencia entre este trabajo y mis experiencias previas en el sec
 En eso enfoco mis esfuerzos dentro de 18F. Además creo que parte de mejorar esa accesibilidad es tener más y mejores servicios digitales en español. Para eso necesitamos personas como tú, con la experiencia técnica y el dominio de los idiomas inglés y español, entre otros, que nos ayuden a crear mejores servicios digitales y más accesibles.
 
 ## Comienza
-¿Interesado en unirse a [nuestro equipo?](https://18f.gsa.gov/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/) Consulte las posiciones abiertas y cómo postularse en la [página de TTS](https://join.tts.gsa.gov/)(en inglés).
+¿Interesado en unirse a [nuestro equipo?]({{ "/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/" | url }}) Consulte las posiciones abiertas y cómo postularse en la [página de TTS](https://join.tts.gsa.gov/)(en inglés).
 
-[**English version.**](https://18f.gsa.gov/2021/09/30/a_day_in_the_life_of_an_18f_engineer/)
+[**English version.**]({{ "/2021/09/30/a_day_in_the_life_of_an_18f_engineer/" | url }})
