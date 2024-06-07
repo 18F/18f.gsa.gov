@@ -30,7 +30,7 @@ The Court reached out to 18F to help write a solicitation for a new, open-source
 
 18F conducted a three-day workshop with the Court to develop the [solicitation](https://github.com/ustaxcourt/case-management-rfq) that was descriptive of the kind of work to be done but not prescriptive about how to do it, allowing ongoing adjustments based on user research as to what features were developed. The solicitation leveraged a time-and-material (T&M) contract type with a not-to-exceed ceiling to achieve this flexibility. We then helped the Court conduct market research to identify qualified companies on [GSA Schedules](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedule) and coached the Court’s evaluation team on [what to look](https://derisking-guide.18f.gov/federal-field-guide/deciding-what-to-buy/#evaluate-contractor-proposals-based-on-industry-best-practices) for in a qualified industry partner. 
 
-![Screenshot of the US Tax Court's DAWSON case-management application"]({{ site.baseurl }}/assets/blog/ustc-header-image.png)
+{% image "assets/blog/ustc-header-image.png" "Screenshot of the US Tax Court's DAWSON case-management application" %}
 
 The Court awarded the contract to an industry partner that brought strong software development and user-centered design skills to the project. All told, from the time the final solicitation was posted to the first commit of code, the process took 70 days. 
 

@@ -18,7 +18,7 @@ hero: false
 
 Today, we’re celebrating our first anniversary. We wanted to take a look at some of the numbers that have helped define 18F during our first year. 
 
-![Infographic showing 18F's first-year progress by the numbers]({{site.baseurl}}/assets/blog/agile-day/18fbythenumbers.png)
+{% image "assets/blog/agile-day/18fbythenumbers.png" "Infographic showing 18F's first-year progress by the numbers" %}
 
 ## By the projects
 

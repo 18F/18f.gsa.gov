@@ -12,7 +12,7 @@ image: /assets/blog/https-progress/white-house-https.png
 hero: false
 ---
 
-![WhiteHouse.gov using HTTPS.]({{site.baseurl}}/assets/blog/https-progress/white-house-https.png)
+{% image "assets/blog/https-progress/white-house-https.png" "WhiteHouse.gov using HTTPS." %}
 
 [HTTPS](https://https.cio.gov/faq/#what-does-https-do%3f) is a protocol to create secure and private connections to websites or services on the internet. You're using HTTPS to read this article, as indicated by the `https://` and lock icon in your browser's location bar above. Because we use HTTPS for our website, it's very difficult for anyone to modify or inspect the communication between your device and our servers. If we used plain HTTP, it would be very easy for an attacker to insert malware or tracking information into your browser. HTTPS is the [minimum baseline that users should expect](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) from any website they visit, government or otherwise.
 
@@ -62,13 +62,13 @@ For "parent" federal .gov domains (for example, gsa.gov), we have 18 months of s
 
 Over the last 18 months, HTTPS and HSTS implementation among parent .gov domains has gone up substantially, with the use and enforcement of HTTPS moving from a minority to a majority:
 
-![HTTPS among "parent" .gov domains in the executive branch moved from around 30% to around 75%.]({{ site.baseurl }}/assets/blog/https-progress/chart-1-https-parent-domains.png)
+{% image "assets/blog/https-progress/chart-1-https-parent-domains.png" "HTTPS among "parent" .gov domains in the executive branch moved from around 30% to around 75%." %}
 
 In particular, HSTS use among .gov domains was almost non-existent (2%) before M-15-13, and most or all of that was from [an 18F effort in February 2015 to preload the first 20 .gov domains](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/). HSTS is now present on almost half (43%) of live executive branch parent .gov domains.
 
 Though we don't have time series data for subdomains, we can compare a snapshot of where the approximately 1,000 parent domains and a sizeable collection of approximately 26,000 subdomains ended up on December 31, 2016:
 
-![HTTPS usage as of December 31, 2016 for .gov parent domains and subdomains in the executive branch.]({{ site.baseurl }}/assets/blog/https-progress/chart-2-https-all-domains.png)
+{% image "assets/blog/https-progress/chart-2-https-all-domains.png" "HTTPS usage as of December 31, 2016 for .gov parent domains and subdomains in the executive branch." %}
 
 When broadened to include subdomains, the numbers are lower than when only measuring parent domains. This is likely in part because identifying parent domains is much easier (even inside an agency), and in part because most agencies have a "long tail" of unused, abandoned, testing, or staging subdomains.
 
@@ -84,7 +84,7 @@ As of right now, that list has about 1,700 "live" federal websites that use a .g
 
 When we break out how many of those visits went to sites that use and enforce HTTPS and use an HSTS policy, the numbers are much higher than if we just measured all subdomains without weighting by traffic:
 
-![HTTPS usage for .gov domains in the executive branch when measured by amount of web visits.]({{ site.baseurl }}/assets/blog/https-progress/chart-3-https-by-web-traffic.png)
+{% image "assets/blog/https-progress/chart-3-https-by-web-traffic.png" "HTTPS usage for .gov domains in the executive branch when measured by amount of web visits." %}
 
 Of course, this isn't a complete dataset either — none of these are. And each one of them points to more work for federal agencies to do to eliminate the use of insecure connections to their services.
 

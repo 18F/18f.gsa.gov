@@ -81,7 +81,7 @@ capture new customers’ attention. Our new, highly visual page links out
 to the existing CRC resources, making it easy for customers to quickly
 access more detailed information.
 
-![A screenshot of part of the new USCIS rights and responsibilities page]({{site.baseurl}}/assets/blog/citizenshipweek/rights-and-responsibilities.jpg)
+{% image "assets/blog/citizenshipweek/rights-and-responsibilities.jpg" "A screenshot of part of the new USCIS rights and responsibilities page" %}
 
 *The new USCIS rights and responsibilities page.*
 
@@ -132,7 +132,7 @@ most informed decision possible. Customers can also use the locator to
 find nearby citizenship preparation classes, which will help them
 navigate the naturalization process.
 
-![A map of English and citizenship classes]({{site.baseurl}}/assets/blog/citizenshipweek/classes.jpg)
+{% image "assets/blog/citizenshipweek/classes.jpg" "A map of English and citizenship classes" %}
 
 *The English and citizenship preparation class locator provides location and
 contact information.*

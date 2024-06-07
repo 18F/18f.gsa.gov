@@ -37,7 +37,7 @@ getting feedback, and incorporating it into subsequent versions. DATA
 Act is the [first government-wide agile
 project](http://fedspendingtransparency.github.io/act-ivity/2016/02/29/first-government-wide-agile-project/).
 
-![Representatives from the Department of Education, the Department of the Interior, the Department of the Treasury, and the Pension Benefit Guaranty Corporation gather for a sandbox testing session.]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-meeting.jpg)
+{% image "assets/blog/data-act-implementation/data-act-meeting.jpg" "Representatives from the Department of Education, the Department of the Interior, the Department of the Treasury, and the Pension Benefit Guaranty Corporation gather for a sandbox testing session." %}
 *Representatives from the Department of Education, the Department of the Interior, the Department of the Treasury, and the Pension Benefit Guaranty Corporation gather for a sandbox testing session.*
 
 ## The DATA Act schema

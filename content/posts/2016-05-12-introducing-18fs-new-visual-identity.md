@@ -66,7 +66,7 @@ now we’ve iterated on our logo, too. Our goal was to refresh the mark
 while nodding to the past, to create a straightforward update that’s
 accessible, bold, modern, and flexible.”
 
-![The old blue 18F logo and the new black 18F logo]({{site.baseurl}}/assets/blog/visual-identity/logo.jpg)
+{% image "assets/blog/visual-identity/logo.jpg" "The old blue 18F logo and the new black 18F logo" %}
 
 Speaking to the technical considerations that impacted the logo refresh,
 Eric continued, “We retained the square shape in our refresh as a nod to
@@ -82,7 +82,7 @@ members use as desktop art, weren’t exactly the highest priority “need”
 item, but they were a fast way to show the team how the new system could
 begin to flex in more exciting ways than just templates.
 
-![Text over a picture of 18F's staff and an image of a cloud against a sky, both with 18F's new logo.]({{site.baseurl}}/assets/blog/visual-identity/desktops.jpg)
+{% image "assets/blog/visual-identity/desktops.jpg" "Text over a picture of 18F's staff and an image of a cloud against a sky, both with 18F's new logo." %}
 *[Sky photo](https://commons.wikimedia.org/wiki/File:Jet-sky.jpg)*
 
 Though we’ve made great progress, our work is far from over. For now,

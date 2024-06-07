@@ -58,7 +58,7 @@ Designing the contract and the system the way we did — for OFA to have control
 
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-![A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing.]({{ site.baseurl }}/assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg "TANF product owner emotion chart")
+{% image "assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg" "A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing." %}
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
 

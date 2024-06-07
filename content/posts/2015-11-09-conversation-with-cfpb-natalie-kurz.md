@@ -14,7 +14,7 @@ image: /assets/blog/speaker-series/natalie-kurz.jpg
 hero: false
 ---
 
-<img alt="CFPB's Natalie Kurz" src="/assets/blog/speaker-series/natalie-kurz.jpg" style="float: right; margin-left: 10px; margin-bottom: 10px;width: 300px;">
+{% image_with_class "assets/blog/speaker-series/natalie-kurz.jpg" "image-conversation-with-Kurz" "CFPB's Natalie Kurz" %}
 
 Last month, content strategist and UX designer Natalie Kurz [presented at 18F](https://18f.gsa.gov/2015/11/03/content-strategy-for-all-insights-from-cfpb-natalie-kurz/). Currently a Technology and Innovation Fellow at the [Consumer Financial Protection Bureau](http://www.consumerfinance.gov/), Kurz has spent more than 15 years helping clients create, maintain, and promote beautiful, brand-adherent content.
 

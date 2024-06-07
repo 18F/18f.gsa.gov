@@ -54,7 +54,7 @@ addition to open sourcing our code on GitHub, the combined EPA
 e-Manifest and 18F team adopted Trello as our project management tool,
 and [set it to public](https://trello.com/b/0geMlbgF/epa-emanifest).
 
-[![The public Trello board for the e-Manifest project]({{site.baseurl}}/assets/blog/e-manifest/e-manifest-trello.jpg)](https://trello.com/b/0geMlbgF/epa-emanifest)
+[{% image "assets/blog/e-manifest/e-manifest-trello.jpg" "The public Trello board for the e-Manifest project" %}](https://trello.com/b/0geMlbgF/epa-emanifest)
 *The public Trello board for the e-Manifest project.*
 
 We shared the link with internal stakeholders at EPA, OMB, and in

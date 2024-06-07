@@ -30,7 +30,7 @@ is a look at how and why we built this platform.
 Testing a hypothesis with a minimum viable product
 --------------------------------------------------
 
-[![The first version of the micro-purchase experiment used a GitHub issue to track bids.]({{site.baseurl}}/assets/blog/micro-purchase/micro-purchase-issue.jpg)](https://github.com/18F/calc/issues/255)
+[{% image "assets/blog/micro-purchase/micro-purchase-issue.jpg" "The first version of the micro-purchase experiment used a GitHub issue to track bids." %}](https://github.com/18F/calc/issues/255)
 
 For the [first micro-purchase
 auction](https://github.com/18F/calc/issues/255), we launched a minimum
@@ -50,7 +50,7 @@ worked good enough but was not something we would want to keep using.
 Building a platform
 -------------------
 
-[![The micro-purchase platform site.]({{site.baseurl}}/assets/blog/micro-purchase/micro-purchase-homepage2.jpg)](https://micropurchase.18f.gov)
+[{% image "assets/blog/micro-purchase/micro-purchase-homepage2.jpg" "The micro-purchase platform site." %}](https://micropurchase.18f.gov)
 
 After the initial auction, our hypothesis was proven: many vendors
 placed bids, and the winning vendor successfully delivered the

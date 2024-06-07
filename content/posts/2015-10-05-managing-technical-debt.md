@@ -76,7 +76,7 @@ greater understanding of the value of paying it back or not paying it
 back. You can do this using our friend, the heat map, like the one shown
 below.
 
-![A heat map of the various penalties involved with technical debt in different areas of code.]({{site.baseurl}}/assets/blog/technical-debt/heat-map.jpg)
+{% image "assets/blog/technical-debt/heat-map.jpg" "A heat map of the various penalties involved with technical debt in different areas of code." %}
 *Source: [Modified from a post by James
 King](http://kingsinsight.com/2010/07/31/estimating-the-impact-of-technical-debt-on-stories-heat-maps/)*
 

@@ -15,7 +15,7 @@ _This post originally appeared on the [GSA Blog](http://gsablogs.gsa.gov/gsablog
 
 One of the most important rights of American citizens is the right to vote. It is the foundation of our democracy, and in many ways, the basis of our government. This is why the team at USA.gov is excited to announce the launch of vote.USA.gov.
 
-[![Screen shot of the homepage at vote.usa.gov]({{site.baseurl}}/assets/blog/vote-usa-gov/vote.jpg)](https://vote.usa.gov)
+[{% image "assets/blog/vote-usa-gov/vote.jpg" "Screen shot of the homepage at vote.usa.gov" %}](https://vote.usa.gov)
 
 USA.gov is an interagency initiative administered by the Federal Citizen Information Center, a division of the [U.S. General Services Administration's Office of Citizen Services and Innovative Technologies](http://www.gsa.gov/portal/category/25729). USA.gov helps connect visitors to important government services and related resources.
 

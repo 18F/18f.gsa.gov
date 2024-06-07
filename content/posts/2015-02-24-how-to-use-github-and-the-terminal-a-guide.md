@@ -53,11 +53,11 @@ If you'd rather not use the script, you can also [follow the detailed instructio
 
 The terminal icon looks like this:
 
-![Terminal App]({{site.baseurl}}/assets/blog/github-tutorial/terminal.png)
+{% image "assets/blog/github-tutorial/terminal.png" "Terminal App" %}
 
 And you should have a window like this when you open it:
 
-![Screen shot of blank terminal window]({{site.baseurl}}/assets/blog/github-tutorial/terminal-window.png)
+{% image "assets/blog/github-tutorial/terminal-window.png" "Screen shot of blank terminal window" %}
 
 * Go to Terminal and paste the following `curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac` and press enter.
 
@@ -71,7 +71,7 @@ You're going to see the word "directory" a lot in this tutorial. Directory is an
 
 1. Type `ls`: this will show you everything in the directory where you are currently located. If you type `ls -1` it will list them all in a single column for you. `ls` stands for "**l**i**s**t" and the `-1` tells your computer to list the directory in one column. If you are in your home directory, you will probably see a list in Terminal similar to this screenshot:
 
-![Screenshot: home directory]({{site.baseurl}}/assets/blog/github-tutorial/w_screenshot1.png)
+{% image "assets/blog/github-tutorial/w_screenshot1.png" "Screenshot: home directory" %}
 
 2. Now type `cd Documents`: this will take you into your Documents directory, if that was one of the options shown when you used the 'ls' command above. `cd` stands for "**c**hange **d**irectory."
 3. Type `ls -1` again to see all the files inside your Documents directory.
@@ -87,7 +87,7 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 > **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
-![Screenshot: typing in mkdir code]({{site.baseurl}}/assets/blog/github-tutorial/mkdir-code.gif)
+{% image "assets/blog/github-tutorial/mkdir-code.gif" "Screenshot: typing in mkdir code" %}
 
 ## Clone a repo on your computer
 
@@ -105,7 +105,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Type in `cd ~/code` and press enter to get to the `code` directory we created earlier.
 
-![Screenshot: typing in cd code]({{site.baseurl}}/assets/blog/github-tutorial/cd-code.gif)
+{% image "assets/blog/github-tutorial/cd-code.gif" "Screenshot: typing in cd code" %}
 
 * Go to [18f.gsa.gov's GitHub page](https://github.com/18F/18f.gsa.gov) and look on the right side of the page, under the links for "Issues" and "Graphs." You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL (web address) that's in that text box to your clipboard.
 
@@ -113,7 +113,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Type in `git clone ` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer.
 
-![screenshot: cloning repo]({{site.baseurl}}/assets/blog/github-tutorial/git-clone.gif)
+{% image "assets/blog/github-tutorial/git-clone.gif" "screenshot: cloning repo" %}
 
 > If you run into an error here and **have** run the Laptop script, you need to open and register your GitHub desktop application. The script installs the application, but the application will not auto-generate an SSH key until you log-in with your 18F GitHub account credentials. Just open GitHub desktop and it will guide you as a first time user. You'll validate your local computer with 2FA and then check a few more boxes. After completing that, re-try the `git clone [url]` command.
 
@@ -127,7 +127,7 @@ On this page you will see a list of files and folders in this project. All of th
 
 You are seeing on the website is another view of files and folders as shown here:
 
-![Screenshot: 18f.gsa.gov's repo in mac folder]({{site.baseurl}}/assets/blog/github-tutorial/w_screenshot2.png)
+{% image "assets/blog/github-tutorial/w_screenshot2.png" "Screenshot: 18f.gsa.gov's repo in mac folder" %}
 
 If you click on the `branch:staging` button, you can see a list of all of the "branches" that exist on this project. Every time you come directly to [18f.gsa.gov](https://github.com/18F/18f.gsa.gov), it will show you the staging branch because we've made that branch the default.
 
@@ -135,7 +135,7 @@ Branches are little sandboxes for other people working on the project to prepare
 
 In the next step we're going to create a branch, and later on, when you make a pull request, GitHub will automatically assume you're trying to contribute to the staging branch.
 
-![Screenshot: showing what the 18f GitHub site looks like]({{site.baseurl}}/assets/blog/github-tutorial/screenshot4.gif)
+{% image "assets/blog/github-tutorial/screenshot4.gif" "Screenshot: showing what the 18f GitHub site looks like" %}
 
 > On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on https://18f.gsa.gov yet.
 
@@ -151,7 +151,7 @@ This last command will show you a little bit of information about what you're wo
 * _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin." A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
 * _"Nothing to commit / working directory clean"_ means you're completely up to date and haven't made any changes.
 
-![Screenshot: how to use git status]({{site.baseurl}}/assets/blog/github-tutorial/screenshot5.gif)
+{% image "assets/blog/github-tutorial/screenshot5.gif" "Screenshot: how to use git status" %}
 
 ## Build the 18F site
 
@@ -181,7 +181,7 @@ Okay. Now you're ready to start editing.
 
 **Voila! You can now see all of the files that make up the site.** It should look like this.
 
-![Screen Shot: All of the files that make up the 18F site]({{site.baseurl}}/assets/blog/github-tutorial/image10.png)
+{% image "assets/blog/github-tutorial/image10.png" "Screen Shot: All of the files that make up the 18F site" %}
 
 > We now want to create a branch, or a sandbox where you can make changes to the website. On this team we always work on branches. This allows you to collaborate with teammates without interfering with other people's existing work.
 
@@ -191,7 +191,7 @@ Okay. Now you're ready to start editing.
 
 * Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
-![Screenshot: git checkout and status]({{site.baseurl}}/assets/blog/github-tutorial/screenshot11.gif)
+{% image "assets/blog/github-tutorial/screenshot11.gif" "Screenshot: git checkout and status" %}
 
 ### Edit and commit a blog post
 
@@ -199,11 +199,11 @@ We're now going to walk you through creating a new blog post for 18f.gsa.gov.
 
 * Type `ls -1F` to see a list of files and folders that make up 18f.gsa.gov's repo.
 
-![screen shot: ls -F command]({{site.baseurl}}/assets/blog/github-tutorial/image13.png)
+{% image "assets/blog/github-tutorial/image13.png" "screen shot: ls -F command" %}
 
 * Go back to Sublime Text and write your post. Then save your post in the `_posts` directory with the name `2015-02-23-new_post.md` where '2015-02-23' is today's date.
 
-![Screen shot: Saving post in _posts directory]({{site.baseurl}}/assets/blog/github-tutorial/image14.png)
+{% image "assets/blog/github-tutorial/image14.png" "Screen shot: Saving post in _posts directory" %}
 
 ### Adding front matter
 
@@ -228,7 +228,7 @@ image: /assets/blog/how-to-github/image.jpg
 
 A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov/tree/staging/_posts#metadata-explained) can be found on the 18F Blogging Guide. And now you can start writing the text of your blog post on line 16. Say hello! It should look like this:
 
-![Screen Shot: Adding Front Matter and saving the post]({{site.baseurl}}/assets/blog/github-tutorial/image15.png)
+{% image "assets/blog/github-tutorial/image15.png" "Screen Shot: Adding Front Matter and saving the post" %}
 
 
 * When you are done writing, save the post by pressing Command + S.
@@ -251,7 +251,7 @@ A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov
 
 > You'll see that the file is now listed under changes to be committed.
 
-![Screen Shot: Git Add Post / Status]({{site.baseurl}}/assets/blog/github-tutorial/screenshot16.gif)
+{% image "assets/blog/github-tutorial/screenshot16.gif" "Screen Shot: Git Add Post / Status" %}
 
 > Well done! At this point, you've told Git that this file should be committed, but you haven't committed anything. So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
 
@@ -275,7 +275,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 * Type `git push origin <branch>` (where `<branch>` is the name you gave your branch) and then hit enter.
 
-![Screen shot: git commit]({{site.baseurl}}/assets/blog/github-tutorial/screenshot17.gif)
+{% image "assets/blog/github-tutorial/screenshot17.gif" "Screen shot: git commit" %}
 
 > This uploads your branch and changes to the 18f.gsa.gov project on GitHub.
 
@@ -283,7 +283,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 > It will look like this:
 
-![Screen shot: Pull Request]({{site.baseurl}}/assets/blog/github-tutorial/image19.png)
+{% image "assets/blog/github-tutorial/image19.png" "Screen shot: Pull Request" %}
 
 * Click `Compare and Pull Request`. It's a big green button.
 
@@ -291,17 +291,17 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 * Then click `Create Pull Request`.
 
-![Screen Shot: Creating Pull Request]({{site.baseurl}}/assets/blog/github-tutorial/image20.png)
+{% image "assets/blog/github-tutorial/image20.png" "Screen Shot: Creating Pull Request" %}
 
 > This asks 18F to accept your contribution.
 
-![Screen Shot: 18F receiving contribution from user]({{site.baseurl}}/assets/blog/github-tutorial/image21.png)
+{% image "assets/blog/github-tutorial/image21.png" "Screen Shot: 18F receiving contribution from user" %}
 
 > You always want to make sure what's on your local machine is as up to date as it can be. So whenever you return to the terminal, make the following a habit:
 
 * Type `git checkout staging` followed by `git pull` again, to make sure your version of the staging branch is current.
 
-![screenshot: checkout and pull]({{site.baseurl}}/assets/blog/github-tutorial/screenshot22.gif)
+{% image "assets/blog/github-tutorial/screenshot22.gif" "screenshot: checkout and pull" %}
 
 After you type `git pull` one of two things might happen:
 

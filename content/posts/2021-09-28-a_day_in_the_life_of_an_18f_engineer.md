@@ -26,7 +26,7 @@ We know that potential bilingual candidates interested in 18F have many question
 
 ## Welcome
 
-![Edwin smiles at the camera crossing his arms. He has tan skin and long black hair. Behind him you can find his desk. There are four monitors on his desk. One is turned off, two have the image of an astronaut in space, and the fourth one has the GSA logo. On his desk there's also a mug with an 18F logo, a wooden ornament with the Puertorican flag, and a figurine of the Mandelorian. Next to his desk there's a shelf with green plants]({{ site.baseurl }}/assets/blog/edwin_gsa.jpg)
+{% image "assets/blog/edwin_gsa.jpg" "Edwin smiles at the camera crossing his arms. He has tan skin and long black hair. Behind him you can find his desk. There are four monitors on his desk. One is turned off, two have the image of an astronaut in space, and the fourth one has the GSA logo. On his desk there's also a mug with an 18F logo, a wooden ornament with the Puertorican flag, and a figurine of the Mandelorian. Next to his desk there's a shelf with green plants" %}
 
 Hi there! My name is Edwin Torres. I am a software engineer at 18F, one of the most exceptional design and technology consulting organizations in the world. It’s made up of government employees who serve as consultants for other government agencies. In other words, 18F works with agencies to improve the user experience of government services by helping them build and buy technology.
 

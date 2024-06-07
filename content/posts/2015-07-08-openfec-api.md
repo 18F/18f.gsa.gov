@@ -14,7 +14,7 @@ excerpt: "Today marks the launch of the FEC’s first API. With that API, search
 hero: false
 ---
 
-![OpenFEC: Explore campaign finance data]({{site.baseurl}}/assets/blog/openfec-api/openfec-banner.jpg)
+{% image "assets/blog/openfec-api/openfec-banner.jpg" "OpenFEC: Explore campaign finance data" %}
 
 The Federal Election Commission (FEC) empowers citizens with the information they need to make informed decisions about their democracy.
 
@@ -23,7 +23,7 @@ Since opening its doors in the ‘70s, the FEC has evolved to better serve the p
 With that API, searching for candidates and committees will be easier and more interactive. Information is organized around concepts like candidates, which are more welcoming than navigating buckets of information based on forms.
 
 <div style="width: 30%; float: right; margin-left: 10px;">
-<a href="http://www.fec.gov/pages/40th_anniversary/40th_anniversary.shtml"><img alt="FEC staff scanning compliance forms, 1982" src="/assets/blog/openfec-api/old-fec.jpg"></a>
+<a href="http://www.fec.gov/pages/40th_anniversary/40th_anniversary.shtml">{% image "assets/blog/openfec-api/old-fec.jpg" "FEC staff scanning compliance forms, 1982" %}</a>
 <em>FEC staff scanning compliance forms, 1982. Image from the FEC.</em>
 </div>
 

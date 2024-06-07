@@ -30,7 +30,7 @@ We’ll be posting batches of new tasks onto the micro-purchase platform
 in the coming weeks, and bidders will once again have an opportunity to
 contribute open source code to our projects for $3,500 or less.
 
-[![The homepage of the new micro-purchase platform]({{ site.baseurl }}/assets/blog/micro-purchase/micro-purchase-homepage.jpg)
+[{% image "assets/blog/micro-purchase/micro-purchase-homepage.jpg" "The homepage of the new micro-purchase platform" %}
 ](http://micropurchase.18f.gov)
 
 ## Developing a posting and bidding platform

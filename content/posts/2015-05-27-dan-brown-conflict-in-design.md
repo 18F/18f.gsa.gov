@@ -47,7 +47,7 @@ During his talk, Brown asked audience members to draw “situation” cards from
 
 The pattern cards offer techniques for unsticking situations. For example, “make a plan,” or “offer a sneak peek.”
 
-![Pattern and situation cards]({{site.baseurl}}/assets/blog/speaker-series/pattern-situation.jpg)
+{% image "assets/blog/speaker-series/pattern-situation.jpg" "Pattern and situation cards" %}
 
 The third piece of the puzzle, “trait” cards, are useful for self-reflection and understanding characteristics. “Dogmatism,” for example, can predict conflicts and the techniques that best resolve them.
 

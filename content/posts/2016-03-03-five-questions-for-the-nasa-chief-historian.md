@@ -17,11 +17,11 @@ NASA’s design choices — in particular, their iconic [“meatball”](http://
 
 **Kate Garklavs**: NASA switched from “the meatball” logo, pictured here:
 
-![NASA's meatball logo]({{site.baseurl}}/assets/blog/nasa-historian/meatball.jpg)
+{% image "assets/blog/nasa-historian/meatball.jpg" "NASA's meatball logo" %}
 
  to “the worm”, pictured here:
 
-![NASA's meatball logo]({{site.baseurl}}/assets/blog/nasa-historian/worm-logo.jpg)
+{% image "assets/blog/nasa-historian/worm-logo.jpg" "NASA's meatball logo" %}
 
 in 1975 — how was that decision received, internally? How did the public react to this transition, and how did the public reaction reflect (or deviate from) what NASA expected?
 
@@ -37,7 +37,7 @@ Among those involved in the redesign, the expectation was probably that the newe
 
 **BB:** Among those who were alive at the time (and many who have come since), the highly visible NASA insignia during the Apollo program came to be visual shorthand for everything that they imagined NASA stood for. The meatball is not only recognized in the U.S. — everywhere I've traveled in the world, people instantly recognize the meatball as meaning NASA.
 
-![NASA's space historian, Bill Barry]({{site.baseurl}}/assets/blog/nasa-historian/nasa-historian.jpg)
+{% image "assets/blog/nasa-historian/nasa-historian.jpg" "NASA's space historian, Bill Barry" %}
 
 **KG:** Changing gears a bit, what’s the most interesting (and perhaps surprising) thing you’ve learned about NASA since starting as their Chief Historian in 2010?
 

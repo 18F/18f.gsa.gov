@@ -13,7 +13,7 @@ excerpt: "Since our launch of the Draft U.S. Web Design Standards last September
 description: "Since our launch of the Draft U.S. Web Design Standards last September, hundreds of people have provided feedback on the project through GitHub issues and via email. In addition, user research done by the Federal Front Door team has produced some interesting finding for the team."
 image: /assets/blog/web-design-standards/home.png
 ---
-![The Draft U.S. Web Design Standards homepage on multiple devices]({{site.baseurl}}/assets/blog/web-design-standards/home.png)
+{% image "assets/blog/web-design-standards/home.png" "The Draft U.S. Web Design Standards homepage on multiple devices" %}
 
 Since [our
 launch](https://18f.gsa.gov/2015/09/28/web-design-standards/) of the

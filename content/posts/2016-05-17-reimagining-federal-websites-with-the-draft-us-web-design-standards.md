@@ -52,7 +52,7 @@ Standards were able to seamlessly blend accessibility with minimal and
 lightweight visual guidelines that could be scaled up and adapted to
 meet the specific needs of any application; I was hooked immediately.
 
-![An example of cia.gov redesigned with the Draft U.S. Web Design Standards]({{site.baseurl}}/assets/blog/web-design-standards/cia-redesign.jpg)
+{% image "assets/blog/web-design-standards/cia-redesign.jpg" "An example of cia.gov redesigned with the Draft U.S. Web Design Standards" %}
 *Andrew Miller used the Draft Standards pattern library to
 prototype a new cia.gov experience as a design exercise.*
 
@@ -82,7 +82,7 @@ to relate to people who wouldn't otherwise know about the continued
 effort of 18F, the USDS, and the work [President Obama spoke about at
 SXSW](https://www.youtube.com/watch?v=wfsIZioIpdI).
 
-![An example of irs.gov redesigned with the Draft U.S. Web Design Standards]({{site.baseurl}}/assets/blog/web-design-standards/irs-redesign.jpg)
+{% image "assets/blog/web-design-standards/irs-redesign.jpg" "An example of irs.gov redesigned with the Draft U.S. Web Design Standards" %}
 *Andrew Miller used the Draft Standards pattern library to
 prototype a new irs.gov experience as a design exercise.*
 

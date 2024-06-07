@@ -23,11 +23,11 @@ _This is part eight of a series detailing the findings of a team of researchers 
 
 _In yesterday’s post, we [detailed when people decide to trust the federal government](https://18f.gsa.gov/2016/03/09/trust-as-a-two-way-street/). Today we'll share what people think about before deciding to share personal information with the government._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 ## Sharing personal information
 
-![A graphic showing how people might view sharing information. Some never want their information shared, and others are on a continuum.]({{site.baseurl}}/assets/blog/federal-front-door/image03.jpg)
+{% image "assets/blog/federal-front-door/image03.jpg" "A graphic showing how people might view sharing information. Some never want their information shared, and others are on a continuum." %}
 
 ### The desire for privacy exists on a spectrum
 
@@ -43,7 +43,7 @@ Others want to avoid providing their information to the government as much as po
 
 Although many people accept that they need to share information — sometimes very personal information — with the government, their acceptance shouldn’t be mistaken for eagerness. Most people would prefer forms collect less information and do so more judiciously.
 
-![An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties.]({{site.baseurl}}/assets/blog/federal-front-door/image00.jpg)
+{% image "assets/blog/federal-front-door/image00.jpg" "An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties." %}
 
 ### Information sharing between agencies
 

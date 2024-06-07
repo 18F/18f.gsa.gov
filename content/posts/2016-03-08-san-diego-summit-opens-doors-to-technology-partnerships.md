@@ -11,7 +11,7 @@ description: "On March 18, the U.S. General Services Administration (GSA) will c
 image: /assets/blog/events/san-diego.jpg
 ---
 
-![San Diego skyline]({{site.baseurl}}/assets/blog/events/san-diego.jpg)
+{% image "assets/blog/events/san-diego.jpg" "San Diego skyline" %}
 
 *Originally published on [GSA’s
 blog](http://gsablogs.gsa.gov/gsablog/2016/03/07/san-diego-summit-opens-doors-to-technology-partnerships/)*.

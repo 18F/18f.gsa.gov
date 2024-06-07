@@ -18,7 +18,7 @@ image: /assets/blog/fast-company/jumpshot.jpg
 hero: false
 ---
 
-![The U.S. Digital Service family]({{site.baseurl}}/assets/blog/fast-company/jumpshot.jpg)
+{% image "assets/blog/fast-company/jumpshot.jpg" "The U.S. Digital Service family" %}
 *Photo by Daniel Shea for Fast Company*
 
 We often get asked to explain how 18F fits in with the larger U.S.

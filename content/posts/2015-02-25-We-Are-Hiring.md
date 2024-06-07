@@ -30,7 +30,7 @@ We’re transforming government from the inside out, creating cultural change by
 
 Whether you’re near an 18F office in Washington DC, San Francisco, Chicago, or New York, or you’re closer to some of our teammates in Seattle, Portland, San Diego, Austin, Tucson, Dayton, Raleigh, or Philadelphia, we want to hear from you!
 
-![A map of 18F team members]({{site.baseurl}}/assets/blog/were-hiring/map.png)
+{% image "assets/blog/were-hiring/map.png" "A map of 18F team members" %}
 
 Our rapidly growing team is home to a variety of roles, including these:
 

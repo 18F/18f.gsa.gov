@@ -25,7 +25,7 @@ conduct market research and price analysis for professional labor
 categories across a database of contract awarded prices for 48,000 labor
 categories from more than 5,000 recent GSA contracts.
 
-![Gif of a sample CALC search]({{site.baseurl}}/assets/blog/calc-announcement/calc_demo.gif)
+{% image "assets/blog/calc-announcement/calc_demo.gif" "Gif of a sample CALC search" %}
 
 Before CALC, contracting officers had to sift through paper contracts or
 comb through GSA Advantage files to stitch together a picture of fair

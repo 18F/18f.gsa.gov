@@ -26,7 +26,7 @@ And the extra time it takes to work with our unwieldy code or design,
 until it’s fixed, represents the interest portion.
 
 <div style="text-align:center">
-<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-1.jpg" alt="A bar graph showing how poor design can increase the cost of making changes or adding new features" width="400px">
+{% image "assets/blog/technical-debt/graphic-1.jpg" "width-400px" "A bar graph showing how poor design can increase the cost of making changes or adding new features" %}
 </div>
 
 Like financial debt, not all technical debt is bad debt. For example,
@@ -54,7 +54,7 @@ technical debt. Martin Fowler, a leading software expert, classifies
 technical debt into four types, as shown in the quadrant below.
 
 <div style="text-align:center">
-<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-2.jpg" alt="A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." width="600px">
+{% image "assets/blog/technical-debt/graphic-2.jpg" "A grid of the four types of technical debt. Reckless and deliberate, reckless and inadvertent, prudent and deliberate, prudent and inadvertent." %} width="600px">
 </div>
 
 Here's how each type may occur:
@@ -81,7 +81,7 @@ within a software product over time:
 -   The predictability of results decreases, making management highly distrustful. (Producing accurate estimates for software with a high amount of debt is nearly impossible.)
 
 <div style="text-align:center">
-<img src="{{ site.baseurl }}/assets/blog/technical-debt/graphic-3.jpg" alt="A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." width="400px">
+{% image "assets/blog/technical-debt/graphic-3.jpg" "A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." %} width="400px">
 </div>
 
 *Source: [Jim

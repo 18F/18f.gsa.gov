@@ -14,7 +14,7 @@ description: "IdentityTheft.gov is user-friendly and intentional. We talk to the
 image: /assets/blog/identity-theft/identitytheft-home.jpg
 ---
 
-![The homepage of identitytheft.gov]({{site.baseurl}}/assets/blog/identity-theft/identitytheft-home.jpg)
+{% image "assets/blog/identity-theft/identitytheft-home.jpg" "The homepage of identitytheft.gov" %}
 
 I first came across the redesigned IdentityTheft.gov on Reddit, of all places.
 
@@ -52,7 +52,7 @@ However, to serve our primary audience well we had to focus, and not try to spea
 
 **JS and NF:** We introduced checklists in our previous iteration of identity theft guidance in 2012 — a print booklet and series of articles on [consumer.ftc.gov](http://consumer.ftc.gov). So using checklists to help users is not new for us. But I can elaborate on why we use them.
 
-![An example checklist from identitytheft.gov]({{site.baseurl}}/assets/blog/identity-theft/checklist.jpg)
+{% image "assets/blog/identity-theft/checklist.jpg" "An example checklist from identitytheft.gov" %}
 
 The recovery process for an identity theft victim can vary a lot and include many tasks. We wanted a format for people using the site that was easy-to-follow. We wanted to shift the situation from a person feeling totally overwhelmed to feeling in control and that the steps are doable because we’ve laid them out in a step-by-step plan. People use checklists all the time. They’re familiar and give people a sense of agency. They also show progress. It feels good to check items off the list.
 
@@ -77,13 +77,13 @@ We also paid attention to potential areas of confusion when we did usability tes
 
 One feature that people have been really excited about is the ability to create letters to send to credit bureaus, businesses, and debt collectors. It takes the guesswork out of the letter writing process.
 
-![A template letter that users can send to credit reporting agencies ]({{site.baseurl}}/assets/blog/identity-theft/letter.jpg)
+{% image "assets/blog/identity-theft/letter.jpg" "A template letter that users can send to credit reporting agencies " %}
 
 We’ve also heard from a lot of victim advocates and local law enforcement, who say that they feel confident sending people to IdentityTheft.gov, knowing that the site will help them.
 
 **MK: I really like the bar at the top, which basically tells people which phase of the project they’re in. It reminds me of something I read in the Federal Front Door [research report](https://labs.usa.gov/#research-report), which is that people want transparency into government processes. How did you think about design elements and topics like transparency?**
 
-![A graphic element of identitytheft.gov that shows users where they are in in a series of six labeled steps]({{site.baseurl}}/assets/blog/identity-theft/steps.jpg)
+{% image "assets/blog/identity-theft/steps.jpg" "A graphic element of identitytheft.gov that shows users where they are in in a series of six labeled steps" %}
 
 **JS and NF:** We tried to set proper expectations at each turn for our users. For example, there’s [a page](https://www.identitytheft.gov/Information) right before you jump into the detailed questions that explains that the answers will be used to build your Identity Theft Affidavit and your personal recovery plan. These are the two main tools we provide on the site to help victims recover from identity theft. We wanted people to know why they were answering questions and what they were going to get at the end of it. In the recovery plan, we included additional information in expandable note boxes, in case users didn’t understand why we were recommending certain steps to them.
 
@@ -107,4 +107,4 @@ After both test cycles, we were able to make quick responsive changes to content
 
 **JS and NF:** Yes, the total number of identity theft reports we receive has increased and the method of reporting has shifted more to the website, rather than phone. We also have a healthy portion of reports being submitted on mobile devices, which wasn’t possible before.
 
-[![Two pie charts that show the percentage of users reporting their identity theft online has grown from 39 percent before the launch to 68 percent post launch, including 15 percent on mobile devices.]({{site.baseurl}}/assets/blog/identity-theft/users.jpg)](https://labs.usa.gov/#research-report)
+[{% image "assets/blog/identity-theft/users.jpg" "Two pie charts that show the percentage of users reporting their identity theft online has grown from 39 percent before the launch to 68 percent post launch, including 15 percent on mobile devices." %}](https://labs.usa.gov/#research-report)

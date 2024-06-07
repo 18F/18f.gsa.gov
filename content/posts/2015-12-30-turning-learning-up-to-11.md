@@ -18,7 +18,7 @@ image: /assets/blog/turn-up-to-11/turn-up-to-11.jpg
 hero: false
 ---
 
-[![A screenshot from the movie Spinal Tap showing a guitar amp dial that goes up to 11]({{ site.baseurl }}/assets/blog/turn-up-to-11/turn-up-to-11.jpg)](https://en.wikipedia.org/wiki/Up_to_eleven)
+[{% image "assets/blog/turn-up-to-11/turn-up-to-11.jpg" "A screenshot from the movie Spinal Tap showing a guitar amp dial that goes up to 11" %}](https://en.wikipedia.org/wiki/Up_to_eleven)
 
 The feature that distinguishes high-performing organizations across all industries is their ability to facilitate knowledge sharing across the entire organization. Organizations that then put this knowledge to use to improve how they work have a sustained competitive advantage. Accomplishing this requires a combination of values, processes, and tools.
 

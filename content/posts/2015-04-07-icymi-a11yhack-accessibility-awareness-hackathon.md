@@ -54,9 +54,9 @@ Federation of the Blind](https://nfb.org/) could come and help us
 out. Their insight was inspiring and we got a lot of great feedback from
 them,” said Nick Bristow, one of the event organizers.
 
-![A tweet from Accessibility Partner: "Having my CAPTCHA mind blown #a11yhack"]({{site.baseurl}}/assets/blog/a11yhack/a11ytweet1.png)
+{% image "assets/blog/a11yhack/a11ytweet1.png" "A tweet from Accessibility Partner: &ldquo;Having my CAPTCHA mind blown #a11yhack&rdquo;" %}
 
-![A tweet from Rebecca Williams: "Accessibility advices like, 'don't use read more links, be more descriptive' are also good writing/life advice. #a11yhack"]({{site.baseurl}}/assets/blog/a11yhack/allytweet2.png)
+{% image "assets/blog/a11yhack/allytweet2.png" "A tweet from Rebecca Williams: &ldquo;Accessibility advices like, 'don't use read more links, be more descriptive' are also good writing/life advice. #a11yhack&rdquo;" %}
 
 “The hackathon itself was also successful. [Megan
 Smith](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith)
@@ -79,7 +79,7 @@ overlook if you don't need it. But I hope that the hackathon helped
 raise awareness and get the message across that accessibility is
 something we all can improve.”
 
-[![The hackpad, we've archived this as a markdown file on the hackathon's website. Click this link to read the contents.]({{site.baseurl}}/assets/blog/a11yhack/hackpad.png)](https://18f.github.io/hackathons/a11yhack/hackpad-snapshot/)
+[{% image "assets/blog/a11yhack/hackpad.png" "The hackpad, we've archived this as a markdown file on the hackathon's website. Click this link to read the contents." %}](https://18f.github.io/hackathons/a11yhack/hackpad-snapshot/)
 
 Jackie Kazil, another organizer, said several aspects of the gathering
 stood out to her, including alternatives to Web practices such as video
@@ -102,7 +102,7 @@ it’s not acceptable, has to be revisited, is not efficient,” she said,
 adding that “bringing the accessibility consideration earlier into the
 process is going to help improve the experience.”
 
-![The crowd at a11yhack]({{site.baseurl}}/assets/blog/a11yhack/a11yhack.jpg)
+{% image "assets/blog/a11yhack/a11yhack.jpg" "The crowd at a11yhack" %}
 <p class="authors">Photo: Jameson Dempesy</p>
 
 Overall, everyone in attendance seemed to have a great time networking

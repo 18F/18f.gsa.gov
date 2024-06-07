@@ -48,7 +48,7 @@ user found a compelling story, they could select a donation amount
 in-line, turning what used to be a four-step process into a single
 click.
 
-![screenshot: workflow of donation pathways on Peace Corps site]({{site.baseurl}}/assets/blog/peacecorps/image03.png)
+{% image "assets/blog/peacecorps/image03.png" "screenshot: workflow of donation pathways on Peace Corps site" %}
 
 Our ideal interface would have been a seamless user experience, but once
 scoped would have required a heavy lift from our front end and
@@ -97,7 +97,7 @@ kicked out every five minutes while other pages are generated hourly.
 With several machines primed and auto-scaling capability, we expected to
 handle dozens of requests per second.
 
-![screenshot of donation platform for Peace Corps birding for conservation project]({{site.baseurl}}/assets/blog/peacecorps/image00.png)
+{% image "assets/blog/peacecorps/image00.png" "screenshot of donation platform for Peace Corps birding for conservation project" %}
 
 After reviewing the numbers from Peace Corps' media blitz in early
 March, we know that part of our calculus was correct — S3 and CloudFront
@@ -128,7 +128,7 @@ legacy system also provided a search engine, allowing users to find
 funds based on keywords. One of these features would make it to launch
 but the other would not.
 
-![Screenshot: product backlog for Peace Corps sprints]({{site.baseurl}}/assets/blog/peacecorps/image02.png)
+{% image "assets/blog/peacecorps/image02.png" "Screenshot: product backlog for Peace Corps sprints" %}
 
 
 We pushed hard to cut as many fields as possible from the donor form,

@@ -22,11 +22,11 @@ hero: false
 
 We’ve expanded [analytics.usa.gov](https://analytics.usa.gov/) to include 15(!) more agency-specific dashboard pages. We now offer agency-specific analytics data pages for a total of 25 major federal agencies, and each one is accessible from the dropdown menu at the top of the site.
 
-![The analytics.usa.gov homepage pointing out the participating websites menu]({{ site.baseurl }}/assets/blog/dap/analytics-homepage-2016.png)
+{% image "assets/blog/dap/analytics-homepage-2016.png" "The analytics.usa.gov homepage pointing out the participating websites menu" %}
 
 Additionally, we’ve moved the downloadable datasets to their own pages, rather than be located on the dashboard pages themselves. The page to download aggregated data for all participating sites is now [analytics.usa.gov/data](https://analytics.usa.gov/data), and each agency-specific page has a [corresponding data page](https://analytics.usa.gov/justice/data/), as well.
 
-![Screenshot of the new standalone downloads page]({{ site.baseurl }}/assets/blog/dap/analytics-downloads-2016.png)
+{% image "assets/blog/dap/analytics-downloads-2016.png" "Screenshot of the new standalone downloads page" %}
 
 We’re excited to offer the public this expanded view of web analytics data, and we hope you find it useful!
 

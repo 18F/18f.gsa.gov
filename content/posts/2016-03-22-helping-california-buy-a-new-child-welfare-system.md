@@ -39,7 +39,7 @@ results that users of the system actually need. We offer our partners
 [a different
 approach](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).
 
-![The team from the State of California, Code for America, and 18F at the end of day two of the workshop.]({{site.baseurl}}/assets/blog/ca-child-welfare/ca-team.jpg)
+{% image "assets/blog/ca-child-welfare/ca-team.jpg" "The team from the State of California, Code for America, and 18F at the end of day two of the workshop." %}
 *The team from the State of California, Code for America, and 18F at the end of day two of the workshop.*
 
 Through a partnership with HHS, 18F was able to work on behalf of HHS with California’s Department of Social Services and Office of Systems Integration and Code for America to simplify the contracting documents and to incorporate

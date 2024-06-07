@@ -29,7 +29,7 @@ Just like Kids to Parks Day, the Every Kid in a Park program and website
 share one goal: to get families outside, exploring natural wonders and
 historic sites.
 
-[![The Every Kid in a Park homepage]({{site.baseurl}}/assets/blog/every-kid-in-a-park/every-kid-in-a-park-homepage.jpg)](https://www.everykidinapark.gov)
+[{% image "assets/blog/every-kid-in-a-park/every-kid-in-a-park-homepage.jpg" "The Every Kid in a Park homepage" %}](https://www.everykidinapark.gov)
 
 Whether you’re a seasoned traveler or looking for a new experience, this
 May is the perfect time to plan an adventure. And if you’re lucky enough

@@ -22,7 +22,7 @@ highlighting seven below:
 Public website analytics
 ----------------------------------------------
 
-[![A screen shot of the City of Boulder's analytics dashboard]({{site.baseurl}}/assets/blog/reusable-tools/analytics.jpg)](https://bouldercolorado.gov/stats)
+[{% image "assets/blog/reusable-tools/analytics.jpg" "A screen shot of the City of Boulder's analytics dashboard" %}](https://bouldercolorado.gov/stats)
 
 We worked with the [Digital Analytics
 Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital
@@ -44,7 +44,7 @@ for their own use.
 Quick mini-sites for content
 --------------------------------------------------
 
-[![A screen shot of an 18F guide on the pages platform]({{site.baseurl}}/assets/blog/reusable-tools/pages.jpg)](https://pages.18f.gov/agile/)
+[{% image "assets/blog/reusable-tools/pages.jpg" "A screen shot of an 18F guide on the pages platform" %}](https://pages.18f.gov/agile/)
 
 We built a responsive, accessible [website
 template](https://pages.18f.gov/) (based on open source work by the
@@ -63,7 +63,7 @@ domain.
 Insight into how people interact with government
 ----------------------------------------------------------------------
 
-[![People depend on others (for example, family members, friends, and public library staff) for help with government websites, but government services are not set up to support this type of assistance.]({{site.baseurl}}/assets/blog/reusable-tools/depend.jpg)](https://labs.usa.gov/files/FFD_ResearchReport.pdf)
+[{% image "assets/blog/reusable-tools/depend.jpg" "People depend on others (for example, family members, friends, and public library staff) for help with government websites, but government services are not set up to support this type of assistance." %}](https://labs.usa.gov/files/FFD_ResearchReport.pdf)
 
 Over the last several months, staff from General Service
 Administration’s USAGov and 18F teams have been talking to Americans
@@ -78,7 +78,7 @@ learned](https://18f.gsa.gov/tags/federal-front-door/) on the 18F blog.
 Market research for procurement
 -----------------------------------------------------
 
-[![An animated demo of how to use the CALC tool]({{site.baseurl}}/assets/blog/calc-announcement/calc_demo.gif)](https://calc.gsa.gov/)
+[{% image "assets/blog/calc-announcement/calc_demo.gif" "An animated demo of how to use the CALC tool" %}](https://calc.gsa.gov/)
 
 We developed [a tool](https://calc.gsa.gov/) that helps you easily
 conduct market research across a number of categories for acquiring
@@ -90,7 +90,7 @@ conduct market research.
 Vocabulary for user-centered design
 ---------------------------------------------------------
 
-[![Some of our Design Method Cards]({{site.baseurl}}/assets/blog/reusable-tools/method-cards.jpg)](https://methods.18f.gov/)
+[{% image "assets/blog/reusable-tools/method-cards.jpg" "Some of our Design Method Cards" %}](https://methods.18f.gov/)
 
 We [released](https://18f.gsa.gov/2015/08/10/18f-design-methods/) a
 [deck of method cards](https://methods.18f.gov/) that help research
@@ -100,7 +100,7 @@ agencies.
 Task management
 ---------------
 
-[![A screenshot of our Checklistomania tool showing two sample tasks]({{site.baseurl}}/assets/blog/reusable-tools/checklistomania.jpg)](https://github.com/18F/checklistomania)
+[{% image "assets/blog/reusable-tools/checklistomania.jpg" "A screenshot of our Checklistomania tool showing two sample tasks" %}](https://github.com/18F/checklistomania)
 
 We recently developed a [checklist
 program](https://github.com/18F/checklistomania) that help users manage
@@ -113,7 +113,7 @@ task four is completed by an employee.
 Help small businesses find opportunities
 -----------------------------------------
 
-[![The FBopen homepage]({{site.baseurl}}/assets/blog/reusable-tools/fbopen.jpg)](https://fbopen.gsa.gov/)
+[{% image "assets/blog/reusable-tools/fbopen.jpg" "The FBopen homepage" %}](https://fbopen.gsa.gov/)
 
 [FBOpen](https://fbopen.gsa.gov/) is a set of open source tools to
 help small businesses search for opportunities to work with the U.S.

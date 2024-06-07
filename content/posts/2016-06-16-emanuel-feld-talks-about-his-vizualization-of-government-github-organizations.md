@@ -13,13 +13,13 @@ image: /assets/blog/emanuel-feld/github-repositories.jpg
 
 What does the global government open source community look like? That’s the question that Emanuel Feld, a civic technologist in Washington D.C., wanted to answer when [he created a visualization](https://emanuelfeld.github.io/blog/2016/04/27/government-github-ecosystem.html) showing how government repos on GitHub are connected and interrelated.
 
-[![A diagram of GitHub contributions by many government agencies]({{site.baseurl}}/assets/blog/emanuel-feld/contribution.svg)](https://emanuelfeld.github.io/assets/images/contribution.svg)
+[{% image "assets/blog/emanuel-feld/contribution.svg" "A diagram of GitHub contributions by many government agencies" %}](https://emanuelfeld.github.io/assets/images/contribution.svg)
 
 Feld used the GitHub API to create a database of government GitHub
 organizations and repositories, and then used that information to
 examine how the government repos interact with one another.
 
-[![A diagram of government GitHub repositories]({{ site.baseurl }}/assets/blog/emanuel-feld/repository.svg)](https://emanuelfeld.github.io/assets/images/repository.svg)
+[{% image "assets/blog/emanuel-feld/repository.svg" "A diagram of government GitHub repositories" %}](https://emanuelfeld.github.io/assets/images/repository.svg)
 
 The above graph, for instance, shows how government organizations fork
 code from other government organizations. This information is

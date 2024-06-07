@@ -28,7 +28,7 @@ But they started wondering, is this really the best way? Or should we be
 trying something new? It turns out not even the creator of waterfall,
 Dr. Winston Royce, thought waterfall was a good idea!
 
-![A highlighted quote that says "I believe in this concept, but the implementation described above is risky and invites failure."]({{site.baseurl}}/assets/blog/lego-workshop/waterfall-quote.jpg)
+{% image "assets/blog/lego-workshop/waterfall-quote.jpg" "A highlighted quote that says "I believe in this concept, but the implementation described above is risky and invites failure."" %}
 *From page 2 of Dr. Royce’s 1970 paper, [Managing the
 Development of Large Software Systems](http://www.serena.com/docs/agile/papers/Managing-The-Development-of-Large-Software-Systems.pdf).*
 
@@ -75,7 +75,7 @@ As the product owner, I gave the teams their user stories:
 
 And then I dumped a bucket of Lego bricks in front of each team. “Go!”
 
-![SBA executives prepare to build with Legos.]({{site.baseurl}}/assets/blog/lego-workshop/sba-execs-legos-2.jpg)
+{% image "assets/blog/lego-workshop/sba-execs-legos-2.jpg" "SBA executives prepare to build with Legos." %}
 
 After a few “I haven’t played with Legos in 40 years…”, they were off!
 

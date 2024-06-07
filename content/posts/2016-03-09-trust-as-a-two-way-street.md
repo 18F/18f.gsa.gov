@@ -23,7 +23,7 @@ _This is part seven of a series detailing the findings of a team of researchers 
 
 _In yesterday’s post, we [talked about choice overload affecting decision-making.](https://18f.gsa.gov/2016/03/08/too-many-options-make-complicated-decisions-harder/). Today we'll detail when people decide to trust the federal government and how they view the federal government vs. private companies._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 ## Trust is reciprocal
 

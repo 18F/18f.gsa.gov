@@ -29,7 +29,7 @@ room or even the same time zone.
 
 -   **Keep it sketchy.** Just because something is destined to be a digital product doesn’t mean it needs to be clean, precise, and pretty. When video chatting, hold your notebook up to the camera, or take a picture of your sketch and upload it to Slack. Colin Macarthur (in Somerville, Massachusetts) adds that when you’re doing things remotely, you spend a lot of time looking at the screen, so you start to think that the computer is the right place to be working through ideas. Often, paper is the more efficient and creative place to be doing that thinking. He uses a document camera in addition to regular video calls to make it faster to show others what he’s thinking through on paper sketches.
 
-![Three example sketches of graphs, maps, and page wireframes]({{site.baseurl}}/assets/blog/design/sketches.jpg)
+{% image "assets/blog/design/sketches.jpg" "Three example sketches of graphs, maps, and page wireframes" %}
 *Examples of sketches we’ve shared across our distributed design team.*
 
 -   **Design in pairs.** Thinking through design challenges together at the same time can still happen when you’re not co-located. Tools like ScreenHero that allow you to share control of your desktop with a coworker are great ways to capture gestures or process movements. We’ve found that this works especially well for moving from visual design mockups to front end design implementation, or for visual brainstorming. Other shared workspace tools like Mural.ly are great for paired synthesis work, where you may have a handful of us bringing what we’ve learned together from interview sprints. Designing in pairs is also a useful learning and teaching opportunity, since you can walk through trouble spots on the same screen.
@@ -61,11 +61,11 @@ How to get started
 
 <br />
 
-![Three pictures of desks including one in an office and two at home. ]({{site.baseurl}}/assets/blog/design/desks1.jpg)
+{% image "assets/blog/design/desks1.jpg" "Three pictures of desks including one in an office and two at home. " %}
 
 *From left to right: Lindsay in Washington, D.C.; Jen in New York, NY; and Jeremy in Brooklyn, NY*
 
-![Three pictures of desks with varying workplace styles.]({{site.baseurl}}/assets/blog/design/desks2.jpg)
+{% image "assets/blog/design/desks2.jpg" "Three pictures of desks with varying workplace styles." %}
 *From left to right: Leah in San Francisco, CA; Noah in Portland, OR; and Josh in Charlottesville, VA*
 
 This is by no means a comprehensive list of what we’ve learned, so we’ll

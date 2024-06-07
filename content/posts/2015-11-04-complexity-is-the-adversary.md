@@ -22,7 +22,7 @@ Look at [goto fail](https://www.imperialviolet.org/2014/02/22/applebug.html), [H
 
 It's not just the complexity of the technology itself that's the problem. When our compliance documentation is complex, we’re making ourselves less secure. If it takes a hundred (or several hundred) pages to explain all the security controls you've implemented on a piece of software, that's not a good thing.
 
-![A sample of required security documentation for federal websites.]({{site.baseurl}}/assets/blog/complexity-and-security/security-documentation-1.jpg)
+{% image "assets/blog/complexity-and-security/security-documentation-1.jpg" "A sample of required security documentation for federal websites." %}
 _A sample of required security documentation. It's not uncommon to see 300 pages or more._
 
 

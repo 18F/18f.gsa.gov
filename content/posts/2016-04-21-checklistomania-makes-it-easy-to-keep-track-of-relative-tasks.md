@@ -22,7 +22,7 @@ you have to sign into your work email before you can set up two-factor
 authentication or view your first paycheck. Keeping track of these tasks
 and how they relate to each other is difficult and time consuming.
 
-![Screenshot of the tasks screen in Checklistomania]({{site.baseurl}}/assets/blog/checklistomania/tasks.jpg)
+{% image "assets/blog/checklistomania/tasks.jpg" "Screenshot of the tasks screen in Checklistomania" %}
 
 Enter [Checklistomania](https://github.com/18F/checklistomania). We
 developed the tool at 18F specifically for onboarding. It’s used by new
@@ -33,13 +33,13 @@ features:
 
 -   The checklists are centrally defined, so any member of an organization can subscribe to the authoritative checklist.
 
-![Screenshot of various checklists you can sign up for]({{site.baseurl}}/assets/blog/checklistomania/users.jpg)
+{% image "assets/blog/checklistomania/users.jpg" "Screenshot of various checklists you can sign up for" %}
 
 -   Deadlines can be set according to a fixed date or relative to completion of other items. For example, if Task B must be completed three days after Task A (but only after Task A has been completed), the due date will shift accordingly.
 
 -   We can view each other’s checklists, which makes it easy to see everyone's status at a glance.
 
-![Screenshot of the users screen in Checklistomania]({{site.baseurl}}/assets/blog/checklistomania/users.jpg)
+{% image "assets/blog/checklistomania/users.jpg" "Screenshot of the users screen in Checklistomania" %}
 
 [Checklistomania](https://github.com/18F/checklistomania) is an open
 source project in the public domain and may be adapted by any

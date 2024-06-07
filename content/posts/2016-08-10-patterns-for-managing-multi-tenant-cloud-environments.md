@@ -56,7 +56,7 @@ Systems built on cloud infrastructure must assume the infrastructure is unreliab
 To extend the expiry date and prevent infrastructure and the systems sitting on them being garbage collected, you must register the system — and its owner — in [Chandika](https://github.com/18F/chandika), our system registry (see below). In this way, we can ensure we can trace every resource in every account to the system it belongs to and the owner of that system, and bill the operational cost of that system correctly. We also prevent our AWS account from becoming cluttered up with zombie infrastructure — random servers, S3 buckets, or load balancers whose purpose is unknown but which we must continue to pay for in case turning them off causes the failure of some critical system.
 
 <figure>
-  <img alt="A diagram showing how Chandika and Raktabija work together" src="{{ site.baseurl }}/assets/blog/cloud-gov/chandika-raktabija.jpg">
+  {% image "assets/blog/cloud-gov/chandika-raktabija.jpg" "A diagram showing how Chandika and Raktabija work together" %}
   <figcaption>How Chandika and Raktabija work together</figcaption>
 </figure><br>
 

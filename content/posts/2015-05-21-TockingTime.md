@@ -38,7 +38,7 @@ our own accounting and for the taxpayers who support our work.
 
 For a long time, our internal time tracking looked something like this:
 
-![Old time tracking screenshot]({{site.baseurl}}/assets/blog/tockingtime/tock02.jpg)
+{% image "assets/blog/tockingtime/tock02.jpg" "Old time tracking screenshot" %}
 
 Every week, our operations team dutifully created a giant Google Sheets
 spreadsheet and shared it with the entire team. As we grew, the number
@@ -88,7 +88,7 @@ internal platform as a service and flex our Python muscles.
 The first prototype took about day to build and deploy. We built it
 entirely in the open (see our [GitHub repository](https://github.com/18f/tock)) and immediately put it online for the team to test.
 
-![Prototype screenshot]({{site.baseurl}}/assets/blog/tockingtime/tock03.jpg)
+{% image "assets/blog/tockingtime/tock03.jpg" "Prototype screenshot" %}
 *The first iteration of Tock*
 
 At the core, this is a very simple Django site. We have four main
@@ -139,7 +139,7 @@ grew rapidly as people tried to strike the right balance between
 capturing work accurately and forcing users to browse a long list of
 random things:
 
-![List screenshot]({{site.baseurl}}/assets/blog/tockingtime/tock00.jpg)
+{% image "assets/blog/tockingtime/tock00.jpg" "List screenshot" %}
 *So many items!*
 
 We fixed this, in part, by providing an auto-select based on
@@ -147,7 +147,7 @@ We fixed this, in part, by providing an auto-select based on
 designed specifically for this purpose. Now, Tock users can search by
 either the project or partner agency name when selecting a line item:
 
-![Line screenshot]({{site.baseurl}}/assets/blog/tockingtime/tock01.jpg)
+{% image "assets/blog/tockingtime/tock01.jpg" "Line screenshot" %}
 
 ### The future of time
 

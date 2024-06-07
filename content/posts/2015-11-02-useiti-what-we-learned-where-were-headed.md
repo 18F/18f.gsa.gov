@@ -12,7 +12,7 @@ excerpt: During Sunshine Week, we wrote about our progress on the Extractive Ind
 image: /assets/blog/eiti/drill.jpg
 hero: false
 ---
-![An oil rig on public land. Courtesy of the Department of Energy]({{site.baseurl}}/assets/blog/eiti/drill.jpg)
+{% image "assets/blog/eiti/drill.jpg" "An oil rig on public land. Courtesy of the Department of Energy" %}
 
 _Oil drilling is one of many industries included in the Extractive Industries Transparency Initiative (EITI). The U.S. Department of the Interior and the USEITI multi-stakeholder group will publish the first report this December._
 

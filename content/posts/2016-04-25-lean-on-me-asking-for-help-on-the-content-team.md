@@ -16,7 +16,7 @@ skills — we put this to good use by regularly asking each other for help
 with projects. Here’s a diagrammatic look into some of our recent
 collaboration.*
 
-![A circle of head shots of the Content Team with lines connecting them]({{site.baseurl}}/assets/blog/content/collaborate-content.jpg)
+{% image "assets/blog/content/collaborate-content.jpg" "A circle of head shots of the Content Team with lines connecting them" %}
 
 [Emileigh](https://18f.gsa.gov/team/emileigh/)
 ------------------------------------------------

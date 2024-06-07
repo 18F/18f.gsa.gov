@@ -12,7 +12,7 @@ image: /assets/blog/pshtt-post/https-report-title.png
 hero: false
 ---
 
-![Cover of HTTPS report delivered by DHS to agency security offices.]({{site.baseurl}}/assets/blog/pshtt-post/https-report-title.png)
+{% image "assets/blog/pshtt-post/https-report-title.png" "Cover of HTTPS report delivered by DHS to agency security offices." %}
 
 Sometimes, to accomplish a worthy goal, people and organizations benefit from a little push.
 
@@ -71,9 +71,9 @@ Together, `pshtt`'s analysis can determine whether a domain fully requires HTTPS
 
 Here's an example of what our reports look like:
 
-![Chart showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-chart.png)
+{% image "assets/blog/pshtt-post/opm-chart.png" "Chart showing HTTPS progress for the Office of Personnel Management." %}
 
-![Table showing HTTPS progress for the Office of Personnel Management.]({{site.baseurl}}/assets/blog/pshtt-post/opm-table.jpg)
+{% image "assets/blog/pshtt-post/opm-table.jpg" "Table showing HTTPS progress for the Office of Personnel Management." %}
 
 _(OPM has since fixed, or has plans to fix, the findings in this image.)_
 

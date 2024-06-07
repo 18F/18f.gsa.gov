@@ -23,7 +23,7 @@ _This is the final installment of a series detailing the findings of a team of r
 
 _Yesterday, we shared [what people think about before deciding to share personal information with the government](https://18f.gsa.gov/2016/03/10/what-people-think-about-before-sharing-personal-information/). Today we end our series with a look at what we’ll focus on in the next stage of research._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 ## What's next?
 

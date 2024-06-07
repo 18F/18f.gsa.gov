@@ -14,7 +14,7 @@ description: "18F is working iteratively with a team of technologists from acros
 image: /assets/blog/login-gov/diagram.png
 ---
 
-![A conceptual diagram showing a user using a single token to authenticate with several .gov domains]({{site.baseurl}}/assets/blog/login-gov/diagram.png)
+{% image "assets/blog/login-gov/diagram.png" "A conceptual diagram showing a user using a single token to authenticate with several .gov domains" %}
 
 _A shared login platform creates easier and more secure
 transactions for the public_

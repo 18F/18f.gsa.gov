@@ -23,17 +23,17 @@ _This is part five of a series detailing the findings of a team of researchers f
 
 _In yesterday’s post, we [outlined how people interact with the government using proxies](https://18f.gsa.gov/2016/03/04/how-people-use-proxies-to-interact-with-the-government/). Today we’ll detail the need for transparency in government so that the public can “see” the process they’re undergoing when they’re interacting with federal agencies and programs._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 ## The black box of government
 
-![Infographic showing ways people can become confused when interacting with government services]({{site.baseurl}}/assets/blog/federal-front-door/image09.jpg)
+{% image "assets/blog/federal-front-door/image09.jpg" "Infographic showing ways people can become confused when interacting with government services" %}
 
 ### The need for transparency: understanding a process
 
 Members of the public want to be able to “see” the process they’re undergoing when they’re interacting with federal agencies and programs. This includes knowing when their information has been received and reviewed, understanding all steps in the process from start to finish, and having greater overall clarity into why the process takes as long as it does. People expect to wait, but the reasons why and the causes for delay continue to be a mystery — and continue to erode people’s trust in the government.
 
-![Infographic showing that when people call the government, they're not always told where their information is or whether it has been reviewed]({{site.baseurl}}/assets/blog/federal-front-door/image08.jpg)
+{% image "assets/blog/federal-front-door/image08.jpg" "Infographic showing that when people call the government, they're not always told where their information is or whether it has been reviewed" %}
 
 People are more comfortable providing their personal information or undergoing difficult processes if they understand why these things are necessary. Interviewees complained of forms asking for personal or sensitive information when it didn’t seem relevant. For example, Danica R. complained about having to provide her son’s new address to HUD when he moved out before age 18. Her relationship with her son was strained, and she didn’t know where he was living at the time. She said, “I was already struggling to maintain the relationship, why do you have to make it harder?” She wondered why telling HUD that he had moved out wasn’t enough.
 
@@ -43,7 +43,7 @@ Generally speaking, people want insight into the process they’re preparing to 
 
 ### Personal and governmental pressures
 
-![Infographic showing personal and governmental pressures that may be on a person when they are trying to interact with the government]({{site.baseurl}}/assets/blog/federal-front-door/image07.jpg)
+{% image "assets/blog/federal-front-door/image07.jpg" "Infographic showing personal and governmental pressures that may be on a person when they are trying to interact with the government" %}
 
 When interacting with the federal government, a person may be under considerable pressure. One source of this pressure could be the life event that is triggering the interaction, such as the loss of a job. That said, pressure also results from the government process itself.  People worry that they only get one shot to get their paperwork right and that there may be negative consequences for doing something wrong. They also worry when long periods of time pass without updates, and when interactions are difficult. Some may worry  that their request might be viewed as fraudulent rather than coming from a place of real need.
 

@@ -106,7 +106,7 @@ skills or interests people have. Listing interests on a nametag also
 helps facilitate conversations between people who may be meeting for the
 first time.
 
-![Image: nametag from recent hackathon showing color-coded stickers for devs, designers, and content strategists]({{site.baseurl}}/assets/blog/new-to-hackathon/nametag.jpg)
+{% image "assets/blog/new-to-hackathon/nametag.jpg" "Image: nametag from recent hackathon showing color-coded stickers for devs, designers, and content strategists" %}
 
 ## Clearly label issues on GitHub with ways people can help
 

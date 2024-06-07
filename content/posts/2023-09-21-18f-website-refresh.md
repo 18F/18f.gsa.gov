@@ -37,7 +37,7 @@ Interviews with our leadership team also clarified current organizational priori
 
 ## We did just enough design
 
-![A collage showcasing three of the newly refreshed 18F website pages.]({{ site.baseurl }}/assets/blog/18f-website-refresh/refreshed-screenshot-collage.jpg "Refreshed website screenshot collage")
+{% image "assets/blog/18f-website-refresh/refreshed-screenshot-collage.jpg" "A collage showcasing three of the newly refreshed 18F website pages." %}
 
 As one would expect with a site “refresh,” we kept the amount of design to a minimum.
 
@@ -59,7 +59,7 @@ Because the previous site also used the U.S. Web Design System (USWDS), translat
 
 ## Websites are living products
 
-![A ribbon cutting ceremony with the new 18F website in the background on a stage at GSA Headquarters.]({{ site.baseurl }}/assets/blog/18f-website-refresh/refreshed-website-ribbon-cutting.jpg "A ribbon-cutting ceremony celebrating the refreshed 18F Website")
+{% image "assets/blog/18f-website-refresh/refreshed-website-ribbon-cutting.jpg" "A ribbon cutting ceremony with the new 18F website in the background on a stage at GSA Headquarters." %}
 
 That’s how we launched a new 18f.gsa.gov in the course of several weeks. It wasn’t a simple process, but it was a steady one thanks to clear goals, disciplined decisions, and good coordination. 
 

@@ -23,7 +23,7 @@ _This is part six of a series detailing the findings of a team of researchers fr
 
 _In yesterday’s post, we detailed [how transparency helps build public trust](https://18f.gsa.gov/2016/03/07/the-need-for-transparency-in-government/). Today we'll talk about how choice overload affects decision-making._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 ## The burden of choice overload
 

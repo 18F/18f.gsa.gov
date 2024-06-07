@@ -22,7 +22,7 @@ hero: false
 
 *This post was originally published on the [DigitalGov blog](https://www.digitalgov.gov/2015/12/01/analytics-usa-gov-new-features-and-more-data).*
 
-![The analytics.usa.gov homepage.]({{site.baseurl}}/assets/blog/dap/analytics-homepage.jpg)
+{% image "assets/blog/dap/analytics-homepage.jpg" "The analytics.usa.gov homepage." %}
 
 As of writing this post, 25,225 of the 124,878 total visitors on federal government websites participating in the [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) (DAP) are NOT located in the United States. And as a result of a new location feature on the expanded [analytics.usa.gov](https://analytics.usa.gov/), you are free to check for yourself how many current users are from outside the country, anytime you’d like.
 
@@ -35,7 +35,7 @@ Location data
 
 We’ve created two new location charts on the dashboard, one showing the cities providing the most visitors and one showing U.S. vs. international traffic, including a breakdown of the countries with the most visitors outside the U.S. Both of the visualizations reflect data in real-time (updating every minute), so you can wake-up to see which countries are visiting U.S. government websites while we’re asleep! Additionally, while most of the time you’ll see U.S. cities on that particular chart, it is not limited to the United States. If there is a world event and for some reason a large proportion of people in Mumbai, India (for example), are visiting U.S. government websites, the chart will reflect that.
 
-![A snapshot of location data from analytics.usa.gov]({{site.baseurl}}/assets/blog/dap/analytics-locations.jpg)
+{% image "assets/blog/dap/analytics-locations.jpg" "A snapshot of location data from analytics.usa.gov" %}
 
 One thing to keep in mind about location information is that since we anonymize IP addresses of visitors at the earliest possible point, the location data is not accurate enough to pinpoint exact locations of visitors. With IP addresses anonymized, we rely on the network domain and service provider to determine a relative location. As a result, people visiting from a suburb may appear as visiting from the closest city.
 
@@ -52,13 +52,13 @@ Two important things to understand about downloads:
 
 PDF files seem to dominate the list, but other extensions in the category include .doc, .xls., .mp3, among others. The data reflects the number of times the file was accessed in the past seven days.
 
-![A screenshot of a top downloaded item, in this case an Application for Naturalization from USCIS.]({{site.baseurl}}/assets/blog/dap/analytics-downloads.jpg)
+{% image "assets/blog/dap/analytics-downloads.jpg" "A screenshot of a top downloaded item, in this case an Application for Naturalization from USCIS." %}
 
 You can click on the page title, “Application for Naturalization | USCIS,” to go to the page the file is located, or you can click on the file name, “n-400.pdf”, to download (or open) the file right from analytics.usa.gov!
 
 Expanded downloadable files
 ---------------------------
-<div style="float: right;"><img src="{{ site.baseurl }}/assets/blog/dap/analytics-downloads2.jpg" alt="A list of types of data you can download from analytics.usa.gov." width="300px"></div>
+<div style="float: right;">{% image "assets/blog/dap/analytics-downloads2.jpg" "width-300px" "A list of types of data you can download from analytics.usa.gov." %}</div>
 
 There’s a limit to how much data we can display on the page for you, so we have greatly expanded the downloadable data reports. We offer downloads of various types of data (some in CSV format and some in JSON) so that you can work with the data yourself!
 

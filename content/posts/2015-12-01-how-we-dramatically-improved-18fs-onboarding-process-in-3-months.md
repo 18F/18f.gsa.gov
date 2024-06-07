@@ -40,7 +40,7 @@ From the beginning, we conceived of onboarding as a series of
 interlinking blocks. Here’s the way we drew our mental model of these
 blocks back in September:
 
-![An early sketch for onboarding modules]({{site.baseurl}}/assets/blog/onboarding/learning-modules.jpg)
+{% image "assets/blog/onboarding/learning-modules.jpg" "An early sketch for onboarding modules" %}
 
 Every 18F employee needs to know certain general stuff: what the [Hatch Act is](https://www.oge.gov/web/oge.nsf/Outside%20Employment%20and%20Activities/88E8E6E11682F97885257E96006364FF?opendocument), where to file
 their health insurance, and how to add their biography to our website,
@@ -154,7 +154,7 @@ Mrs. Landingham releases one message per day to new hires over their
 first 30 days. The messages are prewritten: when new hires are signed
 up, they begin the 30 day cycle of messaging. They look like this:
 
-![A test conversation with Mrs. Dolores Landingham, the onboarding chat bot.]({{site.baseurl}}/assets/blog/onboarding/dolores.jpg)
+{% image "assets/blog/onboarding/dolores.jpg" "A test conversation with Mrs. Dolores Landingham, the onboarding chat bot." %}
 
 We find that Mrs. Landingham is a fun, easy, and efficient way to
 provide information to new hires. She helps them learn about Slack by

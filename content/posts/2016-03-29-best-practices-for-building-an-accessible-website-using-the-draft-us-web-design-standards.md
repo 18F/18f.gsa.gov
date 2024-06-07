@@ -113,7 +113,7 @@ Checker](http://webaim.org/resources/contrastchecker/))
 to test foreground and background options and adjust their lightness and
 darkness until they pass contrast requirements.
 
-![Neutral text on a variety of color backgrounds.]({{site.baseurl}}/assets/blog/web-design-standards/color-palette.jpg)
+{% image "assets/blog/web-design-standards/color-palette.jpg" "Neutral text on a variety of color backgrounds." %}
 
 By implementing these practices and leveraging the Draft Standards, we
 hope to help create guidelines that will set you on the path to creating

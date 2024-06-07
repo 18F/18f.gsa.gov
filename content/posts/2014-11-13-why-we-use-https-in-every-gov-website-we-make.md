@@ -20,7 +20,7 @@ On today's Internet, in today's web browsers, **HTTPS** (`https://`) offers the 
 
 That's why 18F's policy is to **use HTTPS for every .gov website we make**.  18F is an in-house government technology team that builds things for the rest of the U.S. federal government, and we're committed to deploying HTTPS across all of our released websites.
 
-![HTTPS URL on desktop]({{site.baseurl}}/assets/blog/https-everywhere/18f-https-desktop.png)
+{% image "assets/blog/https-everywhere/18f-https-desktop.png" "HTTPS URL on desktop" %}
 
 Deciding to use HTTPS everywhere was not difficult. Strong encryption benefits our visitors and our government partners by providing:
 

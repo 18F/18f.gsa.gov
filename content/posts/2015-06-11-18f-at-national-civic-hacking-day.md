@@ -26,7 +26,7 @@ enough of this. Fortunately, there were [more than 100 events](http://hackforcha
 
 Here’s just some of what we worked on together:
 
-![Pictures from the D.C. event]({{site.baseurl}}/assets/blog/national-day-of-civic-hacking-2015/hacking-day-dc.jpg)
+{% image "assets/blog/national-day-of-civic-hacking-2015/hacking-day-dc.jpg" "Pictures from the D.C. event" %}
 *Scenes from the event in Washington, D.C.*
 
 **Washington, D.C.**: The Small Business Administration and Census
@@ -56,7 +56,7 @@ who lives in San Diego, led a
 for a Street Sweeper app. We got from markers and drawing to working
 code in less than an hour!
 
-![The group of civic hackers in Tucson]({{site.baseurl}}/assets/blog/national-day-of-civic-hacking-2015/hacking-day-tucson.jpg)
+{% image "assets/blog/national-day-of-civic-hacking-2015/hacking-day-tucson.jpg" "The group of civic hackers in Tucson" %}
 *Civic hackers at the event hosted by Code for Tucson*
 
 **Tucson, Ariz**: [Code for Tucson](http://codefortucson.org/),

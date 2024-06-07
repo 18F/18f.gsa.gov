@@ -41,7 +41,7 @@ incredibly useful and something that is needed across government
 websites. The USAGov team then started connecting with the core team of
 developers and designers to get this effort kicked off.
 
-![A USA.gov form that uses the Draft U.S. Web Design Standards]({{site.baseurl}}/assets/blog/web-design-standards/cfpb-form.jpg)
+{% image "assets/blog/web-design-standards/cfpb-form.jpg" "A USA.gov form that uses the Draft U.S. Web Design Standards" %}
 
 [USA.gov](https://www.usa.gov/) has adopted the Draft Standards with
 some of the forms that are used by our users and agency partners to
@@ -68,7 +68,7 @@ We are currently mapping components from the USAGov platform with the
 ones included into the draft release of the Standards and will continue
 to incorporate them in the future.
 
-[![The vote.usa.gov homepage]({{site.baseurl}}/assets/blog/vote-usa-gov/vote.jpg)](http://vote.usa.gov/)
+[{% image "assets/blog/vote-usa-gov/vote.jpg" "The vote.usa.gov homepage" %}](http://vote.usa.gov/)
 
 **LK:** Our team was very excited about the branding and dropdown
 components featured in the Standards. Because of the short runway to
