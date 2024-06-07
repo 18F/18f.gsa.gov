@@ -17,7 +17,7 @@ redirect_from:
 The Plain Language Action and Information Network (PLAIN) is one of the longest-standing champions for great content and user experience in government. Since the 90s, this incredible community has shepherded the adoption of plain language in federal regulations and communications with the public. Last year, we were honored to partner with them to update and redesign [plainlanguage.gov](https://www.plainlanguage.gov/).
 
 <figure>
-  <img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/plainlang/plainlanggov.png" alt="Screenshot of the plainlanguage.gov home page">
+  {% image_with_class "assets/blog/plainlang/plainlanggov.png" "image-shadowed" "Screenshot of the plainlanguage.gov home page" %}
   <figcaption>The new plainlanguage.gov home page.</figcaption>
 </figure>
 

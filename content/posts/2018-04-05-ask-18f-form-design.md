@@ -51,7 +51,7 @@ You can also start off with a out-of-the-box solution like [Survey Monkey]( http
 Here is an example of a form that applies principles like text alignment, grouping, and typography hierarchy.
 
 <figure>
-  <img class="image-shadowed" src="{{ site.baseurl }}/assets/blog/advice/form.png" alt="An example of a form. Three sections all numbered from one to three. Each section has two text forms. At the bottom is a blue submit button and a cancel hyperlink that is red">
+  {% image_with_class "assets/blog/advice/form.png" "image-shadowed" "An example of a form. Three sections all numbered from one to three. Each section has two text forms. At the bottom is a blue submit button and a cancel hyperlink that is red" %}
 </figure>
 
 #### Helpful links and examples:
