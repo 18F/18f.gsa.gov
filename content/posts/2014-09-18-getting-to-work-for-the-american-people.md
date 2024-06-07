@@ -94,7 +94,7 @@ Attracting great digital talent
 -------------------------------
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/getting-to-work/18fdc-pif.jpg" alt="18F's DC troop">
+  {% image "assets/blog/getting-to-work/18fdc-pif.jpg" "18F's DC troop" %}
   <figcaption>The DC team at GSA HQ</figcaption>
 </figure>
 

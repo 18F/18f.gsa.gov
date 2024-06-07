@@ -15,7 +15,7 @@ image: /assets/blog/eregs-comments/eregs-comment.gif
 hero: false
 ---
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/eregs-comments/eregs-comment.gif" alt="gif of eRegulations comment page">
+	{% image "assets/blog/eregs-comments/eregs-comment.gif" "Animation of user typing &ldquo;Here is my comment.&rdquo; on eRegulations comment page" %}
 	<figcaption>The new eRegulations commenting interface allows people to share their thoughts down to the paragraph level.</figcaption>
 </figure>
 <br>
@@ -35,7 +35,7 @@ This step is a critical function in our democracy. Many of the details of govern
 While many commenters continue to use paper or email, the current digital process for public comment limits the submitter to a single 5,000 character text field, with attachments (like spreadsheets, PDFs, etc.). Unless the submitter explicitly adds it, this format includes no contextual information — regulators won’t know which sections of the proposal are being critiqued. When proposed rules are often hundreds of pages of nuanced language, it can be difficult to provide constructive feedback. These rules can sometimes receive thousands of comments, which must be manually or semi-automatically sorted by federal agencies. Without a clear connection between comments and relevant sections of a proposed rule, agencies have to spend a huge amount of time analyzing, sorting, and responding to comments. This is a costly and error-prone endeavor; we can do better.
 
 <figure>
-	<img src="{{site.baseurl}}/assets/blog/eregs-comments/previous-system.png" alt="gif of eRegulations comment page">
+	{% image "assets/blog/eregs-comments/previous-system.png" "Screenshot of a PDF viewer displaying an example document" %}
 	<figcaption>The output of feedback will be inline to a specific section. This will give agencies a better understanding of what people are responding to.</figcaption>
 </figure>
 <br>

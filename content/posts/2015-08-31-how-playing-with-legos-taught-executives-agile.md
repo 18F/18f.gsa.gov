@@ -56,7 +56,7 @@ what agile is. One must experience it for oneself. It was time for the
 red pill.
 
 <div style="text-align:center">
-<img src="{{ site.baseurl }}/assets/blog/lego-workshop/red-pill.gif" alt="The red and blue pill from The Matrix">
+{% image "assets/blog/lego-workshop/red-pill.gif" "The red and blue pill from The Matrix" %}
 </div>
 
 We split the group into two teams and told them that, in the next 90

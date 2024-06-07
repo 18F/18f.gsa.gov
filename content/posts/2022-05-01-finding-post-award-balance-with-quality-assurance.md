@@ -27,7 +27,7 @@ But first, let’s talk about QASPs.
 
 ## What is a Quality Assurance Surveillance Plan?
 
-<img src="{{site.baseurl}}/assets/blog/finding-post-award-balance/loc-fdr-study.jpg" alt="Franklin Roosevelt inspects stamps with a magnifying glass">
+{% image "assets/blog/finding-post-award-balance/loc-fdr-study.jpg" "Franklin Roosevelt inspects stamps with a magnifying glass" %}
 <figcaption><em>Franklin Roosevelt may not have inspected vendor code, but if he did we imagine it would have looked something like this. Image source: <a href="https://www.loc.gov/resource/hec.40758/" rel="noreferrer" target="_blank">Library of Congress</a></em></figcaption>
 
 A Quality Assurance Surveillance Plan, or QASP, is a document used to evaluate the work a contractor does on behalf of a federal agency. A QASP contains a list of desired outcomes and a method to measure the outcome's success which both parties have agreed to: the federal agency by writing it and the contractor by accepting the contract.

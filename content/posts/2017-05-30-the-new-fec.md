@@ -8,8 +8,6 @@ tags:
 - agency work
 - product launch
 excerpt: "Last week, the Federal Election Commission (FEC) unveiled their new website at FEC.gov. This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data."
-image: /assets/blog/fec/0-herofecbig.png
-image_figcaption: "The previous and new FEC website designs"
 ---
 
 Last week, the Federal Election Commission (FEC) unveiled their new website at [FEC.gov](https://www.fec.gov/). This new site is the result of a years-long collaboration with GSA’s 18F and features completely revamped tools for exploring campaign finance data. It provides user-centered content for understanding the reporting and compliance requirements for people participating in federal elections, redesigned tools for exploring legal resources, and more.
@@ -35,21 +33,21 @@ The first thing most visitors familiar with the old FEC.gov will notice is the c
 When the [U.S. Web Design Standards](https://standards.usa.gov/) launched, we started using their components with the new FEC styles — even contributing back to the project as a use case for research on how to use the Standards with your own styles. Since the site is responsive, it looks great no matter what device you’re using. And whereas the old FEC.gov presented users with over ten different top-level navigation elements, the new FEC.gov reduces the primary navigation to three main items to reflect the three primary focus areas that users need when coming to the site.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/1-fecnavs.png" alt="An image of the new and previous FEC website navigation systems">
+  {% image "assets/blog/fec/1-fecnavs.png" "The new and previous FEC website navigation systems" %}
   <figcaption>The new FEC.gov reduces the primary navigation down to three main items to reflect the most common areas that users need when coming to the site. The old FEC.gov presented users with over ten different top-level navigation elements.</figcaption>
 </figure>
 
 The campaign finance data section has grown since the initial beta launch to include even more datasets — like the ability to get all raw data from electronic filings as soon as it comes in, right alongside processed data — and we redesigned major features like the candidate and committee profile pages based on user feedback.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/2-newbetafec.png" alt="An image of three different design iterations for the committee pages">
+  {% image "assets/blog/fec/2-newbetafec.png" "Three different design iterations for the committee pages" %}
   <figcaption>We launched beta with a new design and architecture for the candidate and committee profile pages and later redesigned these features after user feedback showed that people needed more granular data and were having a hard time finding what they needed.</figcaption>
 </figure>
 
 The legal resources section allows users to search through multiple types of resources at once, which previously wasn’t possible. It also includes new ways to explore advisory opinions, which are the official Commission responses to questions about how federal campaign finance law applies to specific, factual situations.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/3-legalresource.png" alt="An image of the new combined legal search results and the new search interface for advisory opinions">
+  {% image "assets/blog/fec/3-legalresource.png" "The new combined legal search results and the new search interface for advisory opinions" %}
   <figcaption>Improvements to the new legal resources section include being able to search for keywords across different resources in one search results list, and a better-designed advisory opinion search interface, which makes it easier to tell if a case is what you’re looking for before opening it.</figcaption>
 </figure>
 
@@ -57,7 +55,7 @@ The legal resources section allows users to search through multiple types of res
 The help for candidates and committees section unifies content that previously lived across several sections and multiple PDFs into a single, user-centered set of pages, giving users one place to look for information.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/4-candidatehelp.png" alt="An image of the new content structure in the Help for candidate and committees section">
+  {% image "assets/blog/fec/4-candidatehelp.png" "The new content structure in the Help for candidate and committees section" %}
   <figcaption>"The new Help for candidates and committees section brings together content that previously lived in many parts of the site, and groups it by type of committee."</figcaption>
 </figure>
 
@@ -70,14 +68,14 @@ We are now in a transition phase for FEC.gov. There is a new home page and major
 ### Pre-flip
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/5-preflip.png" alt="An image showing how beta.FEC.gov linked to FEC.gov before the URL change.">
+  {% image "assets/blog/fec/5-preflip.png" "A screenshot of beta.FEC.gov. An arrow with a link symbol points to a screenshot of FEC.gov." %}
   <figcaption>While the site was in beta, content that wasn’t finished would link from beta.fec.gov back to FEC.gov so that users could find the most up to date information or guidance.</figcaption>
 </figure>
 
 ### Post-flip, with hybrid transition pages
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/fec/6-postflip.png" alt="An image showing how after the URL change, the new FEC.gov only links to transition.fec.gov pages, and not to classic.fec.gov.">
+  {% image "assets/blog/fec/6-postflip.png" "On the left, arrows link screenshots of new FEC.gov and transition.fec.gov. On the right, arrows point classic.fec.gov to itself." %}
   <figcaption>After the site flip, FEC.gov content no longer links back to classic.FEC.gov. Hybrid pages on transition.FEC.gov use the content from classic.FEC.gov and the navigation design from new FEC.gov for pages that aren’t quite complete on new FEC.gov.</figcaption>
 </figure>
 

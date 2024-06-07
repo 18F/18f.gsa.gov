@@ -13,11 +13,10 @@ description: Nicole Fenton joined 18F in September of 2015. Before 18F, Nicole w
   a content strategist at Facebook, Lab Zero, and Mule Design in San Francisco. She
   started her professional writing practice at Apple, where she served as communications
   lead for five years and helped launch the original iPhone and iPad.
-image: "/assets/img/team/nicole-fenton.jpg"
 hero: false
 ---
 <figure class="align-right">
-	<img src="{{site.baseurl}}{{page.image}}" alt="">
+	{% image "assets/img/team/nicole-fenton.jpg" "Nicole Fenton" %}
 	<figcaption class="align-center">Nicole Fenton, content designer at 18F</figcaption>
 </figure><br>
 

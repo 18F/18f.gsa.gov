@@ -5,8 +5,6 @@ tumblr_url: http://18fblog.tumblr.com/post/96625804492/a-new-look-at-the-freedom
 
 title: "A new look at the Freedom of Information Act"
 
-image: /assets/blog/foia/in-hand.jpg
-
 description: "As demand for information continues to grow, it is important to continue iterating the ways we refine the FOIA request process. Our effort is one of a number of commitments towards creating a more open, transparent government. We will explore how to supplement the work that has already been done by creating tools to improve the online FOIA requests process by designing for the user."
 excerpt: "As demand for information continues to grow, it is important to continue iterating the ways we refine the FOIA request process. Our effort is one of a number of commitments towards creating a more open, transparent government. We will explore how to supplement the work that has already been done by creating tools to improve the online FOIA requests process by designing for the user."
 
@@ -34,7 +32,7 @@ Since 1966, the [Freedom of Information Act](http://www.foia.gov/about.html), FO
 As demand for information continues to grow, it is important to continue iterating the ways we refine the FOIA request process. Our effort is one of a number of [commitments (PDF)](https://obamawhitehouse.archives.gov/sites/default/files/docs/us_national_action_plan_6p.pdf) towards creating a more open, transparent government. We will explore how to supplement the work that has already been done by creating tools to improve the online FOIA requests process by designing for the user.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/blog/foia/in-hand.jpg" alt="a mockup of our app on an iPhone">
+  {% image "assets/blog/foia/in-hand.jpg" "A mockup of our app on an iPhone" %}
   <figcaption>An illustrative prototype running on a mobile device (the logo in the photo is not a live URL)</figcaption>
 </figure>
 

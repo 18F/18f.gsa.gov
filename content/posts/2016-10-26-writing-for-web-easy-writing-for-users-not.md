@@ -44,7 +44,7 @@ help projects develop a singular voice and maintain consistent style and
 tone.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/content/gds-content-ux.jpg" alt="">
+  {% image "assets/blog/content/gds-content-ux.jpg" "Content is the user experience. Users need words to navigate your service. Involve content designers from the start." %}
   <figcaption>The UK Government Digital Service's "Content is user experience" poster.</figcaption>
 </figure>
 

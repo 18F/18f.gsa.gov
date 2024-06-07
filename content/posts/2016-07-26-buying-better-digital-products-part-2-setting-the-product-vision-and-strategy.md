@@ -62,7 +62,7 @@ product. As the sticky notes piled up, the teams clustered similar ideas
 together and labeled those groups.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/blog/digital-acquisition-accelerator/combining-labeling.jpg" alt="A diagram of culstered post-its.">
+	{% image "assets/blog/digital-acquisition-accelerator/combining-labeling.jpg" "A diagram of culstered post-its." %}
 	<figcaption>Example of combining and labeling clusters</figcaption>
 </figure><br>
 
