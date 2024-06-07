@@ -12,19 +12,13 @@ tags:
 - devops
 excerpt: We’re delighted to announce that cloud.gov is now FedRAMP Authorized, which enables agencies to quickly transition their web-based services to efficient and easy-to-use cloud hosting. FedRAMP Authorized status marks completion of a comprehensive security and compliance assessment that enables federal agencies to start using cloud.gov with significantly reduced effort. cloud.gov is a government-customized hosting platform that takes care of technical infrastructure and security compliance requirements.
 description: what
-images:
-- /assets/blog/cloud-gov/logo-badge.png
-- /assets/blog/cloud-gov/fedramp-badge.jpg
-- /assets/blog/cloud-gov/fedramp-ready.png
-- /assets/blog/cloud-gov/intro-diagram.svg
-- /assets/blog/cloud-gov/cloud-gov-chart.svg
 hero: false
 ---
 
 <figure class="blog-figure-center">
-  <img src="{{site.baseurl}}{{page.images[0]}}" alt="The cloud.gov logo" height="67">
-  <img src="{{site.baseurl}}{{page.images[1]}}" alt="The fed ramp logo" height="67">
-  <img src="{{site.baseurl}}{{page.images[2]}}" alt="The fed ramp ready indicator"  height="67">
+  {% image_with_class "assets/blog/cloud-gov/logo-badge.png" "height-67px" "The cloud.gov logo" %}
+  {% image_with_class "assets/blog/cloud-gov/fedramp-badge.jpg" "height-67px" "The fed ramp logo" %}
+  {% image_with_class "assets/blog/cloud-gov/fedramp-ready.png" "height-67px" "The fed ramp ready indicator" %}
 </figure>
 
 We’re delighted to announce that [cloud.gov](https://cloud.gov/) is
@@ -99,7 +93,7 @@ Your development team sets up the application on cloud.gov, and
 cloud.gov handles the security, maintenance, and compliance of the
 underlying platform. Here’s what that looks like:
 
-<img src="{{site.baseurl}}{{page.images[3]}}" alt="" aria-hidden="true">
+{% image "assets/blog/cloud-gov/intro-diagram.svg" "" %}
 <div class="usa-sr-only">
 <p>You set up and maintain your web application code.</p>
 <p>You can run your application on the programming language stacks that cloud.gov maintains. Or you can run it on a custom programming language stack that you maintain.</p>
@@ -121,7 +115,7 @@ implementations for the remaining 15 controls, such as ensuring you make
 data backups and using reliable DNS (Domain Name System) name servers
 for your websites.
 
-![A bar chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two.]({{site.baseurl}}{{page.images[4]}})
+{% image "assets/blog/cloud-gov/cloud-gov-chart.svg" "A bar chart showing the portion of security controls handled by customers, cloud.gov, and shared between the two." %}
 
 cloud.gov is also a building block for vendors and contractors that
 supply services to federal agencies. They can submit proposals to

@@ -34,7 +34,7 @@ Big software systems happen in two major varieties:
 Before diving into the best way to mix and match these patterns, I want to describe each of their growth patterns and risks.
 
 <figure class="align-left">
-  <img alt="A drawing representing a monolith" src="{{site.baseurl}}/assets/blog/build-big/monolith.jpg" width="210">
+  {% image_with_class "assets/blog/build-big/monolith.jpg" "width-210px" "A drawing representing a monolith" %}
 </figure>
 
 A monolith is one big application. Monoliths are easy to understand
@@ -62,8 +62,8 @@ applications. Sometimes they’ll be forced to sign into many
 applications.
 
 <figure class="align-left">
-  <img alt="A drawing of a quizzical looking stick figure examining a manageable set of components." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
-  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/components.jpg" width="140">
+  {% image_with_class "assets/blog/build-big/quizzical.jpg" "width-80px" "A drawing of a quizzical looking stick figure examining a manageable set of components." %}
+  {% image_with_class "assets/blog/build-big/components.jpg" "width-140px" "" %}
 </figure>
 
 Given that monoliths are simpler than services, why would we ever
@@ -77,8 +77,8 @@ developers have a hard time finding the code they need to get their work
 done. They have a hard time managing the complexity and the bugs.
 
 <figure class="image-center">
-  <img alt="A drawing of a quizzical looking stick figure examining an out-of-control monolith." src="{{site.baseurl}}/assets/blog/build-big/quizzical.jpg" width="80">
-  <img alt="" src="{{site.baseurl}}/assets/blog/build-big/complexity.jpg" width="380">
+  {% image_with_class "assets/blog/build-big/quizzical.jpg" "width-80px" "A drawing of a quizzical looking stick figure examining an out-of-control monolith." %}
+  {% image_with_class "assets/blog/build-big/complexity.jpg" "width-380px" "" %}
 </figure>
 
 Monoliths that grow too large stagger under their own weight. Product

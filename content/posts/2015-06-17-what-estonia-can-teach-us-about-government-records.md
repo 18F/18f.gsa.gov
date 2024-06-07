@@ -39,7 +39,7 @@ of Estonia’s most prominent technologists visited D.C. for a week-long
 tour, which included meetings with the State Department, the World Bank,
 and U.S. digital services teams.
 
-<img src="{{ site.baseurl }}/assets/blog/estonia/Estonia2.jpg" alt="The Estonian delegation with members of 18F, OSTP, and CTO Megan Smith" width="500">
+{% image_with_class "assets/blog/estonia/Estonia2.jpg" "width-500px" "The Estonian delegation with members of 18F, OSTP, and CTO Megan Smith" %}
 
 *U.S. Chief Technology Officer Megan Smith, members of U.S. digital
 services teams, and the representatives from Estonia.*
