@@ -4,6 +4,8 @@ description: >- # this means to ignore newlines
   interaction between government and the people and businesses
   it serves.
 
+locale: en-US
+
 host: https://18f.gsa.gov
 
 # Twitter handle. Only the handle, not the URL.
@@ -13,7 +15,7 @@ dap:
   agency: GSA
   subagency: TTS,18F
 
-ga:
+google-analytics:
   ua: 'G-HBYXWFP794'
 
 # Search.gov configuration

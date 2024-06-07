@@ -3,7 +3,7 @@ This is used for just about every page. It provides the border around the conten
 The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang={{ page.locale | default: site.locale | default: 'en-US' }}>
   {% assign was_redirected = false %}
   {% if env.production %}
     {% assign is_index = page.url == "/" %}
