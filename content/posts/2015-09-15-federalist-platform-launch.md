@@ -15,7 +15,7 @@ image: /assets/blog/federalist/sbst-screenshot-2.jpg
 hero: false
 ---
 
-![The new White House Social and Behavioral Sciences Team homepage]({{site.baseurl}}/assets/blog/federalist/sbst-screenshot-2.jpg)
+{% image "assets/blog/federalist/sbst-screenshot-2.jpg" "The new White House Social and Behavioral Sciences Team homepage" %}
 
 _Summer 2017 Update: Federalist [left beta in June 2017](https://18f.gsa.gov/2017/06/01/federalist-is-out-of-beta-and-open-for-business/) and is currently seeking new customers. Email us at federalist-inquiries@gsa.gov or fill out this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSesNI1qlov7Ec_1u2FralYWg9hV4WsB-3FyAHPXc1pRT6In7w/viewform) if you're interested in using Federalist for your office._
 

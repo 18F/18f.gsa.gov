@@ -39,7 +39,7 @@ post, I list some potential sources of content-related debt, list ways
 to identify it, and then share strategies for preventing it in the first
 place.
 
-[![A 1940s photos of students standing over a pile of scrap paper]({{site.baseurl}}/assets/blog/content/scrap-paper.jpg)](https://commons.wikimedia.org/wiki/File:Victory_Program._After_bringing_their_scrap_paper_to_school,_8c34784v.jpg)
+[{% image "assets/blog/content/scrap-paper.jpg" "A 1940s photos of students standing over a pile of scrap paper" %}](https://commons.wikimedia.org/wiki/File:Victory_Program._After_bringing_their_scrap_paper_to_school,_8c34784v.jpg)
 *Students in Washington D.C. taking part in a 1942 program to collect scrap paper.*
 
 Sources of content and documentation debt

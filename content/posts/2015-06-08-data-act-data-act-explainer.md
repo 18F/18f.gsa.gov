@@ -50,7 +50,7 @@ appropriation to an actual payment. These systems don’t have a common
 way to tie money back to specific programs and projects, and that’s what
 the DATA Act proposes to fix.
 
-[![Diagram of government appropriation reporting]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-reporting.jpg)](http://www.datacoalition.org/what-is-data-transparency/data-act/)
+[{% image "assets/blog/data-act-implementation/data-act-reporting.jpg" "Diagram of government appropriation reporting" %}](http://www.datacoalition.org/what-is-data-transparency/data-act/)
 
 *Image courtesy of the [Data Transparency
 Coalition](http://www.datacoalition.org/what-is-data-transparency/data-act/)*
@@ -70,7 +70,7 @@ several different initiatives, the Department may allocate those dollars
 to more specific buckets like Pell grants, work-study, and scholarships
 for veterans’ dependents.
 
-![Diagram of account labeling]({{site.baseurl}}/assets/blog/data-act-implementation/data-act-labels.jpg)
+{% image "assets/blog/data-act-implementation/data-act-labels.jpg" "Diagram of account labeling" %}
 
 When Treasury pays money to a recipient of student financial aid, it
 debits the money from the high-level $30 billion account. The specifics

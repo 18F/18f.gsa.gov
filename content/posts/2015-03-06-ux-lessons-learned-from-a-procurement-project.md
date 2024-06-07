@@ -135,7 +135,7 @@ there wasn’t one place to get that information.
 
 That’s where Discovery fits in.
 
-![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/discovery-launch/discovery-intro.gif)
+{% image "assets/blog/discovery-launch/discovery-intro.gif" "Screen: Discovery Homepage" %}
 
 **How did you determine that Discovery was the tool that you needed to
 build?**

@@ -12,7 +12,7 @@ tags:
 excerpt: "We asked 18F designers what they've learned from fellow designers while working together. Here's what they said."
 ---
 
-![Image of team brainstorming]({{ site.baseurl }}/assets/blog/team_brainstorming.png)
+{% image "assets/blog/team_brainstorming.png" "Image of team brainstorming" %}
 Special thanks to designer Jia Gu for the images in this post
 {: .font-alt-xs }
 
@@ -91,7 +91,7 @@ I learned from fellow UX designer Melissa Braxton how to foster relationships an
 <span>– Mark Trammell, UX designer </span>
 </blockquote>
 
-![Image of woman thinking]({{ site.baseurl }}/assets/blog/woman_thinking.png)
+{% image "assets/blog/woman_thinking.png" "Image of woman thinking" %}
 
 ## On user research and facilitation
 

@@ -36,7 +36,7 @@ So I tried an experiment: I asked my 18F coworkers to tag
 messages *that every new 18F employee should know* with the
 :evergreen_tree: emoji.
 
-![Melody Kramer explaining how to tag messages on Slack]({{site.baseurl}}/assets/blog/onboarding/evergreen-tree.png)
+{% image "assets/blog/onboarding/evergreen-tree.png" "Melody Kramer explaining how to tag messages on Slack" %}
 
 This allowed me to search Slack using this command:
 "has::evergreen_tree:" to surface all of the tips and tricks my

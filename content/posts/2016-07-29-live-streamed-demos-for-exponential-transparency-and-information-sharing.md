@@ -24,7 +24,7 @@ So we explored some options and landed on a creative option — livestreaming ou
 government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable
 file afterwards at the same URL. YouTube is widely accessible behind government firewalls, and has useful functionality for both presenters (Hangouts On Air, an enhanced version of the video chat program) and viewers. After mistakenly launching and ending the first live attempt before it was supposed to go live, we learned how to use the tool, and it really helped us share information across many agencies, teams, and individuals. We’re also excited about this serving as an archive of our work.
 
-![A screenshot of a youtube video used to demo the e-regs work.]({{ site.baseurl }}/assets/blog/eregs/demo-video.jpg)
+{% image "assets/blog/eregs/demo-video.jpg" "A screenshot of a youtube video used to demo the e-regs work." %}
 
 ### Major lessons and benefits that made this work:
 

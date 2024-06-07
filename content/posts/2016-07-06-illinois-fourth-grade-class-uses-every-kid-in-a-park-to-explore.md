@@ -28,7 +28,7 @@ Each student selected a state at the beginning of the year to build a background
 
 These projects were then displayed for our open house.
 
-![Models of the Statue of Liberty and other national parks created by the fourth grade students.]({{ site.baseurl }}/assets/blog/every-kid-in-a-park/nps-models.jpg)
+{% image "assets/blog/every-kid-in-a-park/nps-models.jpg" "Models of the Statue of Liberty and other national parks created by the fourth grade students." %}
 
 *Monuments from National Park Service sites that were created by fourth graders in Monticello, IL.*
 
@@ -40,7 +40,7 @@ Lastly, students used the internet to find the distance from Monticello, IL to t
 
 The students were amazed by the size of the protected land and the beautiful sites. We watched bits and pieces of the PBS program on the National Parks, which endeared them to President Theodore Roosevelt, President Franklin Roosevelt, and John Muir. In turn, they found pages of quotes on the websites which we included on another wall of the gym.
 
-![Stamps for Glacier, Glacier Bay, Canyonlands, and other national parks drawn and colored by the fourth graders.]({{ site.baseurl }}/assets/blog/every-kid-in-a-park/nps-stamps.jpg)
+{% image "assets/blog/every-kid-in-a-park/nps-stamps.jpg" "Stamps for Glacier, Glacier Bay, Canyonlands, and other national parks drawn and colored by the fourth graders." %}
 
 *Students made stamps for their National Park, which hung in the school gymnasium.*
 

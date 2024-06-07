@@ -27,7 +27,7 @@ The UCR Program is one of the nation’s most sought after crime datasets, and, 
 Broadening access to this data helps people better understand crime in their communities. It also helps promote citizen engagement, improve resource allocation for communities, and will lead to more transparency and accountability within law enforcement agencies. Further, law enforcement can use this tool to benchmark their progress and see how reported crime rates compare across the nation.
 
 
-![Screen: Discovery Homepage]({{site.baseurl}}/assets/blog/fbi-crime-data/az-breakdown.gif)
+{% image "assets/blog/fbi-crime-data/az-breakdown.gif" "Screen: Discovery Homepage" %}
 
 
 Specifically, users of the site can:

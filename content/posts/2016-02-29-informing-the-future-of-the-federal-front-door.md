@@ -119,7 +119,7 @@ right, that there are negative consequences for doing something wrong,
 and their request is being treated as a potentially fraudulent rather
 than coming from a place of real need.
 
-![An infographic showing sources of pressure and types of emotions a person might feel after different interactions with the government.]({{site.baseurl}}/assets/blog/federal-front-door/image02.jpg)
+{% image "assets/blog/federal-front-door/image02.jpg" "An infographic showing sources of pressure and types of emotions a person might feel after different interactions with the government." %}
 
 ### Choice overload
 
@@ -188,7 +188,7 @@ is required for the specific interaction. How people feel about
 providing that information, and how it might be used both for their
 current interaction and potential future ones is a bit of a mixed bag.
 
-![A graphic showing how people might view sharing information. Some never want their information shared, and others are on a continuum.]({{site.baseurl}}/assets/blog/federal-front-door/image03.jpg)
+{% image "assets/blog/federal-front-door/image03.jpg" "A graphic showing how people might view sharing information. Some never want their information shared, and others are on a continuum." %}
 
 ### Access to personal information
 
@@ -198,7 +198,7 @@ government, manage requests for their information, see who is accessing
 their information, and understand that their information is secure and
 not being shared outside of the federal government.
 
-![An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties.]({{site.baseurl}}/assets/blog/federal-front-door/image00.jpg)
+{% image "assets/blog/federal-front-door/image00.jpg" "An infographic illustrating that people expect personal information like medical records, family information, and financial records to be safe from ID thieves, advertisers and third parties." %}
 
 ### **What’s next?**
 

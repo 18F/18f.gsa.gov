@@ -41,7 +41,7 @@ Only one person interviewed reported that they learned about a new program by br
 
 ### Digital Literacy
 
-![An inforgraphic showing that people with low digital literacy depend on family and friends for help, people with medium digital literacy can perform simple tasks but get more frustrated as processes become more complex, and people with high digital literacy say their main barrier is trust.]({{site.baseurl}}/assets/blog/federal-front-door/image06.jpg)
+{% image "assets/blog/federal-front-door/image06.jpg" "An inforgraphic showing that people with low digital literacy depend on family and friends for help, people with medium digital literacy can perform simple tasks but get more frustrated as processes become more complex, and people with high digital literacy say their main barrier is trust." %}
 
 Digital literacy exists on a spectrum.
 
@@ -53,7 +53,7 @@ At the low end of the spectrum are people who are unable to tell that the **www*
 
 ### Digital Access
 
-![An infographic showing that people with low digital access depend on public resources or a social network, whereas people with high digital access have no technical issues connecting to online services.]({{site.baseurl}}/assets/blog/federal-front-door/image04.jpg)
+{% image "assets/blog/federal-front-door/image04.jpg" "An infographic showing that people with low digital access depend on public resources or a social network, whereas people with high digital access have no technical issues connecting to online services." %}
 
 A correlation exists between digital literacy and digital access. People who are able to afford good internet access at home and own multiple devices are also more likely to be digitally literate. These people have no technical issues connecting to online resources.
 
@@ -63,7 +63,7 @@ People without access to any devices or the internet are also the least likely t
 
 ### English proficiency
 
-![An infographic showing that people with low English proficiency depending on family and friends for help, people with medium English proficiency can use English-based sites if the language is clear and simple, and people with high English proficiency prefer English services of websites.]({{site.baseurl}}/assets/blog/federal-front-door/image05.jpg)
+{% image "assets/blog/federal-front-door/image05.jpg" "An infographic showing that people with low English proficiency depending on family and friends for help, people with medium English proficiency can use English-based sites if the language is clear and simple, and people with high English proficiency prefer English services of websites." %}
 
 English fluency also exists on a scale, and low fluency presents its own barriers to interacting with the government. In general, bilingual speakers find that non-English translations of government sites are inaccurate or incomplete. They complained that when government sites are available in their native languages, those sites are direct translations from English, and as such are unintelligible.
 

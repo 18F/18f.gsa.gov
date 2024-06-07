@@ -48,7 +48,7 @@ for guides where "promoted" = true, this will be the hero image for the card.
   <!--Using a few inline styles here to force the hero div to respect the border radii of the card, but there might be a more elegant way of doing that-->
   {% if hero_url %}
   <div class="padding-4 display-flex flex-column bg-primary-dark" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
-    <img class="flex-align-self-center maxh-card-lg" alt="" src="{{ site.baseurl }}{{ hero_url }}">
+    {% image_with_class hero_url "flex-align-self-center maxh-card-lg" "" %}
   </div>
   {% endif %}
 

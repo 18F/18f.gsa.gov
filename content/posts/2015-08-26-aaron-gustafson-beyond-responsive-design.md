@@ -14,7 +14,7 @@ excerpt: "Web standards and accessibility expert Aaron Gustafson recently came t
 description: "Web standards and accessibility expert Aaron Gustafson recently came to 18F to speak about progressive enhancement and to challenge designers to improve user experience across browsers and devices."
 image: /assets/blog/aaron-gustafson/mms-gustafson.jpg
 ---
-![Aaron Gustafson gives a presentation at 18F]({{site.baseurl}}/assets/blog/aaron-gustafson/gustafson.jpg)
+{% image "assets/blog/aaron-gustafson/gustafson.jpg" "Aaron Gustafson gives a presentation at 18F" %}
 Web standards and accessibility expert Aaron Gustafson was working with
 a major drug store chain when he discovered they only tested their
 website on iPhones and iPads.
@@ -76,7 +76,7 @@ The text is the peanut, a fine snack on its own. But with chocolate
 (CSS), it’s tastier. And it’s best with colorful candy coating
 (Javascript). Ultimately, you can enjoy it at whatever step you get it.
 
-![A peanut, a chocolate covered peanut, and a peanut M&M]({{site.baseurl}}/assets/blog/aaron-gustafson/mms-gustafson.jpg)
+{% image "assets/blog/aaron-gustafson/mms-gustafson.jpg" "A peanut, a chocolate covered peanut, and a peanut M&M" %}
 *Slide from [Gustafson’s
 presentation](http://www.slideshare.net/AaronGustafson/beyond-responsive-18f-2015)*.
 

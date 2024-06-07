@@ -14,7 +14,7 @@ image: /assets/blog/cloud-gov/style-guide.jpg
 
 In developing a redesign for cloud.gov, our team found we had multiple sites with separate codebases, sometimes written in different programming languages with different frameworks that all had a shared visual style. When figuring out a technical solution to coding the visual style that was mocked up for us, we needed a solution that would scale to all these different sites without requiring us to copy code. Our solution to this problem is our “shared style library”, a library of CSS, JavaScript, images, and fonts that can be distributed to multiple codebases to create a shared visual style. Our style library includes a build process to package and optimize all the assets, versioning to ensure consumer sites receive the correct features of the style library, and a distribution method that allows multiple types of sites in different frameworks to consume the library. The library is called "cloudgov-style", or "cg-style" and is available [on GitHub](https://github.com/18F/cg-style) and [npm](https://www.npmjs.com/package/cloudgov-style).
 
-[![A screenshot of the cloud.gov style library]({{site.baseurl}}/assets/blog/cloud-gov/style-guide.jpg)](https://pages.18f.gov/cg-style/)
+[{% image "assets/blog/cloud-gov/style-guide.jpg" "A screenshot of the cloud.gov style library" %}](https://pages.18f.gov/cg-style/)
 
 ## Design
 The idea of cloudgov-style started with a redesign of cloud.gov itself, which included a styleguide, mockups for the [main cloud.gov landing page](https://cloud.gov), and the [cloud.gov docs site](https://docs.cloud.gov). The visual style was designed using the [Draft U.S. Web Design Standards](https://playbook.cio.gov/designstandards/) as it was a good starting point to ensure the design incorporated the same values as other government sites. Plus, starting with existing code made creating our visual style much faster.
@@ -165,7 +165,7 @@ Having these different options allows different consumer sites with different bu
 ## Style guide
 Another feature of cloudgov-style is a minimal, coded, style guide to allow for visual regression testing of new code and for developers to see what components are available and how to implement them. This style guide is created with a simple Jekyll site in the [cloudgov-style repo](https://github.com/18F/cg-style/tree/master/documentation). The style guide has each component displayed in an example use case along with a code sample to show implementation.
 
-[![An example of components being displayed next to their code on the cloudgov-style site.]({{site.baseurl}}/assets/blog/cloud-gov/style-guide-components.jpg)](https://pages.18f.gov/cg-style/)
+[{% image "assets/blog/cloud-gov/style-guide-components.jpg" "An example of components being displayed next to their code on the cloudgov-style site." %}](https://pages.18f.gov/cg-style/)
 
 While all the components are displayed on the homepage, each component also has an individual page where it's displayed in isolation. This is done to create a "clean" environment for visual regression testing. By placing each component on it's own page, there won't be any false negatives in visual regression testing when there are layout changes to the components. We decided to use a hand-coded style guide built on Jekyll rather than using a tool like [KSS](http://warpspire.com/kss/) to make it easier to place each component on it’s own page.
 

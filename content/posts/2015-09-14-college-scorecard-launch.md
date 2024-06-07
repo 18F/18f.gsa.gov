@@ -34,7 +34,7 @@ College search resources like [ScholarMatch](http://scholarmatcher.scholarmatch.
 
 ## How we did it
 
-![A team of people look at a demo of College Scorecard]({{site.baseurl}}/assets/blog/college-scorecard/college-scorecard-1.jpg)
+{% image "assets/blog/college-scorecard/college-scorecard-1.jpg" "A team of people look at a demo of College Scorecard" %}
 *One of our many demos.*
 
 This was a truly collaborative team effort: thank you to the [Department of Education](http://www.ed.gov/), White House Domestic Policy Council, White House Council of Economic Advisors, Department of Treasury, Office of Management and Budget, [18F](https://18f.gsa.gov/) (at GSA) and the team at the [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service).
@@ -46,7 +46,7 @@ We knew what we needed to do: make people’s lives better by providing them the
 
 **Instead of guessing, we decided to go out and ask them.**
 
-![An amazing guidance counselor at Anacostia High with two of his students.]({{site.baseurl}}/assets/blog/college-scorecard/college-scorecard-2.jpg)
+{% image "assets/blog/college-scorecard/college-scorecard-2.jpg" "An amazing guidance counselor at Anacostia High with two of his students." %}
 *An amazing guidance counselor at Anacostia High with two of his students.*
 
 Following our practice of [focusing on user needs](https://playbook.cio.gov/#play1), the College Scorecard team first spent time engaging directly with users at every single step in the project. Some of our favorite conversations were when we talked to high school students in Washington, D.C.’s Anacostia neighborhood and their excellent guidance counselor. He told us how he “hacks” the process to make sure every one of his students gets an acceptance letter from a college, and feels that rush of possibility.
@@ -57,7 +57,7 @@ We built on the hard work of the Department of Education; previously, they met w
 
 ### Be agile.
 
-![Secretary of Education Arne Duncan sees the difference between the paper prototype and the mobile-friendly version of the College Scorecard.]({{site.baseurl}}/assets/blog/college-scorecard/college-scorecard-3.jpg)
+{% image "assets/blog/college-scorecard/college-scorecard-3.jpg" "Secretary of Education Arne Duncan sees the difference between the paper prototype and the mobile-friendly version of the College Scorecard." %}
 *Secretary of Education Arne Duncan sees the difference between the paper prototype and the mobile-friendly version of the College Scorecard.*
 
 Based on this research and input from the field, we made the cheapest, fastest prototype of the College Scorecard possible. We knew it needed to be mobile-first, simple, and easy to customize. That prototype ended up being a homemade, cardboard iPhone — slips of paper with wireframes of what the tool could look like. It probably cost less than a cup of coffee to produce.

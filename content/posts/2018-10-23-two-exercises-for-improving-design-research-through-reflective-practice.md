@@ -164,7 +164,7 @@ describing research across various levels:
 
 I also shared this local-maxima diagram I learned about from [Joshua Porter’s 52 Weeks of UX](http://52weeksofux.com/post/694598769/the-local-maximum).
 
-![Animation: local-maxima diagram showing the differences between your design and a better design]({{site.baseurl}}/assets/blog/design-research-reflective-practice/locmax.gif)
+{% image "assets/blog/design-research-reflective-practice/locmax.gif" "Animation: local-maxima diagram showing the differences between your design and a better design" %}
 
 I explained that foundational research is useful for breaking out of
 “local maximas” and understanding the landscape in which the team is

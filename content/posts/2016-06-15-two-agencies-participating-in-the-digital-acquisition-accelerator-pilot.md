@@ -18,7 +18,7 @@ description: "Today, we’re thrilled to reveal that we’ve selected the Federa
 image: /assets/blog/digital-acquisition-accelerator/daa-pilot-homepage.jpg
 ---
 
-[![The Digital Acquisition Accelerator homepage]({{site.baseurl}}/assets/blog/digital-acquisition-accelerator/daa-pilot-homepage.jpg)](https://pages.18f.gov/digitalaccelerator/)
+[{% image "assets/blog/digital-acquisition-accelerator/daa-pilot-homepage.jpg" "The Digital Acquisition Accelerator homepage" %}](https://pages.18f.gov/digitalaccelerator/)
 
 Today, we’re thrilled to announce that we’ve selected the Federal Bureau
 of Investigation and the U.S. Department of the Treasury as the first

@@ -12,7 +12,7 @@ description: "To help our product managers, newcomers and veterans alike, wear t
 image: /assets/blog/product-guide/product-guide.jpg
 ---
 
-[![A screenshot of the 18F Product Guide]({{site.baseurl}}/assets/blog/product-guide/product-guide.jpg)](https://pages.18f.gov/product-guide)
+[{% image "assets/blog/product-guide/product-guide.jpg" "A screenshot of the 18F Product Guide" %}](https://pages.18f.gov/product-guide)
 *The 18F Product Guide*
 
 A product lead can wear many hats over the course of a project. Being a

@@ -48,7 +48,7 @@ principles themselves. The team should have the freedom to experiment
 and push the boundaries without breaking the spirit of the design
 principles.
 
-[![A screenshot of the 18F Design Principles Guide]({{site.baseurl}}/assets/blog/design/design-principles-guide.jpg)
+[{% image "assets/blog/design/design-principles-guide.jpg" "A screenshot of the 18F Design Principles Guide" %}
 ](https://pages.18f.gov/design-principles-guide/create)
 
 Check out the [Design Principles

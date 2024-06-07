@@ -38,7 +38,7 @@ This launch also includes a checklist of essential information for candidates an
 
 Eventually, we’ll launch an essentials checklist for every type of FEC registrant.
 
-[![The new checklist for what you need to do to register with the FEC]({{site.baseurl}}/assets/blog/fec/checklist.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
+[{% image "assets/blog/fec/checklist.jpg" "The new checklist for what you need to do to register with the FEC" %}](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
 
 Plain language was an important goal for this project. It lowers the bar of entry for readers — we don’t want folks to **need** a lawyer just to clarify the most basic campaign finance information. We also wanted the site to be a resource for journalists and researchers looking for background information.
 
@@ -46,7 +46,7 @@ Because of the intricacy of campaign finance law, we had to keep some technical 
 
 Even so, we didn’t want our readers to get lost navigating the site. A glossary tool allows readers to click an icon next to legal terms and read the definition.
 
-[![The new integrated glossary in action on betafec.gov]({{site.baseurl}}/assets/blog/fec/glossary.jpg)](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
+[{% image "assets/blog/fec/glossary.jpg" "The new integrated glossary in action on betafec.gov" %}](https://beta.fec.gov/registration-and-reporting/essentials-house-and-senate-candidates-and-committees/)
 
 What folks are saying
 ---------------------

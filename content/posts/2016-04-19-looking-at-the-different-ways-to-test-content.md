@@ -37,7 +37,7 @@ depending on the age of your audience. Finding appropriate ways to test
 our content helps us improve and find best practice patterns for
 creating copy.
 
-![A graph with comprehension and confusion at the top and bottom of the y-axis and failure and success on the left and right of the x axis. The desired spot for content is in the upper right quadrant between comprehension and success. ]({{site.baseurl}}/assets/blog/content-testing/content-graph.jpg)
+{% image "assets/blog/content-testing/content-graph.jpg" "A graph with comprehension and confusion at the top and bottom of the y-axis and failure and success on the left and right of the x axis. The desired spot for content is in the upper right quadrant between comprehension and success. " %}
 *Christine’s graph of good content. The star marks
 the sweet spot.*
 
@@ -78,7 +78,7 @@ Kid in a Park project to keep pressure low and still measure how well
 kids understood the website. For example, one question we asked was,
 “How would you use this website to sign up for Every Kid in a Park?”
 
-[![A screenshot of the Every Kid in a Park homepage]({{site.baseurl}}/assets/blog/every-kid-in-a-park/every-kid-in-a-park-homepage.jpg)](https://www.everykidinapark.gov)
+[{% image "assets/blog/every-kid-in-a-park/every-kid-in-a-park-homepage.jpg" "A screenshot of the Every Kid in a Park homepage" %}](https://www.everykidinapark.gov)
 *The Every Kid in a Park homepage reads at a 4.5 grade level and was
 tested with kids through the University of Maryland’s HCI lab.*
 
@@ -101,7 +101,7 @@ experienced in the previous two weeks. The feelings listed by users in
 testing were matched to the ones already in the app — plus the feelings
 people had written into the “add your own” field.
 
-![A grid of possible words such as OK, anxious, angry, and happy under the heading "How you feel right now"]({{site.baseurl}}/assets/blog/content-testing/choose-words.jpg)
+{% image "assets/blog/content-testing/choose-words.jpg" "A grid of possible words such as OK, anxious, angry, and happy under the heading "How you feel right now"" %}
 
 The goal was to test whether the feelings chosen for the app were
 representative and appropriate.
@@ -129,7 +129,7 @@ asking users to sign up as organ donors. For example:
 The sign-up rate for each piece of content was measured and the most
 successful was:
 
-![A screenshot of the GOV.UK screen with "Please join the NHS Organ Donor Register" on a thank you page.]({{site.baseurl}}/assets/blog/content-testing/ab-test.jpg))
+{% image "assets/blog/content-testing/ab-test.jpg" "A screenshot of the GOV.UK screen with "Please join the NHS Organ Donor Register" on a thank you page." %})
 
 Each content variant the NHS tested used plain language and could be
 easily understood. The A/B test showed which call to action was *most
@@ -160,7 +160,7 @@ she accepted synonyms as answers. She was hoping to get test scores of
 50 percent or greater accuracy; in practice, FEC’s Cloze test scores ranged
 from 65 percent to 98 percent, even better than she hoped.
 
-![An example of a page from beta.fec.gov that used a Close test.]({{site.baseurl}}/assets/blog/content-testing/cloze-testing.jpg)
+{% image "assets/blog/content-testing/cloze-testing.jpg" "An example of a page from beta.fec.gov that used a Close test." %}
 *This page from [beta.FEC.gov](https://beta.fec.gov) is one of several tested using a Cloze
 test.*
 

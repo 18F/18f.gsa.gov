@@ -14,7 +14,7 @@ image_alt: "An older model computer whose screen reads 'Building Trust With Tech
 ---
 
 
-![An older model computer whose screen reads "Building Trust With Tech Talks"]({{ site.baseurl }}/assets/blog/tech-talks/building-trust.png)
+{% image "assets/blog/tech-talks/building-trust.png" "An older model computer whose screen reads &ldquo;Building Trust With Tech Talks&rdquo;" %}
 Special thanks to Jessica Dussault for this image!
 {: .font-alt-xs }
 

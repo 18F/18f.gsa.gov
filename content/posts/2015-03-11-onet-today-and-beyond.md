@@ -54,7 +54,7 @@ that have existed (and will continue to exist) in the medium term.
 Examples of some such occupations include firefighter, teacher, and
 lawyer, to name a few.
 
-![The O*Net Content model takes many sources to identify detailed occupations.]({{site.baseurl}}/assets/blog/onet/image01.jpg)
+{% image "assets/blog/onet/image01.jpg" "The O*Net Content model takes many sources to identify detailed occupations." %}
 
 *Fig. 1: O\*NET content model*
 
@@ -224,7 +224,7 @@ A public-private partnership that produces a Skills Market Platform
 (SMP) (Fig. 2), which is an open, dynamic, growing, standards-based,
 public-facing platform for skills data.
 
-![Reference architecture for a skills market platform]({{site.baseurl}}/assets/blog/onet/image00.png)
+{% image "assets/blog/onet/image00.png" "Reference architecture for a skills market platform" %}
 
 *Fig. 2: reference architecture for a Skills Market Platform (SMP)*
 
@@ -290,4 +290,4 @@ Data Standard. Donate some programming and design cycles to implementing
 the Skills Network Protocol and or the Skills Innovation Layer. Help
 change the world as we know it.
 
-[![Send an email to get involved.]({{site.baseurl}}/assets/blog/onet/image02.gif)](mailto:openinnovationhrs@dol.gov)
+[{% image "assets/blog/onet/image02.gif" "Send an email to get involved." %}](mailto:openinnovationhrs@dol.gov)

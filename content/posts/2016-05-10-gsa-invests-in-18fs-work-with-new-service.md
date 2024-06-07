@@ -27,7 +27,7 @@ and others have done in helping the government adopt and develop
 innovative and modern technologies and practices is being
 institutionalized into the core mission of GSA.
 
-![A large group picture of the more than 170 18F team members]({{site.baseurl}}/assets/blog/join-us/18F-IRL-2016.jpg)
+{% image "assets/blog/join-us/18F-IRL-2016.jpg" "A large group picture of the more than 170 18F team members" %}
 *The 18F staff at our May meeting.*
 
 This new service is an investment by GSA in the long-term work of

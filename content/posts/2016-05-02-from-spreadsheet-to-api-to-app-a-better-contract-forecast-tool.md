@@ -21,7 +21,7 @@ Executive branch agencies of the federal government are required by law to tell 
 
 The [GSA Office of Small Business Utilization](http://www.gsa.gov/portal/category/21015) (OSBU) is required to compile projections of contracting opportunities that small, disadvantaged, and women-owned businesses may be able to perform. However, GSA was only publishing their own agency data — thus requiring businesses to go to dozens of agency web sites just to find forecast information for those agencies.
 
-![A screenshot of a OSBU's original spreadsheet]({{site.baseurl}}/assets/blog/osbu-forecast/spreadsheet.jpg)
+{% image "assets/blog/osbu-forecast/spreadsheet.jpg" "A screenshot of a OSBU's original spreadsheet" %}
 *OSBU's original vendor forecast featured thousands of rows of
 complex data*
 
@@ -35,7 +35,7 @@ We also uploaded five additional agencies’ forecasting data into the tool to a
 
 The beta version of the site is available at [gsaforecast.gsa.gov](https://gsaforecast.gsa.gov) and you can read OSBU Director Jerome Fletcher’s announcement post about the tool [on the GSA blog](http://gsablogs.gsa.gov/gsablog/2016/03/15/new-gsa-small-business-contracting-forecast-tool-will-drive-community-economic-development/).
 
-![The homepage of the new OSBU forecast tool]({{site.baseurl}}/assets/blog/osbu-forecast/forecast-tool.jpg)
+{% image "assets/blog/osbu-forecast/forecast-tool.jpg" "The homepage of the new OSBU forecast tool" %}
 *The new GSA forecast tool is mobile optimized and allows for
 keyword searching across multiple agencies.*
 

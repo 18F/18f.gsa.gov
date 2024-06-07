@@ -83,7 +83,7 @@ recommend against falling into this trap; your small code base will
 quickly grow larger than anticipated and your early technical decisions
 have had long-lasting ramifications.
 
-![Diagram matching above description]({{ site.baseurl }}/assets/blog/data-act-implementation/diagram.png)
+{% image "assets/blog/data-act-implementation/diagram.png" "Diagram matching above description" %}
 
 ## Simplicity avoids scaring away agencies
 

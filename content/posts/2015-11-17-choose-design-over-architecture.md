@@ -29,7 +29,7 @@ In short, architectural plans push the team towards [waterfall development](http
 
 ## Starting from user stories and user experience
 
-![A user story generating architecture organically.]({{site.baseurl}}/assets/blog/design-over-architecture/user-story-architecture.jpg)
+{% image "assets/blog/design-over-architecture/user-story-architecture.jpg" "A user story generating architecture organically." %}
 *A user story generating architecture organically.*
 
 [User stories](https://en.wikipedia.org/wiki/User_story) are simple scenarios told from the point of view of a person using the software. There can be many types of users for an application. For example, an application might have people consuming the application via a public web page and others who are developers consuming it via an API. The application may also need administrators to establish content or permissions.
@@ -77,7 +77,7 @@ After the team addresses lots of stories, driven by their top priorities, the ar
 
 ## Keeping our code from becoming a structureless mess
 
-![Without good software design techniques, your code can become a mess as you fulfill more user stories.]({{site.baseurl}}/assets/blog/design-over-architecture/messy-code.jpg)
+{% image "assets/blog/design-over-architecture/messy-code.jpg" "Without good software design techniques, your code can become a mess as you fulfill more user stories." %}
 *Without good software design techniques, your code can become a mess as you fulfill more user stories.*
 
 Without a guiding architectural map, how does a team keep the code clean and useful?
@@ -97,7 +97,7 @@ Focusing on software design turns the process of getting to architecture on its 
 
 Seemingly since the dawn of programming, engineers have been concerned with making code more modular and flexible. In that time, we have developed great guiding principles.
 
-![Using refactoring to impose design on the chaos that happens with continual development]({{site.baseurl}}/assets/blog/design-over-architecture/refactoring.jpg)
+{% image "assets/blog/design-over-architecture/refactoring.jpg" "Using refactoring to impose design on the chaos that happens with continual development" %}
 *Using refactoring to impose design on the chaos that happens with continual development.*
 
 ### SOLID

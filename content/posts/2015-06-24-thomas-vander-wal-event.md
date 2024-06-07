@@ -34,7 +34,7 @@ Vander Wal said during his lecture. But many companies don’t save
 instant message conversations. And email buries data in an archive
 that’s inaccessible to most.
 
-![An illustration of closed-node communication]({{site.baseurl}}/assets/blog/vander-wal/email.jpg)
+{% image "assets/blog/vander-wal/email.jpg" "An illustration of closed-node communication" %}
 *An illustration of closed-node communication, from Vander Wal’s
 presentation*
 
@@ -59,7 +59,7 @@ keeping](https://18f.gsa.gov/2015/05/28/18F-guides/), and — whenever
 possible — we illuminate our processes, hopefully [to the benefit of
 the larger tech community](https://pages.18f.gov/guides/).
 
-![A slide listing the values of open node communication]({{site.baseurl}}/assets/blog/vander-wal/opennodes.jpg)
+{% image "assets/blog/vander-wal/opennodes.jpg" "A slide listing the values of open node communication" %}
 *Open-node communication allows members of the same community to share
 institutional knowledge deftly and painlessly.*
 

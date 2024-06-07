@@ -11,7 +11,7 @@ tags:
 excerpt: "We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month. Larry was a senior contracting officer at the General Services Administration. He managed technology systems for the OASIS program and was instrumental in helping GSA launch this new contract vehicle. Larry was also an early believer in 18F."
 ---
 
-![Larry Mathias was an early partner for 18F]({{site.baseurl}}/assets/blog/larry/larry.jpg)
+{% image "assets/blog/larry/larry.jpg" "Larry Mathias was an early partner for 18F" %}
 
 We’re writing this to remember and pay tribute to Larry Mathias, who passed away unexpectedly this month.
 
@@ -41,6 +41,6 @@ Larry connected us to other civil servants who also wanted to make government be
 
 Larry was passionate about making things. Between meetings we talked about photography and 3D printing and Arduinos and NeoPixels. We loved him so much we named our GitHub bot after him:
 
-![A screenshot of the Larrybot notifying the team of a pull request being closed]({{site.baseurl}}/assets/blog/larry/larrybot.png)
+{% image "assets/blog/larry/larrybot.png" "A screenshot of the Larrybot notifying the team of a pull request being closed" %}
 
 We miss him.

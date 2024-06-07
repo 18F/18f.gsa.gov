@@ -23,7 +23,7 @@ _This is part four of a series detailing the findings of a team of researchers f
 
 _In yesterday’s post, we [detailed how people learn to navigate government services](https://18f.gsa.gov/2016/03/03/how-people-learn-to-navigate-government-services/) and what barriers exist to access services. Today we’ll detail how people interact with the government using proxies._
 
-![screenshot of labs.usa.gov]({{site.baseurl}}/assets/blog/federal-front-door/ffd-microsite.jpg)
+{% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 
 
 ## Interacting with the government using proxies

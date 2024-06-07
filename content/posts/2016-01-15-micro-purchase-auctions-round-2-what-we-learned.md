@@ -14,7 +14,7 @@ image: /assets/blog/micro-purchase/closed-auctions.jpg
 hero: false
 ---
 
-![A screenshot of two closed auctions]({{ site.baseurl }}/assets/blog/micro-purchase/closed-auctions.jpg)
+{% image "assets/blog/micro-purchase/closed-auctions.jpg" "A screenshot of two closed auctions" %}
 
 The auctions have closed, the [bids are
 in](https://micropurchase.18f.gov/), the [winners are off

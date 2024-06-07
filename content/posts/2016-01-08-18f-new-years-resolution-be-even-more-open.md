@@ -69,7 +69,7 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  be more explicit about how to contribute after finding a bug or
  error.
 
-![Screen shot of a Slack conversation about adding language to encourage contributions to documentation.]({{ site.baseurl }}/assets/blog/open-source/documentation.jpg)
+{% image "assets/blog/open-source/documentation.jpg" "Screen shot of a Slack conversation about adding language to encourage contributions to documentation." %}
 
 -   **Communicate our needs by figuring out better ways to ask for
  help**. We want to be more explicit and vocal about expressing our

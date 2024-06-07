@@ -33,7 +33,7 @@ But beyond the fact that we got working software in a little less than a week af
 * The largest bid increment was $740, the smallest bid increment was $1, and the most common bid increment was $50.
 * As of the afternoon of November 6, 2015, there were more than 10,000 unique visitors to the GitHub issue (though much of it was driven by being on the [front page of Hacker News](https://news.ycombinator.com/item?id=10471677)), and more than 300 unique visitors to the underlying data that is the subject of the micro-purchase experiment.
 
-![Traffic statistics for the CALC repository in GitHub]({{site.baseurl}}/assets/blog/micro-purchase/micro-purchase-analytics.jpg)
+{% image "assets/blog/micro-purchase/micro-purchase-analytics.jpg" "Traffic statistics for the CALC repository in GitHub" %}
 *A snapshot of the analytics for the CALC repository on GitHub.*
 
 Given these statistics, we think it’s fair to say that there is a market for open-source micro-purchasing, though we obviously will need to spend some time and effort refining our methods.

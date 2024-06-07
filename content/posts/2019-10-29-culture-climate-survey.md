@@ -80,7 +80,7 @@ others that showed where our culture needs improvement. Some questions
 had dramatically positive results:
 
 <div aria-hidden="true" markdown="1">
-![Chart - "It is easy to ask other members of this team for help"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg)
+{% image "assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg" "Chart - "It is easy to ask other members of this team for help"" %}
 </div>
 
 <table class="usa-sr-only">
@@ -112,7 +112,7 @@ had dramatically positive results:
 </table>
 
 <div aria-hidden="true" markdown="1">
-![Chart - "On this team, I can voice a contrary opinion without fear of negative consequences"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg)
+{% image "assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg" "Chart - "On this team, I can voice a contrary opinion without fear of negative consequences"" %}
 </div>
 
 <table class="usa-sr-only">
@@ -147,7 +147,7 @@ Other questions also showed strengths, but with more room for
 improvement — trending at 5 instead of 7.
 
 <div aria-hidden="true" markdown="1">
-![Chart - "I am satisfied with my work"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg)
+{% image "assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg" "Chart - "I am satisfied with my work"" %}
 </div>
 
 <div class="usa-sr-only" markdown="1">
@@ -182,7 +182,7 @@ improvement — trending at 5 instead of 7.
 </table>
 
 <div aria-hidden="true" markdown="1">
-![Chart - "I feel I am growing as an engineer"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg)
+{% image "assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg" "Chart - "I feel I am growing as an engineer"" %}
 </div>
 
 <table class="usa-sr-only">

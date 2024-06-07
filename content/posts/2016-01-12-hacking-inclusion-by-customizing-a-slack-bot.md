@@ -42,7 +42,7 @@ Did you mean *y'all*?
 
 Here’s what it looks like in action:
 
-![screenshot: Slackbot showing alternative responses to phrase 'Hey guys']({{ site.baseurl }}/assets/blog/hacking-inclusion/slackbot-replacing-guys-with-other-words.png)
+{% image "assets/blog/hacking-inclusion/slackbot-replacing-guys-with-other-words.png" "screenshot: Slackbot showing alternative responses to phrase 'Hey guys'" %}
 
 Turns out, a little cultural hack can go a long way. It’s easy to forget these things and say guys unconsciously, but a nice, friendly, automated reminder solves that issue, and reduces the need for any kind of person-to-person conversation.
 

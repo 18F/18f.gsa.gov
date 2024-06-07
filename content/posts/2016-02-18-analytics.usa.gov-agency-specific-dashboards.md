@@ -18,7 +18,7 @@ hero: false
 
 We’ve added agency-specific dashboards to [analytics.usa.gov](https://analytics.usa.gov/)!
 
-![The analytics dashboard for the Department of Commerce]({{site.baseurl}}/assets/blog/dap/analytics-commerce.jpg)
+{% image "assets/blog/dap/analytics-commerce.jpg" "The analytics dashboard for the Department of Commerce" %}
 
 Starting today, you’ll see a dropdown from the main [analytics.usa.gov](https://analytics.usa.gov/) page that allows you to view the same dashboard, but filtered for websites that are administered by one of 10 specific agencies:
 
@@ -38,7 +38,7 @@ What do these pages show me?
 
 These dashboard pages allow for greater insight into how the public interacts with specific agency websites as a complement to the aggregated view available at analytics.usa.gov. In many cases, the information we see as a government-wide percentage does not perfectly mirror an individual agency’s data. For example, at time of writing this post, the domestic vs. foreign traffic on the whole of participating Digital Analytics Program (DAP) sites is about 90% to 10%, respectively. But the Veteran’s Administration specifically has a 98% to 2% ratio, while NASA has a 67% to 33% domestic to foreign visits ratio.
 
-![Comparison of traffic broken down by country for NASA and the VA]({{site.baseurl}}/assets/blog/dap/traffic-by-country.jpg)
+{% image "assets/blog/dap/traffic-by-country.jpg" "Comparison of traffic broken down by country for NASA and the VA" %}
 
 The pages also allow you to see things like the most popular downloads at an agency-level. During tax season, the IRS contributes the majority of downloads in the “Top Downloads” section on analytics.usa.gov, which is logical since it is tax season. With agency dashboards, you can observe downloads at the agency level.
 

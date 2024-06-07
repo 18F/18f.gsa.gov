@@ -11,7 +11,7 @@ excerpt: |
 
 TTS is proud to present the 2023 Andrew Hyder Government Service Improvement Award to Lalitha Jonnalagadda. This is awarded annually to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 
-![Lalitha Jonnalagadda]({{ site.baseurl }}/assets/blog/andrew-hyder-2023/jonnalagadda.jpg)
+{% image "assets/blog/andrew-hyder-2023/jonnalagadda.jpg" "Lalitha Jonnalagadda" %}
 
 Lalitha is a product manager at 18F. In her tenure at TTS, she has had the opportunity to collaborate with amazing federal teams through visioning, strategizing, coaching, delivering and launching digital products, most notably the [Department of Justice's civil rights portal](https://civilrights.justice.gov/).  At 18F, Lalitha collaborated with and led teams in developing and coaching product management at FEMA, EPA, DOE, HHS' Office of Head Start and DOJ's OIP (for foia.gov).
 
@@ -25,6 +25,6 @@ Lalitha lives in Virginia with her husband and two boys. She is motivated to sol
 
 This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need. Examples of his contributions can be found in these blog posts: [A dashboard for privacy offices](https://18f.gsa.gov/2020/12/15/a-dashboard-for-privacy-offices/) and [Forms Resource for Federalist Users](https://18f.gsa.gov/2020/02/18/forms-resource-federalist/).
 
-![Andrew Hyder speaking at Code for America]({{ site.baseurl }}/assets/blog/andrew-hyder-2023/hyder.png)
+{% image "assets/blog/andrew-hyder-2023/hyder.png" "Andrew Hyder speaking at Code for America" %}
 
 "Feed the people" was Andrew's well-known refrain, though it went beyond just nutritional benefits and programs like [GetCalFresh](https://www.getcalfresh.org/en/about). He challenged colleagues and partners to think about the true benefits and costs of our work, always seeing the connections from our keyboards to the lived experiences of people across the country.

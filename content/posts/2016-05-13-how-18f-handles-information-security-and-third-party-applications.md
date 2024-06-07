@@ -34,7 +34,7 @@ assessment of GSA policies and operations.
 Here’s what happened
 --------------------
 
-[![An example screenshot of what a Google Drive preview looks like in Slack]({{site.baseurl}}/assets/blog/ig/slack-gdrive.jpg)](https://get.slack.help/hc/en-us/articles/205875058-Sharing-Google-Drive-files-in-Slack)
+[{% image "assets/blog/ig/slack-gdrive.jpg" "An example screenshot of what a Google Drive preview looks like in Slack" %}](https://get.slack.help/hc/en-us/articles/205875058-Sharing-Google-Drive-files-in-Slack)
 
 In October 2015, one of our Slack administrators enabled [a Slack
 option](https://get.slack.help/hc/en-us/articles/205875058-Sharing-Google-Drive-files-in-Slack)

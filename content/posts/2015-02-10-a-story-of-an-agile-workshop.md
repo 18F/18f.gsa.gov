@@ -83,7 +83,7 @@ been hastily brought in. Their bank of workstations was divided by a big
 projector — the “stage” upon which the demos would be shown. Other
 observers sat in the back of the room.
 
-![The room: developers on left, the demo area, and product owners on right.]({{site.baseurl}}/assets/blog/agile-workshop/workshop3.JPG)
+{% image "assets/blog/agile-workshop/workshop3.JPG" "The room: developers on left, the demo area, and product owners on right." %}
 
 ## The first sprint brought a quick win
 

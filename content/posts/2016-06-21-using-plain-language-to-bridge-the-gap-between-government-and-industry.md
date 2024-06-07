@@ -98,7 +98,7 @@ brainstorming sessions to write a [step by step
 guide](http://www.gsa.gov/portal/category/100406) to what people need
 to know when submitting an offer for an IT Schedule 70 contract.
 
-[![A screenshot from the IT Schedule 70 guide]({{site.baseurl}}/assets/blog/content/schedule-70.jpg)](http://www.gsa.gov/portal/category/100406)
+[{% image "assets/blog/content/schedule-70.jpg" "A screenshot from the IT Schedule 70 guide" %}](http://www.gsa.gov/portal/category/100406)
 
 This project might seem out of the norm for 18F. Maybe it doesn’t seem
 high-tech enough to fit in with the kind of work we do — it’s all words

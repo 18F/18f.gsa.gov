@@ -16,7 +16,7 @@ Last week, we published [this post](https://18f.gsa.gov/2015/03/24/making-twitte
 
 To increase the accessibility of the images we Tweet, [@18F](https://twitter.com/18f) has started replying to photo-centric Tweets with *a description of what’s in the photo*. Noting this, our followers offered additional suggestions about how we can increase the accessibility of our Tweets. We’d like to thank all of our followers who offered us suggestions, and encourage you to share suggestions, if you have them.
 
-![Tweet describing a tweet featuring an image]({{site.baseurl}}/assets/blog/accessibility/pictureintweet.png)
+{% image "assets/blog/accessibility/pictureintweet.png" "Tweet describing a tweet featuring an image" %}
 
 Accessibility is central to our work here at 18F. In a very broad sense, all of our work is driven by a desire to improve the accessibility of federal resources and knowledge. Consider, for example, some of the work 18F is undertaking. Collaborating with USCIS (United States Citizenship and Immigration Services) and others, our team is helping to redesign the USCIS user experience and the content for websites related to immigration and citizenship. In particular, this team is making sure that the recommended path through the sites, along with the sites’ content, is understandable to diverse audiences, thereby making the information more accessible to everyone.
 

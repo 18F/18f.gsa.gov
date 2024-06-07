@@ -20,7 +20,7 @@ team."
 image: /assets/blog/anniversary/speaking-locations-map-fy15-16.jpg
 ---
 
-![A map of where 18F staffers spoke about our work in 2015 and 2016.]({{site.baseurl}}/assets/blog/anniversary/speaking-locations-map-fy15-16.jpg)
+{% image "assets/blog/anniversary/speaking-locations-map-fy15-16.jpg" "A map of where 18F staffers spoke about our work in 2015 and 2016." %}
 *A map of where 18F staffers spoke about our work in 2015 and 2016. This
 map only records one dot per city, so multiple events only appear as a
 single dot.*

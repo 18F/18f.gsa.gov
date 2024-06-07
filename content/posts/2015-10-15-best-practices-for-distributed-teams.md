@@ -67,7 +67,7 @@ touch at least part of the day and won’t slow down ‘hot items,’ yet
 still allows people half the day to focus on actually moving the ball
 forward.”
 
-![A grid of 18F team members using video chat to attend a meeting.]({{site.baseurl}}/assets/blog/distributed-teams/18f-team-acano.jpg)
+{% image "assets/blog/distributed-teams/18f-team-acano.jpg" "A grid of 18F team members using video chat to attend a meeting." %}
 *Part of the 18F team at the weekly all-hands meeting.*
 
 We share our screens frequently.
@@ -202,6 +202,6 @@ their projects.
 If you have more questions on the tools we use and how we use them, just
 ask us at [18f@gsa.gov](mailto:18f@gsa.gov).
 
-![A grid of 18F team members using signs to wish their colleague a happy birthday.]({{site.baseurl}}/assets/blog/distributed-teams/acano-birthday.jpg)
+{% image "assets/blog/distributed-teams/acano-birthday.jpg" "A grid of 18F team members using signs to wish their colleague a happy birthday." %}
 *Our design team takes two minutes out of their weekly meeting to wish
 teammate Jeremy Canfield (bottom left) a happy birthday.*

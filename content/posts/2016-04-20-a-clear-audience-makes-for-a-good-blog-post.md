@@ -25,7 +25,7 @@ and exit as a closed issue in the “approved” milestone after they’ve
 been edited by a member of our blog team and sent through our approval
 process.
 
-![An example of an issue for a blog post.]({{site.baseurl}}/assets/blog/blogging-guide/blogging-metadata.jpg)
+{% image "assets/blog/blogging-guide/blogging-metadata.jpg" "An example of an issue for a blog post." %}
 *An example of an issue for a blog post.*
 
 Each issue has five metadata headings, including audience, that the

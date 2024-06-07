@@ -18,7 +18,7 @@ Nearly five years after its inception, we realized there haven’t been any blog
 
 In a nutshell, the Handbook is our take on internal government documentation. It is an open, crowd-sourced, accessible, and living resource that aims to provide the information our team needs to do their work.
 
-![Screen capture of scrolling through the Handbook homepage, then clicking into the “TTS mission, history, and values]({{ site.baseurl }}/assets/blog/image4.gif "Screen capture of scrolling through the Handbook homepage")
+{% image "assets/blog/image4.gif" "Screen capture of scrolling through the Handbook homepage, then clicking into the “TTS mission, history, and values" %}
 
 In this post, we’ll unpack the Handbook’s core values -- and how they’re implemented in practice. We’ll dive into our experience with the Handbook and even highlight some other organizations who’ve adopted it. Finally, we’ll touch on what’s in store for the project going forward. If you’re a federal employee, civic technologist, or member of the public, we hope to leave you with a sense of what 21st-century transparency in your government looks like.
 
@@ -48,7 +48,7 @@ The actual mechanism to make contributions was overly complicated. Some contribu
 
 **Solution:** To remedy the overly-technical contribution process, we are adding support for [NetlifyCMS](https://www.netlifycms.org/) ([via cloud.gov Pages](https://federalist.18f.gov/documentation/getting-started-with-netlify-cms/)): an open-source content management system that will give our contributors a friendly UI and Git-free publishing workflow.
 
-![Demoing the contribution workflow in NetlifyCMS]({{ site.baseurl }}/assets/blog/netlify-workflow.gif "NetlifyCMS")
+{% image "assets/blog/netlify-workflow.gif" "Demoing the contribution workflow in NetlifyCMS" %}
 
 ### Reviewer ambiguity
 
@@ -56,7 +56,7 @@ Tethered to unclear ownership is an issue that crops up in the review process: r
 
 **Solution:** To address the reviewer ambiguity, we made use of [GitHub’s “code owners” feature](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners). Our ownership assignments, from a content and code perspective, are maintained in a [CODEOWNERS file](https://github.com/18F/handbook/blob/main/CODEOWNERS). In this file, GitHub teams are assigned as “owners” of certain folders. Later, they are automatically added as reviewers to pull requests affecting their content.
 
-![By writing a CODOWNERS file, reviewers are automatically added to pull requests]({{ site.baseurl }}/assets/blog/code-owners-file.png "CODOWNERS file")
+{% image "assets/blog/code-owners-file.png" "By writing a CODOWNERS file, reviewers are automatically added to pull requests" %}
 
 ### Unclear governance
 

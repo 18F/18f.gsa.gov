@@ -41,7 +41,7 @@ government services, they’re often met with confusing navigation
 systems, a cacophony of visual brands, and inconsistent interaction
 patterns.
 
-![A collection of buttons from government websites with many different colors and styles.]({{site.baseurl}}/assets/blog/web-design-standards/buttons.png)
+{% image "assets/blog/web-design-standards/buttons.png" "A collection of buttons from government websites with many different colors and styles." %}
 *Each button, a special snowflake. A snapshot of a quick survey of buttons across government websites.*
 
 Dedicated federal workers are striving to build helpful digital tools
@@ -139,7 +139,7 @@ patterns were further tested with end users.
 We believe agencies should still usability test everything they build,
 but following the standards will help everyone avoid common pitfalls.
 
-![A sample of code from the Web Design Standards.]({{site.baseurl}}/assets/blog/web-design-standards/code.png)
+{% image "assets/blog/web-design-standards/code.png" "A sample of code from the Web Design Standards." %}
 *All of our standards include code samples.*
 
 ### Front-end
@@ -160,7 +160,7 @@ After speaking with dozens of front-end developers and designers in
 government, we sought to strike a balance between modular CSS and code
 that’s clean and easy-to-use.
 
-![A screenshot of the color section of the Design Standards.]({{site.baseurl}}/assets/blog/web-design-standards/colors.png)
+{% image "assets/blog/web-design-standards/colors.png" "A screenshot of the color section of the Design Standards." %}
 *The Design Standards include an extensive color palette.*
 
 ### Visual design

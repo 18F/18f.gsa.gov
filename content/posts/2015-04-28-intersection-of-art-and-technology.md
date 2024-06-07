@@ -27,7 +27,7 @@ At this point, you may be thinking, “Why is someone writing about Bjӧrk on th
 
 Our work at 18F is informed by both our users and the experiences they have with the websites and applications we work on. As designers and developers, we help merge the user experiences by using art and technology to [create useful, engaging, and delightful user-centered design](https://18f.gsa.gov/2014/09/25/design-studio-onrr/). Artists help people see and experience the world around them in new or different ways. Similarly, our roles are to help government, and the American public, see, experience, and build technology in a different way.
 
-![Screenshot of analytics.gsa.gov]({{site.baseurl}}/assets/blog/art-tech/dap-dashboard.png)
+{% image "assets/blog/art-tech/dap-dashboard.png" "Screenshot of analytics.gsa.gov" %}
 
 One way to help people process technology differently is by designing visualizations that allow people to quickly comprehend large amounts of data. Recently, [18F helped launch analytics.gsa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/) to display the web traffic from various federal government websites. The analytics site serves as a way for the public and government officials to easily see which federal government sites people visit the most. This viewpoint displays highly valuable and relevant information that aids in making impactful and long-term content decisions that affect the public. It also helps federal employees make targeted decisions on how to approach and then decide how to make user interactions more friendly on mobile.
 

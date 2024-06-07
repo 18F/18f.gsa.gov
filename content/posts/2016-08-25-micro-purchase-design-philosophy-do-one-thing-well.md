@@ -118,7 +118,7 @@ nil — for instance, a NullBid object with similar methods to the Bid
 model is returned when the auction’s winning bid is not available. Do
 you notice the trend?
 
-![Objects playing the role of Controller, Service, Validator, and Rule]({{ site.baseurl}}/assets/blog/micro-purchase/roles.png)
+{% image "assets/blog/micro-purchase/roles.png" "Objects playing the role of Controller, Service, Validator, and Rule" %}
 
 ### Population control
 
@@ -219,7 +219,7 @@ Service Objects (which contains all of the shared code); the controller
 just needs to convert the input and output as appropriate.
 
 
-![Both API and HTML controllers use PlaceBid Service]({{ site.baseurl }}/assets/blog/micro-purchase/service.png)
+{% image "assets/blog/micro-purchase/service.png" "Both API and HTML controllers use PlaceBid Service" %}
 
 ### Other applications
 

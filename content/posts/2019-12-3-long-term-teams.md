@@ -19,7 +19,7 @@ This particular grant is for a three-year period. How should you plan to allocat
 
 In government, it wouldn't be uncommon to spend most of the grant upfront, paying a vendor to write the software, and then hand it off to an IT team for Operations and Maintenance, or O&M, post-launch:
 
-![Chart showing the trajectory of a software project that launches, goes through a flat "Operations and Maintenance" plateau, and then sunsets]({{site.baseurl}}/assets/blog/long-term-teams/o-and-m.png)
+{% image "assets/blog/long-term-teams/o-and-m.png" "Chart showing the trajectory of a software project that launches, goes through a flat "Operations and Maintenance" plateau, and then sunsets" %}
 
 Although this is a common approach, it is a very risky one, because:
 
@@ -38,7 +38,7 @@ All of this learning should be documented along the way, in the form of user res
 
 That said, if the ***entire*** team is disbanded in an abrupt handoff, a tremendous amount of knowledge is lost. All the context about decisions, user needs, stakeholders, and technical choices must be rebuilt from scratch. Anyone who has ever tried to pick up a job just from reading the notes of a predecessor knows how difficult this is and how much time it can waste!
 
-![Chart showing learning increasing over time, but then dropping sharply when an abrupt handoff happens]({{site.baseurl}}/assets/blog/long-term-teams/abrupt-handoff.png)
+{% image "assets/blog/long-term-teams/abrupt-handoff.png" "Chart showing learning increasing over time, but then dropping sharply when an abrupt handoff happens" %}
 
 In knowledge work, this is a major loss. While team composition will naturally change over time, steady change is better than abrupt handoff to preserve team learning and context.
 
@@ -54,7 +54,7 @@ Instead of dividing your grant funding into "build" and "operation & maintenance
 
 3. ***Ongoing Development ➡️ Sunset***: Nothing lasts forever, especially on the web. The last phase of a project is concerned with how to responsibly and thoughtfully shut it down and help users move to a better solution.
 
-![Chart of the three legs of the software creation process]({{site.baseurl}}/assets/blog/long-term-teams/happy-path.png)
+{% image "assets/blog/long-term-teams/happy-path.png" "Chart of the three legs of the software creation process" %}
 
 Consider security. Security is a vital area of work at every stage. It can't ever be finished, since the external landscape changes all the time. A long-running engineering team has the benefit of understanding the product itself and a responsibility to keep it secure. In this scenario, teams can discover opportunities to improve the security, rather than spending all their time reactively. (See "[DevOps and Security on a Small Team](https://medium.com/nyc-planning-digital/devops-and-security-on-a-small-team-8709cfc5b0aa)" by TTS's own Aidan Feldman for a wonderful municipal example.)
 
@@ -74,7 +74,7 @@ The Open Forest effort explored potential partnerships with other internal gover
 
 What advice does Aaron have for other agencies embarking on a similar agile journey? "Choose a low-risk option to build your pilot. We didn't choose a complex permitting process to start. Starting small mitigates risk as you develop new services, and allows you to identify capability and skill gaps."
 
-![GitHub commit graph showing ongoing techical development work]({{site.baseurl}}/assets/blog/long-term-teams/github-graph.png)
+{% image "assets/blog/long-term-teams/github-graph.png" "GitHub commit graph showing ongoing techical development work" %}
 
 This screenshot of development work from the Open Forest GitHub repository shows sustained development over time. The Open Forest site launched in February — so the graph hints at ongoing improvement, iteration, and feature-building post launch!
 

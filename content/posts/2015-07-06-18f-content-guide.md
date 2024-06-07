@@ -17,7 +17,7 @@ image: /assets/blog/content-style-guide/style-guide-screen.jpg
 hero: false
 ---
 
-[![Screenshot of the 18F Content Guide]({{site.baseurl}}/assets/blog/content-style-guide/style-guide-screen.jpg)](https://pages.18f.gov/content-guide/)
+[{% image "assets/blog/content-style-guide/style-guide-screen.jpg" "Screenshot of the 18F Content Guide" %}](https://pages.18f.gov/content-guide/)
 
 18F recently introduced its [series of guides](https://18f.gsa.gov/2015/05/28/18F-guides/), a collection of best practices for our internal project teams. As Mike Bland writes in his post describing the guides, “Though these guides currently carry the 18F brand, the intention is to spread the use and cultivation of the material throughout the broader [U.S. Digital Service](https://wh.gov/usds/) effort.”
 

@@ -17,7 +17,7 @@ Back in San Francisco, Krista pitched the idea to Chief Innovation Officer Jay N
 
 The General Services Administration (GSA) is partnering with the San Francisco Mayor’s [Office of Civic Innovation](http://innovatesf.com/) and the [City Innovate Foundation](http://cityinnovate.org/) to launch a new collaborative government workspace in the heart of San Francisco. The first-of-its-kind innovation lab, called [Superpublic](http://cityinnovate.org/superpublic/), will bring members of federal, state, and local governments together to collaborate with academia and private industry to foster innovative solutions to common city problems. The 5,000 sq. ft. lab will be located on the top floor of 50 U.N. Plaza and will host design workshops, prototype development, training sessions, and daily coworking.
 
-![An aerial picture of 50 U.N. Plaza]({{site.baseurl}}/assets/blog/superpublic/50-un-plaza.jpg) *50 U.N. Plaza, which will house Superpublic.*
+{% image "assets/blog/superpublic/50-un-plaza.jpg" "An aerial picture of 50 U.N. Plaza" %} *50 U.N. Plaza, which will house Superpublic.*
 
 “Superpublic presents a unique opportunity to solve common problems that persist at all levels of government and demonstrate a model for collaboration that can be replicated in other cities across the United States,” said Denise Turner Roth, GSA Administrator. “This is a great example of how the General Services Administration is finding new and innovative ways to improve the way we work. Both as a catalyst for community economic development, and as a provider of modern IT services.”
 

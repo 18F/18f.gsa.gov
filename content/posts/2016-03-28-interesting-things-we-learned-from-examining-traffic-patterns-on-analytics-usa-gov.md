@@ -11,7 +11,7 @@ description: "Ten federal agencies now have public dashboards and datasets for t
 image: /assets/blog/dap/epa-analytics.jpg
 ---
 
-[![A screenshot of the Environmental Protection Agency's dashboard on analytics.usa.gov]({{site.baseurl}}/assets/blog/dap/epa-analytics.jpg)](https://analytics.usa.gov/environmental-protection-agency/)
+[{% image "assets/blog/dap/epa-analytics.jpg" "A screenshot of the Environmental Protection Agency's dashboard on analytics.usa.gov" %}](https://analytics.usa.gov/environmental-protection-agency/)
 
 Ten federal agencies [now have public dashboards and datasets](https://18f.gsa.gov/2016/02/18/analytics.usa.gov-agency-specific-dashboards/) for their web traffic on analytics.usa.gov. The dashboards show insights into how the public interacts with specific agency websites.
 

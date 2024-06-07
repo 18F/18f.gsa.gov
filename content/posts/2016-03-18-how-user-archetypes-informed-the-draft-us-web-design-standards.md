@@ -23,7 +23,7 @@ For the first phase of our research, we decided to focus on this group and give 
 
 Jumping off from an idea suggested by Julia Elman (the project lead on the 18F side), Colin MacArthur and I created a series of user archetypes inspired by [this article on the TED blog](http://hello.ted.com/2013/10/08/whats-your-ted-habit/). User archetypes presented a way of concisely describing the behaviors and needs of the people who would be using the standards. We based our initial archetypes on preliminary discussions and user interviews, recognizing that they’d evolve during the course of the project and as we got more research under our belts. With that in mind, we kept the descriptions loose and the images sketchy to indicate the “work in progress” status that we intended. Following some quick interviews and brainstorming sessions, we came up with the following archetypes.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/vision-provider.jpg" alt="Stick figure zapping two Pantone chips." width="400px">
+{% image_with_class "assets/blog/web-design-standards/vision-provider.jpg" "width-400px" "Stick figure zapping two Pantone chips." %}
 
 ### The Vision Provider
 
@@ -39,7 +39,7 @@ They want a cohesive resource they can point their team and contractors to so th
 
 They may face challenges convincing less experienced folks on their team on why the Draft Standards are important, or they may themselves not want to override the brand identity for their agency that has already been developed. They wonder how much they can customize the Draft Standards before they defeat the purpose of a unified user experience.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/newbie.jpg" alt="Stick figure of a person with an I heart gov shirt and a coffee cup." width="400px">
+{% image_with_class "assets/blog/web-design-standards/newbie.jpg" "width-400px" "Stick figure of a person with an I heart gov shirt and a coffee cup." %}
 
 ### The Newbie
 
@@ -53,7 +53,7 @@ They’re excited to prove their mettle, but they may not be experienced enough 
 
 They don’t fully understand the need for design standards. They may resist using design standards because they don’t want their creativity to be stifled.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/lone-ranger.jpg" alt="Stick figure of a cowboy." width="200px">
+{% image_with_class "assets/blog/web-design-standards/lone-ranger.jpg" "width-200px" "Stick figure of a cowboy." %}
 
 ### The Lone Ranger
 
@@ -69,7 +69,7 @@ They will use the Draft Standards to cut down on design and development time, an
 
 The Lone Ranger wants to be able to get started with the Draft Standards quickly and not have to fuss with a lot of compatibility issues. They worry about tying their projects to a resource without knowing whether or not it will be maintained.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/master-builder.jpg" alt="Stick figure wearing a hard hat." width="200px">
+{% image_with_class "assets/blog/web-design-standards/master-builder.jpg" "width-200px" "Stick figure wearing a hard hat." %}
 
 ### The Master Builder
 
@@ -83,7 +83,7 @@ They see their code as their personal craft and value clean, semantic markup tha
 
 The Master Builder doesn’t want to have to do mindless “grunt work” such as styling tables or making form fields accessible, and would rather focus their attention on more creative problem solving.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/reviewer.jpg" alt="Stick figure looking at a website with a magnifying glass." width="400px">
+{% image_with_class "assets/blog/web-design-standards/reviewer.jpg" "width-400px" "Stick figure looking at a website with a magnifying glass." %}
 
 ### The Reviewer
 
@@ -95,7 +95,7 @@ The Reviewer is charged with inspecting other teammates’ code or designs and m
 
 The reviewer wants to point to the Draft Standards to help these folks implement good front end code, reducing the amount of emergency clean-up they have to deal with. They may refer to the Draft Standards documentation when reviewing code.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/decider.jpg" alt="Stick figure holding onto a yes/no switch." width="400px">
+{% image_with_class "assets/blog/web-design-standards/decider.jpg" "width-400px" "Stick figure holding onto a yes/no switch." %}
 
 ### The Decider
 
@@ -107,7 +107,7 @@ The decider chooses whether or not to use the Draft Standards on a project. They
 
 They will ask questions about how the Draft Standards will be maintained and how they will integrate with existing technology stacks and work-flows.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/macgyver.jpg" alt="A monitor duct taped together." width="400px">
+{% image_with_class "assets/blog/web-design-standards/macgyver.jpg" "width-400px" "A monitor duct taped together." %}
 
 ### The MacGyver
 
@@ -119,7 +119,7 @@ The MacGyver is a back end developer who has been charged with front end design 
 
 They would like a resource with downloadable templates and components so they stand up sites quickly can get back to what they love — arguing data schematics.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/pinch-hitter.jpg" alt="Stick figure with a baseball bat." width="200px">
+{% image_with_class "assets/blog/web-design-standards/pinch-hitter.jpg" "width-200px" "Stick figure with a baseball bat." %}
 
 ### The Pinch Hitter
 
@@ -133,7 +133,7 @@ They rely on the pattern library components to work out of the box, and they nee
 
 They are concerned about conflicts with existing frameworks because these are difficult to resolve with their limited development experience.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/influencer.jpg" alt="Stick figure posing next to a monitor that says new and shiny." width="400px">
+{% image_with_class "assets/blog/web-design-standards/influencer.jpg" "width-400px" "Stick figure posing next to a monitor that says new and shiny." %}
 
 ### The Influencer
 
@@ -141,7 +141,7 @@ They are concerned about conflicts with existing frameworks because these are di
 
 The Influencer likes the idea of creating a consistent user experience across government websites and wants to empower government employees to work toward this goal. They play a key role in advocating for adoption of the standards, and they want the site itself to offer language and resources to help them out.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/contract-manager.jpg" alt="Blind-folded stick finger pointing at three numbered doors." width="400px">
+{% image_with_class "assets/blog/web-design-standards/contract-manager.jpg" "width-400px" "Blind-folded stick finger pointing at three numbered doors." %}
 
 ### The Contract Manager
 
@@ -153,7 +153,7 @@ The Contract Manager is in charge of managing work for — you guessed it — go
 
 They want their projects to benefit from quality design and front end development work, but do not necessarily know what it looks like or how to enforce it. They want to be able to specify that contractors follow web design standards with specific legalese.
 
-<img src="{{site.baseurl}}/assets/blog/web-design-standards/clock-racer.jpg" alt="Stick figure coding with clocks in the background." width="400px">
+{% image_with_class "assets/blog/web-design-standards/clock-racer.jpg" "width-400px" "Stick figure coding with clocks in the background." %}
 
 ### The Clock Racer
 

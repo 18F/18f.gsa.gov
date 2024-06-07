@@ -20,7 +20,7 @@ hero: false
 
 [About a year ago](https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/) we converted this site to run fully on Jekyll and migrated our blog from Tumblr. When we did that we gained some freedom and the ability to edit our content on GitHub. We’ve received quite a few pull requests from readers to fix typos and optimize images. As our blog got more complicated, we started making mistakes that were hard to catch before publishing. So we came up with a way to catch many of those errors, before they end up in your browser.
 
-![A screenshot of an image error]({{site.baseurl}}/assets/blog/18f-site/site-with-tests.png)
+{% image "assets/blog/18f-site/site-with-tests.png" "A screenshot of an image error" %}
 *Basic content problems are a pain. This is why we run automated tests on 18f.gsa.gov.*
 
 One advantage of hosting our site’s code on GitHub is we can integrate with continuous integration (CI) services to check our work before we publish. Many open source projects use a CI to run various tests on their code. We use it to run tests on our content. We use Travis CI but there are many others out there. Until recently, the only test we ran was building the site to know if it was successful.

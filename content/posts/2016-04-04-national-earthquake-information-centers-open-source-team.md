@@ -10,7 +10,7 @@ description: The National Earthquake Information Center’s web team is committe
 excerpt: I visited the Earthquakes team at their office on the Colorado School of Mines campus in Golden, CO, to learn about this open source team’s role in public service.
 ---
 
-![A mountain and some buildings as seen from National Earthquake Information Center’s office on the Colorado School of Mines campus in Golden, CO.]({{site.baseurl}}/assets/blog/earthquake-center/earthquakecenter.jpg)
+{% image "assets/blog/earthquake-center/earthquakecenter.jpg" "A mountain and some buildings as seen from National Earthquake Information Center’s office on the Colorado School of Mines campus in Golden, CO." %}
 *The view from the National Earthquake Information Center’s office on the Colorado School of Mines campus in Golden, CO.*
 
 On January 28, 2016 people living at the Jersey Shore felt a shake. New

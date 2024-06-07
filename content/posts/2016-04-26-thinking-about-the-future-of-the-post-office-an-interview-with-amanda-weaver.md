@@ -26,7 +26,7 @@ I’m going to list some of our current projects and things we’re thinking abo
 
 First, we’re trying to [understand their revealed preferences](https://www.uspsoig.gov/sites/default/files/document-library-files/2015/rarc-wp-15-012.pdf) using the latest scientific techniques from neuroscience. Second, we’re focused on innovations within the mail itself. How can we use the latest technology to make the physical mail piece more digitally interactive and thus more appealing to the digital natives?
 
-[![A map of potential pieces of the internet of postal things]({{site.baseurl}}/assets/blog/partners-in-government/internet-of-postal-things.jpg)](https://www.uspsoig.gov/document/internet-postal-things)
+[{% image "assets/blog/partners-in-government/internet-of-postal-things.jpg" "A map of potential pieces of the internet of postal things" %}](https://www.uspsoig.gov/document/internet-postal-things)
 *A page from the [report on the Internet of Postal Things](https://www.uspsoig.gov/document/internet-postal-things)*
 
 **The Internet of Postal Things.** We’re imagining [how the rich infrastructure of the Postal Service could be used](https://www.uspsoig.gov/document/internet-postal-things) if it were outfitted with sensors and interconnected with each other as well as the internet. This would create useful information to make the postal system smarter, and allow it to collect really useful information to the localities as a byproduct — think about sensors that could measure road conditions, the strength of mobile signals, or monitor air quality. We are currently expanding on this concept in another paper to explain how the Internet of Postal Things could aid in the efforts of “Smart Cities.”
@@ -95,7 +95,7 @@ These opportunities would compare with those of certain foreign postal organizat
 
 Here’s a photo of one of our whiteboards, where we track complaints of the RARCers who bike to work everyday.
 
-![A whiteboard with stick figures for every day o fthe week and a chart about the benefits of biking to work.]({{site.baseurl}}/assets/blog/partners-in-government/rarc.jpg)
+{% image "assets/blog/partners-in-government/rarc.jpg" "A whiteboard with stick figures for every day o fthe week and a chart about the benefits of biking to work." %}
 
 Check out these links ([1](https://www.instagram.com/rootchopper/), [2](https://www.flickr.com/photos/rootchopper/sets/72157662509216092), [3](https://rootchopper.wordpress.com/2015/12/11/the-office-bike-commuting-matrix/)) to see where others have been posted by another RARCer, John Pickett:
 

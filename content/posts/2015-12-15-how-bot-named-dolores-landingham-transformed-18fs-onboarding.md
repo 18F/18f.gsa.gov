@@ -47,7 +47,7 @@ Naming is a fun and important step for any project. 18F already had a Slackbot n
 
 Then, Greg Boone suggested “Landingham”, which was immediately greeted with a heart-eyes emoji reaction. There are many [West Wing](https://en.wikipedia.org/wiki/The_West_Wing) fans at 18F, and something felt right about bringing back the beloved character Dolores Landingham, who served as fictional President Bartlett’s wise and sometimes ornery secretary, to guide new employees through the turbulent waters of onboarding.
 
-![Screenshot of Dolores Landingham being named.]({{site.baseurl}}/assets/blog/onboarding/landingham-slack.jpg)
+{% image "assets/blog/onboarding/landingham-slack.jpg" "Screenshot of Dolores Landingham being named." %}
 
 Voila! `Mrs. Landingham` was born.
 

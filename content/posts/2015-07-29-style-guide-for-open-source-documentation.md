@@ -17,7 +17,7 @@ hero: false
 
 We routinely publish our best practices in the [18F Guides](https://pages.18f.gov/guides/), and today we’re happy to launch a new one: the [18F Open Source Style Guide](https://pages.18f.gov/open-source-guide/).
 
-![Screenshot of Open Source Guide]({{site.baseurl}}/assets/blog/open-source-guide/screenshot-of-guide.png)
+{% image "assets/blog/open-source-guide/screenshot-of-guide.png" "Screenshot of Open Source Guide" %}
 
 The Open Source Style Guide is a comprehensive handbook for writing clear, accessible, and user-friendly documentation so that your open source code repositories are accessible both internally and externally.
 

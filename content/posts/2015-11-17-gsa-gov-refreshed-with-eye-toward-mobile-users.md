@@ -14,7 +14,7 @@ image: /assets/blog/gsa-homepage/gsa-homepage.jpg
 hero: false
 ---
 
-![A screenshot of the new gsa.gov homepage]({{site.baseurl}}/assets/blog/gsa-homepage/gsa-homepage.jpg)
+{% image "assets/blog/gsa-homepage/gsa-homepage.jpg" "A screenshot of the new gsa.gov homepage" %}
 
 *Originally posted on [GSA's blog](http://gsablogs.gsa.gov/gsablog/2015/11/17/gsa-gov-refreshed-with-eye-toward-mobile-users/).*
 

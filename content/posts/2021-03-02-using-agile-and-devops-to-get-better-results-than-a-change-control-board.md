@@ -63,7 +63,7 @@ To achieve these goals, we needed to understand the needs of various users and b
 
 Below is an example roadmap from the project that shows how we broke up the problem into smaller pieces and prioritized. While this roadmap describes the features to be developed, an underlying backlog incorporated security, compliance and accessibility tasks to contextualize feature development.
 
-![Table labeled Thin Slice "first step" Features. It has three rows first, next and later. Each row has proposed functionality like "submit a complaint" and the functionality is color coded to show internal vs. external features]({{ site.baseurl }}/assets/blog/image2.png "Thin Slice \"First Step\" Features")
+{% image "assets/blog/image2.png" "Table labeled Thin Slice &ldquo;first step&rdquo; Features. It has three rows first, next and later. Each row has proposed functionality like &ldquo;submit a complaint&rdquo; and the functionality is color coded to show internal vs. external features" %}
 
 Roadmaps are a great starting point but it is important to remember that they  are not a list of requirements—the point of agile development is to make changes as you learn more about your users, problem space, and the other realities of your project. The relative importance of any particular feature may not be what you thought  after you implement some and learn more about your needs. 
 
@@ -131,11 +131,11 @@ The DOJ-18F team currently has automated tests for:
 * Ensuring code is written and formatted to an industry standard
 * Accessibility
 
-![Slide showing launch prep testing guidance]({{ site.baseurl }}/assets/blog/image3.png "Launch Test Prep Guide")
+{% image "assets/blog/image3.png" "Slide showing launch prep testing guidance" %}
 
 Automated testing doesn't replace the need for people with context who approve new work, but it does reduce the risk of introducing errors or vulnerabilities. It can make sure certain bugs are not reintroduced, catch common security vulnerabilities, and accessibility errors.
 
-![Slide showing a launch prep automated testing and deployment pipeline, including: 1. PR Review, 2. Release QA, and 3. Production release]({{ site.baseurl }}/assets/blog/image1.png "Automated testing and deployment pipeline")
+{% image "assets/blog/image1.png" "Slide showing a launch prep automated testing and deployment pipeline, including: 1. PR Review, 2. Release QA, and 3. Production release" %}
 
 ### Step one, PR review:
 

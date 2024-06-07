@@ -18,7 +18,7 @@ excerpt: >
 
 _This is the second in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Jerome Lee and the eAPD Project](https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/)._
 
-![USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge.]({{ site.baseurl }}/assets/blog/usgs-wma-checkin/20210722_150403.jpg)
+{% image "assets/blog/usgs-wma-checkin/20210722_150403.jpg" "USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge." %}
 USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low)
 {: .font-alt-xs }
 

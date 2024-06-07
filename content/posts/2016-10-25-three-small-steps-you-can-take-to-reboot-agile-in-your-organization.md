@@ -76,7 +76,7 @@ simple tool whereby tasks are organized, grouped, and tracked across a
 segment of time, or sprints. As these tasks moved forward, we could use
 the dedicated cards to monitor progress:
 
-![A Trello card from the NTIS team.]({{site.baseurl}}/assets/blog/agile-workshop/3-steps-trello-card.jpg)
+{% image "assets/blog/agile-workshop/3-steps-trello-card.jpg" "A Trello card from the NTIS team." %}
 
 ## Step three: Monitor your progress
 
@@ -103,7 +103,7 @@ always be there, but they can be mitigated if they make things easier,
 and gradually introducing agile processes can encourage broader
 adoption.
 
-![Comments on the team's Trello board.]({{site.baseurl}}/assets/blog/agile-workshop/3-steps-trello-comments.jpg)
+{% image "assets/blog/agile-workshop/3-steps-trello-comments.jpg" "Comments on the team's Trello board." %}
 ## What we learned
 
 **Agile doesn’t have to be a “rip and replace” process**. Perhaps one of

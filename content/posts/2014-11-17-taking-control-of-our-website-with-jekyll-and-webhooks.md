@@ -15,7 +15,7 @@ tags:
   - jekyll
 
 ---
-[![Our website running with Jekyll]({{site.baseurl}}/assets/blog/new-jekyll-site/header.png)](https://github.com/18F/18f.gsa.gov/pull/235)
+[{% image "assets/blog/new-jekyll-site/header.png" "Our website running with Jekyll" %}](https://github.com/18F/18f.gsa.gov/pull/235)
 
 A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
 
@@ -128,7 +128,7 @@ We made this work using **[GitHub's webhooks](https://github.com/blog/1778-webho
 
 We created two webhooks for [our website's main repository](https://github.com/18f/18f.gsa.gov), pointed at our staging and live URLs:
 
-![18F site webhooks]({{site.baseurl}}/assets/blog/new-jekyll-site/webhooks.png)
+{% image "assets/blog/new-jekyll-site/webhooks.png" "18F site webhooks" %}
 
 Each is configured to notify the webhook when changes are made to the files in the repository, either directly or through a pull request.
 
