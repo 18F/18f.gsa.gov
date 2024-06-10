@@ -1,20 +1,24 @@
-- platform: "GitHub"
-  link: "https://github.com/18F"
+-
+  platform: GitHub
+  link: https://github.com/18F
   image:
-    light: "/assets/img/social-icons/svg/github-lightest.svg"
-    dark: "/assets/img/social-icons/svg/github-darkest.svg"
-- platform: "Twitter"
-  link: "https://twitter.com/18F" 
+    light: /assets/img/social-icons/svg/github-lightest.svg
+    dark: /assets/img/social-icons/svg/github-darkest.svg
+-
+  platform: Twitter
+  link: https://twitter.com/18F
   image:
-    light: "/assets/img/social-icons/svg/twitter-lightest.svg"
-    dark: "/assets/img/social-icons/svg/twitter-darkest.svg"
-- platform: "LinkedIn"
-  link: "https://www.linkedin.com/company/gsa18f" 
+    light: /assets/img/social-icons/svg/twitter-lightest.svg
+    dark: /assets/img/social-icons/svg/twitter-darkest.svg
+-
+  platform: LinkedIn
+  link: https://www.linkedin.com/company/gsa18f
   image:
-    light: "/assets/img/social-icons/svg/linkedin-lightest.svg"
-    dark: "/assets/img/social-icons/svg/linkedin-darkest.svg"
-- platform: "RSS feed"
-  link: "/feed.xml" 
+    light: /assets/img/social-icons/svg/linkedin-lightest.svg
+    dark: /assets/img/social-icons/svg/linkedin-darkest.svg
+-
+  platform: RSS feed
+  link: /feed.xml
   image:
-    light: "/assets/img/social-icons/svg/rss-lightest.svg"
-    dark: "/assets/img/social-icons/svg/rss25.svg"
+    light: /assets/img/social-icons/svg/rss-lightest.svg
+    dark: /assets/img/social-icons/svg/rss25.svg
