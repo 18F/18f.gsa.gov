@@ -92,7 +92,6 @@ const teamLink = (slug) => {
 // TODO These all need implementation, they're just placeholders so the site builds at all
 // TODO remove the eslint-disable directive after implementation
 /* eslint-disable */
-const findCollection = (site, collection) => []
 const weightedSort = (array, weight_name, sort_name) => array
 const inGroups = (array, groups) => array
 const oembed = (url) => `TODO EMBED ${url}`
@@ -112,7 +111,6 @@ module.exports = {
   embed,
   teamPhoto,
   teamLink,
-  findCollection,
   markdownify,
   weightedSort,
   inGroups,
