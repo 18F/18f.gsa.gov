@@ -13,34 +13,32 @@ hide_footer_rule: true
       </div>
     </div>
     <div class="grid-row grid-gap margin-top-5">
-      {% for guide in site.data.guides %}
-        {% if guide.promoted %}
-          <div class="tablet:grid-col-6 margin-bottom-5">
-            {% include "card-with-image-guides.html"
-              text_content: guide.name
-              text_descrip: guide.description
-              link_url: guide.link
-              image_path: guide.image.dark
-              image_side: "right"
-              hero_url: guide.image.hero
-            %}
-          </div>
-        {% endif %}
+      {% assign featured_guides = guides | where: "promoted", true %}
+      {% assign standard_guides = guides | where: "promoted", false %}
+      {% for guide in featured_guides limit: 2 %}
+        <div class="tablet:grid-col-6 margin-bottom-5">
+          {% include "card-with-image-guides.html"
+            text_content: guide.name
+            text_descrip: guide.description
+            link_url: guide.link
+            image_path: guide.image.dark
+            image_side: "right"
+            hero_url: guide.image.hero
+          %}
+        </div>
       {% endfor %}
     </div>
     <div class="grid-row grid-gap margin-top-2 display-flex flex-row">
-      {% for guide in site.data.guides %}
-        {% unless guide.promoted %}
-          <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
-            {% include "card-with-image-guides.html"
-              text_content: guide.name
-              text_descrip: guide.description
-              link_url: guide.link
-              image_path: guide.image.dark
-              image_side: "right"
-            %}
-          </div>
-        {% endunless %}
+      {% for guide in standard_guides %}
+        <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
+          {% include "card-with-image-guides.html"
+            text_content: guide.name
+            text_descrip: guide.description
+            link_url: guide.link
+            image_path: guide.image.dark
+            image_side: "right"
+          %}
+        </div>
       {% endfor %}
     </div>
     <div class="grid-row">
