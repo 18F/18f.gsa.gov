@@ -18,7 +18,6 @@ const { readableDate
       , embed
       , teamPhoto
       , teamLink
-      , findCollection
       , markdownify
       , weightedSort
       , inGroups
@@ -102,7 +101,6 @@ module.exports = function (config) {
   config.addFilter('team_photo', teamPhoto);
   // Add a link to an 18F team member's author page
   config.addFilter('team_link', teamLink);
-  config.addFilter('find_collection', findCollection);
   config.addFilter('weighted_sort', weightedSort);
   config.addFilter('in_groups', inGroups);
   config.addShortcode('oembed', oembed);
