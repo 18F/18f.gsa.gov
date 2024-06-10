@@ -45,6 +45,9 @@ async function createAssetPaths() {
           file.indexOf(publicDir) + publicDir.length,
         );
         const hashedAt = name.lastIndexOf('-');
+        if (hashedAt === -1) {
+          throw new Error(`hashedAt is -1, which is an error likely caused by a stray file (${file}) being pulled into the assets build path`)
+        }
         const originalName = name.slice(0, hashedAt);
         const key = `${originalName}${ext}`;
         return {
