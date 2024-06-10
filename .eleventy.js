@@ -20,7 +20,6 @@ const { readableDate
       , teamLink
       , markdownify
       , weightedSort
-      , inGroups
       , oembed
       , asRelativeUrl
       , matchPosts } = require('./config/filters');
@@ -103,7 +102,6 @@ module.exports = function (config) {
   // Add a link to an 18F team member's author page
   config.addFilter('team_link', teamLink);
   config.addFilter('weighted_sort', weightedSort);
-  config.addFilter('in_groups', inGroups);
   config.addShortcode('oembed', oembed);
   config.addFilter('relative_url', asRelativeUrl);
   config.addFilter('match_posts', matchPosts);
