@@ -39,9 +39,10 @@ lead: Delivering civic technology
       Browse by topic
       </h2>
       <ul class="usa-sidenav margin-bottom-6">
-        {% for item in featured_blog_content.topics %}
+        {% for slug in featured.blog.tags %}
+          {% assign tag = collections.tags | where: "fileSlug", slug | first %}
           <li class="usa-sidenav__item">
-            <a href="/tags/{{ item.tag }}">{{ item.topic }}</a>
+            <a href="{{ tag.url }}">{{ tag.data.name | capitalize }}</a>
           </li>
         {% endfor %}
       </ul>

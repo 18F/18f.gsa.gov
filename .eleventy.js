@@ -24,6 +24,7 @@ const { readableDate
       , oembed
       , asRelativeUrl
       , matchPosts } = require('./config/filters');
+const { postsCollection, servicesCollection, tagsCollection } = require('./config/collections');
 const { headingLinks } = require('./config/headingLinks');
 const { contrastRatio, humanReadableContrastRatio } = require('./config/wcagColorContrast');
 const privateLinks = require ('./config/privateLinksList');
@@ -141,18 +142,9 @@ module.exports = function (config) {
   // TODO: Not sure this is returning exactly the right string, re: datetimes
   config.addFilter('date_to_xmlschema', (date) => dateObject(date).toISOString());
 
-  // Create an array of all tags
-  config.addCollection('tagList', (collection) => {
-    const tagSet = new Set();
-    collection.getAll().forEach((item) => {
-      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
-    });
-
-    return filterTagList([...tagSet]);
-  });
-
-  config.addCollection('posts', (collection) => collection.getFilteredByGlob('content/posts/*.md'));
-  config.addCollection('services', (collection) => collection.getFilteredByGlob('content/pages/projects/services/*.md'));
+  config.addCollection('posts', postsCollection);
+  config.addCollection('services', servicesCollection);
+  config.addCollection('tags', tagsCollection);
 
   // Customize Markdown library and settings
   const markdownLibrary = markdownIt({
