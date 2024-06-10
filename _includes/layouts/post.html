@@ -29,7 +29,7 @@ Some of the `page.` references will need to be deleted — but I'm not yet sure 
     <div class="grid-row grid-gap margin-top-8">
       <div class="tablet:grid-col-7">
         <div class="post-content" itemprop="articleBody">
-          {% if page.image and page.image_feature_small == true %}
+          {% if page.image and page.image_feature_small %}
             <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
           {% endif %}
 

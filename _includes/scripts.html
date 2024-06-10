@@ -21,7 +21,7 @@
 {% endif %}
 
 {% if site.searchgov %}
-  {% if site.searchgov.suggestions == true %}
+  {% if site.searchgov.suggestions %}
     <script>
           var usasearch_config = { siteHandle: "{{ site.searchgov.affiliate }}" };
     </script>

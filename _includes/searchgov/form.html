@@ -3,14 +3,14 @@
 {% endcomment %}
 
 {% if searchgov %}
-  {% if searchgov.inline == true %}
+  {% if searchgov.inline %}
     <form id="search_form" class="usa-search usa-search--small" action="{{ '/search/' | url }}" accept-charset="UTF-8" method="get">
   {% else %}
-    <form id="search_form" class="usa-search usa-search--small" action="{{searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
+    <form id="search_form" class="usa-search usa-search--small" action="{{ searchgov.endpoint }}/search" accept-charset="UTF-8" method="get">
   {% endif %}
 
     <input name="utf8" type="hidden" value="&#x2713;" />
-    <input name="affiliate" type="hidden" value="{{searchgov.affiliate}}" />
+    <input name="affiliate" type="hidden" value="{{ searchgov.affiliate }}" />
 
     <div role="search">
       <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
