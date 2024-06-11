@@ -6,6 +6,7 @@ Some of the `page.` references will need to be deleted — but I'm not yet sure 
 {% endcomment %}
 
 {% if page.image %}
+  {% comment %}This include will probably need to pass in data explicitly.{% endcomment %}
   {% include "feature-image.html" %}
 {% endif %}
 

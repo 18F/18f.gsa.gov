@@ -1,16 +1,32 @@
 {% comment %}
 This partial outputs a card with image and text. The whole card is a clickable link.
 
-The expected arguments for this partial are:
-link_url - the url the card will link to (href)
-image_path - the path to the image, note that the partial will prepend the site baseurl
-text_content - the text to be displayed next to the image
+Required arguments
+------------------
+link_url
+the url the card will link to (href)
 
-Optional arguments:
-card_color - if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
-image_alt_text - will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
-image_side - if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
-image_size - if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+image_path
+the path to the image, note that the partial will prepend the site baseurl
+
+text_content
+the text to be displayed next to the image
+
+
+Optional arguments
+------------------
+card_color
+if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
+
+image_alt_text
+will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+
+image_side
+if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
+
+image_size
+if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+
 {% endcomment %}
 
 <a href="{{ link_url }}"

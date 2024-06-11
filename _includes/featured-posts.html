@@ -1,6 +1,6 @@
-{% assign featured_posts = include.related_posts %}
+{% assign featured_posts = related_posts %}
 {% if featured_posts.size > 0 %}
-{% if include.color_mode == "dark"%}
+{% if color_mode == "dark"%}
   {% assign border_color = "border-primary-lightest" %}
   {% assign text_color = "text-white" %}
   {% assign hover_color = "hover-primary-lightest" %}
@@ -19,7 +19,7 @@
           {{ post.title }}
         </h3>
       </a>
-      {% if include.show_excerpt %}
+      {% if show_excerpt %}
         {{ post.excerpt }}
       {% endif %}
     </li>
