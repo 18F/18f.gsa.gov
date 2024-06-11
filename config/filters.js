@@ -43,7 +43,7 @@ const teamData = parse(
 const findPerson = (id) => {
   const maybePerson = teamData.find((person) => person.id === id);
   if (maybePerson === undefined) {
-    console.log(id, 'is undefined')
+    console.warn(id, 'is undefined') /* eslint-disable-line no-console */
   }
   return maybePerson
 }
