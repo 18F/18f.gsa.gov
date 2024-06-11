@@ -65,9 +65,9 @@ async function createAssetPaths() {
 esbuild
   .build({
     entryPoints: [
-      'assets/_common/styles/styles.scss',
-      'assets/_common/js/app.js',
-      'assets/_common/js/admin.js',
+      'assets/common/styles/styles.scss',
+      'assets/common/js/app.js',
+      'assets/common/js/admin.js',
     ],
     entryNames: '[dir]/[name]-[hash]',
     outdir: '_site/assets/',

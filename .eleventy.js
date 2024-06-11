@@ -48,13 +48,13 @@ module.exports = function (config) {
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
   // Specific scripts to guides
-  config.addPassthroughCopy('./assets/_common/js/*');
+  config.addPassthroughCopy('./assets/common/js/*');
   config.addPassthroughCopy('./assets/**/js/*');
 
   // @TODO This is one place where the _site/img folder gets produced
   // Let's find a way to keep everything in assets
-  config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
-  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+  config.addPassthroughCopy({'./assets/common/img/favicons/favicon.ico': './favicon.ico' });
+  config.addPassthroughCopy({'./assets/common/img/favicons': './img/favicons' });
 
   config.addPassthroughCopy({'content/robots.txt': '/robots.txt' });
   config.addPassthroughCopy('google16a62a069d0c4fa4.html');
