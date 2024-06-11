@@ -32,7 +32,7 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 const siteData = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
 
-module.exports = function (config) {
+module.exports = function (config) { /* eslint-disable-line func-names */
   // Set pathPrefix for site
   let pathPrefix = '/';
 
@@ -165,7 +165,7 @@ module.exports = function (config) {
   // https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md
   // Token methods:  https://github.com/markdown-it/markdown-it/blob/master/lib/token.js#L125
   const openDefaultRender = markdownLibrary.renderer.rules.link_open ||
-    function(tokens, idx, options, env, self) {
+    function(tokens, idx, options, env, self) { /* eslint-disable-line func-names */
       return self.renderToken(tokens, idx, options);
     };
 
@@ -201,7 +201,7 @@ module.exports = function (config) {
   };
 
   const defaultHtmlBlockRender = markdownLibrary.renderer.rules.html_block ||
-    function(tokens, idx, options, env, self) {
+    function(tokens, idx, options, env, self) { /* eslint-disable-line func-names */
       return self.renderToken(tokens, idx, options);
     };
 
@@ -248,7 +248,7 @@ module.exports = function (config) {
 
   // Also need to add icon links to any html style links
   const inlineHTMLDefaultRender = markdownLibrary.renderer.rules.html_inline ||
-    function(tokens, idx, options, env, self) {
+    function(tokens, idx, options, env, self) { /* eslint-disable-line func-names */
       return self.renderToken(tokens, idx, options);
     };
 
