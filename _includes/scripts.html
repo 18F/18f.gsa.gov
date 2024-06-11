@@ -5,25 +5,27 @@
 {% if site.dap.agency %}
 <script
   id="_fed_an_ua_tag"
-  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{ site.dap.agency }}{% if site.dap.subagency %}&subagency={{ site.dap.subagency }}{% endif %}"
 ></script>
 {% endif %}
 
-{% if site.ga.ua %}
+{% if site.google-analytics.ua %}
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-analytics.ua }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-  gtag('config', '{{ site.ga.ua }}', { 'anonymize_ip': true });
+  gtag('config', '{{ site.google-analytics.ua }}', { 'anonymize_ip': true });
 </script>
 {% endif %}
 
 {% if site.searchgov %}
   {% if site.searchgov.suggestions %}
     <script>
-          var usasearch_config = { siteHandle: "{{ site.searchgov.affiliate }}" };
+      var usasearch_config = {
+        siteHandle: "{{ site.searchgov.affiliate }}"
+      };
     </script>
     <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   {% endif %}

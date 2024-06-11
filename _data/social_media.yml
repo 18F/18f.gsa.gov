@@ -18,7 +18,7 @@
     dark: /assets/img/social-icons/svg/linkedin-darkest.svg
 -
   platform: RSS feed
-  link: /feed.xml
+  link: /feed/
   image:
     light: /assets/img/social-icons/svg/rss-lightest.svg
     dark: /assets/img/social-icons/svg/rss25.svg

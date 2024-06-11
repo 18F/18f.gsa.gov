@@ -8,7 +8,7 @@
     {% assign guide_name = tags[0] %}
     {% assign redirect_base = redirect_bases[guide_name] %}
     {% assign page_path = page.url | remove: titles_roots[guide_name].root %}
-    <meta http-equiv="refresh" content="0;URL='{{redirect_base | append: page_path}}'" />
+    <meta http-equiv="refresh" content="0;URL='{{ redirect_base | append: page_path }}'" />
   {% endif %}
 </head>
 <!-- END META REDIRECT -->

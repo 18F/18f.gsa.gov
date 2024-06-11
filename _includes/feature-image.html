@@ -1,6 +1,6 @@
-{% assign include_image = include.image | default: page.image %}
-{% assign include_image_alt = include.image | default: page.image_alt | default: "" %}
-{% assign include_figcaption = include.image_figcaption | default: page.image_figcaption %}
+{% assign include_image = image | default: page.image %}
+{% assign include_image_alt = image | default: page.image_alt | default: "" %}
+{% assign include_figcaption = image_figcaption | default: page.image_figcaption %}
 
 {% if page.hero %}
 <figure class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')">
