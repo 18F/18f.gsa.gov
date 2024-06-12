@@ -16,16 +16,6 @@ jobs:
             sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
       - checkout
-      - restore_cache:
-          keys:
-          - v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
-          # fallback to using the latest cache if no exact match is found
-          - v2-dependencies-bundler-
-      - run:
-          name: Bundle install dependencies
-          command: |
-            bundle config set path 'vendor/bundle'
-            bundle install --jobs=4 --retry=3
       - save_cache:
           paths:
             - vendor/bundle
