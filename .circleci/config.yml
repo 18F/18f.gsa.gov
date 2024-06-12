@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.2-browsers
+      - image: cimg/node:lts-browsers
     environment:
       LANG: "en_US.UTF-8"
       LANGUAGE: "en_US.UTF-8"
