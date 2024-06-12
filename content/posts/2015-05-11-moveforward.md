@@ -80,7 +80,7 @@ process.” She expressed the honor to have the opportunity to improve the
 immigration and visa processes for other families, as well as streamline
 the workflow for USCIS employees.
 
-{% oembed "https://twitter.com/stroupaloop/status/593525508945489921" %}
+https://twitter.com/stroupaloop/status/593525508945489921
 
 Noah Manger, an 18F designer and web developer, discussed his team's [work with the
 Federal Election
@@ -93,7 +93,7 @@ ultimate goal is to provide a tool that allows all members of the public
 — even those without deep knowledge of the election process — to quickly
 and easily access relevant data.
 
-{% oembed "https://twitter.com/corizarek/status/593525117210103809" %}
+https://twitter.com/corizarek/status/593525117210103809
 
 Leah Bannon, an 18F product manager, and Charles Worthington of USDS
 highlighted [analytics.usa.gov](https://analytics.usa.gov/) (the
@@ -109,7 +109,7 @@ cheered with the moveForward(100); group assembled, she said we
 represent “the government of the 21st century.” Then, Roth took a selfie
 with the group.
 
-{% oembed "https://twitter.com/usgsa/status/593540092871970817" %}
+https://twitter.com/usgsa/status/593540092871970817
 
 Former U.S. Chief Technology Officer Todd Park closed the evening, reminding the group assembled
 that moveForward(100); was designed “to let everyone know that
