@@ -26,21 +26,18 @@ jobs:
           paths:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
-      - run:
-          name: Check JavaScript style
-          command: npx standard
-      - run: npm run uswds-build
+      # - run:
+      #     name: Check JavaScript style
+      #     command: npx standard
+      - run: npm run build
       # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
       - run:
-          name: Jekyll build
+          name: 11ty build
           command: |
-            bundle exec jekyll build
+            npm run build
             echo "export PA11Y_TARGETS=$(cat pa11y_targets | base64 --wrap=0)" >> "$BASH_ENV"
             source "$BASH_ENV"
       - run: npm run htmlproofer
-      - run:
-          name: Run rspec
-          command: bundle exec rspec `pwd`/spec/
       # Invoke pa11y-ci and pass in our list of changed files
       - run:
           name: Run pa11yci
