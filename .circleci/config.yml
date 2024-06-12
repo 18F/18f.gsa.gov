@@ -16,11 +16,6 @@ jobs:
             sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
       - checkout
-      - save_cache:
-          paths:
-            - vendor/bundle
-          key: v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
-
       - restore_cache:
           keys:
           - v2-dependencies-npm-{{ checksum "package-lock.json" }}
@@ -31,9 +26,6 @@ jobs:
           paths:
             - node_modules
           key: v2-dependencies-npm-{{ checksum "package-lock.json" }}
-      - run:
-          name: Check Ruby style
-          command: bundle exec standardrb
       - run:
           name: Check JavaScript style
           command: npx standard
