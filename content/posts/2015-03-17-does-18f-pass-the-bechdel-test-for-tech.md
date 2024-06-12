@@ -18,7 +18,7 @@ excerpt: "How does the Bechdel test, originally designed for evaluating works fo
 Kaitlin Devine, 18F’s Director of Engineering recently noticed this
 tweet:
 
-{% oembed "https://twitter.com/seldo/status/571453200093437952" %}
+https://twitter.com/seldo/status/571453200093437952
 
 The coding Bechdel test, as described above, is a variant of the
 original Bechdel test, which was created by writer and graphic novelist

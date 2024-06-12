@@ -93,7 +93,6 @@ const teamLink = (slug) => {
 // TODO remove the eslint-disable directive after implementation
 /* eslint-disable */
 const weightedSort = (array, weight_name, sort_name) => array
-const oembed = (url) => `TODO EMBED ${url}`
 const asRelativeUrl = (url) => url
 const matchPosts = (page, property='tags') => []
 /* eslint-enable */
@@ -112,7 +111,6 @@ module.exports = {
   teamLink,
   markdownify,
   weightedSort,
-  oembed,
   asRelativeUrl,
   matchPosts,
 };

@@ -24,7 +24,7 @@ Midas is a [marketplace of skill building opportunities](https://18f.gsa.gov/201
 
 More than 30 developers, designers, and government product leaders got together for an afternoon and evening of sketching, coding, writing and learning.
 
-{% oembed "https://twitter.com/18F/status/519227871311953920" %}
+https://twitter.com/18F/status/519227871311953920
 
 ### Positive impact
 
@@ -32,11 +32,11 @@ Thanks to the hack night, we had nine commits and 22 issues reported, seven of w
 
 The event also had a positive impact on the participants themselves.  Volunteers from the private sector learned about work across different agencies and new initiatives inside government.
 
-{% oembed "https://twitter.com/monfresh/status/519297925965684736" %}
+https://twitter.com/monfresh/status/519297925965684736
 
 > "The Hackathon was great!  I loved getting to quickly go from testing to creating a map of the issues.  Then we modeled a potential solution and got practical feedback on it!  We made a lot of progress in just one session!  Everyone was really excited and open to the experience, and there were a lot of great ideas.  I was so excited about the Hackathon that I told everyone at my office about it.  I hope that we have more.  Five Stars! Most fun day of work!" -- Ken Ambrose, Health and Human Services
 
-{% oembed "https://twitter.com/enBloomMedia/status/519288750640480256" %}
+https://twitter.com/enBloomMedia/status/519288750640480256
 
 Government workers had the chance to meet people from other teams or other agencies who are doing similar work. Developers and designers using new technology and techniques sometimes feel isolated in their day-to-day work -- making connections to others in the same field can be transformative.  Usability testing and UX sketching was new to a lot of participants, and it was exciting to see the findings from the testing sessions so quickly transformed into new ideas.
 
@@ -44,7 +44,7 @@ Government workers had the chance to meet people from other teams or other agenc
 
 We split the room into two areas: on one side coding, the other side, user experience (UX). While the volunteer developers got their environments set up and worked on code or technical documentation improvements,  the UX experience group worked with the Midas team to test different usage scenarios and identify a number of usability and design issues.  The UX group even used the wall of the room to create a quick cluster map of the issues.
 
-{% oembed "https://twitter.com/VLVarin/status/519229900516233216" %}
+https://twitter.com/VLVarin/status/519229900516233216
 
 Midas contributors from across the country were on hand to answer questions and merge in [pull requests](http://oss-watch.ac.uk/resources/pullrequest), and there were even volunteers working remotely on both design and development. The hackathon was split into afternoon and evening sessions, and a core group stayed for the whole event. In between the sessions, we had inspiring presentations from two government leaders – Read Holman from Health and Human Services and Lisa Nelson from GSA – who talked about how Midas has the potential to drive positive change across government.
 

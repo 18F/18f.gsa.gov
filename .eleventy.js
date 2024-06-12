@@ -2,6 +2,7 @@ const fs = require('fs');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
+const embedTwitter = require('eleventy-plugin-embed-twitter');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -20,7 +21,6 @@ const { readableDate
       , teamLink
       , markdownify
       , weightedSort
-      , oembed
       , asRelativeUrl
       , matchPosts } = require('./config/filters');
 const { postsCollection, servicesCollection, tagsCollection } = require('./config/collections');
@@ -80,6 +80,11 @@ module.exports = function (config) { /* eslint-disable-line func-names */
   // Plugin to style code blocks
   config.addPlugin(syntaxHighlight);
 
+  config.addPlugin(embedTwitter, {
+    cacheText: true,
+    cacheDuration: '*' // caches tweets forever
+  });
+
   // Allow yaml to be used in the _data dir
   config.addDataExtension('yml, yaml', contents => yaml.load(contents));
 
@@ -102,7 +107,6 @@ module.exports = function (config) { /* eslint-disable-line func-names */
   // Add a link to an 18F team member's author page
   config.addFilter('team_link', teamLink);
   config.addFilter('weighted_sort', weightedSort);
-  config.addShortcode('oembed', oembed);
   config.addFilter('relative_url', asRelativeUrl);
   config.addFilter('match_posts', matchPosts);
   config.addFilter('limit', (arr, limit) => arr.slice(0, limit));
