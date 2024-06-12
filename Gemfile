@@ -23,7 +23,7 @@ group :development do
   gem "pry"
   gem "rb-readline"
   gem "rspec"
-  gem "standard"
+  gem "standard", ">= 1.37.0"
 end
 
 group :test do
