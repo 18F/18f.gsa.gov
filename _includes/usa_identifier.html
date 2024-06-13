@@ -1,9 +1,3 @@
-{% if tags %}
-  {% assign guide = tags %}
-{% else %}
-  {% assign guide = 'default' %}
-{% endif %}
-
 <div class="usa-identifier">
   <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
     <div class="usa-identifier__container">
@@ -13,7 +7,7 @@
         </a>
       </div>
       <div class="usa-identifier__identity text-base-lightest">
-        <p class="usa-identifier__identity-domain">18F {{ titles_roots[guide].title }}</p>
+        <p class="usa-identifier__identity-domain">18f.gsa.gov</p>
         <p class="usa-identifier__identity-disclaimer text-base-lightest">An official website of the
           <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">
             GSA’s Technology Transformation Services
