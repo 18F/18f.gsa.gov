@@ -29,8 +29,8 @@ jobs:
       # - run:
       #     name: Check JavaScript style
       #     command: npx standard
-      - build: npm run build
       - lint: npm run lint
+      - build: npm run build
       - verify:
         name: Verify that the build passes HTML validation
         command: |
