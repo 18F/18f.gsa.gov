@@ -11,6 +11,7 @@ jobs:
       LANGUAGE: "en_US.UTF-8"
       LC_ALL: "en_US.UTF-8"
     steps:
+      - checkout
       - jq/install:
           version: jq-1.7
       - run:
@@ -19,7 +20,6 @@ jobs:
             sudo locale-gen en_US.UTF-8
             sudo locale-gen en en_US en_US.UTF-8
             sudo dpkg-reconfigure locales
-      - checkout
       - restore_cache:
           keys:
           - v2-dependencies-bundler-{{ checksum "Gemfile.lock" }}
