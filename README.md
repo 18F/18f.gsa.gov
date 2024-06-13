@@ -23,12 +23,13 @@ Ensure that you have the latest version of [Node](https://nodejs.org/en/download
 To run the site locally:
 
 1. Clone this repo
-2. From the repo directory, run:
+2. Add _data/assetPaths.json to .git/info/exclude [(See the development docs.)](/docs/development.md)
+3. From the repo directory, run:
    ```sh
    npm install
    npm run dev
    ```
-3. Open http://localhost:8080
+4. Open http://localhost:8080
 
 For more information on testing and repo configurations, read our in-depth [development docs](/docs/development.md).
 

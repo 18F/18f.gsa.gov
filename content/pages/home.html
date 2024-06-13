@@ -140,14 +140,13 @@ title: Home
     <div class="grid-row margin-bottom-6">
       <h2>Recent blog posts</h2>
     </div>
-
+    {% assign recent_posts = collections.posts | reverse | slice: 0, 6 %}
     {% include "featured-posts.html",
-       color_mode: "dark",
-       related_posts: collections.posts | slice: 0, 6
-    %}
+       posts: recent_posts,
+       color_mode: "dark" %}
 
-    <a href="{{ "/blog/" | url }}" class="usa-button usa-button--big an18f-button--accent margin-top-4"> See all
-      blog posts
+    <a href="{{ "/blog/" | url }}" class="usa-button usa-button--big an18f-button--accent margin-top-4">
+      See all blog posts
     </a>
   </div>
 </section>
