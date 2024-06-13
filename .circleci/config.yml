@@ -29,7 +29,13 @@ jobs:
       # - run:
       #     name: Check JavaScript style
       #     command: npx standard
-      - run: npm run build
+      - build: npm run build
+      - lint: npm run lint
+      - verify:
+        name: Verify that the build passes HTML validation
+        command: |
+          npm run test:html-validation
+          npm run test:links
       # We export the file list in pa11y_targets so that we can make pa11y-ci scan only those changed files in the "Run pa11yci" step
       # - run:
       #     name: 11ty build
