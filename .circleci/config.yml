@@ -94,7 +94,7 @@ jobs:
                     curl -L \
                     -X POST \
                     -H "Accept: application/vnd.github+json" \
-                    -H "Authorization: Bearer $GITHUB_TEST_TOKEN" \
+                    -H "Authorization: Bearer $GITHUB_TOKEN" \
                     -H "X-GitHub-Api-Version: 2022-11-28" \
                     https://api.github.com/repos/18f/18f.gsa.gov/dispatches \
                     -d $JSON
@@ -118,7 +118,7 @@ workflows:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
           #cron: "59 9 * * *"
-          cron: "37 * * * *"
+          cron: "12 * * * *"
           filters:
             branches:
               only:
