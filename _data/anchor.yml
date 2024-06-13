@@ -4,7 +4,7 @@ site_url: https://18f.gsa.gov
 site_about: https://18f.gsa.gov/about
 agency: U.S. General Services Administration
 agency_acronym: GSA
-agency_logo: /assets/img/logos/gsa-logo-w100.png
+agency_logo: assets/img/logos/gsa-logo-w100.png
 agency_url: https://www.gsa.gov
 agency_about_url: https://www.gsa.gov/about
 org_primary: Technology Transformation Services
