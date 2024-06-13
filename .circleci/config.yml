@@ -89,7 +89,7 @@ jobs:
                   ./serve-pa11yci && npm run pa11y-sitemap 2> >(tee pa11y-errors >&2)
                   if [[ $PIPESTATUS -eq 2 ]]; then
                     set +o history
-                    JSON=$(echo '{"event_type":"failed-pa11y-scan","client_payload":{"report":"'"$(cat pa11y-errors | base64)"'"}}' | jq -c -r '.|tojson')
+                    JSON=$(echo '{"event_type":"failed-pa11y-scan","client_payload":{"report":"'"$(cat pa11y-errors | base64 -w0)"'"}}' | jq -c -r '.|tojson')
                     curl -L \
                     -X POST \
                     -H "Accept: application/vnd.github+json" \
