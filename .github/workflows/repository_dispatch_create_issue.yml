@@ -1,0 +1,24 @@
+name: Create GH Issue from CircleCI
+on: repository_dispatch
+
+jobs:
+  create_issue:
+    name: Create failed pa11y scan issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create GH issue
+        run: |
+          DECODED_REPORT=$(echo $BODY | base64 --decode)
+          new_issue_url=$(gh issue create \
+            --title "Nightly pa11y scan failed" \
+            --assignee "$ASSIGNEES" \
+            --label "$LABELS" \
+            --body "$BODY")
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ASSIGNEES: caleywoods
+          LABELS: failed-pa11y-scan, a11y
+          BODY: ${{ github.event.client_payload.report }}
