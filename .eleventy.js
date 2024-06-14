@@ -27,6 +27,7 @@ const { postsCollection, servicesCollection, tagsCollection } = require('./confi
 const { headingLinks } = require('./config/headingLinks');
 const { contrastRatio, humanReadableContrastRatio } = require('./config/wcagColorContrast');
 const privateLinks = require ('./config/privateLinksList');
+const { pa11yScan } = require('./lib/pa11y')
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
@@ -320,6 +321,8 @@ module.exports = function (config) { /* eslint-disable-line func-names */
     ui: false,
     ghostMode: false,
   });
+
+  config.on('eleventy.after', pa11yScan);
 
   // Set image shortcodes
   config.addLiquidShortcode('image', imageShortcode);
