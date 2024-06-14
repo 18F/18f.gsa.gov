@@ -11,14 +11,14 @@ jobs:
       - name: Create GH issue
         run: |
           DECODED_REPORT=$(echo $BODY | base64 --decode)
-          new_issue_url=$(gh issue create \
+          gh issue create \
             --title "Nightly pa11y scan failed" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
-            --body "$DECODED_REPORT")
+            --body "$DECODED_REPORT"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           ASSIGNEES: caleywoods
-          LABELS: failed-pa11y-scan, a11y
+          LABELS: type:accessibility
           BODY: ${{ github.event.client_payload.report }}
