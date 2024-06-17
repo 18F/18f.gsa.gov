@@ -61,7 +61,7 @@ There’s a lot of talk in the tech sector about ‘making the world a better pl
 <span>- Ryan Johnson, Content Strategist </span>
 </blockquote>
 
-{% image_with_class "assets/blog/strenio_erin.jpg" "height-card-lg" "Erin Strenio (she\her) smiling at the camera" %}
+{% image_with_class "assets/blog/strenio_erin.jpg" "height-card-lg" "Erin Strenio (she/her) smiling at the camera" %}
 
 <blockquote class="testimonial-blockquote">
 “I had worked in journalism and start-ups, mostly in the food space, but was craving something more, and felt a calling to be more civically engaged. I never really pictured myself working in government, but when I found out about 18F—wait, they have a team dedicated to making government services easier for people to use and understand?—I wanted to be a part of it, and have felt grateful to work with such a passionate, dedicated group of public servants ever since.”
