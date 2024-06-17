@@ -4,26 +4,23 @@ main:
   class: 'primary-layout'
 ---
 
-{% assign page_title = page.subnav_title | default: page.title %}
+{% assign page_title = subnav_title | default: title %}
 
 <section class="usa-section section-padding-sm">
   <div class="grid-container">
-    <h1> {{ page.title }} </h1>
-    {% if page.lead %}
-      <p class="font-sans-xl line-height-sans-3"> {{ page.lead }} </p>
+    <h1> {{ title }} </h1>
+    {% if lead %}
+      <p class="font-sans-xl line-height-sans-3"> {{ lead }} </p>
     {% endif %}
-    {% if page.image %}
-      <img src="{{ site.baseurl }}{{ page.image }}"
-           alt="{{ page.image_alt_text }}"
-           class="margin-top-4"
-      >
+    {% if image %}
+      {% image_with_class image "margin-top-4" image_alt_text %}
     {% endif %}
   </div>
 </section>
 
  {{ content }}
 
-{% if page.banner_cta %}
+{% if banner_cta %}
   {% include "banner-cta.html" %}
 {% endif %}
 

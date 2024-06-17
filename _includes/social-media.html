@@ -6,9 +6,7 @@
       <a href="{{ item.link | url }}"
          class="usa-link--alt"
          >
-         <img src="{{ site.baseurl }}{{ item.image.light }}"
-              class="maxw-3 margin-right-2 text-sub"
-              alt="">
+         {% image_with_class item.image.light "maxw-3 margin-right-2 text-sub" "" %}
          {%- unless item.platform == "RSS feed" -%}18F on {% endunless %}{{ item.platform }}
       </a>
     </li>

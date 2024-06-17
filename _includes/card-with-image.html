@@ -34,11 +34,9 @@ if set to "md" will set the max image size to 8 units. Otherwise the image will 
 >
 <div class="display-flex flex-align-center {%- if image_side == "right" %} flex-justify {% endif %} height-full padding-4 radius-lg">
 
+  {% capture image_class %}{%- if image_size == "md" -%} maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless image_side == "right" %} margin-right-2 {% endunless %}{% endcapture %}
   {% capture card_image %}
-  <img src="{{ site.baseurl }}{{ image_path }}"
-       class="{%- if image_size == "md" -%} maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless image_side == "right" %} margin-right-2 {% endunless %}"
-       alt="{{- image_alt_text -}}"
-  >
+    {% image_with_class image_path image_class image_alt_text %}
   {% endcapture %}
 
   {% capture card_text %}

@@ -13,10 +13,7 @@ main:
       <p class="font-sans-xl line-height-sans-3">{{ page.lead }}</p>
     {% endif %}
     {% if page.image %}
-      <img src="{{ site.baseurl }}{{ page.image }}"
-           alt="{{ page.image_alt_text }}"
-           class="margin-top-4"
-      >
+      {% image_with_class page.image "margin-top-4" page.image_alt_text %}
     {% endif %}
   </div>
 </section>
