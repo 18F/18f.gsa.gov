@@ -14,10 +14,7 @@ This partial outputs a card that displays a project title, the associated agency
   <div class="display-flex flex-align-center">
     {% assign agency = agencies | where: "name", project.data.agency | first %}
     {% if agency.logo %}
-      <img src="/assets/img/logos/agencies/{{ agency.logo }}"
-      class="maxw-8 margin-right-2"
-      alt=""
-      >
+      {% image_with_class agency.logo "maxw-8 margin-right-2" "" %}
     {% endif %}
     <p class="line-height-sans-2 text-bold margin-top-0">{{ agency.name }}</p>
   </div>

@@ -96,7 +96,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
       {% include "card-with-image.html",
          card_color: "dark",
-         image_path: "/assets/img/guides/state-guide-lightest.svg",
+         image_path: "assets/img/guides/state-guide-lightest.svg",
          link_url: "https://derisking-guide.18f.gov/state-field-guide/",
          text_content: "State Software Budgeting Handbook"
       %}
@@ -105,7 +105,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
       {% include "card-with-image.html",
          card_color: "dark",
-         image_path: "/assets/img/guides/federal-guide-lightest.svg",
+         image_path: "assets/img/guides/federal-guide-lightest.svg",
          link_url: "https://derisking-guide.18f.gov/federal-field-guide/",
          text_content: "Federal Field Guide"
       %}
@@ -134,9 +134,8 @@ Instead, we involve your team in creating solutions and ensure they have everyth
       {% assign project_details = collections.services | where: 'fileSlug', project | first %}
       {% assign project_agency = project_details.data.agencies | where: "name", project_details.data.agency | first %}
       <div class="grid-col-12 tablet:grid-col-6 margin-top-3 tablet:margin-top-0">
-        {% assign image_path = "/assets/img/logos/agencies/" | append: project_agency.logo %}
         {% include "card-with-image.html",
-           image_path: image_path,
+           image_path: project_agency.logo,
            image_alt_text: project_agency.name,
            image_size: "md",
            link_url: project_details.data.permalink,
