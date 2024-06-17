@@ -81,7 +81,7 @@ within a software product over time:
 -   The predictability of results decreases, making management highly distrustful. (Producing accurate estimates for software with a high amount of debt is nearly impossible.)
 
 <div style="text-align:center">
-{% image "assets/blog/technical-debt/graphic-3.jpg" "A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." %} width="400px">
+{% image "assets/blog/technical-debt/graphic-3.jpg" "A graph showing how the cost of change increases over time when you have technical debt, and that hurts your ability to meet user needs." %}
 </div>
 
 *Source: [Jim
