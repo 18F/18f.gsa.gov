@@ -67,7 +67,7 @@ As we continue to navigate our evolving landscape, 18F is exploring the followin
 
 **Designing to actively protect human vulnerabilities.** Human tendencies have helped us to evolve and survive over generations — whether it's choosing sweet, fatty foods for readily available energy or following popular opinions of those around us to build stronger communities with others. Technology can easily exploit these human vulnerabilities or biases for harm, whether intentionally or unintentionally. As government practitioners, we must intentionally design solutions that protect human vulnerabilities.
 
-The Center of Humane Technology’s [humane design guide](https://s3.amazonaws.com/com.appolearning.files/production/uploads/uploaded_file/0fd922be-3bbc-46ea-b1a2-fdeb8eb4e3d5/Humane_Tech_Design_Guide.pdf) is an activity to assess a product or feature across six categories of human vulnerabilities and to identify actions to protect or support your users.
+The Center of Humane Technology’s [humane design guide](https://s3.amazonaws.com/com.appolearning.files/production/uploads/uploaded_file/0fd922be-3bbc-46ea-b1a2-fdeb8eb4e3d5/Humane_Tech_Design_Guide.pdf) [^1] is an activity to assess a product or feature across six categories of human vulnerabilities and to identify actions to protect or support your users.
 
 **Thinking beyond the current context.** We often design products thinking about its use in the current context, but what we design will likely outlive that timeframe. Designing for an ever-changing world requires us to consider the potential futures in which our solution will exist.
 
@@ -86,3 +86,5 @@ While we upskill and build capacity in AI, we’re regrounding in many of our es
 If you’re in government, join the [AI community of practice](https://coe.gsa.gov/communities/ai.html), a space for government employees to learn and share about how the government can foster thoughtful and responsible use of AI. If you’re an AI professional, consider [bringing your talents to bear](https://ai.gov/apply/) in the federal government.
 
 As technologists, there are 18Fers with dexterity to advise on how you might [leverage the power of AI](https://18f.gsa.gov/AI-services/).  [Reach out to 18F](https://18f.gsa.gov/AI-services/) if you’re interested in exploring what this might look like for your agency.
+
+[^1] The GSA.gov website includes hypertext links, or pointers, to information created and maintained by other public and/or private organizations. We provide these links as a public service only; the U.S. government, including GSA, neither endorses nor guarantees in any way the external organizations, services, advice, or products included in these website links. When you select a link to an outside website, you are leaving the GSA.gov site and are subject to the privacy and security policies of the owners/sponsors of the outside website.
