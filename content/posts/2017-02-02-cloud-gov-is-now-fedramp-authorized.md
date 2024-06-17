@@ -1,5 +1,6 @@
 ---
 title: cloud.gov is now FedRAMP Authorized for use by federal agencies
+layout: post
 authors:
 - britta-gustafson
 - jameshupp
@@ -15,10 +16,10 @@ description: what
 hero: false
 ---
 
-<figure class="blog-figure-center">
-  {% image_with_class "assets/blog/cloud-gov/logo-badge.png" "height-67px" "The cloud.gov logo" %}
-  {% image_with_class "assets/blog/cloud-gov/fedramp-badge.jpg" "height-67px" "The fed ramp logo" %}
-  {% image_with_class "assets/blog/cloud-gov/fedramp-ready.png" "height-67px" "The fed ramp ready indicator" %}
+<figure class="blog-figure-center tile-strip">
+  {% image "assets/blog/cloud-gov/logo-badge.png" "The cloud.gov logo" %}
+  {% image "assets/blog/cloud-gov/fedramp-badge.jpg" "The fed ramp logo" %}
+  {% image "assets/blog/cloud-gov/fedramp-ready.png" "The fed ramp ready indicator" %}
 </figure>
 
 We’re delighted to announce that [cloud.gov](https://cloud.gov/) is
