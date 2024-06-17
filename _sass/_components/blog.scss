@@ -100,3 +100,14 @@
     text-align: right;
   }
 }
+
+.tile-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: units(6);
+}
+.tile-strip img {
+  max-height: 67px;
+}
