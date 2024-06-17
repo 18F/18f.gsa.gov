@@ -26,7 +26,7 @@ chat’s Slackbot](https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizi
 auto-response: whenever it saw the word “guys,” it would respond and ask if the
 person meant something else, such as “friends” or “y’all.”
 
-{% image "assets/blog/inclusion-bot/legacy-guys-bot.png" "A screenshot from Slack showing the legacy bot response. It is a message with the text &ldquo;custom response&rdquo; above it. It is from the user Slackbot and the message says, &ldquo;Did you mean y'all?&rdquo; It also includes a link with the text &ldquo;What's this?&rdquo;" %}
+{% image "assets/blog/inclusion-bot/legacy-guys-bot.png" "A screenshot from Slack showing the legacy bot response. It is a message with the text “custom response” above it. It is from the user Slackbot and the message says, “Did you mean y'all?” It also includes a link with the text “What's this?”" %}
 
 Telling the stories of our work through avenues such as our blog is an important
 way we adhere to our core values like working in the open and scaling our impact
