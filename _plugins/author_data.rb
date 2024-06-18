@@ -1,4 +1,4 @@
-require 'yaml'
+require "yaml"
 
 module SiteData
   class AuthorData
@@ -6,18 +6,18 @@ module SiteData
 
     def initialize(test_path = nil)
       @test_path = test_path
-      @basepath = @test_path ? @test_path : Dir.pwd
+      @basepath = @test_path || Dir.pwd
 
-      @path = File.join(@basepath, '_authors')
+      @path = File.join(@basepath, "_authors")
       cwd = File.dirname(__FILE__)
-      pwd = cwd.split('/')[0...-1].join('/')
+      pwd = cwd.split("/")[0...-1].join("/")
 
-      @site_post_paths = Dir.entries(File.join(pwd, '_posts')).select do |f|
-        !File.directory? f and f != '.DS_Store'
+      @site_post_paths = Dir.entries(File.join(pwd, "_posts")).select do |f|
+        !File.directory? f and f != ".DS_Store"
       end
 
-      @all_authors = Dir.entries(File.join(pwd, '_authors')).select do |f|
-        !File.directory? f and f != '.DS_Store'
+      @all_authors = Dir.entries(File.join(pwd, "_authors")).select do |f|
+        !File.directory? f and f != ".DS_Store"
       end.flatten.uniq
 
       @published_authors = find_published_authors
@@ -40,10 +40,12 @@ module SiteData
     end
 
     def fetch(name, key)
-      YAML.load_file(
-        "#{@path}/#{name}.md",
-        permitted_classes: [Date, Time]
-      )[key] if exists? name
+      if exists? name
+        YAML.load_file(
+          "#{@path}/#{name}.md",
+          permitted_classes: [Date, Time]
+        )[key]
+      end
     end
 
     def create_file_path(file)
@@ -58,12 +60,12 @@ module SiteData
       frontmatter_yml = YAML.safe_load(frontmatter)
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
-        frontmatter_yml = delete_value(frontmatter_yml, key) if value == 'delete'
+        frontmatter_yml = delete_value(frontmatter_yml, key) if value == "delete"
         frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-        { file: File.read(author_path).gsub(frontmatter, frontmatter_new),
-          changed: true }
+        {file: File.read(author_path).gsub(frontmatter, frontmatter_new),
+         changed: true}
       else
-        { file: frontmatter, changed: false }
+        {file: frontmatter, changed: false}
       end
     end
 
@@ -87,14 +89,14 @@ module SiteData
       published_authors = []
       base_path = Dir.pwd
       @site_post_paths.each do |post_path|
-        next unless File.exist? File.join(base_path, '_posts', post_path)
+        next unless File.exist? File.join(base_path, "_posts", post_path)
         frontmatter = YAML.load_file(
-          File.join(base_path, '_posts', post_path),
+          File.join(base_path, "_posts", post_path),
           permitted_classes: [Date, Time]
         )
-        checks = frontmatter['output'] != false && frontmatter['published'] != false
+        checks = frontmatter["output"] != false && frontmatter["published"] != false
         next unless checks
-        authors = frontmatter['authors'].map { |a| "#{a}.md" }
+        authors = frontmatter["authors"].map { |a| "#{a}.md" }
         published_authors << authors
       end
       published_authors.flatten.uniq

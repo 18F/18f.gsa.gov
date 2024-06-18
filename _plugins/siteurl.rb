@@ -10,8 +10,8 @@ Jekyll::Hooks.register :site, :after_init do |site|
   # it'll just cause a 404.
   #
   # We can avoid all that by just emptying the site.url value on preview builds.
-  branch = ENV['BRANCH']
-  if !(branch.nil? || branch == 'main')
-    site.config['url'] = nil
+  branch = ENV["BRANCH"]
+  if !(branch.nil? || branch == "main")
+    site.config["url"] = nil
   end
 end

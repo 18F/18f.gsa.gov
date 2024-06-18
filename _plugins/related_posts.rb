@@ -1,8 +1,8 @@
-require 'parallel'
+require "parallel"
 
 module Jekyll
   class RelatedPostsGenerator < Generator
-    safe :true
+    safe true
     priority :lower
 
     # Calculate related posts.
@@ -14,16 +14,16 @@ module Jekyll
 
       posts.docs.each do |post|
         if @use_categories
-          post.data['categories'].each do |category|
-            if me.data['categories'].include?(category) && post != me
+          post.data["categories"].each do |category|
+            if me.data["categories"].include?(category) && post != me
               cat_freq = @tag_freq[category]
               related_scores[post] += (1 + highest_freq - cat_freq)
             end
           end
         end
         if @use_tags
-          post.data['tags'].each do |tag|
-            if me.data['tags'].include?(tag) && post != me
+          post.data["tags"].each do |tag|
+            if me.data["tags"].include?(tag) && post != me
               cat_freq = @tag_freq[tag]
               related_scores[post] += (1 + highest_freq - cat_freq)
             end
@@ -31,8 +31,8 @@ module Jekyll
         end
 
         next unless @use_authors
-        post.data['authors'].each do |author|
-          if me.data['authors'].include?(author) && post != me
+        post.data["authors"].each do |author|
+          if me.data["authors"].include?(author) && post != me
             cat_freq = @tag_freq[author]
             related_scores[post] += (1 + highest_freq - cat_freq)
           end
@@ -47,10 +47,10 @@ module Jekyll
     def tag_freq(posts)
       @tag_freq = Hash.new(0)
       posts.docs.each do |post|
-        post.data['categories'].each { |category| @tag_freq[category] += 1 } if @use_categories
-        post.data['tags'].each { |tag| @tag_freq[tag] += 1 } if @use_tags
+        post.data["categories"].each { |category| @tag_freq[category] += 1 } if @use_categories
+        post.data["tags"].each { |tag| @tag_freq[tag] += 1 } if @use_tags
 
-        post.data['authors'].each { |author| @tag_freq[author] += 1 } if @use_authors
+        post.data["authors"].each { |author| @tag_freq[author] += 1 } if @use_authors
       end
     end
 
@@ -72,18 +72,18 @@ module Jekyll
       @use_tags = true
       @use_authors = true
       @use_categories = false
-      @use_categories = true if site.config['related_categories']
-      @use_tags = false if !site.config['related_tags'].nil? && site.config['related_tags'] != true
-      @use_authors = false if !site.config['related_authors'].nil? && site.config['related_authors'] != true
+      @use_categories = true if site.config["related_categories"]
+      @use_tags = false if !site.config["related_tags"].nil? && site.config["related_tags"] != true
+      @use_authors = false if !site.config["related_authors"].nil? && site.config["related_authors"] != true
     end
 
     def in_threads(site)
-      site.config['n_cores'] ? site.config['n_cores'] : 1
+      site.config["n_cores"] || 1
     end
 
     def generate(site)
-      return unless site.config['related_posts']
-      n_posts = site.config['related_posts']
+      return unless site.config["related_posts"]
+      n_posts = site.config["related_posts"]
 
       create_presets(site)
       tag_freq(site.posts)
@@ -91,7 +91,7 @@ module Jekyll
       Parallel.map(site.posts.docs.flatten, in_threads: in_threads(site)) do |post|
         rp = related_posts(post, site.posts)[0, n_posts]
 
-        post.data.merge!('related_posts' => rp) if rp.size.positive?
+        post.data.merge!("related_posts" => rp) if rp.size.positive?
       end
     end
   end

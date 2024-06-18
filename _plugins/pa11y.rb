@@ -1,18 +1,16 @@
-=begin
-
-Determines which files to check with pa11y-ci per pull request.
-
-The current scope of pa11y testing is as follows:
-
-- Check any posts or pages whose content has changed.
-- Check any posts or pages using changed layouts.
-- If stylesheets have changed, check a sample of all page types:
-    - Three posts of each layout in _config.yml's `defaults`
-    - The first, last, and middle blog archive pages (/blog/page/:num)
-
-Previously, checking every page resulted in excessive CI runtimes.
-
-=end
+#
+# Determines which files to check with pa11y-ci per pull request.
+#
+# The current scope of pa11y testing is as follows:
+#
+# - Check any posts or pages whose content has changed.
+# - Check any posts or pages using changed layouts.
+# - If stylesheets have changed, check a sample of all page types:
+#     - Three posts of each layout in _config.yml's `defaults`
+#     - The first, last, and middle blog archive pages (/blog/page/:num)
+#
+# Previously, checking every page resulted in excessive CI runtimes.
+#
 
 # Wraps Jekyll documents with convenience methods.
 #
@@ -45,7 +43,7 @@ end
 class Differ
   # @return [Array<String>] List of relative paths of files
   def self.changed_files
-    @changed_files ||= %x[ #{list_files_command} ].to_s.split("\n").map(&:strip)
+    @changed_files ||= `#{list_files_command}`.to_s.split("\n").map(&:strip)
   end
 
   # @return [String] Text of a shell command to get listed files
@@ -61,9 +59,7 @@ class CommitDiffer < Differ
   end
 end
 
-
 class FileChecker
-
   # Jekyll::Document#destination requires a root path parameter
   # This constant replaces a mysterious empty string when
   # calling #destination.
@@ -86,14 +82,14 @@ class FileChecker
     )
 
     if document.to_scan?
-      File.open(pa11y_target_file, 'a') { |f|
+      File.open(pa11y_target_file, "a") { |f|
         f.write(document.destination + "\n")
       }
     end
   end
 end
 
-PA11Y_TARGET_FILE = ENV.fetch('PA11Y_TARGET_FILE') { 'pa11y_targets' }
+PA11Y_TARGET_FILE = ENV.fetch("PA11Y_TARGET_FILE") { "pa11y_targets" }
 DIFFER = ENV.fetch("CI", false) ? CommitDiffer : Differ
 
 # Outputs posts and pages to scan to a file.
@@ -108,10 +104,9 @@ end
 
 # Produces a sample set of pages needed for a site-wide pa11y test.
 class SiteSampler
-
   attr_reader :config, :site_files, :permalinks
 
-  def initialize(config, site_files=nil, permalinks=nil)
+  def initialize(config, site_files = nil, permalinks = nil)
     @config = config
     @site_files = site_files || default_site_files
     @permalinks = permalinks || default_permalinks
@@ -127,13 +122,13 @@ class SiteSampler
   # @todo The matcher should change, not the list of files being returned
   def sample(folder)
     if ["_site/", "_site/blog/"].include?(folder)
-      [ File.join(folder, "index.html") ]
+      [File.join(folder, "index.html")]
     else
       folder_regex = Regexp.new("^" + folder)
       index_regex = Regexp.new("^" + File.join(folder, "index.html") + "$")
       site_files.select do |file|
         file.match?(folder_regex) || file.match?(index_regex)
-      end.reject {|filename| filename.match?(/.pdf$/i)}.sample(3)
+      end.reject { |filename| filename.match?(/.pdf$/i) }.sample(3)
     end
   end
 
@@ -166,7 +161,6 @@ class SiteSampler
   end
 end
 
-
 # Changes to files in these directories trigger a global check
 # @todo Is there a way to get these more dynamically?
 SITEWIDE_FOLDERS = ["assets", "_includes", "_sass"]
@@ -182,7 +176,7 @@ Jekyll::Hooks.register :site, :post_render do |site|
   # https://rubular.com/r/nfFL9P69KHSBoY
   global_files = Regexp.new SITEWIDE_FOLDERS.map { |x| "^#{x}" }.join("|")
   if DIFFER.changed_files.grep(global_files).any?
-    File.open(PA11Y_TARGET_FILE, 'a') do |f|
+    File.open(PA11Y_TARGET_FILE, "a") do |f|
       SiteSampler.new(site.config).pages.each do |path|
         f.write(path + "\n")
       end
