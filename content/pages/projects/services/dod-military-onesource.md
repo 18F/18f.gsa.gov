@@ -5,7 +5,7 @@ subtitle: Supporting military personnel and their families
 permalink: /our-work/military-onesource/
 excerpt: A two-day agile acquisition workshop helped the Military Community and Family Policy group shape the strategy for hiring a private vendor to redesign Military OneSource.
 image:
-image_accessibility:
+image_alt:
 image_icon: monitor.svg
 project_weight: 2
 tag: military

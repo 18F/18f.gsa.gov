@@ -1,14 +1,7 @@
 ---
 layout: default
 ---
-{% comment %}
-Some of the `page.` references will need to be deleted — but I'm not yet sure which.
-{% endcomment %}
-
-{% if page.image %}
-  {% comment %}This include will probably need to pass in data explicitly.{% endcomment %}
-  {% include "feature-image.html" %}
-{% endif %}
+{% include "feature-image.html" %}
 
 <article id="main-content" class="post-article margin-top-6" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="grid-container">
@@ -30,11 +23,11 @@ Some of the `page.` references will need to be deleted — but I'm not yet sure 
     <div class="grid-row grid-gap margin-top-8">
       <div class="tablet:grid-col-7">
         <div class="post-content" itemprop="articleBody">
-          {% if page.image and page.image_feature_small %}
-            {% image_with_class page.image "image-feature-small" page.image_accessibility %}
-          {% endif %}
+
+          {% include "feature-image-small.html" %}
 
           {{ content }}
+
         </div>
       </div>
       <aside class="tablet:grid-offset-1 tablet:grid-col-4">
@@ -44,49 +37,12 @@ Some of the `page.` references will need to be deleted — but I'm not yet sure 
   </div>
 </article>
 
-{% assign previous = collections.posts | getPreviousCollectionItem: page %}
-{% assign next = collections.posts | getNextCollectionItem: page %}
-{% if previous or next %}
-<section class="margin-top-6 post-pagination">
-  <div class="grid-container">
-    <hr class="hr-1-base-lighter">
-    <div class="grid-row grid-gap">
-      <div class="grid-col-6">
-        {% if previous %}
-        <a href="{{ previous.url | url }}"
-           class="text-no-underline post-pagination__link"
-        >
-          <h2 class="post-pagination__heading">
-            {% include "svg/icons/arrow-left.svg" %}
-            Previous Post
-          </h2>
-          <p class="measure-1 text-bold text-primary-darkest">{{ previous.data.title }}</p>
-        </a>
-        {% endif %}
-      </div>
-      <div class="grid-col-6 text-right">
-        {% if next %}
-        <a href="{{ next.url | url }}"
-           class="text-no-underline post-pagination__link"
-        >
-          <h2 class="post-pagination__heading">
-            Next Post
-            {% include "svg/icons/arrow-right.svg" %}
-          </h2>
-          <p class="measure-1 float-right text-bold text-primary-darkest text-right">{{ next.data.title }}</p>
-        </a>
-        {% endif %}
-      </div>
-    </div>
-    <hr class="hr-1-base-lighter">
-  </div>
-</section>
-{% endif %}
+{% include "adjacent_page_links.html" %}
 
 <section class="margin-top-3 margin-bottom-6">
   <div class="grid-container">
     {% comment %}
-      Replace the next line with the related posts generator.
+      TODO: Replace the next line with the related posts generator.
     {% endcomment %}
     {% assign related_posts = collections.posts | reverse | slice: 0, 3 %}
     {% include "featured-posts.html",

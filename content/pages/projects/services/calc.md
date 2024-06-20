@@ -4,8 +4,8 @@ title: Better tools for better research
 subtitle: 
 permalink: /our-work/calc/
 excerpt: Streamlining how contracting officers search past government contracts for fair hourly rates.
-image: /assets/img/projects/calc.png
-image_accessibility: Blue bar graph of various wage estimates
+image: assets/img/projects/calc.png
+image_alt: Blue bar graph of various wage estimates
 image_icon:
 tag: calc
 expiration_date:

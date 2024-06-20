@@ -1,11 +1,16 @@
-{% assign include_image = image | default: page.image %}
-{% assign include_image_alt = image | default: page.image_alt | default: "" %}
-{% assign include_figcaption = image_figcaption | default: page.image_figcaption %}
-
-{% if page.hero %}
-<figure class="post-feature_image" role="img" title="{{ include_image_alt }}" style="background-image: url('{{ site.baseurl }}{{ include_image }}')">
-  {% if include_figcaption %}
-    <figcaption>{{- include_figcaption -}}</figcaption>
-  {% endif %}
-</figure>
+{% if image %}
+  {% comment %}
+    I'm wondering if there's a better way to do this, like setting up
+    a shortcode.
+  {% endcomment %}
+  <figure
+    class="post-feature_image"
+    role="img"
+    title="{{ image_alt }}"
+    style="background-image: url('{{ image | url }}')"
+    >
+    {% if image_figcaption %}
+      <figcaption>{{ image_figcaption }}</figcaption>
+    {% endif %}
+  </figure>
 {% endif %}

@@ -5,8 +5,8 @@ subtitle: A shared service for user-friendly regulations
 permalink: /our-work/eregulations/
 redirect_from: /project/eregulations/
 excerpt: An open-source tool that makes government regulations easier to find, read, and understand.
-image: /assets/blog/eregs/regulations-atf-gov.png
-image_accessibility:
+image: assets/blog/eregs/regulations-atf-gov.png
+image_alt:
 image_icon:
 tag: eregulations
 expiration_date:

@@ -5,8 +5,8 @@ subtitle:
 permalink: /our-work/tax-court/
 redirect_from: /project/tax-court/
 excerpt: Developing a new petition and document-filing experience for taxpayers without lawyers, and a better case management workflow for Tax Court employees.
-image: /assets/blog/ustc-header-image.png
-image_accessibility: Screenshot of the new interface
+image: assets/blog/ustc-header-image.png
+image_alt: Screenshot of the new interface
 project_weight: 12
 tag: tax court
 expiration_date:

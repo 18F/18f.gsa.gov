@@ -5,8 +5,8 @@ subtitle: Designing for every user
 permalink: /our-work/every-kid-in-a-park/
 redirect_from: /project/every-kid-in-a-park/
 excerpt: Using research to design a federal website for an audience that doesn’t know the word federal.
-image: /assets/img/home/hero-ekiap.jpg
-image_accessibility: Children proudly showing their national park badges
+image: assets/img/home/hero-ekiap.jpg
+image_alt: Children proudly showing their national park badges
 project_weight: 2
 tag: every kid in a park
 expiration_date:
