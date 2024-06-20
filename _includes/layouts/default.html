@@ -11,25 +11,17 @@
       {% endif %}
     {% endcomment %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
-
+  <body class="{{ layout.class }} {{ page.class }}">
     {% include "skipnav.html" %}
     {% include "header.html" %}
 
-    {% if page.tagline and page.intro %}
-    <section class="grid-container usa-section">
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
-        </div>
-        <div class="tablet:grid-col-8 usa-prose">
-          {{ page.intro | markdownify }}
-        </div>
-      </div>
-    </section>
-    {% endif %}
+    {% comment %}
+      code smell: Altering layouts based on the value of `layout`.
 
-    {% if page.layout == 'post' %}
+      We probably do this because every other layout needs the <main> tag,
+      while the post layout needs <article> without being wrapped in <main>.
+    {% endcomment %}
+    {% if layout == 'post' %}
       {{ content }}
     {% else %}
       <main id="main-content">
@@ -38,8 +30,6 @@
     {% endif %}
 
     {% include "footer.html" %}
-
     {% include "scripts.html" %}
-
   </body>
 </html>

@@ -20,7 +20,7 @@
         "title": "Health and Human Services",
         "subtitle": "Helping states update crucial systems",
         "image": "/assets/img/projects/hero_stateandlocal.jpg",
-        "image_accessibility": "Grayscale photograph of eleven people meeting in small groups during a workshop",
+        "image_alt": "Grayscale photograph of eleven people meeting in small groups during a workshop",
         "tags": [
           "state and local practice"
         ],
@@ -49,7 +49,7 @@
       "title": "The Federal Election Commission",
       "subtitle": "Making campaign data easier to use",
       "image": "/assets/img/home/hero-fec.png",
-      "image_accessibility": "Image of the FEC data explorer with stylized magnifying glass.",
+      "image_alt": "Image of the FEC data explorer with stylized magnifying glass.",
       "tags": [
         "fec.gov"
       ],
@@ -75,7 +75,7 @@
     "title": "Health and Human Services",
     "subtitle": "Helping states update crucial systems",
     "image": "/assets/img/projects/hero_stateandlocal.png",
-    "image_accessibility": "Grayscale photograph of eleven people meeting in small groups during a workshop",
+    "image_alt": "Grayscale photograph of eleven people meeting in small groups during a workshop",
     "tags": [
       "state and local practice"
     ],
@@ -104,7 +104,7 @@
   "title": "The Federal Election Commission",
   "subtitle": "Making campaign data easier to use",
   "image": "/assets/img/home/hero-fec.png",
-  "image_accessibility": "Image of the FEC data explorer with stylized magnifying glass.",
+  "image_alt": "Image of the FEC data explorer with stylized magnifying glass.",
   "tags": [
     "fec.gov"
   ],

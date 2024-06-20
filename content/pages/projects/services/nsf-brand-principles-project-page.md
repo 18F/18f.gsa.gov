@@ -5,8 +5,8 @@ subtitle: Providing valuable science information to the American public
 permalink: /our-work/nsf-brand-principles/
 redirect_from: /project/nsf-brand-principles/
 excerpt: The National Science Foundation shares it organizational values and research interests with the public.
-image: /assets/img/projects/nsf-brand-principles-site.png
-image_accessibility: Screenshot of a nsf site
+image: assets/img/projects/nsf-brand-principles-site.png
+image_alt: Screenshot of a nsf site
 project_weight: 12
 tag: nsf-brand-principles
 github_repo: "[Project management board](https://github.com/nsf-open/nsf/projects/2)"

@@ -15,7 +15,7 @@ tags:
 
 excerpt: "The OpenFEC API added a filings endpoint as well as itemized receipt and disbursement data. This is the first major update to the API: The records we’re adding today are the meat and potatoes of campaign finance. You can see in detail where a campaign’s money comes from and where they spend their money."
 image: /assets/blog/openfec-api/openfec-banner.jpg
-image_accessibility: "OpenFEC: Explore campaign finance data"
+image_alt: "OpenFEC: Explore campaign finance data"
 ---
 
 We’re so glad that people have been so excited about the [Federal Election Commission’s (FEC) first API](https://18f.gsa.gov/2015/07/08/openfec-api/). Now, there are millions of more records for you to explore! We’re looking forward to seeing what the public will build with its data.

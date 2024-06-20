@@ -5,8 +5,8 @@ title: Make land permits available online
 subtitle: Easing access to public lands
 permalink: /our-work/forest-service/
 excerpt: Using prototypes and modular contracting to help the Forest Service buy and develop an online permitting system.
-image: /assets/blog/forrest-service/xmas-tree-permit.png
-image_accessibility: Screen shot of the Christmas tree permit website
+image: assets/blog/forrest-service/xmas-tree-permit.png
+image_alt: Screen shot of the Christmas tree permit website
 image_icon:
 project_weight: 8
 tag: forest service

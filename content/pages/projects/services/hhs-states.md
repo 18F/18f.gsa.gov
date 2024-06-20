@@ -5,8 +5,8 @@ subtitle: Extending impact to state and local governments
 permalink: /our-work/hhs-states/
 redirect_from: /project/hhs-states/
 excerpt: Working with Health and Human Services to help states implement best practices and upgrade legacy systems.
-image: /assets/img/projects/hero_stateandlocal.jpg
-image_accessibility: "Photograph of people meeting in small groups during a workshop"
+image: assets/img/projects/hero_stateandlocal.jpg
+image_alt: "Photograph of people meeting in small groups during a workshop"
 project_weight: 3
 tag: state and local practice
 expiration_date:

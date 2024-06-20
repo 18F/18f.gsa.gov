@@ -20,9 +20,7 @@ const { readableDate
       , teamPhoto
       , teamLink
       , markdownify
-      , weightedSort
-      , asRelativeUrl
-      , matchPosts } = require('./config/filters');
+      , weightedSort } = require('./config/filters');
 const { postsCollection, servicesCollection, tagsCollection } = require('./config/collections');
 const { headingLinks } = require('./config/headingLinks');
 const { contrastRatio, humanReadableContrastRatio } = require('./config/wcagColorContrast');
@@ -107,12 +105,11 @@ module.exports = function (config) { /* eslint-disable-line func-names */
   config.addFilter('team_photo', teamPhoto);
   // Add a link to an 18F team member's author page
   config.addFilter('team_link', teamLink);
-  config.addFilter('weighted_sort', weightedSort);
-  config.addFilter('relative_url', asRelativeUrl);
-  config.addFilter('match_posts', matchPosts);
   config.addFilter('limit', (arr, limit) => arr.slice(0, limit));
   config.addFilter('matching', (collection, author) => collection.filter((post) => post.data.authors.includes(author)));
   config.addFilter('markdownify', markdownify);
+  config.addFilter('relative_url', (url) => url);
+  config.addFilter('weighted_sort', weightedSort);
 
   // Color contrast checkers for the color matrix in the Brand guide
   config.addFilter('contrastRatio', contrastRatio);
@@ -188,7 +185,7 @@ module.exports = function (config) { /* eslint-disable-line func-names */
     // Check for external URLs. External means any site that is not a federal .gov url
     // This check can't detect state/local .gov domains. Those will need to be
     // manually adjusted
-    const baseURL = new URL('https://guides.18f.gov/');
+    const baseURL = new URL('https://18f.gsa.gov/');
     const hrefValue = token.attrGet('href');
 
     if (!(new URL(hrefValue, baseURL).hostname.endsWith('.gov'))) {

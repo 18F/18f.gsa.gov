@@ -11,7 +11,7 @@ tags:
 - collaboration tools
 excerpt: "How do you work iteratively and in the open in government? How do you transform an agency’s digital presence with agile and user-centered design? We’ve learned a lot about this as we’ve worked alongside our partners at the Federal Election Commission (FEC) on beta.fec.gov, and we want to share some of those lessons here."
 image: /assets/blog/fec/fec-meeting.jpg
-image_accessibility: A group of approximately 20 people sit and stand around white boards and notes on a wall.
+image_alt: A group of approximately 20 people sit and stand around white boards and notes on a wall.
 image_caption: The FEC and 18F teams meet to review user research and prioritize upcoming work.
 ---
 

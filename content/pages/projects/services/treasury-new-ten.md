@@ -4,8 +4,8 @@ title: The New Ten
 subtitle: Shaping the story of the New Ten
 permalink: /our-work/new-ten/
 excerpt: The Department of the Treasury and 18F worked together to shape the story around the new ten dollar bill.
-image: /assets/img/projects/money-10.png
-image_accessibility: "A graphic of the US ten dollar bill on a blue background"
+image: assets/img/projects/money-10.png
+image_alt: "A graphic of the US ten dollar bill on a blue background"
 image_icon: gavel.svg
 project_weight: 2
 tag: new ten

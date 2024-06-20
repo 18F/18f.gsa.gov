@@ -5,8 +5,8 @@ subtitle: Opening up complex data
 permalink: /our-work/onrr-data-site/
 redirect_from: /project/onrr-data-site/
 excerpt: Natural Resources Revenue Data (NRRD) helps the public learn about extractive activities on public lands and waters.
-image: /assets/img/projects/nrrd-site.png
-image_accessibility: Screenshot of the revenuedata.doi.gov front page
+image: assets/img/projects/nrrd-site.png
+image_alt: Screenshot of the revenuedata.doi.gov front page
 project_weight: 12
 tag: nrrd
 github_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"

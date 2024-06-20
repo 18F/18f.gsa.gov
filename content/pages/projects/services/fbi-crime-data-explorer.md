@@ -4,8 +4,8 @@ title: Opening up crime data
 subtitle:
 permalink: /our-work/crime-data-explorer/
 excerpt: Moving critical crime data to a website with an open API to support transparency, access and awareness.
-image: /assets/blog/fbi-crime-data/fbi-hero.png
-image_accessibility: Crime data graphs laid over a map of the U.S.
+image: assets/blog/fbi-crime-data/fbi-hero.png
+image_alt: Crime data graphs laid over a map of the U.S.
 image_icon:
 project_weight: 10
 tag: fbi

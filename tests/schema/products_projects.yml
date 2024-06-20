@@ -14,7 +14,7 @@ config:
   optional:
     - agency
     - image
-    - image_accessibility
+    - image_alt
     - expiration_date
     - start_date
     - github_repo

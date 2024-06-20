@@ -5,8 +5,8 @@ subtitle:
 permalink: /our-work/state-uskpa/
 redirect_from: /project/state-uskpa/
 excerpt: Combining our technical expertise with USKPA's program knowledge to improve the tracking of rough diamonds.
-image: /assets/img/projects/uskpa.png
-image_accessibility: Screenshot of the uskpa.org front page
+image: assets/img/projects/uskpa.png
+image_alt: Screenshot of the uskpa.org front page
 project_weight: 10
 tag: uskpa
 expiration_date:

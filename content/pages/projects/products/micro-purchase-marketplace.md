@@ -5,7 +5,7 @@ subtitle: An marketplace for open source tasks
 permalink: /our-work/micro-purchase-marketplace/
 excerpt: A reverse auction house where agencies can work with 18F to post coding tasks and vendors can bid on how much they would be willing to be paid to complete the task.
 image:
-image_accessibility:
+image_alt:
 image_icon: folderwithclock.svg
 project_weight: 2
 tag: micro-purchase platforms

@@ -4,8 +4,8 @@ title: Secure access to services
 subtitle: A single sign-on for government
 permalink: /our-work/login-gov/
 excerpt: A single sign-on solution for government websites that enables the public to access services across select agencies with the same username and password.
-image: /assets/img/projects/login-gov.png
-image_accessibility: "The login.gov logo over a blue background with red and blue circlar lines surrounding the logo"
+image: assets/img/projects/login-gov.png
+image_alt: "The login.gov logo over a blue background with red and blue circlar lines surrounding the logo"
 image_icon:
 project_weight: 4
 tag: identity

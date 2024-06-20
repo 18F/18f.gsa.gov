@@ -4,8 +4,8 @@ title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve
 permalink: /our-work/ready-2-serve/
 excerpt: Understanding the experience of Navy Reservists to help streamline the deployment process.
-image: /assets/img/projects/ready-2-serve-sailors.jpg
-image_accessibility: "Sailors standing on a ship"
+image: assets/img/projects/ready-2-serve-sailors.jpg
+image_alt: "Sailors standing on a ship"
 tag: navy reserve
 expiration_date:
 github_repo: https://github.com/18F/r2s

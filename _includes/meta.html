@@ -24,15 +24,21 @@
   {% assign page_title = title | append: ' | 18F ' %}
 {% endif %}
 
+{% comment %}
+  Descriptions are escaped because some contain HTML content which,
+  left to its own devices, renders in a way that messes up <head>
+  and looks quite bad.
+{% endcomment %}
+
 <title>{{ page_title }}</title>
 <meta property="og:title" content="{{ page_title }}" />
-<meta name="description" content="{{ description }}" />
-<meta property="og:description" content="{{ description }}" />
+<meta name="description" content="{{ description | escape }}" />
+<meta property="og:description" content="{{ description | escape }}" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@{{ site.twitter }}" />
 <meta name="twitter:title" content="{{ title }}" />
-<meta name="twitter:description" content="{{ description }}" />
+<meta name="twitter:description" content="{{ description | escape }}" />
 
 <meta property="og:type" content="article" />
 <link rel="canonical" href="{{ page.url }}" />

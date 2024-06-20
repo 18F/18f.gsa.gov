@@ -5,8 +5,8 @@ subtitle:
 permalink: /our-work/doj-crt/
 redirect_from: /project/doj-crt/
 excerpt: Developing a user-friendly online submission experience for the civil rights complaint portal.
-image: /assets/blog/doj-crt-complaint-form.png
-image_accessibility: Screenshots of the new complaint portal interface
+image: assets/blog/doj-crt-complaint-form.png
+image_alt: Screenshots of the new complaint portal interface
 image_icon:
 project_weight: 12
 tag: civil rights
