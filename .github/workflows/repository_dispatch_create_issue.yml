@@ -15,7 +15,7 @@ jobs:
             --title "Nightly pa11y scan failed" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
-            --body "$DECODED_REPORT"
+            --body "```$DECODED_REPORT```"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
