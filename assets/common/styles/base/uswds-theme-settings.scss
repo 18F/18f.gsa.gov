@@ -1,4 +1,4 @@
-@use 'brand-colors' as *;
+@use '../abstracts/brand-colors' as *;
 @use 'uswds-core' as * with (
 
   /*---------------------------------------------------------
@@ -12,16 +12,32 @@
   /*---------------------------------------------------------
   # Global Settings
   ----------------------------------------------------------*/
-  $theme-global-link-styles: true,
+
 
 
   /*---------------------------------------------------------
   # Typography Settings
   ----------------------------------------------------------*/
-  $theme-font-type-sans: 'helvetica',
+  $theme-respect-user-font-size: false,
+
+  $theme-root-font-size: 18px,
+
+  $theme-global-paragraph-styles: true,
+  $theme-global-link-styles: true,
+  $theme-global-content-styles: true,
+
+  $theme-font-type-sans: "helvetica",
+
   $theme-font-role-heading: 'sans',
-  $theme-body-font-size: 'md',
-  $theme-font-weight-semibold: 700,
+  $theme-font-role-alt: 'sans',
+
+  $theme-type-scale-md: 7,
+  $theme-type-scale-xl: 11,
+
+  $theme-font-weight-medium: 100,
+
+  $theme-body-font-size: 'lg',
+  $theme-h1-font-size: '3xl',
 
 
   /*---------------------------------------------------------
@@ -63,6 +79,22 @@
   /*---------------------------------------------------------
   # Component Settings
   ----------------------------------------------------------*/
+  $theme-banner-max-width: 'desktop-lg',
+  $theme-breadcrumb-background-color: 'white',
+
+  $theme-card-border-radius: 'md',
+  $theme-card-border-width: 0,
+  $theme-card-gap: 3,
+
+
+  $theme-header-max-width: 'desktop-lg',
+
+  $theme-identifier-max-width: 'desktop-lg',
+
+  /*---------------------------------------------------------
+  # Spacing Settings
+  ----------------------------------------------------------*/
+  $theme-grid-container-max-width: 'desktop-lg',
 
   /*------------------------------------------------
   ## Header width
