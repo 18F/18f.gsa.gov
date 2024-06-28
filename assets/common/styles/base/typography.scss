@@ -2,7 +2,7 @@
 @use 'uswds-core' as *;
 
 // 18F site components
-@use 'variables.scss' as *;
+@use '../abstracts/variables.scss' as *;
 
 h1 {
   @include u-text('normal');

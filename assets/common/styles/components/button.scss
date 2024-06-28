@@ -1,6 +1,6 @@
 // Custom button style 
 @use 'uswds-core' as *;
-@use 'variables.scss' as *;
+@use '../abstracts/variables.scss' as *;
 
 .an18f-button--accent {
   background-color: color('primary-lightest'); 

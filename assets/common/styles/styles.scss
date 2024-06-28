@@ -1,7 +1,7 @@
 /*---------------------------------------------------------
 USWDS Settings
 ----------------------------------------------------------*/
-@forward "uswds-theme-settings";
+@forward "base/uswds-theme-settings";
 
 /*---------------------------------------------------------
 USWDS Source
@@ -11,7 +11,22 @@ USWDS Source
 /*---------------------------------------------------------
 Custom styling
 ----------------------------------------------------------*/
-@forward "custom-styles.scss";
+
+@forward 'base/typography';
+@forward 'base/utilities';
+
+@forward 'components/button';
+@forward 'components/card-with-image';
+@forward 'components/card-with-image-guides';
+@forward 'components/hr';
+@forward 'components/quotemark';
+
+@forward 'layout/header';
+@forward 'layout/section';
+@forward 'layout/sidenav';
+
+@forward 'pages/blog';
+@forward 'pages/project-page';
 
 @forward "overrides/code_highlight.scss";
 @forward "overrides/extended-header.scss";
