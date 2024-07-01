@@ -8,10 +8,7 @@ This repository houses the 18F website. We use the [U.S. Web Design System](http
 
 ## Local development
 
-__*Note:*__ _The cloud.gov Pages platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the cloud.gov Pages deployment and keep the tests working in CI, a cloud.gov Pages specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the cloud.gov Pages platform._
-
-Make sure you have Ruby 3.2 and Python 3.9 installed and active for the project
-directory. Python 3.7, 3.8, or 3.9 is required for some of the dependency builds.
+Make sure you have Ruby 3.2 and Python 3.9 installed and active for the project directory. Python 3.7, 3.8, or 3.9 is required for some of the dependency builds.
 
 Run each of the following steps to get the site up and running.
 
@@ -19,11 +16,14 @@ Run each of the following steps to get the site up and running.
 2. `cd 18f.gsa.gov`
 3. `bundle install`
 4. `npm install`
-5. `./serve`
+5. `gem install foreman`
+6. `foreman start`
 
-To reduce the build time, instead of `./serve` you can run `./serve-fast`. This will eliminate all of the blog posts and the search index, but generates all other pages
+__*Note:*__ _The cloud.gov Pages platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the cloud.gov Pages deployment and keep the tests working in CI, a cloud.gov Pages specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the cloud.gov Pages platform._
 
-You should be able to see the site at: [http://127.0.0.1:4000/site/](http://127.0.0.1:4000/site/)
+To reduce the build time, if you don't need to see blog posts, instead of `./serve` you can run `./serve-fast`. This will eliminate all of the blog posts and the search index, but generates all other pages
+
+You should be able to see the site at: [http://0.0.0.0:4000/site/](http://0.0.0.0:4000/site/)
 
 > **NOTE:** If you are using an M-series Mac (M1, M2, etc.), you may need to
 > configure bundler to use special build flags for eventmachine. To do that, run:
@@ -50,7 +50,7 @@ Using Docker can make dependencies management easier, but can also slow down you
 4. Run `docker compose build` to build the docker image and its dependencies.
 5. Run `docker compose up`.
    **Note**: if you want to run a single command and bypass your `Dockerfile` for debugging purposes, you can do like so `docker compose run app <COMMAND>` (for instance, you can run bundle  `docker compose run app bundle install`). Our site is large, so **this could take awhile**.
-6. Visit [http://localhost:4000/site/](http://127.0.0.1:4000/site/) in your browser. Make sure that you include the trailing slash.
+6. Visit [http://0.0.0.0:4000/site/](http://0.0.0.0:4000/site/) in your browser. Make sure that you include the trailing slash.
 
 If there was an error with the build, rebuild using  the  `--no-cache` option like so `docker compose build --no-cache`  to avoid using the old version of the docker image.
 
