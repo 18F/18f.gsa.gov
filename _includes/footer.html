@@ -1,15 +1,93 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-darker">
-    <div class="grid-container">
-      <div class="grid-row">
-        <div class="grid-col usa-dark-background">
-          <p class="margin-bottom-0 text-white">This project is maintained by <a class="usa-link text-primary-dark" href="https://18f.gsa.gov/">18F</a></p>
-          <p class="margin-bottom-0 margin-top-05 text-white">Learn more about our <a class="usa-link text-primary-dark" href="https://18f.gsa.gov/linking-policy/">Linking Policy</a></p>
-          <p class="margin-top-05 text-white">Have questions or would like to contact us? Email us at <a class="usa-link text-primary-dark" href="mailto:18f@gsa.gov">18F@gsa.gov</a></p>
-        </div>
+<footer>
+  <div class="grid-container padding-y-6">
+    {% unless page.hide_footer_rule %}
+    <hr class="hr-1-dark footer-hr-alignment">
+    {% endunless %}
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-3">
+        <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg"
+             class="maxw-5"
+             alt="18F logo"
+        > 
+        <p>
+          Work with us to plan successful projects, choose better vendors, build custom
+          software, or learn how to work in new ways.
+        </p>
+        <a href="{{ site.baseurl }}/contact/" 
+           class="usa-button an18f-button--dark"
+        >
+          Contact us
+        </a>
+      </div>
+
+      <div class="tablet:grid-offset-1 tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Pages 
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
+        {% for item in site.data.navigation.primary %}
+        <li> <a href="{{ site.baseurl }}{{ item.href }}"> {{item.text}} </a> </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Policies
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
+          <li><a href="{{ site.baseurl }}/linking-policy/"> Linking policy </a></li>
+          <li><a href="{{ site.baseurl }}/open-source-policy/"> Open source policy </a></li>
+          <li><a href="{{ site.baseurl }}/vulnerability-disclosure-policy/"> Vulnerability disclosure </a></li>
+          <li><a href="{{ site.baseurl }}/code-of-conduct/"> Code of conduct </a></li>
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2"> 
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Contact
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
+          <li><a href="{{ site.baseurl }}/contact/"> Get in touch </a></li>
+          <li><a href="{{ site.baseurl }}/about/#for-press"> Press </a></li>
+          <li><a href="https://github.com/18F/18f.gsa.gov/issues/new"> Report a bug </a></li>
+          <li><a href="{{ site.baseurl }}/join/"> Join 18F </a></li>
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2">
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Social 
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
+          <li class="display-flex flex-align-center">
+            <a href="https://github.com/18F">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/github-dark-2.svg"
+                   class="maxw-205 margin-right-1 text-tbottom"
+                   alt=""
+              >GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/18F">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter-dark.svg"
+                   class="maxw-205 margin-right-1"
+                   alt=""
+              >Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/gsa18f/">
+              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/linkedin-dark.svg"
+                   class="maxw-205 margin-right-1"
+                   alt=""
+              >LinkedIn
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</footer>
 
-{% include "usa_identifier.html" %}
+  {% include "usa_identifier.html" %}
+</footer>
