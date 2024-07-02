@@ -15,10 +15,10 @@ excerpt: Through work funded by 10x, a team from 18F investigated how technology
 One of the federal government’s highest priorities is protecting the privacy of the people it serves. Government agencies collect and maintain personally identifiable information (PII) from members of the public in order to provide services. Within all agencies, there are dedicated public servants whose mandate is to safeguard and manage this personal information within agency systems. They keep track of what data about individuals their agency collects, who those individuals are, why their agency needs it, and when that data is no longer needed by the agency and should be deleted. Privacy offices serve as stalwart defenders against potential overreach or misuse of PII. The laws that privacy offices must comply with require a lot of paperwork, and managing that paperwork takes up a lot of their time.
 
 Through work funded by [10x](https://10x.gsa.gov/), a team from 18F investigated how technology can help busy privacy offices manage your PII, and make their work more accessible and understandable for the public. With our partners in GSA’s Privacy Office, we built a custom [solution](https://cg-9341b8ea-025c-4fe2-aa6c-850edbebc499.app.cloud.gov/site/18f/privacy-dashboard/) that saved them an estimated 300 hours of staff time dealing with paperwork this year alone, and made it easier for them to manage the PII in their systems. The next phase of our work is to explore opportunities for scaling this work across government for the benefit of all executive branch privacy offices and the public they serve.
-
+/Users/igorkorenfeld/Documents/_Projects/TLC/18F-site/18f.gsa.gov/_posts/2020-12-14-a-dashboard-for-privacy-offices.md
 ## The problem
 
-![Newspaper clip with the headline: "Huge C.I.A. operation reported in U.S. against antiwar forces, other dissidents in Nixon Years"]({{ site.baseurl }}/assets/blog/image1.png)
+![Newspaper clip with the headline: "Huge C.I.A. operation reported in U.S. against antiwar forces, other dissidents in Nixon Years"]({{ site.baseurl }}/assets/blog/privacy-devops/newspaper-1974.png)
 
 The Privacy Act of 1974 was passed in the Watergate era, at a time when scandals involving the abuse of people’s privacy by the government were in the headlines. The new law required all federal government agencies to notify the public about any information systems (Systems of Records) they operate that contain personally identifiable information about individuals (the ‘Category of Records’ in the system).
 
@@ -38,7 +38,7 @@ Our first goal was to create a minimum viable product that our partners could us
 
 In the end, we had something that looked like [this dashboard](http://cg-9341b8ea-025c-4fe2-aa6c-850edbebc499.app.cloud.gov/site/18f/privacy-dashboard/).
 
-![Gif of the PII inventory dashboard of a user looking for the term social security number]({{ site.baseurl }}/assets/blog/image2.gif)
+![Gif of the PII inventory dashboard of a user looking for the term social security number]({{ site.baseurl }}/assets/blog/privacy-devops/pii-inventory.gif)
 
 Our prototype was simple, but it immediately delivered impact for our partners. The dashboard saved them from having to resort to manual processes that take hours upon hours of their valuable time. It also increased their confidence in their analysis and reporting, which helped them answer questions and collaborate more effectively with other departments. 
 
@@ -52,7 +52,7 @@ In the next phase, we want to take what we’ve learned from our initial partner
 
 There are a few important things that we learned through building this prototype. First, it is important to meet partners where they are and give them tools that are immediately useful. It was important to us not to make life more difficult for GSA’s privacy office by making them learn a new tool. Instead, we made the decision to use Google Sheets as the backend for this prototype, which meant that our partners could make changes to the data behind the tool without our assistance. 
 
-![Steps for data to go into dashboard: First a google sheet with backend data store and edit access is created, then updated in Github, and finally published though Federalist]({{ site.baseurl }}/assets/blog/image3.png)
+![Steps for data to go into dashboard: First a google sheet with backend data store and edit access is created, then updated in Github, and finally published though Federalist]({{ site.baseurl }}/assets/blog/privacy-devops/tech-stack.png)
 
 Next, we learned that taking a ‘compliance hacking’ approach to building a prototype was an effective way to deliver a tool that our partners can continue to use after we leave. Because our technical stack is made of components that have already been given the Authority to Operate (ATO), our partners can continue to use the tool in their regular work without further investment. Though an ATO will be required for the version of this tool that we build at scale, this approach allowed us to provide real value to our partners first and prove that there is a demand for our tool before going through the ATO process.
 
