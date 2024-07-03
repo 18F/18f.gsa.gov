@@ -45,10 +45,8 @@ Ultimately, to me this project is about how to make engaging with the Court  - w
 
 **Mike Marcotte:** I’m proud of DAWSON’s stability. There have been a few bugs here and there, but compared to the early months after launch, the bugs that we have had to tackle at one time have been few and quickly solved. Deployments are very predictable, and we are marching forward at what seems like a healthy rate. Knock on wood, the application has had only one outage in the last two years due to our service provider’s unexpected outage in one region. DAWSON came out of it more resilient than before. If a similar outage occurred  today, we would stay up and running. We owe much of this to the automated tests that improve with each deployment.
 
-<blockquote class="testimonial-blockquote" markdown=1>
-Every week we think of new opportunities to bring to the system - it’s been great to be able to think outside the box.
-<span>– Stephanie Servoss, Clerk of the Court</span>
-</blockquote>
+> Every week we think of new opportunities to bring to the system - it’s been great to be able to think outside the box.
+> <span>– Stephanie Servoss, Clerk of the Court</span>
 
 ### _What are some recent challenges or interesting problems that you have been working on?_
 
