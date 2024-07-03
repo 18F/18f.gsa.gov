@@ -79,8 +79,8 @@ When we analyzed the responses, we found results that made us proud, and
 others that showed where our culture needs improvement. Some questions
 had dramatically positive results:
 
-<div aria-hidden="true" markdown="1">
-{% image "assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg" "Chart - "It is easy to ask other members of this team for help"" %}
+<div aria-hidden="true">
+{% image "assets/blog/culture-climate-survey-2019/chart-easy-to-ask-for-help.svg" "Chart - 'It is easy to ask other members of this team for help'" %}
 </div>
 
 <table class="usa-sr-only">
@@ -111,8 +111,8 @@ had dramatically positive results:
   </tbody>
 </table>
 
-<div aria-hidden="true" markdown="1">
-{% image "assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg" "Chart - "On this team, I can voice a contrary opinion without fear of negative consequences"" %}
+<div aria-hidden="true">
+{% image "assets/blog/culture-climate-survey-2019/chart-contrary-opinion.svg" "Chart - 'On this team, I can voice a contrary opinion without fear of negative consequences'" %}
 </div>
 
 <table class="usa-sr-only">
@@ -146,11 +146,11 @@ had dramatically positive results:
 Other questions also showed strengths, but with more room for
 improvement — trending at 5 instead of 7.
 
-<div aria-hidden="true" markdown="1">
-{% image "assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg" "Chart - "I am satisfied with my work"" %}
+<div aria-hidden="true">
+{% image "assets/blog/culture-climate-survey-2019/chart-satisfied-with-my-work.svg" "Chart - 'I am satisfied with my work'" %}
 </div>
 
-<div class="usa-sr-only" markdown="1">
+<div class="usa-sr-only">
 </div>
 
 <table class="usa-sr-only">
@@ -181,8 +181,8 @@ improvement — trending at 5 instead of 7.
   </tbody>
 </table>
 
-<div aria-hidden="true" markdown="1">
-{% image "assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg" "Chart - "I feel I am growing as an engineer"" %}
+<div aria-hidden="true">
+{% image "assets/blog/culture-climate-survey-2019/chart-growing-as-engineer.svg" "Chart - 'I feel I am growing as an engineer'" %}
 </div>
 
 <table class="usa-sr-only">
@@ -219,8 +219,8 @@ patterns.
 
 For example:
 
-<div aria-hidden="true" markdown="1">
-![Chart - "Administrative or clerical tasks that don’t have a specific owner are
+<div aria-hidden="true">
+![Chart - 'Administrative or clerical tasks that don’t have a specific owner are
 fairly divided"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-administrative-tasks-fairly-divided.svg)
 </div>
 
