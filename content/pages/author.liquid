@@ -1,11 +1,8 @@
----js
-{
-  pagination: {
-    data: "team_members",
-    size: 1,
-    alias: "author",
-  },
-  permalink: "author/{{ author.id | slugify }}/",
-  layout: "author"
-}
+---
+pagination:
+  data: "team_members"
+  size: 1
+  alias: "author"
+permalink: "author/{{ author.id | slugify }}/"
+layout: "author"
 ---
