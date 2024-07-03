@@ -119,7 +119,8 @@ title: Home
   <div class="grid-container">
     <h2 class="margin-bottom-3">Some agencies we’ve worked with</h2>
     <ul class="grid-row grid-gap usa-list--unstyled">
-      {% for agency in agencies | where: "featured", true %}
+      {% assign featured_agencies = agencies | where: "featured" %}
+      {% for agency in featured_agencies %}
       <li class="tablet:grid-col-4 display-flex flex-align-center margin-top-4">
         {% image_with_class agency.logo "margin-right-105 maxw-7" "" %}
         {% if agency.url %}
