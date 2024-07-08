@@ -10,6 +10,7 @@ tags:
   - how we work
 excerpt: >
   18F engineering has grown and matured as an organization over time. We recently celebrated our 10th anniversary delivering better government services to the public. To support continual investment in our practices, we are renewing our commitment to regularly publishing what we learn, and creating a new engineering leadership role at 18F.
+image: /assets/blog/engineering-10/engineering-10-banner.jpg
 ---
 
 # 18F's engineering craft practices at 10 
