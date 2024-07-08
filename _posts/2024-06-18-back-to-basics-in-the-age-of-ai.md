@@ -18,7 +18,7 @@ excerpt: >
 
 The federal government is abuzz with conversation about the way that artificial intelligence (AI) is going to change the game. Since 18F partners with agencies to drive technology modernization forward, our ability to navigate the opportunities and risks associated with AI is critical. But as we’re learning new things, we also find ourselves going back to basics. As we evaluate and use AI, we can rely on many of the same practices that we apply to any other new technology. Read on for a quick overview of AI, its place in government today, and the techniques and frameworks we’re using as we navigate this new landscape.
 
-# Defining AI
+## Defining AI
 
 "AI" refers to software that can do human-like tasks. For example, solving problems or "recognizing" the contents of a photograph. The phrase "artificial intelligence" can sound very futuristic and even alarming. In reality, the word "intelligence" is somewhat of a misnomer and we’ve been using forms of AI in our day-to-day work and lives for many years. A simple type of AI is a spelling or grammar checker. Big advancements in recent years have certainly created powerful new tools, but the underlying technology is familiar.
 
@@ -29,7 +29,7 @@ While there are many forms of AI, some of the more common ones include:
 
 Like with any new technological advancements, the use of AI has pros and cons. AI can automate rote tasks, reduce human error, or perform complex analysis in seconds. At the same time, AI can perpetuate biases based on the data it ingests, not recognize edge cases, be used to cheat, and contribute to disinformation (e.g., deep fakes). Like most technology, AI is neither good nor bad in and of itself — it’s all about the application and use cases.
 
-# AI in government
+## AI in government
 
 In fall 2023, the Biden Administration released an [AI Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/), encouraging agencies to harness the potential of AI to solve urgent challenges, but stressing the importance of doing so responsibly and safely. That mandate has begun to be operationalized through OMB’s [first government-wide policy on AI](https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf), which outlines expectations for agencies to use it in smart, ethical, and equitable ways. To further support these goals, a [National AI Talent Surge](https://ai.gov/apply/) is underway.
 
@@ -42,9 +42,9 @@ Some specific examples of AI in action today:
 
 You can find many other examples of AI in use at [https://ai.gov/ai-use-cases/](https://ai.gov/ai-use-cases/).
 
-# How 18F is navigating AI
+## How 18F is navigating AI
 
-## Leaning on what we know
+### Leaning on what we know
 
 While AI may seem daunting and overwhelmingly technical, the good news is that many of our current design practices are still relevant in navigating AI.
 
@@ -63,7 +63,7 @@ Here are some of our practices and ways of thinking that we’ll be relying on a
 
 - Learn more about [how 18F considers ethics in our UX guide](https://guides.18f.gov/ux-guide/research/ethics/).
 
-## Incorporating new techniques
+### Incorporating new techniques
 
 As we continue to navigate our evolving landscape, 18F is exploring the following considerations and practices to help us more effectively and responsibly harness the powers of new technologies.
 
@@ -81,7 +81,7 @@ Anti-personas are archetypes of user groups that misuse a solution, potentially 
 
 You can test your anti-personas through situational testing practices, like [red teaming](https://csrc.nist.gov/glossary/term/red_team_exercise), where a predefined bad actor (e.g., your anti-persona) gains access to your product, feature, or service in a simulated environment and attempts to misuse it. The internal team can respond to the bad actor, practicing their internal defensive procedures. Red-teaming can also be in the form of a simple discussion of different scenarios of how anti-personas might exploit your solution before you start prototyping it. In any case, scenario-based practices are meant to surface potential risks and vulnerabilities, evaluate your team’s response in those situations, and reduce harm to your users and your organization.
 
-# Looking ahead
+## Looking ahead
 
 While we upskill and build capacity in AI, we’re regrounding ourselves in many of our established practices while we explore newer ones. Just like us, you probably have a lot of tools you can use as you learn about and bring AI into your work — don’t disregard them!
 
