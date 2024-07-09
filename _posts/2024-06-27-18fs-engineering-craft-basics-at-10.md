@@ -1,6 +1,6 @@
 ---
 title: 18F's engineering craft practices at 10
-date: 2024-06-27
+date: 2024-07-09
 authors:
   - logan-mcdonald
   - alex-bielen
