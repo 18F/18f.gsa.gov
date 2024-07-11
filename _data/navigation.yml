@@ -1,20 +1,53 @@
 primary:
-- text: Our work
-  href: /our-work/
-  multiple_permalinks:
-    - /our-work/:path/
-- text: Work with us
-  href: /work-with-us/
-- text: About 18F
-  href: /about/
-- text: Guides
-  href: /guides/
-- text: Blog
-  href: /blog/
-  multiple_permalinks:
-    - /blog/:path/
-    - /tags/:path/
-    - /author/:path/
-- text: Contact
-  href: /contact/
-  class: usa-button an18f-button--dark margin-top-3 desktop:margin-top-0 desktop:margin-x-2
+  -
+    text: Our work
+    href: /our-work/
+  -
+    text: Work with us
+    href: /work-with-us/
+  -
+    text: About 18F
+    href: /about/
+  -
+    text: Guides
+    href: /guides/
+  -
+    text: Blog
+    href: /blog/
+  -
+    text: Contact
+    href: /contact/
+    class: usa-button an18f-button--dark margin-top-3 desktop:margin-top-0 desktop:margin-x-2
+
+
+policies:
+  # -
+  #   text: Partnership principles
+  #   href: /partnership-principles/
+  -
+    href: /linking-policy/
+    text: Linking policy
+  -
+    href: /open-source-policy/
+    text: Open source policy
+  -
+    href: /vulnerability-disclosure-policy/
+    text: Vulnerability disclosure
+  -
+    href: /code-of-conduct/
+    text: Code of conduct
+
+
+contact:
+  -
+    href: /contact/
+    text: Get in touch
+  -
+    href: /about/#for-press
+    text: Press
+  -
+    href: https://github.com/18F/18f.gsa.gov/issues/new/choose
+    text: Report a bug
+  -
+    href: /join/
+    text: Join 18F
