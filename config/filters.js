@@ -89,12 +89,6 @@ const teamLink = (slug) => {
   return `<a href="/author/${slug.toLowerCase()}/">${name}</a>`
 }
 
-// TODO This needs implementation, it's just a placeholder for now.
-// TODO Remove the eslint-disable directive after implementation
-/* eslint-disable */
-const weightedSort = (array, weight_name, sort_name) => array
-/* eslint-enable */
-
 const md = markdownIt({ html: true });
 const markdownify = (content) => md.render(content)
 
@@ -108,5 +102,4 @@ module.exports = {
   teamPhoto,
   teamLink,
   markdownify,
-  weightedSort,
 };
