@@ -19,8 +19,7 @@ const { readableDate
       , embed
       , teamPhoto
       , teamLink
-      , markdownify
-      , weightedSort } = require('./config/filters');
+      , markdownify } = require('./config/filters');
 const { postsCollection, servicesCollection, tagsCollection } = require('./config/collections');
 const { headingLinks } = require('./config/headingLinks');
 const { contrastRatio, humanReadableContrastRatio } = require('./config/wcagColorContrast');
@@ -109,7 +108,6 @@ module.exports = function (config) { /* eslint-disable-line func-names */
   config.addFilter('matching', (collection, author) => collection.filter((post) => post.data.authors.includes(author)));
   config.addFilter('markdownify', markdownify);
   config.addFilter('relative_url', (url) => url);
-  config.addFilter('weighted_sort', weightedSort);
 
   // Color contrast checkers for the color matrix in the Brand guide
   config.addFilter('contrastRatio', contrastRatio);
