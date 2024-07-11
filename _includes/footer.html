@@ -8,56 +8,54 @@
         <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg"
              class="maxw-5"
              alt="18F logo"
-        > 
+        >
         <p>
           Work with us to plan successful projects, choose better vendors, build custom
           software, or learn how to work in new ways.
         </p>
-        <a href="{{ site.baseurl }}/contact/" 
+        <a href="{{ site.baseurl }}/contact/"
            class="usa-button an18f-button--dark"
         >
           Contact us
         </a>
       </div>
 
-      <div class="tablet:grid-offset-1 tablet:grid-col-2"> 
+      <div class="tablet:grid-offset-1 tablet:grid-col-2">
         <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
-          Pages 
+          Pages
         </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
-        {% for nav_item in navigation.primary %}
-        <li> <a href="{{ nav_item.href | url }}"> {{nav_item.text}} </a> </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="tablet:grid-col-2"> 
-        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
-          Policies
-        </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
-          <li><a href="{{ site.baseurl }}/linking-policy/"> Linking policy </a></li>
-          <li><a href="{{ site.baseurl }}/open-source-policy/"> Open source policy </a></li>
-          <li><a href="{{ site.baseurl }}/vulnerability-disclosure-policy/"> Vulnerability disclosure </a></li>
-          <li><a href="{{ site.baseurl }}/code-of-conduct/"> Code of conduct </a></li>
-        </ul>
-      </div>
-
-      <div class="tablet:grid-col-2"> 
-        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
-          Contact
-        </h2>
-        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
-          <li><a href="{{ site.baseurl }}/contact/"> Get in touch </a></li>
-          <li><a href="{{ site.baseurl }}/about/#for-press"> Press </a></li>
-          <li><a href="https://github.com/18F/18f.gsa.gov/issues/new"> Report a bug </a></li>
-          <li><a href="{{ site.baseurl }}/join/"> Join 18F </a></li>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
+        {% for item in navigation.primary %}
+          <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+        {% endfor %}
         </ul>
       </div>
 
       <div class="tablet:grid-col-2">
         <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
-          Social 
+          Policies
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
+          {% for item in navigation.policies %}
+            <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2">
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Contact
+        </h2>
+        <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
+          {% for item in navigation.contact %}
+            <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="tablet:grid-col-2">
+        <h2 class="font-heading-md text-medium margin-top-4 tablet:margin-top-0 margin-bottom-2 tablet:margin-bottom-4">
+          Social
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
           <li class="display-flex flex-align-center">
