@@ -22,8 +22,8 @@ excerpt: >
 _This is the third in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Emily Read and the USGS Water Resources Mission Area Projects](https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/)._
 
 {% image "assets/blog/ustc-dawson-checkin/dawson-home.png" "The U.S. Tax Court DAWSON electronic case file system's homepage" %}
-This is the current home page for DAWSON. The Tax Court’s electronic filing and case management system, launched in 2020, is named for the Court’s longest-serving judge, Howard A. Dawson, Jr. This system is entirely web-based and open source.
-{: .font-alt-xs }
+
+This is the current home page for DAWSON. The Tax Court’s electronic filing and case management system, launched in 2020, is named for the Court’s longest-serving judge, Howard A. Dawson, Jr. This system is entirely web-based and open source. {.font-alt-xs}
 
 The United States Tax Court is an independent federal court that settles disputes between taxpayers and the Internal Revenue Service. Since the 1980s, the Court has used a modified commercial software product to manage its operations. In December 2020, the Court introduced [DAWSON](https://www.dawson.ustaxcourt.gov), a modern open-source case management system developed with assistance from an industry partner and 18F. DAWSON streamlined Court operations and changed the way the public interacts with the Court.
 

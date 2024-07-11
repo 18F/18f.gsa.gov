@@ -19,8 +19,8 @@ excerpt: >
 _This is the second in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Jerome Lee and the eAPD Project](https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/)._
 
 {% image "assets/blog/usgs-wma-checkin/20210722_150403.jpg" "USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge." %}
-USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low)
-{: .font-alt-xs }
+
+USGS hydrologic technician Travis Gibson confirms Great Salt Lake water levels at the SaltAire gauge. Source: [USGS Multimedia Gallery](https://www.usgs.gov/media/images/great-salt-lake-reaches-new-historic-low) {.font-alt-xs}
 
 18F partnered with the U.S. Geological Survey (USGS) on a few different projects from March 2020 to June 2022. We worked on a wide variety of projects together, including: [Water Resources Mission Area Platform Modernization Path Analysis](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/), Experiment & Iterate, and Acquisition Consulting; National Groundwater Monitoring Network Path Analysis; and National Water Information System Data Delivery Strategy.
 

@@ -13,8 +13,8 @@ excerpt: "We asked 18F designers what they've learned from fellow designers whil
 ---
 
 {% image "assets/blog/team_brainstorming.png" "Image of team brainstorming" %}
-Special thanks to designer Jia Gu for the images in this post
-{: .font-alt-xs }
+
+Special thanks to designer Jia Gu for the images in this post {.font-alt-xs}
 
 18F is a learning organization. We continue learning from each other by regularly communicating, collaborating, and sharing our ideas (in video calls, leaving real-time feedback in docs, everywhere we can) with teammates.
 
