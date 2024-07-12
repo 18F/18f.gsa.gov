@@ -1,34 +1,25 @@
-const path = require('path');
-const Image = require('@11ty/eleventy-img');
+// const assets = require('./plugins/assets')
+const browsersync = require('./browsersync')
+const collections = require('./collections')
+const dataExtensions = require('./data_extensions')
+const events = require('./events')
+const filters = require('./filters')
+const markdown = require('./markdown')
+const passthroughs = require('./passthroughs')
+const plugins = require('./plugins')
+const shortcodes = require('./shortcodes')
 
-async function imageWithClassShortcode(
-  src,
-  cls,
-  alt,
-) {
-  let pathPrefix = '';
-
-  if (process.env.BASEURL) {
-    pathPrefix = process.env.BASEURL;
-  }
-
-  const ext = path.extname(src);
-  const fileType = ext.replace('.', '');
-
-  const metadata = await Image(src, {
-    formats: [fileType],
-    outputDir: './_site/img/',
-  });
-
-  const data = metadata[fileType] ? metadata[fileType][0] : metadata.jpeg[0];
-  return `<img src="${pathPrefix}${data.url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`;
+// Wrapper for custom bits for 18f.gsa.gov
+module.exports = function EighteenF(eleventyConfig) {
+  // Asset building
+  // eleventyConfig.addPlugin(assets)
+  eleventyConfig.addPlugin(browsersync)
+  eleventyConfig.addPlugin(collections)
+  eleventyConfig.addPlugin(dataExtensions)
+  eleventyConfig.addPlugin(events)
+  eleventyConfig.addPlugin(filters)
+  eleventyConfig.addPlugin(markdown)
+  eleventyConfig.addPlugin(passthroughs)
+  eleventyConfig.addPlugin(plugins)
+  eleventyConfig.addPlugin(shortcodes)
 }
-
-async function imageShortcode(src, alt) {
-  return await imageWithClassShortcode(src, '', alt);
-}
-
-module.exports = {
-  imageWithClassShortcode,
-  imageShortcode,
-};
