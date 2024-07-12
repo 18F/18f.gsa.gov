@@ -25,8 +25,8 @@
           Pages 
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2"> 
-        {% for item in site.data.navigation.primary %}
-        <li> <a href="{{ site.baseurl }}{{ item.href }}"> {{item.text}} </a> </li>
+        {% for nav_item in navigation.primary %}
+        <li> <a href="{{ nav_item.href | url }}"> {{nav_item.text}} </a> </li>
           {% endfor %}
         </ul>
       </div>
