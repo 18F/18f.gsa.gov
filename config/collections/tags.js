@@ -7,12 +7,9 @@ const slugify = require('slugify');
 
 slugify.extend({'.': '-'})
 
-const postsCollection = (collection) => collection.getFilteredByGlob('content/posts/*.md');
-const servicesCollection = (collection) => collection.getFilteredByGlob('content/pages/projects/services/*.md');
-
 // Create a collection of all tags across all posts
 // Each tag has a `name` property, as well as a `posts` array with all the posts with that tag
-const tagsCollection = (collection) => {
+module.exports = async (collection) => {
   const tagMap = new Map();
 
   collection.getAll().forEach((post) => {
@@ -47,10 +44,4 @@ const tagsCollection = (collection) => {
   return tags;
   // I commented this out — it's not clear what it's doing and it doesn't seem important.
   // return filterTagList([...tagSet]);
-};
-
-module.exports = {
-  postsCollection,
-  servicesCollection,
-  tagsCollection,
 };
