@@ -4,79 +4,43 @@ directly or you can look inside _config.yml where we provide an easy way to
 manage your navigation system
 {% endcomment %}
 
-<header class="usa-header usa-header--extended" role="banner">
-  <div class="usa-navbar">
-    {% include "logo.html" %}
-    <button type="button" class="usa-menu-btn">Menu</button>
-  </div>
-  <nav
-    id="menu-navigation"
-    aria-label="Menu navigation"
-    role="navigation"
-    class="usa-nav"
-  >
-    <div class="usa-nav__inner">
+<header class="usa-header usa-header--basic usa-header--basic-megamenu" role="banner">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      {% include "logo.html" %}
+      <button type="button" class="usa-menu-btn">Menu</button>
+    </div>
+    <nav
+      class="usa-nav"
+      aria-label="Menu navigation"
+    >
       <button type="button" class="usa-nav__close">
         {% image "./node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" "close" %}
       </button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in primary_navigation %}
-          {% unless nav_item.children %}
-          {% if tags %}
-            {% assign basedir = page.url | remove: titles_roots[tags].root | split: '/' | first | lstrip %}
-            {% assign linkdir = nav_item.url | remove: titles_roots[tags].root | replace: '/', '' | lstrip %}
-          {% else %}
-            {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
-            {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
+        {% for nav_item in navigation.primary %}
+        <li class="usa-nav__primary-item">
+          {% assign nav_item_class = "usa-nav__link" %}
+          {% if nav_item.class %}
+            {% assign nav_item_class = nav_item.class %}
           {% endif %}
-        <li class="usa-nav__primary-item">
           <a
-            class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | url }}"
-            ><span>{{ nav_item.name | escape }}</span></a
+            class="{{ nav_item_class }} {% if page.url == nav_item.href %} usa-current {% endif %}"
+            href="{{ nav_item.href | url }}"
+            {% if page.url == nav_item.href %} aria-current="page" {% endif %}
           >
+            <span>{{ nav_item.text | escape }}</span>
+          </a>
         </li>
-        {% else %} {% assign nav_id = 'primary-nav-' | append: forloop.index %}
-        <li class="usa-nav__primary-item">
-          <button
-            class="usa-accordion__button usa-nav__link"
-            aria-expanded="false"
-            aria-controls="{{ nav_id }}"
-            type="button"
-          >
-            <span>{{ nav_item.name | escape }}</span>
-          </button>
-          <ul id="{{ nav_id }}" class="usa-nav__submenu">
-            {% for subnav_item in nav_item.children %}
-            <li class="usa-nav__submenu-item">
-              <a href="{{ subnav_item.url | url }}"
-                >{{ subnav_item.name | escape }}</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endunless %} {% endfor %}
+        {% endfor %}
       </ul>
-      {% comment %}
-      TODO: The conditional and bottom-2 class on the line below can be removed after launch.
-      It's there to fix wonky alignment when search is present on the index page
-      {% endcomment%}
-      <div class="usa-nav__secondary {% unless tags %} bottom-2 {% endunless %}">
-        {% if navigation.secondary_navigation %}
-        <ul class="usa-nav__secondary-links">
-          {% for nav_item in navigation.secondary_navigation %}
-          <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | url }}" class="text-bold">
-              {{ nav_item.name | escape }}
-            </a
-            >
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-        {% include "searchgov/form.html" searchgov: site.searchgov %}
-      </div>
-    </div>
-  </nav>
+      {% if site.searchgov  %}
+      <a href="https://search.usa.gov/search?utf8=%E2%9C%93&affiliate={{site.searchgov.affiliate}}&query=&commit="
+         class="usa-button padding-x-2"
+      >
+        {% image "assets/uswds/img/usa-icons-bg/search--white.svg" "Search" %}
+      </a>
+      {% endif %}
+    </nav>
+  </div>
 </header>
