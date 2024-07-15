@@ -46,7 +46,7 @@
   name: Department of Labor
   acronym: DOL
   logo: assets/img/logos/agencies/USDOL.svg
-  featured: true
+  featured: false
 -
   name: Department of State
   logo: assets/img/logos/agencies/USDS.png
