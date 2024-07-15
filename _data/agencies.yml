@@ -43,6 +43,10 @@
   logo: assets/img/logos/agencies/USDOJ.png
   featured: true
 -
+  name: Department of Labor
+  acronym: DOL
+  logo: assets/img/logos/agencies/USDOL.svg
+-
   name: Department of State
   logo: assets/img/logos/agencies/USDS.png
 -
