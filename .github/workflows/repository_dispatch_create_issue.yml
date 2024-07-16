@@ -10,15 +10,28 @@ jobs:
     steps:
       - name: Create GH issue
         run: |
-          DECODED_REPORT=$(echo $BODY | base64 --decode)
+          if [[ $CLOSE_PREVIOUS == true ]]; then
+            previous_issue_number=$(gh issue list \
+              --label "$LABELS" \
+              --json number \
+              --jq '.[0].number')
+            if [[ -n $previous_issue_number ]]; then
+              gh issue close "$previous_issue_number"
+            fi
+          fi
           gh issue create \
             --title "Nightly pa11y scan failed" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
-            --body "```$DECODED_REPORT```"
+            --body "$BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           ASSIGNEES: caleywoods
-          LABELS: type:accessibility
+          LABELS: type:accessibility,nightly-pa11y-scan-failed
           BODY: ${{ github.event.client_payload.report }}
+          CLOSE_PREVIOUS: false
+          BODY: |
+            ```
+            $(echo $BODY | base64 --decode)
+            ```
