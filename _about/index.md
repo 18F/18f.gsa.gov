@@ -17,9 +17,6 @@ subnav_items:
     permalink: /about/#for-press
 ---
 
-<h2 id="test">Duplicate</h2>
-<h2 id="test">ID</h2>
-
 ## History
 
 In March 2014, a group of [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) started 18F to extend their efforts to improve and modernize government technology.
