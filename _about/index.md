@@ -17,6 +17,8 @@ subnav_items:
     permalink: /about/#for-press
 ---
 
+<h2 id="test">Duplicate</h2>
+<h2 id="test">ID</h2>
 
 ## History
 
