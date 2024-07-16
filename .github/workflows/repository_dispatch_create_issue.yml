@@ -23,7 +23,7 @@ jobs:
             --title "Nightly pa11y scan failed" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
-            --body "$BODY"
+            --body "$ISSUE_BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
@@ -31,7 +31,7 @@ jobs:
           LABELS: type:accessibility,nightly-pa11y-scan-failed
           BODY: ${{ github.event.client_payload.report }}
           CLOSE_PREVIOUS: false
-          BODY: |
+          ISSUE_BODY: |
             ```
             $(echo $BODY | base64 --decode)
             ```
