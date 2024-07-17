@@ -375,14 +375,9 @@ From here, you can start running SQL queries to determine whether the data you e
 
 Note that this SQL client program doesn’t support common functions like tab-completion, history, and even navigating a line using left and right arrows. If you’re used to modern software development tools, this can be mildly frustrating to work with, so you may want to find another program to connect with and use as your query editor.
 
-## Conclusion
+## Conclusion and summary instructions
 
 Well done! You've set up an Oracle database and imported your data!
-
-If you’re at an agency and you need to improve your current systems or work with your data, TODO CALL TO ACTION.
-
-
-### Summary instructions
 
 Here’s the final set of files and commands. Save .env and docker-compose.yml into the root of your project, then save setup.sql and any data exports you might have inside your data directory, which in our case was {project root}/db/data/. Fill out the values in {% raw %}{{{% endraw %} }} to match your setup.
 
