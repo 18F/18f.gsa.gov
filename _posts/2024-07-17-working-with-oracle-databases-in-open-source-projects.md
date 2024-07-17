@@ -1,5 +1,5 @@
 ---
-date: 2024-07-09
+date: 2024-07-17
 title: Working with Oracle databases in open-source projects
 authors:
   - matt-cloyd
