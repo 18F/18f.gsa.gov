@@ -16,7 +16,7 @@ excerpt: >
 
 _Reference to any non-federal entity does not constitute or imply its endorsement, recommendation, or favoring by GSA._
 
-# Introduction
+## Introduction
 
 During a recent 18F project, we built an open-source prototype with a twist: all of the data for our project was locked in a closed-source Oracle database, with no way to export it to an open format.
 
@@ -24,13 +24,13 @@ After days of cobbling together research from across the internet, we managed to
 
 If you need an Oracle database in your open-source project, quickly and for free, then welcome to our step-by-step technical tutorial. Fun fact: this is 18F's first technical tutorial blog post [since 2016]({{ site.baseurl }}/2016/04/08/how-we-get-high-availability-with-elasticsearch-and-ruby-on-rails/)!
 
-## Before you begin
+### Before you begin
 
 In writing this tutorial, we assume you're already familiar with [using the command line]({{ site.baseurl }}/2015/03/03/how-to-use-github-and-the-terminal-a-guide/), and with the basics of setting up and connecting to Docker containers. We use Macs at 18F, but if you use Windows, nearly everything except file path formats should be the same.
 
 **By the end of this tutorial**, we expect that you'll have a working Oracle database running in Docker. We will provide guidance on importing data, but we can't guarantee you'll have everything fully imported — it depends largely on the nature of your data.
 
-### Our challenge
+#### Our challenge
 
 During a recent project, we were developing an open-source prototype that was all about the data — everything we prototyped had something to do with the data model, how data was stored, and what needed to happen to get the data ready to transform.
 
@@ -47,7 +47,7 @@ We decided we needed the full database to accomplish the prototype’s objective
 So — what to do?
 
 
-### Discovering Oracle’s free databases
+#### Discovering Oracle’s free databases
 
 Fortunately, we discovered that Oracle provides two free versions of their database — Oracle Free and Oracle Express Edition (XE).
 
@@ -61,7 +61,7 @@ We arbitrarily chose Express to start with, so this tutorial will cover Express.
 
 Ok, let’s start the tutorial!
 
-# Tutorial
+## Tutorial
 
 This tutorial uses curly braces `{% raw %}{{{% endraw %} }}` to indicate when you should replace something with your own information. For example, if your Oracle database password is `“my-secure-password”` (don't use this), and you see a block like
 
@@ -75,11 +75,11 @@ your version should look like
 ORACLE_PASSWORD=my-secure-password
 ```
 
-## Part 1: Running an Oracle database using Docker
+### Part 1: Running an Oracle database using Docker
 
 We’ll use Docker Compose to install and run an Oracle database. Once we have an empty database running, we'll start importing data in Part 2 below.
 
-### Setting up the container
+#### Setting up the container
 
 Let's think through the setup before we run any code.
 
@@ -142,7 +142,7 @@ Lastly, the environment-setting block on lines 12 and 13 set a default password 
 
 The block at the end starting with `volumes` just names the volumes to create. We need that block for the reference to `oracle_data_volume` in the `oracledb` service to work.
 
-### Checking that the database works
+#### Checking that the database works
 
 Let’s start the database!
 
@@ -188,9 +188,9 @@ This may admittedly seem anticlimactic, just showing a number of megabytes, but 
 
 Take a breath and get a glass of water. Once you’re ready, we’ll start importing data.
 
-# Part 2: Importing data into your Oracle database
+## Part 2: Importing data into your Oracle database
 
-## Preparing to import data
+### Preparing to import data
 
 Now that we have a database and we’re able to log in, it’s almost time to start adding data!
 
@@ -211,7 +211,7 @@ The second line grants read permissions on this object to the user `system`. Tha
 
 Exit the terminal by typing Control+D.
 
-## Importing data, iteratively
+### Importing data, iteratively
 
 Okay, now we're ready to start importing data, in iterations. Don't expect this to work the first time. We'll try to import, see what kinds of errors we get, and attempt to fix them one step — one iteration — at a time.
 
@@ -270,9 +270,9 @@ $ docker compose run import
 
 If your import ran, even if you got thousands of import errors — congratulations! You’re on your way to a working containerized Oracle database!
 
-## Fixing common errors
+### Fixing common errors
 
-### Fixing missing users
+#### Fixing missing users
 
 Scan through the log messages that happened while you were importing. What kinds of errors are you noticing? Maybe write them down somewhere so you can troubleshoot later.
 
@@ -295,7 +295,7 @@ The first line creates the user and sets their password. The second grants a han
 
 It took a few iterations to identify all of the missing users in the logs, but we eventually solved all the related errors by adding users, watching the logs for missing users, creating the missing users, and repeating.
 
-### Fixing missing tablespaces
+#### Fixing missing tablespaces
 
 The next set of errors related to missing tablespaces, the specific files on the filesystem where the data in the database is stored.
 
@@ -307,7 +307,7 @@ CREATE BIGFILE TABLESPACE {% raw %}{{{% endraw %} tablespace name }} DATAFILE '{
 
 There may be a benefit to creating larger tablespaces up front, but we’re not sure this kind of optimization will be meaningful on databases this small.
 
-### Running fixes as a SQL file
+#### Running fixes as a SQL file
 
 After each iteration, we ended up putting all of the SQL commands we ran into a `setup.sql` file. That way, we wouldn’t have to re-encounter and re-solve all these problems when, say, a new contributor came onto the team and needed to set up a database copy.
 
@@ -348,7 +348,7 @@ volumes:
 
 ```
 
-### Clearing and re-running the import
+#### Clearing and re-running the import
 
 If you’re not satisfied with an import and want to re-run it, we’ll have to get to a blank slate before trying it again. We run `docker compose down` and then use Docker Dashboard, the GUI application, to delete the volume.
 
@@ -359,7 +359,7 @@ Then, in another terminal window, run `docker compose run setup` to run the fixe
 After that finishes, run `docker compose run import` to import the data.
 
 
-### Confirming the import is complete
+#### Confirming the import is complete
 
 Once you’re satisfied that you’re not getting any critical errors when you import (though there may still be warnings), you can run a database console session to make sure the data looks good.
 
@@ -471,6 +471,6 @@ Instructions:
 - Open a terminal window and run `docker compose up`.
 - Open another terminal window, run `docker compose run setup`, then run `docker compose run import`.
 
-### Special thanks
+## Special thanks
 
 Special thanks to Eleni Chappen for working through database issues together, to Jason Nakai for doing a technical review of this post, to Amanda Costello for doing the plain-language review of this post, and to Alex Soble for his constant encouragement.
