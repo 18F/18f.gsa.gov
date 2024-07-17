@@ -74,13 +74,11 @@ To make the connection between the potential error and the error-handling code c
 =CONCATENATE("visitors per day: ", TEXT(ROUND(IFERROR(B2 / B3, "Data is pending"))))
 ```
 
-This won't work either — on the first day of each quarter, the formula would evaluate to `ROUND("Data is pending")`, giving us a `#VALUE!` error.
+This won't work either — on the first day of each quarter, the formula would evaluate to `ROUND("Data is pending")`, and since you can't round text, this would give us a `#VALUE!` error.
 
 To quote comedian Conan O'Brien, ["though you should not fear failure, you should do your very best to avoid it"](https://youtu.be/KmDYXaaT9sA?si=AYCA56zKN-Xm-JjS&t=1001).
 
-Applied here, instead of triggering the divide-by-zero error and then using `IFERROR` to handle it, we know enough to avoid creating the error in the first place.
-
-We know that the error is created under certain conditions, when 0 days have elapsed in the quarter. It would be better to avoid the error in the first place. Let's add a "guard clause", a precondition that consciously prevents the error.
+Applying this wisdom to our spreadsheet, we can avoid failure by guarding against the conditions that create the error. We know that the error is created under specific conditions: whenever zero days have elapsed this quarter. So, let's add a pre-condition, sometimes known as a "guard clause", that prevents the error.
 
 ```sql
 =IF(B3 = 0, "Data is pending.", CONCATENATE("visitors per day: ", TEXT(ROUND(B2 / B3))))
@@ -100,7 +98,7 @@ Having added the `IF`, we now have branching logic. Let's nest the code to make 
 
 This is pretty clear, and I'd call this "good enough". You could stop writing your formula here, and it would be fine so long as this formula stayed about this simple.
 
-Let's take a moment, then, to think about the "story" this code is telling.
+Now let's pause a moment, and think about the "story" this code is telling.
 
 In _Confident Ruby_, developer Avdi Grimm explains that code in any language has to do four things: (1) collect input, (2) perform work, (3) deliver results, and (4) handle failure. When you read code, ideally you'd see these four steps, in order, telling a clear story.
 
@@ -111,9 +109,9 @@ I suggest reading the code in the last example aloud to yourself. Here's how I'd
 - Otherwise concatenate "visitors per day: " with... (return results)
 - ...the rounded daily visitor rate (perform work)
 
-The story of this code buries the lede: the formula is supposed to report the error rate, but we aren't introduced to that rate until the very end of the code. That would be like reading a novel and only meeting the protagonist in the last few chapters.
+The story of this code buries the lede: the formula is supposed to calculate and report the error rate, but we aren't introduced to that rate until the very end of the code. This is a bit of an overstatement, but that's like reading a novel and only meeting the protagonist in the last few chapters. In this list, the "perform work" step comes at the very end, instead of in second place as it does in Avdi's list.
 
-This type of formula-writing probably looks and feels familiar, because this is the way the formula programming language has encouraged us all to write, for forty years. And while this simple example is fine for now, writing this way doesn't work well when you have longer or more complex problems.
+This type of formula-writing probably looks and feels familiar, because this is the way the formula programming language has encouraged us all to write — for forty years! And while this style manages our simple example well enough, this style isn't sustainable when addressing more complex problems.
 
 Let's consider another way to do things.
 
@@ -123,17 +121,15 @@ Let's approach this same problem, this time using tried-and-true software design
 
 First, we'll start by telling a clear story — a readable, step-by-step narrative that's as easy to read as it is to write. Why the emphasis on "ease"? Because ideally, our mental effort should be on solving the problem, not on understanding the minutia of the code.
 
-After telling a clear story, we'll simplify the way we organize the story, so that when readers read our code, the focus is on the most important parts.
+After telling a clear story, we'll simplify the way we organize the story so that the focus is on the most important parts, and readers can understand it better.
 
-We'll use two formulas to do all of this work: `LET`, and `LAMBDA`. It wouldn't be surprising if you'd never heard of them — they've only been introduced to spreadsheet programs in the last several years. In that context, it makes sense that the "conventional" way of writing fearsome spreadsheet formulas is the norm — but it doesn't have to stay that way.
-
-Let's try out these techniques!
+We'll use two formulas to do all of this work: `LET`, and `LAMBDA`. It wouldn't be surprising if you'd never heard of them — they've only been introduced to spreadsheet programs in the last several years. In that context, it makes sense that the "conventional" way of writing fearsome spreadsheet formulas is the norm.
 
 ### Tell a clear story with LET
 
 If you've ever wished to be able to name cells or variables in your formula, you can do so by using `LET`.
 
-To use `LET`, all of the lines except the last one of are in pairs: variable names paired with values. In the last line, you write your formula. Like this:
+To use `LET`, all of the lines except the last one are in pairs: variable names paired with their values. In the last line, you write your formula. Like this:
 
 ```sql
 =LET(
@@ -156,15 +152,15 @@ or like this:
 ```
 This formula models the quadratic function y = x^2 - x - 2. [source](https://en.wikipedia.org/wiki/Quadratic_function)
 
-> If you're in the habit of writing code, you're susceptible to a particular type of mistake when writing `LET` formulas — you're likely to accidentally use equal signs to assign variables. (At least, if you're anything like me.)
+> If you're in the habit of writing code, you're susceptible to a particular type of mistake when writing `LET` formulas — you're likely to accidentally use equal signs to assign variables instead of commas. You may accidentally write something like this:
 >
 > `=LET(visitors = 1, #...`
 >
-> If you get a formula parse error when using `LET` on your own for the first time, this may be why. `LET` doesn't use equal signs to assign variables, it uses commas.
+> If you get a formula parse error when using `LET` on your own for the first time, this may be why. Change your `=` to a `,`, and you'll be set!
 
-This is a simple example, but you can already see the benefits of using LET. With LET, you get clear variable names, and you can change the variables and formula independently.
+These are simple examples, but you can already see the benefits of using LET. With LET, you get clear variable names, and you can change the variables and formula independently. LET gives us the ability to tell a story in clear steps.
 
-LET gives us the ability to tell a story in clear steps. Let's write out, in plain language, the story or steps of our code, then we'll write the code.
+Let's write out the story or steps of our code in plain language, then we'll write the code after.
 
 Here's one way you could write out the steps:
 
@@ -187,9 +183,7 @@ Let's implement these steps, in this order, with formula code.
 
 Even with just one variable, `rounded_rate`, this tells a clearer story than the conventional formula we ended up with at the end of the previous section.
 
-Readers coming to this for the first time will still have questions, like, what do B2 and B3 represent?
-
-If we want to make the formula readable without having to go anywhere else for information, we can give every value a name, using `LET` to define more variables.
+Readers coming to this for the first time will still have questions, like, what do B2 and B3 represent? If we want to make the formula readable without having to go anywhere else for information, we can give every value a name, using `LET` to define more variables.
 
 ```sql
 =LET(
@@ -207,7 +201,7 @@ If we want to make the formula readable without having to go anywhere else for i
 
 This version is even clearer: since we've given everything a name, someone reading this formula for the first time can tell what B2 and B3 are — they don't need to guess, or dig around, or ask for help to decipher what this is doing.
 
-We have our guard clause `days_elapsed_in_quarter > 0` preventing divide-by-zero errors. The story now reads: "If there's more than zero days elapsed in the quarter, report the rounded rate, otherwise report that data is pending."
+We have our guard clause — `days_elapsed_in_quarter > 0` — preventing divide-by-zero errors. The story now reads: "If there's more than zero days elapsed in the quarter, report the rounded rate, otherwise report that data is pending."
 
 You have a lot of agency when using `LET` — you can define one or two variables and let a lot be implied, or you can name everything. What style you use is up to you and your team.
 
@@ -215,7 +209,7 @@ But whatever your style, `LET` helps you name things, and by naming things you c
 
 ### Clarify readable code with comments
 
-The clear narrative we wrote with `LET` is already an improvement. But, for readers to understand what the function does, they have to read through all of the code. A reader can get a general sense of what the function is doing by reading just a few lines, but if they want to be really sure, they would have to read the whole thing.
+The clear narrative we wrote with `LET` is already an improvement! But, if a reader wants to understand what the function does, they have to read through _all_ of the code. A reader can get a general sense of what the function is doing by reading just a few lines, but if they want to be really sure, they would have to read the whole thing.
 
 One common practice in software development is to leave comments which document what code is doing. Comments shouldn't be a stand-in for readable code — rather, comments should augment already readable code by summarizing or clarifying it.
 
@@ -238,20 +232,19 @@ Believe it or not, you can use `LET` to leave a comment! While `LET` lets you na
 
 You can name your comment anything, but "comment" is the most obvious.
 
-If your team starts to disagree about how to write comments, you can defer to a standard comment style like [YARD](https://www.rubydoc.info/gems/yard/file/docs/Tags.md#Tag_List), which is built for Ruby but can be applied here. If we were to write this using YARD tags, we'd write:
+If your team starts to disagree about how to write comments, you can defer to a standard comment style like [YARD](https://www.rubydoc.info/gems/yard/file/docs/Tags.md#Tag_List), which is built for Ruby but can be applied here. If we were to write this using YARD, we'd write:
 
 ```sql
 =LET(
   comment, "
     Returns the rounded average daily park visitor rate for this quarter
 
-    @param visitors_in_quarter [Number] Visitors so far this quarter
-    
+    @param visitors_in_quarter [Number] Visitors so far this quarter    
     @param days_elapsed_in_quarter [Number] Days elapsed this quarter. First day of new quarter reads 0.
     
     @return [String] Daily visitor rate, or 'pending' message
     
-    @example At the start of a new quarter
+    @example At the start of a new quarter (0 days elapsed)
       'Data is pending'
 
     @example With 100 visitors in 15 days
@@ -265,7 +258,9 @@ If your team starts to disagree about how to write comments, you can defer to a 
 )
 ```
 
-For a small team, simple spreadsheets, and short formulas, commenting like this could be overly complex, and may not worth the time it takes to write. But if you're on a larger team, working on more complex projects, and really wanting to treat your spreadsheet like a serious codebase, basing your documentation on an existing standard might be a good idea. Clear, standardized documentation will keepyour team informed and empowered, without your team having to waste time developing its own commenting conventions.
+For a small team, simple spreadsheets, and short formulas, commenting like this could be overly complex, and may not worth the time it takes to write. But if you're on a larger team, working on more complex projects, and really wanting to treat your spreadsheet like a serious codebase, basing your documentation on an existing standard might be a good idea. Clear, standardized documentation will keep your team informed and empowered, and using a standard means your team won't waste time developing its own commenting conventions.
+
+However you decide to write comments, commenting keeps things summarized, which gives contributors quicker and clearer understanding of your spreadsheet.
 
 ### Simplify code organization with LAMBDA
 
@@ -434,6 +429,8 @@ We can see a mini-narrative in the `format` lambda. `format` is its own function
 
 Readers can now see that `present` handles presentation logic, so they can skip over that if they don't need to know it. They can just read the last line that says `present(the data)`. But if someone needs to know where to go to change the presentation logic, it will hopefully be obvious that they should make those changes in the `present` function.
 
+However you use it, `LAMBDA` helps you organize your code, so you can reuse code, keep the readers' focus on what's important, and write a clearer story.
+
 ### Name things better with custom functions
 
 Even with our very readable code, one problem remains: every time someone looks at this formula, they have to read up to 16 lines of code to understand what it does. A comment would help, but it's still more reading than is really necessary.
@@ -465,37 +462,12 @@ Now you can replace the formula with the named function:
 
 **In Excel:**
 
-TK
+TK / TODO
 
-This is so much better! The reader doesn't have to confront a wall of details to understand what's happening here — they know with confidence: "this is the daily visitor rate". If they ever do need to look at the implementation details, they can go look in the list of custom formulas, and find our very clear, readable function that uses `LET` to tell a clear story, `LAMBDA` to improve code organization, and comments to summarize and clarify.
+This is so much better! The reader doesn't have to confront a wall of details to understand what's happening here — they know with confidence: "this is the daily visitor rate". If they ever do need to look at the implementation details, they can go look in the list of custom formulas.
+
+They'll find a very clear, readable function that uses `LET` to tell a clear story, `LAMBDA` to improve code organization, and comments to summarize and clarify.
 
 ### Summary
 
-We've come a long way! We started with the typical way to write formulas:
-
-```sql
-=IFERROR(CONCATENATE("visitors per day: ", TEXT(ROUND(B2 / B3))), "Data is pending.")
-```
-
-Then, we named our variables and told a clear story with `LET`, reorganized our formula with `LAMBDA`, and left comments:
-
-```sql
-=LET(
-  comment, "
-    Calculates the daily visitor rate for the quarter.
-    If it's the first day of a quarter (0 days elapsed), it says 'pending'",
-  present, lambda(rate, days,
-    # ... 
-  ),
-  # ... 
-  present(rounded_rate, days_elapsed_in_quarter)
-)
-```
-
-And then we turned our well-written, documented formula into a named function:
-
-```sql
-=DAILY_VISITOR_RATE(B2, B3)
-```
-
-Using software design principles and practices, our formula is easier to read. Future readers (including ourselves) will understand it better, and people reading our code for the first time will be able to understand it better without as much digging or needing to ask for help. Code that is easier to read is easier to understand, and code that is easier to understand is easier to change without fear.
+Using software design principles and practices, our formula is easier to read. Future readers — which includes ourselves! — will understand it better, without as much digging or needing to ask for help. Code that is easier to read is easier to understand, and code that is easier to understand is easier to change without fear.
