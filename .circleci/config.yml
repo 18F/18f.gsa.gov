@@ -117,7 +117,7 @@ workflows:
     triggers:
       - schedule:
           # Run nightly at 10am UTC / 5am ET
-          cron: "55 9 * * *"
+          cron: "45 * * * *"
           filters:
             branches:
               only:
