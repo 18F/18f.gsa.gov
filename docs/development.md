@@ -15,11 +15,20 @@ This document is a work in progress. If you don't see the information you're loo
 
 For debugging, prepend your command with `DEBUG=Eleventy:{scope}`, where `scope` is the subset of errors you want to see in the log. To see everything, use `DEBUG=Eleventy:*`, and the log is tagged with all the error types.
 
+### Send errors to a log file
+
 We've found the following command to be useful. It writes any exception logs to a file called debug.log while running `npm run dev`.
 
 ```sh
 $ DEBUG=Eleventy:EleventyErrorHandler npm run dev > debug.log 2>&1
 ```
+
+### Send all log messages to a log file
+
+```sh
+$ DEBUG=Eleventy:* npm run dev > debug.log 2>&1
+```
+
 
 ## Testing and CI/CD
 
@@ -30,6 +39,7 @@ Every pull request will trigger a build on Cloud.gov pages. Additionally, we hav
 - Internal link checking with `check-html-links`
 
 Additionally, we manually use `prettier` for code formatting.
+
 
 ### Accessibility Scanning
 
@@ -51,19 +61,29 @@ _Example:_
 <span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails.</span>
 ```
 
-### Code linting
+### Checks
+
+We have a command to locally run all the checks that happen in each build, so you can catch errors before you commit and push:
+
+```
+npm run precommit
+```
+
+This will run code linting, HTML validation, and link checking.
+
+#### Code linting
 
 We use [eslint](https://eslint.org/) for code linting:
 
 ```
-npm run lint
+npx eslint . --fix
 ```
 
-### HTML validation
+#### HTML validation
 
 `html-validate` will check for valid HTML. It is configured in `.htmlvalidate.json`.
 
-### Link checking
+#### Link checking
 
 `check-html-links` will test internal links on the site. The internal link check tests whether a target link file exists in the `_site` folder at the expected location. Because the current version of `check-html-link` [does not return an error value](https://github.com/modernweb-dev/rocket/issues/166) when it finds broken links, the npm script for this check includes an additional grep search for a "✅" which would appear only if there are no broken links. With this (hopefully) temporary fix in place, github actions will report a failure if there are broken links.
 
@@ -103,24 +123,71 @@ Private or restricted links are determined by comparing against the list of link
 
 ## Content organization
 
-The content for all of the guides is in the `content` folder, which is organized with subfolders for each guide. For example all of the content for the De-risking guide should be placed in `content/derisking/`.
+The content for all of the pages and posts are in the `content/pages` and `content/posts`.
 
-Additionally, if a guide contains multiple sections, each section should have its own subfolder in that guide's folder. All pages that are part of a section should be placed into the section subfolder. For example, the "Federal Field Guide" is a section within the De-risking Guide, and "Basic principles" is a page in the "Federal Field Guide". So `basic-principles.md` would be placed in `content/derisking/federal-field-guide/`.
+**To add a blog post:** Create new file in `content/posts` with the file format `YYYY-MM-DD-title-slug.md`. Copy the latest blog post's frontmatter to get started, then edit for your specific post.
 
-### Guide-specific files
-If there are images and `include` files that only one guide uses, create a guide-specific folder within the site-wide `asset` or `_includes` folder.
+## Data
 
-Call a guide-specific include by using `{% include '[guide-folder]/[include-name].html' %}`. An example is in the Engineering Hiring Guide, where there is a warning about unconscious biases displayed on several pages. The file `unconscious-bias-warning.html` is located in `_includes/eng-hiring/`. The pages that use it will contain the line `{% include 'eng-hiring/unconscious-bias-warning.html' %}`
+All the data that's accessible sitewide is kept in `_data/`.
 
-### Guide titles and subdirectories
-The `_data/titles_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the name of the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This tag is referenced to set the title, header, and primary navigation for each guide.
+Anything we display or iterate over that isn't content goes here. This includes things like all our author data, agencies whose logos we display on the homepage and on "Work With Us", etc.
 
-_Example:_
+De-duplicate data wherever possible. In the previous site we had "agencies" and "featured agencies" — now we have one agencies file, and featured agencies are marked with `featured: true`.
+
+The data file names should be semantically meaningful. As a counterexample, "featured" has a key "case studies" which list agency names, not case studies. This introduces confusion: are these agencies or are they case studies? Ideally, the relationships should be clearer than this.
+
+## Configuration / plugins
+
+Eleventy uses a "plugins" system to manage site-specific configuration.
+
+Because we have A LOT of configuration to customize our site, it's important that this configuration remain organized.
+
+#### Guidelines for adding / editing configuration**
+
+To add configuration:
+
+1. Create a subfolder inside `config/` and add an index.js file, for example `config/inflectors/index.js`
+
+2. If your configuration is short and sweet, like it is with `config/browsersync/index.js`, you can keep the config all in the `index.js` file.
+
+3. If you are defining multiple functions or classes, add a file per function or per class, then `require` and export them in `index.js`. For example, you might have `config/inflectors/singularize.js` and `config/inflectors/pluralize.js`.
+
+Then, in `index.js`, you'd write:
+
+```js
+const singularize = require('./singularize')
+const pluralize = require('./pluralize')
+
+const inflectorsPlugin = (eleventyConfig) => {
+//    ^^^^^^^^^^ remember to change the plugin name here and at the bottom
+  eleventyConfig.addInflector('singularize', singularize)
+  eleventyConfig.addInflector('pluralize', pluralize)
+}
+
+module.exports = inflectorsPlugin;
+
 ```
-agile:
-  title: Agile
-  root: /agile/
+
+4. Add the plugin to the main site-wide plugin in `config/index.js`. For example:
+
+```js
+// ... other config ...
+const inflectors = require('./inflectors')
+
+module.exports = function EighteenF(eleventyConfig) {
+  // ... other plugins ...
+  eleventyConfig.addPlugin(inflectors)
+}
+
 ```
+
+**Never** add configuration directly to:
+
+- `.eleventy.js`
+- `config/index.js`
+- a file inside `config/` — configuration should always be in a folder
+
 
 ### Collections / tags
 
@@ -141,39 +208,6 @@ agile:
     url: /agile/
 ```
 
-### Sidenavs
-
-We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:
-```
-eleventyNavigation:
-  key: content-style-index
-  parent: content-style
-  order: 1
-  title: Our style
----
-```
-and similarly, the "Active voice" page within that section would have the following in its front matter:
-
-```
-eleventyNavigation:
-  key: content-active
-  parent: content-style
-  order: 3
-  title: Active voice
-```
-
-In the above front matter:
-- `parent: content-style` references the name of the parent section.
-- `key: content-active` sets this page's unique key for the sidenav.
-- `order: 3` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
-- `title: Active voice` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
-
-#### Sticky sidenavs
-Use `sticky_sidenav: true` to stick the sidenav to the top of the window when scrolling.
-
-### Subnavs
-
-You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links. To prevent errors in `eleventyNavigation`, ensure the `parent` and `key` values are different.
 
 ### Page titles
 By default, the page's `<title>` tag will use the `title` set in the page's front matter.
@@ -228,31 +262,13 @@ redirect_from:
 
 ## Frontmatter
 
-### Top level
+### Posts
 
-| key | description | data type | applies to |
-|---|---|---|---|
-| category | adding a top-level category key will give a methods page a colored background | text | methods |
-| eleventyExcludeFromCollections | an [eleventy-supplied option](https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections) to exclude pages from collections | boolean (default false) | all |
-| eleventyNavigation | part of eleventy's [navigation plugin](https://www.11ty.dev/docs/plugins/navigation/#fetch-the-menu-items-using-the-eleventynavigation-filter) | object (see eleventy's [docs](https://www.11ty.dev/docs/plugins/navigation/#fetch-the-menu-items-using-the-eleventynavigation-filter)) | all |
-| description | page's meta description | text | all |
-| layout | one of the [eleventy layouts](https://www.11ty.dev/docs/layouts/) that the page will use | text | all |
-| method | object for method data | object (see below) | methods |
-| permalink | [eleventy-supplied option](https://www.11ty.dev/docs/permalinks/) for setting the url path | text | all |
-| redirect_from | custom option for setting url paths that redirect to this page | array of text | all |
-| sidenav | determines whether page has side navigation (only used for standard page layouts) | boolean (default false) | all |
-| tags | part of eleventy's [collection](https://www.11ty.dev/docs/collections/) functionality | text or array of text (see eleventy docs) | all |
-| title | page's title used both in meta tags and as the h1 for standard pages | text | all |
+TK
 
-### Method
+### Pages
 
-| key | description | data type | applies to |
-|---|---|---|---|
-| title | a method's title (differs from page title) | text | methods |
-| what | content for method's "what" section | text | methods |
-| why | content for method's "why" section| text | methods |
-| timeRequired | short description of how much time is required for method activity | text | methods |
-| category | a method's category name; do not capitalize | text | methods |
+TK
 
 ## Managing dependencies
 
@@ -287,51 +303,3 @@ for this project is quite good, so this is fairly straightforward:
 
 _This information was relevant during the replatforming effort to merge all 18F guides into this repo, but may not continue to be relevant after replatforming._
 
-### Content migration process
-
-The general steps for migrating a guide:
-1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
-2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-3. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
-4. Copy over the markdown file for the guide into the appropriate subfolder.
-5. Open up the markdown file to edit the front matter:
-    1. Change the layout to `layout/page` or whatever layout is most appropriate.
-    2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
-    3. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
-    4. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) :
-    ```
-    eleventyNavigation:
-      parent: <collection-name>
-      key: <unique-key>
-      order: <#>
-      title: <Sidenav-title>
-    ```
-6. If your guide offers any downloads, add the files for download to `/assets/{guide}/dist/{filename}`, and set the download links to point to the same path.
-7. Celebrate! Or edit this documentation to update any steps that may be missing.
-
-### Adding new node modules
-
-It may turn out that you need to install an npm package to replicate functionality in the old guides. Here's how to do it!
-
-First, before your write any code or configuration that relies on the package, install the package via Docker Compose while the services are running:
-
-```sh
-# If you haven't already
-$ docker compose up
-
-# In another tab
-$ docker compose exec guides npm install {your options here}
-```
-
-### Temporary redirection during development
-We are planning to release the replatformed guides incrementally. During this time, replatformed guides that are still in development and have not yet been released will redirect users to the existing guide's URL (typically following the pattern of `<guide>.18f.gov`). This approach is implemented using client-side redirects. The `_data/redirect_bases.yaml` stores a mapping of each guide's tag key (the same one used to create the [collections](#collections--tags), to the base URL of the current guide. This base URL is then used to generate the URL the user will be redirected to. When a guide gets released, we will need to remove its corresponding key-value pair from `_data/redirect_bases.yaml`.
-
-#### Accessibility impacts to client-side redirects
-
-While server-side redirects would be preferable, our deployment limitations have us using client-side redirects for this purpose.
-
-[WCAG states](https://www.w3.org/TR/WCAG20-TECHS/H76.html) that if using this technique, the `content` attribute should be set to 0 (meaning 0 seconds / immediate redirect), to avoid content "flashing" before the page is redirected.
-
-Since redirects will be immediate, we will leave the redirect page template empty of body content in order to avoid content flashing.
-
-Through manual testing, we’ve determined the redirect is unnoticeable visually and is smooth for screen readers. We welcome any feedback on how to improve this experience.
