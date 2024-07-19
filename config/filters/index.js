@@ -10,6 +10,7 @@ const markdownify     = require('./markdownify');
 const matching        = require('./matching');
 const min             = require('./min');
 const readableDate    = require('./readableDate');
+const relatedPosts    = require('./relatedPosts');
 const teamLink        = require('./teamLink');
 const teamPhoto       = require('./teamPhoto');
 const toDatePath      = require('./toDatePath');
@@ -27,6 +28,7 @@ const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('matching', matching);
   eleventyConfig.addFilter('min', min)
   eleventyConfig.addFilter('readableDate', readableDate)
+  eleventyConfig.addFilter('related', relatedPosts)
   eleventyConfig.addFilter('team_link', teamLink)
   eleventyConfig.addFilter('team_photo', teamPhoto)
   eleventyConfig.addFilter('toDatePath', toDatePath);

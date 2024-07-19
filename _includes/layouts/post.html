@@ -41,10 +41,7 @@ layout: default
 
 <section class="margin-top-3 margin-bottom-6">
   <div class="grid-container">
-    {% comment %}
-      TODO: Replace the next line with the related posts generator.
-    {% endcomment %}
-    {% assign related_posts = collections.posts | reverse | slice: 0, 3 %}
+    {% assign related_posts = page | related %}
     {% include "featured-posts.html",
        posts: related_posts,
        show_excerpt: true %}

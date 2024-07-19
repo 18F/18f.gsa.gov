@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { imageShortcode } = require('../index');
+const imageShortcode = require('../shortcodes/image');
 const { findPerson, fullName } = require('../../lib/team');
 
 // @todo Refactor: caption and image path could be their own functions
