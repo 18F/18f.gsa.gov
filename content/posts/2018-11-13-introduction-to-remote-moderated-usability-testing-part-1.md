@@ -56,12 +56,11 @@ of Health (NIH) (This link starts the video at the 39-minute mark, when
 the test begins). Note especially how Krug interacts with the
 participant.
 
-<figure>
-  <a href="https://youtu.be/6fjn1Zz3lMU?t=2340">
-    <img src="{{site.baseurl}}/assets/blog/remote-usability-test/nih-screenshot.png" alt="Screenshot of video showing NIH site. When clicked it will take you to the video"/>
-  </a>
-  <figcaption>Steve Krug usability test for NIH</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/remote-usability-test/nih-screenshot.png",
+     url: "https://youtu.be/6fjn1Zz3lMU?t=2340"
+     alt: "Screenshot of video showing NIH site. When clicked it will take you to the video",
+     caption: "Steve Krug usability test for NIH" %}
 
 That doesn’t look *too* difficult… right?
 
@@ -119,7 +118,7 @@ usability tests power its design. With apologies to the artist [M.C. Escher](htt
 this depicted in the following way:
 
 <figure>
-    <img src="{{site.baseurl}}/assets/blog/remote-usability-test/ux-hands.png" alt="M.C Escher image of two hands forming a circle one representing design and the other usability testing"/>
+    {% image "assets/blog/remote-usability-test/ux-hands.png", "M.C Escher image of two hands forming a circle one representing design and the other usability testing" %}
   <figcaption>M.C. Escher's Drawing Hands</figcaption>
 </figure>
 

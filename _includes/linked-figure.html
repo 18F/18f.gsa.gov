@@ -1,0 +1,9 @@
+<figure>
+  {% assign href = url | default: image %}
+  <a href="{{ href | url }}">
+    <img src="{{ image | url }}" alt={{ alt }} />
+  </a>
+  {% if caption %}
+  <figcaption>{{ caption }}</figcaption>
+  {% endif %}
+</figure>
