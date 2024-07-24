@@ -66,8 +66,8 @@ can go through and see immediately what domains we manage as well as how
 they’re configured**, all in one place.
 
 <figure>
-  <a href="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png">
-    <img src="{{site.baseurl}}/assets/blog/dns-post/github-terraform-files.png" alt="Screenshot of GitHub showing a list of Terraform files. Each corresponds to a domain."/>
+  <a href="{{ "/assets/blog/dns-post/github-terraform-files.png" | url }}">
+    <img src="{{ "/assets/blog/dns-post/github-terraform-files.png" | url }}" alt="Screenshot of GitHub showing a list of Terraform files. Each corresponds to a domain."/>
   </a>
   <figcaption><a href="https://github.com/18F/dns/tree/master/terraform">List of Terraform files that correspond to domains</a></figcaption>
 </figure>
@@ -77,8 +77,8 @@ made by [pull
 request](https://github.com/18F/dns/pulls?utf8=%E2%9C%93&q=is%3Apr).
 
 <figure>
-  <a href="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png">
-    <img src="{{site.baseurl}}/assets/blog/dns-post/github-pull-request.png" alt="Screenshot of a pull request in GitHub, with an explanation of why the change is being made. It also shows that an issue from another repository links to the pull request."/>
+  <a href="{{ "/assets/blog/dns-post/github-pull-request.png" | url }}">
+    <img src="{{ "/assets/blog/dns-post/github-pull-request.png" | url }}" alt="Screenshot of a pull request in GitHub, with an explanation of why the change is being made. It also shows that an issue from another repository links to the pull request."/>
   </a>
   <figcaption><a href="https://github.com/18F/dns/pull/273">Example pull request</a></figcaption>
 </figure>
@@ -88,8 +88,8 @@ integration
 (CI)](https://docs.microsoft.com/en-us/azure/devops/what-is-continuous-integration) in CircleCI.
 
 <figure>
-  <a href="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png">
-    <img src="{{site.baseurl}}/assets/blog/dns-post/changes-to-code.png" alt="Two browser windows, one from GitHub showing the changes to the code, the other showing the resulting changes from Terraform in CircleCI."/>
+  <a href="{{ "/assets/blog/dns-post/changes-to-code.png" | url }}">
+    <img src="{{ "/assets/blog/dns-post/changes-to-code.png" | url }}" alt="Two browser windows, one from GitHub showing the changes to the code, the other showing the resulting changes from Terraform in CircleCI."/>
   </a>
   <figcaption><a href="https://github.com/18F/dns/pull/267/files">Example diff</a> and <a href="https://circleci.com/gh/18F/dns/483">continuous integration</a> output</figcaption>
 </figure>

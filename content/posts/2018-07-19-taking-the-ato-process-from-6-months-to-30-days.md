@@ -117,11 +117,9 @@ on those outcomes.
 The Infrastructure Leads keep a [kanban](https://18f.gsa.gov/2016/08/31/kanban-for-government/) board
 to track the status of ATOs:
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/ato/ato-kanban.png">
-    <img src="{{site.baseurl}}/assets/blog/ato/ato-kanban.png" alt="Screenshot of the ATO Kanban board on GitHub."/>
-  </a>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/ato/ato-kanban.png",
+     alt: "Screenshot of the ATO Kanban board on GitHub." %}
 
 Systems are prioritized based on their launch deadlines, whether they
 have an existing ATO that’s expiring, and preparedness of the project
@@ -205,7 +203,7 @@ principles of an ATO Sprinting Team, make sure to:
 As mentioned above, we have been dramatically improving the time to ATO:
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/ato/ato-completion-date-graph.png" alt="Graph showing ATO completion timeline with starting date on the x- axis, and the dates to complete on the y-axis. There is a clear trend downward."/>
+  {% image "assets/blog/ato/ato-completion-date-graph.png", "Graph showing ATO completion timeline with starting date on the x- axis, and the dates to complete on the y-axis. There is a clear trend downward." %}
 </figure>
 
 *“ATO effort started on” is measured from when we acknowledged “this

@@ -19,12 +19,10 @@ across the nation to learn more about their projects. Meet Fellows
 Clarice Chan and Sarayu Srinivasan who share more about their work at
 the VA and NIST.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/pif/pif-sarayu-srinivasan.jpg">
-    <img src="{{site.baseurl}}/assets/blog/pif/pif-sarayu-srinivasan.jpg" alt="Profile picture of Sarayu Srinivasan in front of Summit, the fastest supercomputer in the world."/>
-  </a>
-  <figcaption>PIF Sarayu Srinivasan in front of Summit, the fastest supercomputer in the world</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/pif/pif-sarayu-srinivasan.jpg",
+     alt: "Profile picture of Sarayu Srinivasan in front of Summit, the fastest supercomputer in the world.",
+     caption: "PIF Sarayu Srinivasan in front of Summit, the fastest supercomputer in the world" %}
 
 Here is Presidential Innovation Fellow Sarayu Srinivasan in front of
 Summit, the fastest supercomputer in the world! This up close tour also
@@ -72,13 +70,10 @@ importantly, customer touch-points. Clarice Chan, a PIF detailed to the
 US Department of Veterans Affairs, began her digital transformation
 journey doing just that.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/pif/pif-clarice-chan.jpg">
-    <img src="{{site.baseurl}}/assets/blog/pif/pif-clarice-chan.jpg" alt="Profile picture of Clarice Chan seating n a chair at the VA customer call center."/>
-  </a>
-  <figcaption>PIF Clarice Chan, visiting a VA field office on a
-  listening tour to understand how the VA interacts with its customers.</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/pif/pif-clarice-chan.jpg",
+     alt: "Profile picture of Clarice Chan seating n a chair at the VA customer call center.",
+     caption: "PIF Clarice Chan, visiting a VA field office on a listening tour to understand how the VA interacts with its customers." %}
 
 Before diving into designing solutions, Clarice toured VA’s across the
 country on an immersive listening tour. She spent time observing VA

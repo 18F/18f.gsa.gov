@@ -1,21 +1,3 @@
-const path = require('path')
-const Image = require('@11ty/eleventy-img')
+const assetUrl = require('../../lib/asset_url')
 
-module.exports = async (src, cls, alt) => {
-  let pathPrefix = ''
-
-  if (process.env.BASEURL) {
-    pathPrefix = process.env.BASEURL
-  }
-
-  const ext = path.extname(src)
-  const fileType = ext.replace('.', '')
-
-  const metadata = await Image(src, {
-    formats: [fileType],
-    outputDir: './_site/img/',
-  })
-
-  const data = metadata[fileType] ? metadata[fileType][0] : metadata.jpeg[0]
-  return `<img src="${pathPrefix}${data.url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`
-}
+module.exports = async (src, cls, alt) => `<img src="${await assetUrl(src)}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`

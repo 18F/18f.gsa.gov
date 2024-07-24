@@ -44,12 +44,10 @@ Our plans changed when our first innovation specialist decided to leave for an o
 
 ## Help along the way
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/eiti-nrrd/nrrd-workshop.png">
-    <img src="{{site.baseurl}}/assets/blog/eiti-nrrd/nrrd-workshop.png" alt="Product management workshop with 18F and ONRR. There is a group of people seating around a table with yellow stickie notes. On a wall there are long pieces of paper with yellow sticky notes on them"/>
-  </a>
-  <figcaption>18F and ONNR during a workshop</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/eiti-nrrd/nrrd-workshop.png",
+     alt: "Product management workshop with 18F and ONRR. There is a group of people seating around a table with yellow stickie notes. On a wall there are long pieces of paper with yellow sticky notes on them",
+     caption: "18F and ONNR during a workshop" %}
 
 Luckily, I was not thrown into the deep end without a buoy, as we still had a transition agreement with 18F for a few more months. The 18F employee who had been managing the product began co-working with me as much as possible. She provided me training and resources that helped me better understand the role and tools of the trade, such as roadmapping. I began taking over meetings that she had been running, but we would have weekly coaching meetings to discuss challenges I encountered and questions I had.
 
@@ -73,12 +71,10 @@ As I continue to learn in this role and balance my product management responsibi
 
 I encourage my team members to bring me their concerns. While I don’t always have solutions ready, we are often able to brainstorm together and make tweaks to our processes in hopes of continuously improving the way we work.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/eiti-nrrd/nrrd-home.png">
-    <img src="{{site.baseurl}}/assets/blog/eiti-nrrd/nrrd-home.png" alt="Screenshot of https://revenuedata.doi.gov/"/>
-  </a>
-  <figcaption>https://revenuedata.doi.gov/</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/eiti-nrrd/nrrd-home.png",
+     alt: "Screenshot of https://revenuedata.doi.gov/",
+     caption: "https://revenuedata.doi.gov/" %}
 
 ## What’s next
 

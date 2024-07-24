@@ -80,12 +80,10 @@ tokens that matched cloud.gov’s branding. It also gave us a vocabulary
 to talk about colors without having to use hex codes. Soon, we were
 talking about how the sidebar background should be `accent-warm` (USWDS color token `gray-warm-10`) rather than `#E6E6E2`.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/web-design-standards/cloud.gov-uswds-tokens.jpg">
-    <img src="{{site.baseurl}}/assets/blog/web-design-standards/cloud.gov-uswds-tokens.jpg" alt="A screenshot of a design file showing how multiple colors from cloud.gov's original color palette map to USWDS color tokens."/>
-  </a>
-  <figcaption>USWDS has a large color library, so we were able to find USWDS color tokens that closely matched existing brand colors.</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/web-design-standards/cloud.gov-uswds-tokens.jpg",
+     alt: "A screenshot of a design file showing how multiple colors from cloud.gov's original color palette map to USWDS color tokens.",
+     caption: "USWDS has a large color library, so we were able to find USWDS color tokens that closely matched existing brand colors." %}
 
 In the design files, we were able to use the USWDS color library to test
 and import colors into our design. USWDS color tokens include [a graded system](https://designsystem.digital.gov/design-tokens/color/overview/)
@@ -113,12 +111,10 @@ pixel values. By using the same grid system in design mocks and in code,
 it was easy for us to document and troubleshoot how the layout should be
 adjusted.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/web-design-standards/uswds2-grid.jpg">
-    <img src="{{site.baseurl}}/assets/blog/web-design-standards/uswds2-grid.jpg" alt="A mockup of a Cloud.gov webpage with design annotations for the grid, the spacing units, and typography notes."/>
-  </a>
-  <figcaption>An example of the annotations we used when designing the home page that used the USWDS grid system as well as USWDS spacers.</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/web-design-standards/uswds2-grid.jpg",
+     alt: "A mockup of a Cloud.gov webpage with design annotations for the grid, the spacing units, and typography notes.",
+     caption: "An example of the annotations we used when designing the home page that used the USWDS grid system as well as USWDS spacers." %}
 
 The USWDS grid includes [a number of CSS classes and utilities](https://designsystem.digital.gov/utilities/layout-grid/)
 that made it easy for us to prototype quickly. Grid columns classes,

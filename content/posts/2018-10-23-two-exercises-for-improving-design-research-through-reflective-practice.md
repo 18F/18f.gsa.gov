@@ -64,19 +64,15 @@ times I might have done better (for example, when I suggested alternate
 UI designs after observing my participant struggle at completing a
 task).
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/usability-test.png">
-    <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/usability-test.png" alt="Screenshot of usability test video."/>
-  </a>
-  <figcaption>Usability test</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/design-research-reflective-practice/usability-test.png",
+     alt: "Screenshot of usability test video.",
+     caption: "Usability test" %}
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/feedback.png">
-    <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/feedback.png" alt="Screenshot of feedback from researcher suggesting an alternate UI design. Highlighted text reads: You discussed possibilities not in the design. She had a problem with the magnifying glass icon, and you suggested a plus icon. It may have been better to ask what she would prefer first."/>
-  </a>
-  <figcaption>Experienced researcher feedback</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/design-research-reflective-practice/feedback.png",
+     alt: "Screenshot of feedback from researcher suggesting an alternate UI design. Highlighted text reads: You discussed possibilities not in the design. She had a problem with the magnifying glass icon, and you suggested a plus icon. It may have been better to ask what she would prefer first.",
+     caption: "Experienced researcher feedback" %}
 
 Third, socialize the performance-related feedback you receive. In this
 case, I passed my recording and the time-stamped feedback I received
@@ -136,12 +132,10 @@ prerequisite here is that you’ll need to have conducted a few studies
 beforehand). In the second, the team conducts a retrospective focused
 on research practices.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png">
-    <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/research-review.png" alt="Screenshot of slides for a research review session."/>
-  </a>
-  <figcaption>Slides that provide an overview of the team's recent research.</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/design-research-reflective-practice/research-review.png",
+     alt: "Screenshot of slides for a research review session.",
+     caption: "Slides that provide an overview of the team's recent research." %}
 
 As I mentioned, this was a five-month engagement that began with two
 months of foundational research and concluded with three months of
@@ -155,12 +149,10 @@ foundational or generative research.
 For that reason, I framed our review with [a tweet by Dave Malouf](https://twitter.com/daveixd/status/992924500667830273)
 describing research across various levels:
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/design-research-reflective-practice/tweet.png">
-    <img src="{{site.baseurl}}/assets/blog/design-research-reflective-practice/tweet.png" alt="Screenshot of a tweet by Dave Malouf. Text reads: A great framing I use is there are 3 levels of research: Foundational: akin to problem-space rsearch. (Opportunity for design) Generative: product idea generation w/in a space (get to the right design) Validative: is the product I've got good. (is the Design right?)"/>
-  </a>
-  <figcaption>Tweet by Dave Malouf</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/design-research-reflective-practice/tweet.png",
+     alt: "Screenshot of a tweet by Dave Malouf. Text reads: A great framing I use is there are 3 levels of research: Foundational: akin to problem-space rsearch. (Opportunity for design) Generative: product idea generation w/in a space (get to the right design) Validative: is the product I've got good. (is the Design right?)",
+     caption: "Tweet by Dave Malouf" %}
 
 I also shared this local-maxima diagram I learned about from [Joshua Porter’s 52 Weeks of UX](http://52weeksofux.com/post/694598769/the-local-maximum).
 

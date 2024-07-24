@@ -114,12 +114,10 @@ serves as the liaison between the agency and the contractor team.
 The table below gives an overview of the difference between a COR and a
 PO.
 
-<figure>
-  <a href="{{site.baseurl}}/assets/blog/Acquisitions/cor-po-table.png">
-    <img src="{{site.baseurl}}/assets/blog/Acquisitions/cor-po-table.png" alt="This table shows the difference in duties between COR and PO. COR duties: Monitor contractor performance, Inspect and accept products/services, Review all contractor invoices, Maintain a record (or file) of all actions taken as COR, Awareness of the contractor’s status and of any issues related to the contract. PO Duties: Clearly define and prioritize the Product Backlog to best achieve vision and add value to the agency and users, Optimize the value of the work the Development Team builds, Ensure that the Product vision and backlog are visible, transparent, and clear to all, Ensure the Development Team understands items in the Product Backlog to the level needed."/>
-  </a>
-  <figcaption>COR and PO Duties.</figcaption>
-</figure>
+{% include "linked-figure.html",
+     image: "/assets/blog/Acquisitions/cor-po-table.png",
+     alt: "This table shows the difference in duties between COR and PO. COR duties: Monitor contractor performance, Inspect and accept products/services, Review all contractor invoices, Maintain a record (or file) of all actions taken as COR, Awareness of the contractor’s status and of any issues related to the contract. PO Duties: Clearly define and prioritize the Product Backlog to best achieve vision and add value to the agency and users, Optimize the value of the work the Development Team builds, Ensure that the Product vision and backlog are visible, transparent, and clear to all, Ensure the Development Team understands items in the Product Backlog to the level needed.",
+     caption: "COR and PO Duties." %}
 
 ## Why are they important?
 
