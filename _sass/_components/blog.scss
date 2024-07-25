@@ -116,23 +116,18 @@ pre.highlight {
 
     td.rouge-gutter.gl {
       text-align: right;
+      vertical-align: top;
       color: rgba(0, 0, 0, 0.55);
     }
 
     td.rouge-code {
-      // TODO Should be the same size as the parent blog post
-      width: 600px;
-      min-width: 600px;
-      max-width: 600px;
-      padding-top: 15px; // align with line numbers
+      width: 600px; // TODO Should be the same size as the parent blog post
+      vertical-align: top;
 
       pre {
-        margin: 0;
-        overflow-x: scroll;
-        // TODO Should be the same size as the parent blog post
-        width: 580px;
-        min-width: 580px;
-        max-width: 580px;
+        margin: 15px 0 0 0;
+        overflow-x: auto;
+        max-width: 580px; // TODO Should be the same size as the parent blog post
       }
     }
   }
