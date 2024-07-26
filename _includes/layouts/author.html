@@ -18,7 +18,7 @@ Layout for author page with their blog posts
 <section class="padding-sm page-tag-results">
   <div class="grid-container">
     <hr class="hr-1-dark margin-y-0">
-    {% assign matching_posts = collections.posts | matching: author.id | sort: 'date' | reverse %}
+    {% assign matching_posts = collections.posts | by: author.id | sort: 'date' | reverse %}
     {% include "post-previews.html", posts: matching_posts %}
   </div>
 </section>

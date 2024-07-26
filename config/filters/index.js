@@ -1,4 +1,5 @@
 const asAbsoluteUrl   = require('./asAbsoluteUrl');
+const byAuthor        = require('./byAuthor');
 const capitalize      = require('./capitalize');
 const dateToXMLSchema = require('./dateToXMLSchema');
 const embed           = require('./embed');
@@ -7,7 +8,6 @@ const head            = require('./head');
 const htmlDateString  = require('./htmlDateString');
 const limit           = require('./limit');
 const markdownify     = require('./markdownify');
-const matching        = require('./matching');
 const min             = require('./min');
 const readableDate    = require('./readableDate');
 const relatedPosts    = require('./relatedPosts');
@@ -17,6 +17,7 @@ const toDatePath      = require('./toDatePath');
 
 const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('asAbsoluteUrl', asAbsoluteUrl)
+  eleventyConfig.addFilter('by', byAuthor);
   eleventyConfig.addFilter('capitalize', capitalize);
   eleventyConfig.addFilter('date_to_xmlschema', dateToXMLSchema);
   eleventyConfig.addFilter('embed', embed)
@@ -25,7 +26,6 @@ const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('htmlDateString', htmlDateString)
   eleventyConfig.addFilter('limit', limit);
   eleventyConfig.addFilter('markdownify', markdownify)
-  eleventyConfig.addFilter('matching', matching);
   eleventyConfig.addFilter('min', min)
   eleventyConfig.addFilter('readableDate', readableDate)
   eleventyConfig.addFilter('related', relatedPosts)
