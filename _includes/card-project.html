@@ -7,7 +7,8 @@ This partial outputs a card that displays a project title, the associated agency
   {% comment %}
   code smell: nil checks / timid code
   This template is uncertain about the presence of project.data.agency, agency.logo, project.url, and project.data.title. If any of those are missing, this template doesn't work or look good.
-  A better way to handle would be to enforce some data guarantees in a pre-build stage, or have the
+
+  @todo A better way to handle would be to enforce some data guarantees in a pre-build stage, or have the
   template error out.
 {% endcomment %}
 {% if project.data.agency %}

@@ -1,6 +1,6 @@
 # "promoted" is being used for layout, and per the design,
 # it should only be set to true for two guides at a time.
-# TODO: Create a validation to make sure it's only two
+# @todo Create a validation to make sure it's only two
 
 - name: "Accessibility"
   link: "https://guides.18f.gov/accessibility"

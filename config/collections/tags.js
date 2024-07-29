@@ -1,4 +1,4 @@
-// smell: This is not the slugify library used by 11ty
+// code smell: This is not the slugify library used by 11ty
 // However, that library requires ESM and this project is CommonJS.
 // The best thing to do would be to import the slugify filter, but I'm not quite
 // sure how to do that from this separate file — perhaps dependency injection

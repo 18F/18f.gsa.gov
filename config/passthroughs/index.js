@@ -14,9 +14,10 @@ const passthroughPlugin = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('./assets/common/js/*');
   eleventyConfig.addPassthroughCopy('./assets/**/js/*');
 
-  // @TODO This is one place where the _site/img folder gets produced
   // Let's find a way to keep everything in assets
   eleventyConfig.addPassthroughCopy({'./assets/common/img/favicons/favicon.ico': './favicon.ico' });
+  // @todo The folder _site/img is not something we want forever, but it's being created
+  // here and in the shortcodes that use the 11ty/image plugin.
   eleventyConfig.addPassthroughCopy({'./assets/common/img/favicons': './img/favicons' });
 
   eleventyConfig.addPassthroughCopy({'content/robots.txt': '/robots.txt' });
