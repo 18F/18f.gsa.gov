@@ -12,6 +12,7 @@ excerpt: >
   Follow this step-by-step tutorial to gain access to data locked
   inside proprietary Oracle databases, so you can use it in your
   open-source project.
+image: /assets/blog/oracle-databases/oracle-databases.jpg
 ---
 
 _Reference to any non-federal entity does not constitute or imply its endorsement, recommendation, or favoring by GSA._
