@@ -31,6 +31,8 @@ To run the site locally:
    ```
 4. Open http://localhost:8080
 
+If you styles don't load when you run the local server, stop the server and run it again.
+
 For more information on testing and repo configurations, read our in-depth [development docs](/docs/development.md).
 
 ### Codespaces
