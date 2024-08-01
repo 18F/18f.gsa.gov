@@ -1,6 +1,7 @@
 ---
 title: 18F strategy development
 permalink: /strategy-development/
+layout: primary
 lead: The first step toward success starts with a viable strategy. 18F strategy development teams help you wrangle complex service problems and make actionable recommendations on how to achieve your goals.
 ---
 {% capture body %}
@@ -21,12 +22,11 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 
 {% endcapture %}
 
-{% include "testimonial.html"
-    quote="We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile."
-    attribution="Wei Lou"
-    position="Product Owner"
-    organization="Federal Election Commission"
-    agency_image=""
+{% include "testimonial.html",
+     quote: "We didn’t know where to start, but in the end, we got so much more than a website. We had a complete culture change about how to do user-centered design and agile.",
+     attribution: "Wei Lou",
+     position: "Product Owner",
+     organization: "Federal Election Commission"
 %}
 
 <section class="usa-section section-padding-6">

@@ -1,6 +1,7 @@
 ---
 title: 18F AI Services
 permalink: /AI-services/
+layout: primary
 lead: Make the most of emergent technologies to best serve those who depend on your mission. 18F supports you with a custom team of designers, engineers, product managers, and procurement specialists. We are federal employees who help you deliver on your mission.
 ---
 {% capture body %}

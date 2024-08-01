@@ -39,9 +39,9 @@ CRT received reports by web, email, phone, fax, and physical letter. Most had mi
 * The portal is a single source of data about civil rights complaints and has become a powerful tool for spotting trends and patterns. 
 
 <!-- -->
-{% include "testimonial.html"
-  size="md"
-  quote="Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization."
-  attribution="Daniel Yi"
-  position="Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division"
+{% include "testimonial.html",
+     size: "md",
+     quote: "Working with 18F and TTS really helped us identify some gaps and infrastructural needs in our organization.",
+     attribution: "Daniel Yi",
+     position: "Senior Counsel for Innovation for the United States Department of Justice's Civil Rights Division"
 %}

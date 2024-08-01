@@ -31,10 +31,10 @@ Each year, taxpayers file 35,000 petitions with the United States Tax Court to s
 * [DAWSON, the new web-based case management system](https://dawson.ustaxcourt.gov/), allows taxpayers to easily submit petitions online, and can be maintained and improved indefinitely by the Court. 
 
 <!-- -->
-{% include "testimonial.html"
-  size="md"
-  quote="  If you think about bowling, 18F was like the bumpers on the lane, making sure I didn't go off-track."
-  attribution=" Jessica Marine"
-  organization=""
-  position="Product Owner"
+{% include "testimonial.html",
+     size: "md",
+     quote: "If you think about bowling, 18F was like the bumpers on the lane, making sure I didn't go off-track.",
+     attribution: "Jessica Marine",
+     organization: "",
+     position: "Product Owner"
 %}
