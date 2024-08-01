@@ -1,6 +1,7 @@
 ---
 title: 18F digital service transformation
 permalink: /digital-service-transformation/
+layout: primary
 lead: Our Digital Service Transformation team partners with you to discover, design, build, and continually improve on your digital services. We will build the right systems to support your work and to excel at your service goals, and grow your capacity along the way so you are empowered to continue to evolve your services to meet changing needs.
 ---
 
@@ -21,12 +22,11 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 
 {% endcapture %}
 
-{% include "testimonial.html"
-    quote="We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology"
-    attribution="Alec Palmer"
-    position="Chief Information Officer"
-    organization="Federal Election Commission"
-    agency_image=""
+{% include "testimonial.html",
+     quote: "We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology"
+     attribution: "Alec Palmer",
+     position: "Chief Information Officer",
+     organization: "Federal Election Commission"
 %}
 
 <section class="usa-section section-padding-6">

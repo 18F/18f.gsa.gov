@@ -33,10 +33,10 @@ Outdated technology was making it difficult for the Alaska Department of Health 
 * Transparent working processes and good DevOps practices and tools helped foster more trusting, productive relationships between agencies and vendors.
 
 <!--  -->
-{% include "testimonial.html"
-  size="md"
-  quote=" Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed."
-  attribution="Monica Windom"
-  position="Director Division of Public Assistance"
-  organization="Health and Social Services, State of Alaska"
+{% include "testimonial.html",
+     size: "md",
+     quote: "Our experience with 18F has been much different. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to a new tools that I expect we will continue to use when our work with them is completed.",
+     attribution: "Monica Windom",
+     position: "Director Division of Public Assistance",
+     organization: "Health and Social Services, State of Alaska"
 %}

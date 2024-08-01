@@ -1,6 +1,7 @@
 ---
 title: 18F vendor acquisition support
 permalink: /vendor-acquisition-support/
+layout: primary
 lead: Navigate your next technology acquisition with a team of government procurement experts. 18F combines our acquisition and technical experience with your mission area expertise to help you choose the right products and services for your needs. Most importantly, we help you understand how to implement and manage your solutions to achieve long-term success.
 ---
 
@@ -18,12 +19,11 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 
 {% endcapture %}
 
-{% include "testimonial.html"
-    quote="Designing the contract and the system the way we did — for OFA [our office] to have control and input and be so involved in the development — I think it facilitates the ability to be responsive. It’s just 180 degrees from our past experience. It’s so refreshing."
-    attribution="Lauren Frohlich"
-    position="Product Owner"
-    organization="Temporary Assistance for Needy Families"
-    agency_image=""
+{% include "testimonial.html",
+    quote: "Designing the contract and the system the way we did — for OFA [our office] to have control and input and be so involved in the development — I think it facilitates the ability to be responsive. It’s just 180 degrees from our past experience. It’s so refreshing.",
+    attribution: "Lauren Frohlich",
+    position: "Product Owner",
+    organization: "Temporary Assistance for Needy Families"
 %}
 
 <section class="usa-section section-padding-6">
