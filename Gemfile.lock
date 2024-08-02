@@ -146,7 +146,7 @@ GEM
       ffi (~> 1.0)
     rb-readline (0.5.5)
     regexp_parser (2.9.2)
-    rexml (3.3.2)
+    rexml (3.3.3)
       strscan
     rouge (4.3.0)
     rspec (3.12.0)
