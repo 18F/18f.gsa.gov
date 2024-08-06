@@ -19,9 +19,9 @@
      ================================================== -->
 
 {% if seo_title %}
-  {% assign page_title = seo_title | append: ' | 18F ' %}
+  {% assign page_title = seo_title | prepend: '18F: Digital service delivery | ' %}
 {% else %}
-  {% assign page_title = title | append: ' | 18F ' %}
+  {% assign page_title = title | prepend: '18F: Digital service delivery | ' %}
 {% endif %}
 
 {% comment %}
