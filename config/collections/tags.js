@@ -12,9 +12,7 @@ slugify.extend({'.': '-'})
 module.exports = async (collection) => {
   const tagMap = new Map();
 
-  collection.getAll().sort(function (a, b) {
-    return b.date - a.date;
-  }).forEach((post) => {
+  collection.getAll().sort((a, b) => b.date - a.date).forEach((post) => {
     (post.data.tags || []).forEach((tag) => {
       if (!tagMap.has(tag)) {
         tagMap.set(tag, [])
