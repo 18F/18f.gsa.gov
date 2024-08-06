@@ -12,7 +12,9 @@ slugify.extend({'.': '-'})
 module.exports = async (collection) => {
   const tagMap = new Map();
 
-  collection.getAll().forEach((post) => {
+  collection.getAll().sort(function (a, b) {
+    return b.date - a.date;
+  }).forEach((post) => {
     (post.data.tags || []).forEach((tag) => {
       if (!tagMap.has(tag)) {
         tagMap.set(tag, [])
@@ -21,7 +23,7 @@ module.exports = async (collection) => {
     });
   });
 
-  // Alpha-sorts by key, so that we don't have to do any sorting to get the tag index
+  // Alpha-sorts tags by key, so that we don't have to do any sorting to get the tag index
   // displaying tags in alphabetical order
   const sortedMap = new Map([...tagMap].sort((a, b) => String(a[0]).localeCompare(b[0])))
 
