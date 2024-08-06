@@ -22,7 +22,7 @@ const headingLinks = (slug, _, state, index) => {
   const headingLink = {
     type: 'html_block',
     content: `
-  
+
     <a href="#${slug}"
       class="heading-permalink"
       aria-label="Permalink for this section">
