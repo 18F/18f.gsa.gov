@@ -1,5 +1,5 @@
 ---
-title: Speaker Bureau
+title: Have 18F speak at your event
 permalink: /speaker-bureau/
 layout: styled-container
 email_cta: true
