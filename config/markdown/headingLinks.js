@@ -19,16 +19,20 @@ const headingLinks = (slug, _, state, index) => {
 
   // Insert an HTML block into the markdown tree. This way markdown-it won't
   // try to parse it, it'll just dump it directly into the output.
+  // @note Markdown will render empty newlines as <p>s
+  // @note The plus-style syntax was to prevent accidentally adding whitespace
+  //       while keeping nested markup style in this code.
+  /* eslint-disable prefer-template */
   const headingLink = {
     type: 'html_block',
-    content: `<a href="#${slug}"
-      class="heading-permalink"
-      aria-label="Permalink for this section">
-      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-        <use xlink:href="#svg-link"></use>
-      </svg>
-    </a>`,
+    content: '<a href="#' + slug
+           +   '" class="heading-permalink" aria-label="Permalink for this section">'
+           +   '<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">'
+           +     '<use xlink:href="#svg-link"></use>'
+           +   '</svg>'
+           + '</a>',
   };
+  /* eslint-enable prefer-template */
 
   // Splice the new stuff directly into the tree.
   state.tokens.splice(closeIndex, 0, headingLink);
