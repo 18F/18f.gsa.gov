@@ -1,6 +1,3 @@
-const MarkdownIt = require('markdown-it');
+const markdownLibrary = require('../markdown/base')
 
-module.exports = async (content) => {
-  const md = new MarkdownIt({ html: true });
-  return md.render(content);
-};
+module.exports = async (content) => markdownLibrary.render(content);

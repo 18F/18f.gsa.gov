@@ -3,9 +3,7 @@
 // The best thing to do would be to import the slugify filter, but I'm not quite
 // sure how to do that from this separate file — perhaps dependency injection
 // in .eleventy.js?
-const slugify = require('slugify');
-
-slugify.extend({'.': '-'})
+const slugify = require('../../lib/slugify');
 
 // Create a collection of all tags across all posts
 // Each tag has a `name` property, as well as a `posts` array with all the posts with that tag
