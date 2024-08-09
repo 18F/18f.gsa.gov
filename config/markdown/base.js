@@ -19,9 +19,21 @@ const markdownLibrary = markdownIt({
 
 // Override Footnote opener
 markdownLibrary.renderer.rules.footnote_block_open = () => (
-'<section class="footnotes">\n' +
-'<ol class="footnotes-list">\n'
+  '<section class="footnotes" role="doc-endnotes">\n' +
+  '<ol class="footnotes-list">\n'
 );
+
+// Override backlink to add ARIA role
+// Copied from https://github.com/markdown-it/markdown-it-footnote/blob/master/index.mjs#L57-L64
+markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, self) => {
+  let id = self.rules.footnote_anchor_name(tokens, idx, options, env, self)
+
+  if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`
+
+  /* ↩ with escape code to prevent display as Apple Emoji on iOS */
+  return ` <a href="#fnref${id}" class="footnote-backref" role="doc-backlink">\u21a9\uFE0E</a>`
+}
+
 
 // Add icons for links with locked resources and external links
 // https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md
