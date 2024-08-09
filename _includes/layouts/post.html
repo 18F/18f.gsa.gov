@@ -13,7 +13,7 @@ layout: default
             {% include "post-authors.html", authors: authors %}
           </p>
           <p class="margin-top-1">
-            Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ dateString }}</time>
+            Published on <time datetime="{{ page.date }}" itemprop="datePublished">{{ dateString }}</time>
           </p>
           {% include "post-tags.html", post: page %}
         </header>
