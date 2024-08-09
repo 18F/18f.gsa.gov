@@ -21,16 +21,13 @@ const headingLinks = (slug, _, state, index) => {
   // try to parse it, it'll just dump it directly into the output.
   const headingLink = {
     type: 'html_block',
-    content: `
-
-    <a href="#${slug}"
+    content: `<a href="#${slug}"
       class="heading-permalink"
       aria-label="Permalink for this section">
       <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
         <use xlink:href="#svg-link"></use>
       </svg>
-    </a>
-`,
+    </a>`,
   };
 
   // Splice the new stuff directly into the tree.

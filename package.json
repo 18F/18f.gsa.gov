@@ -75,7 +75,7 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192",
-    "slugify": "^1.6.6"
+    "string": "^3.3.3"
   },
   "mocha": {
     "timeout": 15000
