@@ -7,7 +7,7 @@ layout: primary
     <hr class="hr-1-dark margin-top-0 margin-bottom-8">
     {% endif %}
     <div class="grid-row grid-gap">
-      {%- if page.subnav_items or page.side_cta or page.social_media -%}
+      {%- if page.subnav_items or page.side_cta or page.social_media or page.email_cta -%}
       <div class="tablet:grid-col-7">
         {{ content }}
       </div>
@@ -20,6 +20,9 @@ layout: primary
         {% endif -%}
         {%- if page.social_media -%}
           {% include "social-media.html" %}
+        {%- endif -%}
+        {%- if page.email_cta -%}
+          {% include "email-cta.html" %}
         {%- endif -%}
       </aside>
       {%- else -%}
