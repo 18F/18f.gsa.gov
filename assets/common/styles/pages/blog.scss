@@ -63,10 +63,10 @@
   color: color('primary');
 }
 
-.post-pagination__link:focus, 
+.post-pagination__link:focus,
 .post-pagination__link:hover {
   .post-pagination__heading {
-    color: color('primary-darker'); 
+    color: color('primary-darker');
   }
 }
 
@@ -110,4 +110,32 @@
 }
 .tile-strip img {
   max-height: 67px;
+}
+
+
+//
+// Code block styling
+//
+
+pre.shiki {
+  div.language-id { display: none; }
+
+  div.code-container {
+    font-size: size('mono', 'sm');
+    padding: 15px 10px 15px 17px;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: inherit;
+    overflow-x: auto;
+
+    div.line { padding-top: 4px; } // simulate line height
+  }
+
+}
+
+p, li {
+  code {
+    font-size: size('mono', 'sm');
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1px 5px;
+  }
 }

@@ -3,7 +3,7 @@ const embedTwitter = require('eleventy-plugin-embed-twitter');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const svgSprite = require('eleventy-plugin-svg-sprite');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const syntaxHighlight = require('eleventy-plugin-shiki-twoslash');
 
 const pluginsPlugin = (eleventyConfig) => {
 
@@ -33,7 +33,7 @@ const pluginsPlugin = (eleventyConfig) => {
   });
 
   // Style code blocks
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight, { theme: 'github-light' });
 
 }
 
