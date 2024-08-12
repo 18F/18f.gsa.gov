@@ -3,7 +3,7 @@ title: Speaker Bureau
 permalink: /speaker-bureau/
 layout: styled-container
 lead: At 18F, we’re proud to have a team of highly skilled and experienced professionals who are at the forefront of their respective fields. Many of our team members include global speakers and experts in their areas of practice.
-image: /assets/img/speaking/ron-speaking-blurred.jpg
+image: assets/img/speaking/ron-speaking-blurred.jpg
 image_alt_text: "18F Design Director Ron Bronson speaks to a crowd at AIGA Portland in 2024."
 email_cta: true
 ---
