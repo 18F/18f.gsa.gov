@@ -57,7 +57,7 @@ async function createAssetPaths() {
     }),
   );
   const assets = Object.assign({}, ...assetsFiles.flat());
-  const outputData = path.join(__dirname, '../_data/assetPaths.json');
+  const outputData = path.join(__dirname, '../data/assetPaths.json');
 
   return await fs.writeFile(outputData, JSON.stringify(assets, null, 2));
 }

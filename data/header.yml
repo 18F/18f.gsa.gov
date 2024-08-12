@@ -25,10 +25,10 @@ logo:
   alt: 18F
   external: true
 
-# this is a key into _data/navigation.yml
+# this is a key into data/navigation.yml
 primary:
   links: primary
 
-# this is a key into _data/navigation.yml
+# this is a key into data/navigation.yml
 secondary:
   links: secondary

@@ -8,7 +8,7 @@ describe('Document', () => {
   const inputPath = './content/posts/2014-03-12-coming-soon.md'
   const layout = 'post'
   const post = { inputPath, layout }
-  const dir = { layouts: '_includes/layouts' }
+  const dir = { layouts: 'templates/layouts' }
 
   describe('shouldScan', () => {
     context('with matching source files', () => {
@@ -21,7 +21,7 @@ describe('Document', () => {
       it('returns false', async () => expect(doc.shouldScan()).to.be.false)
     })
     context('with matching layout files', () => {
-      const changedFiles = ['_includes/layouts/post.html']
+      const changedFiles = ['templates/layouts/post.html']
       const doc = new Document(post, dir, changedFiles)
       it('returns true', async () => expect(doc.shouldScan()).to.be.true)
     })
@@ -33,7 +33,7 @@ describe('Document', () => {
     context('with matching source and layout files', () => {
       const changedFiles = [
         'content/posts/2014-03-12-coming-soon.md',
-        '_includes/layouts/post.html'
+        'templates/layouts/post.html'
       ]
       const doc = new Document(post, dir, changedFiles)
       it('returns true', async () => expect(doc.shouldScan()).to.be.true)
