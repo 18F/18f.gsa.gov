@@ -12,7 +12,7 @@ tags:
   - agile
 excerpt: "Executives often rely on productivity metrics to measure success, but these measures can obscure whether the software is actually working for users. Stories are a better resource to build a strategy between a senior executive and a product team. This is part five in a series on how senior executive and tech teams can be better allies."
 ---
-_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/2022/07/20/senior-executives-pt1/))_
+_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{ "/2022/07/20/senior-executives-pt1/" | url }}))_
 
 Senior executives seek metrics to understand if a project is progressing successfully, but the real measure of the value of a software project is the value it delivers to users through working software. Often productivity metrics like time, cost, and velocity are used because they’re easy to quantify and standardize. Leadership often monitors these metrics, but they never meaningfully show if a system is doing what it needs to. It’s difficult to measure upfront if a user is successful, so it’s better not to try right away. 
 

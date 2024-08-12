@@ -67,7 +67,7 @@ being able to answer the question “how will I know when things are
 done?” The acceptance criteria helped us understand when and how we
 would know a task was complete, and evaluate the results.
 
-![The NTIS team]({{site.baseurl}}{{page.image}})
+![The NTIS team]({{ image | url }})
 
 Once we identified discrete tasks, we put them on separate cards on a
 kanban board. A [kanban

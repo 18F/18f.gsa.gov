@@ -19,7 +19,7 @@ image: /assets/blog/industry-day/slide1.jpg
 hero: false
 ---
 
-![The Technology Transformation Service Industry Day]({{site.baseurl}}{{page.image}})
+![The Technology Transformation Service Industry Day]({{ image | url }})
 
 Last week, the General Services Administration (GSA) held a Technology Industry Day to talk to industry leaders about the products and solutions developed by our agency and to hear feedback on how we can better engage industry. We’re thrilled that more than 300 members of the technology industry in person and via the live stream were able to join us for this first step towards a closer partnership and more open lines of communication about how we can work together to transform federal technology.
 
@@ -31,7 +31,7 @@ device you visit it on, and gives you fast, efficient service,” said
 Aaron Snow, Deputy Director of TTS.
 
 If you weren’t able to attend, you can watch the first two hours of the
-event below and [download the slidedeck from the morning presentation]({{site.baseurl}}/assets/blog/industry-day/deck-2016.pdf).
+event below and [download the slidedeck from the morning presentation]({{ "/assets/blog/industry-day/deck-2016.pdf" | url }}).
 
 <iframe
  width="560"

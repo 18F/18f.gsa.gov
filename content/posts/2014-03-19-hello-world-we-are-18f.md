@@ -30,9 +30,9 @@ Streets in NW DC.<br>
 D) All of the above.
 
 You guessed it. The correct answer is D – [All of the
-above.]({{ site.baseurl }}/)
+above.]({{ "/" | url }})
 
-[18F]({{ site.baseurl }}/) is a startup within GSA, encompassing the
+[18F]({{ "/" | url }}) is a startup within GSA, encompassing the
 [Presidential Innovation Fellows](https://wh.gov/innovationfellows)
 program and a cutting edge digital delivery team. We’re doers, recruited
 from the most innovative corners of industry and the public sector, who
@@ -92,7 +92,7 @@ If startups and companies like General Electric can do it, why not the
 U.S. Government? Our goal with this approach is two-fold: build
 user-centered digital services, and prove that building technology in an
 agile manner is possible in government at scale. [Let us
-know]({{ site.baseurl }}/contact/) how we can help you, and how you can
+know]({{ "/contact/" | url }}) how we can help you, and how you can
 help us (hint: we want you!).
 
-[Team 18F]({{ site.baseurl }}/about/)
+[Team 18F]({{ "/about/" | url }})

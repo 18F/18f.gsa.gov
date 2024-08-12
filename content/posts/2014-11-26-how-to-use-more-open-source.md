@@ -84,7 +84,7 @@ __First, identify the 10 most important software components of your system.__ An
 
 __Now take each component and analyze it in terms of the evolution axis.__ That is, was it written by your agency, or by a contractor? Or are you using a COTS component which is not open source? Are you using open source components, and if so, are they broadly supported or not? In many systems, you will find a mix of these categories. For example, most systems will have a small amount of custom code. Systems vary widely in terms of how many open source components they utilize.
 
-__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with sticky notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link]({{ site.baseurl }}/assets/blog/2014/11/25/image02.png) to this diagram:
+__Now draw a draft Wardley-Duncan map of our your system.__ A large whiteboard with sticky notes is a convenient way to do this, but you can also print out our basic disposable diagram by following this [link]({{ "/assets/blog/2014/11/25/image02.png" | url }}) to this diagram:
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 468.00px;">{% image_with_class "assets/blog/2014/11/25/image02.png" "image-open-source-blog" "PrintableOpenSourceWardleyDuncanMap (2).png" %}</span>
 
@@ -291,7 +291,7 @@ The key to reuse is simple, but beyond the scope of this article: a modular arch
     </tr>
     <tr>
       <td>TechFAR</td>
-      <td>A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md">Handbook</a> for procuring services using agile process</td>
+      <td>A <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/templates/techfar-online.md">Handbook</a> for procuring services using agile process</td>
     </tr>
     <tr>
       <td>Unix Philosophy</td>

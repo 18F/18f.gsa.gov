@@ -15,7 +15,7 @@ subnav_items:
 
 We’re looking for candidates passionate about our mission, with top-notch software development, design, content, and operations skills to match.
 
-We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, and we have teammates working all over the country. [Read more about how we make our distributed model work]({{ site.baseurl }}/2015/10/15/best-practices-for-distributed-teams/).
+We’re a remote-first team with offices in DC, New York, Chicago, and San Francisco, and we have teammates working all over the country. [Read more about how we make our distributed model work]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }}).
 
 If you have any questions, please contact our Talent Team at [jointts@gsa.gov](mailto:jointts@gsa.gov).
 

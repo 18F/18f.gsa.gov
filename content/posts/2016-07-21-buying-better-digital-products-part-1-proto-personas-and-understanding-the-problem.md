@@ -135,4 +135,4 @@ If you'd like to conduct your own workshop, [feel free to use our deck to replic
 
 *This is the first in a series of three blog posts that provide a
 step-by-step guide to how we led the inception workshop. In [the next
-post]({{site.baseurl}}/2016/07/26/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/), we’ll go over setting the product vision and strategy.*
+post]({{ "/2016/07/26/buying-better-digital-products-part-2-setting-the-product-vision-and-strategy/" | url }}), we’ll go over setting the product vision and strategy.*

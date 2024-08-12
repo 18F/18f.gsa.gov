@@ -12,11 +12,11 @@ tags:
   - agile
 excerpt: "It’s critical that senior executives and product teams make small decisions over time about important technology initiatives to be able to adjust plans as things change. How does that work? What works well?  This is part four in a series on how senior executive and tech teams can be better allies."
 ---
-_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{site.baseurl}}/2022/07/20/senior-executives-pt1/))_
+_This series examines how teams need to work closer with senior executives as allies. ([see part 1]({{ "/2022/07/20/senior-executives-pt1/" | url }}))_
 
 Senior executives often have to make big decisions early because of the long budget and planning cycle in the federal government. But modern software design requires making incremental decisions over time to be able to adjust plans as things change. Having frequent and direct conversations between senior executives and the product team makes it easier to make smaller and less risky decisions.
 
-This diagram demonstrates how a product team and a champions group of senior executives might maintain these direct interactions ([see part 3]({{site.baseurl}}/2022/08/11/senior-executives-pt3/) for a definition of a product team and champions group):
+This diagram demonstrates how a product team and a champions group of senior executives might maintain these direct interactions ([see part 3]({{ "/2022/08/11/senior-executives-pt3/" | url }}) for a definition of a product team and champions group):
 
 {% image "assets/blog/content/example1-senior-executives-part4.png" "Top to Bottom: The Product Team, shown as people icons, find patterns by conducting research with real users. The product team builds solutions by testing and validates the solution with real users. The product team discusses patterns, share demos, and outlines next steps every sprint with Policy SMEs, Champions, and Technology SMEs, shown as people icons below the Product Team. The champions are connected by dotted lines ending in arrows to Policy and Technology SMEs. The SMEs are connected to the Product Team by dotted lines with warning icons indicating their roles as helping to identify policy conflicts or inconsistencies." %}
 

@@ -42,7 +42,7 @@ all, the customer. This not only contributes to inefficiency, but can
 sometimes have detrimental effects on the users of a system.
 
 ![legacy software can be toxic to customers and
-stakeholders]({{ site.baseurl }}/assets/blog/encasement/encasement1.png)
+stakeholders]({{ "/assets/blog/encasement/encasement1.png" | url }})
 
 Like Chernobyl, these systems are toxic; but unlike a power plant, what
 they once produced is not fungible with other sources. There is often no
@@ -64,7 +64,7 @@ protected from the toxins, leaving the engineers to deal with
 implementation.
 
 ![A new GUI separating customers from legacy
-software]({{ site.baseurl }}/assets/blog/encasement/encasement2.png)
+software]({{ "/assets/blog/encasement/encasement2.png" | url }})
 
 There is something magical about this basic act of defining an
 interface. To paraphrase [Buckminster
@@ -98,7 +98,7 @@ done, and that is what a pragmatic software engineer must care about:
 serving the customer.
 
 ![build an API and an interface to scrape information from a legacy
-system]({{ site.baseurl }}/assets/blog/encasement/encasement3.png)
+system]({{ "/assets/blog/encasement/encasement3.png" | url }})
 
 Once a valuable API is defined, there is a wall between decisions about
 how to effectively use the API that completely divorces them from

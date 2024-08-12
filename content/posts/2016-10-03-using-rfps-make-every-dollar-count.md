@@ -67,7 +67,7 @@ exchanges and many millions of dollars spent. Instead, they invested
 $30,000 and a couple months to build the [Bright Spots interactive
 graphic](https://www.arts.gov/50th/creativity-connects#literature).
 
-![The bright spots graphic with Colorado selected.]({{site.baseurl}}{{page.image}})
+![The bright spots graphic with Colorado selected.]({{ image | url }})
 
 “We were challenged in finding the right way to visualize and display
 the Arts Ecosystem and the connection to other sectors. 18F helped to

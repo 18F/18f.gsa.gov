@@ -14,7 +14,7 @@ excerpt: This is the second in a series of three blog posts that provide a step-
 description: This is the second in a series of three blog posts that provide a step-by-step guide to how we led the inception workshop.
 ---
 *This is the second post in a series of three that provide a
-step-by-step guide to how we led the inception workshop. [The first was published on July 21.]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/)*
+step-by-step guide to how we led the inception workshop. [The first was published on July 21.]({{ "/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/" | url }})*
 
 18F and the Presidential Innovation Fellows' [Digital Acquisition
 Accelerator](https://pages.18f.gov/digitalaccelerator/) launched in
@@ -26,7 +26,7 @@ teams applied what they learned in an inception workshop to shape the
 vision and strategy around their first products. This is the second of
 three posts that provide a step-by-step guide to how we led the
 inception workshop. Read more about proto personas and how teams broke
-down their problem [in the first post]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/).
+down their problem [in the first post]({{ "/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/" | url }}).
 
 Day 2: Product vision and strategy
 ==================================
@@ -115,6 +115,6 @@ the product, even when details changed rapidly.
 If youre interested in facilitating on your own or want to see how we did it, [here is the presentation used in this inception workshop](https://github.com/18F/digitalaccelerator/blob/18f-pages/assets/workshop-day-two.pdf).
 
 *This is the second post in a series of three that provide a
-step-by-step guide to how we led the inception workshop. The first went over [proto-personas and problem statements]({{ site.baseurl }}/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/). The next
+step-by-step guide to how we led the inception workshop. The first went over [proto-personas and problem statements]({{ "/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/" | url }}). The next
 post, we’ll go over mapping user stories and developing a minimum viable
 product.*
