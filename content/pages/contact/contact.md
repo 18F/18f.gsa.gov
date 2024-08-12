@@ -5,7 +5,7 @@ layout: styled-container
 redirect_from: /hire/
 lead: Let’s work together to improve the user experience of government.
 title_rule: true
-social_media: true
+show_social_media: true
 ---
 ### Want to see if 18F can help your agency?
 Contact our business development team at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).
