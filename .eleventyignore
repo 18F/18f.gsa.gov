@@ -6,3 +6,4 @@ config
 docs
 spec
 lib
+.cache

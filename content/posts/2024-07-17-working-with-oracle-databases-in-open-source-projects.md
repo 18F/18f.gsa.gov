@@ -63,7 +63,7 @@ Ok, let’s start the tutorial!
 
 ## Tutorial
 
-This tutorial uses curly braces `{% raw %}{{{% endraw %} }}` to indicate when you should replace something with your own information. For example, if your Oracle database password is `“my-secure-password”` (don't use this), and you see a block like
+This tutorial uses curly braces `{% raw %}{{{% endraw %} }}` to indicate when you should replace something with your own information. For example, if your Oracle database password is `"my-secure-password" (don't use this), and you see a block like
 
 ```
 ORACLE_PASSWORD={% raw %}{{{% endraw %} your secure password }}
@@ -91,9 +91,9 @@ Let’s run the container for the first time, with our two volumes and a few mor
 
 First, set up a docker-compose.yml file with the following content:
 
-{% highlight plaintext %}
+```
 docker-compose.yml
-{% endhighlight %}
+```
 ```yaml
 version: "3"
 
@@ -114,14 +114,14 @@ volumes:
 
 ```
 
-Next, let’s set up an environment file (.env) that contains the Oracle username, the Oracle password, and information about the file we want to import. We’ll keep this separate from docker-compose.yml so that secrets that could make hacking easier — username, password, info about your filesystem — aren’t published. Make sure that .env cannot be checked into your version control system, so add it to your global .gitignore.
+Next, let’s set up an environment file (`.env`) that contains the Oracle username, the Oracle password, and information about the file we want to import. We’ll keep this separate from docker-compose.yml so that secrets that could make hacking easier — username, password, info about your filesystem — aren’t published. Make sure that .env cannot be checked into your version control system, so add it to your global .gitignore.
 
 Generate a random password for your database by running a command like `openssl rand -base64 24`. Make sure the only special characters in the password are `_`, `$`, and `#`, since Oracle has a hard time with special characters other than these. Then set this value as the `ORACLE_PASSWORD` in the `.env` file.
 
-{% highlight plaintext %}
-.env
-{% endhighlight %}
 ```
+.env
+```
+```sh
 ORACLE_USER=system
 ORACLE_PASSWORD={% raw %}{{{% endraw %} your secure password }}
 IMPORT_FILE={% raw %}{{{% endraw %} name of the file to import, e.g. export.dmp }}
@@ -219,9 +219,9 @@ Frankly, we expect a number of data import problems to occur, and this tutorial 
 
 Let's add a command to our Docker Compose file, to make it easier to repeatedly re-run the import process. Edit `docker-compose.yml` as follows. Make sure this block is nested under (further right into) the `services` block.
 
-{% highlight plaintext %}
+```
 docker-compose.yml
-{% endhighlight %}
+```
 ```diff
 version: "3"
 
@@ -313,9 +313,9 @@ After each iteration, we ended up putting all of the SQL commands we ran into a 
 
 Let’s also set up a one-off Docker Compose command to run the setup script. Add the below block to your docker-compose file, nested in two spaces so it's under `services`. The command will run a file `./db/data/setup.sql` on the Oracle database.
 
-{% highlight plaintext %}
+```
 docker-compose.yml
-{% endhighlight %}
+```
 ```diff
 version: "3"
 
@@ -381,9 +381,9 @@ Well done! You've set up an Oracle database and imported your data!
 
 Here’s the final set of files and commands. Save .env and docker-compose.yml into the root of your project, then save setup.sql and any data exports you might have inside your data directory, which in our case was {project root}/db/data/. Fill out the values in {% raw %}{{{% endraw %} }} to match your setup.
 
-{% highlight plaintext %}
+```
 .env
-{% endhighlight %}
+```
 ```sh
 ORACLE_USER=system
 ORACLE_PASSWORD={% raw %}{{{% endraw %} your secure password }}
@@ -391,9 +391,9 @@ IMPORT_FILE={% raw %}{{{% endraw %} name of the file to import, for example expo
 FOLDER_WITH_IMPORT_FILE={% raw %}{{{% endraw %} relative path to the folder containing the import file, for example ./db/data }}
 ```
 
-{% highlight plaintext %}
+```
 docker-compose.yml
-{% endhighlight %}
+```
 ```yaml
 version: "3"
 
@@ -426,9 +426,9 @@ volumes:
 
 ```
 
-{% highlight plaintext %}
+```
 db/data/setup.sql
-{% endhighlight %}
+```
 ```sql
 -- Set up permissions to access the dumpfile
 CREATE directory db_data as '/db/data';
