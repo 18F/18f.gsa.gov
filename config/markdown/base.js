@@ -7,6 +7,8 @@ const { headingLinks } = require('./headingLinks');
 const privateLinks = require ('./privateLinksList');
 const slugify = require('../../lib/slugify')
 
+const { externalize, isPrivateLink } = require('../../lib/links')
+
 // Customize Markdown library and settings
 const markdownLibrary = markdownIt({
   html: true,
@@ -23,8 +25,8 @@ markdownLibrary.renderer.rules.footnote_block_open = () => (
   '<ol class="footnotes-list">\n'
 );
 
-// Override backlink to add ARIA role
-// Copied from https://github.com/markdown-it/markdown-it-footnote/blob/master/index.mjs#L57-L64
+// // Override backlink to add ARIA role
+// // Copied from https://github.com/markdown-it/markdown-it-footnote/blob/master/index.mjs#L57-L64
 markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, self) => {
   let id = self.rules.footnote_anchor_name(tokens, idx, options, env, self)
 
@@ -43,35 +45,19 @@ const openDefaultRender = markdownLibrary.renderer.rules.link_open ||
     return self.renderToken(tokens, idx, options);
   };
 
+const lockIcon = '<span class="usa-sr-only">18F only,</span>' +
+                   '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" aria-hidden="true" role="img">' +
+                      '<use xlink:href="#svg-lock_outline"></use>' +
+                   '</svg>'
+
 markdownLibrary.renderer.rules.link_open = (tokens, idx, options, env, self) => {
   const token = tokens[idx];
-  let prefixIcon = '';
-  if (privateLinks.some((link) => token.attrGet('href').indexOf(link) >= 0)) {
-    prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
-                 '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
-                 'aria-hidden="true" role="img">' +
-                 '<use xlink:href="#svg-lock_outline"></use>' +
-                 '</svg>'
-  }
+  externalize(token) // Smell: this is mutating `token`` within the array `tokens`
 
-  // Check for external URLs. External means any site that is not a federal .gov url
-  // This check can't detect state/local .gov domains. Those will need to be
-  // manually adjusted
-  const baseURL = new URL('https://18f.gsa.gov/');
-  const hrefValue = token.attrGet('href');
-
-  if (!(new URL(hrefValue, baseURL).hostname.endsWith('.gov'))) {
-    // Add the external link class if it hasn't been added yet
-    if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
-      token.attrJoin('class', 'usa-link usa-link--external');
-    }
-
-    // Set rel=noreferrer if it hasn't been set yet
-    if (!(token.attrGet('rel')) || !(token.attrGet('rel').includes('noreferrer'))) {
-      token.attrJoin('rel', 'noreferrer');
-    }
-  }
-  return `${openDefaultRender(tokens, idx, options, env, self)  }${prefixIcon}`;
+  return [
+    openDefaultRender(tokens, idx, options, env, self),
+    isPrivateLink(token) ? lockIcon : ''
+  ].join('')
 };
 
 const defaultHtmlBlockRender = markdownLibrary.renderer.rules.html_block ||
