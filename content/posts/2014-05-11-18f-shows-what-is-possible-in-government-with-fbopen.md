@@ -32,7 +32,7 @@ dubbed [18F](https://18f.gsa.gov/). According to their own home page,
 > development of digital and web services.*
 
 [![FBOpen
-Logo]({{ site.baseurl }}/assets/blog/fbopen/fbopen-pilot-logo.png)](https://fbopen.gsa.gov)
+Logo]({{ "/assets/blog/fbopen/fbopen-pilot-logo.png" | url }})](https://fbopen.gsa.gov)
 
 I know most of the team members from my work with the GSA, and my own
 time (albeit short) as a Presidential Innovation Fellow, and I am

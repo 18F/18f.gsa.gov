@@ -72,7 +72,7 @@ government websites?
 ## What we built
 
 ![A screenshot of the U.S. Web Design Standards on a desktop, tablet,
-and mobile device.]({{site.baseurl}}/assets/blog/web-design-standards/home.png)
+and mobile device.]({{ "/assets/blog/web-design-standards/home.png" | url }})
 *The U.S. Web Design Standards are designed to be viewed on any
 device.*
 
@@ -117,7 +117,7 @@ cross-functional team of UX, front-end, and visual designers each played
 a key role in this process:
 
 ![An early wireframe of our design suggestion for a reset password
-page.]({{site.baseurl}}/assets/blog/web-design-standards/wireframe.png)
+page.]({{ "/assets/blog/web-design-standards/wireframe.png" | url }})
 *An early wireframe of our design suggestion for a reset
 password page*
 

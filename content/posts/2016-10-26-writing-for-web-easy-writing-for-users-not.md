@@ -65,7 +65,7 @@ foreclosure relief services. They use content strategy and user-centered
 design to make these intimidating subjects accessible to the general
 public.
 
-![The Consumer Financial Protection Bureau's Owning a Home feature.]({{site.baseurl}}{{page.image}})
+![The Consumer Financial Protection Bureau's Owning a Home feature.]({{ image | url }})
 
 ## Test content with real people
 

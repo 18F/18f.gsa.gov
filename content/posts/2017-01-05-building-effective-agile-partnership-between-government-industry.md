@@ -12,7 +12,7 @@ image: /assets/blog/dol-whd-14c/certification-application.png
 hero: false
 ---
 
-![The application form for 14(c) applicants]({{site.baseurl}}{{page.image}})
+![The application form for 14(c) applicants]({{ image | url }})
 
 For the past two years, 18F has had the pleasure of [working with the
 Wage and Hour Division (WHD) of the U.S. Department of

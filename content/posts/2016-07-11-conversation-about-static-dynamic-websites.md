@@ -14,7 +14,7 @@ image: /assets/blog/new-jekyll-site/header.png
 
 Our blog uses [Jekyll](http://jekyllrb.com/), a static file
 generator with a basic templating system, as the backend software for
-our site. A few months ago we wrote about [our decision to host the site on Federalist]({{ site.baseurl }}/2016/05/18/why-were-moving-18f-gsa-gov-to-federalist/). This post is about static site generators and the advantages and disadvantages of using one over a more traditional content management system (CMS).
+our site. A few months ago we wrote about [our decision to host the site on Federalist]({{ "/2016/05/18/why-were-moving-18f-gsa-gov-to-federalist/" | url }}). This post is about static site generators and the advantages and disadvantages of using one over a more traditional content management system (CMS).
 
 Not everyone on our team was familiar with static website generators
 before joining 18F. Soon after joining 18F, Will Slack sat down with

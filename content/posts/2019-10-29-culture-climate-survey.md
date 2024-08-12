@@ -221,7 +221,7 @@ For example:
 
 <div aria-hidden="true">
 ![Chart - 'Administrative or clerical tasks that don’t have a specific owner are
-fairly divided"]({{site.baseurl}}/assets/blog/culture-climate-survey-2019/chart-administrative-tasks-fairly-divided.svg)
+fairly divided"]({{ "/assets/blog/culture-climate-survey-2019/chart-administrative-tasks-fairly-divided.svg" | url }})
 </div>
 
 <table class="usa-sr-only">

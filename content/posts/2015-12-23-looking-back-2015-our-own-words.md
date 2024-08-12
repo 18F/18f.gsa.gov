@@ -29,7 +29,7 @@ Below, everyone at 18F shares what they learned, what they did, and how they gre
 
 ## Accessibility
 
-*[The White House Office of Science and Technology Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp), [18F]({{site.baseurl}}/), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
+*[The White House Office of Science and Technology Policy](https://obamawhitehouse.archives.gov/administration/eop/ostp), [18F]({{ "/" | url }}), the [National Institute on Disability, Independent Living, and Rehabilitation Research](http://www2.ed.gov/about/offices/list/osers/nidrr/index.html), and [DC Legal Hackers](http://dclegalhackers.org/) hosted an [Accessibility Hackathon](https://18f.gsa.gov/2015/04/07/icymi-a11yhack-accessibility-awareness-hackathon/) on March 31, 2015.*
 
 “I loved organizing the accessibility hackathon and it’s been a blast working on the [micropurchase experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) and the [Agile BPA](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) work.” - **Alan deLevie**
 
@@ -232,7 +232,7 @@ _The 18F Design Method cards are open source to download and print off._
 
 ### Partner meetings
 
-*Our [consulting team]({{ site.baseurl }}/consulting/) routinely meets with agencies for [agile workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
+*Our [consulting team]({{ "/consulting/" | url }}) routinely meets with agencies for [agile workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/) and short-term engagements. Several members from the team reflected on how much they enjoyed working with agencies this year:*
 
 “I really enjoyed participating in initial partner meetings to help evaluate the technical needs of proposed projects. It’s made me realize just how many government agencies are eager to move to an agile, user-centered way of working.” - **Alex Bisker**
 

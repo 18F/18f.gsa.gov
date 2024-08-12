@@ -22,7 +22,7 @@ redirect_from:
 - /2015/09/09/how-a-two-day-spring-moved-an-agency-twenty-years-forward/
 ---
 
-At 18F Consulting, we experiment with [ways to empower agencies ]({{ site.baseurl }}/consulting/)to build cost-efficient, excellent digital solutions. Recently we partnered with the Department of Labor’s Wage and Hour Division (WHD) to run a two day “Design/Dev Agile Sprint.”
+At 18F Consulting, we experiment with [ways to empower agencies ]({{ "/consulting/" | url }})to build cost-efficient, excellent digital solutions. Recently we partnered with the Department of Labor’s Wage and Hour Division (WHD) to run a two day “Design/Dev Agile Sprint.”
 
 ## Background: Investigators in Wage and Hour Division
 

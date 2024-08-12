@@ -23,7 +23,7 @@ This will allow agencies to reuse and collaborate on software. You can
 [read more about the policy on
 code.gov](https://code.gov/#/policy-guide/docs/overview/introduction).
 
-![The code.gov homepage showing CFPB's open source resources]({{ site.baseurl }}{{ page.image }})
+![The code.gov homepage showing CFPB's open source resources]({{ image | url }})
 
 The urgency to define the schema was driven by a 120-day deadline for
 agencies to use the schema to prepare their enterprise code inventories.
