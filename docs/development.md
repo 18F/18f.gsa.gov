@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 
 ## Overview
 
-Content for the 18F website is written using Markdown, and pages are styled based on the layouts which are stored in `_includes/layouts`. Individual posts and pages are customized using front matter, which is the set of key-value pairs you see at the top of many pages and posts. Front matter is written in YAML format and sets up some configuration for the page.
+Content for the 18F website is written using Markdown, and pages are styled based on the layouts which are stored in `templates/layouts`. Individual posts and pages are customized using front matter, which is the set of key-value pairs you see at the top of many pages and posts. Front matter is written in YAML format and sets up some configuration for the page.
 
 This document is a work in progress. If you don't see the information you're looking for, please open a [new issue](https://github.com/18F/18f.gsa.gov/issues).
 
@@ -111,7 +111,7 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 1. Open up `.git/info/exclude`
 2. Add `assetPaths.json` to that file
 
-If that doesn't work, type in `git update-index --assume-unchanged _data/assetPaths.json` into the terminal.
+If that doesn't work, type in `git update-index --assume-unchanged data/assetPaths.json` into the terminal.
 
 ### Link icons
 
@@ -129,7 +129,7 @@ The content for all of the pages and posts are in the `content/pages` and `conte
 
 ## Data
 
-All the data that's accessible sitewide is kept in `_data/`.
+All the data that's accessible sitewide is kept in `data/`.
 
 Anything we display or iterate over that isn't content goes here. This includes things like all our author data, agencies whose logos we display on the homepage and on "Work With Us", etc.
 
@@ -199,7 +199,7 @@ _Examples:_
 
 ## Navigation
 
-The `_data/navigation.yaml` file is used to define the primary navigation for each guide. The guide’s tag is used as a key which maps to its list of link names and urls.
+The `data/navigation.yaml` file is used to define the primary navigation for each guide. The guide’s tag is used as a key which maps to its list of link names and urls.
 
 _Example:_
 ```

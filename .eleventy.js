@@ -16,9 +16,9 @@ module.exports = function (config) { /* eslint-disable-line func-names */
 
     dir: {
       input: '.',
-      includes: '_includes',
-      layouts: '_includes/layouts',
-      data: '_data',
+      includes: 'templates',
+      layouts: 'templates/layouts',
+      data: 'data',
       output: '_site',
     },
   };

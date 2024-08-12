@@ -23,7 +23,7 @@ Ensure that you have the latest version of [Node](https://nodejs.org/en/download
 To run the site locally:
 
 1. Clone this repo
-2. Add _data/assetPaths.json to .git/info/exclude [(See the development docs.)](/docs/development.md)
+2. Add data/assetPaths.json to .git/info/exclude [(See the development docs.)](/docs/development.md)
 3. From the repo directory, run:
    ```sh
    npm install
