@@ -48,7 +48,7 @@
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
           {% for item in navigation.contact %}
-            <li><a href="{{ item.href | url }}">{{ item.text }}</a></li>
+            <li><a href="{{ item.href | url }}" {% if item.class %}class="{{ item.class }}"{% endif %}>{{ item.text }}</a></li>
           {% endfor %}
         </ul>
       </div>
