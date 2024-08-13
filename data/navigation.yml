@@ -48,6 +48,7 @@ contact:
   -
     href: https://github.com/18F/18f.gsa.gov/issues/new/choose
     text: Report a bug
+    class: usa-link--external
   -
     href: /join/
     text: Join 18F
