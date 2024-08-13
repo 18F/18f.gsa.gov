@@ -21,8 +21,8 @@ manage your navigation system
         {% for nav_item in navigation.primary %}
         <li class="usa-nav__primary-item">
           {% assign nav_item_class = "usa-nav__link" %}
-          {% if nav_item.class %}
-            {% assign nav_item_class = nav_item.class %}
+          {% if nav_item.html.class %}
+            {% assign nav_item_class = nav_item.html.class %}
           {% endif %}
           <a
             class="{{ nav_item_class }} {% if page.url == nav_item.href %} usa-current {% endif %}"

@@ -48,7 +48,14 @@
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
           {% for item in navigation.contact %}
-            <li><a href="{{ item.href | url }}" {% if item.class %}class="{{ item.class }}"{% endif %}>{{ item.text }}</a></li>
+            <li>
+              <a href="{{ item.href | url }}"
+                 {% if item.html.class %}class="{{ item.html.class }}"{% endif %}
+                 {% if item.html.rel %}rel="{{ item.html.rel }}"{% endif %}
+                 >
+               {{ item.text }}
+             </a>
+           </li>
           {% endfor %}
         </ul>
       </div>
@@ -58,30 +65,18 @@
           Social
         </h2>
         <ul class="usa-list usa-list--unstyled font-sans-sm list-item-spacing-2">
-          <li class="display-flex flex-align-center">
-            <a href="https://github.com/18F" class="usa-link--external">
-              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/github-dark-2.svg"
-                   class="maxw-205 margin-right-1 text-tbottom"
-                   alt=""
-              >GitHub
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/18F" class="usa-link--external">
-              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/twitter-dark.svg"
-                   class="maxw-205 margin-right-1"
-                   alt=""
-              >Twitter
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/gsa18f/" class="usa-link--external">
-              <img src="{{ site.baseurl }}/assets/img/social-icons/svg/linkedin-dark.svg"
-                   class="maxw-205 margin-right-1"
-                   alt=""
-              >LinkedIn
-            </a>
-          </li>
+          {% for item in social_media limit:3 %}
+            <li class="display-flex flex-align-center">
+              <a href="{{ item.link | url }}"
+                 class="{% if item.html.class %}{{ item.html.class }}{% endif %}"
+                 {% if item.html.rel %}rel="{{ item.html.rel }}"{% endif %}
+                 >
+                {% assign img_class = "mmaxw-205 margin-right-1 " | append: item.image.html.class %}
+                {% image_with_class item.image.dark img_class %}
+                {{- item.platform -}}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </div>

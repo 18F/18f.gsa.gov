@@ -4,8 +4,8 @@
     {% for item in social_media %}
     <li class="margin-bottom-2">
       <a href="{{ item.link | url }}"
-         class="usa-link--alt {{ item.html.class }}"
-         rel="{{ item.html.rel }}"
+         class="usa-link--alt {% if item.html.class %}{{ item.html.class }}{% endif %}"
+         {% if item.html.rel %}rel="{{ item.html.rel }}"{% endif %}
          >
          {% image_with_class item.image.light "maxw-3 margin-right-2 text-sub" "" %}
          {%- unless item.platform == "RSS feed" -%}18F on {% endunless %}{{ item.platform }}
