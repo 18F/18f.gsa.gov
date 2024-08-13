@@ -20,7 +20,7 @@ lead: Delivering civic technology
           {% endif %}
         </div>
         <div>
-          <p>Page {{ pagination.pageNumber }} of {{ pagination.pages.size }}</p>
+          <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.size }}</p>
         </div>
         <div class="display-flex flex-justify-end margin-right-neg-2px">
           {% if pagination.href.next %}
