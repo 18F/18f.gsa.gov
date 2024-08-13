@@ -18,10 +18,7 @@
         {% else %}
           {% assign item_link = item.text | slugify | prepend: site.baseurl %}
         {% endif %}
-
-        {% assign is_matching = page.url %}
-        <a id="{{ item.text | slugify }}-link" class="font-sans-md subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-
-current"{% endif %}>{{ item.text }}</a>
+        <a id="{{ item.text | slugify }}-link" class="font-sans-md subnav-anchor" href="{{ item_link }}">{{ item.text }}</a>
       </li>
       {% endfor %}
     </ul>
