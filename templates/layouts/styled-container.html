@@ -3,19 +3,19 @@ layout: primary
 ---
 <section class="usa-section section-padding-top-0">
   <div class="grid-container">
-    {% if page.title_rule %}
+    {% if title_rule %}
     <hr class="hr-1-dark margin-top-0 margin-bottom-8">
     {% endif %}
     <div class="grid-row grid-gap">
-      {%- if page.subnav_items or page.side_cta or show_social_media -%}
+      {%- if subnav_items or side_cta or show_social_media -%}
       <div class="tablet:grid-col-7">
         {{ content }}
       </div>
       <aside class="tablet:grid-offset-1 tablet:grid-col-4 margin-bottom-2">
-        {%- if page.subnav_items %}
-          {% include "subnav.html" subnav_items: page.subnav_items %}
+        {%- if subnav_items %}
+          {% include "subnav.html" subnav_items: subnav_items %}
         {% endif %}
-        {%- if page.side_cta -%}
+        {%- if side_cta -%}
           {% include "side-cta.html" %}
         {% endif -%}
         {%- if show_social_media -%}
