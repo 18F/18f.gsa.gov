@@ -21,11 +21,19 @@ manage your navigation system
         {% for nav_item in navigation.primary %}
         <li class="usa-nav__primary-item">
           {% assign nav_item_class = "usa-nav__link" %}
+          {% assign is_current = false %}
+          {% assign path = page.inputPath | slice: 2,14 %}
+          {% if page.url == nav_item.href %}
+            {% assign is_current = true %}
+          {% endif %}
+          {% if nav_item.href == "/blog/" and path == "content/posts/" %}
+            {% assign is_current = true %}
+          {% endif %}
           {% if nav_item.html.class %}
             {% assign nav_item_class = nav_item.html.class %}
           {% endif %}
           <a
-            class="{{ nav_item_class }} {% if page.url == nav_item.href %} usa-current {% endif %}"
+            class="{{ nav_item_class }} {% if is_current %} usa-current {% endif %}"
             href="{{ nav_item.href | url }}"
             {% if page.url == nav_item.href %} aria-current="page" {% endif %}
           >
