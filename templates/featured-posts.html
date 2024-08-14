@@ -7,11 +7,13 @@
   {% assign border_color = "border-primary" %}
   {% assign hover_color = "hover-primary-dark" %}
 {% endif %}
+{% comment %}
+  Default behavior is to limit to 9 posts. (As of this writing, site usually uses 3 or 6.)
+{% endcomment %}
+{% assign post_limit = limit | default: 9 %}
+
   <ul class="grid-row grid-gap usa-list--unstyled">
-    {% comment %}
-      Default behavior is to limit to 9 posts. (As of this writing, site usually uses 3 or 6.)
-    {% endcomment %}
-    {% for post in posts limit: 9 %}
+    {% for post in posts limit:post_limit %}
     <li class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-5 ">
       {% comment %}
         We can't get the URL while building the cache of related URLs.
@@ -55,4 +57,3 @@
     {% endfor %}
   </ul>
 {% endif %}
-
