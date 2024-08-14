@@ -18,6 +18,7 @@ project_url: "[login.gov](https://www.login.gov/)"
 resources: "[login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
 product_clients:
 - Customs and Border Protection
+layout: project_page
 ---
 
 Hundreds of applications across government websites require visitors to log in. Many of these login systems use old technology or outdated encryption standards. As a result, visitors often have an inconsistent, confusing, or unreliable experience simply logging in to government websites. In addition, each agency maintains their own system, duplicating work across the government.
