@@ -18,6 +18,7 @@ github_repo:
 project_url: "[Crime Data Explorer website](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)"
 learn_more:
 product_clients:
+layout: project_page
 ---
 
 The Federal Bureau of Investigation collects U.S. crime data as part of the Uniform Crime Reporting program. The data has a huge potential audience including researchers, law enforcement officers, and the public. In 2017, the FBI began working with 18F to create a digital tool that improves access to the data.

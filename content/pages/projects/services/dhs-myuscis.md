@@ -12,6 +12,7 @@ project_url: "[my.uscis.gov](https://my.uscis.gov/)"
 github_repo:
 expiration_date:
 project_weight: 5
+layout: project_page
 ---
 
 The process of applying for citizenship can be complicated and intimidating. Even a small mistake can result in lost fees or denied citizenship.

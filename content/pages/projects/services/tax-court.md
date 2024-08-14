@@ -16,6 +16,7 @@ project_url: "[dawson.ustaxcourt.gov](https://dawson.ustaxcourt.gov/)"
 learn_more:
 product_clients:
 resources: "[Case Management System RFQ](https://github.com/ustaxcourt/case-management-rfq)"
+layout: project_page
 ---
 
 Each year, taxpayers file 35,000 petitions with the United States Tax Court to settle disputes with the Internal Revenue Service. Most — about 60% — are filed without the help of lawyers. And, since the 1980s, they had to be submitted in person or by mail. They approached 18F for help making the process easier and quicker for taxpayers and staff alike.

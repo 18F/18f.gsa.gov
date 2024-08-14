@@ -16,6 +16,7 @@ learn_more:
 product_clients:
 published: false
 listed: false
+layout: project_page
 ---
 
 Occasionally, our country’s currency needs technical and aesthetic
