@@ -37,7 +37,11 @@
         </h3>
       </a>
       {% if show_excerpt %}
-        {{ post.excerpt }}
+        {% if post.excerpt %}
+          {{ post.excerpt }}
+        {% else %}
+          {{ post.data.excerpt }}
+        {% endif %}
       {% endif %}
     </li>
     {% endfor %}
