@@ -14,6 +14,7 @@ github_repo: "[Code for the 14(c) Web Application Tool](https://github.com/18F/d
 project_url:
 learn_more:
 product_clients:
+layout: project_page
 ---
 
 Federal labor laws provide many important protections for workers, such

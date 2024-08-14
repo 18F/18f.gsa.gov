@@ -18,6 +18,7 @@ project_url:
 learn_more:
 product_clients:
 resources:
+layout: project_page
 ---
 
 Outdated technology was making it difficult for the Alaska Department of Health and Social Services to update its eligibility systems for public benefit programs to reflect changes to federal or state policy. They asked 18F for help developing a procurement strategy that would allow them to deliver better service to those in need. 

@@ -16,6 +16,7 @@ github_repo:
 project_url: "[America's Seed Fund powered by NSF website](https://seedfund.nsf.gov/)"
 learn_more:
 product_clients:
+layout: project_page
 ---
 
 Every year, a National Science Foundation (NSF) program awards

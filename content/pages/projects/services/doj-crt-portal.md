@@ -17,6 +17,7 @@ project_url: "[civilrights.justice.gov](https://civilrights.justice.gov/)"
 learn_more:
 product_clients:
 resources:
+layout: project_page
 ---
 
 The Civil Rights Division (CRT) within the Department of Justice upholds the civil rights of all people in the United States. It enforces federal laws that protect people from discrimination based on race, color, national origin, disability status, sex, religion, familial status, or loss of other constitutional rights.

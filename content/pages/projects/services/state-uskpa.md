@@ -14,6 +14,7 @@ github_repo:
     - "[USKPA project code](https://github.com/USKPA-dev/uskpa)"
 project_url: "[The United States Kimberley Process Authority website](https://www.uskpa.org/)"
 resources:
+layout: project_page
 ---
 
 The Department of State and the U.S. Kimberley Process Authority (USKPA) manage domestic implementation of the [Kimberley Process](https://www.state.gov/conflict-diamonds-and-the-kimberley-process/), which aims to prevent trade in conflict diamonds. USKPA.org, a website critical to supporting legal export of rough diamonds from the U.S., needed an overhaul to meet the needs of its varied users. In need of a solution that fit a limited budget, the State Department reached out to 18F for help moving forward. 

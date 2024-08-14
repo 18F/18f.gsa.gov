@@ -17,6 +17,7 @@ project_url: "[U.S. Web Design System website](https://designsystem.digital.gov/
 learn_more:
 product_clients:
 redirect_from: /our-work/us-web-design-standards/
+layout: project_page
 ---
 
 Across the government, developers frequently have to tackle the same

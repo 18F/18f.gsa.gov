@@ -14,6 +14,7 @@ github_repo:
 project_url:
 resources:
 - "[Modular contracting resources for state and local governments](https://modularcontracting.18f.gov/)"
+layout: project_page
 ---
 
 Health and Human Services (HHS) is a federal agency, but many crucial HHS programs — like Medicaid — are administered by states.
