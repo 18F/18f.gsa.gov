@@ -23,6 +23,7 @@ product_clients:
 - Federal Election Commission
 - General Services Administration
 - Office of Management and Budget
+layout: project_page
 ---
 
 Running a typical web application in government takes a lot of technical and compliance work that can be labor-intensive and expensive.

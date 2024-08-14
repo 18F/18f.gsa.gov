@@ -20,6 +20,7 @@ product_clients:
 - Bureau of Alcohol, Tobacco, Firearms and Explosives
 - Environmental Protection Agency
 - Federal Election Commission
+layout: project_page
 ---
 
 Federal regulations are often dense and filled with terminology that can make them difficult to read and interpret. Even seasoned government employees can have trouble deciphering these regulations, and gathering public comments on changes is often difficult and time-consuming.
