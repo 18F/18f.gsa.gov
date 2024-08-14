@@ -10,6 +10,7 @@ const markdown = require('./markdown')
 const passthroughs = require('./passthroughs')
 const plugins = require('./plugins')
 const shortcodes = require('./shortcodes')
+const templateFunctions = require('./template_functions')
 
 // Wrapper for custom bits for 18f.gsa.gov
 module.exports = function EighteenF(eleventyConfig) {
@@ -26,4 +27,5 @@ module.exports = function EighteenF(eleventyConfig) {
   eleventyConfig.addPlugin(passthroughs)
   eleventyConfig.addPlugin(plugins)
   eleventyConfig.addPlugin(shortcodes)
+  eleventyConfig.addPlugin(templateFunctions)
 }
