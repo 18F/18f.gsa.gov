@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-{% assign matching_posts = collections.posts | byTag: tag | sort: 'date' | reverse %}
 <section class="usa-section section-padding-sm project-page">
 <div class="grid-container">
   <div class="grid-row grid-gap">
@@ -114,7 +112,10 @@ layout: default
   </div>
   {% endif %}
 </div>
- {% if matching_posts.size > 0 %}
+
+{% assign matching_tag = collections.tags | where: "data.name", tag | first %}
+{% assign matching_posts = matching_tag.data.posts %}
+{% if matching_posts.size > 0 %}
 <section class="usa-section">
   <div class="grid-container">
     <div class="grid-row margin-bottom-6">
@@ -129,10 +130,10 @@ layout: default
       </div>
       {% endif %}
     </div>
-    {% include "featured-posts.html"
-       posts: matching_posts
-       limit: 3
-       show_excerpt: true
+    {% include "featured-posts.html",
+       posts: matching_posts,
+       limit: 3,
+       show_excerpt: true,
     %}
   </div>
 </section>
