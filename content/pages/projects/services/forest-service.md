@@ -21,6 +21,7 @@ resources:
     - "[e-Permit API task order](https://github.com/18F/bpa-fs-epermit-api)"
     - "[e-Permit intake task order](https://github.com/18F/bpa-fs-epermit-intake)"
     - "[Christmas tree task order](https://github.com/18F/bpa-fs-xmas-trees)"
+layout: project_page
 ---
 
 The U.S. Department of Agriculture’s Forest Service issues permits to the public for activities such as outfitting trips, large-scale events, and Christmas tree harvests.

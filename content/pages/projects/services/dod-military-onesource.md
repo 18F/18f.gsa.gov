@@ -16,6 +16,7 @@ learn_more:
 product_clients:
 published: false
 listed: false
+layout: project_page
 ---
 
 The Military Community and Family Policy group, within the Office of the

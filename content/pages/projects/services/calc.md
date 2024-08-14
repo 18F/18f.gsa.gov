@@ -14,6 +14,7 @@ project_url: "[calc.gsa.gov](https://calc.gsa.gov/)"
 quote: 
 quote_source: 
 project_weight: 9
+layout: project_page
 ---
 
 The General Services Administration plays a central role in helping the rest of the federal government hire contractors to perform professional services. This process requires contracting officers to research past federal contracts to determine a fair hourly rate, which often involves manually searching through stacks of paper contracts to find old labor rates.

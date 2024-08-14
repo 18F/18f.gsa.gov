@@ -12,6 +12,7 @@ tag: nrrd
 github_repo: "[ONRR/doi-extractives-data](https://github.com/ONRR/doi-extractives-data)"
 project_url: "[Natural Resources Revenue Data site](https://revenuedata.doi.gov/)"
 resources:
+layout: project_page
 ---
 
 Previously, if you looked out your window and saw an oil rig on public

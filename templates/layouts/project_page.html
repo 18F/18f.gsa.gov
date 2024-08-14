@@ -1,0 +1,139 @@
+---
+layout: default
+---
+
+{% assign matching_posts = collections.posts | by: page | sort: 'date' | reverse %}
+<section class="usa-section section-padding-sm project-page">
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    {% if agency %}
+      <div class="grid-col-12">
+        <h1> {{ agency }} </h1>
+      </div>
+      <div class="grid-col-12">
+        <h2 class="margin-top-4"> {{ title }} </h2>
+      </div>
+    {% else %}
+      <div class="grid-col-12">
+        <h1> {{ title }} </h1>
+      </div>
+    {% endif %}
+  {% if image %}
+    <img src="{{ site.baseurl }}/{{ image }}"
+         class="margin-top-6"
+         alt="{{ image_alt }}"
+    >
+  {% endif %}
+  </div>
+  <div class="grid-row grid-gap margin-top-8">
+  <div class="tablet:grid-col-7 margin-bottom-4 project-page__content">
+    <h2> Project details </h2>
+    {{ content }}
+  </div>
+  {% if agency or
+        project_url or
+        github_repo or
+        product_clients.size > 0 or
+        start_date or
+        expiration_date or
+        resources
+  %}
+  <div class="tablet:grid-offset-1 tablet:grid-col-4 project-page__sidebar">
+    <div class="border-top-05-primary-dark padding-y-2 margin-top-1">
+       <div>
+        <h3 class="font-sans-md text-bold margin-top-0"> Agency partner </h3>
+        <p> {{ agency }} </p>
+        </div>
+         {% if project_url %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">
+            See our work
+          </h3>
+          {{- project_url | markdownify -}}
+        </div>
+        {% endif %}
+         {% if github_repo %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">
+            See the code on GitHub
+          </h3>
+            <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+            {% for repo in github_repo %}
+              <li>{{ repo | markdownify }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+         {% comment %}
+        TODO: Revisit, and possibly rephrase or combine with agency partner (singular)
+        {% endcomment %}
+        {% if product_clients.size > 0 %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1"> Agency partners </h3>
+          {% if product_client.size == 1 %}
+            {{ product_client }}
+          {% else %}
+          <ul class="{% if product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
+          {% for client in product_clients %}
+            <li>{{ client }}</li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
+          {% if start_date or expiration_date %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">When</h3>
+          <p>
+          {% if start_date and expiration_date %}
+          {{ start_date }} – {{ expiration_date }}
+          {% elsif start_date and expiration_date == false %}
+          Starts {{ start_date }}
+          {% elsif start_date == false and expiration_date %}
+          Ends {{ expiration_date }}
+          {% endif %}
+          </p>
+        </div>
+        {% endif %}
+         {% if resources.size > 0 %}
+        <div class="margin-top-4">
+          <h3 class="font-sans-md text-bold margin-bottom-1">Resources</h3>
+          {% if resources.size > 1 %}
+            <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+              {% for resource in resources %}
+                <li >{{ resource | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p> {{ pages.resources | markdownify }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+ {% if matching_posts.size > 0 %}
+<section class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row margin-bottom-6">
+      <div class="tablet:grid-col-8">
+        <h2> Related blog posts </h2>
+      </div>
+      {% if matching_posts.size > 3 %}
+      <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 posts__see-all">
+        <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">
+          See all posts about this project {% include svg/icons/arrow-right.svg %}
+        </a>
+      </div>
+      {% endif %}
+    </div>
+    {% include featured-posts.html
+       posts=matching_posts
+       max_num_posts=3
+       show_excerpt=true
+    %}
+  </div>
+</section>
+{% endif %}

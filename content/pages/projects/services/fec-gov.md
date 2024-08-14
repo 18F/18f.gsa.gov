@@ -20,6 +20,7 @@ github_repo:
     - "[Infrastructure management](https://github.com/fecgov/fec-infrastructure)"
 project_url: "[Federal Election Commission website](https://www.fec.gov/)"
 quote:
+layout: project_page
 ---
 
 The Federal Election Commission (FEC) regulates how money is raised and spent in federal elections.
