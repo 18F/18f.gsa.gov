@@ -43,6 +43,7 @@ layout: default
   <div class="grid-container">
     {% assign related_posts = page | related %}
     {% include "featured-posts.html",
+       type: "related",
        posts: related_posts,
        show_excerpt: true %}
     </div>
