@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign matching_posts = collections.posts | by: page | sort: 'date' | reverse %}
+{% assign matching_posts = collections.posts | byTag: tag | sort: 'date' | reverse %}
 <section class="usa-section section-padding-sm project-page">
 <div class="grid-container">
   <div class="grid-row grid-gap">
@@ -124,15 +124,15 @@ layout: default
       {% if matching_posts.size > 3 %}
       <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 posts__see-all">
         <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">
-          See all posts about this project {% include svg/icons/arrow-right.svg %}
+          See all posts about this project {% include "svg/icons/arrow-right.svg" %}
         </a>
       </div>
       {% endif %}
     </div>
-    {% include featured-posts.html
-       posts=matching_posts
-       max_num_posts=3
-       show_excerpt=true
+    {% include "featured-posts.html"
+       posts: matching_posts
+       limit: 3
+       show_excerpt: true
     %}
   </div>
 </section>

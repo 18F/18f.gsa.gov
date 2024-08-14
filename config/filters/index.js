@@ -1,5 +1,6 @@
 const asAbsoluteUrl   = require('./asAbsoluteUrl');
 const byAuthor        = require('./byAuthor');
+const byTag           = require('./byTag');
 const capitalize      = require('./capitalize');
 const dateToXMLSchema = require('./dateToXMLSchema');
 const embed           = require('./embed');
@@ -18,6 +19,7 @@ const toDatePath      = require('./toDatePath');
 const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('asAbsoluteUrl', asAbsoluteUrl)
   eleventyConfig.addFilter('by', byAuthor);
+  eleventyConfig.addFilter('byTag', byTag);
   eleventyConfig.addFilter('capitalize', capitalize);
   eleventyConfig.addFilter('date_to_xmlschema', dateToXMLSchema);
   eleventyConfig.addFilter('embed', embed)
