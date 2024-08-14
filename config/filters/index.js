@@ -18,7 +18,7 @@ const toDatePath      = require('./toDatePath');
 
 const filterPlugin = (eleventyConfig) => {
   eleventyConfig.addFilter('asAbsoluteUrl', asAbsoluteUrl)
-  eleventyConfig.addFilter('by', byAuthor);
+  eleventyConfig.addFilter('byAuthor', byAuthor);
   eleventyConfig.addFilter('byTag', byTag);
   eleventyConfig.addFilter('capitalize', capitalize);
   eleventyConfig.addFilter('date_to_xmlschema', dateToXMLSchema);
