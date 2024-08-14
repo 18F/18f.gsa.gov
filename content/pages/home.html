@@ -143,6 +143,7 @@ title: Home
     </div>
     {% assign recent_posts = collections.posts | reverse | slice: 0, 6 %}
     {% include "featured-posts.html",
+       type: "recent",
        posts: recent_posts,
        color_mode: "dark" %}
 

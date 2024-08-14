@@ -31,7 +31,6 @@ Each year, taxpayers file 35,000 petitions with the United States Tax Court to s
 * Consulting in acquisitions and engineering set the Court’s Product Owner and Technical Lead, as well as their industry partner, up for success.
 * [DAWSON, the new web-based case management system](https://dawson.ustaxcourt.gov/), allows taxpayers to easily submit petitions online, and can be maintained and improved indefinitely by the Court. 
 
-<!-- -->
 {% include "testimonial.html",
      size: "md",
      quote: "If you think about bowling, 18F was like the bumpers on the lane, making sure I didn't go off-track.",
