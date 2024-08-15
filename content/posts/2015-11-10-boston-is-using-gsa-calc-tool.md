@@ -31,7 +31,7 @@ The tool, he says, offers city government contracting officers a way to get a br
 
 “One of the challenges cities face in tech procurement is that you're making decisions based solely on information provided by vendors. CALC...can help ensure decisions are fully informed,” he says.
 
-{% image "assets/blog/calc-announcement/calc_demo.gif" "The CALC tool in action" %}
+<img src="{{ "/assets/blog/calc-announcement/calc_demo.gif" | url }}" alt="The CALC tool in action" />
 
 CALC helps contracting officers determine the range of pricing — at the highest level — for a specific labor category. For example, a search for “Senior Engineer” will return comparable labor categories and their rates, which can be further narrowed by filtering for associated criteria such as years of experience, education level, etc.
 

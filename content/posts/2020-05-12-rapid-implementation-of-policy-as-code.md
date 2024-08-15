@@ -40,7 +40,7 @@ In collaboration with policy experts at the federal level, we created an experim
 
 We characterize this work as a [prototype](https://18f.gsa.gov/2018/01/30/getting-prepared-to-prototype/) because it’s meant to be a small and lightweight proof of concept. To visualize the kind of application that our eligibility API can power, we created a pre-screener:
 
-{% image "assets/blog/rapid-implementation-of-policy-as-code/prescreener-gif.gif" "GIF of Eligibility API Pre-Screener" %}
+<img src="{{ "/assets/blog/rapid-implementation-of-policy-as-code/prescreener-gif.gif" | url }}" alt="GIF of Eligibility API Pre-Screener" />
 
 So far, our prototype has been focused on the financial aspects of SNAP eligibility. When SNAP’s eligibility policy changed in response to the current crisis, this provided an opportunity to test the value of our approach.
 

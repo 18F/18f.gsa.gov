@@ -18,7 +18,7 @@ Nearly five years after its inception, we realized there haven’t been any blog
 
 In a nutshell, the Handbook is our take on internal government documentation. It is an open, crowd-sourced, accessible, and living resource that aims to provide the information our team needs to do their work.
 
-{% image "assets/blog/image4.gif" "Screen capture of scrolling through the Handbook homepage, then clicking into the “TTS mission, history, and values" %}
+<img src="{{ "/assets/blog/image4.gif" | url }}" alt="Screen capture of scrolling through the Handbook homepage, then clicking into the “TTS mission, history, and values" />
 
 In this post, we’ll unpack the Handbook’s core values -- and how they’re implemented in practice. We’ll dive into our experience with the Handbook and even highlight some other organizations who’ve adopted it. Finally, we’ll touch on what’s in store for the project going forward. If you’re a federal employee, civic technologist, or member of the public, we hope to leave you with a sense of what 21st-century transparency in your government looks like.
 
@@ -48,7 +48,7 @@ The actual mechanism to make contributions was overly complicated. Some contribu
 
 **Solution:** To remedy the overly-technical contribution process, we are adding support for [NetlifyCMS](https://www.netlifycms.org/) ([via cloud.gov Pages](https://federalist.18f.gov/documentation/getting-started-with-netlify-cms/)): an open-source content management system that will give our contributors a friendly UI and Git-free publishing workflow.
 
-{% image "assets/blog/netlify-workflow.gif" "Demoing the contribution workflow in NetlifyCMS" %}
+<img src="{{ "/assets/blog/netlify-workflow.gif" | url }}" alt="Demoing the contribution workflow in NetlifyCMS" />
 
 ### Reviewer ambiguity
 
