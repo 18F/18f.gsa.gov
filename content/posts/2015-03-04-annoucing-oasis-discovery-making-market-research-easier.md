@@ -22,7 +22,7 @@ Discovery will allow federal acquisition personnel to conduct initial market res
 
 This first release is geared for use with GSA’s newly released [OASIS vehicle](http://www.federaltimes.com/story/government/acquisition/gsa-gwac/2014/12/17/oasis-signals-a-new-era-for-gsa/20549171/). Eventually, 18F hopes to make additional vehicles and resources available through Discovery, as well.
 
-{% image "assets/blog/discovery-launch/discovery-intro.gif" "Screen: Discovery Homepage" %}
+<img src="{{ "/assets/blog/discovery-launch/discovery-intro.gif" | url }}" alt="Screen: Discovery Homepage" />
 
 ### Who is it for?
 

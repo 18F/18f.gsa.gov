@@ -78,7 +78,7 @@ learned](https://18f.gsa.gov/tags/federal-front-door/) on the 18F blog.
 Market research for procurement
 -----------------------------------------------------
 
-[{% image "assets/blog/calc-announcement/calc_demo.gif" "An animated demo of how to use the CALC tool" %}](https://calc.gsa.gov/)
+[<img src="{{ "/assets/blog/calc-announcement/calc_demo.gif" | url }}" alt="An animated demo of how to use the CALC tool" />](https://calc.gsa.gov/)
 
 We developed [a tool](https://calc.gsa.gov/) that helps you easily
 conduct market research across a number of categories for acquiring

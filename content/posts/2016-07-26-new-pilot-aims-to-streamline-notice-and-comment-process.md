@@ -15,7 +15,7 @@ image: /assets/blog/eregs-comments/eregs-comment.gif
 hero: false
 ---
 <figure>
-	{% image "assets/blog/eregs-comments/eregs-comment.gif" "gif of eRegulations comment page" %}
+	<img src="{{ "/assets/blog/eregs-comments/eregs-comment.gif" | url }}" alt="gif of eRegulations comment page" />
 	<figcaption>The new eRegulations commenting interface allows people to share their thoughts down to the paragraph level.</figcaption>
 </figure>
 <br>

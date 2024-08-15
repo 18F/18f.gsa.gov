@@ -87,7 +87,7 @@ I like to put all my GitHub projects in the same directory. So **the first thing
 
 > **Pro tip:** You can always get back to your code directory by typing `cd ~/code`
 
-{% image "assets/blog/github-tutorial/mkdir-code.gif" "Screenshot: typing in mkdir code" %}
+<img src="{{ "/assets/blog/github-tutorial/mkdir-code.gif" | url }}" alt="Screenshot: typing in mkdir code" />
 
 ## Clone a repo on your computer
 
@@ -105,7 +105,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Type in `cd ~/code` and press enter to get to the `code` directory we created earlier.
 
-{% image "assets/blog/github-tutorial/cd-code.gif" "Screenshot: typing in cd code" %}
+<img src="{{ "/assets/blog/github-tutorial/cd-code.gif" | url }}" alt="Screenshot: typing in cd code" />
 
 * Go to [18f.gsa.gov's GitHub page](https://github.com/18F/18f.gsa.gov) and look on the right side of the page, under the links for "Issues" and "Graphs." You'll see it says "You can clone with HTTPS, SSH, or Subversion." Click on the SSH link and copy the URL (web address) that's in that text box to your clipboard.
 
@@ -113,7 +113,7 @@ In this step we are going to _clone_ the 18f.gsa.gov project to your computer.
 
 * Type in `git clone ` and then paste the URL that you copied to your clipboard. This is now copying the 18f.gsa.gov repo to your local computer.
 
-{% image "assets/blog/github-tutorial/git-clone.gif" "screenshot: cloning repo" %}
+<img src="{{ "/assets/blog/github-tutorial/git-clone.gif" | url }}" alt="screenshot: cloning repo" />
 
 > If you run into an error here and **have** run the Laptop script, you need to open and register your GitHub desktop application. The script installs the application, but the application will not auto-generate an SSH key until you log-in with your 18F GitHub account credentials. Just open GitHub desktop and it will guide you as a first time user. You'll validate your local computer with 2FA and then check a few more boxes. After completing that, re-try the `git clone [url]` command.
 
@@ -135,7 +135,7 @@ Branches are little sandboxes for other people working on the project to prepare
 
 In the next step we're going to create a branch, and later on, when you make a pull request, GitHub will automatically assume you're trying to contribute to the staging branch.
 
-{% image "assets/blog/github-tutorial/screenshot4.gif" "Screenshot: showing what the 18f GitHub site looks like" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot4.gif" | url }}" alt="Screenshot: showing what the 18f GitHub site looks like" />
 
 > On the right side, you can also see a list of the existing pull requests and issues. All of the pull requests go to the staging branch. When we merge the pull request to the staging branch, GitHub automatically brings those changes into the project, but does not make them live on https://18f.gsa.gov yet.
 
@@ -151,7 +151,7 @@ This last command will show you a little bit of information about what you're wo
 * _"Your branch is up-to-date with 'origin/staging'"_ means your branch is up to date with the staging branch of the remote location called "origin." A Git repo can have any number of remote locations it can interact with, called "remotes". By default, when you clone a GitHub repo, a remote called "origin" is created that points to the repo on the GitHub website. To view your repo's remote names and their location, type `git remote -v`. The name "origin" is arbitrary. You could rename it to "github" if you wanted to, but we won't do that now.
 * _"Nothing to commit / working directory clean"_ means you're completely up to date and haven't made any changes.
 
-{% image "assets/blog/github-tutorial/screenshot5.gif" "Screenshot: how to use git status" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot5.gif" | url }}" alt="Screenshot: how to use git status" />
 
 ## Build the 18F site
 
@@ -191,7 +191,7 @@ Okay. Now you're ready to start editing.
 
 * Type `git status` to make sure you're now on the branch. You should see something that looks like this:
 
-{% image "assets/blog/github-tutorial/screenshot11.gif" "Screenshot: git checkout and status" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot11.gif" | url }}" alt="Screenshot: git checkout and status" />
 
 ### Edit and commit a blog post
 
@@ -251,7 +251,7 @@ A [complete explanation for the front-matter](https://github.com/18F/18f.gsa.gov
 
 > You'll see that the file is now listed under changes to be committed.
 
-{% image "assets/blog/github-tutorial/screenshot16.gif" "Screen Shot: Git Add Post / Status" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot16.gif" | url }}" alt="Screen Shot: Git Add Post / Status" />
 
 > Well done! At this point, you've told Git that this file should be committed, but you haven't committed anything. So you could work on other things that need to be committed, or you could commit this file right now. We're going to commit right now.
 
@@ -275,7 +275,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 * Type `git push origin <branch>` (where `<branch>` is the name you gave your branch) and then hit enter.
 
-{% image "assets/blog/github-tutorial/screenshot17.gif" "Screen shot: git commit" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot17.gif" | url }}" alt="Screen shot: git commit" />
 
 > This uploads your branch and changes to the 18f.gsa.gov project on GitHub.
 
@@ -301,7 +301,7 @@ create mode 100644 _posts/2015-02-23-new-post.md
 
 * Type `git checkout staging` followed by `git pull` again, to make sure your version of the staging branch is current.
 
-{% image "assets/blog/github-tutorial/screenshot22.gif" "screenshot: checkout and pull" %}
+<img src="{{ "/assets/blog/github-tutorial/screenshot22.gif" | url }}" alt="screenshot: checkout and pull" />
 
 After you type `git pull` one of two things might happen:
 

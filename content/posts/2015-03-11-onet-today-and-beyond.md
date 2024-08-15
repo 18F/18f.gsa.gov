@@ -290,4 +290,4 @@ Data Standard. Donate some programming and design cycles to implementing
 the Skills Network Protocol and or the Skills Innovation Layer. Help
 change the world as we know it.
 
-[{% image "assets/blog/onet/image02.gif" "Send an email to get involved." %}](mailto:openinnovationhrs@dol.gov)
+[<img src="{{ "/assets/blog/onet/image02.gif" | url }}" alt="Send an email to get involved." />](mailto:openinnovationhrs@dol.gov)

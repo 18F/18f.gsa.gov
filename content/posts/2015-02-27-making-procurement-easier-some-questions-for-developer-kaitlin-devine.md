@@ -46,7 +46,7 @@ government?**
 Probably my elevator pitch would be that it’s an Angie’s List for
 government contractors.
 
-{% image "assets/blog/discovery-launch/discovery-intro.gif" "Screen: Discovery Homepage" %}
+<img src="{{ "/assets/blog/discovery-launch/discovery-intro.gif" | url }}" alt="Screen: Discovery Homepage" />
 
 **So it’s a way for government contractors to find out information?**
 

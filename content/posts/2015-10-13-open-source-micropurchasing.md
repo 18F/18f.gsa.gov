@@ -24,7 +24,7 @@ Specifically, we’re going to use our "micro-purchase" authority. Like all fede
 
 There are several reasons we’re trying this experiment. But perhaps the most important reason is this: we want another reason for our partner agencies to support open source code. We've long known at 18F that opening our source code from day one improves our ability to deliver. But we want to show that opening our source code improves our ability to contract for digital services. We also want to see whether this is a sustainable way to engage small businesses and non-traditional contractors in the government space.
 
-{% image "assets/blog/calc-announcement/calc_demo.gif" "An animation of how the CALC tool works" %}
+<img src="{{ "/assets/blog/calc-announcement/calc_demo.gif" | url }}" alt="An animation of how the CALC tool works" />
 *A demonstration of our CALC tool, which we will use for this micro-purchase experiment.*
 
 ## How will it work?

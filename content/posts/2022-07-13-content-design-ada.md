@@ -67,7 +67,7 @@ This example helps illustrate how the law might apply in a specific situation—
 ### Collapse complexity
 We didn’t want to force users to read content that isn't relevant to them, so when we included extra detail or definitions, we used accordions, or other collapsible design patterns.
 
-{% image "assets/blog/content/ada-accordion.gif" "Screenshot from revised service animals page that shows a heading with a plus sign that can be expanded to get more detail. The heading is phrased as a question, What does fundamentally alter mean? The screenshot is animated to show the heading being expanded to display the answer and closed again" %}
+<img src="{{ "/assets/blog/content/ada-accordion.gif" | url }}" alt="Screenshot from revised service animals page that shows a heading with a plus sign that can be expanded to get more detail. The heading is phrased as a question, What does fundamentally alter mean? The screenshot is animated to show the heading being expanded to display the answer and closed again" />
 
 This technique was useful for instances where we couldn’t sufficiently explain the ADA without defining a term in the law or regulations. It was also useful for examples and further explanations, such as the difference between service animals and emotional support animals.
 

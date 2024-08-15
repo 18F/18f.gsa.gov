@@ -38,7 +38,7 @@ Our first goal was to create a minimum viable product that our partners could us
 
 In the end, we had something that looked like [this dashboard](http://cg-9341b8ea-025c-4fe2-aa6c-850edbebc499.app.cloud.gov/site/18f/privacy-dashboard/).
 
-{% image "assets/blog/image2.gif" "Gif of the PII inventory dashboard of a user looking for the term social security number" %}
+<img src="{{ "/assets/blog/image2.gif" | url }}" alt="Gif of the PII inventory dashboard of a user looking for the term social security number" />
 
 Our prototype was simple, but it immediately delivered impact for our partners. The dashboard saved them from having to resort to manual processes that take hours upon hours of their valuable time. It also increased their confidence in their analysis and reporting, which helped them answer questions and collaborate more effectively with other departments. 
 
