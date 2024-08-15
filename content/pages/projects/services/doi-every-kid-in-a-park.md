@@ -2,8 +2,9 @@
 agency: Department of the Interior
 title: Every Kid in a Park
 subtitle: Designing for every user
-permalink: /our-work/every-kid-in-a-park/
-redirect_from: /project/every-kid-in-a-park/
+# permalink: /our-work/every-kid-in-a-park/
+permalink: false
+# redirect_from: /project/every-kid-in-a-park/
 excerpt: Using research to design a federal website for an audience that doesn’t know the word federal.
 image: assets/img/home/hero-ekiap.jpg
 image_alt: Children proudly showing their national park badges
@@ -12,8 +13,6 @@ tag: every kid in a park
 expiration_date:
 github_repo: https://github.com/18F/ekip-api
 project_url: "[Every Kid in a Park website](https://www.everykidinapark.gov)"
-published: false
-listed: false
 layout: project_page
 ---
 
