@@ -68,7 +68,7 @@ explicitly require paper communication with the government.
 architect of Estonia’s Information System Authority. “We don’t have
 physical rooms to store the paper.”
 
-Storage space is an issue that crops up in the the Baltic nation,
+Storage space is an issue that crops up in the Baltic nation,
 comprised of a mainland and 1,500 islands and islets. The total geography is 17,000
 square miles. By comparison, the U.S. is 3.8 million.
 

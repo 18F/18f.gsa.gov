@@ -45,7 +45,7 @@ When we started, we held workshops with our pilot forests — Mt. Baker-Snoqualm
 We based our discovery work on assumptions that we heard from Forest Service staff. Below are these assumptions and our findings based on our research.
  
 #### Assumption: It takes a lot of time for Forest Service staff to prepare for, reconcile and report on Christmas tree tag sales. 
-**Finding**: Confirmed. Based on our observations, we estimate that each frontline supervisor spends 5–8 hours per week on these processes, in addition to the the time they spend selling any Christmas tree permits. Although the public transaction is brief (less than two minutes), the back-end processes are duplicative and time-consuming.
+**Finding**: Confirmed. Based on our observations, we estimate that each frontline supervisor spends 5–8 hours per week on these processes, in addition to the time they spend selling any Christmas tree permits. Although the public transaction is brief (less than two minutes), the back-end processes are duplicative and time-consuming.
  
 
 #### Assumption: When issuing Christmas tree tags takes a long time, the Forest Service staff involved can’t focus on other worthwhile activities, like public outreach and forest patrol. 

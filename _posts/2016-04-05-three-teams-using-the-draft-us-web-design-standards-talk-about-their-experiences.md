@@ -117,7 +117,7 @@ functionality of the Standards and what's underneath.
 
 **EH:** Although we chose an iterative approach towards adopting these
 design standards I would advocate for a more wholesale adoption of the
-style guidelines/template. With full integration into the the 18F Web
+style guidelines/template. With full integration into the 18F Web
 Design Standards you become a more engaged participant in the
 improvement and debugging of the current standards.
 
