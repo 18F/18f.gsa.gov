@@ -1,0 +1,12 @@
+{% if github_repo %}
+  <div class="margin-top-4">
+    <h3 class="font-sans-md text-bold margin-bottom-1">
+    See the code on GitHub
+    </h3>
+    <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+      {% for repo in github_repo %}
+        <li>{{ repo | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

@@ -15,7 +15,8 @@ github_repo:
 project_url: "[dawson.ustaxcourt.gov](https://dawson.ustaxcourt.gov/)"
 learn_more:
 product_clients:
-resources: "[Case Management System RFQ](https://github.com/ustaxcourt/case-management-rfq)"
+resources:
+  - "[Case Management System RFQ](https://github.com/ustaxcourt/case-management-rfq)"
 layout: project_page
 ---
 

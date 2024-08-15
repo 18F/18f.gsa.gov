@@ -33,11 +33,11 @@
         <h3 class="border-top-05 {{ border_color }} {{ hover_color }} padding-top-3 margin-bottom-3 text-bold {{ text_color }}">
           {% comment %}
             This featured-posts partial renders two different types of posts:
-              - regular ol' posts
-              - the minified posts that are stored in the related posts cache
+              - regular posts
+              - minified posts from the related posts cache
 
-            Why don't we change the format of the cached posts? This seemed easier.
-            A few dollars of technical debt for you.
+            TODO: See if we can restructure the data in the related posts cache,
+                  so that we don't have to switch on type
           {% endcomment %}
           {{ if type == "related" }}
             {{ post.title }}

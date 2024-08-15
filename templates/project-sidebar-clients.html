@@ -1,0 +1,19 @@
+{% comment %}
+TODO: Revisit "clients"
+- Should we rephrase to "partners"?
+- Should we link it to agency partner data somehow?
+{% endcomment %}
+{% if product_clients.size > 0 %}
+  <div class="margin-top-4">
+    <h3 class="font-sans-md text-bold margin-bottom-1">Agency partners</h3>
+    {% if product_client.size == 1 %}
+      {{ product_client }}
+    {% else %}
+      <ul class="{% if product_clients.size > 1 %}usa-sidenav__sublist{% endif %}">
+      {% for client in product_clients %}
+        <li>{{ client }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+{% endif %}
