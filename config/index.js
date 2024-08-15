@@ -1,5 +1,4 @@
 // const assets = require('./plugins/assets')
-const browsersync = require('./browsersync')
 const collections = require('./collections')
 const data = require('./data')
 const dataExtensions = require('./data_extensions')
@@ -16,7 +15,6 @@ const templateFunctions = require('./template_functions')
 module.exports = function EighteenF(eleventyConfig) {
   // Asset building
   // eleventyConfig.addPlugin(assets)
-  eleventyConfig.addPlugin(browsersync)
   eleventyConfig.addPlugin(collections)
   eleventyConfig.addPlugin(data)
   eleventyConfig.addPlugin(dataExtensions)
