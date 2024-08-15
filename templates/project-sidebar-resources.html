@@ -1,0 +1,10 @@
+{% if resources.size > 0 %}
+  <div class="margin-top-4">
+    <h3 class="font-sans-md text-bold margin-bottom-1">Resources</h3>
+    <ul class="usa-list usa-list--unstyled list-item-spacing-1">
+      {% for resource in resources %}
+        <li>{{ resource | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

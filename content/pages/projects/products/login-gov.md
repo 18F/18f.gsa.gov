@@ -15,7 +15,8 @@ github_repo:
     - "[login.gov website code](https://github.com/18F/identity-site)"
     - "[Style guide](https://github.com/18F/identity-style-guide)"
 project_url: "[login.gov](https://www.login.gov/)"
-resources: "[login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
+resources:
+  - "[login.gov developer documentation](https://pages.18f.gov/identity-dev-docs/)"
 product_clients:
 - Customs and Border Protection
 layout: project_page

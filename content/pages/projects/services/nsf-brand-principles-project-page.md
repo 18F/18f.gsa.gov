@@ -10,7 +10,8 @@ image_alt: Screenshot of a nsf site
 project_weight: 12
 tag: nsf-brand-principles
 github_repo: "[Project management board](https://github.com/nsf-open/nsf/projects/2)"
-resources: "[See 18F’s other work with NSF](https://18f.gsa.gov/our-work/seed-fund/)"
+resources:
+  - "[See 18F’s other work with NSF](https://18f.gsa.gov/our-work/seed-fund/)"
 layout: project_page
 ---
 
