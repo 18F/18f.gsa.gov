@@ -264,7 +264,7 @@ The primary layout is used on Home, Work with us, and Our work pages. The layout
 
 #### Front matter options
 
-The primary template uses [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/) heavily to account for variations within the site. Below are the the potential front matter attributes that you can use. Some are listed as _(optional)_. These can be used to alter the appearance of a page.
+The primary template uses [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/) heavily to account for variations within the site. Below are the potential front matter attributes that you can use. Some are listed as _(optional)_. These can be used to alter the appearance of a page.
 
 Attribute | Type | What it does
 --- | --- | ---
