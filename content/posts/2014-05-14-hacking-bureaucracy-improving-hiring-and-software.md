@@ -95,52 +95,8 @@ presentation](https://speakerdeck.com/18f/hacking-bureaucracy-18f-demo-day-9-may
 from 18F Demo Day on May 9th:
 
 {% raw %}
-<div class="embed-container rich "><iframe title="embedded 'Hacking Bureaucracy' presentation" id="talk_frame_99582" class="speakerdeck-iframe" src="//speakerdeck.com/player/5604c360b9ea01313bb0227341532047" width="710" height="532" style="aspect-ratio:710/532; border:0; padding:0; margin:0; background:transparent;" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen"></iframe>
-</div>
-
-        </div>
-
-      </article>
-    </div>
+  <div class="embed-container rich ">
+    <iframe title="embedded 'Hacking Bureaucracy' presentation" id="talk_frame_99582" class="speakerdeck-iframe" src="//speakerdeck.com/player/5604c360b9ea01313bb0227341532047" width="710" height="532" style="aspect-ratio:710/532; border:0; padding:0; margin:0; background:transparent;" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen">
+    </iframe>
   </div>
-</div>
-
-
-  <section class="post-pagination grid-container">
-    <div class="grid-row grid-gap">
-      <div class="grid-col-6">
-        
-        <a href="/2014/05/11/18f-shows-what-is-possible-in-government-with-fbopen/">
-          <span class="link-arrow-left">
-            <svg class="icon caret" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 444.531 444.531" style="enable-background:new 0 0 444.531 444.531;" xml:space="preserve" role="img" aria-hidden="true">
-  <title>Arrow left</title>
-  <desc>Arrow pointing to the left</desc>
-  <g>
-    <path d="M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835   l-21.409-21.416C323.432,3.521,314.817,0,304.637,0s-18.791,3.521-25.841,10.561L92.649,196.425   c-7.044,7.043-10.566,15.656-10.566,25.841s3.521,18.791,10.566,25.837l186.146,185.864c7.05,7.043,15.66,10.564,25.841,10.564   s18.795-3.521,25.834-10.564l21.409-21.412c7.05-7.039,10.567-15.604,10.567-25.697c0-10.085-3.518-18.746-10.567-25.978   L213.13,222.409z" fill="#046b99"/>
-  </g>
-</svg>
-
-            Previous Post
-          </span>
-          <h5>&ldquo;With FBOpen API, 18F shows what's possible in government&rdquo;</h5>
-        </a>
-        
-      </div>
-      <div class="grid-col-6">
-        
-        <a href="/2014/05/16/slides-from-the-inaugural-18f-demo-day/">
-          <span class="link-arrow-right">
-            Next Post
-            <svg class="icon caret" xmlns="http://www.w3.org/2000/svg" width="444.819" height="444.819" viewBox="0 0 444.819 444.819" role="img" aria-hidden="true">
-  <title>Arrow right</title>
-  <desc>Arrow pointing to the right</desc>
-  <path fill="#046b99" d="M352.025 196.712L165.885 10.848C159.028 3.615 150.468 0 140.185 0s-18.84 3.62-25.696 10.848l-21.7 21.416c-7.045 7.043-10.567 15.604-10.567 25.692 0 9.897 3.52 18.56 10.566 25.98L231.544 222.41 92.785 361.168c-7.04 7.043-10.563 15.604-10.563 25.693 0 9.9 3.52 18.566 10.564 25.98l21.7 21.417c7.043 7.043 15.612 10.564 25.697 10.564 10.09 0 18.656-3.52 25.697-10.564L352.025 248.39c7.046-7.423 10.57-16.084 10.57-25.98.002-10.09-3.524-18.655-10.57-25.698z"/>
-</svg>
-
-          </span>
-          <h5>&ldquo;Slides from the inaugural 18F Demo Day&rdquo;</h5>
-        </a>
-        
-      </div>
-    </div>
 {% endraw %}
