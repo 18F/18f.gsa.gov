@@ -2,7 +2,8 @@
 agency: Department of the Treasury
 title: The New Ten
 subtitle: Shaping the story of the New Ten
-permalink: /our-work/new-ten/
+# permalink: /our-work/new-ten/
+permalink: false
 excerpt: The Department of the Treasury and 18F worked together to shape the story around the new ten dollar bill.
 image: assets/img/projects/money-10.png
 image_alt: "A graphic of the US ten dollar bill on a blue background"
@@ -14,8 +15,6 @@ github_repo:
 project_url: "[The New Ten website](https://thenew10.treasury.gov/)"
 learn_more:
 product_clients:
-published: false
-listed: false
 layout: project_page
 ---
 

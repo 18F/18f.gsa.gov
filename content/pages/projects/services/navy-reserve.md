@@ -2,7 +2,8 @@
 agency: U.S. Navy Reserve
 title: Ready-2-Serve app prototype
 subtitle: Making it easier to serve
-permalink: /our-work/ready-2-serve/
+permalink: false
+# permalink: /our-work/ready-2-serve/
 excerpt: Understanding the experience of Navy Reservists to help streamline the deployment process.
 image: assets/img/projects/ready-2-serve-sailors.jpg
 image_alt: "Sailors standing on a ship"
@@ -13,8 +14,6 @@ project_url:
 product_clients:
 quote: A sailor’s time, and more importantly our nation’s use of it, must be focused to the greatest possible extent on the mission and not on administrative overhead.
 quote_source: "[Navy Reserve Vision 2015-2025 (PDF)](https://www.navyreserve.navy.mil/documents/NR_vision_2015.pdf)"
-published: false
-listed: false
 layout: project_page
 ---
 
