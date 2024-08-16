@@ -1,0 +1,26 @@
+{% assign subnav_items = include.subnav_items | default: subnav_items %}
+
+{% if subnav_items %}
+<nav class="subnav display-none tablet:display-block" aria-label="Secondary navigation">
+  {% assign title_slug = page.title | slugify %}
+  <ul class="usa-sidenav border-top-05-primary-dark margin-top-1">
+      {% for item in subnav_items %}
+      <li class="usa-sidenav__item text-primary-dark">
+        {% if item.permalink %}
+          {% assign first_chars = item.permalink | slice: 0, 2 %}
+
+          {% if first_chars == '/#' %}
+            {% assign item_link = item.permalink | slice: 1, item.permalink.size | prepend: page.permalink | prepend: site.baseurl %}
+          {% else %}
+            {% assign item_link = item.permalink | prepend: site.baseurl %}
+          {% endif %}
+
+        {% else %}
+          {% assign item_link = item.text | slugify | prepend: site.baseurl %}
+        {% endif %}
+        <a id="{{ item.text | slugify }}-link" class="font-sans-md subnav-anchor" href="{{ item_link }}">{{ item.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+</nav>
+{% endif %}

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<section class="usa-section section-padding-sm project-page">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      {% include "project-title.html" %}
+    </div>
+    <div class="grid-row grid-gap margin-top-8">
+      <div class="tablet:grid-col-7 margin-bottom-4 project-page__content">
+        <h2> Project details </h2>
+        {{ content }}
+      </div>
+      {% if agency or
+        project_url or
+        github_repo or
+        product_clients.size > 0 or
+        start_date or
+        expiration_date or
+        resources
+        %}
+        <div class="tablet:grid-offset-1 tablet:grid-col-4 project-page__sidebar">
+          <div class="border-top-05-primary-dark padding-y-2 margin-top-1">
+            {% include "project-sidebar-agency.html" %}
+            {% include "project-sidebar-url.html" %}
+            {% include "project-sidebar-repo.html" %}
+            {% include "project-sidebar-clients.html" %}
+            {% include "project-sidebar-resources.html" %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% assign matching_tag = collections.tags | where: "data.name", tag | first %}
+{% assign matching_posts = matching_tag.data.posts %}
+{% if matching_posts.size > 0 %}
+  <section class="usa-section">
+    <div class="grid-container">
+      <div class="grid-row margin-bottom-6">
+        <div class="tablet:grid-col-8">
+          <h2> Related blog posts </h2>
+        </div>
+        {% if matching_posts.size > 3 %}
+          <div class="tablet:grid-col-4 flex-align-self-end margin-top-3 posts__see-all">
+            <a class="link-arrow-right" href="{{ matching_tag.url | url }}/">
+              See all posts about this project {% include "svg/icons/arrow-right.svg" %}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+      {% include "featured-posts.html",
+      posts: matching_posts,
+      limit: 3,
+      show_excerpt: true,
+      %}
+    </div>
+  </section>
+{% endif %}

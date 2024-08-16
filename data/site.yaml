@@ -1,0 +1,29 @@
+title: "18F: Digital service delivery"
+description: >- # this means to ignore newlines
+  18F builds effective, user-centric digital services focused on the
+  interaction between government and the people and businesses
+  it serves.
+
+locale: en-US
+
+host: https://18f.gsa.gov
+
+# Twitter handle. Only the handle, not the URL.
+twitter: 18F
+
+dap:
+  agency: GSA
+  subagency: TTS,18F
+
+google-analytics:
+  ua: 'G-HBYXWFP794'
+
+searchgov:
+  endpoint: https://search.usa.gov
+  affiliate: 18F-site
+  access_key: empty
+  # This renders the results within the page instead of sending to user to search.gov.
+  inline: false
+  # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  # If you do not want to present search suggestions, set this value to false.
+  suggestions: false

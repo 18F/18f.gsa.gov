@@ -1,0 +1,48 @@
+@use 'uswds-core' as *;
+@use '../abstracts/variables.scss' as *;
+
+.card-with-image {
+
+  &:visited {
+    color: initial;
+  }
+  text-decoration: none; 
+}
+
+.card-with-image div {
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  background-color: white;
+
+  &:focus,
+  &:hover {
+    background-color: color('accent-cool-lightest');
+    border: 2px solid color('primary');
+  }
+
+  &:active {
+    background-color: color('primary-lightest'); 
+  }
+}
+
+.card-with-image p {
+  color: color('primary-darker');
+}
+
+.card-with-image--dark div {
+  color: white;
+  background-color: color('primary-dark');
+
+  &:focus,
+  &:hover {
+    background-color: color('primary-darker');
+  }
+
+  &:active {
+    background-color: color('primary-darkest'); 
+  }
+}
+
+.card-with-image--dark p {
+  color: white;
+}

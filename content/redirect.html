@@ -1,0 +1,32 @@
+---js
+{
+  pagination: {
+    data: "collections.all",
+    size: 1,
+    alias: "redirect",
+    before: function (data) { return this.redirect(data) },
+    addAllPagesToCollections: false,
+  },
+  permalink: "{{ redirect.from }}/index.html",
+  eleventyExcludeFromCollections: true,
+}
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting&hellip;</title>
+    <link rel="canonical" href="{{ redirect.to | url }}" />
+    <script>
+      location = "{{ redirect.to | url }}"
+    </script>
+    <meta name="rel-path" content="{{ redirect.to | url }}" />
+    <meta http-equiv="refresh" content="0; url={{ redirect.to | url }}" />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <h1>Redirecting&hellip;</h1>
+    <a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
+  </body>
+</html>

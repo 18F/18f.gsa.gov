@@ -1,0 +1,30 @@
+site_name: 18f.gsa.gov
+site_email: 18f@gsa.gov
+site_url: https://18f.gsa.gov
+site_about: https://18f.gsa.gov/about
+agency: U.S. General Services Administration
+agency_acronym: GSA
+agency_logo: assets/img/logos/gsa-logo-w100.png
+agency_url: https://www.gsa.gov
+agency_about_url: https://www.gsa.gov/about
+org_primary: Technology Transformation Services
+org_primary_acronym: TTS
+org_primary_url: https://www.gsa.gov/tts/
+org_primary_email: tts-info@gsa.gov
+org_primary_about: https://www.gsa.gov/tts/
+org_primary_bio: "As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies and technologies to improve the public’s experience with government. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions."
+org_secondary: Office of 18F
+org_secondary_b: Office of 18F
+org_secondary_acronym: TTS Solutions
+org_secondary_url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/18f
+org_secondary_email: tts-info@gsa.gov
+org_secondary_about: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/18f
+org_secondary_bio: "TTS Solutions is a portfolio of products and services that help agencies improve delivery of information and services to the public."
+foia_request_url: "https://www.gsa.gov/reference/freedom-of-information-act-foia"
+fraud_waste_abuse_url: "https://www.gsaig.gov/"
+no_fear_act_url: "https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act"
+budget_performance_url: "https://www.gsa.gov/reference/reports/budget-performance"
+accessibility_url: "https://www.gsa.gov/website-information/accessibility-aids"
+usagov_contact_url: "https://www.usa.gov/contact"
+about_gsa_url: "https://www.gsa.gov/about"
+privacy_policy_url: "https://www.gsa.gov/website-information/website-policies#privacy"

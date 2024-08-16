@@ -1,0 +1,59 @@
+{% if posts.size > 0 %}
+{% if color_mode == "dark"%}
+  {% assign border_color = "border-primary-lightest" %}
+  {% assign text_color = "text-white" %}
+  {% assign hover_color = "hover-primary-lightest" %}
+{% else %}
+  {% assign border_color = "border-primary" %}
+  {% assign hover_color = "hover-primary-dark" %}
+{% endif %}
+{% comment %}
+  Default behavior is to limit to 9 posts. (As of this writing, site usually uses 3 or 6.)
+{% endcomment %}
+{% assign post_limit = limit | default: 9 %}
+
+  <ul class="grid-row grid-gap usa-list--unstyled">
+    {% for post in posts limit:post_limit %}
+    <li class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-4 margin-bottom-5 ">
+      {% comment %}
+        We can't get the URL while building the cache of related URLs.
+
+        So, the following few lines are doing a lot of "extra" work just to fetch the URL.
+
+        Eleventy 3.0 will have a inputPathToUrl plugin — which is what the solution
+        should be once it's out of pre-release.
+
+        Remove the `assign` step and replace the link with:
+
+            <a href="{{ post.url | inputPathToUrl }}" class="text-no-underline">
+
+      {% endcomment %}
+      {% assign post_with_url = collections.posts | where: "inputPath", post.inputPath | first %}
+      <a href="{{ post_with_url.url | url }}" class="text-no-underline">
+        <h3 class="border-top-05 {{ border_color }} {{ hover_color }} padding-top-3 margin-bottom-3 text-bold {{ text_color }}">
+          {% comment %}
+            This featured-posts partial renders two different types of posts:
+              - regular posts
+              - minified posts from the related posts cache
+
+            TODO: See if we can restructure the data in the related posts cache,
+                  so that we don't have to switch on type
+          {% endcomment %}
+          {{ if type == "related" }}
+            {{ post.title }}
+          {{ else }}
+            {{ post.data.title }}
+          {{ end }}
+        </h3>
+      </a>
+      {% if show_excerpt %}
+        {{ if type == "related" }}
+          {{ post.excerpt }}
+        {{ else }}
+          {{ post.data.excerpt }}
+        {{ end }}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}

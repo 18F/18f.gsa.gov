@@ -1,0 +1,116 @@
+@use '../abstracts/brand-colors' as *;
+@use 'uswds-core' as * with (
+
+  /*---------------------------------------------------------
+  # Meta Settings
+  ----------------------------------------------------------*/
+  $theme-show-notifications: false,
+  $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
+
+
+  /*---------------------------------------------------------
+  # Global Settings
+  ----------------------------------------------------------*/
+
+
+
+  /*---------------------------------------------------------
+  # Typography Settings
+  ----------------------------------------------------------*/
+  $theme-respect-user-font-size: false,
+
+  $theme-root-font-size: 18px,
+
+  $theme-global-paragraph-styles: true,
+  $theme-global-link-styles: true,
+  $theme-global-content-styles: true,
+
+  $theme-font-type-sans: "helvetica",
+
+  $theme-font-role-heading: 'sans',
+  $theme-font-role-alt: 'sans',
+
+  $theme-type-scale-md: 7,
+  $theme-type-scale-xl: 11,
+
+  $theme-font-weight-medium: 500,
+
+  $theme-body-font-size: 'lg',
+  $theme-h1-font-size: '3xl',
+
+
+  /*---------------------------------------------------------
+  # Color Settings
+  ----------------------------------------------------------*/
+
+  /*------------------------------------------------
+  ## Primary color
+  -------------------------------------------------*/
+  $theme-color-primary-darkest: 'blue-90',
+  $theme-color-primary-darker: $brand-color-dark,
+  $theme-color-primary-dark: 'blue-70v',
+  $theme-color-primary: $brand-color-medium,
+  $theme-color-primary-light: 'blue-cool-40v',
+  $theme-color-primary-lighter: 'blue-cool-20v',
+  $theme-color-primary-lightest: $brand-color-light,
+
+  /*------------------------------------------------
+  ## Ink color
+  -------------------------------------------------*/ 
+  $theme-color-base-ink: 'blue-90',
+
+  /*------------------------------------------------
+  ## Accent color
+  -------------------------------------------------*/
+  $theme-color-accent-cool-darkest: 'cyan-80v',
+  $theme-color-accent-cool-darker: 'cyan-70v',
+  $theme-color-accent-cool-dark: 'cyan-50v',
+  $theme-color-accent-cool: $brand-color-bright,
+  $theme-color-accent-cool-light: 'cyan-20v',
+  $theme-color-accent-cool-lighter: 'cyan-10v',
+  $theme-color-accent-cool-lightest: 'blue-5',
+
+  /*------------------------------------------------
+  ## Error color
+  -------------------------------------------------*/
+  $theme-color-error-lighter: 'red-warm-5v',
+   
+  /*---------------------------------------------------------
+  # Component Settings
+  ----------------------------------------------------------*/
+  $theme-banner-max-width: 'desktop-lg',
+  $theme-breadcrumb-background-color: 'white',
+
+  $theme-card-border-radius: 'md',
+  $theme-card-border-width: 0,
+  $theme-card-gap: 3,
+
+
+  $theme-header-max-width: 'desktop-lg',
+
+  $theme-identifier-max-width: 'desktop-lg',
+
+  /*---------------------------------------------------------
+  # Spacing Settings
+  ----------------------------------------------------------*/
+  $theme-grid-container-max-width: 'desktop-lg',
+
+  /*------------------------------------------------
+  ## Header width
+  -------------------------------------------------*/ 
+  $theme-header-logo-text-width: 15%,
+
+  /*---------------------------------------------------------
+  # Utility Settings
+  ----------------------------------------------------------*/
+  $theme-utility-breakpoints: (
+    'tablet-lg': true,
+  ),
+
+  /*------------------------------------------------
+  ## Tables
+  -------------------------------------------------*/ 
+  $theme-table-header-background-color: base-lightest,
+
+);

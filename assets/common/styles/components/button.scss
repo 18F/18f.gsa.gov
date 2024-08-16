@@ -1,0 +1,62 @@
+// Custom button style 
+@use 'uswds-core' as *;
+@use '../abstracts/variables.scss' as *;
+
+.an18f-button--accent {
+  background-color: color('primary-lightest'); 
+  color: color('primary-darkest');
+  letter-spacing: $letter-spacing-xs;
+
+  &:visited {
+    color: initial; 
+  }
+
+  &:focus,
+  &:hover {
+    color: color('primary-darkest');
+    background-color: color('primary-lighter');
+  }
+
+  &:active {
+    background-color: color('accent-cool-light');
+    color: color('primary-darkest');
+  }
+}
+
+.usa-section--dark {
+
+  .an18f-button--accent {
+    color: initial; 
+
+    &:focus,
+    &:hover {
+      color: color('primary-darkest');
+    }
+
+    &:visited {
+      color: initial; 
+    }
+  }
+}
+
+.an18f-button--dark {
+  @include u-font('body', 'sm');
+  @include u-radius('md');
+  background-color: color('primary-dark');
+  color: white;
+  padding: units(1.5) units(2.5);
+
+  &:visited {
+    color: white;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: color('primary-darker');
+  }
+
+  &:active {
+    background-color: color('primary-darkest');
+  }
+}
+

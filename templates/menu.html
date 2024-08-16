@@ -1,0 +1,54 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML
+directly or you can look inside _config.yml where we provide an easy way to
+manage your navigation system
+{% endcomment %}
+
+<header class="usa-header usa-header--basic usa-header--basic-megamenu" role="banner">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      {% include "logo.html" %}
+      <button type="button" class="usa-menu-btn">Menu</button>
+    </div>
+    <nav
+      class="usa-nav"
+      aria-label="Menu navigation"
+    >
+      <button type="button" class="usa-nav__close">
+        {% image "./node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" "close" %}
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        {% for nav_item in navigation.primary %}
+        <li class="usa-nav__primary-item">
+          {% assign nav_item_class = "usa-nav__link" %}
+          {% assign is_current = false %}
+          {% assign path = page.inputPath | slice: 2,14 %}
+          {% if page.url == nav_item.href %}
+            {% assign is_current = true %}
+          {% endif %}
+          {% if nav_item.href == "/blog/" and path == "content/posts/" %}
+            {% assign is_current = true %}
+          {% endif %}
+          {% if nav_item.html.class %}
+            {% assign nav_item_class = nav_item.html.class %}
+          {% endif %}
+          <a
+            class="{{ nav_item_class }} {% if is_current %} usa-current {% endif %}"
+            href="{{ nav_item.href | url }}"
+            {% if page.url == nav_item.href %} aria-current="page" {% endif %}
+          >
+            <span>{{ nav_item.text | escape }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if site.searchgov  %}
+      <a href="https://search.usa.gov/search?utf8=%E2%9C%93&affiliate={{site.searchgov.affiliate}}&query=&commit="
+         class="usa-button padding-x-2"
+      >
+        {% image "assets/uswds/img/usa-icons-bg/search--white.svg" "Search" %}
+      </a>
+      {% endif %}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,16 @@
+{% if image and hero != false %}
+  {% comment %}
+    I'm wondering if there's a better way to do this, like setting up
+    a shortcode.
+  {% endcomment %}
+  <figure
+    class="post-feature_image"
+    role="img"
+    title="{{ image_alt }}"
+    style="background-image: url('{{ image | url }}')"
+    >
+    {% if image_figcaption %}
+      <figcaption>{{ image_figcaption }}</figcaption>
+    {% endif %}
+  </figure>
+{% endif %}

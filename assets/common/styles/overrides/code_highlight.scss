@@ -1,0 +1,46 @@
+@use 'uswds-core' as * ;
+
+// Overrides to the default Prism theme to provide better color contrast
+
+pre[class*="language-"] {
+  @include u-radius('md');
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: color('green-cool-60v');
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: color('primary');
+}
+
+.token.punctuation {
+  color: color('base-dark');
+}
+
+.token.function,
+.token.class-name {
+  color: color('indigo-warm-60v');
+}
+
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: color('base-darker');
+}
+
+.token.regex,
+.token.important,
+.token.variable { 
+  color: color('orange-60v');
+}
+

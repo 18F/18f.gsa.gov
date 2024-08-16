@@ -1,10 +1,13 @@
+version: "3"
+
 services:
-  app:
+  guides:
     build: ./
-    working_dir: /app
+    working_dir: /src
     volumes:
-      - .:/app
-    entrypoint: ruby /app/docker_entrypoint.rb
-    command: ./serve
+      - ./:/src
+      - /src/node_modules
     ports:
-      - "4000:4000"
+      - 8080:8080
+    environment:
+      - SHELL=/bin/sh

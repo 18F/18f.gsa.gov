@@ -1,0 +1,151 @@
+-
+  name: U.S. Air Force
+  acronym: USAF
+  logo: assets/img/logos/agencies/usaf.png
+  featured: true
+-
+  name: U.S. Army
+  logo: assets/img/logos/agencies/us-army.png
+-
+  name: U.S. Marine Corps
+  acronym: USMC
+  logo: assets/img/logos/agencies/usmc.png
+-
+  name: U.S. Navy
+  logo: assets/img/logos/agencies/us-navy.png
+-
+  name: U.S. Forest Service
+  logo: assets/img/logos/agencies/usfs.svg
+-
+  name: Centers for Medicare and Medicaid Services
+  logo: assets/img/logos/agencies/centers-for-medicare-and-medicaid.png
+-
+  name: Consumer Financial Protection Bureau
+  acronym: CFPB
+  logo: assets/img/logos/agencies/cfpb.png
+-
+  name: Department of Agriculture
+  acronym: USDA
+  logo: assets/img/logos/agencies/USDA.svg
+-
+  name: Department of Education
+  logo: assets/img/logos/agencies/USDE.png
+-
+  name: Department of Health and Human Services
+  acronym: HHS
+  logo: assets/img/logos/agencies/USDHHS.png
+  featured: true
+-
+  name: Department of the Interior
+  acronym: DOI
+  logo: assets/img/logos/agencies/USDOI.svg
+  featured: true
+-
+  name: Department of Justice
+  acronym: DOJ
+  logo: assets/img/logos/agencies/USDOJ.png
+  featured: true
+-
+  name: Department of Labor
+  acronym: DOL
+  logo: assets/img/logos/agencies/USDOL.svg
+-
+  name: Department of State
+  logo: assets/img/logos/agencies/USDS.png
+-
+  name: Department of the Treasury
+  logo: assets/img/logos/agencies/USDT.png
+-
+  name: Federal Bureau of Investigation
+  acronym: FBI
+  logo: assets/img/logos/agencies/fbi.png
+-
+  name: Federal Election Commission
+  acronym: FEC
+  logo: assets/img/logos/agencies/fec.svg
+-
+  name: Federal Emergency Management Agency
+  acronym: FEMA
+  logo: assets/img/logos/agencies/fema.png
+-
+  name: Federal Retirement Thrift Investment Board
+  logo: assets/img/logos/agencies/frtib.png
+-
+  name: General Services Administration
+  acronym: GSA
+  logo: assets/img/logos/agencies/gsa-logo.svg
+-
+  name: National Geospatial-Intelligence Agency
+  acronym: NGA
+  logo: assets/img/logos/agencies/nga.png
+-
+  name: National Institute of Standards and Technology
+  acronym: NIST
+  logo: assets/img/logos/agencies/nist.png
+-
+  name: National Oceanic and Atmospheric Administration
+  acronym: NOAA
+  logo: assets/img/logos/agencies/noaa.png
+-
+  name: National Science Foundation
+  acronym: NSF
+  logo: assets/img/logos/agencies/nsf.png
+-
+  name: The Library of Congress
+  logo: assets/img/logos/agencies/loc.png
+-
+  name: U.S. Tax Court
+  logo: assets/img/logos/agencies/tax-court.png
+-
+  name: Environmental Protection Agency
+  acronym: EPA
+  logo: assets/img/logos/agencies/EPA.png
+-
+  name: National Aeronautics and Space Administration
+  acronym: NASA
+  logo: assets/img/logos/agencies/NASA.svg
+-
+  name: National Archives and Records Administration
+  acronym: NARA
+  logo: assets/img/logos/agencies/NARA.png
+-
+  name: Nuclear Regulatory Commission
+  logo: assets/img/logos/agencies/NRC.svg
+-
+  name: Office of Management and Budget
+  acronym: OMB
+  logo: assets/img/logos/agencies/OMB.svg
+  featured: true
+-
+  name: Office of Personnel Management
+  acronym: OPM
+  logo: assets/img/logos/agencies/OPM.svg
+-
+  name: Alaska Department of Health and Social Services
+  logo: assets/img/logos/agencies/alaska-dhss.png
+-
+  name: California Child Welfare Digital Services
+  acronym: CWDS
+  logo: assets/img/logos/agencies/cwds.png
+-
+  name: State of Vermont Agency of Human Services
+  logo: assets/img/logos/agencies/vermont.png
+-
+  name: Securities and Exchange Commission
+  acronym: SEC
+  logo: assets/img/logos/agencies/SEC.svg
+-
+  name: Small Business Administration
+  acronym: SBA
+  logo: assets/img/logos/agencies/SBA.svg
+-
+  name: Social Security Administration
+  logo: assets/img/logos/agencies/SSA.png
+-
+  name: State of Wisconsin
+  logo: assets/img/logos/agencies/wisconsin.svg
+  featured: true
+-
+  name: U.S. Postal Service
+  acronym: USPS
+  logo: assets/img/logos/agencies/USPS.svg

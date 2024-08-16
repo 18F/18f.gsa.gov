@@ -1,0 +1,8 @@
+<span class="post-tags display-flex flex-wrap" itemprop="keywords">
+  {% for name in tags %}
+    {% assign tag = collections.tags | where: "data.name", name | first %}
+    <a href="{{ tag.url | url }}" class="usa-label post-tag">
+      {{ tag.data.name }}
+    </a>
+  {% endfor %}
+</span>

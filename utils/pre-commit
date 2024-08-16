@@ -1,0 +1,22 @@
+#! /usr/bin/env bash
+#
+# (Modified from https://github.com/18F/rails-template/blob/main/templates/githooks/pre-commit)
+#
+# This hook runs on `git commit` and will prevent you from committing without
+# approval from the linter and tests.
+#
+# To run, this file must be symlinked to:
+# .git/hooks/pre-commit
+#
+# To bypass this hook, run:
+# $ git commit --no-verify
+# $ git commit -n
+
+echo "Running Prettier formatting..."
+npx prettier . --write
+prettier_status=$?
+
+if [ $prettier_status -ne 0 ]; then
+    echo "Fix above before committing. Run 'git commit -n' to bypass linter."
+    exit 1
+fi

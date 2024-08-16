@@ -1,0 +1,131 @@
+@use 'uswds-core' as *;
+
+.usa-header {
+  @if variable-exists(header-bg) {
+    background-color: color($header-bg);
+  }
+
+  .usa-logo {
+    a {
+      @if variable-exists(header-title) {
+        color: color($header-title);
+      }
+    }
+
+    .usa-logo-img {
+      float: left;
+      height: units(5);
+      margin-right: 0;
+
+      @include at-media($theme-header-min-width) {
+        margin-top: 0;
+        height: units(6);
+      }
+
+      + .usa-logo__text {
+        float: left;
+      }
+    }
+  }
+
+  &.usa-header--extended .usa-logo-img {
+    @include at-media($theme-header-min-width) {
+      height: units(9);
+    }
+  }
+
+  .usa-nav__primary-item .an18f-button--dark  span,
+  .usa-nav__primary-item .usa-nav__link span {
+    @include u-font('sans', 'md');
+    font-weight: font-weight('medium');
+  }
+
+  .usa-nav__primary-item .usa-nav__link span {
+    color: color('primary-dark');
+  }
+
+// Contact link/button overrrides
+  .an18f-button--dark span {
+    color: white;
+  }
+
+  .an18f-button--dark.usa-current, 
+  .an18f-button--dark.usa-current:visited {
+    background-color: color('accent-cool-lightest');
+    outline: 2px solid color('primary-darkest');
+
+    span {
+      color: color('primary-darkest');
+    }
+
+    &:after {
+      width: 0;
+    }
+  }
+
+  .usa-nav__secondary-links {
+    a {
+      @if variable-exists(header-link) {
+        color: color($header-link);
+      }
+
+      &:hover {
+        @if variable-exists(header-link-hover) {
+          color: color($header-link-hover);
+        }
+      }
+    }
+  }
+}
+
+
+.usa-header--basic {
+  #header-logo {
+    display: flex;
+  }
+
+  & + main,
+  .usa-navbar {
+    border: none;
+  }
+
+  .usa-navbar {
+    align-items: flex-end;
+  }
+ 
+  @include at-media($theme-header-min-width) {
+    .usa-navbar {
+      position: relative;
+      width: $theme-header-logo-text-width; 
+    }
+
+    .usa-nav {
+      @include u-flex('row', 'align-center', 'justify-end');
+      display: flex;
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: units(2);
+      padding-left: units(1);
+      width: 100%;
+    }
+
+    .usa-nav-container {
+      @include u-flex('align-end', 'justify');
+      display: flex;
+    }
+
+    .usa-nav__primary-item > .usa-current,
+    .usa-nav__link:hover {
+      @include add-bar('2px', 'primary-darkest', 'bottom', 0, 2, 1);
+    }
+
+    .usa-nav__primary-item > .usa-current span {
+      color: color('primary-darkest');
+    }
+  }
+}
+
+// The search <input>
+[type="search"] {
+  min-width: 0; // Fix a Firefox display quirk
+}

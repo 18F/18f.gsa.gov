@@ -1,0 +1,8 @@
+{% if project_url %}
+  <div class="margin-top-4">
+    <h3 class="font-sans-md text-bold margin-bottom-1">
+    See our work
+    </h3>
+    {{- project_url | markdownify -}}
+  </div>
+{% endif %}

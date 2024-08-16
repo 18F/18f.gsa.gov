@@ -1,0 +1,53 @@
+---
+layout: primary
+title: 18F Blog
+lead: Delivering civic technology
+---
+<section class="usa-section section-padding-top-0">
+<div class="grid-container padding-top-0">
+  <hr class="hr-1-dark margin-y-0">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-7 page-tag-results">
+      {% include "post-previews.html", posts: posts %}
+      <section class="pagination grid-row flex-align-center flex-justify">
+        <div>
+          {% if pagination.href.previous %}
+            <a class="link-arrow-left" href="{{ pagination.href.previous }}">
+              {% include "svg/icons/arrow-left.svg" %} Previous {{ posts.size }} posts
+            </a>
+          {% else %}
+            <p></p>
+          {% endif %}
+        </div>
+        <div>
+          <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.size }}</p>
+        </div>
+        <div class="display-flex flex-justify-end margin-right-neg-2px">
+          {% if pagination.href.next %}
+            <a class="link-arrow-right" href="{{ pagination.href.next }}">
+              Next {{ posts.size }} posts {% include "svg/icons/arrow-right.svg" %}
+            </a>
+          {% else %}
+            <p></p>
+          {% endif %}
+        </div>
+      </section>
+    </div>
+
+    <aside class="sidebar tablet:grid-offset-1 tablet:grid-col-4 padding-y-6">
+      <h2 class="font-sans-md text-bold border-top-05-primary-dark padding-y-2">
+      Browse by topic
+      </h2>
+      <ul class="usa-sidenav margin-bottom-6">
+        {% for slug in featured.blog.tags %}
+          {% assign tag = collections.tags | where: "fileSlug", slug | first %}
+          <li class="usa-sidenav__item">
+            <a href="{{ tag.url }}">{{ tag.data.name | capitalize }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% include "social-media.html"%}
+    </aside>
+  </div>
+</div>
+</section>

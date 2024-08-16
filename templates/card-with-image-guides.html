@@ -1,0 +1,79 @@
+{% comment %}
+This partial outputs a card with a heading, icon, descriptive text, a
+link, and, optionally, a hero image. It was spun off from the
+"card-with-image" partial to accomodate the unique needs of the guides
+index page.
+
+The whole card is no longer a clickable link. In the future, these
+might be condensed back down into a single partial and class, but it
+will probably require some more conditional statements because the
+behaviors are so different.
+
+Required arguments
+------------------
+link_url
+the url the links on the card will link to (href)
+
+image_path
+the path to the image, note that the partial will prepend the site baseurl
+
+text_content
+the text to be displayed next to the image; the guide name
+
+text_descrip
+the longer description to be displayed under the card heading
+
+Optional arguments
+------------------
+card_color
+if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
+
+image_alt_text
+will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+
+image_side
+if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
+
+image_size
+if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+
+hero_url
+for guides where "promoted" = true, this will be the hero image for the card.
+
+{% endcomment %}
+
+<div class="card-with-image-guides display-flex flex-column radius-lg">
+
+  <!--The card only attempts to render a hero image (and the background color) if it has one assigned, which right now is only reserved for guides labeled "important"-->
+  <!--Using a few inline styles here to force the hero div to respect the border radii of the card, but there might be a more elegant way of doing that-->
+  {% if hero_url %}
+  <div class="padding-4 display-flex flex-column bg-primary-dark" style="border-top-left-radius:inherit; border-top-right-radius: inherit;">
+    {% image_with_class hero_url "flex-align-self-center maxh-card-lg" "" %}
+  </div>
+  {% endif %}
+
+  <div class="padding-4 display-flex flex-column flex-align-stretch card-content">
+    <div class="margin-bottom-2 display-flex flex-align-center {%- if image_side == "right" %} flex-justify {% endif %} height-full">
+      {% capture image_class %}{%- if image_size == "md" -%}maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless image_side == "right" %} margin-right-2 {% endunless %}{% endcapture %}
+      {% capture card_image %}
+        {% image_with_class image_path image_class image_alt_text %}
+      {% endcapture %}
+
+      {% capture card_text %}
+      <h3 class="text-bold margin-y-0">{{ text_content }}</h3>
+      {% endcapture %}
+
+    {% if image_side == "right" %}
+      {{ card_text }}
+      {{ card_image }}
+    {% else %}
+      {{ card_image }}
+      {{ card_text }}
+    {% endif %}
+
+    </div>
+
+    <p class="font-sans-md margin-y-0 text-no-underline">{{ text_descrip }}</p>
+    <a href="{{ link_url }}" class="text-bold flex-align-end">Read <span class="text-lowercase">{{ text_content }}</span> guide</a>
+  </div>
+</div>

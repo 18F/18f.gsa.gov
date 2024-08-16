@@ -1,0 +1,55 @@
+{% comment %}
+This partial outputs a card with image and text. The whole card is a clickable link.
+
+Required arguments
+------------------
+link_url
+the url the card will link to (href)
+
+image_path
+the path to the image, note that the partial will prepend the site baseurl
+
+text_content
+the text to be displayed next to the image
+
+
+Optional arguments
+------------------
+card_color
+if set to "dark" will make the card background the primary-dark color. Otherwise will default to a white background.
+
+image_alt_text
+will be the alt text for the image. If this argument isn’t provided alt text will be set to “” and the image will be ignored by screen readers.
+
+image_side
+if set to "right" will place the image on the right side of the card. Otherwise the image will default to the left side.
+
+image_size
+if set to "md" will set the max image size to 8 units. Otherwise the image will default to a max size of 6 units.
+
+{% endcomment %}
+
+<a href="{{ link_url }}"
+   class="card-with-image {%- if card_color == "dark" %} card-with-image--dark {% endif %}"
+>
+<div class="display-flex flex-align-center {%- if image_side == "right" %} flex-justify {% endif %} height-full padding-4 radius-lg">
+
+  {% capture image_class %}{%- if image_size == "md" -%} maxw-8 height-8 {%- else -%} maxw-6 height-6 {%- endif %} margin-top-0 {%- unless image_side == "right" %} margin-right-2 {% endunless %}{% endcapture %}
+  {% capture card_image %}
+    {% image_with_class image_path image_class image_alt_text %}
+  {% endcapture %}
+
+  {% capture card_text %}
+  <p class="font-sans-lg margin-y-0 text-no-underline">{{ text_content }}</p>
+  {% endcapture %}
+
+{% if image_side == "right" %}
+  {{ card_text }}
+  {{ card_image }}
+{% else %}
+  {{ card_image }}
+  {{ card_text }}
+{% endif %}
+
+  </div>
+</a>

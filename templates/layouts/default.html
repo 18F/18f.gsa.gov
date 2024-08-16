@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.locale | default: site.locale | default: 'en-US' }}">
+  <head>
+    {% include "meta.html" %}
+    {% include "styles.html" %}
+  </head>
+  <body class="{{ layout.class }} {{ page.class }}">
+    {% include "skipnav.html" %}
+    {% include "header.html" %}
+    {% include "menu.html" %}
+
+    {% comment %}
+      code smell: Altering layouts based on the value of `layout`.
+
+      We probably do this because every other layout needs the <main> tag,
+      while the post layout needs <article> without being wrapped in <main>.
+    {% endcomment %}
+    {% if layout == 'post' %}
+      {{ content }}
+    {% else %}
+      <main id="main-content">
+        {{ content }}
+      </main>
+    {% endif %}
+
+    {% include "footer.html" %}
+    {% include "scripts.html" %}
+  </body>
+</html>

@@ -1,0 +1,35 @@
+-
+  platform: GitHub
+  link: https://github.com/18F
+  html:
+    class: usa-link--external
+    rel:   noreferrer
+  image:
+    light: assets/img/social-icons/svg/github-lightest.svg
+    dark: assets/img/social-icons/svg/github-dark-2.svg
+    html:
+      class: text-tbottom
+-
+  platform: Twitter
+  link: https://twitter.com/18F
+  html:
+    class: usa-link--external
+    rel:   noreferrer
+  image:
+    light: assets/img/social-icons/svg/twitter-lightest.svg
+    dark: assets/img/social-icons/svg/twitter-dark.svg
+-
+  platform: LinkedIn
+  link: https://www.linkedin.com/company/gsa18f
+  html:
+    class: usa-link--external
+    rel:   noreferrer
+  image:
+    light: assets/img/social-icons/svg/linkedin-lightest.svg
+    dark: assets/img/social-icons/svg/linkedin-dark.svg
+-
+  platform: RSS feed
+  link: /feed.xml
+  image:
+    light: assets/img/social-icons/svg/rss-lightest.svg
+    dark: assets/img/social-icons/svg/rss25.svg

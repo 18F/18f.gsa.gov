@@ -1,0 +1,14 @@
+---
+title: Tags
+layout: styled-container
+permalink: /tags/
+---
+
+<p>Click through to read our posts about the following topics:</p>
+
+{% for tag in collections.tags %}
+<p>
+  <a href="{{ tag.url | url }}" >{{ tag.data.name }}</a>
+  — {{ tag.data.posts_count }}
+</p>
+{% endfor %}

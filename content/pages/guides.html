@@ -1,0 +1,59 @@
+---
+title: Guides
+permalink: /guides/
+layout: primary
+lead: Principles and standards that shape our work
+hide_footer_rule: true
+---
+<section class="usa-section section-padding-sm bg-base-lightest">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col-12 font-sans-lg">
+        <p>
+          18F’s work with other agencies is built on user-centered development, testing to validate hypotheses, shipping often, and deploying products in the open. Below are the technical guides that bring those principles into our day-to-day&nbsp;work.
+        </p>
+      </div>
+    </div>
+    <div class="grid-row grid-gap margin-top-5">
+      {% assign featured_guides = guides | where: "promoted", true %}
+      {% assign standard_guides = guides | where: "promoted", false %}
+      {% for guide in featured_guides limit: 2 %}
+        <div class="tablet:grid-col-6 margin-bottom-5">
+          {% include "card-with-image-guides.html"
+            text_content: guide.name
+            text_descrip: guide.description
+            link_url: guide.link
+            image_path: guide.image.dark
+            image_side: "right"
+            hero_url: guide.image.hero
+          %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="grid-row grid-gap margin-top-2 display-flex flex-row">
+      {% for guide in standard_guides %}
+        <div class="desktop:grid-col-4 tablet:grid-col-6 margin-bottom-5">
+          {% include "card-with-image-guides.html"
+            text_content: guide.name
+            text_descrip: guide.description
+            link_url: guide.link
+            image_path: guide.image.dark
+            image_side: "right"
+          %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="grid-row">
+      <div class="grid-col-12">
+        <p>
+          Beyond helping 18F staff do their best work, we hope these guides will inspire other federal agencies to adopt new practices. 18F’s projects with other federal agencies show that these techniques can help projects stay within budget, provide excellent value to the public, and fulfill federal rules.
+        </p>
+
+        <p>
+          These guides, and all of 18F's work, are in the <a class="usa-link--alt usa-link--external" href="https://github.com/18F/18f.gsa.gov/blob/main/LICENSE.md">worldwide public domain</a>. You are free to copy and adapt them as you choose. If you see something amiss or want to suggest a change, there are links at the bottom of each guide to help you contribute.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+

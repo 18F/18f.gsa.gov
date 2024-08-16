@@ -1,0 +1,118 @@
+@use 'uswds-core' as *;
+@use "../abstracts/variables.scss" as *;
+
+.border-top-05-primary-dark {
+  border-top: units(0.5) solid color('primary-dark');
+}
+
+.caret {
+  height: units(1.5);
+  width: units(1.5);
+  padding-top: units('2px');
+}
+
+// Sets the spacing of the list items on a unorded list (ul)
+.list-item-spacing-1 {
+  li {
+    margin-bottom: units(1);
+  }
+}
+
+.list-item-spacing-2 {
+  li {
+    margin-bottom: units(2);
+  }
+}
+
+.hover-primary-lightest {
+ &:focus,
+ &:hover {
+   color: color('primary-lightest');
+   text-decoration: underline;
+ }
+
+ &:active {
+   color: color('primary-lighter');
+ }
+}
+
+.hover-primary-dark {
+ &:focus,
+ &:hover {
+   color: color('primary-dark');
+   text-decoration: underline;
+ }
+
+ &:active {
+   color: color('primary-darkest');
+ }
+}
+
+// Overrides for the 0 bottom margin on usa-list--unstyled 
+.usa-list--unstyled .margin-bottom-2 {
+  margin-bottom: units(2);
+}
+
+.usa-list--unstyled .margin-bottom-5 {
+  margin-bottom: units(5);
+}
+
+.text-ls-05 {
+  letter-spacing: $letter-spacing-xs;
+}
+
+.text-outdent-1 {
+  text-indent: units(-1);
+}
+
+.text-outdent-2 {
+  text-indent: units(-2);
+}
+
+.width-500px {
+  width: 500px;
+}
+
+.width-400px {
+  width: 400px;
+}
+
+.width-380px {
+  width: 380px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.width-210px {
+  width: 210px;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-140px {
+  width: 140px;
+}
+
+.width-80px {
+  width: 80px;
+}
+
+.image-open-source-blog {
+  width: 624.00px;
+  height: 468.00px;
+  margin-left: 0.00px;
+  margin-top: 0.00px;
+  transform: rotate(0.00rad) translateZ(0px);
+  -webkit-transform: rotate(0.00rad) translateZ(0px);
+}
+
+.image-conversation-with-Kurz {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}

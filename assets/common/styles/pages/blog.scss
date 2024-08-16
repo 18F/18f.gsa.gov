@@ -1,0 +1,141 @@
+@use 'uswds-core' as *;
+
+.pagination {
+  color: color('base-dark');
+  font-size: font-size('body', 'sm');
+  margin-top: 2rem;
+
+  > div {
+    float: left;
+    width: 33%;
+
+    &:nth-child(2) {
+      text-align: center;
+    }
+
+    &:last-child {
+      a {
+        float: right;
+      }
+    }
+  }
+}
+
+.post-article figcaption {
+  @include u-font('sans', 'xs');
+  @include u-line-height('sans', 5);
+  margin-top: units(1);
+}
+
+.post-article blockquote,
+.post-article .testimonial-blockquote {
+  @include u-font('sans', 'lg');
+  @include u-text('italic');
+  border-left: units(0.5) solid color('primary');
+  color: color('primary-darker');
+  margin: units(3) 0;
+  padding-left: units(3);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  span {
+    @include u-font('sans', 'md');
+    color: color('base-darker');
+    display: block;
+    font-weight: font-weight('medium');
+    margin-top: units(1);
+  }
+}
+
+.post-feature_image {
+  background-position: center;
+  background-size: cover;
+  height: units('card-lg');
+  margin: 0;
+  position: relative;
+}
+
+.post-pagination__heading {
+  @include u-font('heading', 'lg');
+  @include u-text('bold');
+  color: color('primary');
+}
+
+.post-pagination__link:focus,
+.post-pagination__link:hover {
+  .post-pagination__heading {
+    color: color('primary-darker');
+  }
+}
+
+.post-tag {
+  @include u-font('sans','md');
+  background-color: color('base-lightest');
+  margin-top: units(1.5);
+  margin-right: units(1.5);
+  padding: units(1);
+  text-decoration: none;
+  text-transform: lowercase;
+
+  &:visited {
+    color: color('primary');
+  }
+
+  &:focus,
+  &:hover {
+    background-color: color('base-lighter');
+    color: color('primary-darkest');
+  }
+
+  &:focus,
+  &:hover {
+    color: color('primary-darkest');
+  }
+}
+
+.posts__see-all {
+  @include at-media('tablet') {
+    text-align: right;
+  }
+}
+
+.tile-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: units(6);
+}
+.tile-strip img {
+  max-height: 67px;
+}
+
+
+//
+// Code block styling
+//
+
+pre.shiki {
+  div.language-id { display: none; }
+
+  div.code-container {
+    font-size: size('mono', 'sm');
+    padding: 15px 10px 15px 17px;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: inherit;
+    overflow-x: auto;
+
+    div.line { padding-top: 4px; } // simulate line height
+  }
+
+}
+
+p, li {
+  code {
+    font-size: size('mono', 'sm');
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1px 5px;
+  }
+}

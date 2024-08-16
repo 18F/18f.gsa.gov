@@ -1,0 +1,11 @@
+{% if image and image_feature_small %}
+  {% comment %}
+    The blog posts frontmatter has historically had the image paths set
+    with an absolute path, by including the leading slash.
+
+    The image shortcode needs the image URL without that slash,
+    hence the assign statement here removing the first one.
+  {% endcomment %}
+  {% assign rel_image_path = image | remove_first: "/" %}
+  {% image_with_class rel_image_path "image-feature-small" image_alt %}
+{% endif %}

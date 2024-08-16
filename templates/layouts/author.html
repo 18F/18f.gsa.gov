@@ -1,0 +1,24 @@
+---
+layout: default
+eleventyComputed:
+  display_name: "{%- if author.full_name != \"\" -%}{{- author.full_name -}}{%- else -%}{{- author.first_name }} {{ author.last_name -}}{%- endif -%}"
+  title: "{{ display_name }}"
+---
+{% comment %}
+Layout for author page with their blog posts
+{% endcomment %}
+
+<section class="usa-section section-padding-sm">
+  <div class="grid-container">
+    <header>
+      <h1>Blog posts by {{ display_name }}</h1>
+    </header>
+  </div>
+</section>
+<section class="padding-sm page-tag-results">
+  <div class="grid-container">
+    <hr class="hr-1-dark margin-y-0">
+    {% assign matching_posts = collections.posts | byAuthor: author.id | sort: 'date' | reverse %}
+    {% include "post-previews.html", posts: matching_posts %}
+  </div>
+</section>

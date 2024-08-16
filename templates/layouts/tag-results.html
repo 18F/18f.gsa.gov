@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% comment %}
+Layout for posts by tag
+{% endcomment %}
+<section class="usa-section section-padding-sm">
+  <div class="grid-container">
+    {% include "back-to-blog.html" %}
+    <h1 class="margin-top-2">{{ tag.data.posts_count }} {% if tag.data.posts_count == 1 %}post{% else %}posts{% endif %} tagged with "{{ tag.data.name }}" </h1>
+  </div>
+</section>
+
+<section class="padding-sm page-tag-results">
+  <div class="grid-container">
+    <hr class="hr-1-dark margin-y-0">
+    {% include "post-previews.html", posts: tag.data.posts %}
+  </div>
+</section>

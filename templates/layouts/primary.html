@@ -1,0 +1,23 @@
+---
+layout: default
+main:
+  class: 'primary-layout'
+---
+<section class="usa-section section-padding-sm">
+  <div class="grid-container">
+    <h1>{{ title }}</h1>
+    {% if lead %}
+      <p class="font-sans-xl line-height-sans-3">{{ lead }}</p>
+    {% endif %}
+    {% if image %}
+      {% image_with_class image "margin-top-4" image_alt_text %}
+    {% endif %}
+  </div>
+</section>
+
+{{ content }}
+
+{% if banner_cta %}
+  {% include "banner-cta.html" %}
+{% endif %}
+

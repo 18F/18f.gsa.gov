@@ -1,0 +1,14 @@
+blog:
+  tags:
+    - acquisition-services
+    - agile
+    - culture-change
+    - how-we-work
+    - lessons-learned
+case_studies:
+  - agency: U.S. Forest Service
+  - agency: Alaska Department of Health and Social Services
+  - agency: Department of Justice
+  - agency: U.S. Tax Court
+  - agency: Department of the Treasury
+  - agency: Department of State

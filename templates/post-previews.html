@@ -1,0 +1,10 @@
+<div class="blog-content" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+  <ul class="usa-list usa-list--unstyled post-list">
+    {% if posts == empty %}
+      No matching posts.
+    {% endif %}
+    {% for post in posts %}
+      {% include "post-preview.html", post: post %}
+    {% endfor %}
+  </ul>
+</div>

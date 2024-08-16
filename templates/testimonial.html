@@ -1,0 +1,39 @@
+{% if size == "md" %}
+  {% assign blockquote_class = "font-sans-lg line-height-sans-4 margin-0 padding-0 text-white text-ls-05" %}
+  {% assign figcaption_class = "font-sans-md line-height-sans-3 margin-top-3 text-white" %}
+  {% assign organization_class = "font-sans-sm" %}
+  <div class="bg-primary-darker margin-top-6 padding-x-6 padding-top-6 padding-bottom-4">
+    <figure>
+      <p class="large-quotemark large-quotemark--left margin-bottom-3">&ldquo;</p>
+      <blockquote class="{{ blockquote_class }}">
+        {{ quote }}
+      </blockquote>
+      <figcaption class="{{ figcaption_class }}">
+        <strong>&mdash;{{ attribution }}</strong>{%- if position %}, {{ position }}{%- endif %}<br>
+        <em class="{{ organization_class }}">{{ organization }}</em>
+      </figcaption>
+    </figure>
+  </div>
+{% else %}
+  {% assign blockquote_class = "font-sans-lg tablet:font-sans-xl line-height-sans-3 measure-5 margin-top-4 text-center text-ls-05 text-white" %}
+  {% assign figcaption_class = "font-sans-md tablet:font-sans-lg line-height-sans-4 text-center text-primary-lightest" %}
+  <section class="usa-section bg-primary-darker testimonial">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="grid-col-12 tablet:grid-offset-1 tablet:grid-col-10">
+          <figure>
+            <p class="large-quotemark margin-bottom-0">&ldquo;</p>
+            <blockquote class="{{ blockquote_class }}">
+              <em>{{ quote }}</em>
+            </blockquote>
+            <figcaption class="{{ figcaption_class }}" >
+              <strong>&mdash;{{ attribution }}</strong>{%- if position %}, {{ position }}{%- endif %} {%- if organization %}<br>
+              <em>{{ organization }}</em>{%- endif %}
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+

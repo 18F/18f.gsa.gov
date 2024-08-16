@@ -1,0 +1,38 @@
+{% assign previous = collections.posts | getPreviousCollectionItem: page %}
+{% assign next = collections.posts | getNextCollectionItem: page %}
+{% if previous or next %}
+<section class="margin-top-6 post-pagination">
+  <div class="grid-container">
+    <hr class="hr-1-base-lighter">
+    <div class="grid-row grid-gap">
+      <div class="grid-col-6">
+        {% if previous %}
+        <a href="{{ previous.url | url }}"
+           class="text-no-underline post-pagination__link"
+        >
+          <h2 class="post-pagination__heading">
+            {% include "svg/icons/arrow-left.svg" %}
+            Previous Post
+          </h2>
+          <p class="measure-1 text-bold text-primary-darkest">{{ previous.data.title }}</p>
+        </a>
+        {% endif %}
+      </div>
+      <div class="grid-col-6 text-right">
+        {% if next %}
+        <a href="{{ next.url | url }}"
+           class="text-no-underline post-pagination__link"
+        >
+          <h2 class="post-pagination__heading">
+            Next Post
+            {% include "svg/icons/arrow-right.svg" %}
+          </h2>
+          <p class="measure-1 float-right text-bold text-primary-darkest text-right">{{ next.data.title }}</p>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    <hr class="hr-1-base-lighter">
+  </div>
+</section>
+{% endif %}

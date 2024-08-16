@@ -1,0 +1,64 @@
+{% comment -%}
+  You shouldn't have to edit this page very often. But if you want
+  to modify some of the meta-data for the site, this is the place to do it.
+{% endcomment %}
+
+<!-- Basic Page Needs
+     ================================================== -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+{%- unless env.production %}
+  <meta name="robots" content="noindex, nofollow" />
+{%- endunless %}
+<!-- Mobile Specific Metas
+     ================================================== -->
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Title and meta description
+     ================================================== -->
+
+{% if seo_title %}
+  {% assign page_title = seo_title | prepend: '18F: Digital service delivery | ' %}
+{% else %}
+  {% assign page_title = title | prepend: '18F: Digital service delivery | ' %}
+{% endif %}
+
+{% comment %}
+  Descriptions are escaped because some contain HTML content which,
+  left to its own devices, renders in a way that messes up <head>
+  and looks quite bad.
+{% endcomment %}
+
+<title>{{ page_title }}</title>
+<meta property="og:title" content="{{ page_title }}" />
+<meta name="description" content="{{ description | escape }}" />
+<meta property="og:description" content="{{ description | escape }}" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@{{ site.twitter }}" />
+<meta name="twitter:title" content="{{ title }}" />
+<meta name="twitter:description" content="{{ description | escape }}" />
+
+<meta property="og:type" content="article" />
+<link rel="canonical" href="{{ page.url }}" />
+<meta property="og:url" content="{{ page.url }}" />
+<script async="" src={{ "/assets/js/uswds-init.js" | url }}></script>
+
+<!-- Favicon
+     ================================================== -->
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicons/favicon-16x16.png" | url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicons/favicon-32x32.png" | url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "/img/favicons/favicon-192x192.png" | url }}">
+<link rel="icon" type="image/svg+xml" href="{{ "/img/favicons/favicon.svg" | url }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/favicon-180x180.png" | url }}">
+
+<!-- CSS
+     ================================================== -->
+{% comment -%}
+  This prism CDN is for Prismjs, which is used in eleventy's syntax highlighting plugin. Eleventy recommends using one of Prism's CDN's to provide the css. More info in the docs: https://www.11ty.dev/docs/plugins/syntaxhighlight/
+{% endcomment %}
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
+<link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
+<link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />

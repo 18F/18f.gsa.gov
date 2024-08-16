@@ -1,0 +1,15 @@
+{% if agency %}
+  <div class="grid-col-12">
+    <h1>{{ agency }}</h1>
+  </div>
+  <div class="grid-col-12">
+    <h2 class="margin-top-4">{{ title }}</h2>
+  </div>
+{% else %}
+  <div class="grid-col-12">
+    <h1>{{ title }}</h1>
+  </div>
+{% endif %}
+{% if image %}
+  {% image_with_class image "margin-top-6" image_alt %}
+{% endif %}
