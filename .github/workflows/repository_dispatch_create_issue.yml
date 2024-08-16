@@ -1,0 +1,33 @@
+name: Create GH Issue from CircleCI
+on: repository_dispatch
+
+jobs:
+  create_issue:
+    name: Create failed pa11y scan issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create GH issue
+        run: |
+          if [[ $CLOSE_PREVIOUS == true ]]; then
+            previous_issue_number=$(gh issue list \
+              --label "$LABELS" \
+              --json number \
+              --jq '.[0].number')
+            if [[ -n $previous_issue_number ]]; then
+              gh issue close "$previous_issue_number"
+            fi
+          fi
+          gh issue create \
+            --title "Nightly pa11y scan failed" \
+            --assignee "$ASSIGNEES" \
+            --label "$LABELS" \
+            --body "```$BODY```"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ASSIGNEES: caleywoods
+          LABELS: type:accessibility,nightly-pa11y-scan-failed
+          BODY: ${{ github.event.client_payload.report }} | base64 --decode
+          CLOSE_PREVIOUS: false

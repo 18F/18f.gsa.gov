@@ -17,7 +17,6 @@ Issues opened in this repo are automatically added to the [18F TLC project board
 ## Development
 The re-platformed sites use 11ty. If you could run Jekyll, you should be able to run 11ty! There are two approaches to working with the guides: [Local installation](#local-installation) and [Codespaces](#codespaces).
 
-
 Ensure that you have the latest version of [Node](https://nodejs.org/en/download) installed. 
 
 To run the site locally:
@@ -67,4 +66,4 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in
 > [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
 > All contributions to this project will be released under the CC0 dedication.
-> By submitting a pull request, you are agreeing to comply with this waiver of
+> By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.

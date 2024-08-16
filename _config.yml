@@ -1,0 +1,197 @@
+# Site settings
+title: "18F: Digital service delivery"
+description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: pretty
+url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
+localhost: "localhost:4000"
+env: "production"
+logo: /assets/img/logos/18F-Logo-Bright-S.png
+tag_dir: tags
+github_repo: https://github.com/18F/18f.gsa.gov/blob/main
+
+related_posts: 3
+
+# Configuration for Google Analytics, add your UA code here:
+google_analytics_ua: 'G-HBYXWFP794'
+
+# Configuration for DAP, add your agency ID here:
+dap_agency: GSA
+dap_subagency: TTS,18F
+
+# blog archive at /blog
+paginate: 5
+paginate_path: "blog/page/:num/"
+
+# enable search bar
+search_site_handle: 18F-site
+
+jekyll-archives:
+  enabled:
+    - 'tags'
+  layout: tag-results
+  permalinks:
+    tag: '/tags/:name/'
+
+collections:
+  about:
+    output: true
+    permalink: /:path/
+  principles:
+    output: true
+    permalink: /partnership-principles/:path/
+  join:
+    output: true
+    permalink: /join/:path/
+  authors:
+    output: true
+    permalink: /author/:name/
+  press:
+    output: true
+    permalink: /press/:name/
+  products_projects:
+    output: true
+    permalink: /our-work/:path/
+  services_projects:
+    output: true
+    permalink: /our-work/:path/
+  contact:
+    output: false
+    permalink: /contact/:path/
+  styleguide:
+    output: true
+    permalink: /styleguide/:path/
+
+defaults:
+ -
+  scope:
+    type: "posts" # an empty string here means all files in the project
+  values:
+    layout: post
+ -
+  scope:
+    path: "pages"
+  values:
+    layout: primary
+ -
+  scope:
+    path: "_authors"
+  values:
+    layout: author-results
+ -
+  scope:
+    path: "_contact"
+  values:
+    layout: primary
+    # include_subnav: true
+    subnav_anchor: /contact/
+ -
+  scope:
+    path: "_about"
+  values:
+    layout: primary
+    include_subnav: true
+    subnav_anchor: /about/
+ -
+  scope:
+    path: "_principles"
+  values:
+    layout: primary
+    include_subnav: true
+    subnav_anchor: /partnership-principles/
+ -
+  scope:
+    path: "_join"
+  values:
+    layout: primary
+    include_subnav: true
+    subnav_anchor: /join/
+    parent_title: Join 18F
+    parent_permalink: /join/
+ -
+  scope:
+    path: "_products_projects"
+  values:
+    layout: project-page
+ -
+  scope:
+    path: "_services_projects"
+  values:
+    layout: project-page
+
+ -
+  scope:
+    path: "_styleguide"
+  values:
+    layout: styleguide
+    include_subnav: true
+
+footer:
+  image: /assets/img/logos/18F-Logo-M.png
+  email:
+  twitter:
+    - 18f
+    - usgsa
+  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
+
+exclude:
+- .about.yml
+- .cfignore
+- .codeclimate.yml
+- .gitignore
+- .gitmodules
+- .hound.yml
+- .github/
+- _sass/
+- 404.html
+- api-endpoints
+- bin
+- build
+- circle.yml
+- config_blog.rb
+- CONTRIBUTING.md
+- docker-compose.yml
+- docker_entrypoint.rb
+- Dockerfile
+- examples/
+- favicon.ico
+- Gemfile*
+- killport
+- LICENSE.md
+- package.json
+- pages/our-work.html
+- README.md
+- spec/
+- system-security-plan.yml
+- tests/
+- tests/schema/tags.yml
+- tmp/
+
+# jekyll plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
