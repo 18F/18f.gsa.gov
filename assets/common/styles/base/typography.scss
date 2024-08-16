@@ -37,3 +37,14 @@ h5 {
 }
 
 
+h4 {
+  @include u-font('heading', 'lg');
+  @include u-line-height('heading', 3);
+  letter-spacing: $letter-spacing-xs;
+}
+
+h5 {
+  @include u-font('heading', 'md');
+  @include u-line-height('heading', 3);
+  letter-spacing: $letter-spacing-xs;
+}
