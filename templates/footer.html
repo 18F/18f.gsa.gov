@@ -5,15 +5,12 @@
     {% endunless %}
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-3">
-        <img src="{{ site.baseurl }}/assets/img/logos/18f-logo.svg"
-             class="maxw-5"
-             alt="18F logo"
-        >
+        {% image_with_class "assets/img/logos/18f-logo.svg" "maxw-5" "18F logo" %}
         <p>
           Work with us to plan successful projects, choose better vendors, build custom
           software, or learn how to work in new ways.
         </p>
-        <a href="{{ site.baseurl }}/contact/"
+        <a href="{{ "/contact/" | url }}"
            class="usa-button an18f-button--dark"
         >
           Contact us
