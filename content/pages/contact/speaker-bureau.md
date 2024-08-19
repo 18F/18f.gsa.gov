@@ -16,4 +16,4 @@ If you’re looking for a speaker for your upcoming event or program, 18F staff 
 - Stakeholder management
 - Government acquisition
 
-Formats including conference talks, workshop presentations, and small group events.
+Formats including conference talks, workshops, and small group events.
