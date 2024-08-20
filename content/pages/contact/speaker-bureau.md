@@ -16,4 +16,4 @@ If you’re looking for a speaker for your upcoming event or program, 18F staff 
 - Stakeholder management
 - Government acquisition
 
-Formats including conference talks, workshops, and small group events.
+Formats including conference talks, workshops, and small group events. Contact our outreach team at [18F@gsa.gov](mailto:18f@gsa.gov) to have 18F speak at your event.
