@@ -11,7 +11,7 @@ excerpt: |
 
 TTS is proud to present the 2024 Andrew Hyder Government Service Improvement Award to Ryan Ahearn. 
 
-{% image "assets/blog/ryan_ahearn.jpg" "Ryan Ahearn" %}
+{% image_with_class "assets/blog/ryan_ahearn.jpg" "height-card-lg" "Ryan Ahearn" %}
 
 Ryan is the lead Security Engineer on the TTS DevTools program, an internal shared service focused on providing key secure software development tools and building blocks in order to reduce the time and cost of starting and maintaining public digital services. Ryan synthesizes his extensive development skills, applied technical security expertise, and his battle-tested ATO experience to bake it all into everything DevTools provides in order to allow dedicated civic technologists to focus on solving problems for the public instead of meeting ever-growing compliance requirements.
 
