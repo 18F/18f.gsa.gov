@@ -16,7 +16,7 @@ tags:
 - 18f checks in
 excerpt: "Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. 18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF. We caught up with Office of Family Assistance leaders to see how their agency is continuing with the work."
 image: /assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png
-image_alt: "An illustration of three potted plants in a line. The plants start small, then become bigger and heartier."
+image_alt: "Three potted plans in a row. The first is a seedling, followed by one with two leaves, and a larger plant that looks like a tree."
 ---
 
 Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. States, tribes, and territories use federal block grant funds to administer the program, and they must report data back to the federal government on a quarterly basis. 
@@ -56,7 +56,7 @@ We caught up with Office of Family Assistance leaders Lauren Frohlich (product o
 
 **Lauren Frohlich**: Yeah, there are some milestones we can definitely put on there.
 
-{% image "assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg" "A line chart showing the emotional highs and lows of the TANF product owner over 5 years. The highs include the contract getting awarded and getting the ATO, followed by the first 10 partners using the new system. Emotions are at their lowest at the planned 18F roll off, and integration challenges afterwards. The emotions are consistently high when onboarding partners is in full swing." %}
+{% image "assets/blog/tanf-data-portal-catchup/TDP-checkin--emotion-chart.jpg" "A line graph showing the TANF product owner’s emotional journey over 5 years. The line starts in the middle of the scale with 18F joining, and moves upward with an RFQ and contract being awarded. Things drop to an all-time low with plans for 18F to roll off in late 2020. The line trends upward when 18F adds post-award support and the project gets an ATO. Things drop again when 18F rolls off and the project has integration challenges. Emotions are consistently high after refocusing on parity, launching a production site, having 10 partners use the system, and onboarding more partners." %}
 
 **Lauren Frohlich**: Getting to ATO, that was like a 7 out of 10. And, not to be too negative but there were definitely some low points. It started to turn up again after the integration challenges. Some high points were getting focused on feature parity with the old system and launching production. 
 
