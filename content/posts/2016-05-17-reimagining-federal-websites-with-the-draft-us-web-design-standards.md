@@ -149,7 +149,7 @@ of my designs in some way.
 
 **MK: What improvements/changes to the standards would have made this easier to do?**
 
-**AM:** I'd like to see the the visual standards expanded. I know it pays to
+**AM:** I'd like to see the visual standards expanded. I know it pays to
 keep them high-level and broad, to allow others to create branches
 specific to their agency or application, but for groups that haven't got
 the resources to develop their own pattern library, it would help to

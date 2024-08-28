@@ -19,7 +19,7 @@ and go cut down your tree in a National Forest. Before Open Forest,
 there was no online purchasing option for these permits, limiting the
 public to buying permits at mostly remote USFS district offices or
 sometimes from local vendors during weekday business hours. From launch
-to the the end of the holiday season, Open Forest sold nearly 5,000
+to the end of the holiday season, Open Forest sold nearly 5,000
 permits across the four pilot forests.
 
 Though 18F has delivered many products to production since its founding
