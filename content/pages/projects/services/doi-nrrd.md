@@ -52,5 +52,5 @@ become a model for other countries working on opening up extractive
 industries data. The Office of Natural Resources Revenue, the Interior
 office responsible for the report, has also adopted user-centered design
 and plans to apply it to their other digital services. You can follow
-the The Natural Resources Revenue Data project and the Office of Natural
+The Natural Resources Revenue Data project and the Office of Natural
 Resources Revenue at their [blog](https://revenuedata.doi.gov/blog/).
