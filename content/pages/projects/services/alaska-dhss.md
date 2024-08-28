@@ -6,7 +6,7 @@ permalink: /our-work/alaska-dhss/
 redirect_from: /project/alaska-dhss/
 excerpt: Introducing modern digital methods to the State of Alaska’s eligibility system modernization project.
 image: assets/img/projects/alaska-flag.png
-image_alt: Alaska state flag. The flag consists of eight gold stars, forming the Big Dipper and Polaris, on a dark blue field.
+image_alt: Alaska's state flag has a dark blue background and eight gold stars, which form the Big Dipper and Polaris.
 image_icon:
 project_weight: 3
 tag: alaska

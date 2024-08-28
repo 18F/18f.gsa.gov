@@ -4,7 +4,7 @@ permalink: /about/
 layout: styled-container
 lead: We help other government agencies build, buy, and share technology products. 18F is a team of designers, software engineers, strategists, and product managers within the General Services Administration. We collaborate with other agencies to fix technical problems, build products, and improve public service through technology.
 image: assets/img/about/gsahq.jpg
-image_alt_text: "General Services Administration headquarters"
+image_alt_text: "The south side of the General Services Administration building in Washington, DC as seen from Rawlins Park"
 side_cta: true
 subnav_items:
   - text: History
@@ -55,4 +55,4 @@ If you’re writing a story about 18F, feel free to use any of the images below.
   - [cloud.gov (SVG)]({{ site.baseurl }}/assets/img/logos/cloud-gov-logo.svg)
   - [login.gov (SVG)]({{ site.baseurl }}/assets/img/logos/login-gov-logo.svg)
 
-[Photograph of GSA's DC headquarters (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
+[Main entrance of the General Services Administration building at the intersection of 18th and F Streets in Washington, DC (2.5 MB PNG)]({{ site.baseurl }}/assets/img/GSA-HQ-F-Street-exterior.png)
