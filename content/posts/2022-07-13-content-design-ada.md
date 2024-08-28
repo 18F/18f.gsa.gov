@@ -45,7 +45,7 @@ With this in mind, we attempted to write clear and actionable content that would
 
 Here are two examples of that direct communication:
 
-{% image "assets/blog/content/ada-service-animals-1.png" "Screenshot from revised service animals page with clear heading text, Service animals are and Service animals are not, followed by three bulleted lists for each written in plain language including service animals are dogs and any breed and any size of dog, and service animals are not required to be certified or go through a professional training program" %}
+{% image "assets/blog/content/ada-service-animals-1.png" "Screenshot of the Service Animals information with two bulleted lists. Service animals are: dogs, any breed and any size of dog, and trained to perform a task directly related to a person's disability. Service animals are not: required to be certified or go through a professional training program, required to wear a vest or other ID that indicates they're a service dog, emotional support or comfort dogs, because providing emotional support or comfort is not a task related to a person's disability." %}
 
 ## Writing for action _and_ flexibility
 Returning to the product vision — the foundation for the ADA.gov content strategy — we wanted to _empower_ users to understand their rights and obligations under the ADA. To do that, we needed to tell users as clearly and directly as possible what the ADA requires. This is hard, because some definitions in the regulations are intentionally broad for purposes of flexibility.
@@ -67,7 +67,7 @@ This example helps illustrate how the law might apply in a specific situation—
 ### Collapse complexity
 We didn’t want to force users to read content that isn't relevant to them, so when we included extra detail or definitions, we used accordions, or other collapsible design patterns.
 
-<img src="{{ "/assets/blog/content/ada-accordion.gif" | url }}" alt="Screenshot from revised service animals page that shows a heading with a plus sign that can be expanded to get more detail. The heading is phrased as a question, What does fundamentally alter mean? The screenshot is animated to show the heading being expanded to display the answer and closed again" />
+<img src="{{ "/assets/blog/content/ada-accordion.gif" | url }}" alt="Animated GIF from the Service Animals page that shows an expandable section called "What does fundamentally alter mean?" where readers can get more detail." />
 
 This technique was useful for instances where we couldn’t sufficiently explain the ADA without defining a term in the law or regulations. It was also useful for examples and further explanations, such as the difference between service animals and emotional support animals.
 
