@@ -5,7 +5,7 @@ subtitle: Bringing technology to vital services
 permalink: /our-work/dol-wage-and-hour/
 excerpt: Success on a small project helped the Wage and Hour Division begin transforming into a digital-first agency.
 image: assets/blog/labor-handbook/group-2.jpg
-image_alt: the team working out of the 18F common space. Developers on the left. Investigators (users) and product owners talking about needs on the right. Taped to the windows are the progress boards (Backlog, Current, Done).
+image_alt: A group of civil servants collaborate on an 18F project. Two 18F colleagues work side-by-side across from product owners and investigators from the Department of Labor. The table is covered in laptops, notebooks, and coffee cups. Windows around the conference room have progress boards and sticky notes for the current 2-week sprint.
 image_icon: folderwithclock.svg
 project_weight: 3
 tag: department of labor

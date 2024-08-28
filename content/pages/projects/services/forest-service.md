@@ -6,7 +6,7 @@ subtitle: Easing access to public lands
 permalink: /our-work/forest-service/
 excerpt: Using prototypes and modular contracting to help the Forest Service buy and develop an online permitting system.
 image: assets/blog/forrest-service/xmas-tree-permit.png
-image_alt: Screen shot of the Christmas tree permit website
+image_alt: Screenshot of the Forest Service website for buying a permit to cut down a Christmas tree in a national forest
 image_icon:
 project_weight: 8
 tag: forest service

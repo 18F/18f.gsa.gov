@@ -7,7 +7,7 @@ redirect_from: /project/fec-gov/
 excerpt: Rethinking how the Federal Election Commission provides data, instructions and legal resources to the public.
 mini_excerpt: Rethinking how the FEC provides data, instructions, and legal resources to the public.
 image: assets/img/home/hero-fec.png
-image_alt: Screenshot of the FEC data explorer with stylized magnifying glass.
+image_alt: A magnifying glass showing campaign finance data from the FEC website
 project_weight: 12
 tag: fec.gov
 expiration_date:
