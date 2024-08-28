@@ -36,7 +36,7 @@ In order to successfully work with security compliance teams to ship software in
 
 ## Architect systems anticipating the ATO process
 
-{% image "assets/blog/navigating-atos/example-boundary-diagram.png" "boundary diagram with lines describing the types of connections between entities such as an API and routers" %}
+{% image "assets/blog/navigating-atos/example-boundary-diagram.png" "Boundary diagram showing the types of connections between cloud.gov and AWS GovCloud" %}
 
 As you explore the requirements of your system, consider selecting an architectural foundation that allows you to inherit as many of the [NIST 800-53 controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) as possible from an existing provider or product. This can dramatically reduce the scope of work required for the ATO, reduce timelines, and improve overall system security.
 
@@ -88,7 +88,7 @@ You can still make changes and keep building and improving your system after its
 
 ## Embrace DevOps, continuous integration, and automated testing, while staying flexible on format
 
-{% image "assets/blog/navigating-atos/zap.png" "ZAP scanning report indicating several findings" %}
+{% image "assets/blog/navigating-atos/zap.png" "Sample ZAP scanning report with alerts, risk levels, and details about each alert" %}
 
 DevOps, continuous integration, automated testing, automated security scanning using open-source tools such as OWASP ZAP: all of these modern software development practices show your team’s commitment to rigorous testing of your system. Take the time to walk through the practices your team is employing, and show how these techniques test and verify the security of your system. If your development team is running a full suite of automated tests for correctness, security, and accessibility on every proposed code change, make sure your security compliance team knows this is happening and sees the benefits. You may need to be flexible on the format you use to share information about the testing you are doing. Taking the time to put results into a familiar format like Word, PDF, or an HTML page can go a long way.
 
