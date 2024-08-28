@@ -9,14 +9,15 @@ layout: primary
 
 {% capture intro %}
 Because [87% of large government IT projects don't succeed](https://guides.18f.gov/derisking/), public sector approaches need to adjust. 18F believes projects have the best chance for success when agency leaders and staff are closely involved in developing the solutions they need.
+{% endcapture %}
 
+{% capture our-team %}
 Our team of experts:
 - Listen to understand your mission, goals and applicable rules or regulations.
 - Evaluate the landscape to help you navigate the technology and product decisions.
 - Prototype ideas to ensure they are viable for your context.
 - Then, we draw from our expertise to create an actionable strategy.
 - Together, we create the best outcomes for your mission and the people you serve.
-
 {% endcapture %}
 
 {% capture service-offerings %}
@@ -74,6 +75,18 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 </div>
 </section>
 
+<section class="usa-section section-padding-6">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col">
+        <div class="font-sans-lg">
+          {{ our-team | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
 <section class="usa-section bg-base-lightest">
   <div class="grid-container">
     <div class="grid-row">
@@ -87,7 +100,7 @@ Instead, we involve your team in creating solutions and ensure they have everyth
   </div>
 </section>
 
-<section class="usa-section bg-base-lightest">
+<section class="usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet-lg:grid-col-7">
