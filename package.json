@@ -4,7 +4,7 @@
   "description": "The 18F website and blog",
   "main": "index.js",
   "scripts": {
-    "build": "npm run assets:build && npx @11ty/eleventy",
+    "build": "npm run clean && npm run assets:build && npx @11ty/eleventy",
     "assets:autoprefix": "postcss _site/assets/styles/*.css _site/assets/methods/styles/*.css -r --use autoprefixer",
     "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
     "assets:clean": "rimraf _site/assets",
