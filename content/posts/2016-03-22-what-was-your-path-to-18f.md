@@ -79,7 +79,7 @@ _18F Design provide content, visual, and interactive design to the rest of the o
 
 <div class="pquote">{{ "mhz" | team_photo }}
   <blockquote>
-  “I studied public policy, but always did tech stuff on the side. I worked for the government after school doing more policy-related stuff, but I realized the the real need was in tech, and through tech and design, public policy goals could be reached.” - {{ "mhz" | team_link }}
+  “I studied public policy, but always did tech stuff on the side. I worked for the government after school doing more policy-related stuff, but I realized the real need was in tech, and through tech and design, public policy goals could be reached.” - {{ "mhz" | team_link }}
   </blockquote>
 </div>
 
