@@ -49,9 +49,9 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
 {% capture mission-path %}
 ## Choose the path that’s best for your mission and your users
 
-We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and ensure that you feel confident about each step. We believe in “demos not memos” and everything we do is intended to be a step toward working software.
+We don’t offer one-size-fits-all solutions. Instead, we work with you to design the right path for your organization and make sure that you feel confident about each step. We believe in “demos not memos,” so everything we do is intended to be a step toward working software.
 
-Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to hire a vendor that can respond to your changing needs and deliver working software to you on a regular basis.
+Some software projects are the right size and shape for 18F to build with you; others will require you to hire an outside vendor. We can help you to understand what kind of project you have, and if you need a vendor, to hire one that can respond to your changing needs and deliver working software to you on a regular basis.
 {% endcapture %}
 
 {% capture tech-adapt %}
@@ -102,6 +102,19 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 
 <section class="usa-section">
   <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet-lg:grid-col-7">
+         {{ mission-path | markdownify }}
+      </div>
+      <div class="tablet-lg:grid-col-5">
+        {% image "assets/img/work-with-us/work-with-us-illo-1.svg" "" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="usa-section">
+  <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet-lg:grid-col-7">
         {{ service-offerings | markdownify }}
@@ -115,14 +128,6 @@ Instead, we involve your team in creating solutions and ensure they have everyth
 
 <section class="usa-section">
   <div class="grid-container">
-    <div class="grid-row">
-      <div class="tablet-lg:grid-col-7">
-         {{ mission-path | markdownify }}
-      </div>
-      <div class="tablet-lg:grid-col-5">
-        {% image "assets/img/work-with-us/work-with-us-illo-1.svg" "" %}
-      </div>
-    </div>
     <h3 class="text-normal"> Feel empowered to continue with our guides</h3>
     <p class="font-sans-lg"> We want agencies to be able to do the work themselves. Here are some free guides that help. </p>
     <div class="grid-row grid-gap-md">
