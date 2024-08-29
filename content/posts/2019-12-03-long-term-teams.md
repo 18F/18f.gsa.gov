@@ -11,6 +11,7 @@ tags:
 - transformation services
 excerpt: "Don’t let your agency waste knowledge and opportunity. Instead of planning for a handoff to operations and maintenance, plan for a long-term team. Instead of launching your project and then keeping it running, plan for ongoing development."
 image: /assets/blog/long-term-teams/header.png
+image_alt: "A series of loops that feed into each other"
 ---
 
 Wonderful news: your request was approved, meaning that your agency now has funding to work on the project! You know, the sorely-needed IT project to build a new web application.
@@ -54,7 +55,7 @@ Instead of dividing your grant funding into "build" and "operation & maintenance
 
 3. ***Ongoing Development ➡️ Sunset***: Nothing lasts forever, especially on the web. The last phase of a project is concerned with how to responsibly and thoughtfully shut it down and help users move to a better solution.
 
-{% image "assets/blog/long-term-teams/happy-path.png" "Chart of the three legs of the software creation process" %}
+{% image "assets/blog/long-term-teams/happy-path.png" "Chart of the three legs of the software creation process: launch, ongoing development, and sunset" %}
 
 Consider security. Security is a vital area of work at every stage. It can't ever be finished, since the external landscape changes all the time. A long-running engineering team has the benefit of understanding the product itself and a responsibility to keep it secure. In this scenario, teams can discover opportunities to improve the security, rather than spending all their time reactively. (See "[DevOps and Security on a Small Team](https://medium.com/nyc-planning-digital/devops-and-security-on-a-small-team-8709cfc5b0aa)" by TTS's own Aidan Feldman for a wonderful municipal example.)
 

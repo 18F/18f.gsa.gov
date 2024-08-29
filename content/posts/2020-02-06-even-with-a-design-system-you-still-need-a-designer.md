@@ -11,6 +11,7 @@ tags:
 - how we work
 excerpt: "The US Web Design System gives flexibility so teams can build the right solution for users, but there are still plenty of design decisions that teams need to make to be successful."
 image: /assets/blog/uswds2-launch/design-system-designer-banner.jpg
+image_alt: "Abstract page layouts to show how a design system can be adapted in creative ways by a designer"
 ---
 
 [The U.S. Web Design System (USWDS)](http://designsystem.digital.gov)
@@ -36,7 +37,7 @@ We use USWDS at 18F because it helps us:
 
 {% include "linked-figure.html",
      image: "/assets/blog/uswds2-launch/uswds-assets.png",
-     alt: "This illustration shows another before-and-after example of how a website can use utility classes to change the styles of site elements. Five stylized examples of code are given below the two versions of the page.",
+     alt: "Chart showing the trajectory of a software project that launches, goes through a flat 'Operations and Maintenance' plateau, and then sunsets",
      caption: "You can easily change classes to customize the look and feel of the USWDS template." %}
 
 But, a pattern library doesn’t answer all design decisions. In fact, teams make their first design decisions way before they get to patterns. They have to answer questions like:
