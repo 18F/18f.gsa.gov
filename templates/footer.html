@@ -68,7 +68,7 @@
                  class="{% if item.html.class %}{{ item.html.class }}{% endif %}"
                  {% if item.html.rel %}rel="{{ item.html.rel }}"{% endif %}
                  >
-                {% assign img_class = "mmaxw-205 margin-right-1 " | append: item.image.html.class %}
+                {% assign img_class = "maxw-205 margin-right-1 " | append: item.image.html.class %}
                 {% image_with_class item.image.dark img_class %}
                 {{- item.platform -}}
               </a>
