@@ -11,6 +11,7 @@ excerpt: "We’re celebrating another birthday at 18F, and
 we thought we’d take the opportunity to reflect on how our organization
 has grown and progressed in the last year"
 image: /assets/blog/6-anniversary/image-blog-dark.jpg
+image_alt: "The number 6 surrounded by confetti"
 ---
 
 We’re excited to celebrate another birthday here at 18F, and we thought
