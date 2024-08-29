@@ -180,6 +180,7 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
     <p class="font-sans-lg">Read short project summaries demonstrating how we’ve helped some of the largest federal agencies.</p>
     <div class="grid-row grid-gap-md">
     {% assign projects = 'fec-gov, treasury-data-act' | split: ", " %}
+    {% assign project_permalink = project_details.data.permalink | url %}
     {% for project in projects %}
       {% assign project_details = collections.services | where: 'fileSlug', project | first %}
       {% assign project_agency = project_details.data.agencies | where: "name", project_details.data.agency | first %}
@@ -188,7 +189,7 @@ To take the next step, email us at <a href="mailto:inquiries18F@gsa.gov">inquiri
            image_path: project_agency.logo,
            image_alt_text: project_agency.name,
            image_size: "md",
-           link_url: project_details.data.permalink,
+           link_url: project_permalink,
            text_content: project_details.data.mini_excerpt
         %}
       </div>
