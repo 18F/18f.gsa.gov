@@ -12,7 +12,7 @@ excerpt: |
 image: 
 ---
 
-Today we launch [De-risking Government Technology Guide 2.0](https://guides.18f.gov/derisking-government-tech/), the first update of the 18F De-risking Guide since it was published in 2020. Find all the recommendations from the original guide’s two parts—the State Software Budgeting Handbook and the Federal Field Guide—now in one unified package. Plus, a new, in-depth section on vendor management! 
+Today we launch a new version of the [De-risking Government Technology Guide](https://guides.18f.gov/derisking-government-tech/), its first update since being published in 2020. Find all the recommendations from the original guide’s two parts—the State Software Budgeting Handbook and the Federal Field Guide—now in one unified package. Plus, a new, in-depth section on vendor management! 
 
 Government technology projects face challenges to successful delivery from budgeting through post-award. To lower risk of failure at any stage, the guide offers methods, models, and examples that reflect:
 - Best practices in modern software development
@@ -29,5 +29,5 @@ These changes respond to current government agency needs. As part of the Office 
 
 The changes also reflect the core 18F value to iterate. The guide's original authors hoped it would be revised over time. As we're able, we'll continue to do so.
 
-Check out the [new guide online](https://guides.18f.gov/derisking-government-tech/) and in [PDF](/). Share it around. Suggestions, questions, and feedback are welcome! Please reach out through the 18F Guides GitHub repo.
+Check out the [new guide online](https://guides.18f.gov/derisking-government-tech/) and in [PDF](/). Share it around. Suggestions, questions, and feedback are welcome! Please reach out through the [18F Guides GitHub repo](https://github.com/18F/guides/issues/new/choose).
 
