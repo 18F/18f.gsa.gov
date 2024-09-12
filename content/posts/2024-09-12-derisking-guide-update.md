@@ -29,5 +29,5 @@ These changes respond to current government agency needs. As part of the Office 
 
 The changes also reflect the core 18F value to iterate. The guide's original authors hoped it would be revised over time. As we're able, we'll continue to do so.
 
-Check out the [new guide online](https://guides.18f.gov/derisking-government-tech/) and in [PDF](https://guides.18f.gov/assets/derisking-government-tech/dist/18f-derisking-guide.pdf). Share it around. Suggestions, questions, and feedback are welcome! Please reach out through the [18F Guides GitHub repo](https://github.com/18F/guides/issues/new/choose).
+Check out the [new guide online](https://guides.18f.gov/derisking-government-tech/) and in [PDF](https://guides.18f.gov/assets/derisking-government-tech/dist/18f-derisking-guide.pdf). You can also read the [GSA.gov press release](https://www.gsa.gov/blog/2024/09/11/a-revised-and-expanded-guide-for-derisking-government-technology-projects) about the new guide. Share it around. Suggestions, questions, and feedback are welcome! Please reach out through the [18F Guides GitHub repo](https://github.com/18F/guides/issues/new/choose). 
 
