@@ -6,7 +6,7 @@ permalink: /our-work/state-uskpa/
 redirect_from: /project/state-uskpa/
 excerpt: Combining our technical expertise with USKPA's program knowledge to improve the tracking of rough diamonds.
 image: assets/img/projects/uskpa.png
-image_alt: Screenshot of the uskpa.org front page
+image_alt: Screenshot of https://www.uskpa.org/ where applicants can request licenses to export and trade rough diamonds
 project_weight: 10
 tag: uskpa
 expiration_date:

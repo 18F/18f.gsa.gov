@@ -23,13 +23,13 @@ excerpt: In order to be more responsive to the public’s changing communication
   experience at civilrights.justice.gov that transforms the way the Division
   collects, sorts, and responds to civil rights reports.
 image: /assets/blog/blog-post_header-2.png
+image_alt: "Montage with social and racial justice photos to symbolize progress and equity for all"
 ---
 On Feb. 7, 1961, James Meredith submitted a [letter](https://www.jfklibrary.org/asset-viewer/archives/BMPP/020/BMPP-020-007) to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state. Through the combined efforts of the local NAACP, the Department of Justice, and the US Supreme Court, Meredith eventually became the first African-American student admitted to the university.
 
 {% include "linked-figure.html",
      image: "/assets/blog/james-meredith-letter-sm.png",
-     alt: "Image of James Meredith letter submitted to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state.",
-     caption: "James Meredith letter submitted to the Department of Justice (DOJ)" %}
+     alt: "James Meredith letter submitted to the Department of Justice (DOJ) asking for the Department’s support in his admission to the University of Mississippi by enforcing federal desegregation laws not being respected by the state." %}
 
 Since 1961, the Department of Justice has come a long way in making it easier for people to report discrimination or a violation of rights. Now, with the help of 18F, they have transformed how the Civil Rights Division receives and processes civil rights reports using modern technology and user experience design practices.
 
@@ -44,8 +44,8 @@ The Division also receives reports of potential voting rights violations, partic
 
 {% include "linked-figure.html",
      image: "/assets/blog/how-to-file_old.gif",
-     alt: "Previous “how to file a complaint” site.",
-     caption: "Previous “how to file a complaint” experience" %}
+     alt: "GIF of the legacy 'File a Complaint' website",
+     caption: "Previous 'how to file a complaint' experience" %}
 
 Up until now, the experience of filing a report was confusing and inconsistent for the public. The Civil Rights Division is a complex organization with several specialized units (or “sections”). This complexity was confusing for some victims of civil rights violations. A victim reporting a violation had to pick among dozens of possible reporting pathways. Without clear guidance and expectation setting, many people submitted reports that required extensive follow-up to collect missing information, or submitted reports that fell outside the purview of the Division altogether.
 
@@ -53,7 +53,7 @@ In order to be more responsive to the public’s changing communication needs an
 
 {% include "linked-figure.html",
      image: "/assets/blog/doj-crt-landing-page.gif",
-     alt: "The new Civil Rights Division landing page of civilright.justice.gov.",
+     alt: "The new Civil Rights Division landing page of civilrights.justice.gov",
      caption: "The new experience for reporting a civil rights violation" %}
 
 We worked with stakeholders from the Division to craft these design principles for the new experience, which subsequent designs, prototypes, and builds were tested against:
@@ -69,7 +69,7 @@ For Division staff, this new experience creates a more consistent, collaborative
 
 {% include "linked-figure.html",
      image: "/assets/blog/doj-crt-complaint-form.png",
-     alt: "Pages of the new online civil rights complaint form.",
+     alt: "Screenshots showing how people can report civil rights violations with the new complaint portal, including fields for contact information, type of concern, location of the violation, and additional comments about what happened",
      caption: "Pages of the new online civil rights complaint form" %}
 
 The core development team across the Civil Rights Division and 18F is still iterating on the experience. After launching for internal use and as a ‘beta’ experience, the team is announcing this website more widely so we can continue to improve and adapt with more real reports and feedback from the general public.

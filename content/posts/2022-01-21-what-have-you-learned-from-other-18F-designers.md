@@ -12,7 +12,7 @@ tags:
 excerpt: "We asked 18F designers what they've learned from fellow designers while working together. Here's what they said."
 ---
 
-{% image "assets/blog/team_brainstorming.png" "Image of team brainstorming" %}
+{% image "assets/blog/team_brainstorming.png" "Illustration of four people with different skintones and hairstyles, sharing ideas and brainstorming together" %}
 
 Special thanks to designer Jia Gu for the images in this post {.font-alt-xs}
 
@@ -79,7 +79,7 @@ In a design chapter meeting, we asked the team: “What have you learned from ot
 > I learned from fellow UX designer Melissa Braxton how to foster relationships and how to over-communicate. This means regular 1:1s with teammates but also research session debriefs, weekly ships, biweekly retros, and regular project health checks (we do them biweekly for all 18F projects as a quick 5-minute form to flag any issues). We’ve documented many of these practices in the [TTS Handbook](https://handbook.tts.gsa.gov/general-information-and-resources/how-we-collaborate/). I also came to understand that our work isn’t going away. It’s a relay race: take it as far as you can but be ready to pass the baton to the next person.
 > <span>– Mark Trammell, UX designer</span>
 
-{% image "assets/blog/woman_thinking.png" "Image of woman thinking" %}
+{% image "assets/blog/woman_thinking.png" "Illustration of a woman thinking about ideas, conversations, systems, people, and processes" %}
 
 ## On user research and facilitation
 

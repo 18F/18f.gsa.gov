@@ -11,6 +11,7 @@ tags:
 excerpt: "We asked our team: “why did you join 18F?” and got all kinds of
   inspiring answers. "
 image: /assets/blog/screen_shot_2021-04-23_at_3.57.09_pm.png
+image_alt: "Screenshot of a large grid of 18F employees on a Zoom call with a highlight on Alan Brouilette, our chief of staff"
 ---
 Our 18F team is spread out across the country and comes from a diverse range of backgrounds, but we all at some point became interested in improving the user experience of government. We asked our team: “why did you join 18F?” and got all kinds of inspiring answers. 
 
@@ -96,7 +97,7 @@ I believe that design is impactful and can change people’s lives. So, I wanted
 <span>- Jacklynn Pham, UX Designer </span>
 </blockquote>
 
-{% image_with_class "assets/blog/korenfeld_igor.jpg" "height-card-lg" "Black and white picture of Igor Korenfeld (he/him) smiling calmly at the camera" %}
+{% image_with_class "assets/blog/korenfeld_igor.jpg" "height-card-lg" "Igor Korenfeld (he/him) smiling calmly at the camera" %}
 
 <blockquote class="testimonial-blockquote">
 I wanted to join 18F because it was a place where I could work on improving the interface between the government and the public - to ease people’s access to public services, remove barriers and frustrations, and to increase trust in the government.”
@@ -265,7 +266,7 @@ My background is in journalism, so I’ve always valued work that is driven by i
 <span>- Emily Theis, Product Manager </span>
 </blockquote>
 
-{% image_with_class "assets/blog/norman_allison.jpg" "height-card-lg" "Allison Norman (she/her) in a black and white picture smiling happily at the camera" %}
+{% image_with_class "assets/blog/norman_allison.jpg" "height-card-lg" "Allison Norman (she/her) smiling happily at the camera" %}
 
 <blockquote class="testimonial-blockquote">
 In the private sector, I worked to solve problems that just didn't feel like real problems (e.g. optimizing products to get another 0.01% of clicks), and it was starting to wear on me. I saw President Obama's keynote interview at SXSW Interactive in 2017, where he emphasized how solvable many real challenges are with technology. Obama encouraged SXSW attendees to consider applying their private sector experience to public service. I felt like he was speaking directly to me! And he was right, since joining 18F, I have been able to focus on working with agency partners to impact how the public engages with government digital products and services. The problems are real, they're worth solving, and it's a privilege to get to do this work every day.

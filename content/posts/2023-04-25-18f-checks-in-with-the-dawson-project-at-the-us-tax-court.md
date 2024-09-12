@@ -21,7 +21,7 @@ excerpt: >
 
 _This is the third in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Emily Read and the USGS Water Resources Mission Area Projects](https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/)._
 
-{% image "assets/blog/ustc-dawson-checkin/dawson-home.png" "The U.S. Tax Court DAWSON electronic case file system's homepage" %}
+{% image "assets/blog/ustc-dawson-checkin/dawson-home.png" "Screenshot of the DAWSON case filing system, with tabs to search for specific cases, orders, or opinions from the U.S Tax Court" %}
 
 This is the current home page for DAWSON. The Tax Court’s electronic filing and case management system, launched in 2020, is named for the Court’s longest-serving judge, Howard A. Dawson, Jr. This system is entirely web-based and open source. {.font-alt-xs}
 

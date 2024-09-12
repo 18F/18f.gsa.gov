@@ -13,6 +13,7 @@ tags:
   - acquisition services
 excerpt: Announcing the federal field guide to de-risk government technology
 image: /assets/blog/agbudg_blogimage_04.png
+image_alt: "Illustration of a winding path with several location markers along the way"
 ---
 Today, we’re proud to announce the [De-risking Government Technology Field Guide](https://derisking-guide.18f.gov/) for federal agencies. This field guide provides actionable recommendations to address the common challenges agencies face when adopting agile and user-centered design methodologies. Ultimately, the goal is to help teams reduce risk and improve outcomes for the agency’s end-users.
 

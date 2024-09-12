@@ -5,7 +5,7 @@ subtitle:
 permalink: /our-work/calc/
 excerpt: Streamlining how contracting officers search past government contracts for fair hourly rates.
 image: assets/img/projects/calc.png
-image_alt: Blue bar graph of various wage estimates
+image_alt: Bar graph showing a range of hourly rates with the average being $94 per hour
 image_icon:
 tag: calc
 expiration_date:

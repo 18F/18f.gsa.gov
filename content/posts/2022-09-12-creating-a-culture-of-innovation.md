@@ -80,7 +80,7 @@ Groups we spoke to are working through this challenge by building a brand around
 
 Regardless of what they decided to specialize in, something we heard echoed several times was: "you'll only be able to deliver value if you pick something that lets you focus enough to deliver and be successful."
 
-{% image "assets/blog/inno-labs/portfolio-scope.png" "A rectangular graphic in landscape orientation with a white background. On the left is a cluster of nine small and medium-sized circles in shades of blue, gray, and black. The cluster is above a line of text that says, Overly-broad portfolio. On the right is a cluster with a large dark blue circle and three smaller ones to its right; medium blue, black, and gray. The text below them reads, More narrow scope with a specialized focus. Between the two lines of text, a thin, dark arrow points to the right, indicating that one should aim for a more narrow, focused scope for better success." %}
+{% image "assets/blog/inno-labs/portfolio-scope.png" "An abstract representation of an overly broad portfolio, showing several small and medium-sized circles of different colors. As a contrast, a more narrowly scoped portfolio has fewer circles and one larger circle to symbolize a specialized focus area." %}
 
 ### Moving from experimentation to delivery without adequate support
 
