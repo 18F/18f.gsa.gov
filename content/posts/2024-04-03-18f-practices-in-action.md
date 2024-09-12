@@ -76,6 +76,7 @@ We brought on an excellent, agile software development vendor to work with the f
 
 Practices like ours are getting recognized across government for the way they allow us to meet user needs, develop more sustainable products, save money, and provide value as soon as possible. Here are a few examples of how other organizations describe similar approaches.
 
+- [GSA Blog | A revised and expanded guide for de-risking government technology projects](https://www.gsa.gov/blog/2024/09/11/a-revised-and-expanded-guide-for-derisking-government-technology-projects)
 - [Digital Services Playbook (U.S. Digital Service)](https://playbook.cio.gov/)
 - [The NGA Software Way (National Geospatial-Intelligence Agency)](https://www.nga.mil/assets/files/The_NGA_Software_Way.pdf)
 - [Government Design Principles (Gov.UK)](https://www.gov.uk/guidance/government-design-principles)
