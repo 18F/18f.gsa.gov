@@ -128,7 +128,7 @@ I came to 18F from another agency. I was looking for a mission-driven organizati
 {% image_with_class "assets/blog/18f-logo-l.png" "height-card-lg" "No image available, instead we used the 18F logo" %}
 
 <blockquote class="testimonial-blockquote">
-I read the The Color of Law when it was first published. Between that book and my formative experience as a technologist in rural parts of the country, I developed a better lens for the divergence in experiences many people have with government. It motivated me to leverage my skills to design impact at scale. I don’t have any illusions that I alone can remedy decades of harm and distrust, but I believe we have an obligation to use the tools we have at our disposal to improve systems and services rapidly.
+I read The Color of Law when it was first published. Between that book and my formative experience as a technologist in rural parts of the country, I developed a better lens for the divergence in experiences many people have with government. It motivated me to leverage my skills to design impact at scale. I don’t have any illusions that I alone can remedy decades of harm and distrust, but I believe we have an obligation to use the tools we have at our disposal to improve systems and services rapidly.
 <span>- Ron Bronson, Content Strategist </span>
 </blockquote>
 

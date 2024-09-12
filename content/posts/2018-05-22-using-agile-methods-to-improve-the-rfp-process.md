@@ -109,7 +109,7 @@ procurement can be improved.
 After the initial procurement in Alaska concluded, we conducted [an
 internal
 post-mortem](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/master/post-award-vendor-info/Post-Mortem_on_the_first_Alaska_buy.v2.pdf)
-on how the the procurement was run to get our team's thoughts and ideas
+on how the procurement was run to get our team's thoughts and ideas
 on what worked well and what didn’t. We also [critically evaluated our
 use of
 GitHub](https://github.com/AlaskaDHSS/EIS-Modernization/blob/master/using-github-for-procurement-docs.md)
