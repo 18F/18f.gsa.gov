@@ -1,6 +1,6 @@
 ---
 title: A revised and expanded guide for de-risking government technology projects
-date: 2024-09-11
+date: 2024-09-12
 authors: 
 - amelia-wong
 tags:  
