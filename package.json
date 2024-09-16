@@ -33,7 +33,7 @@
   "author": "",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@uswds/compile": "^1.1.0",
+    "@uswds/compile": "^1.2.0",
     "chai": "^4.5.0",
     "check-html-links": "^0.2.4",
     "chokidar-cli": "^3.0.0",
