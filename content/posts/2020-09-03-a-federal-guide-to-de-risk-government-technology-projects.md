@@ -3,7 +3,7 @@ title: A federal guide to de-risk government technology projects
 date: 2020-09-09
 authors:
   - alicia-rouault
-  - rebecca-refoy-sidibe
+  - rebecca-refoy
   - vicki-mcfadden
   - mchopson
 tags:

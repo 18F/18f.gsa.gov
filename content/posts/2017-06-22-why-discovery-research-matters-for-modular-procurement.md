@@ -2,7 +2,7 @@
 title: "Why discovery research matters for modular procurement"
 authors:
 - colinmacarthur
-- rebecca-refoy-sidibe
+- rebecca-refoy
 - aaron-burk
 tags:
 - forest service

@@ -4,7 +4,7 @@ procurements (thus far)"
 date: 2018-07-17
 authors:
 - alla
-- rebecca-refoy-sidibe
+- rebecca-refoy
 - mheadd
 - randy-hart
 - steven-reilly

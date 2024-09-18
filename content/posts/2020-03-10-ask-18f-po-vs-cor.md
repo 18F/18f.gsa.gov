@@ -5,7 +5,7 @@ projects?"
 date: 2020-03-10
 authors:
 - miatta-myers
-- rebecca-refoy-sidibe
+- rebecca-refoy
 - uchenna-moka-solana
 tags:
 - acquisition services

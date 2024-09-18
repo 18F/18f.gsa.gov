@@ -2,7 +2,7 @@
 title: "What agencies have to say about working in the open"
 date: 2018-05-24
 authors:
-- rebecca-refoy-sidibe
+- rebecca-refoy
 tags:
 - open source
 - how we work

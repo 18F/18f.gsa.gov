@@ -3,7 +3,7 @@ title: "A day in the life of an 18F product owner"
 date: 2017-09-18
 authors:
 - aaron-burk
-- rebecca-refoy-sidibe
+- rebecca-refoy
 tags:
 - forest service
 - agile

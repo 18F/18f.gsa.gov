@@ -2,7 +2,7 @@
 title: "What we learned from building a pool of agile vendors"
 date: 2018-07-26
 authors:
-- rebecca-refoy-sidibe
+- rebecca-refoy
 - alla
 tags:
 - acquisition services

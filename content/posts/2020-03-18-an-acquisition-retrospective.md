@@ -2,7 +2,7 @@
 title: "An Acquisition Retrospective"
 date: 2020-03-18
 authors:
-- rebecca-refoy-sidibe
+- rebecca-refoy
 - ashley-owens
 - omid-ghaffari-tabrizi
 - michelle-mcnellis
