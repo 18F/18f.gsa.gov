@@ -23,7 +23,7 @@ matter how small the task or how big the project, email us at [18f@gsa.gov](mail
 
 ## Dear 18F: What’s the difference between a Contracting Officer’s Representative and a Product Owner on agile software development projects?
 
-### Miatta Myers and Rebecca Refoy-Sidibe - Acquisitions
+### Miatta Myers and Rebecca Refoy - Acquisitions
 
 ### Uchenna Moka-Solana - Product
 

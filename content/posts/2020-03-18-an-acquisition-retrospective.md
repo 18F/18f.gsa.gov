@@ -53,7 +53,7 @@ documents for our government colleagues and industry partners.
 
 **18F Acquisition**
 - Ashley Owens
-- Rebecca Refoy-Sidibe
+- Rebecca Refoy
 - Miatta Myers
 - Mark Hopson
 
