@@ -1,7 +1,7 @@
 ---
 title: "Building an effective agile partnership between government and industry"
 authors:
-- rebecca-refoy-sidibe
+- rebecca-refoy
 tags:
 - acquisition services
 - agile bpa

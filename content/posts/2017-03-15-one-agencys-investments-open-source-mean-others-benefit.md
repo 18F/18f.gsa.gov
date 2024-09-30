@@ -3,7 +3,7 @@ title: One agency’s investments in open source mean others benefit
 authors:
 - christopher-goranson
 - aaron-burk
-- rebecca-refoy-sidibe
+- rebecca-refoy
 tags:
 - acquisition services
 - open source
