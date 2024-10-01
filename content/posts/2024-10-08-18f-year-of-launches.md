@@ -3,13 +3,15 @@ title: 18F’s year of launches
 date: 2024-10-08
 authors: 
 - 18F
-# tags:  
+excerpt: "Over the past year, 18F has helped amazing partner agencies launch new software products to better serve their users.
+
+Here are six of the launches that 18F has supported this year."
+image: /assets/blog/year-of-launches/header.png
+image_alt: "An image of six rocket ships launching into space"
+# tags:
 # - 18f
 # - agency-work
 # - product-launch
-excerpt:  Over the past year, 18F has helped amazing partner agencies launch new software products to better serve their users. Here are six of the launches that 18F has supported this year.
-image: /assets/blog/year-of-launches/header.png
-image_alt: "An image of six rocket ships launching into space"
 ---
 
 18F works to improve the user experience of government. Over the past year, 18F has helped amazing partner agencies launch new software products to better serve their users. Each successful launch depends on solid user research, careful product thinking, and strong team-building.
