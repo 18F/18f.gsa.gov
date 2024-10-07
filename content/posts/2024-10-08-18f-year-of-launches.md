@@ -85,7 +85,8 @@ ClimateCorps.gov organized information on nearly 2,000 Climate Corps positions l
 
 ### What
 
-The National Accuracy Clearinghouse (NAC) is a data matching system designed to ensure individuals are not receiving Supplemental Nutrition Assistance Program (SNAP) in more than one state at the same time. The NAC was established as a result of the 2018 Farm Bill. 
+The National Accuracy Clearinghouse (NAC) was established as a result of the 2018 Farm Bill. 
+
 The goals of the NAC are to:
 * enhance SNAP program integrity
 * reduce improper payments
