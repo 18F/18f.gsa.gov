@@ -126,19 +126,19 @@ To date, state, local, and federal pilot partners have sent over 60,000 messages
 Notify.gov is growing rapidly, and has received interest from more than 100 programs in at least 30 states, 10 counties, 12 cities, and 18 federal agencies. To learn more and get started with Notify.gov, contact the team at [tts-notify@gsa.gov](mailto:tts-notify@gsa.gov).
 
 
-## 🚀 [Federal Audit Clearinghouse](https://www.fac.gov/) launch with the Office for Regulatory and Oversight Systems, Presidential Innovation Fellows, and 10x
+## 🚀 [Federal Audit Clearinghouse](https://www.fac.gov/) launch with the Office of Regulatory and Oversight Systems, Presidential Innovation Fellows, and 10x
 
 ### What
 
 All entities that spend $750,000 or more in federal grant funds in a fiscal year must submit an audit to the federal government.
-The Office for Regulatory and Oversight Systems (OROS) within the General Services Administration created a new Federal Audit Clearinghouse for grantees, with the goals of:
+The Office of Regulatory and Oversight Systems (OROS) within the General Services Administration created a new Federal Audit Clearinghouse for grantees, with the goals of:
 
 * delivering a maintainable new system
 * seamlessly transitioning users from the old system to the new one
 * making audit data more transparent
 
 #### Who
-The new site was built and launched by the Office for Regulatory and Oversight Systems with support from many parts of government, including [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/), [10x](https://10x.gsa.gov/), and 18F.
+The new site was built and launched by the Office of Regulatory and Oversight Systems with support from many parts of government, including [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/), [10x](https://10x.gsa.gov/), and 18F.
 
 ### When
 
