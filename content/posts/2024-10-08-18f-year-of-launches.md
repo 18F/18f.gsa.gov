@@ -63,7 +63,7 @@ The new request process is fully digital, doesn’t require a physical signature
 
 The new process has also empowered CISA to adjudicate more new domains than .gov has ever done in a single year — and the year isn't finished yet.
 
-## 🚀 [ClimateCorps.gov](http://climatecorps.gov/) launch with AmeriCorps and the U.S. Digital Service
+## 🚀 [ClimateCorps.gov](https://www.acc.gov/) launch with AmeriCorps and the U.S. Digital Service
 
 ### What
 
@@ -73,7 +73,7 @@ The website’s goal is to make it easy for any American to find work tackling t
 
 ### When
 
-[ClimateCorps.gov](http://climatecorps.gov/) launched on Earth Day, April 22, 2024.
+[ClimateCorps.gov](https://www.acc.gov/) launched on Earth Day, April 22, 2024.
 
 ### Impact
 
