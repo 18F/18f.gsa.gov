@@ -25,6 +25,12 @@
   @include u-font('sans', 'xs');
   @include u-line-height('sans', 5);
   margin-top: units(1);
+  text-align: center;
+}
+
+.post-article figure {
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
 }
 
 .post-article blockquote,
