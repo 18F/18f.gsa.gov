@@ -33,6 +33,11 @@
   margin-inline-end: 10%;
 }
 
+.post-article figure.no-margin  {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 .post-article blockquote,
 .post-article .testimonial-blockquote {
   @include u-font('sans', 'lg');
