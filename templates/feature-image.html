@@ -3,12 +3,11 @@
     I'm wondering if there's a better way to do this, like setting up
     a shortcode.
   {% endcomment %}
-  <figure
+  <figure class="post-feature_figure no-margin">
+    <img
     class="post-feature_image"
-    role="img"
-    title="{{ image_alt }}"
-    style="background-image: url('{{ image | url }}')"
-    >
+    alt="{{ image_alt }}" src="{{ image | url }}"
+    />
     {% if image_figcaption %}
       <figcaption>{{ image_figcaption }}</figcaption>
     {% endif %}

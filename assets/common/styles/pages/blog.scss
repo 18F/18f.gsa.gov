@@ -60,12 +60,34 @@
   }
 }
 
-.post-feature_image {
-  background-position: center;
-  background-size: cover;
-  height: units('card-lg');
+.post-feature_figure {
   margin: 0;
-  position: relative;
+  overflow: hidden;
+
+  figcaption {
+    @include u-font('sans', 'xs');
+    @include u-line-height('sans', 5);
+    margin-top: units(1);
+    text-align: center;
+  }
+}
+
+.post-feature_image {
+  // image inherits a max-width: 100% that we don't want
+  max-width: unset;
+  // these two center the image
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+
+  height: units('card-lg');
+  object-fit: contain;
+
+  @include at-media($theme-header-min-width) {
+    width: 100%;
+    height: unset;
+    object-fit: cover;
+  }
 }
 
 .post-pagination__heading {
