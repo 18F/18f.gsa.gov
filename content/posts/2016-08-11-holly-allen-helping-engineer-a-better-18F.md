@@ -60,7 +60,7 @@ things better for everyday people.
 **MK: What have you worked on so far?**
 
 **HA:** The first thing I got to do was be a Product Lead for [College
-Scorecard](https://18f.gsa.gov/tags/college-scorecard/). I worked with
+Scorecard]({{ "/tags/college-scorecard/" | url }}). I worked with
 18F, USDS, and the Department of Education, and it was a great
 experience. It’s a great example of the kinds of projects that skilled
 engineers and designers can help with, and I really liked that I got to

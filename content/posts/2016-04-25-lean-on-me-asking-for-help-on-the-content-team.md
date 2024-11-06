@@ -18,7 +18,7 @@ collaboration.*
 
 {% image "assets/blog/content/collaborate-content.jpg" "A circle of head shots of the Content Team with lines connecting them" %}
 
-[Emileigh](https://18f.gsa.gov/team/emileigh/)
+[Emileigh]({{ "/team/emileigh/" | url }})
 ------------------------------------------------
 
 One of my projects involves a substantial content migration. I’ve done
@@ -35,7 +35,7 @@ content](https://insidegovuk.blog.gov.uk/2015/03/12/gov-uk-now-has-an-archiving-
 an especially useful tool in a project like the one I’m working on — a
 website with more than 20 years of information on it.
 
-[Corey](https://18f.gsa.gov/team/corey-mahoney/)
+[Corey]({{ "/team/corey-mahoney/" | url }})
 --------------------------------------------------
 
 Recently, I got stuck while writing some instructions to help users
@@ -49,7 +49,7 @@ find other applications that had solved the same problem and figure out
 the right terminology. The version we came up with was clear and
 consistent — and we got to do user testing to validate that it worked!
 
-[Britta](https://18f.gsa.gov/team/britta-gustafson/)
+[Britta]({{ "/team/britta-gustafson/" | url }})
 ------------------------------------------------------
 
 I made a lot of progress on a blog post by bringing it to our weekly
@@ -61,7 +61,7 @@ overthinking, and which parts needed revising (such as starting the post
 with a summary and making the headings much shorter). If seven fellow
 content people say something looks fine, you know it’s fine.
 
-[Jeannine](https://18f.gsa.gov/team/jhunter/)
+[Jeannine]({{ "/team/jhunter/" | url }})
 -----------------------------------------------
 
 I value how our team’s culture facilitates immediate requests for help,
@@ -78,7 +78,7 @@ off big-picture ideas regarding content strategy and how we can
 capitalize on the brain power of content strategists across 18F. Her
 insight and ideas are invaluable and creative.
 
-[Ryan](https://18f.gsa.gov/team/ryan-sibley/)
+[Ryan]({{ "/team/ryan-sibley/" | url }})
 -----------------------------------------------
 
 I collaborated with James on a content audit to determine what content
@@ -99,7 +99,7 @@ the task is*. That kind of shift seems small, but the way a reader
 reacts to something often hinges on something small. And it meant I
 could write the email for everyone, not just a few users.
 
-[Nicole](https://18f.gsa.gov/team/nicole-fenton/)
+[Nicole]({{ "/team/nicole-fenton/" | url }})
 ---------------------------------------------------
 
 I asked Kate for help with a presentation about our design capabilities.
@@ -108,7 +108,7 @@ and panache in the right places. I’ve also been working with Ryan,
 Britta, and Corey on some new internal documentation about what we do as
 content designers.
 
-[Kate](https://18f.gsa.gov/team/kate/)
+[Kate]({{ "/team/kate/" | url }})
 ----------------------------------------
 
 Every day, I’m grateful to be working with such a talented team that’s

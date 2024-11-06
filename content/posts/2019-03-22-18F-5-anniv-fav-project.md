@@ -176,4 +176,4 @@ especially those with a strong data analytics component.
 ---
 
 Some other projects that made the list were [Alaska
-Medicaid](https://18f.gsa.gov/our-work/alaska-dhss/), [USFS Open Forest](https://18f.gsa.gov/our-work/forest-service/), and [login.gov](https://18f.gsa.gov/our-work/login-gov/). We’re grateful to all of our partners in the last five years, and we’ll continue working with government agencies to build successful projects now and assist with their modernization efforts into the future.
+Medicaid]({{ "/our-work/alaska-dhss/" | url }}), [USFS Open Forest]({{ "/our-work/forest-service/" | url }}), and [login.gov]({{ "/our-work/login-gov/" | url }}). We’re grateful to all of our partners in the last five years, and we’ll continue working with government agencies to build successful projects now and assist with their modernization efforts into the future.

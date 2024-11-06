@@ -22,10 +22,10 @@ of an entrepreneur looked like. This experiment had a profound impact on
 me in demonstrating the power of transparency.
 
 18F’s [dedication to be transparent about their
-work](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/)
+work]({{ "/2014/07/31/working-in-public-from-day-1/" | url }})
 ended up being a major reason I decided to join. [We believe in the
 power of open source in the software we
-develop](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/). We
+develop]({{ "/2014/07/29/18f-an-open-source-team/" | url }}). We
 constantly look for ways to be increasingly transparent about the way we
 work, what we do, and how it all turns out.
 

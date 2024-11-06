@@ -87,7 +87,7 @@ SEO checklist:
 
 * Make sure your site can be crawled by search engines.
 * Use keywords used by your target audiences in your content and meta tags.
-* Use a [synonyms dictionary](https://18f.gsa.gov/2018/07/06/ask-18f-plain-language-government-terms/) to help surface related content (such as providing information on SNAP when people search for “food stamps”), if your search service or content management system provides one.
+* Use a [synonyms dictionary]({{ "/2018/07/06/ask-18f-plain-language-government-terms/" | url }}) to help surface related content (such as providing information on SNAP when people search for “food stamps”), if your search service or content management system provides one.
 * Design for mobile devices. Search engines prioritize mobile-friendly content.
 * Use unique and informative HTML page titles.
 * Summarize page-level content in description meta tags. Like the HTML page title, the description should be unique. This description could appear in search engine results so it should be written for your users.

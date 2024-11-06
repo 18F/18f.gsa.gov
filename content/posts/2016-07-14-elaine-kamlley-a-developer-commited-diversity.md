@@ -131,7 +131,7 @@ here.
 
 **EK:** I think the most impactful project was being a part of the
 [DATA Act pilot
-team](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/). I
+team]({{ "/2015/06/09/data-act-data-act-explainer/" | url }}). I
 helped set up the backend for a prototype and validate the data schema.
 I also supported the Department of the Treasury in making sure their
 records retention compliance was met.

@@ -22,7 +22,7 @@ describe groups of people. An effort began to consider ways to nudge colleagues
 into using more inclusive language. The effort’s goal was not to shame or
 penalize anyone, but to encourage everyone to be more thoughtful and intentional
 with their words. The result was a simple [customization of our internal Slack
-chat’s Slackbot](https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/)
+chat’s Slackbot]({{ "/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/" | url }})
 auto-response: whenever it saw the word “guys,” it would respond and ask if the
 person meant something else, such as “friends” or “y’all.”
 

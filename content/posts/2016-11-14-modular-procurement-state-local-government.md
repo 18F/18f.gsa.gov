@@ -19,14 +19,14 @@ For our partners and the agencies we work with, this commitment to doing
 things openly helps foster better communication, enhances transparency
 and — most importantly — produces a better end product. Our work with
 partner agencies helps us surface [lessons
-learned](https://18f.gsa.gov/2016/07/07/when-a-micropurchase-doesnt-work-out-we-try-to-learn-from-it/),
+learned]({{ "/2016/07/07/when-a-micropurchase-doesnt-work-out-we-try-to-learn-from-it/" | url }}),
 and allows us to create new resources that any government agency can
 easily re-use at no cost.
 
 Our recent work with state government agencies in
-[California](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/)
+[California]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }})
 and
-[Mississippi](https://18f.gsa.gov/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/)
+[Mississippi]({{ "/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/" | url }})
 provides some powerful examples of how 18F’s commitment to working and
 learning in the open can provide enormous benefits — even to states that
 are not yet working directly with 18F.

@@ -19,9 +19,9 @@ image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 
-_This is part seven of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
+_This is part seven of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series]({{ "/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/" | url }}) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
 
-_In yesterday’s post, we [talked about choice overload affecting decision-making.](https://18f.gsa.gov/2016/03/08/too-many-options-make-complicated-decisions-harder/). Today we'll detail when people decide to trust the federal government and how they view the federal government vs. private companies._
+_In yesterday’s post, we [talked about choice overload affecting decision-making.]({{ "/2016/03/08/too-many-options-make-complicated-decisions-harder/" | url }}). Today we'll detail when people decide to trust the federal government and how they view the federal government vs. private companies._
 
 {% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 

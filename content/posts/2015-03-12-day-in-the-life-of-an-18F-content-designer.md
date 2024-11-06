@@ -57,7 +57,7 @@ At 18F, the spirit of innovation prevails, even in our approach to lunch.
 
 As I review each chunk of copy, I keep a few factors in mind: what phrasings and definitions we’re legally required to use, which phrasings we aren’t, and how I can describe the central concepts in a way that appeals to the viewer. Whenever possible, I replace long words with shorter ones, acronyms with agency names, and legal jargon with plain language.
 
-**3:00 p.m.:** Later in the afternoon, I meet with my colleague Nick to discuss the next event in the 18F Presents series. Roughly once a month, 18F brings in a noted speaker from the field of visual design, UX, or content. (Our first speaker was Steve Portigal — read more about the event [here](https://18f.gsa.gov/2015/02/26/Five-Ways-To-Turn-A-Bad-Idea-Into-A-Great-One/).)
+**3:00 p.m.:** Later in the afternoon, I meet with my colleague Nick to discuss the next event in the 18F Presents series. Roughly once a month, 18F brings in a noted speaker from the field of visual design, UX, or content. (Our first speaker was Steve Portigal — read more about the event [here]({{ "/2015/02/26/Five-Ways-To-Turn-A-Bad-Idea-Into-A-Great-One/" | url }}).)
 
 Nick and I are helping to organize the series, and today we’re creating a survey to collect people’s thoughts on who we should invite. I also work on drafting email templates to send to speakers at different points before the event; creating these templates now saves time in the long run.
 

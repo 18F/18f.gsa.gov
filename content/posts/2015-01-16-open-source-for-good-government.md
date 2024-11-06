@@ -27,17 +27,17 @@ GDS [set the standard](https://www.gov.uk/service-manual/making-software/open-st
 * making it easier to share appropriate data across and beyond government boundaries, providing efficient services for users and delivery partners;
 * making the cost of government’s digital services more sustainable by making things simpler and encouraging reuse.
 
-We then built upon it as part of [our own open source policy](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/):
+We then built upon it as part of [our own open source policy]({{ "/2014/07/29/18f-an-open-source-team/" | url }}):
 
 1. Use Free and Open Source Software (FOSS) in our projects and to contribute back to the open source community;
 2. Create an environment where any project can be developed in the open; and
 3. Publish all source code created or modified by 18F publicly.
 
-Earlier this week, we [shared a tool](https://18f.gsa.gov/2015/01/13/an-open-source-tool-for-easier-database-testing/) built by an 18F team member that helps developers test their products with a small portion of their own datasets. Open source projects allow developers like Catherine to share solutions rather than re-solve the same problem over and over. Our readers were excited at the prospects:
+Earlier this week, we [shared a tool]({{ "/2015/01/13/an-open-source-tool-for-easier-database-testing/" | url }}) built by an 18F team member that helps developers test their products with a small portion of their own datasets. Open source projects allow developers like Catherine to share solutions rather than re-solve the same problem over and over. Our readers were excited at the prospects:
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/18F">@18F</a>  Cool - I hand-wrote something like this at my previous job, but generalized OSS is much better! <a href="https://twitter.com/acdha">@acdha</a> <a href="https://twitter.com/catherinedevlin">@catherinedevlin</a></p>&mdash; Jamie McCarthy (@jamiemccarthy) <a href="https://twitter.com/jamiemccarthy/status/555498540466593793">January 14, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Since our launch in March, we have had a number of informal conversations with our counterparts at GDS on a host of issues – technical, policy, and operational – further strengthening our relationship and fostering our open collaboration.
 
-Both teams believe that transparency in our operations [from day one](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/) is key to creating the best possible products, and we look forward to future collaboration with GDS, other government organizations, and the public.
+Both teams believe that transparency in our operations [from day one]({{ "/2014/07/31/working-in-public-from-day-1/" | url }}) is key to creating the best possible products, and we look forward to future collaboration with GDS, other government organizations, and the public.

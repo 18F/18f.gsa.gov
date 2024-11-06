@@ -69,7 +69,7 @@ website](https://eiti.org/eiti/benefits)[.](https://eiti.org/eiti/benefits)
 ## USEITI on the web
 
 The website [18F helped Interior build](https://useiti.doi.gov),
-currently in [live beta](https://18f.gsa.gov/dashboard/stages/),
+currently in [live beta]({{ "/dashboard/stages/" | url }}),
 offers visualizations of extractives data to show how such resources
 generate revenue across the country, and where the money earned goes.
 While for some resources basic data have existed for decades, EITI

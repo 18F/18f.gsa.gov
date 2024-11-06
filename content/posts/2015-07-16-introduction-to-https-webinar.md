@@ -16,7 +16,7 @@ excerpt: "18F uses HTTPS for everything we make, and the U.S. government is in t
 description: "18F uses HTTPS for everything we make, and the U.S. government is in the process of transitioning to HTTPS everywhere. As part of this effort, we've recently partnered with DigitalGov University to produce a two-video series introducing the why's and how's of HTTPS."
 image: /assets/blog/https-webinar/https-webinar-screen.jpg
 ---
-18F [uses HTTPS for everything we make](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/), and the U.S. government is in the process of [transitioning to HTTPS everywhere](https://18f.gsa.gov/2015/06/08/the-us-government-is-moving-to-https-everywhere/). As part of this effort, we've recently partnered with [DigitalGov University](https://www.digitalgov.gov/digitalgov-university/) to produce a two-video series introducing the why's and how's of HTTPS.
+18F [uses HTTPS for everything we make]({{ "/2014/11/13/why-we-use-https-in-every-gov-website-we-make/" | url }}), and the U.S. government is in the process of [transitioning to HTTPS everywhere]({{ "/2015/06/08/the-us-government-is-moving-to-https-everywhere/" | url }}). As part of this effort, we've recently partnered with [DigitalGov University](https://www.digitalgov.gov/digitalgov-university/) to produce a two-video series introducing the why's and how's of HTTPS.
 
 - In an **[Introduction to HTTPS for beginners](#introduction-to-https-for-beginners)**, we cover what happens when you use the web, how HTTPS helps protect users, and examines why the web (including the U.S. government) is transitioning to use it for everything. **No technical background required.**
 

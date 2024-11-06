@@ -14,7 +14,7 @@ excerpt: "At 18F, we’ve seen that remote work can make teams happier, more
 ---
 At the General Services Administration’s 18F, we’ve seen that remote work can make teams happier, more productive, and more inclusive. Organizing ourselves in a remote-first way has improved our morale and allowed us to recruit and retain talent from all across the country. But building great distributed teams takes real work. 
 
-18F has been a distributed-first organization—that means designed for remote work, not just able to accommodate it—for all of its six years, and we pride ourselves on modelling effective remote teams. We were talking about [distributed team best practices](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) in 2015, and we’ve learned a lot more since then about how we make a distributed-first culture work.
+18F has been a distributed-first organization—that means designed for remote work, not just able to accommodate it—for all of its six years, and we pride ourselves on modelling effective remote teams. We were talking about [distributed team best practices]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }}) in 2015, and we’ve learned a lot more since then about how we make a distributed-first culture work.
 
 We spend a lot of time thinking about [how we collaborate with one another and with our partners](https://handbook.tts.gsa.gov/how-we-collaborate/). What we find is that building effective distributed teams is very much a matter of cultural values. 
 

@@ -46,7 +46,7 @@ continually thinking of ways to share our work better, and here’s one
 experiment!
 
 This list is part of our New Year’s resolution to [be more
-open](https://18f.gsa.gov/2016/01/07/18f-new-years-resolution-be-even-more-open/).
+open]({{ "/2016/01/07/18f-new-years-resolution-be-even-more-open/" | url }}).
 Following up on those goals, we’ve also been working more on identifying
 parts of our work that are generic and decoupling them from the
 applications we developed them for.
@@ -56,7 +56,7 @@ projects are in varying stages of development and would generally
 benefit from external expertise — feel welcome to open issues and pull
 requests. We’re also featuring selected [“help wanted”
 tasks](https://github.com/search?q=user%3A18f+label%3A%22help+wanted%22)
-in [our weekly newsletter](https://18f.gsa.gov/#newsletter). If you
+in [our weekly newsletter]({{ "/#newsletter" | url }}). If you
 have suggestions for other 18F projects to include in a future iteration
 of this list, you can add them to [the discussion of our New Year’s
 resolution](https://github.com/18F/18f.gsa.gov/issues/1445).
@@ -65,7 +65,7 @@ resolution](https://github.com/18F/18f.gsa.gov/issues/1445).
 
 -   [**analytics.usa.gov**](https://github.com/18F/analytics.usa.gov): Publish live analytics for your website(s) on a public page — see [analytics.usa.gov](https://analytics.usa.gov/) for an example. This can help both staff and visitors understand how people use your website. You can also separately use a component of it: [**Analytics Reporter**](https://github.com/18F/analytics-reporter), a reporting and publishing tool for Google Analytics data.
 
--   [**18F Pages**](https://github.com/18F/pages): Help your team quickly publish static websites with 18F Pages, which is a Jekyll-based system similar to [GitHub Pages](https://pages.github.com/) that [lets you use your own infrastructure](https://18f.gsa.gov/2015/05/14/18Fpages/). We use 18F Pages to publish guides and other simple websites on [pages.18f.gov](https://pages.18f.gov/) (with content hosted on GitHub).
+-   [**18F Pages**](https://github.com/18F/pages): Help your team quickly publish static websites with 18F Pages, which is a Jekyll-based system similar to [GitHub Pages](https://pages.github.com/) that [lets you use your own infrastructure]({{ "/2015/05/14/18Fpages/" | url }}). We use 18F Pages to publish guides and other simple websites on [pages.18f.gov](https://pages.18f.gov/) (with content hosted on GitHub).
 
 ## If you help your team work together
 

@@ -71,7 +71,7 @@ would know a task was complete, and evaluate the results.
 
 Once we identified discrete tasks, we put them on separate cards on a
 kanban board. A [kanban
-board](https://18f.gsa.gov/2016/08/31/kanban-for-government/) is a
+board]({{ "/2016/08/31/kanban-for-government/" | url }}) is a
 simple tool whereby tasks are organized, grouped, and tracked across a
 segment of time, or sprints. As these tasks moved forward, we could use
 the dedicated cards to monitor progress:
@@ -135,4 +135,4 @@ later.
 
 Looking for more? Check out 18F’s [Agile Principles and
 Practices](https://pages.18f.gov/agile/) guide, and see our [other
-posts on agile](https://18f.gsa.gov/tags/agile/).
+posts on agile]({{ "/tags/agile/" | url }}).

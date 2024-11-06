@@ -87,6 +87,6 @@ While we upskill and build capacity in AI, we’re regrounding ourselves in many
 
 If you’re in government, join the [AI community of practice](https://coe.gsa.gov/communities/ai.html), a space for government employees to learn and share about how the government can foster thoughtful and responsible use of AI. If you’re an AI professional, consider [bringing your talents to bear](https://ai.gov/apply/) in the federal government.
 
-As technologists, there are 18Fers with dexterity to advise on how you might [leverage the power of AI](https://18f.gsa.gov/AI-services/).  [Reach out to 18F](https://18f.gsa.gov/AI-services/) if you’re interested in exploring what this might look like for your agency.
+As technologists, there are 18Fers with dexterity to advise on how you might [leverage the power of AI]({{ "/AI-services/" | url }}).  [Reach out to 18F]({{ "/AI-services/" | url }}) if you’re interested in exploring what this might look like for your agency.
 
 [^1]: The GSA.gov website includes hypertext links, or pointers, to information created and maintained by other public and/or private organizations. We provide these links as a public service only; the U.S. government, including GSA, neither endorses nor guarantees in any way the external organizations, services, advice, or products included in these website links. When you select a link to an outside website, you are leaving the GSA.gov site and are subject to the privacy and security policies of the owners/sponsors of the outside website.

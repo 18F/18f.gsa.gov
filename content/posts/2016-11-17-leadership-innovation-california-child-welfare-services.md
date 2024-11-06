@@ -236,7 +236,7 @@ moving more risk to the vendor, possibly at the expense of the end user.
 18F also is helping us expand our knowledge and understanding of open
 source code. We need to adapt and update our open source code policy.
 What would it mean to have an “open by default” policy like the White
-House model used by 18F? The [18F blog](https://18f.gsa.gov/blog/) has
+House model used by 18F? The [18F blog]({{ "/blog/" | url }}) has
 been a tremendous resource for our teams — lots of ideas and, more
 importantly, cues to thinking digitally and putting users at the center.
 

@@ -13,7 +13,7 @@ image: /assets/blog/github-facts/wh-astronomy-night.jpg
 image_figcaption: <a href="https://obamawhitehouse.archives.gov/the-press-office/2015/10/20/remarks-president-astronomy-night">President Obama and the MythBusters team welcomed students to ‎Astronomy Night‬ at the White House</a>
 ---
 
-At 18F, we believe that [developing software in the open has many benefits](https://github.com/18F/open-source-policy/blob/master/policy.md), and we write about our [open source work as much as we can](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). We get questions from other people in the federal government because they’ve run into legal and practical uncertainties when seeking permission to work in the open from their agency or team.
+At 18F, we believe that [developing software in the open has many benefits](https://github.com/18F/open-source-policy/blob/master/policy.md), and we write about our [open source work as much as we can]({{ "/2014/07/31/working-in-public-from-day-1/" | url }}). We get questions from other people in the federal government because they’ve run into legal and practical uncertainties when seeking permission to work in the open from their agency or team.
 
 We’ve put together a list of facts and references that will help you build the case for open source development in your team or agency and bust myths about using public code repositories. This post is based on our experiences at the federal level, but we hope it’s helpful for anyone working in government.
 
@@ -50,7 +50,7 @@ NASA has an [open source policy](http://code.nasa.gov/#/guide) that discusses th
 ### Fact: Public code services enable federal staff to fully control access and permissions for official repositories.
 *Myth: “Public repository hosting services are social networking tools with dubious collaboration features; using them would lead to our projects getting unreliable external code mixed into our official work.”*
 
-As an example, 18F’s staff controls and decides what code goes into our repositories. For almost all of our projects, we only allow the public to make suggestions to our official repositories (in the form of [pull requests](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)), and we carefully review those suggestions before deciding whether to accept them. We’ve also developed clear policies for work with outside-of-government collaborators, [guided by FISMA Ready standards](https://github.com/fisma-ready/github#teams).
+As an example, 18F’s staff controls and decides what code goes into our repositories. For almost all of our projects, we only allow the public to make suggestions to our official repositories (in the form of [pull requests]({{ "/2015/03/03/how-to-use-github-and-the-terminal-a-guide/" | url }})), and we carefully review those suggestions before deciding whether to accept them. We’ve also developed clear policies for work with outside-of-government collaborators, [guided by FISMA Ready standards](https://github.com/fisma-ready/github#teams).
 
 ### Fact: Agencies that do classified work can release code that isn’t sensitive.
 *Myth: “All of the code we develop is sensitive and protected by security exceptions. It can’t be released in the open.”*
@@ -83,4 +83,4 @@ Here are a few federal explanations of the benefits of open source development:
 - If you run into restrictions from your agency on participating in public government projects on repository hosting services, you can [reach out to the Office of the Federal CIO](https://github.com/project-open-data/project-open-data.github.io/issues/346#issuecomment-169140589).
 - If you’re trying to help your government team start working in the open but are running into barriers, you can reach out to us at [18f@gsa.gov](mailto:18f@gsa.gov). We’d like to help you if we can, such as by answering a specific question.
 
-We hope this is useful. Please [open an issue](https://github.com/18F/18f.gsa.gov/issues) if you have another question, and [make use of our repositories](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/) as much as you want!
+We hope this is useful. Please [open an issue](https://github.com/18F/18f.gsa.gov/issues) if you have another question, and [make use of our repositories]({{ "/2016/04/06/take-our-code-18f-projects-you-can-reuse/" | url }}) as much as you want!

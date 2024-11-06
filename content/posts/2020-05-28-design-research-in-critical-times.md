@@ -18,7 +18,7 @@ excerpt: 18F staff is distributed across the country and the majority of our
 ---
 Among the many challenges during critical times is a change to how we work. Suddenly, many designers and researchers who can continue working are now in a remote workplace and distributed team for the first time. For those accustomed to working in-person with their research participants and teams, this can be a big adjustment.
 
-GSA’s 18F staff is distributed across the country and the majority of our research has been and will continue to be facilitated remotely. Our team has been working this way since our organization’s inception [six years ago](https://18f.gsa.gov/2020/03/19/sixth-anniversary/). We hope our experience will help guide designers and researchers as they adapt to new ways of working and provide some additional considerations to keep in mind while conducting research in critical times.
+GSA’s 18F staff is distributed across the country and the majority of our research has been and will continue to be facilitated remotely. Our team has been working this way since our organization’s inception [six years ago]({{ "/2020/03/19/sixth-anniversary/" | url }}). We hope our experience will help guide designers and researchers as they adapt to new ways of working and provide some additional considerations to keep in mind while conducting research in critical times.
 
 ## Scheduling and time constraints
 

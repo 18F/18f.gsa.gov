@@ -57,7 +57,7 @@ It’s largely keyboard accessible, includes detailed alt text for images,
 and has improved text-to-background contrast.
 
 Finally, [our last
-post](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/) discussed the
+post]({{ "/2015/09/03/every-kid-in-a-park/" | url }}) discussed the
 importance of writing at a fourth-grade level. As we’ve added content,
 we’ve made sure to keep it a fourth-grade reading level. If you’d like
 to see how our pages break down, the reading level of page is on our

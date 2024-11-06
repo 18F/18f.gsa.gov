@@ -19,7 +19,7 @@ description: "Improving accessibility and 508 awareness is one of 18F’s ongoin
 excerpt: "Improving accessibility and 508 awareness is one of 18F’s ongoing goals. In support of this goal, we recently hosted a11yhack, a website accessibility hackathon."
 ---
 Improving [accessibility and 508
-awareness](https://18f.gsa.gov/2015/03/31/focus-on-accessibility/) is
+awareness]({{ "/2015/03/31/focus-on-accessibility/" | url }}) is
 one of 18F’s ongoing goals. In support of this goal, we recently hosted
 [a11yhack](https://18f.github.io/hackathons/a11yhack/), a website accessibility
 hackathon.

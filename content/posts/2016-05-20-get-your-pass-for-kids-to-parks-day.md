@@ -19,7 +19,7 @@ nature, learn, and play.
 
 You might be wondering what a tech team like ours has to do with the
 outdoors. But [designing and
-developing](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/) the
+developing]({{ "/2015/09/03/every-kid-in-a-park/" | url }}) the
 Every Kid in a Park website allowed us to blend modern technology with
 ancient forests and historic sites.
 

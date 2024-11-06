@@ -16,7 +16,7 @@ hero: false
 
 {% image_with_class "assets/blog/speaker-series/natalie-kurz.jpg" "image-conversation-with-Kurz" "CFPB's Natalie Kurz" %}
 
-Last month, content strategist and UX designer Natalie Kurz [presented at 18F](https://18f.gsa.gov/2015/11/03/content-strategy-for-all-insights-from-cfpb-natalie-kurz/). Currently a Technology and Innovation Fellow at the [Consumer Financial Protection Bureau](http://www.consumerfinance.gov/), Kurz has spent more than 15 years helping clients create, maintain, and promote beautiful, brand-adherent content.
+Last month, content strategist and UX designer Natalie Kurz [presented at 18F]({{ "/2015/11/03/content-strategy-for-all-insights-from-cfpb-natalie-kurz/" | url }}). Currently a Technology and Innovation Fellow at the [Consumer Financial Protection Bureau](http://www.consumerfinance.gov/), Kurz has spent more than 15 years helping clients create, maintain, and promote beautiful, brand-adherent content.
 
 Prior to her presentation, we had the chance to chat with Kurz via email about her experience working with different types of content, her predictions for the field, and the collaborative approaches she recommends. To get more of her insights into successful content-strategy practices, read on.
 

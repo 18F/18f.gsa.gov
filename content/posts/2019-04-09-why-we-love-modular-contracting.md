@@ -17,7 +17,7 @@ Modular contracting is an acquisition strategy that we use with many of
 our partners and our internal programs. With modular contracting we
 break up large, complex projects into multiple, tightly-scoped
 procurements to implement technology systems in successive, interoperable
-increments. We’ve used this strategy in our work with the [Forest Service](https://18f.gsa.gov/our-work/forest-service/) and the [State of California](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/) to mitigate
+increments. We’ve used this strategy in our work with the [Forest Service]({{ "/our-work/forest-service/" | url }}) and the [State of California]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }}) to mitigate
 risk, reduce vendor lock in, and encourage the delivery of working
 software to users more rapidly. When this practice is combined with
 human-centered, agile practices, and modern infrastructure, it can
@@ -58,7 +58,7 @@ contracting enforces good coding practices and increases the consistency of the 
 
 There are well-documented, standardized software development practices that can be made uniform across vendors, and tools to enforce the use of consistent and secure coding practices. We often incorporate these process requirements into the contract via the Quality Assurance Surveillance Plan. This helps vendors, regardless of incumbency, know from the outset what will be expected in terms of software development practices. The following practices facilitate faster on-boarding of new development teams.
 
-Specifically, by adopting a “programming style guide” and an automated style checking tool (known as a “linter”), your vendors can ensure the code style is consistent. By adopting other automated [static quality-checking tools](https://18f.gsa.gov/2016/10/04/what-is-static-source-analysis/), your vendors can avoid other poor code quality practices. Another method that reduces vendor lock-in is using open source or government owned, because it allows vendors to see the code they will be building upon. By having automated integration and unit tests, your vendors can identify and fix code that breaks or doesn’t integrate as soon as it’s written.
+Specifically, by adopting a “programming style guide” and an automated style checking tool (known as a “linter”), your vendors can ensure the code style is consistent. By adopting other automated [static quality-checking tools]({{ "/2016/10/04/what-is-static-source-analysis/" | url }}), your vendors can avoid other poor code quality practices. Another method that reduces vendor lock-in is using open source or government owned, because it allows vendors to see the code they will be building upon. By having automated integration and unit tests, your vendors can identify and fix code that breaks or doesn’t integrate as soon as it’s written.
 
 By conducting multiple procurements, the emergent system architecture
 and system needs will be more transparent to the government and other
@@ -83,4 +83,4 @@ If your team isn’t comfortable with the methods and responsibilities
 outlined above, it might be time to rethink whether or not you’re ready for modular contracting. Want help breaking down your needs into manageable components? Come [talk to us](mailto:inquiries18f@gsa.gov) about how to start doing modular
 contracting in your agency.
 
-*This post was originally from the modularcontracting.18f.gov site, which we are now sunsetting in favor of a [series of blogposts](https://18f.gsa.gov/tags/modular-contracting/). The original text of the site will be available in our [github repository](https://github.com/18F/Modular-Contracting-And-Agile-Development).*
+*This post was originally from the modularcontracting.18f.gov site, which we are now sunsetting in favor of a [series of blogposts]({{ "/tags/modular-contracting/" | url }}). The original text of the site will be available in our [github repository](https://github.com/18F/Modular-Contracting-And-Agile-Development).*

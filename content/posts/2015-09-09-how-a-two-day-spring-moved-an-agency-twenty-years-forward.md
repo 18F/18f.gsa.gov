@@ -54,7 +54,7 @@ Departments across the federal government often operate under three constraints 
 
 -   Lack of internal design and development staff dedicated to prototype or solve problems.
 
--   An often arduous vendor solicitation process to hire the right team to help with such projects. (WHD is experimenting with using a [modular, agile contract strategy](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).)
+-   An often arduous vendor solicitation process to hire the right team to help with such projects. (WHD is experimenting with using a [modular, agile contract strategy]({{ "/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/" | url }}).)
 
 -   Internal teams which may lack the time, tech literacy, or processes in place to support change. How do you support change you don’t quite understand?
 

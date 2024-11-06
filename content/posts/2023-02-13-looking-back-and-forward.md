@@ -27,9 +27,9 @@ Looking forward to in 2023: Prototyping data governance processes, particularly 
 
 ## Anne Petersen, UX Designer
 
-Learned in 2022: More about effective co-design, and times when we shouldn’t use  co-design methods ([here’s an example of when co-design might be viable](https://www.usgs.gov/centers/community-for-data-integration-cdi/science/engaging-indigenous-communities-co-design-real)). We should ask: can participant input actually change these designs, and how? I also learned more about (and tried out, and then taught others about) implementing better [teaming practices](https://18f.gsa.gov/2020/04/01/building-a-collaborative-culture/), such as [team charters](https://github.com/annepetersen/teams/wiki/Team-charter-template) and [READMEs](https://18f.gsa.gov/2020/03/05/readmes-for-you-and-me/).
+Learned in 2022: More about effective co-design, and times when we shouldn’t use  co-design methods ([here’s an example of when co-design might be viable](https://www.usgs.gov/centers/community-for-data-integration-cdi/science/engaging-indigenous-communities-co-design-real)). We should ask: can participant input actually change these designs, and how? I also learned more about (and tried out, and then taught others about) implementing better [teaming practices]({{ "/2020/04/01/building-a-collaborative-culture/" | url }}), such as [team charters](https://github.com/annepetersen/teams/wiki/Team-charter-template) and [READMEs]({{ "/2020/03/05/readmes-for-you-and-me/" | url }}).
 
-Looking forward to in 2023: More official support for our learning, teaching, knowledge management, and documentation efforts, such as the [18F Guides and Methods](https://18f.gsa.gov/guides/).
+Looking forward to in 2023: More official support for our learning, teaching, knowledge management, and documentation efforts, such as the [18F Guides and Methods]({{ "/guides/" | url }}).
 
 ## Jia Gu, Product Designer
 
@@ -63,4 +63,4 @@ Looking forward to in 2023: I just joined 18F and am looking forward to being he
 
 ## Join us!
 
-We’re always looking for new people to share and grow with us. Learn more on the [TTS website](https://join.tts.gsa.gov/) about our open positions, and find out how we work in our [UX Design Guide](https://ux-guide.18f.gov/our-approach/values-and-principles/), [18F Methods](https://methods.18f.gov/), and [Content Guide](https://content-guide.18f.gov/) (or [look through our other guides](https://18f.gsa.gov/guides/)).
+We’re always looking for new people to share and grow with us. Learn more on the [TTS website](https://join.tts.gsa.gov/) about our open positions, and find out how we work in our [UX Design Guide](https://ux-guide.18f.gov/our-approach/values-and-principles/), [18F Methods](https://methods.18f.gov/), and [Content Guide](https://content-guide.18f.gov/) (or [look through our other guides]({{ "/guides/" | url }})).

@@ -71,7 +71,7 @@ Here are other resources on learning about your users based on different methods
 
 **User interviews**
  - [18F’s UX Guide](https://guides.18f.gov/ux-guide/research/plan/)
- - [Recruiting customers with feedback panels](https://18f.gsa.gov/2024/02/01/gathering-feedback-with-customer-panels/)
+ - [Recruiting customers with feedback panels]({{ "/2024/02/01/gathering-feedback-with-customer-panels/" | url }})
 
 **Usability testing**
  - [18F Methods card on usability testing](https://guides.18f.gov/methods/validate/usability-testing/)

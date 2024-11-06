@@ -17,7 +17,7 @@ hero: false
 
 As the 2016 presidential election heats up, here at 18F we’ve been working with the Federal Election Commission (FEC) to make campaign finance data more accessible to the public. Today, we launched [betaFEC](http://beta.fec.gov), the first piece in a complete redesign of the FEC’s online presence.
 
-We were excited to work on a project that allowed us to delve into intricate campaign finance data, plain language, and the FEC’s [first API](https://18f.gsa.gov/2015/07/08/openfec-api/). The FEC made for a fantastic partner — eager to explore new ideas, design for the user, and communicate in an understandable way.
+We were excited to work on a project that allowed us to delve into intricate campaign finance data, plain language, and the FEC’s [first API]({{ "/2015/07/08/openfec-api/" | url }}). The FEC made for a fantastic partner — eager to explore new ideas, design for the user, and communicate in an understandable way.
 
 “The FEC has been doing open data since before it was cool,” said Noah Manger, an 18F designer who created the new site’s user interface.
 

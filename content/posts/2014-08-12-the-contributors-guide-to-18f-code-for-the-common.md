@@ -25,7 +25,7 @@ Introduction
 
 Transparency in coding makes code more secure. Open source development
 is development in the light, sometimes a harsh light, that shows every
-blemish. At [18F](https://18f.gsa.gov/) we strongly believe this
+blemish. At [18F]({{ "/" | url }}) we strongly believe this
 improves the rapidity of our coding and the quality and security of the
 code.
 
@@ -122,7 +122,7 @@ However, we use a copyright waiver for other jurisdictions to clarify
 matters and ensure unrestricted public use outside of the US.
 
 Even though it is our
-[intention](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) to
+[intention]({{ "/2014/07/29/18f-an-open-source-team/" | url }}) to
 release all code permissively, you may find a derived work of someone
 else’s code in our repositories. In order to save the taxpayer money, we
 reuse work that others have created when possible. An example of such a

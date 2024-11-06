@@ -12,7 +12,7 @@ tags:
 excerpt: "At 18F, we have employees across the U.S. Over time, we’ve cultivated our best practices for distributed teams and design methods. Yet, doing research as a remote team is still really hard. Here are some things that we’ve found make it easier."
 ---
 
-At 18F, we have employees across the U.S. Over time, we’ve cultivated our [best practices for distributed teams](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) and [design methods](https://methods.18f.gov/). Yet, doing research as a remote team is still really hard. Here are some things that we’ve found make it easier.
+At 18F, we have employees across the U.S. Over time, we’ve cultivated our [best practices for distributed teams]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }}) and [design methods](https://methods.18f.gov/). Yet, doing research as a remote team is still really hard. Here are some things that we’ve found make it easier.
 
 ## Use tools like you would in real life 
 
@@ -37,7 +37,7 @@ You can learn a lot in a week. Use coworking time for:
 
 - Writing research plans and conversation guides
 - Conducting interviews
-- [Inviting the whole team including stakeholders to observe usability sessions and interviews](https://18f.gsa.gov/2016/08/16/what-happens-when-the-whole-team-joins-user-interviews/)
+- [Inviting the whole team including stakeholders to observe usability sessions and interviews]({{ "/2016/08/16/what-happens-when-the-whole-team-joins-user-interviews/" | url }})
 - Synthesizing and summarizing research
 - Updating your documentation with findings and project updates
 - Identifying potential design changes and priorities

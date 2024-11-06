@@ -41,7 +41,7 @@ that more people use often is better than a perfect tool that people
 barely use.
 
 If you’re [testing your
-content](https://18f.gsa.gov/2016/04/19/looking-at-the-different-ways-to-test-content/) with users, watch for words and phrases that are confusing. Whenever a
+content]({{ "/2016/04/19/looking-at-the-different-ways-to-test-content/" | url }}) with users, watch for words and phrases that are confusing. Whenever a
 new person joins your team, give them the glossary and have them ask you
 whenever they encounter something new and add it to list.
 

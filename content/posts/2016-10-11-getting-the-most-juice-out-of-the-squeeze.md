@@ -14,9 +14,9 @@ image_figcaption: The FEC Archives’ microfilm catalog of Matters Under Review
 
 The Federal Election Commission’s (FEC) mission is to protect the integrity of the federal campaign finance process by providing transparency and fairly enforcing and administering federal campaign finance laws. The FEC's website is its most important source of instantly accessible information.
 
-On the heels of successful efforts to increase the usability of campaign finance data through the [Open FEC API](https://18f.gsa.gov/2015/07/08/openfec-api/) and launch of [betaFEC](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/), the FEC was ready to make headway in making laws, regulations, and other legal resources more accessible to the public. The FEC has a plethora of legal resources available to navigate the complex campaign finance laws to promote voluntary compliance. However, the diaspora of non-connected legacy query systems have made it difficult for a user to locate the appropriate resource.
+On the heels of successful efforts to increase the usability of campaign finance data through the [Open FEC API]({{ "/2015/07/08/openfec-api/" | url }}) and launch of [betaFEC]({{ "/2015/10/29/welcome-to-betafec/" | url }}), the FEC was ready to make headway in making laws, regulations, and other legal resources more accessible to the public. The FEC has a plethora of legal resources available to navigate the complex campaign finance laws to promote voluntary compliance. However, the diaspora of non-connected legacy query systems have made it difficult for a user to locate the appropriate resource.
 
-In 2014, the FEC sought help from contractors to annotate statutes, regulations, and advisory opinions, viewing those linkages as a silver bullet to opening up this treasure trove of assets to the public. A demo from 18F of the [eRegulations](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/) platform went smashingly well, and gave the FEC a vision for how to leverage the eRegulations platform to *make legal resources easy to browse and read*.
+In 2014, the FEC sought help from contractors to annotate statutes, regulations, and advisory opinions, viewing those linkages as a silver bullet to opening up this treasure trove of assets to the public. A demo from 18F of the [eRegulations]({{ "/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/" | url }}) platform went smashingly well, and gave the FEC a vision for how to leverage the eRegulations platform to *make legal resources easy to browse and read*.
 
 However, as we conducted initial research and spoke to users; we uncovered different needs. Most notably they noted the need to *find things.* They found the current search systems very difficult to use.
 
@@ -30,7 +30,7 @@ Many users also stressed the importance of advisory opinions and matters under r
 
 To complicate matters even more, as we looked at the states of the different legal resources, we discovered that much of the information was locked up in scanned PDFs; only Title 11 of the Code of Federal Regulations was in a state that could readily be parsed into the eRegulations platform. This made the work required to view advisory opinions and matters under review daunting.
 
-We were in a position where we could not quickly meet both audiences’ needs. So who do you prioritize? At 18F, one of our pillars is [user centered design](https://18f.gsa.gov/tags/user-centered-design/), so shouldn’t we simply prioritize the users' needs?
+We were in a position where we could not quickly meet both audiences’ needs. So who do you prioritize? At 18F, one of our pillars is [user centered design]({{ "/tags/user-centered-design/" | url }}), so shouldn’t we simply prioritize the users' needs?
 
 It turns out: not so fast.
 

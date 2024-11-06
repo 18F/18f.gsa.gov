@@ -14,9 +14,9 @@ excerpt: "Two teams working together to help agencies become more effective at m
 *This post was originally published on the [DigitalGov blog](https://digital.gov/2019/05/07/two-complementary-teams-with-same-goal/). Angela Colter is the Acting Executive Director of 18F. Adam Drake and Justin Koufopoulos are Presidential Innovation Fellows.*
 
 We are often asked, just how is the [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/) (PIF) program
-different from [18F](https://18f.gsa.gov/)? Both teams work from
+different from [18F]({{ "/" | url }})? Both teams work from
 within the General Services Administration (GSA) and are part of the
-division called [Technology Transformation Services](https://www.gsa.gov/tts) (TTS). Since the beginning of the two programs, PIF and 18F have collaborated on critical work for the United States. That includes supporting [cancer patients](https://clinicaltrials.gov/), [U.S. marines](https://18f.gsa.gov/2019/03/22/18F-5-anniv-fav-project/), and [scientific researchers](https://www.ncbi.nlm.nih.gov/labs/pubmed/) to name just a few. We have unique strengths. We have found that when we work together, our strengths combine in exciting ways to help government agencies modernize their technology, and better meet the needs of citizens and their missions.
+division called [Technology Transformation Services](https://www.gsa.gov/tts) (TTS). Since the beginning of the two programs, PIF and 18F have collaborated on critical work for the United States. That includes supporting [cancer patients](https://clinicaltrials.gov/), [U.S. marines]({{ "/2019/03/22/18F-5-anniv-fav-project/" | url }}), and [scientific researchers](https://www.ncbi.nlm.nih.gov/labs/pubmed/) to name just a few. We have unique strengths. We have found that when we work together, our strengths combine in exciting ways to help government agencies modernize their technology, and better meet the needs of citizens and their missions.
 
 <figure>
   <img src="{{site.baseurl}}/assets/blog/pif-18f-working-together/angela-presenting-pifs.png" alt="A photo of Acting Executive Director of 18F, Angela
@@ -94,4 +94,4 @@ Services at GSA.
 
 PIF and 18F are working together to help agencies become more effective
 at meeting the needs of citizens. For more information on how we can
-support you and your agency see [pif.gov](https://presidentialinnovationfellows.gov/) and [18f.gsa.gov](https://18f.gsa.gov/).
+support you and your agency see [pif.gov](https://presidentialinnovationfellows.gov/) and [18f.gsa.gov]({{ "/" | url }}).

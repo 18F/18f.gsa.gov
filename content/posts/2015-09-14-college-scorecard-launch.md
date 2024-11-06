@@ -37,7 +37,7 @@ College search resources like [ScholarMatch](http://scholarmatcher.scholarmatch.
 {% image "assets/blog/college-scorecard/college-scorecard-1.jpg" "A team of people look at a demo of College Scorecard" %}
 *One of our many demos.*
 
-This was a truly collaborative team effort: thank you to the [Department of Education](http://www.ed.gov/), White House Domestic Policy Council, White House Council of Economic Advisors, Department of Treasury, Office of Management and Budget, [18F](https://18f.gsa.gov/) (at GSA) and the team at the [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service).
+This was a truly collaborative team effort: thank you to the [Department of Education](http://www.ed.gov/), White House Domestic Policy Council, White House Council of Economic Advisors, Department of Treasury, Office of Management and Budget, [18F]({{ "/" | url }}) (at GSA) and the team at the [U.S. Digital Service](https://obamawhitehouse.archives.gov/digital/united-states-digital-service).
 
 **Here are two plays we kept in mind as we went through the process:**
 

@@ -12,7 +12,7 @@ excerpt: "Accessibility is central to our work here at 18F. Read more about our 
 description: "Accessibility is central to our work here at 18F. Read more about our accessibility efforts and how you can get involved."
 ---
 
-Last week, we published [this post](https://18f.gsa.gov/2015/03/24/making-twitter-images-more-accessible/) about the accessibility of images on Twitter. For those of you who haven’t read it, the general gist is as follows: Twitter doesn’t allow alt-tags for images, which makes it difficult for some Twitter users — those with visual impairments and those with slow internet connections — to experience the images as intended.
+Last week, we published [this post]({{ "/2015/03/24/making-twitter-images-more-accessible/" | url }}) about the accessibility of images on Twitter. For those of you who haven’t read it, the general gist is as follows: Twitter doesn’t allow alt-tags for images, which makes it difficult for some Twitter users — those with visual impairments and those with slow internet connections — to experience the images as intended.
 
 To increase the accessibility of the images we Tweet, [@18F](https://twitter.com/18f) has started replying to photo-centric Tweets with *a description of what’s in the photo*. Noting this, our followers offered additional suggestions about how we can increase the accessibility of our Tweets. We’d like to thank all of our followers who offered us suggestions, and encourage you to share suggestions, if you have them.
 

@@ -54,7 +54,7 @@ Other teams must request changes using help desk tickets, which:
 ## Enter: The DNS repository
 
 TTS applied the principles of infrastructure as code and [open by
-default](https://18f.gsa.gov/open-source-policy/) to DNS and placed all
+default]({{ "/open-source-policy/" | url }}) to DNS and placed all
 of our records in [a GitHub repository](https://github.com/18F/dns).
 [The records
 themselves](https://github.com/18F/dns/tree/master/terraform) are

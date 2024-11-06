@@ -175,7 +175,7 @@ We certainly haven't resolved all the usability issues, so please [share your fe
 
 ## Living up to our principles
 
-**Open source:** We're an [open source team](https://github.com/18F/open-source-policy), and built the dashboard in the open [from day 1](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/).
+**Open source:** We're an [open source team](https://github.com/18F/open-source-policy), and built the dashboard in the open [from day 1]({{ "/2014/07/31/working-in-public-from-day-1/" | url }}).
 
 * [github.com/GSA/analytics.usa.gov](https://github.com/GSA/analytics.usa.gov) - The dashboard itself.
 * [github.com/18F/analytics-reporter](https://github.com/18F/analytics-reporter) - The data reporting system.
@@ -186,6 +186,6 @@ All of our work is released under a [CC0 public domain dedication](https://githu
 
 Your [ideas and bug reports](https://github.com/GSA/analytics.usa.gov/issues) will be very helpful in figuring out what to do next.
 
-**Secure connections:** 18F uses HTTPS for [everything we do](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/), including analytics dashboards.
+**Secure connections:** 18F uses HTTPS for [everything we do]({{ "/2014/11/13/why-we-use-https-in-every-gov-website-we-make/" | url }}), including analytics dashboards.
 
 In the meantime, we hope this dashboard is useful for citizens and for the federal government, and we hope to [see you on GitHub](https://github.com/GSA/analytics.usa.gov).

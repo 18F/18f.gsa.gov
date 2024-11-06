@@ -46,7 +46,7 @@ room or even the same time zone.
   better virtually.”<br>
   <br>Individual project teams decide when it’s best for distributed team
   members to meet in person. Our teams working on the [Federal Front
-  Door](https://18f.gsa.gov/2016/02/29/informing-the-future-of-the-federal-front-door/)
+  Door]({{ "/2016/02/29/informing-the-future-of-the-federal-front-door/" | url }})
   and the Diversity and Inclusion Working Group did extensive research
   in different cities as well as remotely. When it came time to analyse
   and synthesize the findings, each team intentionally met in person for

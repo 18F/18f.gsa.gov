@@ -15,7 +15,7 @@ excerpt: "In the final part of our series on technical debt, we talk about ways 
 
 Up until this point, we’ve talked mostly about [how to deal with
 technical debt after the
-fact](https://18f.gsa.gov/2015/10/05/managing-technical-debt/). So what
+fact]({{ "/2015/10/05/managing-technical-debt/" | url }}). So what
 can you do to minimize accumulating bad or unnecessary technical debt in
 the first place?
 
@@ -29,7 +29,7 @@ integration](https://en.wikipedia.org/wiki/Continuous_integration),
 [collective code
 ownership](https://en.wikipedia.org/wiki/Extreme_programming_practices#Collective_code_ownership),
 [definition of
-done](https://18f.gsa.gov/2015/04/24/agile-developments-secret-weapon-transparency/),
+done]({{ "/2015/04/24/agile-developments-secret-weapon-transparency/" | url }}),
 work-in-progress limits) for creating high-quality software and avoiding
 technical debt from the start.
 
@@ -78,7 +78,7 @@ duplications). Include these tools as part of your continuous
 integration strategy. Additionally, adopt pair-working practices such as
 [peer code review](https://en.wikipedia.org/wiki/Software_peer_review)
 and [pair
-programming](https://18f.gsa.gov/2015/05/04/pair-programming-why-two-heads-are-better-than-one/)
+programming]({{ "/2015/05/04/pair-programming-why-two-heads-are-better-than-one/" | url }})
 as daily rituals. Finding and fixing problems immediately is the best
 insurance against the compounding effects of unpaid technical debt.
 
@@ -107,13 +107,13 @@ between developers and management.
 This post concludes our four-part series on technical debt. Here’s a
 quick recap of everything we covered across the series:
 
-In the [first post](https://18f.gsa.gov/2015/08/07/technical-debt-1/),
+In the [first post]({{ "/2015/08/07/technical-debt-1/" | url }}),
 we explained the dangers of technical debt and why it’s important to
 understand. In the [second
-post](https://18f.gsa.gov/2015/09/04/what-is-technical-debt/), we gave
+post]({{ "/2015/09/04/what-is-technical-debt/" | url }}), we gave
 you a description of what technical debt is and why it’s not all bad. In
 the [third
-post](https://18f.gsa.gov/2015/10/05/managing-technical-debt/), we gave
+post]({{ "/2015/10/05/managing-technical-debt/" | url }}), we gave
 you concrete steps for managing technical debt. And, in the last post
 (this one), we provided you with advice on how to prevent or mitigate
 technical debt accumulating in the first place.

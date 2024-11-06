@@ -10,7 +10,7 @@ image: /assets/img/team/mark-hopson.jpg
 hero: false
 ---
 *Since mid-2016 we've [profiled
-members](https://18f.gsa.gov/tags/staff-profiles/) across the
+members]({{ "/tags/staff-profiles/" | url }}) across the
 Technology Transformation Service (TTS) team. Mark Hopson joined 18F last January after working as a Contracting Officer at the Census
 Bureau. He works for the TTS Office of Acquisitions on Agile BPA call
 orders, procurement strategy, and other projects that are helping

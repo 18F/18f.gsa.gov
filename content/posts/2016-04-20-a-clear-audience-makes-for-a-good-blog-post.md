@@ -72,7 +72,7 @@ process](https://handbook.18f.gov/blogging/#blog-management) and
 to [see the other tips we give
 authors](https://handbook.18f.gov/blogging/#writing-a-great-post).
 We’re sharing this guide because our [open source
-policy](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/)
+policy]({{ "/2014/07/29/18f-an-open-source-team/" | url }})
 extends beyond our code, and because we think our editorial process can
 benefit from community input. We welcome [issues and pull
 requests](https://github.com/18F/blogging-guide/issues) to the guide,

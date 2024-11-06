@@ -10,7 +10,7 @@ excerpt: "The weekly ship has been a staple of 18F projects for years. It is a w
 
 {% image "assets/blog/ship.jpeg" "Photo of a ship at sunset" %}
 
-At 18F and its parent office Technology Transformation Services (TTS), we are committed to [working in the open](https://18f.gsa.gov/open-source-policy/). One way we do that with agency partners is through our "weekly ship" – a weekly memo that captures what we did that week, what’s upcoming, and how much we’ve spent on the project so far. We send weekly ships throughout the duration of a project. The weekly ship is a way we engage with our partners, but it’s also an internal ritual that promotes transparency by giving our co-workers project insight. At a glance, both our partners and anyone in TTS can understand the status of a project, the state of its funding, and where the project is heading.
+At 18F and its parent office Technology Transformation Services (TTS), we are committed to [working in the open]({{ "/open-source-policy/" | url }}). One way we do that with agency partners is through our "weekly ship" – a weekly memo that captures what we did that week, what’s upcoming, and how much we’ve spent on the project so far. We send weekly ships throughout the duration of a project. The weekly ship is a way we engage with our partners, but it’s also an internal ritual that promotes transparency by giving our co-workers project insight. At a glance, both our partners and anyone in TTS can understand the status of a project, the state of its funding, and where the project is heading.
 
 In this post, we will cover what a weekly ship entails, how to write a weekly ship that partners and stakeholders actually want to read, and what makes them valuable internal artifacts.
 

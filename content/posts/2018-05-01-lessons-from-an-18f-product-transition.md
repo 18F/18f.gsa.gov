@@ -26,7 +26,7 @@ project served as an early model for 18F’s style of collaboratively
 building digital products
 [*with not for*](https://medium.com/organizer-sandbox/building-technology-with-not-for-communities-an-engagement-guide-for-civic-tech-b8880982e65a)
 our partner agencies and their constituents, and [we’ve been blogging
-about the site](https://18f.gsa.gov/tags/useiti/) and our partnership
+about the site]({{ "/tags/useiti/" | url }}) and our partnership
 with ONRR since the work began.
 
 Now fast-forward to today: the ONRR team is fully in the driver’s seat

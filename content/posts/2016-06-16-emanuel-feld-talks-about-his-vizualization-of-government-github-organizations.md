@@ -26,7 +26,7 @@ code from other government organizations. This information is
 particularly interesting to those of us at 18F who think about how to
 organize our projects so that they can easily be found and used by other
 organizations. (Related: my colleague Britta Gustafson’s [great
-piece](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/)
+piece]({{ "/2016/04/06/take-our-code-18f-projects-you-can-reuse/" | url }})
 on 34 reusable projects from 18F.)
 
 We reached out to Emanuel to learn more about why he analyzed government GitHub repos and what he learned.
@@ -97,7 +97,7 @@ known, it has over 400 repositories on GitHub and produces new work
 daily. It can be hard to keep up if you're not actively paying
 attention. Blog posts like Britta Gustafson's "[Take our code: 34
 reusable projects from
-18F](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/)"
+18F]({{ "/2016/04/06/take-our-code-18f-projects-you-can-reuse/" | url }})"
 are a helpful start. I appreciate how it presents completed work as
 products.
 

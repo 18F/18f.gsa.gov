@@ -24,7 +24,7 @@ We recently sat down with developer Kaitlin Devine and asked her a few
 questions about 18F and government procurement. Not familiar with the term
 procurement? It basically means buying stuff. A self-described
 “procurement nerd,” Kaitlin has been working on a project to make the
-procurement process a lot more efficient within GSA. It’s called [Discovery](https://discovery.gsa.gov/) and [launched in March 2015](https://18f.gsa.gov/2015/03/04/annoucing-oasis-discovery-making-market-research-easier/).
+procurement process a lot more efficient within GSA. It’s called [Discovery](https://discovery.gsa.gov/) and [launched in March 2015]({{ "/2015/03/04/annoucing-oasis-discovery-making-market-research-easier/" | url }}).
 
 **What do you do at 18F and why did you want to work here?**
 

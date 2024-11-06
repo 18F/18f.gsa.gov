@@ -54,7 +54,7 @@ We arrived at ours after a number of conversations with our colleagues across TT
 
 ## Set clear goals
 
-Once we had a role description in hand, Ben and I started thinking more critically about the kind of community we wanted to build. This wasn’t about basics like “encourage people to talk about design research,” but specifics like creating spaces for [reflective research practice](https://18f.gsa.gov/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/)
+Once we had a role description in hand, Ben and I started thinking more critically about the kind of community we wanted to build. This wasn’t about basics like “encourage people to talk about design research,” but specifics like creating spaces for [reflective research practice]({{ "/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/" | url }})
 and helping people feel comfortable sharing their [research plans](https://github.com/18F/ux-guide/blob/master/_pages/resources/research-plan.md) in progress.
 
 Ben and I drafted a set of [2019 goals](https://github.com/18F/g-research/wiki/2019-Goals) and shared them in Slack for asynchronous input. Once the guild agreed on goals, a number of ideas started bubbling up about how we might meet those goals, including a suggestion box, a speaker series, and more.

@@ -19,7 +19,7 @@ short-term compromises to its code or design quality, we’re making the
 product more difficult for someone else to continue to develop, test,
 and maintain in the future. This is the concept of technical debt
 (explained more in the [first part of this
-series](https://18f.gsa.gov/2015/08/07/technical-debt-1/)), which is
+series]({{ "/2015/08/07/technical-debt-1/" | url }})), which is
 similar to financial debt. For example, the extra effort required to
 finish our incomplete work represents the principal portion of the debt.
 And the extra time it takes to work with our unwieldy code or design,
@@ -116,4 +116,4 @@ consequences](http://www.infoq.com/articles/managing-technical-debt)
 -   **Developers** have to deal with the bad work of other developers, which [may cause turnover](http://www.industriallogic.com/blog/technical-debt-considered/)
 
 Now that you understand what technical debt is, we’ll discuss [how to
-manage it](https://18f.gsa.gov/2015/10/05/managing-technical-debt/) in our next post.
+manage it]({{ "/2015/10/05/managing-technical-debt/" | url }}) in our next post.

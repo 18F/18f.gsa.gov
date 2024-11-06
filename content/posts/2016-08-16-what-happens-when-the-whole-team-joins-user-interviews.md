@@ -15,7 +15,7 @@ scrubbed in on the discovery phase."
 image: /assets/blog/calc-announcement/calc_homepage_2016.jpg
 hero: false
 ---
-The [CALC](https://18f.gsa.gov/2015/05/12/announcing-the-calc-tool/) team is an agile team of four -- six if you count the
+The [CALC]({{ "/2015/05/12/announcing-the-calc-tool/" | url }}) team is an agile team of four -- six if you count the
 Scrummaster and the Product Owner -- building a simple means to load
 price data into the original CALC tool. They’re an Agile team, which
 means everybody pitches in on everything to some degree, and here, in

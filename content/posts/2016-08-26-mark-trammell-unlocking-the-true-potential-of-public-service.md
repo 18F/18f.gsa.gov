@@ -48,7 +48,7 @@ For my entire career, I've gone in and out of public service. I wanted to be a p
 
 **MK: What have you worked on so far?**
 
-**MT:** I’m working on a data capture tool for the Contract Awarded Labor Category tool (CALC), which allows contracting officers to conduct market research and price analysis for professional labor categories. 18F [launched the tool](https://18f.gsa.gov/2015/05/12/announcing-the-calc-tool/) in 2015.
+**MT:** I’m working on a data capture tool for the Contract Awarded Labor Category tool (CALC), which allows contracting officers to conduct market research and price analysis for professional labor categories. 18F [launched the tool]({{ "/2015/05/12/announcing-the-calc-tool/" | url }}) in 2015.
 
 We’re now working on getting more data into CALC. How can you get the broader set of information about how much the federal government is paying for services into a tool that everyone can use?
 

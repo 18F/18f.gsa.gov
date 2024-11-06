@@ -14,7 +14,7 @@ description: "We know good content when we see it, and we’re frustrated when w
 image: /assets/blog/content-testing/content-graph.jpg
 ---
 
-*Emileigh is a content designer at [18F](https://18f.gsa.gov), and Christine is
+*Emileigh is a content designer at [18F]({{ "/" | url }}), and Christine is
 a content strategist who works with the Government Digital Service (GDS)
 in the UK. They met for the first time on a sweltering summer day in
 D.C. A quick cup of (iced) coffee turned into a months-long,

@@ -29,7 +29,7 @@ report of the White House's 90-day Task Force to Protect Students from
 Sexual
 Assault](https://obamawhitehouse.archives.gov/photos-and-video/video/2014/04/29/vice-president-biden-speaks-preventing-campus-sexual-assault),
 announced the launch of [NotAlone.gov](https://www.notalone.gov/), a
-website built by [18F](https://18f.gsa.gov/) and the [Presidential
+website built by [18F]({{ "/" | url }}) and the [Presidential
 Innovation Fellows](https://obamawhitehouse.archives.gov/innovationfellows).
 
 \* \* \*
@@ -67,7 +67,7 @@ country who have lived through the need for these resources.
 The task force came to us at the end of March, and asked us to deliver a
 site before the end of April. Notwithstanding the tight deadline, we did
 [what we always
-do](https://18f.gsa.gov/18f/team/culture/2014/03/19/hello-world-we-are-18f/):
+do]({{ "/18f/team/culture/2014/03/19/hello-world-we-are-18f/" | url }}):
 begin by [learning what our primary users were
 seeking](https://en.wikipedia.org/wiki/User-centered_design). Mollie led
 a design thinking workshop with student advocates and survivors, asking

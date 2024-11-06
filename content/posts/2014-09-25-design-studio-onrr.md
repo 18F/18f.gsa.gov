@@ -77,6 +77,6 @@ _Second round of sketches producing some clear winners!_
 
 Exhausted, but excited, the group walked away at the end of the session with clear direction for designs that we can build and then test with real users. Work on this project has just begun, and user-centered design requires more than theorizing. It requires continual testing of our design decisions and assumptions to ensure the needs of users are being met.  
 
-18F will also continue to work on this project [in the open](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) and [in public](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/). That means quickly moving beyond designing for the public to designing with the public.
+18F will also continue to work on this project [in the open]({{ "/2014/07/29/18f-an-open-source-team/" | url }}) and [in public]({{ "/2014/07/31/working-in-public-from-day-1/" | url }}). That means quickly moving beyond designing for the public to designing with the public.
 
 We’re interested in finding out ways to work with you that go [beyond the software code](https://github.com/18f) to how the things we’re building actually work. Look out for upcoming opportunities to collaborate! To stay up to date on our work on this project and others, [follow us on Twitter](https://twitter.com/18F).

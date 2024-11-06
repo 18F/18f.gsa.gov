@@ -18,7 +18,7 @@ image: /assets/blog/openfec-api/openfec-banner.jpg
 image_alt: "OpenFEC: Explore campaign finance data"
 ---
 
-We’re so glad that people have been so excited about the [Federal Election Commission’s (FEC) first API](https://18f.gsa.gov/2015/07/08/openfec-api/). Now, there are millions of more records for you to explore! We’re looking forward to seeing what the public will build with its data.
+We’re so glad that people have been so excited about the [Federal Election Commission’s (FEC) first API]({{ "/2015/07/08/openfec-api/" | url }}). Now, there are millions of more records for you to explore! We’re looking forward to seeing what the public will build with its data.
 
 The [OpenFEC API](https://api.open.fec.gov/developers) added a filings endpoint as well as itemized receipt and disbursement data. This is the first major update to the API, but the OpenFEC API is part of a larger project that will have continual improvements and additions. **The records we’re adding today are the meat and potatoes of campaign finance. You can see in detail where a campaign’s money comes from and where they spend their money.**
 
@@ -26,7 +26,7 @@ As my fellow campaign finance geeks are well aware, the July quarterly deadline 
 
 If you haven’t seen it yet, Bob Lannon of the Sunlight Foundation wrote a [great explainer](https://sunlightfoundation.com/blog/2015/07/08/openfec-makes-campaign-finance-data-more-accessible-with-new-api-heres-how-to-get-started/) about how to use the API. He even published an [iPython notebook](https://github.com/boblannon/blogpost_fec-api-howto/blob/master/fec_api.ipynb) so you can dig into his code interactively.
 
-Keep in mind that the API is still [in beta](https://18f.gsa.gov/dashboard/stages/#beta) and not battle tested, so continue to use the data at the [original FEC site](http://www.fec.gov/pindex.shtml) for trusted figures. Please file [bug reports](https://github.com/18F/openFEC/issues) if you find something that’s incorrect.
+Keep in mind that the API is still [in beta]({{ "/dashboard/stages/#beta" | url }}) and not battle tested, so continue to use the data at the [original FEC site](http://www.fec.gov/pindex.shtml) for trusted figures. Please file [bug reports](https://github.com/18F/openFEC/issues) if you find something that’s incorrect.
 
 Here are some tips you might like to know before you [grab an API key](https://api.data.gov/signup/) and check out the new features in the [interactive documentation](https://api.open.fec.gov/developers).
 

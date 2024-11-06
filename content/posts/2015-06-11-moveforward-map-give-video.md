@@ -31,7 +31,7 @@ and coordinating with mapping teams on the ground in Kathmandu.
 In the first 48 hours, a team of more than 2,000 volunteers mapped more than
 13,000 miles of road and 110,000 buildings.
 
-At a recent [moveForward(100); event](https://18f.gsa.gov/2015/05/11/moveforward/), Mikel Maron, a
+At a recent [moveForward(100); event]({{ "/2015/05/11/moveforward/" | url }}), Mikel Maron, a
 Presidential Innovation Fellow at the State Department, told the story
 of how MapGive worked with other mappers to help responders during the
 earthquake. Watch his presentation above.

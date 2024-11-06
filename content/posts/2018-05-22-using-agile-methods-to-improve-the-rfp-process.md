@@ -43,7 +43,7 @@ way that the procurement process works, particularly for vendors that
 may be new to government contracting.
 
 In our work with the State of Alaska, we’ve [embraced transparency and
-openness](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/)
+openness]({{ "/2017/09/12/how-alaska-is-using-transparency/" | url }})
 in the development of RFPs and related documents, and leveraged GitHub
 to reach out with and interact with prospective vendors. This approach
 has also allowed us to iterate on the RFP documents themselves, by first

@@ -20,7 +20,7 @@ to solve small technical problems using open source code. The code that
 powers both platforms is also open source.
 
 Often when other governments [reuse or adapt one of our
-projects](https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/),
+projects]({{ "/2016/01/06/tips-for-adapting-analytics-usa-gov/" | url }}),
 we set up a call with them to hear their story. We recently talked with
 Singapore’s Government Digital Services team and learned a number of
 interesting things, including their desire to run design auctions, that
@@ -34,7 +34,7 @@ of experimentation. Because 18F works in the open, Singapore was able to
 copy our code, remove pieces they didn’t need, tweak it to fit their
 specific requirements, and quickly launch their own marketplace. (And
 [talking about the project in the
-open](https://18f.gsa.gov/tags/micro-purchase-platforms/) helped them
+open]({{ "/tags/micro-purchase-platforms/" | url }}) helped them
 discover this even existed.) This greatly reduced the staff time
 required to set up the marketplace and allowed the Singapore team to
 focus on solving problems specific to them instead of resolving the same
@@ -60,11 +60,11 @@ version to see if it’s a worthy investment, and receive support from the
 community as they work.
 
 If you want to get started, here are [34 projects you can
-reuse](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/)
+reuse]({{ "/2016/04/06/take-our-code-18f-projects-you-can-reuse/" | url }})
 (and [seven good
-ones](https://18f.gsa.gov/2016/04/13/7-18f-projects-that-state-and-local-governments-can-reuse/)
+ones]({{ "/2016/04/13/7-18f-projects-that-state-and-local-governments-can-reuse/" | url }})
 for state and local governments), our [open source
-policy](https://18f.gsa.gov/open-source-policy/), and our [guide to
+policy]({{ "/open-source-policy/" | url }}), and our [guide to
 making open source projects](https://pages.18f.gov/open-source-guide/)
 friendly for contributors. Read the [Federal Source Code
 Policy](https://sourcecode.cio.gov/) for more guidance and browse the

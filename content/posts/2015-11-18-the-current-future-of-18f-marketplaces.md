@@ -17,7 +17,7 @@ description: "In August, we announced the Full-stack Development Pool vendors fo
 ---
 
 In August, [we
-announced](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/)
+announced]({{ "/2015/08/28/announcing-the-agile-BPA-awards/" | url }})
 the Full-stack Development Pool vendors for the Agile Delivery Services
 Marketplace. As we continue to work on the alpha version of this
 marketplace, we're beginning to plan out additional "micro-markets" as
@@ -78,7 +78,7 @@ unnecessarily duplicating what’s out there.
 
 Our formula for [engaging industry during the pre-award stage of the
 Agile Delivery Services
-Marketplace](https://18f.gsa.gov/2015/02/12/highlights-from-the-agile-delivery-services-industry-day-events/)
+Marketplace]({{ "/2015/02/12/highlights-from-the-agile-delivery-services-industry-day-events/" | url }})
 was highly effective and useful, for both vendors and the government. We
 made several positive adjustments to our acquisition strategy (for
 example, creating a separate award pool for design companies) based on
@@ -113,7 +113,7 @@ separate contracting activities.
 ## Not just for the federal government
 
 Since [announcing the Agile Delivery Services
-Marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/),
+Marketplace]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }}),
 we’ve received a number of inquiries from state and local governments
 expressing interest in using this marketplace. As 18F has come to learn,
 GSA has a long history of providing acquisition support services to

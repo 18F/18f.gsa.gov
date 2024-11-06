@@ -131,7 +131,7 @@ contractors that prefer to build using cloud platforms.
 ## A few of the improvements we made along the way
 
 We [first announced cloud.gov in May
-2015](https://18f.gsa.gov/2015/05/08/layering-innovation/) after two
+2015]({{ "/2015/05/08/layering-innovation/" | url }}) after two
 months of adapting the open source [Cloud
 Foundry](https://www.cloudfoundry.org/) project for 18F’s needs. Since
 then, we’ve been building cloud.gov with FedRAMP Authorization in mind,
@@ -140,7 +140,7 @@ for the FedRAMP process in March 2016 (the date we engaged our Third
 Party Assessment Organization), and we established FedRAMP Ready status
 in May 2016. [We set an ambitious goal of achieving FedRAMP
 Authorization in six
-months](https://18f.gsa.gov/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/),
+months]({{ "/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/" | url }}),
 using the new [FedRAMP
 Accelerated](https://www.fedramp.gov/participate/fedramp-accelerated-process/)
 process.

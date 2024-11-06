@@ -16,7 +16,7 @@ excerpt: "The Technology Transformation Services has been working with the Fores
 
 _Rebecca and Michael work here at TTS. Aaron Burk is a Senior Project Manager at the Forest Service and the product owner for this project with the Forest Service._
 
-The Technology Transformation Services has been working with the Forest Service in an effort to move their permitting process online. We’ve previously written about how doing this [work in the open can benefit other agencies](https://18f.gsa.gov/2017/03/15/one-agencys-investments-open-source-mean-others-benefit/) with permit systems. In this post, we’ll focus on how taking a step back to check your assumptions can reduce the risk that your project will go off course. 
+The Technology Transformation Services has been working with the Forest Service in an effort to move their permitting process online. We’ve previously written about how doing this [work in the open can benefit other agencies]({{ "/2017/03/15/one-agencys-investments-open-source-mean-others-benefit/" | url }}) with permit systems. In this post, we’ll focus on how taking a step back to check your assumptions can reduce the risk that your project will go off course. 
 
 ## Stepping back
 
@@ -38,4 +38,4 @@ Taking the time to come to a shared vision after conducting our research helped 
 
 Stepping back to look at the big picture on a regular cadence is a healthy part of the product process. As we build and learn, we sometimes need to change direction based on data, which may require a team to align on a new vision and new metrics. It’s easy to get caught up in the day-to-day when you’re on a delivery schedule so making time for this process on a regular basis helps ensure you will reach your project goals and minimize the risk of getting sidetracked.
 
-This is the second post in a series on our engagement with the Forest Service. Be on the lookout for the third post about what a day in the life of an 18F product owner is like and read the first post [here about why discovery research matters for modular procurement](https://18f.gsa.gov/2017/06/22/why-discovery-research-matters-for-modular-procurement/).
+This is the second post in a series on our engagement with the Forest Service. Be on the lookout for the third post about what a day in the life of an 18F product owner is like and read the first post [here about why discovery research matters for modular procurement]({{ "/2017/06/22/why-discovery-research-matters-for-modular-procurement/" | url }}).

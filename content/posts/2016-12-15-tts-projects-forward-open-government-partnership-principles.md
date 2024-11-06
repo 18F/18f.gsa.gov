@@ -47,10 +47,10 @@ through a number of projects:
 
 Beyond these specific projects, 18F has also been a champion for
 [working in the
-open](https://18f.gsa.gov/2015/12/07/what-exactly-do-we-even-do-all-day/),
+open]({{ "/2015/12/07/what-exactly-do-we-even-do-all-day/" | url }}),
 [open data](https://github.com/18f/api-standards) that’s easily reused
 by the public, and building projects that are [easily adapted and
-reused](https://18f.gsa.gov/2016/04/06/take-our-code-18f-projects-you-can-reuse/)
+reused]({{ "/2016/04/06/take-our-code-18f-projects-you-can-reuse/" | url }})
 by the public and other governments. For example,
 [analytics.usa.gov](https://analytics.usa.gov/) both provides the
 public with increased transparency into traffic to federal websites and

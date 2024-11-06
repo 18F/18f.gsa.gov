@@ -22,7 +22,7 @@ At 18F, we envision a country whose government consistently offers digital servi
 
 Given the public's need to have access to services in Spanish, 18F seeks to attract talent who can and wants to continue building an accessible government for the millions of Spanish-speakers in the United States.
 
-We know that potential bilingual candidates interested in 18F have many questions. This is why we published [our first Spanish post](https://18f.gsa.gov/2021/09/21/a_day_in_the_life_-_ingeniero_en_18f/) to share what a working day is like in our organization from one of our bilingual engineers, Edwin Torres.
+We know that potential bilingual candidates interested in 18F have many questions. This is why we published [our first Spanish post]({{ "/2021/09/21/a_day_in_the_life_-_ingeniero_en_18f/" | url }}) to share what a working day is like in our organization from one of our bilingual engineers, Edwin Torres.
 
 ## Welcome
 
@@ -42,7 +42,7 @@ I don't have meetings this morning, so I'll put on music and work on solving som
 
 This type of project where we create prototypes occurs after a user research phase has been completed, where an interdisciplinary group identifies needs and creates a roadmap to meet them.
 
-The technology we use in each project depends on the circumstances of our partners. However, we always seek to integrate the use of open source technology and follow [our guides with the principles and standards that shape our work.](https://18f.gsa.gov/guides/).
+The technology we use in each project depends on the circumstances of our partners. However, we always seek to integrate the use of open source technology and follow [our guides with the principles and standards that shape our work.]({{ "/guides/" | url }}).
 
 ## Daily stand-up meeting
 
@@ -68,4 +68,4 @@ That is where I focus my efforts within 18F. I also think that part of improving
 
 ## Get Started
 
-Interested in joining [our team](https://18f.gsa.gov/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/)? Check out open positions and how to apply [on the TTS join page](https://join.tts.gsa.gov/).
+Interested in joining [our team]({{ "/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/" | url }})? Check out open positions and how to apply [on the TTS join page](https://join.tts.gsa.gov/).

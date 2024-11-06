@@ -56,8 +56,8 @@ Keep in mind, at this point, not a single sentence has been written in a word pr
 
 Writing this way allows us to collectively revise our work. After everyone has had a chance to voice their opinion, someone volunteers — or is encouraged — to write a draft of the post, incorporating the thoughts from the GitHub issue.
 
-The draft is also open to the entire 18F team. Feedback is once again shared, and the post is then deployed from GitHub. (We wrote a [detailed tutorial](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/) on how we use GitHub and the terminal to write blog posts, if you’d like to know more.) We also often open up another issue on the GitHub repository for our blog, for feedback from readers.
+The draft is also open to the entire 18F team. Feedback is once again shared, and the post is then deployed from GitHub. (We wrote a [detailed tutorial]({{ "/2015/03/03/how-to-use-github-and-the-terminal-a-guide/" | url }}) on how we use GitHub and the terminal to write blog posts, if you’d like to know more.) We also often open up another issue on the GitHub repository for our blog, for feedback from readers.
 
 ## Read Our README
 
-Our README in our private blog-drafts repo has [the following instructions](https://18f.gsa.gov/hub/blogging/) to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in the [same repo as our site.](https://github.com/18F/18f.gsa.gov/)
+Our README in our private blog-drafts repo has [the following instructions]({{ "/hub/blogging/" | url }}) to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in the [same repo as our site.](https://github.com/18F/18f.gsa.gov/)

@@ -13,7 +13,7 @@ excerpt: "Rather than wait for knowledge to naturally diffuse through team chang
 description: "Rather than wait for knowledge to naturally diffuse through team changes, we try to kick-start the process through shared interest groups, tech talks, and documents highlighting some of the more interesting design decisions our developers make. Today, we'll focus on some of the core architectural philosophiesbehind the Micro-purchase project."
 ---
 Though we pride ourselves on our [transparent and remote-friendly
-workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/),
+workplace]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }}),
 our project focus tends to inadvertently silo engineers from each other.
 Rather than wait for knowledge to naturally diffuse through team
 changes, we try to kick-start this transfer through shared interest
@@ -23,7 +23,7 @@ focus on some of the core architectural philosophies behind the
 Micro-purchase project.
 
 Contracting for software is often an arduous process; we
-[wanted](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/)
+[wanted]({{ "/2015/10/13/open-source-micropurchasing/" | url }})
 to make this easier. More specifically, we wanted to create an online
 marketplace for contributors to 18F open source projects. Though it’s
 passed through many forms (including a proof-of-concept Google form, a

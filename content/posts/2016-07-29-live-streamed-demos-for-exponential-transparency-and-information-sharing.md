@@ -12,7 +12,7 @@ file afterwards at the same URL."
 description: "This spring, the eRegulations Notice & Comment team began building out a new feature set for the platform. To demo the work as we iterated on it, we faced a challenge of finding a way to do connect frequently with the dozens of interested parties. We settled on live streaming our demos through a video website that is accessible by most government agencies, doesn’t require extraneous plugins to operate, allows you to easily stream, but also automatically creates a viewable file afterwards at the same URL."
 image: /assets/blog/eregs/demo-video.jpg
 ---
-This spring, the [eRegulations Notice & Comment team](https://18f.gsa.gov/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/) began building out a new feature set for the platform — adding the ability for agencies with proposed regulations to show the public more precisely the changes being proposed and allow agencies to receive more granular, contextual, and better-organized comments.
+This spring, the [eRegulations Notice & Comment team]({{ "/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/" | url }}) began building out a new feature set for the platform — adding the ability for agencies with proposed regulations to show the public more precisely the changes being proposed and allow agencies to receive more granular, contextual, and better-organized comments.
 
 One of the challenges we wrestled with was how to share our work out frequently and openly with the dozens of interested parties, while not making that a blocker in focusing on our work of doing many demos for the many different parties interested in and informing our work.
 

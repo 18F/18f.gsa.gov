@@ -22,7 +22,7 @@ they’ve learned so far."
 ---
 
 In January, 18F Consulting
-[announced](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+[announced]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }})
 a new kind of process for vendors to compete for software acquisition
 contracts. The Agile Blanket Purchase Agreement (BPA) process would be
 open to existing vendors on Schedule 70, and require vendors to submit a
@@ -32,7 +32,7 @@ in a publicly available git repository.
 A number of decision factors led to the [request for
 information](https://www.fbo.gov/index?s=opportunity&mode=form&tab=core&id=e0807fc8a69115f0e352f6f0c135697a)
 (RFI) and then the [request for
-quotation](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) (RFQ).
+quotation]({{ "/2015/06/15/agile-bpa-is-here/" | url }}) (RFQ).
 Over the last few months, the demand for 18F to build products for
 agencies has been explosive. To meet this demand, we realized that we
 needed help from outside vendors who work the way we do — using

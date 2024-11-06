@@ -54,7 +54,7 @@ continued flexibility down the road as we test out what does and doesn’t
 work.
 
 That said, the [process we
-used](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/)
+used]({{ "/2015/08/28/announcing-the-agile-BPA-awards/" | url }})
 to create our Agile BPA was unique. We wanted prospective vendors to
 demonstrate their ability to use agile practices, so we asked them to
 publicly demonstrate their commitment to user-centered design and
@@ -95,7 +95,7 @@ differentiate between the strengths and weaknesses of vendors.
 
 In our procurements, we’ve pushed to use shorter periods of performance
 and [established best
-practices](https://18f.gsa.gov/partnership-principles/) to quickly
+practices]({{ "/partnership-principles/" | url }}) to quickly
 deliver phases of a larger project. In order to support that quick
 turnaround time, we’ve taken advantage of automated tools and public
 infrastructure to reduce the burden on vendors while providing greater

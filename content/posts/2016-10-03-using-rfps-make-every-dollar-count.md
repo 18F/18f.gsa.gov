@@ -24,7 +24,7 @@ total cost of 18F’s effort was less than $1,000.
 18F emphasizes the importance of human-centered design, agile
 development, and modular contracting in its work with agency partners.
 We also know that you can get a surprising amount of value from [every
-single dollar](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/).
+single dollar]({{ "/2015/11/06/micro-purchase-lessons/" | url }}).
 
 Towards that end, we also approach agency clients with as much empathy
 as possible realizing that they’re dedicated, highly-skilled civil
@@ -48,7 +48,7 @@ performance work statements (PWS) like Statement of Objectives
 
 -   Ensuring that any code the government buys using taxpayer dollars is
 open source per both [18F’s own
-policies](https://18f.gsa.gov/2015/01/16/open-source-for-good-government/)
+policies]({{ "/2015/01/16/open-source-for-good-government/" | url }})
 and the Office of Management and Budget’s [recent
 memo](https://sourcecode.cio.gov/)
 

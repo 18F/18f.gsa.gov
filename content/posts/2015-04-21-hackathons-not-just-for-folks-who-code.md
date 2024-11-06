@@ -13,7 +13,7 @@ tags:
 excerpt: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 description: "A few members of the 18F team recently published an excellent guide on welcoming new coders to civic hackathons. In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons."
 ---
-A few weeks back, my colleague [Sarah Allen](https://twitter.com/ultrasaurus) asked me to volunteer at [*GovTechHack*](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/), a hackathon in promotion of civic good. Stoked on lending a hand, I agreed, but I harbored secret concerns about the extent to which I’d be able to contribute. I’m not, after all, a developer.
+A few weeks back, my colleague [Sarah Allen](https://twitter.com/ultrasaurus) asked me to volunteer at [*GovTechHack*]({{ "/2015/04/02/govtechhack-hacking-for-civic-improvement/" | url }}), a hackathon in promotion of civic good. Stoked on lending a hand, I agreed, but I harbored secret concerns about the extent to which I’d be able to contribute. I’m not, after all, a developer.
 
 Confession time: Prior to this event, I held the unfortunate prejudice that less-than-techy folk like myself couldn’t make a substantial contribution at a hackathon. Fortunately, I was wrong.
 
@@ -21,7 +21,7 @@ When organized conscientiously, **hackathons aren’t just for folks who code** 
 
 ## Getting started
 
-My first night at the two-day event, I demoed [Midas](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) and [Open Opportunities](https://midas.18f.us/) to interested parties. (For context, Midas is a crowdsourcing platform that fosters cross-team and cross-agency collaboration worldwide, and Open Opportunities is a task-based network that allows federal employees to collaborate across agencies.) Having written content for both projects, I’m familiar with the platforms and can walk potential users through the basic task flows. Earlier that day, Sarah had reassured me that people wouldn’t ask me technical questions. “They’ll mostly want to see the platforms and how they work,” she said.
+My first night at the two-day event, I demoed [Midas]({{ "/2014/07/16/midas-a-marketplace-for-innovation-in-government/" | url }}) and [Open Opportunities](https://midas.18f.us/) to interested parties. (For context, Midas is a crowdsourcing platform that fosters cross-team and cross-agency collaboration worldwide, and Open Opportunities is a task-based network that allows federal employees to collaborate across agencies.) Having written content for both projects, I’m familiar with the platforms and can walk potential users through the basic task flows. Earlier that day, Sarah had reassured me that people wouldn’t ask me technical questions. “They’ll mostly want to see the platforms and how they work,” she said.
 
 Most people were interested in the projects in a high-level sense, but some of them were curious about topics I couldn’t speak to — what sorts of development needs the project had, for instance. Unable to answer these questions with the precision I’d prefer, I referred the inquirers to folks who could answer. Still, my confidence was rattled.
 
@@ -45,7 +45,7 @@ Perhaps my favorite part of this anecdote is that Brad’s and my experience is 
 
 The benefits of such inclusivity are mighty. Yes, your featured projects will benefit from fuller-spectrum development, speeding production. This inclusivity also strengthens the symbolic bond between developers and folks in other areas, stressing the interconnectedness of all elements of a project, and growing stronger civic hacking communities. It follows that a person who feels welcomed to and included in an event would be far likelier to invite their talented friends to the next such event.
 
-A few members of the [18F team](https://18f.gsa.gov/) recently published an excellent guide on [welcoming new coders to civic hackathons](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/). In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons. We’d like to thank Leah Bannon, a product lead at 18F, for generating this list of strategies.
+A few members of the [18F team]({{ "/" | url }}) recently published an excellent guide on [welcoming new coders to civic hackathons]({{ "/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/" | url }}). In the same vein, we’d like to offer a list of strategies for including non-technical folks in your hackathons. We’d like to thank Leah Bannon, a product lead at 18F, for generating this list of strategies.
 
 The following are our tips on including non-coders to your next hackathon.
 

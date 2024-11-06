@@ -43,9 +43,9 @@ Agile requires a mindset shift—and it takes continuous commitment at all
 levels to reap the maximum benefits Agile offers. Here are a few
 suggestions for ways to get back on track:
 
--   [Is your project using agilefall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/)
--   [Getting stakeholder buy-in for agile development](https://18f.gsa.gov/2017/12/14/getting-stakeholder-buy-in-for-agile-development/)
--   [Three steps you can take to reboot agile in your organization](https://18f.gsa.gov/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/)
+-   [Is your project using agilefall]({{ "/2015/12/29/is-your-project-using-agilefall/" | url }})
+-   [Getting stakeholder buy-in for agile development]({{ "/2017/12/14/getting-stakeholder-buy-in-for-agile-development/" | url }})
+-   [Three steps you can take to reboot agile in your organization]({{ "/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/" | url }})
 
 ## You go months without building anything...
 
@@ -57,10 +57,10 @@ suggestions for ways to get back on track:
 We understand. We’ve been there too! Check out our lessons learned and
 how we’ve overcome cultural barriers to agile development practices.
 
--   [So you’re a product owner…](https://18f.gsa.gov/2018/04/17/so-youre-a-product-owner/)
--   [Agile development's secret weapon: Transparency](https://18f.gsa.gov/2015/04/24/agile-developments-secret-weapon-transparency/)
+-   [So you’re a product owner…]({{ "/2018/04/17/so-youre-a-product-owner/" | url }})
+-   [Agile development's secret weapon: Transparency]({{ "/2015/04/24/agile-developments-secret-weapon-transparency/" | url }})
 
--   [Tips on shifting the cultural mindset](https://18f.gsa.gov/2018/06/14/ask-18f-how-to-shift-the-cultural-mindset-of-my-organization/)
+-   [Tips on shifting the cultural mindset]({{ "/2018/06/14/ask-18f-how-to-shift-the-cultural-mindset-of-my-organization/" | url }})
 
 ## Your user research is not focused on users...
 
@@ -74,9 +74,9 @@ Does this sound familiar? Don’t fret! You can get lots of advice on user
 research right here on our blog, or for a quick guide on how to run
 different types of user research activities, head over to the [18F Methods](https://methods.18f.gov/).
 
--   [How to get the best data from user interviews](https://18f.gsa.gov/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/)
--   [Involving the whole team in user research](https://18f.gsa.gov/2016/08/16/what-happens-when-the-whole-team-joins-user-interviews/)
--   [Getting partners and stakeholders on board with research findings](https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/)
+-   [How to get the best data from user interviews]({{ "/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/" | url }})
+-   [Involving the whole team in user research]({{ "/2016/08/16/what-happens-when-the-whole-team-joins-user-interviews/" | url }})
+-   [Getting partners and stakeholders on board with research findings]({{ "/2018/02/06/getting-partners-on-board-with-research-findings/" | url }})
 
 ## You're trying to “do Agile,” instead of *being* agile...
 
@@ -91,9 +91,9 @@ If this sounds like you, you’re not alone. Many organizations struggle
 with how to effectively, yet efficiently incorporate agile ceremonies,
 especially in the beginning.
 
--   [How to run your own 3 sprint agile workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/)
--   [The story of an agile workshop](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/)
--   [Getting DevOps buy-in to facilitate agile](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/)
+-   [How to run your own 3 sprint agile workshop]({{ "/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/" | url }})
+-   [The story of an agile workshop]({{ "/2015/02/11/a-story-of-an-agile-workshop/" | url }})
+-   [Getting DevOps buy-in to facilitate agile]({{ "/2018/01/25/getting-devops-buy-in/" | url }})
 
 ## You’re not producing high-quality, working code...
 
@@ -106,13 +106,13 @@ especially in the beginning.
 Is your team struggling to make the progress it wants to? Take it one
 step at a time.
 
--   [The best way to build big is to start small](https://18f.gsa.gov/2017/01/11/the-best-way-to-build-big-is-to-start-small/)
--   [Prototype early, prototype often](https://18f.gsa.gov/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/)
--   [Win big by going small](https://18f.gsa.gov/2018/03/13/win-big-by-going-small/)
+-   [The best way to build big is to start small]({{ "/2017/01/11/the-best-way-to-build-big-is-to-start-small/" | url }})
+-   [Prototype early, prototype often]({{ "/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/" | url }})
+-   [Win big by going small]({{ "/2018/03/13/win-big-by-going-small/" | url }})
 
 Do any of these sound familiar? If you recognize some of your own
 practices, you’re in good company. Agile is a muscle that needs to be
 exercised regularly, and self-reflection is key to continued success. We
-write about [our experience doing agile work on this blog](https://18f.gsa.gov/tags/agile/), have assembled an introduction
+write about [our experience doing agile work on this blog]({{ "/tags/agile/" | url }}), have assembled an introduction
 to and [overview of agile practices at 18F](https://agile.18f.gov/agile-fundamentals/), and can work with your team to help overcome these challenges. If you’re interested in working with 18F, get in touch at
 [inquiries18f@gsa.gov](mailto:inquries18f@gsa.gov).

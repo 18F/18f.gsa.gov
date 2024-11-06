@@ -72,7 +72,7 @@ public.
 Identify people who represent a project’s primary user group and work
 with a user experience designer to test content with those people.
 ([Here are some methods to get you started testing
-content](https://18f.gsa.gov/2016/04/19/looking-at-the-different-ways-to-test-content/).)
+content]({{ "/2016/04/19/looking-at-the-different-ways-to-test-content/" | url }}).)
 Revise content and test again.
 
 When our team developed the [Every Kid in a Park
@@ -80,7 +80,7 @@ website](https://everykidinapark.gov), early testing helped us identify
 which phrases kids didn’t understand or care about. The content —
 minimal for adults — was daunting for kids. Too many words were
 distracting. [We learned things we never could have
-guessed](https://18f.gsa.gov/2015/09/03/every-kid-in-a-park/). For
+guessed]({{ "/2015/09/03/every-kid-in-a-park/" | url }}). For
 example, during testing, we learned that very few fourth graders know
 what an envelope is.
 

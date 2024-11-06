@@ -54,7 +54,7 @@ employee, or information on the  projects they’re working on. I’ve found
 it much easier to get up to speed simply because the Hub exists.
 ([code](https://github.com/18F/hub),
 [more
-information](https://18f.gsa.gov/2014/12/23/hub/).)
+information]({{ "/2014/12/23/hub/" | url }}).)
 
 ## Midas
 Midas: One of my coworkers describes Midas as a “Kickstarter for people’s time.” And it is. Here’s how Midas works: You come up with a great idea that would help your workplace, but you and your coworkers don’t have the skills to execute it. Rather than bringing in a contractor, you can post your project idea to Midas, where other people within your organization can see it and then work on it, if they’d like.
@@ -77,7 +77,7 @@ together, get to know each other better, and develop skills you don’t
 use as often as you’d like.
  ([code](https://github.com/18F/midas),
 [more
-information](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/).)
+information]({{ "/2014/07/16/midas-a-marketplace-for-innovation-in-government/" | url }}).)
 
 ## Snippets
 
@@ -96,7 +96,7 @@ you can have people fill out Snippets via email or on a blog — the point
 isn’t the tool itself, but getting people to share snapshot summaries of
 what they’re working on. Once again, this tool is invaluable to large
 and remote teams. ([more
-info](https://18f.gsa.gov/2014/12/17/snippets/))
+info]({{ "/2014/12/17/snippets/" | url }}))
 
 What I like about these products is that they make it easier for large
 teams to communicate and collaborate across geographic divides. They
@@ -108,7 +108,7 @@ Joining 18F from outside of government was a big leap for me, but these
 three products helped me get my footing quickly. Want to learn more
 about 18F, the products we’re working on, and opportunities to join the
 team? Visit the
-[dashboard](https://18f.gsa.gov/dashboard/) and
+[dashboard]({{ "/dashboard/" | url }}) and
 learn
-[more](https://18f.gsa.gov/2015/01/21/join-us/).
+[more]({{ "/2015/01/21/join-us/" | url }}).
 

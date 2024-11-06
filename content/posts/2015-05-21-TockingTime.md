@@ -69,7 +69,7 @@ things became clear:
 - We needed to customize the periods in which we record time — such as by fiscal year, weeks with federal holidays, etc.
 - Ideally, we wanted to record enough information that later developments could allow the system to provide real-time information on project costs to our partners.
 - Ideally, we wanted the system to help others inside 18F better understand not only how much our employees are working but also *how* they are spending their time.
-- To minimize our footprint, we want to deploy something on 18F’s new [platform as a service](https://18f.gsa.gov/2015/05/08/layering-innovation/), which would take care of many of our operational and security concerns.
+- To minimize our footprint, we want to deploy something on 18F’s new [platform as a service]({{ "/2015/05/08/layering-innovation/" | url }}), which would take care of many of our operational and security concerns.
 
 We looked at the available products, weighing options that met our
 criteria, and estimating how much time we would spend if we built a
@@ -162,4 +162,4 @@ organizations as well.
 Think Tock may be a good solution for you? Check out the code on
 [GitHub](https://github.com/18F/tock). Would you like to be recording
 your time spent helping make the government awesome in Tock?
-Well...[we’re hiring](https://18f.gsa.gov/2015/02/25/We-Are-Hiring/)!
+Well...[we’re hiring]({{ "/2015/02/25/We-Are-Hiring/" | url }})!

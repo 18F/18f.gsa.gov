@@ -14,7 +14,7 @@ excerpt: "To ensure that agencies could focus on the important work of joining t
 image: /assets/blog/data-act-implementation/logo.png
 hero: false
 ---
-Last week we wrote about [how we diffuse knowledge through shared interests and sharing best practices on the Micro-purchase Platform](https://18f.gsa.gov/2016/08/25/micro-purchase-design-philosophy-do-one-thing-well/). This week, we’ll
+Last week we wrote about [how we diffuse knowledge through shared interests and sharing best practices on the Micro-purchase Platform]({{ "/2016/08/25/micro-purchase-design-philosophy-do-one-thing-well/" | url }}). This week, we’ll
 focus on some of the lessons learned during the (completed) DATA Act
 prototype. Importantly, though that project has finished, this post is
 *not* meant to be a full retrospective or post-mortem; we’ll be focusing
@@ -24,7 +24,7 @@ term DATA Act broker, which is under active development.
 ## What’s the DATA Act?
 
 The recently minted [Digital Accountability and Transparency Act (DATA
-Act)](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/)
+Act)]({{ "/2015/06/09/data-act-data-act-explainer/" | url }})
 requires agencies to generate better public records about how the United
 States spends money. The law requires a common data standard for federal
 spending and that agencies generate their internal spending information

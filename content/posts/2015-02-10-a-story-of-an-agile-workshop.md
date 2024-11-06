@@ -195,7 +195,7 @@ to change.
 
 ## Running your own agile workshop
 
-We’ve previously published a guide to running your own [3-Sprint Agile Workshop](https://18f.gsa.gov/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/).
+We’ve previously published a guide to running your own [3-Sprint Agile Workshop]({{ "/2014/10/21/how-to-run-your-own-3-sprint-agile-workshop/" | url }}).
 
 [18F Consulting]({{ "/consulting/" | url }}) provides Agile
 coaching, modular contracting expertise and technical advice to Federal

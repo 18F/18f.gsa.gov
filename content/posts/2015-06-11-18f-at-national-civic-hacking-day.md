@@ -52,7 +52,7 @@ parents, and teens. Anchored around hands-on participation for all
 levels of experience, the afternoon session centered on team-centered
 code development challenges. In the first sprint our own Kara DeFrias,
 who lives in San Diego, led a
-[protosketching](https://18f.gsa.gov/2015/01/06/protosketch/) session
+[protosketching]({{ "/2015/01/06/protosketch/" | url }}) session
 for a Street Sweeper app. We got from markers and drawing to working
 code in less than an hour!
 

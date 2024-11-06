@@ -111,7 +111,7 @@ In addition to meeting user needs, the numbers show that smaller
 projects are less risky than larger ones. According to the [Standish Group Chaos Report](https://www.projectsmart.co.uk/white-papers/chaos-report.pdf), small projects succeed 62 percent of the time, compared to 6 percent of large projects. Large projects are naturally more complex. More moving parts and larger teams are harder to manage. This is a large risk to take when dealing with a centralization effort that will impact many people.
 
 If you’re trying to address many different problems, consider
-restructuring the work into smaller chunks to avoid risk and complexity. 18F’s acquisitions team calls this approach [modular contracting](https://18f.gsa.gov/2019/02/28/prerequisites-for-modular-contracting/).
+restructuring the work into smaller chunks to avoid risk and complexity. 18F’s acquisitions team calls this approach [modular contracting]({{ "/2019/02/28/prerequisites-for-modular-contracting/" | url }}).
 
 ### Give users a choice
 

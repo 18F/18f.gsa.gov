@@ -20,7 +20,7 @@ The USGS Water Resources Mission Area (WMA) is striving to make our water data e
 
 ## Who is 18F?
 
-This year USGS has partnered with [18F](https://18f.gsa.gov/), a digital services group in the General Services Administration, that supports government agencies by improving web experiences through user-centric research and testing. 18F was brought in to specifically identify areas of improvement in user experience, including navigating our site and helping users find our data quickly and efficiently.
+This year USGS has partnered with [18F]({{ "/" | url }}), a digital services group in the General Services Administration, that supports government agencies by improving web experiences through user-centric research and testing. 18F was brought in to specifically identify areas of improvement in user experience, including navigating our site and helping users find our data quickly and efficiently.
 
 ## What problem is USGS trying to solve?
 

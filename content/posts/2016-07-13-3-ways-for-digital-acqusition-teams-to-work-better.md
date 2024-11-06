@@ -28,7 +28,7 @@ program aimed at creating change agents within two agencies to inspire a
 culture shift towards modern digital acquisition practices. In short,
 this Accelerator helps agencies be better “buyers” of products within
 the government. This past month, [the Accelerator launched its first
-cohort](https://18f.gsa.gov/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/) introducing the concepts of human-centered
+cohort]({{ "/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/" | url }}) introducing the concepts of human-centered
 design, lean-agile methodologies, open innovation, and modular
 contracting to cross-functional teams of contracting officers,
 developers, program managers, and product owners from the Federal Bureau

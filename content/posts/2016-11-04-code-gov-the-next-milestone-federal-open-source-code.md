@@ -50,5 +50,5 @@ government digital services for the entire public. If you’re interested
 in trying out open source in your agency (you totally should) check out
 our [Open Source Guide](https://pages.18f.gov/open-source-guide/) to
 help make your code easy to use and understand and our [Open Source
-Policy](https://18f.gsa.gov/open-source-policy/) to see how it works at
+Policy]({{ "/open-source-policy/" | url }}) to see how it works at
 18F.

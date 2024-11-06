@@ -118,7 +118,7 @@ on July 23, 2014 in Washington, D.C.
 Midas for you
 -------------
 
-At [18F](https://18f.gsa.gov), we are now offering Midas to federal
+At [18F]({{ "/" | url }}), we are now offering Midas to federal
 agencies as a Software as a Service. Any agency can test out Midas
 quickly, and focus on the programmatic aspect of "crowdworking" in their
 community rather than get bogged down in the details of acquiring and

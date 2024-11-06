@@ -29,7 +29,7 @@ Program](https://www.digitalgov.gov/services/dap/), the [U.S. Digital
 Service
 (USDS)](https://obamawhitehouse.archives.gov/digital/united-states-digital-service),
 and the White House to [build and
-host](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/) a
+host]({{ "/2015/03/19/how-we-built-analytics-usa-gov/" | url }}) a
 dashboard showing real-time U.S. federal government web traffic. This
 helps staff and the public learn about how people use government
 websites. The dashboard itself is open source and can be adapted for a
@@ -38,7 +38,7 @@ state or local government. We recently interviewed folks from
 [Boulder](https://bouldercolorado.gov/stats), and [the state of
 Tennessee](http://analytics.tdec.tn.gov/) about [how they’ve adapted
 the analytics
-dashboard](https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/)
+dashboard]({{ "/2016/01/06/tips-for-adapting-analytics-usa-gov/" | url }})
 for their own use.
 
 Quick mini-sites for content
@@ -73,7 +73,7 @@ services and resources to improve how the government interacts with the
 public. Earlier this month, we published all of our research. You can
 read the [full report](https://labs.usa.gov/#research-report) with
 findings or explore [what we
-learned](https://18f.gsa.gov/tags/federal-front-door/) on the 18F blog.
+learned]({{ "/tags/federal-front-door/" | url }}) on the 18F blog.
 
 Market research for procurement
 -----------------------------------------------------
@@ -84,7 +84,7 @@ We developed [a tool](https://calc.gsa.gov/) that helps you easily
 conduct market research across a number of categories for acquiring
 professional labor. You can read about how the city of Boston is [using
 the
-tool](https://18f.gsa.gov/2015/11/10/boston-is-using-gsa-calc-tool/) to
+tool]({{ "/2015/11/10/boston-is-using-gsa-calc-tool/" | url }}) to
 conduct market research.
 
 Vocabulary for user-centered design
@@ -92,7 +92,7 @@ Vocabulary for user-centered design
 
 [{% image "assets/blog/reusable-tools/method-cards.jpg" "Some of our Design Method Cards" %}](https://methods.18f.gov/)
 
-We [released](https://18f.gsa.gov/2015/08/10/18f-design-methods/) a
+We [released]({{ "/2015/08/10/18f-design-methods/" | url }}) a
 [deck of method cards](https://methods.18f.gov/) that help research
 and design teams communicate a shared vocabulary across teams and
 agencies.

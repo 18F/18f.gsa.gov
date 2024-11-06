@@ -19,7 +19,7 @@ hero: false
 
 [{% image "assets/blog/content-style-guide/style-guide-screen.jpg" "Screenshot of the 18F Content Guide" %}](https://pages.18f.gov/content-guide/)
 
-18F recently introduced its [series of guides](https://18f.gsa.gov/2015/05/28/18F-guides/), a collection of best practices for our internal project teams. As Mike Bland writes in his post describing the guides, “Though these guides currently carry the 18F brand, the intention is to spread the use and cultivation of the material throughout the broader [U.S. Digital Service](https://wh.gov/usds/) effort.”
+18F recently introduced its [series of guides]({{ "/2015/05/28/18F-guides/" | url }}), a collection of best practices for our internal project teams. As Mike Bland writes in his post describing the guides, “Though these guides currently carry the 18F brand, the intention is to spread the use and cultivation of the material throughout the broader [U.S. Digital Service](https://wh.gov/usds/) effort.”
 
 To that end, we’re proud to announce the release of our [**18F Content Guide**](https://pages.18f.gov/content-guide/index.html), a comprehensive handbook to help content creators on our team (and, we hope, elsewhere) create more direct, accessible, and compelling written works. Per the [Plain Writing Act of 2010](http://www.plainlanguage.gov/plLaw/), agencies across government (including the [General Services Administration](http://www.gsa.gov/portal/content/298757)) have been working hard to improve the clarity and accessibility of their content. We’re thrilled to be contributing to this ongoing mission.
 

@@ -80,7 +80,7 @@ the state.
 Approaching the project in a modular, agile fashion can be more cost
 effective and less risky than a monolithic undertaking. To do it, they
 plan to take an approach called the “[encasement
-strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/),”
+strategy]({{ "/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/" | url }}),”
 under which they will replace the system slowly over time while leaving
 the legacy system in place. It will work like this: The old database
 will have an API layered on top of it and then a new interface will be
@@ -92,13 +92,13 @@ impact any of the others.
 
 18F has used this approach on several of our own products including
 [our work with the Federal Election
-Commission](https://18f.gsa.gov/tags/fec-gov/), and it’s great to see
+Commission]({{ "/tags/fec-gov/" | url }}), and it’s great to see
 the State of Mississippi doing the same. Another upshot of working this
 way, according to Christine Townsend of Mississippi, is that the state
 can set up a group of states using the same approach to share lessons
 learned, and maybe even code, with each other. So far, the State of
 California — which [recently began work on its own child welfare
-system](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/)
+system]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }})
 — has been sharing their experiences with Mississippi, and as other
 states begin to implement their own systems they may be able to open the
 conversation more widely.

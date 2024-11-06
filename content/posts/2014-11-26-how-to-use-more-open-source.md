@@ -162,7 +162,7 @@ Ben Balter has written a summary of the [factors](http://fcw.com/articles/2014/0
 
 In practice, the code which your agency writes or contracts to be written indirectly must be considered separately from the reuse of previously existing projects.
 
-There are compelling security reasons that your application will be more secure if you insist that it be released to the public under an open source license from the time the [first line is written](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/), which we discuss in the Security section below.
+There are compelling security reasons that your application will be more secure if you insist that it be released to the public under an open source license from the time the [first line is written]({{ "/2014/07/31/working-in-public-from-day-1/" | url }}), which we discuss in the Security section below.
 
 However, even beyond security, there are several reasons to make your code open source:
 

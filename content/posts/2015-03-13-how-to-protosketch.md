@@ -13,7 +13,7 @@ authors:
 description: "If you are a leading a project, ask for a protosketch. If you are a developer, learn to protosketch. Create imagination-sparking moments, in the meeting. Give your team the freedom to play — with ideas, code and data. Minimize risk to your project and the American taxpayer by quickly testing ideas with the end-user in a vivid, clickable form. Develop and evaluate hypotheses on the fly. Protosketch to delight your team, your boss, and your customers."
 excerpt: "If you are a leading a project, ask for a protosketch. If you are a developer, learn to protosketch. Create imagination-sparking moments, in the meeting."
 ---
-This post is a follow-on to the 18F blog post: [*"Sketching with Code: Protosketching"*](https://18f.gsa.gov/2015/01/06/protosketch/), which
+This post is a follow-on to the 18F blog post: [*"Sketching with Code: Protosketching"*]({{ "/2015/01/06/protosketch/" | url }}), which
 concludes:
 
 > If you are a leading a project, ask for a protosketch. If you are a

@@ -10,13 +10,13 @@ tags:
 excerpt: "Why did people make the decision to join 18F? We asked people on every team to reflect on why they came here."
 description: "Why did people make the decision to join 18F? We asked people on every team to reflect on why they came here."
 ---
-At the end of last year, we asked everyone at 18F to [reflect on a meaningful project](https://18f.gsa.gov/2015/12/23/looking-back-2015-our-own-words/) they worked on in 2015. We received dozens of responses, ranging from [working on internal tools](https://18f.gsa.gov/2015/12/23/looking-back-2015-our-own-words/#guides,-resources,-and-tools) to almost [doubling our workforce](https://18f.gsa.gov/2015/12/23/looking-back-2015-our-own-words/#growing-our-team).
+At the end of last year, we asked everyone at 18F to [reflect on a meaningful project]({{ "/2015/12/23/looking-back-2015-our-own-words/" | url }}) they worked on in 2015. We received dozens of responses, ranging from [working on internal tools]({{ "/2015/12/23/looking-back-2015-our-own-words/#guides,-resources,-and-tools" | url }}) to almost [doubling our workforce]({{ "/2015/12/23/looking-back-2015-our-own-words/#growing-our-team" | url }}).
 
 To celebrate our second anniversary, we once again reached out to people
 across 18F. This time, we were curious about:
 
 -   What led them to 18F
--   [What their pathway into the federal government looked like](https://18f.gsa.gov/2016/03/22/what-was-your-path-to-18f/)
+-   [What their pathway into the federal government looked like]({{ "/2016/03/22/what-was-your-path-to-18f/" | url }})
 -   What they’ve loved working on so far
 
 We got more than 100 responses, including people from every team and
@@ -260,7 +260,7 @@ and the micro-purchase platform.*
 
 ## Outreach
 
-*The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F’s public-facing website](https://18f.gsa.gov/), [our blog](https://18f.gsa.gov/blog/), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov.*
+*The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F’s public-facing website]({{ "/" | url }}), [our blog]({{ "/blog/" | url }}), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov.*
 
 [Back to the table of contents](#teams)
 

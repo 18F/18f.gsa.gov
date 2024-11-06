@@ -46,7 +46,7 @@ Bing! Instant and unfiltered customer feedback.
 
 And who are we? We’re two GSA programs—[DigitalGov User Experience
 Program](https://www.digitalgov.gov/resources/digitalgov-user-experience-program/)
-and [18F](https://18f.gsa.gov/)—who care about creating better digital
+and [18F]({{ "/" | url }})—who care about creating better digital
 products. We improve federal systems and teach people about user
 research, all in one morning.
 

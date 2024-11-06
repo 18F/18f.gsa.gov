@@ -56,7 +56,7 @@ improvement:
 
 -   **Desire for innovative partners:** Companies with innovative approaches to solving government’s problems (for example startups, small businesses) find it difficult to navigate federal acquisition regulations, and as a result avoid engaging agencies.
 
-Noticing these gaps, a team of [18F](https://18f.gsa.gov/), [Presidential Innovation Fellows](http://pif.gov),
+Noticing these gaps, a team of [18F]({{ "/" | url }}), [Presidential Innovation Fellows](http://pif.gov),
 and [United
 States Digital Services
 (USDS)](https://obamawhitehouse.archives.gov/digital/united-states-digital-service)
@@ -129,8 +129,8 @@ also advised a number of agencies on how to conduct acquisitions using
 modern practices.
 
 Additionally, 18F has delivered nearly one dozen consulting engagements that has potentially contributed to the savings or avoidance of tens, if not hundreds, of millions of dollars in costs through activities such as [RFP
-Ghostwriting](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/). (We’re currently in the process of formally analyzing and quantifying the financial impact.) 18F has also introduced innovative procurement approaches through its [Micro-markets](https://18f.gsa.gov/2015/11/18/the-current-future-of-18f-marketplaces/) and [Micro-purchase
-Marketplace](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/).
+Ghostwriting]({{ "/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/" | url }}). (We’re currently in the process of formally analyzing and quantifying the financial impact.) 18F has also introduced innovative procurement approaches through its [Micro-markets]({{ "/2015/11/18/the-current-future-of-18f-marketplaces/" | url }}) and [Micro-purchase
+Marketplace]({{ "/2016/01/07/announcing-the-18f-micro-purchase-platform/" | url }}).
 
 The Department of Health and Human Services has also created a “Buyers
 Club” within their Idea Lab, aimed at spreading the adoption of

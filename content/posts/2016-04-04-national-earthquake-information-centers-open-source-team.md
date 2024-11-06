@@ -101,7 +101,7 @@ The benefits of open source narrative often focuses on contributions and
 reuse of software, and the earthquakes team definitely does that. A
 lesser told story, though, is around the benefits gained from the hyper
 transparency of working in the open. [As we saw at the
-EPA](https://18f.gsa.gov/2015/12/07/what-exactly-do-we-even-do-all-day/),
+EPA]({{ "/2015/12/07/what-exactly-do-we-even-do-all-day/" | url }}),
 working openly helps keep the earthquake team’s primary users and
 stakeholders informed while also providing a public record of how the
 system works. When working with a system as important as earthquake

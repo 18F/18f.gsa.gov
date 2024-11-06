@@ -117,7 +117,7 @@ the entire set of people working to improve government services, leaving
 them happier and more effective!
 
 I [use a metaphor of ships and
-shipyards](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/) to explain
+shipyards]({{ "/2015/10/09/cloud-gov-launch/" | url }}) to explain
 what cloud.gov is. Boat-builders don't launch ships by backing a trailer
 down a boat ramp. Every boat they make is going to get launched, so they
 use a shipyard to make it as easy as possible to build right near the

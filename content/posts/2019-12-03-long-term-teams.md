@@ -27,7 +27,7 @@ Although this is a common approach, it is a very risky one, because:
 1. Handing off software to a completely new team squanders hard-won knowledge.
 2. Handoff to operations & maintenance brings a "keep the lights on" mindset, rather than planning for active continuous delivery.
 
-Former Presidential Innovation Fellow {{ "sarah" | team_link }} wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/)." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
+Former Presidential Innovation Fellow {{ "sarah" | team_link }} wrote about this topic in 2016 in her fantastic post, "[Software maintenance is an anti-pattern]({{ "/2016/02/23/software-maintenance-is-an-anti-pattern/" | url }})." (We hope you will give Sarah's post a read if you haven't come across it before!) In this post, we want to build on Sarah's arguments about software maintenance anti-patterns.
 
 If you find your agency planning an abrupt handover to O&M after a software launch, we hope this post will provide you with reasoning and examples to support a different approach: building a technical team for the long term.
 
@@ -63,11 +63,11 @@ Factor in the continuous delivery of value to your users — and continuous impr
 
 ## Case study: the U.S. Forest Service
 
-The U.S. Forest Service partnered with 18F to [build and launch](https://18f.gsa.gov/2019/02/12/open-forest-launch-post/) [Open Forest](https://openforest.fs.usda.gov/christmas-trees/forests), an online system for Christmas tree permitting. After a successful Christmas tree-focused launch, the Forest Service plans to tackle permits for large-scale gatherings like outdoor races or weddings in national forests next.
+The U.S. Forest Service partnered with 18F to [build and launch]({{ "/2019/02/12/open-forest-launch-post/" | url }}) [Open Forest](https://openforest.fs.usda.gov/christmas-trees/forests), an online system for Christmas tree permitting. After a successful Christmas tree-focused launch, the Forest Service plans to tackle permits for large-scale gatherings like outdoor races or weddings in national forests next.
 
 How are they building out a team to carry the work forward, one slice of product  after the other?
 
-"We've transitioned software development to the Forest Service Assistant CIO [ACIO] Office," explained [Aaron Burk](https://18f.gsa.gov/2017/09/18/a-day-in-the-life-of-an-18f-product-owner/), senior project manager with the Forest Service. "The ACIO Office is already working towards agile, acquiring skill sets around cloud management and DevSecOps. The timing is good, since the Open Forest project itself was designed around the same principles."
+"We've transitioned software development to the Forest Service Assistant CIO [ACIO] Office," explained [Aaron Burk]({{ "/2017/09/18/a-day-in-the-life-of-an-18f-product-owner/" | url }}), senior project manager with the Forest Service. "The ACIO Office is already working towards agile, acquiring skill sets around cloud management and DevSecOps. The timing is good, since the Open Forest project itself was designed around the same principles."
 
 The Open Forest effort explored potential partnerships with other internal government IT services before settling on their partnership with the Forest Service ACIO, making sure the two agencies shared the same product goals and technical directions.
 

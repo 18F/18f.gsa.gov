@@ -16,7 +16,7 @@ image: /assets/blog/web-design-standards/home.png
 ---
 
 We [launched the Draft U.S. Web Design Standards last
-September](https://18f.gsa.gov/2015/09/28/web-design-standards/), and over
+September]({{ "/2015/09/28/web-design-standards/" | url }}), and over
 the next month, we plan to explore various topics related to design
 standards. In this post, we detail how our user research informed the
 design decisions we made.
@@ -32,7 +32,7 @@ sources but can backfire when third-party sites or scammers appear near
 the top of search results.
 
 [We also
-learned](https://18f.gsa.gov/2016/03/09/trust-as-a-two-way-street/)
+learned]({{ "/2016/03/09/trust-as-a-two-way-street/" | url }})
 that people employ a variety of strategies before deciding to trust a
 government service.
 

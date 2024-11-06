@@ -16,13 +16,13 @@ hero: false
 
 [{% image "assets/blog/turn-up-to-11/skeleton-t-shirt.jpg" "A man wearing a skeleton t-shirt from the movie Spinal Tap" %}](https://i.ytimg.com/vi/XuzpsO4ErOQ/maxresdefault.jpg)[*“This is my exact inner structure, done in a tee shirt. Exactly medically accurate. See?”*](http://www.imdb.com/title/tt0088258/quotes?item=qt0261729)
 
-In the [first post of this trilogy](https://18f.gsa.gov/2015/12/30/turning-learning-up-to-11/), I summarized my DevOps Enterprise 2015 talk that focused on transparency, autonomy, and collaboration as primary factors in producing organizational culture change. In this post, I’ll describe a few of the initiatives we’ve undertaken to increase transparency into 18F’s internal operations. While primarily for the benefit of our team members, we hope they will inspire other organizations to adopt similar models and tools.
+In the [first post of this trilogy]({{ "/2015/12/30/turning-learning-up-to-11/" | url }}), I summarized my DevOps Enterprise 2015 talk that focused on transparency, autonomy, and collaboration as primary factors in producing organizational culture change. In this post, I’ll describe a few of the initiatives we’ve undertaken to increase transparency into 18F’s internal operations. While primarily for the benefit of our team members, we hope they will inspire other organizations to adopt similar models and tools.
 
 18F Hub and the new 18F Handbook
 --------------------------------
 
-[About a year ago](https://18f.gsa.gov/2014/12/23/hub/), I began
-writing the [18F Hub](https://18f.gsa.gov/hub/) as a prototype of a
+[About a year ago]({{ "/2014/12/23/hub/" | url }}), I began
+writing the [18F Hub]({{ "/hub/" | url }}) as a prototype of a
 very lightweight intranet tool to help organize our team information and
 expose the connections between people, projects, skills, interests, and
 locations. One of the most important functions of this tool was to
@@ -42,7 +42,7 @@ re-architecture of content that organically grew within the Hub, our
 shared document drive, and people’s heads. It’s nearly complete, and
 we’re excited to report that [it has already contributed to a vastly
 improved onboarding experience for our recent new
-hires](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/).
+hires]({{ "/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/" | url }}).
 
 At the same time, we have a product team dedicated to further
 development of the Hub and related products, with the Handbook serving
@@ -107,7 +107,7 @@ any other project. We now have an official product team assigned to
 developing all of them as an integrated ecosystem. We’re also closely
 coordinating with the [Agile Guild](https://pages.18f.gov/agile/), our
 first internal partner, to update the [18F
-Dashboard](https://18f.gsa.gov/dashboard/), our first consumer of
+Dashboard]({{ "/dashboard/" | url }}), our first consumer of
 .about.yml data via the Team API.
 
 We’ve built this product team because we understand that our
@@ -121,7 +121,7 @@ introduce similar methods into their teams.
 In the final installment of our trilogy, I will discuss our community of
 [Working Groups and Guilds](https://pages.18f.gov/grouplet-playbook/),
 how they have produced an explosion of [18F
-Guides](https://18f.gsa.gov/2015/05/28/18F-guides/) using our [18F
-Pages](https://18f.gsa.gov/2015/05/14/18Fpages/) platform, and our
+Guides]({{ "/2015/05/28/18F-guides/" | url }}) using our [18F
+Pages]({{ "/2015/05/14/18Fpages/" | url }}) platform, and our
 ambitions to foster in-house training development via the [18F
 Edu](https://pages.18f.gov/edu/) initiative.

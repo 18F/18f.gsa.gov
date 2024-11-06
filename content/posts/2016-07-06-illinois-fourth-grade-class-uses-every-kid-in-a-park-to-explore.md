@@ -16,7 +16,7 @@ The website [everykidinapark.gov](https://everykidinapark.gov/) was designed, de
 
 One fourth grade class in Monticello, Illinois took the Every Kid in the Park idea even further. They used the website to learn more about National Parks and create a culminating project for their school’s annual open house.
 
-We reached out to Washington Elementary fourth grade teacher Robyn Garrett, who led the project, to learn more about how she used national parks and [Every Kid in a Park](https://18f.gsa.gov/tags/every-kid-in-a-park/) in her curriculum.
+We reached out to Washington Elementary fourth grade teacher Robyn Garrett, who led the project, to learn more about how she used national parks and [Every Kid in a Park]({{ "/tags/every-kid-in-a-park/" | url }}) in her curriculum.
 
 **Melody Kramer: Robyn, tell me a little bit about the end of the year project you created with your class.**
 

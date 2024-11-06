@@ -80,7 +80,7 @@ part of doing so, we’ve identified a number of ways to make ATOs faster:
     -   Reduce the learning curve to understand each system for
         assessors
 
--   **More inheritance.** As noted in the “smaller” and “more consistent” bullets above, the more custom parts of the system, the more complex the ATO process. The more we [reuse a proven technology stack](https://18f.gsa.gov/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/) the fewer security requirements need to be addressed by the system under evaluation.
+-   **More inheritance.** As noted in the “smaller” and “more consistent” bullets above, the more custom parts of the system, the more complex the ATO process. The more we [reuse a proven technology stack]({{ "/2018/03/27/four-benefits-to-using-the-full-TTS-tech-stack/" | url }}) the fewer security requirements need to be addressed by the system under evaluation.
     - By standardizing [a few ways to do user authentication](https://before-you-ship.18f.gov/security/mfa/), each system doesn’t have to assess a new technology for the same functionality.
     - By leveraging [cloud.gov](https://cloud.gov) for (nearly) all of our backend code and databases, we cut out a _huge_ amount of operational and [compliance](https://cloud.gov/docs/compliance/ato-process/) burden.
     - Sites deployed on [Federalist](https://federalist.18f.gov) can be [folded in to the Federalist ATO](https://federalist-docs.18f.gov/pages/about-federalist/why-use-federalist/). **Sites on Federalist can be assessed and authorized in a matter of days.**
@@ -114,7 +114,7 @@ on those outcomes.
 
 ## Tracking
 
-The Infrastructure Leads keep a [kanban](https://18f.gsa.gov/2016/08/31/kanban-for-government/) board
+The Infrastructure Leads keep a [kanban]({{ "/2016/08/31/kanban-for-government/" | url }}) board
 to track the status of ATOs:
 
 {% include "linked-figure.html",
@@ -220,7 +220,7 @@ systems that went through for achieving compliance!
 -   [Before You Ship](https://before-you-ship.18f.gov/) - 18F’s guide
     to ATOs and Infrastructure
 -   [“To get things done, you need great, secure
-    tools”](https://18f.gsa.gov/2017/02/27/to-get-things-done-you-need-great-secure-tools/) blog post
+    tools”]({{ "/2017/02/27/to-get-things-done-you-need-great-secure-tools/" | url }}) blog post
 -   [FedRAMP Accelerated](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Accelerated_A_Case_Study_For_Change_Within_Government.pdf)
 -   [Project Boise](https://boise.18f.gov/) - discovery on compliance
     processes across government

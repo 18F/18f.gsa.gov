@@ -16,7 +16,7 @@ excerpt: "Four weeks ago, we announced cloud.gov, a new platform that will enabl
 image: /assets/blog/cloud-gov/cloud-gov-homepage.jpg
 ---
 
-Four weeks ago, we [announced cloud.gov](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/), a new
+Four weeks ago, we [announced cloud.gov]({{ "/2015/10/09/cloud-gov-launch/" | url }}), a new
 platform that will enable small federal teams to rapidly develop and
 deploy web services with best-practice, production-level security and
 scalability. The platform will also help agencies reduce the work

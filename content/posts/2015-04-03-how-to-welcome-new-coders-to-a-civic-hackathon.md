@@ -23,10 +23,10 @@ description: "The National Day of Civic Hacking is a great time to attend — o
 "https://twitter.com/phildini/status/580879418337316864"
 
 At 18F, our projects are [open source from the
-beginning](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) and
+beginning]({{ "/2014/07/29/18f-an-open-source-team/" | url }}) and
 nothing makes us happier than getting contributions from the
 public.That’s why we published [a contributor’s guide to our
-code](https://18f.gsa.gov/2014/08/12/the-contributors-guide-to-18f-code-for-the-common/).
+code]({{ "/2014/08/12/the-contributors-guide-to-18f-code-for-the-common/" | url }}).
 
 With the [National Day of Civic Hacking](http://hackforchange.org/)
 fast approaching, we’ve been thinking about how to make our projects as
@@ -52,12 +52,12 @@ Usability testers, accessibility experts, researchers, data cleaners,
 writers, translators, subject-matter experts, and content designers are
 all people who can (and want to) help projects, provided they know how
 to navigate a hackathon and access projects ready for their input.
-[GitHub](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)
+[GitHub]({{ "/2015/03/03/how-to-use-github-and-the-terminal-a-guide/" | url }})
 repository pages are very busy; it’s not enough to link to them in the
 meeting materials and assume that everyone will be able to find the
 Issues tab. Newcomers also may not understand how to make a branch or
 file an accompanying pull request (or even what “[pull
-request](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#learn-how-to-make-a-pull-request)”
+request]({{ "/2015/03/03/how-to-use-github-and-the-terminal-a-guide/#learn-how-to-make-a-pull-request" | url }})”
 means).
 
 You can help in a few different ways:
@@ -74,7 +74,7 @@ system](http://www.mediawiki.org/wiki/Hackathons#Pairing_buddies).
 ## Clearly define projects and enumerate ways newcomers can get involved with each
 
 Last month, we co-hosted
-[GovTechHack](https://18f.gsa.gov/2015/04/02/govtechhack-hacking-for-civic-improvement/), a San-Francisco-based hackathon where civic-minded coders, builders,
+[GovTechHack]({{ "/2015/04/02/govtechhack-hacking-for-civic-improvement/" | url }}), a San-Francisco-based hackathon where civic-minded coders, builders,
 designers, and other creative folks came together to work on open source
 and open data projects. Before the event began, we wrote out
 documentation for each project, which included:
@@ -139,7 +139,7 @@ physically in San Francisco. You can connect with people in many ways,
 including chat rooms, video chats, social media such as Twitter or
 Facebook groups, or listservs. (These also help establish a larger
 community around the open source project. For example, the 18F project
-[Midas](https://18f.gsa.gov/dashboard/project/midas/) has a [Google
+[Midas]({{ "/dashboard/project/midas/" | url }}) has a [Google
 group](https://groups.google.com/forum/#!forum/midascrowd) where
 community members can talk with our developer team.)
 
@@ -174,7 +174,7 @@ Repo](https://help.github.com/articles/fork-a-repo/) or [Add SSH
 keys](https://help.github.com/articles/generating-ssh-keys/). And
 lastly, feel free to share our detailed tutorial, [How to Use the
 Terminal and
-GitHub](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/),
+GitHub]({{ "/2015/03/03/how-to-use-github-and-the-terminal-a-guide/" | url }}),
 for anyone new to this space.
 
 You may also want to look at our [checklist for open source

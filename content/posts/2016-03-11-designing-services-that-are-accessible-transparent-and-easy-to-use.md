@@ -19,9 +19,9 @@ image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 
-_This is the final installment of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
+_This is the final installment of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series]({{ "/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/" | url }}) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
 
-_Yesterday, we shared [what people think about before deciding to share personal information with the government](https://18f.gsa.gov/2016/03/10/what-people-think-about-before-sharing-personal-information/). Today we end our series with a look at what we’ll focus on in the next stage of research._
+_Yesterday, we shared [what people think about before deciding to share personal information with the government]({{ "/2016/03/10/what-people-think-about-before-sharing-personal-information/" | url }}). Today we end our series with a look at what we’ll focus on in the next stage of research._
 
 {% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 

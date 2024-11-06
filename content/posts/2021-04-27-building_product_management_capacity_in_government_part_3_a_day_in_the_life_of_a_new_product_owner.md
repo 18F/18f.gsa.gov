@@ -15,7 +15,7 @@ excerpt: This is part four in a series of posts about building product
   Bill Laughman from DOJ’s Civil Rights Division about his experience as a
   product owner on Civil Rights reporting portal.
 ---
-*This is part four in a series of posts about building product management capacity in government agencies. The series explores the process of helping agency staff transition into product management roles. For this post, we chatted with Bill Laughman from DOJ’s Civil Rights Division about his experience as a product owner on [Civil Rights reporting portal](https://18f.gsa.gov/2020/07/07/transforming-how-dojs-civil-rights-division-engages-with-the-public/). These are Bill’s opinions and are not the official views of the Civil Rights Division or the Department of Justice.*
+*This is part four in a series of posts about building product management capacity in government agencies. The series explores the process of helping agency staff transition into product management roles. For this post, we chatted with Bill Laughman from DOJ’s Civil Rights Division about his experience as a product owner on [Civil Rights reporting portal]({{ "/2020/07/07/transforming-how-dojs-civil-rights-division-engages-with-the-public/" | url }}). These are Bill’s opinions and are not the official views of the Civil Rights Division or the Department of Justice.*
 
 Bill Laughman of the DOJ Civil Rights Division (CRT) spoke about collaborating with 18F to streamline their civil rights violation report intake process and establishing case management processes in order to improve and modernize IT systems within the Division.
 

@@ -19,7 +19,7 @@ Conventional wisdom often encourages engineers to start with a big architectural
 
 Architectural plans provide comfort to everyone because they look like a plan. The way forward is for the engineers to fill in servers and infrastructure, making the map real.
 
-Unfortunately, this kind of a grand plan usually leads to [technical-debt](https://18f.gsa.gov/2015/10/05/managing-technical-debt/) that collapses towards complete immobility. Complexities in even one of these services can take down the entire project. Unknown problems at the beginning can't be rolled into the new plan easily because all services are dependent on this architectural contract.
+Unfortunately, this kind of a grand plan usually leads to [technical-debt]({{ "/2015/10/05/managing-technical-debt/" | url }}) that collapses towards complete immobility. Complexities in even one of these services can take down the entire project. Unknown problems at the beginning can't be rolled into the new plan easily because all services are dependent on this architectural contract.
 
 In short, architectural plans push the team towards [waterfall development](https://en.wikipedia.org/wiki/Waterfall_model#Criticism), a system that has fallen out of favor as more and more projects have failed.
 

@@ -21,7 +21,7 @@ analysis”) is the practice of examining source code while it’s not
 running and gathering a variety of metrics on the code itself, without
 regard to how it runs in an active environment. Static analysis can
 reveal [technical
-debt](https://18f.gsa.gov/2015/09/04/what-is-technical-debt/) by
+debt]({{ "/2015/09/04/what-is-technical-debt/" | url }}) by
 identifying sections of code (called a function or method) that are
 excessively complex, have numerous decision points, or are simply too
 long.

@@ -44,7 +44,7 @@ Below is our outline of different web application architectures that you might c
 
 ### If you can make it a static site, you should. 
 
-* **What this means**: A static site sends the same content every time you reload it. The content doesn’t change unless the site owner updates it — for example, by publishing a new page on a blog. In general, all users of the site see the same content. A public agency headquarters website is a classic example: [18f.gsa.gov](https://18f.gsa.gov/) is a static site! 
+* **What this means**: A static site sends the same content every time you reload it. The content doesn’t change unless the site owner updates it — for example, by publishing a new page on a blog. In general, all users of the site see the same content. A public agency headquarters website is a classic example: [18f.gsa.gov]({{ "/" | url }}) is a static site! 
 * **Why and when it’s a good choice**: Many government agencies just need to publish information to the web. Static sites are generally the simplest kind to build, maintain, and host. They are lower-cost, compared to more complex web architectures. And U.S. federal agencies can use [federalist.18f.gov](https://federalist.18f.gov/) to build, launch, and manage their static sites.
 
 <figure>

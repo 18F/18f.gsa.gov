@@ -14,7 +14,7 @@ familiar with the fundamentals of modern software development practices."
 image: /assets/blog/Acquisitions/acquisition-post-header.png
 ---
 
-At 18F, we often advocate for [modular contracting](https://18f.gsa.gov/2017/10/11/pulling-back-the-curtain-on-it-procurement/)
+At 18F, we often advocate for [modular contracting]({{ "/2017/10/11/pulling-back-the-curtain-on-it-procurement/" | url }})
 — the practice of breaking up large, custom software procurements into a
 small constellation of smaller contracts. In doing so, we’ve learned
 that we’re more effective when promoting that message to people who are
@@ -52,7 +52,7 @@ envisioned at the time of the RFP doesn’t serve user needs. Agile helps to ens
 ## Product thinking
 
 Users of software are trying to solve a problem,
-and [product thinking](https://18f.gsa.gov/2018/12/11/product-management-at-18F-part-2-acquisitions/)
+and [product thinking]({{ "/2018/12/11/product-management-at-18F-part-2-acquisitions/" | url }})
 is about identifying that problem, connecting it to a vision for the
 overall work, and the strategy for accomplishing that. That work,
 [product management](https://product-guide.18f.gov/product-management-at-18f/),
@@ -76,7 +76,7 @@ owner can ensure that the vendor is producing high-value work.
 
 One vendor can use the infrastructure established by
 another vendor with absolutely minimal setup time, if they use
-standardized continuous integration and [continuous deployment practices](https://18f.gsa.gov/tags/devops/), ideally with
+standardized continuous integration and [continuous deployment practices]({{ "/tags/devops/" | url }}), ideally with
 infrastructure-as-a-service (often referred to “IaaS”) providers. After
 the initial vendor sets up a government-owned source code repository,
 continuous integration service, static and dynamic analysis service, and

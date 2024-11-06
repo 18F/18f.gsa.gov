@@ -18,7 +18,7 @@ update their digital services."
 image:
 ---
 
-In 2015, 18F had [an idea](https://18f.gsa.gov/2015/06/15/agile-bpa-is-here/) for a better way for federal agencies to hire private vendors to build products and
+In 2015, 18F had [an idea]({{ "/2015/06/15/agile-bpa-is-here/" | url }}) for a better way for federal agencies to hire private vendors to build products and
 services using agile development techniques. We wanted to see what would
 happen if we used an existing government process (called a blanket
 purchase agreement) and tailored it to the needs of agencies looking to
@@ -58,7 +58,7 @@ Today, we’re taking a look back at where the Agile BPA was able to
 deliver value to federal agencies and where it fell short of our goals
 for the project. In August 2015, we looked at [what we learned during
 the solicitation
-process](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/),
+process]({{ "/2015/08/28/announcing-the-agile-BPA-awards/" | url }}),
 and this blog post is the next step in learning from this experiment.
 
 ## How the Agile BPA helped

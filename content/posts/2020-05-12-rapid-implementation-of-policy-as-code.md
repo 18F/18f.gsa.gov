@@ -23,9 +23,9 @@ If you are working on implementing new rules during this critical time, you may 
 
 > *“What can I do to speed up the implementation of these new rules? What can I do to make sure that my agency’s updated rules are interpreted and implemented accurately in our digital systems?”*
 
-In the United States, policy staff typically write rules in English and distribute them in PDF form. Technical staff then read the complex policy rules and translate them into computer code to implement the policy in digital systems. Structuring this as a two-step process introduces lag and room for misinterpretation. Bringing technical and policy staff together to [write and publish policy rules as computer code](https://18f.gsa.gov/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/) together early on improves both speed and accuracy.
+In the United States, policy staff typically write rules in English and distribute them in PDF form. Technical staff then read the complex policy rules and translate them into computer code to implement the policy in digital systems. Structuring this as a two-step process introduces lag and room for misinterpretation. Bringing technical and policy staff together to [write and publish policy rules as computer code]({{ "/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/" | url }}) together early on improves both speed and accuracy.
 
-Our team at 18F — the [Eligibility APIs Initiative](https://github.com/18F/eligibility-rules-service/blob/master/README.md), powered by GSA’s [10x](https://10x.gsa.gov/) — has been researching and prototyping techniques for putting these concepts into practice. Back in 2018, we wrote about our early experiments [implementing rules with modern programming languages](https://18f.gsa.gov/2018/10/09/implementing-rules-without-rules-engines/). Today, we want to share an example from our work that shows the potential for rapid, accurate policy implementation as code.
+Our team at 18F — the [Eligibility APIs Initiative](https://github.com/18F/eligibility-rules-service/blob/master/README.md), powered by GSA’s [10x](https://10x.gsa.gov/) — has been researching and prototyping techniques for putting these concepts into practice. Back in 2018, we wrote about our early experiments [implementing rules with modern programming languages]({{ "/2018/10/09/implementing-rules-without-rules-engines/" | url }}). Today, we want to share an example from our work that shows the potential for rapid, accurate policy implementation as code.
 
 ## Prototyping SNAP eligibility
 
@@ -39,7 +39,7 @@ In collaboration with policy experts at the federal level, we created an experim
 
 * **Verifiable as accurate**: Our prototype includes automated tests that check to make sure outputs stay accurate and predictable, even in a rapidly changing policy environment. We use [Gherkin](https://docs.behat.org/en/v2.5/guides/1.gherkin.html) for our automated tests, so even policy experts unfamiliar with code can take part in confirming that the coded logic is correct.
 
-We characterize this work as a [prototype](https://18f.gsa.gov/2018/01/30/getting-prepared-to-prototype/) because it’s meant to be a small and lightweight proof of concept. To visualize the kind of application that our eligibility API can power, we created a pre-screener:
+We characterize this work as a [prototype]({{ "/2018/01/30/getting-prepared-to-prototype/" | url }}) because it’s meant to be a small and lightweight proof of concept. To visualize the kind of application that our eligibility API can power, we created a pre-screener:
 
 <img src="{{ "/assets/blog/rapid-implementation-of-policy-as-code/prescreener-gif.gif" | url }}" alt="GIF of Eligibility API Pre-Screener" />
 

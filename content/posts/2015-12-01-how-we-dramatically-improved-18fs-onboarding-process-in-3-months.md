@@ -163,7 +163,7 @@ about the way we work, and provides helpful advice from current 18F
 employees.
 
 (My colleague Jessie Young, the lead developer on
-Mrs. Landingham, [talks more about the bot and how it works](https://18f.gsa.gov/2015/12/15/how-bot-named-dolores-landingham-transformed-18fs-onboarding/).)
+Mrs. Landingham, [talks more about the bot and how it works]({{ "/2015/12/15/how-bot-named-dolores-landingham-transformed-18fs-onboarding/" | url }}).)
 
 ## Onboarding begins before day 1
 

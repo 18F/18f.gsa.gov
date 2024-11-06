@@ -53,4 +53,4 @@ At a high level:
 ## Shared problems, unique lenses
 Any one of our designers can help improve the public's experience of government — we can all “design” — but each discipline brings a unique lens to understanding and solving problems alongside engineers, product managers, and subject-matter experts, and stakeholders.  Given the scale and complexity of designing  public services, we often work best when we work together.
 
-Want to learn more about how we work at 18F? Check out some of our [guides](https://18f.gsa.gov/guides/)!
+Want to learn more about how we work at 18F? Check out some of our [guides]({{ "/guides/" | url }})!

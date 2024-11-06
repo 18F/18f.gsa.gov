@@ -38,7 +38,7 @@ Of course, the first phase involves taking an oath to defend the
 Constitution of the United States and learning about our parent agency,
 the General Services Administration (GSA). Immediately after that, new
 hires join the 18F team itself. After setting up emails and distributing
-equipment, we also give our newbies access to the [18F Hub](https://18f.gsa.gov/2014/12/23/hub/), our internal system for
+equipment, we also give our newbies access to the [18F Hub]({{ "/2014/12/23/hub/" | url }}), our internal system for
 organizing and sharing team-wide documentation, structure, and projects.
 We cultivated the Hub so it would answer the early questions new hires
 ask time and again, such as what to expect when working for the federal
@@ -53,7 +53,7 @@ Many of our project teams are still small and absorb new hires rather
 quickly, but some teams have also drafted project-specific onboarding
 plans. For example, [the team that maintains the 18f.gsa.gov website
 has an onboarding plan, posted in the
-Hub](https://18f.gsa.gov/hub/18f-site/onboarding/), that covers the
+Hub]({{ "/hub/18f-site/onboarding/" | url }}), that covers the
 following topics:
 
 -   Who is on my team and when will I meet them?
@@ -62,7 +62,7 @@ following topics:
 -   First week goals
 -   First month goals
 
-Also, because 18F has [team members all over the country](https://18f.gsa.gov/hub/locations/), a page of guidelines in
+Also, because 18F has [team members all over the country]({{ "/hub/locations/" | url }}), a page of guidelines in
 the Hub specifically addresses the needs of folks not working from one
 of our GSA offices.
 

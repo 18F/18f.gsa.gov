@@ -92,6 +92,6 @@ need to ensure that we continuously improve on our controls and
 processes to meet that mission. The oversight of GSA’s Inspector General
 is a critical part of how we can continue to improve, and we appreciate
 their review and agree with their recommendations. In [our first blog
-post](https://18f.gsa.gov/2014/03/19/hello-world-we-are-18f/), we wrote that “we want to
+post]({{ "/2014/03/19/hello-world-we-are-18f/" | url }}), we wrote that “we want to
 build the 21st century government you deserve.” To make good on that
 desire, we will need to embrace opportunities to improve and innovate.

@@ -17,7 +17,7 @@ description: "By far the most successful onboarding item we’ve released is a S
 image: /assets/blog/onboarding/landingham-slack.jpg
 hero: false
 ---
-Over the past few months, we’ve released [several products](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/) — including checklists, a handbook, and classes — to help new hires orient themselves to 18F.
+Over the past few months, we’ve released [several products]({{ "/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/" | url }}) — including checklists, a handbook, and classes — to help new hires orient themselves to 18F.
 
 By far the most successful onboarding item we’ve released is a Slack bot that sends scheduled messages to new hires so that they don’t experience information overload during their first week.
 
@@ -25,7 +25,7 @@ By far the most successful onboarding item we’ve released is a Slack bot that 
 
 ## Developing the concept for the Mrs. Landingham MVP
 
-In keeping with our [agile methodologies](https://18f.gsa.gov/2015/11/20/how-we-use-a-lean-approach-to-product-design/), we started development of the Slack bot by discussing the absolute minimum feature set required to get Mrs. Landingham up and running.
+In keeping with our [agile methodologies]({{ "/2015/11/20/how-we-use-a-lean-approach-to-product-design/" | url }}), we started development of the Slack bot by discussing the absolute minimum feature set required to get Mrs. Landingham up and running.
 
 The problem we were aiming to solve was simple: We wanted to prevent information overload for new 18F employees. The solution? We weren’t sure exactly, but Slack felt like the right medium for the job because:
 

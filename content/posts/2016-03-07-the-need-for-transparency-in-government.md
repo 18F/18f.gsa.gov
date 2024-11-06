@@ -19,9 +19,9 @@ image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 
-_This is part five of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
+_This is part five of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series]({{ "/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/" | url }}) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
 
-_In yesterday’s post, we [outlined how people interact with the government using proxies](https://18f.gsa.gov/2016/03/04/how-people-use-proxies-to-interact-with-the-government/). Today we’ll detail the need for transparency in government so that the public can “see” the process they’re undergoing when they’re interacting with federal agencies and programs._
+_In yesterday’s post, we [outlined how people interact with the government using proxies]({{ "/2016/03/04/how-people-use-proxies-to-interact-with-the-government/" | url }}). Today we’ll detail the need for transparency in government so that the public can “see” the process they’re undergoing when they’re interacting with federal agencies and programs._
 
 {% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 

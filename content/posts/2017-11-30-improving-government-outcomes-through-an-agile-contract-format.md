@@ -75,6 +75,6 @@ Instead of years and back and forth, by going through agile workshops and using 
 
 Delivery is the strategy here at the TTS Office of Acquisition. The contract is the means _not the end_. Writing down every possible future requirement you can think of can feel like it reduces risk and ensures the project will succeed. But that’s not borne out by the evidence of years of government contracting.
 
-This is one piece towards a broader method of contracting for agile development services. Through this method, you can save time, reduce risk, improve quality, and [avoid agilefall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/) by allowing industry to apply their expertise. That’s why you’re contracting in the first place. 
+This is one piece towards a broader method of contracting for agile development services. Through this method, you can save time, reduce risk, improve quality, and [avoid agilefall]({{ "/2015/12/29/is-your-project-using-agilefall/" | url }}) by allowing industry to apply their expertise. That’s why you’re contracting in the first place. 
 
 If you’re looking for examples we’ve done to date go [here](https://modularcontracting.18f.gov/), and if you’re interested in chatting with TTS on how we may be able to help email us at [inquiries18F@gsa.gov](mailto:inquiries18F@gsa.gov).  

@@ -203,7 +203,7 @@ Kimelman, Deepa Kunapuli, Maria Marrero, Brad Nunnally, Alex Ose, Eric
 Ronne, Nick Setthachayanon, Jessica Teal, Jennifer Thibault, Ryan
 Thurlwell, Russ Unger, Charles Worthington, and Emily Wright-Moore for
 always being available to help us think through some of the extra sticky
-bits. Major kudos to Mike Bland and Alison Rowland for making [18F Pages](https://18f.gsa.gov/2015/05/14/18Fpages/)
+bits. Major kudos to Mike Bland and Alison Rowland for making [18F Pages]({{ "/2015/05/14/18Fpages/" | url }})
 work seamlessly for this project.*
 
 *A special shout out to Julia Elman for her hard work in

@@ -26,7 +26,7 @@ help with a few aspects of the project:
 -   Lead outreach for Treasury’s [online collaboration space](http://fedspendingtransparency.github.io/) that solicits public feedback about federal spending data.
 -   Coach vendors and Treasury team on developing pilot projects using agile methodologies.
 -   Organize and develop the first DATA Act pilot that uses real agency financial and awards data.
--   [Request for Proposal (RFP) Ghostwriting](https://18f.gsa.gov/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/).
+-   [Request for Proposal (RFP) Ghostwriting]({{ "/2015/03/30/new-rfp-ghostwriting-service-to-improve-contract-success/" | url }}).
 -   Perform three to four weeks of user research and discovery to better understand the different audiences and their needs when accessing federal spending data.
 
 The first order of DATA Act business on this blog, however, is to

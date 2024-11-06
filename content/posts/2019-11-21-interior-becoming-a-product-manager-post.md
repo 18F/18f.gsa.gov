@@ -16,7 +16,7 @@ excerpt: "If you had asked me two years ago what a product manager is, I wouldn�
 If you had asked me two years ago what a product manager is, I wouldn’t have known. And, yet, today, that is one of my titles.
 
 My journey here has included many days when I felt unqualified and wondered if I could bring my best to our team and build a successful
-product. Along the way, I have been lucky to receive guidance and coaching from experienced product managers at the [General Services Administration’s 18F](https://18f.gsa.gov/) and to receive my supervisor’s support to develop my product management skills through formal and informal training.
+product. Along the way, I have been lucky to receive guidance and coaching from experienced product managers at the [General Services Administration’s 18F]({{ "/" | url }}) and to receive my supervisor’s support to develop my product management skills through formal and informal training.
 
 Our product team has also allowed me the flexibility to explore approaches and periodically adjust and shape my role into something that works for our needs. Even though I’ve only been in this role for a year, and I am still learning, my experience so far has helped shape the way I view my responsibility as a public servant.
 

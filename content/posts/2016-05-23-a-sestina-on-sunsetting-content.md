@@ -19,7 +19,7 @@ line is reused throughout the poem, to end the lines in each subsequent
 stanza, following a set pattern.*
 
 We’ve used our blog to write about [creating new
-content](https://18f.gsa.gov/2015/12/17/plain-language-betafec-new-content-design/),
+content]({{ "/2015/12/17/plain-language-betafec-new-content-design/" | url }}),
 <br/>but we haven’t discussed managing published pages. Specifically, when to
 delete them.<br/>
 In the content design world, we call this concept “sunsetting.”<br/>
