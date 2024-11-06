@@ -1,22 +1,25 @@
 ---
-title: "Catching up with the TANF Data Portal project"
+title: Catching up with the TANF Data Portal project
 date: 2023-09-07
 authors: 
-- lauren-frohlich
-- alex-pennington
-- christine-bath
-- alex-soble
-- selena-juneau-vogel
-- laura-gerhardt
+  - lauren-frohlich
+  - alex-pennington
+  - christine-bath
+  - alex-soble
+  - selena-juneau-vogel
+  - laura-gerhardt
 tags:
-- agency work
-- interview
-- public benefits
-- hhs
-- 18f checks in
-excerpt: "Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. 18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF. We caught up with Office of Family Assistance leaders to see how their agency is continuing with the work."
+  - agency work
+  - interview
+  - public benefits
+  - hhs
+  - 18f checks in
+excerpt: >
+  Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. 18F and the Administration for Children & Families’ Office of Family Assistance partnered on building a new data portal for TANF. We caught up with Office of Family Assistance leaders to see how their agency is continuing with the work.
+
 image: /assets/blog/tanf-data-portal-catchup/TDP-checkin--banner.png
-image_alt: "Three potted plans in a row. The first is a seedling, followed by one with two leaves, and a larger plant that looks like a tree."
+image_alt: >
+  Three potted plans in a row. The first is a seedling, followed by one with two leaves, and a larger plant that looks like a tree."
 ---
 
 Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. States, tribes, and territories use federal block grant funds to administer the program, and they must report data back to the federal government on a quarterly basis. 

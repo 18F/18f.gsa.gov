@@ -1,11 +1,12 @@
 ---
-title: "Sharing artifacts and outputs from research"
+title: Sharing artifacts and outputs from research
 date: 2023-12-05
 authors: 
-- qituwra-anderson
+  - qituwra-anderson
 tags: 
-- how we work
-excerpt: "Have you conducted user research and are now wondering what artifacts or outputs you can share and with whom? Here's a guide."
+  - how we work
+excerpt: >
+  Have you conducted user research and are now wondering what artifacts or outputs you can share and with whom? Here's a guide.
 ---
 Have you conducted user research and are now wondering what artifacts or outputs you can share and with whom? Artifacts and outputs are generally shareable as long as sharing the data does not violate:
 

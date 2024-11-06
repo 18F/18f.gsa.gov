@@ -1,15 +1,14 @@
 ---
 date: 2023-09-05
 title: >
- First, do no harm: mistakes to avoid in creating accessible user experiences
+  First, do no harm: mistakes to avoid in creating accessible user experiences
 authors: 
   - jason-nakai
 tags: 
 - best practices
 - accessibility
-excerpt: > 
+excerpt: >
   Accessible design and development practices help us build inclusive experiences. But we can lose sight of the people we serve if we don’t steadily work to better understand our users. To create accessible experiences, avoid these mistakes.
-image:
 ---
 
 # First, do no harm

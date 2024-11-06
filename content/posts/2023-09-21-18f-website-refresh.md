@@ -1,11 +1,12 @@
 ---
-title: "A website refresh in 3 months"
+title: A website refresh in 3 months
 date: 2023-09-21
 authors: 
-- amelia-wong
+  - amelia-wong
 tags: 
-- how we work
-excerpt: "A website redesign doesn't have to be a big project. By approaching it as a process of iteration, we launched a refreshed site in the span of several weeks."
+  - how we work
+excerpt: >
+  A website redesign doesn't have to be a big project. By approaching it as a process of iteration, we launched a refreshed site in the span of several weeks.
 ---
 
 This past summer, we decided to refresh the 18F website. Since the last big redesign four years ago, we’d made a few tweaks, but not any significant changes. So why now?

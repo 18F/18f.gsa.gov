@@ -6,9 +6,8 @@ authors:
   - qituwra-anderson
 tags: 
 - best practices
-excerpt: > 
+excerpt: >
   Facilitating a workshop can feel like a daunting task. Here at 18F, we’ve identified seven tips to keep your workshop organized and flowing, despite unplanned scenarios.
-image:
 ---
 
 You’re facilitating a workshop and the attendees bring up an important thought, idea or topic that you had not originally incorporated into your planning. Since the topic broached is relevant to the work you want to include it, but are unsure how to keep the workshop feeling organized.  You can try the following tips to keep the workshop flowing.
