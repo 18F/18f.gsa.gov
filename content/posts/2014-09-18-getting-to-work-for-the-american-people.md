@@ -127,7 +127,7 @@ Regardless of where, we work as cross-functional teams dedicated to
 specific projects that will improve how citizens and businesses interact
 with government.
 
-Please stay tuned! Follow 18F on [our blog]({{ "/blog" | url }}),
+Please stay tuned! Follow 18F on [our blog]({{ "/blog/" | url }}),
 [Twitter](https://twitter.com/18f), or [sign up to be notified by
-email]({{ "/#contact" | url }}) as we share more about these
+email]({{ "/contact/" | url }}) as we share more about these
 projects in the coming weeks.

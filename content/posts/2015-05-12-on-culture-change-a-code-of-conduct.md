@@ -18,7 +18,7 @@ effective U.S. government services, we need to involve the people who
 will be using those services. We’ve written previously about the
 [importance of including users]({{ "/2015/03/06/ux-lessons-learned-from-a-procurement-project/" | url }})
 in our development processes, and also about our policy and practices
-around [open source and transparency]({{ "/tags/open%20source/" | url }}). We strive to
+around [open source and transparency]({{ "/tags/open-source/" | url }}). We strive to
 partner with the public, co-creating services with the people who need
 them, and welcoming individuals who wish to volunteer as open source
 contributors.

@@ -60,8 +60,8 @@ compete for government contracts.
 >
 Critical feedback from this pilot showed that greater transparency led
 to more competitive bids, benefitting both the agencies and the
-taxpayers they serve. This led to the development of [several
-platforms]({{ "/rfpez/" | url }}), now in beta, that build on these
+taxpayers they serve. This led to the development of several
+platforms (link removed), now in beta, that build on these
 learnings and are challenging us to think differently about how we
 engage the private sector.
 >

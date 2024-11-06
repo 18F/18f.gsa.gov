@@ -61,7 +61,7 @@ prototype a new cia.gov experience as a design exercise.*
 **AM:** It started when I was reading about applying the Draft Standards. I
 read articles introducing the Draft Standards and discussing how
 government websites were going to be attractive and intuitive soon. I
-went to the [Dashboard page]({{ "/dashboard/" | url }}) of 18F to
+went to the Dashboard page (link removed) of 18F to
 start looking how other groups were using the Draft Standards and found
 a lot of great examples. I could really see the standards morph and
 adapt with each project, yet still retain the same principles, tone, and

@@ -40,7 +40,7 @@ One of the key tenets of agile is to build in small, minimally viable increments
 
 The idea that large pieces of work should be broken up into smaller pieces that are achievable, testable, and deliverable makes up part of the foundation for agile practices.
 
-Agile methodologies are a key component of how 18F works with partners, and they’re also a key strategy that governments need to successfully work with technology vendors. 18F has developed [its own pool of agile vendors]({{ "/our-work/agile-bpa/" | url }}), and also worked [directly with states]({{ "/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/" | url }}) to help them craft their own agile vendor pools.
+Agile methodologies are a key component of how 18F works with partners, and they’re also a key strategy that governments need to successfully work with technology vendors. 18F has developed its own pool of agile vendors, and also worked [directly with states]({{ "/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/" | url }}) to help them craft their own agile vendor pools.
 
 Learning how to adopt agile practices is a key part of being able to work with vendors to overhaul complex legacy systems.
 

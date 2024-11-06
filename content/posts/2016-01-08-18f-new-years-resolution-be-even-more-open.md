@@ -81,7 +81,7 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  for usability, for instance — but we could specifically ask for
  external help with that task.
 
--   To that end, we might use [our newsletter]({{ "/#newsletter" | url }})
+-   To that end, we might use our newsletter (link removed)
  as a way to **explicitly ask for help**. For example, we could
  include three specific open issues in each newsletter that the
  public could jump in on.
@@ -92,13 +92,13 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  those tools, write about them more, and identify the parts of our
  work that are generic. Decoupling them from the applications we
  developed them for will make it easier for others to reuse them.
- (h/t [**Eric Mill**]({{ "/team/eric/" | url }}))
+ (h/t [**Eric Mill**]({{ "/author/eric/" | url }}))
 
 -   **Learn from previous contributors.** We’d like to reach out to
  previous contributors to see what they liked and didn’t like. If
  they contributed once and never returned, we’d like to find out
  why. Are there ways we can invite them back? (h/t [**Maya
- Benari**]({{ "/team/maya/" | url }}))
+ Benari**]({{ "/author/maya/" | url }}))
 
 -   **Make it worthwhile** to contribute. Unpaid work on government
  projects is public service, requiring time, effort, and skill, and
@@ -120,7 +120,7 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  etiquette**. For example, you should always explain why you're
  closing an issue or pull request — and we shouldn't expect new
  hires to know that on their first day. (h/t
- [**Leah Bannon**]({{ "/team/leah/" | url }}))
+ [**Leah Bannon**]({{ "/author/leah/" | url }}))
 
 -   **Address user needs.** Here’s a specific user need: "I have a lot
  of experience with open source, and I heard about 18F. Can you
@@ -134,7 +134,7 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
 -   **Treat this as an agile, iterative project** and report back on
  what's working and what we can improve. We'll be updating you
  throughout the year on this blog, in our
- [newsletter]({{ "/#newsletter" | url }}), and on
+ newsletter (link removed), and on
  [Twitter](https://twitter.com/18F/).
 
 If you have any suggestions, please [let us

@@ -67,7 +67,7 @@ country who have lived through the need for these resources.
 The task force came to us at the end of March, and asked us to deliver a
 site before the end of April. Notwithstanding the tight deadline, we did
 [what we always
-do]({{ "/18f/team/culture/2014/03/19/hello-world-we-are-18f/" | url }}):
+do]({{ "/2014/03/19/hello-world-we-are-18f/" | url }}):
 begin by [learning what our primary users were
 seeking](https://en.wikipedia.org/wiki/User-centered_design). Mollie led
 a design thinking workshop with student advocates and survivors, asking

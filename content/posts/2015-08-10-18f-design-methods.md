@@ -158,22 +158,22 @@ love to hear how we could make the method cards even more useful to you.
 
 Project team:
 
--   [Jeremy Canfield]({{ "/team/jeremy/" | url }})
+-   [Jeremy Canfield]({{ "/author/jeremy/" | url }})
 
--   [Elizabeth Goodman]({{ "/team/egoodman/" | url }})
+-   [Elizabeth Goodman]({{ "/author/egoodman/" | url }})
 
--   [James Hupp]({{ "/team/jameshupp/" | url }})
+-   [James Hupp]({{ "/author/jameshupp/" | url }})
 
--   [Jeannine Hunter]({{ "/team/jhunter/" | url }})
+-   [Jeannine Hunter]({{ "/author/jhunter/" | url }})
 
--   [Colin MacArthur]({{ "/team/colinmacarthur/" | url }})
+-   [Colin MacArthur]({{ "/author/colinmacarthur/" | url }})
 
--   [Andrew Maier]({{ "/team/andrewmaier/" | url }})
+-   [Andrew Maier]({{ "/author/andrewmaier/" | url }})
 
--   [Brad Nunnally]({{ "/team/bradnunnally/" | url }})
+-   [Brad Nunnally]({{ "/author/bradnunnally/" | url }})
 
--   [Jennifer Thibault]({{ "/team/jthibault/" | url }})
+-   [Jennifer Thibault]({{ "/author/jthibault/" | url }})
 
--   [Russ Unger]({{ "/team/russ/" | url }})
+-   [Russ Unger]({{ "/author/russ/" | url }})
 
--   [Victor Zapanta]({{ "/team/victor/" | url }})
+-   [Victor Zapanta]({{ "/author/victor/" | url }})

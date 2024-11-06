@@ -51,9 +51,9 @@ information or interrupting teammates.
 
 Many of our project teams are still small and absorb new hires rather
 quickly, but some teams have also drafted project-specific onboarding
-plans. For example, [the team that maintains the 18f.gsa.gov website
+plans. For example, the team that maintains the 18f.gsa.gov website
 has an onboarding plan, posted in the
-Hub]({{ "/hub/18f-site/onboarding/" | url }}), that covers the
+Hub (link removed), that covers the
 following topics:
 
 -   Who is on my team and when will I meet them?
@@ -62,7 +62,7 @@ following topics:
 -   First week goals
 -   First month goals
 
-Also, because 18F has [team members all over the country]({{ "/hub/locations/" | url }}), a page of guidelines in
+Also, because 18F has team members all over the country (link removed), a page of guidelines in
 the Hub specifically addresses the needs of folks not working from one
 of our GSA offices.
 

@@ -139,7 +139,7 @@ physically in San Francisco. You can connect with people in many ways,
 including chat rooms, video chats, social media such as Twitter or
 Facebook groups, or listservs. (These also help establish a larger
 community around the open source project. For example, the 18F project
-[Midas]({{ "/dashboard/project/midas/" | url }}) has a [Google
+Midas has a [Google
 group](https://groups.google.com/forum/#!forum/midascrowd) where
 community members can talk with our developer team.)
 

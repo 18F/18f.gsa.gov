@@ -20,8 +20,8 @@ If you have questions about [18F]({{ "/" | url }}) or the [Presidential Innovati
 
 **18F AMA: [government/ask-me-anything\#4](https://github.com/government/ask-me-anything/issues/4 "18F: newly-launched initiative to bring effective, user-centric digital services to the federal government")**
 
--   [About 18F]({{ "/18f/team/culture/2014/03/19/hello-world-we-are-18f/" | url }})
--   Who's answering? [Team 18F]({{ "/#team" | url }}), [fellows](https://obamawhitehouse.archives.gov/innovationfellows/meet-the-fellows)
+-   [About 18F]({{ "/2014/03/19/hello-world-we-are-18f/" | url }})
+-   Who's answering? Team 18F, [fellows](https://obamawhitehouse.archives.gov/innovationfellows/meet-the-fellows)
 -   [Apply to be a Presidential Innovation Fellow](https://pif.gsa.gov/)
 
 P.S. The deadline for the current fellowship application is April 7, 2014!

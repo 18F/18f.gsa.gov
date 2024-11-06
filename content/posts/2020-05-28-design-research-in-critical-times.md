@@ -102,6 +102,6 @@ Our mission remains the same: to improve the user experience of government servi
 
 Is your design and research team trying to shift to fully remote work at this critical moment? With expertise in modern digital tools and practices, 18F can equip your staff with strategies to maximize effective collaboration in a distributed setting. We can also help implement or create online options for processes that are currently only available in-person.
 
-Contact 18F-inquiries@gsa.gov if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
+[Contact 18F]({{ "/contact/" | url }}) if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
 
 **Thank you** to everyone in the 18F Design Team and the TTS Research Guild who participated in the conversations that led to this post. Thanks to Ron Bronson for leading the initial conversation, Anne Petersen for direction and guidance, and Malaika Carpenter for editing.

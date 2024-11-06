@@ -22,7 +22,7 @@ In the [first post of this trilogy]({{ "/2015/12/30/turning-learning-up-to-11/" 
 --------------------------------
 
 [About a year ago]({{ "/2014/12/23/hub/" | url }}), I began
-writing the [18F Hub]({{ "/hub/" | url }}) as a prototype of a
+writing the 18F Hub (link removed) as a prototype of a
 very lightweight intranet tool to help organize our team information and
 expose the connections between people, projects, skills, interests, and
 locations. One of the most important functions of this tool was to
@@ -106,8 +106,8 @@ intake process](https://pages.18f.gov/partnership-playbook/), just like
 any other project. We now have an official product team assigned to
 developing all of them as an integrated ecosystem. We’re also closely
 coordinating with the [Agile Guild](https://pages.18f.gov/agile/), our
-first internal partner, to update the [18F
-Dashboard]({{ "/dashboard/" | url }}), our first consumer of
+first internal partner, to update the 18F
+Dashboard (link removed), our first consumer of
 .about.yml data via the Team API.
 
 We’ve built this product team because we understand that our

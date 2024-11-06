@@ -53,7 +53,7 @@ and programming languages.
 # Win–wins
 
 As 18F [points
-out]({{ "/search/?q=open+source+software" | url }}), adopting an
+out]({{ "/tags/open-source/" | url }}), adopting an
 open source policy has many benefits. Government agencies — especially
 those with HPC centers, like LLNL — are trying to solve similar
 problems. With open source software, agencies and contractors can align

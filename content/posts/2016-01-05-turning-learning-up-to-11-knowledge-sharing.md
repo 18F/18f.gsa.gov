@@ -43,8 +43,8 @@ concerns. The Documentation Working Group in particular has helped many
 of these groups become more productive and visible thanks to the [18F
 Guides](https://guides.18f.gov/) vehicle. In terms of software
 products, the [Agile Guild](https://pages.18f.gov/agile/) is currently
-leading the effort to enhance our externally facing [18F
-Dashboard]({{ "/dashboard/" | url }}), and the [Testing
+leading the effort to enhance our externally facing 18F
+Dashboard (link removed), and the [Testing
 Grouplet](https://pages.18f.gov/wg-testing/) has prototyped an
 internally facing dashboard for the code health of our projects. As
 mentioned in the previous post, our Hub, Handbook, .about.yml standard,

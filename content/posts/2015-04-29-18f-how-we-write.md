@@ -60,4 +60,4 @@ The draft is also open to the entire 18F team. Feedback is once again shared, an
 
 ## Read Our README
 
-Our README in our private blog-drafts repo has [the following instructions]({{ "/hub/blogging/" | url }}) to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in the [same repo as our site.](https://github.com/18F/18f.gsa.gov/)
+Our README in our private blog-drafts repo has the following instructions (link removed) to make our process clear to the whole team. We keep our blog-drafts repo private so that people feel comfortable sharing ideas and giving feedback. Once the blog post is published, all of the text and code lives in the [same repo as our site.](https://github.com/18F/18f.gsa.gov/)

@@ -22,9 +22,9 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 
 ## By the projects
 
-15: Current [Delivery Services Projects]({{ "/dashboard/" | url }})
+15: Current Delivery Services Projects (link removed)
 
-7: [Projects]({{ "/dashboard/" | url }}) currently in Beta
+7: Projects (link removed) currently in Beta
 
 125: End-users engaged while we were researching, prototyping, and developing projects
 

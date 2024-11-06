@@ -108,7 +108,7 @@ Joining 18F from outside of government was a big leap for me, but these
 three products helped me get my footing quickly. Want to learn more
 about 18F, the products we’re working on, and opportunities to join the
 team? Visit the
-[dashboard]({{ "/dashboard/" | url }}) and
+dashboard (link removed) and
 learn
 [more]({{ "/2015/01/21/join-us/" | url }}).
 

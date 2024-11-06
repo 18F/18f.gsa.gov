@@ -45,7 +45,7 @@ Under each point, you’ll see explanatory information, specifics on what
 the play means for our shared work, and how to know if you are ready to
 execute the play.
 
-As [our work]({{ "/dashboard" | url }})
+As our work
 goes on, we will continue to iterate this playbook and other guides to
 memorialize the lessons we learn. If you don’t feel prepared to work in
 the ways described, [18F Consulting]({{ "/consulting/" | url }})

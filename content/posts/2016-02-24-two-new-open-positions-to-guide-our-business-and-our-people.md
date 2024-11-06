@@ -79,7 +79,7 @@ We’ve also got positions open for front end designers, visual designers,
 and technical account managers. You can always see our open positions by
 [checking out this
 page](https://pages.18f.gov/joining-18f/roles-and-teams/). You can also
-[subscribe to our newsletter]({{ "/#newsletter" | url }}) and
+subscribe to our newsletter (link removed) and
 [follow us on Twitter](https://twitter.com/18F/) to stay updated on
 our openings. If you have questions about any of these job openings,
 email our Talent Team at [join18f@gsa.gov](mailto:join18f@gsa.gov) —

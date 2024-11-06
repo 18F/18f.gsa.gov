@@ -38,9 +38,9 @@ _Photo: Jameson Dempesy_
 
 ## Blog
 
-*We published over 130 posts this year on our [blog]({{ "/blog" | url }}) and featured 70 team members and 10 guests as authors.*
+*We published over 130 posts this year on our [blog]({{ "/blog/" | url }}) and featured 70 team members and 10 guests as authors.*
 
-“The projects I covered for the blog, most recently [USEITI]({{ "/tags/useiti" | url }}), were an amazing opportunity to hear about how our developers and designers approach making a better government for the American public.” - **Greg Boone**
+“The projects I covered for the blog, most recently [USEITI]({{ "/tags/useiti/" | url }}), were an amazing opportunity to hear about how our developers and designers approach making a better government for the American public.” - **Greg Boone**
 
 “I’m very proud of all the work that went into the blog this year including the wide range of posts we’ve published, the improved editing process, and all the new authors and voices we were able to represent.” - **Andre Francisco**
 
@@ -173,7 +173,7 @@ _The Social and Behavioral Sciences team was the first adopter for Federalist._
 
 ### SBIR-EZ
 
-*This year, we worked with the Air Force on [an application]({{ "/dashboard/project/sbirez/ "SBIR-EZ"" | url }}) built on the FBOpen API to simplify, streamline, and unify the Small Business Innovation Research application process.*
+*This year, we worked with the Air Force on an application built on the FBOpen API to simplify, streamline, and unify the Small Business Innovation Research application process.*
 
 “I really enjoyed working on SBIR-EZ because it opened my eyes to a fascinating program for supporting small businesses.” - **David Best**
 

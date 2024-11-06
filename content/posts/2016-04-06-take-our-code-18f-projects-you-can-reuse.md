@@ -56,7 +56,7 @@ projects are in varying stages of development and would generally
 benefit from external expertise — feel welcome to open issues and pull
 requests. We’re also featuring selected [“help wanted”
 tasks](https://github.com/search?q=user%3A18f+label%3A%22help+wanted%22)
-in [our weekly newsletter]({{ "/#newsletter" | url }}). If you
+in our weekly newsletter (link removed). If you
 have suggestions for other 18F projects to include in a future iteration
 of this list, you can add them to [the discussion of our New Year’s
 resolution](https://github.com/18F/18f.gsa.gov/issues/1445).
