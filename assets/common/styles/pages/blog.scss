@@ -63,13 +63,6 @@
 .post-feature_figure {
   margin: 0;
   overflow: hidden;
-
-  figcaption {
-    @include u-font('sans', 'xs');
-    @include u-line-height('sans', 5);
-    margin-top: units(1);
-    text-align: center;
-  }
 }
 
 .post-feature_image {
