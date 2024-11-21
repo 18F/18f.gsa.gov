@@ -1,0 +1,15 @@
+# Repo admin/owner check
+# Partial implementation of
+# AC-5 Least Privilege
+# AC-6 Separation of Duties
+optConfig:
+  disableRepoOverride: false
+  optOutStrategy: true
+action: issue
+# Policies
+ownerlessAllowed: false
+userAdminsAllowed: false
+teamAdminsAllowed: true
+# Override from 2 to 3, since we need
+# TTS Outreach, TTS Admin, and TLC Leads
+maxNumberAdminTeams: 3
