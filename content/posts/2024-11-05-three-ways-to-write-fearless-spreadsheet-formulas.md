@@ -51,9 +51,9 @@ visitors per day: 171
 ## Writing conventional formulas
 Let's assume that the total visitors this quarter are in cell `B2`. The number of days elapsed this quarter are in cell `C2`.
 
-| A | B | C |
-|:-:|---|---|
-| 1 | Daily visitor rate for 2025 Q1 | Total visitors in 2025 Q1 | Days elapsed in 2025 Q1 |
+|| A | B | C |
+|:-:|-|---|---|
+| 1 | **Daily visitor rate for 2025 Q1** | **Total visitors in 2025 Q1** | **Days elapsed in 2025 Q1** |
 | 2 | TODO: Formula for daily visitor rate | 513 | 3 |
 | 3 | | |
 
@@ -97,7 +97,7 @@ This won't work either. On the first day of each quarter, the formula would eval
 
 Instead of handing the error like this, we can prevent the error from happening. We know that the error occurs under one specific condition — the first day of the quarter, when zero days have elapsed. So, let's add a pre-condition that prevents the error. This is known as a "guard clause."
 
-(If you're copying and pasting this code, remember to delete everything on lines after `#`. These are my way to annotate the code, but the spreadsheet formula language will raise an error.)
+(If you're copying and pasting this code, remember to delete the comment denoted by `/* */`. These are my way to annotate the code, but the spreadsheet formula language will raise an error.)
 
 ```sql
 =IF(C2 = 0, /* guard clause */
@@ -118,7 +118,7 @@ We could stop writing our formula here, and it would be fine — so long as this
 
 Let's pause a moment and think about the "story" this code is telling.
 
-In his talk Confident Code, developer Avdi Grimm explains that code has to do four things:
+In his talk [Confident Code](https://www.youtube.com/watch?v=T8J0j2xJFgQ), developer Avdi Grimm explains that code has to do four things:
 
 - Collect input
 - Perform work
@@ -230,13 +230,13 @@ When software developers write code, they can leave comments in the code. Commen
 
 If comments are being used instead of writing clear code, the code and developers suffer. You may hear anti-comment sentiments from some developers, but my understanding is that disdain for comments is a reaction to the negative experience when comments are used as a substitute for clear code.
 
-If comments are being used to supplement writing clear code, they can be quite helpful. Comments can summarize the formula — otherwise readers might have to read all the formula code to understand what's going on. Comments can also provide context, explain assumptions, warn about common mistakes, and more.
+If comments are being used to supplement writing clear code, they can be quite helpful. Comments can provide context, explain assumptions, warn about common mistakes, and more. Comments can also summarize the formula, so that readers don't have to read all the code to understand what's going on. 
 
 But spreadsheet programs don't let you leave comments — _or do they_?
 
 #### Writing our first comment
 
-In other languages, a special identifier like a hash (`#`), double-slash (`//`), or other syntax (`/* */`) will indicate a comment. Spreadsheet language doesn't let you do quite that, which you may already know if you tried to copy and paste the last code example into a spreadsheet.
+In other languages, a special identifier like a hash (`#`), double-slash (`//`), or other syntax (`/* */`) will indicate a comment. Spreadsheet language doesn't let you do *quite* that, which you may already know if you tried to copy and paste some of the prior code examples into a spreadsheet.
 
 But believe it or not, you can use `LET` to leave a comment!
 
@@ -244,7 +244,7 @@ But believe it or not, you can use `LET` to leave a comment!
 =LET(
   comment, "
      Calculates the daily visitor rate for the current quarter.
-On the first day of the quarter (0 days elapsed), it will say that data is pending.
+     On the first day of the quarter (0 days elapsed), it will say that data is pending.
   ",
   visitors_in_quarter, B2,
   days_in_quarter, C2,
@@ -300,37 +300,42 @@ When writing formulas, simpler is better. So if you have a complex problem to so
 
 Let's add the adjusted numbers and rates into our formula.
 
-```sql
+```diff
 =LET(
   visitors_in_quarter, B2,
   days_in_quarter, C2,
-  adjusted_visitors_in_quarter, visitors_in_quarter - (10 * days_in_quarter),
++ adjusted_visitors_in_quarter, visitors_in_quarter - (10 * days_in_quarter),
   daily_visitor_rate, ROUND(visitors_in_quarter/days_in_quarter),
-  adjusted_daily_visitor_rate, ROUND(adjusted_visitors_in_quarter/days_in_quarter),
++ adjusted_daily_visitor_rate, ROUND(adjusted_visitors_in_quarter/days_in_quarter),
   IF(
-  days_in_quarter <= 0,
-  "Data is pending.",
-     "visitors per day: " & adjusted_daily_visitor_rate & "(adjusted from " & daily_visitor_rate & ")"
+    days_in_quarter <= 0,
+    "Data is pending.",
+    "visitors per day: " & adjusted_daily_visitor_rate & "(adjusted from " & daily_visitor_rate & ")"
   )
 )
 ```
 
 Notice how we do the same rate calculation twice, but with different numbers — we're dividing, then rounding.
 
-It's common practice in software development to try to reduce the amount of duplication. We call it DRY, which stands for Don't Repeat Yourself. We can reduce duplication with LAMBDA, a relatively new feature in spreadsheet programs.
+It's common practice in software development to try to reduce the amount of duplication. We call it DRY, which stands for Don't Repeat Yourself. We can reduce duplication with `LAMBDA`, a relatively new feature in spreadsheet programs.
 
-```sql
+In the next code example, we'll add a lambda, then reduce duplicated code by using the lambda instead.
+
+```diff
 =LET(
   visitors_in_quarter, B2,
   days_in_quarter, C2,
-  visitor_rate, LAMBDA(visitor_count, ROUND(visitor_count/days_in_quarter)),
+
++ visitor_rate, LAMBDA(visitor_count, ROUND(visitor_count/days_in_quarter)),
   adjusted_visitors_in_quarter, visitors_in_quarter - (10 * days_in_quarter),
-  daily_rate, visitor_rate(visitors_in_quarter),
-  adjusted_daily_rate, visitor_rate(adjusted_visitors_in_quarter),
+
++ daily_rate, visitor_rate(visitors_in_quarter),
++ adjusted_daily_rate, visitor_rate(adjusted_visitors_in_quarter),
+
   IF(
-  days_in_quarter <= 0,
-  "Data is pending.",
-     "visitors per day: " & adjusted_daily_rate & "(adjusted from " & daily_rate & ")"
+    days_in_quarter <= 0,
+    "Data is pending.",
+    "visitors per day: " & adjusted_daily_rate & "(adjusted from " & daily_rate & ")"
   )
 )
 ```
@@ -339,20 +344,22 @@ We've just created our first lambda! Lambdas are mini-formulas you can use and r
 
 Let's make one more change, and move the details of how we format or present the rate into its own `LAMBDA`. Moving complexity out of the main body of the formula can help clarify the code. We can trust the body of the code to be the most important part, and then we can go back and read the lambdas if we need to get into the details of how they work.
 
-```sql
+```diff
 =LET(
   visitor_rate, LAMBDA(visitor_count, ROUND(visitor_count/days_in_quarter)),
-  adjusted_visitors_in_quarter, visitors_in_quarter - (10 * days_in_quarter),
-  format, LAMBDA(adjusted, original, IF(
-  days_in_quarter <= 0,
-  "Data is pending.",
-     "visitors per day: " & adjusted & "(adjusted from " & original & ")"
-  ),
++ format, LAMBDA(adjusted, original, IF(
++     days_in_quarter <= 0,
++     "Data is pending.",
++     "visitors per day: " & adjusted & "(adjusted from " & original & ")"
++   )
++ ),
+
   visitors_in_quarter, B2,
   days_in_quarter, C2,
+  adjusted_visitors_in_quarter, visitors_in_quarter - (10 * days_in_quarter),
   daily_rate, visitor_rate(visitors_in_quarter),
   adjusted_daily_rate, visitor_rate(adjusted_visitors_in_quarter),
-  format(adjusted_daily_rate, daily_rate)
++ format(adjusted_daily_rate, daily_rate)
 )
 ```
 
