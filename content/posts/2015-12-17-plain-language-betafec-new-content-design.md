@@ -21,7 +21,7 @@ Whether you’re an individual donor or a Senate candidate, the rules that apply
 
 The Federal Election Commission (FEC) has been working since the 1970s to clarify these rules, and today we’re thrilled to announce the first major content launch of betaFEC: a guide to registration and reporting that makes intricate information easier to understand.
 
-Our [betaFEC project](http://beta.fec.gov) is a planned redesign of the FEC’s web presence, and we’ve been launching new features in phases. In July, we released the FEC’s [first API](https://18f.gsa.gov/2015/07/08/openfec-api/). In October, [we announced](https://18f.gsa.gov/2015/10/29/welcome-to-betafec/) the beta release of a new data site.
+Our [betaFEC project](http://beta.fec.gov) is a planned redesign of the FEC’s web presence, and we’ve been launching new features in phases. In July, we released the FEC’s [first API]({{ "/2015/07/08/openfec-api/" | url }}). In October, [we announced]({{ "/2015/10/29/welcome-to-betafec/" | url }}) the beta release of a new data site.
 
 Today’s launch: Registration and reporting content
 --------------------------------------------------

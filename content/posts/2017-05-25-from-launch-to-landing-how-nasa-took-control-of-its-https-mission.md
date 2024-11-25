@@ -61,7 +61,7 @@ One pertinent lesson: The core team underestimated the volume of communication t
 
 Regularity and consistency of communication across the diverse stakeholder community was an important part of NASA getting compliant.
 
-For NASA, tool selection began with delving into use of [`pshtt`](https://github.com/dhs-ncats/pshtt). The Department of Homeland Security and the General Services Administration both use pshtt to scan agencies, and [collaborated in its development](https://18f.gsa.gov/2017/01/06/open-source-collaboration-across-agencies-to-improve-https-deployment). NASA found a lot of benefit in studying `pshtt` and came to really value the insight provided through the tool's open source development. Beyond vanilla `pshtt`, we augmented the tool’s output to map responsible centers to target websites and services for easier communication to stakeholders, and even [contributed to the tool's overall development](https://github.com/dhs-ncats/pshtt/pull/65).
+For NASA, tool selection began with delving into use of [`pshtt`](https://github.com/dhs-ncats/pshtt). The Department of Homeland Security and the General Services Administration both use pshtt to scan agencies, and [collaborated in its development]({{ "/2017/01/06/open-source-collaboration-across-agencies-to-improve-https-deployment/" | url }}). NASA found a lot of benefit in studying `pshtt` and came to really value the insight provided through the tool's open source development. Beyond vanilla `pshtt`, we augmented the tool’s output to map responsible centers to target websites and services for easier communication to stakeholders, and even [contributed to the tool's overall development](https://github.com/dhs-ncats/pshtt/pull/65).
 
 
 <figure>
@@ -78,7 +78,7 @@ We also augmented reports to track targets longitudinally, monitoring for endpoi
 
 In addition to `pshtt`, NASA used other common applications, such as `curl`, `OpenSSL`, and `Nmap`, and included their output alongside results from `pshtt`.
 
-Finally, NASA combined HTTPS compliance findings with a TLS cipher usage audit. These cipher reports were driven mainly by [NIST SP 800-52](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf) and certain findings from [DHS Cyber Hygiene](https://18f.gsa.gov/2017/01/06/open-source-collaboration-across-agencies-to-improve-https-deployment) activities (especially SWEET32 vulnerabilities stemming from known weaknesses in 3DES ciphers). In a similar spirit to `pshtt`, the code used to audit ciphers was made available for collaborative development through an agency source control repository and used to generate regularly scheduled reports.
+Finally, NASA combined HTTPS compliance findings with a TLS cipher usage audit. These cipher reports were driven mainly by [NIST SP 800-52](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf) and certain findings from [DHS Cyber Hygiene]({{ "/2017/01/06/open-source-collaboration-across-agencies-to-improve-https-deployment/" | url }}) activities (especially SWEET32 vulnerabilities stemming from known weaknesses in 3DES ciphers). In a similar spirit to `pshtt`, the code used to audit ciphers was made available for collaborative development through an agency source control repository and used to generate regularly scheduled reports.
 
 ## Challenges
 

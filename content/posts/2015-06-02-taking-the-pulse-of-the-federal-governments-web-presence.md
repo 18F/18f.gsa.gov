@@ -41,7 +41,7 @@ Pulse is a collaboration between 18F and the [Office of Government-wide Policy](
 
 Like 18F, OGP is an office of the U.S. General Services Administration. Among many other things, OGP operates the [.gov domain registry](https://www.dotgov.gov) and the [CIO Council](https://cio.gov), an interagency forum of Chief Information Officers.
 
-18F previously partnered with OGP in December to [release the complete .gov domain list](https://18f.gsa.gov/2014/12/18/a-complete-list-of-gov-domains/). Since then, 18F has worked with the Digital Analytics Program [to build analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/), and has coordinated with a number of agencies to [strengthen HTTPS for federal .gov domains](https://18f.gsa.gov/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/). We're deeply gratified that we've had the opportunity to work with OGP to create a platform that continues this momentum.
+18F previously partnered with OGP in December to [release the complete .gov domain list]({{ "/2014/12/18/a-complete-list-of-gov-domains/" | url }}). Since then, 18F has worked with the Digital Analytics Program [to build analytics.usa.gov]({{ "/2015/03/19/how-we-built-analytics-usa-gov/" | url }}), and has coordinated with a number of agencies to [strengthen HTTPS for federal .gov domains]({{ "/2015/02/09/the-first-gov-domains-hardcoded-into-your-browser-as-all-https/" | url }}). We're deeply gratified that we've had the opportunity to work with OGP to create a platform that continues this momentum.
 
 ## How pulse.cio.gov works
 
@@ -76,13 +76,13 @@ Access to the account is shared within the federal government, and much of its d
 
 [{% image "assets/blog/pulse/analytics-domains.png" "pulse screenshot of analytics domains" %}](https://pulse.cio.gov/analytics/domains/)
 
-Pulse measures participation in the simplest way possible: by comparing the .gov domain list to the list of participating websites published by the Digital Analytics Program. It's not rocket science, but in the future we'd like to automate this process using the [`analytics-reporter`](https://github.com/18F/analytics-reporter) tool [we created for analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/).
+Pulse measures participation in the simplest way possible: by comparing the .gov domain list to the list of participating websites published by the Digital Analytics Program. It's not rocket science, but in the future we'd like to automate this process using the [`analytics-reporter`](https://github.com/18F/analytics-reporter) tool [we created for analytics.usa.gov]({{ "/2015/03/19/how-we-built-analytics-usa-gov/" | url }}).
 
 ## Measuring HTTPS in .gov
 
 [{% image "assets/blog/pulse/https.png" "pulse screenshot of https homepage" %}](https://pulse.cio.gov/https/domains/)
 
-Enforcing strong HTTPS is an [important baseline](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/) for government websites, and is in the [process](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/) of [becoming](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure) the baseline for the web at large.
+Enforcing strong HTTPS is an [important baseline]({{ "/2014/11/13/why-we-use-https-in-every-gov-website-we-make/" | url }}) for government websites, and is in the [process](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/) of [becoming](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure) the baseline for the web at large.
 
 HTTPS is simple enough to detect, but characterizing HTTPS support for a domain, precisely and reliably, is trickier than you might expect.
 

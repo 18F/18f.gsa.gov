@@ -29,7 +29,7 @@ Technology Transformation
 Service](https://www.usajobs.gov/GetJob/ViewDetails/444223600/).
 
 The [Technology Transformation
-Service](https://18f.gsa.gov/2016/05/03/delivering-the-next-generation-of-digital-government/)
+Service]({{ "/2016/05/03/delivering-the-next-generation-of-digital-government/" | url }})
 (TTS) is a new organization within the General Services Administration
 (GSA) that includes 18F, the Presidential Innovation Fellows program,
 the Federal Risk and Authorization Management Program (FedRAMP), and the

@@ -18,7 +18,7 @@ _Oil drilling is one of many industries included in the Extractive Industries Tr
 
 During [Sunshine Week](http://www.sunshineweek.org/), [we wrote about
 our progress on the U.S. Extractive Industries Transparency Initiative, or
-USEITI,](https://18f.gsa.gov/2015/03/18/sunshine-week-extractive-industries-transparency-initiative-event/) an international coalition organized here by the U.S. Department
+USEITI,]({{ "/2015/03/18/sunshine-week-extractive-industries-transparency-initiative-event/" | url }}) an international coalition organized here by the U.S. Department
 of the Interior and a multi-stakeholder group that includes
 representatives from nonprofits, academia, industry and local
 governments. Since March, the 18F team has worked with the USEITI team

@@ -16,7 +16,7 @@ hero: false
 
 For the past two years, 18F has had the pleasure of [working with the
 Wage and Hour Division (WHD) of the U.S. Department of
-Labor](https://18f.gsa.gov/2015/09/09/how-a-two-day-sprint-moved-an-agency-twenty-years-forward/).
+Labor]({{ "/2015/09/09/how-a-two-day-sprint-moved-an-agency-twenty-years-forward/" | url }}).
 WHD has been with 18F at the forefront of digital transformation and has
 been an outstanding early adopter. One of our latest initiatives has
 been an [Agile Delivery Services Blanket Purchase
@@ -54,7 +54,7 @@ plan to:
 
 To turn this vision into a prototype, we turned to the vendors on the
 [Agile
-BPA](https://18f.gsa.gov/2015/08/28/announcing-the-agile-BPA-awards/), which would allow us to see results quickly while also introducing WHD
+BPA]({{ "/2015/08/28/announcing-the-agile-BPA-awards/" | url }}), which would allow us to see results quickly while also introducing WHD
 to modular contracting and agile
 development. The first hurdle to adopting modular contracting was working with the WHD team to design a plan that would give the vendor only 60 days to
 complete the work, with no options to extend. This is much shorter than

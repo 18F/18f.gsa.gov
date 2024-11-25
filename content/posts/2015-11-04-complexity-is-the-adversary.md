@@ -42,6 +42,6 @@ We're moving in the right direction. The U.S. Computer Emergency Readiness Team 
 
 This is a great start! There's nothing new on this list — these are things any organization, either in the public or the private sector, can and should implement ***today***. But that means this is also a summary of what should *already* be true. It doesn't create the roadmap of where we should go from here. All of this is technology that's been available for years.
 
-18F is [dedicated to fighting complexity](https://18f.gsa.gov/2014/05/14/hacking-bureaucracy-improving-hiring-and-software/) and sharing simplicity. We've already made huge progress around HTTPS, continuous monitoring, and baking security into our platform.
+18F is [dedicated to fighting complexity]({{ "/2014/05/14/hacking-bureaucracy-improving-hiring-and-software/" | url }}) and sharing simplicity. We've already made huge progress around HTTPS, continuous monitoring, and baking security into our platform.
 
 We plan to publish continued guidance on how to implement these current best practices quickly and efficiently, while reducing an agency's overall complexity. We'll also talk about what agencies should focus on after implementing the above, using smart architectures and modern infrastructures.

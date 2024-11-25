@@ -107,7 +107,7 @@ In a design chapter meeting, we asked the team: “What have you learned from ot
 
 ### Foster a safe space and be curious.
 
-> Fostering a safe space lets us check our ego and ask questions that help us learn and grow. To be truly human centered in your work requires being curious and open. Read more about [our partnership principles](https://18f.gsa.gov/partnership-principles/) and collaboration approaches to help your project succeed.
+> Fostering a safe space lets us check our ego and ask questions that help us learn and grow. To be truly human centered in your work requires being curious and open. Read more about [our partnership principles]({{ "/partnership-principles/" | url }}) and collaboration approaches to help your project succeed.
 > <span>– Ben Peterson, UX designer</span>
 
 ### Asking for help is a sign of strength.
@@ -161,4 +161,4 @@ In a design chapter meeting, we asked the team: “What have you learned from ot
 
 ## Join us!
 
-It was really fun for us to broaden our view and intentionally reflect on how enriching our work is, and we’re always looking for new people to share and grow with us. Learn more on the [TTS website](https://join.tts.gsa.gov/) about our open positions, and find out how we work in our [UX Design Guide](https://ux-guide.18f.gov/our-approach/values-and-principles/), [18F Methods](https://methods.18f.gov/), and [Content Guide](https://content-guide.18f.gov/) (or [look through our other guides](https://18f.gsa.gov/guides/)).
+It was really fun for us to broaden our view and intentionally reflect on how enriching our work is, and we’re always looking for new people to share and grow with us. Learn more on the [TTS website](https://join.tts.gsa.gov/) about our open positions, and find out how we work in our [UX Design Guide](https://ux-guide.18f.gov/our-approach/values-and-principles/), [18F Methods](https://methods.18f.gov/), and [Content Guide](https://content-guide.18f.gov/) (or [look through our other guides]({{ "/guides/" | url }})).

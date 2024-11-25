@@ -16,9 +16,9 @@ image: /assets/blog/code-of-conduct/codeofconduct_screen.jpg
 We believe that in order to accomplish 18F’s mission of providing
 effective U.S. government services, we need to involve the people who
 will be using those services. We’ve written previously about the
-[importance of including users](https://18f.gsa.gov/2015/03/06/ux-lessons-learned-from-a-procurement-project/)
+[importance of including users]({{ "/2015/03/06/ux-lessons-learned-from-a-procurement-project/" | url }})
 in our development processes, and also about our policy and practices
-around [open source and transparency](https://18f.gsa.gov/tags/open%20source/). We strive to
+around [open source and transparency]({{ "/tags/open-source/" | url }}). We strive to
 partner with the public, co-creating services with the people who need
 them, and welcoming individuals who wish to volunteer as open source
 contributors.

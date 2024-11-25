@@ -25,11 +25,11 @@ On September 8, GSA is hosting its very first Technology Industry Day. [Sign up]
 
 **cloud.gov**
 
-- [cloud.gov](https://cloud.gov/) is a shared platform built for government that allows agencies to securely deploy systems to the cloud. It takes care of baseline security and scalability concerns and allows federal teams to focus on delivering quality products. We [expect](https://18f.gsa.gov/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/) cloud.gov to receive FedRAMP Joint Authorization Board Provisional Authority to Operate in November.
+- [cloud.gov](https://cloud.gov/) is a shared platform built for government that allows agencies to securely deploy systems to the cloud. It takes care of baseline security and scalability concerns and allows federal teams to focus on delivering quality products. We [expect]({{ "/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/" | url }}) cloud.gov to receive FedRAMP Joint Authorization Board Provisional Authority to Operate in November.
 
 **DATA Act**
 
-- The Digital Accountability and Transparency Act (DATA Act) is a law that, once implemented, will make it easier to understand how the federal government spends money. [18F has been working with the Department of the Treasury](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/) to successfully implement the law.
+- The Digital Accountability and Transparency Act (DATA Act) is a law that, once implemented, will make it easier to understand how the federal government spends money. [18F has been working with the Department of the Treasury]({{ "/2015/06/09/data-act-data-act-explainer/" | url }}) to successfully implement the law.
 
 
 **California Child Welfare System**

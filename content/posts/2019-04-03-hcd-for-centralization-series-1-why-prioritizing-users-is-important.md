@@ -16,7 +16,7 @@ understand how centralization has impacted their day-to-day work and
 gathered lessons learned and best practices."
 ---
 
-*This is the kick-off post in a [series](https://18f.gsa.gov/tags/it-centralization/) of posts on the importance of human-centered design when evaluating IT centralization. As part of a [10x](https://10x.gsa.gov/) project, we've synthesized 18F's learnings from agency partners who’ve been through centralization efforts before and have wisdom to share. The series explores how and why taking the time to prioritize users will mitigate risks and yield services that work better for the people they serve.*
+*This is the kick-off post in a [series]({{ "/tags/it-centralization/" | url }}) of posts on the importance of human-centered design when evaluating IT centralization. As part of a [10x](https://10x.gsa.gov/) project, we've synthesized 18F's learnings from agency partners who’ve been through centralization efforts before and have wisdom to share. The series explores how and why taking the time to prioritize users will mitigate risks and yield services that work better for the people they serve.*
 
 ## Bringing users into the conversation
 
@@ -66,7 +66,7 @@ collected insights about how this plays out.
 
 Our multi-part series shares learnings and best practices from real scenarios, with a focus on the following topics:
 
--   [Deciding whether or not to centralize](https://18f.gsa.gov/2019/04/11/hcd-for-centralization-series-2-deciding-whether-or-not-to-centralize/)
+-   [Deciding whether or not to centralize]({{ "/2019/04/11/hcd-for-centralization-series-2-deciding-whether-or-not-to-centralize/" | url }})
 -   [Working with vendors to build a centralized solution](https://github.com/18F/HCD_for_IT_Centralization/blob/master/working_with_vendors_to_build_a_centralized_solution.md)
 -   [What happens after you centralize?](https://github.com/18F/HCD_for_IT_Centralization/blob/master/what_happens_after_you_centralize.md)
 -   [Centralization gone right! A case study on the U.S. Web Design System](https://github.com/18F/HCD_for_IT_Centralization/blob/master/case_study_USWDS.md)

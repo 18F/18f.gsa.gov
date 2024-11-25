@@ -56,5 +56,5 @@ listserv](http://medium.us13.list-manage1.com/subscribe?u=5dc46345e0302158f44cf5
 To learn more about the [Digital Acquisition Accelerator
 Pilot](https://pages.18f.gov/digitalaccelerator/), read our [first
 blog
-post](https://18f.gsa.gov/2016/03/10/announcing-the-launch-of-the-digital-acquisitions-pilot/),
+post]({{ "/2016/03/10/announcing-the-launch-of-the-digital-acquisitions-pilot/" | url }}),
 or email us at [dap-18f@gsa.gov](mailto:dap-18f@gsa.gov).

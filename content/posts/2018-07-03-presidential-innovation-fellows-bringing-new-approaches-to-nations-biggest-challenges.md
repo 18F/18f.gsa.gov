@@ -65,7 +65,7 @@ entrepreneurs to convince people to join their projects. In the past,
 some of the most successful Fellow projects
 ([code.gov](https://code.gov/),
 [BlueButton](https://www.healthit.gov/topic/health-it-initiatives/blue-button),
-and [18F](https://18f.gsa.gov/)) were spun out of interagency
+and [18F]({{ "/" | url }})) were spun out of interagency
 collaborations among the White House, leaders from different agencies,
 and front-line government employees.
 

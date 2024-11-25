@@ -17,7 +17,7 @@ Right now, the United States is facing a critical time. Across the country, ther
 
 ## We can help
 
-As a team of government employees, [18F’s mission](https://18f.gsa.gov/about/) is to improve the user experience of government services by helping our partners build and buy technology more effectively. We’re a team of government employees with expertise in modern digital tools and practices, and we’re here to help:
+As a team of government employees, [18F’s mission]({{ "/about/" | url }}) is to improve the user experience of government services by helping our partners build and buy technology more effectively. We’re a team of government employees with expertise in modern digital tools and practices, and we’re here to help:
 
 - **Are you struggling to get the right messages out to your constituents when and where it counts?** 18F can help you develop a solid content strategy and quickly craft accessible, plain-language guidance to keep your constituents informed in this rapidly-shifting landscape.
 - **Is your team trying to shift to fully remote work without losing productivity at this critical moment?** 18F can help train your staff in the tools and strategies to maximize effective collaboration in a distributed setting. Also, we can help implement or create online options for processes that are currently only available in-person.
@@ -25,7 +25,7 @@ As a team of government employees, [18F’s mission](https://18f.gsa.gov/about/)
 
 ## You’re not alone
 
-Since 2014, [18F has partnered with federal, state, and local governments](https://18f.gsa.gov/our-work/#some-agencies-weve-worked-with) to improve the technology and processes that help ensure families receive the food, housing, and healthcare assistance they need. Over the past 6 years, we’ve worked on eligibility systems, application forms, grant and procurement processes, treatment finders, and more. We have helped our agency partners modernize mainframe backend systems, build and buy new modular pieces, and navigate the grey area in between.
+Since 2014, [18F has partnered with federal, state, and local governments]({{ "/our-work/" | url }}) to improve the technology and processes that help ensure families receive the food, housing, and healthcare assistance they need. Over the past 6 years, we’ve worked on eligibility systems, application forms, grant and procurement processes, treatment finders, and more. We have helped our agency partners modernize mainframe backend systems, build and buy new modular pieces, and navigate the grey area in between.
 
 <blockquote class="testimonial-blockquote">
 Our experience with 18F has been unique, and uniquely effective. They have helped us learn agile development as members of our team. The daily standups have really helped us form a close working relationship with them. They have introduced us to new tools that I expect we will continue to use when our work with them is completed.
@@ -41,7 +41,7 @@ It’s a mind-bending conversation when we can show that deploying changes to pr
 
 Our team of 100 designers, software engineers, strategists, and product managers — all federal employees — are distributed and remote-first in nearly every state in the union. We’re here to support your most urgent demands to better serve the needs of the American public. We support our government partners in providing digital services that are secure, instill pride and trust, meet user needs, and delivered quickly and at reasonable cost.
 
-Contact 18F-inquiries@gsa.gov if you’re a government agency with federal funding (including state and local!) who needs help adapting your
+[Contact 18F]({{ "/contact/" | url }}) if you’re a government agency with federal funding (including state and local!) who needs help adapting your
 digital services to rapidly shifting demands.
 
 Here to serve,

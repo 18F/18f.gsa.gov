@@ -158,22 +158,22 @@ love to hear how we could make the method cards even more useful to you.
 
 Project team:
 
--   [Jeremy Canfield](https://18f.gsa.gov/team/jeremy/)
+-   [Jeremy Canfield]({{ "/author/jeremy/" | url }})
 
--   [Elizabeth Goodman](https://18f.gsa.gov/team/egoodman/)
+-   [Elizabeth Goodman]({{ "/author/egoodman/" | url }})
 
--   [James Hupp](https://18f.gsa.gov/team/jameshupp/)
+-   [James Hupp]({{ "/author/jameshupp/" | url }})
 
--   [Jeannine Hunter](https://18f.gsa.gov/team/jhunter/)
+-   [Jeannine Hunter]({{ "/author/jhunter/" | url }})
 
--   [Colin MacArthur](https://18f.gsa.gov/team/colinmacarthur/)
+-   [Colin MacArthur]({{ "/author/colinmacarthur/" | url }})
 
--   [Andrew Maier](https://18f.gsa.gov/team/andrewmaier/)
+-   [Andrew Maier]({{ "/author/andrewmaier/" | url }})
 
--   [Brad Nunnally](https://18f.gsa.gov/team/bradnunnally/)
+-   [Brad Nunnally]({{ "/author/bradnunnally/" | url }})
 
--   [Jennifer Thibault](https://18f.gsa.gov/team/jthibault/)
+-   [Jennifer Thibault]({{ "/author/jthibault/" | url }})
 
--   [Russ Unger](https://18f.gsa.gov/team/russ/)
+-   [Russ Unger]({{ "/author/russ/" | url }})
 
--   [Victor Zapanta](https://18f.gsa.gov/team/victor/)
+-   [Victor Zapanta]({{ "/author/victor/" | url }})

@@ -25,7 +25,7 @@ A little more about what cloud.gov does
 
 cloud.gov gives teams working for the federal government a secure and compliant foundation on which to build and release products and updates quickly. It’s a “Platform as a Service” that handles shared technical and policy requirements common to all federal government systems. It runs on industry-provided infrastructure (currently Amazon Web Services), where it provides a government-customized middle layer to support agency teams who can focus on running the custom application code that delivers their agency’s services.
 
-18F is building cloud.gov as a cost-recoverable service funded by charging a fee to teams that use it. Teams at 18F use cloud.gov for our work with our agency partners. If you’re curious to learn more, see the [cloud.gov website](https://cloud.gov/), [previous blog posts](https://18f.gsa.gov/tags/cloud-gov/), and [documentation with technical details](https://docs.cloud.gov/intro/overview/what-is-cloudgov/).
+18F is building cloud.gov as a cost-recoverable service funded by charging a fee to teams that use it. Teams at 18F use cloud.gov for our work with our agency partners. If you’re curious to learn more, see the [cloud.gov website](https://cloud.gov/), [previous blog posts]({{ "/tags/cloud-gov/" | url }}), and [documentation with technical details](https://docs.cloud.gov/intro/overview/what-is-cloudgov/).
 
 Next steps in our FedRAMP progress
 ----------------------------------

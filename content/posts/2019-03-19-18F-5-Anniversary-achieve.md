@@ -13,7 +13,7 @@ celebrate our fifth birthday with a look back at what we’ve accomplished, what
 image: /assets/blog/5-anniversary/5-anniv-bright.jpg
 ---
 
-It’s been five years since we launched 18F with a [“Hello, world”](https://18f.gsa.gov/2014/03/19/hello-world-we-are-18f/) and a
+It’s been five years since we launched 18F with a [“Hello, world”]({{ "/2014/03/19/hello-world-we-are-18f/" | url }}) and a
 blog post about our vision for change. We’ve grown a lot since that day – in size, in focus, and in impact.
 
 We wanted to celebrate our fifth birthday with a look back. Here’s what we’ve accomplished, what we’ve learned along the way, and where we’re headed next.
@@ -24,9 +24,9 @@ We wanted to celebrate our fifth birthday with a look back. Here’s what we’v
 
 We may be small, but we are mighty. Our team of 118 employees worked with 22 different federal agencies and three states last year on everything from modernizing legacy Air Force schedulers to making background investigations more secure nationwide. Some of our most notable projects include:
 
-- Helping the **U.S. Forest Service** sell [Christmas tree permits online](https://18f.gsa.gov/2019/02/12/open-forest-launch-post/), simplifying the tree-buying process for the public and minimizing the administrative burden for Forest Service staff.
-- Working with **Alaska’s Department of Health and Social Services** to explore [modern procurement methods](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/) that get the right vendor partners working sooner rather than later.
-- Via [10x](https://10x.gsa.gov/) funding, building a tool for the **U.S. Department of Agriculture** that reduces error and waste by giving states a single, centrally owned way to check federal benefit [eligibility rules](https://18f.gsa.gov/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/).
+- Helping the **U.S. Forest Service** sell [Christmas tree permits online]({{ "/2019/02/12/open-forest-launch-post/" | url }}), simplifying the tree-buying process for the public and minimizing the administrative burden for Forest Service staff.
+- Working with **Alaska’s Department of Health and Social Services** to explore [modern procurement methods]({{ "/2017/09/12/how-alaska-is-using-transparency/" | url }}) that get the right vendor partners working sooner rather than later.
+- Via [10x](https://10x.gsa.gov/) funding, building a tool for the **U.S. Department of Agriculture** that reduces error and waste by giving states a single, centrally owned way to check federal benefit [eligibility rules]({{ "/2018/10/16/exploring-a-new-way-to-make-eligibility-rules-easier-to-implement/" | url }}).
 
 ### Products
 
@@ -77,10 +77,10 @@ We’re immensely grateful for our founders and our former colleagues — we wou
 Inspired by Mike Bracken and the UK’s [Government Digital Service](https://gds.blog.gov.uk/), our early work was focused on delivery. This was the right move in 2014, when a big part of our job was simply proving that what we wanted to do was possible.
 
 But today, the question isn’t *if* government tech can be built in
-modern ways. [It’s *how* that modern tech should be built](https://18f.gsa.gov/how-we-work/) — what needs to be in place behind the scenes to make it sustainable. And in response, we’ve learned that our real value isn’t just in websites. It’s in helping our partners uncover the teams, the skills, and the processes they need to maintain technology in ways they weren’t capable of before.
+modern ways. [It’s *how* that modern tech should be built]({{ "/how-we-work/" | url }}) — what needs to be in place behind the scenes to make it sustainable. And in response, we’ve learned that our real value isn’t just in websites. It’s in helping our partners uncover the teams, the skills, and the processes they need to maintain technology in ways they weren’t capable of before.
 
 In 2018, we wrapped a long-term engagement with our partners at the
-Department of the Interior’s Office of Natural Resources Revenue (ONRR). We spent the last phase of our work together building [a seamless transition between 18F and ONRR](https://18f.gsa.gov/2018/05/01/lessons-from-an-18f-product-transition/), from hiring to coaching to revisiting the product vision entirely. ONRR now has the capacity in house to build, manage, and maintain their own human-centered design projects, including [the site we built together](https://revenuedata.doi.gov/) when we started working together in 2014.
+Department of the Interior’s Office of Natural Resources Revenue (ONRR). We spent the last phase of our work together building [a seamless transition between 18F and ONRR]({{ "/2018/05/01/lessons-from-an-18f-product-transition/" | url }}), from hiring to coaching to revisiting the product vision entirely. ONRR now has the capacity in house to build, manage, and maintain their own human-centered design projects, including [the site we built together](https://revenuedata.doi.gov/) when we started working together in 2014.
 
 ### Trust starts with humility
 
@@ -99,11 +99,11 @@ As a result, within two months we had a fully clickable prototype that CMS exper
 
 ### Don’t do ALL THE THINGS
 
-Experiments are fundamental to our work for a number of reasons. First, they’re fairly low stakes — safe places to try something new without radically altering services people depend on. And second, they let us work a little more broadly than an average 18F engagement. From [innovation toolkits](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/) to [micropurchasing platforms](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/) to [API programs](https://18f.github.io/API-All-the-X/), we’ve historically used experiments as a way to attempt tackling government need in general.
+Experiments are fundamental to our work for a number of reasons. First, they’re fairly low stakes — safe places to try something new without radically altering services people depend on. And second, they let us work a little more broadly than an average 18F engagement. From [innovation toolkits]({{ "/2014/07/16/midas-a-marketplace-for-innovation-in-government/" | url }}) to [micropurchasing platforms]({{ "/2016/01/07/announcing-the-18f-micro-purchase-platform/" | url }}) to [API programs](https://18f.github.io/API-All-the-X/), we’ve historically used experiments as a way to attempt tackling government need in general.
 
 There is so much work to be done, but trying to address all of government’s issues and be everything to everyone all the time was maybe not the best plan. To avoid burnout and to better demonstrate our own cost recoverability, we’ve learned to shift our focus to things that we do really well, that address specific issues, and that lead to financial stability.
 
-For example, in 2018 we decided to pause use of our [Agile Blanket Purchase Agreement](https://18f.gsa.gov/2018/07/26/what-we-learned-from-building-a-pool-of-agile-vendors/) (BPA). Although the project taught us a tremendous
+For example, in 2018 we decided to pause use of our [Agile Blanket Purchase Agreement]({{ "/2018/07/26/what-we-learned-from-building-a-pool-of-agile-vendors/" | url }}) (BPA). Although the project taught us a tremendous
 amount, helped build trust between vendors and government, and delivered for our agency partners, it wasn’t able to deliver at the speed or scale we anticipated it would in 2015.
 
 So with a *“thank u, next,”* we’ve gratefully taken the lessons we’ve learned — approaches, processes, ways of working — from the Agile BPA and applied them to the rest of our work. We may revisit this in the future, but today it’s a better choice for 18F to support partners in navigating the structures of acquisition instead of trying to maintain those structures ourselves.

@@ -14,7 +14,7 @@ description: "A few weeks ago, the State Department held its first conference de
 
 A few weeks ago, the State Department held its first conference dedicated to user experience design, UX Exponential. The conference organizers invited me to speak, and in this two-part series I hope to summarize (as best as possible) the presentation I gave, "[Foster The People: Building Empathy with Stakeholder Interviews](https://speakerdeck.com/andrewmaier/foster-the-people-building-empathy-with-stakeholder-interviews)."
 
-In the [first post of this series](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/), I covered what stakeholder interviews are, why they’re valuable, and how to prepare for them. In this second post, I’ll cover how to actually run the interviews as well as some tips for synthesizing and socializing what you learn.
+In the [first post of this series]({{ "/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/" | url }}), I covered what stakeholder interviews are, why they’re valuable, and how to prepare for them. In this second post, I’ll cover how to actually run the interviews as well as some tips for synthesizing and socializing what you learn.
 
 Cool? Let’s dive right in.
 
@@ -47,7 +47,7 @@ Transition rituals help clear your head and get you in a frame of mind where you
 
 ### Off to the races
 
-[As I mentioned in part one](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/), many interviews ebb and flow based on the questions you ask and the tasks you observe. That said, there are some things that should always happen:
+[As I mentioned in part one]({{ "/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/" | url }}), many interviews ebb and flow based on the questions you ask and the tasks you observe. That said, there are some things that should always happen:
 
 1. Thank people for their time.
 2. Explain the purpose of your research — to better understand the problem(s) you're trying to solve — and the scope of your work.
@@ -71,13 +71,13 @@ In order to really reap the benefits of stakeholder interviews, you’ll need to
 
 In the world of user-centered design, transcribed interviews are one of the closest things you can get to "primary source" documents; they’re authentic accounts of the actual experiences you’re working to improve. Transcribed interviews are also really useful for sharing back with stakeholders. Everyone loves to read things that they said — they might regret it, or they might be proud of it, but they definitely want to read it. Further, sharing transcripts back with stakeholders builds trust by showing that you've actually listened to them, that you respect their ability to speak for themselves, and that their feedback will been taken into account and shared more broadly. What's more, stakeholders usually add information after the fact!
 
-As each stakeholder edits and amends their respective transcript, share that transcript with your team. I personally prefer to do this in little chunks so as to prompt more focused conversations. After your team has had a chance to emotionally process the interviews, hold a meeting to derive each stakeholder’s goals, behaviors, and pain points (based on what they said and what you’ve observed). Finally, consider holding a team meeting to compare what stakeholders said vs. your original assumptions about them (the “what,” “how,” and “why,” identified in [part 1](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/)).
+As each stakeholder edits and amends their respective transcript, share that transcript with your team. I personally prefer to do this in little chunks so as to prompt more focused conversations. After your team has had a chance to emotionally process the interviews, hold a meeting to derive each stakeholder’s goals, behaviors, and pain points (based on what they said and what you’ve observed). Finally, consider holding a team meeting to compare what stakeholders said vs. your original assumptions about them (the “what,” “how,” and “why,” identified in [part 1]({{ "/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/" | url }})).
 
 ### Next steps
 
 Stakeholder interviews, their application as well as their synthesis, can vary wildly depending on the circumstances surrounding the projects to which they’re applied.
 
-I’ve conducted stakeholder interviews on all of my projects over my past year at 18F, and each of them has resulted in a different kind of synthesis. On smaller projects I’ve gone straight to prototyping. On our recent [onboarding sprint](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/), Melody Kramer and I quickly realized that everyone had a slightly different understanding of the problem we were trying to solve — so we facilitated a collaborative [journey mapping](https://methods.18f.gov/decide/journey-mapping/) session. On 18F’s practice team, successive rounds of stakeholder interviews led to further research. After a lively internal debate, our team conducted a [design studio](https://methods.18f.gov/discover/design-studio/).
+I’ve conducted stakeholder interviews on all of my projects over my past year at 18F, and each of them has resulted in a different kind of synthesis. On smaller projects I’ve gone straight to prototyping. On our recent [onboarding sprint]({{ "/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/" | url }}), Melody Kramer and I quickly realized that everyone had a slightly different understanding of the problem we were trying to solve — so we facilitated a collaborative [journey mapping](https://methods.18f.gov/decide/journey-mapping/) session. On 18F’s practice team, successive rounds of stakeholder interviews led to further research. After a lively internal debate, our team conducted a [design studio](https://methods.18f.gov/discover/design-studio/).
 
 Many teams are so anxious to get things started that they blow right past stakeholder interviews and rush to a kickoff meeting where everyone has a different understanding of the problem being solved. Don’t do this. Not only does this risk disenfranchising stakeholders, it also runs the risk of reinscribing the same patterns that led to the need for the project in the first place. Stakeholder interviews provide us with an opportunity to do things differently.
 

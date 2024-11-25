@@ -20,7 +20,7 @@ hero: false
 ---
 
 In the process of [rethinking
-onboarding](https://18f.gsa.gov/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/) at 18F, Andrew Maier and
+onboarding]({{ "/2015/12/01/how-we-dramatically-improved-18fs-onboarding-process-in-3-months/" | url }}) at 18F, Andrew Maier and
 I have been thinking a lot about documentation.
 
 Our coworkers are very, very good at documenting the things they learn

@@ -60,8 +60,8 @@ compete for government contracts.
 >
 Critical feedback from this pilot showed that greater transparency led
 to more competitive bids, benefitting both the agencies and the
-taxpayers they serve. This led to the development of [several
-platforms](https://18f.gsa.gov/rfpez/), now in beta, that build on these
+taxpayers they serve. This led to the development of several
+platforms (link removed), now in beta, that build on these
 learnings and are challenging us to think differently about how we
 engage the private sector.
 >
@@ -93,7 +93,7 @@ health providers around the country, insurance companies, and labs.
 ## Improving Digital Services Across Government
 >
 To date, the Presidential Innovation Fellows have played key roles in
-establishing both [18F](https://18f.gsa.gov/), an innovative consulting
+establishing both [18F]({{ "/" | url }}), an innovative consulting
 and agile delivery team, and the [United States Digital
 Services](https://obamawhitehouse.archives.gov/digital/united-states-digital-service),
 a team built to improve the infrastructure and user experience around

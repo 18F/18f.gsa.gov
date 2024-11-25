@@ -11,7 +11,7 @@ excerpt: "We built the first iteration of Federalist in a matter of months. Toda
 image: /assets/blog/federalist/federalist-screenshot.jpg
 ---
 
-We recently [launched a site](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/) using [Federalist](https://federalist.18f.gov/), an alpha-stage content management platform that makes it easy and inexpensive for federal agencies to build secure, reliable, and accessible websites.
+We recently [launched a site]({{ "/2015/09/15/federalist-platform-launch/" | url }}) using [Federalist](https://federalist.18f.gov/), an alpha-stage content management platform that makes it easy and inexpensive for federal agencies to build secure, reliable, and accessible websites.
 
 We built the first iteration of Federalist in a matter of months. Today, we’re lifting the curtain and looking at what went into building the platform, so you can get a sense of what it looks like when 18F starts a project from scratch.
 
@@ -29,7 +29,7 @@ Content creators across the government would not have to worry about linking up 
 
 Soon after he sketched out a proof of concept for Federalist, Dave started working with Brad Nunnally, a designer; Jeremia Kimelman, a developer; and Gail Swanson, a designer and researcher, to research and code the platform.
 
-Much of the team’s initial research came from looking at [notalone.gov](https://18f.gsa.gov/2014/05/09/a-few-notes-on-notalone-gov/) and [the homepage of healthcare.gov](http://www.digitalgov.gov/2013/05/01/new-healthcare-gov-is-open-cms-free/) — government websites built using similar technology stacks. By creating a platform, the Federalist team knew that lots of government agencies would be able to build similar sites without starting from the ground up.
+Much of the team’s initial research came from looking at [notalone.gov]({{ "/2014/05/09/a-few-notes-on-notalone-gov/" | url }}) and [the homepage of healthcare.gov](http://www.digitalgov.gov/2013/05/01/new-healthcare-gov-is-open-cms-free/) — government websites built using similar technology stacks. By creating a platform, the Federalist team knew that lots of government agencies would be able to build similar sites without starting from the ground up.
 
 Jeremia recalled his initial reaction to Dave’s proof of concept and the sense of purpose that underlaid the team’s MVP: “I remember Dave showing us the requirements he had laid out for building a web-based front end that would interface with GitHub and saying, ‘What’s the simplest thing we could initially build to satisfy these requirements?’” said Jeremia. “We then wrote the [initial commit](https://github.com/18F/federalist/tree/6ad14fec13826778d20a2046bdf2e41b36bec660) – which basically was a very, very simple version of what Federalist eventually became.”
 

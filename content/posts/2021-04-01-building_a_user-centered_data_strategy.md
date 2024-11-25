@@ -20,14 +20,14 @@ The Federal Government is one of the world's biggest data producers. Finding, ac
 
 The 18F team has experience in this area. We have: 
 
-* Assisted the Treasury Department [implement the DATA ACT](https://18f.gsa.gov/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/)
-* Helped federal laboratories [organize and share their data more effectively](https://18f.gsa.gov/2017/10/05/18f-and-federal-laboratories-work-together-to-bring-better-data-to-businesses/) with industry partners
-* [Saved time and improved data quality](https://18f.gsa.gov/2020/04/23/saving-time-and-improving-data-quality-for-the-national-school-lunch-breakfast-program/) for the National School Lunch & Breakfast Program.
+* Assisted the Treasury Department [implement the DATA ACT]({{ "/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/" | url }})
+* Helped federal laboratories [organize and share their data more effectively]({{ "/2017/10/05/18f-and-federal-laboratories-work-together-to-bring-better-data-to-businesses/" | url }}) with industry partners
+* [Saved time and improved data quality]({{ "/2020/04/23/saving-time-and-improving-data-quality-for-the-national-school-lunch-breakfast-program/" | url }}) for the National School Lunch & Breakfast Program.
 * Worked with many other agencies to help create sustainable data practices. We discuss some highlights of these projects below.
 
 We know from experience that each agency has diverse needs, resources, and maturity around data stewardship and related data skills. 
 
-We believe that [our principles and methods for working with agencies](https://18f.gsa.gov/partnership-principles/) are ideal for assisting with the challenges of developing a forward-thinking data strategy.
+We believe that [our principles and methods for working with agencies]({{ "/partnership-principles/" | url }}) are ideal for assisting with the challenges of developing a forward-thinking data strategy.
 
 Our approach to data projects is summed up in these principles: 
 
@@ -42,7 +42,7 @@ Developing a data strategy is challenging. The ever increasing availability of p
 
 18F works with agencies to help them understand their current data and what they hope to achieve with it. This starts with user research, a process that helps us understand who produces and uses data. This user-centric approach ensures that agencies understand who the real users of data are, and what they actually need to do their jobs more effectively.  
 
-As one example, the partnership between [18F and the USGS Water Resources Mission Area](https://18f.gsa.gov/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/) partnered to understand their goals for making better use of data. They made use of the following user research questions: 
+As one example, the partnership between [18F and the USGS Water Resources Mission Area]({{ "/2020/08/06/doing-user-research-to-design-the-next-gen-wdfn/" | url }}) partnered to understand their goals for making better use of data. They made use of the following user research questions: 
 
 * What data are users looking for?
 * How are users finding their desired information?
@@ -57,7 +57,7 @@ Human-centered design or user-centered design is a methodology that integrates f
 
 User-centered design supports the development of a successful data strategy, through frequent and continuous end-user feedback during the design process. [Prototypes](https://methods.18f.gov/make/prototyping/) are a way to get feedback from users, test hypotheses, and validate technology choices.
 
-Through work funded by [10x](https://10x.gsa.gov/), a team from [18F created mock-ups of a dashboard with personally identifiable information](https://18f.gsa.gov/2020/12/15/a-dashboard-for-privacy-offices/) ([PII](https://ux-guide.18f.gov/research/privacy/#personally-identifiable-information-pii)) maintained by government agencies. The team populated these prototypes with data and conducted user research with GSA’s privacy office. 18F incorporated this feedback into the design of the prototype, allowing the team to adapt and save time during the design of the tool. 
+Through work funded by [10x](https://10x.gsa.gov/), a team from [18F created mock-ups of a dashboard with personally identifiable information]({{ "/2020/12/15/a-dashboard-for-privacy-offices/" | url }}) ([PII](https://ux-guide.18f.gov/research/privacy/#personally-identifiable-information-pii)) maintained by government agencies. The team populated these prototypes with data and conducted user research with GSA’s privacy office. 18F incorporated this feedback into the design of the prototype, allowing the team to adapt and save time during the design of the tool. 
 
 ## Work in an agile way
 
@@ -65,7 +65,7 @@ Putting users at the center of an agency data strategy means we need to deliver 
 
 18F works on data strategies with our partner agencies by using [agile](https://agile.18f.gov/agile-is-something-you-are/) — a framework that focuses on iterative and continuous releases in a given timeframe. Agile encourages the delivery of small and frequent bits of value to end users, which is less costly and less risky to make changes as the team learns what users really need.
 
-As an example, 18F worked with the Federal Bureau of Investigation to [publicly release the nation’s crime data](https://18f.gsa.gov/2017/09/07/opening-the-nations-crime-data/). The project's goals included applying open data principles to the FBI’s data and building the tool for the public in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and iterate on our work, testing the tool with nearly 150 people inside and outside of the government.
+As an example, 18F worked with the Federal Bureau of Investigation to [publicly release the nation’s crime data]({{ "/2017/09/07/opening-the-nations-crime-data/" | url }}). The project's goals included applying open data principles to the FBI’s data and building the tool for the public in a user-centered way. We wanted to make sure that the end product was useful, understandable, and accessible to everyone. We conducted user-testing sessions every two weeks to validate and iterate on our work, testing the tool with nearly 150 people inside and outside of the government.
 
 Agile and Human-centered design work together. They’re more commonly used in software development, but are also useful for data-driven projects and strategies.This kind of work is needed regardless of the data maturity level of the agency. The combination of data expertise and iterative, user-centered development can — if pursued together — create the conditions for a user-oriented data strategy.
 

@@ -203,4 +203,4 @@ their own. Only when people have a stake in the system will they feel
 invested to use it and contribute back, making it more dynamic,
 versatile, and able to stand the test of time.
 
-*Read more about how USWDS was built on the 18F blog [here](https://18f.gsa.gov/2017/10/03/building-a-large-scale-design-system/). Special thanks to Maya Benari and Dan O. Williams for contributing their wisdom to this post!*
+*Read more about how USWDS was built on the 18F blog [here]({{ "/2017/10/03/building-a-large-scale-design-system/" | url }}). Special thanks to Maya Benari and Dan O. Williams for contributing their wisdom to this post!*

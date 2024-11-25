@@ -42,10 +42,10 @@ members of the USEITI multi-stakeholder group](https://useiti.doi.gov/about/). H
 
 We’ve mentioned our work on this project a few times in the last couple
 months. We recapped [what we learned from usability
-research](https://18f.gsa.gov/2015/11/02/useiti-what-we-learned-where-were-headed/)
+research]({{ "/2015/11/02/useiti-what-we-learned-where-were-headed/" | url }})
 on the first iteration of the website and covered an interesting design
 challenge presented by the wholly new [federal production
-data](https://18f.gsa.gov/2015/11/30/complex-data-in-useiti/). As part
+data]({{ "/2015/11/30/complex-data-in-useiti/" | url }}). As part
 of this week’s launch, this data is now online in the form of maps and
 tables that you can filter and sort to get a sense of how these
 industries affect your state, county, or offshore area.

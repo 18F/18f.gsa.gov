@@ -67,9 +67,9 @@ For our first year, 18F projects focus on:
 **Open government**
 
 -   [FOIA
-    Modernization](https://18f.gsa.gov/2014/09/04/a-new-look-at-the-freedom-of-information-act/)
+    Modernization]({{ "/2014/09/04/a-new-look-at-the-freedom-of-information-act/" | url }})
     (Department of Justice)
--   [OpenFEC](https://18f.gsa.gov/2014/08/21/creating-an-open-fec/)
+-   [OpenFEC]({{ "/2014/08/21/creating-an-open-fec/" | url }})
     (Federal Election Commission)
 -   Income Verification Pilot (Department of Treasury)
 -   U.S. Extractive Industries Transparency Initiative (Department of
@@ -86,8 +86,8 @@ For our first year, 18F projects focus on:
 
 -   [api.data.gov](http://api.data.gov/)
 -   [/Developer
-    Program](https://18f.gsa.gov/2014/05/29/announcing-the-developer-program-a-new-hub-for/)
--   [Midas](https://18f.gsa.gov/2014/07/16/midas-a-marketplace-for-innovation-in-government/)
+    Program]({{ "/2014/05/29/announcing-the-developer-program-a-new-hub-for/" | url }})
+-   [Midas]({{ "/2014/07/16/midas-a-marketplace-for-innovation-in-government/" | url }})
 -   MyUSA
 
 Attracting great digital talent
@@ -127,7 +127,7 @@ Regardless of where, we work as cross-functional teams dedicated to
 specific projects that will improve how citizens and businesses interact
 with government.
 
-Please stay tuned! Follow 18F on [our blog](https://18f.gsa.gov),
+Please stay tuned! Follow 18F on [our blog]({{ "/blog/" | url }}),
 [Twitter](https://twitter.com/18f), or [sign up to be notified by
-email](https://18f.gsa.gov/#contact) as we share more about these
+email]({{ "/contact/" | url }}) as we share more about these
 projects in the coming weeks.

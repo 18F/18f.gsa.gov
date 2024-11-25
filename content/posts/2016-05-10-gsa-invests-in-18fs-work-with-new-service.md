@@ -16,7 +16,7 @@ The General Services Administration (GSA), 18F’s parent office, has been
 providing essential services to other federal agencies for more than 60
 years. Last week, GSA Administrator Denise Turner Roth [announced the
 creation of the Technology Transformation
-Service](https://18f.gsa.gov/2016/05/03/delivering-the-next-generation-of-digital-government/)
+Service]({{ "/2016/05/03/delivering-the-next-generation-of-digital-government/" | url }})
 — a third pillar of services for federal agencies alongside the Public
 Buildings Service and Federal Acquisition Service.
 

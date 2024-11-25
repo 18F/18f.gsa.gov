@@ -19,7 +19,7 @@ hero: false
 </figure>
 <br>
 
-These past few months, we’ve published a few posts about 18F’s Writing Lab — [what it is](https://18f.gsa.gov/2016/01/22/18f-writing-lab/), the [documentation we’ve created for it](https://18f.gsa.gov/2016/04/28/a-guide-to-the-18f-writing-lab/), and how a [lab can benefit your organization](https://18f.gsa.gov/2016/06/30/6-ways-a-writing-lab-will-help-your-organization/). Today, we’ll be concluding our four-part miniseries by discussing practical steps you can take to start your own lab.
+These past few months, we’ve published a few posts about 18F’s Writing Lab — [what it is]({{ "/2016/01/22/18f-writing-lab/" | url }}), the [documentation we’ve created for it]({{ "/2016/04/28/a-guide-to-the-18f-writing-lab/" | url }}), and how a [lab can benefit your organization]({{ "/2016/06/30/6-ways-a-writing-lab-will-help-your-organization/" | url }}). Today, we’ll be concluding our four-part miniseries by discussing practical steps you can take to start your own lab.
 
 It’s worth noting that, although most folks can fairly easily start their own labs, the process of getting one off the ground will take some time and effort. Don’t panic! If you’re feeling overwhelmed, take another look at the posts we’ve published and peruse our [Writing Lab guide](https://pages.18f.gov/writing-lab-guide/) — these resources have all the information you need to spin up your own lab.
 

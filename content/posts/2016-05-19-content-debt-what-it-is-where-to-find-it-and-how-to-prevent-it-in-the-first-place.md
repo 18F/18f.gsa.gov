@@ -26,10 +26,10 @@ be better spent elsewhere.
 
 We’ve written about technical debt a lot. Last year, my colleagues Chris
 and Sarah dove into a [five-part
-series](https://18f.gsa.gov/2015/08/07/technical-debt-1/) on how to
+series]({{ "/2015/08/07/technical-debt-1/" | url }}) on how to
 manage and prevent technical debt; another coworker, Kane, wrote a very
 popular piece on why developers should [choose design over
-architecture](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture/) to
+architecture]({{ "/2015/11/17/choose-design-over-architecture/" | url }}) to
 avoid technical debt.
 
 Content creators and editors can face similar challenges related to

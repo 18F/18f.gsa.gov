@@ -53,7 +53,7 @@ These are the types of questions we ask as we’re reviewing RFPs:
     solutions (for example, Commercial Off-The-Shelf (COTS) over expensive
     custom-built solutions)?
 4.  Are you making appropriate use of [open
-    source](https://18f.gsa.gov/2014/11/26/how-to-use-more-open-source/)
+    source]({{ "/2014/11/26/how-to-use-more-open-source/" | url }})
     to get access to large communities supporting reliable,
     inexpensive software?
 5.  What explicit, results-oriented success criteria will you use to

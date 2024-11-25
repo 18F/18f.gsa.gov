@@ -18,7 +18,7 @@ highlighting some groundbreaking open government work by the Department
 of the Treasury, one of 18F’s partner agencies.
 
 Last year we wrote about [the DATA Act and 18F’s role in its
-implementation](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/).
+implementation]({{ "/2015/06/09/data-act-data-act-explainer/" | url }}).
 The tremendous undertaking of Treasury, along with the Office of
 Management and Budget (OMB), will standardize how federal agencies
 report their spending data. Right now, there is no unified, detailed

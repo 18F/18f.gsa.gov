@@ -17,7 +17,7 @@ excerpt: >-
   for their teams, citing time savings, fewer errors returned, greater ability
   to plan ahead, and lower stress.
 ---
-In March of 2019, we published a post describing the ambition of the 10x U.S. Data Federation project: our work was motivated by the goal of [making it easier to collect, combine, and exchange data across government](https://18f.gsa.gov/2019/03/05/the-us-data-federation/). We hypothesized that this could be done by making reusable tools and repeatable processes more available across government.
+In March of 2019, we published a post describing the ambition of the 10x U.S. Data Federation project: our work was motivated by the goal of [making it easier to collect, combine, and exchange data across government]({{ "/2019/03/05/the-us-data-federation/" | url }}). We hypothesized that this could be done by making reusable tools and repeatable processes more available across government.
 
 To test this hypothesis, we built one such tool called ReVal, a reusable validation library, and partnered with the USDA Food & Nutrition Service (FNS) to put it into production. Two additional use cases at the U.S. Department of Transportation and the Census Bureau helped us feel confident in ReVal’s reusability. One year later, we are excited to share the results of the pilot of the FNS Data Validation Service (DVS), which uses ReVal to streamline data validation for the National School Lunch and Breakfast Program: the FNS DVS resulted in time savings,reduced stress, and greater efficiency for the pilot states, as explained below. 
 

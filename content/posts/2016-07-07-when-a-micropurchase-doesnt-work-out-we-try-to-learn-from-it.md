@@ -22,7 +22,7 @@ auction](https://micropurchase.18f.gov/) to find a vendor to develop
 several successful micro-purchases for other products, the contracted
 vendor didn’t deliver the code on time. This was very interesting to us
 — we’re [early in the life of the micro-purchase
-platform](https://18f.gsa.gov/tags/micro-purchase-platforms/), and we
+platform]({{ "/tags/micro-purchase-platforms/" | url }}), and we
 believe that failure is a great way to learn. In the spirit of
 experimentation and sharing our lessons, here’s how we went about
 analyzing this, and here’s what we learned.
@@ -53,7 +53,7 @@ Failing is important
 We welcome the opportunity to gain insight from any situation that
 didn’t work out as we’d expected. Especially early on in the life of our
 platform ([launched in October
-2015](https://18f.gsa.gov/tags/micro-purchase-platforms/)), we need to
+2015]({{ "/tags/micro-purchase-platforms/" | url }})), we need to
 welcome these kinds of experiences because we’re still trying to
 understand all of the conditions and variables we contend with whenever
 we run an auction.

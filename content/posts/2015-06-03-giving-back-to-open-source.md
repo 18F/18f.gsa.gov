@@ -23,7 +23,7 @@ organization. [oauth2\_proxy](https://github.com/bitly/oauth2_proxy)
 [Bitly](https://bitly.com/) (written in [the Go programming language](https://golang.org/)) that enables a web service to provide
 authentication via OAuth2 provider accounts, without the need to build
 authentication code directly into the service. This was a perfect fit
-for the needs of the internal [18F Hub](https://18f.gsa.gov/2014/12/23/hub/), which is a
+for the needs of the internal [18F Hub]({{ "/2014/12/23/hub/" | url }}), which is a
 [Jekyll](http://jekyllrb.com/)-generated site containing no
 authentication logic of its own.
 
@@ -83,7 +83,7 @@ This worked really well for 18F, but there was a problem. Not all
 government agencies use Google Apps, and we wanted to be able to permit
 guests from other agencies access to our internal Hub or set up their
 own. The idea was to use 18F’s own
-[MyUSA](https://18f.gsa.gov/2015/05/18/myusa/) product as an [OAuth2 authentication provider](http://oauth.net/articles/authentication/)
+[MyUSA]({{ "/2015/05/18/myusa/" | url }}) product as an [OAuth2 authentication provider](http://oauth.net/articles/authentication/)
 instead. However, since the Hub didn’t contain any authentication code
 of its own, the question was how to implement the switch to MyUSA.
 

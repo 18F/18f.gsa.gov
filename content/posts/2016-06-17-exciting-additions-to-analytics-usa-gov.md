@@ -30,6 +30,6 @@ Additionally, we’ve moved the downloadable datasets to their own pages, rather
 
 We’re excited to offer the public this expanded view of web analytics data, and we hope you find it useful!
 
-*Tim Lowden leads the Digital Analytics Program (DAP), which powers* [analytics.usa.gov.](https://analytics.usa.gov/) Gray Brooks, Eric Mill, Heather Battaglia, and Colin Craig are at [18F](https://18f.gsa.gov/) and contribute to the development and maintenance of the site.*
+*Tim Lowden leads the Digital Analytics Program (DAP), which powers* [analytics.usa.gov.](https://analytics.usa.gov/) Gray Brooks, Eric Mill, Heather Battaglia, and Colin Craig are at [18F]({{ "/" | url }}) and contribute to the development and maintenance of the site.*
 
 *The DAP currently tracks analytics data on more than 4,000 U.S. federal government websites across 45 agencies. To learn more or to find out how your agency/website can participate in the program, please [email us](mailto:dap@support.digitalgov.gov). The work on [analytics.usa.gov](https://analytics.usa.gov/) is open-source, and can be found in our [GitHub repo](https://github.com/18F/analytics.usa.gov).*

@@ -21,7 +21,7 @@ Rob asked the thought-provoking question hoping it would lead to an
 internal conversation on different approaches to user-centered software
 design. It did, and the result was positively delightful — with
 designers and developers weighing in on everything from [approaches to
-protosketching](https://18f.gsa.gov/2015/01/06/protosketch/)
+protosketching]({{ "/2015/01/06/protosketch/" | url }})
 to usability testing to user-centered design.
 
 I asked Rob and 18F designer Jesse Taggert if they wouldn't mind

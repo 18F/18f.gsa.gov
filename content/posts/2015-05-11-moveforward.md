@@ -27,7 +27,7 @@ event. This awe-inspiring session was held at the General Services
 Administration (GSA) headquarters.
 
 The government-employee only event featured the entire digital services
-family including members of [18F](https://18f.gsa.gov/), the
+family including members of [18F]({{ "/" | url }}), the
 [Presidential Innovation
 Fellows](https://obamawhitehouse.archives.gov/innovationfellows) (PIF), the
 [U.S. Digital
@@ -84,7 +84,7 @@ https://twitter.com/stroupaloop/status/593525508945489921
 
 Noah Manger, an 18F designer and web developer, discussed his team's [work with the
 Federal Election
-Commission](https://18f.gsa.gov/2014/08/21/creating-an-open-fec/).
+Commission]({{ "/2014/08/21/creating-an-open-fec/" | url }}).
 “They’ve been publishing open data since before it was cool,” Manger
 said. He explained the project and stated that the first order of
 business was to build an API for the data. The API enabled the FEC team

@@ -16,7 +16,7 @@ partner agencies to talk about their experience."
 
 18F has long espoused the benefits of using open source technologies and,
 more broadly, the value of working in the open. Our [open source
-policy](https://18f.gsa.gov/open-source-policy/) that is included in
+policy]({{ "/open-source-policy/" | url }}) that is included in
 all our work includes:
 
 1.  Use Free and Open Source Software (FOSS), which is software that does not charge users a purchase or licensing fee for modifying or redistributing the source code, in our projects and contribute back to the open source community.
@@ -140,4 +140,4 @@ with us or simply adapting our [Open Source
 Policy](https://github.com/18F/open-source-policy) for your agency, we
 hope you consider open source technologies for your next project, and
 the Technology Transformation Services are [here to
-help](https://18f.gsa.gov/contact/).
+help]({{ "/contact/" | url }}).

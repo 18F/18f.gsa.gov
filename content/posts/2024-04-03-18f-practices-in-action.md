@@ -21,7 +21,7 @@ Spoiler alert: These practices really work!
 
 > 18F recommendation: “All software development should be [centered on the needs of the software's actual end users](https://guides.18f.gov/derisking/federal-field-guide/basic-principles/#user-centered-design), the specific people who are expected to use it."
 
-We conducted user research during each phase of this project. We interviewed users, conducted usability testing sessions, and reviewed metrics reports and help desk reports. Team members from all disciplines participated in our research with new users (those who were eligible for a .gov domain, but didn’t yet have one) and existing users (those who already managed one or more .gov domains). We created a [customer panel](https://18f.gsa.gov/2024/02/01/gathering-feedback-with-customer-panels/) to get feedback from existing users.
+We conducted user research during each phase of this project. We interviewed users, conducted usability testing sessions, and reviewed metrics reports and help desk reports. Team members from all disciplines participated in our research with new users (those who were eligible for a .gov domain, but didn’t yet have one) and existing users (those who already managed one or more .gov domains). We created a [customer panel]({{ "/2024/02/01/gathering-feedback-with-customer-panels/" | url }}) to get feedback from existing users.
 
 We’re grateful to the users, from [all levels of government](https://get.gov/domains/eligibility/#government-organizations-at-all-levels-are-eligible-for-.gov-domains), who helped build these products! The .gov team will continue to iterate based on user needs and feedback. 
 

@@ -17,7 +17,7 @@ tags:
 ---
 [{% image "assets/blog/new-jekyll-site/header.png" "Our website running with Jekyll" %}](https://github.com/18F/18f.gsa.gov/pull/235)
 
-A few of us here recently took a bit of time to drastically rework 18F's main [website and blog](https://18f.gsa.gov) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
+A few of us here recently took a bit of time to drastically rework 18F's main [website and blog]({{ "/" | url }}) &mdash; what you're reading right now &mdash; and take it fully into our own hands.
 
 It may not look a lot different on the surface, but we made some serious infrastructure changes. Namely, we migrated the site to [Jekyll](http://jekyllrb.com/), and left Tumblr behind by moving the blog inside to join it. We also set up automatic deployment to staging and live sites, using GitHub's webhook system.
 
@@ -70,9 +70,9 @@ Finally, we moved from Bootstrap to [Bourbon.io](http://bourbon.io/) as our site
 
 ## Blogging with freedom
 
-Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/blog/`](https://18f.gsa.gov/blog/).
+Jekyll is a fantastic blog engine so we've also **ditched our Tumblr blog**. We took the [old blog](http://18fblog.tumblr.com) and imported it to [`https://18f.gsa.gov/blog/`]({{ "/blog/" | url }}).
 
-This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
+This lets us do all kinds of fun things, such as **writing in Markdown**. [Markdown](http://daringfireball.net/projects/markdown/syntax) is a simple text-based markup language designed to be easy for humans to type. For example, a [recent post about our EITI design studio]({{ "/2014/09/25/design-studio-onrr/" | url }}) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-09-25-design-studio-onrr.md) that was written like this:
 
 ```
 **Creating user personas.** Based on the participants’ previous research on users,
@@ -82,7 +82,7 @@ to serve as examples of the types of people who would interact with the website.
 
 Jekyll also lets you associate any metadata you want with posts using "YAML front-matter". At the top of a Markdown file, you put whatever key-value pairs you want to pair with the post. This way, you can keep information about a post together with it and still use it in multiple places (for example, in OpenGraph tags and Twitter cards).
 
-This [recent post on an 18F-hosted hackathon](https://18f.gsa.gov/2014/10/01/open-source-hack-series-midas/) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-10-01-open-source-hack-series-midas.md) that begins with this metadata:
+This [recent post on an 18F-hosted hackathon]({{ "/2014/10/01/open-source-hack-series-midas/" | url }}) is a [Markdown file](https://raw.githubusercontent.com/18F/18f.gsa.gov/staging/_posts/2014-10-01-open-source-hack-series-midas.md) that begins with this metadata:
 
 ```yaml
 ---
@@ -118,7 +118,7 @@ Which produces:
 
 This way, we can update team names in one place and have it automatically update all of their posts. In the future, we can do a lot more, like link each person's name to their previous posts, or maybe even put little icons next to people's names. The future is an exciting place.
 
-Finally, we can use Jekyll to generate an [RSS feed](https://18f.gsa.gov/feed.xml) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
+Finally, we can use Jekyll to generate an [RSS feed]({{ "/feed.xml" | url }}) for our blog so that you can plug it into your feed reader, or into powerful tools like [IFTTT](https://ifttt.com/) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/).
 
 ## Automatic deployment
 

@@ -15,7 +15,7 @@ image: /assets/blog/engineering-10/engineering-10-banner.jpg
 
 # 18F's engineering craft practices at 10 
 
-18F has grown and matured as an organization over time. We recently celebrated [our 10th anniversary delivering better government services to the public](https://18f.gsa.gov/2024/03/19/18f-at-ten/). As we have grown, so has our care and feeding of our own tools, processes, and best practices. To support continual investment in our practices, we are renewing our commitment to regularly publishing what we learn, and creating a new engineering leadership role at 18F.
+18F has grown and matured as an organization over time. We recently celebrated [our 10th anniversary delivering better government services to the public]({{ "/2024/03/19/18f-at-ten/" | url }}). As we have grown, so has our care and feeding of our own tools, processes, and best practices. To support continual investment in our practices, we are renewing our commitment to regularly publishing what we learn, and creating a new engineering leadership role at 18F.
 
 ## Renewing our commitment to sharing our work
 
@@ -31,7 +31,7 @@ If these sound like familiar activities, that is because 18F engineers have been
 
 - [An Introduction to ATOs](https://digital.gov/resources/an-introduction-to-ato/) 
 - [Our open-source Engineering Hiring Guide](https://guides.18f.gov/eng-hiring/)
-- [Why simplicity? Choosing a web architecture](https://18f.gsa.gov/2021/04/05/why_simplicity_choosing_a_web_architecture/) 
+- [Why simplicity? Choosing a web architecture]({{ "/2021/04/05/why_simplicity_choosing_a_web_architecture/" | url }}) 
 
 Based on recent project experiences, next quarter we will be focusing on the theme of **launching software projects**. We look forward to creating and sharing brand new resources within 18F and the broader community. 
 

@@ -13,7 +13,7 @@ description: "Today, we're beginning our micro-purchase experiment. Here are the
 excerpt: "Today, we're beginning our micro-purchase experiment. Here are the details of what we are looking for and our acceptance criteria for the final submission."
 ---
 
-Two weeks ago, [we announced](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/) our intention to pursue an experiment in open-source micro-purchasing. Today, the experiment *begins*. Here's how it works.
+Two weeks ago, [we announced]({{ "/2015/10/13/open-source-micropurchasing/" | url }}) our intention to pursue an experiment in open-source micro-purchasing. Today, the experiment *begins*. Here's how it works.
 
 First, go to [this GitHub issue](https://github.com/18f/calc/issues/255) to see the basis for the micro-purchase. In the title of the issue is the current bid. There, you’ll have access to this [Google Form](https://docs.google.com/a/gsa.gov/forms/d/1eRFX0hSTTXMc2FulK6kPP2P02ZApQqlYZL7oVDghJJo/viewform), where you can provide your DUNS number, your GitHub username, and your bid. (Note: You must be registered in SAM.gov to participate in this first iteration).
 

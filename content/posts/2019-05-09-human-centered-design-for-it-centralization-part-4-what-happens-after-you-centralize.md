@@ -44,7 +44,7 @@ follow-through. This is often referred to as Operations and Maintenance (O&M), b
 
 Now it’s time to shift from asking *how do we make it happen* to *how do we make it even better?*
 
-Continuous improvement builds off the [modular contracting approach](https://18f.gsa.gov/2018/10/25/modular-contracting-and-working-in-the-open/). It recognizes that there’s always room to grow and it’s often more
+Continuous improvement builds off the [modular contracting approach]({{ "/2018/10/25/modular-contracting-and-working-in-the-open/" | url }}). It recognizes that there’s always room to grow and it’s often more
 effective to make change in increments rather than accumulating large backlogs. This concept applies to staffing, software features, customer service requests, and bug reports.
 
 ## 2. Set up feedback loops to catch issues early

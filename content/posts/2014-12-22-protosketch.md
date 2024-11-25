@@ -46,7 +46,7 @@ In a typical procurement setting, prospective contractors might be the most tech
 
 ## Protosketching in the wild: actual experience
 
-At [18F](https://18f.gsa.gov/), we have protosketched for prospective clients in three meetings and also for our audience at the last 18F Demo Day.
+At [18F]({{ "/" | url }}), we have protosketched for prospective clients in three meetings and also for our audience at the last 18F Demo Day.
 
 At a three-hour meeting with the Department of Labor (DOL), we protosketched a mobile application for Investigators to use in the field. With great foresight, the DOL had brought actual Investigators (the end-user for this case) into the meeting. The DOL was seeking to streamline workflows for their investigators who often found themselves spending precious time on redundant and often non-user-friendly data entry. For example, it was common for investigators to keep track of data on a highly specialized spreadsheet template which could later be uploaded to a DOL case management system. While one member of the 18F team discussed project goals and explained the benefits of a modular, API-driven system architecture, the other 18F staff members protosketched a user interface made possible by such an architecture.
 

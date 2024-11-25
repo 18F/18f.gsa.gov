@@ -62,7 +62,7 @@ Earning full support from leadership is important for the success of the lab, bu
 
 > "You have to pay the dues, you have to earn trust from leadership before you can make your own decisions. You have to show them you can use resources in the best way possible."
 
-Successful innovation labs have found ways to improve leadership cover by having direct communication channels and access to people who can sign off quickly on decisions. To get leaders' buy-in and support, these groups keep leadership updated on their activities and connect the possible outcomes of experimentation to the goals of the organization. Supportive leaders have accepted the short-term risks of experimentation, and go above and beyond to celebrate successes and communicate them outside of the agency. For specific examples on what this looks like in practice, see the 18F blog post series called "[Senior executives are the allies tech teams need](https://18f.gsa.gov/2022/07/20/senior-executives-pt1/)."
+Successful innovation labs have found ways to improve leadership cover by having direct communication channels and access to people who can sign off quickly on decisions. To get leaders' buy-in and support, these groups keep leadership updated on their activities and connect the possible outcomes of experimentation to the goals of the organization. Supportive leaders have accepted the short-term risks of experimentation, and go above and beyond to celebrate successes and communicate them outside of the agency. For specific examples on what this looks like in practice, see the 18F blog post series called "[Senior executives are the allies tech teams need]({{ "/2022/07/20/senior-executives-pt1/" | url }})."
 
 ### Too broad of a scope
 

@@ -15,7 +15,7 @@ image: /assets/blog/micro-purchase/micro-purchase-analytics.jpg
 hero: false
 ---
 
-Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F [micro-purchase experiment](https://18f.gsa.gov/2015/10/26/micro-purchase-criteria-announcement/) was $1. And, on Wednesday, the [winner delivered a solution that passed our acceptance criteria](https://github.com/18F/calc/issues/256).
+Well, we sure didn’t expect this. But the winning bid for the first iteration of the 18F [micro-purchase experiment]({{ "/2015/10/26/micro-purchase-criteria-announcement/" | url }}) was $1. And, on Wednesday, the [winner delivered a solution that passed our acceptance criteria](https://github.com/18F/calc/issues/256).
 
 We conceived of this experiment with a couple goals in mind: to explore a new method of software contracting, to attract new companies to work with the government, and to help advocate for the value of open source code in the federal government. After this first iteration, we feel that micro-purchasing has the potential to achieve those goals.
 
@@ -28,7 +28,7 @@ We asked for labor category data from the Schedule 70 to be loaded into CALC. No
 But beyond the fact that we got working software in a little less than a week after the bids closed, the experiment revealed some fascinating data points, including the following:
 
 * We had 16 unique bidders with validated SAM.gov registrations.
-* Of those bidders, *half* of the bidders registered for SAM after our [blog post announcing the experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/).
+* Of those bidders, *half* of the bidders registered for SAM after our [blog post announcing the experiment]({{ "/2015/10/13/open-source-micropurchasing/" | url }}).
 * At least eight of the bidders were small businesses, including woman-owned small businesses, minority-owned small businesses, and service disabled veteran-owned small businesses.
 * The largest bid increment was $740, the smallest bid increment was $1, and the most common bid increment was $50.
 * As of the afternoon of November 6, 2015, there were more than 10,000 unique visitors to the GitHub issue (though much of it was driven by being on the [front page of Hacker News](https://news.ycombinator.com/item?id=10471677)), and more than 300 unique visitors to the underlying data that is the subject of the micro-purchase experiment.

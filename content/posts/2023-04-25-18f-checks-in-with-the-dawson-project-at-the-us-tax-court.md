@@ -19,7 +19,7 @@ excerpt: >
   The United States Tax Court is an independent federal court that settles disputes between taxpayers and the Internal Revenue Service. Since the 1980s, the Court has used a modified commercial software product to manage its operations. In December 2020, the Court introduced DAWSON, a modern open-source case management system developed with assistance from an industry partner and 18F. DAWSON streamlined Court operations and changed the way the public interacts with the Court.
 ---
 
-_This is the third in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Emily Read and the USGS Water Resources Mission Area Projects](https://18f.gsa.gov/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/)._
+_This is the third in a series of blog posts where 18F checks in with our partners throughout the government. Previously in this series: [18F Checks In With Emily Read and the USGS Water Resources Mission Area Projects]({{ "/2023/02/24/18f-checks-in-with-emily-read-and-the-usgs-water-resources-mission-area-projects/" | url }})._
 
 {% image "assets/blog/ustc-dawson-checkin/dawson-home.png" "Screenshot of the DAWSON case filing system, with tabs to search for specific cases, orders, or opinions from the U.S Tax Court" %}
 

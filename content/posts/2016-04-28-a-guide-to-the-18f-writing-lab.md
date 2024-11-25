@@ -27,7 +27,7 @@ also to provide our Lab editors with guidance on editing styles and
 workflows so we can provide a smooth experience for staff who request
 the Lab’s help.
 
-In case you missed our [last post](https://18f.gsa.gov/2016/01/22/18f-writing-lab/), the Lab is a virtual
+In case you missed our [last post]({{ "/2016/01/22/18f-writing-lab/" | url }}), the Lab is a virtual
 writing center where 18F staffers can get personalized writing and
 editing help from members of the 18F editorial team, which includes
 members of the Content Guild, the Experience Design Content Team, and

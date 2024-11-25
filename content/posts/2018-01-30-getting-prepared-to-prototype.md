@@ -22,7 +22,7 @@ Here are a list of factors that governments should consider to become better pre
 
 ## Deciding what to prototype
 
-You can create prototypes in [many different forms](https://github.com/18F?utf8=%E2%9C%93&q=prototype), and you don’t necessarily have to [write software code](https://18f.gsa.gov/2015/01/06/protosketch/). You can use prototypes as a way to get feedback from real or anticipated users, or you can use them as a way to test hypotheses or validate technology choices.
+You can create prototypes in [many different forms](https://github.com/18F?utf8=%E2%9C%93&q=prototype), and you don’t necessarily have to [write software code]({{ "/2015/01/06/protosketch/" | url }}). You can use prototypes as a way to get feedback from real or anticipated users, or you can use them as a way to test hypotheses or validate technology choices.
 
 <figure>
 	{% image_with_class "assets/blog/prototype/design-prototype.png" "image-shadowed" "mock up of a prototype" %}
@@ -33,7 +33,7 @@ You can create prototypes in [many different forms](https://github.com/18F?utf8=
 
 In our work on [legacy system modernization projects](https://github.com/AlaskaDHSS/EIS-Modernization/blob/master/technical-prototyping.md), we’ve used prototypes to help support the development of software Requests For Proposals (RFP). This approach allows us to reduce risk by demonstrating the feasibility of a specific technical approach and [providing a reference implementation](https://github.com/AlaskaDHSS/ProtoWebApi) of that approach to prospective vendors. This is the approach we took in our work with the State of Alaska to support efforts to modernize their Medicaid Eligibility System. Before the state [issued an RFP](https://github.com/AlaskaDHSS/RFP-Search-Unification) to identify a vendor to build the first module for the project, they developed a technical prototype that helped validate some early technology choices and provided confidence that vendors would be able do the work being described in the RFP.
 
-In our work with federal agencies, we’ve used prototypes to speed the implementation of complex projects and to mitigate the uncertainty around changing policies. The 18F team that worked to [support the implementation of the DATA Act](https://18f.gsa.gov/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/) used prototyping to reduce risk by allowing work to get underway while policy decisions were being finalized.
+In our work with federal agencies, we’ve used prototypes to speed the implementation of complex projects and to mitigate the uncertainty around changing policies. The 18F team that worked to [support the implementation of the DATA Act]({{ "/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/" | url }}) used prototyping to reduce risk by allowing work to get underway while policy decisions were being finalized.
 
 One early prototype developed as part of this work was a “data broker” that could take in spending data from agencies, validate it, and convert it into a standard format. With this prototype in place, 18F’s partners at the Department of Treasury could refine a developing data standard and start testing data submitted from agencies early to make sure the system worked as expected. The flexibility of this approach enabled the team to iterate on the data standard several times. This ultimately made it more successful because it helped identify a final standard that could be implemented efficiently but that also met the requirements of the law.
 
@@ -43,7 +43,7 @@ Thinking clearly ahead of time about the reasons for building a prototype, and t
 
 ## Recruiting participants
 
-Through our work, we’ve learned firsthand that finding users to evaluate a prototype [can sometimes be a challenge](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/). Identifying users that can provide meaningful feedback and reaching out to recruit them can require multiple steps, and often prior approvals. As a general rule of thumb, the larger the call for feedback, the more hurdles you’ll have to overcome to identify and contact volunteers.
+Through our work, we’ve learned firsthand that finding users to evaluate a prototype [can sometimes be a challenge]({{ "/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/" | url }}). Identifying users that can provide meaningful feedback and reaching out to recruit them can require multiple steps, and often prior approvals. As a general rule of thumb, the larger the call for feedback, the more hurdles you’ll have to overcome to identify and contact volunteers.
 
 <figure>
 	{% image_with_class "assets/blog/prototype/paid-fam-leave.png" "image-shadowed" "A prototype for paid family leave. Top of the screen is light blue with header" %}

@@ -33,7 +33,7 @@ user research better informs the products 18F builds.
 
 My name is Nick and I’m a user researcher and UX designer. At 18F I’m
 working primarily on [*procurement
-projects*](https://18f.gsa.gov/2015/03/04/annoucing-oasis-discovery-making-market-research-easier/).
+projects*]({{ "/2015/03/04/annoucing-oasis-discovery-making-market-research-easier/" | url }}).
 One of the coolest things about 18F is that, from a user research
 perspective, one of our fundamental challenges is getting agencies to
 work in a user-centered way, which is a different way for government to
@@ -259,4 +259,4 @@ practices. I think that’s really cool.
 
 (Related — [Making Procurement Easier: Some Questions with
 18F’s Kaitlin
-Devine](https://18f.gsa.gov/2015/03/05/making-procurement-easier-some-questions-for-developer-kaitlin-devine/).)
+Devine]({{ "/2015/03/05/making-procurement-easier-some-questions-for-developer-kaitlin-devine/" | url }}).)

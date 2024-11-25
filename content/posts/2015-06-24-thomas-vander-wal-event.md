@@ -53,9 +53,9 @@ the question.”
 
 We’ve certainly found this to be true at 18F, and we’ve blogged before
 about the [value of
-documentation](https://18f.gsa.gov/2015/06/15/building-a-better-welcome-wagon/)
+documentation]({{ "/2015/06/15/building-a-better-welcome-wagon/" | url }})
 when training new hires. We emphasize [open, digital record
-keeping](https://18f.gsa.gov/2015/05/28/18F-guides/), and — whenever
+keeping]({{ "/2015/05/28/18F-guides/" | url }}), and — whenever
 possible — we illuminate our processes, hopefully [to the benefit of
 the larger tech community](https://pages.18f.gov/guides/).
 

@@ -56,7 +56,7 @@ partnership by TTS and the Federal Acquisition Service. Agile BPA
 vendors have built or are building solutions for the Department of
 Labor, the Office of Personnel Management, the Environmental Protection
 Agency and more. Learn more about the [principles and practices that
-are driving the Agile BPA](https://18f.gsa.gov/tags/agile-bpa/). Learn
+are driving the Agile BPA]({{ "/tags/agile-bpa/" | url }}). Learn
 more from Dave Zvenyach and Paul Summers in their [Agile BPA lightning
 talk](https://youtu.be/NRAlPdiWXN8?t=1h6m39s).
 
@@ -78,12 +78,12 @@ projects from Alla Seiffert](https://youtu.be/NRAlPdiWXN8?t=1h25m12s).
 government that allows agencies to securely deploy systems to the cloud.
 It takes care of baseline security and scalability concerns and allows
 federal teams to focus on delivering quality products. We
-[expect](https://18f.gsa.gov/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/)
+[expect]({{ "/2016/07/18/cloud-gov-full-steam-ahead-fedramp-assessment-process/" | url }})
 cloud.gov to receive FedRAMP Joint Authorization Board Provisional
 Authority to Operate in November. We’re also [building a
-system](https://18f.gsa.gov/2016/04/15/compliance-masonry-buildling-a-risk-management-platform/)
+system]({{ "/2016/04/15/compliance-masonry-buildling-a-risk-management-platform/" | url }})
 to help automate risk management documentation. Read more [blog posts
-about cloud.gov](https://18f.gsa.gov/tags/cloud-gov/) and [watch Bret
+about cloud.gov]({{ "/tags/cloud-gov/" | url }}) and [watch Bret
 Mogilefsky’s lightning talk](https://youtu.be/NRAlPdiWXN8?t=1h14m55s).
 
 ## DATA Act
@@ -92,7 +92,7 @@ The Digital Accountability and Transparency Act (DATA Act) is a law
 that, once implemented, will make it easier to understand how the
 federal government spends money. [18F has been working with the
 Department of the
-Treasury](https://18f.gsa.gov/2015/06/09/data-act-data-act-explainer/)
+Treasury]({{ "/2015/06/09/data-act-data-act-explainer/" | url }})
 to successfully implement the law and help Treasury adopt some modern
 practices, like working in the open. Renata Maziarz from the Treasury
 talked about the benefits she’s seen from working in the open.
@@ -114,7 +114,7 @@ services case management system. Through a partnership with the
 Department of Health and Human Services, 18F was able to work on behalf
 of HHS with California’s Department of Social Services and Office of
 Systems Integration and Code for America to [simplify the contracting
-documents](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/)
+documents]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }})
 and to incorporate modular contracting, agile development, user-centered
 design, and open source practices into their project. 
 
@@ -140,7 +140,7 @@ insights from the sessions soon.
 
 Until then, you can sign up the [18F Acquisitions email
 list](http://gsa.us9.list-manage2.com/subscribe?u=6f1977de9eff4c384dc8d6527&id=e7f757afe3)
-or the [general 18F newsletter](https://18f.gsa.gov/#newsletter) to stay up to date with all of our projects
+or the general 18F newsletter (link removed) to stay up to date with all of our projects
 (or follow our work as it happens on
 [GitHub](https://github.com/18F)). If you’d like to start a
 conversation about working with 18F or have questions about our work,

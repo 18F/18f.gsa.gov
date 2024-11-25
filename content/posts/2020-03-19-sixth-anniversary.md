@@ -24,19 +24,19 @@ where we’re headed next.
 
 ### Assisted acquisition authority
 
-As we [announced last year](https://18f.gsa.gov/2019/03/19/18F-5-Anniversary-achieve/) we now
+As we [announced last year]({{ "/2019/03/19/18F-5-Anniversary-achieve/" | url }}) we now
 have access to the assisted acquisition authority. This allows us to buy
 products and services on behalf of our partners and will help us
 increase the use of modular, agile contracting in government. We’ve been
 working with the Health and Human Services’ Head Start Office to procure
 a centralized system for their Training and Technical Assistance
 platform. We’ve also updated the 18F site to include more information
-about our [acquisition services](https://18f.gsa.gov/how-we-work/).
+about our [acquisition services]({{ "/how-we-work/" | url }}).
 
 ### National Security and Intelligence Portfolio
 
 At the end of last year we added [our second
-portfolio](https://18f.gsa.gov/2019/12/10/announcing-the-18f-national-security-and-intelligence-portfolio/)
+portfolio]({{ "/2019/12/10/announcing-the-18f-national-security-and-intelligence-portfolio/" | url }})
 to support our work with agencies on projects that relate to national
 defense. The National Security and Intelligence Portfolio allows 18F to
 partner with traditional defense and intelligence agencies, and also
@@ -105,7 +105,7 @@ The benefits of this data strategy for NSDD data users will be:
 ### Open Forest
 
 We’ve been working with the U.S. Department of Agriculture’s Forest
-Service (USFS) [since 2016](https://18f.gsa.gov/tags/forest-service/)
+Service (USFS) [since 2016]({{ "/tags/forest-service/" | url }})
 to launch the [Open Forest platform](https://openforest.fs.usda.gov/),
 an online permit issuing system. Open Forest launched in 2018 and USFS
 scaled the pilot last year to include 13 different forests, which is

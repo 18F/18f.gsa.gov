@@ -38,14 +38,14 @@ procurement)*. Modular contracting is a strategy that breaks up large,
 complex procurements into multiple, tightly-scoped projects to implement
 technology systems in successive, interoperable increments. We’ve
 written
-[extensively](https://18f.gsa.gov/2016/11/15/modular-procurement-state-local-government/)
+[extensively]({{ "/2016/11/15/modular-procurement-state-local-government/" | url }})
 about how it can [reduce
-costs](https://18f.gsa.gov/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/),
+costs]({{ "/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/" | url }}),
 [decrease
-risk](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/),
+risk]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }}),
 and speed up how fast real users can start using government software.
 We’ve also [written
-about](https://18f.gsa.gov/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/)
+about]({{ "/2016/09/20/mississippi-agile-modular-techniques-child-welfare-system/" | url }})
 how we’ve used it and how our partners are using it. We’ve even
 published actual [solicitation
 documents](https://github.com/search?q=topic%3Aagile-bpa+org%3A18F&type=Repositories)
@@ -86,7 +86,7 @@ at exponentially lower cost.
 
 Likewise, modularity provides for the flexibility needed to apply [lean
 product
-design](https://18f.gsa.gov/2015/11/20/how-we-use-a-lean-approach-to-product-design/)
+design]({{ "/2015/11/20/how-we-use-a-lean-approach-to-product-design/" | url }})
 principles like “[Build, Measure,
 Learn](https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/)”
 by allowing early lessons to inform shifts in direction along the way.
@@ -173,7 +173,7 @@ Buy-in and culture change
 -------------------------
 
 Modular contracting — especially when paired with [open source
-software](https://18f.gsa.gov/2016/08/08/facts-about-publishing-open-source-code-in-government/)
+software]({{ "/2016/08/08/facts-about-publishing-open-source-code-in-government/" | url }})
 and [agile
 development](https://modularcontracting.18f.gov/agile-development/) —
 can be very different than what many government technology teams are

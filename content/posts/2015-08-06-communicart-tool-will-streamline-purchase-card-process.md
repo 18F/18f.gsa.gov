@@ -44,7 +44,7 @@ tool to help make this process fast and efficient.
 
 [{% image "assets/blog/communicart/communicart-screenshot.png" "Screenshot of the Communicart approval portal" %}](https://cap.18f.gov/)
 
-We call it [Communicart](https://18f.gsa.gov/our-work/c2/).
+We call it [Communicart]({{ "/our-work/c2/" | url }}).
 It’s a tool that took some cues from the process for tracking “carts”
 through an approval process on [GSA Advantage][3], a site government
 employees use to shop at special rates. Our hope is that as this tool

@@ -54,4 +54,4 @@ process. Resist the urge to do things behind closed doors, otherwise you
 can lose trust and increase skepticism.
 
 [Read more answers from the Ask 18F
-column.](https://18f.gsa.gov/tags/ask-18f/)
+column.]({{ "/tags/ask-18f/" | url }})

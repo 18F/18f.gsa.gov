@@ -22,10 +22,10 @@ image: /assets/blog/turn-up-to-11/turn-up-to-11.jpg
 ---
 
 In the [first post of this
-trilogy](https://18f.gsa.gov/2015/12/30/turning-learning-up-to-11/), I
+trilogy]({{ "/2015/12/30/turning-learning-up-to-11/" | url }}), I
 summarized my DevOps Enterprise 2015 talk that focused on transparency,
 autonomy, and collaboration as primary factors in producing
-organizational culture change. In the [second post](https://18f.gsa.gov/2016/01/04/turning-learning-up-to-11-transparency/), I described a few of
+organizational culture change. In the [second post]({{ "/2016/01/04/turning-learning-up-to-11-transparency/" | url }}), I described a few of
 the initiatives we’ve undertaken to increase transparency into 18F’s
 internal operations, which we hope will inspire other organizations to
 follow suit. In this final post of the trilogy, I’ll describe other
@@ -43,8 +43,8 @@ concerns. The Documentation Working Group in particular has helped many
 of these groups become more productive and visible thanks to the [18F
 Guides](https://guides.18f.gov/) vehicle. In terms of software
 products, the [Agile Guild](https://pages.18f.gov/agile/) is currently
-leading the effort to enhance our externally facing [18F
-Dashboard](https://18f.gsa.gov/dashboard/), and the [Testing
+leading the effort to enhance our externally facing 18F
+Dashboard (link removed), and the [Testing
 Grouplet](https://pages.18f.gov/wg-testing/) has prototyped an
 internally facing dashboard for the code health of our projects. As
 mentioned in the previous post, our Hub, Handbook, .about.yml standard,
@@ -79,7 +79,7 @@ as we can!)
 ------------------------
 
 Since [launching our 18F Pages service in
-May](https://18f.gsa.gov/2015/05/14/18Fpages/), many groups within 18F
+May]({{ "/2015/05/14/18Fpages/" | url }}), many groups within 18F
 have taken advantage of the platform to produce [18F
 Guides](https://guides.18f.gov/) on a broad array of topics. Several of
 our guides, including the [Content

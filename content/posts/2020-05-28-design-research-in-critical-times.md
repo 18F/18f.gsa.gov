@@ -18,7 +18,7 @@ excerpt: 18F staff is distributed across the country and the majority of our
 ---
 Among the many challenges during critical times is a change to how we work. Suddenly, many designers and researchers who can continue working are now in a remote workplace and distributed team for the first time. For those accustomed to working in-person with their research participants and teams, this can be a big adjustment.
 
-GSA’s 18F staff is distributed across the country and the majority of our research has been and will continue to be facilitated remotely. Our team has been working this way since our organization’s inception [six years ago](https://18f.gsa.gov/2020/03/19/sixth-anniversary/). We hope our experience will help guide designers and researchers as they adapt to new ways of working and provide some additional considerations to keep in mind while conducting research in critical times.
+GSA’s 18F staff is distributed across the country and the majority of our research has been and will continue to be facilitated remotely. Our team has been working this way since our organization’s inception [six years ago]({{ "/2020/03/19/sixth-anniversary/" | url }}). We hope our experience will help guide designers and researchers as they adapt to new ways of working and provide some additional considerations to keep in mind while conducting research in critical times.
 
 ## Scheduling and time constraints
 
@@ -102,6 +102,6 @@ Our mission remains the same: to improve the user experience of government servi
 
 Is your design and research team trying to shift to fully remote work at this critical moment? With expertise in modern digital tools and practices, 18F can equip your staff with strategies to maximize effective collaboration in a distributed setting. We can also help implement or create online options for processes that are currently only available in-person.
 
-Contact 18F-inquiries@gsa.gov if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
+[Contact 18F]({{ "/contact/" | url }}) if you’re a government agency with federal funding (including state and local!) who needs help adapting your digital services to rapidly shifting demands.
 
 **Thank you** to everyone in the 18F Design Team and the TTS Research Guild who participated in the conversations that led to this post. Thanks to Ron Bronson for leading the initial conversation, Anne Petersen for direction and guidance, and Malaika Carpenter for editing.

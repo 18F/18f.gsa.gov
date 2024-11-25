@@ -43,7 +43,7 @@ Esta mañana no tengo reuniones, así que pondré música y trabajaré en resolv
 
 Este tipo de proyecto, donde creamos prototipos, ocurre luego que se ha culminado una fase de investigación y análisis de la experiencia del usuario. Durante este proceso un grupo interdisciplinario identifica necesidades y crea un mapa de ruta para atenderlas.
 
-La tecnología que utilizamos en cada proyecto depende en gran medida de las circunstancias de nuestros socios. Sin embargo, siempre buscamos integrar el uso de tecnología abierta y [seguir guías de buenas prácticas](https://18f.gsa.gov/guides/) (en inglés).
+La tecnología que utilizamos en cada proyecto depende en gran medida de las circunstancias de nuestros socios. Sin embargo, siempre buscamos integrar el uso de tecnología abierta y [seguir guías de buenas prácticas]({{ "/guides/" | url }}) (en inglés).
 
 ## Comunicación diaria
 

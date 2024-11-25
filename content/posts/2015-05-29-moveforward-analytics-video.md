@@ -19,7 +19,7 @@ This month, the digital services family of U.S. Digital Services (USDS)
 Headquarters, 18F, Presidential Innovation Fellows, General Services
 Administration’s Office of Citizen Services and Innovative Technology
 (OCSIT), and more, got together at the [inaugural moveForward(100);
-event](https://18f.gsa.gov/2015/05/11/moveforward/) to share their
+event]({{ "/2015/05/11/moveforward/" | url }}) to share their
 work. One of the projects 18F shared was the
 [analytics.usa.gov](https://analytics.usa.gov) dashboard.
 
@@ -38,4 +38,4 @@ been two years in the making.
 Watch the video above to learn more about analytics.usa.gov from 18F’s
 Leah Bannon and Charles Worthington of USDS or [learn more about how
 the team built the
-site](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/).
+site]({{ "/2015/03/19/how-we-built-analytics-usa-gov/" | url }}).

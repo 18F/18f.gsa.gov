@@ -82,7 +82,7 @@ upstream, so the back-end developers worked hard to write and test an
 extensive ETL process.
 
 But [agile, user-centered
-design](https://18f.gsa.gov/2015/11/17/choose-design-over-architecture)
+design]({{ "/2015/11/17/choose-design-over-architecture/" | url }})
 means you can’t know the application's final format at the beginning of
 a project; it evolves continually with the experiences of the
 developers, product owner, and end users. Our front-end developers made

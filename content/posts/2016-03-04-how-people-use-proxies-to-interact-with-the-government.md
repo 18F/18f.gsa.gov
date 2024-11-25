@@ -19,9 +19,9 @@ image: /assets/blog/federal-front-door/ffd-microsite.jpg
 ---
 
 
-_This is part four of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series](https://18f.gsa.gov/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
+_This is part four of a series detailing the findings of a team of researchers from 18F and the General Services Administration who studied broad trends in people’s perceptions of and interactions with the government. You can find the [introduction to the series]({{ "/2016/03/01/what-we-learned-after-interviewing-people-about-their-interactions-with-the-federal-government/" | url }}) on our website and a complete pdf of the [research findings](https://labs.usa.gov/#research-report) on a [new microsite](https://labs.usa.gov/) that details the themes the research team is investigating._
 
-_In yesterday’s post, we [detailed how people learn to navigate government services](https://18f.gsa.gov/2016/03/03/how-people-learn-to-navigate-government-services/) and what barriers exist to access services. Today we’ll detail how people interact with the government using proxies._
+_In yesterday’s post, we [detailed how people learn to navigate government services]({{ "/2016/03/03/how-people-learn-to-navigate-government-services/" | url }}) and what barriers exist to access services. Today we’ll detail how people interact with the government using proxies._
 
 {% image "assets/blog/federal-front-door/ffd-microsite.jpg" "screenshot of labs.usa.gov" %}
 

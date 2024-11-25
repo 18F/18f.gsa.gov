@@ -13,7 +13,7 @@ excerpt: "In the previous post, we wrote about how product management works in P
 *This is the second of a series of blog posts that will provide a glimpse into what it’s like to be a product manager at 18F.*
 
 
-In the [previous post](https://18f.gsa.gov/2018/12/04/product-management-at-18f-part-1-new-engagements/),
+In the [previous post]({{ "/2018/12/04/product-management-at-18f-part-1-new-engagements/" | url }}),
 we wrote about how product management works in Path Analysis and
 Experiment & Iterate phases. In this post, we’ll discuss how 18F product
 managers support our partner agencies who are *procuring* the services
@@ -24,7 +24,7 @@ modern digital services, so they depend on outside contractors. The
 process of bringing in these external resources is called
 *acquisitions*. 18F helps build the government’s capacity to identify
 the right contractors and work hand-in-hand with them to deliver the
-best products using [agile, human-centered, and open source methodologies](https://18f.gsa.gov/partnership-principles/).
+best products using [agile, human-centered, and open source methodologies]({{ "/partnership-principles/" | url }}).
 
 Our team of government acquisitions professionals work to design
 government contracts that support an agile approach to digital services.
@@ -46,7 +46,7 @@ scope of the work and the skills needed. They may also sit on the
 evaluation panel to review potential contractors.
 
 Once a contractor has been selected, the build begins, and the product
-manager role might look similar to what was described in [the previous post](https://18f.gsa.gov/2018/12/04/product-management-at-18f-part-1-new-engagements/). We will be focused on coaching the [*Product Owner*](https://18f.gsa.gov/2018/04/17/so-youre-a-product-owner/) at
+manager role might look similar to what was described in [the previous post]({{ "/2018/12/04/product-management-at-18f-part-1-new-engagements/" | url }}). We will be focused on coaching the [*Product Owner*]({{ "/2018/04/17/so-youre-a-product-owner/" | url }}) at
 our partner agency and developing their skills. Critically, we’ll
 also be providing oversight of the contractor, and ensuring they’re
 delivering the best possible work to our partner agency.

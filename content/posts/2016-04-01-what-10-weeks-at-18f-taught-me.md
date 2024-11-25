@@ -43,7 +43,7 @@ I worked with Raphy Villas in the Chicago office to design my time with
 18F. We built in flexibility so I would have the opportunity to get
 immersed into the way 18F works. I knew that I was going to lend support
 to 18F’s [C2
-project](https://18f.gsa.gov/2015/08/06/communicart-tool-will-streamline-purchase-card-process/),
+project]({{ "/2015/08/06/communicart-tool-will-streamline-purchase-card-process/" | url }}),
 and I was open to opportunities that would stretch me creatively.
 
 Turns out, I was able to plug in and hit the ground running on Day One.

@@ -38,7 +38,7 @@ How did we get here?
 --------------------
 
 About a year ago, we told the world ["we are
-hiring."](https://18f.gsa.gov/2015/02/25/We-Are-Hiring/) It was a big
+hiring."]({{ "/2015/02/25/We-Are-Hiring/" | url }}) It was a big
 moment. Before that, 18F had never mentioned the word “hiring” publicly.
 Demand had grown exponentially for 18F’s services, and we needed a wider
 pool of applicants to fill all of our open positions. We also realized

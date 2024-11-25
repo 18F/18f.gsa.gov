@@ -42,7 +42,7 @@ productive relationship is by designing a collaborative process that is
 built on transparency — working in the open is an essential ingredient
 to building better relationships with vendors. A great example of how
 openness and transparency can foster a more productive relationship
-between agency and vendor can be seen in our work with the [State of Alaska](https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/).
+between agency and vendor can be seen in our work with the [State of Alaska]({{ "/2017/09/12/how-alaska-is-using-transparency/" | url }}).
 
 After a monolithic contract with a vendor ended poorly, the State of
 Alaska brought in the 18F team to help them develop new processes and to
@@ -51,8 +51,8 @@ public benefit eligibility system. A core component of these new
 processes and the modular strategy is openness.
 
 Early in our engagement with Alaska, we helped the team in the Division
-of Public Assistance (DPA) adopt [DevOps practices](https://18f.gsa.gov/2018/01/25/getting-devops-buy-in/) and
-to establish a [build and deployment pipeline](https://18f.gsa.gov/2018/02/01/moving-a-legacy-microsoft-environment-to-the-azure-cloud/)
+of Public Assistance (DPA) adopt [DevOps practices]({{ "/2018/01/25/getting-devops-buy-in/" | url }}) and
+to establish a [build and deployment pipeline]({{ "/2018/02/01/moving-a-legacy-microsoft-environment-to-the-azure-cloud/" | url }})
 to allow the state to accept work from outside vendors. As originally
 envisioned, the process for vendors to deliver work to the state was to
 happen [via a pull request](https://github.com/AlaskaDHSS/RFP-Search-Unification/blob/master/2-QAP.md#procedures)

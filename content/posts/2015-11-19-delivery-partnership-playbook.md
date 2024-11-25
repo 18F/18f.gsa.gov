@@ -45,14 +45,14 @@ Under each point, you’ll see explanatory information, specifics on what
 the play means for our shared work, and how to know if you are ready to
 execute the play.
 
-As [our work](https://18f.gsa.gov/dashboard)
+As our work
 goes on, we will continue to iterate this playbook and other guides to
 memorialize the lessons we learn. If you don’t feel prepared to work in
 the ways described, [18F Consulting]({{ "/consulting/" | url }})
 may be able to help introduce some of the playbook’s ideas through tools
 like
-[agile](https://18f.gsa.gov/2015/02/11/a-story-of-an-agile-workshop/)
-[workshops](https://18f.gsa.gov/2015/08/31/how-playing-with-legos-taught-executives-agile/).
+[agile]({{ "/2015/02/11/a-story-of-an-agile-workshop/" | url }})
+[workshops]({{ "/2015/08/31/how-playing-with-legos-taught-executives-agile/" | url }}).
 Please let us know how the playbook can be improved by
 [opening an issue](https://github.com/18F/partnership-playbook/issues). And if this
 sounds like the way you like to work, get in touch at

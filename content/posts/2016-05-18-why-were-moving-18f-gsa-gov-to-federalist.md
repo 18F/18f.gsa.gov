@@ -13,7 +13,7 @@ excerpt: "We want 18f.gsa.gov to be an exemplar of what 18F can do for partner a
 One of the first things I did at 18F was work with a few others to
 migrate our blog from Tumblr and [build the whole site, with Jekyll, on
 our
-servers](https://18f.gsa.gov/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/).
+servers]({{ "/2014/11/17/taking-control-of-our-website-with-jekyll-and-webhooks/" | url }}).
 We wanted to ensure our readers were getting high quality content and
 that it’s served to them in a consistent, stable, and trustable
 environment. About a year and a half later, we’re taking a second look
@@ -26,10 +26,10 @@ The Federalist platform
 -----------------------
 
 [As we wrote in
-September](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/),
+September]({{ "/2015/09/15/federalist-platform-launch/" | url }}),
 Federalist is “glue that ties a lot of already-existing platforms
 together.” [We built Federalist in
-house](https://18f.gsa.gov/2015/10/06/how-we-start-a-new-project/) to
+house]({{ "/2015/10/06/how-we-start-a-new-project/" | url }}) to
 provide federal clients with a robust experience for hosting very simple
 websites like the [Social and Behavioral Sciences
 Team](https://sbst.gov), [Not Alone](https://notalone.gov), the

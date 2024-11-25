@@ -34,7 +34,7 @@ These properties are useful for all of our applications, all of the time &mdash;
 
 Our friends across the pond in the Government Digital Service have come to the same conclusion, and [require HTTPS](https://www.gov.uk/service-manual/domain-names/https.html) in their [digital standards for the UK government](https://www.gov.uk/service-manual).
 
-As we build web APIs that we want the public to rely on, secure connections are becoming even more vital. 18F's [API standards](https://18f.gsa.gov/2014/07/15/hot-off-the-press-18fs-api-standards/) recognize this by [requiring the use of encryption](https://github.com/18F/api-standards#always-use-https).
+As we build web APIs that we want the public to rely on, secure connections are becoming even more vital. 18F's [API standards]({{ "/2014/07/15/hot-off-the-press-18fs-api-standards/" | url }}) recognize this by [requiring the use of encryption](https://github.com/18F/api-standards#always-use-https).
 
 ## HTTPS has never been faster
 
@@ -58,7 +58,7 @@ We've still got a lot to do on this front, but we're starting out by:
 * Baking a [strong nginx configuration](https://github.com/18F/tls-standards/blob/008ad71ff13b368895351342142eea4fba671a50/configuration/nginx/ssl.rules) into the baseline that 18F uses to create each of our production servers, so that our individual developers don't have to become HTTPS experts.
 * Keeping up with the web security community as it makes advances in [encryption](https://blog.cloudflare.com/ecdsa-the-digital-signature-algorithm-of-a-better-internet/), [protocols](http://threatpost.com/tls-1-3-working-group-has-consensus-to-deprectate-rsa-key-transport), and [certificate management](https://sslmate.com) that can make our lives easier and our applications more secure.
 
-As we grow, we'll be writing about the tools we use &mdash; and [open sourcing](https://18f.gsa.gov/2014/07/29/18f-an-open-source-team/) the tools we make &mdash; along the way.
+As we grow, we'll be writing about the tools we use &mdash; and [open sourcing]({{ "/2014/07/29/18f-an-open-source-team/" | url }}) the tools we make &mdash; along the way.
 
 ## Moving forward
 

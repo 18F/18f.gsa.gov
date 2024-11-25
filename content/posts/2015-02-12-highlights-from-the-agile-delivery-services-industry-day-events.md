@@ -17,7 +17,7 @@ Tuesday, February 3 was a big day for GSA, and for me personally. In the
 morning, I had the incredible experience of meeting with President Obama
 in the Oval Office to talk about the work that's going into developing
 the [Agile Delivery Services
-marketplace](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/).
+marketplace]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }}).
 
 While that discussion was going on, 18F and GSA’s [Office of Integrated
 Technology Services](http://www.gsa.gov/portal/content/105150) (ITS)

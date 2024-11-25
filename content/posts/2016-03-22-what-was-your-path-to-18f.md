@@ -15,7 +15,7 @@ People come to 18F from many different backgrounds. We've heard from new hires a
 
 Recently, we asked our team of writers, lawyers, designers, product managers, talent experts, bureaucracy hackers, and developers to tell us what path they took to get to 18F.
 
-Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about [why our team members applied to 18F](https://18f.gsa.gov/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/), and tomorrow you can see what they've loved working on so far.
+Over 100 people from every team (and time zone) responded, and we're excited to share their responses below. You can also see more about [why our team members applied to 18F]({{ "/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/" | url }}), and tomorrow you can see what they've loved working on so far.
 
 Want to see your name on this list? You can see open positions and how to apply [on our join page](https://pages.18f.gov/joining-18f/index.html).
 
@@ -175,7 +175,7 @@ _Team Ops handles all activities related to travel, non-travel purchases, legal 
 
 ## Outreach
 
-_The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F's public-facing website](https://18f.gsa.gov/), [our blog](https://18f.gsa.gov/blog/), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov._
+_The Outreach team is responsible for promoting the work of digital innovators at 18F and across government. Our work spans a number of media outlets, including [the content of 18F's public-facing website]({{ "/" | url }}), [our blog]({{ "/blog/" | url }}), our external and internal newsletters, our Twitter feed ([@18F](https://twitter.com/18F)), responses to press, and responses to emails to 18f@gsa.gov._
 
 [Back to the table of contents](#contents)
 

@@ -14,7 +14,7 @@ excerpt: We launched the eRegulations Notice and Comment pilot this summer, and 
 description: We launched the eRegulations Notice and Comment pilot this summer, and in the process saw some patterns in how our partner agencies write their regulations. In response, the eRegulations team prepared a guide to help agencies write regulations in a more data- and human-friendly format that would be easier to parse — thus saving time and money.
 ---
 [We launched the eRegulations Notice and Comment
-pilot](https://18f.gsa.gov/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/)
+pilot]({{ "/2016/07/26/new-pilot-aims-to-streamline-notice-and-comment-process/" | url }})
 this summer, and in the process saw some patterns in how our partner
 agencies write their regulations. In response, the eRegulations team
 prepared a guide to help agencies write regulations in a more data- and

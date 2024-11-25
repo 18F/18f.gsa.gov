@@ -20,7 +20,7 @@ posted an opportunity to contribute code to our [CALC
 projec](https://github.com/18F/calc/issues/255)t, and a number of
 bidders took us up on the challenge. It was a [learning opportunity and
 a successful first
-run](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/). Given
+run]({{ "/2015/11/06/micro-purchase-lessons/" | url }}). Given
 both vendor and government interest in continuing this task, 18F is
 happy to announce the launch of a new
 [platform](http://micropurchase.18f.gov) for posting and bidding on
@@ -51,7 +51,7 @@ interface for viewing and bidding on auctions.
 
 Our first attempt at the micropurchase experiment featured a reverse
 auction that was ultimately won [for one
-dollar.](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/) We
+dollar.]({{ "/2015/11/06/micro-purchase-lessons/" | url }}) We
 intend to continue iterating on the auction process, and plan on
 experimenting with different auction formats in the future.
 

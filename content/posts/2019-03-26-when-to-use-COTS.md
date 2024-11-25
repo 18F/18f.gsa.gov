@@ -33,7 +33,7 @@ right for your project.**
 Before making any decision, you should be able to articulate the value
 of the system you think you need and a general idea of some of the main
 features to drive that value for the people who will use it. We often
-call this a [product vision](https://18f.gsa.gov/2018/12/04/product-management-at-18f-part-1-new-engagements/),
+call this a [product vision]({{ "/2018/12/04/product-management-at-18f-part-1-new-engagements/" | url }}),
 which is a succinct and shared understanding of what we need.
 
 The best way to surface how end-user considerations might map to a COTS
@@ -118,7 +118,7 @@ never use. COTS providers will often have a disincentive to be
 transparent about the maintenance costs of modification and may charge
 additional costs for migrating existing data or extracting data when a
 contract sunsets. You can mitigate this risk by procuring the smallest
-possible solution or multiple smaller COTS products and [leveraging open-source components that fulfill discrete tasks](https://18f.gsa.gov/2018/10/25/modular-contracting-and-working-in-the-open/)
+possible solution or multiple smaller COTS products and [leveraging open-source components that fulfill discrete tasks]({{ "/2018/10/25/modular-contracting-and-working-in-the-open/" | url }})
 so that you are less reliant on any one single component.
 
 **If you’re looking for a software solution to meet your central program
@@ -154,7 +154,7 @@ You have a few options:
 
 1.  First, it’s worth asking if your processes could be adapted to meet the way the software already manages them. To do so, you need an empowered decision-maker who can prioritize users’ needs and enforce these changes.
 2.  You can create a hybrid approach, where you leverage a combination of tools that communicate electronically (usually via an API) to meet your need. One example of this is [State of Alaska’s approach to developing a modern eligibility system](https://github.com/AlaskaDHSS/EIS-Modernization/wiki).
-3.  You can leverage open-source technologies to build a custom solution that best meets your user needs. 18F has put together some [rules of thumb for reusing or customizing existing open source software.](https://18f.gsa.gov/2017/10/23/how-reusable-is-open-source-software/)
+3.  You can leverage open-source technologies to build a custom solution that best meets your user needs. 18F has put together some [rules of thumb for reusing or customizing existing open source software.]({{ "/2017/10/23/how-reusable-is-open-source-software/" | url }})
 
 One single approach may not be the best way to meet your needs. A
 modular approach will allow you to create a small ecosystem of existing

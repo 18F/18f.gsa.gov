@@ -19,7 +19,7 @@ Accelerator](https://pages.18f.gov/digitalaccelerator/), a 6-8 month
 program aimed at creating change agents within two agencies to inspire a
 culture shift within those agencies towards modern product management
 practices. This past month, the Accelerator launched its first
-[cohort](https://18f.gsa.gov/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/),
+[cohort]({{ "/2016/06/15/two-agencies-participating-in-the-digital-acquisition-accelerator-pilot/" | url }}),
 consisting of cross-functional teams of contracting officers,
 developers, program managers, and product owners from the Federal Bureau
 of Investigation and the U.S. Department of the Treasury. We’re building

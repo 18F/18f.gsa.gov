@@ -19,7 +19,7 @@ image: /assets/blog/technical-debt/heat-map.jpg
 ---
 
 In the [last
-post](https://18f.gsa.gov/2015/09/04/what-is-technical-debt/), we
+post]({{ "/2015/09/04/what-is-technical-debt/" | url }}), we
 talked about the potential consequences of having a lot of technical
 debt. Now, we’ll give you concrete steps to identify and then manage
 that technical debt so it doesn’t get out of hand.
@@ -157,4 +157,4 @@ development cycles:
 -   **Managing the product backlog.** If you’re using an agile methodology such as [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), you can capture technical work packages (described above) as user stories and include them in the [product backlog](https://www.mountaingoatsoftware.com/agile/scrum/product-backlog). You can then prioritize these user stories for implementation during an upcoming iteration cycle.
 
 In our next post, we’ll go over [ways to can prevent your next project
-from accruing technical debt](https://18f.gsa.gov/2015/10/22/preventing-technical-debt/) in the first place.
+from accruing technical debt]({{ "/2015/10/22/preventing-technical-debt/" | url }}) in the first place.

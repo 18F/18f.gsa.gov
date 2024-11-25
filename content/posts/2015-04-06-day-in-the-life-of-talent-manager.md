@@ -45,7 +45,7 @@ By **noon**, I am ready for a break. My SF officemates know that my lunch habits
 
 <img alt="SF on a sunny day" src="{{ site.baseurl }}/assets/blog/talent-manager/sfview.JPG" class="align-right" />
 
-**1:00 p.m.**: I make my way back inside and settle in to review resumes. This task is fairly simple: input names and other pertinent information into our candidate tracker, separate applicants into the appropriate [buckets](https://18f.gsa.gov/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/), and then send the resumes out  for evaluation. Each resume is reviewed by at least two subject matter experts (SMEs) on our team.
+**1:00 p.m.**: I make my way back inside and settle in to review resumes. This task is fairly simple: input names and other pertinent information into our candidate tracker, separate applicants into the appropriate [buckets]({{ "/2015/03/10/Labor-Category-Descriptions-for-Agile-Procurements/" | url }}), and then send the resumes out  for evaluation. Each resume is reviewed by at least two subject matter experts (SMEs) on our team.
 
 **2:00 p.m.**: I step away from the computer to hop on the phone again. I’ve scheduled a few 30-minute phone screens (in terms of the hiring process, this happens post resume review) with potential operations specialists and talent coordinators.  Most of these positions are filled via a special hiring authority granted to Returned Peace Corps/Americorps/Vista Volunteers. I am biased, but Peace Corps Volunteers are incredible humans. We’ve got a lot of them here at 18F and we’d love many, many more. If you know someone that fits that bill, tell them to [apply](http://www.peacecorps.gov/resources/returned/careercen/careerlink/jobs/7702/)!
 

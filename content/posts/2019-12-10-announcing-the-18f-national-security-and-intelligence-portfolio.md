@@ -10,7 +10,7 @@ excerpt: "18F is launching a new National Security and Intelligence Portfolio to
 defense issues."
 ---
 
-As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas. As our Executive Director, Angela Colter, put it in a [blog post](https://18f.gsa.gov/2019/03/19/18F-5-Anniversary-achieve/) earlier this year:
+As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas. As our Executive Director, Angela Colter, put it in a [blog post]({{ "/2019/03/19/18F-5-Anniversary-achieve/" | url }}) earlier this year:
 
 <blockquote>
 Previously, gaining that kind of knowledge has been a happy accident. But in 2018, we decided to become more intentional about preserving our experience in these fields. That way, we can better help our partners solve their challenges and in turn help them deliver more value for the people they serve.

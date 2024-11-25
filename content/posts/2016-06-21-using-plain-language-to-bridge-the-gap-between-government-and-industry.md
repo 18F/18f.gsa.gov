@@ -63,7 +63,7 @@ Further, after a vendor knows that they do want to be part this
 particular schedule program, it can be hard to figure out how to apply.
 
 18F experienced these challenges firsthand as we embarked on the
-[creation of the Agile BPA](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+[creation of the Agile BPA]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }})
 last year. The Agile BPA is a type of contract 18F is now using to
 deliver great digital services to our partner agencies, and it’s based
 on IT Schedule 70. When we first announced this effort, we heard from a

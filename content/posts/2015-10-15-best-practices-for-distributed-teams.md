@@ -77,7 +77,7 @@ Have a question for a coworker? Two minutes later, we might be sharing a
 screen together, using programs such as appear.in, Google Hangouts, Screenhero, and
 plain-old screencasting. This allows us to ask for feedback, show off
 designs, and [pair
-program](https://18f.gsa.gov/2015/05/04/pair-programming-why-two-heads-are-better-than-one/)
+program]({{ "/2015/05/04/pair-programming-why-two-heads-are-better-than-one/" | url }})
 with each other.
 
 We have face-to-face meetings at least once a week.

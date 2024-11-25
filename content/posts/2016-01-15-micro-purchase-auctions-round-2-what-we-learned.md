@@ -34,7 +34,7 @@ First, some numbers.
 -   **All winners were small businesses**, and one winning bidder is a service-disabled veteran-owned small business.
 
 When we launched [our initial micro-purchase
-experiment](https://18f.gsa.gov/2015/10/26/micro-purchase-criteria-announcement/),
+experiment]({{ "/2015/10/26/micro-purchase-criteria-announcement/" | url }}),
 we envisioned it as a low-risk, lightweight way to get new vendors
 working with the government on open source solutions to small problems
 that would be too cumbersome to address with traditional contracting
@@ -48,7 +48,7 @@ first round, vendors had to use a Google Form to bid and a GitHub issue
 to track the auction. That system was a workable minimum viable product,
 but for this round of auctions, our team built a brand-new
 [micro-purchase
-platform](https://18f.gsa.gov/2016/01/07/announcing-the-18f-micro-purchase-platform/)
+platform]({{ "/2016/01/07/announcing-the-18f-micro-purchase-platform/" | url }})
 that we hoped would be more intuitive for vendors and easier for the
 public to navigate.
 
@@ -64,7 +64,7 @@ and accepted less than 24 hours after the auction closed.
 
 We were also pleased to see a wider range of winning bids in this round.
 Our first micro-purchase auction ended in a [$1 winning
-bid](https://18f.gsa.gov/2015/11/06/micro-purchase-lessons/), but this
+bid]({{ "/2015/11/06/micro-purchase-lessons/" | url }}), but this
 round’s winners bid between $200 and $400. This provides more evidence
 that there’s a market for small open source tasks and an interested and
 talented pool of vendors ready to get involved.

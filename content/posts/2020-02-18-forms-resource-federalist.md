@@ -24,7 +24,7 @@ anyone building government static sites with forms.
 
 This resource is the result of a recent pilot research project to
 understand needs for static forms across government, which was supported
-by [GSA's 10x program](https://18f.gsa.gov/tags/10x/) for
+by [GSA's 10x program]({{ "/tags/10x/" | url }}) for
 technology-focused ideas from federal employees. Our research identified
 a number of federal requirements that may come into play depending on
 your particular situation. We found there wasn’t one place where all

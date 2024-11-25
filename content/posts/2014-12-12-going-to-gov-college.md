@@ -18,7 +18,7 @@ tags:
 
 layout: post
 ---
-Recently, a number of teammates coordinated to put on three DigitalGov University courses that covered a range of topics, from culture change and open source to the latest in API trends. Mike Bland wrote about [his talk, "Large Scale Development Culture Change: Google and the U.S. Government," last Thursday](https://18f.gsa.gov/2014/12/11/large-scale-development-culture-change/), but in case you missed it we wanted to highlight the others here.
+Recently, a number of teammates coordinated to put on three DigitalGov University courses that covered a range of topics, from culture change and open source to the latest in API trends. Mike Bland wrote about [his talk, "Large Scale Development Culture Change: Google and the U.S. Government," last Thursday]({{ "/2014/12/11/large-scale-development-culture-change/" | url }}), but in case you missed it we wanted to highlight the others here.
 
 <!-- more -->
 

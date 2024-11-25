@@ -71,9 +71,9 @@ headquartered in San Francisco.
 Our team
 --------
 
-[18F started](https://18f.gsa.gov/2014/03/19/hello-world-we-are-18f/)
+[18F started]({{ "/2014/03/19/hello-world-we-are-18f/" | url }})
 as a team of 15 people in DC. [On our first
-birthday](https://18f.gsa.gov/2015/03/19/18f-by-the-numbers/), we had
+birthday]({{ "/2015/03/19/18f-by-the-numbers/" | url }}), we had
 76 employees in 11 cities. In the last 12 months we continued to hire
 public servants around the country to join our team. Here’s what we look
 like today:
@@ -81,7 +81,7 @@ like today:
 -   **21 new** [**Presidential Innovation Fellows**](https://presidentialinnovationfellows.gov/)
 -   **97 new 18F team members,** bringing our team to a total size of **178**
 -   [We are hiring](https://join.18f.gov) at a rate of **25 new employees per quarter**
--   We have staff in **30 cities** [**across the country**](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/)
+-   We have staff in **30 cities** [**across the country**]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }})
 -   **We have four offices** in DC, San Francisco, New York, and Chicago
 -   **43 percent** of our staff works in DC, **19 percent** in San Francisco, **eight percent** in Chicago, and **seven percent** in New York
 -   The remaining **23 percent of the team works remotely** from one of the following cities:

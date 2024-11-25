@@ -22,9 +22,9 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 
 ## By the projects
 
-15: Current [Delivery Services Projects](https://18f.gsa.gov/dashboard/)
+15: Current Delivery Services Projects (link removed)
 
-7: [Projects](https://18f.gsa.gov/dashboard/) currently in Beta
+7: Projects (link removed) currently in Beta
 
 125: End-users engaged while we were researching, prototyping, and developing projects
 
@@ -36,9 +36,9 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 
 ## By the people
 
-15: People on the [18F team](https://18f.gsa.gov/) one year ago
+15: People on the [18F team]({{ "/" | url }}) one year ago
 
-76: People on the [18F team](https://18f.gsa.gov/) today
+76: People on the [18F team]({{ "/" | url }}) today
 
 20: People expected to join 18F during the next few weeks
 
@@ -46,7 +46,7 @@ Today, we’re celebrating our first anniversary. We wanted to take a look at so
 
 87: Total number of Presidential Innovation Fellows
 
-66: Number of [blog posts](https://18f.gsa.gov/news/) (as of 3/19/15)
+66: Number of [blog posts]({{ "/news/" | url }}) (as of 3/19/15)
 
 684: Number of Tweets on [@18F](https://twitter.com/18f) (as of 3/19/15)
 

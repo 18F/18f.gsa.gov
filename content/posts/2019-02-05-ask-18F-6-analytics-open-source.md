@@ -40,4 +40,4 @@ Additional resources:
 - [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 - [Notebooks using machine learning to create music](https://magenta.tensorflow.org/demos/colab/)
 
-[Read more answers from the Ask 18F column.](https://18f.gsa.gov/tags/ask-18f/)
+[Read more answers from the Ask 18F column.]({{ "/tags/ask-18f/" | url }})

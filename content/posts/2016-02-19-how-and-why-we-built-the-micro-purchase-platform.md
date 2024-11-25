@@ -65,7 +65,7 @@ bids, and evaluating the vendor-delivered code to be a painless,
 scalable process for 18F staff.
 
 As we said in our blog post [introducing the micro-purchase
-experiment](https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/),
+experiment]({{ "/2015/10/13/open-source-micropurchasing/" | url }}),
 one goal with this project is to “contract for [open source]
 contributions. And we want to do it the 18F way.” One aspect of
 contracting “the 18F way” is that systems should be built out of

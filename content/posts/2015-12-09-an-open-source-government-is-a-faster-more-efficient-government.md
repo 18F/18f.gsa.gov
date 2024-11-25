@@ -38,7 +38,7 @@ Savings through reuse
 
 18F uses open source projects in almost everything we do, from
 [operating systems](https://github.com/18F/ubuntu-lts) to programming
-languages, from [static site generators](https://18f.gsa.gov/2015/09/15/federalist-platform-launch/)
+languages, from [static site generators]({{ "/2015/09/15/federalist-platform-launch/" | url }})
 to dynamic web frameworks. We have a soft spot for tools created by
 intrepid civic hackers both within and outside of the government. To
 name just a few, our [Open Source Policy](https://github.com/18F/open-source-policy) has roots in the
@@ -70,7 +70,7 @@ of 18F’s staff (myself included) came from CFPB, so our
 [ties](https://twitter.com/18F/status/616233060250443776)
 [remain](https://twitter.com/gulielmus/status/593524625310547968)
 [quite](https://pages.18f.gov/open-source-program/pages/case_study/CFPB_open_source_documentation/)
-[strong](https://18f.gsa.gov/2015/09/21/cfpb-design-speaker-series/).
+[strong]({{ "/2015/09/21/cfpb-design-speaker-series/" | url }}).
 On eRegs, we have an even tighter bond; our developers and CFPB’s
 developers frequently share our plans and solutions. Not only do we
 share code, but we try to share our visions for the software.
@@ -88,7 +88,7 @@ trying to fix the problem one
 [time](https://github.com/18F/regulations-site/pull/19).
 
 At 18F, we worked with our [cloud.gov](https://cloud.gov) colleagues to make ATF eRegs
-one of the pilot projects for  [cloud.gov's launch](https://18f.gsa.gov/2015/10/09/cloud-gov-launch/). 
+one of the pilot projects for  [cloud.gov's launch]({{ "/2015/10/09/cloud-gov-launch/" | url }}). 
 Cloud.gov hosts and manages shared server infrastructure for the platform, saving money for taxpayers.
 
 Next steps for eRegs

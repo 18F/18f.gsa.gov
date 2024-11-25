@@ -16,7 +16,7 @@ this post we’ll review a five-step process for conducting your first round of 
 ---
 
 This is the second in a two-part series exploring the basics of running
-a remote moderated usability test. In [part one](https://18f.gsa.gov/2018/11/14/introduction-to-remote-moderated-usability-testing-part-1/), we explored
+a remote moderated usability test. In [part one]({{ "/2018/11/14/introduction-to-remote-moderated-usability-testing-part-1/" | url }}), we explored
 usability testing at a high level: what it is and why it’s important. In
 this post we’ll review a five-step process for conducting your first
 round of tests:
@@ -66,7 +66,7 @@ Next, you’ll need to work with your team to confirm:
 Hold a 90-minute planning meeting and invite anyone who has an interest
 in what you’re testing (if you don’t know who that is, conduct
 [stakeholder
-interviews](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/)).
+interviews]({{ "/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/" | url }})).
 Use your discretion of course, but try and invite at least one person
 who has the ability to directly impact the design of the product or
 service you’re testing; this might be a program manager, a contracting
@@ -133,7 +133,7 @@ self-awareness, and listening skills. Don’t let just anyone moderate; be
 honest about whether or not moderation will be difficult for someone
 (for example, the product owner may find this difficult). If it’s the
 moderator’s first time, do a
-[practice](https://18f.gsa.gov/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/)
+[practice]({{ "/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/" | url }})
 run to ensure the moderator is comfortable taking on this role.
 
 ## Step 3: Recruit users and inform their consent
@@ -152,7 +152,7 @@ to include on the Privacy Act Statement accompanying your recruiter
 ([here’s GSA’s Privacy Act Statement for Design Research](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research)),
 and to discuss how you’ll store and manage the information you collect.
 Once your privacy office gives the okay, share the recruiter on
-listservs, social media, or even a popup on your website (which [we prefer](https://18f.gsa.gov/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/)).
+listservs, social media, or even a popup on your website (which [we prefer]({{ "/2017/11/08/four-lessons-we-learned-while-building-our-own-design-research-recruiting-tool/" | url }})).
 For example, a social media-based recruiter could just say
 
 >*“Help us improve the design of OPM.gov! Sign up to participate in a remote usability test by emailing participate-18F@gsa.gov. Learn more about how we’ll protect your information at https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research”*
@@ -257,7 +257,7 @@ Immediately after the tests conclude, pass around to your colleagues,
 especially those who weren’t able to join the tests, links to your most
 informative recordings with relevant timestamps. This will give your
 colleagues a chance to draw their own conclusions *before* the synthesis
-meeting, and should help you [get everyone on board with research findings](https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/).
+meeting, and should help you [get everyone on board with research findings]({{ "/2018/02/06/getting-partners-on-board-with-research-findings/" | url }}).
 
 Once your colleagues have had a chance to consider the data itself,
 schedule **a 90-minute synthesis meeting** to review any/all of the

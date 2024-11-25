@@ -35,7 +35,7 @@ In this two-part series, we’ll provide an introduction to remote
 moderated usability testing. In part one, we’ll explain what usability
 testing is and why it’s important, differentiate usability testing from
 user acceptance testing, and talk about things that *aren’t* required to
-do a usability test. In [part two](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/), we’ll share a simple, five-step
+do a usability test. In [part two]({{ "/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/" | url }}), we’ll share a simple, five-step
 process for running your first round of usability tests.
 
 ## Help us help you
@@ -70,7 +70,7 @@ At 18F, we strongly prefer remote moderated usability testing (as
 demonstrated in the video above), in which moderators, observers, and
 participants join a video call from the comfort of their computers. We
 do this for a few reasons. First, as a distributed team, we default to
-[remote-friendly ways of working](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/).
+[remote-friendly ways of working]({{ "/2015/10/15/best-practices-for-distributed-teams/" | url }}).
 This gives everyone on our team a chance to participate. Second, because
 our agency partners serve users from across the country, a remote-first
 approach lets us hear from users regardless of their location.
@@ -144,7 +144,7 @@ and maintain the information they access during a usability test.)
 
 **Third, usability testing doesn’t require any expertise.** While there
 are plenty of books on design research, and people can certainly get
-better at moderating tests with [practice](https://18f.gsa.gov/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/),
+better at moderating tests with [practice]({{ "/2018/10/23/two-exercises-for-improving-design-research-through-reflective-practice/" | url }}),
 the hardest part of running a test is reading the script (which we’ll
 address in part two) and listening attentively.
 
@@ -158,6 +158,6 @@ describes their awesome work in helping veterans apply for health care
 benefits online. Do check it out. Closer to the end of the post there
 are some great demos of public servants moderating usability tests.
 
-Hopefully you’re just as jazzed as we are. In [part two](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/) of this series,
+Hopefully you’re just as jazzed as we are. In [part two]({{ "/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/" | url }}) of this series,
 we’ll share our five-step approach for running remote moderated
 usability tests.

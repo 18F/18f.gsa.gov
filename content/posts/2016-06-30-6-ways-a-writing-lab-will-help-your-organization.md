@@ -13,7 +13,7 @@ image: /assets/blog/content/writing-lab-issue.jpg
 hero: false
 ---
 Last month, we posted about [our Guide to the 18F Writing
-Lab](https://18f.gsa.gov/2016/04/28/a-guide-to-the-18f-writing-lab/) to
+Lab]({{ "/2016/04/28/a-guide-to-the-18f-writing-lab/" | url }}) to
 shed some light on our internal processes. Since then, we’ve gotten a
 good number of questions about our Lab, including some inquiries from
 folks who are wondering if a lab is right for their organization.
@@ -158,6 +158,6 @@ Ready to learn more?
 
 If you’re keen to learn more about 18F’s Writing Lab, check out [our
 post on how the Lab lends an editorial helping
-hand](https://18f.gsa.gov/2016/01/22/18f-writing-lab/). Also, stay
+hand]({{ "/2016/01/22/18f-writing-lab/" | url }}). Also, stay
 tuned for our upcoming post on the steps you can take to start your own
 lab from scratch!

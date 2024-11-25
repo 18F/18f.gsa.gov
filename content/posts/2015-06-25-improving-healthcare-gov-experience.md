@@ -28,7 +28,7 @@ improve the user experience and application process for citizens looking
 to sign up for health care through the Affordable Care Act.
 
 In this video from the recent [moveForward(100);
-event](https://18f.gsa.gov/2015/05/11/moveforward/), Eric Maland of
+event]({{ "/2015/05/11/moveforward/" | url }}), Eric Maland of
 USDS explains the new improvements to the application system, and how
 his team of eight developers helped save taxpayers tens of millions of
 dollars per year.

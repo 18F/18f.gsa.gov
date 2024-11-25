@@ -16,7 +16,7 @@ Acquisition Services to create the Discovery BPA, which allows the Centers of Ex
 
 TTS continuously iterates on our acquisition practices to incorporate
 lessons learned and what we have seen in previous acquisitions across
-the public sector. Based on the 18F [Agile Blanket Purchase Agreement (BPA) lessons learned](https://18f.gsa.gov/2018/07/26/what-we-learned-from-building-a-pool-of-agile-vendors/),
+the public sector. Based on the 18F [Agile Blanket Purchase Agreement (BPA) lessons learned]({{ "/2018/07/26/what-we-learned-from-building-a-pool-of-agile-vendors/" | url }}),
 TTS knew we wanted to incorporate these lessons in the acquisition work
 with the [Centers of Excellence (CoE)](https://coe.gsa.gov/)’s first
 two agency partners. The industry partners who helped with our initial
@@ -24,7 +24,7 @@ Discovery work at those two agencies helped provide examples and “tests”
 based on industry best practices that the government as a whole (not
 just CoE) could use to identify quality contractors to work with.
 
-[18F](https://18f.gsa.gov/) and CoE wanted to build a vehicle that
+[18F]({{ "/" | url }}) and CoE wanted to build a vehicle that
 provided CoE the ability to staff new agency discovery teams, with
 industry partners who specialized in key functional areas. Additionally,
 it was important to provide our agency partners with greater flexibility

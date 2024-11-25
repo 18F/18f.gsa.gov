@@ -15,11 +15,11 @@ small chunks."
 
 *Note: This is the second post in the series [Managing custom
 software development when you’re not a software
-engineer](https://18f.gsa.gov/2017/09/20/managing-custom-software-development-in-government-when-youre-not-a-software-engineer/)*.
+engineer]({{ "/2017/09/20/managing-custom-software-development-in-government-when-youre-not-a-software-engineer/" | url }})*.
 
 There are lots of [civil servants in the federal government who want to
 do things
-differently](https://18f.gsa.gov/2017/12/12/renata-maziarz-model-civil-servant/).
+differently]({{ "/2017/12/12/renata-maziarz-model-civil-servant/" | url }}).
 But often in government, doing things differently is equated with
 *risk*, and *risk* is something to be minimized as much as possible. So,
 it can be hard to figure out how to get started and how to bring your
@@ -41,7 +41,7 @@ The initial hook
 There are a lot of teams out there saying they practice agile software
 development, when in reality they’ve just broken up their waterfall
 roadmap into two-week sprints (often called
-[agilefall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/)).
+[agilefall]({{ "/2015/12/29/is-your-project-using-agilefall/" | url }})).
 This can lead to executives in government thinking “well, we tried agile
 and it didn’t help at all.” What they really tried is the exact same
 waterfall approach they’ve always been using with a slightly different
@@ -51,7 +51,7 @@ some of these initial biases (just [listen to Tim Gribben, the CFO of
 the Small Business Administration, talk about how he’s not a fan of
 agile](https://youtu.be/X26IGyZ-SUY?t=1m33s), but he acknowledges agile
 development was central to the success of the [DATA Act
-implementation](https://18f.gsa.gov/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/)).
+implementation]({{ "/2016/06/14/prototype-early-prototype-often-lesson-from-the-data-act/" | url }})).
 
 If you think you’re likely to face resistance from your leadership about
 trying an agile development approach, you can start out by asking your
@@ -141,11 +141,11 @@ your requirements may need to change based on your new findings.
 
 Transitioning to agile development [doesn’t need to be a big, sweeping,
 organizational
-change](https://18f.gsa.gov/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/).
+change]({{ "/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/" | url }}).
 You can make it more approachable and less scary by introducing it in
 small chunks. If you want to continue with it, keep an eye out for the
 next post in this series on how to fit agile into existing bureaucratic
 structures (such as CPIC, audits, and program management). Or, check out
 [the first
-post](https://18f.gsa.gov/2017/09/20/managing-custom-software-development-in-government-when-youre-not-a-software-engineer/)
+post]({{ "/2017/09/20/managing-custom-software-development-in-government-when-youre-not-a-software-engineer/" | url }})
 on why you should care about agile in the first place!

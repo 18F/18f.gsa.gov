@@ -22,7 +22,7 @@ hero: false
 
 It’s game time. The Request for Quotation (RFQ) for the [Agile Delivery
 Services Blanket Purchase Agreement (Agile Delivery
-BPA)](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+BPA)]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }})
 is hitting the street on Wednesday, June 17, 2015. When the RFQ is
 released, we will post it on GitHub and the General Service
 Administration’s [eBuy
@@ -41,14 +41,14 @@ working on 18F projects, for our internal needs, and for our partner
 agencies.
 
 Like we said before, we’re [doing things a little
-differently](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/)
+differently]({{ "/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/" | url }})
 in this procurement. We’re requiring vendors to submit a working
 prototype based on a public dataset and show their work in a publicly
 available git repository. We’re also requiring ourselves to adopt a
 rigorous evaluation methodology to ensure that the vendors can meet our
 needs.
 
-[Read more about why this is important.](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/)
+[Read more about why this is important.]({{ "/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/" | url }})
 
 We’ve learned a lot through this process, which admittedly took us
 longer than we expected. We learned from our partners within the General

@@ -11,7 +11,7 @@ excerpt: This summer TTS welcomed Abdul Tahlil as a Coding it Forward Civic
   We’ve invited Abdul to tell us a bit more about the fellowship program and his
   experience as an engineer on the team.
 ---
-This summer TTS welcomed Abdul Tahlil as a Coding it Forward Civic Digital fellow. Abdul joined the TTS Outreach team to work on the [18f.gsa.gov](https://18f.gsa.gov/) site. We’ve invited Abdul to tell us a bit more about the fellowship program and his experience as an engineer on the 18F site team. Take it away Abdul!
+This summer TTS welcomed Abdul Tahlil as a Coding it Forward Civic Digital fellow. Abdul joined the TTS Outreach team to work on the [18f.gsa.gov]({{ "/" | url }}) site. We’ve invited Abdul to tell us a bit more about the fellowship program and his experience as an engineer on the 18F site team. Take it away Abdul!
 
 ## About the Civic Digital Fellowship
 

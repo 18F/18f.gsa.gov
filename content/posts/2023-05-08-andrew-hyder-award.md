@@ -12,7 +12,7 @@ excerpt: >
 ---
 TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 
-This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who tragically passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need.  Examples of his contributions can be found in these blog posts: [A dashboard for privacy offices](https://18f.gsa.gov/2020/12/15/a-dashboard-for-privacy-offices/) and [Forms Resource for Federalist Users](https://18f.gsa.gov/2020/02/18/forms-resource-federalist/).
+This award commemorates the life and work of Andrew Hyder, a consulting software engineer at 18F who tragically passed away in 2021. Andrew was a community organizer who brought together activists, technologists, community members, and others to improve the way that governments delivered services to those in need.  Examples of his contributions can be found in these blog posts: [A dashboard for privacy offices]({{ "/2020/12/15/a-dashboard-for-privacy-offices/" | url }}) and [Forms Resource for Federalist Users]({{ "/2020/02/18/forms-resource-federalist/" | url }}).
 
 {% image "assets/blog/andrew-hyder-award-2023/andrew-hyder-photo.png" "Andrew Hyder speaking at Code for America" %}
 

@@ -15,7 +15,7 @@ redirect_from:
 -  /2018/02/01/transitioning-a-legacy-microsoft-environment-to-the-cloud/
 ---
 
-In our work with government agencies, we sometimes help them move from legacy systems to modern systems. A tricky proposition no matter how you do it, we’ve had great luck using an [encasement strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/).
+In our work with government agencies, we sometimes help them move from legacy systems to modern systems. A tricky proposition no matter how you do it, we’ve had great luck using an [encasement strategy]({{ "/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/" | url }}).
 
 Generally, when we use an encasement strategy on legacy systems, one of our goals is to facilitate access to legacy data sources from the cloud so developers can rapidly prototype a new, modern system. Often, these legacy data sources are on an agency’s premises. For example, this might mean deploying a Node-based website to a cloud-based platform as a service that is backed by an on-premises [Adabas server](https://en.wikipedia.org/wiki/ADABAS), along with the communication and security infrastructure to connect the two. Client-side data sources might include SOAP services, a legacy RDBMS, or a custom web-service layer brokering access to a mainframe database.
 
@@ -27,4 +27,4 @@ Data piped over this connection comes from different systems in a variety of for
 
 Securely connecting Azure with our partner’s on-premises server environment provides all of the benefits of a modern, cloud infrastructure, while making it trivial for application developers to interface with an on-premises heterogeneous legacy environment. For future engagements with agencies who are committed to using Microsoft tools, we’ll begin by proposing this split approach, unified by Hybrid Connections.
 
-_Editor’s note: We choose to use the phrase “[encasement strategy](https://18f.gsa.gov/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/)” rather than “strangler pattern” to refer to the technique [described by Martin Fowler](https://martinfowler.com/bliki/StranglerApplication.html). We’ve found that the word “strangler” can distract unfamiliar audiences from the substantive issues of a blog post._
+_Editor’s note: We choose to use the phrase “[encasement strategy]({{ "/2014/09/08/the-encasement-strategy-on-legacy-systems-and-the/" | url }})” rather than “strangler pattern” to refer to the technique [described by Martin Fowler](https://martinfowler.com/bliki/StranglerApplication.html). We’ve found that the word “strangler” can distract unfamiliar audiences from the substantive issues of a blog post._

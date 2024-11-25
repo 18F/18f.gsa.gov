@@ -24,7 +24,7 @@ image_alt: >
 
 Around 800,000 low-income American families receive cash assistance through Temporary Assistance for Needy Families (TANF) each month. States, tribes, and territories use federal block grant funds to administer the program, and they must report data back to the federal government on a quarterly basis. 
 
-18F and the [Administration for Children & Families’ Office of Family Assistance](https://www.acf.hhs.gov/ofa) partnered on building a new data portal for TANF to replace one over 20 years old. This new portal would upgrade the data reporting experience, improve data quality, inform better policy and programs, and ultimately help the low-income families that receive TANF. [We last blogged about this work in 2020.](https://18f.gsa.gov/2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/)
+18F and the [Administration for Children & Families’ Office of Family Assistance](https://www.acf.hhs.gov/ofa) partnered on building a new data portal for TANF to replace one over 20 years old. This new portal would upgrade the data reporting experience, improve data quality, inform better policy and programs, and ultimately help the low-income families that receive TANF. [We last blogged about this work in 2020.]({{ "/2020/12/17/18f-and-tts-office-of-acquisition-award-first-assisted-acquisition/" | url }})
 
 We caught up with Office of Family Assistance leaders Lauren Frohlich (product owner), and Alex Pennington (technical lead) to see how their agency is continuing with the work.
 

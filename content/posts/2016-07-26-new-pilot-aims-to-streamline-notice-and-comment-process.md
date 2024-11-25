@@ -22,7 +22,7 @@ hero: false
 
 Today, the Environmental Protection Agency (EPA) began asking the public to comment on a [new proposed rule](https://epa-notice.usa.gov/) for establishing the fee methodology for EPA’s electronic hazardous waste manifest system. This rule is also the pilot of the new notice and comment feature of the [eRegulations platform](https://eregs.github.io/).
 
-[eRegulations is an open source platform developed by the Consumer Financial Protection Bureau and 18F](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/) to help make government regulations more readable, accessible, and understandable. The new notice and comment feature allows the public to comment down to the paragraph level on proposed regulations and simplifies the sorting and responding process for federal agencies receiving the comments.
+[eRegulations is an open source platform developed by the Consumer Financial Protection Bureau and 18F]({{ "/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/" | url }}) to help make government regulations more readable, accessible, and understandable. The new notice and comment feature allows the public to comment down to the paragraph level on proposed regulations and simplifies the sorting and responding process for federal agencies receiving the comments.
 
 ## What is notice and comment?
 

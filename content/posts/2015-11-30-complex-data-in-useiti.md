@@ -12,7 +12,7 @@ image: /assets/blog/eiti/minot.png
 hero: false
 ---
 
-Of the dozens of offices in the government that deal with natural resources, the Office of Natural Resource Revenues (ONRR, pronounced “honor”) is responsible for implementing [the global Extractive Industries Transparency Initiative (EITI) standard](https://eiti.org/eiti/implementation). A few weeks ago, we wrote about [the work that lies ahead](https://18f.gsa.gov/2015/11/02/useiti-what-we-learned-where-were-headed/) for the USEITI project. We’re working with a lot of data and finding the best way to present it to the world. One new data point we have from ONRR this year is the *federal production number*: The amount of a given resource produced on federal lands.
+Of the dozens of offices in the government that deal with natural resources, the Office of Natural Resource Revenues (ONRR, pronounced “honor”) is responsible for implementing [the global Extractive Industries Transparency Initiative (EITI) standard](https://eiti.org/eiti/implementation). A few weeks ago, we wrote about [the work that lies ahead]({{ "/2015/11/02/useiti-what-we-learned-where-were-headed/" | url }}) for the USEITI project. We’re working with a lot of data and finding the best way to present it to the world. One new data point we have from ONRR this year is the *federal production number*: The amount of a given resource produced on federal lands.
 
 The "federal production number"
 -------------------------------

@@ -15,7 +15,7 @@ image:
 Since November 2015, 18F has worked with the U.S. Department of Health &
 Human Services and the State of California to [strategically re-think
 large IT
-procurement](https://18f.gsa.gov/2016/03/22/helping-california-buy-a-new-child-welfare-system/).
+procurement]({{ "/2016/03/22/helping-california-buy-a-new-child-welfare-system/" | url }}).
 We brought a cross-functional team of designers, developers, and
 procurement experts to Sacramento to work with the dedicated federal and
 state employees to re-design the procurement process for the state’s

@@ -88,7 +88,7 @@ Rather than trying to migrate an entire system from a data center to the cloud a
 
 Small, iterative deployments will help you figure out the patterns that will work for your agency and team in terms of managing accounts, putting security protections in place, meeting various security controls, and the many other things that will come up. Doing a small cloud deployment all the way through will make subsequent deployments much easier.
 
-For an example, read about how we [moved our DNS records to infrastructure as code](https://18f.gsa.gov/2018/08/15/shared-infrastructure-as-code/).
+For an example, read about how we [moved our DNS records to infrastructure as code]({{ "/2018/08/15/shared-infrastructure-as-code/" | url }}).
 
 ### Automate in-place
 
