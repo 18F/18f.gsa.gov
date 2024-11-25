@@ -1,15 +1,15 @@
 ---
-title: A revised and expanded guide for de-risking government technology projects
+title: >
+  A revised and expanded guide for de-risking government technology projects
 date: 2024-09-12
 authors: 
-- amelia-wong
+  - amelia-wong
 tags:  
-- best practices
-- how we work
-- lessons learned
-excerpt: |
+  - best practices
+  - how we work
+  - lessons learned
+excerpt: >
   New content on vendor management and a streamlined structure make one of 18F's most popular guides even more useful for government staff.
-image: 
 ---
 
 Today we launch a new version of the [De-risking Government Technology Guide](https://guides.18f.gov/derisking-government-tech/), its first update since being published in 2020. Find all the recommendations from the original guide’s two parts—the State Software Budgeting Handbook and the Federal Field Guide—now in one unified package. Plus, there's a new, in-depth section on vendor management! 

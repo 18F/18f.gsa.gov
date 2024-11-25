@@ -1,11 +1,12 @@
 ---
-title: Andrew Hyder Government Service Improvement Award recognizes commitment to serving the public
+title: >
+  Andrew Hyder Government Service Improvement Award recognizes commitment to serving the public
 date: 2024-08-20
 authors:
   - amanda-costello
 tags:
   - public service
-excerpt: |
+excerpt: >
   TTS is proud to present the 2024 Andrew Hyder Government Service Improvement Award to Ryan Ahearn.
 ---
 

@@ -8,7 +8,8 @@ tags:
   - best practices
   - how we work
   - modern practices
-excerpt: "Even on the best teams, things need to be monitored and adjusted. If you are doing this for the first time, it can be even harder. In this article, I share some signals of what success looks like and what to do if you are stuck in one of the many common pitfalls."
+excerpt: >
+  Even on the best teams, things need to be monitored and adjusted. If you are doing this for the first time, it can be even harder. In this article, I share some signals of what success looks like and what to do if you are stuck in one of the many common pitfalls.
 ---
 
 Even on the best teams, things need to be monitored and adjusted. If you are doing this for the first time, it can be even harder. In this article, I share some signals of what success looks like and what to do if you are stuck in one of the many common pitfalls.

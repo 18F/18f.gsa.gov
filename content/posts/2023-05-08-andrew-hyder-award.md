@@ -8,7 +8,7 @@ authors:
 tags:
   - public service
 excerpt: >
-    TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
+  TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 ---
 TTS annually awards the Andrew Hyder Government Service Improvement Award to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 

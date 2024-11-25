@@ -1,16 +1,15 @@
 ---
 date: 2024-03-05
 title: >
- Customer experience: beyond surveys
+  Customer experience: beyond surveys
 authors: 
   - amanda-kennedy
 tags: 
-- 18f
-- how we work
-- user-centered design
+  - 18f
+  - how we work
+  - user-centered design
 excerpt: >
- Want to measure customer experience? Surveys aren’t the only way! Consider these guiding questions to help your team select an approach based on what you want to learn.
-image:
+  Want to measure customer experience? Surveys aren’t the only way! Consider these guiding questions to help your team select an approach based on what you want to learn.
 ---
 
 # Customer experience: beyond surveys

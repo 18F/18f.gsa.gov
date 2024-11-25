@@ -5,7 +5,7 @@ authors:
   - amanda-costello
 tags:
   - public service
-excerpt: |
+excerpt: >
   TTS is proud to present the 2023 Andrew Hyder Government Service Improvement Award to Lalitha Jonnalagadda. This is awarded annually to one or more federal employees who demonstrate both excellence in their work and a commitment to improving the public's experience with government.
 ---
 

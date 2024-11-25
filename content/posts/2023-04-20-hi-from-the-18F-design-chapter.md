@@ -4,16 +4,17 @@ title: >
   “Hi” from the 18F design chapter
 
 authors:
- - melissa-braxton
- - ron-bronson
- - amanda-costello
- - laura-nash
+  - melissa-braxton
+  - ron-bronson
+  - amanda-costello
+  - laura-nash
  
 tags:
   - join us
   - culture
   - how we work
   - user-centered design
+  
 excerpt: >
   Designing technology-enabled public services requires deep expertise in how different elements of the experience come together (or don’t!).  The 18F design chapter comprises four discipline-specific cohorts — service design, user experience (UX) design, product design, and content strategy.
 image: 

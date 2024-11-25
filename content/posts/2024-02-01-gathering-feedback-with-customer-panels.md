@@ -1,15 +1,13 @@
 ---
 date: 2024-02-01
-title: >
- Gathering feedback with customer panels
+title: Gathering feedback with customer panels
 authors: 
   - boon-sheridan
 tags: 
-- 18f
-- how we work
+  - 18f
+  - how we work
 excerpt: >
- Ever wondered how the federal government, cities, towns and other groups get a .gov domain for their sites? The Cybersecurity and Infrastructure Security Agency (CISA) manages all these domains across the web. Learn how we helped CISA build a customer panel to gather feedback from current customers as part of our partnership in building a new website for the .gov registrar.
-image:
+  Ever wondered how the federal government, cities, towns and other groups get a .gov domain for their sites? The Cybersecurity and Infrastructure Security Agency (CISA) manages all these domains across the web. Learn how we helped CISA build a customer panel to gather feedback from current customers as part of our partnership in building a new website for the .gov registrar.
 ---
 
 # Recruiting customers with feedback panels
