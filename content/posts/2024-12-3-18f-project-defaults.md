@@ -7,7 +7,7 @@ excerpt: >
   This year, 18F worked on 31 projects across government agencies. We want to share five templates we have adopted as defaults across our projects.
 ---
 
-This year, 18F worked on 31 projects across government agencies. Our digital services projects ranged from [supporting the launch of the IRS Direct File Pilot]({{site.baseurl}}/2024/10/08/18f-year-of-launches/#:~:text=%F0%9F%9A%80%20IRS%20Direct%20File%20Pilot%20launch%20with%20the%20Internal%20Revenue%20Service%20and%20the%20U.S.%20Digital%20Service), to building the National Accuracy Clearinghouse with the U.S. Department of Agriculture and helping GSA’s Benefits studio launch Notify.gov.
+This year, 18F worked on 31 projects across government agencies. Our digital services projects ranged from [supporting the launch of the IRS Direct File Pilot]({{ "/2024/10/08/18f-year-of-launches/#:~:text=%F0%9F%9A%80%20IRS%20Direct%20File%20Pilot%20launch%20with%20the%20Internal%20Revenue%20Service%20and%20the%20U.S.%20Digital%20Service" | url }}), to building the National Accuracy Clearinghouse with the U.S. Department of Agriculture and helping GSA’s Benefits studio launch Notify.gov.
 
 In this post, we want to share five templates we have adopted as defaults across our projects.
 
