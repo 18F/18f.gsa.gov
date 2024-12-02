@@ -40,7 +40,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
-    "html-validate": "^8.24.2",
+    "html-validate": "^8.27.0",
     "jsdom": "^22.1.0",
     "mocha": "^10.8.2",
     "netlify-cms": "^2.8.0",
