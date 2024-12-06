@@ -128,7 +128,7 @@ markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) =
                          'aria-hidden="true" role="img">' +
                          '<use xlink:href="#svg-lock_outline"></use>' +
                          '</svg>'
-      content = content.replace('>', `> ${prefixIcon}`);
+      content = content.replaceAll('>', `> ${prefixIcon}`);
       tokens[idx].content = content;
     }
 
@@ -141,7 +141,7 @@ markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) =
         }
       }
       else {
-        content = content.replace('>', ' class="usa-link usa-link--external">');
+        content = content.replaceAll('>', ' class="usa-link usa-link--external">');
         tokens[idx].content = content;
       }
       if (content.includes('rel=')) {
@@ -151,7 +151,7 @@ markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) =
         }
       }
       else {
-        content = content.replace('>', ' rel="noreferrer">');
+        content = content.replaceAll('>', ' rel="noreferrer">');
         tokens[idx].content = content;
       }
     }
