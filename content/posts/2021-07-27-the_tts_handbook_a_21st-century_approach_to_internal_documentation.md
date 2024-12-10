@@ -18,7 +18,7 @@ Nearly five years after its inception, we realized there haven’t been any blog
 
 In a nutshell, the Handbook is our take on internal government documentation. It is an open, crowd-sourced, accessible, and living resource that aims to provide the information our team needs to do their work.
 
-<img src="{{ "/assets/blog/image4.gif" | url }}" alt="Animated GIF of the TTS Handbook homepage and the "Mission, history, and values" page" />
+<img src="{{ "/assets/blog/image4.gif" | url }}" alt="Animated GIF of the TTS Handbook homepage and the TTS mission, history, and values" />
 
 In this post, we’ll unpack the Handbook’s core values -- and how they’re implemented in practice. We’ll dive into our experience with the Handbook and even highlight some other organizations who’ve adopted it. Finally, we’ll touch on what’s in store for the project going forward. If you’re a federal employee, civic technologist, or member of the public, we hope to leave you with a sense of what 21st-century transparency in your government looks like.
 
