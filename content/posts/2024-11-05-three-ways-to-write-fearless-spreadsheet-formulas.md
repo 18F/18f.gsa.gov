@@ -193,10 +193,10 @@ How does naming values like this help make our formulas better? Well, we can use
 
 First, let's write the story of our code, following the order of Avdi's steps.
 
-Gather input: Get the number of visitors in the quarter and the number of days in the quarter
-Perform work: Divide the number of visitors by the number of days to get the rate, then round the rate
-Handle failure: Handle when there are zero days elapsed at the start of a quarter
-Deliver results: Format and present the rate
+- **Gather input**: Get the number of visitors in the quarter and the number of days in the quarter
+- **Perform work**: Divide the number of visitors by the number of days to get the rate, then round the rate
+- **Handle failure**: Handle when there are zero days elapsed at the start of a quarter
+- **Deliver results**: Format and present the rate
 
 Let's translate these steps, in this order, into formula code.
 
