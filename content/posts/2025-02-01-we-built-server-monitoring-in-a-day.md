@@ -10,15 +10,15 @@ excerpt: |
 
 ---
 
-Our partners at one government agency experience periodic internet outages at one of their rural data centers. They would sometimes get emails from users who encountered problems during the outages, but our partners didn't have a good way to reliably know when their servers went down — until 18F stepped in.
+Our partners at one government agency had been experiencing periodic internet outages at one of their rural data centers. They would sometimes get emails from users who encountered problems during the outages, but our partners didn't have a reliable way to know when their servers were down — until 18F stepped in.
 
-We're working on a root-cause solution — deploying to the cloud, avoiding the need for rural data centers. But our partner's immediate need was to know when their servers were down, so they could take corrective actions quickly.
+We were already working with them on a solution to address the root problem. Deploying to the cloud would avoid the need for rural data centers with spotty coverage. But our partner's immediate need was to know when their servers were down, so they could fix it quickly.
 
-We considered procuring commercial server monitoring services. But that would mean we'd have to do a marketplace analysis, draft and publish a solicitation, go through a contracting process, and set up full-fledged server monitoring. Why go through a whole procurement and pay for features beyond our immediate needs, when we only need a simple monitor to see if the server is up or down?
+What should we do? We considered procuring commercial server monitoring services. But that would mean we'd have to do a marketplace analysis, draft and publish a solicitation, go through a contracting process, and set up full-fledged server monitoring. Why go through a whole procurement and pay for features beyond our immediate needs, when we only need a simple monitor to see if the server is up or down?
 
 So, we thought some more, and someone asked — _"why not make it a spreadsheet"_? What if we ran a script that would check if the server is up or down, and log the status in a spreadsheet? From there, we'd figure out how to automatically read the spreadsheet, and alert the team when the server went down.
 
-We iterated on this solution idea a few more times, and landed on the following solution.
+We iterated on this solution idea a few more times, and landed on the following solution:
 
 1. Every fifteen minutes, run a script to see if the server is up or down. We decided to use GitHub Actions to run the script at no cost.
 
@@ -42,7 +42,7 @@ timestamp                 | http | up_or_down
 ![Screenshot 2025-01-29 at 5 11 26 PM](https://github.com/user-attachments/assets/cafb0c48-ab73-420a-ba6a-08fb1e4bd76e)
 
 
-We developed a working solution in less than one day. We refined it over the next few weeks: we brought it into alignment with Section 508 / WCAG accessibility guidelines, improved the overall look, and clarified the content based on user feedback.
+We developed a working solution in less than one day. We refined it over the next few weeks: we aligned it with Section 508 / WCAG accessibility guidelines, improved the overall look, and clarified the content based on user feedback.
 
 We also discovered that one component we wanted to monitor was not accessible over the public internet, and ran in a Windows environment. This meant that we couldn't reach the component using our GitHub Actions script, nor could we use the Unix-based GitHub Actions script on a Windows operating system. So, we worked with our partner to adapt the script to run on a Windows server, allowing us to monitor the complete system.
 
