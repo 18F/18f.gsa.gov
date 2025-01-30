@@ -10,15 +10,13 @@ excerpt: |
 
 ---
 
-Our partners at one government agency experience periodic internet outages at one of their rural data centers. They sometimes get emails from users about the outages, but they didn't have a good way to reliably know when their servers went down.
+Our partners at one government agency experience periodic internet outages at one of their rural data centers. They would sometimes get emails from users who encountered problems during the outages, but our partners didn't have a good way to reliably know when their servers went down — until 18F stepped in.
 
-We're working a root-cause solution where we deploy to the cloud, but for now, our partner needs to know when their servers are down.
+We're working on a root-cause solution — deploying to the cloud, avoiding the need for rural data centers. But our partner's immediate need was to know when their servers were down, so they could take corrective actions quickly.
 
-We considered procuring commercial server monitoring services. But that would mean we'd have to do a marketplace analysis, draft and publish a solicitation, go through a contracting process, and set up full-fledged server monitoring.
+We considered procuring commercial server monitoring services. But that would mean we'd have to do a marketplace analysis, draft and publish a solicitation, go through a contracting process, and set up full-fledged server monitoring. Why go through a whole procurement for and pay for features beyond our immediate needs, when we only need a simple monitor to see if the server is up or down?
 
-But why go through a whole procurement for and pay for features beyond our immediate needs, when we only need a simple periodic check if the server is up or down?
-
-So, we thought some more, and someone asked — why not make it a spreadsheet? What if we ran a script that would check if the server is up or down, and log the status in a spreadsheet? From there, we'd figure out how to automatically read the spreadsheet, and alert the team when the server went down.
+So, we thought some more, and someone asked — _"why not make it a spreadsheet"_? What if we ran a script that would check if the server is up or down, and log the status in a spreadsheet? From there, we'd figure out how to automatically read the spreadsheet, and alert the team when the server went down.
 
 We iterated on this solution idea a few more times, and landed on the following solution.
 
@@ -57,12 +55,14 @@ We also discovered that one component we wanted to monitor was not accessible ov
 
 **Time**: About a day for basic working software. It's been described by one team member as "maybe the fastest delivery that's ever happened on a partner project".
 
-Because this is open-source software, and because we wrote it to be very simple, anyone in the country (or the world) with a basic knowledge of HTML and JavaScript could use this to monitor their website.
+Since this is open-source software, any government agency already using GitHub Pages has everything they need to set up no-cost server monitoring and alerting. All they have to do is copy the code and change a few configuration details.
+
+We designed the software to be very simple and therefore easy to read. Theoretically, anyone in the country with a basic knowledge of HTML and JavaScript could use this to monitor their website. 
 
 
 ### Questions engineers might have
 
-**Won't the file you're logging to become huge?** Checking the server status every 15 minutes, it will take about 40 years for GitHub to warn us that the file is getting too large. It will take 80 years for GitHub to stop allowing us to keep writing logs to the file.
+**Won't the file you're logging to become huge?** Checking the server status every 15 minutes, it will take about 40 years before GitHub starts warning us that the file is getting too large. It will take 80 years for the file to reach GitHub's file size limits.
 
 **Won't it take a long time to read the log file once it becomes large?** Nope! Every time we log the server status, we copy the last 24 hours of logs to a separate smaller file. This keeps the page load zippy!
 
