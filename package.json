@@ -59,7 +59,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@uswds/uswds": "3.9.0",
+    "@uswds/uswds": "3.11.0",
     "autoprefixer": "^10.4.19",
     "csv-parse": "^5.5.6",
     "eleventy-plugin-embed-twitter": "^1.4.1",
