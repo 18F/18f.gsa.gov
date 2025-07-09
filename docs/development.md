@@ -43,7 +43,7 @@ Additionally, we manually use `prettier` for code formatting.
 
 ### Accessibility Scanning
 
-We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
+We use `pa11y-ci` to scan for accessibility issues. The scan runs as part of
 our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
 on every pull request, but it can also be run locally. To run locally, type:
 
