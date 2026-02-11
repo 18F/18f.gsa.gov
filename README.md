@@ -1,4 +1,5 @@
 # 18F website and blog
+[![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/18F/18f.gsa.gov)
 
 The 18F website and blog serve as 18F's primary outreach tool, communicating about 18F's way of working and value proposition to prospective partners, the broader digital services community, and the general public.
 
