@@ -68,4 +68,4 @@ That is where I focus my efforts within 18F. I also think that part of improving
 
 ## Get Started
 
-Interested in joining [our team]({{ "/2021/05/11/we_asked_our_coworkers_why_did_you_join_18f/" | url }})? Check out open positions and how to apply [on the TTS join page](https://join.tts.gsa.gov/).
+Interested in joining [our team]({{ "/2016/03/21/we-asked-100-of-our-coworkers-why-did-you-join-18f/" | url }})? Check out open positions and how to apply [on the TTS join page](https://join.tts.gsa.gov/).

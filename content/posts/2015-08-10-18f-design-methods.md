@@ -158,22 +158,22 @@ love to hear how we could make the method cards even more useful to you.
 
 Project team:
 
--   [Jeremy Canfield]({{ "/author/jeremy/" | url }})
+-   Jeremy Canfield
 
--   [Elizabeth Goodman]({{ "/author/egoodman/" | url }})
+-   Elizabeth Goodman
 
--   [James Hupp]({{ "/author/jameshupp/" | url }})
+-   James Hupp
 
--   [Jeannine Hunter]({{ "/author/jhunter/" | url }})
+-   Jeannine Hunter
 
--   [Colin MacArthur]({{ "/author/colinmacarthur/" | url }})
+-   Colin MacArthur
 
--   [Andrew Maier]({{ "/author/andrewmaier/" | url }})
+-   Andrew Maier
 
--   [Brad Nunnally]({{ "/author/bradnunnally/" | url }})
+-   Brad Nunnally
 
--   [Jennifer Thibault]({{ "/author/jthibault/" | url }})
+-   Jennifer Thibault
 
--   [Russ Unger]({{ "/author/russ/" | url }})
+-   Russ Unger
 
--   [Victor Zapanta]({{ "/author/victor/" | url }})
+-   Victor Zapanta

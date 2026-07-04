@@ -92,13 +92,13 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  those tools, write about them more, and identify the parts of our
  work that are generic. Decoupling them from the applications we
  developed them for will make it easier for others to reuse them.
- (h/t [**Eric Mill**]({{ "/author/eric/" | url }}))
+ (h/t **Eric Mill**)
 
 -   **Learn from previous contributors.** We’d like to reach out to
  previous contributors to see what they liked and didn’t like. If
  they contributed once and never returned, we’d like to find out
- why. Are there ways we can invite them back? (h/t [**Maya
- Benari**]({{ "/author/maya/" | url }}))
+ why. Are there ways we can invite them back? (h/t **Maya
+ Benari**)
 
 -   **Make it worthwhile** to contribute. Unpaid work on government
  projects is public service, requiring time, effort, and skill, and
@@ -120,7 +120,7 @@ to](https://github.com/18F/18f.gsa.gov/issues/1445):
  etiquette**. For example, you should always explain why you're
  closing an issue or pull request — and we shouldn't expect new
  hires to know that on their first day. (h/t
- [**Leah Bannon**]({{ "/author/leah/" | url }}))
+ **Leah Bannon**)
 
 -   **Address user needs.** Here’s a specific user need: "I have a lot
  of experience with open source, and I heard about 18F. Can you

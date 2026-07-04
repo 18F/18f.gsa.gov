@@ -2,7 +2,9 @@
 
 The 18F website and blog serve as 18F's primary outreach tool, communicating about 18F's way of working and value proposition to prospective partners, the broader digital services community, and the general public.
 
-## I’d like to make a contribution, how do I update this content?
+## Contributing
+
+Start with [CONTRIBUTING.md](CONTRIBUTING.md) for project policies, licensing, and contributor expectations. If you're an 18F team member adding a blog post or updating site content, use the existing files in `content/posts/` and `content/pages/` as examples, then follow the [development docs](docs/development.md) to preview and test your changes locally.
 
 All team members are encouraged to submit blog posts and suggest website improvements that benefit the organization.
 
@@ -10,7 +12,7 @@ Though this website and blog carry the 18F brand, the intention is to spread the
 
 By developing this material in the open, we hope to encourage expert review and contributions from members of the tech community outside of government, furthering our goal of improving how government works through increased civic engagement of tech specialists. We hope this material and the means by which it is developed will attract new recruits to government technology positions, but for those who are not inclined to do so, helping cultivate the guides is a potentially high-visibility, high-impact contribution to government work that doesn’t require a major life change.
 
-The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & approver roles for content in the guides — if you’re not receiving a timely (within two weeks) review or notice the list is outdated, reach out to 18F’s Outreach coordinator for assistance. These reviewers will be automatically tagged appropriately when opening pull requests. Read [CONTRIBUTING](CONTRIBUTING.md) for more information.
+The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & approver roles for content in the guides — if you’re not receiving a timely (within two weeks) review or notice the list is outdated, reach out to 18F’s Outreach coordinator for assistance. These reviewers will be automatically tagged appropriately when opening pull requests.
 
 Issues opened in this repo are automatically added to the [18F TLC project board](https://github.com/orgs/18F/projects/41/views/1) for prioritization for 18F staff in between projects to work on.
 

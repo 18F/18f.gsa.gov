@@ -21,8 +21,8 @@ models out of Legos, and visiting electric cars from the GSA Fleet.
 
 How could we impress them after that? Turns out, it was kind of hard.
 
-“Coding isn’t a new concept for kids anymore,” said [Elaine
-Kamlley]({{ "/author/elaine/" | url }}), a developer at 18F who
+“Coding isn’t a new concept for kids anymore,” said Elaine
+Kamlley, a developer at 18F who
 helped organize their visit. “Most of them who sat down to code with us
 said they played these games in school before.”
 
